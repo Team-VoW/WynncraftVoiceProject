@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "wynncraftvp",
+  "name": "Wynncraft Voice Project",
+  "description": "Adds voice acting to Wynncraft!",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Sockmower", "Techtician", "kmaxi"],
+  "credits": "The WynnVP Team and Voice Actors",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
