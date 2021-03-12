@@ -1,5 +1,6 @@
 package com.wynnvp.wynncraftvp;
 
+import com.wynnvp.wynncraftvp.events.RegistryHandler;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -27,6 +28,7 @@ public class ModCore {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-
+        RegistryHandler.initRegistries();
     }
+
 }

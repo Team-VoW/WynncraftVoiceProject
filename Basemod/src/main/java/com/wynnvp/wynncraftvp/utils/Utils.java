@@ -13,6 +13,7 @@ public class Utils {
         }
     }
 
+    //Returns the path to the sound file in the format that is used in the JSON
     public static String pathToFile(String firstNumber, String secondNumber, String npcName, String line) {
         if (line.contains(Minecraft.getMinecraft().player.getName())) {
             line = line.replaceAll(Minecraft.getMinecraft().player.getName(), "player");

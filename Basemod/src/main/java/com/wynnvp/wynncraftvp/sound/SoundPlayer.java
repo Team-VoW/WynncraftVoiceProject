@@ -1,7 +1,9 @@
 package com.wynnvp.wynncraftvp.sound;
 
+import com.wynnvp.wynncraftvp.events.RegistryHandler;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.audio.SoundHandler;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundCategory;
@@ -11,17 +13,27 @@ public class SoundPlayer {
 
     //Code that is run to play all the sounds
     public static void playSound(String line) {
-        if (line.equalsIgnoreCase("test")){
-            Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(new SoundEvent(new ResourceLocation("sounds", "test"))));
+        //IF chat message is test to test playing a sound.
+        // Delete this once it is tested.
+        if (line.equals("test")) {
+            SoundEvent soundEvent = SoundsHandler.TALKING_MUSHROOM_RETURNINGARDFD;
+            //Minecraft.getMinecraft().player.playSound(soundEvent, 100, 1);
+            //playSoundAtCoords(0, 100, 0, soundEvent);
+            Minecraft.getMinecraft().player.sendChatMessage("Playing sound");
+            Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(soundEvent));
             return;
         }
 
         SoundEvent soundEvent = getSoundEventFromLine(line);
-        if (soundEvent == null){
+        //If the line the npc said is not included
+        if (soundEvent == null) {
             return;
         }
+
         String coords = getNPCCoords(line);
+        //If the npc does not have any coords
         if (coords == null) {
+            //Play the sound at the player
             Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(soundEvent));
             return;
         }
@@ -48,7 +60,7 @@ public class SoundPlayer {
         try {
             ResourceLocation sound = new ResourceLocation("sounds", Utils.pathToFile(splitNumbers[0], splitNumbers[1], splitNumberAndName[1], splitLine[1]));
             return new SoundEvent(sound);
-        } catch (Exception e){
+        } catch (Exception e) {
             return null;
         }
 

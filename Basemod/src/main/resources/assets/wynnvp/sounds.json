@@ -1,25 +1,7 @@
 {
-  "test": {
-    "sounds": [{"name": "wynnvp:returningRFD1", "stream": true}]
-  },
-
-  "TalkingMushroom:": {
-    " WOW, REAL GRAND CITY HERE, HUH? THIS PLACE IS HUGE! AND PROBABLY A MESS TO NAVIGATE, REALLY POORLY DESIGNED IF YOU THINK ABOUT IT.": {
-      "sounds": [{"name": "wynnvp:name", "stream": true}]
-    },
-    " OH MY, LOOKS WHO'S BACK. HERE I THOUGHT I WAS FREE OF YOUR GRASP AND THEN YOU COME BACK HERE.": {
-      "sounds": [{"name": "wynnvp:returningRFD1", "stream": true}]
-    },
-    " WAS PUTTING ME IN SOME EGGS NOT GOOD ENOUGH FOR YOU? I BARELY MANAGED TO RUN AWAY LOSING JUST A STEM!": {
-      "sounds": [{"name": "wynnvp:returningRFD2", "stream": true}]
-    }
-  },
-  "Yahya": {
-    " G-...Hi! What a coincidence, I... I actually need you, yes.":{
-      "sounds": [{"name": "wynnvp:name", "stream": true}]
-    },
-    " You see, um... I am out of... red mushrooms. Yes. I need them. Mushrooms.":{
-      "sounds": [{"name": "wynnvp:name", "stream": true}]
-    }
+  "talkingMushroomreturningAfterRFD": {
+      "category": "player",
+      "subtitle": "test",
+      "sounds": [{ "name": "wynnvp:/returningAfterRFD", "stream": true}]
   }
 }
