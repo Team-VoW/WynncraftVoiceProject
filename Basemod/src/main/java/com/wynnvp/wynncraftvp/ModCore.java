@@ -10,10 +10,11 @@ import org.apache.logging.log4j.Logger;
 @Mod(
         modid = ModCore.MODID,
         name = ModCore.NAME,
-        version = ModCore.VERSION
+        version = ModCore.VERSION,
+        clientSideOnly = true
 )
 public class ModCore {
-    public static final String MODID = "wynncraftvp";
+    public static final String MODID = "wynnvp";
     public static final String NAME = "Wynncraft Voice Project";
     public static final String VERSION = "0.1";
 

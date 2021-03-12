@@ -1,4 +1,4 @@
-package com.wynnvp.wynncraftvp;
+package com.wynnvp.wynncraftvp.sound;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.MovingSound;
@@ -6,9 +6,9 @@ import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 
-public class WynnVPMovingSound extends MovingSound {
+public class SoundAtPlayer extends MovingSound {
 
-    public WynnVPMovingSound(SoundEvent soundEvent){
+    public SoundAtPlayer(SoundEvent soundEvent){
         super(soundEvent, SoundCategory.VOICE);
     }
     @Override
@@ -18,7 +18,6 @@ public class WynnVPMovingSound extends MovingSound {
         this.xPosF = (float)playerSP.posX;
         this.zPosF = (float)playerSP.posZ;
         this.yPosF = (float)playerSP.posY;
-        //TODO Change this to the NPCS location
     }
 
 }
