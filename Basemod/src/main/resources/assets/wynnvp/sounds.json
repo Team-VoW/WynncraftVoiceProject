@@ -1,7 +1,6 @@
 {
   "talkingMushroomreturningAfterRFD": {
-      "category": "player",
-      "subtitle": "test",
-      "sounds": [{ "name": "wynnvp:/returningAfterRFD", "stream": true}]
+      "category": "voice",
+      "sounds": [{ "name": "wynnvp:returningffterrfd", "stream": true}]
   }
 }

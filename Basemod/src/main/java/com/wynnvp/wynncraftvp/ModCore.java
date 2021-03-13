@@ -1,7 +1,7 @@
 package com.wynnvp.wynncraftvp;
 
-import com.wynnvp.wynncraftvp.events.RegistryHandler;
-import net.minecraft.init.Blocks;
+import com.wynnvp.wynncraftvp.coords.CoordsHandler;
+import com.wynnvp.wynncraftvp.sound.SoundsHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -18,6 +18,9 @@ public class ModCore {
     public static final String MODID = "wynnvp";
     public static final String NAME = "Wynncraft Voice Project";
     public static final String VERSION = "0.1";
+    public SoundsHandler soundsHandler;
+    public CoordsHandler coordsHandler;
+    public static ModCore instance;
 
     private static Logger logger;
 
@@ -28,7 +31,9 @@ public class ModCore {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        RegistryHandler.initRegistries();
+        soundsHandler = new SoundsHandler();
+        coordsHandler = new CoordsHandler();
+        instance = this;
     }
 
 }

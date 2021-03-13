@@ -5,12 +5,25 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
-public class SoundsHandler {
-    public static SoundEvent TALKING_MUSHROOM_RETURNINGARDFD;
+import java.util.HashMap;
 
-    public static void registerSounds(){
-        TALKING_MUSHROOM_RETURNINGARDFD = registerSound("talkingMushroomreturningAfterRFD");
+public class SoundsHandler {
+   // public static SoundEvent TALKING_MUSHROOM_RETURNINGARDFD;
+    public HashMap<Integer, SoundEvent> sounds;
+
+    public SoundsHandler() {
+        sounds = new HashMap<>();
+        registerSounds();
     }
+
+    public void registerSounds(){
+        sounds.put("[1/2] Talking Mushroom: OH MY, LOOK WHO'S BACK. HERE I THOUGHT I WAS FREE OF YOUR GRASP AND THEN YOU COME BACK HERE.".hashCode(), registerSound("talkingMushroomreturningAfterRFD"));
+
+
+      //  TALKING_MUSHROOM_RETURNINGARDFD = registerSound("talkingMushroomreturningAfterRFD");
+
+    }
+
 
     private static SoundEvent registerSound(String name) {
         ResourceLocation location = new ResourceLocation(ModCore.MODID, name);
