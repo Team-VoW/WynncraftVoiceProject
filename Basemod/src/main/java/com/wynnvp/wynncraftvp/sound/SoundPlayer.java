@@ -1,11 +1,11 @@
 package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.coords.FullCoordinate;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
+import net.minecraft.util.math.BlockPos;
 
 public class SoundPlayer {
 
@@ -13,34 +13,27 @@ public class SoundPlayer {
     public static void playSound(String line) {
         ModCore modCore = ModCore.instance;
         SoundsHandler soundsHandler = modCore.soundsHandler;
+        line = SoundsHandler.formatToSound(line);
         if (!soundsHandler.sounds.containsKey(line.hashCode())) {
             return;
         }
-        SoundEvent soundEvent = soundsHandler.sounds.get(line.hashCode());
+        CustomSoundClass customSoundClass = soundsHandler.sounds.get(line.hashCode());
+        SoundEvent soundEvent = customSoundClass.getSoundEvent();
 
-        FullCoordinate coords = getNPCCoords(line);
-        //If the npc does not have any coords
-        if (coords == null) {
+        //If this is a moving sound
+        if (customSoundClass.isMovingSound()) {
             //Play the sound at the player
             Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(soundEvent));
             return;
         }
-        playSoundAtCoords(coords.getX(), coords.getZ(), coords.getY(), soundEvent);
-    }
-
-
-    private static FullCoordinate getNPCCoords(String line) {
-        //Split the line ([x/b] <NPCName>: <text>) at :
-        String[] splitLine = line.split(":");
-        //Splits the [x/b] and <NPCName>
-        String[] splitNumberAndName = splitLine[0].split("] ");
-
-        return ModCore.instance.coordsHandler.getLocation(splitNumberAndName[1]);
-    }
-
-    private static void playSoundAtCoords(double x, double z, double y, SoundEvent soundEvent) {
         EntityPlayerSP player = Minecraft.getMinecraft().player;
-        player.getEntityWorld().playSound(x, y, z, soundEvent, SoundCategory.VOICE, 1, 1, false);
+        playSoundAtCoords(player.getPosition(), soundEvent);
+    }
+
+
+    private static void playSoundAtCoords(BlockPos blockPos, SoundEvent soundEvent) {
+        EntityPlayerSP player = Minecraft.getMinecraft().player;
+        player.getEntityWorld().playSound(blockPos.getX(), blockPos.getY(), blockPos.getZ(), soundEvent, SoundCategory.VOICE, 1, 1, false);
     }
 
 

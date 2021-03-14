@@ -16,9 +16,9 @@ public class ReceiveChatEvent {
             SoundPlayer.playSound("[1/2] Talking Mushroom: OH MY, LOOK WHO's BACK. HERE I THOUGHT I WAS FREE OF YOUR GRASP AND THEN YOU COME BACK HERE.");
             return;
         }
-        if (!Utils.inWynn()) {
-            return;
-        }
+       // if (!Utils.inWynn()) {
+         //   return;
+      //  }
         if (!meetsFormat(msg)) {
             return;
         }
