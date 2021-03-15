@@ -17,7 +17,7 @@ public class SoundsHandler {
     }
 
     public void registerSounds(){
-            //Creeper Infiltration
+        //Creeper Infiltration
         addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "thomas_creeperinfl_1", false);
         addSound("[1/10] Thomas: I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion merchant to heal you?", "thomas_creeperinfl_2", false);
         addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "thomas_creeperinfl_3", false);
@@ -33,10 +33,10 @@ public class SoundsHandler {
 
         //Grave Digger
         addSound("[1/8] Sayleros: You sure look like a strong adventurer who could help me!", "gravediggersayleros1", false);
-        addSound("[1/2] Drucksh: Mmh. g... uh! oh why hello there.", "gravediggerdrucksch1", false);
+        addSound("[1/2] Drucksh: Mmh. g... uh! oh, why hello there.", "gravediggerdrucksch1", false);
         addSound("[1/4] Drucksh: Ohh mmhhhgg... g-g-good old Nemract whiskey!", "gravediggerdrucksch2", false);
         addSound("[1/4] The Priest: Are you trying to go down into the crypt? Oh, that is a very bad idea.", "gravediggerpriest1", false);
-        addSound("[1/2] Priest: You got the flesh. Good.", "gravediggerpriest2", false);
+        addSound("[1/2] The Priest: You got the flesh. Good.", "gravediggerpriest2", false);
         addSound("[1/1] Sayleros: Brilliant! It is a little bit dusty, but it will do the trick! Here, take these as proof of my gratitude.", "gravediggersayleros2", false);
 
         //Wrath of the Mummy
@@ -47,13 +47,28 @@ public class SoundsHandler {
         addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummyormrod2", false);
 
         //Corrupted village
+        addSound("[1/17]roy:well,thatdidthetrick.let'stakealook.", "corruptedviallgeroy", false);
         addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallgeorikal1", false);
         addSound("[1/6] Orikal: That was quick... did you find anything?", "corruptedviallgeorikal2", false);
         addSound("[1/5] Orikal: Okay. I happen to know a recipe for creating an extremely lethal magical explosive.", "corruptedviallgeorikal3", false);
         addSound("[1/3] Orikal: You got 'em all! Excellent, this is exactly what we need.", "corruptedviallgeorikal4", false);
         addSound("[1/4] Orikal: Oh, do you feel that? It's like a buzzing in my ears I never knew about has just vanished.", "corruptedviallgeorikal5", false);
-        addSound("[1/17] Roy: Well, that did the trick. Let's take a look.", "corruptedviallgeroy", false);
         addSound("[1/3] Alfonse: This is insane, why are we here?! We're looking for corruption you know that right?", "corruptedviallgealfonse", true);
+
+        //Ice nations
+        addSound("[1/6] Adigard: Welcome traveler, to our humble island...", "icenationsadigard1", false);
+        addSound("[1/7] Adigard: I should have expected that. Hallfred was always very greedy...", "icenationsadigard2", false);
+        addSound("[1/5] Hallfred: Welcome traveler! What brings you on our island?", "icenationshallfred1", false);
+        addSound("[1/4] Hallfred: Incredible! He actually delivered the treasure!", "icenationshallfred2", false);
+
+        //Lost Royalty
+        addSound("[1/5] Yavlis: Oh, hello there! I had hoped not to bother you, adventurer, but this is urgent.", "lostroyaltyyalvis1", false);
+        addSound("[1/5] Yavlis: Ah, finally! You're back. Did they let you bring him back? Those mercenaries have an awful habit of failing to honour their deals.", "lostroyaltyyalvis2", false);
+        addSound("[1/7] Mercenary Leader: Excuse me?! What are you doing here, how did you find our secret hideout?", "lostroyaltymercenary1", false);
+        addSound("[1/3] Mercenary Leader: You've gotten the talisman! I can't believe you actually got through that puzzle!", "lostroyaltymercenary2", false);
+        addSound("[1/4] Prince of Troms: Uh... Hi? Err, why did you free me? I'm trying to run away, I hate being the son of the king.", "lostroyaltykingsson", false);
+
+
       //  TALKING_MUSHROOM_RETURNINGARDFD = registerSound("talkingMushroomreturningAfterRFD");
 
     }
@@ -74,6 +89,7 @@ public class SoundsHandler {
 
     public static String formatToSound(String message) {
         message = message.replaceAll(" ", "");
+        message = message.replaceAll("’", "");
         message = message.toLowerCase();
         return message;
     }

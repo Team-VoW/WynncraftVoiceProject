@@ -89,6 +89,7 @@
     "sounds": [{ "name": "wynnvp:wrathofthemummyormrod2", "stream": true}]
   },
 
+
     "corruptedviallgealfonse": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:corruptedviallgealfonse", "stream": true}]
@@ -116,5 +117,45 @@
   "corruptedviallgeroy": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:corruptedviallgeroy", "stream": true}]
+  },
+
+
+  "icenationshallfred1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenationshallfred1", "stream": true}]
+  },
+  "icenationshallfred2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenationshallfred2", "stream": true}]
+  },
+  "icenationsadigard1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenationsadigard1", "stream": true}]
+  },
+  "icenationsadigard2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenationsadigard2", "stream": true}]
+  },
+
+
+  "lostroyaltyyalvis1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostroyaltyyalvis1", "stream": true}]
+  },
+  "lostroyaltyyalvis2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostroyaltyyalvis2", "stream": true}]
+  },
+  "lostroyaltykingsson": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostroyaltykingsson", "stream": true}]
+  },
+  "lostroyaltymercenary1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostroyaltymercenary1", "stream": true}]
+  },
+  "lostroyaltymercenary2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostroyaltymercenary2", "stream": true}]
   }
 }
