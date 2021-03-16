@@ -157,5 +157,69 @@
   "lostroyaltymercenary2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostroyaltymercenary2", "stream": true}]
+  },
+
+
+  "wynnexcvationatesha": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationatesha", "stream": true}]
+  },
+  "wynnexcvationavade1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationavade1", "stream": true}]
+  },
+  "wynnexcvationavade2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationavade2", "stream": true}]
+  },
+  "wynnexcvationavade3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationavade3", "stream": true}]
+  },
+
+  "wynnexcvationbarchaeologist": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationbarchaeologist", "stream": true}]
+  },
+  "wynnexcvationbflendar": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationbflendar", "stream": true}]
+  },
+  "wynnexcvationblykron1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationblykron1", "stream": true}]
+  },
+  "wynnexcvationblykron2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationblykron2", "stream": true}]
+  },
+
+
+  "mushroomman1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman1", "stream": true}]
+  },
+  "mushroomman2two": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman2two", "stream": true}]
+  },
+  "mushroomman3three": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman3three", "stream": true}]
+  },
+  "mushroomman4four": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman4four", "stream": true}]
+  },
+
+
+  "cluckclucknohno1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cluckclucknohno1", "stream": true}]
+  },
+  "cluckclucknohno2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cluckclucknohno2", "stream": true}]
   }
+
 }

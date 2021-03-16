@@ -14,12 +14,12 @@ public class SoundPlayer {
         ModCore modCore = ModCore.instance;
         SoundsHandler soundsHandler = modCore.soundsHandler;
         line = SoundsHandler.formatToSound(line);
-        if (!soundsHandler.sounds.containsKey(line.hashCode())) {
+        if (!soundsHandler.sounds.containsKey(line)) {
             System.out.println("Does not contain line: " + line);
             return;
         }
         System.out.println("Playing sound: " + line);
-        CustomSoundClass customSoundClass = soundsHandler.sounds.get(line.hashCode());
+        CustomSoundClass customSoundClass = soundsHandler.sounds.get(line);
         SoundEvent soundEvent = customSoundClass.getSoundEvent();
 
         //If this is a moving sound

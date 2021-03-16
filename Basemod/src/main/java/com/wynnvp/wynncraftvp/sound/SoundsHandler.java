@@ -9,7 +9,7 @@ import java.util.HashMap;
 
 public class SoundsHandler {
    // public static SoundEvent TALKING_MUSHROOM_RETURNINGARDFD;
-    public HashMap<Integer, CustomSoundClass> sounds;
+    public HashMap<String, CustomSoundClass> sounds;
 
     public SoundsHandler() {
         sounds = new HashMap<>();
@@ -68,6 +68,30 @@ public class SoundsHandler {
         addSound("[1/3] Mercenary Leader: You've gotten the talisman! I can't believe you actually got through that puzzle!", "lostroyaltymercenary2", false);
         addSound("[1/4] Prince of Troms: Uh... Hi? Err, why did you free me? I'm trying to run away, I hate being the son of the king.", "lostroyaltykingsson", false);
 
+        //Wynn Excavation site A
+        addSound("[1/4] Vade: Oh, hey kid. Wanna make some money?", "wynnexcvationavade1", false);
+        addSound("[1/8] Tesha: Hello, welcome to WynnExcavation Labs!", "wynnexcvationatesha", false);
+        addSound("[1/6] Vade: Who are you?", "wynnexcvationavade2", false);
+        addSound("[1/4] Vade: Hey kid, did you just come from the tomb?", "wynnexcvationavade3", false);
+
+        //Wynn Excavation site B
+        addSound("[1/1] Flendar: We know what you stole from us in the desert! Take THIS! You won't be escaping this dead end any time soon!", "wynnexcvationbflendar", true);
+        addSound("[1/6] Excavator Lykron: Good day! You're the person that helped us out in the desert aren't you? Excellent! Just the person I need! Can you help me out with a problem I have?", "wynnexcvationblykron1", false);
+        addSound("[1/5] Excavator Lykron: I have to admit, I'm impressed. I genuinely thought our plan would be successful. Who knew that dead end had a secret exit.", "wynnexcvationblykron2", false);
+        addSound("[1/7] WynnExcavation Archaeologist: Baffling... What a puzzling situation I am in...", "wynnexcvationbarchaeologist", false);
+
+        //Mushroom man
+        addSound("[1/6] Yahya: G-... Hi! What a coincidence, I... I actually need you, yes.", "mushroomman1", false);
+        addSound("[1/3] Yahya: Oh, it's you. What? I can't just have one? I-... I'm pretty sure I need a few more than that.", "mushroomman2two", false);
+        addSound("[1/5] Yahya: You, again? Oh, you have the.. mushrooms.", "mushroomman3three", false);
+        addSound("[1/6] Yahya: H-...Hey! I didn't expected you to find it... Haha... Um...", "mushroomman4four", false);
+
+        //Cluck Cluck
+        addSound("[1/6] Nohno: Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.", "cluckclucknohno1", false);
+        addSound("[1/2] Nohno: What is this?! His feather? What did you do to Cluckles?! I wanted you to take care of him, not kill him!", "cluckclucknohno2", false);
+
+
+
 
       //  TALKING_MUSHROOM_RETURNINGARDFD = registerSound("talkingMushroomreturningAfterRFD");
 
@@ -84,12 +108,14 @@ public class SoundsHandler {
 
     private void addSound(String message, String name, boolean movingSound) {
         message = formatToSound(message);
-        sounds.put(message.hashCode(), new CustomSoundClass(registerSound(name), movingSound));
+        sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
     }
 
     public static String formatToSound(String message) {
         message = message.replaceAll(" ", "");
         message = message.replaceAll("’", "");
+        message = message.replaceAll("\\.", "");
+        message = message.replaceAll(",", "");
         message = message.toLowerCase();
         return message;
     }
