@@ -38,5 +38,6 @@ public class SoundPlayer {
         player.getEntityWorld().playSound(blockPos.getX(), blockPos.getY(), blockPos.getZ(), soundEvent, SoundCategory.VOICE, 1, 1, false);
     }
 
+    private static void stopSound(){}
 
 }
