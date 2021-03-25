@@ -1066,6 +1066,10 @@
   "talkingmushroomhiddencamp": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomhiddencamp", "stream": true}]
+  },
+  "talkingmushroomkandon": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomkandon", "stream": true}]
   }
 
 
