@@ -854,6 +854,24 @@
   },
 
 
+  "underwateromango1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwateromango1", "stream": true}]
+  },
+  "underwateromango2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwateromango2", "stream": true}]
+  },
+  "underwatersayrr1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwatersayrr1", "stream": true}]
+  },
+  "underwatersayrr2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwatersayrr2", "stream": true}]
+  },
+
+
 
   "talkingmushroomabondedmines": {
     "category": "voice",

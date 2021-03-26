@@ -335,6 +335,12 @@ public class SoundsHandler {
         addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmakingassistant1", false);
         addSound("[1/5] The Assistant: Good...good. You have the mushrooms.", "potionmakingassistant2", false);
         addSound("[1/3] The Assistant: I...must thank you, stranger...", "potionmakingassistant3", false);
+
+        //Underwater
+        addSound("[1/6] Sayrr: Why ya looking at me like that? Is it cause I'm small, eh? I'll have you know that I caught fish that were twice your size!", "underwatersayrr1", false);
+        addSound("[1/2] Sayrr: Ah! Welcome back! Any luck with the fish?", "underwatersayrr2", false);
+        addSound("[1/9] Omango: Hi, my name is Omango. I am a resident of the Maltic village, on top of the hill.", "underwateromango1", false);
+        addSound("[1/2] Omango: You got it! You found the treasure!", "underwateromango2", false);
     }
 
 
