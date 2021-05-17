@@ -6,7 +6,6 @@ Wynntils(latest version)
 -------------------
 
 !!!  IMPORTANT  !!!
-This mod is a prolonging of the 'Wynntils' Mod, which means the Wynntils mod will be a requirement.
 This mod adds a ton of voices to all characters of wynncraft.
 The voices were chosen by merit of the actors of these individuals.
 The reason this mod has such a large size is because of the sheer amount of audio clips recorded.
