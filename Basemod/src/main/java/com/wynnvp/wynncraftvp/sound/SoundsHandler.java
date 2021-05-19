@@ -5,6 +5,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class SoundsHandler {
@@ -364,7 +365,27 @@ public class SoundsHandler {
         message = message.replaceAll(",", "");
         message = message.replace("…", "");
         message = message.toLowerCase();
+        message = getTextAfterSplit(message, "clearedallpotioneffects");
+        message = getTextAfterSplit(message, "yourquestswillnotauto-trackanymore");
+        message = getTextBeforeSplit(message, "pressshifttocontinue");
+        message = getTextBeforeSplit(message, "presssneaktocontinue");
+        message = getTextAfterSplit(message, "\\[");
+        message = "[" + message;
+        message = message.replace("\n", "");
         return message;
     }
+
+    public static String getTextAfterSplit(String message, String split) {
+        String[] splitMessage = message.split(split);
+        message = splitMessage[splitMessage.length - 1];
+        return message;
+    }
+
+    public static String getTextBeforeSplit(String message, String split) {
+        String[] splitMessage = message.split(split);
+        message = splitMessage[0];
+        return message;
+    }
+
 
 }

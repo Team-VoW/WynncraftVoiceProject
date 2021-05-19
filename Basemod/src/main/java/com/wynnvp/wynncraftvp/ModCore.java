@@ -1,5 +1,6 @@
 package com.wynnvp.wynncraftvp;
 
+import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -19,6 +20,7 @@ public class ModCore {
     public static final String VERSION = "0.1";
     public SoundsHandler soundsHandler;
     public static ModCore instance;
+    public SoundPlayer soundPlayer;
 
     private static Logger logger;
 
@@ -29,6 +31,7 @@ public class ModCore {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
+        soundPlayer = new SoundPlayer();
         soundsHandler = new SoundsHandler();
         instance = this;
     }

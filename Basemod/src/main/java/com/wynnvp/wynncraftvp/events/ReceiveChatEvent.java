@@ -1,5 +1,6 @@
 package com.wynnvp.wynncraftvp.events;
 
+import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -14,10 +15,11 @@ public class ReceiveChatEvent {
         // if (!Utils.inWynn()) {
         //   return;
         //  }
-        if (!meetsFormat(msg)) {
-            return;
-        }
-        SoundPlayer.playSound(msg);
+       // if (!meetsFormat(msg)) {
+         //   System.out.println("DID NOT MEET FORMAT: \n " + event.getMessage().getUnformattedText());
+        //    return;
+      //  }
+        ModCore.instance.soundPlayer.playSound(msg);
     }
 
     private static boolean meetsFormat(String string) {

@@ -7,10 +7,20 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 
+import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class SoundPlayer {
+    private int delay = 60;
+    private ArrayList<String> soundsOnCoolDown;
+
+    public SoundPlayer(){
+        soundsOnCoolDown = new ArrayList<>();
+    }
 
     //Code that is run to play all the sounds
-    public static void playSound(String line) {
+    public void playSound(String line) {
         ModCore modCore = ModCore.instance;
         SoundsHandler soundsHandler = modCore.soundsHandler;
         line = SoundsHandler.formatToSound(line);
@@ -18,7 +28,12 @@ public class SoundPlayer {
             System.out.println("Does not contain line: " + line);
             return;
         }
+        if (isOnCoolDown(line)){
+            return;
+        }
+
         System.out.println("Playing sound: " + line);
+        Minecraft.getMinecraft().getSoundHandler().stopSounds();
         CustomSoundClass customSoundClass = soundsHandler.sounds.get(line);
         SoundEvent soundEvent = customSoundClass.getSoundEvent();
 
@@ -26,18 +41,32 @@ public class SoundPlayer {
         if (customSoundClass.isMovingSound()) {
             //Play the sound at the player
             Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(soundEvent));
+            addSoundToCoolDown(line);
             return;
         }
         EntityPlayerSP player = Minecraft.getMinecraft().player;
         playSoundAtCoords(player.getPosition(), soundEvent);
+        addSoundToCoolDown(line);
     }
 
 
-    private static void playSoundAtCoords(BlockPos blockPos, SoundEvent soundEvent) {
+    private void playSoundAtCoords(BlockPos blockPos, SoundEvent soundEvent) {
         EntityPlayerSP player = Minecraft.getMinecraft().player;
         player.getEntityWorld().playSound(blockPos.getX(), blockPos.getY(), blockPos.getZ(), soundEvent, SoundCategory.VOICE, 1, 1, false);
     }
 
-    private static void stopSound(){}
+
+    private void addSoundToCoolDown(String soundName){
+       //soundsOnCoolDown.add(soundName);
+    }
+
+    private boolean isOnCoolDown(String soundName){
+        return soundsOnCoolDown.contains(soundName);
+    }
+
+    private void removeFromCoolDown(String soundName){
+        soundsOnCoolDown.remove(soundName);
+    }
+
 
 }
