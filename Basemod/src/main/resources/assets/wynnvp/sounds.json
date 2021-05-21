@@ -265,9 +265,29 @@
   },
 
 
-  "bobslostsoulapprentice": {
+  "bobslostsoulapprentice1-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:bobslostsoulapprentice", "stream": true}]
+    "sounds": [{ "name": "wynnvp:bobslostsoulapprentice1-1", "stream": true}]
+  },
+  "bobslostsoulapprentice1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bobslostsoulapprentice1-2", "stream": true}]
+  },
+  "bobslostsoulapprentice1-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bobslostsoulapprentice1-3", "stream": true}]
+  },
+  "bobslostsoulapprentice1-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bobslostsoulapprentice1-4", "stream": true}]
+  },
+  "bobslostsoulapprentice1-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bobslostsoulapprentice1-5", "stream": true}]
+  },
+  "bobslostsoulapprentice1-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bobslostsoulapprentice1-6", "stream": true}]
   },
   "bobslostsoulblacksmith1": {
     "category": "voice",
