@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
 import java.util.HashMap;
-
+/*
 @Mod.EventBusSubscriber
 public class SoundCooldown {
 
@@ -42,6 +42,7 @@ public class SoundCooldown {
 
 
     public static void addSoundToCoolDown(String soundName){
+        soundsOnCoolDowN.clear();
         soundsOnCoolDowN.put(soundName, timeInSeconds);
     }
 
@@ -54,3 +55,5 @@ public class SoundCooldown {
     }
 
 }
+
+ */

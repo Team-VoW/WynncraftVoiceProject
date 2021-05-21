@@ -1,24 +1,18 @@
 package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.events.SoundCooldown;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 
-import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.Timer;
-import java.util.TimerTask;
-
 public class SoundPlayer {
     private int delay = 60;
-    private ArrayList<String> soundsOnCoolDown;
+    private String latestSoundPlayed;
 
-    public SoundPlayer(){
-        soundsOnCoolDown = new ArrayList<>();
+    public SoundPlayer() {
+        latestSoundPlayed = "";
     }
 
     //Code that is run to play all the sounds
@@ -30,7 +24,7 @@ public class SoundPlayer {
             System.out.println("Does not contain line: " + line);
             return;
         }
-        if (SoundCooldown.isOnCoolDown(line)){
+        if (isOnCoolDown(line)) {
             System.out.println("Sound: " + line + " is on cooldown.");
             return;
         }
@@ -44,12 +38,12 @@ public class SoundPlayer {
         if (customSoundClass.isMovingSound()) {
             //Play the sound at the player
             Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(soundEvent));
-            SoundCooldown.addSoundToCoolDown(line);
+            addSoundToCoolDown(line);
             return;
         }
         EntityPlayerSP player = Minecraft.getMinecraft().player;
         playSoundAtCoords(player.getPosition(), soundEvent);
-        SoundCooldown.addSoundToCoolDown(line);
+        addSoundToCoolDown(line);
     }
 
 
@@ -58,7 +52,13 @@ public class SoundPlayer {
         player.getEntityWorld().playSound(blockPos.getX(), blockPos.getY(), blockPos.getZ(), soundEvent, SoundCategory.VOICE, 1, 1, false);
     }
 
+    private void addSoundToCoolDown(String soundName) {
+        latestSoundPlayed = soundName;
+    }
 
+    private boolean isOnCoolDown(String soundName) {
+        return soundName.equalsIgnoreCase(latestSoundPlayed);
+    }
 
 
 }
