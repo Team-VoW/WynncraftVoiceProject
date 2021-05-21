@@ -1,12 +1,14 @@
 package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.events.SoundCooldown;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -28,7 +30,8 @@ public class SoundPlayer {
             System.out.println("Does not contain line: " + line);
             return;
         }
-        if (isOnCoolDown(line)){
+        if (SoundCooldown.isOnCoolDown(line)){
+            System.out.println("Sound: " + line + " is on cooldown.");
             return;
         }
 
@@ -41,12 +44,12 @@ public class SoundPlayer {
         if (customSoundClass.isMovingSound()) {
             //Play the sound at the player
             Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(soundEvent));
-            addSoundToCoolDown(line);
+            SoundCooldown.addSoundToCoolDown(line);
             return;
         }
         EntityPlayerSP player = Minecraft.getMinecraft().player;
         playSoundAtCoords(player.getPosition(), soundEvent);
-        addSoundToCoolDown(line);
+        SoundCooldown.addSoundToCoolDown(line);
     }
 
 
@@ -56,17 +59,6 @@ public class SoundPlayer {
     }
 
 
-    private void addSoundToCoolDown(String soundName){
-       //soundsOnCoolDown.add(soundName);
-    }
-
-    private boolean isOnCoolDown(String soundName){
-        return soundsOnCoolDown.contains(soundName);
-    }
-
-    private void removeFromCoolDown(String soundName){
-        soundsOnCoolDown.remove(soundName);
-    }
 
 
 }
