@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -11,6 +12,9 @@ public class ReceiveChatEvent {
     @SubscribeEvent
     public static void receivedChat(ClientChatReceivedEvent event) {
         String msg = event.getMessage().getUnformattedText();
+        if (msg.contains(Minecraft.getMinecraft().player.getName())) {
+            msg = msg.replace(Minecraft.getMinecraft().player.getName(), "soldier");
+        }
         // if (!Utils.inWynn()) {
         //   return;
         //  }
