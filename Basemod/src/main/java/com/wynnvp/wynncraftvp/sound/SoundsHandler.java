@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
@@ -105,7 +106,7 @@ public class SoundsHandler {
 
         //Corrupted village
         //FIX TYPO WYNNN!!
-        addSound("[1/17]roy:well,thatdidthetrick.let'stakealook.", "corruptedviallgeroy", false);
+        addSound("[1/17] Roy: Well, that did the trick. Let’s take a look.", "corruptedviallgeroy", false);
         addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallgeorikal1", false);
         addSound("[1/6] Orikal: That was quick... did you find anything?", "corruptedviallgeorikal2", false);
         addSound("[1/5] Orikal: Okay. I happen to know a recipe for creating an extremely lethal magical explosive.", "corruptedviallgeorikal3", false);
@@ -347,6 +348,87 @@ public class SoundsHandler {
         addSound("[1/2] Sayrr: Ah! Welcome back! Any luck with the fish?", "underwatersayrr2", false);
         addSound("[1/9] Omango: Hi, my name is Omango. I am a resident of the Maltic village, on top of the hill.", "underwateromango1", false);
         addSound("[1/2] Omango: You got it! You found the treasure!", "underwateromango2", false);
+
+        //Deja Vu
+        addSound("[1/6] Asher: Well well well, look who decided to come back with their tail between their legs.", "dejavu-asher-1", false);
+        addSound("[2/6] Asher: Two weeks now and you still haven't found it? Ugh, I can't believe I ever trusted you with such a simple task.", "dejavu-asher-2", false);
+        addSound("[3/6] Asher: Who am I? WHAT DO YOU MEAN WHO AM I? You offered to help find my shovel, and I've been waiting two weeks!", "dejavu-asher-3", false);
+        addSound("[4/6] Asher: Forget about your payment. Unless you either pay me back or get my shovel right now!", "dejavu-asher-4", false);
+        addSound("[5/6] Asher: My shovel? That's why I sent you out in the first place! It's somewhere in Time Valley. I lost it while following a trail of flowers.", "dejavu-asher-5", false);
+        addSound("[6/6] Asher: I think it was south west of the large ruined gate. Now go get it!", "dejavu-asher-6", false);
+        addSound("[1/7] Asher: Well hello there, stranger! Welcome to Time Valley! Always nice to see a new face around here.", "dejavu-asher-7", false);
+        addSound("[2/7] Asher: Mad at you? Why would I be mad at you? We've never met.", "dejavu-asher-8", false);
+        addSound("[3/7] Asher: I know this a bit forward, but I need to ask for your help with-", "dejavu-asher-9", false);
+        addSound("[4/7] Asher: Wait, is that-? It is! You've found my shovel! I recognize those markings anywhere.", "dejavu-asher-10", false);
+        addSound("[5/7] Asher: But why is it so rusty? Ah, no matter. Give that to me and I'll head inside to get you a nice reward.", "dejavu-asher-11", false);
+        addSound("[6/7] Asher: Thank you. Now, about that reward-", "dejavu-asher-12", false);
+        addSound("[7/7] Asher: Wha- What's happening?", "dejavu-asher-13", false);
+        addSound("[1/18] Asher: Huh? Where is everyone?", "dejavu-asher-14", true);
+        addSound("[2/18] Asher: Usually this place is filled with workers.", "dejavu-asher-15", true);
+        addSound("[3/18] Asher: But no one's here. And this place is clearly not done.", "dejavu-asher-16", true);
+        addSound("[4/18] Asher: Whatever the case, I should probably find my shovel.", "dejavu-asher-17", true);
+        addSound("[5/18] Asher: If I were a shovel, where would I be?", "dejavu-asher-50", true);
+        addSound("[6/18] Asher: Hmmm. Not around here.", "dejavu-asher-18", true);
+        addSound("[1/1] Asher: Wait, what's that-?", "dejavu-asher-19", true);
+        addSound("[7/18] Asher: This place... There's so much going on but no one here.", "dejavu-asher-20", true);
+        addSound("[8/18] Asher: What I don't understand, though, is why this place looks brand new.", "dejavu-asher-21", true);
+        addSound("[9/18] Asher: This place looks like it's just being built!", "dejavu-asher-22", true);
+        addSound("[10/18] Asher: This must be something to do with the valley's magic. Wouldn't be the first time.", "dejavu-asher-23", true);
+        addSound("[11/18] Asher: Heh, time.", "dejavu-asher-25", true);
+        addSound("[1/1] Asher: Woah! Where did-?", "dejavu-asher-26", true);
+        addSound("[12/18] Asher: In fact, whenever I hold that shovel, this kind of stuff seems to happen.", "dejavu-asher-27", true);
+        addSound("[13/18] Asher: Maybe it's sent me way back. Back to the construction of this place.", "dejavu-asher-28", true);
+        addSound("[14/18] Asher: Then why is no one here?", "dejavu-asher-29", true);
+        addSound("[15/18] Asher: Woah, that tree looks like it might fall over!", "dejavu-asher-30", true);
+        addSound("[16/18] Asher: That was a close one!", "dejavu-asher-31", true);
+        addSound("[17/18] Asher: Uhf! How do they have a cannon? These guys must be super advanced.", "dejavu-asher-32", true);
+        addSound("[18/18] Asher: I think I'm close now. I can just feel that shovel close by.", "dejavu-asher-33", true);
+        addSound("[1/11] Asher: Oh there it is! My shovel!", "dejavu-asher-34", true);
+        addSound("[2/11] Asher: I'm surprised it took me back this far this time.", "dejavu-asher-35", true);
+        addSound("[3/11] Asher: Well, time to head on back-", "dejavu-asher-36", true);
+        addSound("[4/11] Asher: Wait, Martyn?", "dejavu-asher-37", true);
+        addSound("[5/11] Asher: Ow! What was that for?", "dejavu-asher-38", true);
+        addSound("[7/11] Asher: I... Might recall it.", "dejavu-asher-39", true);
+        addSound("[9/11] Asher: Oh... So that's where I am. I am so sorry Martyn. Please don't kick me out of the valley.", "dejavu-asher-40", true);
+        addSound("[1/14] Asher: Holy Bovine!", "dejavu-asher-41", true);
+        addSound("[3/14] Asher: How did you get these powers? Are you even human?", "dejavu-asher-42", false);
+        addSound("[6/14] Asher: I probably could have gotten myself out...", "dejavu-asher-43", false);
+        addSound("[8/14] Asher: I did?", "dejavu-asher-44", false);
+        addSound("[12/14] Asher: Uh, you're still here.", "dejavu-asher-45", false);
+        addSound("[14/14] Asher: I don't understand Martyn. He seems to know everything about the past. Here, come closer, I want to whisper something.", "dejavu-asher-46", false);
+        addSound("[1/3] Asher: I think he might have known Bob. I saw some letters in his house.", "dejavu-asher-47", false);
+        addSound("[2/3] Asher: Weird, right? Bob was a hard guy to know.", "dejavu-asher-48", false);
+        addSound("[3/3] Asher: Anyway, take this. It's the least I can do to pay you for saving me.", "dejavu-asher-49", false);
+        addSound("[1/3] Old Man Martyn: Oh dear, there he goes again. Poor fool ignored my warnings and touched that shovel.", "dejavu-oldmanmartyn-1", false);
+        addSound("[2/3] Old Man Martyn: He's gone and got himself stuck in a loop", "dejavu-oldmanmartyn-2", false);
+        addSound("[3/3] Old Man Martyn: Head inside, soldier, and I'll explain what's happening here.", "dejavu-oldmanmartyn-3", false);
+        addSound("[1/8] Old Man Martyn: Let me explain why Asher disappeared...", "dejavu-oldmanmartyn-4", false);
+        addSound("[2/8] Old Man Martyn: Time Valley was built many years ago by a long-lost civilization.", "dejavu-oldmanmartyn-5", false);
+        addSound("[3/8] Old Man Martyn: They had odd powers. They ended up distorting time itself.", "dejavu-oldmanmartyn-6", false);
+        addSound("[4/8] Old Man Martyn: The tools they used to make these structures are imbued with their power.", "dejavu-oldmanmartyn-7", false);
+        addSound("[5/8] Old Man Martyn: Asher found one of these tools: the shovel.", "dejavu-oldmanmartyn-8", false);
+        addSound("[6/8] Old Man Martyn: The shovel is tethering its time of influence to today. It keeps sending Asher back.", "dejavu-oldmanmartyn-9", false);
+        addSound("[7/8] Old Man Martyn: The issue is, Asher died in the past. This creates a paradox.", "dejavu-oldmanmartyn-10", false);
+        addSound("[8/8] Old Man Martyn: We can save him if I send you back to prevent his death. Go through this rift to join him in the past.", "dejavu-oldmanmartyn-11", false);
+        addSound("[6/11] Old Man Martyn: Asher, you remember when I allowed you to live in the valley, I told you not to touch any odd objects.", "dejavu-oldmanmartyn-12", false);
+        addSound("[8/11] Old Man Martyn: You got yourself stuck hundreds of years ago. If it wasn't for this guard, you'd be removed from existence.", "dejavu-oldmanmartyn-13", false);
+        addSound("[10/11] Old Man Martyn: I know time travel can be tempting. But it's far more dangerous than you can ever understand.", "dejavu-oldmanmartyn-14", false);
+        addSound("[11/11] Old Man Martyn: The valley is banned for most citizens. I watch over this timeline because of poor souls like Asher", "dejavu-oldmanmartyn-15", false);
+        addSound("[2/14] Old Man Martyn: Ah, we're back.", "dejavu-oldmanmartyn-16", false);
+        addSound("[4/14] Old Man Martyn: Oh you know. I've read a book or two in my time.", "dejavu-oldmanmartyn-17", false);
+        addSound("[5/14] Old Man Martyn: Soldier, I'm sorry I got you dragged into this. I wish I could have done it myself.", "dejavu-oldmanmartyn-18", false);
+        addSound("[7/14] Old Man Martyn: You died in the past. Multiple times.", "dejavu-oldmanmartyn-19", false);
+        addSound("[9/14] Old Man Martyn: Yes. In some surprising ways too.", "dejavu-oldmanmartyn-20", false);
+        addSound("[10/14] Old Man Martyn: Soldier, I'm sure we will meet again... in time.", "dejavu-oldmanmartyn-21", false);
+        addSound("[11/14] Old Man Martyn: See you around.", "dejavu-oldmanmartyn-22", false);
+        addSound("[13/14] Old Man Martyn: Am I?", "dejavu-oldmanmartyn-23", false);
+        addSound("[1/1] Old Man Martyn: Without Asher, his house has vanished from time.", "dejavu-oldmanmartyn-24", true);
+        addSound("[1/2] Old Man Martyn: My my, a crushing defeat to be sure. You'll have to find a way to stop that.", "dejavu-oldmanmartyn-25", false);
+        addSound("[2/2] Old Man Martyn: Go back through the rift and make sure Asher doesn't become a pancake this time.", "dejavu-oldmanmartyn-26", false);
+        addSound("[1/2] Old Man Martyn: Well that was quite the explosive end to our friend there. There must be a way to prevent that.", "dejavu-oldmanmartyn-27", false);
+        addSound("[2/2] Old Man Martyn: Head back in there. This time with less explosions", "dejavu-oldmanmartyn-28", false);
+        addSound("[1/2] Old Man Martyn: Oh, so close on that try. Who could've guessed that was how our friend met his end?", "dejavu-oldmanmartyn-29", false);
+        addSound("[2/2] Old Man Martyn: I'm sure you'll nail it this time. Not sure how you will stop a cosmic event, though.", "dejavu-oldmanmartyn-30", false);
     }
 
 
@@ -365,11 +447,11 @@ public class SoundsHandler {
 
     public static String formatToSound(String message) {
         message = message.replaceAll(" ", "");
-        message = message.replaceAll("’", "");
-        message = message.replaceAll("\\.", "");
-        message = message.replaceAll(",", "");
-        message = message.replace("…", "");
+      //  message = message.replaceAll("’", "");
+       // message = message.replaceAll("\\.", "");
+      //  message = message.replaceAll(",", "");
         message = message.toLowerCase();
+
         message = getTextAfterSplit(message, "clearedallpotioneffects");
         message = getTextAfterSplit(message, "yourquestswillnotauto-trackanymore");
         message = getTextBeforeSplit(message, "pressshifttocontinue");
@@ -377,6 +459,8 @@ public class SoundsHandler {
         message = getTextAfterSplit(message, "\\[");
         message = "[" + message;
         message = message.replace("\n", "");
+        message = message.replaceAll("[^abcdefghijklmnopqrstuvwxyz?!0123456789/]", "");
+
         return message;
     }
 
