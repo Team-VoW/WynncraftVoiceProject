@@ -440,6 +440,54 @@ public class SoundsHandler {
         addSound("[2/4] Mask Salesman: I would really like to hear what you encountered in that cave, but I must prepare to leave, for I have many masks to sell on a far away continent.", "macabremasquerade-masksalesman-7", false);
         addSound("[3/4] Mask Salesman: Maybe you can visit me at some point, if our paths were to ever cross again. Then we could talk about your journey.", "macabremasquerade-masksalesman-8", false);
         addSound("[4/4] Mask Salesman: To thank you for your help, I wanted to give you a special mask, but I'm out of it. Maybe next year?", "macabremasquerade-masksalesman-9", false);
+
+        //Generals Orders
+        addSound("[1/6] Tylas: ZZZZZZZZzzzzzzZZZZZzzzzz...", "generalsorders-tylas-1", false);
+        addSound("[2/6] Tylas: AAAHHHHH! You startled me! Sleeping? No, you must be mistaken. I have sworn to guard this fort at all costs, I would never even close my eyes!", "generalsorders-tylas-2", false);
+        addSound("[3/6] Tylas: The barracks is not currently operating, I'm afraid. General Lecade has all of the men working on all sorts of absolutely ridiculous tasks.", "generalsorders-tylas-3", false);
+        addSound("[4/6] Tylas: You wish to help out? That is very kind of you to offer, but I'm not supposed to let anyone through aside from fellow soldiers.", "generalsorders-tylas-4", false);
+        addSound("[5/6] Tylas: Then again, General Lecade hasn't been himself lately. It probably won't even bother him if it means getting his work done.", "generalsorders-tylas-5", false);
+        addSound("[6/6] Tylas: I'll let you through, if you wish to help. Speak with General Lecade to find out what insane task he wants you to do, his office lies in the central building, just follow this path.", "generalsorders-tylas-6", false);
+        addSound("[1/6] Lecade: Who let you in here? Probably that private who I let guard this place, I'll bet that he was sleeping again. So what brings you here, anyways?", "generalsorders-lecade-1-1-6", false);
+        addSound("[2/6] Lecade: So, you wanna help me with the work I need done? Sure, why not? I could use an extra hand around here!", "generalsorders-lecade-1-2-6", false);
+        addSound("[3/6] Lecade: All right, I need you to get to work straight away! You see... um... I've heard rumors that some of our equipment isn't working well.", "generalsorders-lecade-1-3-6", false);
+        addSound("[4/6] Lecade: Some of our cannons and ballistae, actually. You know, quite dangerous, and whatnot.", "generalsorders-lecade-1-4-6", false);
+        addSound("[5/6] Lecade: You can find this equipment outside of our main fort. Just follow the path, they're to the right of our blacksmith.", "generalsorders-lecade-1-5-6", false);
+        addSound("[6/6] Lecade: Now what are you waiting for? Get to work!", "generalsorders-lecade-1-6-6", false);
+        addSound("[1/4] Lecade: You're back already? You're telling me you reached the equipment and came back already? Impossible!", "generalsorders-lecade-2-1-4", false);
+        addSound("[2/4] Lecade: I mean, good work, soldier! While you were gone, some more work freed up. You see, I... accidentally dropped my good-luck charm into an aqueduct, it's in the sewers now.", "generalsorders-lecade-2-2-4", false);
+        addSound("[3/4] Lecade: That charm brings me luck, you're going to have to dive into the sewers to retrieve it. I do know of a way you can enter them.", "generalsorders-lecade-2-3-4", false);
+        addSound("[4/4] Lecade: There's a crack in a pipe on the other side of the fort that you should be able to use to enter the sewers. Now hurry up, standing around won't get me that charm!", "generalsorders-lecade-2-4-4", false);
+        addSound("[1/3] Lecade: What's with that gold thing? Oh, yes, my good-luck charm! Good work, soldier! There's yet another task for you, and I think you're fit for the job.", "generalsorders-lecade-3-1-3", false);
+        addSound("[2/3] Lecade: There's a mountain near the town that's always looked rather dull to me. I want you to paint it a different color, make it look nice.", "generalsorders-lecade-3-2-3", false);
+        addSound("[3/3] Lecade: Yes, how about you paint it purple? I wrote the coordinates down in your quest book, so get to it!", "generalsorders-lecade-3-3-3", false);
+        addSound("[1/3] Lecade: You painted the mountain already? I can't believe this! How are you doing everything I order you to so quickly? You should be exhausted!", "generalsorders-lecade-4-1-3", false);
+        addSound("[2/3] Lecade: I mean, you have shown you are an extremely capable soldier! In fact, so capable, that I think you're ready for this next task.", "generalsorders-lecade-4-2-3", false);
+        addSound("[3/3] Lecade: I want you to walk across a tightrope to amuse your fellow soldiers. The coordinates are in your quest book, so go put on a show!", "generalsorders-lecade-4-3-3", false);
+        addSound("[1/1] Private: I'll bet you five emeralds they don't make it across.", "generalsorders-private-1-1", false);
+        addSound("[1/3] Lecade: Wait, you actually went and did it? I didn't think anyone would do something so completely ridiculous!", "generalsorders-lecade-5-1-3", false);
+        addSound("[2/3] Lecade: Fine, if you're still so eager to help after all of this, then I'll give you one last task to do.", "generalsorders-lecade-5-2-3", false);
+        addSound("[3/3] Lecade: I need you to destroy a wall in the fort so we can  add another house. Lieutenant Gren is there to give you the details.", "generalsorders-lecade-5-3-3", false);
+        addSound("[1/3] Gren: Stay away from this area! It's marked for demolition, we're just waiting for a soldier General Lecade sent in to do the job.", "generalsorders-gren-1-3", false);
+        addSound("[2/3] Gren: Wait, you're supposed to be the one handling explosives? Well, better than me risking my own neck!", "generalsorders-gren-2-3", false);
+        addSound("[3/3] Gren: In that case, just go light the explosives, and get back before you get blown to bits!", "generalsorders-gren-3-3", false);
+        addSound("[1/7] ???: You were sent here under the orders of General Lecade? Seems that fool forgot he locked me up in here. Listen, that man can't be who he says he is, because...", "generalsorders-lecade-6-1-7", false);
+        addSound("[2/7] ???: I am General Lecade.", "generalsorders-lecade-6-2-7", false);
+        addSound("[3/7] Lecade: I know that sounds preposterous. The man you spoke to looks exactly like me, doesn't he? Well, let me explain everything I know about that impostor.", "generalsorders-lecade-6-3-7", false);
+        addSound("[4/7] Lecade: It is actually a rare Gavel creature called \"Corpus Accipientis\" or in layman's terms, a shape-shifter. It took my identity and locked me up in this cell.", "generalsorders-lecade-6-4-7", false);
+        addSound("[5/7] Lecade: That thing loves to create mischief, it lives to make others' lives harder. It must be doing horrible things to my loyal men, that beast!", "generalsorders-lecade-6-5-7", false);
+        addSound("[6/7] Lecade: I want you to kill it. I know a way into my office, or its office now, from here. After all, I'm the one who had this place built.", "generalsorders-lecade-6-6-7", false);
+        addSound("[7/7] Lecade: Hold down both wooden plates on the desks over there and a secret door should open. I'd follow you, but I am unable to leave this cell.", "generalsorders-lecade-6-7-7", false);
+        addSound("[1/3] Corpus Accipientis: So, looks like you've found me out. You know, all I wanted to do was control an army, I wasn't even going to kill anyone!", "generalsorders-corpusaccipientis-1-3", true);
+        addSound("[2/3] Corpus Accipientis: But you have to come in and ruin this, don't you? Such a shame, I was going to ask if I could borrow your form for a while.", "generalsorders-corpusaccipientis-2-3", true);
+        addSound("[3/3] Corpus Accipientis: You know, defeating you will allow me to take your form and continue posing as the General. Yes, I'll use my true form to take you out!", "generalsorders-corpusaccipientis-3-3", true);
+        addSound("[1/1] Lecade: Fear not, soldier! I am no slimy impostor, now bring me that shape-shifter's remains so I can lock them up!", "generalsorders-lecade-7-1-1", true);
+        addSound("[1/5] Lecade: Well, looks like you destroyed a big blob of slime and came back without a scratch. Now that's what I like to see.", "generalsorders-lecade-8-1-5", false);
+        addSound("[2/5] Lecade: I'm surprised you pulled that off, though. When I hunted that thing down, it managed to take my form. Guess I can learn a few tricks from you", "generalsorders-lecade-8-2-5", false);
+        addSound("[3/5] Lecade: Well, at least that shape-shifter won't be taking anyone's body anymore. That thing already caused enough trouble when it only took mine, imagine if it took more.", "generalsorders-lecade-8-3-5", false);
+        addSound("[5/5] Lecade: But enough of that, you helped out a tremendous deal. And for that you deserve a reward.", "generalsorders-lecade-8-5-5", false);
+
+
     }
 
 
