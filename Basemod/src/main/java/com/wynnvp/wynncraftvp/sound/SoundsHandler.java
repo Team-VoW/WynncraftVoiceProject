@@ -349,6 +349,14 @@ public class SoundsHandler {
         addSound("[1/9] Omango: Hi, my name is Omango. I am a resident of the Maltic village, on top of the hill.", "underwateromango1", false);
         addSound("[1/2] Omango: You got it! You found the treasure!", "underwateromango2", false);
 
+        //Elemental Exercise
+        addSound("[1/7] Ragon: Ah! Finally! I've been waiting for a recruit like yourself to turn up.", "elementalexercise-ragon-1", false);
+        addSound("[1/4] Ragon: Interesting, it completely destroyed the beast. It seems our theories might be correct.", "elementalexercise-ragon-2", false);
+        addSound("[1/1] Ragon: Hey, wake up.", "elementalexercise-ragon-3", true);
+        addSound("[1/3] Ragon: Is everything alright? We felt the cave collapse! We came down as soon as possible!", "elementalexercise-ragon-4", true);
+        addSound("[1/1] Ragon: Good to see you made it out, would you mind giving your fire weapon back to Suri and then bring me his study results?", "elementalexercise-ragon-5", false);
+        addSound("[1/6] Ragon: Thank you, I guess you can use this, it's not a lot but we are not the richest scientists around, sorry for all the trouble we put you through.", "elementalexercise-ragon-6", false);
+
         //Deja Vu
         addSound("[1/6] Asher: Well well well, look who decided to come back with their tail between their legs.", "dejavu-asher-1", false);
         addSound("[2/6] Asher: Two weeks now and you still haven't found it? Ugh, I can't believe I ever trusted you with such a simple task.", "dejavu-asher-2", false);

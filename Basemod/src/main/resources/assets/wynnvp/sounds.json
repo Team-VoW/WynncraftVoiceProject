@@ -1248,6 +1248,32 @@
   },
 
 
+  "elementalexercise-ragon-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-1", "stream": true}]
+  },
+  "elementalexercise-ragon-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-2", "stream": true}]
+  },
+  "elementalexercise-ragon-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-3", "stream": true}]
+  },
+  "elementalexercise-ragon-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-4", "stream": true}]
+  },
+  "elementalexercise-ragon-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-5", "stream": true}]
+  },
+  "elementalexercise-ragon-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-6", "stream": true}]
+  },
+
+
   "generalsorders-corpusaccipientis-1-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:generalsorders-corpusaccipientis-1-3", "stream": true}]
