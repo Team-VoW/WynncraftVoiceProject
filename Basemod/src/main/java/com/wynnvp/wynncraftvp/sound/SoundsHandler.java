@@ -361,6 +361,10 @@ public class SoundsHandler {
         addSound("[1/10] Leucsaa: Let's see here... mother's old vase… check!", "dwellingwalls-leucsaa-1", false);
         addSound("[1/3] Leucsaa: The journal! You outsmarted the mansion!", "dwellingwalls-leucsaa-2", false);
 
+        //Pit of the dead
+        addSound("[1/8] Merloni: Would you like to hear the tale of the pit of the dead?", "pitofthedead-merloni-1", false);
+        addSound("[1/1] Merloni: Very impressive! Here's your reward. I found it a while ago while walking around Nemract.", "pitofthedead-merloni-2", false);
+
         //Deja Vu
         addSound("[1/6] Asher: Well well well, look who decided to come back with their tail between their legs.", "dejavu-asher-1", false);
         addSound("[2/6] Asher: Two weeks now and you still haven't found it? Ugh, I can't believe I ever trusted you with such a simple task.", "dejavu-asher-2", false);
