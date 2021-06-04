@@ -892,6 +892,16 @@
   },
 
 
+  "dwellingwalls-leucsaa-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-1", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-2", "stream": true}]
+  },
+
+
   "dejavu-asher-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:dejavu-asher-1", "stream": true}]
