@@ -576,15 +576,6 @@
     "sounds": [{ "name": "wynnvp:starthiefthief3", "stream": true}]
   },
 
-  "archnidsascentenduyn1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:archnidsascentenduyn1", "stream": true}]
-  },
-  "archnidsascentenduyn2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:archnidsascentenduyn2", "stream": true}]
-  },
-
 
   "thehouseoftwaintwendle1": {
     "category": "voice",
@@ -909,6 +900,20 @@
   "pitofthedead-merloni-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-2", "stream": true}]
+  },
+
+
+  "arachnidsascent-cob-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:arachnidsascent-cob-1", "stream": true}]
+  },
+  "arachnidsascent-edyun-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:arachnidsascent-edyun-1", "stream": true}]
+  },
+  "arachnidsascent-edyun-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:arachnidsascent-edyun-2", "stream": true}]
   },
 
 

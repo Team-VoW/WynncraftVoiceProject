@@ -259,8 +259,9 @@ public class SoundsHandler {
         addSound("[1/4] Agent: Hello again. Did you find the meteor down there? Why on earth are you holding some?!", "starthiefagent2", false);
 
         //Arachnids Ascent
-        addSound("[1/8] Enduyn: At ease, soldier! Good timing. We need more manpower.", "archnidsascentenduyn1", false);
-        addSound("[1/4] Enduyn: Ah perfect! Now give me that bucket.", "archnidsascentenduyn2", false);
+        addSound("[1/8] Enduyn: At ease, soldier! Did Cob send you?", "arachnidsascent-edyun-1", false);
+        addSound("[1/5] Enduyn: Ah perfect! Now give me that bucket.", "arachnidsascent-edyun-2", false);
+        addSound("[1/7] Private Cob: ‘ey there my good chap! I require some assistance!", "arachnidsascent-cob-1", false);
 
         //The house of twain
         addSound("[1/10] Twendle: Oh, hey you there! Are you heading down this road? You know it's a dead end, right?", "thehouseoftwaintwendle1", false);
