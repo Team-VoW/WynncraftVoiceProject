@@ -267,6 +267,10 @@ public class SoundsHandler {
         addSound("[1/10] Twendle: Oh, hey you there! Are you heading down this road? You know it's a dead end, right?", "thehouseoftwaintwendle1", false);
         addSound("[1/2] Twendle: I guess I put my faith in the right person. My history lies within these pages, and I don't intend to keep them secret. I shall make them public.", "thehouseoftwaintwendle2", false);
 
+        //Tower of Ascension
+        addSound("[1/11] Ankou: Hehehe... Hello there.", "towerofascension-ankou-1", false);
+        addSound("[1/6] Ankou: You have completed my tower, I see...", "towerofascension-ankou-2", false);
+
         //One Thousand Meters Under
         addSound("[1/3] The Secretary: Hello, welcome to Ynnos' facility.", "onethousandmetersundersecretary", false);
         addSound("[1/11] Scientist Ynnos: *Ahem* Welcome, everyone.", "onethousandmetersunderscientistyvnoss1", false);

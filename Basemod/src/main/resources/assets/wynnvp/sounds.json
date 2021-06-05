@@ -587,6 +587,16 @@
   },
 
 
+  "towerofascension-ankou-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascension-ankou-1", "stream": true}]
+  },
+  "towerofascension-ankou-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascension-ankou-2", "stream": true}]
+  },
+
+
   "onethousandmetersunderarlene1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:onethousandmetersunderarlene1", "stream": true}]
