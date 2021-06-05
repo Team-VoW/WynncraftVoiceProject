@@ -1453,6 +1453,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:generalsorders-lecade-8-3-5", "stream": true}]
   },
+  "generalsorders-lecade-8-4-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-8-4-5", "stream": true}]
+  },
   "generalsorders-lecade-8-5-5": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:generalsorders-lecade-8-5-5", "stream": true}]

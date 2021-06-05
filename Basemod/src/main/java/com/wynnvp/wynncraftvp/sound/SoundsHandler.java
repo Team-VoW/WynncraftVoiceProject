@@ -506,6 +506,7 @@ public class SoundsHandler {
         addSound("[1/5] Lecade: Well, looks like you destroyed a big blob of slime and came back without a scratch. Now that's what I like to see.", "generalsorders-lecade-8-1-5", false);
         addSound("[2/5] Lecade: I'm surprised you pulled that off, though. When I hunted that thing down, it managed to take my form. Guess I can learn a few tricks from you", "generalsorders-lecade-8-2-5", false);
         addSound("[3/5] Lecade: Well, at least that shape-shifter won't be taking anyone's body anymore. That thing already caused enough trouble when it only took mine, imagine if it took more.", "generalsorders-lecade-8-3-5", false);
+        addSound("[4/5] Lecade: The soldiers understood the situation, luckily. Can't believe it got that far. I'll make sure nothing like that ever happens again!", "generalsorders-lecade-8-4-5", false);
         addSound("[5/5] Lecade: But enough of that, you helped out a tremendous deal. And for that you deserve a reward.", "generalsorders-lecade-8-5-5", false);
 
 
