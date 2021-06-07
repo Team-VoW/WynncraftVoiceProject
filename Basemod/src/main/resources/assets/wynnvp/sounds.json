@@ -927,6 +927,136 @@
   },
 
 
+  "tunneltrouble-bylvis-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-bylvis-1", "stream": true}]
+  },
+  "tunneltrouble-bylvis-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-bylvis-2", "stream": true}]
+  },
+  "tunneltrouble-captainfenor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-captainfenor-1", "stream": true}]
+  },
+  "tunneltrouble-drale-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-1", "stream": true}]
+  },
+  "tunneltrouble-drale-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-2", "stream": true}]
+  },
+  "tunneltrouble-drale-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-3", "stream": true}]
+  },
+  "tunneltrouble-drale-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-4", "stream": true}]
+  },
+  "tunneltrouble-drale-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-5", "stream": true}]
+  },
+  "tunneltrouble-drale-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-6", "stream": true}]
+  },
+  "tunneltrouble-drale-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-7", "stream": true}]
+  },
+  "tunneltrouble-drale-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-8", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-1", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-2", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-3", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-4", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-5", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-6", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-7", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-8", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-9", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-10", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-11", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-12", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-13", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-14", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-15", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-16", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-17", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-18", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-19", "stream": true}]
+  },
+  "tunneltrouble-minerlinton-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-20", "stream": true}]
+  },
+  "tunneltrouble-sergantklafson-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-sergantklafson-1", "stream": true}]
+  },
+
+
   "dejavu-asher-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:dejavu-asher-1", "stream": true}]

@@ -509,6 +509,39 @@ public class SoundsHandler {
         addSound("[4/5] Lecade: The soldiers understood the situation, luckily. Can't believe it got that far. I'll make sure nothing like that ever happens again!", "generalsorders-lecade-8-4-5", false);
         addSound("[5/5] Lecade: But enough of that, you helped out a tremendous deal. And for that you deserve a reward.", "generalsorders-lecade-8-5-5", false);
 
+        //Tunnel trouble
+        addSound("[1/1] Bylvis: Ah, good to see my cows are all in tip-top shape! Welp, time to feed the townsfolk again!", "tunneltrouble-bylvis-1", true);
+        addSound("[1/2] Bylvis: Huh? Hey!", "tunneltrouble-bylvis-2", true);
+        addSound("[1/5] Captain Fenor: Ah! You must be a new recruit! Well, I've got a mission for you.", "tunneltrouble-captainfenor-1", false);
+        addSound("[4/5] ???: Oh, uh... Hi... Well, this is a little awkward... I'll just... Go.", "tunneltrouble-drale-1", false);
+        addSound("[1/4] Drale: Oh... Didn't expect you to follow me... Well, um... Hi! This will sound mad but...", "tunneltrouble-drale-2", false);
+        addSound("[1/2] Drale: Thank you so much, but we're not done yet. We need to get these cows out the province.", "tunneltrouble-drale-3", false);
+        addSound("[1/1] Drale: There's the raft! Help me push it for the cows!", "tunneltrouble-drale-4", false);
+        addSound("[1/2] Drale: And, that should do it! Be free, my friends! A new life awaits!", "tunneltrouble-drale-5", false);
+        addSound("[5/11] Drale: Hello again, friend! Did I hear you needed help? Well, have no fear! Cows, to me!", "tunneltrouble-drale-6", false);
+        addSound("[7/11] Drale: Since you helped me with my problem, I thought I should repay that favor by helping you!", "tunneltrouble-drale-7", false);
+        addSound("[8/11] Drale: Welp, see ya! Oh, and nice to meet you, miner! Now, let's get going my cows!", "tunneltrouble-drale-8", false);
+        addSound("[1/3] Miner Linton: Ah, recruit! You must be the one Cap'n Fenor sent!", "tunneltrouble-minerlinton-1", false);
+        addSound("[1/1] Miner Linton: Nice job! Let's move cautiously, We don't really know what's down here...", "tunneltrouble-minerlinton-2", false);
+        addSound("[1/1] Miner Linton: Wait... Do you hear that? Ah, monsters! Do your job soldier!", "tunneltrouble-minerlinton-3", false);
+        addSound("[1/2] Miner Linton: Wha?!", "tunneltrouble-minerlinton-4", false);
+        addSound("[2/2] Miner Linton: Ah, that cave-in just blocked the path! Defend me while I try and make a hole!", "tunneltrouble-minerlinton-5", false);
+        addSound("[1/1] Miner Linton: Keep it up! I think I'm half way there!", "tunneltrouble-minerlinton-6", false);
+        addSound("[1/1] Miner Linton: Aha! I can see the other side! Just a little more...", "tunneltrouble-minerlinton-7", false);
+        addSound("[1/1] Miner Linton: Got it, I made a hole! Quickly, let's go before we're overrun!", "tunneltrouble-minerlinton-8", false);
+        addSound("[1/5] Miner Linton: This cave barely seems worth the trouble to me...", "tunneltrouble-minerlinton-9", false);
+        addSound("[2/5] Miner Linton: This wall of debris is much too big for us to be able to move. What do we do now?", "tunneltrouble-minerlinton-10", false);
+        addSound("[3/5] Miner Linton: hmm... Maybe if we- wait, what's happening to the wall to the right?", "tunneltrouble-minerlinton-11", false);
+        addSound("[5/5] Miner Linton: ...Who in the world was that? You can go check that hole out if you want, but I'll stay here and try to think of a solution to this debris.", "tunneltrouble-minerlinton-12", false);
+        addSound("[1/11] Miner Linton: Recruit, what took you so long? I've been waiting for an hour! What were you doing?", "tunneltrouble-minerlinton-13", false);
+        addSound("[2/11] Miner Linton: ...You helped some crazy cow-obsessed lunatic steal cows from the local farm? Recruit, that's against the law you know...", "tunneltrouble-minerlinton-14", false);
+        addSound("[3/11] Miner Linton: Oh, what do I care? Silly Bovemists.", "tunneltrouble-minerlinton-15", false);
+        addSound("[4/11] Miner Linton: Either way, we still don't have any means to get rid of this giant pile of rubble...", "tunneltrouble-minerlinton-16", false);
+        addSound("[6/11] Miner Linton: What in the world?", "tunneltrouble-minerlinton-17", false);
+        addSound("[9/11] Miner Linton: ...What just happened? Am I seeing things? You know what, I don't want to know.", "tunneltrouble-minerlinton-18", false);
+        addSound("[10/11] Miner Linton: Anyway, why don't you go on ahead? I'll be here guarding this passage so nothing else bad happens to it.", "tunneltrouble-minerlinton-19", false);
+        addSound("[11/11] Miner Linton: It was an honor to adventure with you, recruit!", "tunneltrouble-minerlinton-20", false);
+        addSound("[1/2] Sergeant Klafson: Recruit, Captain Fenor told me to meet you here, said if you came out on this side of that tunnel then you completed your mission!", "tunneltrouble-sergantklafson-1", false);
 
     }
 
