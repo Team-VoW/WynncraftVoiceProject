@@ -543,6 +543,37 @@ public class SoundsHandler {
         addSound("[11/11] Miner Linton: It was an honor to adventure with you, recruit!", "tunneltrouble-minerlinton-20", false);
         addSound("[1/2] Sergeant Klafson: Recruit, Captain Fenor told me to meet you here, said if you came out on this side of that tunnel then you completed your mission!", "tunneltrouble-sergantklafson-1", false);
 
+        //Dark Descent
+        addSound("[1/1] ???: Keheh... Come further, little human... Step into the shadows...", "darkdescent-charon-1", true);
+        addSound("[1/1] ???: Welcome...", "darkdescent-charon-2", true);
+        addSound("[2/6] ???: Ah, but if you had only said so sooner! They have already left this mortal coil...oh, what a shame.", "darkdescent-charon-3", true);
+        addSound("[4/6] ???: Hush now. I will ensure that you and your family are reunited. You will even be able to partake in...keheh...family outings, under my watchful eye...", "darkdescent-charon-4", true);
+        addSound("[6/6] ???: Aha, naive girl. How cute, you believe you have a choice in the matter. What you want, is not what I need.", "darkdescent-charon-5", true);
+        addSound("[1/6] ???: Heheh...do you see now?", "darkdescent-charon-6", true);
+        addSound("[2/6] ???: Do you see how easily this place fell? How quickly I became its master? And how I could simply dispose of you without a second thought?", "darkdescent-charon-7", true);
+        addSound("[3/6] ???: Such fragile beings, humans. So very easily influenced. Heartbroken, made hopeless. Your ties only serve to weaken you.", "darkdescent-charon-8", true);
+        addSound("[4/6] ???: So I invite you to continue. I encourage it, even. For if you should foray into my domain...", "darkdescent-charon-9", true);
+        addSound("[5/6] ???: There would be simply no chance for you to survive. And then, I will be free to string you up like a lifeless little puppet.", "darkdescent-charon-10", true);
+        addSound("[6/6] ???: So take the gem, my little soldier. I eagerly await our next meeting, keheheh...", "darkdescent-charon-11", true);
+        addSound("[1/3] ???: I will allow you to return now... and I will ensure you remember what you have seen here.", "darkdescent-charon-12", true);
+        addSound("[2/3] ???: Good luck on your little quest...keheheh...", "darkdescent-charon-13", true);
+        addSound("[1/11] General Graken: Ah, hello there chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.", "darkdescent-generalgraken-1", false);
+        addSound("[1/5] General Graken: Oh, sod it, I knew I was forgetting something! Steady there, chum! I'm on my way!", "darkdescent-generalgraken-2", true);
+        addSound("[2/5] General Graken: Drat! Too late, it seems. Yes, I forgot to mention the floor was in poor condition. Up here! You took quite the tumble, are you alright?", "darkdescent-generalgraken-3", true);
+        addSound("[3/5] General Graken: Well, there's some good news, I suppose. Still though, seems I sent you a ticket to a bit of a sticky wicket! Do you see a way out anywhere down there?", "darkdescent-generalgraken-4", true);
+        addSound("[4/5] General Graken: There's a tunnel? Aha, spiffing! I suggest you take it immediately. I'll have to return to my post now, post-haste!", "darkdescent-generalgraken-5", true);
+        addSound("[5/5] General Graken: Good luck, chum! Now, back, you cads! Back I say!", "darkdescent-generalgraken-6", true);
+        addSound("[3/3] General Graken: Hey! Come on, come over here! Quit milling about with the zombies, chap!", "darkdescent-generalgraken-7", true);
+        addSound("[1/11] General Graken: Ah, hello there chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.", "darkdescent-generalgraken-8", false);
+        addSound("[1/6] Lost Soul: Please, stop this! Whoever you are, leave me and my family in peace! What did we ever do to deserve this?!", "darkdescent-lostsoul-1", true);
+        addSound("[3/6] Lost Soul: Y-you...I thought they...oh, god, no...", "darkdescent-lostsoul-2", true);
+        addSound("[5/6] Lost Soul: Wha...you mean... N-no, please! I don't want to hurt anyone! I don't want to die!!", "darkdescent-lostsoul-3", true);
+        addSound("[2/5] Scout: I...there...too many...th-thousands, at...at least...", "darkdescent-scout-1", true);
+        addSound("[4/5] Scout: No point...we're...doomed...", "darkdescent-scout-2", true);
+        addSound("[1/5] Soldier: Scout! Report your findings, immediately! How many corrupteds are coming?", "darkdescent-soldier-1", true);
+        addSound("[3/5] Soldier: Thousands...? This is far worse than I expected. Men! Prepare for-", "darkdescent-soldier-2", true);
+        addSound("[5/5] Soldier: Wait, w-what's going on? What's happening to you?!", "darkdescent-soldier-3", true);
+
     }
 
 

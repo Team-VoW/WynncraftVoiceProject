@@ -1621,6 +1621,124 @@
   },
 
 
+  "darkdescent-charon-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-1", "stream": true}]
+  },
+  "darkdescent-charon-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-2", "stream": true}]
+  },
+  "darkdescent-charon-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-3", "stream": true}]
+  },
+  "darkdescent-charon-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-4", "stream": true}]
+  },
+  "darkdescent-charon-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-5", "stream": true}]
+  },
+  "darkdescent-charon-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-6", "stream": true}]
+  },
+  "darkdescent-charon-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-7", "stream": true}]
+  },
+  "darkdescent-charon-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-8", "stream": true}]
+  },
+  "darkdescent-charon-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-9", "stream": true}]
+  },
+  "darkdescent-charon-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-10", "stream": true}]
+  },
+  "darkdescent-charon-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-11", "stream": true}]
+  },
+  "darkdescent-charon-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-12", "stream": true}]
+  },
+  "darkdescent-charon-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-charon-13", "stream": true}]
+  },
+  "darkdescent-generalgraken-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-1", "stream": true}]
+  },
+  "darkdescent-generalgraken-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-2", "stream": true}]
+  },
+  "darkdescent-generalgraken-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-3", "stream": true}]
+  },
+  "darkdescent-generalgraken-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-4", "stream": true}]
+  },
+  "darkdescent-generalgraken-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-5", "stream": true}]
+  },
+  "darkdescent-generalgraken-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-6", "stream": true}]
+  },
+  "darkdescent-generalgraken-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-7", "stream": true}]
+  },
+  "darkdescent-generalgraken-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-8", "stream": true}]
+  },
+  "darkdescent-lostsoul-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-lostsoul-1", "stream": true}]
+  },
+  "darkdescent-lostsoul-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-lostsoul-2", "stream": true}]
+  },
+  "darkdescent-lostsoul-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-lostsoul-3", "stream": true}]
+  },
+  "darkdescent-scout-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-scout-1", "stream": true}]
+  },
+  "darkdescent-scout-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-scout-2", "stream": true}]
+  },
+  "darkdescent-soldier-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-soldier-1", "stream": true}]
+  },
+  "darkdescent-soldier-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-soldier-2", "stream": true}]
+  },
+  "darkdescent-soldier-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-soldier-3", "stream": true}]
+  },
+
+
 
   "talkingmushroomabondedmines": {
     "category": "voice",
