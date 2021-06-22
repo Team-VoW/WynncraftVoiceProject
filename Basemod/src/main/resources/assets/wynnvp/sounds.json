@@ -1739,6 +1739,28 @@
   },
 
 
+  "zhightisland-czytash-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-1", "stream": true}]
+  },
+  "zhightisland-phief-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-1", "stream": true}]
+  },
+  "zhightisland-tirt-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-1", "stream": true}]
+  },
+  "zhightisland-zhight-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-1", "stream": true}]
+  },
+  "zhightisland-zhight-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-2", "stream": true}]
+  },
+
+
 
   "rol1wormholes-malo-1": {
     "category": "voice",

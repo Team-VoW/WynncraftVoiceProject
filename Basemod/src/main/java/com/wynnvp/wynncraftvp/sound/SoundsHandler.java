@@ -574,6 +574,13 @@ public class SoundsHandler {
         addSound("[3/5] Soldier: Thousands...? This is far worse than I expected. Men! Prepare for-", "darkdescent-soldier-2", true);
         addSound("[5/5] Soldier: Wait, w-what's going on? What's happening to you?!", "darkdescent-soldier-3", true);
 
+        //Zhight island
+        addSound("[1/12] Czytash: Ah, yes, I did find plenty o' supplies on that ship.", "zhightisland-czytash-1", false);
+        addSound("[1/9] Phief: Hello there. I see Zhight has sent you, correct?", "zhightisland-phief-1", false);
+        addSound("[1/9] Tirt: He told you what?! That fumbleknuckle...", "zhightisland-tirt-1", false);
+        addSound("[1/8] Zhight: Hello, esteemed tourist sir or madame! I see you have found my illustrious resort, Zhight Island!", "zhightisland-zhight-1", false);
+        addSound("[1/7] Zhight: Ahaaa, esteemed sir! Or madame! I can't actually tell under all that armour...", "zhightisland-zhight-2", false);
+
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);
         addSound("[2/6] Malo: ...what in...aw no!", "rol1wormholes-malo-2", false);
