@@ -1739,6 +1739,20 @@
   },
 
 
+  "darkdescentdungeon-charon-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-1", "stream": true}]
+  },
+  "darkdescentdungeon-charon-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-2", "stream": true}]
+  },
+  "darkdescentdungeon-charon-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-3", "stream": true}]
+  },
+
+
   "zhightisland-czytash-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:zhightisland-czytash-1", "stream": true}]
