@@ -564,7 +564,7 @@ public class SoundsHandler {
         addSound("[4/5] General Graken: There's a tunnel? Aha, spiffing! I suggest you take it immediately. I'll have to return to my post now, post-haste!", "darkdescent-generalgraken-5", true);
         addSound("[5/5] General Graken: Good luck, chum! Now, back, you cads! Back I say!", "darkdescent-generalgraken-6", true);
         addSound("[3/3] General Graken: Hey! Come on, come over here! Quit milling about with the zombies, chap!", "darkdescent-generalgraken-7", true);
-        addSound("[1/11] General Graken: Ah, hello there chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.", "darkdescent-generalgraken-8", false);
+        addSound("[1/10] General Graken: Oi! Hallo?! Chum? Why're you wandering round all bog-eyed? Come back to me now!", "darkdescent-generalgraken-8", false);
         addSound("[1/6] Lost Soul: Please, stop this! Whoever you are, leave me and my family in peace! What did we ever do to deserve this?!", "darkdescent-lostsoul-1", true);
         addSound("[3/6] Lost Soul: Y-you...I thought they...oh, god, no...", "darkdescent-lostsoul-2", true);
         addSound("[5/6] Lost Soul: Wha...you mean... N-no, please! I don't want to hurt anyone! I don't want to die!!", "darkdescent-lostsoul-3", true);
@@ -573,9 +573,9 @@ public class SoundsHandler {
         addSound("[1/5] Soldier: Scout! Report your findings, immediately! How many corrupteds are coming?", "darkdescent-soldier-1", true);
         addSound("[3/5] Soldier: Thousands...? This is far worse than I expected. Men! Prepare for-", "darkdescent-soldier-2", true);
         addSound("[5/5] Soldier: Wait, w-what's going on? What's happening to you?!", "darkdescent-soldier-3", true);
-        addSound("???: How foolish. You might think you are strong, adventurer, but you have no idea what you are about to face...", "darkdescentdungeon-charon-1", true);
-        addSound("Charon: I have an entire undead army at my service. Do you really think you stand a chance?", "darkdescentdungeon-charon-2", true);
-        addSound("Charon: I see you've brought some help with you, you aren't as foolish as I thought. However, how do you plan to defeat an army that cannot die?", "darkdescentdungeon-charon-3", true);
+        addSound("[1/1] ???: How foolish. You might think you are strong, adventurer, but you have no idea what you are about to face...", "darkdescentdungeon-charon-1", true);
+        addSound("[1/1] Charon: I have an entire undead army at my service. Do you really think you stand a chance?", "darkdescentdungeon-charon-2", true);
+        addSound("[1/1] Charon: I see you've brought some help with you, you aren't as foolish as I thought. However, how do you plan to defeat an army that cannot die?", "darkdescentdungeon-charon-3", true);
 
         //Zhight island
         addSound("[1/12] Czytash: Ah, yes, I did find plenty o' supplies on that ship.", "zhightisland-czytash-1", false);
@@ -583,6 +583,16 @@ public class SoundsHandler {
         addSound("[1/9] Tirt: He told you what?! That fumbleknuckle...", "zhightisland-tirt-1", false);
         addSound("[1/8] Zhight: Hello, esteemed tourist sir or madame! I see you have found my illustrious resort, Zhight Island!", "zhightisland-zhight-1", false);
         addSound("[1/7] Zhight: Ahaaa, esteemed sir! Or madame! I can't actually tell under all that armour...", "zhightisland-zhight-2", false);
+
+        //Fallen delivery
+        addSound("[1/3] Bricot: Are you here to help? Did you hear the explosion, or my girlish scream? Either way, you have to help!", "fallendelivery-bricot-1", false);
+        addSound("[1/8] Gawrick: I'm working on spells hitherto unexplored and unknown to villager kind, please leave!", "fallendelivery-gawrick-1", false);
+        addSound("[1/7] Gawrick: Oh, you're back. Were you successful? While you were gone I created a spell that turns cheese into wine.", "fallendelivery-gawrick-2", false);
+        addSound("[1/4] Office Manager: Greetings, do you require assistance?", "fallendelivery-officemanager-1", false);
+        addSound("[1/2] Representative Ernold: Heh... HEH... HEHE! Everytime I teleport, I leave a little more of my sanity behind! But I get stronger!", "fallendelivery-representativeernold-1", true);
+        addSound("[1/6] Marden: How did you get up here, human? What are they doing down there if not defending the fort!?", "fallendelivery-marden-1", false);
+
+
 
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);

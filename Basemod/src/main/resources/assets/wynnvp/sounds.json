@@ -1775,6 +1775,32 @@
   },
 
 
+  "fallendelivery-bricot-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fallendelivery-bricot-1", "stream": true}]
+  },
+  "fallendelivery-gawrick-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fallendelivery-gawrick-1", "stream": true}]
+  },
+  "fallendelivery-gawrick-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fallendelivery-gawrick-2", "stream": true}]
+  },
+  "fallendelivery-marden-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fallendelivery-marden-1", "stream": true}]
+  },
+  "fallendelivery-officemanager-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fallendelivery-officemanager-1", "stream": true}]
+  },
+  "fallendelivery-representativeernold-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fallendelivery-representativeernold-1", "stream": true}]
+  },
+
+
 
   "rol1wormholes-malo-1": {
     "category": "voice",
