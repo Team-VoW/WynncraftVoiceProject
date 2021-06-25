@@ -1815,6 +1815,32 @@
   },
 
 
+  "lavasprings-colonelgailard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-1", "stream": true}]
+  },
+  "lavasprings-colonelgailard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-2", "stream": true}]
+  },
+  "lavasprings-colonelgailard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-3", "stream": true}]
+  },
+  "lavasprings-colonelgailard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-4", "stream": true}]
+  },
+  "lavasprings-gregor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-gregor-1", "stream": true}]
+  },
+  "lavasprings-namithehealer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-namithehealer-1", "stream": true}]
+  },
+
+
 
   "rol1wormholes-malo-1": {
     "category": "voice",

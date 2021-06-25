@@ -597,6 +597,14 @@ public class SoundsHandler {
         addSound("[1/8] Ildan: Impressive! You got the bead!", "thepassage-ildan-2", false);
         addSound("[1/3] Wirt: Not so fast, you!", "thepassage-wirt-1", false);
 
+        //Lava Springs
+        addSound("[1/6] Colonel Gailard: Oh, good good! I bet'cha you're a Ragni soldier, aren't ya? Listen up, soldier! I've got a task here that 'ye can help out with.", "lavasprings-colonelgailard-1", false);
+        addSound("[1/8] Colonel Gailard: Alright, good! Ya found some evidence, let me take a look at that!", "lavasprings-colonelgailard-2", false);
+        addSound("[1/6] Colonel Gailard: Report! Ya got the potion yet, soldier? Good, drink it if ya haven’t already!", "lavasprings-colonelgailard-3", false);
+        addSound("[1/1] Colonel Gailard: Hah! I knew ya’d give me results! Ye’re pretty damn reliable, soldier! Here, take this for your trouble!", "lavasprings-colonelgailard-4", false);
+        addSound("[1/4] Gregor: Hey, hey hey hey! Darling, what do you think you’re doing? You can’t just waltz in here without telling me the password!", "lavasprings-gregor-1", false);
+        addSound("[1/8] Nami the Healer: G’day to you, friend. How can I help you?", "lavasprings-namithehealer-1", false);
+
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);
         addSound("[2/6] Malo: ...what in...aw no!", "rol1wormholes-malo-2", false);
