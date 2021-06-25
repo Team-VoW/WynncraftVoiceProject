@@ -592,7 +592,10 @@ public class SoundsHandler {
         addSound("[1/2] Representative Ernold: Heh... HEH... HEHE! Everytime I teleport, I leave a little more of my sanity behind! But I get stronger!", "fallendelivery-representativeernold-1", true);
         addSound("[1/6] Marden: How did you get up here, human? What are they doing down there if not defending the fort!?", "fallendelivery-marden-1", false);
 
-
+        //The Passage
+        addSound("[1/10] Ildan: Oh! So you want to become a member of this town?", "thepassage-ildan-1", false);
+        addSound("[1/8] Ildan: Impressive! You got the bead!", "thepassage-ildan-2", false);
+        addSound("[1/3] Wirt: Not so fast, you!", "thepassage-wirt-1", false);
 
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);

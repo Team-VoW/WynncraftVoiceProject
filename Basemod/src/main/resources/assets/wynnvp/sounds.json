@@ -1801,6 +1801,20 @@
   },
 
 
+  "thepassage-ildan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-1", "stream": true}]
+  },
+  "thepassage-ildan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-2", "stream": true}]
+  },
+  "thepassage-wirt-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-wirt-1", "stream": true}]
+  },
+
+
 
   "rol1wormholes-malo-1": {
     "category": "voice",
