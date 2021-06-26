@@ -1841,6 +1841,48 @@
   },
 
 
+  "desperatemetal-nettik-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-1", "stream": true}]
+  },
+  "desperatemetal-nettik-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-2", "stream": true}]
+  },
+  "desperatemetal-phinas-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-1", "stream": true}]
+  },
+  "desperatemetal-phinas-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-2", "stream": true}]
+  },
+  "desperatemetal-phinas-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-3", "stream": true}]
+  },
+  "desperatemetal-security-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-security-1", "stream": true}]
+  },
+  "desperatemetal-security-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-security-2", "stream": true}]
+  },
+  "desperatemetal-security-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-security-3", "stream": true}]
+  },
+  "desperatemetal-security-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-security-4", "stream": true}]
+  },
+  "desperatemetal-security-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-security-5", "stream": true}]
+  },
+
+
 
   "rol1wormholes-malo-1": {
     "category": "voice",

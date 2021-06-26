@@ -605,6 +605,18 @@ public class SoundsHandler {
         addSound("[1/4] Gregor: Hey, hey hey hey! Darling, what do you think you’re doing? You can’t just waltz in here without telling me the password!", "lavasprings-gregor-1", false);
         addSound("[1/8] Nami the Healer: G’day to you, friend. How can I help you?", "lavasprings-namithehealer-1", false);
 
+        //Desperate Metal
+        addSound("[1/7] Nettik: What are these? I have nothing to do with them!", "desperatemetal-nettik-1", false);
+        addSound("[1/1] Nettik: I'm sorry it ended up like this, you should've just ignored that old man.", "desperatemetal-nettik-2", true);
+        addSound("[1/7] Phinas: Oh my...", "desperatemetal-phinas-1", false);
+        addSound("[1/6] Phinas: You Wynn folk sure know your fights.", "desperatemetal-phinas-2", false);
+        addSound("[1/6] Phinas: Did you find the source of those odd handmade mechs?", "desperatemetal-phinas-3", false);
+        addSound("[1/5] ???: Stranger detected... Security system activated.", "desperatemetal-security-1", true);
+        addSound("[2/5] ???: Security drop-chute engaging. 5... 4...", "desperatemetal-security-2", true);
+        addSound("[3/5] ???: 3...", "desperatemetal-security-3", true);
+        addSound("[4/5] ???: 2...", "desperatemetal-security-4", true);
+        addSound("[5/5] ???: 1...", "desperatemetal-security-5", true);
+
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);
         addSound("[2/6] Malo: ...what in...aw no!", "rol1wormholes-malo-2", false);
