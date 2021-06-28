@@ -617,7 +617,9 @@ public class SoundsHandler {
         addSound("[4/5] ???: 2...", "desperatemetal-security-4", true);
         addSound("[5/5] ???: 1...", "desperatemetal-security-5", true);
 
+        //Cowfusion
         addSound("[1/4] Cow Guard: Want to consult the Holy Spirit of Moo'in, huh? You can't without the Drale's permission. Have you got it?", "cowfusion-cowguard-1", false);
+        addSound("[1/1] Cow Guard: Halt! You may not talk to the Holy Spirit of Moo'in without the permission of Drale!", "cowfusion-cowguard-2", false);
         addSound("[1/5] Ranol: A Human? All the way here at the end of the Canyon? Incredible resilience.", "cowfusion-ranol-1", false);
         addSound("[1/1] Ranol: Zs! Nv xld'h yzxp! Tvg rm gsv kvm mld", "cowfusion-ranol-2", false);
         addSound("[1/3] Ranol: Where have you been? I saw my cow run off into the barn over there a while ago. You seen it?", "cowfusion-ranol-3", false);
@@ -659,8 +661,6 @@ public class SoundsHandler {
         addSound("[7/9] Sherk: Cor, lady! Even for an ogre you're layin' it on a bit thick! Aah, you see, ogres, and people like you, they have layers, right? And your first one is... Eh... ...rotten.", "themaidentower-sherk-23", false);
         addSound("[8/9] Sherk: Now I'm sure you'll find a nice lad somewhere who'll take you for who you are, but until you find someone that has no standards, shove your creepy lips where I can't see 'em!!", "themaidentower-sherk-24", false);
         addSound("[9/9] Maiden: ...I...I g-guess he was rotten to the core, despite his...l-luscious exterior...but, you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!", "themaidentower-maiden-8", false);
-
-
 
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);

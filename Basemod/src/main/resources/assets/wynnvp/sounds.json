@@ -1887,6 +1887,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cowfusion-cowguard-1", "stream": true}]
   },
+  "cowfusion-cowguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-cowguard-1", "stream": true}]
+  },
   "cowfusion-drale-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cowfusion-drale-1", "stream": true}]
