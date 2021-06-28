@@ -1883,6 +1883,76 @@
   },
 
 
+  "cowfusion-cowguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-cowguard-1", "stream": true}]
+  },
+  "cowfusion-drale-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-drale-1", "stream": true}]
+  },
+  "cowfusion-drale-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-drale-2", "stream": true}]
+  },
+  "cowfusion-human-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-human-1", "stream": true}]
+  },
+  "cowfusion-ibele-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-ibele-1", "stream": true}]
+  },
+  "cowfusion-ranol-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-ranol-1", "stream": true}]
+  },
+  "cowfusion-ranol-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-ranol-2", "stream": true}]
+  },
+  "cowfusion-ranol-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-ranol-3", "stream": true}]
+  },
+  "cowfusion-veekhat-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-veekhat-1", "stream": true}]
+  },
+  "cowfusion-veekhat-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-veekhat-2", "stream": true}]
+  },
+  "cowfusion-veekhat-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-veekhat-3", "stream": true}]
+  },
+  "cowfusion-veekhat-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-veekhat-4", "stream": true}]
+  },
+  "cowfusion-veekhat-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-veekhat-5", "stream": true}]
+  },
+  "cowfusion-veekhat-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-veekhat-6", "stream": true}]
+  },
+  "cowfusion-veekhat-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-veekhat-7", "stream": true}]
+  },
+  "cowfusion-veekhat-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-veekhat-8", "stream": true}]
+  },
+  "cowfusion-veekhat-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cowfusion-veekhat-9", "stream": true}]
+  },
+
+
 
   "rol1wormholes-malo-1": {
     "category": "voice",

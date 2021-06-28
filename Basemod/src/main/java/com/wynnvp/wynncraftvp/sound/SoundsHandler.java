@@ -117,7 +117,7 @@ public class SoundsHandler {
         //Ice nations
         addSound("[1/6] Adigard: Welcome traveler, to our humble island...", "icenationsadigard1", false);
         addSound("[1/7] Adigard: I should have expected that. Hallfred was always very greedy...", "icenationsadigard2", false);
-        addSound("[1/5] Hallfred: Welcome traveler! What brings you on our island?", "icenationshallfred1", false);
+        addSound("[1/5] Hallfred: Welcome traveler! What brings you to our island?", "icenationshallfred1", false);
         addSound("[1/4] Hallfred: Incredible! He actually delivered the treasure!", "icenationshallfred2", false);
 
         //Lost Royalty
@@ -616,6 +616,24 @@ public class SoundsHandler {
         addSound("[3/5] ???: 3...", "desperatemetal-security-3", true);
         addSound("[4/5] ???: 2...", "desperatemetal-security-4", true);
         addSound("[5/5] ???: 1...", "desperatemetal-security-5", true);
+
+        addSound("[1/4] Cow Guard: Want to consult the Holy Spirit of Moo'in, huh? You can't without the Drale's permission. Have you got it?", "cowfusion-cowguard-1", false);
+        addSound("[1/5] Ranol: A Human? All the way here at the end of the Canyon? Incredible resilience.", "cowfusion-ranol-1", false);
+        addSound("[1/1] Ranol: Zs! Nv xld'h yzxp! Tvg rm gsv kvm mld", "cowfusion-ranol-2", false);
+        addSound("[1/3] Ranol: Where have you been? I saw my cow run off into the barn over there a while ago. You seen it?", "cowfusion-ranol-3", false);
+        addSound("[1/5] Drale: Oh, a new cow, welcome! Let me introduce myself.", "cowfusion-drale-1", false);
+        addSound("[1/6] Drale: I guess you are a real cow. We will aid you in your venture to become human again, at least, that's why I assume you are here.", "cowfusion-drale-2", false);
+        addSound("[1/10] Ibele: Oh, another cow. You poor soul. I saw you talking to the farmer, but obviously you didn't speak moo'n", "cowfusion-ibele-1", false);
+        addSound("[1/2] Human: Texq exmmbkba? Tebob xj F? Xeee! X zlt! Qexw'p jb! Fp qefp x jfoolo? Txfq! F'j x yfiixdbo klt!", "cowfusion-human-1", false);
+        addSound("[1/3] Veekhat: Who on earth are you? You're not a client! What do you want?", "cowfusion-veekhat-1", false);
+        addSound("[1/2] Veekhat: Wrw blf qfhg gfim rmgl z... Xld? R-rg dlipvw! Gsv znzarmt Evvpszg hgirpvh ztzrm! Sz sz sz!", "cowfusion-veekhat-2", false);
+        addSound("[1/6] Veekhat: Ah, I see the Human has returned. Or should I say Humoon.", "cowfusion-veekhat-3", true);
+        addSound("[2/6] Veekhat: Have you come to look for a cure? Of course I have one.", "cowfusion-veekhat-4", true);
+        addSound("[3/6] Veekhat: I need it for things go wrong. But not anymore. I have perfected it.", "cowfusion-veekhat-5", true);
+        addSound("[4/6] Veekhat: It turns out all I needed was a little biomagical information on Humans.", "cowfusion-veekhat-6", true);
+        addSound("[5/6] Veekhat: Now I am able to fully merge to become the most powerful Minotaur that ever lived!", "cowfusion-veekhat-7", true);
+        addSound("[6/6] Veekhat: You are fortunate, as no one is here to witness it, except you. Come forth, and witness your destruction!", "cowfusion-veekhat-8", true);
+        addSound("[1/1] Veekhat: Look at me now! I am so beautiful!", "cowfusion-veekhat-9", true);
 
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);
