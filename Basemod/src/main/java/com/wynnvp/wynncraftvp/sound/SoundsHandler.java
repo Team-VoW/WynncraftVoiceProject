@@ -173,10 +173,10 @@ public class SoundsHandler {
         addSound("[1/1] Amadel: DID YOU REALLY THINK YOU COULD WIN?!?! YOU ARE NOTHING COMPARED TO ME! NOTHING!! I WILL EXTERMINATE ALL LIFE, STARTING WITH YOU!! NOW, PERISH!!!", "wynnexcavationamadel6", true);
 
         //Mushroom man
-        addSound("[1/6] Yahya: G-... Hi! What a coincidence, I... I actually need you, yes.", "mushroomman1", false);
-        addSound("[1/3] Yahya: Oh, it's you. What? I can't just have one? I-... I'm pretty sure I need a few more than that.", "mushroomman2two", false);
-        addSound("[1/5] Yahya: You, again? Oh, you have the.. mushrooms.", "mushroomman3three", false);
-        addSound("[1/6] Yahya: H-...Hey! I didn't expected you to find it... Haha... Um...", "mushroomman4four", false);
+        addSound("[1/2] Yahya: G-... Hi! What a coincidence, I… I actually need you, yes.", "mushroomman-yahya-1", false);
+        addSound("[1/5] Yahya: YOU DRANK ALL M-MY STUOP, STEW, SOUP!! WHERE IS IT!", "mushroomman-yahya-2", false);
+        addSound("[1/5] Yahya: You, again? Oh, you have the… mushrooms.", "mushroomman-yahya-3", false);
+        addSound("[1/6] Yahya: H-... Hey! I didn’t expect you to find it.. Haha… um..", "mushroomman-yahya-4", false);
 
         //Cluck Cluck
         addSound("[1/6] Nohno: Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.", "cluckclucknohno1", false);

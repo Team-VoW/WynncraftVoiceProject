@@ -195,21 +195,21 @@
   },
 
 
-  "mushroomman1": {
+  "mushroomman-yahya-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-yahya-1", "stream": true}]
   },
-  "mushroomman2two": {
+  "mushroomman-yahya-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman2two", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-yahya-2", "stream": true}]
   },
-  "mushroomman3three": {
+  "mushroomman-yahya-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman3three", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-yahya-3", "stream": true}]
   },
-  "mushroomman4four": {
+  "mushroomman-yahya-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman4four", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-yahya-4", "stream": true}]
   },
 
 
