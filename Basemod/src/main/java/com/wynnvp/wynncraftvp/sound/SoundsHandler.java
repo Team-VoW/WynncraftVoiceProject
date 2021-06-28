@@ -635,6 +635,33 @@ public class SoundsHandler {
         addSound("[6/6] Veekhat: You are fortunate, as no one is here to witness it, except you. Come forth, and witness your destruction!", "cowfusion-veekhat-8", true);
         addSound("[1/1] Veekhat: Look at me now! I am so beautiful!", "cowfusion-veekhat-9", true);
 
+        //The Maiden Tower
+        addSound("[1/10] Sherk: Ah! What are you doing in my swamp?! Don't you know that ogres live alone for a reason?", "themaidentower-sherk-1", false);
+        addSound("[1/9] Sherk: This is the place. She's up at the top... Remember, I won't stop 'til I meet her. Coming here means you're in for the long haul.", "themaidentower-sherk-11", false);
+        addSound("[2/9] Maiden: I hear a voice outside! Oh, who might it be, I wonder~", "themaidentower-maiden-1", false);
+        addSound("[3/9] Sherk: Here goes... Hello, fair lady of the tower! I am Sherk! I heard your voice on the road- and I must meet you myself! ...that's formal enough, right?", "themaidentower-sherk-12", false);
+        addSound("[4/9] Maiden: Ohoho! An admirer? Such a lovely, rugged accent! However...if you wish to meet me, I'd like to see your devotion, yes?", "themaidentower-maiden-2", false);
+        addSound("[5/9] Sherk: Woman, you have no idea what you're sayin' when you ask for devotion.", "themaidentower-sherk-13", false);
+        addSound("[6/9] Maiden: There is a lovely urn my father had before. He took it with him to the grave, and I do miss my dear father so.", "themaidentower-maiden-3", false);
+        addSound("[7/9] Maiden: Retrieve the urn for me, so I can have a memento of him. Brave the crypts of Olux, behind the bank... And prove your devotion, dear suitor~", "themaidentower-maiden-4", false);
+        addSound("[8/9] Sherk: ...I'll return! You'll get your urn, no doubt! ... ...and a lovely fine boot up my backside. I don't fancy a massacre for a piece of pottery, Win person.", "themaidentower-sherk-14", false);
+        addSound("[9/9] Sherk: I go into Olux, I'll get attacked. I get attacked, I attack back. They'll come after us...wouldn't want to present her with that. You get that urn for me, alright?", "themaidentower-sherk-15", false);
+        addSound("[1/4] Sherk: And this is why I asked your help. As nice as blood spreads on toast, I have to reserve my sensibilities for the miss.", "themaidentower-sherk-16", false);
+        addSound("[2/4] Sherk: I've got you some compensation already, so don't worry about gettin' snubbed for credit. Thank you kindly for the help.", "themaidentower-sherk-17", false);
+        addSound("[3/4] Sherk: Just one last thing. I doubt she'll be expecting an ogre of all people to climb up her tower. I don't want her to get frightened away.", "themaidentower-sherk-18", false);
+        addSound("[4/4] Sherk: So, Win person. Care to temper her expectations before I arrive? Head up before me.", "themaidentower-sherk-19", false);
+        addSound("[1/9] Maiden: Ohoho...you're one of those Humans I've read about, aren't you? Did you truly intend to be my suitor, dear?~", "themaidentower-maiden-5", false);
+        addSound("[2/9] Sherk: Not exactly, milady! I'm the one seeking your affections- Coming up the ladder. I know I may not be a fairytale husband, but-", "themaidentower-sherk-20", false);
+        addSound("[3/9] Maiden: Oh...my...goodness! A big, strong, strapping ogre!! Not a fairytale, my foot! And so polite, too... Oh, you'll make a perfect husband, heehee~", "themaidentower-maiden-6", false);
+        addSound("[4/9] Sherk: ...ehm. I. Ah.", "themaidentower-sherk-21", false);
+        addSound("[5/9] Sherk: Aren't your type supposed to be less... Ehm... Clefted? Grizzled? Pale?", "themaidentower-sherk-22", false);
+        addSound("[6/9] Maiden: Oh, come here, Sherky-pie, give me a big kiss! And no need to worry, there's plenty more in store for my big hubby after that~", "themaidentower-maiden-7", false);
+        addSound("[7/9] Sherk: Cor, lady! Even for an ogre you're layin' it on a bit thick! Aah, you see, ogres, and people like you, they have layers, right? And your first one is... Eh... ...rotten.", "themaidentower-sherk-23", false);
+        addSound("[8/9] Sherk: Now I'm sure you'll find a nice lad somewhere who'll take you for who you are, but until you find someone that has no standards, shove your creepy lips where I can't see 'em!!", "themaidentower-sherk-24", false);
+        addSound("[9/9] Maiden: ...I...I g-guess he was rotten to the core, despite his...l-luscious exterior...but, you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!", "themaidentower-maiden-8", false);
+
+
+
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);
         addSound("[2/6] Malo: ...what in...aw no!", "rol1wormholes-malo-2", false);

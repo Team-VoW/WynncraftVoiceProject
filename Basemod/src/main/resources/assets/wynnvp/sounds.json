@@ -1954,6 +1954,103 @@
 
 
 
+
+  "themaidentower-sherk-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-1", "stream": true}]
+  },
+  "themaidentower-sherk-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-11", "stream": true}]
+  },
+  "themaidentower-maiden-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-maiden-1", "stream": true}]
+  },
+  "themaidentower-sherk-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-12", "stream": true}]
+  },
+  "themaidentower-maiden-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-maiden-2", "stream": true}]
+  },
+  "themaidentower-sherk-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-13", "stream": true}]
+  },
+  "themaidentower-maiden-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-maiden-3", "stream": true}]
+  },
+  "themaidentower-maiden-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-maiden-4", "stream": true}]
+  },
+  "themaidentower-sherk-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-14", "stream": true}]
+  },
+  "themaidentower-sherk-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-15", "stream": true}]
+  },
+  "themaidentower-sherk-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-16", "stream": true}]
+  },
+  "themaidentower-sherk-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-17", "stream": true}]
+  },
+  "themaidentower-sherk-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-18", "stream": true}]
+  },
+  "themaidentower-sherk-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-19", "stream": true}]
+  },
+  "themaidentower-maiden-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-maiden-5", "stream": true}]
+  },
+  "themaidentower-sherk-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-20", "stream": true}]
+  },
+  "themaidentower-maiden-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-maiden-6", "stream": true}]
+  },
+  "themaidentower-sherk-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-21", "stream": true}]
+  },
+  "themaidentower-sherk-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-22", "stream": true}]
+  },
+  "themaidentower-maiden-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-maiden-7", "stream": true}]
+  },
+  "themaidentower-sherk-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-23", "stream": true}]
+  },
+  "themaidentower-sherk-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-24", "stream": true}]
+  },
+  "themaidentower-maiden-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-maiden-8", "stream": true}]
+  },
+
+
+
+
   "rol1wormholes-malo-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:rol1wormholes-malo-1", "stream": true}]
