@@ -2053,6 +2053,23 @@
   },
 
 
+  "tribalaggression-caras-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-1", "stream": true}]
+  },
+  "tribalaggression-caras-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-2", "stream": true}]
+  },
+  "tribalaggression-favian-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-1", "stream": true}]
+  },
+  "tribalaggression-favian-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-2", "stream": true}]
+  },
+
 
 
   "rol1wormholes-malo-1": {

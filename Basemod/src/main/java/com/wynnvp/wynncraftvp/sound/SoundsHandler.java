@@ -662,6 +662,12 @@ public class SoundsHandler {
         addSound("[8/9] Sherk: Now I'm sure you'll find a nice lad somewhere who'll take you for who you are, but until you find someone that has no standards, shove your creepy lips where I can't see 'em!!", "themaidentower-sherk-24", false);
         addSound("[9/9] Maiden: ...I...I g-guess he was rotten to the core, despite his...l-luscious exterior...but, you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!", "themaidentower-maiden-8", false);
 
+        //Tribal Aggression
+        addSound("[1/7] Caras: My tribe worries our own business, stranger.", "tribalaggression-caras-1", false);
+        addSound("[1/3] Caras: I-Is that, the totem? My, it has been a long time since the owl has been with me. Though I wonder if the Eagle and Owl totem possess the same mystic powers.", "tribalaggression-caras-2", false);
+        addSound("[1/5] Favian: Greetings, what brings you to the noble Eagle tribe?", "tribalaggression-favian-1", false);
+        addSound("[1/5] Favian: Wonderful! You may now enter the cave to retrieve the blasted Owl totem.", "tribalaggression-favian-2", false);
+
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);
         addSound("[2/6] Malo: ...what in...aw no!", "rol1wormholes-malo-2", false);
