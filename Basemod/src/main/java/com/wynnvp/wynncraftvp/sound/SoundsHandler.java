@@ -668,6 +668,45 @@ public class SoundsHandler {
         addSound("[1/5] Favian: Greetings, what brings you to the noble Eagle tribe?", "tribalaggression-favian-1", false);
         addSound("[1/5] Favian: Wonderful! You may now enter the cave to retrieve the blasted Owl totem.", "tribalaggression-favian-2", false);
 
+        //Studying the corrupt
+        addSound("[1/6] Viraex: Garoth? Sorry that name doesn't ring a bell. He could have lived here, but...", "studyingthecorrupt-viraex-1", false);
+        addSound("[1/10] Garoth's Journal: Day 4: The year is 623 AP. My base of operations has been completed, along with a safety bunker.", "studyingthecorrupt-garothsjournal-1", false);
+        addSound("[2/10] Garoth's Journal: Day 18: It's become extremely dangerous to continue my studies. With the Twains gone, the corrupt run wild.", "studyingthecorrupt-garothsjournal-2", false);
+        addSound("[3/10] Garoth's Journal: Day 53: My studies have yielded poor results. I know only what we already knew.", "studyingthecorrupt-garothsjournal-3", false);
+        addSound("[4/10] Garoth's Journal: That simple creatures become enraged and corrupt, the fallen both old and new will rise near corruption.", "studyingthecorrupt-garothsjournal-4", false);
+        addSound("[5/10] Garoth's Journal: Day 91: My studies have hit a wall. I know from my extended stay that humans will not corrupt through proximity or touch.", "studyingthecorrupt-garothsjournal-5", false);
+        addSound("[6/10] Garoth's Journal: The corruption seems to affect everything differently. Land, animal, human, mind. It's incomprehensible.", "studyingthecorrupt-garothsjournal-6", false);
+        addSound("[7/10] Garoth's Journal: Day 147: I fear there is nothing else to do but study the portal entrance for myself.", "studyingthecorrupt-garothsjournal-7", false);
+        addSound("[8/10] Garoth's Journal: If there is a \"cure\" I'm sure it will have something to do with understanding the portal.", "studyingthecorrupt-garothsjournal-8", false);
+        addSound("[9/10] Garoth's Journal: I leave this journal in the hopes that it will be found and help those understand this plight better than I. Though I admit, my information is not helpful.", "studyingthecorrupt-garothsjournal-9", false);
+        addSound("[10/10] Garoth's Journal: The corruption acts independently and without intelligence. It does not think, it simply does. It's like an idea, a concept. An idea is something that can not be destroyed.", "studyingthecorrupt-garothsjournal-10", false);
+        addSound("[1/3] Adventuring Mage: What business does a Ragni soldier have here? These are restricted grounds!", "studyingthecorrupt-adventuringmage-1", false);
+        addSound("[2/3] Adventuring Mage: Finding Garoth's old camp? Yes, it's been said to be around here, but it's old, and the entrance has probably fallen apart.", "studyingthecorrupt-adventuringmage-2", false);
+        addSound("[3/3] Adventuring Mage: How about you look around here, it should be very near, and when you have found it, I'll help you open it!", "studyingthecorrupt-adventuringmage-3", false);
+        addSound("[1/8] Adventuring Mage: *Mumbling* ... Hey what are you doing here! This is off limits!", "studyingthecorrupt-adventuringmage-4", false);
+        addSound("[2/8] Adventuring Mage: Right, finding Garoth's old camp...", "studyingthecorrupt-adventuringmage-5", false);
+        addSound("[3/8] Adventuring Mage: You say the blocked off entrance is over there?", "studyingthecorrupt-adventuringmage-6", false);
+        addSound("[4/8] Adventuring Mage: I doubt you'd be able to move it with any spell you know.", "studyingthecorrupt-adventuringmage-7", false);
+        addSound("[5/8] Adventuring Mage: Well, allow me to assist.", "studyingthecorrupt-adventuringmage-8", false);
+        addSound("[6/8] Adventuring Mage: The spells around here have to be a bit stronger to deal with the... Well, you know.", "studyingthecorrupt-adventuringmage-9", false);
+        addSound("[7/8] Adventuring Mage: Wait for it...", "studyingthecorrupt-adventuringmage-10", false);
+        addSound("[8/8] Adventuring Mage: And there you go. I hope you find what you’re looking for. Get out of here as soon as you’re done.", "studyingthecorrupt-adventuringmage-11", false);
+        addSound("[1/4] Garoth's Note: This... was a mistake. Beyond the portal holds no answers.", "studyingthecorrupt-garothsnote-1", true);
+        addSound("[2/4] Garoth's Note: I can feel my mind slipping through my very mindscape, I fear this may be my very last entry.", "studyingthecorrupt-garothsnote-2", true);
+        addSound("[3/4] Garoth's Note: As I studied the portal closely, I found myself staring for hours, longing to enter. Just as I forced myself to leave.. I was pushed.", "studyingthecorrupt-garothsnote-3", true);
+        addSound("[1/6] Pottur: Stop, Stop, Stop!", "studyingthecorrupt-pottur-1", false);
+        addSound("[2/6] Pottur: This isn't working. Great, now a Ragni soldier is here for a progress report.", "studyingthecorrupt-pottur-2", false);
+        addSound("[3/6] Pottur: Soldier, we haven't made any progress getting to Garoth.", "studyingthecorrupt-pottur-3", false);
+        addSound("[4/6] Pottur: Truth is, we simply don't know enough about him to know how to deal with this.", "studyingthecorrupt-pottur-4", false);
+        addSound("[5/6] Pottur: Maybe if you could help us find out more we could figure this out.", "studyingthecorrupt-pottur-5", false);
+        addSound("[6/6] Pottur: Garoth, many years ago lived and studied in Elkurn. It might be a good place to start.", "studyingthecorrupt-pottur-6", false);
+        addSound("[1/5] Pottur: Welcome back soldier. Still no luck here I'm afraid. Did you find out anything about Garoth's past?", "studyingthecorrupt-pottur-7", false);
+        addSound("[2/5] Pottur: ... I see. We had no idea he was corrupted. We didn't even consider that for a second!", "studyingthecorrupt-pottur-8", false);
+        addSound("[3/5] Pottur: Well if that's the case it might just be a simple case of...", "studyingthecorrupt-pottur-9", false);
+        addSound("[4/5] Pottur: Success!", "studyingthecorrupt-pottur-10", false);
+        addSound("[5/5] Pottur: I can't believe it was that simple. Magic can be like forcing a square into a circle, you just got to change your tact. Thanks for your help soldier.", "studyingthecorrupt-pottur-11", false);
+
+
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);
         addSound("[2/6] Malo: ...what in...aw no!", "rol1wormholes-malo-2", false);

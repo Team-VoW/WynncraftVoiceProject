@@ -2072,6 +2072,152 @@
 
 
 
+  "studyingthecorrupt-viraex-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-viraex-1", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-1", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-2", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-3", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-4", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-5", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-6", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-7", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-8", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-9", "stream": true}]
+  },
+  "studyingthecorrupt-garothsjournal-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-10", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-1", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-2", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-3", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-4", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-5", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-6", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-7", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-8", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-9", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-10", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-11", "stream": true}]
+  },
+  "studyingthecorrupt-garothsnote-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsnote-1", "stream": true}]
+  },
+  "studyingthecorrupt-garothsnote-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsnote-2", "stream": true}]
+  },
+  "studyingthecorrupt-garothsnote-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsnote-3", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-1", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-2", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-3", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-4", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-5", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-6", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-7", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-8", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-9", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-10", "stream": true}]
+  },
+  "studyingthecorrupt-pottur-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-pottur-11", "stream": true}]
+  },
+
+
   "rol1wormholes-malo-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:rol1wormholes-malo-1", "stream": true}]
