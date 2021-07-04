@@ -2218,6 +2218,44 @@
   },
 
 
+  "anironheartpart1-duvale-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart1-duvale-1", "stream": true}]
+  },
+  "anironheartpart1-duvale-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart1-duvale-2", "stream": true}]
+  },
+  "anironheartpart1-guardgolem-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-1", "stream": true}]
+  },
+  "anironheartpart1-guardgolem-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-2", "stream": true}]
+  },
+  "anironheartpart1-guardgolem-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-3", "stream": true}]
+  },
+  "anironheartpart1-guardgolem-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-4", "stream": true}]
+  },
+  "anironheartpart1-guardgolem-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-5", "stream": true}]
+  },
+  "anironheartpart1-guardgolem-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-6", "stream": true}]
+  },
+  "anironheartpart1-guardgolem-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-7", "stream": true}]
+  },
+
+
   "rol1wormholes-malo-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:rol1wormholes-malo-1", "stream": true}]
