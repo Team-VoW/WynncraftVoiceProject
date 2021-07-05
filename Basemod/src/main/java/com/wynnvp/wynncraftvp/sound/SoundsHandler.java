@@ -717,6 +717,32 @@ public class SoundsHandler {
         addSound("[1/6] Duvale: Oh, you there! I wasn't expecting a human soldier to be here, but you've come at a perfect time. I could use some help, see.", "anironheartpart1-duvale-1", false);
         addSound("[1/7] Duvale: Were you able to subdue the golem? You certainly look like you're in one piece.", "anironheartpart1-duvale-2", false);
 
+        //An iron heart part 2
+        addSound("[1/17] Daxe: Oh, so a human wishes to wander into the home of the great Daxe?", "anironheartpart2-daxe-1", false);
+        addSound("[2/17] Daxe: Unfortunately for you, I'm not fond of visitors. I've left my criminal past behind...mh?", "anironheartpart2-daxe-2", false);
+        addSound("[3/17] Daxe: What's that device you have there? So you already know about this, then...?", "anironheartpart2-daxe-3", false);
+        addSound("[4/17] Daxe: Hm! If you already know, what do you need the information for?", "anironheartpart2-daxe-4", false);
+        addSound("[7/17] Daxe: Wait, what in the world is going on?! What did you do to my golem?!", "anironheartpart2-daxe-5", false);
+        addSound("[9/17] Daxe: Wait, your daughter?! M-Madeleine...? I...h-how...what...?", "anironheartpart2-daxe-6", false);
+        addSound("[10/17] Daxe: You...you aren't...dead steel? You remember your name...?!", "anironheartpart2-daxe-7", false);
+        addSound("[13/17] Daxe: I... I can't believe it. They didn't...they're still...", "anironheartpart2-daxe-8", false);
+        addSound("[14/17] Daxe: Dear god, that...that must...I'll talk. I will tell you what I know.", "anironheartpart2-daxe-9", false);
+        addSound("[15/17] Daxe: I broke into the golem factory for petty thievery...and found them. They gave me this Golem... Theodore...later to keep me quiet.", "anironheartpart2-daxe-10", false);
+        addSound("[16/17] Daxe: They assured me that they were gone, that every last bit of them was erased. They...those monsters lied to me...", "anironheartpart2-daxe-11", false);
+        addSound("[17/17] Daxe: Follow this road west and turn right. Look for Urelix. The factory is hidden in a cabin, it won't look like a factory.", "anironheartpart2-daxe-12", false);
+        addSound("[1/8] Detective Hart: Hotor, Athomo, Arperi, Etyir, Taiyroth, On'omi, Danin, Nesys, Onton. All missing...", "anironheartpart2-detectivehart-1", false);
+        addSound("[1/5] Detective Hart: You've returned, I see. Any news on the situation?", "anironheartpart2-detectivehart-2", false);
+        addSound("[1/5] Urelix: And what do you think you are doing, barging into my humble home like this? Do they not teach humans manners in Wynn?", "anironheartpart2-drurelix-1", false);
+        addSound("[1/10] Dr. Urelix: Well well, look at you, here at the end of my factory. I wasn't expecting you to survive the production line. I thought you'd be one of ours by now.", "anironheartpart2-drurelix-2", false);
+        addSound("[1/3] Dr. Urelix: Ahh, a wise choice. Production will continue then...and you've earned yourself a pocket full of emeralds at the same time.", "anironheartpart2-drurelix-3", false);
+        addSound("[5/17] Guard Golem: BZZT. [ERROR]...? Madeleine...?", "anironheartpart2-guardgolem-1", false);
+        addSound("[6/17] Guard Golem: MADELEINE! Where's...wait! What's happening, where am I? WHO'S VOICE IS THIS?!", "anironheartpart2-guardgolem-2", false);
+        addSound("[8/17] Guard Golem?: They... my daughter... SHUT UP! QUIET! Who's giving me orders- NO ORDERS! Cold! COLD!", "anironheartpart2-guardgolem-3", false);
+        addSound("[11/17] Guard Golem?: STOP GIVING ME ORDERS!! I'M...I'M THEODORE! I'M NOT A SERVANT! I...where has my life gone...? Where is...", "anironheartpart2-guardgolem-4", false);
+        addSound("[12/17] Guard Golem?: Madeleine... Where are you- RE-AFFIRMING DIRECTIVES. BZZT. ... ... ...", "anironheartpart2-guardgolem-5", false);
+        addSound("[1/1] ???: Initiating Chip Insertion Machine - All personell in machine be advised, avoid the spikes.", "anironheartpart2-securityrobot-1", true);
+        addSound("[1/1] ???: Intruder Detected - Emergency meltdown initiated. Please evacuate immediately via the emergency exit.", "anironheartpart2-securityrobot-2", true);
+
         //Realm of lights 1 - The worm holes
         addSound("[1/6] Malo: Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from! ", "rol1wormholes-malo-1", false);
         addSound("[2/6] Malo: ...what in...aw no!", "rol1wormholes-malo-2", false);
