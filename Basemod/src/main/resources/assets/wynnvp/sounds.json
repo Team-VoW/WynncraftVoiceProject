@@ -1705,6 +1705,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-8", "stream": true}]
   },
+  "darkdescent-generalgraken-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-9", "stream": true}]
+  },
+  "darkdescent-generalgraken-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-10", "stream": true}]
+  },
   "darkdescent-lostsoul-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:darkdescent-lostsoul-1", "stream": true}]
