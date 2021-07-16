@@ -869,9 +869,25 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:potionmakingassistant3", "stream": true}]
   },
-  "potionmakingdressren": {
+  "potionmakingdressren1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmakingdressren", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmakingdressren1", "stream": true}]
+  },
+  "potionmakingdressren2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmakingdressren2", "stream": true}]
+  },
+  "potionmakingdressren3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmakingdressren3", "stream": true}]
+  },
+  "potionmakingdressren4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmakingdressren4", "stream": true}]
+  },
+  "potionmakingdressren5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmakingdressren5", "stream": true}]
   },
 
 
