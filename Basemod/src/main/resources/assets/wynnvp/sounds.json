@@ -1868,6 +1868,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:fallendelivery-officemanager-1", "stream": true}]
   },
+  "fallendelivery-officemanager-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fallendelivery-officemanager-2", "stream": true}]
+  },
+  "fallendelivery-officemanager-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fallendelivery-officemanager-3", "stream": true}]
+  },
   "fallendelivery-representativeernold-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:fallendelivery-representativeernold-1", "stream": true}]

@@ -595,6 +595,8 @@ public class SoundsHandler {
         addSound("[1/8] Gawrick: I'm working on spells hitherto unexplored and unknown to villager kind, please leave!", "fallendelivery-gawrick-1", false);
         addSound("[1/7] Gawrick: Oh, you're back. Were you successful? While you were gone I created a spell that turns cheese into wine.", "fallendelivery-gawrick-2", false);
         addSound("[1/4] Office Manager: Greetings, do you require assistance?", "fallendelivery-officemanager-1", false);
+        addSound("[1/1] Office Manager: Hey! You are not allowed in there!", "fallendelivery-officemanager-2", true);
+        addSound("[1/1] Office Manager: Hey! you are not permitted to enter the office!", "fallendelivery-officemanager-3", true);
         addSound("[1/2] Representative Ernold: Heh... HEH... HEHE! Everytime I teleport, I leave a little more of my sanity behind! But I get stronger!", "fallendelivery-representativeernold-1", true);
         addSound("[1/6] Marden: How did you get up here, human? What are they doing down there if not defending the fort!?", "fallendelivery-marden-1", false);
 
