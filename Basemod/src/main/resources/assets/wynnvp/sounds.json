@@ -211,6 +211,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-4", "stream": true}]
   },
+  "mushroomman-yahya-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-yahya-5", "stream": true}]
+  },
 
 
   "cluckclucknohno1": {

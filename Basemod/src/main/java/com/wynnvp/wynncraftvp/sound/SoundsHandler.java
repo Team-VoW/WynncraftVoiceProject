@@ -177,6 +177,7 @@ public class SoundsHandler {
         addSound("[1/5] Yahya: YOU DRANK ALL M-MY STUOP, STEW, SOUP!! WHERE IS IT!", "mushroomman-yahya-2", false);
         addSound("[1/5] Yahya: You, again? Oh, you have the… mushrooms.", "mushroomman-yahya-3", false);
         addSound("[1/6] Yahya: H-... Hey! I didn’t expect you to find it.. Haha… um..", "mushroomman-yahya-4", false);
+        addSound("[1/2] Yahya: Oh boy I love bowls! Bowls, bowls, b-bowls! Perfect for mushrooms! W-wait... I thought I- was at my home?", "mushroomman-yahya-5", false);
 
         //Cluck Cluck
         addSound("[1/6] Nohno: Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.", "cluckclucknohno1", false);
