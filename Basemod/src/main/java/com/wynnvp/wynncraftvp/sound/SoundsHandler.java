@@ -712,6 +712,19 @@ public class SoundsHandler {
         addSound("[4/5] Pottur: Success!", "studyingthecorrupt-pottur-10", false);
         addSound("[5/5] Pottur: I can't believe it was that simple. Magic can be like forcing a square into a circle, you just got to change your tact. Thanks for your help soldier.", "studyingthecorrupt-pottur-11", false);
 
+        //A grave Mistake
+        addSound("[1/3] Alem: You might want to leave.", "agravemistake-alem-1", false);
+        addSound("[2/3] Alem: There is nothing in this graveyard.", "agravemistake-alem-2", false);
+        addSound("[3/3] Alem: This place is private.", "agravemistake-alem-3", false);
+        addSound("[1/1] Alem: I have warned you...", "agravemistake-alem-4", false);
+        addSound("[1/2] ???: You were warned not to enter this forsaken place.", "agravemistake-mael-1", true);
+        addSound("[2/2] ???: But since you have made it thusfar, I suppose I shall show you the truth...", "agravemistake-mael-2", true);
+        addSound("[1/3] Mael: Do you understand now?", "agravemistake-mael-3", true);
+        addSound("[2/3] Mael: Then leave, and forget the horrors you have witnessed here today...", "agravemistake-mael-4", true);
+        addSound("[1/1] Alem: I have nothing more to say. Take these.", "agravemistake-alem-5", true);
+        addSound("[3/3] Mael: They are safer here.", "agravemistake-mael-5", true);
+        addSound("1/12kxxxxxxx2aohmyarmitsba", "agravemistake-skeleton-1", false);
+
         //An iron heart part 1
         addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
         addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartpart1-guardgolem-2", true);
