@@ -269,6 +269,36 @@
   },
 
 
+  "lostinthejungle-aryn-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-1", "stream": true}]
+  },
+  "lostinthejungle-aryn-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-2", "stream": true}]
+  },
+  "lostinthejungle-aryn-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-3", "stream": true}]
+  },
+  "lostinthejungle-aryn-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-4", "stream": true}]
+  },
+  "lostinthejungle-aryn-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-5", "stream": true}]
+  },
+  "lostinthejungle-gracen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-1", "stream": true}]
+  },
+  "lostinthejungle-gracen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-2", "stream": true}]
+  },
+
+
   "bobslostsoulapprentice1-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:bobslostsoulapprentice1-1", "stream": true}]

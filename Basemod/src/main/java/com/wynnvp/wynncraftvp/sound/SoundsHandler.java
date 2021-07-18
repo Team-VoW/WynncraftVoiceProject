@@ -728,6 +728,15 @@ public class SoundsHandler {
         addSound("[3/3] Mael: They are safer here.", "agravemistake-mael-5", true);
         addSound("1/12kxxxxxxx2aohmyarmitsba", "agravemistake-skeleton-1", false);
 
+        //Lost in the jungle
+        addSound("[1/10] Gracen: Excuse me, traveller... I am dreadfully sorry to ask this of you, but I need your help.", "lostinthejungle-gracen-1", false);
+        addSound("[1/7] Gracen: Oh my... Aryn was possessed by a spirit residing within the gemstone?", "lostinthejungle-gracen-2", false);
+        addSound("[1/4] Aryn: P-please, I beg of you spirit, let me go free! The tribesmen must be so worried-", "lostinthejungle-aryn-1", false);
+        addSound("[2/4] Aryn?: DO NOT RESIST, BOY! YOUR BODY IS MINE. I WAS TRAPPED IN THAT STONE FOR MILLENIA, AND NOW I AM FREE.", "lostinthejungle-aryn-2", true);
+        addSound("[3/4] Aryn: Aha, I hear someone coming! Surely a tribesman here to rescue me!", "lostinthejungle-aryn-3", true);
+        addSound("[4/4] Aryn?: Oh! If so, the body of this warrior will be far better suited to my needs! Grant me your power, boy! I need to thrash them first to possess them!", "lostinthejungle-aryn-4", true);
+        addSound("[1/6] Aryn: Hahah, take that, evil wraith! You'll never match the power of our tribe-", "lostinthejungle-aryn-5", true);
+
         //An iron heart part 1
         addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
         addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartpart1-guardgolem-2", true);
@@ -844,6 +853,100 @@ public class SoundsHandler {
         addSound("[4/6] Lari: They...they need to be stopped, but...I can't do it. I c-can't kill... I'm sorry, I just can't!", "rol1wormholes-lari-60", false);
         addSound("[5/6] Lari: Bring a group... Even Whelps can be a terror if they're enraged. Just...p-please, take care of this quickly.", "rol1wormholes-lari-61", false);
         addSound("[6/6] Lari: You deserve the best... But that's more than I can give...so here. Take these. I'll move along.", "rol1wormholes-lari-62", false);
+
+        //Realm of lights 1 - Taproot
+        addSound("[1/5] Lari: ...oh. Soldier, you're back. Ehm...I have to say, I'm...rather busy at the moment. ", "rol2taproot-lari-1", false);
+        addSound("[2/5] Lari: I have...important things to do. This accursed Decay...I have to end it. This all needs to stop. ", "rol2taproot-lari-2", false);
+        addSound("[3/5] Lari: I am thankful for your aid with the...the Grootslang, but I do not believe you will be able to help with this- Simply a matter of scale. ", "rol2taproot-lari-3", false);
+        addSound("[4/5] Lari: I apologize, but I need to focus on my task here. If, perhaps, you could come back another time? And, I do mean that sincerely...", "rol2taproot-lari-4", false);
+        addSound("[5/5] Lari: I can't even recall how many attempts this will make...but all my knowledge has gone into this. This must work. ", "rol2taproot-lari-5", false);
+        addSound("[1/9] Lari: ...I suppose I can't fault you for being curious. You may have seen a large, dark-looking patch of ground on your way here- I am trying to tend to it once more. ", "rol2taproot-lari-6", false);
+        addSound("[2/9] Lari: It is...the most obvious stain of the decay, and very intense...if I can scrub this out, the rest should follow. ", "rol2taproot-lari-7", false);
+        addSound("[3/9] Lari: This concoction of mine should...do the trick! ", "rol2taproot-lari-8", false);
+        addSound("[4/9] Lari: It...it's working!! I can feel it, the land is reacting positively! ", "rol2taproot-lari-9", false);
+        addSound("[5/9] Lari: I...I... It was...it was working, a-and... Agh, why can't I get this RIGHT?! ", "rol2taproot-lari-10", false);
+        addSound("[6/9] Lari: How many decades have I been doing this? How much time have I wasted, just...flailing like this?!", "rol2taproot-lari-11", false);
+        addSound("[7/9] Lari: Look, Soldier, I...I don't know what you expect to do against this. The Wyrm was one thing, but...this is beyond your comprehension. ", "rol2taproot-lari-12", false);
+        addSound("[8/9] Lari: I think you sh... Should...w-what is... Now, of all times? As I fail?!", "rol2taproot-lari-13", false);
+        addSound("[9/9] Lari: The road, look! He's contacting me! A-are you finally giving me the answers I've asked for? ", "rol2taproot-lari-14", false);
+        addSound("[1/12] Lari: ...I followed you seeking answers...and here, I am presented with more questions. Why did he bring us here? ", "rol2taproot-lari-15", false);
+        addSound("[2/12] Lari: This gate has appeared, immovable and impassable, since the moment that...that everything started. ", "rol2taproot-lari-16", false);
+        addSound("[3/12] Lari: I don't...is he trying to remind me of what's at stake? Did he want to show y- No, that's...he wouldn't know you...but then, what IS this about?! ", "rol2taproot-lari-17", false);
+        addSound("[4/12] Lari: Rrgh... ANSWER ME! PLEASE! I've begged you for so long to answer! ", "rol2taproot-lari-18", false);
+        addSound("[5/12] Lari: You gave me my task and your light but never told me what to DO! I've tried everything I can think of!! ", "rol2taproot-lari-19", false);
+        addSound("[6/12] Lari: Tell me! Please, just t-tell me already!! I don't know how much longer I can stand this!! ", "rol2taproot-lari-20", false);
+        addSound("[7/12] Lari: I...a-another one? Where are you leading me now? ", "rol2taproot-lari-21", false);
+        addSound("[8/12] Lari: It...the gateway...? Are you...I can't understand! Why this, again? ", "rol2taproot-lari-22", false);
+        addSound("[9/12] Lari: You showed me this before... At first, when you first contacted me. I made the choice... ", "rol2taproot-lari-23", false);
+        addSound("[10/12] Lari: Must I make it again? Is that it, do I need to prove myself to you once more? ", "rol2taproot-lari-24", false);
+        addSound("[11/12] Lari: I...what? You...you present me with this, but refuse to let me do what you want? ", "rol2taproot-lari-25", false);
+        addSound("[12/12] Lari: Soldier...please, can you investigate the doorway? There must be something wrong that I don't understand.", "rol2taproot-lari-26", false);
+        addSound("[1/14] orphion: My pulse... Human. I must inquire to you. I present you a test. Guide your attention to those you see. ", "rol2taproot-orphion-1", false);
+        addSound("[2/14] orphion: I must see the rhythm your heart beats. Listen well. ", "rol2taproot-orphion-2", false);
+        addSound("[3/14] Mayor: This has gone far enough. I can't do this anymore! I can't give you any more and I refuse to apologize for it! ", "rol2taproot-mayor-1", false);
+        addSound("[4/14] Dr Urelix: You know our deal. Remember what good you are doing by following the plans I've laid out for you. ", "rol2taproot-drurelix-1", false);
+        addSound("[5/14] Dr Urelix: Are you going to let your emotions cloud your judgment? You're a smarter man than that, Mr. Mayor. ", "rol2taproot-drurelix-2", false);
+        addSound("[6/14] Mayor: You can't possibly believe that throwing away the lives of innocent people is right! I can't go on with this on my conscience! ", "rol2taproot-mayor-2", false);
+        addSound("[7/14] Mayor: Detective Hart WILL be hearing from me, and he'll be hearing everything. We can't keep sacrificing our own like this! ", "rol2taproot-mayor-3", false);
+        addSound("[8/14] Dr Urelix: Our golems have single-handedly turned the tide of the Humans' corruption war. You would save ten here and sentence a thousand to die overseas?", "rol2taproot-drurelix-3", false);
+        addSound("[9/14] Mayor: You're a sick, twisted man, Urelix. I will not abide by this a moment longer. ", "rol2taproot-mayor-4", false);
+        addSound("[10/14] orphion: My pulse, you must decide. Three paths diverge upon your road.", "rol2taproot-orphion-3", false);
+        addSound("[11/14] orphion: You may leave. The rays of fate will see to destiny unfolding.", "rol2taproot-orphion-4", false);
+        addSound("[12/14] orphion: You may end this ''Mayor's'' life. Blood upon your hands in many ways.", "rol2taproot-orphion-5", false);
+        addSound("[13/14] orphion: You may end the life of Urelix. Heartbeats ceased by a bleeding heart.", "rol2taproot-orphion-6", false);
+        addSound("[14/14] orphion: Which way does your heart beat? How will you cast your light? Can you see?", "rol2taproot-orphion-7", false);
+        addSound("[1/6] orphion: My pulse... The blood of a bleeding heart has poisoned me. Even if you believe the sun should shine elsewhere, you must direct it yourself.", "rol2taproot-orphion-8", false);
+        addSound("[2/6] orphion: You must realize what is needed. You must see light t  hrough my lens.", "rol2taproot-orphion-9", false);
+        addSound("[3/6] orphion: To leave... As destiny unfolds, the sun shall set.", "rol2taproot-orphion-10", false);
+        addSound("[4/6] orphion: To end this ''Mayor's'' life... To snuff out one whose heart aches is painful.", "rol2taproot-orphion-11", false);
+        addSound("[5/6] orphion: To end the life of Urelix... The shadows of war shall engulf all.", "rol2taproot-orphion-12", false);
+        addSound("[6/6] orphion: My pulse, there is only one choice. You must do what is required, I beg of you.", "rol2taproot-orphion-13", false);
+        addSound("[1/2] Dr Urelix: Ah, you recognize necessity. That couldn't have been pleasant...but what's needed isn't pleasant, in the end. ", "rol2taproot-drurelix-4", false);
+        addSound("[2/2] orphion: My pulse, you are worthy! ", "rol2taproot-orphion-14", false);
+        addSound("[1/9] Lari: ...I didn't think you would be able to help, but I had to ask. So...was this for nothing?", "rol2taproot-lari-27", false);
+        addSound("[2/9] Lari: Wait...y-you...had a choice? He gave you the choice too?! A-Already?! ", "rol2taproot-lari-28", false);
+        addSound("[3/9] Lari: Wh- I don't understand! You...you just arrived to Gavel! You haven't seen its decline! Felt its pain! ", "rol2taproot-lari-29", false);
+        addSound("[4/9] Lari: What did you do?! The gate is opening? YOU did this?! I know your heart is in the right place, but you're a stranger to this land! ", "rol2taproot-lari-30", false);
+        addSound("[5/9] Lari: I...I...rrrgh... AAAAGH!! This isn't fair!! I've worked for decades and the light just...throws me to the wayside?! ", "rol2taproot-lari-31", false);
+        addSound("[6/9] Lari: PLEASE! Just let me in!", "rol2taproot-lari-32", false);
+        addSound("[7/9] orphion: My pulse, you must leave her be. Her heart's emotions have overpowered her mind's judgement. She must learn to separate them as you have. ", "rol2taproot-orphion-15", false);
+        addSound("[8/9] Lari: Please... You can't DO this to me!! ", "rol2taproot-lari-33", false);
+        addSound("[9/9] Lari: Why do you want this human to enter the Taproot?! What's special about them, what's their connection? What have they done that I haven't?! Tell me, please! Let me be useful!! ", "rol2taproot-lari-34", false);
+        addSound("[1/6] orphion: Your heartbeat beats in time with mine. Your mind is unclouded, despite the fury you have been steeped in. My pulse, you are needed. ", "rol2taproot-orphion-16", false);
+        addSound("[2/6] orphion: Your eyes cannot see the scope of the realms. You must allow me to shed light upon them- You must see the connections. ", "rol2taproot-orphion-17", false);
+        addSound("[3/6] orphion: Light... Dark... We oppose. I am light. It is dark. Our places reflect this land...and it is plain- The sun is setting. Light is fading ", "rol2taproot-orphion-18", false);
+        addSound("[4/6] orphion: The land you visit warps with the slow siphoning of my light, my blood. It becomes outlandish and strange-Oppressive and alien. ", "rol2taproot-orphion-19", false);
+        addSound("[5/6] orphion: As dusk approaches- As darkness spreads- My heart slows and stops. My pulse, you are needed. You shall be as one with me, and you shall see ", "rol2taproot-orphion-20", false);
+        addSound("[6/6] orphion: The Realm of Light needs life anew- A new pulse. It need you.", "rol2taproot-orphion-21", false);
+        addSound("[1/3] orphion: Our light is synchronous! You may see what I must have you see... ", "rol2taproot-orphion-22", false);
+        addSound("[2/3] orphion: Follow the road. You must witness the reason behind my trial.", "rol2taproot-orphion-23", false);
+        addSound("[3/3] orphion: See my memories. The memories of the realm. See...and be enlightened. ", "rol2taproot-orphion-24", false);
+        addSound("[1/3] orphion: Witness it... The Equinox. Learn why you are needed, my pulse.", "rol2taproot-orphion-25", false);
+        addSound("[2/3] orphion: Witness it. The vile emergence... ", "rol2taproot-orphion-26", false);
+        addSound("[3/3] orphion: Witness the beginning of decay. ", "rol2taproot-orphion-27", false);
+        addSound("[1/17] Lari: My light...I won't let you down!", "rol2taproot-lari-35", false);
+        addSound("[2/17] Lari: You! You don't belong here! ", "rol2taproot-lari-36", false);
+        addSound("[3/17] Lari: Wah! Back away, I don't want to hurt you! ", "rol2taproot-lari-37", false);
+        addSound("[4/17] Lari: I can do this... Orphion, lend me your voice! ", "rol2taproot-lari-38", false);
+        addSound("[5/17] Lari: Return to your realm in peace! ", "rol2taproot-lari-39", false);
+        addSound("[6/17] Lari: Your power is blinded by light. You cannot win! ", "rol2taproot-lari-40", false);
+        addSound("[7/17] Lari: Peace, strange creature! You must be peaceful! ", "rol2taproot-lari-41", false);
+        addSound("[8/17] Lari: Why isn't this working? Even Orphion's voice... ", "rol2taproot-lari-42", false);
+        addSound("[9/17] Lari: It's scarring the land... I need to end this, quickly... ", "rol2taproot-lari-43", false);
+        addSound("[10/17] Lari: His light... This power... I can do this! ", "rol2taproot-lari-44", false);
+        addSound("[11/17] Lari: The embodiment of light supports me! ", "rol2taproot-lari-45", false);
+        addSound("[12/17] Lari: You cannot fight the focus of pure light! ", "rol2taproot-lari-46", false);
+        addSound("[13/17] Lari: Be done! I bind you with Orphion's light! ", "rol2taproot-lari-47", false);
+        addSound("[14/17] Lari: Wait...it...it's n-not holding?! ", "rol2taproot-lari-48", false);
+        addSound("[15/17] orphion: Lari... A conflicted heart failed to channel my light. She refused to battle. ", "rol2taproot-orphion-28", false);
+        addSound("[16/17] orphion: The vile intruder was weak... But every opportunity to strike, exchanged for words to the deaf.", "rol2taproot-orphion-29", false);
+        addSound("[17/17] orphion: My pulse... it pains me. Her light simply fails to shine where it is needed, and so we are here. ", "rol2taproot-orphion-30", false);
+        addSound("[1/5] Lari: I... I...hope you'll forgive me, <Soldier>. My anger wasn't with you. I...j-just... ", "rol2taproot-lari-49", false);
+        addSound("[2/5] Lari: I work for untold years, trying to save this province, to save a Realm... All to so little avail. To the sound of silence from the one I'm trying to help. ", "rol2taproot-lari-50", false);
+        addSound("[3/5] Lari: And then, you appear, and... I still haven't ever been in there. I'd...I'd ask what it was like, but it's...probably private, right?", "rol2taproot-lari-51", false);
+        addSound("[4/5] Lari: At...at least I have an ally now, r-right? {Questioning} But...I'm afraid that... N-no, it's silly, you don't need to hear me fretting. ", "rol2taproot-lari-52", false);
+        addSound("[5/5] Lari: I... I promise I can still be useful. I'll... I'll find a way. I promise you. I'll...get out of your way, for now. ", "rol2taproot-lari-53", false);
+
 
     }
 
