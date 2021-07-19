@@ -3148,6 +3148,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:rol2taproot-lari-53", "stream": true}]
   },
+  "rol2taproot-lari-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:rol2taproot-lari-54", "stream": true}]
+  },
 
 
   "talkingmushroomabondedmines": {

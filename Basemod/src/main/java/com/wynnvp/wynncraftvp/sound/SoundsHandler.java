@@ -854,7 +854,7 @@ public class SoundsHandler {
         addSound("[5/6] Lari: Bring a group... Even Whelps can be a terror if they're enraged. Just...p-please, take care of this quickly.", "rol1wormholes-lari-61", false);
         addSound("[6/6] Lari: You deserve the best... But that's more than I can give...so here. Take these. I'll move along.", "rol1wormholes-lari-62", false);
 
-        //Realm of lights 1 - Taproot
+        //Realm of lights 2 - Taproot
         addSound("[1/5] Lari: ...oh. Soldier, you're back. Ehm...I have to say, I'm...rather busy at the moment. ", "rol2taproot-lari-1", false);
         addSound("[2/5] Lari: I have...important things to do. This accursed Decay...I have to end it. This all needs to stop. ", "rol2taproot-lari-2", false);
         addSound("[3/5] Lari: I am thankful for your aid with the...the Grootslang, but I do not believe you will be able to help with this- Simply a matter of scale. ", "rol2taproot-lari-3", false);
@@ -869,6 +869,7 @@ public class SoundsHandler {
         addSound("[7/10] Lari: Look, Soldier, I...I don't know what you expect to do against this. The Wyrm was one thing, but...this is beyond your comprehension. ", "rol2taproot-lari-12", true);
         addSound("[8/10] Lari: I think you sh... Should...w-what is... Now, of all times? As I fail?!", "rol2taproot-lari-13", true);
         addSound("[9/10] Lari: The road, look! He's contacting me! A-are you finally giving me the answers I've asked for? ", "rol2taproot-lari-14", true);
+        addSound("[10/10] Lari: I have to follow the trail! I...I have to know what he's telling me!", "rol2taproot-lari-54", true);
         addSound("[1/12] Lari: ...I followed you seeking answers...and here, I am presented with more questions. Why did he bring us here? ", "rol2taproot-lari-15", true);
         addSound("[2/12] Lari: This gate has appeared, immovable and impassable, since the moment that...that everything started. ", "rol2taproot-lari-16", true);
         addSound("[3/12] Lari: I don't...is he trying to remind me of what's at stake? Did he want to show y- No, that's...he wouldn't know you...but then, what IS this about?! ", "rol2taproot-lari-17", true);
@@ -946,7 +947,6 @@ public class SoundsHandler {
         addSound("[3/5] Lari: And then, you appear, and... I still haven't ever been in there. I'd...I'd ask what it was like, but it's...probably private, right?", "rol2taproot-lari-51", true);
         addSound("[4/5] Lari: At...at least I have an ally now, r-right? But...I'm afraid that... N-no, it's silly, you don't need to hear me fretting.", "rol2taproot-lari-52", true);
         addSound("[5/5] Lari: I... I promise I can still be useful. I'll... I'll find a way. I promise you. I'll...get out of your way, for now.", "rol2taproot-lari-53", true);
-
 
     }
 
