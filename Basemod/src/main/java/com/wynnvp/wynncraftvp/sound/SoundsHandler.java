@@ -1,12 +1,10 @@
 package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import net.minecraft.client.Minecraft;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class SoundsHandler {
@@ -948,6 +946,191 @@ public class SoundsHandler {
         addSound("[4/5] Lari: At...at least I have an ally now, r-right? But...I'm afraid that... N-no, it's silly, you don't need to hear me fretting.", "rol2taproot-lari-52", true);
         addSound("[5/5] Lari: I... I promise I can still be useful. I'll... I'll find a way. I promise you. I'll...get out of your way, for now.", "rol2taproot-lari-53", true);
 
+        //Realm of lights 3 - A headless history
+        addSound("[1/6] Hans: Oi, you there! With the small nose and whatnot! I got somethin' to ask you. Got a minute? ", "rol3aheadlesshistory-hans-1", false);
+        addSound("[2/6] Hans: Good, you're good people. It's about our neighbor, Referick. He's a bit of a conspiracy nut. You know the type, villager illuminati, Wybels are evil, all that?", "rol3aheadlesshistory-hans-2", false);
+        addSound("[3/6] Hans: He's acting proper strange though, the past few days. Thinkin' a lord of time's draggin' creatures from other dimensions doesn't make ya stop eatin' or drinkin'.", "rol3aheadlesshistory-hans-3", false);
+        addSound("[4/6] Hans: He'll talk your ear off about it if you give him half a chance, but he ain't sayin' a word to me, even when I tried askin' about his theories.", "rol3aheadlesshistory-hans-4", false);
+        addSound("[5/6] Hans: Somethin's definitely wrong about him, that much's for sure. Could ya take a look for me, see whatcha can figure out and all?", "rol3aheadlesshistory-hans-5", false);
+        addSound("[6/6] Hans: He lives in the house next to the pile of rocks. He's got screws loose but I don't want 'im dyin' on me, yeah?", "rol3aheadlesshistory-hans-6", false);
+        addSound("[2/4] Hans: Oi! Any luck with ol' Rick there? ", "rol3aheadlesshistory-hans-7", false);
+        addSound("[3/4] Hans: ...hm. Dang it...y'know, maybe there's somethin' here that'll tell us what in heck happened.", "rol3aheadlesshistory-hans-8", false);
+        addSound("[4/4] Hans: Let's look around the house for anythin' he mighta been workin' on. Maybe he finally fiddled with somethin' he shouldn'ta fiddled with? ", "rol3aheadlesshistory-hans-9", false);
+        addSound("[1/6] Hans: Whassat you're lookin' at there? The castle? Don't see why he'd be pointin' this ol' telescope that way.", "rol3aheadlesshistory-hans-10", false);
+        addSound("[2/6] Hans: You're human, so you wouldn't know, but somethin' like two hundred years ago, an elf of all people lived in that castle. Called 'imself Dullahan, wore a helmet a lot, I think.", "rol3aheadlesshistory-hans-11", false);
+        addSound("[3/6] Hans: People thought he was the reason for the Decay- can't imagine why, personally, and obviously they weren't right.", "rol3aheadlesshistory-hans-12", false);
+        addSound("[4/6] Hans: ...hm. Y'know, there's some ghost stories about Dullahan still livin' in that castle... Come to think of it, I think Referick mentioned a theory about it.", "rol3aheadlesshistory-hans-13", false);
+        addSound("[5/6] Hans: Barely remember what it was about cause of how many crackpots he's stuck his head into, but it's somethin' about a ghost. 's the only lead I can think of, anyways...", "rol3aheadlesshistory-hans-14", false);
+        addSound("[6/6] Hans: The castle door's locked, but you can access the basement. Think you could try lookin' over there? That's all I got.", "rol3aheadlesshistory-hans-15", false);
+        addSound("[1/2] ???: ...an unfamiliar soul? Strange. I have not brought you here. I do not know of you.", "rol3aheadlesshistory-dullahan-1", false);
+        addSound("[2/2] ???: What an odd feeling... I haven't felt confusion in a long time. How refreshing...still, I shall ask you to leave.", "rol3aheadlesshistory-dullahan-2", false);
+        addSound("[1/3] ???: Excuse you. I asked you to leave, strange person. You would ignore my request? ", "rol3aheadlesshistory-dullahan-3", false);
+        addSound("[2/3] ???: Such an action is rather insolent, not to mention...interesting. Still, interfering with my business is inexcusable. ", "rol3aheadlesshistory-dullahan-4", false);
+        addSound("[3/3] ???: Demons of the Prison Guard, I compel you to execute this interloper. Trap their soul for my perusal later. ", "rol3aheadlesshistory-dullahan-5", false);
+        addSound("[1/16] Hans: OI! Referick!! Wait for me! Ain'tcha need some food and drink first?!", "rol3aheadlesshistory-hans-16", false);
+        addSound("[2/16] Hans: The heck did you do?! Referick just bolted out the door like he forgot his wallet or somethin'!", "rol3aheadlesshistory-hans-17", false);
+        addSound("[4/16] Hans: C'mon mate, you got up and moved for the first time in days and now you're clammin' up again? Speak to me!", "rol3aheadlesshistory-hans-18", false);
+        addSound("[5/16] Referick: WROOOOOAAAAAARRR!!! I'M ALIIIIIVE!! ", "rol3aheadlesshistory-referick-1", false);
+        addSound("[6/16] Hans: YIPE! Never heard 'im scream like that before! Never heard anyone scream like that before! I'd like to never hear anyone scream like that again!", "rol3aheadlesshistory-hans-19", false);
+        addSound("[7/16] Referick: Oh, shut UP Hans! I nearly had my soul devoured, don't DARE give me any chaff when I was RIGHT all along!!", "rol3aheadlesshistory-referick-2", false);
+        addSound("[8/16] Hans: Agh, alright, alright! Quiet, my ears are ringin'! I'll listen, I'll listen, just quiet!", "rol3aheadlesshistory-hans-20", false);
+        addSound("[9/16] Referick: I knew the disappearances in Gelibord weren't just because of the risen bodies. People were being left catatonic!! That doesn't happen randomly!", "rol3aheadlesshistory-referick-3", false);
+        addSound("[10/16] Referick: It's Dullahan, I swear on my life! I figured him out and he came after me! He's devouring peoples' souls and siphoning their energy for himself!", "rol3aheadlesshistory-referick-4", false);
+        addSound("[11/16] Referick: He's acting from within the castle somehow- Ghostly hands and servants, I'll bet! And that means there's a chance to stop him, if he has to act indirectly!", "rol3aheadlesshistory-referick-5", false);
+        addSound("[12/16] Referick: We need to round up the townsfolk, the guards, the military, EVERYONE! We have to storm the castle and stop him before he's able to escape!", "rol3aheadlesshistory-referick-6", false);
+        addSound("[13/16] Hans: ...criminy, you really bit the big one, didn'tcha...look, if he's tryin' to eat people's souls, wouldn't it be smarter to NOT have a huge mob?", "rol3aheadlesshistory-hans-21", false);
+        addSound("[14/16] Referick: Wait, wh-what do you mean?! Shouldn't everyone be on high alert? Won't we have a better chance of swarming him all at once?", "rol3aheadlesshistory-referick-7", false);
+        addSound("[15/16] Hans: He'd have a whole mob of people ready to take from in that case. Sending in one, heavily-armed person, or a small group'd be better.", "rol3aheadlesshistory-hans-22", false);
+        addSound("[16/16] Hans: And, well...a heavily-armed human just rescued ya, Ricky. I think we leave this to 'em. How about it, human? Head up to the castle and look into this for us?", "rol3aheadlesshistory-hans-23", false);
+        addSound("[1/3] ???: The interesting soul arrives once more. Why is it you valued the life of that villager? You risked yourself for his soul.", "rol3aheadlesshistory-dullahan-6", false);
+        addSound("[2/3] ???: It will not make a difference one way or the other, and so I am doubly confused. The feeling has already grown tiresome. ", "rol3aheadlesshistory-dullahan-7", false);
+        addSound("[3/3] ???: What purpose have you in this place? Turn over your soul so I may examine it and find out. I am genuinely curious to know... ", "rol3aheadlesshistory-dullahan-8", false);
+        addSound("[1/13] Lari: Be done! I bind you with Orphion's light!", "rol3aheadlesshistory-lari-1", false);
+        addSound("[2/13] Lari: Wait...it...it's n-not holding?! ", "rol3aheadlesshistory-lari-2", false);
+        addSound("[3/13] Dullahan: LARIII! Where are you?! I can help!! ", "rol3aheadlesshistory-dullahan-9", false);
+        addSound("[4/13] Dullahan: Ugh, I saw her with that...THING, but... ", "rol3aheadlesshistory-dullahan-10", false);
+        addSound("[5/13] Dullahan: My visions didn't show an exact enough spot... LARIII? ", "rol3aheadlesshistory-dullahan-11", false);
+        addSound("[6/13] Dullahan: I...what is... What left the land scarred like this?! ", "rol3aheadlesshistory-dullahan-12", false);
+        addSound("[7/13] Dullahan: Was...was this their clash...? L-LARI! LARIIII! WHERE ARE YOU?!", "rol3aheadlesshistory-dullahan-13", false);
+        addSound("[8/13] Lari: ...hh...D-Du...lla...?", "rol3aheadlesshistory-lari-3", false);
+        addSound("[9/13] Dullahan: You are NOT dying on me! I won't allow it! You will LIVE, you hear me?!", "rol3aheadlesshistory-dullahan-14", false);
+        addSound("[10/13] Dullahan: Sit as still as you can, I have healing spells prepared. ", "rol3aheadlesshistory-dullahan-15", false);
+        addSound("[11/13] Dullahan: I ask the land for its life to save another. Grant me this!", "rol3aheadlesshistory-dullahan-16", false);
+        addSound("[12/13] Lari: Dullahan!", "rol3aheadlesshistory-lari-4", false);
+        addSound("[13/13] Dullahan: Oh, what am I going to do with you...", "rol3aheadlesshistory-dullahan-17", false);
+        addSound("[1/2] Dullahan: Once again you ignore my demands...? And not only that, you invade the memories I have locked away? ", "rol3aheadlesshistory-dullahan-18", false);
+        addSound("[2/2] Dullahan: I must ask again, what is your goal? Why have you come here, and why do you seek my most private thoughts, that not even I wish to think?", "rol3aheadlesshistory-dullahan-19", false);
+        addSound("[1/12] Lari: Look, Dulla, I really do appreciate your help, but you know I can't do what you're asking of me! There's another way, I just need to find it! ", "rol3aheadlesshistory-lari-5", false);
+        addSound("[2/12] Dullahan: Lari, you remember that I have my visions, right? I've seen what will happen if you don't step up- and I can help stop it!", "rol3aheadlesshistory-dullahan-20", false);
+        addSound("[3/12] Dullahan: You've been trying to find ''another way'' for two centuries. Don't you think it's high-time we took my route, before things get worse?", "rol3aheadlesshistory-dullahan-21", false);
+        addSound("[4/12] Lari: NO! I am not going to kill it! YOU are not going to kill it! I'll find a way! I will, I have these powers for a reason!", "rol3aheadlesshistory-lari-6", false);
+        addSound("[5/12] Dullahan: You talk a big game, and you show one too, but the creature wasn't fazed. I'm not fazed. Drop the intimidating act, please. ", "rol3aheadlesshistory-dullahan-22", false);
+        addSound("[6/12] Lari: I...there...there has to be a way. I...I-I'm terrified that I've...already ruined everything, just by following my heart, like I was told... ", "rol3aheadlesshistory-lari-7", false);
+        addSound("[7/12] Dullahan: I know you're frustrated, but I am too. I left a lot behind to try and help you. I hate to say these things, I wish it could be your way.", "rol3aheadlesshistory-dullahan-23", false);
+        addSound("[8/12] Dullahan: I'm terrified too, that if we don't take more drastic action, things will get worse. Can't you see that, too?", "rol3aheadlesshistory-dullahan-24", false);
+        addSound("[9/12] Lari: I...I just... I don't know what to do! ", "rol3aheadlesshistory-lari-8", false);
+        addSound("[10/12] Lari: He showed me all these things and gave me all these choices and asked how my heart beat!", "rol3aheadlesshistory-lari-9", false);
+        addSound("[11/12] Lari: He gave me these powers but they don't work or I don't know HOW they work!", "rol3aheadlesshistory-lari-10", false);
+        addSound("[12/12] Lari: I want to do the right thing but I don't know what it is and I don't know how to ask what it is and...a-and... ", "rol3aheadlesshistory-lari-11", false);
+        addSound("[1/2] Dullahan: You have become infuriating instead of interesting. Why do you violate my memories? Why do you force me to relive them? ", "rol3aheadlesshistory-dullahan-25", false);
+        addSound("[2/2] Dullahan: Spirit of the Keeper of Keys, rid me of this thing that befouls my place. It incites a rage akin to HER. ", "rol3aheadlesshistory-dullahan-26", false);
+        addSound("[1/2] Dullahan: You...are a fool. More than I was. You knowingly walk to your death.", "rol3aheadlesshistory-dullahan-27", false);
+        addSound("[2/2] Dullahan: It is convenient for me, certainly, but I admit that it is equal parts enraging and bewildering.", "rol3aheadlesshistory-dullahan-28", false);
+        addSound("[1/10] Dullahan: I told you, Lari! I saw it in my visions, this is our last chance! Hurry! ", "rol3aheadlesshistory-dullahan-29", false);
+        addSound("[2/10] Dullahan: Look at this spot, Lari. It has to be here. The land is being scarred, just like after your fight. The light is being drained!", "rol3aheadlesshistory-dullahan-30", false);
+        addSound("[3/10] Lari: This must be where the parasite burrowed down... You're... You're right. We have to...to do something.", "rol3aheadlesshistory-lari-12", false);
+        addSound("[4/10] Lari: I... I'm not sure if I'm ready, but you're right. We need to do this... ", "rol3aheadlesshistory-lari-13", false);
+        addSound("[5/10] Dullahan: ...Remember what I said. You HAVE to take action. There's only two outcomes here. ", "rol3aheadlesshistory-dullahan-31", false);
+        addSound("[6/10] Lari: Right... ", "rol3aheadlesshistory-lari-14", false);
+        addSound("[7/10] Lari: We'll need to dig... Do you think you could help with that, Dulla?", "rol3aheadlesshistory-lari-15", false);
+        addSound("[8/10] Dullahan: Of course, Lari. We'll need everything we can get if we're going to kill that horrendous thing.", "rol3aheadlesshistory-dullahan-32", false);
+        addSound("[9/10] Lari: ...let's get this over with.", "rol3aheadlesshistory-lari-16", false);
+        addSound("[10/10] Dullahan: I see it! Lari, it's time!", "rol3aheadlesshistory-dullahan-33", false);
+        addSound("[1/1] Dullahan: ...I will show you an exit, interloper. It would be...wise of you to take it.", "rol3aheadlesshistory-dullahan-34", false);
+        addSound("[1/5] Dullahan: You are a damned fool, interloper. Dredging my memories as you have... I have never felt such rage, not in a long time. ", "rol3aheadlesshistory-dullahan-35", false);
+        addSound("[2/5] Dullahan: As such, it shall end now. The exit I spoke of will not free you from the castle, as you can see. ", "rol3aheadlesshistory-dullahan-36", false);
+        addSound("[3/5] Dullahan: Instead, it will free you from your very life. I have had enough of your meddling. ", "rol3aheadlesshistory-dullahan-37", false);
+        addSound("[4/5] Dullahan: Warden of Wisdom! I compel you- Rid me of this miscreant! Erase every trace of it from this existence... ", "rol3aheadlesshistory-dullahan-38", false);
+        addSound("[5/5] Dullahan: ...save for a corpse, for me to toss at Lari's feet.", "rol3aheadlesshistory-dullahan-39", false);
+        addSound("[1/24] Lari: GAH! It was never able to do this before...! W-What happened to it?! ", "rol3aheadlesshistory-lari-17", false);
+        addSound("[2/24] Dullahan: AWAY! You keep away from us!! ", "rol3aheadlesshistory-dullahan-40", false);
+        addSound("[3/24] Dullahan: Lari, you need to get up, now! We can't waste this chance! ", "rol3aheadlesshistory-dullahan-41", false);
+        addSound("[4/24] Lari: It...it threw me aside like nothing! How is it overpowering Orphion's light...?", "rol3aheadlesshistory-lari-18", false);
+        addSound("[5/24] Dullahan: It's overpowering you because you're not a ttacking! Remember what I said? You have to-", "rol3aheadlesshistory-dullahan-42", false);
+        addSound("[6/24] Dullahan: ...wait, where did it...did we lose it already?!", "rol3aheadlesshistory-dullahan-43", false);
+        addSound("[7/24] Lari: It's under you! MOVE!!", "rol3aheadlesshistory-lari-19", false);
+        addSound("[8/24] Dullahan: It's shrugging my attacks off, Lari! Come on, do SOMETHING! ", "rol3aheadlesshistory-dullahan-44", false);
+        addSound("9/24lari!!", "rol3aheadlesshistory-lari-20", false);
+        addSound("[10/24] Dullahan: I...No! It's happening just like I saw! She's... ", "rol3aheadlesshistory-dullahan-45", false);
+        addSound("[11/24] Dullahan: I need to get to her, push her to the killing blow...", "rol3aheadlesshistory-dullahan-46", false);
+        addSound("[12/24] Lari: Be still, creature! I compel you with Orphion's light!", "rol3aheadlesshistory-lari-21", false);
+        addSound("[13/24] Dullahan: LARIIII! THIS IS THE LAST CHANCE YOU HAVE! DON'T TRAP IT, KILL IT! ", "rol3aheadlesshistory-dullahan-47", false);
+        addSound("[14/24] Lari: I-I'm...Dulla, I'm- I can't! I know I can keep it held this time!! ", "rol3aheadlesshistory-lari-22", false);
+        addSound("[15/24] Lari: I...wha...N-no!", "rol3aheadlesshistory-lari-23", false);
+        addSound("[16/24] Lari: I...I-I...th-the light is...I c-can't hold onto it...i-is it...it's t-taking...g-guh...", "rol3aheadlesshistory-lari-24", false);
+        addSound("[17/24] Dullahan: Lari! You can't reason with it! You can't hold it! You have to put Gavel first! US first!! ", "rol3aheadlesshistory-dullahan-48", false);
+        addSound("[18/24] Lari: I won't let what you predicted happen! I know I can change fate!!", "rol3aheadlesshistory-lari-25", false);
+        addSound("[19/24] Lari: Please work, please work! D-Don't break, I can't- ", "rol3aheadlesshistory-lari-26", false);
+        addSound("[20/24] Dullahan: Lari, no! If it bites you we're doomed! GET UP! ", "rol3aheadlesshistory-dullahan-83", false);
+        addSound("[21/24] Dullahan: AAAH, GET AWAY FROM HER! ", "rol3aheadlesshistory-dullahan-49", false);
+        addSound("[22/24] Lari: D-Dulla! ", "rol3aheadlesshistory-lari-27", false);
+        addSound("[23/24] Dullahan: L-Lari...we...e-everything happened like I s-said...you...you didn't...l-listen...", "rol3aheadlesshistory-dullahan-50", false);
+        addSound("[24/24] Lari: No! No it didn't happen like you said! I-I can fix this! Y-You'll be alright! You'll be alright, you hear me?! I'll make sure of it!", "rol3aheadlesshistory-lari-28", false);
+        addSound("[1/1] Dullahan: ...so I am cursed to bear witness to my most painful memories due to your idiocy. It is almost a fitting penance... Almost, but not quite.", "rol3aheadlesshistory-dullahan-51", false);
+        addSound("[1/2] Dullahan: My rage... My memories... Your presence stirs them in kind. You must disappear, I no longer care to see your soul.", "rol3aheadlesshistory-dullahan-52", false);
+        addSound("[2/2] Dullahan: Sit still and allow yourself to be engulfed. It will save me further pain.", "rol3aheadlesshistory-dullahan-53", false);
+        addSound("[1/25] Dullahan: Lari...? Where are you? I...I need you... Why are you gone? Why do you ignore me?", "rol3aheadlesshistory-dullahan-54", false);
+        addSound("[2/25] Dullahan: My magic is fading, I can't see my visions... They're clearer around you... Please, come back...", "rol3aheadlesshistory-dullahan-55", false);
+        addSound("[3/25] Gelibord Citizen: That elf girl's off in the forest. Don't know what she's doing but this is our shot!", "rol3aheadlesshistory-gelibordcitizen-1", false);
+        addSound("[4/25] Gelibord Citizen: We can finally execute the person causing the decay in the forest! Gelibord will be saved!", "rol3aheadlesshistory-gelibordcitizen-2", false);
+        addSound("[5/25] Gelibord Citizen: You prepared the sleeping spell, right? Who knows if we'll get a chance like this again.", "rol3aheadlesshistory-gelibordcitizen-3", false);
+        addSound("[6/25] Gelibord Citizen: Shhh... Quiet. He's in there.", "rol3aheadlesshistory-gelibordcitizen-4", false);
+        addSound("[7/25] Gelibord Citizen: Okay, go! Knock him out.", "rol3aheadlesshistory-gelibordcitizen-5", false);
+        addSound("[8/25] Dullahan: L-Lari? Is...is that you? Did you finally come back...? ", "rol3aheadlesshistory-dullahan-56", false);
+        addSound("[9/25] Gelibord Citizen: Nah, not quite. Say, why don't you go to sleep 'til she comes back? Dream sweet dreams... ", "rol3aheadlesshistory-gelibordcitizen-6", false);
+        addSound("[10/25] Gelibord Citizen: ...they'll be the last ones you ever have, grimy demon. To the guillotine with you... Everyone! I got him!", "rol3aheadlesshistory-gelibordcitizen-7", false);
+        addSound("[11/25] Gelibord Citizen: All of you, welcome! Today will be the day we save our fair land. Today's the day of light!", "rol3aheadlesshistory-gelibordcitizen-8", false);
+        addSound("[12/25] Gelibord Citizen: Dullahan has been captured! We have the cursed progenitor of the decay in our grip- to be executed, once and for all!", "rol3aheadlesshistory-gelibordcitizen-9", false);
+        addSound("[13/25] Gelibord Citizen: Haha, yeah! Shoulda thought twice before cursing OUR homes! Three cheers for our wizards!!", "rol3aheadlesshistory-gelibordcitizen-10", false);
+        addSound("[14/25] Gelibord Citizen: The decay will clear up- We'll spill his blood, chop off his head, and the curse will be lifted!!", "rol3aheadlesshistory-gelibordcitizen-11", false);
+        addSound("[15/25] Gelibord Citizen: Ladies and gentlemen, folks of all shapes and sizes, it's time to take our lives back!", "rol3aheadlesshistory-gelibordcitizen-12", false);
+        addSound("[16/25] Gelibord Citizens: 3!", "rol3aheadlesshistory-gelibordcitizens-1", false);
+        addSound("[17/25] Gelibord Citizens: 2!", "rol3aheadlesshistory-gelibordcitizens-2", false);
+        addSound("[18/25] Gelibord Citizens: 1!", "rol3aheadlesshistory-gelibordcitizens-3", false);
+        addSound("[19/25] Lari: Dullahan? I'm...I'm back. I didn't leave you for long, I just was trying to find the cu-", "rol3aheadlesshistory-lari-29", false);
+        addSound("[20/25] Lari: ...uh? Dullahan? He's...he's been right here to greet me almost every day for the past twenty years...", "rol3aheadlesshistory-lari-30", false);
+        addSound("[21/25] Lari: Footprints...? Dullaaaa? Where'd you go? Is everything alright, did something happen? ", "rol3aheadlesshistory-lari-31", false);
+        addSound("[22/25] Lari: D-Dulla...ha...I... Wh...", "rol3aheadlesshistory-lari-32", false);
+        addSound("[23/25] Lari: I... H-how could they...d-do this...?", "rol3aheadlesshistory-lari-33", false);
+        addSound("[24/25] Lari: I...I l-left for...an hour, a-and...and they... Why?", "rol3aheadlesshistory-lari-34", false);
+        addSound("[25/25] Lari: Why did they do this to you...? I...h-how can I possibly fix this?!", "rol3aheadlesshistory-lari-35", false);
+        addSound("[1/1] Dullahan: I cannot understand why you continue to defile me with these horrid memories. What do you hope to find?", "rol3aheadlesshistory-dullahan-57", false);
+        addSound("[1/1] Dullahan: I am once more curious. If only to know what I could possibly do or say to cease this horrid quest you've given yourself. ", "rol3aheadlesshistory-dullahan-58", false);
+        addSound("[1/9] Lari: Th-this has to work. It WILL work! I know it will! I...I d-don't know if it will... I have to fix this, I have to... ", "rol3aheadlesshistory-lari-36", false);
+        addSound("[2/9] Lari: The waters from the Lazarus Pit are fabled for bringing back the dead... If this doesn't work, I... ", "rol3aheadlesshistory-lari-37", false);
+        addSound("[3/9] Lari: I can't think about that. This...this WILL work. I promise. I found a way to fix it... It has to. ", "rol3aheadlesshistory-lari-38", false);
+        addSound("[4/9] Lari: P-Please...w-whatever gods are out there, whoever is listening, hear me...bring Dullahan back to me, I'm begging you... ", "rol3aheadlesshistory-lari-39", false);
+        addSound("[5/9] Lari: It's... I-Is it reacting? It... It looks like it is, but...h-he's not mending... ", "rol3aheadlesshistory-lari-40", false);
+        addSound("[6/9] Lari: N-No, this...i-it isn't...NO! It... It HAS to work! I...I can m-make this work! ", "rol3aheadlesshistory-lari-41", false);
+        addSound("7/9lari!!", "rol3aheadlesshistory-lari-42", false);
+        addSound("[8/9] Lari: D-Dullahan! It...it worked! You're back! ", "rol3aheadlesshistory-lari-43", false);
+        addSound("[9/9] Lari: I...I t-told you... I knew I could change fate... I'm so glad you're here... ", "rol3aheadlesshistory-lari-44", false);
+        addSound("[1/1] Dullahan: It's odd. If it were not for her, I would not be here. I would not have my power. Yet even thinking her name enrages me.", "rol3aheadlesshistory-dullahan-59", false);
+        addSound("[1/15] Lari: Dullahan? I... ", "rol3aheadlesshistory-lari-45", false);
+        addSound("[2/15] Lari: H...h-hrk...g-gah, what is...wh-what... You...you didn't really...? ", "rol3aheadlesshistory-lari-46", false);
+        addSound("[3/15] Lari: Th-there's so much death... The...the air smells like b-blood... ", "rol3aheadlesshistory-lari-47", false);
+        addSound("[4/15] Lari: This isn't... There has to be s-some other reason, I... I can't have b-brought back a...a...", "rol3aheadlesshistory-lari-48", false);
+        addSound("[5/15] Gelibord Citizen: P-Please, we can't afford to lose more people! There's hardly any farmers in the fields anymore, I-I'm needed elsewhere!", "rol3aheadlesshistory-gelibordcitizen-13", false);
+        addSound("[6/15] Dullahan: The last few said similar things. Someone else I knew said similar things. Frankly, I do not care. Present your soul to me, now.", "rol3aheadlesshistory-dullahan-60", false);
+        addSound("[7/15] Lari: DULLAHAN! What...w-what are you doing?! I... I can't believe my eyes...", "rol3aheadlesshistory-lari-49", false);
+        addSound("[8/15] Lari: I... I tried to help you! I t-tried so hard at everything we did together... How could you do this to them?! To...to me?", "rol3aheadlesshistory-lari-50", false);
+        addSound("[9/15] Dullahan: Odd. I recall you explicitly denying the only option that would have prevented this. I warned you quite thoroughly.", "rol3aheadlesshistory-dullahan-61", false);
+        addSound("[10/15] Dullahan: You have had many chances to end this, Lari. Do you expect me to feel sympathy, when your own actions have made me feel nothing?", "rol3aheadlesshistory-dullahan-62", false);
+        addSound("[11/15] Lari: This...this isn't like you... You would never have done this before! You dedicated your life to trying to help...so w-why are you...m...m-m... I-I'm leaving!!", "rol3aheadlesshistory-lari-51", false);
+        addSound("[12/15] Lari: What have I done...? This...he's... He's not th-the same anymore... What changed? Is this my fault...? I c-can't understand it...", "rol3aheadlesshistory-lari-52", false);
+        addSound("[13/15] Lari: ...but...I'll... I'll protect them. I'll protect him... I...there has to be a way. But...until I find it...", "rol3aheadlesshistory-lari-53", false);
+        addSound("[14/15] Lari: ...goodbye. Goodbye until the day comes when I can fill you with light once more. Goodbye until you learn... Goodbye, until I can fix you...", "rol3aheadlesshistory-lari-54", false);
+        addSound("[15/15] Lari: Goodbye, Dullahan... I'll miss you.", "rol3aheadlesshistory-lari-55", false);
+        addSound("At this moment...I believed that I could protect her. I believed that I could aid her.", "rol3aheadlesshistory-dullahan-63", true);
+        addSound("I left Aldorei behind, to aid in her ''battle'' against the darkness. What a fool I was.", "rol3aheadlesshistory-dullahan-64", true);
+        addSound("As the darkness slowly seeped into the land, her stubbornness halted any progress we might have made.", "rol3aheadlesshistory-dullahan-65", true);
+        addSound("Years of searching to no avail- A strong enough attack would have ended it, but her foolish pacifism doomed us.", "rol3aheadlesshistory-dullahan-66", true);
+        addSound("Six hundred years of searching finally brought us to what we so foolishly sought... And we were unprepared.", "rol3aheadlesshistory-dullahan-67", true);
+        addSound("The creature was found hibernating underground... It had been storing power, and we found ourselves utterly outmatched.", "rol3aheadlesshistory-dullahan-68", true);
+        addSound("She had the power and the opportunity to kill it ten times over, but clung to her morals. She could not recognize necessity, and refused to heed my offers and warnings.", "rol3aheadlesshistory-dullahan-69", true);
+        addSound("And so, my dark agony began. The light began to siphon away from me. I found myself paranoid and addled, fearful that my disfigurement would be seen.", "rol3aheadlesshistory-dullahan-70", true);
+        addSound("Even still I held some misplaced faith in her. With that dark seed in my mind... It grew to an obsession, almost- I had to hide it. I had to hide my curse. But it was found...", "rol3aheadlesshistory-dullahan-71", true);
+        addSound("The people of Gelibord saw my cursed visage... They saw me near the dark scars. They assumed without thought, and turned me into a perfect scapegoat.", "rol3aheadlesshistory-dullahan-72", true);
+        addSound("Not even death saw the end of my misfortunes. Not even a final release such as this could save me from Lari's stubbornness and endless mistakes.", "rol3aheadlesshistory-dullahan-73", true);
+        addSound("She brought me back...but the dark infection had eroded away my mind, my soul, my magic, and it continued to ravage my body. Every part of me, the dark touched.", "rol3aheadlesshistory-dullahan-74", true);
+        addSound("Her soft light burned in me, as the darkness quashed it and filled in the emptiness that it had created. I was there...but you could not say I was the same person.", "rol3aheadlesshistory-dullahan-75", true);
+        addSound("I could feel nothing. She still made me feel...but only annoyance. Rage. Sorrow. I could not bear to be with her a moment longer.", "rol3aheadlesshistory-dullahan-76", true);
+        addSound("There is no fixing this. Her actions are doomed to failure, just as I saw. She has not returned since this time... And so she did not realize that her actions have done little.", "rol3aheadlesshistory-dullahan-77", true);
+        addSound("The very powers she bestowed me with, knowingly or not...allow me to command spirits as I wish. To have those who doomed me to this purgatory feel the same aches as I have.", "rol3aheadlesshistory-dullahan-78", true);
+        addSound("To have their minds, bodies, and souls wracked. To have their magic outlawed and wither in disuse.", "rol3aheadlesshistory-dullahan-79", true);
+        addSound("Each soul I consume fills me with new strength. And none can reach me- Lari herself saw to that. Would she have taken action, had she known?", "rol3aheadlesshistory-dullahan-80", true);
+        addSound("There is truly, finally, nothing more for you here. The spell can not be broken, as of now. You have seen my life laid bare in front of you. There is nothing more for you to see.", "rol3aheadlesshistory-dullahan-81", true);
+        addSound("Leave. And do not return.", "rol3aheadlesshistory-dullahan-82", true);
     }
 
 
@@ -966,16 +1149,17 @@ public class SoundsHandler {
 
     public static String formatToSound(String message) {
         message = message.replaceAll(" ", "");
-      //  message = message.replaceAll("’", "");
-       // message = message.replaceAll("\\.", "");
-      //  message = message.replaceAll(",", "");
+        //  message = message.replaceAll("’", "");
+        // message = message.replaceAll("\\.", "");
+        //  message = message.replaceAll(",", "");
         message = message.toLowerCase();
-
+        message = getTextInbetween(message, "\\n\\n");
         message = getTextAfterSplit(message, "clearedallpotioneffects");
         message = getTextAfterSplit(message, "yourquestswillnotauto-trackanymore");
         message = getTextBeforeSplit(message, "pressshifttocontinue");
         message = getTextBeforeSplit(message, "presssneaktocontinue");
         message = getTextAfterSplit(message, "\\[");
+        message = getTextAfterSplit(message, "/queststartbeacon");
         message = "[" + message;
         message = message.replace("\n", "");
         message = message.replaceAll("[^abcdefghijklmnopqrstuvwxyz?!0123456789/]", "");
@@ -992,6 +1176,14 @@ public class SoundsHandler {
     public static String getTextBeforeSplit(String message, String split) {
         String[] splitMessage = message.split(split);
         message = splitMessage[0];
+        return message;
+    }
+
+    private static String getTextInbetween(String message, String split) {
+        String[] splitMessage = message.split(split);
+        if (splitMessage.length > 1) {
+            message = splitMessage[1];
+        }
         return message;
     }
 
