@@ -1168,7 +1168,11 @@ public class SoundsHandler {
         // message = message.replaceAll("\\.", "");
         //  message = message.replaceAll(",", "");
         message = message.toLowerCase();
+        message = message.replace(" ", "");
+        message = getActualText(message);
      //   message = getTextInbetween(message, "\\n\\n");
+
+       /*
         message = getTextAfterSplit(message, "clearedallpotioneffects");
         message = getTextAfterSplit(message, "yourquestswillnotauto-trackanymore");
         message = getTextBeforeSplit(message, "pressshifttocontinue");
@@ -1176,9 +1180,18 @@ public class SoundsHandler {
         message = getTextAfterSplit(message, "\\[");
         message = getTextAfterSplit(message, "/queststartbeacon");
         message = "[" + message;
-        message = message.replace("\n", "");
+          */
         message = message.replaceAll("[^abcdefghijklmnopqrstuvwxyz?!0123456789/]", "");
 
+        return message;
+    }
+
+    private static String getActualText(String message) {
+        if (!message.contains("pressshifttocontinue")) {
+            return message;
+        }
+        message = getTextBeforeSplit(message, "\\n\\npressshifttocontinue");
+        message = getTextAfterSplit(message, "\\n\\n");
         return message;
     }
 
