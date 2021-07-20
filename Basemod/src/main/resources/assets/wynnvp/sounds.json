@@ -621,6 +621,28 @@
   },
 
 
+  "tempotowntrouble-dougthescout-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-dougthescout-1", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-1", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-2", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-1", "stream": true}]
+  },
+  "tempotowntrouble-tyko-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-1", "stream": true}]
+  },
+
+
   "themercenary-takan-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:themercenary-takan-1", "stream": true}]

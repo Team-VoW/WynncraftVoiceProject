@@ -743,6 +743,13 @@ public class SoundsHandler {
         addSound("[2/3] Takan: Now that we have taken over their barracks, we can take over all of Wynn and make them suffer!", "themercenary-takan-2", true);
         addSound("[3/3] Takan: Today is the dawn of a new era... GAAHHH!", "themercenary-takan-3", true);
 
+        //Tempo Town Trouble
+        addSound("[1/6] Scout: Grr... I KNOW I saw that beast go in here, where the hell is it?!?!", "tempotowntrouble-dougthescout-1", false);
+        addSound("[1/8] Homeless Mayor: Hello there. Welcome to the recently made Tempo Town, friend.", "tempotowntrouble-homelessmayor-1", false);
+        addSound("[1/9] Homeless Mayor: Hello there, welcome to the recently- IS THE MONSTER DEAD?! DID YOU KILL IT???", "tempotowntrouble-homelessmayor-2", false);
+        addSound("1/13oldmanmartynwhatwasgoingthroughyournogginsoldier?", "tempotowntrouble-oldmanmartyn-1", false);
+        addSound("[1/8] Tyko: Hello??? EXCUSE ME, CAN ANYONE HERE HELP ME? ANYONE?!?!", "tempotowntrouble-tyko-1", false);
+
         //An iron heart part 1
         addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
         addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartpart1-guardgolem-2", true);
