@@ -750,6 +750,97 @@ public class SoundsHandler {
         addSound("1/13oldmanmartynwhatwasgoingthroughyournogginsoldier?", "tempotowntrouble-oldmanmartyn-1", false);
         addSound("[1/8] Tyko: Hello??? EXCUSE ME, CAN ANYONE HERE HELP ME? ANYONE?!?!", "tempotowntrouble-tyko-1", false);
 
+        //kingsrecruit
+        addSound("[1/2] Caravan Driver: Agh! ", "kingsrecruit-caravandriver-1", true);
+        addSound("[2/2] Tasim: Hey, soldier! You alright in there? Looks like we hit something. ", "kingsrecruit-tasim-1", true);
+        addSound("[1/4] Caravan Driver: I swear I hit this same dang boulder everytime I make this trip.", "kingsrecruit-caravandriver-2", true);
+        addSound("[2/4] Tasim: Does this mean we have to walk all the way to Ragni from here?", "kingsrecruit-tasim-2", true);
+        addSound("[3/4] Caravan Driver: It's not that far, it's just a straight path from here.", "kingsrecruit-caravandriver-3", true);
+        addSound("[4/4] Aledar: Soldier, if you're ready, let's get moving.", "kingsrecruit-aledar-1", true);
+        addSound("[1/4] Tasim: So, what do you guys know about Wynn exactly?", "kingsrecruit-tasim-3", true);
+        addSound("[2/4] Aledar: Same as you. That the war's been getting worse, so the King of Ragni's been recruiting Fruma soldiers. ", "kingsrecruit-aledar-2", true);
+        addSound("[3/4] Tasim: I've never seen the Wynn Province before. What do you think it's like? ", "kingsrecruit-tasim-4", true);
+        addSound("[4/4] Aledar: I think we're about to find out.", "kingsrecruit-aledar-3", true);
+        addSound("[1/4] Tasim: Must be the gate marking the border between Fruma and Wynn.", "kingsrecruit-tasim-5", true);
+        addSound("[2/4] Aledar: Yeah, now we can see what Wynn is really like, and find out if the stories are true.", "kingsrecruit-aledar-4", true);
+        addSound("[3/4] Aledar: Here we go.", "kingsrecruit-aledar-5", true);
+        addSound("[4/4] Aledar: Well, what are you waiting for?", "kingsrecruit-aledar-6", true);
+        addSound("[1/3] Tasim: So this is Wynn, huh?", "kingsrecruit-tasim-6", true);
+        addSound("[2/3] Aledar: It looks nice. The war clearly hasn't made it this far.", "kingsrecruit-aledar-7", true);
+        addSound("[3/3] Soldier: Hey, you three! Come over here.", "kingsrecruit-soldier1-1", true);
+        addSound("[1/4] Tasim: A soldier! What are you doing here?", "kingsrecruit-tasim-7", true);
+        addSound("[2/4] Soldier: There's a bit of trouble up ahead. You can't expect to get out of here alive if you aren't prepared.", "kingsrecruit-soldier1-2", true);
+        addSound("[3/4] Soldier: There's a cave right there. Those often contain useful loot, I'd give it a try if I were you. Enter the cave and find some armour.", "kingsrecruit-soldier1-3", true);
+        addSound("[4/4] Aledar: Let's go inside then.", "kingsrecruit-aledar-8", true);
+        addSound("[1/1] Aledar: The soldier didn't tell us the cave path was collapsed! We'll have to jump through.", "kingsrecruit-aledar-9", true);
+        addSound("[1/3] Tasim: I don't think we can make this jump...", "kingsrecruit-tasim-8", true);
+        addSound("[2/3] Aledar: What if we break that rock on the ceiling? That could open up the path for us.", "kingsrecruit-aledar-10", true);
+        addSound("[3/3] Tasim: That could work... soldier, left-click the rock to break it!", "kingsrecruit-tasim-9", true);
+        addSound("[1/1] Aledar: Just left-click the rock to break it!", "kingsrecruit-aledar-11", true);
+        addSound("[1/1] Aledar: It worked! Now we can reach that chest.", "kingsrecruit-aledar-12", true);
+        addSound("[1/1] Aledar: I think that's all we needed, let's get out. ", "kingsrecruit-aledar-13", true);
+        addSound("[1/5] Soldier: That looks like the stuff.", "kingsrecruit-soldier1-4", true);
+        addSound("[2/5] Soldier: Normally, this place is pretty safe, but somehow a few corrupted slipped through.", "kingsrecruit-soldier1-5", true);
+        addSound("[3/5] Soldier: We're pretty far from the portal so I don't know how they got here. They even broke the bridge!", "kingsrecruit-soldier1-6", true);
+        addSound("[4/5] Soldier: ... Anyway, you may have noticed that your loot is currently unidentified, you can identify your item at the Item Identifier further down the path on your left!", "kingsrecruit-soldier1-7", true);
+        addSound("[5/5] Aledar: Thanks for the warning. I guess we better get going then. Soldier, lead the way.", "kingsrecruit-aledar-14", true);
+        addSound("[1/2] Aledar: That's the identifier the soldier was talking about.", "kingsrecruit-aledar-15", true);
+        addSound("[2/2] Aledar: Just right-click him to identify your item and once you're done talk to us again.", "kingsrecruit-aledar-16", true);
+        addSound("[1/2] Aledar: If you've identified your item let's head off. Lead the way.", "kingsrecruit-aledar-17", true);
+        addSound("[2/2] Tasim: The soldier said something about a bridge being broken. Let's check it out.", "kingsrecruit-tasim-10", true);
+        addSound("[1/6] Tasim: Wait, stop! Don't want you falling off the edge. ", "kingsrecruit-tasim-11", true);
+        addSound("[2/6] Tasim: Yeah, there's no way we'll get across here, unless one of you happened to be a bridge repairman back in Fruma. ", "kingsrecruit-tasim-12", true);
+        addSound("[3/6] Aledar: Come to think of it, I don't remember. I know this sounds crazy, but I honestly can't remember anything I did back home. ", "kingsrecruit-aledar-18", true);
+        addSound("[4/6] Tasim: No, you're not crazy, it's the same for me. It looks like soldier is suffering the same amnesia, as well. ", "kingsrecruit-tasim-13", true);
+        addSound("[5/6] Aledar: It's a mystery for another day, I suppose.", "kingsrecruit-aledar-19", true);
+        addSound("[6/6] Aledar: For now, soldier, let's look for a way across. There's gotta be something we can use to get to the other side...", "kingsrecruit-aledar-20", true);
+        addSound("[1/1] Tasim: I guess that's one way of getting across! You guys head over the ravine, I'll be right behind you.", "kingsrecruit-tasim-14", true);
+        addSound("[1/1] Aledar: Just ahead is the entrance to the underpass. Once we get through there, we'll be at the castle!", "kingsrecruit-aledar-21", true);
+        addSound("[1/5] Guard: Ah, the new recruits. You might want to wait before passing through.", "kingsrecruit-guard-1", true);
+        addSound("[2/5] Aledar: What? Why?", "kingsrecruit-aledar-22", true);
+        addSound("[3/5] Guard: Somehow a bunch of corrupt sieged the underpass. It's not safe to go in unarmed. You three need weapons first.", "kingsrecruit-guard-2", true);
+        addSound("[4/5] Guard: Here, take these weapons, courtesy from the government of Ragni, to complete your journey.", "kingsrecruit-guard-3", true);
+        addSound("[5/5] Guard: Looks like you are all in order now, I hope you know how to use it. You may pass, but be careful, it's still very dangerous.", "kingsrecruit-guard-4", false);
+        addSound("[1/3] Tasim: What's going on?", "kingsrecruit-tasim-15", true);
+        addSound("[2/3] Tasim: That must be one of those 'Corrupted' the guard mentioned. Don't worry, it's moving so slow that it can't hurt us.", "kingsrecruit-tasim-16", true);
+        addSound("[3/3] Tasim: NEVERMIND! KILL IT!", "kingsrecruit-tasim-17", true);
+        addSound("[1/1] Aledar: Well done, Soldier! Let's keep going.", "kingsrecruit-aledar-23", true);
+        addSound("[1/1] Tasim: Anyone else have a bad feeling..?", "kingsrecruit-tasim-18", true);
+        addSound("[1/2] Aledar: Oh no...", "kingsrecruit-aledar-24", true);
+        addSound("[2/2] Aledar: Soldier, take the one in the front. We'll get the two in the back!", "kingsrecruit-aledar-25", true);
+        addSound("[1/1] Tasim: Great work! We're almost to the castle, so let's keep going!", "kingsrecruit-tasim-19", true);
+        addSound("[1/1] Tasim: Careful! Looks like there's more undead!", "kingsrecruit-tasim-20", true);
+        addSound("[1/8] Guard: Finally, some backup! Help me out here, would ya?", "kingsrecruit-guard2-1", true);
+        addSound("[2/8] Aledar: What happened, did you get attacked by the corrupt?", "kingsrecruit-aledar-26", true);
+        addSound("[3/8] Guard: Not quite, recruit. I'm well-equipped for them. The issue is this cave-in.", "kingsrecruit-guard2-2", true);
+        addSound("[4/8] Tasim: This isn't seriously the only way through, is it? What are we going to do?", "kingsrecruit-tasim-21", true);
+        addSound("[5/8] Guard: If it wasn't for my injuries, I could just use my weapon to cast a spell on these boulders to get rid of them.", "kingsrecruit-guard2-3", true);
+        addSound("[6/8] Guard: ...", "kingsrecruit-guard2-4", true);
+        addSound("[7/8] Guard: Soldier, you're an Assassin, right? Walk up to the boulder for me.", "kingsrecruit-guard2-5", true);
+        addSound("[8/8] Guard: Now, cast your Spin Attack spell by clicking Right-Left-Right!", "kingsrecruit-guard2-6", true);
+        addSound("[7/8] Guard: Soldier, you're a Warrior, right? Walk up to the boulder for me.", "kingsrecruit-guard2-7", true);
+        addSound("[8/8] Guard: Now, cast your Bash spell by clicking Right-Left-Right!", "kingsrecruit-guard2-8", true);
+        addSound("[7/8] Guard: Soldier, you're a Mage, right? Gonna need you to stay close to me.", "kingsrecruit-guard2-9", true);
+        addSound("[8/8] Guard: Now, cast your Heal spell by clicking Right-Left-Right!", "kingsrecruit-guard2-10", true);
+        addSound("[7/8] Guard: Soldier, you're an Archer, right? Walk up to the boulder for me.", "kingsrecruit-guard2-11", true);
+        addSound("[8/8] Guard: Now, cast your Arrow Storm spell by clicking Left-Right-Left!", "kingsrecruit-guard2-12", true);
+        addSound("[7/8] Guard: In my current state, I'm too weak to destroy this boulder. But since you're a Shaman, recruit, you can help me.", "kingsrecruit-guard2-13", true);
+        addSound("[8/8] Guard: All I need is for you to use your totem spell. To cast it, click Right-Left-Right!", "kingsrecruit-guard2-14", true);
+        addSound("[1/1] Guard: Good work. Now, you three head on towards the castle.", "kingsrecruit-guard2-15", true);
+        addSound("[1/2] Guard: That's done it! All healed up. Now let me take care of this.", "kingsrecruit-guard2-16", true);
+        addSound("[2/2] Guard: Now, you three should head on towards the castle.", "kingsrecruit-guard2-17", true);
+        addSound("[1/2] Guard: I feel stronger already! This should be enough for me to get us out of here.", "kingsrecruit-guard2-18", true);
+        addSound("[2/2] Guard: Took all of the strength your Totem gave me to do it, but I managed to save us! You there head on to the castle, now.", "kingsrecruit-guard2-19", true);
+        addSound("[1/2] Guard: Wait!", "kingsrecruit-guard2-20", true);
+        addSound("[2/2] Guard: RUN!", "kingsrecruit-guard2-21", true);
+        addSound("[1/3] Soldier: Launch the trebuchet!", "kingsrecruit-soldier-1", true);
+        addSound("[2/3] Guard: Thanks for the save.", "kingsrecruit-guard2-22", true);
+        addSound("[3/3] Soldier: Well, I'm just glad everyone made it out okay. All right, recruits, the castle is straight ahead!", "kingsrecruit-soldier-2", true);
+        addSound("[1/1] Aledar: Well, we made it. Guess we better head inside and talk to the King.", "kingsrecruit-aledar-27", true);
+        addSound("[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.", "kingsrecruit-ragnisking-1", true);
+        addSound("[1/7] Ragni's King: Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.", "kingsrecruit-ragnisking-2", false);
+
+
         //An iron heart part 1
         addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
         addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartpart1-guardgolem-2", true);
@@ -1177,7 +1268,7 @@ public class SoundsHandler {
         message = getTextAfterSplit(message, "yourquestswillnotauto-trackanymore");
         message = getTextBeforeSplit(message, "pressshifttocontinue");
         message = getTextBeforeSplit(message, "presssneaktocontinue");
-        message = getTextAfterSplit(message, "\\[");
+
         message = getTextAfterSplit(message, "/queststartbeacon");
         message = "[" + message;
           */
@@ -1188,6 +1279,13 @@ public class SoundsHandler {
 
     private static String getActualText(String message) {
         if (!message.contains("pressshifttocontinue")) {
+            System.out.println("Did not contain pressshifttocontinue: " + message);
+            if (message.contains("[")) {
+                message = message.replace("[", "awlrs");
+                message = getTextAfterSplit(message, "awlrs");
+                message = "[" + message;
+            }
+
             return message;
         }
         message = getTextBeforeSplit(message, "\\n\\npressshifttocontinue");
