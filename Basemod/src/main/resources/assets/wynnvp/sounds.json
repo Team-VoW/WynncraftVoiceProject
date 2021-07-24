@@ -788,6 +788,24 @@
   },
 
 
+  "greengloop-eluzterp-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-1", "stream": true}]
+  },
+  "greengloop-eluzterp-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-2", "stream": true}]
+  },
+  "greengloop-yodbon-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-yodbon-1", "stream": true}]
+  },
+  "greengloop-yodbon-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-yodbon-2", "stream": true}]
+  },
+
+
   "wynnexcavationadminuc": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wynnexcavationadminuc", "stream": true}]

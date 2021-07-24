@@ -750,6 +750,12 @@ public class SoundsHandler {
         addSound("1/13oldmanmartynwhatwasgoingthroughyournogginsoldier?", "tempotowntrouble-oldmanmartyn-1", false);
         addSound("[1/8] Tyko: Hello??? EXCUSE ME, CAN ANYONE HERE HELP ME? ANYONE?!?!", "tempotowntrouble-tyko-1", false);
 
+        //Green gloop
+        addSound("[1/9] Eluzterp: Oh, hey! You, adventurer over there! Would you mind helping me?", "greengloop-eluzterp-1", false);
+        addSound("[1/6] Eluzterp: Oh, you're back! Good to see you were able to get through there. Have you got a full Slime Scooper?", "greengloop-eluzterp-2", false);
+        addSound("[1/6] Yodbon: Welcome to Yodbon's Glass Blowery, what can I do f-", "greengloop-yodbon-1", false);
+        addSound("[1/3] Yodbon: You've returned, I see.", "greengloop-yodbon-2", false);
+
         //kingsrecruit
         addSound("[1/2] Caravan Driver: Agh! ", "kingsrecruit-caravandriver-1", true);
         addSound("[2/2] Tasim: Hey, soldier! You alright in there? Looks like we hit something. ", "kingsrecruit-tasim-1", true);
