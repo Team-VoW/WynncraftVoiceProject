@@ -836,7 +836,17 @@ public class SoundsHandler {
         addSound("[1/2] Guard: That's done it! All healed up. Now let me take care of this.", "kingsrecruit-guard2-16", true);
         addSound("[2/2] Guard: Now, you three should head on towards the castle.", "kingsrecruit-guard2-17", true);
         addSound("[1/2] Guard: I feel stronger already! This should be enough for me to get us out of here.", "kingsrecruit-guard2-18", true);
-        addSound("[2/2] Guard: Took all of the strength your Totem gave me to do it, but I managed to save us! You there head on to the castle, now.", "kingsrecruit-guard2-19", true);
+        addSound("[2/2] Guard: Took all of the strength your Totem gave me to do it, but I managed to save us! You three head on to the castle, now.", "kingsrecruit-guard2-19", true);
+        addSound("[7/8] Guard: Soldier, you're an Ninja, right? Walk up to the boulder for me", "kingsrecruit-guard2-23", false);
+        addSound("[8/8] Guard: Now, cast your Whirlwind spell by clicking Right-Left-Right!", "kingsrecruit-guard2-24", false);
+        addSound("[7/8] Guard: Soldier, you're a Knight, right? Walk up to the boulder for me.", "kingsrecruit-guard2-25", false);
+        addSound("[8/8] Guard: Now, cast your Holy Blast spell by clicking Right-Left-Right!", "kingsrecruit-guard2-26", false);
+        addSound("[7/8] Guard: Soldier, you're a Dark Wizard, right? Gonna need you to stay close to me.", "kingsrecruit-guard2-27", false);
+        addSound("[8/8] Guard: Now, cast your Remedy spell by clicking Right-Left-Right!", "kingsrecruit-guard2-28", false);
+        addSound("[7/8] Guard: Soldier, you're a Hunter, right? Walk up to the boulder for me.", "kingsrecruit-guard2-29", false);
+        addSound("[8/8] Guard: Now, cast your Bolt Blizzard spell by clicking Left-Right-Left!", "kingsrecruit-guard2-30", false);
+        addSound("[7/8] Guard: In my current state, I'm too weak to destroy this boulder. But since you're a Skyseer, Soldier, you can help me.", "kingsrecruit-guard2-31", false);
+        addSound("[8/8] Guard: All I need is for you to use your sky emblem spell. To cast it, click Right-Left-Right!", "kingsrecruit-guard2-32", false);
         addSound("[1/2] Guard: Wait!", "kingsrecruit-guard2-20", true);
         addSound("[2/2] Guard: RUN!", "kingsrecruit-guard2-21", true);
         addSound("[1/3] Soldier: Launch the trebuchet!", "kingsrecruit-soldier-1", true);

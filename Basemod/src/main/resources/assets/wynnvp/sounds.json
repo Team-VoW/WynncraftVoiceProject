@@ -352,6 +352,47 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingsrecruit-ragnisking-2", "stream": true}]
   },
+  "kingsrecruit-guard2-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-23", "stream": true}]
+  },
+  "kingsrecruit-guard2-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-24", "stream": true}]
+  },
+  "kingsrecruit-guard2-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-25", "stream": true}]
+  },
+  "kingsrecruit-guard2-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-26", "stream": true}]
+  },
+  "kingsrecruit-guard2-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-27", "stream": true}]
+  },
+  "kingsrecruit-guard2-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-28", "stream": true}]
+  },
+  "kingsrecruit-guard2-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-29", "stream": true}]
+  },
+  "kingsrecruit-guard2-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-30", "stream": true}]
+  },
+  "kingsrecruit-guard2-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-31", "stream": true}]
+  },
+  "kingsrecruit-guard2-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-32", "stream": true}]
+  },
+
 
 
   "thomas_creeperinfl_1": {
