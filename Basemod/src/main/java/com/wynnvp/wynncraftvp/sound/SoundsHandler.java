@@ -1295,7 +1295,6 @@ public class SoundsHandler {
 
     private static String getActualText(String message) {
         if (!message.contains("pressshifttocontinue")) {
-            System.out.println("Did not contain pressshifttocontinue: " + message);
             if (message.contains("[")) {
                 message = message.replace("[", "awlrs");
                 message = getTextAfterSplit(message, "awlrs");

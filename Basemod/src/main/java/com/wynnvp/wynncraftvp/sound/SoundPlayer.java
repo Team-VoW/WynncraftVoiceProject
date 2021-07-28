@@ -7,12 +7,14 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 
+import java.util.ArrayList;
+
 public class SoundPlayer {
     private int delay = 60;
-    private String latestSoundPlayed;
+    private ArrayList<String> latestSoundPlayed;
 
     public SoundPlayer() {
-        latestSoundPlayed = "";
+        latestSoundPlayed = new ArrayList<>();
     }
 
     //Code that is run to play all the sounds
@@ -53,11 +55,18 @@ public class SoundPlayer {
     }
 
     private void addSoundToCoolDown(String soundName) {
-        latestSoundPlayed = soundName;
+        if (latestSoundPlayed.size() > 100) {
+            latestSoundPlayed.remove(0);
+        }
+        latestSoundPlayed.add(soundName);
     }
 
     private boolean isOnCoolDown(String soundName) {
-        return soundName.equalsIgnoreCase(latestSoundPlayed);
+        return latestSoundPlayed.contains(soundName);
+    }
+
+    public void clearCoolDown() {
+        latestSoundPlayed.clear();
     }
 
 
