@@ -856,6 +856,89 @@ public class SoundsHandler {
         addSound("[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.", "kingsrecruit-ragnisking-1", true);
         addSound("[1/7] Ragni's King: Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.", "kingsrecruit-ragnisking-2", false);
 
+        //recoverthepast
+        addSound("[1/8] Dr. Picard: SUCCESS! I can see clearly now.. My memories from years ago!", "recoverthepast-dr.picard-1", false);
+        addSound("[1/3] Scout Reynauld: Oh, good! Reinforcements! I've been left here alone to defend Elkurn.", "recoverthepast-scoutreynauld-1", false);
+        addSound("[1/1] Scout Reynauld: Alright, here we are. Talk to me when you are ready.", "recoverthepast-scoutreynauld-2", true);
+        addSound("[1/4] Scout Reynauld: Oh boy, here they come!", "recoverthepast-scoutreynauld-3", true);
+        addSound("[2/4] Scout Reynauld: Wow! Erected spikes, too?!", "recoverthepast-scoutreynauld-4", true);
+        addSound("[3/4] Scout Reynauld: There's a Corrupted summoner on the other side of this bridge! We gotta destroy it!", "recoverthepast-scoutreynauld-5", true);
+        addSound("[4/4] Scout Reynauld: Defend me while I prepare my explosive arrows to bring down those towers blocking your path to it!", "recoverthepast-scoutreynauld-6", true);
+        addSound("[1/1] Scout Reynauld: My arrow's almost ready...", "recoverthepast-scoutreynauld-7", true);
+        addSound("[1/1] Scout Reynauld: Yes! One down, one to go! You're doing great!", "recoverthepast-scoutreynauld-8", true);
+        addSound("[1/1] Scout Reynauld: Almost got this arrow nocked...", "recoverthepast-scoutreynauld-9", true);
+        addSound("[1/1] Scout Reynauld: Bullseye! Now's your chance, go take out that summoner!", "recoverthepast-scoutreynauld-10", true);
+        addSound("[1/1] Scout Reynauld: Great job, you did it! Now, come back and get these monsters off me!", "recoverthepast-scoutreynauld-11", true);
+        addSound("[1/4] Scout Reynauld: Phew. Thanks for the help, not sure I could have done that alone.", "recoverthepast-scoutreynauld-12", true);
+        addSound("[1/7] Dr. Picard: Ah, I see you have the soldier. ", "recoverthepast-drpicard-2", false);
+        addSound("[2/7] Scout Reynauld: So how exactly were you planning on extracting my memory?", "recoverthepast-scoutreynauld-13", false);
+        addSound("[3/7] Dr. Picard: In a non painful way, I promise you. Now, if you'll stand over here, please.", "recoverthepast-drpicard-3", false);
+        addSound("[4/7] Scout Reynauld: You mean in front of that crystal thing? Alright...", "recoverthepast-scoutreynauld-14", false);
+        addSound("[5/7] Scout Reynauld: Do I just look into it? ", "recoverthepast-scoutreynauld-15", false);
+        addSound("[6/7] Dr. Picard: Just stare into its depths and let that depth reflect into your mind...", "recoverthepast-drpicard-4", false);
+        addSound("[7/7] Scout Reynauld: I don't feel any- WOAH", "recoverthepast-scoutreynauld-16", false);
+        addSound("[1/12] Reynauld: *Sigh*, what a day.", "recoverthepast-reynauld-1", true);
+        addSound("[2/12] Reynauld: Is the water any better?", "recoverthepast-reynauld-2", true);
+        addSound("[3/12] Heine: *Sigh*, there's barely enough for us and the horses.", "recoverthepast-heine-1", true);
+        addSound("[4/12] Heine: I don't see why the Royalty has to irrigate from our rivers.", "recoverthepast-heine-2", true);
+        addSound("[5/12] Imperial Guard: The Palace has ordered  an inquest into the productivity of this village. You are behind on your crop deliveries.", "recoverthepast-imperialguard-1", true);
+        addSound("[6/12] Reynauld: Sir, we tried but the farms don't have enough clean water since the Palace dammed up the river!", "recoverthepast-reynauld-3", true);
+        addSound("[7/12] Imperial Soldier: Are you insulting the work of our royal engineers?", "recoverthepast-imperialguard-2", true);
+        addSound("[8/12] Reynauld: What? No! I'm just explaining- Please! I have a family I didn't speak out of turn.", "recoverthepast-reynauld-4", true);
+        addSound("[9/12] Reynauld: Heine? Look after the kids. I'll be back soon!", "recoverthepast-reynauld-5", true);
+        addSound("[10/12] Imperial Guard: The Palace does not tolerate insubordination. Reynauld you are to be tried for Lèse-majesté.", "recoverthepast-imperialguard-3", true);
+        addSound("[11/12] Imperial Guard: This village would do well to remember who protects them from external forces.", "recoverthepast-imperialguard-4", true);
+        addSound("[12/12] Dr. Picard: Hey. HEY! It's not real. Just a memory! Talk to me!", "recoverthepast-drpicard-5", true);
+        addSound("[1/5] Dr. Picard: Well, that was unexpected. I didn't anticipate subjects would relive them that vividly.", "recoverthepast-drpicard-6", false);
+        addSound("[1/5] Caid: Yep, I'm the sailor. Pretty sure I'm from Fruma, came here on the same cart as you.", "recoverthepast-caid-1", false);
+        addSound("[1/6] Alchemist: Looking for potions?", "recoverthepast-alchemist-1", false);
+        addSound("[1/5] Caid: You know, the more I look at this, the more I wonder how I did this. ", "recoverthepast-caid-2", false);
+        addSound("[4/5] Caid: I mean... It certainly shrunk. Do I even fit now?", "recoverthepast-caid-3", false);
+        addSound("[1/5] Dr. Picard: Ahhh, another Fruman. Let's see if his story is the same as Reynauld's.", "recoverthepast-drpicard-7", false);
+        addSound("[2/5] Sailor Caid: I am still not sure about this, I'm kind of happy here.", "recoverthepast-sailorcaid-1", false);
+        addSound("[3/5] Dr. Picard: Nothing to worry about, it won't change who you are now.", "recoverthepast-drpicard-8", false);
+        addSound("[4/5] Dr. Picard: Wait for it...", "recoverthepast-drpicard-9", false);
+        addSound("[5/5] Sailor Caid: Hold up. What is going on?", "recoverthepast-sailorcaid-2", false);
+        addSound("[1/7] ???: AHHH!!!!!", "recoverthepast-cara-1", true);
+        addSound("[2/7] Imperial Guard: Move", "recoverthepast-imperialguard-5", true);
+        addSound("[3/7] Caid: CARA!", "recoverthepast-caid-4", true);
+        addSound("[4/7] Imperial Guard: Cara is under arrest. She is coming with me.", "recoverthepast-imperialguard-6", true);
+        addSound("[5/7] Caid: GET YOUR HANDS OFF OF HER!.", "recoverthepast-caid-5", true);
+        addSound("[6/7] Imperial Guard: Perhaps you would like to go in her place?", "recoverthepast-imperialguard-7", true);
+        addSound("[7/7] Dr. Picard: Hey. Earth to human.", "recoverthepast-drpicard-10", true);
+        addSound("[1/4] Dr. Picard: Hmmm... This doesn't look too good.", "recoverthepast-drpicard-11", false);
+        addSound("[1/5] Edwin: Fruma? Don't remember nothing. Don't want to neither.", "recoverthepast-edwin-1", false);
+        addSound("[1/3] Edwin: You army folk sure keep your promises.", "recoverthepast-edwin-2", true);
+        addSound("[1/5] Dr. Picard: Ah, I see you have the third subject. ", "recoverthepast-drpicard-12", false);
+        addSound("[2/5] Edwin: Pfft! I'm not some subject!", "recoverthepast-edwin-3", false);
+        addSound("[3/5] Dr. Picard: My apologies. Please, stand in front of the orb.", "recoverthepast-drpicard-13", false);
+        addSound("[4/5] Dr. Picard: Wait for it...", "recoverthepast-drpicard-14", false);
+        addSound("[5/5] Edwin: WAAAAO!!!!!!!", "recoverthepast-edwin-4", false);
+        addSound("[1/23] Edwin: Why are you doing this!?", "recoverthepast-edwin-5", false);
+        addSound("[2/23] Imperial Guard: Order of her majesty.", "recoverthepast-imperialguard-8", false);
+        addSound("[3/23] Edwin: LET ME OUT! WHAT IS THIS!", "recoverthepast-edwin-6", false);
+        addSound("[4/23] Caid: Hey you. Calm down. There's no point in yelling...", "recoverthepast-caid-6", false);
+        addSound("[5/23] Edwin: What... what do you mean?", "recoverthepast-edwin-7", false);
+        addSound("[6/23] Caid: There is no escape here. The guards come in once in a while and take people... people who are never seen again...", "recoverthepast-caid-7", false);
+        addSound("[7/23] Edwin: Where are they being taken?", "recoverthepast-edwin-8", false);
+        addSound("[8/23] Caid: No one knows... The last person they took was... Alen? Alida? Alegar?", "recoverthepast-caid-8", false);
+        addSound("[9/23] Imperial Guard: Caid! You are being transferred.", "recoverthepast-imperialguard-9", false);
+        addSound("[10/23] Caid: Wh-what. I... don't want to go!", "recoverthepast-caid-9", false);
+        addSound("[11/23] Imperial Guard: Walk. Or you will be executed on the spot.", "recoverthepast-imperialguard-10", false);
+        addSound("[12/23] Caid: What are you doing!?", "recoverthepast-caid-10", false);
+        addSound("[13/23] Imperial Guard: Shut it. ", "recoverthepast-imperialguard-11", false);
+        addSound("[14/23] Imperial Guard: There is no war inside the Fruman walls.", "recoverthepast-imperialguard-12", false);
+        addSound("[22/23] Dr. Picard: Soldier! Get out of there! You are being sucked into the memory.", "recoverthepast-drpicard-15", false);
+        addSound("[23/23] Dr. Picard: You need to find an exit or you will be sucked into the memory without chance of returning. HURRY!", "recoverthepast-drpicard-16", false);
+        addSound("[1/5] Dr. Picard: Okay, three Frumans have seen the same thing. Why are they sending their people here?", "recoverthepast-drpicard-17", false);
+        addSound("[4/5] Dr. Picard: Stand on this red carpet here and we'll get started.", "recoverthepast-drpicard-21", false);
+        addSound("[5/5] Dr. Picard: Wait for it...", "recoverthepast-drpicard-18", false);
+        addSound("[1/4] Dr. Picard: Are you okay?", "recoverthepast-drpicard-19", false);
+        addSound("[2/4] Dr. Picard: The other subjects never experienced that powerful of a reaction, it's almost like we were accessing memories that never existed.", "recoverthepast-drpicard-20", false);
+
+
+
+
 
         //An iron heart part 1
         addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
