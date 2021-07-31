@@ -1399,6 +1399,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:recoverthepast-alchemist-1", "stream": true}]
   },
+  "recoverthepast-alchemist-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:recoverthepast-alchemist-2", "stream": true}]
+  },
   "recoverthepast-caid-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:recoverthepast-caid-2", "stream": true}]

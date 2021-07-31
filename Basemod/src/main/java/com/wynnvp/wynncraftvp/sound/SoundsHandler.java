@@ -892,6 +892,7 @@ public class SoundsHandler {
         addSound("[1/5] Dr. Picard: Well, that was unexpected. I didn't anticipate subjects would relive them that vividly.", "recoverthepast-drpicard-6", false);
         addSound("[1/5] Caid: Yep, I'm the sailor. Pretty sure I'm from Fruma, came here on the same cart as you.", "recoverthepast-caid-1", false);
         addSound("[1/6] Alchemist: Looking for potions?", "recoverthepast-alchemist-1", false);
+        addSound("[1/1] Alchemist: If you have the items, mix them together in the brewing stand next to me.", "recoverthepast-alchemist-2", false);
         addSound("[1/5] Caid: You know, the more I look at this, the more I wonder how I did this. ", "recoverthepast-caid-2", false);
         addSound("[4/5] Caid: I mean... It certainly shrunk. Do I even fit now?", "recoverthepast-caid-3", false);
         addSound("[1/5] Dr. Picard: Ahhh, another Fruman. Let's see if his story is the same as Reynauld's.", "recoverthepast-drpicard-7", false);
@@ -935,10 +936,6 @@ public class SoundsHandler {
         addSound("[5/5] Dr. Picard: Wait for it...", "recoverthepast-drpicard-18", false);
         addSound("[1/4] Dr. Picard: Are you okay?", "recoverthepast-drpicard-19", false);
         addSound("[2/4] Dr. Picard: The other subjects never experienced that powerful of a reaction, it's almost like we were accessing memories that never existed.", "recoverthepast-drpicard-20", false);
-
-
-
-
 
         //An iron heart part 1
         addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
