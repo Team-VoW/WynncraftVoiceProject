@@ -969,7 +969,7 @@ public class SoundsHandler {
         addSound("[9/11] Todd: Thanks to you, we solved the case of the mystery man as well as the mystery house! For this I'd like to...", "outofmymind-todd-7", false);
         addSound("[10/11] Todd: Welcome you to the club, new member! Here is your shiny new badge that you can parade around town to show off how cool you are to others with style.", "outofmymind-todd-8", false);
         addSound("[11/11] Prentiss: Also since all the adults do it, we'll give you some emeralds that you rightly deserve for such an achievement. We all pitched in!", "outofmymind-prentiss-8", false);
-        A
+
         //An iron heart part 1
         addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
         addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartpart1-guardgolem-2", true);
