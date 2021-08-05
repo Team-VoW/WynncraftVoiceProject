@@ -2336,6 +2336,58 @@
   },
 
 
+  "theshadowofthebeast-dereg-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-dereg-1", "stream": true}]
+  },
+  "theshadowofthebeast-tolem-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-tolem-1", "stream": true}]
+  },
+  "theshadowofthebeast-tolem-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-tolem-2", "stream": true}]
+  },
+  "theshadowofthebeast-tolem-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-tolem-3", "stream": true}]
+  },
+  "theshadowofthebeast-kroac-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-kroac-1", "stream": true}]
+  },
+  "theshadowofthebeast-kroac-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-kroac-2", "stream": true}]
+  },
+  "theshadowofthebeast-kroac-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-kroac-3", "stream": true}]
+  },
+  "theshadowofthebeast-kroac-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-kroac-4", "stream": true}]
+  },
+  "theshadowofthebeast-rileen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-rileen-1", "stream": true}]
+  },
+  "theshadowofthebeast-rileen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-rileen-2", "stream": true}]
+  },
+  "theshadowofthebeast-rileen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-rileen-3", "stream": true}]
+  },
+  "theshadowofthebeast-rileen-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-rileen-4", "stream": true}]
+  },
+  "theshadowofthebeast-dereg-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theshadowofthebeast-dereg-2", "stream": true}]
+  },
 
 
   "macabremasquerade-masksalesman-1": {

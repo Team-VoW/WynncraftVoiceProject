@@ -970,6 +970,21 @@ public class SoundsHandler {
         addSound("[10/11] Todd: Welcome you to the club, new member! Here is your shiny new badge that you can parade around town to show off how cool you are to others with style.", "outofmymind-todd-8", false);
         addSound("[11/11] Prentiss: Also since all the adults do it, we'll give you some emeralds that you rightly deserve for such an achievement. We all pitched in!", "outofmymind-prentiss-8", false);
 
+        //The Shadow of the Beast
+        addSound("[1/7] Dereg: Oh, you look tough. You must be one of those humans I keep hearing about, right? People talk about your kind all the time.", "theshadowofthebeast-dereg-1", false);
+        addSound("[1/9] Tolem: Oh, this is such a mess! And my axe is busted, too...how am I going to get this fixed?!", "theshadowofthebeast-tolem-1", false);
+        addSound("[1/11] Tolem: Oh, back already? I haven't even finished my stuff, where are the cows?", "theshadowofthebeast-tolem-2", false);
+        addSound("[1/4] Tolem: Oh lovely. Idiot's back! Joy of joys. Willow planks, please.", "theshadowofthebeast-tolem-3", false);
+        addSound("[1/1] Kroac: Oh, I'll never be able to fix this with my back in this state...", "theshadowofthebeast-kroac-1", false);
+        addSound("[1/6] Kroac: Oh, look at this...all my years of carpentry and my bad back does my poor house in.", "theshadowofthebeast-kroac-2", false);
+        addSound("[1/5] Kroac: Did you get enough cobblestone? I found a guy down the street selling this top-quality Willow...", "theshadowofthebeast-kroac-3", false);
+        addSound("[1/3] Kroac: That'll do just fine, kind soldier! You're a lifesaver, really, you are.", "theshadowofthebeast-kroac-4", false);
+        addSound("[1/2] Rileen: EVERYONE, MOVE! THE BEAST IS ON A RAMPAGE!", "theshadowofthebeast-rileen-1", false);
+        addSound("[2/2] Rileen: Aah, no! There were people in that house!", "theshadowofthebeast-rileen-2", false);
+        addSound("[1/7] Rileen: Wah! H-Human! Get away, there's nothing you can help with here!", "theshadowofthebeast-rileen-3", false);
+        addSound("[1/7] Rileen: No, there's no time to make a fishing spear- AAH! You're still here? What do you WANT?!", "theshadowofthebeast-rileen-4", false);
+        addSound("[1/7] Dereg: You're back! Any luck hunting the thing down?", "theshadowofthebeast-dereg-2", false);
+
         //An iron heart part 1
         addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
         addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartpart1-guardgolem-2", true);
