@@ -3054,6 +3054,212 @@
   },
 
 
+
+
+  "asandyscandal-almujbankguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-1", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-1", "stream": true}]
+  },
+  "asandyscandal-bandit-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-1", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-2", "stream": true}]
+  },
+  "asandyscandal-bandit-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-2", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-3", "stream": true}]
+  },
+  "asandyscandal-bandit-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-3", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-4", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-5", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-6", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-7", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-8", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-9", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-10", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-11", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-12", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-13", "stream": true}]
+  },
+  "asandyscandal-shopkeepergibbs-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-14", "stream": true}]
+  },
+  "asandyscandal-bandit-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-4", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-2", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-1", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-2", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-3", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-4", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-5", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-6", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-7", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-8", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-9", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-10", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-3", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-4", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-5", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-6", "stream": true}]
+  },
+  "asandyscandal-almujsentry-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujsentry-1", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-7", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-8", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-9", "stream": true}]
+  },
+  "asandyscandal-almujcitizen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujcitizen-1", "stream": true}]
+  },
+  "asandyscandal-almujcitizen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujcitizen-2", "stream": true}]
+  },
+  "asandyscandal-banditleader-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-1", "stream": true}]
+  },
+  "asandyscandal-banditleader-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-2", "stream": true}]
+  },
+  "asandyscandal-banditleader-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-3", "stream": true}]
+  },
+  "asandyscandal-banditleader-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-4", "stream": true}]
+  },
+  "asandyscandal-banditleader-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-5", "stream": true}]
+  },
+  "asandyscandal-banditleader-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-6", "stream": true}]
+  },
+  "asandyscandal-banditleader-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-7", "stream": true}]
+  },
+  "asandyscandal-banditleader-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-8", "stream": true}]
+  },
+  "asandyscandal-banditleader-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-9", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-10", "stream": true}]
+  },
+
+
+
+
   "cowfusion-cowguard-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cowfusion-cowguard-1", "stream": true}]

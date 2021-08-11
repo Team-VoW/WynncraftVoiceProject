@@ -1620,6 +1620,59 @@ public class SoundsHandler {
         addSound("[1/1] Qira: So, you've arrived. You have proven yourself very capable... I am looking forward to this bout! Let's dance, mortal!!", "theqirahive-qira-6", true);
         addSound("[1/1] Qira: ...you. You...ahaha...I like you. You're capable enough... Perhaps we could be allies in the future...", "theqirahive-qira-7", true);
         addSound("[1/14] Yansur: How cowardly! After defeating so many in the Hive, and receiving such praise, you've the gall to upstand Mistress's request?  ", "theqirahive-yansur-7", false);
+
+        //A Sandy Scandal
+        addSound("[1/7] Almuj Bank Guard: You look like a hardy one, Ragni army is it? Would you be willing to help Almuj a bit?", "asandyscandal-almujbankguard-1", false);
+        addSound("[1/9] Shopkeeper Gibbs: Hello gentlemen! What can I interest you in today? Some industrial torches? Pickaxes? ", "asandyscandal-shopkeepergibbs-1", false);
+        addSound("[2/9] Bandit: Shut yer' trap, old man. We came for a different kind of business.", "asandyscandal-bandit-1", false);
+        addSound("[3/9] Shopkeeper Gibbs: Wha-? Look, fellows. Just step out of my store, and nobody gets hurt. I don't want any trouble.", "asandyscandal-shopkeepergibbs-2", false);
+        addSound("[4/9] Bandit: Listen up old man, tell us the code to the TNT vault in the basement, or I decorate my necklace with your fingers!", "asandyscandal-bandit-2", false);
+        addSound("[5/9] Shopkeeper Gibbs: Certainly not! That TNT is for licensed mining companies only, not your average amateur miner.", "asandyscandal-shopkeepergibbs-3", false);
+        addSound("[6/9] Bandit: Well then! I guess you'll still be able to grasp a pick with four fingers, eh?", "asandyscandal-bandit-3", false);
+        addSound("[7/9] Shopkeeper Gibbs: Gaaah! Alright, alright! No more violence, please!", "asandyscandal-shopkeepergibbs-4", false);
+        addSound("[8/9] Shopkeeper Gibbs: The code is 7-8-1-2... please don't hurt me! ", "asandyscandal-shopkeepergibbs-5", false);
+        addSound("Business was slow that day, until two rugged, oddly-dressed men stormed into my shop, with a lot of nerve.", "asandyscandal-shopkeepergibbs-6", false);
+        addSound("Before I could close any deal with them, the man with a dagger started threatening me!", "asandyscandal-shopkeepergibbs-7", false);
+        addSound("I tried to make peace with the crooks.", "asandyscandal-shopkeepergibbs-8", false);
+        addSound("The bandit put the knife closer to me and started demanding the code to the TNT vault downstairs!", "asandyscandal-shopkeepergibbs-9", false);
+        addSound("The bandits grew agitated and resorted to violence to obtain the combination.", "asandyscandal-shopkeepergibbs-10", false);
+        addSound("They swiped their knife at me, leaving a sizeable wound on my arm.", "asandyscandal-shopkeepergibbs-11", false);
+        addSound("I had no choice but to give up the combination, which was 7812.", "asandyscandal-shopkeepergibbs-12", false);
+        addSound("After I gave up the combination, they knocked me out!", "asandyscandal-shopkeepergibbs-13", false);
+        addSound("I had no idea what the criminals did after that, I never went back into my shop after the incident.", "asandyscandal-shopkeepergibbs-14", false);
+        addSound("[9/9] Bandit: 7-8-1-2... thanks! We won't be needing you anymore... now go to sleep!", "asandyscandal-bandit-4", false);
+        addSound("[1/6] Almuj Bank Guard: You're back, having read the report I assume. Did you find anything in particular?", "asandyscandal-almujbankguard-2", false);
+        addSound("[1/3] Scroll Merchant: Ey', what do you two blighters think you're doing with those dangerous explosives in the city?", "asandyscandal-scrollmerchant-1", true);
+        addSound("[2/3] Scroll Merchant: Guards! Guards! Robber! Come quick! Urgently!", "asandyscandal-scrollmerchant-2", true);
+        addSound("[3/3] Scroll Merchant: Gaaah!", "asandyscandal-scrollmerchant-3", true);
+        addSound("I was having a fine time tending to my rooftop garden after a lengthy day of selling scrolls.", "asandyscandal-scrollmerchant-4", true);
+        addSound("While looking down on the street, I saw two unsavory men, one with TNT in hand, marching down the path.", "asandyscandal-scrollmerchant-5", true);
+        addSound("I was suspicious, so I tried to get their attention, but they ignored me.", "asandyscandal-scrollmerchant-6", true);
+        addSound("I then realized that had no innocent itinerary, they were heading straight for my wealthy neighbor's house!", "asandyscandal-scrollmerchant-7", true);
+        addSound("I tried to yell for the attention of a guard or official, but nobody could hear me.", "asandyscandal-scrollmerchant-8", true);
+        addSound("Before anybody could hear me, a large explosion occurred inside of the house the bandits intruded.", "asandyscandal-scrollmerchant-9", true);
+        addSound("The bandits came sprinting out of my wealthy neighbor's house with two of his most prized possessions: two of his weapons.", "asandyscandal-scrollmerchant-10", true);
+        addSound("[1/8] Almuj Bank Guard: Were you able to uncover any new information regarding the status of the criminals? ", "asandyscandal-almujbankguard-3", false);
+        addSound("[2/8] Almuj Bank Guard: Oh dear, this isn't good. The criminals plundered two very powerful weapons.", "asandyscandal-almujbankguard-4", false);
+        addSound("[3/8] Almuj Bank Guard: It won't be easy facing those criminals if they decide to raid the bank with those weapons.", "asandyscandal-almujbankguard-5", false);
+        addSound("[4/8] Almuj Bank Guard: I'm not certain how to proceed from here, we didn't receive any more witness reports, and-", "asandyscandal-almujbankguard-6", false);
+        addSound("[5/8] Almuj Sentry: Boss, I just received urgent reports of a robbery underway in the left residential area of Almuj!", "asandyscandal-almujsentry-1", false);
+        addSound("[6/8] Almuj Bank Guard: Oh my... you! Soldier! Urgently! The robbery is taking place across the bridge, next to the first house you visited today!", "asandyscandal-almujbankguard-7", false);
+        addSound("[7/8] Almuj Bank Guard: There will be somebody waiting for you outside of the house once you get to the residential area!", "asandyscandal-almujbankguard-8", false);
+        addSound("[8/8] Almuj Bank Guard: If you still can't find it, I've written the coordinates in your quest book. Now quickly, get to the house!", "asandyscandal-almujbankguard-9", false);
+        addSound("[1/2] Almuj Citizen: Hello? Are you with the guards? Good! Hurry! Some bandits just ransacked my house, and left with lots of emeralds!", "asandyscandal-almujcitizen-1", true);
+        addSound("[2/2] Almuj Citizen: Follow me to my house, hopefully you can find the bandits! They stole lots of my precious gold!", "asandyscandal-almujcitizen-2", true);
+        addSound("[1/4] Bandit Leader: Here-- maybe you'll help us pull the heist if I give you some of this gold we just stole.", "asandyscandal-banditleader-1", true);
+        addSound("[2/4] Bandit Leader: Ahah. I had a feeling we had a guard on our tail.", "asandyscandal-banditleader-2", true);
+        addSound("[3/4] Bandit Leader: I wouldn't want to wear out my new-stolen weapons killing you... I'll just trap you in here with all of this TNT!", "asandyscandal-banditleader-3", true);
+        addSound("[4/4] Bandit Leader: This'll blow up in a few seconds. Good luck getting out of here! ", "asandyscandal-banditleader-4", true);
+        addSound("[1/1] Bandit Leader: It's too late to stop us now! We're already about to bust out of here with a grand prize sure to gain us province-wide respect!", "asandyscandal-banditleader-5", true);
+        addSound("[1/3] Bandit Leader: Look here, the soldier decided they wanted to follow us. Dumb move.", "asandyscandal-banditleader-6", true);
+        addSound("[2/3] Bandit Leader: I guess we can kill two birds with one stone: escaping the bank, and killing this pest.", "asandyscandal-banditleader-7", true);
+        addSound("[3/3] Bandit Leader: Block the entrance, bandits!", "asandyscandal-banditleader-8", true);
+        addSound("[1/1] Bandit Leader: Oh no... we've run out of TNT! We were in over our heads... We can't defeat them, just run for your life! Forget the emeralds, let's get outta' here!", "asandyscandal-banditleader-9", true);
+        addSound("[1/4] Almuj Bank Guard: What happened down there underneath the bank? I heard the rumble.", "asandyscandal-almujbankguard-10", false);
+
     }
 
 
