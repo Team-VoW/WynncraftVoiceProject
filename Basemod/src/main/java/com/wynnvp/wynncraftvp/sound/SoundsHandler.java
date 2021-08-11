@@ -1596,6 +1596,30 @@ public class SoundsHandler {
         addSound("I've never been one to say goodbyes, but thank you for everything. I know you'll find people just as strong as you are to rescue Orphion in my place.", "rol5therealmoflight-buzzing-4", true);
         addSound("I- I see the end of this... Tunnel. There's- Wait...", "rol5therealmoflight-buzzing-5", true);
         addSound("By the light what is that thing?! S-Stay away f-", "rol5therealmoflight-buzzing-6", true);
+
+        //The Qira Hive
+        addSound("[1/13] Yansur: I see another challenger has found their way to The Qira Hive!", "theqirahive-yansur-1", false);
+        addSound("[1/1] Qira: Begin, the Thunder Division! Strike quickly and move on, for those within will warp your very mind should you stray for too long!", "theqirahive-qira-1", true);
+        addSound("[1/1] ????: Heeheehahaaaah! I see you! You humans have such easily influenced minds, but I'll settle for beating you within an inch of your life! Come through, come through!!!", "theqirahive-psychomancer-1", true);
+        addSound("[1/2] Psychomancer: Feh, you're no fun, you little cheater! I was supposed to beat you, not the other way around!", "theqirahive-psychomancer-2", false);
+        addSound("[1/8] Yansur: You have completed the Thunder floor? How surprising. They were some of Mistress Qira's earliest successes.", "theqirahive-yansur-2", false);
+        addSound("[1/1] Qira: Begin, the Air Division! Fight freely with the wind, for the coming storm shall claim you for my own if you cannot spread your wings here!", "theqirahive-qira-2", true);
+        addSound("[1/1] ????: Well, nice work getting this far! Don't tell anyone, but I'm gonna pull my punches here, okay? I'm rooting for you, so let's have fun with this! Come on through!", "theqirahive-gale-1", true);
+        addSound("[1/2] Gale: Heehee, maybe I didn't need to hold back after all? You did really, really well!", "theqirahive-gale-2", false);
+        addSound("[1/6] Yansur: Hrm, perhaps we have underestimated you. The creations of Air have defeated thousands, particularly-", "theqirahive-yansur-3", false);
+        addSound("[1/1] Qira: Begin, the Earth Division! You must withstand both sheer force and deadly toxins! Be quick on your feet, or you will return to the dust of the earth!", "theqirahive-qira-3", true);
+        addSound("[1/6] Yansur: Creatures of the earth were not enough for you... Mistress's most rawly powerful... Destroyed.", "theqirahive-yansur-4", false);
+        addSound("[1/1] Qira: Begin, the Water Division! If you will not withstand the crashing waves, the creatures that lurk within shall ensure you never emerge from the abyss!", "theqirahive-qira-4", true);
+        addSound("[1/1] ????: You have been judged worthy enough to face me in combat. However, I know your strength, and I do not believe it enough to defeat me. Come forth now. Make your attempt to prove me wrong.", "theqirahive-oceanicjudge-1", true);
+        addSound("[1/2] Oceanic Judge: Seems my judgment was incorrect. In this case, however, it is refreshing to see.", "theqirahive-oceanicjudge-2", false);
+        addSound("[1/7] Yansur: Impossible. Not even the most tactically advanced monsters could defeat you.", "theqirahive-yansur-5", false);
+        addSound("[1/1] Qira: Begin, the Fire Division! Summon your courage, and brave the heat of the volcanoes and stars for my amusement, else burn to cinders and blow away in the breeze!", "theqirahive-qira-5", true);
+        addSound("[1/1] ????: Impressive, making it this far. I am your final test. Let us fight fairly, then. An honourable end to your challenge is only fitting, whether that be triumph or defeat. Come forward and face me.", "theqirahive-solarvanguard-1", true);
+        addSound("[1/2] Solar Vanguard: Defeat feels strange, after so long. You fought valiantly, and with great zeal, however. It would be a lie to say I am disappointed.", "theqirahive-solarvanguard-2", false);
+        addSound("[1/11] Yansur: This is unprecedented. You have defeated some of the most recent and powerful creations.", "theqirahive-yansur-6", false);
+        addSound("[1/1] Qira: So, you've arrived. You have proven yourself very capable... I am looking forward to this bout! Let's dance, mortal!!", "theqirahive-qira-6", true);
+        addSound("[1/1] Qira: ...you. You...ahaha...I like you. You're capable enough... Perhaps we could be allies in the future...", "theqirahive-qira-7", true);
+        addSound("[1/14] Yansur: How cowardly! After defeating so many in the Hive, and receiving such praise, you've the gall to upstand Mistress's request?  ", "theqirahive-yansur-7", false);
     }
 
 

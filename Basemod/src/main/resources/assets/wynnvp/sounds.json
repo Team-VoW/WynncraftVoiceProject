@@ -2921,6 +2921,97 @@
   },
 
 
+
+  "theqirahive-yansur-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-yansur-1", "stream": true}]
+  },
+  "theqirahive-qira-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-qira-1", "stream": true}]
+  },
+  "theqirahive-psychomancer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-psychomancer-1", "stream": true}]
+  },
+  "theqirahive-psychomancer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-psychomancer-2", "stream": true}]
+  },
+  "theqirahive-yansur-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-yansur-2", "stream": true}]
+  },
+  "theqirahive-qira-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-qira-2", "stream": true}]
+  },
+  "theqirahive-gale-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-gale-1", "stream": true}]
+  },
+  "theqirahive-gale-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-gale-2", "stream": true}]
+  },
+  "theqirahive-yansur-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-yansur-3", "stream": true}]
+  },
+  "theqirahive-qira-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-qira-3", "stream": true}]
+  },
+  "theqirahive-yansur-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-yansur-4", "stream": true}]
+  },
+  "theqirahive-qira-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-qira-4", "stream": true}]
+  },
+  "theqirahive-oceanicjudge-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-oceanicjudge-1", "stream": true}]
+  },
+  "theqirahive-oceanicjudge-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-oceanicjudge-2", "stream": true}]
+  },
+  "theqirahive-yansur-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-yansur-5", "stream": true}]
+  },
+  "theqirahive-qira-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-qira-5", "stream": true}]
+  },
+  "theqirahive-solarvanguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-solarvanguard-1", "stream": true}]
+  },
+  "theqirahive-solarvanguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-solarvanguard-2", "stream": true}]
+  },
+  "theqirahive-yansur-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-yansur-6", "stream": true}]
+  },
+  "theqirahive-qira-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-qira-6", "stream": true}]
+  },
+  "theqirahive-qira-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-qira-7", "stream": true}]
+  },
+  "theqirahive-yansur-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theqirahive-yansur-7", "stream": true}]
+  },
+
+
   "desperatemetal-nettik-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:desperatemetal-nettik-1", "stream": true}]
