@@ -1652,6 +1652,8 @@ public class SoundsHandler {
         addSound("I tried to yell for the attention of a guard or official, but nobody could hear me.", "asandyscandal-scrollmerchant-8", true);
         addSound("Before anybody could hear me, a large explosion occurred inside of the house the bandits intruded.", "asandyscandal-scrollmerchant-9", true);
         addSound("The bandits came sprinting out of my wealthy neighbor's house with two of his most prized possessions: two of his weapons.", "asandyscandal-scrollmerchant-10", true);
+        addSound("I wasn't sure what to do at this point... I didn't try to confront them, that'd have been way too risky!", "asandyscandal-scrollmerchant-11", true);
+        addSound("I have no idea where they went off to afterwards.", "asandyscandal-scrollmerchant-12", true);
         addSound("[1/8] Almuj Bank Guard: Were you able to uncover any new information regarding the status of the criminals? ", "asandyscandal-almujbankguard-3", false);
         addSound("[2/8] Almuj Bank Guard: Oh dear, this isn't good. The criminals plundered two very powerful weapons.", "asandyscandal-almujbankguard-4", false);
         addSound("[3/8] Almuj Bank Guard: It won't be easy facing those criminals if they decide to raid the bank with those weapons.", "asandyscandal-almujbankguard-5", false);

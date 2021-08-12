@@ -3176,6 +3176,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-10", "stream": true}]
   },
+  "asandyscandal-scrollmerchant-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-11", "stream": true}]
+  },
+  "asandyscandal-scrollmerchant-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-12", "stream": true}]
+  },
   "asandyscandal-almujbankguard-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-3", "stream": true}]
