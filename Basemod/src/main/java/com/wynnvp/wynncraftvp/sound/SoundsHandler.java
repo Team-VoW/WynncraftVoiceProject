@@ -1699,6 +1699,16 @@ public class SoundsHandler {
         addSound("[3/4] Martim: Garh...I be losin' my patience. Argus arrived, let's ditch the lubber before they awake, hm? This island be hidden by magic, ain't no way they're gettin' found.", "redbeardsbooty-martim-7", false);
         addSound("[4/4] Karkun: Arright! We might be able to bring Redbeard 'imself back to life... He will strike terror in the seas again, and we will be his crew!", "redbeardsbooty-karkun-9", false);
         addSound("[1/8] Marston: What in the... Cor! Ye jest fell outta the sky, bucko! What'n the name o' Davy Jones' Locket happened?!", "redbeardsbooty-marston-2", false);
+
+        //Craftmas Chaos
+        addSound("[1/9] Tom: Finally, you have arrived! I have been waiting for you.", "craftmaschaos-tom-1", false);
+        addSound("[1/9] Santa: Ho ho ho! Merry Craftmas! Well not exactly, but its only a couple of days left!", "craftmaschaos-santa-1", false);
+        addSound("[1/8] Tommy: Wendy, where are you? Heheheheh! Oh, hi! You seem new to this place.", "craftmaschaos-tommy-1", false);
+        addSound("[1/1] Summoner: So a little rat finally finds out about our secret, huh. Doesn't matter, with this relicstone, I am going to kill you right here and right now!", "craftmaschaos-summoner-1", true);
+        addSound("[1/4] Summoner: Uaaaggh! How dare you do this to me!", "craftmaschaos-summoner-2", false);
+        addSound("[1/13] Old Tom: Oh no, please! Don't kill me! Wait a minute, it's you! I can't believe it, it's you!", "craftmaschaos-oldtom-1", false);
+        addSound("[1/8] Old Tom: Did you do it? Santa is dead? Oh no, I can't believe it. He is gone, just like that. After nearly 20 or so years of torment...", "craftmaschaos-oldtom-2", false);
+        addSound("[1/9] Santa: Ho ho ho! Well If it isn't my friend who just took a journey through time!", "craftmaschaos-santa-2", false);
     }
 
 

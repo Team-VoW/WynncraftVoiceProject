@@ -3148,6 +3148,39 @@
   },
 
 
+  "craftmaschaos-tom-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tom-1", "stream": true}]
+  },
+  "craftmaschaos-santa-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-1", "stream": true}]
+  },
+  "craftmaschaos-tommy-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tommy-1", "stream": true}]
+  },
+  "craftmaschaos-summoner-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-summoner-1", "stream": true}]
+  },
+  "craftmaschaos-summoner-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-summoner-2", "stream": true}]
+  },
+  "craftmaschaos-oldtom-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-1", "stream": true}]
+  },
+  "craftmaschaos-oldtom-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-2", "stream": true}]
+  },
+  "craftmaschaos-santa-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-2", "stream": true}]
+  },
+
 
   "asandyscandal-almujbankguard-1": {
     "category": "voice",
