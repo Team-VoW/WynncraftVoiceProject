@@ -3054,6 +3054,99 @@
   },
 
 
+  "redbeardsbooty-marston-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-marston-1", "stream": true}]
+  },
+  "redbeardsbooty-argus-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-argus-1", "stream": true}]
+  },
+  "redbeardsbooty-martim-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-martim-1", "stream": true}]
+  },
+  "redbeardsbooty-argus-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-argus-2", "stream": true}]
+  },
+  "redbeardsbooty-karkun-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-karkun-1", "stream": true}]
+  },
+  "redbeardsbooty-martim-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-martim-2", "stream": true}]
+  },
+  "redbeardsbooty-karkun-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-karkun-2", "stream": true}]
+  },
+  "redbeardsbooty-argus-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-argus-3", "stream": true}]
+  },
+  "redbeardsbooty-martim-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-martim-3", "stream": true}]
+  },
+  "redbeardsbooty-argus-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-argus-4", "stream": true}]
+  },
+  "redbeardsbooty-karkun-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-karkun-3", "stream": true}]
+  },
+  "redbeardsbooty-karkun-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-karkun-4", "stream": true}]
+  },
+  "redbeardsbooty-martim-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-martim-4", "stream": true}]
+  },
+  "redbeardsbooty-argus-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-argus-5", "stream": true}]
+  },
+  "redbeardsbooty-karkun-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-karkun-5", "stream": true}]
+  },
+  "redbeardsbooty-martim-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-martim-5", "stream": true}]
+  },
+  "redbeardsbooty-karkun-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-karkun-6", "stream": true}]
+  },
+  "redbeardsbooty-karkun-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-karkun-7", "stream": true}]
+  },
+  "redbeardsbooty-karkun-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-karkun-8", "stream": true}]
+  },
+  "redbeardsbooty-martim-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-martim-6", "stream": true}]
+  },
+  "redbeardsbooty-martim-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-martim-7", "stream": true}]
+  },
+  "redbeardsbooty-karkun-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-karkun-9", "stream": true}]
+  },
+  "redbeardsbooty-marston-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-marston-2", "stream": true}]
+  },
+
 
 
   "asandyscandal-almujbankguard-1": {

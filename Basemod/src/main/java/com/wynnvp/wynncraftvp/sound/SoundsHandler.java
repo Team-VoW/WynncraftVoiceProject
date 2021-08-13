@@ -1675,6 +1675,30 @@ public class SoundsHandler {
         addSound("[1/1] Bandit Leader: Oh no... we've run out of TNT! We were in over our heads... We can't defeat them, just run for your life! Forget the emeralds, let's get outta' here!", "asandyscandal-banditleader-9", true);
         addSound("[1/4] Almuj Bank Guard: What happened down there underneath the bank? I heard the rumble.", "asandyscandal-almujbankguard-10", false);
 
+        //Redbeards Booty
+        addSound("[1/6] Marston: Ah, ahoy matey!", "redbeardsbooty-marston-1", false);
+        addSound("[1/5] Argus: Cor lad...ye don' look like a pirate ta me, and I be but a young lass!", "redbeardsbooty-argus-1", false);
+        addSound("[2/5] Martim: 's right, bucko. Who be ye, bargin' into our home in yer fancy armour 'n whatnot?", "redbeardsbooty-martim-1", false);
+        addSound("[3/5] Argus: Ah, ye be accompanyin' Marston, eh? Well if ye insist on that, where be the man 'himself?", "redbeardsbooty-argus-2", false);
+        addSound("[4/5] Karkun: Comin' later? Hm. Well, more hands always be helpful. Let us go down to me ship, the Black Ring. ", "redbeardsbooty-karkun-1", false);
+        addSound("[5/5] Martim: So he told ye about the plan? We'll bathe in doubloons when we get back! Ah, me fair lass will be so happy.", "redbeardsbooty-martim-2", false);
+        addSound("[1/5] Karkun: Aha, quick on yer feet, lad! Ye got 'ere before us!", "redbeardsbooty-karkun-2", false);
+        addSound("[2/5] Argus: No trace o' Marston yet?", "redbeardsbooty-argus-3", false);
+        addSound("[3/5] Martim: How's about we wait up fer him? He's the one who's givin us the opportunity fer this hunt, anyways.", "redbeardsbooty-martim-3", false);
+        addSound("[4/5] Argus: I be getting impatient... The whole crew is 'ere, 'cept fer him!", "redbeardsbooty-argus-4", false);
+        addSound("[5/5] Karkun: Argh! Where be our mate? It be getting dark out! We will have to leave Marston at land.", "redbeardsbooty-karkun-3", false);
+        addSound("[1/3] Karkun: Do ya have the map Marston bought?", "redbeardsbooty-karkun-4", false);
+        addSound("[2/3] Martim: Let us take a looksie at the map and see where to go.", "redbeardsbooty-martim-4", false);
+        addSound("[3/3] Argus: It seems like one of these islands have the treasure... A'ight, yer in charge, landlubber! Set us on a course fer an island! ", "redbeardsbooty-argus-5", true);
+        addSound("[1/4] Karkun: Ahoy, this must be the booty. Fret not, Argus is keepin' the ship prepared so we can leave.", "redbeardsbooty-karkun-5", false);
+        addSound("[2/4] Martim: A'ight, let's us dig it up, jacks!", "redbeardsbooty-martim-5", false);
+        addSound("[3/4] Karkun: Aha, I see somethin' gleaming in there! Methinks we hit gold, lads.", "redbeardsbooty-karkun-6", false);
+        addSound("[4/4] Karkun: Now Martim, knock the lubber out.", "redbeardsbooty-karkun-7", false);
+        addSound("[1/4] Karkun: What? Another clue! This be just a wild grook hunt, where be the real booty?! No one ever got rich off a heap o^ keys!!", "redbeardsbooty-karkun-8", false);
+        addSound("[2/4] Martim: Wait, there be a clue on the key; When leaving the hidden island, the real treasure will be found if you can look closely enough.", "redbeardsbooty-martim-6", false);
+        addSound("[3/4] Martim: Garh...I be losin' my patience. Argus arrived, let's ditch the lubber before they awake, hm? This island be hidden by magic, ain't no way they're gettin' found.", "redbeardsbooty-martim-7", false);
+        addSound("[4/4] Karkun: Arright! We might be able to bring Redbeard 'imself back to life... He will strike terror in the seas again, and we will be his crew!", "redbeardsbooty-karkun-9", false);
+        addSound("[1/8] Marston: What in the... Cor! Ye jest fell outta the sky, bucko! What'n the name o' Davy Jones' Locket happened?!", "redbeardsbooty-marston-2", false);
     }
 
 
