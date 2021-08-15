@@ -3148,6 +3148,138 @@
   },
 
 
+
+  "meaningfulholiday-haily-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-haily-1", "stream": true}]
+  },
+  "meaningfulholiday-nick-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-1", "stream": true}]
+  },
+  "meaningfulholiday-flodur-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-flodur-1", "stream": true}]
+  },
+  "meaningfulholiday-flodur-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-flodur-2", "stream": true}]
+  },
+  "meaningfulholiday-nick-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-2", "stream": true}]
+  },
+  "meaningfulholiday-margaret-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-margaret-1", "stream": true}]
+  },
+  "meaningfulholiday-reshad-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-reshad-1", "stream": true}]
+  },
+  "meaningfulholiday-nick-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-3", "stream": true}]
+  },
+  "meaningfulholiday-santa-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-santa-1", "stream": true}]
+  },
+  "meaningfulholiday-nick-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-4", "stream": true}]
+  },
+  "meaningfulholiday-server-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-server-1", "stream": true}]
+  },
+  "meaningfulholiday-nick-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-5", "stream": true}]
+  },
+  "meaningfulholiday-nick-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-6", "stream": true}]
+  },
+  "meaningfulholiday-nick-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-7", "stream": true}]
+  },
+  "meaningfulholiday-nick-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-8", "stream": true}]
+  },
+  "meaningfulholiday-nick-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-9", "stream": true}]
+  },
+  "meaningfulholiday-nick-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-10", "stream": true}]
+  },
+  "meaningfulholiday-nick-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-11", "stream": true}]
+  },
+  "meaningfulholiday-nick-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-12", "stream": true}]
+  },
+  "meaningfulholiday-nick-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-13", "stream": true}]
+  },
+  "meaningfulholiday-nick-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-14", "stream": true}]
+  },
+  "meaningfulholiday-nick-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-15", "stream": true}]
+  },
+  "meaningfulholiday-nick-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-16", "stream": true}]
+  },
+  "meaningfulholiday-nick-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-17", "stream": true}]
+  },
+  "meaningfulholiday-nick-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-18", "stream": true}]
+  },
+  "meaningfulholiday-santa-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-santa-2", "stream": true}]
+  },
+  "meaningfulholiday-santa-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-santa-3", "stream": true}]
+  },
+  "meaningfulholiday-santa-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-santa-4", "stream": true}]
+  },
+  "meaningfulholiday-santa-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-santa-5", "stream": true}]
+  },
+  "meaningfulholiday-nick-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-19", "stream": true}]
+  },
+  "meaningfulholiday-guest-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-guest-1", "stream": true}]
+  },
+  "meaningfulholiday-guest-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-guest-2", "stream": true}]
+  },
+
+
+
   "craftmaschaos-tom-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:craftmaschaos-tom-1", "stream": true}]

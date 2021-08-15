@@ -1709,6 +1709,40 @@ public class SoundsHandler {
         addSound("[1/13] Old Tom: Oh no, please! Don't kill me! Wait a minute, it's you! I can't believe it, it's you!", "craftmaschaos-oldtom-1", false);
         addSound("[1/8] Old Tom: Did you do it? Santa is dead? Oh no, I can't believe it. He is gone, just like that. After nearly 20 or so years of torment...", "craftmaschaos-oldtom-2", false);
         addSound("[1/9] Santa: Ho ho ho! Well If it isn't my friend who just took a journey through time!", "craftmaschaos-santa-2", false);
+
+        //Meaningful Holiday
+        addSound("[1/4] Haily: Hello, dear. My name is Haily. Nice to meet you.", "meaningfulholiday-haily-1", false);
+        addSound("[1/7] Nick: Oh. Oh... Oh dear. There's more people here than ever.", "meaningfulholiday-nick-1", false);
+        addSound("[1/5] Flodur: 'ello young lad.", "meaningfulholiday-flodur-1", false);
+        addSound("[1/3] Flodur: Hm... This apple has seen betta days... ", "meaningfulholiday-flodur-2", false);
+        addSound("[1/8] Nick: Any news?", "meaningfulholiday-nick-2", false);
+        addSound("[1/3] Margaret: Oh, please don't move me along. I have no where else to go!", "meaningfulholiday-margaret-1", false);
+        addSound("[1/4] Reshad: Welcome to my farm! Looking to buy some of my fresh crops?", "meaningfulholiday-reshad-1", false);
+        addSound("[1/4] Nick: Hey, soldier! Any luck?", "meaningfulholiday-nick-3", false);
+        addSound("[1/9] Santa: Nick... You know the deal.", "meaningfulholiday-santa-1", false);
+        addSound("[1/3] Nick: Wow. The people here live in such grandure. I wonder if they know people are starving to the east.", "meaningfulholiday-nick-4", false);
+        addSound("[1/7] Server: What are you doing here?", "meaningfulholiday-server-1", false);
+        addSound("[1/6] Nick: Were you able to get any food?", "meaningfulholiday-nick-5", false);
+        addSound("[1/13] Nick: Listen up everyone!", "meaningfulholiday-nick-6", true);
+        addSound("[2/13] Nick: I know you are hungry. Because I am too.", "meaningfulholiday-nick-7", true);
+        addSound("[3/13] Nick: But your dinner will not be served tonight. ", "meaningfulholiday-nick-8", true);
+        addSound("[4/13] Nick: There will be no Craftmas feast this year!", "meaningfulholiday-nick-9", true);
+        addSound("[5/13] Nick: This one night, this one missed meal.", "meaningfulholiday-nick-10", true);
+        addSound("[6/13] Nick: This is how thousands of people live every day.", "meaningfulholiday-nick-11", true);
+        addSound("[7/13] Nick: Hungry, wondering when the food will be available.", "meaningfulholiday-nick-12", true);
+        addSound("[8/13] Nick: And while you sit there with empty stomachs be thankful for what you have. Spare a thought for those who have not.", "meaningfulholiday-nick-13", true);
+        addSound("[9/13] Nick: Hundreds of men, women and children, just like you, will not eat tonight, at all. ", "meaningfulholiday-nick-14", true);
+        addSound("[10/13] Nick: All because this enormous feast was not enough. Detlas bought all the food, cheap or expensive.", "meaningfulholiday-nick-15", true);
+        addSound("[11/13] Nick: I'm here to remind you the real meaning of this day. To think of others..", "meaningfulholiday-nick-16", true);
+        addSound("[12/13] Nick: I will return your meal tonight, but while you eat it... I want you to remember every empty mouth it could have fed.", "meaningfulholiday-nick-17", true);
+        addSound("[13/13] Nick: Share what you have, be thankful for what you are given.", "meaningfulholiday-nick-18", false);
+        addSound("[1/4] ???: Well, looks like you came through yet again Nick.", "meaningfulholiday-santa-2", false);
+        addSound("[2/4] Santa: I came to see if I could help out. But it looks like you've done it.", "meaningfulholiday-santa-3", false);
+        addSound("[3/4] Santa: Well, I guess there is only one thing left to do to complete this scene.", "meaningfulholiday-santa-4", false);
+        addSound("[4/4] Santa: Hope you all have a merry craftmas. Ho-ho!", "meaningfulholiday-santa-5", false);
+        addSound("[1/7] Nick: It looks like my little speech brought the rich back down to earth.", "meaningfulholiday-nick-19", false);
+        addSound("[1/1] Guest: You can't do that!", "meaningfulholiday-guest-1", true);
+        addSound("[1/1] Guest: The food on the table isn't enough to feed everyone here!", "meaningfulholiday-guest-2", true);
     }
 
 
