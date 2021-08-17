@@ -1743,6 +1743,48 @@ public class SoundsHandler {
         addSound("[1/7] Nick: It looks like my little speech brought the rich back down to earth.", "meaningfulholiday-nick-19", false);
         addSound("[1/1] Guest: You can't do that!", "meaningfulholiday-guest-1", true);
         addSound("[1/1] Guest: The food on the table isn't enough to feed everyone here!", "meaningfulholiday-guest-2", true);
+
+        //Kingdom of sand
+        addSound("[1/3] ???: Hmm.. No dice. Let me try another.", "kingdomofsand-lanu-1", false);
+        addSound("2/3???", "kingdomofsand-lanu-2", false);
+        addSound("[3/3] ???: Ugh. I guess the legend is true about the sceptre. ", "kingdomofsand-lanu-3", false);
+        addSound("[1/7] Lanu: Ah, a Ragni Soldier. I didn't think you had much to do out here in the desert?", "kingdomofsand-lanu-4", false);
+        addSound("[1/4] Vault Guard: What, wanna enter the hideout?", "kingdomofsand-vaultguard-1", false);
+        addSound("[1/4] Tarek: Now would you look at that... Even soldiers think they can waltz in ere.", "kingdomofsand-tarek-1", false);
+        addSound("[2/4] Geo: Having fun thinking of a password? Sorry to spoil your lunch, but there isn't one!", "kingdomofsand-geo-1", false);
+        addSound("[3/4] Geo: We could use a few more officials on the roster.", "kingdomofsand-geo-2", false);
+        addSound("[4/4] Tarek: If yer are on the liberal side of the law, talk to us outside.", "kingdomofsand-tarek-2", false);
+        addSound("[1/7] Tarek: Looks like yer in. Look, there ain't a password cause we're meant to be the best thieves in the land, right?", "kingdomofsand-tarek-3", false);
+        addSound("[2/7] Tarek: So what good are words? Yer gotta give the guard somethin' stolen, aintcha!", "kingdomofsand-tarek-4", false);
+        addSound("[3/7] Geo: And we just so happen to have the opportunity of a lifetime for you. Rymek has gone soft see, a new Mayor is cleaning things up.", "kingdomofsand-geo-3", false);
+        addSound("[4/7] Tarek: Well, we can't have government not under our control. Rymek will always be bandit capital.", "kingdomofsand-tarek-5", false);
+        addSound("[5/7] Geo: So how about we give him a taste of his own medicine, and get hold of that journal he keeps? I'm sure that'll dig up some dirt on him.", "kingdomofsand-geo-4", false);
+        addSound("[6/7] Tarek: And by \"we\", we mean you. You'll have to sneak through the mansion and avoid guards.", "kingdomofsand-tarek-6", false);
+        addSound("[7/7] Tarek: He keeps his journal in the highest room. Might need to distract some guards too. It's the biggest mansion in Rymek, can't miss it.", "kingdomofsand-tarek-7", false);
+        addSound("[1/3] Tarek: Yer know you could get kicked out of the army fer this.", "kingdomofsand-tarek-8", false);
+        addSound("[2/3] Tarek: Heh, guess yer the real thing. Hop in, lets get out of 'ere.", "kingdomofsand-tarek-9", false);
+        addSound("[3/3] Tarek: That journal is more valuable than any gem, you'll be able to get in fer sure.", "kingdomofsand-tarek-10", false);
+        addSound("[1/1] Tarek: Off we go!", "kingdomofsand-tarek-11", false);
+        addSound("[1/2] Vault Guard: Password?", "kingdomofsand-vaultguard-2", false);
+        addSound("[1/7] Bandit Boss: There was another mage at the ancient tomb today boys.", "kingdomofsand-banditboss-1", false);
+        addSound("[2/7] Bandit: Well she ain't got the sceptre does she? She can't do much harm. Wait why dun we use the sceptre boss?", "kingdomofsand-bandit-1", false);
+        addSound("[3/7] Bandit Boss: Because the Creden Tibus is more than just a group of criminals. We are honour bound to protect these sands.", "kingdomofsand-banditboss-2", false);
+        addSound("[4/7] Bandit Boss: The empire that fell beneath these sands could be revived if that sceptre made it back to the emperor.", "kingdomofsand-banditboss-3", false);
+        addSound("[5/7] Bandit: Good job no one will think of searching that broken cart near the river ey boss?", "kingdomofsand-bandit-2", false);
+        addSound("[6/7] Bandit Boss: Silence you fool. Didn't I just say it was imperative no one found the sceptre?", "kingdomofsand-banditboss-4", false);
+        addSound("[7/7] Bandit Boss: Right, go steal some things or something, I have real work to do.", "kingdomofsand-banditboss-5", false);
+        addSound("[1/3] Bandit Leader: I knew someone was listening.", "kingdomofsand-banditleader-1", false);
+        addSound("[2/3] Bandit Leader: We might be bandits, but we're not stupid. That sceptre is left better off alone.", "kingdomofsand-banditleader-2", false);
+        addSound("[3/3] Desert Raider: Seize 'em!", "kingdomofsand-desertraider-1", false);
+        addSound("[1/5] Lanu: You actually got it! I knew I could count on you. Lets try this!", "kingdomofsand-lanu-5", false);
+        addSound("[2/5] Lanu: Huh? We got no time for superstition, we need to break that seal.", "kingdomofsand-lanu-6", false);
+        addSound("[3/5] Lanu: Seems like something's happening!", "kingdomofsand-lanu-7", false);
+        addSound("[4/5] Lanu: We did it! Who would've thought that it was that ea-", "kingdomofsand-lanu-8", false);
+        addSound("[5/5] Lanu: What the hell was that...!", "kingdomofsand-lanu-9", false);
+        addSound("[1/6] Lanu: That shouldn't have happened, I... I don't understand.", "kingdomofsand-lanu-10", false);
+
+
+
     }
 
 
