@@ -1783,6 +1783,58 @@ public class SoundsHandler {
         addSound("[5/5] Lanu: What the hell was that...!", "kingdomofsand-lanu-9", false);
         addSound("[1/6] Lanu: That shouldn't have happened, I... I don't understand.", "kingdomofsand-lanu-10", false);
 
+        //Reclaiming the house
+        addSound("[1/9] Elphaba: Oh, a Wynnic soldier out here in the boondocks? Honestly, you're just what we need- I could use your help, if you're able?", "reclaimingthehouse-elphaba-1", false);
+        addSound("[2/9] Elphaba: Good, thank you. Let me lock down the camp before I give you the briefing, though.", "reclaimingthehouse-elphaba-2", false);
+        addSound("[3/9] Elphaba: My name is Elphaba. I've been working with the Gavellian army for a good few years now.", "reclaimingthehouse-elphaba-3", false);
+        addSound("[4/9] Elphaba: I'm the commander of the Olux Outpost down ahead. It's a strategic fortress, placed to monitor the Orcish capital.", "reclaimingthehouse-elphaba-4", false);
+        addSound("[5/9] Elphaba: It was safe for a long while, but especially in the past while the Orcs have gotten far bolder, more aggressive.", "reclaimingthehouse-elphaba-5", false);
+        addSound("[6/9] Elphaba: They overwhelmed the outpost- we had to retreat and set up this camp to watch over the place we used to watch over them with!", "reclaimingthehouse-elphaba-6", false);
+        addSound("[7/9] Elphaba: I need more firepower if I'm going...to get...", "reclaimingthehouse-elphaba-7", true);
+        addSound("[8/9] Elphaba: ...oh no. See, this is what I mean! The orcs are coming!", "reclaimingthehouse-elphaba-8", true);
+        addSound("[9/9] Elphaba: Brace yourself, soldier! Protect the camp!", "reclaimingthehouse-elphaba-9", true);
+        addSound("[1/2] Elphaba: This is the third attack in three days! How many reinforcements have they got?!", "reclaimingthehouse-elphaba-10", true);
+        addSound("[2/2] Elphaba: Gah! Their casters are strong, careful!", "reclaimingthehouse-elphaba-11", true);
+        addSound("[1/1] Elphaba: Ugh, I think that was all of them... Come here now, I'll start up where we left off.", "reclaimingthehouse-elphaba-12", true);
+        addSound("[1/5] Elphaba: Not sure I could have done that myself. I'm lucky you came around when you did, soldier.", "reclaimingthehouse-elphaba-13", true);
+        addSound("[2/5] Elphaba: Anyway, it's clear that I'm going to need more firepower if I'm going to have a shot at reclaiming that outpost.", "reclaimingthehouse-elphaba-14", true);
+        addSound("[3/5] Elphaba: You've certainly got the fighting chops, so I'd appreciate the aid, but we've got to come up with a plan, fast.", "reclaimingthehouse-elphaba-15", true);
+        addSound("[4/5] Elphaba: There's an old tower near the outpost- some old storage silo. It was built taller than the fort, so we might be able to spy on them from there.", "reclaimingthehouse-elphaba-16", true);
+        addSound("[5/5] Elphaba: It's a risk though, since it's so close by, but we have no other options. Meet me at the tower southeast of here so we can survey the situation.", "reclaimingthehouse-elphaba-17", true);
+        addSound("[1/5] Elphaba: Soldier! I'm right behind you. You can see our outpost- and the tower I mentioned.", "reclaimingthehouse-elphaba-18", true);
+        addSound("[2/5] Elphaba: We need to find a way in. A lot of soldiers were caught unaware during the Orcs' assault, too.", "reclaimingthehouse-elphaba-19", true);
+        addSound("[3/5] Elphaba: If there's any survivors in there, we should make rescuing them a priority.", "reclaimingthehouse-elphaba-20", true);
+        addSound("[4/5] Elphaba: After all, it means more manpower for us. We can't count on that being the case, though...", "reclaimingthehouse-elphaba-21", true);
+        addSound("[5/5] Elphaba: Come on, hurry inside before one of the orcs spots us!", "reclaimingthehouse-elphaba-22", true);
+        addSound("[1/9] Elphaba: Alright, this is a pretty clear view. Let's see what's going on in there...", "reclaimingthehouse-elphaba-23", true);
+        addSound("[2/9] Elphaba: Wh- I'm shocked! In the middle there- they just caged the soldiers instead of killing them? That's...kind of a relief.", "reclaimingthehouse-elphaba-24", true);
+        addSound("[3/9] Elphaba: There's definitely too many orcs in the plaza there for us to take down on our own...", "reclaimingthehouse-elphaba-25", true);
+        addSound("[4/9] Elphaba: ...but that cage is held up by those ropes. If we can cut them, the other soldiers should be able to help!", "reclaimingthehouse-elphaba-26", true);
+        addSound("[5/9] Elphaba: Alright, now I just need to figure out how we can both get in... There's sentries on the perimeter, so going over may not be an option...", "reclaimingthehouse-elphaba-27", true);
+        addSound("[6/9] Elphaba: Maybe we can keep an eye out on their sentry patterns and look for an opening-", "reclaimingthehouse-elphaba-28", true);
+        addSound("[7/9] Orc: Humans on old tower! Junhur will shoot! This our place now, get out!!", "reclaimingthehouse-orc-1", true);
+        addSound("[8/9] Elphaba: Aw, not now! I knew this was a risk, no time to get out... Brace for impact!!", "reclaimingthehouse-elphaba-29", true);
+        addSound("[9/9] Orc: Old tower fall! Junhur is best cannon shooter!!", "reclaimingthehouse-orc-2", true);
+        addSound("[1/7] Elphaba: Agh, soldier!! Are you alright, where'd you fall?!", "reclaimingthehouse-elphaba-30", true);
+        addSound("[2/7] Elphaba: Ah... Wow. You barely look scratched, you must've gotten really lucky.", "reclaimingthehouse-elphaba-31", true);
+        addSound("[3/7] Elphaba: Not so much here... I'm pretty battered after that. At least one of us is in good condition...", "reclaimingthehouse-elphaba-32", true);
+        addSound("[4/7] Elphaba: Unfortunately, that means figuring a way in is up to you. We can't examine their sentry patterns from down here.", "reclaimingthehouse-elphaba-33", true);
+        addSound("[5/7] Elphaba: I'll survive, sure, but I won't be able to walk around and defend myself for a while.", "reclaimingthehouse-elphaba-34", true);
+        addSound("[6/7] Elphaba: I hate leaving you on your own like this, but if it's any consolation, you should be tough enough, or lucky enough, to get through.", "reclaimingthehouse-elphaba-35", true);
+        addSound("[7/7] Elphaba: Explore the perimeter of the outpost. Try to find a way in, but be careful, okay?", "reclaimingthehouse-elphaba-36", false);
+        addSound("[1/2] Orc Guard: Someone outside door? Check!", "reclaimingthehouse-orcguard-1", false);
+        addSound("[2/2] Orc Guard: Oh, orc from mud bath. In, now!", "reclaimingthehouse-orcguard-2", false);
+        addSound("[1/1] Orc Guard: More muddy orcs? In, now!", "reclaimingthehouse-orcguard-3", true);
+        addSound("[1/2] Soldier: Good thinking with the mud disguise, soldier! They never suspected a thing, now come help us out over here!", "reclaimingthehouse-soldier-1", true);
+        addSound("[2/2] Soldier: Kill the Orcish Overtakers, we'll help keep the other ones off you! ", "reclaimingthehouse-soldier-2", true);
+        addSound("[1/1] Soldier: The Overtakers are down, the other Orcs are flailing! Open the outpost's entrance with a spell now, we've got this under control!", "reclaimingthehouse-soldier-3", true);
+        addSound("[1/5] Elphaba: Phew... That's some fine work there, soldier! The outpost is back under our control!", "reclaimingthehouse-elphaba-37", true);
+        addSound("[2/5] Elphaba: Glad to see some more capable Wynnic hands over here. Though, I didn't catch your name. Would you mind?", "reclaimingthehouse-elphaba-38", true);
+        addSound("[3/5] Elphaba: Soldier, huh? I'll remember that. You barely even needed my help, heh... Wish I hadn't been such a burden, but at least it worked out.", "reclaimingthehouse-elphaba-39", true);
+        addSound("[4/5] Elphaba: Here- it's some of my own personal spending money, as a thank-you gift.", "reclaimingthehouse-elphaba-40", true);
+        addSound("[5/5] Elphaba: Alright everyone, let's get this place ship-shape! Everything needs to be repaired in case of another attack!!", "reclaimingthehouse-elphaba-41", false);
+
+
 
 
     }

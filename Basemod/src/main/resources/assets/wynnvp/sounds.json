@@ -3431,6 +3431,204 @@
 
 
 
+  "reclaimingthehouse-elphaba-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-1", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-2", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-3", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-4", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-5", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-6", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-7", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-8", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-9", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-10", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-11", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-12", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-13", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-14", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-15", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-16", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-17", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-18", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-19", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-20", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-21", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-22", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-23", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-24", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-25", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-26", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-27", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-28", "stream": true}]
+  },
+  "reclaimingthehouse-orc-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-orc-1", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-29", "stream": true}]
+  },
+  "reclaimingthehouse-orc-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-orc-2", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-30", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-31", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-32", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-33", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-34", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-35", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-36", "stream": true}]
+  },
+  "reclaimingthehouse-orcguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-orcguard-1", "stream": true}]
+  },
+  "reclaimingthehouse-orcguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-orcguard-2", "stream": true}]
+  },
+  "reclaimingthehouse-orcguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-orcguard-3", "stream": true}]
+  },
+  "reclaimingthehouse-soldier-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-soldier-1", "stream": true}]
+  },
+  "reclaimingthehouse-soldier-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-soldier-2", "stream": true}]
+  },
+  "reclaimingthehouse-soldier-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-soldier-3", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-37", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-38", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-39", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-40", "stream": true}]
+  },
+  "reclaimingthehouse-elphaba-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reclaimingthehouse-elphaba-41", "stream": true}]
+  },
+
+
 
   "craftmaschaos-tom-1": {
     "category": "voice",
