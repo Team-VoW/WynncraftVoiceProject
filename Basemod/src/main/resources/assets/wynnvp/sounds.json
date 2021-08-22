@@ -3919,6 +3919,53 @@
   },
 
 
+  "poisoningthepest-farmercevalus-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-1", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-2", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-3", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-4", "stream": true}]
+  },
+
+
+
+
+  "canyoncondor-svin-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-1", "stream": true}]
+  },
+  "canyoncondor-jankan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-1", "stream": true}]
+  },
+  "canyoncondor-jankan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-2", "stream": true}]
+  },
+  "canyoncondor-hermit-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-1", "stream": true}]
+  },
+  "canyoncondor-hermit-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-2", "stream": true}]
+  },
+  "canyoncondor-svin-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-2", "stream": true}]
+  },
+
+
+
   "craftmaschaos-tom-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:craftmaschaos-tom-1", "stream": true}]

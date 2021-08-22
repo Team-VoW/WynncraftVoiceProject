@@ -1908,6 +1908,21 @@ public class SoundsHandler {
         addSound("[8/9] Maxie: They won't admit anything with you around. They want to become allies with Wynn.", "theenvoypart1-maxie-39", false);
         addSound("[9/9] Maxie: Come to my house when you reach level 89, here's a key so you get in. We must prepare to break into the factory.", "theenvoypart1-maxie-40", false);
 
+        //Canyon Condor
+        addSound("[1/9] Svin: I am one of the Keepers in the great Temple of Legends. There we hoard secrets about the world.", "canyoncondor-svin-1", false);
+        addSound("[1/6] Jankan: Hello there, youngster! Ye must be the stranger folks 'been talkin' 'bout.", "canyoncondor-jankan-1", false);
+        addSound("[1/4] Jankan: Finally! It took ye long enough, hand it over! Oh right.. yer want'n somethin'.", "canyoncondor-jankan-2", false);
+        addSound("[1/7] Hermit: What do you think you're doing here, kid? Think you can waltz in my humble abode and get across my bridge?", "canyoncondor-hermit-1", false);
+        addSound("[1/5] Hermit: A ha! This will do perfectly. My chickling will love it! I suppose you can cross the bridge now.", "canyoncondor-hermit-2", false);
+        addSound("[1/5] Svin: Traveler! You have returned! Tell me, what have you learned?", "canyoncondor-svin-2", false);
+
+        //Poisoning the pest
+        addSound("[1/5] Farmer Cevalus: Ah, looks like a fresh recruit!", "poisoningthepest-farmercevalus-1", false);
+        addSound("[1/1] Farmer Cevalus: Have you at least attempted to get rid of that pest yet? Remember, the water reservoir is on the other end of this here field.", "poisoningthepest-farmercevalus-2", true);
+        addSound("[1/2] Farmer Cevalus: Look at the body!", "poisoningthepest-farmercevalus-3", true);
+        addSound("[1/3] Farmer Cevalus: Great job getting rid of that corrupt varmint, I can't thank you enough!", "poisoningthepest-farmercevalus-4", false);
+
+
     }
 
 
