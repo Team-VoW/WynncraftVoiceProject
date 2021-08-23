@@ -756,7 +756,7 @@ public class SoundsHandler {
         addSound("[1/6] Yodbon: Welcome to Yodbon's Glass Blowery, what can I do f-", "greengloop-yodbon-1", false);
         addSound("[1/3] Yodbon: You've returned, I see.", "greengloop-yodbon-2", false);
 
-        //kingsrecruit
+        //kings Recruit
         addSound("[1/2] Caravan Driver: Agh! ", "kingsrecruit-caravandriver-1", true);
         addSound("[2/2] Tasim: Hey, soldier! You alright in there? Looks like we hit something. ", "kingsrecruit-tasim-1", true);
         addSound("[1/4] Caravan Driver: I swear I hit this same dang boulder everytime I make this trip.", "kingsrecruit-caravandriver-2", true);
@@ -855,6 +855,7 @@ public class SoundsHandler {
         addSound("[1/1] Aledar: Well, we made it. Guess we better head inside and talk to the King.", "kingsrecruit-aledar-27", true);
         addSound("[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.", "kingsrecruit-ragnisking-1", true);
         addSound("[1/7] Ragni's King: Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.", "kingsrecruit-ragnisking-2", false);
+        addSound("[1/1] Tasim: Just Right-Click the Loot chest to open it.", "kingsrecruit-tasim-22", false);
 
         //Recover the past
         addSound("[1/8] Dr. Picard: SUCCESS! I can see clearly now.. My memories from years ago!", "recoverthepast-dr.picard-1", false);
@@ -1921,8 +1922,9 @@ public class SoundsHandler {
         addSound("[1/1] Farmer Cevalus: Have you at least attempted to get rid of that pest yet? Remember, the water reservoir is on the other end of this here field.", "poisoningthepest-farmercevalus-2", true);
         addSound("[1/2] Farmer Cevalus: Look at the body!", "poisoningthepest-farmercevalus-3", true);
         addSound("[1/3] Farmer Cevalus: Great job getting rid of that corrupt varmint, I can't thank you enough!", "poisoningthepest-farmercevalus-4", false);
-
-
+        addSound("[1/1] Farmer Cevalus: Hurry and enable the sprinklers with the button near the farm's entrance before it can do any more damage!", "poisoningthepest-farmercevalus-5", true);
+        addSound("[1/2] Farmer Cevalus: Just one more to kill.", "poisoningthepest-farmercevalus-6", true);
+        addSound("[2/2] Farmer Cevalus: Well done! Come back to me for a reward.", "poisoningthepest-farmercevalus-7", true);
     }
 
 

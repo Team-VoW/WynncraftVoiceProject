@@ -3935,8 +3935,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-4", "stream": true}]
   },
-
-
+  "poisoningthepest-farmercevalus-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-5", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-6", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-7", "stream": true}]
+  },
 
 
   "canyoncondor-svin-1": {
