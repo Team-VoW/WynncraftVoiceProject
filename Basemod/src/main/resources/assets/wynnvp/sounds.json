@@ -3918,6 +3918,19 @@
     "sounds": [{ "name": "wynnvp:theenvoypart1-maxie-40", "stream": true}]
   },
 
+  "stablestory-enkser-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-1", "stream": true}]
+  },
+  "stablestory-etustheblind-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-etustheblind-1", "stream": true}]
+  },
+  "stablestory-enkser-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-2", "stream": true}]
+  },
+
 
   "poisoningthepest-farmercevalus-1": {
     "category": "voice",
