@@ -3962,6 +3962,201 @@
   },
 
 
+  "riseofthequartron-nasea-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-1", "stream": true}]
+  },
+  "riseofthequartron-dado-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-dado-1", "stream": true}]
+  },
+  "riseofthequartron-nasea-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-2", "stream": true}]
+  },
+  "riseofthequartron-nasea-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-3", "stream": true}]
+  },
+  "riseofthequartron-nasea-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-4", "stream": true}]
+  },
+  "riseofthequartron-nasea-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-5", "stream": true}]
+  },
+  "riseofthequartron-lari-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-lari-1", "stream": true}]
+  },
+  "riseofthequartron-nasea-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-6", "stream": true}]
+  },
+  "riseofthequartron-lari-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-lari-2", "stream": true}]
+  },
+  "riseofthequartron-lari-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-lari-3", "stream": true}]
+  },
+  "riseofthequartron-nasea-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-7", "stream": true}]
+  },
+  "riseofthequartron-lari-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-lari-4", "stream": true}]
+  },
+  "riseofthequartron-lari-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-lari-5", "stream": true}]
+  },
+  "riseofthequartron-nasea-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-8", "stream": true}]
+  },
+  "riseofthequartron-lari-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-lari-6", "stream": true}]
+  },
+  "riseofthequartron-lari-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-lari-7", "stream": true}]
+  },
+  "riseofthequartron-lari-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-lari-8", "stream": true}]
+  },
+  "riseofthequartron-lari-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-lari-9", "stream": true}]
+  },
+  "riseofthequartron-dado-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-dado-2", "stream": true}]
+  },
+  "riseofthequartron-popo-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-popo-1", "stream": true}]
+  },
+  "riseofthequartron-harnort-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-1", "stream": true}]
+  },
+  "riseofthequartron-harnort-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-2", "stream": true}]
+  },
+  "riseofthequartron-harnort-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-3", "stream": true}]
+  },
+  "riseofthequartron-harnort-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-4", "stream": true}]
+  },
+  "riseofthequartron-harnort-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-5", "stream": true}]
+  },
+  "riseofthequartron-guard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-guard-1", "stream": true}]
+  },
+  "riseofthequartron-dado-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-dado-3", "stream": true}]
+  },
+  "riseofthequartron-harnort-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-6", "stream": true}]
+  },
+  "riseofthequartron-dado-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-dado-4", "stream": true}]
+  },
+  "riseofthequartron-guard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-guard-2", "stream": true}]
+  },
+  "riseofthequartron-guard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-guard-3", "stream": true}]
+  },
+  "riseofthequartron-guard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-guard-4", "stream": true}]
+  },
+  "riseofthequartron-guard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-guard-5", "stream": true}]
+  },
+  "riseofthequartron-harnort-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-7", "stream": true}]
+  },
+  "riseofthequartron-harnort-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-8", "stream": true}]
+  },
+  "riseofthequartron-harnort-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-9", "stream": true}]
+  },
+  "riseofthequartron-harnort-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-10", "stream": true}]
+  },
+  "riseofthequartron-harnort-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-11", "stream": true}]
+  },
+  "riseofthequartron-harnort-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-12", "stream": true}]
+  },
+  "riseofthequartron-harnort-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-13", "stream": true}]
+  },
+  "riseofthequartron-harnort-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-harnort-14", "stream": true}]
+  },
+  "riseofthequartron-nasea-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-9", "stream": true}]
+  },
+  "riseofthequartron-nasea-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-10", "stream": true}]
+  },
+  "riseofthequartron-nasea-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-11", "stream": true}]
+  },
+  "riseofthequartron-nasea-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-12", "stream": true}]
+  },
+  "riseofthequartron-nasea-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-13", "stream": true}]
+  },
+  "riseofthequartron-nasea-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-14", "stream": true}]
+  },
+  "riseofthequartron-nasea-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:riseofthequartron-nasea-15", "stream": true}]
+  },
+
+
+
   "canyoncondor-svin-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:canyoncondor-svin-1", "stream": true}]

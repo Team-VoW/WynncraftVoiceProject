@@ -1929,6 +1929,60 @@ public class SoundsHandler {
         addSound("[1/9] Enkser: Looking for able-bodied adventurers! Preferably with no friends or family, but I'm not picky!", "stablestory-enkser-1", false);
         addSound("[1/1] Etus The Blind: MOO! ALBERT! SOMEONE IS HERE... I CAN SMELL IT. MOO.", "stablestory-etustheblind-1", true);
         addSound("[1/5] Enkser: Looking for able-bodied adventurers, preferably with no friends or-", "stablestory-enkser-2", false);
+
+        //Rise of the Quartron
+        addSound("[1/9] Nasea: Shipment 3A and 4B, fully accounted for... shipments 5C and 6A...missing 50% of quartz content?!", "riseofthequartron-nasea-1", false);
+        addSound("[1/5] Dado: Okay, these go to division P, and...look, I'm busy allocating these deliveries to Llevigar. Go pester someone else, okay?", "riseofthequartron-dado-1", false);
+        addSound("[1/16] Nasea: I'm just going to take a wild guess and say that asking him nicely whether he committed theft didn't bring up any answers.", "riseofthequartron-nasea-2", false);
+        addSound("[2/16] Nasea: What, he brushed you off like THAT? Jeez, I knew he was a jerk, but really? That's just uncalled for.", "riseofthequartron-nasea-3", false);
+        addSound("[3/16] Nasea: We have to make him talk...if shipments keep going missing, my contractors are going to look elsewhere!", "riseofthequartron-nasea-4", false);
+        addSound("[4/16] Nasea: We need to prove that he's guilty...wait, you came to ME for ideas? This is why I asked you for help! Am I really back to square one?", "riseofthequartron-nasea-5", false);
+        addSound("[5/16] Lari: Aah, Nasea!", "riseofthequartron-lari-1", false);
+        addSound("[6/16] Nasea: I...what are you doing here, uh...Larry? Were you missing quartz too??", "riseofthequartron-nasea-6", false);
+        addSound("[7/16] Lari: Ah, it's...Lari. No, the quartz shipment found its way fine...", "riseofthequartron-lari-2", false);
+        addSound("[8/16] Lari: But, there was hardly an effect. Your idea was, unfortunately, a dead end.", "riseofthequartron-lari-3", false);
+        addSound("[9/16] Nasea: Well, I did warn you that it was only an idea. I manage the mine, I don't practice purification magic. Don't pin anything on me for that.", "riseofthequartron-nasea-7", false);
+        addSound("[10/16] Lari: I did not intend to imply that. Your help was appreciated, fate simply had opposing plans...", "riseofthequartron-lari-4", false);
+        addSound("[11/16] Lari: ...is this human a part of your operations, miss?", "riseofthequartron-lari-5", false);
+        addSound("[12/16] Nasea: Well, in a sense. Someone's siphoning quartz, but our suspect wasn't intimidated by the ten tons of armor, so we're at a loss. Any ideas?", "riseofthequartron-nasea-8", false);
+        addSound("[13/16] Lari: ...as a matter of fact, I do have a solution. Elven botany describes a flower that grows decently close by, the \"\"Tattytale\"\" flower.", "riseofthequartron-lari-6", false);
+        addSound("[14/16] Lari: It weakens the will of those who catch a whiff of its petals, making them pliable to questions. It's...unpleasant, but if it is needed, I suppose.", "riseofthequartron-lari-7", false);
+        addSound("[15/16] Lari: There is a cave infested with spiders, and covered with webs in the western mountain. It is the only place it grows outside of Aldorei, unfortunately.", "riseofthequartron-lari-8", false);
+        addSound("[16/16] Lari: Nasea, since it didn't help, I've returned the quartz. I thank you for your help...and I shall bid you both adieu.", "riseofthequartron-lari-9", false);
+        addSound("[1/8] Dado: Hey, everyone's least-favorite attack dog! Here boy! You want the emerald? Go kill all the flies in my house! Come on boy!", "riseofthequartron-dado-2", false);
+        addSound("[1/5] Popo: Ah, you must- Wait, never mind. I was expecting a visit from someone else.", "riseofthequartron-popo-1", false);
+        addSound("[1/10] Harnort: Interesting, a human's been swept up in our plans. Hadn't expected the work force to diversify so fast.", "riseofthequartron-harnort-1", false);
+        addSound("[2/10] Harnort: Time for the rundown, oh I love explaining this! I think you'll find what I have to say quite interesting, yes yes!", "riseofthequartron-harnort-2", false);
+        addSound("[3/10] Harnort: You see, quartz is a powerful magical material- moreso than many know! It can absorb and harness magical energy, but what more? I had to find out!", "riseofthequartron-harnort-3", false);
+        addSound("[4/10] Harnort: The rubes in my research department got me kicked out for suggesting we further our research. What kind of scientist is scared to make advancements?!", "riseofthequartron-harnort-4", false);
+        addSound("[5/10] Harnort: But without a board of directors breathing down my neck, my research has led me exactly where I'd hoped, and even more, yes yes!", "riseofthequartron-harnort-5", false);
+        addSound("[6/10] Guard: Oi. Got a guest taking the secret passage.", "riseofthequartron-guard-1", false);
+        addSound("[8/10] Dado: Harnort! I'M Dado! This sicko mugged me for info! They're gonna ruin us both!", "riseofthequartron-dado-3", false);
+        addSound("[9/10] Harnort: Guards!! GUARDS!! Capture them! Stop them! Tie them up, do something!! Our research can't go to waste, not at this vital point!!", "riseofthequartron-harnort-6", false);
+        addSound("[10/10] Dado: HA! That's what you get for showing me that amazi- HORRIBLE flower! Outta here!", "riseofthequartron-dado-4", false);
+        addSound("[1/1] Guard: Knock 'em down, boys!", "riseofthequartron-guard-2", true);
+        addSound("[1/1] Guard: Aah, they're really tough!! Don't let them take down more of my buddies!", "riseofthequartron-guard-3", true);
+        addSound("[1/1] Guard: Why are we fighting face-to-face?! They're destroying us!!", "riseofthequartron-guard-4", true);
+        addSound("[1/1] Guard: What the hell are humans made of?! Overwhelm them!! We hardly have any guys left!", "riseofthequartron-guard-5", true);
+        addSound("[1/5] Harnort: ...so it's come to this then. I knew the names of all those guards. I didn't hurt anyone to meet my goal.", "riseofthequartron-harnort-7", false);
+        addSound("[2/5] Harnort: You...I won't let their sacrifices be in vain! Llevigar needs to see what quartz is truly capable of! I MUST show them.", "riseofthequartron-harnort-8", false);
+        addSound("[3/5] Harnort: My Quartrons are the future! They need to see it! It will have been worth the scheming, and the thieving, and the burnt bridges!", "riseofthequartron-harnort-9", false);
+        addSound("[4/5] Harnort: But you- you couldn't leave well enough alone. You stepped in, and callously threw away a hundred lives to stop the inevitable!", "riseofthequartron-harnort-10", false);
+        addSound("[5/5] Harnort: One life for a hundred is a fair trade!!", "riseofthequartron-harnort-11", false);
+        addSound("[1/3] Harnort: N-no! NO! NO, NO! You idiot, you blundering HUMAN! A hundred lives lost in vain to your destructiveness!!", "riseofthequartron-harnort-12", false);
+        addSound("[2/3] Harnort: Why did they ever open the doors?! You all deserve to burn apart! You've ruined everything!!", "riseofthequartron-harnort-13", false);
+        addSound("[3/3] Harnort: The Quartron's energy spike is overloading the lab's quartz! This entire room is going to explode and kill everyone in it! ARE YOU PROUD?!", "riseofthequartron-harnort-14", false);
+        addSound("[1/9] Nasea: ...you've got some serious explaining to do. First you disappear to go get that Tattle flower, or whatever it was.", "riseofthequartron-nasea-9", false);
+        addSound("[1/6] Nasea: Coming up behind you.", "riseofthequartron-nasea-10", true);
+        addSound("[2/6] Nasea: This is the newest mining annex, but we've hit a bit of a brick wall. Well...a gravel wall.", "riseofthequartron-nasea-11", true);
+        addSound("[3/6] Nasea: So, if you can open up this area, you'll get access to the mine and whatever you find in it.", "riseofthequartron-nasea-12", true);
+        addSound("[4/6] Nasea: You see the gravel wall? See if you can't dig through this for us.", "riseofthequartron-nasea-13", true);
+        addSound("[5/6] Nasea: Hm! Clean work there. Pretty impressive, I'd say. So, as promised, you have your mine access, and...", "riseofthequartron-nasea-14", true);
+        addSound("[6/6] Nasea: ...the core you showed me folded up into a ring. Really high-tech stuff, but I can't use it, so you can take it. Just head inside now.", "riseofthequartron-nasea-15", true);
+
+
+
+
     }
 
 
