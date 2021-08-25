@@ -1739,11 +1739,11 @@
 
   "pitofthedead-merloni-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-1", "stream": true}]
   },
   "pitofthedead-merloni-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-2", "stream": true}]
   },
 
 
