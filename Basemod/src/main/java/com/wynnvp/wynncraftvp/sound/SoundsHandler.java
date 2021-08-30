@@ -1504,7 +1504,7 @@ public class SoundsHandler {
         addSound("[1/2] ???: My pulse, your light is brilliant... It has shone upon Lari, and soon her light will shine my way...", "realmoflight4findingthelight-orphion-3", false);
         addSound("[2/2] ???: Enter the roots, and witness the path to my realm. And then, prepare yourself. Muster your most blinding light... ", "realmoflight4findingthelight-orphion-4", false);
 
-        //Realm of light 4 - the realm of light
+        //Realm of light 5 - the realm of light
         addSound("[2/8] Lari: soldier... Achara... I do not believe I can ever atone for what I have done to you. An apology simply isn't enough.", "rol5therealmoflight-lari-1", true);
         addSound("[3/8] Lari: As infuriating as what you did was, you were following orders... I had every right to be angry, but to try and take your life was ten steps too far.", "rol5therealmoflight-lari-2", true);
         addSound("[4/8] Lari: Even though it is not enough, I will say I am sorry for the pain I caused you. The Guardian was right, in the end.", "rol5therealmoflight-lari-3", true);
@@ -1596,6 +1596,8 @@ public class SoundsHandler {
         addSound("I've never been one to say goodbyes, but thank you for everything. I know you'll find people just as strong as you are to rescue Orphion in my place.", "rol5therealmoflight-buzzing-4", true);
         addSound("I- I see the end of this... Tunnel. There's- Wait...", "rol5therealmoflight-buzzing-5", true);
         addSound("By the light what is that thing?! S-Stay away f-", "rol5therealmoflight-buzzing-6", true);
+        addSound("[3/3] Lari: Though... I feel something on the other side. It seems incredibly... Foul. I can't tell what it is, let's be careful.", "rol5therealmoflight-lari-80", true);
+        addSound("[7/7] Lari: It's not over... IT CAN'T BE, DON'T YOU- TAKE THIS!", "rol5therealmoflight-lari-81", true);
 
         //The Qira Hive
         addSound("[1/13] Yansur: I see another challenger has found their way to The Qira Hive!", "theqirahive-yansur-1", false);

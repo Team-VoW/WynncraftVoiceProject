@@ -7184,6 +7184,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:rol5therealmoflight-lari-79", "stream": true}]
   },
+  "rol5therealmoflight-lari-80": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:rol5therealmoflight-lari-80", "stream": true}]
+  },
+  "rol5therealmoflight-lari-81": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:rol5therealmoflight-lari-81", "stream": true}]
+  },
   "rol5therealmoflight-bakal-6": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:rol5therealmoflight-bakal-6", "stream": true}]
