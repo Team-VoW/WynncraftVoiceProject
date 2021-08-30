@@ -1761,6 +1761,45 @@
   },
 
 
+  "fromthebottom-nakoba-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fromthebottom-nakoba-1", "stream": true}]
+  },
+  "fromthebottom-dobile-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fromthebottom-dobile-1", "stream": true}]
+  },
+  "fromthebottom-dorroc-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fromthebottom-dorroc-1", "stream": true}]
+  },
+  "fromthebottom-lodog-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fromthebottom-lodog-1", "stream": true}]
+  },
+  "fromthebottom-govid-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fromthebottom-govid-1", "stream": true}]
+  },
+  "fromthebottom-dohstaj-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fromthebottom-dohstaj-1", "stream": true}]
+  },
+  "fromthebottom-syni-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fromthebottom-syni-1", "stream": true}]
+  },
+  "fromthebottom-yobon-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fromthebottom-yobon-1", "stream": true}]
+  },
+  "fromthebottom-nakoba-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fromthebottom-nakoba-2", "stream": true}]
+  },
+
+
+
   "tunneltrouble-bylvis-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-bylvis-1", "stream": true}]

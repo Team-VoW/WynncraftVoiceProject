@@ -1980,8 +1980,16 @@ public class SoundsHandler {
         addSound("[5/6] Nasea: Hm! Clean work there. Pretty impressive, I'd say. So, as promised, you have your mine access, and...", "riseofthequartron-nasea-14", true);
         addSound("[6/6] Nasea: ...the core you showed me folded up into a ring. Really high-tech stuff, but I can't use it, so you can take it. Just head inside now.", "riseofthequartron-nasea-15", true);
 
-
-
+        //From the bottom
+        addSound("[1/3] Nakoba: Oh, you have some troll hair? I just love the smell so much! I can never get it myself because I can't fight.", "fromthebottom-nakoba-1", false);
+        addSound("[1/2] Dobile: Oh, that's the exact egg I've been looking for! In exchange for the egg, I'll trade you the cap of a leprechaun!", "fromthebottom-dobile-1", false);
+        addSound("[1/3] Dorroc: A leprechaun's cap? How did you find that? I must have it! Don't worry, I have something to offer in exchange.", "fromthebottom-dorroc-1", false);
+        addSound("[1/2] Lodog: Excuse me, but what is that book you're carrying? Oh, I was right! It's the diary of the Hero of Wynn!", "fromthebottom-lodog-1", false);
+        addSound("[1/2] Govid: Is that Lethirath's Claw? How did you manage to get it? No matter, I have to have it. How much do you want for it?", "fromthebottom-govid-1", false);
+        addSound("[1/2] Dohstaj: Amazing! That's a Golden Phoenix Feather! I can't believe you have one of these! This will cure my father and increase his life expectancy by 10 years!", "fromthebottom-dohstaj-1", false);
+        addSound("[1/2] Syni: What is that blue dust you have? No, it can't be. The dust of the Fallen Angel Star? It must've been hard to get that. I doubt there is much left. I ask you to give it to me.", "fromthebottom-syni-1", false);
+        addSound("[1/3] Yobon: That amulet, it used to belong to me. It looks like it has found its way home.", "fromthebottom-yobon-1", false);
+        addSound("[1/3] Nakoba: Could it be? No, impossible. How have you acquired a Horn of Entia, the Elven God? I've been after this for years!", "fromthebottom-nakoba-2", false);
 
     }
 
