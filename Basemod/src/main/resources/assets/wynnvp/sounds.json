@@ -7231,6 +7231,24 @@
     "sounds": [{ "name": "wynnvp:losttower-laen-2", "stream": true}]
   },
 
+  "heartofllevigar-zenam-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-1", "stream": true}]
+  },
+  "heartofllevigar-headengineer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-1", "stream": true}]
+  },
+  "heartofllevigar-headengineer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-2", "stream": true}]
+  },
+  "heartofllevigar-zenam-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-2", "stream": true}]
+  },
+
+
 
 
   "talkingmushroomabondedmines": {

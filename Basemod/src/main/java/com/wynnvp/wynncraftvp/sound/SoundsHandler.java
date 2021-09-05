@@ -1383,7 +1383,7 @@ public class SoundsHandler {
         addSound("Leave. And do not return.", "rol3aheadlesshistory-dullahan-82", true);
 
         //Realm of light 4 - finding the light
-        addSound("[1/7] Lari: Awaken! Your guidance is needed!", "realmoflight4findingthelight-lari-1", false);
+        addSound("[1/7] Lari: Awaken! Your guidance is needed!", "realmoflight4findingthelight-lari-1", true);
         addSound("[2/7] Lari: ...ah. soldier. So you are needed here too, then?", "realmoflight4findingthelight-lari-2", false);
         addSound("[3/7] Lari: I am... TRYING... To awaken the Guardian of the Forest to receive its guidance, but it refuses to budge! Even the voice of Orphion provides no reaction.", "realmoflight4findingthelight-lari-3", false);
         addSound("[4/7] Lari: I beg once more of you, awaken! Us two... Us two seek your wisdom!", "realmoflight4findingthelight-lari-4", false);
@@ -1408,9 +1408,9 @@ public class SoundsHandler {
         addSound("[5/7] Lari: You truly have been helpful, even through my own worries. I must thank you, but you can relax now! I will be the one this time!", "realmoflight4findingthelight-lari-22", false);
         addSound("[6/7] Lari: You can continue doing...whatever else it is you need doing. I have seen you helping in various places- Concern yourself with those for now. I can handle this.", "realmoflight4findingthelight-lari-23", false);
         addSound("[7/7] ???: Pursue her, my pulse. She must take dire action- Alone, her light shall illuminate nothing. You must provide her direction.", "realmoflight4findingthelight-orphion-2", false);
-        addSound("[1/2] Lari: W-What? You- Why did you follow me? I can handle this! I can finally be useful again! Do you...not trust me?", "realmoflight4findingthelight-lari-24", false);
-        addSound("[2/2] Lari: Please, just respect my wishes! If I need your help, I'll go find you- For now, just leave! You don't need to worry about this! ", "realmoflight4findingthelight-lari-25", false);
-        addSound("[1/1] Lari: Get out! Just...get out.", "realmoflight4findingthelight-lari-26", false);
+        addSound("[1/2] Lari: W-What? You- Why did you follow me? I can handle this! I can finally be useful again! Do you...not trust me?", "realmoflight4findingthelight-lari-24", true);
+        addSound("[2/2] Lari: Please, just respect my wishes! If I need your help, I'll go find you- For now, just leave! You don't need to worry about this! ", "realmoflight4findingthelight-lari-25", true);
+        addSound("[1/1] Lari: Get out! Just...get out.", "realmoflight4findingthelight-lari-26", true);
         addSound("[1/16] Elder: ...if this human has truly done what you have said, then why do you spurn their aid? It is unlike you.", "realmoflight4findingthelight-elder-1", false);
         addSound("[2/16] Lari: I know, I know. I just am in disbelief. They've been contacted by Orphion himself, allowed into the Taproot, they have a symbol of Orphion's blessing!!", "realmoflight4findingthelight-lari-27", false);
         addSound("[3/16] Lari: They just...walked up, after a thousand years of my putting my entire life into trying to save this province, and do everything I couldn't, in the span of weeks at most!", "realmoflight4findingthelight-lari-28", false);
@@ -1602,6 +1602,12 @@ public class SoundsHandler {
         //Lost Tower
         addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);
         addSound("[1/1] Laen: Great! This will be very interesting to read, thank you!", "losttower-laen-2", false);
+
+        //Heart of llevigar
+        addSound("[1/6] Zenam: Aaah, no no no! This doesn't make any sense, what in the world is going on?! Nothing's working!", "heartofllevigar-zenam-1", false);
+        addSound("[1/5] Head Engineer: Whew, finally Zeman found a guy for the job. I told him weeks ago this was a two-person task...", "heartofllevigar-headengineer-1", false);
+        addSound("[1/5] Head Engineer: Alright, that should do it- Ah, you're back. The system reset just fine, like I said. Everything should be winding down now.", "heartofllevigar-headengineer-2", false);
+        addSound("[1/4] Zenam: Whew...welcome back. The power is back online- Everything is running at full capacity again. I think the system is just running excess through right now.", "heartofllevigar-zenam-2", false);
 
         //The Qira Hive
         addSound("[1/13] Yansur: I see another challenger has found their way to The Qira Hive!", "theqirahive-yansur-1", false);
