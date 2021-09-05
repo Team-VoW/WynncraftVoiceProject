@@ -7222,8 +7222,14 @@
   },
 
 
-
-
+  "losttower-laen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:losttower-laen-1", "stream": true}]
+  },
+  "losttower-laen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:losttower-laen-2", "stream": true}]
+  },
 
 
 

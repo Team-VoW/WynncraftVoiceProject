@@ -1599,6 +1599,10 @@ public class SoundsHandler {
         addSound("[3/3] Lari: Though... I feel something on the other side. It seems incredibly... Foul. I can't tell what it is, let's be careful.", "rol5therealmoflight-lari-80", true);
         addSound("[7/7] Lari: It's not over... IT CAN'T BE, DON'T YOU- TAKE THIS!", "rol5therealmoflight-lari-81", true);
 
+        //Lost Tower
+        addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);
+        addSound("[1/1] Laen: Great! This will be very interesting to read, thank you!", "losttower-laen-2", false);
+
         //The Qira Hive
         addSound("[1/13] Yansur: I see another challenger has found their way to The Qira Hive!", "theqirahive-yansur-1", false);
         addSound("[1/1] Qira: Begin, the Thunder Division! Strike quickly and move on, for those within will warp your very mind should you stray for too long!", "theqirahive-qira-1", true);
