@@ -1603,6 +1603,10 @@ public class SoundsHandler {
         addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);
         addSound("[1/1] Laen: Great! This will be very interesting to read, thank you!", "losttower-laen-2", false);
 
+        //Pirates Trove
+        addSound("[1/8] Damiral: Lo, adventurer! Welcome to the great province of Gavel, home of the villager race, and yours truly. You'll be headed into the grand citadel of Llevigar soon!", "piratestrove-damiral-1", false);
+        addSound("[1/3] Damiral: Aha! I'd come to ask how it was coming when I saw you jump over here!", "piratestrove-damiral-2", false);
+
         //Heart of llevigar
         addSound("[1/6] Zenam: Aaah, no no no! This doesn't make any sense, what in the world is going on?! Nothing's working!", "heartofllevigar-zenam-1", false);
         addSound("[1/5] Head Engineer: Whew, finally Zeman found a guy for the job. I told him weeks ago this was a two-person task...", "heartofllevigar-headengineer-1", false);

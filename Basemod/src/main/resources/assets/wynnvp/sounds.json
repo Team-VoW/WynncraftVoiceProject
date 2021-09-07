@@ -7231,6 +7231,7 @@
     "sounds": [{ "name": "wynnvp:losttower-laen-2", "stream": true}]
   },
 
+
   "heartofllevigar-zenam-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-1", "stream": true}]
@@ -7249,6 +7250,14 @@
   },
 
 
+  "piratestrove-damiral-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-1", "stream": true}]
+  },
+  "piratestrove-damiral-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-2", "stream": true}]
+  },
 
 
   "talkingmushroomabondedmines": {
