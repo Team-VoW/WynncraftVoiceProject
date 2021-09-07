@@ -80,6 +80,47 @@ public class SoundsHandler {
         addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "thomas_creeperinfl_3", false);
         addSound("[1/7] Thomas: So, what was in the cave? Were there really creepers in there?", "thomas_creeperinfl_4", false);
 
+        //Fate of the Fallen
+        addSound("[1/9] Telvu: Ah, a member of the Ragni army. We're trying to gain entry to this frozen barrow. We could use your aid.", "fateofthefallen-telvu-1", false);
+        addSound("[1/5] Telvu: Aha, quick job. I see you've the wand. Must've needed a sharp tongue to get the bankers to give it up.", "fateofthefallen-telvu-2", false);
+        addSound("[1/7] Psern: What the...", "fateofthefallen-psern-1", false);
+        addSound("[1/15] Theorick: I could've sworn she had gone this way... Oh, what now, more imbeciles? This forest isn't safe to travel!", "fateofthefallen-theorick-1", true);
+        addSound("[2/15] Theorick: If you need help, lodge a complaint with the guards. I'm busy and I can't exactly break away from saving this god-blessed province to chill your milk!!", "fateofthefallen-theorick-2", true);
+        addSound("[3/15] Theorick: Are your ears full of wax?! I said-", "fateofthefallen-theorick-3", true);
+        addSound("[4/15] Theorick: Urgh, the things followed you! See what happens?! STAND ASIDE.", "fateofthefallen-theorick-4", true);
+        addSound("[5/15] Theorick: As though I needed TWO people to save! Now get out of here, I have to find that woman who went missing!", "fateofthefallen-theorick-5", true);
+        addSound("[6/15] ???: HEEEELP! I can't outrun them!!! Guards! Someone!!", "fateofthefallen-girl-1", true);
+        addSound("[7/15] Theorick: Whuh! That's her voice! Where is she?! I just cleared this area!", "fateofthefallen-theorick-6", true);
+        addSound("[8/15] Girl: Th-Theorick!! There's corrupteds!!", "fateofthefallen-girl-2", true);
+        addSound("[9/15] Theorick: Ugh, is she dragging them over from the west?! You there, If you don't want to end up frozen, GET BEHIND ME, NOW!!", "fateofthefallen-theorick-7", true);
+        addSound("[10/15] Theorick: Phew... You're out of danger now. If you hadn't left town, though, you wouldn't have been IN any danger at all!", "fateofthefallen-theorick-8", true);
+        addSound("[11/15] Theorick: Don't bother apologizing to me, just get back to town. Now.", "fateofthefallen-theorick-9", true);
+        addSound("[12/15] Theorick: Next time you feel like picking flowers in the forest or whatever you were doing, remember you have a life to live, hm?!", "fateofthefallen-theorick-10", true);
+        addSound("[13/15] Theorick: Every day, more corrupteds, more deaths... There is only one thing for it. I have to tackle it myself. Cut the roots...and kill this hellish weed.", "fateofthefallen-theorick-11", true);
+        addSound("[14/15] Theorick: Still here? Well, listen up. Myself and a few others are planning something risky. Damned be it if our minds are lost, I need to go through that portal.", "fateofthefallen-theorick-12", true);
+        addSound("[15/15] Theorick: You look heavily geared, so I'm conscripting you. Meet us at our base, immediately. Follow the river south and you'll see a house on the right side.", "fateofthefallen-theorick-13", true);
+        addSound("[1/3] Theorick: Well, I'll give you this. You're prompt to listen to orders, at least. We're headed to the Roots of Corruption.", "fateofthefallen-theorick-14", true);
+        addSound("[2/3] Theorick: The last man that entered the portal and returned became Bak'al... But if there is even a fraction of a chance this could work, we must take it at this point.", "fateofthefallen-theorick-15", true);
+        addSound("[3/3] Theorick: Let's get moving. We'll be taking no breaks on the trip, so I hope you were prepared.", "fateofthefallen-theorick-16", true);
+        addSound("[1/3] Theorick: Now. The sheer cold I command can stave off corruption itself. Somehow I doubt any of you can say the same. I'll go in alone.", "fateofthefallen-theorick-17", true);
+        addSound("[2/3] Theorick: When I enter... If I had to make an assumption, corrupteds will swarm the portal after me. Your job? Slay them. I can't have distractions in there.", "fateofthefallen-theorick-18", true);
+        addSound("[3/3] Theorick: You will not be leaving your post here until I exit that portal. Understood?", "fateofthefallen-theorick-19", true);
+        addSound("[1/4] Theorick: ...no...", "fateofthefallen-theorick-20", true);
+        addSound("[2/4] Theorick: ...no, no, no no no NO!! DAMN IT ALL!!", "fateofthefallen-theorick-21", true);
+        addSound("[3/4] Theorick: You know what happened?! I lost!! I will destroy the province if I turn completely! GET AWAY, NOW! DO YOU HEAR ME?! RUN!!", "fateofthefallen-theorick-22", true);
+        addSound("[4/4] Theorick: I... C-calm yourself, Theorick...don't...don't lose yourself to it...there's...yet a solution...one way...", "fateofthefallen-theorick-23", true);
+        addSound("[1/8] Theorick: Oh...you again...the others...dead? Run off? Cowards...urgh...", "fateofthefallen-theorick-24", true);
+        addSound("[2/8] Theorick: You live...so...eyes up. Listen to me. If I turn...w-when...when I turn...n-no, can't...gaaah, I'll destr- Nggh...", "fateofthefallen-theorick-25", true);
+        addSound("[3/8] Theorick: I won't last, you can tell... Right now...killing me is an impossibility, you idiotic weakl- Agh, GET OUT OF MY MIND!!", "fateofthefallen-theorick-26", true);
+        addSound("[4/8] Theorick: Gaaah... Tell...everyone. I will freeze this place. I...t-too fargone. It needs time to heal...and my powers m-must be dampened...frozen...", "fateofthefallen-theorick-27", true);
+        addSound("[5/8] Theorick: All worthless... Urgh, no...they yet deserve life...and this spell...it will surely claim some. Please, let them know why...", "fateofthefallen-theorick-28", true);
+        addSound("[6/8] Theorick: If I have learned anything from that insufferable f- ...from Mael...deaths without reason lets spirits linger. I would...prefer against giving him a harder time.", "fateofthefallen-theorick-29", true);
+        addSound("[7/8] Theorick: K-keep advancing. Your things, if everyone was as strong as you...we may stand a chance. This could end me, in time, once I am weaker.", "fateofthefallen-theorick-30", true);
+        addSound("[8/8] Theorick: Let it be known...Theorick Twain is not dead. He cannot be killed...all will burn...until future days. Here, in this accursed place. Find me...and end it all.", "fateofthefallen-theorick-31", true);
+        addSound("[1/9] Telvu: You must have succeeded, or you would be yet in the memory of the past. I can feel some potent magic on you.", "fateofthefallen-telvu-3", false);
+
+
+
         //Maltics Well
         addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwellrysend1", false);
         addSound("[1/1] Child: Help me! Someone! The witch is being mean!!", "malticwellchild", true);

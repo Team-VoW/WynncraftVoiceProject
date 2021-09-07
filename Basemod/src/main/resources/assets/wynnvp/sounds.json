@@ -7232,6 +7232,156 @@
   },
 
 
+  "fateofthefallen-telvu-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-1", "stream": true}]
+  },
+  "fateofthefallen-telvu-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-2", "stream": true}]
+  },
+  "fateofthefallen-psern-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-psern-1", "stream": true}]
+  },
+  "fateofthefallen-theorick-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-1", "stream": true}]
+  },
+  "fateofthefallen-theorick-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-2", "stream": true}]
+  },
+  "fateofthefallen-theorick-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-3", "stream": true}]
+  },
+  "fateofthefallen-theorick-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-4", "stream": true}]
+  },
+  "fateofthefallen-theorick-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-5", "stream": true}]
+  },
+  "fateofthefallen-girl-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-girl-1", "stream": true}]
+  },
+  "fateofthefallen-theorick-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-6", "stream": true}]
+  },
+  "fateofthefallen-girl-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-girl-2", "stream": true}]
+  },
+  "fateofthefallen-theorick-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-7", "stream": true}]
+  },
+  "fateofthefallen-theorick-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-8", "stream": true}]
+  },
+  "fateofthefallen-theorick-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-9", "stream": true}]
+  },
+  "fateofthefallen-theorick-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-10", "stream": true}]
+  },
+  "fateofthefallen-theorick-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-11", "stream": true}]
+  },
+  "fateofthefallen-theorick-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-12", "stream": true}]
+  },
+  "fateofthefallen-theorick-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-13", "stream": true}]
+  },
+  "fateofthefallen-theorick-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-14", "stream": true}]
+  },
+  "fateofthefallen-theorick-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-15", "stream": true}]
+  },
+  "fateofthefallen-theorick-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-16", "stream": true}]
+  },
+  "fateofthefallen-theorick-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-17", "stream": true}]
+  },
+  "fateofthefallen-theorick-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-18", "stream": true}]
+  },
+  "fateofthefallen-theorick-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-19", "stream": true}]
+  },
+  "fateofthefallen-theorick-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-20", "stream": true}]
+  },
+  "fateofthefallen-theorick-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-21", "stream": true}]
+  },
+  "fateofthefallen-theorick-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-22", "stream": true}]
+  },
+  "fateofthefallen-theorick-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-23", "stream": true}]
+  },
+  "fateofthefallen-theorick-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-24", "stream": true}]
+  },
+  "fateofthefallen-theorick-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-25", "stream": true}]
+  },
+  "fateofthefallen-theorick-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-26", "stream": true}]
+  },
+  "fateofthefallen-theorick-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-27", "stream": true}]
+  },
+  "fateofthefallen-theorick-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-28", "stream": true}]
+  },
+  "fateofthefallen-theorick-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-29", "stream": true}]
+  },
+  "fateofthefallen-theorick-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-30", "stream": true}]
+  },
+  "fateofthefallen-theorick-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-31", "stream": true}]
+  },
+  "fateofthefallen-telvu-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-3", "stream": true}]
+  },
+
+
   "heartofllevigar-zenam-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-1", "stream": true}]
@@ -7258,6 +7408,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:piratestrove-damiral-2", "stream": true}]
   },
+
+
+
+
   "talkingmushroomqirahive": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomqirahive", "stream": true}]
