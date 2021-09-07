@@ -72,6 +72,7 @@ public class SoundsHandler {
         addSound("[1/2] Talking Mushroom: WOAH, WAIT. WHERE ARE WE? WHAT ARE YOU DOING HE-", "talkingmushroomhiddencamp", true);
         addSound("[1/3] Talking Mushroom: ...I DON'T KNOW WHAT MANIC IDEA YOU'RE ABOUT TO HAVE NOW, BUT I'M GOING TO PUT AN END TO IT RIGHT NOW. YOU DO NOT WANT TO GO IN THERE.", "talkingmushroomoutsideeo", true);
         addSound("[1/3] Talking Mushroom: REALLY COOL CITY, HUH? BUILT UP ON THE CLIFFS, VERY STYLISH, IS THAT WHAT YOU'RE THINKING?", "talkingmushroomkandon", true);
+        addSound("[1/6] Talking Mushroom: \"WOW, WHAT EVEN IS THIS PLACE?? FEELS OMINOUS, LOOKS LAME, WHAT ARE WE DOING HERE? DROP ME OFF SOMEPLACE ELSE!\"", "talkingmushroomqirahive", false);
 
         //Creeper Infiltration
         addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "thomas_creeperinfl_1", false);

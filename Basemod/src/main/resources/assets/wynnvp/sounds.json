@@ -7258,8 +7258,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:piratestrove-damiral-2", "stream": true}]
   },
-
-
+  "talkingmushroomqirahive": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomqirahive", "stream": true}]
+  },
   "talkingmushroomabondedmines": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomabondedmines", "stream": true}]
