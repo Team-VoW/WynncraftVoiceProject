@@ -7442,6 +7442,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:underice-fredris-2", "stream": true}]
   },
+  "underice-fredris-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underice-fredris-3", "stream": true}]
+  },
 
 
 

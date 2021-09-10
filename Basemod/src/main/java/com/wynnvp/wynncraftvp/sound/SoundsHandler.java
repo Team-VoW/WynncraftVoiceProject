@@ -128,6 +128,7 @@ public class SoundsHandler {
         addSound("[1/1] Gernald: You decided to give me the fish? I wish Strato was still around, he would be so amazed. I can't show you how much this means to me, but take this little gift please, promise me to never change. ", "underice-gernald-4", false);
         addSound("1/2calamaroyoufoundthepufferfish!whowouldhavethoughtsuchasmallthingcouldsolveourproblemiwillstartbringingbackthefishimmediatelybutfirstwewillhaveanicehotsouppleasetakethisaspaybackforyourservices", "underice-calamaro-2", false);
         addSound("[1/2] Fredris: Oh you are done with whatever you were doing? I heard you ran around the whole place, I don't know if you were the right person to ask for help...", "underice-fredris-2", false);
+        addSound("[1/2] Fredris: What is this thing supposed to be? You know, I would really appreciate your help, but this [Breathing Helmet I] does not look like it's going to keep you protected.", "underice-fredris-3", false);
 
         //Maltics Well
         addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwellrysend1", false);
@@ -153,7 +154,6 @@ public class SoundsHandler {
         addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummyormrod2", false);
 
         //Corrupted village
-        //FIX TYPO WYNNN!!
         addSound("[1/17] Roy: Well, that did the trick. Let’s take a look.", "corruptedviallgeroy", false);
         addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallgeorikal1", false);
         addSound("[1/6] Orikal: That was quick... did you find anything?", "corruptedviallgeorikal2", false);
