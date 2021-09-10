@@ -119,7 +119,15 @@ public class SoundsHandler {
         addSound("[8/8] Theorick: Let it be known...Theorick Twain is not dead. He cannot be killed...all will burn...until future days. Here, in this accursed place. Find me...and end it all.", "fateofthefallen-theorick-31", true);
         addSound("[1/9] Telvu: You must have succeeded, or you would be yet in the memory of the past. I can feel some potent magic on you.", "fateofthefallen-telvu-3", false);
 
-
+        //Underice
+        addSound("[1/3] Fredris: I'm having trouble with the fish in our lake recently and I am sure the problem lies within the lake itself.", "underice-fredris-1", false);
+        addSound("[1/5] Calamaro: Who are you? You don't look like one of those villagers we stole the fi... Wait, they didn't send you to retrieve \"their\" fish, did they?", "underice-calamaro-1", false);
+        addSound("[1/5] Gernald: Oh you look a bit lost, let me help you, I've lived here for a long time, I know every corner and every snowflake.", "underice-gernald-1", false);
+        addSound("1/22gernaldajustaalookatathoseafishaiatoldayouatheyaloveathisabait", "underice-gernald-2", false);
+        addSound("mythic3everlasting3pufferfishaaiacantabelieveait!", "underice-gernald-3", false);
+        addSound("[1/1] Gernald: You decided to give me the fish? I wish Strato was still around, he would be so amazed. I can't show you how much this means to me, but take this little gift please, promise me to never change. ", "underice-gernald-4", false);
+        addSound("1/2calamaroyoufoundthepufferfish!whowouldhavethoughtsuchasmallthingcouldsolveourproblemiwillstartbringingbackthefishimmediatelybutfirstwewillhaveanicehotsouppleasetakethisaspaybackforyourservices", "underice-calamaro-2", false);
+        addSound("[1/2] Fredris: Oh you are done with whatever you were doing? I heard you ran around the whole place, I don't know if you were the right person to ask for help...", "underice-fredris-2", false);
 
         //Maltics Well
         addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwellrysend1", false);

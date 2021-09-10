@@ -7410,6 +7410,40 @@
   },
 
 
+  "underice-fredris-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underice-fredris-1", "stream": true}]
+  },
+  "underice-calamaro-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underice-calamaro-1", "stream": true}]
+  },
+  "underice-gernald-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underice-gernald-1", "stream": true}]
+  },
+  "underice-gernald-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underice-gernald-2", "stream": true}]
+  },
+  "underice-gernald-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underice-gernald-3", "stream": true}]
+  },
+  "underice-gernald-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underice-gernald-4", "stream": true}]
+  },
+  "underice-calamaro-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underice-calamaro-2", "stream": true}]
+  },
+  "underice-fredris-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underice-fredris-2", "stream": true}]
+  },
+
+
 
 
   "talkingmushroomqirahive": {
