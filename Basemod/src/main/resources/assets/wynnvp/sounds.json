@@ -7771,6 +7771,213 @@
 
 
 
+  "frostbite-eppo-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-1", "stream": true}]
+  },
+  "frostbite-eppo-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-2", "stream": true}]
+  },
+  "frostbite-eppo-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-3", "stream": true}]
+  },
+  "frostbite-eppo-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-4", "stream": true}]
+  },
+  "frostbite-eppo-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-5", "stream": true}]
+  },
+  "frostbite-eppo-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-6", "stream": true}]
+  },
+  "frostbite-eppo-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-7", "stream": true}]
+  },
+  "frostbite-eppo-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-8", "stream": true}]
+  },
+  "frostbite-eppo-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-9", "stream": true}]
+  },
+  "frostbite-eppo-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-10", "stream": true}]
+  },
+  "frostbite-eppo-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-11", "stream": true}]
+  },
+  "frostbite-rhudya-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-rhudya-1", "stream": true}]
+  },
+  "frostbite-rhudya-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-rhudya-2", "stream": true}]
+  },
+  "frostbite-rhudya-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-rhudya-3", "stream": true}]
+  },
+  "frostbite-eppo-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-12", "stream": true}]
+  },
+  "frostbite-eppo-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-13", "stream": true}]
+  },
+  "frostbite-eppo-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-14", "stream": true}]
+  },
+  "frostbite-eppo-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-15", "stream": true}]
+  },
+  "frostbite-rhudya-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-rhudya-4", "stream": true}]
+  },
+  "frostbite-rhudya-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-rhudya-5", "stream": true}]
+  },
+  "frostbite-rhudya-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-rhudya-6", "stream": true}]
+  },
+  "frostbite-eppo-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-46", "stream": true}]
+  },
+  "frostbite-eppo-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-17", "stream": true}]
+  },
+  "frostbite-eppo-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-18", "stream": true}]
+  },
+  "frostbite-eppo-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-19", "stream": true}]
+  },
+  "frostbite-eppo-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-20", "stream": true}]
+  },
+  "frostbite-eppo-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-21", "stream": true}]
+  },
+  "frostbite-eppo-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-22", "stream": true}]
+  },
+  "frostbite-eppo-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-23", "stream": true}]
+  },
+  "frostbite-eppo-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-24", "stream": true}]
+  },
+  "frostbite-eppo-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-25", "stream": true}]
+  },
+  "frostbite-eppo-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-26", "stream": true}]
+  },
+  "frostbite-eppo-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-27", "stream": true}]
+  },
+  "frostbite-eppo-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-28", "stream": true}]
+  },
+  "frostbite-eppo-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-29", "stream": true}]
+  },
+  "frostbite-eppo-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-30", "stream": true}]
+  },
+  "frostbite-eppo-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-31", "stream": true}]
+  },
+  "frostbite-eppo-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-32", "stream": true}]
+  },
+  "frostbite-eppo-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-33", "stream": true}]
+  },
+  "frostbite-eppo-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-34", "stream": true}]
+  },
+  "frostbite-eppo-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-35", "stream": true}]
+  },
+  "frostbite-eppo-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-36", "stream": true}]
+  },
+  "frostbite-eppo-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-37", "stream": true}]
+  },
+  "frostbite-eppo-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-38", "stream": true}]
+  },
+  "frostbite-eppo-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-39", "stream": true}]
+  },
+  "frostbite-eppo-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-40", "stream": true}]
+  },
+  "frostbite-eppo-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-41", "stream": true}]
+  },
+  "frostbite-eppo-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-42", "stream": true}]
+  },
+  "frostbite-eppo-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-43", "stream": true}]
+  },
+  "frostbite-eppo-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-44", "stream": true}]
+  },
+  "frostbite-eppo-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:frostbite-eppo-45", "stream": true}]
+  },
+
+
+
   "mixedfeelings-javen-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mixedfeelings-javen-1", "stream": true}]

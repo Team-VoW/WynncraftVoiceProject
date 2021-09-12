@@ -1153,7 +1153,7 @@ public class SoundsHandler {
         addSound("[1/6] Duvale: Oh, you there! I wasn't expecting a human soldier to be here, but you've come at a perfect time. I could use some help, see.", "anironheartpart1-duvale-1", false);
         addSound("[1/7] Duvale: Were you able to subdue the golem? You certainly look like you're in one piece.", "anironheartpart1-duvale-2", false);
 
-        //An iron heart part 2
+        //An Iron heart part 2
         addSound("[1/17] Daxe: Oh, so a human wishes to wander into the home of the great Daxe?", "anironheartpart2-daxe-1", false);
         addSound("[2/17] Daxe: Unfortunately for you, I'm not fond of visitors. I've left my criminal past behind...mh?", "anironheartpart2-daxe-2", false);
         addSound("[3/17] Daxe: What's that device you have there? So you already know about this, then...?", "anironheartpart2-daxe-3", false);
@@ -2164,6 +2164,60 @@ public class SoundsHandler {
         addSound("[1/3] Yobon: That amulet, it used to belong to me. It looks like it has found its way home.", "fromthebottom-yobon-1", false);
         addSound("[1/3] Nakoba: Could it be? No, impossible. How have you acquired a Horn of Entia, the Elven God? I've been after this for years!", "fromthebottom-nakoba-2", false);
 
+        //Frost Bite
+        addSound("[1/1] Eppo: Let's give it another try!", "frostbite-eppo-1", true);
+        addSound("[1/1] Eppo: Ready the drill, men!", "frostbite-eppo-2", true);
+        addSound("[1/9] Eppo: Darn. The drill just won't start.", "frostbite-eppo-3", false);
+        addSound("[2/9] Eppo: Hey, Guard! Do you know anything about Electromagic? Come up here to the drill, maybe you can take a look? ", "frostbite-eppo-4", true);
+        addSound("[3/9] Eppo: Oh! Never mind, it lit up, back up!", "frostbite-eppo-5", true);
+        addSound("[4/9] Eppo: For the love of Bob... Why won't you just break?", "frostbite-eppo-6", true);
+        addSound("[5/9] Eppo: This ice was created by Theorick, a Twain who defended this area many many years ago.", "frostbite-eppo-7", true);
+        addSound("[6/9] Eppo: When the corruption got too much... He froze everything, including the people. Do you see them in there?", "frostbite-eppo-8", true);
+        addSound("[7/9] Eppo: We've tried desperately to get them out, but we've tried all the equipment we had, including this Corkian drill. ", "frostbite-eppo-9", true);
+        addSound("[8/9] Eppo: Maybe we should get more destructive... The demolition expert, Rhudya, is further down the cave.", "frostbite-eppo-10", true);
+        addSound("[9/9] Eppo: It's a long shot, but worth a try. Would you be able to get it while I clear this space? ", "frostbite-eppo-11", false);
+        addSound("[1/3] Rhudya: Whup! You're on private property, y'know! Oh, Eppo sent ya? That's fair enough.", "frostbite-rhudya-1", true);
+        addSound("[2/3] Rhudya: You'll be needing this TNT then, make sure not to drop it though, whup!", "frostbite-rhudya-2", true);
+        addSound("[3/3] Rhudya: Just travel through this cave and you'll be returned to Eppo easy-peasy!", "frostbite-rhudya-3", true);
+        addSound("[1/5] Eppo: Very nice, this might do the trick.", "frostbite-eppo-12", false);
+        addSound("[2/5] Eppo: Back up, I'll ignite the explosive.", "frostbite-eppo-13", false);
+        addSound("[4/5] Eppo: NOTHING? Not even a scratch. I don't understand Theoricks ice.. It's not real.", "frostbite-eppo-14", false);
+        addSound("[5/5] Eppo: I'm not sure what else we can do then....", "frostbite-eppo-15", false);
+        addSound("[1/3] Rhudya: HEY. Eppo, over here! Near the cave!", "frostbite-rhudya-4", false);
+        addSound("[2/3] Rhudya: Did the explosive not work? I found this old mineshaft on the way back from the cave, it leads to an old lava cavern.", "frostbite-rhudya-5", false);
+        addSound("[3/3] Rhudya: Might be a long shot, but this lava looks different. Why not give it a try?", "frostbite-rhudya-6", false);
+        addSound("[1/6] Eppo: I don't understand how you can hold lava in a bucket.. But here we are.", "frostbite-eppo-17", true);
+        addSound("[6/6] Eppo: Look for the corpse with a key, it might be above you. Good luck!", "frostbite-eppo-18", true);
+        addSound("[1/1] Eppo: Is that the right one? You got it? Brilliant! Now come back down.", "frostbite-eppo-19", true);
+        addSound("[1/13] Eppo: Lets travel to the mansion together. Here, lets take my horse.", "frostbite-eppo-20", true);
+        addSound("[2/13] Eppo: While we ride, let me explain a little more about what we're doing. Let's go.", "frostbite-eppo-21", false);
+        addSound("[3/13] Eppo: As I mentioned before, there is a reason this land is frozen, and it's not natural.", "frostbite-eppo-22", true);
+        addSound("[4/13] Eppo: Many years before Bob was around, Wynn was in ruins due to the corruption war.", "frostbite-eppo-23", true);
+        addSound("[5/13] Eppo: In those times there used to be a group of naturally gifted individuals called the Twains. They defended us all with elemental magic.", "frostbite-eppo-24", true);
+        addSound("[6/13] Eppo: Theorick was one of those Twains. He harnessed unaturally powerful ice based magic. He used it to protect the land surrounding the mansion.", "frostbite-eppo-25", true);
+        addSound("[7/13] Eppo: Theorick.. Wasn't like the other Twains. He wanted the people he protected to pay and feed him as way of thanks.", "frostbite-eppo-26", true);
+        addSound("[8/13] Eppo: After years, Theorick was rich while the people he protected lived in poverty and fear - not only of the monsters, but in fear of Theorick himself.", "frostbite-eppo-27", true);
+        addSound("[9/13] Eppo: He punished those who disobeyed his curfews and would get angry if anyone tried to move away. The people felt trapped.", "frostbite-eppo-28", true);
+        addSound("[10/13] Eppo: Eventually, just like the other Twains - Theorick fell to the corruption. Not before he had the last word.", "frostbite-eppo-29", true);
+        addSound("[11/13] Eppo: He froze the land entirely, killing almost everything and everyone left outside in it. Hundreds of lives were lost.", "frostbite-eppo-30", true);
+        addSound("[12/13] Eppo: It turns out the ice slowed the spread of corruption across the land to almost a standstill. It's been this way ever since.", "frostbite-eppo-31", true);
+        addSound("[13/13] Eppo: Now that we can get in his mansion we hope to uncover the secrets of his ice magic so we may undo it, and share the wealth he hoarded from the people. Ah, we're here.", "frostbite-eppo-32", true);
+        addSound("[1/4] Eppo: This place looks frozen in time.. The grandure.. Well he did just take and take from everyone around him.", "frostbite-eppo-33", true);
+        addSound("[2/4] Eppo: So, I'm not sure where to start, but I'm guessing he has some protection in place.", "frostbite-eppo-34", true);
+        addSound("[3/4] Eppo: This is unbeliveable.. He was such a greedy-  AAAAH.", "frostbite-eppo-35", true);
+        addSound("[4/4] Eppo:  ... I don't think we should insult him..", "frostbite-eppo-36", true);
+        addSound("[1/3] Eppo: Oof! Wasn't expecting that. That just proves everything I said about him. Punishing people who insult him.", "frostbite-eppo-37", true);
+        addSound("[2/3] Eppo: Anyway, we should look around for some kind of secret entrance.", "frostbite-eppo-38", true);
+        addSound("[3/3] Eppo: Trust Theorick to booby trap his own house the paranoid frozen gro-", "frostbite-eppo-39", true);
+        addSound("[1/4] Eppo: That really isn't fun at all. I can't see a thing. Where are we now, a dead end?", "frostbite-eppo-40", true);
+        addSound("[2/4] Eppo: Well we know that insults result in punishment. Maybe a compliment will make him happy?", "frostbite-eppo-41", true);
+        addSound("[3/4] Eppo: Oh Theorick, strongest of all the Twains, you really are a hero.", "frostbite-eppo-42", true);
+        addSound("[4/4] Eppo: Maybe n-", "frostbite-eppo-43", true);
+        addSound("[1/2] Eppo: Looks like we finally found his private quarters, look at that vault door.", "frostbite-eppo-44", true);
+        addSound("[2/2] Eppo: There must be some way to open it. Look around and see what you can find.", "frostbite-eppo-45", true);
+        addSound("[1/5] Eppo: You did it! We have access to the vault.", "frostbite-eppo-46", false);
+
+
     }
 
 
@@ -2182,23 +2236,9 @@ public class SoundsHandler {
 
     public static String formatToSound(String message) {
         message = message.replaceAll(" ", "");
-        //  message = message.replaceAll("’", "");
-        // message = message.replaceAll("\\.", "");
-        //  message = message.replaceAll(",", "");
         message = message.toLowerCase();
         message = message.replace(" ", "");
         message = getActualText(message);
-     //   message = getTextInbetween(message, "\\n\\n");
-
-       /*
-        message = getTextAfterSplit(message, "clearedallpotioneffects");
-        message = getTextAfterSplit(message, "yourquestswillnotauto-trackanymore");
-        message = getTextBeforeSplit(message, "pressshifttocontinue");
-        message = getTextBeforeSplit(message, "presssneaktocontinue");
-
-        message = getTextAfterSplit(message, "/queststartbeacon");
-        message = "[" + message;
-          */
         message = message.replaceAll("[^abcdefghijklmnopqrstuvwxyz?!0123456789/]", "");
 
         return message;
@@ -2228,14 +2268,6 @@ public class SoundsHandler {
     public static String getTextBeforeSplit(String message, String split) {
         String[] splitMessage = message.split(split);
         message = splitMessage[0];
-        return message;
-    }
-
-    private static String getTextInbetween(String message, String split) {
-        String[] splitMessage = message.split(split);
-        if (splitMessage.length > 1) {
-            message = splitMessage[1];
-        }
         return message;
     }
 
