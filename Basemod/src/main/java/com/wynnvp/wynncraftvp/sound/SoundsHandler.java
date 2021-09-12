@@ -218,6 +218,31 @@ public class SoundsHandler {
         addSound("[1/4] Witch: Oh...didn't think that'd fool you. You know, I'm really not all that good at magic. I just like wearing pointy hats, and have warts.", "malticwellwitch3", false);
         addSound("[1/3] Rynend: Oh my son! What happened down there? Erh, not a witch, you say?", "malticwellrysend2", false);
 
+        //Mixed Feelings
+        addSound("[1/3] Javen: Mo'in lad! We don't get many Wynn folks round 'ere.", "mixedfeelings-javen-1", false);
+        addSound("[1/3] ???: Seems like you are in luck today, adventurer.", "mixedfeelings-rensa-1", false);
+        addSound("[1/1] ???: Cheers!", "mixedfeelings-rensa-2", false);
+        addSound("[1/1] Javen: Everything alright, lad? Looking a bit pale...", "mixedfeelings-javen-2", false);
+        addSound("[1/5] Javen: Oh by the mighty founders, everything is ruined!", "mixedfeelings-javen-3", false);
+        addSound("[1/6] Corkus City Citizen: The whole aqueduct is ruined! The city's fresh water is just draining into the ocean...", "mixedfeelings-corkuscitycitizen-1", false);
+        addSound("[1/1] Corkus City Citizen: Hurry, please! Just head into the big trapdoor by the bushes, the controls are in there.", "mixedfeelings-corkuscitycitizen-2", false);
+        addSound("[1/5] Corkus City Citizen: You fixed it? Everything you broke? That's one hell of a twisted personality.", "mixedfeelings-corkuscitycitizen-3", false);
+        addSound("[1/5] Corkus City Citizen: It's THEM! Someone call the authorities! It's the one who set my house on fire.", "mixedfeelings-corkuscitycitizen-4", false);
+        addSound("[1/5] Corkus City Citizen: You did it! So you weren't lying? Ugh, I guess you might just be trustworthy.", "mixedfeelings-corkuscitycitizen-5", false);
+        addSound("[1/6] Corkus City Citizen: Came back to wreck the rest of my work have you? Why aren't you all insane looking?", "mixedfeelings-corkuscitycitizen-6", false);
+        addSound("[1/6] Corkus City Citizen: You did it? ... -I mean, at last. Eh... I guess I was too fast with my judgement for once.", "mixedfeelings-corkuscitycitizen-7", false);
+        addSound("[1/3] Rensa: Why are you here? I don't mean here and now, I mean why are you on our island?--", "mixedfeelings-rensa-3", true);
+        addSound("[1/6] Rensa: You... Look at yourself. You fight in a war you did not cause. You come from a land you don't even remember.", "mixedfeelings-rensa-4", false);
+        addSound("[2/6] Rensa: We ask ourselves why would we invite people from two lands of sin. Invite a nation of warring travellers and a nation of greedy merchants to our doors?", "mixedfeelings-rensa-5", false);
+        addSound("[3/6] Rensa: The Corkian people are above such mundane capitalism and brutality. We work as a nation to better all.", "mixedfeelings-rensa-6", false);
+        addSound("[4/6] Rensa: You have been a pawn your entire existence on this world. The worst part is you don't even know it.", "mixedfeelings-rensa-7", false);
+        addSound("[5/6] Rensa: Do you, for example - Know the name of your ultimate enemy? The reason for the war on your land?", "mixedfeelings-rensa-8", false);
+        addSound("[6/6] Rensa: No? Didn't think so. I have no time for this. You served your purpose, even if you did try and redeem your barbaric behaviour... Kill them!", "mixedfeelings-rensa-9", false);
+        addSound("1/12rensatougherthaniexpectedyoudontmindifiinterfereabitdoyou?", "mixedfeelings-rensa-10", false);
+        addSound("[1/6] Rensa: Hmph.", "mixedfeelings-rensa-11", false);
+        addSound("[1/5] Javen: Now look who we got over 'ere! We were all wondering if you'd ever wake up.", "mixedfeelings-javen-4", false);
+
+
         //Grave Digger
         addSound("[1/8] Sayleros: You sure look like a strong adventurer who could help me!", "gravediggersayleros1", false);
         addSound("[1/2] Drucksh: Mmh. g... uh! oh, why hello there.", "gravediggerdrucksch1", false);

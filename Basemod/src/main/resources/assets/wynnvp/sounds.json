@@ -7763,6 +7763,97 @@
 
 
 
+  "mixedfeelings-javen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-javen-1", "stream": true}]
+  },
+  "mixedfeelings-rensa-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-1", "stream": true}]
+  },
+  "mixedfeelings-rensa-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-2", "stream": true}]
+  },
+  "mixedfeelings-javen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-javen-2", "stream": true}]
+  },
+  "mixedfeelings-javen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-javen-3", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-1", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-2", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-3", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-4", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-5", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-6", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-7", "stream": true}]
+  },
+  "mixedfeelings-rensa-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-3", "stream": true}]
+  },
+  "mixedfeelings-rensa-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-4", "stream": true}]
+  },
+  "mixedfeelings-rensa-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-5", "stream": true}]
+  },
+  "mixedfeelings-rensa-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-6", "stream": true}]
+  },
+  "mixedfeelings-rensa-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-7", "stream": true}]
+  },
+  "mixedfeelings-rensa-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-8", "stream": true}]
+  },
+  "mixedfeelings-rensa-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-9", "stream": true}]
+  },
+  "mixedfeelings-rensa-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-10", "stream": true}]
+  },
+  "mixedfeelings-rensa-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-11", "stream": true}]
+  },
+  "mixedfeelings-javen-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-javen-4", "stream": true}]
+  },
+
+
+
   "talkingmushroomqirahive": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomqirahive", "stream": true}]
