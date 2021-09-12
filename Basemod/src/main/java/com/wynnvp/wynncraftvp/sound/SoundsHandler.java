@@ -1148,8 +1148,8 @@ public class SoundsHandler {
         addSound("[3/3] ???: REMEMBER!! No...no orders! No directives!", "anironheartpart1-guardgolem-3", true);
         addSound("[1/3] Guard Golem: My name!! My life! I won't hurt them! The pain helps me reme...who's there?! LEAVE! PLEASE!", "anironheartpart1-guardgolem-4", true);
         addSound("[2/3] Guard Golem: No directives!! Who did this?! I can't...s-stop giving me ORDERS!!", "anironheartpart1-guardgolem-5", true);
-        addSound("[3/3] Guard Golem: NO MORE COLDNESS! NO MORE VOICES THAT AREN'T MINE! MY NAME IS [ERROR]!! [ERROR]!! NOOO!!", "anironheartpart1-guardgolem-6", true);
-        addSound("[1/1] Guard Golem: Falling... apart...this isn't who I I I was... My... My... My my my my my name is. Was. Is. Was. Is. IS...! [ERROR]... Ma[ERROine... Madeleine!! I'm Madeleine... I... I-I-IIIIIIIIII-", "anironheartpart1-guardgolem-7", true);
+        addSound("3/3guardgolemnomorecoldness!nomorevoicesthatarentmine!mynameiserror!!error!!nooo!!", "anironheartpart1-guardgolem-6", true);
+        addSound("1/1guardgolemfallingapartthisisntwhoiiiwasmymymymymymymynameiswasiswasisis!errormaerroinemadeleine!!immadeleineiiiiiiiiiiiii", "anironheartpart1-guardgolem-7", true);
         addSound("[1/6] Duvale: Oh, you there! I wasn't expecting a human soldier to be here, but you've come at a perfect time. I could use some help, see.", "anironheartpart1-duvale-1", false);
         addSound("[1/7] Duvale: Were you able to subdue the golem? You certainly look like you're in one piece.", "anironheartpart1-duvale-2", false);
 
