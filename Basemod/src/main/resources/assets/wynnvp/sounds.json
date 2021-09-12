@@ -7448,6 +7448,319 @@
   },
 
 
+  "misadventureonthesea-barman-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-barman-1", "stream": true}]
+  },
+  "misadventureonthesea-honip-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-1", "stream": true}]
+  },
+  "misadventureonthesea-barman-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-barman-2", "stream": true}]
+  },
+  "misadventureonthesea-honip-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-2", "stream": true}]
+  },
+  "misadventureonthesea-barman-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-barman-3", "stream": true}]
+  },
+  "misadventureonthesea-honip-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-3", "stream": true}]
+  },
+  "misadventureonthesea-honip-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-4", "stream": true}]
+  },
+  "misadventureonthesea-honip-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-5", "stream": true}]
+  },
+  "misadventureonthesea-honip-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-6", "stream": true}]
+  },
+  "misadventureonthesea-honip-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-7", "stream": true}]
+  },
+  "misadventureonthesea-honip-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-8", "stream": true}]
+  },
+  "misadventureonthesea-honip-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-9", "stream": true}]
+  },
+  "misadventureonthesea-honip-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-10", "stream": true}]
+  },
+  "misadventureonthesea-honip-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-11", "stream": true}]
+  },
+  "misadventureonthesea-honip-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-12", "stream": true}]
+  },
+  "misadventureonthesea-honip-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-13", "stream": true}]
+  },
+  "misadventureonthesea-honip-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-14", "stream": true}]
+  },
+  "misadventureonthesea-honip-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-15", "stream": true}]
+  },
+  "misadventureonthesea-honip-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-16", "stream": true}]
+  },
+  "misadventureonthesea-honip-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-17", "stream": true}]
+  },
+  "misadventureonthesea-honip-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-18", "stream": true}]
+  },
+  "misadventureonthesea-honip-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-19", "stream": true}]
+  },
+  "misadventureonthesea-honip-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-20", "stream": true}]
+  },
+  "misadventureonthesea-honip-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-21", "stream": true}]
+  },
+  "misadventureonthesea-pirate-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-pirate-1", "stream": true}]
+  },
+  "misadventureonthesea-honip-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-22", "stream": true}]
+  },
+  "misadventureonthesea-honip-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-23", "stream": true}]
+  },
+  "misadventureonthesea-pirate-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-pirate-2", "stream": true}]
+  },
+  "misadventureonthesea-honip-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-24", "stream": true}]
+  },
+  "misadventureonthesea-honip-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-25", "stream": true}]
+  },
+  "misadventureonthesea-pirate-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-pirate-3", "stream": true}]
+  },
+  "misadventureonthesea-honip-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-26", "stream": true}]
+  },
+  "misadventureonthesea-seth-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-seth-1", "stream": true}]
+  },
+  "misadventureonthesea-seth-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-seth-2", "stream": true}]
+  },
+  "misadventureonthesea-honip-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-27", "stream": true}]
+  },
+  "misadventureonthesea-honip-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-28", "stream": true}]
+  },
+  "misadventureonthesea-honip-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-29", "stream": true}]
+  },
+  "misadventureonthesea-honip-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-30", "stream": true}]
+  },
+  "misadventureonthesea-honip-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-31", "stream": true}]
+  },
+  "misadventureonthesea-honip-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-32", "stream": true}]
+  },
+  "misadventureonthesea-honip-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-33", "stream": true}]
+  },
+  "misadventureonthesea-honip-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-34", "stream": true}]
+  },
+  "misadventureonthesea-honip-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-35", "stream": true}]
+  },
+  "misadventureonthesea-honip-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-36", "stream": true}]
+  },
+  "misadventureonthesea-honip-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-37", "stream": true}]
+  },
+  "misadventureonthesea-honip-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-38", "stream": true}]
+  },
+  "misadventureonthesea-honip-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-39", "stream": true}]
+  },
+  "misadventureonthesea-honip-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-40", "stream": true}]
+  },
+  "misadventureonthesea-honip-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-41", "stream": true}]
+  },
+  "misadventureonthesea-honip-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-42", "stream": true}]
+  },
+  "misadventureonthesea-honip-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-43", "stream": true}]
+  },
+  "misadventureonthesea-honip-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-44", "stream": true}]
+  },
+  "misadventureonthesea-honip-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-45", "stream": true}]
+  },
+  "misadventureonthesea-honip-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-46", "stream": true}]
+  },
+  "misadventureonthesea-honip-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-47", "stream": true}]
+  },
+  "misadventureonthesea-honip-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-48", "stream": true}]
+  },
+  "misadventureonthesea-honip-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-49", "stream": true}]
+  },
+  "misadventureonthesea-honip-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-50", "stream": true}]
+  },
+  "misadventureonthesea-honip-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-51", "stream": true}]
+  },
+  "misadventureonthesea-honip-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-52", "stream": true}]
+  },
+  "misadventureonthesea-honip-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-53", "stream": true}]
+  },
+  "misadventureonthesea-honip-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-54", "stream": true}]
+  },
+  "misadventureonthesea-honip-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-55", "stream": true}]
+  },
+  "misadventureonthesea-honip-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-56", "stream": true}]
+  },
+  "misadventureonthesea-honip-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-57", "stream": true}]
+  },
+  "misadventureonthesea-honip-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-58", "stream": true}]
+  },
+  "misadventureonthesea-honip-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-59", "stream": true}]
+  },
+  "misadventureonthesea-honip-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-60", "stream": true}]
+  },
+  "misadventureonthesea-honip-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-61", "stream": true}]
+  },
+  "misadventureonthesea-honip-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-62", "stream": true}]
+  },
+  "misadventureonthesea-honip-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-63", "stream": true}]
+  },
+  "misadventureonthesea-honip-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-64", "stream": true}]
+  },
+  "misadventureonthesea-honip-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-65", "stream": true}]
+  },
+  "misadventureonthesea-honip-66": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-66", "stream": true}]
+  },
+  "misadventureonthesea-honip-67": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-67", "stream": true}]
+  },
+  "misadventureonthesea-seth-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-seth-3", "stream": true}]
+  },
+  "misadventureonthesea-seaskippercaptain-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-seaskippercaptain-1", "stream": true}]
+  },
+  "misadventureonthesea-seaskippercaptain-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-seaskippercaptain-2", "stream": true}]
+  },
+
 
 
   "talkingmushroomqirahive": {
