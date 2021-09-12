@@ -7748,9 +7748,17 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-67", "stream": true}]
   },
+  "misadventureonthesea-honip-68": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-68", "stream": true}]
+  },
   "misadventureonthesea-seth-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:misadventureonthesea-seth-3", "stream": true}]
+  },
+  "misadventureonthesea-seth-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-seth-4", "stream": true}]
   },
   "misadventureonthesea-seaskippercaptain-1": {
     "category": "voice",
