@@ -8069,6 +8069,751 @@
 
 
 
+  "ajourneybeyond-elphaba-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-1", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-2", "stream": true}]
+  },
+  "ajourneybeyond-aledar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-1", "stream": true}]
+  },
+  "ajourneybeyond-aledar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-2", "stream": true}]
+  },
+  "ajourneybeyond-lucio-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-1", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-3", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-4", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-5", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-6", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-7", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-8", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-9", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-10", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-11", "stream": true}]
+  },
+  "ajourneybeyond-lucio-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-2", "stream": true}]
+  },
+  "ajourneybeyond-lucio-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-3", "stream": true}]
+  },
+  "ajourneybeyond-aledar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-3", "stream": true}]
+  },
+  "ajourneybeyond-aledar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-4", "stream": true}]
+  },
+  "ajourneybeyond-aledar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-5", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-12", "stream": true}]
+  },
+  "ajourneybeyond-aledar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-6", "stream": true}]
+  },
+  "ajourneybeyond-aledar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-7", "stream": true}]
+  },
+  "ajourneybeyond-aledar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-8", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-13", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-14", "stream": true}]
+  },
+  "ajourneybeyond-lucio-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-4", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-15", "stream": true}]
+  },
+  "ajourneybeyond-lucio-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-5", "stream": true}]
+  },
+  "ajourneybeyond-aledar-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-9", "stream": true}]
+  },
+  "ajourneybeyond-aledar-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-10", "stream": true}]
+  },
+  "ajourneybeyond-lucio-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-6", "stream": true}]
+  },
+  "ajourneybeyond-lucio-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-7", "stream": true}]
+  },
+  "ajourneybeyond-aledar-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-11", "stream": true}]
+  },
+  "ajourneybeyond-lucio-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-8", "stream": true}]
+  },
+  "ajourneybeyond-lucio-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-9", "stream": true}]
+  },
+  "ajourneybeyond-aledar-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-12", "stream": true}]
+  },
+  "ajourneybeyond-aledar-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-13", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-16", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-17", "stream": true}]
+  },
+  "ajourneybeyond-lucio-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-10", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-18", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-19", "stream": true}]
+  },
+  "ajourneybeyond-aledar-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-14", "stream": true}]
+  },
+  "ajourneybeyond-aledar-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-15", "stream": true}]
+  },
+  "ajourneybeyond-aledar-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-16", "stream": true}]
+  },
+  "ajourneybeyond-aledar-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-17", "stream": true}]
+  },
+  "ajourneybeyond-aledar-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-18", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-20", "stream": true}]
+  },
+  "ajourneybeyond-lucio-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-11", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-21", "stream": true}]
+  },
+  "ajourneybeyond-lucio-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-12", "stream": true}]
+  },
+  "ajourneybeyond-aledar-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-19", "stream": true}]
+  },
+  "ajourneybeyond-aledar-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-20", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-22", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-23", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-24", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-25", "stream": true}]
+  },
+  "ajourneybeyond-dren-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-1", "stream": true}]
+  },
+  "ajourneybeyond-dren-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-2", "stream": true}]
+  },
+  "ajourneybeyond-dren-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-3", "stream": true}]
+  },
+  "ajourneybeyond-dren-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-4", "stream": true}]
+  },
+  "ajourneybeyond-dren-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-5", "stream": true}]
+  },
+  "ajourneybeyond-dren-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-6", "stream": true}]
+  },
+  "ajourneybeyond-dren-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-7", "stream": true}]
+  },
+  "ajourneybeyond-dren-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-8", "stream": true}]
+  },
+  "ajourneybeyond-dren-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-9", "stream": true}]
+  },
+  "ajourneybeyond-dren-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-10", "stream": true}]
+  },
+  "ajourneybeyond-dren-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-11", "stream": true}]
+  },
+  "ajourneybeyond-dren-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-12", "stream": true}]
+  },
+  "ajourneybeyond-dren-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-13", "stream": true}]
+  },
+  "ajourneybeyond-lucio-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-13", "stream": true}]
+  },
+  "ajourneybeyond-dren-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-14", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-26", "stream": true}]
+  },
+  "ajourneybeyond-aledar-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-21", "stream": true}]
+  },
+  "ajourneybeyond-aledar-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-22", "stream": true}]
+  },
+  "ajourneybeyond-aledar-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-23", "stream": true}]
+  },
+  "ajourneybeyond-aledar-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-24", "stream": true}]
+  },
+  "ajourneybeyond-aledar-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-25", "stream": true}]
+  },
+  "ajourneybeyond-aledar-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-26", "stream": true}]
+  },
+  "ajourneybeyond-aledar-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-27", "stream": true}]
+  },
+  "ajourneybeyond-aledar-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-28", "stream": true}]
+  },
+  "ajourneybeyond-aledar-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-29", "stream": true}]
+  },
+  "ajourneybeyond-aledar-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-30", "stream": true}]
+  },
+  "ajourneybeyond-aledar-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-31", "stream": true}]
+  },
+  "ajourneybeyond-aledar-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-32", "stream": true}]
+  },
+  "ajourneybeyond-aledar-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-33", "stream": true}]
+  },
+  "ajourneybeyond-aledar-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-34", "stream": true}]
+  },
+  "ajourneybeyond-dren-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-15", "stream": true}]
+  },
+  "ajourneybeyond-dren-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-16", "stream": true}]
+  },
+  "ajourneybeyond-dren-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-dren-17", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-27", "stream": true}]
+  },
+  "ajourneybeyond-lucio-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-14", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-28", "stream": true}]
+  },
+  "ajourneybeyond-lucio-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-15", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-29", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-30", "stream": true}]
+  },
+  "ajourneybeyond-lucio-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-16", "stream": true}]
+  },
+  "ajourneybeyond-lucio-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-17", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-31", "stream": true}]
+  },
+  "ajourneybeyond-aledar-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-35", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-32", "stream": true}]
+  },
+  "ajourneybeyond-aledar-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-36", "stream": true}]
+  },
+  "ajourneybeyond-lucio-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-18", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-33", "stream": true}]
+  },
+  "ajourneybeyond-lucio-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-19", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-34", "stream": true}]
+  },
+  "ajourneybeyond-aledar-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-37", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-35", "stream": true}]
+  },
+  "ajourneybeyond-lucio-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-20", "stream": true}]
+  },
+  "ajourneybeyond-aledar-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-38", "stream": true}]
+  },
+  "ajourneybeyond-aledar-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-39", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-36", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-37", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-38", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-39", "stream": true}]
+  },
+  "ajourneybeyond-aledar-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-40", "stream": true}]
+  },
+  "ajourneybeyond-lucio-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-21", "stream": true}]
+  },
+  "ajourneybeyond-aledar-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-41", "stream": true}]
+  },
+  "ajourneybeyond-aledar-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-42", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-40", "stream": true}]
+  },
+  "ajourneybeyond-elphaba-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-41", "stream": true}]
+  },
+  "ajourneybeyond-aledar-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-43", "stream": true}]
+  },
+  "ajourneybeyond-aledar-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-44", "stream": true}]
+  },
+  "ajourneybeyond-lucio-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-22", "stream": true}]
+  },
+  "ajourneybeyond-aledar-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-45", "stream": true}]
+  },
+  "ajourneybeyond-lucio-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-23", "stream": true}]
+  },
+  "ajourneybeyond-aledar-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-46", "stream": true}]
+  },
+  "ajourneybeyond-lucio-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-24", "stream": true}]
+  },
+  "ajourneybeyond-aledar-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-47", "stream": true}]
+  },
+  "ajourneybeyond-aledar-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-48", "stream": true}]
+  },
+  "ajourneybeyond-lucio-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-25", "stream": true}]
+  },
+  "ajourneybeyond-aledar-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-49", "stream": true}]
+  },
+  "ajourneybeyond-lucio-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-26", "stream": true}]
+  },
+  "ajourneybeyond-aledar-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-50", "stream": true}]
+  },
+  "ajourneybeyond-lucio-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-27", "stream": true}]
+  },
+  "ajourneybeyond-aledar-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-51", "stream": true}]
+  },
+  "ajourneybeyond-aledar-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-52", "stream": true}]
+  },
+  "ajourneybeyond-lucio-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-28", "stream": true}]
+  },
+  "ajourneybeyond-aledar-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-53", "stream": true}]
+  },
+  "ajourneybeyond-aledar-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-54", "stream": true}]
+  },
+  "ajourneybeyond-aledar-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-55", "stream": true}]
+  },
+  "ajourneybeyond-aledar-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-56", "stream": true}]
+  },
+  "ajourneybeyond-aledar-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-57", "stream": true}]
+  },
+  "ajourneybeyond-worm-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-worm-1", "stream": true}]
+  },
+  "ajourneybeyond-aledar-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-58", "stream": true}]
+  },
+  "ajourneybeyond-lucio-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-lucio-29", "stream": true}]
+  },
+  "ajourneybeyond-aledar-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-59", "stream": true}]
+  },
+  "ajourneybeyond-aledar-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-60", "stream": true}]
+  },
+  "ajourneybeyond-aledar-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-61", "stream": true}]
+  },
+  "ajourneybeyond-aledar-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-62", "stream": true}]
+  },
+  "ajourneybeyond-aledar-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-63", "stream": true}]
+  },
+  "ajourneybeyond-aledar-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-64", "stream": true}]
+  },
+  "ajourneybeyond-aledar-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-65", "stream": true}]
+  },
+  "ajourneybeyond-aledar-66": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-66", "stream": true}]
+  },
+  "ajourneybeyond-aledar-67": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-67", "stream": true}]
+  },
+  "ajourneybeyond-aledar-68": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-68", "stream": true}]
+  },
+  "ajourneybeyond-aledar-69": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-69", "stream": true}]
+  },
+  "ajourneybeyond-aledar-70": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-70", "stream": true}]
+  },
+  "ajourneybeyond-aledar-71": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-71", "stream": true}]
+  },
+  "ajourneybeyond-aledar-72": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-72", "stream": true}]
+  },
+  "ajourneybeyond-aledar-73": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-73", "stream": true}]
+  },
+  "ajourneybeyond-aledar-74": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-74", "stream": true}]
+  },
+  "ajourneybeyond-aledar-75": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-75", "stream": true}]
+  },
+  "ajourneybeyond-aledar-76": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-76", "stream": true}]
+  },
+  "ajourneybeyond-aledar-77": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-77", "stream": true}]
+  },
+  "ajourneybeyond-aledar-78": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-78", "stream": true}]
+  },
+  "ajourneybeyond-aledar-79": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-79", "stream": true}]
+  },
+  "ajourneybeyond-aledar-80": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-80", "stream": true}]
+  },
+  "ajourneybeyond-aledar-81": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-81", "stream": true}]
+  },
+  "ajourneybeyond-aledar-82": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-82", "stream": true}]
+  },
+  "ajourneybeyond-aledar-83": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-83", "stream": true}]
+  },
+  "ajourneybeyond-aledar-84": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-84", "stream": true}]
+  },
+  "ajourneybeyond-aledar-85": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-85", "stream": true}]
+  },
+  "ajourneybeyond-aledar-86": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-86", "stream": true}]
+  },
+  "ajourneybeyond-aledar-87": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-87", "stream": true}]
+  },
+  "ajourneybeyond-aledar-88": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-88", "stream": true}]
+  },
+  "ajourneybeyond-aledar-89": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-89", "stream": true}]
+  },
+  "ajourneybeyond-aledar-90": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-90", "stream": true}]
+  },
+  "ajourneybeyond-aledar-91": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-91", "stream": true}]
+  },
+  "ajourneybeyond-aledar-92": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-92", "stream": true}]
+  },
+  "ajourneybeyond-aledar-93": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-93", "stream": true}]
+  },
+  "ajourneybeyond-aledar-94": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-94", "stream": true}]
+  },
+  "ajourneybeyond-aledar-95": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-95", "stream": true}]
+  },
+  "ajourneybeyond-aledar-96": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-96", "stream": true}]
+  },
+  "ajourneybeyond-aledar-97": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneybeyond-aledar-97", "stream": true}]
+  },
+
+
+
+
+
   "talkingmushroomqirahive": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomqirahive", "stream": true}]
