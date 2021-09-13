@@ -130,7 +130,7 @@ public class SoundsHandler {
         addSound("[1/2] Fredris: Oh you are done with whatever you were doing? I heard you ran around the whole place, I don't know if you were the right person to ask for help...", "underice-fredris-2", false);
         addSound("[1/2] Fredris: What is this thing supposed to be? You know, I would really appreciate your help, but this [Breathing Helmet I] does not look like it's going to keep you protected.", "underice-fredris-3", false);
 
-        //misadventureonthesea
+        //Misadventure on the sea
         addSound("[1/8] Barman: Hello there soldier! What can I get you?", "misadventureonthesea-barman-1", false);
         addSound("[2/8] Honip: I'll take 2 Nemract Whiskeys. One for me, one for this chap.", "misadventureonthesea-honip-1", false);
         addSound("[3/8] Barman: You got it.", "misadventureonthesea-barman-2", false);
@@ -211,6 +211,9 @@ public class SoundsHandler {
         addSound("[5/5] Seth: Wait a minute.", "misadventureonthesea-seth-4", true);
         addSound("[1/1] Seaskipper Captain: 'ey there soldier! Looks like ya're in a bit of a pickle! How 'bout ya hop on?'", "misadventureonthesea-seaskippercaptain-1", true);
         addSound("[1/7] Seaskipper Captain: Well... We're headed for Selchar, the heart of the ocean! Which is safer than wherever you were, heh!", "misadventureonthesea-seaskippercaptain-2", true);
+        addSound("[1/1] Honip: Soldier, now's your time to shine! Scare it off with one of your spells or somethin'!", "misadventureonthesea-honip-69", true);
+        addSound("[1/1] Honip: It's working! Do that again!", "misadventureonthesea-honip-70", true);
+        addSound("[1/1] Honip: One more...", "misadventureonthesea-honip-71", true);
 
         //Maltics Well
         addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwellrysend1", false);
