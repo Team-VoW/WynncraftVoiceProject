@@ -9110,6 +9110,35 @@
   },
 
 
+
+  "junglefever-worid-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-1", "stream": true}]
+  },
+  "junglefever-thebanker-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-thebanker-1", "stream": true}]
+  },
+  "junglefever-worid-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-2", "stream": true}]
+  },
+  "junglefever-worid-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-3", "stream": true}]
+  },
+  "junglefever-thebanker-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-thebanker-2", "stream": true}]
+  },
+  "junglefever-worid-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-4", "stream": true}]
+  },
+
+
+
+
   "talkingmushroomqirahive": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomqirahive", "stream": true}]
