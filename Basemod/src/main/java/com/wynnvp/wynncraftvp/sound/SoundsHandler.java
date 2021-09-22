@@ -1135,10 +1135,10 @@ public class SoundsHandler {
         addSound("[1/9] Tolem: Oh, this is such a mess! And my axe is busted, too...how am I going to get this fixed?!", "theshadowofthebeast-tolem-1", false);
         addSound("[1/11] Tolem: Oh, back already? I haven't even finished my stuff, where are the cows?", "theshadowofthebeast-tolem-2", false);
         addSound("[1/4] Tolem: Oh lovely. Idiot's back! Joy of joys. Willow planks, please.", "theshadowofthebeast-tolem-3", false);
-        addSound("[1/1] Kroac: Oh, I'll never be able to fix this with my back in this state...", "theshadowofthebeast-kroac-1", false);
+        addSound("[1/1] Kroac: Oh, I'll never be able to fix this with my back in this state...", "theshadowofthebeast-kroac-1", true);
         addSound("[1/6] Kroac: Oh, look at this...all my years of carpentry and my bad back does my poor house in.", "theshadowofthebeast-kroac-2", false);
         addSound("[1/5] Kroac: Did you get enough cobblestone? I found a guy down the street selling this top-quality Willow...", "theshadowofthebeast-kroac-3", false);
-        addSound("[1/3] Kroac: That'll do just fine, kind soldier! You're a lifesaver, really, you are.", "theshadowofthebeast-kroac-4", false);
+        addSound("[1/3] Kroac: That'll do just fine, kind soldier! You're a lifesaver, really, you are.", "theshadowofthebeast-kroac-4", true);
         addSound("[1/2] Rileen: EVERYONE, MOVE! THE BEAST IS ON A RAMPAGE!", "theshadowofthebeast-rileen-1", false);
         addSound("[2/2] Rileen: Aah, no! There were people in that house!", "theshadowofthebeast-rileen-2", false);
         addSound("[1/7] Rileen: Wah! H-Human! Get away, there's nothing you can help with here!", "theshadowofthebeast-rileen-3", false);
@@ -2083,6 +2083,54 @@ public class SoundsHandler {
         addSound("[7/9] Corkus Delegate: Don't listen to Maxie. Enjoy your stay.", "theenvoypart1-corkusdelegate-24", false);
         addSound("[8/9] Maxie: They won't admit anything with you around. They want to become allies with Wynn.", "theenvoypart1-maxie-39", false);
         addSound("[9/9] Maxie: Come to my house when you reach level 89, here's a key so you get in. We must prepare to break into the factory.", "theenvoypart1-maxie-40", false);
+
+        //The Envoy Part 2
+        addSound("[1/2] Security Bot N4T17: No access without a key.", "theenvoypart2-securitybotn4t17-1", false);
+        addSound("[2/2] Security Bot N4T17: Key valid. Welcome.", "theenvoypart2-securitybotn4t17-2", false);
+        addSound("[1/1] Security Bot N4T17: Welcome inside...", "theenvoypart2-securitybotn4t17-3", false);
+        addSound("[1/7] Maxie: Mo'in, soldier! I've been researching everything I can about the factory.", "theenvoypart2-maxie-1", false);
+        addSound("[1/7] Maxie: I knew it! There was something here we could use!", "theenvoypart2-maxie-2", false);
+        addSound("[2/7] Maxie: I'll have to use electromagic to make it launch, so you'll have to go alone.", "theenvoypart2-maxie-3", false);
+        addSound("[3/7] Maxie: Find the Avos chief. Ask for the factory key.", "theenvoypart2-maxie-4", false);
+        addSound("[4/7] Maxie: Alright, hop on.", "theenvoypart2-maxie-5", false);
+        addSound("[5/7] Maxie: Press the button when you're ready.", "theenvoypart2-maxie-6", false);
+        addSound("[6/7] Maxie: Off you go!", "theenvoypart2-maxie-7", true);
+        addSound("[7/7] Maxie: Grook feathers! Not again...", "theenvoypart2-maxie-8", true);
+        addSound("[1/4] Avos Shaman: Hmm, no gears or goggles... You are no Corkian Human.", "theenvoypart2-avosshaman-1", false);
+        addSound("[1/6] Chief Avos: Mo'in, soldier. I have been expecting you. ", "theenvoypart2-chiefavos-1", false);
+        addSound("[1/5] Grandmaster Shaman: Eh, It's the warrior. I have my orders, but still say this is a bad idea.", "theenvoypart2-grandmastershaman-1", false);
+        addSound("[1/3] Grandmaster Shaman: I'll make the bridge for you.", "theenvoypart2-grandmastershaman-2", true);
+        addSound("[2/3] Grandmaster Shaman: I don't see why we're helping humans...", "theenvoypart2-grandmastershaman-3", true);
+        addSound("[3/3] Grandmaster Shaman: You all act the same to me. Anyway, there you go.", "theenvoypart2-grandmastershaman-4", true);
+        addSound("[1/1] Key Temple Dragon: You cannot have the key. Prepare for destruction.", "theenvoypart2-keytempledragon-1", true);
+        addSound("[1/5] Maxie: You're back, and you have the key!", "theenvoypart2-maxie-9", false);
+        addSound("[1/2] Corkus Guard: Something has happened in the vault.", "theenvoypart2-corkusguard-1", false);
+        addSound("[1/5] Corkus Delegate: Mo'in...", "theenvoypart2-corkusdelegate-1", true);
+        addSound("[2/5] Bertil: Uh- No need to worry! We accidentally...", "theenvoypart2-bertil-1", true);
+        addSound("[3/5] Reiva: Blew a hole in the wall! Yep!", "theenvoypart2-reiva-1", true);
+        addSound("[4/5] Corkus Delegate: Stop. Maxie, was right. I'm sorry. Mech X pierced the vault like it was nothing and took the key.", "theenvoypart2-corkusdelegate-2", true);
+        addSound("[5/5] Corkus Delegate: The mechs w ere covered in farm produce for some reason and left a convenient trail. If you are serious about fighting the factory, follow it. ", "theenvoypart2-corkusdelegate-3", true);
+        addSound("[1/1] Maxie: Psst! Over here, in the field! ", "theenvoypart2-maxie-10", true);
+        addSound("[1/14] Maxie: Mo'in. See that guy up there? He hasn't moved an inch since I got here.", "theenvoypart2-maxie-11", true);
+        addSound("[2/14] Maxie: ...I don't think he's actually a farmer. Follow me.", "theenvoypart2-maxie-12", true);
+        addSound("[3/14] Farmer: HELLO... I AM A... HUMAN... FARMER.", "theenvoypart2-farmer-1", true);
+        addSound("[4/14] Farmer: DO YOU... HAVE... ANY BUSINESS... WITH ME?", "theenvoypart2-farmer-2", true);
+        addSound("[5/14] Maxie: Nice try, mech! Not convincing enough for me!", "theenvoypart2-maxie-13", true);
+        addSound("[6/14] S-63 Mech: REPORT... COVER HAS BEEN COMPROMISED... TWO UNAUTHORIZED INTRUDERS... OUTSIDE OF BASE", "theenvoypart2-s-63mech-1", true);
+        addSound("[7/14] S-63 Mech: NEW OBJECTIVE... EXTERMINATE-", "theenvoypart2-s-63mech-2", true);
+        addSound("[8/14] Maxie: Oh no you DON'T!", "theenvoypart2-maxie-14", true);
+        addSound("[9/14] Maxie: That model was a S-63... It's warned the others. Let's go.", "theenvoypart2-maxie-15", true);
+        addSound("[10/14] Maxie: See? We're locked out now.", "theenvoypart2-maxie-16", true);
+        addSound("[11/14] Maxie: Stand back, I'll open the door.", "theenvoypart2-maxie-17", true);
+        addSound("[12/14] Maxie: I think we can safely assume this is the right place.", "theenvoypart2-maxie-18", true);
+        addSound("[13/14] Maxie: You storm in and find what we need. I'll cover you from out here.", "theenvoypart2-maxie-19", true);
+        addSound("[14/14] Maxie: You need to find and destroy that new factory mech.", "theenvoypart2-maxie-20", true);
+        addSound("[1/1] Mech X: INTRUDER DETECTED. DESTROY.", "theenvoypart2-mechx-1", true);
+        addSound("[1/1] Mech X: Corkus has to suffer... They shut down the Factory, locked us up in there. Once we have both keys we can open it and you are NOT getting this one. ", "theenvoypart2-mechx-2", true);
+        addSound("[1/3] Maxie: Mo'in. Did you get the key?", "theenvoypart2-maxie-21", true);
+        addSound("[2/3] Maxie: You did?! Great! Now we need to meet at the factory. The real hard part begins.", "theenvoypart2-maxie-22", true);
+        addSound("[3/3] Maxie: Follow the northwestern road and enter the factory from the west side. I will meet you there.", "theenvoypart2-maxie-23", true);
+        addSound("[1/6] Maxie: Mo'in. Are you sure you are ready?", "theenvoypart2-maxie-24", false);
 
         //Canyon Condor
         addSound("[1/9] Svin: I am one of the Keepers in the great Temple of Legends. There we hoard secrets about the world.", "canyoncondor-svin-1", false);
