@@ -2085,17 +2085,17 @@ public class SoundsHandler {
         addSound("[9/9] Maxie: Come to my house when you reach level 89, here's a key so you get in. We must prepare to break into the factory.", "theenvoypart1-maxie-40", false);
 
         //The Envoy Part 2
-        addSound("[1/2] Security Bot N4T17: No access without a key.", "theenvoypart2-securitybotn4t17-1", false);
-        addSound("[2/2] Security Bot N4T17: Key valid. Welcome.", "theenvoypart2-securitybotn4t17-2", false);
+        addSound("1/3securitybotn4t17noaccesswithoutakey", "theenvoypart2-securitybotn4t17-1", false);
+        addSound("3/3securitybotn4t17keyvalidwelcome", "theenvoypart2-securitybotn4t17-2", false);
         addSound("[1/1] Security Bot N4T17: Welcome inside...", "theenvoypart2-securitybotn4t17-3", false);
         addSound("[1/7] Maxie: Mo'in, soldier! I've been researching everything I can about the factory.", "theenvoypart2-maxie-1", false);
         addSound("[1/7] Maxie: I knew it! There was something here we could use!", "theenvoypart2-maxie-2", false);
         addSound("[2/7] Maxie: I'll have to use electromagic to make it launch, so you'll have to go alone.", "theenvoypart2-maxie-3", false);
         addSound("[3/7] Maxie: Find the Avos chief. Ask for the factory key.", "theenvoypart2-maxie-4", false);
         addSound("[4/7] Maxie: Alright, hop on.", "theenvoypart2-maxie-5", false);
-        addSound("[5/7] Maxie: Press the button when you're ready.", "theenvoypart2-maxie-6", false);
-        addSound("[6/7] Maxie: Off you go!", "theenvoypart2-maxie-7", true);
-        addSound("[7/7] Maxie: Grook feathers! Not again...", "theenvoypart2-maxie-8", true);
+        addSound("[5/5] Maxie: Press the button when you're ready", "theenvoypart2-maxie-6", false);
+        addSound("[1/2] Maxie: Off you go!", "theenvoypart2-maxie-7", true);
+        addSound("[2/2] Maxie: Grook feathers! Not again...", "theenvoypart2-maxie-8", true);
         addSound("[1/4] Avos Shaman: Hmm, no gears or goggles... You are no Corkian Human.", "theenvoypart2-avosshaman-1", false);
         addSound("[1/6] Chief Avos: Mo'in, soldier. I have been expecting you. ", "theenvoypart2-chiefavos-1", false);
         addSound("[1/5] Grandmaster Shaman: Eh, It's the warrior. I have my orders, but still say this is a bad idea.", "theenvoypart2-grandmastershaman-1", false);
@@ -2109,13 +2109,13 @@ public class SoundsHandler {
         addSound("[2/5] Bertil: Uh- No need to worry! We accidentally...", "theenvoypart2-bertil-1", true);
         addSound("[3/5] Reiva: Blew a hole in the wall! Yep!", "theenvoypart2-reiva-1", true);
         addSound("[4/5] Corkus Delegate: Stop. Maxie, was right. I'm sorry. Mech X pierced the vault like it was nothing and took the key.", "theenvoypart2-corkusdelegate-2", true);
-        addSound("[5/5] Corkus Delegate: The mechs w ere covered in farm produce for some reason and left a convenient trail. If you are serious about fighting the factory, follow it. ", "theenvoypart2-corkusdelegate-3", true);
+        addSound("[5/5] Corkus Delegate: The mechs were covered in farm produce for some reason and left a convenient trail. If you are serious about fighting the factory, follow the trail.", "theenvoypart2-corkusdelegate-3", true);
         addSound("[1/1] Maxie: Psst! Over here, in the field! ", "theenvoypart2-maxie-10", true);
         addSound("[1/14] Maxie: Mo'in. See that guy up there? He hasn't moved an inch since I got here.", "theenvoypart2-maxie-11", true);
         addSound("[2/14] Maxie: ...I don't think he's actually a farmer. Follow me.", "theenvoypart2-maxie-12", true);
         addSound("[3/14] Farmer: HELLO... I AM A... HUMAN... FARMER.", "theenvoypart2-farmer-1", true);
         addSound("[4/14] Farmer: DO YOU... HAVE... ANY BUSINESS... WITH ME?", "theenvoypart2-farmer-2", true);
-        addSound("[5/14] Maxie: Nice try, mech! Not convincing enough for me!", "theenvoypart2-maxie-13", true);
+        addSound("[5/14] Maxie: Nice try, mech!", "theenvoypart2-maxie-13", true);
         addSound("[6/14] S-63 Mech: REPORT... COVER HAS BEEN COMPROMISED... TWO UNAUTHORIZED INTRUDERS... OUTSIDE OF BASE", "theenvoypart2-s-63mech-1", true);
         addSound("[7/14] S-63 Mech: NEW OBJECTIVE... EXTERMINATE-", "theenvoypart2-s-63mech-2", true);
         addSound("[8/14] Maxie: Oh no you DON'T!", "theenvoypart2-maxie-14", true);
@@ -2148,6 +2148,21 @@ public class SoundsHandler {
         addSound("[1/1] Farmer Cevalus: Hurry and enable the sprinklers with the button near the farm's entrance before it can do any more damage!", "poisoningthepest-farmercevalus-5", true);
         addSound("[1/2] Farmer Cevalus: Just one more to kill.", "poisoningthepest-farmercevalus-6", true);
         addSound("[2/2] Farmer Cevalus: Well done! Come back to me for a reward.", "poisoningthepest-farmercevalus-7", true);
+
+        //Crop Failure
+        addSound("[1/7] Anast: Grr...that no-good, lying, cheating, thieving...graaah!", "cropfailure-anast-1", false);
+        addSound("[1/9] Anast: See? What'd I tell ya? Rotten to the roots! Nothing here is ANY good!! ", "cropfailure-anast-2", false);
+        addSound("[2/9] Anast: They were growing pretty slow this year, all my crops, and then some salesman wanders into town with a \"MiracleCure\" fertilizer.", "cropfailure-anast-3", false);
+        addSound("[3/9] Anast: I shoulda known it was too good to be true, but he said everyone else tried it too, so I bought some and tried to salvage this mess.", "cropfailure-anast-4", false);
+        addSound("[4/9] Anast: And here we are- me out half my savings and my fields as smelly and dead as an actual CORPSE!", "cropfailure-anast-5", false);
+        addSound("[5/9] Anast: Just to prove that ridiculous phony Doubiss is a fraud- Here. I see some roots over here. Watch this, and you tell me if this is a \"miracle!\"", "cropfailure-anast-6", false);
+        addSound("[6/9] Anast: Here we go, here comes the big phenomenal growth that he promised me!", "cropfailure-anast-7", false);
+        addSound("[7/9] Anast: WOW, INCREDIBLE! AMAZING! It's almost like this is actual poison or something!!", "cropfailure-anast-8", false);
+        addSound("[8/9] Anast: That Doubiss won't budge for my refund. I spent...so many emeralds...on this tripe! So that's where YOU come in.", "cropfailure-anast-9", false);
+        addSound("[9/9] Anast: He's in the blue and gray tent by the bank. I don't care how you do it, but get my money back and we'll split it half-and-half, deal? {explaining}", "cropfailure-anast-10", false);
+        addSound("[1/10] Doubiss: Good day to ya! What is it ye be needin' from ol' Doubiss' stock? ", "cropfailure-doubiss-1", false);
+        addSound("[1/5] Doubiss: Oi, bucko! Took my advice, eh? I figured I'd join ye, 'n see fer myself what was goin' on.", "cropfailure-doubiss-2", false);
+        addSound("[1/8] Anast: Pyyyyeww! Yeesh, kid! You smell worse than a pig's sty! What the heck happened to you, where've you been?!", "cropfailure-anast-11", false);
 
         //Stable Story
         addSound("[1/9] Enkser: Looking for able-bodied adventurers! Preferably with no friends or family, but I'm not picky!", "stablestory-enkser-1", false);

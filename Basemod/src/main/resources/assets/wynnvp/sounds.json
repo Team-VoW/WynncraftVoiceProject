@@ -4144,6 +4144,61 @@
   },
 
 
+
+  "cropfailure-anast-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-1", "stream": true}]
+  },
+  "cropfailure-anast-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-2", "stream": true}]
+  },
+  "cropfailure-anast-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-3", "stream": true}]
+  },
+  "cropfailure-anast-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-4", "stream": true}]
+  },
+  "cropfailure-anast-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-5", "stream": true}]
+  },
+  "cropfailure-anast-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-6", "stream": true}]
+  },
+  "cropfailure-anast-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-7", "stream": true}]
+  },
+  "cropfailure-anast-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-8", "stream": true}]
+  },
+  "cropfailure-anast-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-9", "stream": true}]
+  },
+  "cropfailure-anast-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-10", "stream": true}]
+  },
+  "cropfailure-doubiss-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-1", "stream": true}]
+  },
+  "cropfailure-doubiss-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-2", "stream": true}]
+  },
+  "cropfailure-anast-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-11", "stream": true}]
+  },
+
+
   "stablestory-enkser-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:stablestory-enkser-1", "stream": true}]
