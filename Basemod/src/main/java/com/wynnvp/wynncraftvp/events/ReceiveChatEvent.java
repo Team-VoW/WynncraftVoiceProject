@@ -26,7 +26,6 @@ public class ReceiveChatEvent {
         }
         msg = SoundsHandler.formatToSound(msg);
         if (isInMixedFeelingsQuest()) {
-            System.out.println("Is in mixed feelings quest");
             String result = getMixedFeelingsLine(msg);
             if (result != null) {
                 System.out.println("Overriding input message");
@@ -48,13 +47,10 @@ public class ReceiveChatEvent {
 
         if (player.getDistance(mixedFeelingsNPC1.x, mixedFeelingsNPC1.y, mixedFeelingsNPC1.z) < 15) {
             msg = GetRightMixedFeelingsLine("mixedfeelingscorkuscitycitizen1", msg);
-            System.out.println("Talking to npc 1");
         } else if (player.getDistance(mixedFeelingsNPC2.x, mixedFeelingsNPC2.y, mixedFeelingsNPC2.z) < 15) {
             msg = GetRightMixedFeelingsLine("mixedfeelingscorkuscitycitizen2", msg);
-            System.out.println("Talking to npc 2");
         } else if (player.getDistance(mixedFeelingsNPC3.x, mixedFeelingsNPC3.y, mixedFeelingsNPC3.z) < 15) {
             msg = GetRightMixedFeelingsLine("mixedfeelingscorkuscitycitizen3", msg);
-            System.out.println("Talking to npc 3");
         }
 
         return msg;
@@ -75,7 +71,6 @@ public class ReceiveChatEvent {
         if (!foundMsg) return null;
 
 
-        System.out.println("Found Mixed feelings message. Returning: " + fileName);
         return fileName;
 
 
