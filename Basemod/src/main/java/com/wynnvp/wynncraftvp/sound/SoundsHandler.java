@@ -232,10 +232,12 @@ public class SoundsHandler {
         addSound("[1/6] Corkus City Citizen: The whole aqueduct is ruined! The city's fresh water is just draining into the ocean...", "mixedfeelings-corkuscitycitizen-1", false);
         addSound("[1/1] Corkus City Citizen: Hurry, please! Just head into the big trapdoor by the bushes, the controls are in there.", "mixedfeelings-corkuscitycitizen-2", false);
         addSound("[1/5] Corkus City Citizen: You fixed it? Everything you broke? That's one hell of a twisted personality.", "mixedfeelings-corkuscitycitizen-3", false);
-        addSound("[1/5] Corkus City Citizen: It's THEM! Someone call the authorities! It's the one who set my house on fire.", "mixedfeelings-corkuscitycitizen-4", false);
+        addSound("[1/6] Corkus City Citizen: It's THEM! Someone call the authorities! It's the one who set my house on fire.", "mixedfeelings-corkuscitycitizen-10", false);
         addSound("[1/5] Corkus City Citizen: You did it! So you weren't lying? Ugh, I guess you might just be trustworthy.", "mixedfeelings-corkuscitycitizen-5", false);
+        addSound("[1/6] Corkus City Citizen: You did it! So you weren't lying? Ugh, I guess you might just be trustworthy.", "mixedfeelings-corkuscitycitizen-9", false);
         addSound("[1/6] Corkus City Citizen: Came back to wreck the rest of my work have you? Why aren't you all insane looking?", "mixedfeelings-corkuscitycitizen-6", false);
         addSound("[1/6] Corkus City Citizen: You did it? ... -I mean, at last. Eh... I guess I was too fast with my judgement for once.", "mixedfeelings-corkuscitycitizen-7", false);
+        addSound("[1/5] Corkus City Citizen: You did it? ... -I mean, at last. Eh... I guess I was too fast with my judgement for once.", "mixedfeelings-corkuscitycitizen-8", false );
         addSound("[1/3] Rensa: Why are you here? I don't mean here and now, I mean why are you on our island?--", "mixedfeelings-rensa-3", true);
         addSound("[1/6] Rensa: You... Look at yourself. You fight in a war you did not cause. You come from a land you don't even remember.", "mixedfeelings-rensa-4", false);
         addSound("[2/6] Rensa: We ask ourselves why would we invite people from two lands of sin. Invite a nation of warring travellers and a nation of greedy merchants to our doors?", "mixedfeelings-rensa-5", false);
@@ -246,6 +248,16 @@ public class SoundsHandler {
         addSound("1/12rensatougherthaniexpectedyoudontmindifiinterfereabitdoyou?", "mixedfeelings-rensa-10", false);
         addSound("[1/6] Rensa: Hmph.", "mixedfeelings-rensa-11", false);
         addSound("[1/5] Javen: Now look who we got over 'ere! We were all wondering if you'd ever wake up.", "mixedfeelings-javen-4", false);
+        addSound("mixedfeelingscorkuscitycitizen11", "mixedfeelings-corkuscitycitizen-1-1", false);
+        addSound("mixedfeelingscorkuscitycitizen12", "mixedfeelings-corkuscitycitizen-1-2", false);
+        addSound("mixedfeelingscorkuscitycitizen13", "mixedfeelings-corkuscitycitizen-1-3", false);
+        addSound("mixedfeelingscorkuscitycitizen21", "mixedfeelings-corkuscitycitizen-2-1", false);
+        addSound("mixedfeelingscorkuscitycitizen22", "mixedfeelings-corkuscitycitizen-2-2", false);
+        addSound("mixedfeelingscorkuscitycitizen23", "mixedfeelings-corkuscitycitizen-2-3", false);
+        addSound("mixedfeelingscorkuscitycitizen31", "mixedfeelings-corkuscitycitizen-3-1", false);
+        addSound("mixedfeelingscorkuscitycitizen32", "mixedfeelings-corkuscitycitizen-3-2", false);
+        addSound("mixedfeelingscorkuscitycitizen33", "mixedfeelings-corkuscitycitizen-3-3", false);
+
 
 
         //Grave Digger
@@ -2015,24 +2027,24 @@ public class SoundsHandler {
         addSound("[1/3] C.S.S Wavebreaker Captain: Welcome welcome to C.S.S Wavebreaker!", "theenvoypart1-c.s.swavebreakercaptain-1", false);
         addSound("[1/5] C.S.S Wavebreaker Captain: Welcam aboard me ship, I'll bring ye directly to Corkus.", "theenvoypart1-c.s.swavebreakercaptain-2", false);
         addSound("[1/20] Corkus Delegate: It's such an honour to have a Wynn soldier visit our island.", "theenvoypart1-corkusdelegate-1", false);
-        addSound("[2/20] Corkus Delegate: We were hoping for a true envoy, but you will do.", "theenvoypart1-corkusdelegate-2", false);
-        addSound("[3/20] Corkus Delegate: If you follow me, I'll give you a tour of the city.", "theenvoypart1-corkusdelegate-3", false);
-        addSound("[4/20] Corkus Delegate: We first arrived on Corkus 350 years ago.", "theenvoypart1-corkusdelegate-4", false);
-        addSound("[5/20] Corkus Delegate: The Corkians, like you, are from Fruma originally...", "theenvoypart1-corkusdelegate-5", false);
-        addSound("[6/20] Corkus Delegate: ...But let's not talk about that.", "theenvoypart1-corkusdelegate-6", false);
-        addSound("[7/20] Corkus Delegate: Coming from Fruma, we of course knew no magic at all.", "theenvoypart1-corkusdelegate-7", false);
-        addSound("[8/20] Corkus Delegate: We soon developed our own. The rare power of Electromagic.", "theenvoypart1-corkusdelegate-8", false);
-        addSound("[9/20] Corkus Delegate: It's a difficult modern branch of magic that allows us to create machines.", "theenvoypart1-corkusdelegate-9", false);
-        addSound("[10/20] Corkus Delegate: Ah, here already. Welcome to Corkus City, Capital of our island.", "theenvoypart1-corkusdelegate-10", false);
-        addSound("[11/20] Corkus Delegate: We've come a long way in a short time.", "theenvoypart1-corkusdelegate-11", false);
-        addSound("[12/20] Corkus Delegate: Let me point out where the shops are.", "theenvoypart1-corkusdelegate-12", false);
-        addSound("[13/20] Corkus Delegate: North, you can buy weapons and potions. If you continue through the gate you will find the native Avos.", "theenvoypart1-corkusdelegate-13", false);
-        addSound("[14/20] Corkus Delegate: West, you can buy armor, and there is another entrance to the potion shop.", "theenvoypart1-corkusdelegate-14", false);
-        addSound("[15/20] Corkus Delegate: To the south is our bank, powder shop, scrolls, and our exclusive powder exchange!", "theenvoypart1-corkusdelegate-15", false);
-        addSound("[16/20] Corkus Delegate: Oh! And speaking of the powder exchange, I'll start you off with some of these.", "theenvoypart1-corkusdelegate-16", false);
-        addSound("[17/20] Corkus Delegate: Moving on... The south gate leads to Relos. On your way there, you might pass by the-", "theenvoypart1-corkusdelegate-17", false);
-        addSound("[18/20] Corkus Delegate: Uhm, nevermind. In fact, we have a gift for you.", "theenvoypart1-corkusdelegate-18", false);
-        addSound("[19/20] Corkus Delegate: The Five Gears Diner is hosting any guests of the island.", "theenvoypart1-corkusdelegate-19", false);
+        addSound("[2/20] Corkus Delegate: We were hoping for a true envoy, but you will do.", "theenvoypart1-corkusdelegate-2", true);
+        addSound("[3/20] Corkus Delegate: If you follow me, I'll give you a tour of the city.", "theenvoypart1-corkusdelegate-3", true);
+        addSound("[4/20] Corkus Delegate: We first arrived on Corkus 350 years ago.", "theenvoypart1-corkusdelegate-4", true);
+        addSound("[5/20] Corkus Delegate: The Corkians, like you, are from Fruma originally...", "theenvoypart1-corkusdelegate-5", true);
+        addSound("[6/20] Corkus Delegate: ...But let's not talk about that.", "theenvoypart1-corkusdelegate-6", true);
+        addSound("[7/20] Corkus Delegate: Coming from Fruma, we of course knew no magic at all.", "theenvoypart1-corkusdelegate-7", true);
+        addSound("[8/20] Corkus Delegate: We soon developed our own. The rare power of Electromagic.", "theenvoypart1-corkusdelegate-8", true);
+        addSound("[9/20] Corkus Delegate: It's a difficult modern branch of magic that allows us to create machines.", "theenvoypart1-corkusdelegate-9", true);
+        addSound("[10/20] Corkus Delegate: Ah, here already. Welcome to Corkus City, Capital of our island.", "theenvoypart1-corkusdelegate-10", true);
+        addSound("[11/20] Corkus Delegate: We've come a long way in a short time.", "theenvoypart1-corkusdelegate-11", true);
+        addSound("[12/20] Corkus Delegate: Let me point out where the shops are.", "theenvoypart1-corkusdelegate-12", true);
+        addSound("[13/20] Corkus Delegate: North, you can buy weapons and potions. If you continue through the gate you will find the native Avos.", "theenvoypart1-corkusdelegate-13", true);
+        addSound("[14/20] Corkus Delegate: West, you can buy armor, and there is another entrance to the potion shop.", "theenvoypart1-corkusdelegate-14", true);
+        addSound("[15/20] Corkus Delegate: To the south is our bank, powder shop, scrolls, and our exclusive powder exchange!", "theenvoypart1-corkusdelegate-15", true);
+        addSound("[16/20] Corkus Delegate: Oh! And speaking of the powder exchange, I'll start you off with some of these.", "theenvoypart1-corkusdelegate-16", true);
+        addSound("[17/20] Corkus Delegate: Moving on... The south gate leads to Relos. On your way there, you might pass by the-", "theenvoypart1-corkusdelegate-17", true);
+        addSound("[18/20] Corkus Delegate: Uhm, nevermind. In fact, we have a gift for you.", "theenvoypart1-corkusdelegate-18", true);
+        addSound("[19/20] Corkus Delegate: The Five Gears Diner is hosting any guests of the island.", "theenvoypart1-corkusdelegate-19", true);
         addSound("[20/20] Corkus Delegate: Go through the western gate and head to the diner for your free feast. Enjoy!", "theenvoypart1-corkusdelegate-20", false);
         addSound("[1/2] Corkus Citizen: RUN!", "theenvoypart1-corkuscitizen-1", false);
         addSound("[2/2] Corkus Citizen: Mechs at the Diner! Run!", "theenvoypart1-corkuscitizen-2", false);

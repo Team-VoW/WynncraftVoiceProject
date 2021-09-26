@@ -8280,6 +8280,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-7", "stream": true}]
   },
+  "mixedfeelings-corkuscitycitizen-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-8", "stream": true}]
+  },
   "mixedfeelings-rensa-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-3", "stream": true}]
@@ -8319,6 +8323,42 @@
   "mixedfeelings-javen-4": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mixedfeelings-javen-4", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-1-1", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-1-2", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-1-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-1-3", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-2-1", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-2-2", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-2-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-2-3", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-3-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-3-1", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-3-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-3-2", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-3-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-3-3", "stream": true}]
   },
 
 
