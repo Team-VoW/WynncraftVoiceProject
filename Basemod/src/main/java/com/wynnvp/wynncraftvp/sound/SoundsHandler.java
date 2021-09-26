@@ -1338,7 +1338,7 @@ public class SoundsHandler {
         addSound("[3/6] ???: Light... Dark... We oppose. I am light. It is dark. Our places reflect this land...and it is plain- The sun is setting. Light is fading ", "rol2taproot-orphion-18", true);
         addSound("[4/6] ???: The land you visit warps with the slow siphoning of my light, my blood. It becomes outlandish and strange-Oppressive and alien. ", "rol2taproot-orphion-19", true);
         addSound("[5/6] ???: As dusk approaches- As darkness spreads- My heart slows and stops. My pulse, you are needed. You shall be as one with me, and you shall see ", "rol2taproot-orphion-20", true);
-        addSound("[6/6] ???: The Realm of Light needs life anew- A new pulse. It needs you.", "rol2taproot-orphion-21", true);
+        addSound("[6/6] ???: The Realm of Light needs life anew- A new p ulse. It needs you.", "rol2taproot-orphion-21", true);
         addSound("[1/3] ???: Our light is synchronous! You may see what I must have you see... ", "rol2taproot-orphion-22", true);
         addSound("[2/3] ???: Follow the road. You must witness the reason behind my trial.", "rol2taproot-orphion-23", true);
         addSound("[3/3] ???: See my memories. The memories of the realm. See...and be enlightened. ", "rol2taproot-orphion-24", true);
