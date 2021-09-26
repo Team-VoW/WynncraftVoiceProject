@@ -75,10 +75,10 @@ public class SoundsHandler {
         addSound("[1/6] Talking Mushroom: \"WOW, WHAT EVEN IS THIS PLACE?? FEELS OMINOUS, LOOKS LAME, WHAT ARE WE DOING HERE? DROP ME OFF SOMEPLACE ELSE!\"", "talkingmushroomqirahive", false);
 
         //Creeper Infiltration
-        addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "thomas_creeperinfl_1", false);
-        addSound("[1/10] Thomas: I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion merchant to heal you?", "thomas_creeperinfl_2", false);
-        addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "thomas_creeperinfl_3", false);
-        addSound("[1/7] Thomas: So, what was in the cave? Were there really creepers in there?", "thomas_creeperinfl_4", false);
+        addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "creeperinfiltrationthomascreeperinfl1", false);
+        addSound("[1/10] Thomas: I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion merchant to heal you?", "creeperinfiltrationthomascreeperinfl2", false);
+        addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "creeperinfiltrationthomascreeperinfl3", false);
+        addSound("[1/7] Thomas: So, what was in the cave? Were there really creepers in there?", "creeperinfiltrationthomascreeperinfl4", false);
 
         //Fate of the Fallen
         addSound("[1/9] Telvu: Ah, a member of the Ragni army. We're trying to gain entry to this frozen barrow. We could use your aid.", "fateofthefallen-telvu-1", false);

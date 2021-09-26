@@ -395,19 +395,19 @@
 
 
 
-  "thomas_creeperinfl_1": {
+  "creeperinfiltrationthomascreeperinfl1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:creeperinfiltrationthomascreeperinfl1", "stream": true}]
   },
-  "thomas_creeperinfl_2": {
+  "creeperinfiltrationthomascreeperinfl2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:creeperinfiltrationthomascreeperinfl2", "stream": true}]
   },
-  "thomas_creeperinfli_3": {
+  "creeperinfiltrationthomascreeperinfl3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:creeperinfiltrationthomascreeperinfl31", "stream": true}]
+    "sounds": [{ "name": "wynnvp:creeperinfiltrationthomascreeperinfl3", "stream": true}]
   },
-  "thomas_creeperinfl_4": {
+  "creeperinfiltrationthomascreeperinfl4": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:creeperinfiltrationthomascreeperinfl4", "stream": true}]
   },
