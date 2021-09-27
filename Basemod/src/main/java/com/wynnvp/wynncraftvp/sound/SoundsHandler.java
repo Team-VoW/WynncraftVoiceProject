@@ -74,6 +74,83 @@ public class SoundsHandler {
         addSound("[1/3] Talking Mushroom: REALLY COOL CITY, HUH? BUILT UP ON THE CLIFFS, VERY STYLISH, IS THAT WHAT YOU'RE THINKING?", "talkingmushroomkandon", true);
         addSound("[1/6] Talking Mushroom: \"WOW, WHAT EVEN IS THIS PLACE?? FEELS OMINOUS, LOOKS LAME, WHAT ARE WE DOING HERE? DROP ME OFF SOMEPLACE ELSE!\"", "talkingmushroomqirahive", false);
 
+        //Sea skipper
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Nemract, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-1", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Rooster Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-2", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Bear Zoo Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-3", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Durum Isles, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-4", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Selchar, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-5", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Half Moon Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-6", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Mage Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-7", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Llevigar, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-8", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Ice Nations, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-9", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Nesaak, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-10", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Skiens Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-11", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Volcanic Isles, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-12", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Zhight Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-13", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Maro Peaks, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-14", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Galleon's Graveyard, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-15", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Pirate Cove, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-16", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Dead Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-17", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Jofash Dock, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-18", true);
+        addSound("[1/4] Seaskipper Captain: So, this is your first time ridin' the ol' Seaskipper, eh? It's okay if you're a wee bit seasick.", "seaskipper-seaskippercaptain-19", true);
+        addSound("[1/4] Seaskipper Captain: Did I ever tell you about how I fended off an entire pirate ship?", "seaskipper-seaskippercaptain-20", true);
+        addSound("[1/4] Seaskipper Captain: I've heard tales around Nemract's Bar, about one of the greatest treasure hunts of all time.", "seaskipper-seaskippercaptain-21", true);
+        addSound("[1/4] Seaskipper Captain: Seems like it's a long travel ahead. How about some fishin’ to kill time, hm? Never done it?", "seaskipper-seaskippercaptain-22", true);
+        addSound("[1/4] Seaskipper Captain: Sometimes, no matter where I am, I'll hear someone shoutin’ like they're right next to me.", "seaskipper-seaskippercaptain-23", true);
+        addSound("[1/4] Seaskipper Captain: I've been sailin' for years, I know every island in the sea like the back of my hand.", "seaskipper-seaskippercaptain-24", true);
+        addSound("[1/4] Seaskipper Captain: You'll never believe what I salvaged earlier today.", "seaskipper-seaskippercaptain-25", true);
+        addSound("[1/4] Seaskipper Captain: Tomatoes, check... Carrots, check... Did that box jus' move?", "seaskipper-seaskippercaptain-26", true);
+        addSound("[1/4] Seaskipper Captain: Did I ever tell you the story about how I got into the Seaskipper business in the first place?", "seaskipper-seaskippercaptain-27", true);
+        addSound("[1/4] Seaskipper Captain: I just got back from a trip to Nemract, and I gotta tell ya all about this crazy story I 'eard. ", "seaskipper-seaskippercaptain-28", true);
+        addSound("[1/4] Seaskipper Captain: Some people really don't like waitin' through these trips. I try and tell stories to pass the time.", "seaskipper-seaskippercaptain-29", true);
+        addSound("[1/4] Seaskipper Captain: One of my ol' mates in Selchar buys valuable ocean treasures. You could make a lot of emeralds off of 'im.", "seaskipper-seaskippercaptain-30", true);
+        addSound("[1/4] Seaskipper Captain: Ah, sorry 'bout the mess here! I don't get many clients, so keeping the ship clean isn't what I do.", "seaskipper-seaskippercaptain-31", true);
+        addSound("[1/4] Seaskipper Captain: Y'know, I rarely get a client who talks to me.", "seaskipper-seaskippercaptain-32", true);
+        addSound("[1/4] Seaskipper Captain: Did you ever 'ear about the Bear Zoo on that island? Almost no one has!", "seaskipper-seaskippercaptain-33", true);
+        addSound("[1/4] Seaskipper Captain: Fetch me some Nemract Whiskey, my throat is sore from all this talking and this accursed hot weather... hic!", "seaskipper-seaskippercaptain-34", true);
+        addSound("[1/4] Seaskipper Captain: Corkus is one of the most interestin' places I’ve ever sailed to. All those crazy machines are incredible..", "seaskipper-seaskippercaptain-35", true);
+        addSound("[1/4] Seaskipper Captain: Y'know, there's a sailor tale of a ghost ship swimmin' around the ocean. Many say it's fake, but I've seen with my own eyes!", "seaskipper-seaskippercaptain-36", true);
+        addSound("[1/4] Seaskipper Captain: I've 'ad the Ice Islands on my brain for a while now. I'll tell you all about them. ", "seaskipper-seaskippercaptain-37", true);
+        addSound("[1/4] Seaskipper Captain: Y'know, you look like someone who'd use my service more than once.", "seaskipper-seaskippercaptain-38", true);
+        addSound("[1/4] Seaskipper Captain: Hey, have you heard about Gavel's legendary hero, Siegfried?", "seaskipper-seaskippercaptain-39", true);
+        addSound("[1/4] Seaskipper Captain: You know, I'm surprised I've found someone willin' to listen to all of my stories. ", "seaskipper-seaskippercaptain-40", true);
+        addSound("[1/4] Seaskipper Captain: Have you ev'r heard the tale of the Troll Tower? It rests upon a small island, in a part of the sea where few travel. ", "seaskipper-seaskippercaptain-41", true);
+        addSound("[1/4] Seaskipper Captain: I've had a lot of passengers with a few screws loose, and today I'll tell ye the tale of the craziest of 'em all.", "seaskipper-seaskippercaptain-42", true);
+        addSound("[1/4] Seaskipper Captain: You ever heard of Sarnfic? It's an old, sunken city in the  ocean.", "seaskipper-seaskippercaptain-43", true);
+        addSound("[1/4] Seaskipper Captain: The locals over at Jofash are weird. One time I met a crazy captain who only spoke in rhymes.", "seaskipper-seaskippercaptain-44", true);
+        addSound("[1/4] Seaskipper Captain: There's a lot of stories about a mysterious island, called Gateway Island.", "seaskipper-seaskippercaptain-45", true);
+        addSound("[1/4] Seaskipper Captain: Have you ever been to the Legendary Island? Y'know, the island just southeast of Corkus?", "seaskipper-seaskippercaptain-46", true);
+        addSound("[1/4] Seaskipper Captain: Did I ever tell you how I got this key? You see, one day I was attacked by a pirate ship!", "seaskipper-seaskippercaptain-47", true);
+        addSound("[1/4] Seaskipper Captain: You ev'r notice how ev'ry identifier is hidin' a stash of potatoes?", "seaskipper-seaskippercaptain-48", true);
+        addSound("[1/4] Seaskipper Captain: Ah, I almost forgot! Take this Reset Scroll! I doubt that I'll ever need one.", "seaskipper-seaskippercaptain-49", true);
+        addSound("[1/4] Seaskipper Captain: Y'hear? One o' my old wizardy kind-o-friends needed a ride down to mage islan', and o' course I'd help 'im. I'm a sea cap'n, if ya didn' notice!", "seaskipper-seaskippercaptain-50", true);
+        addSound("[1/4] Seaskipper Captain: Let me tell ya, ol' Zhight is a real lunatic, and it seems to have rubbed off onto his neighbors.", "seaskipper-seaskippercaptain-51", true);
+        addSound("[1/4] Seaskipper Captain: Have you heard tales about Captain Redbeard? Back when I was young, he terrorized the seas!", "seaskipper-seaskippercaptain-52", true);
+        addSound("[1/4] Seaskipper Captain: Do ya 'member that time I rescued ya on a random island?", "seaskipper-seaskippercaptain-53", true);
+        addSound("[3/4] Seaskipper Captain: They seemed to be praisin' soldiers by kidnappin' more of them. Odd tactic, but I ain't one to judge.", "seaskipper-seaskippercaptain-54", true);
+        addSound("[3/4] Seaskipper Captain: I 'eard they're tryin' to train a chicken now. Fended off a huge beast or somethin'.", "seaskipper-seaskippercaptain-55", true);
+        addSound("[1/4] Seaskipper Captain: My love of the sea goes way back to my childhood. I grew up by the shores o' Gavel.", "seaskipper-seaskippercaptain-56", true);
+        addSound("[1/4] Seaskipper Captain: So, do you like me ship? I've had the ol' Seaskipper for years now!", "seaskipper-seaskippercaptain-57", true);
+        addSound("[1/4] Seaskipper Captain: Did ya know that Detlas and Selchar are sister cities?", "seaskipper-seaskippercaptain-58", true);
+        addSound("[1/4] Seaskipper Captain: Say, did I ever tell you about the dock I set up near Skien's island?", "seaskipper-seaskippercaptain-59", true);
+        addSound("[1/4] Seaskipper Captain: So, there's this other ship at Selchar that takes ya to the island of Corkus. C.S.S. Wavebreaker, they call it.", "seaskipper-seaskippercaptain-60", true);
+        addSound("[1/4] Seaskipper Captain: You ever heard of Regular Island? Well, that's what the people there are callin' it, anyways. Odd guys, those are.", "seaskipper-seaskippercaptain-61", true);
+        addSound("[1/4] Seaskipper Captain: Have you been to that big ol' gate just south of Corkus? It's a sight to behold, alright.", "seaskipper-seaskippercaptain-62", true);
+        addSound("[1/4] Seaskipper Captain: I've been thinking, one day I'm gonna be too old for this job.", "seaskipper-seaskippercaptain-63", true);
+        addSound("[1/4] Seaskipper Captain: Did I ever tell ya about the one time I met a renowned, but retired theater director in Llevigar?", "seaskipper-seaskippercaptain-64", true);
+        addSound("[1/4] Seaskipper Captain: I've heard tale of people who travel the mountain paths to get from Wynn to Gavel instead of goin' by boat.", "seaskipper-seaskippercaptain-65", true);
+        addSound("[1/4] Seaskipper Captain: Say, you ever been to Rodoroc? It's a huge dwarven city off in Gavel.", "seaskipper-seaskippercaptain-66", true);
+        addSound("[1/4] Seaskipper Captain: So, I noticed I've been getting less human customers recently. It's been worryin' me, I mean I'm not aware of ay competitors.", "seaskipper-seaskippercaptain-67", true);
+        addSound("[1/4] Seaskipper Captain: Just on my last stop, I was chattin' with an acquaintance of mine on Mage Island. He told me about what a terrifyin' monster you were about to take on in the Jungle.", "seaskipper-seaskippercaptain-68", true);
+        addSound("[1/4] Seaskipper Captain: Ye know, I saw you sailin' on that Corkian vessel some time back.", "seaskipper-seaskippercaptain-69", true);
+        addSound("[1/4] Seaskipper Captain: Ya know, recently I've been noticin' some strange trend where once in about every, say, year or so I get a sudden spike in payin' customers. And I ain't got the faintest clue of where they've all suddenly come from!", "seaskipper-seaskippercaptain-70", true);
+        addSound("[1/4] Seaskipper Captain: Ya know, some of you soldier types can get mighty strange at times.", "seaskipper-seaskippercaptain-71", true);
+        addSound("[1/4] Seaskipper Captain: I can see that gloomy isle off in the distance... There, ahead, that's where old Skien used to live.", "seaskipper-seaskippercaptain-72", true);
+        addSound("[1/4] Seaskipper Captain: Besides the occasional surge of robots and the bitter relations between the humans and the native folk, I've heard that Corkus was a nice place to live in.", "seaskipper-seaskippercaptain-73", true);
+        addSound("[1/4] Seaskipper Captain: Hey, look over there! D'you see that overgrown structure in the distance?", "seaskipper-seaskippercaptain-74", true);
+
+
         //Creeper Infiltration
         addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "creeperinfiltrationthomascreeperinfl1", false);
         addSound("[1/10] Thomas: I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion merchant to heal you?", "creeperinfiltrationthomascreeperinfl2", false);
@@ -542,7 +619,7 @@ public class SoundsHandler {
 
         //Pit of the dead
         addSound("[1/8] Merloni: Would you like to hear the tale of the pit of the dead?", "pitofthedead-merloni-1", false);
-        addSound("[1/1] Merloni: Very impressive! Here's your reward. I found it a while ago while walking around Nemract. It probably fell off a skeleton", "pitofthedead-merloni-2", false);
+        addSound("[1/1] Merloni: Very impressive! Here's your reward. I found it a while ago while walking around Nemract. It probably fell off a skeleton!", "pitofthedead-merloni-2", false);
 
         //Deja Vu
         addSound("[1/6] Asher: Well well well, look who decided to come back with their tail between their legs.", "dejavu-asher-1", false);

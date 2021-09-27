@@ -1258,6 +1258,303 @@
   },
 
 
+  "seaskipper-seaskippercaptain-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-1", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-2", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-3", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-4", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-5", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-6", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-7", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-8", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-9", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-10", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-11", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-12", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-13", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-14", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-15", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-16", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-17", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-18", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-19", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-20", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-21", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-22", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-23", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-24", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-25", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-26", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-27", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-28", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-29", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-30", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-31", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-32", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-33", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-34", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-35", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-36", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-37", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-38", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-39", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-40", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-41", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-42", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-43", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-44", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-45", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-46", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-47", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-48", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-49", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-50", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-51", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-52", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-53", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-54", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-55", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-56", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-57", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-58", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-59", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-60", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-61", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-62", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-63", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-64", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-65", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-66": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-66", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-67": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-67", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-68": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-68", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-69": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-69", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-70": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-70", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-71": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-71", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-72": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-72", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-73": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-73", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-74": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-74", "stream": true}]
+  },
+
 
   "recoverthepast-dr.picard-1": {
     "category": "voice",
