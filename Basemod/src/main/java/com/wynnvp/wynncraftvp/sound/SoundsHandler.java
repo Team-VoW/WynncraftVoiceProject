@@ -264,7 +264,7 @@ public class SoundsHandler {
         addSound("[3/4] Honip: I expected you to do somethin', soldier, not him!", "misadventureonthesea-honip-45", true);
         addSound("[4/4] Honip: Anyways, come talk to me", "misadventureonthesea-honip-46", true);
         addSound("[1/7] Honip: I have another task for you. its about the rats.", "misadventureonthesea-honip-47", true);
-        addSound("[2/7] Honip: See, I really don't think we have your usual type of problems.", "misadventureonthesea-honip-48", true);
+        addSound("[2/7] Honip: See, I really don't think we have your usual type of problem.", "misadventureonthesea-honip-48", true);
         addSound("[4/7] Honip: We sometimes hear unusual load footsteps, along with some really eerie squeaking...", "misadventureonthesea-honip-49", true);
         addSound("[5/7] Honip: That's why we're not too fond of goin' in... But our gunpowder there! We need it, as pirates!", "misadventureonthesea-honip-50", true);
         addSound("[6/7] Honip: So, I need you to get in there... and try to kill everything, alright?", "misadventureonthesea-honip-51", true);
@@ -449,7 +449,7 @@ public class SoundsHandler {
         addSound("[1/10] Wedyf: Welcome traveler. Are you looking for something?", "bobslostsoulwedyf1", false);
         addSound("[1/6] Wedyf: Great, you got everything.", "bobslostsoulwedyf2", false);
         addSound("[1/6] Wedyf: I'm glad to see you again.", "bobslostsoulwedyf3", false);
-        addSound("[1/6] The Blacksmith: What can I do for ya?", "bobslostsoulblacksmith1", false);
+        addSound("[1/8] The Blacksmith: What can I do for ya?", "bobslostsoulblacksmith1", false);
         addSound("[1/4] The Blacksmith: ... Hi again. I see you got the weapons.", "bobslostsoulblacksmith2", false);
         addSound("[1/9] Tarod: You're one of those soldier types, right? My name is Tarod, and I could really use your assistance here.", "bobslostsouldtarod1", false);
         addSound("[1/6] Tarod: Welcome back. Did you find anything worthwhile?", "bobslostsouldtarod2", false);
