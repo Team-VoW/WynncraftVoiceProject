@@ -253,7 +253,7 @@ public class SoundsHandler {
         addSound("[3/7] Honip: Come to the hold, I'll explain on the way.", "misadventureonthesea-honip-34", true);
         addSound("[4/7] Honip: I think we have quite a hellish problem on our hands.", "misadventureonthesea-honip-35", true);
         addSound("[5/7] Honip: I'm not sure what ya'll find there, but these are NOT normal rats.", "misadventureonthesea-honip-36", true);
-        addSound("[6/7] Honip: So please, get in there... and kill everything, alright?", "misadventureonthesea-honip-37", true);
+        addSound("[6/7] Honip: So, I need you to get in... and kill everything, alright?", "misadventureonthesea-honip-37", true);
         addSound("[7/7] Honip: I've got faith in ya. Here goes nothin'!", "misadventureonthesea-honip-38", true);
         addSound("[1/4] Honip: Hey there! Ya bringin' me good news?", "misadventureonthesea-honip-39", true);
         addSound("[2/4] Honip: You took care of these damn thieving rodents? A... colossal rat you say?", "misadventureonthesea-honip-40", true);
@@ -265,10 +265,10 @@ public class SoundsHandler {
         addSound("[4/4] Honip: Anyways, come talk to me", "misadventureonthesea-honip-46", true);
         addSound("[1/7] Honip: I have another task for you. its about the rats.", "misadventureonthesea-honip-47", true);
         addSound("[2/7] Honip: See, I really don't think we have your usual type of problem.", "misadventureonthesea-honip-48", true);
-        addSound("[4/7] Honip: We sometimes hear unusual load footsteps, along with some really eerie squeaking...", "misadventureonthesea-honip-49", true);
+        addSound("[4/7] Honip: We sometimes hear unusually loud footsteps, along with some really eerie squeaking...", "misadventureonthesea-honip-49", true);
         addSound("[5/7] Honip: That's why we're not too fond of goin' in... But our gunpowder there! We need it, as pirates!", "misadventureonthesea-honip-50", true);
         addSound("[6/7] Honip: So, I need you to get in there... and try to kill everything, alright?", "misadventureonthesea-honip-51", true);
-        addSound("[7/7] Honip: Here goes nothing, Snoo, ya stay there!", "misadventureonthesea-honip-52", true);
+        addSound("[7/7] Honip: Here goes nothing. Snoo, ya stay there!", "misadventureonthesea-honip-52", true);
         addSound("[3/4] Honip: That sounds absolutely terrifying! And ya did that alone! You know what, her', take these.", "misadventureonthesea-honip-53", true);
         addSound("[1/5] Honip: Just cast one of your fancy spells!", "misadventureonthesea-honip-54", true);
         addSound("[2/5] Honip: That was... Phew... That was something.", "misadventureonthesea-honip-55", true);
