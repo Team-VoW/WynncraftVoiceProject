@@ -1258,6 +1258,26 @@
   },
 
 
+  "masterpiece-caissop-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:masterpiece-caissop-1", "stream": true}]
+  },
+  "masterpiece-caissop-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:masterpiece-caissop-2", "stream": true}]
+  },
+  "masterpiece-caissop-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:masterpiece-caissop-3", "stream": true}]
+  },
+  "masterpiece-caissop-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:masterpiece-caissop-4", "stream": true}]
+  },
+
+
+
+
   "seaskipper-seaskippercaptain-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-1", "stream": true}]

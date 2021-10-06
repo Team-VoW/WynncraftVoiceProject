@@ -92,7 +92,7 @@ public class SoundsHandler {
         addSound("[1/1] Seaskipper Captain: Where are ya headed? Galleon's Graveyard, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-15", true);
         addSound("[1/1] Seaskipper Captain: Where are ya headed? Pirate Cove, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-16", true);
         addSound("[1/1] Seaskipper Captain: Where are ya headed? Dead Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-17", true);
-        addSound("[1/1] Seaskipper Captain: Where are ya headed? Jofash Dock, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-18", true);
+        addSound("[1/1] Seaskipper Captain: Where are ya headed? Jofash Docks, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-18", true);
         addSound("[1/4] Seaskipper Captain: So, this is your first time ridin' the ol' Seaskipper, eh? It's okay if you're a wee bit seasick.", "seaskipper-seaskippercaptain-19", true);
         addSound("[1/4] Seaskipper Captain: Did I ever tell you about how I fended off an entire pirate ship?", "seaskipper-seaskippercaptain-20", true);
         addSound("[1/4] Seaskipper Captain: I've heard tales around Nemract's Bar, about one of the greatest treasure hunts of all time.", "seaskipper-seaskippercaptain-21", true);
@@ -291,6 +291,12 @@ public class SoundsHandler {
         addSound("[1/1] Honip: Soldier, now's your time to shine! Scare it off with one of your spells or somethin'!", "misadventureonthesea-honip-69", true);
         addSound("[1/1] Honip: It's working! Do that again!", "misadventureonthesea-honip-70", true);
         addSound("[1/1] Honip: One more...", "misadventureonthesea-honip-71", true);
+
+        //Master piece
+        addSound("[1/9] Caissop: ...hm...mh!", "masterpiece-caissop-1", false);
+        addSound("[1/7] Caissop: Quick! Describe it to me! Go on!", "masterpiece-caissop-2", false);
+        addSound("[1/7] Caissop: You're here! Quick! Don't look at me, describe it!", "masterpiece-caissop-3", false);
+        addSound("[1/7] Caissop: You're finally back! I just finished the last one. Go! Describe it!", "masterpiece-caissop-4", false);
 
         //Maltics Well
         addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwellrysend1", false);
