@@ -1258,6 +1258,96 @@
   },
 
 
+  "pointofnoreturn-luthocitizen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-1", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-2", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-3", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-4", "stream": true}]
+  },
+  "pointofnoreturn-soul-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-1", "stream": true}]
+  },
+  "pointofnoreturn-soul-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-2", "stream": true}]
+  },
+  "pointofnoreturn-soul-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-3", "stream": true}]
+  },
+  "pointofnoreturn-soul-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-4", "stream": true}]
+  },
+  "pointofnoreturn-soul-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-5", "stream": true}]
+  },
+  "pointofnoreturn-soul-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-6", "stream": true}]
+  },
+  "pointofnoreturn-soul-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-7", "stream": true}]
+  },
+  "pointofnoreturn-soul-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-8", "stream": true}]
+  },
+  "pointofnoreturn-soul-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-9", "stream": true}]
+  },
+  "pointofnoreturn-soul-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-10", "stream": true}]
+  },
+  "pointofnoreturn-soul-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-11", "stream": true}]
+  },
+  "pointofnoreturn-luthoguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthoguard-1", "stream": true}]
+  },
+  "pointofnoreturn-soul-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-12", "stream": true}]
+  },
+  "pointofnoreturn-soul-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-13", "stream": true}]
+  },
+  "pointofnoreturn-soul-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-14", "stream": true}]
+  },
+  "pointofnoreturn-soul-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-15", "stream": true}]
+  },
+  "pointofnoreturn-soul-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-16", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-5", "stream": true}]
+  },
+
+
   "masterpiece-caissop-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:masterpiece-caissop-1", "stream": true}]

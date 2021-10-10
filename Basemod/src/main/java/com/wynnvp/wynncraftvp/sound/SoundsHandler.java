@@ -157,6 +157,30 @@ public class SoundsHandler {
         addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "creeperinfiltrationthomascreeperinfl3", false);
         addSound("[1/7] Thomas: So, what was in the cave? Were there really creepers in there?", "creeperinfiltrationthomascreeperinfl4", false);
 
+        //Point of no return
+        addSound("[1/5] Lutho Citizen: Wait... It can't be. Look me in the eyes. You're human, like me.", "pointofnoreturn-luthocitizen-1", false);
+        addSound("[1/5] Lutho Citizen: Ahh.. A newcomer! Welcome, welcome!", "pointofnoreturn-luthocitizen-2", false);
+        addSound("[1/4] Lutho Citizen: It's been quite some time since a new face has shown up here.", "pointofnoreturn-luthocitizen-3", false);
+        addSound("[1/4] Lutho Citizen: I can't see why anyone would choose to stay there.", "pointofnoreturn-luthocitizen-4", false);
+        addSound("Hello soldier.", "pointofnoreturn-soul-1", false);
+        addSound("I am you.", "pointofnoreturn-soul-2", false);
+        addSound("You are me.", "pointofnoreturn-soul-3", false);
+        addSound("We are one.", "pointofnoreturn-soul-4", false);
+        addSound("Not here, though.", "pointofnoreturn-soul-5", false);
+        addSound("The Obelisk offers us different paths.", "pointofnoreturn-soul-6", false);
+        addSound("It offers to protect me, while leaving you in reality.", "pointofnoreturn-soul-7", false);
+        addSound("If you want to return as one, you must heed my words.", "pointofnoreturn-soul-8", false);
+        addSound("I may not be able to speak in the physical realm...", "pointofnoreturn-soul-9", false);
+        addSound("But your actions... Your deeds... They shape me, hurt me, heal me.", "pointofnoreturn-soul-10", false);
+        addSound("Choose our path wisely.", "pointofnoreturn-soul-11", false);
+        addSound("[1/1] Lutho Guard: If you really want to leave, no one is stopping you. Except maybe yourself.", "pointofnoreturn-luthoguard-1", false);
+        addSound("Something is holding us back.", "pointofnoreturn-soul-12", false);
+        addSound("You must keep going.", "pointofnoreturn-soul-13", false);
+        addSound("We must keep going.", "pointofnoreturn-soul-14", false);
+        addSound("[1/1] soul: Are you sure we want to face reality?", "pointofnoreturn-soul-15", false);
+        addSound("[1/1] soul: The only one holding us back is us.", "pointofnoreturn-soul-16", false);
+        addSound("[1/5] Lutho Citizen: You- you chose to come back. I saw your eyes disappear, briefly.", "pointofnoreturn-luthocitizen-5", false);
+
         //Fate of the Fallen
         addSound("[1/9] Telvu: Ah, a member of the Ragni army. We're trying to gain entry to this frozen barrow. We could use your aid.", "fateofthefallen-telvu-1", false);
         addSound("[1/5] Telvu: Aha, quick job. I see you've the wand. Must've needed a sharp tongue to get the bankers to give it up.", "fateofthefallen-telvu-2", false);
