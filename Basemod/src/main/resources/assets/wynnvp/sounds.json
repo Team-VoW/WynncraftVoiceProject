@@ -1348,6 +1348,87 @@
   },
 
 
+
+  "thehungerofgertspart1-cikal-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-cikal-1", "stream": true}]
+  },
+  "thehungerofgertspart1-anof-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-anof-1", "stream": true}]
+  },
+  "thehungerofgertspart1-jitak-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-jitak-1", "stream": true}]
+  },
+  "thehungerofgertspart1-gertenchiefsnaga-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenchiefsnaga-1", "stream": true}]
+  },
+  "thehungerofgertspart1-gertenchiefsnaga-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenchiefsnaga-2", "stream": true}]
+  },
+  "thehungerofgertspart1-gertenchiefsnaga-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenchiefsnaga-3", "stream": true}]
+  },
+  "thehungerofgertspart1-gertenchiefsnaga-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenchiefsnaga-4", "stream": true}]
+  },
+  "thehungerofgertspart1-jitak-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-jitak-2", "stream": true}]
+  },
+  "thehungerofgertspart1-jitak-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-jitak-3", "stream": true}]
+  },
+  "thehungerofgertspart1-gertencaptain-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertencaptain-1", "stream": true}]
+  },
+  "thehungerofgertspart1-gertencaptain-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertencaptain-2", "stream": true}]
+  },
+  "thehungerofgertspart1-gertencaptain-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertencaptain-3", "stream": true}]
+  },
+  "thehungerofgertspart1-gertencaptain-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertencaptain-4", "stream": true}]
+  },
+  "thehungerofgertspart1-comor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-comor-1", "stream": true}]
+  },
+  "thehungerofgertspart1-hungrygert-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-hungrygert-1", "stream": true}]
+  },
+  "thehungerofgertspart1-comor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-comor-2", "stream": true}]
+  },
+  "thehungerofgertspart1-comor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-comor-3", "stream": true}]
+  },
+  "thehungerofgertspart1-gertenprisonwarden-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenprisonwarden-1", "stream": true}]
+  },
+  "thehungerofgertspart1-cikal-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-cikal-2", "stream": true}]
+  },
+
+
+
+
   "masterpiece-caissop-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:masterpiece-caissop-1", "stream": true}]

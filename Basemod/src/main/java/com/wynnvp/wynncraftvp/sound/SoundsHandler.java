@@ -181,6 +181,28 @@ public class SoundsHandler {
         addSound("[1/1] soul: The only one holding us back is us.", "pointofnoreturn-soul-16", false);
         addSound("[1/5] Lutho Citizen: You- you chose to come back. I saw your eyes disappear, briefly.", "pointofnoreturn-luthocitizen-5", false);
 
+        //thehungerofgertspart1
+        addSound("[1/10] Cikal: Oh, ho ho. What is this? A Human? What brings you to Gylia Watch? ", "thehungerofgertspart1-cikal-1", false);
+        addSound("[1/4] Anof: Another one! That's the third one this week. My poor livestock.", "thehungerofgertspart1-anof-1", false);
+        addSound("[1/7] Jitak: If you are looking for a suit or something, I can't help you. Now is a very bad time.", "thehungerofgertspart1-jitak-1", false);
+        addSound("[1/4] Gerten Chief Snaga: Hello gert! Today we here for discuss our new tunnel! Very amazing! We see human dig, we learn from human! We dig tunnel too! Gert no dumb, gert much smart!", "thehungerofgertspart1-gertenchiefsnaga-1", true);
+        addSound("[2/4] Gerten Chief Snaga: We dig tunnel under big tower that keep gert from farms! We go through tunnel and make camp! Then we use camp to eat farmer pig! Gert so smart!", "thehungerofgertspart1-gertenchiefsnaga-2", true);
+        addSound("[3/4] Gerten Chief Snaga: Gert also dig tunnel under farmer house near this camp! The farmer so dumb! Gert smarter than farmer! We use tunnel to steal farmer sheep and cow!", "thehungerofgertspart1-gertenchiefsnaga-3", true);
+        addSound("[4/4] Gerten Chief Snaga: We dig more tunnel next day! The tunnel will very big! Then we steal more pig from stupid farmer! Gert very smart! All you go hunt more pig!", "thehungerofgertspart1-gertenchiefsnaga-4", false);
+        addSound("[1/8] Jitak: Good to see you again. Gerts, for all their stupidity are incredibly powerful, you clearly know what you are doing.", "thehungerofgertspart1-jitak-2", false);
+        addSound("[1/6] Jitak: That didn't take you long. Here, let me make the mask.", "thehungerofgertspart1-jitak-3", false);
+        addSound("[1/2] Gerten Captain: Hello gert! Want enter tunnel? Sure, you enter tunnel!", "thehungerofgertspart1-gertencaptain-1", false);
+        addSound("[1/2] Gerten Captain: Gert cave password now? Gert say password!", "thehungerofgertspart1-gertencaptain-2", false);
+        addSound("[1/1] Gerten Captain: Go! Gert have no time to talk.", "thehungerofgertspart1-gertencaptain-3", false);
+        addSound("[1/1] Gerten Captain: Ha ha! Human stupid! Gert dog smell human! You in prison now! Gert eat human later!", "thehungerofgertspart1-gertencaptain-4", true);
+        addSound("[1/1] Comor: Hey, you! Over here! Help me get out of here!", "thehungerofgertspart1-comor-1", true);
+        addSound("[1/6] Comor: Oh, thank god someone finally showed up! I've been down here for days. You have to help me escape!", "thehungerofgertspart1-comor-2", false);
+        addSound("[1/1] Hungry Gert: I eat this villager, now I eat human!", "thehungerofgertspart1-hungrygert-1", false);
+        addSound("[1/5] Comor: So? Is he alright?", "thehungerofgertspart1-comor-3", false);
+        addSound("[1/1] Gerten Prison Warden: Human no escape! I stop human!", "thehungerofgertspart1-gertenprisonwarden-1", true);
+        addSound("[1/4] Cikal: Welcome back, I was just about to go for a brew with the boys. What did you find?", "thehungerofgertspart1-cikal-2", false);
+
+
         //Fate of the Fallen
         addSound("[1/9] Telvu: Ah, a member of the Ragni army. We're trying to gain entry to this frozen barrow. We could use your aid.", "fateofthefallen-telvu-1", false);
         addSound("[1/5] Telvu: Aha, quick job. I see you've the wand. Must've needed a sharp tongue to get the bankers to give it up.", "fateofthefallen-telvu-2", false);
@@ -344,7 +366,7 @@ public class SoundsHandler {
         addSound("[1/6] Corkus City Citizen: You did it! So you weren't lying? Ugh, I guess you might just be trustworthy.", "mixedfeelings-corkuscitycitizen-9", false);
         addSound("[1/6] Corkus City Citizen: Came back to wreck the rest of my work have you? Why aren't you all insane looking?", "mixedfeelings-corkuscitycitizen-6", false);
         addSound("[1/6] Corkus City Citizen: You did it? ... -I mean, at last. Eh... I guess I was too fast with my judgement for once.", "mixedfeelings-corkuscitycitizen-7", false);
-        addSound("[1/5] Corkus City Citizen: You did it? ... -I mean, at last. Eh... I guess I was too fast with my judgement for once.", "mixedfeelings-corkuscitycitizen-8", false );
+        addSound("[1/5] Corkus City Citizen: You did it? ... -I mean, at last. Eh... I guess I was too fast with my judgement for once.", "mixedfeelings-corkuscitycitizen-8", false);
         addSound("[1/3] Rensa: Why are you here? I don't mean here and now, I mean why are you on our island?--", "mixedfeelings-rensa-3", true);
         addSound("[1/6] Rensa: You... Look at yourself. You fight in a war you did not cause. You come from a land you don't even remember.", "mixedfeelings-rensa-4", false);
         addSound("[2/6] Rensa: We ask ourselves why would we invite people from two lands of sin. Invite a nation of warring travellers and a nation of greedy merchants to our doors?", "mixedfeelings-rensa-5", false);
@@ -364,7 +386,6 @@ public class SoundsHandler {
         addSound("mixedfeelingscorkuscitycitizen31", "mixedfeelings-corkuscitycitizen-3-1", false);
         addSound("mixedfeelingscorkuscitycitizen32", "mixedfeelings-corkuscitycitizen-3-2", false);
         addSound("mixedfeelingscorkuscitycitizen33", "mixedfeelings-corkuscitycitizen-3-3", false);
-
 
 
         //Grave Digger
