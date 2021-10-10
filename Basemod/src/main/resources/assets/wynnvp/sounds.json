@@ -1427,6 +1427,72 @@
   },
 
 
+  "thehungerofgertspart2-gertenchieflobo-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-gertenchieflobo-1", "stream": true}]
+  },
+  "thehungerofgertspart2-gertenexcavator-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-gertenexcavator-1", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-1", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-2", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-3", "stream": true}]
+  },
+  "thehungerofgertspart2-capturedgert-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-capturedgert-1", "stream": true}]
+  },
+  "thehungerofgertspart2-capturedgert-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-capturedgert-2", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-4", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-5", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-6", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-7", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-8", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-9", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-10", "stream": true}]
+  },
+  "thehungerofgertspart2-bigbutch-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-bigbutch-11", "stream": true}]
+  },
+  "thehungerofgertspart2-gertenchieflobo-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehungerofgertspart2-gertenchieflobo-2", "stream": true}]
+  },
+
+
 
 
   "masterpiece-caissop-1": {

@@ -181,7 +181,7 @@ public class SoundsHandler {
         addSound("[1/1] soul: The only one holding us back is us.", "pointofnoreturn-soul-16", false);
         addSound("[1/5] Lutho Citizen: You- you chose to come back. I saw your eyes disappear, briefly.", "pointofnoreturn-luthocitizen-5", false);
 
-        //thehungerofgertspart1
+        //The Hunger of Gerts Part 1
         addSound("[1/10] Cikal: Oh, ho ho. What is this? A Human? What brings you to Gylia Watch? ", "thehungerofgertspart1-cikal-1", false);
         addSound("[1/4] Anof: Another one! That's the third one this week. My poor livestock.", "thehungerofgertspart1-anof-1", false);
         addSound("[1/7] Jitak: If you are looking for a suit or something, I can't help you. Now is a very bad time.", "thehungerofgertspart1-jitak-1", false);
@@ -201,6 +201,24 @@ public class SoundsHandler {
         addSound("[1/5] Comor: So? Is he alright?", "thehungerofgertspart1-comor-3", false);
         addSound("[1/1] Gerten Prison Warden: Human no escape! I stop human!", "thehungerofgertspart1-gertenprisonwarden-1", true);
         addSound("[1/4] Cikal: Welcome back, I was just about to go for a brew with the boys. What did you find?", "thehungerofgertspart1-cikal-2", false);
+
+        //The hunger of Gerts Part 2
+        addSound("[1/8] Gerten Chief Lobo: Hello gert! Is sad time for all gert! We no food, because big bad tower block our tunnel! ", "thehungerofgertspart2-gertenchieflobo-1", false);
+        addSound("[1/6] Gerten Excavator: No gert allow to enter my tunnel! Dig alone now! Leave or gert say to chief!", "thehungerofgertspart2-gertenexcavator-1", false);
+        addSound("[1/1] Big Butch: A guest? I've not had a real guest in quite a while.", "thehungerofgertspart2-bigbutch-1", true);
+        addSound("[1/1] Big Butch: This place is what feeds half of Gavel. Some say it's not humane. I say we aren't Human.", "thehungerofgertspart2-bigbutch-2", true);
+        addSound("[1/1] Big Butch: Most Villagers don't even know where their food comes from. They just buy and eat it.", "thehungerofgertspart2-bigbutch-3", true);
+        addSound("[1/5] Captured Gert: O! Human! Come close so gert can eat human! Gert hunger! Wait! Smell like gert, look like human! Must be weird gert! Gert help gert!", "thehungerofgertspart2-capturedgert-1", true);
+        addSound("[1/1] Captured Gert: Gert no hear more noise! Gert turn power off? Gert happy! Gert leave now! Thank!", "thehungerofgertspart2-capturedgert-2", true);
+        addSound("[1/1] Big Butch: The truth is, if they knew, if they saw, would they reconsider their ways? Maybe.", "thehungerofgertspart2-bigbutch-4", true);
+        addSound("[1/7] Big Butch: Since you're my guest, would you like to hear a story? Of course you would.", "thehungerofgertspart2-bigbutch-5", true);
+        addSound("[2/7] Big Butch: Unless you are blind, you should've noticed my work, my pretties. ", "thehungerofgertspart2-bigbutch-6", true);
+        addSound("[3/7] Big Butch: They are made of meat. Butchering animals all day is lonely work. I need friends.", "thehungerofgertspart2-bigbutch-7", true);
+        addSound("[4/7] Big Butch: There are these creatures called Gerts. They obviously have no brain. It was so easy to trick them into my experiments. To become my friends.", "thehungerofgertspart2-bigbutch-8", true);
+        addSound("[5/7] Big Butch: Yes, that's right! All of the abominations are actually Gerts who have been reassembled.", "thehungerofgertspart2-bigbutch-9", true);
+        addSound("[6/7] Big Butch: Why do you care about them? They are just pests to us. They care only for hunger.", "thehungerofgertspart2-bigbutch-10", true);
+        addSound("[7/7] Big Butch: Well, it's not like the people of Gavel will find out where their food really comes from, the secret dies with you! They will forever more live in blissful ignorance!", "thehungerofgertspart2-bigbutch-11", true);
+        addSound("[1/3] Gerten Chief Lobo: Gert back? Did stop the farm? Bad villager must die!", "thehungerofgertspart2-gertenchieflobo-2", false);
 
 
         //Fate of the Fallen
