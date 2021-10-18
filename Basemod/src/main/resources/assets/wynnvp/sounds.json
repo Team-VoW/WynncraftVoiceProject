@@ -1494,6 +1494,620 @@
 
 
 
+  "heroofgavel-excitedfan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-excitedfan-1", "stream": true}]
+  },
+  "heroofgavel-excitedfan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-excitedfan-2", "stream": true}]
+  },
+  "heroofgavel-scavengerhuntcollector-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-scavengerhuntcollector-1", "stream": true}]
+  },
+  "heroofgavel-scavengerhuntcollector-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-scavengerhuntcollector-2", "stream": true}]
+  },
+  "heroofgavel-scavengerhuntcollector-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-scavengerhuntcollector-3", "stream": true}]
+  },
+  "heroofgavel-scavengerhuntcollector-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-scavengerhuntcollector-4", "stream": true}]
+  },
+  "heroofgavel-announcer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-announcer-1", "stream": true}]
+  },
+  "heroofgavel-announcer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-announcer-2", "stream": true}]
+  },
+  "heroofgavel-announcer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-announcer-3", "stream": true}]
+  },
+  "heroofgavel-announcer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-announcer-4", "stream": true}]
+  },
+  "heroofgavel-announcer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-announcer-5", "stream": true}]
+  },
+  "heroofgavel-announcer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-announcer-6", "stream": true}]
+  },
+  "heroofgavel-announcer-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-announcer-7", "stream": true}]
+  },
+  "heroofgavel-siegfriedfan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfriedfan-1", "stream": true}]
+  },
+  "heroofgavel-siegfried-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-1", "stream": true}]
+  },
+  "heroofgavel-siegfried-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-2", "stream": true}]
+  },
+  "heroofgavel-siegfried-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-3", "stream": true}]
+  },
+  "heroofgavel-siegfried-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-4", "stream": true}]
+  },
+  "heroofgavel-siegfried-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-5", "stream": true}]
+  },
+  "heroofgavel-siegfried-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-6", "stream": true}]
+  },
+  "heroofgavel-siegfried-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-7", "stream": true}]
+  },
+  "heroofgavel-siegfried-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-8", "stream": true}]
+  },
+  "heroofgavel-siegfried-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-9", "stream": true}]
+  },
+  "heroofgavel-siegfried-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-10", "stream": true}]
+  },
+  "heroofgavel-siegfried-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-11", "stream": true}]
+  },
+  "heroofgavel-siegfried-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-12", "stream": true}]
+  },
+  "heroofgavel-siegfried-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-13", "stream": true}]
+  },
+  "heroofgavel-siegfried-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-14", "stream": true}]
+  },
+  "heroofgavel-siegfried-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-15", "stream": true}]
+  },
+  "heroofgavel-siegfried-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-16", "stream": true}]
+  },
+  "heroofgavel-siegfried-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-17", "stream": true}]
+  },
+  "heroofgavel-siegfried-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-18", "stream": true}]
+  },
+  "heroofgavel-siegfried-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-19", "stream": true}]
+  },
+  "heroofgavel-siegfried-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-20", "stream": true}]
+  },
+  "heroofgavel-siegfried-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-21", "stream": true}]
+  },
+  "heroofgavel-siegfried-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-22", "stream": true}]
+  },
+  "heroofgavel-siegfried-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-23", "stream": true}]
+  },
+  "heroofgavel-siegfried-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-24", "stream": true}]
+  },
+  "heroofgavel-siegfried-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-25", "stream": true}]
+  },
+  "heroofgavel-siegfried-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-26", "stream": true}]
+  },
+  "heroofgavel-siegfried-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-27", "stream": true}]
+  },
+  "heroofgavel-siegfried-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-28", "stream": true}]
+  },
+  "heroofgavel-siegfried-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-29", "stream": true}]
+  },
+  "heroofgavel-siegfried-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-30", "stream": true}]
+  },
+  "heroofgavel-siegfried-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-31", "stream": true}]
+  },
+  "heroofgavel-siegfried-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-32", "stream": true}]
+  },
+  "heroofgavel-siegfried-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-33", "stream": true}]
+  },
+  "heroofgavel-siegfried-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-35", "stream": true}]
+  },
+  "heroofgavel-siegfried-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-36", "stream": true}]
+  },
+  "heroofgavel-siegfried-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-37", "stream": true}]
+  },
+  "heroofgavel-siegfried-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-38", "stream": true}]
+  },
+  "heroofgavel-siegfried-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-39", "stream": true}]
+  },
+  "heroofgavel-siegfried-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-40", "stream": true}]
+  },
+  "heroofgavel-siegfried-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-41", "stream": true}]
+  },
+  "heroofgavel-siegfried-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-42", "stream": true}]
+  },
+  "heroofgavel-siegfried-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-43", "stream": true}]
+  },
+  "heroofgavel-siegfried-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-44", "stream": true}]
+  },
+  "heroofgavel-siegfried-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-45", "stream": true}]
+  },
+  "heroofgavel-siegfried-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-46", "stream": true}]
+  },
+  "heroofgavel-siegfried-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-47", "stream": true}]
+  },
+  "heroofgavel-villager-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-villager-1", "stream": true}]
+  },
+  "heroofgavel-siegfried-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-48", "stream": true}]
+  },
+  "heroofgavel-siegfried-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-49", "stream": true}]
+  },
+  "heroofgavel-siegfried-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-50", "stream": true}]
+  },
+  "heroofgavel-siegfried-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-51", "stream": true}]
+  },
+  "heroofgavel-siegfried-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-52", "stream": true}]
+  },
+  "heroofgavel-siegfried-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-53", "stream": true}]
+  },
+  "heroofgavel-siegfried-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-54", "stream": true}]
+  },
+  "heroofgavel-siegfried-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-55", "stream": true}]
+  },
+  "heroofgavel-siegfried-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-56", "stream": true}]
+  },
+  "heroofgavel-siegfried-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-57", "stream": true}]
+  },
+  "heroofgavel-siegfried-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-58", "stream": true}]
+  },
+  "heroofgavel-siegfried-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-59", "stream": true}]
+  },
+  "heroofgavel-siegfried-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-60", "stream": true}]
+  },
+  "heroofgavel-siegfried-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-61", "stream": true}]
+  },
+  "heroofgavel-siegfried-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-62", "stream": true}]
+  },
+  "heroofgavel-siegfried-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-63", "stream": true}]
+  },
+  "heroofgavel-siegfried-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-64", "stream": true}]
+  },
+  "heroofgavel-siegfried-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-65", "stream": true}]
+  },
+  "heroofgavel-siegfried-68": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-68", "stream": true}]
+  },
+  "heroofgavel-siegfried-69": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-69", "stream": true}]
+  },
+  "heroofgavel-siegfried-70": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-70", "stream": true}]
+  },
+  "heroofgavel-siegfried-71": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-71", "stream": true}]
+  },
+  "heroofgavel-siegfried-72": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-72", "stream": true}]
+  },
+  "heroofgavel-siegfried-73": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-73", "stream": true}]
+  },
+  "heroofgavel-siegfried-74": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-74", "stream": true}]
+  },
+  "heroofgavel-siegfried-75": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-75", "stream": true}]
+  },
+  "heroofgavel-siegfried-76": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-76", "stream": true}]
+  },
+  "heroofgavel-siegfried-77": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-77", "stream": true}]
+  },
+  "heroofgavel-siegfried-78": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-78", "stream": true}]
+  },
+  "heroofgavel-gurix-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-1", "stream": true}]
+  },
+  "heroofgavel-gurix-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-2", "stream": true}]
+  },
+  "heroofgavel-gurix-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-3", "stream": true}]
+  },
+  "heroofgavel-gurix-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-4", "stream": true}]
+  },
+  "heroofgavel-gurix-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-5", "stream": true}]
+  },
+  "heroofgavel-gurix-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-6", "stream": true}]
+  },
+  "heroofgavel-gurix-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-7", "stream": true}]
+  },
+  "heroofgavel-gurix-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-8", "stream": true}]
+  },
+  "heroofgavel-gurix-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-9", "stream": true}]
+  },
+  "heroofgavel-gurix-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-10", "stream": true}]
+  },
+  "heroofgavel-gurix-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-11", "stream": true}]
+  },
+  "heroofgavel-gurix-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-12", "stream": true}]
+  },
+  "heroofgavel-gurix-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-13", "stream": true}]
+  },
+  "heroofgavel-gurix-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-14", "stream": true}]
+  },
+  "heroofgavel-gurix-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-15", "stream": true}]
+  },
+  "heroofgavel-gurix-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-16", "stream": true}]
+  },
+  "heroofgavel-gurix-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-17", "stream": true}]
+  },
+  "heroofgavel-gurix-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-18", "stream": true}]
+  },
+  "heroofgavel-gurix-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-19", "stream": true}]
+  },
+  "heroofgavel-gurix-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-20", "stream": true}]
+  },
+  "heroofgavel-gurix-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-21", "stream": true}]
+  },
+  "heroofgavel-gurix-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-22", "stream": true}]
+  },
+  "heroofgavel-gurix-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-23", "stream": true}]
+  },
+  "heroofgavel-gurix-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-24", "stream": true}]
+  },
+  "heroofgavel-gurix-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-25", "stream": true}]
+  },
+  "heroofgavel-gurix-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-26", "stream": true}]
+  },
+  "heroofgavel-gurix-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-27", "stream": true}]
+  },
+  "heroofgavel-gurix-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-28", "stream": true}]
+  },
+  "heroofgavel-gurix-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-29", "stream": true}]
+  },
+  "heroofgavel-gurix-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-30", "stream": true}]
+  },
+  "heroofgavel-gurix-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-31", "stream": true}]
+  },
+  "heroofgavel-gurix-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-32", "stream": true}]
+  },
+  "heroofgavel-gurix-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-33", "stream": true}]
+  },
+  "heroofgavel-gurix-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-34", "stream": true}]
+  },
+  "heroofgavel-gurix-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-35", "stream": true}]
+  },
+  "heroofgavel-gurix-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-36", "stream": true}]
+  },
+  "heroofgavel-gurix-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-37", "stream": true}]
+  },
+  "heroofgavel-gurix-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-38", "stream": true}]
+  },
+  "heroofgavel-gurix-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-39", "stream": true}]
+  },
+  "heroofgavel-gurix-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-40", "stream": true}]
+  },
+  "heroofgavel-gurix-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-41", "stream": true}]
+  },
+  "heroofgavel-gurix-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-42", "stream": true}]
+  },
+  "heroofgavel-gurix-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-43", "stream": true}]
+  },
+  "heroofgavel-gurix-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-44", "stream": true}]
+  },
+  "heroofgavel-gurix-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-45", "stream": true}]
+  },
+  "heroofgavel-gurix-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-46", "stream": true}]
+  },
+  "heroofgavel-beacon-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-beacon-1", "stream": true}]
+  },
+  "heroofgavel-teleporter-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-teleporter-1", "stream": true}]
+  },
+  "heroofgavel-siegfried-79": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-79", "stream": true}]
+  },
+  "heroofgavel-gurix-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-47", "stream": true}]
+  },
+  "heroofgavel-siegfried-80": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-80", "stream": true}]
+  },
+  "heroofgavel-siegfried-81": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-81", "stream": true}]
+  },
+  "heroofgavel-gurix-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-gurix-48", "stream": true}]
+  },
+  "heroofgavel-siegfried-82": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-82", "stream": true}]
+  },
+  "heroofgavel-siegfried-83": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-83", "stream": true}]
+  },
+  "heroofgavel-siegfried-84": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-84", "stream": true}]
+  },
+  "heroofgavel-siegfried-85": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-85", "stream": true}]
+  },
+  "heroofgavel-siegfried-86": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-86", "stream": true}]
+  },
+  "heroofgavel-siegfried-87": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-87", "stream": true}]
+  },
+  "heroofgavel-siegfried-88": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-88", "stream": true}]
+  },
+  "heroofgavel-siegfried-89": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-siegfried-89", "stream": true}]
+  },
+  "heroofgavel-announcer-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-announcer-8", "stream": true}]
+  },
+  "heroofgavel-announcer-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heroofgavel-announcer-9", "stream": true}]
+  },
+
+
 
   "masterpiece-caissop-1": {
     "category": "voice",
