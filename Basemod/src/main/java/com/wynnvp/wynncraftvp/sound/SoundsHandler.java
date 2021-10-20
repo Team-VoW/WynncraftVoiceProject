@@ -2662,6 +2662,29 @@ public class SoundsHandler {
         addSound("[1/7] Psilo: Did you find any? Wait, something is different about you. Have you gotten smaller? Oh my... ", "thebiggerpicture-psilo-2", false);
         addSound("[1/5] Psilo: Well look at you! All back to your normal size! Maybe even a fraction taller! I'm relieved, that mushroom would have either made you grow, or set you on fire.", "thebiggerpicture-psilo-3", false);
 
+        //Lexdale witch trials
+        addSound("[1/9] The Mayor: We have an enemy amongst our own in Lexdale! This witch's illegal practice of dark magic threatens us!", "lexdalewitchtrials-themayor-1", true);
+        addSound("[2/9] The Mayor: Ms. Amira's home was found to be plagued with spreading Decay! We must kill the witch to protect our sanctity!", "lexdalewitchtrials-themayor-2", true);
+        addSound("[3/9] Amira: WAIT! Let me GO already! I told you what was happening!!", "lexdalewitchtrials-amira-1", true);
+        addSound("[4/9] The Mayor: The deceit of your dark magic won't work, Ms. Amira. Go quietly- leave us in peace!", "lexdalewitchtrials-themayor-3", true);
+        addSound("[5/9] Amira: SHUT UP ALREADY! You can't just single people out like this!!", "lexdalewitchtrials-amira-2", true);
+        addSound("[6/9] Amira: Just hear me out for a second! It's not me, something infected my home! That's the reason it was so dark!!", "lexdalewitchtrials-amira-3", true);
+        addSound("[7/9] Amira: My basement, some outlandish thing dug into it! Wherever it went, the area withered and decayed!", "lexdalewitchtrials-amira-4", true);
+        addSound("[8/9] Amira: There's proof in my house that it wasn't me! It's the one that's decayed and barren! You'll see if you LOOK, you gorehound!!", "lexdalewitchtrials-amira-5", true);
+        addSound("[9/9] The Mayor: Quit with the insults! We'll delay for now- If there's no proof of the witch's innocence she will be executed!", "lexdalewitchtrials-themayor-4", true);
+        addSound("[1/7] Tunnel Dweller Chieftain: Further...intruders...? You are not of the worms...the parasites? ", "lexdalewitchtrials-tunneldwellerchieftain-1", true);
+        addSound("[1/1] Tunnel Dweller Chieftain: Wait... These earthquakes! IT'S THEM! AGHHHHHHHHHHH!!!   ", "lexdalewitchtrials-tunneldwellerchieftain-2", false);
+        addSound("[1/8] The Mayor: You're back. Did- Wait, what in the nine hells is THAT?!", "lexdalewitchtrials-themayor-5", true);
+        addSound("[2/8] Amira: That! That was the thing in my basement!! I knew that human could find it! Thank you!!", "lexdalewitchtrials-amira-6", true);
+        addSound("[3/8] Amira: That thing was spreading the decay through my house! It's NOT witches or magic like you suddenly DECIDED one day!!", "lexdalewitchtrials-amira-7", true);
+        addSound("[4/8] The Mayor: ...Fine then. This...creature...bug...leech? This whatever-it-is... I'll accept your explanation.", "lexdalewitchtrials-themayor-6", true);
+        addSound("[5/8] The Mayor: Step off the podium, Ms. Amira. You're innocent.", "lexdalewitchtrials-themayor-7", true);
+        addSound("[6/8] Amira: Gah, finally! You're seeing sense! It's almost like something just...took you over one day and never left 'til now!", "lexdalewitchtrials-amira-8", true);
+        addSound("[7/8] The Mayor: ...hm. That... Mmh. Regardless. Human, you've proven yourself to be trustworthy. We'll keep our doors open for you.", "lexdalewitchtrials-themayor-8", true);
+        addSound("[8/8] The Mayor: As for the...THING... Well... I'll be sure to inform the Gavel government. ", "lexdalewitchtrials-themayor-9", true);
+
+
+
         //Canyon Condor
         addSound("[1/9] Svin: I am one of the Keepers in the great Temple of Legends. There we hoard secrets about the world.", "canyoncondor-svin-1", false);
         addSound("[1/6] Jankan: Hello there, youngster! Ye must be the stranger folks 'been talkin' 'bout.", "canyoncondor-jankan-1", false);

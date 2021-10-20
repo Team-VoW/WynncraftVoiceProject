@@ -10390,6 +10390,85 @@
 
 
 
+  "lexdalewitchtrials-themayor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-1", "stream": true}]
+  },
+  "lexdalewitchtrials-themayor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-2", "stream": true}]
+  },
+  "lexdalewitchtrials-amira-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-amira-1", "stream": true}]
+  },
+  "lexdalewitchtrials-themayor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-3", "stream": true}]
+  },
+  "lexdalewitchtrials-amira-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-amira-2", "stream": true}]
+  },
+  "lexdalewitchtrials-amira-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-amira-3", "stream": true}]
+  },
+  "lexdalewitchtrials-amira-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-amira-4", "stream": true}]
+  },
+  "lexdalewitchtrials-amira-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-amira-5", "stream": true}]
+  },
+  "lexdalewitchtrials-themayor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-4", "stream": true}]
+  },
+  "lexdalewitchtrials-tunneldwellerchieftain-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-tunneldwellerchieftain-1", "stream": true}]
+  },
+  "lexdalewitchtrials-tunneldwellerchieftain-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-tunneldwellerchieftain-2", "stream": true}]
+  },
+  "lexdalewitchtrials-themayor-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-5", "stream": true}]
+  },
+  "lexdalewitchtrials-amira-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-amira-6", "stream": true}]
+  },
+  "lexdalewitchtrials-amira-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-amira-7", "stream": true}]
+  },
+  "lexdalewitchtrials-themayor-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-6", "stream": true}]
+  },
+  "lexdalewitchtrials-themayor-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-7", "stream": true}]
+  },
+  "lexdalewitchtrials-amira-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-amira-8", "stream": true}]
+  },
+  "lexdalewitchtrials-themayor-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-8", "stream": true}]
+  },
+  "lexdalewitchtrials-themayor-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-9", "stream": true}]
+  },
+
+
+
   "ajourneybeyond-elphaba-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-1", "stream": true}]
