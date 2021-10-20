@@ -10375,6 +10375,21 @@
 
 
 
+  "thebiggerpicture-psilo-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-1", "stream": true}]
+  },
+  "thebiggerpicture-psilo-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-2", "stream": true}]
+  },
+  "thebiggerpicture-psilo-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-3", "stream": true}]
+  },
+
+
+
   "ajourneybeyond-elphaba-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:ajourneybeyond-elphaba-1", "stream": true}]

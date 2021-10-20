@@ -2657,6 +2657,10 @@ public class SoundsHandler {
         addSound("[1/2] Avos Chief: Hey, would you listen to me?", "thefeathersflypart1-avoschief-7", true);
         addSound("[2/3] Avos Chieftain: Is that another broken machine?", "thefeathersflypart1-avoschieftain-40", true);
 
+        //The Bigger Picture
+        addSound("[1/6] Psilo: Welcome, large human! What's that look for, never seen a Gnome before?! My house may look small, but it's perfect for me!", "thebiggerpicture-psilo-1", false);
+        addSound("[1/7] Psilo: Did you find any? Wait, something is different about you. Have you gotten smaller? Oh my... ", "thebiggerpicture-psilo-2", false);
+        addSound("[1/5] Psilo: Well look at you! All back to your normal size! Maybe even a fraction taller! I'm relieved, that mushroom would have either made you grow, or set you on fire.", "thebiggerpicture-psilo-3", false);
 
         //Canyon Condor
         addSound("[1/9] Svin: I am one of the Keepers in the great Temple of Legends. There we hoard secrets about the world.", "canyoncondor-svin-1", false);
