@@ -2071,6 +2071,16 @@ public class SoundsHandler {
         addSound("By the light what is that thing?! S-Stay away f-", "rol5therealmoflight-buzzing-6", true);
         addSound("[3/3] Lari: Though... I feel something on the other side. It seems incredibly... Foul. I can't tell what it is, let's be careful.", "rol5therealmoflight-lari-80", true);
         addSound("[7/7] Lari: It's not over... IT CAN'T BE, DON'T YOU- TAKE THIS!", "rol5therealmoflight-lari-81", true);
+        addSound("1/10orphionmypulseyourbrillianceisblindingyourpowersomuchmorethaniexpected", "nexusoflight-orphion-1", true);
+        addSound("2/10orphionthedarkaberrationitbroughtshadowstomeandfrommetomylandthentoyours", "nexusoflight-orphion-2", true);
+        addSound("3/10orphiongavelsdeclinewillendwithmyfreedomslowlyiamstillleftdimbuteverbrightening", "nexusoflight-orphion-3", true);
+        addSound("4/10orphionitsbroodaresterileasthedarkburnsawaysotoowilltheyandthelandwillrecover", "nexusoflight-orphion-4", true);
+        addSound("5/10orphionyetaproblembeyondmypaleyetpersistsdawnhasbrokenbutintimeanotherduskwillarrive", "nexusoflight-orphion-5", true);
+        addSound("6/10orphionlariacharasheseekstoilluminatethedarkyoumustshineyourlightasshebutelsewhere", "nexusoflight-orphion-6", true);
+        addSound("7/10orphionthedarkhaspowerunknownitdidnotbeforethroughthispoweritsshadowsreachedtome", "nexusoflight-orphion-7", true);
+        addSound("7/10orphionthedarkhaspowerunknownitdidnotbeforethroughthispoweritsshadowsreachedtome", "nexusoflight-orphion-8", true);
+        addSound("9/10orphionrestnowmypulseandprepareforthereisanotherforcewhoyoumustbringtopeace", "nexusoflight-orphion-9", true);
+        addSound("10/10orphion", "nexusoflight-orphion-10", true);
 
         //Lost Tower
         addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);

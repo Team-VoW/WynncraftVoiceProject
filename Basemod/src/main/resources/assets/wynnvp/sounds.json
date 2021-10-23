@@ -9474,6 +9474,49 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:rol5therealmoflight-buzzing-6", "stream": true}]
   },
+  "nexusoflight-orphion-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-1", "stream": true}]
+  },
+  "nexusoflight-orphion-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-2", "stream": true}]
+  },
+  "nexusoflight-orphion-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-3", "stream": true}]
+  },
+  "nexusoflight-orphion-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-4", "stream": true}]
+  },
+  "nexusoflight-orphion-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-5", "stream": true}]
+  },
+  "nexusoflight-orphion-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-6", "stream": true}]
+  },
+  "nexusoflight-orphion-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-7", "stream": true}]
+  },
+  "nexusoflight-orphion-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-8", "stream": true}]
+  },
+  "nexusoflight-orphion-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-9", "stream": true}]
+  },
+  "nexusoflight-orphion-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-10", "stream": true}]
+  },
+
+
+
 
 
   "losttower-laen-1": {
