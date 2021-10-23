@@ -2683,7 +2683,17 @@ public class SoundsHandler {
         addSound("[7/8] The Mayor: ...hm. That... Mmh. Regardless. Human, you've proven yourself to be trustworthy. We'll keep our doors open for you.", "lexdalewitchtrials-themayor-8", true);
         addSound("[8/8] The Mayor: As for the...THING... Well... I'll be sure to inform the Gavel government. ", "lexdalewitchtrials-themayor-9", true);
 
-
+        //Lost Soles
+        addSound("[1/1] Ferndor:  Have you seen boots called Abysso Galoshes on your journey? A pirate stole them from us years ago! I could reward you if you could bring me the [Abysso Galoshes] and help us!", "lostsoles-ferndor-1", false);
+        addSound("[1/8] Ferndor: I see you have the infamous galoshes with you. But do you know even half of the story of them?", "lostsoles-ferndor-2", false);
+        addSound("[1/10] Grandon: Ferndor sent you here, correct? That must mean you're here to help find the hidden 4 digit code in the manor.", "lostsoles-grandon-1", false);
+        addSound("[1/1] Grandon: \"\"Throw something behind the map on the wall to uncover a piece of the code\"\"? Wait, that probably means the code to the basement!", "lostsoles-grandon-2", false);
+        addSound("[1/7] Grandon: A room hidden underneath the big head? Why didn't I think of that!? I always wondered how self-centered they had to be to put that in, but who knew it actually had a valid purpose!", "lostsoles-grandon-3", false);
+        addSound("[1/6] Grandon: Sheesh! Quite the engineers, these old fellows! Never would've imagined any of this in the house. Anyway, was there a message? What did it say?", "lostsoles-grandon-4", false);
+        addSound("[1/5] Grandon: You found a piece of the code!? Hahah, excellent! I must say, you've made more progress in a few minutes than I have in a few years! You humans really are something!", "lostsoles-grandon-5", false);
+        addSound("[1/5] Ferndor: You found the container? I wish I would have gone with you...", "lostsoles-ferndor-3", false);
+        addSound("[1/1] Ferndor: Now that the boots are back in place, we only need to repair the mansion, and we can live normally again!", "lostsoles-ferndor-4", false);
+        addSound("[1/2] Grandon: This building has such rich history, it would've been an absolute shame to have lost it over just a pair of silly old boots.", "lostsoles-grandon-6", false);
 
         //Canyon Condor
         addSound("[1/9] Svin: I am one of the Keepers in the great Temple of Legends. There we hoard secrets about the world.", "canyoncondor-svin-1", false);

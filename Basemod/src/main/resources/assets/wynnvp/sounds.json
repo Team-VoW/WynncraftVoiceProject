@@ -10468,6 +10468,48 @@
   },
 
 
+  "lostsoles-ferndor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-1", "stream": true}]
+  },
+  "lostsoles-ferndor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-2", "stream": true}]
+  },
+  "lostsoles-grandon-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-1", "stream": true}]
+  },
+  "lostsoles-grandon-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-2", "stream": true}]
+  },
+  "lostsoles-grandon-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-3", "stream": true}]
+  },
+  "lostsoles-grandon-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-4", "stream": true}]
+  },
+  "lostsoles-grandon-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-5", "stream": true}]
+  },
+  "lostsoles-ferndor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-3", "stream": true}]
+  },
+  "lostsoles-ferndor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-4", "stream": true}]
+  },
+  "lostsoles-grandon-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-6", "stream": true}]
+  },
+
+
 
   "ajourneybeyond-elphaba-1": {
     "category": "voice",
