@@ -425,17 +425,45 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:malticwellrynend2", "stream": true}]
   },
-  "malticwellwitch1": {
+  "malticwell-witch-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwellwitch1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:malticwell-witch-1", "stream": true}]
   },
-  "malticwellwitch2": {
+  "malticwell-witch-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwellwitch2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:malticwell-witch-2", "stream": true}]
   },
-  "malticwellwitch3": {
+  "malticwell-witch-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwellwitch3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:malticwell-witch-3", "stream": true}]
+  },
+  "malticwell-witch-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-witch-4", "stream": true}]
+  },
+  "malticwell-witch-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-witch-5", "stream": true}]
+  },
+  "malticwell-witch-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-witch-6", "stream": true}]
+  },
+  "malticwell-witch-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-witch-7", "stream": true}]
+  },
+  "malticwell-witch-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-witch-8", "stream": true}]
+  },
+  "malticwell-witch-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-witch-9", "stream": true}]
+  },
+  "malticwell-witch-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-witch-10", "stream": true}]
   },
 
 
