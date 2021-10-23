@@ -514,10 +514,7 @@
   },
 
 
-    "corruptedviallgealfonse": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallgealfonse", "stream": true}]
-  },
+
   "corruptedviallgeorikal1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:corruptedviallgeorikal1", "stream": true}]
@@ -538,10 +535,88 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:corruptedviallgeorikal5", "stream": true}]
   },
-  "corruptedviallgeroy": {
+  "corruptedviallge-alfonse-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallgeroy", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-1", "stream": true}]
   },
+  "corruptedviallge-roy-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-1", "stream": true}]
+  },
+  "corruptedviallge-alfonse-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-2", "stream": true}]
+  },
+  "corruptedviallge-roy-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-2", "stream": true}]
+  },
+  "corruptedviallge-alfonse-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-3", "stream": true}]
+  },
+  "corruptedviallge-roy-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-3", "stream": true}]
+  },
+  "corruptedviallge-alfonse-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-4", "stream": true}]
+  },
+  "corruptedviallge-alfonse-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-5", "stream": true}]
+  },
+  "corruptedviallge-orikal-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-1", "stream": true}]
+  },
+  "corruptedviallge-orikal-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-2", "stream": true}]
+  },
+  "corruptedviallge-roy-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-4", "stream": true}]
+  },
+  "corruptedviallge-orikal-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-3", "stream": true}]
+  },
+  "corruptedviallge-orikal-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-4", "stream": true}]
+  },
+  "corruptedviallge-alfonse-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-6", "stream": true}]
+  },
+  "corruptedviallge-orikal-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-5", "stream": true}]
+  },
+  "corruptedviallge-roy-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-5", "stream": true}]
+  },
+  "corruptedviallge-alfonse-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-7", "stream": true}]
+  },
+  "corruptedviallge-orikal-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-6", "stream": true}]
+  },
+  "corruptedviallge-roy-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-6", "stream": true}]
+  },
+  "corruptedviallge-orikal-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-7", "stream": true}]
+  },
+
+
 
 
   "icenationshallfred1": {

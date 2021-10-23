@@ -584,13 +584,32 @@ public class SoundsHandler {
         addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummyormrod2", false);
 
         //Corrupted village
-        addSound("[1/17] Roy: Well, that did the trick. Let’s take a look.", "corruptedviallgeroy", false);
         addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallgeorikal1", false);
         addSound("[1/6] Orikal: That was quick... did you find anything?", "corruptedviallgeorikal2", false);
+        addSound("[1/3] Alfonse: This is insane, why are we here?! We're looking for corruption you know that right?", "corruptedviallge-alfonse-1", true);
+        addSound("[2/3] Roy: Calm down. All we have to do is keep digging. Besides, he did say he'd pay us a lot, so stop being mad.", "corruptedviallge-roy-1", true);
+        addSound("[3/3] Alfonse: Forget it, I don't care anymore, just prime the explosive and get clear of the blast!", "corruptedviallge-alfonse-2", true);
+        addSound("[1/17] Roy: Well, that did the trick. Let's take a look.", "corruptedviallge-roy-2", true);
+        addSound("[2/17] Alfonse: Oh my... What... is this?", "corruptedviallge-alfonse-3", true);
+        addSound("[3/17] Roy: It almost looks like a giant spike...Woah. How deep does this thing go?", "corruptedviallge-roy-3", true);
+        addSound("[4/17] Alfonse: Well, you know what? We did our job, so honestly I don't care. Let's get out of he-", "corruptedviallge-alfonse-4", true);
+        addSound("[5/17] Alfonse: Orikal? We’re done! Pay up! I want out. This place is getting to me.", "corruptedviallge-alfonse-5", true);
+        addSound("[6/17] Orikal: I came when I heard the explosion. I thought you'd hurt yourselves.", "corruptedviallge-orikal-1", true);
+        addSound("[7/17] Orikal: Well, I'll be darned. The spike goes this far down? And it looks like it goes even deeper than this!", "corruptedviallge-orikal-2", true);
+        addSound("[8/17] Roy: Well, I don't know about you, but I say we blow it to shreds! That oughta get rid of this spike!", "corruptedviallge-roy-4", true);
+        addSound("[9/17] Orikal: For once, I agree. I'll do it, you guys just get clear.", "corruptedviallge-orikal-3", true);
+        addSound("[10/17] Orikal: ...Wow, that did nothing. We're going to need something MUCH more powerful than TNT...", "corruptedviallge-orikal-4", true);
+        addSound("[11/17] Alfonse: Oh yeah? And just what would you have in mind?", "corruptedviallge-alfonse-6", true);
+        addSound("[12/17] Orikal: Well, it's sorta complicated. That's why I've decided to give our new friend here the job of acquiring this explosive.", "corruptedviallge-orikal-5", true);
+        addSound("[13/17] Roy: Oh yeah, we were so busy with this spike, we forgot to address you! Sorry about that.", "corruptedviallge-roy-5", true);
+        addSound("[14/17] Alfonse: Well if you don't need us anymore then we'll just be on our way... WITH our money! So hand it over please.", "corruptedviallge-alfonse-7", true);
+        addSound("[15/17] Orikal: Alright, fine. Here's your pay. Thank you for your help.", "corruptedviallge-orikal-6", true);
+        addSound("[16/17] Roy: Gah! That's hardly anything! I'm not even surprised. Let's just go.", "corruptedviallge-roy-6", true);
+        addSound("[17/17] Orikal: Anyway, come meet me back at my tent, friend. We will discuss what to do then.", "corruptedviallge-orikal-7", true);
         addSound("[1/5] Orikal: Okay. I happen to know a recipe for creating an extremely lethal magical explosive.", "corruptedviallgeorikal3", false);
         addSound("[1/3] Orikal: You got 'em all! Excellent, this is exactly what we need.", "corruptedviallgeorikal4", false);
         addSound("[1/4] Orikal: Oh, do you feel that? It's like a buzzing in my ears I never knew about has just vanished.", "corruptedviallgeorikal5", false);
-        addSound("[1/3] Alfonse: This is insane, why are we here?! We're looking for corruption you know that right?", "corruptedviallgealfonse", true);
+
 
         //Ice nations
         addSound("[1/6] Adigard: Welcome traveler, to our humble island...", "icenationsadigard1", false);
