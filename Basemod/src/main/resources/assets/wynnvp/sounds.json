@@ -2920,9 +2920,42 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:blazingretributiondetectivejackson1", "stream": true}]
   },
-  "blazingretributiondetectivejackson2": {
+
+  "blazingretribution-detectivejackson-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:blazingretributiondetectivejackson2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-1", "stream": true}]
+  },
+  "blazingretribution-detectivejackson-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-2", "stream": true}]
+  },
+  "blazingretribution-detectivejackson-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-3", "stream": true}]
+  },
+  "blazingretribution-detectivejackson-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-4", "stream": true}]
+  },
+  "blazingretribution-detectivejackson-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-5", "stream": true}]
+  },
+  "blazingretribution-detectivejackson-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-6", "stream": true}]
+  },
+  "blazingretribution-detectivejackson-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-7", "stream": true}]
+  },
+  "blazingretribution-greggr-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:blazingretribution-greggr-1", "stream": true}]
+  },
+  "blazingretribution-detectivejackson-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-8", "stream": true}]
   },
   "blazingretributiondetectivejackson3": {
     "category": "voice",
