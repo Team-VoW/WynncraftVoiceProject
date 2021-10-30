@@ -2979,6 +2979,38 @@
   },
 
 
+  "beneaththedepths-javier-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-1", "stream": true}]
+  },
+  "beneaththedepths-deceasedbuccaneer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-deceasedbuccaneer-1", "stream": true}]
+  },
+  "beneaththedepths-deceasedbuccaneer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-deceasedbuccaneer-4", "stream": true}]
+  },
+  "beneaththedepths-javier-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-2", "stream": true}]
+  },
+  "beneaththedepths-dalben-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-1", "stream": true}]
+  },
+  "beneaththedepths-dalben-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-2", "stream": true}]
+  },
+  "beneaththedepths-javier-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-3", "stream": true}]
+  },
+
+
+
+
   "potionmakingassistant1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:potionmakingassistant1", "stream": true}]

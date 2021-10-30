@@ -150,6 +150,15 @@ public class SoundsHandler {
         addSound("[1/4] Seaskipper Captain: Besides the occasional surge of robots and the bitter relations between the humans and the native folk, I've heard that Corkus was a nice place to live in.", "seaskipper-seaskippercaptain-73", true);
         addSound("[1/4] Seaskipper Captain: Hey, look over there! D'you see that overgrown structure in the distance?", "seaskipper-seaskippercaptain-74", true);
 
+        //Beneath the Depths
+        addSound("[1/9] Javier: Garh, you look like a mighty fine adventurer, lad. But perhaps your pockets are a little lighter than you want, eh?", "beneaththedepths-javier-1", false);
+        addSound("[1/3] Deceased Buccaneer: Halt it there, laddy! The wind has told us that yer looking for treasure map. Ah, ye'll not get it so easily.", "beneaththedepths-deceasedbuccaneer-1", false);
+        addSound("[1/1] Deceased Buccaneer: Good luck on that petty journey of yers. Just find the whole path, and yerself'll be just fine...", "beneaththedepths-deceasedbuccaneer-4", false);
+        addSound("[1/6] Javier: Argh, yer talented aren't you lad! Many thanks indeed, now we can see where me treasure be buried. ", "beneaththedepths-javier-2", false);
+        addSound("[1/10] Dalben: What's this? A traveller? How might we assist you? ", "beneaththedepths-dalben-1", false);
+        addSound("[1/3] Dalben: Brilliant. That seems in order. Here you go.", "beneaththedepths-dalben-2", false);
+        addSound("[1/4] Javier: Gnar, you did it lad! Ye brought back old Javiers gold! And as I promised, heres yer share of the loot.", "beneaththedepths-javier-3", false);
+
 
         //Creeper Infiltration
         addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "creeperinfiltrationthomascreeperinfl1", false);
