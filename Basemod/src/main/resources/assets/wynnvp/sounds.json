@@ -2528,6 +2528,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-74", "stream": true}]
   },
+  "seaskipper-seaskippercaptain-75": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-75", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-76": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-76", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-77": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-77", "stream": true}]
+  },
 
 
   "recoverthepast-dr.picard-1": {

@@ -149,6 +149,9 @@ public class SoundsHandler {
         addSound("[1/4] Seaskipper Captain: I can see that gloomy isle off in the distance... There, ahead, that's where old Skien used to live.", "seaskipper-seaskippercaptain-72", true);
         addSound("[1/4] Seaskipper Captain: Besides the occasional surge of robots and the bitter relations between the humans and the native folk, I've heard that Corkus was a nice place to live in.", "seaskipper-seaskippercaptain-73", true);
         addSound("[1/4] Seaskipper Captain: Hey, look over there! D'you see that overgrown structure in the distance?", "seaskipper-seaskippercaptain-74", true);
+        addSound("[1/4] Seaskipper Captain: Oh, I see you've brought a friend along with you today! It's always nice to share a voyage with someone!", "seaskipper-seaskippercaptain-75", true);
+        addSound("[1/4] Talking Mushroom: HEY, OLD MAN!! SO I'VE BEEN WONDERING... WHAT'S THE DEAL WITH THIS, UH, BUSINESS YOU'VE GOT RUNNING HERE?", "seaskipper-seaskippercaptain-76", true);
+        addSound("[1/4] Talking Mushroom: JEEZ, CAN THIS GUY HURRY UP? THE SALT IN THE WIND IS MAKING ME ROT.", "seaskipper-seaskippercaptain-77", true);
 
         //Beneath the Depths
         addSound("[1/9] Javier: Garh, you look like a mighty fine adventurer, lad. But perhaps your pockets are a little lighter than you want, eh?", "beneaththedepths-javier-1", false);
