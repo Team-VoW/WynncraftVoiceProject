@@ -10229,6 +10229,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-71", "stream": true}]
   },
+  "misadventureonthesea-honip-72": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:misadventureonthesea-honip-72", "stream": true}]
+  },
   "misadventureonthesea-seth-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:misadventureonthesea-seth-3", "stream": true}]

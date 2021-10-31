@@ -519,6 +519,7 @@ public class SoundsHandler {
         addSound("[1/1] Honip: Soldier, now's your time to shine! Scare it off with one of your spells or somethin'!", "misadventureonthesea-honip-69", true);
         addSound("[1/1] Honip: It's working! Do that again!", "misadventureonthesea-honip-70", true);
         addSound("[1/1] Honip: One more...", "misadventureonthesea-honip-71", true);
+        addSound("[4/4] Honip: Anyway, come talk to me.", "misadventureonthesea-honip-72", true);
 
         //Master piece
         addSound("[1/9] Caissop: ...hm...mh!", "masterpiece-caissop-1", false);
