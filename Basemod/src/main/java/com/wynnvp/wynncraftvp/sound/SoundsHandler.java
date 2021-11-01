@@ -1678,7 +1678,8 @@ public class SoundsHandler {
         addSound("[4/8] Lari: What did you do?! The gate is opening? YOU did this?! I know your heart is in the right place, but you're a stranger to this land! ", "rol2taproot-lari-30", true);
         addSound("[5/8] Lari: I...I...rrrgh... AAAAGH!! This isn't fair!! I've worked for decades and the light just...throws me to the wayside?! ", "rol2taproot-lari-31", true);
         addSound("[6/8] Lari: PLEASE! Just let me in!", "rol2taproot-lari-32", true);
-        addSound("[7/9] ???: My pulse, you must leave her be. Her heart's emotions have overpowered her mind's judgement. She must learn to separate them as you have. ", "rol2taproot-orphion-15", true);
+        addSound("[7/9] ???: My pulse, you must leave her be. Her heart's emotions have overpowered her mind's judgement. She must learn to separate them as you have.", "rol2taproot-orphion-15", true);
+        addSound("[1/1] ???: My pulse, you must leave her be. Her heart's emotions have overpowered her mind's judgement. She must learn to separate them as you have.", "rol2taproot-orphion-15-2", true);
         addSound("[7/8] Lari: Please... You can't DO this to me!! ", "rol2taproot-lari-33", true);
         addSound("[8/8] Lari: Why do you want this human to enter the Taproot?! What's special about them, what's their connection? What have they done that I haven't?! Tell me, please! Let me be useful!! ", "rol2taproot-lari-34", true);
         addSound("[1/6] ???: Your heartbeat beats in time with mine. Your mind is unclouded, despite the fury you have been steeped in. My pulse, you are needed. ", "rol2taproot-orphion-16", true);

@@ -7909,6 +7909,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:rol2taproot-orphion-15", "stream": true}]
   },
+  "rol2taproot-orphion-15-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:rol2taproot-orphion-15", "stream": true}]
+  },
   "rol2taproot-lari-33": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:rol2taproot-lari-33", "stream": true}]
