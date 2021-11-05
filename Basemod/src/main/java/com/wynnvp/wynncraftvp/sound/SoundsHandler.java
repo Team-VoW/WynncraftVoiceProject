@@ -738,6 +738,36 @@ public class SoundsHandler {
         addSound("[1/6] Rayshyroth: Oh? Well, greetings. What brings you to our quiet lonely island, let alone all the way up here?", "templeoflegendsrayshyroth1", false);
         addSound("[1/9] Rayshyroth: Aha, you're back with the Sky Vapor! Sorry about the climb, even I find it rather inconvenient at times.", "templeoflegendsrayshyroth2", false);
 
+        //Lazarus Pit
+        addSound("[1/6] Burtur: Ah, one of you adventurin' types, huh? We see a lot of you around here... Going in and out as you please. Must be a nice life.", "lazaruspit-burtur-1", true);
+        addSound("[2/6] Burtur: Though, if you could spare some time, the town could use you-", "lazaruspit-burtur-2", true);
+        addSound("[3/6] Burtur: Wait, already?! It's only been a day since last! How insatiable are they...?", "lazaruspit-burtur-3", true);
+        addSound("[4/6] Gelibord Guard: THE UNDEAD HAVE OVERWHELMED THE GOLEMS! EVERY CITIZEN FOR THEMSELVES!!", "lazaruspit-gelibordguard-1", true);
+        addSound("[1/1] Gelibord Guard: The horde's retreating, but we have one citizen dead! Regroup at the square and prepare the pyres!", "lazaruspit-gelibordguard-2", true);
+        addSound("[1/1] Burtur: Hey! Over there, you alright? Come talk to me, I can explain what just happened.", "lazaruspit-burtur-6", true);
+        addSound("[1/11] Burtur: Phew. That was a smaller horde, thankfully... Still, good thing you were there. That could have been worse.", "lazaruspit-burtur-7", true);
+        addSound("[2/11] Burtur: Still, c'mon now... We have to burn the bodies. Can't leave the job half-done.", "lazaruspit-burtur-8", true);
+        addSound("[3/11] Burtur: It's a bit sacrilegious, but necessary to do right now- otherwise they just keep coming back, like they do across the ridge in Kander.", "lazaruspit-burtur-9", true);
+        addSound("[4/11] Burtur: The ones around here all come up from the river, though, and since it runs right through town, well... You can see the problem.", "lazaruspit-burtur-10", true);
+        addSound("[5/11] Burtur: Since we don't live in a reeking, pockmarked plain, we have to burn the bodies so any dead don't turn right around against us.", "lazaruspit-burtur-11", true);
+        addSound("[6/11] Gelibord Guard: Say your goodbyes, all. Irahe will be missed. Step away from the pyre!", "lazaruspit-gelibordguard-3", true);
+        addSound("[7/11] Burtur: Some conspiracy theorists think that the Lazarus Pit is the issue. It's an urban legend, a well of water that can revive the dead.", "lazaruspit-burtur-12", true);
+        addSound("[8/11] Burtur: Supposing that it's real, it would make some sense, at least- If it started feeding into the river or water tables, then we'd get the current goings-on.", "lazaruspit-burtur-13", true);
+        addSound("[9/11] Burtur: Of course, no one knows where it is, since it's just rumors, but there's supposedly an \"Order\" of pit-keepers. Conveniently long dead, and buried in that small graveyard just north of here.", "lazaruspit-burtur-14", true);
+        addSound("[10/11] Burtur: It's...probably just Referick having made the rounds to any drunk who would listen a while back, but it's also our only shot. If you could give it a search, and a yay or nay?", "lazaruspit-burtur-15", true);
+        addSound("[1/2] Burtur: Oh, you found something? Well, color me shocked that there was any stock to Referick's ranting...", "lazaruspit-burtur-16", false);
+        addSound("[1/3] Lord Plaatic the Kind: Ugh. And who put YOU in charge of waking me up? Where's Gwendolyn, my maid? Incompetents- she was supposed to be buried with me too!", "lazaruspit-lordplaaticthekind-1", false);
+        addSound("[1/2] Lord Plaatic the Kind: Ah, my favorite little weird-small-nosed-person! The graveyard is so lovely when it's quiet- you really did do a good job!", "lazaruspit-lordplaaticthekind-2", false);
+        addSound("[1/3] Poclo Wabblebuff of Gelibord: Greetings! Thank goodness, that dreary old tomb was simply awful. No furniture, no natural light, not even a lick of paint! So drab, the whole thing.", "lazaruspit-poclowabblebuffofgelibord-1", false);
+        addSound("[1/3] Poclo Wabblebuff of Gelibord: So, is Mrs. Fluffles doing alright without me? Oh, I bet she was so affectionate, always such a softie!", "lazaruspit-poclowabblebuffofgelibord-2", false);
+        addSound("[2/3] Poclo Wabblebuff of Gelibord: W-wait, Mrs. Fluffles... She was...d-dead? No... It can't be! I left her a lifetime supply of food! ", "lazaruspit-poclowabblebuffofgelibord-3", false);
+        addSound("[2/3] Poclo Wabblebuff of Gelibord: Oh, thank you so much! I was so worried that after my death she wouldn't be okay... What a relief!", "lazaruspit-poclowabblebuffofgelibord-4", false);
+        addSound("[1/1] Uggword Pollywaggon the Murderous: I oughta deck you for waking me up!! Don't you realize it's RUDE to re-animate the long-dead corpse of a murderer when he's trying to get his beauty death?!", "lazaruspit-uggwordpollywaggonthemurderous-1", false);
+        addSound("[1/4] Sir Pigglesworth the Thirty-Fifth: My goodness! Ah, it feels good to stretch these old bones. It's not easy being cooped up in a coffin, you know.", "lazaruspit-sirpigglesworththethirty-fifth-1", false);
+        addSound("[1/2] Sir Pigglesworth the Thirty-Fifth: Oh, you found it! Wonderful! Just pop it on that fingerbone right there... Ah, it fits even better on the other hand!", "lazaruspit-sirpigglesworththethirty-fifth-2", false);
+        addSound("[1/3] Burtur: Ah, you're back! We were getting a tad worried about you. Were you able to figure anything out in the chapel there?", "lazaruspit-burtur-17", false);
+        addSound("[10/11] Burtur: I'll stay back at the town square, in case the undead attack again. Give me a shout if you find something you aren't sure about.", "lazaruspit-burtur-18", true);
+
         //Cook Assistant
         addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant1", false);
         addSound("[1/3] The Cook: Great! You got all the ingredients!", "cookassistant2", false);

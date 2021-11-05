@@ -2928,6 +2928,122 @@
   },
 
 
+
+  "lazaruspit-burtur-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-1", "stream": true}]
+  },
+  "lazaruspit-burtur-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-2", "stream": true}]
+  },
+  "lazaruspit-burtur-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-3", "stream": true}]
+  },
+  "lazaruspit-gelibordguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-gelibordguard-1", "stream": true}]
+  },
+  "lazaruspit-gelibordguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-gelibordguard-2", "stream": true}]
+  },
+  "lazaruspit-burtur-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-6", "stream": true}]
+  },
+  "lazaruspit-burtur-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-7", "stream": true}]
+  },
+  "lazaruspit-burtur-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-8", "stream": true}]
+  },
+  "lazaruspit-burtur-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-9", "stream": true}]
+  },
+  "lazaruspit-burtur-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-10", "stream": true}]
+  },
+  "lazaruspit-burtur-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-11", "stream": true}]
+  },
+  "lazaruspit-gelibordguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-gelibordguard-3", "stream": true}]
+  },
+  "lazaruspit-burtur-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-12", "stream": true}]
+  },
+  "lazaruspit-burtur-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-13", "stream": true}]
+  },
+  "lazaruspit-burtur-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-14", "stream": true}]
+  },
+  "lazaruspit-burtur-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-15", "stream": true}]
+  },
+  "lazaruspit-burtur-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-16", "stream": true}]
+  },
+  "lazaruspit-lordplaaticthekind-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-lordplaaticthekind-1", "stream": true}]
+  },
+  "lazaruspit-lordplaaticthekind-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-lordplaaticthekind-2", "stream": true}]
+  },
+  "lazaruspit-poclowabblebuffofgelibord-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-poclowabblebuffofgelibord-1", "stream": true}]
+  },
+  "lazaruspit-poclowabblebuffofgelibord-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-poclowabblebuffofgelibord-2", "stream": true}]
+  },
+  "lazaruspit-poclowabblebuffofgelibord-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-poclowabblebuffofgelibord-3", "stream": true}]
+  },
+  "lazaruspit-poclowabblebuffofgelibord-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-poclowabblebuffofgelibord-4", "stream": true}]
+  },
+  "lazaruspit-uggwordpollywaggonthemurderous-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-uggwordpollywaggonthemurderous-1", "stream": true}]
+  },
+  "lazaruspit-sirpigglesworththethirty-fifth-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-sirpigglesworththethirty-fifth-1", "stream": true}]
+  },
+  "lazaruspit-sirpigglesworththethirty-fifth-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-sirpigglesworththethirty-fifth-2", "stream": true}]
+  },
+  "lazaruspit-burtur-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-17", "stream": true}]
+  },
+  "lazaruspit-burtur-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lazaruspit-burtur-18", "stream": true}]
+  },
+
+
+
   "blazingretributiondetectivejackson1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:blazingretributiondetectivejackson1", "stream": true}]
