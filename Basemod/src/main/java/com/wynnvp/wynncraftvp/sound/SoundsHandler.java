@@ -152,6 +152,7 @@ public class SoundsHandler {
         addSound("[1/4] Seaskipper Captain: Oh, I see you've brought a friend along with you today! It's always nice to share a voyage with someone!", "seaskipper-seaskippercaptain-75", true);
         addSound("[1/4] Talking Mushroom: HEY, OLD MAN!! SO I'VE BEEN WONDERING... WHAT'S THE DEAL WITH THIS, UH, BUSINESS YOU'VE GOT RUNNING HERE?", "seaskipper-seaskippercaptain-76", true);
         addSound("[1/4] Talking Mushroom: JEEZ, CAN THIS GUY HURRY UP? THE SALT IN THE WIND IS MAKING ME ROT.", "seaskipper-seaskippercaptain-77", true);
+        addSound("[1/4] Seaskipper Captain: Woah! Hold onto yer helmet, these waves are rougher than usual!", "seaskipper-seaskippercaptain-78", true);
 
         //Beneath the Depths
         addSound("[1/9] Javier: Garh, you look like a mighty fine adventurer, lad. But perhaps your pockets are a little lighter than you want, eh?", "beneaththedepths-javier-1", false);
