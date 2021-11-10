@@ -2546,6 +2546,830 @@
   },
 
 
+
+  "orderofthegrook-seasum-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-seasum-1", "stream": true}]
+  },
+  "orderofthegrook-seasum-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-seasum-2", "stream": true}]
+  },
+  "orderofthegrook-boatcaptain-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-boatcaptain-1", "stream": true}]
+  },
+  "orderofthegrook-boatcaptain-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-boatcaptain-2", "stream": true}]
+  },
+  "orderofthegrook-boatcaptain-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-boatcaptain-3", "stream": true}]
+  },
+  "orderofthegrook-boatcaptain-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-boatcaptain-4", "stream": true}]
+  },
+  "orderofthegrook-mamui-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-mamui-1", "stream": true}]
+  },
+  "orderofthegrook-mamui-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-mamui-2", "stream": true}]
+  },
+  "orderofthegrook-mamui-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-mamui-3", "stream": true}]
+  },
+  "orderofthegrook-student-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-student-1", "stream": true}]
+  },
+  "orderofthegrook-cidre-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-cidre-1", "stream": true}]
+  },
+  "orderofthegrook-una-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-una-1", "stream": true}]
+  },
+  "orderofthegrook-student-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-student-2", "stream": true}]
+  },
+  "orderofthegrook-student-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-student-3", "stream": true}]
+  },
+  "orderofthegrook-headmaster-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-1", "stream": true}]
+  },
+  "orderofthegrook-student-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-student-4", "stream": true}]
+  },
+  "orderofthegrook-student-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-student-5", "stream": true}]
+  },
+  "orderofthegrook-headmaster-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-2", "stream": true}]
+  },
+  "orderofthegrook-headmaster-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-3", "stream": true}]
+  },
+  "orderofthegrook-headmaster-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-4", "stream": true}]
+  },
+  "orderofthegrook-headmaster-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-5", "stream": true}]
+  },
+  "orderofthegrook-headmaster-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-6", "stream": true}]
+  },
+  "orderofthegrook-headmaster-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-7", "stream": true}]
+  },
+  "orderofthegrook-headmaster-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-8", "stream": true}]
+  },
+  "orderofthegrook-headmaster-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-9", "stream": true}]
+  },
+  "orderofthegrook-headmaster-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-10", "stream": true}]
+  },
+  "orderofthegrook-headmaster-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-11", "stream": true}]
+  },
+  "orderofthegrook-headmaster-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-12", "stream": true}]
+  },
+  "orderofthegrook-headmaster-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-13", "stream": true}]
+  },
+  "orderofthegrook-headmaster-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-14", "stream": true}]
+  },
+  "orderofthegrook-headmaster-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-15", "stream": true}]
+  },
+  "orderofthegrook-headmaster-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-16", "stream": true}]
+  },
+  "orderofthegrook-headmaster-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-17", "stream": true}]
+  },
+  "orderofthegrook-headmaster-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-18", "stream": true}]
+  },
+  "orderofthegrook-headmaster-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-19", "stream": true}]
+  },
+  "orderofthegrook-headmaster-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-20", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-1", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-2", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-3", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-4", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-5", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-6", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-7", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-8", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-9", "stream": true}]
+  },
+  "orderofthegrook-ghostguide-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-ghostguide-10", "stream": true}]
+  },
+  "orderofthegrook-teacher-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-1", "stream": true}]
+  },
+  "orderofthegrook-teacher-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-2", "stream": true}]
+  },
+  "orderofthegrook-teacher-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-3", "stream": true}]
+  },
+  "orderofthegrook-teacher-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-4", "stream": true}]
+  },
+  "orderofthegrook-teacher-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-5", "stream": true}]
+  },
+  "orderofthegrook-teacher-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-6", "stream": true}]
+  },
+  "orderofthegrook-teacher-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-7", "stream": true}]
+  },
+  "orderofthegrook-teacher-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-8", "stream": true}]
+  },
+  "orderofthegrook-teacher-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-9", "stream": true}]
+  },
+  "orderofthegrook-teacher-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-10", "stream": true}]
+  },
+  "orderofthegrook-teacher-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-11", "stream": true}]
+  },
+  "orderofthegrook-teacher-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-12", "stream": true}]
+  },
+  "orderofthegrook-teacher-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-13", "stream": true}]
+  },
+  "orderofthegrook-teacher-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-14", "stream": true}]
+  },
+  "orderofthegrook-teacher-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-15", "stream": true}]
+  },
+  "orderofthegrook-teacher-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-16", "stream": true}]
+  },
+  "orderofthegrook-teacher-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-17", "stream": true}]
+  },
+  "orderofthegrook-teacher-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-18", "stream": true}]
+  },
+  "orderofthegrook-teacher-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-19", "stream": true}]
+  },
+  "orderofthegrook-teacher-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-20", "stream": true}]
+  },
+  "orderofthegrook-teacher-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-21", "stream": true}]
+  },
+  "orderofthegrook-teacher-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-22", "stream": true}]
+  },
+  "orderofthegrook-teacher-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-23", "stream": true}]
+  },
+  "orderofthegrook-teacher-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-25", "stream": true}]
+  },
+  "orderofthegrook-teacher-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-27", "stream": true}]
+  },
+  "orderofthegrook-teacher-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-29", "stream": true}]
+  },
+  "orderofthegrook-teacher-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-30", "stream": true}]
+  },
+  "orderofthegrook-teacher-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-31", "stream": true}]
+  },
+  "orderofthegrook-teacher-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-32", "stream": true}]
+  },
+  "orderofthegrook-teacher-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-33", "stream": true}]
+  },
+  "orderofthegrook-teacher-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-34", "stream": true}]
+  },
+  "orderofthegrook-teacher-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-35", "stream": true}]
+  },
+  "orderofthegrook-teacher-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-36", "stream": true}]
+  },
+  "orderofthegrook-teacher-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-37", "stream": true}]
+  },
+  "orderofthegrook-teacher-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-38", "stream": true}]
+  },
+  "orderofthegrook-teacher-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-39", "stream": true}]
+  },
+  "orderofthegrook-teacher-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-40", "stream": true}]
+  },
+  "orderofthegrook-teacher-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-41", "stream": true}]
+  },
+  "orderofthegrook-teacher-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-42", "stream": true}]
+  },
+  "orderofthegrook-teacher-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-43", "stream": true}]
+  },
+  "orderofthegrook-teacher-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-44", "stream": true}]
+  },
+  "orderofthegrook-teacher-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-45", "stream": true}]
+  },
+  "orderofthegrook-teacher-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-46", "stream": true}]
+  },
+  "orderofthegrook-teacher-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-47", "stream": true}]
+  },
+  "orderofthegrook-teacher-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-48", "stream": true}]
+  },
+  "orderofthegrook-teacher-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-49", "stream": true}]
+  },
+  "orderofthegrook-teacher-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-50", "stream": true}]
+  },
+  "orderofthegrook-teacher-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-51", "stream": true}]
+  },
+  "orderofthegrook-teacher-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-52", "stream": true}]
+  },
+  "orderofthegrook-teacher-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-53", "stream": true}]
+  },
+  "orderofthegrook-teacher-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-54", "stream": true}]
+  },
+  "orderofthegrook-teacher-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-55", "stream": true}]
+  },
+  "orderofthegrook-teacher-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-56", "stream": true}]
+  },
+  "orderofthegrook-teacher-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-57", "stream": true}]
+  },
+  "orderofthegrook-teacher-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-58", "stream": true}]
+  },
+  "orderofthegrook-teacher-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-59", "stream": true}]
+  },
+  "orderofthegrook-teacher-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-60", "stream": true}]
+  },
+  "orderofthegrook-teacher-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-61", "stream": true}]
+  },
+  "orderofthegrook-teacher-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-62", "stream": true}]
+  },
+  "orderofthegrook-teacher-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-63", "stream": true}]
+  },
+  "orderofthegrook-teacher-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-64", "stream": true}]
+  },
+  "orderofthegrook-teacher-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-65", "stream": true}]
+  },
+  "orderofthegrook-teacher-66": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-66", "stream": true}]
+  },
+  "orderofthegrook-teacher-67": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-67", "stream": true}]
+  },
+  "orderofthegrook-teacher-68": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-68", "stream": true}]
+  },
+  "orderofthegrook-teacher-69": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-69", "stream": true}]
+  },
+  "orderofthegrook-teacher-70": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-70", "stream": true}]
+  },
+  "orderofthegrook-teacher-71": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-71", "stream": true}]
+  },
+  "orderofthegrook-teacher-72": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-72", "stream": true}]
+  },
+  "orderofthegrook-teacher-73": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-73", "stream": true}]
+  },
+  "orderofthegrook-teacher-74": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-74", "stream": true}]
+  },
+  "orderofthegrook-teacher-75": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-75", "stream": true}]
+  },
+  "orderofthegrook-teacher-76": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-76", "stream": true}]
+  },
+  "orderofthegrook-teacher-77": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-77", "stream": true}]
+  },
+  "orderofthegrook-teacher-78": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-78", "stream": true}]
+  },
+  "orderofthegrook-teacher-79": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-79", "stream": true}]
+  },
+  "orderofthegrook-teacher-80": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-80", "stream": true}]
+  },
+  "orderofthegrook-teacher-81": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-81", "stream": true}]
+  },
+  "orderofthegrook-teacher-82": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-82", "stream": true}]
+  },
+  "orderofthegrook-teacher-83": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-83", "stream": true}]
+  },
+  "orderofthegrook-teacher-84": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-84", "stream": true}]
+  },
+  "orderofthegrook-teacher-85": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-85", "stream": true}]
+  },
+  "orderofthegrook-teacher-86": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-86", "stream": true}]
+  },
+  "orderofthegrook-teacher-87": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-87", "stream": true}]
+  },
+  "orderofthegrook-teacher-88": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-88", "stream": true}]
+  },
+  "orderofthegrook-teacher-89": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-89", "stream": true}]
+  },
+  "orderofthegrook-teacher-90": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-90", "stream": true}]
+  },
+  "orderofthegrook-teacher-91": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-91", "stream": true}]
+  },
+  "orderofthegrook-teacher-92": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-92", "stream": true}]
+  },
+  "orderofthegrook-teacher-93": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-93", "stream": true}]
+  },
+  "orderofthegrook-teacher-94": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-94", "stream": true}]
+  },
+  "orderofthegrook-teacher-95": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-95", "stream": true}]
+  },
+  "orderofthegrook-teacher-96": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-96", "stream": true}]
+  },
+  "orderofthegrook-teacher-97": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-97", "stream": true}]
+  },
+  "orderofthegrook-teacher-98": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-98", "stream": true}]
+  },
+  "orderofthegrook-teacher-99": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-99", "stream": true}]
+  },
+  "orderofthegrook-teacher-100": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-100", "stream": true}]
+  },
+  "orderofthegrook-teacher-101": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-101", "stream": true}]
+  },
+  "orderofthegrook-teacher-102": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-102", "stream": true}]
+  },
+  "orderofthegrook-teacher-103": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-103", "stream": true}]
+  },
+  "orderofthegrook-teacher-104": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-104", "stream": true}]
+  },
+  "orderofthegrook-teacher-105": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-105", "stream": true}]
+  },
+  "orderofthegrook-teacher-106": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-106", "stream": true}]
+  },
+  "orderofthegrook-teacher-107": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-107", "stream": true}]
+  },
+  "orderofthegrook-teacher-108": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-108", "stream": true}]
+  },
+  "orderofthegrook-teacher-109": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-109", "stream": true}]
+  },
+  "orderofthegrook-teacher-110": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-110", "stream": true}]
+  },
+  "orderofthegrook-teacher-111": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-111", "stream": true}]
+  },
+  "orderofthegrook-teacher-112": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-112", "stream": true}]
+  },
+  "orderofthegrook-teacher-113": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-113", "stream": true}]
+  },
+  "orderofthegrook-teacher-114": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-114", "stream": true}]
+  },
+  "orderofthegrook-teacher-115": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-115", "stream": true}]
+  },
+  "orderofthegrook-teacher-116": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-116", "stream": true}]
+  },
+  "orderofthegrook-teacher-117": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-117", "stream": true}]
+  },
+  "orderofthegrook-teacher-118": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-118", "stream": true}]
+  },
+  "orderofthegrook-teacher-119": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-119", "stream": true}]
+  },
+  "orderofthegrook-teacher-120": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-120", "stream": true}]
+  },
+  "orderofthegrook-teacher-121": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-121", "stream": true}]
+  },
+  "orderofthegrook-teacher-122": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-122", "stream": true}]
+  },
+  "orderofthegrook-teacher-123": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-123", "stream": true}]
+  },
+  "orderofthegrook-teacher-124": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-124", "stream": true}]
+  },
+  "orderofthegrook-teacher-126": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-126", "stream": true}]
+  },
+  "orderofthegrook-teacher-127": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-127", "stream": true}]
+  },
+  "orderofthegrook-teacher-128": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-128", "stream": true}]
+  },
+  "orderofthegrook-teacher-129": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-129", "stream": true}]
+  },
+  "orderofthegrook-teacher-130": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-130", "stream": true}]
+  },
+  "orderofthegrook-teacher-131": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-131", "stream": true}]
+  },
+  "orderofthegrook-teacher-132": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-132", "stream": true}]
+  },
+  "orderofthegrook-teacher-133": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-133", "stream": true}]
+  },
+  "orderofthegrook-teacher-134": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-134", "stream": true}]
+  },
+  "orderofthegrook-teacher-135": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-135", "stream": true}]
+  },
+  "orderofthegrook-teacher-136": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-136", "stream": true}]
+  },
+  "orderofthegrook-teacher-137": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-137", "stream": true}]
+  },
+  "orderofthegrook-teacher-138": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-138", "stream": true}]
+  },
+  "orderofthegrook-teacher-139": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-139", "stream": true}]
+  },
+  "orderofthegrook-teacher-140": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-140", "stream": true}]
+  },
+  "orderofthegrook-teacher-141": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-141", "stream": true}]
+  },
+  "orderofthegrook-teacher-142": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-142", "stream": true}]
+  },
+  "orderofthegrook-teacher-143": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-143", "stream": true}]
+  },
+  "orderofthegrook-teacher-144": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-144", "stream": true}]
+  },
+  "orderofthegrook-teacher-145": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-145", "stream": true}]
+  },
+  "orderofthegrook-teacher-146": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-146", "stream": true}]
+  },
+  "orderofthegrook-teacher-147": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-147", "stream": true}]
+  },
+  "orderofthegrook-teacher-148": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-148", "stream": true}]
+  },
+  "orderofthegrook-teacher-149": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-149", "stream": true}]
+  },
+  "orderofthegrook-teacher-150": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-150", "stream": true}]
+  },
+  "orderofthegrook-teacher-151": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-151", "stream": true}]
+  },
+  "orderofthegrook-teacher-152": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-152", "stream": true}]
+  },
+  "orderofthegrook-teacher-153": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-teacher-153", "stream": true}]
+  },
+  "orderofthegrook-headmaster-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-21", "stream": true}]
+  },
+  "orderofthegrook-headmaster-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-22", "stream": true}]
+  },
+  "orderofthegrook-headmaster-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-23", "stream": true}]
+  },
+  "orderofthegrook-headmaster-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-24", "stream": true}]
+  },
+  "orderofthegrook-headmaster-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-25", "stream": true}]
+  },
+  "orderofthegrook-headmaster-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-26", "stream": true}]
+  },
+  "orderofthegrook-headmaster-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-27", "stream": true}]
+  },
+  "orderofthegrook-headmaster-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-28", "stream": true}]
+  },
+  "orderofthegrook-headmaster-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-29", "stream": true}]
+  },
+  "orderofthegrook-headmaster-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-headmaster-30", "stream": true}]
+  },
+
+
+
   "recoverthepast-dr.picard-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:recoverthepast-drpicard-1", "stream": true}]
