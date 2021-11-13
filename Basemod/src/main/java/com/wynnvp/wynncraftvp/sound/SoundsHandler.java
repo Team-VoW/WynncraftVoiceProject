@@ -3441,7 +3441,8 @@ public class SoundsHandler {
         addSound("[1/2] The Banker: Oh, uh! Somebody! It has been so long since I've seen someone!", "junglefever-thebanker-2", false);
         addSound("[1/5] Worid: You are back! Wonderful!", "junglefever-worid-4", false);
 
-
+        //Non quest npc
+        addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
     }
 
 
