@@ -3369,6 +3369,123 @@
   },
 
 
+  "corruptedbetrayal-tromsmage-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-1", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-2", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-3", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-4", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-5", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-6", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-7", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-8", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-9", "stream": true}]
+  },
+  "corruptedbetrayal-tromsguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsguard-1", "stream": true}]
+  },
+  "corruptedbetrayal-tromsguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsguard-2", "stream": true}]
+  },
+  "corruptedbetrayal-tromsguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsguard-3", "stream": true}]
+  },
+  "corruptedbetrayal-slykaar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-slykaar-1", "stream": true}]
+  },
+  "corruptedbetrayal-slykaar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-slykaar-2", "stream": true}]
+  },
+  "corruptedbetrayal-slykaar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-slykaar-3", "stream": true}]
+  },
+  "corruptedbetrayal-slykaar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-slykaar-4", "stream": true}]
+  },
+  "corruptedbetrayal-slykaar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-slykaar-5", "stream": true}]
+  },
+  "corruptedbetrayal-slykaar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-slykaar-6", "stream": true}]
+  },
+  "corruptedbetrayal-slykaar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-slykaar-7", "stream": true}]
+  },
+  "corruptedbetrayal-slykaar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-slykaar-8", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-10", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-11", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-12", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-13", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-14", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-15", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-16", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-17", "stream": true}]
+  },
+  "corruptedbetrayal-tromsmage-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-18", "stream": true}]
+  },
+
 
   "recoverthepast-dr.picard-1": {
     "category": "voice",

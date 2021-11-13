@@ -370,6 +370,37 @@ public class SoundsHandler {
         addSound("[9/10] Headmaster: A shame about Seasum, but not to worry. Now, hand over your materials, and you'll receive your rewards.", "orderofthegrook-headmaster-29", true);
         addSound("[10/10] Headmaster: And there you have it. Your feathers are grown, and you can spread your magical wings! Good luck on your adventures, Wynn soldier.", "orderofthegrook-headmaster-30", true);
 
+        //Corrupted Betrayal
+        addSound("[1/1] Troms Mage: Stay back! I'm casting a fireball at this barrier!", "corruptedbetrayal-tromsmage-1", true);
+        addSound("[1/8] Troms Mage: Gah, no use. Again.", "corruptedbetrayal-tromsmage-2", true);
+        addSound("[2/8] Troms Mage: Ah, I didn't expect to see a Ragni soldier out here. Perhaps you can assist me?", "corruptedbetrayal-tromsmage-3", true);
+        addSound("[3/8] Troms Mage: This is the second cave in the jungle to start spewing out aggressive slimes.", "corruptedbetrayal-tromsmage-4", true);
+        addSound("[4/8] Troms Mage: Being so close to Troms, it's become a major problem.", "corruptedbetrayal-tromsmage-5", true);
+        addSound("[5/8] Troms Mage: We tried to attack it, but this barrier is shaman magic, horrendously powerful too. The only way it could be this strong is if many lives were taken to make it...", "corruptedbetrayal-tromsmage-6", true);
+        addSound("[6/8] Troms Mage: So, we're stuck. The only clue we found is this riddle...", "corruptedbetrayal-tromsmage-7", true);
+        addSound("[7/8] Troms Mage: Near a corrupted bridge, a ruin past its prime...lives a cursed sheep, with the color of lime...lead it down the trail, heading to the slime...sacrifice its soul, in the blood and grime.", "corruptedbetrayal-tromsmage-8", true);
+        addSound("[8/8] Troms Mage: We haven't been able to work it out. Head out to the Great Bridge entrance and see if you can find anything.", "corruptedbetrayal-tromsmage-9", false);
+        addSound("[1/3] Troms Guard: By order of the city of Troms, I am here to keep other citizens from entering this house.", "corruptedbetrayal-tromsguard-1", true);
+        addSound("[2/3] Troms Guard: From past experiences, everyone who has entered this house has vanished from existence...", "corruptedbetrayal-tromsguard-2", true);
+        addSound("[3/3] Troms Guard: I would advise not going inside unless you know what you are doing.", "corruptedbetrayal-tromsguard-3", false);
+        addSound("[1/4] ???: Well, I guess you must know who I am.", "corruptedbetrayal-slykaar-1", true);
+        addSound("[1/5] Slykaar: I experimented my shamanism for many years underground to create the perfect mix of monster. ", "corruptedbetrayal-slykaar-2", true);
+        addSound("[1/2] Slykaar: No one in the Wynn province is willing to make the sacrifices I am to gain power.", "corruptedbetrayal-slykaar-3", true);
+        addSound("[1/3] Slykaar: They were willing to give me a few peasants in 831, when the hordes crossed the bridge.", "corruptedbetrayal-slykaar-4", true);
+        addSound("[1/4] Slykaar: Looks like we have a Bob aspirer. Pale imitation. ", "corruptedbetrayal-slykaar-5", true);
+        addSound("[2/4] Slykaar: Take the scroll. Break the barrier and let your little army men walk into my lair.", "corruptedbetrayal-slykaar-6", true);
+        addSound("[3/4] Slykaar: I am ready; it makes little difference. Soon, Troms will be in ruins. And I shall have my revenge.", "corruptedbetrayal-slykaar-7", true);
+        addSound("[4/4] Slykaar: So, go have fun in Troms while you can. It's not like you have much of a life to live, anyways. ", "corruptedbetrayal-slykaar-8", true);
+        addSound("[1/9] Troms Mage: Any luck with the riddle?", "corruptedbetrayal-tromsmage-10", true);
+        addSound("[2/9] Troms Mage: You found something?", "corruptedbetrayal-tromsmage-11", true);
+        addSound("[3/9] Troms Mage: Hmm...oh my. This is dark stuff. Very dark.", "corruptedbetrayal-tromsmage-12", true);
+        addSound("[4/9] Troms Mage: It doesn't give me pleasure to use this...but it will break the barrier.", "corruptedbetrayal-tromsmage-13", true);
+        addSound("[5/9] Troms Mage: Stand back, I'm not exactly sure what this does.", "corruptedbetrayal-tromsmage-14", true);
+        addSound("[6/9] Troms Mage: The spell...it destroyed the barrier almost instantly...", "corruptedbetrayal-tromsmage-15", true);
+        addSound("[7/9] Troms Mage: Okay men! The barrier is down, so charge against Slykaar before he marches against Troms!", "corruptedbetrayal-tromsmage-16", true);
+        addSound("[8/9] Troms Mage: I don't have much to repay you, but it's at least useful for a soldier like you.", "corruptedbetrayal-tromsmage-17", true);
+        addSound("[9/9] Troms Mage: If you have nothing else to do, you should get yourself prepared and aid the army against Slykaar.", "corruptedbetrayal-tromsmage-18", true);
+
 
         //Creeper Infiltration
         addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "creeperinfiltrationthomascreeperinfl1", false);
