@@ -2230,6 +2230,59 @@
   },
 
 
+  "deathwhistle-voer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-voer-1", "stream": true}]
+  },
+  "deathwhistle-voer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-voer-2", "stream": true}]
+  },
+  "deathwhistle-lari-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-lari-1", "stream": true}]
+  },
+  "deathwhistle-lari-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-lari-2", "stream": true}]
+  },
+  "deathwhistle-voer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-voer-3", "stream": true}]
+  },
+  "deathwhistle-lari-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-lari-3", "stream": true}]
+  },
+  "deathwhistle-voer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-voer-4", "stream": true}]
+  },
+  "deathwhistle-lari-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-lari-4", "stream": true}]
+  },
+  "deathwhistle-lari-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-lari-5", "stream": true}]
+  },
+  "deathwhistle-voer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-voer-5", "stream": true}]
+  },
+  "deathwhistle-witch-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-witch-1", "stream": true}]
+  },
+  "deathwhistle-witch-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-witch-2", "stream": true}]
+  },
+  "deathwhistle-voer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:deathwhistle-voer-6", "stream": true}]
+  },
+
 
 
   "seaskipper-seaskippercaptain-1": {

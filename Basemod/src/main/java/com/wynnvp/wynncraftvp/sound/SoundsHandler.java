@@ -3441,6 +3441,23 @@ public class SoundsHandler {
         addSound("[1/2] The Banker: Oh, uh! Somebody! It has been so long since I've seen someone!", "junglefever-thebanker-2", false);
         addSound("[1/5] Worid: You are back! Wonderful!", "junglefever-worid-4", false);
 
+        //Death Whistle
+        addSound("[1/7] Voer: Hello! Hmm, armour, weapon, look of grim despair... You must be from the Wynn province! ", "deathwhistle-voer-1", false);
+        addSound("[1/1] Voer: I know humans aren't renowned for their memory, but do hurry, yes? What you need is written down in your quest book!", "deathwhistle-voer-2", false);
+        addSound("[1/8] Lari: You, Voer! Inconsiderate thief!", "deathwhistle-lari-1", true);
+        addSound("[2/8] Lari: You've no idea what you even have done, do you? Your thoughtless actions will cost lives!", "deathwhistle-lari-2", true);
+        addSound("[3/8] Voer: Uhm... Excuse me? What do you want, elf girl? We're in the middle of a deal here?", "deathwhistle-voer-3", true);
+        addSound("[4/8] Lari: You sold Pink Pelulite! Have you forgotten its enraging properties? Or shall I read from that herbology book you \"found\" in my camp?", "deathwhistle-lari-3", true);
+        addSound("[5/8] Voer: Wait, wh-what? A Pink PELULITE!? I sold that woman a Pink PELUTE for her luck charms! How dare- wait...wait, Pink Pelute has rounder petals... Oh no.", "deathwhistle-voer-4", true);
+        addSound("[6/8] Lari: You can't even say for certain. This kind of carelessness has no place! If you refuse to exercise the proper thought and caution, then those around you suffer.", "deathwhistle-lari-4", true);
+        addSound("[7/8] Lari: I must...make a difficult choice, and leave this job to you. I've other things to tend to, though it pains me to leave a life in another's hands. Remember this, villager!", "deathwhistle-lari-5", true);
+        addSound("[8/8] Voer: Aaah, this is a disaster! Human, please, Pink Pelulite acts quickly and intensely... Follow the pink trail on the ground, the flowers shed their petals. Get it back before something bad happens!", "deathwhistle-voer-5", false);
+        addSound("[1/2] Witch: Ah, um, come back later please! Something strange is happening!", "deathwhistle-witch-1", true);
+        addSound("[2/2] Witch: My body is a bit, um, not-in-my-control right now! I'd rather not hurt anyone!", "deathwhistle-witch-2", true);
+        addSound("[1/8] Voer: You're back, I see...and you're shedding petals! You got the Pink Pelulite back?", "deathwhistle-voer-6", false);
+
+
+
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
     }
