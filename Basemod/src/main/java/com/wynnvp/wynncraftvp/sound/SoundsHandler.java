@@ -3456,6 +3456,13 @@ public class SoundsHandler {
         addSound("[2/2] Witch: My body is a bit, um, not-in-my-control right now! I'd rather not hurt anyone!", "deathwhistle-witch-2", true);
         addSound("[1/8] Voer: You're back, I see...and you're shedding petals! You got the Pink Pelulite back?", "deathwhistle-voer-6", false);
 
+        //Grand Youth
+        addSound("[1/5] Monte: Oh, what am I to do...? How am I to be our next elder if I cannot even help him... Oh? Ehm, hello, stranger.", "grandyouth-monte-1", false);
+        addSound("[1/6] Salesman: Oh, why hello there! Come for my patented healing water, have you? Any problem instantly cured! Sniffles beware!", "grandyouth-salesman-1", false);
+        addSound("[1/6] Isfurus: Hm, hm...if it really does that, then...oh, is someone there? Erisk? ", "grandyouth-isfurus-1", false);
+        addSound("[1/4] Erisk: And who might you be? We certainly don't get many visitors down here.", "grandyouth-erisk-1", false);
+        addSound("[1/3] Isfurus: Aha. You had no trouble, I assume? Hand the bottle here, I'll finish the seal and remove the impurities...", "grandyouth-isfurus-2", false);
+        addSound("[1/4] Monte: You have returned, I see. Have you the healing water?", "grandyouth-monte-2", false);
 
 
         //Non quest npc

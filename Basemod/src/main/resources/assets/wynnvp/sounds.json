@@ -2284,6 +2284,32 @@
   },
 
 
+  "grandyouth-monte-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:grandyouth-monte-1", "stream": true}]
+  },
+  "grandyouth-salesman-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:grandyouth-salesman-1", "stream": true}]
+  },
+  "grandyouth-isfurus-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:grandyouth-isfurus-1", "stream": true}]
+  },
+  "grandyouth-erisk-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:grandyouth-erisk-1", "stream": true}]
+  },
+  "grandyouth-isfurus-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:grandyouth-isfurus-2", "stream": true}]
+  },
+  "grandyouth-monte-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:grandyouth-monte-2", "stream": true}]
+  },
+
+
 
   "seaskipper-seaskippercaptain-1": {
     "category": "voice",
