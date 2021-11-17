@@ -669,6 +669,12 @@ public class SoundsHandler {
         addSound("[7/8] Theorick: K-keep advancing. Your things, if everyone was as strong as you...we may stand a chance. This could end me, in time, once I am weaker.", "fateofthefallen-theorick-30", true);
         addSound("[8/8] Theorick: Let it be known...Theorick Twain is not dead. He cannot be killed...all will burn...until future days. Here, in this accursed place. Find me...and end it all.", "fateofthefallen-theorick-31", true);
         addSound("[1/9] Telvu: You must have succeeded, or you would be yet in the memory of the past. I can feel some potent magic on you.", "fateofthefallen-telvu-3", false);
+        addSound("[1/2] Ghostly Voice: Soldier! I'm not sure it is wise to be here... An icy death awaits you if you proceed. A death that I will cause..", "icebarrows-ghostlyvoice-1", true);
+        addSound("[1/2] Ghostly Voice: You must think you can save me? There is no cure for what I have.", "icebarrows-ghostlyvoice-2", true);
+        addSound("[1/2] Ghostly Voice: I froze this land to allow it to heal... People did not understand... They came for me, seeking revenge.", "icebarrows-ghostlyvoice-3", true);
+        addSound("[1/1] Ghostly Voice: Even if you think you can cure me.. I can not allow you to try for if it were to fail my corrupted body would wreak havoc on the world!", "icebarrows-ghostlyvoice-4", true);
+
+
 
         //Underice
         addSound("[1/3] Fredris: I'm having trouble with the fish in our lake recently and I am sure the problem lies within the lake itself.", "underice-fredris-1", false);

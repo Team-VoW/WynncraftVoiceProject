@@ -11020,6 +11020,27 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-3", "stream": true}]
   },
+  "icebarrows-ghostlyvoice-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icebarrows-ghostlyvoice-1", "stream": true}]
+  },
+  "icebarrows-ghostlyvoice-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icebarrows-ghostlyvoice-2", "stream": true}]
+  },
+  "icebarrows-ghostlyvoice-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icebarrows-ghostlyvoice-3", "stream": true}]
+  },
+  "icebarrows-ghostlyvoice-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icebarrows-ghostlyvoice-4", "stream": true}]
+  },
+
+
+
+
+
 
 
   "heartofllevigar-zenam-1": {
