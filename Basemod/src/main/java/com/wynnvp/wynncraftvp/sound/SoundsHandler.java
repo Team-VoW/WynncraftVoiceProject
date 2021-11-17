@@ -400,6 +400,10 @@ public class SoundsHandler {
         addSound("[7/9] Troms Mage: Okay men! The barrier is down, so charge against Slykaar before he marches against Troms!", "corruptedbetrayal-tromsmage-16", true);
         addSound("[8/9] Troms Mage: I don't have much to repay you, but it's at least useful for a soldier like you.", "corruptedbetrayal-tromsmage-17", true);
         addSound("[9/9] Troms Mage: If you have nothing else to do, you should get yourself prepared and aid the army against Slykaar.", "corruptedbetrayal-tromsmage-18", true);
+        addSound("[1/1] ???: I can sense your life force... it is very powerful. I shall take pleasure in draining it from your body!", "undergrowthruins-slykaar-1", true);
+        addSound("[1/2] Slykaar: Troms used to beckon to my every need and desire... Even sacrifice it's own children for my magical defense!", "undergrowthruins-slykaar-2", true);
+        addSound("[1/2] Slykaar: Now the city will truly get to witness what power they have discarded... They will see they made the wrong call.", "undergrowthruins-slykaar-3", true);
+        addSound("[1/1] Slykaar: Nothing and no one will stop me from sieging the city. Not even you!", "undergrowthruins-slykaar-4", true);
 
 
         //Creeper Infiltration

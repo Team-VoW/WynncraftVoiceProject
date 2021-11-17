@@ -3565,6 +3565,25 @@
     "sounds": [{ "name": "wynnvp:corruptedbetrayal-tromsmage-18", "stream": true}]
   },
 
+  "undergrowthruins-slykaar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:undergrowthruins-slykaar-1", "stream": true}]
+  },
+  "undergrowthruins-slykaar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:undergrowthruins-slykaar-2", "stream": true}]
+  },
+  "undergrowthruins-slykaar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:undergrowthruins-slykaar-3", "stream": true}]
+  },
+  "undergrowthruins-slykaar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:undergrowthruins-slykaar-4", "stream": true}]
+  },
+
+
+
 
   "recoverthepast-dr.picard-1": {
     "category": "voice",
