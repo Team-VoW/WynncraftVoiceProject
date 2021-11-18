@@ -3581,7 +3581,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:undergrowthruins-slykaar-4", "stream": true}]
   },
-
+  "undergrowthruins-slykaar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:undergrowthruins-slykaar-5", "stream": true}]
+  },
 
 
 
