@@ -2982,7 +2982,7 @@ public class SoundsHandler {
         addSound("[9/11] Ava: To hell with this! I'll show everyone! I'll show how great we could be! You'll see, chief!", "thefeathersflypart1-ava-140", true);
         addSound("[10/11] Avos Chieftain: I can't believe you worked with her, soldier. Well, now you know to avoid her.", "thefeathersflypart1-avoschieftain-38", true);
         addSound("[11/11] Avos Chieftain: ...It appears she left some device on the floor. You might as well take them. And here, take these. We haven't had the chance to thank you regarding the Factory.", "thefeathersflypart1-avoschieftain-39", true);
-        addSound("[1/1] Ava: Hey, don't run off just like that!", "thefeathersflypart1-ava-141", true);
+        addSound("[1/1] Ava: Hey, don't run  off just like that!", "thefeathersflypart1-ava-141", true);
         addSound("[1/1] Ava: Alright, this should be good. Talk to me and I'll explain!", "thefeathersflypart1-ava-142", true);
         addSound("[1/1] Ava: Oh, you're back! Talk to me so we can get started!", "thefeathersflypart1-ava-143", true);
         addSound("[1/1] Ava: Oh no, time's up! It was supposed to be easy... Hold on, I'm booting it up again.", "thefeathersflypart1-ava-144", true);
