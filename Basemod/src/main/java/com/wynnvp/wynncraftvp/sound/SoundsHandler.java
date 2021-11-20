@@ -2662,8 +2662,8 @@ public class SoundsHandler {
 
         //The Envoy Part 1
         addSound("[1/5] Olivin: Mo'in! My name is Olivin.", "theenvoypart1-olivin-1", false);
-        addSound("[1/3] C.S.S Wavebreaker Captain: Welcome welcome to C.S.S Wavebreaker!", "theenvoypart1-c.s.swavebreakercaptain-1", false);
-        addSound("[1/5] C.S.S Wavebreaker Captain: Welcam aboard me ship, I'll bring ye directly to Corkus.", "theenvoypart1-c.s.swavebreakercaptain-2", false);
+        addSound("[1/3] C.S.S Wavebreaker Captain: Welcome welcome to C.S.S Wavebreaker!", "theenvoypart1-csswavebreakercaptain-1", false);
+        addSound("[1/5] C.S.S Wavebreaker Captain: Welcam aboard me ship, I'll bring ye directly to Corkus.", "theenvoypart1-csswavebreakercaptain-2", false);
         addSound("[1/20] Corkus Delegate: It's such an honour to have a Wynn soldier visit our island.", "theenvoypart1-corkusdelegate-1", false);
         addSound("[2/20] Corkus Delegate: We were hoping for a true envoy, but you will do.", "theenvoypart1-corkusdelegate-2", true);
         addSound("[3/20] Corkus Delegate: If you follow me, I'll give you a tour of the city.", "theenvoypart1-corkusdelegate-3", true);
