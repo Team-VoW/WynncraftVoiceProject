@@ -11714,6 +11714,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-8", "stream": true}]
   },
+  "mixedfeelings-corkuscitycitizen-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-9", "stream": true}]
+  },
+  "mixedfeelings-corkuscitycitizen-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-10", "stream": true}]
+  },
   "mixedfeelings-rensa-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-3", "stream": true}]
