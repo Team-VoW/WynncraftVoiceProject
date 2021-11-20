@@ -2728,7 +2728,7 @@ public class SoundsHandler {
         addSound("[2/9] Maxie: Beltrude, we have a problem! The factory is running!", "theenvoypart1-maxie-36", false);
         addSound("[3/9] Maxie: We saw a mech... A new mech! It looked different like it was made in-", "theenvoypart1-maxie-37", false);
         addSound("[4/9] Corkus Delegate: What a load of scrap! You shouldn't talk about that in front of our guest!", "theenvoypart1-corkusdelegate-22", false);
-        addSound("[5/9] Maxie: Our guest... just killed several despermechs by himself.", "theenvoypart1-maxie-38", false);
+        addSound("[5/9] Maxie: Our guest... just killed several despermechs by themselves.", "theenvoypart1-maxie-38", false);
         addSound("[6/9] Corkus Delegate: And why would we take the word of someone who can't do basic electromagic?", "theenvoypart1-corkusdelegate-23", false);
         addSound("[7/9] Corkus Delegate: Don't listen to Maxie. Enjoy your stay.", "theenvoypart1-corkusdelegate-24", false);
         addSound("[8/9] Maxie: They won't admit anything with you around. They want to become allies with Wynn.", "theenvoypart1-maxie-39", false);
