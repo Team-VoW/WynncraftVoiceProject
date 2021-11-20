@@ -252,6 +252,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingsrecruit-tasim-21", "stream": true}]
   },
+  "kingsrecruit-tasim-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-tasim-22", "stream": true}]
+  },
   "kingsrecruit-guard2-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-3", "stream": true}]
