@@ -430,11 +430,11 @@ public class SoundsHandler {
         addSound("But your actions... Your deeds... They shape me, hurt me, heal me.", "pointofnoreturn-soul-10", false);
         addSound("Choose our path wisely.", "pointofnoreturn-soul-11", false);
         addSound("[1/1] Lutho Guard: If you really want to leave, no one is stopping you. Except maybe yourself.", "pointofnoreturn-luthoguard-1", false);
-        addSound("Something is holding us back.", "pointofnoreturn-soul-12", false);
-        addSound("You must keep going.", "pointofnoreturn-soul-13", false);
-        addSound("We must keep going.", "pointofnoreturn-soul-14", false);
-        addSound("[1/1] soul: Are you sure we want to face reality?", "pointofnoreturn-soul-15", false);
-        addSound("[1/1] soul: The only one holding us back is us.", "pointofnoreturn-soul-16", false);
+        addSound("Something is holding us back.", "pointofnoreturn-soul-12", true);
+        addSound("You must keep going.", "pointofnoreturn-soul-13", true);
+        addSound("We must keep going.", "pointofnoreturn-soul-14", true);
+        addSound("Are you sure we want to face reality?", "pointofnoreturn-soul-15", true);
+        addSound("The only one holding us back is us.", "pointofnoreturn-soul-16", true);
         addSound("[1/5] Lutho Citizen: You- you chose to come back. I saw your eyes disappear, briefly.", "pointofnoreturn-luthocitizen-5", false);
 
         //The Hunger of Gerts Part 1
@@ -3494,27 +3494,33 @@ public class SoundsHandler {
     }
 
     public static String formatToSound(String message) {
-        message = message.replaceAll(" ", "");
-        message = message.toLowerCase();
-        message = message.replace(" ", "");
         message = getActualText(message);
+        message = message.toLowerCase();
         message = message.replaceAll("[^abcdefghijklmnopqrstuvwxyz?!0123456789/]", "");
 
         return message;
     }
 
     private static String getActualText(String message) {
-        if (!message.contains("pressshifttocontinue")) {
-            if (message.contains("[")) {
-                message = message.replace("[", "awlrs");
-                message = getTextAfterSplit(message, "awlrs");
-                message = "[" + message;
-            }
+        if (message.contains("iso95bfiso95bf")) {
+            System.out.println("Contained nn");
 
-            return message;
+            //Get the last sentence after the \n\n
+            String messageAfterDoubleSlashN = getTextAfterSplit(message, "iso95bfiso95bf");
+            messageAfterDoubleSlashN = messageAfterDoubleSlashN.trim();
+            System.out.println(messageAfterDoubleSlashN);
+
+            //Checks if the message ends with Press SHIFT to continue\n
+            if (messageAfterDoubleSlashN.contains("Press SHIFT to continue")){
+                System.out.println("Ended with Press shift to continue");
+                message = getTextSecondToLastInSplit(message, "iso95bfiso95bf");
+            }
+            //IF the message does not end with press shift to continue
+            else {
+                //Remove any \n that is remaining
+                message = messageAfterDoubleSlashN.replace("iso95bf", "");
+            }
         }
-        message = getTextBeforeSplit(message, "\\n\\npressshifttocontinue");
-        message = getTextAfterSplit(message, "\\n\\n");
         return message;
     }
 
@@ -3527,6 +3533,21 @@ public class SoundsHandler {
     public static String getTextBeforeSplit(String message, String split) {
         String[] splitMessage = message.split(split);
         message = splitMessage[0];
+        return message;
+    }
+
+    public static String getTextSecondToLastInSplit(String message, String split) {
+        String[] splitMessage = message.split(split);
+        System.out.println("Split: " + message + " by: " + split + " Length: " + splitMessage.length);
+        if (splitMessage.length > 1) {
+            //I
+            //Gets the second to last message inbetween the split
+            message = splitMessage[splitMessage.length - 2];
+
+
+        } else {
+            message = splitMessage[0];
+        }
         return message;
     }
 

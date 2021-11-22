@@ -21,9 +21,19 @@ public class ReceiveChatEvent {
     @SubscribeEvent
     public static void receivedChat(ClientChatReceivedEvent event) {
         String msg = event.getMessage().getUnformattedText();
+
+
+        msg = msg.replace("\n", "iso95bf");
+
+
+        System.out.println(msg);
+        if (msg.contains("iso95bf")) System.out.println("Contained nn at 1");
+
+        //Replace player Name with "soldier"
         if (msg.contains(Minecraft.getMinecraft().player.getName())) {
             msg = msg.replace(Minecraft.getMinecraft().player.getName(), "soldier");
         }
+
         msg = SoundsHandler.formatToSound(msg);
         if (isInMixedFeelingsQuest()) {
             String result = getMixedFeelingsLine(msg);
