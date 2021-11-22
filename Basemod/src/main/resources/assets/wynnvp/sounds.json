@@ -11801,6 +11801,396 @@
 
 
 
+  "forbiddenprison-merchant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-merchant-1", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-1", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-2", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-3", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-4", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-5", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-6", "stream": true}]
+  },
+  "forbiddenprison-oldprisoner-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-oldprisoner-1", "stream": true}]
+  },
+  "forbiddenprison-oldprisoner-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-oldprisoner-2", "stream": true}]
+  },
+  "forbiddenprison-oldprisoner-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-oldprisoner-3", "stream": true}]
+  },
+  "forbiddenprison-oldprisoner-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-oldprisoner-4", "stream": true}]
+  },
+  "forbiddenprison-oldprisoner-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-oldprisoner-5", "stream": true}]
+  },
+  "forbiddenprison-oldprisoner-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-oldprisoner-6", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-7", "stream": true}]
+  },
+  "forbiddenprison-oldprisoner-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-oldprisoner-7", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-8", "stream": true}]
+  },
+  "forbiddenprison-prisoner-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-1", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-9", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-10", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-11", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-12", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-13", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-14", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-15", "stream": true}]
+  },
+  "forbiddenprison-thewarden-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-1", "stream": true}]
+  },
+  "forbiddenprison-thewarden-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-2", "stream": true}]
+  },
+  "forbiddenprison-thewarden-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-3", "stream": true}]
+  },
+  "forbiddenprison-thewarden-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-4", "stream": true}]
+  },
+  "forbiddenprison-thewarden-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-5", "stream": true}]
+  },
+  "forbiddenprison-starvingprisoner-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-starvingprisoner-1", "stream": true}]
+  },
+  "forbiddenprison-starvingprisoner-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-starvingprisoner-2", "stream": true}]
+  },
+  "forbiddenprison-starvingprisoner-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-starvingprisoner-3", "stream": true}]
+  },
+  "forbiddenprison-starvingprisoner-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-starvingprisoner-4", "stream": true}]
+  },
+  "forbiddenprison-starvingprisoner-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-starvingprisoner-5", "stream": true}]
+  },
+  "forbiddenprison-starvingprisoner-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-starvingprisoner-6", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-1", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-2", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-3", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-4", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-5", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-6", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-7", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-8", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-9", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-16", "stream": true}]
+  },
+  "forbiddenprison-mafiaprisoner-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-mafiaprisoner-10", "stream": true}]
+  },
+  "forbiddenprison-prisoner-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-2", "stream": true}]
+  },
+  "forbiddenprison-prisoner-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-3", "stream": true}]
+  },
+  "forbiddenprison-prisoner-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-4", "stream": true}]
+  },
+  "forbiddenprison-prisoner-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-5", "stream": true}]
+  },
+  "forbiddenprison-prisoner-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-6", "stream": true}]
+  },
+  "forbiddenprison-prisoner-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-7", "stream": true}]
+  },
+  "forbiddenprison-prisoner-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-8", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-17", "stream": true}]
+  },
+  "forbiddenprison-prisoner-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-9", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-18", "stream": true}]
+  },
+  "forbiddenprison-thewarden-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-6", "stream": true}]
+  },
+  "forbiddenprison-thewarden-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-7", "stream": true}]
+  },
+  "forbiddenprison-thewarden-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-8", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-19", "stream": true}]
+  },
+  "forbiddenprison-thewarden-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-9", "stream": true}]
+  },
+  "forbiddenprison-thewarden-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-10", "stream": true}]
+  },
+  "forbiddenprison-prisoner-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-10", "stream": true}]
+  },
+  "forbiddenprison-prisoner-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-11", "stream": true}]
+  },
+  "forbiddenprison-prisoner-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-12", "stream": true}]
+  },
+  "forbiddenprison-thewarden-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-11", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-20", "stream": true}]
+  },
+  "forbiddenprison-prisoner-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-13", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-21", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-22", "stream": true}]
+  },
+  "forbiddenprison-thewarden-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-12", "stream": true}]
+  },
+  "forbiddenprison-thewarden-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-13", "stream": true}]
+  },
+  "forbiddenprison-thewarden-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-14", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-23", "stream": true}]
+  },
+  "forbiddenprison-thewarden-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-15", "stream": true}]
+  },
+  "forbiddenprison-prisoner-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-14", "stream": true}]
+  },
+  "forbiddenprison-thewarden-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-16", "stream": true}]
+  },
+  "forbiddenprison-prisoner-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-15", "stream": true}]
+  },
+  "forbiddenprison-thewarden-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-17", "stream": true}]
+  },
+  "forbiddenprison-thewarden-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-18", "stream": true}]
+  },
+  "forbiddenprison-thewarden-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-thewarden-19", "stream": true}]
+  },
+  "forbiddenprison-injuredprisoner-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-injuredprisoner-1", "stream": true}]
+  },
+  "forbiddenprison-injuredprisoner-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-injuredprisoner-2", "stream": true}]
+  },
+  "forbiddenprison-injuredprisoner-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-injuredprisoner-3", "stream": true}]
+  },
+  "forbiddenprison-injuredprisoner-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-injuredprisoner-4", "stream": true}]
+  },
+  "forbiddenprison-prisonguard-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-24", "stream": true}]
+  },
+  "forbiddenprison-prisoner-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-16", "stream": true}]
+  },
+  "forbiddenprison-prisoner-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-17", "stream": true}]
+  },
+  "forbiddenprison-prisoner-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-18", "stream": true}]
+  },
+  "forbiddenprison-prisoner-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-19", "stream": true}]
+  },
+  "forbiddenprison-prisoner-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-20", "stream": true}]
+  },
+  "forbiddenprison-prisoner-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-21", "stream": true}]
+  },
+  "forbiddenprison-prisoner-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-22", "stream": true}]
+  },
+  "forbiddenprison-prisoner-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-23", "stream": true}]
+  },
+  "forbiddenprison-prisoner-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-24", "stream": true}]
+  },
+  "forbiddenprison-prisoner-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-25", "stream": true}]
+  },
+  "forbiddenprison-prisoner-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-26", "stream": true}]
+  },
+
+
   "thebiggerpicture-psilo-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-1", "stream": true}]
