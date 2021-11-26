@@ -1813,7 +1813,7 @@ public class SoundsHandler {
         addSound("[1/5] Urelix: And what do you think you are doing, barging into my humble home like this? Do they not teach humans manners in Wynn?", "anironheartpart2-drurelix-1", false);
         addSound("[1/10] Dr. Urelix: Well well, look at you, here at the end of my factory. I wasn't expecting you to survive the production line. I thought you'd be one of ours by now.", "anironheartpart2-drurelix-2", false);
         addSound("[1/3] Dr. Urelix: Ahh, a wise choice. Production will continue then...and you've earned yourself a pocket full of emeralds at the same time.", "anironheartpart2-drurelix-3", false);
-        addSound("[5/17] Guard Golem: BZZT. [ERROR]...? Madeleine...?", "anironheartpart2-guardgolem-1", false);
+        addSound("5/17guardgolembzzterror?madeleine?", "anironheartpart2-guardgolem-1", false);
         addSound("[6/17] Guard Golem: MADELEINE! Where's...wait! What's happening, where am I? WHO'S VOICE IS THIS?!", "anironheartpart2-guardgolem-2", false);
         addSound("[8/17] Guard Golem?: They... my daughter... SHUT UP! QUIET! Who's giving me orders- NO ORDERS! Cold! COLD!", "anironheartpart2-guardgolem-3", false);
         addSound("[11/17] Guard Golem?: STOP GIVING ME ORDERS!! I'M...I'M THEODORE! I'M NOT A SERVANT! I...where has my life gone...? Where is...", "anironheartpart2-guardgolem-4", false);
