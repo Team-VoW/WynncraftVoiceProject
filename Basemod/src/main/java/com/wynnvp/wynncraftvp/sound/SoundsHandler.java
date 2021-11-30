@@ -3573,6 +3573,15 @@ public class SoundsHandler {
         addSound("[4/5] Kaetan: But seriously, thank you, soldier. I thought I was going to get killed in there! This isn't much, but hopefully it can help you get back on your feet after all of that.", "forbiddenprison-prisoner-25", true);
         addSound("[5/5] Kaetan: Anyways, I have to go now. But if I can ever help you with anything at all, just let me know! I'm forever in your debt, human.", "forbiddenprison-prisoner-26", true);
 
+        //Haven Antiquity
+        addSound("[1/6] Cinfras: Hey there adventurer, can I speak with you for a second? I need you to do a spot of detective work for me.", "havenantiquity-cinfras-1", false);
+        addSound("[1/7] Old Siwel: What do you want? I'm busy. Brewing potions takes focus, you know....", "havenantiquity-oldsiwel-1", false);
+        addSound("[1/9] Old Siwel: Excellent. You acquired the ingredients. Just give me a second and I'll prepare you for your journey into the mind of the dead. ", "havenantiquity-oldsiwel-2", false);
+        addSound("[1/5] Siwel: Oh, hello there. Would you mind helping me with something for a second?  ", "havenantiquity-siwel-1", false);
+        addSound("[1/7] Siwel: You're back! Were you able to stop that egg?", "havenantiquity-siwel-2", false);
+        addSound("[1/8] Old Siwel: What? You... you made it back? Oh... Very well. Alchemy can be a... dangerous practice. ", "havenantiquity-oldsiwel-3", false);
+        addSound("[1/4] Cinfras: So, did you find out what happened?", "havenantiquity-cinfras-2", false);
+
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
     }

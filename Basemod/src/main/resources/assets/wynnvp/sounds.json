@@ -11116,6 +11116,36 @@
   },
 
 
+  "havenantiquity-cinfras-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-1", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-1", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-2", "stream": true}]
+  },
+  "havenantiquity-siwel-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-1", "stream": true}]
+  },
+  "havenantiquity-siwel-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-2", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-3", "stream": true}]
+  },
+  "havenantiquity-cinfras-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-2", "stream": true}]
+  },
+
+
   "misadventureonthesea-barman-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:misadventureonthesea-barman-1", "stream": true}]
