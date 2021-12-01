@@ -3076,7 +3076,7 @@ public class SoundsHandler {
         addSound("[2/16] Nasea: What, he brushed you off like THAT? Jeez, I knew he was a jerk, but really? That's just uncalled for.", "riseofthequartron-nasea-3", false);
         addSound("[3/16] Nasea: We have to make him talk...if shipments keep going missing, my contractors are going to look elsewhere!", "riseofthequartron-nasea-4", false);
         addSound("[4/16] Nasea: We need to prove that he's guilty...wait, you came to ME for ideas? This is why I asked you for help! Am I really back to square one?", "riseofthequartron-nasea-5", false);
-        addSound("[5/16] Lari: Aah, Nasea!", "riseofthequartron-lari-1", false);
+        addSound("[5/16] ???: Aah, Nasea!", "riseofthequartron-lari-1", false);
         addSound("[6/16] Nasea: I...what are you doing here, uh...Larry? Were you missing quartz too??", "riseofthequartron-nasea-6", false);
         addSound("[7/16] Lari: Ah, it's...Lari. No, the quartz shipment found its way fine...", "riseofthequartron-lari-2", false);
         addSound("[8/16] Lari: But, there was hardly an effect. Your idea was, unfortunately, a dead end.", "riseofthequartron-lari-3", false);
