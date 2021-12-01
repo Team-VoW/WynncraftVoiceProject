@@ -12175,6 +12175,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-24", "stream": true}]
   },
+  "forbiddenprison-prisonguard-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:forbiddenprison-prisonguard-25", "stream": true}]
+  },
   "forbiddenprison-prisoner-16": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:forbiddenprison-prisoner-16", "stream": true}]

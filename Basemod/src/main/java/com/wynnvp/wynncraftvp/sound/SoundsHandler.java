@@ -3567,6 +3567,7 @@ public class SoundsHandler {
         addSound("[1/3] Prisoner: Yes, perfect, PERFECT! That's the key, hand it to me!", "forbiddenprison-prisoner-19", true);
         addSound("[2/3] Prisoner: I can't explain the debt I owe you, human... You have no idea how grateful I am..", "forbiddenprison-prisoner-20", true);
         addSound("[3/3] Prisoner: Say, what's your name, human? soldier? Alright, my name's Kaetan. Go on ahead and get out of here, I'll catch up. If you do get out of this chop-shop, meet me in Cinfras, I want to give you something there.", "forbiddenprison-prisoner-21", true);
+        addSound("[1/1] Prison Guard: Huh..? Oh- HEY! The table caught on fire, someone get over 'ere and help me put it out!", "forbiddenprison-prisonguard-25", true);
         addSound("[1/5] ???: HEY, soldier, soldier, wait for me!", "forbiddenprison-prisoner-22", true);
         addSound("[2/5] Kaetan: There you are! Good to see you managed to escape that horrid place!", "forbiddenprison-prisoner-23", true);
         addSound("[3/5] Kaetan: I managed to get back in touch with the transportation company I work with. I got transferred to another route now, so I won't be going anywhere near that prison now!", "forbiddenprison-prisoner-24", true);
