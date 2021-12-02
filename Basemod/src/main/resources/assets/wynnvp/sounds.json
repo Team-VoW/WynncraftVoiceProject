@@ -12239,6 +12239,40 @@
   },
 
 
+  "troubledtribesmen-kalargwit-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-1", "stream": true}]
+  },
+  "troubledtribesmen-krattson-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-krattson-1", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-1", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-2", "stream": true}]
+  },
+  "troubledtribesmen-kalargwit-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-2", "stream": true}]
+  },
+  "troubledtribesmen-entamis-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-entamis-1", "stream": true}]
+  },
+  "troubledtribesmen-entamis-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-entamis-2", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-3", "stream": true}]
+  },
+
+
 
   "lexdalewitchtrials-themayor-1": {
     "category": "voice",

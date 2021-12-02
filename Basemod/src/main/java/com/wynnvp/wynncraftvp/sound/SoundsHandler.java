@@ -3583,6 +3583,17 @@ public class SoundsHandler {
         addSound("[1/8] Old Siwel: What? You... you made it back? Oh... Very well. Alchemy can be a... dangerous practice. ", "havenantiquity-oldsiwel-3", false);
         addSound("[1/4] Cinfras: So, did you find out what happened?", "havenantiquity-cinfras-2", false);
 
+        //Troubled Tribesmen
+        addSound("[1/2] Ka L'argwit: Fa yna tuusat! Dra sykel uv drec cylnat dnaa ryc paah lunnibdat.", "troubledtribesmen-kalargwit-1", false);
+        addSound("[1/6] Krattson: Hey! Aren't these people fascinating? They sure smell bad, though! What? That Tribesman said my name?! Amazing! I've been trying to communicate with them for weeks.", "troubledtribesmen-krattson-1", false);
+        addSound("[1/7] Inrekei: Oui ryja y bufanvim vaam ypuid oui, cdnyhkan. So baubma yna eh tyhkan. Bmayca, dyga drec yht ramb dras.", "troubledtribesmen-inrekei-1", false);
+        addSound("[2/7] Inrekei: I have cast a spell on you. If you can understand me, you are pure of heart.", "troubledtribesmen-inrekei-2", false);
+        addSound("[1/8] Ka L'argwit: For as long as I am able to recall upon, my people have called this tree our guardian. She shares her magic with those who respect her and keep her healthy. ", "troubledtribesmen-kalargwit-2", false);
+        addSound("[1/3] Entamis: Thank you for coming. We haven't but moments. The monster's name is Aenara. He's a fiendish monster of corruption.", "troubledtribesmen-entamis-1", true);
+        addSound("[3/3] Entamis: You musn't let me be reborn a creature of evil...", "troubledtribesmen-entamis-2", true);
+        addSound("[1/4] Inrekei: Hello again. I am grateful you have returned safely. You don't need to say anything, though. I no longer can sense Entamis. I know she has died...", "troubledtribesmen-inrekei-3", false);
+
+
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
     }
