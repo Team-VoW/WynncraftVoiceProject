@@ -26,7 +26,6 @@ public class ReceiveChatEvent {
         msg = msg.replace("\n", "iso95bf");
 
 
-        System.out.println(msg);
         if (msg.contains("iso95bf")) System.out.println("Contained nn at 1");
 
         //Replace player Name with "soldier"
@@ -38,7 +37,6 @@ public class ReceiveChatEvent {
         if (isInMixedFeelingsQuest()) {
             String result = getMixedFeelingsLine(msg);
             if (result != null) {
-                System.out.println("Overriding input message");
                 msg = result;
             }
         }

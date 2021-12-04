@@ -12274,6 +12274,57 @@
 
 
 
+  "shatteredminds-likeru-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-likeru-1", "stream": true}]
+  },
+  "shatteredminds-professoreih-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-1", "stream": true}]
+  },
+  "shatteredminds-professoreih-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-2", "stream": true}]
+  },
+  "shatteredminds-professoreih-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-3", "stream": true}]
+  },
+  "shatteredminds-professoreih-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-4", "stream": true}]
+  },
+  "shatteredminds-questionmark-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-questionmark-1", "stream": true}]
+  },
+  "shatteredminds-professoreih-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-5", "stream": true}]
+  },
+  "shatteredminds-professoreih-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-6", "stream": true}]
+  },
+  "shatteredminds-elderberusia-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-elderberusia-1", "stream": true}]
+  },
+  "shatteredminds-elderberusia-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-elderberusia-2", "stream": true}]
+  },
+  "shatteredminds-elderberusia-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-elderberusia-3", "stream": true}]
+  },
+  "shatteredminds-likeru-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shatteredminds-likeru-2", "stream": true}]
+  },
+
+
+
   "lexdalewitchtrials-themayor-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-1", "stream": true}]

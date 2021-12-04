@@ -3593,6 +3593,20 @@ public class SoundsHandler {
         addSound("[3/3] Entamis: You musn't let me be reborn a creature of evil...", "troubledtribesmen-entamis-2", true);
         addSound("[1/4] Inrekei: Hello again. I am grateful you have returned safely. You don't need to say anything, though. I no longer can sense Entamis. I know she has died...", "troubledtribesmen-inrekei-3", false);
 
+        //Shattered Minds
+        addSound("[1/6] Likeru: Aha, perfect! You'll be perfect! Lucky a human decided to come here!", "shatteredminds-likeru-1", false);
+        addSound("[1/5] ???: Looks like someone rolled about the air fuzz too much, so indeed hello! A light hello to yourself, soldier, and a greetings to Professor Eih, which is me!", "shatteredminds-professoreih-1", false);
+        addSound("[1/3] Professor Eih: The punks scramble like eggs, and your skillet is sizzling! Certainly the heat in the kitchen is too much- so where is the fire extinguisher?", "shatteredminds-professoreih-2", false);
+        addSound("[1/1] Professor Eih: Swish and sproont! Or is it the other way around? The moon shoes will help too!", "shatteredminds-professoreih-3", false);
+        addSound("[1/5] Professor Eih: The colors! Shimmering as a prism- oh, no one likes those things. The writing is on the wall, but the window mugs it for pocket change! The inhumanity!", "shatteredminds-professoreih-4", false);
+        addSound("[1/1] ???: Hey, look to your left for a moment.", "shatteredminds-questionmark-1", true);
+        addSound("[1/4] Professor Eih: Familiar to the nursing home, with no IV in sight! Phenomenal, and now my gambling metaphors will be apropos! ", "shatteredminds-professoreih-5", false);
+        addSound("[1/3] Professor Eih: There we are! Snapped out of it! Though perhaps writing in the mud was better- Soon it will dry.", "shatteredminds-professoreih-6", false);
+        addSound("[1/3] Elder Berusia: Ugh. Rats chewing the roots. They've their place, it simply isn't here. Neither is your place in the koi pond, stranger.", "shatteredminds-elderberusia-1", false);
+        addSound("[2/3] Elder Berusia: I believe Likeru tossed you into the deep end without meaning, so to speak. I understand your being overwhelmed, but still...", "shatteredminds-elderberusia-2", false);
+        addSound("[3/3] Elder Berusia: Speaking of which, it might behoove you to let her know you've recovered. Though, should you need rest, you may take it here.", "shatteredminds-elderberusia-3", false);
+        addSound("[1/6] Likeru: Ehm. Okay, that was...a bad idea. Should NOT have done that with a human. Uh, noted for the futu- oh, you're actually alright?!", "shatteredminds-likeru-2", false);
+
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
