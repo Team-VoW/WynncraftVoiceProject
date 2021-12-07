@@ -12335,6 +12335,17 @@
   },
 
 
+  "thanosvaults-dolem-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thanosvaults-dolem-1", "stream": true}]
+  },
+  "thanosvaults-dolem-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thanosvaults-dolem-2", "stream": true}]
+  },
+
+
+
   "lexdalewitchtrials-themayor-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-1", "stream": true}]
