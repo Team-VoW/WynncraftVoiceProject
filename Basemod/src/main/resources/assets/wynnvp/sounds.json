@@ -12325,6 +12325,16 @@
 
 
 
+  "thecanarycalls-grenot-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanarycalls-grenot-1", "stream": true}]
+  },
+  "thecanarycalls-grenot-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanarycalls-grenot-2", "stream": true}]
+  },
+
+
   "lexdalewitchtrials-themayor-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-1", "stream": true}]

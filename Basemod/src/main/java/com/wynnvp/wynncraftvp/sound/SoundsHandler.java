@@ -3607,6 +3607,10 @@ public class SoundsHandler {
         addSound("[3/3] Elder Berusia: Speaking of which, it might behoove you to let her know you've recovered. Though, should you need rest, you may take it here.", "shatteredminds-elderberusia-3", false);
         addSound("[1/6] Likeru: Ehm. Okay, that was...a bad idea. Should NOT have done that with a human. Uh, noted for the futu- oh, you're actually alright?!", "shatteredminds-likeru-2", false);
 
+        //The Canary Calls
+        addSound("[1/7] Grenot: If you're here to get some coal, we're all out. It's like we told everyone else, the mine isn't safe.", "thecanarycalls-grenot-1", false);
+        addSound("[1/4] Grenot: What happened? I heard an explosion, and when one of the other miners went to check what happened, the gas was gone!", "thecanarycalls-grenot-2", false);
+
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
