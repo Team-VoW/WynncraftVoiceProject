@@ -3615,6 +3615,10 @@ public class SoundsHandler {
         addSound("[1/10] Dolem: Hello, adventurer. What brings you to Thanos? Travelling, I suppose.", "thanosvaults-dolem-1", false);
         addSound("[1/4] Dolem: Very nice work. You have done well. I am rather impressed that you pulled that off so easily.", "thanosvaults-dolem-2", false);
 
+        //Belly of the beast
+        addSound("[1/9] King Burtan: Hello, traveller. I suppose you have taken note of the fearsome dragon above our fortress. ", "bellyofthebeast-kingburtan-1", false);
+        addSound("[1/7] Tharroli: Great, another person fell down here. No one seems to be able to survive the trip down... Except for us, I suppose.", "bellyofthebeast-tharroli-1", false);
+        addSound("[1/5] King Burtan: Have you fed the flower to Ozoth? You have? Thank you, I cannot believe you were brave enough to approach a dragon. I only curse myself for not honouring my people.", "bellyofthebeast-kingburtan-2", false);
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);

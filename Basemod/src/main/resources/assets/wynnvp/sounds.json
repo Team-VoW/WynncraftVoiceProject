@@ -12346,6 +12346,21 @@
 
 
 
+  "bellyofthebeast-kingburtan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bellyofthebeast-kingburtan-1", "stream": true}]
+  },
+  "bellyofthebeast-tharroli-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bellyofthebeast-tharroli-1", "stream": true}]
+  },
+  "bellyofthebeast-kingburtan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bellyofthebeast-kingburtan-2", "stream": true}]
+  },
+
+
+
   "lexdalewitchtrials-themayor-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-1", "stream": true}]
