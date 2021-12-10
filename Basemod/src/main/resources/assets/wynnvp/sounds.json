@@ -12360,6 +12360,32 @@
   },
 
 
+  "purpleandblue-korun-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-1", "stream": true}]
+  },
+  "purpleandblue-korun-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-2", "stream": true}]
+  },
+  "purpleandblue-nedlom-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nedlom-1", "stream": true}]
+  },
+  "purpleandblue-nedlom-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nedlom-2", "stream": true}]
+  },
+  "purpleandblue-gryndilinchief-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-gryndilinchief-1", "stream": true}]
+  },
+  "purpleandblue-korun-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-3", "stream": true}]
+  },
+
+
 
   "lexdalewitchtrials-themayor-1": {
     "category": "voice",

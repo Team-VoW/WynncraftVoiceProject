@@ -3620,6 +3620,15 @@ public class SoundsHandler {
         addSound("[1/7] Tharroli: Great, another person fell down here. No one seems to be able to survive the trip down... Except for us, I suppose.", "bellyofthebeast-tharroli-1", false);
         addSound("[1/5] King Burtan: Have you fed the flower to Ozoth? You have? Thank you, I cannot believe you were brave enough to approach a dragon. I only curse myself for not honouring my people.", "bellyofthebeast-kingburtan-2", false);
 
+        //Purple and blue
+        addSound("[1/9] Korun: You humans seem to have no concept of personal space, wandering in my home like that. Anyway, welcome to Lake Gylia.", "purpleandblue-korun-1", false);
+        addSound("[1/6] Korun: What's this?! This looks like the helmet the villager is wearing in the painting! But it looks faded.", "purpleandblue-korun-2", false);
+        addSound("[1/1] Nedlom: Help! Help! Somebody help me, I'm stuck!", "purpleandblue-nedlom-1", true);
+        addSound("[1/10] Nedlom: What on earth are you?! Do you speak my language?", "purpleandblue-nedlom-2", false);
+        addSound("[1/1] Gryndilin Chief: Blaurk, Stay away! Lake sacred! Blerak! I will protect!", "purpleandblue-gryndilinchief-1", true);
+        addSound("[1/7] Korun: You made it back! Did you find the core? Wow, look at this!", "purpleandblue-korun-3", false);
+
+
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
     }
