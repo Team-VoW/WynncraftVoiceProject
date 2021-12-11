@@ -3667,16 +3667,13 @@ public class SoundsHandler {
 
     private static String getActualText(String message) {
         if (message.contains("iso95bfiso95bf")) {
-            System.out.println("Contained nn");
 
             //Get the last sentence after the \n\n
             String messageAfterDoubleSlashN = getTextAfterSplit(message, "iso95bfiso95bf");
             messageAfterDoubleSlashN = messageAfterDoubleSlashN.trim();
-            System.out.println(messageAfterDoubleSlashN);
 
             //Checks if the message ends with Press SHIFT to continue\n
             if (messageAfterDoubleSlashN.contains("Press SHIFT to continue")){
-                System.out.println("Ended with Press shift to continue");
                 message = getTextSecondToLastInSplit(message, "iso95bfiso95bf");
             }
             //IF the message does not end with press shift to continue
