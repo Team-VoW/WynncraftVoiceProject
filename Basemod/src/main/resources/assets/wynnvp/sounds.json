@@ -2627,6 +2627,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-78", "stream": true}]
   },
+  "seaskipper-seaskippercaptain-79": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-79", "stream": true}]
+  },
 
 
 
