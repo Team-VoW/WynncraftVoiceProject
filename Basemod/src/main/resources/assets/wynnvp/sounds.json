@@ -3589,6 +3589,35 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:undergrowthruins-slykaar-5", "stream": true}]
   },
+  "cur-slykaar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cur-slykaar-1", "stream": true}]
+  },
+  "cur-slykaar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cur-slykaar-2", "stream": true}]
+  },
+  "cur-slykaar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cur-slykaar-3", "stream": true}]
+  },
+  "cur-slykaar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cur-slykaar-4", "stream": true}]
+  },
+  "cur-slykaar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cur-slykaar-5", "stream": true}]
+  },
+  "cur-slykaar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cur-slykaar-6", "stream": true}]
+  },
+  "cur-slykaar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cur-slykaar-7", "stream": true}]
+  },
+
 
 
 
