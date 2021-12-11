@@ -11073,6 +11073,24 @@
     "sounds": [{ "name": "wynnvp:icebarrows-ghostlyvoice-4", "stream": true}]
   },
 
+  "cib-ghostlyvoice-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cib-ghostlyvoice-1", "stream": true}]
+  },
+  "cib-ghostlyvoice-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cib-ghostlyvoice-2", "stream": true}]
+  },
+  "cib-ghostlyvoice-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cib-ghostlyvoice-3", "stream": true}]
+  },
+  "cib-ghostlyvoice-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cib-ghostlyvoice-4", "stream": true}]
+  },
+
+
 
 
 

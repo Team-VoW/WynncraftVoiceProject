@@ -684,6 +684,12 @@ public class SoundsHandler {
         addSound("[1/2] Ghostly Voice: You must think you can save me? There is no cure for what I have.", "icebarrows-ghostlyvoice-2", true);
         addSound("[1/2] Ghostly Voice: I froze this land to allow it to heal.. People did not understand.. They came for me here, seeking revenge.", "icebarrows-ghostlyvoice-3", true);
         addSound("[1/1] Ghostly Voice: Even if you think you can cure me.. I can not allow you to try for if it were to fail my corrupted body would wreak havoc on the world!", "icebarrows-ghostlyvoice-4", true);
+        //Cib
+        addSound("[1/2] Ghostly Voice: I told you it would fail.", "cib-ghostlyvoice-1", true);
+        addSound("[2/2] Ghostly Voice: Your noble deeds have allowed the darkness to take over my mind.", "cib-ghostlyvoice-2", true);
+        addSound("[1/2] Ghostly Voice: It all seems clear to me now.. The struggle for life… It’s futile. There need only be peaceful darkness.", "cib-ghostlyvoice-3", true);
+        addSound("[1/1] Ghostly Voice: I will not let you stop me!", "cib-ghostlyvoice-4", true);
+
 
 
         //Underice
