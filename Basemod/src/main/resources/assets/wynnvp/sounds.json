@@ -13837,6 +13837,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomkandon", "stream": true}]
   },
+  "talkingmushroomtoa": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomtoa", "stream": true}]
+  },
 
 
   "nonquestnpc-vanguardvan-1": {

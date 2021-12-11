@@ -73,6 +73,7 @@ public class SoundsHandler {
         addSound("[1/3] Talking Mushroom: ...I DON'T KNOW WHAT MANIC IDEA YOU'RE ABOUT TO HAVE NOW, BUT I'M GOING TO PUT AN END TO IT RIGHT NOW. YOU DO NOT WANT TO GO IN THERE.", "talkingmushroomoutsideeo", true);
         addSound("[1/3] Talking Mushroom: REALLY COOL CITY, HUH? BUILT UP ON THE CLIFFS, VERY STYLISH, IS THAT WHAT YOU'RE THINKING?", "talkingmushroomkandon", true);
         addSound("[1/6] Talking Mushroom: \"WOW, WHAT EVEN IS THIS PLACE?? FEELS OMINOUS, LOOKS LAME, WHAT ARE WE DOING HERE? DROP ME OFF SOMEPLACE ELSE!\"", "talkingmushroomqirahive", false);
+        addSound("[1/3] Talking Mushroom: WOW, GET A LOAD OF THIS PLACE! VERY FANCY. I'M SURE WHATEVER IT IS, IT'S PROBABLY VERY IMPORTANT!", "talkingmushroomtoa", false);
 
         //Sea skipper
         addSound("[1/1] Seaskipper Captain: Where are ya headed? Nemract, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-1", true);
