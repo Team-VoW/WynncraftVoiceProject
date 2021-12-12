@@ -2314,6 +2314,288 @@
   },
 
 
+  "memoryparanoia-atisun-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-atisun-1", "stream": true}]
+  },
+  "memoryparanoia-atisun-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-atisun-2", "stream": true}]
+  },
+  "memoryparanoia-servant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-servant-1", "stream": true}]
+  },
+  "memoryparanoia-timmy-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timmy-1", "stream": true}]
+  },
+  "memoryparanoia-maid-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-maid-1", "stream": true}]
+  },
+  "memoryparanoia-timmy-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timmy-2", "stream": true}]
+  },
+  "memoryparanoia-maid-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-maid-2", "stream": true}]
+  },
+  "memoryparanoia-timmy-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timmy-3", "stream": true}]
+  },
+  "memoryparanoia-servant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-servant-2", "stream": true}]
+  },
+  "memoryparanoia-maid-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-maid-3", "stream": true}]
+  },
+  "memoryparanoia-servant-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-servant-3", "stream": true}]
+  },
+  "memoryparanoia-timmy-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timmy-4", "stream": true}]
+  },
+  "memoryparanoia-maid-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-maid-4", "stream": true}]
+  },
+  "memoryparanoia-timmy-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timmy-5", "stream": true}]
+  },
+  "memoryparanoia-servant-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-servant-4", "stream": true}]
+  },
+  "memoryparanoia-page-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-page-1", "stream": true}]
+  },
+  "memoryparanoia-page-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-page-2", "stream": true}]
+  },
+  "memoryparanoia-page-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-page-3", "stream": true}]
+  },
+  "memoryparanoia-page-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-page-4", "stream": true}]
+  },
+  "memoryparanoia-page-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-page-5", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-1", "stream": true}]
+  },
+  "memoryparanoia-timmy-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timmy-6", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-2", "stream": true}]
+  },
+  "memoryparanoia-timmy-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timmy-7", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-3", "stream": true}]
+  },
+  "memoryparanoia-timmy-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timmy-8", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-5", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-6", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-7", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-8", "stream": true}]
+  },
+  "memoryparanoia-timothy-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timothy-1", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-9", "stream": true}]
+  },
+  "memoryparanoia-baker-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-baker-1", "stream": true}]
+  },
+  "memoryparanoia-chef-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-chef-1", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-1", "stream": true}]
+  },
+  "memoryparanoia-timothy-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timothy-2", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-2", "stream": true}]
+  },
+  "memoryparanoia-timothy-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timothy-3", "stream": true}]
+  },
+  "memoryparanoia-servant-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-servant-5", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-3", "stream": true}]
+  },
+  "memoryparanoia-servant-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-servant-6", "stream": true}]
+  },
+  "memoryparanoia-timothy-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-timothy-4", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-4", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-5", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-6", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-10", "stream": true}]
+  },
+  "memoryparanoia-mistercaritat-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mistercaritat-11", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-7", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-8", "stream": true}]
+  },
+  "memoryparanoia-mrs.caritat-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mrs.caritat-1", "stream": true}]
+  },
+  "memoryparanoia-mrs.caritat-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mrs.caritat-2", "stream": true}]
+  },
+  "memoryparanoia-mrs.caritat-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mrs.caritat-3", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-9", "stream": true}]
+  },
+  "memoryparanoia-mr.caritat-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-mr.caritat-10", "stream": true}]
+  },
+  "memoryparanoia-caritatsenior-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-caritatsenior-1", "stream": true}]
+  },
+  "memoryparanoia-lari-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-lari-1", "stream": true}]
+  },
+  "memoryparanoia-caritatsenior-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-caritatsenior-2", "stream": true}]
+  },
+  "memoryparanoia-lari-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-lari-2", "stream": true}]
+  },
+  "memoryparanoia-caritatsenior-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-caritatsenior-3", "stream": true}]
+  },
+  "memoryparanoia-lari-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-lari-3", "stream": true}]
+  },
+  "memoryparanoia-caritatsenior-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-caritatsenior-4", "stream": true}]
+  },
+  "memoryparanoia-caritatsenior-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-caritatsenior-5", "stream": true}]
+  },
+  "memoryparanoia-lari-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-lari-4", "stream": true}]
+  },
+  "memoryparanoia-caritatsenior-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-caritatsenior-6", "stream": true}]
+  },
+  "memoryparanoia-lari-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-lari-5", "stream": true}]
+  },
+  "memoryparanoia-caritatsenior-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-caritatsenior-7", "stream": true}]
+  },
+  "memoryparanoia-lari-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-lari-6", "stream": true}]
+  },
+  "memoryparanoia-caritatsenior-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-caritatsenior-8", "stream": true}]
+  },
+  "memoryparanoia-atisun-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-atisun-3", "stream": true}]
+  },
+  "memoryparanoia-atisun-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:memoryparanoia-atisun-4", "stream": true}]
+  },
+
+
 
   "seaskipper-seaskippercaptain-1": {
     "category": "voice",
