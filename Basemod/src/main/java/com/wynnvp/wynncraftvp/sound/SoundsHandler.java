@@ -3718,6 +3718,12 @@ public class SoundsHandler {
         addSound("[1/1] Atisun: Hey! Human! Are you alright?! Please, calm down, quit flailing around, you're safe!", "memoryparanoia-atisun-3", true);
         addSound("[1/8] Atisun: Oh thank goodness, you're back to us. I was so worried... er, you might not recall. Let me explain...", "memoryparanoia-atisun-4", false);
 
+        //Murder Mystery
+        addSound("[1/7] Captain Lorias: Stand back, human! This is a crime scene, under my authority. I cannot let you inside.", "murdermystery-captainlorias-1", false);
+        addSound("[1/8] Rohem: Ah, a human! A refreshing sight these days. You've come to see me, I presume? What brings you here?", "murdermystery-rohem-1", false);
+        addSound("[1/8] Valimare: How did ya find us down 'ere? I don't remember you... you're with the police, aren't ya? Here after Eminar, I suppose? ", "murdermystery-valimare-1", false);
+        addSound("[1/8] Rohem: Ah... you again! You're back. I see that. I must admit, I did not expect you to return... so soon...", "murdermystery-rohem-2", false);
+        addSound("[1/4] Captain Lorias: What's that, have you made any more progress? This killer needs to be caught as soon as possible-", "murdermystery-captainlorias-2", false);
 
 
         //Non quest npc

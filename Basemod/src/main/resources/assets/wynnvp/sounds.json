@@ -2597,6 +2597,29 @@
 
 
 
+  "murdermystery-captainlorias-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-1", "stream": true}]
+  },
+  "murdermystery-rohem-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-1", "stream": true}]
+  },
+  "murdermystery-valimare-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-valimare-1", "stream": true}]
+  },
+  "murdermystery-rohem-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-2", "stream": true}]
+  },
+  "murdermystery-captainlorias-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-2", "stream": true}]
+  },
+
+
+
   "seaskipper-seaskippercaptain-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-1", "stream": true}]
