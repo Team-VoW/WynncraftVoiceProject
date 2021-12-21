@@ -3725,6 +3725,17 @@ public class SoundsHandler {
         addSound("[1/8] Rohem: Ah... you again! You're back. I see that. I must admit, I did not expect you to return... so soon...", "murdermystery-rohem-2", false);
         addSound("[1/4] Captain Lorias: What's that, have you made any more progress? This killer needs to be caught as soon as possible-", "murdermystery-captainlorias-2", false);
 
+        //A Marauders Dues
+        addSound("[1/12] Norsten: Tryin' to get through for free, eh? Nice try, but no one passes through here without paying.", "amaraudersdues-norsten-1", false);
+        addSound("[1/4] ????: Yoohoo! You there! Yes you! Come no further or I shall be forced to act!", "amaraudersdues-volmor-1", true);
+        addSound("[2/4] ????: I can see you! You can't hide from little old me!", "amaraudersdues-volmor-2", true);
+        addSound("[3/4] ????: I know why you are here, and I can promise this won't end well for you, darling!", "amaraudersdues-volmor-3", true);
+        addSound("[4/4] ????: Do you really think you've seen me in all my glory? Hah! Silly old goose! I'll make you suffer!", "amaraudersdues-volmor-4", true);
+        addSound("[1/8] Volmor: Oh gosh, you're here, bother! Where did I put my pink wand, I simply can't cast in black!", "amaraudersdues-volmor-5", false);
+        addSound("[1/1] Volmor: Oooh, you brave soldier! Not even I, the great and fabulous Volmor would pretend to be able to deal with those ghastly creatures! Try not to die down there, the smell would waft up here and disturb my fragranced tower!", "amaraudersdues-volmor-6", true);
+        addSound("[1/7] Norsten: Oh looky, it's you again. You gonna pay this time?", "amaraudersdues-norsten-2", false);
+
+
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);

@@ -2619,6 +2619,39 @@
   },
 
 
+  "amaraudersdues-norsten-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-1", "stream": true}]
+  },
+  "amaraudersdues-volmor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-1", "stream": true}]
+  },
+  "amaraudersdues-volmor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-2", "stream": true}]
+  },
+  "amaraudersdues-volmor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-3", "stream": true}]
+  },
+  "amaraudersdues-volmor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-4", "stream": true}]
+  },
+  "amaraudersdues-volmor-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-5", "stream": true}]
+  },
+  "amaraudersdues-volmor-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-6", "stream": true}]
+  },
+  "amaraudersdues-norsten-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-2", "stream": true}]
+  },
+
 
   "seaskipper-seaskippercaptain-1": {
     "category": "voice",
