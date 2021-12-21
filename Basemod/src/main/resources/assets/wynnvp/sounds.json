@@ -2653,6 +2653,56 @@
   },
 
 
+  "thecanyonguides-gana-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-gana-1", "stream": true}]
+  },
+  "thecanyonguides-seluc-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-1", "stream": true}]
+  },
+  "thecanyonguides-seluc-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-2", "stream": true}]
+  },
+  "thecanyonguides-seluc-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-3", "stream": true}]
+  },
+  "thecanyonguides-seluc-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-4", "stream": true}]
+  },
+  "thecanyonguides-seluc-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-5", "stream": true}]
+  },
+  "thecanyonguides-seluc-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-6", "stream": true}]
+  },
+  "thecanyonguides-gana-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-gana-2", "stream": true}]
+  },
+  "thecanyonguides-seluc-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-7", "stream": true}]
+  },
+  "thecanyonguides-gana-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-gana-3", "stream": true}]
+  },
+  "thecanyonguides-seluc-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-8", "stream": true}]
+  },
+  "thecanyonguides-seluc-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-9", "stream": true}]
+  },
+
+
   "seaskipper-seaskippercaptain-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-1", "stream": true}]

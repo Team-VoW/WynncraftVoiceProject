@@ -3735,6 +3735,20 @@ public class SoundsHandler {
         addSound("[1/1] Volmor: Oooh, you brave soldier! Not even I, the great and fabulous Volmor would pretend to be able to deal with those ghastly creatures! Try not to die down there, the smell would waft up here and disturb my fragranced tower!", "amaraudersdues-volmor-6", true);
         addSound("[1/7] Norsten: Oh looky, it's you again. You gonna pay this time?", "amaraudersdues-norsten-2", false);
 
+    //The Canyon Guides
+        addSound("[1/6] Gana: Hello, adventurer. Welcome to Bantisu Temple. We help \"\"the lost\"\" move on, and help travellers like yourself navigate the canyon.", "thecanyonguides-gana-1", false);
+        addSound("[1/2] Seluc: Hello, is someone there? I can't believe it! Do you know your way around the canyon? I'm so lost! Must be because I'm so nearsighted...", "thecanyonguides-seluc-1", true);
+        addSound("[2/2] Seluc: The people at Bantisu Temple can help me? All right, I'll come with you, but watch out for rockslides!", "thecanyonguides-seluc-2", true);
+        addSound("[1/1] Seluc: Be careful, there's a rockslide coming! We both need to keep away from that red area!", "thecanyonguides-seluc-3", true);
+        addSound("[1/1] Seluc: There's another rockslide coming! Remember to keep away from that red area!", "thecanyonguides-seluc-4", true);
+        addSound("[1/1] Seluc: Oh no, it's another rockslide! We need to hurry to the other side before it blocks the path completely!", "thecanyonguides-seluc-5", true);
+        addSound("[1/1] Seluc: We've finally made it! And it's all thanks to you, human. ", "thecanyonguides-seluc-6", true);
+        addSound("[1/5] Gana: Ah, I see you have arrived safely, Seluc.", "thecanyonguides-gana-2", false);
+        addSound("[2/5] Seluc: Yeah, and it's all thanks to you, human! You saved my life out there! Wait... how do you even know my name? ", "thecanyonguides-seluc-7", false);
+        addSound("[3/5] Gana: I am at one with the wind, I can see and hear all.", "thecanyonguides-gana-3", false);
+        addSound("[4/5] Seluc: Anyways, I can't thank you enough for coming to my rescue like that.", "thecanyonguides-seluc-8", false);
+        addSound("[5/5] Seluc: Take this, it's the least I can give you for saving my life. ", "thecanyonguides-seluc-9", false);
+
 
 
         //Non quest npc
