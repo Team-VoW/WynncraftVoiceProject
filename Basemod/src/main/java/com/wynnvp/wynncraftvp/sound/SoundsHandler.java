@@ -3749,6 +3749,14 @@ public class SoundsHandler {
         addSound("[4/5] Seluc: Anyways, I can't thank you enough for coming to my rescue like that.", "thecanyonguides-seluc-8", false);
         addSound("[5/5] Seluc: Take this, it's the least I can give you for saving my life. ", "thecanyonguides-seluc-9", false);
 
+        //The ultimate weapon
+        addSound("[1/8] Dodegar: I'm glad you came along, I could do with a little help if you're not too busy.", "theultimateweapon-dodegar-1", false);
+        addSound("[1/4] Dodegar: Wow! You got the wood I needed, thanks!  ", "theultimateweapon-dodegar-2", false);
+        addSound("[1/7] Dodegar: Ah, Gollier Iron, perfect...", "theultimateweapon-dodegar-3", false);
+        addSound("[1/4] Dodegar: Finally! You took your time! This weapon is seriously going to be the best thing I've ever made.", "theultimateweapon-dodegar-4", false);
+        addSound("[1/5] Dodegar: Ah... Finally... My masterpiece... Let me imbue it with the blue blood!", "theultimateweapon-dodegar-5", false);
+        addSound("[3/5] Dodegar: Look at it! It's looking amazing! Don't you think? Since you helped me to make it, I will give one to you!", "theultimateweapon-dodegar-6", false);
+
 
 
         //Non quest npc

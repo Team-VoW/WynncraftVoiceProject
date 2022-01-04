@@ -2703,6 +2703,34 @@
   },
 
 
+  "theultimateweapon-dodegar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-1", "stream": true}]
+  },
+  "theultimateweapon-dodegar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-2", "stream": true}]
+  },
+  "theultimateweapon-dodegar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-3", "stream": true}]
+  },
+  "theultimateweapon-dodegar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-4", "stream": true}]
+  },
+  "theultimateweapon-dodegar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-5", "stream": true}]
+  },
+  "theultimateweapon-dodegar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-6", "stream": true}]
+  },
+
+
+
+
   "seaskipper-seaskippercaptain-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-1", "stream": true}]
