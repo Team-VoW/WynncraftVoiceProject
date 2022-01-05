@@ -2729,6 +2729,20 @@
   },
 
 
+  "thefortuneteller-jill-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefortuneteller-jill-1", "stream": true}]
+  },
+  "thefortuneteller-jill-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefortuneteller-jill-2", "stream": true}]
+  },
+  "thefortuneteller-farcor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefortuneteller-farcor-1", "stream": true}]
+  },
+
+
 
   "acquiringcredentials-officer-1": {
     "category": "voice",

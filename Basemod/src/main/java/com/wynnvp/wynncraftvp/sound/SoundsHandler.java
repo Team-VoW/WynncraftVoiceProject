@@ -3838,6 +3838,10 @@ public class SoundsHandler {
         addSound("[4/5] Doan: Wait... That's MY passport?! It was in my pocket all along...", "acquiringcredentials-doan-31", true);
         addSound("[5/5] Doan: Well, uhhh... I guess you can have some of these emeralds, then... ", "acquiringcredentials-doan-32", true);
 
+        //The fortune teller
+        addSound("[1/8] Jill: Oh, a Human! We don't see many of your kind around here. ", "thefortuneteller-jill-1", false);
+        addSound("[1/4] Jill: You're back! What did you find?", "thefortuneteller-jill-2", false);
+        addSound("[1/6] Farcor: So... another greed infested simpleton has sought me out for their own desires.", "thefortuneteller-farcor-1", false);
 
 
 
