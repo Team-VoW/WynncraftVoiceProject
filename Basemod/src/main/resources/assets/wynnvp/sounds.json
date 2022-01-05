@@ -2730,6 +2730,324 @@
 
 
 
+  "acquiringcredentials-officer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-officer-1", "stream": true}]
+  },
+  "acquiringcredentials-doan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-1", "stream": true}]
+  },
+  "acquiringcredentials-officer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-officer-2", "stream": true}]
+  },
+  "acquiringcredentials-officer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-officer-3", "stream": true}]
+  },
+  "acquiringcredentials-officer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-officer-4", "stream": true}]
+  },
+  "acquiringcredentials-doan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-2", "stream": true}]
+  },
+  "acquiringcredentials-doan-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-3", "stream": true}]
+  },
+  "acquiringcredentials-kid-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-kid-1", "stream": true}]
+  },
+  "acquiringcredentials-father-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-father-1", "stream": true}]
+  },
+  "acquiringcredentials-doan-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-4", "stream": true}]
+  },
+  "acquiringcredentials-doan-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-5", "stream": true}]
+  },
+  "acquiringcredentials-doan-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-6", "stream": true}]
+  },
+  "acquiringcredentials-barman-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-barman-1", "stream": true}]
+  },
+  "acquiringcredentials-doan-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-7", "stream": true}]
+  },
+  "acquiringcredentials-doan-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-8", "stream": true}]
+  },
+  "acquiringcredentials-doan-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-9", "stream": true}]
+  },
+  "acquiringcredentials-doan-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-10", "stream": true}]
+  },
+  "acquiringcredentials-doan-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-11", "stream": true}]
+  },
+  "acquiringcredentials-doan-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-12", "stream": true}]
+  },
+  "acquiringcredentials-waiter-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-waiter-1", "stream": true}]
+  },
+  "acquiringcredentials-doan-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-13", "stream": true}]
+  },
+  "acquiringcredentials-doan-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-14", "stream": true}]
+  },
+  "acquiringcredentials-commander-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-commander-1", "stream": true}]
+  },
+  "acquiringcredentials-commander-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-commander-2", "stream": true}]
+  },
+  "acquiringcredentials-commander-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-commander-3", "stream": true}]
+  },
+  "acquiringcredentials-commander-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-commander-4", "stream": true}]
+  },
+  "acquiringcredentials-commander-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-commander-5", "stream": true}]
+  },
+  "acquiringcredentials-commander-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-commander-6", "stream": true}]
+  },
+  "acquiringcredentials-commander-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-commander-7", "stream": true}]
+  },
+  "acquiringcredentials-doan-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-15", "stream": true}]
+  },
+  "acquiringcredentials-doan-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-16", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-1", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-2", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-3", "stream": true}]
+  },
+  "acquiringcredentials-doan-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-17", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-4", "stream": true}]
+  },
+  "acquiringcredentials-doan-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-18", "stream": true}]
+  },
+  "acquiringcredentials-doan-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-19", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-5", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-6", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-7", "stream": true}]
+  },
+  "acquiringcredentials-doan-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-20", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-8", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-9", "stream": true}]
+  },
+  "acquiringcredentials-doan-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-21", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-10", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-11", "stream": true}]
+  },
+  "acquiringcredentials-doan-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-22", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-12", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-13", "stream": true}]
+  },
+  "acquiringcredentials-doan-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-23", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-14", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-15", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-16", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-17", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-18", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-19", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-20", "stream": true}]
+  },
+  "acquiringcredentials-skyraider-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-skyraider-1", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-21", "stream": true}]
+  },
+  "acquiringcredentials-skyraider-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-skyraider-2", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-22", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-23", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-24", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-25", "stream": true}]
+  },
+  "acquiringcredentials-mechanic-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-mechanic-26", "stream": true}]
+  },
+  "acquiringcredentials-doan-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-24", "stream": true}]
+  },
+  "acquiringcredentials-doan-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-25", "stream": true}]
+  },
+  "acquiringcredentials-doan-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-26", "stream": true}]
+  },
+  "acquiringcredentials-barman-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-barman-2", "stream": true}]
+  },
+  "acquiringcredentials-doan-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-27", "stream": true}]
+  },
+  "acquiringcredentials-marketmember-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-marketmember-1", "stream": true}]
+  },
+  "acquiringcredentials-doan-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-28", "stream": true}]
+  },
+  "acquiringcredentials-doan-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-29", "stream": true}]
+  },
+  "acquiringcredentials-marketmember-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-marketmember-2", "stream": true}]
+  },
+  "acquiringcredentials-marketmember-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-marketmember-3", "stream": true}]
+  },
+  "acquiringcredentials-doan-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-30", "stream": true}]
+  },
+  "acquiringcredentials-doan-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-31", "stream": true}]
+  },
+  "acquiringcredentials-doan-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:acquiringcredentials-doan-32", "stream": true}]
+  },
+
+
 
   "seaskipper-seaskippercaptain-1": {
     "category": "voice",
