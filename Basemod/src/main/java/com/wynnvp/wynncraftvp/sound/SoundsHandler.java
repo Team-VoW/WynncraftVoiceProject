@@ -449,6 +449,7 @@ public class SoundsHandler {
         addSound("The only one holding us back is us.", "pointofnoreturn-soul-16", true);
         addSound("[1/5] Lutho Citizen: You- you chose to come back. I saw your eyes disappear, briefly.", "pointofnoreturn-luthocitizen-5", false);
 
+
         //The Hunger of Gerts Part 1
         addSound("[1/10] Cikal: Oh, ho ho. What is this? A Human? What brings you to Gylia Watch? ", "thehungerofgertspart1-cikal-1", false);
         addSound("[1/4] Anof: Another one! That's the third one this week. My poor livestock.", "thehungerofgertspart1-anof-1", false);
@@ -3842,6 +3843,15 @@ public class SoundsHandler {
         addSound("[1/8] Jill: Oh, a Human! We don't see many of your kind around here. ", "thefortuneteller-jill-1", false);
         addSound("[1/4] Jill: You're back! What did you find?", "thefortuneteller-jill-2", false);
         addSound("[1/6] Farcor: So... another greed infested simpleton has sought me out for their own desires.", "thefortuneteller-farcor-1", false);
+
+        //The Lost
+        addSound("[1/8] Dejol: Ho, traveller! I need the help of a true explorer. I can see it in your eyes, you are an adventurer like me!", "thelost-dejol-1", false);
+        addSound("[1/4] Kofis: Guess it was pretty easy to find me. Probably because I didn't feel the need to explore every cave or tower, like the others.", "thelost-kofis-1", false);
+        addSound("[1/4] Felim: Ah! You startled me! Sorry, I've been very nervous ever since that bear dragged me in here. She must have thought I was one of her cubs.", "thelost-felim-1", false);
+        addSound("[1/4] Yuge: How did you get up here? You must be quite the climber, like me. The view up here is fantastic, isn't it?", "thelost-yuge-1", false);
+        addSound("[1/4] Sytis: Sounds like you had a spot of trouble down there. I ran up here for safety, but I can leave whenever I want!", "thelost-sytis-1", false);
+        addSound("[1/4] Ansei: How did I get up here? I was going to check out some of the plants here and suddenly I found myself up here...", "thelost-ansei-1", false);
+        addSound("[1/4] Dejol: Ho, adventurer! Have you found my missing crew?", "thelost-dejol-2", false);
 
 
 

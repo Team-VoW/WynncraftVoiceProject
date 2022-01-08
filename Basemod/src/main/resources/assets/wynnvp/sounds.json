@@ -2743,6 +2743,36 @@
   },
 
 
+  "thelost-dejol-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-1", "stream": true}]
+  },
+  "thelost-kofis-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-kofis-1", "stream": true}]
+  },
+  "thelost-felim-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-felim-1", "stream": true}]
+  },
+  "thelost-yuge-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-1", "stream": true}]
+  },
+  "thelost-sytis-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-sytis-1", "stream": true}]
+  },
+  "thelost-ansei-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-ansei-1", "stream": true}]
+  },
+  "thelost-dejol-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-2", "stream": true}]
+  },
+
+
 
   "acquiringcredentials-officer-1": {
     "category": "voice",
