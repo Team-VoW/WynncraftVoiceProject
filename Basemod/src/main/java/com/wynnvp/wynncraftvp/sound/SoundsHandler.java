@@ -3839,6 +3839,30 @@ public class SoundsHandler {
         addSound("[4/5] Doan: Wait... That's MY passport?! It was in my pocket all along...", "acquiringcredentials-doan-31", true);
         addSound("[5/5] Doan: Well, uhhh... I guess you can have some of these emeralds, then... ", "acquiringcredentials-doan-32", true);
 
+        //Flight in distress
+        addSound("[1/4] Passenger Controllant: Good day, soldier! Will you be flying with us today?", "flightindistress-passengercontrollant-1", false);
+        addSound("[1/1] Ship Crew: This area is off limits to passengers during take off. Climb up to the passenger decks, there will be an attendee at your cabin.", "flightindistress-shipcrew-1", false);
+        addSound("[1/1] Broadcast: Attention passengers. There has been a missing person reported aboard. If there are any volunteers to help search for them please report to the control deck and speak to the captain.", "flightindistress-broadcast-1", false);
+        addSound("[1/2] Attendant: Good day to you, soldier! This will be your quarters for the flight. I wish you a pleasant trip with us!", "flightindistress-attendant-1", false);
+        addSound("[1/7] Captain Ackbar: Are you here to volunteer to search for the missing child?", "flightindistress-captainackbar-1", false);
+        addSound("[1/1] Passenger Casula: Sorry, I have not seen the child you are looking for.", "flightindistress-passengercasula-1", false);
+        addSound("[1/1] Passenger Nancy: *Sniff*... Have you seen my child? We were in our cabin, and then he just disappeared!", "flightindistress-passengernancy-1", false);
+        addSound("[1/2] Passenger John: Ah, yes... I saw a little child run past me. He was shouting about an airship outside or something.", "flightindistress-passengerjohn-1", false);
+        addSound("[1/5] Missing Child: Hey! Look at that ship over in the distance. It has been following the ship almost since we left off.", "flightindistress-missingchild-1", false);
+        addSound("[1/1] Passenger Nancy: Have you found my child?", "flightindistress-passengernancy-2", false);
+        addSound("[1/5] Captain Ackbar: Hello again, did you find him?", "flightindistress-captainackbar-2", false);
+        addSound("[1/6] Captain Ackbar: Oh, hey! Are you here to help again?", "flightindistress-captainackbar-3", false);
+        addSound("[1/10] Engineer Eric: You must be the 'uman the captain done told me about.", "flightindistress-engineereric-1", false);
+        addSound("[1/5] Engineer Eric: Thank ye! The 'ngines are back up and running!", "flightindistress-engineereric-2", false);
+        addSound("[1/1] Sub-engineer Akot: I heard that a big ship was approaching from north. I saw it from the entrance deck. I wonder what they are doing.", "flightindistress-sub-engineerakot-1", false);
+        addSound("[1/1] Baron Axol: Greetings, young adventurer. You haven't seen my glasses, have you?", "flightindistress-baronaxol-1", false);
+        addSound("[1/2] Passenger Jeremy: That ship the little kid that was talking about...", "flightindistress-passengerjeremy-1", false);
+        addSound("[1/1] Pirate Captain: You are trying to reach the queen? Take us down? Ahaha, no chance. You have to get through us first.", "flightindistress-piratecaptain-1", false);
+        addSound("[1/8] Captured Prisoner: You're awake, good. Ha, I heard you took out quite a few of those pirates. ", "flightindistress-capturedprisoner-1", false);
+        addSound("[1/11] Captain Ackbar: Wow... You single handedly took out a pirate invasion.", "flightindistress-captainackbar-4", false);
+        addSound("[1/4] Calo: Hey there. You must be the Human Ackbar told me about.", "flightindistress-calo-1", false);
+
+
         //The fortune teller
         addSound("[1/8] Jill: Oh, a Human! We don't see many of your kind around here. ", "thefortuneteller-jill-1", false);
         addSound("[1/4] Jill: You're back! What did you find?", "thefortuneteller-jill-2", false);
