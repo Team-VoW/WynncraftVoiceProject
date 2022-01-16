@@ -3877,6 +3877,27 @@ public class SoundsHandler {
         addSound("[1/4] Ansei: How did I get up here? I was going to check out some of the plants here and suddenly I found myself up here...", "thelost-ansei-1", false);
         addSound("[1/4] Dejol: Ho, adventurer! Have you found my missing crew?", "thelost-dejol-2", false);
 
+        //Fantastic Voyage
+        addSound("[1/5] Relend: Let's go, just you and me! On a grand voyage across the sea!", "fantasticvoyage-relend-1", false);
+        addSound("[1/4] Relend: Welcome back, new acquaintance of mine. Seems you managed to get that map just fine!", "fantasticvoyage-relend-2", false);
+        addSound("[1/1] Relend: The excitement of this journey is making me squeal! Come and meet me by the steering wheel!", "fantasticvoyage-relend-3", false);
+        addSound("[1/4] Relend: Welcome aboard, I suppose I can consider you my first mate. Although, it appears we now have a problem on our plate.", "fantasticvoyage-relend-4", false);
+        addSound("[1/3] Relend: Ah, thank you for helping me in my time of need. Let's maneuver through these spikes at a steady speed!", "fantasticvoyage-relend-5", false);
+        addSound("[1/1] Relend: Now you're the captain, hope the sea's not making you nauseous. Steer this ship, but you'll have to be cautious!", "fantasticvoyage-relend-6", true);
+        addSound("[1/1] Relend: Nice steering, although your maneuvers are a bit brash. Hey, watch out! I think we're about to-", "fantasticvoyage-relend-7", true);
+        addSound("[1/3] Relend: As you can see, my ship has become a shipwreck! Now please help me, I am trapped in the lower deck!", "fantasticvoyage-relend-8", true);
+        addSound("[2/3] Relend: Amazing work, seems you got below deck rather quickly! You're going to have to get through this wreckage to free me!", "fantasticvoyage-relend-9", true);
+        addSound("[3/3] Relend: Wow, so you managed to work your way through after all! Maybe to free me, you can use that cannonball?", "fantasticvoyage-relend-10", true);
+        addSound("[1/3] Relend: Thank you for freeing me, now let's leave this mess! Although, I don't know how to do that, I have not even a guess.", "fantasticvoyage-relend-11", true);
+        addSound("[1/1] Relend: It looks like we're going to be stuck here for a while. Come and speak to me so we can find a way off of this isle!", "fantasticvoyage-relend-12", true);
+        addSound("[1/7] Relend: Gateway Island... we've finally arrived. I'm just thankful that we survived.", "fantasticvoyage-relend-13", false);
+        addSound("[1/3] Relend: Well, this stew has a rather odd flavor. But any food we can get here I shall savor. ", "fantasticvoyage-relend-14", false);
+        addSound("[1/3] Relend: So the tent was just too run-down? All of this bad news is making me frown.", "fantasticvoyage-relend-15", false);
+        addSound("[1/7] Relend: You mean you couldn't move the stone? All of these problems are making me groan. ", "fantasticvoyage-relend-16", false);
+        addSound("[1/1] Relend: Don't act so surprised, I was right behind you the whole time! I'll help you fight and maybe sing a rhyme!", "fantasticvoyage-relend-17", true);
+        addSound("[1/1] Relend: Another portal? This is our only way out. We have to go inside, without a doubt.", "fantasticvoyage-relend-18", true);
+        addSound("[1/1] Relend: Now that we're back, we should talk. Then I'll head back to Jofash Dock. ", "fantasticvoyage-relend-19", true);
+        addSound("[1/5] Relend: Seeing that you're still alive is splendid. Finally, this whole ordeal has ended.", "fantasticvoyage-relend-20", false);
 
 
         //Non quest npc
