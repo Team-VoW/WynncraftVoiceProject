@@ -982,20 +982,20 @@ public class SoundsHandler {
         addSound("[1/5] Batelu: Bob's Seal of Approval? Oh my goodness!", "reincarnation-batleu-3", false);
 
         //Bobs lost soul
-        addSound("[1/10] Wedyf: Welcome traveler. Are you looking for something?", "bobslostsoulwedyf1", false);
-        addSound("[1/6] Wedyf: Great, you got everything.", "bobslostsoulwedyf2", false);
-        addSound("[1/6] Wedyf: I'm glad to see you again.", "bobslostsoulwedyf3", false);
-        addSound("[1/8] The Blacksmith: What can I do for ya?", "bobslostsoulblacksmith1", false);
-        addSound("[1/4] The Blacksmith: ... Hi again. I see you got the weapons.", "bobslostsoulblacksmith2", false);
-        addSound("[1/9] Tarod: You're one of those soldier types, right? My name is Tarod, and I could really use your assistance here.", "bobslostsouldtarod1", false);
-        addSound("[1/6] Tarod: Welcome back. Did you find anything worthwhile?", "bobslostsouldtarod2", false);
-        addSound("[1/3] Tarod: You're back... Has he... has he finally been put to rest?", "bobslostsouldtarod3", false);
-        addSound("[1/6] Apprentice: Weapons of the depressed kind? Oh, of course, of course, I know of the set! Around Nesaak, I hear they are kept.", "bobslostsoulapprentice1-1", false);
-        addSound("[2/6] Apprentice: An army of Linx you must clear, in a cave you shall find this spear!", "bobslostsoulapprentice1-2", false);
-        addSound("[3/6] Apprentice: To a skilled archer you must go, best her in a lumberyard and you will have her bow!", "bobslostsoulapprentice1-3", false);
-        addSound("[4/6] Apprentice: On an altar, effervescence leers, complete the sacrifice and you will gain your shears...", "bobslostsoulapprentice1-4", false);
-        addSound("[5/6] Apprentice: In the forest, a house frozen in spikes thick, outsmart the contraption and be gifted a stick!", "bobslostsoulapprentice1-5", false);
-        addSound("[6/6] Apprentice: But beware, beware! Danger lies ahead, and will try to halt you in your stead!", "bobslostsoulapprentice1-6", false);
+        addSound("[1/10] Wedyf: Welcome traveler. Are you looking for something?", "bobslostsoul-wedyf-1", false);
+        addSound("[1/6] Wedyf: Great, you got everything.", "bobslostsoul-wedyf-2", false);
+        addSound("[1/6] Wedyf: I'm glad to see you again.", "bobslostsoul-wedyf-3", false);
+        addSound("[1/8] The Blacksmith: What can I do for ya?", "bobslostsoul-blacksmith-1", false);
+        addSound("[1/4] The Blacksmith: ... Hi again. I see you got the weapons.", "bobslostsoul-blacksmith-2", false);
+        addSound("[1/9] Tarod: You're one of those soldier types, right? My name is Tarod, and I could really use your assistance here.", "bobslostsoul-tarod-1", false);
+        addSound("[1/6] Tarod: Welcome back. Did you find anything worthwhile?", "bobslostsoul-tarod-2", false);
+        addSound("[1/3] Tarod: You're back... Has he... has he finally been put to rest?", "bobslostsoul-tarod-3", false);
+        addSound("[1/6] Apprentice: Weapons of the depressed kind? Oh, of course, of course, I know of the set! Around Nesaak, I hear they are kept.", "bobslostsoul-apprentice-1", false);
+        addSound("[2/6] Apprentice: An army of Linx you must clear, in a cave you shall find this spear!", "bobslostsoul-apprentice-2", false);
+        addSound("[3/6] Apprentice: To a skilled archer you must go, best her in a lumberyard and you will have her bow!", "bobslostsoul-apprentice-3", false);
+        addSound("[4/6] Apprentice: On an altar, effervescence leers, complete the sacrifice and you will gain your shears...", "bobslostsoul-apprentice-4", false);
+        addSound("[5/6] Apprentice: In the forest, a house frozen in spikes thick, outsmart the contraption and be gifted a stick!", "bobslostsoul-apprentice-5", false);
+        addSound("[6/6] Apprentice: But beware, beware! Danger lies ahead, and will try to halt you in your stead!", "bobslostsoul-apprentice-6", false);
 
         //Temple of Legends
         addSound("[1/10] Garull: GWUH! Oh god, don't scare me like that! Who... Who even are you?!", "templeoflegendsgarull1", false);
