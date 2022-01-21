@@ -1042,8 +1042,8 @@ public class SoundsHandler {
         addSound("[10/11] Burtur: I'll stay back at the town square, in case the undead attack again. Give me a shout if you find something you aren't sure about.", "lazaruspit-burtur-18", true);
 
         //Cook Assistant
-        addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant1", false);
-        addSound("[1/3] The Cook: Great! You got all the ingredients!", "cookassistant2", false);
+        addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant-thecook-1", false);
+        addSound("[1/3] The Cook: Great! You got all the ingredients!", "cookassistant-thecook-2", false);
 
         //Clearing the Camps
         addSound("[1/6] Captain Kymer: Aha, another Ragni soldier, eh? Well, a warm welcome to you.", "clearingthecampskymer1", false);
@@ -1066,7 +1066,6 @@ public class SoundsHandler {
         //Star Thief
         addSound("[1/1] ???: It's... mine.", "starthiefthief1", true);
         addSound("[1/1] Thief: .... I can't control myself...fjfjfj This rock...", "starthiefthief2", true);
-        //NOT WORKING
         addSound("[1/2] Thief: What is... this feeling… No I won't listen..", "starthiefthief3", false);
         addSound("[1/5] Agent: Hey you! Human. What are you doing here?", "starthiefagent1", false);
         addSound("[1/4] Agent: Hello again. Did you find the meteor down there? Why on earth are you holding some?!", "starthiefagent2", false);

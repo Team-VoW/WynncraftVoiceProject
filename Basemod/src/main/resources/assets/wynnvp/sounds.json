@@ -1048,13 +1048,13 @@
   },
 
 
-  "cookassistant1": {
+  "cookassistant-thecook-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:cookassistant1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-1", "stream": true}]
   },
-  "cookassistant2": {
+  "cookassistant-thecook-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:cookassistant2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-2", "stream": true}]
   },
 
 
