@@ -623,21 +623,21 @@
 
 
 
-  "icenationshallfred1": {
+  "icenations-hallfred-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:icenationshallfred1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-1", "stream": true}]
   },
-  "icenationshallfred2": {
+  "icenations-hallfred-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:icenationshallfred2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-2", "stream": true}]
   },
-  "icenationsadigard1": {
+  "icenations-adigard-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:icenationsadigard1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:icenations-adigard-1", "stream": true}]
   },
-  "icenationsadigard2": {
+  "icenations-adigard-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:icenationsadigard2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:icenations-adigard-2", "stream": true}]
   },
 
 

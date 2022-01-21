@@ -898,10 +898,10 @@ public class SoundsHandler {
 
 
         //Ice nations
-        addSound("[1/6] Adigard: Welcome traveler, to our humble island...", "icenationsadigard1", false);
-        addSound("[1/7] Adigard: I should have expected that. Hallfred was always very greedy...", "icenationsadigard2", false);
-        addSound("[1/5] Hallfred: Welcome traveler! What brings you to our island?", "icenationshallfred1", false);
-        addSound("[1/4] Hallfred: Incredible! He actually delivered the treasure!", "icenationshallfred2", false);
+        addSound("[1/6] Adigard: Welcome traveler, to our humble island...", "icenations-adigard-1", false);
+        addSound("[1/7] Adigard: I should have expected that. Hallfred was always very greedy...", "icenations-adigard-2", false);
+        addSound("[1/5] Hallfred: Welcome traveler! What brings you to our island?", "icenations-hallfred-1", false);
+        addSound("[1/4] Hallfred: Incredible! He actually delivered the treasure!", "icenations-hallfred-2", false);
 
         //Lost Royalty
         addSound("[1/5] Yavlis: Oh, hello there! I had hoped not to bother you, adventurer, but this is urgent.", "lostroyaltyyalvis1", false);
