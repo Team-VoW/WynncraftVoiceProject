@@ -519,25 +519,25 @@
 
 
 
-  "corruptedviallgeorikal1": {
+  "corruptedviallge-orikal-8": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallgeorikal1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-8", "stream": true}]
   },
-  "corruptedviallgeorikal2": {
+  "corruptedviallge-orikal-9": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallgeorikal2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-9", "stream": true}]
   },
-  "corruptedviallgeorikal3": {
+  "corruptedviallge-orikal-10": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallgeorikal3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-10", "stream": true}]
   },
-  "corruptedviallgeorikal4": {
+  "corruptedviallge-orikal-11": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallgeorikal4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-11", "stream": true}]
   },
-  "corruptedviallgeorikal5": {
+  "corruptedviallge-orikal-12": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallgeorikal5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-12", "stream": true}]
   },
   "corruptedviallge-alfonse-1": {
     "category": "voice",

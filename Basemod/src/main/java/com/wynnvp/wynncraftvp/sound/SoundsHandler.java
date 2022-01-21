@@ -870,8 +870,8 @@ public class SoundsHandler {
         addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummy-ormrod-2", false);
 
         //Corrupted village
-        addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallgeorikal1", false);
-        addSound("[1/6] Orikal: That was quick... did you find anything?", "corruptedviallgeorikal2", false);
+        addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallge-orikal-8", false);
+        addSound("[1/6] Orikal: That was quick... did you find anything?", "corruptedviallge-orikal-9", false);
         addSound("[1/3] Alfonse: This is insane, why are we here?! We're looking for corruption you know that right?", "corruptedviallge-alfonse-1", true);
         addSound("[2/3] Roy: Calm down. All we have to do is keep digging. Besides, he did say he'd pay us a lot, so stop being mad.", "corruptedviallge-roy-1", true);
         addSound("[3/3] Alfonse: Forget it, I don't care anymore, just prime the explosive and get clear of the blast!", "corruptedviallge-alfonse-2", true);
@@ -892,9 +892,9 @@ public class SoundsHandler {
         addSound("[15/17] Orikal: Alright, fine. Here's your pay. Thank you for your help.", "corruptedviallge-orikal-6", true);
         addSound("[16/17] Roy: Gah! That's hardly anything! I'm not even surprised. Let's just go.", "corruptedviallge-roy-6", true);
         addSound("[17/17] Orikal: Anyway, come meet me back at my tent, friend. We will discuss what to do then.", "corruptedviallge-orikal-7", true);
-        addSound("[1/5] Orikal: Okay. I happen to know a recipe for creating an extremely lethal magical explosive.", "corruptedviallgeorikal3", false);
-        addSound("[1/3] Orikal: You got 'em all! Excellent, this is exactly what we need.", "corruptedviallgeorikal4", false);
-        addSound("[1/4] Orikal: Oh, do you feel that? It's like a buzzing in my ears I never knew about has just vanished.", "corruptedviallgeorikal5", false);
+        addSound("[1/5] Orikal: Okay. I happen to know a recipe for creating an extremely lethal magical explosive.", "corruptedviallge-orikal-10", false);
+        addSound("[1/3] Orikal: You got 'em all! Excellent, this is exactly what we need.", "corruptedviallge-orikal-11", false);
+        addSound("[1/4] Orikal: Oh, do you feel that? It's like a buzzing in my ears I never knew about has just vanished.", "corruptedviallge-orikal-12", false);
 
 
         //Ice nations
