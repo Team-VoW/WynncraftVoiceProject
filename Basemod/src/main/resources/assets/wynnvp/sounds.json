@@ -1110,25 +1110,25 @@
     "sounds": [{ "name": "wynnvp:decriptsewerswitherehead3", "stream": true}]
   },
 
-  "starthiefagent1": {
+  "starthief-agent-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:starthiefagent1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:starthief-agent-1", "stream": true}]
   },
-  "starthiefagent2": {
+  "starthief-agent-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:starthiefagent2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:starthief-agent-2", "stream": true}]
   },
-  "starthiefthief1": {
+  "starthief-thief-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:starthiefthief1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:starthief-thief-1", "stream": true}]
   },
-  "starthiefthief2": {
+  "starthief-thief-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:starthiefthief2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:starthief-thief-2", "stream": true}]
   },
-  "starthiefthief3": {
+  "starthief-thief-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:starthiefthief3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:starthief-thief-3", "stream": true}]
   },
 
 

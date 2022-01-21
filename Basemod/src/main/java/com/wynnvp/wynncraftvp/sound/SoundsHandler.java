@@ -1064,11 +1064,11 @@ public class SoundsHandler {
         addSound("[1/1] Witherhead: You persist through the sludge, now you will join me like the rest!", "decriptsewers-witherehead-3", true);
 
         //Star Thief
-        addSound("[1/1] ???: It's... mine.", "starthiefthief1", true);
-        addSound("[1/1] Thief: .... I can't control myself...fjfjfj This rock...", "starthiefthief2", true);
-        addSound("[1/2] Thief: What is... this feeling… No I won't listen..", "starthiefthief3", false);
-        addSound("[1/5] Agent: Hey you! Human. What are you doing here?", "starthiefagent1", false);
-        addSound("[1/4] Agent: Hello again. Did you find the meteor down there? Why on earth are you holding some?!", "starthiefagent2", false);
+        addSound("[1/1] ???: It's... mine.", "starthief-thief-1", true);
+        addSound("[1/1] Thief: .... I can't control myself...fjfjfj This rock...", "starthief-thief-2", true);
+        addSound("[1/2] Thief: What is... this feeling… No I won't listen..", "starthief-thief-3", false);
+        addSound("[1/5] Agent: Hey you! Human. What are you doing here?", "starthief-agent-1", false);
+        addSound("[1/4] Agent: Hello again. Did you find the meteor down there? Why on earth are you holding some?!", "starthief-agent-2", false);
 
         //Arachnids Ascent
         addSound("[1/8] Enduyn: At ease, soldier! Did Cob send you?", "arachnidsascent-edyun-1", false);
