@@ -860,53 +860,53 @@
   },
 
 
-  "templeoflegendsgarull1": {
+  "templeoflegends-garull-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendsgarull1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-garull-1", "stream": true}]
   },
-  "templeoflegendsgarull2": {
+  "templeoflegends-garull-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendsgarull2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-garull-2", "stream": true}]
   },
-  "templeoflegendsjorkin1": {
+  "templeoflegends-jorkin-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendsjorkin1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-jorkin-1", "stream": true}]
   },
-  "templeoflegendsjorkin2": {
+  "templeoflegends-jorkin-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendsjorkin2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-jorkin-2", "stream": true}]
   },
-  "templeoflegendskelight1": {
+  "templeoflegends-kelight-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendskelight1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-1", "stream": true}]
   },
-  "templeoflegendskelight2": {
+  "templeoflegends-kelight-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendskelight2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-2", "stream": true}]
   },
-  "templeoflegendskelight3": {
+  "templeoflegends-kelight-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendskelight3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-3", "stream": true}]
   },
-  "templeoflegendskelight4": {
+  "templeoflegends-kelight-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendskelight4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-4", "stream": true}]
   },
-  "templeoflegendskelight5": {
+  "templeoflegends-kelight-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendskelight5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-5", "stream": true}]
   },
-  "templeoflegendskelight6": {
+  "templeoflegends-kelight-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendskelight6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-6", "stream": true}]
   },
-  "templeoflegendsrayshyroth1": {
+  "templeoflegends-rayshyroth-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendsrayshyroth1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-rayshyroth-1", "stream": true}]
   },
-  "templeoflegendsrayshyroth2": {
+  "templeoflegends-rayshyroth-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:templeoflegendsrayshyroth2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:templeoflegends-rayshyroth-2", "stream": true}]
   },
 
 
