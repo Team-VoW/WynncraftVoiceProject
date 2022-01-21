@@ -1084,31 +1084,31 @@ public class SoundsHandler {
         addSound("[1/6] Ankou: You have completed my tower, I see...", "towerofascension-ankou-2", false);
 
         //One Thousand Meters Under
-        addSound("[1/3] The Secretary: Hello, welcome to Ynnos' facility.", "onethousandmetersundersecretary", false);
-        addSound("[1/11] Scientist Ynnos: *Ahem* Welcome, everyone.", "onethousandmetersunderscientistyvnoss1", false);
-        addSound("[1/10] Scientist Ynnos: You survived! Where is everyone else?", "onethousandmetersunderscientistyvnoss2", false);
-        addSound("[1/2] Arlene: I wonder what the mechanic is doing?", "onethousandmetersunderarlene1", false);
-        addSound("[1/2] Kantor: Attention crew members.", "onethousandmetersunderkantor1", true);
-        addSound("[1/2] Kantor: Thank you so much! I thought we would all die before the mission even started!", "onethousandmetersunderkantor2", false);
-        addSound("[1/1] Kantor: Ah finally! Line up the white rope with the blue blocks. I need to control things from here. Push those blocks into line so we won't just fall down!", "onethousandmetersunderkantor3", false);
-        addSound("[1/1] Captain Olof: We have encountered our first island, 100m down. Crew members, climb up the ladder and search the island for the crystal.", "onethousandmetersunderolof1", true);
-        addSound("[1/3] Captain Olof: We've arrived at the next void island.", "onethousandmetersunderolof2", false);
-        addSound("[1/3] Captain Olof What are these creatures!", "onethousandmetersunderolof3", true);
-        addSound("[1/1] Captain Olof: Don't let the creatures break through glass! Press against it and scare them off!", "onethousandmetersunderolof4", false);
-        addSound("[1/3] Captain Olof: This is not good, the creatures destroyed part of the windshield.", "onethousandmetersunderolof5", false);
-        addSound("[1/2] Captain: Attention crew. We have arrived at the second island, 300m down. We cannot progress without making some emergency repairs.", "onethousandmetersunderolof6", true);
-        addSound("[1/5] Captain Olof: We need to repair the submarine.", "onethousandmetersunderolof7", false);
-        addSound("[1/3] Captain Olof: Ech! What is this stuff? Well, this should do the trick.", "onethousandmetersunderolof8", false);
-        addSound("[1/6] Jesp: Oh, blast! Do you smell that?", "onethousandmetersunderjesp1", true);
-        addSound("[1/3] Captain Olof: Attention crew. We have arrived at the next island 700m down.", "onethousandmetersunderolof9", true);
-        addSound("[1/5] Rex: We got this, just take care of the monsters while we build the bridge!", "onethousandmetersunderrex1", true);
-        addSound("[2/5] Manny: Dont die! We're soon done.", "onethousandmetersundermanny1", true);
-        addSound("[3/5] Jesp: This is hard, but we'll make it!", "onethousandmetersunderjesp2", true);
-        addSound("[4/5] Arlene: Be careful, it seems to be getting tougher. The bridge is soon ready to use.", "onethousandmetersunderarlene2", true);
-        addSound("[5/5] Manny: Hey, the bridge is ready!", "onethousandmetersundermanny2", true);
-        addSound("[1/4] Rex: We didn't find the crystal here either. Maybe it just fell in the void?", "onethousandmetersunderrex2", true);
-        addSound("[1/13] Celuuse: Whoooooooo are you!?", "onethousandmetersunderceluuse", true);
-        addSound("[1/8] Rontaid: WHAT...WHO...Humans in the void!?", "onethousandmetersunderrontaid", true);
+        addSound("[1/3] The Secretary: Hello, welcome to Ynnos' facility.", "onethousandmetersunder-secretary-1", false);
+        addSound("[1/11] Scientist Ynnos: *Ahem* Welcome, everyone.", "onethousandmetersunder-scientistyvnoss-1", false);
+        addSound("[1/10] Scientist Ynnos: You survived! Where is everyone else?", "onethousandmetersunder-scientistyvnoss-2", false);
+        addSound("[1/2] Arlene: I wonder what the mechanic is doing?", "onethousandmetersunder-arlene-1", false);
+        addSound("[1/2] Kantor: Attention crew members.", "onethousandmetersunder-kantor-1", true);
+        addSound("[1/2] Kantor: Thank you so much! I thought we would all die before the mission even started!", "onethousandmetersunder-kantor-2", false);
+        addSound("[1/1] Kantor: Ah finally! Line up the white rope with the blue blocks. I need to control things from here. Push those blocks into line so we won't just fall down!", "onethousandmetersunder-kantor-3", false);
+        addSound("[1/1] Captain Olof: We have encountered our first island, 100m down. Crew members, climb up the ladder and search the island for the crystal.", "onethousandmetersunder-olof-1", true);
+        addSound("[1/3] Captain Olof: We've arrived at the next void island.", "onethousandmetersunder-olof-2", false);
+        addSound("[1/3] Captain Olof What are these creatures!", "onethousandmetersunder-olof-3", true);
+        addSound("[1/1] Captain Olof: Don't let the creatures break through glass! Press against it and scare them off!", "onethousandmetersunder-olof-4", false);
+        addSound("[1/3] Captain Olof: This is not good, the creatures destroyed part of the windshield.", "onethousandmetersunder-olof-5", false);
+        addSound("[1/2] Captain: Attention crew. We have arrived at the second island, 300m down. We cannot progress without making some emergency repairs.", "onethousandmetersunder-olof-6", true);
+        addSound("[1/5] Captain Olof: We need to repair the submarine.", "onethousandmetersunder-olof-7", false);
+        addSound("[1/3] Captain Olof: Ech! What is this stuff? Well, this should do the trick.", "onethousandmetersunder-olof-8", false);
+        addSound("[1/6] Jesp: Oh, blast! Do you smell that?", "onethousandmetersunder-jesp-1", true);
+        addSound("[1/3] Captain Olof: Attention crew. We have arrived at the next island 700m down.", "onethousandmetersunder-olof-9", true);
+        addSound("[1/5] Rex: We got this, just take care of the monsters while we build the bridge!", "onethousandmetersunder-rex-1", true);
+        addSound("[2/5] Manny: Dont die! We're soon done.", "onethousandmetersunder-manny-1", true);
+        addSound("[3/5] Jesp: This is hard, but we'll make it!", "onethousandmetersunder-jesp-2", true);
+        addSound("[4/5] Arlene: Be careful, it seems to be getting tougher. The bridge is soon ready to use.", "onethousandmetersunder-arlene-2", true);
+        addSound("[5/5] Manny: Hey, the bridge is ready!", "onethousandmetersunder-manny-2", true);
+        addSound("[1/4] Rex: We didn't find the crystal here either. Maybe it just fell in the void?", "onethousandmetersunder-rex-2", true);
+        addSound("[1/13] Celuuse: Whoooooooo are you!?", "onethousandmetersunder-celuuse-1", true);
+        addSound("[1/8] Rontaid: WHAT...WHO...Humans in the void!?", "onethousandmetersunder-rontaid-1", true);
 
         //Recipe for disaster
         addSound("[1/4] Frank: How are ya? Hamsey said you're an old buddy of his, helped him while he was still in Ragni.", "recipefordisastefrank1", false);
