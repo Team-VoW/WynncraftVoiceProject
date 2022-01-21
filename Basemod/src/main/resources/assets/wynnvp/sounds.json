@@ -4723,69 +4723,69 @@
 
 
 
-  "beyondthegravedeath1": {
+  "beyondthegrave-death-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-1", "stream": true}]
   },
-  "beyondthegravedeath2": {
+  "beyondthegrave-death-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-2", "stream": true}]
   },
-  "beyondthegravedeath3": {
+  "beyondthegrave-death-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-3", "stream": true}]
   },
-  "beyondthegravedeath4": {
+  "beyondthegrave-death-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-4", "stream": true}]
   },
-  "beyondthegravedeath5": {
+  "beyondthegrave-death-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-5", "stream": true}]
   },
-  "beyondthegravedeath6": {
+  "beyondthegrave-death-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-6", "stream": true}]
   },
-  "beyondthegravedeath7": {
+  "beyondthegrave-death-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-7", "stream": true}]
   },
-  "beyondthegravedeath8": {
+  "beyondthegrave-death-8": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath8", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-8", "stream": true}]
   },
-  "beyondthegravedeath9": {
+  "beyondthegrave-death-9": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath9", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-9", "stream": true}]
   },
-  "beyondthegravedeath10": {
+  "beyondthegrave-death-10": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath10", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-10", "stream": true}]
   },
-  "beyondthegravedeath11": {
+  "beyondthegrave-death-11": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath11", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-11", "stream": true}]
   },
-  "beyondthegravedeath12": {
+  "beyondthegrave-death-12": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath12", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-12", "stream": true}]
   },
-  "beyondthegravedeath13": {
+  "beyondthegrave-death-13": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath13", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-13", "stream": true}]
   },
-  "beyondthegravedeath14": {
+  "beyondthegrave-death-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegravedeath14", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-death-14", "stream": true}]
   },
-  "beyondthegraveirlok1": {
+  "beyondthegrave-irlok-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegraveirlok1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-irlok-1", "stream": true}]
   },
-  "beyondthegraveirlok2": {
+  "beyondthegrave-irlok-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beyondthegraveirlok2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beyondthegrave-irlok-2", "stream": true}]
   },
 
 
