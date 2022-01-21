@@ -423,13 +423,11 @@ public class SoundsHandler {
         addSound("[1/1] Slykaar: I don’t want to die! I WON’T die! Go away! CEASE TO EXIST!", "cur-slykaar-6", true);
         addSound("[1/1] Slykaar: I... You... No...", "cur-slykaar-7", true);
 
-
-
         //Creeper Infiltration
-        addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "creeperinfiltrationthomascreeperinfl1", false);
-        addSound("[1/10] Thomas: I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion merchant to heal you?", "creeperinfiltrationthomascreeperinfl2", false);
-        addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "creeperinfiltrationthomascreeperinfl3", false);
-        addSound("[1/7] Thomas: So, what was in the cave? Were there really creepers in there?", "creeperinfiltrationthomascreeperinfl4", false);
+        addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "creeperinfiltration-thomas-1", false);
+        addSound("[1/10] Thomas: I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion merchant to heal you?", "creeperinfiltration-thomas-2", false);
+        addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "creeperinfiltration-thomas-3", false);
+        addSound("[1/7] Thomas: So, what was in the cave? Were there really creepers in there?", "creeperinfiltration-thomas-4", false);
 
         //Point of no return
         addSound("[1/5] Lutho Citizen: Wait... It can't be. Look me in the eyes. You're human, like me.", "pointofnoreturn-luthocitizen-1", false);
