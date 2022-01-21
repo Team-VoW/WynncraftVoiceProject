@@ -1050,18 +1050,18 @@ public class SoundsHandler {
         addSound("[1/5] Captain Kymer: Ah, the soldier from earlier! You're back, I see. Any luck defeating those- ...yeesh. Are those their heads?", "clearingthecamps-kymer-2", false);
 
         //The Sewers Of Ragni
-        addSound("[1/4] Jenprest: Soldier! Good timing. We've been requesting help for ages.", "thesewersofragnijenprest1", false);
-        addSound("[1/3] Jenprest: Ah you're already here. Coming up behind you soldier!", "thesewersofragnijenprest2", false);
-        addSound("[1/3] Jenprest: Do you feel like there's something lurking that doesn't want us here?", "thesewersofragnijenprest3", false);
-        addSound("[1/3] Jenprest: Ah, you're alive! Looks like we underestimated the amount of sewage.", "thesewersofragnijenprest4", false);
-        addSound("[1/1] Jenprest: Oh no, oh no no no! Did you just open that? Come here immediately.", "thesewersofragnijenprest5", true);
-        addSound("[1/6] Jenprest: Oh no...", "thesewersofragnijenprest6", false);
-        addSound("[1/1] ???: Release me...", "thesewersofragniquestionmark", false);
+        addSound("[1/4] Jenprest: Soldier! Good timing. We've been requesting help for ages.", "thesewersofragni-jenprest-1", false);
+        addSound("[1/3] Jenprest: Ah you're already here. Coming up behind you soldier!", "thesewersofragni-jenprest-2", false);
+        addSound("[1/3] Jenprest: Do you feel like there's something lurking that doesn't want us here?", "thesewersofragni-jenprest-3", false);
+        addSound("[1/3] Jenprest: Ah, you're alive! Looks like we underestimated the amount of sewage.", "thesewersofragni-jenprest-4", false);
+        addSound("[1/1] Jenprest: Oh no, oh no no no! Did you just open that? Come here immediately.", "thesewersofragni-jenprest-5", true);
+        addSound("[1/6] Jenprest: Oh no...", "thesewersofragni-jenprest-6", false);
+        addSound("[1/1] ???: Release me...", "thesewersofragni-questionmark-1", false);
 
         //Decrepit Sewers
-        addSound("[1/1] ???: You dare enter these sewers, human? These pipes once hid the civilians of Ragni during raids... Now it just holds corpses.", "decriptsewerswitherehead1", true);
-        addSound("[1/1] ???: The forces of the Humans could not save me when I hid here, and they can't save you either.", "decriptsewerswitherehead2", true);
-        addSound("[1/1] Witherhead: You persist through the sludge, now you will join me like the rest!", "decriptsewerswitherehead3", true);
+        addSound("[1/1] ???: You dare enter these sewers, human? These pipes once hid the civilians of Ragni during raids... Now it just holds corpses.", "decriptsewers-witherehead-1", true);
+        addSound("[1/1] ???: The forces of the Humans could not save me when I hid here, and they can't save you either.", "decriptsewers-witherehead-2", true);
+        addSound("[1/1] Witherhead: You persist through the sludge, now you will join me like the rest!", "decriptsewers-witherehead-3", true);
 
         //Star Thief
         addSound("[1/1] ???: It's... mine.", "starthiefthief1", true);
