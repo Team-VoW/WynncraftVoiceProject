@@ -4905,11 +4905,10 @@
 
 
 
-  "blazingretributiondetectivejackson1": {
+  "blazingretribution-detectivejackson-9": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:blazingretributiondetectivejackson1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-9", "stream": true}]
   },
-
   "blazingretribution-detectivejackson-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-1", "stream": true}]
@@ -4946,25 +4945,25 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-8", "stream": true}]
   },
-  "blazingretributiondetectivejackson3": {
+  "blazingretribution-detectivejackson-10": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:blazingretributiondetectivejackson3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:blazingretribution-detectivejackson-10", "stream": true}]
   },
-  "blazingretributiongreggr1": {
+  "blazingretribution-greggr-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:blazingretributiongreggr1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:blazingretribution-greggr-2", "stream": true}]
   },
-  "blazingretributiongreggr2": {
+  "blazingretribution-greggr-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:blazingretributiongreggr2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:blazingretribution-greggr-3", "stream": true}]
   },
-  "blazingretributiongreggr3": {
+  "blazingretribution-greggr-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:blazingretributiongreggr3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:blazingretribution-greggr-4", "stream": true}]
   },
-  "blazingretributionpiere": {
+  "blazingretribution-piere-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:blazingretributionpiere", "stream": true}]
+    "sounds": [{ "name": "wynnvp:blazingretribution-piere-1", "stream": true}]
   },
 
 

@@ -1146,7 +1146,7 @@ public class SoundsHandler {
         addSound("[1/5] Irlok: Oh, you've returned. I must admit, I'm very impressed.", "beyondthegrave-irlok-2", false);
 
         //Blazing retribution
-        addSound("[1/10] Detective Jackson: How can I go about this...? I can't get involved myself, and they won't let me near... Wait, a human?", "blazingretributiondetectivejackson1", false);
+        addSound("[1/10] Detective Jackson: How can I go about this...? I can't get involved myself, and they won't let me near... Wait, a human?", "blazingretribution-detectivejackson-9", false);
         addSound("[1/9] Detective Jackson: I see no axe in your hands, so I should assume neither Sablestone or Loamsprout had it.", "blazingretribution-detectivejackson-1", true);
         addSound("[2/9] Detective Jackson: Wait, really? A stick was the most powerful weapon they had? And Loamsprout... threw their dinner at you?", "blazingretribution-detectivejackson-2", true);
         addSound("[3/9] Detective Jackson: I can't believe this! How are those... those THINGS outsmarting us?! Are they shuffling the axe between camps?", "blazingretribution-detectivejackson-3", true);
@@ -1156,11 +1156,11 @@ public class SoundsHandler {
         addSound("[7/9] Detective Jackson: There's Earthpit, and Cliffhearth, Shineridge and Stonecave, Sunspark, Mudspring, Holehold, I-", "blazingretribution-detectivejackson-7", true);
         addSound("[8/9] ???: Fire! Stop!! I hold magic cutter! LISTEN TO GREGG'R!!", "blazingretribution-greggr-1", true);
         addSound("[9/9] Detective Jackson: I- I can't believe it, that has to be the one! AFTER THAT ORC, NOW!!", "blazingretribution-detectivejackson-8", true);
-        addSound("[1/4] Detective Jackson: That looks like the axe of Llevigar to me! Blue finish, hot to the touch- well done! What Orc boss had stolen it?", "blazingretributiondetectivejackson3", false);
-        addSound("[1/1] ???: GRRRH!! What 'Uthniiazek' mean?!", "blazingretributiongreggr1", true);
-        addSound("[1/1] Gregg'r: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO GREGG'R?", "blazingretributiongreggr2", true);
-        addSound("[1/3] Gregg'r: Stupid Villager magic thing! Why fire no listen?", "blazingretributiongreggr3", true);
-        addSound("[1/7] Piere: Oh sweet baby bovine, my house, what am I going to do? Wait, who are you?", "blazingretributionpiere", false);
+        addSound("[1/4] Detective Jackson: That looks like the axe of Llevigar to me! Blue finish, hot to the touch- well done! What Orc boss had stolen it?", "blazingretribution-detectivejackson-10", false);
+        addSound("[1/1] ???: GRRRH!! What 'Uthniiazek' mean?!", "blazingretribution-greggr-2", true);
+        addSound("[1/1] Gregg'r: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO GREGG'R?", "blazingretribution-greggr-3", true);
+        addSound("[1/3] Gregg'r: Stupid Villager magic thing! Why fire no listen?", "blazingretribution-greggr-4", true);
+        addSound("[1/7] Piere: Oh sweet baby bovine, my house, what am I going to do? Wait, who are you?", "blazingretribution-piere-1", false);
 
         //Potion Making
         addSound("[1/4] Dr. Essren: Ah, you must be the one my assistant told me about.", "potionmakingdressren1", true);
