@@ -1303,65 +1303,65 @@
   },
 
 
-  "recipefordiasterkale1": {
+  "recipefordisaster-kale-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordiasterkale1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-kale-1", "stream": true}]
   },
-  "recipefordiasterkale2": {
+  "recipefordisaster-kale-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordiasterkale2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-kale-2", "stream": true}]
   },
-  "recipefordiasterkale3": {
+  "recipefordisaster-kale-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordiasterkale3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-kale-3", "stream": true}]
   },
-  "recipefordisasterbrie1": {
+  "recipefordisaster-brie-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisasterbrie1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-brie-1", "stream": true}]
   },
-  "recipefordisasterbrie2": {
+  "recipefordisaster-brie-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisasterbrie2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-brie-2", "stream": true}]
   },
-  "recipefordisasterbrie3": {
+  "recipefordisaster-brie-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisasterbrie3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-brie-3", "stream": true}]
   },
-  "recipefordisastefrank1": {
+  "recipefordisaster-frank-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisastefrank1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-frank-1", "stream": true}]
   },
-  "recipefordisastefrank2": {
+  "recipefordisaster-frank-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisastefrank2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-frank-2", "stream": true}]
   },
-  "recipefordisastefrank3": {
+  "recipefordisaster-frank-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisastefrank3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-frank-3", "stream": true}]
   },
-  "recipefordisasterhamsey1": {
+  "recipefordisaster-hamsey-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisasterhamsey1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-hamsey-1", "stream": true}]
   },
-  "recipefordisasterhamsey2": {
+  "recipefordisaster-hamsey-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisasterhamsey2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-hamsey-2", "stream": true}]
   },
-  "recipefordisasterhamsey3": {
+  "recipefordisaster-hamsey-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisasterhamsey3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-hamsey-3", "stream": true}]
   },
-  "recipefordisasterhamsey4": {
+  "recipefordisaster-hamsey-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisasterhamsey4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-hamsey-4", "stream": true}]
   },
-  "recipefordisasterhamsey5": {
+  "recipefordisaster-hamsey-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisasterhamsey5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-hamsey-5", "stream": true}]
   },
-  "recipefordisastertalkingmushroom": {
+  "recipefordisaster-talkingmushroom-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:recipefordisastertalkingmushroom", "stream": true}]
+    "sounds": [{ "name": "wynnvp:recipefordisaster-talkingmushroom-1", "stream": true}]
   },
 
 
