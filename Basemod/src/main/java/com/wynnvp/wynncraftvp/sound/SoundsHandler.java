@@ -976,10 +976,10 @@ public class SoundsHandler {
         addSound("[1/5] Enzan: I see you want to venture into the wilderness!", "enzansbrother-enzan-1", false);
 
         //Reincarnation
-        addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnationbob", true);
-        addSound("[1/13] Batelu: Hello adventurer! I see you want to solve the mystery of Bob's tomb also? Glad to meet you.", "reincarnationbatleu1", false);
-        addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnationbatleu2", false);
-        addSound("[1/5] Batelu: Bob's Seal of Approval? Oh my goodness!", "reincarnationbatleu3", false);
+        addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", true);
+        addSound("[1/13] Batelu: Hello adventurer! I see you want to solve the mystery of Bob's tomb also? Glad to meet you.", "reincarnation-batleu-1", false);
+        addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnation-batleu-2", false);
+        addSound("[1/5] Batelu: Bob's Seal of Approval? Oh my goodness!", "reincarnation-batleu-3", false);
 
         //Bobs lost soul
         addSound("[1/10] Wedyf: Welcome traveler. Are you looking for something?", "bobslostsoulwedyf1", false);

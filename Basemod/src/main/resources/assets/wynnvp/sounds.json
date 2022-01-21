@@ -754,21 +754,21 @@
   },
 
 
-  "reincarnationbatleu1": {
+  "reincarnation-batleu-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:reincarnationbatleu1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:reincarnation-batleu-1", "stream": true}]
   },
-  "reincarnationbatleu2": {
+  "reincarnation-batleu-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:reincarnationbatleu2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:reincarnation-batleu-2", "stream": true}]
   },
-  "reincarnationbatleu3": {
+  "reincarnation-batleu-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:reincarnationbatleu3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:reincarnation-batleu-3", "stream": true}]
   },
-  "reincarnationbob": {
+  "reincarnation-bob-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:reincarnationbob", "stream": true}]
+    "sounds": [{ "name": "wynnvp:reincarnation-bob-1", "stream": true}]
   },
 
 
