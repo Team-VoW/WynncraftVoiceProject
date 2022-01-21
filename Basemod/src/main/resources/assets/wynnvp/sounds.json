@@ -1058,13 +1058,13 @@
   },
 
 
-  "clearingthecampskymer1": {
+  "clearingthecamps-kymer-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:clearingthecampskymer1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:clearingthecamps-kymer-1", "stream": true}]
   },
-  "clearingthecampskymer2": {
+  "clearingthecamps-kymer-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:clearingthecampskymer2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:clearingthecamps-kymer-2", "stream": true}]
   },
 
 
