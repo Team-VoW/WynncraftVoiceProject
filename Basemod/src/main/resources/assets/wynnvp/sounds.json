@@ -740,17 +740,17 @@
   },
 
 
-  "enzansbrotherenzan": {
+  "enzansbrother-enzan-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:enzansbrotherenzan", "stream": true}]
+    "sounds": [{ "name": "wynnvp:enzansbrother-enzan-1", "stream": true}]
   },
-  "enzansbrothertherck1": {
+  "enzansbrother-therck-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:enzansbrothertherck1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-1", "stream": true}]
   },
-  "enzansbrothertherck2": {
+  "enzansbrother-therck-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:enzansbrothertherck2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-2", "stream": true}]
   },
 
 

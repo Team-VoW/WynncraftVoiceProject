@@ -971,9 +971,9 @@ public class SoundsHandler {
         addSound("[1/3] Ope: I've literally been sitting here for hours, maybe not hours, at least five minutes!", "infestedplants-ope-2", false);
 
         //Enzans Brother
-        addSound("[1/6] Therck: Excuse me? Can't you see I'm busy?", "enzansbrothertherck1", false);
-        addSound("[1/7] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrothertherck2", false);
-        addSound("[1/5] Enzan: I see you want to venture into the wilderness!", "enzansbrotherenzan", false);
+        addSound("[1/6] Therck: Excuse me? Can't you see I'm busy?", "enzansbrother-therck-1", false);
+        addSound("[1/7] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrother-therck-2", false);
+        addSound("[1/5] Enzan: I see you want to venture into the wilderness!", "enzansbrother-enzan-1", false);
 
         //Reincarnation
         addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnationbob", true);
