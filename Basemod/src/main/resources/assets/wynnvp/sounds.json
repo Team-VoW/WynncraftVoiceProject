@@ -1132,13 +1132,13 @@
   },
 
 
-  "thehouseoftwaintwendle1": {
+  "thehouseoftwain-twendle-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehouseoftwaintwendle1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-1", "stream": true}]
   },
-  "thehouseoftwaintwendle2": {
+  "thehouseoftwain-twendle-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehouseoftwaintwendle2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-2", "stream": true}]
   },
 
 
