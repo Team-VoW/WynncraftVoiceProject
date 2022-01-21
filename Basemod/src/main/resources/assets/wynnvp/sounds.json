@@ -12751,6 +12751,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-10", "stream": true}]
   },
+  "mixedfeelings-corkuscitycitizen-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mixedfeelings-corkuscitycitizen-11", "stream": true}]
+  },
   "mixedfeelings-rensa-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mixedfeelings-rensa-3", "stream": true}]

@@ -822,7 +822,8 @@ public class SoundsHandler {
         addSound("[1/6] Corkus City Citizen: The whole aqueduct is ruined! The city's fresh water is just draining into the ocean...", "mixedfeelings-corkuscitycitizen-1", false);
         addSound("[1/1] Corkus City Citizen: Hurry, please! Just head into the big trapdoor by the bushes, the controls are in there.", "mixedfeelings-corkuscitycitizen-2", false);
         addSound("[1/5] Corkus City Citizen: You fixed it? Everything you broke? That's one hell of a twisted personality.", "mixedfeelings-corkuscitycitizen-3", false);
-        addSound("[1/6] Corkus City Citizen: It's THEM! Someone call the authorities! It's the one who set my house on fire.", "mixedfeelings-corkuscitycitizen-10", false);
+        addSound("[1/6] Corkus City Citizen: You fixed it? Everything you broke? That's one hell of a twisted personality.", "mixedfeelings-corkuscitycitizen-11", false);
+        addSound("[1/5] Corkus City Citizen: It’s THEM! Someone call the authorities! It’s the one who set my house on fire.", "mixedfeelings-corkuscitycitizen-10", false);
         addSound("[1/5] Corkus City Citizen: You did it! So you weren't lying? Ugh, I guess you might just be trustworthy.", "mixedfeelings-corkuscitycitizen-5", false);
         addSound("[1/6] Corkus City Citizen: You did it! So you weren't lying? Ugh, I guess you might just be trustworthy.", "mixedfeelings-corkuscitycitizen-9", false);
         addSound("[1/6] Corkus City Citizen: Came back to wreck the rest of my work have you? Why aren't you all insane looking?", "mixedfeelings-corkuscitycitizen-6", false);
