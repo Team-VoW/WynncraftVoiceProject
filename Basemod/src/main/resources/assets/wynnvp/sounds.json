@@ -730,13 +730,13 @@
   },
 
 
-  "infplants1": {
+  "infestedplants-ope-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:infplants1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-1", "stream": true}]
   },
-  "infplants2": {
+  "infestedplants-ope-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:infplants2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-2", "stream": true}]
   },
 
 

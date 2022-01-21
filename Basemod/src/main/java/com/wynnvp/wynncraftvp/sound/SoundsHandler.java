@@ -967,8 +967,8 @@ public class SoundsHandler {
         addSound("[1/2] Nohno: What is this?! His feather? What did you do to Cluckles?! I wanted you to take care of him, not kill him!", "cluckcluck-nohno-2", false);
 
         //Infested Plants
-        addSound("[1/5] Ope: Hello! Young traveler.", "infplants1", false);
-        addSound("[1/3] Ope: I've literally been sitting here for hours, maybe not hours, at least five minutes!", "infplants2", false);
+        addSound("[1/5] Ope: Hello! Young traveler.", "infestedplants-ope-1", false);
+        addSound("[1/3] Ope: I've literally been sitting here for hours, maybe not hours, at least five minutes!", "infestedplants-ope-2", false);
 
         //Enzans Brother
         addSound("[1/6] Therck: Excuse me? Can't you see I'm busy?", "enzansbrothertherck1", false);
