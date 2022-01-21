@@ -641,25 +641,25 @@
   },
 
 
-  "lostroyaltyyalvis1": {
+  "lostroyalty-yalvis-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:lostroyaltyyalvis1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:lostroyalty-yalvis-1", "stream": true}]
   },
-  "lostroyaltyyalvis2": {
+  "lostroyalty-yalvis-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:lostroyaltyyalvis2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:lostroyalty-yalvis-2", "stream": true}]
   },
-  "lostroyaltykingsson": {
+  "lostroyalt-ykingsson-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:lostroyaltykingsson", "stream": true}]
+    "sounds": [{ "name": "wynnvp:lostroyalty-kingsson-1", "stream": true}]
   },
-  "lostroyaltymercenary1": {
+  "lostroyalty-mercenary-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:lostroyaltymercenary1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:lostroyalty-mercenary-1", "stream": true}]
   },
-  "lostroyaltymercenary2": {
+  "lostroyalty-mercenary-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:lostroyaltymercenary2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:lostroyalty-mercenary-2", "stream": true}]
   },
 
 
