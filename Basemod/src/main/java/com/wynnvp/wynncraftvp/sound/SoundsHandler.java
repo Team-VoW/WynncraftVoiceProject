@@ -803,8 +803,8 @@ public class SoundsHandler {
         addSound("[1/7] Caissop: You're finally back! I just finished the last one. Go! Describe it!", "masterpiece-caissop-4", false);
 
         //Maltics Well
-        addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwellrysend1", false);
-        addSound("[1/1] Child: Help me! Someone! The witch is being mean!!", "malticwellchild", true);
+        addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwell-rysend-1", false);
+        addSound("[1/1] Child: Help me! Someone! The witch is being mean!!", "malticwell-child-1", true);
         addSound("[1/1] Witch: I wondered when they'd send the famous Ragni guards. You'll never get me!", "malticwell-witch-1", true);
         addSound("[1/2] Witch: I don't know why they call me a witch. Magic is everywhere, you know. This one's father made fun of my looks, so I'll turn his son into a Grook!", "malticwell-witch-2", true);
         addSound("[2/2] Witch: Treat me like a witch, I'll act like one, darn it! You'll have to pass through my dastardly magical defenses to find me!", "malticwell-witch-3", true);
@@ -815,7 +815,7 @@ public class SoundsHandler {
         addSound("[3/4] Witch: I know it's a crime, but his father and the rest of the villagers here hunt me like I'm a rabid dog!", "malticwell-witch-8", true);
         addSound("[4/4] Witch: I wasn't really going to turn this boy into a Grook. I doubt I could even make him grow one feather. I mean, watch...", "malticwell-witch-9", true);
         addSound("[1/2] Witch: ...oh my gosh it worked???? It worked, I did a spell for once in my miserable life!!", "malticwell-witch-10", true);
-        addSound("[1/3] Rynend: Oh my son! What happened down there? Erh, not a witch, you say?", "malticwellrysend2", false);
+        addSound("[1/3] Rynend: Oh my son! What happened down there? Erh, not a witch, you say?", "malticwell-rysend-2", false);
 
         //Mixed Feelings
         addSound("[1/3] Javen: Mo'in lad! We don't get many Wynn folks round 'ere.", "mixedfeelings-javen-1", false);

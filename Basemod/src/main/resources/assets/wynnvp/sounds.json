@@ -417,17 +417,17 @@
   },
 
 
-  "malticwellchild": {
+  "malticwell-child-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwellchild", "stream": true}]
+    "sounds": [{ "name": "wynnvp:malticwell-child-1", "stream": true}]
   },
-  "malticwellrysend1": {
+  "malticwell-rysend-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwellrysend1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:malticwell-rysend-1", "stream": true}]
   },
-  "malticwellrysend2": {
+  "malticwell-rysend-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwellrynend2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:malticwell-rysend-2", "stream": true}]
   },
   "malticwell-witch-1": {
     "category": "voice",
