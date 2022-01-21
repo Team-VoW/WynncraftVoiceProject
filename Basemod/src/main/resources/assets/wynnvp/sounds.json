@@ -471,29 +471,29 @@
   },
 
 
-  "gravediggersayleros1": {
+  "gravedigger-sayleros-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:gravediggersayleros1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:gravedigger-sayleros-1", "stream": true}]
   },
-  "gravediggersayleros2": {
+  "gravedigger-sayleros-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:gravediggersayleros2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:gravedigger-sayleros-2", "stream": true}]
   },
-  "gravediggerpriest2": {
+  "gravedigger-priest-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:gravediggerpriest2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:gravedigger-priest-2", "stream": true}]
   },
-  "gravediggerpriest1": {
+  "gravedigger-priest-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:gravediggerpriest1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:gravedigger-priest-1", "stream": true}]
   },
-  "gravediggerdrucksch2": {
+  "gravedigger-drucksch-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:gravediggerdrucksch2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:gravedigger-drucksch-2", "stream": true}]
   },
-  "gravediggerdrucksch1": {
+  "gravedigger-drucksch-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:gravediggerdrucksch1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:gravedigger-drucksch-1", "stream": true}]
   },
 
   "wrathofthemummyachper": {

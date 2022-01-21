@@ -855,12 +855,12 @@ public class SoundsHandler {
 
 
         //Grave Digger
-        addSound("[1/8] Sayleros: You sure look like a strong adventurer who could help me!", "gravediggersayleros1", false);
-        addSound("[1/2] Drucksh: Mmh. g... uh! oh, why hello there.", "gravediggerdrucksch1", false);
-        addSound("[1/4] Drucksh: Ohh mmhhhgg... g-g-good old Nemract whiskey!", "gravediggerdrucksch2", false);
-        addSound("[1/4] The Priest: Are you trying to go down into the crypt? Oh, that is a very bad idea.", "gravediggerpriest1", false);
-        addSound("[1/2] The Priest: You got the flesh. Good.", "gravediggerpriest2", false);
-        addSound("[1/1] Sayleros: Brilliant! It is a little bit dusty, but it will do the trick! Here, take these as proof of my gratitude.", "gravediggersayleros2", false);
+        addSound("[1/8] Sayleros: You sure look like a strong adventurer who could help me!", "gravedigger-sayleros-1", false);
+        addSound("[1/2] Drucksh: Mmh. g... uh! oh, why hello there.", "gravedigger-drucksch-1", false);
+        addSound("[1/4] Drucksh: Ohh mmhhhgg... g-g-good old Nemract whiskey!", "gravedigger-drucksch-2", false);
+        addSound("[1/4] The Priest: Are you trying to go down into the crypt? Oh, that is a very bad idea.", "gravedigger-priest-1", false);
+        addSound("[1/2] The Priest: You got the flesh. Good.", "gravedigger-priest-2", false);
+        addSound("[1/1] Sayleros: Brilliant! It is a little bit dusty, but it will do the trick! Here, take these as proof of my gratitude.", "gravedigger-sayleros-2", false);
 
         //Wrath of the Mummy
         addSound("[1/6] Ormrod: Uh, you shouldn't have come here!", "wrathofthemummyormrod1", false);
