@@ -720,13 +720,13 @@
   },
 
 
-  "cluckclucknohno1": {
+  "cluckcluck-nohno-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:cluckclucknohno1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:cluckcluck-nohno-1", "stream": true}]
   },
-  "cluckclucknohno2": {
+  "cluckcluck-nohno-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:cluckclucknohno2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:cluckcluck-nohno-2", "stream": true}]
   },
 
 

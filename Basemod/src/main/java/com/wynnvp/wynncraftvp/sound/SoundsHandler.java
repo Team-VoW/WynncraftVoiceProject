@@ -963,8 +963,8 @@ public class SoundsHandler {
         addSound("[1/2] Yahya: Oh boy I love bowls! Bowls, bowls, b-bowls! Perfect for mushrooms! W-wait... I thought I- was at my home?", "mushroomman-yahya-5", false);
 
         //Cluck Cluck
-        addSound("[1/6] Nohno: Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.", "cluckclucknohno1", false);
-        addSound("[1/2] Nohno: What is this?! His feather? What did you do to Cluckles?! I wanted you to take care of him, not kill him!", "cluckclucknohno2", false);
+        addSound("[1/6] Nohno: Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.", "cluckcluck-nohno-1", false);
+        addSound("[1/2] Nohno: What is this?! His feather? What did you do to Cluckles?! I wanted you to take care of him, not kill him!", "cluckcluck-nohno-2", false);
 
         //Infested Plants
         addSound("[1/5] Ope: Hello! Young traveler.", "infplants1", false);
