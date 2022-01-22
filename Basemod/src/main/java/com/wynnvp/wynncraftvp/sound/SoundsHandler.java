@@ -1163,14 +1163,14 @@ public class SoundsHandler {
         addSound("[1/7] Piere: Oh sweet baby bovine, my house, what am I going to do? Wait, who are you?", "blazingretribution-piere-1", false);
 
         //Potion Making
-        addSound("[1/4] Dr. Essren: Ah, you must be the one my assistant told me about.", "potionmakingdressren1", true);
-        addSound("[2/4] Dr. Essren: If you are trying to stop me, it's too late. I already drank the pot-...", "potionmakingdressren2", true);
-        addSound("[3/4] Dr. Essren: What is this taste? Mushrooms? This can't b-", "potionmakingdressren3", true);
-        addSound("[4/4] Dr Essren: Aaaaaarrrggg!", "potionmakingdressren4", true);
-        addSound("[1/1] Transformed Essren: What have you done to this potion, human? You will pay for it!", "potionmakingdressren5", true);
-        addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmakingassistant1", false);
-        addSound("[1/5] The Assistant: Good...good. You have the mushrooms.", "potionmakingassistant2", false);
-        addSound("[1/3] The Assistant: I...must thank you, stranger...", "potionmakingassistant3", false);
+        addSound("[1/4] Dr. Essren: Ah, you must be the one my assistant told me about.", "potionmaking-dressren-1", true);
+        addSound("[2/4] Dr. Essren: If you are trying to stop me, it's too late. I already drank the pot-...", "potionmaking-dressren-2", true);
+        addSound("[3/4] Dr. Essren: What is this taste? Mushrooms? This can't b-", "potionmaking-dressren-3", true);
+        addSound("[4/4] Dr Essren: Aaaaaarrrggg!", "potionmaking-dressren-4", true);
+        addSound("[1/1] Transformed Essren: What have you done to this potion, human? You will pay for it!", "potionmaking-dressren-5", true);
+        addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmaking-assistant-1", false);
+        addSound("[1/5] The Assistant: Good...good. You have the mushrooms.", "potionmaking-assistant-2", false);
+        addSound("[1/3] The Assistant: I...must thank you, stranger...", "potionmaking-assistant-3", false);
 
         //Underwater
         addSound("[1/6] Sayrr: Why ya looking at me like that? Is it cause I'm small, eh? I'll have you know that I caught fish that were twice your size!", "underwatersayrr1", false);

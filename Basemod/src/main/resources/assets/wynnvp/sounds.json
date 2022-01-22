@@ -4999,37 +4999,37 @@
 
 
 
-  "potionmakingassistant1": {
+  "potionmaking-assistant-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmakingassistant1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-assistant-1", "stream": true}]
   },
-  "potionmakingassistant2": {
+  "potionmaking-assistant-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmakingassistant2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-assistant-2", "stream": true}]
   },
-  "potionmakingassistant3": {
+  "potionmaking-assistant-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmakingassistant3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-assistant-3", "stream": true}]
   },
-  "potionmakingdressren1": {
+  "potionmaking-dressren-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmakingdressren1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-dressren-1", "stream": true}]
   },
-  "potionmakingdressren2": {
+  "potionmaking-dressren-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmakingdressren2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-dressren-2", "stream": true}]
   },
-  "potionmakingdressren3": {
+  "potionmaking-dressren-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmakingdressren3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-dressren-3", "stream": true}]
   },
-  "potionmakingdressren4": {
+  "potionmaking-dressren-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmakingdressren4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-dressren-4", "stream": true}]
   },
-  "potionmakingdressren5": {
+  "potionmaking-dressren-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmakingdressren5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-dressren-5", "stream": true}]
   },
 
 
