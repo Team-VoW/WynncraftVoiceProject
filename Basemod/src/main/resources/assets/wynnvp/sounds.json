@@ -5033,21 +5033,21 @@
   },
 
 
-  "underwateromango1": {
+  "underwater-omango-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:underwateromango1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:underwater-omango-1", "stream": true}]
   },
-  "underwateromango2": {
+  "underwater-omango-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:underwateromango2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:underwater-omango-2", "stream": true}]
   },
-  "underwatersayrr1": {
+  "underwater-sayrr-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:underwatersayrr1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-1", "stream": true}]
   },
-  "underwatersayrr2": {
+  "underwater-sayrr-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:underwatersayrr2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-2", "stream": true}]
   },
 
 

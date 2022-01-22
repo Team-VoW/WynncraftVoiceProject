@@ -1173,10 +1173,10 @@ public class SoundsHandler {
         addSound("[1/3] The Assistant: I...must thank you, stranger...", "potionmaking-assistant-3", false);
 
         //Underwater
-        addSound("[1/6] Sayrr: Why ya looking at me like that? Is it cause I'm small, eh? I'll have you know that I caught fish that were twice your size!", "underwatersayrr1", false);
-        addSound("[1/2] Sayrr: Ah! Welcome back! Any luck with the fish?", "underwatersayrr2", false);
-        addSound("[1/9] Omango: Hi, my name is Omango. I am a resident of the Maltic village, on top of the hill.", "underwateromango1", false);
-        addSound("[1/2] Omango: You got it! You found the treasure!", "underwateromango2", false);
+        addSound("[1/6] Sayrr: Why ya looking at me like that? Is it cause I'm small, eh? I'll have you know that I caught fish that were twice your size!", "underwater-sayrr-1", false);
+        addSound("[1/2] Sayrr: Ah! Welcome back! Any luck with the fish?", "underwater-sayrr-2", false);
+        addSound("[1/9] Omango: Hi, my name is Omango. I am a resident of the Maltic village, on top of the hill.", "underwater-omango-1", false);
+        addSound("[1/2] Omango: You got it! You found the treasure!", "underwater-omango-2", false);
 
         //Elemental Exercise
         addSound("[1/7] Ragon: Ah! Finally! I've been waiting for a recruit like yourself to turn up.", "elementalexercise-ragon-1", false);
