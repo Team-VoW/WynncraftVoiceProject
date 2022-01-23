@@ -3842,6 +3842,11 @@ public class SoundsHandler {
         addSound("[3/5] Doan: Uhh.. Soldier, I think you dropped your passport. Let me get it for yo-...", "acquiringcredentials-doan-30", true);
         addSound("[4/5] Doan: Wait... That's MY passport?! It was in my pocket all along...", "acquiringcredentials-doan-31", true);
         addSound("[5/5] Doan: Well, uhhh... I guess you can have some of these emeralds, then... ", "acquiringcredentials-doan-32", true);
+        addSound("[1/1] Doan: ...Uh, soldier? I don't think we should leave this area yet, those must be the commanders the waiter mentioned over there.", "acquiringcredentials-doan-33", true);
+        addSound("[1/1] Doan: Remember what the passport seller said? We shouldn't always talk to the same merchant... I think this one won't like another price raise. We should talk to the others.\n", "acquiringcredentials-doan-34", true);
+        addSound("[1/1] Doan: We have to get to 2000 emeralds in 5 bid increases. Let's try again!", "acquiringcredentials-doan-35", true);
+        addSound("[2/3] Doan: So that's our intial bid. Now we need to ask for a higher bid, remember? We can't always talk to the same merchant or they'll lose interest...\n", "acquiringcredentials-doan-36", true);
+        addSound("[3/3] Doan: And we can't talk to more than 5 people for a raise or they might get angry.", "acquiringcredentials-doan-37", true);
 
         //Flight in distress
         addSound("[1/4] Passenger Controllant: Good day, soldier! Will you be flying with us today?", "flightindistress-passengercontrollant-1", false);
