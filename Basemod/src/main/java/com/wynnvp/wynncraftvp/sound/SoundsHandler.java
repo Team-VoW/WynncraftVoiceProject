@@ -911,10 +911,10 @@ public class SoundsHandler {
         addSound("[1/4] Prince of Troms: Uh... Hi? Err, why did you free me? I'm trying to run away, I hate being the son of the king.", "lostroyalty-kingsson-1", false);
 
         //Wynn Excavation site A
-        addSound("[1/4] Vade: Oh, hey kid. Wanna make some money?", "wynnexcvationa-vade-1", false);
-        addSound("[1/8] Tesha: Hello, welcome to WynnExcavation Labs!", "wynnexcvationa-tesha-1", false);
-        addSound("[1/6] Vade: Who are you?", "wynnexcvationa-vade-2", false);
-        addSound("[1/4] Vade: Hey kid, did you just come from the tomb?", "wynnexcvationa-vade-3", false);
+        addSound("[1/4] Vade: Oh, hey kid. Wanna make some money?", "wynnexcavationa-vade-1", false);
+        addSound("[1/8] Tesha: Hello, welcome to WynnExcavation Labs!", "wynnexcavationa-tesha-1", false);
+        addSound("[1/6] Vade: Who are you?", "wynnexcavationa-vade-2", false);
+        addSound("[1/4] Vade: Hey kid, did you just come from the tomb?", "wynnexcavationa-vade-3", false);
 
         //Wynn Excavation site B
         addSound("[1/1] Flendar: We know what you stole from us in the desert! Take THIS! You won't be escaping this dead end any time soon!", "wynnexcvationb-flendar-1", true);

@@ -663,21 +663,21 @@
   },
 
 
-  "wynnexcvationa-tesha-1": {
+  "wynnexcavationa-tesha-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationa-tesha-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationa-tesha-1", "stream": true}]
   },
-  "wynnexcvationa-vade-1": {
+  "wynnexcavationa-vade-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationa-vade-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationa-vade-1", "stream": true}]
   },
-  "wynnexcvationa-vade-2": {
+  "wynnexcavationa-vade-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationa-vade-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationa-vade-2", "stream": true}]
   },
-  "wynnexcvationa-vade-3": {
+  "wynnexcavationa-vade-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationa-vade-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationa-vade-3", "stream": true}]
   },
 
   "wynnexcvationb-archaeologist-1": {
