@@ -1099,15 +1099,15 @@
 
   "decriptsewers-witherehead-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:decriptsewerswitherehead1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:decriptsewers-witherehead-1", "stream": true}]
   },
   "decriptsewers-witherehead-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:decriptsewerswitherehead2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:decriptsewers-witherehead-2", "stream": true}]
   },
   "decriptsewers-witherehead-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:decriptsewerswitherehead3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:decriptsewers-witherehead-3", "stream": true}]
   },
 
   "starthief-agent-1": {
