@@ -3112,6 +3112,140 @@
   },
 
 
+  "aldoreisvalleypart1-elfguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-elfguard-1", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-1", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-2", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-3", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-4", "stream": true}]
+  },
+  "aldoreisvalleypart1-vaenr-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-vaenr-1", "stream": true}]
+  },
+  "aldoreisvalleypart1-sylvar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-sylvar-1", "stream": true}]
+  },
+  "aldoreisvalleypart1-sylvar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-sylvar-2", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-5", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-6", "stream": true}]
+  },
+  "aldoreisvalleypart1-guard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-guard-1", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-7", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-8", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-9", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-10", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-11", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-12", "stream": true}]
+  },
+  "aldoreisvalleypart1-damys-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-damys-13", "stream": true}]
+  },
+  "aldoreisvalleypart1-fiona-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-fiona-1", "stream": true}]
+  },
+  "aldoreisvalleypart1-fiona-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-fiona-2", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-1", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-2", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-3", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-4", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-5", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-6", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-7", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-8", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-9", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-10", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-11", "stream": true}]
+  },
+  "aldoreisvalleypart1-korben-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-korben-12", "stream": true}]
+  },
+  "aldoreisvalleypart1-elfguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreisvalleypart1-elfguard-2", "stream": true}]
+  },
+
+
 
   "seaskipper-seaskippercaptain-1": {
     "category": "voice",

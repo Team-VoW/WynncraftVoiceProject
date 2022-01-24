@@ -3908,6 +3908,42 @@ public class SoundsHandler {
         addSound("[1/1] Relend: Now that we're back, we should talk. Then I'll head back to Jofash Dock. ", "fantasticvoyage-relend-19", true);
         addSound("[1/5] Relend: Seeing that you're still alive is splendid. Finally, this whole ordeal has ended.", "fantasticvoyage-relend-20", false);
 
+        //aldoreisvalleypart1
+        addSound("[1/3] Elf Guard: Halt, traveler! Entry to Aldorei Town is forbidden at present.", "aldoreisvalleypart1-elfguard-1", false);
+        addSound("[1/4] Damys: An outsider in our midst? Exciting to see. I have wished to share our magic with new people for a long while.", "aldoreisvalleypart1-damys-1", true);
+        addSound("[2/4] Damys: However, I am...well, rather hungry. And I must tend to my garden here for the time being.", "aldoreisvalleypart1-damys-2", true);
+        addSound("[3/4] Damys: Have you heard the saying \"\"You scratch my ears, I scratch yours\"\"? People must help one another.", "aldoreisvalleypart1-damys-3", true);
+        addSound("[4/4] Damys: If you would be so kind as to bring me a loaf of fresh bread you may take my enchanted bucket. ", "aldoreisvalleypart1-damys-4", true);
+        addSound("[1/3] Vaenr: This is utterly inane. A full lockdown, over a petty theft... Are we not to help one another? To thieve is unnecessary.", "aldoreisvalleypart1-vaenr-1", false);
+        addSound("[2/3] Sylvar: The thieving is not the reason, from what I have heard. It is that the grove was jealously hidden due to the potency of the plants there.", "aldoreisvalleypart1-sylvar-1", false);
+        addSound("[3/3] Sylvar: Tattytale, Iridesca, Subtraxerim... The Light only knows what else. It is impossible to reach without unusual means- And that is cause for grave concern.", "aldoreisvalleypart1-sylvar-2", false);
+        addSound("[1/2] Damys: I saw you toil to bake this yourself. Frankly, that is above and beyond what I expected, so here is your exchange.", "aldoreisvalleypart1-damys-5", true);
+        addSound("[2/2] Damys: If you require help in the future with anything, do not be afraid to ask. If you put such effort for me, I shall give you the same.", "aldoreisvalleypart1-damys-6", true);
+        addSound("[1/1] Guard: Halt! This area is strictly off limits, especially for an outsider. Turn back now! ", "aldoreisvalleypart1-guard-1", true);
+        addSound("[1/7] Damys: Aha, the outsider returns. Is there something troubling you?", "aldoreisvalleypart1-damys-7", true);
+        addSound("[2/7] Damys: ...mmm. Unfortunate, that. I cannot help with this.", "aldoreisvalleypart1-damys-8", true);
+        addSound("[3/7] Damys: It is not a matter of secrecy or morals- I simply do not know what that leaf is from or what it may be capable of.", "aldoreisvalleypart1-damys-9", true);
+        addSound("[4/7] Damys: I am no botanist- Simply a gardener. The mistake is understandable, if regrettable. ", "aldoreisvalleypart1-damys-10", true);
+        addSound("[5/7] Damys: However, I was taught under a much more storied botanist who may have the answers you seek.", "aldoreisvalleypart1-damys-11", true);
+        addSound("[6/7] Damys: Her name is Fiona- Her home is across the valley from here. Take the bridge across. She often stays inside studying. ", "aldoreisvalleypart1-damys-12", true);
+        addSound("[7/7] Damys: She has forgotten more than I will ever hope to know about plants. If she cannot help you, I fear none can.", "aldoreisvalleypart1-damys-13", true);
+        addSound("[1/7] Fiona: This is outrageous! To think one of our own would stoop to such thievery and destruction!", "aldoreisvalleypart1-fiona-1", false);
+        addSound("[1/6] Fiona: ...disgusting. I will have to hang the pages to dry later, but first, our exchange.", "aldoreisvalleypart1-fiona-2", false);
+        addSound("[1/3] Criminal: ..you! You have been seeking me! I have seen you tracing my footsteps...", "aldoreisvalleypart1-korben-1", true);
+        addSound("[2/3] Criminal: I apologize for this... But what I do is a necessity!", "aldoreisvalleypart1-korben-2", true);
+        addSound("[3/3] Criminal: I beg you, do not pursue me any further!", "aldoreisvalleypart1-korben-3", true);
+        addSound("[1/4] Criminal: Outsider, I realize the circumstances appear damning, but you must stop!", "aldoreisvalleypart1-korben-4", true);
+        addSound("[2/4] Criminal: What I have done is needed, and if there were another path I would have taken it over this.", "aldoreisvalleypart1-korben-5", true);
+        addSound("[3/4] Criminal: I must take my concoction to where it is needed!", "aldoreisvalleypart1-korben-6", true);
+        addSound("[4/4] Criminal: See me as I truly am- My name is Korben, and I musn’t be delayed further!", "aldoreisvalleypart1-korben-7", true);
+        addSound("1/1korben!", "aldoreisvalleypart1-korben-8", true);
+        addSound("[1/2] Korben: A damnable pace you have... I cannot let you stop me for a moment longer!", "aldoreisvalleypart1-korben-9", true);
+        addSound("[2/2] Korben: It will be done soon, but I must reach my destination first!", "aldoreisvalleypart1-korben-10", true);
+        addSound("[1/9] Korben: Finally... I apologize for the delay. I needed to take strong measures to get this to you.", "aldoreisvalleypart1-korben-11", false);
+        addSound("[1/4] Korben: ...you... You are... You would lie to the guards and say I perished in the chase? You will keep my identity secret?", "aldoreisvalleypart1-korben-12", false);
+        addSound("[1/3] Elf Guard: Traveler, I must remind you- The doors shall remain shut until the criminal has been found.", "aldoreisvalleypart1-elfguard-2", false);
+
+
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
