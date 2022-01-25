@@ -14721,21 +14721,21 @@
 
 
 
-  "talkingmushroom-eyeballforest-1": {
+  "talkingmushroomeyeballforest": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-eyeballforest-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroomeyeballforest", "stream": true}]
   },
-  "talkingmushroom-lightrealmtree-1": {
+  "talkingmushroomlightrealmtree": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-lightrealmtree-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroomlightrealmtree", "stream": true}]
   },
-  "talkingmushroom-rivalbuisness-1": {
+  "talkingmushroomrivalbuisness": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-rivalbuisness-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroomrivalbuisness", "stream": true}]
   },
-  "talkingmushroom-sleazypotionmerchant-1": {
+  "talkingmushroomsleazypotionmerchant": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-sleazypotionmerchant-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroomsleazypotionmerchant", "stream": true}]
   },
   "talkingmushroomqirahive": {
     "category": "voice",

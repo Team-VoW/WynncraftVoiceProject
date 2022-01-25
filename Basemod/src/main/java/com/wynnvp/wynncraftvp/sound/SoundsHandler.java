@@ -74,10 +74,10 @@ public class SoundsHandler {
         addSound("[1/3] Talking Mushroom: REALLY COOL CITY, HUH? BUILT UP ON THE CLIFFS, VERY STYLISH, IS THAT WHAT YOU'RE THINKING?", "talkingmushroomkandon", true);
         addSound("[1/6] Talking Mushroom: \"WOW, WHAT EVEN IS THIS PLACE?? FEELS OMINOUS, LOOKS LAME, WHAT ARE WE DOING HERE? DROP ME OFF SOMEPLACE ELSE!\"", "talkingmushroomqirahive", false);
         addSound("[1/3] Talking Mushroom: WOW, GET A LOAD OF THIS PLACE! VERY FANCY. I'M SURE WHATEVER IT IS, IT'S PROBABLY VERY IMPORTANT!", "talkingmushroomtoa", false);
-        addSound("[1/2] Talking Mushroom: ...ALRIGHT. I'VE ACCEPTED THAT YOU GO TO WEIRD PLACES, BUT THIS CROSSES THE LINE. WHERE THE BLOODY HELL ARE WE?", "talkingmushroom-eyeballforest-1", true);
-        addSound("[1/1] Talking Mushroom: HEY, HUMAN, TAKE A LOOK!! YOU CAN SEE THE WHOLE LIGHT REALM FROM UP HERE!!!", "talkingmushroom-lightrealmtree-1", true);
-        addSound("[1/2] Talking Mushroom: WOW, WOW! I CAN'T BELIEVE THIS! THIS SLEAZY POTION MERCHANT CAN JUST HAVE A SECRET CRATE OF MUSHROOMS THAT HE'S PROBABLY TRAFFICKING ILLEGALLY, AND NOBODY BATS AN EYE...", "talkingmushroom-sleazypotionmerchant-1", true);
-        addSound("[1/2] Talking Mushroom: WOAH, HEY, WAIT, WHAT ARE WE DOING HERE?? HUMAN, I'VE BEEN PERMANENTLY EXILED FROM THIS PLACE EVER SINCE I SET UP THAT MUSHROOM SHOP HERE FIVE YEARS AGO!", "talkingmushroom-rivalbuisness-1", true);
+        addSound("[1/2] Talking Mushroom: ...ALRIGHT. I'VE ACCEPTED THAT YOU GO TO WEIRD PLACES, BUT THIS CROSSES THE LINE. WHERE THE BLOODY HELL ARE WE?", "talkingmushroomeyeballforest", true);
+        addSound("[1/1] Talking Mushroom: HEY, HUMAN, TAKE A LOOK!! YOU CAN SEE THE WHOLE LIGHT REALM FROM UP HERE!!!", "talkingmushroomlightrealmtree", true);
+        addSound("[1/2] Talking Mushroom: WOW, WOW! I CAN'T BELIEVE THIS! THIS SLEAZY POTION MERCHANT CAN JUST HAVE A SECRET CRATE OF MUSHROOMS THAT HE'S PROBABLY TRAFFICKING ILLEGALLY, AND NOBODY BATS AN EYE...", "talkingmushroomsleazypotionmerchant", true);
+        addSound("[1/2] Talking Mushroom: WOAH, HEY, WAIT, WHAT ARE WE DOING HERE?? HUMAN, I'VE BEEN PERMANENTLY EXILED FROM THIS PLACE EVER SINCE I SET UP THAT MUSHROOM SHOP HERE FIVE YEARS AGO!", "talkingmushroomrivalbuisness", true);
 
 
 
