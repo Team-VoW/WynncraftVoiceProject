@@ -843,15 +843,15 @@ public class SoundsHandler {
         addSound("1/12rensatougherthaniexpectedyoudontmindifiinterfereabitdoyou?", "mixedfeelings-rensa-10", false);
         addSound("[1/6] Rensa: Hmph.", "mixedfeelings-rensa-11", false);
         addSound("[1/5] Javen: Now look who we got over 'ere! We were all wondering if you'd ever wake up.", "mixedfeelings-javen-4", false);
-        addSound("mixedfeelingscorkuscitycitizen11", "mixedfeelings-corkuscitycitizen-1-1", false);
-        addSound("mixedfeelingscorkuscitycitizen12", "mixedfeelings-corkuscitycitizen-1-2", false);
-        addSound("mixedfeelingscorkuscitycitizen13", "mixedfeelings-corkuscitycitizen-1-3", false);
-        addSound("mixedfeelingscorkuscitycitizen21", "mixedfeelings-corkuscitycitizen-2-1", false);
-        addSound("mixedfeelingscorkuscitycitizen22", "mixedfeelings-corkuscitycitizen-2-2", false);
-        addSound("mixedfeelingscorkuscitycitizen23", "mixedfeelings-corkuscitycitizen-2-3", false);
-        addSound("mixedfeelingscorkuscitycitizen31", "mixedfeelings-corkuscitycitizen-3-1", false);
-        addSound("mixedfeelingscorkuscitycitizen32", "mixedfeelings-corkuscitycitizen-3-2", false);
-        addSound("mixedfeelingscorkuscitycitizen33", "mixedfeelings-corkuscitycitizen-3-3", false);
+        addSound("mixedfeelingscorkuscitycitizen11", "mixedfeelings-corkuscitycitizen-12", false);
+        addSound("mixedfeelingscorkuscitycitizen12", "mixedfeelings-corkuscitycitizen-13", false);
+        addSound("mixedfeelingscorkuscitycitizen13", "mixedfeelings-corkuscitycitizen-14", false);
+        addSound("mixedfeelingscorkuscitycitizen21", "mixedfeelings-corkuscitycitizen-15", false);
+        addSound("mixedfeelingscorkuscitycitizen22", "mixedfeelings-corkuscitycitizen-16", false);
+        addSound("mixedfeelingscorkuscitycitizen23", "mixedfeelings-corkuscitycitizen-17", false);
+        addSound("mixedfeelingscorkuscitycitizen31", "mixedfeelings-corkuscitycitizen-18", false);
+        addSound("mixedfeelingscorkuscitycitizen32", "mixedfeelings-corkuscitycitizen-19", false);
+        addSound("mixedfeelingscorkuscitycitizen33", "mixedfeelings-corkuscitycitizen-20", false);
 
 
         //Grave Digger
