@@ -14809,10 +14809,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomendportal", "stream": true}]
   },
-  "talkingmushroomeyeballforest": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroomeyeballforest", "stream": true}]
-  },
   "talkingmushroomfantasticvoyage": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomfantasticvoyage", "stream": true}]

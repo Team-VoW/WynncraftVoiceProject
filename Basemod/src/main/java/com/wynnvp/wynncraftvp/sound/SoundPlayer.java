@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.SoundCategory;
@@ -35,8 +36,8 @@ public class SoundPlayer {
         CustomSoundClass customSoundClass = soundsHandler.sounds.get(line);
         SoundEvent soundEvent = customSoundClass.getSoundEvent();
 
-        //If this is a moving sound
-        if (customSoundClass.isMovingSound()) {
+        //If this is a moving sound or it is set to play all sounds on player
+        if (customSoundClass.isMovingSound() || ConfigHandler.playAllSoundsOnPlayer) {
             //Play the sound at the player
             Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(soundEvent));
             addSoundToCoolDown(line);

@@ -1,9 +1,11 @@
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
+import net.minecraftforge.client.event.ClientChatEvent;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -20,18 +22,20 @@ public class ReceiveChatEvent {
 
     @SubscribeEvent
     public static void receivedChat(ClientChatReceivedEvent event) {
+
+
         String msg = event.getMessage().getUnformattedText();
 
 
         msg = msg.replace("\n", "iso95bf");
 
-
-        if (msg.contains("iso95bf")) System.out.println("Contained nn at 1");
-
         //Replace player Name with "soldier"
-        if (msg.contains(Minecraft.getMinecraft().player.getName())) {
-            msg = msg.replace(Minecraft.getMinecraft().player.getName(), "soldier");
+        String name = GetPlayerName(event.getMessage().toString());
+        if (msg.contains(name)) {
+            msg = msg.replace(name, "soldier");
+            System.out.println("Replaced player name!");
         }
+
 
         msg = SoundsHandler.formatToSound(msg);
         if (isInMixedFeelingsQuest()) {
@@ -80,8 +84,16 @@ public class ReceiveChatEvent {
 
 
         return fileName;
-
-
     }
 
+
+    private static String GetPlayerName(String message){
+        String segments[] = message.split("hoverEvent=HoverEvent\\{action=SHOW_TEXT, value='TextComponent\\{text='");
+        if (segments.length <= 1) return Minecraft.getMinecraft().player.getDisplayNameString();
+        String name = segments[segments.length - 1].split(" ")[0];
+        if (name.contains("Previous")) return Minecraft.getMinecraft().player.getDisplayNameString();
+        return name.split("'")[0];
+        }
 }
+
+
