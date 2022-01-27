@@ -14720,6 +14720,108 @@
   },
 
 
+  "questionmark-computer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-1", "stream": true}]
+  },
+  "questionmark-computer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-2", "stream": true}]
+  },
+  "questionmark-computer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-3", "stream": true}]
+  },
+  "questionmark-computer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-4", "stream": true}]
+  },
+  "questionmark-computer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-5", "stream": true}]
+  },
+  "questionmark-computer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-6", "stream": true}]
+  },
+  "questionmark-computer-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-7", "stream": true}]
+  },
+  "questionmark-computer-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-8", "stream": true}]
+  },
+  "questionmark-computer-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-9", "stream": true}]
+  },
+  "questionmark-computer-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-10", "stream": true}]
+  },
+  "questionmark-wynntron-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-wynntron-1", "stream": true}]
+  },
+  "questionmark-wynntron-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-wynntron-2", "stream": true}]
+  },
+  "questionmark-wynntron-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-wynntron-3", "stream": true}]
+  },
+  "questionmark-wynntron-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-wynntron-4", "stream": true}]
+  },
+  "questionmark-wynntron-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-wynntron-5", "stream": true}]
+  },
+  "questionmark-computer-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-11", "stream": true}]
+  },
+  "questionmark-computer-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-12", "stream": true}]
+  },
+  "questionmark-computer-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-13", "stream": true}]
+  },
+  "questionmark-computer-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-14", "stream": true}]
+  },
+  "questionmark-computer-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-15", "stream": true}]
+  },
+  "questionmark-computer-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-16", "stream": true}]
+  },
+  "questionmark-computer-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-17", "stream": true}]
+  },
+  "questionmark-computer-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-18", "stream": true}]
+  },
+  "questionmark-computer-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-computer-19", "stream": true}]
+  },
+  "questionmark-mehme-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:questionmark-mehme-1", "stream": true}]
+  },
+
+
 
   "talkingmushroomeyeballforest": {
     "category": "voice",

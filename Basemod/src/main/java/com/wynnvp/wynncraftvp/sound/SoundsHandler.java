@@ -3942,6 +3942,34 @@ public class SoundsHandler {
         addSound("[1/4] Korben: ...you... You are... You would lie to the guards and say I perished in the chase? You will keep my identity secret?", "aldoreisvalleypart1-korben-12", false);
         addSound("[1/3] Elf Guard: Traveler, I must remind you- The doors shall remain shut until the criminal has been found.", "aldoreisvalleypart1-elfguard-2", false);
 
+        //Questionmark ???
+        addSound(">All systems online.", "questionmark-computer-1", false);
+        addSound(">Teleporter activating...", "questionmark-computer-2", false);
+        addSound(">Warp chamber now ready for use.", "questionmark-computer-3", false);
+        addSound(">Commencing warp sequence...", "questionmark-computer-4", false);
+        addSound(">Starting up...", "questionmark-computer-5", false);
+        addSound(">Permissions update requested. Beginning process...", "questionmark-computer-6", false);
+        addSound(">Processes complete. Permissions successfully updated.", "questionmark-computer-7", false);
+        addSound(">WARNING: Systems overloading!", "questionmark-computer-8", false);
+        addSound(">ERROR.", "questionmark-computer-9", false);
+        addSound(">Bring the keys to where madman dwells.", "questionmark-computer-10", false);
+        addSound("[ Wynntron | Version: 9001.14 ]", "questionmark-wynntron-1", false);
+        addSound("Resetting systems <*> Loading \"Unbeatable AI\" preset...", "questionmark-wynntron-2", false);
+        addSound("[ Wynntron | Version: 9ERrOr.4 ]", "questionmark-wynntron-3", false);
+        addSound("Error Eror 3Rr0r <*> \"Unbeatable AI\" ER", "questionmark-wynntron-4", false);
+        addSound("[1/1] Wynntron: ERROR", "questionmark-wynntron-5", false);
+        addSound(">Commencing warp to Lab N...", "questionmark-computer-11", false);
+        addSound(">Warping...", "questionmark-computer-12", false);
+        addSound(">Permissions updated.", "questionmark-computer-13", false);
+        addSound(">Too few users detected. The user minimum is 4!", "questionmark-computer-14", false);
+        addSound(">Now accepting user input. Jump to reset configurations.", "questionmark-computer-15", false);
+        addSound(">Permissions updated.", "questionmark-computer-16", false);
+        addSound(">Sealing capsule...", "questionmark-computer-17", false);
+        addSound(">Systems starting up...", "questionmark-computer-18", false);
+        addSound(">Calculating destination...", "questionmark-computer-19", false);
+        addSound("[1/6] Mehme: Welcome to my wonderful wooden home!", "questionmark-mehme-1", false);
+
+
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
