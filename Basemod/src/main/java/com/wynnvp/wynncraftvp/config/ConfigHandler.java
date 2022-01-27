@@ -23,7 +23,6 @@ public class ConfigHandler {
         config = new Configuration(file);
 
         config.addCustomCategoryComment(ConfigHandler.category, "Settings for the mod");
-        playerName = config.getString("PlayerName", ConfigHandler.category, "null", "PlayerName to look out for in text");
 
         playAllSoundsOnPlayer = config.getBoolean("playAllSoundsOnPlayer", ConfigHandler.category, false, "If the mod should play all sounds on the player");
 
@@ -44,12 +43,7 @@ public class ConfigHandler {
         config.save();
     }
 
-    public static void SetName(String name) {
-        ConfigHandler.playerName = name;
 
-        config.get(category, "PlayerName", ConfigHandler.category, Minecraft.getMinecraft().player.getName()).set(name);
-        config.save();
-    }
 
 
 

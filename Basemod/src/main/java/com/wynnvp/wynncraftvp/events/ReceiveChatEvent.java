@@ -1,11 +1,9 @@
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
-import net.minecraftforge.client.event.ClientChatEvent;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -22,10 +20,7 @@ public class ReceiveChatEvent {
 
     @SubscribeEvent
     public static void receivedChat(ClientChatReceivedEvent event) {
-
-
         String msg = event.getMessage().getUnformattedText();
-
 
         msg = msg.replace("\n", "iso95bf");
 
@@ -70,6 +65,7 @@ public class ReceiveChatEvent {
 
     private static String GetRightMixedFeelingsLine(String fileName, String msg) {
         Boolean foundMsg = false;
+
         if (msg.equalsIgnoreCase("2/5corkuscitycitizencorkushasbeenurgingtouristsandenvoysfromtheotherprovincestogainrecognition")) {
             fileName = fileName + "1";
             foundMsg = true;
@@ -87,13 +83,13 @@ public class ReceiveChatEvent {
     }
 
 
-    private static String GetPlayerName(String message){
+    private static String GetPlayerName(String message) {
         String segments[] = message.split("hoverEvent=HoverEvent\\{action=SHOW_TEXT, value='TextComponent\\{text='");
         if (segments.length <= 1) return Minecraft.getMinecraft().player.getDisplayNameString();
         String name = segments[segments.length - 1].split(" ")[0];
         if (name.contains("Previous")) return Minecraft.getMinecraft().player.getDisplayNameString();
         return name.split("'")[0];
-        }
+    }
 }
 
 
