@@ -14752,10 +14752,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:questionmark-computer-8", "stream": true}]
   },
-  "questionmark-computer-9": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:questionmark-computer-9", "stream": true}]
-  },
   "questionmark-computer-10": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:questionmark-computer-10", "stream": true}]
@@ -14764,10 +14760,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:questionmark-wynntron-1", "stream": true}]
   },
-  "questionmark-wynntron-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:questionmark-wynntron-2", "stream": true}]
-  },
   "questionmark-wynntron-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:questionmark-wynntron-3", "stream": true}]
@@ -14775,10 +14767,6 @@
   "questionmark-wynntron-4": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:questionmark-wynntron-4", "stream": true}]
-  },
-  "questionmark-wynntron-5": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:questionmark-wynntron-5", "stream": true}]
   },
   "questionmark-computer-11": {
     "category": "voice",
