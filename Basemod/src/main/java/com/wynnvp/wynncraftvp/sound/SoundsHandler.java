@@ -3951,21 +3951,21 @@ public class SoundsHandler {
         addSound(">Permissions update requested. Beginning process...", "questionmark-computer-6", true);
         addSound(">Processes complete. Permissions successfully updated.", "questionmark-computer-7", true);
         addSound(">WARNING: Systems overloading!", "questionmark-computer-8", true);
+        addSound(">All systems online.", "questionmark-computer-9", true);
         addSound(">Bring the keys to where madman dwells.", "questionmark-computer-10", true);
         addSound("wynntronversion900114iso95bfresettingsystemsloadingunbeatableaipreset", "questionmark-wynntron-1", true);
-        addSound("[ Wynntron | Version: 9ERrOr.4 ]", "questionmark-wynntron-3", false);
-        addSound("wynntronversion9error4iso95bferroreror3rr0runbeatableaierlollotem", "questionmark-wynntron-4", false);
-        addSound(">Commencing warp to Lab N...", "questionmark-computer-11", false);
-        addSound(">Warping...", "questionmark-computer-12", false);
-        addSound(">Permissions updated.", "questionmark-computer-13", false);
-        addSound(">Too few users detected. The user minimum is 4!", "questionmark-computer-14", false);
-        addSound(">Now accepting user input. Jump to reset configurations.", "questionmark-computer-15", false);
-        addSound(">Permissions updated.", "questionmark-computer-16", false);
-        addSound(">Sealing capsule...", "questionmark-computer-17", false);
-        addSound(">Systems starting up...", "questionmark-computer-18", false);
-        addSound(">Calculating destination...", "questionmark-computer-19", false);
+        addSound("[ Wynntron | Version: 9ERrOr.4 ]", "questionmark-wynntron-3", true);
+        addSound("wynntronversion9error4iso95bferroreror3rr0runbeatableaierlollotem", "questionmark-wynntron-4", true);
+        addSound(">Commencing warp to Lab N...", "questionmark-computer-11", true);
+        addSound(">Warping...", "questionmark-computer-12", true);
+        addSound(">Permissions updated.", "questionmark-computer-13", true);
+        addSound(">Too few users detected. The user minimum is 4!", "questionmark-computer-14", true);
+        addSound(">Now accepting user input. Jump to reset configurations.", "questionmark-computer-15", true);
+        addSound(">Permissions updated.", "questionmark-computer-16", true);
+        addSound(">Sealing capsule...", "questionmark-computer-17", true);
+        addSound(">Systems starting up...", "questionmark-computer-18", true);
+        addSound(">Calculating destination...", "questionmark-computer-19", true);
         addSound("[1/6] Mehme: Welcome to my wonderful wooden home!", "questionmark-mehme-1", false);
-
 
 
         //Non quest npc
