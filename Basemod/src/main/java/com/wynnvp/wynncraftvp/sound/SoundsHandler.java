@@ -3990,6 +3990,8 @@ public class SoundsHandler {
         message = getActualText(message);
         message = message.toLowerCase();
         message = message.replaceAll("[^abcdefghijklmnopqrstuvwxyz?!0123456789/]", "");
+        message = message.replace("iso95bf", "");
+
 
         return message;
     }
