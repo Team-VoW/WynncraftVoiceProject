@@ -3967,6 +3967,28 @@ public class SoundsHandler {
         addSound(">Calculating destination...", "questionmark-computer-19", true);
         addSound("[1/6] Mehme: Welcome to my wonderful wooden home!", "questionmark-mehme-1", false);
 
+        //The hidden city
+        addSound("[1/14] Narder: A human? Agh! Don't worry about getting me medical attention, I've got this under control...", "thehiddencity-narder-1", false);
+        addSound("[1/4] Curious Villager: Hm? Oh, a fellow adventurer, I see! I'm sorry, but this discovery is mine to make. There's something strange about that door...", "thehiddencity-curiousvillager-1", false);
+        addSound("[1/1] Curious Villager: Gweh! I just had to go running my mouth about the cave collapsing! I'm out- if you have any sense you'll leave too!", "thehiddencity-curiousvillager-2", true);
+        addSound("[1/6] Eltom Guard: Thank you for getting rid of that curious villager! We thought he'd never leave.", "thehiddencity-eltomguard-1", false);
+        addSound("[1/8] Eoric: What are you doing here? I'm writing an important letter, this better be worth my time.", "thehiddencity-eoric-1", false);
+        addSound("[1/1] Reder: Sorry, detective, but I haven't seen anything suspicious. In fact, I haven't even left my house for the last week.", "thehiddencity-reder-1", false);
+        addSound("[1/1] Nichye: The only suspicious thing I've seen is a hooded man walking around. There's not many people in Eltom, so it's weird.", "thehiddencity-nichye-1", false);
+        addSound("[1/1] Sybeth: If you want to find out anything, the best person to ask is Lumilda. She's in her bakery, next to the Scroll Shop.", "thehiddencity-sybeth-1", false);
+        addSound("[1/6] Lumilda: Ah, detective! What brings you to the sweet Lumilda's Bakery? ", "thehiddencity-lumilda-1", false);
+        addSound("[1/6] ???: Ah, you must be the detective. None of those half-witted Eltomites could figure it out.", "thehiddencity-ardulf-1", false);
+        addSound("[2/6] ???: I guess the grook is out of the pen then.", "thehiddencity-ardulf-2", false);
+        addSound("[3/6] ???: This town shouldn't even be here. Humans aren't allowed to settle in Gavel.", "thehiddencity-ardulf-3", false);
+        addSound("[4/6] ???: These humans couldn't be bothered to fight their own war, so they hid an entire city here.", "thehiddencity-ardulf-4", false);
+        addSound("[5/6] ???: Traitor? I'm no traitor. I'm just looking to carry out the law where it needs to be carried out. Nothing personal, yes?", "thehiddencity-ardulf-5", false);
+        addSound("[6/6] Ardulf: Maybe they'll actually use \"\"Ardulf\"\" instead of saying \"\"freak\"\" once they've seen the good I can do for them!", "thehiddencity-ardulf-6", false);
+        addSound("[1/5] Hilan: H-h-help!", "thehiddencity-hilan-1", false);
+        addSound("[1/4] Ardulf: What are you doing here? Why are you protecting this illegal town?", "thehiddencity-ardulf-7", false);
+        addSound("[1/7] Thesead's Mayor: What brings a human to my office?", "thehiddencity-theseadsmayor-1", false);
+
+
+
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);

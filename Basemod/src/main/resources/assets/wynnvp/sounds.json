@@ -1142,6 +1142,81 @@
   },
 
 
+  "thehiddencity-narder-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-narder-1", "stream": true}]
+  },
+  "thehiddencity-curiousvillager-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-curiousvillager-1", "stream": true}]
+  },
+  "thehiddencity-curiousvillager-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-curiousvillager-2", "stream": true}]
+  },
+  "thehiddencity-eltomguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-eltomguard-1", "stream": true}]
+  },
+  "thehiddencity-eoric-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-eoric-1", "stream": true}]
+  },
+  "thehiddencity-reder-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-reder-1", "stream": true}]
+  },
+  "thehiddencity-nichye-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-nichye-1", "stream": true}]
+  },
+  "thehiddencity-sybeth-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-sybeth-1", "stream": true}]
+  },
+  "thehiddencity-lumilda-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-lumilda-1", "stream": true}]
+  },
+  "thehiddencity-ardulf-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-ardulf-1", "stream": true}]
+  },
+  "thehiddencity-ardulf-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-ardulf-2", "stream": true}]
+  },
+  "thehiddencity-ardulf-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-ardulf-3", "stream": true}]
+  },
+  "thehiddencity-ardulf-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-ardulf-4", "stream": true}]
+  },
+  "thehiddencity-ardulf-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-ardulf-5", "stream": true}]
+  },
+  "thehiddencity-ardulf-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-ardulf-6", "stream": true}]
+  },
+  "thehiddencity-hilan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-hilan-1", "stream": true}]
+  },
+  "thehiddencity-ardulf-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-ardulf-7", "stream": true}]
+  },
+  "thehiddencity-theseadsmayor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehiddencity-theseadsmayor-1", "stream": true}]
+  },
+
+
+
   "tempotowntrouble-dougthescout-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tempotowntrouble-dougthescout-1", "stream": true}]
