@@ -3987,6 +3987,49 @@ public class SoundsHandler {
         addSound("[1/4] Ardulf: What are you doing here? Why are you protecting this illegal town?", "thehiddencity-ardulf-7", false);
         addSound("[1/7] Thesead's Mayor: What brings a human to my office?", "thehiddencity-theseadsmayor-1", false);
 
+        //From the mountains
+        addSound("[1/2] Arnod: Mmph! Humnym! Mah houfhs fhs om fifhre! Gft hfrelp, tiff brafze womd strfp!", "fromthemountains-arnod-1", false);
+        addSound("[1/3] Arnod: ...well, that explains why you didn't help. But, uh, did the RAGING FIRE escape your notice somehow?!", "fromthemountains-arnod-2", false);
+        addSound("[1/21] Axelus: Hm...where am I going to get help now- Mh? You're one of those human types, right? Do you have-", "fromthemountains-axelus-1", true);
+        addSound("[2/21] Axelus: Huh? Someone's house is on fire? Guess that's a little more pressing than what I was going to ask. Where is it?", "fromthemountains-axelus-2", true);
+        addSound("[3/21] Axelus: Oh, that valley by the gate? I think I know where you mean. Let's walk together. So, tell me what exactly happened?", "fromthemountains-axelus-3", true);
+        addSound("[13/21] Axelus: Hm...didn't think they'd be this far out, but it'd make sense if...", "fromthemountains-axelus-5", true);
+        addSound("[14/21] Axelus: Aha! Here's the problem. It's just a little Fleris. Ehm, to explain, they normally live in the Heights.", "fromthemountains-axelus-6", true);
+        addSound("[15/21] Axelus: Pretty affectionate, good if you can stand the heat, but if you take them away from their mounds they get spooked.", "fromthemountains-axelus-7", true);
+        addSound("[16/21] Axelus: One fleris could've kept setting this man's house on fire, but all the other fallout...there's certainly more where this one came from. ", "fromthemountains-axelus-8", true);
+        addSound("[17/21] Axelus: Let's go talk to the villager outside. He might've seen where the others got off to, or where they came from.", "fromthemountains-axelus-9", true);
+        addSound("[18/21] Axelus: Sir, I figured out why your house kept re-igniting and solved that issue, but tell me, have you seen any moving sludgy things around here?", "fromthemountains-axelus-10", true);
+        addSound("[19/21] Arnod: Uhm, I don't really know. I've been trying to douse my house so many times over that I haven't really paid attention!", "fromthemountains-arnod-3", true);
+        addSound("[20/21] Arnod: I remember seeing some tar-looking stuff dripping from the mountains behind my house, but that's it!", "fromthemountains-arnod-4", true);
+        addSound("[21/21] Axelus: Sounds concrete enough to me. Let's check out what's going on on top of the mountain ridge. Check that book of yours if you need directions.", "fromthemountains-axelus-11", false);
+        addSound("[1/7] Axelus: Hm, you're a pretty quick climber. I thought I'd get ahead of you. Well, this looks like the scorched area down in the valley... Hm! I thought so.", "fromthemountains-axelus-12", true);
+        addSound("[2/7] Axelus: There's only one reason I can think of that there would be so many Flerisi around here... If that wagon's reinforced, then...", "fromthemountains-axelus-13", true);
+        addSound("[3/7] Axelus: Gah, I knew it. Traffickers! And incompetent ones, too, considering they couldn't hold the things.", "fromthemountains-axelus-14", true);
+        addSound("[4/7] Axelus: There's a black market issue in the Molten Heights. Things that you can't find anywhere else are harvested in the Heights for their high value.", "fromthemountains-axelus-15", true);
+        addSound("[5/7] Axelus: Flerisi are one of them. In the Heights, they're kept as pets. They're relatively friendly, keep your house warm, and don't need much care...", "fromthemountains-axelus-16", true);
+        addSound("[6/7] Axelus: ...But if you take them away from a warm place, they burn everything. To think- Some people use the things as weapons. Can't leave well enough alone...", "fromthemountains-axelus-17", true);
+        addSound("[7/7] Axelus: We'll need to catch these flerisi. Here, take this net. While you catch them, I'll repair the cart so we can put them in there later.", "fromthemountains-axelus-18", true);
+        addSound("[1/7] Axelus: I've got the cart all repaired and ready, did you get all the Flerisi? Come over to the cart then. We still have work to do.", "fromthemountains-axelus-19", true);
+        addSound("[2/7] Axelus: I'll keep the Flerisi in a smaller fire to keep them calm, see if I can't get them back to the Heights when this is done. ", "fromthemountains-axelus-20", true);
+        addSound("[3/7] Axelus: For now, I want to see if I can find anything on who these traffickers were. Let's see if they left anything in the front of the cart.", "fromthemountains-axelus-21", true);
+        addSound("[4/7] Axelus: ...oh. Well, didn't notice that the fires went THAT far earlier. That's a problem, isn't it?", "fromthemountains-axelus-22", true);
+        addSound("[5/7] Axelus: To explain, Flerisi aren't all as tiny as the ones we've found here. They feed off cinders and fire... And for this much damage to be caused, well...", "fromthemountains-axelus-23", true);
+        addSound("[6/7] Axelus: Methinks this one's getting a bit out of control. This is right next to that big forest, too. Could be a problem if we leave this one be.", "fromthemountains-axelus-24", true);
+        addSound("[7/7] Axelus: We're going to have to track it down and subdue it. Here, follow me. I'll dig us down to the valley. Watch a dwarf at work!", "fromthemountains-axelus-25", true);
+        addSound("[1/2] Axelus: Not bad, eh? Anyways, dunno what that huge gate's for, but it looks like our Fleris friend has commandeered it for a bonfire.", "fromthemountains-axelus-26", true);
+        addSound("[2/2] Axelus: At least it's a little more contained than I thought, being in that cave, but we still have to catch it. Lead the way. I'm right with you. ", "fromthemountains-axelus-27", true);
+        addSound("[1/1] Axelus: What the...?! It inflamed the creatures in this cave! Fend 'em off! ", "fromthemountains-axelus-28", true);
+        addSound("[1/1] Axelus: There are more of them coming! Get to the end of the cave!", "fromthemountains-axelus-29", true);
+        addSound("[1/4] Axelus: Gah, more?! Behind you!", "fromthemountains-axelus-30", true);
+        addSound("[1/1] Axelus: Hey! Back up! Don't approach the enemies!", "fromthemountains-axelus-31", true);
+        addSound("[2/4] Axelus: Both of us stopping is going to make it take too much time, the traffickers might come back!", "fromthemountains-axelus-32", true);
+        addSound("[3/4] Axelus: Listen up. I'll handle these things, while you go after the Fleris. If it's a big one like we think, it'll be a downhill battle- It should shrink if you attack it!", "fromthemountains-axelus-33", true);
+        addSound("[4/4] Axelus: Alright, time for a little royal rumble!", "fromthemountains-axelus-34", true);
+        addSound("[1/2] Axelus: Phew, you're alright! Charred and covered in soot, but that's to be expected. Subdued the Fleris, too! I have the net with me, so allow me.", "fromthemountains-axelus-35", true);
+        addSound("[2/2] Axelus: Well, this is probably a bit of thankless work we just did, but so is a lot of work. Let's get out of here. We can talk outside.", "fromthemountains-axelus-36", true);
+        addSound("[1/4] Axelus: Well, I say the work is thankless, but that won't stop me, anyways. Thank you for the help, human- This would've been overwhelming alone.", "fromthemountains-axelus-37", false);
+
+
 
 
 
