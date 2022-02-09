@@ -1216,6 +1216,34 @@
   },
 
 
+  "enterthedojo-senseimiyagi-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enterthedojo-senseimiyagi-1", "stream": true}]
+  },
+  "enterthedojo-senseimiyagi-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enterthedojo-senseimiyagi-2", "stream": true}]
+  },
+  "enterthedojo-senseimiyagi-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enterthedojo-senseimiyagi-3", "stream": true}]
+  },
+  "enterthedojo-senseimiyagi-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enterthedojo-senseimiyagi-4", "stream": true}]
+  },
+  "enterthedojo-senseimiyagi-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enterthedojo-senseimiyagi-5", "stream": true}]
+  },
+  "enterthedojo-senseimiyagi-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enterthedojo-senseimiyagi-6", "stream": true}]
+  },
+
+
+
+
   "fromthemountains-arnod-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:fromthemountains-arnod-1", "stream": true}]

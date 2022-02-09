@@ -4029,6 +4029,13 @@ public class SoundsHandler {
         addSound("[2/2] Axelus: Well, this is probably a bit of thankless work we just did, but so is a lot of work. Let's get out of here. We can talk outside.", "fromthemountains-axelus-36", true);
         addSound("[1/4] Axelus: Well, I say the work is thankless, but that won't stop me, anyways. Thank you for the help, human- This would've been overwhelming alone.", "fromthemountains-axelus-37", false);
 
+        //Enter the dojo
+        addSound("[1/6] Sensei Miyagi: Welcome, young traveler, to my dojo. Do you wish to train with me? ", "enterthedojo-senseimiyagi-1", false);
+        addSound("[1/1] Sensei Miyagi: Welcome to the Qiangdu room, home of the first challenge. Test your jumping and climbing ability in this room, young grasshopper.", "enterthedojo-senseimiyagi-2", true);
+        addSound("[1/1] Sensei Miyagi: Welcome to the Dàochång room, home of the combat challenge. This challenge should come easy to the warrior that can bring out his inner fighter. ", "enterthedojo-senseimiyagi-3", true);
+        addSound("[1/1] Sensei Miyagi: Welcome to the Shìjué room, home of the sight challenge. Remember, young grasshopper, there is always more than one perspective to a problem.", "enterthedojo-senseimiyagi-4", true);
+        addSound("[1/1] Sensei Miyagi: Welcome to the Xìngzhì cave, home of the tranquility challenge. Your goal in this challenge is to become as tranquil as possible, to become one with nature. Instructions in your quest book will guide you.", "enterthedojo-senseimiyagi-5", true);
+        addSound("[1/5] Sensei Miyagi: I see you have returned, young one. What news do you bring to me?", "enterthedojo-senseimiyagi-6", false);
 
 
 
