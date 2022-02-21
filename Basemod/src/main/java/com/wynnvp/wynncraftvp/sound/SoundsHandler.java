@@ -1095,7 +1095,7 @@ public class SoundsHandler {
         addSound("[1/3] Captain Olof What are these creatures!", "onethousandmetersunder-olof-3", true);
         addSound("[1/1] Captain Olof: Don't let the creatures break through glass! Press against it and scare them off!", "onethousandmetersunder-olof-4", false);
         addSound("[1/3] Captain Olof: This is not good, the creatures destroyed part of the windshield.", "onethousandmetersunder-olof-5", false);
-        addSound("[1/2] Captain: Attention crew. We have arrived at the second island, 300m down. We cannot progress without making some emergency repairs.", "onethousandmetersunder-olof-6", true);
+        addSound("[1/2] Captain Olof: Attention crew. We have arrived at the second island, 300m down. We cannot progress without making some emergency repairs.", "onethousandmetersunder-olof-6", true);
         addSound("[1/5] Captain Olof: We need to repair the submarine.", "onethousandmetersunder-olof-7", false);
         addSound("[1/3] Captain Olof: Ech! What is this stuff? Well, this should do the trick.", "onethousandmetersunder-olof-8", false);
         addSound("[1/6] Jesp: Oh, blast! Do you smell that?", "onethousandmetersunder-jesp-1", true);
