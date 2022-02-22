@@ -1628,6 +1628,236 @@
   },
 
 
+  "dwarvesanddogunspart2-dogunchieftain-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-1", "stream": true}]
+  },
+  "dwarvesanddogunspart2-dogunchieftain-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-2", "stream": true}]
+  },
+  "dwarvesanddogunspart2-dogunchieftain-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-3", "stream": true}]
+  },
+  "dwarvesanddogunspart2-dogunchieftain-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-4", "stream": true}]
+  },
+  "dwarvesanddogunspart2-dogunchieftain-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-5", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-1", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-2", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-3", "stream": true}]
+  },
+  "dwarvesanddogunspart2-dogunchieftain-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-6", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-4", "stream": true}]
+  },
+  "dwarvesanddogunspart2-dogunchieftain-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-7", "stream": true}]
+  },
+  "dwarvesanddogunspart2-dogunchieftain-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-8", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-5", "stream": true}]
+  },
+  "dwarvesanddogunspart2-dogunchieftain-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-9", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-6", "stream": true}]
+  },
+  "dwarvesanddogunspart2-dogunchieftain-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-dogunchieftain-10", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-7", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-8", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-9", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-10", "stream": true}]
+  },
+  "dwarvesanddogunspart2-rodoroccommander-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-rodoroccommander-1", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-11", "stream": true}]
+  },
+  "dwarvesanddogunspart2-rodoroccommander-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-rodoroccommander-2", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-12", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-13", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-14", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-15", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-16", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-17", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-18", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-19", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-20", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-21", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-22", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-23", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-24", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-25", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-26", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-27", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-28", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-29", "stream": true}]
+  },
+  "dwarvesanddogunspart2-kingofrodoroc-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-kingofrodoroc-1", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-30", "stream": true}]
+  },
+  "dwarvesanddogunspart2-kingofrodoroc-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-kingofrodoroc-2", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-31", "stream": true}]
+  },
+  "dwarvesanddogunspart2-kingofrodoroc-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-kingofrodoroc-3", "stream": true}]
+  },
+  "dwarvesanddogunspart2-kingofrodoroc-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-kingofrodoroc-4", "stream": true}]
+  },
+  "dwarvesanddogunspart2-kingofrodoroc-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-kingofrodoroc-5", "stream": true}]
+  },
+  "dwarvesanddogunspart2-kingofrodoroc-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-kingofrodoroc-6", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-32", "stream": true}]
+  },
+  "dwarvesanddogunspart2-kingofrodoroc-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-kingofrodoroc-7", "stream": true}]
+  },
+  "dwarvesanddogunspart2-kingofrodoroc-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-kingofrodoroc-8", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-33", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-34", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-35", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-36", "stream": true}]
+  },
+  "dwarvesanddogunspart2-axelus-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwarvesanddogunspart2-axelus-37", "stream": true}]
+  },
+
+
 
 
   "fromthemountains-arnod-1": {
