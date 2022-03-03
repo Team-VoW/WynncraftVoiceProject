@@ -4037,7 +4037,7 @@ public class SoundsHandler {
         addSound("[1/1] Sensei Miyagi: Welcome to the Xìngzhì cave, home of the tranquility challenge. Your goal in this challenge is to become as tranquil as possible, to become one with nature. Instructions in your quest book will guide you.", "enterthedojo-senseimiyagi-5", true);
         addSound("[1/5] Sensei Miyagi: I see you have returned, young one. What news do you bring to me?", "enterthedojo-senseimiyagi-6", false);
 
-        //Dwarves and doguns part 1
+        //dwarvesanddogunspart1
         addSound("[1/3] Lozeg: Interesting to see a Human wanting to see a Dwarven play!", "dwarvesanddogunspart1-lozeg-1", false);
         addSound("[1/1] Lozeg: Just take a seat and enjoy the show.", "dwarvesanddogunspart1-lozeg-2", true);
         addSound("[1/1] Axelus: Wait, is that- Hey, soldier! It's so good to see you!", "dwarvesanddogunspart1-axelus-1", true);
@@ -4135,98 +4135,7 @@ public class SoundsHandler {
         addSound("[5/6] Plario: Human...if you promise to help us...I will grant you access to...our secret elevators... You can get up and...down the heights with those.", "dwarvesanddogunspart1-plario-7", true);
         addSound("[6/6] Plario: Please return to...us when you reach level 92. Take this...badge so the...others recognize you...as an ally. One of the elevators is...to the south.", "dwarvesanddogunspart1-plario-8", true);
 
-        //Dwarves and doguns part 2
-        addSound("[1/3] Dogun Chieftain: You are so young...to be fighting...a war so old. Still...it is appreciated.", "dwarvesanddogunspart2-dogunchieftain-1", false);
-        addSound("[1/16] Dogun Chieftain: I am sorry...to welcome you all...in such troubled times.", "dwarvesanddogunspart2-dogunchieftain-2", true);
-        addSound("[2/16] Dogun Chieftain: We thought...we could hide in safety... But there is...no place left to hide. ", "dwarvesanddogunspart2-dogunchieftain-3", true);
-        addSound("[3/16] Dogun Chieftain: Aval...would have us...leave the Heights... But we...would not survive.", "dwarvesanddogunspart2-dogunchieftain-4", true);
-        addSound("[4/16] Dogun Chieftain: We must...evacuate the settlement...immediately. They...are coming...again.", "dwarvesanddogunspart2-dogunchieftain-5", true);
-        addSound("[5/16] ???: Ouch, I'm sorry... Excuse us!", "dwarvesanddogunspart2-axelus-1", true);
-        addSound("[6/16] ???: We heard what happened, Soldier.", "dwarvesanddogunspart2-axelus-2", true);
-        addSound("[7/16] Axelus: Please! You all know me, I'm not with the side of the government. Hear me out, we can fix this!", "dwarvesanddogunspart2-axelus-3", true);
-        addSound("[8/16] Dogun Chieftain: Guards...", "dwarvesanddogunspart2-dogunchieftain-6", true);
-        addSound("[9/16] Axelus: Stop! I have been hiding from the Dwarves just as much as anyone here, they've been after me too!", "dwarvesanddogunspart2-axelus-4", true);
-        addSound("[10/16] Dogun Chieftain: Why...would we trust... you...of all Dwarves?", "dwarvesanddogunspart2-dogunchieftain-7", true);
-        addSound("[11/16] Dogun Chieftain: How...could you even help? They...won't listen to you.", "dwarvesanddogunspart2-dogunchieftain-8", true);
-        addSound("[12/16] Axelus: I know all the war strategies and weapon cache locations.", "dwarvesanddogunspart2-axelus-5", true);
-        addSound("[13/16] Dogun Chieftain: Treason...against your own kind...? How will you...manage this?", "dwarvesanddogunspart2-dogunchieftain-9", true);
-        addSound("[14/16] Axelus: The human and I will sneak into the armoury and sabotage their equipment. Korzim will help you Doguns evacuate someplace safer.", "dwarvesanddogunspart2-axelus-6", true);
-        addSound("[15/16] Dogun Chieftain: I am...yet wary of you...but we will...follow your plan...Dwarf. Korzim...lead us...to safety.", "dwarvesanddogunspart2-dogunchieftain-10", true);
-        addSound("[16/16] Axelus: Soldier, follow the southern road from Rodoroc, towards the Sky Islands entrance. I'll be waiting there for you near the armoury.", "dwarvesanddogunspart2-axelus-7", true);
-        addSound("[1/5] Axelus: Shh! Get behind here, and look towards the armoury doors.", "dwarvesanddogunspart2-axelus-8", true);
-        addSound("[2/5] Axelus: We need to sneak in when they aren't looking, got it? But we need to be fast.", "dwarvesanddogunspart2-axelus-9", true);
-        addSound("[3/5] Axelus: If they close that door, we'll only have one option left, and it's a huge risk. Those Dwarven gates are almost unbreakable.", "dwarvesanddogunspart2-axelus-10", true);
-        addSound("[4/5] Rodoroc Commander: Alright boys, let's close this up and head to base B.", "dwarvesanddogunspart2-rodoroccommander-1", true);
-        addSound("[5/5] Axelus: Aaah! Charge them! HEY, STOP RIGHT THERE, SOLDIERS!", "dwarvesanddogunspart2-axelus-11", true);
-        addSound("[1/1] Rodoroc Commander: It's the traitor! Capture them, now! There's only one reason they would be near the armoury! //Commander", "dwarvesanddogunspart2-rodoroccommander-2", true);
-        addSound("[1/1] Axelus: Is that all of them? We're out of danger, at least, but they still shut the door, damn it!", "dwarvesanddogunspart2-axelus-12", true);
-        addSound("[1/5] Axelus: Gah, all that for nothing! You're not too banged up, are you?", "dwarvesanddogunspart2-axelus-13", true);
-        addSound("[2/5] Axelus: Well, I said there's another way, but it's not a guarantee. Hurry, follow me.", "dwarvesanddogunspart2-axelus-14", true);
-        addSound("[3/5] Axelus: Urgh, damn it. They almost never bother to close this door, and now of all times...", "dwarvesanddogunspart2-axelus-15", true);
-        addSound("[4/5] Axelus: There's nothing for it. They'll be sending reinforcements soon, we need a way through here. ", "dwarvesanddogunspart2-axelus-16", true);
-        addSound("[5/5] Axelus: Those black bricks look breakable...but that won't solve the door, will it?", "dwarvesanddogunspart2-axelus-17", true);
-        addSound("[1/2] Axelus: Alright, let's destroy these machines! You see the two cannons?", "dwarvesanddogunspart2-axelus-18", false);
-        addSound("[1/1] Axelus: Nice work! That will slow them down. We're not done yet, we need to pay the king a visit. Let's head further into Rodoroc. ", "dwarvesanddogunspart2-axelus-19", true);
-        addSound("[1/6] Axelus: Hurry! Through here, to the power core!", "dwarvesanddogunspart2-axelus-20", true);
-        addSound("[2/6] Axelus: This is a geothermal power core. If we can disrupt it, it should slow them down.", "dwarvesanddogunspart2-axelus-21", true);
-        addSound("[3/6] Axelus: The hypocrites used Dogun magic to make this... It's lucky, honestly. I know how to work it.", "dwarvesanddogunspart2-axelus-22", true);
-        addSound("[1/1] Axelus: Grr, this is harder than I thought!", "dwarvesanddogunspart2-axelus-23", true);
-        addSound("[1/1] Axelus: Ah! Don't let them get too close! ", "dwarvesanddogunspart2-axelus-24", true);
-        addSound("[1/1] Axelus: Look, look! It's working!", "dwarvesanddogunspart2-axelus-25", true);
-        addSound("[1/3] Axelus: I hate that you're having to fight my people, but I wouldn't be asking for help if it weren't needed.", "dwarvesanddogunspart2-axelus-26", true);
-        addSound("[1/4] Axelus: Dwarvern society isn't as great as they make it out to be. The poorest are hidden away.", "dwarvesanddogunspart2-axelus-27", true);
-        addSound("[1/3] Axelus: If we can convince the king that it's not worth the fight, he may back down.", "dwarvesanddogunspart2-axelus-28", true);
-        addSound("[1/1] Axelus: Don't let the guards catch you. Stay out of sight, got it?", "dwarvesanddogunspart2-axelus-29", true);
-        addSound("[1/11] King of Rodoroc: I can't say I'm surprised, Axelus. Guards, let them be.", "dwarvesanddogunspart2-kingofrodoroc-1", true);
-        addSound("[2/11] Axelus: You know why I'm here, father. We haven't got any more chances to stop this.", "dwarvesanddogunspart2-axelus-30", true);
-        addSound("[3/11] King of Rodoroc: Axelus, you know why we have to maintain the lie. Think about the people, how they would react.", "dwarvesanddogunspart2-kingofrodoroc-2", true);
-        addSound("[4/11] Axelus: We can not be responsible for the lies of our ancestors! This is ridiculous and you know it!", "dwarvesanddogunspart2-axelus-31", true);
-        addSound("[5/11] King of Rodoroc: Axelus, if the people found out, everything would descend to chaos. There would be riots, revolutions!", "dwarvesanddogunspart2-kingofrodoroc-3", true);
-        addSound("[6/11] King of Rodoroc: If you hadn't turned traitor and gone gallivanting off with the Doguns, you would be in a better position to convince me. ", "dwarvesanddogunspart2-kingofrodoroc-4", true);
-        addSound("[7/11] King of Rodoroc: As it is now, you are too little and too late. The war has already begun.", "dwarvesanddogunspart2-kingofrodoroc-5", true);
-        addSound("[8/11] King of Rodoroc: The armoury that a certain someone decided to sabotage won't make any difference. ", "dwarvesanddogunspart2-kingofrodoroc-6", true);
-        addSound("[9/11] Axelus: You will commit genocide so you don't have to face the consequences of your lies?", "dwarvesanddogunspart2-axelus-32", true);
-        addSound("[10/11] King of Rodoroc: I will be the hero of our nation, and my name will forever be remembered as the King who brought peace.", "dwarvesanddogunspart2-kingofrodoroc-7", true);
-        addSound("[11/11] King of Rodoroc: I have nothing left to say to you. See yourselves out behind the throne. I'll let you use the trading tunnel to Thanos in the southern caves, if you just step back and let me handle things.", "dwarvesanddogunspart2-kingofrodoroc-8", true);
-        addSound("[1/3] Axelus: I'm not giving up on this. I'm going back in, I know he can be reasoned with!", "dwarvesanddogunspart2-axelus-33", true);
-        addSound("[2/3] Axelus: Give this letter to Korzim in the Dogun village when you reach level 93.", "dwarvesanddogunspart2-axelus-34", true);
-        addSound("[3/3] Axelus: I'm going to have one last talk with my father.", "dwarvesanddogunspart2-axelus-35", true);
-        addSound("[1/1] Axelus: Try to destroy each machine. Stone is used for ammo while tnt will blow up the machine. Good luck!", "dwarvesanddogunspart2-axelus-36", true);
-        addSound("[1/1] Axelus: I'll meet you at the end of the slums.", "dwarvesanddogunspart2-axelus-37", true);
 
-        //Dwarves and doguns part 3
-        addSound("[1/9] Korzim: We...have an issue. A dire one... Where is...Axelus at a time...like this?", "dwarvesanddogunspart3-korzim-1", false);
-        addSound("[4/9] Korzim: He is trying to...reason with the Dwarven King? There is...no one else...then. You... You will have to...help.", "dwarvesanddogunspart3-korzim-2", false);
-        addSound("[1/5] Korzim: Soldier...I take back my statement. They have already begun... There cannot be reasoning.", "dwarvesanddogunspart3-korzim-3", true);
-        addSound("[3/5] Korzim: Interrupting...at this point will have...disastrous consequences. We must let them continue...and pray they fail.", "dwarvesanddogunspart3-korzim-4", false);
-        addSound("[1/3] Korzim?: Hoho...! Over here...fine traveler! Join me at the gates!", "dwarvesanddogunspart3-korzim-5", true);
-        addSound("[1/9] Edula: ...Korzim...what in the name of all that is holy is that disguise?", "dwarvesanddogunspart3-edula-1", true);
-        addSound("[2/9] Edula: I'm flabbergasted you fooled anyone with that thing! How did you stop the beard from burning?", "dwarvesanddogunspart3-edula-2", true);
-        addSound("[3/9] Edula: But, erm...more importantly, who's the bucko in the fancy armour there?", "dwarvesanddogunspart3-edula-3", true);
-        addSound("[4/9] Korzim: An ally...of the coalition. No time...Edula. Doguns... summoning... Garaheth.", "dwarvesanddogunspart3-korzim-6", true);
-        addSound("[5/9] Edula: So...so it's really down to that low, then. Burning your own house down to kill the rats.", "dwarvesanddogunspart3-edula-4", true);
-        addSound("[6/9] Edula: Good thing we've got this prepared. One fallout will prevent the next. Soldier, I've got a list of materials we need!", "dwarvesanddogunspart3-edula-5", true);
-        addSound("[7/9] Edula: You will need 10 Fire Webs. The Heatscar Spiders under the town make them, there's a cave right by the entrance arch.", "dwarvesanddogunspart3-edula-6", true);
-        addSound("[8/9] Edula: Then, 3 Magmatic Crystals from the Maex mines. I'd get them myself, but...I'm banned from there since the rubber mallet incident.", "dwarvesanddogunspart3-edula-7", true);
-        addSound("[9/9] Edula: Lastly, 1 Crystallized Lava. The closest source is in the lava lake just outside Maex. There's a protruding crater in the lake.", "dwarvesanddogunspart3-edula-8", true);
-        addSound("[1/5] Edula: Mhm, looks like everything's in order. Now, for a short explanation.", "dwarvesanddogunspart3-edula-9", false);
-        addSound("[1/1] Korzim: We must... visit... Sanba... the enchanter. ", "dwarvesanddogunspart3-korzim-7", true);
-        addSound("[1/6] Sanba: Erm...Korzim, what on earth are you doing here? It's not safe for you!", "dwarvesanddogunspart3-sanba-1", false);
-        addSound("[1/8] Sanba: Supposing you're here to help, Soldier. Garaheth's being summoned if you're getting this...", "dwarvesanddogunspart3-sanba-2", false);
-        addSound("[1/5] Korzim: Soldier... This... This used to be...a Dogun town. The Dwarves rendered it barren.", "dwarvesanddogunspart3-korzim-8", true);
-        addSound("[1/1] Korzim: I will try to run through...as quickly as possible. The ice is...painful.", "dwarvesanddogunspart3-korzim-9", true);
-        addSound("[1/5] Korzim: We must... move fast... or... we will both.... freeze.", "dwarvesanddogunspart3-korzim-10", true);
-        addSound("[3/5] Korzim: Oh no... I think... It's... COLLAPSING.", "dwarvesanddogunspart3-korzim-13", true);
-        addSound("[4/5] Korzim: My... feet are.... solid... Keep... running.", "dwarvesanddogunspart3-korzim-11", true);
-        addSound("[5/5] Korzim: This is it... The thing that... Killed my families... 4 True Ice.", "dwarvesanddogunspart3-korzim-12", true);
-        addSound("[1/4] Sanba: Impressive, you two. Must have been tough to get that...doubly so for Korzim.", "dwarvesanddogunspart3-sanba-3", false);
-        addSound("[4/4] Sanba: ...that's the barracks door. That's the barracks door!!", "dwarvesanddogunspart3-sanba-4", true);
-        addSound("[1/2] Maex Soldier: Men! We have to meet for briefing on the surface, the war is due any hour now! Move faster!", "dwarvesanddogunspart3-maexsoldier-1", true);
-        addSound("[2/2] Sanba: They're already going?! We're out of time! Korzim is waiting for you just upstairs when you reach level 94. Go train! NOW!", "dwarvesanddogunspart3-sanba-5", true);
-        addSound("[1/3] Korzim: The crystal formation... It is definitely here.", "dwarvesanddogunspart3-korzim-14", true);
-        addSound("[2/3] Korzim: I will clear the lava... On my signal, move. And do not stop.", "dwarvesanddogunspart3-korzim-15", true);
-        addSound("[3/3] Korzim: Move! Move! MOVE!", "dwarvesanddogunspart3-korzim-16", true);
-        addSound("[1/1] Korzim: Oh no... We got... Trapped.", "dwarvesanddogunspart3-korzim-17", true);
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
