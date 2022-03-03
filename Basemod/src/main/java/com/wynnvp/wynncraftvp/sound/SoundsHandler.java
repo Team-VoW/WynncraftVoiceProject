@@ -4191,17 +4191,9 @@ public class SoundsHandler {
         return message;
     }
 
-    public static String getTextBeforeSplit(String message, String split) {
-        String[] splitMessage = message.split(split);
-        message = splitMessage[0];
-        return message;
-    }
-
     public static String getTextSecondToLastInSplit(String message, String split) {
         String[] splitMessage = message.split(split);
-        System.out.println("Split: " + message + " by: " + split + " Length: " + splitMessage.length);
         if (splitMessage.length > 1) {
-            //I
             //Gets the second to last message inbetween the split
             message = splitMessage[splitMessage.length - 2];
 
