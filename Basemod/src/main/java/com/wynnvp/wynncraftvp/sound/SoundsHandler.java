@@ -4135,6 +4135,57 @@ public class SoundsHandler {
         addSound("[5/6] Plario: Human...if you promise to help us...I will grant you access to...our secret elevators... You can get up and...down the heights with those.", "dwarvesanddogunspart1-plario-7", true);
         addSound("[6/6] Plario: Please return to...us when you reach level 92. Take this...badge so the...others recognize you...as an ally. One of the elevators is...to the south.", "dwarvesanddogunspart1-plario-8", true);
 
+        //Dwarves and dogunspart 4
+        addSound("[1/4] Korzim: Soldier... Do you have...the staff? And the amulet...?", "dwarvesanddogunspart4-korzim-1", false);
+        addSound("[1/1] Soldier: The first group has already started their climb, let's hurry.", "dwarvesanddogunspart4-soldier-1", true);
+        addSound("[1/6] Rodoroc Citizen: Hey! Everyone, the king has someone in the cage! It's been years since we used it!", "dwarvesanddogunspart4-rodoroccitizen-1", true);
+        addSound("[2/6] Rodoroc Citizen: Wait, that's Axelus up there!! The king locked up his son?! What in the world?", "dwarvesanddogunspart4-rodoroccitizen-2", true);
+        addSound("[3/6] Rodoroc Citizen: I heard he was consorting with demons, but that can't possibly be true, can it?", "dwarvesanddogunspart4-rodoroccitizen-3", true);
+        addSound("[4/6] Axelus: For the last time, they are not demons!! Gods, I've been telling you this whole time! Not even my father will listen to reason!", "dwarvesanddogunspart4-axelus-1", true);
+        addSound("[5/6] Axelus: If I don't get freed we're doomed, you hear me?! We won't survive another war! As your prince I demand to be freed!", "dwarvesanddogunspart4-axelus-2", true);
+        addSound("[6/6] Axelus: Listen, the statues are climbable and there's a control panel for the lava siphons near them! Now help me so we all don't die! ", "dwarvesanddogunspart4-axelus-3", true);
+        addSound("[1/2] Rodoroc Citizen: Wait, that human just defaced the hero's monument!! Are they working with the demons too?", "dwarvesanddogunspart4-rodoroccitizen-4", true);
+        addSound("[2/2] Axelus: Soldier! I didn't think you'd be back, but we need to leave, now! Meet me outside!", "dwarvesanddogunspart4-axelus-4", true);
+        addSound("[1/3] Axelus: Soldier! Over here, to the right! By the cannon! I'm commandeering this thing.", "dwarvesanddogunspart4-axelus-5", true);
+        addSound("[2/3] Axelus: We need to get up to the Doguns before the Dwarves begin their assault, or before the Doguns take their last resort.", "dwarvesanddogunspart4-axelus-6", true);
+        addSound("[3/3] Axelus: Get in the cannon, now! You've got your armour, you might end up charred and covered in soot but you'll be fine!", "dwarvesanddogunspart4-axelus-7", true);
+        addSound("[1/3] Axelus: Don't tell anyone we shot ourselves out of a cannon, I'll never live it down. Now come on, to the Dogun village, hurry!", "dwarvesanddogunspart4-axelus-8", true);
+        addSound("[1/2] Axelus: WAIT, STOP THE-", "dwarvesanddogunspart4-axelus-9", true);
+        addSound("[2/2] Dogun Chieftain: Quiet. Dwarven whelp...we will not go quietly. AWAKEN.", "dwarvesanddogunspart4-dogunchieftain-1", true);
+        addSound("[1/2] Axelus: I can't believe this... That bone was part of the ritual?! Agh, how could we have been so STUPID! You're all lucky we prepared for this!!", "dwarvesanddogunspart4-axelus-10", true);
+        addSound("[2/2] Axelus: You need to get inside him. He's still chained! The amulet will protect you from the heat! Freeze him from the inside out!! ", "dwarvesanddogunspart4-axelus-11", true);
+        addSound("[1/23] Axelus: EVERYONE, STOP THIS! RIGHT NOW!! IT'S OVER!!", "dwarvesanddogunspart4-axelus-12", true);
+        addSound("[2/23] Axelus: Open your eyes for once in your lives!! You see that?! Behind me! THAT was going to be the end result!", "dwarvesanddogunspart4-axelus-13", true);
+        addSound("[3/23] Axelus: Garaheth would have killed every one of us, damn it! Are you that short-sighted that you can't see this?!", "dwarvesanddogunspart4-axelus-14", true);
+        addSound("[4/23] Axelus: Everyone here is to blame, except the human who helped stop this! The Doguns were already exiled, they wouldn't have hurt anyone!", "dwarvesanddogunspart4-axelus-15", true);
+        addSound("[5/23] Axelus: But we couldn't just let ANYTHING be! You always need more glory, more, more, MORE! Don't you, Draani? I'm ashamed to be your lineage!", "dwarvesanddogunspart4-axelus-16", true);
+        addSound("[6/23] Axelus: And you, Doguns! I...I pitied you. You were wronged, but you resort to this? You'd doom the world over to spite the Dwarves? Is that it?!", "dwarvesanddogunspart4-axelus-17", true);
+        addSound("[7/23] Dogun Chieftain: Whelp. You do not understand. To be persecuted...and see your people tortured...hunted.", "dwarvesanddogunspart4-dogunchieftain-2", true);
+        addSound("[8/23] Dwarven Commander: You all deserve it! You attacked our ancestors for sport! Eye for an eye, have you heard of it? It's only fair!", "dwarvesanddogunspart4-dwarvencommander-1", true);
+        addSound("[9/23] Dogun Chieftain: Imbeciles...your stories are not true. We... We lived through the war. You took everything...and suffered none.", "dwarvesanddogunspart4-dogunchieftain-3", true);
+        addSound("[10/23] Axelus: I've been trying to tell BOTH of you that the monarchy has been spreading lies for centuries! One bad king doesn't mean the whole species is a loss!", "dwarvesanddogunspart4-axelus-18", true);
+        addSound("[11/23] Dogun Chieftain: Shut your mouth. Even now...you trample on the bones of our god... You have taken everything from us...", "dwarvesanddogunspart4-dogunchieftain-4", true);
+        addSound("[12/23] Dogun Chieftain: This earth is stained by you. We...we shall burn you...and scatter your ash to the wind.", "dwarvesanddogunspart4-dogunchieftain-5", true);
+        addSound("[13/23] Axelus: DON'T YOU DARE! STOP, RIGHT NOW!", "dwarvesanddogunspart4-axelus-19", true);
+        addSound("[14/23] Korzim: Axelus!", "dwarvesanddogunspart4-korzim-2", true);
+        addSound("[15/23] Korzim: ...he...", "dwarvesanddogunspart4-korzim-3", true);
+        addSound("[16/23] Korzim: You would... You would kill a savior...?", "dwarvesanddogunspart4-korzim-4", true);
+        addSound("[17/23] King of Rodoroc: No, no! No no no, this can't be happening! H-Hang on, we'll save you, I...I'll do something, I...", "dwarvesanddogunspart4-kingofrodoroc-1", true);
+        addSound("[18/23] King of Rodoroc: Y-You DEMONS! MONSTERS! I'll avenge you, Axelus, j-just give me time-", "dwarvesanddogunspart4-kingofrodoroc-2", true);
+        addSound("[19/23] Axelus: AGH, SHUT UP! SHUT...ack... Q-Quiet. Listen to one damn word from my mouth, Draani... For once in your miserable life.", "dwarvesanddogunspart4-axelus-20", true);
+        addSound("[20/23] Axelus: Tell. The. TRUTH!! G-gaagh...you know that's th...the only way to stop this. Swallow your pride, you...old fool...", "dwarvesanddogunspart4-axelus-21", true);
+        addSound("[21/23] King of Rodoroc: I...I... Axelus... He...he called me Draani...why did...?  ", "dwarvesanddogunspart4-kingofrodoroc-3", true);
+        addSound("[22/23] King of Rodoroc: Men, stand down. This... This war is over! I will not have one more life lost! Touch the Doguns and I'll personally behead you!", "dwarvesanddogunspart4-kingofrodoroc-4", true);
+        addSound("[23/23] King of Rodoroc: Chief, I...I ask of you but an hour of your time. If you are willing to negotiate...", "dwarvesanddogunspart4-kingofrodoroc-5", true);
+        addSound("[1/11] King of Rodoroc: Ah, you've arrived. I...actually remember you from earlier. So you and...", "dwarvesanddogunspart4-kingofrodoroc-6", true);
+        addSound("[2/11] King of Rodoroc: A-and...", "dwarvesanddogunspart4-kingofrodoroc-7", true);
+        addSound("[3/11] King of Rodoroc: ...you knew my son. Were helping him try to put an end to this, before everything was too far gone. Heh...apologies, for that.", "dwarvesanddogunspart4-kingofrodoroc-8", true);
+        addSound("[4/11] King of Rodoroc: Paku and I have had a long discussion about the wisdom of youth over the old. You all were right. I needed to swallow my pride. ", "dwarvesanddogunspart4-kingofrodoroc-9", true);
+        addSound("[5/11] Dogun Chieftain: We agreed upon a peace treaty... A new city... The Dwarves will aid us in building it.", "dwarvesanddogunspart4-dogunchieftain-6", true);
+        addSound("[6/11] Dogun Chieftain: All hostilities...will end. My people will...be free to roam the caverns. It has been...too long.", "dwarvesanddogunspart4-dogunchieftain-7", true);
+        addSound("[7/11] King of Rodoroc: And the entombed Doguns at Courag will be reconstituted, as well, supposing that is a possibility.", "dwarvesanddogunspart4-kingofrodoroc-10", false);
+
+
 
 
         //Non quest npc
