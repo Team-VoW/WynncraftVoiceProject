@@ -4194,7 +4194,39 @@ public class SoundsHandler {
         addSound("[1/1] Axelus: Try to destroy each machine. Stone is used for ammo while tnt will blow up the machine. Good luck!", "dwarvesanddogunspart2-axelus-36", true);
         addSound("[1/1] Axelus: I'll meet you at the end of the slums.", "dwarvesanddogunspart2-axelus-37", true);
 
-
+        //Dwarves and doguns part 3
+        addSound("[1/9] Korzim: We...have an issue. A dire one... Where is...Axelus at a time...like this?", "dwarvesanddogunspart3-korzim-1", false);
+        addSound("[4/9] Korzim: He is trying to...reason with the Dwarven King? There is...no one else...then. You... You will have to...help.", "dwarvesanddogunspart3-korzim-2", false);
+        addSound("[1/5] Korzim: Soldier...I take back my statement. They have already begun... There cannot be reasoning.", "dwarvesanddogunspart3-korzim-3", true);
+        addSound("[3/5] Korzim: Interrupting...at this point will have...disastrous consequences. We must let them continue...and pray they fail.", "dwarvesanddogunspart3-korzim-4", false);
+        addSound("[1/3] Korzim?: Hoho...! Over here...fine traveler! Join me at the gates!", "dwarvesanddogunspart3-korzim-5", true);
+        addSound("[1/9] Edula: ...Korzim...what in the name of all that is holy is that disguise?", "dwarvesanddogunspart3-edula-1", true);
+        addSound("[2/9] Edula: I'm flabbergasted you fooled anyone with that thing! How did you stop the beard from burning?", "dwarvesanddogunspart3-edula-2", true);
+        addSound("[3/9] Edula: But, erm...more importantly, who's the bucko in the fancy armour there?", "dwarvesanddogunspart3-edula-3", true);
+        addSound("[4/9] Korzim: An ally...of the coalition. No time...Edula. Doguns... summoning... Garaheth.", "dwarvesanddogunspart3-korzim-6", true);
+        addSound("[5/9] Edula: So...so it's really down to that low, then. Burning your own house down to kill the rats.", "dwarvesanddogunspart3-edula-4", true);
+        addSound("[6/9] Edula: Good thing we've got this prepared. One fallout will prevent the next. Soldier, I've got a list of materials we need!", "dwarvesanddogunspart3-edula-5", true);
+        addSound("[7/9] Edula: You will need 10 Fire Webs. The Heatscar Spiders under the town make them, there's a cave right by the entrance arch.", "dwarvesanddogunspart3-edula-6", true);
+        addSound("[8/9] Edula: Then, 3 Magmatic Crystals from the Maex mines. I'd get them myself, but...I'm banned from there since the rubber mallet incident.", "dwarvesanddogunspart3-edula-7", true);
+        addSound("[9/9] Edula: Lastly, 1 Crystallized Lava. The closest source is in the lava lake just outside Maex. There's a protruding crater in the lake.", "dwarvesanddogunspart3-edula-8", true);
+        addSound("[1/5] Edula: Mhm, looks like everything's in order. Now, for a short explanation.", "dwarvesanddogunspart3-edula-9", false);
+        addSound("[1/1] Korzim: We must... visit... Sanba... the enchanter. ", "dwarvesanddogunspart3-korzim-7", true);
+        addSound("[1/6] Sanba: Erm...Korzim, what on earth are you doing here? It's not safe for you!", "dwarvesanddogunspart3-sanba-1", false);
+        addSound("[1/8] Sanba: Supposing you're here to help, Soldier. Garaheth's being summoned if you're getting this...", "dwarvesanddogunspart3-sanba-2", false);
+        addSound("[1/5] Korzim: Soldier... This... This used to be...a Dogun town. The Dwarves rendered it barren.", "dwarvesanddogunspart3-korzim-8", true);
+        addSound("[1/1] Korzim: I will try to run through...as quickly as possible. The ice is...painful.", "dwarvesanddogunspart3-korzim-9", true);
+        addSound("[1/5] Korzim: We must... move fast... or... we will both.... freeze.", "dwarvesanddogunspart3-korzim-10", true);
+        addSound("[3/5] Korzim: Oh no... I think... It's... COLLAPSING.", "dwarvesanddogunspart3-korzim-13", true);
+        addSound("[4/5] Korzim: My... feet are.... solid... Keep... running.", "dwarvesanddogunspart3-korzim-11", true);
+        addSound("[5/5] Korzim: This is it... The thing that... Killed my families... 4 True Ice.", "dwarvesanddogunspart3-korzim-12", true);
+        addSound("[1/4] Sanba: Impressive, you two. Must have been tough to get that...doubly so for Korzim.", "dwarvesanddogunspart3-sanba-3", false);
+        addSound("[4/4] Sanba: ...that's the barracks door. That's the barracks door!!", "dwarvesanddogunspart3-sanba-4", true);
+        addSound("[1/2] Maex Soldier: Men! We have to meet for briefing on the surface, the war is due any hour now! Move faster!", "dwarvesanddogunspart3-maexsoldier-1", true);
+        addSound("[2/2] Sanba: They're already going?! We're out of time! Korzim is waiting for you just upstairs when you reach level 94. Go train! NOW!", "dwarvesanddogunspart3-sanba-5", true);
+        addSound("[1/3] Korzim: The crystal formation... It is definitely here.", "dwarvesanddogunspart3-korzim-14", true);
+        addSound("[2/3] Korzim: I will clear the lava... On my signal, move. And do not stop.", "dwarvesanddogunspart3-korzim-15", true);
+        addSound("[3/3] Korzim: Move! Move! MOVE!", "dwarvesanddogunspart3-korzim-16", true);
+        addSound("[1/1] Korzim: Oh no... We got... Trapped.", "dwarvesanddogunspart3-korzim-17", true);
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
