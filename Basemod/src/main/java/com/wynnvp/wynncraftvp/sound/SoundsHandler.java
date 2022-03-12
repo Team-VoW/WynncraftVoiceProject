@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 import java.util.HashMap;
 
-import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToSound;
+import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
 public class SoundsHandler {
     public HashMap<String, CustomSoundClass> sounds;
@@ -26,7 +26,7 @@ public class SoundsHandler {
     }
 
     private void addSound(String message, String name, boolean movingSound) {
-        message = formatToSound(message);
+        message = formatToLineData(message).getSoundLine();
         sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
     }
 

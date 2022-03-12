@@ -1,5 +1,7 @@
 package com.wynnvp.wynncraftvp.sound;
 
+import com.wynnvp.wynncraftvp.utils.LineFormatter;
+
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -11,6 +13,15 @@ public class LineReporter {
 
 
     public void MissingLine(String line){
+        if (!LineFormatter.isNPCSentLine(line)){
+            System.out.println("NOT LOGGED BECAUSE WRONG FORMAT");
+            return;
+        }
+
+        System.out.println("RIGHT FORMAT! LOGGED!");
+        return;
+
+        /*
         try {
             reportUnvoicedLine(line);
             System.out.println("Anonymous unvoiced line report has been sent to our servers. Don't worry, this doesn't contain any sensitive information, only the line that didn't have any audio file associated and your coordinates in Wynncraft.");
@@ -18,6 +29,7 @@ public class LineReporter {
             e.printStackTrace();
             System.out.println("An report of unvoiced line couldn't be sent. Error code should be right above this message.");
         }
+         */
     }
 
 
@@ -53,5 +65,7 @@ public class LineReporter {
         System.out.println("HTTP response Code : " + responseCode);
         return true;
     }
+
+
 
 }

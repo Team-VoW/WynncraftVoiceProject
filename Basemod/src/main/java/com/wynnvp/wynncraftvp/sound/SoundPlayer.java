@@ -20,12 +20,12 @@ public class SoundPlayer {
     }
 
     //Code that is run to play all the sounds
-    public void playSound(String line) {
-        ModCore modCore = ModCore.instance;
-        SoundsHandler soundsHandler = modCore.soundsHandler;
+    public void playSound(LineData lineData) {
+        String line = lineData.getSoundLine();
+        SoundsHandler soundsHandler = ModCore.instance.soundsHandler;
         if (!soundsHandler.sounds.containsKey(line)) {
-            System.out.println("Does not contain line: " + line);
-            lineReporter.MissingLine(line);
+            System.out.println("Does not contain line: " + lineData.getRealLine());
+            lineReporter.MissingLine(lineData.getRealLine());
             return;
         }
         if (isOnCoolDown(line)) {
