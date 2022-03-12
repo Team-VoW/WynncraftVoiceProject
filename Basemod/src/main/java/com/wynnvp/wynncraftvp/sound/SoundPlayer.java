@@ -25,7 +25,7 @@ public class SoundPlayer {
         SoundsHandler soundsHandler = ModCore.instance.soundsHandler;
         if (!soundsHandler.sounds.containsKey(line)) {
             System.out.println("Does not contain line: " + lineData.getRealLine());
-            lineReporter.MissingLine(lineData.getRealLine());
+            lineReporter.MissingLine(lineData);
             return;
         }
         if (isOnCoolDown(line)) {

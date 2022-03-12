@@ -21,7 +21,7 @@ public class LineReporter {
 
         try {
             reportUnvoicedLine(lineData);
-            System.out.println("Anonymous unvoiced line report has been sent to our servers. Don't worry, this doesn't contain any sensitive information, only the line that didn't have any audio file associated and your coordinates in Wynncraft.");
+            System.out.println("Anonymous unvoiced line report has been sent to our servers. This contained: " + lineData.getRealLine());
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println("An report of unvoiced line couldn't be sent. Error code should be right above this message.");
