@@ -29,14 +29,6 @@ public class LineFormatter {
                 message = getTextSecondToLastInSplit(message, "iso95bfiso95bf");
             }
 
-            /*
-            //IF the message does not end with press shift to continue
-            else {
-                //Remove any \n that is remaining
-                message = messageAfterDoubleSlashN.replace("iso95bf", "");
-            }
-            */
-
         }
         message = message.replace("iso95bf", "");
         return message;

@@ -20,4 +20,14 @@ public class LineData {
     public void setRealLine(String realLine) {
         this.realLine = realLine;
     }
+
+    public String getNPCName(){
+          String name = realLine.substring(realLine.indexOf(']'));
+          name = name.trim();
+          name = name.split(":")[0];
+          return name;
+
+
+    }
+
 }
