@@ -7,14 +7,29 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 import java.util.HashMap;
 
+import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToSound;
+
 public class SoundsHandler {
-    // public static SoundEvent TALKING_MUSHROOM_RETURNINGARDFD;
     public HashMap<String, CustomSoundClass> sounds;
 
     public SoundsHandler() {
         sounds = new HashMap<>();
         registerSounds();
     }
+
+    private static SoundEvent registerSound(String name) {
+        ResourceLocation location = new ResourceLocation(ModCore.MODID, name);
+        SoundEvent event = new SoundEvent(location);
+        event.setRegistryName(name);
+        ForgeRegistries.SOUND_EVENTS.register(event);
+        return event;
+    }
+
+    private void addSound(String message, String name, boolean movingSound) {
+        message = formatToSound(message);
+        sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
+    }
+
 
     public void registerSounds() {
         //Talking Mushroom
@@ -4186,74 +4201,13 @@ public class SoundsHandler {
         addSound("[7/11] King of Rodoroc: And the entombed Doguns at Courag will be reconstituted, as well, supposing that is a possibility.", "dwarvesanddogunspart4-kingofrodoroc-10", false);
 
 
-
-
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
     }
 
 
-    private static SoundEvent registerSound(String name) {
-        ResourceLocation location = new ResourceLocation(ModCore.MODID, name);
-        SoundEvent event = new SoundEvent(location);
-        event.setRegistryName(name);
-        ForgeRegistries.SOUND_EVENTS.register(event);
-        return event;
-    }
-
-    private void addSound(String message, String name, boolean movingSound) {
-        message = formatToSound(message);
-        sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
-    }
-
-    public static String formatToSound(String message) {
-        message = getActualText(message);
-        message = message.toLowerCase();
-        message = message.replaceAll("[^abcdefghijklmnopqrstuvwxyz?!0123456789/]", "");
-        message = message.replace("iso95bf", "");
 
 
-        return message;
-    }
-
-    private static String getActualText(String message) {
-        if (message.contains("iso95bfiso95bf")) {
-
-            //Get the last sentence after the \n\n
-            String messageAfterDoubleSlashN = getTextAfterSplit(message, "iso95bfiso95bf");
-            messageAfterDoubleSlashN = messageAfterDoubleSlashN.trim();
-
-            //Checks if the message ends with Press SHIFT to continue\n
-            if (messageAfterDoubleSlashN.contains("Press SHIFT to continue")){
-                message = getTextSecondToLastInSplit(message, "iso95bfiso95bf");
-            }
-            //IF the message does not end with press shift to continue
-            else {
-                //Remove any \n that is remaining
-                message = messageAfterDoubleSlashN.replace("iso95bf", "");
-            }
-        }
-        return message;
-    }
-
-    public static String getTextAfterSplit(String message, String split) {
-        String[] splitMessage = message.split(split);
-        message = splitMessage[splitMessage.length - 1];
-        return message;
-    }
-
-    public static String getTextSecondToLastInSplit(String message, String split) {
-        String[] splitMessage = message.split(split);
-        if (splitMessage.length > 1) {
-            //Gets the second to last message inbetween the split
-            message = splitMessage[splitMessage.length - 2];
-
-
-        } else {
-            message = splitMessage[0];
-        }
-        return message;
-    }
 
 
 }

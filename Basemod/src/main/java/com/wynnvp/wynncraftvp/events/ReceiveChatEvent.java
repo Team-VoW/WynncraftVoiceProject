@@ -2,6 +2,7 @@ package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
+import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
@@ -32,7 +33,7 @@ public class ReceiveChatEvent {
         }
 
 
-        msg = SoundsHandler.formatToSound(msg);
+        msg = LineFormatter.formatToSound(msg);
         if (isInMixedFeelingsQuest()) {
             String result = getMixedFeelingsLine(msg);
             if (result != null) {
