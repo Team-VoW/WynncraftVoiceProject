@@ -14,7 +14,7 @@ public class ConfigHandler {
 
     private static Configuration config;
 
-    public static boolean playAllSoundsOnPlayer = false;
+    public static boolean playAllSoundsOnPlayer;
     public static String apiKey;
     public static boolean logMissingLines;
 
@@ -28,7 +28,7 @@ public class ConfigHandler {
 
         playAllSoundsOnPlayer = config.getBoolean("playAllSoundsOnPlayer", ConfigHandler.category, false, "If the mod should play all sounds on the player");
         logMissingLines = config.getBoolean("logMissingLines", ConfigHandler.category, false, "If the mod should send in unvoiced lines");
-        apiKey = config.getString("apiKey", ConfigHandler.category, "none", "Api key to log data");
+        apiKey = config.getString("apiKey", ConfigHandler.category, "testing", "Api key to log data");
 
         config.save();
     }

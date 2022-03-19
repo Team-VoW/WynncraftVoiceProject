@@ -23,6 +23,7 @@ public class LineData {
 
     public String getNPCName(){
           String name = realLine.substring(realLine.indexOf(']'));
+          name = name.substring(1);
           name = name.trim();
           name = name.split(":")[0];
           return name;
