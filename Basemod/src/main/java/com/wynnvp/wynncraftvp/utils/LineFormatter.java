@@ -27,6 +27,8 @@ public class LineFormatter {
             //Checks if the message ends with Press SHIFT to continue\n
             if (messageAfterDoubleSlashN.contains("Press SHIFT to continue")){
                 message = getTextSecondToLastInSplit(message, "iso95bfiso95bf");
+            } else {
+                message = messageAfterDoubleSlashN;
             }
 
         }
