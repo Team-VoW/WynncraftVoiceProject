@@ -26,16 +26,19 @@ public class SendChatEvent {
             case "/speedrun":
                 ConfigHandler.SetPlayAllSoundsOnPlayer(!ConfigHandler.playAllSoundsOnPlayer);
                 SendClientChatMessage("§bSet speedrun mode to §e" + ConfigHandler.playAllSoundsOnPlayer + "§b. This mode makes all sounds follow the player around");
+                event.setCanceled(true);
                 return;
             case "/togglelogging":
                 ConfigHandler.setLogMissingLines(!ConfigHandler.logMissingLines);
                 SendClientChatMessage("§bSet log misslines lines mode to §e" + ConfigHandler.logMissingLines);
+                event.setCanceled(true);
                 return;
         }
         String[] split = event.getMessage().split(" ");
         if (split[0].equalsIgnoreCase("/apikey") && split.length > 1){
             SendClientChatMessage("§bSet api key to §e" + split[1]);
             ConfigHandler.setApiKey(split[1]);
+            event.setCanceled(true);
         }
 
 
