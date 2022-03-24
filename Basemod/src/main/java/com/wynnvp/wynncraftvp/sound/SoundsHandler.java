@@ -3957,6 +3957,33 @@ public class SoundsHandler {
         addSound("[1/4] Korben: ...you... You are... You would lie to the guards and say I perished in the chase? You will keep my identity secret?", "aldoreisvalleypart1-korben-12", false);
         addSound("[1/3] Elf Guard: Traveler, I must remind you- The doors shall remain shut until the criminal has been found.", "aldoreisvalleypart1-elfguard-2", false);
 
+        //aldoreissecretpart2
+        addSound("[1/8] Legolus: You're that human Elrund let into Aldorei Town, right? How wonderful. I could actually use your opinion on a matter. Fresh eyes are always better on an old scene.", "aldoreissecretpart2-legolus-1", false);
+        addSound("[1/5] Legolus: You've returned! But with a grim expression... was Soway not there? He couldn't have just vanished into thin air.", "aldoreissecretpart2-legolus-2", false);
+        addSound("[1/9] Soway: A human? Here? How did you gain access to the town?", "aldoreissecretpart2-soway-1", false);
+        addSound("[1/2] Soway: I need you to infiltrate the embassy; and kill Togak. Be warned, Elves are different to other species - and their defences are also different.", "aldoreissecretpart2-soway-2", false);
+        addSound("[1/8] Togak: Something feels very different, as if your arrival has made the light of this room glow even brighter. ", "aldoreissecretpart2-togak-1", false);
+        addSound("[1/1] Togak: Our story begins, almost at the beginning of Gavel itself...", "aldoreissecretpart2-togak-2", true);
+        addSound("No one understood the connection between Gavel and the Realm of Light better than ourselves, the Elves.", "aldoreissecretpart2-togak-3", true);
+        addSound("The Light told us, through various means, that the path to happiness is through selflessness. And it was true; those who followed good morals lead a happier life.", "aldoreissecretpart2-togak-4", true);
+        addSound("However, there were still those, who could not follow. The villagers, our neighbour and ally for centuries, were not so keen on following a greedless life.", "aldoreissecretpart2-togak-5", true);
+        addSound("They loved money. So much so that they became increasingly more desperate to acquire it. But still, it was not the end of the world.", "aldoreissecretpart2-togak-6", true);
+        addSound("That is, until a thousand years ago. Something happened between the realms, and to this day we are unsure exactly what caused it.", "aldoreissecretpart2-togak-7", true);
+        addSound("Being immortal, we saw the effect of the realms war on Gavel. The forests to the north began to decay. The mountains began to erupt. Light, was fading.", "aldoreissecretpart2-togak-8", true);
+        addSound("We were powerless, monsters began to emerge from all sorts of places we hadn't imagined. And so, the villagers set to explore lands across the sea.", "aldoreissecretpart2-togak-9", true);
+        addSound("They found Wynn, a province at war. Once we discovered the bloodied history of your race, we learned about your portal.", "aldoreissecretpart2-togak-10", true);
+        addSound("The portal, which opened 1000 years ago, about the same time Gavel began to decay. A clash of the realms of Light and Darkness.", "aldoreissecretpart2-togak-11", true);
+        addSound("Two forces which should never touch. It seems Gavel got off lightly, after hearing about the hundreds of years of torment the Wynn province endured.", "aldoreissecretpart2-togak-12", true);
+        addSound("[1/9] Elrund: Hello again, Human. So now you know. You know about the realms, and what we Elves believed has happened.", "aldoreissecretpart2-elrund-1", false);
+        addSound("[1/3] Elrund: Now you have a choice. To your right you can battle Vidobe, and earn access to the Elvish vault, where you may claim thousands of emeralds as a reward.", "aldoreissecretpart2-erlund-2", false);
+        addSound(" We believe the greed of the villagers weakened the purity of the Light realm. Although, we may be wrong. We, the Sol Embassy have been trying to restore it, ever since...", "aldoreissecretpart2-togak-13", true);
+        addSound("[1/14] Togak: I must first apologise. The tricks, after deceit, after a ploy. You must not know what to believe anymore. Or perhaps you haven't understood this whole time.", "aldoreissecretpart2-togak-14", false);
+        addSound("[1/4] Kansard: This medallion... I remember when I gave it to you. I was smiling ear to ear when you left.", "aldoreissecretpart2-kansard-1", false);
+        addSound("[1/4] Corak: It was not long ago that we met in that cave. I remember it well.", "aldoreissecretpart2-corak-1", false);
+
+
+
+
         //Questionmark ???
         addSound(">All systems online.", "questionmark-computer-1", true);
         addSound(">Teleporter activating...", "questionmark-computer-2", true);
