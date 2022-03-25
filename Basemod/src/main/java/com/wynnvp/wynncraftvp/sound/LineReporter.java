@@ -8,18 +8,35 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.concurrent.CompletableFuture;
 
 public class LineReporter {
 
+    private final Queue<String> reportedLines;
+
+    public LineReporter(){
+        reportedLines = new LinkedList<>();
+    }
 
     public void MissingLine(LineData lineData) {
         if (!ConfigHandler.logMissingLines) return;
+
 
         if (!LineFormatter.isNPCSentLine(lineData.getRealLine())) {
             return;
         }
         CompletableFuture.runAsync(() -> {
+            if (reportedLines.contains(lineData.getRealLine())){
+                return;
+            }
+            reportedLines.add(lineData.getRealLine());
+
+            if (reportedLines.size() > 20) {
+                reportedLines.remove();
+            }
             try {
                 reportUnvoicedLine(lineData);
                 System.out.println("Unvoiced line report has been sent to our servers. This contained: " + lineData.getRealLine());
