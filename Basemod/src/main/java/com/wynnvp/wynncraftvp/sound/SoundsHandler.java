@@ -1088,6 +1088,9 @@ public class SoundsHandler {
         addSound("[1/8] Enduyn: At ease, soldier! Did Cob send you?", "arachnidsascent-edyun-1", false);
         addSound("[1/5] Enduyn: Ah perfect! Now give me that bucket.", "arachnidsascent-edyun-2", false);
         addSound("[1/7] Private Cob: ‘ey there my good chap! I require some assistance!", "arachnidsascent-cob-1", false);
+        addSound("[1/1] Private Cob: Oi soldier! Say, I could use some assistance, but ya ain't high-ranked enough. Report back when you're level 14! Bye!", "arachnidsascent-cob-2", false);
+        addSound("[1/1] Private Cob: Best route's through that road with the burn marks. 'sends ya straight to cap'n!", "arachnidsascent-cob-3", false);
+        addSound("[1/2] Private Cob: 'ey there soldier! Thanks for ya help with the arachnids! Plenty appreciated!", "arachnidsascent-cob-4", false);
 
         //The house of twain
         addSound("[1/10] Twendle: Oh, hey you there! Are you heading down this road? You know it's a dead end, right?", "thehouseoftwain-twendle-1", false);

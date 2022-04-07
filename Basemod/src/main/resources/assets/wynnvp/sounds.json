@@ -6549,6 +6549,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:arachnidsascent-cob-1", "stream": true}]
   },
+  "arachnidsascent-cob-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:arachnidsascent-cob-2", "stream": true}]
+  },
+  "arachnidsascent-cob-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:arachnidsascent-cob-3", "stream": true}]
+  },
+  "arachnidsascent-cob-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:arachnidsascent-cob-4", "stream": true}]
+  },
   "arachnidsascent-edyun-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:arachnidsascent-edyun-1", "stream": true}]
