@@ -4463,6 +4463,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:aldoreissecretpart2-legolus-2", "stream": true}]
   },
+  "aldoreissecretpart2-legolus-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreissecretpart2-legolus-3", "stream": true}]
+  },
+  "aldoreissecretpart2-legolus-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreissecretpart2-legolus-4", "stream": true}]
+  },
+  "aldoreissecretpart2-legolus-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:aldoreissecretpart2-legolus-5", "stream": true}]
+  },
   "aldoreissecretpart2-soway-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:aldoreissecretpart2-soway-1", "stream": true}]

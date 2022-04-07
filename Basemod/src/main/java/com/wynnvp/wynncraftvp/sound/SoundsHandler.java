@@ -3960,6 +3960,9 @@ public class SoundsHandler {
         //aldoreissecretpart2
         addSound("[1/8] Legolus: You're that human Elrund let into Aldorei Town, right? How wonderful. I could actually use your opinion on a matter. Fresh eyes are always better on an old scene.", "aldoreissecretpart2-legolus-1", false);
         addSound("[1/5] Legolus: You've returned! But with a grim expression... was Soway not there? He couldn't have just vanished into thin air.", "aldoreissecretpart2-legolus-2", false);
+        addSound("[1/1] Legolus: Do you not remember your objective? You probably wrote it down in your quest book so you wouldn't forget.", "aldoreissecretpart2-legolus-3", false);
+        addSound("[1/1] Legolus: I apologise for the wild Grook chase, but we Elves must ensure anyone trusted with Aldorei's secrets is worthy.", "aldoreissecretpart2-legolus-4", false);
+        addSound("[1/1] Legolus: You're that human that got granted access to the town, aren't you? Strange things are happening around here. I fear you will not understand until you are level 78.", "aldoreissecretpart2-legolus-5", false);
         addSound("[1/9] Soway: A human? Here? How did you gain access to the town?", "aldoreissecretpart2-soway-1", false);
         addSound("[1/2] Soway: I need you to infiltrate the embassy; and kill Togak. Be warned, Elves are different to other species - and their defences are also different.", "aldoreissecretpart2-soway-2", false);
         addSound("[1/8] Togak: Something feels very different, as if your arrival has made the light of this room glow even brighter. ", "aldoreissecretpart2-togak-1", false);
