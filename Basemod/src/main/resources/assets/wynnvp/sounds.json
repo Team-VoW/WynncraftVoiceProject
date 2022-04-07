@@ -7247,22 +7247,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:macabremasquerade-masksalesman-5", "stream": true}]
   },
-  "macabremasquerade-masksalesman-6": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:macabremasquerade-masksalesman-6", "stream": true}]
-  },
-  "macabremasquerade-masksalesman-7": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:macabremasquerade-masksalesman-7", "stream": true}]
-  },
-  "macabremasquerade-masksalesman-8": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:macabremasquerade-masksalesman-8", "stream": true}]
-  },
-  "macabremasquerade-masksalesman-9": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:macabremasquerade-masksalesman-9", "stream": true}]
-  },
 
 
   "elementalexercise-ragon-1": {

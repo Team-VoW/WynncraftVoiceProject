@@ -1291,14 +1291,10 @@ public class SoundsHandler {
 
         //Macabre Masquerade Hallowynn 2014
         addSound("[1/5] Mask Salesman: Hmm... Let's see, wha- Ah! Oh, pardon me, I was distracted. Luckily you're here, because I require some assistance.", "macabremasquerade-masksalesman-1", false);
-        addSound("[2/5] Mask Salesman: You see, I was just on my way back from that large mansion near Nesaak, where I went to acquire some antiques from an old business partner.", "macabremasquerade-masksalesman-2", false);
-        addSound("[3/5] Mask Salesman: However, along the way, a valuable cursed mask escaped from my caravan and somehow made its way into the dark mine over there!", "macabremasquerade-masksalesman-3", false);
-        addSound("[4/5] Mask Salesman: I would've gone after it, but the things I have in this caravan are too important to leave by themselves. Not to mention that the cave seemed to corrupt from the inside out...", "macabremasquerade-masksalesman-4", false);
-        addSound("[5/5] Mask Salesman: You must help me retrieve the mask, for I must depart in 3 days! Could you brave the shadowy cave and bring it back?", "macabremasquerade-masksalesman-5", false);
-        addSound("[1/4] Mask Salesman: You've met a terrible fate, haven't you? I was just about to run the whole way to Nemract to get help.", "macabremasquerade-masksalesman-6", false);
-        addSound("[2/4] Mask Salesman: I would really like to hear what you encountered in that cave, but I must prepare to leave, for I have many masks to sell on a far away continent.", "macabremasquerade-masksalesman-7", false);
-        addSound("[3/4] Mask Salesman: Maybe you can visit me at some point, if our paths were to ever cross again. Then we could talk about your journey.", "macabremasquerade-masksalesman-8", false);
-        addSound("[4/4] Mask Salesman: To thank you for your help, I wanted to give you a special mask, but I'm out of it. Maybe next year?", "macabremasquerade-masksalesman-9", false);
+        addSound("[1/4] Mask Salesman: You've met a terrible fate, haven't you? I was just about to run the whole way to Nemract to get help.", "macabremasquerade-masksalesman-2", false);
+        addSound("[1/1] Mask Salesman: If you ever need something in the future, you should visit me in my homeland.", "macabremasquerade-masksalesman-3", false);
+        addSound("[1/1] Mask Salesman: I can't talk right now. I've lost something rather valuable, and I need to get it back quickly, because I'm only staying here for a couple of weeks. Please come back when you're level 21.", "macabremasquerade-masksalesman-4", false);
+        addSound("[1/1] Mask Salesman: Please help me find that mask! It's very valuable.", "macabremasquerade-masksalesman-5", false);
 
         //Generals Orders
         addSound("[1/6] Tylas: ZZZZZZZZzzzzzzZZZZZzzzzz...", "generalsorders-tylas-1", false);
