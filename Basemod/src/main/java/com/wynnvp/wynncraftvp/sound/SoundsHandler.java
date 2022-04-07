@@ -3983,7 +3983,8 @@ public class SoundsHandler {
         addSound("[1/14] Togak: I must first apologise. The tricks, after deceit, after a ploy. You must not know what to believe anymore. Or perhaps you haven't understood this whole time.", "aldoreissecretpart2-togak-14", false);
         addSound("[1/4] Kansard: This medallion... I remember when I gave it to you. I was smiling ear to ear when you left.", "aldoreissecretpart2-kansard-1", false);
         addSound("[1/4] Corak: It was not long ago that we met in that cave. I remember it well.", "aldoreissecretpart2-corak-1", false);
-
+        addSound("[1/1] Togak: You possess a light... one that glows even brighter than Aldorei. Continue your travels and show that light to the rest of Gavel.", "aldoreissecretpart2-togak-15", false);
+        addSound("[1/1] Togak: Do you not remember what I have told you? Check your quest book if your memory fails you.", "aldoreissecretpart2-togak-16", false);
 
 
 
