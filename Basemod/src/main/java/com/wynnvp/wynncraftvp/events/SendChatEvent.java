@@ -34,12 +34,15 @@ public class SendChatEvent {
                 event.setCanceled(true);
                 return;
         }
+        /*
         String[] split = event.getMessage().split(" ");
         if (split[0].equalsIgnoreCase("/apikey") && split.length > 1){
             SendClientChatMessage("§bSet api key to §e" + split[1]);
             ConfigHandler.setApiKey(split[1]);
             event.setCanceled(true);
         }
+
+         */
 
 
     }
