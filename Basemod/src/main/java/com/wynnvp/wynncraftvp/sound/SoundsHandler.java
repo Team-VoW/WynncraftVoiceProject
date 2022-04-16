@@ -4364,7 +4364,7 @@ public class SoundsHandler {
         addSound("[1/1] Bak'al: The Corrupter is awake. And he is close. Move, peon! You still must break the seal.", "ahunterscalling-bakal-11", true);
         addSound("[1/1] Bak'al: I am unfamiliar with Twain magic. Use the intellect I have given you. Break the seal.", "ahunterscalling-bakal-12", true);
         addSound("[1/1] Bak'al: Your job is done... And you survived. I will save you for another mission, should I need you. Now...watch.", "ahunterscalling-bakal-13", true);
-        addSound("???:: How much more? Where next? To what end?", "ahunterscalling-gatekeeper-5", false);
+        addSound("???: ...you disbelieve. It was an end. But you are here once more.", "ahunterscalling-gatekeeper-5", false);
         addSound("[1/5] Scientist Urelix: Ah, here for the job opportunity then, I see. The waiver didn't turn you away, good!", "ahunterscalling-scientisturelix-1", false);
         addSound("[1/1] Dr. Urelix: Good job! We'll get you taken care of nicely.", "ahunterscalling-drurelix-1", true);
         addSound("[1/1] Dr. Urelix: Good job, let us get down to my lab.", "ahunterscalling-drurelix-2", true);
@@ -4392,9 +4392,9 @@ public class SoundsHandler {
         addSound("[2/8] Avos Chief: Round up the defenses and sharpen the spears. There is no excuse for this.", "ahunterscalling-avoschieftain-2", true);
         addSound("[3/8] ???: No, wait! Hold on!", "ahunterscalling-maxie-1", true);
         addSound("[4/8] Maxie: Chieftain! We noticed the same thing as you did and I promise you, it was not us who did this.", "ahunterscalling-maxie-2", true);
-        addSound("[5/8] Avos Chief: Maxie! There is no more 'both sides' here! This is not your people tearing up the earth, this is your people making attempts on our lives!", "ahunterscalling-avoschieftain-3", true);
+        addSound("[5/8] Avos Chieftain: Maxie! There is no more 'both sides' here! This is not your people tearing up the earth, this is your people making attempts on our lives!", "ahunterscalling-avoschieftain-3", true);
         addSound("[6/8] Maxie: No, I swear this wasn't planned! I'm on the city council now! There's got to be another explanation. There's still mechs around, it could have been one of them!", "ahunterscalling-maxie-3", true);
-        addSound("[7/8] Avos Chief: And what would those monstrosities be taking orders from now? Your factory is shut down, as it ought to be!", "ahunterscalling-avoschieftain-4", true);
+        addSound("[7/8] Avos Chieftain: And what would those monstrosities be taking orders from now? Your factory is shut down, as it ought to be!", "ahunterscalling-avoschieftain-4", true);
         addSound("[8/8] Maxie: I'll investigate this myself. There's got to be some other explanation! Please, hold off on the war preparations!", "ahunterscalling-maxie-4", true);
         addSound("[1/5] Teleportation Mech: BEGIN TRANSMISSION: THAT WOULD HAVE BEEN ALL WE NEEDED TO DO, IF NOT FOR SOMEONE INTERFERING. YOU DID YOUR JOB PERFECTLY, MECH PL-4Y. ", "ahunterscalling-teleportationmech-3", false);
         addSound("[1/2] Teleportation Mech: Retrieving Mech PL-4Y.", "ahunterscalling-teleportationmech-4", true);
@@ -4405,9 +4405,9 @@ public class SoundsHandler {
         addSound("[3/4] Citizen: Why're they attacking us? This is on a way bigger scale than finding grape vines in my laundry machine!", "ahunterscalling-citizen-6", true);
         addSound("[4/4] Maxie: Don't panic! I'll talk to the Chieftain. There's been some kind of mistake here, I'm certain of it!", "ahunterscalling-maxie-6", true);
         addSound("[1/5] Maxie: Chief! I thought I asked you to put away the war drums!", "ahunterscalling-maxie-7", true);
-        addSound("[2/5] Avos Chief: We HAVE, Maxie. Do not make accusations upon us, on our own land.", "ahunterscalling-avoschieftain-5", true);
+        addSound("[2/5] Avos Chieftain: We HAVE, Maxie. Do not make accusations upon us, on our own land.", "ahunterscalling-avoschieftain-5", true);
         addSound("[3/5] Maxie: Corkus City was attacked today! A magical root broke through our wall. This is nature magic, an Avos specialty! ", "ahunterscalling-maxie-8", true);
-        addSound("[4/5] Avos Chief: Hm. Convenient, that one of our prized ceremonial totems has gone missing. You may be right that someone is attempting to cause insurgence.", "ahunterscalling-avoschieftain-6", true);
+        addSound("[4/5] Avos Chieftain: Hm. Convenient, that one of our prized ceremonial totems has gone missing. You may be right that someone is attempting to cause insurgence.", "ahunterscalling-avoschieftain-6", true);
         addSound("[5/5] Maxie: I knew this was some kind of mistake. I'll get to the bottom of this!", "ahunterscalling-maxie-9", true);
         addSound("[1/5] Teleportation Mech: BEGIN TRANSMISSION: THERE'S AN ANNOYING WRENCH IN THE WORKS. YOU'VE BEEN DOING YOUR JOB PERFECTLY, MECH PL-4Y. ", "ahunterscalling-teleportationmech-6", false);
         addSound("[3/5] Teleportation Mech: THERE IS A SET OF STATISTICALLY INFERIOR MECHS BUILT BY THE CORKIANS IN THIS TOWER. I HAVE A SET OF SYSTEMS PROGRAMMED IN THIS DEVICE.", "ahunterscalling-teleportationmech-7", false);
@@ -4416,7 +4416,7 @@ public class SoundsHandler {
         addSound("[5/8] Maxie: I knew it! It was such a longshot, but I knew the Factory still had to be at large! And now I have evidence to prove it, too!", "ahunterscalling-maxie-10", true);
         addSound("[6/8] Maxie: This time we'll make sure you won't get another chance. I'll tell everyone what happened, and then we'll tear that factory down at the foundations!", "ahunterscalling-maxie-11", true);
         addSound("[7/8] Maxie: You should've picked a more private meeting place! I'm out!", "ahunterscalling-maxie-12", true);
-        addSound("[8/8] Maxie: FREEZE!", "ahunterscalling-maxie-13", true);
+        addSound("[3/3] Maxie: FREEZE!", "ahunterscalling-maxie-13", true);
         addSound("[1/1] Maxie: Aah, you're fast! You caught up this quick?! I have no other choice...", "ahunterscalling-maxie-14", true);
         addSound("[1/2] Maxie: You aren't going to stop me from getting to the battleground! You look like you were scrounged up from rust and verdigris!", "ahunterscalling-maxie-15", true);
         addSound("[1/2] Maxie: You have defeated both of my most powerful creations... ", "ahunterscalling-maxie-16", true);
