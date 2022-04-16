@@ -7,14 +7,29 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 import java.util.HashMap;
 
+import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
+
 public class SoundsHandler {
-    // public static SoundEvent TALKING_MUSHROOM_RETURNINGARDFD;
     public HashMap<String, CustomSoundClass> sounds;
 
     public SoundsHandler() {
         sounds = new HashMap<>();
         registerSounds();
     }
+
+    private static SoundEvent registerSound(String name) {
+        ResourceLocation location = new ResourceLocation(ModCore.MODID, name);
+        SoundEvent event = new SoundEvent(location);
+        event.setRegistryName(name);
+        ForgeRegistries.SOUND_EVENTS.register(event);
+        return event;
+    }
+
+    private void addSound(String message, String name, boolean movingSound) {
+        message = formatToLineData(message).getSoundLine();
+        sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
+    }
+
 
     public void registerSounds() {
         //Talking Mushroom
@@ -1073,6 +1088,9 @@ public class SoundsHandler {
         addSound("[1/8] Enduyn: At ease, soldier! Did Cob send you?", "arachnidsascent-edyun-1", false);
         addSound("[1/5] Enduyn: Ah perfect! Now give me that bucket.", "arachnidsascent-edyun-2", false);
         addSound("[1/7] Private Cob: ‘ey there my good chap! I require some assistance!", "arachnidsascent-cob-1", false);
+        addSound("[1/1] Private Cob: Oi soldier! Say, I could use some assistance, but ya ain't high-ranked enough. Report back when you're level 14! Bye!", "arachnidsascent-cob-2", false);
+        addSound("[1/1] Private Cob: Best route's through that road with the burn marks. 'sends ya straight to cap'n!", "arachnidsascent-cob-3", false);
+        addSound("[1/2] Private Cob: 'ey there soldier! Thanks for ya help with the arachnids! Plenty appreciated!", "arachnidsascent-cob-4", false);
 
         //The house of twain
         addSound("[1/10] Twendle: Oh, hey you there! Are you heading down this road? You know it's a dead end, right?", "thehouseoftwain-twendle-1", false);
@@ -1276,14 +1294,10 @@ public class SoundsHandler {
 
         //Macabre Masquerade Hallowynn 2014
         addSound("[1/5] Mask Salesman: Hmm... Let's see, wha- Ah! Oh, pardon me, I was distracted. Luckily you're here, because I require some assistance.", "macabremasquerade-masksalesman-1", false);
-        addSound("[2/5] Mask Salesman: You see, I was just on my way back from that large mansion near Nesaak, where I went to acquire some antiques from an old business partner.", "macabremasquerade-masksalesman-2", false);
-        addSound("[3/5] Mask Salesman: However, along the way, a valuable cursed mask escaped from my caravan and somehow made its way into the dark mine over there!", "macabremasquerade-masksalesman-3", false);
-        addSound("[4/5] Mask Salesman: I would've gone after it, but the things I have in this caravan are too important to leave by themselves. Not to mention that the cave seemed to corrupt from the inside out...", "macabremasquerade-masksalesman-4", false);
-        addSound("[5/5] Mask Salesman: You must help me retrieve the mask, for I must depart in 3 days! Could you brave the shadowy cave and bring it back?", "macabremasquerade-masksalesman-5", false);
-        addSound("[1/4] Mask Salesman: You've met a terrible fate, haven't you? I was just about to run the whole way to Nemract to get help.", "macabremasquerade-masksalesman-6", false);
-        addSound("[2/4] Mask Salesman: I would really like to hear what you encountered in that cave, but I must prepare to leave, for I have many masks to sell on a far away continent.", "macabremasquerade-masksalesman-7", false);
-        addSound("[3/4] Mask Salesman: Maybe you can visit me at some point, if our paths were to ever cross again. Then we could talk about your journey.", "macabremasquerade-masksalesman-8", false);
-        addSound("[4/4] Mask Salesman: To thank you for your help, I wanted to give you a special mask, but I'm out of it. Maybe next year?", "macabremasquerade-masksalesman-9", false);
+        addSound("[1/4] Mask Salesman: You've met a terrible fate, haven't you? I was just about to run the whole way to Nemract to get help.", "macabremasquerade-masksalesman-2", false);
+        addSound("[1/1] Mask Salesman: If you ever need something in the future, you should visit me in my homeland.", "macabremasquerade-masksalesman-3", false);
+        addSound("[1/1] Mask Salesman: I can't talk right now. I've lost something rather valuable, and I need to get it back quickly, because I'm only staying here for a couple of weeks. Please come back when you're level 21.", "macabremasquerade-masksalesman-4", false);
+        addSound("[1/1] Mask Salesman: Please help me find that mask! It's very valuable.", "macabremasquerade-masksalesman-5", false);
 
         //Generals Orders
         addSound("[1/6] Tylas: ZZZZZZZZzzzzzzZZZZZzzzzz...", "generalsorders-tylas-1", false);
@@ -3942,6 +3956,37 @@ public class SoundsHandler {
         addSound("[1/4] Korben: ...you... You are... You would lie to the guards and say I perished in the chase? You will keep my identity secret?", "aldoreisvalleypart1-korben-12", false);
         addSound("[1/3] Elf Guard: Traveler, I must remind you- The doors shall remain shut until the criminal has been found.", "aldoreisvalleypart1-elfguard-2", false);
 
+        //aldoreissecretpart2
+        addSound("[1/8] Legolus: You're that human Elrund let into Aldorei Town, right? How wonderful. I could actually use your opinion on a matter. Fresh eyes are always better on an old scene.", "aldoreissecretpart2-legolus-1", false);
+        addSound("[1/5] Legolus: You've returned! But with a grim expression... was Soway not there? He couldn't have just vanished into thin air.", "aldoreissecretpart2-legolus-2", false);
+        addSound("[1/1] Legolus: Do you not remember your objective? You probably wrote it down in your quest book so you wouldn't forget.", "aldoreissecretpart2-legolus-3", false);
+        addSound("[1/1] Legolus: I apologise for the wild Grook chase, but we Elves must ensure anyone trusted with Aldorei's secrets is worthy.", "aldoreissecretpart2-legolus-4", false);
+        addSound("[1/1] Legolus: You're that human that got granted access to the town, aren't you? Strange things are happening around here. I fear you will not understand until you are level 78.", "aldoreissecretpart2-legolus-5", false);
+        addSound("[1/9] Soway: A human? Here? How did you gain access to the town?", "aldoreissecretpart2-soway-1", false);
+        addSound("[1/2] Soway: I need you to infiltrate the embassy; and kill Togak. Be warned, Elves are different to other species - and their defences are also different.", "aldoreissecretpart2-soway-2", false);
+        addSound("[1/8] Togak: Something feels very different, as if your arrival has made the light of this room glow even brighter. ", "aldoreissecretpart2-togak-1", false);
+        addSound("[1/1] Togak: Our story begins, almost at the beginning of Gavel itself...", "aldoreissecretpart2-togak-2", true);
+        addSound("No one understood the connection between Gavel and the Realm of Light better than ourselves, the Elves.", "aldoreissecretpart2-togak-3", true);
+        addSound("The Light told us, through various means, that the path to happiness is through selflessness. And it was true; those who followed good morals lead a happier life.", "aldoreissecretpart2-togak-4", true);
+        addSound("However, there were still those, who could not follow. The villagers, our neighbour and ally for centuries, were not so keen on following a greedless life.", "aldoreissecretpart2-togak-5", true);
+        addSound("They loved money. So much so that they became increasingly more desperate to acquire it. But still, it was not the end of the world.", "aldoreissecretpart2-togak-6", true);
+        addSound("That is, until a thousand years ago. Something happened between the realms, and to this day we are unsure exactly what caused it.", "aldoreissecretpart2-togak-7", true);
+        addSound("Being immortal, we saw the effect of the realms war on Gavel. The forests to the north began to decay. The mountains began to erupt. Light, was fading.", "aldoreissecretpart2-togak-8", true);
+        addSound("We were powerless, monsters began to emerge from all sorts of places we hadn't imagined. And so, the villagers set to explore lands across the sea.", "aldoreissecretpart2-togak-9", true);
+        addSound("They found Wynn, a province at war. Once we discovered the bloodied history of your race, we learned about your portal.", "aldoreissecretpart2-togak-10", true);
+        addSound("The portal, which opened 1000 years ago, about the same time Gavel began to decay. A clash of the realms of Light and Darkness.", "aldoreissecretpart2-togak-11", true);
+        addSound("Two forces which should never touch. It seems Gavel got off lightly, after hearing about the hundreds of years of torment the Wynn province endured.", "aldoreissecretpart2-togak-12", true);
+        addSound("[1/9] Elrund: Hello again, Human. So now you know. You know about the realms, and what we Elves believed has happened.", "aldoreissecretpart2-elrund-1", false);
+        addSound("[1/3] Elrund: Now you have a choice. To your right you can battle Vidobe, and earn access to the Elvish vault, where you may claim thousands of emeralds as a reward.", "aldoreissecretpart2-erlund-2", false);
+        addSound(" We believe the greed of the villagers weakened the purity of the Light realm. Although, we may be wrong. We, the Sol Embassy have been trying to restore it, ever since...", "aldoreissecretpart2-togak-13", true);
+        addSound("[1/14] Togak: I must first apologise. The tricks, after deceit, after a ploy. You must not know what to believe anymore. Or perhaps you haven't understood this whole time.", "aldoreissecretpart2-togak-14", false);
+        addSound("[1/4] Kansard: This medallion... I remember when I gave it to you. I was smiling ear to ear when you left.", "aldoreissecretpart2-kansard-1", false);
+        addSound("[1/4] Corak: It was not long ago that we met in that cave. I remember it well.", "aldoreissecretpart2-corak-1", false);
+        addSound("[1/1] Togak: You possess a light... one that glows even brighter than Aldorei. Continue your travels and show that light to the rest of Gavel.", "aldoreissecretpart2-togak-15", false);
+        addSound("[1/1] Togak: Do you not remember what I have told you? Check your quest book if your memory fails you.", "aldoreissecretpart2-togak-16", false);
+
+
+
         //Questionmark ???
         addSound(">All systems online.", "questionmark-computer-1", true);
         addSound(">Teleporter activating...", "questionmark-computer-2", true);
@@ -4135,6 +4180,99 @@ public class SoundsHandler {
         addSound("[5/6] Plario: Human...if you promise to help us...I will grant you access to...our secret elevators... You can get up and...down the heights with those.", "dwarvesanddogunspart1-plario-7", true);
         addSound("[6/6] Plario: Please return to...us when you reach level 92. Take this...badge so the...others recognize you...as an ally. One of the elevators is...to the south.", "dwarvesanddogunspart1-plario-8", true);
 
+        //Dwarves and doguns part 2
+        addSound("[1/3] Dogun Chieftain: You are so young...to be fighting...a war so old. Still...it is appreciated.", "dwarvesanddogunspart2-dogunchieftain-1", false);
+        addSound("[1/16] Dogun Chieftain: I am sorry...to welcome you all...in such troubled times.", "dwarvesanddogunspart2-dogunchieftain-2", true);
+        addSound("[2/16] Dogun Chieftain: We thought...we could hide in safety... But there is...no place left to hide. ", "dwarvesanddogunspart2-dogunchieftain-3", true);
+        addSound("[3/16] Dogun Chieftain: Aval...would have us...leave the Heights... But we...would not survive.", "dwarvesanddogunspart2-dogunchieftain-4", true);
+        addSound("[4/16] Dogun Chieftain: We must...evacuate the settlement...immediately. They...are coming...again.", "dwarvesanddogunspart2-dogunchieftain-5", true);
+        addSound("[5/16] ???: Ouch, I'm sorry... Excuse us!", "dwarvesanddogunspart2-axelus-1", true);
+        addSound("[6/16] ???: We heard what happened, Soldier.", "dwarvesanddogunspart2-axelus-2", true);
+        addSound("[7/16] Axelus: Please! You all know me, I'm not with the side of the government. Hear me out, we can fix this!", "dwarvesanddogunspart2-axelus-3", true);
+        addSound("[8/16] Dogun Chieftain: Guards...", "dwarvesanddogunspart2-dogunchieftain-6", true);
+        addSound("[9/16] Axelus: Stop! I have been hiding from the Dwarves just as much as anyone here, they've been after me too!", "dwarvesanddogunspart2-axelus-4", true);
+        addSound("[10/16] Dogun Chieftain: Why...would we trust... you...of all Dwarves?", "dwarvesanddogunspart2-dogunchieftain-7", true);
+        addSound("[11/16] Dogun Chieftain: How...could you even help? They...won't listen to you.", "dwarvesanddogunspart2-dogunchieftain-8", true);
+        addSound("[12/16] Axelus: I know all the war strategies and weapon cache locations.", "dwarvesanddogunspart2-axelus-5", true);
+        addSound("[13/16] Dogun Chieftain: Treason...against your own kind...? How will you...manage this?", "dwarvesanddogunspart2-dogunchieftain-9", true);
+        addSound("[14/16] Axelus: The human and I will sneak into the armoury and sabotage their equipment. Korzim will help you Doguns evacuate someplace safer.", "dwarvesanddogunspart2-axelus-6", true);
+        addSound("[15/16] Dogun Chieftain: I am...yet wary of you...but we will...follow your plan...Dwarf. Korzim...lead us...to safety.", "dwarvesanddogunspart2-dogunchieftain-10", true);
+        addSound("[16/16] Axelus: Soldier, follow the southern road from Rodoroc, towards the Sky Islands entrance. I'll be waiting there for you near the armoury.", "dwarvesanddogunspart2-axelus-7", true);
+        addSound("[1/5] Axelus: Shh! Get behind here, and look towards the armoury doors.", "dwarvesanddogunspart2-axelus-8", true);
+        addSound("[2/5] Axelus: We need to sneak in when they aren't looking, got it? But we need to be fast.", "dwarvesanddogunspart2-axelus-9", true);
+        addSound("[3/5] Axelus: If they close that door, we'll only have one option left, and it's a huge risk. Those Dwarven gates are almost unbreakable.", "dwarvesanddogunspart2-axelus-10", true);
+        addSound("[4/5] Rodoroc Commander: Alright boys, let's close this up and head to base B.", "dwarvesanddogunspart2-rodoroccommander-1", true);
+        addSound("[5/5] Axelus: Aaah! Charge them! HEY, STOP RIGHT THERE, SOLDIERS!", "dwarvesanddogunspart2-axelus-11", true);
+        addSound("[1/1] Rodoroc Commander: It's the traitor! Capture them, now! There's only one reason they would be near the armoury! //Commander", "dwarvesanddogunspart2-rodoroccommander-2", true);
+        addSound("[1/1] Axelus: Is that all of them? We're out of danger, at least, but they still shut the door, damn it!", "dwarvesanddogunspart2-axelus-12", true);
+        addSound("[1/5] Axelus: Gah, all that for nothing! You're not too banged up, are you?", "dwarvesanddogunspart2-axelus-13", true);
+        addSound("[2/5] Axelus: Well, I said there's another way, but it's not a guarantee. Hurry, follow me.", "dwarvesanddogunspart2-axelus-14", true);
+        addSound("[3/5] Axelus: Urgh, damn it. They almost never bother to close this door, and now of all times...", "dwarvesanddogunspart2-axelus-15", true);
+        addSound("[4/5] Axelus: There's nothing for it. They'll be sending reinforcements soon, we need a way through here. ", "dwarvesanddogunspart2-axelus-16", true);
+        addSound("[5/5] Axelus: Those black bricks look breakable...but that won't solve the door, will it?", "dwarvesanddogunspart2-axelus-17", true);
+        addSound("[1/2] Axelus: Alright, let's destroy these machines! You see the two cannons?", "dwarvesanddogunspart2-axelus-18", false);
+        addSound("[1/1] Axelus: Nice work! That will slow them down. We're not done yet, we need to pay the king a visit. Let's head further into Rodoroc. ", "dwarvesanddogunspart2-axelus-19", true);
+        addSound("[1/6] Axelus: Hurry! Through here, to the power core!", "dwarvesanddogunspart2-axelus-20", true);
+        addSound("[2/6] Axelus: This is a geothermal power core. If we can disrupt it, it should slow them down.", "dwarvesanddogunspart2-axelus-21", true);
+        addSound("[3/6] Axelus: The hypocrites used Dogun magic to make this... It's lucky, honestly. I know how to work it.", "dwarvesanddogunspart2-axelus-22", true);
+        addSound("[1/1] Axelus: Grr, this is harder than I thought!", "dwarvesanddogunspart2-axelus-23", true);
+        addSound("[1/1] Axelus: Ah! Don't let them get too close! ", "dwarvesanddogunspart2-axelus-24", true);
+        addSound("[1/1] Axelus: Look, look! It's working!", "dwarvesanddogunspart2-axelus-25", true);
+        addSound("[1/3] Axelus: I hate that you're having to fight my people, but I wouldn't be asking for help if it weren't needed.", "dwarvesanddogunspart2-axelus-26", true);
+        addSound("[1/4] Axelus: Dwarvern society isn't as great as they make it out to be. The poorest are hidden away.", "dwarvesanddogunspart2-axelus-27", true);
+        addSound("[1/3] Axelus: If we can convince the king that it's not worth the fight, he may back down.", "dwarvesanddogunspart2-axelus-28", true);
+        addSound("[1/1] Axelus: Don't let the guards catch you. Stay out of sight, got it?", "dwarvesanddogunspart2-axelus-29", true);
+        addSound("[1/11] King of Rodoroc: I can't say I'm surprised, Axelus. Guards, let them be.", "dwarvesanddogunspart2-kingofrodoroc-1", true);
+        addSound("[2/11] Axelus: You know why I'm here, father. We haven't got any more chances to stop this.", "dwarvesanddogunspart2-axelus-30", true);
+        addSound("[3/11] King of Rodoroc: Axelus, you know why we have to maintain the lie. Think about the people, how they would react.", "dwarvesanddogunspart2-kingofrodoroc-2", true);
+        addSound("[4/11] Axelus: We can not be responsible for the lies of our ancestors! This is ridiculous and you know it!", "dwarvesanddogunspart2-axelus-31", true);
+        addSound("[5/11] King of Rodoroc: Axelus, if the people found out, everything would descend to chaos. There would be riots, revolutions!", "dwarvesanddogunspart2-kingofrodoroc-3", true);
+        addSound("[6/11] King of Rodoroc: If you hadn't turned traitor and gone gallivanting off with the Doguns, you would be in a better position to convince me. ", "dwarvesanddogunspart2-kingofrodoroc-4", true);
+        addSound("[7/11] King of Rodoroc: As it is now, you are too little and too late. The war has already begun.", "dwarvesanddogunspart2-kingofrodoroc-5", true);
+        addSound("[8/11] King of Rodoroc: The armoury that a certain someone decided to sabotage won't make any difference. ", "dwarvesanddogunspart2-kingofrodoroc-6", true);
+        addSound("[9/11] Axelus: You will commit genocide so you don't have to face the consequences of your lies?", "dwarvesanddogunspart2-axelus-32", true);
+        addSound("[10/11] King of Rodoroc: I will be the hero of our nation, and my name will forever be remembered as the King who brought peace.", "dwarvesanddogunspart2-kingofrodoroc-7", true);
+        addSound("[11/11] King of Rodoroc: I have nothing left to say to you. See yourselves out behind the throne. I'll let you use the trading tunnel to Thanos in the southern caves, if you just step back and let me handle things.", "dwarvesanddogunspart2-kingofrodoroc-8", true);
+        addSound("[1/3] Axelus: I'm not giving up on this. I'm going back in, I know he can be reasoned with!", "dwarvesanddogunspart2-axelus-33", true);
+        addSound("[2/3] Axelus: Give this letter to Korzim in the Dogun village when you reach level 93.", "dwarvesanddogunspart2-axelus-34", true);
+        addSound("[3/3] Axelus: I'm going to have one last talk with my father.", "dwarvesanddogunspart2-axelus-35", true);
+        addSound("[1/1] Axelus: Try to destroy each machine. Stone is used for ammo while tnt will blow up the machine. Good luck!", "dwarvesanddogunspart2-axelus-36", true);
+        addSound("[1/1] Axelus: I'll meet you at the end of the slums.", "dwarvesanddogunspart2-axelus-37", true);
+
+        //Dwarves and doguns part 3
+        addSound("[1/9] Korzim: We...have an issue. A dire one... Where is...Axelus at a time...like this?", "dwarvesanddogunspart3-korzim-1", false);
+        addSound("[4/9] Korzim: He is trying to...reason with the Dwarven King? There is...no one else...then. You... You will have to...help.", "dwarvesanddogunspart3-korzim-2", false);
+        addSound("[1/5] Korzim: Soldier...I take back my statement. They have already begun... There cannot be reasoning.", "dwarvesanddogunspart3-korzim-3", true);
+        addSound("[3/5] Korzim: Interrupting...at this point will have...disastrous consequences. We must let them continue...and pray they fail.", "dwarvesanddogunspart3-korzim-4", false);
+        addSound("[1/3] Korzim?: Hoho...! Over here...fine traveler! Join me at the gates!", "dwarvesanddogunspart3-korzim-5", true);
+        addSound("[1/9] Edula: ...Korzim...what in the name of all that is holy is that disguise?", "dwarvesanddogunspart3-edula-1", true);
+        addSound("[2/9] Edula: I'm flabbergasted you fooled anyone with that thing! How did you stop the beard from burning?", "dwarvesanddogunspart3-edula-2", true);
+        addSound("[3/9] Edula: But, erm...more importantly, who's the bucko in the fancy armour there?", "dwarvesanddogunspart3-edula-3", true);
+        addSound("[4/9] Korzim: An ally...of the coalition. No time...Edula. Doguns... summoning... Garaheth.", "dwarvesanddogunspart3-korzim-6", true);
+        addSound("[5/9] Edula: So...so it's really down to that low, then. Burning your own house down to kill the rats.", "dwarvesanddogunspart3-edula-4", true);
+        addSound("[6/9] Edula: Good thing we've got this prepared. One fallout will prevent the next. Soldier, I've got a list of materials we need!", "dwarvesanddogunspart3-edula-5", true);
+        addSound("[7/9] Edula: You will need 10 Fire Webs. The Heatscar Spiders under the town make them, there's a cave right by the entrance arch.", "dwarvesanddogunspart3-edula-6", true);
+        addSound("[8/9] Edula: Then, 3 Magmatic Crystals from the Maex mines. I'd get them myself, but...I'm banned from there since the rubber mallet incident.", "dwarvesanddogunspart3-edula-7", true);
+        addSound("[9/9] Edula: Lastly, 1 Crystallized Lava. The closest source is in the lava lake just outside Maex. There's a protruding crater in the lake.", "dwarvesanddogunspart3-edula-8", true);
+        addSound("[1/5] Edula: Mhm, looks like everything's in order. Now, for a short explanation.", "dwarvesanddogunspart3-edula-9", false);
+        addSound("[1/1] Korzim: We must... visit... Sanba... the enchanter. ", "dwarvesanddogunspart3-korzim-7", true);
+        addSound("[1/6] Sanba: Erm...Korzim, what on earth are you doing here? It's not safe for you!", "dwarvesanddogunspart3-sanba-1", false);
+        addSound("[1/8] Sanba: Supposing you're here to help, Soldier. Garaheth's being summoned if you're getting this...", "dwarvesanddogunspart3-sanba-2", false);
+        addSound("[1/5] Korzim: Soldier... This... This used to be...a Dogun town. The Dwarves rendered it barren.", "dwarvesanddogunspart3-korzim-8", true);
+        addSound("[1/1] Korzim: I will try to run through...as quickly as possible. The ice is...painful.", "dwarvesanddogunspart3-korzim-9", true);
+        addSound("[1/5] Korzim: We must... move fast... or... we will both.... freeze.", "dwarvesanddogunspart3-korzim-10", true);
+        addSound("[3/5] Korzim: Oh no... I think... It's... COLLAPSING.", "dwarvesanddogunspart3-korzim-13", true);
+        addSound("[4/5] Korzim: My... feet are.... solid... Keep... running.", "dwarvesanddogunspart3-korzim-11", true);
+        addSound("[5/5] Korzim: This is it... The thing that... Killed my families... 4 True Ice.", "dwarvesanddogunspart3-korzim-12", true);
+        addSound("[1/4] Sanba: Impressive, you two. Must have been tough to get that...doubly so for Korzim.", "dwarvesanddogunspart3-sanba-3", false);
+        addSound("[4/4] Sanba: ...that's the barracks door. That's the barracks door!!", "dwarvesanddogunspart3-sanba-4", true);
+        addSound("[1/2] Maex Soldier: Men! We have to meet for briefing on the surface, the war is due any hour now! Move faster!", "dwarvesanddogunspart3-maexsoldier-1", true);
+        addSound("[2/2] Sanba: They're already going?! We're out of time! Korzim is waiting for you just upstairs when you reach level 94. Go train! NOW!", "dwarvesanddogunspart3-sanba-5", true);
+        addSound("[1/3] Korzim: The crystal formation... It is definitely here.", "dwarvesanddogunspart3-korzim-14", true);
+        addSound("[2/3] Korzim: I will clear the lava... On my signal, move. And do not stop.", "dwarvesanddogunspart3-korzim-15", true);
+        addSound("[3/3] Korzim: Move! Move! MOVE!", "dwarvesanddogunspart3-korzim-16", true);
+        addSound("[1/1] Korzim: Oh no... We got... Trapped.", "dwarvesanddogunspart3-korzim-17", true);
+
         //Dwarves and dogunspart 4
         addSound("[1/4] Korzim: Soldier... Do you have...the staff? And the amulet...?", "dwarvesanddogunspart4-korzim-1", false);
         addSound("[1/1] Soldier: The first group has already started their climb, let's hurry.", "dwarvesanddogunspart4-soldier-1", true);
@@ -4185,6 +4323,134 @@ public class SoundsHandler {
         addSound("[6/11] Dogun Chieftain: All hostilities...will end. My people will...be free to roam the caverns. It has been...too long.", "dwarvesanddogunspart4-dogunchieftain-7", true);
         addSound("[7/11] King of Rodoroc: And the entombed Doguns at Courag will be reconstituted, as well, supposing that is a possibility.", "dwarvesanddogunspart4-kingofrodoroc-10", false);
 
+        //A hunters Calling
+        addSound("???: ...you arrive. You search... To what end?", "ahunterscalling-gatekeeper-1", false);
+        addSound("[1/4] Bak'al: We destroy Ragni today. The great fortress will fall.", "ahunterscalling-bakal-1", true);
+        addSound("[2/4] Bak'al: I will find their protector, Bob. You each will engage the guards and city dwellers. 10 citizens. ", "ahunterscalling-bakal-2", true);
+        addSound("[3/4] Bak'al: If each of you kills 10 citizens, then the city will run empty. So, you shall make it run empty.", "ahunterscalling-bakal-3", true);
+        addSound("[4/4] Bak'al: Go!", "ahunterscalling-bakal-4", true);
+        addSound("???: You anger. Viewing needless destruction. To what end? ", "ahunterscalling-gatekeeper-2", false);
+        addSound("[1/4] Amadel: Hey, little miss. Don't go spacing out on me like that.", "ahunterscalling-amadel-1", false);
+        addSound("[1/2] Citizen: Oh, yeah I saw the mayor not too long ago.", "ahunterscalling-citizen-1", false);
+        addSound("[1/4] Employee: You are here for the job, aren't you? I have to apologize. It's going to be trickier than I'd wanted for you.", "ahunterscalling-employee-1", false);
+        addSound("[1/1] Bodyguard: No one enters when the mayor is doing his errands, sorry. You'll have to wait for your transaction.", "ahunterscalling-bodyguard-1", true);
+        addSound("[1/3] Employee: Can you see the mayor? I had to stay totally out of sight while setting this all up, so... ", "ahunterscalling-employee-2", false);
+        addSound("[1/1] Employee: Quickly, back to the camp. Before we're noticed.", "ahunterscalling-employee-3", true);
+        addSound("[1/4] Amadel: Aha, you two are back.", "ahunterscalling-amadel-2", true);
+        addSound("[2/4] Amadel: Is everything taken care of?", "ahunterscalling-amadel-3", false);
+        addSound("[3/4] Employee: Yes sir, everything went smoothly, soldier did a great thing for the company.", "ahunterscalling-employee-4", false);
+        addSound("???: ...you rage. Aided the ignoble. To what end?", "ahunterscalling-gatekeeper-3", false);
+        addSound("[1/5] Bak'al: You have been made for a single purpose, peon. The wizard, Theorick, is endangering our cause.", "ahunterscalling-bakal-5", false);
+        addSound("[1/13] Kotham: Listen, I understand the discontent, but we must start rationing! The corruption is consuming our arable fields.", "ahunterscalling-kotham-1", true);
+        addSound("[2/13] Kotham: Who knows if we'll even have water soon? We need to save up as much as we can!", "ahunterscalling-kotham-2", true);
+        addSound("[3/13] Citizen: Yeah, and what does Theorick have to say on the topic? How will he think of that?", "ahunterscalling-citizen-2", true);
+        addSound("[4/13] Citizen: He will be here shortly to discuss this problem in more detai-", "ahunterscalling-citizen-3", true);
+        addSound("[5/13] Theorick: Everyone, hush and listen to what Kotham is saying!", "ahunterscalling-theorick-1", true);
+        addSound("[6/13] Theorick: As the mayor said, all of you need to start rationing what you eat and drink. I cannot be here every waking moment!", "ahunterscalling-theorick-2", true);
+        addSound("[7/13] Theorick: In addition, I've figured something very important out. I'm developing a way to cease the spread of corruption. So I need to concentrate on that.", "ahunterscalling-theorick-3", true);
+        addSound("[8/13] Theorick: ...hm. Something... Something is off.", "ahunterscalling-theorick-4", true);
+        addSound("[9/13] Theorick: ...someone among you... I can feel a horrendous strength...", "ahunterscalling-theorick-5", true);
+        addSound("[10/13] Theorick: Kotham! Get everyone to safety! NOW! MOVE, GO!", "ahunterscalling-theorick-6", true);
+        addSound("[11/13] Theorick: You! Sent by Bak'al, I assume? What, is he too much of a coward to face me himself?", "ahunterscalling-theorick-7", true);
+        addSound("[12/13] Theorick: What purpose do you have for doing this? This destruction is needless! Nesaak and all of Wynn have suffered enough!", "ahunterscalling-theorick-8", true);
+        addSound("[13/13] Theorick: I'll freeze you solid, just like the rest of the corruption, you foul THING!", "ahunterscalling-theorick-9", true);
+        addSound("[1/1] Theorick: This way, no one else gets hurt. Only one will leave from here alive.", "ahunterscalling-theorick-10", true);
+        addSound("[1/2] Bak'al: The Twains fall away. The peon has done his job well.", "ahunterscalling-bakal-6", true);
+        addSound("???:: ...you fear. Does the dark become you?", "ahunterscalling-gatekeeper-4", false);
+        addSound("[1/5] Bak'al: Peon. You have been created for one purpose. You will ensure the fall of Troms.", "ahunterscalling-bakal-7", false);
+        addSound("[1/1] Bak'al: Defend yourself. He is too far gone to control. You will be attacked.", "ahunterscalling-bakal-8", true);
+        addSound("[1/2] Bak'al: Move faster. He will notice your presence soon. ", "ahunterscalling-bakal-9", true);
+        addSound("[1/1] Bak'al: The Corrupteds are malleable. Create some kind of bridge with them. Answer how for yourself.", "ahunterscalling-bakal-10", true);
+        addSound("[1/1] Bak'al: The Corrupter is awake. And he is close. Move, peon! You still must break the seal.", "ahunterscalling-bakal-11", true);
+        addSound("[1/1] Bak'al: I am unfamiliar with Twain magic. Use the intellect I have given you. Break the seal.", "ahunterscalling-bakal-12", true);
+        addSound("[1/1] Bak'al: Your job is done... And you survived. I will save you for another mission, should I need you. Now...watch.", "ahunterscalling-bakal-13", true);
+        addSound("???:: How much more? Where next? To what end?", "ahunterscalling-gatekeeper-5", false);
+        addSound("[1/5] Scientist Urelix: Ah, here for the job opportunity then, I see. The waiver didn't turn you away, good!", "ahunterscalling-scientisturelix-1", false);
+        addSound("[1/1] Dr. Urelix: Good job! We'll get you taken care of nicely.", "ahunterscalling-drurelix-1", true);
+        addSound("[1/1] Dr. Urelix: Good job, let us get down to my lab.", "ahunterscalling-drurelix-2", true);
+        addSound("[1/2] Leni: A bit of spare change, for an old man out of work?", "ahunterscalling-leni-1", false);
+        addSound("[1/3] Kohma: Oh, ah...heehee, heya cutie.. Whatcha doin' all the way out here?", "ahunterscalling-kohma-1", false);
+        addSound("[1/2] Kohma: Heya, again. Thinking of it, a lovely one like you is probably spoken for already, huh?", "ahunterscalling-kohma-2", false);
+        addSound("[1/3] Kohma: W-wait, those are...for me? Oh, you shouldn't have, I'm so happy!", "ahunterscalling-kohma-3", false);
+        addSound("[1/4] Anast: Agh, dang it dang it dang it!! You over there, help me out, would ya??", "ahunterscalling-anast-1", false);
+        addSound("[1/1] Dr. Urelix: I'll take care of this homeless old man.", "ahunterscalling-drurelix-3", true);
+        addSound("[1/1] Dr. Urelix: Well done! We'll get you taken care of nicely.", "ahunterscalling-drurelix-4", true);
+        addSound("[1/4] Urelix: Flawless work! I daresay these are some of our best work yet, and it's thanks to you.", "ahunterscalling-urelix-1", true);
+        addSound("[2/4] Urelix: Go on, step closer! You've done a wonderful service here. Examine the fruits of your labor! ", "ahunterscalling-urelix-2", true);
+        addSound("[3/4] Urelix: Look into their eyes, it's almost like you can see the person they once were. Intriguing, isn't-", "ahunterscalling-urelix-3", true);
+        addSound("[4/4] Urelix: Hah! This one seems quite fond of you! Want to take it home as a bonus to your payment?", "ahunterscalling-urelix-4", true);
+        addSound("???:: ...you resign yourself. You believe you will never find the answers you seek.", "ahunterscalling-gatekeeper-6", false);
+        addSound("[1/3] Royal Advisor: Our king has requested the removal of the slum folk.", "ahunterscalling-royaladvisor-1", false);
+        addSound("[1/4] Citizen: A King's messenger, hm? What are your kind doing here?", "ahunterscalling-citizen-4", false);
+        addSound("[1/3] Royal Advisor: As expected... Well, the King's orders are orders. They must be followed, but...", "ahunterscalling-royaladvisor-2", false);
+        addSound("???:: ...once again. You wonder. To what end?", "ahunterscalling-gatekeeper-7", false);
+        addSound("[1/1] Corkian Security Overseer: Not even the most remote tower of this castle is left unguarded! Unless it's lunch time, of course...", "ahunterscalling-corkiansecurityoverseer-1", false);
+        addSound("[1/10] Antikythera Supercomputer: AH, GOOD. I LIKE THE LOOKS OF THIS ONE. I WILL HAVE TO THANK WHOEVER MADE THIS MECH.", "ahunterscalling-antikytherasupercomputer-1", false);
+        addSound("[1/7] Teleportation Mech: BEGIN TRANSMISSION: REALLY, WHO'S SO STUPID AS TO LEAVE A CATAPULT AIMED AT YOUR ALLIES?", "ahunterscalling-teleportationmech-1", false);
+        addSound("[4/7] Teleportation Mech: Scan complete. Object located.", "ahunterscalling-teleportationmech-2", false);
+        addSound("[1/8] Avos Chief: I'm... in shock. We aid them in destroying their factory, and...", "ahunterscalling-avoschieftain-1", true);
+        addSound("[2/8] Avos Chief: Round up the defenses and sharpen the spears. There is no excuse for this.", "ahunterscalling-avoschieftain-2", true);
+        addSound("[3/8] ???: No, wait! Hold on!", "ahunterscalling-maxie-1", true);
+        addSound("[4/8] Maxie: Chieftain! We noticed the same thing as you did and I promise you, it was not us who did this.", "ahunterscalling-maxie-2", true);
+        addSound("[5/8] Avos Chief: Maxie! There is no more 'both sides' here! This is not your people tearing up the earth, this is your people making attempts on our lives!", "ahunterscalling-avoschieftain-3", true);
+        addSound("[6/8] Maxie: No, I swear this wasn't planned! I'm on the city council now! There's got to be another explanation. There's still mechs around, it could have been one of them!", "ahunterscalling-maxie-3", true);
+        addSound("[7/8] Avos Chief: And what would those monstrosities be taking orders from now? Your factory is shut down, as it ought to be!", "ahunterscalling-avoschieftain-4", true);
+        addSound("[8/8] Maxie: I'll investigate this myself. There's got to be some other explanation! Please, hold off on the war preparations!", "ahunterscalling-maxie-4", true);
+        addSound("[1/5] Teleportation Mech: BEGIN TRANSMISSION: THAT WOULD HAVE BEEN ALL WE NEEDED TO DO, IF NOT FOR SOMEONE INTERFERING. YOU DID YOUR JOB PERFECTLY, MECH PL-4Y. ", "ahunterscalling-teleportationmech-3", false);
+        addSound("[1/2] Teleportation Mech: Retrieving Mech PL-4Y.", "ahunterscalling-teleportationmech-4", true);
+        addSound("[1/1] Teleportation Mech: Sending Mech PL-4Y to Next objective location...", "ahunterscalling-teleportationmech-5", true);
+        addSound("[1/1] Corkus Citizen: WHAT IS THAT!? THE AVOS ARE ATTACKING?", "ahunterscalling-corkuscitizen-1", true);
+        addSound("[1/4] Maxie: They listened to me... right? Why's this-", "ahunterscalling-maxie-5", true);
+        addSound("[2/4] Citizen: What in the world...? That's Avos magic!", "ahunterscalling-citizen-5", true);
+        addSound("[3/4] Citizen: Why're they attacking us? This is on a way bigger scale than finding grape vines in my laundry machine!", "ahunterscalling-citizen-6", true);
+        addSound("[4/4] Maxie: Don't panic! I'll talk to the Chieftain. There's been some kind of mistake here, I'm certain of it!", "ahunterscalling-maxie-6", true);
+        addSound("[1/5] Maxie: Chief! I thought I asked you to put away the war drums!", "ahunterscalling-maxie-7", true);
+        addSound("[2/5] Avos Chief: We HAVE, Maxie. Do not make accusations upon us, on our own land.", "ahunterscalling-avoschieftain-5", true);
+        addSound("[3/5] Maxie: Corkus City was attacked today! A magical root broke through our wall. This is nature magic, an Avos specialty! ", "ahunterscalling-maxie-8", true);
+        addSound("[4/5] Avos Chief: Hm. Convenient, that one of our prized ceremonial totems has gone missing. You may be right that someone is attempting to cause insurgence.", "ahunterscalling-avoschieftain-6", true);
+        addSound("[5/5] Maxie: I knew this was some kind of mistake. I'll get to the bottom of this!", "ahunterscalling-maxie-9", true);
+        addSound("[1/5] Teleportation Mech: BEGIN TRANSMISSION: THERE'S AN ANNOYING WRENCH IN THE WORKS. YOU'VE BEEN DOING YOUR JOB PERFECTLY, MECH PL-4Y. ", "ahunterscalling-teleportationmech-6", false);
+        addSound("[3/5] Teleportation Mech: THERE IS A SET OF STATISTICALLY INFERIOR MECHS BUILT BY THE CORKIANS IN THIS TOWER. I HAVE A SET OF SYSTEMS PROGRAMMED IN THIS DEVICE.", "ahunterscalling-teleportationmech-7", false);
+        addSound("[1/2] Corkus Guard: Bzzt... Hello World.NEW ENEMY REGISTERED: AVOS. Proceed with attack protocol- click.", "ahunterscalling-corkusguard-1", false);
+        addSound("[1/8] Teleportation Mech: BEGIN TRANSMISSION: YOUR JOB IS OVER, MECH PL-4Y. I HESITATE TO SAY YOU DID A GOOD JOB, BECAUSE THE JOB WAS ANYTHING BUT GOOD. IT WAS NECESSARY THOUGH.", "ahunterscalling-teleportationmech-8", false);
+        addSound("[5/8] Maxie: I knew it! It was such a longshot, but I knew the Factory still had to be at large! And now I have evidence to prove it, too!", "ahunterscalling-maxie-10", true);
+        addSound("[6/8] Maxie: This time we'll make sure you won't get another chance. I'll tell everyone what happened, and then we'll tear that factory down at the foundations!", "ahunterscalling-maxie-11", true);
+        addSound("[7/8] Maxie: You should've picked a more private meeting place! I'm out!", "ahunterscalling-maxie-12", true);
+        addSound("[8/8] Maxie: FREEZE!", "ahunterscalling-maxie-13", true);
+        addSound("[1/1] Maxie: Aah, you're fast! You caught up this quick?! I have no other choice...", "ahunterscalling-maxie-14", true);
+        addSound("[1/2] Maxie: You aren't going to stop me from getting to the battleground! You look like you were scrounged up from rust and verdigris!", "ahunterscalling-maxie-15", true);
+        addSound("[1/2] Maxie: You have defeated both of my most powerful creations... ", "ahunterscalling-maxie-16", true);
+        addSound("[1/1] Maxie: No... I... have to tell them.", "ahunterscalling-maxie-17", true);
+        addSound("???:: ...you harden your heart. There is no end, you think.", "ahunterscalling-gatekeeper-8", false);
+        addSound("[1/5] Bak'al: Detlas. What a foolish place for a central trading town, so close to the Roots.", "ahunterscalling-bakal-14", false);
+        addSound("[1/12] Aegis: Halt! Who goes there? Stop, in the name of the Detlas army!", "ahunterscalling-aegis-1", true);
+        addSound("[2/12] Aegis: Should you continue, you shall face the strength and courage of Admiral Aegis!", "ahunterscalling-aegis-2", true);
+        addSound("[3/12] Guard: Admiral?! It's Bak'al!", "ahunterscalling-guard-1", true);
+        addSound("[4/12] Aegis: We cannot back down against any foe! Chaaaarge!!", "ahunterscalling-aegis-3", true);
+        addSound("[5/12] Guard: ...r-reinforcements! Need reinforcements!", "ahunterscalling-guard-2", true);
+        addSound("[6/12] Bak'al: The strongest of Detlas' army is dead. The rest are hiding in fear. Detlas will fall.", "ahunterscalling-bakal-15", true);
+        addSound("[7/12] ???: Excuse me, I think you're forgetting someone.", "ahunterscalling-tasim-1", true);
+        addSound("[8/12] Bak'al: ...Fool. Run while you have the chance. ", "ahunterscalling-bakal-16", true);
+        addSound("[9/12] ???: Detlas will not fall today. We'll be making sure of that!", "ahunterscalling-aledar-1", true);
+        addSound("[10/12] Bak'al: We?", "ahunterscalling-bakal-17", true);
+        addSound("[11/12] Bak'al: Self-confident idiots. I won't even bother dealing with you two.", "ahunterscalling-bakal-18", true);
+        addSound("[12/12] Bak'al: Peon. Deal with this nonsense.", "ahunterscalling-bakal-19", true);
+        addSound("[1/7] Tasim: ...no sense screaming for the dead. But do you think I'm going to just give up like that?", "ahunterscalling-tasim-2", true);
+        addSound("[2/7] Bak'al: It would be easier on yourself to.", "ahunterscalling-bakal-20", true);
+        addSound("[3/7] Tasim: Hah. Didn't know corrupteds had a sense of humor, twisted as it might be.", "ahunterscalling-tasim-3", true);
+        addSound("[4/7] Tasim: I won't dare die while everything here is at stake. ", "ahunterscalling-tasim-4", true);
+        addSound("[5/7] Tasim: How's this, then, hm? Think your PEON can handle me at my strongest? ", "ahunterscalling-tasim-5", true);
+        addSound("[6/7] Bak'al: Yes. I do. A foolhardy show of power means nothing.", "ahunterscalling-bakal-21", true);
+        addSound("[7/7] Bak'al: Finish this.", "ahunterscalling-bakal-22", true);
+        addSound("[1/1] Tasim: I AM NOT GIVING UP!", "ahunterscalling-tasim-6", true);
+        addSound("[1/1] Tasim: Airforce! Drop the bomb!", "ahunterscalling-tasim-7", true);
+        addSound("[1/4] Aledar: TASIM! How the hell did you manage to kill him?!", "ahunterscalling-aledar-2", true);
+        addSound("[2/4] Bak'al: You take too much stock in your ability. My victory is inevitable.", "ahunterscalling-bakal-23", true);
+        addSound("[3/4] Aledar: I'll tear your guts out!!", "ahunterscalling-aledar-3", true);
+        addSound("[4/4] Bak'al: Your attention should be drawn to my peon. Now fall.", "ahunterscalling-bakal-24", true);
+        addSound("[1/1] Aledar: This isn't over! Once your little lackey's dead I'm coming after you!!", "ahunterscalling-aledar-4", true);
+        addSound("???:: And so, you have reached an end.", "ahunterscalling-gatekeeper-9", true);
+        addSound("???:: However. Though the change is irrevocable...", "ahunterscalling-gatekeeper-10", false);
 
 
 
@@ -4193,67 +4459,8 @@ public class SoundsHandler {
     }
 
 
-    private static SoundEvent registerSound(String name) {
-        ResourceLocation location = new ResourceLocation(ModCore.MODID, name);
-        SoundEvent event = new SoundEvent(location);
-        event.setRegistryName(name);
-        ForgeRegistries.SOUND_EVENTS.register(event);
-        return event;
-    }
-
-    private void addSound(String message, String name, boolean movingSound) {
-        message = formatToSound(message);
-        sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
-    }
-
-    public static String formatToSound(String message) {
-        message = getActualText(message);
-        message = message.toLowerCase();
-        message = message.replaceAll("[^abcdefghijklmnopqrstuvwxyz?!0123456789/]", "");
-        message = message.replace("iso95bf", "");
 
 
-        return message;
-    }
-
-    private static String getActualText(String message) {
-        if (message.contains("iso95bfiso95bf")) {
-
-            //Get the last sentence after the \n\n
-            String messageAfterDoubleSlashN = getTextAfterSplit(message, "iso95bfiso95bf");
-            messageAfterDoubleSlashN = messageAfterDoubleSlashN.trim();
-
-            //Checks if the message ends with Press SHIFT to continue\n
-            if (messageAfterDoubleSlashN.contains("Press SHIFT to continue")){
-                message = getTextSecondToLastInSplit(message, "iso95bfiso95bf");
-            }
-            //IF the message does not end with press shift to continue
-            else {
-                //Remove any \n that is remaining
-                message = messageAfterDoubleSlashN.replace("iso95bf", "");
-            }
-        }
-        return message;
-    }
-
-    public static String getTextAfterSplit(String message, String split) {
-        String[] splitMessage = message.split(split);
-        message = splitMessage[splitMessage.length - 1];
-        return message;
-    }
-
-    public static String getTextSecondToLastInSplit(String message, String split) {
-        String[] splitMessage = message.split(split);
-        if (splitMessage.length > 1) {
-            //Gets the second to last message inbetween the split
-            message = splitMessage[splitMessage.length - 2];
-
-
-        } else {
-            message = splitMessage[0];
-        }
-        return message;
-    }
 
 
 }

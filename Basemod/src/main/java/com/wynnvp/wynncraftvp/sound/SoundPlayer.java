@@ -11,19 +11,21 @@ import net.minecraft.util.math.BlockPos;
 import java.util.ArrayList;
 
 public class SoundPlayer {
-    private int delay = 60;
     private ArrayList<String> latestSoundPlayed;
+    private final LineReporter lineReporter;
 
     public SoundPlayer() {
         latestSoundPlayed = new ArrayList<>();
+        lineReporter = new LineReporter();
     }
 
     //Code that is run to play all the sounds
-    public void playSound(String line) {
-        ModCore modCore = ModCore.instance;
-        SoundsHandler soundsHandler = modCore.soundsHandler;
+    public void playSound(LineData lineData) {
+        String line = lineData.getSoundLine();
+        SoundsHandler soundsHandler = ModCore.instance.soundsHandler;
         if (!soundsHandler.sounds.containsKey(line)) {
-            System.out.println("Does not contain line: " + line);
+            System.out.println("Does not contain line: " + lineData.getRealLine());
+            lineReporter.MissingLine(lineData);
             return;
         }
         if (isOnCoolDown(line)) {
@@ -68,6 +70,5 @@ public class SoundPlayer {
     public void clearCoolDown() {
         latestSoundPlayed.clear();
     }
-
 
 }

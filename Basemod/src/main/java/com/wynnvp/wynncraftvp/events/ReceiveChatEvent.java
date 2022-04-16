@@ -1,7 +1,8 @@
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.sound.SoundsHandler;
+import com.wynnvp.wynncraftvp.sound.LineData;
+import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
@@ -22,8 +23,6 @@ public class ReceiveChatEvent {
     public static void receivedChat(ClientChatReceivedEvent event) {
         String msg = event.getMessage().getUnformattedText();
 
-        msg = msg.replace("\n", "iso95bf");
-
         //Replace player Name with "soldier"
         String name = GetPlayerName(event.getMessage().toString());
         if (msg.contains(name)) {
@@ -32,14 +31,14 @@ public class ReceiveChatEvent {
         }
 
 
-        msg = SoundsHandler.formatToSound(msg);
+        LineData lineData = LineFormatter.formatToLineData(msg);
         if (isInMixedFeelingsQuest()) {
-            String result = getMixedFeelingsLine(msg);
+            String result = getMixedFeelingsLine(lineData.getSoundLine());
             if (result != null) {
-                msg = result;
+                lineData.setSoundLine(result);
             }
         }
-        ModCore.instance.soundPlayer.playSound(msg);
+        ModCore.instance.soundPlayer.playSound(lineData);
     }
 
 
