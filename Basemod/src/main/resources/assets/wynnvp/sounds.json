@@ -1100,6 +1100,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-6", "stream": true}]
   },
+  "thesewersofragni-jenprest-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-7", "stream": true}]
+  },
+  "thesewersofragni-jenprest-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-8", "stream": true}]
+  },
+  "thesewersofragni-jenprest-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-9", "stream": true}]
+  },
   "thesewersofragni-questionmark-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thesewersofragni-questionmark-1", "stream": true}]

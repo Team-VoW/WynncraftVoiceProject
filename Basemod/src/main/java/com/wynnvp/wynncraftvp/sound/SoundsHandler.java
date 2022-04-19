@@ -989,7 +989,7 @@ public class SoundsHandler {
         addSound("[1/7] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrother-therck-2", false);
         addSound("[1/5] Enzan: I see you want to venture into the wilderness!", "enzansbrother-enzan-1", false);
         addSound("[1/2] Enzan: What are you waiting for?", "enzansbrother-enzan-2", false);
-        addSound("[1/1] Enzan: Hey there! Still doing well after all this time?", "enzansbrother-enzan-2", false);
+        addSound("[1/1] Enzan: Hey there! Still doing well after all this time?", "enzansbrother-enzan-3", false);
 
         //Reincarnation
         addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", true);
@@ -1072,6 +1072,9 @@ public class SoundsHandler {
         addSound("[1/3] Jenprest: Ah, you're alive! Looks like we underestimated the amount of sewage.", "thesewersofragni-jenprest-4", false);
         addSound("[1/1] Jenprest: Oh no, oh no no no! Did you just open that? Come here immediately.", "thesewersofragni-jenprest-5", true);
         addSound("[1/6] Jenprest: Oh no...", "thesewersofragni-jenprest-6", false);
+        addSound("[1/1] Jenprest: The sewer entrance is just right of the big gate. I'll meet you there.", "thesewersofragni-jenprest-7", false);
+        addSound("[1/1] Jenprest: I fear we face a much worse enemy than a blocked drain..", "thesewersofragni-jenprest-8", false);
+        addSound("[1/2] Jenprest: Hello, I am a lieutenant in the Ragni army. I have a job for you soldier.", "thesewersofragni-jenprest-9", false);
         addSound("[1/1] ???: Release me...", "thesewersofragni-questionmark-1", false);
 
         //Decrepit Sewers
