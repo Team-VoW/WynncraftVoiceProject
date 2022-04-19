@@ -988,6 +988,8 @@ public class SoundsHandler {
         addSound("[1/6] Therck: Excuse me? Can't you see I'm busy?", "enzansbrother-therck-1", false);
         addSound("[1/7] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrother-therck-2", false);
         addSound("[1/5] Enzan: I see you want to venture into the wilderness!", "enzansbrother-enzan-1", false);
+        addSound("[1/2] Enzan: What are you waiting for?", "enzansbrother-enzan-2", false);
+        addSound("[1/1] Enzan: Hey there! Still doing well after all this time?", "enzansbrother-enzan-2", false);
 
         //Reincarnation
         addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", true);

@@ -744,6 +744,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enzansbrother-enzan-1", "stream": true}]
   },
+  "enzansbrother-enzan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-enzan-2", "stream": true}]
+  },
+  "enzansbrother-enzan-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-enzan-3", "stream": true}]
+  },
   "enzansbrother-therck-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enzansbrother-therck-1", "stream": true}]
