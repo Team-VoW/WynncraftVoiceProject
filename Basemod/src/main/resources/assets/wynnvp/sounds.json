@@ -738,6 +738,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestedplants-ope-2", "stream": true}]
   },
+  "infestedplants-ope-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-3", "stream": true}]
+  },
+  "infestedplants-ope-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-4", "stream": true}]
+  },
 
 
   "enzansbrother-enzan-1": {

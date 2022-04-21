@@ -983,6 +983,8 @@ public class SoundsHandler {
         //Infested Plants
         addSound("[1/5] Ope: Hello! Young traveler.", "infestedplants-ope-1", false);
         addSound("[1/3] Ope: I've literally been sitting here for hours, maybe not hours, at least five minutes!", "infestedplants-ope-2", false);
+        addSound("[1/2] Ope: Hey you! I was attacked by a spider just now.", "infestedplants-ope-3", false);
+        addSound("[1/1] Ope: Thank you again for your help!", "infestedplants-ope-4", false);
 
         //Enzans Brother
         addSound("[1/6] Therck: Excuse me? Can't you see I'm busy?", "enzansbrother-therck-1", false);
