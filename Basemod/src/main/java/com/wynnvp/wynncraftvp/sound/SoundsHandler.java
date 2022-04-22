@@ -4459,6 +4459,41 @@ public class SoundsHandler {
         addSound("???:: And so, you have reached an end.", "ahunterscalling-gatekeeper-9", true);
         addSound("???:: However. Though the change is irrevocable...", "ahunterscalling-gatekeeper-10", false);
 
+        //fallen factory
+        addSound("[1/2] ????: ARE YOU INCAPABLE OF READING THE SIGN ON THE DOOR? THE FACTORY IS CLOSED. WE ARE NOT ACCEPTING VISITORS FOR TOURS RIGHT NOW.", "fallenfactory-antikytherasupercomputer-1", true);
+        addSound("[1/2] ????: FINE. I'M OPENING THE DOOR FOR YOU. TAKE A SHORT LOOK AROUND AND THEN LEAVE. THERE IS DANGEROUS EQUIPMENT HERE THAT ONLY OFFICIAL FACTORY ASSOCIATES SHOULD HANDLE.", "fallenfactory-antikytherasupercomputer-2", true);
+        addSound("[1/2] ????: OF COURSE, IF YOU ARE DEAD THEN THERE IS NO WAY FOR YOU TO TOUCH ANYTHING, AND MY ROBOTS ARE VERY GOOD CLEANERS, SO I THINK THIS NEW SOLUTION WILL WORK OUT FOR EVERYONE.", "fallenfactory-antikytherasupercomputer-3", true);
+        addSound("[1/1] ????: Unauthorized blockage in Factory Sector A2. Emergency maintenance will be performed in approximately 75 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared.", "fallenfactory-antikytherasupercomputer-4", true);
+        addSound("[1/1] ????: Blockage in Factory Sector A2 is now clear. All regularly scheduled workers, please return to your posts immediately.", "fallenfactory-antikytherasupercomputer-6", true);
+        addSound("[1/2] ????: WELL. DON'T YOU JUST FEEL SO PROUD OF YOURSELF. I DON'T KNOW WHAT YOU EXPECT TO ACCOMPLISH BY CRAWLING THROUGH THE VENTS. EXCEPT A FACE FULL OF HOT FUMES FROM THE FURNACE.", "fallenfactory-antikytherasupercomputer-7", true);
+        addSound("[1/4] ????: Activating Main Production Line.", "fallenfactory-antikytherasupercomputer-8", true);
+        addSound("[2/4] ????: SINCE YOU SEEM TO BE INSISTENT ON STAYING, PERHAPS YOU WOULD BE INTERESTED IN TAKING A LOOK AT SOME OF THE MACHINERY CLOSE UP", "fallenfactory-antikytherasupercomputer-9", true);
+        addSound("[1/1] ????: IF I WERE YOU, NOW WOULD BE A GOOD TIME TO RUN.", "fallenfactory-antikytherasupercomputer-10", true);
+        addSound("[1/1] ????: I'VE HAD ENOUGH OF YOU.", "fallenfactory-antikytherasupercomputer-11", true);
+        addSound("[1/4] ????: THAT WAS A LIE. I'M ACTUALLY STARTING TO ENJOY THIS", "fallenfactory-antikytherasupercomputer-12", true);
+        addSound("[1/2] ????: YOU KNOW, THERE ISN'T A WAY FOR YOU TO GO FORWARD HERE. I COULD JUST KEEP THE DOOR LOCKED UNTIL YOU DROP FROM HUNGER.", "fallenfactory-antikytherasupercomputer-13", true);
+        addSound("[1/2] ????: WHOOPSIE-DOODLES. MY METAPHORICAL FINGER SLIPPED. AND BY THAT I MEAN I CLOSED THE DOOR MANUALLY.", "fallenfactory-antikytherasupercomputer-14", true);
+        addSound("[1/3] ????: Unexpected breach of locked door in Factory Sector 3A. Hastily-applied repairs due in approximately 30 seconds.", "fallenfactory-antikytherasupercomputer-15", true);
+        addSound("[1/2] ????: DO NOT TOUCH THAT BUTTON. YES, THE BIG SHINY ONE IN THE ROOM. IT WILL TURN ON THE POWER TO THE CLOCK TOWER MECHANISMS.", "fallenfactory-antikytherasupercomputer-16", true);
+        addSound("[1/4] ????: Activating Antikythera Clockwork Mechanism. All regularly scheduled workers, please evacuate the room immediately at risk of severe bodily harm and death.", "fallenfactory-antikytherasupercomputer-17", true);
+        addSound("[1/3] Antikythera Supercomputer: YOU KNOW, YOU COULD SPARE ME A LOT OF TROUBLE IF YOU JUST GAVE UP WHAT YOU'RE DOING FOREVER. IT WOULD MOST LIKELY SPARE A LOT OF PEOPLE A LOT OF TROUBLE, ACTUALLY.", "fallenfactory-antikytherasupercomputer-18", true);
+        addSound("[1/3] Antikythera Supercomputer: I SEE MY PERSUASIVE SKILLS HAVE NOT MOVED YOU. I THINK I'LL TRY AGAIN IN A LANGUAGE YOU SEEM TO KNOW INTIMATELY.", "fallenfactory-antikytherasupercomputer-19", true);
+        addSound("[1/3] ????: Unauthorized blockage in Factory Sector E1. Emergency maintenance will be performed in approximately 75 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared.", "fallenfactory-antikytherasupercomputer-20", true);
+        addSound("[1/1] Antikythera Supercomputer: WELL THEN. EVEN THOUGH YOU GOT THROUGH THERE, YOU'LL BE SURPRISED TO KNOW I STILL HAVE ONE LAST LINE OF DEFENSE. I DOUBT EVEN YOU CAN GET PAST IT.", "fallenfactory-antikytherasupercomputer-21", true);
+        addSound("[1/3] Antikythera Supercomputer: IF YOU ARE REALLY SO DESPERATE TO GET AT ME, THE KEY TO THE DOOR IS IN THIS PUPPY. EVEN SEEING YOUR ACTIONS THROUGHOUT THE REST OF MY FACTORY, I HAVE FAITH YOU WON'T KILL IT", "fallenfactory-antikytherasupercomputer-22", true);
+        addSound("[1/4] Antikythera Supercomputer: WELL. WELL WELL WELL. WELL WELL WELL WELLY WELL WELL. I AM HONESTLY SHOCKED. REALLY, I AM. I TRULY STILL HAD SOME FAITH IN HUMANS. BEFORE YOU SHOWED UP.", "fallenfactory-antikytherasupercomputer-23", true);
+        addSound("[1/3] Antikythera Supercomputer: THAT TRICK WON'T WORK, YOU KNOW. THERE'S NO VITAL PART OR DUCT ABOVE THERE TO ENTER. WHAT DID YOU HOPE TO ACCOMPLISH?", "fallenfactory-antikytherasupercomputer-24", true);
+        addSound("[1/2] Antikythera Core A: Oh, heya doc. Lemme tell ya, weirdest thing! Some bozo just ran up and shoved a bunch of scrap metal in my vent-", "fallenfactory-antikytherasupercomputer-25", true);
+        addSound("[1/2] Antikythera Supercomputer: YOU'VE QUICKLY BECOME NO LONGER ENTERTAINING TO WATCH. YOU REALLY SHOULDN'T GO IN THERE.", "fallenfactory-antikytherasupercomputer-26", true);
+        addSound("[1/2] Antikythera Core B: Unauthorized personnel detected in Antikythera Auxiliary Core Duct B. Leave immediately, or be faced with lethal force and negative marks on your career record.", "fallenfactory-antikytherasupercomputer-27", true);
+        addSound("[1/1] Antikythera Supercomputer: Primary ventilation duct A unblocked. Closing emergency maintenance hatch.", "fallenfactory-antikytherasupercomputer-28", true);
+        addSound("[1/3] Antikythera Supercomputer: THAT IS EXTREMELY ANNOYING, CONSTANTLY CLEANING UP AFTER YOU. THERE ARE FAR MORE EFFICIENT WAYS OF DISPOSING OF SCRAP METAL AND UNNEEDED WASTE", "fallenfactory-antikytherasupercomputer-29", true);
+        addSound("[1/1] Antikythera Supercomputer: YOUR DESTRUCTIVE TENDENCIES KNOW NO BOUNDS. FIRST A DOOR. THEN A GRATE. THEN MY MONITOR. I'M SURPRISED YOU DIDN'T JUST THROW A MATCH AT THE FACTORY DOOR.", "fallenfactory-antikytherasupercomputer-30", true);
+        addSound("[1/2] Antikythera Supercomputer: Antikythera Firewall Pass A accepted. Access granted. Please present Antikythera Firewall Pass B at the next checkpoint.", "fallenfactory-antikytherasupercomputer-31", true);
+        addSound("[1/3] Antikythera Supercomputer: Antikythera Firewall Pass B accepted. Access granted. Welcome, Cerid. You may now enter the Antikythera Main Core Chamber.", "fallenfactory-antikytherasupercomputer-32", true);
+        addSound("[1/1] Antikythera Main Core: SO YOU FOUND ME. CONGRATULATIONS. NOW PLEASE KINDLY LAY DOWN IN A CIRCUIT AND PRETEND TO BE A CONDUCTOR UNTIL YOUR BODY'S VITAL PROCESSES PERMANENTLY SHUT DOWN.", "fallenfactory-antikytherasupercomputer-33", true);
+
+
 
 
         //Non quest npc

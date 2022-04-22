@@ -25,6 +25,9 @@ public class ReceiveChatEvent {
 
         //Replace player Name with "soldier"
         String name = GetPlayerName(event.getMessage().toString());
+
+        System.out.println("Name: " + event.getMessage().toString() + " gotten from: " + event.getMessage().toString());
+
         if (msg.contains(name)) {
             msg = msg.replace(name, "soldier");
             System.out.println("Replaced player name!");
