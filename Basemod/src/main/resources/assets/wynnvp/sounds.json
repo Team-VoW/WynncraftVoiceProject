@@ -13342,6 +13342,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:nexusoflight-orphion-10", "stream": true}]
   },
+  "nexusoflight-orphion-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nexusoflight-orphion-11", "stream": true}]
+  },
 
 
 

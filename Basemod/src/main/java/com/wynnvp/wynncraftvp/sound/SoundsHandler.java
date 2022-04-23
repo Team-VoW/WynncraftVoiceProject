@@ -2451,6 +2451,7 @@ public class SoundsHandler {
         addSound("7/10orphionthedarkhaspowerunknownitdidnotbeforethroughthispoweritsshadowsreachedtome", "nexusoflight-orphion-8", true);
         addSound("9/10orphionrestnowmypulseandprepareforthereisanotherforcewhoyoumustbringtopeace", "nexusoflight-orphion-9", true);
         addSound("10/10orphion", "nexusoflight-orphion-10", true);
+        addSound("[1/2] Orphion: Enough. My gratefulness does not exceed my patience. Let this act as a warning, my pulse.", "nexusoflight-orphion-11", false);
 
         //Lost Tower
         addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);
