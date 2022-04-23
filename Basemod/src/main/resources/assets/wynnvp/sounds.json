@@ -9151,6 +9151,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart1-avoschief-7", "stream": true}]
   },
+  "thefeathersflypart1-avoschief-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart1-avoschief-8", "stream": true}]
+  },
   "thefeathersflypart1-avoschieftain-6": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart1-avoschieftain-6", "stream": true}]

@@ -2847,7 +2847,7 @@ public class SoundsHandler {
         addSound("[5/5] Avos Chieftain: You're in luck, I'm in a good mood. Follow me then.", "thefeathersflypart1-avoschieftain-5", true);
         addSound("[1/2] Avos Chief: Ah, history first! Great, great!", "thefeathersflypart1-avoschief-1", true);
         addSound("[1/2] Avos Chief: Gah! You startled me!", "thefeathersflypart1-avoschief-2", true);
-        addSound("[1/3] Avos Chief: Ah, our wisteria tree! Yes...", "thefeathersflypart1-avoschief-3", true);
+        addSound("[1/3] Avos Chief: Ah, eager to see our wisteria tree!", "thefeathersflypart1-avoschief-3", true);
         addSound("[1/2] Avos Chief: Oh, this is quite the important tome.", "thefeathersflypart1-avoschief-4", true);
         addSound("[1/2] Avos Chief: Right, the feathery crate!", "thefeathersflypart1-avoschief-5", true);
         addSound("[1/1] Avos Chieftain: What was that?! I'll check.", "thefeathersflypart1-avoschieftain-6", true);
@@ -3037,6 +3037,7 @@ public class SoundsHandler {
         addSound("[1/3] Ava: We'll, uh, act as if nothing happened.", "thefeathersflypart1-ava-149", true);
         addSound("[1/2] Avos Chief: Hey, would you listen to me?", "thefeathersflypart1-avoschief-7", true);
         addSound("[2/3] Avos Chieftain: Is that another broken machine?", "thefeathersflypart1-avoschieftain-40", true);
+        addSound("[1/1] Avos Chieftain: Just show me what you're interested about.", "thefeathersflypart1-avoschief-8", true);
 
         //The Bigger Picture
         addSound("[1/6] Psilo: Welcome, large human! What's that look for, never seen a Gnome before?! My house may look small, but it's perfect for me!", "thebiggerpicture-psilo-1", false);
