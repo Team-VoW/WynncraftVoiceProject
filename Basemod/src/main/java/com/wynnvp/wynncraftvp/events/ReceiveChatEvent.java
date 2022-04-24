@@ -26,8 +26,6 @@ public class ReceiveChatEvent {
         //Replace player Name with "soldier"
         String name = GetPlayerName(event.getMessage().toString());
 
-        System.out.println("Name: " + event.getMessage().toString() + " gotten from: " + event.getMessage().toString());
-
         if (msg.contains(name)) {
             msg = msg.replace(name, "soldier");
             System.out.println("Replaced player name!");
@@ -85,10 +83,11 @@ public class ReceiveChatEvent {
     }
 
 
-    private static String GetPlayerName(String message) {
-        String segments[] = message.split("hoverEvent=HoverEvent\\{action=SHOW_TEXT, value='TextComponent\\{text='");
+    private static String GetPlayerName(String eventMessageToString) {
+        String segments[] = eventMessageToString.split("hoverEvent=HoverEvent\\{action=SHOW_TEXT, value='TextComponent\\{text='");
         if (segments.length <= 1) return Minecraft.getMinecraft().player.getDisplayNameString();
-        String name = segments[segments.length - 1].split(" ")[0];
+
+        String name = segments[segments.length - 1].split("',")[0];
         if (name.contains("Previous")) return Minecraft.getMinecraft().player.getDisplayNameString();
         return name.split("'")[0];
     }
