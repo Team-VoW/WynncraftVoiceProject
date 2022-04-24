@@ -1062,6 +1062,9 @@ public class SoundsHandler {
         //Cook Assistant
         addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant-thecook-1", false);
         addSound("[1/3] The Cook: Great! You got all the ingredients!", "cookassistant-thecook-2", false);
+        addSound("[1/2] The Cook: I urgently need help! But you aren't experienced enough to help me, yet.\n", "cookassistant-thecook-3", false);
+        addSound("[1/4] The Cook: I still need [2 Eggs], [1 Bucket of Milk] and [3 Wheat Grains].", "cookassistant-thecook-4", false);
+        addSound("[1/1] The Cook: You should practive your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-5", false);
 
         //Clearing the Camps
         addSound("[1/6] Captain Kymer: Aha, another Ragni soldier, eh? Well, a warm welcome to you.", "clearingthecamps-kymer-1", false);

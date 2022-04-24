@@ -1072,6 +1072,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cookassistant-thecook-2", "stream": true}]
   },
+  "cookassistant-thecook-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-3", "stream": true}]
+  },
+  "cookassistant-thecook-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-4", "stream": true}]
+  },
+  "cookassistant-thecook-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-5", "stream": true}]
+  },
 
 
   "clearingthecamps-kymer-1": {
