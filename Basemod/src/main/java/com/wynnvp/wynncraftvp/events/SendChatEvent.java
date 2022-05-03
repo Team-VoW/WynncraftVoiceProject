@@ -30,7 +30,7 @@ public class SendChatEvent {
                 return;
             case "/togglelogging":
                 ConfigHandler.setLogMissingLines(!ConfigHandler.logMissingLines);
-                SendClientChatMessage("§bSet log misslines lines mode to §e" + ConfigHandler.logMissingLines);
+                SendClientChatMessage("§4 §e" + ConfigHandler.logMissingLines);
                 event.setCanceled(true);
                 return;
         }
