@@ -1801,8 +1801,8 @@ public class SoundsHandler {
         addSound("[1/1] Ariodo: The ground is shaking... I thought that was supposed to happen later! Come back friend, I can't do this alone!", "outofmymind-ariodo-6", true);
         addSound("[1/3] Ariodo: Help me keep this door shut, or else my surprise will be ruined!", "outofmymind-ariodo-7", true);
         addSound("[1/8] Ariodo: Oh my, a ghost? Wait, is this just you, my trusty friend, playing a prank on me? No? Well that certainly is a problem!", "outofmymind-ariodo-8", true);
-        addSound("1/22ariodoryoureback!tobequitehonestididntthinkthatwouldworkbutimgladitdid!", "outofmymind-ariodo-9", true);
-        addSound("1/32ariodorohnonothisisnotgood!ifihadknownthatmylittlepethasgrownsomuchiwouldhaverushedyououtsoonernowitiswilted", "outofmymind-ariodo-10", false);
+        addSound("[1/2] Ariodo: You're back! To be quite honest, I didn't think that would work, but I'm glad it did!", "outofmymind-ariodo-9", true);
+        addSound("§7[1/3] §2Ariodo:§r Oh no no, this is not good! If I had known that my little pet has grown so much I would have rushed you out sooner. Now it is wilted...", "outofmymind-ariodo-10", false);
         addSound("[1/11] Todd: You're back! You were gone for ages too, and what happened to your head? Who did the mystery man turn out to be?", "outofmymind-todd-5", false);
         addSound("[2/11] Viola: That sounds ridiculous! Who could ever belie-", "outofmymind-viola-3", false);
         addSound("[3/11] Prentiss: Wow that sounded just like in the stories, but it came from you, so it must be true!", "outofmymind-prentiss-5", false);
