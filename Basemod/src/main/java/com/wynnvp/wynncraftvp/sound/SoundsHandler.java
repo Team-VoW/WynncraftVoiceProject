@@ -442,6 +442,9 @@ public class SoundsHandler {
         addSound("[1/10] Thomas: I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion merchant to heal you?", "creeperinfiltration-thomas-2", false);
         addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "creeperinfiltration-thomas-3", false);
         addSound("[1/7] Thomas: So, what was in the cave? Were there really creepers in there?", "creeperinfiltration-thomas-4", false);
+        addSound("[1/1] Thomas: Our village needs a bit of help, but you look a bit weak for the job. Come back once you're level 15, and then you might be able to help.", "creeperinfiltration-thomas-5", false);
+        addSound("[1/1] Thomas: I see you've come back, but you don't have what I asked for. I can't do anything until you fulfill your task.", "creeperinfiltration-thomas-6", false);
+        addSound("[1/1] Thomas: Thanks again for your help. Now we can truly say creepers exist here in the ravines.", "creeperinfiltration-thomas-7", false);
 
         //Point of no return
         addSound("[1/5] Lutho Citizen: Wait... It can't be. Look me in the eyes. You're human, like me.", "pointofnoreturn-luthocitizen-1", false);

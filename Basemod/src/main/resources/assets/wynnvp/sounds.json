@@ -415,6 +415,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-4", "stream": true}]
   },
+  "creeperinfiltration-thomas-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-5", "stream": true}]
+  },
+  "creeperinfiltration-thomas-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-6", "stream": true}]
+  },
+  "creeperinfiltration-thomas-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-7", "stream": true}]
+  },
 
 
   "malticwell-child-1": {
