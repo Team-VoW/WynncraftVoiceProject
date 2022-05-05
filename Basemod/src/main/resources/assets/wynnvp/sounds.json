@@ -9963,6 +9963,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cropfailure-doubiss-2", "stream": true}]
   },
+  "cropfailure-doubiss-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-3", "stream": true}]
+  },
   "cropfailure-anast-11": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cropfailure-anast-11", "stream": true}]

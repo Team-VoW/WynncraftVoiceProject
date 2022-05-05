@@ -932,7 +932,7 @@ public class SoundsHandler {
 
         //Wynn Excavation site B
         addSound("[1/1] Flendar: We know what you stole from us in the desert! Take THIS! You won't be escaping this dead end any time soon!", "wynnexcvationb-flendar-1", true);
-        addSound("[1/6] Excavator Lykron: Good day! You're the person that helped us out in the desert aren't you? Excellent! Just the person I need! Can you help me out with a problem I have?", "wynnexcvationb-lykron-2", false);
+        addSound("[1/6] Excavator Lykron: Good day! You're the person that helped us out in the desert aren't you? Excellent! Just the person I need! Can you help me out with a problem I have?", "wynnexcvationb-lykron-1", false);
         addSound("[1/5] Excavator Lykron: I have to admit, I'm impressed. I genuinely thought our plan would be successful. Who knew that dead end had a secret exit.", "wynnexcvationb-lykron-2", false);
         addSound("[1/7] WynnExcavation Archaeologist: Baffling... What a puzzling situation I am in...", "wynnexcvationb-archaeologist-1", false);
 
@@ -3111,6 +3111,7 @@ public class SoundsHandler {
         addSound("[1/10] Doubiss: Good day to ya! What is it ye be needin' from ol' Doubiss' stock? ", "cropfailure-doubiss-1", false);
         addSound("[1/5] Doubiss: Oi, bucko! Took my advice, eh? I figured I'd join ye, 'n see fer myself what was goin' on.", "cropfailure-doubiss-2", false);
         addSound("[1/8] Anast: Pyyyyeww! Yeesh, kid! You smell worse than a pig's sty! What the heck happened to you, where've you been?!", "cropfailure-anast-11", false);
+        addSound("[1/1] Doubiss: Ah, good day to ya! What is it ye be needin' from ol' Doubiss' stock?", "cropfailure-doubiss-3", false);
 
         //Stable Story
         addSound("[1/9] Enkser: Looking for able-bodied adventurers! Preferably with no friends or family, but I'm not picky!", "stablestory-enkser-1", false);
