@@ -1065,9 +1065,9 @@ public class SoundsHandler {
         //Cook Assistant
         addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant-thecook-1", false);
         addSound("[1/3] The Cook: Great! You got all the ingredients!", "cookassistant-thecook-2", false);
-        addSound("[1/2] The Cook: I urgently need help! But you aren't experienced enough to help me, yet.\n", "cookassistant-thecook-3", false);
+        addSound("[1/2] The Cook: I urgently need help! But you aren't experienced enough to help me, yet.", "cookassistant-thecook-3", false);
         addSound("[1/4] The Cook: I still need [2 Eggs], [1 Bucket of Milk] and [3 Wheat Grains].", "cookassistant-thecook-4", false);
-        addSound("[1/1] The Cook: You should practive your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-5", false);
+        addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-5", false);
 
         //Clearing the Camps
         addSound("[1/6] Captain Kymer: Aha, another Ragni soldier, eh? Well, a warm welcome to you.", "clearingthecamps-kymer-1", false);
@@ -3647,7 +3647,7 @@ public class SoundsHandler {
 
         //Shattered Minds
         addSound("[1/6] Likeru: Aha, perfect! You'll be perfect! Lucky a human decided to come here!", "shatteredminds-likeru-1", false);
-        addSound("[1/5] ???: Looks like someone rolled about the air fuzz too much, so indeed hello! A light hello to yourself, soldier, and a greetings to Professor Eih, which is me!", "shatteredminds-professoreih-1", false);
+        addSound("[1/5] ???: Looks like someone rolled about the air fuzz too much, so indeed hello! A light hello to yourself, soldier Questing, and a greetings to Professor Eih, which is me!", "shatteredminds-professoreih-1", false);
         addSound("[1/3] Professor Eih: The punks scramble like eggs, and your skillet is sizzling! Certainly the heat in the kitchen is too much- so where is the fire extinguisher?", "shatteredminds-professoreih-2", false);
         addSound("[1/1] Professor Eih: Swish and sproont! Or is it the other way around? The moon shoes will help too!", "shatteredminds-professoreih-3", false);
         addSound("[1/5] Professor Eih: The colors! Shimmering as a prism- oh, no one likes those things. The writing is on the wall, but the window mugs it for pocket change! The inhumanity!", "shatteredminds-professoreih-4", false);

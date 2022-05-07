@@ -8,7 +8,6 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.CompletableFuture;
@@ -42,7 +41,7 @@ public class LineReporter {
                 System.out.println("Unvoiced line report has been sent to our servers. This contained: " + lineData.getRealLine());
             } catch (IOException e) {
                 e.printStackTrace();
-                System.out.println("An report of unvoiced line couldn't be sent. Error code should be right above this message.");
+                System.out.println("A report of unvoiced line couldn't be sent. Error code should be right above this message.");
             }
         });
     }
@@ -51,7 +50,7 @@ public class LineReporter {
     private void reportUnvoicedLine(LineData lineData) throws IOException {
 
         String npcName = lineData.getNPCName();
-        String name = Minecraft.getMinecraft().player.getName();
+        String name = ConfigHandler.anonymous ? "anonymous" : Minecraft.getMinecraft().player.getName();
         String fullLine = lineData.getRealLine();
         int CoordX = (int) Minecraft.getMinecraft().player.posX;
         int CoordY = (int) Minecraft.getMinecraft().player.posY;
@@ -64,7 +63,7 @@ public class LineReporter {
         connection.setRequestProperty("User-Agent", "VoicesOfWynnModClient");
         connection.setDoOutput(true);
         DataOutputStream outputStream = new DataOutputStream(connection.getOutputStream());
-        String urlPostParameters = "npc=" + npcName + "&player=" + name + "&full=" + fullLine + "&x=" + CoordX + "&y=" + CoordY + "&z=" + CoordZ + "&apiKey=" + ConfigHandler.apiKey;
+        String urlPostParameters = "npc=" + npcName + "&player=" + name + "&full=" + fullLine + "&x=" + CoordX + "&y=" + CoordY + "&z=" + CoordZ + "&apiKey=" + ConfigHandler.word;
         outputStream.writeBytes(urlPostParameters);
         outputStream.flush();
         outputStream.close();
