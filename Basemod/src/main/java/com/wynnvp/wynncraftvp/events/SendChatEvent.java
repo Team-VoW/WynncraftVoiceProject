@@ -35,7 +35,7 @@ public class SendChatEvent {
                 return;
             case "/toggle logging":
                 Timer timer = new Timer();
-                timer.schedule(new openGui(), 1);
+                timer.schedule(new openGui(), 100);
                 event.setCanceled(true);
         }
     }
