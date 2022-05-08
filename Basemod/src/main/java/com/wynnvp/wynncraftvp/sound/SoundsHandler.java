@@ -3115,6 +3115,8 @@ public class SoundsHandler {
         addSound("[1/5] Doubiss: Oi, bucko! Took my advice, eh? I figured I'd join ye, 'n see fer myself what was goin' on.", "cropfailure-doubiss-2", false);
         addSound("[1/8] Anast: Pyyyyeww! Yeesh, kid! You smell worse than a pig's sty! What the heck happened to you, where've you been?!", "cropfailure-anast-11", false);
         addSound("[1/1] Doubiss: Ah, good day to ya! What is it ye be needin' from ol' Doubiss' stock?", "cropfailure-doubiss-3", false);
+        addSound("[1/2] Doubiss: The little cave on the hill, by the crypts? That's the one leadin' to the water table under here.", "cropfailure-doubiss-4", false);
+        addSound("[1/1] Doubiss: Well, glad I can start sellin' again without him shoutin' \"Fraud! Con! Cheat!\" in the distance! Thanks fer that, mate.", "cropfailure-doubiss-5", false);
 
         //Stable Story
         addSound("[1/9] Enkser: Looking for able-bodied adventurers! Preferably with no friends or family, but I'm not picky!", "stablestory-enkser-1", false);
