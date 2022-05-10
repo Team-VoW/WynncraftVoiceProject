@@ -1594,7 +1594,7 @@ public class SoundsHandler {
         addSound("[1/6] Scout: Grr... I KNOW I saw that beast go in here, where the hell is it?!?!", "tempotowntrouble-dougthescout-1", false);
         addSound("[1/8] Homeless Mayor: Hello there. Welcome to the recently made Tempo Town, friend.", "tempotowntrouble-homelessmayor-1", false);
         addSound("[1/9] Homeless Mayor: Hello there, welcome to the recently- IS THE MONSTER DEAD?! DID YOU KILL IT???", "tempotowntrouble-homelessmayor-2", false);
-        addSound("1/13oldmanmartynwhatwasgoingthroughyournogginsoldier?", "tempotowntrouble-oldmanmartyn-1", false);
+        addSound("[1/12] Old Man Martyn: What was going through your noggin, soldier?", "tempotowntrouble-oldmanmartyn-1", false);
         addSound("[1/8] Tyko: Hello??? EXCUSE ME, CAN ANYONE HERE HELP ME? ANYONE?!?!", "tempotowntrouble-tyko-1", false);
 
         //Green gloop
@@ -4509,6 +4509,8 @@ public class SoundsHandler {
 
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
+        addSound("[1/4] Ragni Guard: Welcome to Ragni, new recruit. How's Fruma these days? Ah right, directions.", "nonquestnpc-mainragniguard-1", false);
+        addSound("[1/2] Ragni Guard: Welcome back, I suppose you're a Wynn citizen now. I've heard quite a few things about your deeds throughout the province.", "nonquestnpc-mainragniguard-2", false);
     }
 
 
