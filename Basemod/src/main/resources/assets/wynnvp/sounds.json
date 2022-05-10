@@ -17086,6 +17086,14 @@
   "nonquestnpc-vanguardvan-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:nonquestnpc-vanguardvan-1", "stream": true}]
+  },
+  "nonquestnpc-mainragniguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nonquestnpc-mainragniguard-1", "stream": true}]
+  },
+  "nonquestnpc-mainragniguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nonquestnpc-mainragniguard-2", "stream": true}]
   }
 
 
