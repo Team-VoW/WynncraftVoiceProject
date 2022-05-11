@@ -2428,7 +2428,7 @@ public class SoundsHandler {
         addSound("[3/9] Bak'al: Weaklings. You will not interfere.", "rol5therealmoflight-bakal-1", true);
         addSound("[4/9] Lari: Interfere?! You're one of the dark!", "rol5therealmoflight-lari-72", true);
         addSound("[5/9] Bak'al: You. Elf girl. You are to be eliminated.", "rol5therealmoflight-bakal-2", true);
-        addSound("[6/9] Lari: You're the one trespassing in realms not your own!", "rol5therealmoflight-lari-73", true);
+        addSound("[6/9] Lari: You're the one trespas sing in realms not your own!", "rol5therealmoflight-lari-73", true);
         addSound("[7/9] Bak'al: Fool. The Beast quakes with our influence. This land is ours.", "rol5therealmoflight-bakal-3", true);
         addSound("[8/9] Lari: soldier. I think. I found someone. Who deserves to be killed. Help me out?", "rol5therealmoflight-lari-74", true);
         addSound("[9/9] Bak'al: I will not waste my time with that specimen. Now. Face death.", "rol5therealmoflight-bakal-4", true);
