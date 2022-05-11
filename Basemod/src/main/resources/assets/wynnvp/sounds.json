@@ -2422,6 +2422,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-1", "stream": true}]
   },
+  "tempotowntrouble-homelessmayor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-3", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-4", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-5", "stream": true}]
+  },
 
 
   "themercenary-takan-1": {

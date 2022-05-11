@@ -1596,6 +1596,9 @@ public class SoundsHandler {
         addSound("[1/9] Homeless Mayor: Hello there, welcome to the recently- IS THE MONSTER DEAD?! DID YOU KILL IT???", "tempotowntrouble-homelessmayor-2", false);
         addSound("[1/12] Old Man Martyn: What was going through your noggin, soldier?", "tempotowntrouble-oldmanmartyn-1", false);
         addSound("[1/8] Tyko: Hello??? EXCUSE ME, CAN ANYONE HERE HELP ME? ANYONE?!?!", "tempotowntrouble-tyko-1", false);
+        addSound("[1/2] Homeless Mayor: Hello there. Welcome to the recently made Tempo Town, friend.", "tempotowntrouble-homelessmayor-3", false);
+        addSound("[1/1] Homeless Mayor: Please, go take care of that monster as soon as possible! It's in the ruins, the location is in your quest book.", "tempotowntrouble-homelessmayor-4", false);
+        addSound("[1/1] Homeless Mayor: Oh hey, it's you! I hope you've been keeping those Time Troubles at bay.", "tempotowntrouble-homelessmayor-5", false);
 
         //Green gloop
         addSound("[1/9] Eluzterp: Oh, hey! You, adventurer over there! Would you mind helping me?", "greengloop-eluzterp-1", false);
