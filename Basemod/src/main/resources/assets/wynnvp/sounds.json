@@ -691,6 +691,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wynnexcavationa-vade-3", "stream": true}]
   },
+  "wynnexcavationa-vade-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationa-vade-4", "stream": true}]
+  },
+  "wynnexcavationa-vade-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationa-vade-5", "stream": true}]
+  },
 
   "wynnexcvationb-archaeologist-1": {
     "category": "voice",

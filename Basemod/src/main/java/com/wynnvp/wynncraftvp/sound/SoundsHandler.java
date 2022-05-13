@@ -932,6 +932,8 @@ public class SoundsHandler {
         addSound("[1/8] Tesha: Hello, welcome to WynnExcavation Labs!", "wynnexcavationa-tesha-1", false);
         addSound("[1/6] Vade: Who are you?", "wynnexcavationa-vade-2", false);
         addSound("[1/4] Vade: Hey kid, did you just come from the tomb?", "wynnexcavationa-vade-3", false);
+        addSound("[1/1] Vade: Hey kid, can't you see I'm busy here? Come back when you're level 35.", "wynnexcavationa-vade-4", false);
+        addSound("[1/1] Vade: Well, I figured it out soon after you got back. We possess the crystal, don't go looking for Wynn Excavation again, all is not what it seems. Take that as a friendly warning.", "wynnexcavationa-vade-5", false);
 
         //Wynn Excavation site B
         addSound("[1/1] Flendar: We know what you stole from us in the desert! Take THIS! You won't be escaping this dead end any time soon!", "wynnexcvationb-flendar-1", true);
