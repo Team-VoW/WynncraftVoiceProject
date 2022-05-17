@@ -57,7 +57,7 @@ public class SoundPlayer {
     }
 
     private void addSoundToCoolDown(String soundName) {
-        if (latestSoundPlayed.size() > 100) {
+        if (latestSoundPlayed.size() > 5) {
             latestSoundPlayed.remove(0);
         }
         latestSoundPlayed.add(soundName);
