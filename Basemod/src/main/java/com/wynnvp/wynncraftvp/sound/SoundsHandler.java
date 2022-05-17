@@ -4545,6 +4545,14 @@ public class SoundsHandler {
         addSound("[3/3] Trials Overseer: Please use your sovereignty to lead us to the riches we deserve.", "royaltrials-trialsoverseer-17", false);
         addSound("[1/4] Trials Overseer: Yer Majesty. What an honour to have such a beautiful queen. ", "royaltrials-trialsoverseer-18", false);
 
+        //Lost Sanctuary
+        addSound("[1/1] ???: Ahhh.. Good timing. I needed someone to test my defenses.", "lostsanctuary-garoth-1", true);
+        addSound("[1/1] Garoth: I think you know who I am. The second human ever to be liberated by the portal. I now seek to purify this world.", "lostsanctuary-garoth-2", true);
+        addSound("[1/1] Garoth: There is still a lot to be done it seems.", "lostsanctuary-garoth-3", true);
+        addSound("[1/1] Garoth: I keep a lot of creatures here to conduct my experiments on, to test their vulnerabilities. I can't wait to find yours.", "lostsanctuary-garoth-4", true);
+        addSound("[1/1] Garoth: Species are nothing to me. Thousands of creepers used to live here, I decimated them like it was nothing.", "lostsanctuary-garoth-5", true);
+        addSound("[1/1] Garoth: Well, looks like I get to finally find out what humans are made of.", "lostsanctuary-garoth-6", true);
+
 
 
         //Non quest npc

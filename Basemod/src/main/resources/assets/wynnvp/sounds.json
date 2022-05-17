@@ -17239,6 +17239,34 @@
   },
 
 
+
+  "lostsanctuary-garoth-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsanctuary-garoth-1", "stream": true}]
+  },
+  "lostsanctuary-garoth-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsanctuary-garoth-2", "stream": true}]
+  },
+  "lostsanctuary-garoth-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsanctuary-garoth-3", "stream": true}]
+  },
+  "lostsanctuary-garoth-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsanctuary-garoth-4", "stream": true}]
+  },
+  "lostsanctuary-garoth-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsanctuary-garoth-5", "stream": true}]
+  },
+  "lostsanctuary-garoth-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsanctuary-garoth-6", "stream": true}]
+  },
+
+
+
   "nonquestnpc-vanguardvan-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:nonquestnpc-vanguardvan-1", "stream": true}]
