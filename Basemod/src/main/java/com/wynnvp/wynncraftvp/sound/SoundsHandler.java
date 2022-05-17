@@ -4553,6 +4553,15 @@ public class SoundsHandler {
         addSound("[1/1] Garoth: Species are nothing to me. Thousands of creepers used to live here, I decimated them like it was nothing.", "lostsanctuary-garoth-5", true);
         addSound("[1/1] Garoth: Well, looks like I get to finally find out what humans are made of.", "lostsanctuary-garoth-6", true);
 
+        //Corrupted Lost Sanctuary
+        addSound("[1/1] ???: Great timing, human. Just in time to witness sorrow and destruction. History will burn before your eyes.", "cls-corruptedgaroth-1", true);
+        addSound("[1/1] Corrupted Garoth: Welcome, qwerty. My name is Garoth, but you already know that, of course. Who doesn't?", "cls-corruptedgaroth-2", true);
+        addSound("[1/1] Corrupted Garoth: Now, die!", "cls-corruptedgaroth-3", true);
+        addSound("[1/1] Corrupted Garoth: Even now, you continue to terrorise my den. I truly cannft wait to meet with you face to dhry again.", "cls-corruptedgaroth-4", true);
+        addSound("[1/1] Corrupted Garoth: No matter what you try, the fhwisbk4 stand no chance of surviving. I will track down every last one of fue: if it's the last thing I do. Admit it, you've lost.", "cls-corruptedgaroth-5", true);
+        addSound("[1/1] Garoth: Did you not learn to not put your hand in a fire for the second time? Fool, prepare yourself for Gaia's most powerful force - fire!", "cls-corruptedgaroth-6", true);
+
+
 
 
         //Non quest npc

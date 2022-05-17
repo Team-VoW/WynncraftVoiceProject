@@ -17265,6 +17265,32 @@
     "sounds": [{ "name": "wynnvp:lostsanctuary-garoth-6", "stream": true}]
   },
 
+  "cls-corruptedgaroth-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cls-corruptedgaroth-1", "stream": true}]
+  },
+  "cls-corruptedgaroth-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cls-corruptedgaroth-2", "stream": true}]
+  },
+  "cls-corruptedgaroth-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cls-corruptedgaroth-3", "stream": true}]
+  },
+  "cls-corruptedgaroth-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cls-corruptedgaroth-4", "stream": true}]
+  },
+  "cls-corruptedgaroth-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cls-corruptedgaroth-5", "stream": true}]
+  },
+  "cls-corruptedgaroth-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cls-corruptedgaroth-6", "stream": true}]
+  },
+
+
 
 
   "nonquestnpc-vanguardvan-1": {
