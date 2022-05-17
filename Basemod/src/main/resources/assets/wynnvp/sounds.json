@@ -429,17 +429,13 @@
   },
 
 
+  "malticwell-rynend-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-1", "stream": true}]
+  },
   "malticwell-child-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:malticwell-child-1", "stream": true}]
-  },
-  "malticwell-rysend-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwell-rysend-1", "stream": true}]
-  },
-  "malticwell-rysend-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwell-rysend-2", "stream": true}]
   },
   "malticwell-witch-1": {
     "category": "voice",
@@ -469,18 +465,28 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:malticwell-witch-7", "stream": true}]
   },
-  "malticwell-witch-8": {
+  "malticwell-child-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwell-witch-8", "stream": true}]
+    "sounds": [{ "name": "wynnvp:malticwell-child-2", "stream": true}]
   },
-  "malticwell-witch-9": {
+  "malticwell-rynend-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwell-witch-9", "stream": true}]
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-2", "stream": true}]
   },
-  "malticwell-witch-10": {
+  "malticwell-rynend-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwell-witch-10", "stream": true}]
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-3", "stream": true}]
   },
+  "malticwell-rynend-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-4", "stream": true}]
+  },
+  "malticwell-rynend-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-5", "stream": true}]
+  },
+
+
 
 
   "gravedigger-sayleros-1": {
