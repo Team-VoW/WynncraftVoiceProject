@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.text.TextComponentString;
@@ -20,7 +21,7 @@ public class JoinServerEvent {
     public static void onServerJoin(FMLNetworkEvent.ClientConnectedToServerEvent event) {
         Timer timer = new Timer();
         //In 30 seconds
-        timer.schedule(new SchedulerTask(), 30000L);
+        timer.schedule(new SchedulerTask(), 10000L);
     }
 
     public static class SchedulerTask extends TimerTask {
@@ -38,6 +39,8 @@ public class JoinServerEvent {
                 if (versions[1] < versionInFloat) {
                     return;
                 }
+
+                ConfigHandler.logMissingLines = false;
                 //The version is smaller or the same as the version to recommend update
                 String message = "§8A new version of §5Voices of Wynn§8 is available! You are using version: §4" + df.format(versionInFloat) + " §8and the newest version is: §2" + df.format(versions[0]);
                 Minecraft.getMinecraft().player.sendMessage(new TextComponentString(message));
