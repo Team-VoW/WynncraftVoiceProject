@@ -14837,6 +14837,136 @@
   },
 
 
+  "royaltrials-skyraiderguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-1", "stream": true}]
+  },
+  "royaltrials-hrona-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-hrona-1", "stream": true}]
+  },
+  "royaltrials-skyraiderguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-2", "stream": true}]
+  },
+  "royaltrials-angryqueencontestant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-angryqueencontestant-1", "stream": true}]
+  },
+  "royaltrials-angryqueencontestant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-angryqueencontestant-2", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-1", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-2", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-3", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-4", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-5", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-6", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-7", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-8", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-9", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-10", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-11", "stream": true}]
+  },
+  "royaltrials-courtyardguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-1", "stream": true}]
+  },
+  "royaltrials-courtyardguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-2", "stream": true}]
+  },
+  "royaltrials-courtyardguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-3", "stream": true}]
+  },
+  "royaltrials-courtyardguard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-4", "stream": true}]
+  },
+  "royaltrials-courtyardguard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-5", "stream": true}]
+  },
+  "royaltrials-constructionvillager-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-constructionvillager-1", "stream": true}]
+  },
+  "royaltrials-mansionguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-mansionguard-1", "stream": true}]
+  },
+  "royaltrials-mansionguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-mansionguard-2", "stream": true}]
+  },
+  "royaltrials-mansionguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-mansionguard-3", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-12", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-13", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-14", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-15", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-16", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-17", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-18", "stream": true}]
+  },
+
+
 
   "shatteredminds-likeru-1": {
     "category": "voice",

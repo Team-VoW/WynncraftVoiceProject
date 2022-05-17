@@ -4509,6 +4509,39 @@ public class SoundsHandler {
         addSound("[1/3] Antikythera Supercomputer: Antikythera Firewall Pass B accepted. Access granted. Welcome, Cerid. You may now enter the Antikythera Main Core Chamber.", "fallenfactory-antikytherasupercomputer-32", true);
         addSound("[1/1] Antikythera Main Core: SO YOU FOUND ME. CONGRATULATIONS. NOW PLEASE KINDLY LAY DOWN IN A CIRCUIT AND PRETEND TO BE A CONDUCTOR UNTIL YOUR BODY'S VITAL PROCESSES PERMANENTLY SHUT DOWN.", "fallenfactory-antikytherasupercomputer-33", true);
 
+        //Royal trials
+        addSound("[1/3] Skyraider Guard: Back off! No'ne enters 'til the pirate queen is chosen. What's a landwalker like you doin' here?", "royaltrials-skyraiderguard-1", false);
+        addSound("[1/5] Hrona: Yer wantin' to be pirate queen, ye? Don' worry, I can help ye. ", "royaltrials-hrona-1", false);
+        addSound("[1/1] Skyraider Guard: Another contestant, huh? Fine, I'll let you in. Hurry up, though, the cerimony is starting soon!", "royaltrials-skyraiderguard-2", true);
+        addSound("[1/1] Angry Queen Contestant: Ugh! You simply can't be the pirate queen, I'm most fit for it!", "royaltrials-angryqueencontestant-1", true);
+        addSound("[1/1] Angry Queen Contestant: No, no, no! I'll fight you to the death if it calls, I must be the queen! I'm much more qualified than all of you pigs!", "royaltrials-angryqueencontestant-2", true);
+        addSound("[1/6] Trials Overseer: Gather round, ladies. The next Queen is about to be selected!", "royaltrials-trialsoverseer-1", true);
+        addSound("[2/6] Trials Overseer: As ye know, when one queen falls, another must rise!!", "royaltrials-trialsoverseer-2", true);
+        addSound("[3/6] Trials Overseer: Three trials. That's what ye all face now.", "royaltrials-trialsoverseer-3", true);
+        addSound("[4/6] Trials Overseer: If ye pass all three, yer the new queen. Only one of yer will do it.", "royaltrials-trialsoverseer-4", true);
+        addSound("[5/6] Trials Overseer: The first task is yer fundamental as queen; combat!", "royaltrials-trialsoverseer-5", true);
+        addSound("[6/6] Trials Overseer: Ladies, you may now... Begin!", "royaltrials-trialsoverseer-6", true);
+        addSound("[1/4] Trials Overseer: That weeded out the weak. Every queen must be strong to lead.", "royaltrials-trialsoverseer-7", false);
+        addSound("[1/7] Trials Overseer: Well lookie here, an amateur made it through her flight.", "royaltrials-trialsoverseer-8", false);
+        addSound("[1/3] Trials Overseer: This here is the garden you will be thrown into... you will have to find a way into the mansion. Maybe you can ask nicely?", "royaltrials-trialsoverseer-9", true);
+        addSound("[2/3] Trials Overseer: This is the high value, mythic treasure that you're trying to thieve from the mansion... good luck, it is very highly defended both by man and machine.", "royaltrials-trialsoverseer-10", true);
+        addSound("[3/3] Trials Overseer: This is the window you will be making your escape out of... we will be waiting for you outside of it. Good luck.", "royaltrials-trialsoverseer-11", true);
+        addSound("[1/1] Courtyard Guard: Ah, I wasn't aware the boss was lettin' in some visitors... shouldn't hurt the establishment, eh?", "royaltrials-courtyardguard-1", false);
+        addSound("[1/1] Courtyard Guard: Argh, recently a few skyraiders broke into the garden without any o' us noticing and almost broke into the mansion where the treasure is guarded, threw a rock in the window to try to get in, luckily one of us spooked em' off!", "royaltrials-courtyardguard-2", false);
+        addSound("[1/1] Courtyard Guard: Some skyraiders have been sneakin' into this garden and causin' havoc, tryin' to snatch the treasure! One of em' almost broke into the mansion by throwin' a rock and shatterin' one of the  windows! What's with the wig?", "royaltrials-courtyardguard-3", false);
+        addSound("[1/1] Courtyard Guard: Them skyraider pests who broke into this courtyard tried to break into the mansion by breaking one of the mansion's windows by throwin' a rock at it, now we gotta' fix it!", "royaltrials-courtyardguard-4", false);
+        addSound("[1/1] Courtyard Guard: If we ever let one of them skyraiders even get close to stealin' the treasure, the boss'll kill us! Gosh, who knows what'd happen if the treasure got stolen under our noses... ", "royaltrials-courtyardguard-5", false);
+        addSound("[1/1] Construction Villager: Heh, some pesky skyraiders shattered a few windows on the upper floors... Gonna take a good while to fix em', but the boss wants it done quick, he doesn't like when his treasure is at risk.", "royaltrials-constructionvillager-1", false);
+        addSound("[1/1] Mansion Guard: Oi', you! Whatcha' think yer' doin' sneakin' around these parts? This be a restricted area! Yer' headed to the jail cell!", "royaltrials-mansionguard-1", true);
+        addSound("[1/1] Mansion Guard: Aye', men! Tha' treasure has been stolen! Prepare the defenses! ", "royaltrials-mansionguard-2", true);
+        addSound("[1/1] Mansion Guard: Aye, we caught the nasty thief! We'll be lockin' him up till' he rots!", "royaltrials-mansionguard-3", true);
+        addSound("[1/1] Trials Overseer: Grats on stealin' the treasure, you can board the airship through the window. ", "royaltrials-trialsoverseer-12", true);
+        addSound("[1/8] Trials Overseer: Aha! I figured it'd be ye to win o'er the rest of that lot... Ye've earned the proper sovereignty of bein' our ruler, our queen of the Skyraiders.", "royaltrials-trialsoverseer-13", false);
+        addSound("[3/8] Trials Overseer: But, first things first, let's take a look inside that fancy box ye got, see what mythical treasures lay guarded behind those grubby guardsmen, shall we?", "royaltrials-trialsoverseer-14", false);
+        addSound("[1/3] Trials Overseer: I am pleased to introduce our 734th queen. Fer the sake of our people, let her reign last more than two weeks.", "royaltrials-trialsoverseer-15", true);
+        addSound("[2/3] Trials Overseer: I, on behalf on the rest of the Skyraider people, have the honor of decoratin' you with the highest decoration of the Skyraiders, The Queen's Headpiece.", "royaltrials-trialsoverseer-16", true);
+        addSound("[3/3] Trials Overseer: Please use your sovereignty to lead us to the riches we deserve.", "royaltrials-trialsoverseer-17", false);
+        addSound("[1/4] Trials Overseer: Yer Majesty. What an honour to have such a beautiful queen. ", "royaltrials-trialsoverseer-18", false);
 
 
 
