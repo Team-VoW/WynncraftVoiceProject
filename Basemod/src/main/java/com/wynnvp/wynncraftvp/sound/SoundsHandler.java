@@ -1684,7 +1684,7 @@ public class SoundsHandler {
         addSound("[8/8] Guard: Now, cast your Heal spell by clicking Right-Left-Right!", "kingsrecruit-guard2-10", true);
         addSound("[7/8] Guard: Soldier, you're an Archer, right? Walk up to the boulder for me.", "kingsrecruit-guard2-11", true);
         addSound("[8/8] Guard: Now, cast your Arrow Storm spell by clicking Left-Right-Left!", "kingsrecruit-guard2-12", true);
-        addSound("[7/8] Guard: In my current state, I'm too weak to destroy this boulder. But since you're a Shaman, recruit, you can help me.", "kingsrecruit-guard2-13", true);
+        addSound("[7/8] Guard: In my current state, I'm too weak to destroy this boulder. But since you're a Shaman, soldier, you can help me.", "kingsrecruit-guard2-13", true);
         addSound("[8/8] Guard: All I need is for you to use your totem spell. To cast it, click Right-Left-Right!", "kingsrecruit-guard2-14", true);
         addSound("[1/1] Guard: Good work. Now, you three head on towards the castle.", "kingsrecruit-guard2-15", true);
         addSound("[1/2] Guard: That's done it! All healed up. Now let me take care of this.", "kingsrecruit-guard2-16", true);
