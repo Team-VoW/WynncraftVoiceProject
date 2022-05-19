@@ -93,6 +93,18 @@ public class SoundsHandler {
         addSound("[1/2] Talking Mushroom: WOW, WOW! I CAN'T BELIEVE THIS! THIS SLEAZY POTION MERCHANT CAN JUST HAVE A SECRET CRATE OF MUSHROOMS THAT HE'S PROBABLY TRAFFICKING ILLEGALLY, AND NOBODY BATS AN EYE...", "talkingmushroomsleazypotionmerchant", true);
         addSound("[1/2] Talking Mushroom: WOAH, HEY, WAIT, WHAT ARE WE DOING HERE?? HUMAN, I'VE BEEN PERMANENTLY EXILED FROM THIS PLACE EVER SINCE I SET UP THAT MUSHROOM SHOP HERE FIVE YEARS AGO!", "talkingmushroomrivalbuisness", true);
 
+        addSound("[1/1] Talking Mushroom: LOOK AT THIS! WHAT DO YOU MEAN WHAT?! OPEN YOUR EYES! WE'RE RICH! MODESTY CAN GO IN THE TRASH, HUMAN.", "talkingmushroomAlmujsEmeraldLabyrinth", true);
+        addSound("[1/2] Talking Mushroom: YOU KNOW, THIS PLACE IS NICE. MUCH BETTER THAN ALL THE OTHER PLACES YOU GO TO.", "talkingmushroombearzoo", true);
+        addSound("[1/2] Talking Mushroom: WHAT IS THIS PLACE? IT SMELLS LIKE DUST ... AND SAND. WEIRD.", "talkingmushroomdesert", true);
+        addSound("[1/5] Talking Mushroom: OH, I'VE HEARD OF THIS PLACE!! THERE'S SOME CRAZY STRONG MECHS IN THERE, RIGHT?", "talkingmushroomlientrance", true);
+        addSound("[1/3] Talking Mushroom: WOW... THIS PLACE LOOKS... NICE, ACTUALLY. IT LOOKS NICE! YOU KNOW, I THINK DESPITE THE HORRORS WE'VE GONE THROUGH TO GET HERE, I'M GLAD WE CAME HERE.", "talkingmushroomlightmonolith", true);
+        addSound("[1/3] Talking Mushroom: SO, I'VE BEEN WONDERING, DO YOU OFTEN MAKE A HABIT OF GOING PLACES WHERE YOU SHOULDN'T BE GOING?", "talkingmushroomlightrealmpond", true);
+        addSound("[1/3] Talking Mushroom: WOW, GET A LOAD OF THIS GUY! HE LOOKS DUMBER THAN YOU DO, HUMAN!! A LITTLE FAMILIAR, ACTUALLY... SORT OF LIKE-", "talkingmushroommehme", true);
+        addSound("[1/2] Talking Mushroom: WOAH, WHAT THE HELL WAS THAT! THIS IS SOMEONE'S PRIVATE PROPERTY, YOU CAN'T JUST GO AROUND RANDOMLY BREAKING PEOPLE'S WINDOWS!!", "talkingmushroomoutofmymind2", true);
+        addSound("[1/1] Talking Mushroom: WAIT, I HEAR SOMETHING SQUEAKI- HEY, LOOK! THERE'S A RAT!", "talkingmushroomrat1", true);
+        addSound("[1/1] Talking Mushroom: WAIT- IT'S RUNNING AWAY! FOLLOW IT!", "talkingmushroomrat2", true);
+        addSound("[1/1] Talking Mushroom: WHA-... DID WE JUST WATCH A RAT... KILL ITSELF? WHAT THE HELL!?!", "talkingmushroomrat3", true);
+        addSound("[1/3] Talking Mushroom: ... HEY, HUMAN, TELL ME SOMETHING. WHY ARE YOU OUT HERE AND NOT IN ONE OF THOSE CELLS?", "talkingmushroommoltencoreprison", true);
 
 
         //Sea skipper
@@ -1691,7 +1703,7 @@ public class SoundsHandler {
         addSound("[2/2] Guard: Now, you three should head on towards the castle.", "kingsrecruit-guard2-17", true);
         addSound("[1/2] Guard: I feel stronger already! This should be enough for me to get us out of here.", "kingsrecruit-guard2-18", true);
         addSound("[2/2] Guard: Took all of the strength your Totem gave me to do it, but I managed to save us! You three head on to the castle, now.", "kingsrecruit-guard2-19", true);
-        addSound("[7/8] Guard: Soldier, you're an Ninja, right? Walk up to the boulder for me", "kingsrecruit-guard2-23", false);
+        addSound("[7/8] Guard: Soldier, you're an  , right? Walk up to the boulder for me", "kingsrecruit-guard2-23", false);
         addSound("[8/8] Guard: Now, cast your Whirlwind spell by clicking Right-Left-Right!", "kingsrecruit-guard2-24", false);
         addSound("[7/8] Guard: Soldier, you're a Knight, right? Walk up to the boulder for me.", "kingsrecruit-guard2-25", false);
         addSound("[8/8] Guard: Now, cast your Holy Blast spell by clicking Right-Left-Right!", "kingsrecruit-guard2-26", false);

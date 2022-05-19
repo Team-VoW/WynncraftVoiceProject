@@ -17237,6 +17237,51 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomtoa", "stream": true}]
   },
+  "talkingmushroomAlmujsEmeraldLabyrinth": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomAlmujsEmeraldLabyrinth", "stream": true}]
+  },
+  "talkingmushroombearzoo": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroombearzoo", "stream": true}]
+  },
+  "talkingmushroomdesert": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomdesert", "stream": true}]
+  },
+  "talkingmushroomlientrance": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomlientrance", "stream": true}]
+  },
+  "talkingmushroomlightrealmpond": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomlightrealmpond", "stream": true}]
+  },
+  "talkingmushroommehme": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroommehme", "stream": true}]
+  },
+  "talkingmushroomoutofmymind2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomoutofmymind2", "stream": true}]
+  },
+  "talkingmushroomrat1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomrat1", "stream": true}]
+  },
+  "talkingmushroomrat2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomrat2", "stream": true}]
+  },
+  "talkingmushroomrat3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomrat3", "stream": true}]
+  },
+  "talkingmushroommoltencoreprison": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroommoltencoreprison", "stream": true}]
+  },
+
 
 
 
