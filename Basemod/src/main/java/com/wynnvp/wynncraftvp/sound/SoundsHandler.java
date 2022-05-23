@@ -2472,7 +2472,7 @@ public class SoundsHandler {
         addSound("5/10orphionyetaproblembeyondmypaleyetpersistsdawnhasbrokenbutintimeanotherduskwillarrive", "nexusoflight-orphion-5", true);
         addSound("6/10orphionlariacharasheseekstoilluminatethedarkyoumustshineyourlightasshebutelsewhere", "nexusoflight-orphion-6", true);
         addSound("7/10orphionthedarkhaspowerunknownitdidnotbeforethroughthispoweritsshadowsreachedtome", "nexusoflight-orphion-7", true);
-        addSound("7/10orphionthedarkhaspowerunknownitdidnotbeforethroughthispoweritsshadowsreachedtome", "nexusoflight-orphion-8", true);
+        addSound("[8/10] Orphion: The delicate stasis was disrupted... And it cannot be blamed solely on the dark itself", "nexusoflight-orphion-8", true);
         addSound("9/10orphionrestnowmypulseandprepareforthereisanotherforcewhoyoumustbringtopeace", "nexusoflight-orphion-9", true);
         addSound("10/10orphion", "nexusoflight-orphion-10", true);
         addSound("[1/2] Orphion: Enough. My gratefulness does not exceed my patience. Let this act as a warning, my pulse.", "nexusoflight-orphion-11", false);
