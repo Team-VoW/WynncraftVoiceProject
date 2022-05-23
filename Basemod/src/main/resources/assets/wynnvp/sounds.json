@@ -922,6 +922,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:templeoflegends-garull-2", "stream": true}]
   },
+  "templeoflegends-garull-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:templeoflegends-garull-3", "stream": true}]
+  },
+  "templeoflegends-garull-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:templeoflegends-garull-4", "stream": true}]
+  },
+  "templeoflegends-garull-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:templeoflegends-garull-5", "stream": true}]
+  },
   "templeoflegends-jorkin-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:templeoflegends-jorkin-1", "stream": true}]

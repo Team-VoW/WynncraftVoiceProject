@@ -1039,6 +1039,9 @@ public class SoundsHandler {
         //Temple of Legends
         addSound("[1/10] Garull: GWUH! Oh god, don't scare me like that! Who... Who even are you?!", "templeoflegends-garull-1", false);
         addSound("[1/4] Garull: Thank you for listening to me about not being so quiet coming over here. I'm guessing you've got everything?", "templeoflegends-garull-2", false);
+        addSound("[1/3] Garull: Oh, a visitor? Interesting. I thought I only knew about this cave, considering I was called crazy by my master.", "templeoflegends-garull-3", false);
+        addSound("[1/6] Garull: Ah, need help about the items? I'm fine with giving you a refresher, yeah.", "templeoflegends-garull-4", false);
+        addSound("[1/2] Garull: If you see Kelight again, tell him \"I told you so\" about the Creepers!", "templeoflegends-garull-5", false);
         addSound("[1/6] Jorkin: You may want to get out of here, traveller. The Nether is very dangerous!", "templeoflegends-jorkin-1", false);
         addSound("[1/7] Jorkin: You have the Light Dust, then? Hand it here, I want to see something.", "templeoflegends-jorkin-2", false);
         addSound("[1/5] Kelight: I see you want to enter this mighty temple! Do not deny it, I see it in your eyes.", "templeoflegends-kelight-1", false);
