@@ -1007,6 +1007,9 @@ public class SoundsHandler {
         //Enzans Brother
         addSound("[1/6] Therck: Excuse me? Can't you see I'm busy?", "enzansbrother-therck-1", false);
         addSound("[1/7] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrother-therck-2", false);
+        addSound("[1/2] Therck: Well? Have you brought me [1 Energy Mushroom]?", "enzansbrother-therck-3", false);
+        addSound("[1/2] Therck: Go on, I don't have time for you. My brother keeps sending me people all the time.", "enzansbrother-therck-4", false);
+        addSound("[1/1] Therck: I don't have time to talk to you right now, move along!", "enzansbrother-therck-5", false);
         addSound("[1/5] Enzan: I see you want to venture into the wilderness!", "enzansbrother-enzan-1", false);
         addSound("[1/2] Enzan: What are you waiting for?", "enzansbrother-enzan-2", false);
         addSound("[1/1] Enzan: Hey there! Still doing well after all this time?", "enzansbrother-enzan-3", false);

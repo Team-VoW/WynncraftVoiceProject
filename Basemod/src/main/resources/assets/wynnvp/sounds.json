@@ -794,6 +794,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enzansbrother-therck-2", "stream": true}]
   },
+  "enzansbrother-therck-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-3", "stream": true}]
+  },
+  "enzansbrother-therck-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-4", "stream": true}]
+  },
+  "enzansbrother-therck-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-5", "stream": true}]
+  },
 
 
   "reincarnation-batleu-1": {
