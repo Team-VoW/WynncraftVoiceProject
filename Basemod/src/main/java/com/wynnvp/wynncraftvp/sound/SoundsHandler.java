@@ -1758,7 +1758,7 @@ public class SoundsHandler {
         addSound("[7/12] Imperial Soldier: Are you insulting the work of our royal engineers?", "recoverthepast-imperialguard-2", true);
         addSound("[8/12] Reynauld: What? No! I'm just explaining- Please! I have a family I didn't speak out of turn.", "recoverthepast-reynauld-4", true);
         addSound("[9/12] Reynauld: Heine? Look after the kids. I'll be back soon!", "recoverthepast-reynauld-5", true);
-        addSound("[10/12] Imperial Guard: The Palace does not tolerate insubordination. Reynauld you are to be tried for Lèse-majesté.", "recoverthepast-imperialguard-3", true);
+        addSound("[10/12] Imperial Guard: The Palace does not tolerate insubordination. Reynauld you are to be tried for treachery.", "recoverthepast-imperialguard-3", true);
         addSound("[11/12] Imperial Guard: This village would do well to remember who protects them from external forces.", "recoverthepast-imperialguard-4", true);
         addSound("[12/12] Dr. Picard: Hey. HEY! It's not real. Just a memory! Talk to me!", "recoverthepast-drpicard-5", true);
         addSound("[1/5] Dr. Picard: Well, that was unexpected. I didn't anticipate subjects would relive them that vividly.", "recoverthepast-drpicard-6", false);
@@ -4174,7 +4174,7 @@ public class SoundsHandler {
         addSound("[4/5] Crowd: Well, the expression 'no hope blows from the north' came from there, since it's on the north side...", "dwarvesanddogunspart1-crowd-4", true);
         addSound("[5/5] Marock: Apologies, all. I shall provide us all with a quick way back to Rodoroc on the floor here. We hope you enjoyed the show, despite the interruption! ", "dwarvesanddogunspart1-marock-9", true);
         addSound("[1/4] Axelus: You came at the right time, soldier. It's good to see you're still interested in what's really going on here.", "dwarvesanddogunspart1-axelus-9", false);
-        addSound("[1/4] Axelus: I see I got your attention. Intrested in the truth.", "dwarvesanddogunspart1-axelus-10", false);
+        addSound("[1/4] Axelus: I see I got your attention. Interested in the truth.", "dwarvesanddogunspart1-axelus-10", false);
         addSound("[1/3] Axelus: Now do you see? Everything that I told you about when we rescued those flerisi was indeed true...", "dwarvesanddogunspart1-axelus-11", false);
         addSound("[1/3] Axelus: Well, now you have read what I read. The truth...or the lie.", "dwarvesanddogunspart1-axelus-12", false);
         addSound("[1/10] Axelus: Ah, you made it. Come and meet Korzim.", "dwarvesanddogunspart1-axelus-13", true);
