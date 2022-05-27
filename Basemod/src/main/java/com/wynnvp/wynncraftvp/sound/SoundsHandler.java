@@ -4581,9 +4581,7 @@ public class SoundsHandler {
         //infestid pit
         addSound("[1/2] ???: Oh, it seems I have a guest. You're just in time for dinner... hehe..", "infestidpit-arakadicus-1", true);
         addSound("[1/3] Hanged Man: Ah- Adventurer!... I b- beg you.. do not c- continue on your quest...", "infestidpit-hangedman-1", true);
-        addSound("[2/3] Hanged Man: You might believe you c- can fight t- this monster... b- but you can't...", "infestidpit-hangedman-2", true);
         addSound("[3/3] Hanged Man: Arakadicus is.. is a coward... it traps you and f- feeds you to its... children...", "infestidpit-hangedman-3", true);
-        addSound("[3/3] Hanged Man: Arakadicus is.. is a coward... is.. is a coward... it traps you and c- corrupts...", "infestidpit-hangedman-4", true);
         addSound("[1/1] Arakadicus: Don't mind our other guest back there. He had such a bitter taste. However, my babies think you look delicious... hehehe...", "infestidpit-arakadicus-2", true);
         addSound("[1/1] Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!", "infestidpit-arakadicus-3", true);
 

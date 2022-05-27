@@ -17368,17 +17368,9 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestidpit-hangedman-1", "stream": true}]
   },
-  "infestidpit-hangedman-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:infestidpit-hangedman-2", "stream": true}]
-  },
   "infestidpit-hangedman-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestidpit-hangedman-3", "stream": true}]
-  },
-  "infestidpit-hangedman-4": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:infestidpit-hangedman-4", "stream": true}]
   },
   "infestidpit-arakadicus-2": {
     "category": "voice",
