@@ -17390,6 +17390,20 @@
   },
 
 
+  "cip-corruptedarakadicus-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cip-corruptedarakadicus-1", "stream": true}]
+  },
+  "cip-corruptedarakadicus-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cip-corruptedarakadicus-3", "stream": true}]
+  },
+  "cip-corruptedarakadicus-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cip-corruptedarakadicus-4", "stream": true}]
+  },
+
+
 
 
   "nonquestnpc-vanguardvan-1": {

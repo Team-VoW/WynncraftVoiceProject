@@ -4587,7 +4587,10 @@ public class SoundsHandler {
         addSound("[1/1] Arakadicus: Don't mind our other guest back there. He had such a bitter taste. However, my babies think you look delicious... hehehe...", "infestidpit-arakadicus-2", true);
         addSound("[1/1] Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!", "infestidpit-arakadicus-3", true);
 
-
+        //cip
+        addSound("[1/2] ???: This is a familiar face... hehe...", "cip-corruptedarakadicus-1", true);
+        addSound("[1/1] Corrupted Arakadicus: Don't mind our other guest back there. He had such a bitter taste. However, my babies think you look delicious... hehehe...", "cip-corruptedarakadicus-3", true);
+        addSound("[1/1] Corrupted Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!", "cip-corruptedarakadicus-4", true);
 
 
         //Non quest npc
