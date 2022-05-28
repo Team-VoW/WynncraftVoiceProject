@@ -518,6 +518,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-1", "stream": true}]
   },
+  "wrathofthemummy-achper-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-2", "stream": true}]
+  },
+  "wrathofthemummy-achper-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-3", "stream": true}]
+  },
   "wrathofthemummy-bandit-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-1", "stream": true}]

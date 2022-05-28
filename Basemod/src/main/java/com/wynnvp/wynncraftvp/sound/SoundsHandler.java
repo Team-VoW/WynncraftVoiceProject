@@ -895,6 +895,8 @@ public class SoundsHandler {
         //Wrath of the Mummy
         addSound("[1/6] Ormrod: Uh, you shouldn't have come here!", "wrathofthemummy-ormrod-1", false);
         addSound("[1/6] Achper: If I know about mummies? Of course! I've spent my entire life studying them!", "wrathofthemummy-achper-1", false);
+        addSound("[1/1] Achper: Hi! If you are looking for some information about mummies, I can help you!", "wrathofthemummy-achper-2", false);
+        addSound("[1/1] Achper: Glad to hear you came back alive! Those mummies aren't always easy, eh?", "wrathofthemummy-achper-3", false);
         addSound("[1/3] Bandit: Hey, what are you doing? If you're trying to loot the tomb, me and the other Creden Tibus already beat you to it.", "wrathofthemummy-bandit-1", false);
         addSound("[1/4] Bandit: Well, whaddya know? You got some Pink Wool! Okay, hand it here and I'll look the other way and let you into the tomb.", "wrathofthemummy-bandit-2", false);
         addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummy-ormrod-2", false);
