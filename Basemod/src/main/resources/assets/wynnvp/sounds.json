@@ -7371,6 +7371,7 @@
   },
 
 
+
   "elementalexercise-ragon-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:elementalexercise-ragon-1", "stream": true}]
@@ -7395,6 +7396,27 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:elementalexercise-ragon-6", "stream": true}]
   },
+  "elementalexercise-ragon-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-7", "stream": true}]
+  },
+  "elementalexercise-ragon-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-8", "stream": true}]
+  },
+  "elementalexercise-ragon-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-9", "stream": true}]
+  },
+  "elementalexercise-ragon-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-10", "stream": true}]
+  },
+  "elementalexercise-ragon-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-11", "stream": true}]
+  },
+
 
 
   "generalsorders-corpusaccipientis-1": {

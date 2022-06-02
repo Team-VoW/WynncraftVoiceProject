@@ -1234,10 +1234,16 @@ public class SoundsHandler {
         //Elemental Exercise
         addSound("[1/7] Ragon: Ah! Finally! I've been waiting for a recruit like yourself to turn up.", "elementalexercise-ragon-1", false);
         addSound("[1/4] Ragon: Interesting, it completely destroyed the beast. It seems our theories might be correct.", "elementalexercise-ragon-2", false);
-        addSound("[1/1] Ragon: Hey, wake up.", "elementalexercise-ragon-3", true);
-        addSound("[1/3] Ragon: Is everything alright? We felt the cave collapse! We came down as soon as possible!", "elementalexercise-ragon-4", true);
+        addSound("[1/1] Ragon: Hey, wake up.", "elementalexercise-ragon-3", false);
+        addSound("[1/3] Ragon: Is everything alright? We felt the cave collapse! We came down as soon as possible!", "elementalexercise-ragon-4", false);
         addSound("[1/1] Ragon: Good to see you made it out, would you mind giving your fire weapon back to Suri and then bring me his study results?", "elementalexercise-ragon-5", false);
         addSound("[1/6] Ragon: Thank you, I guess you can use this, it's not a lot but we are not the richest scientists around, sorry for all the trouble we put you through.", "elementalexercise-ragon-6", false);
+        addSound("[1/1] Ragon: Hello there, looks like you made it through the forest, that's quite an achievement. You could come by later if you would like to help us, we need recruits who are level 10.", "elementalexercise-ragon-7", false);
+        addSound("[1/1] Ragon: Did you get lost? You were supposed to bring me [10 Scorched Roots] from the cave behind this little hill.", "elementalexercise-ragon-8", false);
+        addSound("[1/1] Ragon: Why are you still here? You should try to find an exit.", "elementalexercise-ragon-9", false);
+        addSound("[1/1] Ragon: Oh, it's you, nice to see you again. You know, the 9 Fire weapons almost burned down my tent. These elemental weapons are very powerful.", "elementalexercise-ragon-10", false);
+        addSound("[1/1] Ragon: I would appreciate if you could follow my directions.", "elementalexercise-ragon-11", false);
+
 
         //Dwelling Walls
         addSound("[1/10] Leucsaa: Let's see here... mother's old vase… check!", "dwellingwalls-leucsaa-1", false);
