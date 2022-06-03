@@ -954,6 +954,10 @@ public class SoundsHandler {
         addSound("[1/1] Flendar: We know what you stole from us in the desert! Take THIS! You won't be escaping this dead end any time soon!", "wynnexcvationb-flendar-1", true);
         addSound("[1/6] Excavator Lykron: Good day! You're the person that helped us out in the desert aren't you? Excellent! Just the person I need! Can you help me out with a problem I have?", "wynnexcvationb-lykron-1", false);
         addSound("[1/5] Excavator Lykron: I have to admit, I'm impressed. I genuinely thought our plan would be successful. Who knew that dead end had a secret exit.", "wynnexcvationb-lykron-2", false);
+        addSound("[1/1] Excavator Lykron: And don't come back!", "wynnexcvationb-lykron-3", false);
+        addSound("[1/1] Excavator Lykron: Go on now! Off you go! Remember to speak to my colleague at the bottom of the cave!", "wynnexcvationb-lykron-4", false);
+        addSound("[1/1] Excavator Lykron: Hello there! We are working very hard here at this excavation site! We have one in Almuj as well, I think you should check it out!", "wynnexcvationb-lykron-5", false);
+        addSound("[1/2] Excavator Lykron: Good day! Can you help me out with a problem I have?", "wynnexcvationb-lykron-6", false);
         addSound("[1/7] WynnExcavation Archaeologist: Baffling... What a puzzling situation I am in...", "wynnexcvationb-archaeologist-1", false);
 
         //Wynn Excavation site C

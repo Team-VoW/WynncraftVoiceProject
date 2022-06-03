@@ -730,6 +730,24 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-2", "stream": true}]
   },
+  "wynnexcvationb-lykron-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-3", "stream": true}]
+  },
+  "wynnexcvationb-lykron-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-4", "stream": true}]
+  },
+  "wynnexcvationb-lykron-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-5", "stream": true}]
+  },
+  "wynnexcvationb-lykron-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-6", "stream": true}]
+  },
+
+
 
 
   "mushroomman-yahya-1": {
