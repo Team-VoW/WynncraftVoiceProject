@@ -90,7 +90,7 @@ public class SoundsHandler {
         addSound("[1/2] Talking Mushroom: ...ALRIGHT. I'VE ACCEPTED THAT YOU GO TO WEIRD PLACES, BUT THIS CROSSES THE LINE. WHERE THE BLOODY HELL ARE WE?", "talkingmushroomeyeballforest", true);
         addSound("[1/1] Talking Mushroom: HEY, HUMAN, TAKE A LOOK!! YOU CAN SEE THE WHOLE LIGHT REALM FROM UP HERE!!!", "talkingmushroomlightrealmtree", true);
         addSound("[1/2] Talking Mushroom: WOW, WOW! I CAN'T BELIEVE THIS! THIS SLEAZY POTION MERCHANT CAN JUST HAVE A SECRET CRATE OF MUSHROOMS THAT HE'S PROBABLY TRAFFICKING ILLEGALLY, AND NOBODY BATS AN EYE...", "talkingmushroomsleazypotionmerchant", true);
-        addSound("[1/2] Talking Mushroom: WOAH, HEY, WAIT, WHAT ARE WE DOING HERE?? HUMAN, I'VE BEEN PERMANENTLY EXILED FROM THIS PLACE EVER SINCE I SET UP THAT MUSHROOM SHOP HERE FIVE YEARS AGO!", "talkingmushroomrivalbuisness", true);
+        addSound("[1/2] Talking Mushroom: WOAH, HEY, WAIT, WHAT ARE WE DOING HERE?? HUMAN, I'VE BEEN PERMANENTLY EXILED FROM THIS PLACE EVER SINCE I SET UP THAT MUSHROOM SHOP HERE FIVE YEARS AGO!!", "talkingmushroomrivalbuisness", true);
 
         addSound("[1/1] Talking Mushroom: LOOK AT THIS! WHAT DO YOU MEAN WHAT?! OPEN YOUR EYES! WE'RE RICH! MODESTY CAN GO IN THE TRASH, HUMAN.", "talkingmushroomAlmujsEmeraldLabyrinth", true);
         addSound("[1/2] Talking Mushroom: YOU KNOW, THIS PLACE IS NICE. MUCH BETTER THAN ALL THE OTHER PLACES YOU GO TO.", "talkingmushroombearzoo", true);
