@@ -1256,6 +1256,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-2", "stream": true}]
   },
+  "thehouseoftwain-twendle-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-3", "stream": true}]
+  },
+  "thehouseoftwain-twendle-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-4", "stream": true}]
+  },
+  "thehouseoftwain-twendle-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-5", "stream": true}]
+  },
 
 
   "thehiddencity-narder-1": {

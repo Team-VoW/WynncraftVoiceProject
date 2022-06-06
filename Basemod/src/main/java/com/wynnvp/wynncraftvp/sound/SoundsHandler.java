@@ -1135,6 +1135,9 @@ public class SoundsHandler {
         //The house of twain
         addSound("[1/10] Twendle: Oh, hey you there! Are you heading down this road? You know it's a dead end, right?", "thehouseoftwain-twendle-1", false);
         addSound("[1/2] Twendle: I guess I put my faith in the right person. My history lies within these pages, and I don't intend to keep them secret. I shall make them public.", "thehouseoftwain-twendle-2", false);
+        addSound("[1/1] Twendle: I know uncovering the truth is never easy, but keep trying, please bring me [1 Twain Journal].", "thehouseoftwain-twendle-3", false);
+        addSound("[1/1] Twendle: Thank you again for all of your help!", "thehouseoftwain-twendle-4", false);
+        addSound("[1/1] Twendle: Greetings traveller! I am on a personal quest, but I'm not sure you're any use to me. I doubt you can even enter the mansion. Come back when you are level 49.", "thehouseoftwain-twendle-5", false);
 
         //Tower of Ascension
         addSound("[1/11] Ankou: Hehehe... Hello there.", "towerofascension-ankou-1", false);
