@@ -16319,6 +16319,19 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:ajourneyfurther-aledar-71", "stream": true}]
   },
+  "ajourneyfurther-eye-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneyfurther-eye-1", "stream": true}]
+  },
+  "ajourneyfurther-eye-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneyfurther-eye-2", "stream": true}]
+  },
+  "ajourneyfurther-eye-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ajourneyfurther-eye-3", "stream": true}]
+  },
+
 
 
 

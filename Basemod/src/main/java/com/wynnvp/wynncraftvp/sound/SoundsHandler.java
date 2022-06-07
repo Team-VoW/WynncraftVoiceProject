@@ -3536,6 +3536,10 @@ public class SoundsHandler {
         addSound("[18/20] Aledar: The monster w-watching us...", "ajourneyfurther-aledar-70", true);
         addSound("[19/20] Aledar: AAAAGH!!", "ajourneyfurther-aledar-71", true);
 
+        addSound("[1/1] ???:", "ajourneyfurther-eye-1", true);
+        addSound("[20/20] ???:", "ajourneyfurther-eye-2", true);
+        addSound("1/1theeye", "ajourneyfurther-eye-3", true);
+
         //Jungle Fever
         addSound("[1/6] Worid: Oh, I am so happy to see you! *cough*, I caught a very bad fever, and I really need help! *cough*", "junglefever-worid-1", false);
         addSound("1/2thebanker64liquifiedemeralds?heiscrazy!liquifiedemeraldscannotcureanyonefromanythingexceptbeingpoor!", "junglefever-thebanker-1", false);
