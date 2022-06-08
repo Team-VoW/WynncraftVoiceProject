@@ -5,15 +5,18 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
-import java.util.HashMap;
+import java.util.*;
 
 import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
 public class SoundsHandler {
-    public HashMap<String, CustomSoundClass> sounds;
+
+    private final List<SoundObject> sounds;
+    //public HashMap<String, CustomSoundClass> sounds;
 
     public SoundsHandler() {
-        sounds = new HashMap<>();
+        //sounds = new HashMap<>();
+        sounds = new ArrayList<>();
         registerSounds();
     }
 
@@ -27,9 +30,13 @@ public class SoundsHandler {
 
     private void addSound(String message, String name, boolean movingSound) {
         message = formatToLineData(message).getSoundLine();
-        sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
+        //sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
+        sounds.add(new SoundObject(message, name, new CustomSoundClass(registerSound(name), movingSound)));
     }
 
+    public Optional<SoundObject> find(String message) {
+        return sounds.stream().filter(f -> f.getMessageKey().equalsIgnoreCase(message)).findAny();
+    }
 
     public void registerSounds() {
         //Talking Mushroom

@@ -2,6 +2,7 @@ package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
+import com.wynnvp.wynncraftvp.packet.PacketIncomingFilter;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.text.TextComponentString;
@@ -17,8 +18,13 @@ import java.util.TimerTask;
 public class JoinServerEvent {
 
     private static final DecimalFormat df = new DecimalFormat("0.00");
+
     @SubscribeEvent
     public static void onServerJoin(FMLNetworkEvent.ClientConnectedToServerEvent event) {
+        //Inject filter of packets
+        event.getManager().channel().pipeline().addBefore("fml:packet_handler", ModCore.MODID + ":packet_filter", new PacketIncomingFilter());
+        ModCore.inServer = true;
+
         Timer timer = new Timer();
         //In 30 seconds
         timer.schedule(new SchedulerTask(), 10000L);

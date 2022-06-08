@@ -1,5 +1,7 @@
 package com.wynnvp.wynncraftvp.sound;
 
+import com.wynnvp.wynncraftvp.npc.NPCHandler;
+import com.wynnvp.wynncraftvp.npc.NPCNames;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.MovingSound;
 import net.minecraft.client.entity.EntityPlayerSP;
@@ -11,6 +13,7 @@ public class SoundAtPlayer extends MovingSound {
     public SoundAtPlayer(SoundEvent soundEvent){
         super(soundEvent, SoundCategory.VOICE);
     }
+
     @Override
     public void update(){
         //Plays the sound at the player

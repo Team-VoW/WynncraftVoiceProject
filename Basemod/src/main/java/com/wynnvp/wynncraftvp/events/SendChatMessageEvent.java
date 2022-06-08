@@ -2,6 +2,8 @@ package com.wynnvp.wynncraftvp.events;
 
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.npc.NPCHandler;
+import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.client.event.ClientChatEvent;
 import net.minecraftforge.event.CommandEvent;
@@ -19,5 +21,7 @@ public class SendChatMessageEvent {
         }
         Minecraft.getMinecraft().getSoundHandler().stopSounds();
         ModCore.instance.soundPlayer.clearCoolDown();
+        SoundPlayer.SPEAKING = false;
+        NPCHandler.getNamesHandlers().clear();
     }
 }
