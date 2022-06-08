@@ -1,19 +1,13 @@
 package com.wynnvp.wynncraftvp.npc;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
 import net.minecraft.util.math.Vec3d;
 
 import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
-@Getter
-@AllArgsConstructor
 public class NPCHandler {
 
-    @Getter
     private static final Set<NPCHandler> namesHandlers = new HashSet<>();
 
     public static NPCHandler add(String name, int x, int y, int z) {
@@ -48,8 +42,12 @@ public class NPCHandler {
     //OBJECT
     private final String name;
 
-    @Setter
     private Vec3d vector;
+
+    public NPCHandler(String name, Vec3d vector) {
+        this.name = name;
+        this.vector = vector;
+    }
 
     public NPCHandler create() {
         namesHandlers.remove(this);
@@ -57,4 +55,19 @@ public class NPCHandler {
         return this;
     }
 
+    public static Set<NPCHandler> getNamesHandlers() {
+        return namesHandlers;
+    }
+
+    public Vec3d getVector() {
+        return vector;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setVector(Vec3d vector) {
+        this.vector = vector;
+    }
 }

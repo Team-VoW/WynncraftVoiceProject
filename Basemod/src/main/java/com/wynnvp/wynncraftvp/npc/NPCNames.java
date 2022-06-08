@@ -1,12 +1,7 @@
 package com.wynnvp.wynncraftvp.npc;
 
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-
 import java.util.Arrays;
 
-@Getter
-@RequiredArgsConstructor
 public enum NPCNames {
 
     // Class to add the new NPCs, the raw name is his name!
@@ -30,6 +25,19 @@ public enum NPCNames {
 
     private final String rawName;
     private final String id;
+
+    public String getRawName() {
+        return rawName;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    NPCNames(String rawName, String id) {
+        this.rawName = rawName;
+        this.id = id;
+    }
 
     public static boolean contains(String rawName) {
         return Arrays.stream(NPCNames.values()).anyMatch(f -> f.getRawName().equalsIgnoreCase(rawName) || (f.getId() != null && f.getId().equalsIgnoreCase(rawName)));

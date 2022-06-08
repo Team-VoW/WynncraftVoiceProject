@@ -1,14 +1,26 @@
 package com.wynnvp.wynncraftvp.sound;
 
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-
-@Getter
-@RequiredArgsConstructor
 public class SoundObject {
 
     private final String messageKey;
     private final String npcName;
     private final CustomSoundClass customSoundClass;
 
+    public SoundObject(String messageKey, String npcName, CustomSoundClass customSoundClass) {
+        this.messageKey = messageKey;
+        this.npcName = npcName;
+        this.customSoundClass = customSoundClass;
+    }
+
+    public String getMessageKey() {
+        return messageKey;
+    }
+
+    public String getNpcName() {
+        return npcName;
+    }
+
+    public CustomSoundClass getCustomSoundClass() {
+        return customSoundClass;
+    }
 }

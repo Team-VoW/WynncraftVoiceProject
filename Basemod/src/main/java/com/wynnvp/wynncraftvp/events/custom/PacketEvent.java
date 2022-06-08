@@ -3,12 +3,10 @@ package com.wynnvp.wynncraftvp.events.custom;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandler;
-import lombok.Getter;
 import net.minecraft.client.network.NetHandlerPlayClient;
 import net.minecraft.network.Packet;
 import net.minecraftforge.fml.common.eventhandler.GenericEvent;
 
-@Getter
 public class PacketEvent<T extends Packet<?>> extends GenericEvent<T> {
 
     final T packet;
@@ -22,6 +20,22 @@ public class PacketEvent<T extends Packet<?>> extends GenericEvent<T> {
         this.playClient = playClient;
         this.handler = handler;
         this.ctx = ctx;
+    }
+
+    public T getPacket() {
+        return packet;
+    }
+
+    public NetHandlerPlayClient getPlayClient() {
+        return playClient;
+    }
+
+    public ChannelHandler getHandler() {
+        return handler;
+    }
+
+    public ChannelHandlerContext getCtx() {
+        return ctx;
     }
 
     @Override
