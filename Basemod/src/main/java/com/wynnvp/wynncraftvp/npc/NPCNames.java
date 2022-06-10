@@ -9,42 +9,75 @@ public enum NPCNames {
     // top of his head, the id is in case the name in
     // SoundHandler is archiving it differently
 
-    NONE("null", null),
-    ANKOU("ankou", null),
-    TYKO("tyko", null),
-    LAEN("laen", null),
-    LEUCSAA("leucsaa", null),
-    MYLO("mylo", null),
-    ENZAN("enzan", null),
-    TASIM("tasim", null),
-    CARAVAN_DRIVER("caravan driver", "caravandriver"),
-    GUARD("guard", null),
-    SOLDIER("soldier", null),
-    ALEDAR("aledar", null),
-    RAGNI_KING("ragni's king", "ragnisking");
+    NONE("null"),
+
+    //KING'S RECRUIT
+    TASIM("tasim"),
+    CARAVAN_DRIVER("caravandriver"),
+    GUARD("guard"),
+    SOLDIER("soldier"),
+    ALEDAR("aledar"),
+    RAGNIS_KING("ragnisking"),
+
+    //ENZAN'S BROTHER
+    ENZAN("enzan"),
+    THERCK("therck"),
+
+    //POISONING THE PEST
+    FARMER_CEVALUS("farmercevalus"),
+
+    //COOK ASSISTANT
+    THE_COOK("thecook"),
+    BORED_FARMER("boredfarmer"),
+
+    //INFESTED PLANT
+    OPE("ope"),
+
+    //THE SEWERS OF RAGNI
+    JENPREST("jenprest"),
+    QUESTIONMARK("questionmark"),
+
+    //TUNNEL TROUBLE
+    BYLVIS("bylvis"),
+    CAPTAIN_FENOR("captainfenor"),
+    MINER_LINTON(""),
+
+    ANKOU("ankou"),
+    TYKO("tyko"),
+    LAEN("laen"),
+    LEUCSAA("leucsaa"),
+    MYLO("mylo"),
+
+    TALKING_MUSHROOM("talkingmushroom"),
+    SEASKIPPER_CAPTAIN("seaskippercaptain"),
+    JAVIER("javier"),
+    DECEASED_BUCCANEER("deceasedbuccaneer"),
+    DALBEN("dalben"),
+    SEASUM("seasum"),
+    BOAT_CAPTAIN("boatcaptain"),
+    MAMUI("mamui"),
+    STUDENT("student"),
+    CIDRE("cidre"),
+    UNA("una"),
+    HEADMASTER("headmaster"),
+    GHOST_GUIDE("ghostguide"),
+    TEACHER("teacher"),
+
+    //DECREPIT SEWERS
+    WITHERHEAD("witherhead");
 
     private final String rawName;
-    private final String id;
 
     public String getRawName() {
         return rawName;
     }
 
-    public String getId() {
-        return id;
-    }
-
-    NPCNames(String rawName, String id) {
+    NPCNames(String rawName) {
         this.rawName = rawName;
-        this.id = id;
     }
 
     public static boolean contains(String rawName) {
-        return Arrays.stream(NPCNames.values()).anyMatch(f -> f.getRawName().equalsIgnoreCase(rawName) || (f.getId() != null && f.getId().equalsIgnoreCase(rawName)));
-    }
-
-    public static NPCNames get(String name) {
-        return Arrays.stream(NPCNames.values()).filter(f -> f.getRawName().equalsIgnoreCase(name) || (f.getId() != null && f.getId().equalsIgnoreCase(name))).findAny().orElse(NPCNames.NONE);
+        return Arrays.stream(NPCNames.values()).anyMatch(f -> f.getRawName().equalsIgnoreCase(rawName));
     }
 
 }

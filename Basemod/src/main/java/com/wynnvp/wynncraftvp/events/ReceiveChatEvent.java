@@ -18,7 +18,6 @@ public class ReceiveChatEvent {
     private static final Vector3f mixedFeelingsNPC2 = new Vector3f(-5835, 16, -2463);
     private static final Vector3f mixedFeelingsNPC3 = new Vector3f(-5807, 16, -2421);
 
-
     @SubscribeEvent
     public static void receivedChat(ClientChatReceivedEvent event) {
         String msg = event.getMessage().getUnformattedText();
@@ -28,7 +27,7 @@ public class ReceiveChatEvent {
 
         if (msg.contains(name)) {
             msg = msg.replace(name, "soldier");
-            System.out.println("Replaced player name!");
+            //System.out.println("Replaced player name!");
         }
 
 
@@ -64,7 +63,7 @@ public class ReceiveChatEvent {
     }
 
     private static String GetRightMixedFeelingsLine(String fileName, String msg) {
-        Boolean foundMsg = false;
+        boolean foundMsg = false;
 
         if (msg.equalsIgnoreCase("2/5corkuscitycitizencorkushasbeenurgingtouristsandenvoysfromtheotherprovincestogainrecognition")) {
             fileName = fileName + "1";

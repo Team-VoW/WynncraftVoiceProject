@@ -4,6 +4,7 @@ import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
 import com.wynnvp.wynncraftvp.npc.NPCNames;
+import com.wynnvp.wynncraftvp.npc.QuestMarkHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.SoundCategory;
@@ -18,7 +19,7 @@ import java.util.Optional;
 public class SoundPlayer {
     private final ArrayList<String> latestSoundPlayed;
     private final LineReporter lineReporter;
-    public static boolean SPEAKING = false;
+    //public static boolean SPEAKING = false;
 
     public SoundPlayer() {
         latestSoundPlayed = new ArrayList<>();
@@ -41,11 +42,15 @@ public class SoundPlayer {
 
         //System.out.println("Playing sound: " + line);
         Minecraft.getMinecraft().getSoundHandler().stopSounds();
-        SPEAKING = false;
+        //SPEAKING = false;
         soundsHandler.find(line).ifPresent(sound -> {
             final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
             final SoundEvent soundEvent = customSoundClass.getSoundEvent();
-            SPEAKING = true;
+            //SPEAKING = true;
+
+            //Solves ArmorStand problem with ??? as name
+            //WARNING: not yet tested
+            QuestMarkHandler.put(getQuest(sound.getNpcName()));
 
             //If this is a moving sound or it is set to play all sounds on player
             if (customSoundClass.isMovingSound() || ConfigHandler.playAllSoundsOnPlayer) {
@@ -55,25 +60,26 @@ public class SoundPlayer {
                 return;
             }
 
-            NPCHandler.find(NPCNames.get(getId(sound.getNpcName()))).ifPresent(npc -> playSoundAtCoords(npc.getVector(), soundEvent));
+            //The sound will come out of the armorstand and follow it
+
+            Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, sound.getNpcName()));
             addSoundToCoolDown(line);
         });
-
     }
 
-    private String getId(String name) {
-        String id = "???";
+    private String getQuest(String name) {
+        String id = "none";
         if (name.contains("-")) {
             String[] args = name.split("-");
-            id = args[1];
+            id = args[0];
         }
         return id;
     }
 
-    private void playSoundAtCoords(Vec3d blockPos, SoundEvent soundEvent) {
+    /*private void playSoundAtCoords(Vec3d blockPos, SoundEvent soundEvent) {
         EntityPlayerSP player = Minecraft.getMinecraft().player;
         player.getEntityWorld().playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, 1, 1, false);
-    }
+    }*/
 
     private void addSoundToCoolDown(String soundName) {
         if (latestSoundPlayed.size() > 5) {

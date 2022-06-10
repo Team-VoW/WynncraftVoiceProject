@@ -23,7 +23,6 @@ public class LineReporter {
     public void MissingLine(LineData lineData) {
         if (!ConfigHandler.logMissingLines) return;
 
-
         if (!LineFormatter.isNPCSentLine(lineData.getRealLine())) {
             return;
         }
@@ -45,7 +44,6 @@ public class LineReporter {
             }
         });
     }
-
 
     private void reportUnvoicedLine(LineData lineData) throws IOException {
 
