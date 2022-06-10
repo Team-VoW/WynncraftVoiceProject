@@ -2,18 +2,12 @@ package com.wynnvp.wynncraftvp.sound;
 
 public class SoundObject {
 
-    private final String messageKey;
     private final String npcName;
     private final CustomSoundClass customSoundClass;
 
-    public SoundObject(String messageKey, String npcName, CustomSoundClass customSoundClass) {
-        this.messageKey = messageKey;
+    public SoundObject(String npcName, CustomSoundClass customSoundClass) {
         this.npcName = npcName;
         this.customSoundClass = customSoundClass;
-    }
-
-    public String getMessageKey() {
-        return messageKey;
     }
 
     public String getNpcName() {

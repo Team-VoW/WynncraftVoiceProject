@@ -11,12 +11,14 @@ import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
 public class SoundsHandler {
 
-    private final List<SoundObject> sounds;
-    //public HashMap<String, CustomSoundClass> sounds;
+    //private final List<SoundObject> sounds;
+    private final HashMap<String, SoundObject> sounds;
+    private final Set<String> npcNames;
 
     public SoundsHandler() {
-        //sounds = new HashMap<>();
-        sounds = new ArrayList<>();
+        sounds = new HashMap<>();
+        npcNames = new HashSet<>();
+        //sounds = new ArrayList<>();
         registerSounds();
     }
 
@@ -31,18 +33,24 @@ public class SoundsHandler {
     private void addSound(String message, String name, boolean movingSound) {
         message = formatToLineData(message).getSoundLine();
         //sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
-        sounds.add(new SoundObject(message, name, new CustomSoundClass(registerSound(name), movingSound)));
+        sounds.put(message, new SoundObject(name, new CustomSoundClass(registerSound(name), movingSound)));
+        npcNames.add(getName(name).replaceAll("[0-9]", ""));
+        //sounds.add(new SoundObject(message, name, new CustomSoundClass(registerSound(name), movingSound)));
+    }
+
+    public boolean containsName(String rawName) {
+        return npcNames.contains(rawName);
     }
 
     public Optional<SoundObject> find(String message) {
-        return sounds.stream().filter(f -> f.getMessageKey().equalsIgnoreCase(message)).findAny();
+        return Optional.ofNullable(sounds.get(message));
     }
 
     public String getNPCName(String quest) {
-        return sounds.stream().filter(f -> f.getNpcName().contains("-") &&
-                f.getNpcName().contains(quest) &&
-                f.getMessageKey().contains("???:")).map(map ->
-                map.getNpcName().split("-")[1])
+        return sounds.entrySet().stream().filter(entry -> entry.getValue().getNpcName().contains("-") &&
+                entry.getValue().getNpcName().contains(quest)
+                && entry.getKey().contains("???:")).map(map ->
+                map.getValue().getNpcName().split("-")[1])
                 .findAny().orElse(null);
     }
 
@@ -1680,7 +1688,7 @@ public class SoundsHandler {
         addSound("[1/3] Tasim: So this is Wynn, huh?", "kingsrecruit-tasim-6", false);
         addSound("[2/3] Aledar: It looks nice. The war clearly hasn't made it this far.", "kingsrecruit-aledar-7", false);
 
-        addSound("[3/3] Soldier: Hey, you three! Come over here.", "kingsrecruit-soldier1-1", false);
+        addSound("[3/3] Soldier: Hey, you three! Come over here.", "kingsrecruit-soldier1-1", true);
         addSound("[1/4] Tasim: A soldier! What are you doing here?", "kingsrecruit-tasim-7", false);
         addSound("[2/4] Soldier: There's a bit of trouble up ahead. You can't expect to get out of here alive if you aren't prepared.", "kingsrecruit-soldier1-2", false);
         addSound("[3/4] Soldier: There's a cave right there. Those often contain useful loot, I'd give it a try if I were you. Enter the cave and find some armour.", "kingsrecruit-soldier1-3", false);
@@ -4638,7 +4646,16 @@ public class SoundsHandler {
     }
 
 
-
+    private String getName(String name) {
+        String id = "???";
+        if (name.contains("-")) {
+            String[] args = name.split("-");
+            id = args[1];
+        } else if (name.contains("talkingmushroom")) {
+            id = "talkingmushroom";
+        }
+        return id;
+    }
 
 
 

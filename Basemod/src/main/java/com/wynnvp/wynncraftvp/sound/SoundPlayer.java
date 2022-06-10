@@ -2,19 +2,11 @@ package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
-import com.wynnvp.wynncraftvp.npc.NPCHandler;
-import com.wynnvp.wynncraftvp.npc.NPCNames;
 import com.wynnvp.wynncraftvp.npc.QuestMarkHandler;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.entity.EntityPlayerSP;
-import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Vec3d;
-import net.minecraft.util.text.TextComponentString;
 
 import java.util.ArrayList;
-import java.util.Optional;
 
 public class SoundPlayer {
     private final ArrayList<String> latestSoundPlayed;

@@ -3,12 +3,10 @@ package com.wynnvp.wynncraftvp.events;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.events.custom.PacketEvent;
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
-import com.wynnvp.wynncraftvp.npc.NPCNames;
 import com.wynnvp.wynncraftvp.npc.QuestMarkHandler;
 import com.wynnvp.wynncraftvp.utils.StringBlacklist;
 import com.wynnvp.wynncraftvp.utils.reflection.ReflectionUtils;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.audio.SoundHandler;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityArmorStand;
@@ -116,7 +114,7 @@ public class ArmorCheckEvent {
             rawName = ModCore.instance.soundsHandler.getNPCName(quest);
         }
 
-        if (NPCNames.contains(rawName)) {
+        if (ModCore.instance.soundsHandler.containsName(rawName)) {
             NPCHandler.add(rawName, armorStand.getPositionVector());
         } else if (name.contains(TextFormatting.DARK_GREEN.toString()) || name.contains("Citizen")) {
             NPCHandler.add(rawName, armorStand.getPositionVector());
@@ -176,7 +174,7 @@ public class ArmorCheckEvent {
             rawName = ModCore.instance.soundsHandler.getNPCName(quest);
         }
 
-        if (NPCNames.contains(rawName)) {
+        if (ModCore.instance.soundsHandler.containsName(rawName)) {
             updateVelocity(rawName, armorStand);
         } else if (name.contains(TextFormatting.DARK_GREEN.toString()) || name.contains("Citizen")) {
             updateVelocity(rawName, armorStand);
