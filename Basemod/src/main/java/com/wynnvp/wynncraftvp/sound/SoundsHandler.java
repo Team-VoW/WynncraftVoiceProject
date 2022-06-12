@@ -30,27 +30,41 @@ public class SoundsHandler {
         return event;
     }
 
-    private void addSound(String message, String name, boolean movingSound) {
-        message = formatToLineData(message).getSoundLine();
-        //sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
-        sounds.put(message, new SoundObject(name, new CustomSoundClass(registerSound(name), movingSound)));
-        addName(message, name);
-        //sounds.add(new SoundObject(message, name, new CustomSoundClass(registerSound(name), movingSound)));
+    /**
+     * Method to add the sounds to the system
+     * @param message Identification message
+     * @param id Identification sound
+     * @param movingSound True if the sound moves with the player,
+     *                    otherwise it will move with the ArmorStand
+     * */
+    private void addSound(String message, String id, boolean movingSound) {
+        LineData lineData = formatToLineData(message);
+        npcNames.add(lineData.getNPCName());
+        message = lineData.getSoundLine();
+        sounds.put(message, new SoundObject(lineData.getNPCName(), id, new CustomSoundClass(registerSound(id), movingSound)));
     }
 
     public boolean containsName(String rawName) {
         return npcNames.contains(rawName);
     }
 
-    public Optional<SoundObject> find(String message) {
+    public Optional<SoundObject> get(String message) {
         return Optional.ofNullable(sounds.get(message));
     }
 
+    public String findNPCName(String id) {
+        return sounds.values().stream()
+                .filter(soundObject -> soundObject.getId().equalsIgnoreCase(id))
+                .map(SoundObject::getNpcName)
+                .findAny()
+                .orElse("");
+    }
+
     public String getNPCName(String quest) {
-        return sounds.entrySet().stream().filter(entry -> entry.getValue().getNpcName().contains("-") &&
-                entry.getValue().getNpcName().contains(quest)
+        return sounds.entrySet().stream().filter(entry -> entry.getValue().getId().contains("-") &&
+                entry.getValue().getId().contains(quest)
                 && entry.getKey().contains("???:")).map(map ->
-                map.getValue().getNpcName().split("-")[1])
+                map.getValue().getNpcName())
                 .findAny().orElse(null);
     }
 
@@ -4638,7 +4652,6 @@ public class SoundsHandler {
         addSound("[1/1] Corrupted Arakadicus: Don't mind our other guest back there. He had such a bitter taste. However, my babies think you look delicious... hehehe...", "cip-corruptedarakadicus-3", true);
         addSound("[1/1] Corrupted Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!", "cip-corruptedarakadicus-4", true);
 
-
         //Non quest npc
         addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
         addSound("[1/4] Ragni Guard: Welcome to Ragni, new recruit. How's Fruma these days? Ah right, directions.", "nonquestnpc-mainragniguard-1", false);
@@ -4654,7 +4667,8 @@ public class SoundsHandler {
     }
 
     public static String getNameForMessage(String message) {
-        return message.split(": ")[0].trim().toLowerCase().replaceAll("[^a-zA-Z0-9]", "").replaceAll("[0-9]", "");
+        String split = message.split(": ")[0];
+        return split.trim().toLowerCase().replaceAll("[^a-zA-Z0-9]", "").replaceAll("[0-9]", "");
     }
 
     public static String getNameForId(String name) {

@@ -20,24 +20,12 @@ public class SoundAtArmorStand extends MovingSound {
     @Override
     public void update() {
         if (rawName.isEmpty()) {
-            EntityPlayerSP playerSP = Minecraft.getMinecraft().player;
-            this.xPosF = (float)playerSP.posX;
-            this.zPosF = (float)playerSP.posZ;
-            this.yPosF = (float)playerSP.posY;
             return;
         }
-        if (NPCHandler.getNamesHandlers().containsKey(rawName)) {
-            Vec3d vector = NPCHandler.find(rawName);
-            this.xPosF = (float)vector.x;
-            this.zPosF = (float)vector.z;
-            this.yPosF = (float)vector.y;
-            //SoundPlayer.SPEAKING = true;
-        } else {
-            EntityPlayerSP playerSP = Minecraft.getMinecraft().player;
-            this.xPosF = (float)playerSP.posX;
-            this.zPosF = (float)playerSP.posZ;
-            this.yPosF = (float)playerSP.posY;
-        }
+        Vec3d vector = NPCHandler.find(rawName);
+        this.xPosF = (float)vector.x;
+        this.zPosF = (float)vector.z;
+        this.yPosF = (float)vector.y;
     }
 
 
