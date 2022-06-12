@@ -14923,6 +14923,15 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:losttower-laen-2", "stream": true}]
   },
+  "losttower-laen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:losttower-laen-3", "stream": true}]
+  },
+  "losttower-laen-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:losttower-laen-4", "stream": true}]
+  },
+
 
 
   "fateofthefallen-telvu-1": {

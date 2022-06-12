@@ -2504,6 +2504,8 @@ public class SoundsHandler {
         //Lost Tower
         addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);
         addSound("[1/1] Laen: Great! This will be very interesting to read, thank you!", "losttower-laen-2", false);
+        addSound("[1/1] Laen: I have a task for you, but you are...perhaps a bit ill-equipped? Come back when you are level 26.", "losttower-laen-3", false);
+        addSound("[1/1] Laen: Thank you for your help!", "losttower-laen-4", false);
 
         //Pirates Trove
         addSound("[1/8] Damiral: Lo, adventurer! Welcome to the great province of Gavel, home of the villager race, and yours truly. You'll be headed into the grand citadel of Llevigar soon!", "piratestrove-damiral-1", false);
