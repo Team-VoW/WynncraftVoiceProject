@@ -7,9 +7,15 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.util.SoundEvent;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import static com.wynnvp.wynncraftvp.sound.SoundsHandler.getNameForId;
+import static com.wynnvp.wynncraftvp.sound.SoundsHandler.getNameForMessage;
 
 public class SoundPlayer {
-    private final ArrayList<String> latestSoundPlayed;
+    private final List<String> latestSoundPlayed;
     private final LineReporter lineReporter;
     //public static boolean SPEAKING = false;
 
@@ -34,11 +40,9 @@ public class SoundPlayer {
 
         //System.out.println("Playing sound: " + line);
         Minecraft.getMinecraft().getSoundHandler().stopSounds();
-        //SPEAKING = false;
         soundsHandler.find(line).ifPresent(sound -> {
             final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
             final SoundEvent soundEvent = customSoundClass.getSoundEvent();
-            //SPEAKING = true;
 
             //Solves ArmorStand problem with ??? as name
             //WARNING: not yet tested
@@ -53,8 +57,8 @@ public class SoundPlayer {
             }
 
             //The sound will come out of the armorstand and follow it
-
-            Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, sound.getNpcName()));
+            String rawName = getRawName(line, sound.getNpcName());
+            Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, rawName));
             addSoundToCoolDown(line);
         });
     }
@@ -68,10 +72,13 @@ public class SoundPlayer {
         return id;
     }
 
-    /*private void playSoundAtCoords(Vec3d blockPos, SoundEvent soundEvent) {
-        EntityPlayerSP player = Minecraft.getMinecraft().player;
-        player.getEntityWorld().playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, 1, 1, false);
-    }*/
+    private String getRawName(String message, String name) {
+        String npcName = getNameForMessage(message);
+        if (npcName.isEmpty()) {
+            npcName = getNameForId(name);
+        }
+        return npcName;
+    }
 
     private void addSoundToCoolDown(String soundName) {
         if (latestSoundPlayed.size() > 5) {

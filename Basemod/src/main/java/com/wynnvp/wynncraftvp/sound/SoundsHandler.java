@@ -34,7 +34,7 @@ public class SoundsHandler {
         message = formatToLineData(message).getSoundLine();
         //sounds.put(message, new CustomSoundClass(registerSound(name), movingSound));
         sounds.put(message, new SoundObject(name, new CustomSoundClass(registerSound(name), movingSound)));
-        npcNames.add(getName(name).replaceAll("[0-9]", ""));
+        addName(message, name);
         //sounds.add(new SoundObject(message, name, new CustomSoundClass(registerSound(name), movingSound)));
     }
 
@@ -4645,8 +4645,19 @@ public class SoundsHandler {
         addSound("[1/2] Ragni Guard: Welcome back, I suppose you're a Wynn citizen now. I've heard quite a few things about your deeds throughout the province.", "nonquestnpc-mainragniguard-2", false);
     }
 
+    private void addName(String message, String name) {
+        String npcName = getNameForMessage(message);
+        if (npcName.isEmpty()) {
+            npcName = getNameForId(name);
+        }
+        npcNames.add(npcName);
+    }
 
-    private String getName(String name) {
+    public static String getNameForMessage(String message) {
+        return message.split(": ")[0].trim().toLowerCase().replaceAll("[^a-zA-Z0-9]", "").replaceAll("[0-9]", "");
+    }
+
+    public static String getNameForId(String name) {
         String id = "???";
         if (name.contains("-")) {
             String[] args = name.split("-");

@@ -107,7 +107,7 @@ public class ArmorCheckEvent {
         if (StringBlacklist.has(rawName)) return;
 
         //Get rawname if original is ???
-        if (rawName.equalsIgnoreCase("???")) {
+        if (rawName.contains("???")) {
             String quest = QuestMarkHandler.getWichQuest().get(rawName);
             if (quest == null || quest.isEmpty()) return;
             //Get by quest
@@ -167,7 +167,7 @@ public class ArmorCheckEvent {
         if (StringBlacklist.has(rawName)) return;
 
         //Get rawname if original is ???
-        if (rawName.equalsIgnoreCase("???")) {
+        if (rawName.contains("???")) {
             String quest = QuestMarkHandler.getWichQuest().get(rawName);
             if (quest == null || quest.isEmpty()) return;
             //Get by quest
