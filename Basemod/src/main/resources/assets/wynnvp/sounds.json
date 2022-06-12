@@ -2536,6 +2536,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:themercenary-amerigo-2", "stream": true}]
   },
+  "themercenary-amerigo-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-3", "stream": true}]
+  },
+  "themercenary-amerigo-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-4", "stream": true}]
+  },
+  "themercenary-amerigo-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-5", "stream": true}]
+  },
 
 
 
