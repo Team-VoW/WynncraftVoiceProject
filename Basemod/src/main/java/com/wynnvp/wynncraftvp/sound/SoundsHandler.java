@@ -1658,6 +1658,9 @@ public class SoundsHandler {
         //The Mercenary
         addSound("[1/10] Amerigo: I have no time for you, stranger! Almuj's army is in panic!", "themercenary-amerigo-1", false);
         addSound("[1/9] Amerigo: Stranger, report!", "themercenary-amerigo-2", false);
+        addSound("[1/1] Amerigo: I have no time for you, stranger! Run along.", "themercenary-amerigo-3", false);
+        addSound("[1/1] Amerigo: I need you to assassinate Commander Takan! Hurry stranger!", "themercenary-amerigo-4", false);
+        addSound("[1/1] Amerigo: Keep that bracelet around! I am certain you will find it useful.", "themercenary-amerigo-5", false);
         addSound("[1/8] Mylo: These are dark times, weary traveler! Nemract is at its weakest!", "themercenary-mylo-1", false);
         addSound("[1/3] Takan: The commanding officers are aristocrats, all of them! They deserve to suffer for their selfishness!", "themercenary-takan-1", true);
         addSound("[2/3] Takan: Now that we have taken over their barracks, we can take over all of Wynn and make them suffer!", "themercenary-takan-2", true);
@@ -2544,6 +2547,8 @@ public class SoundsHandler {
         //Lost Tower
         addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);
         addSound("[1/1] Laen: Great! This will be very interesting to read, thank you!", "losttower-laen-2", false);
+        addSound("[1/1] Laen: I have a task for you, but you are...perhaps a bit ill-equipped? Come back when you are level 26.", "losttower-laen-3", false);
+        addSound("[1/1] Laen: Thank you for your help!", "losttower-laen-4", false);
 
         //Pirates Trove
         addSound("[1/8] Damiral: Lo, adventurer! Welcome to the great province of Gavel, home of the villager race, and yours truly. You'll be headed into the grand citadel of Llevigar soon!", "piratestrove-damiral-1", false);
