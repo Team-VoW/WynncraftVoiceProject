@@ -23,11 +23,8 @@ public class LineData {
     }
 
     public String getNPCName(){
-          String name = realLine.substring(realLine.indexOf(']'));
-          name = name.substring(1);
-          name = name.trim();
-          name = name.split(":")[0];
-          return name;
+        String[] split = realLine.split(": ");
+        return split[0].trim().toLowerCase().replaceAll("[^a-zA-Z0-9]", "").replaceAll("[0-9]", "");
     }
 
 }

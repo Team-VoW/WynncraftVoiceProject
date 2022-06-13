@@ -92,8 +92,6 @@ public class ArmorCheckEvent {
         final Entity entity = Minecraft.getMinecraft().world.getEntityByID(event.getPacket().getEntityId());
         if (entity == null) return;
         if (entity instanceof EntityArmorStand) {
-            /*final boolean visible = ReflectionUtils.isNameVisibleFromMetadata(event.getPacket().getDataManagerEntries());
-            if (!visible) return;*/
             final String name = ReflectionUtils.getNameFromMetadata(event.getPacket().getDataManagerEntries());
             if (name == null || name.isEmpty()) return;
             final EntityArmorStand armorStand = (EntityArmorStand) entity;
@@ -107,7 +105,7 @@ public class ArmorCheckEvent {
         if (StringBlacklist.has(rawName)) return;
 
         //Get rawname if original is ???
-        if (rawName.equalsIgnoreCase("???")) {
+        if (rawName.contains("???")) {
             String quest = QuestMarkHandler.getWichQuest().get(rawName);
             if (quest == null || quest.isEmpty()) return;
             //Get by quest
@@ -167,7 +165,7 @@ public class ArmorCheckEvent {
         if (StringBlacklist.has(rawName)) return;
 
         //Get rawname if original is ???
-        if (rawName.equalsIgnoreCase("???")) {
+        if (rawName.contains("???")) {
             String quest = QuestMarkHandler.getWichQuest().get(rawName);
             if (quest == null || quest.isEmpty()) return;
             //Get by quest
