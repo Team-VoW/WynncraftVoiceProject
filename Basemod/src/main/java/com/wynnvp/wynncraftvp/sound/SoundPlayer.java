@@ -42,6 +42,16 @@ public class SoundPlayer {
             return;
         }
 
+        if (Minecraft.getMinecraft().player == null) {
+            System.out.println("Player is null! Sound not played.");
+            return;
+        }
+
+        if (Minecraft.getMinecraft().world == null) {
+            System.out.println("World is null! Sound not played.");
+            return;
+        }
+
         //System.out.println("Playing sound: " + line);
         Minecraft.getMinecraft().getSoundHandler().stopSounds();
         soundsHandler.get(line).ifPresent(sound -> {
@@ -63,7 +73,12 @@ public class SoundPlayer {
             //The sound will come out of the armorstand and follow it
             String rawName = getRawName(sound.getId());
             if (NPCHandler.getNamesHandlers().containsKey(rawName)) {
-                Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, rawName));
+                Vec3d vector = NPCHandler.find(rawName);
+                if (Minecraft.getMinecraft().player.getDistance(vector.x, vector.y, vector.z) >= 20) {
+                    playSoundAtCoords(Minecraft.getMinecraft().player.getPositionVector(), soundEvent);
+                } else {
+                    Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, rawName));
+                }
             } else {
                 playSoundAtCoords(Minecraft.getMinecraft().player.getPositionVector(), soundEvent);
             }
