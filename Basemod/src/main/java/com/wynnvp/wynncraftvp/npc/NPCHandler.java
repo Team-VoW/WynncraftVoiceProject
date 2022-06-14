@@ -20,10 +20,21 @@ public class NPCHandler {
     }
 
     //Get the closest armorstand
+    //WARNING: System in test
     public static Vec3d find(String rawNames) {
-        return namesHandlers.get(rawNames).stream().sorted((o1, o2) ->
-                (int) (o1.length() - o2.length())).findAny().orElse(new Vec3d(0, 0, 0));
+        Vec3d result = new Vec3d(0, 0, 0);
+        List<Vec3d> list = namesHandlers.get(rawNames);
+        try {
+            result = list.stream().sorted(Comparator.comparingDouble(Vec3d::lengthSquared)).findAny().orElse(result);
+        } catch (IllegalArgumentException exception) {
+            result = list.stream().findAny().orElse(result);
+        }
+        return result;
     }
+
+    /*public static Vec3d find(String rawNames) {
+        return namesHandlers.get(rawNames).stream().findAny().orElse(new Vec3d(0, 0, 0));
+    }*/
 
     public static void remove(String name) {
         namesHandlers.remove(name);

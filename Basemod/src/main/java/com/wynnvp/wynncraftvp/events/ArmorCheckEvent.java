@@ -45,7 +45,9 @@ public class ArmorCheckEvent {
     public void onPacketTeleport(PacketEvent.Incoming<SPacketEntityTeleport> event) {
         if (!ModCore.inServer) return;
 
+        if (Minecraft.getMinecraft().world == null) return;
         final Entity entity = Minecraft.getMinecraft().world.getEntityByID(event.getPacket().getEntityId());
+        if (entity == null) return;
         if (entity instanceof EntityArmorStand) {
             final EntityArmorStand armorStand = (EntityArmorStand) entity;
             updateVector(armorStand);
@@ -56,7 +58,9 @@ public class ArmorCheckEvent {
     public void onPacketVelocity(PacketEvent.Incoming<SPacketEntityVelocity> event) {
         if (!ModCore.inServer) return;
 
+        if (Minecraft.getMinecraft().world == null) return;
         final Entity entity = Minecraft.getMinecraft().world.getEntityByID(event.getPacket().getEntityID());
+        if (entity == null) return;
         if (entity instanceof EntityArmorStand) {
             final EntityArmorStand armorStand = (EntityArmorStand) entity;
             updateVector(armorStand);
@@ -68,6 +72,7 @@ public class ArmorCheckEvent {
     public void onPacketEntity(PacketEvent.Incoming<SPacketEntity> event) {
         if (!ModCore.inServer) return;
 
+        if (Minecraft.getMinecraft().world == null) return;
         final Entity entity = event.getPacket().getEntity(Minecraft.getMinecraft().world);
         if (entity instanceof EntityArmorStand) {
             final boolean visible = ReflectionUtils.isNameVisibleFromMetadata(entity.getDataManager().getAll());
@@ -89,6 +94,7 @@ public class ArmorCheckEvent {
         }
 
         if (event.getPacket().getDataManagerEntries().isEmpty()) return;
+        if (Minecraft.getMinecraft().world == null) return;
         final Entity entity = Minecraft.getMinecraft().world.getEntityByID(event.getPacket().getEntityId());
         if (entity == null) return;
         if (entity instanceof EntityArmorStand) {
@@ -113,8 +119,6 @@ public class ArmorCheckEvent {
         }
 
         if (ModCore.instance.soundsHandler.containsName(rawName)) {
-            NPCHandler.add(rawName, armorStand.getPositionVector());
-        } else if (name.contains(TextFormatting.DARK_GREEN.toString()) || name.contains("Citizen")) {
             NPCHandler.add(rawName, armorStand.getPositionVector());
         }/* else if (!StringBlacklist.has(rawName)) {
                 if (name.contains(TextFormatting.DARK_GREEN.toString()) || name.contains("Citizen")) {
@@ -173,8 +177,6 @@ public class ArmorCheckEvent {
         }
 
         if (ModCore.instance.soundsHandler.containsName(rawName)) {
-            updateVelocity(rawName, armorStand);
-        } else if (name.contains(TextFormatting.DARK_GREEN.toString()) || name.contains("Citizen")) {
             updateVelocity(rawName, armorStand);
         }
     }
