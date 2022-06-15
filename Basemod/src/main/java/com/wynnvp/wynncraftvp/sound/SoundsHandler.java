@@ -3444,6 +3444,20 @@ public class SoundsHandler {
         addSound("[25/27] Efena: Goodbye, Ava. Who knows, I might stop by sometimes. Maybe you'll have figured out that armour of yours.", "thefeathersflypart2-efena-76", false);
         addSound("[26/27] Ava: …soldier? If you stop by the Workshop later, I'll set up something for you as well.", "thefeathersflypart2-ava-151", false);
         addSound("[27/27] Ava: Bye. Thanks. For everything.", "thefeathersflypart2-ava-152", false);
+        //FF2 Post quest
+        addSound("[1/10] Nodise: Oh, greetings. I seldom see humans around these parts.", "thefeathersflypart2-nodise-9", false);
+        addSound("[2/10] Nodise: I'm from Corkus. You ought to have heard of it at one point.", "thefeathersflypart2-nodise-10", false);
+        addSound("[4/10] Nodise: We are part of the Council. Maybe we'll meet there someday.", "thefeathersflypart2-nodise-11", false);
+        addSound("[5/10] Nodise: So, what brings you here? I'm personally researching about the region.", "thefeathersflypart2-nodise-12", false);
+        addSound("[7/10] Nodise: sigh You seem to be a soldier of sorts. From Wynn, right? I've never been there.", "thefeathersflypart2-nodise-13", false);
+        addSound("[9/10] Nodise: You know, Sybil, sometimes you just have to go and take a leap of faith.", "thefeathersflypart2-nodise-14", false);
+        addSound("[10/10] Nodise: Hey, soldier, no point bothering you any longer. I have some research to do.", "thefeathersflypart2-nodise-15", false);
+        addSound("[1/12] Nodise: Oh... It's you. I wasn't expecting that. Remember the Corkian Council?", "thefeathersflypart2-nodise-16", false);
+        addSound("[1/1] Nodise: There are tensions, sure, but we're doing fine back home.", "thefeathersflypart2-nodise-17", false);
+
+
+
+
 
 
 
