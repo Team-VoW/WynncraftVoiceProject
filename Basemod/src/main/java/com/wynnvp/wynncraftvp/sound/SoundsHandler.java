@@ -1244,15 +1244,15 @@ public class SoundsHandler {
 
         //Blazing retribution
         addSound("[1/10] Detective Jackson: How can I go about this...? I can't get involved myself, and they won't let me near... Wait, a human?", "blazingretribution-detectivejackson-9", false);
-        addSound("[1/9] Detective Jackson: I see no axe in your hands, so I should assume neither Sablestone or Loamsprout had it.", "blazingretribution-detectivejackson-1", true);
-        addSound("[2/9] Detective Jackson: Wait, really? A stick was the most powerful weapon they had? And Loamsprout... threw their dinner at you?", "blazingretribution-detectivejackson-2", true);
-        addSound("[3/9] Detective Jackson: I can't believe this! How are those... those THINGS outsmarting us?! Are they shuffling the axe between camps?", "blazingretribution-detectivejackson-3", true);
-        addSound("[4/9] Detective Jackson: There are over a dozen camps between the Orcs and Goblins that they could be swapping it between!", "blazingretribution-detectivejackson-4", true);
-        addSound("[5/9] Detective Jackson: What if the GOBLINS get a hold of it?! They're the cleverest by half of all of them, so that could actually be a threat!", "blazingretribution-detectivejackson-5", true);
-        addSound("[6/9] Detective Jackson: Searching the camps one by one will be far too slow, gah!! How am I going to fix this?!", "blazingretribution-detectivejackson-6", true);
-        addSound("[7/9] Detective Jackson: There's Earthpit, and Cliffhearth, Shineridge and Stonecave, Sunspark, Mudspring, Holehold, I-", "blazingretribution-detectivejackson-7", true);
+        addSound("[1/9] Detective Jackson: I see no axe in your hands, so I should assume neither Sablestone or Loamsprout had it.", "blazingretribution-detectivejackson-1", false);
+        addSound("[2/9] Detective Jackson: Wait, really? A stick was the most powerful weapon they had? And Loamsprout... threw their dinner at you?", "blazingretribution-detectivejackson-2", false);
+        addSound("[3/9] Detective Jackson: I can't believe this! How are those... those THINGS outsmarting us?! Are they shuffling the axe between camps?", "blazingretribution-detectivejackson-3", false);
+        addSound("[4/9] Detective Jackson: There are over a dozen camps between the Orcs and Goblins that they could be swapping it between!", "blazingretribution-detectivejackson-4", false);
+        addSound("[5/9] Detective Jackson: What if the GOBLINS get a hold of it?! They're the cleverest by half of all of them, so that could actually be a threat!", "blazingretribution-detectivejackson-5", false);
+        addSound("[6/9] Detective Jackson: Searching the camps one by one will be far too slow, gah!! How am I going to fix this?!", "blazingretribution-detectivejackson-6", false);
+        addSound("[7/9] Detective Jackson: There's Earthpit, and Cliffhearth, Shineridge and Stonecave, Sunspark, Mudspring, Holehold, I-", "blazingretribution-detectivejackson-7", false);
         addSound("[8/9] ???: Fire! Stop!! I hold magic cutter! LISTEN TO GREGG'R!!", "blazingretribution-greggr-1", true);
-        addSound("[9/9] Detective Jackson: I- I can't believe it, that has to be the one! AFTER THAT ORC, NOW!!", "blazingretribution-detectivejackson-8", true);
+        addSound("[9/9] Detective Jackson: I- I can't believe it, that has to be the one! AFTER THAT ORC, NOW!!", "blazingretribution-detectivejackson-8", false);
         addSound("[1/4] Detective Jackson: That looks like the axe of Llevigar to me! Blue finish, hot to the touch- well done! What Orc boss had stolen it?", "blazingretribution-detectivejackson-10", false);
         addSound("[1/1] ???: GRRRH!! What 'Uthniiazek' mean?!", "blazingretribution-greggr-2", true);
         addSound("[1/1] Gregg'r: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO GREGG'R?", "blazingretribution-greggr-3", true);
@@ -3487,6 +3487,24 @@ public class SoundsHandler {
         addSound("[25/27] Efena: Goodbye, Ava. Who knows, I might stop by sometimes. Maybe you'll have figured out that armour of yours.", "thefeathersflypart2-efena-76", false);
         addSound("[26/27] Ava: …soldier? If you stop by the Workshop later, I'll set up something for you as well.", "thefeathersflypart2-ava-151", false);
         addSound("[27/27] Ava: Bye. Thanks. For everything.", "thefeathersflypart2-ava-152", false);
+        //FF2 Post quest
+        addSound("[1/10] Nodise: Oh, greetings. I seldom see humans around these parts.", "thefeathersflypart2-nodise-9", false);
+        addSound("[2/10] Nodise: I'm from Corkus. You ought to have heard of it at one point.", "thefeathersflypart2-nodise-10", false);
+        addSound("[3/10] Sybil: Of course they've heard of it, like, come on!", "thefeathersflypart2-sybil-13", false);
+        addSound("[4/10] Nodise: We are part of the Council. Maybe we'll meet there someday.", "thefeathersflypart2-nodise-11", false);
+        addSound("[5/10] Nodise: So, what brings you here? I'm personally researching about the region.", "thefeathersflypart2-nodise-12", false);
+        addSound("[6/10] Sybil: And I'm starting to get bored to death!", "thefeathersflypart2-sybil-14", false);
+        addSound("[7/10] Nodise: sigh You seem to be a soldier of sorts. From Wynn, right? I've never been there.", "thefeathersflypart2-nodise-13", false);
+        addSound("[8/10] Sybil: Uh, Nodise? There's a literal WAR over there? Of course we've never been there?!", "thefeathersflypart2-sybil-15", false);
+        addSound("[9/10] Nodise: You know, Sybil, sometimes you just have to go and take a leap of faith.", "thefeathersflypart2-nodise-14", false);
+        addSound("[10/10] Nodise: Hey, soldier, no point bothering you any longer. I have some research to do.", "thefeathersflypart2-nodise-15", false);
+        addSound("[1/1] Sybil: You think I can't go to Wynn?! Well, maybe I'll go alone!", "thefeathersflypart2-sybil-16", false);
+        addSound("[1/12] Nodise: Oh... It's you. I wasn't expecting that. Remember the Corkian Council?", "thefeathersflypart2-nodise-16", false);
+        addSound("[1/1] Nodise: There are tensions, sure, but we're doing fine back home.", "thefeathersflypart2-nodise-17", false);
+
+
+
+
 
 
 
