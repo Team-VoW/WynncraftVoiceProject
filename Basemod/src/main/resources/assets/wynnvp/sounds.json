@@ -6637,6 +6637,22 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:potionmaking-assistant-3", "stream": true}]
   },
+  "potionmaking-assistant-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-assistant-4", "stream": true}]
+  },
+  "potionmaking-assistant-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-assistant-5", "stream": true}]
+  },
+  "potionmaking-assistant-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-assistant-6", "stream": true}]
+  },
+  "potionmaking-assistant-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-assistant-7", "stream": true}]
+  },
   "potionmaking-dressren-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:potionmaking-dressren-1", "stream": true}]

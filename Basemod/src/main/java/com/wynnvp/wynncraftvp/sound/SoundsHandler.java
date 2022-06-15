@@ -1231,6 +1231,10 @@ public class SoundsHandler {
         addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmaking-assistant-1", false);
         addSound("[1/5] The Assistant: Good...good. You have the mushrooms.", "potionmaking-assistant-2", false);
         addSound("[1/3] The Assistant: I...must thank you, stranger...", "potionmaking-assistant-3", false);
+        addSound("[1/1] The Assistant: Heeh...stranger. I...may need your assistance...return when you are...Level 12.", "potionmaking-assistant-4", false);
+        addSound("[1/1] The Assistant: Never speak of this again...stranger.", "potionmaking-assistant-5", false);
+        addSound("[1/1] The Assistant: You...you can't go down...there!", "potionmaking-assistant-6", false);
+        addSound("[1/1] The Assistant: Quickly, get me...[8 Red Mushroom] from the Black Road outside the east gate of Detlas.", "potionmaking-assistant-7", false);
 
         //Underwater
         addSound("[1/6] Sayrr: Why ya looking at me like that? Is it cause I'm small, eh? I'll have you know that I caught fish that were twice your size!", "underwater-sayrr-1", false);
