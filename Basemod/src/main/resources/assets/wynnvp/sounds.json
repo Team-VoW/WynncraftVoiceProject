@@ -11500,6 +11500,22 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart2-nodise-17", "stream": true}]
   },
+  "thefeathersflypart2-sybil-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart2-sybil-13", "stream": true}]
+  },
+  "thefeathersflypart2-sybil-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart2-sybil-14", "stream": true}]
+  },
+  "thefeathersflypart2-sybil-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart2-sybil-15", "stream": true}]
+  },
+  "thefeathersflypart2-sybil-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart2-sybil-16", "stream": true}]
+  },
 
 
 
