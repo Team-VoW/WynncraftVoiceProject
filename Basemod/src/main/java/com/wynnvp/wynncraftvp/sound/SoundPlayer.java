@@ -77,7 +77,7 @@ public class SoundPlayer {
                    if (Minecraft.getMinecraft().player.getDistance(vector.x, vector.y, vector.z) >= 20) {
                        playSoundAtCoords(Minecraft.getMinecraft().player.getPositionVector(), soundEvent);
                    } else {
-                       Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, vector));
+                       Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, rawName));
                    }
                });
             } else {
