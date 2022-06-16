@@ -1942,7 +1942,7 @@ public class SoundsHandler {
         addSound("[2/8] Lari: I am Lari. I might have greeted you properly before if I were not so busy, which reminds me. You have a reason to be here, yes?", "rol1wormholes-lari-2", true);
         addSound("[3/8] Lari: Hm...I believe I know what you have found, by your description. That dead skin too, is proof enough, I would say.", "rol1wormholes-lari-3", true);
         addSound("[4/8] Lari: The creature which shed that skin is known as a Grootslang. Though large, they are rather peaceful. Gentle giants, I believe the saying is?", "rol1wormholes-lari-4", true);
-        addSound("[5/8] Lari: This horrid Decay...it affects their habitats underground. They are seeking shelter closer to the surface. I have been trying to scrub the Decay without success...", "rol1wormholes-lari-5", true);
+        addSound("[5/8] Lari: This horrid Decay...it affects their habitats underground. They are  seeking shelter closer to the surface. I have been trying to scrub the Decay without success...", "rol1wormholes-lari-5", true);
         addSound("[6/8] Lari: Wait... More holes appeared just today? There...there were deaths?! W-where, when?!", "rol1wormholes-lari-6", true);
         addSound("[7/8] Lari: No, no...! I refuse to be responsible for any more deaths... Human, tell me your name, please. ", "rol1wormholes-lari-7", true);
         addSound("[8/8] Lari: soldier, then... Let us head to the site. . I need to fix this... Please, help me get to the root of this problem so I may soothe the land's pain.", "rol1wormholes-lari-8", false);
@@ -1990,16 +1990,7 @@ public class SoundsHandler {
         addSound("[15/16] Lari: ...I...oh no... It's...d-d... I... I j-just... I just w-wanted out... Ohhh...n-no...", "rol1wormholes-lari-50", true);
         addSound("[16/16] Lari: ...w-we're...leaving. I...I c-can't look at this any more...", "rol1wormholes-lari-51", true);
         addSound("[1/5] Lari: ...I... That's...m-my fault...", "rol1wormholes-lari-52", false);
-        addSound("[2/5] Lari: I'm...I'm so sorry, soldier. If I'd...I don't... I don't even know what else I could have d-done...", "rol1wormholes-lari-53", false);
-        addSound("[3/5] Lari: There...it didn’t feel like there was...anything left to it... But, if I’d just been quicker, then... Would it...would it even have made a difference?", "rol1wormholes-lari-54", false);
-        addSound("[4/5] Lari: ...some savior I am... I need to be better, but what else even is there that...ugh, I'm going in circles...", "rol1wormholes-lari-55", false);
-        addSound("[5/5] Lari: Let's... Let's just leave...", "rol1wormholes-lari-56", false);
-        addSound("[1/6] Lari: ...I...I can't believe this. This is...does destiny just hate me? What have I done to deserve this?!", "rol1wormholes-lari-57", false);
-        addSound("[2/6] Lari: The Mother Wyrm laid eggs... Eggs infested with parasites! Every single one is going to be born berserk!!", "rol1wormholes-lari-58", false);
-        addSound("[3/6] Lari: You saw how strong the mother was...an infestation like this could cause the entire region of Gavel to collapse in a quake...", "rol1wormholes-lari-59", false);
-        addSound("[4/6] Lari: They...they need to be stopped, but...I can't do it. I c-can't kill... I'm sorry, I just can't!", "rol1wormholes-lari-60", false);
-        addSound("[5/6] Lari: Bring a group... Even Whelps can be a terror if they're enraged. Just...p-please, take care of this quickly.", "rol1wormholes-lari-61", false);
-        addSound("[6/6] Lari: You deserve the best... But that's more than I can give...so here. Take these. I'll move along.", "rol1wormholes-lari-62", false);
+        addSound("[1/6] Lari: ...I...I can't believe this. This is...does destiny just hate me? What have I done to deserve this?!", "rol1wormholes-lari-53", false);
 
         //Realm of lights 2 - Taproot
         addSound("[1/5] Lari: ...oh. Soldier, you're back. Ehm...I have to say, I'm...rather busy at the moment. ", "rol2taproot-lari-1", false);
