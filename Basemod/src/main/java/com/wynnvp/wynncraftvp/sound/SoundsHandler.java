@@ -143,6 +143,7 @@ public class SoundsHandler {
         addSound("[1/3] Talking Mushroom: ... HEY, HUMAN, TELL ME SOMETHING. WHY ARE YOU OUT HERE AND NOT IN ONE OF THOSE CELLS?", "talkingmushroommoltencoreprison", true);
 
 
+
         //Sea skipper
         addSound("[1/1] Seaskipper Captain: Where are ya headed? Nemract, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-1", true);
         addSound("[1/1] Seaskipper Captain: Where are ya headed? Rooster Island, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-2", true);
