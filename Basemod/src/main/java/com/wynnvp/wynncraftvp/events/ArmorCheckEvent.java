@@ -190,16 +190,17 @@ public class ArmorCheckEvent {
                 if (vec3dList.size() == 1) {
                     vec3dList.set(0, armorStand.getPositionVector());
                 } else {
-                    Vec3d approxi = NPCHandler.find(rawName);
-                    int result = 0;
-                    for (int index = 0; index < vec3dList.size(); index++) {
-                        Vec3d now = NPCHandler.getNamesHandlers().get(rawName).get(index);
-                        if (now.length() == approxi.length()) {
-                            result = index;
-                            break;
+                    NPCHandler.find(rawName).ifPresent(aproxi -> {
+                        int result = 0;
+                        for (int index = 0; index < vec3dList.size(); index++) {
+                            Vec3d now = NPCHandler.getNamesHandlers().get(rawName).get(index);
+                            if (now.length() == aproxi.length()) {
+                                result = index;
+                                break;
+                            }
                         }
-                    }
-                    vec3dList.set(result, armorStand.getPositionVector());
+                        vec3dList.set(result, armorStand.getPositionVector());
+                    });
                 }
             }
             NPCHandler.getNamesHandlers().put(rawName, vec3dList);
