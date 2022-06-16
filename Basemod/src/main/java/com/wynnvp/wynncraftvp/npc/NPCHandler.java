@@ -21,7 +21,7 @@ public class NPCHandler {
 
     //Get the closest armorstand
     //WARNING: System in test
-    public static Vec3d find(String rawNames) {
+    public static Optional<Vec3d> find(String rawNames) {
         Vec3d result = new Vec3d(0, 0, 0);
         List<Vec3d> list = namesHandlers.get(rawNames);
         try {
@@ -29,7 +29,7 @@ public class NPCHandler {
         } catch (IllegalArgumentException exception) {
             result = list.stream().findAny().orElse(result);
         }
-        return result;
+        return Optional.of(result);
     }
 
     /*public static Vec3d find(String rawNames) {
