@@ -7760,6 +7760,7 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:darkdescent-charon-13", "stream": true}]
   },
+
   "darkdescent-generalgraken-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-1", "stream": true}]
@@ -7799,6 +7800,22 @@
   "darkdescent-generalgraken-10": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-10", "stream": true}]
+  },
+  "darkdescent-generalgraken-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-11", "stream": true}]
+  },
+  "darkdescent-generalgraken-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-12", "stream": true}]
+  },
+  "darkdescent-generalgraken-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-13", "stream": true}]
+  },
+  "darkdescent-generalgraken-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescent-generalgraken-14", "stream": true}]
   },
   "darkdescent-lostsoul-1": {
     "category": "voice",
