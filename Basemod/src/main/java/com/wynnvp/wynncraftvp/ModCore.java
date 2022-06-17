@@ -29,6 +29,7 @@ public class ModCore {
     public static final String NAME = "Wynncraft Voice Project";
     public static final String VERSION = "0.1";
     public static boolean inServer = false;
+    public static boolean inLiveWynnServer = false;
     public SoundsHandler soundsHandler;
     public static ModCore instance;
     public SoundPlayer soundPlayer;

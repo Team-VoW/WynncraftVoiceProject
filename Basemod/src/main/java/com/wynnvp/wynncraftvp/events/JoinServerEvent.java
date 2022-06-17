@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.FMLNetworkEvent;
 
 import java.text.DecimalFormat;
+import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -23,10 +24,16 @@ public class JoinServerEvent {
     public static void onServerJoin(FMLNetworkEvent.ClientConnectedToServerEvent event) {
         //Inject filter of packets
         event.getManager().channel().pipeline().addBefore("fml:packet_handler", ModCore.MODID + ":packet_filter", new PacketIncomingFilter());
+        String serverIP = Objects.requireNonNull(Minecraft.getMinecraft().getCurrentServerData()).serverIP.toLowerCase();
+        if (serverIP.startsWith("play.wynncraft")
+                || serverIP.startsWith("media.wynncraft")
+                || serverIP.startsWith("lobby.wynncraft")){
+            ModCore.inLiveWynnServer = true;
+        }
         ModCore.inServer = true;
 
         Timer timer = new Timer();
-        //In 30 seconds
+        //In 10 seconds
         timer.schedule(new SchedulerTask(), 10000L);
     }
 
