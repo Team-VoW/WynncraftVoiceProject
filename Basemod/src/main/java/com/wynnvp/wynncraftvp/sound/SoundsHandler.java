@@ -5043,17 +5043,10 @@ public class SoundsHandler {
         addSound("[1/2] Ragni Guard: Welcome back, I suppose you're a Wynn citizen now. I've heard quite a few things about your deeds throughout the province.", "nonquestnpc-mainragniguard-2", false);
     }
 
-    private void addName(String message, String name) {
-        String npcName = getNameForMessage(message);
-        if (npcName.isEmpty()) {
-            npcName = getNameForId(name);
-        }
-        npcNames.add(npcName);
-    }
 
     public static String getNameForMessage(String message) {
         String split = message.split(": ")[0];
-        return split.trim().toLowerCase().replaceAll("[^a-zA-Z0-9]", "").replaceAll("[0-9]", "");
+        return split.trim().toLowerCase().replaceAll("[^a-zA-Z\\d]", "").replaceAll("\\d", "");
     }
 
     public static String getNameForId(String name) {

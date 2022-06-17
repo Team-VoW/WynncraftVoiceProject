@@ -28,6 +28,7 @@ public class JoinServerEvent {
         if (serverIP.startsWith("play.wynncraft")
                 || serverIP.startsWith("media.wynncraft")
                 || serverIP.startsWith("lobby.wynncraft")){
+            System.out.println("Joined Live Wynncraft server");
             ModCore.inLiveWynnServer = true;
         }
         ModCore.inServer = true;
