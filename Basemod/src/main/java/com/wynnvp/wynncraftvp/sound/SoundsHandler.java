@@ -3250,6 +3250,8 @@ public class SoundsHandler {
         addSound("[11/20] Nodise: We haven't started yet. You're fine.", "thefeathersflypart2-nodise-1", false);
         addSound("[12/20] Maxie: Phew, I tho- Wait, soldier??", "thefeathersflypart2-maxie-2", false);
         addSound("[13/20] Sybil: You know them?! How?!", "thefeathersflypart2-sybil-1", false);
+        addSound("[13/20] Sybil: Of course you'd know them. I'm not surprised.", "thefeathersflypart2-sybil-17", false);
+        addSound("[13/20] Sybil: And lo and behold, you know them. Of course.", "thefeathersflypart2-sybil-19", false);
         addSound("[14/20] Maxie: How do you not?! They're the one who helped deal with the Factory!", "thefeathersflypart2-maxie-3", false);
         addSound("[15/20] Efena: ...So it's you. I somehow imagined you... More imposing. Huh.", "thefeathersflypart2-efena-3", false);
         addSound("[16/20] Ava: You did WHA-", "thefeathersflypart2-ava-75", false);
@@ -3480,6 +3482,9 @@ public class SoundsHandler {
         addSound("[25/27] Efena: Goodbye, Ava. Who knows, I might stop by sometimes. Maybe you'll have figured out that armour of yours.", "thefeathersflypart2-efena-76", false);
         addSound("[26/27] Ava: …soldier? If you stop by the Workshop later, I'll set up something for you as well.", "thefeathersflypart2-ava-151", false);
         addSound("[27/27] Ava: Bye. Thanks. For everything.", "thefeathersflypart2-ava-152", false);
+        addSound("[1/1] Sybil: You should leave now or I'll be the one hitting you.", "thefeathersflypart2-sybil-18", false);
+        addSound("[2/2] Sybil: Calm down, Maxie.", "thefeathersflypart2-sybil-20", false);
+
         //FF2 Post quest
         addSound("[1/10] Nodise: Oh, greetings. I seldom see humans around these parts.", "thefeathersflypart2-nodise-9", false);
         addSound("[2/10] Nodise: I'm from Corkus. You ought to have heard of it at one point.", "thefeathersflypart2-nodise-10", false);
