@@ -3433,6 +3433,8 @@ public class SoundsHandler {
         addSound("[1/10] Mei: ...Everyone alright?", "thefeathersflypart2-mei-7", false);
         addSound("[2/10] Grant: Hmpf. Did soldier take that thing down?", "thefeathersflypart2-grant-7", false);
         addSound("[3/10] Mei: 'think so, yeah.", "thefeathersflypart2-mei-8", false);
+        addSound("[1/1] Mei: Interesting.", "thefeathersflypart2-mei-9", false);
+        addSound("[1/1] Mei: Urgh, what is this thing made of..! Should I go higher?", "thefeathersflypart2-mei-10", false);
         addSound("[4/10] Maxie: Where's soldier? And Ava?!", "thefeathersflypart2-maxie-18", false);
         addSound("[5/10] Efena: Oh she better be around here!", "thefeathersflypart2-efena-53", false);
         addSound("[6/10] Maxie: Wait, under the rubble,  !", "thefeathersflypart2-maxie-19", false);
