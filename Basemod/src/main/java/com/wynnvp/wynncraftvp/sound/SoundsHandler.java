@@ -3971,6 +3971,10 @@ public class SoundsHandler {
         addSound("[1/7] Worid: What? You're here already. I thought you would take too long so I just went myself.", "junglefever-worid-3", false);
         addSound("[1/2] The Banker: Oh, uh! Somebody! It has been so long since I've seen someone!", "junglefever-thebanker-2", false);
         addSound("[1/5] Worid: You are back! Wonderful!", "junglefever-worid-4", false);
+        addSound("[1/8] Worid: Oh no! How will I ever cure my sickness without any Liquified Emeralds?... cough", "junglefever-worid-5", false);
+        addSound("[1/6] Worid: You are back! Wonderful!", "junglefever-worid-6", false);
+        addSound("[1/1] Worid: cough cough!", "junglefever-worid-7", false);
+        addSound("[1/1] Worid: I feel so much better now, thank you for the cure!", "junglefever-worid-8", false);
 
         //Death Whistle
         addSound("[1/7] Voer: Hello! Hmm, armour, weapon, look of grim despair... You must be from the Wynn province! ", "deathwhistle-voer-1", false);

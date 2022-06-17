@@ -17866,6 +17866,22 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:junglefever-worid-4", "stream": true}]
   },
+  "junglefever-worid-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-5", "stream": true}]
+  },
+  "junglefever-worid-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-6", "stream": true}]
+  },
+  "junglefever-worid-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-7", "stream": true}]
+  },
+  "junglefever-worid-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-8", "stream": true}]
+  },
 
 
   "questionmark-computer-1": {
