@@ -3551,6 +3551,20 @@ public class SoundsHandler {
         addSound("[4/5] Ava: It's difficult to get an audience? Well, it's worth a try, right? Maybe they'll see me as a wealthy lad!", "thefeathersflypart2-ava-214", false);
         addSound("[1/1] Ava: Leaving town? I'll stick around, just come back eventually, alright?", "thefeathersflypart2-ava-215", true);
         addSound("[1/1] Ava: Efena... She's nicer than Chief, that's for sure...", "thefeathersflypart2-ava-216", false);
+        addSound("[5/20] Efena: Honestly, I wouldn't blame him if he decided to skip this one out.", "thefeathersflypart2-efena-77", false);
+        addSound("[3/4] Efena: Oh, we get that very often. Especially with mechanics like you. Sorry.", "thefeathersflypart2-efena-78", false);
+        addSound("[4/27] Efena: Hey, hey, calm down! I'm here to actually help you... in a way.", "thefeathersflypart2-efena-79", false);
+        addSound("[5/27] Efena: I do believe we can all learn a thing or two about this.", "thefeathersflypart2-efena-80", false);
+        addSound("[5/20] Efena: I don't think he'll skip this one. You look cute, Ava! That's your name, right? Handwriting's a little iffy.", "thefeathersflypart2-efena-81", false);
+        addSound("[18/20] Efena: Right, right. AVA! Welcome to... the Council.", "thefeathersflypart2-efena-82", false);
+        addSound("[2/3] Efena: Hey, Carl! We didn't ask!", "thefeathersflypart2-efena-83", false);
+        addSound("[1/6] Efena: God, I hate to say it, but her mask was flawless.", "thefeathersflypart2-efena-84", false);
+        addSound("[3/6] Efena: And WHY didn't you say so??", "thefeathersflypart2-efena-85", false);
+        addSound("[5/6] Efena: Urgh. Look, there's only one thing I want to know.", "thefeathersflypart2-efena-86", false);
+        addSound("[6/6] Efena: soldier... Did you know, or did she trick you? Be very careful about what you're about to say.", "thefeathersflypart2-efena-87", false);
+        addSound("[10/20] Efena: Somehow, you're able to control electromagic? I guess it's not exclusive to humans, then.", "thefeathersflypart2-efena-88", false);
+        addSound("[25/27] Efena: Goodbye, Ava. Who knows, maybe I'll stop by sometimes. After all, you're very stylish!", "thefeathersflypart2-efena-89", false);
+
         //FF2 Post quest
         addSound("[1/10] Nodise: Oh, greetings. I seldom see humans around these parts.", "thefeathersflypart2-nodise-9", false);
         addSound("[2/10] Nodise: I'm from Corkus. You ought to have heard of it at one point.", "thefeathersflypart2-nodise-10", false);
@@ -3565,6 +3579,17 @@ public class SoundsHandler {
         addSound("[1/1] Sybil: You think I can't go to Wynn?! Well, maybe I'll go alone!", "thefeathersflypart2-sybil-16", false);
         addSound("[1/12] Nodise: Oh... It's you. I wasn't expecting that. Remember the Corkian Council?", "thefeathersflypart2-nodise-16", false);
         addSound("[1/1] Nodise: There are tensions, sure, but we're doing fine back home.", "thefeathersflypart2-nodise-17", false);
+        addSound("[1/17] Efena: Oh... It's you. 'figured you'd pop here one day.", "thefeathersflypart2-efena-90", false);
+        addSound("[10/17] Efena: There's no way she made that power armour by herself. I feel like I heard 'bout something like that at one point...", "thefeathersflypart2-efena-91", false);
+        addSound("[10/17] Efena: That great azure clothing she had... I'm sure you stole it. Am I right?", "thefeathersflypart2-efena-92", false);
+        addSound("[10/17] Efena: That mechanic outfit Ava had... You stole it, didn't you? No point in lyin'.", "thefeathersflypart2-efena-93", false);
+        addSound("[10/17] Efena: That one rich outfit she wore last time... This was your doing, right? As in, you totally stole it, right?!", "thefeathersflypart2-efena-94", false);
+        addSound("[11/17] Efena: Gahah! I knew it! You actually stole from some friends of mine, y'know?!", "thefeathersflypart2-efena-95", false);
+        addSound("[11/17] Efena: Oh, so you got it from that room downstairs?! ...damn. You might've stolen some of my friend's clothes, then!", "thefeathersflypart2-efena-96", false);
+        addSound("[12/17] Efena: 'wonder what these guys are doin' now. 'kinda left Corkus... I don't like goodbyes and all, so I ignored that.", "thefeathersflypart2-efena-97", false);
+        addSound("[1/1] Efena: Oh, uh, well, bye?!", "thefeathersflypart2-efena-98", false);
+        addSound("[1/1] Efena: See ya!", "thefeathersflypart2-efena-99", false);
+
 
 
 
