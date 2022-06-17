@@ -3367,6 +3367,8 @@ public class SoundsHandler {
         addSound("[3/15] Sybil: There's NO WAY that's true!", "thefeathersflypart2-sybil-5", false);
         addSound("[4/15] Mei: What should we do what should we-", "thefeathersflypart2-mei-5", false);
         addSound("[5/15] Dwice: Should we seize her?!", "thefeathersflypart2-dwice-6", false);
+        addSound("[2/6] Dwice: Flawless?! More like flawful! This was so obvious!", "thefeathersflypart2-dwice-7", false);
+        addSound("[4/6] Dwice: I- uh, y'know, didn't want to assume...", "thefeathersflypart2-dwice-8", false);
         addSound("[7/15] Mei: I don't- I don't know!", "thefeathersflypart2-mei-6", false);
         addSound("[8/15] Ava: I-", "thefeathersflypart2-ava-125", false);
         addSound("[9/15] Sybil: You SHUT UP for now!", "thefeathersflypart2-sybil-6", false);

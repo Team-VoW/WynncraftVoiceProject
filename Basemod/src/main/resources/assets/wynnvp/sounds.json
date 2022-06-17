@@ -11036,6 +11036,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart2-dwice-6", "stream": true}]
   },
+  "thefeathersflypart2-dwice-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart2-dwice-7", "stream": true}]
+  },
+  "thefeathersflypart2-dwice-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart2-dwice-8", "stream": true}]
+  },
   "thefeathersflypart2-mei-6": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart2-mei-6", "stream": true}]
