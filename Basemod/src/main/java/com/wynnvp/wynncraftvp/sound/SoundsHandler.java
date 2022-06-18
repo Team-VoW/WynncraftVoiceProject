@@ -1495,6 +1495,9 @@ public class SoundsHandler {
         addSound("[1/1] ???: How foolish. You might think you are strong, adventurer, but you have no idea what you are about to face...", "darkdescentdungeon-charon-1", true);
         addSound("[1/1] Charon: I have an entire undead army at my service. Do you really think you stand a chance?", "darkdescentdungeon-charon-2", true);
         addSound("[1/1] Charon: I see you've brought some help with you, you aren't as foolish as I thought. However, how do you plan to defeat an army that cannot die?", "darkdescentdungeon-charon-3", true);
+        addSound("[1/1] ???: How foolish. Just because you have overcome something once does not mean it will happen again.", "darkdescentdungeon-charon-4", true);
+        addSound("[1/2] ???: BLARGH! My minions shall not let you pass!", "darkdescentdungeon-charon-5", true);
+        addSound("[1/1] Corrupted Charon: Do you really think I will fall for that one again? An army likes yours is childsplay afor me! However, how do you plan to defeat an army that is already dead?", "darkdescentdungeon-charon-6", true);
         addSound("[1/11] General Graken: Ah, hello there chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.", "darkdescent-generalgraken-1", false);
         addSound("[1/5] General Graken: Oh, sod it, I knew I was forgetting something! Steady there, chum! I'm on my way!", "darkdescent-generalgraken-2", false);
         addSound("[2/5] General Graken: Drat! Too late, it seems. Yes, I forgot to mention the floor was in poor condition. Up here! You took quite the tumble, are you alright?", "darkdescent-generalgraken-3", false);
