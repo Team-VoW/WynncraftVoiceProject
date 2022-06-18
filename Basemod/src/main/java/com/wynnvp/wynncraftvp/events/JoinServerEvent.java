@@ -18,6 +18,8 @@ import java.util.TimerTask;
 @Mod.EventBusSubscriber
 public class JoinServerEvent {
 
+    public static boolean isOnNewestVersion = false;
+
     private static final DecimalFormat df = new DecimalFormat("0.00");
 
     @SubscribeEvent
@@ -48,7 +50,10 @@ public class JoinServerEvent {
 
                 float versionInFloat = Float.parseFloat(version);
                 //Is using newest version
-                if (versions[0] == versionInFloat) return;
+                if (versions[0] == versionInFloat) {
+                    isOnNewestVersion = true;
+                    return;
+                }
 
                 if (versions[1] < versionInFloat) {
                     return;

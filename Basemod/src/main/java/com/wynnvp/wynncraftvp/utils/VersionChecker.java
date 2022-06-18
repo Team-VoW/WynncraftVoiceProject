@@ -13,9 +13,6 @@ import java.util.Base64;
 public class VersionChecker {
 
 
-
-
-
     public static float[] getVersionCheck(){
         String file = "";
         try {

@@ -2,6 +2,7 @@ package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
+import com.wynnvp.wynncraftvp.events.JoinServerEvent;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import net.minecraft.client.Minecraft;
 
@@ -24,7 +25,8 @@ public class LineReporter {
     public void MissingLine(LineData lineData) {
         if (!ConfigHandler.logMissingLines
                 || !ModCore.inLiveWynnServer
-        || !LineFormatter.isNPCSentLine(lineData.getRealLine())) return;
+        || !LineFormatter.isNPCSentLine(lineData.getRealLine())
+        || !JoinServerEvent.isOnNewestVersion) return;
 
 
         CompletableFuture.runAsync(() -> {

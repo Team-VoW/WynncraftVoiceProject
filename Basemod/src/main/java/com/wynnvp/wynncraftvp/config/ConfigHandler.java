@@ -15,7 +15,7 @@ public class ConfigHandler {
     private static Configuration config;
 
     public static boolean playAllSoundsOnPlayer;
-    public static String word = "e3l06vpl32wgr8b";
+    public static String word = "gzog6zilzq6zxlt";
     public static boolean logMissingLines;
     public static boolean anonymous;
     public static boolean hasShownReportLineGui;
