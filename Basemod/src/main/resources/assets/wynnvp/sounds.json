@@ -7863,6 +7863,19 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-3", "stream": true}]
   },
+  "darkdescentdungeon-charon-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-4", "stream": true}]
+  },
+  "darkdescentdungeon-charon-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-5", "stream": true}]
+  },
+  "darkdescentdungeon-charon-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-6", "stream": true}]
+  },
+
 
 
   "flightindistress-passengercontrollant-1": {
