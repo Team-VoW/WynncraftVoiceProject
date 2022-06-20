@@ -1,4 +1,4 @@
-package com.wynnvp.wynncraftvp.sound;
+package com.wynnvp.wynncraftvp.sound.at;
 
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
 import net.minecraft.client.Minecraft;
