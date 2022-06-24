@@ -39,4 +39,4 @@ Contact us on Discord or the Wynncraft Forums:
 | [Website](https://github.com/Team-VoW/VoicesOfWynn-Website) Developer      | Shady#2948       | https://forums.wynncraft.com/members/shadymedic.96734/   |
 | Head Voice Manager     | Colts#0644       | https://forums.wynncraft.com/members/coltsgirl111.159984/|
 | Event Manager          | Jetsinx#3838     | https://forums.wynncraft.com/members/jetsinx.150743/     |
-| Assistant Programmer   | Italy Man#0413  | https://forums.wynncraft.com/members/techtician.153187/  |
+| Assisting Manager      | Italy Man#0413  | https://forums.wynncraft.com/members/techtician.153187/  |
