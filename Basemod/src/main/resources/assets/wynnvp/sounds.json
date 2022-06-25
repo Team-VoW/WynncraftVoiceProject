@@ -11001,6 +11001,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart2-carl-2", "stream": true}]
   },
+  "thefeathersflypart2-carl-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart2-carl-3", "stream": true}]
+  },
   "thefeathersflypart2-efena-36": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart2-efena-36", "stream": true}]
@@ -11304,6 +11308,10 @@
   "thefeathersflypart2-grant-7": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart2-grant-7", "stream": true}]
+  },
+  "thefeathersflypart2-grant-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart2-grant-8", "stream": true}]
   },
   "thefeathersflypart2-mei-8": {
     "category": "voice",

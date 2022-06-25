@@ -3361,6 +3361,7 @@ public class SoundsHandler {
         addSound("[5/10] Efena: You’re crying?! Aw... There, there. It’s alright, you made it.", "thefeathersflypart2-efena-34", false);
         addSound("[5/10] Efena: I didn't really doubt you with your armour. We have a few questions though!", "thefeathersflypart2-efena-35", false);
         addSound("[6/10] Carl: This is all really nice, but... How does this work?", "thefeathersflypart2-carl-2", false);
+        addSound("[1/3] Carl: Oh, that component, that's a-.", "thefeathersflypart2-carl-3", false);
         addSound("[7/10] Efena: Shut it, Carl! No one c- Wait. Actually...", "thefeathersflypart2-efena-36", false);
         addSound("[8/10] Efena: No one in Corkus ever made anything like this. Do you have anything to tell us, or show?", "thefeathersflypart2-efena-37", false);
         addSound("[9/10] Efena: While the machine didn't seem to work, you pulled out some... Weird magic. Are you hiding anything?", "thefeathersflypart2-efena-38", false);
@@ -3437,6 +3438,7 @@ public class SoundsHandler {
         addSound("[2/7] Ava: Huh?! The president herself isn't too mad at me? What??", "thefeathersflypart2-ava-144", false);
         addSound("[1/10] Mei: ...Everyone alright?", "thefeathersflypart2-mei-7", false);
         addSound("[2/10] Grant: Hmpf. Did soldier take that thing down?", "thefeathersflypart2-grant-7", false);
+        addSound("[1/1] Grant: Hmpf. I certainly am curious now.", "thefeathersflypart2-grant-8", false);
         addSound("[3/10] Mei: 'think so, yeah.", "thefeathersflypart2-mei-8", false);
         addSound("[1/1] Mei: Interesting.", "thefeathersflypart2-mei-9", false);
         addSound("[1/1] Mei: Urgh, what is this thing made of..! Should I go higher?", "thefeathersflypart2-mei-10", false);
