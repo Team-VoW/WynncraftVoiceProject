@@ -11085,6 +11085,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart2-clomius-6", "stream": true}]
   },
+  "thefeathersflypart2-clomius-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thefeathersflypart2-clomius-7", "stream": true}]
+  },
   "thefeathersflypart2-grant-5": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thefeathersflypart2-grant-5", "stream": true}]

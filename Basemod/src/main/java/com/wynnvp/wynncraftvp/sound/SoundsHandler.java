@@ -3382,6 +3382,7 @@ public class SoundsHandler {
         addSound("[11/15] Sybil: 'goes for you too, Maxie!", "thefeathersflypart2-sybil-7", false);
         addSound("[12/15] Nodise: Let's calm down and start ag-", "thefeathersflypart2-nodise-5", false);
         addSound("[13/15] Clomius: So that explains the magic!", "thefeathersflypart2-clomius-6", false);
+        addSound("[13/15] Clomius: I just can't believe this!!", "thefeathersflypart2-clomius-7", false);
         addSound("[14/15] Grant: Hmpf? Just take her on the spot!", "thefeathersflypart2-grant-5", false);
         addSound("[15/15] Efena: EVERYONE! STOP! Soldier, I want you to come here and answer something, immediately.", "thefeathersflypart2-efena-39", false);
         addSound("[1/3] Efena: We wouldn't have known with such an outfit.", "thefeathersflypart2-efena-40", false);
