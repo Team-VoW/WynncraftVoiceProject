@@ -1,5 +1,8 @@
 package com.wynnvp.wynncraftvp.npc;
 
+import com.google.common.collect.Comparators;
+import it.unimi.dsi.fastutil.doubles.DoubleComparator;
+import net.minecraft.client.Minecraft;
 import net.minecraft.util.math.Vec3d;
 
 import java.util.*;
@@ -22,14 +25,25 @@ public class NPCHandler {
     //Get the closest armorstand
     //WARNING: System in test
     public static Optional<Vec3d> find(String rawNames) {
-        Vec3d result = new Vec3d(0, 0, 0);
-        List<Vec3d> list = namesHandlers.get(rawNames);
-        try {
-            result = list.stream().sorted(Comparator.comparingDouble(Vec3d::lengthSquared)).findAny().orElse(result);
-        } catch (IllegalArgumentException exception) {
-            result = list.stream().findAny().orElse(result);
+        Vec3d result;
+        /*Vec3d empty = new Vec3d(0, 0, 0);
+        if (Minecraft.getMinecraft().player != null) {
+            empty = Minecraft.getMinecraft().player.getPositionVector();
+        }*/
+
+        final List<Vec3d> list = namesHandlers.get(rawNames);
+        if (Minecraft.getMinecraft().player == null) {
+            return list.stream().findAny();
         }
-        return Optional.of(result);
+        final Vec3d playerPosition = Minecraft.getMinecraft().player.getPositionVector();
+        try {
+            result = list.stream()
+                    .sorted(Comparator.comparingDouble(o -> o.distanceTo(playerPosition)))
+                    .findAny().orElse(null);
+        } catch (IllegalArgumentException exception) {
+            result = list.stream().findAny().orElse(null);
+        }
+        return Optional.ofNullable(result);
     }
 
     /*public static Vec3d find(String rawNames) {
