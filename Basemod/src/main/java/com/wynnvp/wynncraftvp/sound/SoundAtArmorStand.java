@@ -10,21 +10,23 @@ import net.minecraft.util.math.Vec3d;
 
 public class SoundAtArmorStand extends MovingSound {
 
-    private final Vec3d vector;
+    private final String rawName;
 
-    public SoundAtArmorStand(SoundEvent soundEvent, Vec3d vector){
+    public SoundAtArmorStand(SoundEvent soundEvent, String rawName){
         super(soundEvent, SoundCategory.VOICE);
-        this.vector = vector;
+        this.rawName = rawName;
     }
 
     @Override
     public void update() {
-        if (this.vector == null) {
+        if (this.rawName.isEmpty()) {
             return;
         }
-        this.xPosF = (float)this.vector.x;
-        this.zPosF = (float)this.vector.z;
-        this.yPosF = (float)this.vector.y;
+        NPCHandler.find(rawName).ifPresent(vector -> {
+            this.xPosF = (float)vector.x;
+            this.zPosF = (float)vector.z;
+            this.yPosF = (float)vector.y;
+        });
     }
 
 

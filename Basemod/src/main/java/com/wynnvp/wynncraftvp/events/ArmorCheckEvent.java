@@ -45,7 +45,10 @@ public class ArmorCheckEvent {
     public void onPacketTeleport(PacketEvent.Incoming<SPacketEntityTeleport> event) {
         if (!ModCore.inServer) return;
 
-        if (Minecraft.getMinecraft().world == null) return;
+        if (Minecraft.getMinecraft().world == null) {
+            System.out.println("(SPacketEntityTeleport) WORLD IS NULL!!!");
+            return;
+        }
         final Entity entity = Minecraft.getMinecraft().world.getEntityByID(event.getPacket().getEntityId());
         if (entity == null) return;
         if (entity instanceof EntityArmorStand) {
@@ -58,7 +61,10 @@ public class ArmorCheckEvent {
     public void onPacketVelocity(PacketEvent.Incoming<SPacketEntityVelocity> event) {
         if (!ModCore.inServer) return;
 
-        if (Minecraft.getMinecraft().world == null) return;
+        if (Minecraft.getMinecraft().world == null) {
+            System.out.println("(SPacketEntityVelocity) WORLD IS NULL!!!");
+            return;
+        }
         final Entity entity = Minecraft.getMinecraft().world.getEntityByID(event.getPacket().getEntityID());
         if (entity == null) return;
         if (entity instanceof EntityArmorStand) {
@@ -72,7 +78,10 @@ public class ArmorCheckEvent {
     public void onPacketEntity(PacketEvent.Incoming<SPacketEntity> event) {
         if (!ModCore.inServer) return;
 
-        if (Minecraft.getMinecraft().world == null) return;
+        if (Minecraft.getMinecraft().world == null) {
+            System.out.println("(SPacketEntity) WORLD IS NULL!!!");
+            return;
+        }
         final Entity entity = event.getPacket().getEntity(Minecraft.getMinecraft().world);
         if (entity instanceof EntityArmorStand) {
             final boolean visible = ReflectionUtils.isNameVisibleFromMetadata(entity.getDataManager().getAll());
@@ -94,7 +103,10 @@ public class ArmorCheckEvent {
         }
 
         if (event.getPacket().getDataManagerEntries().isEmpty()) return;
-        if (Minecraft.getMinecraft().world == null) return;
+        if (Minecraft.getMinecraft().world == null) {
+            System.out.println("(SPacketEntityMetadata) WORLD IS NULL!!!");
+            return;
+        }
         final Entity entity = Minecraft.getMinecraft().world.getEntityByID(event.getPacket().getEntityId());
         if (entity == null) return;
         if (entity instanceof EntityArmorStand) {
@@ -120,21 +132,7 @@ public class ArmorCheckEvent {
 
         if (ModCore.instance.soundsHandler.containsName(rawName)) {
             NPCHandler.add(rawName, armorStand.getPositionVector());
-        }/* else if (!StringBlacklist.has(rawName)) {
-                if (name.contains(TextFormatting.DARK_GREEN.toString()) || name.contains("Citizen")) {
-                    if (!NamesHandler.find(rawName).isPresent()) {
-                        NamesHandler.add(rawName, armorStand.getPositionVector());
-                        if (McIf.player() != null) {
-                            McIf.player().sendMessage(new TextComponentString("Found name: " + name));
-                        }
-                    } else if (!NamesHandler.find(armorStand.getPositionVector()).isPresent()) {
-                        NamesHandler.add(rawName, armorStand.getPositionVector());
-                        if (McIf.player() != null) {
-                            McIf.player().sendMessage(new TextComponentString("Found name: " + name));
-                        }
-                    }
-                }
-            }*/
+        }
     }
 
     private void checkArround() {
@@ -160,8 +158,6 @@ public class ArmorCheckEvent {
     }
 
     private void updateVector(EntityArmorStand armorStand) {
-        /*final boolean visible = ReflectionUtils.isNameVisibleFromMetadata(armorStand.getDataManager().getAll());
-        if (!visible) return;*/
         final String name = ReflectionUtils.getNameFromMetadata(armorStand.getDataManager().getAll());
         if (name == null || name.isEmpty()) return;
         String rawName = TextFormatting.getTextWithoutFormattingCodes(name.toLowerCase().trim().replace(" ", "").replace("'", ""));
@@ -190,17 +186,18 @@ public class ArmorCheckEvent {
                 if (vec3dList.size() == 1) {
                     vec3dList.set(0, armorStand.getPositionVector());
                 } else {
-                    NPCHandler.find(rawName).ifPresent(aproxi -> {
-                        int result = 0;
-                        for (int index = 0; index < vec3dList.size(); index++) {
-                            Vec3d now = NPCHandler.getNamesHandlers().get(rawName).get(index);
-                            if (now.length() == aproxi.length()) {
-                                result = index;
-                                break;
-                            }
+                    Vec3d approxi = NPCHandler.find(rawName).orElse(null);
+                    int result = 0;
+                    for (int index = 0; index < vec3dList.size(); index++) {
+                        Vec3d now = NPCHandler.getNamesHandlers().get(rawName).get(index);
+                        if (approxi == null) continue;
+                        if (now.length() == approxi.length()) {
+                            result = index;
+                            break;
                         }
-                        vec3dList.set(result, armorStand.getPositionVector());
-                    });
+                    }
+                    System.out.println("Result: " + result);
+                    vec3dList.set(result, armorStand.getPositionVector());
                 }
             }
             NPCHandler.getNamesHandlers().put(rawName, vec3dList);
