@@ -1796,6 +1796,33 @@ public class SoundsHandler {
         addSound("[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.", "kingsrecruit-ragnisking-1", true);
         addSound("[1/7] Ragni's King: Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.", "kingsrecruit-ragnisking-2", false);
         addSound("[1/1] Tasim: Just Right-Click the Loot chest to open it.", "kingsrecruit-tasim-22", false);
+        addSound("[1/1] Aledar: The bridge is broken. soldier, let's find another way across!", "kingsrecruit-aledar-28", false);
+        addSound("[1/1] Aledar: Hey! Don't go back!", "kingsrecruit-aledar-29", false);
+        addSound("[1/1] Aledar: What are you doing? Don't go wandering off!", "kingsrecruit-aledar-30", false);
+        addSound("[1/1] Aledar: Stay with me, soldier! We must stay together, this is a dangerous mission.", "kingsrecruit-aledar-31", true);
+        addSound("[1/1] Aledar: Stay with me, soldier! We have to stay together, this is a dangerous mission.", "kingsrecruit-aledar-32", true);
+        addSound("[1/1] Aledar: What do you think you're doing? You can't just jump in the lava like that.", "kingsrecruit-aledar-33", true);
+        addSound("[1/1] Aledar: Stay with us soldier, we've just had a loss, you can't go wandering around.", "kingsrecruit-aledar-34", true);
+        addSound("[1/1] Aledar: Stay with me!", "kingsrecruit-aledar-35", true);
+        addSound("[1/1] Aledar: Wait, It's too dangerous to go alone!", "kingsrecruit-aledar-36", true);
+        addSound("[1/2] Aledar: soldier, good news. I'm basically as recovered as I think I'll get.", "kingsrecruit-aledar-37", false);
+        addSound("[2/2] Aledar: Talk to me when you are ready to go. But remember, we're on a mission. We won't be returning until it's finished.", "kingsrecruit-aledar-38", false);
+        addSound("[1/1] Aledar: Hold on! That might separate us, don't go in.", "kingsrecruit-aledar-39", true);
+        addSound("[1/1] Aledar: Wait, Don't go yet!", "kingsrecruit-aledar-40", true);
+        addSound("[1/1] Aledar: soldier, just head down the path.", "kingsrecruit-aledar-41", false);
+        addSound("[1/1] Aledar: Stay with us soldier! We've just had a loss, you can't go wandering around!", "kingsrecruit-aledar-42", true);
+        addSound("[1/1] Aledar: Restart the mission? Okay, I'll be waiting here, come back when you are ready.", "kingsrecruit-aledar-43", false);
+        addSound("[1/1] Aledar: We can't leave each other behind. soldier, keep moving!", "kingsrecruit-aledar-44", false);
+        addSound("[1/1] Aledar: Please don't leave me!", "kingsrecruit-aledar-45", false);
+        addSound("[1/1] Aledar: Hurry up, you two! Get over here!", "kingsrecruit-aledar-46", false);
+        addSound("[1/1] Aledar: Stay with us soldier, we just got here. We can't just go wandering around.", "kingsrecruit-aledar-47", false);
+        addSound("[1/1] Aledar: We shouldn't enter that cave yet!", "kingsrecruit-aledar-48", false);
+        addSound("[1/1] Aledar: We can use this tree as a bridge to get across to the other side.", "kingsrecruit-aledar-49", false);
+        addSound("[1/1] Aledar: Oh, you fell! Try doing it again.", "kingsrecruit-aledar-50", false);
+        addSound("[1/1] Aledar: Hey! where are you going?", "kingsrecruit-aledar-51", false);
+        addSound("[1/1] Aledar: Hey, soldier, the castle's the other way!", "kingsrecruit-aledar-52", false);
+
+
 
         //Recover the past
         addSound("[1/8] Dr. Picard: SUCCESS! I can see clearly now.. My memories from years ago!", "recoverthepast-dr.picard-1", false);
