@@ -1,7 +1,5 @@
 package com.wynnvp.wynncraftvp.sound;
 
-import javazoom.spi.vorbis.sampled.file.VorbisAudioFileReader;
-
 import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
@@ -11,7 +9,7 @@ import static javax.sound.sampled.AudioSystem.getAudioInputStream;
 
 public class SoundController {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         new SoundController().playAtPlayer(new File("C:/Users/ender/AppData/Roaming/.minecraft/wynnvp/kingsrecruit/kingsrecruit-caravandriver-2.ogg"));
     }
 
@@ -47,6 +45,6 @@ public class SoundController {
         for (int n = 0; n != -1; n = in.read(buffer, 0, buffer.length)) {
             line.write(buffer, 0, n);
         }
-    }
+    }*/
 
 }

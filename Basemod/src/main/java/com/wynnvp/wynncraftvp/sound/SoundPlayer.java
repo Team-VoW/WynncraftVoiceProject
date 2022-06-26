@@ -76,9 +76,9 @@ public class SoundPlayer {
             QuestMarkHandler.put(getQuest(sound.getId()));
 
             //If this is a moving sound or it is set to play all sounds on player
-            ModCore.instance.controller.playAtPlayer(new File("C:/Users/ender/AppData/Roaming/.minecraft/wynnvp/kingsrecruit/kingsrecruit-caravandriver-2.ogg"));
+            //ModCore.instance.controller.playAtPlayer(new File("C:/Users/ender/AppData/Roaming/.minecraft/wynnvp/kingsrecruit/kingsrecruit-caravandriver-2.ogg"));
             //ModCore.instance.controller.playAtPlayer(new File(Utils.FILE_ROOT, getQuest(sound.getId())+"/"+sound.getId()+".ogg"));
-            /*if (customSoundClass.isMovingSound() || ConfigHandler.playAllSoundsOnPlayer) {
+            if (customSoundClass.isMovingSound() || ConfigHandler.playAllSoundsOnPlayer) {
                 //Play the sound at the player
                 Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(soundEvent));
                 addSoundToCoolDown(line);
@@ -96,7 +96,7 @@ public class SoundPlayer {
                });
             } else {
                 playSoundAtCoords(Minecraft.getMinecraft().player.getPositionVector(), soundEvent);
-            }*/
+            }
             addSoundToCoolDown(line);
         });
     }

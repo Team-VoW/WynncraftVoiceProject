@@ -121,20 +121,8 @@ dependencies {
     compileOnly 'javax.vecmath:vecmath:1.5.2'
     implementation "javazoom:jlayer:1.0.1"
 
-    implementation 'com.googlecode.soundlibs:jorbis:0.0.17.4'
-    testImplementation 'com.googlecode.soundlibs:jorbis:0.0.17.4'
-    runtimeOnly 'com.googlecode.soundlibs:jorbis:0.0.17.4'
-    runtimeClasspath 'com.googlecode.soundlibs:jorbis:0.0.17.4'
-
-    implementation 'com.googlecode.soundlibs:tritonus-share:0.3.7.4'
-    testImplementation 'com.googlecode.soundlibs:tritonus-share:0.3.7.4'
-    runtimeOnly 'com.googlecode.soundlibs:tritonus-share:0.3.7.4'
-    runtimeClasspath 'com.googlecode.soundlibs:tritonus-share:0.3.7.4'
-
-    implementation 'com.googlecode.soundlibs:vorbisspi:1.0.3.3'
-    testImplementation 'com.googlecode.soundlibs:vorbisspi:1.0.3.3'
-    runtimeOnly 'com.googlecode.soundlibs:vorbisspi:1.0.3.3'
-    runtimeClasspath 'com.googlecode.soundlibs:vorbisspi:1.0.3.3'
+    //implementation 'com.googlecode.soundlibs:tritonus-share:0.3.7.4'
+    //implementation 'com.googlecode.soundlibs:vorbisspi:1.0.3.3'
 }
 
 shadowJar {
