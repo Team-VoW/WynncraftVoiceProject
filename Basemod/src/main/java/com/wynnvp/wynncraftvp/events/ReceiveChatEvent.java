@@ -12,7 +12,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import javax.vecmath.Vector3f;
 
 @Mod.EventBusSubscriber
-public class ReceiveChatEvent {
+public class
+ReceiveChatEvent {
 
     private static final Vector3f mixedFeelingsNPC1 = new Vector3f(-5881, 17, -2464);
     private static final Vector3f mixedFeelingsNPC2 = new Vector3f(-5835, 16, -2463);

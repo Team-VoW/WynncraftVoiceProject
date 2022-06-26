@@ -24,6 +24,8 @@ public class QuitServerEvent {
     @SubscribeEvent
     public static void onServerQuit(FMLNetworkEvent.ClientDisconnectionFromServerEvent event) {
         ModCore.inServer = false;
+        ModCore.inLiveWynnServer = false;
+
         //SoundPlayer.SPEAKING = false;
         NPCHandler.getNamesHandlers().clear();
         QuestMarkHandler.getWichQuest().clear();

@@ -62,8 +62,9 @@ public class LineFormatter {
         char[] chars = line.toCharArray();
         if (chars.length == 0
                 || chars[0] != '['
-                || !line.contains("/")
+                || !line.split(" ")[0].contains("/")
                 || !Character.isDigit(chars[1])
+                || (!Character.isDigit(chars[2]) && !(chars[2] == '/'))
         ){
             return false;
         }

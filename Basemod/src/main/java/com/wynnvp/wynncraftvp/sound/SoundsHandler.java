@@ -1498,6 +1498,10 @@ public class SoundsHandler {
         addSound("[1/1] ???: How foolish. You might think you are strong, adventurer, but you have no idea what you are about to face...", "darkdescentdungeon-charon-1", true);
         addSound("[1/1] Charon: I have an entire undead army at my service. Do you really think you stand a chance?", "darkdescentdungeon-charon-2", true);
         addSound("[1/1] Charon: I see you've brought some help with you, you aren't as foolish as I thought. However, how do you plan to defeat an army that cannot die?", "darkdescentdungeon-charon-3", true);
+        addSound("[1/1] ???: How foolish. Just because you have overcome something once does not mean it will happen again.", "darkdescentdungeon-charon-4", true);
+        addSound("[1/2] ???: BLARGH! My minions shall not let you pass!", "darkdescentdungeon-charon-5", true);
+        addSound("[2/2] ???: Aahrg, get the human! We can't let it pass by again!", "darkdescentdungeon-charon-6", true);
+        addSound("[1/1] Corrupted Charon: Do you really think I will fall for that one again? An army likes yours is childsplay afor me! However, how do you plan to defeat an army that is already dead?", "darkdescentdungeon-charon-7", true);
         addSound("[1/11] General Graken: Ah, hello there chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.", "darkdescent-generalgraken-1", false);
         addSound("[1/5] General Graken: Oh, sod it, I knew I was forgetting something! Steady there, chum! I'm on my way!", "darkdescent-generalgraken-2", false);
         addSound("[2/5] General Graken: Drat! Too late, it seems. Yes, I forgot to mention the floor was in poor condition. Up here! You took quite the tumble, are you alright?", "darkdescent-generalgraken-3", false);
@@ -3253,6 +3257,8 @@ public class SoundsHandler {
         addSound("[11/20] Nodise: We haven't started yet. You're fine.", "thefeathersflypart2-nodise-1", false);
         addSound("[12/20] Maxie: Phew, I tho- Wait, soldier??", "thefeathersflypart2-maxie-2", false);
         addSound("[13/20] Sybil: You know them?! How?!", "thefeathersflypart2-sybil-1", false);
+        addSound("[13/20] Sybil: Of course you'd know them. I'm not surprised.", "thefeathersflypart2-sybil-17", false);
+        addSound("[13/20] Sybil: And lo and behold, you know them. Of course.", "thefeathersflypart2-sybil-19", false);
         addSound("[14/20] Maxie: How do you not?! They're the one who helped deal with the Factory!", "thefeathersflypart2-maxie-3", false);
         addSound("[15/20] Efena: ...So it's you. I somehow imagined you... More imposing. Huh.", "thefeathersflypart2-efena-3", false);
         addSound("[16/20] Ava: You did WHA-", "thefeathersflypart2-ava-75", false);
@@ -3358,6 +3364,7 @@ public class SoundsHandler {
         addSound("[5/10] Efena: You’re crying?! Aw... There, there. It’s alright, you made it.", "thefeathersflypart2-efena-34", false);
         addSound("[5/10] Efena: I didn't really doubt you with your armour. We have a few questions though!", "thefeathersflypart2-efena-35", false);
         addSound("[6/10] Carl: This is all really nice, but... How does this work?", "thefeathersflypart2-carl-2", false);
+        addSound("[1/3] Carl: Oh, that component, that's a-.", "thefeathersflypart2-carl-3", false);
         addSound("[7/10] Efena: Shut it, Carl! No one c- Wait. Actually...", "thefeathersflypart2-efena-36", false);
         addSound("[8/10] Efena: No one in Corkus ever made anything like this. Do you have anything to tell us, or show?", "thefeathersflypart2-efena-37", false);
         addSound("[9/10] Efena: While the machine didn't seem to work, you pulled out some... Weird magic. Are you hiding anything?", "thefeathersflypart2-efena-38", false);
@@ -3370,6 +3377,8 @@ public class SoundsHandler {
         addSound("[3/15] Sybil: There's NO WAY that's true!", "thefeathersflypart2-sybil-5", false);
         addSound("[4/15] Mei: What should we do what should we-", "thefeathersflypart2-mei-5", false);
         addSound("[5/15] Dwice: Should we seize her?!", "thefeathersflypart2-dwice-6", false);
+        addSound("[2/6] Dwice: Flawless?! More like flawful! This was so obvious!", "thefeathersflypart2-dwice-7", false);
+        addSound("[4/6] Dwice: I- uh, y'know, didn't want to assume...", "thefeathersflypart2-dwice-8", false);
         addSound("[7/15] Mei: I don't- I don't know!", "thefeathersflypart2-mei-6", false);
         addSound("[8/15] Ava: I-", "thefeathersflypart2-ava-125", false);
         addSound("[9/15] Sybil: You SHUT UP for now!", "thefeathersflypart2-sybil-6", false);
@@ -3377,6 +3386,7 @@ public class SoundsHandler {
         addSound("[11/15] Sybil: 'goes for you too, Maxie!", "thefeathersflypart2-sybil-7", false);
         addSound("[12/15] Nodise: Let's calm down and start ag-", "thefeathersflypart2-nodise-5", false);
         addSound("[13/15] Clomius: So that explains the magic!", "thefeathersflypart2-clomius-6", false);
+        addSound("[13/15] Clomius: I just can't believe this!!", "thefeathersflypart2-clomius-7", false);
         addSound("[14/15] Grant: Hmpf? Just take her on the spot!", "thefeathersflypart2-grant-5", false);
         addSound("[15/15] Efena: EVERYONE! STOP! Soldier, I want you to come here and answer something, immediately.", "thefeathersflypart2-efena-39", false);
         addSound("[1/3] Efena: We wouldn't have known with such an outfit.", "thefeathersflypart2-efena-40", false);
@@ -3431,7 +3441,10 @@ public class SoundsHandler {
         addSound("[2/7] Ava: Huh?! The president herself isn't too mad at me? What??", "thefeathersflypart2-ava-144", false);
         addSound("[1/10] Mei: ...Everyone alright?", "thefeathersflypart2-mei-7", false);
         addSound("[2/10] Grant: Hmpf. Did soldier take that thing down?", "thefeathersflypart2-grant-7", false);
+        addSound("[1/1] Grant: Hmpf. I certainly am curious now.", "thefeathersflypart2-grant-8", false);
         addSound("[3/10] Mei: 'think so, yeah.", "thefeathersflypart2-mei-8", false);
+        addSound("[1/1] Mei: Interesting.", "thefeathersflypart2-mei-9", false);
+        addSound("[1/1] Mei: Urgh, what is this thing made of..! Should I go higher?", "thefeathersflypart2-mei-10", false);
         addSound("[4/10] Maxie: Where's soldier? And Ava?!", "thefeathersflypart2-maxie-18", false);
         addSound("[5/10] Efena: Oh she better be around here!", "thefeathersflypart2-efena-53", false);
         addSound("[6/10] Maxie: Wait, under the rubble,  !", "thefeathersflypart2-maxie-19", false);
@@ -3481,6 +3494,87 @@ public class SoundsHandler {
         addSound("[25/27] Efena: Goodbye, Ava. Who knows, I might stop by sometimes. Maybe you'll have figured out that armour of yours.", "thefeathersflypart2-efena-76", false);
         addSound("[26/27] Ava: …soldier? If you stop by the Workshop later, I'll set up something for you as well.", "thefeathersflypart2-ava-151", false);
         addSound("[27/27] Ava: Bye. Thanks. For everything.", "thefeathersflypart2-ava-152", false);
+        addSound("[1/1] Sybil: You should leave now or I'll be the one hitting you.", "thefeathersflypart2-sybil-18", false);
+        addSound("[2/2] Sybil: Calm down, Maxie.", "thefeathersflypart2-sybil-20", false);
+
+        addSound("[1/1] Ava: Go on, I'll follow you. I just gotta finish this first!", "thefeathersflypart2-ava-153", false);
+        addSound("[1/1] Ava: Hey, don't go alone head first! Talk to me!", "thefeathersflypart2-ava-154", false);
+        addSound("[1/1] Ava: Wait, let's figure something out!", "thefeathersflypart2-ava-155", false);
+        addSound("[1/1] Ava: Look, we need a plan. Talk to me.", "thefeathersflypart2-ava-156", false);
+        addSound("[1/1] Ava: You're a lucky one, you know that right?", "thefeathersflypart2-ava-157", false);
+        addSound("[1/1] Ava: I'll meet you back at the Workshop.", "thefeathersflypart2-ava-158", false);
+        addSound("[1/1] Ava: What we're looking for should be around here...", "thefeathersflypart2-ava-159", false);
+        addSound("[1/1] Ava: Well, have you found anything?", "thefeathersflypart2-ava-160", false);
+        addSound("[1/1] Ava: Time to go and repair some pipes or something!", "thefeathersflypart2-ava-161", false);
+        addSound("[1/1] Ava: ...Is that someone crying over there? Eh, I'm not sure my social skills can handle that.", "thefeathersflypart2-ava-162", false);
+        addSound("[1/1] Ava: I'll try talking to more people!", "thefeathersflypart2-ava-163", false);
+        addSound("[1/1] Ava: Alright then, let's get goin'!", "thefeathersflypart2-ava-164", false);
+        addSound("[1/1] Ava: So, that dealer is in there, huh? Let's make sure to keep going. And avoid that place.", "thefeathersflypart2-ava-165", false);
+        addSound("[1/1] Ava: Let's hope we don't get rejected this time around.", "thefeathersflypart2-ava-166", false);
+        addSound("[1/5] Ava: Hey! I saw you run towards the castle. What did you do?", "thefeathersflypart2-ava-167", false);
+        addSound("[1/1] Ava: You're amazing, you know that right?", "thefeathersflypart2-ava-168", false);
+        addSound("[6/6] Ava: Just... tell me once you're ready, I guess.", "thefeathersflypart2-ava-169", false);
+        addSound("[16/20] Ava: You helped deal with WHA-", "thefeathersflypart2-ava-170", false);
+        addSound("[5/6] Ava: It's- It- Uh, helps plants. Grow. Yeah.", "thefeathersflypart2-ava-171", false);
+        addSound("[1/1] Ava: I'm really, really counting on you, soldier...", "thefeathersflypart2-ava-172", false);
+        addSound("[2/4] Ava: Could you... Could you add more? Please?", "thefeathersflypart2-ava-173", false);
+        addSound("[15/20] Ava: Every single one of you. And soldier, you... Urgh!", "thefeathersflypart2-ava-174", false);
+        addSound("[1/7] Ava: I - I really didn't want this... I wanted to help people, soldier! Not... Not...", "thefeathersflypart2-ava-175", false);
+        addSound("[3/27] Ava: Y-you!! I- oh no... I'm... It's over..!", "thefeathersflypart2-ava-176", false);
+        addSound("[1/1] Ava: soldier, once you come back here, you'll be able to get some of my gadgets.", "thefeathersflypart2-ava-177", false);
+        addSound("[1/1] Ava: Alright, let's go!", "thefeathersflypart2-ava-178", false);
+        addSound("[1/1] Ava: Let's get going then...", "thefeathersflypart2-ava-179", false);
+        addSound("[1/1] Ava: I'm quite curious about this! Corkian outfits! Exciting!", "thefeathersflypart2-ava-180", false);
+        addSound("[1/1] Ava: Don't worry about me right now, just keep looking!", "thefeathersflypart2-ava-181", false);
+        addSound("[1/1] Ava: I saw some girl runnin' around in circles and looking all stressed over at the Armour Merchant. Maybe you can check that out?", "thefeathersflypart2-ava-182", false);
+        addSound("[1/1] Ava: Don't worry, we got this, let's keep looking!", "thefeathersflypart2-ava-183", false);
+        addSound("[1/5] Ava: Oh? You found the dealer as well as one other way to get an audience?", "thefeathersflypart2-ava-184", false);
+        addSound("[2/5] Ava: [24 Emerald Blocks], huh? No clue if that's a lot. I'd say we should try your other way! What is it?", "thefeathersflypart2-ava-185", false);
+        addSound("[3/5] Ava: There's a receptionist for audiences? How convenient! We should go talk to her then!", "thefeathersflypart2-ava-186", false);
+        addSound("[4/5] Ava: What? It's apparently really hard? Huh. Well, we should still give it a go? I look fancy, surely they'll listen!", "thefeathersflypart2-ava-187", false);
+        addSound("[5/5] Ava: Buy from that weird dealer if ya want, but we also should try to go see that receptionist. Tell me if you want me to follow you there.", "thefeathersflypart2-ava-188", false);
+        addSound("[1/1] Ava: Alright, let's go then. I'd say we should avoid the dealer, I definitely don't want to get on the bad side of the law!", "thefeathersflypart2-ava-189", false);
+        addSound("[1/1] Ava: Hey, don't go back in there! Just hold on, we got this!", "thefeathersflypart2-ava-190", false);
+        addSound("[1/1] Ava: Wait wait wait what did I just tell yo- I'll just make myself small...", "thefeathersflypart2-ava-191", false);
+        addSound("[4/6] Ava: Maybe that's our ticket? I don't know, I'm just a law-abiding citizen. Well, actually, about that...", "thefeathersflypart2-ava-192", false);
+        addSound("[1/1] Ava: I'm right behind ya!", "thefeathersflypart2-ava-193", false);
+        addSound("[6/20] Ava: Uhh...... Tha- ", "thefeathersflypart2-ava-194", false);
+        addSound("[1/6] Ava: Hey, so... I'm here with soldier to show you a little something!", "thefeathersflypart2-ava-195", false);
+        addSound("[1/1] Ava: There.", "thefeathersflypart2-ava-196", false);
+        addSound("[1/1] Ava: What happened, soldier?! I'll... I'll boot the machine up again!", "thefeathersflypart2-ava-197", false);
+        addSound("[10/10] Ava: Actually... I do.", "thefeathersflypart2-ava-198", false);
+        addSound("[15/20] Ava: Every. Single. One of you.", "thefeathersflypart2-ava-199", false);
+        addSound("[16/20] Ava: I come up to you with an incredible breakthrough, and you can't even see past my feathers.", "thefeathersflypart2-ava-200", false);
+        addSound("[2/4] Ava: And then, here to take me, I suppose. Right?", "thefeathersflypart2-ava-201", false);
+        addSound("[3/4] Ava: Y'know, I noticed you always were one to follow orders. Well, what you're lookin' for is on top of the plant.", "thefeathersflypart2-ava-202", false);
+        addSound("[1/1] Ava: It's all over. My life's over...", "thefeathersflypart2-ava-203", false);
+        addSound("[1/1] Ava: So... Maxie, was it? Right?", "thefeathersflypart2-ava-204", false);
+        addSound("[1/1] Ava: Alright, show me what you found...", "thefeathersflypart2-ava-205", false);
+        addSound("[1/1] Ava: Wait, you don't have anything yet? There must be some stuff lying around!", "thefeathersflypart2-ava-206", false);
+        addSound("[1/1] Ava: I lead, you follow!", "thefeathersflypart2-ava-207", false);
+        addSound("[1/1] Ava: I'll just wear whatever works best for us.", "thefeathersflypart2-ava-208", false);
+        addSound("[1/1] Ava: We don't have that much time you know!", "thefeathersflypart2-ava-209", false);
+        addSound("[1/1] Ava: You lead, I follow!", "thefeathersflypart2-ava-210", false);
+        addSound("[4/5] Ava: Did we even need a letter? That armour probably would've done the trick!", "thefeathersflypart2-ava-211", false);
+        addSound("[1/1] Ava: There we go! ", "thefeathersflypart2-ava-212", false);
+        addSound("[1/1] Ava: Wait, where are you going?! ...Fine, I'll wait nearby, just come back quickly!", "thefeathersflypart2-ava-213", false);
+        addSound("[4/5] Ava: It's difficult to get an audience? Well, it's worth a try, right? Maybe they'll see me as a wealthy lad!", "thefeathersflypart2-ava-214", false);
+        addSound("[1/1] Ava: Leaving town? I'll stick around, just come back eventually, alright?", "thefeathersflypart2-ava-215", true);
+        addSound("[1/1] Ava: Efena... She's nicer than Chief, that's for sure...", "thefeathersflypart2-ava-216", false);
+        addSound("[5/20] Efena: Honestly, I wouldn't blame him if he decided to skip this one out.", "thefeathersflypart2-efena-77", false);
+        addSound("[3/4] Efena: Oh, we get that very often. Especially with mechanics like you. Sorry.", "thefeathersflypart2-efena-78", false);
+        addSound("[4/27] Efena: Hey, hey, calm down! I'm here to actually help you... in a way.", "thefeathersflypart2-efena-79", false);
+        addSound("[5/27] Efena: I do believe we can all learn a thing or two about this.", "thefeathersflypart2-efena-80", false);
+        addSound("[5/20] Efena: I don't think he'll skip this one. You look cute, Ava! That's your name, right? Handwriting's a little iffy.", "thefeathersflypart2-efena-81", false);
+        addSound("[18/20] Efena: Right, right. AVA! Welcome to... the Council.", "thefeathersflypart2-efena-82", false);
+        addSound("[2/3] Efena: Hey, Carl! We didn't ask!", "thefeathersflypart2-efena-83", false);
+        addSound("[1/6] Efena: God, I hate to say it, but her mask was flawless.", "thefeathersflypart2-efena-84", false);
+        addSound("[3/6] Efena: And WHY didn't you say so??", "thefeathersflypart2-efena-85", false);
+        addSound("[5/6] Efena: Urgh. Look, there's only one thing I want to know.", "thefeathersflypart2-efena-86", false);
+        addSound("[6/6] Efena: soldier... Did you know, or did she trick you? Be very careful about what you're about to say.", "thefeathersflypart2-efena-87", false);
+        addSound("[10/20] Efena: Somehow, you're able to control electromagic? I guess it's not exclusive to humans, then.", "thefeathersflypart2-efena-88", false);
+        addSound("[25/27] Efena: Goodbye, Ava. Who knows, maybe I'll stop by sometimes. After all, you're very stylish!", "thefeathersflypart2-efena-89", false);
+
         //FF2 Post quest
         addSound("[1/10] Nodise: Oh, greetings. I seldom see humans around these parts.", "thefeathersflypart2-nodise-9", false);
         addSound("[2/10] Nodise: I'm from Corkus. You ought to have heard of it at one point.", "thefeathersflypart2-nodise-10", false);
@@ -3495,6 +3589,17 @@ public class SoundsHandler {
         addSound("[1/1] Sybil: You think I can't go to Wynn?! Well, maybe I'll go alone!", "thefeathersflypart2-sybil-16", false);
         addSound("[1/12] Nodise: Oh... It's you. I wasn't expecting that. Remember the Corkian Council?", "thefeathersflypart2-nodise-16", false);
         addSound("[1/1] Nodise: There are tensions, sure, but we're doing fine back home.", "thefeathersflypart2-nodise-17", false);
+        addSound("[1/17] Efena: Oh... It's you. 'figured you'd pop here one day.", "thefeathersflypart2-efena-90", false);
+        addSound("[10/17] Efena: There's no way she made that power armour by herself. I feel like I heard 'bout something like that at one point...", "thefeathersflypart2-efena-91", false);
+        addSound("[10/17] Efena: That great azure clothing she had... I'm sure you stole it. Am I right?", "thefeathersflypart2-efena-92", false);
+        addSound("[10/17] Efena: That mechanic outfit Ava had... You stole it, didn't you? No point in lyin'.", "thefeathersflypart2-efena-93", false);
+        addSound("[10/17] Efena: That one rich outfit she wore last time... This was your doing, right? As in, you totally stole it, right?!", "thefeathersflypart2-efena-94", false);
+        addSound("[11/17] Efena: Gahah! I knew it! You actually stole from some friends of mine, y'know?!", "thefeathersflypart2-efena-95", false);
+        addSound("[11/17] Efena: Oh, so you got it from that room downstairs?! ...damn. You might've stolen some of my friend's clothes, then!", "thefeathersflypart2-efena-96", false);
+        addSound("[12/17] Efena: 'wonder what these guys are doin' now. 'kinda left Corkus... I don't like goodbyes and all, so I ignored that.", "thefeathersflypart2-efena-97", false);
+        addSound("[1/1] Efena: Oh, uh, well, bye?!", "thefeathersflypart2-efena-98", false);
+        addSound("[1/1] Efena: See ya!", "thefeathersflypart2-efena-99", false);
+
 
 
 
@@ -3965,6 +4070,10 @@ public class SoundsHandler {
         addSound("[1/7] Worid: What? You're here already. I thought you would take too long so I just went myself.", "junglefever-worid-3", false);
         addSound("[1/2] The Banker: Oh, uh! Somebody! It has been so long since I've seen someone!", "junglefever-thebanker-2", false);
         addSound("[1/5] Worid: You are back! Wonderful!", "junglefever-worid-4", false);
+        addSound("[1/8] Worid: Oh no! How will I ever cure my sickness without any Liquified Emeralds?... cough", "junglefever-worid-5", false);
+        addSound("[1/6] Worid: You are back! Wonderful!", "junglefever-worid-6", false);
+        addSound("[1/1] Worid: cough cough!", "junglefever-worid-7", false);
+        addSound("[1/1] Worid: I feel so much better now, thank you for the cure!", "junglefever-worid-8", false);
 
         //Death Whistle
         addSound("[1/7] Voer: Hello! Hmm, armour, weapon, look of grim despair... You must be from the Wynn province! ", "deathwhistle-voer-1", false);
@@ -5033,17 +5142,10 @@ public class SoundsHandler {
         addSound("[1/2] Ragni Guard: Welcome back, I suppose you're a Wynn citizen now. I've heard quite a few things about your deeds throughout the province.", "nonquestnpc-mainragniguard-2", false);
     }
 
-    private void addName(String message, String name) {
-        String npcName = getNameForMessage(message);
-        if (npcName.isEmpty()) {
-            npcName = getNameForId(name);
-        }
-        npcNames.add(npcName);
-    }
 
     public static String getNameForMessage(String message) {
         String split = message.split(": ")[0];
-        return split.trim().toLowerCase().replaceAll("[^a-zA-Z0-9]", "").replaceAll("[0-9]", "");
+        return split.trim().toLowerCase().replaceAll("[^a-zA-Z\\d]", "").replaceAll("\\d", "");
     }
 
     public static String getNameForId(String name) {
