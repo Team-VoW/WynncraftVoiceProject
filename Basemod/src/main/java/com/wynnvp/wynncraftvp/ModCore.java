@@ -3,6 +3,7 @@ package com.wynnvp.wynncraftvp;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.events.ArmorCheckEvent;
 import com.wynnvp.wynncraftvp.events.QuitServerEvent;
+import com.wynnvp.wynncraftvp.sound.SoundController;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
 import com.wynnvp.wynncraftvp.utils.StringBlacklist;
@@ -33,6 +34,7 @@ public class ModCore {
     public SoundsHandler soundsHandler;
     public static ModCore instance;
     public SoundPlayer soundPlayer;
+    public SoundController controller;
 
     private static Logger logger;
 
@@ -46,6 +48,8 @@ public class ModCore {
     public void init(FMLInitializationEvent event) {
         soundPlayer = new SoundPlayer();
         soundsHandler = new SoundsHandler();
+        controller = new SoundController();
+
         StringBlacklist.namesDefault();
 
         MinecraftForge.EVENT_BUS.register(new ArmorCheckEvent());

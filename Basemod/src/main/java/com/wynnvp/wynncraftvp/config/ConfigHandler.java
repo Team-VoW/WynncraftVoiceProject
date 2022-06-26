@@ -11,7 +11,6 @@ import java.io.File;
 @Mod.EventBusSubscriber
 public class ConfigHandler {
 
-
     private static Configuration config;
 
     public static boolean playAllSoundsOnPlayer;

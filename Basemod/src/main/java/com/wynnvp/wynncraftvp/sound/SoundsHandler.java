@@ -1,6 +1,8 @@
 package com.wynnvp.wynncraftvp.sound;
 
+import com.sun.media.sound.JavaSoundAudioClip;
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.sound.line.LineData;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
@@ -22,7 +24,7 @@ public class SoundsHandler {
         registerSounds();
     }
 
-    private static SoundEvent registerSound(String name) {
+    public static SoundEvent registerSound(String name) {
         ResourceLocation location = new ResourceLocation(ModCore.MODID, name);
         SoundEvent event = new SoundEvent(location);
         event.setRegistryName(name);
@@ -32,6 +34,7 @@ public class SoundsHandler {
 
     /**
      * Method to add the sounds to the system
+     *
      * @param message Identification message
      * @param id Identification sound
      * @param movingSound True if the sound moves with the player,

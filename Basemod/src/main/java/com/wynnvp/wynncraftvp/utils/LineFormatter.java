@@ -1,6 +1,6 @@
 package com.wynnvp.wynncraftvp.utils;
 
-import com.wynnvp.wynncraftvp.sound.LineData;
+import com.wynnvp.wynncraftvp.sound.line.LineData;
 
 public class LineFormatter {
 

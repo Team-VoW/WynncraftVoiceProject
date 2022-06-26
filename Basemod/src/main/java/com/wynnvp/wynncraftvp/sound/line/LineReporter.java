@@ -1,4 +1,4 @@
-package com.wynnvp.wynncraftvp.sound;
+package com.wynnvp.wynncraftvp.sound.line;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
