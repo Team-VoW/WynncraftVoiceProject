@@ -1818,9 +1818,9 @@ public class SoundsHandler {
         addSound("[1/1] Aledar: Stay with us soldier, we just got here. We can't just go wandering around.", "kingsrecruit-aledar-47", false);
         addSound("[1/1] Aledar: We shouldn't enter that cave yet!", "kingsrecruit-aledar-48", false);
         addSound("[1/1] Aledar: We can use this tree as a bridge to get across to the other side.", "kingsrecruit-aledar-49", false);
-        addSound("[1/1] Aledar: Oh, you fell! Try doing it again.", "kingsrecruit-aledar-50", false);
-        addSound("[1/1] Aledar: Hey! where are you going?", "kingsrecruit-aledar-51", false);
-        addSound("[1/1] Aledar: Hey, soldier, the castle's the other way!", "kingsrecruit-aledar-52", false);
+        addSound("[1/1] Aledar: Oh, you fell! Try doing it again.", "kingsrecruit-aledar-50", true);
+        addSound("[1/1] Aledar: Hey! where are you going?", "kingsrecruit-aledar-51", true);
+        addSound("[1/1] Aledar: Hey, soldier, the castle's the other way!", "kingsrecruit-aledar-52", true);
 
 
 
