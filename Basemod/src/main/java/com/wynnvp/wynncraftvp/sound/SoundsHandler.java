@@ -3677,6 +3677,9 @@ public class SoundsHandler {
         addSound("[1/4] Jankan: Finally! It took ye long enough, hand it over! Oh right.. yer want'n somethin'.", "canyoncondor-jankan-2", false);
         addSound("[1/7] Hermit: What do you think you're doing here, kid? Think you can waltz in my humble abode and get across my bridge?", "canyoncondor-hermit-1", false);
         addSound("[1/5] Hermit: A ha! This will do perfectly. My chickling will love it! I suppose you can cross the bridge now.", "canyoncondor-hermit-2", false);
+        addSound("[1/1] Hermit: What's taken you so long, kid? I just want [1 Rare Rose]!", "canyoncondor-hermit-3", false);
+        addSound("[1/1] Hermit: What are you here for, eh kid? Get out. Get!", "canyoncondor-hermit-4", false);
+        addSound("[1/1] Hermit: Think you can waltz in my humble abode and get across my bridge? Get out!", "canyoncondor-hermit-5", false);
         addSound("[1/5] Svin: Traveler! You have returned! Tell me, what have you learned?", "canyoncondor-svin-2", false);
 
         //Poisoning the pest
