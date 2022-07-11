@@ -229,7 +229,7 @@ public class SoundsHandler {
 
         //Beneath the Depths
         addSound("[1/9] Javier: Garh, you look like a mighty fine adventurer, lad. But perhaps your pockets are a little lighter than you want, eh?", "beneaththedepths-javier-1", false);
-        addSound("[1/3] Deceased Buccaneer: Halt it there, laddy! The wind has told us that yer looking for treasure map. Ah, ye'll not get it so easily.", "beneaththedepths-deceasedbuccaneer-1", false);
+        addSound("[1/3] Deceased Buccaneer: Halt it there, laddy! The wind has told us that yer looking for treasure map. Ah, ye'll not get it so easily.", "beneaththedepths-deceasedbuccaneer-1", true);
         addSound("[1/1] Deceased Buccaneer: Good luck on that petty journey of yers. Just find the whole path, and yerself'll be just fine...", "beneaththedepths-deceasedbuccaneer-4", false);
         addSound("[1/6] Javier: Argh, yer talented aren't you lad! Many thanks indeed, now we can see where me treasure be buried. ", "beneaththedepths-javier-2", false);
         addSound("[1/10] Dalben: What's this? A traveller? How might we assist you? ", "beneaththedepths-dalben-1", false);
@@ -1668,7 +1668,7 @@ public class SoundsHandler {
         addSound("[2/4] Aryn?: DO NOT RESIST, BOY! YOUR BODY IS MINE. I WAS TRAPPED IN THAT STONE FOR MILLENIA, AND NOW I AM FREE.", "lostinthejungle-aryn-2", true);
         addSound("[3/4] Aryn: Aha, I hear someone coming! Surely a tribesman here to rescue me!", "lostinthejungle-aryn-3", true);
         addSound("[4/4] Aryn?: Oh! If so, the body of this warrior will be far better suited to my needs! Grant me your power, boy! I need to thrash them first to possess them!", "lostinthejungle-aryn-4", true);
-        addSound("[1/6] Aryn: Hahah, take that, evil wraith! You'll never match the power of our tribe-", "lostinthejungle-aryn-5", true);
+        addSound("[1/6] Aryn: Hahah, take that, evil wraith! You'll never match the power of our tribe-", "lostinthejungle-aryn-5", false);
 
         //The Mercenary
         addSound("[1/10] Amerigo: I have no time for you, stranger! Almuj's army is in panic!", "themercenary-amerigo-1", false);
