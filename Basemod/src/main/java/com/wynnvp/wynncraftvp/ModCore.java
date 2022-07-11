@@ -12,6 +12,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
@@ -56,7 +57,7 @@ public class ModCore {
         MinecraftForge.EVENT_BUS.register(new ArmorCheckEvent());
         MinecraftForge.EVENT_BUS.register(new QuitServerEvent());
         instance = this;
-        UserCount.addPlayer();
     }
+
 
 }

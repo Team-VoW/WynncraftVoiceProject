@@ -3,6 +3,8 @@ package com.wynnvp.wynncraftvp.events;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.packet.PacketIncomingFilter;
+import com.wynnvp.wynncraftvp.utils.UserCount;
+import com.wynnvp.wynncraftvp.utils.Utils;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.text.TextComponentString;
@@ -44,6 +46,7 @@ public class JoinServerEvent {
         @Override
         public void run() {
             try {
+                UserCount.addPlayer();
                 String version = ModCore.instance.getClass().getPackage().getImplementationVersion();
 
                 float[] versions = VersionChecker.getVersionCheck();
