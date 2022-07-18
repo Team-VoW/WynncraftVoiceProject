@@ -6811,6 +6811,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:pitofthedead-merloni-2", "stream": true}]
   },
+  "pitofthedead-merloni-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-3", "stream": true}]
+  },
+  "pitofthedead-merloni-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-4", "stream": true}]
+  },
+  "pitofthedead-merloni-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-5", "stream": true}]
+  },
 
 
   "arachnidsascent-cob-1": {
