@@ -20,7 +20,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'com.github.johnrengelman.shadow'
 
-version = '0.21.2'
+version = '0.22'
 group = 'com.wynnvp.wynncraftvp' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'wynncraftvp'
 
