@@ -2475,7 +2475,7 @@ public class SoundsHandler {
         addSound("[4/8] Lari: Even though it is not enough, I will say I am sorry for the pain I caused you. The Guardian was right, in the end.", "rol5therealmoflight-lari-3", true);
         addSound("[5/8] Lari: Without you carrying out Orphion's will, we would not be here. You truly are necessary in this, and I believe I have finally made peace with that.", "rol5therealmoflight-lari-4", true);
         addSound("[6/8] Lari: It has been a long time since I had a partner willing to help me in this way. I was unused to it, I suppose... Still.", "rol5therealmoflight-lari-5", true);
-        addSound("[7/8] Lari: If you'll be willing to aid me, it would be a great relief. It has been a thousand years since I entered the Realm of Light...", "rol5therealmoflight-lari-6", true);
+        addSound("[7/8] Lari: If  you'll be willing to aid me, it would be a great relief. It has been a thousand years since I entered the Realm of Light...", "rol5therealmoflight-lari-6", true);
         addSound("[8/8] Lari: I can only hope things have not changed much. I remember how it was, right down to the last petal...", "rol5therealmoflight-lari-7", true);
         addSound("[1/4] Lari: Wait a moment, soldier. I have one more thing I would like to say before we enter.", "rol5therealmoflight-lari-8", true);
         addSound("[2/4] Lari: I... I need to thank you. For helping, as you have. For staying by me as you have. There was one other before you like that...", "rol5therealmoflight-lari-9", true);
@@ -2531,7 +2531,7 @@ public class SoundsHandler {
         addSound("[10/12] Lari: We've found the disturbance... Even beyond this, I'll need to charge the rift with energy to activate it.", "rol5therealmoflight-lari-59", true);
         addSound("[11/12] Lari: Go in peace, tortured ones! Be at one with the light!", "rol5therealmoflight-lari-60", true);
         addSound("[12/12] Lari: Get the rest of them, Soldier! I'll charge the rift!", "rol5therealmoflight-lari-61", true);
-        addSound("[1/1] Lari: Thank you, achara. The rift is charged again- Just walk into it!", "rol5therealmoflight-lari-62", true);
+        addSound("  [1/1] Lari: Thank you, achara. The rift is charged again- Just walk into it!", "rol5therealmoflight-lari-62", true);
         addSound("[1/5] Lari: The process here should be roughly the same. I bring down the barrier, you enter and charge it with the light I provide.", "rol5therealmoflight-lari-63", true);
         addSound("[2/5] Lari: I'll need to focus the energies of the monoliths to reconnect the Nexus of Light to the mainland here, so you'll be alone.", "rol5therealmoflight-lari-64", true);
         addSound("[3/5] Lari: I'll leave a barrier around you. Few creatures live on these cliffs, but best to be certain, of course.", "rol5therealmoflight-lari-65", true);
@@ -2555,14 +2555,13 @@ public class SoundsHandler {
         addSound("[4/7] Bak'al: You shall not. Surely your god will smile seeing me leave.", "rol5therealmoflight-bakal-5", true);
         addSound("[5/7] Lari: YOU DON'T GET TO TALK ABOUT ORPHION LIKE THAT!", "rol5therealmoflight-lari-79", true);
         addSound("[6/7] Bak'al: We have already won. Your peon is outmatched.", "rol5therealmoflight-bakal-6", true);
+        addSound("[7/7] Lari: It's not over... IT CAN'T BE, DON'T YOU- TAKE THIS!", "rol5therealmoflight-lari-80", true);
         addSound("There's a faint buzzing in your ears...", "rol5therealmoflight-buzzing-1", true);
         addSound("soldier... I apologize for leaving you like that. I felt like this was my only chance at defeating this plague - by attacking its core.", "rol5therealmoflight-buzzing-2", true);
         addSound("I have a slight idea of where I'm headed, but... If I'm able to handle him, then maybe I'm powerful enough for this.", "rol5therealmoflight-buzzing-3", true);
         addSound("I've never been one to say goodbyes, but thank you for everything. I know you'll find people just as strong as you are to rescue Orphion in my place.", "rol5therealmoflight-buzzing-4", true);
         addSound("I- I see the end of this... Tunnel. There's- Wait...", "rol5therealmoflight-buzzing-5", true);
         addSound("By the light what is that thing?! S-Stay away f-", "rol5therealmoflight-buzzing-6", true);
-        addSound("[3/3] Lari: Though... I feel something on the other side. It seems incredibly... Foul. I can't tell what it is, let's be careful.", "rol5therealmoflight-lari-80", true);
-        addSound("[7/7] Lari: It's not over... IT CAN'T BE, DON'T YOU- TAKE THIS!", "rol5therealmoflight-lari-81", true);
         addSound("1/10orphionmypulseyourbrillianceisblindingyourpowersomuchmorethaniexpected", "nexusoflight-orphion-1", true);
         addSound("2/10orphionthedarkaberrationitbroughtshadowstomeandfrommetomylandthentoyours", "nexusoflight-orphion-2", true);
         addSound("3/10orphiongavelsdeclinewillendwithmyfreedomslowlyiamstillleftdimbuteverbrightening", "nexusoflight-orphion-3", true);
