@@ -2776,6 +2776,16 @@ public class SoundsHandler {
         addSound("[5/5] Lanu: What the hell was that...!", "kingdomofsand-lanu-9", false);
         addSound("[1/6] Lanu: That shouldn't have happened, I... I don't understand.", "kingdomofsand-lanu-10", false);
 
+        addSound("[1/1] ???: Who is the fool that has opened this accursed cage?", "sst-hashr-1", true);
+        addSound("[1/2] ???: You are not of the old empire... Not one of those who forced me in here.", "sst-hashr-2", true);
+        addSound("[2/2] ???: Why do you take arms against me? I only tried to save my people from my father!", "sst-hashr-3", true);
+        addSound("[1/1] Hashr: If you insist on ending me, then I'll dispose of you like I did that wretched emperor!", "sst-hashr-4", true);
+
+        addSound("[1/1] ???: The fool returns... The cage shall claim you too.", "csst-hashr-1", true);
+        addSound("[1/2] ???: The glorious sands run red... I cannot understand it. I cannot understand you.", "csst-hashr-2", true);
+        addSound("[2/2] ???: Yet... New power runs forth at my fingertips. I may yet save this wretched land...", "csst-hashr-3", true);
+        addSound("[1/1] Hashr: I will rule the red sands with this power under my control!", "csst-hashr-4", true);
+
         //Reclaiming the house
         addSound("[1/9] Elphaba: Oh, a Wynnic soldier out here in the boondocks? Honestly, you're just what we need- I could use your help, if you're able?", "reclaimingthehouse-elphaba-1", false);
         addSound("[2/9] Elphaba: Good, thank you. Let me lock down the camp before I give you the briefing, though.", "reclaimingthehouse-elphaba-2", false);

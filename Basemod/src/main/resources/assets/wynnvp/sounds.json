@@ -8682,6 +8682,39 @@
     "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-10", "stream": true}]
   },
 
+  "sst-hashr-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:sst-hashr-1", "stream": true}]
+  },
+  "sst-hashr-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:sst-hashr-2", "stream": true}]
+  },
+  "sst-hashr-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:sst-hashr-3", "stream": true}]
+  },
+  "sst-hashr-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:sst-hashr-4", "stream": true}]
+  },
+  "csst-hashr-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:csst-hashr-1", "stream": true}]
+  },
+  "csst-hashr-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:csst-hashr-2", "stream": true}]
+  },
+  "csst-hashr-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:csst-hashr-3", "stream": true}]
+  },
+  "csst-hashr-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:csst-hashr-4", "stream": true}]
+  },
+
 
 
   "reclaimingthehouse-elphaba-1": {
