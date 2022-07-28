@@ -7987,6 +7987,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-6", "stream": true}]
   },
+  "darkdescentdungeon-charon-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-7", "stream": true}]
+  },
 
 
 
