@@ -18,6 +18,7 @@ public class ConfigHandler {
     public static boolean logMissingLines;
     public static boolean anonymous;
     public static boolean hasShownReportLineGui;
+    public static int blockCutOff;
 
 
     private static final String category = "Settings";
@@ -31,6 +32,7 @@ public class ConfigHandler {
         logMissingLines = config.getBoolean("logMissingLines", ConfigHandler.category, false, "If the mod should send in unvoiced lines");
         anonymous = config.getBoolean("anonymous", ConfigHandler.category, false, "If line reporting should be anonymous");
         hasShownReportLineGui = config.getBoolean("hasShownReportLineGui", ConfigHandler.category, false, "If the Report line gui has been shown");
+        blockCutOff = config.getInt("blockCutOff", ConfigHandler.category, 32, 16, 10000, "At what distance voices become unhearable");
 
         config.save();
     }
@@ -61,6 +63,12 @@ public class ConfigHandler {
     public static void setHasShownReportLineGui(Boolean hasShownReportLineGui){
         ConfigHandler.hasShownReportLineGui = hasShownReportLineGui;
         config.get(category, "hasShownReportLineGui", false).set(hasShownReportLineGui);
+        config.save();
+    }
+
+    public static void setBlockCutOff(int value){
+        ConfigHandler.blockCutOff = value;
+        config.get(category, "blockCutOff", 1.5f).set(value);
         config.save();
     }
 

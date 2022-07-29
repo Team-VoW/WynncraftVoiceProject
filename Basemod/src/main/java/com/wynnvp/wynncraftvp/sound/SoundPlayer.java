@@ -103,7 +103,7 @@ public class SoundPlayer {
 
     private void playSoundAtCoords(Vec3d blockPos, SoundEvent soundEvent) {
         EntityPlayerSP player = Minecraft.getMinecraft().player;
-        player.getEntityWorld().playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, 1, 1, false);
+        player.getEntityWorld().playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, ConfigHandler.blockCutOff / 16f, 1, false);
     }
 
     private String getQuest(String id) {
