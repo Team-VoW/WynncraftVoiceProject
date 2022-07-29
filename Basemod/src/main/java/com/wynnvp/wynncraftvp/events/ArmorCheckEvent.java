@@ -196,7 +196,7 @@ public class ArmorCheckEvent {
                             break;
                         }
                     }
-                    System.out.println("Result: " + result);
+                    //System.out.println("Result: " + result);
                     vec3dList.set(result, armorStand.getPositionVector());
                 }
             }
