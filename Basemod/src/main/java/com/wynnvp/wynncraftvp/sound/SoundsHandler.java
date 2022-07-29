@@ -1764,7 +1764,7 @@ public class SoundsHandler {
         addSound("[1/8] Guard: Finally, some backup! Help me out here, would ya?", "kingsrecruit-guard2-1", false);
         addSound("[2/8] Aledar: What happened, did you get attacked by the corrupt?", "kingsrecruit-aledar-26", false);
         addSound("[3/8] Guard: Not quite, recruit. I'm well-equipped for them. The issue is this cave-in.", "kingsrecruit-guard2-2", false);
-        addSound("[4/8] Tasim: This isn't seriously the only way through, is it? What are we going to do?", "kingsrecruit-tasim-21", false);
+        addSound("[4/8] Tasim: This isn't sebhriously the only way through, is it? What are we going to do?", "kingsrecruit-tasim-21", false);
         addSound("[5/8] Guard: If it wasn't for my injuries, I could just use my weapon to cast a spell on these boulders to get rid of them.", "kingsrecruit-guard2-3", false);
         addSound("[6/8] Guard: ...", "kingsrecruit-guard2-4", false);
         addSound("[7/8] Guard: Soldier, you're an Assassin, right? Walk up to the boulder for me.", "kingsrecruit-guard2-5", false);
@@ -1801,6 +1801,8 @@ public class SoundsHandler {
         addSound("[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.", "kingsrecruit-ragnisking-1", true);
         addSound("[1/7] Ragni's King: Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.", "kingsrecruit-ragnisking-2", false);
         addSound("[1/1] Tasim: Just Right-Click the Loot chest to open it.", "kingsrecruit-tasim-22", false);
+        addSound("[1/1] Tasim: Right-click on the Soldier to talk to him.", "kingsrecruit-tasim-23", false);
+        addSound("[1/1] Tasim: Let's enter the cave and get some armour, soldier!", "kingsrecruit-tasim-24", false);
         addSound("[1/1] Aledar: The bridge is broken. soldier, let's find another way across!", "kingsrecruit-aledar-28", false);
         addSound("[1/1] Aledar: Hey! Don't go back!", "kingsrecruit-aledar-29", false);
         addSound("[1/1] Aledar: What are you doing? Don't go wandering off!", "kingsrecruit-aledar-30", false);
