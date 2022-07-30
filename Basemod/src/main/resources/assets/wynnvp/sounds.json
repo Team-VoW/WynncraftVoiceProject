@@ -605,6 +605,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:gravedigger-sayleros-2", "stream": true}]
   },
+  "gravedigger-sayleros-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gravedigger-sayleros-3", "stream": true}]
+  },
+  "gravedigger-sayleros-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gravedigger-sayleros-4", "stream": true}]
+  },
   "gravedigger-priest-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:gravedigger-priest-2", "stream": true}]

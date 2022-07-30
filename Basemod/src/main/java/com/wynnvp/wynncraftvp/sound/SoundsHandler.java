@@ -931,6 +931,8 @@ public class SoundsHandler {
         addSound("[1/4] The Priest: Are you trying to go down into the crypt? Oh, that is a very bad idea.", "gravedigger-priest-1", false);
         addSound("[1/2] The Priest: You got the flesh. Good.", "gravedigger-priest-2", false);
         addSound("[1/1] Sayleros: Brilliant! It is a little bit dusty, but it will do the trick! Here, take these as proof of my gratitude.", "gravedigger-sayleros-2", false);
+        addSound("[1/1] Sayleros: You look like you desperately need an adventure, Come back when you're level 20, I might need you", "gravedigger-sayleros-3", false);
+        addSound("[1/1] Sayleros: Thank you so much for your help!", "gravedigger-sayleros-4", false);
 
         //Wrath of the Mummy
         addSound("[1/6] Ormrod: Uh, you shouldn't have come here!", "wrathofthemummy-ormrod-1", false);
