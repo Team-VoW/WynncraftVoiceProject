@@ -1098,6 +1098,10 @@ public class SoundsHandler {
         addSound("[1/6] Kelight: Hah. Took you long enough. This is the light dust, I presume?", "templeoflegends-kelight-4", false);
         addSound("[1/4] Kelight: Oh, so you actually managed to find the blighter. I was getting tired of waiting for you.", "templeoflegends-kelight-5", false);
         addSound("[1/4] Kelight: .. You... you did it? H-how?!", "templeoflegends-kelight-6", false);
+        addSound("[1/1] Kelight: Only the bravest adventurers who succeed in my quest can enter the Temple of the Legends.\n", "templeoflegends-kelight-7", false);
+        addSound("[1/1] Kelight: Only brave warriors of level 68 may attempt to join this Temple.\n", "templeoflegends-kelight-8", false);
+        addSound("[1/1] Kelight: Do not waste my time. Bring me what I have asked of you.\n", "templeoflegends-kelight-9", false);
+        addSound("[1/1] Kelight: I am proud to have you in our temple! Perhaps one day you shall be almost as great as I am!\n", "templeoflegends-kelight-10", false);
         addSound("[1/6] Rayshyroth: Oh? Well, greetings. What brings you to our quiet lonely island, let alone all the way up here?", "templeoflegends-rayshyroth-1", false);
         addSound("[1/9] Rayshyroth: Aha, you're back with the Sky Vapor! Sorry about the climb, even I find it rather inconvenient at times.", "templeoflegends-rayshyroth-2", false);
 

@@ -1108,6 +1108,22 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:templeoflegends-kelight-6", "stream": true}]
   },
+  "templeoflegends-kelight-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-7", "stream": true}]
+  },
+  "templeoflegends-kelight-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-8", "stream": true}]
+  },
+  "templeoflegends-kelight-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-9", "stream": true}]
+  },
+  "templeoflegends-kelight-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:templeoflegends-kelight-10", "stream": true}]
+  },
   "templeoflegends-rayshyroth-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:templeoflegends-rayshyroth-1", "stream": true}]
