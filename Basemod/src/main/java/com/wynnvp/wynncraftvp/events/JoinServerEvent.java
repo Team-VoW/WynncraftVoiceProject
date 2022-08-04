@@ -59,6 +59,7 @@ public class JoinServerEvent {
                 }
 
                 if (versions[1] < versionInFloat) {
+                    isOnNewestVersion = true;
                     return;
                 }
 
