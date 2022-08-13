@@ -2744,6 +2744,18 @@ public class SoundsHandler {
         addSound("[1/7] Nick: It looks like my little speech brought the rich back down to earth.", "meaningfulholiday-nick-19", false);
         addSound("[1/1] Guest: You can't do that!", "meaningfulholiday-guest-1", true);
         addSound("[1/1] Guest: The food on the table isn't enough to feed everyone here!", "meaningfulholiday-guest-2", true);
+        addSound("[1/1] Nick: Have you found any food?", "meaningfulholiday-nick-20", false);
+        addSound("[1/1] Nick: Thank you so much! I couldn't have done it without you.", "meaningfulholiday-nick-21", false);
+        addSound("[1/1] Nick: Hey! Don't go down there, it's dangerous!", "meaningfulholiday-nick-22", false);
+        addSound("[3/9] Nick: There's five times more homeless and hungry than last year!", "meaningfulholiday-nick-23", false);
+        addSound("[5/9] Nick: Tough?! It's impossible! What happened to people's good will? I had one volunteer this year! ONE!", "meaningfulholiday-nick-24", false);
+        addSound("[7/9] Nick: Hmmm... Oh, sorry. I miscalculated your journey here. Good to see you.", "meaningfulholiday-nick-25", false);
+        addSound("[8/9] Nick: I suppose you heard Santa and I. Our next location is Detlas.", "meaningfulholiday-nick-26", false);
+        addSound("[1/1] Nick: Sigh... This isn't looking good...", "meaningfulholiday-nick-27", false);
+        addSound("[4/9] Santa: Nick, I know times are tough there, but-", "meaningfulholiday-santa-6", false);
+        addSound("[6/9] Santa: I'm sorry Nick. You could go to Detlas and ask there, they have a feast big enough to feed an army!", "meaningfulholiday-santa-7", false);
+        addSound("[9/9] Santa: Alright, that's settled then. Leave through the fireplace behind me, it will bring you directly to Detlas. Good luck, Nick.", "meaningfulholiday-santa-8", false);
+
 
         //Kingdom of sand
         addSound("[1/3] ???: Hmm.. No dice. Let me try another.", "kingdomofsand-lanu-1", false);

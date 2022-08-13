@@ -8554,9 +8554,53 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:meaningfulholiday-santa-5", "stream": true}]
   },
+  "meaningfulholiday-santa-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-santa-6", "stream": true}]
+  },
+  "meaningfulholiday-santa-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-santa-7", "stream": true}]
+  },
+  "meaningfulholiday-santa-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-santa-8", "stream": true}]
+  },
   "meaningfulholiday-nick-19": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-19", "stream": true}]
+  },
+  "meaningfulholiday-nick-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-20", "stream": true}]
+  },
+  "meaningfulholiday-nick-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-21", "stream": true}]
+  },
+  "meaningfulholiday-nick-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-22", "stream": true}]
+  },
+  "meaningfulholiday-nick-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-23", "stream": true}]
+  },
+  "meaningfulholiday-nick-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-24", "stream": true}]
+  },
+  "meaningfulholiday-nick-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-25", "stream": true}]
+  },
+  "meaningfulholiday-nick-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-26", "stream": true}]
+  },
+  "meaningfulholiday-nick-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:meaningfulholiday-nick-27", "stream": true}]
   },
   "meaningfulholiday-guest-1": {
     "category": "voice",
