@@ -144,6 +144,7 @@ public class SoundsHandler {
         addSound("[1/1] Talking Mushroom: WAIT- IT'S RUNNING AWAY! FOLLOW IT!", "talkingmushroomrat2", true);
         addSound("[1/1] Talking Mushroom: WHA-... DID WE JUST WATCH A RAT... KILL ITSELF? WHAT THE HELL!?!", "talkingmushroomrat3", true);
         addSound("[1/3] Talking Mushroom: ... HEY, HUMAN, TELL ME SOMETHING. WHY ARE YOU OUT HERE AND NOT IN ONE OF THOSE CELLS?", "talkingmushroommoltencoreprison", true);
+        addSound("[1/5] Talking Mushroom: PLEASE. LISTEN TO ME FOR ONE MOMENT. IF YOU GO ANYWHERE NEAR THAT... THING... WE ARE GOING TO DIE. PLEASE. GO BACK.", "talkingmushroomendportal", true);
 
 
         //Sea skipper
