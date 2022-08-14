@@ -18586,10 +18586,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:questionmark-computer-18", "stream": true}]
   },
-  "questionmark-computer-19": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:questionmark-computer-19", "stream": true}]
-  },
   "questionmark-mehme-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:questionmark-mehme-1", "stream": true}]

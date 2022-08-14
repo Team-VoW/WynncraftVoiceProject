@@ -4657,10 +4657,9 @@ public class SoundsHandler {
         addSound(">Permissions updated.", "questionmark-computer-13", true);
         addSound(">Too few users detected. The user minimum is 4!", "questionmark-computer-14", true);
         addSound(">Now accepting user input. Jump to reset configurations.", "questionmark-computer-15", true);
-        addSound(">Permissions updated.", "questionmark-computer-16", true);
-        addSound(">Sealing capsule...", "questionmark-computer-17", true);
-        addSound(">Systems starting up...", "questionmark-computer-18", true);
-        addSound(">Calculating destination...", "questionmark-computer-19", true);
+        addSound(">Sealing capsule...", "questionmark-computer-16", true);
+        addSound(">Systems starting up...", "questionmark-computer-17", true);
+        addSound(">Calculating destination...", "questionmark-computer-18", true);
         addSound("[1/6] Mehme: Welcome to my wonderful wooden home!", "questionmark-mehme-1", false);
 
         //The hidden city
