@@ -942,6 +942,8 @@ public class SoundsHandler {
         addSound("[1/3] Bandit: Hey, what are you doing? If you're trying to loot the tomb, me and the other Creden Tibus already beat you to it.", "wrathofthemummy-bandit-1", false);
         addSound("[1/4] Bandit: Well, whaddya know? You got some Pink Wool! Okay, hand it here and I'll look the other way and let you into the tomb.", "wrathofthemummy-bandit-2", false);
         addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummy-ormrod-2", false);
+        addSound("[1/1] Ormrod: Thank you so much for removing the curse!", "wrathofthemummy-ormrod-3", false);
+        addSound("[1/1] Ormrod: Don't stand close to me, I am cursed! Come back when you're level 36, you might be able to help me.", "wrathofthemummy-ormrod-4", false);
 
         //Corrupted village
         addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallge-orikal-8", false);

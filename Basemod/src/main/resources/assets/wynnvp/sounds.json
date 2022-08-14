@@ -658,6 +658,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-2", "stream": true}]
   },
+  "wrathofthemummy-ormrod-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-3", "stream": true}]
+  },
+  "wrathofthemummy-ormrod-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-4", "stream": true}]
+  },
 
 
 
