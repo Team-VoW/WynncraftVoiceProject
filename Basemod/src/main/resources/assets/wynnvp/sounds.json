@@ -13282,6 +13282,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:anironheartpart2-detectivehart-2", "stream": true}]
   },
+  "anironheartpart2-detectivehart-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart2-detectivehart-3", "stream": true}]
+  },
+  "anironheartpart2-detectivehart-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart2-detectivehart-4", "stream": true}]
+  },
+  "anironheartpart2-detectivehart-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartpart2-detectivehart-5", "stream": true}]
+  },
   "anironheartpart2-drurelix-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:anironheartpart2-drurelix-1", "stream": true}]

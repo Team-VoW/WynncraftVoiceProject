@@ -31,6 +31,7 @@ public class JoinServerEvent {
         String serverIP = Objects.requireNonNull(Minecraft.getMinecraft().getCurrentServerData()).serverIP.toLowerCase();
         if (serverIP.startsWith("play.wynncraft")
                 || serverIP.startsWith("media.wynncraft")
+                || serverIP.startsWith("beta.wynncraft")
                 || serverIP.startsWith("lobby.wynncraft")){
             System.out.println("Joined Live Wynncraft server");
             ModCore.inLiveWynnServer = true;

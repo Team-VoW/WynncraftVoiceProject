@@ -1995,6 +1995,9 @@ public class SoundsHandler {
         addSound("[17/17] Daxe: Follow this road west and turn right. Look for Urelix. The factory is hidden in a cabin, it won't look like a factory.", "anironheartpart2-daxe-12", false);
         addSound("[1/8] Detective Hart: Hotor, Athomo, Arperi, Etyir, Taiyroth, On'omi, Danin, Nesys, Onton. All missing...", "anironheartpart2-detectivehart-1", false);
         addSound("[1/5] Detective Hart: You've returned, I see. Any news on the situation?", "anironheartpart2-detectivehart-2", false);
+        addSound("[1/1] Detective Hart: The good people of Olux are going missing! If only you were level 58, you could help me with my investigation.", "anironheartpart2-detectivehart-3", false);
+        addSound("[1/1] Detective Hart: Have you found any leads since I sent you to my contact, Daxe?", "anironheartpart2-detectivehart-4", false);
+        addSound("[1/1] Detective Hart: ...I hope you always do the right thing.", "anironheartpart2-detectivehart-5", false);
         addSound("[1/5] Urelix: And what do you think you are doing, barging into my humble home like this? Do they not teach humans manners in Wynn?", "anironheartpart2-drurelix-1", false);
         addSound("[1/10] Dr. Urelix: Well well, look at you, here at the end of my factory. I wasn't expecting you to survive the production line. I thought you'd be one of ours by now.", "anironheartpart2-drurelix-2", false);
         addSound("[1/3] Dr. Urelix: Ahh, a wise choice. Production will continue then...and you've earned yourself a pocket full of emeralds at the same time.", "anironheartpart2-drurelix-3", false);
