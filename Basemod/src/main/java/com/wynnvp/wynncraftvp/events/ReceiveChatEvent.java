@@ -19,8 +19,11 @@ ReceiveChatEvent {
     private static final Vector3f mixedFeelingsNPC2 = new Vector3f(-5835, 16, -2463);
     private static final Vector3f mixedFeelingsNPC3 = new Vector3f(-5807, 16, -2421);
 
+    public static boolean stopMod = false;
+
     @SubscribeEvent
     public static void receivedChat(ClientChatReceivedEvent event) {
+        if (stopMod) return;
         String msg = event.getMessage().getUnformattedText();
 
         //Replace player Name with "soldier"

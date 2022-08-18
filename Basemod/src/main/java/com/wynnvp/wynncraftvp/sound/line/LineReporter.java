@@ -4,6 +4,7 @@ import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.events.JoinServerEvent;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
+import com.wynnvp.wynncraftvp.utils.VersionChecker;
 import net.minecraft.client.Minecraft;
 
 import java.io.DataOutputStream;
@@ -26,7 +27,7 @@ public class LineReporter {
         if (!ConfigHandler.logMissingLines
                 || !ModCore.inLiveWynnServer
         || !LineFormatter.isNPCSentLine(lineData.getRealLine())
-        || !JoinServerEvent.isOnNewestVersion) return;
+        || !VersionChecker.isOnUpToDateVersion) return;
 
 
         CompletableFuture.runAsync(() -> {

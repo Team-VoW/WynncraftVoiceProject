@@ -120,7 +120,7 @@ public class SoundPlayer {
     }
 
     private void addSoundToCoolDown(String soundName) {
-        if (latestSoundPlayed.size() > 5) {
+        if (latestSoundPlayed.size() >= ConfigHandler.maxCoolDownLines) {
             latestSoundPlayed.remove(0);
         }
         latestSoundPlayed.add(soundName);
