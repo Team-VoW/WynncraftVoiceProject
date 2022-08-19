@@ -2,7 +2,6 @@
 
 ## REQUIREMENTS:
 - [Forge for 1.12.2](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html)  
-- [Wynntils (latest version)](https://wynntils.com/#install)  
 
 ---------------------------------------------------------------------
 ## !!!  IMPORTANT  !!!
