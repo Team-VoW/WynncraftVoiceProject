@@ -8,7 +8,7 @@ public class LineFormatter {
         LineData lineData = new LineData();
 
         if (message.contains("iso95bf")) { // unnatural message
-            return;
+            return null;
         }
 
         message = message.replace("\n", "iso95bf");
