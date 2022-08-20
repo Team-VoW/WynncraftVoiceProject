@@ -6,7 +6,9 @@ import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
 import net.minecraft.client.Minecraft;
+import net.minecraft.util.text.Style;
 import net.minecraft.util.text.TextComponentString;
+import net.minecraft.util.text.event.ClickEvent;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -67,7 +69,8 @@ public class VersionChecker {
         Minecraft.getMinecraft().player.sendMessage(new TextComponentString(message));
         message = "§8To immediately download the new version, click here: §5" + directUpdateLink
                 + ". §8To read more, click here: §5" + updateInfoPageLink;
-        Minecraft.getMinecraft().player.sendMessage(new TextComponentString(message));
+        Minecraft.getMinecraft().player.sendMessage(
+                new TextComponentString(message).setStyle(new Style().setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, "url"))));
 
     }
 
