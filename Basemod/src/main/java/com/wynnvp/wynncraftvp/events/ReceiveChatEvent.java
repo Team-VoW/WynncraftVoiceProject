@@ -36,6 +36,11 @@ ReceiveChatEvent {
 
 
         LineData lineData = LineFormatter.formatToLineData(msg);
+
+        if (lineData == null) { // invalid line data returned
+            return;
+        }
+
         if (isInMixedFeelingsQuest()) {
             String result = getMixedFeelingsLine(lineData.getSoundLine());
             if (result != null) {

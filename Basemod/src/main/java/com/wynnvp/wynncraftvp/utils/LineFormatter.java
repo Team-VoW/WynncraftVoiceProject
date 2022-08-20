@@ -6,6 +6,11 @@ public class LineFormatter {
 
     public static LineData formatToLineData(String message) {
         LineData lineData = new LineData();
+
+        if (message.contains("iso95bf")) { // unnatural message
+            return null;
+        }
+
         message = message.replace("\n", "iso95bf");
         message = handleLineSpaces(message);
         message = message.trim();
