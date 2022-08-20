@@ -4653,9 +4653,9 @@ public class SoundsHandler {
         addSound(">WARNING: Systems overloading!", "questionmark-computer-8", true);
         addSound(">All systems online.", "questionmark-computer-9", true);
         addSound(">Bring the keys to where madman dwells.", "questionmark-computer-10", true);
-        addSound("wynntronversion900114iso95bfresettingsystemsloadingunbeatableaipreset", "questionmark-wynntron-1", true);
+        addSound("wynntronversion900114\nresettingsystemsloadingunbeatableaipreset", "questionmark-wynntron-1", true);
         addSound("[ Wynntron | Version: 9ERrOr.4 ]", "questionmark-wynntron-3", true);
-        addSound("wynntronversion9error4iso95bferroreror3rr0runbeatableaierlollotem", "questionmark-wynntron-4", true);
+        addSound("wynntronversion9error4\nerroreror3rr0runbeatableaierlollotem", "questionmark-wynntron-4", true);
         addSound(">Commencing warp to Lab N...", "questionmark-computer-11", true);
         addSound(">Warping...", "questionmark-computer-12", true);
         addSound(">Permissions updated.", "questionmark-computer-13", true);
