@@ -1791,7 +1791,7 @@ public class SoundsHandler {
         addSound("[2/2] Guard: Now, you three should head on towards the castle.", "kingsrecruit-guard2-17", false);
         addSound("[1/2] Guard: I feel stronger already! This should be enough for me to get us out of here.", "kingsrecruit-guard2-18", false);
         addSound("[2/2] Guard: Took all of the strength your Totem gave me to do it, but I managed to save us! You three head on to the castle, now.", "kingsrecruit-guard2-19", false);
-        addSound("[7/8] Guard: Soldier, you're an  , right? Walk up to the boulder for me", "kingsrecruit-guard2-23", false);
+        addSound("[7/8] Guard: soldier, you're a Ninja, right? Walk up to the boulder for me.", "kingsrecruit-guard2-23", false);
         addSound("[8/8] Guard: Now, cast your Whirlwind spell by clicking Right-Left-Right!", "kingsrecruit-guard2-24", false);
         addSound("[7/8] Guard: Soldier, you're a Knight, right? Walk up to the boulder for me.", "kingsrecruit-guard2-25", false);
         addSound("[8/8] Guard: Now, cast your Holy Blast spell by clicking Right-Left-Right!", "kingsrecruit-guard2-26", false);
