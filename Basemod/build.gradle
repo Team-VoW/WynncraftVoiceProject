@@ -2,19 +2,25 @@ buildscript {
     repositories {
         // These repositories are only for Gradle plugins, put any other repositories in the repository block further below
         maven { url = 'https://maven.minecraftforge.net' }
+        maven { url = 'https://plugins.gradle.org/m2/' }
         mavenCentral()
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        //com.googlecode.soundlibs:vorbisspi:1.0.3.3
+        classpath group: 'com.googlecode.soundlibs', name: 'vorbisspi', version: '1.0.3.3', changing: true
+        classpath 'gradle.plugin.com.github.johnrengelman:shadow:7.1.2'
     }
 }
 
 apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+apply plugin: 'idea'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
+apply plugin: 'com.github.johnrengelman.shadow'
 
-version = '0.21'
+version = '1.01'
 group = 'com.wynnvp.wynncraftvp' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'wynncraftvp'
 
@@ -101,6 +107,11 @@ repositories {
 
 compileJava.options.encoding = 'UTF-8'
 
+configurations {
+    include
+    implementation.extendsFrom(include)
+}
+
 dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft' it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
@@ -108,6 +119,15 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
 
     compileOnly 'javax.vecmath:vecmath:1.5.2'
+    implementation "javazoom:jlayer:1.0.1"
+
+    //implementation 'com.googlecode.soundlibs:tritonus-share:0.3.7.4'
+    //implementation 'com.googlecode.soundlibs:vorbisspi:1.0.3.3'
+}
+
+shadowJar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    configurations = [project.configurations.include]
 }
 
 // Example for how to get properties into the manifest for reading by the runtime..
@@ -127,11 +147,13 @@ jar {
 
 // Example configuration to allow publishing using the maven-publish task
 // This is the preferred method to reobfuscate your jar file
-jar.finalizedBy('reobfJar')
+reobf {
+    shadowJar {}
+}
 // However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
 //publish.dependsOn('reobfJar')
 
-
+jar.dependsOn("shadowJar")
 
 publishing {
     publications {

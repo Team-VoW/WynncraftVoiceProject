@@ -1,5 +1,6 @@
-package com.wynnvp.wynncraftvp.sound;
+package com.wynnvp.wynncraftvp.sound.at;
 
+import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.MovingSound;
@@ -14,6 +15,7 @@ public class SoundAtArmorStand extends MovingSound {
 
     public SoundAtArmorStand(SoundEvent soundEvent, String rawName){
         super(soundEvent, SoundCategory.VOICE);
+        this.volume = ConfigHandler.blockCutOff / 16f;
         this.rawName = rawName;
     }
 

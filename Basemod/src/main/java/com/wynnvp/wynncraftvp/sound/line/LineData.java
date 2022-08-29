@@ -1,4 +1,4 @@
-package com.wynnvp.wynncraftvp.sound;
+package com.wynnvp.wynncraftvp.sound.line;
 
 
 public class LineData {

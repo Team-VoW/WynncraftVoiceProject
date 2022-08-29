@@ -1,7 +1,7 @@
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.sound.LineData;
+import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
@@ -19,8 +19,11 @@ ReceiveChatEvent {
     private static final Vector3f mixedFeelingsNPC2 = new Vector3f(-5835, 16, -2463);
     private static final Vector3f mixedFeelingsNPC3 = new Vector3f(-5807, 16, -2421);
 
+    public static boolean stopMod = false;
+
     @SubscribeEvent
     public static void receivedChat(ClientChatReceivedEvent event) {
+        if (stopMod) return;
         String msg = event.getMessage().getUnformattedText();
 
         //Replace player Name with "soldier"
@@ -33,6 +36,11 @@ ReceiveChatEvent {
 
 
         LineData lineData = LineFormatter.formatToLineData(msg);
+
+        if (lineData == null) { // invalid line data returned
+            return;
+        }
+
         if (isInMixedFeelingsQuest()) {
             String result = getMixedFeelingsLine(lineData.getSoundLine());
             if (result != null) {

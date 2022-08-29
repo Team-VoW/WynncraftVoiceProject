@@ -1,4 +1,4 @@
-package com.wynnvp.wynncraftvp.sound;
+package com.wynnvp.wynncraftvp.sound.at;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.MovingSound;
