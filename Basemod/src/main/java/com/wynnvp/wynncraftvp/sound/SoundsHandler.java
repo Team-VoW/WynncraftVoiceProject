@@ -3511,7 +3511,7 @@ public class SoundsHandler {
         addSound("[1/1] Mei: Urgh, what is this thing made of..! Should I go higher?", "thefeathersflypart2-mei-10", false);
         addSound("[4/10] Maxie: Where's soldier? And Ava?!", "thefeathersflypart2-maxie-18", false);
         addSound("[5/10] Efena: Oh she better be around here!", "thefeathersflypart2-efena-53", false);
-        addSound("[6/10] Maxie: Wait, under the rubble,  !", "thefeathersflypart2-maxie-19", false);
+        addSound("[6/10] Maxie: Wait, under the rubble, I see something!", "thefeathersflypart2-maxie-19", false);
         addSound("[7/10] Maxie: There! Soldier, are you alright? Hello?", "thefeathersflypart2-maxie-20", false);
         addSound("[8/10] Efena: They unconscious?", "thefeathersflypart2-efena-54", false);
         addSound("[9/10] Maxie: It... It looks like it.", "thefeathersflypart2-maxie-21", false);
