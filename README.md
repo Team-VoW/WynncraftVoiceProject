@@ -10,18 +10,6 @@ The voices were chosen by merit of the actors of these individuals.
 The reason this mod has such a large size is because of the sheer amount of audio clips recorded.  
 
 ---------------------------------------------------------------------
-## Copyright license
-You are not allowed to claim this software as your own.  
-This mod has been created thanks to many people, so why would you?  
-
-If you were to edit this software, and would want to openly post your version,  
-you must first ask for permission from the people listed *BELOW* if you can post it.  
-Give some information in what you changed. Hell, we might even add it to the mod!  
-
-Not complying to above rules will result in countermeasures against your work.  
-And we will report it to the forum you posted it on.  
-
----------------------------------------------------------------------
 If you would like to contend for a role in this amazing mod, 
 [join our Discord server](https://discord.gg/bQRrD4Nfwg).
 
