@@ -4,6 +4,7 @@ import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.events.JoinServerEvent;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
+import com.wynnvp.wynncraftvp.utils.NeatLogger;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
 import net.minecraft.client.Minecraft;
 
@@ -19,8 +20,10 @@ public class LineReporter {
 
     private final Queue<String> reportedLines;
 
+    private NeatLogger neatLogger;
     public LineReporter(){
         reportedLines = new LinkedList<>();
+        neatLogger = new NeatLogger();
     }
 
     public void MissingLine(LineData lineData) {
@@ -29,6 +32,7 @@ public class LineReporter {
         || !LineFormatter.isNPCSentLine(lineData.getRealLine())
         || !VersionChecker.isOnUpToDateVersion) return;
 
+        neatLogger.ReceivedChat(lineData.getRealLine());
 
         CompletableFuture.runAsync(() -> {
             if (reportedLines.contains(lineData.getRealLine())){
