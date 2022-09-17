@@ -1,6 +1,5 @@
 package com.wynnvp.wynncraftvp.events;
 
-import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.gui.ReportLineGui;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;

@@ -63,23 +63,22 @@ public class LineFormatter {
     }
 
 
-
-    public static boolean isNPCSentLine(String line){
+    public static boolean isNPCSentLine(String line) {
         char[] chars = line.toCharArray();
         if (chars.length == 0
                 || chars[0] != '['
                 || !line.split(" ")[0].contains("/")
                 || !Character.isDigit(chars[1])
                 || (!Character.isDigit(chars[2]) && !(chars[2] == '/'))
-        ){
+        ) {
             return false;
         }
 
         line = line.substring(line.indexOf('/'));
         chars = line.toCharArray();
 
-        for(int i = 1; i < chars.length; i++){
-            switch (chars[i]){
+        for (int i = 1; i < chars.length; i++) {
+            switch (chars[i]) {
                 case '/':
                     return false;
                 case ']':

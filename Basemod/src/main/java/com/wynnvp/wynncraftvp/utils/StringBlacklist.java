@@ -1,7 +1,5 @@
 package com.wynnvp.wynncraftvp.utils;
 
-import net.minecraft.util.text.TextFormatting;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -14,7 +12,7 @@ public class StringBlacklist {
         blacklist.add("lv");
         blacklist.add("❤");
         for (int i = 0; i <= 9; i++) {
-            blacklist.add(""+i);
+            blacklist.add("" + i);
         }
     }
 

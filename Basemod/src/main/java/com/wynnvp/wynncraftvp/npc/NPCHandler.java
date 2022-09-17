@@ -13,7 +13,7 @@ public class NPCHandler {
         if (namesHandlers.containsKey(name)) {
             List<Vec3d> list = namesHandlers.get(name);
             if (list.contains(vector)) return;
-            list.add(new Vec3d((int)vector.x, (int)vector.y, (int)vector.z));
+            list.add(new Vec3d((int) vector.x, (int) vector.y, (int) vector.z));
             namesHandlers.put(name, list);
         } else {
             namesHandlers.put(name, new ArrayList<>(Collections.singletonList(new Vec3d((int) vector.x, (int) vector.y, (int) vector.z))));

@@ -1,13 +1,15 @@
 package com.wynnvp.wynncraftvp.sound;
 
-import com.sun.media.sound.JavaSoundAudioClip;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Optional;
+import java.util.Set;
 
 import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
@@ -35,11 +37,11 @@ public class SoundsHandler {
     /**
      * Method to add the sounds to the system
      *
-     * @param message Identification message
-     * @param id Identification sound
+     * @param message     Identification message
+     * @param id          Identification sound
      * @param movingSound True if the sound moves with the player,
      *                    otherwise it will move with the ArmorStand
-     * */
+     */
     private void addSound(String message, String id, boolean movingSound) {
         LineData lineData = formatToLineData(message);
         npcNames.add(lineData.getNPCName());
@@ -765,7 +767,6 @@ public class SoundsHandler {
         addSound("[2/2] Ghostly Voice: Your noble deeds have allowed the darkness to take over my mind.", "cib-ghostlyvoice-2", true);
         addSound("[1/2] Ghostly Voice: It all seems clear to me now.. The struggle for life… It’s futile. There need only be peaceful darkness.", "cib-ghostlyvoice-3", true);
         addSound("[1/1] Ghostly Voice: I will not let you stop me!", "cib-ghostlyvoice-4", true);
-
 
 
         //Underice
@@ -1837,7 +1838,6 @@ public class SoundsHandler {
         addSound("[1/1] Aledar: Oh, you fell! Try doing it again.", "kingsrecruit-aledar-50", true);
         addSound("[1/1] Aledar: Hey! where are you going?", "kingsrecruit-aledar-51", true);
         addSound("[1/1] Aledar: Hey, soldier, the castle's the other way!", "kingsrecruit-aledar-52", true);
-
 
 
         //Recover the past
@@ -3075,7 +3075,7 @@ public class SoundsHandler {
         addSound("[4/4] Ava: Just meet me back at the Workshop, I'll be there!", "thefeathersflypart1-ava-65", false);
         addSound("[1/4] Ava: Ouch!", "thefeathersflypart1-ava-66", false);
         addSound("[2/4] Ava: Sorry about all the trouble I caused... I hope this makes it up to you.", "thefeathersflypart1-ava-67", false);
-        addSound("[3/4] Ava: I hope that human's alright... I managed to find the microchip right away, after all.", "thefeathersflypart1-ava-68",false);
+        addSound("[3/4] Ava: I hope that human's alright... I managed to find the microchip right away, after all.", "thefeathersflypart1-ava-68", false);
         addSound("[4/4] Ava: ...Alright. Time to go. I'll wait for them, I guess.", "thefeathersflypart1-ava-69", false);
         addSound("[1/3] Ava: Ouch!", "thefeathersflypart1-ava-70", false);
         addSound("[2/3] Ava: Sorry about all the trouble I caused... I hope this makes it up to you.", "thefeathersflypart1-ava-71", false);
@@ -3663,12 +3663,6 @@ public class SoundsHandler {
         addSound("[12/17] Efena: 'wonder what these guys are doin' now. 'kinda left Corkus... I don't like goodbyes and all, so I ignored that.", "thefeathersflypart2-efena-97", false);
         addSound("[1/1] Efena: Oh, uh, well, bye?!", "thefeathersflypart2-efena-98", false);
         addSound("[1/1] Efena: See ya!", "thefeathersflypart2-efena-99", false);
-
-
-
-
-
-
 
 
         //The Bigger Picture
@@ -4642,7 +4636,6 @@ public class SoundsHandler {
         addSound("[1/1] Togak: Do you not remember what I have told you? Check your quest book if your memory fails you.", "aldoreissecretpart2-togak-16", false);
 
 
-
         //Questionmark ???
         addSound(">All systems online.", "questionmark-computer-1", true);
         addSound(">Teleporter activating...", "questionmark-computer-2", true);
@@ -5225,7 +5218,6 @@ public class SoundsHandler {
         }
         return id;
     }
-
 
 
 }

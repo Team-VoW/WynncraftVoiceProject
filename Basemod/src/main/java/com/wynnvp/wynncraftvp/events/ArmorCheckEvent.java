@@ -19,7 +19,9 @@ import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ArmorCheckEvent {
 
@@ -143,7 +145,7 @@ public class ArmorCheckEvent {
         for (Map.Entry<String, List<Vec3d>> value : NPCHandler.getNamesHandlers().entrySet()) {
             for (Vec3d vec3d : value.getValue()) {
                 final double distance = player.getDistance(vec3d.x, vec3d.y, vec3d.z);
-                final int multiply = DISTANCE_MULTI*BLOCKS_PER_BLOCKS;
+                final int multiply = DISTANCE_MULTI * BLOCKS_PER_BLOCKS;
                 if (distance >= multiply || distance <= -(multiply)) {
                     setToRemove.put(value.getKey(), vec3d);
                 }

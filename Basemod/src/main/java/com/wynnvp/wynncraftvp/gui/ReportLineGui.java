@@ -30,7 +30,8 @@ public class ReportLineGui extends GuiScreen {
     protected int textColor = 0x000000;
 
     private final boolean displayMainMenuAfterClose;
-    public ReportLineGui(boolean displayMainMenuAfterClose){
+
+    public ReportLineGui(boolean displayMainMenuAfterClose) {
         super();
         this.displayMainMenuAfterClose = displayMainMenuAfterClose;
     }
@@ -138,7 +139,7 @@ public class ReportLineGui extends GuiScreen {
     }
 
     protected void closeGui() {
-        if (displayMainMenuAfterClose){
+        if (displayMainMenuAfterClose) {
             Minecraft.getMinecraft().displayGuiScreen(new GuiMainMenu());
         } else {
             Minecraft.getMinecraft().displayGuiScreen(null);

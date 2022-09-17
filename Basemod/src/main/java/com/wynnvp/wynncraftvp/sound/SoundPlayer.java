@@ -8,18 +8,13 @@ import com.wynnvp.wynncraftvp.sound.at.SoundAtArmorStand;
 import com.wynnvp.wynncraftvp.sound.at.SoundAtPlayer;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.sound.line.LineReporter;
-import com.wynnvp.wynncraftvp.utils.Utils;
 import javazoom.jl.player.advanced.AdvancedPlayer;
-import javazoom.jl.player.advanced.PlaybackEvent;
-import javazoom.jl.player.advanced.PlaybackListener;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.Vec3d;
-import paulscode.sound.FilenameURL;
 import paulscode.sound.SoundSystemException;
-import paulscode.sound.libraries.LibraryLWJGLOpenAL;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -46,7 +41,7 @@ public class SoundPlayer {
         String line = lineData.getSoundLine();
         SoundsHandler soundsHandler = ModCore.instance.soundsHandler;
         if (!soundsHandler.get(line).isPresent()) {
-           // System.out.println("Does not contain line: " + lineData.getRealLine());
+            // System.out.println("Does not contain line: " + lineData.getRealLine());
             lineReporter.MissingLine(lineData);
             return;
         }
@@ -87,13 +82,13 @@ public class SoundPlayer {
 
             String rawName = getRawName(sound.getId());
             if (NPCHandler.getNamesHandlers().containsKey(rawName)) {
-               NPCHandler.find(rawName).ifPresent(vector -> {
-                   if (Minecraft.getMinecraft().player.getDistance(vector.x, vector.y, vector.z) >= 20) {
-                       playSoundAtCoords(Minecraft.getMinecraft().player.getPositionVector(), soundEvent);
-                   } else {
-                       Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, rawName));
-                   }
-               });
+                NPCHandler.find(rawName).ifPresent(vector -> {
+                    if (Minecraft.getMinecraft().player.getDistance(vector.x, vector.y, vector.z) >= 20) {
+                        playSoundAtCoords(Minecraft.getMinecraft().player.getPositionVector(), soundEvent);
+                    } else {
+                        Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, rawName));
+                    }
+                });
             } else {
                 playSoundAtCoords(Minecraft.getMinecraft().player.getPositionVector(), soundEvent);
             }
@@ -143,7 +138,6 @@ public class SoundPlayer {
                 //player = new AdvancedPlayer(bufferedInputStream, baseVolume);
                 fileInputStream.close();
                 bufferedInputStream.close();
-
 
 
             } catch (Exception exception) {
