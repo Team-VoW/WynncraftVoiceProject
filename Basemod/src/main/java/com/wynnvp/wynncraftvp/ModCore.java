@@ -1,5 +1,5 @@
 package com.wynnvp.wynncraftvp;
-
+// Do yourself a favor and organize this in order of use 
 import com.wynnvp.wynncraftvp.config.ConfigHandler;
 import com.wynnvp.wynncraftvp.events.ArmorCheckEvent;
 import com.wynnvp.wynncraftvp.events.QuitServerEvent;
@@ -28,7 +28,7 @@ public class ModCore {
 
     public static final String MODID = "wynnvp";
     public static final String NAME = "Wynncraft Voice Project";
-    public static final String VERSION = "0.1";
+    public static final String VERSION = "0.1"; // Don't forget to edit this :skull:
     public static boolean inServer = false;
     public static boolean inLiveWynnServer = false;
     public SoundsHandler soundsHandler;
