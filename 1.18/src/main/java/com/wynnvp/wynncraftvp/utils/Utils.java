@@ -17,7 +17,7 @@ public class Utils {
     public static final File FILE_ROOT = new File(MinecraftClient.getInstance().runDirectory, ModCore.MODID);
 
     public static void sendMessage(String text) {
-        MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(Text.of("§5[Voices of wynn]§r" + text));
+        MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(Text.of("§5[Voices of wynn]§r " + text));
     }
 
     //Checks if the players is even on wynn
