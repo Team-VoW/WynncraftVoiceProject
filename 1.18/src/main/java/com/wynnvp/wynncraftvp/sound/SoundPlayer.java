@@ -57,8 +57,6 @@ public class SoundPlayer {
             final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
             final SoundEvent soundEvent = customSoundClass.soundEvent();
 
-            System.out.println("Playing: " + sound.getId());
-
             if (customSoundClass.movingSound() || VOWConfig.playAllSoundsOnPlayer) {
                 //Play the sound at the player
                 manager.play(new SoundAtPlayer(soundEvent));

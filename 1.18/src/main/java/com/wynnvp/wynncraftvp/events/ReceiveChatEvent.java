@@ -16,6 +16,7 @@ public class ReceiveChatEvent {
     public static boolean stopMod = false;
 
     private static String last = null;
+
     public static void receivedChat(String msg) {
         if (stopMod) return;
 
