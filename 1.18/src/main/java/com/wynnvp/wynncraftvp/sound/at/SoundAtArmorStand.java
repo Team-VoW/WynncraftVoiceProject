@@ -27,16 +27,14 @@ public class SoundAtArmorStand extends MovingSoundInstance {
             return;
         }
         Vec3d vector = NPCHandler.find(rawName);
-        ClientPlayerEntity p = MinecraftClient.getInstance().player;
-        if (vector == null) {
-            vector = p.getPos();
-        } else {
+        if (vector != null) {
             this.x = (float) vector.x;
             this.z = (float) vector.z;
             this.y = (float) vector.y;
         }
 
         if (VOWConfig.highlightSpeaker) {
+            ClientPlayerEntity p = MinecraftClient.getInstance().player;
             for (double x = vector.x - 0.2 ; x <= vector.x + 0.2; x+=0.1) {
                 for (double y = vector.y - 0.2 ; y <= vector.y + 0.2; y+=0.1) {
                     for (double z = vector.z - 0.2 ; z <= vector.z + 0.2; z+=0.1) {

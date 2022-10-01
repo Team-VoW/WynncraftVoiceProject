@@ -69,10 +69,12 @@ public class NPCHandler {
             }
         }
         Cached cached = new Cached();
-        cached.name = entity;
-        cached.child = child;
-        cached.isArmourStand = isArmourStand;
-        cached.distance = cached.name.distanceTo(cached.child);
+        if (cached.name != null) {
+            cached.name = entity;
+            cached.child = child;
+            cached.isArmourStand = isArmourStand;
+            cached.distance = cached.name.distanceTo(cached.child);
+        }
 
         return cached;
     }

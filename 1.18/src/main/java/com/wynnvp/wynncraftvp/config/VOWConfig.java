@@ -23,12 +23,12 @@ public class VOWConfig implements ConfigData {
     public static boolean sendFunFact = true;
 
     @ConfigEntry.Gui.Excluded
-    public static double tripleQuestionMarkInessentiel = 10;
+    public static double tripleQuestionMarkInessentiel = 200;
     @ConfigEntry.Gui.Excluded
     public static double tripleQuestionMarkMaxDistance = 50;
 
-    @ConfigEntry.Gui.Excluded
-    public static int blockCutOff = 128;
+
+    public static int blockCutOff = 32;
 
     @ConfigEntry.Gui.Tooltip
     public static boolean highlightSpeaker = false;

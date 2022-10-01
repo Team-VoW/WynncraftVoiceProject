@@ -77,7 +77,7 @@ public class SoundPlayer {
 
     private void playSoundAtCoords(Vec3d blockPos, SoundEvent soundEvent, ClientPlayerEntity pl) {
 
-        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, VOWConfig.blockCutOff / 16f, 1, false);
+        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, VOWConfig.blockCutOff / 16f, 1, true);
     }
 
     private String getQuest(String id) {
