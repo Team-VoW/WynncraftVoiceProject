@@ -2,19 +2,10 @@ package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
-import net.fabricmc.fabric.api.networking.v1.ServerLoginConnectionEvents;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.server.network.ServerLoginNetworkHandler;
-import net.minecraft.util.Identifier;
-
 
 import java.text.DecimalFormat;
-import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
-
-import static org.lwjgl.glfw.GLFW.Functions.Init;
 
 
 public class JoinServerEvent {

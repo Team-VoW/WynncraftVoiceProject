@@ -5,8 +5,8 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [],
   "client": [
-    "MixinServerConnectListener",
-    "MixinChatListener"
+    "MixinChatListener",
+    "MixinServerConnectListener"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,7 +1,6 @@
 package com.wynnvp.wynncraftvp;
 
 import com.wynnvp.wynncraftvp.config.VOWConfig;
-import com.wynnvp.wynncraftvp.events.JoinServerEvent;
 import com.wynnvp.wynncraftvp.sound.SoundController;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;

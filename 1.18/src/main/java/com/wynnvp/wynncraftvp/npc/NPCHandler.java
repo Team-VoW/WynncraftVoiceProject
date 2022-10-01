@@ -3,12 +3,12 @@ package com.wynnvp.wynncraftvp.npc;
 import com.wynnvp.wynncraftvp.config.VOWConfig;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
-import net.minecraft.client.sound.SoundExecutor;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.Vec3d;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class NPCHandler {
 

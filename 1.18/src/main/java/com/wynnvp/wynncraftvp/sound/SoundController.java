@@ -1,12 +1,5 @@
 package com.wynnvp.wynncraftvp.sound;
 
-import javax.sound.sampled.*;
-import java.io.File;
-import java.io.IOException;
-
-import static javax.sound.sampled.AudioFormat.Encoding.PCM_SIGNED;
-import static javax.sound.sampled.AudioSystem.getAudioInputStream;
-
 public class SoundController {
 
     /*public static void main(String[] args) {
