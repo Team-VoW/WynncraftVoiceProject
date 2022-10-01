@@ -17,17 +17,21 @@ public class VOWConfig implements ConfigData {
     public static String word = "gzog6zilzq6zxlt";
 
 
-
     public static boolean logMissingLines = false;
     public static boolean anonymous = false;
 
     public static boolean sendFunFact = true;
 
     @ConfigEntry.Gui.Excluded
+    public static double tripleQuestionMarkInessentiel = 10;
+    @ConfigEntry.Gui.Excluded
+    public static double tripleQuestionMarkMaxDistance = 50;
+
+    @ConfigEntry.Gui.Excluded
     public static int blockCutOff = 128;
 
-
-    public static boolean highlightSpeaker = true;
+    @ConfigEntry.Gui.Tooltip
+    public static boolean highlightSpeaker = false;
 
 
     @ConfigEntry.Gui.Excluded

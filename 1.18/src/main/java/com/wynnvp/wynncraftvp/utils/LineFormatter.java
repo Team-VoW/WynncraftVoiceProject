@@ -29,12 +29,14 @@ public class LineFormatter {
             String messageAfterDoubleSlashN = getTextAfterLastSplit(message, "iso95bfiso95bf");
             messageAfterDoubleSlashN = messageAfterDoubleSlashN.trim();
 
-            //Checks if the message ends with Press SHIFT to continue\n
-            if (messageAfterDoubleSlashN.contains("Press SHIFT to continue")){
-                message = getTextSecondToLastInSplit(message, "iso95bfiso95bf");
+            if (messageAfterDoubleSlashN.contains("Press SHIFT to continue")) {
+                message = getTextFromLastInSplit(message, "iso95bfiso95bf", 1);
+            } else if (messageAfterDoubleSlashN.contains("Select an option to continue")) {
+                message = getTextFromLastInSplit(message, "iso95bfiso95bf", 2);
             } else {
                 message = messageAfterDoubleSlashN;
             }
+
 
         }
         message = message.replace("iso95bf", "");
@@ -47,12 +49,11 @@ public class LineFormatter {
         return message;
     }
 
-
-    private static String getTextSecondToLastInSplit(String message, String split) {
+    private static String getTextFromLastInSplit(String message, String split, int numberFromBehind) {
         String[] splitMessage = message.split(split);
-        if (splitMessage.length > 1) {
+        if (splitMessage.length > numberFromBehind) {
             //Gets the second to last message inbetween the split
-            message = splitMessage[splitMessage.length - 2];
+            message = splitMessage[splitMessage.length - (numberFromBehind + 1)];
 
 
         } else {
@@ -62,23 +63,22 @@ public class LineFormatter {
     }
 
 
-
-    public static boolean isNPCSentLine(String line){
+    public static boolean isNPCSentLine(String line) {
         char[] chars = line.toCharArray();
         if (chars.length == 0
                 || chars[0] != '['
                 || !line.split(" ")[0].contains("/")
                 || !Character.isDigit(chars[1])
                 || (!Character.isDigit(chars[2]) && !(chars[2] == '/'))
-        ){
+        ) {
             return false;
         }
 
         line = line.substring(line.indexOf('/'));
         chars = line.toCharArray();
 
-        for(int i = 1; i < chars.length; i++){
-            switch (chars[i]){
+        for (int i = 1; i < chars.length; i++) {
+            switch (chars[i]) {
                 case '/':
                     return false;
                 case ']':
