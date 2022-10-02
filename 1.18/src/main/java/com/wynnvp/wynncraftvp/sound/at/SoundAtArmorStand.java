@@ -32,14 +32,14 @@ public class SoundAtArmorStand extends MovingSoundInstance {
             this.x = (float) vector.x;
             this.z = (float) vector.z;
             this.y = (float) vector.y;
-        }
 
-        if (config.highlightSpeaker) {
-            ClientPlayerEntity p = MinecraftClient.getInstance().player;
-            for (double x = vector.x - 0.2 ; x <= vector.x + 0.2; x+=0.1) {
-                for (double y = vector.y - 0.2 ; y <= vector.y + 0.2; y+=0.1) {
-                    for (double z = vector.z - 0.2 ; z <= vector.z + 0.2; z+=0.1) {
-                        p.clientWorld.addParticle(ParticleTypes.END_ROD, x, y, z, 0, 0, 0);
+            if (config.highlightSpeaker) {
+                ClientPlayerEntity p = MinecraftClient.getInstance().player;
+                for (double x = vector.x - 0.2 ; x <= vector.x + 0.2; x+=0.1) {
+                    for (double y = vector.y - 0.2 ; y <= vector.y + 0.2; y+=0.1) {
+                        for (double z = vector.z - 0.2 ; z <= vector.z + 0.2; z+=0.1) {
+                            p.clientWorld.addParticle(ParticleTypes.END_ROD, x, y, z, 0, 0, 0);
+                        }
                     }
                 }
             }

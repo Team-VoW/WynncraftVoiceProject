@@ -69,12 +69,17 @@ public class NPCHandler {
                 }
             }
         }
+
         Cached cached = new Cached();
-        if (cached.name != null) {
+        if (entity != null) {
+            if (child == null) {
+                child = entity;
+            }
+
             cached.name = entity;
             cached.child = child;
             cached.isArmourStand = isArmourStand;
-            cached.distance = cached.name.distanceTo(cached.child);
+            cached.distance = entity.distanceTo(cached.child);
         }
 
         return cached;
