@@ -3,7 +3,6 @@ package com.wynnvp.wynncraftvp.utils;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.config.VOWConfig;
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
 import net.minecraft.client.MinecraftClient;
 
@@ -11,6 +10,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+
+import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class VersionChecker {
 
@@ -32,7 +33,7 @@ public class VersionChecker {
             e.printStackTrace();
         }
 
-        if (fact != null && VOWConfig.sendFunFact) {
+        if (fact != null && config.sendFunFact) {
             Utils.sendMessage("§9Fun fact: " + fact);
         }
 

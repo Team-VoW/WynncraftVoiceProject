@@ -12,16 +12,11 @@ import net.fabricmc.loader.api.FabricLoader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.File;
-
 public class ModCore implements ModInitializer {
-
-    public static File config;
 
     public static final String MODID = "wynnvp";
     public static final String NAME = "Wynncraft Voice Project";
     public static final String VERSION = "0.0.1";
-    public static boolean inServer = false;
     public static boolean inLiveWynnServer = false;
     public SoundsHandler soundsHandler;
     public static ModCore instance;
@@ -29,6 +24,8 @@ public class ModCore implements ModInitializer {
     public SoundController controller;
 
     public static final Logger LOGGER = LoggerFactory.getLogger("wynnvp");
+
+    public static VOWConfig config;
 
     @Override
     public void onInitialize() {
@@ -41,6 +38,11 @@ public class ModCore implements ModInitializer {
         if (FabricLoader.getInstance().isModLoaded("cloth-config")) {
             LOGGER.debug("Found cloth api");
             AutoConfig.register(VOWConfig.class, Toml4jConfigSerializer::new);
+
+            config = AutoConfig.getConfigHolder(VOWConfig.class).getConfig();
+        } else {
+            config = new VOWConfig();
+            config.logMissingLines = false;
         }
 
         StringBlacklist.namesDefault();

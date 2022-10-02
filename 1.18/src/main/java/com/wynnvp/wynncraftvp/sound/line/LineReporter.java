@@ -1,7 +1,6 @@
 package com.wynnvp.wynncraftvp.sound.line;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.config.VOWConfig;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
 import net.minecraft.client.MinecraftClient;
@@ -15,6 +14,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.CompletableFuture;
 
+import static com.wynnvp.wynncraftvp.ModCore.config;
+
 public class LineReporter {
 
     private final Queue<String> reportedLines;
@@ -24,7 +25,7 @@ public class LineReporter {
     }
 
     public void MissingLine(LineData lineData) {
-        if (!VOWConfig.logMissingLines
+        if (!config.logMissingLines
                 || !ModCore.inLiveWynnServer
         || !LineFormatter.isNPCSentLine(lineData.getRealLine())
         || !VersionChecker.isOnUpToDateVersion) return;
@@ -52,7 +53,7 @@ public class LineReporter {
     private void reportUnvoicedLine(LineData lineData) throws IOException {
 
         String npcName = lineData.getNPCName();
-        String name = VOWConfig.anonymous ? "anonymous" : MinecraftClient.getInstance().getName();
+        String name = config.anonymous ? "anonymous" : MinecraftClient.getInstance().getName();
         String fullLine = lineData.getRealLine();
         PlayerEntity p = MinecraftClient.getInstance().player;
         int CoordX = (int) p.getPos().x;
@@ -65,7 +66,7 @@ public class LineReporter {
         connection.setRequestProperty("User-Agent", "VoicesOfWynnModClient");
         connection.setDoOutput(true);
         DataOutputStream outputStream = new DataOutputStream(connection.getOutputStream());
-        String urlPostParameters = "npc=" + npcName + "&player=" + name + "&full=" + fullLine + "&x=" + CoordX + "&y=" + CoordY + "&z=" + CoordZ + "&apiKey=" + VOWConfig.word;
+        String urlPostParameters = "npc=" + npcName + "&player=" + name + "&full=" + fullLine + "&x=" + CoordX + "&y=" + CoordY + "&z=" + CoordZ + "&apiKey=" + config.word;
         outputStream.writeBytes(urlPostParameters);
         outputStream.flush();
         outputStream.close();

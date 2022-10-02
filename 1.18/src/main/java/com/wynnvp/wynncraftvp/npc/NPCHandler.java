@@ -1,6 +1,5 @@
 package com.wynnvp.wynncraftvp.npc;
 
-import com.wynnvp.wynncraftvp.config.VOWConfig;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.entity.Entity;
@@ -9,6 +8,8 @@ import net.minecraft.util.math.Vec3d;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class NPCHandler {
 
@@ -33,10 +34,10 @@ public class NPCHandler {
             double dist = e.getPos().distanceTo(c.getEyePos());
             String name = e.getDisplayName().getString().replaceAll("§.", "").replaceAll("§", "").toLowerCase().replaceAll("[^a-z\\d]", "");
             if (name.equals("???") && !rawName.equals("???")) {
-                if (dist > VOWConfig.tripleQuestionMarkMaxDistance) {
+                if (dist > config.tripleQuestionMarkMaxDistance) {
                     continue;
                 }
-                dist *= VOWConfig.tripleQuestionMarkInessentiel;
+                dist *= config.tripleQuestionMarkInessentiel;
             }
             if ((d > dist) && name.equals(rawName)) {
                 d = dist;
@@ -98,7 +99,7 @@ public class NPCHandler {
             return false;
         }
         // distance change?
-        if (Math.abs(c.name.distanceTo(c.child) - c.distance) > VOWConfig.npcFinderThingMaxDistanceChangeBeforeCacheInvalid) {
+        if (Math.abs(c.name.distanceTo(c.child) - c.distance) > config.npcFinderThingMaxDistanceChangeBeforeCacheInvalid) {
             return false;
         }
 

@@ -1,7 +1,6 @@
 package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.config.VOWConfig;
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
 import com.wynnvp.wynncraftvp.sound.at.SoundAtArmorStand;
 import com.wynnvp.wynncraftvp.sound.at.SoundAtPlayer;
@@ -14,6 +13,8 @@ import net.minecraft.client.world.ClientWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.math.Vec3d;
+
+import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class SoundPlayer {
 
@@ -57,7 +58,7 @@ public class SoundPlayer {
             final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
             final SoundEvent soundEvent = customSoundClass.soundEvent();
 
-            if (customSoundClass.movingSound() || VOWConfig.playAllSoundsOnPlayer) {
+            if (customSoundClass.movingSound() || config.playAllSoundsOnPlayer) {
                 //Play the sound at the player
                 manager.play(new SoundAtPlayer(soundEvent));
                 return;
@@ -75,7 +76,7 @@ public class SoundPlayer {
 
     private void playSoundAtCoords(Vec3d blockPos, SoundEvent soundEvent, ClientPlayerEntity pl) {
 
-        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, VOWConfig.blockCutOff / 16f, 1, true);
+        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, config.blockCutOff / 16f, 1, true);
     }
 
     private String getQuest(String id) {
