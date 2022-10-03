@@ -29,7 +29,7 @@ public class SoundsHandler {
         sounds = new HashMap<>();
         npcNames = new HashSet<>();
         //sounds = new ArrayList<>();
-        registerSounds();
+        Sounds.register(this);
     }
 
     public static SoundEvent registerSound(String name) {
@@ -77,49 +77,6 @@ public class SoundsHandler {
                         && entry.getKey().contains("???:")).map(map ->
                         map.getValue().getNpcName())
                 .findAny().orElse(null);
-    }
-
-    // this gets replaced by gradlew
-    String txt = "$<sounds.vow>$";
-
-    public void registerSounds() {
-
-        String[] list = txt.split("\n");
-
-        for (String s : list) {
-            if (s.startsWith("//") || s.startsWith("#")) {
-                continue;
-            }
-
-            boolean inQuote = false;
-            boolean ignore = false;
-            List<String> args = new ArrayList<>();
-            StringBuilder arg = new StringBuilder();
-            for (char c : s.toCharArray()) {
-                if (!ignore) {
-                    if (c == '"') {
-                        inQuote = !inQuote;
-                    }
-                    if (c == '\\') {
-                        ignore = true;
-                    }
-                    if (c == ',') {
-                        args.add(arg.toString());
-                        arg = new StringBuilder();
-                    }
-                } else {
-                    arg.append(c);
-
-                    ignore = false;
-                }
-            }
-            String line = args.get(0);
-            String id = args.get(1);
-            boolean onPlayer = args.size() >= 3 && Boolean.getBoolean(args.get(2));
-
-            addSound(line, id, onPlayer);
-        }
-
     }
 
 
