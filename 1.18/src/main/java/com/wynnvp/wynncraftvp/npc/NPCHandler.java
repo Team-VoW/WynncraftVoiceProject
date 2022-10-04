@@ -21,7 +21,7 @@ public class NPCHandler {
         public boolean isArmourStand = false;
     }
 
-    private static Map<String, Cached> cache = new HashMap<>();
+    private static final Map<String, Cached> cache = new HashMap<>();
 
     // stand find function
     public static Cached findNPC(String rawName) {
@@ -34,10 +34,10 @@ public class NPCHandler {
             double dist = e.getPos().distanceTo(c.getEyePos());
             String name = e.getDisplayName().getString().replaceAll("§.", "").replaceAll("§", "").toLowerCase().replaceAll("[^a-z\\d]", "");
             if (name.equals("???") && !rawName.equals("???")) {
-                if (dist > config.tripleQuestionMarkMaxDistance) {
+                if (dist > config.getTripleQuestionMarkInessentiel()) {
                     continue;
                 }
-                dist *= config.tripleQuestionMarkInessentiel;
+                dist *= config.getTripleQuestionMarkInessentiel();
             }
             if ((d > dist) && name.equals(rawName)) {
                 d = dist;
@@ -53,19 +53,19 @@ public class NPCHandler {
             for (Entity e : c.clientWorld.getEntities()) { // iterate over every single entity
                 double dist = e.getEyePos().distanceTo(pos);
                 if ((d > dist) && e.getEyePos().y < entity.getEyePos().y + 0.2) { // find closest
-                     if (!e.isInvisible()) {
+                    if (!e.isInvisible()) {
                         d = dist;
                         child = e;
                     } else {
-                         for (ItemStack item : e.getItemsEquipped()) {
-                             if (item != null && !item.isEmpty()) {
-                                 d = dist;
-                                 child = e;
-                                 isArmourStand = true;
-                                 break;
-                             }
-                         }
-                     }
+                        for (ItemStack item : e.getItemsEquipped()) {
+                            if (item != null && !item.isEmpty()) {
+                                d = dist;
+                                child = e;
+                                isArmourStand = true;
+                                break;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -85,7 +85,7 @@ public class NPCHandler {
         return cached;
     }
 
-    public static boolean isCachedValid (Cached c) {
+    public static boolean isCachedValid(Cached c) {
         if (c == null || c.child == null || c.name == null) {
             return false;
         }
@@ -104,11 +104,7 @@ public class NPCHandler {
             return false;
         }
         // distance change?
-        if (Math.abs(c.name.distanceTo(c.child) - c.distance) > config.npcFinderThingMaxDistanceChangeBeforeCacheInvalid) {
-            return false;
-        }
-
-        return true;
+        return !(Math.abs(c.name.distanceTo(c.child) - c.distance) > config.getNpcFinderThingMaxDistanceChangeBeforeCacheInvalid());
     }
 
     // This works or not idk

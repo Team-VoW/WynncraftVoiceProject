@@ -8,7 +8,7 @@ import net.minecraft.sound.SoundEvent;
 
 public class SoundAtPlayer extends MovingSoundInstance {
 
-    public SoundAtPlayer(SoundEvent soundEvent){
+    public SoundAtPlayer(SoundEvent soundEvent) {
         super(soundEvent, SoundCategory.VOICE);
     }
 

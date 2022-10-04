@@ -12,7 +12,7 @@ public class StringBlacklist {
         blacklist.add("lv");
         blacklist.add("❤");
         for (int i = 0; i <= 9; i++) {
-            blacklist.add(""+i);
+            blacklist.add("" + i);
         }
     }
 

@@ -22,7 +22,7 @@ public class LineData {
         this.realLine = realLine;
     }
 
-    public String getNPCName(){
+    public String getNPCName() {
         String[] split = realLine.split(": ");
         return split[0].trim().toLowerCase().replaceAll("[^a-zA-Z0-9]", "").replaceAll("[0-9]", "");
     }

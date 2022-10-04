@@ -39,11 +39,11 @@ public class SoundsHandler {
     /**
      * Method to add the sounds to the system
      *
-     * @param message Identification message
-     * @param id Identification sound
+     * @param message     Identification message
+     * @param id          Identification sound
      * @param movingSound false if the sound moves with the player,
      *                    otherwise it will move with the ArmorStand
-     * */
+     */
     public void addSound(String message, String id, boolean movingSound) {
 
         LineData lineData = formatToLineData(message);
@@ -92,7 +92,6 @@ public class SoundsHandler {
         }
         return id;
     }
-
 
 
 }

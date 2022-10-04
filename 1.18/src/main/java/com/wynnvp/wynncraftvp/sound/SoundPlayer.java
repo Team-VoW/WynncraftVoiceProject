@@ -18,7 +18,7 @@ import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class SoundPlayer {
 
-    private Thread musicThread = null;
+    private final Thread musicThread = null;
     private final LineReporter lineReporter;
     //public static boolean SPEAKING = false;
 
@@ -35,7 +35,7 @@ public class SoundPlayer {
 
         SoundsHandler soundsHandler = ModCore.instance.soundsHandler;
         if (soundsHandler.get(line).isEmpty()) {
-           // System.out.println("Does not contain line: " + lineData.getRealLine());
+            // System.out.println("Does not contain line: " + lineData.getRealLine());
             lineReporter.MissingLine(lineData);
             return;
         }
@@ -58,7 +58,7 @@ public class SoundPlayer {
             final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
             final SoundEvent soundEvent = customSoundClass.soundEvent();
 
-            if (customSoundClass.movingSound() || config.playAllSoundsOnPlayer) {
+            if (customSoundClass.movingSound() || config.isPlayAllSoundsOnPlayer()) {
                 //Play the sound at the player
                 manager.play(new SoundAtPlayer(soundEvent));
                 return;
@@ -66,7 +66,7 @@ public class SoundPlayer {
 
             String rawName = getRawName(sound.getId());
             Vec3d vector = NPCHandler.find(rawName);
-            if (vector == null || player.getPos().distanceTo( vector) >= 30) {
+            if (vector == null || player.getPos().distanceTo(vector) >= 30) {
                 playSoundAtCoords(player.getPos(), soundEvent, player);
             } else {
                 manager.play(new SoundAtArmorStand(soundEvent, rawName));
@@ -76,7 +76,7 @@ public class SoundPlayer {
 
     private void playSoundAtCoords(Vec3d blockPos, SoundEvent soundEvent, ClientPlayerEntity pl) {
 
-        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, config.blockCutOff / 16f, 1, true);
+        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, config.getBlockCutOff() / 16f, 1, true);
     }
 
     private String getQuest(String id) {

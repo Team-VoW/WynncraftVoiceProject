@@ -10,6 +10,7 @@ import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.commons.lang3.tuple.Pair;
 
 import java.io.File;
+import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 
 public class Utils {
@@ -89,7 +90,6 @@ public class Utils {
     }
 
 
-
     private static float multiply(Vec2f vec1, Vec2f vec2) {
         return vec1.x * vec2.x + vec1.y * vec2.y;
     }
@@ -103,18 +103,18 @@ public class Utils {
     }
 
     public static String sha256(final String base) {
-        try{
+        try {
             final MessageDigest digest = MessageDigest.getInstance("SHA-256");
-            final byte[] hash = digest.digest(base.getBytes("UTF-8"));
+            final byte[] hash = digest.digest(base.getBytes(StandardCharsets.UTF_8));
             final StringBuilder hexString = new StringBuilder();
             for (int i = 0; i < hash.length; i++) {
                 final String hex = Integer.toHexString(0xff & hash[i]);
-                if(hex.length() == 1)
+                if (hex.length() == 1)
                     hexString.append('0');
                 hexString.append(hex);
             }
             return hexString.toString();
-        } catch(Exception ex){
+        } catch (Exception ex) {
             throw new RuntimeException(ex);
         }
     }

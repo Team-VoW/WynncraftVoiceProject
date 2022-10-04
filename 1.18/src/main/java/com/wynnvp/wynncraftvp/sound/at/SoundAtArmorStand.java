@@ -15,9 +15,9 @@ public class SoundAtArmorStand extends MovingSoundInstance {
 
     private final String rawName;
 
-    public SoundAtArmorStand(SoundEvent soundEvent, String rawName){
+    public SoundAtArmorStand(SoundEvent soundEvent, String rawName) {
         super(soundEvent, SoundCategory.VOICE);
-        this.volume = config.blockCutOff / 16f;
+        this.volume = config.getBlockCutOff() / 16f;
         this.rawName = rawName;
     }
 
@@ -33,11 +33,11 @@ public class SoundAtArmorStand extends MovingSoundInstance {
             this.z = (float) vector.z;
             this.y = (float) vector.y;
 
-            if (config.highlightSpeaker) {
+            if (config.isHighlightSpeaker()) {
                 ClientPlayerEntity p = MinecraftClient.getInstance().player;
-                for (double x = vector.x - 0.2 ; x <= vector.x + 0.2; x+=0.1) {
-                    for (double y = vector.y - 0.2 ; y <= vector.y + 0.2; y+=0.1) {
-                        for (double z = vector.z - 0.2 ; z <= vector.z + 0.2; z+=0.1) {
+                for (double x = vector.x - 0.2; x <= vector.x + 0.2; x += 0.1) {
+                    for (double y = vector.y - 0.2; y <= vector.y + 0.2; y += 0.1) {
+                        for (double z = vector.z - 0.2; z <= vector.z + 0.2; z += 0.1) {
                             p.clientWorld.addParticle(ParticleTypes.END_ROD, x, y, z, 0, 0, 0);
                         }
                     }

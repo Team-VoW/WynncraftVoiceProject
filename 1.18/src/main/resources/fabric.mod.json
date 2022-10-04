@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "wynnvp",
   "version": "${version}",
-
   "name": "Voices of wynning",
   "description": "Now fabricated.",
   "authors": [
@@ -13,10 +12,8 @@
     "sources": "https://github.com/Team-VoW",
     "issues": "https://github.com/Team-VoW/WynncraftVoiceProject/issues"
   },
-
   "license": "",
   "icon": "assets/wynnvp/wynnvplogo.png",
-
   "environment": "client",
   "entrypoints": {
     "modmenu": [
@@ -29,7 +26,6 @@
   "mixins": [
     "wynnvp.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.9",
     "minecraft": "~1.18",
