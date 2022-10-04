@@ -1,5 +1,6 @@
 package com.wynnvp.wynncraftvp;
 
+import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import com.wynnvp.wynncraftvp.config.VOWConfig;
 import com.wynnvp.wynncraftvp.sound.SoundController;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
@@ -37,12 +38,11 @@ public class ModCore implements ModInitializer {
 
         if (FabricLoader.getInstance().isModLoaded("cloth-config")) {
             LOGGER.debug("Found cloth api");
-            AutoConfig.register(VOWConfig.class, Toml4jConfigSerializer::new);
+            AutoConfig.register(VOWAutoConfig.class, Toml4jConfigSerializer::new);
 
-            config = AutoConfig.getConfigHolder(VOWConfig.class).getConfig();
+            config = AutoConfig.getConfigHolder(VOWAutoConfig.class).getConfig();
         } else {
             config = new VOWConfig();
-            config.logMissingLines = false;
         }
 
         StringBlacklist.namesDefault();

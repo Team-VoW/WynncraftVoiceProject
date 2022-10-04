@@ -1,41 +1,44 @@
 package com.wynnvp.wynncraftvp.config;
 
 
-import me.shedaniel.autoconfig.ConfigData;
-import me.shedaniel.autoconfig.annotation.Config;
-import me.shedaniel.autoconfig.annotation.ConfigEntry;
+public class VOWConfig {
+    public boolean isPlayAllSoundsOnPlayer() {
+        return false;
+    }
 
+    public String getWord() {
+        return "gzog6zilzq6zxlt";
+    }
 
-@Config(name = "wynnvp")
-public class VOWConfig implements ConfigData {
+    public boolean isLogMissingLines() {
+        return false;
+    }
 
-    //private static Configuration config;
+    public boolean isAnonymous() {
+        return true;
+    }
 
-    public boolean playAllSoundsOnPlayer = false;
+    public boolean isSendFunFact() {
+        return true;
+    }
 
-    @ConfigEntry.Gui.Excluded
-    public String word = "gzog6zilzq6zxlt";
+    public double getTripleQuestionMarkInessentiel() {
+        return 200;
+    }
 
+    public double getTripleQuestionMarkMaxDistance() {
+        return 50;
+    }
 
-    public boolean logMissingLines = true;
-    public boolean anonymous = false;
+    public int getBlockCutOff() {
+        return 32;
+    }
 
-    public boolean sendFunFact = true;
+    public boolean isHighlightSpeaker() {
+        return false;
+    }
 
-    @ConfigEntry.Gui.Excluded
-    public double tripleQuestionMarkInessentiel = 200;
-    @ConfigEntry.Gui.Excluded
-    public double tripleQuestionMarkMaxDistance = 50;
-
-
-    public int blockCutOff = 32;
-
-    @ConfigEntry.Gui.Tooltip
-    public boolean highlightSpeaker = false;
-
-
-    @ConfigEntry.Gui.Excluded
-    public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5; // small name?
-
-
+    public double getNpcFinderThingMaxDistanceChangeBeforeCacheInvalid() {
+        return 0.5;
+    }
 }

@@ -33,7 +33,7 @@ public class VersionChecker {
             e.printStackTrace();
         }
 
-        if (fact != null && config.sendFunFact) {
+        if (fact != null && config.isSendFunFact()) {
             Utils.sendMessage("§9Fun fact: " + fact);
         }
 

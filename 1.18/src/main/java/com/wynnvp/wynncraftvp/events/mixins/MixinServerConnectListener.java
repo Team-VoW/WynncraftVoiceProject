@@ -14,7 +14,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(ClientLoginNetworkHandler.class)
 public class MixinServerConnectListener {
 
-    @Shadow @Final private ClientConnection connection;
+    @Shadow
+    @Final
+    private ClientConnection connection;
 
     @Inject(at = @At("RETURN"), method = "onSuccess")
     private void onSuccess(LoginSuccessS2CPacket packet, CallbackInfo ci) {

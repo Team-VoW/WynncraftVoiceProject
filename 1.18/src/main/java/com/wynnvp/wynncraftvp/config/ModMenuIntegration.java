@@ -8,6 +8,6 @@ import me.shedaniel.autoconfig.AutoConfig;
 public class ModMenuIntegration implements ModMenuApi {
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        return parent -> AutoConfig.getConfigScreen(VOWConfig.class, parent).get();
+        return parent -> AutoConfig.getConfigScreen(VOWAutoConfig.class, parent).get();
     }
 }

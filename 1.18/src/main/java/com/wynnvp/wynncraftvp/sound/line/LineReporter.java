@@ -20,19 +20,19 @@ public class LineReporter {
 
     private final Queue<String> reportedLines;
 
-    public LineReporter(){
+    public LineReporter() {
         reportedLines = new LinkedList<>();
     }
 
     public void MissingLine(LineData lineData) {
-        if (!config.logMissingLines
+        if (!config.isLogMissingLines()
                 || !ModCore.inLiveWynnServer
-        || !LineFormatter.isNPCSentLine(lineData.getRealLine())
-        || !VersionChecker.isOnUpToDateVersion) return;
+                || !LineFormatter.isNPCSentLine(lineData.getRealLine())
+                || !VersionChecker.isOnUpToDateVersion) return;
 
 
         CompletableFuture.runAsync(() -> {
-            if (reportedLines.contains(lineData.getRealLine())){
+            if (reportedLines.contains(lineData.getRealLine())) {
                 return;
             }
             reportedLines.add(lineData.getRealLine());
@@ -53,7 +53,7 @@ public class LineReporter {
     private void reportUnvoicedLine(LineData lineData) throws IOException {
 
         String npcName = lineData.getNPCName();
-        String name = config.anonymous ? "anonymous" : MinecraftClient.getInstance().getName();
+        String name = config.isAnonymous() ? "anonymous" : MinecraftClient.getInstance().getName();
         String fullLine = lineData.getRealLine();
         PlayerEntity p = MinecraftClient.getInstance().player;
         int CoordX = (int) p.getPos().x;
@@ -66,7 +66,7 @@ public class LineReporter {
         connection.setRequestProperty("User-Agent", "VoicesOfWynnModClient");
         connection.setDoOutput(true);
         DataOutputStream outputStream = new DataOutputStream(connection.getOutputStream());
-        String urlPostParameters = "npc=" + npcName + "&player=" + name + "&full=" + fullLine + "&x=" + CoordX + "&y=" + CoordY + "&z=" + CoordZ + "&apiKey=" + config.word;
+        String urlPostParameters = "npc=" + npcName + "&player=" + name + "&full=" + fullLine + "&x=" + CoordX + "&y=" + CoordY + "&z=" + CoordZ + "&apiKey=" + config.getWord();
         outputStream.writeBytes(urlPostParameters);
         outputStream.flush();
         outputStream.close();
