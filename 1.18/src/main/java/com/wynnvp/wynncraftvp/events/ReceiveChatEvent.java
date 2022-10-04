@@ -93,7 +93,16 @@ public class ReceiveChatEvent {
 
 
     private static String GetPlayerName(String eventMessageToString) {
-        return MinecraftClient.getInstance().player.getEntityName();
+
+        String realName = MinecraftClient.getInstance().player.getEntityName();
+
+        String segments[] = eventMessageToString.split("hoverEvent=HoverEvent\\{action=SHOW_TEXT, value='TextComponent\\{text='");
+        if (segments.length <= 1) return realName;
+
+        String name = segments[segments.length - 1].split("',")[0];
+        if (name.contains("Previous")) return realName;
+        return name.split("'")[0];
+
     }
 }
 
