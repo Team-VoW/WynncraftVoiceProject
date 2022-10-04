@@ -21,6 +21,10 @@ repositories {
 
 	maven { url "https://maven.shedaniel.me/" }
 	maven { url "https://maven.terraformersmc.com/releases/" }
+	maven {
+		name = "CottonMC"
+		url = "https://server.bbkr.space/artifactory/libs-release"
+	}
 }
 
 dependencies {
@@ -43,6 +47,8 @@ dependencies {
 	modApi ("com.terraformersmc:modmenu:3.2.3") {
 		exclude(group: "net.fabricmc.fabric-api")
 	}
+
+	modImplementation include("io.github.cottonmc:LibGui:5.4.2+1.18.2")
 }
 
 
