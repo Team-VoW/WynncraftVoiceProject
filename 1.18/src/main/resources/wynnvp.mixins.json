@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.wynnvp.wynncraftvp.events.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "MixinChatListener",
+    "MixinServerConnectListener"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

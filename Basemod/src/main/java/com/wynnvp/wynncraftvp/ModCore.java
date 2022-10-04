@@ -46,6 +46,8 @@ public class ModCore {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
+        instance = this;
+
         soundPlayer = new SoundPlayer();
         soundsHandler = new SoundsHandler();
         controller = new SoundController();
@@ -54,7 +56,6 @@ public class ModCore {
 
         MinecraftForge.EVENT_BUS.register(new ArmorCheckEvent());
         MinecraftForge.EVENT_BUS.register(new QuitServerEvent());
-        instance = this;
     }
 
 

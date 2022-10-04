@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "wynnvp",
+  "version": "${version}",
+
+  "name": "Voices of wynning",
+  "description": "Now fabricated.",
+  "authors": [
+    "https://voicesofwynn.com/credits"
+  ],
+  "contact": {
+    "homepage": "https://voicesofwynn.com/",
+    "sources": "https://github.com/Team-VoW",
+    "issues": "https://github.com/Team-VoW/WynncraftVoiceProject/issues"
+  },
+
+  "license": "",
+  "icon": "assets/wynnvp/wynnvplogo.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "modmenu": [
+      "com.wynnvp.wynncraftvp.config.ModMenuIntegration"
+    ],
+    "main": [
+      "com.wynnvp.wynncraftvp.ModCore"
+    ]
+  },
+  "mixins": [
+    "wynnvp.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "~1.18",
+    "java": ">=17"
+  }
+}

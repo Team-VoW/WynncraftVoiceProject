@@ -1,0 +1,10 @@
+{
+  "text.autoconfig.wynnvp.title": "Voices of wynning config",
+  "text.autoconfig.wynnvp.option.playAllSoundsOnPlayer": "Play all sounds on player",
+  "text.autoconfig.wynnvp.option.logMissingLines": "Report missing lines",
+  "text.autoconfig.wynnvp.option.anonymous": "Report missing lines anonymously",
+  "text.autoconfig.wynnvp.option.sendFunFact": "Fun facts",
+  "text.autoconfig.wynnvp.option.highlightSpeaker": "Highlight speaker",
+  "text.autoconfig.wynnvp.option.blockCutOff": "Block cut off",
+  "text.autoconfig.wynnvp.option.highlightSpeaker.@Tooltip": "Should there be an aura of particles highlighting the source of the sound?"
+}

@@ -2,20 +2,14 @@ package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
-import jdk.internal.loader.Resource;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.resources.IResource;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.SoundEvent;
-import net.minecraftforge.fml.common.registry.ForgeRegistries;
-import org.apache.commons.io.IOUtils;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
-import java.io.IOException;
-import java.net.URL;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Optional;
+import java.util.Set;
 
 import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
@@ -28,27 +22,30 @@ public class SoundsHandler {
     public SoundsHandler() {
         sounds = new HashMap<>();
         npcNames = new HashSet<>();
-        //sounds = new ArrayList<>();
+
         Sounds.register(this);
     }
 
     public static SoundEvent registerSound(String name) {
-        ResourceLocation location = new ResourceLocation(ModCore.MODID, name);
-        SoundEvent event = new SoundEvent(location);
-        event.setRegistryName(name);
-        ForgeRegistries.SOUND_EVENTS.register(event);
-        return event;
+
+        Identifier id = new Identifier(ModCore.MODID, name.toLowerCase());
+        SoundEvent se = new SoundEvent(id);
+
+        Registry.register(Registry.SOUND_EVENT, id, se);
+
+        return se;
     }
 
     /**
      * Method to add the sounds to the system
      *
-     * @param message     Identification message
-     * @param id          Identification sound
-     * @param movingSound True if the sound moves with the player,
+     * @param message Identification message
+     * @param id Identification sound
+     * @param movingSound false if the sound moves with the player,
      *                    otherwise it will move with the ArmorStand
-     */
+     * */
     public void addSound(String message, String id, boolean movingSound) {
+
         LineData lineData = formatToLineData(message);
         npcNames.add(lineData.getNPCName());
         message = lineData.getSoundLine();
@@ -97,4 +94,6 @@ public class SoundsHandler {
     }
 
 
+
 }
+

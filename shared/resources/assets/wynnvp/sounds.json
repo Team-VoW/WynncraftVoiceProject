@@ -19483,9 +19483,9 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomtoa", "stream": true}]
   },
-  "talkingmushroomAlmujsEmeraldLabyrinth": {
+  "talkingmushroomalmujsemeraldlabyrinth": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroomAlmujsEmeraldLabyrinth", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroomalmujsemeraldlabyrinth", "stream": true}]
   },
   "talkingmushroombearzoo": {
     "category": "voice",
