@@ -1,11 +1,15 @@
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.VOWConfig;
+import com.wynnvp.wynncraftvp.gui.LineReportGUI;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.Vec3d;
+
+import javax.sound.sampled.Line;
 
 public class ReceiveChatEvent {
 
@@ -27,7 +31,6 @@ public class ReceiveChatEvent {
             msg = msg.replace(name, "soldier");
             //System.out.println("Replaced player name!");
         }
-
 
         LineData lineData = LineFormatter.formatToLineData(msg);
 

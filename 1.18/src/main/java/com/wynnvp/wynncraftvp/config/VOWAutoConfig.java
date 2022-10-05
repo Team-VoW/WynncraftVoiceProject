@@ -21,6 +21,9 @@ public class VOWAutoConfig extends VOWConfig implements ConfigData {
     public boolean sendFunFact = true;
 
     @ConfigEntry.Gui.Excluded
+    public boolean hasChosenLineReport = false;
+
+    @ConfigEntry.Gui.Excluded
     public double tripleQuestionMarkInessentiel = 200;
     @ConfigEntry.Gui.Excluded
     public double tripleQuestionMarkMaxDistance = 50;
@@ -52,8 +55,18 @@ public class VOWAutoConfig extends VOWConfig implements ConfigData {
     }
 
     @Override
+    public void setLogMissingLines(boolean input){
+        logMissingLines = input;
+    }
+
+    @Override
     public boolean isAnonymous() {
         return anonymous;
+    }
+
+    @Override
+    public void setAnonymous(boolean input){
+        anonymous = input;
     }
 
     @Override
@@ -85,4 +98,13 @@ public class VOWAutoConfig extends VOWConfig implements ConfigData {
     public double getNpcFinderThingMaxDistanceChangeBeforeCacheInvalid() {
         return npcFinderThingMaxDistanceChangeBeforeCacheInvalid;
     }
+    @Override
+    public boolean isHasChosenLineReport(){ return hasChosenLineReport; }
+
+    @Override
+    public void setHasChosenLineReport(boolean input) {
+        hasChosenLineReport = input;
+    }
+
+
 }

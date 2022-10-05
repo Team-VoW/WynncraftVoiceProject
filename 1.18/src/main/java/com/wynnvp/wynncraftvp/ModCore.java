@@ -19,6 +19,7 @@ public class ModCore implements ModInitializer {
     public static final String NAME = "Wynncraft Voice Project";
     public static final String VERSION = "0.0.1";
     public static boolean inLiveWynnServer = false;
+    public static boolean isUsingClothApi = false;
     public SoundsHandler soundsHandler;
     public static ModCore instance;
     public SoundPlayer soundPlayer;
@@ -36,8 +37,10 @@ public class ModCore implements ModInitializer {
         soundsHandler = new SoundsHandler();
         controller = new SoundController();
 
-        if (FabricLoader.getInstance().isModLoaded("cloth-config")) {
+        isUsingClothApi = FabricLoader.getInstance().isModLoaded("cloth-config");
+        if (isUsingClothApi) {
             LOGGER.debug("Found cloth api");
+
             AutoConfig.register(VOWAutoConfig.class, Toml4jConfigSerializer::new);
 
             config = AutoConfig.getConfigHolder(VOWAutoConfig.class).getConfig();

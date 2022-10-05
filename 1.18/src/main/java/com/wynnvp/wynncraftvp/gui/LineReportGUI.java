@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.gui;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import io.github.cottonmc.cotton.gui.client.LightweightGuiDescription;
 import io.github.cottonmc.cotton.gui.widget.WButton;
 import io.github.cottonmc.cotton.gui.widget.WGridPanel;
@@ -8,7 +9,9 @@ import io.github.cottonmc.cotton.gui.widget.WLabel;
 import io.github.cottonmc.cotton.gui.widget.WSprite;
 import io.github.cottonmc.cotton.gui.widget.data.HorizontalAlignment;
 import io.github.cottonmc.cotton.gui.widget.icon.ItemIcon;
+import me.shedaniel.autoconfig.AutoConfig;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.gui.screen.TitleScreen;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.text.Text;
@@ -45,7 +48,7 @@ public class LineReportGUI extends LightweightGuiDescription {
 
 
     private void AddButtons(WGridPanel root) {
-        WButton noneButton = new WButton(Text.of("No"));
+        WButton noneButton = new WButton(Text.of("None"));
         noneButton.setOnClick(this::onNoneButtonClick);
         noneButton.setAlignment(HorizontalAlignment.CENTER);
         noneButton.setIcon(new ItemIcon(new ItemStack(Items.COAL)));
@@ -73,16 +76,28 @@ public class LineReportGUI extends LightweightGuiDescription {
 
 
     private void onFullButtonClick() {
-        System.out.println("Full");
+        ModCore.config.setLogMissingLines(true);
+        ModCore.config.setAnonymous(false);
+
+        HasDecided();
+
     }
 
     private void onAnonymousButtonClick() {
-        System.out.println("Anonymous");
+        ModCore.config.setLogMissingLines(true);
+        ModCore.config.setAnonymous(true);
+        HasDecided();
 
     }
 
     private void onNoneButtonClick() {
-        System.out.println("None");
+        ModCore.config.setLogMissingLines(false);
+        HasDecided();
+    }
 
+    private void HasDecided(){
+        ModCore.config.setHasChosenLineReport(true);
+        AutoConfig.getConfigHolder(VOWAutoConfig.class).save();
+        MinecraftClient.getInstance().setScreen(new TitleScreen());
     }
 }

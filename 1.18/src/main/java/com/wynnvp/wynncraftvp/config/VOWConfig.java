@@ -13,10 +13,12 @@ public class VOWConfig {
     public boolean isLogMissingLines() {
         return false;
     }
+    public void setLogMissingLines(boolean input) {    }
 
     public boolean isAnonymous() {
         return true;
     }
+    public void setAnonymous(boolean input) {}
 
     public boolean isSendFunFact() {
         return true;
@@ -41,4 +43,7 @@ public class VOWConfig {
     public double getNpcFinderThingMaxDistanceChangeBeforeCacheInvalid() {
         return 0.5;
     }
+
+    public boolean isHasChosenLineReport() {return false;}
+    public void setHasChosenLineReport(boolean input) {}
 }
