@@ -19,7 +19,7 @@ import net.minecraft.util.Identifier;
 
 public class LineReportGUI extends LightweightGuiDescription {
 
-    private final Identifier image = new Identifier(ModCore.MODID, "vowlogo.png");
+    private final Identifier image = new Identifier(ModCore.MODID, "wynnvplogo.png");
 
     public LineReportGUI() {
         WGridPanel root = new WGridPanel();
