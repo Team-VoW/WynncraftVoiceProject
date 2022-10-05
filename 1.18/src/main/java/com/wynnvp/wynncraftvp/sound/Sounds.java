@@ -1657,7 +1657,7 @@ public class Sounds {
         s.addSound("[1/3] Tasim: So this is Wynn, huh?", "kingsrecruit-tasim-6", false);
         s.addSound("[2/3] Aledar: It looks nice. The war clearly hasn't made it this far.", "kingsrecruit-aledar-7", false);
 
-        s.addSound("[3/3] Soldier: Hey, you three! Come over here.", "kingsrecruit-soldier1-1", true);
+        s.addSound("[3/3] Soldier: Hey, you three! Come over here.", "kingsrecruit-soldier1-1", false);
         s.addSound("[1/4] Tasim: A soldier! What are you doing here?", "kingsrecruit-tasim-7", false);
         s.addSound("[2/4] Soldier: There's a bit of trouble up ahead. You can't expect to get out of here alive if you aren't prepared.", "kingsrecruit-soldier1-2", false);
         s.addSound("[3/4] Soldier: There's a cave right there. Those often contain useful loot, I'd give it a try if I were you. Enter the cave and find some armour.", "kingsrecruit-soldier1-3", false);
@@ -1706,16 +1706,27 @@ public class Sounds {
         s.addSound("[4/9] Tasim: This isn't seriously the only way through, is it? What are we going to do?", "kingsrecruit-tasim-21", false);
         s.addSound("[5/9] Guard: If it wasn't for my injuries, I could just use my weapon to cast a spell on these boulders to get rid of them.", "kingsrecruit-guard2-3", false);
         s.addSound("[6/9] Guard: ...", "kingsrecruit-guard2-4", false);
-        s.addSound("[7/8] Guard: Soldier, you're an Assassin, right? Walk up to the boulder for me.", "kingsrecruit-guard2-5", false);
-        s.addSound("[8/8] Guard: Now, cast your Spin Attack spell by clicking Right-Left-Right!", "kingsrecruit-guard2-6", false);
-        s.addSound("[7/8] Guard: Soldier, you're a Warrior, right? Walk up to the boulder for me.", "kingsrecruit-guard2-7", false);
-        s.addSound("[8/8] Guard: Now, cast your Bash spell by clicking Right-Left-Right!", "kingsrecruit-guard2-8", false);
-        s.addSound("[7/8] Guard: Soldier, you're a Mage, right? Gonna need you to stay close to me.", "kingsrecruit-guard2-9", false);
-        s.addSound("[8/8] Guard: Now, cast your Heal spell by clicking Right-Left-Right!", "kingsrecruit-guard2-10", false);
-        s.addSound("[7/8] Guard: Soldier, you're an Archer, right? Walk up to the boulder for me.", "kingsrecruit-guard2-11", false);
-        s.addSound("[8/8] Guard: Now, cast your Arrow Storm spell by clicking Left-Right-Left!", "kingsrecruit-guard2-12", false);
-        s.addSound("[7/8] Guard: In my current state, I'm too weak to destroy this boulder. But since you're a Shaman, soldier, you can help me.", "kingsrecruit-guard2-13", false);
-        s.addSound("[8/8] Guard: All I need is for you to use your totem spell. To cast it, click Right-Left-Right!", "kingsrecruit-guard2-14", false);
+
+        s.addSound("[8/9] Guard: To unlock your first ability, Use your compass and click on the ability tree on the left!", "kingsrecruit-guard2-5", false);
+        s.addSound("[7/9] Guard: soldier, you're an Archer, right? Walk up to the boulder for me.", "kingsrecruit-guard2-6", false);
+        s.addSound("[7/9] Guard: soldier, you're a Hunter, right? Walk up to the boulder for me.", "kingsrecruit-guard2-7", false);
+        s.addSound("[9/9] Guard: Now, cast your Arrow Bomb spell by clicking Left-Right-Right!", "kingsrecruit-guard2-8", false);
+
+        s.addSound("[7/9] Guard: soldier, you're a Warrior, right? Walk up to the boulder for me.", "kingsrecruit-guard2-9", false);
+        s.addSound("[7/9] Guard: soldier, you're a Knight, right? Walk up to the boulder for me.", "kingsrecruit-guard2-10", false);
+        s.addSound("[9/9] Guard: Now, cast your Bash spell by clicking Right-Left-Right!", "kingsrecruit-guard2-11", false);
+
+        s.addSound("[7/9] Guard: soldier, you're a Mage, right? Walk up to the boulder for me.", "kingsrecruit-guard2-12", false);
+        s.addSound("[7/9] Guard: soldier, you're a Dark Wizard, right? Walk up to the boulder for me.", "kingsrecruit-guard2-13", false);
+        s.addSound("[9/9] Guard: Now, cast your Meteor spell by clicking Right-Left-Left!", "kingsrecruit-guard2-14", false);
+
+        s.addSound("[7/9] Guard: soldier, you're a Assassin, right? Walk up to the boulder for me.", "kingsrecruit-guard2-33", false);
+        s.addSound("[7/9] Guard: soldier, you're a Ninja, right? Walk up to the boulder for me.", "kingsrecruit-guard2-34", false);
+        s.addSound("[9/9] Guard: Now, cast your Spin Attack spell by clicking Right-Left-Right!", "kingsrecruit-guard2-35", false);
+        s.addSound("[7/9] Guard: soldier, you're a Shaman, right? Walk up to the boulder for me.", "kingsrecruit-guard2-36", false);
+        s.addSound("[7/9] Guard: soldier, you're a Skyseer, right? Walk up to the boulder for me.", "kingsrecruit-guard2-37", false);
+        s.addSound("[9/9] Guard: Now, cast your Totem spell by clicking Right-Left-Right!", "kingsrecruit-guard2-38", false);
+
         s.addSound("[1/1] Guard: Good work. Now, you three head on towards the castle.", "kingsrecruit-guard2-15", false);
         s.addSound("[1/2] Guard: That's done it! All healed up. Now let me take care of this.", "kingsrecruit-guard2-16", false);
         s.addSound("[2/2] Guard: Now, you three should head on towards the castle.", "kingsrecruit-guard2-17", false);

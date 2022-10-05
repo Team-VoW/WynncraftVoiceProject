@@ -504,6 +504,30 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-32", "stream": true}]
   },
+  "kingsrecruit-guard2-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-33", "stream": true}]
+  },
+  "kingsrecruit-guard2-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-34", "stream": true}]
+  },
+  "kingsrecruit-guard2-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-35", "stream": true}]
+  },
+  "kingsrecruit-guard2-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-36", "stream": true}]
+  },
+  "kingsrecruit-guard2-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-37", "stream": true}]
+  },
+  "kingsrecruit-guard2-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-38", "stream": true}]
+  },
 
 
 
