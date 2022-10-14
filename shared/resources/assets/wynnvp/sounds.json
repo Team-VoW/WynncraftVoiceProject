@@ -17040,6 +17040,7 @@
   },
 
 
+
   "thebiggerpicture-psilo-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-1", "stream": true}]
@@ -17052,6 +17053,79 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-3", "stream": true}]
   },
+  "thebiggerpicture-psilo-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-4", "stream": true}]
+  },
+  "thebiggerpicture-psilo-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-5", "stream": true}]
+  },
+  "thebiggerpicture-psilo-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-6", "stream": true}]
+  },
+  "thebiggerpicture-psilo-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-7", "stream": true}]
+  },
+  "thebiggerpicture-psilo-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-8", "stream": true}]
+  },
+  "thebiggerpicture-psilo-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-9", "stream": true}]
+  },
+  "thebiggerpicture-psilo-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-10", "stream": true}]
+  },
+  "thebiggerpicture-psilo-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-11", "stream": true}]
+  },
+  "thebiggerpicture-psilo-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-12", "stream": true}]
+  },
+  "thebiggerpicture-psilo-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-13", "stream": true}]
+  },
+  "thebiggerpicture-psilo-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-14", "stream": true}]
+  },
+  "thebiggerpicture-psilo-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-15", "stream": true}]
+  },
+  "thebiggerpicture-psilo-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-16", "stream": true}]
+  },
+  "thebiggerpicture-psilo-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-17", "stream": true}]
+  },
+  "thebiggerpicture-psilo-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-18", "stream": true}]
+  },
+  "thebiggerpicture-psilo-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-19", "stream": true}]
+  },
+  "thebiggerpicture-psilo-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-20", "stream": true}]
+  },
+  "thebiggerpicture-psilo-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebiggerpicture-psilo-21", "stream": true}]
+  },
+
 
 
   "troubledtribesmen-kalargwit-1": {

@@ -3607,8 +3607,27 @@ public class Sounds {
 
         //The Bigger Picture
         s.addSound("[1/6] Psilo: Welcome, large human! What's that look for, never seen a Gnome before?! My house may look small, but it's perfect for me!", "thebiggerpicture-psilo-1", false);
-        s.addSound("[1/7] Psilo: Did you find any? Wait, something is different about you. Have you gotten smaller? Oh my... ", "thebiggerpicture-psilo-2", false);
-        s.addSound("[1/5] Psilo: Well look at you! All back to your normal size! Maybe even a fraction taller! I'm relieved, that mushroom would have either made you grow, or set you on fire.", "thebiggerpicture-psilo-3", false);
+        s.addSound("[2/6] Psilo: I actually need some help, you see Razorice plague my home! They are similar to the rats of your province, but vicious and deadly to Gnomes!", "thebiggerpicture-psilo-2", false);
+        s.addSound("[3/6] Psilo: An easy fix exists for it though. There are many magical mushrooms in this cave and a rare one called Subtraxerim Utilium is the one we need.", "thebiggerpicture-psilo-3", false);
+        s.addSound("[4/6] Psilo: It emits a sleeping spore that will knock the Razorice out long enough to kill them! I’ve seen one in the cave but every time I go to get it, I fall asleep!", "thebiggerpicture-psilo-4", false);
+        s.addSound("[5/6] Psilo: Since you're so big, you won't fall asleep! Please retrieve some mushroom for me.", "thebiggerpicture-psilo-5", false);
+        s.addSound("[6/6] Psilo: I think I left a trail of rainbow spores last time I tried to collect some, just follow the colours through the cave to find the mushroom!", "thebiggerpicture-psilo-6", false);
+        s.addSound("[1/7] Psilo: Did you find any? Wait, something is different about you. Have you gotten smaller? Oh my...", "thebiggerpicture-psilo-7", false);
+        s.addSound("[2/7] Psilo: ... You have.", "thebiggerpicture-psilo-8", false);
+        s.addSound("[3/7] Psilo: I'm really sorry about this, I didn't think the mushroom would have a different effect on humans! But what did I expect from a mushroom that changes colour?!", "thebiggerpicture-psilo-9", false);
+        s.addSound("[4/7] Psilo: Do not panic. I have a mushroom in my house that wakes people up; logic says that if the sleeping mushroom shrinks you, then this one should make you grow again!", "thebiggerpicture-psilo-10", false);
+        s.addSound("[5/7] Psilo: Oh my, you are still shrinking before my eyes. You must hurry to the mushroom. Be careful, though! The Razorice will probably hunt you!", "thebiggerpicture-psilo-11", false);
+        s.addSound("[6/7] Psilo: I keep it on the top shelf, so you will probably have to fight them at some point... If you take care the razorice whilst you're there, we can kill two birds with one stone! Just follow the cheese crumbs to find them!", "thebiggerpicture-psilo-12", false);
+        s.addSound("[7/7] Psilo: Good luck! Oh and, do watch out for my pet zombie.", "thebiggerpicture-psilo-13", false);
+        s.addSound("[1/5] Psilo: What the... my house! What did you do?!", "thebiggerpicture-psilo-14", false);
+        s.addSound("[2/5] Psilo: Springy plant? Bookshelf levers? Razorice king?! Hold on a moment, slow down and tell me properly.", "thebiggerpicture-psilo-15", false);
+        s.addSound("[3/5] Psilo: I see. Well, at least you handled those damned Razorice, and I can actually live inside my house again - not that it'll offer much shelter now you've blown a hole in the side of it!", "thebiggerpicture-psilo-16", false);
+        s.addSound("[4/5] Psilo: Ah, I suppose that's alright. The mushroom will grow back over to cover it - and righto,  your reward!", "thebiggerpicture-psilo-17", false);
+        s.addSound("[5/5] Psilo: Here, take some of our Gnome gold, we have plenty to go around. And sorry about the whole you-getting-shrunk thing, but hey, being small isn't so bad! See you around, human!", "thebiggerpicture-psilo-18", false);
+        s.addSound("[1/2] Psilo: Welcome, welcome! My humble little home welcomes travellers of all shapes and sizes!", "thebiggerpicture-psilo-19", false);
+        s.addSound("[2/2] Psilo: However, the problem I'm having can't be solved by anyone under Level 76. Come back when you can!", "thebiggerpicture-psilo-20", false);
+        s.addSound("[1/1] Psilo: Long time no see! Why you haven't grown, or shrunk, a bit since we last met.", "thebiggerpicture-psilo-21", false);
+
 
         //Lexdale witch trials
         s.addSound("[1/9] The Mayor: We have an enemy amongst our own in Lexdale! This witch's illegal practice of dark magic threatens us!", "lexdalewitchtrials-themayor-1", true);
