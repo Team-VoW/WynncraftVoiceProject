@@ -50,6 +50,7 @@ public class SoundPlayer {
             return;
         }
 
+
         SoundManager manager = MinecraftClient.getInstance().getSoundManager();
 
         manager.stopAll();
@@ -64,7 +65,7 @@ public class SoundPlayer {
                 return;
             }
 
-            String rawName = getRawName(sound.getId());
+            String rawName = sound.getNpcName().toLowerCase().replace(" ", "");
             Vec3d vector = NPCHandler.find(rawName);
             if (vector == null || player.getPos().distanceTo(vector) >= 30) {
                 playSoundAtCoords(player.getPos(), soundEvent, player);

@@ -53,7 +53,7 @@ public class LineReporter {
     private void reportUnvoicedLine(LineData lineData) throws IOException {
 
         String npcName = lineData.getNPCName();
-        String name = config.isAnonymous() ? "anonymous" : MinecraftClient.getInstance().getName();
+        String name = config.isAnonymous() ? "anonymous" : MinecraftClient.getInstance().player.getName().toString();
         String fullLine = lineData.getRealLine();
         PlayerEntity p = MinecraftClient.getInstance().player;
         int CoordX = (int) p.getPos().x;
