@@ -27,13 +27,13 @@ public class NPCHandler {
     public static Cached findNPC(String rawName) {
         ClientPlayerEntity c = MinecraftClient.getInstance().player;
 
-        double d = 200;
+        double d = 20000;
         Entity entity = null;
         assert c != null;
         for (Entity e : c.clientWorld.getEntities()) { // iterate over every single entity
             double dist = e.getPos().distanceTo(c.getEyePos());
-            String name = e.getDisplayName().getString().replaceAll("§.", "").replaceAll("§", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
-            if (name.equals("???") && !rawName.equals("???")) {
+            String name = e.getDisplayName().getString().replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
+            if (name.contains("???")) {
                 if (dist > config.getTripleQuestionMarkInessentiel()) {
                     continue;
                 }
@@ -110,7 +110,7 @@ public class NPCHandler {
 
     // This works or not idk
     public static Vec3d find(String rawName) {
-        rawName = rawName.replaceAll("§.", "").replaceAll("§", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
+        rawName = rawName.replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
 
         Cached c = cache.get(rawName);
 
