@@ -32,11 +32,12 @@ public class NPCHandler {
         assert c != null;
         for (Entity e : c.clientWorld.getEntities()) { // iterate over every single entity
             double dist = e.getPos().distanceTo(c.getEyePos());
-            String name = e.getDisplayName().getString().replaceAll("§.", "").replaceAll("§", "").toLowerCase().replaceAll("[^a-z\\d]", "");
+            String name = e.getDisplayName().getString().replaceAll("§.", "").replaceAll("§", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
             if (name.equals("???") && !rawName.equals("???")) {
                 if (dist > config.getTripleQuestionMarkInessentiel()) {
                     continue;
                 }
+                dist += 1;
                 dist *= config.getTripleQuestionMarkInessentiel();
             }
             if ((d > dist) && name.contains(rawName)) {
@@ -109,7 +110,7 @@ public class NPCHandler {
 
     // This works or not idk
     public static Vec3d find(String rawName) {
-        rawName = rawName.replaceAll("§.", "").replaceAll("§", "").toLowerCase().replaceAll("[^a-z\\d]", "");
+        rawName = rawName.replaceAll("§.", "").replaceAll("§", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
 
         Cached c = cache.get(rawName);
 
