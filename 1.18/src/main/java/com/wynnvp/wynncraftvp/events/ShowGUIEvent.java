@@ -15,7 +15,6 @@ public class ShowGUIEvent {
 
     public static void onGUIOpen(Screen screen, CallbackInfo ci) {
 
-        System.out.println("Is using cloth api: " + ModCore.isUsingClothApi);
         if (screen instanceof TitleScreen && ModCore.isUsingClothApi && !ModCore.config.isHasChosenLineReport()) {
             LineReportGUI.OpenGui();
             ci.cancel();
