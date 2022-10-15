@@ -7653,29 +7653,321 @@
 
 
 
-  "generalsorders-corpusaccipientis-1": {
+  "generalsorders-privatetylas-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-corpusaccipientis-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-1", "stream": true}]
   },
-  "generalsorders-corpusaccipientis-2": {
+  "generalsorders-privatetylas-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-corpusaccipientis-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-2", "stream": true}]
   },
-  "generalsorders-corpusaccipientis-3": {
+  "generalsorders-privatetylas-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-corpusaccipientis-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-3", "stream": true}]
   },
-  "generalsorders-gren-1": {
+  "generalsorders-privatetylas-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-gren-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-4", "stream": true}]
   },
-  "generalsorders-gren-2": {
+  "generalsorders-privatetylas-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-gren-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-5", "stream": true}]
   },
-  "generalsorders-gren-3": {
+  "generalsorders-privatetylas-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-gren-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-6", "stream": true}]
+  },
+  "generalsorders-privatetylas-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-7", "stream": true}]
+  },
+  "generalsorders-privatetylas-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-8", "stream": true}]
+  },
+  "generalsorders-privatetylas-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-9", "stream": true}]
+  },
+  "generalsorders-privatetylas-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-10", "stream": true}]
+  },
+  "generalsorders-privatetylas-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-privatetylas-11", "stream": true}]
+  },
+  "generalsorders-lieutenant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenant-1", "stream": true}]
+  },
+  "generalsorders-lieutenant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenant-2", "stream": true}]
+  },
+  "generalsorders-bartender-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bartender-1", "stream": true}]
+  },
+  "generalsorders-bartender-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bartender-2", "stream": true}]
+  },
+  "generalsorders-bartender-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bartender-3", "stream": true}]
+  },
+  "generalsorders-bartender-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bartender-4", "stream": true}]
+  },
+  "generalsorders-bartender-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bartender-5", "stream": true}]
+  },
+  "generalsorders-private-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-1", "stream": true}]
+  },
+  "generalsorders-private-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-2", "stream": true}]
+  },
+  "generalsorders-private-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-3", "stream": true}]
+  },
+  "generalsorders-private-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-4", "stream": true}]
+  },
+  "generalsorders-private-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-5", "stream": true}]
+  },
+  "generalsorders-private-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-6", "stream": true}]
+  },
+  "generalsorders-private-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-7", "stream": true}]
+  },
+  "generalsorders-private-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-8", "stream": true}]
+  },
+  "generalsorders-private-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-9", "stream": true}]
+  },
+  "generalsorders-private-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-10", "stream": true}]
+  },
+  "generalsorders-private-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-11", "stream": true}]
+  },
+  "generalsorders-private-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-12", "stream": true}]
+  },
+  "generalsorders-private-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-13", "stream": true}]
+  },
+  "generalsorders-private-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-14", "stream": true}]
+  },
+  "generalsorders-private-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-15", "stream": true}]
+  },
+  "generalsorders-private-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-16", "stream": true}]
+  },
+  "generalsorders-private-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-17", "stream": true}]
+  },
+  "generalsorders-private-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-18", "stream": true}]
+  },
+  "generalsorders-private-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-private-19", "stream": true}]
+  },
+  "generalsorders-sergeant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-sergeant-1", "stream": true}]
+  },
+  "generalsorders-sergeant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-sergeant-2", "stream": true}]
+  },
+  "generalsorders-sergeant-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-sergeant-3", "stream": true}]
+  },
+  "generalsorders-sergeant-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-sergeant-4", "stream": true}]
+  },
+  "generalsorders-sergeant-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-sergeant-5", "stream": true}]
+  },
+  "generalsorders-sergeant-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-sergeant-6", "stream": true}]
+  },
+  "generalsorders-sergeant-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-sergeant-7", "stream": true}]
+  },
+  "generalsorders-sergeant-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-sergeant-8", "stream": true}]
+  },
+  "generalsorders-advisor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-advisor-1", "stream": true}]
+  },
+  "generalsorders-advisor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-advisor-2", "stream": true}]
+  },
+  "generalsorders-advisor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-advisor-3", "stream": true}]
+  },
+  "generalsorders-advisor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-advisor-4", "stream": true}]
+  },
+  "generalsorders-advisor-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-advisor-5", "stream": true}]
+  },
+  "generalsorders-rescuer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-rescuer-1", "stream": true}]
+  },
+  "generalsorders-rescuer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-rescuer-2", "stream": true}]
+  },
+  "generalsorders-rescuer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-rescuer-3", "stream": true}]
+  },
+  "generalsorders-rescuer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-rescuer-4", "stream": true}]
+  },
+  "generalsorders-rescuer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-rescuer-5", "stream": true}]
+  },
+  "generalsorders-rescuer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-rescuer-6", "stream": true}]
+  },
+  "generalsorders-rescuer-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-rescuer-7", "stream": true}]
+  },
+  "generalsorders-scarecrow-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-scarecrow-1", "stream": true}]
+  },
+  "generalsorders-scarecrow-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-scarecrow-2", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-1", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-2", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-3", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-4", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-5", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-6", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-7", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-8", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-9", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-10", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-11", "stream": true}]
+  },
+  "generalsorders-lieutenantgren-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lieutenantgren-12", "stream": true}]
+  },
+  "generalsorders-major-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-major-1", "stream": true}]
+  },
+  "generalsorders-major-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-major-2", "stream": true}]
+  },
+  "generalsorders-major-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-major-3", "stream": true}]
+  },
+  "generalsorders-bedbouncer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bedbouncer-1", "stream": true}]
+  },
+  "generalsorders-bedbouncer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bedbouncer-2", "stream": true}]
+  },
+  "generalsorders-bedbouncer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bedbouncer-3", "stream": true}]
+  },
+  "generalsorders-bedbouncer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bedbouncer-4", "stream": true}]
+  },
+  "generalsorders-bedbouncer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-bedbouncer-5", "stream": true}]
   },
   "generalsorders-lecade-1": {
     "category": "voice",
@@ -7805,34 +8097,183 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:generalsorders-lecade-32", "stream": true}]
   },
-  "generalsorders-private-1": {
+  "generalsorders-lecade-33": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-private-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-33", "stream": true}]
   },
-  "generalsorders-tylas-1": {
+  "generalsorders-lecade-34": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-tylas-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-34", "stream": true}]
   },
-  "generalsorders-tylas-2": {
+  "generalsorders-lecade-35": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-tylas-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-35", "stream": true}]
   },
-  "generalsorders-tylas-3": {
+  "generalsorders-lecade-36": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-tylas-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-36", "stream": true}]
   },
-  "generalsorders-tylas-4": {
+  "generalsorders-lecade-37": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-tylas-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-37", "stream": true}]
   },
-  "generalsorders-tylas-5": {
+  "generalsorders-lecade-38": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-tylas-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-38", "stream": true}]
   },
-  "generalsorders-tylas-6": {
+  "generalsorders-lecade-39": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:generalsorders-tylas-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-39", "stream": true}]
   },
+  "generalsorders-lecade-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-40", "stream": true}]
+  },
+  "generalsorders-lecade-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-41", "stream": true}]
+  },
+  "generalsorders-lecade-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-42", "stream": true}]
+  },
+  "generalsorders-lecade-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-43", "stream": true}]
+  },
+  "generalsorders-lecade-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-44", "stream": true}]
+  },
+  "generalsorders-lecade-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-45", "stream": true}]
+  },
+  "generalsorders-lecade-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-46", "stream": true}]
+  },
+  "generalsorders-lecade-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-47", "stream": true}]
+  },
+  "generalsorders-lecade-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-48", "stream": true}]
+  },
+  "generalsorders-lecade-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-49", "stream": true}]
+  },
+  "generalsorders-lecade-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-50", "stream": true}]
+  },
+  "generalsorders-lecade-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-51", "stream": true}]
+  },
+  "generalsorders-lecade-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-52", "stream": true}]
+  },
+  "generalsorders-lecade-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-53", "stream": true}]
+  },
+  "generalsorders-lecade-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-54", "stream": true}]
+  },
+  "generalsorders-lecade-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-55", "stream": true}]
+  },
+  "generalsorders-lecade-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-56", "stream": true}]
+  },
+  "generalsorders-lecade-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-57", "stream": true}]
+  },
+  "generalsorders-lecade-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-58", "stream": true}]
+  },
+  "generalsorders-lecade-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-59", "stream": true}]
+  },
+  "generalsorders-lecade-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-60", "stream": true}]
+  },
+  "generalsorders-lecade-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-61", "stream": true}]
+  },
+  "generalsorders-lecade-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-62", "stream": true}]
+  },
+  "generalsorders-lecade-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-63", "stream": true}]
+  },
+  "generalsorders-lecade-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-64", "stream": true}]
+  },
+  "generalsorders-lecade-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-65", "stream": true}]
+  },
+  "generalsorders-lecade-66": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-66", "stream": true}]
+  },
+  "generalsorders-lecade-67": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-67", "stream": true}]
+  },
+  "generalsorders-lecade-68": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-68", "stream": true}]
+  },
+  "generalsorders-lecade-69": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-69", "stream": true}]
+  },
+  "generalsorders-lecade-70": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-70", "stream": true}]
+  },
+  "generalsorders-lecade-71": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-71", "stream": true}]
+  },
+  "generalsorders-lecade-72": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-72", "stream": true}]
+  },
+  "generalsorders-lecade-73": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-73", "stream": true}]
+  },
+  "generalsorders-lecade-74": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-74", "stream": true}]
+  },
+  "generalsorders-lecade-75": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-75", "stream": true}]
+  },
+  "generalsorders-lecade-76": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:generalsorders-lecade-76", "stream": true}]
+  },
+
 
 
 
