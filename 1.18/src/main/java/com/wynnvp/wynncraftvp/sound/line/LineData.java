@@ -24,7 +24,10 @@ public class LineData {
 
     public String getNPCName() {
         String[] split = realLine.split(": ");
-        return split[0].trim().toLowerCase().replaceAll("[^a-zA-Z?]", "");
+        String name = split[0];
+        name = name.substring(name.indexOf("]") + 1);
+
+        return name.trim().toLowerCase().replaceAll("[^a-z\\d?]", "");
     }
 
 }
