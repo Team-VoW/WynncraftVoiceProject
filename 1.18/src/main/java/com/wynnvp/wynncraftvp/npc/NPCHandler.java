@@ -33,10 +33,11 @@ public class NPCHandler {
         for (Entity e : c.clientWorld.getEntities()) { // iterate over every single entity
             double dist = e.getPos().distanceTo(c.getEyePos());
             String name = e.getDisplayName().getString().replaceAll("§.", "").replaceAll("§", "").toLowerCase().replaceAll("[^a-z\\d]", "");
-            if (name.equals("???") && !rawName.equals("???")) {
+            if (name.equals("???")) {
                 if (dist > config.getTripleQuestionMarkInessentiel()) {
                     continue;
                 }
+                dist += 1;
                 dist *= config.getTripleQuestionMarkInessentiel();
             }
             if ((d > dist) && name.contains(rawName)) {
