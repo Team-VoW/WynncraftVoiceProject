@@ -39,7 +39,7 @@ public class NPCHandler {
                 }
                 dist *= config.getTripleQuestionMarkInessentiel();
             }
-            if ((d > dist) && name.equals(rawName)) {
+            if ((d > dist) && name.contains(rawName)) {
                 d = dist;
                 entity = e;
             }
