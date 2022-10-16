@@ -55,10 +55,17 @@ public class SoundPlayer {
 
         manager.stopAll();
         soundsHandler.get(line).ifPresent(sound -> {
-            NPCHandler.yeetTheCache();
 
             final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
             final SoundEvent soundEvent = customSoundClass.soundEvent();
+
+            //If this sound contains info about a location to play it at
+            if (sound.getPosition() != null){
+                playSoundAtCoords(sound.getPosition(), soundEvent, player);
+                return;
+            }
+
+            NPCHandler.yeetTheCache();
 
             if (customSoundClass.movingSound() || config.isPlayAllSoundsOnPlayer()) {
                 //Play the sound at the player

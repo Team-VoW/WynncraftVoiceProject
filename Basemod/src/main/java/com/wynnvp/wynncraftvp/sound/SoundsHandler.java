@@ -7,6 +7,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.IResource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
+import net.minecraft.util.math.Vec3d;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import org.apache.commons.io.IOUtils;
 
@@ -49,10 +50,16 @@ public class SoundsHandler {
      *                    otherwise it will move with the ArmorStand
      */
     public void addSound(String message, String id, boolean movingSound) {
+
+        addSound(message, id, movingSound, null);
+    }
+
+    public void addSound(String message, String id, boolean movingSound, Vec3d position) {
+
         LineData lineData = formatToLineData(message);
         npcNames.add(lineData.getNPCName());
         message = lineData.getSoundLine();
-        sounds.put(message, new SoundObject(lineData.getNPCName(), id, new CustomSoundClass(registerSound(id), movingSound)));
+        sounds.put(message, new SoundObject(lineData.getNPCName(), id, new CustomSoundClass(registerSound(id), movingSound), position));
     }
 
     public boolean containsName(String rawName) {

@@ -66,6 +66,12 @@ public class SoundPlayer {
             final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
             final SoundEvent soundEvent = customSoundClass.getSoundEvent();
 
+            //If this sound contains info about a location to play it at
+            if (sound.getPosition() != null){
+                playSoundAtCoords(sound.getPosition(), soundEvent);
+                return;
+            }
+
             //Solves ArmorStand problem with ??? as name
             //WARNING: not yet tested
             QuestMarkHandler.put(getQuest(sound.getId()));

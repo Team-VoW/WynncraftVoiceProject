@@ -1,4 +1,6 @@
 package com.wynnvp.wynncraftvp.sound;
+import net.minecraft.util.math.Vec3d;
+
 
 // this class gets replaced!
 public class Sounds {

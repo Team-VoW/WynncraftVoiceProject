@@ -1,4 +1,6 @@
 package com.wynnvp.wynncraftvp.sound;
+import net.minecraft.util.math.Vec3d;
+
 
 // this class gets replaced!
 public class Sounds {
@@ -1414,7 +1416,7 @@ public class Sounds {
         s.addSound("[3/3] Lieutenant: I've been doing it long enough that I consider myself quite the expert, now.", "generalsorders-bedbouncer-3", false);
         s.addSound("[1/2] Bed-Bouncer: I loved my job so much I managed to convince Lecade to become a fulltime bed-bouncer!", "generalsorders-bedbouncer-4", false);
         s.addSound("[2/2] Bed-Bouncer: One day I'll be the top of my craft in the world!", "generalsorders-bedbouncer-5", false);
-        s.addSound("[1/8] Lecade: Hey, hey, hey! What is this person? Why is it in my administrator's? New work! New work! Get this person out of the administrator's!", "generalsorders-lecade-1", false);
+        s.addSound("[1/8] Lecade: Hey, hey, hey! What is this person? Why is it in my administrator's? New work! New work! Get this person out of the administrator's!", "generalsorders-lecade-1", false, new Vec3d(172, 71, -5492));
         s.addSound("[2/8] Lecade: Wait. Wait, you. Wait right there. Don't move until someone comes to get you. Order! I order it!", "generalsorders-lecade-2", false);
         s.addSound("[3/8] Lecade: ... ... ...", "generalsorders-lecade-3", false);
         s.addSound("[4/8] Lecade: ...okay, person. No one wants to bring you from administrator's, so instead I will give you another orders! Listen, listen, listen!", "generalsorders-lecade-4", false);

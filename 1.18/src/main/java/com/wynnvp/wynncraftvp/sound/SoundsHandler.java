@@ -2,8 +2,10 @@ package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
+import net.minecraft.client.util.math.Vector3d;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.registry.Registry;
 
 import java.util.HashMap;
@@ -46,10 +48,15 @@ public class SoundsHandler {
      */
     public void addSound(String message, String id, boolean movingSound) {
 
+       addSound(message, id, movingSound, null);
+    }
+
+    public void addSound(String message, String id, boolean movingSound, Vec3d position) {
+
         LineData lineData = formatToLineData(message);
         npcNames.add(lineData.getNPCName());
         message = lineData.getSoundLine();
-        sounds.put(message, new SoundObject(lineData.getNPCName(), id, new CustomSoundClass(registerSound(id), movingSound)));
+        sounds.put(message, new SoundObject(lineData.getNPCName(), id, new CustomSoundClass(registerSound(id), movingSound), position));
     }
 
     public boolean containsName(String rawName) {
