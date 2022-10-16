@@ -23,6 +23,10 @@ public class NPCHandler {
 
     private static final Map<String, Cached> cache = new HashMap<>();
 
+    public static void yeetTheCache() {
+        cache.clear();
+    }
+
     // stand find function
     public static Cached findNPC(String rawName) {
         ClientPlayerEntity c = MinecraftClient.getInstance().player;
