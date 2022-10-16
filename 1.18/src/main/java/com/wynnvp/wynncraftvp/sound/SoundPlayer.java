@@ -55,6 +55,7 @@ public class SoundPlayer {
 
         manager.stopAll();
         soundsHandler.get(line).ifPresent(sound -> {
+            NPCHandler.yeetTheCache();
 
             final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
             final SoundEvent soundEvent = customSoundClass.soundEvent();
