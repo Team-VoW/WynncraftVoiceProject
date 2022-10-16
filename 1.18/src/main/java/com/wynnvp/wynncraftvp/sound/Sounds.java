@@ -4464,14 +4464,50 @@ public class Sounds {
         s.addSound("[1/4] Captain Lorias: What's that, have you made any more progress? This killer needs to be caught as soon as possible-", "murdermystery-captainlorias-2", false);
 
         //A Marauders Dues
-        s.addSound("[1/12] Norsten: Tryin' to get through for free, eh? Nice try, but no one passes through here without paying.", "amaraudersdues-norsten-1", false);
-        s.addSound("[1/4] ????: Yoohoo! You there! Yes you! Come no further or I shall be forced to act!", "amaraudersdues-volmor-1", true);
-        s.addSound("[2/4] ????: I can see you! You can't hide from little old me!", "amaraudersdues-volmor-2", true);
-        s.addSound("[3/4] ????: I know why you are here, and I can promise this won't end well for you, darling!", "amaraudersdues-volmor-3", true);
-        s.addSound("[4/4] ????: Do you really think you've seen me in all my glory? Hah! Silly old goose! I'll make you suffer!", "amaraudersdues-volmor-4", true);
-        s.addSound("[1/8] Volmor: Oh gosh, you're here, bother! Where did I put my pink wand, I simply can't cast in black!", "amaraudersdues-volmor-5", false);
-        s.addSound("[1/1] Volmor: Oooh, you brave soldier! Not even I, the great and fabulous Volmor would pretend to be able to deal with those ghastly creatures! Try not to die down there, the smell would waft up here and disturb my fragranced tower!", "amaraudersdues-volmor-6", true);
-        s.addSound("[1/7] Norsten: Oh looky, it's you again. You gonna pay this time?", "amaraudersdues-norsten-2", false);
+        s.addSound("[1/12] Norsten: You there! You think you can get past me without paying, darling? I didn't think so.", "amaraudersdues-norsten-1", false);
+        s.addSound("[2/12] Norsten: You want to get to Thesead? That'll cost you everything you own. All of your emeralds, and your silly little armor and trinkets. All of it.", "amaraudersdues-norsten-2", false);
+        s.addSound("[3/12] Peli: Norsten? Finally! I've been looking all over for you. What are you doing here?", "amaraudersdues-peli-1", false);
+        s.addSound("[4/12] Norsten: No idea who you are, but you better pay up. You used my gate without my permission! And ugh, your outfit, so drab!", "amaraudersdues-norsten-3", false);
+        s.addSound("[5/12] Peli: Why are you talking like that? And what do you mean \"your gate\"? What's wrong with you?", "amaraudersdues-peli-2", false);
+        s.addSound("[6/12] Norsten: This is MY gate, darling. Now, pay up, quickly! And don't even think about running.", "amaraudersdues-norsten-4", false);
+        s.addSound("[7/12] Peli: You there, small-nose. Don't you Wynn folks love helping out? Something's clearly wrong with my friend here.", "amaraudersdues-peli-3", false);
+        s.addSound("[8/12] Peli: He's normally nothing like this. He doesn't try to rob people, and he CERTAINLY doesn't talk like that crazy ol- Oh! I think I know what's happening.", "amaraudersdues-peli-4", false);
+        s.addSound("[9/12] Peli: See that tower up there? A crazy old wizard lives up there. I think he's mind controlling Norsten here.", "amaraudersdues-peli-5", false);
+        s.addSound("[10/12] Norsten: Mind control? Silly man. I would neve- Uh, I mean, he would never do that! He's just an innocent stylish old man!", "amaraudersdues-norsten-5", false);
+        s.addSound("[11/12] Peli: See what I mean? There's a shortcut through the mountain over there. It'll take you straight to the path up to the wizard's tower.", "amaraudersdues-peli-6", false);
+        s.addSound("[12/12] Peli: I don't care what you do with him, just make sure he lets Norsten go.", "amaraudersdues-peli-7", false);
+        s.addSound("[1/1] ???: Ha, you're so weak I can blow you away with a fabulous little air spell!", "amaraudersdues-volmor-1", true);
+        s.addSound("[1/1] ???: Yoohoo! You there! Yes, you, with the silly soldier outfit. I see you!", "amaraudersdues-volmor-2", true);
+        s.addSound("[1/1] ???: I can see you! You can't hide from little old me. Come no further or I shall be forced to act!", "amaraudersdues-volmor-3", true);
+        s.addSound("[1/1] ???: Wait, where did you go?", "amaraudersdues-volmor-4", true);
+        s.addSound("[1/1] ???: Aha, there you are! I know why you're here, and I promise it won't end well for you, darling!", "amaraudersdues-volmor-5", true);
+        s.addSound("[1/2] ???: You think I didn't know about those caves? You silly old goose, I'll make you suffer!", "amaraudersdues-volmor-6", true);
+        s.addSound("[2/2] ???: And now your little mind is mine, trapped in an illusion for all time! You'll go mad trying to figure out what is real and what is not, and your mind will shatter!", "amaraudersdues-volmor-7", true);
+        s.addSound("[1/2] ???: OH, dearie me! Where did you come from? I thought I'd trapped you for good!", "amaraudersdues-volmor-8", true);
+        s.addSound("[2/2] ???: I'll need a more permanent solution then, won't I? Oooh, how about this?", "amaraudersdues-volmor-9", true);
+        s.addSound("[1/10] Volmor: GAH!", "amaraudersdues-volmor-10", false);
+        s.addSound("[2/10] Volmor: Oh gosh, you're here! Where did I put my pink wand, I simply can't cast in black!", "amaraudersdues-volmor-11", false);
+        s.addSound("[3/10] Volmor: Well foof! I guess you've got me! Teehee!", "amaraudersdues-volmor-12", false);
+        s.addSound("[4/10] Volmor: Ohh, I do hate it when people make me give up my toys. I'll let the silly little man go.", "amaraudersdues-volmor-13", false);
+        s.addSound("[5/10] Volmor: Tell you the truth, his style offended me anyway. Asking people to give him money wearing that?! Ugh, hideous.", "amaraudersdues-volmor-14", false);
+        s.addSound("[6/10] Volmor: Well, there's no need to raise your fists, darling. I'm not going to fight you like some common ogre! Hah!", "amaraudersdues-volmor-15", false);
+        s.addSound("[7/10] Volmor: Here, let me get the gem. With it you can bring his free will right back to his old unfashionable self!", "amaraudersdues-volmor-16", false);
+        s.addSound("[8/10] Volmor: Here...", "amaraudersdues-volmor-17", false);
+        s.addSound("[9/10] Volmor: Whoopsies! Silly old Volmor! Too much magical moisturiser again. It just slipped right out of my fingers!", "amaraudersdues-volmor-18", false);
+        s.addSound("[10/10] Volmor: Heehee! I guess you won't be saving him after all! It's not like you could jump in there, that's my trash! You'd get dirt all over your outfit!", "amaraudersdues-volmor-19", false);
+        s.addSound("[1/12] Norsten: Huh? You again?! How did you escape from my- wait, uh, I mean... You there! Give me everything you own!", "amaraudersdues-norsten-6", false);
+        s.addSound("[2/12] Peli: Stop trying, you creepy old man! We all know it's not Norsten that's speaking. Anyway, human, that was quite an entrance! Did you find anything?", "amaraudersdues-peli-8", false);
+        s.addSound("[3/12] Norsten: Wait, what's that? What are you doing with that gemstone? I- Agh!", "amaraudersdues-norsten-7", false);
+        s.addSound("[4/12] Norsten: Ugh... Where am I...? Peli? What happened? I can't remember how I got here.", "amaraudersdues-norsten-8", false);
+        s.addSound("[5/12] Peli: Ah, Norsten, you're back! Finally. You won't believe it, but... You remember that crazy old wizard? He took over your body or something!", "amaraudersdues-peli-9", false);
+        s.addSound("[6/12] Norsten: ...What? What do you mean?", "amaraudersdues-norsten-9", false);
+        s.addSound("[7/12] Peli: He took control of your body and used it to try to rob people! But, he still talked like his normal crazy self so it was immediately obvious.", "amaraudersdues-peli-10", false);
+        s.addSound("[8/12] Peli: And this human here saved you! They went right up to the wizard's tower, and then a bit later came flying back out with a gemstone!", "amaraudersdues-peli-11", false);
+        s.addSound("[9/12] Norsten: I'm confused... But thank you, human. It sounds like you really saved me!", "amaraudersdues-norsten-10", false);
+        s.addSound("[10/12] Norsten: Here, let me repay you. So that wizard tried to use me to rob people for money, right? But I guess he didn't think to check my pockets.", "amaraudersdues-norsten-11", false);
+        s.addSound("[11/12] Peli: Well, that's generous. Looks like a happy ending for everyone! Come on Norsten, let's get you home.", "amaraudersdues-peli-12", false);
+        s.addSound("[12/12] Norsten: Just a second, my mind's still a bit fuzzy.", "amaraudersdues-norsten-12", false);
+
 
         //The Canyon Guides
         s.addSound("[1/6] Gana: Hello, adventurer. Welcome to Bantisu Temple. We help \"\"the lost\"\" move on, and help travellers like yourself navigate the canyon.", "thecanyonguides-gana-1", false);

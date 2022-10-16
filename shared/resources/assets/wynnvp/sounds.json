@@ -4147,6 +4147,50 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-1", "stream": true}]
   },
+  "amaraudersdues-norsten-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-2", "stream": true}]
+  },
+  "amaraudersdues-peli-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-1", "stream": true}]
+  },
+  "amaraudersdues-norsten-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-3", "stream": true}]
+  },
+  "amaraudersdues-peli-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-2", "stream": true}]
+  },
+  "amaraudersdues-norsten-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-4", "stream": true}]
+  },
+  "amaraudersdues-peli-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-3", "stream": true}]
+  },
+  "amaraudersdues-peli-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-4", "stream": true}]
+  },
+  "amaraudersdues-peli-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-5", "stream": true}]
+  },
+  "amaraudersdues-norsten-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-5", "stream": true}]
+  },
+  "amaraudersdues-peli-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-6", "stream": true}]
+  },
+  "amaraudersdues-peli-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-7", "stream": true}]
+  },
   "amaraudersdues-volmor-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-1", "stream": true}]
@@ -4171,10 +4215,107 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-6", "stream": true}]
   },
-  "amaraudersdues-norsten-2": {
+  "amaraudersdues-volmor-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-7", "stream": true}]
   },
+  "amaraudersdues-volmor-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-8", "stream": true}]
+  },
+  "amaraudersdues-volmor-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-9", "stream": true}]
+  },
+  "amaraudersdues-volmor-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-10", "stream": true}]
+  },
+  "amaraudersdues-volmor-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-11", "stream": true}]
+  },
+  "amaraudersdues-volmor-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-12", "stream": true}]
+  },
+  "amaraudersdues-volmor-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-13", "stream": true}]
+  },
+  "amaraudersdues-volmor-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-14", "stream": true}]
+  },
+  "amaraudersdues-volmor-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-15", "stream": true}]
+  },
+  "amaraudersdues-volmor-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-16", "stream": true}]
+  },
+  "amaraudersdues-volmor-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-17", "stream": true}]
+  },
+  "amaraudersdues-volmor-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-18", "stream": true}]
+  },
+  "amaraudersdues-volmor-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-volmor-19", "stream": true}]
+  },
+  "amaraudersdues-norsten-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-6", "stream": true}]
+  },
+  "amaraudersdues-peli-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-8", "stream": true}]
+  },
+  "amaraudersdues-norsten-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-7", "stream": true}]
+  },
+  "amaraudersdues-norsten-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-8", "stream": true}]
+  },
+  "amaraudersdues-peli-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-9", "stream": true}]
+  },
+  "amaraudersdues-norsten-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-9", "stream": true}]
+  },
+  "amaraudersdues-peli-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-10", "stream": true}]
+  },
+  "amaraudersdues-peli-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-11", "stream": true}]
+  },
+  "amaraudersdues-norsten-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-10", "stream": true}]
+  },
+  "amaraudersdues-norsten-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-11", "stream": true}]
+  },
+  "amaraudersdues-peli-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-12", "stream": true}]
+  },
+  "amaraudersdues-norsten-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-12", "stream": true}]
+  },
+
 
 
   "thecanyonguides-gana-1": {
