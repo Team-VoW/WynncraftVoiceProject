@@ -68,7 +68,7 @@ public class SoundPlayer {
 
             //If this sound contains info about a location to play it at
             if (sound.getPosition() != null){
-                playSoundAtCoords(sound.getPosition(), soundEvent);
+                playSoundAtCords(sound.getPosition(), sound);
                 return;
             }
 
@@ -76,10 +76,7 @@ public class SoundPlayer {
             //WARNING: not yet tested
             QuestMarkHandler.put(getQuest(sound.getId()));
 
-            //If this is a moving sound or it is set to play all sounds on player
-            //ModCore.instance.controller.playAtPlayer(new File("C:/Users/ender/AppData/Roaming/.minecraft/wynnvp/kingsrecruit/kingsrecruit-caravandriver-2.ogg"));
-            //ModCore.instance.controller.playAtPlayer(new File(Utils.FILE_ROOT, getQuest(sound.getId())+"/"+sound.getId()+".ogg"));
-            if (customSoundClass.isMovingSound() || ConfigHandler.playAllSoundsOnPlayer) {
+             if (customSoundClass.isMovingSound() || ConfigHandler.playAllSoundsOnPlayer) {
                 //Play the sound at the player
                 Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtPlayer(soundEvent));
                 addSoundToCoolDown(line);
@@ -90,21 +87,23 @@ public class SoundPlayer {
             if (NPCHandler.getNamesHandlers().containsKey(rawName)) {
                 NPCHandler.find(rawName).ifPresent(vector -> {
                     if (Minecraft.getMinecraft().player.getDistance(vector.x, vector.y, vector.z) >= 20) {
-                        playSoundAtCoords(Minecraft.getMinecraft().player.getPositionVector(), soundEvent);
+                        playSoundAtCords(Minecraft.getMinecraft().player.getPositionVector(), sound);
                     } else {
-                        Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, rawName));
+                        Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, rawName, sound));
                     }
                 });
             } else {
-                playSoundAtCoords(Minecraft.getMinecraft().player.getPositionVector(), soundEvent);
+                playSoundAtCords(Minecraft.getMinecraft().player.getPositionVector(), sound);
             }
             addSoundToCoolDown(line);
         });
     }
 
-    private void playSoundAtCoords(Vec3d blockPos, SoundEvent soundEvent) {
+    private void playSoundAtCords(Vec3d blockPos, SoundObject soundObject) {
+        SoundEvent soundEvent = soundObject.getCustomSoundClass().getSoundEvent();
         EntityPlayerSP player = Minecraft.getMinecraft().player;
-        player.getEntityWorld().playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, ConfigHandler.blockCutOff / 16f, 1, false);
+        float volume = soundObject.getFallOff() == 0 ? ConfigHandler.blockCutOff / 16f : soundObject.getFallOff() / 16f;
+        player.getEntityWorld().playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, volume, 1, false);
     }
 
     private String getQuest(String id) {
