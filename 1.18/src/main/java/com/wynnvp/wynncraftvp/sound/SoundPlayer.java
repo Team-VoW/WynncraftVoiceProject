@@ -61,7 +61,7 @@ public class SoundPlayer {
 
             //If this sound contains info about a location to play it at
             if (sound.getPosition() != null){
-                playSoundAtCoords(sound.getPosition(), soundEvent, player);
+                playSoundAtCoords(sound.getPosition(), sound, player);
                 return;
             }
 
@@ -75,17 +75,20 @@ public class SoundPlayer {
 
             String rawName = sound.getNpcName().toLowerCase().replace(" ", "");
             Vec3d vector = NPCHandler.find(rawName);
-            if (vector == null || player.getPos().distanceTo(vector) >= 30) {
-                playSoundAtCoords(player.getPos(), soundEvent, player);
+            if (vector == null
+                    || (player.getPos().distanceTo(vector) >= config.getBlockCutOff() && player.getPos().distanceTo(vector) >= sound.getFallOff())) {
+                playSoundAtCoords(player.getPos(), sound, player);
             } else {
-                manager.play(new SoundAtArmorStand(soundEvent, rawName));
+                manager.play(new SoundAtArmorStand(soundEvent, rawName, sound));
             }
         });
     }
 
-    private void playSoundAtCoords(Vec3d blockPos, SoundEvent soundEvent, ClientPlayerEntity pl) {
+    private void playSoundAtCoords(Vec3d blockPos, SoundObject soundObject, ClientPlayerEntity pl) {
 
-        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, config.getBlockCutOff() / 16f, 1, true);
+        SoundEvent soundEvent = soundObject.getCustomSoundClass().soundEvent();
+        float volume = soundObject.getFallOff() == 0 ? config.getBlockCutOff() / 16f : soundObject.getFallOff() / 16f;
+        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, volume, 1, true);
     }
 
     private String getQuest(String id) {

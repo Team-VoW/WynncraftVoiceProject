@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.sound.at;
 
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
+import com.wynnvp.wynncraftvp.sound.SoundObject;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.client.sound.MovingSoundInstance;
@@ -15,9 +16,9 @@ public class SoundAtArmorStand extends MovingSoundInstance {
 
     private final String rawName;
 
-    public SoundAtArmorStand(SoundEvent soundEvent, String rawName) {
+    public SoundAtArmorStand(SoundEvent soundEvent, String rawName, SoundObject soundObject) {
         super(soundEvent, SoundCategory.VOICE);
-        this.volume = config.getBlockCutOff() / 16f;
+        this.volume = soundObject.getFallOff() == 0 ? config.getBlockCutOff() / 16f : soundObject.getFallOff() / 16f;
         this.rawName = rawName;
     }
 
