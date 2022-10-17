@@ -4412,30 +4412,227 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thelost-dejol-1", "stream": true}]
   },
-  "thelost-kofis-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:thelost-kofis-1", "stream": true}]
-  },
-  "thelost-felim-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:thelost-felim-1", "stream": true}]
-  },
   "thelost-yuge-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thelost-yuge-1", "stream": true}]
   },
-  "thelost-sytis-1": {
+  "thelost-gordon-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thelost-sytis-1", "stream": true}]
-  },
-  "thelost-ansei-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:thelost-ansei-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:thelost-gordon-1", "stream": true}]
   },
   "thelost-dejol-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thelost-dejol-2", "stream": true}]
   },
+  "thelost-dejol-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-3", "stream": true}]
+  },
+  "thelost-dejol-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-4", "stream": true}]
+  },
+  "thelost-dejol-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-5", "stream": true}]
+  },
+  "thelost-dejol-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-6", "stream": true}]
+  },
+  "thelost-dejol-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-7", "stream": true}]
+  },
+  "thelost-dejol-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-8", "stream": true}]
+  },
+  "thelost-dejol-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-9", "stream": true}]
+  },
+  "thelost-dejol-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-10", "stream": true}]
+  },
+  "thelost-fetu-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-1", "stream": true}]
+  },
+  "thelost-fetu-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-2", "stream": true}]
+  },
+  "thelost-fetu-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-3", "stream": true}]
+  },
+  "thelost-fetu-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-4", "stream": true}]
+  },
+  "thelost-fetu-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-5", "stream": true}]
+  },
+  "thelost-fetu-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-6", "stream": true}]
+  },
+  "thelost-fetu-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-7", "stream": true}]
+  },
+  "thelost-fetu-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-8", "stream": true}]
+  },
+  "thelost-fetu-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-9", "stream": true}]
+  },
+  "thelost-yuge-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-2", "stream": true}]
+  },
+  "thelost-yuge-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-3", "stream": true}]
+  },
+  "thelost-yuge-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-4", "stream": true}]
+  },
+  "thelost-yuge-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-5", "stream": true}]
+  },
+  "thelost-yuge-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-6", "stream": true}]
+  },
+  "thelost-yuge-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-7", "stream": true}]
+  },
+  "thelost-yuge-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-8", "stream": true}]
+  },
+  "thelost-yuge-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-9", "stream": true}]
+  },
+  "thelost-gordon-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-2", "stream": true}]
+  },
+  "thelost-gordon-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-3", "stream": true}]
+  },
+  "thelost-gordon-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-4", "stream": true}]
+  },
+  "thelost-gordon-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-5", "stream": true}]
+  },
+  "thelost-gordon-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-6", "stream": true}]
+  },
+  "thelost-gordon-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-7", "stream": true}]
+  },
+  "thelost-gordon-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-8", "stream": true}]
+  },
+  "thelost-gordon-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-9", "stream": true}]
+  },
+  "thelost-gordon-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-10", "stream": true}]
+  },
+  "thelost-gordon-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-11", "stream": true}]
+  },
+  "thelost-gordon-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-12", "stream": true}]
+  },
+  "thelost-gordon-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-13", "stream": true}]
+  },
+  "thelost-gordon-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-14", "stream": true}]
+  },
+  "thelost-gordon-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-15", "stream": true}]
+  },
+  "thelost-gordon-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-16", "stream": true}]
+  },
+  "thelost-gordon-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-17", "stream": true}]
+  },
+  "thelost-gordon-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-18", "stream": true}]
+  },
+  "thelost-gordon-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-19", "stream": true}]
+  },
+  "thelost-gordon-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-20", "stream": true}]
+  },
+  "thelost-gordon-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-gordon-21", "stream": true}]
+  },
+  "thelost-fetu-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-fetu-10", "stream": true}]
+  },
+  "thelost-dejol-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-11", "stream": true}]
+  },
+  "thelost-dejol-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-12", "stream": true}]
+  },
+  "thelost-dejol-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-13", "stream": true}]
+  },
+  "thelost-dejol-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-14", "stream": true}]
+  },
+  "thelost-yuge-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-yuge-10", "stream": true}]
+  },
+  "thelost-dejol-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thelost-dejol-15", "stream": true}]
+  },
+
 
 
 
