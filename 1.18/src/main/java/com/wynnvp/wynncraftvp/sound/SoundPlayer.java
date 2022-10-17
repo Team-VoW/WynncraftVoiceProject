@@ -88,7 +88,7 @@ public class SoundPlayer {
 
         SoundEvent soundEvent = soundObject.getCustomSoundClass().soundEvent();
         float volume = soundObject.getFallOff() == 0 ? config.getBlockCutOff() / 16f : soundObject.getFallOff() / 16f;
-        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, volume, 1, true);
+        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, volume, 1, false);
     }
 
     private String getQuest(String id) {
