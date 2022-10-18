@@ -3,6 +3,7 @@ package com.wynnvp.wynncraftvp.sound;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
 import com.wynnvp.wynncraftvp.sound.at.SoundAtArmorStand;
+import com.wynnvp.wynncraftvp.sound.at.SoundAtCords;
 import com.wynnvp.wynncraftvp.sound.at.SoundAtPlayer;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.sound.line.LineReporter;
@@ -75,7 +76,7 @@ public class SoundPlayer {
 
         //If this sound contains info about a location to play it at
         if (sound.getPosition() != null) {
-            playSoundAtCords(sound.getPosition(), sound, player);
+            playSoundAtCords(sound.getPosition(), sound, manager);
             return;
         }
 
@@ -90,7 +91,7 @@ public class SoundPlayer {
         Vec3d npcPosition = NPCHandler.findPosition(rawName);
 
         if (npcPosition == null || isOutsideReach(sound, player, npcPosition)) {
-            playSoundAtCords(player.getPos(), sound, player);
+            playSoundAtCords(player.getPos(), sound, manager);
             return;
         }
 
@@ -98,11 +99,13 @@ public class SoundPlayer {
 
     }
 
-    private void playSoundAtCords(Vec3d blockPos, SoundObject soundObject, ClientPlayerEntity pl) {
+    private void playSoundAtCords(Vec3d position, SoundObject soundObject, SoundManager manager) {
 
         SoundEvent soundEvent = soundObject.getCustomSoundClass().soundEvent();
+        /*
         float volume = soundObject.getFallOff() == 0 ? config.getBlockCutOff() / 16f : soundObject.getFallOff() / 16f;
-        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, volume, 1, false);
+        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, volume, 1, false);*/
+        manager.play(new SoundAtCords(soundEvent, soundObject, position));
     }
 
     private boolean isOutsideReach(SoundObject soundObject, ClientPlayerEntity player, Vec3d npcPosition) {

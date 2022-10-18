@@ -4675,7 +4675,7 @@ public class Sounds {
         s.addSound("[2/3] Yuge: W-Well, I was just walking through the c-canyon, when... the ground suddenly rose up underneath me and launched me all the way up here!", "thelost-yuge-3", false);
         s.addSound("[3/3] Yuge: N-Now, I’m... embarrassed to admit it, but I’m REALLY afraid of heights, s-so I don’t know what to do... Do you have any ideas?", "thelost-yuge-4", false);
         s.addSound("[1/1] Yuge: N-Now, I’m... embarrassed to admit it, but I’m REALLY afraid of heights, s-so I don’t know what to do... Do you have any ideas?", "thelost-yuge-5", false);
-        s.addSound("[1/1] Yuge: AAAAAAAAHHHHH!!!", "thelost-yuge-6", false, new Vec3d(355, 149, -4478));
+        s.addSound("[1/1] Yuge: AAAAAAAAHHHHH!!!", "thelost-yuge-6", false, new Vec3d(355, 139, -4478));
         s.addSound("[1/3] Yuge: Y-YOU JERK!! I COULD HAVE DIED!!! WHAT THE HELL IS WRONG WITH YOU???", "thelost-yuge-7", false);
         s.addSound("[2/3] Yuge: P-Please NEVER do that again! That was the worst thing I’ve ever done in my entire life!!", "thelost-yuge-8", false);
         s.addSound("[3/3] Yuge: ...Ugh! I-I’m gonna head back to Dejol now. I hope I NEVER see you again!", "thelost-yuge-9", false);
