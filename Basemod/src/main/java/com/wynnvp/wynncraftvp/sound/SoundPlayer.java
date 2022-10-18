@@ -86,7 +86,7 @@ public class SoundPlayer {
             String rawName = getRawName(sound.getId());
             if (NPCHandler.getNamesHandlers().containsKey(rawName)) {
                 NPCHandler.find(rawName).ifPresent(vector -> {
-                    if (Minecraft.getMinecraft().player.getDistance(vector.x, vector.y, vector.z) >= 20) {
+                    if (Minecraft.getMinecraft().player.getDistanceSq(vector.x, vector.y, vector.z) >= ConfigHandler.blockCutOff * ConfigHandler.blockCutOff) {
                         playSoundAtCords(Minecraft.getMinecraft().player.getPositionVector(), sound);
                     } else {
                         Minecraft.getMinecraft().getSoundHandler().playSound(new SoundAtArmorStand(soundEvent, rawName, sound));

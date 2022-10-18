@@ -76,7 +76,8 @@ public class SoundPlayer {
             String rawName = sound.getNpcName().toLowerCase().replace(" ", "");
             Vec3d vector = NPCHandler.find(rawName);
             if (vector == null
-                    || (player.getPos().distanceTo(vector) >= config.getBlockCutOff() && player.getPos().distanceTo(vector) >= sound.getFallOff())) {
+                    || (player.getPos().squaredDistanceTo(vector) >= config.getBlockCutOff() * config.getBlockCutOff()
+                        && player.getPos().squaredDistanceTo(vector) >= sound.getFallOff() * sound.getFallOff())) {
                 playSoundAtCoords(player.getPos(), sound, player);
             } else {
                 manager.play(new SoundAtArmorStand(soundEvent, rawName, sound));
