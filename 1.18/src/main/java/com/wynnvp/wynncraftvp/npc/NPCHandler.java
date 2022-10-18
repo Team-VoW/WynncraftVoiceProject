@@ -13,7 +13,7 @@ import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class NPCHandler {
 
-    private static class Cached {
+    private static class CachedEntity {
         public Entity name;
         public Entity child;
         public double distance;
@@ -21,50 +21,53 @@ public class NPCHandler {
         public boolean isArmourStand = false;
     }
 
-    private static final Map<String, Cached> cache = new HashMap<>();
+    private static final Map<String, CachedEntity> cache = new HashMap<>();
 
-    public static void yeetTheCache() {
+    public static void clearCache() {
         cache.clear();
     }
 
     // stand find function
-    public static Cached findNPC(String rawName) {
-        ClientPlayerEntity c = MinecraftClient.getInstance().player;
+    public static CachedEntity findNPC(String rawName) {
+        ClientPlayerEntity player = MinecraftClient.getInstance().player;
+        assert player != null;
 
-        double d = 20000;
+        Vec3d playerEyePos = player.getEyePos();
+
+        //Set to really high as a start value to find a closer one
+        double closestDistance = 20000;
         Entity entity = null;
-        assert c != null;
-        for (Entity e : c.clientWorld.getEntities()) { // iterate over every single entity
-            double dist = e.getPos().distanceTo(c.getEyePos());
-            String name = e.getDisplayName().getString().replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
+        for (Entity entityInWorld : player.clientWorld.getEntities()) { // iterate over every single entity
+            double distance = entityInWorld.getPos().distanceTo(playerEyePos);
+            String name = entityInWorld.getDisplayName().getString().replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
             if (name.contains("???")) {
-                if (dist > config.getTripleQuestionMarkInessentiel()) {
+                if (distance > config.getTripleQuestionMarkInessentiel()) {
                     continue;
                 }
-                dist += 1;
-                dist *= config.getTripleQuestionMarkInessentiel();
+                distance += 1;
+                distance *= config.getTripleQuestionMarkInessentiel();
             }
-            if ((d > dist) && name.contains(rawName)) {
-                d = dist;
-                entity = e;
+            if ((closestDistance > distance) && name.contains(rawName)) {
+                closestDistance = distance;
+                entity = entityInWorld;
             }
         }
 
-        d = 8;
+        closestDistance = 8;
         Entity child = null;
         boolean isArmourStand = false;
         if (entity != null) {
             Vec3d pos = entity.getEyePos().add(0, -0.2, 0);
-            for (Entity e : c.clientWorld.getEntities()) { // iterate over every single entity
+            for (Entity e : player.clientWorld.getEntities()) { // iterate over every single entity
                 double dist = e.getEyePos().distanceTo(pos);
-                if ((d > dist) && e.getEyePos().y < entity.getEyePos().y + 0.2) { // find closest
+                if ((closestDistance > dist) && e.getEyePos().y < entity.getEyePos().y + 0.2) { // find closest
                     if (!e.isInvisible()) {
-                        d = dist;
+                        closestDistance = dist;
                         child = e;
                     } else {
                         for (ItemStack item : e.getItemsEquipped()) {
                             if (item != null && !item.isEmpty()) {
-                                d = dist;
+                                closestDistance = dist;
                                 child = e;
                                 isArmourStand = true;
                                 break;
@@ -75,22 +78,22 @@ public class NPCHandler {
             }
         }
 
-        Cached cached = new Cached();
+        CachedEntity cachedEntity = new CachedEntity();
         if (entity != null) {
             if (child == null) {
                 child = entity;
             }
 
-            cached.name = entity;
-            cached.child = child;
-            cached.isArmourStand = isArmourStand;
-            cached.distance = entity.distanceTo(cached.child);
+            cachedEntity.name = entity;
+            cachedEntity.child = child;
+            cachedEntity.isArmourStand = isArmourStand;
+            cachedEntity.distance = entity.distanceTo(cachedEntity.child);
         }
 
-        return cached;
+        return cachedEntity;
     }
 
-    public static boolean isCachedValid(Cached c) {
+    public static boolean isCachedValid(CachedEntity c) {
         if (c == null || c.child == null || c.name == null) {
             return false;
         }
@@ -116,7 +119,7 @@ public class NPCHandler {
     public static Vec3d find(String rawName) {
         rawName = rawName.replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
 
-        Cached c = cache.get(rawName);
+        CachedEntity c = cache.get(rawName);
 
         if (isCachedValid(c)) {
             return c.child.getEyePos();

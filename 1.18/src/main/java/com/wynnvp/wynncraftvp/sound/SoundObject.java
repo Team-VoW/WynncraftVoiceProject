@@ -1,6 +1,9 @@
 package com.wynnvp.wynncraftvp.sound;
 
+import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.util.math.Vec3d;
+
+import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class SoundObject {
 
@@ -39,4 +42,6 @@ public class SoundObject {
     public int getFallOff() {
         return fallOff;
     }
+
+
 }
