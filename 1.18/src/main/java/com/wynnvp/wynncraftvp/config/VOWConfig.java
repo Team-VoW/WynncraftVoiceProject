@@ -24,12 +24,12 @@ public class VOWConfig {
         return true;
     }
 
-    public double getTripleQuestionMarkInessentiel() {
-        return 200;
+    public int getTripleQuestionMarkInessentiel() {
+        return 1000;
     }
 
-    public double getTripleQuestionMarkMaxDistance() {
-        return 50;
+    public int getSquaredTripleQuestionMarkMaxDistance() {
+        return 2500;
     }
 
     public int getBlockCutOff() {

@@ -17,7 +17,6 @@ public class NPCHandler {
         public Entity name;
         public Entity child;
         public double distance;
-
         public boolean isArmourStand = false;
     }
 
@@ -31,6 +30,54 @@ public class NPCHandler {
     public static CachedEntity findNPC(String rawName) {
         ClientPlayerEntity player = MinecraftClient.getInstance().player;
         assert player != null;
+        Entity entity = getClosestEntityWithName(rawName, player);
+
+        //If no entity was found
+        if (entity == null)
+            return new CachedEntity();
+
+        double closestDistance = 64;
+        Entity childEntity = null;
+        boolean isArmourStand = false;
+        Vec3d npcEyePos = entity.getEyePos().add(0, -0.2, 0);
+        for (Entity entityInWorld : player.clientWorld.getEntities()) { // iterate over every single entity
+            double dist = entityInWorld.getEyePos().squaredDistanceTo(npcEyePos);
+
+            if (closestDistance < dist || entityInWorld.getEyePos().y > npcEyePos.y + 0.4) { // find closest
+                continue;
+            }
+            if (!entityInWorld.isInvisible()) {
+                closestDistance = dist;
+                childEntity = entityInWorld;
+            } else {
+                for (ItemStack item : entityInWorld.getItemsEquipped()) {
+                    if (item != null && !item.isEmpty()) {
+                        closestDistance = dist;
+                        childEntity = entityInWorld;
+                        isArmourStand = true;
+                        break;
+                    }
+                }
+            }
+        }
+
+
+        CachedEntity cachedEntity = new CachedEntity();
+        if (childEntity == null) {
+            childEntity = entity;
+        }
+
+        cachedEntity.name = entity;
+        cachedEntity.child = childEntity;
+        cachedEntity.isArmourStand = isArmourStand;
+        cachedEntity.distance = entity.distanceTo(cachedEntity.child);
+
+
+        return cachedEntity;
+    }
+
+    private static Entity getClosestEntityWithName(String rawName, ClientPlayerEntity player) {
+
 
         Vec3d playerEyePos = player.getEyePos();
 
@@ -38,59 +85,36 @@ public class NPCHandler {
         double closestDistance = 20000;
         Entity entity = null;
         for (Entity entityInWorld : player.clientWorld.getEntities()) { // iterate over every single entity
-            double distance = entityInWorld.getPos().distanceTo(playerEyePos);
-            String name = entityInWorld.getDisplayName().getString().replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
-            if (name.contains("???")) {
-                if (distance > config.getTripleQuestionMarkInessentiel()) {
-                    continue;
-                }
-                distance += 1;
-                distance *= config.getTripleQuestionMarkInessentiel();
+            double distance = entityInWorld.getPos().squaredDistanceTo(playerEyePos);
+
+            //This entity is further away then the closest one
+            if (closestDistance < distance)
+                continue;
+
+            String name = getName(entityInWorld);
+
+            if (name.contains(rawName)) {
+                closestDistance = distance;
+                entity = entityInWorld;
+                continue;
             }
-            if ((closestDistance > distance) && name.contains(rawName)) {
+
+            //This code is to handle playing the sound at the location of the closest ??? character if no npc with the real name was found
+            if (name.contains("???")) {
+                //Adds a big settable number so that it is only played at this ??? character if there really is no other with the real name
+                distance += config.getTripleQuestionMarkInessentiel();
+                //If there is a closer entity with the real name or with ??? name then continue
+                if (closestDistance < distance)
+                    continue;
                 closestDistance = distance;
                 entity = entityInWorld;
             }
         }
+        return entity;
+    }
 
-        closestDistance = 8;
-        Entity child = null;
-        boolean isArmourStand = false;
-        if (entity != null) {
-            Vec3d pos = entity.getEyePos().add(0, -0.2, 0);
-            for (Entity e : player.clientWorld.getEntities()) { // iterate over every single entity
-                double dist = e.getEyePos().distanceTo(pos);
-                if ((closestDistance > dist) && e.getEyePos().y < entity.getEyePos().y + 0.2) { // find closest
-                    if (!e.isInvisible()) {
-                        closestDistance = dist;
-                        child = e;
-                    } else {
-                        for (ItemStack item : e.getItemsEquipped()) {
-                            if (item != null && !item.isEmpty()) {
-                                closestDistance = dist;
-                                child = e;
-                                isArmourStand = true;
-                                break;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        CachedEntity cachedEntity = new CachedEntity();
-        if (entity != null) {
-            if (child == null) {
-                child = entity;
-            }
-
-            cachedEntity.name = entity;
-            cachedEntity.child = child;
-            cachedEntity.isArmourStand = isArmourStand;
-            cachedEntity.distance = entity.distanceTo(cachedEntity.child);
-        }
-
-        return cachedEntity;
+    private static String getName(Entity entity) {
+        return entity.getDisplayName().getString().replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
     }
 
     public static boolean isCachedValid(CachedEntity c) {

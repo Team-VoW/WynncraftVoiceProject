@@ -24,9 +24,9 @@ public class VOWAutoConfig extends VOWConfig implements ConfigData {
     public boolean hasChosenLineReport = false;
 
     @ConfigEntry.Gui.Excluded
-    public double tripleQuestionMarkInessentiel = 200;
+    public int tripleQuestionMarkInessentiel = 1000;
     @ConfigEntry.Gui.Excluded
-    public double tripleQuestionMarkMaxDistance = 50;
+    public int tripleQuestionMarkMaxDistance = 2500;
 
 
     public int blockCutOff = 32;
@@ -75,12 +75,12 @@ public class VOWAutoConfig extends VOWConfig implements ConfigData {
     }
 
     @Override
-    public double getTripleQuestionMarkInessentiel() {
+    public int getTripleQuestionMarkInessentiel() {
         return tripleQuestionMarkInessentiel;
     }
 
     @Override
-    public double getTripleQuestionMarkMaxDistance() {
+    public int getSquaredTripleQuestionMarkMaxDistance() {
         return tripleQuestionMarkMaxDistance;
     }
 
