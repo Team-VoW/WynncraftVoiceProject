@@ -73,39 +73,5 @@ public class SoundsHandler {
         return Optional.ofNullable(sounds.get(message));
     }
 
-    public String findNPCName(String id) {
-        return sounds.values().stream()
-                .filter(soundObject -> soundObject.getId().equalsIgnoreCase(id))
-                .map(SoundObject::getNpcName)
-                .findAny()
-                .orElse("");
-    }
-
-    public String getNPCName(String quest) {
-        return sounds.entrySet().stream().filter(entry -> entry.getValue().getId().contains("-") &&
-                        entry.getValue().getId().contains(quest)
-                        && entry.getKey().contains("???:")).map(map ->
-                        map.getValue().getNpcName())
-                .findAny().orElse(null);
-    }
-
-
-    public static String getNameForMessage(String message) {
-        String split = message.split(": ")[0];
-        return split.trim().toLowerCase().replaceAll("[^a-zA-Z\\d]", "").replaceAll("\\d", "");
-    }
-
-    public static String getNameForId(String name) {
-        String id = "???";
-        if (name.contains("-")) {
-            String[] args = name.split("-");
-            id = args[1];
-        } else if (name.contains("talkingmushroom")) {
-            id = "talkingmushroom";
-        }
-        return id;
-    }
-
-
 }
 

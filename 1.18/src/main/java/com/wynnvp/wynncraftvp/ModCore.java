@@ -2,10 +2,8 @@ package com.wynnvp.wynncraftvp;
 
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import com.wynnvp.wynncraftvp.config.VOWConfig;
-import com.wynnvp.wynncraftvp.sound.SoundController;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
-import com.wynnvp.wynncraftvp.utils.StringBlacklist;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
@@ -23,8 +21,6 @@ public class ModCore implements ModInitializer {
     public SoundsHandler soundsHandler;
     public static ModCore instance;
     public SoundPlayer soundPlayer;
-    public SoundController controller;
-
     public static final Logger LOGGER = LoggerFactory.getLogger("wynnvp");
 
     public static VOWConfig config;
@@ -35,7 +31,6 @@ public class ModCore implements ModInitializer {
 
         soundPlayer = new SoundPlayer();
         soundsHandler = new SoundsHandler();
-        controller = new SoundController();
 
         isUsingClothApi = FabricLoader.getInstance().isModLoaded("cloth-config");
         if (isUsingClothApi) {
@@ -47,7 +42,5 @@ public class ModCore implements ModInitializer {
         } else {
             config = new VOWConfig();
         }
-
-        StringBlacklist.namesDefault();
     }
 }

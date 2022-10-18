@@ -75,15 +75,6 @@ public class LineReporter {
 
 
 
-        /*
-         if (!(responseCode >= 200 && responseCode < 300)) {
-            //Failed
-            System.out.println("HTTP response Code : " + responseCode);
-            return false;
-        }
-        System.out.println("HTTP response Code : " + responseCode);
-        return true;
-         */
     }
 
 }

@@ -1,6 +1,5 @@
 package com.wynnvp.wynncraftvp.sound.at;
 
-import com.wynnvp.wynncraftvp.npc.NPCHandler;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import net.minecraft.client.sound.MovingSoundInstance;
 import net.minecraft.sound.SoundCategory;
