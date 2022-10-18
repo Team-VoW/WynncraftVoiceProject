@@ -15,6 +15,7 @@ import static com.wynnvp.wynncraftvp.ModCore.config;
 public class SoundAtArmorStand extends MovingSoundInstance {
 
     private final String rawName;
+    private NPCHandler.CachedEntity cachedEntity = null;
 
     public SoundAtArmorStand(SoundEvent soundEvent, String rawName, SoundObject soundObject) {
         super(soundEvent, SoundCategory.VOICE);
@@ -28,19 +29,25 @@ public class SoundAtArmorStand extends MovingSoundInstance {
         if (this.rawName.isEmpty()) {
             return;
         }
-        Vec3d vector = NPCHandler.find(rawName);
-        if (vector != null) {
-            this.x = (float) vector.x;
-            this.z = (float) vector.z;
-            this.y = (float) vector.y;
+        if (!NPCHandler.isCachedValid(cachedEntity))
+            cachedEntity = NPCHandler.findEntity(rawName);
 
-            if (config.isHighlightSpeaker()) {
-                ClientPlayerEntity p = MinecraftClient.getInstance().player;
-                for (double x = vector.x - 0.2; x <= vector.x + 0.2; x += 0.1) {
-                    for (double y = vector.y - 0.2; y <= vector.y + 0.2; y += 0.1) {
-                        for (double z = vector.z - 0.2; z <= vector.z + 0.2; z += 0.1) {
-                            p.clientWorld.addParticle(ParticleTypes.END_ROD, x, y, z, 0, 0, 0);
-                        }
+        //Was not able to find the entity, so just let the sound keep on playing where it is.
+        if (cachedEntity == null)
+            return;
+
+        Vec3d entityPos = cachedEntity.child.getEyePos();
+
+        this.x = (float) entityPos.x;
+        this.z = (float) entityPos.z;
+        this.y = (float) entityPos.y;
+
+        if (config.isHighlightSpeaker()) {
+            ClientPlayerEntity p = MinecraftClient.getInstance().player;
+            for (double x = entityPos.x - 0.2; x <= entityPos.x + 0.2; x += 0.1) {
+                for (double y = entityPos.y - 0.2; y <= entityPos.y + 0.2; y += 0.1) {
+                    for (double z = entityPos.z - 0.2; z <= entityPos.z + 0.2; z += 0.1) {
+                        p.clientWorld.addParticle(ParticleTypes.END_ROD, x, y, z, 0, 0, 0);
                     }
                 }
             }

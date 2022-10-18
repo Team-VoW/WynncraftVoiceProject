@@ -6,25 +6,17 @@ import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.Vec3d;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class NPCHandler {
 
-    private static class CachedEntity {
+    public static class CachedEntity {
         public Entity name;
         public Entity child;
         public double distance;
         public boolean isArmourStand = false;
     }
 
-    private static final Map<String, CachedEntity> cache = new HashMap<>();
-
-    public static void clearCache() {
-        cache.clear();
-    }
 
     // stand find function
     public static CachedEntity findNPC(String rawName) {
@@ -114,7 +106,11 @@ public class NPCHandler {
     }
 
     private static String getName(Entity entity) {
-        return entity.getDisplayName().getString().replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
+        return getName(entity.getDisplayName().getString());
+    }
+
+    private static String getName(String name) {
+        return name.replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
     }
 
     public static boolean isCachedValid(CachedEntity c) {
@@ -139,22 +135,19 @@ public class NPCHandler {
         return !(Math.abs(c.name.distanceTo(c.child) - c.distance) > config.getNpcFinderThingMaxDistanceChangeBeforeCacheInvalid());
     }
 
-    // This works or not idk
-    public static Vec3d find(String rawName) {
-        rawName = rawName.replaceAll("§.", "").toLowerCase().replaceAll("[^a-z?\\d]", "");
+    public static Vec3d findPosition(String rawName) {
+       CachedEntity cachedEntity = findEntity(rawName);
+       return cachedEntity == null ? null : cachedEntity.child.getEyePos();
+    }
 
-        CachedEntity c = cache.get(rawName);
+    public static CachedEntity findEntity(String rawName){
+        rawName = getName(rawName);
 
-        if (isCachedValid(c)) {
-            return c.child.getEyePos();
-        } else {
-            c = findNPC(rawName);
-            if (!isCachedValid(c)) {
-                return null;
-            }
-            cache.put(rawName, c);
+        CachedEntity c = findNPC(rawName);
+        if (!isCachedValid(c)) {
+            return null;
         }
 
-        return c.child.getEyePos();
+        return c;
     }
 }

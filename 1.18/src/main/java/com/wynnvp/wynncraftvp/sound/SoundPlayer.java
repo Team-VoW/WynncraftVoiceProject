@@ -86,10 +86,8 @@ public class SoundPlayer {
             return;
         }
 
-        NPCHandler.clearCache();
-
         String rawName = sound.getNpcName().toLowerCase().replace(" ", "");
-        Vec3d npcPosition = NPCHandler.find(rawName);
+        Vec3d npcPosition = NPCHandler.findPosition(rawName);
 
         if (npcPosition == null || isOutsideReach(sound, player, npcPosition)) {
             playSoundAtCords(player.getPos(), sound, player);
