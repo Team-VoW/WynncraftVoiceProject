@@ -42,15 +42,6 @@ public class SoundAtArmorStand extends MovingSoundInstance {
         this.z = (float) entityPos.z;
         this.y = (float) entityPos.y;
 
-        if (config.isHighlightSpeaker()) {
-            ClientPlayerEntity p = MinecraftClient.getInstance().player;
-            for (double x = entityPos.x - 0.2; x <= entityPos.x + 0.2; x += 0.1) {
-                for (double y = entityPos.y - 0.2; y <= entityPos.y + 0.2; y += 0.1) {
-                    for (double z = entityPos.z - 0.2; z <= entityPos.z + 0.2; z += 0.1) {
-                        p.clientWorld.addParticle(ParticleTypes.END_ROD, x, y, z, 0, 0, 0);
-                    }
-                }
-            }
-        }
+        SoundHighlight.ShowParticles(entityPos);
     }
 }
