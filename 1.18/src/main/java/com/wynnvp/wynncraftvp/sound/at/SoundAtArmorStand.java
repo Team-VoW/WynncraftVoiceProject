@@ -1,5 +1,6 @@
 package com.wynnvp.wynncraftvp.sound.at;
 
+import com.wynnvp.wynncraftvp.npc.CachedEntity;
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import net.minecraft.client.sound.MovingSoundInstance;
@@ -12,7 +13,7 @@ import static com.wynnvp.wynncraftvp.ModCore.config;
 public class SoundAtArmorStand extends MovingSoundInstance {
 
     private final String rawName;
-    private NPCHandler.CachedEntity cachedEntity = null;
+    private CachedEntity cachedEntity = null;
 
     public SoundAtArmorStand(SoundEvent soundEvent, String rawName, SoundObject soundObject) {
         super(soundEvent, SoundCategory.VOICE);
