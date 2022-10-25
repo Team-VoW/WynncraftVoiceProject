@@ -4125,22 +4125,215 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-1", "stream": true}]
   },
+  "murdermystery-captainlorias-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-2", "stream": true}]
+  },
+  "murdermystery-captainlorias-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-3", "stream": true}]
+  },
+  "murdermystery-captainlorias-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-4", "stream": true}]
+  },
+  "murdermystery-captainlorias-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-5", "stream": true}]
+  },
+  "murdermystery-captainlorias-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-6", "stream": true}]
+  },
+  "murdermystery-captainlorias-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-7", "stream": true}]
+  },
+  "murdermystery-captainlorias-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-8", "stream": true}]
+  },
+  "murdermystery-captainlorias-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-9", "stream": true}]
+  },
+  "murdermystery-captainlorias-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-10", "stream": true}]
+  },
+  "murdermystery-captainlorias-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-11", "stream": true}]
+  },
+  "murdermystery-captainlorias-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-12", "stream": true}]
+  },
   "murdermystery-rohem-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:murdermystery-rohem-1", "stream": true}]
-  },
-  "murdermystery-valimare-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:murdermystery-valimare-1", "stream": true}]
   },
   "murdermystery-rohem-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:murdermystery-rohem-2", "stream": true}]
   },
-  "murdermystery-captainlorias-2": {
+  "murdermystery-rohem-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-3", "stream": true}]
   },
+  "murdermystery-rohem-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-4", "stream": true}]
+  },
+  "murdermystery-rohem-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-5", "stream": true}]
+  },
+  "murdermystery-rohem-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-6", "stream": true}]
+  },
+  "murdermystery-rohem-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-7", "stream": true}]
+  },
+  "murdermystery-rohem-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-8", "stream": true}]
+  },
+  "murdermystery-rohem-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-9", "stream": true}]
+  },
+  "murdermystery-rohem-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-10", "stream": true}]
+  },
+  "murdermystery-valimare-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-valimare-1", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-1", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-2", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-3", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-4", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-5", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-6", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-7", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-8", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-9", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-10", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-11", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-12", "stream": true}]
+  },
+  "murdermystery-blackjackdealer-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-13", "stream": true}]
+  },
+  "murdermystery-rohem-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-11", "stream": true}]
+  },
+  "murdermystery-rohem-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-12", "stream": true}]
+  },
+  "murdermystery-rohem-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-13", "stream": true}]
+  },
+  "murdermystery-rohem-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-14", "stream": true}]
+  },
+  "murdermystery-rohem-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-15", "stream": true}]
+  },
+  "murdermystery-rohem-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-16", "stream": true}]
+  },
+  "murdermystery-rohem-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-17", "stream": true}]
+  },
+  "murdermystery-rohem-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-18", "stream": true}]
+  },
+  "murdermystery-rohem-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-19", "stream": true}]
+  },
+  "murdermystery-rohem-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-20", "stream": true}]
+  },
+  "murdermystery-rohem-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-21", "stream": true}]
+  },
+  "murdermystery-captainlorias-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-13", "stream": true}]
+  },
+  "murdermystery-rohem-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-rohem-22", "stream": true}]
+  },
+  "murdermystery-captainlorias-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-14", "stream": true}]
+  },
+  "murdermystery-captainlorias-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-15", "stream": true}]
+  },
+  "murdermystery-captainlorias-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-captainlorias-16", "stream": true}]
+  },
+  "murdermystery-child-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-child-1", "stream": true}]
+  },
+
 
 
   "amaraudersdues-norsten-1": {
