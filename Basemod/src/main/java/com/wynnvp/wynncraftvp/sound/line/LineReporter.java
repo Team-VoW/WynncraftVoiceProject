@@ -9,8 +9,11 @@ import net.minecraft.client.Minecraft;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.CompletableFuture;
@@ -75,6 +78,9 @@ public class LineReporter {
         connection.setRequestProperty("User-Agent", "VoicesOfWynnModClient");
         connection.setDoOutput(true);
         DataOutputStream outputStream = new DataOutputStream(connection.getOutputStream());
+        fullLine = HTTPEncode(fullLine);
+        npcName = HTTPEncode(npcName);
+        name = HTTPEncode(name);
         String urlPostParameters = "npc=" + npcName + "&player=" + name + "&full=" + fullLine + "&x=" + CoordX + "&y=" + CoordY + "&z=" + CoordZ + "&apiKey=" + ConfigHandler.word;
         outputStream.writeBytes(urlPostParameters);
         outputStream.flush();
@@ -82,18 +88,14 @@ public class LineReporter {
         Integer responseCode = connection.getResponseCode();
         System.out.println("HTTP response Code : " + responseCode);
 
-
-
-        /*
-         if (!(responseCode >= 200 && responseCode < 300)) {
-            //Failed
-            System.out.println("HTTP response Code : " + responseCode);
-            return false;
-        }
-        System.out.println("HTTP response Code : " + responseCode);
-        return true;
-         */
     }
 
+    private String HTTPEncode(String input) {
+        try {
+            return URLEncoder.encode(input, StandardCharsets.UTF_8.name());
+        } catch (UnsupportedEncodingException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
 }

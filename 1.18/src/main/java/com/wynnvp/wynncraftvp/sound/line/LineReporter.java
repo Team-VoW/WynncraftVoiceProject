@@ -10,6 +10,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.CompletableFuture;
@@ -66,15 +68,19 @@ public class LineReporter {
         connection.setRequestProperty("User-Agent", "VoicesOfWynnModClient");
         connection.setDoOutput(true);
         DataOutputStream outputStream = new DataOutputStream(connection.getOutputStream());
+        fullLine = HTTPEncode(fullLine);
+        npcName = HTTPEncode(npcName);
+        name = HTTPEncode(name);
         String urlPostParameters = "npc=" + npcName + "&player=" + name + "&full=" + fullLine + "&x=" + CoordX + "&y=" + CoordY + "&z=" + CoordZ + "&apiKey=" + config.getWord();
         outputStream.writeBytes(urlPostParameters);
         outputStream.flush();
         outputStream.close();
         Integer responseCode = connection.getResponseCode();
         System.out.println("HTTP response Code : " + responseCode);
+    }
 
-
-
+    private String HTTPEncode(String input){
+        return URLEncoder.encode(input, StandardCharsets.UTF_8);
     }
 
 }
