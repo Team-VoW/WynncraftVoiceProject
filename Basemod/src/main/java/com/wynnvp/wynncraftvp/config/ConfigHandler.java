@@ -32,7 +32,7 @@ public class ConfigHandler {
 
         playAllSoundsOnPlayer = config.getBoolean("playAllSoundsOnPlayer", ConfigHandler.category, false, "If the mod should play all sounds on the player");
         logMissingLines = config.getBoolean("logMissingLines", ConfigHandler.category, false, "If the mod should send in unvoiced lines");
-        logMissingLines = config.getBoolean("createLog", ConfigHandler.category, false, "If a custom log should be created for logging all lines that were sent to our server");
+        createLog = config.getBoolean("createLog", ConfigHandler.category, false, "If a custom log should be created for logging things from this mod");
         anonymous = config.getBoolean("anonymous", ConfigHandler.category, false, "If line reporting should be anonymous");
         sendFunFact = config.getBoolean("sendFunFact", ConfigHandler.category, true, "If it should say a fun fact about the mod each time the player join Wynncraft");
         hasShownReportLineGui = config.getBoolean("hasShownReportLineGui", ConfigHandler.category, false, "If the Report line gui has been shown");
