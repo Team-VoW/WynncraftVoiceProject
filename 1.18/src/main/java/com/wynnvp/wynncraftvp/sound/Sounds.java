@@ -64,7 +64,6 @@ public class Sounds {
         s.addSound("[1/1] Talking Mushroom: HEY, HUMAN, TAKE A LOOK!! YOU CAN SEE THE WHOLE LIGHT REALM FROM UP HERE!!!", "talkingmushroomlightrealmtree", true);
         s.addSound("[1/2] Talking Mushroom: WOW, WOW! I CAN'T BELIEVE THIS! THIS SLEAZY POTION MERCHANT CAN JUST HAVE A SECRET CRATE OF MUSHROOMS THAT HE'S PROBABLY TRAFFICKING ILLEGALLY, AND NOBODY BATS AN EYE...", "talkingmushroomsleazypotionmerchant", true);
         s.addSound("[1/2] Talking Mushroom: WOAH, HEY, WAIT, WHAT ARE WE DOING HERE?? HUMAN, I'VE BEEN PERMANENTLY EXILED FROM THIS PLACE EVER SINCE I SET UP THAT MUSHROOM SHOP HERE FIVE YEARS AGO!!", "talkingmushroomrivalbuisness", true);
-
         s.addSound("[1/1] Talking Mushroom: LOOK AT THIS! WHAT DO YOU MEAN WHAT?! OPEN YOUR EYES! WE'RE RICH! MODESTY CAN GO IN THE TRASH, HUMAN.", "talkingmushroomAlmujsEmeraldLabyrinth", true);
         s.addSound("[1/2] Talking Mushroom: YOU KNOW, THIS PLACE IS NICE. MUCH BETTER THAN ALL THE OTHER PLACES YOU GO TO.", "talkingmushroombearzoo", true);
         s.addSound("[1/2] Talking Mushroom: WHAT IS THIS PLACE? IT SMELLS LIKE DUST ... AND SAND. WEIRD.", "talkingmushroomdesert", true);
@@ -78,6 +77,18 @@ public class Sounds {
         s.addSound("[1/1] Talking Mushroom: WHA-... DID WE JUST WATCH A RAT... KILL ITSELF? WHAT THE HELL!?!", "talkingmushroomrat3", true);
         s.addSound("[1/3] Talking Mushroom: ... HEY, HUMAN, TELL ME SOMETHING. WHY ARE YOU OUT HERE AND NOT IN ONE OF THOSE CELLS?", "talkingmushroommoltencoreprison", true);
         s.addSound("[1/3] Talking Mushroom: PLEASE. LISTEN TO ME FOR ONE MOMENT. IF YOU GO ANYWHERE NEAR THAT... THING... WE ARE GOING TO DIE. PLEASE. GO BACK.", "talkingmushroomendportal", true);
+        s.addSound("[1/3] Talking Mushroom: YOU KNOW, IT REALLY ASTONISHES ME, THE KINDS OF PLACES YOU GET TO.", "talkingmushroom-southcorkuscave-1", true);
+        s.addSound("[2/3] Talking Mushroom: LIKE, WHAT EVEN IS THIS PLACE? WHERE ARE WE? WHY IS THIS HERE??", "talkingmushroom-southcorkuscave-2", true);
+        s.addSound("[3/3] Talking Mushroom: THE ANSWERS TO THOSE QUESTIONS, IN ORDER, ARE WHO KNOWS, WHO KNOWS, AND WHO KNOWS?!?!?", "talkingmushroom-southcorkuscave-3", true);
+        s.addSound("[1/4] Talking Mushroom: ...AND I HAD THOUGHT SOME OF YOUR PREVIOUS LOONEY ADVENTURES HAD INDICATED YOU WERE A BUMBLING IDIOT, BUT YOU'VE REALLY OUTDONE YOURSELF... WHERE EVEN ARE WE?!", "talkingmushroom-baabsabondedmines-1", true);
+        s.addSound("[2/4] Talking Mushroom: KNOWING YOUR ADVENTURING TRACK RECORD, IT LEADS ME TO BELIEVE IT'S BEST TO AVOID THIS PLACE, UNLESS YOU'RE LOOKING FOR SOME DUMB SECRET THAT NO ONE CARES ABOUT.", "talkingmushroom-baabsabondedmines-2", true);
+        s.addSound("[3/4] Talking Mushroom: DO I HAVE ANY SECRETS YOU ASK? WELL THE KEY TO SUCCESS IS TO HIDE AND LOCK AWAY YOUR SECRETS AND TO NEVER TELL THEM TO ANYONE. YOU DON'T COUNT AS ANYONE. YOU'RE TOO DUMB FOR THAT.", "talkingmushroom-baabsabondedmines-3", true);
+        s.addSound("[4/4] Talking Mushroom: ON A SIDE NOTE, I'VE ALWAYS THOUGHT ABOUT SOMETHING... WHAT COMPELS YOU TO BE AN ADVENTURER AND EXPLORE THE WORLD? FIRST YOU BRING ME HERE, BUT WHAT NEXT? THE MIDDLE OF NOWHERE?!", "talkingmushroom-baabsabondedmines-4", true);
+        s.addSound("[1/3] Talking Mushroom: HEY, LOOK, FINALLY, NORMAL PEOPLE! JUST LEAVE ME HERE, LITERALLY ANYBODY WOULD BE BETTER THAN YOU!!", "talkingmushroom-regularisland-1", true);
+        s.addSound("[2/3] Talking Mushroom: WHAT? WHAT DO YOU MEAN THEY'RE NOT HUMANS? THEY LOOK HUMAN TO ME!!! OH, SO WHAT, ANYBODY WHO'S DIFFERENT FROM YOU IS SUDDENLY 'NOT HUMAN???'", "talkingmushroom-regularisland-2", true);
+        s.addSound("[3/3] Talking Mushroom: WOW! AND HERE I WAS THINKING YOU COULDN'T GET ANY WORSE! LET'S JUST GET OUT OF HERE BEFORE THEY HEAR YOU AND START TO TURN ON YOU!!", "talkingmushroom-regularisland-3", true);
+        s.addSound("[1/2] Talking Mushroom: PSST, HEY IDIOT. DOESN'T THIS PLACE REMIND YOU OF THAT MASSIVE TOWER WITH THE BIG EYE ON IT? YOU KNOW, IN THAT... PLACE?", "talkingmushroom-guildhall-1", true);
+        s.addSound("[2/2] Talking Mushroom: NOW THAT I THINK OF IT, MOST OF THE STRUCTURES WE COME ACROSS LOOK LIKE THAT TOWE-", "talkingmushroom-guildhall-2", true);
 
 
         //Sea skipper
@@ -160,6 +171,11 @@ public class Sounds {
         s.addSound("[1/4] Talking Mushroom: JEEZ, CAN THIS GUY HURRY UP? THE SALT IN THE WIND IS MAKING ME ROT.", "seaskipper-seaskippercaptain-77", true);
         s.addSound("[1/4] Seaskipper Captain: Woah! Hold onto yer helmet, these waves are rougher than usual!", "seaskipper-seaskippercaptain-78", true);
         s.addSound("[1/4] Seaskipper Captain: Hey Soldier, le' me tell ya a real good piece of advice", "seaskipper-seaskippercaptain-79", true);
+        s.addSound("[1/3] Seaskipper Captain: Welcome to the V.S.S. Seaskipper, from Seasail Enterprises! There's nothin' better than Seasail if you're lookin' to travel!", "seaskipper-seaskippercaptain-80", true);
+        s.addSound("[2/3] Seaskipper Captain: Just hop on the boat and buy a pass so you can get goin' to almost anywhere on the ocean!", "seaskipper-seaskippercaptain-81", true);
+        s.addSound("[3/3] Seaskipper Captain: You can even take your pals along with you for free if you're in a party!", "seaskipper-seaskippercaptain-82", true);
+        s.addSound("[1/1] Seaskipper: I'm afraid you cannot afford that boat.", "seaskipper-seaskippercaptain-83", true);
+        s.addSound("[1/1] Seaskipper: There you go. Come again!", "seaskipper-seaskippercaptain-84", true);
 
         //Beneath the Depths
         s.addSound("[1/9] Javier: Garh, you look like a mighty fine adventurer, lad. But perhaps your pockets are a little lighter than you want, eh?", "beneaththedepths-javier-1", false);
@@ -4484,6 +4500,7 @@ public class Sounds {
         s.addSound("[1/1] Blackjack Dealer: Not feelin' up to playin' right now? No worries, just drop by later!", "murdermystery-blackjackdealer-11", false);
         s.addSound("[1/1] Blackjack Dealer: Good stuff! Put ya money in the pot and I'll start the deal.", "murdermystery-blackjackdealer-12", false);
         s.addSound("[1/1] Blackjack Dealer: Woah! That's a whole lotta emeralds on one hand - a bit over our house limit. Try something smaller.", "murdermystery-blackjackdealer-13", false);
+        s.addSound("[1/1] Blackjack Dealer: Come on pal, you can't go that low! Bet something proper, yeah?", "murdermystery-blackjackdealer-14", false);
         s.addSound("[4/8] Detective Lorias: That's enough, Rohem! Stand down, or the guards will attack.", "murdermystery-captainlorias-13", false);
         s.addSound("[6/8] Detective Lorias: Whatever, you pale-faced walking cowlick. You're headed to Lexdale Penitentiary with a charge of first-class murder. Guards, take him away.", "murdermystery-captainlorias-14", false);
         s.addSound("[7/8] Detective Lorias: As for you, human, please accept my immense gratitude. We probably wouldn't have caught that rat without you.", "murdermystery-captainlorias-15", false);
@@ -4557,6 +4574,9 @@ public class Sounds {
         s.addSound("[10/12] Norsten: Here, let me repay you. So that wizard tried to use me to rob people for money, right? But I guess he didn't think to check my pockets.", "amaraudersdues-norsten-11", false);
         s.addSound("[11/12] Peli: Well, that's generous. Looks like a happy ending for everyone! Come on Norsten, let's get you home.", "amaraudersdues-peli-12", false);
         s.addSound("[12/12] Norsten: Just a second, my mind's still a bit fuzzy.", "amaraudersdues-norsten-12", false);
+        s.addSound("[1/3] Norsten: You again! You think I didn't recognize you? Your friend here used my gate, but refuses to pay. I'll forgive his debt, but only if you pay up now! as well?", "amaraudersdues-norsten-13", false);
+        s.addSound("[2/3] Peli: Again, as I already told you a hundred times, you can't just pick any random old gate and pretend it's yours!", "amaraudersdues-peli-13", false);
+        s.addSound("[3/3] Peli: Anyway, human, do you finally have some news? If not, I suggest you get back out there. Check your quest book if you've forgotten what to do", "amaraudersdues-peli-14", false);
 
 
         //The Canyon Guides
@@ -4880,7 +4900,6 @@ public class Sounds {
         s.addSound("The portal, which opened 1000 years ago, about the same time Gavel began to decay. A clash of the realms of Light and Darkness.", "aldoreissecretpart2-togak-11", true);
         s.addSound("Two forces which should never touch. It seems Gavel got off lightly, after hearing about the hundreds of years of torment the Wynn province endured.", "aldoreissecretpart2-togak-12", true);
         s.addSound("[1/9] Elrund: Hello again, Human. So now you know. You know about the realms, and what we Elves believed has happened.", "aldoreissecretpart2-elrund-1", false);
-        s.addSound("[1/3] Elrund: Now you have a choice. To your right you can battle Vidobe, and earn access to the Elvish vault, where you may claim thousands of emeralds as a reward.", "aldoreissecretpart2-erlund-2", false);
         s.addSound(" We believe the greed of the villagers weakened the purity of the Light realm. Although, we may be wrong. We, the Sol Embassy have been trying to restore it, ever since...", "aldoreissecretpart2-togak-13", true);
         s.addSound("[1/14] Togak: I must first apologise. The tricks, after deceit, after a ploy. You must not know what to believe anymore. Or perhaps you haven't understood this whole time.", "aldoreissecretpart2-togak-14", false);
         s.addSound("[1/4] Kansard: This medallion... I remember when I gave it to you. I was smiling ear to ear when you left.", "aldoreissecretpart2-kansard-1", false);

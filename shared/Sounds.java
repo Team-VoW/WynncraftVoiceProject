@@ -77,6 +77,18 @@ public class Sounds {
         s.addSound("[1/1] Talking Mushroom: WHA-... DID WE JUST WATCH A RAT... KILL ITSELF? WHAT THE HELL!?!", "talkingmushroomrat3", true);
         s.addSound("[1/3] Talking Mushroom: ... HEY, HUMAN, TELL ME SOMETHING. WHY ARE YOU OUT HERE AND NOT IN ONE OF THOSE CELLS?", "talkingmushroommoltencoreprison", true);
         s.addSound("[1/3] Talking Mushroom: PLEASE. LISTEN TO ME FOR ONE MOMENT. IF YOU GO ANYWHERE NEAR THAT... THING... WE ARE GOING TO DIE. PLEASE. GO BACK.", "talkingmushroomendportal", true);
+        s.addSound("[1/3] Talking Mushroom: YOU KNOW, IT REALLY ASTONISHES ME, THE KINDS OF PLACES YOU GET TO.", "talkingmushroom-southcorkuscave-1", true);
+        s.addSound("[2/3] Talking Mushroom: LIKE, WHAT EVEN IS THIS PLACE? WHERE ARE WE? WHY IS THIS HERE??", "talkingmushroom-southcorkuscave-2", true);
+        s.addSound("[3/3] Talking Mushroom: THE ANSWERS TO THOSE QUESTIONS, IN ORDER, ARE WHO KNOWS, WHO KNOWS, AND WHO KNOWS?!?!?", "talkingmushroom-southcorkuscave-3", true);
+        s.addSound("[1/4] Talking Mushroom: ...AND I HAD THOUGHT SOME OF YOUR PREVIOUS LOONEY ADVENTURES HAD INDICATED YOU WERE A BUMBLING IDIOT, BUT YOU'VE REALLY OUTDONE YOURSELF... WHERE EVEN ARE WE?!", "talkingmushroom-baabsabondedmines-1", true);
+        s.addSound("[2/4] Talking Mushroom: KNOWING YOUR ADVENTURING TRACK RECORD, IT LEADS ME TO BELIEVE IT'S BEST TO AVOID THIS PLACE, UNLESS YOU'RE LOOKING FOR SOME DUMB SECRET THAT NO ONE CARES ABOUT.", "talkingmushroom-baabsabondedmines-2", true);
+        s.addSound("[3/4] Talking Mushroom: DO I HAVE ANY SECRETS YOU ASK? WELL THE KEY TO SUCCESS IS TO HIDE AND LOCK AWAY YOUR SECRETS AND TO NEVER TELL THEM TO ANYONE. YOU DON'T COUNT AS ANYONE. YOU'RE TOO DUMB FOR THAT.", "talkingmushroom-baabsabondedmines-3", true);
+        s.addSound("[4/4] Talking Mushroom: ON A SIDE NOTE, I'VE ALWAYS THOUGHT ABOUT SOMETHING... WHAT COMPELS YOU TO BE AN ADVENTURER AND EXPLORE THE WORLD? FIRST YOU BRING ME HERE, BUT WHAT NEXT? THE MIDDLE OF NOWHERE?!", "talkingmushroom-baabsabondedmines-4", true);
+        s.addSound("[1/3] Talking Mushroom: HEY, LOOK, FINALLY, NORMAL PEOPLE! JUST LEAVE ME HERE, LITERALLY ANYBODY WOULD BE BETTER THAN YOU!!", "talkingmushroom-regularisland-1", true);
+        s.addSound("[2/3] Talking Mushroom: WHAT? WHAT DO YOU MEAN THEY'RE NOT HUMANS? THEY LOOK HUMAN TO ME!!! OH, SO WHAT, ANYBODY WHO'S DIFFERENT FROM YOU IS SUDDENLY 'NOT HUMAN???'", "talkingmushroom-regularisland-2", true);
+        s.addSound("[3/3] Talking Mushroom: WOW! AND HERE I WAS THINKING YOU COULDN'T GET ANY WORSE! LET'S JUST GET OUT OF HERE BEFORE THEY HEAR YOU AND START TO TURN ON YOU!!", "talkingmushroom-regularisland-3", true);
+        s.addSound("[1/2] Talking Mushroom: PSST, HEY IDIOT. DOESN'T THIS PLACE REMIND YOU OF THAT MASSIVE TOWER WITH THE BIG EYE ON IT? YOU KNOW, IN THAT... PLACE?", "talkingmushroom-guildhall-1", true);
+        s.addSound("[2/2] Talking Mushroom: NOW THAT I THINK OF IT, MOST OF THE STRUCTURES WE COME ACROSS LOOK LIKE THAT TOWE-", "talkingmushroom-guildhall-2", true);
 
 
         //Sea skipper

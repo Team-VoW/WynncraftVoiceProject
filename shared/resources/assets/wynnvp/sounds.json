@@ -20817,6 +20817,55 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroommoltencoreprison", "stream": true}]
   },
+  "talkingmushroom-baabsabondedmines-1.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-1.ogg", "stream": true}]
+  },
+  "talkingmushroom-baabsabondedmines-2.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-2.ogg", "stream": true}]
+  },
+  "talkingmushroom-baabsabondedmines-3.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-3.ogg", "stream": true}]
+  },
+  "talkingmushroom-baabsabondedmines-4.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-4.ogg", "stream": true}]
+  },
+  "talkingmushroom-guildhall-1.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-guildhall-1.ogg", "stream": true}]
+  },
+  "talkingmushroom-guildhall-2.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-guildhall-2.ogg", "stream": true}]
+  },
+  "talkingmushroom-regularisland-1.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-regularisland-1.ogg", "stream": true}]
+  },
+  "talkingmushroom-regularisland-2.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-regularisland-2.ogg", "stream": true}]
+  },
+  "talkingmushroom-regularisland-3.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-regularisland-3.ogg", "stream": true}]
+  },
+  "talkingmushroom-southcorkuscave-1.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-southcorkuscave-1.ogg", "stream": true}]
+  },
+  "talkingmushroom-southcorkuscave-2.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-southcorkuscave-2.ogg", "stream": true}]
+  },
+  "talkingmushroom-southcorkuscave-3.ogg": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroom-southcorkuscave-3.ogg", "stream": true}]
+  },
+
 
 
 
