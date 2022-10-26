@@ -4484,6 +4484,7 @@ public class Sounds {
         s.addSound("[1/1] Blackjack Dealer: Not feelin' up to playin' right now? No worries, just drop by later!", "murdermystery-blackjackdealer-11", false);
         s.addSound("[1/1] Blackjack Dealer: Good stuff! Put ya money in the pot and I'll start the deal.", "murdermystery-blackjackdealer-12", false);
         s.addSound("[1/1] Blackjack Dealer: Woah! That's a whole lotta emeralds on one hand - a bit over our house limit. Try something smaller.", "murdermystery-blackjackdealer-13", false);
+        s.addSound("[1/1] Blackjack Dealer: Come on pal, you can't go that low! Bet something proper, yeah?", "murdermystery-blackjackdealer-14", false);
         s.addSound("[4/8] Detective Lorias: That's enough, Rohem! Stand down, or the guards will attack.", "murdermystery-captainlorias-13", false);
         s.addSound("[6/8] Detective Lorias: Whatever, you pale-faced walking cowlick. You're headed to Lexdale Penitentiary with a charge of first-class murder. Guards, take him away.", "murdermystery-captainlorias-14", false);
         s.addSound("[7/8] Detective Lorias: As for you, human, please accept my immense gratitude. We probably wouldn't have caught that rat without you.", "murdermystery-captainlorias-15", false);
