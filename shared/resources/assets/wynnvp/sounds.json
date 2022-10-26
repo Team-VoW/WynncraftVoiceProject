@@ -4508,6 +4508,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-12", "stream": true}]
   },
+  "amaraudersdues-norsten-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-norsten-13", "stream": true}]
+  },
+  "amaraudersdues-peli-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-13", "stream": true}]
+  },
+  "amaraudersdues-peli-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:amaraudersdues-peli-14", "stream": true}]
+  },
 
 
   "thecanyonguides-seluc-1": {

@@ -4557,6 +4557,9 @@ public class Sounds {
         s.addSound("[10/12] Norsten: Here, let me repay you. So that wizard tried to use me to rob people for money, right? But I guess he didn't think to check my pockets.", "amaraudersdues-norsten-11", false);
         s.addSound("[11/12] Peli: Well, that's generous. Looks like a happy ending for everyone! Come on Norsten, let's get you home.", "amaraudersdues-peli-12", false);
         s.addSound("[12/12] Norsten: Just a second, my mind's still a bit fuzzy.", "amaraudersdues-norsten-12", false);
+        s.addSound("[1/3] Norsten: You again! You think I didn't recognize you? Your friend here used my gate, but refuses to pay. I'll forgive his debt, but only if you pay up now! as well?", "amaraudersdues-norsten-13", false);
+        s.addSound("[2/3] Peli: Again, as I already told you a hundred times, you can't just pick any random old gate and pretend it's yours!", "amaraudersdues-peli-13", false);
+        s.addSound("[3/3] Peli: Anyway, human, do you finally have some news? If not, I suggest you get back out there. Check your quest book if you've forgotten what to do", "amaraudersdues-peli-14", false);
 
 
         //The Canyon Guides
