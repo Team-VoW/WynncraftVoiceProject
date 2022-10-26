@@ -823,7 +823,7 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostroyalty-yalvis-2", "stream": true}]
   },
-  "lostroyalt-ykingsson-1": {
+  "lostroyalty-kingsson-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostroyalty-kingsson-1", "stream": true}]
   },
@@ -2737,7 +2737,7 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:onethousandmetersunder-celuuse-1", "stream": true}]
   },
-  "onethousandmetersunder-jesp1-": {
+  "onethousandmetersunder-jesp-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:onethousandmetersunder-jesp-1", "stream": true}]
   },
@@ -5581,10 +5581,6 @@
   "aldoreissecretpart2-elrund-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:aldoreissecretpart2-elrund-1", "stream": true}]
-  },
-  "aldoreissecretpart2-elrund-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:aldoreissecretpart2-elrund-2", "stream": true}]
   },
   "aldoreissecretpart2-togak-13": {
     "category": "voice",
@@ -20544,6 +20540,10 @@
   "talkingmushroomlightrealmtree": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroomlightrealmtree", "stream": true}]
+  },
+  "talkingmushroomlightmonolith": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:talkingmushroomlightmonolith", "stream": true}]
   },
   "talkingmushroomrivalbuisness": {
     "category": "voice",

@@ -64,7 +64,6 @@ public class Sounds {
         s.addSound("[1/1] Talking Mushroom: HEY, HUMAN, TAKE A LOOK!! YOU CAN SEE THE WHOLE LIGHT REALM FROM UP HERE!!!", "talkingmushroomlightrealmtree", true);
         s.addSound("[1/2] Talking Mushroom: WOW, WOW! I CAN'T BELIEVE THIS! THIS SLEAZY POTION MERCHANT CAN JUST HAVE A SECRET CRATE OF MUSHROOMS THAT HE'S PROBABLY TRAFFICKING ILLEGALLY, AND NOBODY BATS AN EYE...", "talkingmushroomsleazypotionmerchant", true);
         s.addSound("[1/2] Talking Mushroom: WOAH, HEY, WAIT, WHAT ARE WE DOING HERE?? HUMAN, I'VE BEEN PERMANENTLY EXILED FROM THIS PLACE EVER SINCE I SET UP THAT MUSHROOM SHOP HERE FIVE YEARS AGO!!", "talkingmushroomrivalbuisness", true);
-
         s.addSound("[1/1] Talking Mushroom: LOOK AT THIS! WHAT DO YOU MEAN WHAT?! OPEN YOUR EYES! WE'RE RICH! MODESTY CAN GO IN THE TRASH, HUMAN.", "talkingmushroomAlmujsEmeraldLabyrinth", true);
         s.addSound("[1/2] Talking Mushroom: YOU KNOW, THIS PLACE IS NICE. MUCH BETTER THAN ALL THE OTHER PLACES YOU GO TO.", "talkingmushroombearzoo", true);
         s.addSound("[1/2] Talking Mushroom: WHAT IS THIS PLACE? IT SMELLS LIKE DUST ... AND SAND. WEIRD.", "talkingmushroomdesert", true);
@@ -4889,7 +4888,6 @@ public class Sounds {
         s.addSound("The portal, which opened 1000 years ago, about the same time Gavel began to decay. A clash of the realms of Light and Darkness.", "aldoreissecretpart2-togak-11", true);
         s.addSound("Two forces which should never touch. It seems Gavel got off lightly, after hearing about the hundreds of years of torment the Wynn province endured.", "aldoreissecretpart2-togak-12", true);
         s.addSound("[1/9] Elrund: Hello again, Human. So now you know. You know about the realms, and what we Elves believed has happened.", "aldoreissecretpart2-elrund-1", false);
-        s.addSound("[1/3] Elrund: Now you have a choice. To your right you can battle Vidobe, and earn access to the Elvish vault, where you may claim thousands of emeralds as a reward.", "aldoreissecretpart2-erlund-2", false);
         s.addSound(" We believe the greed of the villagers weakened the purity of the Light realm. Although, we may be wrong. We, the Sol Embassy have been trying to restore it, ever since...", "aldoreissecretpart2-togak-13", true);
         s.addSound("[1/14] Togak: I must first apologise. The tricks, after deceit, after a ploy. You must not know what to believe anymore. Or perhaps you haven't understood this whole time.", "aldoreissecretpart2-togak-14", false);
         s.addSound("[1/4] Kansard: This medallion... I remember when I gave it to you. I was smiling ear to ear when you left.", "aldoreissecretpart2-kansard-1", false);
