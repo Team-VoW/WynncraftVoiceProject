@@ -160,6 +160,11 @@ public class Sounds {
         s.addSound("[1/4] Talking Mushroom: JEEZ, CAN THIS GUY HURRY UP? THE SALT IN THE WIND IS MAKING ME ROT.", "seaskipper-seaskippercaptain-77", true);
         s.addSound("[1/4] Seaskipper Captain: Woah! Hold onto yer helmet, these waves are rougher than usual!", "seaskipper-seaskippercaptain-78", true);
         s.addSound("[1/4] Seaskipper Captain: Hey Soldier, le' me tell ya a real good piece of advice", "seaskipper-seaskippercaptain-79", true);
+        s.addSound("[1/3] Seaskipper Captain: Welcome to the V.S.S. Seaskipper, from Seasail Enterprises! There's nothin' better than Seasail if you're lookin' to travel!", "seaskipper-seaskippercaptain-80", true);
+        s.addSound("[2/3] Seaskipper Captain: Just hop on the boat and buy a pass so you can get goin' to almost anywhere on the ocean!", "seaskipper-seaskippercaptain-81", true);
+        s.addSound("[3/3] Seaskipper Captain: You can even take your pals along with you for free if you're in a party!", "seaskipper-seaskippercaptain-82", true);
+        s.addSound("[1/1] Seaskipper: I'm afraid you cannot afford that boat.", "seaskipper-seaskippercaptain-83", true);
+        s.addSound("[1/1] Seaskipper: There you go. Come again!", "seaskipper-seaskippercaptain-84", true);
 
         //Beneath the Depths
         s.addSound("[1/9] Javier: Garh, you look like a mighty fine adventurer, lad. But perhaps your pockets are a little lighter than you want, eh?", "beneaththedepths-javier-1", false);

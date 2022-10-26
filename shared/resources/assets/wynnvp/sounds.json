@@ -5930,6 +5930,26 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-79", "stream": true}]
   },
+  "seaskipper-seaskippercaptain-80": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-80", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-81": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-81", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-82": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-82", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-83": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-83", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-84": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-84", "stream": true}]
+  },
 
 
 
