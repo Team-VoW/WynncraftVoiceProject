@@ -4624,6 +4624,9 @@ public class Sounds {
         s.addSound("[5/8] Seluc: This is goodbye then, human, I won’t be missing you. Shoo!", "thecanyonguides-seluc-42", false);
         s.addSound("[7/8] Seluc: ...uh. ...dang it, why you gotta did that.", "thecanyonguides-seluc-43", false);
         s.addSound("[7/8] Seluc: That's right! See, Gana? After all that, at least the human isn’t a liar.", "thecanyonguides-seluc-44", false);
+        s.addSound("[5/5] Seluc: WHY YOU-", "thecanyonguides-seluc-45", false);
+        s.addSound("[4/4] Seluc: GAH! NOT AGAIN!!!", "thecanyonguides-seluc-46", false);
+        s.addSound("[4/4] Seluc: YOU-!", "thecanyonguides-seluc-47", false);
         s.addSound("[1/6] Gana: Welcome to Bantisu Temple, wandering human. We aid travelers such as yourself in navigating the capricious canyon walls.", "thecanyonguides-gana-1", false);
         s.addSound("[2/6] Gana: We commune with the wind, and she gives us her sight. Wherever the breeze blows, we may see.", "thecanyonguides-gana-2", false);
         s.addSound("[3/6] Gana: You appear quite strong, and well-kept by your wits. Might we ask you to aid us, then?", "thecanyonguides-gana-3", false);

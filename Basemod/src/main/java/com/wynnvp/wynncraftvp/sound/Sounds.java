@@ -64,7 +64,6 @@ public class Sounds {
         s.addSound("[1/1] Talking Mushroom: HEY, HUMAN, TAKE A LOOK!! YOU CAN SEE THE WHOLE LIGHT REALM FROM UP HERE!!!", "talkingmushroomlightrealmtree", true);
         s.addSound("[1/2] Talking Mushroom: WOW, WOW! I CAN'T BELIEVE THIS! THIS SLEAZY POTION MERCHANT CAN JUST HAVE A SECRET CRATE OF MUSHROOMS THAT HE'S PROBABLY TRAFFICKING ILLEGALLY, AND NOBODY BATS AN EYE...", "talkingmushroomsleazypotionmerchant", true);
         s.addSound("[1/2] Talking Mushroom: WOAH, HEY, WAIT, WHAT ARE WE DOING HERE?? HUMAN, I'VE BEEN PERMANENTLY EXILED FROM THIS PLACE EVER SINCE I SET UP THAT MUSHROOM SHOP HERE FIVE YEARS AGO!!", "talkingmushroomrivalbuisness", true);
-
         s.addSound("[1/1] Talking Mushroom: LOOK AT THIS! WHAT DO YOU MEAN WHAT?! OPEN YOUR EYES! WE'RE RICH! MODESTY CAN GO IN THE TRASH, HUMAN.", "talkingmushroomAlmujsEmeraldLabyrinth", true);
         s.addSound("[1/2] Talking Mushroom: YOU KNOW, THIS PLACE IS NICE. MUCH BETTER THAN ALL THE OTHER PLACES YOU GO TO.", "talkingmushroombearzoo", true);
         s.addSound("[1/2] Talking Mushroom: WHAT IS THIS PLACE? IT SMELLS LIKE DUST ... AND SAND. WEIRD.", "talkingmushroomdesert", true);
@@ -78,6 +77,18 @@ public class Sounds {
         s.addSound("[1/1] Talking Mushroom: WHA-... DID WE JUST WATCH A RAT... KILL ITSELF? WHAT THE HELL!?!", "talkingmushroomrat3", true);
         s.addSound("[1/3] Talking Mushroom: ... HEY, HUMAN, TELL ME SOMETHING. WHY ARE YOU OUT HERE AND NOT IN ONE OF THOSE CELLS?", "talkingmushroommoltencoreprison", true);
         s.addSound("[1/3] Talking Mushroom: PLEASE. LISTEN TO ME FOR ONE MOMENT. IF YOU GO ANYWHERE NEAR THAT... THING... WE ARE GOING TO DIE. PLEASE. GO BACK.", "talkingmushroomendportal", true);
+        s.addSound("[1/3] Talking Mushroom: YOU KNOW, IT REALLY ASTONISHES ME, THE KINDS OF PLACES YOU GET TO.", "talkingmushroom-southcorkuscave-1", true);
+        s.addSound("[2/3] Talking Mushroom: LIKE, WHAT EVEN IS THIS PLACE? WHERE ARE WE? WHY IS THIS HERE??", "talkingmushroom-southcorkuscave-2", true);
+        s.addSound("[3/3] Talking Mushroom: THE ANSWERS TO THOSE QUESTIONS, IN ORDER, ARE WHO KNOWS, WHO KNOWS, AND WHO KNOWS?!?!?", "talkingmushroom-southcorkuscave-3", true);
+        s.addSound("[1/4] Talking Mushroom: ...AND I HAD THOUGHT SOME OF YOUR PREVIOUS LOONEY ADVENTURES HAD INDICATED YOU WERE A BUMBLING IDIOT, BUT YOU'VE REALLY OUTDONE YOURSELF... WHERE EVEN ARE WE?!", "talkingmushroom-baabsabondedmines-1", true);
+        s.addSound("[2/4] Talking Mushroom: KNOWING YOUR ADVENTURING TRACK RECORD, IT LEADS ME TO BELIEVE IT'S BEST TO AVOID THIS PLACE, UNLESS YOU'RE LOOKING FOR SOME DUMB SECRET THAT NO ONE CARES ABOUT.", "talkingmushroom-baabsabondedmines-2", true);
+        s.addSound("[3/4] Talking Mushroom: DO I HAVE ANY SECRETS YOU ASK? WELL THE KEY TO SUCCESS IS TO HIDE AND LOCK AWAY YOUR SECRETS AND TO NEVER TELL THEM TO ANYONE. YOU DON'T COUNT AS ANYONE. YOU'RE TOO DUMB FOR THAT.", "talkingmushroom-baabsabondedmines-3", true);
+        s.addSound("[4/4] Talking Mushroom: ON A SIDE NOTE, I'VE ALWAYS THOUGHT ABOUT SOMETHING... WHAT COMPELS YOU TO BE AN ADVENTURER AND EXPLORE THE WORLD? FIRST YOU BRING ME HERE, BUT WHAT NEXT? THE MIDDLE OF NOWHERE?!", "talkingmushroom-baabsabondedmines-4", true);
+        s.addSound("[1/3] Talking Mushroom: HEY, LOOK, FINALLY, NORMAL PEOPLE! JUST LEAVE ME HERE, LITERALLY ANYBODY WOULD BE BETTER THAN YOU!!", "talkingmushroom-regularisland-1", true);
+        s.addSound("[2/3] Talking Mushroom: WHAT? WHAT DO YOU MEAN THEY'RE NOT HUMANS? THEY LOOK HUMAN TO ME!!! OH, SO WHAT, ANYBODY WHO'S DIFFERENT FROM YOU IS SUDDENLY 'NOT HUMAN???'", "talkingmushroom-regularisland-2", true);
+        s.addSound("[3/3] Talking Mushroom: WOW! AND HERE I WAS THINKING YOU COULDN'T GET ANY WORSE! LET'S JUST GET OUT OF HERE BEFORE THEY HEAR YOU AND START TO TURN ON YOU!!", "talkingmushroom-regularisland-3", true);
+        s.addSound("[1/2] Talking Mushroom: PSST, HEY IDIOT. DOESN'T THIS PLACE REMIND YOU OF THAT MASSIVE TOWER WITH THE BIG EYE ON IT? YOU KNOW, IN THAT... PLACE?", "talkingmushroom-guildhall-1", true);
+        s.addSound("[2/2] Talking Mushroom: NOW THAT I THINK OF IT, MOST OF THE STRUCTURES WE COME ACROSS LOOK LIKE THAT TOWE-", "talkingmushroom-guildhall-2", true);
 
 
         //Sea skipper
@@ -160,6 +171,11 @@ public class Sounds {
         s.addSound("[1/4] Talking Mushroom: JEEZ, CAN THIS GUY HURRY UP? THE SALT IN THE WIND IS MAKING ME ROT.", "seaskipper-seaskippercaptain-77", true);
         s.addSound("[1/4] Seaskipper Captain: Woah! Hold onto yer helmet, these waves are rougher than usual!", "seaskipper-seaskippercaptain-78", true);
         s.addSound("[1/4] Seaskipper Captain: Hey Soldier, le' me tell ya a real good piece of advice", "seaskipper-seaskippercaptain-79", true);
+        s.addSound("[1/3] Seaskipper Captain: Welcome to the V.S.S. Seaskipper, from Seasail Enterprises! There's nothin' better than Seasail if you're lookin' to travel!", "seaskipper-seaskippercaptain-80", true);
+        s.addSound("[2/3] Seaskipper Captain: Just hop on the boat and buy a pass so you can get goin' to almost anywhere on the ocean!", "seaskipper-seaskippercaptain-81", true);
+        s.addSound("[3/3] Seaskipper Captain: You can even take your pals along with you for free if you're in a party!", "seaskipper-seaskippercaptain-82", true);
+        s.addSound("[1/1] Seaskipper: I'm afraid you cannot afford that boat.", "seaskipper-seaskippercaptain-83", true);
+        s.addSound("[1/1] Seaskipper: There you go. Come again!", "seaskipper-seaskippercaptain-84", true);
 
         //Beneath the Depths
         s.addSound("[1/9] Javier: Garh, you look like a mighty fine adventurer, lad. But perhaps your pockets are a little lighter than you want, eh?", "beneaththedepths-javier-1", false);
@@ -4484,6 +4500,7 @@ public class Sounds {
         s.addSound("[1/1] Blackjack Dealer: Not feelin' up to playin' right now? No worries, just drop by later!", "murdermystery-blackjackdealer-11", false);
         s.addSound("[1/1] Blackjack Dealer: Good stuff! Put ya money in the pot and I'll start the deal.", "murdermystery-blackjackdealer-12", false);
         s.addSound("[1/1] Blackjack Dealer: Woah! That's a whole lotta emeralds on one hand - a bit over our house limit. Try something smaller.", "murdermystery-blackjackdealer-13", false);
+        s.addSound("[1/1] Blackjack Dealer: Come on pal, you can't go that low! Bet something proper, yeah?", "murdermystery-blackjackdealer-14", false);
         s.addSound("[4/8] Detective Lorias: That's enough, Rohem! Stand down, or the guards will attack.", "murdermystery-captainlorias-13", false);
         s.addSound("[6/8] Detective Lorias: Whatever, you pale-faced walking cowlick. You're headed to Lexdale Penitentiary with a charge of first-class murder. Guards, take him away.", "murdermystery-captainlorias-14", false);
         s.addSound("[7/8] Detective Lorias: As for you, human, please accept my immense gratitude. We probably wouldn't have caught that rat without you.", "murdermystery-captainlorias-15", false);
@@ -4557,21 +4574,70 @@ public class Sounds {
         s.addSound("[10/12] Norsten: Here, let me repay you. So that wizard tried to use me to rob people for money, right? But I guess he didn't think to check my pockets.", "amaraudersdues-norsten-11", false);
         s.addSound("[11/12] Peli: Well, that's generous. Looks like a happy ending for everyone! Come on Norsten, let's get you home.", "amaraudersdues-peli-12", false);
         s.addSound("[12/12] Norsten: Just a second, my mind's still a bit fuzzy.", "amaraudersdues-norsten-12", false);
+        s.addSound("[1/3] Norsten: You again! You think I didn't recognize you? Your friend here used my gate, but refuses to pay. I'll forgive his debt, but only if you pay up now! as well?", "amaraudersdues-norsten-13", false);
+        s.addSound("[2/3] Peli: Again, as I already told you a hundred times, you can't just pick any random old gate and pretend it's yours!", "amaraudersdues-peli-13", false);
+        s.addSound("[3/3] Peli: Anyway, human, do you finally have some news? If not, I suggest you get back out there. Check your quest book if you've forgotten what to do", "amaraudersdues-peli-14", false);
 
 
         //The Canyon Guides
-        s.addSound("[1/6] Gana: Hello, adventurer. Welcome to Bantisu Temple. We help \"\"the lost\"\" move on, and help travellers like yourself navigate the canyon.", "thecanyonguides-gana-1", false);
-        s.addSound("[1/2] Seluc: Hello, is someone there? I can't believe it! Do you know your way around the canyon? I'm so lost! Must be because I'm so nearsighted...", "thecanyonguides-seluc-1", true);
-        s.addSound("[2/2] Seluc: The people at Bantisu Temple can help me? All right, I'll come with you, but watch out for rockslides!", "thecanyonguides-seluc-2", true);
-        s.addSound("[1/1] Seluc: Be careful, there's a rockslide coming! We both need to keep away from that red area!", "thecanyonguides-seluc-3", true);
-        s.addSound("[1/1] Seluc: There's another rockslide coming! Remember to keep away from that red area!", "thecanyonguides-seluc-4", true);
-        s.addSound("[1/1] Seluc: Oh no, it's another rockslide! We need to hurry to the other side before it blocks the path completely!", "thecanyonguides-seluc-5", true);
-        s.addSound("[1/1] Seluc: We've finally made it! And it's all thanks to you, human. ", "thecanyonguides-seluc-6", true);
-        s.addSound("[1/5] Gana: Ah, I see you have arrived safely, Seluc.", "thecanyonguides-gana-2", false);
-        s.addSound("[2/5] Seluc: Yeah, and it's all thanks to you, human! You saved my life out there! Wait... how do you even know my name? ", "thecanyonguides-seluc-7", false);
-        s.addSound("[3/5] Gana: I am at one with the wind, I can see and hear all.", "thecanyonguides-gana-3", false);
-        s.addSound("[4/5] Seluc: Anyways, I can't thank you enough for coming to my rescue like that.", "thecanyonguides-seluc-8", false);
-        s.addSound("[5/5] Seluc: Take this, it's the least I can give you for saving my life. ", "thecanyonguides-seluc-9", false);
+        s.addSound("[1/5] Seluc: Who's that? Am I finally being rescued!?", "thecanyonguides-seluc-1", false);
+        s.addSound("[2/5] Seluc: Wait, a human! Ugh, I shouldn’t have gotten my hopes up. What did you do, take a day of cliff diving?", "thecanyonguides-seluc-2", false);
+        s.addSound("[3/5] Seluc: If you really did intend to rescue me, you've assuredly wasted both our time.", "thecanyonguides-seluc-3", false);
+        s.addSound("[4/5] Seluc: If you really want to make yourself useful, get a Bantisu monk over here! You’re good at doing that, right? Fetching things and people?", "thecanyonguides-seluc-4", false);
+        s.addSound("[1/3] Seluc: You’re trying to kill me, aren’t you?! What, can’t take hearing the truth? Now my coat is drenched, and! AND!", "thecanyonguides-seluc-5", false);
+        s.addSound("[2/3] Seluc: These Jinko are going to pounce any second now!! I haven’t got a weapon, were you expecting me to rush off and get into a rumble?!", "thecanyonguides-seluc-6", false);
+        s.addSound("[3/3] Seluc: Kill them! Kill them now! And get me OUT OF HERE! You got me into this mess, now get me out!!", "thecanyonguides-seluc-7", false);
+        s.addSound("[1/2] Seluc: Ugh, all that danger got me flustered. I’m swe ating in this coat...and it’s all soaked already. Let me just...", "thecanyonguides-seluc-8", false);
+        s.addSound("[2/2] Seluc: ...set that aside. Congratulations, human! I’m probably never getting that coat back, and it cost me a pretty sum. Thanks for nothing.", "thecanyonguides-seluc-9", false);
+        s.addSound("[1/4] Seluc: All this walking...I’m taking a break here. You forced me to jump off a cliff, I get to force you to slow down. It’s only fair!. Besides that...", "thecanyonguides-seluc-10", false);
+        s.addSound("[2/4] Seluc: I only even came out here to see the view. At least that can’t be ruined. Still, some vacation this turned out to be...", "thecanyonguides-seluc-11", false);
+        s.addSound("[3/4] Seluc: Wait, what in the world- What’s going on?!", "thecanyonguides-seluc-12", false);
+        s.addSound("[1/3] Seluc: NO ONE TELLS ME ANYTHING! The brochure didn’t mention earthquakes, YOU didn’t tell me either, but what was I expecting from a human anyways?!", "thecanyonguides-seluc-13", false);
+        s.addSound("[2/3] Seluc: I’m not a carrot! You’d better get me out of h- ...wait, wait, those...", "thecanyonguides-seluc-14", false);
+        s.addSound("[3/3] Seluc: H-Hobgoblins. Hobgoblins HOBGOBLINS THERE’S HOBGOBLINS!! KILL THEM! AAAAH! AAH! AAAAAAH!", "thecanyonguides-seluc-15", false);
+        s.addSound("[1/1] Seluc: Sweet baby bovine  I just saw my life flash before my eyes. Ugh...now pull me up. I’m stuck. But easy on the goods, I’m NOT a carrot I’ll remind you!", "thecanyonguides-seluc-16", false);
+        s.addSound("[1/2] Seluc: Great. I’m SO grateful to be covered in mud and hobgoblin blood, and to be lacking my coat, AND to be stuck with a human.", "thecanyonguides-seluc-17", false);
+        s.addSound("[2/2] Seluc: Just get me out of here already. See, if an actual Bantisu monk had come down I’d probably be at home already, sipping tea by the fire!", "thecanyonguides-seluc-18", false);
+        s.addSound("[1/2] Seluc: I know you humans are reckless, but I’d have expected you to have SOME concern, since you supposedly wanted to rescue me.", "thecanyonguides-seluc-19", false);
+        s.addSound("[2/2] Seluc: Maybe you think anything's possible for you since you're a soldier, but I'm just a guy from Olux! I hardly know anything about the canyon outside of what the brochures say!", "thecanyonguides-seluc-20", false);
+        s.addSound("[1/1] Seluc: Ugh, my feet are killing me. Maybe this hike wouldn’t be so bad if SOMEONE hadn’t knocked me into a lake and made me lose my shoes!", "thecanyonguides-seluc-21", false);
+        s.addSound("[1/6] Seluc: More earthquakes...? Wait-", "thecanyonguides-seluc-22", false);
+        s.addSound("[2/6] Seluc: The ridge is collapsing!!", "thecanyonguides-seluc-23", false);
+        s.addSound("[4/6] Seluc: ...perfect. Just  GREAT! The only available path to the temple, and now it’s blocked off! Just my luck!!", "thecanyonguides-seluc-24", false);
+        s.addSound("[5/6] Seluc: ...wait. You’re reckless and  willing to endanger your life, right? There’s no way that I could possibly use them, but I see some ledges.", "thecanyonguides-seluc-25", false);
+        s.addSound("[6/6] Seluc: See, just to the side of the  rockslide? There's some ledges to jump around on.", "thecanyonguides-seluc-26", false);
+        s.addSound("[1/1] Seluc: Find me a way up, and fast! I've had enough of this stupid canyon.", "thecanyonguides-seluc-27", false);
+        s.addSound("[1/4] Seluc: ...of course it’s a ladder. I’m going to be feeling this climb for weeks...", "thecanyonguides-seluc-28", false);
+        s.addSound("[2/4] Seluc: Huff...puff... Well...huff... Wait, there’s...there’s no way down the other side! Huff...what a waste!!", "thecanyonguides-seluc-29", false);
+        s.addSound("[3/4] Seluc: Can you do ANYTHING right?! There’s no way I’m jumping down there, you maniac!", "thecanyonguides-seluc-30", false);
+        s.addSound("[1/2] Seluc: You...had better count yourself lucky I haven’t broken any bones from this. Agh...but that doesn’t mean I’m not aching all over!!", "thecanyonguides-seluc-31", false);
+        s.addSound("[2/2] Seluc: When I said you were reckless, I was hoping that maybe you’d keep that side of yourself away from other people!!", "thecanyonguides-seluc-32", false);
+        s.addSound("[1/1] Seluc: At least we’re nearly at the temple now. Come on Seluc, silver linings, silver linings. You’re nearly away from this freak...", "thecanyonguides-seluc-33", false);
+        s.addSound("[1/4] Seluc: Okay, you know what? No. You’ve put me through QUITE a lot here, human, so you’re going to do me a favor and I’m not going to move another step til it’s done.", "thecanyonguides-seluc-34", false);
+        s.addSound("[2/4] Seluc: I paid two weeks’ wages for that coat you soaked. I’m not leaving here without it, and I’m way too tired to walk back down.", "thecanyonguides-seluc-35", false);
+        s.addSound("[3/4] Seluc: So you’re going back down to the bottom of the ridge, and you’re going to get me my coat. It’s the least you could do.", "thecanyonguides-seluc-36", false);
+        s.addSound("[4/4] Seluc: And be quick about it! I feel like these quakes are going to make the whole mountain collapse. That looks like it opened up a hole straight to the bottom!", "thecanyonguides-seluc-37", false);
+        s.addSound("[1/1] Seluc: Well? What are you waiting for? I'm freezing here!", "thecanyonguides-seluc-38", false);
+        s.addSound("[1/8] Seluc: Took you long enough, coat-fetcher! I’m practically frostbitten up here!", "thecanyonguides-seluc-39", false);
+        s.addSound("[2/8] Seluc: You see, I was just speaking to Gana about your dirt-poor imitation of their job! You ought to be ashamed- I had to get up here all on my own!", "thecanyonguides-seluc-40", false);
+        s.addSound("[4/8] Seluc: Anyway! Give me that coat. The monks here are going to provide me some hospitality then guide me out of these wretched canyon walls.", "thecanyonguides-seluc-41", false);
+        s.addSound("[5/8] Seluc: This is goodbye then, human, I won’t be missing you. Shoo!", "thecanyonguides-seluc-42", false);
+        s.addSound("[7/8] Seluc: ...uh. ...dang it, why you gotta did that.", "thecanyonguides-seluc-43", false);
+        s.addSound("[7/8] Seluc: That's right! See, Gana? After all that, at least the human isn’t a liar.", "thecanyonguides-seluc-44", false);
+        s.addSound("[1/6] Gana: Welcome to Bantisu Temple, wandering human. We aid travelers such as yourself in navigating the capricious canyon walls.", "thecanyonguides-gana-1", false);
+        s.addSound("[2/6] Gana: We commune with the wind, and she gives us her sight. Wherever the breeze blows, we may see.", "thecanyonguides-gana-2", false);
+        s.addSound("[3/6] Gana: You appear quite strong, and well-kept by your wits. Might we ask you to aid us, then?", "thecanyonguides-gana-3", false);
+        s.addSound("[4/6] Gana: You see, a lost man is staking out in a camp on the nearby cliff faces. It pains us to see him, but be unable to reach him.", "thecanyonguides-gana-4", false);
+        s.addSound("[5/6] Gana: The canyon creatures there are ruthless, and we are not suited to physical combat. We would be able to reach him, but we would be stranded ourselves.", "thecanyonguides-gana-5", false);
+        s.addSound("[6/6] Gana: So we ask you to guide Seluc to us. We shall send you to him, and you shall bring him here. If you wish to help, you will be rewarded for your time.", "thecanyonguides-gana-6", false);
+        s.addSound("[1/2] Gana: Seluc hides in a camp northeast of here, atop the cliffs.", "thecanyonguides-gana-7", false);
+        s.addSound("[2/2] Gana: We ask you to guide Seluc to us. If you wish to help, you will be rewarded for your time.", "thecanyonguides-gana-8", false);
+        s.addSound("[3/8] Gana: ...hm. I will say, there are many lost around the canyon, Seluc- it may have been a long time before we were able to help you.", "thecanyonguides-gana-9", false);
+        s.addSound("[6/8] Gana: ...He did not really guide himself here. Did he.", "thecanyonguides-gana-10", false);
+        s.addSound("[8/8] Gana: Let this be a lesson to you, Seluc. You cannot lie to those who see with the wind. Now show your gratitude to this kind human.", "thecanyonguides-gana-11", false);
+        s.addSound("[8/8] Gana: ...Well, 'coat fetcher', getting this man his coat is still a fine deed. And for that, you shall be rewarded.", "thecanyonguides-gana-12", false);
+        s.addSound("[1/1] Gana: I do hope my aid was able to help you alongside that stubborn man. He is safe now- I can only hope he will change his demeanor now.", "thecanyonguides-gana-13", false);
+        s.addSound("[1/1] Gana: Welcome to Bantisu Temple, adventurer. There is an urgent matter at hand, but I can not in good faith ask anyone under level 84 to take on this task.", "thecanyonguides-gana-14", false);
 
         //The ultimate weapon
         s.addSound("[1/8] Dodegar: I'm glad you came along, I could do with a little help if you're not too busy.", "theultimateweapon-dodegar-1", false);
@@ -4834,7 +4900,6 @@ public class Sounds {
         s.addSound("The portal, which opened 1000 years ago, about the same time Gavel began to decay. A clash of the realms of Light and Darkness.", "aldoreissecretpart2-togak-11", true);
         s.addSound("Two forces which should never touch. It seems Gavel got off lightly, after hearing about the hundreds of years of torment the Wynn province endured.", "aldoreissecretpart2-togak-12", true);
         s.addSound("[1/9] Elrund: Hello again, Human. So now you know. You know about the realms, and what we Elves believed has happened.", "aldoreissecretpart2-elrund-1", false);
-        s.addSound("[1/3] Elrund: Now you have a choice. To your right you can battle Vidobe, and earn access to the Elvish vault, where you may claim thousands of emeralds as a reward.", "aldoreissecretpart2-erlund-2", false);
         s.addSound(" We believe the greed of the villagers weakened the purity of the Light realm. Although, we may be wrong. We, the Sol Embassy have been trying to restore it, ever since...", "aldoreissecretpart2-togak-13", true);
         s.addSound("[1/14] Togak: I must first apologise. The tricks, after deceit, after a ploy. You must not know what to believe anymore. Or perhaps you haven't understood this whole time.", "aldoreissecretpart2-togak-14", false);
         s.addSound("[1/4] Kansard: This medallion... I remember when I gave it to you. I was smiling ear to ear when you left.", "aldoreissecretpart2-kansard-1", false);

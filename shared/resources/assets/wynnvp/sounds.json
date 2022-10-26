@@ -4702,6 +4702,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-44", "stream": true}]
   },
+  "thecanyonguides-seluc-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-45", "stream": true}]
+  },
+  "thecanyonguides-seluc-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-46", "stream": true}]
+  },
+  "thecanyonguides-seluc-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thecanyonguides-seluc-47", "stream": true}]
+  },
   "thecanyonguides-gana-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thecanyonguides-gana-1", "stream": true}]
@@ -20817,53 +20829,53 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:talkingmushroommoltencoreprison", "stream": true}]
   },
-  "talkingmushroom-baabsabondedmines-1.ogg": {
+  "talkingmushroom-baabsabondedmines-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-1.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-1", "stream": true}]
   },
-  "talkingmushroom-baabsabondedmines-2.ogg": {
+  "talkingmushroom-baabsabondedmines-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-2.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-2", "stream": true}]
   },
-  "talkingmushroom-baabsabondedmines-3.ogg": {
+  "talkingmushroom-baabsabondedmines-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-3.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-3", "stream": true}]
   },
-  "talkingmushroom-baabsabondedmines-4.ogg": {
+  "talkingmushroom-baabsabondedmines-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-4.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-baabsabondedmines-4", "stream": true}]
   },
-  "talkingmushroom-guildhall-1.ogg": {
+  "talkingmushroom-guildhall-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-guildhall-1.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-guildhall-1", "stream": true}]
   },
-  "talkingmushroom-guildhall-2.ogg": {
+  "talkingmushroom-guildhall-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-guildhall-2.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-guildhall-2", "stream": true}]
   },
-  "talkingmushroom-regularisland-1.ogg": {
+  "talkingmushroom-regularisland-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-regularisland-1.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-regularisland-1", "stream": true}]
   },
-  "talkingmushroom-regularisland-2.ogg": {
+  "talkingmushroom-regularisland-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-regularisland-2.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-regularisland-2", "stream": true}]
   },
-  "talkingmushroom-regularisland-3.ogg": {
+  "talkingmushroom-regularisland-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-regularisland-3.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-regularisland-3", "stream": true}]
   },
-  "talkingmushroom-southcorkuscave-1.ogg": {
+  "talkingmushroom-southcorkuscave-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-southcorkuscave-1.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-southcorkuscave-1", "stream": true}]
   },
-  "talkingmushroom-southcorkuscave-2.ogg": {
+  "talkingmushroom-southcorkuscave-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-southcorkuscave-2.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-southcorkuscave-2", "stream": true}]
   },
-  "talkingmushroom-southcorkuscave-3.ogg": {
+  "talkingmushroom-southcorkuscave-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:talkingmushroom-southcorkuscave-3.ogg", "stream": true}]
+    "sounds": [{ "name": "wynnvp:talkingmushroom-southcorkuscave-3", "stream": true}]
   },
 
 
