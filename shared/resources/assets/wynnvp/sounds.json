@@ -9258,25 +9258,10 @@
 
 
 
-  "flightindistress-passengercontrollant-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-passengercontrollant-1", "stream": true}]
-  },
+
   "flightindistress-shipcrew-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:flightindistress-shipcrew-1", "stream": true}]
-  },
-  "flightindistress-broadcast-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-broadcast-1", "stream": true}]
-  },
-  "flightindistress-attendant-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-attendant-1", "stream": true}]
-  },
-  "flightindistress-captainackbar-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-1", "stream": true}]
   },
   "flightindistress-passengercasula-1": {
     "category": "voice",
@@ -9290,29 +9275,9 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:flightindistress-passengerjohn-1", "stream": true}]
   },
-  "flightindistress-missingchild-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-missingchild-1", "stream": true}]
-  },
   "flightindistress-passengernancy-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:flightindistress-passengernancy-2", "stream": true}]
-  },
-  "flightindistress-captainackbar-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-2", "stream": true}]
-  },
-  "flightindistress-captainackbar-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-3", "stream": true}]
-  },
-  "flightindistress-engineereric-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-1", "stream": true}]
-  },
-  "flightindistress-engineereric-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-2", "stream": true}]
   },
   "flightindistress-sub-engineerakot-1": {
     "category": "voice",
@@ -9326,22 +9291,243 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:flightindistress-passengerjeremy-1", "stream": true}]
   },
-  "flightindistress-piratecaptain-1": {
+  "flightindistress-calo-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-piratecaptain-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:flightindistress-calo-1", "stream": true}]
   },
-  "flightindistress-capturedprisoner-1": {
+  "flightindistress-airshipclerk-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:flightindistress-airshipclerk-1", "stream": true}]
+  },
+  "flightindistress-airshipclerk-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-airshipclerk-2", "stream": true}]
+  },
+  "flightindistress-airshipclerk-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-airshipclerk-3", "stream": true}]
+  },
+  "flightindistress-airshipclerk-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-airshipclerk-4", "stream": true}]
+  },
+  "flightindistress-airshipclerk-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-airshipclerk-5", "stream": true}]
+  },
+  "flightindistress-airshipclerk-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-airshipclerk-6", "stream": true}]
+  },
+  "flightindistress-airshipclerk-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-airshipclerk-7", "stream": true}]
+  },
+  "flightindistress-airshipclerk-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-airshipclerk-8", "stream": true}]
+  },
+  "flightindistress-attendant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-attendant-1", "stream": true}]
+  },
+  "flightindistress-attendant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-attendant-2", "stream": true}]
+  },
+  "flightindistress-captainackbar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-1", "stream": true}]
+  },
+  "flightindistress-captainackbar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-2", "stream": true}]
+  },
+  "flightindistress-captainackbar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-3", "stream": true}]
   },
   "flightindistress-captainackbar-4": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-4", "stream": true}]
   },
-  "flightindistress-calo-1": {
+  "flightindistress-captainackbar-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:flightindistress-calo-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-5", "stream": true}]
   },
+  "flightindistress-captainackbar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-6", "stream": true}]
+  },
+  "flightindistress-captainackbar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-7", "stream": true}]
+  },
+  "flightindistress-captainackbar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-8", "stream": true}]
+  },
+  "flightindistress-captainackbar-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-9", "stream": true}]
+  },
+  "flightindistress-captainackbar-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-10", "stream": true}]
+  },
+  "flightindistress-captainackbar-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-11", "stream": true}]
+  },
+  "flightindistress-captainackbar-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-12", "stream": true}]
+  },
+  "flightindistress-captainackbar-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-13", "stream": true}]
+  },
+  "flightindistress-captainackbar-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-14", "stream": true}]
+  },
+  "flightindistress-captainackbar-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-15", "stream": true}]
+  },
+  "flightindistress-captainackbar-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-16", "stream": true}]
+  },
+  "flightindistress-captainackbar-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-17", "stream": true}]
+  },
+  "flightindistress-captainackbar-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-18", "stream": true}]
+  },
+  "flightindistress-captainackbar-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-19", "stream": true}]
+  },
+  "flightindistress-captainackbar-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-20", "stream": true}]
+  },
+  "flightindistress-captainackbar-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-21", "stream": true}]
+  },
+  "flightindistress-captainackbar-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-22", "stream": true}]
+  },
+  "flightindistress-captainackbar-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-23", "stream": true}]
+  },
+  "flightindistress-captainackbar-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-24", "stream": true}]
+  },
+  "flightindistress-captainackbar-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-25", "stream": true}]
+  },
+  "flightindistress-captainackbar-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-26", "stream": true}]
+  },
+  "flightindistress-captainackbar-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-27", "stream": true}]
+  },
+  "flightindistress-captainackbar-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-28", "stream": true}]
+  },
+  "flightindistress-captainackbar-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-29", "stream": true}]
+  },
+  "flightindistress-captainackbar-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-30", "stream": true}]
+  },
+  "flightindistress-captainackbar-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-31", "stream": true}]
+  },
+  "flightindistress-captainackbar-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-32", "stream": true}]
+  },
+  "flightindistress-airshipcrewmember-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-airshipcrewmember-1", "stream": true}]
+  },
+  "flightindistress-captainackbar-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-33", "stream": true}]
+  },
+  "flightindistress-captainackbar-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-34", "stream": true}]
+  },
+  "flightindistress-captainackbar-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-35", "stream": true}]
+  },
+  "flightindistress-captainackbar-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-captainackbar-36", "stream": true}]
+  },
+  "flightindistress-missingchild-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-missingchild-1", "stream": true}]
+  },
+  "flightindistress-missingchild-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-missingchild-2", "stream": true}]
+  },
+  "flightindistress-missingchild-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-missingchild-3", "stream": true}]
+  },
+  "flightindistress-missingchild-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-missingchild-4", "stream": true}]
+  },
+  "flightindistress-missingchild-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-missingchild-5", "stream": true}]
+  },
+  "flightindistress-missingchild-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-missingchild-6", "stream": true}]
+  },
+  "flightindistress-engineinstructions-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineinstructions-1", "stream": true}]
+  },
+  "flightindistress-engineinstructions-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineinstructions-2", "stream": true}]
+  },
+  "flightindistress-engineinstructions-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineinstructions-3", "stream": true}]
+  },
+  "flightindistress-broadcast-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-broadcast-1", "stream": true}]
+  },
+  "flightindistress-broadcast-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-broadcast-2", "stream": true}]
+  },
+
 
 
 
