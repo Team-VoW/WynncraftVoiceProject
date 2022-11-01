@@ -4269,6 +4269,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-14", "stream": true}]
   },
+  "murdermystery-blackjackdealer-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:murdermystery-blackjackdealer-15", "stream": true}]
+  },
   "murdermystery-rohem-11": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:murdermystery-rohem-11", "stream": true}]
