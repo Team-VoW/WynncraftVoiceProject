@@ -1899,6 +1899,13 @@ public class Sounds {
         s.addSound("[1/1] Aledar: Well, we made it. Guess we better head inside and talk to the King.", "kingsrecruit-aledar-27", false);
         s.addSound("[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.", "kingsrecruit-ragnisking-1", true);
         s.addSound("[1/7] Ragni's King: Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.", "kingsrecruit-ragnisking-2", false);
+        s.addSound("[2/7] Ragni's King: Welcome to the Wynn Province!", "kingsrecruit-ragnisking-3", false);
+        s.addSound("[3/7] Ragni's King: This is the noble fort of Ragni, one of the oldest and most influential cities in the province!", "kingsrecruit-ragnisking-4", false);
+        s.addSound("[4/7] Ragni's King: Your job as a soldier of Wynn is to stop the growth of the monsters that are ravaging the province.", "kingsrecruit-ragnisking-5", false);
+        s.addSound("[5/7] Ragni's King: You might want to train a little more before hand, though. Many lives are lost everyday...", "kingsrecruit-ragnisking-6", false);
+        s.addSound("[6/7] Ragni's King: ... Anyway, good luck! If you are lost, use map.wynncraft.com as it is very useful if you don't know where to go.", "kingsrecruit-ragnisking-7", false);
+        s.addSound("[7/7] Ragni's King: Take this  [1 Ragni Teleport Scroll] too! It will bring you back here if you use it.", "kingsrecruit-ragnisking-8", false);
+
         s.addSound("[1/1] Tasim: Just Right-Click the Loot chest to open it.", "kingsrecruit-tasim-22", false);
         s.addSound("[1/1] Tasim: Right-click on the Soldier to talk to him.", "kingsrecruit-tasim-23", false);
         s.addSound("[1/1] Tasim: Let's enter the cave and get some armour, soldier!", "kingsrecruit-tasim-24", false);

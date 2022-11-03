@@ -464,6 +464,31 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingsrecruit-ragnisking-2", "stream": true}]
   },
+  "kingsrecruit-ragnisking-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-ragnisking-3", "stream": true}]
+  },
+  "kingsrecruit-ragnisking-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-ragnisking-4", "stream": true}]
+  },
+  "kingsrecruit-ragnisking-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-ragnisking-5", "stream": true}]
+  },
+  "kingsrecruit-ragnisking-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-ragnisking-6", "stream": true}]
+  },
+  "kingsrecruit-ragnisking-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-ragnisking-7", "stream": true}]
+  },
+  "kingsrecruit-ragnisking-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingsrecruit-ragnisking-8", "stream": true}]
+  },
+
   "kingsrecruit-guard2-23": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingsrecruit-guard2-23", "stream": true}]
