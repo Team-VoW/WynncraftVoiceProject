@@ -960,6 +960,26 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enzansbrother-enzan-3", "stream": true}]
   },
+  "enzansbrother-enzan-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-enzan-4", "stream": true}]
+  },
+  "enzansbrother-enzan-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-enzan-5", "stream": true}]
+  },
+  "enzansbrother-enzan-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-enzan-6", "stream": true}]
+  },
+  "enzansbrother-enzan-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-enzan-7", "stream": true}]
+  },
+  "enzansbrother-enzan-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-enzan-8", "stream": true}]
+  },
   "enzansbrother-therck-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enzansbrother-therck-1", "stream": true}]
@@ -980,6 +1000,59 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enzansbrother-therck-5", "stream": true}]
   },
+  "enzansbrother-therck-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-6", "stream": true}]
+  },
+  "enzansbrother-therck-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-7", "stream": true}]
+  },
+  "enzansbrother-therck-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-8", "stream": true}]
+  },
+  "enzansbrother-therck-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-9", "stream": true}]
+  },
+  "enzansbrother-therck-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-10", "stream": true}]
+  },
+  "enzansbrother-therck-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-11", "stream": true}]
+  },
+  "enzansbrother-therck-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-12", "stream": true}]
+  },
+  "enzansbrother-therck-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-13", "stream": true}]
+  },
+  "enzansbrother-therck-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-14", "stream": true}]
+  },
+  "enzansbrother-therck-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-15", "stream": true}]
+  },
+  "enzansbrother-therck-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-16", "stream": true}]
+  },
+  "enzansbrother-therck-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-17", "stream": true}]
+  },
+  "enzansbrother-therck-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enzansbrother-therck-18", "stream": true}]
+  },
+
 
 
   "reincarnation-batleu-1": {

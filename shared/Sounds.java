@@ -1004,14 +1004,33 @@ public class Sounds {
         s.addSound("[1/1] Ope: Thank you again for your help!", "infestedplants-ope-4", false);
 
         //Enzans Brother
-        s.addSound("[1/6] Therck: Excuse me? Can't you see I'm busy?", "enzansbrother-therck-1", false);
-        s.addSound("[1/7] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrother-therck-2", false);
-        s.addSound("[1/2] Therck: Well? Have you brought me [1 Energy Mushroom]?", "enzansbrother-therck-3", false);
-        s.addSound("[1/2] Therck: Go on, I don't have time for you. My brother keeps sending me people all the time.", "enzansbrother-therck-4", false);
-        s.addSound("[1/1] Therck: I don't have time to talk to you right now, move along!", "enzansbrother-therck-5", false);
         s.addSound("[1/5] Enzan: I see you want to venture into the wilderness!", "enzansbrother-enzan-1", false);
-        s.addSound("[1/2] Enzan: What are you waiting for?", "enzansbrother-enzan-2", false);
-        s.addSound("[1/1] Enzan: Hey there! Still doing well after all this time?", "enzansbrother-enzan-3", false);
+        s.addSound("[2/5] Enzan: My name is Enzan, and I am now a retired knight. I've spent most of my life fighting for Ragni's army, just like you.", "enzansbrother-enzan-2", false);
+        s.addSound("[3/5] Enzan: I know how hard it must be to be a recruit at this time, so I've got something that could help you! Well, I don't have it, but my brother does!", "enzansbrother-enzan-3", false);
+        s.addSound("[4/5] Enzan: Follow this road, he's just past the item identifier, you can't miss him. Just head to the big set of stairs, past the item identifier.", "enzansbrother-enzan-4", false);
+        s.addSound("[5/5] Enzan: Tell him I sent you! He can be such a jerk to strangers sometimes, especially when he's focused on his stairs...", "enzansbrother-enzan-5", false);
+        s.addSound("[1/2] Enzan: What are you waiting for?", "enzansbrother-enzan-6", false);
+        s.addSound("[2/2] Enzan: My brother shouldn't be hard to find, he's obsessed with stairs. He should be near the item identifier.", "enzansbrother-enzan-7", false);
+        s.addSound("[1/1] Enzan: Hey there! Still doing well after all this time?", "enzansbrother-enzan-8", false);
+        s.addSound("[1/6] Therck: Excuse me? Can't you see I'm busy?", "enzansbrother-therck-1", false);
+        s.addSound("[2/6] Therck: Oh, my brother? Sorry, I didn't know.", "enzansbrother-therck-2", false);
+        s.addSound("[3/6] Therck: Why yes, I actually have something that could help you...", "enzansbrother-therck-3", false);
+        s.addSound("[4/6] Therck: But before I give it to you, why don't you h elp me with something first?", "enzansbrother-therck-4", false);
+        s.addSound("[5/6] Therck: You see, there's a special kind of mushroom that grows in this cave. I hear it has certain... energizing properties.", "enzansbrother-therck-5", false);
+        s.addSound("[6/6] Therck: If you can bring me [1 Energy Mushroom], I'll help you out. Enter the cave down the stairs, and bring me that mushroom!", "enzansbrother-therck-6", false);
+        s.addSound("[1/7] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrother-therck-7", false);
+        s.addSound("[2/7] Therck: Excellent... Now I might finally be able to climb these stairs!", "enzansbrother-therck-8", false);
+        s.addSound("[3/7] Therck: Who knows, maybe there's a treasure or something up there?", "enzansbrother-therck-9", false);
+        s.addSound("[4/7] Therck: Take this ring. It's an accessory item! You can identify it at the nearby Item Identifier.", "enzansbrother-therck-10", false);
+        s.addSound("[5/7] Therck: It's a very good ring for someone starting out like you. There's just one small issue...", "enzansbrother-therck-11", false);
+        s.addSound("[6/7] Therck: To wear it, you must help my friend back in Ragni. He's been pestering me for days about needing help.", "enzansbrother-therck-12", false);
+        s.addSound("[7/7] Therck: Open your [Quest Book] and Right-Click on Cook Assistant to see if you can help.", "enzansbrother-therck-13", false);
+        s.addSound("[1/2] Therck: Well? Have you brought me [1 Energy Mushroom]?", "enzansbrother-therck-14", false);
+        s.addSound("[2/2] Therck: No? Then what are you waiting for, go back into that cave!", "enzansbrother-therck-15", false);
+        s.addSound("[1/2] Therck: Go on, I don't have time for you. My brother keeps sending me people all the time.", "enzansbrother-therck-16", false);
+        s.addSound("[2/2] Therck: They keep coming expecting free stuff! I don't have time for this, I still need to climb these stairs...", "enzansbrother-therck-17", false);
+        s.addSound("[1/1] Therck: I don't have time to talk to you right now, move along!", "enzansbrother-therck-18", false);
+
 
         //Reincarnation
         s.addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", true);
@@ -1910,7 +1929,7 @@ public class Sounds {
         s.addSound("[1/1] Aledar: Hey, soldier, the castle's the other way!", "kingsrecruit-aledar-52", true);
 
 
-//Recover the past
+        //Recover the past
         s.addSound("[1/8] Dr. Picard: SUCCESS! I can see clearly now.. My memories from years ago!", "recoverthepast-drpicard-1", false);
         s.addSound("[2/8] Dr. Picard: Oh, a soldier! Are you by any chance from Fruma?", "recoverthepast-drpicard-2", false);
         s.addSound("[3/8] Dr. Picard: Tell me, do you remember anything about where you came from?", "recoverthepast-drpicard-3", false);
