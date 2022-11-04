@@ -997,11 +997,6 @@ public class Sounds {
         s.addSound("[1/6] Nohno: Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.", "cluckcluck-nohno-1", false);
         s.addSound("[1/2] Nohno: What is this?! His feather? What did you do to Cluckles?! I wanted you to take care of him, not kill him!", "cluckcluck-nohno-2", false);
 
-        //Infested Plants
-        s.addSound("[1/5] Ope: Hello! Young traveler.", "infestedplants-ope-1", false);
-        s.addSound("[1/3] Ope: I've literally been sitting here for hours, maybe not hours, at least five minutes!", "infestedplants-ope-2", false);
-        s.addSound("[1/2] Ope: Hey you! I was attacked by a spider just now.", "infestedplants-ope-3", false);
-        s.addSound("[1/1] Ope: Thank you again for your help!", "infestedplants-ope-4", false);
 
         //Enzans Brother
         s.addSound("[1/5] Enzan: I see you want to venture into the wilderness!", "enzansbrother-enzan-1", false);
@@ -1046,6 +1041,19 @@ public class Sounds {
         s.addSound("[3/4] The Cook: You can get milk by buying it from a merchant there as well.", "cookassistant-thecook-12", false);
         s.addSound("[4/4] The Cook: You can get wheat grains by farming some from the fields close to Ragni's north entrance.", "cookassistant-thecook-13", false);
         s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-14", false);
+
+        //Infested Plants
+        s.addSound("[1/5] Ope: Hello! Young traveller.", "infestedplants-ope-1", false);
+        s.addSound("[2/5] Ope: I was recently bit by a spider! Can you believe it? I know, shocking.", "infestedplants-ope-2", false);
+        s.addSound("[3/5] Ope: Anyway, I'm not fit enough to venture into an infested cave filled with creepy crawlies to get the medical herb to cure myself.", "infestedplants-ope-3", false);
+        s.addSound("[4/5] Ope: You look like you work as a soldier of sorts. We can clearly see that. You soldiers never had fashion as your strong suit.", "infestedplants-ope-4", false);
+        s.addSound("[5/5] Ope: Anyway, the cave is a bit further away from us but the only way in is through the rooftops. I started building a way up in this tree just behind me, good luck!", "infestedplants-ope-5", false);
+        s.addSound("[1/3] Ope: I've literally been sitting here for hours, maybe not hours, at least five minutes!", "infestedplants-ope-6", false);
+        s.addSound("[2/3] Ope: Thanks, even though it took you a while I'll give you a small reward.", "infestedplants-ope-7", false);
+        s.addSound("[3/3] Ope: Take that money and head to Detlas won't ya? You can maybe buy some better clothing, because you need it.", "infestedplants-ope-8", false);
+        s.addSound("[1/2] Ope: Hey you! I was attacked by a spider just now.", "infestedplants-ope-9", false);
+        s.addSound("[2/2] Ope: Come back when you are a bit stronger than... that. Level 4 should work.", "infestedplants-ope-10", false);
+        s.addSound("[1/1] Ope: Thank you again for your help!", "infestedplants-ope-11", false);
 
 
         //Reincarnation

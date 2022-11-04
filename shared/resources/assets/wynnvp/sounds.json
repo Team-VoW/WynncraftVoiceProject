@@ -971,6 +971,35 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestedplants-ope-4", "stream": true}]
   },
+  "infestedplants-ope-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-5", "stream": true}]
+  },
+  "infestedplants-ope-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-6", "stream": true}]
+  },
+  "infestedplants-ope-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-7", "stream": true}]
+  },
+  "infestedplants-ope-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-8", "stream": true}]
+  },
+  "infestedplants-ope-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-9", "stream": true}]
+  },
+  "infestedplants-ope-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-10", "stream": true}]
+  },
+  "infestedplants-ope-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-11", "stream": true}]
+  },
+
 
 
   "enzansbrother-enzan-1": {
