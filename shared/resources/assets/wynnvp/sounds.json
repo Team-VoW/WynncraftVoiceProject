@@ -13986,6 +13986,35 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-7", "stream": true}]
   },
+  "poisoningthepest-farmercevalus-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-8", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-9", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-10", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-11", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-12", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-13", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-14", "stream": true}]
+  },
+
 
 
   "riseofthequartron-nasea-1": {
