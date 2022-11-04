@@ -1019,17 +1019,33 @@ public class Sounds {
         s.addSound("[5/6] Therck: You see, there's a special kind of mushroom that grows in this cave. I hear it has certain... energizing properties.", "enzansbrother-therck-5", false);
         s.addSound("[6/6] Therck: If you can bring me [1 Energy Mushroom], I'll help you out. Enter the cave down the stairs, and bring me that mushroom!", "enzansbrother-therck-6", false);
         s.addSound("[1/7] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrother-therck-7", false);
-        s.addSound("[2/7] Therck: Excellent... Now I might be able to finally climb these stairs!", "enzansbrother-therck-8", false);
-        s.addSound("[3/7] Therck: Who knows, maybe there's a treasure up there?", "enzansbrother-therck-9", false);
+        s.addSound("[2/7] Therck: Excellent... Now I might finally be able to climb these stairs!", "enzansbrother-therck-8", false);
+        s.addSound("[3/7] Therck: Who knows, maybe there's a treasure or something up there?", "enzansbrother-therck-9", false);
         s.addSound("[4/7] Therck: Take this ring. It's an accessory item! You can identify it at the nearby Item Identifier.", "enzansbrother-therck-10", false);
         s.addSound("[5/7] Therck: It's a very good ring for someone starting out like you. There's just one small issue...", "enzansbrother-therck-11", false);
         s.addSound("[6/7] Therck: To wear it, you must help my friend back in Ragni. He's been pestering me for days about needing help.", "enzansbrother-therck-12", false);
         s.addSound("[7/7] Therck: Open your [Quest Book] and Right-Click on Cook Assistant to see if you can help.", "enzansbrother-therck-13", false);
-        s.addSound("[1/2] Therck: Well? Have you brought me one Energy Mushroom?", "enzansbrother-therck-14", false);
+        s.addSound("[1/2] Therck: Well? Have you brought me [1 Energy Mushroom]?", "enzansbrother-therck-14", false);
         s.addSound("[2/2] Therck: No? Then what are you waiting for, go back into that cave!", "enzansbrother-therck-15", false);
         s.addSound("[1/2] Therck: Go on, I don't have time for you. My brother keeps sending me people all the time.", "enzansbrother-therck-16", false);
         s.addSound("[2/2] Therck: They keep coming expecting free stuff! I don't have time for this, I still need to climb these stairs...", "enzansbrother-therck-17", false);
         s.addSound("[1/1] Therck: I don't have time to talk to you right now, move along!", "enzansbrother-therck-18", false);
+
+        //Cook Assistant
+        s.addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant-thecook-1", false);
+        s.addSound("[2/4] The Cook: The King ordered me to bake cakes for all those new recruits!", "cookassistant-thecook-2", false);
+        s.addSound("[3/4] The Cook: Unfortunately I don't have the ingredients to make them, and nobody sells those items in the fort!", "cookassistant-thecook-3", false);
+        s.addSound("[4/4] The Cook: You think you could get me 2 Eggs, 1 Bucket of Milk and 3 Wheat Grains really quickly?", "cookassistant-thecook-4", false);
+        s.addSound("[1/3] The Cook: Great! You got all the ingredients!", "cookassistant-thecook-5", false);
+        s.addSound("[2/3] The Cook: I can't thank you enough! Here, take these emeralds and armour for all your trouble.", "cookassistant-thecook-6", false);
+        s.addSound("[3/3] The Cook: You should explore around to become stronger. I hear there might be work to do in Nivla Woods.", "cookassistant-thecook-7", false);
+        s.addSound("[1/2] The Cook: I urgently need help! But you aren't experienced enough to help me, yet.", "cookassistant-thecook-8", false);
+        s.addSound("[2/2] The Cook: Come back as soon as you reach level 3.", "cookassistant-thecook-9", false);
+        s.addSound("[1/4] The Cook: I still need [2 Eggs], [1 Bucket of Milk] and [3 Wheat Grains].", "cookassistant-thecook-10", false);
+        s.addSound("[2/4] The Cook: You can get eggs at the ranch north of Ragni, by killing some chickens.", "cookassistant-thecook-11", false);
+        s.addSound("[3/4] The Cook: You can get milk by buying it from a merchant there as well.", "cookassistant-thecook-12", false);
+        s.addSound("[4/4] The Cook: You can get wheat grains by farming some from the fields close to Ragni's north entrance.", "cookassistant-thecook-13", false);
+        s.addSound("[1/1] The Cook: You should practive your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-14", false);
 
 
         //Reincarnation
@@ -1105,12 +1121,6 @@ public class Sounds {
         s.addSound("[1/3] Burtur: Ah, you're back! We were getting a tad worried about you. Were you able to figure anything out in the chapel there?", "lazaruspit-burtur-17", false);
         s.addSound("[10/11] Burtur: I'll stay back at the town square, in case the undead attack again. Give me a shout if you find something you aren't sure about.", "lazaruspit-burtur-18", true);
 
-        //Cook Assistant
-        s.addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant-thecook-1", false);
-        s.addSound("[1/3] The Cook: Great! You got all the ingredients!", "cookassistant-thecook-2", false);
-        s.addSound("[1/2] The Cook: I urgently need help! But you aren't experienced enough to help me, yet.", "cookassistant-thecook-3", false);
-        s.addSound("[1/4] The Cook: I still need [2 Eggs], [1 Bucket of Milk] and [3 Wheat Grains].", "cookassistant-thecook-4", false);
-        s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-5", false);
 
         //Clearing the Camps
         s.addSound("[1/6] Captain Kymer: Aha, another Ragni soldier, eh? Well, a warm welcome to you.", "clearingthecamps-kymer-1", false);
@@ -1899,6 +1909,13 @@ public class Sounds {
         s.addSound("[1/1] Aledar: Well, we made it. Guess we better head inside and talk to the King.", "kingsrecruit-aledar-27", false);
         s.addSound("[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.", "kingsrecruit-ragnisking-1", true);
         s.addSound("[1/7] Ragni's King: Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.", "kingsrecruit-ragnisking-2", false);
+        s.addSound("[2/7] Ragni's King: Welcome to the Wynn Province!", "kingsrecruit-ragnisking-3", false);
+        s.addSound("[3/7] Ragni's King: This is the noble fort of Ragni, one of the oldest and most influential cities in the province!", "kingsrecruit-ragnisking-4", false);
+        s.addSound("[4/7] Ragni's King: Your job as a soldier of Wynn is to stop the growth of the monsters that are ravaging the province.", "kingsrecruit-ragnisking-5", false);
+        s.addSound("[5/7] Ragni's King: You might want to train a little more before hand, though. Many lives are lost everyday...", "kingsrecruit-ragnisking-6", false);
+        s.addSound("[6/7] Ragni's King: ... Anyway, good luck! If you are lost, use map.wynncraft.com as it is very useful if you don't know where to go.", "kingsrecruit-ragnisking-7", false);
+        s.addSound("[7/7] Ragni's King: Take this  [1 Ragni Teleport Scroll] too! It will bring you back here if you use it.", "kingsrecruit-ragnisking-8", false);
+
         s.addSound("[1/1] Tasim: Just Right-Click the Loot chest to open it.", "kingsrecruit-tasim-22", false);
         s.addSound("[1/1] Tasim: Right-click on the Soldier to talk to him.", "kingsrecruit-tasim-23", false);
         s.addSound("[1/1] Tasim: Let's enter the cave and get some armour, soldier!", "kingsrecruit-tasim-24", false);
@@ -3868,14 +3885,22 @@ public class Sounds {
         s.addSound("[1/1] Hermit: Think you can waltz in my humble abode and get across my bridge? Get out!", "canyoncondor-hermit-5", false);
         s.addSound("[1/5] Svin: Traveler! You have returned! Tell me, what have you learned?", "canyoncondor-svin-2", false);
 
-        //Poisoning the pest
+        //Poisoning the Pest
         s.addSound("[1/5] Farmer Cevalus: Ah, looks like a fresh recruit!", "poisoningthepest-farmercevalus-1", false);
-        s.addSound("[1/1] Farmer Cevalus: Have you at least attempted to get rid of that pest yet? Remember, the water reservoir is on the other end of this here field.", "poisoningthepest-farmercevalus-2", true);
-        s.addSound("[1/2] Farmer Cevalus: Look at the body!", "poisoningthepest-farmercevalus-3", true);
-        s.addSound("[1/3] Farmer Cevalus: Great job getting rid of that corrupt varmint, I can't thank you enough!", "poisoningthepest-farmercevalus-4", false);
-        s.addSound("[1/1] Farmer Cevalus: Hurry and enable the sprinklers with the button near the farm's entrance before it can do any more damage!", "poisoningthepest-farmercevalus-5", true);
-        s.addSound("[1/2] Farmer Cevalus: Just one more to kill.", "poisoningthepest-farmercevalus-6", true);
-        s.addSound("[2/2] Farmer Cevalus: Well done! Come back to me for a reward.", "poisoningthepest-farmercevalus-7", true);
+        s.addSound("[2/5] Farmer Cevalus: Recently, my dear step-father passed away and I buried him out back. Well, he's not there anymore... the corruption has got to his body.", "poisoningthepest-farmercevalus-2", false);
+        s.addSound("[3/5] Farmer Cevalus: He became an invincible beast! We should use my fresh Corkian sprinklers t o poison the pest! I have a spare [1 Crate of Rat Poison] here...", "poisoningthepest-farmercevalus-3", false);
+        s.addSound("[4/5] Farmer Cevalus: I am too weak to get past the pest myself, could you help me out recruit?", "poisoningthepest-farmercevalus-4", false);
+        s.addSound("[5/5] Farmer Cevalus: If you poison the water reservoir on the other side of the farm field after you enter, you can watch as the pest makes his way back to the grave!", "poisoningthepest-farmercevalus-5", false);
+        s.addSound("[1/1] Farmer Cevalus: Have you at least attempted to get rid of that pest yet? Remember, the water reservoir is on the other end of this here field.", "poisoningthepest-farmercevalus-6", false);
+        s.addSound("[1/2] Farmer Cevalus: Look at the body!", "poisoningthepest-farmercevalus-7", false);
+        s.addSound("[2/2] Farmer Cevalus: There are Pests burrowing out of it. KILL THEM!", "poisoningthepest-farmercevalus-8", false);
+        s.addSound("[1/3] Farmer Cevalus: Great job getting rid of that corrupt varmint, I can't thank you enough!", "poisoningthepest-farmercevalus-9", false);
+        s.addSound("[2/3] Farmer Cevalus: I mean... poor step-dad. I don't know how I'll explain this to the wife...", "poisoningthepest-farmercevalus-10", false);
+        s.addSound("[3/3] Farmer Cevalus: Take this well-deserved reward for the risky actions you took today. I also give you access to my second farm in the back, take whatever you need there!", "poisoningthepest-farmercevalus-11", false);
+        s.addSound("[1/1] Farmer Cevalus: Hurry and enable the sprinklers with the button near the farm's entrance before it can do any more damage!", "poisoningthepest-farmercevalus-12", true);
+        s.addSound("[1/2] Farmer Cevalus: Just one more to kill.", "poisoningthepest-farmercevalus-13", true);
+        s.addSound("[2/2] Farmer Cevalus: Well done! Come back to me for a reward.", "poisoningthepest-farmercevalus-14", true);
+
 
         //Crop Failure
         s.addSound("[1/7] Anast: Grr...that no-good, lying, cheating, thieving...graaah!", "cropfailure-anast-1", false);

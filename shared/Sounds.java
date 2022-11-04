@@ -1031,6 +1031,22 @@ public class Sounds {
         s.addSound("[2/2] Therck: They keep coming expecting free stuff! I don't have time for this, I still need to climb these stairs...", "enzansbrother-therck-17", false);
         s.addSound("[1/1] Therck: I don't have time to talk to you right now, move along!", "enzansbrother-therck-18", false);
 
+        //Cook Assistant
+        s.addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant-thecook-1", false);
+        s.addSound("[2/4] The Cook: The King ordered me to bake cakes for all those new recruits!", "cookassistant-thecook-2", false);
+        s.addSound("[3/4] The Cook: Unfortunately I don't have the ingredients to make them, and nobody sells those items in the fort!", "cookassistant-thecook-3", false);
+        s.addSound("[4/4] The Cook: You think you could get me 2 Eggs, 1 Bucket of Milk and 3 Wheat Grains really quickly?", "cookassistant-thecook-4", false);
+        s.addSound("[1/3] The Cook: Great! You got all the ingredients!", "cookassistant-thecook-5", false);
+        s.addSound("[2/3] The Cook: I can't thank you enough! Here, take these emeralds and armour for all your trouble.", "cookassistant-thecook-6", false);
+        s.addSound("[3/3] The Cook: You should explore around to become stronger. I hear there might be work to do in Nivla Woods.", "cookassistant-thecook-7", false);
+        s.addSound("[1/2] The Cook: I urgently need help! But you aren't experienced enough to help me, yet.", "cookassistant-thecook-8", false);
+        s.addSound("[2/2] The Cook: Come back as soon as you reach level 3.", "cookassistant-thecook-9", false);
+        s.addSound("[1/4] The Cook: I still need [2 Eggs], [1 Bucket of Milk] and [3 Wheat Grains].", "cookassistant-thecook-10", false);
+        s.addSound("[2/4] The Cook: You can get eggs at the ranch north of Ragni, by killing some chickens.", "cookassistant-thecook-11", false);
+        s.addSound("[3/4] The Cook: You can get milk by buying it from a merchant there as well.", "cookassistant-thecook-12", false);
+        s.addSound("[4/4] The Cook: You can get wheat grains by farming some from the fields close to Ragni's north entrance.", "cookassistant-thecook-13", false);
+        s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-14", false);
+
 
         //Reincarnation
         s.addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", true);
@@ -1105,12 +1121,6 @@ public class Sounds {
         s.addSound("[1/3] Burtur: Ah, you're back! We were getting a tad worried about you. Were you able to figure anything out in the chapel there?", "lazaruspit-burtur-17", false);
         s.addSound("[10/11] Burtur: I'll stay back at the town square, in case the undead attack again. Give me a shout if you find something you aren't sure about.", "lazaruspit-burtur-18", true);
 
-        //Cook Assistant
-        s.addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant-thecook-1", false);
-        s.addSound("[1/3] The Cook: Great! You got all the ingredients!", "cookassistant-thecook-2", false);
-        s.addSound("[1/2] The Cook: I urgently need help! But you aren't experienced enough to help me, yet.", "cookassistant-thecook-3", false);
-        s.addSound("[1/4] The Cook: I still need [2 Eggs], [1 Bucket of Milk] and [3 Wheat Grains].", "cookassistant-thecook-4", false);
-        s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-5", false);
 
         //Clearing the Camps
         s.addSound("[1/6] Captain Kymer: Aha, another Ragni soldier, eh? Well, a warm welcome to you.", "clearingthecamps-kymer-1", false);

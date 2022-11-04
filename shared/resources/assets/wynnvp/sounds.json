@@ -1422,6 +1422,43 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cookassistant-thecook-5", "stream": true}]
   },
+  "cookassistant-thecook-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-6", "stream": true}]
+  },
+  "cookassistant-thecook-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-7", "stream": true}]
+  },
+  "cookassistant-thecook-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-8", "stream": true}]
+  },
+  "cookassistant-thecook-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-9", "stream": true}]
+  },
+  "cookassistant-thecook-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-10", "stream": true}]
+  },
+  "cookassistant-thecook-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-11", "stream": true}]
+  },
+  "cookassistant-thecook-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-12", "stream": true}]
+  },
+  "cookassistant-thecook-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-13", "stream": true}]
+  },
+  "cookassistant-thecook-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cookassistant-thecook-14", "stream": true}]
+  },
+
 
 
   "clearingthecamps-kymer-1": {
