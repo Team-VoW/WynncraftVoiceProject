@@ -1,5 +1,6 @@
 package com.wynnvp.wynncraftvp.npc;
 
+import net.fabricmc.loader.impl.lib.sat4j.core.Vec;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.entity.Entity;
@@ -50,23 +51,27 @@ public class NPCHandler {
     private static Entity getHead(Entity entity) {
         ClientPlayerEntity player = MinecraftClient.getInstance().player;
         assert player != null;
-        double closestDistance = 64;
+        double closestSquaredXYDistance = 1.3;
         Entity childEntity = null;
         Vec3d npcEyePos = entity.getEyePos().add(0, -0.2, 0);
-        for (Entity entityInWorld : player.clientWorld.getEntities()) { // iterate over every single entity
-            double dist = entityInWorld.getEyePos().squaredDistanceTo(npcEyePos);
 
-            if (closestDistance < dist || entityInWorld.getEyePos().y > npcEyePos.y + 0.4) { // find closest
+
+        for (Entity entityInWorld : player.clientWorld.getEntities()) { // iterate over every single entity
+            // double dist = entityInWorld.getEyePos().squaredDistanceTo(npcEyePos);
+           // Vec3d entityEyePos = entityInWorld.getEyePos();
+            double xzBlockDistance = squaredXZDistance(entityInWorld.getEyePos(), npcEyePos);
+
+            if (closestSquaredXYDistance < xzBlockDistance
+                    || entityInWorld.getEyePos().y > npcEyePos.y + 0.4) { // find closest
                 continue;
             }
             if (!entityInWorld.isInvisible()) {
-                closestDistance = dist;
+                closestSquaredXYDistance = xzBlockDistance;
                 childEntity = entityInWorld;
                 continue;
             }
 
             if (isArmourStand(entityInWorld)) {
-                closestDistance = dist;
                 childEntity = entityInWorld;
                 break;
             }
@@ -74,6 +79,13 @@ public class NPCHandler {
 
         return childEntity;
     }
+
+    private static double squaredXZDistance(Vec3d first, Vec3d second) {
+        double d = first.x - second.x;
+        double f = first.z - second.z;
+        return d * d + f * f;
+    }
+
 
     public static boolean isArmourStand(Entity entity) {
         for (ItemStack item : entity.getItemsEquipped()) {
@@ -143,6 +155,7 @@ public class NPCHandler {
             return false;
         }
         // is closer than 200 meters/blocks/generic measurement unit
+        assert MinecraftClient.getInstance().player != null;
         if (c.name.getEyePos().distanceTo(MinecraftClient.getInstance().player.getEyePos()) > 200) {
             return false;
         }
