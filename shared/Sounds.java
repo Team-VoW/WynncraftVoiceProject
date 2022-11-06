@@ -1273,18 +1273,29 @@ public class Sounds {
         s.addSound("[1/7] Piere: Oh sweet baby bovine, my house, what am I going to do? Wait, who are you?", "blazingretribution-piere-1", false);
 
         //Potion Making
+        s.addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmaking-theassistant-1", false);
+        s.addSound("[2/5] The Assistant: My master...wishes to create a very dangerous potion...a transformative elixir of invincibility...", "potionmaking-theassistant-2", false);
+        s.addSound("[3/5] The Assistant: I was...in support of this... but then, he accrued essence of... the corruption. I had to run away...", "potionmaking-theassistant-3", false);
+        s.addSound("[4/5] The Assistant: I fear... that he may be going... too far. I need your help...", "potionmaking-theassistant-4", false);
+        s.addSound("[5/5] The Assistant: Get me... [8 Red Mushroom], they can be found outside the east gate behind me.", "potionmaking-theassistant-5", false);
+        s.addSound("[1/5] The Assistant: Good...good. You have the mushrooms.", "potionmaking-theassistant-6", false);
+        s.addSound("[2/5] The Assistant: You must...ensure that it has worked. You are much stronger than I. stranger...", "potionmaking-theassistant-7", false);
+        s.addSound("[3/5] The Assistant: Did you see the orange witch hat roofed hut when you were gathering the mushrooms?", "potionmaking-theassistant-8", false);
+        s.addSound("[4/5] The Assistant: That is my master's house, you must go back out the east gate and enter the hut.", "potionmaking-theassistant-9", false);
+        s.addSound("[5/5] The Assistant: Bring me his...coat as proof...of his death...", "potionmaking-theassistant-10", false);
+        s.addSound("[1/3] The Assistant: I...must thank you, stranger...", "potionmaking-theassistant-11", false);
+        s.addSound("[2/3] The Assistant: I only hope...that my master will not be...angry with me about this. It...was for the better.", "potionmaking-theassistant-12", false);
+        s.addSound("[3/3] The Assistant: Now. I...do not want you saying anything about...these events. Take these, and...never speak of this again.", "potionmaking-theassistant-13", false);
+        s.addSound("[1/1] The Assistant: Heeh...stranger. I...may need your assistance...return when you are...Level 12.", "potionmaking-theassistant-14", false);
+        s.addSound("[1/1] The Assistant: Never speak of this again...stranger.", "potionmaking-theassistant-15", false);
+        s.addSound("[1/1] The Assistant: You...you can't go down...there!", "potionmaking-theassistant-16", false);
+        s.addSound("[1/1] The Assistant: Quickly, get me...[8 Red Mushroom] from the Black Road outside the east gate of Detlas.", "potionmaking-theassistant-17", false);
         s.addSound("[1/4] Dr. Essren: Ah, you must be the one my assistant told me about.", "potionmaking-dressren-1", true);
         s.addSound("[2/4] Dr. Essren: If you are trying to stop me, it's too late. I already drank the pot-...", "potionmaking-dressren-2", true);
         s.addSound("[3/4] Dr. Essren: What is this taste? Mushrooms? This can't b-", "potionmaking-dressren-3", true);
         s.addSound("[4/4] Dr Essren: Aaaaaarrrggg!", "potionmaking-dressren-4", true);
         s.addSound("[1/1] Transformed Essren: What have you done to this potion, human? You will pay for it!", "potionmaking-dressren-5", true);
-        s.addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmaking-assistant-1", false);
-        s.addSound("[1/5] The Assistant: Good...good. You have the mushrooms.", "potionmaking-assistant-2", false);
-        s.addSound("[1/3] The Assistant: I...must thank you, stranger...", "potionmaking-assistant-3", false);
-        s.addSound("[1/1] The Assistant: Heeh...stranger. I...may need your assistance...return when you are...Level 12.", "potionmaking-assistant-4", false);
-        s.addSound("[1/1] The Assistant: Never speak of this again...stranger.", "potionmaking-assistant-5", false);
-        s.addSound("[1/1] The Assistant: You...you can't go down...there!", "potionmaking-assistant-6", false);
-        s.addSound("[1/1] The Assistant: Quickly, get me...[8 Red Mushroom] from the Black Road outside the east gate of Detlas.", "potionmaking-assistant-7", false);
+
 
         //Underwater
         s.addSound("[1/6] Sayrr: Why ya looking at me like that? Is it cause I'm small, eh? I'll have you know that I caught fish that were twice your size!", "underwater-sayrr-1", false);

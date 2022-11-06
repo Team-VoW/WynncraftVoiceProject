@@ -7961,33 +7961,73 @@
 
 
 
-  "potionmaking-assistant-1": {
+  "potionmaking-theassistant-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmaking-assistant-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-1", "stream": true}]
   },
-  "potionmaking-assistant-2": {
+  "potionmaking-theassistant-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmaking-assistant-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-2", "stream": true}]
   },
-  "potionmaking-assistant-3": {
+  "potionmaking-theassistant-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmaking-assistant-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-3", "stream": true}]
   },
-  "potionmaking-assistant-4": {
+  "potionmaking-theassistant-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmaking-assistant-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-4", "stream": true}]
   },
-  "potionmaking-assistant-5": {
+  "potionmaking-theassistant-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmaking-assistant-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-5", "stream": true}]
   },
-  "potionmaking-assistant-6": {
+  "potionmaking-theassistant-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmaking-assistant-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-6", "stream": true}]
   },
-  "potionmaking-assistant-7": {
+  "potionmaking-theassistant-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:potionmaking-assistant-7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-7", "stream": true}]
+  },
+  "potionmaking-theassistant-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-8", "stream": true}]
+  },
+  "potionmaking-theassistant-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-9", "stream": true}]
+  },
+  "potionmaking-theassistant-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-10", "stream": true}]
+  },
+  "potionmaking-theassistant-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-11", "stream": true}]
+  },
+  "potionmaking-theassistant-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-12", "stream": true}]
+  },
+  "potionmaking-theassistant-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-13", "stream": true}]
+  },
+  "potionmaking-theassistant-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-14", "stream": true}]
+  },
+  "potionmaking-theassistant-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-15", "stream": true}]
+  },
+  "potionmaking-theassistant-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-16", "stream": true}]
+  },
+  "potionmaking-theassistant-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:potionmaking-theassistant-17", "stream": true}]
   },
   "potionmaking-dressren-1": {
     "category": "voice",
