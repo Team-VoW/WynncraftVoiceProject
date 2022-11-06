@@ -1294,16 +1294,33 @@ public class Sounds {
 
         //Elemental Exercise
         s.addSound("[1/7] Ragon: Ah! Finally! I've been waiting for a recruit like yourself to turn up.", "elementalexercise-ragon-1", false);
-        s.addSound("[1/4] Ragon: Interesting, it completely destroyed the beast. It seems our theories might be correct.", "elementalexercise-ragon-2", false);
-        s.addSound("[1/1] Ragon: Hey, wake up.", "elementalexercise-ragon-3", false);
-        s.addSound("[1/3] Ragon: Is everything alright? We felt the cave collapse! We came down as soon as possible!", "elementalexercise-ragon-4", false);
-        s.addSound("[1/1] Ragon: Good to see you made it out, would you mind giving your fire weapon back to Suri and then bring me his study results?", "elementalexercise-ragon-5", false);
-        s.addSound("[1/6] Ragon: Thank you, I guess you can use this, it's not a lot but we are not the richest scientists around, sorry for all the trouble we put you through.", "elementalexercise-ragon-6", false);
-        s.addSound("[1/1] Ragon: Hello there, looks like you made it through the forest, that's quite an achievement. You could come by later if you would like to help us, we need recruits who are level 10.", "elementalexercise-ragon-7", false);
-        s.addSound("[1/1] Ragon: Did you get lost? You were supposed to bring me [10 Scorched Roots] from the cave behind this little hill.", "elementalexercise-ragon-8", false);
-        s.addSound("[1/1] Ragon: Why are you still here? You should try to find an exit.", "elementalexercise-ragon-9", false);
-        s.addSound("[1/1] Ragon: Oh, it's you, nice to see you again. You know, the 9 Fire weapons almost burned down my tent. These elemental weapons are very powerful.", "elementalexercise-ragon-10", false);
-        s.addSound("[1/1] Ragon: I would appreciate if you could follow my directions.", "elementalexercise-ragon-11", false);
+        s.addSound("[2/7] Ragon: We're running experiments to improve our arsenal in the war effort.", "elementalexercise-ragon-2", false);
+        s.addSound("[3/7] Ragon: We've captured a cave beast in a cage over there. We believe certain magical weapons will harm them more than others.", "elementalexercise-ragon-3", false);
+        s.addSound("[4/7] Ragon: Let me explain. That cave creature is living root, it contains the properties of Earth.", "elementalexercise-ragon-4", false);
+        s.addSound("[5/7] Ragon: Now in theory, it should be weak to Fire. These elemental attributes are not uncommon.", "elementalexercise-ragon-5", false);
+        s.addSound("[6/7] Ragon: Let's test it out shall we? Take this book and exchange it for a Fire infused weapon.", "elementalexercise-ragon-6", false);
+        s.addSound("[7/7] Ragon: Use it on the creature and I'll study whatever remains you give me.", "elementalexercise-ragon-7", false);
+        s.addSound("[1/4] Ragon: Interesting, it completely destroyed the beast. It seems our theories might be correct.", "elementalexercise-ragon-8", false);
+        s.addSound("[2/4] Ragon: But no experiment is viable on just one test subject. I need you to test it on more earth creatures. They hide in a cave behind the hill.", "elementalexercise-ragon-9", false);
+        s.addSound("[3/4] Ragon: We got the creature we captured from deep within the cave, so you will have to go a bit deeper aswell.", "elementalexercise-ragon-10", false);
+        s.addSound("[4/4] Ragon: There is a root in the way, but I'm sure you can handle that. A good sample would be [10 Scorched Roots], just to make sure the theory is true.", "elementalexercise-ragon-11", false);
+        s.addSound("[1/1] Ragon: Hey, wake up.", "elementalexercise-ragon-12", false);
+        s.addSound("[1/3] Ragon: Is everything alright? We felt the cave collapse! We came down as soon as possible!", "elementalexercise-ragon-13", false);
+        s.addSound("[2/3] Ragon: The ground is engulfed. You will have to find another way out of this cave.", "elementalexercise-ragon-14", false);
+        s.addSound("[3/3] Ragon: Forget about the [10 Scorched Roots]. It's not important right now. Just exit to safety! Oh, and I almost forgot. I was going to give you this when you completed the task, but you should take it anyways, considering you just almost died.", "elementalexercise-ragon-15", false);
+        s.addSound("[1/1] Ragon: Good to see you made it out, would you mind giving your fire weapon back to Suri and then bring me his study results?", "elementalexercise-ragon-16", false);
+        s.addSound("[1/6] Ragon: Thank you, I guess you can use this, it's not a lot but we are not the richest scientists around, sorry for all the trouble we put you through.", "elementalexercise-ragon-17", false);
+        s.addSound("[2/6] Ragon: Allow me to share our findings. It would seem elemental mobs come in different varieties and forms across the whole world, including Gavel.", "elementalexercise-ragon-18", false);
+        s.addSound("[3/6] Ragon: Depending on the type, they will be stronger or weaker to whatever elemental weapon you use.", "elementalexercise-ragon-19", false);
+        s.addSound("[4/6] Ragon: However, they will never be immune to your neutral damage. But, as you saw with the roots, the fire weapon did exponentially more damage.", "elementalexercise-ragon-20", false);
+        s.addSound("[5/6] Ragon: You can specify your element in your skill points, and there is a tower in Wynn where you are able to reset them, should you want to change. There are 5 element types we have discovered so far:", "elementalexercise-ragon-21", false);
+        s.addSound("[6/6] Ragon: Air, Thunder, Earth, Fire and Water. Each one of those is useful in their own way. I hope this information helps you in the war, good luck.", "elementalexercise-ragon-22", false);
+        s.addSound("[1/1] Ragon: Hello there, looks like you made it through the forest, that's quite an achievement. You could come by later if you would like to help us, we need recruits who are level 10.", "elementalexercise-ragon-23", false);
+        s.addSound("[1/1] Ragon: Did you get lost? You were supposed to bring me [10 Scorched Roots] from the cave behind this little hill.", "elementalexercise-ragon-24", false);
+        s.addSound("[1/1] Ragon: Why are you still here? You should try to find an exit.", "elementalexercise-ragon-25", false);
+        s.addSound("[1/1] Ragon: Oh, it's you, nice to see you again. You know, the Fire weapons almost burned down my tent. These elemental weapons are very powerful.", "elementalexercise-ragon-26", false);
+        s.addSound("[1/1] Ragon: I would appreciate if you could follow my directions.", "elementalexercise-ragon-27", false);
+
 
 
         //Dwelling Walls
