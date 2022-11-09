@@ -1,7 +1,5 @@
 # Voices of Wynn
-
-## REQUIREMENTS:
-- [Forge for 1.12.2](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html)  
+Any pull requests that improve the mod in any way are welcome!
 
 ---------------------------------------------------------------------
 ## !!!  IMPORTANT  !!!
