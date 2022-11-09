@@ -14231,13 +14231,61 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:stablestory-enkser-1", "stream": true}]
   },
-  "stablestory-etustheblind-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:stablestory-etustheblind-1", "stream": true}]
-  },
   "stablestory-enkser-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:stablestory-enkser-2", "stream": true}]
+  },
+  "stablestory-enkser-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-3", "stream": true}]
+  },
+  "stablestory-enkser-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-4", "stream": true}]
+  },
+  "stablestory-enkser-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-5", "stream": true}]
+  },
+  "stablestory-enkser-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-6", "stream": true}]
+  },
+  "stablestory-enkser-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-7", "stream": true}]
+  },
+  "stablestory-enkser-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-8", "stream": true}]
+  },
+  "stablestory-enkser-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-9", "stream": true}]
+  },
+  "stablestory-enkser-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-10", "stream": true}]
+  },
+  "stablestory-enkser-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-11", "stream": true}]
+  },
+  "stablestory-enkser-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-12", "stream": true}]
+  },
+  "stablestory-enkser-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-13", "stream": true}]
+  },
+  "stablestory-enkser-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-14", "stream": true}]
+  },
+  "stablestory-etustheblind-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-etustheblind-1", "stream": true}]
   },
 
 
