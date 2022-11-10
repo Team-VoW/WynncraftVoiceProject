@@ -439,13 +439,41 @@ public class Sounds {
         s.addSound("[1/1] Slykaar: I... You... No...", "cur-slykaar-7", true);
 
         //Creeper Infiltration
+//Creeper infiltration
         s.addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "creeperinfiltration-thomas-1", false);
-        s.addSound("[1/10] Thomas: I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion merchant to heal you?", "creeperinfiltration-thomas-2", false);
-        s.addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "creeperinfiltration-thomas-3", false);
-        s.addSound("[1/7] Thomas: So, what was in the cave? Were there really creepers in there?", "creeperinfiltration-thomas-4", false);
-        s.addSound("[1/1] Thomas: Our village needs a bit of help, but you look a bit weak for the job. Come back once you're level 15, and then you might be able to help.", "creeperinfiltration-thomas-5", false);
-        s.addSound("[1/1] Thomas: I see you've come back, but you don't have what I asked for. I can't do anything until you fulfill your task.", "creeperinfiltration-thomas-6", false);
-        s.addSound("[1/1] Thomas: Thanks again for your help. Now we can truly say creepers exist here in the ravines.", "creeperinfiltration-thomas-7", false);
+        s.addSound("[2/7] Thomas: I am Thomas, and I help manage the supplies for this ravine village.  Though, I have  a bit of a problem...", "creeperinfiltration-thomas-2", false);
+        s.addSound("[3/7] Thomas: We're running low on ravine grains, which is our main staple we use for our food.", "creeperinfiltration-thomas-3", false);
+        s.addSound("[4/7] Thomas: We usally get it ourselves but recently an angry group of pigmen took over the tunnel to the top of the ravine, where the grain grows.", "creeperinfiltration-thomas-4", false);
+        s.addSound("[5/7] Thomas: The last time we entered, I heard an explosion from the top. I fear the pigmen are blowing up our g rain supply with TNT...", "creeperinfiltration-thomas-5", false);
+        s.addSound("[6/7] Thomas: You appear to be much stronger than I am, so maybe you can get past the tunnel pigmen and eliminate the explosions at the top.", "creeperinfiltration-thomas-6", false);
+        s.addSound("[7/7] Thomas: Just keep to the right wall of the ravine and climb up the stairs to reach the entrance. Also, be careful in the tunnel, as the pigmen throw rocks as a weapon.", "creeperinfiltration-thomas-7", false);
+        s.addSound("[1/10] Thomas: I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion mer chant to heal you?", "creeperinfiltration-thomas-8", false);
+        s.addSound("[2/10] Thomas: You're fine? Oh, good  to hear.  Did you manage to get rid of the pigmen and their explosives?", "creeperinfiltration-thomas-9", false);
+        s.addSound("[3/10] Thomas: A green creature? A "creeper"?  No such thing exists in this world, especially with the pigmen all around!", "creeperinfiltration-thomas-10", false);
+        s.addSound("[4/10] Thomas: Oh, you brought a piece of skin back. How odd, I've seen this skin before...", "creeperinfiltration-thomas-11", false);
+        s.addSound("[5/10] Thomas: There's a large cave over to the south. I tried to enter it, but I got ambushed by green creatures...", "creeperinfiltration-thomas-12", false);
+        s.addSound("[6/10] Thomas: I thought I was just dreaming, but these "creepers" you talk about...they might live in that cave.", "creeperinfiltration-thomas-13", false);
+        s.addSound("[7/10] Thomas: I have an idea.  I need to know for sure that they live there. A merchant can make you a mask with the skin and another material.", "creeperinfiltration-thomas-14", false);
+        s.addSound("[8/10] Thomas: There's a Pigman Overlord that sometimes hangs in a cave nearby. If you can kill it, you can get a pigman hide strong enough to make the mask.", "creeperinfiltration-thomas-15", false);
+        s.addSound("[9/10] Thomas: If you continue on the western path past the tunnel entrance, you should find a camp where the Overlord is located.", "creeperinfiltration-thomas-16", false);
+        s.addSound("[10/10] Thomas: Go get the pigman hide, and then come back to me so I can tell you what to do next.", "creeperinfiltration-thomas-17", false);
+        s.addSound("[1/6] Thomas: I see you have the hide. This skin will work perfectly for my plan.", "creeperinfiltration-thomas-18", false);
+        s.addSound("[2/6] Thomas: There is a Mask Merchant in this village. He can make you a mask with the two materials I have.", "creeperinfiltration-thomas-19", false);
+        s.addSound("[3/6] Thomas: With the mask, you can put it on and go undetected into the cave with these "creepers". Only then will we know the truth.", "creeperinfiltration-thomas-20", false);
+        s.addSound("[4/6] Thomas: To get to the creeper cave, follow the western path and turn left at the pigman camps.", "creeperinfiltration-thomas-21", false);
+        s.addSound("[5/6] Thomas: Also, if you somehow lose the mask, the merchant can make you another one if you bring him another piece of skin and hide.", "creeperinfiltration-thomas-22", false);
+        s.addSound("[6/6] Thomas: Here are the materials. Be careful out there. Who knows what those green monsters could do to you...", "creeperinfiltration-thomas-23", false);
+        s.addSound("[1/7] Thomas: So, what was in the cave? Were there really creepers in there?", "creeperinfiltration-thomas-24", false);
+        s.addSound("[2/7] Thomas: What's this? It smells like gunpowder...but more earthy. And this came from the cave?", "creeperinfiltration-thomas-25", false);
+        s.addSound("[3/7] Thomas: This powder is definitely not native to this area. It has to have come from those creepers.", "creeperinfiltration-thomas-26", false);
+        s.addSound("[4/7] Thomas: I guess for now we'll leave them at peace. If they do exist, they don't need to be hunted down to extinction.", "creeperinfiltration-thomas-27", false);
+        s.addSound("[5/7] Thomas: Besides, if they are composed of gunpowder, they could easily blow this ravine to pieces.", "creeperinfiltration-thomas-28", false);
+        s.addSound("[6/7] Thomas: Thank you for your help. I guess you deserve some sort of reward, considering you helped solve the ravine's big mystery.", "creeperinfiltration-thomas-29", false);
+        s.addSound("[7/7] Thomas: Feel free to come back to our village any time. By then our food supply should be stable.", "creeperinfiltration-thomas-30", false);
+        s.addSound("[1/1] Thomas: Our village needs a bit of help, but you look a bit weak for the job. Come back once you're level 15, and then you might be able to help.", "creeperinfiltration-thomas-31", false);
+        s.addSound("[1/1] Thomas: I see you've come back, but you don't have what I asked for. I can't do anything until you fulfill your task.", "creeperinfiltration-thomas-32", false);
+        s.addSound("[1/1] Thomas: Thanks again for your help. Now we can truly say creepers exist here in the ravines.", "creeperinfiltration-thomas-33", false);
+
 
         //Point of no return
         s.addSound("[1/5] Lutho Citizen: Wait... It can't be. Look me in the eyes. You're human, like me.", "pointofnoreturn-luthocitizen-1", false);
