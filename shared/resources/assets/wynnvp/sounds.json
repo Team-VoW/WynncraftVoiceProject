@@ -14368,6 +14368,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:stablestory-enkser-9", "stream": true}]
   },
+  "stablestory-etustheblind-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-etustheblind-1", "stream": true}]
+  },
   "stablestory-enkser-10": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:stablestory-enkser-10", "stream": true}]
@@ -14388,10 +14392,27 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:stablestory-enkser-14", "stream": true}]
   },
-  "stablestory-etustheblind-1": {
+  "stablestory-enkser-15": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:stablestory-etustheblind-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-15", "stream": true}]
   },
+  "stablestory-enkser-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-16", "stream": true}]
+  },
+  "stablestory-enkser-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-17", "stream": true}]
+  },
+  "stablestory-enkser-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-18", "stream": true}]
+  },
+  "stablestory-enkser-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:stablestory-enkser-19", "stream": true}]
+  },
+
 
 
   "poisoningthepest-farmercevalus-1": {

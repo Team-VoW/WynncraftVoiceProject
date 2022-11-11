@@ -4018,15 +4018,21 @@ public class Sounds {
         s.addSound("[4/9] Enkser: Until these rabble-rousing troublemakers blew a tunnel through my barn and smuggled MY horses out.", "stablestory-enkser-4", false);
         s.addSound("[5/9] Enkser: Usually, I'd be charging a high price for these horses- Not to be rude, but one you couldn't afford.", "stablestory-enkser-5", false);
         s.addSound("[6/9] Enkser: So, let's cut a deal- They stole my stable key. If you can go to my barn in Ternaves...", "stablestory-enkser-6", false);
-        s.addSound("[7/9] Enkser: And return that key to me, I'll so charitably bestow upon you one  of my horses. This deal is sweeter than you realize, too...", "stablestory-enkser-7", false);
+        s.addSound("[7/9] Enkser: And return that key to me, I'll so charitably bestow upon you one of my horses. This deal is sweeter than you realize, too...", "stablestory-enkser-7", false);
         s.addSound("[8/9] Enkser: Betty'll be there to help! Strong as she is, don't you DARE let them touch her!", "stablestory-enkser-8", false);
         s.addSound("[9/9] Enkser: Now, best be on your way. Ternaves is a fair bit down the Black Road from here, off to the east.", "stablestory-enkser-9", false);
+        s.addSound("[1/1] Etus The Blind: MOO! ALBERT! SOMEONE IS HERE... I CAN SMELL IT.", "stablestory-etustheblind-1", false);
         s.addSound("[1/5] Enkser: Looking for able-bodied adventurers, preferably with no friends or-", "stablestory-enkser-10", false);
         s.addSound("[2/5] Enkser: Hey, it's you! Got my barn key?", "stablestory-enkser-11", false);
         s.addSound("[3/5] Enkser: Ah, god bless. And I presume Betty did all the work while you just- lounged around.", "stablestory-enkser-12", false);
         s.addSound("[4/5] Enkser: I kid! I kid. But as the great bovine above is my witness if I see the smallest bruise I will-", "stablestory-enkser-13", false);
         s.addSound("[5/5] Enkser: Nevermind all that. A horse I promised, and a horse you shall have. Much thanks to you.", "stablestory-enkser-14", false);
-        s.addSound("[1/1] Etus The Blind: MOO! ALBERT! SOMEONE IS HERE... I CAN SMELL IT. MOO.", "stablestory-etustheblind-1", true);
+        s.addSound("[1/1] Enkser: Hey! Look who's here! So, how's the horse doing?", "stablestory-enkser-15", false);
+        s.addSound("[1/1] Enkser: Aaah dang! I had some work for you, but I can't ask such a low level. Come back when you are level 13!", "stablestory-enkser-16", false);
+        s.addSound("[1/1] Enkser: Hey, where do you think you're going? You can't just buy a horse like that! Talk to me if you want access... dang tourists...", "stablestory-enkser-17", false);
+        s.addSound("[1/1] Enkser: I wouldn't enter that if I were you...", "stablestory-enkser-18", false);
+        s.addSound("[1/1] Enkser: Hey, have you found my [1 Stable Key] yet? It should be somewhere in this tunnel right there.", "stablestory-enkser-19", false);
+
 
         //Rise of the Quartron
         s.addSound("[1/9] Nasea: Shipment 3A and 4B, fully accounted for... shipments 5C and 6A...missing 50% of quartz content?!", "riseofthequartron-nasea-1", false);
