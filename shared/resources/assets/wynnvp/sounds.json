@@ -19503,14 +19503,7 @@
 
 
 
-  "thecanarycalls-grenot-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:thecanarycalls-grenot-1", "stream": true}]
-  },
-  "thecanarycalls-grenot-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:thecanarycalls-grenot-2", "stream": true}]
-  },
+
 
 
   "thanosvaults-dolem-1": {
@@ -21501,6 +21494,727 @@
     "sounds": [{ "name": "wynnvp:fallenfactory-antikytherasupercomputer-33", "stream": true}]
   },
 
+
+  "canarycalls-daffyd-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-daffyd-1", "stream": true}]
+  },
+  "canarycalls-mihco-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-mihco-1", "stream": true}]
+  },
+  "canarycalls-daffyd-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-daffyd-2", "stream": true}]
+  },
+  "canarycalls-daffyd-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-daffyd-3", "stream": true}]
+  },
+  "canarycalls-daffyd-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-daffyd-4", "stream": true}]
+  },
+  "canarycalls-daffyd-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-daffyd-5", "stream": true}]
+  },
+  "canarycalls-daffyd-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-daffyd-6", "stream": true}]
+  },
+  "canarycalls-clight-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-1", "stream": true}]
+  },
+  "canarycalls-clight-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-2", "stream": true}]
+  },
+  "canarycalls-clight-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-3", "stream": true}]
+  },
+  "canarycalls-clight-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-4", "stream": true}]
+  },
+  "canarycalls-clight-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-5", "stream": true}]
+  },
+  "canarycalls-clight-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-6", "stream": true}]
+  },
+  "canarycalls-clight-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-7", "stream": true}]
+  },
+  "canarycalls-clight-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-8", "stream": true}]
+  },
+  "canarycalls-clight-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-9", "stream": true}]
+  },
+  "canarycalls-clight-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-10", "stream": true}]
+  },
+  "canarycalls-clight-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-11", "stream": true}]
+  },
+  "canarycalls-clight-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-12", "stream": true}]
+  },
+  "canarycalls-clight-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-13", "stream": true}]
+  },
+  "canarycalls-clight-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-14", "stream": true}]
+  },
+  "canarycalls-clight-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-15", "stream": true}]
+  },
+  "canarycalls-clight-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-16", "stream": true}]
+  },
+  "canarycalls-clight-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-17", "stream": true}]
+  },
+  "canarycalls-clight-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-18", "stream": true}]
+  },
+  "canarycalls-clight-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-19", "stream": true}]
+  },
+  "canarycalls-clight-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-20", "stream": true}]
+  },
+  "canarycalls-clight-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-21", "stream": true}]
+  },
+  "canarycalls-clight-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-22", "stream": true}]
+  },
+  "canarycalls-clight-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-23", "stream": true}]
+  },
+  "canarycalls-clight-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-24", "stream": true}]
+  },
+  "canarycalls-clight-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-25", "stream": true}]
+  },
+  "canarycalls-clight-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-26", "stream": true}]
+  },
+  "canarycalls-clight-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-27", "stream": true}]
+  },
+  "canarycalls-clight-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-28", "stream": true}]
+  },
+  "canarycalls-clight-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-29", "stream": true}]
+  },
+  "canarycalls-clight-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-30", "stream": true}]
+  },
+  "canarycalls-clight-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-31", "stream": true}]
+  },
+  "canarycalls-theseadcoalminer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadcoalminer-1", "stream": true}]
+  },
+  "canarycalls-theseadcoalminer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadcoalminer-2", "stream": true}]
+  },
+  "canarycalls-theseadcoalminer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadcoalminer-3", "stream": true}]
+  },
+  "canarycalls-theseadcoalminer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadcoalminer-4", "stream": true}]
+  },
+  "canarycalls-theseadcoalminer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadcoalminer-5", "stream": true}]
+  },
+  "canarycalls-theseadcoalminer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadcoalminer-6", "stream": true}]
+  },
+  "canarycalls-theseadcoalminer-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadcoalminer-7", "stream": true}]
+  },
+  "canarycalls-theseadcoalminer-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadcoalminer-8", "stream": true}]
+  },
+  "canarycalls-clight-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-32", "stream": true}]
+  },
+  "canarycalls-clight-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-33", "stream": true}]
+  },
+  "canarycalls-clight-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-34", "stream": true}]
+  },
+  "canarycalls-clight-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-35", "stream": true}]
+  },
+  "canarycalls-clight-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-36", "stream": true}]
+  },
+  "canarycalls-clight-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-37", "stream": true}]
+  },
+  "canarycalls-clight-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-38", "stream": true}]
+  },
+  "canarycalls-clight-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-39", "stream": true}]
+  },
+  "canarycalls-clight-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-40", "stream": true}]
+  },
+  "canarycalls-clight-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-41", "stream": true}]
+  },
+  "canarycalls-clight-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-42", "stream": true}]
+  },
+  "canarycalls-clight-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-43", "stream": true}]
+  },
+  "canarycalls-clight-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-44", "stream": true}]
+  },
+  "canarycalls-clight-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-45", "stream": true}]
+  },
+  "canarycalls-canary-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-1", "stream": true}]
+  },
+  "canarycalls-canary-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-2", "stream": true}]
+  },
+  "canarycalls-canary-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-3", "stream": true}]
+  },
+  "canarycalls-canary-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-4", "stream": true}]
+  },
+  "canarycalls-canary-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-5", "stream": true}]
+  },
+  "canarycalls-canary-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-6", "stream": true}]
+  },
+  "canarycalls-canary-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-7", "stream": true}]
+  },
+  "canarycalls-canary-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-8", "stream": true}]
+  },
+  "canarycalls-canary-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-9", "stream": true}]
+  },
+  "canarycalls-canary-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-10", "stream": true}]
+  },
+  "canarycalls-canary-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-11", "stream": true}]
+  },
+  "canarycalls-canary-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-12", "stream": true}]
+  },
+  "canarycalls-canary-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-13", "stream": true}]
+  },
+  "canarycalls-canary-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-14", "stream": true}]
+  },
+  "canarycalls-canary-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-15", "stream": true}]
+  },
+  "canarycalls-canary-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-16", "stream": true}]
+  },
+  "canarycalls-canary-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-17", "stream": true}]
+  },
+  "canarycalls-canary-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-18", "stream": true}]
+  },
+  "canarycalls-canary-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-19", "stream": true}]
+  },
+  "canarycalls-canary-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-20", "stream": true}]
+  },
+  "canarycalls-canary-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-21", "stream": true}]
+  },
+  "canarycalls-canary-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-22", "stream": true}]
+  },
+  "canarycalls-canary-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-23", "stream": true}]
+  },
+  "canarycalls-canary-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-24", "stream": true}]
+  },
+  "canarycalls-canary-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-25", "stream": true}]
+  },
+  "canarycalls-canary-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-26", "stream": true}]
+  },
+  "canarycalls-canary-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-27", "stream": true}]
+  },
+  "canarycalls-canary-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-28", "stream": true}]
+  },
+  "canarycalls-canary-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-29", "stream": true}]
+  },
+  "canarycalls-canary-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-30", "stream": true}]
+  },
+  "canarycalls-canary-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-31", "stream": true}]
+  },
+  "canarycalls-canary-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-32", "stream": true}]
+  },
+  "canarycalls-canary-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-33", "stream": true}]
+  },
+  "canarycalls-canary-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-34", "stream": true}]
+  },
+  "canarycalls-canary-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-35", "stream": true}]
+  },
+  "canarycalls-canary-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-36", "stream": true}]
+  },
+  "canarycalls-canary-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-37", "stream": true}]
+  },
+  "canarycalls-canary-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-38", "stream": true}]
+  },
+  "canarycalls-canary-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-39", "stream": true}]
+  },
+  "canarycalls-canary-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-40", "stream": true}]
+  },
+  "canarycalls-canary-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-41", "stream": true}]
+  },
+  "canarycalls-canary-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-42", "stream": true}]
+  },
+  "canarycalls-canary-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-43", "stream": true}]
+  },
+  "canarycalls-canary-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-44", "stream": true}]
+  },
+  "canarycalls-canary-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-45", "stream": true}]
+  },
+  "canarycalls-canary-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-46", "stream": true}]
+  },
+  "canarycalls-canary-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-47", "stream": true}]
+  },
+  "canarycalls-canary-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-48", "stream": true}]
+  },
+  "canarycalls-canary-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-49", "stream": true}]
+  },
+  "canarycalls-canary-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-50", "stream": true}]
+  },
+  "canarycalls-canary-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-51", "stream": true}]
+  },
+  "canarycalls-canary-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-52", "stream": true}]
+  },
+  "canarycalls-canary-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-53", "stream": true}]
+  },
+  "canarycalls-canary-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-54", "stream": true}]
+  },
+  "canarycalls-canary-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-55", "stream": true}]
+  },
+  "canarycalls-canary-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-56", "stream": true}]
+  },
+  "canarycalls-canary-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-57", "stream": true}]
+  },
+  "canarycalls-canary-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-58", "stream": true}]
+  },
+  "canarycalls-canary-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-59", "stream": true}]
+  },
+  "canarycalls-canary-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-60", "stream": true}]
+  },
+  "canarycalls-canary-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-61", "stream": true}]
+  },
+  "canarycalls-canary-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-62", "stream": true}]
+  },
+  "canarycalls-canary-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-63", "stream": true}]
+  },
+  "canarycalls-canary-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-64", "stream": true}]
+  },
+  "canarycalls-canary-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-65", "stream": true}]
+  },
+  "canarycalls-canary-66": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-66", "stream": true}]
+  },
+  "canarycalls-canary-67": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-67", "stream": true}]
+  },
+  "canarycalls-canary-68": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-68", "stream": true}]
+  },
+  "canarycalls-canary-69": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-69", "stream": true}]
+  },
+  "canarycalls-canary-70": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-70", "stream": true}]
+  },
+  "canarycalls-canary-71": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-71", "stream": true}]
+  },
+  "canarycalls-canary-72": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-72", "stream": true}]
+  },
+  "canarycalls-canary-73": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-73", "stream": true}]
+  },
+  "canarycalls-canary-74": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-74", "stream": true}]
+  },
+  "canarycalls-canary-75": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-75", "stream": true}]
+  },
+  "canarycalls-canary-76": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-76", "stream": true}]
+  },
+  "canarycalls-canary-77": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-77", "stream": true}]
+  },
+  "canarycalls-canary-78": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-78", "stream": true}]
+  },
+  "canarycalls-canary-79": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-79", "stream": true}]
+  },
+  "canarycalls-canary-80": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-80", "stream": true}]
+  },
+  "canarycalls-canary-81": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-81", "stream": true}]
+  },
+  "canarycalls-canary-82": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-82", "stream": true}]
+  },
+  "canarycalls-canary-83": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-83", "stream": true}]
+  },
+  "canarycalls-canary-84": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-84", "stream": true}]
+  },
+  "canarycalls-canary-85": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-85", "stream": true}]
+  },
+  "canarycalls-canary-86": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-86", "stream": true}]
+  },
+  "canarycalls-canary-87": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-87", "stream": true}]
+  },
+  "canarycalls-canary-88": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-88", "stream": true}]
+  },
+  "canarycalls-canary-89": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-89", "stream": true}]
+  },
+  "canarycalls-canary-90": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-90", "stream": true}]
+  },
+  "canarycalls-canary-91": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-91", "stream": true}]
+  },
+  "canarycalls-canary-92": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-canary-92", "stream": true}]
+  },
+  "canarycalls-theseadminer3-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer3-1", "stream": true}]
+  },
+  "canarycalls-theseadminer2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer2-1", "stream": true}]
+  },
+  "canarycalls-theseadminer1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer1-1", "stream": true}]
+  },
+  "canarycalls-theseadminer2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer2-2", "stream": true}]
+  },
+  "canarycalls-clight-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-46", "stream": true}]
+  },
+  "canarycalls-theseadminer1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer1-2", "stream": true}]
+  },
+  "canarycalls-clight-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-47", "stream": true}]
+  },
+  "canarycalls-theseadminer1-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer1-3", "stream": true}]
+  },
+  "canarycalls-clight-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-48", "stream": true}]
+  },
+  "canarycalls-clight-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-49", "stream": true}]
+  },
+  "canarycalls-clight-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-50", "stream": true}]
+  },
+  "canarycalls-clight-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-51", "stream": true}]
+  },
+  "canarycalls-clight-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-52", "stream": true}]
+  },
+  "canarycalls-clight-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-53", "stream": true}]
+  },
+  "canarycalls-clight-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-54", "stream": true}]
+  },
+  "canarycalls-clight-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-55", "stream": true}]
+  },
+  "canarycalls-clight-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-56", "stream": true}]
+  },
+  "canarycalls-clight-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-57", "stream": true}]
+  },
+  "canarycalls-clight-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-58", "stream": true}]
+  },
+  "canarycalls-theseadminer3-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer3-2", "stream": true}]
+  },
+  "canarycalls-theseadminer3-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer3-3", "stream": true}]
+  },
+  "canarycalls-theseadminer2-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer2-3", "stream": true}]
+  },
+  "canarycalls-theseadminer1-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer1-4", "stream": true}]
+  },
+  "canarycalls-theseadminer3-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer3-4", "stream": true}]
+  },
+  "canarycalls-theseadminer3-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-theseadminer3-5", "stream": true}]
+  },
+  "canarycalls-clight-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-59", "stream": true}]
+  },
+  "canarycalls-clight-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-60", "stream": true}]
+  },
+  "canarycalls-clight-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canarycalls-clight-61", "stream": true}]
+  },
 
 
 

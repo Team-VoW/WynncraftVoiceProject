@@ -44,7 +44,8 @@ public class SoundPlayer {
         String line = lineData.getSoundLine();
 
         if (soundsHandler.get(line).isEmpty()) {
-            // System.out.println("Does not contain line: " + lineData.getRealLine());
+             System.out.println("Does not contain line: " + lineData.getRealLine());
+             System.out.println("Checked line: " + line);
             lineReporter.MissingLine(lineData);
             return false;
         }

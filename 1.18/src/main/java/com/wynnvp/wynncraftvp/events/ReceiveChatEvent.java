@@ -24,6 +24,7 @@ public class ReceiveChatEvent {
     public static void receivedChat(String msg) {
         if (stopMod) return;
 
+        System.out.println("Got message: " + msg.replaceAll("\n", "\\n"));
         //Replace player Name with "soldier"
         String name = GetPlayerName(msg);
 
@@ -36,6 +37,7 @@ public class ReceiveChatEvent {
 
         if (lineData == null) { // invalid line data returned
             last = null;
+            System.out.println("Invalid line data");
             return;
         }
 
@@ -51,6 +53,7 @@ public class ReceiveChatEvent {
             }
         }
 
+        System.out.println("Trying to play sound: " + lineData.getRealLine());
         ModCore.instance.soundPlayer.playSound(lineData);
     }
 
