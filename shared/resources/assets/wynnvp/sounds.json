@@ -7545,6 +7545,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:recoverthepast-alchemist-7", "stream": true}]
   },
+  "recoverthepast-alchemist-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:recoverthepast-alchemist-8", "stream": true}]
+  },
   "recoverthepast-caid-6": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:recoverthepast-caid-6", "stream": true}]

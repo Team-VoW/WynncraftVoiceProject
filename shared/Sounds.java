@@ -2103,6 +2103,7 @@ public class Sounds {
         s.addSound("[5/6] Alchemist: If I remember correctly... I need [1 Golden Apple], [1 Bottle of Water] and lastly, [1 Bloom of Doom].", "recoverthepast-alchemist-5", false);
         s.addSound("[6/6] Alchemist: Golden apples grow in certain big apple trees. Bottles of water should be available here in town. Blooms of Doom grow near death, try looking near the Elkurn church. Watch out, they aren't the friendliest.", "recoverthepast-alchemist-6", false);
         s.addSound("[1/1] Alchemist: If you have the items, mix them together in the brewing stand next to me.", "recoverthepast-alchemist-7", false);
+        s.addSound("[1/1] Alchemist: Argh... Not like that... Oh, hello there! If you are looking for a potion I'm unfortunately a bit busy... Try coming back later.", "recoverthepast-alchemist-8", false);
         s.addSound("[1/5] Caid: You know, the more I look at this, the more I wonder how I did this.", "recoverthepast-caid-6", false);
         s.addSound("[2/5] Caid: Thanks for getting the potion. Let's see if it works. If it does I'll follow you to the tower.", "recoverthepast-caid-7", false);
         s.addSound("[3/5] Caid: ...", "recoverthepast-caid-8", false);
