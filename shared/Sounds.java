@@ -965,11 +965,30 @@ public class Sounds {
 
         //Wynn Excavation site A
         s.addSound("[1/4] Vade: Oh, hey kid. Wanna make some money?", "wynnexcavationa-vade-1", false);
+        s.addSound("[2/4] Vade: I need you to translate this ancient text.", "wynnexcavationa-vade-2", false);
+        s.addSound("[3/4] Vade: Just run it down to the lab assistant, Tesha.", "wynnexcavationa-vade-3", false);
+        s.addSound("[4/4] Vade: I'd take it myself, but I'm far too important for grunt work! The lab is up there in the tent, don't you dare damage the translation!", "wynnexcavationa-vade-4", false);
         s.addSound("[1/8] Tesha: Hello, welcome to WynnExcavation Labs!", "wynnexcavationa-tesha-1", false);
-        s.addSound("[1/6] Vade: Who are you?", "wynnexcavationa-vade-2", false);
-        s.addSound("[1/4] Vade: Hey kid, did you just come from the tomb?", "wynnexcavationa-vade-3", false);
-        s.addSound("[1/1] Vade: Hey kid, can't you see I'm busy here? Come back when you're level 35.", "wynnexcavationa-vade-4", false);
-        s.addSound("[1/1] Vade: Well, I figured it out soon after you got back. We possess the crystal, don't go looking for Wynn Excavation again, all is not what it seems. Take that as a friendly warning.", "wynnexcavationa-vade-5", false);
+        s.addSound("[2/8] Tesha: Oh Vade sent you?", "wynnexcavationa-tesha-2", false);
+        s.addSound("[3/8] Tesha: Oh yes, the tablet I was waiting for!", "wynnexcavationa-tesha-3", false);
+        s.addSound("[5/8] Tesha: Oh my! This is quite interesting..", "wynnexcavationa-tesha-4", false);
+        s.addSound("[6/8] Tesha: Here, let me finish this up...", "wynnexcavationa-tesha-5", false);
+        s.addSound("[7/8] Tesha: ...and there you are!", "wynnexcavationa-tesha-6", false);
+        s.addSound("[8/8] Tesha: One tablet complete! Return it to Vade. Oh, and don't read it!", "wynnexcavationa-tesha-7", false);
+        s.addSound("[1/6] Vade: Who are you?", "wynnexcavationa-vade-5", false);
+        s.addSound("[2/6] Vade: Oh, right, you're that kid I sent out!", "wynnexcavationa-vade-6", false);
+        s.addSound("[3/6] Vade: Well do you have the translated text or not?", "wynnexcavationa-vade-7", false);
+        s.addSound("[4/6] Vade: You do! Brilliant! Let's take a look at that...", "wynnexcavationa-vade-8", false);
+        s.addSound("[5/6] Vade: \"Throw tribute an item to the wood that stands out, the right angle will open the way\"", "wynnexcavationa-vade-9", false);
+        s.addSound("[6/6] Vade: I wonder if it's talking about inside the temple...Oh,uh, I forgot you were here. Stay out of this kid, it's grown up business!", "wynnexcavationa-vade-10", false);
+        s.addSound("[1/4] Vade: Hey kid, did you just come from the tomb?", "wynnexcavationa-vade-11", false);
+        s.addSound("[2/4] Vade: I knew I shouldn't have been so lazy and got someone else to do the leg work!", "wynnexcavationa-vade-12", false);
+        s.addSound("[3/4] Vade: Gosh, I can't tell my boss about this, he'll have my head! Literally! WynnExcavation is not a group you want to betray, they are more powerful than you will ever know.", "wynnexcavationa-vade-13", false);
+        s.addSound("[4/4] Vade: YOU'D BETTER NOT HAVE TAKEN ANYTHING! THAT IS OFFICIAL WYNN EXCAVATION PROPERTY!", "wynnexcavationa-vade-14", false);
+        s.addSound("[1/1] Vade: Hey kid, can't you see I'm busy here? Come back when you're level 35.", "wynnexcavationa-vade-15", false);
+        s.addSound("[1/1] Vade: Well, I figured it out soon after you got back. We possess the crystal, don't go looking for Wynn Excavation again, all is not what it seems. Take that as a friendly warning.", "wynnexcavationa-vade-16", false);
+
+
 
         //Wynn Excavation site B
         s.addSound("[1/1] Flendar: We know what you stole from us in the desert! Take THIS! You won't be escaping this dead end any time soon!", "wynnexcvationb-flendar-1", true);
