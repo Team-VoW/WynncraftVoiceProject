@@ -1859,6 +1859,11 @@ public class Sounds {
 
         //Studying the corrupt
         s.addSound("[1/6] Viraex: Garoth? Sorry that name doesn't ring a bell. He could have lived here, but...", "studyingthecorrupt-viraex-1", false);
+        s.addSound("[2/6] Viraex: The buildings here have been destroyed and rebuilt so many times.", "studyingthecorrupt-viraex-2", false);
+        s.addSound("[3/6] Viraex: If you say he lived here many years ago, the oldest building is the church.", "studyingthecorrupt-viraex-3", false);
+        s.addSound("[4/6] Viraex: Now that you mention it, there were odd stories about the basement of the church.", "studyingthecorrupt-viraex-4", false);
+        s.addSound("[5/6] Viraex: My grandfather told me about it. I still have a key to the place, you are welcome to check it out for yourself.", "studyingthecorrupt-viraex-5", false);
+        s.addSound("[6/6] Viraex: I heard they found some weird rooms down there so they just left the place alone. Wise move, if you ask me", "studyingthecorrupt-viraex-6", false);
         s.addSound("[1/10] Garoth's Journal: Day 4: The year is 623 AP. My base of operations has been completed, along with a safety bunker.", "studyingthecorrupt-garothsjournal-1", false);
         s.addSound("[2/10] Garoth's Journal: Day 18: It's become extremely dangerous to continue my studies. With the Twains gone, the corrupt run wild.", "studyingthecorrupt-garothsjournal-2", false);
         s.addSound("[3/10] Garoth's Journal: Day 53: My studies have yielded poor results. I know only what we already knew.", "studyingthecorrupt-garothsjournal-3", false);
@@ -1880,6 +1885,7 @@ public class Sounds {
         s.addSound("[6/8] Adventuring Mage: The spells around here have to be a bit stronger to deal with the... Well, you know.", "studyingthecorrupt-adventuringmage-9", false);
         s.addSound("[7/8] Adventuring Mage: Wait for it...", "studyingthecorrupt-adventuringmage-10", false);
         s.addSound("[8/8] Adventuring Mage: And there you go. I hope you find what you’re looking for. Get out of here as soon as you’re done.", "studyingthecorrupt-adventuringmage-11", false);
+        s.addSound("[1/1] Adventuring Mage: Walk inside then, soldier! What are you standing around here for?", "studyingthecorrupt-adventuringmage-12", false);
         s.addSound("[1/4] Garoth's Note: This... was a mistake. Beyond the portal holds no answers.", "studyingthecorrupt-garothsnote-1", true);
         s.addSound("[2/4] Garoth's Note: I can feel my mind slipping through my very mindscape, I fear this may be my very last entry.", "studyingthecorrupt-garothsnote-2", true);
         s.addSound("[3/4] Garoth's Note: As I studied the portal closely, I found myself staring for hours, longing to enter. Just as I forced myself to leave.. I was pushed.", "studyingthecorrupt-garothsnote-3", true);

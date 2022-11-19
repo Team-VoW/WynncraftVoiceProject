@@ -15439,6 +15439,26 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:studyingthecorrupt-viraex-1", "stream": true}]
   },
+  "studyingthecorrupt-viraex-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-viraex-2", "stream": true}]
+  },
+  "studyingthecorrupt-viraex-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-viraex-3", "stream": true}]
+  },
+  "studyingthecorrupt-viraex-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-viraex-4", "stream": true}]
+  },
+  "studyingthecorrupt-viraex-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-viraex-5", "stream": true}]
+  },
+  "studyingthecorrupt-viraex-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-viraex-6", "stream": true}]
+  },
   "studyingthecorrupt-garothsjournal-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:studyingthecorrupt-garothsjournal-1", "stream": true}]
@@ -15522,6 +15542,10 @@
   "studyingthecorrupt-adventuringmage-11": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-11", "stream": true}]
+  },
+  "studyingthecorrupt-adventuringmage-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:studyingthecorrupt-adventuringmage-12", "stream": true}]
   },
   "studyingthecorrupt-garothsnote-1": {
     "category": "voice",
