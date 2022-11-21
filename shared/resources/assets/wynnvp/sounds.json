@@ -15504,6 +15504,26 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tribalaggression-caras-2", "stream": true}]
   },
+  "tribalaggression-caras-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-3", "stream": true}]
+  },
+  "tribalaggression-caras-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-4", "stream": true}]
+  },
+  "tribalaggression-caras-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-5", "stream": true}]
+  },
+  "tribalaggression-caras-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-6", "stream": true}]
+  },
+  "tribalaggression-caras-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-7", "stream": true}]
+  },
   "tribalaggression-favian-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tribalaggression-favian-1", "stream": true}]
@@ -15512,6 +15532,51 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tribalaggression-favian-2", "stream": true}]
   },
+  "tribalaggression-favian-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-3", "stream": true}]
+  },
+  "tribalaggression-favian-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-4", "stream": true}]
+  },
+  "tribalaggression-favian-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-5", "stream": true}]
+  },
+  "tribalaggression-favian-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-6", "stream": true}]
+  },
+  "tribalaggression-favian-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-7", "stream": true}]
+  },
+  "tribalaggression-favian-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-8", "stream": true}]
+  },
+  "tribalaggression-favian-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-9", "stream": true}]
+  },
+  "tribalaggression-favian-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-favian-10", "stream": true}]
+  },
+  "tribalaggression-caras-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-8", "stream": true}]
+  },
+  "tribalaggression-caras-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-9", "stream": true}]
+  },
+  "tribalaggression-caras-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tribalaggression-caras-10", "stream": true}]
+  },
+
 
 
 

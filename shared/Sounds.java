@@ -1871,11 +1871,28 @@ public class Sounds {
         s.addSound("[8/9] Sherk: Now I'm sure you'll find a nice lad somewhere who'll take you for who you are, but until you find someone that has no standards, shove your creepy lips where I can't see 'em!!", "themaidentower-sherk-24", true);
         s.addSound("[9/9] Maiden: ...I...I g-guess he was rotten to the core, despite his...l-luscious exterior...but, you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!", "themaidentower-maiden-8", false);
 
-        //Tribal Aggression
+        //Tribal aggression
         s.addSound("[1/7] Caras: My tribe worries our own business, stranger.", "tribalaggression-caras-1", false);
-        s.addSound("[1/3] Caras: I-Is that, the totem? My, it has been a long time since the owl has been with me. Though I wonder if the Eagle and Owl totem possess the same mystic powers.", "tribalaggression-caras-2", false);
+        s.addSound("[2/7] Caras: Oh, my apologies, I did not realize you are a warrior of the province! We would be grateful of your help.", "tribalaggression-caras-2", false);
+        s.addSound("[3/7] Caras: Our sacred owl totem that we worship was stolen by the cunning Eagle Tribe many years ago. Its magical properties used to bring prosperity to our camp.", "tribalaggression-caras-3", false);
+        s.addSound("[4/7] Caras: However, the Eagle tribe are not victorious, we possess their mystic eagle totem, but alas, I do not know who was the original thief.", "tribalaggression-caras-4", false);
+        s.addSound("[5/7] Caras: We have been at war for years now, despite being neighbors. Without our totem, our rivalry will continue for ages and peace will never again be felt in our hearts.", "tribalaggression-caras-5", false);
+        s.addSound("[6/7] Caras: Retrieve our totem, and the blessing of the Owl spirit will be with you.", "tribalaggression-caras-6", false);
+        s.addSound("[7/7] Caras: Now, enter the Eagle Camp across the river, you may have to search the camp, I'm sure they have hidden our totem!", "tribalaggression-caras-7", false);
         s.addSound("[1/5] Favian: Greetings, what brings you to the noble Eagle tribe?", "tribalaggression-favian-1", false);
-        s.addSound("[1/5] Favian: Wonderful! You may now enter the cave to retrieve the blasted Owl totem.", "tribalaggression-favian-2", false);
+        s.addSound("[2/5] Favian: You seek the Owl totem? The cursed Owl tribe trying to retain their lost dignity again.", "tribalaggression-favian-2", false);
+        s.addSound("[3/5] Favian: Why should we give you their totem back? They stole our source of enlightenment all those years ago.", "tribalaggression-favian-3", false);
+        s.addSound("[4/5] Favian: Tell you what, if you can retrieve our Eagle Totem, I will allow you to go return the Owl totem.", "tribalaggression-favian-4", false);
+        s.addSound("[5/5] Favian: I'm sure they hid the totem, but if you are able to find it, I await your return!", "tribalaggression-favian-5", false);
+        s.addSound("[1/5] Favian: Wonderful! You may now enter the cave to retrieve the blasted Owl totem.", "tribalaggression-favian-6", false);
+        s.addSound("[2/5] Favian: Be careful, there are Eagle guardians in the cave, be prepared traveller.", "tribalaggression-favian-7", false);
+        s.addSound("[3/5] Favian: Once you get the totem, you may return it to its original tribe.", "tribalaggression-favian-8", false);
+        s.addSound("[4/5] Favian: Hopefully, we two camps will never set foot on another's land in an attempt to steal back the totems, and live in peace.", "tribalaggression-favian-9", false);
+        s.addSound("[5/5] Favian: Anyways, hurry up, even the thought of the two totems sharing the same space makes me sick.", "tribalaggression-favian-10", false);
+        s.addSound("[1/3] Caras: I-Is that, the totem? My, it has been a long time since the owl has been with me. Though I wonder if the Eagle and Owl totem possess the same mystic powers.", "tribalaggression-caras-8", false);
+        s.addSound("[2/3] Caras: To think, such a long war could end so quickly and by the help of a single person.", "tribalaggression-caras-9", false);
+        s.addSound("[3/3] Caras: Many thanks to you! I shall keep my promise, please accept this reward, and may the Owl be forever with you.", "tribalaggression-caras-10", false);
+
 
         //Studying the corrupt
         s.addSound("[1/6] Viraex: Garoth? Sorry that name doesn't ring a bell. He could have lived here, but...", "studyingthecorrupt-viraex-1", false);
