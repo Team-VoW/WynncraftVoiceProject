@@ -1011,6 +1011,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wynnexcavationa-tesha-7", "stream": true}]
   },
+  "wynnexcavationa-tesha-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationa-tesha-8", "stream": true}]
+  },
+  "wynnexcavationa-tesha-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationa-tesha-9", "stream": true}]
+  },
   "wynnexcavationa-vade-5": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wynnexcavationa-vade-5", "stream": true}]

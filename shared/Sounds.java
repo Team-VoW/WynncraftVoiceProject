@@ -974,6 +974,8 @@ public class Sounds {
         s.addSound("[6/8] Tesha: Here, let me finish this up...", "wynnexcavationa-tesha-5", false);
         s.addSound("[7/8] Tesha: ...and there you are!", "wynnexcavationa-tesha-6", false);
         s.addSound("[8/8] Tesha: One tablet complete! Return it to Vade. Oh, and don't read it!", "wynnexcavationa-tesha-7", false);
+        s.addSound("[1/1] Tesha: Take that to Vade, and don't read it!", "wynnexcavationa-tesha-8", false);
+        s.addSound("[1/1] Tesha: Oh hey it's you! Wynn Excavation has its eye on you.", "wynnexcavationa-tesha-9", false);
         s.addSound("[1/6] Vade: Who are you?", "wynnexcavationa-vade-5", false);
         s.addSound("[2/6] Vade: Oh, right, you're that kid I sent out!", "wynnexcavationa-vade-6", false);
         s.addSound("[3/6] Vade: Well do you have the translated text or not?", "wynnexcavationa-vade-7", false);
