@@ -439,7 +439,6 @@ public class Sounds {
         s.addSound("[1/1] Slykaar: I... You... No...", "cur-slykaar-7", true);
 
         //Creeper Infiltration
-//Creeper infiltration
         s.addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "creeperinfiltration-thomas-1", false);
         s.addSound("[2/7] Thomas: I am Thomas, and I help manage the supplies for this ravine village.  Though, I have  a bit of a problem...", "creeperinfiltration-thomas-2", false);
         s.addSound("[3/7] Thomas: We're running low on ravine grains, which is our main staple we use for our food.", "creeperinfiltration-thomas-3", false);
