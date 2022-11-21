@@ -8357,6 +8357,35 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:pitofthedead-merloni-5", "stream": true}]
   },
+  "pitofthedead-merloni-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-6", "stream": true}]
+  },
+  "pitofthedead-merloni-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-7", "stream": true}]
+  },
+  "pitofthedead-merloni-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-8", "stream": true}]
+  },
+  "pitofthedead-merloni-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-9", "stream": true}]
+  },
+  "pitofthedead-merloni-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-10", "stream": true}]
+  },
+  "pitofthedead-merloni-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-11", "stream": true}]
+  },
+  "pitofthedead-merloni-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pitofthedead-merloni-12", "stream": true}]
+  },
+
 
   "arachnidsascent-privatecob-1": {
     "category": "voice",

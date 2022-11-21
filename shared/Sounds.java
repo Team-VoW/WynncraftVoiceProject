@@ -1441,11 +1441,19 @@ public class Sounds {
         s.addSound("[1/3] Leucsaa: The journal! You outsmarted the mansion!", "dwellingwalls-leucsaa-2", false);
 
         //Pit of the dead
-        s.addSound("[1/8] Merloni: Would you like to hear the tale of the pit of the dead?", "pitofthedead-merloni-1", false);
-        s.addSound("[1/1] Merloni: Very impressive! Here's your reward. I found it a while ago while walking around Nemract. It probably fell off a skeleton!", "pitofthedead-merloni-2", false);
-        s.addSound("[1/1] Merloni: Ah yes, hello! I don't think you want to hear what I have to say. It's a bit out of your league, come back when you are level 23.", "pitofthedead-merloni-3", false);
-        s.addSound("[1/1] Merloni: If you are too scared to go down there, I understand. Dealing with the souls of the dead isn't for everyone.", "pitofthedead-merloni-4", false);
-        s.addSound("[1/1] Merloni: Glad to see you again!", "pitofthedead-merloni-5", false);
+        s.addSound("[1/1] Merloni: Ah yes, hello! I don't think you want to hear what I have to say. It's a bit out of your league, come back when you are level 23.", "pitofthedead-merloni-1", false);
+        s.addSound("[1/8] Merloni: Would you like to hear the tale of the pit of the dead?", "pitofthedead-merloni-2", false);
+        s.addSound("[2/8] Merloni: It is the pit where the corpses of the poor miners who discovered what is now named the Nether Portal are buried.", "pitofthedead-merloni-3", false);
+        s.addSound("[3/8] Merloni: Those that had not already died had to be executed due to the insanity brought on from the corruption.", "pitofthedead-merloni-4", false);
+        s.addSound("[4/8] Merloni: Their spirits still haunt the grave and infect the minds of people who disturb them. It isn't pretty.", "pitofthedead-merloni-5", false);
+        s.addSound("[5/8] Merloni: However, I heard rumours of those who were able to bathe in their waters and be accepted by them, to show no fear of the dead is to be admired.", "pitofthedead-merloni-6", false);
+        s.addSound("[6/8] Merloni: Maybe this shrine that I keep hearing about has something to do with it? It's apparently hidden deep inside the pit.", "pitofthedead-merloni-7", false);
+        s.addSound("[7/8] Merloni: Soldier, the pit is located south east of Nemract, across the bridge behind us. I will write down the coordinates inside your quest book.", "pitofthedead-merloni-8", false);
+        s.addSound("[8/8] Merloni: Enter the pit. Learn it's mysteries, then come back to me.", "pitofthedead-merloni-9", false);
+        s.addSound("[1/1] Merloni: If you are too scared to go down there, I understand. Dealing with the souls of the dead isn't for everyone.", "pitofthedead-merloni-10", false);
+        s.addSound("[1/1] Merloni: Very impressive! Here's your reward. I found it a while ago while walking around Nemract. It probably fell off a skeleton!", "pitofthedead-merloni-11", false);
+        s.addSound("[1/1] Merloni: Glad to see you again!", "pitofthedead-merloni-12", false);
+
 
         //Deja Vu
         s.addSound("[1/6] Asher: Well well well, look who decided to come back with their tail between their legs.", "dejavu-asher-1", false);

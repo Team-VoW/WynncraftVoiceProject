@@ -1441,11 +1441,19 @@ public class Sounds {
         s.addSound("[1/3] Leucsaa: The journal! You outsmarted the mansion!", "dwellingwalls-leucsaa-2", false);
 
         //Pit of the dead
-        s.addSound("[1/8] Merloni: Would you like to hear the tale of the pit of the dead?", "pitofthedead-merloni-1", false);
-        s.addSound("[1/1] Merloni: Very impressive! Here's your reward. I found it a while ago while walking around Nemract. It probably fell off a skeleton!", "pitofthedead-merloni-2", false);
-        s.addSound("[1/1] Merloni: Ah yes, hello! I don't think you want to hear what I have to say. It's a bit out of your league, come back when you are level 23.", "pitofthedead-merloni-3", false);
-        s.addSound("[1/1] Merloni: If you are too scared to go down there, I understand. Dealing with the souls of the dead isn't for everyone.", "pitofthedead-merloni-4", false);
-        s.addSound("[1/1] Merloni: Glad to see you again!", "pitofthedead-merloni-5", false);
+        s.addSound("[1/1] Merloni: Ah yes, hello! I don't think you want to hear what I have to say. It's a bit out of your league, come back when you are level 23.", "pitofthedead-merloni-1", false);
+        s.addSound("[1/8] Merloni: Would you like to hear the tale of the pit of the dead?", "pitofthedead-merloni-2", false);
+        s.addSound("[2/8] Merloni: It is the pit where the corpses of the poor miners who discovered what is now named the Nether Portal are buried.", "pitofthedead-merloni-3", false);
+        s.addSound("[3/8] Merloni: Those that had not already died had to be executed due to the insanity brought on from the corruption.", "pitofthedead-merloni-4", false);
+        s.addSound("[4/8] Merloni: Their spirits still haunt the grave and infect the minds of people who disturb them. It isn't pretty.", "pitofthedead-merloni-5", false);
+        s.addSound("[5/8] Merloni: However, I heard rumours of those who were able to bathe in their waters and be accepted by them, to show no fear of the dead is to be admired.", "pitofthedead-merloni-6", false);
+        s.addSound("[6/8] Merloni: Maybe this shrine that I keep hearing about has something to do with it? It's apparently hidden deep inside the pit.", "pitofthedead-merloni-7", false);
+        s.addSound("[7/8] Merloni: Soldier, the pit is located south east of Nemract, across the bridge behind us. I will write down the coordinates inside your quest book.", "pitofthedead-merloni-8", false);
+        s.addSound("[8/8] Merloni: Enter the pit. Learn it's mysteries, then come back to me.", "pitofthedead-merloni-9", false);
+        s.addSound("[1/1] Merloni: If you are too scared to go down there, I understand. Dealing with the souls of the dead isn't for everyone.", "pitofthedead-merloni-10", false);
+        s.addSound("[1/1] Merloni: Very impressive! Here's your reward. I found it a while ago while walking around Nemract. It probably fell off a skeleton!", "pitofthedead-merloni-11", false);
+        s.addSound("[1/1] Merloni: Glad to see you again!", "pitofthedead-merloni-12", false);
+
 
         //Deja Vu
         s.addSound("[1/6] Asher: Well well well, look who decided to come back with their tail between their legs.", "dejavu-asher-1", false);
@@ -1530,10 +1538,17 @@ public class Sounds {
 
         //Macabre Masquerade Hallowynn 2014
         s.addSound("[1/5] Mask Salesman: Hmm... Let's see, wha- Ah! Oh, pardon me, I was distracted. Luckily you're here, because I require some assistance.", "macabremasquerade-masksalesman-1", false);
-        s.addSound("[1/4] Mask Salesman: You've met a terrible fate, haven't you? I was just about to run the whole way to Nemract to get help.", "macabremasquerade-masksalesman-2", false);
-        s.addSound("[1/1] Mask Salesman: If you ever need something in the future, you should visit me in my homeland.", "macabremasquerade-masksalesman-3", false);
-        s.addSound("[1/1] Mask Salesman: I can't talk right now. I've lost something rather valuable, and I need to get it back quickly, because I'm only staying here for a couple of weeks. Please come back when you're level 21.", "macabremasquerade-masksalesman-4", false);
-        s.addSound("[1/1] Mask Salesman: Please help me find that mask! It's very valuable.", "macabremasquerade-masksalesman-5", false);
+        s.addSound("[2/5] Mask Salesman: You see, I was just on my way back from that large mansion near Nesaak, where I went to acquire some antiques from an old business partner.", "macabremasquerade-masksalesman-2", false);
+        s.addSound("[3/5] Mask Salesman: However, along the way, a valuable cursed mask escaped from my caravan and somehow made its way into the dark mine over there!", "macabremasquerade-masksalesman-3", false);
+        s.addSound("[4/5] Mask Salesman: I would've gone after it, but the things I have in this caravan are too important to leave by themselves. Not to mention that the cave seemed to corrupt from the inside out...", "macabremasquerade-masksalesman-4", false);
+        s.addSound("[5/5] Mask Salesman: You must help me retrieve the mask, for I must depart in 3 days! Could you brave the shadowy cave and bring it back?", "macabremasquerade-masksalesman-5", false);
+        s.addSound("[1/4] Mask Salesman: You've met a terrible fate, haven't you? I was just about to run the whole way to Nemract to get help.", "macabremasquerade-masksalesman-6", false);
+        s.addSound("[2/4] Mask Salesman: I would really like to hear what you encountered in that cave, but I must prepare to leave, for I have many masks to sell on a far away continent.", "macabremasquerade-masksalesman-7", false);
+        s.addSound("[3/4] Mask Salesman: Maybe you can visit me at some point, if our paths were to ever cross again. Then we could talk about your journey.", "macabremasquerade-masksalesman-8", false);
+        s.addSound("[4/4] Mask Salesman: To thank you for your help, I wanted to give you a special mask, but I'm out of it. Maybe next year?", "macabremasquerade-masksalesman-9", false);
+        s.addSound("[1/1] Mask Salesman: If you ever need something in the future, you should visit me in my homeland.", "macabremasquerade-masksalesman-10", false);
+        s.addSound("[1/1] Mask Salesman: I can't talk right now. I've lost something rather valuable, and I need to get it back quickly, because I'm only staying here for a couple of weeks. Please come back when you're level 21.", "macabremasquerade-masksalesman-11", false);
+        s.addSound("[1/1] Mask Salesman: Please help me find that mask! It's very valuable.", "macabremasquerade-masksalesman-12", false);
 
         //Generals Orders
         s.addSound("[1/8] Private Tylas: ...snrrrk... ... ... ...mimimimimi... ... ... ...snrrrk... ... ... ...mimimimimi...", "generalsorders-privatetylas-1", false);
@@ -1871,11 +1886,28 @@ public class Sounds {
         s.addSound("[8/9] Sherk: Now I'm sure you'll find a nice lad somewhere who'll take you for who you are, but until you find someone that has no standards, shove your creepy lips where I can't see 'em!!", "themaidentower-sherk-24", true);
         s.addSound("[9/9] Maiden: ...I...I g-guess he was rotten to the core, despite his...l-luscious exterior...but, you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!", "themaidentower-maiden-8", false);
 
-        //Tribal Aggression
+        //Tribal aggression
         s.addSound("[1/7] Caras: My tribe worries our own business, stranger.", "tribalaggression-caras-1", false);
-        s.addSound("[1/3] Caras: I-Is that, the totem? My, it has been a long time since the owl has been with me. Though I wonder if the Eagle and Owl totem possess the same mystic powers.", "tribalaggression-caras-2", false);
+        s.addSound("[2/7] Caras: Oh, my apologies, I did not realize you are a warrior of the province! We would be grateful of your help.", "tribalaggression-caras-2", false);
+        s.addSound("[3/7] Caras: Our sacred owl totem that we worship was stolen by the cunning Eagle Tribe many years ago. Its magical properties used to bring prosperity to our camp.", "tribalaggression-caras-3", false);
+        s.addSound("[4/7] Caras: However, the Eagle tribe are not victorious, we possess their mystic eagle totem, but alas, I do not know who was the original thief.", "tribalaggression-caras-4", false);
+        s.addSound("[5/7] Caras: We have been at war for years now, despite being neighbors. Without our totem, our rivalry will continue for ages and peace will never again be felt in our hearts.", "tribalaggression-caras-5", false);
+        s.addSound("[6/7] Caras: Retrieve our totem, and the blessing of the Owl spirit will be with you.", "tribalaggression-caras-6", false);
+        s.addSound("[7/7] Caras: Now, enter the Eagle Camp across the river, you may have to search the camp, I'm sure they have hidden our totem!", "tribalaggression-caras-7", false);
         s.addSound("[1/5] Favian: Greetings, what brings you to the noble Eagle tribe?", "tribalaggression-favian-1", false);
-        s.addSound("[1/5] Favian: Wonderful! You may now enter the cave to retrieve the blasted Owl totem.", "tribalaggression-favian-2", false);
+        s.addSound("[2/5] Favian: You seek the Owl totem? The cursed Owl tribe trying to retain their lost dignity again.", "tribalaggression-favian-2", false);
+        s.addSound("[3/5] Favian: Why should we give you their totem back? They stole our source of enlightenment all those years ago.", "tribalaggression-favian-3", false);
+        s.addSound("[4/5] Favian: Tell you what, if you can retrieve our Eagle Totem, I will allow you to go return the Owl totem.", "tribalaggression-favian-4", false);
+        s.addSound("[5/5] Favian: I'm sure they hid the totem, but if you are able to find it, I await your return!", "tribalaggression-favian-5", false);
+        s.addSound("[1/5] Favian: Wonderful! You may now enter the cave to retrieve the blasted Owl totem.", "tribalaggression-favian-6", false);
+        s.addSound("[2/5] Favian: Be careful, there are Eagle guardians in the cave, be prepared traveller.", "tribalaggression-favian-7", false);
+        s.addSound("[3/5] Favian: Once you get the totem, you may return it to its original tribe.", "tribalaggression-favian-8", false);
+        s.addSound("[4/5] Favian: Hopefully, we two camps will never set foot on another's land in an attempt to steal back the totems, and live in peace.", "tribalaggression-favian-9", false);
+        s.addSound("[5/5] Favian: Anyways, hurry up, even the thought of the two totems sharing the same space makes me sick.", "tribalaggression-favian-10", false);
+        s.addSound("[1/3] Caras: I-Is that, the totem? My, it has been a long time since the owl has been with me. Though I wonder if the Eagle and Owl totem possess the same mystic powers.", "tribalaggression-caras-8", false);
+        s.addSound("[2/3] Caras: To think, such a long war could end so quickly and by the help of a single person.", "tribalaggression-caras-9", false);
+        s.addSound("[3/3] Caras: Many thanks to you! I shall keep my promise, please accept this reward, and may the Owl be forever with you.", "tribalaggression-caras-10", false);
+
 
         //Studying the corrupt
         s.addSound("[1/6] Viraex: Garoth? Sorry that name doesn't ring a bell. He could have lived here, but...", "studyingthecorrupt-viraex-1", false);
