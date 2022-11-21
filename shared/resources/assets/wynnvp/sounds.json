@@ -10558,6 +10558,42 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:flightindistress-broadcast-2", "stream": true}]
   },
+  "flightindistress-capturedprisoner-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-1", "stream": true}]
+  },
+  "flightindistress-capturedprisoner-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-2", "stream": true}]
+  },
+  "flightindistress-capturedprisoner-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-3", "stream": true}]
+  },
+  "flightindistress-capturedprisoner-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-4", "stream": true}]
+  },
+  "flightindistress-capturedprisoner-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-5", "stream": true}]
+  },
+  "flightindistress-capturedprisoner-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-6", "stream": true}]
+  },
+  "flightindistress-capturedprisoner-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-7", "stream": true}]
+  },
+  "flightindistress-capturedprisoner-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-8", "stream": true}]
+  },
+  "flightindistress-capturedprisoner-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-9", "stream": true}]
+  },
 
 
 

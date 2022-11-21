@@ -5291,6 +5291,16 @@ public class Sounds {
         s.addSound("[3/3] Engine Instructions: DO NOT PRESS THE STONE SWITCHES", "flightindistress-engineinstructions-3", false);
         s.addSound("[1/1] Broadcast: Attention passengers. There has been a missing person reported aboard. If there are any volunteers to help search for them, please report to the bridge and speak to the captain.", "flightindistress-broadcast-1", false);
         s.addSound("[1/1] Broadcast: All staff report to stations! This is not a drill! All staff, report to stations!", "flightindistress-broadcast-2", false);
+        s.addSound("[1/1] Captured Prisoner: I heard fighting? Is someone there? I am in the jail cell!", "flightindistress-capturedprisoner-1", false);
+        s.addSound("[1/1] Captured Prisoner: Hey! Don't leave before talking to me!", "flightindistress-capturedprisoner-2", false);
+        s.addSound("[1/6] Captured Prisoner: I heard the fighting above, well done! Any chance to see those raiders get what's coming warms my old heart.", "flightindistress-capturedprisoner-3", false);
+        s.addSound("[2/6] Captured Prisoner: I used to be the greatest locksmith in all of Gavel! I was known all over, unfortunately.", "flightindistress-capturedprisoner-4", false);
+        s.addSound("[3/6] Captured Prisoner: These fiends captured me, years ago, and made me create hundreds of keys for their raids.", "flightindistress-capturedprisoner-5", false);
+        s.addSound("[4/6] Captured Prisoner: I am much too old now, but I would love to see them taken down before I leave this world.", "flightindistress-capturedprisoner-6", false);
+        s.addSound("[5/6] Captured Prisoner: My key making gear is stored down the hall, behind the staircase. You can use them to craft a way inside the Queen's quarters.", "flightindistress-capturedprisoner-7", false);
+        s.addSound("[6/6] Captured Prisoner: Just look into the keyhole to see how to make them. Good luck!", "flightindistress-capturedprisoner-8", false);
+        s.addSound("[1/1] Captured Prisoner: My key making gear is down the hall. Use it to make a key to the Queen's quarters.", "flightindistress-capturedprisoner-9", false);
+
 
         s.addSound("[1/1] Ship Crew: This area is off limits to passengers during take off. Climb up to the passenger decks, there will be an attendee at your cabin.", "flightindistress-shipcrew-1", false);
         s.addSound("[1/1] Baron Axol: Greetings, young adventurer. You haven't seen my glasses, have you?", "flightindistress-baronaxol-1", false);
