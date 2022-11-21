@@ -1061,39 +1061,119 @@
   },
 
 
-  "wynnexcvationb-archaeologist-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationb-archaeologist-1", "stream": true}]
-  },
-  "wynnexcvationb-flendar-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationb-flendar-1", "stream": true}]
-  },
-  "wynnexcvationb-lykron-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-1", "stream": true}]
-  },
-  "wynnexcvationb-lykron-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-2", "stream": true}]
-  },
-  "wynnexcvationb-lykron-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-3", "stream": true}]
-  },
-  "wynnexcvationb-lykron-4": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-4", "stream": true}]
-  },
-  "wynnexcvationb-lykron-5": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-5", "stream": true}]
-  },
-  "wynnexcvationb-lykron-6": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcvationb-lykron-6", "stream": true}]
-  },
 
+  "wynnexcavationb-excavatorlykron-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-1", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-2", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-3", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-4", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-5", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-6", "stream": true}]
+  },
+  "wynnexcavationb-flendar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-flendar-1", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationarchaeologist-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationarchaeologist-1", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationarchaeologist-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationarchaeologist-2", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationarchaeologist-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationarchaeologist-3", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationarchaeologist-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationarchaeologist-4", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationarchaeologist-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationarchaeologist-5", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationarchaeologist-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationarchaeologist-6", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationarchaeologist-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationarchaeologist-7", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-7", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-8", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-9", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-10", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-11", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-12", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-13", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-14", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-15", "stream": true}]
+  },
+  "wynnexcavationb-excavatorlykron-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-excavatorlykron-16", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationguard-1", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationguard-2", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationguard-3", "stream": true}]
+  },
+  "wynnexcavationb-wynnexcavationguard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationb-wynnexcavationguard-4", "stream": true}]
+  },
 
 
 

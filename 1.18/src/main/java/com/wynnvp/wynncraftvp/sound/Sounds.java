@@ -989,15 +989,36 @@ public class Sounds {
 
 
 
-        //Wynn Excavation site B
-        s.addSound("[1/1] Flendar: We know what you stole from us in the desert! Take THIS! You won't be escaping this dead end any time soon!", "wynnexcvationb-flendar-1", true);
-        s.addSound("[1/6] Excavator Lykron: Good day! You're the person that helped us out in the desert aren't you? Excellent! Just the person I need! Can you help me out with a problem I have?", "wynnexcvationb-lykron-1", false);
-        s.addSound("[1/5] Excavator Lykron: I have to admit, I'm impressed. I genuinely thought our plan would be successful. Who knew that dead end had a secret exit.", "wynnexcvationb-lykron-2", false);
-        s.addSound("[1/1] Excavator Lykron: And don't come back!", "wynnexcvationb-lykron-3", false);
-        s.addSound("[1/1] Excavator Lykron: Go on now! Off you go! Remember to speak to my colleague at the bottom of the cave!", "wynnexcvationb-lykron-4", false);
-        s.addSound("[1/1] Excavator Lykron: Hello there! We are working very hard here at this excavation site! We have one in Almuj as well, I think you should check it out!", "wynnexcvationb-lykron-5", false);
-        s.addSound("[1/2] Excavator Lykron: Good day! Can you help me out with a problem I have?", "wynnexcvationb-lykron-6", false);
-        s.addSound("[1/7] WynnExcavation Archaeologist: Baffling... What a puzzling situation I am in...", "wynnexcvationb-archaeologist-1", false);
+//wynnexcavationb
+        s.addSound("[1/6] Excavator Lykron: Good day! You're the person that helped us out in the desert aren't you? Excellent! Just the person I need! Can you help me out with a problem I have?", "wynnexcavationb-excavatorlykron-1", false);
+        s.addSound("[2/6] Excavator Lykron: Perfect! You see we are supposed to be searching for some of the... uhhh... long lost ruins of ancient Wynn, just like in the desert!", "wynnexcavationb-excavatorlykron-2", false);
+        s.addSound("[3/6] Excavator Lykron: However, it seems no progress has been made recently; my workers have stopped working!", "wynnexcavationb-excavatorlykron-3", false);
+        s.addSound("[4/6] Excavator Lykron: The problem is, there are strange creatures down at the bottom of the cave disturbing them.", "wynnexcavationb-excavatorlykron-4", false);
+        s.addSound("[5/6] Excavator Lykron: I need you to go and kill them, but first you should go talk to one of my colleagues, he has more information for you.", "wynnexcavationb-excavatorlykron-5", false);
+        s.addSound("[6/6] Excavator Lykron: He is located directly at the bottom of the cave, go speak to him, go on now! Off you go!", "wynnexcavationb-excavatorlykron-6", false);
+        s.addSound("[1/1] Flendar: We know what you stole from us in the desert! Take THIS! You won't be escaping this dead end any time soon!", "wynnexcavationb-flendar-1", false);
+        s.addSound("[1/7] WynnExcavation Archaeologist: Baffling... What a puzzling situation I am in...", "wynnexcavationb-wynnexcavationarchaeologist-1", false);
+        s.addSound("[2/7] WynnExcavation Archaeologist: I cannot open this door for some reason...", "wynnexcavationb-wynnexcavationarchaeologist-2", false);
+        s.addSound("[3/7] WynnExcavation Archaeologist: We suspect the purple crystal is behind this door, but the descriptions in the scriptures don't match this door.", "wynnexcavationb-wynnexcavationarchaeologist-3", false);
+        s.addSound("[4/7] WynnExcavation Archaeologist: They seem to describe another door, but all our evidence says otherwise.", "wynnexcavationb-wynnexcavationarchaeologist-4", false);
+        s.addSound("[5/7] WynnExcavation Archaeologist: The scriptures also say something about hidden within the rocks... But we removed them all!", "wynnexcavationb-wynnexcavationarchaeologist-5", false);
+        s.addSound("[6/7] WynnExcavation Archaeologist: Well, the writing isn't actually all that clear, It could mean virtually anything. I think one of these words means hippo! Guess we'll have to find out!", "wynnexcavationb-wynnexcavationarchaeologist-6", false);
+        s.addSound("[7/7] WynnExcavation Archaeologist: Anyway, back to figuring out what needs to be done here... Wait, who are you, you're not an employee of Wynn Excavation!", "wynnexcavationb-wynnexcavationarchaeologist-7", false);
+        s.addSound("[1/5] Excavator Lykron: I have to admit, I'm impressed. I genuinely thought our plan would be successful. Who knew that dead end had a secret exit.", "wynnexcavationb-excavatorlykron-7", false);
+        s.addSound("[2/5] Excavator Lykron: Not me apparently. We know what you took in the desert, you were just some kid expected to do a delivery job, who knew you'd take a shard of the crystal.", "wynnexcavationb-excavatorlykron-8", false);
+        s.addSound("[3/5] Excavator Lykron: Don't pretend like you don't know what it is, you know as well as I do combining the four crystal shards is told to bring unlimited power!", "wynnexcavationb-excavatorlykron-9", false);
+        s.addSound("[4/5] Excavator Lykron: You will not interfere any longer. The location of the remaining crystals are known only to us; the fire and leaf crystals are safe.", "wynnexcavationb-excavatorlykron-10", false);
+        s.addSound("[5/5] Excavator Lykron: I see that tricking you isn't the way to defeating you. If we ever meet again, we'll be using force and upping our security. Now I never want to see you again. Our socie- I mean company, will not tolerate your interference again.", "wynnexcavationb-excavatorlykron-11", false);
+        s.addSound("[1/1] Excavator Lykron: And don't come back!", "wynnexcavationb-excavatorlykron-12", false);
+        s.addSound("[1/1] Excavator Lykron: Hello there! We are working very hard here at this excavation site! We have one in Almuj as well, I think you should check it out!", "wynnexcavationb-excavatorlykron-13", false);
+        s.addSound("[1/2] Excavator Lykron: Good day! Can you help me out with a problem I have?", "wynnexcavationb-excavatorlykron-14", false);
+        s.addSound("[2/2] Excavator Lykron: Hmm, it seems you will be unable to help us. We need someone at least level 46.", "wynnexcavationb-excavatorlykron-15", false);
+        s.addSound("[1/1] Excavator Lykron: Go on now! Off you go! Remember to speak to my colleague at the bottom of the cave!", "wynnexcavationb-excavatorlykron-16", false);
+        s.addSound("[1/4] WynnExcavation Guard: What are you doing here?!", "wynnexcavationb-wynnexcavationguard-1", false);
+        s.addSound("[2/4] WynnExcavation Guard: This door is closed; the mine entrance behind it isn't open at this time.", "wynnexcavationb-wynnexcavationguard-2", false);
+        s.addSound("[3/4] WynnExcavation Guard: I'm here to make sure no one uses the passage while the archaeologist works.", "wynnexcavationb-wynnexcavationguard-3", false);
+        s.addSound("[4/4] WynnExcavation Guard: You will have to find another exit if you want get out!", "wynnexcavationb-wynnexcavationguard-4", false);
+
 
         //Wynn Excavation site C
         s.addSound("[1/8] Excavator Placardus: All operations functional… Transportation on schedule… Oh. It's you. We've been looking for you.", "wynnexcavationc-placardus-1", false);
