@@ -18677,13 +18677,29 @@
 
 
 
-
-
-
-
   "heartofllevigar-zenam-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-1", "stream": true}]
+  },
+  "heartofllevigar-zenam-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-2", "stream": true}]
+  },
+  "heartofllevigar-zenam-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-3", "stream": true}]
+  },
+  "heartofllevigar-zenam-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-4", "stream": true}]
+  },
+  "heartofllevigar-zenam-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-5", "stream": true}]
+  },
+  "heartofllevigar-zenam-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-6", "stream": true}]
   },
   "heartofllevigar-headengineer-1": {
     "category": "voice",
@@ -18693,10 +18709,56 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-2", "stream": true}]
   },
-  "heartofllevigar-zenam-2": {
+  "heartofllevigar-headengineer-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-3", "stream": true}]
   },
+  "heartofllevigar-headengineer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-4", "stream": true}]
+  },
+  "heartofllevigar-headengineer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-5", "stream": true}]
+  },
+  "heartofllevigar-headengineer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-6", "stream": true}]
+  },
+  "heartofllevigar-headengineer-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-7", "stream": true}]
+  },
+  "heartofllevigar-headengineer-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-8", "stream": true}]
+  },
+  "heartofllevigar-headengineer-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-9", "stream": true}]
+  },
+  "heartofllevigar-headengineer-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-10", "stream": true}]
+  },
+  "heartofllevigar-zenam-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-7", "stream": true}]
+  },
+  "heartofllevigar-zenam-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-8", "stream": true}]
+  },
+  "heartofllevigar-zenam-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-9", "stream": true}]
+  },
+  "heartofllevigar-zenam-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-10", "stream": true}]
+  },
+
+
 
 
   "piratestrove-damiral-1": {

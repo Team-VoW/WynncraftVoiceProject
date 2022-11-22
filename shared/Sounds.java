@@ -3018,9 +3018,25 @@ public class Sounds {
 
         //Heart of llevigar
         s.addSound("[1/6] Zenam: Aaah, no no no! This doesn't make any sense, what in the world is going on?! Nothing's working!", "heartofllevigar-zenam-1", false);
+        s.addSound("[2/6] Zenam: Gweh, a visitor? Get out of here! The plant is shut down for maintenance- wait, are you the electromagic expert we're paying for?", "heartofllevigar-zenam-2", false);
+        s.addSound("[3/6] Zenam: You are, right? Right?! Cause we can't wait any longer! This system was supposed to be unbreakable, a flawless design!", "heartofllevigar-zenam-3", false);
+        s.addSound("[4/6] Zenam: We didn't even need to get Corkian consultation on this, we had this system all figured out ourselves, but now nothing's working right!", "heartofllevigar-zenam-4", false);
+        s.addSound("[5/6] Zenam: You're seeing all these sparks and hearing all this crackling? We have no idea what could possibly be going wrong with this! That's why you're needed here!", "heartofllevigar-zenam-5", false);
+        s.addSound("[6/6] Zenam: We don't have much time until full meltdown! There is an entrance to the power plant opposite the bank, go there and meet with the Head Engineer!", "heartofllevigar-zenam-6", false);
         s.addSound("[1/5] Head Engineer: Whew, finally Zeman found a guy for the job. I told him weeks ago this was a two-person task...", "heartofllevigar-headengineer-1", false);
-        s.addSound("[1/5] Head Engineer: Alright, that should do it- Ah, you're back. The system reset just fine, like I said. Everything should be winding down now.", "heartofllevigar-headengineer-2", false);
-        s.addSound("[1/4] Zenam: Whew...welcome back. The power is back online- Everything is running at full capacity again. I think the system is just running excess through right now.", "heartofllevigar-zenam-2", false);
+        s.addSound("[2/5] Head Engineer: Wait, it's Zenam? Eh, what does it matter? You knew who I was talkin' about. Lemme give you the lowdown real fast.", "heartofllevigar-headengineer-2", false);
+        s.addSound("[3/5] Head Engineer: About a month ago, there was a big blackout, and the generator here started acting up. Power surges, appliances overloading...heck, some of our lights turned purple!", "heartofllevigar-headengineer-3", false);
+        s.addSound("[4/5] Head Engineer: My grandfather and his engineers jury-rigged this whole system. A reset should fix all this, but as a security measure, I need to be here to oversee the reset.", "heartofllevigar-headengineer-4", false);
+        s.addSound("[5/5] Head Engineer: So that's your job- get through the system and find the reset button. These holes'll lead you around the generator rooms. Better get going!", "heartofllevigar-headengineer-5", false);
+        s.addSound("[1/5] Head Engineer: Alright, that should do it- Ah, you're back. The system reset just fine, like I said. Everything should be winding down now.", "heartofllevigar-headengineer-6", false);
+        s.addSound("[2/5] Head Engineer: It's purging the excess energy now- might have a few more power surges and crackles for a while, but it'll go back to normal soon enough.", "heartofllevigar-headengineer-7", false);
+        s.addSound("[3/5] Head Engineer: Hm? What, there was a bug in the system? ...what, are you asleep or something? Of course there was a bug, we just fixed it!", "heartofllevigar-headengineer-8", false);
+        s.addSound("[4/5] Head Engineer: Well, anyways, Zebra should have our payment all settled. You go on ahead- I still need to stay down here to make sure everything stays smooth.", "heartofllevigar-headengineer-9", false);
+        s.addSound("[5/5] Head Engineer: ...oh, it's Zenam? D'you really care about getting his name right, or what? Anyways, the exit's through the water cooling system, it hooks up to the sewer exit.", "heartofllevigar-headengineer-10", false);
+        s.addSound("[1/4] Zenam: Whew...welcome back. The power is back online- Everything is running at full capacity again. I think the system is just running excess through right now.", "heartofllevigar-zenam-7", false);
+        s.addSound("[2/4] Zenam: Glad you got here when you did though- some phony came through saying he was the expert. Clearly he was just here to take your contract money...  (The player took that guy's job)", "heartofllevigar-zenam-8", false);
+        s.addSound("[3/4] Zenam: Though, I was panicking so much I probably would've believed him... Speaking of which, here's your cut of the pay, and something extra for the trouble.", "heartofllevigar-zenam-9", false);
+        s.addSound("[4/4] Zenam: Here's to hoping that the system won't run into any more trouble in the future. I don't want to be faced with an impending cataclysm like that again...", "heartofllevigar-zenam-10", false);
 
         //The Qira Hive
         s.addSound("[1/13] Yansur: I see another challenger has found their way to The Qira Hive!", "theqirahive-yansur-1", false);
