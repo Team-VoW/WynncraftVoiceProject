@@ -1215,6 +1215,31 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cluckcluck-nohno-2", "stream": true}]
   },
+  "cluckcluck-nohno-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cluckcluck-nohno-3", "stream": true}]
+  },
+  "cluckcluck-nohno-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cluckcluck-nohno-4", "stream": true}]
+  },
+  "cluckcluck-nohno-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cluckcluck-nohno-5", "stream": true}]
+  },
+  "cluckcluck-nohno-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cluckcluck-nohno-6", "stream": true}]
+  },
+  "cluckcluck-nohno-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cluckcluck-nohno-7", "stream": true}]
+  },
+  "cluckcluck-nohno-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cluckcluck-nohno-8", "stream": true}]
+  },
+
 
 
   "infestedplants-ope-1": {

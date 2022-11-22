@@ -1062,9 +1062,15 @@ public class Sounds {
         s.addSound("[1/6] Yahya: H-... Hey! I didn’t expect you to find it.. Haha… um..", "mushroomman-yahya-4", false);
         s.addSound("[1/2] Yahya: Oh boy I love bowls! Bowls, bowls, b-bowls! Perfect for mushrooms! W-wait... I thought I- was at my home?", "mushroomman-yahya-5", false);
 
-        //Cluck Cluck
+        //Cluck cluck
         s.addSound("[1/6] Nohno: Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.", "cluckcluck-nohno-1", false);
-        s.addSound("[1/2] Nohno: What is this?! His feather? What did you do to Cluckles?! I wanted you to take care of him, not kill him!", "cluckcluck-nohno-2", false);
+        s.addSound("[2/6] Nohno: I really love my chickens, but there is one that I just cannot control...", "cluckcluck-nohno-2", false);
+        s.addSound("[3/6] Nohno: His name is Cluckles, he was given to me by a man named Bob before he went to war, but when Bob never came back, Cluckles got angry...", "cluckcluck-nohno-3", false);
+        s.addSound("[4/6] Nohno: He's really dangerous to keep on my lovely island, so I keep him in my basement...", "cluckcluck-nohno-4", false);
+        s.addSound("[5/6] Nohno: I want to take care of him, but my wife says it's too dangerous. Where's my wife you say? Oh, I think she's around here eating some grain.", "cluckcluck-nohno-5", false);
+        s.addSound("[6/6] Nohno: Anyway, I need you to go down there and... take care of him for me. I would really appreciate it.", "cluckcluck-nohno-6", false);
+        s.addSound("[1/2] Nohno: What is this?! His feather? What did you do to Cluckles?!  I wanted you to take care of him, not kill him!", "cluckcluck-nohno-7", false);
+        s.addSound("[2/2] Nohno: You monster! Leave this place now, and keep that feather to remind you of your hideous crime!", "cluckcluck-nohno-8", false);
 
 
         //Enzans Brother
