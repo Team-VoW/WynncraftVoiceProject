@@ -18489,6 +18489,23 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:losttower-laen-4", "stream": true}]
   },
+  "losttower-laen-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:losttower-laen-5", "stream": true}]
+  },
+  "losttower-laen-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:losttower-laen-6", "stream": true}]
+  },
+  "losttower-laen-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:losttower-laen-7", "stream": true}]
+  },
+  "losttower-laen-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:losttower-laen-8", "stream": true}]
+  },
+
 
 
 

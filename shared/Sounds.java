@@ -3008,9 +3008,14 @@ public class Sounds {
 
         //Lost Tower
         s.addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);
-        s.addSound("[1/1] Laen: Great! This will be very interesting to read, thank you!", "losttower-laen-2", false);
-        s.addSound("[1/1] Laen: I have a task for you, but you are...perhaps a bit ill-equipped? Come back when you are level 26.", "losttower-laen-3", false);
-        s.addSound("[1/1] Laen: Thank you for your help!", "losttower-laen-4", false);
+        s.addSound("[2/5] Laen: A long time ago, before Ancient Nemract was destroyed, my family used to own quite an interesting book, that held knowledge of places and beings of great power.", "losttower-laen-2", false);
+        s.addSound("[3/5] Laen: Unfortunately, a creature stole it from them during the attack that led to the destruction of Ancient Nemract, and no one has seen it since.", "losttower-laen-3", false);
+        s.addSound("[4/5] Laen: If you are willing to help, bring me [1 Book of the Bones], I believe this book is now between the hands of skeletons, in an old tower in Ancient Nemract.", "losttower-laen-4", false);
+        s.addSound("[5/5] Laen: See if you can find this tower, one of the skeletons probably has the book somewhere in there.", "losttower-laen-5", false);
+        s.addSound("[1/1] Laen: Great! This will be very interesting to read, thank you!", "losttower-laen-6", false);
+        s.addSound("[1/1] Laen: I have a task for you, but you are...perhaps a bit ill-equipped? Come back when you are level 26.", "losttower-laen-7", false);
+        s.addSound("[1/1] Laen: Thank you for your help!", "losttower-laen-8", false);
+
 
         //Pirates Trove
         s.addSound("[1/8] Damiral: Lo, adventurer! Welcome to the great province of Gavel, home of the villager race, and yours truly. You'll be headed into the grand citadel of Llevigar soon!", "piratestrove-damiral-1", false);
@@ -4355,6 +4360,7 @@ public class Sounds {
         s.addSound("[12/17] Elphaba: The existence of this place has been kept on a strict need-to-know basis.", "ajourneybeyond-elphaba-10", true);
         s.addSound("[13/17] Elphaba: Our mission is to make our way through the mine, observe and report the threat level.", "ajourneybeyond-elphaba-11", true);
         s.addSound("[14/17] Lucio: Come on, we need to get going! Enough with the meetings!", "ajourneybeyond-lucio-2", true);
+        s.addSound("[15/17] Aledar: How many times do we have to tell you to stop doing that? Fix it, Lucio.", "ajourneybeyond-aledar-97", true);
         s.addSound("[16/17] Lucio: Fine...", "ajourneybeyond-lucio-3", true);
         s.addSound("[17/17] Aledar: soldier, if you're ready, let's go.", "ajourneybeyond-aledar-3", true);
         s.addSound("[1/12] Aledar: Everyone ready? I'll lead.", "ajourneybeyond-aledar-4", true);
@@ -4524,7 +4530,6 @@ public class Sounds {
         s.addSound("[6/7] Aledar: It worked... Kind of. I feel at least 70%. We still have a ways to go.", "ajourneybeyond-aledar-94", true);
         s.addSound("[7/7] Aledar: Let’s take some time to gather ourselves before we press on. I’ll meet you on the other side of town.", "ajourneybeyond-aledar-95", true);
         s.addSound("[1/1] Aledar: Ouch! I got hit! Be careful, soldier!", "ajourneybeyond-aledar-96", true);
-        s.addSound("[15/17] Aledar: How many times do we have to tell you to stop doing that? Fix it, Lucio.", "ajourneybeyond-aledar-97", true);
 
         //A journey further
         s.addSound("[1/2] Aledar: Alright, let's go. I'll tell you more about our journey on the way.", "ajourneyfurther-aledar-1", true);
