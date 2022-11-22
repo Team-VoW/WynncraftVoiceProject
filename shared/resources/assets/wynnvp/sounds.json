@@ -8482,6 +8482,47 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-2", "stream": true}]
   },
+  "dwellingwalls-leucsaa-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-3", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-4", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-5", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-6", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-7", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-8", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-9", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-10", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-11", "stream": true}]
+  },
+  "dwellingwalls-leucsaa-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:dwellingwalls-leucsaa-12", "stream": true}]
+  },
+
 
 
   "pitofthedead-merloni-1": {

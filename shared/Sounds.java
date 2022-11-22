@@ -1451,10 +1451,20 @@ public class Sounds {
         s.addSound("[1/1] Ragon: I would appreciate if you could follow my directions.", "elementalexercise-ragon-27", false);
 
 
+        //Dwelling walls
+        s.addSound("[1/10] Leucsaa: Let's see here... mother's old vase? Check!", "dwellingwalls-leucsaa-1", false);
+        s.addSound("[2/10] Leucsaa: Dining room table... got it here, check!", "dwellingwalls-leucsaa-2", false);
+        s.addSound("[3/10] Leucsaa: Finally, the journal. It's out here somewhere, I assume. I'll look around.", "dwellingwalls-leucsaa-3", false);
+        s.addSound("[5/10] Leucsaa: Hold on, what? The journal! I must have forgotten it inside the mansion!", "dwellingwalls-leucsaa-4", false);
+        s.addSound("[6/10] Leucsaa: You there! Would you mind doing me a deed?", "dwellingwalls-leucsaa-5", false);
+        s.addSound("[7/10] Leucsaa: I left a very precious journal inside of this mansion, a hell within walls. It was my great grandfather's!", "dwellingwalls-leucsaa-6", false);
+        s.addSound("[8/10] Leucsaa: The mansion was designed by a Corkian architect, and I was scammed into buying it.", "dwellingwalls-leucsaa-7", false);
+        s.addSound("[9/10] Leucsaa: If you step inside the mansion just for a few moments, you'll understand why the sellers had to trick someone into investing in their god forsaken real estate!", "dwellingwalls-leucsaa-8", false);
+        s.addSound("[10/10] Leucsaa: Navigating from room to room is nearly impossible, the rooms move around. I've only been in the mansion for a week and I'm already packing my bags and moving to Detlas.", "dwellingwalls-leucsaa-9", false);
+        s.addSound("[1/3] Leucsaa: The journal! You outsmarted the mansion!", "dwellingwalls-leucsaa-10", false);
+        s.addSound("[2/3] Leucsaa: I must thank you, that journal was priceless to my family.", "dwellingwalls-leucsaa-11", false);
+        s.addSound("[3/3] Leucsaa: Let this be a life lesson to you. Never buy a house from a Corkian architect.", "dwellingwalls-leucsaa-12", false);
 
-        //Dwelling Walls
-        s.addSound("[1/10] Leucsaa: Let's see here... mother's old vase… check!", "dwellingwalls-leucsaa-1", false);
-        s.addSound("[1/3] Leucsaa: The journal! You outsmarted the mansion!", "dwellingwalls-leucsaa-2", false);
 
         //Pit of the dead
         s.addSound("[1/1] Merloni: Ah yes, hello! I don't think you want to hear what I have to say. It's a bit out of your league, come back when you are level 23.", "pitofthedead-merloni-1", false);
