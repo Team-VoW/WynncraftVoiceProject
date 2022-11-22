@@ -18786,6 +18786,43 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:piratestrove-damiral-2", "stream": true}]
   },
+  "piratestrove-damiral-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-3", "stream": true}]
+  },
+  "piratestrove-damiral-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-4", "stream": true}]
+  },
+  "piratestrove-damiral-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-5", "stream": true}]
+  },
+  "piratestrove-damiral-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-6", "stream": true}]
+  },
+  "piratestrove-damiral-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-7", "stream": true}]
+  },
+  "piratestrove-damiral-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-8", "stream": true}]
+  },
+  "piratestrove-damiral-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-9", "stream": true}]
+  },
+  "piratestrove-damiral-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-10", "stream": true}]
+  },
+  "piratestrove-damiral-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:piratestrove-damiral-11", "stream": true}]
+  },
+
 
 
   "underice-fredris-1": {

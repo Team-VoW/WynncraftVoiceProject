@@ -3019,7 +3019,17 @@ public class Sounds {
 
         //Pirates Trove
         s.addSound("[1/8] Damiral: Lo, adventurer! Welcome to the great province of Gavel, home of the villager race, and yours truly. You'll be headed into the grand citadel of Llevigar soon!", "piratestrove-damiral-1", false);
-        s.addSound("[1/3] Damiral: Aha! I'd come to ask how it was coming when I saw you jump over here!", "piratestrove-damiral-2", false);
+        s.addSound("[2/8] Damiral: But enough with the pleasantries. Tell me... Ever heard the tale of the great pirate, Captain Hastor? Sailed the seas a long time ago.", "piratestrove-damiral-2", false);
+        s.addSound("[3/8] Damiral: Legend says that when Llevigar was rebuilt all those years ago, he hid his fortune within the walls someplace!", "piratestrove-damiral-3", false);
+        s.addSound("[4/8] Damiral: I'm a retired sailor now, but I could still do with a few extra emeralds from that treasure. Perhaps, if you're up to it... we could come to an agreement?", "piratestrove-damiral-4", false);
+        s.addSound("[5/8] Damiral: I have a riddle, the first of a number of clues that are supposed to lead to where Hastor hid his fortune, but I can't for the life of me figure it out.", "piratestrove-damiral-5", false);
+        s.addSound("[6/8] Damiral: Maybe you'll be able to solve it. If you can, I'll make sure to split the treasure with you!", "piratestrove-damiral-6", false);
+        s.addSound("[7/8] Damiral: This first riddle goes like so: Toward the sunset, among northern flowers shaded by quartz.", "piratestrove-damiral-7", false);
+        s.addSound("[8/8] Damiral: I do wish you good luck, adventurer! Remember, everything you need to solve the clues should be found somewhere inside Llevigar.", "piratestrove-damiral-8", false);
+        s.addSound("[1/3] Damiral: Aha! I'd come to ask how it was coming when I saw you jump over here!", "piratestrove-damiral-9", false);
+        s.addSound("[2/3] Damiral: Phenomenal work, my compatriot. Though, do remember our deal?", "piratestrove-damiral-10", false);
+        s.addSound("[3/3] Damiral: You find the treasure, I give you a cut. I'll just take my part and be on my way!", "piratestrove-damiral-11", false);
+
 
         //Heart of llevigar
         s.addSound("[1/6] Zenam: Aaah, no no no! This doesn't make any sense, what in the world is going on?! Nothing's working!", "heartofllevigar-zenam-1", false);
