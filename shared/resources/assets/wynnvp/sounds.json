@@ -1884,6 +1884,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:starthief-agent-2", "stream": true}]
   },
+  "starthief-agent-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:starthief-agent-3", "stream": true}]
+  },
+  "starthief-agent-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:starthief-agent-4", "stream": true}]
+  },
+  "starthief-agent-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:starthief-agent-5", "stream": true}]
+  },
   "starthief-thief-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:starthief-thief-1", "stream": true}]
@@ -1896,6 +1908,27 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:starthief-thief-3", "stream": true}]
   },
+  "starthief-thief-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:starthief-thief-4", "stream": true}]
+  },
+  "starthief-agent-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:starthief-agent-6", "stream": true}]
+  },
+  "starthief-agent-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:starthief-agent-7", "stream": true}]
+  },
+  "starthief-agent-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:starthief-agent-8", "stream": true}]
+  },
+  "starthief-agent-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:starthief-agent-9", "stream": true}]
+  },
+
 
 
   "thehouseoftwain-twendle-1": {

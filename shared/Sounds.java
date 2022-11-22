@@ -1236,11 +1236,19 @@ public class Sounds {
         s.addSound("[1/1] Witherhead: You persist through the sludge, now you will join me like the rest!", "decriptsewers-witherehead-3", true);
 
         //Star Thief
-        s.addSound("[1/1] ???: It's... mine.", "starthief-thief-1", true);
-        s.addSound("[1/1] Thief: .... I can't control myself...fjfjfj This rock...", "starthief-thief-2", true);
-        s.addSound("[1/2] Thief: What is... this feeling… No I won't listen..", "starthief-thief-3", false);
         s.addSound("[1/5] Agent: Hey you! Human. What are you doing here?", "starthief-agent-1", false);
-        s.addSound("[1/4] Agent: Hello again. Did you find the meteor down there? Why on earth are you holding some?!", "starthief-agent-2", false);
+        s.addSound("[2/5] Agent: Under Villager law any extra terrestrial or extra voidal entities are prohibited and owned by the state.", "starthief-agent-2", false);
+        s.addSound("[3/5] Agent: Seeing as you are new to the land, I can't see you being prosecuted, especially a Ragni Guard.", "starthief-agent-3", false);
+        s.addSound("[4/5] Agent: This meteor is different to what we've seen before. We suspect that direct contact with the meteor is dangerous.", "starthief-agent-4", false);
+        s.addSound("[5/5] Agent: The magical radiation doesn't seem to be affecting you at all though. Do you not feel anything? Perhaps you could help me locate it.", "starthief-agent-5", false);
+        s.addSound("[1/1] ???: It's... mine.", "starthief-thief-1", false);
+        s.addSound("[1/1] Thief: .... I can't control myself...fjfjfj This rock...", "starthief-thief-2", false);
+        s.addSound("[1/2] Thief: What is... this feeling… No I won't listen..", "starthief-thief-3", false);
+        s.addSound("[2/2] Thief: I can't... control... my mind... end me.", "starthief-thief-4", false);
+        s.addSound("[1/4] Agent: Hello again. Did you find the meteor down there? Why on earth are you holding some?!", "starthief-agent-6", false);
+        s.addSound("[2/4] Agent: I see. This material is incredibly rare and magically powerful. Meteors fall all over Gavel and come in a variety of colours and potency.", "starthief-agent-7", false);
+        s.addSound("[3/4] Agent: We don't fully understand them, but we know they are dangerous. Every scientist who has studied them has lost their minds.", "starthief-agent-8", false);
+        s.addSound("[4/4] Agent: The meteors hold many secrets and powers, maybe the ones we need to end your war. Thank you, here's a small reward for helping us.", "starthief-agent-9", false);
 
         //Arachnids Ascent
         s.addSound("[1/7] Private Cob: ‘ey there my good chap! I require some assistance!", "arachnidsascent-privatecob-1", false);
