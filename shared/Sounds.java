@@ -745,14 +745,28 @@ public class Sounds {
 
         //Underice
         s.addSound("[1/3] Fredris: I'm having trouble with the fish in our lake recently and I am sure the problem lies within the lake itself.", "underice-fredris-1", false);
-        s.addSound("[1/5] Calamaro: Who are you? You don't look like one of those villagers we stole the fi... Wait, they didn't send you to retrieve \"their\" fish, did they?", "underice-calamaro-1", false);
+        s.addSound("[2/3] Fredris: I would like to commission you to investigate, but since it's freezing cold in our lake you need something to protect you. I heard the people in Maltic on the coast of Wynn have something that can help you.", "underice-fredris-2", false);
+        s.addSound("[3/3] Fredris: Would you mind coming back with a [Breathing Helmet I]? I think that should be everything you need.", "underice-fredris-3", false);
+        s.addSound("[1/5] Calamaro: Who are you? You don't look like one of those villagers we stole the fi... Wait, they didn't send you to retrieve "their" fish, did they?", "underice-calamaro-1", false);
+        s.addSound("[2/5] Calamaro: For years we let them share the lake with us, the actual inhabitants of it, we were modest and took what we needed, we let them catch the rest. But then they went too far, they caught too much.", "underice-calamaro-2", false);
+        s.addSound("[3/5] Calamaro: We didn't have enough to eat, we were forced to steal their fish, we would have starved otherwise. And now they want their fish, our fish back? We can't do that, I hope you understand.", "underice-calamaro-3", false);
+        s.addSound("[4/5] Calamaro: However we don't have to fight over the fish in the lake, we just need a [Mythic Everlasting Pufferfish], that would be enough, nothing else. We never wanted to steal the fish.", "underice-calamaro-4", false);
+        s.addSound("[5/5] Calamaro: If you want to help us and the villagers, just follow the stream that flows into this lake to the south, you will find the best fishing ground there. The pufferfish should be around there too.", "underice-calamaro-5", false);
         s.addSound("[1/5] Gernald: Oh you look a bit lost, let me help you, I've lived here for a long time, I know every corner and every snowflake.", "underice-gernald-1", false);
-        s.addSound("1/22gernaldajustaalookatathoseafishaiatoldayouatheyaloveathisabait", "underice-gernald-2", false);
-        s.addSound("mythic3everlasting3pufferfishaaiacantabelieveait!", "underice-gernald-3", false);
-        s.addSound("[1/1] Gernald: You decided to give me the fish? I wish Strato was still around, he would be so amazed. I can't show you how much this means to me, but take this little gift please, promise me to never change. ", "underice-gernald-4", false);
-        s.addSound("1/2calamaroyoufoundthepufferfish!whowouldhavethoughtsuchasmallthingcouldsolveourproblemiwillstartbringingbackthefishimmediatelybutfirstwewillhaveanicehotsouppleasetakethisaspaybackforyourservices", "underice-calamaro-2", false);
-        s.addSound("[1/2] Fredris: Oh you are done with whatever you were doing? I heard you ran around the whole place, I don't know if you were the right person to ask for help...", "underice-fredris-2", false);
-        s.addSound("[1/2] Fredris: What is this thing supposed to be? You know, I would really appreciate your help, but this [Breathing Helmet I] does not look like it's going to keep you protected.", "underice-fredris-3", false);
+        s.addSound("[2/5] Gernald: You're searching a [Mythic Everlasting Pufferfish]? Hmm I heard that name before, my friend, Strato, told me about it years ago. If I remember correctly it is infinite, you can feed every single person in all the provinces from this single fish.", "underice-gernald-2", false);
+        s.addSound("[3/5] Gernald: Sadly Strato is no longer alive. He used to work and live at the woodcutting camp northwest of Nesaak. We always met here, caught fish and told each other stories. I really miss those times...", "underice-gernald-3", false);
+        s.addSound("[4/5] Gernald: Maybe you can find some sort of bait there, he had some of the best bait I have ever seen. You should be able to acquire some and throw it in the water, maybe that will attract the pufferfish.", "underice-gernald-4", false);
+        s.addSound("[5/5] Gernald: Can I ask you something? As you might see I'm not the richest guy, or the youngest. If you manage to catch that fish, could you hand it over? I know we just met but you seem like somebody who would help an old man.", "underice-gernald-5", false);
+        s.addSound("[1/2] Gernald: Just look at those fish, I told you they love this bait.", "underice-gernald-6", false);
+        s.addSound("[2/2] Gernald: There it comes, the [Mythic Everlasting Pufferfish], I can't believe it!", "underice-gernald-7", false);
+        s.addSound("[1/1] Gernald: You decided to give me the fish? I wish Strato was still around, he would be so amazed. I can't show you how much this means to me, but take this little gift please, promise me to never change.", "underice-gernald-8", false);
+        s.addSound("[1/2] Calamaro: You found a pufferfish! Who would have thought such a small thing could solve our problem. I will start bringing back the fish immediately, but first we will have a nice hot soup. Please take this as payback for your services.", "underice-calamaro-6", false);
+        s.addSound("[2/2] Calamaro: You can trade it at the shop right over there, it's hard to miss. I will give you a last advise, you don't want to eat that slimy fish.", "underice-calamaro-7", false);
+        s.addSound("[1/2] Fredris: Oh you are done with whatever you were doing? I heard you ran around the whole place, I don't know if you were the right person to ask for help...", "underice-fredris-4", false);
+        s.addSound("[2/2] Fredris: I will just ask the next one who comes around, no need to have you run around all day. Take this, I appreciate your effort.", "underice-fredris-5", false);
+        s.addSound("[1/2] Fredris: What is this thing supposed to be? You know, I would really appreciate your help, but this [Breathing Helmet I] does not look like it's going to keep you protected.", "underice-fredris-6", false);
+        s.addSound("[2/2] Fredris: Would you mind heading to our local armour merchant and buying one of our [Breathing Helmet II]? I don't want you to drown. Just come back with the helmet and I will tell you about my problem.", "underice-fredris-7", false);
+
 
         //Misadventure on the sea
         s.addSound("[1/8] Barman: Hello there soldier! What can I get you?", "misadventureonthesea-barman-1", false);
