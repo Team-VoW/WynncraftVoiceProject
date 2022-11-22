@@ -2006,11 +2006,32 @@ public class Sounds {
         s.addSound("[1/1] Homeless Mayor: Please, go take care of that monster as soon as possible! It's in the ruins, the location is in your quest book.", "tempotowntrouble-homelessmayor-4", false);
         s.addSound("[1/1] Homeless Mayor: Oh hey, it's you! I hope you've been keeping those Time Troubles at bay.", "tempotowntrouble-homelessmayor-5", false);
 
-        //Green gloop
+        //Green Gloop
         s.addSound("[1/9] Eluzterp: Oh, hey! You, adventurer over there! Would you mind helping me?", "greengloop-eluzterp-1", false);
-        s.addSound("[1/6] Eluzterp: Oh, you're back! Good to see you were able to get through there. Have you got a full Slime Scooper?", "greengloop-eluzterp-2", false);
+        s.addSound("[2/9] Eluzterp: You see, this cave behind me has been troubling me for the past while now.", "greengloop-eluzterp-2", false);
+        s.addSound("[3/9] Eluzterp: There are special slimes that live in there, and they drop a certain goo that is quite a delicacy when brewed into a drink!", "greengloop-eluzterp-3", false);
+        s.addSound("[4/9] Eluzterp: They are called Gooey Slimes, and should be at the very back. A friend of mine drinks the stuff like water, and he refuses to work without it.", "greengloop-eluzterp-4", false);
+        s.addSound("[5/9] Eluzterp: However, the slimes have gotten stronger about a month ago. I'm unable to retrieve it any more, I've come close to getting killed a few times!", "greengloop-eluzterp-5", false);
+        s.addSound("[6/9] Eluzterp: You, however, seem much better equipped than I. Hopefully you can do it.", "greengloop-eluzterp-6", false);
+        s.addSound("[7/9] Eluzterp: If you decide to help me, you'll need to obtain a special device for retrieving it, as the slime will dry up quickly in the air.", "greengloop-eluzterp-7", false);
+        s.addSound("[8/9] Eluzterp: A... less fickle glassblower, Yodbon, can make it for you. He should be living in a house in front of the Almuj bank.", "greengloop-eluzterp-8", false);
+        s.addSound("[9/9] Eluzterp: I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell him, and he'll probably let you into his shop.", "greengloop-eluzterp-9", false);
         s.addSound("[1/6] Yodbon: Welcome to Yodbon's Glass Blowery, what can I do f-", "greengloop-yodbon-1", false);
-        s.addSound("[1/3] Yodbon: You've returned, I see.", "greengloop-yodbon-2", false);
+        s.addSound("[2/6] Yodbon: Oh, another stinkin' adventurer, eh...", "greengloop-yodbon-2", false);
+        s.addSound("[3/6] Yodbon: So many've been coming up to me recently, askin' for a bloody Slime Scooper…(Complaining, venting)", "greengloop-yodbon-3", false);
+        s.addSound("[4/6] Yodbon: Izzat brother o' mine stopped workin' again? I swear, he's addicted to that slop…", "greengloop-yodbon-4", false);
+        s.addSound("[5/6] Yodbon: Anyways, for me to make you a scooper you'll need to get [5 Soft Sand].", "greengloop-yodbon-5", false);
+        s.addSound("[6/6] Yodbon: Come back to me once you've gotten ahold of it. You can dig it up from those sand piles 'round the desert.", "greengloop-yodbon-6", false);
+        s.addSound("[1/3] Yodbon: You've returned, I see.", "greengloop-yodbon-7", false);
+        s.addSound("[2/3] Yodbon: A'ight, fork 'em over and I'll make you the scooper.", "greengloop-yodbon-8", false);
+        s.addSound("[3/3] Yodbon: ..There you go. No idea why he wants that stuff though. Maybe it's an acquired taste...", "greengloop-yodbon-9", false);
+        s.addSound("[1/6] Eluzterp: Oh, you're back! Good to see you were able to get through there. Have you got a full Slime Scooper?", "greengloop-eluzterp-10", false);
+        s.addSound("[2/6] Eluzterp: Hmm, yes, everything seems to be in order. Perfect!", "greengloop-eluzterp-11", false);
+        s.addSound("[3/6] Eluzterp: Thank you very much. Finally, I'll be able to get him in gear again...  Why are all Villagers so fickle like that?", "greengloop-eluzterp-12", false);
+        s.addSound("[4/6] Eluzterp: Well, I suppose that's beside the point. I'll be sure to let him know you got him his most recent fix.", "greengloop-eluzterp-13", false);
+        s.addSound("[5/6] Eluzterp: He hangs around in a little black stall in the bazaar, there's a basement to it. He should let you inside now.", "greengloop-eluzterp-14", false);
+        s.addSound("[6/6] Eluzterp: And, for your troubles, a little something from me as well.", "greengloop-eluzterp-15", false);
+
 
         //kings Recruit
         s.addSound("[1/2] Caravan Driver: Agh! ", "kingsrecruit-caravandriver-1", true);

@@ -1589,6 +1589,34 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:greengloop-eluzterp-2", "stream": true}]
   },
+  "greengloop-eluzterp-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-3", "stream": true}]
+  },
+  "greengloop-eluzterp-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-4", "stream": true}]
+  },
+  "greengloop-eluzterp-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-5", "stream": true}]
+  },
+  "greengloop-eluzterp-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-6", "stream": true}]
+  },
+  "greengloop-eluzterp-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-7", "stream": true}]
+  },
+  "greengloop-eluzterp-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-8", "stream": true}]
+  },
+  "greengloop-eluzterp-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-9", "stream": true}]
+  },
   "greengloop-yodbon-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:greengloop-yodbon-1", "stream": true}]
@@ -1597,6 +1625,59 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:greengloop-yodbon-2", "stream": true}]
   },
+  "greengloop-yodbon-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-yodbon-3", "stream": true}]
+  },
+  "greengloop-yodbon-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-yodbon-4", "stream": true}]
+  },
+  "greengloop-yodbon-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-yodbon-5", "stream": true}]
+  },
+  "greengloop-yodbon-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-yodbon-6", "stream": true}]
+  },
+  "greengloop-yodbon-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-yodbon-7", "stream": true}]
+  },
+  "greengloop-yodbon-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-yodbon-8", "stream": true}]
+  },
+  "greengloop-yodbon-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-yodbon-9", "stream": true}]
+  },
+  "greengloop-eluzterp-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-10", "stream": true}]
+  },
+  "greengloop-eluzterp-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-11", "stream": true}]
+  },
+  "greengloop-eluzterp-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-12", "stream": true}]
+  },
+  "greengloop-eluzterp-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-13", "stream": true}]
+  },
+  "greengloop-eluzterp-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-14", "stream": true}]
+  },
+  "greengloop-eluzterp-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:greengloop-eluzterp-15", "stream": true}]
+  },
+
 
 
   "wynnexcavation-adminuc-1": {
