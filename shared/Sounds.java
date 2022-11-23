@@ -747,7 +747,7 @@ public class Sounds {
         s.addSound("[1/3] Fredris: I'm having trouble with the fish in our lake recently and I am sure the problem lies within the lake itself.", "underice-fredris-1", false);
         s.addSound("[2/3] Fredris: I would like to commission you to investigate, but since it's freezing cold in our lake you need something to protect you. I heard the people in Maltic on the coast of Wynn have something that can help you.", "underice-fredris-2", false);
         s.addSound("[3/3] Fredris: Would you mind coming back with a [Breathing Helmet I]? I think that should be everything you need.", "underice-fredris-3", false);
-        s.addSound("[1/5] Calamaro: Who are you? You don't look like one of those villagers we stole the fi... Wait, they didn't send you to retrieve "their" fish, did they?", "underice-calamaro-1", false);
+        s.addSound("[1/5] Calamaro: Who are you? You don't look like one of those villagers we stole the fi... Wait, they didn't send you to retrieve \"their\" fish, did they?", "underice-calamaro-1", false);
         s.addSound("[2/5] Calamaro: For years we let them share the lake with us, the actual inhabitants of it, we were modest and took what we needed, we let them catch the rest. But then they went too far, they caught too much.", "underice-calamaro-2", false);
         s.addSound("[3/5] Calamaro: We didn't have enough to eat, we were forced to steal their fish, we would have starved otherwise. And now they want their fish, our fish back? We can't do that, I hope you understand.", "underice-calamaro-3", false);
         s.addSound("[4/5] Calamaro: However we don't have to fight over the fish in the lake, we just need a [Mythic Everlasting Pufferfish], that would be enough, nothing else. We never wanted to steal the fish.", "underice-calamaro-4", false);
@@ -926,14 +926,32 @@ public class Sounds {
 
         //Wrath of the Mummy
         s.addSound("[1/6] Ormrod: Uh, you shouldn't have come here!", "wrathofthemummy-ormrod-1", false);
+        s.addSound("[2/6] Ormrod: I am cursed. Everywhere I go, trouble starts. I decided to stay away from civilization, where I can't cause any more trouble.", "wrathofthemummy-ormrod-2", false);
+        s.addSound("[3/6] Ormrod: It all started when I discovered an old tomb... upon entering it, the ground started shaking and I heard some inhuman screams coming from the tomb.", "wrathofthemummy-ormrod-3", false);
+        s.addSound("[4/6] Ormrod: I ran as far as I could. I learnt after that this was the tomb of a mummy... that I accidentally have awoken.", "wrathofthemummy-ormrod-4", false);
+        s.addSound("[5/6] Ormrod: If you could get rid of this mummy, maybe the curse would go away.", "wrathofthemummy-ormrod-5", false);
+        s.addSound("[6/6] Ormrod: Achper knows a lot about mummies, you should go talk to him. He lives somewhere in Almuj.", "wrathofthemummy-ormrod-6", false);
         s.addSound("[1/6] Achper: If I know about mummies? Of course! I've spent my entire life studying them!", "wrathofthemummy-achper-1", false);
-        s.addSound("[1/1] Achper: Hi! If you are looking for some information about mummies, I can help you!", "wrathofthemummy-achper-2", false);
-        s.addSound("[1/1] Achper: Glad to hear you came back alive! Those mummies aren't always easy, eh?", "wrathofthemummy-achper-3", false);
+        s.addSound("[2/6] Achper: They usually are very hard to reach, hidden in their tomb.", "wrathofthemummy-achper-2", false);
+        s.addSound("[3/6] Achper: I know what happened to Ormrod, and the only way to remove the powerful curse would be to kill the mummy.", "wrathofthemummy-achper-3", false);
+        s.addSound("[4/6] Achper: The tomb is north from here, but be very careful!", "wrathofthemummy-achper-4", false);
+        s.addSound("[5/6] Achper: Mummies aren't known to be weak... especially that one. It's demonic...pure evil, I have never seen such strength in a being.", "wrathofthemummy-achper-5", false);
+        s.addSound("[6/6] Achper: On top of that, the Creden Tibus bandit clan have been ransacking the tomb. They might not let you inside without some negotiating.", "wrathofthemummy-achper-6", false);
+        s.addSound("[1/1] Achper: Glad to hear you came back alive! Those mummies aren't always easy, eh?", "wrathofthemummy-achper-7", false);
+        s.addSound("[1/1] Achper: Hi! If you are looking for some information about mummies, I can help you!", "wrathofthemummy-achper-8", false);
         s.addSound("[1/3] Bandit: Hey, what are you doing? If you're trying to loot the tomb, me and the other Creden Tibus already beat you to it.", "wrathofthemummy-bandit-1", false);
-        s.addSound("[1/4] Bandit: Well, whaddya know? You got some Pink Wool! Okay, hand it here and I'll look the other way and let you into the tomb.", "wrathofthemummy-bandit-2", false);
-        s.addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummy-ormrod-2", false);
-        s.addSound("[1/1] Ormrod: Thank you so much for removing the curse!", "wrathofthemummy-ormrod-3", false);
-        s.addSound("[1/1] Ormrod: Don't stand close to me, I am cursed! Come back when you're level 36, you might be able to help me.", "wrathofthemummy-ormrod-4", false);
+        s.addSound("[2/3] Bandit: But if you can bring me [1 Block of Pink Wool], I'll look the other way and let you into the tomb. I know it sounds ridiculous, but it's valuable.", "wrathofthemummy-bandit-2", false);
+        s.addSound("[3/3] Bandit: You can get it from Rymek in the southern canyon. Only other way if from a rare sheep or something, so Rymek's the better option.", "wrathofthemummy-bandit-3", false);
+        s.addSound("[1/4] Bandit: Well, whaddya know?  You got some Pink Wool! Okay, hand it here and I'll look the other way and let you into the tomb.", "wrathofthemummy-bandit-4", false);
+        s.addSound("[2/4] Bandit: But I feel like it's only fair that I warn you that it's dangerous in there.", "wrathofthemummy-bandit-5", false);
+        s.addSound("[3/4] Bandit: It took our entire clan just to make it out alive.", "wrathofthemummy-bandit-6", false);
+        s.addSound("[4/4] Bandit: I'll still let you inside if you want. Just remember, if anyone asks, this conversation never happened.", "wrathofthemummy-bandit-7", false);
+        s.addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummy-ormrod-7", false);
+        s.addSound("[2/4] Ormrod: Those are the mummy's bandages?! You did it! My curse is finally lifted!", "wrathofthemummy-ormrod-8", false);
+        s.addSound("[3/4] Ormrod: I can't thank you enough! As a reward, take this rag I got from the mummy when I entered the tomb.", "wrathofthemummy-ormrod-9", false);
+        s.addSound("[4/4] Ormrod: I am not strong enough to wear it, but I'm sure you are! Take these emeralds too, that's the least I can do!", "wrathofthemummy-ormrod-10", false);
+        s.addSound("[1/1] Ormrod: Thank you so much for removing the curse!", "wrathofthemummy-ormrod-11", false);
+        s.addSound("[1/1] Ormrod: Don't stand close to me, I am cursed! Come back when you're level 36, you might be able to help me.", "wrathofthemummy-ormrod-12", false);
 
         //Corrupted village
         s.addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallge-orikal-8", false);
@@ -2570,11 +2588,11 @@ public class Sounds {
         s.addSound("[1/14] ???: My pulse... Human. I must inquire to you. I present you a test. Guide your attention to those you see. ", "rol2taproot-orphion-1", true);
         s.addSound("[2/14] ???: I must see the rhythm your heart beats. Listen well. ", "rol2taproot-orphion-2", true);
         s.addSound("[3/14] Mayor: This has gone far enough. I can't do this anymore! I can't give you any more and I refuse to apologize for it! ", "rol2taproot-mayor-1", false);
-        s.addSound("[4/14] Dr Urelix: You know our deal. Remember what good you are doing by following the plans I've laid out for you. ", "rol2taproot-drurelix-1", false);
-        s.addSound("[5/14] Dr Urelix: Are you going to let your emotions cloud your judgment? You're a smarter man than that, Mr. Mayor. ", "rol2taproot-drurelix-2", false);
+        s.addSound("[4/14] Dr. Urelix: You know our deal. Remember what good you are doing by following the plans I've laid out for you.", "rol2taproot-drurelix-1", false);
+        s.addSound("[5/14] Dr. Urelix: Are you going to let your emotions cloud your judgment? You're a smarter man than that, Mr. Mayor.", "rol2taproot-drurelix-2", false);
         s.addSound("[6/14] Mayor: You can't possibly believe that throwing away the lives of innocent people is right! I can't go on with this on my conscience! ", "rol2taproot-mayor-2", false);
         s.addSound("[7/14] Mayor: Detective Hart WILL be hearing from me, and he'll be hearing everything. We can't keep sacrificing our own like this! ", "rol2taproot-mayor-3", false);
-        s.addSound("[8/14] Dr Urelix: Our golems have single-handedly turned the tide of the Humans' corruption war. You would save ten here and sentence a thousand to die overseas?", "rol2taproot-drurelix-3", false);
+        s.addSound("[8/14] Dr. Urelix: Our golems have single-handedly turned the tide of the Humans' corruption war. You would save ten here and sentence a thousand to die overseas?", "rol2taproot-drurelix-3", false);
         s.addSound("[9/14] Mayor: You're a sick, twisted man, Urelix. I will not abide by this a moment longer. ", "rol2taproot-mayor-4", false);
         s.addSound("[10/14] ???: My pulse, you must decide. Three paths diverge upon your road.", "rol2taproot-orphion-3", true);
         s.addSound("[11/14] ???: You may leave. The rays of fate will see to destiny unfolding.", "rol2taproot-orphion-4", true);

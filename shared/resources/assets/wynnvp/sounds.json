@@ -784,26 +784,6 @@
     "sounds": [{ "name": "wynnvp:gravedigger-drucksch-1", "stream": true}]
   },
 
-  "wrathofthemummy-achper-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-1", "stream": true}]
-  },
-  "wrathofthemummy-achper-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-2", "stream": true}]
-  },
-  "wrathofthemummy-achper-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-3", "stream": true}]
-  },
-  "wrathofthemummy-bandit-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-1", "stream": true}]
-  },
-  "wrathofthemummy-bandit-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-2", "stream": true}]
-  },
   "wrathofthemummy-ormrod-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-1", "stream": true}]
@@ -820,6 +800,99 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-4", "stream": true}]
   },
+  "wrathofthemummy-ormrod-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-5", "stream": true}]
+  },
+  "wrathofthemummy-ormrod-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-6", "stream": true}]
+  },
+  "wrathofthemummy-achper-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-1", "stream": true}]
+  },
+  "wrathofthemummy-achper-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-2", "stream": true}]
+  },
+  "wrathofthemummy-achper-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-3", "stream": true}]
+  },
+  "wrathofthemummy-achper-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-4", "stream": true}]
+  },
+  "wrathofthemummy-achper-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-5", "stream": true}]
+  },
+  "wrathofthemummy-achper-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-6", "stream": true}]
+  },
+  "wrathofthemummy-achper-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-7", "stream": true}]
+  },
+  "wrathofthemummy-achper-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-achper-8", "stream": true}]
+  },
+  "wrathofthemummy-bandit-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-1", "stream": true}]
+  },
+  "wrathofthemummy-bandit-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-2", "stream": true}]
+  },
+  "wrathofthemummy-bandit-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-3", "stream": true}]
+  },
+  "wrathofthemummy-bandit-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-4", "stream": true}]
+  },
+  "wrathofthemummy-bandit-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-5", "stream": true}]
+  },
+  "wrathofthemummy-bandit-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-6", "stream": true}]
+  },
+  "wrathofthemummy-bandit-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-bandit-7", "stream": true}]
+  },
+  "wrathofthemummy-ormrod-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-7", "stream": true}]
+  },
+  "wrathofthemummy-ormrod-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-8", "stream": true}]
+  },
+  "wrathofthemummy-ormrod-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-9", "stream": true}]
+  },
+  "wrathofthemummy-ormrod-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-10", "stream": true}]
+  },
+  "wrathofthemummy-ormrod-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-11", "stream": true}]
+  },
+  "wrathofthemummy-ormrod-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wrathofthemummy-ormrod-12", "stream": true}]
+  },
+
 
 
 

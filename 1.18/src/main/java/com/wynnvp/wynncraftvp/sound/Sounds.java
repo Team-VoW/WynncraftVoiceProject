@@ -745,14 +745,28 @@ public class Sounds {
 
         //Underice
         s.addSound("[1/3] Fredris: I'm having trouble with the fish in our lake recently and I am sure the problem lies within the lake itself.", "underice-fredris-1", false);
+        s.addSound("[2/3] Fredris: I would like to commission you to investigate, but since it's freezing cold in our lake you need something to protect you. I heard the people in Maltic on the coast of Wynn have something that can help you.", "underice-fredris-2", false);
+        s.addSound("[3/3] Fredris: Would you mind coming back with a [Breathing Helmet I]? I think that should be everything you need.", "underice-fredris-3", false);
         s.addSound("[1/5] Calamaro: Who are you? You don't look like one of those villagers we stole the fi... Wait, they didn't send you to retrieve \"their\" fish, did they?", "underice-calamaro-1", false);
+        s.addSound("[2/5] Calamaro: For years we let them share the lake with us, the actual inhabitants of it, we were modest and took what we needed, we let them catch the rest. But then they went too far, they caught too much.", "underice-calamaro-2", false);
+        s.addSound("[3/5] Calamaro: We didn't have enough to eat, we were forced to steal their fish, we would have starved otherwise. And now they want their fish, our fish back? We can't do that, I hope you understand.", "underice-calamaro-3", false);
+        s.addSound("[4/5] Calamaro: However we don't have to fight over the fish in the lake, we just need a [Mythic Everlasting Pufferfish], that would be enough, nothing else. We never wanted to steal the fish.", "underice-calamaro-4", false);
+        s.addSound("[5/5] Calamaro: If you want to help us and the villagers, just follow the stream that flows into this lake to the south, you will find the best fishing ground there. The pufferfish should be around there too.", "underice-calamaro-5", false);
         s.addSound("[1/5] Gernald: Oh you look a bit lost, let me help you, I've lived here for a long time, I know every corner and every snowflake.", "underice-gernald-1", false);
-        s.addSound("1/22gernaldajustaalookatathoseafishaiatoldayouatheyaloveathisabait", "underice-gernald-2", false);
-        s.addSound("mythic3everlasting3pufferfishaaiacantabelieveait!", "underice-gernald-3", false);
-        s.addSound("[1/1] Gernald: You decided to give me the fish? I wish Strato was still around, he would be so amazed. I can't show you how much this means to me, but take this little gift please, promise me to never change. ", "underice-gernald-4", false);
-        s.addSound("1/2calamaroyoufoundthepufferfish!whowouldhavethoughtsuchasmallthingcouldsolveourproblemiwillstartbringingbackthefishimmediatelybutfirstwewillhaveanicehotsouppleasetakethisaspaybackforyourservices", "underice-calamaro-2", false);
-        s.addSound("[1/2] Fredris: Oh you are done with whatever you were doing? I heard you ran around the whole place, I don't know if you were the right person to ask for help...", "underice-fredris-2", false);
-        s.addSound("[1/2] Fredris: What is this thing supposed to be? You know, I would really appreciate your help, but this [Breathing Helmet I] does not look like it's going to keep you protected.", "underice-fredris-3", false);
+        s.addSound("[2/5] Gernald: You're searching a [Mythic Everlasting Pufferfish]? Hmm I heard that name before, my friend, Strato, told me about it years ago. If I remember correctly it is infinite, you can feed every single person in all the provinces from this single fish.", "underice-gernald-2", false);
+        s.addSound("[3/5] Gernald: Sadly Strato is no longer alive. He used to work and live at the woodcutting camp northwest of Nesaak. We always met here, caught fish and told each other stories. I really miss those times...", "underice-gernald-3", false);
+        s.addSound("[4/5] Gernald: Maybe you can find some sort of bait there, he had some of the best bait I have ever seen. You should be able to acquire some and throw it in the water, maybe that will attract the pufferfish.", "underice-gernald-4", false);
+        s.addSound("[5/5] Gernald: Can I ask you something? As you might see I'm not the richest guy, or the youngest. If you manage to catch that fish, could you hand it over? I know we just met but you seem like somebody who would help an old man.", "underice-gernald-5", false);
+        s.addSound("[1/2] Gernald: Just look at those fish, I told you they love this bait.", "underice-gernald-6", false);
+        s.addSound("[2/2] Gernald: There it comes, the [Mythic Everlasting Pufferfish], I can't believe it!", "underice-gernald-7", false);
+        s.addSound("[1/1] Gernald: You decided to give me the fish? I wish Strato was still around, he would be so amazed. I can't show you how much this means to me, but take this little gift please, promise me to never change.", "underice-gernald-8", false);
+        s.addSound("[1/2] Calamaro: You found a pufferfish! Who would have thought such a small thing could solve our problem. I will start bringing back the fish immediately, but first we will have a nice hot soup. Please take this as payback for your services.", "underice-calamaro-6", false);
+        s.addSound("[2/2] Calamaro: You can trade it at the shop right over there, it's hard to miss. I will give you a last advise, you don't want to eat that slimy fish.", "underice-calamaro-7", false);
+        s.addSound("[1/2] Fredris: Oh you are done with whatever you were doing? I heard you ran around the whole place, I don't know if you were the right person to ask for help...", "underice-fredris-4", false);
+        s.addSound("[2/2] Fredris: I will just ask the next one who comes around, no need to have you run around all day. Take this, I appreciate your effort.", "underice-fredris-5", false);
+        s.addSound("[1/2] Fredris: What is this thing supposed to be? You know, I would really appreciate your help, but this [Breathing Helmet I] does not look like it's going to keep you protected.", "underice-fredris-6", false);
+        s.addSound("[2/2] Fredris: Would you mind heading to our local armour merchant and buying one of our [Breathing Helmet II]? I don't want you to drown. Just come back with the helmet and I will tell you about my problem.", "underice-fredris-7", false);
+
 
         //Misadventure on the sea
         s.addSound("[1/8] Barman: Hello there soldier! What can I get you?", "misadventureonthesea-barman-1", false);
@@ -1062,9 +1076,15 @@ public class Sounds {
         s.addSound("[1/6] Yahya: H-... Hey! I didn’t expect you to find it.. Haha… um..", "mushroomman-yahya-4", false);
         s.addSound("[1/2] Yahya: Oh boy I love bowls! Bowls, bowls, b-bowls! Perfect for mushrooms! W-wait... I thought I- was at my home?", "mushroomman-yahya-5", false);
 
-        //Cluck Cluck
+        //Cluck cluck
         s.addSound("[1/6] Nohno: Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.", "cluckcluck-nohno-1", false);
-        s.addSound("[1/2] Nohno: What is this?! His feather? What did you do to Cluckles?! I wanted you to take care of him, not kill him!", "cluckcluck-nohno-2", false);
+        s.addSound("[2/6] Nohno: I really love my chickens, but there is one that I just cannot control...", "cluckcluck-nohno-2", false);
+        s.addSound("[3/6] Nohno: His name is Cluckles, he was given to me by a man named Bob before he went to war, but when Bob never came back, Cluckles got angry...", "cluckcluck-nohno-3", false);
+        s.addSound("[4/6] Nohno: He's really dangerous to keep on my lovely island, so I keep him in my basement...", "cluckcluck-nohno-4", false);
+        s.addSound("[5/6] Nohno: I want to take care of him, but my wife says it's too dangerous. Where's my wife you say? Oh, I think she's around here eating some grain.", "cluckcluck-nohno-5", false);
+        s.addSound("[6/6] Nohno: Anyway, I need you to go down there and... take care of him for me. I would really appreciate it.", "cluckcluck-nohno-6", false);
+        s.addSound("[1/2] Nohno: What is this?! His feather? What did you do to Cluckles?!  I wanted you to take care of him, not kill him!", "cluckcluck-nohno-7", false);
+        s.addSound("[2/2] Nohno: You monster! Leave this place now, and keep that feather to remind you of your hideous crime!", "cluckcluck-nohno-8", false);
 
 
         //Enzans Brother
@@ -1132,20 +1152,61 @@ public class Sounds {
         s.addSound("[1/5] Batelu: Bob's Seal of Approval? Oh my goodness!", "reincarnation-batleu-3", false);
 
         //Bobs lost soul
-        s.addSound("[1/10] Wedyf: Welcome traveler. Are you looking for something?", "bobslostsoul-wedyf-1", false);
-        s.addSound("[1/6] Wedyf: Great, you got everything.", "bobslostsoul-wedyf-2", false);
-        s.addSound("[1/6] Wedyf: I'm glad to see you again.", "bobslostsoul-wedyf-3", false);
-        s.addSound("[1/8] The Blacksmith: What can I do for ya?", "bobslostsoul-blacksmith-1", false);
-        s.addSound("[1/4] The Blacksmith: ... Hi again. I see you got the weapons.", "bobslostsoul-blacksmith-2", false);
-        s.addSound("[1/9] Tarod: You're one of those soldier types, right? My name is Tarod, and I could really use your assistance here.", "bobslostsoul-tarod-1", false);
-        s.addSound("[1/6] Tarod: Welcome back. Did you find anything worthwhile?", "bobslostsoul-tarod-2", false);
-        s.addSound("[1/3] Tarod: You're back... Has he... has he finally been put to rest?", "bobslostsoul-tarod-3", false);
+        s.addSound("[1/9] Tarod: You're one of those soldier types, right?  My name is Tarod, and I could really use your assistance here.", "bobslostsoul-tarod-1", false);
+        s.addSound("[2/9] Tarod: Years ago, I met a very powerful and legendary warrior by the name of Bob. Yes, that Bob.", "bobslostsoul-tarod-2", false);
+        s.addSound("[3/9] Tarod: It's safe to say he was a very, well, admirable man. Him and I slowly became close friends over the years.", "bobslostsoul-tarod-3", false);
+        s.addSound("[4/9] Tarod: That is, until one night, he vanished without a trace. The accepted story is that he was murdered by a pack of ravenous wolves...", "bobslostsoul-tarod-4", false);
+        s.addSound("[5/9] Tarod: Now, I don't buy that story, but... look, the point here is that he's gone now, and I want to find out where the hell he ended up. That depressing zombie lumbering around Ragni clearly isn't him.", "bobslostsoul-tarod-5", false);
+        s.addSound("[6/9] Tarod: I believe he died in this area, and I have been looking for his body for quite a while now, with... less than success.", "bobslostsoul-tarod-6", false);
+        s.addSound("[7/9] Tarod: Rumors have spread that a tomb lies somewhere east of Nesaak, but I've never been able to find it. This is where I need you to help me out, yeah?", "bobslostsoul-tarod-7", false);
+        s.addSound("[8/9] Tarod: Do you think you could help me out here? Search around that area, and report back to me if you see anything noteworthy.", "bobslostsoul-tarod-8", false);
+        s.addSound("[9/9] Tarod: I'd be eternally grateful if you could help me uncover my old friend's true story.", "bobslostsoul-tarod-9", false);
+        s.addSound("[1/6] Tarod: Welcome back. Did you find anything worthwhile?", "bobslostsoul-tarod-10", false);
+        s.addSound("[2/6] Tarod: Oh? Yeah, that definitely sounds like the tomb! Were you able to see what's inside?", "bobslostsoul-tarod-11", false);
+        s.addSound("[3/6] Tarod: No? There's... a magical barrier? Great... just GREAT...", "bobslostsoul-tarod-12", false);
+        s.addSound("[4/6] Tarod: I have a feeling whoever made that tomb didn't want anyone attempting to get to him, but... Forget it, we have no other options. This is the only way we can place Bob's soul to rest for good.", "bobslostsoul-tarod-13", false);
+        s.addSound("[5/6] Tarod: Listen, I have a guy who can help us out. His name is Wedyf, a sorcerer type. If anyone could get rid of that barrier, it would be him.", "bobslostsoul-tarod-14", false);
+        s.addSound("[6/6] Tarod: He lives in Bremminglar, a small town close to Almuj. Go meet him, I'll wait for your return.", "bobslostsoul-tarod-15", false);
+        s.addSound("[1/9] Wedyf: Welcome traveler. Are you looking for something?", "bobslostsoul-wedyf-1", false);
+        s.addSound("[2/9] Wedyf: Ooh, it has been a long time since I've released an undead...", "bobslostsoul-wedyf-2", false);
+        s.addSound("[3/9] Wedyf: The spirit of your dead friend must still be somewhere in this world. This is why we are unable to get close to his body. Soul magic works in mysterious ways.", "bobslostsoul-wedyf-3", false);
+        s.addSound("[4/9] Wedyf: Don't worry, I can do it. I've heard a little bit of Bob's story before. What a tragedy. His own infallible protection used against him...", "bobslostsoul-wedyf-4", false);
+        s.addSound("[5/9] Wedyf: ...Anyways, there's no need to lament on the past. Now, we need two items. The first is something from Bob himself. The other is the last thing that made his blood drop.", "bobslostsoul-wedyf-5", false);
+        s.addSound("[6/9] Wedyf: Out past the other side of Detlas there are two farm houses with an old cave inbetween then. An old florist used to live there, she has a rose that Bob had once cut himself on.", "bobslostsoul-wedyf-6", false);
+        s.addSound("[7/9] Wedyf: I will warn you, though; she was corrupted some time ago. It may not be that easy to take the rose, so do be prepared.", "bobslostsoul-wedyf-7", false);
+        s.addSound("[8/9] Wedyf: Secondly... something of Bob's. I've heard rumors of a visage of him wandering around Ragni, perhaps you can find something of use from it? Killing enemies in the Nesaak region may be worth your time, as well.", "bobslostsoul-wedyf-8", false);
+        s.addSound("[9/9] Wedyf: Bring me [1 Rose] and [1 Bob's Tear].", "bobslostsoul-wedyf-9", false);
+        s.addSound("[1/6] Wedyf: Great, you got everything.", "bobslostsoul-wedyf-10", false);
+        s.addSound("[2/6] Wedyf: Although... I might have forgot to tell you about something else too...", "bobslostsoul-wedyf-11", false);
+        s.addSound("[3/6] Wedyf: We also need a part of the soul of your dead friend.", "bobslostsoul-wedyf-12", false);
+        s.addSound("[4/6] Wedyf: This is something I unfortunately cannot do myself. There is a blacksmith close to Ternaves who does this kind of stuff.", "bobslostsoul-wedyf-13", false);
+        s.addSound("[5/6] Wedyf: He can extract the soul from someone's weapon. Very useful in those situations. Go talk to him.", "bobslostsoul-wedyf-14", false);
+        s.addSound("[6/6] Wedyf: Bring me the soul, and I'll be able to remove the spell preventing you from entering the tomb.", "bobslostsoul-wedyf-15", false);
+        s.addSound("[1/8] The Blacksmith: What can I do for ya?", "bobslostsoul-theblacksmith-1", false);
+        s.addSound("[2/8] The Blacksmith: Oh yes! I can extract the soul from weapons!", "bobslostsoul-theblacksmith-2", false);
+        s.addSound("[3/8] The Blacksmith: Bring me the weapons of your friend, and I'll see if I can do something with it!", "bobslostsoul-theblacksmith-3", false);
+        s.addSound("[4/8] The Blacksmith: Oh it's... those weapons. Well, if you know what you're doing...", "bobslostsoul-theblacksmith-4", false);
+        s.addSound("[5/8] The Blacksmith: [1 Depressing Stick], [1 Depressing Spear], [1 Depressing Bow] and [1 Depressing Shears] will do the trick.", "bobslostsoul-theblacksmith-5", false);
+        s.addSound("[6/8] The Blacksmith: Be careful with the weapons, you will only get [ONE] of each. If you lose one, you will have to ask around if anyone has a spare.", "bobslostsoul-theblacksmith-6", false);
+        s.addSound("[7/8] The Blacksmith: Maybe someone will be selling one on the Trade Market in Detlas, who knows.", "bobslostsoul-theblacksmith-7", false);
+        s.addSound("[8/8] The Blacksmith: Anyway, my apprentice over there has traveled around a lot, they might know where you can find the items for yourself, but I warn you, they are a little bit quirky.", "bobslostsoul-theblacksmith-8", false);
         s.addSound("[1/6] Apprentice: Weapons of the depressed kind? Oh, of course, of course, I know of the set! Around Nesaak, I hear they are kept.", "bobslostsoul-apprentice-1", false);
         s.addSound("[2/6] Apprentice: An army of Linx you must clear, in a cave you shall find this spear!", "bobslostsoul-apprentice-2", false);
         s.addSound("[3/6] Apprentice: To a skilled archer you must go, best her in a lumberyard and you will have her bow!", "bobslostsoul-apprentice-3", false);
         s.addSound("[4/6] Apprentice: On an altar, effervescence leers, complete the sacrifice and you will gain your shears...", "bobslostsoul-apprentice-4", false);
         s.addSound("[5/6] Apprentice: In the forest, a house frozen in spikes thick, outsmart the contraption and be gifted a stick!", "bobslostsoul-apprentice-5", false);
         s.addSound("[6/6] Apprentice: But beware, beware! Danger lies ahead, and will try to halt you in your stead!", "bobslostsoul-apprentice-6", false);
+        s.addSound("[1/4] The Blacksmith: ... Hi again. I see you got the weapons.", "bobslostsoul-theblacksmith-9", false);
+        s.addSound("[2/4] The Blacksmith: These weapons emanate so much sadness... I'm sure you heard about Bob's story...", "bobslostsoul-theblacksmith-10", false);
+        s.addSound("[3/4] The Blacksmith: Here is the soul. It's a little bit crushed, but it can do the trick.", "bobslostsoul-theblacksmith-11", false);
+        s.addSound("[4/4] The Blacksmith: Good luck on your quest. Bob was a great hero, anything to help him is good in my book.", "bobslostsoul-theblacksmith-12", false);
+        s.addSound("[1/6] Wedyf: I'm glad to see you again.", "bobslostsoul-wedyf-16", false);
+        s.addSound("[2/6] Wedyf: I only need a part of the soul, you can keep the rest.", "bobslostsoul-wedyf-17", false);
+        s.addSound("[3/6] Wedyf: Give me a minute, I need to concentrate...", "bobslostsoul-wedyf-18", false);
+        s.addSound("[6/6] Wedyf: It is done. You should be able to enter the tomb now. Be careful.", "bobslostsoul-wedyf-19", false);
+        s.addSound("[1/3] Tarod: You're back... Has he... has he finally been put to rest?", "bobslostsoul-tarod-16", false);
+        s.addSound("[2/3] Tarod: It's... hard to hear, knowing that my old friend is really gone, this time, but... I'm happy he won't have to suffer on this war-torn world for another second.", "bobslostsoul-tarod-17", false);
+        s.addSound("[3/3] Tarod: ...I want you to have something. This is his old battle chesplate; he gave it to me a few days before he vanished. I think if he were still here, he'd want you to have this. Please, take good care of it for me...", "bobslostsoul-tarod-18", false);
 
         //Temple of Legends
         s.addSound("[1/10] Garull: GWUH! Oh god, don't scare me like that! Who... Who even are you?!", "templeoflegends-garull-1", false);
@@ -1445,10 +1506,20 @@ public class Sounds {
         s.addSound("[1/1] Ragon: I would appreciate if you could follow my directions.", "elementalexercise-ragon-27", false);
 
 
+        //Dwelling walls
+        s.addSound("[1/10] Leucsaa: Let's see here... mother's old vase? Check!", "dwellingwalls-leucsaa-1", false);
+        s.addSound("[2/10] Leucsaa: Dining room table... got it here, check!", "dwellingwalls-leucsaa-2", false);
+        s.addSound("[3/10] Leucsaa: Finally, the journal. It's out here somewhere, I assume. I'll look around.", "dwellingwalls-leucsaa-3", false);
+        s.addSound("[5/10] Leucsaa: Hold on, what? The journal! I must have forgotten it inside the mansion!", "dwellingwalls-leucsaa-4", false);
+        s.addSound("[6/10] Leucsaa: You there! Would you mind doing me a deed?", "dwellingwalls-leucsaa-5", false);
+        s.addSound("[7/10] Leucsaa: I left a very precious journal inside of this mansion, a hell within walls. It was my great grandfather's!", "dwellingwalls-leucsaa-6", false);
+        s.addSound("[8/10] Leucsaa: The mansion was designed by a Corkian architect, and I was scammed into buying it.", "dwellingwalls-leucsaa-7", false);
+        s.addSound("[9/10] Leucsaa: If you step inside the mansion just for a few moments, you'll understand why the sellers had to trick someone into investing in their god forsaken real estate!", "dwellingwalls-leucsaa-8", false);
+        s.addSound("[10/10] Leucsaa: Navigating from room to room is nearly impossible, the rooms move around. I've only been in the mansion for a week and I'm already packing my bags and moving to Detlas.", "dwellingwalls-leucsaa-9", false);
+        s.addSound("[1/3] Leucsaa: The journal! You outsmarted the mansion!", "dwellingwalls-leucsaa-10", false);
+        s.addSound("[2/3] Leucsaa: I must thank you, that journal was priceless to my family.", "dwellingwalls-leucsaa-11", false);
+        s.addSound("[3/3] Leucsaa: Let this be a life lesson to you. Never buy a house from a Corkian architect.", "dwellingwalls-leucsaa-12", false);
 
-        //Dwelling Walls
-        s.addSound("[1/10] Leucsaa: Let's see here... mother's old vase… check!", "dwellingwalls-leucsaa-1", false);
-        s.addSound("[1/3] Leucsaa: The journal! You outsmarted the mansion!", "dwellingwalls-leucsaa-2", false);
 
         //Pit of the dead
         s.addSound("[1/1] Merloni: Ah yes, hello! I don't think you want to hear what I have to say. It's a bit out of your league, come back when you are level 23.", "pitofthedead-merloni-1", false);
@@ -2499,11 +2570,11 @@ public class Sounds {
         s.addSound("[1/14] ???: My pulse... Human. I must inquire to you. I present you a test. Guide your attention to those you see. ", "rol2taproot-orphion-1", true);
         s.addSound("[2/14] ???: I must see the rhythm your heart beats. Listen well. ", "rol2taproot-orphion-2", true);
         s.addSound("[3/14] Mayor: This has gone far enough. I can't do this anymore! I can't give you any more and I refuse to apologize for it! ", "rol2taproot-mayor-1", false);
-        s.addSound("[4/14] Dr Urelix: You know our deal. Remember what good you are doing by following the plans I've laid out for you. ", "rol2taproot-drurelix-1", false);
-        s.addSound("[5/14] Dr Urelix: Are you going to let your emotions cloud your judgment? You're a smarter man than that, Mr. Mayor. ", "rol2taproot-drurelix-2", false);
+        s.addSound("[4/14] Dr. Urelix: You know our deal. Remember what good you are doing by following the plans I've laid out for you.", "rol2taproot-drurelix-1", false);
+        s.addSound("[5/14] Dr. Urelix: Are you going to let your emotions cloud your judgment? You're a smarter man than that, Mr. Mayor.", "rol2taproot-drurelix-2", false);
         s.addSound("[6/14] Mayor: You can't possibly believe that throwing away the lives of innocent people is right! I can't go on with this on my conscience! ", "rol2taproot-mayor-2", false);
         s.addSound("[7/14] Mayor: Detective Hart WILL be hearing from me, and he'll be hearing everything. We can't keep sacrificing our own like this! ", "rol2taproot-mayor-3", false);
-        s.addSound("[8/14] Dr Urelix: Our golems have single-handedly turned the tide of the Humans' corruption war. You would save ten here and sentence a thousand to die overseas?", "rol2taproot-drurelix-3", false);
+        s.addSound("[8/14] Dr. Urelix: Our golems have single-handedly turned the tide of the Humans' corruption war. You would save ten here and sentence a thousand to die overseas?", "rol2taproot-drurelix-3", false);
         s.addSound("[9/14] Mayor: You're a sick, twisted man, Urelix. I will not abide by this a moment longer. ", "rol2taproot-mayor-4", false);
         s.addSound("[10/14] ???: My pulse, you must decide. Three paths diverge upon your road.", "rol2taproot-orphion-3", true);
         s.addSound("[11/14] ???: You may leave. The rays of fate will see to destiny unfolding.", "rol2taproot-orphion-4", true);
@@ -2978,19 +3049,50 @@ public class Sounds {
 
         //Lost Tower
         s.addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);
-        s.addSound("[1/1] Laen: Great! This will be very interesting to read, thank you!", "losttower-laen-2", false);
-        s.addSound("[1/1] Laen: I have a task for you, but you are...perhaps a bit ill-equipped? Come back when you are level 26.", "losttower-laen-3", false);
-        s.addSound("[1/1] Laen: Thank you for your help!", "losttower-laen-4", false);
+        s.addSound("[2/5] Laen: A long time ago, before Ancient Nemract was destroyed, my family used to own quite an interesting book, that held knowledge of places and beings of great power.", "losttower-laen-2", false);
+        s.addSound("[3/5] Laen: Unfortunately, a creature stole it from them during the attack that led to the destruction of Ancient Nemract, and no one has seen it since.", "losttower-laen-3", false);
+        s.addSound("[4/5] Laen: If you are willing to help, bring me [1 Book of the Bones], I believe this book is now between the hands of skeletons, in an old tower in Ancient Nemract.", "losttower-laen-4", false);
+        s.addSound("[5/5] Laen: See if you can find this tower, one of the skeletons probably has the book somewhere in there.", "losttower-laen-5", false);
+        s.addSound("[1/1] Laen: Great! This will be very interesting to read, thank you!", "losttower-laen-6", false);
+        s.addSound("[1/1] Laen: I have a task for you, but you are...perhaps a bit ill-equipped? Come back when you are level 26.", "losttower-laen-7", false);
+        s.addSound("[1/1] Laen: Thank you for your help!", "losttower-laen-8", false);
+
 
         //Pirates Trove
         s.addSound("[1/8] Damiral: Lo, adventurer! Welcome to the great province of Gavel, home of the villager race, and yours truly. You'll be headed into the grand citadel of Llevigar soon!", "piratestrove-damiral-1", false);
-        s.addSound("[1/3] Damiral: Aha! I'd come to ask how it was coming when I saw you jump over here!", "piratestrove-damiral-2", false);
+        s.addSound("[2/8] Damiral: But enough with the pleasantries. Tell me... Ever heard the tale of the great pirate, Captain Hastor? Sailed the seas a long time ago.", "piratestrove-damiral-2", false);
+        s.addSound("[3/8] Damiral: Legend says that when Llevigar was rebuilt all those years ago, he hid his fortune within the walls someplace!", "piratestrove-damiral-3", false);
+        s.addSound("[4/8] Damiral: I'm a retired sailor now, but I could still do with a few extra emeralds from that treasure. Perhaps, if you're up to it... we could come to an agreement?", "piratestrove-damiral-4", false);
+        s.addSound("[5/8] Damiral: I have a riddle, the first of a number of clues that are supposed to lead to where Hastor hid his fortune, but I can't for the life of me figure it out.", "piratestrove-damiral-5", false);
+        s.addSound("[6/8] Damiral: Maybe you'll be able to solve it. If you can, I'll make sure to split the treasure with you!", "piratestrove-damiral-6", false);
+        s.addSound("[7/8] Damiral: This first riddle goes like so: Toward the sunset, among northern flowers shaded by quartz.", "piratestrove-damiral-7", false);
+        s.addSound("[8/8] Damiral: I do wish you good luck, adventurer! Remember, everything you need to solve the clues should be found somewhere inside Llevigar.", "piratestrove-damiral-8", false);
+        s.addSound("[1/3] Damiral: Aha! I'd come to ask how it was coming when I saw you jump over here!", "piratestrove-damiral-9", false);
+        s.addSound("[2/3] Damiral: Phenomenal work, my compatriot. Though, do remember our deal?", "piratestrove-damiral-10", false);
+        s.addSound("[3/3] Damiral: You find the treasure, I give you a cut. I'll just take my part and be on my way!", "piratestrove-damiral-11", false);
+
 
         //Heart of llevigar
         s.addSound("[1/6] Zenam: Aaah, no no no! This doesn't make any sense, what in the world is going on?! Nothing's working!", "heartofllevigar-zenam-1", false);
+        s.addSound("[2/6] Zenam: Gweh, a visitor? Get out of here! The plant is shut down for maintenance- wait, are you the electromagic expert we're paying for?", "heartofllevigar-zenam-2", false);
+        s.addSound("[3/6] Zenam: You are, right? Right?! Cause we can't wait any longer! This system was supposed to be unbreakable, a flawless design!", "heartofllevigar-zenam-3", false);
+        s.addSound("[4/6] Zenam: We didn't even need to get Corkian consultation on this, we had this system all figured out ourselves, but now nothing's working right!", "heartofllevigar-zenam-4", false);
+        s.addSound("[5/6] Zenam: You're seeing all these sparks and hearing all this crackling? We have no idea what could possibly be going wrong with this! That's why you're needed here!", "heartofllevigar-zenam-5", false);
+        s.addSound("[6/6] Zenam: We don't have much time until full meltdown! There is an entrance to the power plant opposite the bank, go there and meet with the Head Engineer!", "heartofllevigar-zenam-6", false);
         s.addSound("[1/5] Head Engineer: Whew, finally Zeman found a guy for the job. I told him weeks ago this was a two-person task...", "heartofllevigar-headengineer-1", false);
-        s.addSound("[1/5] Head Engineer: Alright, that should do it- Ah, you're back. The system reset just fine, like I said. Everything should be winding down now.", "heartofllevigar-headengineer-2", false);
-        s.addSound("[1/4] Zenam: Whew...welcome back. The power is back online- Everything is running at full capacity again. I think the system is just running excess through right now.", "heartofllevigar-zenam-2", false);
+        s.addSound("[2/5] Head Engineer: Wait, it's Zenam? Eh, what does it matter? You knew who I was talkin' about. Lemme give you the lowdown real fast.", "heartofllevigar-headengineer-2", false);
+        s.addSound("[3/5] Head Engineer: About a month ago, there was a big blackout, and the generator here started acting up. Power surges, appliances overloading...heck, some of our lights turned purple!", "heartofllevigar-headengineer-3", false);
+        s.addSound("[4/5] Head Engineer: My grandfather and his engineers jury-rigged this whole system. A reset should fix all this, but as a security measure, I need to be here to oversee the reset.", "heartofllevigar-headengineer-4", false);
+        s.addSound("[5/5] Head Engineer: So that's your job- get through the system and find the reset button. These holes'll lead you around the generator rooms. Better get going!", "heartofllevigar-headengineer-5", false);
+        s.addSound("[1/5] Head Engineer: Alright, that should do it- Ah, you're back. The system reset just fine, like I said. Everything should be winding down now.", "heartofllevigar-headengineer-6", false);
+        s.addSound("[2/5] Head Engineer: It's purging the excess energy now- might have a few more power surges and crackles for a while, but it'll go back to normal soon enough.", "heartofllevigar-headengineer-7", false);
+        s.addSound("[3/5] Head Engineer: Hm? What, there was a bug in the system? ...what, are you asleep or something? Of course there was a bug, we just fixed it!", "heartofllevigar-headengineer-8", false);
+        s.addSound("[4/5] Head Engineer: Well, anyways, Zebra should have our payment all settled. You go on ahead- I still need to stay down here to make sure everything stays smooth.", "heartofllevigar-headengineer-9", false);
+        s.addSound("[5/5] Head Engineer: ...oh, it's Zenam? D'you really care about getting his name right, or what? Anyways, the exit's through the water cooling system, it hooks up to the sewer exit.", "heartofllevigar-headengineer-10", false);
+        s.addSound("[1/4] Zenam: Whew...welcome back. The power is back online- Everything is running at full capacity again. I think the system is just running excess through right now.", "heartofllevigar-zenam-7", false);
+        s.addSound("[2/4] Zenam: Glad you got here when you did though- some phony came through saying he was the expert. Clearly he was just here to take your contract money...  (The player took that guy's job)", "heartofllevigar-zenam-8", false);
+        s.addSound("[3/4] Zenam: Though, I was panicking so much I probably would've believed him... Speaking of which, here's your cut of the pay, and something extra for the trouble.", "heartofllevigar-zenam-9", false);
+        s.addSound("[4/4] Zenam: Here's to hoping that the system won't run into any more trouble in the future. I don't want to be faced with an impending cataclysm like that again...", "heartofllevigar-zenam-10", false);
 
         //The Qira Hive
         s.addSound("[1/13] Yansur: I see another challenger has found their way to The Qira Hive!", "theqirahive-yansur-1", false);
@@ -4309,6 +4411,7 @@ public class Sounds {
         s.addSound("[12/17] Elphaba: The existence of this place has been kept on a strict need-to-know basis.", "ajourneybeyond-elphaba-10", true);
         s.addSound("[13/17] Elphaba: Our mission is to make our way through the mine, observe and report the threat level.", "ajourneybeyond-elphaba-11", true);
         s.addSound("[14/17] Lucio: Come on, we need to get going! Enough with the meetings!", "ajourneybeyond-lucio-2", true);
+        s.addSound("[15/17] Aledar: How many times do we have to tell you to stop doing that? Fix it, Lucio.", "ajourneybeyond-aledar-97", true);
         s.addSound("[16/17] Lucio: Fine...", "ajourneybeyond-lucio-3", true);
         s.addSound("[17/17] Aledar: soldier, if you're ready, let's go.", "ajourneybeyond-aledar-3", true);
         s.addSound("[1/12] Aledar: Everyone ready? I'll lead.", "ajourneybeyond-aledar-4", true);
@@ -4478,7 +4581,6 @@ public class Sounds {
         s.addSound("[6/7] Aledar: It worked... Kind of. I feel at least 70%. We still have a ways to go.", "ajourneybeyond-aledar-94", true);
         s.addSound("[7/7] Aledar: Let’s take some time to gather ourselves before we press on. I’ll meet you on the other side of town.", "ajourneybeyond-aledar-95", true);
         s.addSound("[1/1] Aledar: Ouch! I got hit! Be careful, soldier!", "ajourneybeyond-aledar-96", true);
-        s.addSound("[15/17] Aledar: How many times do we have to tell you to stop doing that? Fix it, Lucio.", "ajourneybeyond-aledar-97", true);
 
         //A journey further
         s.addSound("[1/2] Aledar: Alright, let's go. I'll tell you more about our journey on the way.", "ajourneyfurther-aledar-1", true);

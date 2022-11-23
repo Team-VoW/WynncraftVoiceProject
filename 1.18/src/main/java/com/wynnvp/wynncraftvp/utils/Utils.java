@@ -16,7 +16,8 @@ import java.security.MessageDigest;
 public class Utils {
 
     public static void sendMessage(String text) {
-        MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(Text.of("§5[Voices of wynn]§r " + text));
+        if (MinecraftClient.getInstance() != null && MinecraftClient.getInstance().inGameHud != null && MinecraftClient.getInstance().inGameHud.getChatHud() != null)
+            MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(Text.of("§5[Voices of wynn]§r " + text));
     }
 
     public static String sha256(final String base) {
