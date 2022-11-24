@@ -926,14 +926,32 @@ public class Sounds {
 
         //Wrath of the Mummy
         s.addSound("[1/6] Ormrod: Uh, you shouldn't have come here!", "wrathofthemummy-ormrod-1", false);
+        s.addSound("[2/6] Ormrod: I am cursed. Everywhere I go, trouble starts. I decided to stay away from civilization, where I can't cause any more trouble.", "wrathofthemummy-ormrod-2", false);
+        s.addSound("[3/6] Ormrod: It all started when I discovered an old tomb... upon entering it, the ground started shaking and I heard some inhuman screams coming from the tomb.", "wrathofthemummy-ormrod-3", false);
+        s.addSound("[4/6] Ormrod: I ran as far as I could. I learnt after that this was the tomb of a mummy... that I accidentally have awoken.", "wrathofthemummy-ormrod-4", false);
+        s.addSound("[5/6] Ormrod: If you could get rid of this mummy, maybe the curse would go away.", "wrathofthemummy-ormrod-5", false);
+        s.addSound("[6/6] Ormrod: Achper knows a lot about mummies, you should go talk to him. He lives somewhere in Almuj.", "wrathofthemummy-ormrod-6", false);
         s.addSound("[1/6] Achper: If I know about mummies? Of course! I've spent my entire life studying them!", "wrathofthemummy-achper-1", false);
-        s.addSound("[1/1] Achper: Hi! If you are looking for some information about mummies, I can help you!", "wrathofthemummy-achper-2", false);
-        s.addSound("[1/1] Achper: Glad to hear you came back alive! Those mummies aren't always easy, eh?", "wrathofthemummy-achper-3", false);
+        s.addSound("[2/6] Achper: They usually are very hard to reach, hidden in their tomb.", "wrathofthemummy-achper-2", false);
+        s.addSound("[3/6] Achper: I know what happened to Ormrod, and the only way to remove the powerful curse would be to kill the mummy.", "wrathofthemummy-achper-3", false);
+        s.addSound("[4/6] Achper: The tomb is north from here, but be very careful!", "wrathofthemummy-achper-4", false);
+        s.addSound("[5/6] Achper: Mummies aren't known to be weak... especially that one. It's demonic...pure evil, I have never seen such strength in a being.", "wrathofthemummy-achper-5", false);
+        s.addSound("[6/6] Achper: On top of that, the Creden Tibus bandit clan have been ransacking the tomb. They might not let you inside without some negotiating.", "wrathofthemummy-achper-6", false);
+        s.addSound("[1/1] Achper: Glad to hear you came back alive! Those mummies aren't always easy, eh?", "wrathofthemummy-achper-7", false);
+        s.addSound("[1/1] Achper: Hi! If you are looking for some information about mummies, I can help you!", "wrathofthemummy-achper-8", false);
         s.addSound("[1/3] Bandit: Hey, what are you doing? If you're trying to loot the tomb, me and the other Creden Tibus already beat you to it.", "wrathofthemummy-bandit-1", false);
-        s.addSound("[1/4] Bandit: Well, whaddya know? You got some Pink Wool! Okay, hand it here and I'll look the other way and let you into the tomb.", "wrathofthemummy-bandit-2", false);
-        s.addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummy-ormrod-2", false);
-        s.addSound("[1/1] Ormrod: Thank you so much for removing the curse!", "wrathofthemummy-ormrod-3", false);
-        s.addSound("[1/1] Ormrod: Don't stand close to me, I am cursed! Come back when you're level 36, you might be able to help me.", "wrathofthemummy-ormrod-4", false);
+        s.addSound("[2/3] Bandit: But if you can bring me [1 Block of Pink Wool], I'll look the other way and let you into the tomb. I know it sounds ridiculous, but it's valuable.", "wrathofthemummy-bandit-2", false);
+        s.addSound("[3/3] Bandit: You can get it from Rymek in the southern canyon. Only other way if from a rare sheep or something, so Rymek's the better option.", "wrathofthemummy-bandit-3", false);
+        s.addSound("[1/4] Bandit: Well, whaddya know?  You got some Pink Wool! Okay, hand it here and I'll look the other way and let you into the tomb.", "wrathofthemummy-bandit-4", false);
+        s.addSound("[2/4] Bandit: But I feel like it's only fair that I warn you that it's dangerous in there.", "wrathofthemummy-bandit-5", false);
+        s.addSound("[3/4] Bandit: It took our entire clan just to make it out alive.", "wrathofthemummy-bandit-6", false);
+        s.addSound("[4/4] Bandit: I'll still let you inside if you want. Just remember, if anyone asks, this conversation never happened.", "wrathofthemummy-bandit-7", false);
+        s.addSound("[1/4] Ormrod: Uh, hello again... What are those bandages?", "wrathofthemummy-ormrod-7", false);
+        s.addSound("[2/4] Ormrod: Those are the mummy's bandages?! You did it! My curse is finally lifted!", "wrathofthemummy-ormrod-8", false);
+        s.addSound("[3/4] Ormrod: I can't thank you enough! As a reward, take this rag I got from the mummy when I entered the tomb.", "wrathofthemummy-ormrod-9", false);
+        s.addSound("[4/4] Ormrod: I am not strong enough to wear it, but I'm sure you are! Take these emeralds too, that's the least I can do!", "wrathofthemummy-ormrod-10", false);
+        s.addSound("[1/1] Ormrod: Thank you so much for removing the curse!", "wrathofthemummy-ormrod-11", false);
+        s.addSound("[1/1] Ormrod: Don't stand close to me, I am cursed! Come back when you're level 36, you might be able to help me.", "wrathofthemummy-ormrod-12", false);
 
         //Corrupted village
         s.addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallge-orikal-8", false);
