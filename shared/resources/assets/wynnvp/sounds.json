@@ -15670,13 +15670,105 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:craftmaschaos-tom-1", "stream": true}]
   },
+  "craftmaschaos-tom-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tom-2", "stream": true}]
+  },
+  "craftmaschaos-tom-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tom-3", "stream": true}]
+  },
+  "craftmaschaos-tom-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tom-4", "stream": true}]
+  },
+  "craftmaschaos-tom-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tom-5", "stream": true}]
+  },
+  "craftmaschaos-tom-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tom-6", "stream": true}]
+  },
+  "craftmaschaos-tom-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tom-7", "stream": true}]
+  },
+  "craftmaschaos-tom-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tom-8", "stream": true}]
+  },
+  "craftmaschaos-tom-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tom-9", "stream": true}]
+  },
   "craftmaschaos-santa-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:craftmaschaos-santa-1", "stream": true}]
   },
+  "craftmaschaos-santa-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-2", "stream": true}]
+  },
+  "craftmaschaos-santa-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-3", "stream": true}]
+  },
+  "craftmaschaos-santa-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-4", "stream": true}]
+  },
+  "craftmaschaos-santa-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-5", "stream": true}]
+  },
+  "craftmaschaos-santa-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-6", "stream": true}]
+  },
+  "craftmaschaos-santa-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-7", "stream": true}]
+  },
+  "craftmaschaos-santa-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-8", "stream": true}]
+  },
+  "craftmaschaos-santa-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-9", "stream": true}]
+  },
   "craftmaschaos-tommy-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:craftmaschaos-tommy-1", "stream": true}]
+  },
+  "craftmaschaos-tommy-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tommy-2", "stream": true}]
+  },
+  "craftmaschaos-tommy-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tommy-3", "stream": true}]
+  },
+  "craftmaschaos-tommy-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tommy-4", "stream": true}]
+  },
+  "craftmaschaos-tommy-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tommy-5", "stream": true}]
+  },
+  "craftmaschaos-tommy-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tommy-6", "stream": true}]
+  },
+  "craftmaschaos-tommy-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tommy-7", "stream": true}]
+  },
+  "craftmaschaos-tommy-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-tommy-8", "stream": true}]
   },
   "craftmaschaos-summoner-1": {
     "category": "voice",
@@ -15686,6 +15778,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:craftmaschaos-summoner-2", "stream": true}]
   },
+  "craftmaschaos-summoner-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-summoner-3", "stream": true}]
+  },
+  "craftmaschaos-summoner-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-summoner-4", "stream": true}]
+  },
+  "craftmaschaos-summoner-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-summoner-5", "stream": true}]
+  },
   "craftmaschaos-oldtom-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-1", "stream": true}]
@@ -15694,10 +15798,119 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-2", "stream": true}]
   },
-  "craftmaschaos-santa-2": {
+  "craftmaschaos-oldtom-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-3", "stream": true}]
   },
+  "craftmaschaos-oldtom-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-4", "stream": true}]
+  },
+  "craftmaschaos-oldtom-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-5", "stream": true}]
+  },
+  "craftmaschaos-oldtom-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-6", "stream": true}]
+  },
+  "craftmaschaos-oldtom-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-7", "stream": true}]
+  },
+  "craftmaschaos-oldtom-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-8", "stream": true}]
+  },
+  "craftmaschaos-oldtom-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-9", "stream": true}]
+  },
+  "craftmaschaos-oldtom-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-10", "stream": true}]
+  },
+  "craftmaschaos-oldtom-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-11", "stream": true}]
+  },
+  "craftmaschaos-oldtom-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-12", "stream": true}]
+  },
+  "craftmaschaos-oldtom-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-13", "stream": true}]
+  },
+  "craftmaschaos-oldtom-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-14", "stream": true}]
+  },
+  "craftmaschaos-oldtom-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-15", "stream": true}]
+  },
+  "craftmaschaos-oldtom-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-16", "stream": true}]
+  },
+  "craftmaschaos-oldtom-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-17", "stream": true}]
+  },
+  "craftmaschaos-oldtom-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-18", "stream": true}]
+  },
+  "craftmaschaos-oldtom-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-19", "stream": true}]
+  },
+  "craftmaschaos-oldtom-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-20", "stream": true}]
+  },
+  "craftmaschaos-oldtom-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-oldtom-21", "stream": true}]
+  },
+  "craftmaschaos-santa-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-10", "stream": true}]
+  },
+  "craftmaschaos-santa-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-11", "stream": true}]
+  },
+  "craftmaschaos-santa-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-12", "stream": true}]
+  },
+  "craftmaschaos-santa-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-13", "stream": true}]
+  },
+  "craftmaschaos-santa-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-14", "stream": true}]
+  },
+  "craftmaschaos-santa-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-15", "stream": true}]
+  },
+  "craftmaschaos-santa-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-16", "stream": true}]
+  },
+  "craftmaschaos-santa-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-17", "stream": true}]
+  },
+  "craftmaschaos-santa-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:craftmaschaos-santa-18", "stream": true}]
+  },
+
 
 
   "asandyscandal-almujbankguard-1": {
