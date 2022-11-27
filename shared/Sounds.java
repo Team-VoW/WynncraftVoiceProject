@@ -854,11 +854,39 @@ public class Sounds {
         s.addSound("[1/1] Honip: One more...", "misadventureonthesea-honip-71", true);
         s.addSound("[4/4] Honip: Anyway, come talk to me.", "misadventureonthesea-honip-72", true);
 
-        //Master piece
+        //Master Piece
         s.addSound("[1/9] Caissop: ...hm...mh!", "masterpiece-caissop-1", false);
-        s.addSound("[1/7] Caissop: Quick! Describe it to me! Go on!", "masterpiece-caissop-2", false);
-        s.addSound("[1/7] Caissop: You're here! Quick! Don't look at me, describe it!", "masterpiece-caissop-3", false);
-        s.addSound("[1/7] Caissop: You're finally back! I just finished the last one. Go! Describe it!", "masterpiece-caissop-4", false);
+        s.addSound("[2/9] Caissop: Oh sorry, I didn't notice you. Did you want an autograph?", "masterpiece-caissop-2", false);
+        s.addSound("[3/9] Caissop: Wait, no? Don't you know who I am?! It seems like you have no taste in art... I am Caissop, the legendary artist!", "masterpiece-caissop-3", false);
+        s.addSound("[4/9] Caissop: Though, since you are not a fan... Perhaps you can help me? I am looking for a new assistant.", "masterpiece-caissop-4", false);
+        s.addSound("[5/9] Caissop: Excellent... I need your help to find three legendary creatures that are hiding in caves around the swamp.", "masterpiece-caissop-5", false);
+        s.addSound("[6/9] Caissop: I actually know their location, but unfortunately, I am...blind.", "masterpiece-caissop-6", false);
+        s.addSound("[7/9] Caissop: For me to do my work I need to imagine them! That's where you come in. I need you to find them and describe them to me!", "masterpiece-caissop-7", false);
+        s.addSound("[8/9] Caissop: Would you turn your back on a blind man?! I need you to give me an accurate description of them! Once you have found one, come back and describe it to me exactly!", "masterpiece-caissop-8", false);
+        s.addSound("[9/9] Caissop: The first cave is up a hill with tall, thin-leafed flowers. They smell pink to me, and of this I am certain.", "masterpiece-caissop-9", false);
+        s.addSound("[1/7] Caissop: Quick! Describe it to me! Go on!", "masterpiece-caissop-10", false);
+        s.addSound("[2/8] Caissop: Brown...big-nosed... A Villager Cow, you say!?", "masterpiece-caissop-11", false);
+        s.addSound("[3/8] Caissop: ...OH, YES! ......... INSPIRED.", "masterpiece-caissop-12", false);
+        s.addSound("[4/8] Caissop: ...MH, NO, A LITTLE MORE RED!..... YES!", "masterpiece-caissop-13", false);
+        s.addSound("[5/8] Caissop: Haha! This is WONDERFUL! I'm not going to show it to you before it is finished!", "masterpiece-caissop-14", false);
+        s.addSound("[6/8] Caissop: Savor the ideas! So now, I need you to go to the second cave...", "masterpiece-caissop-15", false);
+        s.addSound("[7/8] Caissop: It is down a road, with short, round-cupped flowers. Those ones smell orange to me!", "masterpiece-caissop-16", false);
+        s.addSound("[8/8] Caissop: Hurry! I'll finish this animal while you are gone. OH, YES. MUY MACHO.", "masterpiece-caissop-17", false);
+        s.addSound("[1/7] Caissop: You're here! Quick! Don't look at me, describe it!", "masterpiece-caissop-18", false);
+        s.addSound("[2/7] Caissop: Snowy white, a large horn... A Unicorn Sheep, you say?!", "masterpiece-caissop-19", false);
+        s.addSound("[3/7] Caissop: ...OH YES, THE WOOL IS REAL... MORE SWIPING... OH YES, BIEN!", "masterpiece-caissop-20", false);
+        s.addSound("[4/7] Caissop: ... THIS IS UNIQUE, REMARKABLE, YES. SUPERNATURAL!", "masterpiece-caissop-21", false);
+        s.addSound("[5/7] Caissop: The last creature! Red-smelling flowers, prickly thorns, hurry, mucho inspired!", "masterpiece-caissop-22", false);
+        s.addSound("[6/7] Caissop: ...OH, NO, NO. YES! MORE COLOUR, MORE PAINT! I'M OUT OF RED!", "masterpiece-caissop-23", false);
+        s.addSound("[7/7] Caissop: I'LL JUST USE MY BLOOD! OH! YES! ...INSPIRED! REMARKABLE! Huh? Why are you still here? Go! I need that last description!", "masterpiece-caissop-24", false);
+        s.addSound("[1/7] Caissop: You're finally back! I just finished the last one. Go! Describe it!", "masterpiece-caissop-25", false);
+        s.addSound("[2/7] Caissop: ...Oh, yes... YES. I LOVE IT.", "masterpiece-caissop-26", false);
+        s.addSound("[3/7] Caissop: It's...A Pigasus! WHAT A NAME!", "masterpiece-caissop-27", false);
+        s.addSound("[4/7] Caissop: ...OH YES, WINGS! EYES FROM HEAVEN! OH, YES.", "masterpiece-caissop-28", false);
+        s.addSound("[5/7] Caissop: Och, perfect. The final touch and, done! You were so inspiring that I made two! One for you, and one for me!", "masterpiece-caissop-29", false);
+        s.addSound("[6/7] Caissop: You might want to hold onto that, big-town upper class Villagers pay through the roof for Caissop's work!", "masterpiece-caissop-30", false);
+        s.addSound("[7/7] Caissop: Thank you for your assistance, what a rush! Good luck on your Gavel adventure!", "masterpiece-caissop-31", false);
+
 
         //Maltics Well
         s.addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwell-rynend-1", false);
