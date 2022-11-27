@@ -1961,9 +1961,28 @@ public class Sounds {
         s.addSound("[1/6] Marden: How did you get up here, human? What are they doing down there if not defending the fort!?", "fallendelivery-marden-1", false);
 
         //The Passage
-        s.addSound("[1/10] Ildan: Oh! So you want to become a member of this town?", "thepassage-ildan-1", false);
-        s.addSound("[1/8] Ildan: Impressive! You got the bead!", "thepassage-ildan-2", false);
         s.addSound("[1/3] Wirt: Not so fast, you!", "thepassage-wirt-1", false);
+        s.addSound("[2/3] Wirt: My dad said I can't let any strangers through this passage!", "thepassage-wirt-2", false);
+        s.addSound("[3/3] Wirt: If you want access, talk to him, he's the recruiter of the town! His name is Ildan.", "thepassage-wirt-3", false);
+        s.addSound("[1/10] Ildan: Oh! So you want to become a member of this town?", "thepassage-ildan-1", false);
+        s.addSound("[2/10] Ildan: You will have to help us first, of course!", "thepassage-ildan-2", false);
+        s.addSound("[3/10] Ildan: I'm sure you've noticed, but there is a tribe camp not too far from here.", "thepassage-ildan-3", false);
+        s.addSound("[4/10] Ildan: They used to have a powerful chief, but he eventually died in battle.", "thepassage-ildan-4", false);
+        s.addSound("[5/10] Ildan: The tribe couldn't bear the fact that he was dead. They performed some unethical necromancy spell on him.", "thepassage-ildan-5", false);
+        s.addSound("[6/10] Ildan: They quickly realized that is was a bad idea, so they locked him in a tomb.", "thepassage-ildan-6", false);
+        s.addSound("[7/10] Ildan: He keeps reviving his minions and it's causing quite some problems to our army.", "thepassage-ildan-7", false);
+        s.addSound("[8/10] Ildan: You can access the tomb from a sacrificial shrine I've heard, but I'm not sure how. There are probably hints nearby the shrine.", "thepassage-ildan-8", false);
+        s.addSound("[9/10] Ildan: Bring me back [1 Antic Bead] as a proof of its death, and I will let you become a citizen.", "thepassage-ildan-9", false);
+        s.addSound("[10/10] Ildan: I've marked the direction to the shrine in your book. Good luck.", "thepassage-ildan-10", false);
+        s.addSound("[1/8] Ildan: Impressive! You got the bead!", "thepassage-ildan-11", false);
+        s.addSound("[2/8] Ildan: Well, welcome to this town, adventurer! You are now officially a citizen.", "thepassage-ildan-12", false);
+        s.addSound("[3/8] Ildan: Oh, but before you go! I do have a few things to say. First, about the beads here.", "thepassage-ildan-13", false);
+        s.addSound("[4/8] Ildan: The tribesmen accept these as currency, so if you collect enough, I've heard they can offer you powerful masks.", "thepassage-ildan-14", false);
+        s.addSound("[5/8] Ildan: Second, about the shrine. Now, this is just a rumor, but apparently that tomb is not unique.", "thepassage-ildan-15", false);
+        s.addSound("[6/8] Ildan: There are supposed to be a bunch of these altars scattered around the province, even in Gavel too!", "thepassage-ildan-16", false);
+        s.addSound("[7/8] Ildan: If true, you should look for them. While the fights will be tough, I would imagine great rewards could be gotten from them!", "thepassage-ildan-17", false);
+        s.addSound("[8/8] Ildan: Anyway, I've talked enough. I'm proud to have such a powerful fighter join our town! I wish you luck, friend!", "thepassage-ildan-18", false);
+
 
         //Lava Springs
         s.addSound("[1/6] Colonel Gailard: Oh, good good! I bet'cha you're a Ragni soldier, aren't ya? Listen up, soldier! I've got a task here that 'ye can help out with.", "lavasprings-colonelgailard-1", false);

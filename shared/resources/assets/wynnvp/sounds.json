@@ -11248,6 +11248,18 @@
   },
 
 
+  "thepassage-wirt-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-wirt-1", "stream": true}]
+  },
+  "thepassage-wirt-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-wirt-2", "stream": true}]
+  },
+  "thepassage-wirt-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-wirt-3", "stream": true}]
+  },
   "thepassage-ildan-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thepassage-ildan-1", "stream": true}]
@@ -11256,10 +11268,71 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thepassage-ildan-2", "stream": true}]
   },
-  "thepassage-wirt-1": {
+  "thepassage-ildan-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thepassage-wirt-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-3", "stream": true}]
   },
+  "thepassage-ildan-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-4", "stream": true}]
+  },
+  "thepassage-ildan-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-5", "stream": true}]
+  },
+  "thepassage-ildan-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-6", "stream": true}]
+  },
+  "thepassage-ildan-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-7", "stream": true}]
+  },
+  "thepassage-ildan-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-8", "stream": true}]
+  },
+  "thepassage-ildan-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-9", "stream": true}]
+  },
+  "thepassage-ildan-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-10", "stream": true}]
+  },
+  "thepassage-ildan-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-11", "stream": true}]
+  },
+  "thepassage-ildan-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-12", "stream": true}]
+  },
+  "thepassage-ildan-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-13", "stream": true}]
+  },
+  "thepassage-ildan-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-14", "stream": true}]
+  },
+  "thepassage-ildan-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-15", "stream": true}]
+  },
+  "thepassage-ildan-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-16", "stream": true}]
+  },
+  "thepassage-ildan-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-17", "stream": true}]
+  },
+  "thepassage-ildan-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thepassage-ildan-18", "stream": true}]
+  },
+
 
 
   "lavasprings-colonelgailard-1": {
