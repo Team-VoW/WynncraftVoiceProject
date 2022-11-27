@@ -15364,6 +15364,30 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cropfailure-anast-10", "stream": true}]
   },
+  "cropfailure-anast-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-11", "stream": true}]
+  },
+  "cropfailure-anast-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-12", "stream": true}]
+  },
+  "cropfailure-anast-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-13", "stream": true}]
+  },
+  "cropfailure-anast-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-14", "stream": true}]
+  },
+  "cropfailure-anast-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-15", "stream": true}]
+  },
+  "cropfailure-anast-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-16", "stream": true}]
+  },
   "cropfailure-doubiss-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cropfailure-doubiss-1", "stream": true}]
@@ -15384,10 +15408,95 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:cropfailure-doubiss-5", "stream": true}]
   },
-  "cropfailure-anast-11": {
+  "cropfailure-doubiss-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:cropfailure-anast-11", "stream": true}]
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-6", "stream": true}]
   },
+  "cropfailure-doubiss-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-7", "stream": true}]
+  },
+  "cropfailure-doubiss-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-8", "stream": true}]
+  },
+  "cropfailure-doubiss-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-9", "stream": true}]
+  },
+  "cropfailure-doubiss-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-10", "stream": true}]
+  },
+  "cropfailure-doubiss-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-11", "stream": true}]
+  },
+  "cropfailure-doubiss-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-12", "stream": true}]
+  },
+  "cropfailure-doubiss-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-13", "stream": true}]
+  },
+  "cropfailure-doubiss-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-14", "stream": true}]
+  },
+  "cropfailure-doubiss-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-15", "stream": true}]
+  },
+  "cropfailure-doubiss-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-16", "stream": true}]
+  },
+  "cropfailure-doubiss-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-17", "stream": true}]
+  },
+  "cropfailure-doubiss-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-18", "stream": true}]
+  },
+  "cropfailure-doubiss-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-doubiss-19", "stream": true}]
+  },
+  "cropfailure-anast-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-17", "stream": true}]
+  },
+  "cropfailure-anast-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-18", "stream": true}]
+  },
+  "cropfailure-anast-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-19", "stream": true}]
+  },
+  "cropfailure-anast-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-20", "stream": true}]
+  },
+  "cropfailure-anast-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-21", "stream": true}]
+  },
+  "cropfailure-anast-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-22", "stream": true}]
+  },
+  "cropfailure-anast-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-23", "stream": true}]
+  },
+  "cropfailure-anast-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cropfailure-anast-24", "stream": true}]
+  },
+
 
 
   "stablestory-enkser-1": {
