@@ -1425,8 +1425,8 @@ public class Sounds {
         s.addSound("[4/5] Arlene: Be careful, it seems to be getting tougher. The bridge is soon ready to use.", "onethousandmetersunder-arlene-2", true);
         s.addSound("[5/5] Manny: Hey, the bridge is ready!", "onethousandmetersunder-manny-2", true);
         s.addSound("[1/4] Rex: We didn't find the crystal here either. Maybe it just fell in the void?", "onethousandmetersunder-rex-2", true);
-        s.addSound("[1/13] Celuuse: Whoooooooo are you!?", "onethousandmetersunder-celuuse-1", true);
-        s.addSound("[1/8] Rontaid: WHAT...WHO...Humans in the void!?", "onethousandmetersunder-rontaid-1", true);
+        s.addSound("[1/13] Celuuse: Whoooooooo are you!?", "onethousandmetersunder-celuuse-1", false);
+        s.addSound("[1/8] Rontaid: WHAT...WHO...Humans in the void!?", "onethousandmetersunder-rontaid-1", false);
 
         //Recipe for disaster
         s.addSound("[1/4] Frank: How are ya? Hamsey said you're an old buddy of his, helped him while he was still in Ragni.", "recipefordisaster-frank-1", false);
@@ -2069,18 +2069,19 @@ public class Sounds {
         s.addSound("[4/5] Pottur: Success!", "studyingthecorrupt-pottur-10", false);
         s.addSound("[5/5] Pottur: I can't believe it was that simple. Magic can be like forcing a square into a circle, you just got to change your tact. Thanks for your help soldier.", "studyingthecorrupt-pottur-11", false);
 
-        //A grave Mistake
+        //A Grave misstake
         s.addSound("[1/3] Alem: You might want to leave.", "agravemistake-alem-1", false);
         s.addSound("[2/3] Alem: There is nothing in this graveyard.", "agravemistake-alem-2", false);
         s.addSound("[3/3] Alem: This place is private.", "agravemistake-alem-3", false);
         s.addSound("[1/1] Alem: I have warned you...", "agravemistake-alem-4", false);
-        s.addSound("[1/2] ???: You were warned not to enter this forsaken place.", "agravemistake-mael-1", true);
-        s.addSound("[2/2] ???: But since you have made it thusfar, I suppose I shall show you the truth...", "agravemistake-mael-2", true);
-        s.addSound("[1/3] Mael: Do you understand now?", "agravemistake-mael-3", true);
-        s.addSound("[2/3] Mael: Then leave, and forget the horrors you have witnessed here today...", "agravemistake-mael-4", true);
-        s.addSound("[1/1] Alem: I have nothing more to say. Take these.", "agravemistake-alem-5", true);
-        s.addSound("[3/3] Mael: They are safer here.", "agravemistake-mael-5", true);
-        s.addSound("1/12kxxxxxxx2aohmyarmitsba", "agravemistake-skeleton-1", false);
+        s.addSound("§7[1/1] §2§kXXXXXXX§2: §aOh, my arm.. It's ba...", "agravemistake-skeleton-1", false);
+        s.addSound("[1/2] ???: You were warned not to enter this forsaken place.", "agravemistake-alem-5", false);
+        s.addSound("[2/2] ???: But since you have made it thusfar, I suppose I shall show you the truth...", "agravemistake-alem-6", false);
+        s.addSound("[1/3] Mael: Do you understand now?", "agravemistake-alem-7", true);
+        s.addSound("[2/3] Mael: Then leave, and forget the horrors you have witnessed here today...", "agravemistake-alem-8", true);
+        s.addSound("[3/3] Mael: They are safer here.", "agravemistake-alem-9", true);
+        s.addSound("[1/1] Alem: I have nothing more to say. Take these.", "agravemistake-alem-10", false);
+
 
         //Lost in the jungle
         s.addSound("[1/10] Gracen: Excuse me, traveller... I am dreadfully sorry to ask this of you, but I need your help.", "lostinthejungle-gracen-1", false);

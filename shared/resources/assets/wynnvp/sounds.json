@@ -10566,34 +10566,35 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:agravemistake-alem-4", "stream": true}]
   },
-  "agravemistake-alem-5": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:agravemistake-alem-5", "stream": true}]
-  },
-  "agravemistake-mael-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:agravemistake-mael-1", "stream": true}]
-  },
-  "agravemistake-mael-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:agravemistake-mael-2", "stream": true}]
-  },
-  "agravemistake-mael-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:agravemistake-mael-3", "stream": true}]
-  },
-  "agravemistake-mael-4": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:agravemistake-mael-4", "stream": true}]
-  },
-  "agravemistake-mael-5": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:agravemistake-mael-5", "stream": true}]
-  },
   "agravemistake-skeleton-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:agravemistake-skeleton-1", "stream": true}]
   },
+  "agravemistake-alem-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:agravemistake-alem-5", "stream": true}]
+  },
+  "agravemistake-alem-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:agravemistake-alem-6", "stream": true}]
+  },
+  "agravemistake-alem-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:agravemistake-alem-7", "stream": true}]
+  },
+  "agravemistake-alem-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:agravemistake-alem-8", "stream": true}]
+  },
+  "agravemistake-alem-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:agravemistake-alem-9", "stream": true}]
+  },
+  "agravemistake-alem-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:agravemistake-alem-10", "stream": true}]
+  },
+
 
 
 
