@@ -5,6 +5,12 @@ import net.minecraft.util.math.Vec3d;
 // this class gets replaced!
 public class Sounds {
     public static void register(SoundsHandler s) {
+        register1(s);
+        register2(s);
+    }
+
+    private static void register1(SoundsHandler s) {
+
         //Talking Mushroom
         s.addSound("[1/1] Talking Mushroom: PRICK.", "talkingmushroomprick", true);
         s.addSound("[1/2] Talking Mushroom: IF I HAD A MOVABLE NECK, I'D BE TWISTING IT AROUND TO FACE YOU WITH UTTER CONFUSION.", "talkingmushroomragnioutskirts", true);
@@ -854,11 +860,39 @@ public class Sounds {
         s.addSound("[1/1] Honip: One more...", "misadventureonthesea-honip-71", true);
         s.addSound("[4/4] Honip: Anyway, come talk to me.", "misadventureonthesea-honip-72", true);
 
-        //Master piece
+        //Master Piece
         s.addSound("[1/9] Caissop: ...hm...mh!", "masterpiece-caissop-1", false);
-        s.addSound("[1/7] Caissop: Quick! Describe it to me! Go on!", "masterpiece-caissop-2", false);
-        s.addSound("[1/7] Caissop: You're here! Quick! Don't look at me, describe it!", "masterpiece-caissop-3", false);
-        s.addSound("[1/7] Caissop: You're finally back! I just finished the last one. Go! Describe it!", "masterpiece-caissop-4", false);
+        s.addSound("[2/9] Caissop: Oh sorry, I didn't notice you. Did you want an autograph?", "masterpiece-caissop-2", false);
+        s.addSound("[3/9] Caissop: Wait, no? Don't you know who I am?! It seems like you have no taste in art... I am Caissop, the legendary artist!", "masterpiece-caissop-3", false);
+        s.addSound("[4/9] Caissop: Though, since you are not a fan... Perhaps you can help me? I am looking for a new assistant.", "masterpiece-caissop-4", false);
+        s.addSound("[5/9] Caissop: Excellent... I need your help to find three legendary creatures that are hiding in caves around the swamp.", "masterpiece-caissop-5", false);
+        s.addSound("[6/9] Caissop: I actually know their location, but unfortunately, I am...blind.", "masterpiece-caissop-6", false);
+        s.addSound("[7/9] Caissop: For me to do my work I need to imagine them! That's where you come in. I need you to find them and describe them to me!", "masterpiece-caissop-7", false);
+        s.addSound("[8/9] Caissop: Would you turn your back on a blind man?! I need you to give me an accurate description of them! Once you have found one, come back and describe it to me exactly!", "masterpiece-caissop-8", false);
+        s.addSound("[9/9] Caissop: The first cave is up a hill with tall, thin-leafed flowers. They smell pink to me, and of this I am certain.", "masterpiece-caissop-9", false);
+        s.addSound("[1/7] Caissop: Quick! Describe it to me! Go on!", "masterpiece-caissop-10", false);
+        s.addSound("[2/8] Caissop: Brown...big-nosed... A Villager Cow, you say!?", "masterpiece-caissop-11", false);
+        s.addSound("[3/8] Caissop: ...OH, YES! ......... INSPIRED.", "masterpiece-caissop-12", false);
+        s.addSound("[4/8] Caissop: ...MH, NO, A LITTLE MORE RED!..... YES!", "masterpiece-caissop-13", false);
+        s.addSound("[5/8] Caissop: Haha! This is WONDERFUL! I'm not going to show it to you before it is finished!", "masterpiece-caissop-14", false);
+        s.addSound("[6/8] Caissop: Savor the ideas! So now, I need you to go to the second cave...", "masterpiece-caissop-15", false);
+        s.addSound("[7/8] Caissop: It is down a road, with short, round-cupped flowers. Those ones smell orange to me!", "masterpiece-caissop-16", false);
+        s.addSound("[8/8] Caissop: Hurry! I'll finish this animal while you are gone. OH, YES. MUY MACHO.", "masterpiece-caissop-17", false);
+        s.addSound("[1/7] Caissop: You're here! Quick! Don't look at me, describe it!", "masterpiece-caissop-18", false);
+        s.addSound("[2/7] Caissop: Snowy white, a large horn... A Unicorn Sheep, you say?!", "masterpiece-caissop-19", false);
+        s.addSound("[3/7] Caissop: ...OH YES, THE WOOL IS REAL... MORE SWIPING... OH YES, BIEN!", "masterpiece-caissop-20", false);
+        s.addSound("[4/7] Caissop: ... THIS IS UNIQUE, REMARKABLE, YES. SUPERNATURAL!", "masterpiece-caissop-21", false);
+        s.addSound("[5/7] Caissop: The last creature! Red-smelling flowers, prickly thorns, hurry, mucho inspired!", "masterpiece-caissop-22", false);
+        s.addSound("[6/7] Caissop: ...OH, NO, NO. YES! MORE COLOUR, MORE PAINT! I'M OUT OF RED!", "masterpiece-caissop-23", false);
+        s.addSound("[7/7] Caissop: I'LL JUST USE MY BLOOD! OH! YES! ...INSPIRED! REMARKABLE! Huh? Why are you still here? Go! I need that last description!", "masterpiece-caissop-24", false);
+        s.addSound("[1/7] Caissop: You're finally back! I just finished the last one. Go! Describe it!", "masterpiece-caissop-25", false);
+        s.addSound("[2/7] Caissop: ...Oh, yes... YES. I LOVE IT.", "masterpiece-caissop-26", false);
+        s.addSound("[3/7] Caissop: It's...A Pigasus! WHAT A NAME!", "masterpiece-caissop-27", false);
+        s.addSound("[4/7] Caissop: ...OH YES, WINGS! EYES FROM HEAVEN! OH, YES.", "masterpiece-caissop-28", false);
+        s.addSound("[5/7] Caissop: Och, perfect. The final touch and, done! You were so inspiring that I made two! One for you, and one for me!", "masterpiece-caissop-29", false);
+        s.addSound("[6/7] Caissop: You might want to hold onto that, big-town upper class Villagers pay through the roof for Caissop's work!", "masterpiece-caissop-30", false);
+        s.addSound("[7/7] Caissop: Thank you for your assistance, what a rush! Good luck on your Gavel adventure!", "masterpiece-caissop-31", false);
+
 
         //Maltics Well
         s.addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwell-rynend-1", false);
@@ -1933,9 +1967,28 @@ public class Sounds {
         s.addSound("[1/6] Marden: How did you get up here, human? What are they doing down there if not defending the fort!?", "fallendelivery-marden-1", false);
 
         //The Passage
-        s.addSound("[1/10] Ildan: Oh! So you want to become a member of this town?", "thepassage-ildan-1", false);
-        s.addSound("[1/8] Ildan: Impressive! You got the bead!", "thepassage-ildan-2", false);
         s.addSound("[1/3] Wirt: Not so fast, you!", "thepassage-wirt-1", false);
+        s.addSound("[2/3] Wirt: My dad said I can't let any strangers through this passage!", "thepassage-wirt-2", false);
+        s.addSound("[3/3] Wirt: If you want access, talk to him, he's the recruiter of the town! His name is Ildan.", "thepassage-wirt-3", false);
+        s.addSound("[1/10] Ildan: Oh! So you want to become a member of this town?", "thepassage-ildan-1", false);
+        s.addSound("[2/10] Ildan: You will have to help us first, of course!", "thepassage-ildan-2", false);
+        s.addSound("[3/10] Ildan: I'm sure you've noticed, but there is a tribe camp not too far from here.", "thepassage-ildan-3", false);
+        s.addSound("[4/10] Ildan: They used to have a powerful chief, but he eventually died in battle.", "thepassage-ildan-4", false);
+        s.addSound("[5/10] Ildan: The tribe couldn't bear the fact that he was dead. They performed some unethical necromancy spell on him.", "thepassage-ildan-5", false);
+        s.addSound("[6/10] Ildan: They quickly realized that is was a bad idea, so they locked him in a tomb.", "thepassage-ildan-6", false);
+        s.addSound("[7/10] Ildan: He keeps reviving his minions and it's causing quite some problems to our army.", "thepassage-ildan-7", false);
+        s.addSound("[8/10] Ildan: You can access the tomb from a sacrificial shrine I've heard, but I'm not sure how. There are probably hints nearby the shrine.", "thepassage-ildan-8", false);
+        s.addSound("[9/10] Ildan: Bring me back [1 Antic Bead] as a proof of its death, and I will let you become a citizen.", "thepassage-ildan-9", false);
+        s.addSound("[10/10] Ildan: I've marked the direction to the shrine in your book. Good luck.", "thepassage-ildan-10", false);
+        s.addSound("[1/8] Ildan: Impressive! You got the bead!", "thepassage-ildan-11", false);
+        s.addSound("[2/8] Ildan: Well, welcome to this town, adventurer! You are now officially a citizen.", "thepassage-ildan-12", false);
+        s.addSound("[3/8] Ildan: Oh, but before you go! I do have a few things to say. First, about the beads here.", "thepassage-ildan-13", false);
+        s.addSound("[4/8] Ildan: The tribesmen accept these as currency, so if you collect enough, I've heard they can offer you powerful masks.", "thepassage-ildan-14", false);
+        s.addSound("[5/8] Ildan: Second, about the shrine. Now, this is just a rumor, but apparently that tomb is not unique.", "thepassage-ildan-15", false);
+        s.addSound("[6/8] Ildan: There are supposed to be a bunch of these altars scattered around the province, even in Gavel too!", "thepassage-ildan-16", false);
+        s.addSound("[7/8] Ildan: If true, you should look for them. While the fights will be tough, I would imagine great rewards could be gotten from them!", "thepassage-ildan-17", false);
+        s.addSound("[8/8] Ildan: Anyway, I've talked enough. I'm proud to have such a powerful fighter join our town! I wish you luck, friend!", "thepassage-ildan-18", false);
+
 
         //Lava Springs
         s.addSound("[1/6] Colonel Gailard: Oh, good good! I bet'cha you're a Ragni soldier, aren't ya? Listen up, soldier! I've got a task here that 'ye can help out with.", "lavasprings-colonelgailard-1", false);
@@ -2077,9 +2130,9 @@ public class Sounds {
         s.addSound("§7[1/1] §2§kXXXXXXX§2: §aOh, my arm.. It's ba...", "agravemistake-skeleton-1", false);
         s.addSound("[1/2] ???: You were warned not to enter this forsaken place.", "agravemistake-alem-5", false);
         s.addSound("[2/2] ???: But since you have made it thusfar, I suppose I shall show you the truth...", "agravemistake-alem-6", false);
-        s.addSound("[1/3] Mael: Do you understand now?", "agravemistake-alem-7", false);
-        s.addSound("[2/3] Mael: Then leave, and forget the horrors you have witnessed here today...", "agravemistake-alem-8", false);
-        s.addSound("[3/3] Mael: They are safer here.", "agravemistake-alem-9", false);
+        s.addSound("[1/3] Mael: Do you understand now?", "agravemistake-alem-7", true);
+        s.addSound("[2/3] Mael: Then leave, and forget the horrors you have witnessed here today...", "agravemistake-alem-8", true);
+        s.addSound("[3/3] Mael: They are safer here.", "agravemistake-alem-9", true);
         s.addSound("[1/1] Alem: I have nothing more to say. Take these.", "agravemistake-alem-10", false);
 
 
@@ -2465,15 +2518,26 @@ public class Sounds {
         s.addSound("[1/7] Dereg: You're back! Any luck hunting the thing down?", "theshadowofthebeast-dereg-2", false);
 
         //An iron heart part 1
-        s.addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
-        s.addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartpart1-guardgolem-2", true);
-        s.addSound("[3/3] ???: REMEMBER!! No...no orders! No directives!", "anironheartpart1-guardgolem-3", true);
-        s.addSound("[1/3] Guard Golem: My name!! My life! I won't hurt them! The pain helps me reme...who's there?! LEAVE! PLEASE!", "anironheartpart1-guardgolem-4", true);
-        s.addSound("[2/3] Guard Golem: No directives!! Who did this?! I can't...s-stop giving me ORDERS!!", "anironheartpart1-guardgolem-5", true);
-        s.addSound("3/3guardgolemnomorecoldness!nomorevoicesthatarentmine!mynameiserror!!error!!nooo!!", "anironheartpart1-guardgolem-6", true);
-        s.addSound("1/1guardgolemfallingapartthisisntwhoiiiwasmymymymymymymynameiswasiswasisis!errormaerroinemadeleine!!immadeleineiiiiiiiiiiiii", "anironheartpart1-guardgolem-7", true);
-        s.addSound("[1/6] Duvale: Oh, you there! I wasn't expecting a human soldier to be here, but you've come at a perfect time. I could use some help, see.", "anironheartpart1-duvale-1", false);
-        s.addSound("[1/7] Duvale: Were you able to subdue the golem? You certainly look like you're in one piece.", "anironheartpart1-duvale-2", false);
+        s.addSound("[1/6] Duvale: Oh, you there! I wasn't expecting a human soldier to be here, but you've come at a perfect time. I could use some help, see.", "anironheartparti-duvale-1", false);
+        s.addSound("[2/6] Duvale: I'm certain you know about Guard Golems, yes? They're manufactured here in Gavel, and I bought one recently.", "anironheartparti-duvale-2", false);
+        s.addSound("[3/6] Duvale: The goblins keep trying to forage in my farms, you see- I needed something to keep them out, and a Golem would have been perfect.", "anironheartparti-duvale-3", false);
+        s.addSound("[4/6] Duvale: But, shortly after I activated it, the thing attacked me! I nearly got killed- It was ramming itself against boulders and walls...", "anironheartparti-duvale-4", false);
+        s.addSound("[5/6] Duvale: I obviously was sold a defective model... That golem is a danger to everything around it. Do you think you're up to subduing it?", "anironheartparti-duvale-5", false);
+        s.addSound("[6/6] Duvale: It's shed a trail of scrap, as you can see. Please, follow the trail of scrap and keep it from causing anyone more damage!", "anironheartparti-duvale-6", false);
+        s.addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartparti-guardgolem-1", true);
+        s.addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartparti-guardgolem-2", true);
+        s.addSound("[3/3] ???: REMEMBER!! No...no orders! No directives!", "anironheartparti-guardgolem-3", true);
+        s.addSound("[1/3] Guard Golem: My name!! My life! I won't hurt them! The pain helps me reme...who's there?! LEAVE! PLEASE!", "anironheartparti-guardgolem-4", false);
+        s.addSound("[2/3] Guard Golem: No directives!! Who did this?! I can't...s-stop giving me ORDERS!!", "anironheartparti-guardgolem-5", false);
+        s.addSound("3/3guardgolemnomorecoldness!nomorevoicesthatarentmine!mynameiserror!!error!!nooo!!", "anironheartparti-guardgolem-6", false);
+        s.addSound("1/1guardgolemfallingapartthisisntwhoiiiwasmymymymymymymynameiswasiswasisis!errormaerroinemadeleine!!immadeleineiiiiiiiiiiiii", "anironheartparti-guardgolem-7", false);
+        s.addSound("[1/7] Duvale: Were you able to subdue the golem? You certainly look like you're in one piece.", "anironheartparti-duvale-7", false);
+        s.addSound("[2/7] Duvale: Ach...that stings. I shouldn't be surprised you had to destroy it, but that was still a big wasted investment for me.", "anironheartparti-duvale-8", false);
+        s.addSound("[3/7] Duvale: Still, it makes me wonder...it sounded like it was talking when I first turned it on- Wait, you heard it too?", "anironheartparti-duvale-9", false);
+        s.addSound("[4/7] Duvale: Hm. There are some unsavory rumors about the factory, come to think of it... Maybe there's some stock to them.", "anironheartparti-duvale-10", false);
+        s.addSound("[5/7] Duvale: It said a name? Madeleine? It doesn't exactly ring a bell, but that's...rather concerning. I never mentioned a Madeleine to it.", "anironheartparti-duvale-11", false);
+        s.addSound("[6/7] Duvale: This is worth sending onto the police, really. I think I might have to write to Olux- the factory is near there.", "anironheartparti-duvale-12", false);
+        s.addSound("[7/7] Duvale: Till then, here. Consider this your reward for helping me out, brave Human. Good luck out there.", "anironheartparti-duvale-13", false);
 
         //An Iron heart part 2
         s.addSound("[1/17] Daxe: Oh, so a human wishes to wander into the home of the great Daxe?", "anironheartpart2-daxe-1", false);
@@ -3235,13 +3299,67 @@ public class Sounds {
 
         //Craftmas Chaos
         s.addSound("[1/9] Tom: Finally, you have arrived! I have been waiting for you.", "craftmaschaos-tom-1", false);
+        s.addSound("[2/9] Tom: It's so good to see you again! Wait, we haven't met yet, of course!", "craftmaschaos-tom-2", false);
+        s.addSound("[3/9] Tom: Sorry, where are my manners? My name is Tom, I have been living here in Selchar for 30 years.", "craftmaschaos-tom-3", false);
+        s.addSound("[4/9] Tom: I can't really explain why or how I know, but you are destined to help us, so I implore you to hear my tale. Santa is a real man who delivers presents all over the three provinces. However, he hasn't been seen in Selchar ever since it was founded.", "craftmaschaos-tom-4", false);
+        s.addSound("[5/9] Tom: There's a reason for it too, it's not because the children were naughty or anything like that.", "craftmaschaos-tom-5", false);
+        s.addSound("[6/9] Tom: This is a lot to ask, but will you investigate this crisis? People of Selchar will be very thankful.", "craftmaschaos-tom-6", false);
+        s.addSound("[7/9] Tom: You can start by searching for Santa, I believe he relocated to the top of an isolated icy island village after an incident the other year.", "craftmaschaos-tom-7", false);
+        s.addSound("[8/9] Tom: I am not sure where, but some travelling merchants had mentioned about an island with candycanes east from here.", "craftmaschaos-tom-8", false);
+        s.addSound("[9/9] Tom: Good luck! The people of Selchar will be counting on you, I- I'm sure we will see each other soon. Or rather, you'll be seeing me at any rate.", "craftmaschaos-tom-9", false);
         s.addSound("[1/9] Santa: Ho ho ho! Merry Craftmas! Well not exactly, but its only a couple of days left!", "craftmaschaos-santa-1", false);
+        s.addSound("[2/9] Santa: So what can I help you with, young traveller? You have to wait until Craftmas for your presents, ho ho ho!", "craftmaschaos-santa-2", false);
+        s.addSound("[3/9] Santa: Ho? Selchar? Oh yes indeed, Selchar, that poor little island. I wonder if those people there are alright.", "craftmaschaos-santa-3", false);
+        s.addSound("[4/9] Santa: You see, I was never able to enter that city because of the corrupted magic surrounding the island.", "craftmaschaos-santa-4", false);
+        s.addSound("[5/9] Santa: My reindeer are very sensitive to evil auras, they will not fly anywhere nearby anything that seems... dark, or twisted.", "craftmaschaos-santa-5", false);
+        s.addSound("[6/9] Santa: Hey, I have an idea! Why don't you use my portal to go to the past and investigate for me? I feel terrible for an entire city missing 30 years worth of presents.", "craftmaschaos-santa-6", false);
+        s.addSound("[7/9] Santa: I wish I could accompany you, but its only a couple of days left to Craftmas and I still have a lot of presents to manage, ho ho!", "craftmaschaos-santa-7", false);
+        s.addSound("[8/9] Santa: Don't worry! The portal might be a chimney, but I have been doing this before you were even born! Ho ho ho!", "craftmaschaos-santa-8", false);
+        s.addSound("[9/9] Santa: Ho ho ho! That's the craftmas spirit I want to see! Simply walk into the fire and off you go! Good luck and be careful in the past, changing things can be very dangerous!", "craftmaschaos-santa-9", false);
         s.addSound("[1/8] Tommy: Wendy, where are you? Heheheheh! Oh, hi! You seem new to this place.", "craftmaschaos-tommy-1", false);
-        s.addSound("[1/1] Summoner: So a little rat finally finds out about our secret, huh. Doesn't matter, with this relicstone, I am going to kill you right here and right now!", "craftmaschaos-summoner-1", true);
+        s.addSound("[2/8] Tommy: The name is Tommy and I'm ten! I am always excited to meet new people that come to town! Someday this town will be very lively and fun!", "craftmaschaos-tommy-2", false);
+        s.addSound("[3/8] Tommy: So what are you doing here? Want to join me and play hide and seek with Wendy?", "craftmaschaos-tommy-3", false);
+        s.addSound("[4/8] Tommy: Magical barrier? I don't think anybody here will know what you are looking for. Nobody here really knows magic sadly.", "craftmaschaos-tommy-4", false);
+        s.addSound("[5/8] Tommy: I did see a group of shady guys who arrived here last week.", "craftmaschaos-tommy-5", false);
+        s.addSound("[6/8] Tommy: They always wear these black scary robes and talk about crystals and stuff. I think they might be bad people.", "craftmaschaos-tommy-6", false);
+        s.addSound("[7/8] Tommy: I followed them once before, they seem to hide in the abandoned cave underneath this island my daddy calls \"the heart of Selchar\".", "craftmaschaos-tommy-7", false);
+        s.addSound("[8/8] Tommy: They could be the ones you are looking for. The cave's entrance is just below the stairs nearby. Bye for now, I gotta find Wendy!", "craftmaschaos-tommy-8", false);
+        s.addSound("[1/1] Summoner: So a little rat finally finds out about our secret, huh. Doesn't matter, with this relicstone, I am going to kill you right here and right now!", "craftmaschaos-summoner-1", false);
         s.addSound("[1/4] Summoner: Uaaaggh! How dare you do this to me!", "craftmaschaos-summoner-2", false);
+        s.addSound("[2/4] Summoner: I can't believe my relic stone can be shattered by some random peasant like you!", "craftmaschaos-summoner-3", false);
+        s.addSound("[3/4] Summoner: Ugh! Stop it! Alright, you win. We only had the one crystal anyway.", "craftmaschaos-summoner-4", false);
+        s.addSound("[4/4] Summoner: What? You want to escape this cave? Use the exit portal behind me then, heh heh.", "craftmaschaos-summoner-5", false);
         s.addSound("[1/13] Old Tom: Oh no, please! Don't kill me! Wait a minute, it's you! I can't believe it, it's you!", "craftmaschaos-oldtom-1", false);
-        s.addSound("[1/8] Old Tom: Did you do it? Santa is dead? Oh no, I can't believe it. He is gone, just like that. After nearly 20 or so years of torment...", "craftmaschaos-oldtom-2", false);
-        s.addSound("[1/9] Santa: Ho ho ho! Well If it isn't my friend who just took a journey through time!", "craftmaschaos-santa-2", false);
+        s.addSound("[2/13] Old Tom: Don't you remember me? It's me, Tom! We met when I was 10! That was 60 years ago! Why, you haven't aged a day!", "craftmaschaos-oldtom-2", false);
+        s.addSound("[3/13] Old Tom: You might have already noticed, but Selchar is basically nothing but ashes now. You might not believe me, but the culprit is my old idol, Santa.", "craftmaschaos-oldtom-3", false);
+        s.addSound("[4/13] Old Tom: He just appeared with red eyes and turned the whole island into what you see now.", "craftmaschaos-oldtom-4", false);
+        s.addSound("[5/13] Old Tom: He destroyed building after building, and his elves started to appear from the sky and killed every citizen in sight.", "craftmaschaos-oldtom-5", false);
+        s.addSound("[6/13] Old Tom: Their bodies were full of crimson crystals and their eyes were empty, as if they were possessed by something.", "craftmaschaos-oldtom-6", false);
+        s.addSound("[7/13] Old Tom: I refuse to leave because Selchar is my home. It always has been!", "craftmaschaos-oldtom-7", false);
+        s.addSound("[8/13] Old Tom: Despite what Santa has done, I know he is not like this. The Santa that I knew was kind and always tried bring a smile to everybody's face.", "craftmaschaos-oldtom-8", false);
+        s.addSound("[9/13] Old Tom: That crystal, the one we talked about 60 years ago, I think it did this. But I don't know how Santa got a hold of it. I saw you remove it all those years ago!", "craftmaschaos-oldtom-9", false);
+        s.addSound("[10/13] Old Tom: Santa would never want any of this to happen. This is why, I want you to do something for me, and for him.", "craftmaschaos-oldtom-10", false);
+        s.addSound("[11/13] Old Tom: Please, end Santa's misery from the corruption that cursed him. He must be suffering inside his twisted body right now.", "craftmaschaos-oldtom-11", false);
+        s.addSound("[12/13] Old Tom: Santa made a hideout in the heart of Selchar. I'm sure you can find it by looking for the one with the most crystals.", "craftmaschaos-oldtom-12", false);
+        s.addSound("[13/13] Old Tom: Good luck, hero! I know its hard to do this, but please stop Santa and bring me back a Ragged Santa Cloth as proof!", "craftmaschaos-oldtom-13", false);
+        s.addSound("[1/8] Old Tom: Did you do it? Santa is dead? Oh no, I can't believe it. He is gone, just like that. After nearly 20 or so years of torment...", "craftmaschaos-oldtom-14", false);
+        s.addSound("[2/8] Old Tom: Sorry, it's just very sad for me to hear the news, despite my being the one who asked for it.", "craftmaschaos-oldtom-15", false);
+        s.addSound("[3/8] Old Tom: Thank you very much, my hero. I will spread the news that Selchar is safe from corruption for now. Maybe once the grass starts to return...", "craftmaschaos-oldtom-16", false);
+        s.addSound("[4/8] Old Tom: You really remind me of the hero in the tales, who journeys through time and the entire province to bring peace.", "craftmaschaos-oldtom-17", false);
+        s.addSound("[5/8] Old Tom: Oh, yes! I am not sure why, but I heard some magical sound from the hourglass tower. It probably happened when you defeated Santa.", "craftmaschaos-oldtom-18", false);
+        s.addSound("[6/8] Old Tom: I reckon it's your way home. Go on now, you wouldn't want to be stuck in this miserable city, would you?", "craftmaschaos-oldtom-19", false);
+        s.addSound("[7/8] Old Tom: I hope you will live a very wonderful life, you deserve it. I hope we can meet again someday.", "craftmaschaos-oldtom-20", false);
+        s.addSound("[8/8] Old Tom: Oh, and keep this crystal shard from the rag you gave me. I definitely don't want it.", "craftmaschaos-oldtom-21", false);
+        s.addSound("[1/9] Santa: Ho ho ho! Well If it isn't my friend who just took a journey through time!", "craftmaschaos-santa-10", false);
+        s.addSound("[2/9] Santa: But of course, I already know you were successful, Selchar has had presents for the last 30 years thanks to you!", "craftmaschaos-santa-11", false);
+        s.addSound("[3/9] Santa: Although, I would have expected you sooner! I saw something strange and dark in the fire when I expected you to return.  *Probably refers to how Santa got corrupted*", "craftmaschaos-santa-12", false);
+        s.addSound("[4/9] Santa: Of course, no one in Selchar will know you saved Craftmas, because for them, no one has missed one! Of course I remember what you did, power of Christmas and all, ho.", "craftmaschaos-santa-13", false);
+        s.addSound("[5/9] Santa: So, what took you? Oh, 60 years you say? I wonder how that happened. Well, not even I can claim to know the future. My guess is having that dark crystal with you while travelling in time caused you to over shoot.  *\"So, what took you?\" is probably Santa saying \"So, what took you so long?\" if it was confusing to you*", "craftmaschaos-santa-14", false);
+        s.addSound("[6/9] Santa: Don't tell anyone what you saw though, knowing the future can be dangerous. Ho ho! If this journey has taught us anything, it's that time is a confusing thing, and nothing is set in stone. I don't like to mess around with it too much.", "craftmaschaos-santa-15", false);
+        s.addSound("[7/9] Santa: Anyway, I wouldn't want you to keep the crystal with you forever if its truly as powerful as it seems, give it to me, and I'll store it safely.  *Probably is how Santa got corrupted*", "craftmaschaos-santa-16", false);
+        s.addSound("[8/9] Santa: That is some seriously dark magic we've encountered on this journey, and I'm sure it won't be the last encounter in your adventure.", "craftmaschaos-santa-17", false);
+        s.addSound("[9/9] Santa: Here, take this early Craftmas present from me. Good luck with your journey!", "craftmaschaos-santa-18", false);
+
 
         //Meaningful Holiday
         s.addSound("[1/4] Haily: Hello, dear. My name is Haily. Nice to meet you.", "meaningfulholiday-haily-1", false);
@@ -4278,21 +4396,48 @@ public class Sounds {
 
         //Crop Failure
         s.addSound("[1/7] Anast: Grr...that no-good, lying, cheating, thieving...graaah!", "cropfailure-anast-1", false);
-        s.addSound("[1/9] Anast: See? What'd I tell ya? Rotten to the roots! Nothing here is ANY good!! ", "cropfailure-anast-2", false);
-        s.addSound("[2/9] Anast: They were growing pretty slow this year, all my crops, and then some salesman wanders into town with a \"MiracleCure\" fertilizer.", "cropfailure-anast-3", false);
-        s.addSound("[3/9] Anast: I shoulda known it was too good to be true, but he said everyone else tried it too, so I bought some and tried to salvage this mess.", "cropfailure-anast-4", false);
-        s.addSound("[4/9] Anast: And here we are- me out half my savings and my fields as smelly and dead as an actual CORPSE!", "cropfailure-anast-5", false);
-        s.addSound("[5/9] Anast: Just to prove that ridiculous phony Doubiss is a fraud- Here. I see some roots over here. Watch this, and you tell me if this is a \"miracle!\"", "cropfailure-anast-6", false);
-        s.addSound("[6/9] Anast: Here we go, here comes the big phenomenal growth that he promised me!", "cropfailure-anast-7", false);
-        s.addSound("[7/9] Anast: WOW, INCREDIBLE! AMAZING! It's almost like this is actual poison or something!!", "cropfailure-anast-8", false);
-        s.addSound("[8/9] Anast: That Doubiss won't budge for my refund. I spent...so many emeralds...on this tripe! So that's where YOU come in.", "cropfailure-anast-9", false);
-        s.addSound("[9/9] Anast: He's in the blue and gray tent by the bank. I don't care how you do it, but get my money back and we'll split it half-and-half, deal?", "cropfailure-anast-10", false);
-        s.addSound("[1/10] Doubiss: Good day to ya! What is it ye be needin' from ol' Doubiss' stock? ", "cropfailure-doubiss-1", false);
-        s.addSound("[1/5] Doubiss: Oi, bucko! Took my advice, eh? I figured I'd join ye, 'n see fer myself what was goin' on.", "cropfailure-doubiss-2", false);
-        s.addSound("[1/8] Anast: Pyyyyeww! Yeesh, kid! You smell worse than a pig's sty! What the heck happened to you, where've you been?!", "cropfailure-anast-11", false);
-        s.addSound("[1/1] Doubiss: Ah, good day to ya! What is it ye be needin' from ol' Doubiss' stock?", "cropfailure-doubiss-3", false);
-        s.addSound("[1/2] Doubiss: The little cave on the hill, by the crypts? That's the one leadin' to the water table under here.", "cropfailure-doubiss-4", false);
-        s.addSound("[1/1] Doubiss: Well, glad I can start sellin' again without him shoutin' \"Fraud! Con! Cheat!\" in the distance! Thanks fer that, mate.", "cropfailure-doubiss-5", false);
+        s.addSound("[2/7] Anast: You! Help me out over here! You aren't doing anything important right now, and this is urgent!", "cropfailure-anast-2", false);
+        s.addSound("[3/7] Anast: I got a few questions for you, see? Question one: D'you think crops are supposed to look like THIS?", "cropfailure-anast-3", false);
+        s.addSound("[4/7] Anast: Look at them. I don't think there's a way for 'em to look any more sorry than this.", "cropfailure-anast-4", false);
+        s.addSound("[5/7] Anast: Wha- You think those oats over there look fine?! Pff. Yeah, right.", "cropfailure-anast-5", false);
+        s.addSound("[6/7] Anast: If that's the case, go grab a scythe and try harvesting those oats yourself!!", "cropfailure-anast-6", false);
+        s.addSound("[7/7] Anast: Go on, do it! I dare you! See how good they really are!!", "cropfailure-anast-7", false);
+        s.addSound("[1/9] Anast: See? What'd I tell ya? Rotten to the roots! Nothing here is ANY good!!", "cropfailure-anast-8", false);
+        s.addSound("[2/9] Anast: They were growing pretty slow this year, all my crops, and then some salesman wanders into town with a \"MiracleCure\" fertilizer.", "cropfailure-anast-9", false);
+        s.addSound("[3/9] Anast: I shoulda known it was too good to be true, but he said everyone else tried it too, so I bought some and tried to salvage this mess.", "cropfailure-anast-10", false);
+        s.addSound("[4/9] Anast: And here we are- me out half my savings and my fields as smelly and dead as an actual CORPSE!", "cropfailure-anast-11", false);
+        s.addSound("[5/9] Anast: Just to prove that ridiculous phony Doubiss is a fraud- Here. I see some roots over here. Watch this, and you tell me if this is a \"miracle!\"", "cropfailure-anast-12", false);
+        s.addSound("[6/9] Anast: Here we go, here comes the big phenomenal growth that he promised me!", "cropfailure-anast-13", false);
+        s.addSound("[7/9] Anast: WOW, INCREDIBLE! AMAZING! It's almost like this is actual poison or something!!", "cropfailure-anast-14", false);
+        s.addSound("[8/9] Anast: That Doubiss won't budge for my refund. I spent...so many emeralds...on this tripe! So that's where YOU come in.", "cropfailure-anast-15", false);
+        s.addSound("[9/9] Anast: He's in the blue and gray tent by the bank. I don't care how you do it, but get my money back and we'll split it half-and-half, deal?", "cropfailure-anast-16", false);
+        s.addSound("[1/1] Doubiss: Ah, good day to ya! What is it ye be needin' from ol' Doubiss' stock?", "cropfailure-doubiss-1", false);
+        s.addSound("[1/10] Doubiss: Good day to ya! What is it ye be needin' from ol' Doubiss' stock?", "cropfailure-doubiss-2", false);
+        s.addSound("[2/10] Doubiss: Oh. Oh, goodie. That idiot farmer's sendin' ya to get his money back, ain't he? Sweet baby bonvine, this is ridiculous...", "cropfailure-doubiss-3", false);
+        s.addSound("[3/10] Doubiss: Since he obviously ain't gunna be listenin' to me anytime soon, lemme tell ya what the issue is with my fertilizer...", "cropfailure-doubiss-4", false);
+        s.addSound("[4/10] Doubiss: Nothing! My fertilizer really does work! He probl'ly exaggerated how good I said it'd work, too! What'd he say, twice, three times the growth? More?", "cropfailure-doubiss-5", false);
+        s.addSound("[5/10] Doubiss: All the other farmers are usin' it right now and look at their fields! Heck, the only reason these crops ain't dead is because of my product!", "cropfailure-doubiss-6", false);
+        s.addSound("[6/10] Doubiss: Y'know why? Next time ya' pass a farm, take a good wiff o' the water, maybe a sip or two if you can manage. It'll be smelly and bitter.", "cropfailure-doubiss-7", false);
+        s.addSound("[7/10] Doubiss: The crops, when I got here, were lookin' as pathetic as ya get. I ain't a gamblin' man, but I'd be willing ta bet something's up with the water here.", "cropfailure-doubiss-8", false);
+        s.addSound("[8/10] Doubiss: The smell gets worse the closer ya get to the crypts in town, and while I ain't a native Oluxer, I've heard enough to know the well spring is in the cave near there.", "cropfailure-doubiss-9", false);
+        s.addSound("[9/10] Doubiss: It'll prob'ly be best fer everyone if ya took a looksee. Maybe if ya find some evidence, ya can show that to the crazy farmer, have 'im quit persterin' me, eh? (it says \"have him quit pestering me\" if you are confused)", "cropfailure-doubiss-10", false);
+        s.addSound("[10/10] Doubiss: The cave is on a little hill, next to the crypt. Careful ya don't go trippin' over a gravestone, now!", "cropfailure-doubiss-11", false);
+        s.addSound("[1/5] Doubiss: Oi, bucko! Took my advice, eh? I figured I'd join ye, 'n see fer myself what was goin' on.", "cropfailure-doubiss-12", false);
+        s.addSound("[2/5] Doubiss: And boy am I glad I bring me water in bottles. This stuff's rancid, full a' swamp slimes. No idea why they're here, though.", "cropfailure-doubiss-13", false);
+        s.addSound("[3/5] Doubiss: The buggers stick to the mountain caves. They don't come down this far usually...s'pose there's an exception fer everything.", "cropfailure-doubiss-14", false);
+        s.addSound("[4/5] Doubiss: 's no wonder that Anast's crops ain't growin'. This is right under his farm! But we got some clear proof now, ain't we?", "cropfailure-doubiss-15", false);
+        s.addSound("[5/5] Doubiss: Howzabout ya take care o' this? I ain't a fighter, but if ya mulch these slimes the water oughta clear up, I figure.", "cropfailure-doubiss-16", false);
+        s.addSound("[1/2] Doubiss: The little cave on the hill, by the crypts? That's the one leadin' to the water table under here.", "cropfailure-doubiss-17", false);
+        s.addSound("[2/2] Doubiss: Check in there if ya feel up to some investigation, bucko. That farmer'll prob'ly want ta see it ta believe it when ya find somethin'.", "cropfailure-doubiss-18", false);
+        s.addSound("[1/1] Doubiss: Well, glad I can start sellin' again without him shoutin' \"Fraud! Con! Cheat!\" in the distance! Thanks fer that, mate.", "cropfailure-doubiss-19", false);
+        s.addSound("[1/8] Anast: Pyyyyeww! Yeesh, kid! You smell worse than a pig's sty! What the heck happened to you, where've you been?!", "cropfailure-anast-17", false);
+        s.addSound("[2/8] Anast: Ugh, eww! I don't want any of this sludge! I demand an explanation, now!!", "cropfailure-anast-18", false);
+        s.addSound("[3/8] Anast: ...mhm, mhm...you went into the well cave...and found...what, slimes?! Why would the SLIMES be there?", "cropfailure-anast-19", false);
+        s.addSound("[4/8] Anast: I wouldn't believe you if you weren't...well, uh...covered in the stuff. But that's definitely rancid.", "cropfailure-anast-20", false);
+        s.addSound("[5/8] Anast: So...that means that I've been...oh dear lord I'm an idiot.", "cropfailure-anast-21", false);
+        s.addSound("[6/8] Anast: I guess I owe you some thanks anyway for trying to clear the sludge out. Suppose this year's harvest is just a bust.", "cropfailure-anast-22", false);
+        s.addSound("[7/8] Anast: Can't sell what little I have, so I figure you can take it, and a bit of cash too, since you basically did an exterminator's job.", "cropfailure-anast-23", false);
+        s.addSound("[8/8] Anast: Just...do me a favor and use that money to buy some good soap and wash up. I'm thankful and all, but you stink to high heaven!", "cropfailure-anast-24", false);
 
         //Stable Story
         s.addSound("[1/9] Enkser: Looking for able-bodied adventurers! Preferably with no friends or family, but I'm not picky!", "stablestory-enkser-1", false);
@@ -4830,6 +4975,9 @@ public class Sounds {
         s.addSound("[4/5] Kaetan: But seriously, thank you, soldier. I thought I was going to get killed in there! This isn't much, but hopefully it can help you get back on your feet after all of that.", "forbiddenprison-prisoner-25", true);
         s.addSound("[5/5] Kaetan: Anyways, I have to go now. But if I can ever help you with anything at all, just let me know! I'm forever in your debt, human.", "forbiddenprison-prisoner-26", true);
 
+    }
+
+    private static void register2(SoundsHandler s) {
         //Haven Antiquity
         s.addSound("[1/6] Cinfras: Hey there adventurer, can I speak with you for a second? I need you to do a spot of detective work for me.", "havenantiquity-cinfras-1", false);
         s.addSound("[1/7] Old Siwel: What do you want? I'm busy. Brewing potions takes focus, you know....", "havenantiquity-oldsiwel-1", false);

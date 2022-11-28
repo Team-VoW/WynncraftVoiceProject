@@ -16840,42 +16840,87 @@
   },
 
 
-  "anironheartpart1-duvale-1": {
+  "anironheartparti-duvale-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:anironheartpart1-duvale-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-1", "stream": true}]
   },
-  "anironheartpart1-duvale-2": {
+  "anironheartparti-duvale-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:anironheartpart1-duvale-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-2", "stream": true}]
   },
-  "anironheartpart1-guardgolem-1": {
+  "anironheartparti-duvale-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-3", "stream": true}]
   },
-  "anironheartpart1-guardgolem-2": {
+  "anironheartparti-duvale-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-4", "stream": true}]
   },
-  "anironheartpart1-guardgolem-3": {
+  "anironheartparti-duvale-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-5", "stream": true}]
   },
-  "anironheartpart1-guardgolem-4": {
+  "anironheartparti-duvale-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-6", "stream": true}]
   },
-  "anironheartpart1-guardgolem-5": {
+  "anironheartparti-guardgolem-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:anironheartparti-guardgolem-1", "stream": true}]
   },
-  "anironheartpart1-guardgolem-6": {
+  "anironheartparti-guardgolem-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:anironheartparti-guardgolem-2", "stream": true}]
   },
-  "anironheartpart1-guardgolem-7": {
+  "anironheartparti-guardgolem-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:anironheartpart1-guardgolem-7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:anironheartparti-guardgolem-3", "stream": true}]
   },
+  "anironheartparti-guardgolem-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-guardgolem-4", "stream": true}]
+  },
+  "anironheartparti-guardgolem-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-guardgolem-5", "stream": true}]
+  },
+  "anironheartparti-guardgolem-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-guardgolem-6", "stream": true}]
+  },
+  "anironheartparti-guardgolem-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-guardgolem-7", "stream": true}]
+  },
+  "anironheartparti-duvale-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-7", "stream": true}]
+  },
+  "anironheartparti-duvale-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-8", "stream": true}]
+  },
+  "anironheartparti-duvale-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-9", "stream": true}]
+  },
+  "anironheartparti-duvale-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-10", "stream": true}]
+  },
+  "anironheartparti-duvale-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-11", "stream": true}]
+  },
+  "anironheartparti-duvale-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-12", "stream": true}]
+  },
+  "anironheartparti-duvale-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:anironheartparti-duvale-13", "stream": true}]
+  },
+
 
 
   "anironheartpart2-daxe-1": {

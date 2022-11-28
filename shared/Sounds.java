@@ -5,6 +5,12 @@ import net.minecraft.util.math.Vec3d;
 // this class gets replaced!
 public class Sounds {
     public static void register(SoundsHandler s) {
+        register1(s);
+        register2(s);
+    }
+
+    private static void register1(SoundsHandler s) {
+
         //Talking Mushroom
         s.addSound("[1/1] Talking Mushroom: PRICK.", "talkingmushroomprick", true);
         s.addSound("[1/2] Talking Mushroom: IF I HAD A MOVABLE NECK, I'D BE TWISTING IT AROUND TO FACE YOU WITH UTTER CONFUSION.", "talkingmushroomragnioutskirts", true);
@@ -2512,15 +2518,26 @@ public class Sounds {
         s.addSound("[1/7] Dereg: You're back! Any luck hunting the thing down?", "theshadowofthebeast-dereg-2", false);
 
         //An iron heart part 1
-        s.addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartpart1-guardgolem-1", true);
-        s.addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartpart1-guardgolem-2", true);
-        s.addSound("[3/3] ???: REMEMBER!! No...no orders! No directives!", "anironheartpart1-guardgolem-3", true);
-        s.addSound("[1/3] Guard Golem: My name!! My life! I won't hurt them! The pain helps me reme...who's there?! LEAVE! PLEASE!", "anironheartpart1-guardgolem-4", true);
-        s.addSound("[2/3] Guard Golem: No directives!! Who did this?! I can't...s-stop giving me ORDERS!!", "anironheartpart1-guardgolem-5", true);
-        s.addSound("3/3guardgolemnomorecoldness!nomorevoicesthatarentmine!mynameiserror!!error!!nooo!!", "anironheartpart1-guardgolem-6", true);
-        s.addSound("1/1guardgolemfallingapartthisisntwhoiiiwasmymymymymymymynameiswasiswasisis!errormaerroinemadeleine!!immadeleineiiiiiiiiiiiii", "anironheartpart1-guardgolem-7", true);
-        s.addSound("[1/6] Duvale: Oh, you there! I wasn't expecting a human soldier to be here, but you've come at a perfect time. I could use some help, see.", "anironheartpart1-duvale-1", false);
-        s.addSound("[1/7] Duvale: Were you able to subdue the golem? You certainly look like you're in one piece.", "anironheartpart1-duvale-2", false);
+        s.addSound("[1/6] Duvale: Oh, you there! I wasn't expecting a human soldier to be here, but you've come at a perfect time. I could use some help, see.", "anironheartparti-duvale-1", false);
+        s.addSound("[2/6] Duvale: I'm certain you know about Guard Golems, yes? They're manufactured here in Gavel, and I bought one recently.", "anironheartparti-duvale-2", false);
+        s.addSound("[3/6] Duvale: The goblins keep trying to forage in my farms, you see- I needed something to keep them out, and a Golem would have been perfect.", "anironheartparti-duvale-3", false);
+        s.addSound("[4/6] Duvale: But, shortly after I activated it, the thing attacked me! I nearly got killed- It was ramming itself against boulders and walls...", "anironheartparti-duvale-4", false);
+        s.addSound("[5/6] Duvale: I obviously was sold a defective model... That golem is a danger to everything around it. Do you think you're up to subduing it?", "anironheartparti-duvale-5", false);
+        s.addSound("[6/6] Duvale: It's shed a trail of scrap, as you can see. Please, follow the trail of scrap and keep it from causing anyone more damage!", "anironheartparti-duvale-6", false);
+        s.addSound("[1/3] ???: ...I am... What^s my...name...? I had one...", "anironheartparti-guardgolem-1", true);
+        s.addSound("[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?", "anironheartparti-guardgolem-2", true);
+        s.addSound("[3/3] ???: REMEMBER!! No...no orders! No directives!", "anironheartparti-guardgolem-3", true);
+        s.addSound("[1/3] Guard Golem: My name!! My life! I won't hurt them! The pain helps me reme...who's there?! LEAVE! PLEASE!", "anironheartparti-guardgolem-4", false);
+        s.addSound("[2/3] Guard Golem: No directives!! Who did this?! I can't...s-stop giving me ORDERS!!", "anironheartparti-guardgolem-5", false);
+        s.addSound("3/3guardgolemnomorecoldness!nomorevoicesthatarentmine!mynameiserror!!error!!nooo!!", "anironheartparti-guardgolem-6", false);
+        s.addSound("1/1guardgolemfallingapartthisisntwhoiiiwasmymymymymymymynameiswasiswasisis!errormaerroinemadeleine!!immadeleineiiiiiiiiiiiii", "anironheartparti-guardgolem-7", false);
+        s.addSound("[1/7] Duvale: Were you able to subdue the golem? You certainly look like you're in one piece.", "anironheartparti-duvale-7", false);
+        s.addSound("[2/7] Duvale: Ach...that stings. I shouldn't be surprised you had to destroy it, but that was still a big wasted investment for me.", "anironheartparti-duvale-8", false);
+        s.addSound("[3/7] Duvale: Still, it makes me wonder...it sounded like it was talking when I first turned it on- Wait, you heard it too?", "anironheartparti-duvale-9", false);
+        s.addSound("[4/7] Duvale: Hm. There are some unsavory rumors about the factory, come to think of it... Maybe there's some stock to them.", "anironheartparti-duvale-10", false);
+        s.addSound("[5/7] Duvale: It said a name? Madeleine? It doesn't exactly ring a bell, but that's...rather concerning. I never mentioned a Madeleine to it.", "anironheartparti-duvale-11", false);
+        s.addSound("[6/7] Duvale: This is worth sending onto the police, really. I think I might have to write to Olux- the factory is near there.", "anironheartparti-duvale-12", false);
+        s.addSound("[7/7] Duvale: Til then, here. Consider this your reward for helping me out, brave Human. Good luck out there.", "anironheartparti-duvale-13", false);
 
         //An Iron heart part 2
         s.addSound("[1/17] Daxe: Oh, so a human wishes to wander into the home of the great Daxe?", "anironheartpart2-daxe-1", false);
@@ -4432,7 +4449,7 @@ public class Sounds {
         s.addSound("[7/9] Enkser: And return that key to me, I'll so charitably bestow upon you one of my horses. This deal is sweeter than you realize, too...", "stablestory-enkser-7", false);
         s.addSound("[8/9] Enkser: Betty'll be there to help! Strong as she is, don't you DARE let them touch her!", "stablestory-enkser-8", false);
         s.addSound("[9/9] Enkser: Now, best be on your way. Ternaves is a fair bit down the Black Road from here, off to the east.", "stablestory-enkser-9", false);
-        s.addSound("[1/1] Etus The Blind: MOO! ALBERT! SOMEONE IS HERE... I CAN SMELL IT.", "stablestory-etustheblind-1", false);
+        s.addSound("[1/1] Etus The Blind: MOO! ALBERT! SOMEONE IS HERE... I CAN SMELL IT. MOO.", "stablestory-etustheblind-1", false);
         s.addSound("[1/5] Enkser: Looking for able-bodied adventurers, preferably with no friends or-", "stablestory-enkser-10", false);
         s.addSound("[2/5] Enkser: Hey, it's you! Got my barn key?", "stablestory-enkser-11", false);
         s.addSound("[3/5] Enkser: Ah, god bless. And I presume Betty did all the work while you just- lounged around.", "stablestory-enkser-12", false);
@@ -4958,6 +4975,9 @@ public class Sounds {
         s.addSound("[4/5] Kaetan: But seriously, thank you, soldier. I thought I was going to get killed in there! This isn't much, but hopefully it can help you get back on your feet after all of that.", "forbiddenprison-prisoner-25", true);
         s.addSound("[5/5] Kaetan: Anyways, I have to go now. But if I can ever help you with anything at all, just let me know! I'm forever in your debt, human.", "forbiddenprison-prisoner-26", true);
 
+    }
+
+    private static void register2(SoundsHandler s) {
         //Haven Antiquity
         s.addSound("[1/6] Cinfras: Hey there adventurer, can I speak with you for a second? I need you to do a spot of detective work for me.", "havenantiquity-cinfras-1", false);
         s.addSound("[1/7] Old Siwel: What do you want? I'm busy. Brewing potions takes focus, you know....", "havenantiquity-oldsiwel-1", false);

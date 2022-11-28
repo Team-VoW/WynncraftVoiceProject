@@ -43,9 +43,10 @@ public class SoundPlayer {
     private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData, ClientPlayerEntity player, ClientWorld world) {
         String line = lineData.getSoundLine();
 
+        System.out.println("Trying to play " + lineData.getRealLine());
+        System.out.println("Checked line: " + line);
         if (soundsHandler.get(line).isEmpty()) {
-             System.out.println("Does not contain line: " + lineData.getRealLine());
-             System.out.println("Checked line: " + line);
+
             lineReporter.MissingLine(lineData);
             return false;
         }
