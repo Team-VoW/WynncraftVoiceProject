@@ -1883,30 +1883,139 @@
   },
 
 
-  "wynnexcavationc-amadel-1": {
+  "wynnexcavationsitec-excavatorplacardus-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcavationc-amadel-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-1", "stream": true}]
   },
-  "wynnexcavationc-dranfor-1": {
+  "wynnexcavationsitec-excavatorplacardus-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcavationc-dranfor-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-2", "stream": true}]
   },
-  "wynnexcavationc-dranfor-2": {
+  "wynnexcavationsitec-excavatorplacardus-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcavationc-dranfor-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-3", "stream": true}]
   },
-  "wynnexcavationc-guard-1": {
+  "wynnexcavationsitec-excavatorplacardus-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcavationc-guard-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-4", "stream": true}]
   },
-  "wynnexcavationc-placardus-1": {
+  "wynnexcavationsitec-excavatorplacardus-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcavationc-placardus-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-5", "stream": true}]
   },
-  "wynnexcavationc-placardus-2": {
+  "wynnexcavationsitec-excavatorplacardus-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:wynnexcavationc-placardus-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-6", "stream": true}]
   },
+  "wynnexcavationsitec-excavatorplacardus-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-7", "stream": true}]
+  },
+  "wynnexcavationsitec-excavatorplacardus-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-8", "stream": true}]
+  },
+  "wynnexcavationsitec-guardklerodor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-guardklerodor-1", "stream": true}]
+  },
+  "wynnexcavationsitec-guardklerodor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-guardklerodor-2", "stream": true}]
+  },
+  "wynnexcavationsitec-guardklerodor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-guardklerodor-3", "stream": true}]
+  },
+  "wynnexcavationsitec-chiefexcavatordranfor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-chiefexcavatordranfor-1", "stream": true}]
+  },
+  "wynnexcavationsitec-chiefexcavatordranfor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-chiefexcavatordranfor-2", "stream": true}]
+  },
+  "wynnexcavationsitec-chiefexcavatordranfor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-chiefexcavatordranfor-3", "stream": true}]
+  },
+  "wynnexcavationsitec-chiefexcavatordranfor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-chiefexcavatordranfor-4", "stream": true}]
+  },
+  "wynnexcavationsitec-chiefexcavatordranfor-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-chiefexcavatordranfor-5", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-1", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-2", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-3", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-4", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-5", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-6", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-7", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-8", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-9", "stream": true}]
+  },
+  "wynnexcavationsitec-traitoramadel-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-traitoramadel-10", "stream": true}]
+  },
+  "wynnexcavationsitec-excavatorplacardus-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-9", "stream": true}]
+  },
+  "wynnexcavationsitec-excavatorplacardus-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-10", "stream": true}]
+  },
+  "wynnexcavationsitec-excavatorplacardus-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-11", "stream": true}]
+  },
+  "wynnexcavationsitec-excavatorplacardus-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-12", "stream": true}]
+  },
+  "wynnexcavationsitec-excavatorplacardus-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-13", "stream": true}]
+  },
+  "wynnexcavationsitec-excavatorplacardus-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-14", "stream": true}]
+  },
+  "wynnexcavationsitec-excavatorplacardus-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnexcavationsitec-excavatorplacardus-15", "stream": true}]
+  },
+
 
 
   "greengloop-eluzterp-1": {

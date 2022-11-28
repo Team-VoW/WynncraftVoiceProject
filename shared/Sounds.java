@@ -1074,7 +1074,7 @@ public class Sounds {
 
 
 
-//wynnexcavationb
+        //Wynn Excavation site B
         s.addSound("[1/6] Excavator Lykron: Good day! You're the person that helped us out in the desert aren't you? Excellent! Just the person I need! Can you help me out with a problem I have?", "wynnexcavationb-excavatorlykron-1", false);
         s.addSound("[2/6] Excavator Lykron: Perfect! You see we are supposed to be searching for some of the... uhhh... long lost ruins of ancient Wynn, just like in the desert!", "wynnexcavationb-excavatorlykron-2", false);
         s.addSound("[3/6] Excavator Lykron: However, it seems no progress has been made recently; my workers have stopped working!", "wynnexcavationb-excavatorlykron-3", false);
@@ -1106,12 +1106,40 @@ public class Sounds {
 
 
         //Wynn Excavation site C
-        s.addSound("[1/8] Excavator Placardus: All operations functional… Transportation on schedule… Oh. It's you. We've been looking for you.", "wynnexcavationc-placardus-1", false);
-        s.addSound("[1/7] Excavator Placardus: You couldn't just take my polite word and leave it at that, could you?", "wynnexcavationc-placardus-2", false);
-        s.addSound("[1/3] Guard Klerodor: I'm sorry. This is a private meeting.", "wynnexcavationc-guard-1", false);
-        s.addSound("[1/4] Chief Excavator Dranfor: Hello and welcome, senior members of Wynn Excavation Site C. May the dark's gaze forever watch over us. I want to update you on our progress thus far. The fire relic crystal has been largely intact in the heart of the volcano for many years.", "wynnexcavationc-dranfor-1", true);
-        s.addSound("[1/1] Chief Excavator Dranfor: The alarm has been set off! There is an unauthorized guest! Guards, seize them!", "wynnexcavationc-dranfor-2", true);
-        s.addSound("[1/10] ???: You. You are the one they are worried about.", "wynnexcavationc-amadel-1", false);
+        s.addSound("[1/8] Excavator Placardus: All operations functional… Transportation on schedule… Oh. It's you. We've been looking for you.", "wynnexcavationsitec-excavatorplacardus-1", false);
+        s.addSound("[2/8] Excavator Placardus: Locating you was far harder than we thought, but here you are, having come right to us.", "wynnexcavationsitec-excavatorplacardus-2", false);
+        s.addSound("[3/8] Excavator Placardus: Now you're here, I'm not sure what to say. But I feel I must explain, we at WynnExcavation apologise for all our previous encounters.", "wynnexcavationsitec-excavatorplacardus-3", false);
+        s.addSound("[4/8] Excavator Placardus: We completely got off on the wrong foot. We are a company from Gavel which specialises in historic artifacts of great mystical importance.", "wynnexcavationsitec-excavatorplacardus-4", false);
+        s.addSound("[5/8] Excavator Placardus: After our encounter in Almuj, we naturally thought you were a black market salesperson trying to steal pieces of the artifact for monetary gain.", "wynnexcavationsitec-excavatorplacardus-5", false);
+        s.addSound("[6/8] Excavator Placardus: So we instructed all of our employees in all of our sites to thwart you at any cost. Historical loss is a very important issue, especially with something so powerful.", "wynnexcavationsitec-excavatorplacardus-6", false);
+        s.addSound("[7/8] Excavator Placardus: But after hearing the stories of your travels in the province, we realised what had happened, and you mistook us for the enemy. This is obviously not the case.", "wynnexcavationsitec-excavatorplacardus-7", false);
+        s.addSound("[8/8] Excavator Placardus: I hope this clears everything up between us and we can both move our separate ways, now if you'll excuse me, I have a meeting to attend.", "wynnexcavationsitec-excavatorplacardus-8", false);
+        s.addSound("[1/3] Guard Klerodor: I'm sorry. This is a private meeting.", "wynnexcavationsitec-guardklerodor-1", false);
+        s.addSound("[2/3] Guard Klerodor: It is only my first day on the job, so I can't let you in without a pass. Sorry.", "wynnexcavationsitec-guardklerodor-2", false);
+        s.addSound("[3/3] Guard Klerodor: The door will be locked shortly.", "wynnexcavationsitec-guardklerodor-3", false);
+        s.addSound("[1/4] Chief Excavator Dranfor: Hello and welcome, senior members of Wynn Excavation Site C. May the dark's gaze forever watch over us. I want to update you on our progress thus far. The fire relic crystal has been largely intact in the heart of the volcano for many years.", "wynnexcavationsitec-chiefexcavatordranfor-1", true);
+        s.addSound("[2/4] Chief Excavator Dranfor: Removing it will most likely cause a chain reaction and make things difficult. Fortunately, a mage from the other side of the ocean is here to counter that. We can expect to have it moved and be shipped over to the undisclosed location any day now.", "wynnexcavationsitec-chiefexcavatordranfor-2", true);
+        s.addSound("[3/4] Chief Excavator Dranfor: I would also like to inform you that the crystals removed from our possession from sites B and A have not been retrieved. However, the culprit should no longer be interested in our operations. The lost crystals did not harness any raw magic, thus are not essential to the overall scheme.", "wynnexcavationsitec-chiefexcavatordranfor-3", true);
+        s.addSound("[4/4] Chief Excavator Dranfor: Now, our short term goals are to move our equipment out of the heart of the volcano and start moving the fire stone for assimilation at the concealed location. All senior officers are responsible for their quadrants. Let's get this done efficiently and discreetly.", "wynnexcavationsitec-chiefexcavatordranfor-4", true);
+        s.addSound("[1/1] Chief Excavator Dranfor: The alarm has been set off! There is an unauthorized guest! Guards, seize them!", "wynnexcavationsitec-chiefexcavatordranfor-5", true);
+        s.addSound("[1/10] ???: You. You are the one they are worried about.", "wynnexcavationsitec-traitoramadel-1", false);
+        s.addSound("[2/10] ???: I am Amadel, leader of the rebellion.", "wynnexcavationsitec-traitoramadel-2", false);
+        s.addSound("[3/10] Traitor Amadel: I know this is all a bit sudden, but I have some information you must hear.", "wynnexcavationsitec-traitoramadel-3", false);
+        s.addSound("[4/10] Traitor Amadel: Everything you have been told is a lie. The Wynn Excavation “company” are not what they appear to be.", "wynnexcavationsitec-traitoramadel-4", false);
+        s.addSound("[5/10] Traitor Amadel: They are using that as a front and their reach stretches further than I even know.", "wynnexcavationsitec-traitoramadel-5", false);
+        s.addSound("[6/10] Traitor Amadel: There is no higher authority than them, not even the kings. And their intentions are not good.", "wynnexcavationsitec-traitoramadel-6", false);
+        s.addSound("[7/10] Traitor Amadel: They seek the ultimate power, a power hidden across Wynn by various civilizations over hundreds of years.", "wynnexcavationsitec-traitoramadel-7", false);
+        s.addSound("[8/10] Traitor Amadel: They heard about it, and of course, began to gather the ingredients to create something that would lead them to total domination of the province.", "wynnexcavationsitec-traitoramadel-8", false);
+        s.addSound("[9/10] Traitor Amadel: They've been on to me for some time. I can't tell you everything here, but first, you must gather parts of the crystal, like you did with the others. It is essential.", "wynnexcavationsitec-traitoramadel-9", false);
+        s.addSound("[10/10] Traitor Amadel: The crystal is in the cave just inside the volcano past the base. Hurry, they are all off duty at the moment, the cave to the heart of the volcano is clear. Act swiftly, and good luck.", "wynnexcavationsitec-traitoramadel-10", false);
+        s.addSound("[1/7] Excavator Placardus: You couldn't just take my polite word and leave it at that, could you?", "wynnexcavationsitec-excavatorplacardus-9", false);
+        s.addSound("[2/7] Excavator Placardus: You had to go snooping around, meddle in things that are far beyond your comprehension. No matter. Something did come out of this, it would appear.", "wynnexcavationsitec-excavatorplacardus-10", false);
+        s.addSound("[3/7] Excavator Placardus: You were caught, conversing with Amadel, who we now know to be a traitor, thanks to you. There are eyes everywhere, young hero.", "wynnexcavationsitec-excavatorplacardus-11", false);
+        s.addSound("[4/7] Excavator Placardus: I'm willing to bet he's already been... taken care of by senior staff.", "wynnexcavationsitec-excavatorplacardus-12", false);
+        s.addSound("[5/7] Excavator Placardus: We also now know you are operating in the dark. You know nothing of the crystals or their power, and you know not that even the crystals you possess are inconsequential 	to our plans.", "wynnexcavationsitec-excavatorplacardus-13", false);
+        s.addSound("[6/7] Excavator Placardus: You're lucky you aren't dead. How you infiltrated us this far has shown nothing but beginner's luck for the province's new hero.", "wynnexcavationsitec-excavatorplacardus-14", false);
+        s.addSound("[7/7] Excavator Placardus: I suggest you leave, before the guards get here and you meet the same fate as Amadel. Our power is limitless; armies, resources, even royalty are on our side. We are the 	eye. We see all. Be gone.", "wynnexcavationsitec-excavatorplacardus-15", false);
+
 
         //Wynn Excavation Site D
         s.addSound("[1/8] Royal Advisor Carlos: His majesty Lord King of Troms is indisposed at this moment.", "wynnexcavation-carlos-1", false);
