@@ -1978,11 +1978,52 @@ public class Sounds {
         s.addSound("[1/5] General Graken: Old chap, I can only hope you find this scribble in my absence. Of course I hope that you did not have to return at all.", "darkdescent-generalgraken-14", false);
 
         //Zhight island
-        s.addSound("[1/12] Czytash: Ah, yes, I did find plenty o' supplies on that ship.", "zhightisland-czytash-1", false);
-        s.addSound("[1/9] Phief: Hello there. I see Zhight has sent you, correct?", "zhightisland-phief-1", false);
-        s.addSound("[1/9] Tirt: He told you what?! That fumbleknuckle...", "zhightisland-tirt-1", false);
         s.addSound("[1/8] Zhight: Hello, esteemed tourist sir or madame! I see you have found my illustrious resort, Zhight Island!", "zhightisland-zhight-1", false);
-        s.addSound("[1/7] Zhight: Ahaaa, esteemed sir! Or madame! I can't actually tell under all that armour...", "zhightisland-zhight-2", false);
+        s.addSound("[2/8] Zhight: Normally, you'd need a reservation to stay here, but our human visitors are ALWAYS welcome! Ehm...", "zhightisland-zhight-2", false);
+        s.addSound("[3/8] Zhight: ...w-well, actually...wait, no, it's nothing, nothing, friend! I guarantee you'll enjoy your stay here!", "zhightisland-zhight-3", false);
+        s.addSound("[4/8] Zhight: Even if m-my usual supplies haven't arrived in weeks, I, um, I'm TOTALLY sure we can accommodate for you!", "zhightisland-zhight-4", false);
+        s.addSound("[5/8] Zhight: We can just...um...w-well, I won't impose on you, dearest most welcomest traveller, no sir! Or madame!", "zhightisland-zhight-5", false);
+        s.addSound("[6/8] Zhight: B-But, if, perchance, you were to, um...happen to find my supplier, Phief, who hasn't come around in weeks the bas-", "zhightisland-zhight-6", false);
+        s.addSound("[7/8] Zhight: I! I mean! Nothing, nothing! Just, ehm, our extra reliable supplier often stops by Mage Island for supplies...", "zhightisland-zhight-7", false);
+        s.addSound("[8/8] Zhight: S-So, if you just happen to stop by there after your lovely stay here, and tell him to get off his sorry butt and send me my supplies that'd be just peachy!", "zhightisland-zhight-8", false);
+        s.addSound("[1/9] Phief: Hello there. I see Zhight has sent you, correct?", "zhightisland-phief-1", false);
+        s.addSound("[2/9] Phief: I do hope he isn't mad at me. I fully intended to bring the supplies to him.", "zhightisland-phief-2", false);
+        s.addSound("[3/9] Phief: But things took a turn for the worst quickly, and I no longer have access to my ship.", "zhightisland-phief-3", false);
+        s.addSound("[4/9] Phief: A madman jumped onto my ship, overpowered me, and held me hostage!", "zhightisland-phief-4", false);
+        s.addSound("[5/9] Phief: He was telling me how he wanted to \"\"take back what was stolen from him\"\", and it looked like he was heading to Maro Peaks.", "zhightisland-phief-5", false);
+        s.addSound("[6/9] Phief: I have no clue whether he was deranged, paranoid, or if someone really did take something from him.", "zhightisland-phief-6", false);
+        s.addSound("[7/9] Phief: I am certain of one thing. Nobody is going to sail my boat but me. I took my first chance to escape, broke the controls.", "zhightisland-phief-7", false);
+        s.addSound("[8/9] Phief: And I swam back to land, here. Problem is, I haven't exactly decided how I'll get the ship back for myself.", "zhightisland-phief-8", false);
+        s.addSound("[9/9] Phief: Maybe you can help me with that. The ship should still be stuck, due north of here. I'd love to get my sea legs back.", "zhightisland-phief-9", false);
+        s.addSound("[1/9] Tirt: He told you what?! That fumbleknuckle...", "zhightisland-tirt-1", false);
+        s.addSound("[2/9] Tirt: We didn't steal the ship from Phief, we were taking back what he stole from us years ago!", "zhightisland-tirt-2", false);
+        s.addSound("[3/9] Tirt: He attacked us on our way home to Maro Peaks, kicked us off the boat, and sailed it to who-knows-where.", "zhightisland-tirt-3", false);
+        s.addSound("[4/9] Tirt: We didn't think we would ever get it back, until we started seeing him sailing to that doofbumble Zhight.", "zhightisland-tirt-4", false);
+        s.addSound("[5/9] Tirt: Luckily, he decided to claim an island so close to Maro Peaks, or else we would have never seen him.", "zhightisland-tirt-5", false);
+        s.addSound("[6/9] Tirt: My father started following him with a small sailboat he made, and decided on the perfect place to attack.", "zhightisland-tirt-6", false);
+        s.addSound("[7/9] Tirt: But then Phief just had to throw a hissy fit and leave us stranded here.", "zhightisland-tirt-7", false);
+        s.addSound("[8/9] Tirt: My father took a paddleboat back to Maro Peaks to gather supplies. He took the cargo the ship had with him.", "zhightisland-tirt-8", false);
+        s.addSound("[9/9] Tirt: If you need that, you should go talk to him. His name is Czytash.", "zhightisland-tirt-9", false);
+        s.addSound("[1/12] Czytash: Ah, yes, I did find plenty o' supplies on that ship.", "zhightisland-czytash-1", false);
+        s.addSound("[2/12] Czytash: I assumed it was more of Phief's thiefed goods, so I took it home to use it myself.", "zhightisland-czytash-2", false);
+        s.addSound("[3/12] Czytash: It is Zhight's supplies you say?", "zhightisland-czytash-3", false);
+        s.addSound("[4/12] Czytash: Aye, of course it had to be that idiot's.", "zhightisland-czytash-4", false);
+        s.addSound("[5/12] Czytash: I guess me thinking he's dumber'n a box o' rocks is no reason for me to let him starve... Here, take the crate.", "zhightisland-czytash-5", false);
+        s.addSound("[6/12] Czytash: I haven't opened it yet, so everything is left exactly how he ordered it.", "zhightisland-czytash-6", false);
+        s.addSound("[7/12] Czytash: I wonder what is on that numbskull's menu, that crate smelled rancid. Almost threw it off me boat.", "zhightisland-czytash-7", false);
+        s.addSound("[8/12] Czytash: Anyways, good luck on your adventure matey.", "zhightisland-czytash-8", false);
+        s.addSound("[9/12] Czytash: Sorry, what was that? My son?", "zhightisland-czytash-9", false);
+        s.addSound("[10/12] Czytash: Ah, I figured it is about time he learned how to maneuver a boat. I fixed everything before I left.", "zhightisland-czytash-10", false);
+        s.addSound("[11/12] Czytash: When he returns, he will return a man.", "zhightisland-czytash-11", false);
+        s.addSound("[12/12] Czytash: Wait, why am I telling you this? Butt out of my personal life, and just bring the man his crate.", "zhightisland-czytash-12", false);
+        s.addSound("[1/7] Zhight: Ahaaa, esteemed sir! Or madame! I can't actually tell under all that armour...", "zhightisland-zhight-9", false);
+        s.addSound("[2/7] Zhight: ER! I MEAN! N-No trouble at all, esteemed visitor! We at Zhight Island Resort are always welcoming!", "zhightisland-zhight-10", false);
+        s.addSound("[3/7] Zhight: ...wait, is that the... Oh my! The supply crate! You went out and found Phief?! What an upstanding fellow you are!", "zhightisland-zhight-11", false);
+        s.addSound("[4/7] Zhight: Wait, he was a boat thief? Well, good thing you've told me, we can't have pirates here at our resort! I'll blacklist him ASAP!", "zhightisland-zhight-12", false);
+        s.addSound("[5/7] Zhight: You're only a visitor but you've been more help today than anyone else, really, I'm honestly in your debt.", "zhightisland-zhight-13", false);
+        s.addSound("[6/7] Zhight: So here! The repairs at the Zhight Grand Exchange and Zhight Treasure Tour have just finished, so you can head in and see the fruits of your labor!", "zhightisland-zhight-14", false);
+        s.addSound("[7/7] Zhight: And, as a token of my thanks, some exclusive currency for our resort, Zhight Money, on the house and just for you! I hope you enjoy your stay!", "zhightisland-zhight-15", false);
+
 
         //Fallen delivery
         s.addSound("[1/3] Bricot: Are you here to help? Did you hear the explosion, or my girlish scream? Either way, you have to help!", "fallendelivery-bricot-1", false);

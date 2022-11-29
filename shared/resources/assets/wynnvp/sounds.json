@@ -11350,18 +11350,6 @@
 
 
 
-  "zhightisland-czytash-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:zhightisland-czytash-1", "stream": true}]
-  },
-  "zhightisland-phief-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:zhightisland-phief-1", "stream": true}]
-  },
-  "zhightisland-tirt-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:zhightisland-tirt-1", "stream": true}]
-  },
   "zhightisland-zhight-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:zhightisland-zhight-1", "stream": true}]
@@ -11370,6 +11358,179 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:zhightisland-zhight-2", "stream": true}]
   },
+  "zhightisland-zhight-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-3", "stream": true}]
+  },
+  "zhightisland-zhight-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-4", "stream": true}]
+  },
+  "zhightisland-zhight-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-5", "stream": true}]
+  },
+  "zhightisland-zhight-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-6", "stream": true}]
+  },
+  "zhightisland-zhight-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-7", "stream": true}]
+  },
+  "zhightisland-zhight-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-8", "stream": true}]
+  },
+  "zhightisland-phief-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-1", "stream": true}]
+  },
+  "zhightisland-phief-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-2", "stream": true}]
+  },
+  "zhightisland-phief-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-3", "stream": true}]
+  },
+  "zhightisland-phief-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-4", "stream": true}]
+  },
+  "zhightisland-phief-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-5", "stream": true}]
+  },
+  "zhightisland-phief-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-6", "stream": true}]
+  },
+  "zhightisland-phief-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-7", "stream": true}]
+  },
+  "zhightisland-phief-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-8", "stream": true}]
+  },
+  "zhightisland-phief-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-phief-9", "stream": true}]
+  },
+  "zhightisland-tirt-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-1", "stream": true}]
+  },
+  "zhightisland-tirt-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-2", "stream": true}]
+  },
+  "zhightisland-tirt-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-3", "stream": true}]
+  },
+  "zhightisland-tirt-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-4", "stream": true}]
+  },
+  "zhightisland-tirt-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-5", "stream": true}]
+  },
+  "zhightisland-tirt-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-6", "stream": true}]
+  },
+  "zhightisland-tirt-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-7", "stream": true}]
+  },
+  "zhightisland-tirt-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-8", "stream": true}]
+  },
+  "zhightisland-tirt-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-tirt-9", "stream": true}]
+  },
+  "zhightisland-czytash-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-1", "stream": true}]
+  },
+  "zhightisland-czytash-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-2", "stream": true}]
+  },
+  "zhightisland-czytash-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-3", "stream": true}]
+  },
+  "zhightisland-czytash-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-4", "stream": true}]
+  },
+  "zhightisland-czytash-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-5", "stream": true}]
+  },
+  "zhightisland-czytash-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-6", "stream": true}]
+  },
+  "zhightisland-czytash-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-7", "stream": true}]
+  },
+  "zhightisland-czytash-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-8", "stream": true}]
+  },
+  "zhightisland-czytash-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-9", "stream": true}]
+  },
+  "zhightisland-czytash-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-10", "stream": true}]
+  },
+  "zhightisland-czytash-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-11", "stream": true}]
+  },
+  "zhightisland-czytash-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-czytash-12", "stream": true}]
+  },
+  "zhightisland-zhight-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-9", "stream": true}]
+  },
+  "zhightisland-zhight-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-10", "stream": true}]
+  },
+  "zhightisland-zhight-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-11", "stream": true}]
+  },
+  "zhightisland-zhight-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-12", "stream": true}]
+  },
+  "zhightisland-zhight-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-13", "stream": true}]
+  },
+  "zhightisland-zhight-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-14", "stream": true}]
+  },
+  "zhightisland-zhight-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:zhightisland-zhight-15", "stream": true}]
+  },
+
 
 
   "fallendelivery-bricot-1": {
