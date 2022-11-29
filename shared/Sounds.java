@@ -4396,14 +4396,45 @@ public class Sounds {
 
         //Canyon Condor
         s.addSound("[1/9] Svin: I am one of the Keepers in the great Temple of Legends. There we hoard secrets about the world.", "canyoncondor-svin-1", false);
+        s.addSound("[2/9] Svin: I am here to investigate an old tale of the canyon. Does that interest you? I'm sure it does!", "canyoncondor-svin-2", false);
+        s.addSound("[3/9] Svin: Legend has it that a ferocious beast lives among these cliffs. A dangerous bird that has survived for many years.", "canyoncondor-svin-3", false);
+        s.addSound("[4/9] Svin: I would love to seek the beast out, but it seems the natives here are too busy thieving each other to inform me of it.", "canyoncondor-svin-4", false);
+        s.addSound("[5/9] Svin: I have heard of an old prospector nearby who has ventured throughout this mesa. He may have some information.", "canyoncondor-svin-5", false);
+        s.addSound("[6/9] Svin: His name is Jankan and he lives east from Rymek. Could you perhaps seek him out and ask him about this foul beast?", "canyoncondor-svin-6", false);
+        s.addSound("[7/9] Svin: If you help me, I'll let you use the elevators spread in the canyon. Well...", "canyoncondor-svin-7", false);
+        s.addSound("[8/9] Svin: A strange hermit decided to take control of them, but I'm sure we can reason with him.", "canyoncondor-svin-8", false);
+        s.addSound("[9/9] Svin: I hope you are able to find the beast, and if you do, could you bring me back 1 Beast Egg as evidence?", "canyoncondor-svin-9", false);
         s.addSound("[1/6] Jankan: Hello there, youngster! Ye must be the stranger folks 'been talkin' 'bout.", "canyoncondor-jankan-1", false);
-        s.addSound("[1/4] Jankan: Finally! It took ye long enough, hand it over! Oh right.. yer want'n somethin'.", "canyoncondor-jankan-2", false);
+        s.addSound("[2/6] Jankan: If yer lookin fer gold, I can promise ye that there ain' any for you in this here mineshaft!", "canyoncondor-jankan-2", false);
+        s.addSound("[3/6] Jankan: Oh.. Yer lookin fer a winged wilder beast? Are ye out of yer mind?", "canyoncondor-jankan-3", false);
+        s.addSound("[4/6] Jankan: The devil of a bird is complete chaos! It can move mountains with a single screech! Men twice yer size 'ave weeped from the sight of it!", "canyoncondor-jankan-4", false);
+        s.addSound("[5/6] Jankan: As it turns out, I did me back in trying to transport me earnin's from that there cave, left them right at the back did' I.", "canyoncondor-jankan-5", false);
+        s.addSound("[6/6] Jankan: Go fetch me my 5 Gold Chunks from the end of the shaft and I'll tell ye where ye need to go next.", "canyoncondor-jankan-6", false);
+        s.addSound("[1/4] Jankan: Finally! It took ye long enough, hand it over! Oh right.. yer want'n somethin'.", "canyoncondor-jankan-7", false);
+        s.addSound("[2/4] Jankan: I ain' got any intention of help'n ye with yer demise, but I can send ye along to a young fellow who might help.", "canyoncondor-jankan-8", false);
+        s.addSound("[3/4] Jankan: There's this Hermit feller ye wanna talk to, he is a right nutter, that one. Feeds the bird'n all.", "canyoncondor-jankan-9", false);
+        s.addSound("[4/4] Jankan: I think ye can find him up the mountain and across the canyon abyss, he ain' a friendly fella, I can tell yer that much.", "canyoncondor-jankan-10", false);
         s.addSound("[1/7] Hermit: What do you think you're doing here, kid? Think you can waltz in my humble abode and get across my bridge?", "canyoncondor-hermit-1", false);
-        s.addSound("[1/5] Hermit: A ha! This will do perfectly. My chickling will love it! I suppose you can cross the bridge now.", "canyoncondor-hermit-2", false);
-        s.addSound("[1/1] Hermit: What's taken you so long, kid? I just want [1 Rare Rose]!", "canyoncondor-hermit-3", false);
-        s.addSound("[1/1] Hermit: What are you here for, eh kid? Get out. Get!", "canyoncondor-hermit-4", false);
-        s.addSound("[1/1] Hermit: Think you can waltz in my humble abode and get across my bridge? Get out!", "canyoncondor-hermit-5", false);
-        s.addSound("[1/5] Svin: Traveler! You have returned! Tell me, what have you learned?", "canyoncondor-svin-2", false);
+        s.addSound("[2/7] Hermit: Oh, you want to know about the bird of the mountain? Hah, a little weed like you wouldn't stand a chance against it.", "canyoncondor-hermit-2", false);
+        s.addSound("[3/7] Hermit: It doesn't take kindly to strangers you know. I once saw it turn a group of poachers to ash!", "canyoncondor-hermit-3", false);
+        s.addSound("[4/7] Hermit: If you want to go through here, you'll need to pay. Oh, I don't want your money, why would I need money, I have everything!", "canyoncondor-hermit-4", false);
+        s.addSound("[5/7] Hermit: If you want access to these plateaus then you will have to find me a rare flower for my little cave here.", "canyoncondor-hermit-5", false);
+        s.addSound("[6/7] Hermit: It is found on top of one of the stacks in the mesa, it shouldn't be too hard to find.", "canyoncondor-hermit-6", false);
+        s.addSound("[7/7] Hermit: Bring me 1 Rare Rose and I shall let you pass on to the creature of the mesa.", "canyoncondor-hermit-7", false);
+        s.addSound("[1/5] Hermit: A ha! This will do perfectly. My chickling will love it! I suppose you can cross the bridge now.", "canyoncondor-hermit-8", false);
+        s.addSound("[2/5] Hermit: The beast dwells on top of one of these plateaus. With a little searching, you should be able to find it.", "canyoncondor-hermit-9", false);
+        s.addSound("[3/5] Hermit: I'll let you use my elevators too. After all, it's not like you will last long...", "canyoncondor-hermit-10", false);
+        s.addSound("[4/5] Hermit: Only one traveler I have heard of could stand against the beast. I believe he took an egg from it for a pet, hah!", "canyoncondor-hermit-11", false);
+        s.addSound("[5/5] Hermit: He is long gone now, just like you will be in a few moments. It was nice not knowing you, kid.", "canyoncondor-hermit-12", false);
+        s.addSound("[1/1] Hermit: What's taken you so long, kid? I just want [1 Rare Rose]!", "canyoncondor-hermit-13", false);
+        s.addSound("[1/1] Hermit: What are you here for, eh kid? Get out. Get!", "canyoncondor-hermit-14", false);
+        s.addSound("[1/1] Hermit: Think you can waltz in my humble abode and get across my bridge? Get out!", "canyoncondor-hermit-15", false);
+        s.addSound("[1/5] Svin: Traveler! You have returned! Tell me, what have you learned?", "canyoncondor-svin-10", false);
+        s.addSound("[2/5] Svin: You found it?! This is wonderful news! You collected an egg from it's nest as well? You are very brave indeed!", "canyoncondor-svin-11", false);
+        s.addSound("[3/5] Svin: So the legend of the Cockatrice is true! You've seen it and battled it with your own courage!", "canyoncondor-svin-12", false);
+        s.addSound("[4/5] Svin: If only you could enter the Temple of Legends, brave soul! But it would seem our paths are to part now.", "canyoncondor-svin-13", false);
+        s.addSound("[5/5] Svin: Do not worry, I shall keep the egg safe. One day your legend shall be as greatly told!", "canyoncondor-svin-14", false);
+
 
         //Poisoning the Pest
         s.addSound("[1/5] Farmer Cevalus: Ah, looks like a fresh recruit!", "poisoningthepest-farmercevalus-1", false);

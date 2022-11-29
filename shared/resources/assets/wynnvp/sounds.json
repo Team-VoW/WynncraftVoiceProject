@@ -16031,6 +16031,38 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:canyoncondor-svin-1", "stream": true}]
   },
+  "canyoncondor-svin-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-2", "stream": true}]
+  },
+  "canyoncondor-svin-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-3", "stream": true}]
+  },
+  "canyoncondor-svin-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-4", "stream": true}]
+  },
+  "canyoncondor-svin-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-5", "stream": true}]
+  },
+  "canyoncondor-svin-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-6", "stream": true}]
+  },
+  "canyoncondor-svin-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-7", "stream": true}]
+  },
+  "canyoncondor-svin-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-8", "stream": true}]
+  },
+  "canyoncondor-svin-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-9", "stream": true}]
+  },
   "canyoncondor-jankan-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:canyoncondor-jankan-1", "stream": true}]
@@ -16038,6 +16070,38 @@
   "canyoncondor-jankan-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:canyoncondor-jankan-2", "stream": true}]
+  },
+  "canyoncondor-jankan-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-3", "stream": true}]
+  },
+  "canyoncondor-jankan-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-4", "stream": true}]
+  },
+  "canyoncondor-jankan-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-5", "stream": true}]
+  },
+  "canyoncondor-jankan-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-6", "stream": true}]
+  },
+  "canyoncondor-jankan-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-7", "stream": true}]
+  },
+  "canyoncondor-jankan-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-8", "stream": true}]
+  },
+  "canyoncondor-jankan-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-9", "stream": true}]
+  },
+  "canyoncondor-jankan-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-jankan-10", "stream": true}]
   },
   "canyoncondor-hermit-1": {
     "category": "voice",
@@ -16059,10 +16123,67 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:canyoncondor-hermit-5", "stream": true}]
   },
-  "canyoncondor-svin-2": {
+  "canyoncondor-hermit-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:canyoncondor-svin-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-6", "stream": true}]
   },
+  "canyoncondor-hermit-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-7", "stream": true}]
+  },
+  "canyoncondor-hermit-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-8", "stream": true}]
+  },
+  "canyoncondor-hermit-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-9", "stream": true}]
+  },
+  "canyoncondor-hermit-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-10", "stream": true}]
+  },
+  "canyoncondor-hermit-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-11", "stream": true}]
+  },
+  "canyoncondor-hermit-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-12", "stream": true}]
+  },
+  "canyoncondor-hermit-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-13", "stream": true}]
+  },
+  "canyoncondor-hermit-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-14", "stream": true}]
+  },
+  "canyoncondor-hermit-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-hermit-15", "stream": true}]
+  },
+  "canyoncondor-svin-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-10", "stream": true}]
+  },
+  "canyoncondor-svin-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-11", "stream": true}]
+  },
+  "canyoncondor-svin-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-12", "stream": true}]
+  },
+  "canyoncondor-svin-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-13", "stream": true}]
+  },
+  "canyoncondor-svin-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:canyoncondor-svin-14", "stream": true}]
+  },
+
 
 
 
