@@ -15957,6 +15957,19 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-14", "stream": true}]
   },
+  "poisoningthepest-farmercevalus-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-15", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-16", "stream": true}]
+  },
+  "poisoningthepest-farmercevalus-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:poisoningthepest-farmercevalus-17", "stream": true}]
+  },
+
 
 
 
