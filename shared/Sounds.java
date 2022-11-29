@@ -4912,19 +4912,32 @@ public class Sounds {
         s.addSound("[1/1] Worid: I feel so much better now, thank you for the cure!", "junglefever-worid-8", false);
 
         //Death Whistle
-        s.addSound("[1/7] Voer: Hello! Hmm, armour, weapon, look of grim despair... You must be from the Wynn province! ", "deathwhistle-voer-1", false);
-        s.addSound("[1/1] Voer: I know humans aren't renowned for their memory, but do hurry, yes? What you need is written down in your quest book!", "deathwhistle-voer-2", false);
-        s.addSound("[1/8] Lari: You, Voer! Inconsiderate thief!", "deathwhistle-lari-1", true);
-        s.addSound("[2/8] Lari: You've no idea what you even have done, do you? Your thoughtless actions will cost lives!", "deathwhistle-lari-2", true);
-        s.addSound("[3/8] Voer: Uhm... Excuse me? What do you want, elf girl? We're in the middle of a deal here?", "deathwhistle-voer-3", true);
-        s.addSound("[4/8] Lari: You sold Pink Pelulite! Have you forgotten its enraging properties? Or shall I read from that herbology book you \"found\" in my camp?", "deathwhistle-lari-3", true);
-        s.addSound("[5/8] Voer: Wait, wh-what? A Pink PELULITE!? I sold that woman a Pink PELUTE for her luck charms! How dare- wait...wait, Pink Pelute has rounder petals... Oh no.", "deathwhistle-voer-4", true);
-        s.addSound("[6/8] Lari: You can't even say for certain. This kind of carelessness has no place! If you refuse to exercise the proper thought and caution, then those around you suffer.", "deathwhistle-lari-4", true);
-        s.addSound("[7/8] Lari: I must...make a difficult choice, and leave this job to you. I've other things to tend to, though it pains me to leave a life in another's hands. Remember this, villager!", "deathwhistle-lari-5", true);
-        s.addSound("[8/8] Voer: Aaah, this is a disaster! Human, please, Pink Pelulite acts quickly and intensely... Follow the pink trail on the ground, the flowers shed their petals. Get it back before something bad happens!", "deathwhistle-voer-5", false);
+        s.addSound("[1/7] Voer: Hello! Hmm, armour, weapon, look of grim despair... You must be from the Wynn province!", "deathwhistle-voer-1", false);
+        s.addSound("[2/7] Voer: My name is Voer, and I'm an exotic plant merchant. I sell all kinds of, uh, perfectly legal goods to the magicians of Gavel.", "deathwhistle-voer-2", false);
+        s.addSound("[3/7] Voer: Lately, this Decay has been making business rather tough. The magical plants that used to grow here are dying.", "deathwhistle-voer-3", false);
+        s.addSound("[4/7] Voer: The need for magic has never been as big as it is now, and without supplies, the magicians of the swamp simply cannot operate!", "deathwhistle-voer-4", false);
+        s.addSound("[5/7] Voer: I need Death Whistle in particular. It's not as deadly as it sounds, I promise- the name's just archaic, if I recall right from that- er, my book.", "deathwhistle-voer-5", false);
+        s.addSound("[6/7] Voer: It is a rather rare plant with all sorts of mystical properties, so much so that it can animate objects around it!", "deathwhistle-voer-6", false);
+        s.addSound("[7/7] Voer: Look for the highest mountain in the swamp south-east from here. The decay hasn't reached the peaks yet, you see!", "deathwhistle-voer-7", false);
+        s.addSound("[1/8] Lari: You, Voer! Inconsiderate thief!", "deathwhistle-lari-1", false);
+        s.addSound("[2/8] Lari: You've no idea what you even have done, do you? Your thoughtless actions will cost lives!", "deathwhistle-lari-2", false);
+        s.addSound("[3/8] Voer: Uhm... Excuse me? What do you want, elf girl? We're in the middle of a deal here?", "deathwhistle-voer-8", false);
+        s.addSound("[4/8] Lari: You sold Pink Pelulite! Have you forgotten its enraging properties? Or shall I read from that herbology book you \"found\" in my camp?", "deathwhistle-lari-3", false);
+        s.addSound("[5/8] Voer: Wait, wh-what? A Pink PELULITE!? I sold that woman a Pink PELUTE for her luck charms! How dare- wait...wait, Pink Pelute has rounder petals... Oh no.", "deathwhistle-voer-9", false);
+        s.addSound("[6/8] Lari: You can't even say for certain. This kind of carelessness has no place! If you refuse to exercise the proper thought and caution, then those around you suffer.", "deathwhistle-lari-4", false);
+        s.addSound("[7/8] Lari: I must...make a difficult choice, and leave this job to you. I've other things to tend to, though it pains me to leave a life in another's hands. Remember this, villager!", "deathwhistle-lari-5", false);
+        s.addSound("[8/8] Voer: Aaah, this is a disaster! Human, please, Pink Pelulite acts quickly and intensely... Follow the pink trail on the ground, the flowers shed their petals. Get it back before something bad happens!", "deathwhistle-voer-10", false);
         s.addSound("[1/2] Witch: Ah, um, come back later please! Something strange is happening!", "deathwhistle-witch-1", true);
-        s.addSound("[2/2] Witch: My body is a bit, um, not-in-my-control right now! I'd rather not hurt anyone!", "deathwhistle-witch-2", true);
-        s.addSound("[1/8] Voer: You're back, I see...and you're shedding petals! You got the Pink Pelulite back?", "deathwhistle-voer-6", false);
+        s.addSound("[2/2] Witch: My body is a bit, um, not-in-my-control right now! I'd rather not hurt anyone!", "deathwhistle-witch-2", false);
+        s.addSound("[1/8] Voer: You're back, I see...and you're shedding petals! You got the Pink Pelulite back?", "deathwhistle-voer-11", false);
+        s.addSound("[2/8] Voer: And what of the woman who bought it? Was she...?", "deathwhistle-voer-12", false);
+        s.addSound("[3/8] Voer: Oh, thank goodness! You got there in time. She's a regular of mine- and a bit of a looker, too. That Lari was right, to some extent, at least...", "deathwhistle-voer-13", false);
+        s.addSound("[4/8] Voer: I did take her book, and I should be more careful in the future, regarding this...but I can't just quit selling these herbs.", "deathwhistle-voer-14", false);
+        s.addSound("[5/8] Voer: I need an income, and the swamp isn't exactly the most resource rich region here! Especially not any more.", "deathwhistle-voer-15", false);
+        s.addSound("[6/8] Voer: And how dare she just walk away like that! It's a good thing you were around, human, otherwise...well, I'd rather not think about it.", "deathwhistle-voer-16", false);
+        s.addSound("[7/8] Voer: Regardless, you've helped me greatly. Got me my supplies and saved the life of a regular of mine, so I've got a gift for you!", "deathwhistle-voer-17", false);
+        s.addSound("[8/8] Voer: I'll offer you a sampler of my stock. Everything in here is pre-primed to be safe for brewing, so there won't be any mishaps like today!", "deathwhistle-voer-18", false);
+
 
         //Grand Youth
         s.addSound("[1/5] Monte: Oh, what am I to do...? How am I to be our next elder if I cannot even help him... Oh? Ehm, hello, stranger.", "grandyouth-monte-1", false);
