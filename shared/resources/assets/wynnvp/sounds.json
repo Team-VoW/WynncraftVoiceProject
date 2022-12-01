@@ -2449,26 +2449,67 @@
 
 
 
-  "thehouseoftwain-twendle-1": {
+  "houseoftwain-twendle-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-1", "stream": true}]
   },
-  "thehouseoftwain-twendle-2": {
+  "houseoftwain-twendle-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-2", "stream": true}]
   },
-  "thehouseoftwain-twendle-3": {
+  "houseoftwain-twendle-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-3", "stream": true}]
   },
-  "thehouseoftwain-twendle-4": {
+  "houseoftwain-twendle-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-4", "stream": true}]
   },
-  "thehouseoftwain-twendle-5": {
+  "houseoftwain-twendle-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehouseoftwain-twendle-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-5", "stream": true}]
   },
+  "houseoftwain-twendle-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-6", "stream": true}]
+  },
+  "houseoftwain-twendle-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-7", "stream": true}]
+  },
+  "houseoftwain-twendle-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-8", "stream": true}]
+  },
+  "houseoftwain-twendle-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-9", "stream": true}]
+  },
+  "houseoftwain-twendle-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-10", "stream": true}]
+  },
+  "houseoftwain-twendle-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-11", "stream": true}]
+  },
+  "houseoftwain-twendle-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-12", "stream": true}]
+  },
+  "houseoftwain-twendle-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-13", "stream": true}]
+  },
+  "houseoftwain-twendle-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-14", "stream": true}]
+  },
+  "houseoftwain-twendle-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:houseoftwain-twendle-15", "stream": true}]
+  },
+
 
 
   "thehiddencity-narder-1": {
