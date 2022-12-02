@@ -1535,22 +1535,43 @@ public class Sounds {
         s.addSound("[1/7] Irlok: Welcome to Bantisu Temple. We guide adventuring souls onwards.", "beyondthegrave-irlok-1", false);
         s.addSound("[1/5] Irlok: Oh, you've returned. I must admit, I'm very impressed.", "beyondthegrave-irlok-2", false);
 
-        //Blazing retribution
-        s.addSound("[1/10] Detective Jackson: How can I go about this...? I can't get involved myself, and they won't let me near... Wait, a human?", "blazingretribution-detectivejackson-9", false);
-        s.addSound("[1/9] Detective Jackson: I see no axe in your hands, so I should assume neither Sablestone or Loamsprout had it.", "blazingretribution-detectivejackson-1", false);
-        s.addSound("[2/9] Detective Jackson: Wait, really? A stick was the most powerful weapon they had? And Loamsprout... threw their dinner at you?", "blazingretribution-detectivejackson-2", false);
-        s.addSound("[3/9] Detective Jackson: I can't believe this! How are those... those THINGS outsmarting us?! Are they shuffling the axe between camps?", "blazingretribution-detectivejackson-3", false);
-        s.addSound("[4/9] Detective Jackson: There are over a dozen camps between the Orcs and Goblins that they could be swapping it between!", "blazingretribution-detectivejackson-4", false);
-        s.addSound("[5/9] Detective Jackson: What if the GOBLINS get a hold of it?! They're the cleverest by half of all of them, so that could actually be a threat!", "blazingretribution-detectivejackson-5", false);
-        s.addSound("[6/9] Detective Jackson: Searching the camps one by one will be far too slow, gah!! How am I going to fix this?!", "blazingretribution-detectivejackson-6", false);
-        s.addSound("[7/9] Detective Jackson: There's Earthpit, and Cliffhearth, Shineridge and Stonecave, Sunspark, Mudspring, Holehold, I-", "blazingretribution-detectivejackson-7", false);
-        s.addSound("[8/9] ???: Fire! Stop!! I hold magic cutter! LISTEN TO GREGG'R!!", "blazingretribution-greggr-1", true);
-        s.addSound("[9/9] Detective Jackson: I- I can't believe it, that has to be the one! AFTER THAT ORC, NOW!!", "blazingretribution-detectivejackson-8", false);
-        s.addSound("[1/4] Detective Jackson: That looks like the axe of Llevigar to me! Blue finish, hot to the touch- well done! What Orc boss had stolen it?", "blazingretribution-detectivejackson-10", false);
-        s.addSound("[1/1] ???: GRRRH!! What 'Uthniiazek' mean?!", "blazingretribution-greggr-2", true);
-        s.addSound("[1/1] Gregg'r: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO GREGG'R?", "blazingretribution-greggr-3", true);
-        s.addSound("[1/3] Gregg'r: Stupid Villager magic thing! Why fire no listen?", "blazingretribution-greggr-4", true);
+        //Blazing Retribution
         s.addSound("[1/7] Piere: Oh sweet baby bovine, my house, what am I going to do? Wait, who are you?", "blazingretribution-piere-1", false);
+        s.addSound("[2/7] Piere: Oh, a Human. Did the Llevigar authorities send you?", "blazingretribution-piere-2", false);
+        s.addSound("[3/7] Piere: Detective Jackson has already been here. Not that he's doing anything useful.", "blazingretribution-piere-3", false);
+        s.addSound("[4/7] Piere: An Orc managed to find some fire-imbued magical axe and burned down my house! Jackson didn't even call a firefighter!!", "blazingretribution-piere-4", false);
+        s.addSound("[5/7] Piere: I don't know what to do, but maybe if you find Detective Jackson, you can kick his sorry rear into gear...", "blazingretribution-piere-5", false);
+        s.addSound("[6/7] Piere: The Orcs are already savage brutes. If they really have their hands on magical weapons, we're all in trouble!", "blazingretribution-piere-6", false);
+        s.addSound("[7/7] Piere: I believe Detective Jackson is by his cart \"planning his next move.\" He's not far from here. Just continue past my farm!", "blazingretribution-piere-7", false);
+        s.addSound("[1/10] Detective Jackson: How can I go about this...? I can't get involved myself, and they won't let me near... Wait, a human?", "blazingretribution-detectivejackson-1", false);
+        s.addSound("[2/10] Detective Jackson: ...what do you MEAN \"what am I doing?\" This is a delicate situation! I need to- wait...actually, you might just be the help I need.", "blazingretribution-detectivejackson-2", false);
+        s.addSound("[3/10] Detective Jackson: I'll give you the lowdown- we believe the orcs stole magical weaponry from within Llevigar, particularly a flaming axe.", "blazingretribution-detectivejackson-3", false);
+        s.addSound("[4/10] Detective Jackson: However, there's a loophole in the ceasefire we had enacted with the Orcs. Theft isn't considered an act of aggression...", "blazingretribution-detectivejackson-4", false);
+        s.addSound("[5/10] Detective Jackson: And that means my hands are tied. Humans, however, were not mentioned in the notes, so you'll need to retrieve it.", "blazingretribution-detectivejackson-5", false);
+        s.addSound("[6/10] Detective Jackson: Our only saving grace is that it'll be impossible for them to replicate its power- Orcs are hilariously inept at magic.", "blazingretribution-detectivejackson-6", false);
+        s.addSound("[7/10] Detective Jackson: But, to the primary problem- You've probably seen how many orc camps are around here. Searching will take a long while...", "blazingretribution-detectivejackson-7", false);
+        s.addSound("[8/10] Detective Jackson: My only leads are that the \"Sablestone\" and \"Loamsprout\" camps seem to be celebrating recently. Best to start there, yes?", "blazingretribution-detectivejackson-8", false);
+        s.addSound("[9/10] Detective Jackson: Just to review- You need to search those two camps for the Axe of Llevigar, and then return it to me if you find it.", "blazingretribution-detectivejackson-9", false);
+        s.addSound("[10/10] Detective Jackson: Sablestone is to the north, and Loamsprout to the south. They will be guarded, so don't be afraid to knock some heads.", "blazingretribution-detectivejackson-10", false);
+        s.addSound("[1/9] Detective Jackson: I see no axe in your hands, so I should assume neither Sablestone or Loamsprout had it.", "blazingretribution-detectivejackson-11", false);
+        s.addSound("[2/9] Detective Jackson: Wait, really? A stick was the most powerful weapon they had? And Loamsprout... threw their dinner at you?", "blazingretribution-detectivejackson-12", false);
+        s.addSound("[3/9] Detective Jackson: I can't believe this! How are those... those THINGS outsmarting us?! Are they shuffling the axe between camps?", "blazingretribution-detectivejackson-13", false);
+        s.addSound("[4/9] Detective Jackson: There are over a dozen camps between the Orcs and Goblins that they could be swapping it between!", "blazingretribution-detectivejackson-14", false);
+        s.addSound("[5/9] Detective Jackson: What if the GOBLINS get a hold of it?! They're the cleverest by half of all of them, so that could actually be a threat!", "blazingretribution-detectivejackson-15", false);
+        s.addSound("[6/9] Detective Jackson: Searching the camps one by one will be far too slow, gah!! How am I going to fix this?!", "blazingretribution-detectivejackson-16", false);
+        s.addSound("[7/9] Detective Jackson: There's Earthpit, and Cliffhearth, Shineridge and Stonecave, Sunspark, Mudspring, Holehold, I-", "blazingretribution-detectivejackson-17", false);
+        s.addSound("[8/9] ???: Fire! Stop!! I hold magic cutter! LISTEN TO POXPER!!", "blazingretribution-greggr-1", false);
+        s.addSound("[9/9] Detective Jackson: I- I can't believe it, that has to be the one! AFTER THAT ORC, NOW!!", "blazingretribution-detectivejackson-18", false);
+        s.addSound("[1/1] ???: GRRRH!! What 'Uthniiazek' mean?!", "blazingretribution-greggr-2", false);
+        s.addSound("[1/1] Poxper: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO POXPER?", "blazingretribution-greggr-3", false, new Vec3d(-24101, 44, -13225), 46);
+        s.addSound("[1/3] Poxper: Stupid Villager magic thing! Why fire no listen?", "blazingretribution-greggr-4", false);
+        s.addSound("[2/3] Poxper: Poxper say thing and make fire...what else axe say? 'Azektoluth?'", "blazingretribution-greggr-5", false);
+        s.addSound("[3/3] Poxper: Hraahah! Poxper control fire! Fire- kill human with Poxper! Uthniiazek! Azektoluth!", "blazingretribution-greggr-6", false);
+        s.addSound("[1/4] Detective Jackson: That looks like the axe of Llevigar to me! Blue finish, hot to the touch- well done! What Orc boss had stolen it?", "blazingretribution-detectivejackson-19", false);
+        s.addSound("[2/4] Detective Jackson: Poxper? That...hm. This could be bad. I've heard that name, and he's a fairly prolific Orc chief. You killed him, right?", "blazingretribution-detectivejackson-20", false);
+        s.addSound("[3/4] Detective Jackson: Mmm... Hopefully that Veretel won't catch wind of it. Regardless, you've done a great service for Villager-kind!", "blazingretribution-detectivejackson-21", false);
+        s.addSound("[4/4] Detective Jackson: Here's your compensation for that. Thank you for the aid!", "blazingretribution-detectivejackson-22", false);
+
 
         //Potion Making
         s.addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmaking-theassistant-1", false);

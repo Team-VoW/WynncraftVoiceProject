@@ -1452,12 +1452,22 @@ public class Sounds {
 
 
 
-        //The house of twain
-        s.addSound("[1/10] Twendle: Oh, hey you there! Are you heading down this road? You know it's a dead end, right?", "thehouseoftwain-twendle-1", false);
-        s.addSound("[1/2] Twendle: I guess I put my faith in the right person. My history lies within these pages, and I don't intend to keep them secret. I shall make them public.", "thehouseoftwain-twendle-2", false);
-        s.addSound("[1/1] Twendle: I know uncovering the truth is never easy, but keep trying, please bring me [1 Twain Journal].", "thehouseoftwain-twendle-3", false);
-        s.addSound("[1/1] Twendle: Thank you again for all of your help!", "thehouseoftwain-twendle-4", false);
-        s.addSound("[1/1] Twendle: Greetings traveller! I am on a personal quest, but I'm not sure you're any use to me. I doubt you can even enter the mansion. Come back when you are level 49.", "thehouseoftwain-twendle-5", false);
+        //House of twain
+        s.addSound("[1/10] Twendle: Oh, hey you there! Are you heading down this road? You know its a dead end, right?", "houseoftwain-twendle-1", false);
+        s.addSound("[2/10] Twendle: It leads to a an old mansion, that has fallen into decay.", "houseoftwain-twendle-2", false);
+        s.addSound("[3/10] Twendle: That mansion is the house of my ancestor; Dwendle Twain. It was a house of incredible heritage and magical powers, Dwendle himself was adopted into it.", "houseoftwain-twendle-3", false);
+        s.addSound("[4/10] Twendle: Marius Twain was the leader of the mansion, they fought against evil spirits, I think. The history of the house is not well known outside of a novel.", "houseoftwain-twendle-4", false);
+        s.addSound("[5/10] Twendle: I want to know the history of the mansion and uncover its secrets. But everytime I get close, dark beings prevent me from entering.", "houseoftwain-twendle-5", false);
+        s.addSound("[6/10] Twendle: I am no soldier, and I don't think I will ever uncover the truth without your help. I can greatly reward you for your help.", "houseoftwain-twendle-6", false);
+        s.addSound("[7/10] Twendle: My ancestor left our family a large amount of emeralds. Beware though, traveller, the mansions secrets are incredibly difficult to uncover and the monsters are powerful.", "houseoftwain-twendle-7", false);
+        s.addSound("[8/10] Twendle: Unravel the secrets of the mansion and help me uncover the secrets of my hertitage. Bring me [1 Twain Journal].", "houseoftwain-twendle-8", false);
+        s.addSound("[9/10] Twendle:This book has been hidden within the depths of the mansion and is protected by far more than puzzles or walls.", "houseoftwain-twendle-9", false);
+        s.addSound("[10/10] Twendle: I believe the spirits that now haunt the mansion will do anything to protect the book. I'm sure they think its their own, and the secrets it hides.", "houseoftwain-twendle-10", false);
+        s.addSound("[1/2] Twendle: I guess I put my faith in the right person. My history lies within these pages, and I don't intend to keep them secret. I shall make them public.", "houseoftwain-twendle-11", false);
+        s.addSound("[2/2] Twendle: Thank you traveller. As promised, here is your reward.", "houseoftwain-twendle-12", false);
+        s.addSound("[1/1] Twendle: I know uncovering the truth is never easy, but keep trying, please bring me [1 Twain Journal].", "houseoftwain-twendle-13", false);
+        s.addSound("[1/1] Twendle: Thank you again for all of your help!", "houseoftwain-twendle-14", false);
+        s.addSound("[1/1] Twendle: Greetings traveller! I am on a personal quest, but I'm not sure you're any use to me. I doubt you can even enter the mansion. Come back when you are level 49.", "houseoftwain-twendle-15", false);
 
         //Tower of Ascension
         s.addSound("[1/11] Ankou: Hehehe... Hello there.", "towerofascension-ankou-1", false);
@@ -1525,22 +1535,43 @@ public class Sounds {
         s.addSound("[1/7] Irlok: Welcome to Bantisu Temple. We guide adventuring souls onwards.", "beyondthegrave-irlok-1", false);
         s.addSound("[1/5] Irlok: Oh, you've returned. I must admit, I'm very impressed.", "beyondthegrave-irlok-2", false);
 
-        //Blazing retribution
-        s.addSound("[1/10] Detective Jackson: How can I go about this...? I can't get involved myself, and they won't let me near... Wait, a human?", "blazingretribution-detectivejackson-9", false);
-        s.addSound("[1/9] Detective Jackson: I see no axe in your hands, so I should assume neither Sablestone or Loamsprout had it.", "blazingretribution-detectivejackson-1", false);
-        s.addSound("[2/9] Detective Jackson: Wait, really? A stick was the most powerful weapon they had? And Loamsprout... threw their dinner at you?", "blazingretribution-detectivejackson-2", false);
-        s.addSound("[3/9] Detective Jackson: I can't believe this! How are those... those THINGS outsmarting us?! Are they shuffling the axe between camps?", "blazingretribution-detectivejackson-3", false);
-        s.addSound("[4/9] Detective Jackson: There are over a dozen camps between the Orcs and Goblins that they could be swapping it between!", "blazingretribution-detectivejackson-4", false);
-        s.addSound("[5/9] Detective Jackson: What if the GOBLINS get a hold of it?! They're the cleverest by half of all of them, so that could actually be a threat!", "blazingretribution-detectivejackson-5", false);
-        s.addSound("[6/9] Detective Jackson: Searching the camps one by one will be far too slow, gah!! How am I going to fix this?!", "blazingretribution-detectivejackson-6", false);
-        s.addSound("[7/9] Detective Jackson: There's Earthpit, and Cliffhearth, Shineridge and Stonecave, Sunspark, Mudspring, Holehold, I-", "blazingretribution-detectivejackson-7", false);
-        s.addSound("[8/9] ???: Fire! Stop!! I hold magic cutter! LISTEN TO GREGG'R!!", "blazingretribution-greggr-1", true);
-        s.addSound("[9/9] Detective Jackson: I- I can't believe it, that has to be the one! AFTER THAT ORC, NOW!!", "blazingretribution-detectivejackson-8", false);
-        s.addSound("[1/4] Detective Jackson: That looks like the axe of Llevigar to me! Blue finish, hot to the touch- well done! What Orc boss had stolen it?", "blazingretribution-detectivejackson-10", false);
-        s.addSound("[1/1] ???: GRRRH!! What 'Uthniiazek' mean?!", "blazingretribution-greggr-2", true);
-        s.addSound("[1/1] Gregg'r: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO GREGG'R?", "blazingretribution-greggr-3", true);
-        s.addSound("[1/3] Gregg'r: Stupid Villager magic thing! Why fire no listen?", "blazingretribution-greggr-4", true);
+        //Blazing Retribution
         s.addSound("[1/7] Piere: Oh sweet baby bovine, my house, what am I going to do? Wait, who are you?", "blazingretribution-piere-1", false);
+        s.addSound("[2/7] Piere: Oh, a Human. Did the Llevigar authorities send you?", "blazingretribution-piere-2", false);
+        s.addSound("[3/7] Piere: Detective Jackson has already been here. Not that he's doing anything useful.", "blazingretribution-piere-3", false);
+        s.addSound("[4/7] Piere: An Orc managed to find some fire-imbued magical axe and burned down my house! Jackson didn't even call a firefighter!!", "blazingretribution-piere-4", false);
+        s.addSound("[5/7] Piere: I don't know what to do, but maybe if you find Detective Jackson, you can kick his sorry rear into gear...", "blazingretribution-piere-5", false);
+        s.addSound("[6/7] Piere: The Orcs are already savage brutes. If they really have their hands on magical weapons, we're all in trouble!", "blazingretribution-piere-6", false);
+        s.addSound("[7/7] Piere: I believe Detective Jackson is by his cart \"planning his next move.\" He's not far from here. Just continue past my farm!", "blazingretribution-piere-7", false);
+        s.addSound("[1/10] Detective Jackson: How can I go about this...? I can't get involved myself, and they won't let me near... Wait, a human?", "blazingretribution-detectivejackson-1", false);
+        s.addSound("[2/10] Detective Jackson: ...what do you MEAN \"what am I doing?\" This is a delicate situation! I need to- wait...actually, you might just be the help I need.", "blazingretribution-detectivejackson-2", false);
+        s.addSound("[3/10] Detective Jackson: I'll give you the lowdown- we believe the orcs stole magical weaponry from within Llevigar, particularly a flaming axe.", "blazingretribution-detectivejackson-3", false);
+        s.addSound("[4/10] Detective Jackson: However, there's a loophole in the ceasefire we had enacted with the Orcs. Theft isn't considered an act of aggression...", "blazingretribution-detectivejackson-4", false);
+        s.addSound("[5/10] Detective Jackson: And that means my hands are tied. Humans, however, were not mentioned in the notes, so you'll need to retrieve it.", "blazingretribution-detectivejackson-5", false);
+        s.addSound("[6/10] Detective Jackson: Our only saving grace is that it'll be impossible for them to replicate its power- Orcs are hilariously inept at magic.", "blazingretribution-detectivejackson-6", false);
+        s.addSound("[7/10] Detective Jackson: But, to the primary problem- You've probably seen how many orc camps are around here. Searching will take a long while...", "blazingretribution-detectivejackson-7", false);
+        s.addSound("[8/10] Detective Jackson: My only leads are that the \"Sablestone\" and \"Loamsprout\" camps seem to be celebrating recently. Best to start there, yes?", "blazingretribution-detectivejackson-8", false);
+        s.addSound("[9/10] Detective Jackson: Just to review- You need to search those two camps for the Axe of Llevigar, and then return it to me if you find it.", "blazingretribution-detectivejackson-9", false);
+        s.addSound("[10/10] Detective Jackson: Sablestone is to the north, and Loamsprout to the south. They will be guarded, so don't be afraid to knock some heads.", "blazingretribution-detectivejackson-10", false);
+        s.addSound("[1/9] Detective Jackson: I see no axe in your hands, so I should assume neither Sablestone or Loamsprout had it.", "blazingretribution-detectivejackson-11", false);
+        s.addSound("[2/9] Detective Jackson: Wait, really? A stick was the most powerful weapon they had? And Loamsprout... threw their dinner at you?", "blazingretribution-detectivejackson-12", false);
+        s.addSound("[3/9] Detective Jackson: I can't believe this! How are those... those THINGS outsmarting us?! Are they shuffling the axe between camps?", "blazingretribution-detectivejackson-13", false);
+        s.addSound("[4/9] Detective Jackson: There are over a dozen camps between the Orcs and Goblins that they could be swapping it between!", "blazingretribution-detectivejackson-14", false);
+        s.addSound("[5/9] Detective Jackson: What if the GOBLINS get a hold of it?! They're the cleverest by half of all of them, so that could actually be a threat!", "blazingretribution-detectivejackson-15", false);
+        s.addSound("[6/9] Detective Jackson: Searching the camps one by one will be far too slow, gah!! How am I going to fix this?!", "blazingretribution-detectivejackson-16", false);
+        s.addSound("[7/9] Detective Jackson: There's Earthpit, and Cliffhearth, Shineridge and Stonecave, Sunspark, Mudspring, Holehold, I-", "blazingretribution-detectivejackson-17", false);
+        s.addSound("[8/9] ???: Fire! Stop!! I hold magic cutter! LISTEN TO POXPER!!", "blazingretribution-greggr-1", false);
+        s.addSound("[9/9] Detective Jackson: I- I can't believe it, that has to be the one! AFTER THAT ORC, NOW!!", "blazingretribution-detectivejackson-18", false);
+        s.addSound("[1/1] ???: GRRRH!! What 'Uthniiazek' mean?!", "blazingretribution-greggr-2", false);
+        s.addSound("[1/1] Poxper: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO POXPER?", "blazingretribution-greggr-3", false, new Vec3d(-24101, 44, -13225));
+        s.addSound("[1/3] Poxper: Stupid Villager magic thing! Why fire no listen?", "blazingretribution-greggr-4", false);
+        s.addSound("[2/3] Poxper: Poxper say thing and make fire...what else axe say? 'Azektoluth?'", "blazingretribution-greggr-5", false);
+        s.addSound("[3/3] Poxper: Hraahah! Poxper control fire! Fire- kill human with Poxper! Uthniiazek! Azektoluth!", "blazingretribution-greggr-6", false);
+        s.addSound("[1/4] Detective Jackson: That looks like the axe of Llevigar to me! Blue finish, hot to the touch- well done! What Orc boss had stolen it?", "blazingretribution-detectivejackson-19", false);
+        s.addSound("[2/4] Detective Jackson: Gregg'r? That...hm. This could be bad. I've heard that name, and he's a fairly prolific Orc chief. You killed him, right?", "blazingretribution-detectivejackson-20", false);
+        s.addSound("[3/4] Detective Jackson: Mmm... Hopefully that Gorgu won't catch wind of it. Regardless, you've done a great service for Villager-kind!", "blazingretribution-detectivejackson-21", false);
+        s.addSound("[4/4] Detective Jackson: Here's your compensation for that. Thank you for the aid!", "blazingretribution-detectivejackson-22", false);
+
 
         //Potion Making
         s.addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmaking-theassistant-1", false);
@@ -4477,21 +4508,26 @@ public class Sounds {
         s.addSound("[5/5] Svin: Do not worry, I shall keep the egg safe. One day your legend shall be as greatly told!", "canyoncondor-svin-14", false);
 
 
-        //Poisoning the Pest
+        //Poisoning the pest
         s.addSound("[1/5] Farmer Cevalus: Ah, looks like a fresh recruit!", "poisoningthepest-farmercevalus-1", false);
         s.addSound("[2/5] Farmer Cevalus: Recently, my dear step-father passed away and I buried him out back. Well, he's not there anymore... the corruption has got to his body.", "poisoningthepest-farmercevalus-2", false);
         s.addSound("[3/5] Farmer Cevalus: He became an invincible beast! We should use my fresh Corkian sprinklers t o poison the pest! I have a spare [1 Crate of Rat Poison] here...", "poisoningthepest-farmercevalus-3", false);
         s.addSound("[4/5] Farmer Cevalus: I am too weak to get past the pest myself, could you help me out recruit?", "poisoningthepest-farmercevalus-4", false);
-        s.addSound("[5/5] Farmer Cevalus: If you poison the water reservoir on the other side of the farm field after you enter, you can watch as the pest makes his way back to the grave!", "poisoningthepest-farmercevalus-5", false);
+        s.addSound("[5/5] Farmer Cevalus: If you poison the water reservoir on the other side of the farm field after you enter, you can watch as the pest makes his way back to the grave!\"", "poisoningthepest-farmercevalus-5", false);
         s.addSound("[1/1] Farmer Cevalus: Have you at least attempted to get rid of that pest yet? Remember, the water reservoir is on the other end of this here field.", "poisoningthepest-farmercevalus-6", false);
         s.addSound("[1/2] Farmer Cevalus: Look at the body!", "poisoningthepest-farmercevalus-7", false);
         s.addSound("[2/2] Farmer Cevalus: There are Pests burrowing out of it. KILL THEM!", "poisoningthepest-farmercevalus-8", false);
         s.addSound("[1/3] Farmer Cevalus: Great job getting rid of that corrupt varmint, I can't thank you enough!", "poisoningthepest-farmercevalus-9", false);
         s.addSound("[2/3] Farmer Cevalus: I mean... poor step-dad. I don't know how I'll explain this to the wife...", "poisoningthepest-farmercevalus-10", false);
         s.addSound("[3/3] Farmer Cevalus: Take this well-deserved reward for the risky actions you took today. I also give you access to my second farm in the back, take whatever you need there!", "poisoningthepest-farmercevalus-11", false);
-        s.addSound("[1/1] Farmer Cevalus: Hurry and enable the sprinklers with the button near the farm's entrance before it can do any more damage!", "poisoningthepest-farmercevalus-12", true);
-        s.addSound("[1/2] Farmer Cevalus: Just one more to kill.", "poisoningthepest-farmercevalus-13", true);
-        s.addSound("[2/2] Farmer Cevalus: Well done! Come back to me for a reward.", "poisoningthepest-farmercevalus-14", true);
+        s.addSound("[1/1] Farmer Cevalus: Hurry and enable the sprinklers with the button near the farm's entrance before it can do any more damage!", "poisoningthepest-farmercevalus-12", false);
+        s.addSound("[1/1] Farmer Cevalus: I could really use some help right now, but you are too weak. Come back when you are level 2.", "poisoningthepest-farmercevalus-13", false);
+        s.addSound("[1/1] Farmer Cevalus: Hey! Get away from my farm, this is private property!", "poisoningthepest-farmercevalus-14", false);
+        s.addSound("[1/1] Farmer Cevalus: I thank you greatly for your actions. My crops should grow back soon!", "poisoningthepest-farmercevalus-15", false);
+        s.addSound("[1/2] Farmer Cevalus: Just one more to kill.", "poisoningthepest-farmercevalus-16", false);
+        s.addSound("[2/2] Farmer Cevalus: Well done! Come back to me for a reward.", "poisoningthepest-farmercevalus-17", false);
+
+
 
 
         //Crop Failure
