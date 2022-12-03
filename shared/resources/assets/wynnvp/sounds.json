@@ -11260,6 +11260,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:flightindistress-passengerjohn-1", "stream": true}]
   },
+  "flightindistress-passengerjohn-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-passengerjohn-2", "stream": true}]
+  },
+  "flightindistress-passengerjohn-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-passengerjohn-3", "stream": true}]
+  },
   "flightindistress-passengernancy-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:flightindistress-passengernancy-2", "stream": true}]

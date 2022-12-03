@@ -5795,7 +5795,9 @@ public class Sounds {
         s.addSound("[1/1] Passenger Nancy: *Sniff*... Have you seen my child? We were in our cabin, and then he just disappeared!", "flightindistress-passengernancy-1", false);
         s.addSound("[1/1] Sub-engineer Akot: I heard that a big ship was approaching from north. I saw it from the entrance deck. I wonder what they are doing.", "flightindistress-sub-engineerakot-1", false);
         s.addSound("[1/1] Passenger Casula: Sorry, I have not seen the child you are looking for.", "flightindistress-passengercasula-1", false);
-        s.addSound("[1/2] Passenger John: Ah, yes... I saw a little child run past me. He was shouting about an airship outside or something.", "flightindistress-passengerjohn-1", false);
+        s.addSound("[1/1] Passenger John: The interior of this ship is beautiful!", "flightindistress-passengerjohn-1", false);
+        s.addSound("[1/2] Passenger John: Ah, yes...I saw a little child run past me. He was shouting about an airship outside or something.", "flightindistress-passengerjohn-2", false);
+        s.addSound("[2/2] Passenger John: He swiftly made his way down the stairs to the bottom deck. Nobody seems to have seen him inside the ship after that.", "flightindistress-passengerjohn-3", false);
         s.addSound("[1/1] Passenger Nancy: Have you found my child?", "flightindistress-passengernancy-2", false);
         s.addSound("[1/2] Passenger Jeremy: That ship the little kid that was talking about...", "flightindistress-passengerjeremy-1", false);
         s.addSound("[1/4] Calo: Hey there. You must be the Human Ackbar told me about.", "flightindistress-calo-1", false);
