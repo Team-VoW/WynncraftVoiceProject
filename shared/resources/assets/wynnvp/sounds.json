@@ -961,106 +961,187 @@
 
 
 
-  "corruptedviallge-orikal-8": {
+  "corruptedvillage-orikal-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-8", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-1", "stream": true}]
   },
-  "corruptedviallge-orikal-9": {
+  "corruptedvillage-orikal-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-9", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-2", "stream": true}]
   },
-  "corruptedviallge-orikal-10": {
+  "corruptedvillage-orikal-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-10", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-3", "stream": true}]
   },
-  "corruptedviallge-orikal-11": {
+  "corruptedvillage-orikal-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-11", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-4", "stream": true}]
   },
-  "corruptedviallge-orikal-12": {
+  "corruptedvillage-orikal-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-12", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-5", "stream": true}]
   },
-  "corruptedviallge-alfonse-1": {
+  "corruptedvillage-orikal-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-6", "stream": true}]
   },
-  "corruptedviallge-roy-1": {
+  "corruptedvillage-orikal-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-7", "stream": true}]
   },
-  "corruptedviallge-alfonse-2": {
+  "corruptedvillage-orikal-8": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-8", "stream": true}]
   },
-  "corruptedviallge-roy-2": {
+  "corruptedvillage-orikal-9": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-9", "stream": true}]
   },
-  "corruptedviallge-alfonse-3": {
+  "corruptedvillage-orikal-10": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-10", "stream": true}]
   },
-  "corruptedviallge-roy-3": {
+  "corruptedvillage-orikal-11": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-11", "stream": true}]
   },
-  "corruptedviallge-alfonse-4": {
+  "corruptedvillage-orikal-12": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-12", "stream": true}]
   },
-  "corruptedviallge-alfonse-5": {
+  "corruptedvillage-orikal-13": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-13", "stream": true}]
   },
-  "corruptedviallge-orikal-1": {
+  "corruptedvillage-alfonse-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-alfonse-1", "stream": true}]
   },
-  "corruptedviallge-orikal-2": {
+  "corruptedvillage-roy-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-roy-1", "stream": true}]
   },
-  "corruptedviallge-roy-4": {
+  "corruptedvillage-alfonse-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-alfonse-2", "stream": true}]
   },
-  "corruptedviallge-orikal-3": {
+  "corruptedvillage-roy-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-roy-2", "stream": true}]
   },
-  "corruptedviallge-orikal-4": {
+  "corruptedvillage-alfonse-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-alfonse-3", "stream": true}]
   },
-  "corruptedviallge-alfonse-6": {
+  "corruptedvillage-roy-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-roy-3", "stream": true}]
   },
-  "corruptedviallge-orikal-5": {
+  "corruptedvillage-alfonse-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-alfonse-4", "stream": true}]
   },
-  "corruptedviallge-roy-5": {
+  "corruptedvillage-alfonse-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-alfonse-5", "stream": true}]
   },
-  "corruptedviallge-alfonse-7": {
+  "corruptedvillage-orikal-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-alfonse-7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-14", "stream": true}]
   },
-  "corruptedviallge-orikal-6": {
+  "corruptedvillage-orikal-15": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-15", "stream": true}]
   },
-  "corruptedviallge-roy-6": {
+  "corruptedvillage-roy-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-roy-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-roy-4", "stream": true}]
   },
-  "corruptedviallge-orikal-7": {
+  "corruptedvillage-orikal-16": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:corruptedviallge-orikal-7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-16", "stream": true}]
   },
+  "corruptedvillage-orikal-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-17", "stream": true}]
+  },
+  "corruptedvillage-alfonse-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-alfonse-6", "stream": true}]
+  },
+  "corruptedvillage-orikal-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-18", "stream": true}]
+  },
+  "corruptedvillage-roy-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-roy-5", "stream": true}]
+  },
+  "corruptedvillage-alfonse-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-alfonse-7", "stream": true}]
+  },
+  "corruptedvillage-orikal-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-19", "stream": true}]
+  },
+  "corruptedvillage-roy-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-roy-6", "stream": true}]
+  },
+  "corruptedvillage-orikal-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-20", "stream": true}]
+  },
+  "corruptedvillage-orikal-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-21", "stream": true}]
+  },
+  "corruptedvillage-orikal-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-22", "stream": true}]
+  },
+  "corruptedvillage-orikal-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-23", "stream": true}]
+  },
+  "corruptedvillage-orikal-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-24", "stream": true}]
+  },
+  "corruptedvillage-orikal-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-25", "stream": true}]
+  },
+  "corruptedvillage-orikal-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-26", "stream": true}]
+  },
+  "corruptedvillage-orikal-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-27", "stream": true}]
+  },
+  "corruptedvillage-orikal-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-28", "stream": true}]
+  },
+  "corruptedvillage-orikal-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-29", "stream": true}]
+  },
+  "corruptedvillage-orikal-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-30", "stream": true}]
+  },
+  "corruptedvillage-orikal-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-31", "stream": true}]
+  },
+  "corruptedvillage-orikal-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corruptedvillage-orikal-32", "stream": true}]
+  },
+
 
 
 

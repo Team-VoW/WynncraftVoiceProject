@@ -1005,31 +1005,52 @@ public class Sounds {
         s.addSound("[1/1] Ormrod: Don't stand close to me, I am cursed! Come back when you're level 36, you might be able to help me.", "wrathofthemummy-ormrod-12", false);
 
         //Corrupted village
-        s.addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedviallge-orikal-8", false);
-        s.addSound("[1/6] Orikal: That was quick... did you find anything?", "corruptedviallge-orikal-9", false);
-        s.addSound("[1/3] Alfonse: This is insane, why are we here?! We're looking for corruption you know that right?", "corruptedviallge-alfonse-1", true);
-        s.addSound("[2/3] Roy: Calm down. All we have to do is keep digging. Besides, he did say he'd pay us a lot, so stop being mad.", "corruptedviallge-roy-1", true);
-        s.addSound("[3/3] Alfonse: Forget it, I don't care anymore, just prime the explosive and get clear of the blast!", "corruptedviallge-alfonse-2", true);
-        s.addSound("[1/17] Roy: Well, that did the trick. Let's take a look.", "corruptedviallge-roy-2", true);
-        s.addSound("[2/17] Alfonse: Oh my... What... is this?", "corruptedviallge-alfonse-3", true);
-        s.addSound("[3/17] Roy: It almost looks like a giant spike...Woah. How deep does this thing go?", "corruptedviallge-roy-3", true);
-        s.addSound("[4/17] Alfonse: Well, you know what? We did our job, so honestly I don't care. Let's get out of he-", "corruptedviallge-alfonse-4", true);
-        s.addSound("[5/17] Alfonse: Orikal? We’re done! Pay up! I want out. This place is getting to me.", "corruptedviallge-alfonse-5", true);
-        s.addSound("[6/17] Orikal: I came when I heard the explosion. I thought you'd hurt yourselves.", "corruptedviallge-orikal-1", true);
-        s.addSound("[7/17] Orikal: Well, I'll be darned. The spike goes this far down? And it looks like it goes even deeper than this!", "corruptedviallge-orikal-2", true);
-        s.addSound("[8/17] Roy: Well, I don't know about you, but I say we blow it to shreds! That oughta get rid of this spike!", "corruptedviallge-roy-4", true);
-        s.addSound("[9/17] Orikal: For once, I agree. I'll do it, you guys just get clear.", "corruptedviallge-orikal-3", true);
-        s.addSound("[10/17] Orikal: ...Wow, that did nothing. We're going to need something MUCH more powerful than TNT...", "corruptedviallge-orikal-4", true);
-        s.addSound("[11/17] Alfonse: Oh yeah? And just what would you have in mind?", "corruptedviallge-alfonse-6", true);
-        s.addSound("[12/17] Orikal: Well, it's sorta complicated. That's why I've decided to give our new friend here the job of acquiring this explosive.", "corruptedviallge-orikal-5", true);
-        s.addSound("[13/17] Roy: Oh yeah, we were so busy with this spike, we forgot to address you! Sorry about that.", "corruptedviallge-roy-5", true);
-        s.addSound("[14/17] Alfonse: Well if you don't need us anymore then we'll just be on our way... WITH our money! So hand it over please.", "corruptedviallge-alfonse-7", true);
-        s.addSound("[15/17] Orikal: Alright, fine. Here's your pay. Thank you for your help.", "corruptedviallge-orikal-6", true);
-        s.addSound("[16/17] Roy: Gah! That's hardly anything! I'm not even surprised. Let's just go.", "corruptedviallge-roy-6", true);
-        s.addSound("[17/17] Orikal: Anyway, come meet me back at my tent, friend. We will discuss what to do then.", "corruptedviallge-orikal-7", true);
-        s.addSound("[1/5] Orikal: Okay. I happen to know a recipe for creating an extremely lethal magical explosive.", "corruptedviallge-orikal-10", false);
-        s.addSound("[1/3] Orikal: You got 'em all! Excellent, this is exactly what we need.", "corruptedviallge-orikal-11", false);
-        s.addSound("[1/4] Orikal: Oh, do you feel that? It's like a buzzing in my ears I never knew about has just vanished.", "corruptedviallge-orikal-12", false);
+        s.addSound("[1/7] Orikal: Go away! I know you're angry but there's nothing to gain her-", "corruptedvillage-orikal-1", false);
+        s.addSound("[2/7] Orikal: Oh, you seem calm. What are you doing here? Bit close to the portal for a soldier isn't it?", "corruptedvillage-orikal-2", false);
+        s.addSound("[3/7] Orikal: I see, you were sent to aid the public. Perfect.", "corruptedvillage-orikal-3", false);
+        s.addSound("[4/7] Orikal: I am Orikal, I'm trying to stop everyone here from killing each other.", "corruptedvillage-orikal-4", false);
+        s.addSound("[5/7] Orikal: Do you see all these spikes? I believe they are the thing spreading corruption.", "corruptedvillage-orikal-5", false);
+        s.addSound("[6/7] Orikal: Corruption does not affect humans like other beings. It’s much much slower, more like an infection of the mind to us.", "corruptedvillage-orikal-6", false);
+        s.addSound("[7/7] Orikal: Could you inspect the peak of the spike in the village for me? It might give me valuable insight. Thanks!", "corruptedvillage-orikal-7", false);
+        s.addSound("[1/6] Orikal: That was quick... did you find anything?", "corruptedvillage-orikal-8", false);
+        s.addSound("[2/6] Orikal: Really, nothing? You didn't even feel anything?", "corruptedvillage-orikal-9", false);
+        s.addSound("[3/6] Orikal: How can it be just a spike? It must be spreading corruption somehow.", "corruptedvillage-orikal-10", false);
+        s.addSound("[4/6] Orikal: Then perhaps my second theory was correct. I will have to send you underground.", "corruptedvillage-orikal-11", false);
+        s.addSound("[5/6] Orikal: There are old cave systems around here from the mining days. I sent two men down to excavate the spike, can you go down and help?", "corruptedvillage-orikal-12", false);
+        s.addSound("[6/6] Orikal: The entrance is a little to the northeast. In fact, you should have passed it on your way to the spike.", "corruptedvillage-orikal-13", false);
+        s.addSound("[1/3] Alfonse: This is insane, why are we here?! We're looking for corruption you know that right?", "corruptedvillage-alfonse-1", false, new Vec3d(313, 60, -1137));
+        s.addSound("[2/3] Roy: Calm down. All we have to dois keep digging. Besides, he did say he'd pay us a lot.], so stop being mad.", "corruptedvillage-roy-1", false, new Vec3d(332, 50, -1135));
+        s.addSound("[3/3] Alfonse: Forget it, I don't care anymore, just prime the explosive and get clear of the blast!", "corruptedvillage-alfonse-2", false);
+        s.addSound("[1/17] Roy: Well, that did the trick. Let's take a look.", "corruptedvillage-roy-2", false);
+        s.addSound("[2/17] Alfonse: Oh my... What... is this?", "corruptedvillage-alfonse-3", false);
+        s.addSound("[3/17] Roy: It almost looks like a giant spike...Woah. How deep does this thing go?", "corruptedvillage-roy-3", false);
+        s.addSound("[4/17] Alfonse: Well, you know what? We did our job, so honestly I don't care. Let's get out of he-", "corruptedvillage-alfonse-4", false);
+        s.addSound("[5/17] Alfonse: Orikal? We’re done! Pay up! I want out. This place is getting to me.", "corruptedvillage-alfonse-5", false);
+        s.addSound("[6/17] Orikal: I came when I heard the explosion. I thought you'd hurt yourselves.", "corruptedvillage-orikal-14", false);
+        s.addSound("[7/17] Orikal: Well, I'll be darned. The spike goes this far down? And it looks like it goes even deeper than this!", "corruptedvillage-orikal-15", false);
+        s.addSound("[8/17] Roy: Well, I don't know about you, but I say we blow it to shreds! That oughta get rid of this spike!", "corruptedvillage-roy-4", false);
+        s.addSound("[9/17] Orikal: For once, I agree. I'll do it, you guys just get clear.", "corruptedvillage-orikal-16", false);
+        s.addSound("[10/17] Orikal: ...Wow, that did nothing. We're going to need something MUCH more powerful than TNT...", "corruptedvillage-orikal-17", false);
+        s.addSound("[11/17] Alfonse: Oh yeah? And just what would you have in mind?", "corruptedvillage-alfonse-6", false);
+        s.addSound("[12/17] Orikal: Well, it's sorta complicated. That's why I've decided to give our new friend here the job of acquiring this explosive.", "corruptedvillage-orikal-18", false);
+        s.addSound("[13/17] Roy: Oh yeah, we were so busy with this spike, we forgot to address you! Sorry about that.", "corruptedvillage-roy-5", false);
+        s.addSound("[14/17] Alfonse: Well if you don't need us anymore then we'll just be on our way... WITH our money! So hand it over please.", "corruptedvillage-alfonse-7", false);
+        s.addSound("[15/17] Orikal: Alright, fine. Here's your pay. Thank you for your help.", "corruptedvillage-orikal-19", false);
+        s.addSound("[16/17] Roy: Gah! That's hardly anything! I'm not even surprised. Let's just go.", "corruptedvillage-roy-6", false);
+        s.addSound("[17/17] Orikal: Anyway, come meet me back at my tent, friend. We will discuss what to do then.", "corruptedvillage-orikal-20", false);
+        s.addSound("[1/5] Orikal: Okay. I happen to know a recipe for creating an extremely lethal magical explosive.", "corruptedvillage-orikal-21", false);
+        s.addSound("[2/5] Orikal: There are 3 main ingredients you will need to get me: [Stabilized Corrupted Ore], [Incendiary Fluid], and a [Switch Fuse] to activate it.", "corruptedvillage-orikal-22", false);
+        s.addSound("[3/5] Orikal: There used to be a small mining camp a little east of this town. It's abandoned now, but you should still be able to find what you need there.", "corruptedvillage-orikal-23", false);
+        s.addSound("[4/5] Orikal: It's not the big ol' abandoned mines, mind you. It's a smaller camp, in fact you should be able to see it from this village.", "corruptedvillage-orikal-24", false);
+        s.addSound("[5/5] Orikal: Best of luck! Oh, and also, try not to die please. These ingredients do indeed promote environmental hazards.", "corruptedvillage-orikal-25", false);
+        s.addSound("[1/3] Orikal: You got 'em all! Excellent, this is exactly what we need.", "corruptedvillage-orikal-26", false);
+        s.addSound("[2/3] Orikal: Alright, stand back. I have actually never made this before, so let's hope I don't cause a disaster.", "corruptedvillage-orikal-27", false);
+        s.addSound("[3/3] Orikal: Phew, glad nothing tragic happened there. This should be it, now go take it back down to the spike and destroy it once and for all!", "corruptedvillage-orikal-28", false);
+        s.addSound("[1/4] Orikal: Oh, do you feel that? It's like a buzzing in my ears I never knew about has just vanished.", "corruptedvillage-orikal-29", false);
+        s.addSound("[2/4] Orikal: I think that worked you know. It seems the power of the spike comes from the root...", "corruptedvillage-orikal-30", false);
+        s.addSound("[3/4] Orikal: But what is it connected to? That's for another day. The main thing is the village is safe.", "corruptedvillage-orikal-31", false);
+        s.addSound("[4/4] Orikal: Here, take this for your help. I found this potato in one of the houses around here, and I sure as heck don't want it!", "corruptedvillage-orikal-32", false);
+
 
 
         //Ice nations
@@ -1563,13 +1584,13 @@ public class Sounds {
         s.addSound("[8/9] ???: Fire! Stop!! I hold magic cutter! LISTEN TO POXPER!!", "blazingretribution-greggr-1", false);
         s.addSound("[9/9] Detective Jackson: I- I can't believe it, that has to be the one! AFTER THAT ORC, NOW!!", "blazingretribution-detectivejackson-18", false);
         s.addSound("[1/1] ???: GRRRH!! What 'Uthniiazek' mean?!", "blazingretribution-greggr-2", false);
-        s.addSound("[1/1] Poxper: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO POXPER?", "blazingretribution-greggr-3", false, new Vec3d(-24101, 44, -13225));
+        s.addSound("[1/1] Poxper: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO POXPER?", "blazingretribution-greggr-3", false, new Vec3d(-24101, 44, -13225), 46);
         s.addSound("[1/3] Poxper: Stupid Villager magic thing! Why fire no listen?", "blazingretribution-greggr-4", false);
         s.addSound("[2/3] Poxper: Poxper say thing and make fire...what else axe say? 'Azektoluth?'", "blazingretribution-greggr-5", false);
         s.addSound("[3/3] Poxper: Hraahah! Poxper control fire! Fire- kill human with Poxper! Uthniiazek! Azektoluth!", "blazingretribution-greggr-6", false);
         s.addSound("[1/4] Detective Jackson: That looks like the axe of Llevigar to me! Blue finish, hot to the touch- well done! What Orc boss had stolen it?", "blazingretribution-detectivejackson-19", false);
-        s.addSound("[2/4] Detective Jackson: Gregg'r? That...hm. This could be bad. I've heard that name, and he's a fairly prolific Orc chief. You killed him, right?", "blazingretribution-detectivejackson-20", false);
-        s.addSound("[3/4] Detective Jackson: Mmm... Hopefully that Gorgu won't catch wind of it. Regardless, you've done a great service for Villager-kind!", "blazingretribution-detectivejackson-21", false);
+        s.addSound("[2/4] Detective Jackson: Poxper? That...hm. This could be bad. I've heard that name, and he's a fairly prolific Orc chief. You killed him, right?", "blazingretribution-detectivejackson-20", false);
+        s.addSound("[3/4] Detective Jackson: Mmm... Hopefully that Veretel won't catch wind of it. Regardless, you've done a great service for Villager-kind!", "blazingretribution-detectivejackson-21", false);
         s.addSound("[4/4] Detective Jackson: Here's your compensation for that. Thank you for the aid!", "blazingretribution-detectivejackson-22", false);
 
 
