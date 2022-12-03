@@ -1018,8 +1018,8 @@ public class Sounds {
         s.addSound("[4/6] Orikal: Then perhaps my second theory was correct. I will have to send you underground.", "corruptedvillage-orikal-11", false);
         s.addSound("[5/6] Orikal: There are old cave systems around here from the mining days. I sent two men down to excavate the spike, can you go down and help?", "corruptedvillage-orikal-12", false);
         s.addSound("[6/6] Orikal: The entrance is a little to the northeast. In fact, you should have passed it on your way to the spike.", "corruptedvillage-orikal-13", false);
-        s.addSound("[1/3] Alfonse: This is insane, why are we here?! We're looking for corruption you know that right?", "corruptedvillage-alfonse-1", false, new Vec3d(313, 60, -1137));
-        s.addSound("[2/3] Roy: Calm down. All we have to dois keep digging. Besides, he did say he'd pay us a lot.], so stop being mad.", "corruptedvillage-roy-1", false, new Vec3d(332, 50, -1135));
+        s.addSound("[1/3] Alfonse: This is insane, why are we here?! We're looking for corruption you know that right?", "corruptedvillage-alfonse-1", false, new Vec3d(332, 50, -1135));
+        s.addSound("[2/3] Roy: Calm down. All we have to dois keep digging. Besides, he did say he'd pay us a lot.], so stop being mad.", "corruptedvillage-roy-1", false, new Vec3d(330, 44, -1120));
         s.addSound("[3/3] Alfonse: Forget it, I don't care anymore, just prime the explosive and get clear of the blast!", "corruptedvillage-alfonse-2", false);
         s.addSound("[1/17] Roy: Well, that did the trick. Let's take a look.", "corruptedvillage-roy-2", false);
         s.addSound("[2/17] Alfonse: Oh my... What... is this?", "corruptedvillage-alfonse-3", false);
@@ -5785,6 +5785,9 @@ public class Sounds {
         s.addSound("[5/6] Captured Prisoner: My key making gear is stored down the hall, behind the staircase. You can use them to craft a way inside the Queen's quarters.", "flightindistress-capturedprisoner-7", false);
         s.addSound("[6/6] Captured Prisoner: Just look into the keyhole to see how to make them. Good luck!", "flightindistress-capturedprisoner-8", false);
         s.addSound("[1/1] Captured Prisoner: My key making gear is down the hall. Use it to make a key to the Queen's quarters.", "flightindistress-capturedprisoner-9", false);
+        s.addSound("[1/3] Skyraider Queen: So you think you can just come on my ship, huh? ", "flightindistress-skyraiderqueen-1", false);
+        s.addSound("[2/3] Skyraider Queen: Kill my crew? Interrupt my plunder? ", "flightindistress-skyraiderqueen-2", false);
+        s.addSound("[3/3] Skyraider Queen: I know how to deal with 'problems' like you! ", "flightindistress-skyraiderqueen-3", false);
 
 
         s.addSound("[1/1] Ship Crew: This area is off limits to passengers during take off. Climb up to the passenger decks, there will be an attendee at your cabin.", "flightindistress-shipcrew-1", false);
@@ -5792,7 +5795,9 @@ public class Sounds {
         s.addSound("[1/1] Passenger Nancy: *Sniff*... Have you seen my child? We were in our cabin, and then he just disappeared!", "flightindistress-passengernancy-1", false);
         s.addSound("[1/1] Sub-engineer Akot: I heard that a big ship was approaching from north. I saw it from the entrance deck. I wonder what they are doing.", "flightindistress-sub-engineerakot-1", false);
         s.addSound("[1/1] Passenger Casula: Sorry, I have not seen the child you are looking for.", "flightindistress-passengercasula-1", false);
-        s.addSound("[1/2] Passenger John: Ah, yes... I saw a little child run past me. He was shouting about an airship outside or something.", "flightindistress-passengerjohn-1", false);
+        s.addSound("[1/1] Passenger John: The interior of this ship is beautiful!", "flightindistress-passengerjohn-1", false);
+        s.addSound("[1/2] Passenger John: Ah, yes...I saw a little child run past me. He was shouting about an airship outside or something.", "flightindistress-passengerjohn-2", false);
+        s.addSound("[2/2] Passenger John: He swiftly made his way down the stairs to the bottom deck. Nobody seems to have seen him inside the ship after that.", "flightindistress-passengerjohn-3", false);
         s.addSound("[1/1] Passenger Nancy: Have you found my child?", "flightindistress-passengernancy-2", false);
         s.addSound("[1/2] Passenger Jeremy: That ship the little kid that was talking about...", "flightindistress-passengerjeremy-1", false);
         s.addSound("[1/4] Calo: Hey there. You must be the Human Ackbar told me about.", "flightindistress-calo-1", false);
