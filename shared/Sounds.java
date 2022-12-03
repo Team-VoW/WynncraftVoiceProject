@@ -5785,6 +5785,9 @@ public class Sounds {
         s.addSound("[5/6] Captured Prisoner: My key making gear is stored down the hall, behind the staircase. You can use them to craft a way inside the Queen's quarters.", "flightindistress-capturedprisoner-7", false);
         s.addSound("[6/6] Captured Prisoner: Just look into the keyhole to see how to make them. Good luck!", "flightindistress-capturedprisoner-8", false);
         s.addSound("[1/1] Captured Prisoner: My key making gear is down the hall. Use it to make a key to the Queen's quarters.", "flightindistress-capturedprisoner-9", false);
+        s.addSound("[1/3] Skyraider Queen: So you think you can just come on my ship, huh? ", "flightindistress-skyraiderqueen-1", false);
+        s.addSound("[2/3] Skyraider Queen: Kill my crew? Interrupt my plunder? ", "flightindistress-skyraiderqueen-2", false);
+        s.addSound("[3/3] Skyraider Queen: I know how to deal with 'problems' like you! ", "flightindistress-skyraiderqueen-3", false);
 
 
         s.addSound("[1/1] Ship Crew: This area is off limits to passengers during take off. Climb up to the passenger decks, there will be an attendee at your cabin.", "flightindistress-shipcrew-1", false);

@@ -11548,6 +11548,19 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:flightindistress-capturedprisoner-9", "stream": true}]
   },
+  "flightindistress-skyraiderqueen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-skyraiderqueen-1", "stream": true}]
+  },
+  "flightindistress-skyraiderqueen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-skyraiderqueen-2", "stream": true}]
+  },
+  "flightindistress-skyraiderqueen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-skyraiderqueen-3", "stream": true}]
+  },
+
 
 
 
