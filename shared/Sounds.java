@@ -5363,11 +5363,63 @@ public class Sounds {
         s.addSound("[2/3] Chief Clight: We just gotta be thankful that no one died. Forget about the coal, this is what matters most. If only...", "canarycalls-clight-60", false);
         s.addSound("[3/3] Chief Clight: ...Never mind. Once the elevator is repaired, you will be able to access the mine.", "canarycalls-clight-61", false);
 
+        //The thanos depository
+        s.addSound("[1/12] Coulmis: This is just a disaster... I pray nothing goes awry with the recovery team.", "thethanosdepository-coulmis-1", false);
+        s.addSound("[2/12] Coulmis: I'd never be able to live it off if I'm responsible for more deaths.", "thethanosdepository-coulmis-2", false);
+        s.addSound("[3/12] Coulmis: But I must do what it takes to protect Thanos from any more disaster.", "thethanosdepository-coulmis-3", false);
+        s.addSound("[4/12] Atila: Sir! Coulmis, sir!", "thethanosdepository-atila-1", false);
+        s.addSound("[5/12] Coulmis: Atila, you're back! Give it to me straight, did they succeed? We can't afford any more losses.", "thethanosdepository-coulmis-4", false);
+        s.addSound("[6/12] Atila: No, sir... I'm afraid not.", "thethanosdepository-atila-2", false);
+        s.addSound("[7/12] Atila: The elevator leads right in to where the dragon lays. Without knowing when it's asleep, it's a gamble...", "thethanosdepository-atila-3", false);
+        s.addSound("[8/12] Coulmis: So we truly do need to go through the vault. But with the defense systems gone haywire...", "thethanosdepository-coulmis-5", false);
+        s.addSound("[9/12] Atila: I'm sorry sir...", "thethanosdepository-atila-4", false);
+        s.addSound("[10/12] Coulmis: Think nothing of it, let's get back to the drawing board.", "thethanosdepository-coulmis-6", false);
+        s.addSound("[11/12] Atila: Yes, I'll get to it immediately.", "thethanosdepository-atila-5", false);
+        s.addSound("[12/12] Coulmis: You there, human! What's your business here? Come speak to me.", "thethanosdepository-coulmis-7", false);
+        s.addSound("[1/1] Atila: This is not good... I'm not sure what more we can do.", "thethanosdepository-atila-6", false);
+        s.addSound("[1/11] Coulmis: What's your business here? This place is off limits, the vault is very dangerous right now.", "thethanosdepository-coulmis-8", false);
+        s.addSound("[2/11] Coulmis: Now that I look, say, that gear of yours is pretty high quality, yeah? What's your name?", "thethanosdepository-coulmis-9", false);
+        s.addSound("[3/11] Coulmis: Soldier I see, I haven't seen you around before.", "thethanosdepository-coulmis-10", false);
+        s.addSound("[3/11] Coulmis: Soldier... where have I heard that name before... Oh, I remember! You're that guy who defeated that Qira women, yeah?", "thethanosdepository-coulmis-11", false);
+        s.addSound("[4/11] Coulmis: Nevertheless, Thanos is in danger. To put it simply, a dragon is living uninvited in our despository.", "thethanosdepository-coulmis-12", false);
+        s.addSound("[5/11] Coulmis: Perhaps you've seen its lair above our city. Normally she leaves us unharmed, but one day she suddenly made her way in to this vault.", "thethanosdepository-coulmis-13", false);
+        s.addSound("[6/11] Coulmis: My great friend Atila has been leading a recon squad, he's discerned that she's nesting an egg.", "thethanosdepository-coulmis-14", false);
+        s.addSound("[7/11] Coulmis: We've tried at our greatest expenses to steal the egg, and bring it back to her nest, so that maybe she would leave... But, as you've heard, it's not going well.", "thethanosdepository-coulmis-15", false);
+        s.addSound("[8/11] Coulmis: I don't normally ask this of strangers, but we've run ourselves thin. Do you think you're up to help? I'll make sure it is worth all your trouble.", "thethanosdepository-coulmis-16", false);
+        s.addSound("[9/11] Coulmis: So you'll help!? Thank you so much! I'll make sure it's worth every moment!", "thethanosdepository-coulmis-17", false);
+        s.addSound("[10/11] Coulmis: You have to go through this chamber behind me to reach the depository. Our only other way in is right where the dragon is...", "thethanosdepository-coulmis-18", false);
+        s.addSound("[11/11] Coulmis: Atila knows some of the inner workings of the vault. I bid you good luck and will be praying for your success. Your courage will inspire Thanos.", "thethanosdepository-coulmis-19", false);
+        s.addSound("[1/2] Coulmis: Oh, so it wasn't meant to be I suppose...", "thethanosdepository-coulmis-20", false);
+        s.addSound("[2/2] Coulmis: Well, if we cross paths again, I'll always much appreciate your help... Back to the drawing board...", "thethanosdepository-coulmis-21", false);
+        s.addSound("[1/4] Coulmis: Soldier, you're back! Have you had a change of heart?", "thethanosdepository-coulmis-22", false);
+        s.addSound("[2/4] Coulmis: So you'll help!? Thank you so much! I'll make sure it's worth every moment!", "thethanosdepository-coulmis-23", false);
+        s.addSound("[3/4] Coulmis: You have to go through this chamber behind me to reach the depository. Our only other way in is right where the dragon is...", "thethanosdepository-coulmis-24", false);
+        s.addSound("[4/4] Coulmis: Atila knows some of the inner workings of the vault. I bid you good luck and will be praying for your success. Your courage will inspire Thanos.", "thethanosdepository-coulmis-25", false);
+        s.addSound("[1/1] Coulmis: I've done all that I can do now. If I went in with you, I'd only be a detriment. Good luck.", "thethanosdepository-coulmis-26", false);
+        s.addSound("[1/5] Atila: So you've taken the job. Good luck to you in there.", "thethanosdepository-atila-7", false);
+        s.addSound("[2/5] Atila: What would you like to know?", "thethanosdepository-atila-8", false);
+        s.addSound("[3/5] Atila: The way to the depository is guarded by some dragon-like sentinels. They're meant to cook any thieves to be well done.", "thethanosdepository-atila-9", false);
+        s.addSound("[4/5] Atila: There's a bit of a workaround though, if you kill the living sentinel, they'll deactivate and you can go through.", "thethanosdepository-atila-10", false);
+        s.addSound("[5/5] Atila: Make sure you don't get scorched either, the statues take a few seconds before they breath their flames. Good luck and godspeed!", "thethanosdepository-atila-11", false);
+        s.addSound("[3/5] Atila: ...We've been unable to reach Ozoth through our second entrance. We've ought to strike while she's asleep, but there's no knowing when she is.", "thethanosdepository-atila-12", false);
+        s.addSound("[4/5] Atila: You'll be going directly in to the chamber. Once you see she's asleep, you book it to the egg!", "thethanosdepository-atila-13", false);
+        s.addSound("[5/5] Atila: I understand if you're worried, but right now I can't think of anything else we can do...", "thethanosdepository-atila-14", false);
+        s.addSound("[1/2] Atila: Oh-oh my gosh!! I took you for dead, and thought the dragon was sending me up a corpse!", "thethanosdepository-atila-15", false);
+        s.addSound("[2/2] Atila: You really got it!? Hurry then, the nest is up through this cave! Maybe Thanos can finally be rid of its woes...", "thethanosdepository-atila-16", false);
+        s.addSound("[1/1] Atila: Don't wait any longer, soldier! Place the egg and we can finally lure that wretched dragon out!", "thethanosdepository-atila-17", false);
+        s.addSound("[1/4] Atila: She's a beauty, isn't she? A monster though, nevertheless.", "thethanosdepository-atila-18", false);
+        s.addSound("[2/4] Coulmis: Soldier! Over here... Atila told me the news, I came as fast as I could!", "thethanosdepository-coulmis-27", false);
+        s.addSound("[3/4] Coulmis: You're a hero, lad! With the dragon out of our city, Thanos no longer has to live in fear.", "thethanosdepository-coulmis-28", false);
+        s.addSound("[4/4] Coulmis: I've prepared your reward. The people of Thanos will remember your contribution years to come.", "thethanosdepository-coulmis-29", false);
+        s.addSound("[1/1] Atila: It's a great feat what you've accomplished. The dwarven defense system was thought to be impeccable. We'll need to rethink our security!", "thethanosdepository-atila-19", false);
+        s.addSound("[1/1] Coulmis: The people of Thanos have everlasting gratitude, soldier.", "thethanosdepository-coulmis-30", false);
+        s.addSound("[1/2] Coulmis: Thanos will no longer live in fear! You have my gratitude lad!", "thethanosdepository-coulmis-31", false);
+        s.addSound("[2/2] Coulmis: Once the depository is up and running again, we should have ourselves a hearty feast!", "thethanosdepository-coulmis-32", false);
+        s.addSound("[1/2] Atila: Soldier! Good to meet you again! Coulmis and I have been discussing repairs, and a new defense system.", "thethanosdepository-atila-20", false);
+        s.addSound("[2/2] Atila: This time it'll be dragon proof.", "thethanosdepository-atila-21", false);
+        s.addSound("[1/2] Coulmis: What's your business here? This place is off limits, the vault is very dangerous right now.", "thethanosdepository-coulmis-33", false);
+        s.addSound("[2/2] Coulmis: We're in dire need of help right now, but I can't send you to die. If you were level 81 though...", "thethanosdepository-coulmis-34", false);
 
-
-        //Thanos Vaults
-        s.addSound("[1/10] Dolem: Hello, adventurer. What brings you to Thanos? Travelling, I suppose.", "thanosvaults-dolem-1", false);
-        s.addSound("[1/4] Dolem: Very nice work. You have done well. I am rather impressed that you pulled that off so easily.", "thanosvaults-dolem-2", false);
 
         //Belly of the beast
         s.addSound("[1/9] King Burtan: Hello, traveller. I suppose you have taken note of the fearsome dragon above our fortress. ", "bellyofthebeast-kingburtan-1", false);

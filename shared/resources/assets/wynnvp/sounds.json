@@ -22863,17 +22863,227 @@
 
 
 
-
-
-
-  "thanosvaults-dolem-1": {
+  "thethanosdepository-coulmis-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thanosvaults-dolem-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-1", "stream": true}]
   },
-  "thanosvaults-dolem-2": {
+  "thethanosdepository-coulmis-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thanosvaults-dolem-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-2", "stream": true}]
   },
+  "thethanosdepository-coulmis-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-3", "stream": true}]
+  },
+  "thethanosdepository-atila-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-1", "stream": true}]
+  },
+  "thethanosdepository-coulmis-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-4", "stream": true}]
+  },
+  "thethanosdepository-atila-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-2", "stream": true}]
+  },
+  "thethanosdepository-atila-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-3", "stream": true}]
+  },
+  "thethanosdepository-coulmis-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-5", "stream": true}]
+  },
+  "thethanosdepository-atila-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-4", "stream": true}]
+  },
+  "thethanosdepository-coulmis-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-6", "stream": true}]
+  },
+  "thethanosdepository-atila-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-5", "stream": true}]
+  },
+  "thethanosdepository-coulmis-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-7", "stream": true}]
+  },
+  "thethanosdepository-atila-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-6", "stream": true}]
+  },
+  "thethanosdepository-coulmis-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-8", "stream": true}]
+  },
+  "thethanosdepository-coulmis-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-9", "stream": true}]
+  },
+  "thethanosdepository-coulmis-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-10", "stream": true}]
+  },
+  "thethanosdepository-coulmis-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-11", "stream": true}]
+  },
+  "thethanosdepository-coulmis-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-12", "stream": true}]
+  },
+  "thethanosdepository-coulmis-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-13", "stream": true}]
+  },
+  "thethanosdepository-coulmis-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-14", "stream": true}]
+  },
+  "thethanosdepository-coulmis-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-15", "stream": true}]
+  },
+  "thethanosdepository-coulmis-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-16", "stream": true}]
+  },
+  "thethanosdepository-coulmis-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-17", "stream": true}]
+  },
+  "thethanosdepository-coulmis-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-18", "stream": true}]
+  },
+  "thethanosdepository-coulmis-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-19", "stream": true}]
+  },
+  "thethanosdepository-coulmis-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-20", "stream": true}]
+  },
+  "thethanosdepository-coulmis-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-21", "stream": true}]
+  },
+  "thethanosdepository-coulmis-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-22", "stream": true}]
+  },
+  "thethanosdepository-coulmis-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-23", "stream": true}]
+  },
+  "thethanosdepository-coulmis-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-24", "stream": true}]
+  },
+  "thethanosdepository-coulmis-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-25", "stream": true}]
+  },
+  "thethanosdepository-coulmis-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-26", "stream": true}]
+  },
+  "thethanosdepository-atila-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-7", "stream": true}]
+  },
+  "thethanosdepository-atila-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-8", "stream": true}]
+  },
+  "thethanosdepository-atila-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-9", "stream": true}]
+  },
+  "thethanosdepository-atila-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-10", "stream": true}]
+  },
+  "thethanosdepository-atila-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-11", "stream": true}]
+  },
+  "thethanosdepository-atila-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-12", "stream": true}]
+  },
+  "thethanosdepository-atila-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-13", "stream": true}]
+  },
+  "thethanosdepository-atila-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-14", "stream": true}]
+  },
+  "thethanosdepository-atila-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-15", "stream": true}]
+  },
+  "thethanosdepository-atila-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-16", "stream": true}]
+  },
+  "thethanosdepository-atila-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-17", "stream": true}]
+  },
+  "thethanosdepository-atila-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-18", "stream": true}]
+  },
+  "thethanosdepository-coulmis-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-27", "stream": true}]
+  },
+  "thethanosdepository-coulmis-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-28", "stream": true}]
+  },
+  "thethanosdepository-coulmis-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-29", "stream": true}]
+  },
+  "thethanosdepository-atila-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-19", "stream": true}]
+  },
+  "thethanosdepository-coulmis-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-30", "stream": true}]
+  },
+  "thethanosdepository-coulmis-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-31", "stream": true}]
+  },
+  "thethanosdepository-coulmis-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-32", "stream": true}]
+  },
+  "thethanosdepository-atila-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-20", "stream": true}]
+  },
+  "thethanosdepository-atila-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-atila-21", "stream": true}]
+  },
+  "thethanosdepository-coulmis-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-33", "stream": true}]
+  },
+  "thethanosdepository-coulmis-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thethanosdepository-coulmis-34", "stream": true}]
+  },
+
 
 
 
