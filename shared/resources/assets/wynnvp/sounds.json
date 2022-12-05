@@ -6120,19 +6120,6 @@
   },
 
 
-  "thefortuneteller-jill-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:thefortuneteller-jill-1", "stream": true}]
-  },
-  "thefortuneteller-jill-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:thefortuneteller-jill-2", "stream": true}]
-  },
-  "thefortuneteller-farcor-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:thefortuneteller-farcor-1", "stream": true}]
-  },
-
 
   "thelost-dejol-1": {
     "category": "voice",
@@ -23086,19 +23073,6 @@
 
 
 
-
-  "bellyofthebeast-kingburtan-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:bellyofthebeast-kingburtan-1", "stream": true}]
-  },
-  "bellyofthebeast-tharroli-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:bellyofthebeast-tharroli-1", "stream": true}]
-  },
-  "bellyofthebeast-kingburtan-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:bellyofthebeast-kingburtan-2", "stream": true}]
-  },
 
 
   "purpleandblue-korun-1": {
