@@ -1075,15 +1075,42 @@ public class Sounds {
         s.addSound("[9/9] Santa: Here, take this early Craftmas present from me. Good luck with your journey!", "craftmaschaos-santa-18", false);
 
         //The Mercenary
+        s.addSound("[1/1] Mylo: These are dark times, weary traveler! Too dark for you. Come back when you are at least level 30.", "themercenary-mylo-1", false);
+        s.addSound("[1/1] Mylo: Your deeds bring me great relief! Thank you, my friend.", "themercenary-mylo-2", false);
+        s.addSound("[1/8] Mylo: These are dark times, weary traveler! Nemract is at its weakest!", "themercenary-mylo-3", false);
+        s.addSound("[2/8] Mylo: Our warriors have been massacred! We are completely defenceless!", "themercenary-mylo-4", false);
+        s.addSound("[3/8] Mylo: We once had a brave commander who lead us to victory, but I fear he has turned!", "themercenary-mylo-5", false);
+        s.addSound("[4/8] Mylo: He is the reason our warriors are dead! He led them into a trap, I'm sure of it!", "themercenary-mylo-6", false);
+        s.addSound("[5/8] Mylo: His name is Takan. He's been acting strange ever since his brother was sentenced to death by Admiral Amerigo.", "themercenary-mylo-7", false);
+        s.addSound("[6/8] Mylo: Sadly, I can't prove of his treachery. I desperately need your help! You must investigate further!", "themercenary-mylo-8", false);
+        s.addSound("[7/8] Mylo: Go talk to Admiral Amerigo in Almuj. Ask him about Takan, then ask him for reinforcements immediately!", "themercenary-mylo-9", false);
+        s.addSound("[8/8] Mylo: What!? You don't know how to reach Almuj? Just venture past Saint's Row and through the savannah!", "themercenary-mylo-10", false);
         s.addSound("[1/10] Amerigo: I have no time for you, stranger! Almuj's army is in panic!", "themercenary-amerigo-1", false);
-        s.addSound("[1/9] Amerigo: Stranger, report!", "themercenary-amerigo-2", false);
-        s.addSound("[1/1] Amerigo: I have no time for you, stranger! Run along.", "themercenary-amerigo-3", false);
-        s.addSound("[1/1] Amerigo: I need you to assassinate Commander Takan! Hurry stranger!", "themercenary-amerigo-4", false);
-        s.addSound("[1/1] Amerigo: Keep that bracelet around! I am certain you will find it useful.", "themercenary-amerigo-5", false);
-        s.addSound("[1/8] Mylo: These are dark times, weary traveler! Nemract is at its weakest!", "themercenary-mylo-1", false);
+        s.addSound("[2/10] Amerigo: You are here for Takan? In Bob's name, of course he's a traitor!", "themercenary-amerigo-2", false);
+        s.addSound("[3/10] Amerigo: You came too late, he has already caused us much trouble!", "themercenary-amerigo-3", false);
+        s.addSound("[4/10] Amerigo: After leaving Nemract, he came to Almuj's barracks and led a surprise attack of bandits! The carnage!", "themercenary-amerigo-4", false);
+        s.addSound("[5/10] Amerigo: I was just about to lead the rest of my army to retaliate, but perhaps there is a better way.", "themercenary-amerigo-5", false);
+        s.addSound("[6/10] Amerigo: Since it would seem that Nemract needs my army, I need you to take care of Takan. Who knows what he could be up to!", "themercenary-amerigo-6", false);
+        s.addSound("[7/10] Amerigo: However, the bandits that have taken over the barracks will be too strong for you! You must use stealth instead of force.", "themercenary-amerigo-7", false);
+        s.addSound("[8/10] Amerigo: Go to the barracks in the corner of the desert and assassinate Commander Takan. Bring me his badge!", "themercenary-amerigo-8", false);
+        s.addSound("[9/10] Amerigo: There should be a way to sneak in from a hole blasted on the far west side of the barracks that I escaped from.", "themercenary-amerigo-9", false);
+        s.addSound("[10/10] Amerigo: In fact, the trail of blood I left behind might lead you to him! You should be able to find him in the command room.", "themercenary-amerigo-10", false);
         s.addSound("[1/3] Takan: The commanding officers are aristocrats, all of them! They deserve to suffer for their selfishness!", "themercenary-takan-1", true);
         s.addSound("[2/3] Takan: Now that we have taken over their barracks, we can take over all of Wynn and make them suffer!", "themercenary-takan-2", true);
-        s.addSound("[3/3] Takan: Today is the dawn of a new era... GAAHHH!", "themercenary-takan-3", true);
+        s.addSound("[3/3] Takan: Today is the dawn of a new era... GAAHHH!", "themercenary-takan-3", false);
+        s.addSound("[1/9] Amerigo: Stranger, report!", "themercenary-amerigo-11", false);
+        s.addSound("[2/9] Amerigo: You... You did it?! That was rather fast, I must say!", "themercenary-amerigo-12", false);
+        s.addSound("[3/9] Amerigo: You have done this city proud, stranger. Almuj stands for another day then.", "themercenary-amerigo-13", false);
+        s.addSound("[4/9] Amerigo: Please take this small reward as a token of the city's appreciation... Hm...", "themercenary-amerigo-14", false);
+        s.addSound("[5/9] Amerigo: No, not a small reward. I will give you something that one such as yourself more than deserves.", "themercenary-amerigo-15", false);
+        s.addSound("[6/9] Amerigo: This is not any mere piece of gear. This is spoken of in fantasies, in fables.", "themercenary-amerigo-16", false);
+        s.addSound("[7/9] Amerigo: Such items have special abilities that are far beyond any of the normal magic powers you find on most things.", "themercenary-amerigo-17", false);
+        s.addSound("[8/9] Amerigo: This one, in particular is only awarded in very certain cases, and can be considered a medal of honour. Be proud!", "themercenary-amerigo-18", false);
+        s.addSound("[9/9] Amerigo: Now run along, I have to collect my own honorary badge for taking out Ex-Commander Takan.", "themercenary-amerigo-19", false);
+        s.addSound("[1/1] Amerigo: I have no time for you, stranger! Run along.", "themercenary-amerigo-20", false);
+        s.addSound("[1/1] Amerigo: I need you to assassinate Commander Takan! Hurry stranger!", "themercenary-amerigo-21", false);
+        s.addSound("[1/1] Amerigo: Keep that bracelet around! I am certain you will find it useful.", "themercenary-amerigo-22", false);
+
 
         //Green Gloop
         s.addSound("[1/9] Eluzterp: Oh, hey! You, adventurer over there! Would you mind helping me?", "greengloop-eluzterp-1", false);

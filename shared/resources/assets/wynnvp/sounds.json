@@ -3835,21 +3835,45 @@
   },
 
 
-  "themercenary-takan-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:themercenary-takan-1", "stream": true}]
-  },
-  "themercenary-takan-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:themercenary-takan-2", "stream": true}]
-  },
-  "themercenary-takan-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:themercenary-takan-3", "stream": true}]
-  },
   "themercenary-mylo-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:themercenary-mylo-1", "stream": true}]
+  },
+  "themercenary-mylo-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-mylo-2", "stream": true}]
+  },
+  "themercenary-mylo-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-mylo-3", "stream": true}]
+  },
+  "themercenary-mylo-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-mylo-4", "stream": true}]
+  },
+  "themercenary-mylo-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-mylo-5", "stream": true}]
+  },
+  "themercenary-mylo-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-mylo-6", "stream": true}]
+  },
+  "themercenary-mylo-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-mylo-7", "stream": true}]
+  },
+  "themercenary-mylo-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-mylo-8", "stream": true}]
+  },
+  "themercenary-mylo-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-mylo-9", "stream": true}]
+  },
+  "themercenary-mylo-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-mylo-10", "stream": true}]
   },
   "themercenary-amerigo-1": {
     "category": "voice",
@@ -3871,6 +3895,87 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:themercenary-amerigo-5", "stream": true}]
   },
+  "themercenary-amerigo-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-6", "stream": true}]
+  },
+  "themercenary-amerigo-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-7", "stream": true}]
+  },
+  "themercenary-amerigo-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-8", "stream": true}]
+  },
+  "themercenary-amerigo-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-9", "stream": true}]
+  },
+  "themercenary-amerigo-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-10", "stream": true}]
+  },
+  "themercenary-takan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-takan-1", "stream": true}]
+  },
+  "themercenary-takan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-takan-2", "stream": true}]
+  },
+  "themercenary-takan-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-takan-3", "stream": true}]
+  },
+  "themercenary-amerigo-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-11", "stream": true}]
+  },
+  "themercenary-amerigo-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-12", "stream": true}]
+  },
+  "themercenary-amerigo-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-13", "stream": true}]
+  },
+  "themercenary-amerigo-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-14", "stream": true}]
+  },
+  "themercenary-amerigo-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-15", "stream": true}]
+  },
+  "themercenary-amerigo-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-16", "stream": true}]
+  },
+  "themercenary-amerigo-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-17", "stream": true}]
+  },
+  "themercenary-amerigo-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-18", "stream": true}]
+  },
+  "themercenary-amerigo-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-19", "stream": true}]
+  },
+  "themercenary-amerigo-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-20", "stream": true}]
+  },
+  "themercenary-amerigo-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-21", "stream": true}]
+  },
+  "themercenary-amerigo-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themercenary-amerigo-22", "stream": true}]
+  },
+
 
 
 
