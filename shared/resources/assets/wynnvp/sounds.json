@@ -9822,6 +9822,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-sergeantklafson-2", "stream": true}]
   },
+  "tunneltrouble-sergeantklafson-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-sergeantklafson-3", "stream": true}]
+  },
+  "tunneltrouble-sergeantklafson-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-sergeantklafson-4", "stream": true}]
+  },
+  "tunneltrouble-sergeantklafson-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-sergeantklafson-5", "stream": true}]
+  },
 
 
 
