@@ -9836,6 +9836,1456 @@
   },
 
 
+  "hollowserenity-katarin-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-1", "stream": true}]
+  },
+  "hollowserenity-katarin-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-2", "stream": true}]
+  },
+  "hollowserenity-katarin-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-3", "stream": true}]
+  },
+  "hollowserenity-katarin-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-4", "stream": true}]
+  },
+  "hollowserenity-katarin-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-5", "stream": true}]
+  },
+  "hollowserenity-katarin-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-6", "stream": true}]
+  },
+  "hollowserenity-katarin-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-7", "stream": true}]
+  },
+  "hollowserenity-katarin-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-8", "stream": true}]
+  },
+  "hollowserenity-katarin-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-9", "stream": true}]
+  },
+  "hollowserenity-katarin-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-10", "stream": true}]
+  },
+  "hollowserenity-katarin-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-11", "stream": true}]
+  },
+  "hollowserenity-katarin-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-12", "stream": true}]
+  },
+  "hollowserenity-katarin-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-13", "stream": true}]
+  },
+  "hollowserenity-runo-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-1", "stream": true}]
+  },
+  "hollowserenity-runo-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-2", "stream": true}]
+  },
+  "hollowserenity-runo-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-3", "stream": true}]
+  },
+  "hollowserenity-runo-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-4", "stream": true}]
+  },
+  "hollowserenity-runo-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-5", "stream": true}]
+  },
+  "hollowserenity-runo-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-6", "stream": true}]
+  },
+  "hollowserenity-runo-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-7", "stream": true}]
+  },
+  "hollowserenity-runo-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-8", "stream": true}]
+  },
+  "hollowserenity-runo-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-9", "stream": true}]
+  },
+  "hollowserenity-runo-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-10", "stream": true}]
+  },
+  "hollowserenity-runo-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-11", "stream": true}]
+  },
+  "hollowserenity-runo-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-12", "stream": true}]
+  },
+  "hollowserenity-runo-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-13", "stream": true}]
+  },
+  "hollowserenity-runo-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-14", "stream": true}]
+  },
+  "hollowserenity-runo-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-15", "stream": true}]
+  },
+  "hollowserenity-runo-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-16", "stream": true}]
+  },
+  "hollowserenity-runo-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-runo-17", "stream": true}]
+  },
+  "hollowserenity-bip-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-1", "stream": true}]
+  },
+  "hollowserenity-bip-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-2", "stream": true}]
+  },
+  "hollowserenity-bip-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-3", "stream": true}]
+  },
+  "hollowserenity-bip-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-4", "stream": true}]
+  },
+  "hollowserenity-bip-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-5", "stream": true}]
+  },
+  "hollowserenity-bip-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-6", "stream": true}]
+  },
+  "hollowserenity-bip-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-7", "stream": true}]
+  },
+  "hollowserenity-bip-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-8", "stream": true}]
+  },
+  "hollowserenity-bip-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-9", "stream": true}]
+  },
+  "hollowserenity-bip-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-10", "stream": true}]
+  },
+  "hollowserenity-bip-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-11", "stream": true}]
+  },
+  "hollowserenity-bip-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-12", "stream": true}]
+  },
+  "hollowserenity-bip-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-13", "stream": true}]
+  },
+  "hollowserenity-bip-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-14", "stream": true}]
+  },
+  "hollowserenity-bip-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-15", "stream": true}]
+  },
+  "hollowserenity-bip-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-bip-16", "stream": true}]
+  },
+  "hollowserenity-villager-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-1", "stream": true}]
+  },
+  "hollowserenity-villager-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-2", "stream": true}]
+  },
+  "hollowserenity-villager-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-3", "stream": true}]
+  },
+  "hollowserenity-villager-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-4", "stream": true}]
+  },
+  "hollowserenity-villager-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-5", "stream": true}]
+  },
+  "hollowserenity-villager-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-6", "stream": true}]
+  },
+  "hollowserenity-villager-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-7", "stream": true}]
+  },
+  "hollowserenity-villager-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-8", "stream": true}]
+  },
+  "hollowserenity-villager-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-9", "stream": true}]
+  },
+  "hollowserenity-villager-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-10", "stream": true}]
+  },
+  "hollowserenity-villager-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-11", "stream": true}]
+  },
+  "hollowserenity-villager-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-12", "stream": true}]
+  },
+  "hollowserenity-villager-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-13", "stream": true}]
+  },
+  "hollowserenity-villager-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-14", "stream": true}]
+  },
+  "hollowserenity-villager-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-15", "stream": true}]
+  },
+  "hollowserenity-villager-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-16", "stream": true}]
+  },
+  "hollowserenity-villager-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-17", "stream": true}]
+  },
+  "hollowserenity-villager-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-18", "stream": true}]
+  },
+  "hollowserenity-villager-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-19", "stream": true}]
+  },
+  "hollowserenity-villager-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-villager-20", "stream": true}]
+  },
+  "hollowserenity-ann-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-1", "stream": true}]
+  },
+  "hollowserenity-qunit-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-qunit-1", "stream": true}]
+  },
+  "hollowserenity-annqunit-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-annqunit-1", "stream": true}]
+  },
+  "hollowserenity-ann-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-2", "stream": true}]
+  },
+  "hollowserenity-qunit-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-qunit-2", "stream": true}]
+  },
+  "hollowserenity-ann-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-3", "stream": true}]
+  },
+  "hollowserenity-qunit-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-qunit-3", "stream": true}]
+  },
+  "hollowserenity-ann-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-4", "stream": true}]
+  },
+  "hollowserenity-qunit-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-qunit-4", "stream": true}]
+  },
+  "hollowserenity-ann-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-5", "stream": true}]
+  },
+  "hollowserenity-qunit-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-qunit-5", "stream": true}]
+  },
+  "hollowserenity-ann-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-6", "stream": true}]
+  },
+  "hollowserenity-ann-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-7", "stream": true}]
+  },
+  "hollowserenity-ann-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-8", "stream": true}]
+  },
+  "hollowserenity-ann-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-9", "stream": true}]
+  },
+  "hollowserenity-qunit-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-qunit-6", "stream": true}]
+  },
+  "hollowserenity-ann-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-10", "stream": true}]
+  },
+  "hollowserenity-qunit-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-qunit-7", "stream": true}]
+  },
+  "hollowserenity-ann-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-11", "stream": true}]
+  },
+  "hollowserenity-ann-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-12", "stream": true}]
+  },
+  "hollowserenity-qunit-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-qunit-8", "stream": true}]
+  },
+  "hollowserenity-ann-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-ann-13", "stream": true}]
+  },
+  "hollowserenity-qunit-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-qunit-9", "stream": true}]
+  },
+  "hollowserenity-vera-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-1", "stream": true}]
+  },
+  "hollowserenity-vera-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-2", "stream": true}]
+  },
+  "hollowserenity-vera-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-3", "stream": true}]
+  },
+  "hollowserenity-vera-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-4", "stream": true}]
+  },
+  "hollowserenity-vera-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-5", "stream": true}]
+  },
+  "hollowserenity-vera-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-6", "stream": true}]
+  },
+  "hollowserenity-vera-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-7", "stream": true}]
+  },
+  "hollowserenity-vera-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-8", "stream": true}]
+  },
+  "hollowserenity-vera-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-9", "stream": true}]
+  },
+  "hollowserenity-vera-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-10", "stream": true}]
+  },
+  "hollowserenity-vera-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-11", "stream": true}]
+  },
+  "hollowserenity-vera-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-12", "stream": true}]
+  },
+  "hollowserenity-vera-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-13", "stream": true}]
+  },
+  "hollowserenity-vera-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-14", "stream": true}]
+  },
+  "hollowserenity-vera-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-15", "stream": true}]
+  },
+  "hollowserenity-vera-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-16", "stream": true}]
+  },
+  "hollowserenity-vera-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-17", "stream": true}]
+  },
+  "hollowserenity-vera-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-18", "stream": true}]
+  },
+  "hollowserenity-vera-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-19", "stream": true}]
+  },
+  "hollowserenity-vera-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-20", "stream": true}]
+  },
+  "hollowserenity-vera-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-21", "stream": true}]
+  },
+  "hollowserenity-vera-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-vera-22", "stream": true}]
+  },
+  "hollowserenity-aunoa-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-1", "stream": true}]
+  },
+  "hollowserenity-aunoa-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-2", "stream": true}]
+  },
+  "hollowserenity-aunoa-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-3", "stream": true}]
+  },
+  "hollowserenity-aunoa-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-4", "stream": true}]
+  },
+  "hollowserenity-aunoa-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-5", "stream": true}]
+  },
+  "hollowserenity-aunoa-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-6", "stream": true}]
+  },
+  "hollowserenity-aunoa-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-7", "stream": true}]
+  },
+  "hollowserenity-aunoa-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-8", "stream": true}]
+  },
+  "hollowserenity-aunoa-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-9", "stream": true}]
+  },
+  "hollowserenity-aunoa-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-10", "stream": true}]
+  },
+  "hollowserenity-aunoa-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-11", "stream": true}]
+  },
+  "hollowserenity-aunoa-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-12", "stream": true}]
+  },
+  "hollowserenity-aunoa-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-13", "stream": true}]
+  },
+  "hollowserenity-aunoa-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-aunoa-14", "stream": true}]
+  },
+  "hollowserenity-oldman-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-1", "stream": true}]
+  },
+  "hollowserenity-oldman-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-2", "stream": true}]
+  },
+  "hollowserenity-oldman-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-3", "stream": true}]
+  },
+  "hollowserenity-oldman-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-4", "stream": true}]
+  },
+  "hollowserenity-oldman-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-5", "stream": true}]
+  },
+  "hollowserenity-oldman-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-6", "stream": true}]
+  },
+  "hollowserenity-oldman-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-7", "stream": true}]
+  },
+  "hollowserenity-oldman-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-8", "stream": true}]
+  },
+  "hollowserenity-oldman-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-9", "stream": true}]
+  },
+  "hollowserenity-oldman-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-10", "stream": true}]
+  },
+  "hollowserenity-oldman-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-11", "stream": true}]
+  },
+  "hollowserenity-oldman-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-12", "stream": true}]
+  },
+  "hollowserenity-oldman-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-13", "stream": true}]
+  },
+  "hollowserenity-oldman-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-14", "stream": true}]
+  },
+  "hollowserenity-oldman-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-15", "stream": true}]
+  },
+  "hollowserenity-oldman-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-16", "stream": true}]
+  },
+  "hollowserenity-garvan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-1", "stream": true}]
+  },
+  "hollowserenity-garvan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-2", "stream": true}]
+  },
+  "hollowserenity-garvan-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-3", "stream": true}]
+  },
+  "hollowserenity-garvan-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-4", "stream": true}]
+  },
+  "hollowserenity-garvan-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-5", "stream": true}]
+  },
+  "hollowserenity-garvan-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-6", "stream": true}]
+  },
+  "hollowserenity-garvan-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-7", "stream": true}]
+  },
+  "hollowserenity-garvan-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-8", "stream": true}]
+  },
+  "hollowserenity-garvan-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-9", "stream": true}]
+  },
+  "hollowserenity-garvan-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-10", "stream": true}]
+  },
+  "hollowserenity-garvan-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-11", "stream": true}]
+  },
+  "hollowserenity-garvan-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-12", "stream": true}]
+  },
+  "hollowserenity-garvan-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-13", "stream": true}]
+  },
+  "hollowserenity-garvan-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-14", "stream": true}]
+  },
+  "hollowserenity-garvan-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-15", "stream": true}]
+  },
+  "hollowserenity-garvan-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-16", "stream": true}]
+  },
+  "hollowserenity-garvan-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-17", "stream": true}]
+  },
+  "hollowserenity-garvan-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-18", "stream": true}]
+  },
+  "hollowserenity-garvan-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-19", "stream": true}]
+  },
+  "hollowserenity-garvan-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-20", "stream": true}]
+  },
+  "hollowserenity-garvan-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-21", "stream": true}]
+  },
+  "hollowserenity-garvan-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-22", "stream": true}]
+  },
+  "hollowserenity-garvan-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-23", "stream": true}]
+  },
+  "hollowserenity-garvan-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-24", "stream": true}]
+  },
+  "hollowserenity-garvan-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-25", "stream": true}]
+  },
+  "hollowserenity-garvan-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-26", "stream": true}]
+  },
+  "hollowserenity-garvan-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-27", "stream": true}]
+  },
+  "hollowserenity-yorman-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-yorman-1", "stream": true}]
+  },
+  "hollowserenity-yorman-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-yorman-2", "stream": true}]
+  },
+  "hollowserenity-yorman-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-yorman-3", "stream": true}]
+  },
+  "hollowserenity-yorman-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-yorman-4", "stream": true}]
+  },
+  "hollowserenity-garvan-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-28", "stream": true}]
+  },
+  "hollowserenity-garvan-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-29", "stream": true}]
+  },
+  "hollowserenity-garvan-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-30", "stream": true}]
+  },
+  "hollowserenity-garvan-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-31", "stream": true}]
+  },
+  "hollowserenity-garvan-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-32", "stream": true}]
+  },
+  "hollowserenity-garvan-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-33", "stream": true}]
+  },
+  "hollowserenity-garvan-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-34", "stream": true}]
+  },
+  "hollowserenity-garvan-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-35", "stream": true}]
+  },
+  "hollowserenity-garvan-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-36", "stream": true}]
+  },
+  "hollowserenity-garvan-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-37", "stream": true}]
+  },
+  "hollowserenity-garvan-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-38", "stream": true}]
+  },
+  "hollowserenity-garvan-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-39", "stream": true}]
+  },
+  "hollowserenity-garvan-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-40", "stream": true}]
+  },
+  "hollowserenity-yorman-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-yorman-5", "stream": true}]
+  },
+  "hollowserenity-katarin-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-14", "stream": true}]
+  },
+  "hollowserenity-yorman-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-yorman-6", "stream": true}]
+  },
+  "hollowserenity-katarin-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-15", "stream": true}]
+  },
+  "hollowserenity-katarin-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-16", "stream": true}]
+  },
+  "hollowserenity-yorman-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-yorman-7", "stream": true}]
+  },
+  "hollowserenity-katarin-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-17", "stream": true}]
+  },
+  "hollowserenity-yorman-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-yorman-8", "stream": true}]
+  },
+  "hollowserenity-yorman-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-yorman-9", "stream": true}]
+  },
+  "hollowserenity-katarin-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-18", "stream": true}]
+  },
+  "hollowserenity-garvan-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-41", "stream": true}]
+  },
+  "hollowserenity-katarin-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-19", "stream": true}]
+  },
+  "hollowserenity-katarin-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-20", "stream": true}]
+  },
+  "hollowserenity-garvan-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-42", "stream": true}]
+  },
+  "hollowserenity-garvan-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-43", "stream": true}]
+  },
+  "hollowserenity-garvan-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-44", "stream": true}]
+  },
+  "hollowserenity-katarin-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-21", "stream": true}]
+  },
+  "hollowserenity-garvan-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-45", "stream": true}]
+  },
+  "hollowserenity-katarin-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-22", "stream": true}]
+  },
+  "hollowserenity-garvan-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-46", "stream": true}]
+  },
+  "hollowserenity-katarin-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-23", "stream": true}]
+  },
+  "hollowserenity-garvan-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-47", "stream": true}]
+  },
+  "hollowserenity-katarin-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-24", "stream": true}]
+  },
+  "hollowserenity-garvan-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-48", "stream": true}]
+  },
+  "hollowserenity-garvan-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-49", "stream": true}]
+  },
+  "hollowserenity-garvan-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-50", "stream": true}]
+  },
+  "hollowserenity-katarin-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-25", "stream": true}]
+  },
+  "hollowserenity-garvan-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-51", "stream": true}]
+  },
+  "hollowserenity-eileen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-eileen-1", "stream": true}]
+  },
+  "hollowserenity-garvan-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-52", "stream": true}]
+  },
+  "hollowserenity-eileen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-eileen-2", "stream": true}]
+  },
+  "hollowserenity-garvan-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-53", "stream": true}]
+  },
+  "hollowserenity-garvan-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-54", "stream": true}]
+  },
+  "hollowserenity-garvan-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-55", "stream": true}]
+  },
+  "hollowserenity-katarin-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-26", "stream": true}]
+  },
+  "hollowserenity-garvan-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-56", "stream": true}]
+  },
+  "hollowserenity-garvan-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-57", "stream": true}]
+  },
+  "hollowserenity-katarin-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-27", "stream": true}]
+  },
+  "hollowserenity-garvan-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-58", "stream": true}]
+  },
+  "hollowserenity-garvan-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-59", "stream": true}]
+  },
+  "hollowserenity-katarin-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-28", "stream": true}]
+  },
+  "hollowserenity-garvan-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-60", "stream": true}]
+  },
+  "hollowserenity-katarin-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-29", "stream": true}]
+  },
+  "hollowserenity-katarin-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-30", "stream": true}]
+  },
+  "hollowserenity-garvan-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-61", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-1", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-2", "stream": true}]
+  },
+  "hollowserenity-garvan-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-62", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-3", "stream": true}]
+  },
+  "hollowserenity-garvan-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-63", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-4", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-5", "stream": true}]
+  },
+  "hollowserenity-garvan-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-64", "stream": true}]
+  },
+  "hollowserenity-garvan-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-65", "stream": true}]
+  },
+  "hollowserenity-garvan-66": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-66", "stream": true}]
+  },
+  "hollowserenity-garvan-67": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-67", "stream": true}]
+  },
+  "hollowserenity-garvan-68": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-68", "stream": true}]
+  },
+  "hollowserenity-garvan-69": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-69", "stream": true}]
+  },
+  "hollowserenity-garvan-70": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-70", "stream": true}]
+  },
+  "hollowserenity-garvan-71": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-71", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-6", "stream": true}]
+  },
+  "hollowserenity-garvan-72": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-72", "stream": true}]
+  },
+  "hollowserenity-garvan-73": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-73", "stream": true}]
+  },
+  "hollowserenity-eileen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-eileen-3", "stream": true}]
+  },
+  "hollowserenity-katarin-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-31", "stream": true}]
+  },
+  "hollowserenity-eileen-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-eileen-4", "stream": true}]
+  },
+  "hollowserenity-katarin-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-32", "stream": true}]
+  },
+  "hollowserenity-servant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-servant-1", "stream": true}]
+  },
+  "hollowserenity-katarin-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-33", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-7", "stream": true}]
+  },
+  "hollowserenity-katarin-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-34", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-8", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-9", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-10", "stream": true}]
+  },
+  "hollowserenity-katarin-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-35", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-11", "stream": true}]
+  },
+  "hollowserenity-katarin-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-36", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-12", "stream": true}]
+  },
+  "hollowserenity-mysteriousleader-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-mysteriousleader-13", "stream": true}]
+  },
+  "hollowserenity-garvan-74": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-74", "stream": true}]
+  },
+  "hollowserenity-garvan-75": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-75", "stream": true}]
+  },
+  "hollowserenity-garvan-76": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-76", "stream": true}]
+  },
+  "hollowserenity-garvan-77": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-77", "stream": true}]
+  },
+  "hollowserenity-garvan-78": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-78", "stream": true}]
+  },
+  "hollowserenity-garvan-79": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-79", "stream": true}]
+  },
+  "hollowserenity-garvan-80": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-80", "stream": true}]
+  },
+  "hollowserenity-garvan-81": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-81", "stream": true}]
+  },
+  "hollowserenity-garvan-82": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-82", "stream": true}]
+  },
+  "hollowserenity-garvan-83": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-83", "stream": true}]
+  },
+  "hollowserenity-garvan-84": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-84", "stream": true}]
+  },
+  "hollowserenity-garvan-85": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-85", "stream": true}]
+  },
+  "hollowserenity-garvan-86": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-86", "stream": true}]
+  },
+  "hollowserenity-garvan-87": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-87", "stream": true}]
+  },
+  "hollowserenity-garvan-88": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-88", "stream": true}]
+  },
+  "hollowserenity-garvan-89": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-89", "stream": true}]
+  },
+  "hollowserenity-garvan-90": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-90", "stream": true}]
+  },
+  "hollowserenity-garvan-91": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-91", "stream": true}]
+  },
+  "hollowserenity-garvan-92": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-92", "stream": true}]
+  },
+  "hollowserenity-garvan-93": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-93", "stream": true}]
+  },
+  "hollowserenity-garvan-94": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-94", "stream": true}]
+  },
+  "hollowserenity-garvan-95": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-95", "stream": true}]
+  },
+  "hollowserenity-garvan-96": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-96", "stream": true}]
+  },
+  "hollowserenity-katarin-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-37", "stream": true}]
+  },
+  "hollowserenity-garvan-97": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-97", "stream": true}]
+  },
+  "hollowserenity-katarin-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-38", "stream": true}]
+  },
+  "hollowserenity-garvan-98": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-98", "stream": true}]
+  },
+  "hollowserenity-garvan-99": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-99", "stream": true}]
+  },
+  "hollowserenity-garvan-100": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-100", "stream": true}]
+  },
+  "hollowserenity-katarin-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-39", "stream": true}]
+  },
+  "hollowserenity-katarin-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-40", "stream": true}]
+  },
+  "hollowserenity-katarin-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-41", "stream": true}]
+  },
+  "hollowserenity-garvan-101": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-101", "stream": true}]
+  },
+  "hollowserenity-garvan-102": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-102", "stream": true}]
+  },
+  "hollowserenity-garvan-103": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-103", "stream": true}]
+  },
+  "hollowserenity-garvan-104": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-104", "stream": true}]
+  },
+  "hollowserenity-katarin-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-42", "stream": true}]
+  },
+  "hollowserenity-katarin-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-43", "stream": true}]
+  },
+  "hollowserenity-katarin-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-44", "stream": true}]
+  },
+  "hollowserenity-katarin-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-45", "stream": true}]
+  },
+  "hollowserenity-katarin-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-46", "stream": true}]
+  },
+  "hollowserenity-katarin-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-47", "stream": true}]
+  },
+  "hollowserenity-katarin-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-48", "stream": true}]
+  },
+  "hollowserenity-katarin-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-49", "stream": true}]
+  },
+  "hollowserenity-katarin-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-50", "stream": true}]
+  },
+  "hollowserenity-garvan-105": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-105", "stream": true}]
+  },
+  "hollowserenity-katarin-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-51", "stream": true}]
+  },
+  "hollowserenity-garvan-106": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-106", "stream": true}]
+  },
+  "hollowserenity-garvan-107": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-107", "stream": true}]
+  },
+  "hollowserenity-garvan-108": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-108", "stream": true}]
+  },
+  "hollowserenity-garvan-109": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-109", "stream": true}]
+  },
+  "hollowserenity-garvan-110": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-110", "stream": true}]
+  },
+  "hollowserenity-garvan-111": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-111", "stream": true}]
+  },
+  "hollowserenity-garvan-112": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-112", "stream": true}]
+  },
+  "hollowserenity-garvan-113": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-113", "stream": true}]
+  },
+  "hollowserenity-garvan-114": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-114", "stream": true}]
+  },
+  "hollowserenity-garvan-115": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-115", "stream": true}]
+  },
+  "hollowserenity-garvan-116": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-116", "stream": true}]
+  },
+  "hollowserenity-garvan-117": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-117", "stream": true}]
+  },
+  "hollowserenity-garvan-118": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-garvan-118", "stream": true}]
+  },
+  "hollowserenity-katarin-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-52", "stream": true}]
+  },
+  "hollowserenity-katarin-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-53", "stream": true}]
+  },
+  "hollowserenity-katarin-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-54", "stream": true}]
+  },
+  "hollowserenity-katarin-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-55", "stream": true}]
+  },
+  "hollowserenity-katarin-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-56", "stream": true}]
+  },
+  "hollowserenity-katarin-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-57", "stream": true}]
+  },
+  "hollowserenity-katarin-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-58", "stream": true}]
+  },
+  "hollowserenity-katarin-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-59", "stream": true}]
+  },
+  "hollowserenity-katarin-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-60", "stream": true}]
+  },
+  "hollowserenity-katarin-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-61", "stream": true}]
+  },
+  "hollowserenity-katarin-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-62", "stream": true}]
+  },
+  "hollowserenity-katarin-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-63", "stream": true}]
+  },
+  "hollowserenity-katarin-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-64", "stream": true}]
+  },
+  "hollowserenity-katarin-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-katarin-65", "stream": true}]
+  },
+  "hollowserenity-oldman-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-17", "stream": true}]
+  },
+  "hollowserenity-oldman-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-18", "stream": true}]
+  },
+  "hollowserenity-oldman-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-19", "stream": true}]
+  },
+  "hollowserenity-oldman-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-20", "stream": true}]
+  },
+  "hollowserenity-oldman-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-21", "stream": true}]
+  },
+  "hollowserenity-oldman-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-22", "stream": true}]
+  },
+  "hollowserenity-oldman-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-23", "stream": true}]
+  },
+  "hollowserenity-oldman-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-24", "stream": true}]
+  },
+  "hollowserenity-oldman-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-25", "stream": true}]
+  },
+  "hollowserenity-oldman-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-26", "stream": true}]
+  },
+  "hollowserenity-oldman-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-27", "stream": true}]
+  },
+  "hollowserenity-oldman-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-28", "stream": true}]
+  },
+  "hollowserenity-oldman-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-29", "stream": true}]
+  },
+  "hollowserenity-oldman-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-30", "stream": true}]
+  },
+  "hollowserenity-oldman-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-31", "stream": true}]
+  },
+  "hollowserenity-oldman-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-32", "stream": true}]
+  },
+  "hollowserenity-oldman-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-33", "stream": true}]
+  },
+  "hollowserenity-oldman-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-34", "stream": true}]
+  },
+  "hollowserenity-oldman-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-35", "stream": true}]
+  },
+  "hollowserenity-oldman-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-36", "stream": true}]
+  },
+  "hollowserenity-oldman-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-37", "stream": true}]
+  },
+  "hollowserenity-oldman-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-38", "stream": true}]
+  },
+  "hollowserenity-oldman-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-39", "stream": true}]
+  },
+  "hollowserenity-oldman-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hollowserenity-oldman-40", "stream": true}]
+  },
+
+
 
   "dejavu-asher-1": {
     "category": "voice",
