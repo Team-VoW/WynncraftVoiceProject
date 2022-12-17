@@ -2826,6 +2826,8 @@ public class Sounds {
         s.addSound("[8/9] Teacher: The tome directs the earth's force. Take it, and utilize it to shatter the stones I summon.", "orderofthegrook-earthteacher-8", false);
         s.addSound("[9/9] Teacher: The darkest parts of the stone are weak points. Find them, and learn the power of the earth.", "orderofthegrook-earthteacher-9", false);
         s.addSound("[1/1] Teacher: You know the earth's power, fledgeling. There is nothing more for you here. Go.", "orderofthegrook-earthteacher-10", false);
+        s.addSound("[1/1] Teacher: Remove the dark stone using your earth magic by right click the tome.", "orderofthegrook-earthteacher-11", false);
+        s.addSound("[1/1] Teacher: Uh oh.... Time is up! Try again!", "orderofthegrook-earthteacher-12", false);
         s.addSound("[1/10] Teacher: Hee hee, take your seats, take your seats, TAKE. YOUR SEATS! A marvelous batch of eager students today!!", "orderofthegrook-thunderteacher-1", false);
         s.addSound("[2/10] Teacher: Almost as marvelous as the powers of Thunder! Energy! Pure, unfocused energy! Devastation, desolation, and undistrialization all alike!", "orderofthegrook-thunderteacher-2", false);
         s.addSound("[3/10] Teacher: Yes, yes! Thunder is technical and versastile! Unreliable to all those who don't know how to rely upon it, to those dextrous of hand and mind!", "orderofthegrook-thunderteacher-3", false);

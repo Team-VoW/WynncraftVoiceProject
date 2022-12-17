@@ -7650,6 +7650,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:orderofthegrook-earthteacher-10", "stream": true}]
   },
+  "orderofthegrook-earthteacher-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-earthteacher-11", "stream": true}]
+  },
+  "orderofthegrook-earthteacher-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:orderofthegrook-earthteacher-12", "stream": true}]
+  },
   "orderofthegrook-thunderteacher-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:orderofthegrook-thunderteacher-1", "stream": true}]
