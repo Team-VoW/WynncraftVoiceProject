@@ -2351,14 +2351,51 @@
 
 
 
-  "clearingthecamps-kymer-1": {
+  "clearingthecamps-captainkymer-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:clearingthecamps-kymer-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-1", "stream": true}]
   },
-  "clearingthecamps-kymer-2": {
+  "clearingthecamps-captainkymer-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:clearingthecamps-kymer-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-2", "stream": true}]
   },
+  "clearingthecamps-captainkymer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-3", "stream": true}]
+  },
+  "clearingthecamps-captainkymer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-4", "stream": true}]
+  },
+  "clearingthecamps-captainkymer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-5", "stream": true}]
+  },
+  "clearingthecamps-captainkymer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-6", "stream": true}]
+  },
+  "clearingthecamps-captainkymer-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-7", "stream": true}]
+  },
+  "clearingthecamps-captainkymer-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-8", "stream": true}]
+  },
+  "clearingthecamps-captainkymer-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-9", "stream": true}]
+  },
+  "clearingthecamps-captainkymer-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-10", "stream": true}]
+  },
+  "clearingthecamps-captainkymer-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:clearingthecamps-captainkymer-11", "stream": true}]
+  },
+
 
 
   "thesewersofragni-jenprest-1": {
