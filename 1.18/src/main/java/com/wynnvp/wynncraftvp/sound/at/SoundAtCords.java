@@ -5,13 +5,14 @@ import net.minecraft.client.sound.MovingSoundInstance;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.random.Random;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class SoundAtCords extends MovingSoundInstance {
 
     public SoundAtCords(SoundEvent soundEvent, SoundObject soundObject, Vec3d position) {
-        super(soundEvent, SoundCategory.VOICE);
+        super(soundEvent, SoundCategory.VOICE, Random.create());
         this.volume = soundObject.getFallOff() == 0 ? config.getBlockCutOff() / 16f : soundObject.getFallOff() / 16f;
         this.x = (float) position.x;
         this.z = (float) position.z;

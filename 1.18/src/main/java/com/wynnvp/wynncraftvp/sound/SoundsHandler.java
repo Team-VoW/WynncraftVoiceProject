@@ -2,11 +2,14 @@ package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
-import net.minecraft.client.util.math.Vector3d;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.Vec3d;
-import net.minecraft.util.registry.Registry;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -31,9 +34,9 @@ public class SoundsHandler {
     public static SoundEvent registerSound(String name) {
 
         Identifier id = new Identifier(ModCore.MODID, name.toLowerCase());
-        SoundEvent se = new SoundEvent(id);
+        SoundEvent se = SoundEvent.of(id);
 
-        Registry.register(Registry.SOUND_EVENT, id, se);
+        Registry.register(Registries.SOUND_EVENT, id, se);
 
         return se;
     }
