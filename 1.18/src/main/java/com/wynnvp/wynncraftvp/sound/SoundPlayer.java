@@ -43,22 +43,22 @@ public class SoundPlayer {
     private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData, ClientPlayerEntity player, ClientWorld world) {
         String line = lineData.getSoundLine();
 
-        System.out.println("Trying to play " + lineData.getRealLine());
-        System.out.println("Checked line: " + line);
+    //    System.out.println("Trying to play " + lineData.getRealLine());
+   //     System.out.println("Checked line: " + line);
         if (soundsHandler.get(line).isEmpty()) {
 
-            System.out.println("DID NOT CONTAIN LINE");
+    //        System.out.println("DID NOT CONTAIN LINE");
             lineReporter.MissingLine(lineData);
             return false;
         }
 
         if (player == null) {
-            System.out.println("Player is null! Sound not played.");
+       //     System.out.println("Player is null! Sound not played.");
             return false;
         }
 
         if (world == null) {
-            System.out.println("World is null! Sound not played.");
+         //   System.out.println("World is null! Sound not played.");
             return false;
         }
 

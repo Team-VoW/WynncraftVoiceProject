@@ -1,14 +1,14 @@
 [
 {
   "modid": "wynnvp",
-  "name": "Wynncraft Voice Project",
+  "name": "Voices of Wynn",
   "description": "Adds voice acting to Wynncraft!",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["Sockmower", "Techtician", "kmaxi", "KingoZ_"],
-  "credits": "The WynnVP Team and Voice Actors",
+  "credits": "The Voices of wynn Team and Voice Actors",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
