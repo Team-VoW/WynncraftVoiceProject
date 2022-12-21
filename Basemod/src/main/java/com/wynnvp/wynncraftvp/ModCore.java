@@ -27,8 +27,8 @@ public class ModCore {
     public static File config;
 
     public static final String MODID = "wynnvp";
-    public static final String NAME = "Wynncraft Voice Project";
-    public static final String VERSION = "0.2"; // Don't forget to edit this
+    public static final String NAME = "Voices of wynn";
+    public static final String VERSION = "1.2"; // Don't forget to edit this
     public static boolean inServer = false;
     public static boolean inLiveWynnServer = false;
     public SoundsHandler soundsHandler;
