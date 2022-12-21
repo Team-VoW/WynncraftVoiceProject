@@ -24,18 +24,19 @@ public class VersionChecker {
         String killSwitchVersion = null;
         String newestVersion = null;
         String updateVersion = null;
+        String directUpdateLink = null;
+        String updateInfoPageLink = null;
         try {
             fact = jsonObject.get("fact").getAsString();
             killSwitchVersion = jsonObject.get("fabric_killSwitchVersion").getAsString();
             newestVersion = jsonObject.get("fabric_newestVersion").getAsString();
             updateVersion = jsonObject.get("fabric_updateNotification").getAsString();
+            directUpdateLink = jsonObject.get("fabric_directUpdateLink").getAsString();
+            updateInfoPageLink = jsonObject.get("fabric_updateInfopageLink").getAsString();
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        if (fact != null && config.isSendFunFact()) {
-            Utils.sendMessage("§9Fun fact: " + fact);
-        }
 
         if (newestVersion == null) {
             return;
@@ -43,28 +44,12 @@ public class VersionChecker {
 
         String version = ModCore.VERSION;
 
-        float versionInFloat = 0;
-        float mult = 1;
-        for (String str : version.split("\\.")) {
-            versionInFloat += Float.parseFloat(str) / mult;
-            mult /= 100;
-        }
+        float versionInFloat = GetVersionNumberInFloat(version);
+        float killSwitchVersionInFloat = GetVersionNumberInFloat(killSwitchVersion);
+        assert updateVersion != null;
+        float updateVersionInFloat = GetVersionNumberInFloat(updateVersion);
 
-        float killSwitchVersionInFloat = 0;
-        mult = 1;
-        for (String str : killSwitchVersion.split("\\.")) {
-            killSwitchVersionInFloat += Float.parseFloat(str) / mult;
-            mult /= 100;
-        }
-
-        float updateVersionInFloat = 0;
-        mult = 1;
-        for (String str : killSwitchVersion.split("\\.")) {
-            updateVersionInFloat += Float.parseFloat(str) / mult;
-            mult /= 100;
-        }
-
-        //If it is on a killswitch version. This is to disable the mod in case some game breaking bug is found
+        //If it is on a kill switch version. This is to disable the mod in case some game breaking bug is found
         //such as people being able to trigger sound files through chat messages
         if (killSwitchVersionInFloat >= versionInFloat) {
             ReceiveChatEvent.stopMod = true;
@@ -73,18 +58,32 @@ public class VersionChecker {
         }
         isOnUpToDateVersion = version.equals(newestVersion);
 
-        //Is using newest version
+        //Is using the newest version
         if (versionInFloat > updateVersionInFloat) {
+
+            if (fact != null && config.isSendFunFact()) {
+                Utils.sendMessage("§9Fun fact: " + fact);
+            }
             return;
         }
 
         //Send message to player about being on an old version
-        String message = "§8A new version of §5Voices of Wynn§8 is available! You are using version: §4"
-                + version + " §8and the newest version is: §2" + newestVersion + ".\n Please update using the installer.";
-
-        Utils.sendMessage(message);
+        Utils.sendMessage("§9A new version of §5Voices of Wynn§9 is available! You are using version: §4" + version + " §9and the newest version is: §2" + newestVersion + ".");
+        Utils.sendMessageWithLink("§9To download our updater, click §b§l§nHERE", directUpdateLink);
+        Utils.sendMessageWithLink("§9To see the changelog and display other download options, click §b§l§nHERE", updateInfoPageLink);
 
     }
+
+    private static float GetVersionNumberInFloat(String version){
+        float output = 0;
+        float multiplier = 1;
+        for (String str : version.split("\\.")) {
+            output += Float.parseFloat(str) / multiplier;
+            multiplier /= 100;
+        }
+        return output;
+    }
+
 
 
     private static JsonObject getVersionCheckFromWebsite() {
