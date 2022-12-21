@@ -67,10 +67,10 @@ public class VersionChecker {
             return;
         }
 
-        //Send message to player about being on an old version
         Utils.sendMessage("§9A new version of §5Voices of Wynn§9 is available! You are using version: §4" + version + " §9and the newest version is: §2" + newestVersion + ".");
-        Utils.sendMessageWithLink("§9To download our updater, click §b§l§nHERE", directUpdateLink);
-        Utils.sendMessageWithLink("§9To see the changelog and display other download options, click §b§l§nHERE", updateInfoPageLink);
+        Utils.sendMessageWithLink("§9To download our updater, click §b§nhere", directUpdateLink);
+        Utils.sendMessageWithLink("§9To see the changelog and display other download options, click §b§nhere", updateInfoPageLink);
+
 
     }
 
