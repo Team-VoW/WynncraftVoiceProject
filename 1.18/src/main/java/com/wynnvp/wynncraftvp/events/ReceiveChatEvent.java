@@ -4,6 +4,7 @@ import com.mojang.authlib.minecraft.client.MinecraftClient;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
+import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
@@ -96,7 +97,7 @@ public class ReceiveChatEvent {
 
     private static String GetPlayerName(String eventMessageToString) {
 
-        String realName = Minecraft.getInstance().player.getName().toString();
+        String realName = Minecraft.getInstance().player.getName().getString();
 
         String segments[] = eventMessageToString.split("hoverEvent=HoverEvent\\{action=SHOW_TEXT, value='TextComponent\\{text='");
         if (segments.length <= 1) return realName;
