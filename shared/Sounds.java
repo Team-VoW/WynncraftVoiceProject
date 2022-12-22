@@ -3762,7 +3762,7 @@ public class Sounds {
         s.addSound("[5/17] Garvan: H-huh? Why c-can't I...?", "hollowserenity-garvan-95", false);
         s.addSound("[6/17] Garvan: K-Katarin...?", "hollowserenity-garvan-96", false);
         s.addSound("[7/17] Katarin: For.. For... give... ness...?", "hollowserenity-katarin-37", false);
-        s.addSound("[8/17] Garvan: What... What do you mean?? Speak, my love! I don't understand.", "hollowserenity-garvan-97", false);
+        s.addSound("[8/17] Garvan: What... What do you mean?? Speak, my love! I don't understand", "hollowserenity-garvan-97", false);
         s.addSound("[9/17] Katarin: ...Forgiveness...? You... beg for me... to forgive... you?", "hollowserenity-katarin-38", false);
         s.addSound("[10/17] Garvan: I... Yes, yes! P-Please, my love! I-I know I've spent the last century and a half running away from u-us, but...", "hollowserenity-garvan-98", false);
         s.addSound("[11/17] Garvan: It was all my fault, from the beginning! I was wrong! W-We can fix this...! We can make everything go back to normal, j-just like it was before!", "hollowserenity-garvan-99", false);
@@ -3803,7 +3803,7 @@ public class Sounds {
         s.addSound("[3/4] Katarin: Now, I'm... finally free. But... I suppose I still have unfinished business. Before I leave, I must know something.", "hollowserenity-katarin-54", false);
         s.addSound("[4/4] Katarin: ...What has become of my daughter, Eileen? Has she suffered any more? Or did she escape?", "hollowserenity-katarin-55", false);
         s.addSound("[1/1] Katarin: I must know. Is she okay?", "hollowserenity-katarin-56", false);
-        s.addSound("[1/4] Katarin: ...I see. That is... wonderful news. Thank you, human.", "hollowserenity-katarin-57", false);
+        s.addSound("[1/5] Katarin: ...I see. That is... wonderful news. Thank you, human.", "hollowserenity-katarin-57", false);
         s.addSound("[2/4] Katarin: I must... leave... The pain...", "hollowserenity-katarin-58", false);
         s.addSound("[3/4] Katarin: ...The pain is receding... The heavens are calling... for the final time...", "hollowserenity-katarin-59", false);
         s.addSound("[4/4] Katarin: Goodbye... Thank you human, from the bottom of my heart.", "hollowserenity-katarin-60", false);
