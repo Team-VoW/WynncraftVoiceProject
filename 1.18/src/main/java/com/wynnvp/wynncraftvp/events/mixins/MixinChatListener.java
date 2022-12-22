@@ -1,9 +1,8 @@
 package com.wynnvp.wynncraftvp.events.mixins;
 
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
-import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.client.multiplayer.ClientPacketListener;
-import net.minecraft.network.protocol.game.ClientboundPlayerChatPacket;
+import net.minecraft.network.protocol.game.ClientboundSystemChatPacket;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -13,32 +12,20 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MixinChatListener {
 
     @Inject(
-            method = "handlePlayerChat",
+            method = "handleSystemChat",
             at =
             @At(
                     value = "INVOKE",
                     target =
-                            "Lnet/minecraft/client/multiplayer/chat/ChatListener;handlePlayerChatMessage(Lnet/minecraft/network/chat/PlayerChatMessage;Lcom/mojang/authlib/GameProfile;Lnet/minecraft/network/chat/ChatType$Bound;)V")
-    )
+                            "Lnet/minecraft/client/multiplayer/chat/ChatListener;handleSystemMessage(Lnet/minecraft/network/chat/Component;Z)V"),
+            cancellable = true)
+    public void onMessage(ClientboundSystemChatPacket packet, CallbackInfo ci) {
 
-    public void onMessage(ClientboundPlayerChatPacket packet, CallbackInfo ci) {
-
-        //  par1.content().getString()
-        //  if (par1.getType() == MessageType.CHAT || par1.getType() == MessageType.SYSTEM) {
-        //    String message = par1.getMessage().getString();
-
-                //String message = par1.content().getString();
-        Utils.sendMessage("Got message");
-
-        if (packet.unsignedContent() == null)
+        if (packet.content().getString().contains("[Voices of Wynn]") || packet.overlay())
             return;
 
 
-        Utils.sendMessage("unsigned content.getcontents.tostring: " + packet.unsignedContent().getContents().toString());
-        Utils.sendMessage("unsignedContent.tostring: " + packet.unsignedContent().toString());
-        Utils.sendMessage("Type: " + packet.chatType().chatType());
-
-        ReceiveChatEvent.receivedChat(packet.unsignedContent().getString());
+        ReceiveChatEvent.receivedChat(packet.content().getString());
 
     }
 }
