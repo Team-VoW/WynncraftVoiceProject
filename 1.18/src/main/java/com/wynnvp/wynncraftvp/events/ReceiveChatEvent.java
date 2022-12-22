@@ -1,21 +1,18 @@
 package com.wynnvp.wynncraftvp.events;
 
+import com.mojang.authlib.minecraft.client.MinecraftClient;
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.config.VOWConfig;
-import com.wynnvp.wynncraftvp.gui.LineReportGUI;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.util.math.Vec3d;
-
-import javax.sound.sampled.Line;
+import net.minecraft.client.Minecraft;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.phys.Vec3;
 
 public class ReceiveChatEvent {
 
-    private static final Vec3d mixedFeelingsNPC1 = new Vec3d(-5881, 17, -2464);
-    private static final Vec3d mixedFeelingsNPC2 = new Vec3d(-5835, 16, -2463);
-    private static final Vec3d mixedFeelingsNPC3 = new Vec3d(-5807, 16, -2421);
+    private static final Vec3 mixedFeelingsNPC1 = new Vec3(-5881, 17, -2464);
+    private static final Vec3 mixedFeelingsNPC2 = new Vec3(-5835, 16, -2463);
+    private static final Vec3 mixedFeelingsNPC3 = new Vec3(-5807, 16, -2421);
 
     public static boolean stopMod = false;
 
@@ -59,19 +56,18 @@ public class ReceiveChatEvent {
 
 
     private static boolean isInMixedFeelingsQuest() {
-        PlayerEntity player = MinecraftClient.getInstance().player;
-        return player.getPos().distanceTo(mixedFeelingsNPC1) < 250;
-
+        Player player = Minecraft.getInstance().player;
+        return player.position().distanceTo(mixedFeelingsNPC1) < 250;
     }
 
     private static String getMixedFeelingsLine(String msg) {
-        PlayerEntity player = MinecraftClient.getInstance().player;
+        Player player = Minecraft.getInstance().player;
 
-        if (player.getPos().distanceTo(mixedFeelingsNPC1) < 15) {
+        if (player.position().distanceTo(mixedFeelingsNPC1) < 15) {
             msg = GetRightMixedFeelingsLine("mixedfeelingscorkuscitycitizen1", msg);
-        } else if (player.getPos().distanceTo(mixedFeelingsNPC2) < 15) {
+        } else if (player.position().distanceTo(mixedFeelingsNPC2) < 15) {
             msg = GetRightMixedFeelingsLine("mixedfeelingscorkuscitycitizen2", msg);
-        } else if (player.getPos().distanceTo(mixedFeelingsNPC3) < 15) {
+        } else if (player.position().distanceTo(mixedFeelingsNPC3) < 15) {
             msg = GetRightMixedFeelingsLine("mixedfeelingscorkuscitycitizen3", msg);
         }
 
@@ -100,7 +96,7 @@ public class ReceiveChatEvent {
 
     private static String GetPlayerName(String eventMessageToString) {
 
-        String realName = MinecraftClient.getInstance().player.getEntityName();
+        String realName = Minecraft.getInstance().player.getName().toString();
 
         String segments[] = eventMessageToString.split("hoverEvent=HoverEvent\\{action=SHOW_TEXT, value='TextComponent\\{text='");
         if (segments.length <= 1) return realName;

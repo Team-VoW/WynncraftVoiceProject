@@ -2,14 +2,13 @@ package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryBuilder;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.entry.RegistryEntry;
-import net.minecraft.sound.SoundEvent;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.math.Vec3d;
+
+
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.phys.Vec3;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -33,10 +32,12 @@ public class SoundsHandler {
 
     public static SoundEvent registerSound(String name) {
 
-        Identifier id = new Identifier(ModCore.MODID, name.toLowerCase());
-        SoundEvent se = SoundEvent.of(id);
+        ResourceLocation id = new ResourceLocation(ModCore.MODID, name.toLowerCase());
+        SoundEvent se = SoundEvent.createVariableRangeEvent(id);
 
-        Registry.register(Registries.SOUND_EVENT, id, se);
+        Registry.register(BuiltInRegistries.SOUND_EVENT, id, se);
+
+
 
         return se;
     }
@@ -51,16 +52,16 @@ public class SoundsHandler {
      */
     public void addSound(String message, String id, boolean movingSound) {
 
-       addSound(message, id, movingSound, null);
+        addSound(message, id, movingSound, null);
     }
 
-    public void addSound(String message, String id, boolean movingSound, Vec3d position) {
+    public void addSound(String message, String id, boolean movingSound, Vec3 position) {
 
         addSound(message, id, movingSound, position, 0);
     }
 
     //If position is 0 null use default. If falloff is 0 use default
-    public void addSound(String message, String id, boolean movingSound, Vec3d position, int fallOff) {
+    public void addSound(String message, String id, boolean movingSound, Vec3 position, int fallOff) {
 
         LineData lineData = formatToLineData(message);
         npcNames.add(lineData.getNPCName());

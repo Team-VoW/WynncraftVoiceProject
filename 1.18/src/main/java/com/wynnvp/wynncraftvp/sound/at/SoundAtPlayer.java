@@ -1,22 +1,22 @@
 package com.wynnvp.wynncraftvp.sound.at;
 
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.network.ClientPlayerEntity;
-import net.minecraft.client.sound.MovingSoundInstance;
-import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvent;
-import net.minecraft.util.math.random.Random;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.sounds.AbstractTickableSoundInstance;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.entity.player.Player;
 
-public class SoundAtPlayer extends MovingSoundInstance {
+public class SoundAtPlayer extends AbstractTickableSoundInstance {
 
     public SoundAtPlayer(SoundEvent soundEvent) {
-        super(soundEvent, SoundCategory.VOICE, Random.create());
+        super(soundEvent, SoundSource.VOICE, RandomSource.create());
     }
 
 
     @Override
     public void tick() {
-        ClientPlayerEntity p = MinecraftClient.getInstance().player;
+        Player p = Minecraft.getInstance().player;
         x = p.getX();
         y = p.getY();
         z = p.getZ();

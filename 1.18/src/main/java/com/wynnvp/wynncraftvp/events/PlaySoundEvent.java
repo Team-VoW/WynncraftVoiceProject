@@ -1,37 +1,41 @@
 package com.wynnvp.wynncraftvp.events;
 
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.sound.Sound;
-import net.minecraft.client.sound.SoundInstance;
-import net.minecraft.client.sound.SoundManager;
-import net.minecraft.client.sound.WeightedSoundSet;
-import net.minecraft.sound.SoundCategory;
-import net.minecraft.util.Identifier;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.sounds.Sound;
+import net.minecraft.client.resources.sounds.SoundInstance;
+import net.minecraft.client.sounds.SoundManager;
+import net.minecraft.client.sounds.WeighedSoundEvents;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundSource;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 public class PlaySoundEvent {
 
-    public static void SoundPlayed(SoundInstance sound, CallbackInfo ci){
-        if (!(sound.getCategory() == SoundCategory.MASTER))
+    public static void SoundPlayed(SoundInstance sound, CallbackInfo ci) {
+
+        if (!(sound.getSource() == SoundSource.MASTER))
             return;
-        SoundManager manager = MinecraftClient.getInstance().getSoundManager();
+        SoundManager manager = Minecraft.getInstance().getSoundManager();
 
         ci.cancel();
-        manager.play(changeCategory(sound, SoundCategory.BLOCKS));
+
+        manager.play(changeCategory(sound, SoundSource.BLOCKS));
     }
 
-    private static SoundInstance changeCategory(SoundInstance sound, SoundCategory soundCategory){
+    private static SoundInstance changeCategory(SoundInstance sound, SoundSource soundCategory) {
+
 
         return new SoundInstance() {
             @Override
-            public Identifier getId() {
-                return sound.getId();
+            public ResourceLocation getLocation() {
+                return sound.getLocation();
             }
+
             @Nullable
             @Override
-            public WeightedSoundSet getSoundSet(SoundManager soundManager) {
-                return sound.getSoundSet(soundManager);
+            public WeighedSoundEvents resolve(SoundManager manager) {
+                return sound.resolve(manager);
             }
 
             @Override
@@ -40,13 +44,13 @@ public class PlaySoundEvent {
             }
 
             @Override
-            public SoundCategory getCategory() {
+            public SoundSource getSource() {
                 return soundCategory;
             }
 
             @Override
-            public boolean isRepeatable() {
-                return sound.isRepeatable();
+            public boolean isLooping() {
+                return sound.isLooping();
             }
 
             @Override
@@ -55,8 +59,8 @@ public class PlaySoundEvent {
             }
 
             @Override
-            public int getRepeatDelay() {
-                return sound.getRepeatDelay();
+            public int getDelay() {
+                return sound.getDelay();
             }
 
             @Override
@@ -85,8 +89,8 @@ public class PlaySoundEvent {
             }
 
             @Override
-            public AttenuationType getAttenuationType() {
-                return sound.getAttenuationType();
+            public Attenuation getAttenuation() {
+                return sound.getAttenuation();
             }
         };
     }

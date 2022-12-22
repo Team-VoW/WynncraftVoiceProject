@@ -3,8 +3,8 @@ package com.wynnvp.wynncraftvp.sound.line;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
+import net.minecraft.world.entity.player.Player;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -55,12 +55,12 @@ public class LineReporter {
     private void reportUnvoicedLine(LineData lineData) throws IOException {
 
         String npcName = lineData.getNPCName();
-        String name = config.isAnonymous() ? "anonymous" : MinecraftClient.getInstance().player.getName().toString();
+        String name = config.isAnonymous() ? "anonymous" : Minecraft.getInstance().player.getName().toString();
         String fullLine = lineData.getRealLine();
-        PlayerEntity p = MinecraftClient.getInstance().player;
-        int CoordX = (int) p.getPos().x;
-        int CoordY = (int) p.getPos().y;
-        int CoordZ = (int) p.getPos().z;
+        Player p = Minecraft.getInstance().player;
+        int CoordX = (int) p.position().x;
+        int CoordY = (int) p.position().y;
+        int CoordZ = (int) p.position().z;
 
         URL urlObj = new URL("http://voicesofwynn.com/api/unvoiced-line-report/new");
         HttpURLConnection connection = (HttpURLConnection) urlObj.openConnection();

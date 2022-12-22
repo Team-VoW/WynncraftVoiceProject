@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.sound;
 
-import net.minecraft.sound.SoundEvent;
+
+import net.minecraft.sounds.SoundEvent;
 
 public record CustomSoundClass(SoundEvent soundEvent, boolean movingSound) {
 

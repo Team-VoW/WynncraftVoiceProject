@@ -7,12 +7,12 @@ import com.wynnvp.wynncraftvp.sound.at.SoundAtCords;
 import com.wynnvp.wynncraftvp.sound.at.SoundAtPlayer;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.sound.line.LineReporter;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.network.ClientPlayerEntity;
-import net.minecraft.client.sound.SoundManager;
-import net.minecraft.client.world.ClientWorld;
-import net.minecraft.sound.SoundEvent;
-import net.minecraft.util.math.Vec3d;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.multiplayer.ClientLevel;
+import net.minecraft.client.sounds.SoundManager;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.phys.Vec3;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
 
@@ -30,8 +30,9 @@ public class SoundPlayer {
     public void playSound(LineData lineData) {
         String line = lineData.getSoundLine();
 
-        ClientPlayerEntity player = MinecraftClient.getInstance().player;
-        ClientWorld world = MinecraftClient.getInstance().world;
+        Player player = Minecraft.getInstance().player;
+        ClientLevel world = Minecraft.getInstance().level;
+
         SoundsHandler soundsHandler = ModCore.instance.soundsHandler;
 
         if (!canPlaySound(soundsHandler, lineData, player, world))
@@ -40,25 +41,25 @@ public class SoundPlayer {
         soundsHandler.get(line).ifPresent(this::PlaySoundObject);
     }
 
-    private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData, ClientPlayerEntity player, ClientWorld world) {
+    private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData, Player player, ClientLevel world) {
         String line = lineData.getSoundLine();
 
-    //    System.out.println("Trying to play " + lineData.getRealLine());
-   //     System.out.println("Checked line: " + line);
+        //System.out.println("Trying to play " + lineData.getRealLine());
+        //System.out.println("Checked line: " + line);
         if (soundsHandler.get(line).isEmpty()) {
 
-    //        System.out.println("DID NOT CONTAIN LINE");
+        //System.out.println("DID NOT CONTAIN LINE");
             lineReporter.MissingLine(lineData);
             return false;
         }
 
         if (player == null) {
-       //     System.out.println("Player is null! Sound not played.");
+       //System.out.println("Player is null! Sound not played.");
             return false;
         }
 
         if (world == null) {
-         //   System.out.println("World is null! Sound not played.");
+            //System.out.println("World is null! Sound not played.");
             return false;
         }
 
@@ -66,12 +67,12 @@ public class SoundPlayer {
     }
 
     private void PlaySoundObject(SoundObject sound) {
-        ClientPlayerEntity player = MinecraftClient.getInstance().player;
+        Player player = Minecraft.getInstance().player;
         assert player != null;
-        SoundManager manager = MinecraftClient.getInstance().getSoundManager();
+        SoundManager manager = Minecraft.getInstance().getSoundManager();
 
         //Stops all sounds so that not multiple voice lines are played over each other
-        manager.stopAll();
+        manager.stop();
 
         final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
         final SoundEvent soundEvent = customSoundClass.soundEvent();
@@ -90,10 +91,10 @@ public class SoundPlayer {
         }
 
         String rawName = sound.getNpcName().toLowerCase().replace(" ", "");
-        Vec3d npcPosition = NPCHandler.findPosition(rawName);
+        Vec3 npcPosition = NPCHandler.findPosition(rawName);
 
         if (npcPosition == null || isOutsideReach(sound, player, npcPosition)) {
-            playSoundAtCords(player.getPos(), sound, manager);
+            playSoundAtCords(player.position(), sound, manager);
             return;
         }
 
@@ -101,18 +102,15 @@ public class SoundPlayer {
 
     }
 
-    private void playSoundAtCords(Vec3d position, SoundObject soundObject, SoundManager manager) {
+    private void playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {
 
         SoundEvent soundEvent = soundObject.getCustomSoundClass().soundEvent();
-        /*
-        float volume = soundObject.getFallOff() == 0 ? config.getBlockCutOff() / 16f : soundObject.getFallOff() / 16f;
-        pl.clientWorld.playSound(blockPos.x, blockPos.y, blockPos.z, soundEvent, SoundCategory.VOICE, volume, 1, false);*/
         manager.play(new SoundAtCords(soundEvent, soundObject, position));
     }
 
-    private boolean isOutsideReach(SoundObject soundObject, ClientPlayerEntity player, Vec3d npcPosition) {
-        return (player.getPos().squaredDistanceTo(npcPosition) >= config.getBlockCutOff() * config.getBlockCutOff()
-                && player.getPos().squaredDistanceTo(npcPosition) >= soundObject.getFallOff() * soundObject.getFallOff());
+    private boolean isOutsideReach(SoundObject soundObject, Player player, Vec3 npcPosition) {
+        return (player.position().distanceToSqr(npcPosition) >= config.getBlockCutOff() * config.getBlockCutOff()
+                && player.position().distanceToSqr(npcPosition) >= soundObject.getFallOff() * soundObject.getFallOff());
     }
 
 

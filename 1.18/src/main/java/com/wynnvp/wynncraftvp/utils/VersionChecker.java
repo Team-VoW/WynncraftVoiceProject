@@ -4,7 +4,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
-import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.Minecraft;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -89,7 +89,7 @@ public class VersionChecker {
     private static JsonObject getVersionCheckFromWebsite() {
 
         //Hashes the UUID for it to be anonymous
-        String hashedUUID = Utils.sha256(MinecraftClient.getInstance().player.getUuid().toString());
+        String hashedUUID = Utils.sha256(Minecraft.getInstance().player.getUUID().toString());
         String url = "http://voicesofwynn.com/api/version/check?id=" + hashedUUID;
 
         JsonObject jsonObject = null;

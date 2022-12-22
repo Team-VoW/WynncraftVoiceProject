@@ -1,26 +1,20 @@
 package com.wynnvp.wynncraftvp.events.mixins;
 
 import com.wynnvp.wynncraftvp.events.JoinServerEvent;
-import net.minecraft.client.network.ClientLoginNetworkHandler;
-import net.minecraft.network.ClientConnection;
-import net.minecraft.network.packet.s2c.login.LoginSuccessS2CPacket;
-import org.spongepowered.asm.mixin.Final;
+import net.minecraft.client.multiplayer.ClientHandshakePacketListenerImpl;
+import net.minecraft.network.chat.Component;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-@Mixin(ClientLoginNetworkHandler.class)
+@Mixin(ClientHandshakePacketListenerImpl.class)
 public class MixinServerConnectListener {
 
-    @Shadow
-    @Final
-    private ClientConnection connection;
 
-    @Inject(at = @At("RETURN"), method = "onSuccess")
-    private void onSuccess(LoginSuccessS2CPacket packet, CallbackInfo ci) {
-        JoinServerEvent.run(connection.getAddress().toString());
+    @Inject(at = @At("RETURN"), method = "authenticateServer")
+    private void onSuccess(String serverHash, CallbackInfoReturnable<Component> cir) {
+        JoinServerEvent.run(serverHash);
     }
 
 }

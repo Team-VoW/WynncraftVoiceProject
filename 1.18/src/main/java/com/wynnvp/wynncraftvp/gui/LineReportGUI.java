@@ -10,16 +10,17 @@ import io.github.cottonmc.cotton.gui.widget.WSprite;
 import io.github.cottonmc.cotton.gui.widget.data.HorizontalAlignment;
 import io.github.cottonmc.cotton.gui.widget.icon.ItemIcon;
 import me.shedaniel.autoconfig.AutoConfig;
-import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.gui.screen.TitleScreen;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.screens.TitleScreen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 
 public class LineReportGUI extends LightweightGuiDescription {
 
-    private final Identifier image = new Identifier(ModCore.MODID, "wynnvplogo.png");
+    private final ResourceLocation image = new ResourceLocation(ModCore.MODID, "wynnvplogo.png");
+
 
     public LineReportGUI() {
         WGridPanel root = new WGridPanel();
@@ -37,29 +38,29 @@ public class LineReportGUI extends LightweightGuiDescription {
     }
 
     private void AddText(WGridPanel root) {
-        root.add(new WLabel(Text.of("VOICES OF WYNN")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 1);
-        root.add(new WLabel(Text.of("Would you like your game to report unvoiced dialogues")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 2);
-        root.add(new WLabel(Text.of("encountered while playing Wynncraft to improve")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 3);
-        root.add(new WLabel(Text.of("Voices of Wynn?")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 4);
-        root.add(new WLabel(Text.of("With full report, your nickname will be sent with the")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 6);
-        root.add(new WLabel(Text.of("report, so that we could contact you in case we")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 7);
-        root.add(new WLabel(Text.of("have questions about it.")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 8);
+        root.add(new WLabel(Component.literal("VOICES OF WYNN")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 1);
+        root.add(new WLabel(Component.literal("Would you like your game to report unvoiced dialogues")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 2);
+        root.add(new WLabel(Component.literal("encountered while playing Wynncraft to improve")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 3);
+        root.add(new WLabel(Component.literal("Voices of Wynn?")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 4);
+        root.add(new WLabel(Component.literal("With full report, your nickname will be sent with the")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 6);
+        root.add(new WLabel(Component.literal("report, so that we could contact you in case we")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 7);
+        root.add(new WLabel(Component.literal("have questions about it.")).setHorizontalAlignment(HorizontalAlignment.CENTER), 8, 8);
     }
 
 
     private void AddButtons(WGridPanel root) {
-        WButton noneButton = new WButton(Text.of("None"));
+        WButton noneButton = new WButton(Component.literal("None"));
         noneButton.setOnClick(this::onNoneButtonClick);
         noneButton.setAlignment(HorizontalAlignment.CENTER);
         noneButton.setIcon(new ItemIcon(new ItemStack(Items.COAL)));
 
 
-        WButton anonymousButton = new WButton(Text.of("Anonymous"));
+        WButton anonymousButton = new WButton(Component.literal("Anonymous"));
         anonymousButton.setOnClick(this::onAnonymousButtonClick);
         anonymousButton.setAlignment(HorizontalAlignment.CENTER);
         //    anonymousButton.setIcon(new ItemIcon(new ItemStack(Items.EMERALD)));
 
-        WButton fullButton = new WButton(Text.of("Full"));
+        WButton fullButton = new WButton(Component.literal("Full"));
         fullButton.setOnClick(this::onFullButtonClick);
         fullButton.setAlignment(HorizontalAlignment.CENTER);
         fullButton.setIcon(new ItemIcon(new ItemStack(Items.DIAMOND)));
@@ -71,7 +72,7 @@ public class LineReportGUI extends LightweightGuiDescription {
     }
 
     public static void OpenGui() {
-        MinecraftClient.getInstance().setScreen(new LineReportScreen(new LineReportGUI()));
+        Minecraft.getInstance().setScreen(new LineReportScreen(new LineReportGUI()));
     }
 
 
@@ -95,9 +96,9 @@ public class LineReportGUI extends LightweightGuiDescription {
         HasDecided();
     }
 
-    private void HasDecided(){
+    private void HasDecided() {
         ModCore.config.setHasChosenLineReport(true);
         AutoConfig.getConfigHolder(VOWAutoConfig.class).save();
-        MinecraftClient.getInstance().setScreen(new TitleScreen());
+        Minecraft.getInstance().setScreen(new TitleScreen());
     }
 }

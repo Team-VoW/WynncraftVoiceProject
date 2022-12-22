@@ -1,18 +1,18 @@
 package com.wynnvp.wynncraftvp.sound.at;
 
 import com.wynnvp.wynncraftvp.sound.SoundObject;
-import net.minecraft.client.sound.MovingSoundInstance;
-import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvent;
-import net.minecraft.util.math.Vec3d;
-import net.minecraft.util.math.random.Random;
+import net.minecraft.client.resources.sounds.AbstractTickableSoundInstance;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.phys.Vec3;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
 
-public class SoundAtCords extends MovingSoundInstance {
+public class SoundAtCords extends AbstractTickableSoundInstance {
 
-    public SoundAtCords(SoundEvent soundEvent, SoundObject soundObject, Vec3d position) {
-        super(soundEvent, SoundCategory.VOICE, Random.create());
+    public SoundAtCords(SoundEvent soundEvent, SoundObject soundObject, Vec3 position) {
+        super(soundEvent, SoundSource.VOICE, RandomSource.create());
         this.volume = soundObject.getFallOff() == 0 ? config.getBlockCutOff() / 16f : soundObject.getFallOff() / 16f;
         this.x = (float) position.x;
         this.z = (float) position.z;
@@ -22,6 +22,6 @@ public class SoundAtCords extends MovingSoundInstance {
 
     @Override
     public void tick() {
-        SoundHighlight.ShowParticles(new Vec3d(x, y, z));
+        SoundHighlight.ShowParticles(new Vec3(x, y, z));
     }
 }

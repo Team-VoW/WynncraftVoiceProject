@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.npc;
 
-import net.minecraft.entity.Entity;
+
+import net.minecraft.world.entity.Entity;
 
 public class CachedEntity {
 
