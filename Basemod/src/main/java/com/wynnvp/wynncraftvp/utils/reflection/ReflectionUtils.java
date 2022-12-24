@@ -1,3 +1,6 @@
+//This code originates from Wynntils. All credit for this code goes to them
+//https://github.com/Wynntils/Wynntils/blob/development/src/main/java/com/wynntils/core/utils/Utils.java
+
 package com.wynnvp.wynncraftvp.utils.reflection;
 
 import net.minecraft.entity.Entity;

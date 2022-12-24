@@ -1,3 +1,5 @@
+//This class contains some code inspired or/and copied from Wynntils
+//https://github.com/Wynntils/Wynntils
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
