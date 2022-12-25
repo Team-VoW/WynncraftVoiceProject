@@ -20619,6 +20619,42 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:themaidentower-sherk-1", "stream": true}]
   },
+  "themaidentower-sherk-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-2", "stream": true}]
+  },
+  "themaidentower-sherk-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-3", "stream": true}]
+  },
+  "themaidentower-sherk-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-4", "stream": true}]
+  },
+  "themaidentower-sherk-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-5", "stream": true}]
+  },
+  "themaidentower-sherk-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-6", "stream": true}]
+  },
+  "themaidentower-sherk-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-7", "stream": true}]
+  },
+  "themaidentower-sherk-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-8", "stream": true}]
+  },
+  "themaidentower-sherk-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-9", "stream": true}]
+  },
+  "themaidentower-sherk-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-10", "stream": true}]
+  },
   "themaidentower-sherk-11": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:themaidentower-sherk-11", "stream": true}]
@@ -20707,6 +20743,35 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:themaidentower-maiden-8", "stream": true}]
   },
+  "themaidentower-sherk-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-25", "stream": true}]
+  },
+  "themaidentower-sherk-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-26", "stream": true}]
+  },
+  "themaidentower-sherk-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-27", "stream": true}]
+  },
+  "themaidentower-sherk-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-28", "stream": true}]
+  },
+  "themaidentower-sherk-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-29", "stream": true}]
+  },
+  "themaidentower-sherk-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-30", "stream": true}]
+  },
+  "themaidentower-sherk-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:themaidentower-sherk-31", "stream": true}]
+  },
+
 
 
   "tribalaggression-caras-1": {

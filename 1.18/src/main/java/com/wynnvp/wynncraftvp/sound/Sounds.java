@@ -1928,30 +1928,46 @@ public class Sounds {
         s.addSound("[3/3] Mael: They are safer here.", "agravemistake-alem-9", true);
         s.addSound("[1/1] Alem: I have nothing more to say. Take these.", "agravemistake-alem-10", false);
 
-        //The Maiden Tower
-        s.addSound("[1/10] Sherk: Ah! What are you doing in my swamp?! Don't you know that ogres live alone for a reason?", "themaidentower-sherk-1", false);
+        //The maiden tower
+        s.addSound("[1/10] Sherk: Ah! What are you doing in my swamp?! Don't you know that Ogres live alone for a reason?", "themaidentower-sherk-1", false);
+        s.addSound("[2/10] Sherk: Eh? You're from across the sea, a land called Win? You certainly don't look like a winner to me, ya small fry.", "themaidentower-sherk-2", false);
+        s.addSound("[3/10] Sherk: Fine then. Consider yourself lucky that I'm in a...mood. I'll talk with you instead of crackin' yer bones for my bread.", "themaidentower-sherk-3", false);
+        s.addSound("[4/10] Sherk: Ogres are tough. We're independent and solitary folks. You don't bother us or interfere with our life, we leave well enough alone.", "themaidentower-sherk-4", false);
+        s.addSound("[5/10] Sherk: That is, until it's time to find ourselves a partner. Then we'll turn over hell and highwater ta be together.", "themaidentower-sherk-5", false);
+        s.addSound("[6/10] Sherk: And...well, when it's two ogres getting together, it's simple. But... I passed by a tall tower, and heard a maiden's voice from inside...", "themaidentower-sherk-6", false);
+        s.addSound("[7/10] Sherk: Ogres don't live in fairytale towers, or have a voice that could make flowers grow with its lovely lilt!", "themaidentower-sherk-7", false);
+        s.addSound("[8/10] Sherk: I've been tryin' ta figure out how to approach this... I'm gettin' on in years, I need to find someone, and she's the girl.", "themaidentower-sherk-8", false);
+        s.addSound("[9/10] Sherk: If you can help me out, I'd be real grateful. I'm sure I've got somethin' that you'd like in exchange.", "themaidentower-sherk-9", false);
+        s.addSound("[10/10] Sherk: Follow the rocky-looking path to find the tower. I'll meet with you there- prepare to be a wingman for an ogre.", "themaidentower-sherk-10", false);
         s.addSound("[1/9] Sherk: This is the place. She's up at the top... Remember, I won't stop 'til I meet her. Coming here means you're in for the long haul.", "themaidentower-sherk-11", false);
-        s.addSound("[2/9] Maiden: I hear a voice outside! Oh, who might it be, I wonder~", "themaidentower-maiden-1", false);
+        s.addSound("[2/9] Maiden: I hear a voice outside! Oh, who might it be, I wonder~", "themaidentower-maiden-1", false, new Vec3(-1992, 92, -5298));
         s.addSound("[3/9] Sherk: Here goes... Hello, fair lady of the tower! I am Sherk! I heard your voice on the road- and I must meet you myself! ...that's formal enough, right?", "themaidentower-sherk-12", false);
-        s.addSound("[4/9] Maiden: Ohoho! An admirer? Such a lovely, rugged accent! However...if you wish to meet me, I'd like to see your devotion, yes?", "themaidentower-maiden-2", false);
+        s.addSound("[4/9] Maiden: Ohoho! An admirer? Such a lovely, rugged accent! However ...if you wish to meet me, I'd like to see your devotion, yes?", "themaidentower-maiden-2", false, new Vec3(-1992, 92, -5298));
         s.addSound("[5/9] Sherk: Woman, you have no idea what you're sayin' when you ask for devotion.", "themaidentower-sherk-13", false);
-        s.addSound("[6/9] Maiden: There is a lovely urn my father had before. He took it with him to the grave, and I do miss my dear father so.", "themaidentower-maiden-3", false);
-        s.addSound("[7/9] Maiden: Retrieve the urn for me, so I can have a memento of him. Brave the crypts of Olux, behind the bank... And prove your devotion, dear suitor~", "themaidentower-maiden-4", false);
+        s.addSound("[6/9] Maiden: There is a lovely urn my father had before. He took it with him to the grave, and I do miss my dear father so.", "themaidentower-maiden-3", false, new Vec3(-1992, 92, -5298));
+        s.addSound("[7/9] Maiden: Retrieve the urn for me, so I can have a memento of him. Brave the crypts of Olux, behind the bank... And prove your devotion, dear suitor~", "themaidentower-maiden-4", false, new Vec3(-1992, 92, -5298));
         s.addSound("[8/9] Sherk: ...I'll return! You'll get your urn, no doubt! ... ...and a lovely fine boot up my backside. I don't fancy a massacre for a piece of pottery, Win person.", "themaidentower-sherk-14", false);
-        s.addSound("[9/9] Sherk: I go into Olux, I'll get attacked. I get attacked, I attack back. They'll come after us...wouldn't want to present her with that. You get that urn for me, alright?", "themaidentower-sherk-15", false);
+        s.addSound("[9/9] Sherk: I go into Olux, I'll get attacked. I get attacked, I attack back. They'll come after us... wouldn't want to present her with that. You get that urn for me, alright?", "themaidentower-sherk-15", false);
         s.addSound("[1/4] Sherk: And this is why I asked your help. As nice as blood spreads on toast, I have to reserve my sensibilities for the miss.", "themaidentower-sherk-16", false);
         s.addSound("[2/4] Sherk: I've got you some compensation already, so don't worry about gettin' snubbed for credit. Thank you kindly for the help.", "themaidentower-sherk-17", false);
         s.addSound("[3/4] Sherk: Just one last thing. I doubt she'll be expecting an ogre of all people to climb up her tower. I don't want her to get frightened away.", "themaidentower-sherk-18", false);
         s.addSound("[4/4] Sherk: So, Win person. Care to temper her expectations before I arrive? Head up before me.", "themaidentower-sherk-19", false);
-        s.addSound("[1/9] Maiden: Ohoho...you're one of those Humans I've read about, aren't you? Did you truly intend to be my suitor, dear?~", "themaidentower-maiden-5", false);
-        s.addSound("[2/9] Sherk: Not exactly, milady! I'm the one seeking your affections- Coming up the ladder. I know I may not be a fairytale husband, but-", "themaidentower-sherk-20", false);
-        s.addSound("[3/9] Maiden: Oh...my...goodness! A big, strong, strapping ogre!! Not a fairytale, my foot! And so polite, too... Oh, you'll make a perfect husband, heehee~", "themaidentower-maiden-6", false);
+        s.addSound("[1/9] Maiden: Ohoho... you're one of those Humans I've read about, aren't you? Did you truly intend to be my suitor, dear?~", "themaidentower-maiden-5", false);
+        s.addSound("[2/9] Sherk: Not exactly, milady! I'm the one seeking your affections- Coming up the ladder. I know I may not be a fairytale husband, but-", "themaidentower-sherk-20", false, new Vec3(-1995, 87, -5299));
+        s.addSound("[3/9] Maiden: Oh...my...goodness! A big, strong, strapping ogre!! Not a fairytale, my foot! And so polite too... Oh you'll make a perfect husband, heehee~", "themaidentower-maiden-6", false);
         s.addSound("[4/9] Sherk: ...ehm. I. Ah.", "themaidentower-sherk-21", false);
         s.addSound("[5/9] Sherk: Aren't your type supposed to be less... Ehm... Clefted? Grizzled? Pale?", "themaidentower-sherk-22", false);
         s.addSound("[6/9] Maiden: Oh, come here, Sherky-pie, give me a big kiss! And no need to worry, there's plenty more in store for my big hubby after that~", "themaidentower-maiden-7", false);
-        s.addSound("[7/9] Sherk: Cor, lady! Even for an ogre you're layin' it on a bit thick! Aah, you see, ogres, and people like you, they have layers, right? And your first one is... Eh... ...rotten.", "themaidentower-sherk-23", true);
-        s.addSound("[8/9] Sherk: Now I'm sure you'll find a nice lad somewhere who'll take you for who you are, but until you find someone that has no standards, shove your creepy lips where I can't see 'em!!", "themaidentower-sherk-24", true);
-        s.addSound("[9/9] Maiden: ...I...I g-guess he was rotten to the core, despite his...l-luscious exterior...but, you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!", "themaidentower-maiden-8", false);
+        s.addSound("[7/9] Sherk: Cor, lady! Even for an ogre you're layin' it on a bit thick! Aah, you see, ogres, and people like you, they have layers, right? And your first one is... Eh... ...rotten.", "themaidentower-sherk-23", false);
+        s.addSound("[8/9] Sherk: Now I'm sure you'll find a nice lad somewhere who'll take you for who you are, but until you find someone that has no standards, shove your creepy lips where I can't see 'em!!", "themaidentower-sherk-24", false);
+        s.addSound("[9/9] Maiden: ...I...I g-guess he was rotten to the core, despite his...l-luscious exterior ...but you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!", "themaidentower-maiden-8", false);
+        s.addSound("[1/3] Sherk: ...what? Did you want an apology for my leavin' you there with her?", "themaidentower-sherk-25", false);
+        s.addSound("[2/3] Sherk: I already prayed salvation for your mortal soul, what more do you want?!", "themaidentower-sherk-26", false);
+        s.addSound("[3/3] Sherk: I'm just goin' ta be here with my new pet 'til I can find a nice ogre to settle down with instead.", "themaidentower-sherk-27", false);
+        s.addSound("[1/1] Sherk: Follow the rocky-looking path to find the tower. I'll meet with you there- prepare to be a wingman for an ogre.", "themaidentower-sherk-28", false);
+        s.addSound("[1/1] Sherk: Get me that urn, Win person. If I go up there covered in guts, I have reason to believe she won't take it well?", "themaidentower-sherk-29", false);
+        s.addSound("[1/2] Sherk: Ah! What are you doin' in my swamp?! Don't you know ogres prefer ta be alone? I'd squeeze your eyes for trespassing...", "themaidentower-sherk-30", false);
+        s.addSound("[2/2] Sherk: ...but you're not even Level 51. So...this is the part where you run away. Get out of mah swamp!!", "themaidentower-sherk-31", false);
 
         //Crop Failure
         s.addSound("[1/7] Anast: Grr...that no-good, lying, cheating, thieving...graaah!", "cropfailure-anast-1", false);
@@ -3762,7 +3778,7 @@ public class Sounds {
         s.addSound("[5/17] Garvan: H-huh? Why c-can't I...?", "hollowserenity-garvan-95", false);
         s.addSound("[6/17] Garvan: K-Katarin...?", "hollowserenity-garvan-96", false);
         s.addSound("[7/17] Katarin: For.. For... give... ness...?", "hollowserenity-katarin-37", false);
-        s.addSound("[8/17] Garvan: What... What do you mean?? Speak, my love! I don't understand.", "hollowserenity-garvan-97", false);
+        s.addSound("[8/17] Garvan: What... What do you mean?? Speak, my love! I don't understand", "hollowserenity-garvan-97", false);
         s.addSound("[9/17] Katarin: ...Forgiveness...? You... beg for me... to forgive... you?", "hollowserenity-katarin-38", false);
         s.addSound("[10/17] Garvan: I... Yes, yes! P-Please, my love! I-I know I've spent the last century and a half running away from u-us, but...", "hollowserenity-garvan-98", false);
         s.addSound("[11/17] Garvan: It was all my fault, from the beginning! I was wrong! W-We can fix this...! We can make everything go back to normal, j-just like it was before!", "hollowserenity-garvan-99", false);
@@ -3803,7 +3819,7 @@ public class Sounds {
         s.addSound("[3/4] Katarin: Now, I'm... finally free. But... I suppose I still have unfinished business. Before I leave, I must know something.", "hollowserenity-katarin-54", false);
         s.addSound("[4/4] Katarin: ...What has become of my daughter, Eileen? Has she suffered any more? Or did she escape?", "hollowserenity-katarin-55", false);
         s.addSound("[1/1] Katarin: I must know. Is she okay?", "hollowserenity-katarin-56", false);
-        s.addSound("[1/4] Katarin: ...I see. That is... wonderful news. Thank you, human.", "hollowserenity-katarin-57", false);
+        s.addSound("[1/5] Katarin: ...I see. That is... wonderful news. Thank you, human.", "hollowserenity-katarin-57", false);
         s.addSound("[2/4] Katarin: I must... leave... The pain...", "hollowserenity-katarin-58", false);
         s.addSound("[3/4] Katarin: ...The pain is receding... The heavens are calling... for the final time...", "hollowserenity-katarin-59", false);
         s.addSound("[4/4] Katarin: Goodbye... Thank you human, from the bottom of my heart.", "hollowserenity-katarin-60", false);
