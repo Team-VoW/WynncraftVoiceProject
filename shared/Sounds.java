@@ -1240,12 +1240,21 @@ public class Sounds {
         s.addSound("[6/9] Santa: I'm sorry Nick. You could go to Detlas and ask there, they have a feast big enough to feed an army!", "meaningfulholiday-santa-7", false);
         s.addSound("[9/9] Santa: Alright, that's settled then. Leave through the fireplace behind me, it will bring you directly to Detlas. Good luck, Nick.", "meaningfulholiday-santa-8", false);
 
-        //Kingdom of sand
+        //Kingdom of Sand
         s.addSound("[1/3] ???: Hmm.. No dice. Let me try another.", "kingdomofsand-lanu-1", false);
-        s.addSound("2/3???", "kingdomofsand-lanu-2", false);
-        s.addSound("[3/3] ???: Ugh. I guess the legend is true about the sceptre. ", "kingdomofsand-lanu-3", false);
+        s.addSound("[2/3] ???:", "kingdomofsand-lanu-2", false);
+        s.addSound("[3/3] ???: Ugh. I guess the legend is true about the sceptre.", "kingdomofsand-lanu-3", false);
         s.addSound("[1/7] Lanu: Ah, a Ragni Soldier. I didn't think you had much to do out here in the desert?", "kingdomofsand-lanu-4", false);
+        s.addSound("[2/7] Lanu: I'm out here trying to get into the emperor's tomb. Although I'm realising I can't without his sceptre.", "kingdomofsand-lanu-5", false);
+        s.addSound("[3/7] Lanu: Way before the portal came about, there was a massive empire laid across this land.", "kingdomofsand-lanu-6", false);
+        s.addSound("[4/7] Lanu: A powerful emperor ruled with a mystical weapon. When he died, the empire fell beneath the sand.", "kingdomofsand-lanu-7", false);
+        s.addSound("[5/7] Lanu: Untold treasures are inside the emperor's tomb. But without his weapon, there is no hope of entering.", "kingdomofsand-lanu-8", false);
+        s.addSound("[6/7] Lanu:  It's long been rumoured that bandits have the sceptre. They probably have no idea what it is.", "kingdomofsand-lanu-9", false);
+        s.addSound("[7/7] Lanu: If you could get it, we could enter the dungeon and seek out the emperor for ourselves. The bandit's base is at the start of the mesa, up the hill.", "kingdomofsand-lanu-10", false);
         s.addSound("[1/4] Vault Guard: What, wanna enter the hideout?", "kingdomofsand-vaultguard-1", false);
+        s.addSound("[2/4] Vault Guard: Even if yer a crooked soldier, we can't jus let yer in.", "kingdomofsand-vaultguard-2", false);
+        s.addSound("[3/4] Vault Guard: That is, unless yer got the password?", "kingdomofsand-vaultguard-3", false);
+        s.addSound("[4/4] Vault Guard: Didn't think so. Now get lost, wasted enough of my t-", "kingdomofsand-vaultguard-4", false);
         s.addSound("[1/4] Tarek: Now would you look at that... Even soldiers think they can waltz in ere.", "kingdomofsand-tarek-1", false);
         s.addSound("[2/4] Geo: Having fun thinking of a password? Sorry to spoil your lunch, but there isn't one!", "kingdomofsand-geo-1", false);
         s.addSound("[3/4] Geo: We could use a few more officials on the roster.", "kingdomofsand-geo-2", false);
@@ -1261,7 +1270,8 @@ public class Sounds {
         s.addSound("[2/3] Tarek: Heh, guess yer the real thing. Hop in, lets get out of 'ere.", "kingdomofsand-tarek-9", false);
         s.addSound("[3/3] Tarek: That journal is more valuable than any gem, you'll be able to get in fer sure.", "kingdomofsand-tarek-10", false);
         s.addSound("[1/1] Tarek: Off we go!", "kingdomofsand-tarek-11", false);
-        s.addSound("[1/2] Vault Guard: Password?", "kingdomofsand-vaultguard-2", false);
+        s.addSound("[1/2] Vault Guard: Password?", "kingdomofsand-vaultguard-5", false);
+        s.addSound("[2/2] Vault Guard: Oh, this is quite the password, Ragni man. I think this will do nicely, on you go.", "kingdomofsand-vaultguard-6", false);
         s.addSound("[1/7] Bandit Boss: There was another mage at the ancient tomb today boys.", "kingdomofsand-banditboss-1", false);
         s.addSound("[2/7] Bandit: Well she ain't got the sceptre does she? She can't do much harm. Wait why dun we use the sceptre boss?", "kingdomofsand-bandit-1", false);
         s.addSound("[3/7] Bandit Boss: Because the Creden Tibus is more than just a group of criminals. We are honour bound to protect these sands.", "kingdomofsand-banditboss-2", false);
@@ -1272,12 +1282,17 @@ public class Sounds {
         s.addSound("[1/3] Bandit Leader: I knew someone was listening.", "kingdomofsand-banditleader-1", false);
         s.addSound("[2/3] Bandit Leader: We might be bandits, but we're not stupid. That sceptre is left better off alone.", "kingdomofsand-banditleader-2", false);
         s.addSound("[3/3] Desert Raider: Seize 'em!", "kingdomofsand-desertraider-1", false);
-        s.addSound("[1/5] Lanu: You actually got it! I knew I could count on you. Lets try this!", "kingdomofsand-lanu-5", false);
-        s.addSound("[2/5] Lanu: Huh? We got no time for superstition, we need to break that seal.", "kingdomofsand-lanu-6", false);
-        s.addSound("[3/5] Lanu: Seems like something's happening!", "kingdomofsand-lanu-7", false);
-        s.addSound("[4/5] Lanu: We did it! Who would've thought that it was that ea-", "kingdomofsand-lanu-8", false);
-        s.addSound("[5/5] Lanu: What the hell was that...!", "kingdomofsand-lanu-9", false);
-        s.addSound("[1/6] Lanu: That shouldn't have happened, I... I don't understand.", "kingdomofsand-lanu-10", false);
+        s.addSound("[1/5] Lanu: You actually got it! I knew I could count on you. Lets try this!", "kingdomofsand-lanu-11", false);
+        s.addSound("[2/5] Lanu: Huh? We got no time for superstition, we need to break that seal.", "kingdomofsand-lanu-12", false);
+        s.addSound("[3/5] Lanu: Seems like something's happening!", "kingdomofsand-lanu-13", false);
+        s.addSound("[4/5] Lanu: We did it! Who would've thought that it was that ea-", "kingdomofsand-lanu-14", false);
+        s.addSound("[5/5] Lanu: What the hell was that...!", "kingdomofsand-lanu-15", false);
+        s.addSound("[1/6] Lanu: That shouldn't have happened, I... I don't understand.", "kingdomofsand-lanu-16", false);
+        s.addSound("[2/6] Lanu: The legend says that the emperor was immortal. I thought this would work.", "kingdomofsand-lanu-17", false);
+        s.addSound("[3/6] Lanu: Unless.. He cursed himself. There has to be more to this story.", "kingdomofsand-lanu-18", false);
+        s.addSound("[4/6] Lanu: Perhaps we will never know the full story.. well not unless we unearth the desert itself.", "kingdomofsand-lanu-19", false);
+        s.addSound("[5/6] Lanu: I'm sure the tale will be discovered in time.", "kingdomofsand-lanu-20", false);
+        s.addSound("[6/6] Lanu: Well, maybe we'll see each other again, but I must go now. Here, take this as a token of my gratitude.", "kingdomofsand-lanu-21", false);
 
         //Tribal aggression
         s.addSound("[1/7] Caras: My tribe worries our own business, stranger.", "tribalaggression-caras-1", false);

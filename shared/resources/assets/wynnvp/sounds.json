@@ -14023,9 +14023,45 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-4", "stream": true}]
   },
+  "kingdomofsand-lanu-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-5", "stream": true}]
+  },
+  "kingdomofsand-lanu-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-6", "stream": true}]
+  },
+  "kingdomofsand-lanu-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-7", "stream": true}]
+  },
+  "kingdomofsand-lanu-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-8", "stream": true}]
+  },
+  "kingdomofsand-lanu-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-9", "stream": true}]
+  },
+  "kingdomofsand-lanu-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-10", "stream": true}]
+  },
   "kingdomofsand-vaultguard-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingdomofsand-vaultguard-1", "stream": true}]
+  },
+  "kingdomofsand-vaultguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-vaultguard-2", "stream": true}]
+  },
+  "kingdomofsand-vaultguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-vaultguard-3", "stream": true}]
+  },
+  "kingdomofsand-vaultguard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-vaultguard-4", "stream": true}]
   },
   "kingdomofsand-tarek-1": {
     "category": "voice",
@@ -14087,9 +14123,13 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingdomofsand-tarek-11", "stream": true}]
   },
-  "kingdomofsand-vaultguard-2": {
+  "kingdomofsand-vaultguard-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:kingdomofsand-vaultguard-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:kingdomofsand-vaultguard-5", "stream": true}]
+  },
+  "kingdomofsand-vaultguard-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-vaultguard-6", "stream": true}]
   },
   "kingdomofsand-banditboss-1": {
     "category": "voice",
@@ -14131,30 +14171,51 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:kingdomofsand-desertraider-1", "stream": true}]
   },
-  "kingdomofsand-lanu-5": {
+  "kingdomofsand-lanu-11": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-11", "stream": true}]
   },
-  "kingdomofsand-lanu-6": {
+  "kingdomofsand-lanu-12": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-12", "stream": true}]
   },
-  "kingdomofsand-lanu-7": {
+  "kingdomofsand-lanu-13": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-13", "stream": true}]
   },
-  "kingdomofsand-lanu-8": {
+  "kingdomofsand-lanu-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-8", "stream": true}]
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-14", "stream": true}]
   },
-  "kingdomofsand-lanu-9": {
+  "kingdomofsand-lanu-15": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-9", "stream": true}]
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-15", "stream": true}]
   },
-  "kingdomofsand-lanu-10": {
+  "kingdomofsand-lanu-16": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-10", "stream": true}]
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-16", "stream": true}]
   },
+  "kingdomofsand-lanu-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-17", "stream": true}]
+  },
+  "kingdomofsand-lanu-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-18", "stream": true}]
+  },
+  "kingdomofsand-lanu-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-19", "stream": true}]
+  },
+  "kingdomofsand-lanu-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-20", "stream": true}]
+  },
+  "kingdomofsand-lanu-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:kingdomofsand-lanu-21", "stream": true}]
+  },
+
 
   "sst-hashr-1": {
     "category": "voice",
