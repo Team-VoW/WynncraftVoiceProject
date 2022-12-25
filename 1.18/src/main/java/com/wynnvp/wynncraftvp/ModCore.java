@@ -2,6 +2,7 @@ package com.wynnvp.wynncraftvp;
 
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import com.wynnvp.wynncraftvp.config.VOWConfig;
+import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
 import me.shedaniel.autoconfig.AutoConfig;
@@ -42,5 +43,7 @@ public class ModCore implements ModInitializer {
         } else {
             config = new VOWConfig();
         }
+
+        VowLogger.Initialize();
     }
 }

@@ -7,7 +7,6 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 @Config(name = "wynnvp")
 public class VOWAutoConfig extends VOWConfig implements ConfigData {
 
-    //private static Configuration config;
 
     public boolean playAllSoundsOnPlayer = false;
 
@@ -33,6 +32,9 @@ public class VOWAutoConfig extends VOWConfig implements ConfigData {
 
     @ConfigEntry.Gui.Tooltip
     public boolean highlightSpeaker = false;
+
+    @ConfigEntry.Gui.Tooltip
+    public boolean doLogging = false;
 
 
     @ConfigEntry.Gui.Excluded
@@ -92,6 +94,12 @@ public class VOWAutoConfig extends VOWConfig implements ConfigData {
     @Override
     public boolean isHighlightSpeaker() {
         return highlightSpeaker;
+    }
+
+
+    @Override
+    public boolean doLogging() {
+        return doLogging;
     }
 
     @Override

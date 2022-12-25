@@ -6,5 +6,7 @@
   "text.autoconfig.wynnvp.option.sendFunFact": "Fun facts",
   "text.autoconfig.wynnvp.option.highlightSpeaker": "Highlight speaker",
   "text.autoconfig.wynnvp.option.blockCutOff": "Block cut off",
+  "text.autoconfig.wynnvp.option.doLogging": "Do Logging",
+  "text.autoconfig.wynnvp.option.doLogging.@Tooltip": "If a custom log file should be created for things related to playing sounds",
   "text.autoconfig.wynnvp.option.highlightSpeaker.@Tooltip": "Should there be an aura of particles highlighting the source of the sound?"
 }

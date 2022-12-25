@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
 import com.wynnvp.wynncraftvp.sound.at.SoundAtArmorStand;
 import com.wynnvp.wynncraftvp.sound.at.SoundAtCords;
@@ -44,22 +45,19 @@ public class SoundPlayer {
     private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData, Player player, ClientLevel world) {
         String line = lineData.getSoundLine();
 
-        //System.out.println("Trying to play " + lineData.getRealLine());
-        //System.out.println("Checked line: " + line);
-        if (soundsHandler.get(line).isEmpty()) {
-
-        //System.out.println("DID NOT CONTAIN LINE");
+            if (soundsHandler.get(line).isEmpty()) {
+            VowLogger.Log("[Real line] " + lineData.getRealLine() + " [Sound Line] " + lineData.getSoundLine(), "Missing");
             lineReporter.MissingLine(lineData);
             return false;
         }
 
         if (player == null) {
-       //System.out.println("Player is null! Sound not played.");
+            VowLogger.Log("Player was null. Sound not played", "Error");
             return false;
         }
 
         if (world == null) {
-            //System.out.println("World is null! Sound not played.");
+            VowLogger.Log("World was null. Sound not played", "Error");
             return false;
         }
 

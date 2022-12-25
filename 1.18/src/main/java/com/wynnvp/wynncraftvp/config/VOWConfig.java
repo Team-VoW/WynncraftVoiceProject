@@ -46,4 +46,6 @@ public class VOWConfig {
 
     public boolean isHasChosenLineReport() {return false;}
     public void setHasChosenLineReport(boolean input) {}
+
+    public boolean doLogging() {return false;}
 }
