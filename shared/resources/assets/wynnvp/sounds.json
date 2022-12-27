@@ -1633,13 +1633,61 @@
   },
 
 
+  "lostinthejungle-gracen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-1", "stream": true}]
+  },
+  "lostinthejungle-gracen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-2", "stream": true}]
+  },
+  "lostinthejungle-gracen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-3", "stream": true}]
+  },
+  "lostinthejungle-gracen-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-4", "stream": true}]
+  },
+  "lostinthejungle-gracen-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-5", "stream": true}]
+  },
+  "lostinthejungle-gracen-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-6", "stream": true}]
+  },
+  "lostinthejungle-gracen-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-7", "stream": true}]
+  },
+  "lostinthejungle-gracen-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-8", "stream": true}]
+  },
+  "lostinthejungle-gracen-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-9", "stream": true}]
+  },
+  "lostinthejungle-gracen-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-10", "stream": true}]
+  },
   "lostinthejungle-aryn-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-1", "stream": true}]
   },
+  "lostinthejungle-possessedaryn-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-possessedaryn-1", "stream": true}]
+  },
   "lostinthejungle-aryn-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-2", "stream": true}]
+  },
+  "lostinthejungle-possessedaryn-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-possessedaryn-2", "stream": true}]
   },
   "lostinthejungle-aryn-3": {
     "category": "voice",
@@ -1653,14 +1701,47 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-5", "stream": true}]
   },
-  "lostinthejungle-gracen-1": {
+  "lostinthejungle-aryn-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-6", "stream": true}]
   },
-  "lostinthejungle-gracen-2": {
+  "lostinthejungle-aryn-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-7", "stream": true}]
   },
+  "lostinthejungle-aryn-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-aryn-8", "stream": true}]
+  },
+  "lostinthejungle-gracen-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-11", "stream": true}]
+  },
+  "lostinthejungle-gracen-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-12", "stream": true}]
+  },
+  "lostinthejungle-gracen-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-13", "stream": true}]
+  },
+  "lostinthejungle-gracen-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-14", "stream": true}]
+  },
+  "lostinthejungle-gracen-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-15", "stream": true}]
+  },
+  "lostinthejungle-gracen-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-16", "stream": true}]
+  },
+  "lostinthejungle-gracen-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostinthejungle-gracen-17", "stream": true}]
+  },
+
 
 
   "bobslostsoul-tarod-1": {

@@ -3118,12 +3118,32 @@ public class Sounds {
 
         //Lost in the jungle
         s.addSound("[1/10] Gracen: Excuse me, traveller... I am dreadfully sorry to ask this of you, but I need your help.", "lostinthejungle-gracen-1", false);
-        s.addSound("[1/7] Gracen: Oh my... Aryn was possessed by a spirit residing within the gemstone?", "lostinthejungle-gracen-2", false);
-        s.addSound("[1/4] Aryn: P-please, I beg of you spirit, let me go free! The tribesmen must be so worried-", "lostinthejungle-aryn-1", false);
-        s.addSound("[2/4] Aryn?: DO NOT RESIST, BOY! YOUR BODY IS MINE. I WAS TRAPPED IN THAT STONE FOR MILLENIA, AND NOW I AM FREE.", "lostinthejungle-aryn-2", true);
-        s.addSound("[3/4] Aryn: Aha, I hear someone coming! Surely a tribesman here to rescue me!", "lostinthejungle-aryn-3", true);
-        s.addSound("[4/4] Aryn?: Oh! If so, the body of this warrior will be far better suited to my needs! Grant me your power, boy! I need to thrash them first to possess them!", "lostinthejungle-aryn-4", true);
-        s.addSound("[1/6] Aryn: Hahah, take that, evil wraith! You'll never match the power of our tribe-", "lostinthejungle-aryn-5", false);
+        s.addSound("[2/10] Gracen: You see, my son, Aryn. Very recently, he underwent a traditional coming-of-age ceremony from our tribe.", "lostinthejungle-gracen-2", false);
+        s.addSound("[3/10] Gracen: He was tasked to enter the dangerous Dernel Jungle, just south of here, and brave the wilderness for three days. He returned a true man, successful.", "lostinthejungle-gracen-3", false);
+        s.addSound("[4/10] Gracen: However... He also brought with him an odd purple gemstone. Our shaman saw it as a bad omen, but I was so caught up in the celebrations, I brushed it off.", "lostinthejungle-gracen-4", false);
+        s.addSound("[5/10] Gracen: Strange happenings began around the village. Aryn walked about at night, talking to someone, but no one else was there with him.", "lostinthejungle-gracen-5", false);
+        s.addSound("[6/10] Gracen: Just last sunrise, he vanished entirely. We sent out a search for him, but even our hardiest warriors could not venture deep into the jungle.", "lostinthejungle-gracen-6", false);
+        s.addSound("[7/10] Gracen: We returned empty-handed, having lost our newest tribesman. The village is in terrible spirits, and I feel as though I am responsible.", "lostinthejungle-gracen-7", false);
+        s.addSound("[8/10] Gracen: You Wynn warriors, however... Great stories are told of your exploits. Surely, you will be able to brave the jungle, yes?", "lostinthejungle-gracen-8", false);
+        s.addSound("[9/10] Gracen: I beg of you, please, find my son. I do not know quite where he is, but undoubtedly he has been taken quite a ways in...", "lostinthejungle-gracen-9", false);
+        s.addSound("[10/10] Gracen: Hm, I just now am seeing a strange trail on the ground... it matches the color of the gemstone! It may take you to him, please, follow it!", "lostinthejungle-gracen-10", false);
+        s.addSound("[1/4] Aryn: P-please, I beg of you spirit, let me go free! The tribesmen must be so worried-", "lostinthejungle-aryn-1", false, new Vec3(-699, 8, -354), 50);
+        s.addSound("[2/4] Aryn?: DO NOT RESIST, BOY! YOUR BODY IS MINE. I WAS TRAPPED IN THAT STONE FOR MILLENIA, AND NOW I AM FREE.", "lostinthejungle-possessedaryn-1", false, new Vec3(-699, 8, -354), 40);
+        s.addSound("[3/4] Aryn: Aha, I hear someone coming! Surely a tribesman here to rescue me!", "lostinthejungle-aryn-2", false, new Vec3(-699, 8, -354), 30);
+        s.addSound("[4/4] Aryn?: Oh! If so, the body of this warrior will be far better suited to my needs! Grant me your power, boy! I need to thrash them first to possess them!", "lostinthejungle-possessedaryn-2", false, new Vec3(-2398, 8, -821));
+        s.addSound("[1/6] Aryn: Hahah, take that, evil wraith! You'll never match the power of our tribe-", "lostinthejungle-aryn-3", false);
+        s.addSound("[2/6] Aryn: W-wait, you aren't part of our tribe! Who are you, why did you come here?", "lostinthejungle-aryn-4", false);
+        s.addSound("[3/6] Aryn: Oh... My father sent you? Well, I am very impressed, Wynn warrior. You fight with the ferocity of our own!", "lostinthejungle-aryn-5", false);
+        s.addSound("[4/6] Aryn: I...can't say the same for myself. That spirit completely overtook me, I still can't move right now...", "lostinthejungle-aryn-6", false);
+        s.addSound("[5/6] Aryn: For now, please. Take away this gemstone. It caused all this, I don't want to be near such a bad luck charm.", "lostinthejungle-aryn-7", false);
+        s.addSound("[6/6] Aryn: Tell the tribe that I will return on my own. I made it back once, I can do it again once I am prepared.", "lostinthejungle-aryn-8", false);
+        s.addSound("[1/7] Gracen: Oh my... Aryn was possessed by a spirit residing within the gemstone?", "lostinthejungle-gracen-11", false);
+        s.addSound("[2/7] Gracen: How shameful... Our shaman has never been wrong before, why did I disregard his warning...", "lostinthejungle-gracen-12", false);
+        s.addSound("[3/7] Gracen: But that is beside the point. You say you have destroyed the spirit, and it does not feel tainted any longer, so I will trust you.", "lostinthejungle-gracen-13", false);
+        s.addSound("[4/7] Gracen: Looking at it now, this is actually quite a valuable stone. If crushed to dust, it can be used in special charms we make.", "lostinthejungle-gracen-14", false);
+        s.addSound("[5/7] Gracen: Here, allow me to grind this down for you. You can keep the shards for whatever purposes you may find for them in the future.", "lostinthejungle-gracen-15", false);
+        s.addSound("[6/7] Gracen: Our tribe, and especially myself... We thank you for your service. We shall consider you one of our own, from this day forward.", "lostinthejungle-gracen-16", false);
+        s.addSound("[7/7] Gracen: In fact, if you'd like, you may even enter my house here whenever you'd like.", "lostinthejungle-gracen-17", false);
 
         //Out of my mind
         s.addSound("[1/10] Prentiss: Did ye two hear about some guy wandering around town? I've heard strange rumours about him...", "outofmymind-prentiss-1", false);
