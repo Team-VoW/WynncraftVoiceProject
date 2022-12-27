@@ -107,8 +107,10 @@ public class SoundPlayer {
     }
 
     private boolean isOutsideReach(SoundObject soundObject, Player player, Vec3 npcPosition) {
-        return (player.position().distanceToSqr(npcPosition) >= config.getBlockCutOff() * config.getBlockCutOff()
-                && player.position().distanceToSqr(npcPosition) >= soundObject.getFallOff() * soundObject.getFallOff());
+        int soundObjectFallOff = soundObject.getFallOff();
+
+        int squaredFalloff = soundObjectFallOff == 0 ? config.getBlockCutOff() * config.getBlockCutOff() : soundObjectFallOff * soundObjectFallOff;
+        return (player.position().distanceToSqr(npcPosition) >= squaredFalloff);
     }
 
 
