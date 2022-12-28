@@ -24299,6 +24299,26 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-1", "stream": true}]
   },
+  "havenantiquity-cinfras-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-2", "stream": true}]
+  },
+  "havenantiquity-cinfras-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-3", "stream": true}]
+  },
+  "havenantiquity-cinfras-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-4", "stream": true}]
+  },
+  "havenantiquity-cinfras-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-5", "stream": true}]
+  },
+  "havenantiquity-cinfras-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-6", "stream": true}]
+  },
   "havenantiquity-oldsiwel-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-1", "stream": true}]
@@ -24306,6 +24326,62 @@
   "havenantiquity-oldsiwel-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-2", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-3", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-4", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-5", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-6", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-7", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-8", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-9", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-10", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-11", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-12", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-13", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-14", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-15", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-16", "stream": true}]
   },
   "havenantiquity-siwel-1": {
     "category": "voice",
@@ -24315,14 +24391,95 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:havenantiquity-siwel-2", "stream": true}]
   },
-  "havenantiquity-oldsiwel-3": {
+  "havenantiquity-siwel-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-3", "stream": true}]
   },
-  "havenantiquity-cinfras-2": {
+  "havenantiquity-siwel-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-4", "stream": true}]
   },
+  "havenantiquity-siwel-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-5", "stream": true}]
+  },
+  "havenantiquity-siwel-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-6", "stream": true}]
+  },
+  "havenantiquity-siwel-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-7", "stream": true}]
+  },
+  "havenantiquity-siwel-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-8", "stream": true}]
+  },
+  "havenantiquity-siwel-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-9", "stream": true}]
+  },
+  "havenantiquity-siwel-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-10", "stream": true}]
+  },
+  "havenantiquity-siwel-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-11", "stream": true}]
+  },
+  "havenantiquity-siwel-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-siwel-12", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-17", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-18", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-19", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-20", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-21", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-22", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-23", "stream": true}]
+  },
+  "havenantiquity-oldsiwel-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-oldsiwel-24", "stream": true}]
+  },
+  "havenantiquity-cinfras-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-7", "stream": true}]
+  },
+  "havenantiquity-cinfras-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-8", "stream": true}]
+  },
+  "havenantiquity-cinfras-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-9", "stream": true}]
+  },
+  "havenantiquity-cinfras-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:havenantiquity-cinfras-10", "stream": true}]
+  },
+
 
 
   "misadventureonthesea-barman-1": {

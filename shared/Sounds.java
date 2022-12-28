@@ -3409,12 +3409,52 @@ public class Sounds {
 
         //Haven Antiquity
         s.addSound("[1/6] Cinfras: Hey there adventurer, can I speak with you for a second? I need you to do a spot of detective work for me.", "havenantiquity-cinfras-1", false);
+        s.addSound("[2/6] Cinfras: My grandfather once told me how beautiful this place was, and how to visit here if I wanted to relax.", "havenantiquity-cinfras-2", false);
+        s.addSound("[3/6] Cinfras: But as you can see, this island is the least bit relaxing. It is a sorrowful place, corrupted and dark.", "havenantiquity-cinfras-3", false);
+        s.addSound("[4/6] Cinfras: This can't be right. My grandfather was an honest man, he wouldn't have lied.", "havenantiquity-cinfras-4", false);
+        s.addSound("[5/6] Cinfras: I figure something must have happened. I really want to know how it got like this.", "havenantiquity-cinfras-5", false);
+        s.addSound("[6/6] Cinfras: There's an old creepy man living up on that hill in a big mansion who seems just old enough to know what happened. It might be a good place to start.", "havenantiquity-cinfras-6", false);
         s.addSound("[1/7] Old Siwel: What do you want? I'm busy. Brewing potions takes focus, you know....", "havenantiquity-oldsiwel-1", false);
-        s.addSound("[1/9] Old Siwel: Excellent. You acquired the ingredients. Just give me a second and I'll prepare you for your journey into the mind of the dead. ", "havenantiquity-oldsiwel-2", false);
-        s.addSound("[1/5] Siwel: Oh, hello there. Would you mind helping me with something for a second?  ", "havenantiquity-siwel-1", false);
-        s.addSound("[1/7] Siwel: You're back! Were you able to stop that egg?", "havenantiquity-siwel-2", false);
-        s.addSound("[1/8] Old Siwel: What? You... you made it back? Oh... Very well. Alchemy can be a... dangerous practice. ", "havenantiquity-oldsiwel-3", false);
-        s.addSound("[1/4] Cinfras: So, did you find out what happened?", "havenantiquity-cinfras-2", false);
+        s.addSound("[2/7] Old Siwel: Oh, you want to know about the island's history? Well you certainly came to the right man. I've lived here for a very long time.", "havenantiquity-oldsiwel-2", false);
+        s.addSound("[3/7] Old Siwel: There is a way for you to see for yourself what happened here. It's quite... an interesting tale, too.", "havenantiquity-oldsiwel-3", false);
+        s.addSound("[4/7] Old Siwel: I'd sit and tell you, but I feel you might get a better experience first hand....", "havenantiquity-oldsiwel-4", false);
+        s.addSound("[5/7] Old Siwel: Using some of the more... frowned upon methods in the alchemists library I am able to send you into the 'memory' of a dead person that lived here at the time.", "havenantiquity-oldsiwel-5", false);
+        s.addSound("[6/7] Old Siwel: It will require a little work from you though, if you wish to proceed....", "havenantiquity-oldsiwel-6", false);
+        s.addSound("[7/7] Old Siwel: Bring me [3 Umbral Essences] and I will be able to cast a spell on you which will allow you to pass into the 'memory' of the deceased.", "havenantiquity-oldsiwel-7", false);
+        s.addSound("[1/9] Old Siwel: Excellent. You acquired the ingredients. Just give me a second and I'll prepare you for your journey into the mind of the dead.", "havenantiquity-oldsiwel-8", false);
+        s.addSound("[2/9] Old Siwel: *Mumbles a strange, dead language...*", "havenantiquity-oldsiwel-9", false);
+        s.addSound("[3/9] Old Siwel: *Mumbles a strange, dead language....*", "havenantiquity-oldsiwel-10", false);
+        s.addSound("[4/9] Old Siwel: There, look into my eyes. Yes, you're ready. Ah, there is a drawback though....", "havenantiquity-oldsiwel-11", false);
+        s.addSound("[5/9] Old Siwel: Once you are inside the memory, it will feel like you are actually there. You won't be able to return until you have succeeded in your task.", "havenantiquity-oldsiwel-12", false);
+        s.addSound("[6/9] Old Siwel: To enter the memory, you need to find the dead man at the end of the crypt in the graveyard.", "havenantiquity-oldsiwel-13", false);
+        s.addSound("[7/9] Old Siwel: The dead roam those caves in heavy numbers, so watch your step.", "havenantiquity-oldsiwel-14", false);
+        s.addSound("[8/9] Old Siwel: Oh and one more thing, If you die in the memory, you die in reality too....", "havenantiquity-oldsiwel-15", false);
+        s.addSound("[9/9] Old Siwel: Best of luck....", "havenantiquity-oldsiwel-16", false);
+        s.addSound("[1/5] Siwel: Oh, hello there. Would you mind helping me with something for a second?", "havenantiquity-siwel-1", false);
+        s.addSound("[2/5] Siwel: Recently, some strange things have been happening to the miners around here. New diseases, unexplained disappearances, and things like that.", "havenantiquity-siwel-2", false);
+        s.addSound("[3/5] Siwel: The villagers have been getting very worried. So, in an attempt to protect the island, I bought a strange egg and placed it in a cave close to town.", "havenantiquity-siwel-3", false);
+        s.addSound("[4/5] Siwel: The egg, however, isn't what I thought it was. It is producing monsters and giving off some sort of dark aura.", "havenantiquity-siwel-4", false);
+        s.addSound("[5/5] Siwel: I want you to go check out that egg. See if you can get rid of whatever it is producing. Bring me [5 Monster Hides] as evidence.", "havenantiquity-siwel-5", false);
+        s.addSound("[1/7] Siwel: You're back! Were you able to stop that egg?", "havenantiquity-siwel-6", false);
+        s.addSound("[2/7] Siwel: No? Well, I guess we'll have to wait and see what it hatches into.", "havenantiquity-siwel-7", false);
+        s.addSound("[3/7] Siwel: I see you got some rather rare dark monster hide. Maybe I could use those in a potion for something, maybe to prolong life.", "havenantiquity-siwel-8", false);
+        s.addSound("[4/7] Siwel: Some of the villagers believe that it is unwise for myself to dabble in the dark arts, dealing with mysterious eggs and brewing potions of death.", "havenantiquity-siwel-9", false);
+        s.addSound("[5/7] Siwel: I'll outlive them all, you'll see!", "havenantiquity-siwel-10", false);
+        s.addSound("[6/7] Siwel: As for you, you have done what I asked. You may return to your personal affairs now.", "havenantiquity-siwel-11", false);
+        s.addSound("[7/7] Siwel: Thank you for your work, though. Only time will tell what that egg will hatch into.", "havenantiquity-siwel-12", false);
+        s.addSound("[1/8] Old Siwel: What? You... you made it back? Oh... Very well. Alchemy can be a... dangerous practice.", "havenantiquity-oldsiwel-17", false);
+        s.addSound("[2/8] Old Siwel: Anyone who tried to find out the island's history came to me at some point, and I sent them on a one way street to a memory. But not you....", "havenantiquity-oldsiwel-18", false);
+        s.addSound("[3/8] Old Siwel: So now you know my dreadful secret, I am racked with guilt and cursed with eternal life.", "havenantiquity-oldsiwel-19", false);
+        s.addSound("[4/8] Old Siwel: There is no need to fight me, I am suffering enough for what I... wrought on this island.", "havenantiquity-oldsiwel-20", false);
+        s.addSound("[5/8] Old Siwel: I could not destroy the egg. It hatched into a... monstrous beast that cursed this island until this very day.", "havenantiquity-oldsiwel-21", false);
+        s.addSound("[6/8] Old Siwel: A powerful warrior from... Ragni slew the beast, yet the island did not rejuvenate....", "havenantiquity-oldsiwel-22", false);
+        s.addSound("[7/8] Old Siwel: I leave the bones of the beast as a reminder of my failure, the destruction it brought still... lingers in the monsters it left behind.", "havenantiquity-oldsiwel-23", false);
+        s.addSound("[8/8] Old Siwel: So adventurer, now you have the knowledge of what I have done. You may tell the others down in the village, as it is no longer a secret.", "havenantiquity-oldsiwel-24", false);
+        s.addSound("[1/4] Cinfras: So, did you find out what happened?", "havenantiquity-cinfras-7", false);
+        s.addSound("[2/4] Cinfras: Siwel was the one who caused this sorrow? He does have a very dark presence about him, doesn't he?", "havenantiquity-cinfras-8", false);
+        s.addSound("[3/4] Cinfras: Thank you for your work! I know it must have been tough getting that out of him.", "havenantiquity-cinfras-9", false);
+        s.addSound("[4/4] Cinfras: Now that this mystery is solved I will be returning home. I hope we will meet again!", "havenantiquity-cinfras-10", false);
+
 
         //Forbidden Prison
         s.addSound("[1/4] Merchant: Hey, hey, humie! Yeah, I'm talkin to ya here..", "forbiddenprison-merchant-1", false);
