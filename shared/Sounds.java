@@ -3202,11 +3202,30 @@ public class Sounds {
         s.addSound("[11/11] Prentiss: Also since all the adults do it, we'll give you some emeralds that you rightly deserve for such an achievement. We all pitched in!", "outofmymind-prentiss-8", false);
 
         //Lost Royalty
-        s.addSound("[1/5] Yavlis: Oh, hello there! I had hoped not to bother you, adventurer, but this is urgent.", "lostroyalty-yalvis-1", false);
-        s.addSound("[1/5] Yavlis: Ah, finally! You're back. Did they let you bring him back? Those mercenaries have an awful habit of failing to honour their deals.", "lostroyalty-yalvis-2", false);
-        s.addSound("[1/7] Mercenary Leader: Excuse me?! What are you doing here, how did you find our secret hideout?", "lostroyalty-mercenary-1", false);
-        s.addSound("[1/3] Mercenary Leader: You've gotten the talisman! I can't believe you actually got through that puzzle!", "lostroyalty-mercenary-2", false);
-        s.addSound("[1/4] Prince of Troms: Uh... Hi? Err, why did you free me? I'm trying to run away, I hate being the son of the king.", "lostroyalty-kingsson-1", false);
+        s.addSound("[1/5] Yavlis: Oh, hello there! I had hoped not to bother you, adventurer, but this is urgent.", "lostroyalty-yavlis-1", false);
+        s.addSound("[2/5] Yavlis: You see, the king is very...erm, distracted, and you are just the kind of willing, able-bodied person I need.", "lostroyalty-yavlis-2", false);
+        s.addSound("[3/5] Yavlis: You see, the king's son has gone missing, and with him worrying so much, the problems of the kingdom have festered unsolved.", "lostroyalty-yavlis-3", false);
+        s.addSound("[4/5] Yavlis: We believe he was kidnapped by the splinter cell mercenaries in the jungle... Unfortunate, too. They used to be quite honourable.", "lostroyalty-yavlis-4", false);
+        s.addSound("[5/5] Yavlis: Well, anyway, they're usually spotted outside the run-down farm outside of town. Go there and see what they want in return for the young prince.", "lostroyalty-yavlis-5", false);
+        s.addSound("[1/7] Mercenary Leader: Excuse me?! What are you doing here, how did you find our secret hideout?", "lostroyalty-mercenaryleader-1", false);
+        s.addSound("[2/7] Mercenary Leader: Oh, you're here for the boy? A mighty fine steal, that one! The boy won't be leaving this establishment for free. I'll need some nice loot for him.", "lostroyalty-mercenaryleader-2", false);
+        s.addSound("[3/7] Mercenary Leader: Ah, but what to have you fetch... oh, haha! This would be a perfect opportunity to obtain that... Alright, ears open!", "lostroyalty-mercenaryleader-3", false);
+        s.addSound("[4/7] Mercenary Leader: There's a certain talisman that we aren't able to get to in the temple not far from here. It has special abilities that allow my men to be strengthened, see.", "lostroyalty-mercenaryleader-4", false);
+        s.addSound("[5/7] Mercenary Leader: The guardians there pack quite the punch, and there's some nasty mechanism in the way that we just can't crack.", "lostroyalty-mercenaryleader-5", false);
+        s.addSound("[6/7] Mercenary Leader: The temple is found just across the waterway, in a crevice in the mountain. It used to be blocked until those WynnExcavation fellows tried digging there.", "lostroyalty-mercenaryleader-6", false);
+        s.addSound("[7/7] Mercenary Leader: You get that talisman in my hands and the King's boy is yours. Now off you pip! I'm a very busy man.", "lostroyalty-mercenaryleader-7", false);
+        s.addSound("[1/3] Mercenary Leader: You've gotten the talisman! I can't believe you actually got through that puzzle!", "lostroyalty-mercenaryleader-8", false);
+        s.addSound("[2/3] Mercenary Leader: At this point I would usually keep the kid and throw you out of here, but since you've done what I've asked in a timely fashion, he's all yours.", "lostroyalty-mercenaryleader-9", false);
+        s.addSound("[3/3] Mercenary Leader: When you get back to whoever asked you to do this, tell him to leave my men and I alone! We guildsmen lay down our lives every day, we don't need any more hostile onlookers!", "lostroyalty-mercenaryleader-10", false);
+        s.addSound("[1/4] King's Son: Uh... Hi? Err, why did you free me? I'm trying to run away, I hate being the son of the King.", "lostroyalty-kingsson-1", false);
+        s.addSound("[2/4] King's Son: He expects too much of me! I hate politics, and I want to be a great mercenary like Tisaun, to help protect people that can't protect themselves!", "lostroyalty-kingsson-2", false);
+        s.addSound("[3/4] King's Son: It's not like my father ever listened to me when I told him. He wouldn't even let me out of the castle.", "lostroyalty-kingsson-3", false);
+        s.addSound("[4/4] King's Son: Could you please tell Yavlis that I want to be free? I would be grateful if you could.", "lostroyalty-kingsson-4", false);
+        s.addSound("[1/5] Yavlis: Ah, finally! You're back. Did they let you bring him back? Those mercenaries have an awful habit of failing to honour their deals.", "lostroyalty-yavlis-6", false);
+        s.addSound("[2/5] Yavlis: Wait, the king's son said what? He truly wants to be a mercenary? Oh my... then he must have escaped on his own.", "lostroyalty-yavlis-7", false);
+        s.addSound("[3/5] Yavlis: Alright then, if that's the path the king's son chooses to walk, then there's nothing we can do.", "lostroyalty-yavlis-8", false);
+        s.addSound("[4/5] Yavlis: I can only hope that he chose to join them out of a will to protect the people, rather than simply brutishness or money.", "lostroyalty-yavlis-9", false);
+        s.addSound("[5/5] Yavlis: Such a shame that old guild has stooped to such a level. Well, we must thank you for your help. You can have the emerald ransom we had intended to pay.", "lostroyalty-yavlis-10", false);
 
         //Lost Soles
         s.addSound("[1/1] Ferndor: Have you seen boots called Abysso Galoshes on your journey? A pirate stole them from us years ago! I could reward you if you could bring me the [Abysso Galoshes] and help us!", "lostsoles-ferndor-1", false);
