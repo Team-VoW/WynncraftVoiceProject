@@ -3374,13 +3374,35 @@ public class Sounds {
         s.addSound("[1/6] Rayshyroth: Oh? Well, greetings. What brings you to our quiet lonely island, let alone all the way up here?", "templeoflegends-rayshyroth-1", false);
         s.addSound("[1/9] Rayshyroth: Aha, you're back with the Sky Vapor! Sorry about the climb, even I find it rather inconvenient at times.", "templeoflegends-rayshyroth-2", false);
 
-        //Grand Youth
+//Grand Youth
         s.addSound("[1/5] Monte: Oh, what am I to do...? How am I to be our next elder if I cannot even help him... Oh? Ehm, hello, stranger.", "grandyouth-monte-1", false);
+        s.addSound("[2/5] Monte: You most likely heard me. Our elder has fallen ill of some vile disease... I am to be our next elder, but I am not yet ready.", "grandyouth-monte-2", false);
+        s.addSound("[3/5] Monte: We have tried everything we can think of, but our healers and shamans have failed to cure him. We had some hope, however...", "grandyouth-monte-3", false);
+        s.addSound("[4/5] Monte: A man in your city, Troms, insists that he sells healing water that could cure him, but he is selling it for an exorbitant price that we cannot afford!", "grandyouth-monte-4", false);
+        s.addSound("[5/5] Monte: I do not know where else to turn. I must ask you for help. If you can purchase it, I am sure that we could find a way to repay you.", "grandyouth-monte-5", false);
         s.addSound("[1/6] Salesman: Oh, why hello there! Come for my patented healing water, have you? Any problem instantly cured! Sniffles beware!", "grandyouth-salesman-1", false);
-        s.addSound("[1/6] Isfurus: Hm, hm...if it really does that, then...oh, is someone there? Erisk? ", "grandyouth-isfurus-1", false);
+        s.addSound("[2/6] Salesman: You're quite lucky, I only have a couple of bottles left, so it won't go cheap, but this is the good stuff! Only 64 Liquified Emeralds!", "grandyouth-salesman-2", false);
+        s.addSound("[3/6] Salesman: What? Don't give me that look! This is the real stuff, very valuable and rare! What do ya take me for, some guy who'd sell lake water for a fortune?!", "grandyouth-salesman-3", false);
+        s.addSound("[4/6] Salesman: Agh, agh! Put away the weapon! Put it away! Jeez, buddy! Alright, I admit it, I'm a fraudster! But, I do know where you get the real stuff, I ain't lying about that much.", "grandyouth-salesman-4", false);
+        s.addSound("[5/6] Salesman: There's this group of mages out in Dernel who know how to get the stuff. They're a bunch of tightwads and wouldn't give me any real healing water to sell.", "grandyouth-salesman-5", false);
+        s.addSound("[6/6] Salesman: I doubt you'll have any better luck with it, but go on, try your luck.", "grandyouth-salesman-6", false);
+        s.addSound("[1/6] Isfurus: Hm, hm...if it really does that, then...oh, is someone there? Erisk?", "grandyouth-isfurus-1", false);
+        s.addSound("[2/6] Isfurus: Oh, a tourist. Heard about the healing water, I presume? Well, if you are here to make a quick buck, you can turn right back around from where you came.", "grandyouth-isfurus-2", false);
+        s.addSound("[3/6] Isfurus: Hm...ah. Iboju's sister settlement...I see. I will trust this is an honest venture, then. The tribesmen are honourable.", "grandyouth-isfurus-3", false);
+        s.addSound("[4/6] Isfurus: I will provide you a specially-prepared bottle to hold the water in. My colleague, Erisk, is within the fountain here. He can fill up the bottle for you.", "grandyouth-isfurus-4", false);
+        s.addSound("[5/6] Isfurus: There are a few animals in the fountain, however. They're wild and will most likely attack, but you look well-armoured. I doubt you'll have trouble.", "grandyouth-isfurus-5", false);
+        s.addSound("[6/6] Isfurus: The entrance to the heart of the fountain is right below us. Take a deep breath and dive right in.", "grandyouth-isfurus-6", false);
         s.addSound("[1/4] Erisk: And who might you be? We certainly don't get many visitors down here.", "grandyouth-erisk-1", false);
-        s.addSound("[1/3] Isfurus: Aha. You had no trouble, I assume? Hand the bottle here, I'll finish the seal and remove the impurities...", "grandyouth-isfurus-2", false);
-        s.addSound("[1/4] Monte: You have returned, I see. Have you the healing water?", "grandyouth-monte-2", false);
+        s.addSound("[2/4] Erisk: Aha, Isfurus referred you. Yes, let me bottle this up for you, then. Once I do, make sure you don't drop them! Both the bottles and the water are valuable and difficult to replace.", "grandyouth-erisk-2", false);
+        s.addSound("[3/4] Erisk: But what a marvel this place is...water to cure all ailments, even aging! I even hear there is a similar fountain someplace in Gavel, can you believe?", "grandyouth-erisk-3", false);
+        s.addSound("[4/4] Erisk: Oh, I nearly forgot. Just make sure to check back in with Isfurus before you leave! There is just one more step to the process he has to take care of.", "grandyouth-erisk-4", false);
+        s.addSound("[1/3] Isfurus: Aha. You had no trouble, I assume? Hand the bottle here, I'll finish the seal and remove the impurities...", "grandyouth-isfurus-7", false);
+        s.addSound("[2/3] Isfurus: ...done. There is much potential here...ancient tribal markings repeat the word "youth" over and again. It could be used, or abused...", "grandyouth-isfurus-8", false);
+        s.addSound("[3/3] Isfurus: Anyways, you have your water. Not to be rude, but I must ask that you leave me to my research now. You have your delivery to make anyway, correct?", "grandyouth-isfurus-9", false);
+        s.addSound("[1/4] Monte: You have returned, I see. Have you the healing water?", "grandyouth-monte-6", false);
+        s.addSound("[2/4] Monte: Aha, perfect! If this will not work, then...no, I must have faith.", "grandyouth-monte-7", false);
+        s.addSound("[3/4] Monte: From the bottom of my heart, thank you. I know we surely will not be able to compensate you for the price of the water...", "grandyouth-monte-8", false);
+        s.addSound("[4/4] Monte: ...but here. This is the summation of our village's riches. For aiding us, consider it yours.", "grandyouth-monte-9", false);
 
         //Lazarus Pit
         s.addSound("[1/6] Burtur: Ah, one of you adventurin' types, huh? We see a lot of you around here... Going in and out as you please. Must be a nice life.", "lazaruspit-burtur-1", true);
