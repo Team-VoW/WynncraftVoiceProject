@@ -2711,20 +2711,75 @@ public class Sounds {
         s.addSound("10/10orphion", "nexusoflight-orphion-10", true);
         s.addSound("[1/2] Orphion: Enough. My gratefulness does not exceed my patience. Let this act as a warning, my pulse.", "nexusoflight-orphion-11", false);
 
-        //The Shadow of the Beast
-        s.addSound("[1/7] Dereg: Oh, you look tough. You must be one of those humans I keep hearing about, right? People talk about your kind all the time.", "theshadowofthebeast-dereg-1", false);
-        s.addSound("[1/9] Tolem: Oh, this is such a mess! And my axe is busted, too...how am I going to get this fixed?!", "theshadowofthebeast-tolem-1", false);
-        s.addSound("[1/11] Tolem: Oh, back already? I haven't even finished my stuff, where are the cows?", "theshadowofthebeast-tolem-2", false);
-        s.addSound("[1/4] Tolem: Oh lovely. Idiot's back! Joy of joys. Willow planks, please.", "theshadowofthebeast-tolem-3", false);
-        s.addSound("[1/1] Kroac: Oh, I'll never be able to fix this with my back in this state...", "theshadowofthebeast-kroac-1", true);
-        s.addSound("[1/6] Kroac: Oh, look at this...all my years of carpentry and my bad back does my poor house in.", "theshadowofthebeast-kroac-2", false);
-        s.addSound("[1/5] Kroac: Did you get enough cobblestone? I found a guy down the street selling this top-quality Willow...", "theshadowofthebeast-kroac-3", false);
-        s.addSound("[1/3] Kroac: That'll do just fine, kind soldier! You're a lifesaver, really, you are.", "theshadowofthebeast-kroac-4", true);
-        s.addSound("[1/2] Rileen: EVERYONE, MOVE! THE BEAST IS ON A RAMPAGE!", "theshadowofthebeast-rileen-1", false);
-        s.addSound("[2/2] Rileen: Aah, no! There were people in that house!", "theshadowofthebeast-rileen-2", false);
-        s.addSound("[1/7] Rileen: Wah! H-Human! Get away, there's nothing you can help with here!", "theshadowofthebeast-rileen-3", false);
-        s.addSound("[1/7] Rileen: No, there's no time to make a fishing spear- AAH! You're still here? What do you WANT?!", "theshadowofthebeast-rileen-4", false);
-        s.addSound("[1/7] Dereg: You're back! Any luck hunting the thing down?", "theshadowofthebeast-dereg-2", false);
+        //Shadow of the beast
+        s.addSound("[1/7] Dereg: Oh, you look tough. You must be one of those humans I keep hearing about, right? People talk about your kind all the time.", "shadowofthebeast-dereg-1", false);
+        s.addSound("[2/7] Dereg: You know, that you're all scrappers. Tough as nails, and willing to kill all sorts of beasts, you know?", "shadowofthebeast-dereg-2", false);
+        s.addSound("[3/7] Dereg: I think you know what I'm getting at. I saw some massive thing lumbering around the swamp one night! Tall as the trees, it was.", "shadowofthebeast-dereg-3", false);
+        s.addSound("[4/7] Dereg: I couldn't make out the details, but if its size was any indication, it could just step over the Olux walls and wreck the whole town!", "shadowofthebeast-dereg-4", false);
+        s.addSound("[5/7] Dereg: Of course, there's so many scam artists around here trying to sell anti-monster underwear or whatever that no one believes me.", "shadowofthebeast-dereg-5", false);
+        s.addSound("[6/7] Dereg: So, that means it's up to you! Ehm, supposing that you're willing to help out, at least... The one thing I know for sure is that it was eating something.", "shadowofthebeast-dereg-6", false);
+        s.addSound("[7/7] Dereg: See the blood on the ground? That stuff is fresh. Follow it, see where it leads, and hunt that beast before it does something terrible!", "shadowofthebeast-dereg-7", false);
+        s.addSound("[1/9] Tolem: Oh, this is such a mess! And my axe is busted, too...how am I going to get this fixed?!", "shadowofthebeast-tolem-1", false);
+        s.addSound("[2/9] Tolem: I can't pay for- AAAH! H-Human! What do you want?! Not a good time!", "shadowofthebeast-tolem-2", false);
+        s.addSound("[3/9] Tolem: Something destroyed my cow pen and wrecked up my entire farm!", "shadowofthebeast-tolem-3", false);
+        s.addSound("[4/9] Tolem: And they were solid, good-quality Willow, too...uff...", "shadowofthebeast-tolem-4", false);
+        s.addSound("[5/9] Tolem: Wait, what? You're hunting the thing? Well, that's fine and dandy, but do you think you could help here first?", "shadowofthebeast-tolem-5", false);
+        s.addSound("[6/9] Tolem: I have an idea of where it went, so...you scratch my back, I scratch yours?", "shadowofthebeast-tolem-6", false);
+        s.addSound("[7/9] Tolem: Okay, this can work, this can work! I have to figure out how to fix this, and some of my cows ran off in a panic.", "shadowofthebeast-tolem-7", false);
+        s.addSound("[8/9] Tolem: So, you can take care of them while I re-plan my fencing. Simple enough, right?", "shadowofthebeast-tolem-8", false);
+        s.addSound("[9/9] Tolem: Three of my cows ran off. Look around the farm for them. They were eating, so look for fallen wheat on the ground!", "shadowofthebeast-tolem-9", false);
+        s.addSound("[1/11] Tolem: Oh, back already? I haven't even finished my stuff, where are the cows?", "shadowofthebeast-tolem-10", false);
+        s.addSound("[3/11] Tolem: ...eheh. You. You're. This is a joke, right? We're having a chuckle?!", "shadowofthebeast-tolem-11", false);
+        s.addSound("[4/11] Tolem: WE'RE JOKING, RIGHT?! FOR THE LOVE OF ALL THAT'S HOLY TELL ME THIS IS A JOKE!", "shadowofthebeast-tolem-12", false);
+        s.addSound("[5/11] Tolem: WHAT IS THIS?! ARE YOU BRAINDEAD?!", "shadowofthebeast-tolem-13", false);
+        s.addSound("[6/11] Tolem: NO, WAIT, YOU'RE HUMAN, THAT'S THE PROBLEM! IDIOT THUGS, ALL OF YOU!", "shadowofthebeast-tolem-14", false);
+        s.addSound("[7/11] Tolem: DID I NEED TO SPECIFY THAT I WANTED THEM BACK ALIVE? WAS THAT NOT OBVIOUS TO YOU?!", "shadowofthebeast-tolem-15", false);
+        s.addSound("[8/11] Tolem: Hff...haah...hrrgh...I...I can't bellevue...bellevue? Believe! I can't believe this!", "shadowofthebeast-tolem-16", false);
+        s.addSound("[9/11] Tolem: Uff, settle down, Tolem, settle down...you can still salvage this...", "shadowofthebeast-tolem-17", false);
+        s.addSound("[10/11] Tolem: Alright, two things. Your new name is Idiot, and I'm changing our deal. You owe me [10 Willow Planks].", "shadowofthebeast-tolem-18", false);
+        s.addSound("[11/11] Tolem: You're going to help me get at least one thing around here working. You get the wood, I'll keep looking over the fencing.", "shadowofthebeast-tolem-19", false);
+        s.addSound("[1/4] Tolem: Oh lovely. Idiot's back! Joy of joys. Willow planks, please.", "shadowofthebeast-tolem-20", false);
+        s.addSound("[2/4] Tolem: Good. Even if you've got murder on the mind constantly, you have decent woodcutting arms.", "shadowofthebeast-tolem-21", false);
+        s.addSound("[3/4] Tolem: I'll sell the remainder of these planks to try and recoup the money for my cows you mulched.", "shadowofthebeast-tolem-22", false);
+        s.addSound("[4/4] Tolem: So go on, get out of here now. Make yourself useful and follow the giant footprints in the ground. Hunt something that NEEDS hunting, instead of cattle!", "shadowofthebeast-tolem-23", false);
+        s.addSound("[1/6] Kroac: Oh, look at this...all my years of carpentry and my bad back does my poor house in.", "shadowofthebeast-kroac-1", false);
+        s.addSound("[2/6] Kroac: What on earth could have done this?! It must be the biggest beast in the swamp!", "shadowofthebeast-kroac-2", false);
+        s.addSound("[3/6] Kroac: I was just sitting inside having some dinner, I hear some rumbling, and suddenly my house is falling apart!", "shadowofthebeast-kroac-3", false);
+        s.addSound("[4/6] Kroac: You human folk are good with physical labor, I hear? Do you think you could help me out here?", "shadowofthebeast-kroac-4", false);
+        s.addSound("[5/6] Kroac: There's a mine just over there. Think you can get [10 Cobblestone] out of it?", "shadowofthebeast-kroac-5", false);
+        s.addSound("[6/6] Kroac: I'll go find someone who's selling any spare wood for the roof...", "shadowofthebeast-kroac-6", false);
+        s.addSound("[1/5] Kroac: Did you get enough cobblestone? I found a guy down the street selling this top-quality Willow...", "shadowofthebeast-kroac-7", false);
+        s.addSound("[2/5] Kroac: Good, perfect. That should be enough. Though, I do have one other thing to ask you, soldier.", "shadowofthebeast-kroac-8", false);
+        s.addSound("[3/5] Kroac: My back's already screaming at me just from lugging the wood over here, there's no way I can climb up there and fix the roof like this.", "shadowofthebeast-kroac-9", false);
+        s.addSound("[4/5] Kroac: I can compensate you for the trouble, but d'you think you could do some patchwork for me with that cobble?", "shadowofthebeast-kroac-10", false);
+        s.addSound("[5/5] Kroac: Oh, you're a saint. Can't imagine why the guy was grumbling about humans... Just climb right on up the ladder!", "shadowofthebeast-kroac-11", false);
+        s.addSound("[1/3] Kroac: That'll do just fine, kind soldier! You're a lifesaver, really, you are.", "shadowofthebeast-kroac-12", false);
+        s.addSound("[2/3] Kroac: Wait, you're going after the thing that did this? Really?! Fantastic! That's a load off my mind.", "shadowofthebeast-kroac-13", false);
+        s.addSound("[3/3] Kroac: Looks like there's tracks off to the east...big tracks. Good luck following it, stay safe!", "shadowofthebeast-kroac-14", false);
+        s.addSound("[1/1] Kroac: Oh, I'll never be able to fix this with my back in this state...", "shadowofthebeast-kroac-15", false);
+        s.addSound("[1/2] Rileen: EVERYONE, MOVE! THE BEAST IS ON A RAMPAGE!", "shadowofthebeast-rileen-1", false);
+        s.addSound("[2/2] Rileen: Aah, no! There were people in that house!", "shadowofthebeast-rileen-2", false);
+        s.addSound("[1/7] Rileen: Wah! H-Human! Get away, there's nothing you can help with here!", "shadowofthebeast-rileen-3", false);
+        s.addSound("[2/7] Rileen: All your type does is break and hurt! You have more in common with the giant there than any of us!", "shadowofthebeast-rileen-4", false);
+        s.addSound("[3/7] Rileen: Aah, there's so many people hurt already, don't make it worse, please!", "shadowofthebeast-rileen-5", false);
+        s.addSound("[4/7] Rileen: We don't even have any medicine...", "shadowofthebeast-rileen-6", false);
+        s.addSound("[5/7] Rileen: Ugh, think Rileen! You have the herbs, what else goes into those poultices...", "shadowofthebeast-rileen-7", false);
+        s.addSound("[6/7] Rileen: Oh, right! Fish oil...but I don't have a rod, gah!", "shadowofthebeast-rileen-8", false);
+        s.addSound("[7/7] Rileen: There's no way I can get [10 Salmon Oil], even if that pond out back is teeming with fish...", "shadowofthebeast-rileen-9", false);
+        s.addSound("[1/7] Rileen: No, there's no time to make a fishing spear- AAH! You're still here? What do you WANT?!", "shadowofthebeast-rileen-10", false);
+        s.addSound("[2/7] Rileen: W-wait, what's...is this... This is salmon oil! Ten bottles of it! You...you heard me talking?", "shadowofthebeast-rileen-11", false);
+        s.addSound("[3/7] Rileen: And you went out of your way to... What kind of a human are you? I've only ever heard horror stories about your kind.", "shadowofthebeast-rileen-12", false);
+        s.addSound("[5/7] Rileen: ...maybe you're not so bad. I don't have anything that I can give you in return, but thank you, still.", "shadowofthebeast-rileen-13", false);
+        s.addSound("[6/7] Rileen: Wait, you were chasing the giant? That's why you were here? That...that's amazing news!", "shadowofthebeast-rileen-14", false);
+        s.addSound("[7/7] Rileen: I think it went into the cave east of here. Go for it! Stop that thing before it causes any more damage!", "shadowofthebeast-rileen-15", false);
+        s.addSound("[1/1] Rileen: I think the giant went into the cave east of here. Go for it! Stop that thing before it causes any more damage!", "shadowofthebeast-rileen-16", false);
+        s.addSound("[1/7] Dereg: You're back! Any luck hunting the thing down?", "shadowofthebeast-dereg-8", false);
+        s.addSound("[2/7] Dereg: What? You actually found the beast?! Heck of a hunting job, human!", "shadowofthebeast-dereg-9", false);
+        s.addSound("[3/7] Dereg: You wouldn't be back here if you didn't manage to kill it… which means our problems are solved, right?", "shadowofthebeast-dereg-10", false);
+        s.addSound("[4/7] Dereg: Heheh! That bone powder looks giant enough to me! Great job, bucko!", "shadowofthebeast-dereg-11", false);
+        s.addSound("[5/7] Dereg: Y'know, come to think of it, I remember something that might be interesting to your sort.", "shadowofthebeast-dereg-12", false);
+        s.addSound("[6/7] Dereg: The weapon merchant in Olux researches cryptids as a hobby, and that beast seemed one-of-a-kind to me.", "shadowofthebeast-dereg-13", false);
+        s.addSound("[7/7] Dereg: You should show him that bone powder! He might have some good gear for you.", "shadowofthebeast-dereg-14", false);
 
         //Zhight island
         s.addSound("[1/8] Zhight: Hello, esteemed tourist sir or madame! I see you have found my illustrious resort, Zhight Island!", "zhightisland-zhight-1", false);
@@ -3202,11 +3257,30 @@ public class Sounds {
         s.addSound("[11/11] Prentiss: Also since all the adults do it, we'll give you some emeralds that you rightly deserve for such an achievement. We all pitched in!", "outofmymind-prentiss-8", false);
 
         //Lost Royalty
-        s.addSound("[1/5] Yavlis: Oh, hello there! I had hoped not to bother you, adventurer, but this is urgent.", "lostroyalty-yalvis-1", false);
-        s.addSound("[1/5] Yavlis: Ah, finally! You're back. Did they let you bring him back? Those mercenaries have an awful habit of failing to honour their deals.", "lostroyalty-yalvis-2", false);
-        s.addSound("[1/7] Mercenary Leader: Excuse me?! What are you doing here, how did you find our secret hideout?", "lostroyalty-mercenary-1", false);
-        s.addSound("[1/3] Mercenary Leader: You've gotten the talisman! I can't believe you actually got through that puzzle!", "lostroyalty-mercenary-2", false);
-        s.addSound("[1/4] Prince of Troms: Uh... Hi? Err, why did you free me? I'm trying to run away, I hate being the son of the king.", "lostroyalty-kingsson-1", false);
+        s.addSound("[1/5] Yavlis: Oh, hello there! I had hoped not to bother you, adventurer, but this is urgent.", "lostroyalty-yavlis-1", false);
+        s.addSound("[2/5] Yavlis: You see, the king is very...erm, distracted, and you are just the kind of willing, able-bodied person I need.", "lostroyalty-yavlis-2", false);
+        s.addSound("[3/5] Yavlis: You see, the king's son has gone missing, and with him worrying so much, the problems of the kingdom have festered unsolved.", "lostroyalty-yavlis-3", false);
+        s.addSound("[4/5] Yavlis: We believe he was kidnapped by the splinter cell mercenaries in the jungle... Unfortunate, too. They used to be quite honourable.", "lostroyalty-yavlis-4", false);
+        s.addSound("[5/5] Yavlis: Well, anyway, they're usually spotted outside the run-down farm outside of town. Go there and see what they want in return for the young prince.", "lostroyalty-yavlis-5", false);
+        s.addSound("[1/7] Mercenary Leader: Excuse me?! What are you doing here, how did you find our secret hideout?", "lostroyalty-mercenaryleader-1", false);
+        s.addSound("[2/7] Mercenary Leader: Oh, you're here for the boy? A mighty fine steal, that one! The boy won't be leaving this establishment for free. I'll need some nice loot for him.", "lostroyalty-mercenaryleader-2", false);
+        s.addSound("[3/7] Mercenary Leader: Ah, but what to have you fetch... oh, haha! This would be a perfect opportunity to obtain that... Alright, ears open!", "lostroyalty-mercenaryleader-3", false);
+        s.addSound("[4/7] Mercenary Leader: There's a certain talisman that we aren't able to get to in the temple not far from here. It has special abilities that allow my men to be strengthened, see.", "lostroyalty-mercenaryleader-4", false);
+        s.addSound("[5/7] Mercenary Leader: The guardians there pack quite the punch, and there's some nasty mechanism in the way that we just can't crack.", "lostroyalty-mercenaryleader-5", false);
+        s.addSound("[6/7] Mercenary Leader: The temple is found just across the waterway, in a crevice in the mountain. It used to be blocked until those WynnExcavation fellows tried digging there.", "lostroyalty-mercenaryleader-6", false);
+        s.addSound("[7/7] Mercenary Leader: You get that talisman in my hands and the King's boy is yours. Now off you pip! I'm a very busy man.", "lostroyalty-mercenaryleader-7", false);
+        s.addSound("[1/3] Mercenary Leader: You've gotten the talisman! I can't believe you actually got through that puzzle!", "lostroyalty-mercenaryleader-8", false);
+        s.addSound("[2/3] Mercenary Leader: At this point I would usually keep the kid and throw you out of here, but since you've done what I've asked in a timely fashion, he's all yours.", "lostroyalty-mercenaryleader-9", false);
+        s.addSound("[3/3] Mercenary Leader: When you get back to whoever asked you to do this, tell him to leave my men and I alone! We guildsmen lay down our lives every day, we don't need any more hostile onlookers!", "lostroyalty-mercenaryleader-10", false);
+        s.addSound("[1/4] King's Son: Uh... Hi? Err, why did you free me? I'm trying to run away, I hate being the son of the King.", "lostroyalty-kingsson-1", false);
+        s.addSound("[2/4] King's Son: He expects too much of me! I hate politics, and I want to be a great mercenary like Tisaun, to help protect people that can't protect themselves!", "lostroyalty-kingsson-2", false);
+        s.addSound("[3/4] King's Son: It's not like my father ever listened to me when I told him. He wouldn't even let me out of the castle.", "lostroyalty-kingsson-3", false);
+        s.addSound("[4/4] King's Son: Could you please tell Yavlis that I want to be free? I would be grateful if you could.", "lostroyalty-kingsson-4", false);
+        s.addSound("[1/5] Yavlis: Ah, finally! You're back. Did they let you bring him back? Those mercenaries have an awful habit of failing to honour their deals.", "lostroyalty-yavlis-6", false);
+        s.addSound("[2/5] Yavlis: Wait, the king's son said what? He truly wants to be a mercenary? Oh my... then he must have escaped on his own.", "lostroyalty-yavlis-7", false);
+        s.addSound("[3/5] Yavlis: Alright then, if that's the path the king's son chooses to walk, then there's nothing we can do.", "lostroyalty-yavlis-8", false);
+        s.addSound("[4/5] Yavlis: I can only hope that he chose to join them out of a will to protect the people, rather than simply brutishness or money.", "lostroyalty-yavlis-9", false);
+        s.addSound("[5/5] Yavlis: Such a shame that old guild has stooped to such a level. Well, we must thank you for your help. You can have the emerald ransom we had intended to pay.", "lostroyalty-yavlis-10", false);
 
         //Lost Soles
         s.addSound("[1/1] Ferndor: Have you seen boots called Abysso Galoshes on your journey? A pirate stole them from us years ago! I could reward you if you could bring me the [Abysso Galoshes] and help us!", "lostsoles-ferndor-1", false);
@@ -3357,11 +3431,33 @@ public class Sounds {
 
         //Grand Youth
         s.addSound("[1/5] Monte: Oh, what am I to do...? How am I to be our next elder if I cannot even help him... Oh? Ehm, hello, stranger.", "grandyouth-monte-1", false);
+        s.addSound("[2/5] Monte: You most likely heard me. Our elder has fallen ill of some vile disease... I am to be our next elder, but I am not yet ready.", "grandyouth-monte-2", false);
+        s.addSound("[3/5] Monte: We have tried everything we can think of, but our healers and shamans have failed to cure him. We had some hope, however...", "grandyouth-monte-3", false);
+        s.addSound("[4/5] Monte: A man in your city, Troms, insists that he sells healing water that could cure him, but he is selling it for an exorbitant price that we cannot afford!", "grandyouth-monte-4", false);
+        s.addSound("[5/5] Monte: I do not know where else to turn. I must ask you for help. If you can purchase it, I am sure that we could find a way to repay you.", "grandyouth-monte-5", false);
         s.addSound("[1/6] Salesman: Oh, why hello there! Come for my patented healing water, have you? Any problem instantly cured! Sniffles beware!", "grandyouth-salesman-1", false);
-        s.addSound("[1/6] Isfurus: Hm, hm...if it really does that, then...oh, is someone there? Erisk? ", "grandyouth-isfurus-1", false);
+        s.addSound("[2/6] Salesman: You're quite lucky, I only have a couple of bottles left, so it won't go cheap, but this is the good stuff! Only 64 Liquified Emeralds!", "grandyouth-salesman-2", false);
+        s.addSound("[3/6] Salesman: What? Don't give me that look! This is the real stuff, very valuable and rare! What do ya take me for, some guy who'd sell lake water for a fortune?!", "grandyouth-salesman-3", false);
+        s.addSound("[4/6] Salesman: Agh, agh! Put away the weapon! Put it away! Jeez, buddy! Alright, I admit it, I'm a fraudster! But, I do know where you get the real stuff, I ain't lying about that much.", "grandyouth-salesman-4", false);
+        s.addSound("[5/6] Salesman: There's this group of mages out in Dernel who know how to get the stuff. They're a bunch of tightwads and wouldn't give me any real healing water to sell.", "grandyouth-salesman-5", false);
+        s.addSound("[6/6] Salesman: I doubt you'll have any better luck with it, but go on, try your luck.", "grandyouth-salesman-6", false);
+        s.addSound("[1/6] Isfurus: Hm, hm...if it really does that, then...oh, is someone there? Erisk?", "grandyouth-isfurus-1", false);
+        s.addSound("[2/6] Isfurus: Oh, a tourist. Heard about the healing water, I presume? Well, if you are here to make a quick buck, you can turn right back around from where you came.", "grandyouth-isfurus-2", false);
+        s.addSound("[3/6] Isfurus: Hm...ah. Iboju's sister settlement...I see. I will trust this is an honest venture, then. The tribesmen are honourable.", "grandyouth-isfurus-3", false);
+        s.addSound("[4/6] Isfurus: I will provide you a specially-prepared bottle to hold the water in. My colleague, Erisk, is within the fountain here. He can fill up the bottle for you.", "grandyouth-isfurus-4", false);
+        s.addSound("[5/6] Isfurus: There are a few animals in the fountain, however. They're wild and will most likely attack, but you look well-armoured. I doubt you'll have trouble.", "grandyouth-isfurus-5", false);
+        s.addSound("[6/6] Isfurus: The entrance to the heart of the fountain is right below us. Take a deep breath and dive right in.", "grandyouth-isfurus-6", false);
         s.addSound("[1/4] Erisk: And who might you be? We certainly don't get many visitors down here.", "grandyouth-erisk-1", false);
-        s.addSound("[1/3] Isfurus: Aha. You had no trouble, I assume? Hand the bottle here, I'll finish the seal and remove the impurities...", "grandyouth-isfurus-2", false);
-        s.addSound("[1/4] Monte: You have returned, I see. Have you the healing water?", "grandyouth-monte-2", false);
+        s.addSound("[2/4] Erisk: Aha, Isfurus referred you. Yes, let me bottle this up for you, then. Once I do, make sure you don't drop them! Both the bottles and the water are valuable and difficult to replace.", "grandyouth-erisk-2", false);
+        s.addSound("[3/4] Erisk: But what a marvel this place is...water to cure all ailments, even aging! I even hear there is a similar fountain someplace in Gavel, can you believe?", "grandyouth-erisk-3", false);
+        s.addSound("[4/4] Erisk: Oh, I nearly forgot. Just make sure to check back in with Isfurus before you leave! There is just one more step to the process he has to take care of.", "grandyouth-erisk-4", false);
+        s.addSound("[1/3] Isfurus: Aha. You had no trouble, I assume? Hand the bottle here, I'll finish the seal and remove the impurities...", "grandyouth-isfurus-7", false);
+        s.addSound("[2/3] Isfurus: ...done. There is much potential here...ancient tribal markings repeat the word \"youth\" over and again. It could be used, or abused...", "grandyouth-isfurus-8", false);
+        s.addSound("[3/3] Isfurus: Anyways, you have your water. Not to be rude, but I must ask that you leave me to my research now. You have your delivery to make anyway, correct?", "grandyouth-isfurus-9", false);
+        s.addSound("[1/4] Monte: You have returned, I see. Have you the healing water?", "grandyouth-monte-6", false);
+        s.addSound("[2/4] Monte: Aha, perfect! If this will not work, then...no, I must have faith.", "grandyouth-monte-7", false);
+        s.addSound("[3/4] Monte: From the bottom of my heart, thank you. I know we surely will not be able to compensate you for the price of the water...", "grandyouth-monte-8", false);
+        s.addSound("[4/4] Monte: ...but here. This is the summation of our village's riches. For aiding us, consider it yours.", "grandyouth-monte-9", false);
 
         //Lazarus Pit
         s.addSound("[1/6] Burtur: Ah, one of you adventurin' types, huh? We see a lot of you around here... Going in and out as you please. Must be a nice life.", "lazaruspit-burtur-1", true);
@@ -5214,7 +5310,7 @@ public class Sounds {
         s.addSound("[14/14] Death: WHICH IS ODD, BECAUSE OUT OF THE TWO OF US, THEY ARE THE ONES WITH VOCAL CHORDS.", "beyondthegrave-death-50", false);
         s.addSound("[1/2] Death: SOMETHING I'M FINDING INCREASINGLY ANNOYING IS HOW MANY PEOPLE ARE FINDING WAYS TO BECOME IMMORTAL NOWADAYS. INTELLIGENT COMPANY IS STARTING TO GET A BIT SCARCER.", "beyondthegrave-death-51", false);
         s.addSound("[2/2] Death: OH, YOU ARE STILL HERE. IF YOU WANT TO LEAVE, I SIMPLY WANT A BIT OF ENTERTAINMENT BEFORE YOU DO. WOULD YOU GO TO THE GAME ROOM ON THE OTHER END OF THE MANSION?", "beyondthegrave-death-52", false);
-        s.addSound("[1/5] Death: WELL, I SEE YOU ARE LEAVING.", "beyondthegrave-death-53", false);
+        s.addSound("[1/5] Death: WELL, I SEE YOU ARE LEAVING.", "beyondthegrave-death-53", true);
         s.addSound("[2/5] Death: IT WAS NICE TO HAVE YOU BACK AGAIN, I DO ENJOY YOUR VISITS.", "beyondthegrave-death-54", true);
         s.addSound("[3/5] Death: TO RISE BACK TO LIFE, YOU MUST DEFEAT THE ONE WHO BROUGHT YOU TO MY HANDS.", "beyondthegrave-death-55", true);
         s.addSound("[4/5] Death: YOU'VE MANAGED IT BEFORE SO I CAN'T SEE WHY YOU CAN'T MANAGE IT AGAIN. AFTERALL, YOU MANAGE TO KEEP DYING.", "beyondthegrave-death-56", true);

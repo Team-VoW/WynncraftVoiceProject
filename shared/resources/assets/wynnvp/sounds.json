@@ -12469,58 +12469,279 @@
 
 
 
-  "theshadowofthebeast-dereg-1": {
+  "shadowofthebeast-dereg-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-dereg-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-1", "stream": true}]
   },
-  "theshadowofthebeast-tolem-1": {
+  "shadowofthebeast-dereg-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-tolem-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-2", "stream": true}]
   },
-  "theshadowofthebeast-tolem-2": {
+  "shadowofthebeast-dereg-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-tolem-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-3", "stream": true}]
   },
-  "theshadowofthebeast-tolem-3": {
+  "shadowofthebeast-dereg-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-tolem-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-4", "stream": true}]
   },
-  "theshadowofthebeast-kroac-1": {
+  "shadowofthebeast-dereg-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-kroac-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-5", "stream": true}]
   },
-  "theshadowofthebeast-kroac-2": {
+  "shadowofthebeast-dereg-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-kroac-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-6", "stream": true}]
   },
-  "theshadowofthebeast-kroac-3": {
+  "shadowofthebeast-dereg-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-kroac-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-7", "stream": true}]
   },
-  "theshadowofthebeast-kroac-4": {
+  "shadowofthebeast-tolem-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-kroac-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-1", "stream": true}]
   },
-  "theshadowofthebeast-rileen-1": {
+  "shadowofthebeast-tolem-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-rileen-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-2", "stream": true}]
   },
-  "theshadowofthebeast-rileen-2": {
+  "shadowofthebeast-tolem-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-rileen-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-3", "stream": true}]
   },
-  "theshadowofthebeast-rileen-3": {
+  "shadowofthebeast-tolem-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-rileen-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-4", "stream": true}]
   },
-  "theshadowofthebeast-rileen-4": {
+  "shadowofthebeast-tolem-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-rileen-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-5", "stream": true}]
   },
-  "theshadowofthebeast-dereg-2": {
+  "shadowofthebeast-tolem-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theshadowofthebeast-dereg-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-6", "stream": true}]
   },
+  "shadowofthebeast-tolem-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-7", "stream": true}]
+  },
+  "shadowofthebeast-tolem-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-8", "stream": true}]
+  },
+  "shadowofthebeast-tolem-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-9", "stream": true}]
+  },
+  "shadowofthebeast-tolem-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-10", "stream": true}]
+  },
+  "shadowofthebeast-tolem-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-11", "stream": true}]
+  },
+  "shadowofthebeast-tolem-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-12", "stream": true}]
+  },
+  "shadowofthebeast-tolem-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-13", "stream": true}]
+  },
+  "shadowofthebeast-tolem-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-14", "stream": true}]
+  },
+  "shadowofthebeast-tolem-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-15", "stream": true}]
+  },
+  "shadowofthebeast-tolem-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-16", "stream": true}]
+  },
+  "shadowofthebeast-tolem-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-17", "stream": true}]
+  },
+  "shadowofthebeast-tolem-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-18", "stream": true}]
+  },
+  "shadowofthebeast-tolem-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-19", "stream": true}]
+  },
+  "shadowofthebeast-tolem-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-20", "stream": true}]
+  },
+  "shadowofthebeast-tolem-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-21", "stream": true}]
+  },
+  "shadowofthebeast-tolem-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-22", "stream": true}]
+  },
+  "shadowofthebeast-tolem-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-tolem-23", "stream": true}]
+  },
+  "shadowofthebeast-kroac-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-1", "stream": true}]
+  },
+  "shadowofthebeast-kroac-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-2", "stream": true}]
+  },
+  "shadowofthebeast-kroac-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-3", "stream": true}]
+  },
+  "shadowofthebeast-kroac-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-4", "stream": true}]
+  },
+  "shadowofthebeast-kroac-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-5", "stream": true}]
+  },
+  "shadowofthebeast-kroac-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-6", "stream": true}]
+  },
+  "shadowofthebeast-kroac-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-7", "stream": true}]
+  },
+  "shadowofthebeast-kroac-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-8", "stream": true}]
+  },
+  "shadowofthebeast-kroac-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-9", "stream": true}]
+  },
+  "shadowofthebeast-kroac-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-10", "stream": true}]
+  },
+  "shadowofthebeast-kroac-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-11", "stream": true}]
+  },
+  "shadowofthebeast-kroac-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-12", "stream": true}]
+  },
+  "shadowofthebeast-kroac-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-13", "stream": true}]
+  },
+  "shadowofthebeast-kroac-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-14", "stream": true}]
+  },
+  "shadowofthebeast-kroac-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-kroac-15", "stream": true}]
+  },
+  "shadowofthebeast-rileen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-1", "stream": true}]
+  },
+  "shadowofthebeast-rileen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-2", "stream": true}]
+  },
+  "shadowofthebeast-rileen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-3", "stream": true}]
+  },
+  "shadowofthebeast-rileen-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-4", "stream": true}]
+  },
+  "shadowofthebeast-rileen-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-5", "stream": true}]
+  },
+  "shadowofthebeast-rileen-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-6", "stream": true}]
+  },
+  "shadowofthebeast-rileen-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-7", "stream": true}]
+  },
+  "shadowofthebeast-rileen-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-8", "stream": true}]
+  },
+  "shadowofthebeast-rileen-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-9", "stream": true}]
+  },
+  "shadowofthebeast-rileen-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-10", "stream": true}]
+  },
+  "shadowofthebeast-rileen-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-11", "stream": true}]
+  },
+  "shadowofthebeast-rileen-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-12", "stream": true}]
+  },
+  "shadowofthebeast-rileen-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-13", "stream": true}]
+  },
+  "shadowofthebeast-rileen-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-14", "stream": true}]
+  },
+  "shadowofthebeast-rileen-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-15", "stream": true}]
+  },
+  "shadowofthebeast-rileen-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-rileen-16", "stream": true}]
+  },
+  "shadowofthebeast-dereg-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-8", "stream": true}]
+  },
+  "shadowofthebeast-dereg-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-9", "stream": true}]
+  },
+  "shadowofthebeast-dereg-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-10", "stream": true}]
+  },
+  "shadowofthebeast-dereg-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-11", "stream": true}]
+  },
+  "shadowofthebeast-dereg-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-12", "stream": true}]
+  },
+  "shadowofthebeast-dereg-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-13", "stream": true}]
+  },
+  "shadowofthebeast-dereg-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:shadowofthebeast-dereg-14", "stream": true}]
+  },
+
 
 
   "macabremasquerade-masksalesman-1": {
