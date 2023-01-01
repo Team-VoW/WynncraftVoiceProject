@@ -1374,7 +1374,7 @@ public class Sounds {
         s.addSound("[4/4] WynnExcavation Guard: You will have to find another exit if you want get out!", "wynnexcavationb-wynnexcavationguard-4", false);
 
         //Wynn Excavation site C
-        s.addSound("[1/8] Excavator Placardus: All operations functional… Transportation on schedule… Oh. It's you. We've been looking for you.", "wynnexcavationsitec-excavatorplacardus-1", false);
+        s.addSound("[1/8] Excavator Placardus: All operations functional... Transportation on schedule... Oh. It's you. We've been looking for you.", "wynnexcavationsitec-excavatorplacardus-1", false);
         s.addSound("[2/8] Excavator Placardus: Locating you was far harder than we thought, but here you are, having come right to us.", "wynnexcavationsitec-excavatorplacardus-2", false);
         s.addSound("[3/8] Excavator Placardus: Now you're here, I'm not sure what to say. But I feel I must explain, we at WynnExcavation apologise for all our previous encounters.", "wynnexcavationsitec-excavatorplacardus-3", false);
         s.addSound("[4/8] Excavator Placardus: We completely got off on the wrong foot. We are a company from Gavel which specialises in historic artifacts of great mystical importance.", "wynnexcavationsitec-excavatorplacardus-4", false);
