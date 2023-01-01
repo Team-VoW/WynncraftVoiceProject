@@ -2798,7 +2798,7 @@ public class Sounds {
         s.addSound("[6/9] Phief: I have no clue whether he was deranged, paranoid, or if someone really did take something from him.", "zhightisland-phief-6", false);
         s.addSound("[7/9] Phief: I am certain of one thing. Nobody is going to sail my boat but me. I took my first chance to escape, broke the controls.", "zhightisland-phief-7", false);
         s.addSound("[8/9] Phief: And I swam back to land, here. Problem is, I haven't exactly decided how I'll get the ship back for myself.", "zhightisland-phief-8", false);
-        s.addSound("[9/9] Phief: Maybe you can help me with that. The ship should still be stuck, due north of here. I'd love to get my sea legs back.", "zhightisland-phief-9", false);
+        s.addSound("[9/9] Phief: Maybe you can help me with that. The ship should still be stuck, due north of here, it has a red and white sail. I'd love to get my sea legs back.", "zhightisland-phief-9", false);
         s.addSound("[1/9] Tirt: He told you what?! That fumbleknuckle...", "zhightisland-tirt-1", false);
         s.addSound("[2/9] Tirt: We didn't steal the ship from Phief, we were taking back what he stole from us years ago!", "zhightisland-tirt-2", false);
         s.addSound("[3/9] Tirt: He attacked us on our way home to Maro Peaks, kicked us off the boat, and sailed it to who-knows-where.", "zhightisland-tirt-3", false);
