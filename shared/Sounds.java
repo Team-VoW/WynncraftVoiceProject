@@ -1866,7 +1866,7 @@ public class Sounds {
         s.addSound("[1/3] Guard Golem: My name!! My life! I won't hurt them! The pain helps me reme...who's there?! LEAVE! PLEASE!", "anironheartparti-guardgolem-4", false);
         s.addSound("[2/3] Guard Golem: No directives!! Who did this?! I can't...s-stop giving me ORDERS!!", "anironheartparti-guardgolem-5", false);
         s.addSound("3/3guardgolemnomorecoldness!nomorevoicesthatarentmine!mynameiserror!!error!!nooo!!", "anironheartparti-guardgolem-6", false);
-        s.addSound("1/1guardgolemfallingapartthisisntwhoiiiwasmymymymymymymynameiswasiswasisis!errormaerroinemadeleine!!immadeleineiiiiiiiiiiiii", "anironheartparti-guardgolem-7", false);
+        s.addSound("[1/1] Guard Golem: Falling...apart...this isn't who I I I was... My... My... My my my my my name is. Was. Is. Was. Is. IS...! [ERROR]... Ma[ERROine... Madeleine!! I'm Madeleine... I... I-I-IIIIIIIIII-", "anironheartparti-guardgolem-7", false);
         s.addSound("[1/7] Duvale: Were you able to subdue the golem? You certainly look like you're in one piece.", "anironheartparti-duvale-7", false);
         s.addSound("[2/7] Duvale: Ach...that stings. I shouldn't be surprised you had to destroy it, but that was still a big wasted investment for me.", "anironheartparti-duvale-8", false);
         s.addSound("[3/7] Duvale: Still, it makes me wonder...it sounded like it was talking when I first turned it on- Wait, you heard it too?", "anironheartparti-duvale-9", false);
