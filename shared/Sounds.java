@@ -3600,7 +3600,7 @@ public class Sounds {
         s.addSound("[10/11] Prison Guard: Alright, meal time's over! Get to your cells, filth!", "forbiddenprison-prisonguard-16", true);
         s.addSound("[11/11] Mafia Prisoner: But no, you're different. I can see it in those eyes. You just gotta find a way into that Control Room, somehow. And hey, if you do get outta here, go and raise some hell in the Levtus Black Market for us, yeah?", "forbiddenprison-mafiaprisoner-10", true);
         s.addSound("[1/9] Prisoner: Hey.. It's alright, you can sit here, don't worry.", "forbiddenprison-prisoner-2", true);
-        s.addSound("[2/9] Prisoner: So... you're new here, right? Hah' Guessing you're innocent, just like the rest of us, and I mean that...", "forbiddenprison-prisoner-3", true);
+        s.addSound("[2/9] Prisoner: So... you’re new here, right? Hah... Guessing you’re innocent, just like the rest of us... and I mean that...", "forbiddenprison-prisoner-3", true);
         s.addSound("[3/9] Prisoner: He's tellin' the truth, new guy. Most of us here are just average civilians. I worked at a transportation company in Cinfras, and was delivering some crates to Gelibord when they snatched me just outside of town.", "forbiddenprison-prisoner-4", true);
         s.addSound("[4/9] Prisoner: Me too! I don't know why I was put in here at all! I wasn't even given a trial in court, or anything! They just plucked me off of the streets and threw me in here!", "forbiddenprison-prisoner-5", true);
         s.addSound("[5/9] Prisoner: They wanna kill you, that's why. Did ya hear about Revan? He got taken away a couple of days ago, after he accidentally stumbled during roll call. Nobody's heard from or seen 'em since.", "forbiddenprison-prisoner-6", true);
