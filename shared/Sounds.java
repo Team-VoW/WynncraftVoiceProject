@@ -311,10 +311,10 @@ public class Sounds {
         s.addSound("[1/2] Omango: You got it! You found the treasure!", "underwater-omango-2", false);
 
         //Mushroom man
-        s.addSound("[1/2] Yahya: G-... Hi! What a coincidence, I… I actually need you, yes.", "mushroomman-yahya-1", false);
+        s.addSound("[1/2] Yahya: G-... Hi! What a coincidence, I... I actually need you, yes.", "mushroomman-yahya-1", false);
         s.addSound("[1/5] Yahya: YOU DRANK ALL M-MY STUOP, STEW, SOUP!! WHERE IS IT!", "mushroomman-yahya-2", false);
-        s.addSound("[1/5] Yahya: You, again? Oh, you have the… mushrooms.", "mushroomman-yahya-3", false);
-        s.addSound("[1/6] Yahya: H-... Hey! I didn’t expect you to find it.. Haha… um..", "mushroomman-yahya-4", false);
+        s.addSound("[1/5] Yahya: You, again? Oh, you have the... mushrooms.", "mushroomman-yahya-3", false);
+        s.addSound("[1/6] Yahya: H-... Hey! I didn’t expect you to find it.. Haha... um..", "mushroomman-yahya-4", false);
         s.addSound("[1/2] Yahya: Oh boy I love bowls! Bowls, bowls, b-bowls! Perfect for mushrooms! W-wait... I thought I- was at my home?", "mushroomman-yahya-5", false);
 
         //Potion Making
@@ -407,7 +407,7 @@ public class Sounds {
         s.addSound("[1/8] Enduyn: At ease, soldier! Did Cob send you?", "arachnidsascent-enduyn-1", false);
         s.addSound("[2/8] Enduyn: That private can’t seem to get the bucket of lava here without trouble.", "arachnidsascent-enduyn-2", false);
         s.addSound("[3/8] Enduyn: I’m sure you’re aware that the Nivla Woods are flooded with spiders! Well, turns out they came from this nest, and it must be stopped!", "arachnidsascent-enduyn-3", false);
-        s.addSound("[4/8] Enduyn: Magic doesn’t seem to work against that strong web… the same goes for regular fire. So, we thought… Why not just use lava?!", "arachnidsascent-enduyn-4", false);
+        s.addSound("[4/8] Enduyn: Magic doesn’t seem to work against that strong web... the same goes for regular fire. So, we thought... Why not just use lava?!", "arachnidsascent-enduyn-4", false);
         s.addSound("[5/8] Enduyn: Look, that’s our best bet right now. If we can kill the queen, we can control the population.", "arachnidsascent-enduyn-5", false);
         s.addSound("[6/8] Enduyn: Mount Wynn was considered too dangerous to try and enter, but if Cob sent you to try it out yourself, and you think you can do it, go ahead.", "arachnidsascent-enduyn-6", false);
         s.addSound("[7/8] Enduyn: So I’ve got a mission for you, soldier. Head to the top of Mount Wynn, the nearby volcano, and return with lava.", "arachnidsascent-enduyn-7", false);
@@ -425,7 +425,7 @@ public class Sounds {
         s.addSound("[2/5] Enduyn: Seems like you’ve got a real knack for spider killing, would you be willing to tackle the queen?", "arachnidsascent-enduyn-19", false);
         s.addSound("[3/5] Enduyn: I’ll keep dealing with the rest of the spiders in the forest.", "arachnidsascent-enduyn-20", false);
         s.addSound("[3/5] Enduyn: You know what? You see that tunnel behind you? It goes straight back to Private Cob’s position, over at the lava spring.", "arachnidsascent-enduyn-21", false);
-        s.addSound("[4/5] Enduyn: I’ll give you permission to use it. Cob had permission this whole time, I have… no clue why he didn’t. Well, what’s done is done.", "arachnidsascent-enduyn-22", false);
+        s.addSound("[4/5] Enduyn: I’ll give you permission to use it. Cob had permission this whole time, I have... no clue why he didn’t. Well, what’s done is done.", "arachnidsascent-enduyn-22", false);
         s.addSound("[5/5] Enduyn: Anyway, stand clear, I’m about to burn down the webs! Thanks for your assistance, soldier!", "arachnidsascent-enduyn-23", false);
         s.addSound("[1/1] Captain Enduyn: Hey, be careful! You don't want to get stuck in those webs!", "arachnidsascent-enduyn-24", false);
         s.addSound("[1/1] Enduyn: Think you can handle the spider queen on your own? Well, head inside and we'll find out!", "arachnidsascent-enduyn-25", false);
@@ -1127,8 +1127,8 @@ public class Sounds {
         s.addSound("[9/9] Eluzterp: I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell him, and he'll probably let you into his shop.", "greengloop-eluzterp-9", false);
         s.addSound("[1/6] Yodbon: Welcome to Yodbon's Glass Blowery, what can I do f-", "greengloop-yodbon-1", false);
         s.addSound("[2/6] Yodbon: Oh, another stinkin' adventurer, eh...", "greengloop-yodbon-2", false);
-        s.addSound("[3/6] Yodbon: So many've been coming up to me recently, askin' for a bloody Slime Scooper…(Complaining, venting)", "greengloop-yodbon-3", false);
-        s.addSound("[4/6] Yodbon: Izzat brother o' mine stopped workin' again? I swear, he's addicted to that slop…", "greengloop-yodbon-4", false);
+        s.addSound("[3/6] Yodbon: So many've been coming up to me recently, askin' for a bloody Slime Scooper...(Complaining, venting)", "greengloop-yodbon-3", false);
+        s.addSound("[4/6] Yodbon: Izzat brother o' mine stopped workin' again? I swear, he's addicted to that slop...", "greengloop-yodbon-4", false);
         s.addSound("[5/6] Yodbon: Anyways, for me to make you a scooper you'll need to get [5 Soft Sand].", "greengloop-yodbon-5", false);
         s.addSound("[6/6] Yodbon: Come back to me once you've gotten ahold of it. You can dig it up from those sand piles 'round the desert.", "greengloop-yodbon-6", false);
         s.addSound("[1/3] Yodbon: You've returned, I see.", "greengloop-yodbon-7", false);
@@ -1415,7 +1415,7 @@ public class Sounds {
         s.addSound("[1/6] Troms Guard: Time is short, so I'll have to spare you the details, but let's just say I'm on your side.", "wynnexcavation-tromsguard-1", false);
         s.addSound("[1/4] ???: Hey, psst. Come here!", "wynnexcavation-questionmark-1", false);
         s.addSound("[1/4] Traitor Thomas: I'm sorry, I can't let you in there.", "wynnexcavation-thomas-1", false);
-        s.addSound("[1/4] Traitor Thomas: Is that… The map fragments? You found them!", "wynnexcavation-thomas-2", false);
+        s.addSound("[1/4] Traitor Thomas: Is that... The map fragments? You found them!", "wynnexcavation-thomas-2", false);
         s.addSound("[1/8] Traitor Amadel: Welcome, friend. I knew you would figure it all out.", "wynnexcavation-amadel-1", false);
         s.addSound("[1/1] Traitor Buice: WynnExcavation have done really horrible things, and I used to help...", "wynnexcavation-bucie-1", false);
         s.addSound("[1/1] Traitor Jaynar: WynnExcavation will be destroyed, no matter what!", "wynnexcavation-jaynar-1", false);
@@ -1569,7 +1569,7 @@ public class Sounds {
         s.addSound("[5/5] Agent: The magical radiation doesn't seem to be affecting you at all though. Do you not feel anything? Perhaps you could help me locate it.", "starthief-agent-5", false);
         s.addSound("[1/1] ???: It's... mine.", "starthief-thief-1", false);
         s.addSound("[1/1] Thief: .... I can't control myself...fjfjfj This rock...", "starthief-thief-2", false);
-        s.addSound("[1/2] Thief: What is... this feeling… No I won't listen..", "starthief-thief-3", false);
+        s.addSound("[1/2] Thief: What is... this feeling... No I won't listen..", "starthief-thief-3", false);
         s.addSound("[2/2] Thief: I can't... control... my mind... end me.", "starthief-thief-4", false);
         s.addSound("[1/4] Agent: Hello again. Did you find the meteor down there? Why on earth are you holding some?!", "starthief-agent-6", false);
         s.addSound("[2/4] Agent: I see. This material is incredibly rare and magically powerful. Meteors fall all over Gavel and come in a variety of colours and potency.", "starthief-agent-7", false);
@@ -2775,7 +2775,7 @@ public class Sounds {
         s.addSound("[1/1] Rileen: I think the giant went into the cave east of here. Go for it! Stop that thing before it causes any more damage!", "shadowofthebeast-rileen-16", false);
         s.addSound("[1/7] Dereg: You're back! Any luck hunting the thing down?", "shadowofthebeast-dereg-8", false);
         s.addSound("[2/7] Dereg: What? You actually found the beast?! Heck of a hunting job, human!", "shadowofthebeast-dereg-9", false);
-        s.addSound("[3/7] Dereg: You wouldn't be back here if you didn't manage to kill it… which means our problems are solved, right?", "shadowofthebeast-dereg-10", false);
+        s.addSound("[3/7] Dereg: You wouldn't be back here if you didn't manage to kill it... which means our problems are solved, right?", "shadowofthebeast-dereg-10", false);
         s.addSound("[4/7] Dereg: Heheh! That bone powder looks giant enough to me! Great job, bucko!", "shadowofthebeast-dereg-11", false);
         s.addSound("[5/7] Dereg: Y'know, come to think of it, I remember something that might be interesting to your sort.", "shadowofthebeast-dereg-12", false);
         s.addSound("[6/7] Dereg: The weapon merchant in Olux researches cryptids as a hobby, and that beast seemed one-of-a-kind to me.", "shadowofthebeast-dereg-13", false);
@@ -6315,7 +6315,7 @@ public class Sounds {
         s.addSound("[8/9] Ava: What do you mean? Why should I trust you?", "thefeathersflypart2-ava-249", false);
         s.addSound("[3/27] Ava: So you're here. Are you... Forgiving me?", "thefeathersflypart2-ava-250", false);
         s.addSound("[7/27] Ava: First the Avos, then you, huh. So it's come full circle.", "thefeathersflypart2-ava-251", false);
-        s.addSound("[26/27] Ava: …soldier? If you stop by the Workshop later, I'll set up something for you as well.", "thefeathersflypart2-ava-252", false);
+        s.addSound("[26/27] Ava: ...soldier? If you stop by the Workshop later, I'll set up something for you as well.", "thefeathersflypart2-ava-252", false);
         s.addSound("[27/27] Ava: Bye. Thanks. For everything.", "thefeathersflypart2-ava-253", false);
         s.addSound("[1/1] Ava: Go on, I'll follow you. I just gotta finish this first!", "thefeathersflypart2-ava-254", false);
         s.addSound("[1/1] Ava: Hey, don't go alone head first! Talk to me!", "thefeathersflypart2-ava-255", false);
@@ -6900,7 +6900,7 @@ public class Sounds {
         s.addSound("[2/5] Siegfried: It barely has any resemblance to one.", "heroofgavel-siegfried-74", true);
         s.addSound("[3/5] Siegfried: Well... I doubt there’s anything better around here. I- I’ll take it.", "heroofgavel-siegfried-75", true);
         s.addSound("[4/5] Siegfried: OW!! I think I broke my teeth! This is like eating stone!", "heroofgavel-siegfried-76", true);
-        s.addSound("[5/5] Siegfried: … I th-ow-ink I’m ready to- ow- move on. Let’s get go-oow-ing.", "heroofgavel-siegfried-77", true);
+        s.addSound("[5/5] Siegfried: ... I th-ow-ink I’m ready to- ow- move on. Let’s get go-oow-ing.", "heroofgavel-siegfried-77", true);
         s.addSound("[1/4] Siegfried: You know... my name is actually Gurix.", "heroofgavel-siegfried-78", true);
         s.addSound("[2/4] Gurix: Sounds extremely Corkian, I know. They made me use Siegfried because it sounds less foreign, I suppose.", "heroofgavel-gurix-1", true);
         s.addSound("[3/4] Gurix: AAAH! Get away!", "heroofgavel-gurix-2", true);
@@ -7017,7 +7017,7 @@ public class Sounds {
         s.addSound("[13/14] Aledar: Ready?! Cast any spell!", "ajourneybeyond-aledar-17", true);
         s.addSound("[14/14] Aledar: Lucio, Elphaba! Run!", "ajourneybeyond-aledar-18", true);
         s.addSound("[1/7] Elphaba: We all here? Where’s Lucio?", "ajourneybeyond-elphaba-20", true);
-        s.addSound("[2/7] Lucio: Guys… Any help? I'm stuck!", "ajourneybeyond-lucio-11", true);
+        s.addSound("[2/7] Lucio: Guys... Any help? I'm stuck!", "ajourneybeyond-lucio-11", true);
         s.addSound("[3/7] Elphaba: Phew, here. Let me get you out.", "ajourneybeyond-elphaba-21", true);
         s.addSound("[4/7] Lucio: I'm sorry, team. I've never seen a monster like that before.", "ajourneybeyond-lucio-12", true);
         s.addSound("[5/7] Aledar: It looks like our problem isn't firepower. It's something else. It's like our weapons just didn't affect it at all.", "ajourneybeyond-aledar-19", true);
@@ -7433,7 +7433,7 @@ public class Sounds {
         s.addSound("[1/3] Talking Mushroom: WOW, LOTS OF POWERFUL MAGIC HERE, HUH?? MUCH STRONGER THAN ANYTHING YOU COULD EVER DO, THAT'S FOR SURE!", "talkingmushroomhouseoftwain", true);
         s.addSound("[1/2] Talking Mushroom: OH, LOOK AT THESE THINGS. THEY'RE KIND OF CUTE. A LITTLE BIT TOO CUTE... IT'S A CONSPIRACY, I TELL YOU!", "talkingmushroomwybelisland", true);
         s.addSound("[1/3] Talking Mushroom: I KNEW IT! IT'S ALL A CONSPIRACY!", "talkingmushroomorangewybelactor", true);
-        s.addSound("[1/1] Talking Mushroom: THIS BRIDGE SEEMS DIFFERENT SINCE YOU LAST CROSSED IT, OR IS IT JUST ME? IT MIGHT JUST BE YOUR 247TH TIME CROSSING IT THAT'S DISORIENTATING ME… OR DID I LOSE COUNT AGAIN?", "talkingmushroomnivadetlasbridge", true);
+        s.addSound("[1/1] Talking Mushroom: THIS BRIDGE SEEMS DIFFERENT SINCE YOU LAST CROSSED IT, OR IS IT JUST ME? IT MIGHT JUST BE YOUR 247TH TIME CROSSING IT THAT'S DISORIENTATING ME... OR DID I LOSE COUNT AGAIN?", "talkingmushroomnivadetlasbridge", true);
         s.addSound("[1/2] Talking Mushroom: WOAH, WAIT. WHERE ARE WE? WHAT ARE YOU DOING HE-", "talkingmushroomhiddencamp", true);
         s.addSound("[1/3] Talking Mushroom: ...I DON'T KNOW WHAT MANIC IDEA YOU'RE ABOUT TO HAVE NOW, BUT I'M GOING TO PUT AN END TO IT RIGHT NOW. YOU DO NOT WANT TO GO IN THERE.", "talkingmushroomoutsideeo", true);
         s.addSound("[1/3] Talking Mushroom: REALLY COOL CITY, HUH? BUILT UP ON THE CLIFFS, VERY STYLISH, IS THAT WHAT YOU'RE THINKING?", "talkingmushroomkandon", true);
@@ -7625,7 +7625,7 @@ public class Sounds {
         //Corrupted Ice barrows
         s.addSound("[1/2] Ghostly Voice: I told you it would fail.", "cib-ghostlyvoice-1", true);
         s.addSound("[2/2] Ghostly Voice: Your noble deeds have allowed the darkness to take over my mind.", "cib-ghostlyvoice-2", true);
-        s.addSound("[1/2] Ghostly Voice: It all seems clear to me now.. The struggle for life… It’s futile. There need only be peaceful darkness.", "cib-ghostlyvoice-3", true);
+        s.addSound("[1/2] Ghostly Voice: It all seems clear to me now.. The struggle for life... It’s futile. There need only be peaceful darkness.", "cib-ghostlyvoice-3", true);
         s.addSound("[1/1] Ghostly Voice: I will not let you stop me!", "cib-ghostlyvoice-4", true);
 
         //Undergrowth ruins
