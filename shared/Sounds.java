@@ -2942,8 +2942,8 @@ public class Sounds {
         s.addSound("[5/10] Teacher: In addition, although water is tied to healing magic, fire is tied to self-healing. Regenerative capacity, if you will. Many fire-based artifacts heal the user passively.", "orderofthegrook-fireteacher-5", false);
         s.addSound("[6/10] Teacher: And while they are on the verge of extinction after the war in the Molten Heights, the Dogun species used to embody fire and earth magic alike. It is a shame what happened to them.", "orderofthegrook-fireteacher-6", false);
         s.addSound("[7/10] Teacher: Unfortunately, it is also notable that corrupted creatures are often connected to fire, by nature of the corruption seeming to bring heat wherever it goes...", "orderofthegrook-fireteacher-7", false);
-        s.addSound("[8/10] Teacher: But aside from that, onto our practical test. You will all come up to me, starting with Tyralion, and hone your courage. I will be lobbing fireballs at the wall behind you.", "orderofthegrook-fireteacher-8", false);
-        s.addSound("[9/10] Teacher: You will need to destroy the fireballs before they hit the wall, by attacking them directly. If you are hit, it counts as a failure! Now. Let's get started, Tyralion.", "orderofthegrook-fireteacher-9", false);
+        s.addSound("[8/10] Teacher: But aside from that, onto our practical test. You will all come up to me, starting with soldier, and hone your courage. I will be lobbing fireballs at the wall behind you.", "orderofthegrook-fireteacher-8", false);
+        s.addSound("[9/10] Teacher: You will need to destroy the fireballs before they hit the wall, by attacking them directly. If you are hit, it counts as a failure! Now. Let's get started, soldier.", "orderofthegrook-fireteacher-9", false);
         s.addSound("[10/10] Teacher: Are you ready? Summon your bravery.", "orderofthegrook-fireteacher-10", false);
         s.addSound("[1/3] Teacher: Ok Grook. I hope you're ready.", "orderofthegrook-fireteacher-11", false);
         s.addSound("[2/3] Teacher: Lets start with 1 fireball.", "orderofthegrook-fireteacher-12", false);
@@ -2955,7 +2955,7 @@ public class Sounds {
         s.addSound("[2/3] Teacher: With only 5 fireballs!", "orderofthegrook-fireteacher-18", false);
         s.addSound("[3/3] Teacher: Go!", "orderofthegrook-fireteacher-19", false);
         s.addSound("[1/2] Teacher: Well done, fledgeling Grook! Continue to sharpen your instincts. You'll be a fine hero someday, I am sure of it.", "orderofthegrook-fireteacher-20", false);
-        s.addSound("[2/2] Teacher: Dismissed, student. You may leave. Now, do I have any volunteers for the next round...?", "orderofthegrook-fireteacher-21", false);
+        s.addSound("[2/2] Teacher: Dismissed, soldier. You may leave. Now, do I have any volunteers for the next round...?", "orderofthegrook-fireteacher-21", false);
         s.addSound("[1/8] Teacher: Aah, wow! Everyone s-sure got here quick...", "orderofthegrook-waterteacher-1", false);
         s.addSound("[2/8] Teacher: Welcome, w-welcome. The Water element class is...certainly an interesting one, I-I'd hope... Because water doesn't j-just pertain to, well, w-water...", "orderofthegrook-waterteacher-2", false);
         s.addSound("[3/8] Teacher: It also is the element o-of knowledge, and pure magicality. Water i-is a sort of magical default, if you w-will. If it isn't focused on o-one element or another, magic ends up being water-based.", "orderofthegrook-waterteacher-3", false);
