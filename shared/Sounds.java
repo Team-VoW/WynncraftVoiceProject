@@ -487,11 +487,41 @@ public class Sounds {
 
         //Lava Springs
         s.addSound("[1/6] Colonel Gailard: Oh, good good! I bet'cha you're a Ragni soldier, aren't ya? Listen up, soldier! I've got a task here that 'ye can help out with.", "lavasprings-colonelgailard-1", false);
-        s.addSound("[1/8] Colonel Gailard: Alright, good! Ya found some evidence, let me take a look at that!", "lavasprings-colonelgailard-2", false);
-        s.addSound("[1/6] Colonel Gailard: Report! Ya got the potion yet, soldier? Good, drink it if ya haven’t already!", "lavasprings-colonelgailard-3", false);
-        s.addSound("[1/1] Colonel Gailard: Hah! I knew ya’d give me results! Ye’re pretty damn reliable, soldier! Here, take this for your trouble!", "lavasprings-colonelgailard-4", false);
+        s.addSound("[2/6] Colonel Gailard: Ya see that lava spring right there? It just went and popped up out of nowhere! The brass is real concerned about it, mhm?", "lavasprings-colonelgailard-2", false);
+        s.addSound("[3/6] Colonel Gailard: They've been yappin' about it bein' related to the Corruption, and 'ye can bet that that means trouble. BAD trouble.", "lavasprings-colonelgailard-3", false);
+        s.addSound("[4/6] Colonel Gailard: Now this here Savannah always had some Corruption lurkin' about, but not to the point where it can do this! It won't be safe around here if we don't do somethin' about it.", "lavasprings-colonelgailard-4", false);
+        s.addSound("[5/6] Colonel Gailard: Anyways, high command ain't gonna provide support for this until they know there's actual Corruption, so we've gotta find some evidence around the springs, understand?", "lavasprings-colonelgailard-5", false);
+        s.addSound("[6/6] Colonel Gailard: Take a look around the springs, soldier! Find me some damn evidence around here! 3 Pieces of Evidence should be enough! Now, get movin'!", "lavasprings-colonelgailard-6", false);
+        s.addSound("[1/8] Colonel Gailard: Alright, good! Ya found some evidence, let me take a look at that!", "lavasprings-colonelgailard-7", false);
+        s.addSound("[2/8] Colonel Gailard: Oh… This is bad… very, VERY bad…", "lavasprings-colonelgailard-8", false);
+        s.addSound("[3/8] Colonel Gailard: This here is some physical corruption. If it’s gettin’ onto the surface, then ‘ye can bet one of those weeds is spreadin’ underground, right beneath the springs…", "lavasprings-colonelgailard-9", false);
+        s.addSound("[4/8] Colonel Gailard: If ya could get underneath the spring, ‘ye could probably sever whatever damn root is causing this, but… the heat would be sure to fry your skin off…", "lavasprings-colonelgailard-10", false);
+        s.addSound("[5/8] Colonel Gailard: Wait… I’ve got an idea… Alright, listen up soldier! There’s a lil’ town North of here named Bremminglar, yeah? There’s a healer guy there that can help us out.", "lavasprings-colonelgailard-11", false);
+        s.addSound("[6/8] Colonel Gailard: That guy’s holed up inside of some important well in the center of the town. There’s a password ya need to hop into that place, though…", "lavasprings-colonelgailard-12", false);
+        s.addSound("[7/8] Colonel Gailard: Don’t have much to go on, but I’m pretty damn sure the password is Bob, or something. After the hero himself.", "lavasprings-colonelgailard-13", false);
+        s.addSound("[8/8] Colonel Gailard: Right, ye’re headin’ there to find a potion that can keep ya weak little hide safe from the heat, understand? Here, let me write down the location in that book of yours.", "lavasprings-colonelgailard-14", false);
         s.addSound("[1/4] Gregor: Hey, hey hey hey! Darling, what do you think you’re doing? You can’t just waltz in here without telling me the password!", "lavasprings-gregor-1", false);
+        s.addSound("[2/4] Gregor: Hmm… Your face… confidence… it gleans with confidence… yet… you still haven’t spoken to me since you arrived…", "lavasprings-gregor-2", false);
+        s.addSound("[3/4] Gregor: Could it be… you know that the password is penguin eggs, but you’re just too shy to talk? Yeah.. yeah, that’s gotta be it!", "lavasprings-gregor-3", false);
+        s.addSound("[4/4] Gregor:  You’ve convinced me, little mute darling… You can enter the well. Go on, now!", "lavasprings-gregor-4", false);
+        s.addSound("[1/2] Gregor: Right, listen here darling... There's a secret to this well... it's that... there's a guy doing his job down there... spooky, right??", "lavasprings-gregor-5", false);
+        s.addSound("[2/2] Gregor: So... be a nice, respectful person, and don't go goofing off around here, yes?", "lavasprings-gregor-6", false);
+        s.addSound("[1/1] Gregor: Hey! Stay out of there, nosey guy! I don't remember you giving me a password, darling!", "lavasprings-gregor-7", false);
         s.addSound("[1/8] Nami the Healer: G’day to you, friend. How can I help you?", "lavasprings-namithehealer-1", false);
+        s.addSound("[2/8] Nami the Healer: Hm? The Colonel sent you? What for?", "lavasprings-namithehealer-2", false);
+        s.addSound("[3/8] Nami the Healer: ...Corrupted… lava springs…? You realize how stupid that sounds, yeah? Well, I completely believe you.", "lavasprings-namithehealer-3", false);
+        s.addSound("[4/8] Nami the Healer: Right, you said lava, soooo… You need a heat resistance potion, yes?", "lavasprings-namithehealer-4", false);
+        s.addSound("[5/8] Nami the Healer: Welp, you’re in luck! I have one right now, just brewed it up a few minutes ago! You can have it, free of charge.", "lavasprings-namithehealer-5", false);
+        s.addSound("[6/8] Nami the Healer: Or well, not free of charge. In exchange, you’ve got to use this to stop the corruption from getting too bad over here. I quite like this cave, you feel me?", "lavasprings-namithehealer-6", false);
+        s.addSound("[7/8] Nami the Healer: Anyways, if you ever need any more special brews, my assistant will be happy to sell some at a very affordable price.", "lavasprings-namithehealer-7", false);
+        s.addSound("[8/8] Nami the Healer: Now, you have somewhere to be, right? Right. Go and report back to the Colonel, soldier. Tell him I said hi, by the way.", "lavasprings-namithehealer-8", false);
+        s.addSound("[1/6] Colonel Gailard: Report! Ya got the potion yet, soldier? Good, drink it if ya haven’t already!", "lavasprings-colonelgailard-15", false);
+        s.addSound("[2/6] Colonel Gailard: Right, that’s what I like to hear! Now, up on my research station is a borehole we dug to try and hit the source of this weed.", "lavasprings-colonelgailard-16", false);
+        s.addSound("[3/6] Colonel Gailard: We found a pretty damn hot cave lying underneath the surface! If ya jumped into the borehole, ‘ye could probably find the source of the Corruption and stop it.", "lavasprings-colonelgailard-17", false);
+        s.addSound("[4/6] Colonel Gailard: Now, the roots and spikes of Corruption are very sturdy, but we ain’t never seen something like lava burstin’ out of the ground.", "lavasprings-colonelgailard-18", false);
+        s.addSound("[5/6] Colonel Gailard: Had a small chat with the brass, earlier. They got a hunch that there’s a heart to the Corruption that’s pumpin’ out all the lava!", "lavasprings-colonelgailard-19", false);
+        s.addSound("[6/6] Colonel Gailard: That’s gotta be our ticket, yeah? If ‘ye destroy that, ya should be able to stop the spread of the lava! Now, get movin’! Head into the borehole, soldier!", "lavasprings-colonelgailard-20", false);
+        s.addSound("[1/1] Colonel Gailard: Hah! I knew ya’d give me results! Ye’re pretty damn reliable, soldier! Here, take this for your trouble!", "lavasprings-colonelgailard-21", false);
 
         //Grave Digger
         s.addSound("[1/8] Sayleros: You sure look like a strong adventurer who could help me!", "gravedigger-sayleros-1", false);

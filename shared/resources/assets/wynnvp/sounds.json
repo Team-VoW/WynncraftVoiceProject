@@ -14406,14 +14406,135 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-4", "stream": true}]
   },
+  "lavasprings-colonelgailard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-5", "stream": true}]
+  },
+  "lavasprings-colonelgailard-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-6", "stream": true}]
+  },
+  "lavasprings-colonelgailard-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-7", "stream": true}]
+  },
+  "lavasprings-colonelgailard-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-8", "stream": true}]
+  },
+  "lavasprings-colonelgailard-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-9", "stream": true}]
+  },
+  "lavasprings-colonelgailard-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-10", "stream": true}]
+  },
+  "lavasprings-colonelgailard-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-11", "stream": true}]
+  },
+  "lavasprings-colonelgailard-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-12", "stream": true}]
+  },
+  "lavasprings-colonelgailard-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-13", "stream": true}]
+  },
+  "lavasprings-colonelgailard-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-14", "stream": true}]
+  },
   "lavasprings-gregor-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lavasprings-gregor-1", "stream": true}]
+  },
+  "lavasprings-gregor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-gregor-2", "stream": true}]
+  },
+  "lavasprings-gregor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-gregor-3", "stream": true}]
+  },
+  "lavasprings-gregor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-gregor-4", "stream": true}]
+  },
+  "lavasprings-gregor-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-gregor-5", "stream": true}]
+  },
+  "lavasprings-gregor-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-gregor-6", "stream": true}]
+  },
+  "lavasprings-gregor-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-gregor-7", "stream": true}]
   },
   "lavasprings-namithehealer-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lavasprings-namithehealer-1", "stream": true}]
   },
+  "lavasprings-namithehealer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-namithehealer-2", "stream": true}]
+  },
+  "lavasprings-namithehealer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-namithehealer-3", "stream": true}]
+  },
+  "lavasprings-namithehealer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-namithehealer-4", "stream": true}]
+  },
+  "lavasprings-namithehealer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-namithehealer-5", "stream": true}]
+  },
+  "lavasprings-namithehealer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-namithehealer-6", "stream": true}]
+  },
+  "lavasprings-namithehealer-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-namithehealer-7", "stream": true}]
+  },
+  "lavasprings-namithehealer-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-namithehealer-8", "stream": true}]
+  },
+  "lavasprings-colonelgailard-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-15", "stream": true}]
+  },
+  "lavasprings-colonelgailard-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-16", "stream": true}]
+  },
+  "lavasprings-colonelgailard-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-17", "stream": true}]
+  },
+  "lavasprings-colonelgailard-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-18", "stream": true}]
+  },
+  "lavasprings-colonelgailard-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-19", "stream": true}]
+  },
+  "lavasprings-colonelgailard-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-20", "stream": true}]
+  },
+  "lavasprings-colonelgailard-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lavasprings-colonelgailard-21", "stream": true}]
+  },
+
 
 
 
