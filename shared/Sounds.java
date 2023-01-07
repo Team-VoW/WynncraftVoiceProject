@@ -7535,7 +7535,7 @@ public class Sounds {
         s.addSound("[1/4] Seaskipper Captain: Y'know, I rarely get a client who talks to me.", "seaskipper-seaskippercaptain-32", true);
         s.addSound("[1/4] Seaskipper Captain: Did you ever 'ear about the Bear Zoo on that island? Almost no one has!", "seaskipper-seaskippercaptain-33", true);
         s.addSound("[1/4] Seaskipper Captain: Fetch me some Nemract Whiskey, my throat is sore from all this talking and this accursed hot weather... hic!", "seaskipper-seaskippercaptain-34", true);
-        s.addSound("[1/4] Seaskipper Captain: Corkus is one of the most interestin' places I’ve ever sailed to. All those crazy machines are incredible..", "seaskipper-seaskippercaptain-35", true);
+        s.addSound("[1/4] Seaskipper Captain: Corkus is one of the most interestin' places I've ever sailed to. All those crazy machines are incredible...", "seaskipper-seaskippercaptain-35", true);
         s.addSound("[1/4] Seaskipper Captain: Y'know, there's a sailor tale of a ghost ship swimmin' around the ocean. Many say it's fake, but I've seen with my own eyes!", "seaskipper-seaskippercaptain-36", true);
         s.addSound("[1/4] Seaskipper Captain: I've 'ad the Ice Islands on my brain for a while now. I'll tell you all about them. ", "seaskipper-seaskippercaptain-37", true);
         s.addSound("[1/4] Seaskipper Captain: Y'know, you look like someone who'd use my service more than once.", "seaskipper-seaskippercaptain-38", true);
