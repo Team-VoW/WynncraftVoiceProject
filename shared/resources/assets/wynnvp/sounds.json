@@ -24901,6 +24901,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-10", "stream": true}]
   },
+  "heartofllevigar-headengineer-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-11", "stream": true}]
+  },
+  "heartofllevigar-headengineer-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:heartofllevigar-headengineer-12", "stream": true}]
+  },
   "heartofllevigar-zenam-7": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:heartofllevigar-zenam-7", "stream": true}]
