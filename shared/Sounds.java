@@ -7585,6 +7585,7 @@ public class Sounds {
         s.addSound("[3/3] Seaskipper Captain: You can even take your pals along with you for free if you're in a party!", "seaskipper-seaskippercaptain-82", true);
         s.addSound("[1/1] Seaskipper: I'm afraid you cannot afford that boat.", "seaskipper-seaskippercaptain-83", true);
         s.addSound("[1/1] Seaskipper: There you go. Come again!", "seaskipper-seaskippercaptain-84", true);
+        s.addSound("[1/4] Seaskipper Captain: Ohoh, that reminds me! I’ve got a letter for you - special delivery from a Corkian fellow. White hair, goggles, the lot.", "seaskipper-seaskippercaptain-85", true);
 
 
 

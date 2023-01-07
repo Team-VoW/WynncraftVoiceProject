@@ -7654,6 +7654,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-84", "stream": true}]
   },
+  "seaskipper-seaskippercaptain-85": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-85", "stream": true}]
+  },
 
 
 
