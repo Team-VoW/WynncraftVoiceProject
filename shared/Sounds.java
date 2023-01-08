@@ -2297,11 +2297,11 @@ public class Sounds {
         s.addSound("[8/8] Lari: Why do you want this human to enter the Taproot?! What's special about them, what's their connection? What have they done that I haven't?! Tell me, please! Let me be useful!! ", "rol2taproot-lari-34", false);
         s.addSound("[1/6] ???: Your heartbeat beats in time with mine. Your mind is unclouded, despite the fury you have been steeped in. My pulse, you are needed. ", "rol2taproot-orphion-16", true);
         s.addSound("[2/6] ???: Your eyes cannot see the scope of the realms. You must allow me to shed light upon them- You must see the connections. ", "rol2taproot-orphion-17", true);
-        s.addSound("[3/6] ???: Light... Dark... We oppose. I am light. It is dark. Our places reflect this land...and it is plain- The sun is setting. Light is fading ", "rol2taproot-orphion-18", true);
+        s.addSound("[3/6] ???: Light... Dark... We oppose. I am light. It is dark. Our places reflect this land...and it is plain- The sun is setting. Light is fading.", "rol2taproot-orphion-18", true);
         s.addSound("[4/6] ???: The land you visit warps with the slow siphoning of my light, my blood. It becomes outlandish and strange-Oppressive and alien. ", "rol2taproot-orphion-19", true);
-        s.addSound("[5/6] ???: As dusk approaches- As darkness spreads- My heart slows and stops. My pulse, you are needed. You shall be as one with me, and you shall see ", "rol2taproot-orphion-20", true);
+        s.addSound("[5/6] ???: As dusk approaches- As darkness spreads- My heart slows and stops. My pulse, you are needed. You shall be as one with me, and you shall see.", "rol2taproot-orphion-20", true);
         s.addSound("[6/6] ???: The Realm of Light needs life anew- A new p ulse. It needs you.", "rol2taproot-orphion-21", true);
-        s.addSound("[1/3] ???: Our light is synchronous! You may see what I must have you see... ", "rol2taproot-orphion-22", true);
+        s.addSound("[1/3] ???: Our light is synchronous! You may see what I must have you see...", "rol2taproot-orphion-22", true);
         s.addSound("[2/3] ???: Follow the road. You must witness the reason behind my trial.", "rol2taproot-orphion-23", true);
         s.addSound("[3/3] ???: See my memories. The memories of the realm. See...and be enlightened. ", "rol2taproot-orphion-24", true);
         s.addSound("[1/1] ???: Witness it... The E quinox.  Learn why you are needed, my pulse.", "rol2taproot-orphion-25", true);
