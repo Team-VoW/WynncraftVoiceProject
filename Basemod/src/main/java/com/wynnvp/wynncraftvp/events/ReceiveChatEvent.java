@@ -5,6 +5,7 @@ import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
+import net.minecraft.util.text.ChatType;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -23,7 +24,7 @@ ReceiveChatEvent {
 
     @SubscribeEvent
     public static void receivedChat(ClientChatReceivedEvent event) {
-        if (stopMod) return;
+        if (stopMod || event.getType().equals(ChatType.CHAT)) return;
         String msg = event.getMessage().getUnformattedText();
 
         //Replace player Name with "soldier"
