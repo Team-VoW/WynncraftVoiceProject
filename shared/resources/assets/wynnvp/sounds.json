@@ -6482,30 +6482,351 @@
 
 
 
-  "theultimateweapon-dodegar-1": {
+  "ultimateweapon-dodegar-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-1", "stream": true}]
   },
-  "theultimateweapon-dodegar-2": {
+  "ultimateweapon-dodegar-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-2", "stream": true}]
   },
-  "theultimateweapon-dodegar-3": {
+  "ultimateweapon-dodegar-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-3", "stream": true}]
   },
-  "theultimateweapon-dodegar-4": {
+  "ultimateweapon-dodegar-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-4", "stream": true}]
   },
-  "theultimateweapon-dodegar-5": {
+  "ultimateweapon-dodegar-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-5", "stream": true}]
   },
-  "theultimateweapon-dodegar-6": {
+  "ultimateweapon-dodegar-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theultimateweapon-dodegar-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-6", "stream": true}]
   },
+  "ultimateweapon-dodegar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-7", "stream": true}]
+  },
+  "ultimateweapon-dodegar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-8", "stream": true}]
+  },
+  "ultimateweapon-dodegar-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-9", "stream": true}]
+  },
+  "ultimateweapon-dodegar-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-10", "stream": true}]
+  },
+  "ultimateweapon-dodegar-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-11", "stream": true}]
+  },
+  "ultimateweapon-dodegar-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-12", "stream": true}]
+  },
+  "ultimateweapon-gogedar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-gogedar-1", "stream": true}]
+  },
+  "ultimateweapon-gogedar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-gogedar-2", "stream": true}]
+  },
+  "ultimateweapon-gogedar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-gogedar-3", "stream": true}]
+  },
+  "ultimateweapon-gogedar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-gogedar-4", "stream": true}]
+  },
+  "ultimateweapon-gogedar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-gogedar-5", "stream": true}]
+  },
+  "ultimateweapon-gogedar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-gogedar-6", "stream": true}]
+  },
+  "ultimateweapon-gogedar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-gogedar-7", "stream": true}]
+  },
+  "ultimateweapon-gogedar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-gogedar-8", "stream": true}]
+  },
+  "ultimateweapon-gogedar-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-gogedar-9", "stream": true}]
+  },
+  "ultimateweapon-togedar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-togedar-1", "stream": true}]
+  },
+  "ultimateweapon-togedar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-togedar-2", "stream": true}]
+  },
+  "ultimateweapon-togedar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-togedar-3", "stream": true}]
+  },
+  "ultimateweapon-togedar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-togedar-4", "stream": true}]
+  },
+  "ultimateweapon-togedar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-togedar-5", "stream": true}]
+  },
+  "ultimateweapon-togedar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-togedar-6", "stream": true}]
+  },
+  "ultimateweapon-togedar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-togedar-7", "stream": true}]
+  },
+  "ultimateweapon-togedar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-togedar-8", "stream": true}]
+  },
+  "ultimateweapon-alegdar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-1", "stream": true}]
+  },
+  "ultimateweapon-alegdar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-2", "stream": true}]
+  },
+  "ultimateweapon-alegdar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-3", "stream": true}]
+  },
+  "ultimateweapon-alegdar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-4", "stream": true}]
+  },
+  "ultimateweapon-alegdar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-5", "stream": true}]
+  },
+  "ultimateweapon-alegdar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-6", "stream": true}]
+  },
+  "ultimateweapon-alegdar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-7", "stream": true}]
+  },
+  "ultimateweapon-alegdar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-8", "stream": true}]
+  },
+  "ultimateweapon-alegdar-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-9", "stream": true}]
+  },
+  "ultimateweapon-alegdar-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-alegdar-10", "stream": true}]
+  },
+  "ultimateweapon-balegar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-balegar-1", "stream": true}]
+  },
+  "ultimateweapon-balegar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-balegar-2", "stream": true}]
+  },
+  "ultimateweapon-balegar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-balegar-3", "stream": true}]
+  },
+  "ultimateweapon-balegar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-balegar-4", "stream": true}]
+  },
+  "ultimateweapon-balegar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-balegar-5", "stream": true}]
+  },
+  "ultimateweapon-balegar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-balegar-6", "stream": true}]
+  },
+  "ultimateweapon-balegar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-balegar-7", "stream": true}]
+  },
+  "ultimateweapon-balegar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-balegar-8", "stream": true}]
+  },
+  "ultimateweapon-reyoretrsed-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-reyoretrsed-1", "stream": true}]
+  },
+  "ultimateweapon-reyoretrsed-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-reyoretrsed-2", "stream": true}]
+  },
+  "ultimateweapon-reyoretrsed-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-reyoretrsed-3", "stream": true}]
+  },
+  "ultimateweapon-reyoretrsed-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-reyoretrsed-4", "stream": true}]
+  },
+  "ultimateweapon-reyoretrsed-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-reyoretrsed-5", "stream": true}]
+  },
+  "ultimateweapon-reyoretrsed-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-reyoretrsed-6", "stream": true}]
+  },
+  "ultimateweapon-reyoretrsed-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-reyoretrsed-7", "stream": true}]
+  },
+  "ultimateweapon-reyoretrsed-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-reyoretrsed-8", "stream": true}]
+  },
+  "ultimateweapon-reyoretrsed-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-reyoretrsed-9", "stream": true}]
+  },
+  "ultimateweapon-richard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-richard-1", "stream": true}]
+  },
+  "ultimateweapon-richard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-richard-2", "stream": true}]
+  },
+  "ultimateweapon-richard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-richard-3", "stream": true}]
+  },
+  "ultimateweapon-richard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-richard-4", "stream": true}]
+  },
+  "ultimateweapon-richard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-richard-5", "stream": true}]
+  },
+  "ultimateweapon-dodegar-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-13", "stream": true}]
+  },
+  "ultimateweapon-dodegar-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-14", "stream": true}]
+  },
+  "ultimateweapon-dodegar-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-15", "stream": true}]
+  },
+  "ultimateweapon-dodegar-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-16", "stream": true}]
+  },
+  "ultimateweapon-dodegar-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-17", "stream": true}]
+  },
+  "ultimateweapon-dodegar-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-18", "stream": true}]
+  },
+  "ultimateweapon-dodegar-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-19", "stream": true}]
+  },
+  "ultimateweapon-dodegar-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-20", "stream": true}]
+  },
+  "ultimateweapon-dodegar-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-21", "stream": true}]
+  },
+  "ultimateweapon-dodegar-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-22", "stream": true}]
+  },
+  "ultimateweapon-dodegar-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-23", "stream": true}]
+  },
+  "ultimateweapon-dodegar-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-24", "stream": true}]
+  },
+  "ultimateweapon-dodegar-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-25", "stream": true}]
+  },
+  "ultimateweapon-dodegar-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-26", "stream": true}]
+  },
+  "ultimateweapon-dodegar-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-27", "stream": true}]
+  },
+  "ultimateweapon-dodegar-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-28", "stream": true}]
+  },
+  "ultimateweapon-dodegar-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-29", "stream": true}]
+  },
+  "ultimateweapon-beetle-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-beetle-1", "stream": true}]
+  },
+  "ultimateweapon-dodegar-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-30", "stream": true}]
+  },
+  "ultimateweapon-dodegar-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-31", "stream": true}]
+  },
+  "ultimateweapon-dodegar-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-32", "stream": true}]
+  },
+  "ultimateweapon-dodegar-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-33", "stream": true}]
+  },
+  "ultimateweapon-dodegar-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-34", "stream": true}]
+  },
+  "ultimateweapon-dodegar-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-35", "stream": true}]
+  },
+  "ultimateweapon-dodegar-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:ultimateweapon-dodegar-36", "stream": true}]
+  },
+
 
 
 
