@@ -1548,9 +1548,33 @@ public class Sounds {
 
         //Ice nations
         s.addSound("[1/6] Adigard: Welcome traveler, to our humble island...", "icenations-adigard-1", false);
-        s.addSound("[1/7] Adigard: I should have expected that. Hallfred was always very greedy...", "icenations-adigard-2", false);
+        s.addSound("[2/6] Adigard: My people and I landed here many years ago. Unfortunately, our ship didn't make it...", "icenations-adigard-2", false);
+        s.addSound("[3/6] Adigard: We tried to build a nation on these islands but became divided through the years.", "icenations-adigard-3", false);
+        s.addSound("[4/6] Adigard: Because of this, we are fighting a useless war with our neighbours.", "icenations-adigard-4", false);
+        s.addSound("[5/6] Adigard: I believe we should try to pass a peace treaty, but I am afraid of getting killed if I leave the island...", "icenations-adigard-5", false);
+        s.addSound("[6/6] Adigard: Would you mind helping us? Talk to Hallfred about this treaty. He lives on another ice island nearby.", "icenations-adigard-6", false);
+        s.addSound("[1/1] Adigard: Have you made any progress?", "icenations-adigard-7", false);
         s.addSound("[1/5] Hallfred: Welcome traveler! What brings you to our island?", "icenations-hallfred-1", false);
-        s.addSound("[1/4] Hallfred: Incredible! He actually delivered the treasure!", "icenations-hallfred-2", false);
+        s.addSound("[2/5] Hallfred: Oh, I see that Adigard now sends strangers through his cowardice! Worried he'll get killed?", "icenations-hallfred-2", false);
+        s.addSound("[3/5] Hallfred: This is the last time I'll repeat it: We will sign the peace treaty the day Adigard and his nation will return to us... the treasure.", "icenations-hallfred-3", false);
+        s.addSound("[4/5] Hallfred: The one that they kept and hid from us after the shipwreck.", "icenations-hallfred-4", false);
+        s.addSound("[5/5] Hallfred: Pure gold, very valuable and rare! Tell him I'll be waiting for it. And none of that silly story again.", "icenations-hallfred-5", false);
+        s.addSound("[1/7] Adigard: I should have expected that. Hallfred was always very greedy...", "icenations-adigard-8", false);
+        s.addSound("[2/7] Adigard: We tried to make him understand that we do not have the treasure, without much success.", "icenations-adigard-9", false);
+        s.addSound("[3/7] Adigard: ...You see, the reason why we became shipwrecked wasn't natural cause. We were attacked...", "icenations-adigard-10", false);
+        s.addSound("[4/7] Adigard: By whom? The undead. Ghosts and demons navigating a monstrous ship. They got us by surprise.", "icenations-adigard-11", false);
+        s.addSound("[5/7] Adigard: I believe they also stole our treasure during the attack.", "icenations-adigard-12", false);
+        s.addSound("[6/7] Adigard: Would you help our nation come back together? Find this ship, and bring the treasure back to Hallfred so we can finally live in peace.", "icenations-adigard-13", false);
+        s.addSound("[7/7] Adigard: Sail north. That is where they attacked us many years ago. It should be easy to find, I'm sure they are anchored there in glory... Thank you.", "icenations-adigard-14", false);
+        s.addSound("[1/4] Hallfred: Incredible! He actually delivered the treasure!", "icenations-hallfred-6", false);
+        s.addSound("[2/4] Hallfred: I suppose that means the end of the war between our nations!", "icenations-hallfred-7", false);
+        s.addSound("[3/4] Hallfred: This is a great day! Here, take this as a reward for helping our nation.", "icenations-hallfred-8", false);
+        s.addSound("[4/4] Hallfred: I'm sure you'll find a use for this helmet one day!", "icenations-hallfred-9", false);
+        s.addSound("[1/1] Hallfred: Hey, we don't just let strangers use our people like that!", "icenations-hallfred-10", false);
+        s.addSound("[1/1] Hallfred: I am glad everything is back to normal.", "icenations-hallfred-11", false);
+        s.addSound("[1/1] Hallfred: It's useless to come back to me if you do not have the treasure.", "icenations-hallfred-12", false);
+        s.addSound("[1/1] Adigard: Thank you so much for bringing peace between our nations!", "icenations-adigard-15", false);
+        s.addSound("[1/1] Adigard: Our nation greatly needs help, but I'm afraid you aren't strong enough. Come back to me when you are level 40.", "icenations-adigard-16", false);
 
         //Tower of Ascension
         s.addSound("[1/11] Ankou: Hehehe... Hello there.", "towerofascension-ankou-1", false);

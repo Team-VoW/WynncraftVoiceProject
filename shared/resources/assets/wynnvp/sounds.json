@@ -1146,14 +1146,6 @@
 
 
 
-  "icenations-hallfred-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:icenations-hallfred-1", "stream": true}]
-  },
-  "icenations-hallfred-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:icenations-hallfred-2", "stream": true}]
-  },
   "icenations-adigard-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:icenations-adigard-1", "stream": true}]
@@ -1162,6 +1154,111 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:icenations-adigard-2", "stream": true}]
   },
+  "icenations-adigard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-3", "stream": true}]
+  },
+  "icenations-adigard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-4", "stream": true}]
+  },
+  "icenations-adigard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-5", "stream": true}]
+  },
+  "icenations-adigard-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-6", "stream": true}]
+  },
+  "icenations-adigard-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-7", "stream": true}]
+  },
+  "icenations-hallfred-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-1", "stream": true}]
+  },
+  "icenations-hallfred-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-2", "stream": true}]
+  },
+  "icenations-hallfred-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-3", "stream": true}]
+  },
+  "icenations-hallfred-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-4", "stream": true}]
+  },
+  "icenations-hallfred-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-5", "stream": true}]
+  },
+  "icenations-adigard-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-8", "stream": true}]
+  },
+  "icenations-adigard-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-9", "stream": true}]
+  },
+  "icenations-adigard-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-10", "stream": true}]
+  },
+  "icenations-adigard-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-11", "stream": true}]
+  },
+  "icenations-adigard-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-12", "stream": true}]
+  },
+  "icenations-adigard-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-13", "stream": true}]
+  },
+  "icenations-adigard-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-14", "stream": true}]
+  },
+  "icenations-hallfred-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-6", "stream": true}]
+  },
+  "icenations-hallfred-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-7", "stream": true}]
+  },
+  "icenations-hallfred-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-8", "stream": true}]
+  },
+  "icenations-hallfred-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-9", "stream": true}]
+  },
+  "icenations-hallfred-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-10", "stream": true}]
+  },
+  "icenations-hallfred-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-11", "stream": true}]
+  },
+  "icenations-hallfred-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-hallfred-12", "stream": true}]
+  },
+  "icenations-adigard-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-15", "stream": true}]
+  },
+  "icenations-adigard-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:icenations-adigard-16", "stream": true}]
+  },
+
 
 
   "lostroyalty-yavlis-1": {
