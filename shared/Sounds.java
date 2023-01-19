@@ -3708,26 +3708,32 @@ public class Sounds {
         s.addSound("[4/5] Kaetan: But seriously, thank you, soldier. I thought I was going to get killed in there! This isn't much, but hopefully it can help you get back on your feet after all of that.", "forbiddenprison-prisoner-25", true);
         s.addSound("[5/5] Kaetan: Anyways, I have to go now. But if I can ever help you with anything at all, just let me know! I'm forever in your debt, human.", "forbiddenprison-prisoner-26", true);
 
-        //Lexdale witch trials
-        s.addSound("[1/9] The Mayor: We have an enemy amongst our own in Lexdale! This witch's illegal practice of dark magic threatens us!", "lexdalewitchtrials-themayor-1", true);
-        s.addSound("[2/9] The Mayor: Ms. Amira's home was found to be plagued with spreading Decay! We must kill the witch to protect our sanctity!", "lexdalewitchtrials-themayor-2", true);
-        s.addSound("[3/9] Amira: WAIT! Let me GO already! I told you what was happening!!", "lexdalewitchtrials-amira-1", true);
-        s.addSound("[4/9] The Mayor: The deceit of your dark magic won't work, Ms. Amira. Go quietly- leave us in peace!", "lexdalewitchtrials-themayor-3", true);
-        s.addSound("[5/9] Amira: SHUT UP ALREADY! You can't just single people out like this!!", "lexdalewitchtrials-amira-2", true);
-        s.addSound("[6/9] Amira: Just hear me out for a second! It's not me, something infected my home! That's the reason it was so dark!!", "lexdalewitchtrials-amira-3", true);
-        s.addSound("[7/9] Amira: My basement, some outlandish thing dug into it! Wherever it went, the area withered and decayed!", "lexdalewitchtrials-amira-4", true);
-        s.addSound("[8/9] Amira: There's proof in my house that it wasn't me! It's the one that's decayed and barren! You'll see if you LOOK, you gorehound!!", "lexdalewitchtrials-amira-5", true);
-        s.addSound("[9/9] The Mayor: Quit with the insults! We'll delay for now- If there's no proof of the witch's innocence she will be executed!", "lexdalewitchtrials-themayor-4", true);
-        s.addSound("[1/7] Tunnel Dweller Chieftain: Further...intruders...? You are not of the worms...the parasites? ", "lexdalewitchtrials-tunneldwellerchieftain-1", true);
-        s.addSound("[1/1] Tunnel Dweller Chieftain: Wait... These earthquakes! IT'S THEM! AGHHHHHHHHHHH!!!   ", "lexdalewitchtrials-tunneldwellerchieftain-2", false);
-        s.addSound("[1/8] The Mayor: You're back. Did- Wait, what in the nine hells is THAT?!", "lexdalewitchtrials-themayor-5", true);
-        s.addSound("[2/8] Amira: That! That was the thing in my basement!! I knew that human could find it! Thank you!!", "lexdalewitchtrials-amira-6", true);
-        s.addSound("[3/8] Amira: That thing was spreading the decay through my house! It's NOT witches or magic like you suddenly DECIDED one day!!", "lexdalewitchtrials-amira-7", true);
-        s.addSound("[4/8] The Mayor: ...Fine then. This...creature...bug...leech? This whatever-it-is... I'll accept your explanation.", "lexdalewitchtrials-themayor-6", true);
-        s.addSound("[5/8] The Mayor: Step off the podium, Ms. Amira. You're innocent.", "lexdalewitchtrials-themayor-7", true);
-        s.addSound("[6/8] Amira: Gah, finally! You're seeing sense! It's almost like something just...took you over one day and never left 'til now!", "lexdalewitchtrials-amira-8", true);
-        s.addSound("[7/8] The Mayor: ...hm. That... Mmh. Regardless. Human, you've proven yourself to be trustworthy. We'll keep our doors open for you.", "lexdalewitchtrials-themayor-8", true);
-        s.addSound("[8/8] The Mayor: As for the...THING... Well... I'll be sure to inform the Gavel government. ", "lexdalewitchtrials-themayor-9", true);
+        //Lexdale Witch Trials
+        s.addSound("[1/9] The Mayor: We have an enemy amongst our own in Lexdale! This witch's illegal practice of dark magic threatens us!", "lexdalewitchtrials-themayor-1", false);
+        s.addSound("[2/9] The Mayor: Ms. Amira's home was found to be plagued with spreading Decay! We must kill the witch to protect our sanctity!", "lexdalewitchtrials-themayor-2", false);
+        s.addSound("[3/9] Amira: WAIT! Let me GO already! I told you what was happening!!", "lexdalewitchtrials-amira-1", false);
+        s.addSound("[4/9] The Mayor: The deceit of your dark magic won't work, Ms. Amira. Go quietly- leave us in peace!", "lexdalewitchtrials-themayor-3", false);
+        s.addSound("[5/9] Amira: SHUT UP ALREADY! You can't just single people out like this!!", "lexdalewitchtrials-amira-2", false);
+        s.addSound("[6/9] Amira: Just hear me out for a second! It's not me, something infected my home! That's the reason it was so dark!!", "lexdalewitchtrials-amira-3", false);
+        s.addSound("[7/9] Amira: My basement, some outlandish thing dug into it! Wherever it went, the area withered and decayed!", "lexdalewitchtrials-amira-4", false);
+        s.addSound("[8/9] Amira: There's proof in my house that it wasn't me! It's the one that's decayed and barren! You'll see if you LOOK, you gorehound!!", "lexdalewitchtrials-amira-5", false);
+        s.addSound("[9/9] The Mayor: Quit with the insults! We'll delay for now- If there's no proof of the witch's innocence she will be executed!", "lexdalewitchtrials-themayor-4", false);
+        s.addSound("[1/7] Tunnel Dweller Chieftain: Further...intruders...? You are not of the worms...the parasites?", "lexdalewitchtrials-tunneldwellerchieftain-1", false);
+        s.addSound("[2/7] Tunnel Dweller Chieftain: Another stranger... You must have witnessed the tunnels. They blight the stone, wither the roots, make lifeless the land...", "lexdalewitchtrials-tunneldwellerchieftain-2", false);
+        s.addSound("[3/7] Tunnel Dweller Chieftain: And here, we starve in isolation. My people are lost, as the very earth itself warps and shifts.", "lexdalewitchtrials-tunneldwellerchieftain-3", false);
+        s.addSound("[4/7] Tunnel Dweller Chieftain: The water, stagnant and gray. Nothing but those horrid magic scourges, and the worms themselves to sustain ourselves.", "lexdalewitchtrials-tunneldwellerchieftain-4", false);
+        s.addSound("[5/7] Tunnel Dweller Chieftain: We cannot escape, for the sun scorches us. There is no place to go, no place we can burrow that they do not wait.", "lexdalewitchtrials-tunneldwellerchieftain-5", false);
+        s.addSound("[6/7] Tunnel Dweller Chieftain: You... You... You have life. You have a heart, and muscle, and meat... To survive till this torture ends...", "lexdalewitchtrials-tunneldwellerchieftain-6", false);
+        s.addSound("[7/7] Tunnel Dweller Chieftain: Stranger, you must perish.", "lexdalewitchtrials-tunneldwellerchieftain-7", false);
+        s.addSound("[1/1] Tunnel Dweller Chieftain: Wait... These earthquakes! IT'S THEM! AGHHHHHHHHHHH!!!", "lexdalewitchtrials-tunneldwellerchieftain-8", false);
+        s.addSound("[1/8] The Mayor: You're back. Did- Wait, what in the nine hells is THAT?!", "lexdalewitchtrials-themayor-5", false);
+        s.addSound("[2/8] Amira: That! That was the thing in my basement!! I knew that human could find it! Thank you!!", "lexdalewitchtrials-amira-6", false);
+        s.addSound("[3/8] Amira: That thing was spreading the decay through my house! It's NOT witches or magic like you suddenly DECIDED one day!!", "lexdalewitchtrials-amira-7", false);
+        s.addSound("[4/8] The Mayor: ...Fine then. This...creature...bug...leech? This whatever-it-is... I'll accept your explanation.", "lexdalewitchtrials-themayor-6", false);
+        s.addSound("[5/8] The Mayor: Step off the podium, Ms. Amira. You're innocent.", "lexdalewitchtrials-themayor-7", false);
+        s.addSound("[6/8] Amira: Gah, finally! You're seeing sense! It's almost like something just...took you over one day and never left 'til now!", "lexdalewitchtrials-amira-8", false);
+        s.addSound("[7/8] The Mayor: ...hm. That... Mmh. Regardless. Human, you've proven yourself to be trustworthy. We'll keep our doors open for you.", "lexdalewitchtrials-themayor-8", false);
+        s.addSound("[8/8] The Mayor: As for the...THING... Well... I'll be sure to inform the Gavel government.", "lexdalewitchtrials-themayor-9", false);
 
         //Troubled Tribesmen
         s.addSound("[1/2] Ka L'argwit: Fa yna tuusat! Dra sykel uv drec cylnat dnaa ryc paah lunnibdat.", "troubledtribesmen-kalargwit-1", false);

@@ -27354,6 +27354,30 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lexdalewitchtrials-tunneldwellerchieftain-2", "stream": true}]
   },
+  "lexdalewitchtrials-tunneldwellerchieftain-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-tunneldwellerchieftain-3", "stream": true}]
+  },
+  "lexdalewitchtrials-tunneldwellerchieftain-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-tunneldwellerchieftain-4", "stream": true}]
+  },
+  "lexdalewitchtrials-tunneldwellerchieftain-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-tunneldwellerchieftain-5", "stream": true}]
+  },
+  "lexdalewitchtrials-tunneldwellerchieftain-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-tunneldwellerchieftain-6", "stream": true}]
+  },
+  "lexdalewitchtrials-tunneldwellerchieftain-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-tunneldwellerchieftain-7", "stream": true}]
+  },
+  "lexdalewitchtrials-tunneldwellerchieftain-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lexdalewitchtrials-tunneldwellerchieftain-8", "stream": true}]
+  },
   "lexdalewitchtrials-themayor-5": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-5", "stream": true}]
@@ -27386,6 +27410,7 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lexdalewitchtrials-themayor-9", "stream": true}]
   },
+
 
 
   "lostsoles-ferndor-1": {
