@@ -10269,17 +10269,77 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:beneaththedepths-javier-1", "stream": true}]
   },
+  "beneaththedepths-javier-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-2", "stream": true}]
+  },
+  "beneaththedepths-javier-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-3", "stream": true}]
+  },
+  "beneaththedepths-javier-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-4", "stream": true}]
+  },
+  "beneaththedepths-javier-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-5", "stream": true}]
+  },
+  "beneaththedepths-javier-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-6", "stream": true}]
+  },
+  "beneaththedepths-javier-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-7", "stream": true}]
+  },
+  "beneaththedepths-javier-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-8", "stream": true}]
+  },
+  "beneaththedepths-javier-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-9", "stream": true}]
+  },
   "beneaththedepths-deceasedbuccaneer-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:beneaththedepths-deceasedbuccaneer-1", "stream": true}]
+  },
+  "beneaththedepths-deceasedbuccaneer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-deceasedbuccaneer-2", "stream": true}]
+  },
+  "beneaththedepths-deceasedbuccaneer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-deceasedbuccaneer-3", "stream": true}]
   },
   "beneaththedepths-deceasedbuccaneer-4": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:beneaththedepths-deceasedbuccaneer-4", "stream": true}]
   },
-  "beneaththedepths-javier-2": {
+  "beneaththedepths-javier-10": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-10", "stream": true}]
+  },
+  "beneaththedepths-javier-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-11", "stream": true}]
+  },
+  "beneaththedepths-javier-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-12", "stream": true}]
+  },
+  "beneaththedepths-javier-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-13", "stream": true}]
+  },
+  "beneaththedepths-javier-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-14", "stream": true}]
+  },
+  "beneaththedepths-javier-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-15", "stream": true}]
   },
   "beneaththedepths-dalben-1": {
     "category": "voice",
@@ -10289,11 +10349,66 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-2", "stream": true}]
   },
-  "beneaththedepths-javier-3": {
+  "beneaththedepths-dalben-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-3", "stream": true}]
   },
-
+  "beneaththedepths-dalben-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-4", "stream": true}]
+  },
+  "beneaththedepths-dalben-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-5", "stream": true}]
+  },
+  "beneaththedepths-dalben-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-6", "stream": true}]
+  },
+  "beneaththedepths-dalben-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-7", "stream": true}]
+  },
+  "beneaththedepths-dalben-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-8", "stream": true}]
+  },
+  "beneaththedepths-dalben-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-9", "stream": true}]
+  },
+  "beneaththedepths-dalben-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-10", "stream": true}]
+  },
+  "beneaththedepths-dalben-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-11", "stream": true}]
+  },
+  "beneaththedepths-dalben-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-12", "stream": true}]
+  },
+  "beneaththedepths-dalben-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-dalben-13", "stream": true}]
+  },
+  "beneaththedepths-javier-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-16", "stream": true}]
+  },
+  "beneaththedepths-javier-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-17", "stream": true}]
+  },
+  "beneaththedepths-javier-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-18", "stream": true}]
+  },
+  "beneaththedepths-javier-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:beneaththedepths-javier-19", "stream": true}]
+  },
 
 
 

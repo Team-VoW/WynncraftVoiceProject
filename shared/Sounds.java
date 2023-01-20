@@ -3144,12 +3144,41 @@ public class Sounds {
 
         //Beneath the Depths
         s.addSound("[1/9] Javier: Garh, you look like a mighty fine adventurer, lad. But perhaps your pockets are a little lighter than you want, eh?", "beneaththedepths-javier-1", false);
-        s.addSound("[1/3] Deceased Buccaneer: Halt it there, laddy! The wind has told us that yer looking for treasure map. Ah, ye'll not get it so easily.", "beneaththedepths-deceasedbuccaneer-1", true);
+        s.addSound("[2/9] Javier: Perhaps we be making a deal, lad, and it'll make us both rich!", "beneaththedepths-javier-2", false);
+        s.addSound("[3/9] Javier: Ye see, lad, me treasure has been lost for quite some time, I kept it in a ocean village named Sarnfic, in a secret room.", "beneaththedepths-javier-3", false);
+        s.addSound("[4/9] Javier: Argh, but lad. The village vanished out of nowhere! Like some kind of dark magic! I swears to ye, I tell no lies!", "beneaththedepths-javier-4", false);
+        s.addSound("[5/9] Javier: So ye see, in me old age I could use a spot of me lawful gold to see me through me final years.", "beneaththedepths-javier-5", false);
+        s.addSound("[6/9] Javier: Don't fret though, chuck, old Javier always kept a back up plan.", "beneaththedepths-javier-6", false);
+        s.addSound("[7/9] Javier: I left me old sea farin' map in me old hideout, it'll tell ye where we can find me old gold.", "beneaththedepths-javier-7", false);
+        s.addSound("[8/9] Javier: So, lad. Are ya willin' to make ye'self mighty wealthy? Good.", "beneaththedepths-javier-8", false);
+        s.addSound("[9/9] Javier: Me old hideout's hidden inside that there skull at the entrance to our mighty fine establishment. Bring me that map, lad!", "beneaththedepths-javier-9", false);
+        s.addSound("[1/3] Deceased Buccaneer: Halt it there, laddy! The wind has told us that yer looking for that treasure map. Ah, ye'll not get it so easily.", "beneaththedepths-deceasedbuccaneer-1", false);
+        s.addSound("[2/3] Deceased Buccaneer: Ye see, us spirits are as greedy as our physical selves were. 'ere's no foolin' 'round there. We want yer money, and only then will we open the paths to the map.", "beneaththedepths-deceasedbuccaneer-2", false);
+        s.addSound("[3/3] Deceased Buccaneer: One full block of smashed together emeralds will satisfy our needs. Go to the front of this tomb, and flush it down the middle of that raised thing.", "beneaththedepths-deceasedbuccaneer-3", false);
         s.addSound("[1/1] Deceased Buccaneer: Good luck on that petty journey of yers. Just find the whole path, and yerself'll be just fine...", "beneaththedepths-deceasedbuccaneer-4", false);
-        s.addSound("[1/6] Javier: Argh, yer talented aren't you lad! Many thanks indeed, now we can see where me treasure be buried. ", "beneaththedepths-javier-2", false);
-        s.addSound("[1/10] Dalben: What's this? A traveller? How might we assist you? ", "beneaththedepths-dalben-1", false);
-        s.addSound("[1/3] Dalben: Brilliant. That seems in order. Here you go.", "beneaththedepths-dalben-2", false);
-        s.addSound("[1/4] Javier: Gnar, you did it lad! Ye brought back old Javiers gold! And as I promised, heres yer share of the loot.", "beneaththedepths-javier-3", false);
+        s.addSound("[1/6] Javier: Argh, yer talented aren't you lad! Many thanks indeed, now we can see where me treasure be buried.", "beneaththedepths-javier-10", false);
+        s.addSound("[2/6] Javier: Hrmm, well, garr, blast it all!", "beneaththedepths-javier-11", false);
+        s.addSound("[3/6] Javier: I canne read me own darn map, lad! What'dya do with it? Scratch off the ink with yer pennies?", "beneaththedepths-javier-12", false);
+        s.addSound("[4/6] Javier: Gar, sorry lad. It be the test of time that failed old Javier, not you.", "beneaththedepths-javier-13", false);
+        s.addSound("[5/6] Javier: Fear not, lad. There be an old friend of Javier's that can help decipher this old rag.", "beneaththedepths-javier-14", false);
+        s.addSound("[6/6] Javier: Go to the old Mage Island, there be a man by the name of Dalben who can restore me map to its former glory. Get it done lad, and bring me treasure back!", "beneaththedepths-javier-15", false);
+        s.addSound("[1/10] Dalben: What's this? A traveller? How might we assist you?", "beneaththedepths-dalben-1", false);
+        s.addSound("[2/10] Dalben: Ah, I see, you wish to explore the ocean depths? But for what possible reason?", "beneaththedepths-dalben-2", false);
+        s.addSound("[3/10] Dalben: This map... How did you acquire it? This is enchanted by our people.", "beneaththedepths-dalben-3", false);
+        s.addSound("[4/10] Dalben: You... You seek Sarnfic, don't you?", "beneaththedepths-dalben-4", false);
+        s.addSound("[5/10] Dalben: Alas, that place has history. We, the Mage Council, banished that city long ago to hide the horrific power hidden within a treasure a pirate hid there.", "beneaththedepths-dalben-5", false);
+        s.addSound("[6/10] Dalben: A pair of boots, made from a black material fashioned from the stone of an evil place, incredibly dark magic. But we do not believe the filthy idiotic pirate knew what he'd found.", "beneaththedepths-dalben-6", false);
+        s.addSound("[7/10] Dalben: I must say, we, the council regret having to lay waste an entire village over a pair of boots. There was no other way.", "beneaththedepths-dalben-7", false);
+        s.addSound("[8/10] Dalben: Who knows why he even kept the boots. If he had known about their power, I'm sure he would have used it for evil. But we sense no evil in you, so as such we will aid you in your quest.", "beneaththedepths-dalben-8", false);
+        s.addSound("[9/10] Dalben: We hope that you will use the boots for good, despite the dark intentions. We will lift the enchantment once lain upon the charts, but it will cost you.", "beneaththedepths-dalben-9", false);
+        s.addSound("[10/10] Dalben: Give me [5 Emerald Blocks], that should cover the cost.", "beneaththedepths-dalben-10", false);
+        s.addSound("[1/3] Dalben: Brilliant. That seems in order. Here you go.", "beneaththedepths-dalben-11", false);
+        s.addSound("[2/3] Dalben: We only hope that the boots will never fall into the hands of that pirate again, we'd much rather they fall into yours.", "beneaththedepths-dalben-12", false);
+        s.addSound("[3/3] Dalben: Well? What does it say? Go to that location! Find the treasure!", "beneaththedepths-dalben-13", false);
+        s.addSound("[1/4] Javier: Gnar, you did it lad! Ye brought back old Javiers gold! And as I promised, heres yer share of the loot.", "beneaththedepths-javier-16", false);
+        s.addSound("[2/4] Javier: I threw in something extra for ye. It's an old key I salvaged a few years back, from the shipwreck of a legendary pirate.", "beneaththedepths-javier-17", false);
+        s.addSound("[3/4] Javier: Who knows what it leads to? Maybe a treasure hoard, or maybe the ol' swashbuckler wanted to lead someone into a trap.", "beneaththedepths-javier-18", false);
+        s.addSound("[4/4] Javier: Me bones are too old for a grand adventure like that, guess ye'll have to figure it out for yerself.", "beneaththedepths-javier-19", false);
 
         //Reclaiming the house
         s.addSound("[1/9] Elphaba: Oh, a Wynnic soldier out here in the boondocks? Honestly, you're just what we need- I could use your help, if you're able?", "reclaimingthehouse-elphaba-1", false);
