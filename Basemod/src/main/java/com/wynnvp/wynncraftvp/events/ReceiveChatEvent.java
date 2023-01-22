@@ -24,7 +24,7 @@ ReceiveChatEvent {
 
     @SubscribeEvent
     public static void receivedChat(ClientChatReceivedEvent event) {
-        if (stopMod || event.getType().equals(ChatType.CHAT)) return;
+        if (stopMod || !event.getType().equals(ChatType.CHAT)) return;
         String msg = event.getMessage().getUnformattedText();
 
         //Replace player Name with "soldier"
