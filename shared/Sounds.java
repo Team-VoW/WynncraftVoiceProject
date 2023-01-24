@@ -394,20 +394,20 @@ public class Sounds {
 
         //Arachnids Ascent
         s.addSound("[1/7] Private Cob: ‘ey there my good chap! I require some assistance!", "arachnidsascent-privatecob-1", false);
-        s.addSound("[2/7] Private Cob: Y’see, I’ve been tasked to bring some lava over to my cap’n near Mount Wynn", "arachnidsascent-privatecob-2", false);
-        s.addSound("[3/7] Private Cob: However! The road is completely bubbling with bandits and the undead, right? Ain’t no way I can carry it through.", "arachnidsascent-privatecob-3", false);
+        s.addSound("[2/7] Private Cob: Y'see, I've been tasked to bring some lava over to my cap'n near Mount Wynn.", "arachnidsascent-privatecob-2", false);
+        s.addSound("[3/7] Private Cob: However! The road is completely bubbling with bandits and the undead, right?! Ain't no way I can carry it through.", "arachnidsascent-privatecob-3", false);
         s.addSound("[4/7] Private Cob: The cap’n said that getting it from Mount Wynn itself woulda been too dangerous, so I picked this safe lava spring, but...", "arachnidsascent-privatecob-4", false);
         s.addSound("[5/7] Private Cob: Pfft! What a load of baloney! I regret comin’ here! Say, ya seem tough! ‘Bet you could deal with the volcano!", "arachnidsascent-privatecob-5", false);
-        s.addSound("[6/7] Private Cob: Well, if you want the best route, follow that road with the burn marks. ‘sends  ya straight to cap’n.", "arachnidsascent-privatecob-6", false);
-        s.addSound("[7/7] Private Cob: Cap’n will tell you what to do then. Now get movin’", "arachnidsascent-privatecob-7", false);
+        s.addSound("[6/7] Private Cob: Well, if ya want the best route, follow that road with the burn marks. 'sends ya straight to cap'n!", "arachnidsascent-privatecob-6", false);
+        s.addSound("[7/7] Private Cob: Cap'n will tell ya what to do then. Now get movin'!", "arachnidsascent-privatecob-7", false);
         s.addSound("[1/1] Private Cob: Oi soldier! Say, I could use some assistance, but ya ain't high-ranked enough. Report back when you're level 14! Bye!", "arachnidsascent-privatecob-8", false);
         s.addSound("[1/1] Private Cob: Best route's through that road with the burn marks. 'sends ya straight to cap'n!", "arachnidsascent-privatecob-9", false);
         s.addSound("[1/2] Private Cob: 'ey there soldier! Thanks for ya help with the arachnids! Plenty appreciated!", "arachnidsascent-privatecob-10", false);
         s.addSound("[2/2] Private Cob: Oh how I wish I could work wit' General Graken... Oh well!", "arachnidsascent-privatecob-11", false);
         s.addSound("[1/8] Enduyn: At ease, soldier! Did Cob send you?", "arachnidsascent-enduyn-1", false);
         s.addSound("[2/8] Enduyn: That private can’t seem to get the bucket of lava here without trouble.", "arachnidsascent-enduyn-2", false);
-        s.addSound("[3/8] Enduyn: I’m sure you’re aware that the Nivla Woods are flooded with spiders! Well, turns out they came from this nest, and it must be stopped!", "arachnidsascent-enduyn-3", false);
-        s.addSound("[4/8] Enduyn: Magic doesn’t seem to work against that strong web... the same goes for regular fire. So, we thought... Why not just use lava?!", "arachnidsascent-enduyn-4", false);
+        s.addSound("[3/8] Enduyn: I'm sure you're aware that the Nivla Woods are flooded with spiders! Well, turns out they come from this nest, and it must be stopped!", "arachnidsascent-enduyn-3", false);
+        s.addSound("[4/8] Enduyn: Magic doesn't seem to work against that strong web... The same goes for regular fire. So, we thought... Why not just use lava?!", "arachnidsascent-enduyn-4", false);
         s.addSound("[5/8] Enduyn: Look, that’s our best bet right now. If we can kill the queen, we can control the population.", "arachnidsascent-enduyn-5", false);
         s.addSound("[6/8] Enduyn: Mount Wynn was considered too dangerous to try and enter, but if Cob sent you to try it out yourself, and you think you can do it, go ahead.", "arachnidsascent-enduyn-6", false);
         s.addSound("[7/8] Enduyn: So I’ve got a mission for you, soldier. Head to the top of Mount Wynn, the nearby volcano, and return with lava.", "arachnidsascent-enduyn-7", false);
@@ -425,7 +425,7 @@ public class Sounds {
         s.addSound("[2/5] Enduyn: Seems like you’ve got a real knack for spider killing, would you be willing to tackle the queen?", "arachnidsascent-enduyn-19", false);
         s.addSound("[3/5] Enduyn: I’ll keep dealing with the rest of the spiders in the forest.", "arachnidsascent-enduyn-20", false);
         s.addSound("[3/5] Enduyn: You know what? You see that tunnel behind you? It goes straight back to Private Cob’s position, over at the lava spring.", "arachnidsascent-enduyn-21", false);
-        s.addSound("[4/5] Enduyn: I’ll give you permission to use it. Cob had permission this whole time, I have... no clue why he didn’t. Well, what’s done is done.", "arachnidsascent-enduyn-22", false);
+        s.addSound("[4/5] Enduyn: I'll give you permission to use it. Cob had permission this whole time, I have... no clue why he didn't. Well, what's done is done.", "arachnidsascent-enduyn-22", false);
         s.addSound("[5/5] Enduyn: Anyway, stand clear, I’m about to burn down the webs! Thanks for your assistance, soldier!", "arachnidsascent-enduyn-23", false);
         s.addSound("[1/1] Captain Enduyn: Hey, be careful! You don't want to get stuck in those webs!", "arachnidsascent-enduyn-24", false);
         s.addSound("[1/1] Enduyn: Think you can handle the spider queen on your own? Well, head inside and we'll find out!", "arachnidsascent-enduyn-25", false);
