@@ -27537,6 +27537,34 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostsoles-ferndor-2", "stream": true}]
   },
+  "lostsoles-ferndor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-3", "stream": true}]
+  },
+  "lostsoles-ferndor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-4", "stream": true}]
+  },
+  "lostsoles-ferndor-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-5", "stream": true}]
+  },
+  "lostsoles-ferndor-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-6", "stream": true}]
+  },
+  "lostsoles-ferndor-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-7", "stream": true}]
+  },
+  "lostsoles-ferndor-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-8", "stream": true}]
+  },
+  "lostsoles-ferndor-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-9", "stream": true}]
+  },
   "lostsoles-grandon-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostsoles-grandon-1", "stream": true}]
@@ -27557,18 +27585,159 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostsoles-grandon-5", "stream": true}]
   },
-  "lostsoles-ferndor-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-3", "stream": true}]
-  },
-  "lostsoles-ferndor-4": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-4", "stream": true}]
-  },
   "lostsoles-grandon-6": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lostsoles-grandon-6", "stream": true}]
   },
+  "lostsoles-grandon-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-7", "stream": true}]
+  },
+  "lostsoles-grandon-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-8", "stream": true}]
+  },
+  "lostsoles-grandon-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-9", "stream": true}]
+  },
+  "lostsoles-grandon-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-10", "stream": true}]
+  },
+  "lostsoles-grandon-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-11", "stream": true}]
+  },
+  "lostsoles-grandon-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-12", "stream": true}]
+  },
+  "lostsoles-grandon-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-13", "stream": true}]
+  },
+  "lostsoles-grandon-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-14", "stream": true}]
+  },
+  "lostsoles-grandon-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-15", "stream": true}]
+  },
+  "lostsoles-grandon-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-16", "stream": true}]
+  },
+  "lostsoles-grandon-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-17", "stream": true}]
+  },
+  "lostsoles-grandon-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-18", "stream": true}]
+  },
+  "lostsoles-grandon-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-19", "stream": true}]
+  },
+  "lostsoles-grandon-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-20", "stream": true}]
+  },
+  "lostsoles-grandon-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-21", "stream": true}]
+  },
+  "lostsoles-grandon-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-22", "stream": true}]
+  },
+  "lostsoles-grandon-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-23", "stream": true}]
+  },
+  "lostsoles-grandon-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-24", "stream": true}]
+  },
+  "lostsoles-grandon-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-25", "stream": true}]
+  },
+  "lostsoles-grandon-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-26", "stream": true}]
+  },
+  "lostsoles-grandon-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-27", "stream": true}]
+  },
+  "lostsoles-grandon-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-28", "stream": true}]
+  },
+  "lostsoles-grandon-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-29", "stream": true}]
+  },
+  "lostsoles-ferndor-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-10", "stream": true}]
+  },
+  "lostsoles-ferndor-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-11", "stream": true}]
+  },
+  "lostsoles-ferndor-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-12", "stream": true}]
+  },
+  "lostsoles-ferndor-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-13", "stream": true}]
+  },
+  "lostsoles-ferndor-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-14", "stream": true}]
+  },
+  "lostsoles-ferndor-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-ferndor-15", "stream": true}]
+  },
+  "lostsoles-grandon-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-30", "stream": true}]
+  },
+  "lostsoles-grandon-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-grandon-31", "stream": true}]
+  },
+  "lostsoles-leacen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-leacen-1", "stream": true}]
+  },
+  "lostsoles-leacen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-leacen-2", "stream": true}]
+  },
+  "lostsoles-leacen-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-leacen-3", "stream": true}]
+  },
+  "lostsoles-leacen-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-leacen-4", "stream": true}]
+  },
+  "lostsoles-leacen-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-leacen-5", "stream": true}]
+  },
+  "lostsoles-leacen-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lostsoles-leacen-6", "stream": true}]
+  },
+
 
 
 
