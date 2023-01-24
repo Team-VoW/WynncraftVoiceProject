@@ -4271,14 +4271,75 @@
 
 
 
-  "towerofascension-ankou-1": {
+  "towerofascencion-ankou-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:towerofascension-ankou-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-1", "stream": true}]
   },
-  "towerofascension-ankou-2": {
+  "towerofascencion-ankou-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:towerofascension-ankou-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-2", "stream": true}]
   },
+  "towerofascencion-ankou-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-3", "stream": true}]
+  },
+  "towerofascencion-ankou-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-4", "stream": true}]
+  },
+  "towerofascencion-ankou-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-5", "stream": true}]
+  },
+  "towerofascencion-ankou-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-6", "stream": true}]
+  },
+  "towerofascencion-ankou-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-7", "stream": true}]
+  },
+  "towerofascencion-ankou-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-8", "stream": true}]
+  },
+  "towerofascencion-ankou-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-9", "stream": true}]
+  },
+  "towerofascencion-ankou-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-10", "stream": true}]
+  },
+  "towerofascencion-ankou-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-11", "stream": true}]
+  },
+  "towerofascencion-ankou-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-12", "stream": true}]
+  },
+  "towerofascencion-ankou-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-13", "stream": true}]
+  },
+  "towerofascencion-ankou-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-14", "stream": true}]
+  },
+  "towerofascencion-ankou-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-15", "stream": true}]
+  },
+  "towerofascencion-ankou-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-16", "stream": true}]
+  },
+  "towerofascencion-ankou-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:towerofascencion-ankou-17", "stream": true}]
+  },
+
 
 
   "onethousandmetersunder-arlene-1": {

@@ -1576,9 +1576,25 @@ public class Sounds {
         s.addSound("[1/1] Adigard: Thank you so much for bringing peace between our nations!", "icenations-adigard-15", false);
         s.addSound("[1/1] Adigard: Our nation greatly needs help, but I'm afraid you aren't strong enough. Come back to me when you are level 40.", "icenations-adigard-16", false);
 
-        //Tower of Ascension
-        s.addSound("[1/11] Ankou: Hehehe... Hello there.", "towerofascension-ankou-1", false);
-        s.addSound("[1/6] Ankou: You have completed my tower, I see...", "towerofascension-ankou-2", false);
+        //tower of ascencion
+        s.addSound("[1/11] Ankou: Hehehe... Hello there.", "towerofascencion-ankou-1", false);
+        s.addSound("[2/11] Ankou: Welcome to the Tower of Ascension!", "towerofascencion-ankou-2", false);
+        s.addSound("[3/11] Ankou: I challenge you to reach the final floor!", "towerofascencion-ankou-3", false);
+        s.addSound("[4/11] Ankou: Have you got what it takes to conquer it?", "towerofascencion-ankou-4", false);
+        s.addSound("[5/11] Ankou: Perhaps you would like to know the layout of the tower first? Hehehehe...", "towerofascencion-ankou-5", false);
+        s.addSound("[6/11] Ankou: There are 7 floors in this tower, each with ten levels.", "towerofascencion-ankou-6", false);
+        s.addSound("[7/11] Ankou: Each floor has nine regular levels and one boss level.", "towerofascencion-ankou-7", false);
+        s.addSound("[8/11] Ankou: To pass a regular level, you must collect five tokens from the challenge on that level, and one token from boss levels.", "towerofascencion-ankou-8", false);
+        s.addSound("[9/11] Ankou: After you beat a whole floor, you will return here and you can begin the next one...", "towerofascencion-ankou-9", false);
+        s.addSound("[10/11] Ankou: So, what do you say? Hehehe...", "towerofascencion-ankou-10", false);
+        s.addSound("[11/11] Ankou: Turn left and head to the first floor...if you dare...", "towerofascencion-ankou-11", false);
+        s.addSound("[1/6] Ankou: You have completed my tower, I see...", "towerofascencion-ankou-12", false);
+        s.addSound("[2/6] Ankou: Did you enjoy Death? Many challengers certainly did. Her power is... unmatched, hehehe...", "towerofascencion-ankou-13", false);
+        s.addSound("[3/6] Ankou: And you... You are unlike them all, yes? Few have managed to ascend these floors.", "towerofascencion-ankou-14", false);
+        s.addSound("[4/6] Ankou: A tower of madness, fueled by Death herself... Quite a challenge, yes?", "towerofascencion-ankou-15", false);
+        s.addSound("[5/6] Ankou: You have joined us now, champion... Few can claim this victory as their own. Fewer still have held their mind.", "towerofascencion-ankou-16", false);
+        s.addSound("[6/6] Ankou: For this honor... A reward, for you. You have truly earned it... Hehehehe...", "towerofascencion-ankou-17", false);
+
 
         //Heart of llevigar
         s.addSound("[1/6] Zenam: Aaah, no no no! This doesn't make any sense, what in the world is going on?! Nothing's working!", "heartofllevigar-zenam-1", false);
