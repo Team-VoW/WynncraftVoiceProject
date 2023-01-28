@@ -3634,7 +3634,7 @@ public class Sounds {
 
         //Shattered Minds
         s.addSound("[1/6] Likeru: Aha, perfect! You'll be perfect! Lucky a human decided to come here!", "shatteredminds-likeru-1", false);
-        s.addSound("[1/5] ???: Looks like someone rolled about the air fuzz too much, so indeed hello! A light hello to yourself, soldier Questing, and a greetings to Professor Eih, which is me!", "shatteredminds-professoreih-1", false);
+        s.addSound("[1/5] ???: Looks like someone rolled about the air fuzz too much, so indeed hello! A light hello to yourself, soldier, and a greetings to Professor Eih, which is me!", "shatteredminds-professoreih-1", false);
         s.addSound("[1/3] Professor Eih: The punks scramble like eggs, and your skillet is sizzling! Certainly the heat in the kitchen is too much- so where is the fire extinguisher?", "shatteredminds-professoreih-2", false);
         s.addSound("[1/1] Professor Eih: Swish and sproont! Or is it the other way around? The moon shoes will help too!", "shatteredminds-professoreih-3", false);
         s.addSound("[1/5] Professor Eih: The colors! Shimmering as a prism- oh, no one likes those things. The writing is on the wall, but the window mugs it for pocket change! The inhumanity!", "shatteredminds-professoreih-4", false);
