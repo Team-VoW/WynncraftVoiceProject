@@ -438,7 +438,7 @@ public class Sounds {
         s.addSound("[1/7] Thomas: Oh, finally, someone has come to this hidden village!", "creeperinfiltration-thomas-1", false);
         s.addSound("[2/7] Thomas: I am Thomas, and I help manage the supplies for this ravine village.  Though, I have  a bit of a problem...", "creeperinfiltration-thomas-2", false);
         s.addSound("[3/7] Thomas: We're running low on ravine grains, which is our main staple we use for our food.", "creeperinfiltration-thomas-3", false);
-        s.addSound("[4/7] Thomas: We usally get it ourselves but recently an angry group of pigmen took over the tunnel to the top of the ravine, where the grain grows.", "creeperinfiltration-thomas-4", false);
+        s.addSound("[4/7] Thomas: We usually get it ourselves, but recently an angry group of pigmen took over the tunnel to the top of the ravine, where the grain grows.", "creeperinfiltration-thomas-4", false);
         s.addSound("[5/7] Thomas: The last time we entered, I heard an explosion from the top. I fear the pigmen are blowing up our g rain supply with TNT...", "creeperinfiltration-thomas-5", false);
         s.addSound("[6/7] Thomas: You appear to be much stronger than I am, so maybe you can get past the tunnel pigmen and eliminate the explosions at the top.", "creeperinfiltration-thomas-6", false);
         s.addSound("[7/7] Thomas: Just keep to the right wall of the ravine and climb up the stairs to reach the entrance. Also, be careful in the tunnel, as the pigmen throw rocks as a weapon.", "creeperinfiltration-thomas-7", false);
