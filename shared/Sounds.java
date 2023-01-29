@@ -927,7 +927,7 @@ public class Sounds {
         s.addSound("[2/3] Asher: Weird, right? Bob was a hard guy to know.", "dejavu-asher-48", false);
         s.addSound("[3/3] Asher: Anyway, take this. It's the least I can do to pay you for saving me.", "dejavu-asher-49", false);
         s.addSound("[1/3] Old Man Martyn: Oh dear, there he goes again. Poor fool ignored my warnings and touched that shovel.", "dejavu-oldmanmartyn-1", false);
-        s.addSound("[2/3] Old Man Martyn: He's gone and got himself stuck in a loop", "dejavu-oldmanmartyn-2", false);
+        s.addSound("[2/3] Old Man Martyn: He's gone and got himself stuck in a loop.", "dejavu-oldmanmartyn-2", false);
         s.addSound("[3/3] Old Man Martyn: Head inside, soldier, and I'll explain what's happening here.", "dejavu-oldmanmartyn-3", false);
         s.addSound("[1/8] Old Man Martyn: Let me explain why Asher disappeared...", "dejavu-oldmanmartyn-4", false);
         s.addSound("[2/8] Old Man Martyn: Time Valley was built many years ago by a long-lost civilization.", "dejavu-oldmanmartyn-5", false);
