@@ -842,10 +842,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:gravedigger-sayleros-11", "stream": true}]
   },
-  "gravedigger-sayleros-12": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:gravedigger-sayleros-12", "stream": true}]
-  },
 
 
 

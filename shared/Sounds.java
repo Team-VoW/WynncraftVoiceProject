@@ -527,8 +527,8 @@ public class Sounds {
         s.addSound("[1/8] Sayleros: You sure look like a strong adventurer who could help me!", "gravedigger-sayleros-1", false);
         s.addSound("[2/8] Sayleros: My name is Sayleros. I spent most of my life in Nemract, but decided to come live in Detlas with my family a few weeks ago.", "gravedigger-sayleros-2", false);
         s.addSound("[3/8] Sayleros: However, we got attacked by thieves on our way here, and I had to leave my family behind. Most of them died, unfortunately.", "gravedigger-sayleros-3", false);
-        s.addSound("[4/8] Sayleros: I know that my brother had his will on him during the attack. Knowing he was a rich fellow, I expect to be receiving a large part of his fortune.", "gravedigger-sayleros-4", false);
-        s.addSound("[5/8] Sayleros: His body was buried somewhere in Nemract. I own a large graveyard there, and can grant you access to it if you can bring me back his will.", "gravedigger-sayleros-5", false);
+        s.addSound("[4/8] Sayleros: I know that my brother had his will on him during the attack. Knowing he was a rich fellow, I expect to be receving a large part of his fortune.", "gravedigger-sayleros-4", false);
+        s.addSound("[5/8] Sayleros: His body is buried somewhere in Nemract. I own a large graveyard there, and can grant you access to it if you can bring me back his will.", "gravedigger-sayleros-5", false);
         s.addSound("[6/8] Sayleros: One of my other brothers also survived the attack. He isn't... um... somebody I'd trust greatly, but I'm sure he has some useful informations for you.", "gravedigger-sayleros-6", false);
         s.addSound("[7/8] Sayleros: His name is Drucksh. He usually likes to talk a lot when he is drunk, see if you can do anything with that.", "gravedigger-sayleros-7", false);
         s.addSound("[8/8] Sayleros: I'll be waiting for your return! Follow this path, it leads directly to Nemract. Good Luck!", "gravedigger-sayleros-8", false);
@@ -537,17 +537,16 @@ public class Sounds {
         s.addSound("[1/4] Drucksh: Ohh mmhhhgg... g-g-good old Nemract whiskey!", "gravedigger-drucksh-3", false);
         s.addSound("[2/4] Drucksh: F-fine! I guess it wouldn't h-h-hurt to tell...*burp*..you where it-it- he is...", "gravedigger-drucksh-4", false);
         s.addSound("[3/4] Drucksh: It's in the old c-c-cathedral, at the end of the town. Walk east, it should be right after the b-b-bridge.", "gravedigger-drucksh-5", false);
-        s.addSound("[4/4] Drucksh: Though, the p-p-priest might not let you go in that easily..", "gravedigger-drucksh-6", false);
+        s.addSound("[4/4] Drucksh: Though, the p-p-priest might not let you go in that easily...", "gravedigger-drucksh-6", false);
         s.addSound("[1/4] The Priest: Are you trying to go down into the crypt? Oh, that is a very bad idea.", "gravedigger-priest-1", false);
         s.addSound("[2/4] The Priest: This place has been corrupted, and the dead came back to life. We had to break the stairs to protect this cathedral.", "gravedigger-priest-2", false);
         s.addSound("[3/4] The Priest: If you really want to enter it, I'd have to purify it so it doesn't corrupt you.", "gravedigger-priest-3", false);
-        s.addSound("[4/4] The Priest: Bring me [12 Rotten Flesh], that should do it. Ancient Nemract is filled with zombies, it's toward the south-we", "gravedigger-priest-4", false);
-        s.addSound("[1/2] Priest: You got the flesh. Good.", "gravedigger-priest-5", false);
-        s.addSound("[2/2] Priest: It should be... \"safe\", now. Be very careful, you are entering at your own risk.", "gravedigger-priest-6", false);
+        s.addSound("[4/4] The Priest: Bring me [12 Rotten Flesh], that should do it. Ancient Nemract is filled with zombies, it's toward the south-west.", "gravedigger-priest-4", false);
+        s.addSound("[1/2] The Priest: You got the flesh. Good.", "gravedigger-priest-5", false);
+        s.addSound("[2/2] The Priest: It should be... \"safe\", now. Be very careful, you are entering at your own risk.", "gravedigger-priest-6", false);
         s.addSound("[1/1] Sayleros: Brilliant! It is a little bit dusty, but it will do the trick! Here, take these as proof of my gratitude.", "gravedigger-sayleros-9", false);
-        s.addSound("[1/1] Sayleros: Brilliant! It is a little bit dusty, but it will do the trick! Here, take these as proof of my gratitude.", "gravedigger-sayleros-10", false);
-        s.addSound("[1/1] Sayleros: You look like you desperately need an adventure, Come back when you're level 20, I might need you", "gravedigger-sayleros-11", false);
-        s.addSound("[1/1] Sayleros: Thank you so much for your help!", "gravedigger-sayleros-12", false);
+        s.addSound("[1/1] Sayleros: You look like you desperately need an adventure, Come back when you're level 20, I might need you", "gravedigger-sayleros-10", false);
+        s.addSound("[1/1] Sayleros: Thank you so much for your help!", "gravedigger-sayleros-11", false);
 
         //Macabre Masquerade Hallowynn 2014
         s.addSound("[1/5] Mask Salesman: Hmm... Let's see, wha- Ah! Oh, pardon me, I was distracted. Luckily you're here, because I require some assistance.", "macabremasquerade-masksalesman-1", false);
