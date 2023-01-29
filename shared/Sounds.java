@@ -568,7 +568,7 @@ public class Sounds {
         s.addSound("[3/6] Viraex: If you say he lived here many years ago, the oldest building is the church.", "studyingthecorrupt-viraex-3", false);
         s.addSound("[4/6] Viraex: Now that you mention it, there were odd stories about the basement of the church.", "studyingthecorrupt-viraex-4", false);
         s.addSound("[5/6] Viraex: My grandfather told me about it. I still have a key to the place, you are welcome to check it out for yourself.", "studyingthecorrupt-viraex-5", false);
-        s.addSound("[6/6] Viraex: I heard they found some weird rooms down there so they just left the place alone. Wise move, if you ask me", "studyingthecorrupt-viraex-6", false);
+        s.addSound("[6/6] Viraex: I heard they found some weird rooms down there so they just left the place alone. Wise move, if you ask me.", "studyingthecorrupt-viraex-6", false);
         s.addSound("[1/10] Garoth's Journal: Day 4: The year is 623 AP. My base of operations has been completed, along with a safety bunker.", "studyingthecorrupt-garothsjournal-1", false);
         s.addSound("[2/10] Garoth's Journal: Day 18: It's become extremely dangerous to continue my studies. With the Twains gone, the corrupt run wild.", "studyingthecorrupt-garothsjournal-2", false);
         s.addSound("[3/10] Garoth's Journal: Day 53: My studies have yielded poor results. I know only what we already knew.", "studyingthecorrupt-garothsjournal-3", false);
