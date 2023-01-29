@@ -659,13 +659,13 @@ public class Sounds {
         s.addSound("[1/3] ???: I will allow you to return now... and I will ensure you remember what you have seen here.", "darkdescent-charon-12", true);
         s.addSound("[2/3] ???: Good luck on your little quest...keheheh...", "darkdescent-charon-13", true);
         s.addSound("[1/6] Lost Soul: Please, stop this! Whoever you are, leave me and my family in peace! What did we ever do to deserve this?!", "darkdescent-lostsoul-1", true);
-        s.addSound("[3/6] Lost Soul: Y-you...I thought they...oh, god, no...", "darkdescent-lostsoul-2", true);
-        s.addSound("[5/6] Lost Soul: Wha...you mean... N-no, please! I don't want to hurt anyone! I don't want to die!!", "darkdescent-lostsoul-3", true);
-        s.addSound("[2/5] Scout: I...there...too many...th-thousands, at...at least...", "darkdescent-scout-1", true);
-        s.addSound("[4/5] Scout: No point...we're...doomed...", "darkdescent-scout-2", true);
-        s.addSound("[1/5] Soldier: Scout! Report your findings, immediately! How many corrupteds are coming?", "darkdescent-soldier-1", true);
-        s.addSound("[3/5] Soldier: Thousands...? This is far worse than I expected. Men! Prepare for-", "darkdescent-soldier-2", true);
-        s.addSound("[5/5] Soldier: Wait, w-what's going on? What's happening to you?!", "darkdescent-soldier-3", true);
+        s.addSound("[3/6] Lost Soul: Y-you...I thought they...oh, god, no...", "darkdescent-lostsoul-2", false);
+        s.addSound("[5/6] Lost Soul: Wha...you mean... N-no, please! I don't want to hurt anyone! I don't want to die!!", "darkdescent-lostsoul-3", false);
+        s.addSound("[2/5] Scout: I...there...too many...th-thousands, at...at least...", "darkdescent-scout-1", false);
+        s.addSound("[4/5] Scout: No point...we're...doomed...", "darkdescent-scout-2", false);
+        s.addSound("[1/5] Soldier: Scout! Report your findings, immediately! How many corrupteds are coming?", "darkdescent-soldier-1", false);
+        s.addSound("[3/5] Soldier: Thousands...? This is far worse than I expected. Men! Prepare for-", "darkdescent-soldier-2", false);
+        s.addSound("[5/5] Soldier: Wait, w-what's going on? What's happening to you?!", "darkdescent-soldier-3", false);
         s.addSound("[1/11] General Graken: Ah, hello there chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.", "darkdescent-generalgraken-1", false);
         s.addSound("[1/5] General Graken: Oh, sod it, I knew I was forgetting something! Steady there, chum! I'm on my way!", "darkdescent-generalgraken-2", false);
         s.addSound("[2/5] General Graken: Drat! Too late, it seems. Yes, I forgot to mention the floor was in poor condition. Up here! You took quite the tumble, are you alright?", "darkdescent-generalgraken-3", false);
@@ -1213,15 +1213,15 @@ public class Sounds {
         s.addSound("[8/8] Almuj Bank Guard: If you still can't find it, I've written the coordinates in your quest book. Now quickly, get to the house!", "asandyscandal-almujbankguard-9", false);
         s.addSound("[1/2] Almuj Citizen: Hello? Are you with the guards? Good! Hurry! Some bandits just ransacked my house, and left with lots of emeralds!", "asandyscandal-almujcitizen-1", true);
         s.addSound("[2/2] Almuj Citizen: Follow me to my house, hopefully you can find the bandits! They stole lots of my precious gold!", "asandyscandal-almujcitizen-2", true);
-        s.addSound("[1/4] Bandit Leader: Here-- maybe you'll help us pull the heist if I give you some of this gold we just stole.", "asandyscandal-banditleader-1", true);
-        s.addSound("[2/4] Bandit Leader: Ahah. I had a feeling we had a guard on our tail.", "asandyscandal-banditleader-2", true);
-        s.addSound("[3/4] Bandit Leader: I wouldn't want to wear out my new-stolen weapons killing you... I'll just trap you in here with all of this TNT!", "asandyscandal-banditleader-3", true);
-        s.addSound("[4/4] Bandit Leader: This'll blow up in a few seconds. Good luck getting out of here! ", "asandyscandal-banditleader-4", true);
+        s.addSound("[1/4] Bandit Leader: Here-- maybe you'll help us pull the heist if I give you some of this gold we just stole.", "asandyscandal-banditleader-1", false);
+        s.addSound("[2/4] Bandit Leader: Ahah. I had a feeling we had a guard on our tail.", "asandyscandal-banditleader-2", false);
+        s.addSound("[3/4] Bandit Leader: I wouldn't want to wear out my new-stolen weapons killing you... I'll just trap you in here with all of this TNT!", "asandyscandal-banditleader-3", false);
+        s.addSound("[4/4] Bandit Leader: This'll blow up in a few seconds. Good luck getting out of here! ", "asandyscandal-banditleader-4", false);
         s.addSound("[1/1] Bandit Leader: It's too late to stop us now! We're already about to bust out of here with a grand prize sure to gain us province-wide respect!", "asandyscandal-banditleader-5", true);
         s.addSound("[1/3] Bandit Leader: Look here, the soldier decided they wanted to follow us. Dumb move.", "asandyscandal-banditleader-6", true);
         s.addSound("[2/3] Bandit Leader: I guess we can kill two birds with one stone: escaping the bank, and killing this pest.", "asandyscandal-banditleader-7", true);
         s.addSound("[3/3] Bandit Leader: Block the entrance, bandits!", "asandyscandal-banditleader-8", true);
-        s.addSound("[1/1] Bandit Leader: Oh no... we've run out of TNT! We were in over our heads... We can't defeat them, just run for your life! Forget the emeralds, let's get outta' here!", "asandyscandal-banditleader-9", true);
+        s.addSound("[1/1] Bandit Leader: Oh no... we've run out of TNT! We were in over our heads... We can't defeat them, just run for your life! Forget the emeralds, let's get outta' here!", "asandyscandal-banditleader-9", false);
         s.addSound("[1/4] Almuj Bank Guard: What happened down there underneath the bank? I heard the rumble.", "asandyscandal-almujbankguard-10", false);
 
         //Meaningful Holiday
