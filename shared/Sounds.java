@@ -302,7 +302,7 @@ public class Sounds {
         s.addSound("[2/2] Sergeant Klafson: You did a great deed today, soldier! We can now use this cave to travel easily between Ragni and Detlas! Great job!", "tunneltrouble-sergeantklafson-2", false);
         s.addSound("[1/1] Sergeant Klafson: Halt! You cannot go down this cave, it is blocked.", "tunneltrouble-sergeantklafson-3", false);
         s.addSound("[1/1] Sergeant Klafson: Hello again, soldier! Doing great things around the province, I presume?", "tunneltrouble-sergeantklafson-4", false);
-        s.addSound("[1/1] Sergeant Klafson: I'm sorry, recruit, but that passage is blocked. We used to use it, but not anymore... [Quest Req: Tunnel Trouble]", "tunneltrouble-sergeantklafson-5", false);
+        s.addSound("[1/1] Sergeant Klafson: I'm sorry, recruit, but that passage is blocked. We used to use it, but not anymore...", "tunneltrouble-sergeantklafson-5", false);
 
         //Underwater
         s.addSound("[1/6] Sayrr: Why ya looking at me like that? Is it cause I'm small, eh? I'll have you know that I caught fish that were twice your size!", "underwater-sayrr-1", false);
