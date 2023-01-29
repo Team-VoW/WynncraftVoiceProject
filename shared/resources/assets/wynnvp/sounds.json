@@ -25251,9 +25251,77 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-2", "stream": true}]
   },
+  "fateofthefallen-telvu-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-3", "stream": true}]
+  },
+  "fateofthefallen-telvu-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-4", "stream": true}]
+  },
+  "fateofthefallen-telvu-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-5", "stream": true}]
+  },
+  "fateofthefallen-telvu-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-6", "stream": true}]
+  },
+  "fateofthefallen-telvu-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-7", "stream": true}]
+  },
+  "fateofthefallen-telvu-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-8", "stream": true}]
+  },
+  "fateofthefallen-telvu-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-9", "stream": true}]
+  },
+  "fateofthefallen-telvu-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-10", "stream": true}]
+  },
+  "fateofthefallen-telvu-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-11", "stream": true}]
+  },
+  "fateofthefallen-telvu-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-12", "stream": true}]
+  },
+  "fateofthefallen-telvu-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-13", "stream": true}]
+  },
   "fateofthefallen-psern-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:fateofthefallen-psern-1", "stream": true}]
+  },
+  "fateofthefallen-psern-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-psern-2", "stream": true}]
+  },
+  "fateofthefallen-psern-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-psern-3", "stream": true}]
+  },
+  "fateofthefallen-psern-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-psern-4", "stream": true}]
+  },
+  "fateofthefallen-psern-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-psern-5", "stream": true}]
+  },
+  "fateofthefallen-psern-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-psern-6", "stream": true}]
+  },
+  "fateofthefallen-psern-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-psern-7", "stream": true}]
   },
   "fateofthefallen-theorick-1": {
     "category": "voice",
@@ -25387,10 +25455,43 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:fateofthefallen-theorick-31", "stream": true}]
   },
-  "fateofthefallen-telvu-3": {
+  "fateofthefallen-telvu-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-14", "stream": true}]
   },
+  "fateofthefallen-telvu-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-15", "stream": true}]
+  },
+  "fateofthefallen-telvu-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-16", "stream": true}]
+  },
+  "fateofthefallen-telvu-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-17", "stream": true}]
+  },
+  "fateofthefallen-telvu-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-18", "stream": true}]
+  },
+  "fateofthefallen-telvu-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-19", "stream": true}]
+  },
+  "fateofthefallen-telvu-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-20", "stream": true}]
+  },
+  "fateofthefallen-telvu-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-21", "stream": true}]
+  },
+  "fateofthefallen-telvu-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:fateofthefallen-telvu-22", "stream": true}]
+  },
+
   "icebarrows-ghostlyvoice-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:icebarrows-ghostlyvoice-1", "stream": true}]
