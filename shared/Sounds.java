@@ -940,7 +940,7 @@ public class Sounds {
         s.addSound("[6/11] Old Man Martyn: Asher, you remember when I allowed you to live in the valley, I told you not to touch any odd objects.", "dejavu-oldmanmartyn-12", false);
         s.addSound("[8/11] Old Man Martyn: You got yourself stuck hundreds of years ago. If it wasn't for this guard, you'd be removed from existence.", "dejavu-oldmanmartyn-13", false);
         s.addSound("[10/11] Old Man Martyn: I know time travel can be tempting. But it's far more dangerous than you can ever understand.", "dejavu-oldmanmartyn-14", false);
-        s.addSound("[11/11] Old Man Martyn: The valley is banned for most citizens. I watch over this timeline because of poor souls like Asher", "dejavu-oldmanmartyn-15", false);
+        s.addSound("[11/11] Old Man Martyn: The valley is banned for most citizens. I watch over this timeline because of poor souls like Asher.", "dejavu-oldmanmartyn-15", false);
         s.addSound("[2/14] Old Man Martyn: Ah, we're back.", "dejavu-oldmanmartyn-16", false);
         s.addSound("[4/14] Old Man Martyn: Oh you know. I've read a book or two in my time.", "dejavu-oldmanmartyn-17", false);
         s.addSound("[5/14] Old Man Martyn: Soldier, I'm sorry I got you dragged into this. I wish I could have done it myself.", "dejavu-oldmanmartyn-18", false);
