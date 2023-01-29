@@ -186,8 +186,8 @@ public class Sounds {
         s.addSound("[4/5] Farmer Cevalus: I am too weak to get past the pest myself, could you help me out recruit?", "poisoningthepest-farmercevalus-4", false);
         s.addSound("[5/5] Farmer Cevalus: If you poison the water reservoir on the other side of the farm field after you enter, you can watch as the pest makes his way back to the grave!\"", "poisoningthepest-farmercevalus-5", false);
         s.addSound("[1/1] Farmer Cevalus: Have you at least attempted to get rid of that pest yet? Remember, the water reservoir is on the other end of this here field.", "poisoningthepest-farmercevalus-6", false);
-        s.addSound("[1/2] Farmer Cevalus: Look at the body!", "poisoningthepest-farmercevalus-7", false);
-        s.addSound("[2/2] Farmer Cevalus: There are Pests burrowing out of it. KILL THEM!", "poisoningthepest-farmercevalus-8", false);
+        s.addSound("[1/2] Farmer Cevalus: Look at the body!", "poisoningthepest-farmercevalus-7", false), 45;
+        s.addSound("[2/2] Farmer Cevalus: There are Pests burrowing out of it. KILL THEM!", "poisoningthepest-farmercevalus-8", false, 45);
         s.addSound("[1/3] Farmer Cevalus: Great job getting rid of that corrupt varmint, I can't thank you enough!", "poisoningthepest-farmercevalus-9", false);
         s.addSound("[2/3] Farmer Cevalus: I mean... poor step-dad. I don't know how I'll explain this to the wife...", "poisoningthepest-farmercevalus-10", false);
         s.addSound("[3/3] Farmer Cevalus: Take this well-deserved reward for the risky actions you took today. I also give you access to my second farm in the back, take whatever you need there!", "poisoningthepest-farmercevalus-11", false);
@@ -196,7 +196,7 @@ public class Sounds {
         s.addSound("[1/1] Farmer Cevalus: Hey! Get away from my farm, this is private property!", "poisoningthepest-farmercevalus-14", false);
         s.addSound("[1/1] Farmer Cevalus: I thank you greatly for your actions. My crops should grow back soon!", "poisoningthepest-farmercevalus-15", false);
         s.addSound("[1/2] Farmer Cevalus: Just one more to kill.", "poisoningthepest-farmercevalus-16", false);
-        s.addSound("[2/2] Farmer Cevalus: Well done! Come back to me for a reward.", "poisoningthepest-farmercevalus-17", false);
+        s.addSound("[2/2] Farmer Cevalus: Well done! Come back to me for a reward.", "poisoningthepest-farmercevalus-17", false, 45);
 
         //Cook Assistant
         s.addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant-thecook-1", false);

@@ -59,6 +59,11 @@ public class SoundsHandler {
         addSound(message, id, movingSound, position, 0);
     }
 
+    public void addSound(String message, String id, boolean movingSound, int fallOff) {
+
+        addSound(message, id, movingSound, null, 0);
+    }
+
     //If position is 0 null use default. If falloff is 0 use default
     public void addSound(String message, String id, boolean movingSound, Vec3d position, int fallOff) {
 
