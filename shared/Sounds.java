@@ -631,7 +631,7 @@ public class Sounds {
         s.addSound("[2/2] Nohno: You monster! Leave this place now, and keep that feather to remind you of your hideous crime!", "cluckcluck-nohno-8", false);
 
         //Dwelling walls
-        s.addSound("[1/10] Leucsaa: Let's see here... mother's old vase? Check!", "dwellingwalls-leucsaa-1", false);
+        s.addSound("[1/10] Leucsaa: Let's see here... mother's old vase… check!", "dwellingwalls-leucsaa-1", false);
         s.addSound("[2/10] Leucsaa: Dining room table... got it here, check!", "dwellingwalls-leucsaa-2", false);
         s.addSound("[3/10] Leucsaa: Finally, the journal. It's out here somewhere, I assume. I'll look around.", "dwellingwalls-leucsaa-3", false);
         s.addSound("[5/10] Leucsaa: Hold on, what? The journal! I must have forgotten it inside the mansion!", "dwellingwalls-leucsaa-4", false);
