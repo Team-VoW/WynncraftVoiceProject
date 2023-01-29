@@ -282,7 +282,7 @@ public class Sounds {
         s.addSound("[1/1] Bylvis: Ah, good to see my cows are all in tip-top shape! Welp, time to feed the townsfolk again!", "tunneltrouble-bylvis-1", true);
         s.addSound("[1/2] Bylvis: Huh? Hey!", "tunneltrouble-bylvis-2", false);
         s.addSound("[2/2] Bylvis: What do you think you're doing down here? This is private property, you know!", "tunneltrouble-bylvis-3", false);
-        s.addSound("[1/2] Drale: Thank   so much, but we're not done yet. We need to get these cows out the province.", "tunneltrouble-drale-6", false);
+        s.addSound("[1/2] Drale: Thank you so much, but we're not done yet. We need to get these cows out the province.", "tunneltrouble-drale-6", false);
         s.addSound("[2/2] Drale: There's a small opening behind me. Go through it and help me get these cows on a raft to Gavel!", "tunneltrouble-drale-7", false);
         s.addSound("[1/1] Drale: There's the raft! Help me push it for the cows!", "tunneltrouble-drale-8", false);
         s.addSound("[1/2] Drale: And, that should do it! Be free, my friends! A new life awaits!", "tunneltrouble-drale-9", false);
