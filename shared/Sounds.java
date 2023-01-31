@@ -312,10 +312,34 @@ public class Sounds {
 
         //Mushroom man
         s.addSound("[1/2] Yahya: G-... Hi! What a coincidence, I... I actually need you, yes.", "mushroomman-yahya-1", false);
-        s.addSound("[1/5] Yahya: YOU DRANK ALL M-MY STUOP, STEW, SOUP!! WHERE IS IT!", "mushroomman-yahya-2", false);
-        s.addSound("[1/5] Yahya: You, again? Oh, you have the.. mushrooms.", "mushroomman-yahya-3", false);
-        s.addSound("[1/6] Yahya: H-... Hey! I didn't expect you to find it... Haha... Um...", "mushroomman-yahya-4", false);
-        s.addSound("[1/2] Yahya: Oh boy I love bowls! Bowls, bowls, b-bowls! Perfect for mushrooms! W-wait... I thought I- was at my home?", "mushroomman-yahya-5", false);
+        s.addSound("[2/2] Yahya: Drink my mushroom stew! D-drink it...", "mushroomman-yahya-2", false);
+        s.addSound("[1/5] Yahya: YOU DRANK ALL M-MY STUOP, STEW, SOUP!! WHERE IS IT!", "mushroomman-yahya-3", false);
+        s.addSound("[2/5] Yahya: I- it was too many mushrooms for you- you human! You- you ate the bowl!", "mushroomman-yahya-4", false);
+        s.addSound("[3/5] Yahya: Y-you fainted, soldier, I t-think?! I- brought you to my, m-mushroom! home...", "mushroomman-yahya-5", false);
+        s.addSound("[4/5] Yahya: Care to fix your mis-... mistake? Mushrooms. Get me [3 Brown Mushrooms] and [3 Red Mushrooms]. Thanks. You have to- to search the forest for more logs.", "mushroomman-yahya-6", false);
+        s.addSound("[5/5] Yahya: Take this and get me some... Just right-click the logs with mushrooms on them...", "mushroomman-yahya-7", false);
+        s.addSound("[1/5] Yahya: You, again? Oh, you have the.. mushrooms.", "mushroomman-yahya-8", false);
+        s.addSound("[2/5] Yahya: Good. Mushrooms.", "mushroomman-yahya-9", false);
+        s.addSound("[3/5] Yahya: Well, I-... I can't make any soup without my... bowl, hehe.", "mushroomman-yahya-10", false);
+        s.addSound("[4/5] Yahya: You are good at what you do. Can you get me [1 Bowl]?", "mushroomman-yahya-11", false);
+        s.addSound("[5/5] Yahya: There's a village hidden in this south western part of the forest, I-... I remember they sell these. Mushrooms? No, bowls. They sell bowls.", "mushroomman-yahya-12", false);
+        s.addSound("[1/6] Yahya: H-... Hey! I didn't expect you to find it... Haha... Um...", "mushroomman-yahya-13", false);
+        s.addSound("[2/6] Yahya: I still need you to bring me... Um..", "mushroomman-yahya-14", false);
+        s.addSound("[3/6] Yahya: Spoons.", "mushroomman-yahya-15", false);
+        s.addSound("[4/6] Yahya: To eat my soup-.. Oh wait, I already got some spoons.", "mushroomman-yahya-16", false);
+        s.addSound("[5/6] Yahya: I guess I need to pay you now. Is [2 Emeralds] fine with you?", "mushroomman-yahya-17", false);
+        s.addSound("[6/6] Yahya: Oho okay, ok-... okay! It was a joke, don't get all ex-... ex-... excited. Here, just take these and go away.", "mushroomman-yahya-18", false);
+        s.addSound("[1/2] Yahya: Oh boy I love bowls! Bowls, bowls, b-bowls! Perfect for mushrooms! W-wait... I thought I- was at my home?", "mushroomman-yahya-19", false);
+        s.addSound("[2/2] Yahya: Too many mushrooms... no no, that's impossible.", "mushroomman-yahya-20", false);
+        s.addSound("[1/1] Yahya: H-... Hey! I'll need your help! Mushrooms. But right now you... you seem too weak. Come back to me when you're le-... level 9.", "mushroomman-yahya-21", false);
+        s.addSound("[1/3] Yahya: D-Don't just walk away from m-me with MY SOUP!!", "mushroomman-yahya-22", false);
+        s.addSound("[2/3] Yahya: Just d-drink it!! It can't b-be that hard!", "mushroomman-yahya-23", false);
+        s.addSound("[3/3] Yahya: I j-just need someone to h-help. Please!", "mushroomman-yahya-24", false);
+        s.addSound("[1/1] Yahya: Y-you!! I m-made another soup. D-don't run away this time! Drink my soup!", "mushroomman-yahya-25", false);
+        s.addSound("[1/1] Yahya: Y-you... That's my s-soup! You still have it! D-drink it, NOW!!", "mushroomman-yahya-26", false);
+        s.addSound("[1/1] Yahya: Y-you! What are you d-doing? Stop standing around and, and get me my m-... Mushrooms.", "mushroomman-yahya-27", false);
+        s.addSound("[1/1] Yahya: I am everywhere. M-mushroom soup, stew, soup m-makes me fast!", "mushroomman-yahya-28", false);
+        s.addSound("[1/1] Yahya: I could r-really use a new spoon to eat my m-m-mushroom soup with. Maybe... yellow- no wait, black!", "mushroomman-yahya-29", false);
 
         //Potion Making
         s.addSound("[1/5] The Assistant: Heeh...stranger. I...may need your assistance...", "potionmaking-theassistant-1", false);
