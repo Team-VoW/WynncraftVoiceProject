@@ -60,6 +60,15 @@ public class SoundsHandler {
         addSound(message, id, movingSound, position, 0);
     }
 
+    public void addSound(String message, String id, boolean movingSound, int fallOff) {
+
+        LineData lineData = formatToLineData(message);
+        npcNames.add(lineData.getNPCName());
+        message = lineData.getSoundLine();
+        sounds.put(message, new SoundObject(lineData.getNPCName(), id, new CustomSoundClass(registerSound(id), movingSound), null, fallOff));
+    }
+
+
     //If position is 0 null use default. If falloff is 0 use default
     public void addSound(String message, String id, boolean movingSound, Vec3 position, int fallOff) {
 
