@@ -68,7 +68,9 @@ public class SoundPlayer {
 
             //If this sound contains info about a location to play it at
             if (sound.getPosition() != null){
-                playSoundAtCords(sound.getPosition(), sound);
+                Vector3 posAsVector3 = sound.getPosition();
+                Vec3d soundPos = new Vec3d(posAsVector3.x, posAsVector3.y, posAsVector3.z);
+                playSoundAtCords(soundPos, sound);
                 return;
             }
 

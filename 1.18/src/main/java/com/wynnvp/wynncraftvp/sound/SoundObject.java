@@ -1,17 +1,16 @@
 package com.wynnvp.wynncraftvp.sound;
 
-import net.minecraft.world.phys.Vec3;
 
 public class SoundObject {
 
     private final String npcName;
     private final String id;
     private final CustomSoundClass customSoundClass;
-    private final Vec3 position;
+    private final Vector3 position;
     private final int fallOff;
 
 
-    public SoundObject(String npcName, String id, CustomSoundClass customSoundClass, Vec3 position, int fallOff) {
+    public SoundObject(String npcName, String id, CustomSoundClass customSoundClass, Vector3 position, int fallOff) {
         this.fallOff = fallOff;
         this.position = position;
         this.npcName = npcName;
@@ -32,7 +31,7 @@ public class SoundObject {
         return customSoundClass;
     }
 
-    public Vec3 getPosition() {
+    public Vector3 getPosition() {
         return position;
     }
 

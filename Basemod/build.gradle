@@ -149,6 +149,7 @@ jar {
 
 tasks.register('replaceSounds', Copy) {
     from layout.buildDirectory.file("$projectDir/../shared/Sounds.java")
+    from layout.buildDirectory.file("$projectDir/../shared/Vector3.java")
     into layout.buildDirectory.dir("$projectDir/src/main/java/com/wynnvp/wynncraftvp/sound/")
 }
 

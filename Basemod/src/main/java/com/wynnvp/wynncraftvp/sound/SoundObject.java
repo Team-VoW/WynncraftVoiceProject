@@ -8,9 +8,9 @@ public class SoundObject {
     private final String id;
     private final CustomSoundClass customSoundClass;
     private final int fallOff;
-    private final Vec3d position;
+    private final Vector3 position;
 
-    public SoundObject(String npcName, String id, CustomSoundClass customSoundClass, Vec3d position, int fallOff) {
+    public SoundObject(String npcName, String id, CustomSoundClass customSoundClass, Vector3 position, int fallOff) {
         this.fallOff = fallOff;
         this.position = position;
         this.npcName = npcName;
@@ -30,7 +30,7 @@ public class SoundObject {
         return customSoundClass;
     }
 
-    public Vec3d getPosition() {
+    public Vector3 getPosition() {
         return position;
     }
 

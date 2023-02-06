@@ -2,21 +2,15 @@ package com.wynnvp.wynncraftvp.sound;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
-import jdk.internal.loader.Resource;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.resources.IResource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.Vec3d;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
-import org.apache.commons.io.IOUtils;
 
-import java.io.IOException;
-import java.net.URL;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Optional;
+import java.util.Set;
 
 import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
@@ -54,7 +48,7 @@ public class SoundsHandler {
         addSound(message, id, movingSound, null);
     }
 
-    public void addSound(String message, String id, boolean movingSound, Vec3d position) {
+    public void addSound(String message, String id, boolean movingSound, Vector3 position) {
 
         addSound(message, id, movingSound, position, 0);
     }
@@ -65,7 +59,7 @@ public class SoundsHandler {
     }
 
     //If position is 0 null use default. If falloff is 0 use default
-    public void addSound(String message, String id, boolean movingSound, Vec3d position, int fallOff) {
+    public void addSound(String message, String id, boolean movingSound, Vector3 position, int fallOff) {
 
         LineData lineData = formatToLineData(message);
         npcNames.add(lineData.getNPCName());
