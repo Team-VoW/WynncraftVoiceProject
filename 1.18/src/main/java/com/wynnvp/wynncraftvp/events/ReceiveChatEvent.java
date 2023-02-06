@@ -22,7 +22,7 @@ public class ReceiveChatEvent {
     public static void receivedChat(String msg) {
         if (stopMod) return;
 
-        System.out.println("Got message: " + msg.replaceAll("\n", "\\n"));
+        //System.out.println("Got message: " + msg.replaceAll("\n", "\\n"));
         //Replace player Name with "soldier"
         String name = GetPlayerName(msg);
 

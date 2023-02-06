@@ -155,7 +155,7 @@ public class Sounds {
         s.addSound("[1/1] Aledar: Hey! where are you going?", "kingsrecruit-aledar-51", false);
         s.addSound("[1/1] Aledar: Hey, soldier, the castle's the other way!", "kingsrecruit-aledar-52", false);
 
-          //Enzans Brother
+        //Enzans Brother
         s.addSound("[1/5] Enzan: I see you want to venture into the wilderness!", "enzansbrother-enzan-1", false);
         s.addSound("[2/5] Enzan: My name is Enzan, and I am now a retired knight. I've spent most of my life fighting for Ragni's army, just like you.", "enzansbrother-enzan-2", false);
         s.addSound("[3/5] Enzan: I know how hard it must be to be a recruit at this time, so I've got something that could help you! Well, I don't have it, but my brother does!", "enzansbrother-enzan-3", false);
@@ -3482,12 +3482,6 @@ public class Sounds {
         s.addSound("[1/1] Ferndor: Now that the boots are back in place, we only need to repair the mansion, and we can live normally again!", "lostsoles-ferndor-15", false);
         s.addSound("[1/2] Grandon: This building has such rich history, it would've been an absolute shame to have lost it over just a pair of silly old boots.", "lostsoles-grandon-30", false);
         s.addSound("[2/2] Grandon: I mean, what would the Sodetas have thought? Well, I guess they probably wouldn't come all the way over from the Guild Hall to check anymore, but...still.", "lostsoles-grandon-31", false);
-        s.addSound("[1/6] Leacen: Hey, not bad for a Humie! I'm sure I coulda figured it out with a little more time, but hey, deal's a deal, so here's what I know.", "lostsoles-leacen-1", false);
-        s.addSound("[2/6] Leacen: Okay, so pretty close to the manor is this little altar-lookin' thing. The old tribes that lived here used it to exorcise spirits that lingered for whatever reason.", "lostsoles-leacen-2", false);
-        s.addSound("[3/6] Leacen: They'd bring an item of some importance to that person. If it was a military man, they'd bring their badge, for instance, or a hunter's favorite spear, to summon up the ghost.", "lostsoles-leacen-3", false);
-        s.addSound("[4/6] Leacen: That tribe died out awhile ago but the altar's still there. Sometimes Troms folks would use it, but recently the plants around there started dyin'. It was different than the manor's decay, too.", "lostsoles-leacen-4", false);
-        s.addSound("[5/6] Leacen: I tried puttin' in an old Sodeta badge, but nothing happened. Some old corrupted ghostie might be hangin' around looking for help, I think.", "lostsoles-leacen-5", false);
-        s.addSound("[6/6] Leacen: I figure that might be worth checkin' out! If it's hanging around here, it mighta been a ghost of someone from Troms, but I ain't got any idea who that might be.", "lostsoles-leacen-6", false);
 
         //Memory Paranoia
         s.addSound("[1/10] Atisun: Oh, a human? If I could beg your pardon a moment... could I talk to you about the mansion here?", "memoryparanoia-atisun-1", false);
