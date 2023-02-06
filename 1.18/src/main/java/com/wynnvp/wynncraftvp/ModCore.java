@@ -16,7 +16,7 @@ public class ModCore implements ModInitializer {
 
     public static final String MODID = "wynnvp";
     public static final String NAME = "Wynncraft Voice Project";
-    public static final String VERSION = "1.2.1";
+    public static final String VERSION = "1.3";
     public static boolean inLiveWynnServer = false;
     public static boolean isUsingClothApi = false;
     public SoundsHandler soundsHandler;
