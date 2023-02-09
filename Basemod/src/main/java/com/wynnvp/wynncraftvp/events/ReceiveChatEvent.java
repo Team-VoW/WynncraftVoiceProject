@@ -8,6 +8,7 @@ import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.util.text.ChatType;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import javax.vecmath.Vector3f;
@@ -22,9 +23,9 @@ ReceiveChatEvent {
 
     public static boolean stopMod = false;
 
-    @SubscribeEvent
+    @SubscribeEvent(priority = EventPriority.HIGHEST)
     public static void receivedChat(ClientChatReceivedEvent event) {
-        if (stopMod || !event.getType().equals(ChatType.CHAT)) return;
+        if (stopMod || event.getType().equals(ChatType.GAME_INFO)) return;
         String msg = event.getMessage().getUnformattedText();
 
         //Replace player Name with "soldier"
