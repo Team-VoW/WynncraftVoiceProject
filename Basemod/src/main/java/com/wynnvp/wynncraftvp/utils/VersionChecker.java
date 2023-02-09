@@ -70,7 +70,7 @@ public class VersionChecker {
         float multiplier = 1;
         for (String str : version.split("\\.")) {
             output += Float.parseFloat(str) / multiplier;
-            multiplier /= 100;
+            multiplier *= 10;
         }
         return output;
     }
