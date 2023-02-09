@@ -16,11 +16,11 @@ public class Utils {
             Minecraft.getInstance().gui.getChat().addMessage(Component.literal("§5[Voices of Wynn]§r " + text));
     }
 
-    public static void sendMessageWithLink(String text, String url) {
+    public static void appendMessageWithLinkAndSend(String text, String url, String clickText) {
         if (Minecraft.getInstance() != null && Minecraft.getInstance().gui != null && Minecraft.getInstance().gui.getChat() != null) {
 
             MutableComponent mutableText = Component.literal("§r " + text).copy();
-            mutableText.getStyle().withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, url));
+            mutableText.append(Component.literal(clickText).setStyle(mutableText.getStyle().withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, url))));
 
             Minecraft.getInstance().gui.getChat().addMessage(mutableText);
 
