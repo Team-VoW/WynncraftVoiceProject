@@ -7053,7 +7053,7 @@ public class Sounds {
         s.addSound("[6/7] Chef Hamsey: ... aroma, magical ability.. oh, and flavour!", "recipefordisaster-chefhamsey-15", false);
         s.addSound("[7/7] Chef Hamsey: S'il te plait! Go introduce yourself to each of my chefs and return once you have decided who to work with!", "recipefordisaster-chefhamsey-16", false);
         s.addSound("[1/1] Chef Hamsey: Adventurer! You haven't talked to Brie, Kale, or Frank yet, make sure to talk to them before choosing who to work with.", "recipefordisaster-chefhamsey-17", false);
-        s.addSound("[1/3] Frank: Yo, dawg. Name's Frank. Hamsey said you guys go waaay back. Any friend of Hamsey's is good with me, man.", "recipefordisaster-frank-1", false);
+        s.addSound("[1/3] Frank: Yo, dawg. Name's Frank. Pleasure to meet'cha.", "recipefordisaster-frank-1", false);
         s.addSound("[2/3] Frank: Nothin' too sure on what we're gonna cook yet, figure I'll dream somethin' up before the time comes.", "recipefordisaster-frank-2", false);
         s.addSound("[3/3] Frank: Thinkin' a pie, maybe? Not too much effort there, can't go too far wrong, right?", "recipefordisaster-frank-3", false);
         s.addSound("[1/1] Frank: Yo dude, appreciate the enthusiasm but y'all should check out the other chefs before deciding on me!", "recipefordisaster-frank-4", false);
@@ -7107,7 +7107,7 @@ public class Sounds {
         s.addSound("[6/9] Talking Mushroom: I HOPE NOT, IF YOU WERE THINKING THAT. I'VE ALREADY LOST A STEM TODAY BECAUSE SOME DIMWIT TRIED TAKING A BITE OUT OF ME... LIVE!", "recipefordisaster-talkingmushroom-6", false);
         s.addSound("[7/9] Talking Mushroom: DON'T TELL ME, YOU ARE TAKING ME ON SOME LOONEY ADVENTURE ACROSS THE SKY ISLANDS? HOW LOVELY.", "recipefordisaster-talkingmushroom-7", false);
         s.addSound("[8/9] Talking Mushroom: A KITCHEN YOU SAY, WELL IF IT'LL PUT ME OUT OF MY MISERY AS SOON AS POSSIBLE, THEN WHY NOT.", "recipefordisaster-talkingmushroom-8", false);
-        s.addSound("[9/9] Talking Mushroom: WAIT, WHY ARE YOU STUFFING ME INTO YOUR BAG? HOW DO YOU EXPECT ME TO BREATHE IN HERE?!", "recipefordisaster-talkingmushroom-9", false);
+        s.addSound("[9/9] Talking Mushroom: WAIT, WHY ARE YOU STUFFING ME INTO YOUR BAG? HOW DO YOU EXPECT ME TO BREATHE IN HERE?!", "recipefordisaster-talkingmushroom-9", true);
         s.addSound("[1/1] Kale: Of course you've lost the book. Can't trust you with anything! Here's another one. Be careful this time.", "recipefordisaster-kale-17", false);
         s.addSound("[1/4] Kale: You got everything? Took you long enough.", "recipefordisaster-kale-18", false);
         s.addSound("[2/4] Kale: Let's get started. Everyone else already finished. Stay back while I work my magic.", "recipefordisaster-kale-19", false);
@@ -7137,11 +7137,11 @@ public class Sounds {
         s.addSound("[6/8] Brie: Next up, we need some [Voidroot], a super rare root found deep in the Void. I've heard someone in the Sky Islands can take you down there.", "recipefordisaster-brie-15", false);
         s.addSound("[7/8] Brie: Lastly, we need some [Moonsalt], which is famously hard to obtain. Luckily, self-proclaimed 'Space Wizard' Astralaus should have some, so you can just pop over to his tower and ask for some!", "recipefordisaster-brie-16", false);
         s.addSound("[8/8] Brie: And that should do it! I'll give you a Recipe Book, just right-click to open it up and track your ingredients. Good luck!", "recipefordisaster-brie-17", false);
-        s.addSound("[1/1] Astralus: Welcome to Astralaus' Astral House! Can you get to the top by flipping gravity?", "recipefordisaster-astralus-1", false);
-        s.addSound("[1/2] Astralus: Astronomical progress! But this is just the beginning!", "recipefordisaster-astralus-2", false);
-        s.addSound("[2/2] Astralus: ...And why did you come to my tower?", "recipefordisaster-astralus-3", false);
-        s.addSound("[1/1] Astralus: My Moonsalt? How absurd! I collected mine myself, you collect yours! It's only fair.", "recipefordisaster-astralus-4", false);
-        s.addSound("[1/1] Astralus: Darn humans, you never listen! I said... Get. It. Yourself.", "recipefordisaster-astralus-5", false);
+        s.addSound("[1/1] Astralus: Welcome to Astralaus' Astral House! Can you get to the top by flipping gravity?", "recipefordisaster-astralus-1", true);
+        s.addSound("[1/2] Astralus: Astronomical progress! But this is just the beginning!", "recipefordisaster-astralus-2", true);
+        s.addSound("[2/2] Astralus: ...And why did you come to my tower?", "recipefordisaster-astralus-3", true);
+        s.addSound("[1/1] Astralus: My Moonsalt? How absurd! I collected mine myself, you collect yours! It's only fair.", "recipefordisaster-astralus-4", true);
+        s.addSound("[1/1] Astralus: Darn humans, you never listen! I said... Get. It. Yourself.", "recipefordisaster-astralus-5", true);
         s.addSound("[1/9] Regular Humyn: What takes you here, strangeling? What namings do you have? Hu-man? We claim Humyn! Bad choose, pick else, strangeling!", "recipefordisaster-regularhumyn-1", false);
         s.addSound("[2/9] Regular Humyn: Looking for helping? How many conveniences! Humyns requires assistancing! You observes, humyns failflies into large crater-rock!", "recipefordisaster-regularhumyn-2", false);
         s.addSound("[3/9] Regular Humyn: Burnmilk run out and one direction to retrieve it is moonsalt! We strike lucknugget and discover moonsalt on crater-rock!", "recipefordisaster-regularhumyn-3", false);

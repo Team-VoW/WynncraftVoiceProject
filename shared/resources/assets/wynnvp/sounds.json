@@ -28053,54 +28053,179 @@
 
 
 
-  "shatteredminds-likeru-1": {
+  "satteredminds-likeru-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-likeru-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-1", "stream": true}]
   },
-  "shatteredminds-professoreih-1": {
+  "satteredminds-likeru-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-2", "stream": true}]
   },
-  "shatteredminds-professoreih-2": {
+  "satteredminds-likeru-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-3", "stream": true}]
   },
-  "shatteredminds-professoreih-3": {
+  "satteredminds-likeru-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-4", "stream": true}]
   },
-  "shatteredminds-professoreih-4": {
+  "satteredminds-likeru-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-5", "stream": true}]
   },
-  "shatteredminds-questionmark-1": {
+  "satteredminds-likeru-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-questionmark-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-6", "stream": true}]
   },
-  "shatteredminds-professoreih-5": {
+  "satteredminds-professoreih-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-1", "stream": true}]
   },
-  "shatteredminds-professoreih-6": {
+  "satteredminds-professoreih-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-professoreih-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-2", "stream": true}]
   },
-  "shatteredminds-elderberusia-1": {
+  "satteredminds-professoreih-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-elderberusia-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-3", "stream": true}]
   },
-  "shatteredminds-elderberusia-2": {
+  "satteredminds-professoreih-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-elderberusia-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-4", "stream": true}]
   },
-  "shatteredminds-elderberusia-3": {
+  "satteredminds-professoreih-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-elderberusia-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-5", "stream": true}]
   },
-  "shatteredminds-likeru-2": {
+  "satteredminds-professoreih-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:shatteredminds-likeru-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-6", "stream": true}]
   },
+  "satteredminds-professoreih-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-7", "stream": true}]
+  },
+  "satteredminds-professoreih-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-8", "stream": true}]
+  },
+  "satteredminds-professoreih-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-9", "stream": true}]
+  },
+  "satteredminds-professoreih-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-10", "stream": true}]
+  },
+  "satteredminds-professoreih-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-11", "stream": true}]
+  },
+  "satteredminds-professoreih-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-12", "stream": true}]
+  },
+  "satteredminds-professoreih-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-13", "stream": true}]
+  },
+  "satteredminds-questionmark-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-questionmark-1", "stream": true}]
+  },
+  "satteredminds-professoreih-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-14", "stream": true}]
+  },
+  "satteredminds-professoreih-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-15", "stream": true}]
+  },
+  "satteredminds-professoreih-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-16", "stream": true}]
+  },
+  "satteredminds-professoreih-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-17", "stream": true}]
+  },
+  "satteredminds-yahya-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-yahya-1", "stream": true}]
+  },
+  "satteredminds-yahya-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-yahya-2", "stream": true}]
+  },
+  "satteredminds-yahya-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-yahya-3", "stream": true}]
+  },
+  "satteredminds-professoreih-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-18", "stream": true}]
+  },
+  "satteredminds-professoreih-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-19", "stream": true}]
+  },
+  "satteredminds-professoreih-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-professoreih-20", "stream": true}]
+  },
+  "satteredminds-elderberusia-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-elderberusia-1", "stream": true}]
+  },
+  "satteredminds-elderberusia-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-elderberusia-2", "stream": true}]
+  },
+  "satteredminds-elderberusia-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-elderberusia-3", "stream": true}]
+  },
+  "satteredminds-likeru-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-7", "stream": true}]
+  },
+  "satteredminds-likeru-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-8", "stream": true}]
+  },
+  "satteredminds-likeru-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-9", "stream": true}]
+  },
+  "satteredminds-likeru-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-10", "stream": true}]
+  },
+  "satteredminds-likeru-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-11", "stream": true}]
+  },
+  "satteredminds-likeru-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-12", "stream": true}]
+  },
+  "satteredminds-likeru-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-13", "stream": true}]
+  },
+  "satteredminds-likeru-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-14", "stream": true}]
+  },
+  "satteredminds-likeru-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-15", "stream": true}]
+  },
+  "satteredminds-likeru-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:satteredminds-likeru-16", "stream": true}]
+  },
+
 
 
 

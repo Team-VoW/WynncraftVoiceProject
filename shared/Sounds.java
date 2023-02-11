@@ -3677,19 +3677,50 @@ public class Sounds {
         s.addSound("[1/3] Burtur: Ah, you're back! We were getting a tad worried about you. Were you able to figure anything out in the chapel there?", "lazaruspit-burtur-17", false);
         s.addSound("[10/11] Burtur: I'll stay back at the town square, in case the undead attack again. Give me a shout if you find something you aren't sure about.", "lazaruspit-burtur-18", true);
 
-        //Shattered Minds
-        s.addSound("[1/6] Likeru: Aha, perfect! You'll be perfect! Lucky a human decided to come here!", "shatteredminds-likeru-1", false);
-        s.addSound("[1/5] ???: Looks like someone rolled about the air fuzz too much, so indeed hello! A light hello to yourself, soldier, and a greetings to Professor Eih, which is me!", "shatteredminds-professoreih-1", false);
-        s.addSound("[1/3] Professor Eih: The punks scramble like eggs, and your skillet is sizzling! Certainly the heat in the kitchen is too much- so where is the fire extinguisher?", "shatteredminds-professoreih-2", false);
-        s.addSound("[1/1] Professor Eih: Swish and sproont! Or is it the other way around? The moon shoes will help too!", "shatteredminds-professoreih-3", false);
-        s.addSound("[1/5] Professor Eih: The colors! Shimmering as a prism- oh, no one likes those things. The writing is on the wall, but the window mugs it for pocket change! The inhumanity!", "shatteredminds-professoreih-4", false);
-        s.addSound("[1/1] ???: Hey, look to your left for a moment.", "shatteredminds-questionmark-1", true);
-        s.addSound("[1/4] Professor Eih: Familiar to the nursing home, with no IV in sight! Phenomenal, and now my gambling metaphors will be apropos! ", "shatteredminds-professoreih-5", false);
-        s.addSound("[1/3] Professor Eih: There we are! Snapped out of it! Though perhaps writing in the mud was better- Soon it will dry.", "shatteredminds-professoreih-6", false);
-        s.addSound("[1/3] Elder Berusia: Ugh. Rats chewing the roots. They've their place, it simply isn't here. Neither is your place in the koi pond, stranger.", "shatteredminds-elderberusia-1", false);
-        s.addSound("[2/3] Elder Berusia: I believe Likeru tossed you into the deep end without meaning, so to speak. I understand your being overwhelmed, but still...", "shatteredminds-elderberusia-2", false);
-        s.addSound("[3/3] Elder Berusia: Speaking of which, it might behoove you to let her know you've recovered. Though, should you need rest, you may take it here.", "shatteredminds-elderberusia-3", false);
-        s.addSound("[1/6] Likeru: Ehm. Okay, that was...a bad idea. Should NOT have done that with a human. Uh, noted for the futu- oh, you're actually alright?!", "shatteredminds-likeru-2", false);
+        //Sattered minds
+        s.addSound("[1/6] Likeru: Aha, perfect! You'll be perfect! Lucky a human decided to come here!", "satteredminds-likeru-1", false);
+        s.addSound("[2/6] Likeru: I'll get to the point- I want you to go get something for me, and then bring it back here. Simple, right?", "satteredminds-likeru-2", false);
+        s.addSound("[3/6] Likeru: When you do that, I'm going to fix it up and try something out on you. Something magically enlightening!", "satteredminds-likeru-3", false);
+        s.addSound("[4/6] Likeru: Oh, don't give me that look, it should be perfectly safe! Unless you've been mired in darkness for the past however many years...", "satteredminds-likeru-4", false);
+        s.addSound("[5/6] Likeru: Anyway, what I need is a specific kind of mushroom that grows close by, the Bluecap Mushroom.", "satteredminds-likeru-5", false);
+        s.addSound("[6/6] Likeru: They grow underground- in a cave out the gate northwest of here. I'll even pay you if you bring it back, so what have you got to lose?", "satteredminds-likeru-6", false);
+        s.addSound("[1/5] ???: Looks like someone rolled about the air fuzz too much, so indeed hello! A light hello to yourself, soldier, and a greetings to Professor Eih, which is me!", "satteredminds-professoreih-1", false);
+        s.addSound("[2/5] Professor Eih: I don't rhyme all the instances, I feel the need to say. But what do you say? Very little! But I bet you're wondering where you are.", "satteredminds-professoreih-2", false);
+        s.addSound("[3/5] Professor Eih: I am no gambling man, but the chips are down and it is time to play 52-Pickup with the puzzle pieces, and I'll eat my bowtie if you aren't ready.", "satteredminds-professoreih-3", false);
+        s.addSound("[4/5] Professor Eih: The betting pool says the way to go is the opposite of in front, so that leaves someplace we can't talk about in front of the kids as your path!", "satteredminds-professoreih-4", false);
+        s.addSound("[5/5] Professor Eih: I will be around! Or asquare, as it were. Technically amultiplesquares, replete with alines! And abevels! And other some such things like-", "satteredminds-professoreih-5", false);
+        s.addSound("[1/3] Professor Eih: The punks scramble like eggs, and your skillet is sizzling! Certainly the heat in the kitchen is too much- so where is the fire extinguisher?", "satteredminds-professoreih-6", false);
+        s.addSound("[2/3] Professor Eih: It won't rocket you! The hole in the shape of a door looms out of your transparent grasp- frogs can't skip leg day, so be froggy! Bounce and jump!", "satteredminds-professoreih-7", false);
+        s.addSound("[3/3] Professor Eih: Swoosh and sprint! Speed and non-slip shoes! With a CLICK upon me I give you all but one, as much as you need!", "satteredminds-professoreih-8", false);
+        s.addSound("[1/5] Professor Eih: The colors! Shimmering as a prism- oh, no one likes those things. The writing is on the wall, but the window mugs it for pocket change! The inhumanity!", "satteredminds-professoreih-9", false);
+        s.addSound("[2/5] Professor Eih: Use your eyes as ears and hear what I shall write! The cockpit is missing ground control and the cornfields all look the same in endless rows!", "satteredminds-professoreih-10", false);
+        s.addSound("[3/5] Professor Eih: So Eih, esquire professor PhD, will provide the coordinates in helpfully non-literal fashion, and one's joystick shall lead the holder to bliss!", "satteredminds-professoreih-11", false);
+        s.addSound("[4/5] Professor Eih: At one's boots, the colors paint themselves towards an orientation. Above one's head, the lights match and fling you the same!", "satteredminds-professoreih-12", false);
+        s.addSound("[5/5] Professor Eih: I'm all out of airplane food, but the goal is more than peanuts- it's progress, just opposite our position. Fly well!", "satteredminds-professoreih-13", false);
+        s.addSound("[1/1] ???: Hey, look to your left for a moment.", "satteredminds-questionmark-1", false);
+        s.addSound("[1/4] Professor Eih: Familiar to the nursing home, with no IV in sight! Phenomenal, and now my gambling metaphors will be apropos!", "satteredminds-professoreih-14", false);
+        s.addSound("[2/4] Professor Eih: A solid, 100% pure, statue-made-out-of-tons-of-things what looks like me! I call it, “Ill Of The Ooze, Young!” And it begets your path amongst the lilypads.", "satteredminds-professoreih-15", false);
+        s.addSound("[3/4] Professor Eih: Likeru? No, no, she can’t find you here- her eyes deceive her. But I won't! Not any more than the film reel degrades, and the theater is ahead!", "satteredminds-professoreih-16", false);
+        s.addSound("[4/4] Professor Eih: Now, don't tell the kids about this one either! The way forward is through my masterpiece- but I can't imagine a gullet glorious!", "satteredminds-professoreih-17", false);
+        s.addSound("[1/3] ???: Don't come any closer... I don't want to have to fight...", "satteredminds-yahya-1", false);
+        s.addSound("[2/3] ???: I-I'm warning you. You'll stand no match against me...", "satteredminds-yahya-2", false);
+        s.addSound("[3/3] ???: That's it...", "satteredminds-yahya-3", false);
+        s.addSound("[1/3] Professor Eih: There we are! Snapped out of it! Though perhaps writing in the mud was better- Soon it will dry.", "satteredminds-professoreih-18", false);
+        s.addSound("[2/3] Professor Eih: Without the static of the fungal caps, the radio station will be off-air- and the device unplugged!", "satteredminds-professoreih-19", false);
+        s.addSound("[3/3] Professor Eih: Scratch it in your eyelids- the lightbulb screwed between the arches, and the feather-duster's sunset shades will reveal my deepest compatriot. Quick now, wake!", "satteredminds-professoreih-20", false);
+        s.addSound("[1/3] Elder Berusia: Ugh. Rats chewing the roots. They've their place, it simply isn't here. Neither is your place in the koi pond, stranger.", "satteredminds-elderberusia-1", false);
+        s.addSound("[2/3] Elder Berusia: I believe Likeru tossed you into the deep end without meaning, so to speak. I understand your being overwhelmed, but still...", "satteredminds-elderberusia-2", false);
+        s.addSound("[3/3] Elder Berusia: Speaking of which, it might behoove you to let her know you've recovered. Though, should you need rest, you may take it here.", "satteredminds-elderberusia-3", false);
+        s.addSound("[1/6] Likeru: Ehm. Okay, that was...a bad idea. Should NOT have done that with a human. Uh, noted for the futu- oh, you're actually alright?!", "satteredminds-likeru-7", false);
+        s.addSound("[2/6] Likeru: You came back and just leapt into the koi pond! I thought you'd drowned down there!", "satteredminds-likeru-8", false);
+        s.addSound("[3/6] Likeru: I guess the spores from the Bluecaps got to you before you could bring them back. I wonder what you saw?", "satteredminds-likeru-9", false);
+        s.addSound("[4/6] Likeru: You reacted like you were crazy when I tried to talk with you... You were supposed to get visions of the light! A deep connection!", "satteredminds-likeru-10", false);
+        s.addSound("[5/6] Likeru: Wait, maybe it's cause of that portal...the signals got mixed? I'll have to look into this more...but hey, I got the Bluecap, anyways, so...", "satteredminds-likeru-11", false);
+        s.addSound("[6/6] Likeru: Here, your payment- and a little extra I whipped up too. Um, really sorry about all that!", "satteredminds-likeru-12", false);
+        s.addSound("[1/1] Likeru: The Bluecap Mushrooms grow in a cave out the gate northwest of here.", "satteredminds-likeru-13", false);
+        s.addSound("[1/2] Likeru: Yeah...the more I think on it, the more that the corruption portal messing with the visions makes sense.", "satteredminds-likeru-14", false);
+        s.addSound("[2/2] Likeru: Well, if you ever want to try again and see if I'm wrong go ahead, but please don't dive into the pond again?", "satteredminds-likeru-15", false);
+        s.addSound("[1/1] Likeru: Mmm, might not be strong enough mentally... Hey, come back around Level 70, I have something to try.", "satteredminds-likeru-16", false);
 
         //Haven Antiquity
         s.addSound("[1/6] Cinfras: Hey there adventurer, can I speak with you for a second? I need you to do a spot of detective work for me.", "havenantiquity-cinfras-1", false);
