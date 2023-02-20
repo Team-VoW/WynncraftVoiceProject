@@ -1183,13 +1183,13 @@ public class Sounds {
         s.addSound("[9/9] Eluzterp: I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell him, and he'll probably let you into his shop.", "greengloop-eluzterp-9", false);
         s.addSound("[1/6] Yodbon: Welcome to Yodbon's Glass Blowery, what can I do f-", "greengloop-yodbon-1", false);
         s.addSound("[2/6] Yodbon: Oh, another stinkin' adventurer, eh...", "greengloop-yodbon-2", false);
-        s.addSound("[3/6] Yodbon: So many've been coming up to me recently, askin' for a bloody Slime Scooper...(Complaining, venting)", "greengloop-yodbon-3", false);
+        s.addSound("[3/6] Yodbon: So many've been coming up to me recently, askin' for a bloody Slime Scooper...", "greengloop-yodbon-3", false);
         s.addSound("[4/6] Yodbon: Izzat brother o' mine stopped workin' again? I swear, he's addicted to that slop...", "greengloop-yodbon-4", false);
         s.addSound("[5/6] Yodbon: Anyways, for me to make you a scooper you'll need to get [5 Soft Sand].", "greengloop-yodbon-5", false);
         s.addSound("[6/6] Yodbon: Come back to me once you've gotten ahold of it. You can dig it up from those sand piles 'round the desert.", "greengloop-yodbon-6", false);
         s.addSound("[1/3] Yodbon: You've returned, I see.", "greengloop-yodbon-7", false);
         s.addSound("[2/3] Yodbon: A'ight, fork 'em over and I'll make you the scooper.", "greengloop-yodbon-8", false);
-        s.addSound("[3/3] Yodbon: ..There you go. No idea why he wants that stuff though. Maybe it's an acquired taste...", "greengloop-yodbon-9", false);
+        s.addSound("[3/3] Yodbon: ...There you go. No idea why he wants that stuff though. Maybe it's an acquired taste...", "greengloop-yodbon-9", false);
         s.addSound("[1/6] Eluzterp: Oh, you're back! Good to see you were able to get through there. Have you got a full Slime Scooper?", "greengloop-eluzterp-10", false);
         s.addSound("[2/6] Eluzterp: Hmm, yes, everything seems to be in order. Perfect!", "greengloop-eluzterp-11", false);
         s.addSound("[3/6] Eluzterp: Thank you very much. Finally, I'll be able to get him in gear again...  Why are all Villagers so fickle like that?", "greengloop-eluzterp-12", false);
