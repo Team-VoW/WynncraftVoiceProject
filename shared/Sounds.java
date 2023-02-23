@@ -5732,12 +5732,44 @@ public class Sounds {
         s.addSound("[1/7] Thesead's Mayor: What brings a human to my office?", "thehiddencity-theseadsmayor-1", false);
 
         //Enter the dojo
-        s.addSound("[1/6] Sensei Miyagi: Welcome, young traveler, to my dojo. Do you wish to train with me? ", "enterthedojo-senseimiyagi-1", false);
-        s.addSound("[1/1] Sensei Miyagi: Welcome to the Qiangdu room, home of the first challenge. Test your jumping and climbing ability in this room, young grasshopper.", "enterthedojo-senseimiyagi-2", true);
-        s.addSound("[1/1] Sensei Miyagi: Welcome to the Dàochång room, home of the combat challenge. This challenge should come easy to the warrior that can bring out his inner fighter. ", "enterthedojo-senseimiyagi-3", true);
-        s.addSound("[1/1] Sensei Miyagi: Welcome to the Shìjué room, home of the sight challenge. Remember, young grasshopper, there is always more than one perspective to a problem.", "enterthedojo-senseimiyagi-4", true);
-        s.addSound("[1/1] Sensei Miyagi: Welcome to the Xìngzhì cave, home of the tranquility challenge. Your goal in this challenge is to become as tranquil as possible, to become one with nature. Instructions in your quest book will guide you.", "enterthedojo-senseimiyagi-5", true);
-        s.addSound("[1/5] Sensei Miyagi: I see you have returned, young one. What news do you bring to me?", "enterthedojo-senseimiyagi-6", false);
+        s.addSound("[1/1] Sensei Miyagi: Oh hohoho! So a human has found their way to my humble dojo? Intriguing! However, I could not ask you to attempt my training til you were level 89.", "enterthedojo-senseimiyagi-1", false);
+        s.addSound("[1/7] Sensei Miyagi: Oh hohoho! So a human has found their way to my humble dojo? Intriguing! I am called Sensei Miyagi. I welcome you.", "enterthedojo-senseimiyagi-2", false);
+        s.addSound("[2/7] Sensei Miyagi: This dojo, I have dedicated to honing skills in all of the arts- from martial prowess and mental acuity, to craftsmanship and artistry.", "enterthedojo-senseimiyagi-3", false);
+        s.addSound("[3/7] Sensei Miyagi: Many have come- traveled from all corners of the earth to this humble one's dojo to train themselves and grow stronger. I am to presume you are the same?", "enterthedojo-senseimiyagi-4", false);
+        s.addSound("[4/7] Sensei Miyagi: Although, while I have enjoyed my life's work here, I cannot deny I am getting on in years. I seek a successor, a master of many skills to take my place.", "enterthedojo-senseimiyagi-5", false);
+        s.addSound("[5/7] Sensei Miyagi: To the one who should master the arts, I would bequeath The Master’s Gi, a symbol of resolute skill. Of course, do not feel pressured to take over for me, hoho!", "enterthedojo-senseimiyagi-6", false);
+        s.addSound("[6/7] Sensei Miyagi: As long as I may teach others and bring them to new heights, I am satisfied. Whether your aim be merely to sharpen your skills or to allow me to retire, you are welcomed.", "enterthedojo-senseimiyagi-7", false);
+        s.addSound("[7/7] Sensei Miyagi: When you are ready to begin, purify yourself in the waters of the spring behind the dojo, and I will guide you to your first challenge.", "enterthedojo-senseimiyagi-8", false);
+        s.addSound("[1/1] Sensei Miyagi: Whenever you are ready to begin, purify yourself in the waters of the spring behind the dojo.", "enterthedojo-senseimiyagi-9", false);
+        s.addSound("[1/1] Challenger Apprentice: I have been training for years, mastering all of Sensei Miyagi's challenges but one... the physical strength challenge defeats me.", "enterthedojo-challengerapprentice-1", false);
+        s.addSound("[1/1] Challenger Apprentice: I trained for years hoping to achieve the Master's Gi chestplate. All of Sensei Miyagi's challenges come easy for me except for the sight challenge!", "enterthedojo-challengerapprentice-2", false);
+        s.addSound("[1/1] Challenger Apprentice: All of Sensei Miyagi's challenges come as a walk in the park for me, except the abstract tranquility challenge. I one day hope to conquer it and gain the Master's Gi.", "enterthedojo-challengerapprentice-3", false);
+        s.addSound("[1/1] Challenger Apprentice: Alas, after all my training, I can not muster the power to conquer Sensei Miyagi's combat challenge... it is the only challenge that defeats me!", "enterthedojo-challengerapprentice-4", false);
+        s.addSound("[1/1] Sensei Miyagi: Here we are then- The  Room. Here tests your agility! Even these old bones can scale this room in short order- How shall you fare?", "enterthedojo-senseimiyagi-10", true);
+        s.addSound("[1/3] Sensei Miyagi: I recognize your skill, and you have passed the challenge of the  Room! Hoho, but the next challenge has defeated many an apprentice.", "enterthedojo-senseimiyagi-11", false);
+        s.addSound("[2/3] Sensei Miyagi: Now, comes the  Room! Here, your combat prowess shall be put to the test. Martial skill comes easily to me...but what of your own?", "enterthedojo-senseimiyagi-12", false);
+        s.addSound("[3/3] Sensei Miyagi: I hear many things about human combat skill, so I believe I shall watch this challenge myself. Enter now, challenger!", "enterthedojo-senseimiyagi-13", false);
+        s.addSound("[1/1] Sensei Miyagi: Defeat the dummies, and bring their tokens to the door! Simple, yes?", "enterthedojo-senseimiyagi-14", false);
+        s.addSound("[1/1] Sensei Miyagi: Show no fear, challenger! There is no shame in failing.", "enterthedojo-senseimiyagi-15", false);
+        s.addSound("[1/1] Sensei Miyagi: And worry not, the  Room is reinforced against all manner of attacks. Run wild, hoho!", "enterthedojo-senseimiyagi-16", false);
+        s.addSound("[1/1] Sensei Miyagi: It is fascinating to see how you battle. Very different from my stylings!", "enterthedojo-senseimiyagi-17", false);
+        s.addSound("[1/4] Sensei Miyagi: And I am to recognize your combat skill, and proclaim your passage of the  Room. Well done!", "enterthedojo-senseimiyagi-18", false);
+        s.addSound("[2/4] Sensei Miyagi: Next, however, is not a challenge of physical skill, but of observation and logical reasoning, in this- the Room. Here, a puzzle awaits.", "enterthedojo-senseimiyagi-19", false);
+        s.addSound("[3/4] Sensei Miyagi: You must discern the path in order to bring the red block to the gold block. Simple in theory...complex in practice, as are many things.", "enterthedojo-senseimiyagi-20", false);
+        s.addSound("[4/4] Sensei Miyagi: Remember this as you work- Change your perspective, and the reality changes.", "enterthedojo-senseimiyagi-21", false);
+        s.addSound("[1/4] Sensei Miyagi: And there, I recognize your mental acuity! You have passed the Room. You are doing quite well, but many have gotten to this point and had a single point stymie them.", "enterthedojo-senseimiyagi-22", false);
+        s.addSound("[2/4] Sensei Miyagi: Welcome then, to the last challenge I offer you, held within the Room and cavern.", "enterthedojo-senseimiyagi-23", false);
+        s.addSound("[3/4] Sensei Miyagi: Your task here, is to become tranquil, and at peace with nature. What that entails... I leave up to you.", "enterthedojo-senseimiyagi-24", false);
+        s.addSound("[4/4] Sensei Miyagi: There are many paths to tranquility. Whatever you choose, you will know when you have reached the point of success.", "enterthedojo-senseimiyagi-25", false);
+        s.addSound("[1/7] Sensei Miyagi: I see it now. The troubled heart you came here with is troubled no longer. I recognize your mastery of the Room.", "enterthedojo-senseimiyagi-26", false);
+        s.addSound("[2/7] Sensei Miyagi: Oh hoho... It is just like a human to do what cannot be done. That is each challenge of my humble dojo, completed!", "enterthedojo-senseimiyagi-27", false);
+        s.addSound("[3/7] Sensei Miyagi: So! While I did advise you not to feel pressured of it, I am curious, young master. Do you wish to take my place here, so I may sit these old bones down?", "enterthedojo-senseimiyagi-28", false);
+        s.addSound("[4/7] Sensei Miyagi: ...Ah, of course not. Despite your mastery, this is merely a single step on your journey. Needn't worry, I understand completely.", "enterthedojo-senseimiyagi-29", false);
+        s.addSound("[5/7] Sensei Miyagi: I am certain that I will find a suitable successor before my time comes- and equally as certain that I've many a year to go, hoho!", "enterthedojo-senseimiyagi-30", false);
+        s.addSound("[6/7] Sensei Miyagi: Nevertheless, you have completed the challenges of this humble Sensei, and as such, I will provide you what was promised.", "enterthedojo-senseimiyagi-31", false);
+        s.addSound("[7/7] Sensei Miyagi: Wear this [Master's Gi] with pride, and remember this final lesson- There is never a point in life that you will stop learning. See the world and its lessons every day of your life, young master.", "enterthedojo-senseimiyagi-32", false);
+        s.addSound("[1/1] Sensei Miyagi: Hoho... Yes, this old man still has plenty of life left in him. Do not waste the gifts you have, young master.", "enterthedojo-senseimiyagi-33", false);
+
 
         //Fantastic Voyage
         s.addSound("[1/1] Relend: You don't seem very mighty, come back when you're level 90!", "fantasticvoyage-relend-1", false);
