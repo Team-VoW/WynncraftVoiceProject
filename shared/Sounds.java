@@ -10,7 +10,7 @@ public class Sounds {
 
     private static void register1(SoundsHandler s) {
 
-//Kings Recruit
+        //Kings Recruit
         s.addSound("[1/2] Caravan Driver: Agh!", "kingsrecruit-caravandriver-1", false, 45);
         s.addSound("[1/4] Caravan Driver: I swear I hit this same dang boulder everytime I make this trip.", "kingsrecruit-caravandriver-2", false);
         s.addSound("[3/4] Caravan Driver: It's not that far, it's just a straight path from here.", "kingsrecruit-caravandriver-3", false);
@@ -7359,38 +7359,87 @@ public class Sounds {
         s.addSound("[1/1] Chef Hamsey: Adventurer! You haven't talked to Kale yet, make sure to talk to them before choosing who to work with.", "recipefordisaster-chefhamsey-49", false);
 
         //Royal trials
-        s.addSound("[1/3] Skyraider Guard: Back off! No'ne enters 'til the pirate queen is chosen. What's a landwalker like you doin' here?", "royaltrials-skyraiderguard-1", false);
-        s.addSound("[1/5] Hrona: Yer wantin' to be pirate queen, ye? Don' worry, I can help ye. ", "royaltrials-hrona-1", false);
-        s.addSound("[1/1] Skyraider Guard: Another contestant, huh? Fine, I'll let you in. Hurry up, though, the cerimony is starting soon!", "royaltrials-skyraiderguard-2", true);
-        s.addSound("[1/1] Angry Queen Contestant: Ugh! You simply can't be the pirate queen, I'm most fit for it!", "royaltrials-angryqueencontestant-1", true);
-        s.addSound("[1/1] Angry Queen Contestant: No, no, no! I'll fight you to the death if it calls, I must be the queen! I'm much more qualified than all of you pigs!", "royaltrials-angryqueencontestant-2", true);
-        s.addSound("[1/6] Trials Overseer: Gather round, ladies. The next Queen is about to be selected!", "royaltrials-trialsoverseer-1", true);
-        s.addSound("[2/6] Trials Overseer: As ye know, when one queen falls, another must rise!!", "royaltrials-trialsoverseer-2", true);
-        s.addSound("[3/6] Trials Overseer: Three trials. That's what ye all face now.", "royaltrials-trialsoverseer-3", true);
-        s.addSound("[4/6] Trials Overseer: If ye pass all three, yer the new queen. Only one of yer will do it.", "royaltrials-trialsoverseer-4", true);
-        s.addSound("[5/6] Trials Overseer: The first task is yer fundamental as queen; combat!", "royaltrials-trialsoverseer-5", true);
-        s.addSound("[6/6] Trials Overseer: Ladies, you may now... Begin!", "royaltrials-trialsoverseer-6", true);
-        s.addSound("[1/4] Trials Overseer: That weeded out the weak. Every queen must be strong to lead.", "royaltrials-trialsoverseer-7", false);
-        s.addSound("[1/7] Trials Overseer: Well lookie here, an amateur made it through her flight.", "royaltrials-trialsoverseer-8", false);
-        s.addSound("[1/3] Trials Overseer: This here is the garden you will be thrown into... you will have to find a way into the mansion. Maybe you can ask nicely?", "royaltrials-trialsoverseer-9", true);
-        s.addSound("[2/3] Trials Overseer: This is the high value, mythic treasure that you're trying to thieve from the mansion... good luck, it is very highly defended both by man and machine.", "royaltrials-trialsoverseer-10", true);
-        s.addSound("[3/3] Trials Overseer: This is the window you will be making your escape out of... we will be waiting for you outside of it. Good luck.", "royaltrials-trialsoverseer-11", true);
-        s.addSound("[1/1] Courtyard Guard: Ah, I wasn't aware the boss was lettin' in some visitors... shouldn't hurt the establishment, eh?", "royaltrials-courtyardguard-1", false);
-        s.addSound("[1/1] Courtyard Guard: Argh, recently a few skyraiders broke into the garden without any o' us noticing and almost broke into the mansion where the treasure is guarded, threw a rock in the window to try to get in, luckily one of us spooked em' off!", "royaltrials-courtyardguard-2", false);
-        s.addSound("[1/1] Courtyard Guard: Some skyraiders have been sneakin' into this garden and causin' havoc, tryin' to snatch the treasure! One of em' almost broke into the mansion by throwin' a rock and shatterin' one of the  windows! What's with the wig?", "royaltrials-courtyardguard-3", false);
-        s.addSound("[1/1] Courtyard Guard: Them skyraider pests who broke into this courtyard tried to break into the mansion by breaking one of the mansion's windows by throwin' a rock at it, now we gotta' fix it!", "royaltrials-courtyardguard-4", false);
-        s.addSound("[1/1] Courtyard Guard: If we ever let one of them skyraiders even get close to stealin' the treasure, the boss'll kill us! Gosh, who knows what'd happen if the treasure got stolen under our noses... ", "royaltrials-courtyardguard-5", false);
-        s.addSound("[1/1] Construction Villager: Heh, some pesky skyraiders shattered a few windows on the upper floors... Gonna take a good while to fix em', but the boss wants it done quick, he doesn't like when his treasure is at risk.", "royaltrials-constructionvillager-1", false);
-        s.addSound("[1/1] Mansion Guard: Oi', you! Whatcha' think yer' doin' sneakin' around these parts? This be a restricted area! Yer' headed to the jail cell!", "royaltrials-mansionguard-1", true);
-        s.addSound("[1/1] Mansion Guard: Aye', men! Tha' treasure has been stolen! Prepare the defenses! ", "royaltrials-mansionguard-2", true);
-        s.addSound("[1/1] Mansion Guard: Aye, we caught the nasty thief! We'll be lockin' him up till' he rots!", "royaltrials-mansionguard-3", true);
-        s.addSound("[1/1] Trials Overseer: Grats on stealin' the treasure, you can board the airship through the window. ", "royaltrials-trialsoverseer-12", true);
-        s.addSound("[1/8] Trials Overseer: Aha! I figured it'd be ye to win o'er the rest of that lot... Ye've earned the proper sovereignty of bein' our ruler, our queen of the Skyraiders.", "royaltrials-trialsoverseer-13", false);
-        s.addSound("[3/8] Trials Overseer: But, first things first, let's take a look inside that fancy box ye got, see what mythical treasures lay guarded behind those grubby guardsmen, shall we?", "royaltrials-trialsoverseer-14", false);
-        s.addSound("[1/3] Trials Overseer: I am pleased to introduce our 734th queen. Fer the sake of our people, let her reign last more than two weeks.", "royaltrials-trialsoverseer-15", true);
-        s.addSound("[2/3] Trials Overseer: I, on behalf on the rest of the Skyraider people, have the honor of decoratin' you with the highest decoration of the Skyraiders, The Queen's Headpiece.", "royaltrials-trialsoverseer-16", true);
-        s.addSound("[3/3] Trials Overseer: Please use your sovereignty to lead us to the riches we deserve.", "royaltrials-trialsoverseer-17", false);
-        s.addSound("[1/4] Trials Overseer: Yer Majesty. What an honour to have such a beautiful queen. ", "royaltrials-trialsoverseer-18", false);
+        s.addSound("[1/3] Skyraider Guard: Back off! No'ne enters 'til the pirate queen is chosen. What's a landwalker like ye doin' here?", "royaltrials-skyraiderguard-1", false);
+        s.addSound("[2/3] Skyraider Guard: Participate? Are ye crazy? Ain't no way a landlubber is wearing the crown.", "royaltrials-skyraiderguard-2", false);
+        s.addSound("[3/3] Skyraider Guard: Off with ya now! Before I call the gals to gut you. And dun' go wandering round chatting to any skyraiders!", "royaltrials-skyraiderguard-3", false);
+        s.addSound("[1/1] Skyraider Guard: Watcha be doin' here?", "royaltrials-skyraiderguard-4", false);
+        s.addSound("[1/1] Skyraider Guard: Another contestant, eh? That outfit looks a bit funny on ye, but I'll let yer in. Hurry up!", "royaltrials-skyraiderguard-5", false);
+        s.addSound("[1/1] Skyraider Guard: Aye, my queen!", "royaltrials-skyraiderguard-6", false);
+        s.addSound("[1/1] Skyraider Guard: Hey! I told yer, ye not gettin' in if yer not a skyraider!", "royaltrials-skyraiderguard-7", false);
+        s.addSound("[1/1] Skyraider Guard: Stop! The new Queen is being chosen here, and ye can only try out from level 98 onwards. Leave now! Ain't even a skyraider, bloody idiot!", "royaltrials-skyraiderguard-8", false);
+        s.addSound("[1/5] Hrona: Yer wantin' to be pirate queen, ye? Don' worry, I can help ye.", "royaltrials-hrona-1", false);
+        s.addSound("[2/5] Hrona: Y'see, the other pirates ain't fit for the role. They're dumb 'n weak. All they've got is looks.", "royaltrials-hrona-2", false);
+        s.addSound("[3/5] Hrona: Yer got the lot! Looks and talent.", "royaltrials-hrona-3", false);
+        s.addSound("[4/5] Hrona: Y'know, the guard, she's dumb too. A simple disguise will fool 'er. Issue is, ye dun' look like a skyraider at all!", "royaltrials-hrona-4", false);
+        s.addSound("[5/5] Hrona: Yer in luck, though. A skyraider will sell anything for a price - just look around the town and see if ye can persuade anyone to part with their outfit.", "royaltrials-hrona-5", false);
+        s.addSound("[1/1] Hrona: Don' waste your time 'round me! You've got trials to attend.", "royaltrials-hrona-6", false);
+        s.addSound("[1/1] Hrona: Congratulations, my queen! May yer rule be the best one!", "royaltrials-hrona-7", false);
+        s.addSound("[1/1] Hrona: Move along, landwalker!", "royaltrials-hrona-8", false);
+        s.addSound("[1/8] Egpla: Aye? A landwalker, wanderin' around our base? Whatcha' want?", "royaltrials-egpla-1", false);
+        s.addSound("[2/8] Egpla: My outfit?!", "royaltrials-egpla-2", false);
+        s.addSound("[3/8] Egpla: ... aye, I suppose I could be tempted to pass it on to ye... for a price.", "royaltrials-egpla-3", false);
+        s.addSound("[4/8] Egpla: Here, these are what I would trade it to ye for.", "royaltrials-egpla-4", false);
+        s.addSound("[5/8] Egpla: If yer thinkin' emeralds... [30 Emerald Blocks] seems like a fair price, heh.", "royaltrials-egpla-5", false);
+        s.addSound("[6/8] Egpla: Of course, if yer running low on funds, how about ye grab me [3 Dragonling Eggs] instead? Y'know, the ingredient. I'm 'oping to raise some 'o the lil critters!", "royaltrials-egpla-6", false);
+        s.addSound("[7/8] Egpla: But if neither of them tickle ye fancy... I've always wanted [1 Shiny Shell] - they're just so sparkly! Ye can find them in the cave south-east of here, beside the ladders.", "royaltrials-egpla-7", false);
+        s.addSound("[8/8] Egpla: Ye get me one o' those three, landwalker, and ye can have my outfit!", "royaltrials-egpla-8", false);
+        s.addSound("[1/2] Egpla: Landwalker! Have ye found any of the items yet?", "royaltrials-egpla-9", false);
+        s.addSound("[2/2] Egpla: Remember, I'd trade it to ye for [30 Emerald Blocks], [3 Dragonling Eggs] or [1 Shiny Shell] from the cave to the south-east!", "royaltrials-egpla-10", false);
+        s.addSound("[1/3] Egpla: So, landwalker, are ye ready to pay up? I can see emeralds in ye pocket, hand 'em over.", "royaltrials-egpla-11", false);
+        s.addSound("[1/3] Egpla: Aye, landwalker! Is that the sparkle of a shiny shell I spot in ye pocket?! Lemme have a look...", "royaltrials-egpla-12", false);
+        s.addSound("[1/3] Egpla: Alrigh'! Those're exactly what I've been lookin' for. Give it here, lemme have a look...", "royaltrials-egpla-13", false);
+        s.addSound("[2/3] Egpla: Alright, landwalker. Ye can have me outfit. 'ere, lemme just get changed inside.", "royaltrials-egpla-14", false);
+        s.addSound("[3/3] Egpla: Here ye go, landlubber. I hope ye get some kinda use out of it, whatever ye want it for.", "royaltrials-egpla-15", false);
+        s.addSound("[1/1] Egpla: Aye, landwalker. Hope yer getting some use outta that outfit!", "royaltrials-egpla-16", false);
+        s.addSound("[1/1] Egpla: Eh? Get outta here, landwalker. I'm a busy gal, ain' got time to babysit one of ye.", "royaltrials-egpla-17", false);
+        s.addSound("[1/1] Egpla: Aye, my queen! T'was an honour to watch ye wearing my outfit as you battled for blood and glory.", "royaltrials-egpla-18", false);
+        s.addSound("[1/2] Angry Contestant: Ugh! Ye can't be the queen, ye can barely fly an airship!", "royaltrials-angrycontestant-1", false);
+        s.addSound("[2/2] Angry Contestant: No! I'll be the queen! I'm much more qualified than any of you sky rats!", "royaltrials-angrycontestant-2", false);
+        s.addSound("[1/6] Trials Overseer: Gather round, ladies. The next Queen is about to be selected!", "royaltrials-trialsoverseer-1", false);
+        s.addSound("[2/6] Trials Overseer: As ye know, our previous queen suffered a... nasty fate, murdered on her very own airship by a Wynn soldier.", "royaltrials-trialsoverseer-2", false);
+        s.addSound("[3/6] Trials Overseer: But in the ashes of her honour, a new queen shall rise! Three trials. That's what ye all face now.", "royaltrials-trialsoverseer-3", false);
+        s.addSound("[4/6] Trials Overseer: Only one, who passes all trials laid before her, will pass and gain the title of Skyraider Queen.", "royaltrials-trialsoverseer-4", false);
+        s.addSound("[5/6] Trials Overseer: Now, I introduce ye all to the first trial, to test yer capability at a vital skill for queenship - combat!", "royaltrials-trialsoverseer-5", false);
+        s.addSound("[6/6] Trials Overseer: Ladies, you may now begin!", "royaltrials-trialsoverseer-6", false);
+        s.addSound("[1/4] Trials Overseer: Arr, that weeded out the weak. A queen must be strong to lead.", "royaltrials-trialsoverseer-7", false);
+        s.addSound("[2/4] Trials Overseer: Now, to the second challenge - the task of flight! Ye can't be a queen if ye can't fly yer airship!", "royaltrials-trialsoverseer-8", false);
+        s.addSound("[3/4] Trials Overseer: Make sure ye bring yer sharpest eyes, girls, one false move and death awaits.", "royaltrials-trialsoverseer-9", false);
+        s.addSound("[4/4] Trials Overseer: This task should get rid of the rest of ye unworthy.", "royaltrials-trialsoverseer-10", false);
+        s.addSound("[1/7] Trials Overseer: Well lookie here, an amateur made it through her flight.", "royaltrials-trialsoverseer-11", false);
+        s.addSound("[2/7] Trials Overseer: Well let’s see how you hold up in the final task ladies.", "royaltrials-trialsoverseer-12", false);
+        s.addSound("[3/7] Trials Overseer: Yer ain’ a pirate at all if ye can't steal, but this is different.", "royaltrials-trialsoverseer-13", false);
+        s.addSound("[4/7] Trials Overseer: This is the real deal. Stealin’ from a highly secure mansion.", "royaltrials-trialsoverseer-14", false);
+        s.addSound("[5/7] Trials Overseer: Yer job is to steal a priceless treasure from the richest family in the sky.", "royaltrials-trialsoverseer-15", false);
+        s.addSound("[6/7] Trials Overseer: We'll be waiting with a getaway airship at the extraction point, everyone else'll be left behind.", "royaltrials-trialsoverseer-16", false);
+        s.addSound("[7/7] Trials Overseer: Remember, this be the real thing, and the consequences of failure will be severe. Good luck, ladies.", "royaltrials-trialsoverseer-17", false);
+        s.addSound("[1/4] Trials Overseer: This is the garden we'll tunnel into, and yer'll 'ave to find a way into the Mansion, maybe yer can just ask nicely, heh.", "royaltrials-trialsoverseer-18", true);
+        s.addSound("[2/4] Trials Overseer: Then yer'll have to sneak through these corridors to reach the treasure - and don't let the guards find yer, or they'll lock yer up and throw away the key.", "royaltrials-trialsoverseer-19", true);
+        s.addSound("[3/4] Trials Overseer: This, o' course, is the mythical treasure that yer want to grab and get outta here, stat. I'm sure there'll be some extra defenses around, though...", "royaltrials-trialsoverseer-20", true);
+        s.addSound("[4/4] Trials Overseer: And finally yer'll have to escape outta this window right 'ere - I'll be waitin' with an airship to carry all of ye out.", "royaltrials-trialsoverseer-21", true);
+        s.addSound("[1/1] Skyraider: Aye', think ye ready to try grabbin' that treasure, eh? Just 'ead outta this hole and try to find yer way into the mansion.", "royaltrials-skyraider-1", false);
+        s.addSound("[1/1] Mansion Guard: Oi', you! Whatcha' think yer' doin' sneakin' around these parts? This be a restricted area! Yer' headed to the jail cell!", "royaltrials-mansionguard-1", false);
+        s.addSound("[1/1] Mansion Guard: Aye', men! Tha' treasure has been stolen! Prepare the defenses!", "royaltrials-mansionguard-2", false);
+        s.addSound("[1/1] Mansion Guard: Aye, we caught the nasty thief! We'll be lockin' him up till' he rots!", "royaltrials-mansionguard-3", false);
+        s.addSound("[1/2] Trials Overseer: Ah, I thought yer might be the first one back. Yer got a queenly look about ye...", "royaltrials-trialsoverseer-22", false);
+        s.addSound("[2/2] Trials Overseer: Head into the airship behind me, lassie. We'll wait a second for the others.", "royaltrials-trialsoverseer-23", false);
+        s.addSound("[1/1] Trials Overseer: Move along, ya' got clearance to board the airship!", "royaltrials-trialsoverseer-24", false);
+        s.addSound("[1/8] Trials Overseer: Aha! I figured it'd be ye to win o'er the rest of that lot... Ye've earned the proper sovereignty of bein' our ruler, our queen of the Skyraiders.", "royaltrials-trialsoverseer-25", false);
+        s.addSound("[2/8] Trials Overseer: Don't be worryin', we got this airship armoured somethin' heavy, and we're miles away from their cannons... Nothin' to be afraid of, we're safe in this ship.", "royaltrials-trialsoverseer-26", false);
+        s.addSound("[3/8] Trials Overseer: But, first things first, let’s take a look inside that fancy box ye got, see what mythical treasures lay guarded behind those grubby guardsmen, shall we?", "royaltrials-trialsoverseer-27", false);
+        s.addSound("[4/8] Trials Overseer: By the skies and seas...", "royaltrials-trialsoverseer-28", false);
+        s.addSound("[5/8] Trials Overseer: I hafta wonder now if this weren't bein' guarded for a bit of a nefarious reason. This be... Quite the weapon. It'd be deadly if this got used.", "royaltrials-trialsoverseer-29", false);
+        s.addSound("[6/8] Trials Overseer: Well, thanks to ye, us Skyraiders might have it now, but using this weapon against civilization would be beyond terrible. We might be pirates but we ain't heartless!", "royaltrials-trialsoverseer-30", false);
+        s.addSound("[7/8] Trials Overseer: I think we'll just have to keep this locked up nice n' tight once we get back. We'll be sure to tie this little cataclysm-in-a-box down much safer th'n those idiot men did.", "royaltrials-trialsoverseer-31", false);
+        s.addSound("[8/8] Trials Overseer: Aha! Just gettin' back now. Let's head down and start the ceremony, shall we?", "royaltrials-trialsoverseer-32", false);
+        s.addSound("[1/3] Trials Overseer: I am pleased to introduce our 734th Skyraider Queen. Fer the sake of our people, let her reign last more than two weeks.", "royaltrials-trialsoverseer-33", false);
+        s.addSound("[2/3] Trials Overseer: I, on behalf on the rest of the Skyraider people, have the honor of decoratin' you with the highest decoration of the Skyraiders, The Queen’s Headpiece.", "royaltrials-trialsoverseer-34", false);
+        s.addSound("[3/3] Trials Overseer: Please use your sovereignty to lead us to the riches we deserve.", "royaltrials-trialsoverseer-35", false);
+        s.addSound("[1/4] Trials Overseer: Yer Majesty. What an honour to have such a beautiful queen.", "royaltrials-trialsoverseer-36", false);
+        s.addSound("[2/4] Trials Overseer: Now, we must crown ye, and give you yer reward.", "royaltrials-trialsoverseer-37", false);
+        s.addSound("[3/4] Trials Overseer: Benefits of being a queen I 'spose.", "royaltrials-trialsoverseer-38", false);
+        s.addSound("[4/4] Trials Overseer: Please accept this, your majesty.", "royaltrials-trialsoverseer-39", false);
+        s.addSound("[1/1] Trials Overseer: Greetings, your majesty!", "royaltrials-trialsoverseer-40", false);
+
 
         //Hero of Gavel
         s.addSound("[1/6] Excited Fan: Hmm... I might have just enough for one tier 3... Why are you standing there?", "heroofgavel-excitedfan-1", false);

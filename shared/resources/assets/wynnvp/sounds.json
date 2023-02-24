@@ -28364,21 +28364,145 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-1", "stream": true}]
   },
-  "royaltrials-hrona-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-hrona-1", "stream": true}]
-  },
   "royaltrials-skyraiderguard-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-2", "stream": true}]
   },
-  "royaltrials-angryqueencontestant-1": {
+  "royaltrials-skyraiderguard-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-angryqueencontestant-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-3", "stream": true}]
   },
-  "royaltrials-angryqueencontestant-2": {
+  "royaltrials-skyraiderguard-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-angryqueencontestant-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-4", "stream": true}]
+  },
+  "royaltrials-skyraiderguard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-5", "stream": true}]
+  },
+  "royaltrials-skyraiderguard-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-6", "stream": true}]
+  },
+  "royaltrials-skyraiderguard-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-7", "stream": true}]
+  },
+  "royaltrials-skyraiderguard-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-skyraiderguard-8", "stream": true}]
+  },
+  "royaltrials-hrona-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-hrona-1", "stream": true}]
+  },
+  "royaltrials-hrona-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-hrona-2", "stream": true}]
+  },
+  "royaltrials-hrona-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-hrona-3", "stream": true}]
+  },
+  "royaltrials-hrona-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-hrona-4", "stream": true}]
+  },
+  "royaltrials-hrona-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-hrona-5", "stream": true}]
+  },
+  "royaltrials-hrona-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-hrona-6", "stream": true}]
+  },
+  "royaltrials-hrona-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-hrona-7", "stream": true}]
+  },
+  "royaltrials-hrona-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-hrona-8", "stream": true}]
+  },
+  "royaltrials-egpla-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-1", "stream": true}]
+  },
+  "royaltrials-egpla-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-2", "stream": true}]
+  },
+  "royaltrials-egpla-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-3", "stream": true}]
+  },
+  "royaltrials-egpla-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-4", "stream": true}]
+  },
+  "royaltrials-egpla-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-5", "stream": true}]
+  },
+  "royaltrials-egpla-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-6", "stream": true}]
+  },
+  "royaltrials-egpla-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-7", "stream": true}]
+  },
+  "royaltrials-egpla-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-8", "stream": true}]
+  },
+  "royaltrials-egpla-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-9", "stream": true}]
+  },
+  "royaltrials-egpla-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-10", "stream": true}]
+  },
+  "royaltrials-egpla-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-11", "stream": true}]
+  },
+  "royaltrials-egpla-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-12", "stream": true}]
+  },
+  "royaltrials-egpla-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-13", "stream": true}]
+  },
+  "royaltrials-egpla-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-14", "stream": true}]
+  },
+  "royaltrials-egpla-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-15", "stream": true}]
+  },
+  "royaltrials-egpla-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-16", "stream": true}]
+  },
+  "royaltrials-egpla-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-17", "stream": true}]
+  },
+  "royaltrials-egpla-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-egpla-18", "stream": true}]
+  },
+  "royaltrials-angrycontestant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-angrycontestant-1", "stream": true}]
+  },
+  "royaltrials-angrycontestant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-angrycontestant-2", "stream": true}]
   },
   "royaltrials-trialsoverseer-1": {
     "category": "voice",
@@ -28424,42 +28548,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-11", "stream": true}]
   },
-  "royaltrials-courtyardguard-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-1", "stream": true}]
-  },
-  "royaltrials-courtyardguard-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-2", "stream": true}]
-  },
-  "royaltrials-courtyardguard-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-3", "stream": true}]
-  },
-  "royaltrials-courtyardguard-4": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-4", "stream": true}]
-  },
-  "royaltrials-courtyardguard-5": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-courtyardguard-5", "stream": true}]
-  },
-  "royaltrials-constructionvillager-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-constructionvillager-1", "stream": true}]
-  },
-  "royaltrials-mansionguard-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-mansionguard-1", "stream": true}]
-  },
-  "royaltrials-mansionguard-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-mansionguard-2", "stream": true}]
-  },
-  "royaltrials-mansionguard-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:royaltrials-mansionguard-3", "stream": true}]
-  },
   "royaltrials-trialsoverseer-12": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-12", "stream": true}]
@@ -28488,6 +28576,111 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-18", "stream": true}]
   },
+  "royaltrials-trialsoverseer-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-19", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-20", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-21", "stream": true}]
+  },
+  "royaltrials-skyraider-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-skyraider-1", "stream": true}]
+  },
+  "royaltrials-mansionguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-mansionguard-1", "stream": true}]
+  },
+  "royaltrials-mansionguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-mansionguard-2", "stream": true}]
+  },
+  "royaltrials-mansionguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-mansionguard-3", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-22", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-23", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-24", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-25", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-26", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-27", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-28", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-29", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-30", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-31", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-32", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-33", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-34", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-35", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-36", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-37", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-38", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-39", "stream": true}]
+  },
+  "royaltrials-trialsoverseer-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:royaltrials-trialsoverseer-40", "stream": true}]
+  },
+
 
 
 
