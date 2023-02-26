@@ -6687,6 +6687,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:masterpiece-caissop-31", "stream": true}]
   },
+  "masterpiece-caissop-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:masterpiece-caissop-32", "stream": true}]
+  },
 
 
 

@@ -2311,6 +2311,7 @@ public class Sounds {
         s.addSound("[8/9] Caissop: Would you turn your back on a blind man?! I need you to give me an accurate description of them! Once you have found one, come back and describe it to me exactly!", "masterpiece-caissop-8", false);
         s.addSound("[9/9] Caissop: The first cave is up a hill with tall, thin-leafed flowers. They smell pink to me, and of this I am certain.", "masterpiece-caissop-9", false);
         s.addSound("[1/7] Caissop: Quick! Describe it to me! Go on!", "masterpiece-caissop-10", false);
+        s.addSound("[1/8] Caissop: Quick! Describe it to me! Go on!", "masterpiece-caissop-32", false);
         s.addSound("[2/8] Caissop: Brown...big-nosed... A Villager Cow, you say!?", "masterpiece-caissop-11", false);
         s.addSound("[3/8] Caissop: ...OH, YES! ......... INSPIRED.", "masterpiece-caissop-12", false);
         s.addSound("[4/8] Caissop: ...MH, NO, A LITTLE MORE RED!..... YES!", "masterpiece-caissop-13", false);
