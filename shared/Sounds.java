@@ -994,11 +994,11 @@ public class Sounds {
         s.addSound("[6/8] Honip: So... Soldier. Are ya up for sailin' the ocean with me? I got a fancier boat than that seaskipper! ", "misadventureonthesea-honip-3", false);
         s.addSound("[7/8] Honip: I figured you'd be interested in explorin' the waters!", "misadventureonthesea-honip-4", false);
         s.addSound("[8/8] Honip: I'll wait for ya on the docks. Don't worry, ya can't miss the boat! ", "misadventureonthesea-honip-5", false);
-        s.addSound("[1/3] Honip: There you are! Ready? Follow me, the boat's over here!", "misadventureonthesea-honip-6", true);
-        s.addSound("[2/3] Honip: Look at this.. Magnificent! Much better than whatever the Seaskipper is using!", "misadventureonthesea-honip-7", true);
-        s.addSound("[3/3] Honip: Well, what are you waiting for? Hop aboard!", "misadventureonthesea-honip-8", true);
-        s.addSound("[1/2] Honip: Then it's settled, we're goin' on an adventure!", "misadventureonthesea-honip-9", true);
-        s.addSound("[2/2] Honip: Buckle up, we got waves to catch.", "misadventureonthesea-honip-10", true);
+        s.addSound("[1/3] Honip: There you are! Ready? Follow me, the boat's over here!", "misadventureonthesea-honip-6", false);
+        s.addSound("[2/3] Honip: Look at this.. Magnificent! Much better than whatever the Seaskipper is using!", "misadventureonthesea-honip-7", false);
+        s.addSound("[3/3] Honip: Well, what are you waiting for? Hop aboard!", "misadventureonthesea-honip-8", false);
+        s.addSound("[1/2] Honip: Then it's settled, we're goin' on an adventure!", "misadventureonthesea-honip-9", false);
+        s.addSound("[2/2] Honip: Buckle up, we got waves to catch.", "misadventureonthesea-honip-10", false);
         s.addSound("[1/7] Honip: So... I should warn ya', this is actually my first time sailing...", "misadventureonthesea-honip-11", false);
         s.addSound("[2/7] Honip: It doesn't seem too difficult though, a little to the left...", "misadventureonthesea-honip-12", false);
         s.addSound("[3/7] Honip: Hmm, looks like we're not the only ones out on the water today.", "misadventureonthesea-honip-13", false);
@@ -1030,7 +1030,7 @@ public class Sounds {
         s.addSound("[3/7] Honip: Come to the hold, I'll explain on the way.", "misadventureonthesea-honip-34", true);
         s.addSound("[4/7] Honip: I think we have quite a hellish problem on our hands.", "misadventureonthesea-honip-35", true);
         s.addSound("[5/7] Honip: I'm not sure what ya'll find there, but these are NOT normal rats.", "misadventureonthesea-honip-36", true);
-        s.addSound("[6/7] Honip: So, I need you to get in... and kill everything, alright?", "misadventureonthesea-honip-37", true);
+        s.addSound("[6/7] Honip: So please, get in there... and kill everything, alright?", "misadventureonthesea-honip-37", true);
         s.addSound("[7/7] Honip: I've got faith in ya. Here goes nothin'!", "misadventureonthesea-honip-38", true);
         s.addSound("[1/4] Honip: Hey there! Ya bringin' me good news?", "misadventureonthesea-honip-39", true);
         s.addSound("[2/4] Honip: You took care of these damn thieving rodents? A... colossal rat you say?", "misadventureonthesea-honip-40", true);
@@ -1063,7 +1063,7 @@ public class Sounds {
         s.addSound("[1/5] Honip: ...Seth? Have ya seen the soldier?", "misadventureonthesea-honip-67", true);
         s.addSound("[2/5] Seth: No, but they did a great job in the hold! Some gunpowder went missing though.", "misadventureonthesea-seth-3", true);
         s.addSound("[5/5] Seth: Wait a minute.", "misadventureonthesea-seth-4", true);
-        s.addSound("[1/1] Seaskipper Captain: 'ey there soldier! Looks like ya're in a bit of a pickle! How 'bout ya hop on?'", "misadventureonthesea-seaskippercaptain-1", true);
+        s.addSound("[1/1] Seaskipper Captain: 'ey there soldier! Looks like ya're in a bit of a pickle! How 'bout ya hop on?'", "misadventureonthesea-seaskippercaptain-1", false);
         s.addSound("[1/7] Seaskipper Captain: Well... We're headed for Selchar, the heart of the ocean! Which is safer than wherever you were, heh!", "misadventureonthesea-seaskippercaptain-2", true);
         s.addSound("[1/1] Honip: Soldier, now's your time to shine! Scare it off with one of your spells or somethin'!", "misadventureonthesea-honip-69", true);
         s.addSound("[1/1] Honip: It's working! Do that again!", "misadventureonthesea-honip-70", true);
