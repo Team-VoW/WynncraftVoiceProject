@@ -23133,29 +23133,45 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-1", "stream": true}]
   },
+  "asandyscandal-almujbankguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-2", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-3", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-4", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-5", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-6", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-7", "stream": true}]
+  },
   "asandyscandal-shopkeepergibbs-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-1", "stream": true}]
-  },
-  "asandyscandal-bandit-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-1", "stream": true}]
   },
   "asandyscandal-shopkeepergibbs-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-2", "stream": true}]
   },
-  "asandyscandal-bandit-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-2", "stream": true}]
-  },
   "asandyscandal-shopkeepergibbs-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-3", "stream": true}]
   },
-  "asandyscandal-bandit-3": {
+  "asandyscandal-bandit-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-1", "stream": true}]
   },
   "asandyscandal-shopkeepergibbs-4": {
     "category": "voice",
@@ -23169,6 +23185,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-6", "stream": true}]
   },
+  "asandyscandal-bandit-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-2", "stream": true}]
+  },
   "asandyscandal-shopkeepergibbs-7": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-7", "stream": true}]
@@ -23176,6 +23196,10 @@
   "asandyscandal-shopkeepergibbs-8": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-8", "stream": true}]
+  },
+  "asandyscandal-bandit-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-bandit-3", "stream": true}]
   },
   "asandyscandal-shopkeepergibbs-9": {
     "category": "voice",
@@ -23197,17 +23221,37 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-13", "stream": true}]
   },
-  "asandyscandal-shopkeepergibbs-14": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-14", "stream": true}]
-  },
   "asandyscandal-bandit-4": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-bandit-4", "stream": true}]
   },
-  "asandyscandal-almujbankguard-2": {
+  "asandyscandal-shopkeepergibbs-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-shopkeepergibbs-14", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-8", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-9", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-10", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-11", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-12", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-13", "stream": true}]
   },
   "asandyscandal-scrollmerchant-1": {
     "category": "voice",
@@ -23249,45 +23293,37 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-10", "stream": true}]
   },
-  "asandyscandal-scrollmerchant-11": {
+  "asandyscandal-almujbankguard-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-11", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-14", "stream": true}]
   },
-  "asandyscandal-scrollmerchant-12": {
+  "asandyscandal-almujbankguard-15": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-scrollmerchant-12", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-15", "stream": true}]
   },
-  "asandyscandal-almujbankguard-3": {
+  "asandyscandal-almujbankguard-16": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-16", "stream": true}]
   },
-  "asandyscandal-almujbankguard-4": {
+  "asandyscandal-almujbankguard-17": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-4", "stream": true}]
-  },
-  "asandyscandal-almujbankguard-5": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-5", "stream": true}]
-  },
-  "asandyscandal-almujbankguard-6": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-17", "stream": true}]
   },
   "asandyscandal-almujsentry-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-almujsentry-1", "stream": true}]
   },
-  "asandyscandal-almujbankguard-7": {
+  "asandyscandal-almujbankguard-18": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-18", "stream": true}]
   },
-  "asandyscandal-almujbankguard-8": {
+  "asandyscandal-almujbankguard-19": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-8", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-19", "stream": true}]
   },
-  "asandyscandal-almujbankguard-9": {
+  "asandyscandal-almujbankguard-20": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-9", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-20", "stream": true}]
   },
   "asandyscandal-almujcitizen-1": {
     "category": "voice",
@@ -23333,9 +23369,21 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:asandyscandal-banditleader-9", "stream": true}]
   },
-  "asandyscandal-almujbankguard-10": {
+  "asandyscandal-almujbankguard-21": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-10", "stream": true}]
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-21", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-22", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-23", "stream": true}]
+  },
+  "asandyscandal-almujbankguard-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:asandyscandal-almujbankguard-24", "stream": true}]
   },
 
 
