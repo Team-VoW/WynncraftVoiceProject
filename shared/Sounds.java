@@ -1720,7 +1720,7 @@ public class Sounds {
         s.addSound("[1/1] Head Engineer: I have to stay put, so get through the system and find the reset button for me. These holes are teleporters that'll lead you around the generator rooms.", "heartofllevigar-headengineer-11", false);
         s.addSound("[1/1] Head Engineer: Were you bein' literal when you said there was a bug in the system? I swear I hear something crawling around down here all of the sudden.", "heartofllevigar-headengineer-12", false);
         s.addSound("[1/4] Zenam: Whew...welcome back. The power is back online- Everything is running at full capacity again. I think the system is just running excess through right now.", "heartofllevigar-zenam-7", false);
-        s.addSound("[2/4] Zenam: Glad you got here when you did though- some phony came through saying he was the expert. Clearly he was just here to take your contract money...  (The player took that guy's job)", "heartofllevigar-zenam-8", false);
+        s.addSound("[2/4] Zenam: Glad you got here when you did though- some phony came through saying he was the expert. Clearly he was just here to take your contract money...", "heartofllevigar-zenam-8", false);
         s.addSound("[3/4] Zenam: Though, I was panicking so much I probably would've believed him... Speaking of which, here's your cut of the pay, and something extra for the trouble.", "heartofllevigar-zenam-9", false);
         s.addSound("[4/4] Zenam: Here's to hoping that the system won't run into any more trouble in the future. I don't want to be faced with an impending cataclysm like that again...", "heartofllevigar-zenam-10", false);
 
