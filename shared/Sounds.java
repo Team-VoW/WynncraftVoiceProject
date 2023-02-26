@@ -2039,13 +2039,13 @@ public class Sounds {
 
         //House of twain
         s.addSound("[1/10] Twendle: Oh, hey you there! Are you heading down this road? You know its a dead end, right?", "houseoftwain-twendle-1", false);
-        s.addSound("[2/10] Twendle: It leads to a an old mansion, that has fallen into decay.", "houseoftwain-twendle-2", false);
+        s.addSound("[2/10] Twendle: It leads to an old mansion, that has fallen into decay.", "houseoftwain-twendle-2", false);
         s.addSound("[3/10] Twendle: That mansion is the house of my ancestor; Dwendle Twain. It was a house of incredible heritage and magical powers, Dwendle himself was adopted into it.", "houseoftwain-twendle-3", false);
         s.addSound("[4/10] Twendle: Marius Twain was the leader of the mansion, they fought against evil spirits, I think. The history of the house is not well known outside of a novel.", "houseoftwain-twendle-4", false);
-        s.addSound("[5/10] Twendle: I want to know the history of the mansion and uncover its secrets. But everytime I get close, dark beings prevent me from entering.", "houseoftwain-twendle-5", false);
+        s.addSound("[5/10] Twendle: I want to know the history of the mansion and uncover its secrets, but every time I get close, dark beings prevent me from entering.", "houseoftwain-twendle-5", false);
         s.addSound("[6/10] Twendle: I am no soldier, and I don't think I will ever uncover the truth without your help. I can greatly reward you for your help.", "houseoftwain-twendle-6", false);
         s.addSound("[7/10] Twendle: My ancestor left our family a large amount of emeralds. Beware though, traveller, the mansions secrets are incredibly difficult to uncover and the monsters are powerful.", "houseoftwain-twendle-7", false);
-        s.addSound("[8/10] Twendle: Unravel the secrets of the mansion and help me uncover the secrets of my hertitage. Bring me [1 Twain Journal].", "houseoftwain-twendle-8", false);
+        s.addSound("[8/10] Twendle: Unravel the secrets of the mansion and help me uncover the secrets of my heritage. Bring me [1 Twain Journal].", "houseoftwain-twendle-8", false);
         s.addSound("[9/10] Twendle:This book has been hidden within the depths of the mansion and is protected by far more than puzzles or walls.", "houseoftwain-twendle-9", false);
         s.addSound("[10/10] Twendle: I believe the spirits that now haunt the mansion will do anything to protect the book. I'm sure they think its their own, and the secrets it hides.", "houseoftwain-twendle-10", false);
         s.addSound("[1/2] Twendle: I guess I put my faith in the right person. My history lies within these pages, and I don't intend to keep them secret. I shall make them public.", "houseoftwain-twendle-11", false);
