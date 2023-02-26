@@ -1762,10 +1762,10 @@ public class Sounds {
         s.addSound("[7/9] Telvu: As such...have you heard of a place called Time Valley? We could use it to go back in time, to try to learn more about this barrier.", "fateofthefallen-telvu-7", false);
         s.addSound("[8/9] Telvu: Well...in a way, at least. There are laws to this sort of magic. For one, you need an item from the specific time we want to see. Second, you can witness the past, not change it.", "fateofthefallen-telvu-8", false);
         s.addSound("[9/9] Telvu: One of Theorick's staves is on display in the Nesaak bank. Presumably, it should work for what we need. Could you retrieve it somehow?", "fateofthefallen-telvu-9", false);
-        s.addSound("[1/4] Telvu: Aha, quick job. I see you've the wand. Must've needed a sharp tongue to get the bankers to give it up.", "fateofthefallen-telvu-10", false);
-        s.addSound("[2/4] Telvu: Now, it is a long walk to Time Valley. Needn't take that walk, though, as I can teleport you there. Hopefully.", "fateofthefallen-telvu-11", false);
-        s.addSound("[3/4] Telvu: Once you're there, enter the Temple of Time. You should know what to do once you are there. Careful dealing with time travel, friend... No idea what you might find.", "fateofthefallen-telvu-12", false);
-        s.addSound("[4/4] Telvu: Should anything go wrong, I'll stay here to teleport you back to the temple.", "fateofthefallen-telvu-13", false);
+        s.addSound("[1/5] Telvu: Aha, quick job. I see you've the wand. Must've needed a sharp tongue to get the bankers to give it up.", "fateofthefallen-telvu-10", false);
+        s.addSound("[2/5] Telvu: Now, it is a long walk to Time Valley. Needn't take that walk, though, as I can teleport you there. Hopefully.", "fateofthefallen-telvu-11", false);
+        s.addSound("[3/5] Telvu: Once you're there, enter the Temple of Time. You should know what to do once you are there. Careful dealing with time travel, friend... No idea what you might find.", "fateofthefallen-telvu-12", false);
+        s.addSound("[5/5] Telvu: Should anything go wrong, I'll stay here to teleport you back to the temple", "fateofthefallen-telvu-13", false);
         s.addSound("[1/7] Psern: What the...", "fateofthefallen-psern-1", false);
         s.addSound("[2/7] Psern: Woah, your weaponry and armour is so advanced!", "fateofthefallen-psern-2", false);
         s.addSound("[3/7] Psern: Are you another Twain? Only the Twains know magic like that.", "fateofthefallen-psern-3", false);
