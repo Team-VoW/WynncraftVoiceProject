@@ -1964,7 +1964,7 @@ public class Sounds {
         s.addSound("[3/13] Eppo: As I mentioned before, there is a reason this land is frozen, and it's not natural.", "frostbite-eppo-22", true);
         s.addSound("[4/13] Eppo: Many years before Bob was around, Wynn was in ruins due to the corruption war.", "frostbite-eppo-23", true);
         s.addSound("[5/13] Eppo: In those times there used to be a group of naturally gifted individuals called the Twains. They defended us all with elemental magic.", "frostbite-eppo-24", true);
-        s.addSound("[6/13] Eppo: Theorick was one of those Twains. He harnessed unaturally powerful ice based magic. He used it to protect the land surrounding the mansion.", "frostbite-eppo-25", true);
+        s.addSound("[6/13] Eppo: Theorick was one of those Twains. He harnessed unnaturally powerful ice based magic. He used it to protect the land surrounding the mansion.", "frostbite-eppo-25", true);
         s.addSound("[7/13] Eppo: Theorick.. Wasn't like the other Twains. He wanted the people he protected to pay and feed him as way of thanks.", "frostbite-eppo-26", true);
         s.addSound("[8/13] Eppo: After years, Theorick was rich while the people he protected lived in poverty and fear - not only of the monsters, but in fear of Theorick himself.", "frostbite-eppo-27", true);
         s.addSound("[9/13] Eppo: He punished those who disobeyed his curfews and would get angry if anyone tried to move away. The people felt trapped.", "frostbite-eppo-28", true);
