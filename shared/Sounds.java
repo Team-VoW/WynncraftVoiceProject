@@ -4670,10 +4670,10 @@ public class Sounds {
         s.addSound("[5/7] Captain Ackbar: Since we don't have any leads, it might be best to ask some of the passengers for information.", "flightindistress-captainackbar-5", false);
         s.addSound("[6/7] Captain Ackbar: Most of them will be in the dining area or in the lounge.", "flightindistress-captainackbar-6", false);
         s.addSound("[7/7] Captain Ackbar: Thank you so much for your help; I hope you find the lad soon.", "flightindistress-captainackbar-7", false);
-        s.addSound("[1/5] Captain Ackbar: Hello again, did you find him?", "flightindistress-captainackbar-8", false);
-        s.addSound("[2/5] Captain Ackbar: How did he get down there?! There is supposed to be someone on duty!", "flightindistress-captainackbar-9", false);
-        s.addSound("[3/5] Captain Ackbar: Thank you so much for finding him. You were the only volunteer.", "flightindistress-captainackbar-10", false);
-        s.addSound("[4/5] Captain Ackbar: Hopefully that is the only hiccup in the journey.", "flightindistress-captainackbar-11", false);
+        s.addSound("[1/4] Captain Ackbar: Hello again, did you find him?", "flightindistress-captainackbar-8", false);
+        s.addSound("[2/4] Captain Ackbar: How did he get down there?! There is supposed to be someone on duty!", "flightindistress-captainackbar-9", false);
+        s.addSound("[3/4] Captain Ackbar: Thank you so much for finding him. You were the only volunteer.", "flightindistress-captainackbar-10", false);
+        s.addSound("[4/4] Captain Ackbar: Hopefully that is the only hiccup in the journey.", "flightindistress-captainackbar-11", false);
         s.addSound("[5/5] Captain Ackbar: Feel free to return to your quarters and enjoy the rest of your journey.", "flightindistress-captainackbar-12", false);
         s.addSound("[1/6] Captain Ackbar: Oh, hey! Are you here to help again?", "flightindistress-captainackbar-13", false);
         s.addSound("[2/6] Captain Ackbar: I really appreciate it. My crew seem to be absolutely nowhere!", "flightindistress-captainackbar-14", false);
@@ -4683,7 +4683,7 @@ public class Sounds {
         s.addSound("[6/6] Captain Ackbar: I have to stay here and man the brig, but if you head down to the engine room, we would greatly appreciate it.", "flightindistress-captainackbar-18", false);
         s.addSound("[1/11] Captain Ackbar: Wow... You single handedly took out a skyraider invasion.", "flightindistress-captainackbar-19", false);
         s.addSound("[2/11] Captain Ackbar: And you're a passenger! It's a good job you did...", "flightindistress-captainackbar-20", false);
-        s.addSound("[3/11] Captain Ackbar: We have no defence on this ship. We are a civilian carrier.", "flightindistress-captainackbar-21", false);
+        s.addSound("[3/11] Captain Ackbar: We have no defense on this ship. We are a civilian carrier.", "flightindistress-captainackbar-21", false);
         s.addSound("[4/11] Captain Ackbar: What is this? A ring from the Queen?! It looks valuable. You should keep it.", "flightindistress-captainackbar-22", false);
         s.addSound("[5/11] Captain Ackbar: I still do not know how to thank you... We owe you so much.", "flightindistress-captainackbar-23", false);
         s.addSound("[6/11] Captain Ackbar: Wait! I know! You can have free travel between Detlas and Cinfras!", "flightindistress-captainackbar-24", false);
@@ -4700,11 +4700,11 @@ public class Sounds {
         s.addSound("[3/3] Captain Ackbar: Go check on the condition of the passengers.", "flightindistress-captainackbar-34", false);
         s.addSound("[1/1] Captain Ackbar: Soldier, go report to the Engineer in the engine room and see if there is anything you can do to help us get moving once again.", "flightindistress-captainackbar-35", false);
         s.addSound("[1/1] Captain Ackbar: M en, hold her steady. We can still survive this! We just need to stop them following us.", "flightindistress-captainackbar-36", false);
-        s.addSound("[1/5] Missing Child: Hey! Look at that ship over in the distance. It has been following the ship almost since we left off.", "flightindistress-missingchild-1", false);
+        s.addSound("[1/5] Missing Child: Hey! Look at that ship over in the distance. It's been following us since we lifted off.", "flightindistress-missingchild-1", false);
         s.addSound("[2/5] Missing Child: I know I shouldn't be down here but...", "flightindistress-missingchild-2", false);
-        s.addSound("[3/5] Missing Child: I love airships, and I have never seen one like that.", "flightindistress-missingchild-3", false);
+        s.addSound("[3/5] Missing Child: I love airships, and I've never seen one like that.", "flightindistress-missingchild-3", false);
         s.addSound("[4/5] Missing Child: Oh, my mummy wants me?", "flightindistress-missingchild-4", false);
-        s.addSound("[5/5] Missing Child: Okay then, I will come back. Just let me get one last look at it, I'll meet you on the passenger deck.", "flightindistress-missingchild-5", false);
+        s.addSound("[5/5] Missing Child: Okay then, I'll head back right now!", "flightindistress-missingchild-5", false);
         s.addSound("[1/1] Found Child: I'm sorry I caused such a worry earlier...", "flightindistress-missingchild-6", false);
         s.addSound("[1/3] Engine Instructions: In event of shut-down, maintenance must be performed.", "flightindistress-engineinstructions-1", false);
         s.addSound("[2/3] Engine Instructions: Worker must restart all wooden switches before the engine overheats.", "flightindistress-engineinstructions-2", false);
