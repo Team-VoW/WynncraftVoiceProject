@@ -1091,7 +1091,7 @@ public class Sounds {
         s.addSound("[9/9] Santa: Ho ho ho! That's the craftmas spirit I want to see! Simply walk into the fire and off you go! Good luck and be careful in the past, changing things can be very dangerous!", "craftmaschaos-santa-9", false);
         s.addSound("[1/8] Tommy: Wendy, where are you? Heheheheh! Oh, hi! You seem new to this place.", "craftmaschaos-tommy-1", false);
         s.addSound("[2/8] Tommy: The name is Tommy and I'm ten! I am always excited to meet new people that come to town! Someday this town will be very lively and fun!", "craftmaschaos-tommy-2", false);
-        s.addSound("[3/8] Tommy: So what are you doing here? Want to join me and play hide and seek with Wendy?", "craftmaschaos-tommy-3", false);
+        s.addSound("[3/8] Tommy: So what are you doing here? Want to join me play hide and seek with Wendy?", "craftmaschaos-tommy-3", false);
         s.addSound("[4/8] Tommy: Magical barrier? I don't think anybody here will know what you are looking for. Nobody here really knows magic sadly.", "craftmaschaos-tommy-4", false);
         s.addSound("[5/8] Tommy: I did see a group of shady guys who arrived here last week.", "craftmaschaos-tommy-5", false);
         s.addSound("[6/8] Tommy: They always wear these black scary robes and talk about crystals and stuff. I think they might be bad people.", "craftmaschaos-tommy-6", false);
@@ -1114,7 +1114,7 @@ public class Sounds {
         s.addSound("[10/13] Old Tom: Santa would never want any of this to happen. This is why, I want you to do something for me, and for him.", "craftmaschaos-oldtom-10", false);
         s.addSound("[11/13] Old Tom: Please, end Santa's misery from the corruption that cursed him. He must be suffering inside his twisted body right now.", "craftmaschaos-oldtom-11", false);
         s.addSound("[12/13] Old Tom: Santa made a hideout in the heart of Selchar. I'm sure you can find it by looking for the one with the most crystals.", "craftmaschaos-oldtom-12", false);
-        s.addSound("[13/13] Old Tom: Good luck, hero! I know its hard to do this, but please stop Santa and bring me back a Ragged Santa Cloth as proof!", "craftmaschaos-oldtom-13", false);
+        s.addSound("[13/13] Old Tom: Good luck, hero! I know its hard to do this, but please stop Santa and bring me back [Ragged Santa Cloth] as proof!", "craftmaschaos-oldtom-13", false);
         s.addSound("[1/8] Old Tom: Did you do it? Santa is dead? Oh no, I can't believe it. He is gone, just like that. After nearly 20 or so years of torment...", "craftmaschaos-oldtom-14", false);
         s.addSound("[2/8] Old Tom: Sorry, it's just very sad for me to hear the news, despite my being the one who asked for it.", "craftmaschaos-oldtom-15", false);
         s.addSound("[3/8] Old Tom: Thank you very much, my hero. I will spread the news that Selchar is safe from corruption for now. Maybe once the grass starts to return...", "craftmaschaos-oldtom-16", false);
@@ -1125,11 +1125,11 @@ public class Sounds {
         s.addSound("[8/8] Old Tom: Oh, and keep this crystal shard from the rag you gave me. I definitely don't want it.", "craftmaschaos-oldtom-21", false);
         s.addSound("[1/9] Santa: Ho ho ho! Well If it isn't my friend who just took a journey through time!", "craftmaschaos-santa-10", false);
         s.addSound("[2/9] Santa: But of course, I already know you were successful, Selchar has had presents for the last 30 years thanks to you!", "craftmaschaos-santa-11", false);
-        s.addSound("[3/9] Santa: Although, I would have expected you sooner! I saw something strange and dark in the fire when I expected you to return.  *Probably refers to how Santa got corrupted*", "craftmaschaos-santa-12", false);
+        s.addSound("[3/9] Santa: Although, I would have expected you sooner! I saw something strange and dark in the fire when I expected you to return.", "craftmaschaos-santa-12", false);
         s.addSound("[4/9] Santa: Of course, no one in Selchar will know you saved Craftmas, because for them, no one has missed one! Of course I remember what you did, power of Christmas and all, ho.", "craftmaschaos-santa-13", false);
-        s.addSound("[5/9] Santa: So, what took you? Oh, 60 years you say? I wonder how that happened. Well, not even I can claim to know the future. My guess is having that dark crystal with you while travelling in time caused you to over shoot.  *\"So, what took you?\" is probably Santa saying \"So, what took you so long?\" if it was confusing to you*", "craftmaschaos-santa-14", false);
+        s.addSound("[5/9] Santa: So, what took you? Oh, 60 years you say? I wonder how that happened. Well, not even I can claim to know the future. My guess is having that dark crystal with you while travelling in time caused you to over shoot.", "craftmaschaos-santa-14", false);
         s.addSound("[6/9] Santa: Don't tell anyone what you saw though, knowing the future can be dangerous. Ho ho! If this journey has taught us anything, it's that time is a confusing thing, and nothing is set in stone. I don't like to mess around with it too much.", "craftmaschaos-santa-15", false);
-        s.addSound("[7/9] Santa: Anyway, I wouldn't want you to keep the crystal with you forever if its truly as powerful as it seems, give it to me, and I'll store it safely.  *Probably is how Santa got corrupted*", "craftmaschaos-santa-16", false);
+        s.addSound("[7/9] Santa: Anyway, I wouldn't want you to keep the crystal with you forever if its truly as powerful as it seems, give it to me, and I'll store it safely.", "craftmaschaos-santa-16", false);
         s.addSound("[8/9] Santa: That is some seriously dark magic we've encountered on this journey, and I'm sure it won't be the last encounter in your adventure.", "craftmaschaos-santa-17", false);
         s.addSound("[9/9] Santa: Here, take this early Craftmas present from me. Good luck with your journey!", "craftmaschaos-santa-18", false);
 
