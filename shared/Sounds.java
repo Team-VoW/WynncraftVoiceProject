@@ -1859,7 +1859,7 @@ public class Sounds {
         s.addSound("[9/10] Detective Jackson: Just to review- You need to search those two camps for the Axe of Llevigar, and then return it to me if you find it.", "blazingretribution-detectivejackson-9", false);
         s.addSound("[10/10] Detective Jackson: Sablestone is to the north, and Loamsprout to the south. They will be guarded, so don't be afraid to knock some heads.", "blazingretribution-detectivejackson-10", false);
         s.addSound("[1/9] Detective Jackson: I see no axe in your hands, so I should assume neither Sablestone or Loamsprout had it.", "blazingretribution-detectivejackson-11", false);
-        s.addSound("[2/9] Detective Jackson: Wait, really? A stick was the most powerful weapon they had? And Loamsprout... threw their dinner at you?", "blazingretribution-detectivejackson-12", false);
+        s.addSound("[2/9] Detective Jackson: Wait, really? A stick was the most powerful weapon they had? And Loamsprout...threw their dinner at you...?", "blazingretribution-detectivejackson-12", false);
         s.addSound("[3/9] Detective Jackson: I can't believe this! How are those... those THINGS outsmarting us?! Are they shuffling the axe between camps?", "blazingretribution-detectivejackson-13", false);
         s.addSound("[4/9] Detective Jackson: There are over a dozen camps between the Orcs and Goblins that they could be swapping it between!", "blazingretribution-detectivejackson-14", false);
         s.addSound("[5/9] Detective Jackson: What if the GOBLINS get a hold of it?! They're the cleverest by half of all of them, so that could actually be a threat!", "blazingretribution-detectivejackson-15", false);
