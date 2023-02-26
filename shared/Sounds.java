@@ -4478,12 +4478,12 @@ public class Sounds {
         s.addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnation-batleu-2", false);
         s.addSound("[1/5] Batelu: Bob's Seal of Approval? Oh my goodness!", "reincarnation-batleu-3", false);
 
-        //acquiring credentials
-        s.addSound("[1/6] Officer: I'm sorry sir, but I can't just give you a new passport... You'd need approval from-...", "acquiringcredentials-officer-1", true);
+        //Acquiring credentials
+        s.addSound("[1/6] Officer: I'm sorry sir, but I can't just give you a new passport... You'd need approval from-...", "acquiringcredentials-officer-1", false);
         s.addSound("[2/6] Doan: But sir, my passport was stolen! I have a flight to Detlas in under 30 minutes. I really need one, quick... ", "acquiringcredentials-doan-1", false);
-        s.addSound("[3/6] Officer: I've already told you where you need to go to get a new one. Next in line, please!", "acquiringcredentials-officer-2", true);
-        s.addSound("[4/6] Officer: Hmmm... soldier, is it? Unfortunately, humans are required to get their passports in Wynn.", "acquiringcredentials-officer-3", true);
-        s.addSound("[5/6] Officer: I'm afraid I can't help you. Next in line, please!", "acquiringcredentials-officer-4", true);
+        s.addSound("[3/6] Officer: I've already told you where you need to go to get a new one. Next in line, please!", "acquiringcredentials-officer-2", false);
+        s.addSound("[4/6] Officer: Hmmm... soldier, is it? Unfortunately, humans are required to get their passports in Wynn.", "acquiringcredentials-officer-3", false);
+        s.addSound("[5/6] Officer: I'm afraid I can't help you. Next in line, please!", "acquiringcredentials-officer-4", false);
         s.addSound("[6/6] Doan: Hey, you! Yes, you! Come outside, would you? I think we can help each other. ", "acquiringcredentials-doan-2", false);
         s.addSound("[1/5] Doan: So, I overheard your conversation with the Officer... You're also looking for a passport, right?", "acquiringcredentials-doan-3", false);
         s.addSound("[1/2] Kid: Where are we going, dad?", "acquiringcredentials-kid-1", false);
