@@ -1727,15 +1727,15 @@ public class Sounds {
         //Clearing the camps
         s.addSound("[1/6] Captain Kymer: Aha, another Ragni soldier, eh? Well, a warm welcome to you.", "clearingthecamps-captainkymer-1", false);
         s.addSound("[2/6] Captain Kymer: Did you hear about the requests from the Villagers we've gotten? They say these \"Orcs\" and \"Goblins\" are threatening their towns and cities.", "clearingthecamps-captainkymer-2", false);
-        s.addSound("[3/6] Captain Kymer: Primitive, brutal creatures, apparently a little better than the zombies we're used to, at least according to the Llevigar military.", "clearingthecamps-captainkymer-3", false);
-        s.addSound("[4/6] Captain Kymer: So, we figure if might makes into them, then defeating their leaders should scare them into submission.", "clearingthecamps-captainkymer-4", false);
+        s.addSound("[3/6] Captain Kymer: Primitive, brutal things, apparently little better than the zombies we're used to, at least according to the Llevigar military.", "clearingthecamps-captainkymer-3", false);
+        s.addSound("[4/6] Captain Kymer: So, we figure if might makes right with them, then defeating their leaders should scare them into submission.", "clearingthecamps-captainkymer-4", false);
         s.addSound("[5/6] Captain Kymer: Our scouts have identified three \"chief\" orcs in the area- Elisu, Ceifko and Veltu. Though, strangely Veltu is always surrounded by goblins...", "clearingthecamps-captainkymer-5", false);
         s.addSound("[6/6] Captain Kymer: Well, whatever the case, we're needed to defend Llevigar here. Can you handle the chiefs? They seem to hide in the camps with green flags- search the plains, return once they're dealt with!", "clearingthecamps-captainkymer-6", false);
         s.addSound("[1/5] Captain Kymer: Ah, the soldier from earlier! You're back, I see. Any luck defeating those- ...yeesh. Are those their heads?", "clearingthecamps-captainkymer-7", false);
-        s.addSound("[2/5] Captain Kymer: That's...harsher than I intended, but it works... Not like the Villagers care if they're dead of alive, as long as they're dealt with. I have your share of the reward here.", "clearingthecamps-captainkymer-8", false);
-        s.addSound("[3/5] Captain Kymer: This kind of surgical strike should help to prevent an all-out war with the Orcs. Not sure we'd want a full-scale war to deal with in each province, hah!", "clearingthecamps-captainkymer-9", false);
+        s.addSound("[2/5] Captain Kymer: That's...harsher than I intended, but it works... Not like the Villagers care if they're dead or alive, as long as they're dealt with. I have your share of the reward here.", "clearingthecamps-captainkymer-8", false);
+        s.addSound("[3/5] Captain Kymer: This kind of surgical strike should help prevent an all-out war with the Orcs. Not sure we'd want a full-scale war to deal with in each province, hah!", "clearingthecamps-captainkymer-9", false);
         s.addSound("[4/5] Captain Kymer: You saw that the creatures in Gavel aren't akin to Wynnic fare while you were out, yes? They're a bit, ah...livelier than usual. Better get used to it.", "clearingthecamps-captainkymer-10", false);
-        s.addSound("[5/5] Captain Kymer: The next major settlement is Olux, in the swamp up north, but I hear that the swamp ogres are a lot tougher than the plains' fare. I'd stick around here and train up, first.", "clearingthecamps-captainkymer-11", false);
+        s.addSound("[5/5] Captain Kymer: The next major settlement is Olux, in the swamp up north, but I hear the swamp ogres are a lot tougher than the plains' fare. I'd stick around here and train up, first.", "clearingthecamps-captainkymer-11", false);
 
         //Star Thief
         s.addSound("[1/5] Agent: Hey you! Human. What are you doing here?", "starthief-agent-1", false);
