@@ -1462,7 +1462,7 @@ public class Sounds {
         s.addSound("[4/7] Excavator Placardus: I'm willing to bet he's already been... taken care of by senior staff.", "wynnexcavationsitec-excavatorplacardus-12", false);
         s.addSound("[5/7] Excavator Placardus: We also now know you are operating in the dark. You know nothing of the crystals or their power, and you know not that even the crystals you possess are inconsequential 	to our plans.", "wynnexcavationsitec-excavatorplacardus-13", false);
         s.addSound("[6/7] Excavator Placardus: You're lucky you aren't dead. How you infiltrated us this far has shown nothing but beginner's luck for the province's new hero.", "wynnexcavationsitec-excavatorplacardus-14", false);
-        s.addSound("[7/7] Excavator Placardus: I suggest you leave, before the guards get here and you meet the same fate as Amadel. Our power is limitless; armies, resources, even royalty are on our side. We are the 	eye. We see all. Be gone.", "wynnexcavationsitec-excavatorplacardus-15", false);
+        s.addSound("[7/7] Excavator Placardus: I suggest you leave, before the guards get here and you meet the same fate as Amadel. Our power is limitless; armies, resources, even royalty are on our side. Our gaze is everpresent. Now, get out of my sight!", "wynnexcavationsitec-excavatorplacardus-15", false);
 
         //Wynn Excavation Site D
         s.addSound("[1/1] Royal Advisor Carlos: Help, the king is... wait. No you're not strong enough yet, come back when you reached Level 70.", "wynnexcavationd-royaladvisorcarlos-1", false);
