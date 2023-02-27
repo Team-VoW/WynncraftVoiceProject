@@ -1225,7 +1225,7 @@ public class Sounds {
         s.addSound("I had no idea what the criminals did after that, I never went back into my shop after the incident.", "asandyscandal-shopkeepergibbs-14", false);
         s.addSound("[1/6] Almuj Bank Guard: You're back, having read the report I assume. Did you find anything in particular?", "asandyscandal-almujbankguard-8", false);
         s.addSound("[2/6] Almuj Bank Guard: Missing TNT in the shop's vault? The report was truthful and trustworthy.", "asandyscandal-almujbankguard-9", false);
-        s.addSound("[3/6] Almuj Bank Guard: We need to catch these criminals quickly if they have access to this dangerous of TNT, capable of putting a hole in the bank's wall.", "asandyscandal-almujbankguard-10", false);
+        s.addSound("[3/6] Almuj Bank Guard: We need to catch these criminals quickly if they have access to this dangerous amount of TNT, capable of putting a hole in the bank's wall.", "asandyscandal-almujbankguard-10", false);
         s.addSound("[4/6] Almuj Bank Guard: Luckily, we recently had another witness report come in.", "asandyscandal-almujbankguard-11", false);
         s.addSound("[5/6] Almuj Bank Guard: This report takes place on the roof of the Scroll Merchant's residence, a garden roof.", "asandyscandal-almujbankguard-12", false);
         s.addSound("[6/6] Almuj Bank Guard: I've written the coordinates to the shop in your quest book in case you don't know where the Scroll Merchant is.", "asandyscandal-almujbankguard-13", false);
@@ -1242,9 +1242,9 @@ public class Sounds {
         s.addSound("[1/8] Almuj Bank Guard: Were you able to uncover any new information regarding the status of the criminals?", "asandyscandal-almujbankguard-14", false);
         s.addSound("[2/8] Almuj Bank Guard: Oh dear, this isn't good. The criminals plundered two very powerful weapons.", "asandyscandal-almujbankguard-15", false);
         s.addSound("[3/8] Almuj Bank Guard: It won't be easy facing those criminals if they decide to raid the bank with those weapons.", "asandyscandal-almujbankguard-16", false);
-        s.addSound("[4/8] Almuj Bank Guard: I'm not certain how to proceed from here, we didn't recieve any more witness reports, and-", "asandyscandal-almujbankguard-17", false);
+        s.addSound("[4/8] Almuj Bank Guard: I'm not certain how to proceed from here, we didn't receive any more witness reports, and-", "asandyscandal-almujbankguard-17", false);
         s.addSound("[5/8] Almuj Sentry: Boss, I just received urgent reports of a robbery underway in the left residential area of Almuj!", "asandyscandal-almujsentry-1", false);
-        s.addSound("[6/8] Almuj Bank Guard: Oh my... you! Soldier! Urgently! The residential area this robbery is taking place in is across the bridge next to the first house you visited today!", "asandyscandal-almujbankguard-18", false);
+        s.addSound("[6/8] Almuj Bank Guard: Oh my... you! Soldier! Urgently! The robbery is taking place across the bridge, next to the first house you visited today!", "asandyscandal-almujbankguard-18", false);
         s.addSound("[7/8] Almuj Bank Guard: There will be somebody waiting for you outside of the house once you get to the residential area!", "asandyscandal-almujbankguard-19", false);
         s.addSound("[8/8] Almuj Bank Guard: If you still can't find it, I've written the coordinates in your quest book. Now quickly, get to the house!", "asandyscandal-almujbankguard-20", false);
         s.addSound("[1/2] Almuj Citizen: Hello? Are you with the guards? Good! Hurry! Some bandits just ransacked my house, and left with lots of emeralds!", "asandyscandal-almujcitizen-1", false);
