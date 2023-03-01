@@ -32,8 +32,6 @@ public class SoundPlayer {
         if (config.isLogPlayingInformation()){
             VowLogger.logLine("[Attempting to play] " + lineData.getRealLine(), "Info");
         }
-        if (!config.isOnlyLogNotPlayingLines() && config.isLogDialogueLines() && lineData.isNPCSentLine())
-            VowLogger.logLine(lineData.getRealLine());
 
         String line = lineData.getSoundLine();
 
@@ -45,6 +43,9 @@ public class SoundPlayer {
         if (!canPlaySound(soundsHandler, lineData, player, world))
             return;
 
+        if (!config.isOnlyLogNotPlayingLines() && config.isLogDialogueLines() && lineData.isNPCSentLine())
+            VowLogger.logLine(lineData.getRealLine() + " [PLAYED]");
+
         soundsHandler.get(line).ifPresent(this::PlaySoundObject);
     }
 
@@ -52,7 +53,7 @@ public class SoundPlayer {
         String line = lineData.getSoundLine();
 
         if (soundsHandler.get(line).isEmpty()) {
-            if (config.isLogDialogueLines() && config.isOnlyLogNotPlayingLines() && lineData.isNPCSentLine())
+            if (config.isLogDialogueLines() && lineData.isNPCSentLine())
                 VowLogger.logLine(lineData.getRealLine());
             lineReporter.MissingLine(lineData);
             return false;
