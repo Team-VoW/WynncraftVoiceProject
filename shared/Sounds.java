@@ -3046,17 +3046,17 @@ public class Sounds {
         //The Passage
         s.addSound("[1/3] Wirt: Not so fast, you!", "thepassage-wirt-1", false);
         s.addSound("[2/3] Wirt: My dad said I can't let any strangers through this passage!", "thepassage-wirt-2", false);
-        s.addSound("[3/3] Wirt: If you want access, talk to him, he's the recruiter of the town! His name is Ildan.", "thepassage-wirt-3", false);
+        s.addSound("[3/3] Wirt: If you want access, talk to him, he's the recruiter of the town! His name is Ildan. He's just southwest of here.", "thepassage-wirt-3", false);
         s.addSound("[1/10] Ildan: Oh! So you want to become a member of this town?", "thepassage-ildan-1", false);
         s.addSound("[2/10] Ildan: You will have to help us first, of course!", "thepassage-ildan-2", false);
-        s.addSound("[3/10] Ildan: I'm sure you've noticed, but there is a tribe camp not too far from here.", "thepassage-ildan-3", false);
+        s.addSound("[3/10] Ildan: I'm sure you've noticed, but there is a tribe camp not far from here.", "thepassage-ildan-3", false);
         s.addSound("[4/10] Ildan: They used to have a powerful chief, but he eventually died in battle.", "thepassage-ildan-4", false);
         s.addSound("[5/10] Ildan: The tribe couldn't bear the fact that he was dead. They performed some unethical necromancy spell on him.", "thepassage-ildan-5", false);
-        s.addSound("[6/10] Ildan: They quickly realized that is was a bad idea, so they locked him in a tomb.", "thepassage-ildan-6", false);
+        s.addSound("[6/10] Ildan: They quickly realised that it was a bad idea, so they locked him in a tomb.", "thepassage-ildan-6", false);
         s.addSound("[7/10] Ildan: He keeps reviving his minions and it's causing quite some problems to our army.", "thepassage-ildan-7", false);
         s.addSound("[8/10] Ildan: You can access the tomb from a sacrificial shrine I've heard, but I'm not sure how. There are probably hints nearby the shrine.", "thepassage-ildan-8", false);
         s.addSound("[9/10] Ildan: Bring me back [1 Antic Bead] as a proof of its death, and I will let you become a citizen.", "thepassage-ildan-9", false);
-        s.addSound("[10/10] Ildan: I've marked the direction to the shrine in your book. Good luck.", "thepassage-ildan-10", false);
+        s.addSound("[10/10] Ildan: I've marked the direction to the shrine in your book. Remember, there should be hints right nearby the shrine. Good luck.", "thepassage-ildan-10", false);
         s.addSound("[1/8] Ildan: Impressive! You got the bead!", "thepassage-ildan-11", false);
         s.addSound("[2/8] Ildan: Well, welcome to this town, adventurer! You are now officially a citizen.", "thepassage-ildan-12", false);
         s.addSound("[3/8] Ildan: Oh, but before you go! I do have a few things to say. First, about the beads here.", "thepassage-ildan-13", false);
@@ -3527,7 +3527,7 @@ public class Sounds {
         s.addSound("[5/5] Yavlis: Such a shame that old guild has stooped to such a level. Well, we must thank you for your help. You can have the emerald ransom we had intended to pay.", "lostroyalty-yavlis-10", false);
 
         //Lost Soles
-        s.addSound("[1/1] Ferndor:  Have you seen boots called Abysso Galoshes on your journey? A pirate stole them from us years ago! I could reward you if you could bring me the [Abysso Galoshes] and help us!", "lostsoles-ferndor-1", false);
+        s.addSound("[1/1] Ferndor: Have you seen boots called Abysso Galoshes on your journey? A pirate stole them from us years ago! I could reward you if you could bring me the [Abysso Galoshes] and help us!", "lostsoles-ferndor-1", false);
         s.addSound("[1/8] Ferndor: I see you have the infamous galoshes with you. But do you know even half of the story of them?", "lostsoles-ferndor-2", false);
         s.addSound("[2/8] Ferndor: The boots were once owned by my ancestors, who decided to lock it away in this manor years ago.", "lostsoles-ferndor-3", false);
         s.addSound("[3/8] Ferndor: Nobody knows why they decided to hide the boots just after they got into my family's hands. I was told they were acquired from a strange man with pale grey skin.", "lostsoles-ferndor-4", false);
