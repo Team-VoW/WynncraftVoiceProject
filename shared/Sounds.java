@@ -3767,7 +3767,7 @@ public class Sounds {
         s.addSound("[1/4] Sir Pigglesworth the Thirty-Fifth: My goodness! Ah, it feels good to stretch these old bones. It's not easy being cooped up in a coffin, you know.", "lazaruspit-sirpigglesworththethirty-fifth-1", false);
         s.addSound("[1/2] Sir Pigglesworth the Thirty-Fifth: Oh, you found it! Wonderful! Just pop it on that fingerbone right there... Ah, it fits even better on the other hand!", "lazaruspit-sirpigglesworththethirty-fifth-2", false);
         s.addSound("[1/3] Burtur: Ah, you're back! We were getting a tad worried about you. Were you able to figure anything out in the chapel there?", "lazaruspit-burtur-17", false);
-        s.addSound("[10/11] Burtur: I'll stay back at the town square, in case the undead attack again. Give me a shout if you find something you aren't sure about.", "lazaruspit-burtur-18", true);
+        s.addSound("[11/11] Burtur: I'll stay back at the town square, in case the undead attack again. Give me a shout if you find something you aren't sure about.", "lazaruspit-burtur-18", true);
 
         //Sattered minds
         s.addSound("[1/6] Likeru: Aha, perfect! You'll be perfect! Lucky a human decided to come here!", "shatteredminds-likeru-1", false);
