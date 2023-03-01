@@ -1,12 +1,17 @@
 {
   "text.autoconfig.wynnvp.title": "Voices of wynning config",
   "text.autoconfig.wynnvp.option.playAllSoundsOnPlayer": "Play all sounds on player",
-  "text.autoconfig.wynnvp.option.logMissingLines": "Report missing lines",
+  "text.autoconfig.wynnvp.option.reportMissingLines": "Report missing lines",
   "text.autoconfig.wynnvp.option.anonymous": "Report missing lines anonymously",
   "text.autoconfig.wynnvp.option.sendFunFact": "Fun facts",
   "text.autoconfig.wynnvp.option.highlightSpeaker": "Highlight speaker",
   "text.autoconfig.wynnvp.option.blockCutOff": "Block cut off",
   "text.autoconfig.wynnvp.option.doLogging": "Do Logging",
-  "text.autoconfig.wynnvp.option.doLogging.@Tooltip": "If a custom log file should be created for things related to playing sounds",
+  "text.autoconfig.wynnvp.option.logDialogueLines": "Log dialogue lines",
+  "text.autoconfig.wynnvp.option.onlyLogNotPlayingLines": "Only log Not Playing Lines",
+  "text.autoconfig.wynnvp.option.logPlayingInformation": "Log playing information",
+  "text.autoconfig.wynnvp.option.logDialogueLines.@Tooltip": "If each time a dialogue that is encountered should be put into the vowlog.txt file",
+  "text.autoconfig.wynnvp.option.onlyLogNotPlayingLines.@Tooltip": "A setting for logDialogueLines to only log missing lines",
+  "text.autoconfig.wynnvp.option.logPlayingInformation.@Tooltip": "Log a bunch of miscellaneous things about playing sounds",
   "text.autoconfig.wynnvp.option.highlightSpeaker.@Tooltip": "Should there be an aura of particles highlighting the source of the sound?"
 }

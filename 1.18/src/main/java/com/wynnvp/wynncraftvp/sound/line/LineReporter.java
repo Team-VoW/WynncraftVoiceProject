@@ -27,9 +27,9 @@ public class LineReporter {
     }
 
     public void MissingLine(LineData lineData) {
-        if (!config.isLogMissingLines()
+        if (!config.isReportMissingLines()
                 || !ModCore.inLiveWynnServer
-                || !LineFormatter.isNPCSentLine(lineData.getRealLine())
+                || !lineData.isNPCSentLine()
                 || !VersionChecker.isOnUpToDateVersion) return;
 
 

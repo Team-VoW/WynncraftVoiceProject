@@ -77,7 +77,7 @@ public class LineReportGUI extends LightweightGuiDescription {
 
 
     private void onFullButtonClick() {
-        ModCore.config.setLogMissingLines(true);
+        ModCore.config.setReportMissingLines(true);
         ModCore.config.setAnonymous(false);
 
         HasDecided();
@@ -85,14 +85,14 @@ public class LineReportGUI extends LightweightGuiDescription {
     }
 
     private void onAnonymousButtonClick() {
-        ModCore.config.setLogMissingLines(true);
+        ModCore.config.setReportMissingLines(true);
         ModCore.config.setAnonymous(true);
         HasDecided();
 
     }
 
     private void onNoneButtonClick() {
-        ModCore.config.setLogMissingLines(false);
+        ModCore.config.setReportMissingLines(false);
         HasDecided();
     }
 

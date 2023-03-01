@@ -29,6 +29,12 @@ public class SoundPlayer {
 
     //Code that is run to play all the sounds
     public void playSound(LineData lineData) {
+        if (config.isLogPlayingInformation()){
+            VowLogger.logLine("[Attempting to play] " + lineData.getRealLine(), "Info");
+        }
+        if (!config.isOnlyLogNotPlayingLines() && config.isLogDialogueLines() && lineData.isNPCSentLine())
+            VowLogger.logLine(lineData.getRealLine());
+
         String line = lineData.getSoundLine();
 
         Player player = Minecraft.getInstance().player;
@@ -45,19 +51,22 @@ public class SoundPlayer {
     private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData, Player player, ClientLevel world) {
         String line = lineData.getSoundLine();
 
-            if (soundsHandler.get(line).isEmpty()) {
-            VowLogger.Log("[Real line] " + lineData.getRealLine() + " [Sound Line] " + lineData.getSoundLine(), "Missing");
+        if (soundsHandler.get(line).isEmpty()) {
+            if (config.isLogDialogueLines() && config.isOnlyLogNotPlayingLines() && lineData.isNPCSentLine())
+                VowLogger.logLine(lineData.getRealLine());
             lineReporter.MissingLine(lineData);
             return false;
         }
 
         if (player == null) {
-            VowLogger.Log("Player was null. Sound not played", "Error");
+            if (config.isLogPlayingInformation())
+                VowLogger.logLine("Player was null. Sound not played", "Error");
             return false;
         }
 
         if (world == null) {
-            VowLogger.Log("World was null. Sound not played", "Error");
+            if (config.isLogPlayingInformation())
+                VowLogger.logLine("World was null. Sound not played", "Error");
             return false;
         }
 

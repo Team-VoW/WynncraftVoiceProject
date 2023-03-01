@@ -1,7 +1,6 @@
 package com.wynnvp.wynncraftvp;
 
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
-import com.wynnvp.wynncraftvp.config.VOWConfig;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
@@ -24,7 +23,7 @@ public class ModCore implements ModInitializer {
     public SoundPlayer soundPlayer;
     public static final Logger LOGGER = LoggerFactory.getLogger("wynnvp");
 
-    public static VOWConfig config;
+    public static VOWAutoConfig config;
 
     @Override
     public void onInitialize() {
@@ -41,7 +40,7 @@ public class ModCore implements ModInitializer {
 
             config = AutoConfig.getConfigHolder(VOWAutoConfig.class).getConfig();
         } else {
-            config = new VOWConfig();
+            config = new VOWAutoConfig();
         }
 
         VowLogger.Initialize();

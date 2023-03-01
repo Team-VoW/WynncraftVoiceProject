@@ -13,6 +13,7 @@ public class VowLogger {
 
     private static final String fileName = "logs/vowLog.txt";
 
+    private static final String lastLineInDialoguePattern = "^\\[(\\d+)\\/\\1\\]\\s.*";
 
     public static void Initialize() {
 
@@ -55,27 +56,30 @@ public class VowLogger {
 
     }
 
-    public static void Log(String message, String logType) {
-
-        if (!ModCore.config.doLogging())
-            return;
+    public static void logLine(String message, String logType) {
 
         writeIfDoesNotContain("[" + logType + "] " + message);
 
         if (isLastLineInDialogue(message))
             write("\n");
+    }
 
+    public static void logLine(String message) {
+
+        writeIfDoesNotContain(message);
+
+        if (isLastLineInDialogue(message))
+            write("\n");
     }
 
 
-    private static boolean writeIfDoesNotContain(String message) {
+    private static void writeIfDoesNotContain(String message) {
 
         if (!addedLines.add(message))
-            return false;
+            return;
         message += "\n";
 
         write(message);
-        return true;
     }
 
     private static void write(String text) {
@@ -94,39 +98,7 @@ public class VowLogger {
 
     private static boolean isLastLineInDialogue(String message) {
 
-        char[] msgInArray = message.toCharArray();
-
-        //Does not contain dialogue numbers
-        if (!Character.isDigit(msgInArray[1])) {
-            return false;
-        }
-
-        //Example of a dialogue that will go through with this
-        // [2/2] Aledar: Hi!
-        if (charNumbersAreSame(msgInArray[1], msgInArray[3])) {
-            return true;
-        }
-
-        //Example of dialogues that will go through with this
-        // [15/15] Tasim: Stop.
-        if (charNumbersAreSame(msgInArray[1], msgInArray[4]) && charNumbersAreSame(msgInArray[2], msgInArray[5])) {
-            return true;
-        }
-
-        return false;
-    }
-
-    private static boolean charNumbersAreSame(char first, char second) {
-
-        //No numbers
-        if (!Character.isDigit(first) || !Character.isDigit(second)) {
-            return false;
-        }
-
-        if (Integer.parseInt("" + first) == (Integer.parseInt("" + second))) {
-            return true;
-        }
-        return false;
+        return message.matches(lastLineInDialoguePattern);
     }
 
 }

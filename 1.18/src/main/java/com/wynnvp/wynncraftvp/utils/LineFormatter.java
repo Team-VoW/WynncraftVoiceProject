@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 
 public class LineFormatter {
 
-    private static final Pattern NPC_DIALOGUE_PATTERN = Pattern.compile("^\\[\\d+/\\d+].+: .");
 
     public static LineData formatToLineData(String message) {
         LineData lineData = new LineData();
@@ -21,7 +20,4 @@ public class LineFormatter {
         return lineData;
     }
 
-    public static boolean isNPCSentLine(String line) {
-        return NPC_DIALOGUE_PATTERN.matcher(line).find();
-    }
 }
