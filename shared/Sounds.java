@@ -754,7 +754,7 @@ public class Sounds {
         s.addSound("[7/12] Imperial Soldier: Are you insulting the work of our royal engineers?", "recoverthepast-imperialguard-2", false);
         s.addSound("[8/12] Reynauld: What? No! I'm just explaining- Please! I have a family I didn't speak out of turn.", "recoverthepast-scoutreynauld-25", false);
         s.addSound("[9/12] Reynauld: Heine? Look after the kids. I'll be back soon!", "recoverthepast-scoutreynauld-26", false);
-        s.addSound("[10/12] Imperial Guard: The Palace does not tolerate insubordination. Reynauld you are to be tried for treachery", "recoverthepast-imperialguard-3", false);
+        s.addSound("[10/12] Imperial Guard: The Palace does not tolerate insubordination. Reynauld you are to be tried for treachery.", "recoverthepast-imperialguard-3", false);
         s.addSound("[11/12] Imperial Guard: This village would do well to remember who protects them from external forces.", "recoverthepast-imperialguard-4", false);
         s.addSound("[12/12] Dr. Picard: Hey. HEY! It's not real. Just a memory! Talk to me!", "recoverthepast-drpicard-12", false);
         s.addSound("[1/5] Dr. Picard: Well, that was unexpected. I didn't anticipate subjects would relive them that vividly.", "recoverthepast-drpicard-13", false);
@@ -786,10 +786,10 @@ public class Sounds {
         s.addSound("[4/5] Dr. Picard: Wait for it...", "recoverthepast-drpicard-20", false);
         s.addSound("[5/5] Sailor Caid: Hold up. What is going on?", "recoverthepast-caid-12", false);
         s.addSound("[1/7] ???: AHHH!!!!!", "recoverthepast-cara-1", false, new Vector3(-4528, 10, -2197));
-        s.addSound("[2/7] Imperial Guard: Move", "recoverthepast-imperialguard-5", false);
+        s.addSound("[2/7] Imperial Guard: Move.", "recoverthepast-imperialguard-5", false);
         s.addSound("[3/7] Caid: CARA!", "recoverthepast-caid-13", false);
         s.addSound("[4/7] Imperial Guard: Cara is under arrest. She is coming with me.", "recoverthepast-imperialguard-6", false);
-        s.addSound("[5/7] Caid: GET YOUR HANDS OFF OF HER!.", "recoverthepast-caid-14", false);
+        s.addSound("[5/7] Caid: GET YOUR HANDS OFF OF HER!", "recoverthepast-caid-14", false);
         s.addSound("[6/7] Imperial Guard: Perhaps you would like to go in her place?", "recoverthepast-imperialguard-7", false);
         s.addSound("[7/7] Dr. Picard: Hey. Earth to human.", "recoverthepast-drpicard-21", false);
         s.addSound("[1/4] Dr. Picard: Hmmm... This doesn't look too good.", "recoverthepast-drpicard-22", false);
@@ -824,7 +824,7 @@ public class Sounds {
         s.addSound("[14/23] Imperial Guard: There is no war i nside the Fruman walls.", "recoverthepast-imperialguard-12", false);
         s.addSound("[15/23] Imperial Guard: There is no war inside the Fruman walls.", "recoverthepast-imperialguard-13", false);
         s.addSound("[16/23] Imperial Guard: There is no war inside the Fruman walls.", "recoverthepast-imperialguard-14", false);
-        s.addSound("[22/23] Dr. Picard: robogov! Get out of there! You are being sucked into the memory.", "recoverthepast-drpicard-28", false);
+        s.addSound("[22/23] Dr. Picard: soldier! Get out of there! You are being sucked into the memory.", "recoverthepast-drpicard-28", false);
         s.addSound("[23/23] Dr. Picard: You need to find an exit or you will be sucked into the memory without chance of returning. HURRY!", "recoverthepast-drpicard-29", false);
         s.addSound("[1/5] Dr. Picard: Okay, three Frumans have seen the same thing. Why are they sending their people here?", "recoverthepast-drpicard-30", false);
         s.addSound("[2/5] Dr. Picard: This asks more questions than it answers. Those people didn't do anything wrong.", "recoverthepast-drpicard-31", false);
