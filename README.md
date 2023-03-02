@@ -17,11 +17,10 @@ to our [Patreon](https://www.patreon.com/WynnVP)
 ---------------------------------------------------------------------
 ## Contact information
 
-Contact us on Discord or the Wynncraft Forums:
-| Occupation             | Discord          | Wynncraft Forums                                         |
-|------------------------|------------------|----------------------------------------------------------|
-| Owner, Lead Programmer | kmaxi#5845       | https://forums.wynncraft.com/members/kmaxi.47110/        |
-| [Website](https://github.com/Team-VoW/VoicesOfWynn-Website) Developer      | Shady#2948       | https://forums.wynncraft.com/members/shadymedic.96734/   |
-| Head Voice Manager     | Colts#0644       | https://forums.wynncraft.com/members/coltsgirl111.159984/|
-| Event Manager          | Jetsinx#3838     | https://forums.wynncraft.com/members/jetsinx.150743/     |
-| Assisting Manager      | Italy Man#0413  | https://forums.wynncraft.com/members/techtician.153187/  |
+You can contact us on [Discord](https://discord.gg/kuEK3XH4Y5) or [Wynncraft Forums](https://forums.wynncraft.com/members/kmaxi.47110).
+
+Alternativelly, our inbox at [team@voicesofwynn.com](mailto:team@voicesofwynn.com) is also opened for your messages.
+
+## Credits
+
+To see everyone in our staff team and all of the contributors, visit our [credits webpage](https://voicesofwynn.com/credits).
