@@ -5968,7 +5968,11 @@ public class Sounds {
         s.addSound("[6/7] Sensei Miyagi: Nevertheless, you have completed the challenges of this humble Sensei, and as such, I will provide you what was promised.", "enterthedojo-senseimiyagi-31", false);
         s.addSound("[7/7] Sensei Miyagi: Wear this [Master's Gi] with pride, and remember this final lesson- There is never a point in life that you will stop learning. See the world and its lessons every day of your life, young master.", "enterthedojo-senseimiyagi-32", false);
         s.addSound("[1/1] Sensei Miyagi: Hoho... Yes, this old man still has plenty of life left in him. Do not waste the gifts you have, young master.", "enterthedojo-senseimiyagi-33", false);
-
+        s.addSound("[1/1] Sensei Miyagi: Of course, you wield a weapon to battle, so of course it is different from unarmed combat, hoho...", "enterthedojo-senseimiyagi-34", false);
+        s.addSound("[1/1] Sensei Miyagi: Perhaps you may be interested in learning to fight unarmed after!", "enterthedojo-senseimiyagi-35", false);
+        s.addSound("[1/1] Sensei Miyagi: Oh, this is getting quite good. I should get a snack to eat while I watch...", "enterthedojo-senseimiyagi-36", false);
+        s.addSound("[1/1] Sensei Miyagi: Hmhm, I'll be right back! Continue fighting- And do not worry if you finish before I return! I will be quick!", "enterthedojo-senseimiyagi-37", false);
+        s.addSound("[1/1] Sensei Miyagi: Ahh, there we are. Now come on, addled old brain of mine, where were we...", "enterthedojo-senseimiyagi-38", false);
 
         //Fantastic Voyage
         s.addSound("[1/1] Relend: You don't seem very mighty, come back when you're level 90!", "fantasticvoyage-relend-1", false);
