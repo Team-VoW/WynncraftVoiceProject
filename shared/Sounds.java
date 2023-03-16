@@ -2291,15 +2291,32 @@ public class Sounds {
 
         //Jungle Fever
         s.addSound("[1/6] Worid: Oh, I am so happy to see you! *cough*, I caught a very bad fever, and I really need help! *cough*", "junglefever-worid-1", false);
-        s.addSound("1/2thebanker64liquifiedemeralds?heiscrazy!liquifiedemeraldscannotcureanyonefromanythingexceptbeingpoor!", "junglefever-thebanker-1", false);
-        s.addSound("[1/4] Worid: Oh no! How will I ever cure my sickness without any Liquified Emeralds?... *cough*", "junglefever-worid-2", false);
-        s.addSound("[1/7] Worid: What? You're here already. I thought you would take too long so I just went myself.", "junglefever-worid-3", false);
-        s.addSound("[1/2] The Banker: Oh, uh! Somebody! It has been so long since I've seen someone!", "junglefever-thebanker-2", false);
-        s.addSound("[1/5] Worid: You are back! Wonderful!", "junglefever-worid-4", false);
-        s.addSound("[1/8] Worid: Oh no! How will I ever cure my sickness without any Liquified Emeralds?... cough", "junglefever-worid-5", false);
-        s.addSound("[1/6] Worid: You are back! Wonderful!", "junglefever-worid-6", false);
-        s.addSound("[1/1] Worid: cough cough!", "junglefever-worid-7", false);
-        s.addSound("[1/1] Worid: I feel so much better now, thank you for the cure!", "junglefever-worid-8", false);
+        s.addSound("[2/6] Worid: The only cure to this fever is to drink Liquid Emeralds! Yes, exactly! *cough*", "junglefever-worid-2", false);
+        s.addSound("[3/6] Worid: Do you think you could ask the Banker at Detlas if he could give me, oh I don't know, [64 Liquified Emeralds]?", "junglefever-worid-3", false);
+        s.addSound("[4/6] Worid: If he has the audacity to *cough* say no... you will have to use brute force...", "junglefever-worid-4", false);
+        s.addSound("[5/6] Worid: Break into *cough* the emerald storage, but don't take anything... come back to me immediately after, if you make it out alive, heheh...", "junglefever-worid-5", false);
+        s.addSound("[6/6] Worid: Oh, uh... I mean *cough* *cough*", "junglefever-worid-6", false);
+        s.addSound("[1/2] The Banker: [64 Liquified Emeralds]? He is crazy! Liquified Emeralds cannot cure anyone from anything, except being poor!", "junglefever-banker1-1", false);
+        s.addSound("[2/2] The Banker: I will not participate in this pathetic fraud attempt!", "junglefever-banker1-2", false);
+        s.addSound("[1/8] Worid: Oh no! How will I ever cure my sickness without any Liquified Emeralds?... *cough*", "junglefever-worid-7", false);
+        s.addSound("[2/8] Worid: We'll have to change our strategy, we don't ask for permission. It's to help me after all.", "junglefever-worid-8", false);
+        s.addSound("[3/8] Worid: I needed to make sure you could easily break into a bank. So i came here by myself to see if you could do it.", "junglefever-worid-9", false);
+        s.addSound("[4/8] Worid: You've proven your ability of stealth and strength by breaking into this storage, we can start the real thing now.", "junglefever-worid-10", false);
+        s.addSound("[5/8] Worid: You see, Almuj has a very well guarded emerald vault named \"The Emerald Labyrinth\".", "junglefever-worid-11", false);
+        s.addSound("[6/8] Worid: It is guarded with tons of well trained Guard Golems, who can kill anyone in one hit.", "junglefever-worid-12", false);
+        s.addSound("[7/8] Worid: The Banker in the secret vault must be completely bored out of his mind, and won't mind if you find him.", "junglefever-worid-13", false);
+        s.addSound("[8/8] Worid: Good luck with that. Haha.. I mean, *cough*.", "junglefever-worid-14", false);
+        s.addSound("[1/2] The Banker: Oh, uh! Somebody! It has been so long since I've seen someone!", "junglefever-banker2-1", false);
+        s.addSound("[2/2] The Banker: Liquified Emeralds? Of course, of course! I've got tons! Here, take them.", "junglefever-banker2-2", false);
+        s.addSound("[1/6] Worid: You are back! Wonderful!", "junglefever-worid-15", false);
+        s.addSound("[2/6] Worid: I followed you here because.. *cough* I just could not wait.. *cough*", "junglefever-worid-16", false);
+        s.addSound("[2/6] Worid: That is a lot of money, thank you very much, I will finally be able to... *cough* to cure myself!", "junglefever-worid-17", false);
+        s.addSound("[3/6] Worid: Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I've instead paid you with a key.", "junglefever-worid-18", false);
+        s.addSound("[4/6] Worid: I stole- *cough* I mean, borrowed it, from our tribe's leader. Apparently it was used to lock up a great evil.", "junglefever-worid-19", false);
+        s.addSound("[5/6] Worid: Good ridda- *cough* Er... luck. Yes, good luck, adventurer!", "junglefever-worid-20", false);
+        s.addSound("[1/1] Worid: cough cough!", "junglefever-worid-21", false);
+        s.addSound("[1/1] Worid: I feel so much better now, thank you for the cure!", "junglefever-worid-22", false);
+
 
         //Corrupted Betrayal
         s.addSound("[1/1] Troms Mage: Stay back! I'm casting a fireball at this barrier!", "corruptedbetrayal-tromsmage-1", false);

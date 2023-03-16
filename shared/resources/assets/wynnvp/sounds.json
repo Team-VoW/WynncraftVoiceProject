@@ -31456,10 +31456,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:junglefever-worid-1", "stream": true}]
   },
-  "junglefever-thebanker-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:junglefever-thebanker-1", "stream": true}]
-  },
   "junglefever-worid-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:junglefever-worid-2", "stream": true}]
@@ -31467,10 +31463,6 @@
   "junglefever-worid-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:junglefever-worid-3", "stream": true}]
-  },
-  "junglefever-thebanker-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:junglefever-thebanker-2", "stream": true}]
   },
   "junglefever-worid-4": {
     "category": "voice",
@@ -31484,6 +31476,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:junglefever-worid-6", "stream": true}]
   },
+  "junglefever-banker1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-banker1-1", "stream": true}]
+  },
+  "junglefever-banker1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-banker1-2", "stream": true}]
+  },
   "junglefever-worid-7": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:junglefever-worid-7", "stream": true}]
@@ -31492,6 +31492,71 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:junglefever-worid-8", "stream": true}]
   },
+  "junglefever-worid-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-9", "stream": true}]
+  },
+  "junglefever-worid-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-10", "stream": true}]
+  },
+  "junglefever-worid-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-11", "stream": true}]
+  },
+  "junglefever-worid-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-12", "stream": true}]
+  },
+  "junglefever-worid-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-13", "stream": true}]
+  },
+  "junglefever-worid-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-14", "stream": true}]
+  },
+  "junglefever-banker2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-banker2-1", "stream": true}]
+  },
+  "junglefever-banker2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-banker2-2", "stream": true}]
+  },
+  "junglefever-worid-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-15", "stream": true}]
+  },
+  "junglefever-worid-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-16", "stream": true}]
+  },
+  "junglefever-worid-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-17", "stream": true}]
+  },
+  "junglefever-worid-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-18", "stream": true}]
+  },
+  "junglefever-worid-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-19", "stream": true}]
+  },
+  "junglefever-worid-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-20", "stream": true}]
+  },
+  "junglefever-worid-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-21", "stream": true}]
+  },
+  "junglefever-worid-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:junglefever-worid-22", "stream": true}]
+  },
+
 
 
   "questionmark-computer-1": {
