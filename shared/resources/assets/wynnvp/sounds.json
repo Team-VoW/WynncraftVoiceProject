@@ -3431,6 +3431,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enterthedojo-challengerapprentice-4", "stream": true}]
   },
+  "enterthedojo-challengerapprentice-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enterthedojo-challengerapprentice-5", "stream": true}]
+  },
+  "enterthedojo-challengerapprentice-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enterthedojo-challengerapprentice-6", "stream": true}]
+  },
   "enterthedojo-senseimiyagi-10": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enterthedojo-senseimiyagi-10", "stream": true}]
