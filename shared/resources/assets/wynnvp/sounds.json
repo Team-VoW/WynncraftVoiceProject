@@ -4658,9 +4658,53 @@
 
 
 
-  "tempotowntrouble-dougthescout-1": {
+  "tempotowntrouble-tyko-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:tempotowntrouble-dougthescout-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-1", "stream": true}]
+  },
+  "tempotowntrouble-tyko-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-2", "stream": true}]
+  },
+  "tempotowntrouble-tyko-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-3", "stream": true}]
+  },
+  "tempotowntrouble-tyko-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-4", "stream": true}]
+  },
+  "tempotowntrouble-tyko-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-5", "stream": true}]
+  },
+  "tempotowntrouble-tyko-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-6", "stream": true}]
+  },
+  "tempotowntrouble-tyko-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-7", "stream": true}]
+  },
+  "tempotowntrouble-tyko-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-8", "stream": true}]
+  },
+  "tempotowntrouble-tyko-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-9", "stream": true}]
+  },
+  "tempotowntrouble-tyko-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-10", "stream": true}]
+  },
+  "tempotowntrouble-tyko-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-11", "stream": true}]
+  },
+  "tempotowntrouble-tyko-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-12", "stream": true}]
   },
   "tempotowntrouble-homelessmayor-1": {
     "category": "voice",
@@ -4669,14 +4713,6 @@
   "tempotowntrouble-homelessmayor-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-2", "stream": true}]
-  },
-  "tempotowntrouble-oldmanmartyn-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-1", "stream": true}]
-  },
-  "tempotowntrouble-tyko-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:tempotowntrouble-tyko-1", "stream": true}]
   },
   "tempotowntrouble-homelessmayor-3": {
     "category": "voice",
@@ -4690,6 +4726,155 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-5", "stream": true}]
   },
+  "tempotowntrouble-homelessmayor-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-6", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-7", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-8", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-9", "stream": true}]
+  },
+  "tempotowntrouble-scout-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-scout-1", "stream": true}]
+  },
+  "tempotowntrouble-scout-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-scout-2", "stream": true}]
+  },
+  "tempotowntrouble-scout-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-scout-3", "stream": true}]
+  },
+  "tempotowntrouble-scout-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-scout-4", "stream": true}]
+  },
+  "tempotowntrouble-scout-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-scout-5", "stream": true}]
+  },
+  "tempotowntrouble-scout-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-scout-6", "stream": true}]
+  },
+  "tempotowntrouble-scout-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-scout-7", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-1", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-2", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-3", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-4", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-5", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-6", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-7", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-8", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-9", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-10", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-11", "stream": true}]
+  },
+  "tempotowntrouble-oldmanmartyn-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-oldmanmartyn-12", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-10", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-11", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-12", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-13", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-14", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-15", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-16", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-17", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-18", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-19", "stream": true}]
+  },
+  "tempotowntrouble-scout-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-scout-8", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-20", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-21", "stream": true}]
+  },
+  "tempotowntrouble-homelessmayor-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-22", "stream": true}]
+  },
+
 
 
   "themercenary-mylo-1": {
