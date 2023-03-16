@@ -3439,6 +3439,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enterthedojo-challengerapprentice-6", "stream": true}]
   },
+  "enterthedojo-challengerapprentice-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:enterthedojo-challengerapprentice-7", "stream": true}]
+  },
   "enterthedojo-senseimiyagi-10": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:enterthedojo-senseimiyagi-10", "stream": true}]

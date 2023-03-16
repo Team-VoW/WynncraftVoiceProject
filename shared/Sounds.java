@@ -5992,6 +5992,7 @@ public class Sounds {
         s.addSound("[1/1] Challenger Apprentice: Alas, after all my training, I can not muster the power to conquer Sensei Miyagi's combat challenge... it is the only challenge that defeats me!", "enterthedojo-challengerapprentice-4", false);
         s.addSound("[1/1] Challenger Apprentice: I see you have mustered the power to defeat all four challenges. You have my utmost respect.", "enterthedojo-challengerapprentice-5", false);
         s.addSound("[1/1] Challenger Apprentice: I congratulate you my friend on your success in the challenges, but the real reward in this situation is the experience, not the physical reward!", "enterthedojo-challengerapprentice-6", false);
+        s.addSound("[1/1] Challenger Apprentice: I congratulate you on your recent success regarding the four challenges. I envy you and your success.", "enterthedojo-challengerapprentice-7", false);
         s.addSound("[1/1] Sensei Miyagi: Here we are then- The  Room. Here tests your agility! Even these old bones can scale this room in short order- How shall you fare?", "enterthedojo-senseimiyagi-10", true);
         s.addSound("[1/3] Sensei Miyagi: I recognize your skill, and you have passed the challenge of the  Room! Hoho, but the next challenge has defeated many an apprentice.", "enterthedojo-senseimiyagi-11", false);
         s.addSound("[2/3] Sensei Miyagi: Now, comes the  Room! Here, your combat prowess shall be put to the test. Martial skill comes easily to me...but what of your own?", "enterthedojo-senseimiyagi-12", false);
