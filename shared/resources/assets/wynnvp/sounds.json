@@ -30348,22 +30348,435 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:purpleandblue-korun-2", "stream": true}]
   },
-  "purpleandblue-nedlom-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:purpleandblue-nedlom-1", "stream": true}]
-  },
-  "purpleandblue-nedlom-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:purpleandblue-nedlom-2", "stream": true}]
-  },
-  "purpleandblue-gryndilinchief-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:purpleandblue-gryndilinchief-1", "stream": true}]
-  },
   "purpleandblue-korun-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:purpleandblue-korun-3", "stream": true}]
   },
+  "purpleandblue-korun-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-4", "stream": true}]
+  },
+  "purpleandblue-korun-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-5", "stream": true}]
+  },
+  "purpleandblue-korun-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-6", "stream": true}]
+  },
+  "purpleandblue-korun-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-7", "stream": true}]
+  },
+  "purpleandblue-korun-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-8", "stream": true}]
+  },
+  "purpleandblue-korun-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-9", "stream": true}]
+  },
+  "purpleandblue-korun-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-10", "stream": true}]
+  },
+  "purpleandblue-korun-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-11", "stream": true}]
+  },
+  "purpleandblue-korun-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-12", "stream": true}]
+  },
+  "purpleandblue-korun-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-13", "stream": true}]
+  },
+  "purpleandblue-korun-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-14", "stream": true}]
+  },
+  "purpleandblue-korun-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-15", "stream": true}]
+  },
+  "purpleandblue-nikoler-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-1", "stream": true}]
+  },
+  "purpleandblue-nikoler-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-2", "stream": true}]
+  },
+  "purpleandblue-nikoler-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-3", "stream": true}]
+  },
+  "purpleandblue-nikoler-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-4", "stream": true}]
+  },
+  "purpleandblue-nikoler-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-5", "stream": true}]
+  },
+  "purpleandblue-nikoler-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-6", "stream": true}]
+  },
+  "purpleandblue-nikoler-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-7", "stream": true}]
+  },
+  "purpleandblue-nikoler-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-8", "stream": true}]
+  },
+  "purpleandblue-nikoler-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-9", "stream": true}]
+  },
+  "purpleandblue-nikoler-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-10", "stream": true}]
+  },
+  "purpleandblue-korun-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-16", "stream": true}]
+  },
+  "purpleandblue-korun-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-17", "stream": true}]
+  },
+  "purpleandblue-korun-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-18", "stream": true}]
+  },
+  "purpleandblue-korun-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-19", "stream": true}]
+  },
+  "purpleandblue-korun-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-20", "stream": true}]
+  },
+  "purpleandblue-korun-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-21", "stream": true}]
+  },
+  "purpleandblue-nikoler-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-11", "stream": true}]
+  },
+  "purpleandblue-nikoler-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-12", "stream": true}]
+  },
+  "purpleandblue-nikoler-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-13", "stream": true}]
+  },
+  "purpleandblue-nikoler-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-14", "stream": true}]
+  },
+  "purpleandblue-nikoler-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-15", "stream": true}]
+  },
+  "purpleandblue-nikoler-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-16", "stream": true}]
+  },
+  "purpleandblue-nikoler-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-17", "stream": true}]
+  },
+  "purpleandblue-nikoler-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-18", "stream": true}]
+  },
+  "purpleandblue-nikoler-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-19", "stream": true}]
+  },
+  "purpleandblue-nikoler-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-20", "stream": true}]
+  },
+  "purpleandblue-nikoler-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-21", "stream": true}]
+  },
+  "purpleandblue-nikoler-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-22", "stream": true}]
+  },
+  "purpleandblue-nikoler-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-23", "stream": true}]
+  },
+  "purpleandblue-nikoler-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-24", "stream": true}]
+  },
+  "purpleandblue-nikoler-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-25", "stream": true}]
+  },
+  "purpleandblue-nikoler-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-26", "stream": true}]
+  },
+  "purpleandblue-nikoler-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-27", "stream": true}]
+  },
+  "purpleandblue-nikoler-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-28", "stream": true}]
+  },
+  "purpleandblue-korun-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-22", "stream": true}]
+  },
+  "purpleandblue-korun-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-23", "stream": true}]
+  },
+  "purpleandblue-nikoler-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-29", "stream": true}]
+  },
+  "purpleandblue-nikoler-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-30", "stream": true}]
+  },
+  "purpleandblue-korun-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-24", "stream": true}]
+  },
+  "purpleandblue-korun-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-25", "stream": true}]
+  },
+  "purpleandblue-nikoler-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-31", "stream": true}]
+  },
+  "purpleandblue-korun-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-26", "stream": true}]
+  },
+  "purpleandblue-korun-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-27", "stream": true}]
+  },
+  "purpleandblue-nikoler-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-32", "stream": true}]
+  },
+  "purpleandblue-korun-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-28", "stream": true}]
+  },
+  "purpleandblue-korun-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-29", "stream": true}]
+  },
+  "purpleandblue-korun-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-30", "stream": true}]
+  },
+  "purpleandblue-korun-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-31", "stream": true}]
+  },
+  "purpleandblue-korun-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-32", "stream": true}]
+  },
+  "purpleandblue-korun-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-33", "stream": true}]
+  },
+  "purpleandblue-korun-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-34", "stream": true}]
+  },
+  "purpleandblue-korun-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-35", "stream": true}]
+  },
+  "purpleandblue-korun-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-36", "stream": true}]
+  },
+  "purpleandblue-nikoler-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-33", "stream": true}]
+  },
+  "purpleandblue-nikoler-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-34", "stream": true}]
+  },
+  "purpleandblue-nikoler-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-35", "stream": true}]
+  },
+  "purpleandblue-nikoler-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-36", "stream": true}]
+  },
+  "purpleandblue-nikoler-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-37", "stream": true}]
+  },
+  "purpleandblue-nikoler-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-38", "stream": true}]
+  },
+  "purpleandblue-nikoler-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-39", "stream": true}]
+  },
+  "purpleandblue-nikoler-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-40", "stream": true}]
+  },
+  "purpleandblue-nikoler-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-41", "stream": true}]
+  },
+  "purpleandblue-nikoler-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-42", "stream": true}]
+  },
+  "purpleandblue-nikoler-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-43", "stream": true}]
+  },
+  "purpleandblue-nikoler-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-44", "stream": true}]
+  },
+  "purpleandblue-nikoler-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-45", "stream": true}]
+  },
+  "purpleandblue-nikoler-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-46", "stream": true}]
+  },
+  "purpleandblue-nikoler-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-47", "stream": true}]
+  },
+  "purpleandblue-nikoler-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-nikoler-48", "stream": true}]
+  },
+  "purpleandblue-korun-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-37", "stream": true}]
+  },
+  "purpleandblue-korun-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-38", "stream": true}]
+  },
+  "purpleandblue-korun-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-39", "stream": true}]
+  },
+  "purpleandblue-korun-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-40", "stream": true}]
+  },
+  "purpleandblue-korun-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-41", "stream": true}]
+  },
+  "purpleandblue-korun-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-42", "stream": true}]
+  },
+  "purpleandblue-korun-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-43", "stream": true}]
+  },
+  "purpleandblue-korun-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-44", "stream": true}]
+  },
+  "purpleandblue-korun-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-45", "stream": true}]
+  },
+  "purpleandblue-korun-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-46", "stream": true}]
+  },
+  "purpleandblue-korun-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-47", "stream": true}]
+  },
+  "purpleandblue-korun-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-48", "stream": true}]
+  },
+  "purpleandblue-korun-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-49", "stream": true}]
+  },
+  "purpleandblue-korun-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-50", "stream": true}]
+  },
+  "purpleandblue-korun-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-51", "stream": true}]
+  },
+  "purpleandblue-korun-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-52", "stream": true}]
+  },
+  "purpleandblue-korun-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-53", "stream": true}]
+  },
+  "purpleandblue-korun-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-54", "stream": true}]
+  },
+  "purpleandblue-korun-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-55", "stream": true}]
+  },
+  "purpleandblue-korun-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-56", "stream": true}]
+  },
+  "purpleandblue-korun-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-57", "stream": true}]
+  },
+  "purpleandblue-korun-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-58", "stream": true}]
+  },
+  "purpleandblue-korun-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-59", "stream": true}]
+  },
+  "purpleandblue-korun-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-60", "stream": true}]
+  },
+  "purpleandblue-korun-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:purpleandblue-korun-61", "stream": true}]
+  },
+
 
 
 
