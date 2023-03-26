@@ -18106,6 +18106,67 @@
   },
 
 
+  "flightindistress-engineereric-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-1", "stream": true}]
+  },
+  "flightindistress-engineereric-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-2", "stream": true}]
+  },
+  "flightindistress-engineereric-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-3", "stream": true}]
+  },
+  "flightindistress-engineereric-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-4", "stream": true}]
+  },
+  "flightindistress-engineereric-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-5", "stream": true}]
+  },
+  "flightindistress-engineereric-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-6", "stream": true}]
+  },
+  "flightindistress-engineereric-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-7", "stream": true}]
+  },
+  "flightindistress-engineereric-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-8", "stream": true}]
+  },
+  "flightindistress-engineereric-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-9", "stream": true}]
+  },
+  "flightindistress-engineereric-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-10", "stream": true}]
+  },
+  "flightindistress-engineereric-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-11", "stream": true}]
+  },
+  "flightindistress-engineereric-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-12", "stream": true}]
+  },
+  "flightindistress-engineereric-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-13", "stream": true}]
+  },
+  "flightindistress-engineereric-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-14", "stream": true}]
+  },
+  "flightindistress-engineereric-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:flightindistress-engineereric-15", "stream": true}]
+  },
+
 
 
 
