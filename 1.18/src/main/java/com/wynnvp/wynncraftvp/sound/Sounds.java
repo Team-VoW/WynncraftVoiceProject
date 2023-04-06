@@ -5312,6 +5312,22 @@ public class Sounds {
         s.addSound("[1/1] Passenger Nancy: Have you found my child?", "flightindistress-passengernancy-2", false);
         s.addSound("[1/2] Passenger Jeremy: That ship the little kid that was talking about...", "flightindistress-passengerjeremy-1", false);
         s.addSound("[1/4] Calo: Hey there. You must be the Human Ackbar told me about.", "flightindistress-calo-1", false);
+        s.addSound("[1/7] Engineer Eric: Ye must be the 'uman the captain done told me about.", "flightindistress-engineereric-1", false);
+        s.addSound("[2/7] Engineer Eric: We sure are havin' quite the situation down 'ere.", "flightindistress-engineereric-2", false);
+        s.addSound("[3/7] Engineer Eric: I hafta stay here and man the 'ngines, else she might damage 'erself.", "flightindistress-engineereric-3", false);
+        s.addSound("[4/7] Engineer Eric: If ye wanna help 'uman, go on up the riggin' and take a gander at the props.", "flightindistress-engineereric-4", false);
+        s.addSound("[5/7] Engineer Eric: Ye can get to 'em through the access 'atches in the bridge.", "flightindistress-engineereric-5", false);
+        s.addSound("[6/7] Engineer Eric: If'n they are stopped, just hit the breakers that are off.", "flightindistress-engineereric-6", false);
+        s.addSound("[7/7] Engineer Eric: Come back here when ye done. I need ta stay here and keep her cool.", "flightindistress-engineereric-7", false);
+        s.addSound("[1/2] Engineer Eric: I need ta take care of the 'ngines, stay clear!", "flightindistress-engineereric-8", false);
+        s.addSound("[2/2] Engineer Eric: If'n you are lost, take a gander at ya quest book!", "flightindistress-engineereric-9", false);
+        s.addSound("[1/5] Engineer Eric: Thank ye! The 'ngines are back up and running!", "flightindistress-engineereric-10", false);
+        s.addSound("[2/5] Engineer Eric: I couldn't have dun it without ye.", "flightindistress-engineereric-11", false);
+        s.addSound("[3/5] Engineer Eric: You go back to yer quarters and get some rest. A passen'er like yerself shouldn' have to help the crew.", "flightindistress-engineereric-12", false);
+        s.addSound("[4/5] Engineer Eric: I hope the rest of yer journey is good. I'll let the good cap'n know so he can turn her up ta max and get us movin' again.", "flightindistress-engineereric-13", false);
+        s.addSound("[5/5] Engineer Eric: Thanks 'uman.", "flightindistress-engineereric-14", false);
+        s.addSound("[1/1] Engineer Eric: Hol' togetha old girl, ye got this!", "flightindistress-engineereric-15", false);
+
 
         //The Bigger Picture
         s.addSound("[1/6] Psilo: Welcome, large human! What's that look for, never seen a Gnome before?! My house may look small, but it's perfect for me!", "thebiggerpicture-psilo-1", false);
