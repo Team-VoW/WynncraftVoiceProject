@@ -3169,10 +3169,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-24", "stream": true}]
   },
-  "thesewersofragni-questionmark-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:thesewersofragni-questionmark-1", "stream": true}]
-  },
 
   "decriptsewers-witherehead-1": {
     "category": "voice",
@@ -3185,6 +3181,19 @@
   "decriptsewers-witherehead-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:decriptsewers-witherehead-3", "stream": true}]
+  },
+
+  "cds-witherehead-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cds-witherehead-1", "stream": true}]
+  },
+  "cds-witherehead-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cds-witherehead-2", "stream": true}]
+  },
+  "cds-witherehead-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cds-witherehead-3", "stream": true}]
   },
 
   "starthief-agent-1": {

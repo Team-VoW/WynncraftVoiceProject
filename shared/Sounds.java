@@ -255,7 +255,6 @@ public class Sounds {
         s.addSound("[1/1] Jenprest: I fear we face a much worse enemy than a blocked drain..", "thesewersofragni-jenprest-22", false);
         s.addSound("[1/2] Jenprest: Hello, I am a lieutenant in the Ragni army. I have a job for you soldier.", "thesewersofragni-jenprest-23", false);
         s.addSound("[2/2] Jenprest: Wait, you aren't level 5 yet! Come back to me when you get stronger.", "thesewersofragni-jenprest-24", false);
-        s.addSound("[1/1] ???: Release me...", "thesewersofragni-questionmark-1", false);
 
         //Tunnel Trouble
         s.addSound("[1/5] Captain Fenor: Ah! You must be a new recruit! Well, I've got a mission for you.", "tunneltrouble-captainfenor-1", false);
@@ -9148,14 +9147,16 @@ public class Sounds {
         s.addSound("[1/1] Seaskipper: There you go. Come again!", "seaskipper-seaskippercaptain-84", true);
         s.addSound("[1/4] Seaskipper Captain: Ohoh, that reminds me! I’ve got a letter for you - special delivery from a Corkian fellow. White hair, goggles, the lot.", "seaskipper-seaskippercaptain-85", true);
 
-
-
-
-
         //Decrepit Sewers
         s.addSound("[1/1] ???: You dare enter these sewers, human? These pipes once hid the civilians of Ragni during raids... Now it just holds corpses.", "decriptsewers-witherehead-1", true);
         s.addSound("[1/1] ???: The forces of the Humans could not save me when I hid here, and they can't save you either.", "decriptsewers-witherehead-2", true);
         s.addSound("[1/1] Witherhead: You persist through the sludge, now you will join me like the rest!", "decriptsewers-witherehead-3", true);
+
+        //Corrupted Decrepit Sewers
+        s.addSound("[1/1] ???: You dare enter these sewers, human? This mistake will cost you your life.", "cds-witherehead-1", true);
+        s.addSound("[1/1] ???: ... How foolish of you... to come back here... after what happened.", "cds-witherehead-2", true);
+        s.addSound("[1/1] Corrupted Witherhead: You... you've come HERE before. You shouldn't be alive....", "cds-witherehead-3", true);
+
 
         //infestid pit
         s.addSound("[1/2] ???: Oh, it seems I have a guest. You're just in time for dinner... hehe..", "infestidpit-arakadicus-1", true);
