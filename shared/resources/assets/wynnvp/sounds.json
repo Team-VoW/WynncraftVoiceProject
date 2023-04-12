@@ -12007,6 +12007,50 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:underwater-omango-2", "stream": true}]
   },
+  "underwater-omango-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-3", "stream": true}]
+  },
+  "underwater-omango-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-4", "stream": true}]
+  },
+  "underwater-omango-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-5", "stream": true}]
+  },
+  "underwater-omango-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-6", "stream": true}]
+  },
+  "underwater-omango-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-7", "stream": true}]
+  },
+  "underwater-omango-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-8", "stream": true}]
+  },
+  "underwater-omango-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-9", "stream": true}]
+  },
+  "underwater-omango-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-10", "stream": true}]
+  },
+  "underwater-omango-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-11", "stream": true}]
+  },
+  "underwater-omango-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-12", "stream": true}]
+  },
+  "underwater-omango-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-13", "stream": true}]
+  },
   "underwater-sayrr-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:underwater-sayrr-1", "stream": true}]
@@ -12015,6 +12059,63 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:underwater-sayrr-2", "stream": true}]
   },
+  "underwater-sayrr-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-3", "stream": true}]
+  },
+  "underwater-sayrr-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-4", "stream": true}]
+  },
+  "underwater-sayrr-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-5", "stream": true}]
+  },
+  "underwater-sayrr-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-6", "stream": true}]
+  },
+  "underwater-sayrr-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-7", "stream": true}]
+  },
+  "underwater-sayrr-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-8", "stream": true}]
+  },
+  "underwater-sayrr-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-9", "stream": true}]
+  },
+  "underwater-sayrr-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-10", "stream": true}]
+  },
+  "underwater-sayrr-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-11", "stream": true}]
+  },
+  "underwater-sayrr-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-12", "stream": true}]
+  },
+  "underwater-sayrr-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-13", "stream": true}]
+  },
+  "underwater-sayrr-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-sayrr-14", "stream": true}]
+  },
+  "underwater-omango-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-14", "stream": true}]
+  },
+  "underwater-omango-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underwater-omango-15", "stream": true}]
+  },
+
 
 
   "dwellingwalls-leucsaa-1": {

@@ -306,11 +306,37 @@ public class Sounds {
         s.addSound("[1/1] Sergeant Klafson: Hello again, soldier! Doing great things around the province, I presume?", "tunneltrouble-sergeantklafson-4", false);
         s.addSound("[1/1] Sergeant Klafson: I'm sorry, recruit, but that passage is blocked. We used to use it, but not anymore...", "tunneltrouble-sergeantklafson-5", false);
 
-        //Underwater
+//Underwater
+        s.addSound("[1/1] Omango: Go through the cave and talk with my friend Sayrr, he can give you the helmet. After that, explore the ship and bring me [4 Ancient Treasure].", "underwater-omango-1", false);
+        s.addSound("[1/1] Omango: Glad to see you again!", "underwater-omango-2", false);
+        s.addSound("[1/1] Omango: You are too low level to help me, yet. Come back when you are level 8.", "underwater-omango-3", false);
+        s.addSound("[1/1] Omango: It would be madness to explore this hole without a breathing helmet!", "underwater-omango-4", false);
+        s.addSound("[1/9] Omango: Hi, my name is Omango. I am a resident of the Maltic village, on top of the hill.", "underwater-omango-5", false);
+        s.addSound("[2/9] Omango: As you may know, our people came to your land years ago, and this is the ship they used.", "underwater-omango-6", false);
+        s.addSound("[3/9] Omango: They brought lots of luxurious goods with them. Most of them got lost in the wreck.", "underwater-omango-7", false);
+        s.addSound("[4/9] Omango: But recently, a small hole has opened in the shipwreck here. It is believed that fortune is hidden within it.", "underwater-omango-8", false);
+        s.addSound("[5/9] Omango: Unfortunately, nobody has been able to explore it. It is too deep, no creature can survive underwater that long!", "underwater-omango-9", false);
+        s.addSound("[6/9] Omango: However, my old friend Sayrr is a fisherman, and I know that he has a very special helmet...", "underwater-omango-10", false);
+        s.addSound("[7/9] Omango: If you convince him to give you this helmet, and find the treasure, I'll give you a part of it!", "underwater-omango-11", false);
+        s.addSound("[8/9] Omango: Sayrr is out on his boat, but the cave next to me is a quick way over to where he does his fishing. Be careful on the way, though.", "underwater-omango-12", false);
+        s.addSound("[9/9] Omango: When you finally have the helmet, explore the ship and bring me back [4 Ancient Treasure]. Good luck.", "underwater-omango-13", false);
         s.addSound("[1/6] Sayrr: Why ya looking at me like that? Is it cause I'm small, eh? I'll have you know that I caught fish that were twice your size!", "underwater-sayrr-1", false);
-        s.addSound("[1/2] Sayrr: Ah! Welcome back! Any luck with the fish?", "underwater-sayrr-2", false);
-        s.addSound("[1/9] Omango: Hi, my name is Omango. I am a resident of the Maltic village, on top of the hill.", "underwater-omango-1", false);
-        s.addSound("[1/2] Omango: You got it! You found the treasure!", "underwater-omango-2", false);
+        s.addSound("[2/6] Sayrr: ...or, well, I used to be able to. Nothing's biting recently- wait a sec, why'd you hop on my boat anyways, stranger?", "underwater-sayrr-2", false);
+        s.addSound("[3/6] Sayrr: Ahah! Yes, I still have that old breathing helmet. You want it? You'll have to do something for me first.", "underwater-sayrr-3", false);
+        s.addSound("[4/6] Sayrr: I'm sure you heard me, but the fish just aren't biting around here anymore! I need to make a living somehow! There's some fish in that cave, but...", "underwater-sayrr-4", false);
+        s.addSound("[5/6] Sayrr: ...it's a bit dangerous. Tell ya what, I'll give you my fishing rod, and you can go catch me, say, [10 Gudgeon Meat] down there.", "underwater-sayrr-5", false);
+        s.addSound("[6/6] Sayrr: The helmet will be all yours after that.", "underwater-sayrr-6", false);
+        s.addSound("[1/2] Sayrr: Ah! Welcome back! Any luck with the fish?", "underwater-sayrr-7", false);
+        s.addSound("[2/2] Sayrr: Great, and I'll thank you kindly. Here's your helmet, have fun with that.", "underwater-sayrr-8", false);
+        s.addSound("[1/1] Sayrr: I will need those [10 Gudgeon Meat] from the cave if you want that helmet!", "underwater-sayrr-9", false);
+        s.addSound("[1/2] Sayrr: You have lost the helmet already?", "underwater-sayrr-10", false);
+        s.addSound("[1/2] Sayrr: Let me help you then! Bring me back [10 Gudgeon Meat] from the cave just like last time and i will give you one back! Deal?", "underwater-sayrr-11", false);
+        s.addSound("[1/2] Sayrr: You are back already?", "underwater-sayrr-12", false);
+        s.addSound("[1/2] Sayrr: It seems you got everything i needed, here is your brand new helmet!", "underwater-sayrr-13", false);
+        s.addSound("[1/1] Sayrr: You should go see Omango back near the crashed ship!", "underwater-sayrr-14", false);
+        s.addSound("[1/2] Omango: You got it! You found the treasure!", "underwater-omango-14", false);
+        s.addSound("[2/2] Omango: As promised, here's your part of the loot.", "underwater-omango-15", false);
+
 
         //Mushroom man
         s.addSound("[1/2] Yahya: G-... Hi! What a coincidence, I... I actually need you, yes.", "mushroomman-yahya-1", false);
@@ -8753,7 +8779,7 @@ public class Sounds {
         s.addSound("[13/14] Aledar: Ready?! Cast any spell!", "ajourneybeyond-aledar-18", false);
         s.addSound("[14/14] Aledar: Lucio, Elphaba! Run!", "ajourneybeyond-aledar-19", false);
         s.addSound("[1/7] Elphaba: We all here? Where’s Lucio?", "ajourneybeyond-elphaba-20", false);
-        s.addSound("[2/7] Lucio: Guys… Any help? I'm stuck!", "ajourneybeyond-lucio-11", false);
+        s.addSound("[2/7] Lucio: Guys... Any help? I'm stuck!", "ajourneybeyond-lucio-11", false);
         s.addSound("[3/7] Elphaba: Phew, here. Let me get you out.", "ajourneybeyond-elphaba-21", false);
         s.addSound("[4/7] Lucio: I'm sorry, team. I've never seen a monster like that before.", "ajourneybeyond-lucio-12", false);
         s.addSound("[5/7] Aledar: It looks like our problem isn't firepower. It's something else. It's like our weapons just didn't affect it at all.", "ajourneybeyond-aledar-20", false);
@@ -8768,7 +8794,7 @@ public class Sounds {
         s.addSound("[6/19] Dren: Air...", "ajourneybeyond-dren-4", false);
         s.addSound("[7/19] Dren: Water...", "ajourneybeyond-dren-5", false);
         s.addSound("[8/19] Dren: And Thunder...", "ajourneybeyond-dren-6", false);
-        s.addSound("[9/19] Dren: But.. There is a hidden element, ? Darkness .", "ajourneybeyond-dren-7", false);
+        s.addSound("[9/19] Dren: But.. There is a hidden element, Darkness .", "ajourneybeyond-dren-7", false);
         s.addSound("[10/19] Dren: In order to damage a creature of Darkness, you must remove that influence from your soul.", "ajourneybeyond-dren-8", false);
         s.addSound("[11/19] Dren: Some Dark creatures use a sort of synchronous barrier that prevents them being harmed by other creatures influenced with Darkness.", "ajourneybeyond-dren-9", false);
         s.addSound("[12/19] Dren: In order to purify you, I will need 2 powerful items.", "ajourneybeyond-dren-10", false);
@@ -8790,7 +8816,7 @@ public class Sounds {
         s.addSound("[4/4] Aledar: Don't forget why we're here, we're looking for a creature of darkness. Shout for me if you find one.", "ajourneybeyond-aledar-31", false);
         s.addSound("[1/2] Aledar: That's our target! Go after it!", "ajourneybeyond-aledar-32", false);
         s.addSound("[2/2] Aledar: Wait, why isn't it fighting us here? Careful! It might be trapped!", "ajourneybeyond-aledar-33", false);
-        s.addSound("[1/2] Aledar: Wow, I'm impressed soldier. I honestly thought you would need my help", "ajourneybeyond-aledar-34", false);
+        s.addSound("[1/2] Aledar: Wow, I'm impressed soldier. I honestly thought you would need my help.", "ajourneybeyond-aledar-34", false);
         s.addSound("[2/2] Aledar: Well, we got what we came for. Let's head back to Dren.", "ajourneybeyond-aledar-35", false);
         s.addSound("[1/4] Dren: Looks like we lucked out on this one. Did you get an item of darkness?", "ajourneybeyond-dren-15", false);
         s.addSound("[2/4] Dren: That should do it. Let's see if this will work. Come here soldier!", "ajourneybeyond-dren-16", false);
@@ -8842,7 +8868,7 @@ public class Sounds {
         s.addSound("[13/45] Lucio: Wait a sec, is that one of the miners? Is she hurt? HEEEEY! YOU OVER THERE!", "ajourneybeyond-lucio-27", false);
         s.addSound("[14/45] Aledar: Lucio, no! It's a trap!", "ajourneybeyond-aledar-52", false);
         s.addSound("[15/45] Aledar: LUCIO! Don't get closer!", "ajourneybeyond-aledar-53", false);
-        s.addSound("[16/45] Lucio: Wait, what's going on? Why can't I move?", "ajourneybeyond-obsessor-1", false);
+        s.addSound("[16/45] Lucio: Wait, what's going on? Why can't I move?!", "ajourneybeyond-obsessor-1", true);
         s.addSound("[1/7] Aledar: No no no!! This is bad, really bad! We have to go soldier! Now!", "ajourneybeyond-aledar-54", false);
         s.addSound("[2/7] Aledar: We can't stay here.", "ajourneybeyond-aledar-55", false);
         s.addSound("[3/7] Aledar: Who's that?! Elphaba?! Lucio?!", "ajourneybeyond-aledar-56", false);
