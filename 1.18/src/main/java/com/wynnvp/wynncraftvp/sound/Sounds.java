@@ -306,7 +306,7 @@ public class Sounds {
         s.addSound("[1/1] Sergeant Klafson: Hello again, soldier! Doing great things around the province, I presume?", "tunneltrouble-sergeantklafson-4", false);
         s.addSound("[1/1] Sergeant Klafson: I'm sorry, recruit, but that passage is blocked. We used to use it, but not anymore...", "tunneltrouble-sergeantklafson-5", false);
 
-        //Underwater
+//Underwater
         s.addSound("[1/1] Omango: Go through the cave and talk with my friend Sayrr, he can give you the helmet. After that, explore the ship and bring me [4 Ancient Treasure].", "underwater-omango-1", false);
         s.addSound("[1/1] Omango: Glad to see you again!", "underwater-omango-2", false);
         s.addSound("[1/1] Omango: You are too low level to help me, yet. Come back when you are level 8.", "underwater-omango-3", false);
@@ -314,7 +314,7 @@ public class Sounds {
         s.addSound("[1/9] Omango: Hi, my name is Omango. I am a resident of the Maltic village, on top of the hill.", "underwater-omango-5", false);
         s.addSound("[2/9] Omango: As you may know, our people came to your land years ago, and this is the ship they used.", "underwater-omango-6", false);
         s.addSound("[3/9] Omango: They brought lots of luxurious goods with them. Most of them got lost in the wreck.", "underwater-omango-7", false);
-        s.addSound("[4/9] Omango: But recently, a small hole has opened in the shipwreck here. It is believed that our fortune is hidden within it.", "underwater-omango-8", false);
+        s.addSound("[4/9] Omango: But recently, a small hole has opened in the shipwreck here. It is believed that fortune is hidden within it.", "underwater-omango-8", false);
         s.addSound("[5/9] Omango: Unfortunately, nobody has been able to explore it. It is too deep, no creature can survive underwater that long!", "underwater-omango-9", false);
         s.addSound("[6/9] Omango: However, my old friend Sayrr is a fisherman, and I know that he has a very special helmet...", "underwater-omango-10", false);
         s.addSound("[7/9] Omango: If you convince him to give you this helmet, and find the treasure, I'll give you a part of it!", "underwater-omango-11", false);
