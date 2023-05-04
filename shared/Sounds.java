@@ -9324,8 +9324,8 @@ public class Sounds {
         s.addSound("[1/1] Witherhead: You persist through the sludge, now you will join me like the rest!", "decriptsewers-witherehead-3", true);
 
         //Corrupted Decrepit Sewers
-        s.addSound("[1/1] ???: You dare enter these sewers, human? This mistake will cost you your life.", "cds-witherehead-1", true);
-        s.addSound("[1/1] ???: ... How foolish of you... to come back here... after what happened.", "cds-witherehead-2", true);
+        s.addSound("[1/1] ???: Yko dare kker these sk:;DJkkkAJEkkkkThkksad:ekghakkkkkreid:", "cds-witherehead-1", true);
+        s.addSound("[1/1] ???: ... How foolkh of you... to come back here.:5tykkkfter what happenei:", "cds-witherehead-2", true);
         s.addSound("[1/1] Corrupted Witherhead: You... you've come HERE before. You shouldn't be alive....", "cds-witherehead-3", true);
 
 
