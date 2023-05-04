@@ -376,7 +376,7 @@ public class Sounds {
         s.addSound("[4/5] The Assistant: I fear... that he may be going... too far. I need your help...", "potionmaking-theassistant-4", false);
         s.addSound("[5/5] The Assistant: Get me... [8 Red Mushroom], they can be found outside the east gate behind me.", "potionmaking-theassistant-5", false);
         s.addSound("[1/5] The Assistant: Good...good. You have the mushrooms.", "potionmaking-theassistant-6", false);
-        s.addSound("[2/5] The Assistant: You must...ensure that it has worked. You are much stronger than I. stranger...", "potionmaking-theassistant-7", false);
+        s.addSound("[2/5] The Assistant: You must...ensure that it has worked. You...are much stronger than I, stranger...", "potionmaking-theassistant-7", false);
         s.addSound("[3/5] The Assistant: Did you see the orange witch hat roofed hut when you were gathering the mushrooms?", "potionmaking-theassistant-8", false);
         s.addSound("[4/5] The Assistant: That is my master's house, you must go back out the east gate and enter the hut.", "potionmaking-theassistant-9", false);
         s.addSound("[5/5] The Assistant: Bring me his...coat as proof...of his death...", "potionmaking-theassistant-10", false);
