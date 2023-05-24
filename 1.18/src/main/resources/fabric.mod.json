@@ -27,9 +27,9 @@
     "wynnvp.mixins.json"
   ],
   "depends": {
+    "cloth-config": ">=10.0.96",
     "fabricloader": ">=0.14.18",
     "fabric-api": ">=0.78.0",
     "minecraft": "1.19.4",
     "java": ">=17"
   }
-}
