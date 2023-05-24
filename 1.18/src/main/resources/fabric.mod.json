@@ -1,28 +1,35 @@
 {
-	"schemaVersion": 1,
-	"id": "wynnvp",
-	"version": "${version}",
-	"name": "Voices of wynn",
-	"description": "Now fabricated.",
-	"authors": ["https://voicesofwynn.com/credits"],
-	"contact": {
-		"homepage": "https://voicesofwynn.com/",
-		"sources": "https://github.com/Team-VoW",
-		"issues": "https://github.com/Team-VoW/WynncraftVoiceProject/issues"
-	},
-	"license": "",
-	"icon": "assets/wynnvp/wynnvplogo.png",
-	"environment": "client",
-	"entrypoints": {
-		"modmenu": ["com.wynnvp.wynncraftvp.config.ModMenuIntegration"],
-		"main": ["com.wynnvp.wynncraftvp.ModCore"]
-	},
-	"mixins": ["wynnvp.mixins.json"],
-	"depends": {
-		"cloth-config": ">=10.0.96",
-		"fabricloader": ">=0.14.18",
-		"fabric-api": ">=0.78.0",
-		"minecraft": "1.19.4",
-		"java": ">=17"
-	}
-}
+  "schemaVersion": 1,
+  "id": "wynnvp",
+  "version": "${version}",
+  "name": "Voices of wynn",
+  "description": "Now fabricated.",
+  "authors": [
+    "https://voicesofwynn.com/credits"
+  ],
+  "contact": {
+    "homepage": "https://voicesofwynn.com/",
+    "sources": "https://github.com/Team-VoW",
+    "issues": "https://github.com/Team-VoW/WynncraftVoiceProject/issues"
+  },
+  "license": "",
+  "icon": "assets/wynnvp/wynnvplogo.png",
+  "environment": "client",
+  "entrypoints": {
+    "modmenu": [
+      "com.wynnvp.wynncraftvp.config.ModMenuIntegration"
+    ],
+    "main": [
+      "com.wynnvp.wynncraftvp.ModCore"
+    ]
+  },
+  "mixins": [
+    "wynnvp.mixins.json"
+  ],
+  "depends": {
+    "cloth-config": ">=10.0.96",
+    "fabricloader": ">=0.14.18",
+    "fabric-api": ">=0.78.0",
+    "minecraft": "1.19.4",
+    "java": ">=17"
+  }
