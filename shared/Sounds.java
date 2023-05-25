@@ -386,7 +386,7 @@ public class Sounds {
         s.addSound("[1/1] The Assistant: Heeh...stranger. I...may need your assistance...return when you are...Level 12.", "potionmaking-theassistant-14", false);
         s.addSound("[1/1] The Assistant: Never speak of this again...stranger.", "potionmaking-theassistant-15", false);
         s.addSound("[1/1] The Assistant: You...you can't go down...there!", "potionmaking-theassistant-16", false);
-        s.addSound("[1/1] The Assistant: Quickly, get me...[8 Red Mushroom] from the Black Road outside the east gate of Detlas.", "potionmaking-theassistant-17", false);
+        s.addSound("[1/1] The Assistant: Quickly, get me...[8 Red Mushroom]do as I asked... go through the Black Road outside the east gate from here.", "potionmaking-theassistant-17", false);
         s.addSound("[1/4] Dr. Essren: Ah, you must be the one my assistant told me about.", "potionmaking-dressren-1", true);
         s.addSound("[2/4] Dr. Essren: If you are trying to stop me, it's too late. I already drank the pot-...", "potionmaking-dressren-2", true);
         s.addSound("[3/4] Dr. Essren: What is this taste? Mushrooms? This can't b-", "potionmaking-dressren-3", true);
