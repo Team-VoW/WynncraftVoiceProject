@@ -5430,7 +5430,7 @@ public class Sounds {
         s.addSound("[2/10] Korun: Did Cinfras send you? Well, welcome to Lake Gylia! I could actually make use of some assistance.", "purpleandblue-korun-2", false);
         s.addSound("[3/10] Korun: The magic here in this place is so potent; you can actually see the mystical properties!", "purpleandblue-korun-3", false);
         s.addSound("[4/10] Korun: I've been a scientist for many years, but I have never seen anything like this lake.", "purpleandblue-korun-4", false);
-        s.addSound("[5/10] Korun: That's why why I set up a small laboratory and started living here to study the place. It's pretty rudimentary but it does the job done. {explaining|", "purpleandblue-korun-5", false);
+        s.addSound("[5/10] Korun: That's why why I set up a small laboratory and started living here to study the place. It's pretty rudimentary but it does the job done.", "purpleandblue-korun-5", false);
         s.addSound("[6/10] Korun: The deeper into the lake you dive, the stronger the magical power becomes. I think something strange is occurring in the heart of the lake. I believe a lot of answers lie inside.", "purpleandblue-korun-6", false);
         s.addSound("[7/10] Korun: Alright, that's enough context! You see, there's another... ''scientist'' across the lake. We're kind of rivals? The guy's awful, I hate him, AND... Well...", "purpleandblue-korun-7", false);
         s.addSound("[8/10] Korun: He's been missing.", "purpleandblue-korun-8", false);
@@ -5478,7 +5478,7 @@ public class Sounds {
         s.addSound("[1/10] Korun: Welcome back! I see you're completely drenched! How did things go? I assume you've explored the place thoroughly.", "purpleandblue-korun-22", false);
         s.addSound("[2/10] Korun: YOU! Y-You're alive!!", "purpleandblue-korun-23", false);
         s.addSound("[3/10] Nikoler: ...were you worrying about me? What a fool. This mountain could never do so much as scratch me!", "purpleandblue-nikoler-29", false);
-        s.addSound("[4/10] Nikoler: This human right here actually saved me, right after endangering me. You don't mean to tell me you sent them for me?", "purpleandblue-nikoler-30", false);
+        s.addSound("[4/10] Nikoler: This human right here actually saved me, right after endangering me. You don't mean to tell me you sent him for me?", "purpleandblue-nikoler-30", false);
         s.addSound("[5/10] Korun: Well, it's very simple. Where's the fun in our rivalry if you just go off and die somewhere?", "purpleandblue-korun-24", false);
         s.addSound("[6/10] Korun: That aside, what did you find in there? What happened?", "purpleandblue-korun-25", false);
         s.addSound("[7/10] Nikoler: I found them, Korun. I found the meteors! They still seemed potent somehow, but the cave collapsed and...", "purpleandblue-nikoler-31", false);
