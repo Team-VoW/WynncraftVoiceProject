@@ -19567,94 +19567,615 @@
 
 
 
-  "theqirahive-yansur-1": {
+  "qirahive-yansur-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-yansur-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-1", "stream": true}]
   },
-  "theqirahive-qira-1": {
+  "qirahive-yansur-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-qira-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-2", "stream": true}]
   },
-  "theqirahive-psychomancer-1": {
+  "qirahive-yansur-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-psychomancer-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-3", "stream": true}]
   },
-  "theqirahive-psychomancer-2": {
+  "qirahive-yansur-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-psychomancer-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-4", "stream": true}]
   },
-  "theqirahive-yansur-2": {
+  "qirahive-yansur-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-yansur-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-5", "stream": true}]
   },
-  "theqirahive-qira-2": {
+  "qirahive-qira-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-qira-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-qira-1", "stream": true}]
   },
-  "theqirahive-gale-1": {
+  "qirahive-yansur-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-gale-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-6", "stream": true}]
   },
-  "theqirahive-gale-2": {
+  "qirahive-qira-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-gale-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-qira-2", "stream": true}]
   },
-  "theqirahive-yansur-3": {
+  "qirahive-qira-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-yansur-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-qira-3", "stream": true}]
   },
-  "theqirahive-qira-3": {
+  "qirahive-qira-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-qira-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-qira-4", "stream": true}]
   },
-  "theqirahive-yansur-4": {
+  "qirahive-qira-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-yansur-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-qira-5", "stream": true}]
   },
-  "theqirahive-qira-4": {
+  "qirahive-qira-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-qira-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-qira-6", "stream": true}]
   },
-  "theqirahive-oceanicjudge-1": {
+  "qirahive-qira-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-oceanicjudge-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-qira-7", "stream": true}]
   },
-  "theqirahive-oceanicjudge-2": {
+  "qirahive-qira-8": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-oceanicjudge-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-qira-8", "stream": true}]
   },
-  "theqirahive-yansur-5": {
+  "qirahive-psychomancer-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-yansur-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-psychomancer-1", "stream": true}]
   },
-  "theqirahive-qira-5": {
+  "qirahive-psychomancer-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-qira-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-psychomancer-2", "stream": true}]
   },
-  "theqirahive-solarvanguard-1": {
+  "qirahive-psychomancer-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-solarvanguard-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-psychomancer-3", "stream": true}]
   },
-  "theqirahive-solarvanguard-2": {
+  "qirahive-psychomancer-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-solarvanguard-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-psychomancer-4", "stream": true}]
   },
-  "theqirahive-yansur-6": {
+  "qirahive-psychomancer-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-yansur-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-psychomancer-5", "stream": true}]
   },
-  "theqirahive-qira-6": {
+  "qirahive-psychomancer-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-qira-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-psychomancer-6", "stream": true}]
   },
-  "theqirahive-qira-7": {
+  "qirahive-psychomancer-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-qira-7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-psychomancer-7", "stream": true}]
   },
-  "theqirahive-yansur-7": {
+  "qirahive-psychomancer-8": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:theqirahive-yansur-7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:qirahive-psychomancer-8", "stream": true}]
   },
+  "qirahive-psychomancer-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-psychomancer-9", "stream": true}]
+  },
+  "qirahive-yansur-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-7", "stream": true}]
+  },
+  "qirahive-qira-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-9", "stream": true}]
+  },
+  "qirahive-yansur-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-8", "stream": true}]
+  },
+  "qirahive-yansur-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-9", "stream": true}]
+  },
+  "qirahive-yansur-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-10", "stream": true}]
+  },
+  "qirahive-yansur-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-11", "stream": true}]
+  },
+  "qirahive-yansur-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-12", "stream": true}]
+  },
+  "qirahive-yansur-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-13", "stream": true}]
+  },
+  "qirahive-qira-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-10", "stream": true}]
+  },
+  "qirahive-gale-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-1", "stream": true}]
+  },
+  "qirahive-gale-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-2", "stream": true}]
+  },
+  "qirahive-gale-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-3", "stream": true}]
+  },
+  "qirahive-gale-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-4", "stream": true}]
+  },
+  "qirahive-gale-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-5", "stream": true}]
+  },
+  "qirahive-gale-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-6", "stream": true}]
+  },
+  "qirahive-gale-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-7", "stream": true}]
+  },
+  "qirahive-gale-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-8", "stream": true}]
+  },
+  "qirahive-gale-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-9", "stream": true}]
+  },
+  "qirahive-gale-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-10", "stream": true}]
+  },
+  "qirahive-yansur-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-14", "stream": true}]
+  },
+  "qirahive-qira-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-11", "stream": true}]
+  },
+  "qirahive-yansur-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-15", "stream": true}]
+  },
+  "qirahive-yansur-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-16", "stream": true}]
+  },
+  "qirahive-yansur-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-17", "stream": true}]
+  },
+  "qirahive-yansur-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-18", "stream": true}]
+  },
+  "qirahive-qira-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-12", "stream": true}]
+  },
+  "qirahive-genesis-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-genesis-1", "stream": true}]
+  },
+  "qirahive-yansur-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-19", "stream": true}]
+  },
+  "qirahive-qira-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-13", "stream": true}]
+  },
+  "qirahive-yansur-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-20", "stream": true}]
+  },
+  "qirahive-yansur-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-21", "stream": true}]
+  },
+  "qirahive-yansur-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-22", "stream": true}]
+  },
+  "qirahive-qira-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-14", "stream": true}]
+  },
+  "qirahive-oceanicjudge-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-oceanicjudge-1", "stream": true}]
+  },
+  "qirahive-oceanicjudge-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-oceanicjudge-2", "stream": true}]
+  },
+  "qirahive-oceanicjudge-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-oceanicjudge-3", "stream": true}]
+  },
+  "qirahive-oceanicjudge-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-oceanicjudge-4", "stream": true}]
+  },
+  "qirahive-oceanicjudge-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-oceanicjudge-5", "stream": true}]
+  },
+  "qirahive-oceanicjudge-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-oceanicjudge-6", "stream": true}]
+  },
+  "qirahive-oceanicjudge-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-oceanicjudge-7", "stream": true}]
+  },
+  "qirahive-yansur-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-23", "stream": true}]
+  },
+  "qirahive-qira-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-15", "stream": true}]
+  },
+  "qirahive-yansur-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-24", "stream": true}]
+  },
+  "qirahive-yansur-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-25", "stream": true}]
+  },
+  "qirahive-yansur-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-26", "stream": true}]
+  },
+  "qirahive-yansur-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-27", "stream": true}]
+  },
+  "qirahive-yansur-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-28", "stream": true}]
+  },
+  "qirahive-qira-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-16", "stream": true}]
+  },
+  "qirahive-solarvanguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-solarvanguard-1", "stream": true}]
+  },
+  "qirahive-solarvanguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-solarvanguard-2", "stream": true}]
+  },
+  "qirahive-solarvanguard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-solarvanguard-3", "stream": true}]
+  },
+  "qirahive-solarvanguard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-solarvanguard-4", "stream": true}]
+  },
+  "qirahive-solarvanguard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-solarvanguard-5", "stream": true}]
+  },
+  "qirahive-solarvanguard-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-solarvanguard-6", "stream": true}]
+  },
+  "qirahive-solarvanguard-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-solarvanguard-7", "stream": true}]
+  },
+  "qirahive-solarvanguard-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-solarvanguard-8", "stream": true}]
+  },
+  "qirahive-yansur-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-29", "stream": true}]
+  },
+  "qirahive-qira-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-17", "stream": true}]
+  },
+  "qirahive-yansur-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-30", "stream": true}]
+  },
+  "qirahive-yansur-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-31", "stream": true}]
+  },
+  "qirahive-yansur-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-32", "stream": true}]
+  },
+  "qirahive-qira-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-18", "stream": true}]
+  },
+  "qirahive-qira-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-19", "stream": true}]
+  },
+  "qirahive-yansur-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-33", "stream": true}]
+  },
+  "qirahive-yansur-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-34", "stream": true}]
+  },
+  "qirahive-yansur-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-35", "stream": true}]
+  },
+  "qirahive-qira-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-20", "stream": true}]
+  },
+  "qirahive-qira-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-21", "stream": true}]
+  },
+  "qirahive-qira-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-22", "stream": true}]
+  },
+  "qirahive-qira-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-23", "stream": true}]
+  },
+  "qirahive-qira-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-24", "stream": true}]
+  },
+  "qirahive-qira-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-25", "stream": true}]
+  },
+  "qirahive-qira-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-26", "stream": true}]
+  },
+  "qirahive-qira-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-27", "stream": true}]
+  },
+  "qirahive-qira-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-28", "stream": true}]
+  },
+  "qirahive-qira-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-29", "stream": true}]
+  },
+  "qirahive-qira-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-30", "stream": true}]
+  },
+  "qirahive-qira-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-31", "stream": true}]
+  },
+  "qirahive-yansur-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-36", "stream": true}]
+  },
+  "qirahive-yansur-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-37", "stream": true}]
+  },
+  "qirahive-qira-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-32", "stream": true}]
+  },
+  "qirahive-yansur-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-38", "stream": true}]
+  },
+  "qirahive-qira-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-33", "stream": true}]
+  },
+  "qirahive-yansur-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-39", "stream": true}]
+  },
+  "qirahive-yansur-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-40", "stream": true}]
+  },
+  "qirahive-qira-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-34", "stream": true}]
+  },
+  "qirahive-yansur-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-41", "stream": true}]
+  },
+  "qirahive-yansur-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-42", "stream": true}]
+  },
+  "qirahive-yansur-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-43", "stream": true}]
+  },
+  "qirahive-yansur-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-44", "stream": true}]
+  },
+  "qirahive-yansur-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-45", "stream": true}]
+  },
+  "qirahive-qira-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-35", "stream": true}]
+  },
+  "qirahive-yansur-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-46", "stream": true}]
+  },
+  "qirahive-qira-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-36", "stream": true}]
+  },
+  "qirahive-yansur-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-47", "stream": true}]
+  },
+  "qirahive-hiveservant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-1", "stream": true}]
+  },
+  "qirahive-hiveservant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-2", "stream": true}]
+  },
+  "qirahive-hiveservant-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-3", "stream": true}]
+  },
+  "qirahive-hiveservant-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-4", "stream": true}]
+  },
+  "qirahive-hiveservant-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-5", "stream": true}]
+  },
+  "qirahive-hiveservant-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-6", "stream": true}]
+  },
+  "qirahive-hiveservant-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-7", "stream": true}]
+  },
+  "qirahive-hiveservant-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-8", "stream": true}]
+  },
+  "qirahive-hiveservant-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-9", "stream": true}]
+  },
+  "qirahive-hiveservant-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-10", "stream": true}]
+  },
+  "qirahive-hiveservant-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-11", "stream": true}]
+  },
+  "qirahive-hiveservant-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-12", "stream": true}]
+  },
+  "qirahive-hiveservant-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-13", "stream": true}]
+  },
+  "qirahive-hiveservant-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-14", "stream": true}]
+  },
+  "qirahive-hiveservant-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-15", "stream": true}]
+  },
+  "qirahive-hiveservant-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-16", "stream": true}]
+  },
+  "qirahive-hiveservant-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-17", "stream": true}]
+  },
+  "qirahive-hiveservant-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-18", "stream": true}]
+  },
+  "qirahive-hiveservant-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-19", "stream": true}]
+  },
+  "qirahive-hiveservant-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-20", "stream": true}]
+  },
+  "qirahive-hiveservant-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-21", "stream": true}]
+  },
+  "qirahive-hiveservant-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-22", "stream": true}]
+  },
+  "qirahive-hiveservant-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-23", "stream": true}]
+  },
+  "qirahive-hiveservant-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-24", "stream": true}]
+  },
+  "qirahive-hiveservant-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-25", "stream": true}]
+  },
+  "qirahive-hiveservant-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-26", "stream": true}]
+  },
+  "qirahive-hiveservant-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-27", "stream": true}]
+  },
+  "qirahive-hiveservant-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-28", "stream": true}]
+  },
+  "qirahive-hiveservant-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-29", "stream": true}]
+  },
+  "qirahive-hiveservant-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-30", "stream": true}]
+  },
+  "qirahive-hiveservant-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-31", "stream": true}]
+  },
+  "qirahive-hiveservant-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-hiveservant-32", "stream": true}]
+  },
+  "qirahive-yansur-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-yansur-48", "stream": true}]
+  },
+  "qirahive-qira-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-37", "stream": true}]
+  },
+
 
 
   "desperatemetal-nettik-1": {
