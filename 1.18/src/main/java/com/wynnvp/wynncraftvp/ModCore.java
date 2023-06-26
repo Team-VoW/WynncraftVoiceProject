@@ -33,15 +33,15 @@ public class ModCore implements ModInitializer {
         soundsHandler = new SoundsHandler();
 
         isUsingClothApi = FabricLoader.getInstance().isModLoaded("cloth-config");
-        if (isUsingClothApi) {
+    //    if (isUsingClothApi) {
             LOGGER.debug("Found cloth api");
 
             AutoConfig.register(VOWAutoConfig.class, Toml4jConfigSerializer::new);
 
             config = AutoConfig.getConfigHolder(VOWAutoConfig.class).getConfig();
-        } else {
+      /*  } else {
             config = new VOWAutoConfig();
-        }
+        }*/
 
         VowLogger.Initialize();
     }
