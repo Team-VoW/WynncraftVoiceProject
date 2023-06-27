@@ -7021,6 +7021,1084 @@
     "sounds": [{ "name": "wynnvp:deathwhistle-voer-18", "stream": true}]
   },
 
+  "thebreakingpoint-generalelix-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-1", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-2", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-3", "stream": true}]
+  },
+  "thebreakingpoint-privatewalder-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-privatewalder-1", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-4", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-5", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-6", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-7", "stream": true}]
+  },
+  "thebreakingpoint-privatewalder-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-privatewalder-2", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-8", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-9", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-10", "stream": true}]
+  },
+  "thebreakingpoint-rhay-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-1", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-11", "stream": true}]
+  },
+  "thebreakingpoint-rhay-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-2", "stream": true}]
+  },
+  "thebreakingpoint-ineos-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-1", "stream": true}]
+  },
+  "thebreakingpoint-rhay-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-3", "stream": true}]
+  },
+  "thebreakingpoint-ineos-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-2", "stream": true}]
+  },
+  "thebreakingpoint-rhay-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-4", "stream": true}]
+  },
+  "thebreakingpoint-rhay-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-5", "stream": true}]
+  },
+  "thebreakingpoint-rhay-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-6", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-12", "stream": true}]
+  },
+  "thebreakingpoint-rhay-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-7", "stream": true}]
+  },
+  "thebreakingpoint-ineos-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-3", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-13", "stream": true}]
+  },
+  "thebreakingpoint-rhay-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-8", "stream": true}]
+  },
+  "thebreakingpoint-rhay-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-9", "stream": true}]
+  },
+  "thebreakingpoint-rhay-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-10", "stream": true}]
+  },
+  "thebreakingpoint-rhay-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-11", "stream": true}]
+  },
+  "thebreakingpoint-rhay-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-12", "stream": true}]
+  },
+  "thebreakingpoint-rhay-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-13", "stream": true}]
+  },
+  "thebreakingpoint-rhay-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-14", "stream": true}]
+  },
+  "thebreakingpoint-rhay-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-15", "stream": true}]
+  },
+  "thebreakingpoint-rhay-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-16", "stream": true}]
+  },
+  "thebreakingpoint-rhay-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-17", "stream": true}]
+  },
+  "thebreakingpoint-rhay-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-18", "stream": true}]
+  },
+  "thebreakingpoint-rhay-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-19", "stream": true}]
+  },
+  "thebreakingpoint-rhay-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-20", "stream": true}]
+  },
+  "thebreakingpoint-rhay-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-21", "stream": true}]
+  },
+  "thebreakingpoint-rhay-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-22", "stream": true}]
+  },
+  "thebreakingpoint-rhay-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-23", "stream": true}]
+  },
+  "thebreakingpoint-rhay-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-24", "stream": true}]
+  },
+  "thebreakingpoint-rhay-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-25", "stream": true}]
+  },
+  "thebreakingpoint-rhay-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-26", "stream": true}]
+  },
+  "thebreakingpoint-rhay-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-27", "stream": true}]
+  },
+  "thebreakingpoint-rhay-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-28", "stream": true}]
+  },
+  "thebreakingpoint-rhay-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-29", "stream": true}]
+  },
+  "thebreakingpoint-rhay-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-30", "stream": true}]
+  },
+  "thebreakingpoint-rhay-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-31", "stream": true}]
+  },
+  "thebreakingpoint-rhay-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-32", "stream": true}]
+  },
+  "thebreakingpoint-maxie-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-1", "stream": true}]
+  },
+  "thebreakingpoint-rhay-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-33", "stream": true}]
+  },
+  "thebreakingpoint-maxie-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-2", "stream": true}]
+  },
+  "thebreakingpoint-rhay-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-34", "stream": true}]
+  },
+  "thebreakingpoint-rhay-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-35", "stream": true}]
+  },
+  "thebreakingpoint-maxie-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-3", "stream": true}]
+  },
+  "thebreakingpoint-maxie-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-4", "stream": true}]
+  },
+  "thebreakingpoint-maxie-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-5", "stream": true}]
+  },
+  "thebreakingpoint-rhay-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-36", "stream": true}]
+  },
+  "thebreakingpoint-rhay-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-37", "stream": true}]
+  },
+  "thebreakingpoint-maxie-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-6", "stream": true}]
+  },
+  "thebreakingpoint-nodise-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-nodise-1", "stream": true}]
+  },
+  "thebreakingpoint-nodise-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-nodise-2", "stream": true}]
+  },
+  "thebreakingpoint-nodise-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-nodise-3", "stream": true}]
+  },
+  "thebreakingpoint-maxie-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-7", "stream": true}]
+  },
+  "thebreakingpoint-rhay-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-38", "stream": true}]
+  },
+  "thebreakingpoint-maxie-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-8", "stream": true}]
+  },
+  "thebreakingpoint-maxie-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-9", "stream": true}]
+  },
+  "thebreakingpoint-maxie-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-10", "stream": true}]
+  },
+  "thebreakingpoint-maxie-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-11", "stream": true}]
+  },
+  "thebreakingpoint-maxie-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-12", "stream": true}]
+  },
+  "thebreakingpoint-miningrobots-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-miningrobots-1", "stream": true}]
+  },
+  "thebreakingpoint-miningrobots-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-miningrobots-2", "stream": true}]
+  },
+  "thebreakingpoint-miningrobots-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-miningrobots-3", "stream": true}]
+  },
+  "thebreakingpoint-themotherdrill-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-themotherdrill-1", "stream": true}]
+  },
+  "thebreakingpoint-themotherdrill-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-themotherdrill-2", "stream": true}]
+  },
+  "thebreakingpoint-themotherdrill-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-themotherdrill-3", "stream": true}]
+  },
+  "thebreakingpoint-rhay-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-39", "stream": true}]
+  },
+  "thebreakingpoint-rhay-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-40", "stream": true}]
+  },
+  "thebreakingpoint-maxie-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-13", "stream": true}]
+  },
+  "thebreakingpoint-maxie-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-maxie-14", "stream": true}]
+  },
+  "thebreakingpoint-rhay-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-41", "stream": true}]
+  },
+  "thebreakingpoint-rhay-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-42", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-14", "stream": true}]
+  },
+  "thebreakingpoint-rhay-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-43", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-15", "stream": true}]
+  },
+  "thebreakingpoint-rhay-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-44", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-16", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-17", "stream": true}]
+  },
+  "thebreakingpoint-rhay-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-45", "stream": true}]
+  },
+  "thebreakingpoint-rhay-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-46", "stream": true}]
+  },
+  "thebreakingpoint-rhay-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-47", "stream": true}]
+  },
+  "thebreakingpoint-ineos-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-4", "stream": true}]
+  },
+  "thebreakingpoint-ineos-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-5", "stream": true}]
+  },
+  "thebreakingpoint-ineos-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-6", "stream": true}]
+  },
+  "thebreakingpoint-ineos-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-7", "stream": true}]
+  },
+  "thebreakingpoint-ineos-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-8", "stream": true}]
+  },
+  "thebreakingpoint-ineos-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-9", "stream": true}]
+  },
+  "thebreakingpoint-ineos-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-10", "stream": true}]
+  },
+  "thebreakingpoint-ineos-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-11", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-18", "stream": true}]
+  },
+  "thebreakingpoint-ineos-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-12", "stream": true}]
+  },
+  "thebreakingpoint-ineos-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-13", "stream": true}]
+  },
+  "thebreakingpoint-ineos-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-14", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-19", "stream": true}]
+  },
+  "thebreakingpoint-ineos-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-15", "stream": true}]
+  },
+  "thebreakingpoint-rhay-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-48", "stream": true}]
+  },
+  "thebreakingpoint-rhay-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-49", "stream": true}]
+  },
+  "thebreakingpoint-rhay-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-50", "stream": true}]
+  },
+  "thebreakingpoint-rhay-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-51", "stream": true}]
+  },
+  "thebreakingpoint-ineos-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-16", "stream": true}]
+  },
+  "thebreakingpoint-ineos-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-17", "stream": true}]
+  },
+  "thebreakingpoint-ineos-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-18", "stream": true}]
+  },
+  "thebreakingpoint-korzim-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-korzim-1", "stream": true}]
+  },
+  "thebreakingpoint-korzim-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-korzim-2", "stream": true}]
+  },
+  "thebreakingpoint-ineos-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-19", "stream": true}]
+  },
+  "thebreakingpoint-korzim-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-korzim-3", "stream": true}]
+  },
+  "thebreakingpoint-ineos-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-20", "stream": true}]
+  },
+  "thebreakingpoint-korzim-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-korzim-4", "stream": true}]
+  },
+  "thebreakingpoint-korzim-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-korzim-5", "stream": true}]
+  },
+  "thebreakingpoint-korzim-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-korzim-6", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-1", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-2", "stream": true}]
+  },
+  "thebreakingpoint-dwarventechnician-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-dwarventechnician-1", "stream": true}]
+  },
+  "thebreakingpoint-unsealeddogun-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-unsealeddogun-1", "stream": true}]
+  },
+  "thebreakingpoint-unsealeddogun-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-unsealeddogun-2", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-1", "stream": true}]
+  },
+  "thebreakingpoint-unsealeddogun-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-unsealeddogun-3", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-2", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-3", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-3", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-4", "stream": true}]
+  },
+  "thebreakingpoint-ineos-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-21", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-5", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-4", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-5", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-6", "stream": true}]
+  },
+  "thebreakingpoint-korzim-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-korzim-7", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-6", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-7", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-7", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-8", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-9", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-10", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-11", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-12", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-13", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-14", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-15", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-16", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-17", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-18", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-19", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-20", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-21", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-22", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-23", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-24", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-25", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-26", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-27", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-28", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-29", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-30", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-31", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-32", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-33", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-34", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-35", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-36", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-37", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-38", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-39", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-40", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-41", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-42", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-43", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-44", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-45", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-46", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-47", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-48", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-49", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-50", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-51", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-52", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-53", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-54", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-55", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-56", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-57", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-58", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-59", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-60", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-61", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-62", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-63", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-64", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-65", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-8", "stream": true}]
+  },
+  "thebreakingpoint-ineos-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-22", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-66": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-66", "stream": true}]
+  },
+  "thebreakingpoint-ineos-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-23", "stream": true}]
+  },
+  "thebreakingpoint-ineos-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-24", "stream": true}]
+  },
+  "thebreakingpoint-ineos-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-25", "stream": true}]
+  },
+  "thebreakingpoint-ineos-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-26", "stream": true}]
+  },
+  "thebreakingpoint-ozoth-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ozoth-1", "stream": true}]
+  },
+  "thebreakingpoint-ineos-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-27", "stream": true}]
+  },
+  "thebreakingpoint-ineos-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-28", "stream": true}]
+  },
+  "thebreakingpoint-ozoth-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ozoth-2", "stream": true}]
+  },
+  "thebreakingpoint-ineos-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-29", "stream": true}]
+  },
+  "thebreakingpoint-ineos-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-30", "stream": true}]
+  },
+  "thebreakingpoint-ineos-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-31", "stream": true}]
+  },
+  "thebreakingpoint-ozoth-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ozoth-3", "stream": true}]
+  },
+  "thebreakingpoint-ineos-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-32", "stream": true}]
+  },
+  "thebreakingpoint-ineos-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-33", "stream": true}]
+  },
+  "thebreakingpoint-ineos-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-34", "stream": true}]
+  },
+  "thebreakingpoint-ozoth-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ozoth-4", "stream": true}]
+  },
+  "thebreakingpoint-ineos-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-35", "stream": true}]
+  },
+  "thebreakingpoint-ineos-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-36", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-67": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-67", "stream": true}]
+  },
+  "thebreakingpoint-ineos-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-37", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-9", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-68": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-68", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-10", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-11", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-69": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-69", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-70": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-70", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-71": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-71", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-72": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-72", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-73": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-73", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-1", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-74": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-74", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-2", "stream": true}]
+  },
+  "thebreakingpoint-elderdesint-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderdesint-1", "stream": true}]
+  },
+  "thebreakingpoint-elderiscor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderiscor-1", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-3", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-4", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-75": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-75", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-5", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-12", "stream": true}]
+  },
+  "thebreakingpoint-elderdesint-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderdesint-2", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-6", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-7", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-13", "stream": true}]
+  },
+  "thebreakingpoint-korzim-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-korzim-8", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-8", "stream": true}]
+  },
+  "thebreakingpoint-rhay-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-52", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-20", "stream": true}]
+  },
+  "thebreakingpoint-ineos-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-38", "stream": true}]
+  },
+  "thebreakingpoint-elderiscor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderiscor-2", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-9", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-10", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-11", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-12", "stream": true}]
+  },
+  "thebreakingpoint-elderdesint-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderdesint-3", "stream": true}]
+  },
+  "thebreakingpoint-elderiscor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderiscor-3", "stream": true}]
+  },
+  "thebreakingpoint-ineos-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-ineos-39", "stream": true}]
+  },
+  "thebreakingpoint-rhay-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-rhay-53", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-21", "stream": true}]
+  },
+  "thebreakingpoint-korzim-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-korzim-9", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-13", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-14", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-15", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-16", "stream": true}]
+  },
+  "thebreakingpoint-elderastal-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-elderastal-17", "stream": true}]
+  },
+  "thebreakingpoint-chieftainpaku-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-chieftainpaku-14", "stream": true}]
+  },
+  "thebreakingpoint-kingdraani-76": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-kingdraani-76", "stream": true}]
+  },
+  "thebreakingpoint-generalelix-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thebreakingpoint-generalelix-22", "stream": true}]
+  },
+
+
 
   "grandyouth-monte-1": {
     "category": "voice",
