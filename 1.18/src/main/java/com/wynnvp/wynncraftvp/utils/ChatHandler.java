@@ -60,9 +60,12 @@ public final class ChatHandler {
 
         //It can contain 1-2 empty lines in the beginning that should be removed
         //If the line starts with 3 empty spaces then it's a dialogue choice the player can press on, so we should ignore it
-        while (newLines.getFirst().isEmpty() || newLines.getFirst().startsWith("   ")) {
+        while (!newLines.isEmpty() && (newLines.getFirst().isEmpty() || newLines.getFirst().startsWith("   "))) {
             newLines.removeFirst();
         }
+
+        if (newLines.isEmpty())
+            return "";
 
         return newLines.getFirst();
     }
