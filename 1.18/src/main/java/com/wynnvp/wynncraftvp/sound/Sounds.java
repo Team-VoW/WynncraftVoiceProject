@@ -5923,16 +5923,13 @@ public class Sounds {
         s.addSound("[1/1] Qira: Begin, the Water Division! If you will not withstand the crashing waves, the creatures that lurk within shall ensure you never emerge from the abyss!", "qirahive-qira-14", false);
 
         //TODO: Recast oceanic judge and get these lines added
-      /*  s.addSound("[1/1] ????: You have been judged worthy enough to face me in combat. However, I know your strength, and I do not believe it enough to defeat me. Come forth now. Make your attempt to prove me wrong.", "qirahive-oceanicjudge-1", false);
+        s.addSound("[1/1] ????: You have been judged worthy enough to face me in combat. However, I know your strength, and I do not believe it enough to defeat me. Come forth now. Make your attempt to prove me wrong.", "qirahive-oceanicjudge-1", false);
         s.addSound("[1/1] Oceanic Judge: The ocean winds shall claim you in this bout.", "qirahive-oceanicjudge-2", false);
         s.addSound("[1/1] Oceanic Judge: The winds intensify... Do you fear the storm?", "qirahive-oceanicjudge-3", false);
         s.addSound("[1/1] Oceanic Judge: You have decent skill, I will admit. But the seas will claim all!", "qirahive-oceanicjudge-4", false);
         s.addSound("[1/1] Oceanic Judge: These distractions belie my true power. Behold, and kneel before the law of the Hive!", "qirahive-oceanicjudge-5", false);
         s.addSound("[1/2] Oceanic Judge: Seems my judgment was incorrect. In this case, however, it is refreshing to see.", "qirahive-oceanicjudge-6", false);
         s.addSound("[2/2] Oceanic Judge: Continue forwards, honourable human. Perhaps your intellect and respect will rub off on that insufferable Yansur.", "qirahive-oceanicjudge-7", false);
-*/
-        s.addSound("[1/1] ????: You have been judged worthy enough to face me in combat. However, I know your strength, and I do not believe it enough to defeat me. Come forth now. Make your attempt to prove me wrong.", "qirahive-oceanicjudge-1", true);
-        s.addSound("[1/2] Oceanic Judge: Seems my judgment was incorrect. In this case, however, it is refreshing to see.", "qirahive-oceanicjudge-2", false);
 
         s.addSound("[1/7] Yansur: Impossible. Not even the most tactically advanced monsters could defeat you.", "qirahive-yansur-23", false);
         s.addSound("[2/7] Qira: I must admit I am impressed; the Judge is ruthless... perhaps he needs further tweaking?", "qirahive-qira-15", false);
