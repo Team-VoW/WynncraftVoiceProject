@@ -12,7 +12,7 @@ public class Utils {
 
     public static void sendMessage(String text) {
         //&& Minecraft.getInstance().inGameHud != null && Minecraft.getInstance().inGameHud.getChatHud() != null
-        if (Minecraft.getInstance() != null)
+        if (Minecraft.getInstance().player != null)
             Minecraft.getInstance().gui.getChat().addMessage(Component.literal("§5[Voices of Wynn]§r " + text));
     }
 

@@ -1,13 +1,13 @@
 package com.wynnvp.wynncraftvp.events;
 
-import com.mojang.authlib.minecraft.client.MinecraftClient;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
-import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
+
+import java.util.HashSet;
 
 public class ReceiveChatEvent {
 
@@ -17,8 +17,12 @@ public class ReceiveChatEvent {
 
     public static boolean stopMod = false;
 
-    private static String last = null;
+    private static final HashSet<String> onCooldown = new HashSet<>();
 
+    public static void resetCooldowns(){
+        onCooldown.clear();
+    }
+    
     public static void receivedChat(String msg) {
         if (stopMod) return;
 
@@ -32,17 +36,12 @@ public class ReceiveChatEvent {
         }
 
         LineData lineData = LineFormatter.formatToLineData(msg);
+        
 
-        if (lineData == null) { // invalid line data returned
-            last = null;
-            System.out.println("Invalid line data");
+        if (onCooldown.contains(lineData.getSoundLine())) {
             return;
         }
-
-        if (lineData.getSoundLine().equals(last)) {
-            return;
-        }
-        last = lineData.getSoundLine();
+        onCooldown.add(lineData.getSoundLine());
 
         if (isInMixedFeelingsQuest()) {
             String result = getMixedFeelingsLine(lineData.getSoundLine());
