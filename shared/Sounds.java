@@ -7120,7 +7120,7 @@ public class Sounds {
         s.addSound("[3/6] ???: This town shouldn't even be here. Humans aren't allowed to settle in Gavel.", "thehiddencity-ardulf-3", false);
         s.addSound("[4/6] ???: These humans couldn't be bothered to fight their own war, so they hid an entire city here.", "thehiddencity-ardulf-4", false);
         s.addSound("[5/6] ???: Traitor? I'm no traitor. I'm just looking to carry out the law where it needs to be carried out. Nothing personal, yes?", "thehiddencity-ardulf-5", false);
-        s.addSound("[6/6] Ardulf: Maybe they'll actually use ""Ardulf"" instead of saying ""freak"" once they've seen the good I can do for them!", "thehiddencity-ardulf-6", false);
+        s.addSound("[6/6] Ardulf: Maybe they'll actually use \"\"Ardulf\"\" instead of saying \"\"freak\"\" once they've seen the good I can do for them!", "thehiddencity-ardulf-6", false);
         s.addSound("[1/5] Hilan: H-h-help!", "thehiddencity-hilan-1", false);
         s.addSound("[2/5] Hilan: Hooded man... Climbed tower...", "thehiddencity-hilan-2", false);
         s.addSound("[3/5] Hilan: Demanded to use a ship... I refused...", "thehiddencity-hilan-3", false);
