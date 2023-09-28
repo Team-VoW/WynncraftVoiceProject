@@ -1548,9 +1548,33 @@
 
 
 
+  "mushroomman-tasim-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-1", "stream": true}]
+  },
+  "mushroomman-tasim-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-2", "stream": true}]
+  },
+  "mushroomman-tasim-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-3", "stream": true}]
+  },
+  "mushroomman-tasim-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-4", "stream": true}]
+  },
+  "mushroomman-tasim-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-5", "stream": true}]
+  },
   "mushroomman-yahya-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-1", "stream": true}]
+  },
+  "mushroomman-tasim-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-6", "stream": true}]
   },
   "mushroomman-yahya-2": {
     "category": "voice",
@@ -1560,6 +1584,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-3", "stream": true}]
   },
+  "mushroomman-tasim-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-7", "stream": true}]
+  },
   "mushroomman-yahya-4": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-4", "stream": true}]
@@ -1567,6 +1595,10 @@
   "mushroomman-yahya-5": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-5", "stream": true}]
+  },
+  "mushroomman-tasim-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-8", "stream": true}]
   },
   "mushroomman-yahya-6": {
     "category": "voice",
@@ -1579,6 +1611,18 @@
   "mushroomman-yahya-8": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-8", "stream": true}]
+  },
+  "mushroomman-tasim-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-9", "stream": true}]
+  },
+  "mushroomman-tasim-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-10", "stream": true}]
+  },
+  "mushroomman-tasim-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-11", "stream": true}]
   },
   "mushroomman-yahya-9": {
     "category": "voice",
@@ -1596,6 +1640,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-12", "stream": true}]
   },
+  "mushroomman-tasim-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-12", "stream": true}]
+  },
   "mushroomman-yahya-13": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-13", "stream": true}]
@@ -1603,6 +1651,10 @@
   "mushroomman-yahya-14": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-14", "stream": true}]
+  },
+  "mushroomman-tasim-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-13", "stream": true}]
   },
   "mushroomman-yahya-15": {
     "category": "voice",
@@ -1612,58 +1664,103 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:mushroomman-yahya-16", "stream": true}]
   },
-  "mushroomman-yahya-17": {
+  "mushroomman-tasim-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-17", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-14", "stream": true}]
   },
-  "mushroomman-yahya-18": {
+  "mushroomman-tasim-15": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-18", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-15", "stream": true}]
   },
-  "mushroomman-yahya-19": {
+  "mushroomman-tasim-16": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-19", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-16", "stream": true}]
   },
-  "mushroomman-yahya-20": {
+  "mushroomman-mayoralvin-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-20", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-mayoralvin-1", "stream": true}]
   },
-  "mushroomman-yahya-21": {
+  "mushroomman-tasim-17": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-21", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-17", "stream": true}]
   },
-  "mushroomman-yahya-22": {
+  "mushroomman-mayoralvin-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-22", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-mayoralvin-2", "stream": true}]
   },
-  "mushroomman-yahya-23": {
+  "mushroomman-tasim-18": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-23", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-18", "stream": true}]
   },
-  "mushroomman-yahya-24": {
+  "mushroomman-mayoralvin-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-24", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-mayoralvin-3", "stream": true}]
   },
-  "mushroomman-yahya-25": {
+  "mushroomman-mayoralvin-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-25", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-mayoralvin-4", "stream": true}]
   },
-  "mushroomman-yahya-26": {
+  "mushroomman-tasim-19": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-26", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-19", "stream": true}]
   },
-  "mushroomman-yahya-27": {
+  "mushroomman-tasim-20": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-27", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-20", "stream": true}]
   },
-  "mushroomman-yahya-28": {
+  "mushroomman-tasim-21": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-28", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-21", "stream": true}]
   },
-  "mushroomman-yahya-29": {
+  "mushroomman-aledar-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:mushroomman-yahya-29", "stream": true}]
+    "sounds": [{ "name": "wynnvp:mushroomman-aledar-1", "stream": true}]
   },
+  "mushroomman-admiralaegis-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-admiralaegis-1", "stream": true}]
+  },
+  "mushroomman-aledar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-aledar-2", "stream": true}]
+  },
+  "mushroomman-tasim-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-22", "stream": true}]
+  },
+  "mushroomman-admiralaegis-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-admiralaegis-2", "stream": true}]
+  },
+  "mushroomman-tasim-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-23", "stream": true}]
+  },
+  "mushroomman-tasim-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-24", "stream": true}]
+  },
+  "mushroomman-admiralaegis-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-admiralaegis-3", "stream": true}]
+  },
+  "mushroomman-tasim-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-tasim-25", "stream": true}]
+  },
+  "mushroomman-admiralaegis-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-admiralaegis-4", "stream": true}]
+  },
+  "mushroomman-aledar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-aledar-3", "stream": true}]
+  },
+  "mushroomman-admiralaegis-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:mushroomman-admiralaegis-5", "stream": true}]
+  },
+
 
 
   "cluckcluck-nohno-1": {
