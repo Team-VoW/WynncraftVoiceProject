@@ -135,7 +135,7 @@ public class Sounds {
         s.addSound("[5/5] Tasim: Well, there you go! I'm going to head to the end of the Emerald Trail, to the entrance of Nivla Woods. You should meet me there once you've gotten a little stronger.", "kingsrecruit-tasim-38", false);
         s.addSound("[1/1] Aledar: Where are you going? Don't leave us!", "kingsrecruit-aledar-32", false);
         s.addSound("[1/1] Tasim: Come over here, we have a problem...", "kingsrecruit-tasim-39", false);
-        s.addSound("[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.", "kingsrecruit-ragnisking-1", false, , new Vector3(-939, 67, -1567), 70);
+        s.addSound("[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.", "kingsrecruit-ragnisking-1", false, new Vector3(-939, 67, -1567), 70);
         s.addSound("[1/7] Ragni's King: Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.", "kingsrecruit-ragnisking-2", false);
         s.addSound("[2/7] Ragni's King: Welcome to the Wynn Province!", "kingsrecruit-ragnisking-3", false);
         s.addSound("[3/7] Ragni's King: This is the noble fort of Ragni, one of the oldest and most influential cities in the province!", "kingsrecruit-ragnisking-4", false);
