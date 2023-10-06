@@ -1798,9 +1798,21 @@
 
 
 
+  "infestedplants-tasim-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-1", "stream": true}]
+  },
+  "infestedplants-tasim-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-2", "stream": true}]
+  },
   "infestedplants-ope-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestedplants-ope-1", "stream": true}]
+  },
+  "infestedplants-tasim-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-3", "stream": true}]
   },
   "infestedplants-ope-2": {
     "category": "voice",
@@ -1809,6 +1821,10 @@
   "infestedplants-ope-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestedplants-ope-3", "stream": true}]
+  },
+  "infestedplants-tasim-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-4", "stream": true}]
   },
   "infestedplants-ope-4": {
     "category": "voice",
@@ -1822,13 +1838,25 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestedplants-ope-6", "stream": true}]
   },
+  "infestedplants-tasim-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-5", "stream": true}]
+  },
   "infestedplants-ope-7": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestedplants-ope-7", "stream": true}]
   },
+  "infestedplants-elderforestspider-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-elderforestspider-1", "stream": true}]
+  },
   "infestedplants-ope-8": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestedplants-ope-8", "stream": true}]
+  },
+  "infestedplants-tasim-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-6", "stream": true}]
   },
   "infestedplants-ope-9": {
     "category": "voice",
@@ -1841,6 +1869,90 @@
   "infestedplants-ope-11": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestedplants-ope-11", "stream": true}]
+  },
+  "infestedplants-tasim-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-7", "stream": true}]
+  },
+  "infestedplants-ope-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-12", "stream": true}]
+  },
+  "infestedplants-ope-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-ope-13", "stream": true}]
+  },
+  "infestedplants-tasim-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-8", "stream": true}]
+  },
+  "infestedplants-mayoralvin-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-1", "stream": true}]
+  },
+  "infestedplants-tasim-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-9", "stream": true}]
+  },
+  "infestedplants-mayoralvin-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-2", "stream": true}]
+  },
+  "infestedplants-mayoralvin-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-3", "stream": true}]
+  },
+  "infestedplants-tasim-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-10", "stream": true}]
+  },
+  "infestedplants-mayoralvin-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-4", "stream": true}]
+  },
+  "infestedplants-tasim-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-tasim-11", "stream": true}]
+  },
+  "infestedplants-mayoralvin-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-5", "stream": true}]
+  },
+  "infestedplants-mayoralvin-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-6", "stream": true}]
+  },
+  "infestedplants-mayoralvin-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-7", "stream": true}]
+  },
+  "infestedplants-mayoralvin-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-8", "stream": true}]
+  },
+  "infestedplants-mayoralvin-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-9", "stream": true}]
+  },
+  "infestedplants-mayoralvin-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-10", "stream": true}]
+  },
+  "infestedplants-mayoralvin-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-11", "stream": true}]
+  },
+  "infestedplants-mayoralvin-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-12", "stream": true}]
+  },
+  "infestedplants-mayoralvin-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-13", "stream": true}]
+  },
+  "infestedplants-mayoralvin-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-14", "stream": true}]
   },
 
 

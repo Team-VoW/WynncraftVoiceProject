@@ -207,18 +207,46 @@ public class Sounds {
         s.addSound("[4/4] The Cook: You can get wheat grains by farming some from the fields close to Ragni's north entrance.", "cookassistant-thecook-13", false);
         s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-14", false);
 
-        //Infested Plants
-        s.addSound("[1/5] Ope: Hello! Young traveler.", "infestedplants-ope-1", false);
-        s.addSound("[2/5] Ope: I was recently bit by a spider! Can you believe it? I know, shocking.", "infestedplants-ope-2", false);
-        s.addSound("[3/5] Ope: Anyway, I'm not fit enough to venture into an infested cave filled with creepy crawlies to get the medical herb to cure myself.", "infestedplants-ope-3", false);
-        s.addSound("[4/5] Ope: You look like you work as a soldier of sorts. We can clearly see that. You soldiers never had fashion as your strong suit.", "infestedplants-ope-4", false);
-        s.addSound("[5/5] Ope: Anyway, the cave is a bit further away from us but the only way in is through the rooftops. I started building a way up in this tree just behind me, good luck!", "infestedplants-ope-5", false);
-        s.addSound("[1/3] Ope: I've literally been sitting here for hours, maybe not hours, at least five minutes!", "infestedplants-ope-6", false);
-        s.addSound("[2/3] Ope: Thanks, even though it took you a while I'll give you a small reward.", "infestedplants-ope-7", false);
-        s.addSound("[3/3] Ope: Take that money and head to Detlas won't ya? You can maybe buy some better clothing, because you need it.", "infestedplants-ope-8", false);
-        s.addSound("[1/2] Ope: Hey you! I was attacked by a spider just now.", "infestedplants-ope-9", false);
-        s.addSound("[2/2] Ope: Come back when you are a bit stronger than... that. Level 4 should work.", "infestedplants-ope-10", false);
-        s.addSound("[1/1] Ope: Thank you again for your help!", "infestedplants-ope-11", false);
+        //infested plants
+        s.addSound("[1/8] Tasim: Oh, soldier! There you are. It's good to see you. Are you ready to continue on towards Detlas?", "infestedplants-tasim-1", false);
+        s.addSound("[2/8] Tasim: It seems we'll need to pass through the Nivla Woods first. I've heard the forest is crawling with spiders... But between you and me, we should be-", "infestedplants-tasim-2", false);
+        s.addSound("[3/8] ???: H-hey! You two! You're soldiers, right? I can tell from your weird fashion sense. You folk are supposed to help people! So. Help!", "infestedplants-ope-1", false, new Vector3(-420, 67, -1596));
+        s.addSound("[4/8] Tasim: Huh? Oh- yes, of course! What's your name? What do you need help with?", "infestedplants-tasim-3", false);
+        s.addSound("[5/8] Ope: I'm Ope! I was recently... uh... bit by a spider! And now I need your help to get a rare medicinal herb to heal me!", "infestedplants-ope-2", false);
+        s.addSound("[6/8] Ope: It only grows in an infested cave filled with creepy crawlies. And I'm clearly in no condition to go get it myself!", "infestedplants-ope-3", false);
+        s.addSound("[7/8] Tasim: Well, alright! We're here to help, after all, so... We'll get you that herb!", "infestedplants-tasim-4", false);
+        s.addSound("[8/8] Ope: Perfect. I'll bring you to the cave, and you can do the rest from there. Follow me, soldiers!", "infestedplants-ope-4", false);
+        s.addSound("[1/4] Ope: Well, here we are! The only way you can reach the cave is up through this tree.", "infestedplants-ope-5", false);
+        s.addSound("[2/4] Ope: Hm... There's two of you. Good! One of you can climb up into that cave, and the other can protect me from the crawly spiders down here!", "infestedplants-ope-6", false);
+        s.addSound("[3/4] Tasim: Alright! soldier, you can go up into the tree, and I can defend Ope here while you do that.", "infestedplants-tasim-5", false);
+        s.addSound("[4/4] Ope: Good, good. Well, good luck up there! Try not to get bitten too much by the spiders!", "infestedplants-ope-7", false);
+        s.addSound("[1/1] Elder Forest Spider: ......must............protect............", "infestedplants-elderforestspider-1", true);
+        s.addSound("[1/10] Ope: There you are! It feels like we've been waiting for hours.", "infestedplants-ope-8", false);
+        s.addSound("[2/10] Tasim: It... really hasn't been that long. Maybe ten minutes at most.", "infestedplants-tasim-6", false);
+        s.addSound("[3/10] Ope: Well-... Anyway! Do you have the herb? It's very- uh, important! To cure me. Yep.", "infestedplants-ope-9", false);
+        s.addSound("[4/10] Ope: There it is! Eheh. Thank you kindly for your work, soldiers! Now, about your payment... Let's see, what do I have...", "infestedplants-ope-10", false);
+        s.addSound("[5/10] Ope: Oh. I seem to be out of emeralds. Well- I can, uh, offer some advice! There's lots to find in this forest. Plenty of caves with valuables to explore! Might be worth your time.", "infestedplants-ope-11", false);
+        s.addSound("[6/10] Tasim: Wait, are you seriously not going to-", "infestedplants-tasim-7", false);
+        s.addSound("[7/10] Ope: It has been a time, soldiers, but I truly must be going! We're near Alekin Village, you should stop on by! Go and speak to the mayor! He can cover my expenses!", "infestedplants-ope-12", false);
+        s.addSound("[8/10] Ope: Well. Goodbye!", "infestedplants-ope-13", false);
+        s.addSound("[10/10] Tasim: That's... frustrating. He seemed shady from the start, I should have-... Well. What's done is done. Let's go speak to that mayor.", "infestedplants-tasim-8", false);
+        s.addSound("[1/6] Mayor Alvin: Ah, travelers... welcome to our humble forest town. Have you come to stay, or are you simply passing through?", "infestedplants-mayoralvin-1", false);
+        s.addSound("[2/6] Tasim: Probably the latter. Though, we ran into a man named Ope, who directed us to speak with you.", "infestedplants-tasim-9", false);
+        s.addSound("[3/6] Mayor Alvin: Oh, Ope... I take it your meeting with him went poorly? I must apologize for him, he is... a tough man to deal with.", "infestedplants-mayoralvin-2", false);
+        s.addSound("[4/6] Mayor Alvin: Here, I may offer you a small sum of emeralds as an apology. I hope he has not soured your opinion of our small town, here...", "infestedplants-mayoralvin-3", false);
+        s.addSound("[5/6] Tasim: Oh... Thank you. That's very kind of you. We'll probably stay for a while, before we continue towards Detlas.", "infestedplants-tasim-10", false);
+        s.addSound("[6/6] Mayor Alvin: Then feel free to make yourselves at home! We welcome all travelers here, no matter how long their stay is.", "infestedplants-mayoralvin-4", false);
+        s.addSound("[1/1] Tasim: I'm going to go rest up a little. I'll be ready for more adventure soon though, don't worry!", "infestedplants-tasim-11", false);
+        s.addSound("[1/1] Mayor Alvin: Ah, hello! What can I do for you today?", "infestedplants-mayoralvin-5", false);
+        s.addSound("[1/4] Mayor Alvin: He's... difficult. He's the son of my sister, who was unfortunately killed by spiders some time ago.", "infestedplants-mayoralvin-6", false);
+        s.addSound("[2/4] Mayor Alvin: With his father out of the picture, I had to take him in. He's a grown man now, yes, but... I fear the loss has taken its toll on us both.", "infestedplants-mayoralvin-7", false);
+        s.addSound("[3/4] Mayor Alvin: I truly hope he will cease with these ridiculous ploys sometime soon... but I can't bring myself to do more than give him a stern talking to.", "infestedplants-mayoralvin-8", false);
+        s.addSound("[4/4] Mayor Alvin: He's a good man, truly. I believe that with my whole heart. It's alright if you don't feel the same way, though. I will not force you to interact with him if you do not wish to.", "infestedplants-mayoralvin-9", false);
+        s.addSound("[1/4] Mayor Alvin: Oh, dear... I suppose it must have been fifteen years ago that I took the position, when the old mayor stepped down.", "infestedplants-mayoralvin-10", false);
+        s.addSound("[2/4] Mayor Alvin: He was a kind man, always looking out for the townsfolk. Though, by the time he retired, it was clear he was growing restless in our little town.", "infestedplants-mayoralvin-11", false);
+        s.addSound("[3/4] Mayor Alvin: Well, as soon as he passed down the position to me, he immediately traveled to Detlas and enlisted in their army! I hear he's in the business of training soldiers these days.", "infestedplants-mayoralvin-12", false);
+        s.addSound("[4/4] Mayor Alvin: Ah, but I've tried to live up to his legacy. I like to think I've done well in my time as mayor!", "infestedplants-mayoralvin-13", false);
+        s.addSound("[1/1] Mayor Alvin: A fine day for passing through! I hope you enjoy your stay.", "infestedplants-mayoralvin-14", false);
 
         //The Sewers Of Ragni
         s.addSound("[1/4] Jenprest: Soldier! Good timing. We've been requesting help for ages.", "thesewersofragni-jenprest-1", false);
