@@ -324,6 +324,58 @@ public class Sounds {
         s.addSound("[1/1] Sergeant Klafson: Hello again, soldier! Doing great things around the province, I presume?", "tunneltrouble-sergeantklafson-4", false);
         s.addSound("[1/1] Sergeant Klafson: I'm sorry, recruit, but that passage is blocked. We used to use it, but not anymore...", "tunneltrouble-sergeantklafson-5", false);
 
+        //Supply and delivery
+        s.addSound("[1/9] Ope: Oh, man... What am I going to do now...", "supplyanddelivery-ope-1", false);
+        s.addSound("[2/9] Ope: O-oh! H-hello soldier! Wow, what a coincidence that we're both here... in Detlas... today...", "supplyanddelivery-ope-2", false);
+        s.addSound("[3/9] Ope: What? Don't look at me like that! We had a perfectly fair interaction which we both benefited from. I got the plant, and you... well. You gained experience?", "supplyanddelivery-ope-3", false);
+        s.addSound("[4/9] Ope: Look, alright, I get it! But I can't pay you back either way. The mayor sent me here to pick up a crate of supplies for the village.", "supplyanddelivery-ope-4", false);
+        s.addSound("[5/9] Ope: The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway...", "supplyanddelivery-ope-5", false);
+        s.addSound("[6/9] Ope: Those two over there who run the market banned me from ever using it after I tried to buy out the world's supplies of magical powders.", "supplyanddelivery-ope-6", false);
+        s.addSound("[7/9] Ope: Look, it's not my fault I'm making big market moves. I'm just, you know- smarter than all these other folks!", "supplyanddelivery-ope-7", false);
+        s.addSound("[8/9] Ope: ... The point is. I could really use your help right now! I- I promise, I'll pay you back for it this time.", "supplyanddelivery-ope-8", false);
+        s.addSound("[9/9] Ope: All you need to do is go over to the Trade Market, and buy the supply crate for me. Please?", "supplyanddelivery-ope-9", false);
+        s.addSound("[8/10] Ope: ... What? They also banned you from the market?! Well, great. What're we supposed to do now?", "supplyanddelivery-ope-10", false);
+        s.addSound("[9/10] Ope: Well, do you have any other friends we could get involved? There was... that other soldier guy, right? His name was... Tim. Or something.", "supplyanddelivery-ope-11", false);
+        s.addSound("[10/10] Ope: Look- alright, I get it, I'm a jerk who doesn't remember peoples' names! Could you just ask him to buy the supplies for us? He's our last hope... probably.", "supplyanddelivery-ope-12", false);
+        s.addSound("[1/2] Ope: Well? Did you buy the supply crate yet?", "supplyanddelivery-ope-13", false);
+        s.addSound("[2/2] Ope: All you need to do is go over to the Trade Market, and buy the supply crate for me. It's not that hard!", "supplyanddelivery-ope-14", false);
+        s.addSound("[1/1] Ope: Hey, good work! Now you'll need to pick up the supply crate.", "supplyanddelivery-ope-15", false);
+        s.addSound("[1/1] Ope: Perfect! Now, quickly, come back over here, before those two realize you're working with me!", "supplyanddelivery-ope-16", false);
+        s.addSound("[1/6] Ope: You got the item? Good. Good, good good.", "supplyanddelivery-ope-17", false);
+        s.addSound("[2/6] Ope: Okay! Now, we're onto step two. So, you see, this package still needs to make it to Alekin Village...", "supplyanddelivery-ope-18", false);
+        s.addSound("[3/6] Ope: And. Well. You're the one holding the crate, not me! So... you know!", "supplyanddelivery-ope-19", false);
+        s.addSound("[4/6] Ope: Well, you see. I really don't want to do it. And I'm not going to!", "supplyanddelivery-ope-20", false);
+        s.addSound("[5/6] Ope: So either you run the supplies to Alekin Village... or we both run away and start new lives, and we avoid the consequences of our actions!", "supplyanddelivery-ope-21", false);
+        s.addSound("[6/6] Ope: ...no? No. Okay. Worth a shot. Well, you know the way by now! No need for me to, uh, get in your way! Heh...", "supplyanddelivery-ope-22", false);
+        s.addSound("[4/6] Ope: Great! You know the way by now, surely! No need for me to, uh, get in your way!", "supplyanddelivery-ope-23", false);
+        s.addSound("[5/6] Ope: Just take those supplies to Alekin Village, and. Well. Things will work out.", "supplyanddelivery-ope-24", false);
+        s.addSound("[6/6] Ope: ...probably.", "supplyanddelivery-ope-25", false);
+        s.addSound("[1/1] Tasim: Oh, hey soldier! Are you just here to hang out? Or- that look on your face tells me you're here for something else.", "supplyanddelivery-tasim-1", false);
+        s.addSound("[1/3] Tasim: ...Oh. Well, that explains that. Though- is there a reason you can't get it yourself?", "supplyanddelivery-tasim-2", false);
+        s.addSound("[1/3] Tasim: I... guess so? Is there a reason you can't do it yourself?", "supplyanddelivery-tasim-3", false);
+        s.addSound("[2/3] Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!", "supplyanddelivery-tasim-4", false);
+        s.addSound("[3/3] Tasim: You- what!? Nevermind, I don't actually want to know. Come on, lead the way. I'll buy... whatever it is you need.", "supplyanddelivery-tasim-5", false);
+        s.addSound("[3/3] Tasim: Tasim: You- what!? Nevermind, I don't actually want to know. Come on, lead the way. I'll buy whatever it is Ope needs.", "supplyanddelivery-tasim-6", false);
+        s.addSound("[1/2] Tasim: Alright. So I'm just buying a supply crate...", "supplyanddelivery-tasim-7", false);
+        s.addSound("[2/2] Tasim: Here it is. I wish you luck with... whatever it is you're up to.", "supplyanddelivery-tasim-8", false);
+        s.addSound("[1/6] Ope: He bought you the item? Good. Good, good good. Okay! That was... harder than expected.", "supplyanddelivery-ope-26", false);
+        s.addSound("[2/6] Ope: Now, we're onto step two. So, you see, this package still needs to make it to Alekin Village...", "supplyanddelivery-ope-27", false);
+        s.addSound("[1/1] Ope: Hey! I- uh, I can't help but notice that. You're still here. With the crate. You need to bring it to Alekin Village, remember?", "supplyanddelivery-ope-28", false);
+        s.addSound("[1/5] Mayor Alvin: Ah... So you do. I thought I had sent Ope to pick that up...", "supplyanddelivery-mayoralvin-1", false);
+        s.addSound("[2/5] Mayor Alvin: More of his shenanigans, I suppose. I am sorry you have had to deal with him twice.", "supplyanddelivery-mayoralvin-2", false);
+        s.addSound("[3/5] Mayor Alvin: When he returns to the village, I'm going to need to have a word with him... Ah, but of course, I should pay you for your troubles.", "supplyanddelivery-mayoralvin-3", false);
+        s.addSound("[4/5] Mayor Alvin: I hope these emeralds will suffice. Additionally... we have recently fixed up one of our broken carts, which makes the trip to Detlas and back.", "supplyanddelivery-mayoralvin-4", false);
+        s.addSound("[5/5] Mayor Alvin: You may feel free to use it whenever you like! As thanks for all you have done for us.", "supplyanddelivery-mayoralvin-5", false);
+        s.addSound("[1/2] Wagon Driver: Howdy! Lookin' to hitch a ride off to Alekin Village? Sorry to say, but the wagon's broken down.", "supplyanddelivery-wagondriver-1", false);
+        s.addSound("[1/2] Wagon Driver: Howdy! Lookin' to hitch a ride off to Detlas? Sorry to say, but the wagon's broken down.", "supplyanddelivery-wagondriver-2", false);
+        s.addSound("[2/2] Wagon Driver: I reckon it won't be long 'till it's fixed up, but you'll have to make the journey yourself for now.", "supplyanddelivery-wagondriver-3", false);
+        s.addSound("[1/2] Wagon Driver: Howdy! Lookin' to hitch a ride off to Detlas? Well, lucky you! The wagon's been fixed up all nice and new!", "supplyanddelivery-wagondriver-4", false);
+        s.addSound("[2/2] Wagon Driver: Just hop on aboard, and I'll get you to Detlas in a jiffy!", "supplyanddelivery-wagondriver-5", false);
+        s.addSound("[1/1] Wagon Driver: Ain't far to Detlas from here! We'll be there in a jiffy, just you wait.", "supplyanddelivery-wagondriver-6", false);
+        s.addSound("[1/2] Wagon Driver: Howdy! Lookin' to hitch a ride off to Alekin Village? Well, lucky you! The wagon's been fixed up all nice and new!", "supplyanddelivery-wagondriver-7", false);
+        s.addSound("[2/2] Wagon Driver: Just hop on aboard, and I'll get you to Alekin Village in a jiffy!", "supplyanddelivery-wagondriver-8", false);
+        s.addSound("[1/1] Wagon Driver: Ain't far to Alekin Village from here! We'll be there in a jiffy, just you wait.", "supplyanddelivery-wagondriver-9", false);
+
         //Underwater
         s.addSound("[1/1] Omango: Go through the cave and talk with my friend Sayrr, he can give you the helmet. After that, explore the ship and bring me [4 Ancient Treasure].", "underwater-omango-1", false);
         s.addSound("[1/1] Omango: Glad to see you again!", "underwater-omango-2", false);
