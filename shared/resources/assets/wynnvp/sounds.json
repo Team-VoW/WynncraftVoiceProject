@@ -817,6 +817,94 @@
     "sounds": [{ "name": "wynnvp:gravedigger-sayleros-11", "stream": true}]
   },
 
+  "barracks-aledar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-1", "stream": true}]
+  },
+  "barracks-tasim-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-1", "stream": true}]
+  },
+  "barracks-aledar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-2", "stream": true}]
+  },
+  "barracks-tasim-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-2", "stream": true}]
+  },
+  "barracks-aledar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-3", "stream": true}]
+  },
+  "barracks-tasim-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-3", "stream": true}]
+  },
+  "barracks-aledar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-4", "stream": true}]
+  },
+  "barracks-tasim-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-4", "stream": true}]
+  },
+  "barracks-aledar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-5", "stream": true}]
+  },
+  "barracks-tasim-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-5", "stream": true}]
+  },
+  "barracks-aledar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-6", "stream": true}]
+  },
+  "barracks-tasim-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-6", "stream": true}]
+  },
+  "barracks-tasim-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-7", "stream": true}]
+  },
+  "barracks-aledar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-7", "stream": true}]
+  },
+  "barracks-aledar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-8", "stream": true}]
+  },
+  "barracks-tasim-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-8", "stream": true}]
+  },
+  "barracks-aledar-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-9", "stream": true}]
+  },
+  "barracks-tasim-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-9", "stream": true}]
+  },
+  "barracks-tasim-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-10", "stream": true}]
+  },
+  "barracks-tasim-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-tasim-11", "stream": true}]
+  },
+  "barracks-aledar-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-10", "stream": true}]
+  },
+  "barracks-aledar-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:barracks-aledar-11", "stream": true}]
+  },
 
 
   "wrathofthemummy-ormrod-1": {

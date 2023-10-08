@@ -376,6 +376,31 @@ public class Sounds {
         s.addSound("[2/2] Wagon Driver: Just hop on aboard, and I'll get you to Alekin Village in a jiffy!", "supplyanddelivery-wagondriver-8", false);
         s.addSound("[1/1] Wagon Driver: Ain't far to Alekin Village from here! We'll be there in a jiffy, just you wait.", "supplyanddelivery-wagondriver-9", false);
 
+        //Barracks
+        s.addSound("[1/12] Aledar: Well, here we are! Back at the barracks, after a successful mission. It feels a little... unreal, you know?", "barracks-aledar-1", false);
+        s.addSound("[2/12] Tasim: I know what you mean. But, well, we did good! We managed to make the woods safer for the people living there.", "barracks-tasim-1", false);
+        s.addSound("[3/12] Aledar: We did! And now, we celebrate! Here, let's all have some Nemract Whiskey for the occasion.", "barracks-aledar-2", false);
+        s.addSound("[4/12] Tasim: ...So, what're you two planning to do next? I think I'll speak to the Admiral about finding an assignment somewhere.", "barracks-tasim-2", false);
+        s.addSound("[5/12] Aledar: Hm. I've been thinking a little about... looking into more advanced powder techniques. Something about their magic sticks out to me.", "barracks-aledar-3", false);
+        s.addSound("[6/12] Tasim: Oh, really? I thought you would be more into basic fighting, what with our journey to Ragni.", "barracks-tasim-3", false);
+        s.addSound("[7/12] Aledar: Yeah... well, I guess I found something a little more interesting along the way. I'll let you know how it all goes.", "barracks-aledar-4", false);
+        s.addSound("[8/12] Tasim: Keep us updated, Aledar. So, soldier, what are you thinking of doing next?", "barracks-tasim-4", false);
+        s.addSound("[9/1] Aledar: Not a bad idea! I might join you with that later, once I've decide on things more.", "barracks-aledar-5", false);
+        s.addSound("[10/1] Tasim: Helping people is a good goal. There's bound to be lots of people around who need it.", "barracks-tasim-5", false);
+        s.addSound("[9/12] Aledar: Exploring, huh? That's a good idea. There's plenty to see around here!", "barracks-aledar-6", false);
+        s.addSound("[10/12] Tasim: ...And- well, we all came here for a reason. Might as well see the province while we're here, right?", "barracks-tasim-6", false);
+        s.addSound("[9/12] Tasim: Well, if you're staying in the area, maybe we'll cross paths! I'll likely be defending Detlas in the short-term.", "barracks-tasim-7", false);
+        s.addSound("[10/12] Aledar: And, well, I'll probably be around as well! There's plenty of experts in the area.", "barracks-aledar-7", false);
+        s.addSound("[9/12] Aledar: Well, hey, there's no shame in that. There's lots to do around here. I'm sure you'll figure it out!", "barracks-aledar-8", false);
+        s.addSound("[10/12] Tasim: If you need a goal, the next place you might want to visit is Nemract Swamp, to the north. Maybe pay it a visit when you rech level 20.", "barracks-tasim-8", false);
+        s.addSound("[11/12] Aledar: ...Well, I'm glad we were all able to be here together. Here's to a long and fulfilling friendship!", "barracks-aledar-9", false);
+        s.addSound("[12/12] Tasim: I'll drink to that! To all our future adventures.", "barracks-tasim-9", false);
+        s.addSound("[1/2] Tasim: Oh, hello soldier. I'm probably not going to be here for long- I've been assigned to help defend Elkurn to the south.", "barracks-tasim-10", false);
+        s.addSound("[2/2] Tasim: You should come visit, if you have the chance!", "barracks-tasim-11", false);
+        s.addSound("[1/2] Aledar: ...Oh, soldier! Good to see you. Anything interesting going on with you?", "barracks-aledar-10", false);
+        s.addSound("[2/2] Aledar: Me? Well, I've been making a little progress... but, nothing too big yet. I'm keeping at it, though!", "barracks-aledar-11", false);
+
+
         //Underwater
         s.addSound("[1/1] Omango: Go through the cave and talk with my friend Sayrr, he can give you the helmet. After that, explore the ship and bring me [4 Ancient Treasure].", "underwater-omango-1", false);
         s.addSound("[1/1] Omango: Glad to see you again!", "underwater-omango-2", false);
