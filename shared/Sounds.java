@@ -5344,7 +5344,9 @@ public class Sounds {
         s.addSound("[1/13] Batelu: Hello adventurer! I see you want to solve the mystery of Bob's tomb also? Glad to meet you.", "reincarnation-batleu-1", false);
         s.addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnation-batleu-2", false);
         s.addSound("[1/5] Batelu: Bob's Seal of Approval? Oh my goodness!", "reincarnation-batleu-3", false);
+    }
 
+    private static void register2(SoundsHandler s) {
         //Acquiring credentials
         s.addSound("[1/6] Officer: I'm sorry sir, but I can't just give you a new passport... You'd need approval from-...", "acquiringcredentials-officer-1", false);
         s.addSound("[2/6] Doan: But sir, my passport was stolen! I have a flight to Detlas in under 30 minutes. I really need one, quick... ", "acquiringcredentials-doan-1", false);
@@ -6338,9 +6340,7 @@ public class Sounds {
         s.addSound("[29/30] Lecade: Well soldier, I'll be checking out what degree of havoc he's wreaked on this fort.", "generalsorders-lecade-74", false);
         s.addSound("[30/30] Lecade: I couldn't leave you unrewarded for your efforts though. You seem resourceful- Perhaps you can find a use for that odd slime it left behind.", "generalsorders-lecade-75", false);
         s.addSound("[1/1] Lecade: The soldiers understood the situation, luckily. Can't believe it got that far. I'll make sure nothing like that ever happens again!", "generalsorders-lecade-76", false);
-    }
 
-    private static void register2(SoundsHandler s) {
         //Questionmark ???
         s.addSound(">All systems online.", "questionmark-computer-1", true);
         s.addSound(">Teleporter activating...", "questionmark-computer-2", true);
