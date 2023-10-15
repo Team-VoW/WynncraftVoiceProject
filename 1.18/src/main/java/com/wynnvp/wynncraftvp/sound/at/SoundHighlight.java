@@ -19,10 +19,12 @@ public class SoundHighlight {
         Player p = Minecraft.getInstance().player;
         assert p != null;
 
+        var level = Minecraft.getInstance().level;
+
         for (double x = position.x - 0.2; x <= position.x + 0.2; x += 0.1) {
             for (double y = position.y - 0.2; y <= position.y + 0.2; y += 0.1) {
                 for (double z = position.z - 0.2; z <= position.z + 0.2; z += 0.1) {
-                    p.getLevel().addParticle(ParticleTypes.END_ROD, x, y, z, 0, 0, 0);
+                    level.addParticle(ParticleTypes.END_ROD, x, y, z, 0, 0, 0);
                 }
             }
         }

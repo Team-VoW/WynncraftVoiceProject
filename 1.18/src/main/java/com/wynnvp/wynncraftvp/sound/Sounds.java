@@ -207,18 +207,46 @@ public class Sounds {
         s.addSound("[4/4] The Cook: You can get wheat grains by farming some from the fields close to Ragni's north entrance.", "cookassistant-thecook-13", false);
         s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-14", false);
 
-        //Infested Plants
-        s.addSound("[1/5] Ope: Hello! Young traveler.", "infestedplants-ope-1", false);
-        s.addSound("[2/5] Ope: I was recently bit by a spider! Can you believe it? I know, shocking.", "infestedplants-ope-2", false);
-        s.addSound("[3/5] Ope: Anyway, I'm not fit enough to venture into an infested cave filled with creepy crawlies to get the medical herb to cure myself.", "infestedplants-ope-3", false);
-        s.addSound("[4/5] Ope: You look like you work as a soldier of sorts. We can clearly see that. You soldiers never had fashion as your strong suit.", "infestedplants-ope-4", false);
-        s.addSound("[5/5] Ope: Anyway, the cave is a bit further away from us but the only way in is through the rooftops. I started building a way up in this tree just behind me, good luck!", "infestedplants-ope-5", false);
-        s.addSound("[1/3] Ope: I've literally been sitting here for hours, maybe not hours, at least five minutes!", "infestedplants-ope-6", false);
-        s.addSound("[2/3] Ope: Thanks, even though it took you a while I'll give you a small reward.", "infestedplants-ope-7", false);
-        s.addSound("[3/3] Ope: Take that money and head to Detlas won't ya? You can maybe buy some better clothing, because you need it.", "infestedplants-ope-8", false);
-        s.addSound("[1/2] Ope: Hey you! I was attacked by a spider just now.", "infestedplants-ope-9", false);
-        s.addSound("[2/2] Ope: Come back when you are a bit stronger than... that. Level 4 should work.", "infestedplants-ope-10", false);
-        s.addSound("[1/1] Ope: Thank you again for your help!", "infestedplants-ope-11", false);
+        //infested plants
+        s.addSound("[1/8] Tasim: Oh, soldier! There you are. It's good to see you. Are you ready to continue on towards Detlas?", "infestedplants-tasim-1", false);
+        s.addSound("[2/8] Tasim: It seems we'll need to pass through the Nivla Woods first. I've heard the forest is crawling with spiders... But between you and me, we should be-", "infestedplants-tasim-2", false);
+        s.addSound("[3/8] ???: H-hey! You two! You're soldiers, right? I can tell from your weird fashion sense. You folk are supposed to help people! So. Help!", "infestedplants-ope-1", false, new Vector3(-420, 67, -1596));
+        s.addSound("[4/8] Tasim: Huh? Oh- yes, of course! What's your name? What do you need help with?", "infestedplants-tasim-3", false);
+        s.addSound("[5/8] Ope: I'm Ope! I was recently... uh... bit by a spider! And now I need your help to get a rare medicinal herb to heal me!", "infestedplants-ope-2", false);
+        s.addSound("[6/8] Ope: It only grows in an infested cave filled with creepy crawlies. And I'm clearly in no condition to go get it myself!", "infestedplants-ope-3", false);
+        s.addSound("[7/8] Tasim: Well, alright! We're here to help, after all, so... We'll get you that herb!", "infestedplants-tasim-4", false);
+        s.addSound("[8/8] Ope: Perfect. I'll bring you to the cave, and you can do the rest from there. Follow me, soldiers!", "infestedplants-ope-4", false);
+        s.addSound("[1/4] Ope: Well, here we are! The only way you can reach the cave is up through this tree.", "infestedplants-ope-5", false);
+        s.addSound("[2/4] Ope: Hm... There's two of you. Good! One of you can climb up into that cave, and the other can protect me from the crawly spiders down here!", "infestedplants-ope-6", false);
+        s.addSound("[3/4] Tasim: Alright! soldier, you can go up into the tree, and I can defend Ope here while you do that.", "infestedplants-tasim-5", false);
+        s.addSound("[4/4] Ope: Good, good. Well, good luck up there! Try not to get bitten too much by the spiders!", "infestedplants-ope-7", false);
+        s.addSound("[1/1] Elder Forest Spider: ......must............protect............", "infestedplants-elderforestspider-1", true);
+        s.addSound("[1/10] Ope: There you are! It feels like we've been waiting for hours.", "infestedplants-ope-8", false);
+        s.addSound("[2/10] Tasim: It... really hasn't been that long. Maybe ten minutes at most.", "infestedplants-tasim-6", false);
+        s.addSound("[3/10] Ope: Well-... Anyway! Do you have the herb? It's very- uh, important! To cure me. Yep.", "infestedplants-ope-9", false);
+        s.addSound("[4/10] Ope: There it is! Eheh. Thank you kindly for your work, soldiers! Now, about your payment... Let's see, what do I have...", "infestedplants-ope-10", false);
+        s.addSound("[5/10] Ope: Oh. I seem to be out of emeralds. Well- I can, uh, offer some advice! There's lots to find in this forest. Plenty of caves with valuables to explore! Might be worth your time.", "infestedplants-ope-11", false);
+        s.addSound("[6/10] Tasim: Wait, are you seriously not going to-", "infestedplants-tasim-7", false);
+        s.addSound("[7/10] Ope: It has been a time, soldiers, but I truly must be going! We're near Alekin Village, you should stop on by! Go and speak to the mayor! He can cover my expenses!", "infestedplants-ope-12", false);
+        s.addSound("[8/10] Ope: Well. Goodbye!", "infestedplants-ope-13", false);
+        s.addSound("[10/10] Tasim: That's... frustrating. He seemed shady from the start, I should have-... Well. What's done is done. Let's go speak to that mayor.", "infestedplants-tasim-8", false);
+        s.addSound("[1/6] Mayor Alvin: Ah, travelers... welcome to our humble forest town. Have you come to stay, or are you simply passing through?", "infestedplants-mayoralvin-1", false);
+        s.addSound("[2/6] Tasim: Probably the latter. Though, we ran into a man named Ope, who directed us to speak with you.", "infestedplants-tasim-9", false);
+        s.addSound("[3/6] Mayor Alvin: Oh, Ope... I take it your meeting with him went poorly? I must apologize for him, he is... a tough man to deal with.", "infestedplants-mayoralvin-2", false);
+        s.addSound("[4/6] Mayor Alvin: Here, I may offer you a small sum of emeralds as an apology. I hope he has not soured your opinion of our small town, here...", "infestedplants-mayoralvin-3", false);
+        s.addSound("[5/6] Tasim: Oh... Thank you. That's very kind of you. We'll probably stay for a while, before we continue towards Detlas.", "infestedplants-tasim-10", false);
+        s.addSound("[6/6] Mayor Alvin: Then feel free to make yourselves at home! We welcome all travelers here, no matter how long their stay is.", "infestedplants-mayoralvin-4", false);
+        s.addSound("[1/1] Tasim: I'm going to go rest up a little. I'll be ready for more adventure soon though, don't worry!", "infestedplants-tasim-11", false);
+        s.addSound("[1/1] Mayor Alvin: Ah, hello! What can I do for you today?", "infestedplants-mayoralvin-5", false);
+        s.addSound("[1/4] Mayor Alvin: He's... difficult. He's the son of my sister, who was unfortunately killed by spiders some time ago.", "infestedplants-mayoralvin-6", false);
+        s.addSound("[2/4] Mayor Alvin: With his father out of the picture, I had to take him in. He's a grown man now, yes, but... I fear the loss has taken its toll on us both.", "infestedplants-mayoralvin-7", false);
+        s.addSound("[3/4] Mayor Alvin: I truly hope he will cease with these ridiculous ploys sometime soon... but I can't bring myself to do more than give him a stern talking to.", "infestedplants-mayoralvin-8", false);
+        s.addSound("[4/4] Mayor Alvin: He's a good man, truly. I believe that with my whole heart. It's alright if you don't feel the same way, though. I will not force you to interact with him if you do not wish to.", "infestedplants-mayoralvin-9", false);
+        s.addSound("[1/4] Mayor Alvin: Oh, dear... I suppose it must have been fifteen years ago that I took the position, when the old mayor stepped down.", "infestedplants-mayoralvin-10", false);
+        s.addSound("[2/4] Mayor Alvin: He was a kind man, always looking out for the townsfolk. Though, by the time he retired, it was clear he was growing restless in our little town.", "infestedplants-mayoralvin-11", false);
+        s.addSound("[3/4] Mayor Alvin: Well, as soon as he passed down the position to me, he immediately traveled to Detlas and enlisted in their army! I hear he's in the business of training soldiers these days.", "infestedplants-mayoralvin-12", false);
+        s.addSound("[4/4] Mayor Alvin: Ah, but I've tried to live up to his legacy. I like to think I've done well in my time as mayor!", "infestedplants-mayoralvin-13", false);
+        s.addSound("[1/1] Mayor Alvin: A fine day for passing through! I hope you enjoy your stay.", "infestedplants-mayoralvin-14", false);
 
         //The Sewers Of Ragni
         s.addSound("[1/4] Jenprest: Soldier! Good timing. We've been requesting help for ages.", "thesewersofragni-jenprest-1", false);
@@ -295,6 +323,83 @@ public class Sounds {
         s.addSound("[1/1] Sergeant Klafson: Halt! You cannot go down this cave, it is blocked.", "tunneltrouble-sergeantklafson-3", false);
         s.addSound("[1/1] Sergeant Klafson: Hello again, soldier! Doing great things around the province, I presume?", "tunneltrouble-sergeantklafson-4", false);
         s.addSound("[1/1] Sergeant Klafson: I'm sorry, recruit, but that passage is blocked. We used to use it, but not anymore...", "tunneltrouble-sergeantklafson-5", false);
+
+        //Supply and delivery
+        s.addSound("[1/9] Ope: Oh, man... What am I going to do now...", "supplyanddelivery-ope-1", false);
+        s.addSound("[2/9] Ope: O-oh! H-hello soldier! Wow, what a coincidence that we're both here... in Detlas... today...", "supplyanddelivery-ope-2", false);
+        s.addSound("[3/9] Ope: What? Don't look at me like that! We had a perfectly fair interaction which we both benefited from. I got the plant, and you... well. You gained experience?", "supplyanddelivery-ope-3", false);
+        s.addSound("[4/9] Ope: Look, alright, I get it! But I can't pay you back either way. The mayor sent me here to pick up a crate of supplies for the village.", "supplyanddelivery-ope-4", false);
+        s.addSound("[5/9] Ope: The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway...", "supplyanddelivery-ope-5", false);
+        s.addSound("[6/9] Ope: Those two over there who run the market banned me from ever using it after I tried to buy out the world's supplies of magical powders.", "supplyanddelivery-ope-6", false);
+        s.addSound("[7/9] Ope: Look, it's not my fault I'm making big market moves. I'm just, you know- smarter than all these other folks!", "supplyanddelivery-ope-7", false);
+        s.addSound("[8/9] Ope: ... The point is. I could really use your help right now! I- I promise, I'll pay you back for it this time.", "supplyanddelivery-ope-8", false);
+        s.addSound("[9/9] Ope: All you need to do is go over to the Trade Market, and buy the supply crate for me. Please?", "supplyanddelivery-ope-9", false);
+        s.addSound("[8/10] Ope: ... What? They also banned you from the market?! Well, great. What're we supposed to do now?", "supplyanddelivery-ope-10", false);
+        s.addSound("[9/10] Ope: Well, do you have any other friends we could get involved? There was... that other soldier guy, right? His name was... Tim. Or something.", "supplyanddelivery-ope-11", false);
+        s.addSound("[10/10] Ope: Look- alright, I get it, I'm a jerk who doesn't remember peoples' names! Could you just ask him to buy the supplies for us? He's our last hope... probably.", "supplyanddelivery-ope-12", false);
+        s.addSound("[1/2] Ope: Well? Did you buy the supply crate yet?", "supplyanddelivery-ope-13", false);
+        s.addSound("[2/2] Ope: All you need to do is go over to the Trade Market, and buy the supply crate for me. It's not that hard!", "supplyanddelivery-ope-14", false);
+        s.addSound("[1/1] Ope: Hey, good work! Now you'll need to pick up the supply crate.", "supplyanddelivery-ope-15", false);
+        s.addSound("[1/1] Ope: Perfect! Now, quickly, come back over here, before those two realize you're working with me!", "supplyanddelivery-ope-16", false);
+        s.addSound("[1/6] Ope: You got the item? Good. Good, good good.", "supplyanddelivery-ope-17", false);
+        s.addSound("[2/6] Ope: Okay! Now, we're onto step two. So, you see, this package still needs to make it to Alekin Village...", "supplyanddelivery-ope-18", false);
+        s.addSound("[3/6] Ope: And. Well. You're the one holding the crate, not me! So... you know!", "supplyanddelivery-ope-19", false);
+        s.addSound("[4/6] Ope: Well, you see. I really don't want to do it. And I'm not going to!", "supplyanddelivery-ope-20", false);
+        s.addSound("[5/6] Ope: So either you run the supplies to Alekin Village... or we both run away and start new lives, and we avoid the consequences of our actions!", "supplyanddelivery-ope-21", false);
+        s.addSound("[6/6] Ope: ...no? No. Okay. Worth a shot. Well, you know the way by now! No need for me to, uh, get in your way! Heh...", "supplyanddelivery-ope-22", false);
+        s.addSound("[4/6] Ope: Great! You know the way by now, surely! No need for me to, uh, get in your way!", "supplyanddelivery-ope-23", false);
+        s.addSound("[5/6] Ope: Just take those supplies to Alekin Village, and. Well. Things will work out.", "supplyanddelivery-ope-24", false);
+        s.addSound("[6/6] Ope: ...probably.", "supplyanddelivery-ope-25", false);
+        s.addSound("[1/1] Tasim: Oh, hey soldier! Are you just here to hang out? Or- that look on your face tells me you're here for something else.", "supplyanddelivery-tasim-1", false);
+        s.addSound("[1/3] Tasim: ...Oh. Well, that explains that. Though- is there a reason you can't get it yourself?", "supplyanddelivery-tasim-2", false);
+        s.addSound("[1/3] Tasim: I... guess so? Is there a reason you can't do it yourself?", "supplyanddelivery-tasim-3", false);
+        s.addSound("[2/3] Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!", "supplyanddelivery-tasim-4", false);
+        s.addSound("[3/3] Tasim: You- what!? Nevermind, I don't actually want to know. Come on, lead the way. I'll buy... whatever it is you need.", "supplyanddelivery-tasim-5", false);
+        s.addSound("[3/3] Tasim: Tasim: You- what!? Nevermind, I don't actually want to know. Come on, lead the way. I'll buy whatever it is Ope needs.", "supplyanddelivery-tasim-6", false);
+        s.addSound("[1/2] Tasim: Alright. So I'm just buying a supply crate...", "supplyanddelivery-tasim-7", false);
+        s.addSound("[2/2] Tasim: Here it is. I wish you luck with... whatever it is you're up to.", "supplyanddelivery-tasim-8", false);
+        s.addSound("[1/6] Ope: He bought you the item? Good. Good, good good. Okay! That was... harder than expected.", "supplyanddelivery-ope-26", false);
+        s.addSound("[2/6] Ope: Now, we're onto step two. So, you see, this package still needs to make it to Alekin Village...", "supplyanddelivery-ope-27", false);
+        s.addSound("[1/1] Ope: Hey! I- uh, I can't help but notice that. You're still here. With the crate. You need to bring it to Alekin Village, remember?", "supplyanddelivery-ope-28", false);
+        s.addSound("[1/5] Mayor Alvin: Ah... So you do. I thought I had sent Ope to pick that up...", "supplyanddelivery-mayoralvin-1", false);
+        s.addSound("[2/5] Mayor Alvin: More of his shenanigans, I suppose. I am sorry you have had to deal with him twice.", "supplyanddelivery-mayoralvin-2", false);
+        s.addSound("[3/5] Mayor Alvin: When he returns to the village, I'm going to need to have a word with him... Ah, but of course, I should pay you for your troubles.", "supplyanddelivery-mayoralvin-3", false);
+        s.addSound("[4/5] Mayor Alvin: I hope these emeralds will suffice. Additionally... we have recently fixed up one of our broken carts, which makes the trip to Detlas and back.", "supplyanddelivery-mayoralvin-4", false);
+        s.addSound("[5/5] Mayor Alvin: You may feel free to use it whenever you like! As thanks for all you have done for us.", "supplyanddelivery-mayoralvin-5", false);
+        s.addSound("[1/2] Wagon Driver: Howdy! Lookin' to hitch a ride off to Alekin Village? Sorry to say, but the wagon's broken down.", "supplyanddelivery-wagondriver-1", false);
+        s.addSound("[1/2] Wagon Driver: Howdy! Lookin' to hitch a ride off to Detlas? Sorry to say, but the wagon's broken down.", "supplyanddelivery-wagondriver-2", false);
+        s.addSound("[2/2] Wagon Driver: I reckon it won't be long 'till it's fixed up, but you'll have to make the journey yourself for now.", "supplyanddelivery-wagondriver-3", false);
+        s.addSound("[1/2] Wagon Driver: Howdy! Lookin' to hitch a ride off to Detlas? Well, lucky you! The wagon's been fixed up all nice and new!", "supplyanddelivery-wagondriver-4", false);
+        s.addSound("[2/2] Wagon Driver: Just hop on aboard, and I'll get you to Detlas in a jiffy!", "supplyanddelivery-wagondriver-5", false);
+        s.addSound("[1/1] Wagon Driver: Ain't far to Detlas from here! We'll be there in a jiffy, just you wait.", "supplyanddelivery-wagondriver-6", false);
+        s.addSound("[1/2] Wagon Driver: Howdy! Lookin' to hitch a ride off to Alekin Village? Well, lucky you! The wagon's been fixed up all nice and new!", "supplyanddelivery-wagondriver-7", false);
+        s.addSound("[2/2] Wagon Driver: Just hop on aboard, and I'll get you to Alekin Village in a jiffy!", "supplyanddelivery-wagondriver-8", false);
+        s.addSound("[1/1] Wagon Driver: Ain't far to Alekin Village from here! We'll be there in a jiffy, just you wait.", "supplyanddelivery-wagondriver-9", false);
+
+        //Barracks
+        s.addSound("[1/12] Aledar: Well, here we are! Back at the barracks, after a successful mission. It feels a little... unreal, you know?", "barracks-aledar-1", false);
+        s.addSound("[2/12] Tasim: I know what you mean. But, well, we did good! We managed to make the woods safer for the people living there.", "barracks-tasim-1", false);
+        s.addSound("[3/12] Aledar: We did! And now, we celebrate! Here, let's all have some Nemract Whiskey for the occasion.", "barracks-aledar-2", false);
+        s.addSound("[4/12] Tasim: ...So, what're you two planning to do next? I think I'll speak to the Admiral about finding an assignment somewhere.", "barracks-tasim-2", false);
+        s.addSound("[5/12] Aledar: Hm. I've been thinking a little about... looking into more advanced powder techniques. Something about their magic sticks out to me.", "barracks-aledar-3", false);
+        s.addSound("[6/12] Tasim: Oh, really? I thought you would be more into basic fighting, what with our journey to Ragni.", "barracks-tasim-3", false);
+        s.addSound("[7/12] Aledar: Yeah... well, I guess I found something a little more interesting along the way. I'll let you know how it all goes.", "barracks-aledar-4", false);
+        s.addSound("[8/12] Tasim: Keep us updated, Aledar. So, soldier, what are you thinking of doing next?", "barracks-tasim-4", false);
+        s.addSound("[9/1] Aledar: Not a bad idea! I might join you with that later, once I've decide on things more.", "barracks-aledar-5", false);
+        s.addSound("[10/1] Tasim: Helping people is a good goal. There's bound to be lots of people around who need it.", "barracks-tasim-5", false);
+        s.addSound("[9/12] Aledar: Exploring, huh? That's a good idea. There's plenty to see around here!", "barracks-aledar-6", false);
+        s.addSound("[10/12] Tasim: ...And- well, we all came here for a reason. Might as well see the province while we're here, right?", "barracks-tasim-6", false);
+        s.addSound("[9/12] Tasim: Well, if you're staying in the area, maybe we'll cross paths! I'll likely be defending Detlas in the short-term.", "barracks-tasim-7", false);
+        s.addSound("[10/12] Aledar: And, well, I'll probably be around as well! There's plenty of experts in the area.", "barracks-aledar-7", false);
+        s.addSound("[9/12] Aledar: Well, hey, there's no shame in that. There's lots to do around here. I'm sure you'll figure it out!", "barracks-aledar-8", false);
+        s.addSound("[10/12] Tasim: If you need a goal, the next place you might want to visit is Nemract Swamp, to the north. Maybe pay it a visit when you rech level 20.", "barracks-tasim-8", false);
+        s.addSound("[11/12] Aledar: ...Well, I'm glad we were all able to be here together. Here's to a long and fulfilling friendship!", "barracks-aledar-9", false);
+        s.addSound("[12/12] Tasim: I'll drink to that! To all our future adventures.", "barracks-tasim-9", false);
+        s.addSound("[1/2] Tasim: Oh, hello soldier. I'm probably not going to be here for long- I've been assigned to help defend Elkurn to the south.", "barracks-tasim-10", false);
+        s.addSound("[2/2] Tasim: You should come visit, if you have the chance!", "barracks-tasim-11", false);
+        s.addSound("[1/2] Aledar: ...Oh, soldier! Good to see you. Anything interesting going on with you?", "barracks-aledar-10", false);
+        s.addSound("[2/2] Aledar: Me? Well, I've been making a little progress... but, nothing too big yet. I'm keeping at it, though!", "barracks-aledar-11", false);
+
 
         //Underwater
         s.addSound("[1/1] Omango: Go through the cave and talk with my friend Sayrr, he can give you the helmet. After that, explore the ship and bring me [4 Ancient Treasure].", "underwater-omango-1", false);
@@ -3601,29 +3706,66 @@ public class Sounds {
         s.addSound("[5/5] Elphaba: Alright everyone, let's get this place ship-shape! Everything needs to be repaired in case of another attack!!", "reclaimingthehouse-elphaba-41", false);
 
         //Redbeards Booty
-        s.addSound("[1/6] Marston: Ah, ahoy matey!", "redbeardsbooty-marston-1", false);
-        s.addSound("[1/5] Argus: Cor lad...ye don' look like a pirate ta me, and I be but a young lass!", "redbeardsbooty-argus-1", false);
-        s.addSound("[2/5] Martim: 's right, bucko. Who be ye, bargin' into our home in yer fancy armour 'n whatnot?", "redbeardsbooty-martim-1", false);
-        s.addSound("[3/5] Argus: Ah, ye be accompanyin' Marston, eh? Well if ye insist on that, where be the man 'himself?", "redbeardsbooty-argus-2", false);
-        s.addSound("[4/5] Karkun: Comin' later? Hm. Well, more hands always be helpful. Let us go down to me ship, the Black Ring. ", "redbeardsbooty-karkun-1", false);
-        s.addSound("[5/5] Martim: So he told ye about the plan? We'll bathe in doubloons when we get back! Ah, me fair lass will be so happy.", "redbeardsbooty-martim-2", false);
+        s.addSound("[1/7] Marston: Ah, ahoy matey! Are ye here to get a glimpse of ol' Redbeard's sunken galleon as well?", "redbeardsbooty-marston-1", false);
+        s.addSound("[2/7] Marston: A fine ship it once was, aye? Accordin' to the stories, it sank in one o' the greatest sea battles in history! The cap'n sank beneath the waves, ne'er to be seen again!", "redbeardsbooty-marston-2", false);
+        s.addSound("[3/7] Marston: ...Say. Have ye ever wanted to go on a real treasure hunt? Ye look like someone with an eye for treasure, aye?", "redbeardsbooty-marston-3", false);
+        s.addSound("[4/7] Marston: Good for ye then! I bought meself a real treasure map on Pirate Cove, a fine deal if ye ask me. And, if the jack wasn't fibbing, it leads to the feared Redbeard's real treasure!", "redbeardsbooty-marston-4", false);
+        s.addSound("[5/7] Marston: I ventured 'round, spied some fine jacks at the island, and I collected a crew to join me on a grand, fantastic voyage!", "redbeardsbooty-marston-5", false);
+        s.addSound("[6/7] Marston: O' course, there always be room for another! Ye joinin'? We could use another hand.", "redbeardsbooty-marston-6", false);
+        s.addSound("[7/7] Marston: Aye! Let's find the booty and bring back some doubloons! Here be that map I snagged. Swim or whatever ye landlubbers do to get to Pirate Cove. It'll be the first house to the right when ye arrive.", "redbeardsbooty-marston-7", false);
+        s.addSound("[1/2] Marston: Do ye remember where to go?", "redbeardsbooty-marston-8", false);
+        s.addSound("[2/2] Marston: No? The crew be loiterin' at Pirate Cove. I'll be along soon, don't ye worry!", "redbeardsbooty-marston-9", false);
+        s.addSound("[1/6] Martim: And that be when ye will...", "redbeardsbooty-martim-1", false);
+        s.addSound("[2/6] Karkun: Cor lad...ye don' look like a pirate ta me, and I be but a young lass!", "redbeardsbooty-karkun-1", false);
+        s.addSound("[3/6] Martim: 's right, bucko. Who be ye, bargin' into our home in yer fancy armour 'n whatnot?", "redbeardsbooty-martim-2", false);
+        s.addSound("[4/6] Argus: Ah, ye be accompanyin' Marston, eh? Well if ye insist on that, where be the man 'himself?", "redbeardsbooty-argus-1", false);
+        s.addSound("[5/6] Argus: Comin' later? Hm. Well, more hands always be helpful. Let us go down to me ship, the Black Ring.", "redbeardsbooty-argus-2", false);
+        s.addSound("[6/6] Martim: So he told ye about the plan? We'll bathe in doubloons when we get back! Ah, me fair lass will be so happy.", "redbeardsbooty-martim-3", false);
         s.addSound("[1/5] Karkun: Aha, quick on yer feet, lad! Ye got 'ere before us!", "redbeardsbooty-karkun-2", false);
         s.addSound("[2/5] Argus: No trace o' Marston yet?", "redbeardsbooty-argus-3", false);
-        s.addSound("[3/5] Martim: How's about we wait up fer him? He's the one who's givin us the opportunity fer this hunt, anyways.", "redbeardsbooty-martim-3", false);
+        s.addSound("[3/5] Martim: How's about we wait up fer him? He's the one who's givin us the opportunity fer this hunt, anyways.", "redbeardsbooty-martim-4", false);
         s.addSound("[4/5] Argus: I be getting impatient... The whole crew is 'ere, 'cept fer him!", "redbeardsbooty-argus-4", false);
         s.addSound("[5/5] Karkun: Argh! Where be our mate? It be getting dark out! We will have to leave Marston at land.", "redbeardsbooty-karkun-3", false);
         s.addSound("[1/3] Karkun: Do ya have the map Marston bought?", "redbeardsbooty-karkun-4", false);
-        s.addSound("[2/3] Martim: Let us take a looksie at the map and see where to go.", "redbeardsbooty-martim-4", false);
-        s.addSound("[3/3] Argus: It seems like one of these islands have the treasure... A'ight, yer in charge, landlubber! Set us on a course fer an island! ", "redbeardsbooty-argus-5", true);
+        s.addSound("[2/3] Martim: Let us take a looksie at the map and see where to go.", "redbeardsbooty-martim-5", false);
+        s.addSound("[3/3] Argus: It seems like one of these islands have the treasure... A'ight, yer in charge, landlubber! Set us on a course fer an island!", "redbeardsbooty-argus-5", false);
         s.addSound("[1/4] Karkun: Ahoy, this must be the booty. Fret not, Argus is keepin' the ship prepared so we can leave.", "redbeardsbooty-karkun-5", false);
-        s.addSound("[2/4] Martim: A'ight, let's us dig it up, jacks!", "redbeardsbooty-martim-5", false);
+        s.addSound("[2/4] Martim: A'ight, let's us dig it up, jacks!", "redbeardsbooty-martim-6", false);
         s.addSound("[3/4] Karkun: Aha, I see somethin' gleaming in there! Methinks we hit gold, lads.", "redbeardsbooty-karkun-6", false);
         s.addSound("[4/4] Karkun: Now Martim, knock the lubber out.", "redbeardsbooty-karkun-7", false);
-        s.addSound("[1/4] Karkun: What? Another clue! This be just a wild grook hunt, where be the real booty?! No one ever got rich off a heap o^ keys!!", "redbeardsbooty-karkun-8", false);
-        s.addSound("[2/4] Martim: Wait, there be a clue on the key; When leaving the hidden island, the real treasure will be found if you can look closely enough.", "redbeardsbooty-martim-6", false);
-        s.addSound("[3/4] Martim: Garh...I be losin' my patience. Argus arrived, let's ditch the lubber before they awake, hm? This island be hidden by magic, ain't no way they're gettin' found.", "redbeardsbooty-martim-7", false);
-        s.addSound("[4/4] Karkun: Arright! We might be able to bring Redbeard 'imself back to life... He will strike terror in the seas again, and we will be his crew!", "redbeardsbooty-karkun-9", false);
-        s.addSound("[1/8] Marston: What in the... Cor! Ye jest fell outta the sky, bucko! What'n the name o' Davy Jones' Locket happened?!", "redbeardsbooty-marston-2", false);
+        s.addSound("[1/4] Karkun: What? Another clue! This be just a wild grook hunt, where be the real booty?! No one ever got rich off a heap o' keys!! Maybe this 'ere jewel attached will sell...", "redbeardsbooty-karkun-8", false);
+        s.addSound("[2/4] Martim: Wait, there be a clue on the key! Presented to the ruined Galleon, a true path forward will arise.", "redbeardsbooty-martim-7", false);
+        s.addSound("[3/4] Martim: Garh...I be losin' my patience. Argus arrived, let's ditch the lubber before they awake, hm? This island be hidden by magic, ain't no way they're gettin' found.", "redbeardsbooty-martim-8", false);
+        s.addSound("[4/4] Karkun: Arright! This key... We might be able to bring Redbeard 'imself back to life... He'll strike terror in the seas again, and we will be 'is crew!", "redbeardsbooty-karkun-9", false);
+        s.addSound("[1/7] Marston: Can't say I expected all that... Those dogs are quick, eh?", "redbeardsbooty-marston-10", false);
+        s.addSound("[2/7] Marston: Fer a landlubber, ye sure are quick. When I got ta Pirate Cove, ye were already but a speck on the horizon.", "redbeardsbooty-marston-11", false);
+        s.addSound("[3/7] Marston: Seems they found a way ta open ol' Redbeard's graveyard... Speakin' of, what'n the name o' Davy Jones' Locket happened out there?!", "redbeardsbooty-marston-12", false);
+        s.addSound("[4/7] Marston: Ye look a bit bruised! Reckon ye ran aground o' trouble with 'em too, eh?", "redbeardsbooty-marston-13", false);
+        s.addSound("[5/7] Marston: Well, lad! Methinks ye oughta go in after 'em! We may be a rowdy lot, but a mutiny's somethin' ye don't tolerate.", "redbeardsbooty-marston-14", false);
+        s.addSound("[6/7] Marston: They don't deserve that treasure, lad! It ain't be mine either, since I missed ye. That gold be yours fer the takin...so take it!", "redbeardsbooty-marston-15", false);
+        s.addSound("[7/7] Marston: Speakin' of...I ain't got much a penny ta my name, but I found this fish while ye were gone. I hear it sells for a decent haul, so here.", "redbeardsbooty-marston-16", false);
+        s.addSound("[1/1] Marston: It be disappointin' that I wasn't able to accompany ye. Mighta been able to thump the dogs together, eh?", "redbeardsbooty-marston-17", false);
+        s.addSound("[1/4] Martim: Eh heh... We've done it, mateys! Treasure an' glory on the seas be ours!", "redbeardsbooty-martim-9", false);
+        s.addSound("[2/4] Argus: Arrgh! An' all we got to do is guard the captain's hoard fer a while! Let's get goin'!", "redbeardsbooty-argus-6", false);
+        s.addSound("[3/4] Karkun: Huh?! You again! When will ye get the hint, lubber? Ye ain't welcome 'ere!! Martim! Get th' gate shut!", "redbeardsbooty-karkun-10", false);
+        s.addSound("[4/4] Martim: No way through without th' keys... We'll be waitin' for ye! If ye can make it past th' rest, heh...", "redbeardsbooty-martim-10", false);
+        s.addSound("[1/2] ???: Arrgh! So me new recruits weren't wrong, eh?! A stowaway! On me ship! This treasure be mine, ye hear?!", "redbeardsbooty-redbeard-1", false);
+        s.addSound("[2/2] ???: I've seen Landlubbers like ye come an' go, an' not a single one 'as bested me in combat! An' ye won't be any different, stowaway!!", "redbeardsbooty-redbeard-2", false);
+        s.addSound("[1/1] ???: Let down the gates, me mateys! Don't let tha stowaway through... OR AH'LL SEND YE BACK TO THA' MUCK YE ROSE FROM!!", "redbeardsbooty-redbeard-3", false);
+        s.addSound("[1/1] ???: Huh?! Which of ye rats let the Landlubber through to tha key?! DON'T LET THA STOWAWAY GET BACK TO ME SHIP!!!", "redbeardsbooty-redbeard-4", false);
+        s.addSound("[1/1] ???: YER ALL WORTHLESS!! ENABLE ME TRAP, BLOW THE STOWAWAY TO BITS!!!", "redbeardsbooty-redbeard-5", false);
+        s.addSound("[1/1] Redbeard: Ye've dodged me crew fer far too long, stowaway... DODGE THIS THEN, EH?!", "redbeardsbooty-redbeard-6", false);
+        s.addSound("[1/2] Marston: Ah, ahoy matey! Are ye here to get a glimpse of ol' Redbeard's sunken galleon as well? A fine ship it once was, aye?", "redbeardsbooty-marston-18", false);
+        s.addSound("[2/2] Marston: Lots o' treasure attached to that name, ye know? If ye were Level 61, maybe ye'd be able to join me on a fine treasure hunt.", "redbeardsbooty-marston-19", false);
+        s.addSound("[1/3] Argus: It's you... You're the one who doomed us. And for what?", "redbeardsbooty-argus-7", false);
+        s.addSound("[2/3] Argus: Back then, you didn't feel an ounce of remorse, did you?", "redbeardsbooty-argus-8", false);
+        s.addSound("[3/3] Martim: If you're that willing to kill... Then just try it. Get 'em!", "redbeardsbooty-martim-11", false);
+        s.addSound("[1/3] Corrupted Redbeard: Yarrr! They return for more plunderin'! I've been missin' this!", "redbeardsbooty-corruptedredbeard-1", false);
+        s.addSound("[2/3] Corrupted Redbeard: Hav' at ya, soldier, see if ya can do anythin' against THIS!", "redbeardsbooty-corruptedredbeard-2", false);
+        s.addSound("[3/3] Corrupted Redbeard: Behol' me crew!", "redbeardsbooty-corruptedredbeard-3", false);
+        s.addSound("[1/2] Corrupted Redbeard: Blimey! Seems ya've gotten p'etty far!", "redbeardsbooty-corruptedredbeard-4", false);
+        s.addSound("[2/2] Corrupted Redbeard: Why don' you go say hello to ya mateys?!", "redbeardsbooty-corruptedredbeard-5", false);
+        s.addSound("[1/1] Redbeard: Alrighty, Landlubber! I'll battle ye meself!", "redbeardsbooty-corruptedredbeard-6", false);
 
         //Lost in the jungle
         s.addSound("[1/10] Gracen: Excuse me, traveller... I am dreadfully sorry to ask this of you, but I need your help.", "lostinthejungle-gracen-1", false);
@@ -5202,7 +5344,9 @@ public class Sounds {
         s.addSound("[1/13] Batelu: Hello adventurer! I see you want to solve the mystery of Bob's tomb also? Glad to meet you.", "reincarnation-batleu-1", false);
         s.addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnation-batleu-2", false);
         s.addSound("[1/5] Batelu: Bob's Seal of Approval? Oh my goodness!", "reincarnation-batleu-3", false);
+    }
 
+    private static void register2(SoundsHandler s) {
         //Acquiring credentials
         s.addSound("[1/6] Officer: I'm sorry sir, but I can't just give you a new passport... You'd need approval from-...", "acquiringcredentials-officer-1", false);
         s.addSound("[2/6] Doan: But sir, my passport was stolen! I have a flight to Detlas in under 30 minutes. I really need one, quick... ", "acquiringcredentials-doan-1", false);
@@ -6196,9 +6340,7 @@ public class Sounds {
         s.addSound("[29/30] Lecade: Well soldier, I'll be checking out what degree of havoc he's wreaked on this fort.", "generalsorders-lecade-74", false);
         s.addSound("[30/30] Lecade: I couldn't leave you unrewarded for your efforts though. You seem resourceful- Perhaps you can find a use for that odd slime it left behind.", "generalsorders-lecade-75", false);
         s.addSound("[1/1] Lecade: The soldiers understood the situation, luckily. Can't believe it got that far. I'll make sure nothing like that ever happens again!", "generalsorders-lecade-76", false);
-    }
 
-    private static void register2(SoundsHandler s) {
         //Questionmark ???
         s.addSound(">All systems online.", "questionmark-computer-1", true);
         s.addSound(">Teleporter activating...", "questionmark-computer-2", true);
