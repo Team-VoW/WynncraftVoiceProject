@@ -3755,6 +3755,7 @@ public class Sounds {
         s.addSound("[1/1] ???: Huh?! Which of ye rats let the Landlubber through to tha key?! DON'T LET THA STOWAWAY GET BACK TO ME SHIP!!!", "redbeardsbooty-redbeard-4", false);
         s.addSound("[1/1] ???: YER ALL WORTHLESS!! ENABLE ME TRAP, BLOW THE STOWAWAY TO BITS!!!", "redbeardsbooty-redbeard-5", false);
         s.addSound("[1/1] Redbeard: Ye've dodged me crew fer far too long, stowaway... DODGE THIS THEN, EH?!", "redbeardsbooty-redbeard-6", false);
+        s.addSound("[1/1] Redbeard: Call down th' cannons, mateys! DEFEND ME TREASURE!!", "redbeardsbooty-redbeard-7", false);
         s.addSound("[1/2] Marston: Ah, ahoy matey! Are ye here to get a glimpse of ol' Redbeard's sunken galleon as well? A fine ship it once was, aye?", "redbeardsbooty-marston-18", false);
         s.addSound("[2/2] Marston: Lots o' treasure attached to that name, ye know? If ye were Level 61, maybe ye'd be able to join me on a fine treasure hunt.", "redbeardsbooty-marston-19", false);
         s.addSound("[1/3] Argus: It's you... You're the one who doomed us. And for what?", "redbeardsbooty-argus-7", false);

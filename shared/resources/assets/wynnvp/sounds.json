@@ -22006,6 +22006,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:redbeardsbooty-redbeard-6", "stream": true}]
   },
+  "redbeardsbooty-redbeard-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:redbeardsbooty-redbeard-7", "stream": true}]
+  },
   "redbeardsbooty-marston-18": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:redbeardsbooty-marston-18", "stream": true}]
