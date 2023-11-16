@@ -84,7 +84,7 @@ public class SoundPlayer {
 
         if (line2 != null) {
             manager.stop(line2);
-        {
+        }
         String line2 = sound;
         //I have absolutely no idea what I'm doing, but this is supposed to try to stop the last sound played and then store the current sound as the last sound
 
