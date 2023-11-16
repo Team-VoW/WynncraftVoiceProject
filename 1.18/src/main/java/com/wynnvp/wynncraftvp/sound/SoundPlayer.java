@@ -80,7 +80,13 @@ public class SoundPlayer {
         SoundManager manager = Minecraft.getInstance().getSoundManager();
 
         //Stops all sounds so that not multiple voice lines are played over each other
-        manager.stop();
+
+
+        if (line2 != null) {
+            manager.stop(line2);
+        {
+        String line2 = sound;
+        //I have absolutely no idea what I'm doing, but this is supposed to try to stop the last sound played and then store the current sound as the last sound
 
         final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
         final SoundEvent soundEvent = customSoundClass.soundEvent();
