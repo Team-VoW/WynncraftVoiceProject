@@ -640,6 +640,15 @@ public class Sounds {
         s.addSound("[1/1] Thomas: Our village needs a bit of help, but you look a bit weak for the job. Come back once you're level 15, and then you might be able to help.", "creeperinfiltration-thomas-31", false);
         s.addSound("[1/1] Thomas: I see you've come back, but you don't have what I asked for. I can't do anything until you fulfill your task.", "creeperinfiltration-thomas-32", false);
         s.addSound("[1/1] Thomas: Thanks again for your help. Now we can truly say creepers exist here in the ravines.", "creeperinfiltration-thomas-33", false);
+        s.addSound("[1/7] Thomas: Anyone! Can anyone- oh, hello. You look strong enough to be able to help me.", "creeperinfiltration-thomas-34", false);
+        s.addSound("[2/7] Thomas: I am Thomas, and I help manage the supplies for a village in the Pigman Ravine. Though, I have a bit of a problem...", "creeperinfiltration-thomas-35", false);
+        s.addSound("[5/7] Thomas: I came here to Tempo Town to see if I could find help here, but I've had no luck. Until now, that is. Would you be willing to help?", "creeperinfiltration-thomas-36", false);
+        s.addSound("[6/7] Thomas: You would? You're a life saver. I'll meet you at the village, just follow the path out of town and take the northern-most entrance to the ravines.", "creeperinfiltration-thomas-37", false);
+        s.addSound("[7/7] Thomas: Once you get there, keep to the right wall of the ravine and climb up the stairs to reach the entrance. Also, be careful in the tunnel, as the pigmen throw rocks as a weapon.", "creeperinfiltration-thomas-38", false);
+        s.addSound("[1/2] Thomas: I'll meet you at the village! Just follow the path out of town and take the northern-most entrance to the ravines.", "creeperinfiltration-thomas-39", false);
+        s.addSound("[2/2] Thomas: Once you get there, keep to the right wall of the ravine and climb up the stairs to reach the entrance. Also, be careful in the tunnel, as the pigmen throw rocks as a weapon.", "creeperinfiltration-thomas-40", false);
+        s.addSound("[1/1] Thomas: Do you need a reminder about the location of the Pigman Overlord? Just continue on the western path past the tunnel entrance, and you should find a camp where the Overlord is located.", "creeperinfiltration-thomas-41", false);
+        s.addSound("[1/1] Thomas: Have you been to the creeper cave? Just follow the western path and turn left at the pigman camps.", "creeperinfiltration-thomas-42", false);
 
         //Maltics Well
         s.addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwell-rynend-1", false);

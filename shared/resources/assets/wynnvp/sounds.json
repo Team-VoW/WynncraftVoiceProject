@@ -662,6 +662,42 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-33", "stream": true}]
   },
+  "creeperinfiltration-thomas-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-34", "stream": true}]
+  },
+  "creeperinfiltration-thomas-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-35", "stream": true}]
+  },
+  "creeperinfiltration-thomas-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-36", "stream": true}]
+  },
+  "creeperinfiltration-thomas-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-37", "stream": true}]
+  },
+  "creeperinfiltration-thomas-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-38", "stream": true}]
+  },
+  "creeperinfiltration-thomas-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-39", "stream": true}]
+  },
+  "creeperinfiltration-thomas-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-40", "stream": true}]
+  },
+  "creeperinfiltration-thomas-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-41", "stream": true}]
+  },
+  "creeperinfiltration-thomas-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:creeperinfiltration-thomas-42", "stream": true}]
+  },
 
 
 
