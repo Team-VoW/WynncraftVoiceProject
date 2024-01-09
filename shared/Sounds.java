@@ -5341,10 +5341,35 @@ public class Sounds {
         s.addSound("[1/1] Togak: Do you not remember what I have told you? Check your quest book if your memory fails you.", "aldoreissecretpart2-togak-16", false);
 
         //Reincarnation
-        s.addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", true);
-        s.addSound("[1/13] Batelu: Hello adventurer! I see you want to solve the mystery of Bob's tomb also? Glad to meet you.", "reincarnation-batleu-1", false);
-        s.addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnation-batleu-2", false);
-        s.addSound("[1/5] Batelu: Bob's Seal of Approval? Oh my goodness!", "reincarnation-batleu-3", false);
+        s.addSound("[1/13] Batelu: Hello adventurer! I see you want to solve the mystery of Bob's tomb also? Glad to meet you.", "reincarnation-batelu-1", false);
+        s.addSound("[2/13] Batelu: My name is Batelu. Lately, I've been studying these strange symbols on the walls.", "reincarnation-batelu-2", false);
+        s.addSound("[3/13] Batelu: It's about Bob. Hopefully you do not believe the stories of his death, right? Bob couldn't have died so easily. Not to something so mundane as a wolf.", "reincarnation-batelu-3", false);
+        s.addSound("[4/13] Batelu: He wasn't only strong, he was absolutely un-killable, a master in almost every skill.", "reincarnation-batelu-4", false);
+        s.addSound("[5/13] Batelu: I believe he knew he was about to die. How? What of? Nobody knows, but he left this world prepared.", "reincarnation-batelu-5", false);
+        s.addSound("[6/13] Batelu: You see, it says here Bob had three loyal animals. Before dying, he scattered them across the ocean.", "reincarnation-batelu-6", false);
+        s.addSound("[7/13] Batelu: I think those animals are the key to accessing his real tomb...", "reincarnation-batelu-7", false);
+        s.addSound("[8/13] Batelu: You see that little gap right there? It's the entrance...", "reincarnation-batelu-8", false);
+        s.addSound("[9/13] Batelu: Unfortunately, nobody was able to remove the spell blocking it.", "reincarnation-batelu-9", false);
+        s.addSound("[10/13] Batelu: But I can. I know how to open the passage to Bob. This is where the animals will come in useful...", "reincarnation-batelu-10", false);
+        s.addSound("[11/13] Batelu: I believe Bob did something to those animals. I think if we could reunite them in some way, we could open the passage.", "reincarnation-batelu-11", false);
+        s.addSound("[12/13] Batelu: Bring me [1 Cluckles' Favourite Feather], [1 Baab's Wool] & [1 Mooington's Skin] if you can find them.", "reincarnation-batelu-12", false);
+        s.addSound("[13/13] Batelu: I am sure that together, we can open the passage. Good luck.", "reincarnation-batelu-13", false);
+        s.addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnation-batelu-14", false);
+        s.addSound("[2/2] Batelu: I am not worthy enough to enter it. I did not complete the task of the animals, merely read it. You shall go alone, be careful.", "reincarnation-batelu-15", false);
+        s.addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", false);
+        s.addSound("[3/9] Bob: Let me explain why you are here.", "reincarnation-bob-2", false);
+        s.addSound("[4/9] Bob: My animals, were my greatest allies in my travels through the world.", "reincarnation-bob-3", false);
+        s.addSound("[5/9] Bob: I travelled too far, mined too deep, and of course, challenged what should not be challenged. My time in Wynn was coming to an end.", "reincarnation-bob-4", false);
+        s.addSound("[6/9] Bob: I knew so, too. But I refused to leave without giving the power I had attained to those worthy of it.", "reincarnation-bob-5", false);
+        s.addSound("[7/9] Bob: Using what ability I had left to me, I transferred my power to my animals, in three pieces. In the hope that those worthy to harness it will seek them out.", "reincarnation-bob-6", false);
+        s.addSound("[8/9] Bob: The spell I placed on the door to this realm will only break to the one who collects my power. But it cannot have escaped your notice, you do not have my power.", "reincarnation-bob-7", false);
+        s.addSound("[9/9] Bob: The truth is, you must pass a test, the ultimate test. Hone your skills you have learnt throughout your travels, and face me. Face me, and earn your place amongst soldiers of Wynn.", "reincarnation-bob-8", false);
+        s.addSound("[1/6] Batelu: Ah! You have returned! Tell me, what did you find within?", "reincarnation-batelu-16", false);
+        s.addSound("[2/6] Batelu: ...You faced Bob himself in combat? And you triumphed? That's quite remarkable!", "reincarnation-batelu-17", false);
+        s.addSound("[3/6] Batelu: And he gave you his Seal of Approval... Hm. If that is the case, then there is something I may do for you.", "reincarnation-batelu-18", false);
+        s.addSound("[4/6] Batelu: Before Bob passed, he left his mythical weapons with a trusted friend. They were, so he said, to be kept for one who would be worthy to wield them...", "reincarnation-batelu-19", false);
+        s.addSound("[5/6] Batelu: Yes... Yes, I am certain. You have proven yourself worthy. Take this relic, the Stone of Myths, and bring it to the Temple of the Legends.", "reincarnation-batelu-20", false);
+        s.addSound("[6/6] Batelu: Within, you will find a merchant who will offer you a weapon in exchange for it. I wish you luck with your future travels.", "reincarnation-batelu-21", false);
     }
 
     private static void register2(SoundsHandler s) {
