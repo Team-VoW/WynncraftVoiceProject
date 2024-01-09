@@ -2304,6 +2304,22 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:reincarnation-batelu-21", "stream": true}]
   },
+  "reincarnation-batelu-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reincarnation-batelu-22", "stream": true}]
+  },
+  "reincarnation-batelu-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reincarnation-batelu-23", "stream": true}]
+  },
+  "reincarnation-batelu-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reincarnation-batelu-24", "stream": true}]
+  },
+  "reincarnation-batelu-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:reincarnation-batelu-25", "stream": true}]
+  },
 
 
 

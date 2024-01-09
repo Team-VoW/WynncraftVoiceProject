@@ -5379,6 +5379,11 @@ public class Sounds {
         s.addSound("[4/6] Batelu: Before Bob passed, he left his mythical weapons with a trusted friend. They were, so he said, to be kept for one who would be worthy to wield them...", "reincarnation-batelu-19", false);
         s.addSound("[5/6] Batelu: Yes... Yes, I am certain. You have proven yourself worthy. Take this relic, the Stone of Myths, and bring it to the Temple of the Legends.", "reincarnation-batelu-20", false);
         s.addSound("[6/6] Batelu: Within, you will find a merchant who will offer you a weapon in exchange for it. I wish you luck with your future travels.", "reincarnation-batelu-21", false);
+        s.addSound("[1/3] Batelu: Hi! My name is Batelu, I've been studying those strange symbols on the walls for quite a while now.", "reincarnation-batelu-22", false);
+        s.addSound("[2/3] Batelu: I've learned a lot about Bob. Unfortunately, I do not think I am the person you are looking for.", "reincarnation-batelu-23", false);
+        s.addSound("[3/3] Batelu: If you are looking for Bob's corpse, it's under the stairs in the icy chamber. Talk to me when you are level 74, I've got some work for you.", "reincarnation-batelu-24", false);
+        s.addSound("[1/1] Batelu: You can't enter there yet!", "reincarnation-batelu-25", false);
+
     }
 
     private static void register2(SoundsHandler s) {
