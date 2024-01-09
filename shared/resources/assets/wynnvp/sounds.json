@@ -14972,6 +14972,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-drale-5", "stream": true}]
   },
+  "tunneltrouble-drale-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-6", "stream": true}]
+  },
+  "tunneltrouble-drale-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-7", "stream": true}]
+  },
   "tunneltrouble-bylvis-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-bylvis-1", "stream": true}]
@@ -14984,14 +14992,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-bylvis-3", "stream": true}]
   },
-  "tunneltrouble-drale-6": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-6", "stream": true}]
-  },
-  "tunneltrouble-drale-7": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-7", "stream": true}]
-  },
   "tunneltrouble-drale-8": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-drale-8", "stream": true}]
@@ -15003,6 +15003,18 @@
   "tunneltrouble-drale-10": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-drale-10", "stream": true}]
+  },
+  "tunneltrouble-drale-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-11", "stream": true}]
+  },
+  "tunneltrouble-drale-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-12", "stream": true}]
+  },
+  "tunneltrouble-drale-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-13", "stream": true}]
   },
   "tunneltrouble-minerlinton-15": {
     "category": "voice",
@@ -15020,21 +15032,21 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-18", "stream": true}]
   },
-  "tunneltrouble-drale-11": {
+  "tunneltrouble-drale-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-11", "stream": true}]
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-14", "stream": true}]
   },
   "tunneltrouble-minerlinton-19": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-minerlinton-19", "stream": true}]
   },
-  "tunneltrouble-drale-12": {
+  "tunneltrouble-drale-15": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-12", "stream": true}]
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-15", "stream": true}]
   },
-  "tunneltrouble-drale-13": {
+  "tunneltrouble-drale-16": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-13", "stream": true}]
+    "sounds": [{ "name": "wynnvp:tunneltrouble-drale-16", "stream": true}]
   },
   "tunneltrouble-minerlinton-20": {
     "category": "voice",
@@ -15068,6 +15080,7 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tunneltrouble-sergeantklafson-5", "stream": true}]
   },
+
 
 
   "hollowserenity-katarin-1": {
