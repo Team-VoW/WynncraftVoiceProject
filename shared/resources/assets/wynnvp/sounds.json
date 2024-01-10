@@ -6821,82 +6821,459 @@
 
 
 
-  "thehungerofgertspart1-cikal-1": {
+  "hungerofgertspart1-cikal-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-cikal-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-1", "stream": true}]
   },
-  "thehungerofgertspart1-anof-1": {
+  "hungerofgertspart1-jitak-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-anof-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-1", "stream": true}]
   },
-  "thehungerofgertspart1-jitak-1": {
+  "hungerofgertspart1-cikal-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-jitak-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-2", "stream": true}]
   },
-  "thehungerofgertspart1-gertenchiefsnaga-1": {
+  "hungerofgertspart1-cikal-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenchiefsnaga-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-3", "stream": true}]
   },
-  "thehungerofgertspart1-gertenchiefsnaga-2": {
+  "hungerofgertspart1-cikal-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenchiefsnaga-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-4", "stream": true}]
   },
-  "thehungerofgertspart1-gertenchiefsnaga-3": {
+  "hungerofgertspart1-cikal-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenchiefsnaga-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-5", "stream": true}]
   },
-  "thehungerofgertspart1-gertenchiefsnaga-4": {
+  "hungerofgertspart1-cikal-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenchiefsnaga-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-6", "stream": true}]
   },
-  "thehungerofgertspart1-jitak-2": {
+  "hungerofgertspart1-cikal-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-jitak-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-7", "stream": true}]
   },
-  "thehungerofgertspart1-jitak-3": {
+  "hungerofgertspart1-cikal-8": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-jitak-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-8", "stream": true}]
   },
-  "thehungerofgertspart1-gertencaptain-1": {
+  "hungerofgertspart1-cikal-9": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertencaptain-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-9", "stream": true}]
   },
-  "thehungerofgertspart1-gertencaptain-2": {
+  "hungerofgertspart1-cikal-10": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertencaptain-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-10", "stream": true}]
   },
-  "thehungerofgertspart1-gertencaptain-3": {
+  "hungerofgertspart1-cikal-11": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertencaptain-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-11", "stream": true}]
   },
-  "thehungerofgertspart1-gertencaptain-4": {
+  "hungerofgertspart1-cikal-12": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertencaptain-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-12", "stream": true}]
   },
-  "thehungerofgertspart1-comor-1": {
+  "hungerofgertspart1-cikal-13": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-comor-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-13", "stream": true}]
   },
-  "thehungerofgertspart1-hungrygert-1": {
+  "hungerofgertspart1-cikal-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-hungrygert-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-14", "stream": true}]
   },
-  "thehungerofgertspart1-comor-2": {
+  "hungerofgertspart1-jitak-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-comor-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-2", "stream": true}]
   },
-  "thehungerofgertspart1-comor-3": {
+  "hungerofgertspart1-jitak-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-comor-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-3", "stream": true}]
   },
-  "thehungerofgertspart1-gertenprisonwarden-1": {
+  "hungerofgertspart1-jitak-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-gertenprisonwarden-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-4", "stream": true}]
   },
-  "thehungerofgertspart1-cikal-2": {
+  "hungerofgertspart1-jitak-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:thehungerofgertspart1-cikal-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-5", "stream": true}]
   },
+  "hungerofgertspart1-jitak-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-6", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-7", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-8", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-9", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-10", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-11", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-12", "stream": true}]
+  },
+  "hungerofgertspart1-gertencaptainvongar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertencaptainvongar-1", "stream": true}]
+  },
+  "hungerofgertspart1-gertenchiefsnaga-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertenchiefsnaga-1", "stream": true}]
+  },
+  "hungerofgertspart1-gertenchiefsnaga-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertenchiefsnaga-2", "stream": true}]
+  },
+  "hungerofgertspart1-gertenchiefsnaga-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertenchiefsnaga-3", "stream": true}]
+  },
+  "hungerofgertspart1-gertenchiefsnaga-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertenchiefsnaga-4", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-13", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-14", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-15", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-16", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-17", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-18", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-19", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-20", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-1", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-2", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-3", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-4", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-5", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-6", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-7", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-8", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-9", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-10", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-11", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-12", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-13", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-14", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-15", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-16", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-17", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-18", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-19", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-20", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-21", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-22", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-23", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-24", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-25", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-26", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-27", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-28", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-29", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-30", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-31", "stream": true}]
+  },
+  "hungerofgertspart1-gert1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert1-1", "stream": true}]
+  },
+  "hungerofgertspart1-gert1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert1-2", "stream": true}]
+  },
+  "hungerofgertspart1-gert1-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert1-3", "stream": true}]
+  },
+  "hungerofgertspart1-gert1-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert1-4", "stream": true}]
+  },
+  "hungerofgertspart1-gert1-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert1-5", "stream": true}]
+  },
+  "hungerofgertspart1-gert1-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert1-6", "stream": true}]
+  },
+  "hungerofgertspart1-gert1-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert1-7", "stream": true}]
+  },
+  "hungerofgertspart1-gert1-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert1-8", "stream": true}]
+  },
+  "hungerofgertspart1-gert1-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert1-9", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-32", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-33", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-34", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-35", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-36", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-21", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-22", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-23", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-24", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard2-1", "stream": true}]
+  },
+  "hungerofgertspart1-gert2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert2-1", "stream": true}]
+  },
+  "hungerofgertspart1-gert2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert2-2", "stream": true}]
+  },
+  "hungerofgertspart1-gert2-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert2-3", "stream": true}]
+  },
+  "hungerofgertspart1-gert2-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert2-4", "stream": true}]
+  },
+  "hungerofgertspart1-gert2-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert2-5", "stream": true}]
+  },
+  "hungerofgertspart1-gyliacaptain-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gyliacaptain-1", "stream": true}]
+  },
+  "hungerofgertspart1-gyliawatchman-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gyliawatchman-1", "stream": true}]
+  },
+  "hungerofgertspart1-gyliawatchman-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gyliawatchman-2", "stream": true}]
+  },
+  "hungerofgertspart1-gyliacaptain-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gyliacaptain-2", "stream": true}]
+  },
+  "hungerofgertspart1-gyliacaptain-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gyliacaptain-3", "stream": true}]
+  },
+  "hungerofgertspart1-gert2-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert2-6", "stream": true}]
+  },
+  "hungerofgertspart1-gert2-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert2-7", "stream": true}]
+  },
+  "hungerofgertspart1-gert2-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gert2-8", "stream": true}]
+  },
+  "hungerofgertspart1-gertbattlechief-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertbattlechief-1", "stream": true}]
+  },
+  "hungerofgertspart1-gertbattlechief-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertbattlechief-2", "stream": true}]
+  },
+  "hungerofgertspart1-gertbattlechief-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertbattlechief-3", "stream": true}]
+  },
+  "hungerofgertspart1-cikal-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-15", "stream": true}]
+  },
+  "hungerofgertspart1-cikal-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-16", "stream": true}]
+  },
+  "hungerofgertspart1-cikal-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-17", "stream": true}]
+  },
+  "hungerofgertspart1-cikal-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-18", "stream": true}]
+  },
+  "hungerofgertspart1-cikal-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-19", "stream": true}]
+  },
+  "hungerofgertspart1-cikal-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-20", "stream": true}]
+  },
+  "hungerofgertspart1-cikal-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-cikal-21", "stream": true}]
+  },
+  "hungerofgertspart1-jitak-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-25", "stream": true}]
+  },
+
 
 
   "thehungerofgertspart2-gertenchieflobo-1": {
