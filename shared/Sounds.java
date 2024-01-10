@@ -5687,7 +5687,6 @@ public class Sounds {
         s.addSound("[1/1] Psilo: Long time no see! Why you haven't grown, or shrunk, a bit since we last met.", "thebiggerpicture-psilo-21", false);
 
         //The Hunger of Gerts Part 1
-        //hungerofgertspart1
         s.addSound("[1/1] Cikal: Oh... you're a bit low level to be hanging around Gylia Watchtower, don't you think? Come back at level 77 and we'll get a drink down ya!", "hungerofgertspart1-cikal-1", false);
         s.addSound("[1/1] Jitak: Hey there... if you're looking for a suit or something, now is a really bad time. Those blasted gerts keep taking my livestock!", "hungerofgertspart1-jitak-1", false);
         s.addSound("[1/12] Cikal: Oh, ho ho. A human? What brings you to Gylia Watch - want to let your hair down a bit, I bet!", "hungerofgertspart1-cikal-2", false);
@@ -5804,22 +5803,73 @@ public class Sounds {
 
 
         //The hunger of Gerts Part 2
-        s.addSound("[1/8] Gerten Chief Lobo: Hello gert! Is sad time for all gert! We no food, because big bad tower block our tunnel! ", "thehungerofgertspart2-gertenchieflobo-1", false);
-        s.addSound("[1/6] Gerten Excavator: No gert allow to enter my tunnel! Dig alone now! Leave or gert say to chief!", "thehungerofgertspart2-gertenexcavator-1", false);
-        s.addSound("[1/1] Big Butch: A guest? I've not had a real guest in quite a while.", "thehungerofgertspart2-bigbutch-1", true);
-        s.addSound("[1/1] Big Butch: This place is what feeds half of Gavel. Some say it's not humane. I say we aren't Human.", "thehungerofgertspart2-bigbutch-2", true);
-        s.addSound("[1/1] Big Butch: Most Villagers don't even know where their food comes from. They just buy and eat it.", "thehungerofgertspart2-bigbutch-3", true);
-        s.addSound("[1/5] Captured Gert: O! Human! Come close so gert can eat human! Gert hunger! Wait! Smell like gert, look like human! Must be weird gert! Gert help gert!", "thehungerofgertspart2-capturedgert-1", true);
-        s.addSound("[1/1] Captured Gert: Gert no hear more noise! Gert turn power off? Gert happy! Gert leave now! Thank!", "thehungerofgertspart2-capturedgert-2", true);
-        s.addSound("[1/1] Big Butch: The truth is, if they knew, if they saw, would they reconsider their ways? Maybe.", "thehungerofgertspart2-bigbutch-4", true);
-        s.addSound("[1/7] Big Butch: Since you're my guest, would you like to hear a story? Of course you would.", "thehungerofgertspart2-bigbutch-5", true);
-        s.addSound("[2/7] Big Butch: Unless you are blind, you should've noticed my work, my pretties. ", "thehungerofgertspart2-bigbutch-6", true);
-        s.addSound("[3/7] Big Butch: They are made of meat. Butchering animals all day is lonely work. I need friends.", "thehungerofgertspart2-bigbutch-7", true);
-        s.addSound("[4/7] Big Butch: There are these creatures called Gerts. They obviously have no brain. It was so easy to trick them into my experiments. To become my friends.", "thehungerofgertspart2-bigbutch-8", true);
-        s.addSound("[5/7] Big Butch: Yes, that's right! All of the abominations are actually Gerts who have been reassembled.", "thehungerofgertspart2-bigbutch-9", true);
-        s.addSound("[6/7] Big Butch: Why do you care about them? They are just pests to us. They care only for hunger.", "thehungerofgertspart2-bigbutch-10", true);
-        s.addSound("[7/7] Big Butch: Well, it's not like the people of Gavel will find out where their food really comes from, the secret dies with you! They will forever more live in blissful ignorance!", "thehungerofgertspart2-bigbutch-11", true);
-        s.addSound("[1/3] Gerten Chief Lobo: Gert back? Did stop the farm? Bad villager must die!", "thehungerofgertspart2-gertenchieflobo-2", false);
+        s.addSound("[1/5] Gert Chief: Gert! Gert! We must set up for war!", "hungerofgertspart2-gertchief-1", false, 50);
+        s.addSound("[2/5] Gert Chief: Look at me.", "hungerofgertspart2-gertchief-2", false, 50);
+        s.addSound("[3/5] Gert Chief: Today we fight. Today we Gerts will take down the bad town folk!", "hungerofgertspart2-gertchief-3", false, 50);
+        s.addSound("[4/5] Gert Chief: But first! We must eat.", "hungerofgertspart2-gertchief-4", false, 50);
+        s.addSound("[5/5] Gert Chief: Then, get your knives ready. We will take back our stuff!", "hungerofgertspart2-gertchief-5", false, 50);
+        s.addSound("[1/6] Cikal: You again?", "hungerofgertspart2-cikal-1", false);
+        s.addSound("[2/6] Cikal: This is a very... inconvenient timing for me, you see.", "hungerofgertspart2-cikal-2", false);
+        s.addSound("[3/6] Cikal: Gamenight is starting soon. State your issue fast, please.", "hungerofgertspart2-cikal-3", false);
+        s.addSound("[4/6] Cikal: The Gerts attacking us? HAH! Funny joke.", "hungerofgertspart2-cikal-4", false);
+        s.addSound("[5/6] Cikal: Those pea brains can't even count to three, I doubt they can take our mighty fine establishment down.", "hungerofgertspart2-cikal-5", false);
+        s.addSound("[6/6] Cikal: Now, if you excuse me. Gamenight is starting, I am needed.", "hungerofgertspart2-cikal-6", false);
+        s.addSound("[1/1] Winie: Psst! Come here, traveler.", "hungerofgertspart2-winie-1", false);
+        s.addSound("[1/9] Winie: I want to start off by apologizing for Cikal's behaviour.", "hungerofgertspart2-winie-2", false);
+        s.addSound("[2/9] Winie: I recently started working here and I totally believe you about the attack.", "hungerofgertspart2-winie-3", false);
+        s.addSound("[3/9] Winie: What's weird is that the guards here don't even believe it's a possibility. It's like their brains have become all scrambled.", "hungerofgertspart2-winie-4", false);
+        s.addSound("[4/9] Winie: I seem to be the only one with any sense left!", "hungerofgertspart2-winie-5", false);
+        s.addSound("[5/9] Winie: When I brought up how wrong it is for us to steal their food rations they just laughed at me like I was crazy.", "hungerofgertspart2-winie-6", false);
+        s.addSound("[6/9] Winie: Can I ask you for a favor?", "hungerofgertspart2-winie-7", false);
+        s.addSound("[7/9] Winie: I'll head to Cinfras to report this to the higher ups. If you can somehow find a way to evacuate the guards here.", "hungerofgertspart2-winie-8", false);
+        s.addSound("[8/9] Winie: They may be jerks but we can't just let them die here.", "hungerofgertspart2-winie-9", false);
+        s.addSound("[9/9] Winie: I think you should start with the people out in the courtyard.", "hungerofgertspart2-winie-10", false);
+        s.addSound("[1/5] Colry: Ya what is it?", "hungerofgertspart2-colry-1", false);
+        s.addSound("[2/5] Colry: Right... You are that crazy adventurer Cikal talked about...", "hungerofgertspart2-colry-2", false);
+        s.addSound("[3/5] Colry: Well... I'd rather avoid any awkward situations so... please leave before I have to throw you out.", "hungerofgertspart2-colry-3", false);
+        s.addSound("[4/5] Colry: I appreciate it, boss.", "hungerofgertspart2-colry-4", false);
+        s.addSound("[5/5] Colry: Only thing that could sway me is food, hahaha! We only eat meat around here!", "hungerofgertspart2-colry-5", false);
+        s.addSound("[1/5] Alie: Huh?", "hungerofgertspart2-alie-1", false);
+        s.addSound("[2/5] Alie: Right... You are that crazy adventurer Cikal talked about...", "hungerofgertspart2-alie-2", false);
+        s.addSound("[3/5] Alie: If you don't have any meat you can ''hand'' in to the watch, please leave.", "hungerofgertspart2-alie-3", false);
+        s.addSound("[4/5] Alie: I promise we take good care of the food here.", "hungerofgertspart2-alie-4", false);
+        s.addSound("[1/1] Alie: You heard him. Give us food, or leave.", "hungerofgertspart2-alie-5", false);
+        s.addSound("[1/3] Bory: Yes?", "hungerofgertspart2-bory-1", false);
+        s.addSound("[2/3] Bory: Oh, it's... you.", "hungerofgertspart2-bory-2", false);
+        s.addSound("[3/3] Bory: What could you want?", "hungerofgertspart2-bory-3", false);
+        s.addSound("[1/3] Bory: Huh?", "hungerofgertspart2-bory-4", false);
+        s.addSound("[2/3] Bory: Why are you yelling at me?", "hungerofgertspart2-bory-5", false);
+        s.addSound("[2/3] Bory: And no shot I'm leaving today! We are having our daily game night tonight!", "hungerofgertspart2-bory-6", false);
+        s.addSound("[1/2] Bory: Yes. Indeed. Meaning, I'm very busy.", "hungerofgertspart2-bory-7", false);
+        s.addSound("[2/2] Bory: Every day is a party here. But you. are. not. invited!", "hungerofgertspart2-bory-8", false);
+        s.addSound("[1/2] Bory: We here at the Gylia Watch are ready to give up our lives!", "hungerofgertspart2-bory-9", false);
+        s.addSound("[2/2] Bory: Except on Saturdays!", "hungerofgertspart2-bory-10", false);
+        s.addSound("[2/2] Bory: Now if you excuse me. I have business to attend to.", "hungerofgertspart2-bory-11", false);
+        s.addSound("[1/4] Bory: I'm just patrolling. Someone have to look at the mountains for signs of an ambush.", "hungerofgertspart2-bory-12", false);
+        s.addSound("[2/4] Bory: Well... even though I doubt Gerts can climb...", "hungerofgertspart2-bory-13", false);
+        s.addSound("[3/4] Bory: The details aren't that important. I am doing my job, anyway.", "hungerofgertspart2-bory-14", false);
+        s.addSound("[4/4] Bory: Was there anything else?", "hungerofgertspart2-bory-15", false);
+        s.addSound("[1/2] Bory: I knew that!", "hungerofgertspart2-bory-16", false);
+        s.addSound("[2/2] Bory: Obviously...", "hungerofgertspart2-bory-17", false);
+        s.addSound("[1/4] Bory: Oh..", "hungerofgertspart2-bory-18", false);
+        s.addSound("[2/4] Bory: You are very welcome.", "hungerofgertspart2-bory-19", false);
+        s.addSound("[3/4] Bory: I appreciate your comment!", "hungerofgertspart2-bory-20", false);
+        s.addSound("[4/4] Bory: So what's on your mind?", "hungerofgertspart2-bory-21", false);
+        s.addSound("[1/3] Bory: It is our duty to protect the public from the Gerts!", "hungerofgertspart2-bory-22", false);
+        s.addSound("[2/3] Bory: If what you are saying is true, we need to stay here!", "hungerofgertspart2-bory-23", false);
+        s.addSound("[3/3] Bory: I don't even think anyone would miss the Gerts if they were to die, hah!", "hungerofgertspart2-bory-24", false);
+        s.addSound("[1/2] Bory: I can never say no to a snack!", "hungerofgertspart2-bory-25", false);
+        s.addSound("[2/2] Bory: What are you thinking?", "hungerofgertspart2-bory-26", false);
+        s.addSound("[1/3] Bory: Ooh! It sounds like you've prepared a whole feast out there.", "hungerofgertspart2-bory-27", false);
+        s.addSound("[2/3] Bory: Alright, deal!", "hungerofgertspart2-bory-28", false);
+        s.addSound("[3/3] Bory: I'll head outside and wait for you.", "hungerofgertspart2-bory-29", false);
+        s.addSound("[1/7] Winie: Hey!", "hungerofgertspart2-winie-11", false);
+        s.addSound("[2/7] Winie: Good job on emptying the tower. I explained the situation to the Cinfras military and they followed me here.", "hungerofgertspart2-winie-12", false);
+        s.addSound("[3/7] Cinfras Military: Good thing you came to us. There is something wrong with this place because I swear... everyone seems to go coockoo.", "hungerofgertspart2-cinfrasmilitary-1", false);
+        s.addSound("[4/7] Cinfras Military: Either way. Due to the workers breaking the treaty we have no choice but to charge them for their crimes and fire them on the spot.", "hungerofgertspart2-cinfrasmilitary-2", false);
+        s.addSound("[5/7] Winie: Us three have been put in place as a replacement until further notice.", "hungerofgertspart2-winie-13", false);
+        s.addSound("[6/7] Winie: We will also return the stolen food to the Gerts, and hopefully they can calm them down.", "hungerofgertspart2-winie-14", false);
+        s.addSound("[7/7] Winie: Your job is finished here, Wynnian. Thank you on behalf of Cinfras.", "hungerofgertspart2-winie-15", false);
 
         //Purple and blue
         s.addSound("[1/10] Korun: W-Woah there, short nose! What are you doing, barging into my home?!", "purpleandblue-korun-1", false);
