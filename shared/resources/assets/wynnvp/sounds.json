@@ -19978,113 +19978,321 @@
 
 
 
-  "elementalexercise-ragon-1": {
+  "elementalexercise-captainragon-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-1", "stream": true}]
   },
-  "elementalexercise-ragon-2": {
+  "elementalexercise-captainragon-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-2", "stream": true}]
   },
-  "elementalexercise-ragon-3": {
+  "elementalexercise-captainragon-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-3", "stream": true}]
   },
-  "elementalexercise-ragon-4": {
+  "elementalexercise-captainragon-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-4", "stream": true}]
   },
-  "elementalexercise-ragon-5": {
+  "elementalexercise-captainragon-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-5", "stream": true}]
   },
-  "elementalexercise-ragon-6": {
+  "elementalexercise-captainragon-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-6", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-6", "stream": true}]
   },
-  "elementalexercise-ragon-7": {
+  "elementalexercise-tasim-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-7", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-1", "stream": true}]
   },
-  "elementalexercise-ragon-8": {
+  "elementalexercise-tasim-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-8", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-2", "stream": true}]
   },
-  "elementalexercise-ragon-9": {
+  "elementalexercise-captainragon-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-9", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-7", "stream": true}]
   },
-  "elementalexercise-ragon-10": {
+  "elementalexercise-tasim-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-10", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-3", "stream": true}]
   },
-  "elementalexercise-ragon-11": {
+  "elementalexercise-captainragon-8": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-11", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-8", "stream": true}]
   },
-  "elementalexercise-ragon-12": {
+  "elementalexercise-captainragon-9": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-12", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-9", "stream": true}]
   },
-  "elementalexercise-ragon-13": {
+  "elementalexercise-captainragon-10": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-13", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-10", "stream": true}]
   },
-  "elementalexercise-ragon-14": {
+  "elementalexercise-captainragon-11": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-14", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-11", "stream": true}]
   },
-  "elementalexercise-ragon-15": {
+  "elementalexercise-captainragon-12": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-15", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-12", "stream": true}]
   },
-  "elementalexercise-ragon-16": {
+  "elementalexercise-captainragon-13": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-16", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-13", "stream": true}]
   },
-  "elementalexercise-ragon-17": {
+  "elementalexercise-tasim-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-17", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-4", "stream": true}]
   },
-  "elementalexercise-ragon-18": {
+  "elementalexercise-tasim-5": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-18", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-5", "stream": true}]
   },
-  "elementalexercise-ragon-19": {
+  "elementalexercise-captainragon-14": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-19", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-14", "stream": true}]
   },
-  "elementalexercise-ragon-20": {
+  "elementalexercise-tasim-6": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-20", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-6", "stream": true}]
   },
-  "elementalexercise-ragon-21": {
+  "elementalexercise-captainragon-15": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-21", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-15", "stream": true}]
   },
-  "elementalexercise-ragon-22": {
+  "elementalexercise-captainragon-16": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-22", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-16", "stream": true}]
   },
-  "elementalexercise-ragon-23": {
+  "elementalexercise-captainragon-17": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-23", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-17", "stream": true}]
   },
-  "elementalexercise-ragon-24": {
+  "elementalexercise-tasim-7": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-24", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-7", "stream": true}]
   },
-  "elementalexercise-ragon-25": {
+  "elementalexercise-captainragon-18": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-25", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-18", "stream": true}]
   },
-  "elementalexercise-ragon-26": {
+  "elementalexercise-tasim-8": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-26", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-8", "stream": true}]
   },
-  "elementalexercise-ragon-27": {
+  "elementalexercise-tasim-9": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:elementalexercise-ragon-27", "stream": true}]
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-9", "stream": true}]
+  },
+  "elementalexercise-tasim-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-10", "stream": true}]
+  },
+  "elementalexercise-tasim-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-11", "stream": true}]
+  },
+  "elementalexercise-tasim-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-12", "stream": true}]
+  },
+  "elementalexercise-tasim-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-13", "stream": true}]
+  },
+  "elementalexercise-tasim-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-14", "stream": true}]
+  },
+  "elementalexercise-captainragon-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-19", "stream": true}]
+  },
+  "elementalexercise-scoutevelyn-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-scoutevelyn-1", "stream": true}]
+  },
+  "elementalexercise-captainragon-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-20", "stream": true}]
+  },
+  "elementalexercise-tasim-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-15", "stream": true}]
+  },
+  "elementalexercise-captainragon-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-21", "stream": true}]
+  },
+  "elementalexercise-tasim-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-16", "stream": true}]
+  },
+  "elementalexercise-tasim-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-17", "stream": true}]
+  },
+  "elementalexercise-tasim-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-18", "stream": true}]
+  },
+  "elementalexercise-tasim-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-19", "stream": true}]
+  },
+  "elementalexercise-captainragon-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-22", "stream": true}]
+  },
+  "elementalexercise-captainragon-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-23", "stream": true}]
+  },
+  "elementalexercise-tasim-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-20", "stream": true}]
+  },
+  "elementalexercise-captainragon-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-24", "stream": true}]
+  },
+  "elementalexercise-scoutevelyn-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-scoutevelyn-2", "stream": true}]
+  },
+  "elementalexercise-captainragon-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-25", "stream": true}]
+  },
+  "elementalexercise-captainragon-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-26", "stream": true}]
+  },
+  "elementalexercise-captainragon-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-27", "stream": true}]
+  },
+  "elementalexercise-tasim-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-21", "stream": true}]
+  },
+  "elementalexercise-captainragon-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-28", "stream": true}]
+  },
+  "elementalexercise-tasim-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-22", "stream": true}]
+  },
+  "elementalexercise-tasim-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-23", "stream": true}]
+  },
+  "elementalexercise-tasim-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-24", "stream": true}]
+  },
+  "elementalexercise-captainragon-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-29", "stream": true}]
+  },
+  "elementalexercise-captainragon-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-30", "stream": true}]
+  },
+  "elementalexercise-captainragon-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-31", "stream": true}]
+  },
+  "elementalexercise-captainragon-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-32", "stream": true}]
+  },
+  "elementalexercise-captainragon-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-33", "stream": true}]
+  },
+  "elementalexercise-tasim-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-25", "stream": true}]
+  },
+  "elementalexercise-captainragon-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-34", "stream": true}]
+  },
+  "elementalexercise-tasim-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-26", "stream": true}]
+  },
+  "elementalexercise-tasim-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-27", "stream": true}]
+  },
+  "elementalexercise-captainragon-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-35", "stream": true}]
+  },
+  "elementalexercise-tasim-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-28", "stream": true}]
+  },
+  "elementalexercise-admiralaegis-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-admiralaegis-1", "stream": true}]
+  },
+  "elementalexercise-admiralaegis-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-admiralaegis-2", "stream": true}]
+  },
+  "elementalexercise-admiralaegis-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-admiralaegis-3", "stream": true}]
+  },
+  "elementalexercise-tasim-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-29", "stream": true}]
+  },
+  "elementalexercise-admiralaegis-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-admiralaegis-4", "stream": true}]
+  },
+  "elementalexercise-admiralaegis-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-admiralaegis-5", "stream": true}]
+  },
+  "elementalexercise-tasim-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-30", "stream": true}]
+  },
+  "elementalexercise-captainragon-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-36", "stream": true}]
+  },
+  "elementalexercise-captainragon-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-37", "stream": true}]
+  },
+  "elementalexercise-captainragon-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-38", "stream": true}]
+  },
+  "elementalexercise-captainragon-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-captainragon-39", "stream": true}]
+  },
+  "elementalexercise-tasim-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-31", "stream": true}]
+  },
+  "elementalexercise-tasim-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-32", "stream": true}]
+  },
+  "elementalexercise-tasim-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:elementalexercise-tasim-33", "stream": true}]
   },
 
 
