@@ -830,9 +830,15 @@ public class Sounds {
         s.addSound("[4/4] The Priest: Bring me [12 Rotten Flesh], that should do it. Ancient Nemract is filled with zombies, it's toward the south-west.", "gravedigger-priest-4", false);
         s.addSound("[1/2] The Priest: You got the flesh. Good.", "gravedigger-priest-5", false);
         s.addSound("[2/2] The Priest: It should be... \"safe\", now. Be very careful, you are entering at your own risk.", "gravedigger-priest-6", false);
-        s.addSound("[1/1] Sayleros: Brilliant! It is a little bit dusty, but it will do the trick! Here, take these as proof of my gratitude.", "gravedigger-sayleros-9", false);
-        s.addSound("[1/1] Sayleros: You look like you desperately need an adventure, Come back when you're level 20, I might need you", "gravedigger-sayleros-10", false);
-        s.addSound("[1/1] Sayleros: Thank you so much for your help!", "gravedigger-sayleros-11", false);
+        s.addSound("[1/1] Sayleros: You look like you desperately need an adventure, Come back when you're level 20, I might need you", "gravedigger-sayleros-9", false);
+        s.addSound("[1/1] Sayleros: Thank you so much for your help!", "gravedigger-sayleros-10", false);
+        s.addSound("[1/6] Sayleros: soldier, there you are! You were taking so long, so I came over here as quickly as I could, in case you needed my help.", "gravedigger-sayleros-11", false);
+        s.addSound("[2/6] Sayleros: What? You got his will already? That- that's brilliant! Here, let me take a look.", "gravedigger-sayleros-12", false);
+        s.addSound("[3/6] Sayleros: Well, it's a little dusty, but I think it'll do the trick! Thank you greatly for the help.", "gravedigger-sayleros-13", false);
+        s.addSound("[4/6] Sayleros: Here, here, take these as proof of my gratitude. And, also- Priest, since you're here, I'd like to grant soldier here access to the graveyard.", "gravedigger-sayleros-14", false);
+        s.addSound("[5/6] Priest: Very well. It shall be done.", "gravedigger-priest-7", false);
+        s.addSound("[6/6] Sayleros: Excellent. Well, I'll be off to Detlas now. Feel free to visit if you'd like!", "gravedigger-sayleros-15", false);
+        s.addSound("[1/1] The Priest: Thank the gods you are still alive! Hopefully you are still doing fine in this dangerous world?", "gravedigger-priest-8", false);
 
         //Macabre Masquerade Hallowynn 2014
         s.addSound("[1/5] Mask Salesman: Hmm... Let's see, wha- Ah! Oh, pardon me, I was distracted. Luckily you're here, because I require some assistance.", "macabremasquerade-masksalesman-1", false);

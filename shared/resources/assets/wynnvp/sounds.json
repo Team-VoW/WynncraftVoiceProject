@@ -852,6 +852,32 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:gravedigger-sayleros-11", "stream": true}]
   },
+  "gravedigger-sayleros-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gravedigger-sayleros-12", "stream": true}]
+  },
+  "gravedigger-sayleros-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gravedigger-sayleros-13", "stream": true}]
+  },
+  "gravedigger-sayleros-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gravedigger-sayleros-14", "stream": true}]
+  },
+  "gravedigger-priest-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gravedigger-priest-7", "stream": true}]
+  },
+  "gravedigger-sayleros-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gravedigger-sayleros-15", "stream": true}]
+  },
+  "gravedigger-priest-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gravedigger-priest-8", "stream": true}]
+  },
+
+
 
   "barracks-aledar-1": {
     "category": "voice",
