@@ -5487,6 +5487,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-22", "stream": true}]
   },
+  "tempotowntrouble-homelessmayor-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:tempotowntrouble-homelessmayor-23", "stream": true}]
+  },
 
 
 

@@ -1084,20 +1084,21 @@ public class Sounds {
         s.addSound("[10/12] Old Man Martyn: They'll have to be exterminated every single day. Now, I'm sure the wo rk won't be thankless, perhaps you'll be rewarded by the townsfolk of Tempo Town for taking care of them.", "tempotowntrouble-oldmanmartyn-10", false);
         s.addSound("[11/12] Old Man Martyn: Now please, be careful in the Valley. I already have to look after one person, nevermind the mess of time that the Olm were so-", "tempotowntrouble-oldmanmartyn-11", false);
         s.addSound("[12/12] Old Man Martyn: ...I digress, I'm just rambling again. Now, let me bring us back outside this temple, and you should head back to that shanty town.", "tempotowntrouble-oldmanmartyn-12", false);
-        s.addSound("[1/9] Homeless Mayor: You're back! I heard some kind of weird chime coming from the temple on the hill- is that a good sign?", "tempotowntrouble-homelessmayor-10", false);
-        s.addSound("[2/9] Homeless Mayor: You did?! Oh, thank goodness... Honestly, Martyn told us he would deal with it, but then he just disappeared off into nowhere!", "tempotowntrouble-homelessmayor-11", false);
-        s.addSound("[3/9] Homeless Mayor: Oh, he actually showed his face after you took care of the thing? What, did you beat him to the punch or something?", "tempotowntrouble-homelessmayor-12", false);
-        s.addSound("[4/9] Homeless Mayor: Wait... What? He was...trying to seal the thing away, instead of killing it, and...you destroying it broke the seal?", "tempotowntrouble-homelessmayor-13", false);
-        s.addSound("[5/9] Homeless Mayor: And now there's more of them? Why didn't he just tell us?! Now they'll need to be stopped every day to keep them in check!!", "tempotowntrouble-homelessmayor-14", false);
-        s.addSound("[6/9] Homeless Mayor: Gah, this is a disaster... It isn't your fault, you didn't know- Wait, what's that boxy thing you have? A [Time Fragment]? ...oh, so the monster dropped it.", "tempotowntrouble-homelessmayor-15", false);
-        s.addSound("[7/9] Homeless Mayor: Interesting... One of the townsfolk likes to collect those sorts of things! He's that Mysterious Merchant just behind me.", "tempotowntrouble-homelessmayor-16", false);
-        s.addSound("[8/9] Homeless Mayor: Go talk with him about those! He might give you something worth your while if you trade them with him.", "tempotowntrouble-homelessmayor-17", false);
-        s.addSound("[9/9] Homeless Mayor: ...though, this is a bit awkward- I don't have a reward ready for you. Making this place took a lot of money... Hopefully gratitude is enough- thank you, sincerely!", "tempotowntrouble-homelessmayor-18", false);
-        s.addSound("[1/1] Homeless Mayor: Oh hey, it's you! I hope you've been keeping those Time Troubles at bay.", "tempotowntrouble-homelessmayor-19", false);
+        s.addSound("[1/1] Homeless Mayor: Oh hey, it's you! I hope you've been keeping those Time Troubles at bay.", "tempotowntrouble-homelessmayor-10", false);
         s.addSound("[1/1] Scout: Oh, hey! I hope that monster wasn't too difficult for you to defeat.", "tempotowntrouble-scout-8", false);
-        s.addSound("[1/3] Homeless Mayor: Hello- Welcome to Tempo Town, friend! Established only two months ago, I'm proud to provide aid to those displaced by corrupted raids.", "tempotowntrouble-homelessmayor-20", false);
-        s.addSound("[2/3] Homeless Mayor: Come to think of it, you look like a Ragni representative... Can I bother you to deliver some paperwork to the castle about getting officially established here?", "tempotowntrouble-homelessmayor-21", false);
-        s.addSound("[3/3] Homeless Mayor: Oh, not that kind of soldier? That's too bad... I hope you find your visit pleasant anyways.", "tempotowntrouble-homelessmayor-22", false);
+        s.addSound("[1/3] Homeless Mayor: Hello- Welcome to Tempo Town, friend! Established only two months ago, I'm proud to provide aid to those displaced by corrupted raids.", "tempotowntrouble-homelessmayor-11", false);
+        s.addSound("[2/3] Homeless Mayor: Come to think of it, you look like a Ragni representative... Can I bother you to deliver some paperwork to the castle about getting officially established here?", "tempotowntrouble-homelessmayor-12", false);
+        s.addSound("[3/3] Homeless Mayor: Oh, not that kind of soldier? That's too bad... I hope you find your visit pleasant anyways.", "tempotowntrouble-homelessmayor-13", false);
+        s.addSound("[1/10] Homeless Mayor: You're back! I heard some kind of weird chime coming from the temple on the hill- is that a good sign?", "tempotowntrouble-homelessmayor-14", false);
+        s.addSound("[2/10] Homeless Mayor: You did?! Oh, thank goodness... Honestly, Martyn told us he would deal with it, but then he just disappeared off into nowhere!", "tempotowntrouble-homelessmayor-15", false);
+        s.addSound("[3/10] Homeless Mayor: Oh, he actually showed his face after you took care of the thing? What, did you beat him to the punch or something?", "tempotowntrouble-homelessmayor-16", false);
+        s.addSound("[4/10] Homeless Mayor: Wait... What? He was...trying to seal the thing away, instead of killing it, and...you destroying it broke the seal?", "tempotowntrouble-homelessmayor-17", false);
+        s.addSound("[5/10] Homeless Mayor: And now there's more of them? Why didn't he just tell us?! Now they'll need to be stopped every day to keep them in check!!", "tempotowntrouble-homelessmayor-18", false);
+        s.addSound("[6/10] Homeless Mayor: Gah, this is a disaster... It isn't your fault, you didn't know- Wait, what's that boxy thing you have? A [Time Fragment]? ...oh, so the monster dropped it.", "tempotowntrouble-homelessmayor-19", false);
+        s.addSound("[7/10] Homeless Mayor: Interesting... One of the townsfolk likes to collect those sorts of things! He's that Mysterious Merchant just behind me.", "tempotowntrouble-homelessmayor-20", false);
+        s.addSound("[8/10] Homeless Mayor: Go talk with him about those! He might give you something worth your while if you trade them with him.", "tempotowntrouble-homelessmayor-21", false);
+        s.addSound("[9/10] Homeless Mayor: ...also, while you were away, that strange magic stone up on the hill started glowing. We're not sure what to do with it, really! Might be worth your attention.", "tempotowntrouble-homelessmayor-22", false);
+        s.addSound("[10/10] Homeless Mayor: ...hm. Well, this is a bit awkward- I don't have a reward ready for you. Making this place took a lot of money... Hopefully gratitude is enough- thank you, sincerely!", "tempotowntrouble-homelessmayor-23", false);
 
         //Lost Tower
         s.addSound("[1/5] Laen: Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.", "losttower-laen-1", false);
