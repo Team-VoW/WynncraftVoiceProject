@@ -14983,6 +14983,212 @@
   },
 
 
+  "takingthetower-lieutenantvan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-1", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-2", "stream": true}]
+  },
+  "takingthetower-aledar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-1", "stream": true}]
+  },
+  "takingthetower-aledar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-2", "stream": true}]
+  },
+  "takingthetower-aledar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-3", "stream": true}]
+  },
+  "takingthetower-aledar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-4", "stream": true}]
+  },
+  "takingthetower-aledar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-5", "stream": true}]
+  },
+  "takingthetower-aledar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-6", "stream": true}]
+  },
+  "takingthetower-aledar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-7", "stream": true}]
+  },
+  "takingthetower-aledar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-8", "stream": true}]
+  },
+  "takingthetower-aledar-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-9", "stream": true}]
+  },
+  "takingthetower-aledar-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-10", "stream": true}]
+  },
+  "takingthetower-aledar-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-11", "stream": true}]
+  },
+  "takingthetower-aledar-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-12", "stream": true}]
+  },
+  "takingthetower-aledar-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-13", "stream": true}]
+  },
+  "takingthetower-aledar-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-14", "stream": true}]
+  },
+  "takingthetower-aledar-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-15", "stream": true}]
+  },
+  "takingthetower-aledar-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-16", "stream": true}]
+  },
+  "takingthetower-aledar-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-17", "stream": true}]
+  },
+  "takingthetower-aledar-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-18", "stream": true}]
+  },
+  "takingthetower-aledar-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-19", "stream": true}]
+  },
+  "takingthetower-aledar-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-20", "stream": true}]
+  },
+  "takingthetower-aledar-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-21", "stream": true}]
+  },
+  "takingthetower-aledar-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-22", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-3", "stream": true}]
+  },
+  "takingthetower-aledar-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-23", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-4", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-5", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-6", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-7", "stream": true}]
+  },
+  "takingthetower-aledar-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-24", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-8", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-9", "stream": true}]
+  },
+  "takingthetower-aledar-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-25", "stream": true}]
+  },
+  "takingthetower-aledar-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-26", "stream": true}]
+  },
+  "takingthetower-aledar-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-27", "stream": true}]
+  },
+  "takingthetower-aledar-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-28", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-10", "stream": true}]
+  },
+  "takingthetower-aledar-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-29", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-11", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-12", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-13", "stream": true}]
+  },
+  "takingthetower-aledar-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-30", "stream": true}]
+  },
+  "takingthetower-lieutenantvan-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-lieutenantvan-14", "stream": true}]
+  },
+  "takingthetower-aledar-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-31", "stream": true}]
+  },
+  "takingthetower-aledar-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-32", "stream": true}]
+  },
+  "takingthetower-aledar-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-33", "stream": true}]
+  },
+  "takingthetower-aledar-34": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-34", "stream": true}]
+  },
+  "takingthetower-aledar-35": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-35", "stream": true}]
+  },
+  "takingthetower-aledar-36": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-36", "stream": true}]
+  },
+  "takingthetower-aledar-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:takingthetower-aledar-37", "stream": true}]
+  },
+
+
 
   "dwellingwalls-leucsaa-1": {
     "category": "voice",

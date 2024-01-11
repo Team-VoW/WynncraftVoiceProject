@@ -433,9 +433,61 @@ public class Sounds {
         s.addSound("[1/2] Omango: You got it! You found the treasure!", "underwater-omango-14", false);
         s.addSound("[2/2] Omango: As promised, here's your part of the loot.", "underwater-omango-15", false);
 
+        //Taking the Tower
+        s.addSound("[1/2] Lieutenant Van: Hello, soldier. Making your way to Detlas, are you?", "takingthetower-lieutenantvan-1", false);
+        s.addSound("[2/2] Lieutenant Van: Just carry on in the direction you're headed. You'll make it there in no time.", "takingthetower-lieutenantvan-2", false);
+        s.addSound("[1/2] Aledar: Oh, soldier! Hey! It's good to see you again- I didn't notice you arrived. Is Tasim with you?", "takingthetower-aledar-1", false);
+        s.addSound("[2/2] Aledar: Oh, shoot, I have something I need to get to. We'll have to talk later!", "takingthetower-aledar-2", false);
+        s.addSound("[1/6] Aledar: Oh, soldier! Hey! It's good to see you and Tasim again. Hope you didn't have too many adventures without me!", "takingthetower-aledar-3", false);
+        s.addSound("[2/6] Aledar: Tasim told me all about the corrupted force you took out. I wish I could have been here to help!", "takingthetower-aledar-4", false);
+        s.addSound("[3/6] Aledar: ...Oh! Since you're here- I was about to head out to join Lieutenant Van's squad to take back a tower overtaken by corrupteds. You should come with us, too!", "takingthetower-aledar-5", false);
+        s.addSound("[4/6] Aledar: Well? What do you think? Want to get some real combat experience? It shouldn't take long.", "takingthetower-aledar-6", false);
+        s.addSound("[5/6] Aledar: Oh. Alright.", "takingthetower-aledar-7", false);
+        s.addSound("[6/6] Aledar: Well, I'll still be here for a while. If you change your mind, let me know!", "takingthetower-aledar-8", false);
+        s.addSound("[5/6] Aledar: Perfect. Well, no time better than the present! Let's get going.", "takingthetower-aledar-9", false);
+        s.addSound("[6/6] Aledar: Oh, wait. There's a stop we've got to make first. Follow me to the Powder Master!", "takingthetower-aledar-10", false);
+        s.addSound("[2/6] Aledar: Tasim's gone off to the training room, if you were looking for him. He's really jumping straight into it, which... is good! We all need to get stronger so we can defend the province.", "takingthetower-aledar-11", false);
+        s.addSound("[1/3] Aledar: Hey, you're back! Have you changed your mind? Want to join a raid on a corrupted tower?", "takingthetower-aledar-12", false);
+        s.addSound("[1/6] Aledar: Alright, so. There's something I've been told about the tower we're going to be attacking which we can prepare for!", "takingthetower-aledar-13", false);
+        s.addSound("[2/6] Aledar: Apparently, the big bad at the top of the tower is weak to Water damage! And so, here we are at the Powder Master.", "takingthetower-aledar-14", false);
+        s.addSound("[3/6] Aledar: You can apply various elemental powders to your weapons here, which lets them deal types of damage they might not have been able to before.", "takingthetower-aledar-15", false);
+        s.addSound("[4/6] Aledar: In this case, you can apply a Water powder, so that your weapon will be more effective against the corrupted enemies at the tower!", "takingthetower-aledar-16", false);
+        s.addSound("[5/6] Aledar: I, uh... don't remember the whole elemental speech off the top of my head. If you want to know more about those, you'll have to talk to Captain Ragon in the barracks. He has a whole course about it!", "takingthetower-aledar-17", false);
+        s.addSound("[6/6] Aledar: ...The point is- here. Take this elemental powder and talk to the Powder Master to apply it. Let me know when you're done!", "takingthetower-aledar-18", false);
+        s.addSound("[1/3] Aledar: Got the powder on your weapon? Good, that means we're ready.", "takingthetower-aledar-19", false);
+        s.addSound("[2/3] Aledar: Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs- you probably saw it on your way in.", "takingthetower-aledar-20", false);
+        s.addSound("[3/3] Aledar: Lead the way! I'll be right behind you.", "takingthetower-aledar-21", false);
+        s.addSound("[1/1] Aledar: Let's keep going! Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs, remember?", "takingthetower-aledar-22", false);
+        s.addSound("[1/8] Lieutenant Van: Ah, Aledar! Good to see you here. Who's this with you?", "takingthetower-lieutenantvan-3", false);
+        s.addSound("[2/8] Aledar: This is soldier, sir. They're here to join our assault, if you'll allow it.", "takingthetower-aledar-23", false);
+        s.addSound("[3/8] Lieutenant Van: Hm... Well, I don't see why not. The more the merrier, that's what I say.", "takingthetower-lieutenantvan-4", false);
+        s.addSound("[4/8] Lieutenant Van: If everyone's here, we can begin. Here's the plan! We'll need to fight off some of the forces near the base of the tower, so that someone can climb to the top.", "takingthetower-lieutenantvan-5", false);
+        s.addSound("[5/8] Lieutenant Van: It doesn't much matter who does the job, so long as it gets done. If you see an opportunity- go for it!", "takingthetower-lieutenantvan-6", false);
+        s.addSound("[6/8] Lieutenant Van: If you need to retreat, or the corrupteds are slain, regroup here! Understood?", "takingthetower-lieutenantvan-7", false);
+        s.addSound("[7/8] Aledar: Yes, sir!", "takingthetower-aledar-24", false);
+        s.addSound("[8/8] Lieutenant Van: Good. Alright soldiers, let's take back that tower!", "takingthetower-lieutenantvan-8", false);
+        s.addSound("[1/1] Lieutenant Van: Go on, head for the tower! If we're lucky, we'll be able to clear out the corrupteds who have taken over it.", "takingthetower-lieutenantvan-9", false);
+        s.addSound("[1/1] Aledar: Alright. It's time to take on the tower! We've got this, soldier.", "takingthetower-aledar-25", false);
+        s.addSound("[1/1] Aledar: Hey, soldier, there you are! Come on, let's climb that tower!", "takingthetower-aledar-26", false);
+        s.addSound("[1/1] Aledar: We did it, we killed the corrupted! Come on, let's get back to Lieutenant Van with the news!", "takingthetower-aledar-27", false, 100);
+        s.addSound("[1/1] Aledar: We did it! Let's get back to Lieutenant Van and tell him the news.", "takingthetower-aledar-28", false);
+        s.addSound("[1/5] Lieutenant Van: It seems everyone has returned. Well? Have the corrupted forces been vanquished?", "takingthetower-lieutenantvan-10", false);
+        s.addSound("[2/5] Aledar: They have, lieutenant! soldier and I reached the top and defeated the corrupted.", "takingthetower-aledar-29", false);
+        s.addSound("[3/5] Lieutenant Van: Fine work, soldiers! Another great victory for the Detlas army. With the leader killed, it shouldn't be too difficult to clear out the rest of them.", "takingthetower-lieutenantvan-11", false);
+        s.addSound("[4/5] Lieutenant Van: I'll let the Admiral know of your victory today, soldiers. And- here, some payment for your work.", "takingthetower-lieutenantvan-12", false);
+        s.addSound("[5/5] Lieutenant Van: The two of you have a promising future. I look forward to serving with you in the future!", "takingthetower-lieutenantvan-13", false);
+        s.addSound("[1/1] Aledar: That was good fighting out there, soldier! I'm going to head back to Detlas for now, see if there's anything else I can do around there.", "takingthetower-aledar-30", false);
+        s.addSound("[1/1] Lieutenant Van: We'll take care of the remaining stragglers, don't you worry. Thank you for your work today, soldier.", "takingthetower-lieutenantvan-14", false);
+        s.addSound("[1/3] Aledar: Good to see you, soldier! I haven't been up to much since we took back the Raging Tower.", "takingthetower-aledar-31", false);
+        s.addSound("[2/3] Aledar: I've been waiting for Tasim to finish up whatever he's been doing. He's been nonstop training since he got here, you know.", "takingthetower-aledar-32", false);
+        s.addSound("[3/3] Aledar: Hey, maybe it'd be worth your time to join him! If you talk to Captain Ragon over there, he'll probably teach you some things.", "takingthetower-aledar-33", false);
+        s.addSound("[2/3] Aledar: Perfect! Well, no time better than the present! Let's get going.", "takingthetower-aledar-34", false);
+        s.addSound("[3/3] Aledar: Oh, wait. There's a stop we've got to make first. Follow me to the Powder Master!", "takingthetower-aledar-35", false);
+        s.addSound("[2/3] Aledar: Oh. Alright.", "takingthetower-aledar-36", false);
+        s.addSound("[3/3] Aledar: Well, I'll still be here for a while. If you change your mind, let me know!", "takingthetower-aledar-37", false);
+
 
         //Mushroom man
-        //mushroomman
         s.addSound("[1/5] Tasim: soldier, hello! This place really is nice, isn't it? I'd like to stay a while longer before moving on towards Detlas, but I'll be ready soon.", "mushroomman-tasim-1", false);
         s.addSound("[2/5] Tasim: In the meantime, I've been thinking about what we could do to help this place... I've maybe got something.", "mushroomman-tasim-2", false);
         s.addSound("[3/5] Tasim: Take a look at that villager over there. He's acting a little off, like he's got something going on. I wonder...", "mushroomman-tasim-3", false);
