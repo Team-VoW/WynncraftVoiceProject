@@ -172,24 +172,22 @@ public class Sounds {
         s.addSound("[2/2] Therck: They keep coming expecting free stuff! I don't have time for this, I still need to climb these stairs...", "enzansbrother-therck-17", false);
         s.addSound("[1/1] Therck: I don't have time to talk to you right now, move along!", "enzansbrother-therck-18", false);
 
-        //Poisoning the pest
-        s.addSound("[1/5] Farmer Cevalus: Ah, looks like a fresh recruit!", "poisoningthepest-farmercevalus-1", false);
+        //Poisoning the Pest
+        s.addSound("[1/5] Farmer Cevalus: Ah, looks like a fresh recruit! Did you see my posting? Good, good.", "poisoningthepest-farmercevalus-1", false);
         s.addSound("[2/5] Farmer Cevalus: Recently, my dear step-father passed away and I buried him out back. Well, he's not there anymore... the corruption has got to his body.", "poisoningthepest-farmercevalus-2", false);
-        s.addSound("[3/5] Farmer Cevalus: He became an invincible beast! We should use my fresh Corkian sprinklers t o poison the pest! I have a spare [1 Crate of Rat Poison] here...", "poisoningthepest-farmercevalus-3", false);
-        s.addSound("[4/5] Farmer Cevalus: I am too weak to get past the pest myself, could you help me out recruit?", "poisoningthepest-farmercevalus-4", false);
-        s.addSound("[5/5] Farmer Cevalus: If you poison the water reservoir on the other side of the farm field after you enter, you can watch as the pest makes his way back to the grave!\"", "poisoningthepest-farmercevalus-5", false);
-        s.addSound("[1/1] Farmer Cevalus: Have you at least attempted to get rid of that pest yet? Remember, the water reservoir is on the other end of this here field.", "poisoningthepest-farmercevalus-6", false);
-        s.addSound("[1/2] Farmer Cevalus: Look at the body!", "poisoningthepest-farmercevalus-7", false, 45);
-        s.addSound("[2/2] Farmer Cevalus: There are Pests burrowing out of it. KILL THEM!", "poisoningthepest-farmercevalus-8", false, 45);
-        s.addSound("[1/3] Farmer Cevalus: Great job getting rid of that corrupt varmint, I can't thank you enough!", "poisoningthepest-farmercevalus-9", false);
-        s.addSound("[2/3] Farmer Cevalus: I mean... poor step-dad. I don't know how I'll explain this to the wife...", "poisoningthepest-farmercevalus-10", false);
-        s.addSound("[3/3] Farmer Cevalus: Take this well-deserved reward for the risky actions you took today. I also give you access to my second farm in the back, take whatever you need there!", "poisoningthepest-farmercevalus-11", false);
-        s.addSound("[1/1] Farmer Cevalus: Hurry and enable the sprinklers with the button near the farm's entrance before it can do any more damage!", "poisoningthepest-farmercevalus-12", false);
-        s.addSound("[1/1] Farmer Cevalus: I could really use some help right now, but you are too weak. Come back when you are level 2.", "poisoningthepest-farmercevalus-13", false);
-        s.addSound("[1/1] Farmer Cevalus: Hey! Get away from my farm, this is private property!", "poisoningthepest-farmercevalus-14", false);
-        s.addSound("[1/1] Farmer Cevalus: I thank you greatly for your actions. My crops should grow back soon!", "poisoningthepest-farmercevalus-15", false);
-        s.addSound("[1/2] Farmer Cevalus: Just one more to kill.", "poisoningthepest-farmercevalus-16", false);
-        s.addSound("[2/2] Farmer Cevalus: Well done! Come back to me for a reward.", "poisoningthepest-farmercevalus-17", false, 45);
+        s.addSound("[3/5] Farmer Cevalus: Yes, yes, I know, I should have buried him more responsibly... But I didn't, and now he's turned into an unstoppable beast!", "poisoningthepest-farmercevalus-3", false);
+        s.addSound("[4/5] Farmer Cevalus: We should use my fresh Corkian sprinklers to poison the pest! I have a spare [1 Crate of Rat Poison] here... But I'm too weak to get past the pest myself.", "poisoningthepest-farmercevalus-4", false);
+        s.addSound("[5/5] Farmer Cevalus: That's where you come in! If you poison the water reservoir on the other side of the farm field after you enter, I'll enable the sprinklers, and he'll be done for!", "poisoningthepest-farmercevalus-5", false);
+        s.addSound("[1/2] Farmer Cevalus: There we are! Water poisoned, sprinklers enabled... Now we can just watch as he-", "poisoningthepest-farmercevalus-6", false, 160);
+        s.addSound("[2/2] Farmer Cevalus: Oh, dear. It seems to have just made him angry. Recruit, he's weakened- you'll have to kill him yourself!", "poisoningthepest-farmercevalus-7", false, 160);
+        s.addSound("[1/1] Farmer Cevalus: You've done it! Come back here now, so I can reward you for your work.", "poisoningthepest-farmercevalus-8", false, 160);
+        s.addSound("[1/3] Farmer Cevalus: Goodness, that was a little more exciting than I anticipated. Still, good work! I'm glad we were able to get rid of that monster...", "poisoningthepest-farmercevalus-9", false);
+        s.addSound("[2/3] Farmer Cevalus: I mean... poor step-dad. I don't know how I'll explain this to the wife... Might need to buy her something nice, heh.", "poisoningthepest-farmercevalus-10", false);
+        s.addSound("[3/3] Farmer Cevalus: Anyhow, take this well-deserved reward for the risky actions you took today. I'll also give you access to my second farm in the back, take whatever you need there!", "poisoningthepest-farmercevalus-11", false);
+        s.addSound("[1/1] Farmer Cevalus: I thank you greatly for your actions. My crops should grow back soon!", "poisoningthepest-farmercevalus-12", false);
+        s.addSound("[1/1] Farmer Cevalus: Hey! Get away from my farm, this is private property!", "poisoningthepest-farmercevalus-13", false);
+        s.addSound("[1/1] Farmer Cevalus: I could really use some help right now, but you are too weak. Come back when you are level 2.", "poisoningthepest-farmercevalus-14", false);
+        s.addSound("[1/1] Farmer Cevalus: Have you at least attempted to get rid of that pest yet? Remember, the water reservoir is on the other end of this here field.", "poisoningthepest-farmercevalus-15", false);
 
         //Cook Assistant
         s.addSound("[1/4] The Cook: I can't believe what is happening to me!", "cookassistant-thecook-1", false);
