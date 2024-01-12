@@ -906,7 +906,7 @@ public class Sounds {
         s.addSound("[4/8] Merloni: Their spirits still haunt the grave and infect the minds of people who disturb them. It isn't pretty.", "pitofthedead-merloni-5", false);
         s.addSound("[5/8] Merloni: However, I heard rumours of those who were able to bathe in their waters and be accepted by them, to show no fear of the dead is to be admired.", "pitofthedead-merloni-6", false);
         s.addSound("[6/8] Merloni: Maybe this shrine that I keep hearing about has something to do with it? It's apparently hidden deep inside the pit.", "pitofthedead-merloni-7", false);
-        s.addSound("[7/8] Merloni: Soldier, the pit is located south east of Nemract, across the bridge behind us. I will write down the coordinates inside your quest book.", "pitofthedead-merloni-8", false);
+        s.addSound("[7/8] Merloni: Soldier, the pit is located south east of Nemract, across the bridge behind us. I will write down the coordinates inside your content book.", "pitofthedead-merloni-8", false);
         s.addSound("[8/8] Merloni: Enter the pit. Learn it's mysteries, then come back to me.", "pitofthedead-merloni-9", false);
         s.addSound("[1/1] Merloni: If you are too scared to go down there, I understand. Dealing with the souls of the dead isn't for everyone.", "pitofthedead-merloni-10", false);
         s.addSound("[1/1] Merloni: Very impressive! Here's your reward. I found it a while ago while walking around Nemract. It probably fell off a skeleton!", "pitofthedead-merloni-11", false);
