@@ -2105,6 +2105,146 @@
     "sounds": [{ "name": "wynnvp:infestedplants-mayoralvin-14", "stream": true}]
   },
 
+  "infestedpit-tasim-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-1", "stream": true}]
+  },
+  "infestedpit-aledar-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-1", "stream": true}]
+  },
+  "infestedpit-arakadicus-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-arakadicus-1", "stream": true}]
+  },
+  "infestedpit-arakadicus-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-arakadicus-2", "stream": true}]
+  },
+  "infestedpit-aledar-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-2", "stream": true}]
+  },
+  "infestedpit-tasim-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-2", "stream": true}]
+  },
+  "infestedpit-tasim-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-3", "stream": true}]
+  },
+  "infestedpit-aledar-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-3", "stream": true}]
+  },
+  "infestedpit-yayha-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-yayha-1", "stream": true}]
+  },
+  "infestedpit-tasim-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-4", "stream": true}]
+  },
+  "infestedpit-yahya-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-yahya-1", "stream": true}]
+  },
+  "infestedpit-aledar-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-4", "stream": true}]
+  },
+  "infestedpit-tasim-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-5", "stream": true}]
+  },
+  "infestedpit-aledar-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-5", "stream": true}]
+  },
+  "infestedpit-yahya-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-yahya-2", "stream": true}]
+  },
+  "infestedpit-tasim-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-6", "stream": true}]
+  },
+  "infestedpit-yahya-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-yahya-3", "stream": true}]
+  },
+  "infestedpit-aledar-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-6", "stream": true}]
+  },
+  "infestedpit-tasim-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-7", "stream": true}]
+  },
+  "infestedpit-arakadicus-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-arakadicus-3", "stream": true}]
+  },
+  "infestedpit-aledar-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-7", "stream": true}]
+  },
+  "infestedpit-tasim-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-8", "stream": true}]
+  },
+  "infestedpit-tasim-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-9", "stream": true}]
+  },
+  "infestedpit-aledar-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-8", "stream": true}]
+  },
+  "infestedpit-arakadicus-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-arakadicus-4", "stream": true}]
+  },
+  "infestedpit-aledar-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-9", "stream": true}]
+  },
+  "infestedpit-tasim-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-10", "stream": true}]
+  },
+  "infestedpit-aledar-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-10", "stream": true}]
+  },
+  "infestedpit-tasim-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-11", "stream": true}]
+  },
+  "infestedpit-aledar-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-11", "stream": true}]
+  },
+  "infestedpit-tasim-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-12", "stream": true}]
+  },
+  "infestedpit-aledar-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-12", "stream": true}]
+  },
+  "infestedpit-tasim-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-13", "stream": true}]
+  },
+  "infestedpit-aledar-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-aledar-13", "stream": true}]
+  },
+  "infestedpit-tasim-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestedpit-tasim-14", "stream": true}]
+  },
 
 
   "enzansbrother-enzan-1": {
@@ -41102,27 +41242,6 @@
     "sounds": [{ "name": "wynnvp:cls-corruptedgaroth-6", "stream": true}]
   },
 
-
-  "infestidpit-arakadicus-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:infestidpit-arakadicus-1", "stream": true}]
-  },
-  "infestidpit-hangedman-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:infestidpit-hangedman-1", "stream": true}]
-  },
-  "infestidpit-hangedman-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:infestidpit-hangedman-3", "stream": true}]
-  },
-  "infestidpit-arakadicus-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:infestidpit-arakadicus-2", "stream": true}]
-  },
-  "infestidpit-arakadicus-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:infestidpit-arakadicus-3", "stream": true}]
-  },
 
 
   "cip-corruptedarakadicus-1": {

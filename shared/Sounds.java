@@ -246,6 +246,44 @@ public class Sounds {
         s.addSound("[4/4] Mayor Alvin: Ah, but I've tried to live up to his legacy. I like to think I've done well in my time as mayor!", "infestedplants-mayoralvin-13", false);
         s.addSound("[1/1] Mayor Alvin: A fine day for passing through! I hope you enjoy your stay.", "infestedplants-mayoralvin-14", false);
 
+        //Infested Pit
+        s.addSound("[1/1] Tasim: Do you need to prepare? We'll wait here for you until you're ready.", "infestedpit-tasim-1", false);
+        s.addSound("[1/1] Aledar: Well, are you ready? When you are, let's head in and fight those spiders!", "infestedpit-aledar-1", false);
+        s.addSound("[1/2] ???: Oh, it seems I have some guests. You're just in time for dinner... hehe..", "infestedpit-arakadicus-1", false);
+        s.addSound("[2/2] ???: My poor babies are starving. But what shall they feast on? How about... you?", "infestedpit-arakadicus-2", false);
+        s.addSound("[1/2] Aledar: Alright, we're in. Keep your guards up, you two. Don't want to get picked off by the spiders!", "infestedpit-aledar-2", false);
+        s.addSound("[2/2] Tasim: Indeed. We'll proceed with caution.", "infestedpit-tasim-2", false);
+        s.addSound("[1/1] Tasim: There's more spiders here than I expected... Nothing we can't handle, of course, but- still.", "infestedpit-tasim-3", false);
+        s.addSound("[1/1] Aledar: Oh, hey- watch your step! Don't want to fall and get stuck in those webs down there, yeah?", "infestedpit-aledar-3", false);
+        s.addSound("[1/11] ???: ...s-stupid spiders, n-n-no good... I-if I get-... get out of here, I'll- b-burn them all down, all those c-creepy c-crawlies... Then it'll j-just be me a-and my- mushrooms. Mushrooms...", "infestedpit-yayha-1", false);
+        s.addSound("[2/11] Tasim: ..Wait, that voice... Yahya, is that you?", "infestedpit-tasim-4", false);
+        s.addSound("[3/11] Yahya: H-huh?! O-oh! Soldiers, good n-not too strong s-soldiers, here to r-r-rescue good old... Yahya! G-g-get me down f-from here!", "infestedpit-yahya-1", false);
+        s.addSound("[4/11] Aledar: You know this guy?", "infestedpit-aledar-4", false);
+        s.addSound("[5/11] Tasim: Yeah, we do... He's the civilian who was taken by spiders, just before we came to Detlas. I'm surprised he's- well, you know.", "infestedpit-tasim-5", false);
+        s.addSound("[6/11] Aledar: Huh. Well, lucky him, I guess! Alright, let's get him down. soldier, just cast a spell at him to break the webs!", "infestedpit-aledar-5", false);
+        s.addSound("[7/11] Yahya: H-hah! F-freedom! No m-more c-creepy crawlies... Just me a-and my... mushrooms.", "infestedpit-yahya-2", false);
+        s.addSound("[8/11] Tasim: You should probably get out of here, quickly. We've cleared the path from the entrance to some extent, but more spiders could arrive soon.", "infestedpit-tasim-6", false);
+        s.addSound("[9/11] Yahya: ...O-okay!", "infestedpit-yahya-3", false);
+        s.addSound("[10/11] Aledar: ...and there he goes. Huh. Weird guy.", "infestedpit-aledar-6", false);
+        s.addSound("[11/11] Tasim: You don't know the least of it. Alright, let's keep moving.", "infestedpit-tasim-7", false);
+        s.addSound("[1/1] Arakadicus: So you freed the Mushroom Man... no matter. My babies think you three look just as delicious... You will make a fine replacement, hehehe...", "infestedpit-arakadicus-3", false);
+        s.addSound("[1/1] Aledar: These spiders just keep coming! There has to be a limit to their numbers, we just need to keep fighting!", "infestedpit-aledar-7", false);
+        s.addSound("[1/1] Tasim: I can't imagine it's much further from here. Just a few more jumps to make, a few more spiders to fight through, and we'll be there.", "infestedpit-tasim-8", false);
+        s.addSound("[1/2] Tasim: Here we are, then. The spider queen must be through here.", "infestedpit-tasim-9", false);
+        s.addSound("[2/2] Aledar: Alright. Let's rest a moment, then head on in and take her out. If we work together, these spiders won't stand a chance!", "infestedpit-aledar-8", false);
+        s.addSound("[1/2] Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!", "infestedpit-arakadicus-4", false);
+        s.addSound("[2/2] Aledar: Well, we're not going to make it easy for you! We'll take you down!", "infestedpit-aledar-9", false);
+        s.addSound("[2/2] Tasim: The people living in the forest are more than just food for you spiders! We won't let you attack them anymore!", "infestedpit-tasim-10", false);
+        s.addSound("[1/6] Aledar: We did it! We killed the spider queen! Nivla Woods is safe from that threat now!", "infestedpit-aledar-10", false);
+        s.addSound("[2/6] Tasim: We- we did! That was... intense. But we succeeded in the end!", "infestedpit-tasim-11", false);
+        s.addSound("[3/6] Aledar: ...So, what now? We completed the mission, so we should report back to the Admiral, but... what's after that?", "infestedpit-aledar-11", false);
+        s.addSound("[4/6] Tasim: I guess we'll have to figure that out. I know I still want to help defend the province, but beyond that... I don't know.", "infestedpit-tasim-12", false);
+        s.addSound("[5/6] Aledar: ...Yeah, alright. Well, hey, let's all meet back at Detlas and celebrate! We deserve it after that whole ordeal.", "infestedpit-aledar-12", false);
+        s.addSound("[6/6] Tasim: That sounds good, yeah. soldier, we'll rest up here a little, but we'll meet you back at the barracks soon.", "infestedpit-tasim-13", false);
+        s.addSound("[1/1] Aledar: There's a lot I want to do... but where should I start? Maybe I'll talk to the Admiral about it...", "infestedpit-aledar-13", false);
+        s.addSound("[1/1] Tasim: I'm not sure what the future holds, but at least we're doing the best we can. That's what counts.", "infestedpit-tasim-14", false);
+
+
         //The Sewers Of Ragni
         s.addSound("[1/4] Jenprest: Soldier! Good timing. We've been requesting help for ages.", "thesewersofragni-jenprest-1", false);
         s.addSound("[2/4] Jenprest: Looks like we have a blocked pipe in the sewers. No wonder no one wanted the job.", "thesewersofragni-jenprest-2", false);
@@ -10490,12 +10528,6 @@ public class Sounds {
         s.addSound("[1/1] Corrupted Witherhead: You... you've come HERE before. You shouldn't be alive....", "cds-witherehead-3", true);
 
 
-        //infestid pit
-        s.addSound("[1/2] ???: Oh, it seems I have a guest. You're just in time for dinner... hehe..", "infestidpit-arakadicus-1", true);
-        s.addSound("[1/3] Hanged Man: Ah- Adventurer!... I b- beg you.. do not c- continue on your quest...", "infestidpit-hangedman-1", true);
-        s.addSound("[3/3] Hanged Man: Arakadicus is.. is a coward... it traps you and f- feeds you to its... children...", "infestidpit-hangedman-3", true);
-        s.addSound("[1/1] Arakadicus: Don't mind our other guest back there. He had such a bitter taste. However, my babies think you look delicious... hehehe...", "infestidpit-arakadicus-2", true);
-        s.addSound("[1/1] Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!", "infestidpit-arakadicus-3", true);
 
         //Corrupted infestid pit
         s.addSound("[1/2] ???: This is a familiar face... hehe...", "cip-corruptedarakadicus-1", true);
