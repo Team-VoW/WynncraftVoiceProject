@@ -6136,6 +6136,8 @@ public class Sounds {
         s.addSound("[6/6] Cikal: So if they think they can attack us, the mighty Gylia Watch, let them try! And you, human, would do well to stay out of the way!", "hungerofgertspart1-cikal-20", false);
         s.addSound("[1/1] Cikal: Hey it's you!", "hungerofgertspart1-cikal-21", false);
         s.addSound("[1/1] Jitak: Hey! Nice to see you again.", "hungerofgertspart1-jitak-25", false);
+        s.addSound("[1/1] Gert Guard: Hey! This is Gert land! Though... I do want to eat a bit...", "hungerofgertspart1-gertguard1-37", false);
+        s.addSound("[1/1] Gert Guard: Oh man I really want to eat... were you sent here to be my lunch?", "hungerofgertspart1-gertguard1-38", false);
 
 
         //The hunger of Gerts Part 2

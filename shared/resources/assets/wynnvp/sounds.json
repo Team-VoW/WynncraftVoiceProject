@@ -7327,6 +7327,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-36", "stream": true}]
   },
+  "hungerofgertspart1-gertguard1-37": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-37", "stream": true}]
+  },
+  "hungerofgertspart1-gertguard1-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:hungerofgertspart1-gertguard1-38", "stream": true}]
+  },
   "hungerofgertspart1-jitak-21": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:hungerofgertspart1-jitak-21", "stream": true}]
