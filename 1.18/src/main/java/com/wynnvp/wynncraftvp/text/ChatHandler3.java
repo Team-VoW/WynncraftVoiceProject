@@ -185,6 +185,10 @@ public final class ChatHandler3 {
     }
 
     private void processNewLines(LinkedList<Component> newLines) {
+
+        if (newLines == null || newLines.isEmpty())
+            return;
+
         // We have new lines added to the bottom of the chat screen. They are either a dialogue,
         // or new background chat messages. Separate them in two parts
         LinkedList<Component> newChatLines = new LinkedList<>();
