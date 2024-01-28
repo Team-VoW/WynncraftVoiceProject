@@ -2851,7 +2851,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:templeoflegends-jorkin-2", "stream": true}]
   },
-{
   "templeoflegends-kelight-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:templeoflegends-kelight-1", "stream": true}]
