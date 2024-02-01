@@ -44003,6 +44003,63 @@
     "sounds": [{ "name": "wynnvp:cip-corruptedarakadicus-4", "stream": true}]
   },
 
+  "timelostsanctum-garoth-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-1", "stream": true}]
+  },
+  "timelostsanctum-garoth-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-2", "stream": true}]
+  },
+  "timelostsanctum-garoth-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-3", "stream": true}]
+  },
+  "timelostsanctum-garoth-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-4", "stream": true}]
+  },
+  "timelostsanctum-garoth-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-5", "stream": true}]
+  },
+  "timelostsanctum-garoth-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-6", "stream": true}]
+  },
+  "timelostsanctum-garoth-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-7", "stream": true}]
+  },
+  "timelostsanctum-garoth-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-8", "stream": true}]
+  },
+  "timelostsanctum-garoth-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-9", "stream": true}]
+  },
+  "timelostsanctum-garoth-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-10", "stream": true}]
+  },
+  "timelostsanctum-garoth-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-11", "stream": true}]
+  },
+  "timelostsanctum-garoth-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-12", "stream": true}]
+  },
+  "timelostsanctum-garoth-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-13", "stream": true}]
+  },
+  "timelostsanctum-garoth-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-14", "stream": true}]
+  },
+
 
 
 

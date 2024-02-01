@@ -8,6 +8,7 @@ import com.wynnvp.wynncraftvp.sound.at.SoundAtCords;
 import com.wynnvp.wynncraftvp.sound.at.SoundAtPlayer;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.sound.line.LineReporter;
+import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.sounds.SoundManager;
@@ -30,7 +31,7 @@ public class SoundPlayer {
     //Code that is run to play all the sounds
     public void playSound(LineData lineData) {
         if (config.isLogPlayingInformation()){
-            VowLogger.logLine("[Attempting to play] " + lineData.getRealLine(), "Info");
+            VowLogger.logLine("[Attempting to play] " + Utils.HTTPEncode(lineData.getRealLine().trim()), "Info");
         }
 
         String line = lineData.getSoundLine();

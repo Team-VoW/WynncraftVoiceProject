@@ -11172,6 +11172,23 @@ public class Sounds {
         s.addSound("[1/1] Corrupted Arakadicus: Don't mind our other guest back there. He had such a bitter taste. However, my babies think you look delicious... hehehe...", "cip-corruptedarakadicus-3", true);
         s.addSound("[1/1] Corrupted Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!", "cip-corruptedarakadicus-4", true);
 
+        //Timelost Sanctum
+        s.addSound("[1/1] ???: ⒣⒜⒮ ⒮⒪⒨⒠⒪⒩⒠ ⒠⒩⒯⒠⒭⒠⒟ ⒯⒣⒠ ⒮⒜⒩⒞⒯⒰⒨２ ⒤ ⒟⒤⒟ ⒩⒪⒯ ⒯⒣⒤⒩⒦ ⒯⒣⒠ ⒝⒤⒩⒟⒤⒩⒢⒮ ⒲⒪⒰⒧⒟ ⒜⒧⒧⒪⒲ ⒠⒩⒯⒭⒴ ⒯⒪ ⒜⒩⒴⒪⒩⒠ ⒡⒭⒪⒨ ⒯⒣⒠ ⒪⒰⒯⒮⒤⒟⒠０ ⒭⒠⒱⒠⒜⒧ ⒴⒪⒰⒭⒮⒠⒧⒡ ⒤⒩⒯⒭⒰⒟⒠⒭１", "timelostsanctum-garoth-1", true);
+        s.addSound("[1/2] ???:  ⒜⒩ ⒜⒩⒞⒣⒪⒭ ⒣⒜⒮ ⒡⒜⒧⒧⒠⒩０００ ⒲⒣⒜⒯ ⒜⒭⒠ ⒴⒪⒰ ⒟⒪⒤⒩⒢２ ⒯⒣⒠ ⒮⒜⒩⒞⒯⒰⒨ ⒞⒜⒩⒩⒪⒯ ⒲⒤⒯⒣⒮⒯⒜⒩⒟ ⒮⒰⒞⒣ ⒞⒪⒧⒧⒜⒫⒮⒠０ ⒯⒣⒤⒮ ⒞⒜⒩ ⒮⒯⒤⒧⒧ ⒝⒠ ⒭⒠⒫⒜⒤⒭⒠⒟０００", "timelostsanctum-garoth-2", true);
+        s.addSound("[2/2] ???: ⒟⒪ ⒩⒪⒯ ⒲⒜⒩⒟⒠⒭ ⒡⒰⒭⒯⒣⒠⒭ ⒤⒩⒯⒭⒰⒟⒠⒭０ ⒤ ⒲⒤⒧⒧ ⒟⒠⒜⒧ ⒲⒤⒯⒣ ⒴⒪⒰ ⒮⒣⒪⒭⒯⒧⒴１ ⒯⒣⒤⒮ ⒨⒰⒮⒯ ⒯⒜⒦⒠ ⒫⒭⒤⒪⒭⒤⒯⒴０", "timelostsanctum-garoth-3", true);
+        s.addSound("[1/2] ???: ⒪⒣ ⒡⒪⒭ ⒣⒠⒜⒱⒠⒩⒮ ⒮⒜⒦⒠- You haven't understood a word I've said, have you? What an unrefined way of speech. Now, if you have intruded here, surely you must know who you are angering.", "timelostsanctum-garoth-4", true);
+        s.addSound("[2/2] Garoth: I am Garoth, master of the temporal arts, the greatest mage to have ever lived! And, if you do not cease your disruption, you will learn firsthand why I have earned these titles.", "timelostsanctum-garoth-5", true);
+        s.addSound("[1/2] Garoth: You. Do you understand the gravity of what you are doing? What you have done? If the sanctum falls apart, it will pull both of us into the infinite abyss beyond!", "timelostsanctum-garoth-6", true);
+        s.addSound("[2/2] Garoth: I have expended a great deal of my strength to keep this spell from shattering, and yet you continue to work directly against me! Do you have a death wish!?", "timelostsanctum-garoth-7", true);
+        s.addSound("[1/2] Garoth: ...So, this is your decision, then? Very well. Bring the sanctum down, destroy thousands of years of knowledge... there is no stopping it now.", "timelostsanctum-garoth-8", true);
+        s.addSound("[2/2] Garoth: Should you survive the oncoming collapse, I will be waiting. There will be no escape for either of us, not now. You have certainly seen to that.", "timelostsanctum-garoth-9", true);
+        s.addSound("[1/1] Garoth: Here we are, then! Perhaps I'll find one final bit of comfort in your demise before it all comes to an end.", "timelostsanctum-garoth-10", false, 500);
+        s.addSound("[1/2] Garoth: You- I will not stand for this. To think, someone like you could ever stand a chance against someone like me?!", "timelostsanctum-garoth-11", false, 500);
+        s.addSound("[2/2] Garoth: You haven't seen anything yet. ⒤ ⒞⒜⒧⒧ ⒰⒫⒪⒩ ⒯⒣⒠ ⒫⒪⒲⒠⒭ ⒪⒡ ⒯⒣⒠ ⒣⒠⒜⒱⒠⒩⒮ ⒜⒩⒟ ⒯⒣⒠ ⒜⒝⒴⒮⒮０００ ⒞⒜⒮⒯ ⒯⒣⒤⒮ ⒮⒫⒠⒞⒦ ⒪⒰⒯ ⒪⒡ ⒨⒴ ⒮⒤⒢⒣⒯１", "timelostsanctum-garoth-12", false, 500);
+        s.addSound("[1/1] Garoth: ...How are you still standing? Nothing could have possibly withstood that attack... No matter. You will fall before my wrath!", "timelostsanctum-garoth-13", false, 500);
+        s.addSound("[1/1] Garoth: Why... won't... you... die!?", "timelostsanctum-garoth-14", false, 500);
+
+
         //Lost Sanctuary
         s.addSound("[1/1] ???: Ahhh.. Good timing. I needed someone to test my defenses.", "lostsanctuary-garoth-1", true);
         s.addSound("[1/1] Garoth: I think you know who I am. The second human ever to be liberated by the portal. I now seek to purify this world.", "lostsanctuary-garoth-2", true);
