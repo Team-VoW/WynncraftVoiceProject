@@ -2,7 +2,7 @@ package com.wynnvp.wynncraftvp.utils;
 
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 
-import java.util.regex.Pattern;
+import static com.wynnvp.wynncraftvp.utils.Utils.HTTPEncode;
 
 public class LineFormatter {
 
@@ -13,6 +13,9 @@ public class LineFormatter {
         message = ChatHandler.extractMessage(message);
         message = message.trim();
         lineData.setRealLine(message);
+
+        message = HTTPEncode(message);
+
         message = message.toLowerCase();
         message = message.replaceAll("[^abcdefghijklmnopqrstuvwxyz?.!0123456789/]", "");
 
