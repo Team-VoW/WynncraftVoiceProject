@@ -2,6 +2,7 @@ package com.wynnvp.wynncraftvp.sound.at;
 
 import com.wynnvp.wynncraftvp.npc.CachedEntity;
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
+import com.wynnvp.wynncraftvp.sound.SoundInstance;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import net.minecraft.client.resources.sounds.AbstractTickableSoundInstance;
 import net.minecraft.sounds.SoundEvent;
@@ -13,7 +14,7 @@ import java.util.Random;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
 
-public class SoundAtArmorStand extends AbstractTickableSoundInstance {
+public class SoundAtArmorStand extends SoundInstance {
 
     private final String rawName;
     private CachedEntity cachedEntity = null;

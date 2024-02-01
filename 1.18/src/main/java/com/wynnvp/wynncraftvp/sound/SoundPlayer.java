@@ -20,13 +20,14 @@ import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class SoundPlayer {
 
-    private final Thread musicThread = null;
     private final LineReporter lineReporter;
     //public static boolean SPEAKING = false;
 
     public SoundPlayer() {
         lineReporter = new LineReporter();
     }
+
+    private SoundInstance lastPlayedSound = null;
 
     //Code that is run to play all the sounds
     public void playSound(LineData lineData) {
@@ -80,8 +81,13 @@ public class SoundPlayer {
         assert player != null;
         SoundManager manager = Minecraft.getInstance().getSoundManager();
 
+
         //Stops all sounds so that not multiple voice lines are played over each other
-        manager.stop();
+        //manager.stop();
+        if (lastPlayedSound != null){
+            lastPlayedSound.StopSound();
+            lastPlayedSound = null;
+        }
 
         final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
         final SoundEvent soundEvent = customSoundClass.soundEvent();
@@ -90,14 +96,16 @@ public class SoundPlayer {
         if (sound.getPosition() != null) {
             Vector3 posAsVector3 = sound.getPosition();
             Vec3 soundPos = new Vec3(posAsVector3.x, posAsVector3.y, posAsVector3.z);
-            playSoundAtCords(soundPos, sound, manager);
+            lastPlayedSound = playSoundAtCords(soundPos, sound, manager);
             return;
         }
 
         //If this sound was set to play at the player pos or the setting to play all sounds on player is turned on
         if (customSoundClass.movingSound() || config.isPlayAllSoundsOnPlayer()) {
             //Play the sound at the player
-            manager.play(new SoundAtPlayer(soundEvent));
+            var soundAtPlayer = new SoundAtPlayer(soundEvent);
+            manager.play(soundAtPlayer);
+            lastPlayedSound = soundAtPlayer;
             return;
         }
 
@@ -105,18 +113,24 @@ public class SoundPlayer {
         Vec3 npcPosition = NPCHandler.findPosition(rawName);
 
         if (npcPosition == null || isOutsideReach(sound, player, npcPosition)) {
-            playSoundAtCords(player.position(), sound, manager);
+            lastPlayedSound = playSoundAtCords(player.position(), sound, manager);
             return;
         }
 
-        manager.play(new SoundAtArmorStand(soundEvent, rawName, sound));
-
+        var soundAtArmorStand = new SoundAtArmorStand(soundEvent, rawName, sound);
+        manager.play(soundAtArmorStand);
+        lastPlayedSound = soundAtArmorStand;
     }
 
-    private void playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {
+    private SoundInstance playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {
 
         SoundEvent soundEvent = soundObject.getCustomSoundClass().soundEvent();
-        manager.play(new SoundAtCords(soundEvent, soundObject, position));
+
+        var soundAtCords = new SoundAtCords(soundEvent, soundObject, position);
+
+
+        manager.play(soundAtCords);
+        return soundAtCords;
     }
 
     private boolean isOutsideReach(SoundObject soundObject, Player player, Vec3 npcPosition) {

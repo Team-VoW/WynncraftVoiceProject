@@ -1,5 +1,6 @@
 package com.wynnvp.wynncraftvp.sound.at;
 
+import com.wynnvp.wynncraftvp.sound.SoundInstance;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import net.minecraft.client.resources.sounds.AbstractTickableSoundInstance;
 import net.minecraft.sounds.SoundEvent;
@@ -9,7 +10,7 @@ import net.minecraft.world.phys.Vec3;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
 
-public class SoundAtCords extends AbstractTickableSoundInstance {
+public class SoundAtCords extends SoundInstance {
 
     public SoundAtCords(SoundEvent soundEvent, SoundObject soundObject, Vec3 position) {
         super(soundEvent, SoundSource.VOICE, RandomSource.create());
@@ -18,7 +19,6 @@ public class SoundAtCords extends AbstractTickableSoundInstance {
         this.z = (float) position.z;
         this.y = (float) position.y;
     }
-
 
     @Override
     public void tick() {
