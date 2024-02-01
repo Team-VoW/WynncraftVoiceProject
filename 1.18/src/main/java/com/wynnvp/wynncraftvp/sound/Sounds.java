@@ -11229,6 +11229,24 @@ public class Sounds {
         s.addSound("[1/1] Charon: I have an entire undead army at my service. Do you really think you stand a chance?", "darkdescentdungeon-charon-2", true);
         s.addSound("[1/1] Charon: I see you've brought some help with you, you aren't as foolish as I thought. However, how do you plan to defeat an army that cannot die?", "darkdescentdungeon-charon-3", true);
 
+        //Underworld Crypt
+        s.addSound("[1/6] General Graken: Aha, chap! Wonderful, the Ragni regiment's gotten its representative down 'ere. All rested up, I suppose, so let me give you an earful.", "underworldcrypt-generalgraken-1", false);
+        s.addSound("[2/6] General Graken: Those blighting zombies are all over the place. I tell ya, this skull's been giving the folk in Nemract the collywobbles. Just as I thought, they're all coming from here.", "underworldcrypt-generalgraken-2", false);
+        s.addSound("[3/6] General Graken: Now, I don't wish to alarm you old bean, but I believe we are in front of the literal gates to hell.", "underworldcrypt-generalgraken-3", false);
+        s.addSound("[4/6] General Graken: Not to worry chuck! Don t look so glum, I've called for aid from the nearby towns. Once they get here we'll give them a good kicking, and you've already gotten out of there before, ain't ya?", "underworldcrypt-generalgraken-4", false);
+        s.addSound("[5/6] General Graken: Now is finally our chance to take down his army... It will be a jolly difficult battle, knowing our opponent and what he's managed, even away from his lair.", "underworldcrypt-generalgraken-5", false);
+        s.addSound("[6/6] General Graken: Still, early days to say what he could be like in person! I'll take another route, but we'll meet in front of his door, right after crossing the river. Good luck, old bean!", "underworldcrypt-generalgraken-6", false);
+        s.addSound("[1/4] General Graken: Simply marvellous work, chap! You've made it this far, so no time to fill your boots. Be prepared, we are about to fight Charon's undead army.", "underworldcrypt-generalgraken-7", false);
+        s.addSound("[2/4] General Graken: We've lost a lot of good men on the way here, but I believe we can still throw a heavy punch.", "underworldcrypt-generalgraken-8", false);
+        s.addSound("[3/4] General Graken: You've earned a lot of respect from the boys this fight, better than all of us I'd say. For this fight, I'll let you direct the army.", "underworldcrypt-generalgraken-9", false);
+        s.addSound("[4/4] General Graken: Don't take it as a promotion though, old bean. It's only for this fight, although you'll be getting a medal of valor if I can wangle it! Charon's army is remarkably strong, we need as much help as we can get.", "underworldcrypt-generalgraken-10", false);
+        s.addSound("[1/3] General Graken: Aey- soldier careful now, the cretin must be lurking around here somewhere.", "underworldcrypt-generalgraken-11", false);
+        s.addSound("[2/3] Charon: I see you've brought aid, you aren't as foolish as I thought.", "underworldcrypt-charon-1", false);
+        s.addSound("[3/3] Charon: Tell me, how do you plan to defeat an army that cannot die!?", "underworldcrypt-charon-2", false);
+        s.addSound("[1/1] Charon: Rise my minions! An undead army at my service, do you really think you stand a chance?", "underworldcrypt-charon-3", false);
+        s.addSound("[1/1] Charon: You will suffer the same fate as those before you, summon thee souls from beneath!", "underworldcrypt-charon-4", false);
+
+
         //Corrupted Underworld Crypt
         s.addSound("[1/1] ???: How foolish. Just because you have overcome something once does not mean it will happen again.", "darkdescentdungeon-charon-4", true);
         s.addSound("[1/2] ???: BLARGH! My minions shall not let you pass!", "darkdescentdungeon-charon-5", true);

@@ -24677,6 +24677,66 @@
     "sounds": [{ "name": "wynnvp:darkdescentdungeon-charon-7", "stream": true}]
   },
 
+  "underworldcrypt-generalgraken-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-1", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-2", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-3", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-4", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-5", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-6", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-7", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-8", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-9", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-10", "stream": true}]
+  },
+  "underworldcrypt-generalgraken-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-generalgraken-11", "stream": true}]
+  },
+  "underworldcrypt-charon-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-charon-1", "stream": true}]
+  },
+  "underworldcrypt-charon-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-charon-2", "stream": true}]
+  },
+  "underworldcrypt-charon-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-charon-3", "stream": true}]
+  },
+  "underworldcrypt-charon-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:underworldcrypt-charon-4", "stream": true}]
+  },
 
 
 
