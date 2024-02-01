@@ -16,16 +16,8 @@ public class JoinServerEvent {
 
     public static void run(String ip) {
 
-        String serverIP = ip.toLowerCase();
-        if (serverIP.startsWith("play.wynncraft")
-                || serverIP.startsWith("media.wynncraft")
-                || serverIP.startsWith("beta.wynncraft")
-                || serverIP.startsWith("lobby.wynncraft")) {
-            System.out.println("Joined Live Wynncraft server");
-            ModCore.inLiveWynnServer = true;
-        } else {
-            ModCore.inLiveWynnServer = false;
-        }
+        ModCore.inLiveWynnServer = true;
+
 
         Timer timer = new Timer();
         //In 8 seconds

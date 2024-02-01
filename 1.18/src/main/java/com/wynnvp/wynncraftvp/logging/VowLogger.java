@@ -4,6 +4,7 @@ package com.wynnvp.wynncraftvp.logging;
 import com.wynnvp.wynncraftvp.ModCore;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.util.HashSet;
 
 
@@ -84,13 +85,14 @@ public class VowLogger {
 
     private static void write(String text) {
         try {
+            // Use FileOutputStream with OutputStreamWriter specifying UTF-8 encoding
+            Writer out = new OutputStreamWriter(new FileOutputStream(fileName, true), StandardCharsets.UTF_8);
 
-            FileWriter fw = new FileWriter(fileName, true); //the true will append the new data
-            fw.write(text); //appends the string to the file
-            fw.close();
+            out.write(text); // Appends the string to the file
+            out.close(); // Always close the stream
 
         } catch (IOException e) {
-            System.out.println("En error happened while writing " + text + " to the file.");
+            System.out.println("An error happened while writing " + text + " to the file.");
             e.printStackTrace();
         }
     }

@@ -1,7 +1,6 @@
 package com.wynnvp.wynncraftvp.sound.line;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.entity.player.Player;
@@ -10,13 +9,12 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.CompletableFuture;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
+import static com.wynnvp.wynncraftvp.utils.Utils.HTTPEncode;
 
 public class LineReporter {
 
@@ -79,8 +77,5 @@ public class LineReporter {
         System.out.println("HTTP response Code : " + responseCode);
     }
 
-    private String HTTPEncode(String input){
-        return URLEncoder.encode(input, StandardCharsets.UTF_8);
-    }
 
 }

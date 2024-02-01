@@ -5,6 +5,7 @@ import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 
+import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 
@@ -25,6 +26,11 @@ public class Utils {
             Minecraft.getInstance().gui.getChat().addMessage(mutableText);
 
         }
+    }
+
+
+    public static String HTTPEncode(String input){
+        return URLEncoder.encode(input, StandardCharsets.UTF_8);
     }
 
     public static String sha256(final String base) {
