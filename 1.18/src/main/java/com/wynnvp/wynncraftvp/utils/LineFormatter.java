@@ -14,6 +14,8 @@ public class LineFormatter {
         message = message.trim();
         lineData.setRealLine(message);
 
+        message = message.replace("’", "'");
+
         message = HTTPEncode(message);
 
         message = message.toLowerCase();
