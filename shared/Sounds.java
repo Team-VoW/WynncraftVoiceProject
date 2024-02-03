@@ -3221,7 +3221,7 @@ public class Sounds {
         s.addSound("[6/24] Dullahan: ...wait, where did it...did we lose it already?!", "rol3aheadlesshistory-dullahan-43", false);
         s.addSound("[7/24] Lari: It's under you! MOVE!!", "rol3aheadlesshistory-lari-19", false);
         s.addSound("[8/24] Dullahan: It's shrugging my attacks off, Lari! Come on, do SOMETHING! ", "rol3aheadlesshistory-dullahan-44", false);
-        s.addSound("9/24lari!!", "rol3aheadlesshistory-lari-20", true);
+        s.addSound("[9/24] Lari: ⓒⓞⓢⓐⓘⓝ!!", "rol3aheadlesshistory-lari-20", true);
         s.addSound("[10/24] Dullahan: I...No! It's happening just like I saw! She's... ", "rol3aheadlesshistory-dullahan-45", true);
         s.addSound("[11/24] Dullahan: I need to get to her, push her to the killing blow...", "rol3aheadlesshistory-dullahan-46", true);
         s.addSound("[12/24] Lari: Be still, creature! I compel you with Orphion's light!", "rol3aheadlesshistory-lari-21", true);
@@ -3273,7 +3273,7 @@ public class Sounds {
         s.addSound("[4/9] Lari: P-Please...w-whatever gods are out there, whoever is listening, hear me...bring Dullahan back to me, I'm begging you... ", "rol3aheadlesshistory-lari-39", true);
         s.addSound("[5/9] Lari: It's... I-Is it reacting? It... It looks like it is, but...h-he's not mending... ", "rol3aheadlesshistory-lari-40", true);
         s.addSound("[6/9] Lari: N-No, this...i-it isn't...NO! It... It HAS to work! I...I can m-make this work! ", "rol3aheadlesshistory-lari-41", true);
-        s.addSound("7/9lari!!", "rol3aheadlesshistory-lari-42", true);
+        s.addSound("[7/9] Lari: ⓛⓘⓞⓝ ⓐⓝ ⓒⓞⓡⓟ ⓢⓔⓞ ⓛⓔⓘⓢ ⓐⓝ ⓢⓐⓞⓛ ⓐⓡⓘⓢ!!", "rol3aheadlesshistory-lari-42", true);
         s.addSound("[8/9] Lari: D-Dullahan! It...it worked! You're back! ", "rol3aheadlesshistory-lari-43", true);
         s.addSound("[9/9] Lari: I...I t-told you... I knew I could change fate... I'm so glad you're here... ", "rol3aheadlesshistory-lari-44", true);
         s.addSound("[1/1] Dullahan: It's odd. If it were not for her, I would not be here. I would not have my power. Yet even thinking her name enrages me.", "rol3aheadlesshistory-dullahan-59", true);
@@ -3762,7 +3762,7 @@ public class Sounds {
         s.addSound("[8/10] Teacher: Electromagic makes handles crank, gears spin, metal move, gives sheer stones the power to THINK, and to PLAN! A Corkian original, and a splendid, splendid development reintroduced!", "orderofthegrook-thunderteacher-8", false);
         s.addSound("[9/10] Teacher: And so, you shall see for yourselves! Electromagic at work! You will control thunder and electricity, and make the machines bend to your will today, today, this shocking day!", "orderofthegrook-thunderteacher-9", false);
         s.addSound("[10/10] Teacher: The mechanism is behind me now! Come up, come up! See the power of thunder, shackled by our whims, won't you, soldier?!", "orderofthegrook-thunderteacher-10", false);
-        s.addSound("[1/2] Teacher: Whee hee hee! Thunder tamed, thunder shackled and your magical wings unbound by such petty concepts, soldier! What a show!", "orderofthegrook-thunderteacher-11", false);
+        s.addSound("[1/2] Teacher: Whee hee hee! Thunder tamed, thunder shackled, and your magical wings unbound by such petty concepts, soldier! What a show!", "orderofthegrook-thunderteacher-11", false);
         s.addSound("[2/2] Teacher: Expand your knowledge ever further, further! Your task is complete, complete, and your next awaits!", "orderofthegrook-thunderteacher-12", false);
         s.addSound("[1/10] Teacher: Good to see a decent turnout this year for my class. Too dangerous, pah! You can take this just fine.", "orderofthegrook-fireteacher-1", false);
         s.addSound("[2/10] Teacher: Anyways. The Fire element class. Many misunderstand just what fire stands for...but after today, you will leave with courage in your hearts.", "orderofthegrook-fireteacher-2", false);
