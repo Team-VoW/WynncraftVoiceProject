@@ -371,7 +371,7 @@ public class Sounds {
         s.addSound("[1/3] Jenprest: Do you feel like there's something lurking that doesn't want us here?", "thesewersofragni-jenprest-8", false);
         s.addSound("[2/3] Jenprest: Anyway, I've found the blockage. It's right up ahead.", "thesewersofragni-jenprest-9", false);
         s.addSound("[3/3] Jenprest: Here's a small explosive. I placed one at the blockage already, if that alone doesn't work, use this.", "thesewersofragni-jenprest-10", false);
-        s.addSound("[1/3] Jenprest: Ah, you're alive! Looks like we underestimated the amount of sewage.", "thesewersofragni-jenprest-11", false);
+        s.addSound("[1/3] Jenprest: Ah, you’re alive! Looks like we underestimated the amount of sewage.", "thesewersofragni-jenprest-11", false);
         s.addSound("[2/3] Jenprest: Let's get out of here. Do you still have the explosive I gave you?", "thesewersofragni-jenprest-12", false);
         s.addSound("[3/3] Jenprest: Good, let's use it on this wall, it looks like we can break right through...", "thesewersofragni-jenprest-13", false);
         s.addSound("[1/1] Jenprest: Oh no, oh no no no! Did you just open that? Come here immediately.", "thesewersofragni-jenprest-14", false);
@@ -1743,7 +1743,7 @@ public class Sounds {
         s.addSound("[2/4] Bandit Leader: Ahah. I had a feeling we had a guard on our tail.", "asandyscandal-banditleader-2", false);
         s.addSound("[3/4] Bandit Leader: I wouldn't want to wear out my new-stolen weapons killing you... I'll just trap you in here with all of this TNT!", "asandyscandal-banditleader-3", false);
         s.addSound("[4/4] Bandit Leader: This'll blow up in a few seconds. Good luck getting out of here!", "asandyscandal-banditleader-4", false);
-        s.addSound("[1/1] Bandit Leader: It's too late to stop us now! We're already about to bust out of here with a grand prize sure to gain us province-wide respect!", "asandyscandal-banditleader-5", false);
+        s.addSound("[1/1] Bandit Leader: It's too late to stop us now! We’re already about to bust out of here with a grand prize sure to gain us province-wide respect!", "asandyscandal-banditleader-5", false);
         s.addSound("[1/3] Bandit Leader: Look here, the soldier decided they wanted to follow us. Dumb move.", "asandyscandal-banditleader-6", false);
         s.addSound("[2/3] Bandit Leader: I guess we can kill two birds with one stone: escaping the bank, and killing this pest.", "asandyscandal-banditleader-7", false);
         s.addSound("[3/3] Bandit Leader: Block the entrance, bandits!", "asandyscandal-banditleader-8", false);
@@ -2863,13 +2863,13 @@ public class Sounds {
         //Corrupted Betrayal
         s.addSound("[1/1] Troms Mage: Stay back! I'm casting a fireball at this barrier!", "corruptedbetrayal-tromsmage-1", false);
         s.addSound("[1/8] Troms Mage: Gah, no use. Again.", "corruptedbetrayal-tromsmage-2", false);
-        s.addSound("[2/8] Troms Mage: Ah, I didn't expect to see a Ragni soldier out here. Perhaps you can assist me?", "corruptedbetrayal-tromsmage-3", false);
+        s.addSound("[2/8] Troms Mage: Ah, I didn’t expect to see a Ragni soldier out here. Perhaps you can assist me?", "corruptedbetrayal-tromsmage-3", false);
         s.addSound("[3/8] Troms Mage: This is the second cave in the jungle to start spewing out aggressive slimes.", "corruptedbetrayal-tromsmage-4", false);
-        s.addSound("[4/8] Troms Mage: Being so close to Troms, it's become a major problem.", "corruptedbetrayal-tromsmage-5", false);
+        s.addSound("[4/8] Troms Mage: Being so close to Troms, it’s become a major problem.", "corruptedbetrayal-tromsmage-5", false);
         s.addSound("[5/8] Troms Mage: We tried to attack it, but this barrier is shaman magic, horrendously powerful too. The only way it could be this strong is if many lives were taken to make it...", "corruptedbetrayal-tromsmage-6", false);
         s.addSound("[6/8] Troms Mage: So, we're stuck. The only clue we found is this riddle...", "corruptedbetrayal-tromsmage-7", false);
         s.addSound("[7/8] Troms Mage: Near a corrupted bridge, a ruin past its prime...lives a cursed sheep, with the color of lime...lead it down the trail, heading to the slime...sacrifice its soul, in the blood and grime.", "corruptedbetrayal-tromsmage-8", false);
-        s.addSound("[8/8] Troms Mage: We haven't been able to work it out. Head out to the Great Bridge entrance and see if you can find anything.", "corruptedbetrayal-tromsmage-9", false);
+        s.addSound("[8/8] Troms Mage: We haven’t been able to work it out. Head out to the Great Bridge entrance and see if you can find anything.", "corruptedbetrayal-tromsmage-9", false);
         s.addSound("[1/3] Troms Guard: By order of the city of Troms, I am here to keep other citizens from entering this house.", "corruptedbetrayal-tromsguard-1", false);
         s.addSound("[2/3] Troms Guard: From past experiences, everyone who has entered this house has vanished from existence...", "corruptedbetrayal-tromsguard-2", false);
         s.addSound("[3/3] Troms Guard: I would advise not going inside unless you know what you are doing.", "corruptedbetrayal-tromsguard-3", false);
@@ -2880,7 +2880,7 @@ public class Sounds {
         s.addSound("[1/4] Slykaar: Looks like we have a Bob aspirer. Pale imitation. ", "corruptedbetrayal-slykaar-5", true);
         s.addSound("[2/4] Slykaar: Take the scroll. Break the barrier and let your little army men walk into my lair.", "corruptedbetrayal-slykaar-6", true);
         s.addSound("[3/4] Slykaar: I am ready; it makes little difference. Soon, Troms will be in ruins. And I shall have my revenge.", "corruptedbetrayal-slykaar-7", true);
-        s.addSound("[4/4] Slykaar: So, go have fun in Troms while you can. It's not like you have much of a life to live, anyways. ", "corruptedbetrayal-slykaar-8", true);
+        s.addSound("[4/4] Slykaar: So, go have fun in Troms while you can. It’s not like you have much of a life to live, anyways.", "corruptedbetrayal-slykaar-8", true);
         s.addSound("[1/9] Troms Mage: Any luck with the riddle?", "corruptedbetrayal-tromsmage-10", false);
         s.addSound("[2/9] Troms Mage: You found something?", "corruptedbetrayal-tromsmage-11", false);
         s.addSound("[3/9] Troms Mage: Hmm...oh my. This is dark stuff. Very dark.", "corruptedbetrayal-tromsmage-12", false);
@@ -3043,7 +3043,7 @@ public class Sounds {
         s.addSound("[3/10] Lari: This concoction of mine should...do the trick!", "realmoflight2-lari-8", false);
         s.addSound("[4/10] Lari: It...it's working!! I can feel it, the land is reacting positively!", "realmoflight2-lari-9", false);
         s.addSound("[5/10] Lari: I...I... It was...it was working, a-and... Agh, why can't I get this RIGHT?!", "realmoflight2-lari-10", false);
-        s.addSound("[6/10] Lari: How many decades have I been doing this? How much time have I wasted, just...failing like this?!", "realmoflight2-lari-11", false);
+        s.addSound("[6/10] Lari: How many decades have I been doing this? How much time have I wasted, just...flailing like this?!", "realmoflight2-lari-11", false);
         s.addSound("[7/10] Lari: Look, Soldier, I...I don't know what you expect to do against this. The Wyrm was one thing, but...this is beyond your comprehension.", "realmoflight2-lari-12", false);
         s.addSound("[8/10] Lari: I think you sh... Should...w-what is... Now, of all times? As I fail?!", "realmoflight2-lari-13", false);
         s.addSound("[9/10] Lari: The road, look! He's contacting me! A-are you finally giving me the answers I've asked for?", "realmoflight2-lari-14", false);
@@ -3085,7 +3085,7 @@ public class Sounds {
         s.addSound("[1/8] Lari: ...I didn't think you would be able to help, but I had to ask. So...was this for nothing?", "realmoflight2-lari-28", false);
         s.addSound("[2/8] Lari: Wait...y-you...had a choice? He gave you the choice too?! A-Already?!", "realmoflight2-lari-29", false);
         s.addSound("[3/8] Lari: Wh- I don't understand! You...you just arrived to Gavel! You haven't seen its decline! Felt its pain!", "realmoflight2-lari-30", false);
-        s.addSound("[4/8] Lari: What did you do?! The gate is opening? YOU did this?! I know your heart is in the right place, but you're a stranger to this land!", "realmoflight2-lari-31", false);
+        s.addSound("[4/8] Lari: What did you do?! The gate is opening? YOU did this?! I know your heart is in the right place, but you’re a stranger to this land!", "realmoflight2-lari-31", false);
         s.addSound("[5/8] Lari: I...I...rrrgh... AAAAGH!! This isn't fair!! I've worked for decades and the light just...throws me to the wayside?!", "realmoflight2-lari-32", false);
         s.addSound("[6/8] Lari: PLEASE! Just let me in!", "realmoflight2-lari-33", false);
         s.addSound("[7/9] ???: My pulse, you must leave her be. Her heart's emotions have overpowered her mind's judgement. She must learn to separate them as you have.", "realmoflight2-orphion-15", false);
@@ -3094,9 +3094,9 @@ public class Sounds {
         s.addSound("[8/8] Lari: Why do you want this human to enter the Taproot?! What's special about them, what's their connection? What have they done that I haven't?! Tell me, please! Let me be useful!!", "realmoflight2-lari-35", false);
         s.addSound("[1/6] ???: Your heartbeat beats in time with mine. Your mind is unclouded, despite the fury you have been steeped in. My pulse, you are needed.", "realmoflight2-orphion-17", false);
         s.addSound("[2/6] ???: Your eyes cannot see the scope of the realms. You must allow me to shed light upon them- You must see the connections.", "realmoflight2-orphion-18", false);
-        s.addSound("[3/6] ???: Light... Dark... We oppose. I am light. It is dark. Our places reflect this land...and it is plain- The sun is setting. Light is fading", "realmoflight2-orphion-19", false);
+        s.addSound("[3/6] ???: Light... Dark... We oppose. I am light. It is dark. Our places reflect this land...and it is plain- The sun is setting. Light is fading.", "realmoflight2-orphion-19", false);
         s.addSound("[4/6] ???: The land you visit warps with the slow siphoning of my light, my blood. It becomes outlandish and strange-Oppressive and alien.", "realmoflight2-orphion-20", false);
-        s.addSound("[5/6] ???: As dusk approaches- As darkness spreads- My heart slows and stops. My pulse, you are needed. You shall be as one with me, and you shall see", "realmoflight2-orphion-21", false);
+        s.addSound("[5/6] ???: As dusk approaches- As darkness spreads- My heart slows and stops. My pulse, you are needed. You shall be as one with me, and you shall see.", "realmoflight2-orphion-21", false);
         s.addSound("[6/6] ???: The Realm of Light needs life anew- A new p ulse. It needs you.", "realmoflight2-orphion-22", false);
         s.addSound("[1/3] ???: Our light is synchronous! You may see what I must have you see...", "realmoflight2-orphion-23", false);
         s.addSound("[2/3] ???: Follow the road. You must witness the reason behind my trial.", "realmoflight2-orphion-24", false);
@@ -3851,7 +3851,7 @@ public class Sounds {
         s.addSound("[14/14] Teacher: Now, we see if you were paying attention. You will come here and order the societies I have referred to in this class from least magical, to most.", "orderofthegrook-speciesteacher-14", false);
         s.addSound("[1/1] Teacher: Correct. soldier, thank you for paying attention. No one ever seems to in this class. You may go.", "orderofthegrook-speciesteacher-15", false);
         s.addSound("[1/14] Teacher: Alright, fledgeling grooks. Time to hit you all with the info you're really here for!", "orderofthegrook-wybelteacher-1", false);
-        s.addSound("[2/14] Teacher: Wybels! Pronounced like \"nibble,\" they're a rather popular pet nowadays. But you all knew that, you want to know where they came from.", "orderofthegrook-wybelteacher-2", false);
+        s.addSound("[2/14] Teacher: Wybels! Pronounced like ''nibble,'' they're a rather popular pet nowadays. But you all knew that, you want to know where they came from.", "orderofthegrook-wybelteacher-2", false);
         s.addSound("[3/14] Teacher: The explanation that we got was that they lived in the Ahms region, and when it split open, they eventually burrowed onto the surface of the Sky Islands.", "orderofthegrook-wybelteacher-3", false);
         s.addSound("[4/14] Teacher: But no one actually KNOWS for sure. That means they. Could. Be. ANYTHING! What could lie beneath that veneer of fluff and playful demeanor?!", "orderofthegrook-wybelteacher-4", false);
         s.addSound("[5/14] Teacher: Oh, speaking of fluff. They wooly fur never actually stops growing, ever, and neither do their hooves, their horns, or their teeth. They shed often.", "orderofthegrook-wybelteacher-5", false);
@@ -4996,7 +4996,7 @@ public class Sounds {
         s.addSound("[5/5] Professor Eih: I'm all out of airplane food, but the goal is more than peanuts- it's progress, just opposite our position. Fly well!", "shatteredminds-professoreih-13", false);
         s.addSound("[1/1] ???: Hey, look to your left for a moment.", "shatteredminds-questionmark-1", false);
         s.addSound("[1/4] Professor Eih: Familiar to the nursing home, with no IV in sight! Phenomenal, and now my gambling metaphors will be apropos!", "shatteredminds-professoreih-14", false);
-        s.addSound("[2/4] Professor Eih: A solid, 100% pure, statue-made-out-of-tons-of-things what looks like me! I call it, \"Ill Of The Ooze, Young!\" And it begets your path amongst the lilypads.", "shatteredminds-professoreih-15", false);
+        s.addSound("[2/4] Professor Eih: A solid, 100% pure, statue-made-out-of-tons-of-things what looks like me! I call it, “Ill Of The Ooze, Young!” And it begets your path amongst the lilypads.", "shatteredminds-professoreih-15", false);
         s.addSound("[3/4] Professor Eih: Likeru? No, no, she can’t find you here- her eyes deceive her. But I won't! Not any more than the film reel degrades, and the theater is ahead!", "shatteredminds-professoreih-16", false);
         s.addSound("[4/4] Professor Eih: Now, don't tell the kids about this one either! The way forward is through my masterpiece- but I can't imagine a gullet glorious!", "shatteredminds-professoreih-17", false);
         s.addSound("[1/3] ???: Don't come any closer... I don't want to have to fight...", "shatteredminds-yahya-1", false);
@@ -10792,7 +10792,7 @@ public class Sounds {
         s.addSound("[4/12] Aledar: Urgh, pfft! My vomit tasted better than that coming up...", "ajourneyfurther-aledar-25", false);
         s.addSound("[5/12] Aledar: Hah...that's the ticket. Which potion was this anyways... ...hair loss treatment? Why did THAT work?", "ajourneyfurther-aledar-26", false);
         s.addSound("[6/12] Aledar: Though, you saw what happened to that beast I attacked? Follow me.", "ajourneyfurther-aledar-27", false);
-        s.addSound("[7/12] Aledar: This, from what I recall of the mission statements, is referred to as a \"Void Hole. It's a sort of portal.", "ajourneyfurther-aledar-28", false);
+        s.addSound("[7/12] Aledar: This, from what I recall of the mission statements, is referred to as a “Void Hole.” It's a sort of portal.", "ajourneyfurther-aledar-28", false);
         s.addSound("[8/12] Aledar: They connect to each other in odd ways, but we saw the beast come out of that one when I knocked it in, so...", "ajourneyfurther-aledar-29", false);
         s.addSound("[9/12] Aledar: Watch. I'll come out the other side.", "ajourneyfurther-aledar-30", false);
         s.addSound("[10/12] Aledar: Alright, good! It does connect up consistently, at least. You try now.", "ajourneyfurther-aledar-31", false);
@@ -10838,7 +10838,7 @@ public class Sounds {
         s.addSound("[19/20] Aledar: AAAAGH!!", "ajourneyfurther-aledar-71", false);
 
         s.addSound("[1/1] ???: ⒝⒠⒤⒟⒣ ⒨⒠ ⒜⒢ ⒮⒰⒤⒧ ⒧⒠⒜⒯.", "ajourneyfurther-eye-1", true);
-        s.addSound("[20/20] ???:", "ajourneyfurther-eye-2", true);
+        s.addSound("[20/20] ???: ⒜⒩⒟ ⒯⒣⒠ ⒣⒠⒭⒪ ⒮⒣⒜⒧⒧ ⒝⒧⒤⒩⒟ ⒯⒣⒠ ⒜⒩⒞⒤⒠⒩⒯ ⒮⒠⒠⒭０ ⒢⒪⒪⒟ ⒧⒰⒞⒦０", "ajourneyfurther-eye-2", true);
         s.addSound("1/1theeye", "ajourneyfurther-eye-3", true);
 
         //Point of no return
