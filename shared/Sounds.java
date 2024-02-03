@@ -903,7 +903,7 @@ public class Sounds {
         s.addSound("[4/4] The Priest: Bring me [12 Rotten Flesh], that should do it. Ancient Nemract is filled with zombies, it's toward the south-west.", "gravedigger-priest-4", false);
         s.addSound("[1/2] The Priest: You got the flesh. Good.", "gravedigger-priest-5", false);
         s.addSound("[2/2] The Priest: It should be... \"safe\", now. Be very careful, you are entering at your own risk.", "gravedigger-priest-6", false);
-        s.addSound("[1/1] Sayleros: You look like you desperately need an adventure, Come back when you're level 20, I might need you", "gravedigger-sayleros-9", false);
+        s.addSound("[1/1] Sayleros: You look like you desperately need an adventure, Come back when you're level 20, I might need you.", "gravedigger-sayleros-9", false);
         s.addSound("[1/1] Sayleros: Thank you so much for your help!", "gravedigger-sayleros-10", false);
         s.addSound("[1/6] Sayleros: soldier, there you are! You were taking so long, so I came over here as quickly as I could, in case you needed my help.", "gravedigger-sayleros-11", false);
         s.addSound("[2/6] Sayleros: What? You got his will already? That- that's brilliant! Here, let me take a look.", "gravedigger-sayleros-12", false);
@@ -10610,7 +10610,7 @@ public class Sounds {
         s.addSound("[11/12] Lucio: Let's just do it!", "ajourneybeyond-lucio-5", false);
         s.addSound("[12/12] Aledar: Wait... No!", "ajourneybeyond-aledar-10", false);
         s.addSound("[1/4] Aledar: Lucio! You FOOL!", "ajourneybeyond-aledar-11", false);
-        s.addSound("[2/4] Lucio: What's the big deal? You said yourself we can take it!", "ajourneybeyond-lucio-6", false);
+        s.addSound("[2/4] Lucio: What’s the big deal? You said yourself we can take it!", "ajourneybeyond-lucio-6", false);
         s.addSound("[3/4] Lucio: Ouch...", "ajourneybeyond-lucio-7", false);
         s.addSound("[4/4] Aledar: We need a PLAN.", "ajourneybeyond-aledar-12", false);
         s.addSound("[1/14] Lucio: The plan is attack!", "ajourneybeyond-lucio-8", false);
@@ -10643,7 +10643,7 @@ public class Sounds {
         s.addSound("[6/19] Dren: Air...", "ajourneybeyond-dren-4", false);
         s.addSound("[7/19] Dren: Water...", "ajourneybeyond-dren-5", false);
         s.addSound("[8/19] Dren: And Thunder...", "ajourneybeyond-dren-6", false);
-        s.addSound("[9/19] Dren: But.. There is a hidden element, Darkness .", "ajourneybeyond-dren-7", false);
+        s.addSound("[9/19] Dren: But.. There is a hidden element, ❂ Darkness .", "ajourneybeyond-dren-7", false);
         s.addSound("[10/19] Dren: In order to damage a creature of Darkness, you must remove that influence from your soul.", "ajourneybeyond-dren-8", false);
         s.addSound("[11/19] Dren: Some Dark creatures use a sort of synchronous barrier that prevents them being harmed by other creatures influenced with Darkness.", "ajourneybeyond-dren-9", false);
         s.addSound("[12/19] Dren: In order to purify you, I will need 2 powerful items.", "ajourneybeyond-dren-10", false);
@@ -10738,7 +10738,7 @@ public class Sounds {
         s.addSound("[5/6] Aledar: There has to be a way.. Even if you have to push me in this thing!", "ajourneybeyond-aledar-69", false);
         s.addSound("[6/6] Aledar: No, I'm not joking. You guard the cart, I'll lead the way.", "ajourneybeyond-aledar-70", false);
         s.addSound("[1/8] Aledar: According to the map, the miners started a town a little ahead.", "ajourneybeyond-aledar-71", false);
-        s.addSound("[2/8] Aledar: Who knows what's left, but it's got to be safer than here.", "ajourneybeyond-aledar-72", false);
+        s.addSound("[2/8] Aledar: Who knows what's left, but it’s got to be safer than here.", "ajourneybeyond-aledar-72", false);
         s.addSound("[3/8] Aledar: I think the Small Monsters will try to Kill me.", "ajourneybeyond-aledar-73", false);
         s.addSound("[4/8] Aledar: While the Big Monsters will try to Kill you.", "ajourneybeyond-aledar-74", false);
         s.addSound("[5/8] Aledar: It's going to be on you to make sure we both get through this.", "ajourneybeyond-aledar-75", false);
