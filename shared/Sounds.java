@@ -7521,7 +7521,7 @@ public class Sounds {
         s.addSound("[3/10] Maxie: ...What in the world is that mech on top of the pile of scrap over there?!", "theenvoypart1-maxie-27", false);
         s.addSound("[4/10] Maxie: That is definitely not a regular despermech... It looks brand new!", "theenvoypart1-maxie-28", false);
         s.addSound("[5/10] Maxie: One of those hasn't been seen since the factory was running...", "theenvoypart1-maxie-29", false);
-        s.addSound("[6/10] Maxie: We need to do something! I'll clear the path for you. That's the only thing I can do, I... hurt my... leg.", "theenvoypart1-maxie-30", false);
+        s.addSound("[6/10] Maxie: We need to do something! I'll clear the path for you. That’s the only thing I can do, I... hurt my... leg.", "theenvoypart1-maxie-30", false);
         s.addSound("[7/10] Maxie: Come on...", "theenvoypart1-maxie-31", false);
         s.addSound("[8/10] Maxie: There! Go, defeat it!", "theenvoypart1-maxie-32", false);
         s.addSound("[9/10] Mech X: PARTS ACQUIRED... RETURN TO FACTORY.", "theenvoypart1-mechx-1", false);
@@ -7530,7 +7530,7 @@ public class Sounds {
         s.addSound("[2/2] Maxie: I know a shortcut, we'll be in Corkus City in no time.", "theenvoypart1-maxie-35", false);
         s.addSound("[1/9] Corkus Delegate: Mo'in! Welcome back to Corkus City.", "theenvoypart1-corkusdelegate-21", false);
         s.addSound("[2/9] Maxie: Beltrude, we have a problem! The factory is running!", "theenvoypart1-maxie-36", false);
-        s.addSound("[3/9] Maxie: We saw a mech... A new mech! It looked different like it was made in-", "theenvoypart1-maxie-37", false);
+        s.addSound("[3/9] Maxie: We saw a mech… A new mech! It looked different like it was made in-", "theenvoypart1-maxie-37", false);
         s.addSound("[4/9] Corkus Delegate: What a load of scrap! You shouldn't talk about that in front of our guest!", "theenvoypart1-corkusdelegate-22", false);
         s.addSound("[5/9] Maxie: Our guest... just killed several despermechs by themselves.", "theenvoypart1-maxie-38", false);
         s.addSound("[6/9] Corkus Delegate: And why would we take the word of someone who can't do basic electromagic?", "theenvoypart1-corkusdelegate-23", false);
