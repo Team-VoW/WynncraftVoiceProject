@@ -5631,7 +5631,7 @@ public class Sounds {
         s.addSound("[1/3] Elf Guard: Halt, traveler! Entry to Aldorei Town is forbidden at present.", "aldoreisvalleypart1-elfguard-1", false);
         s.addSound("[1/4] Damys: An outsider in our midst? Exciting to see. I have wished to share our magic with new people for a long while.", "aldoreisvalleypart1-damys-1", true);
         s.addSound("[2/4] Damys: However, I am...well, rather hungry. And I must tend to my garden here for the time being.", "aldoreisvalleypart1-damys-2", true);
-        s.addSound("[3/4] Damys: Have you heard the saying \"\"You scratch my ears, I scratch yours\"\"? People must help one another.", "aldoreisvalleypart1-damys-3", true);
+        s.addSound("[3/4] Damys: Have you heard the saying “You scratch my ears, I scratch yours”? People must help one another..", "aldoreisvalleypart1-damys-3", true);
         s.addSound("[4/4] Damys: If you would be so kind as to bring me a loaf of fresh bread you may take my enchanted bucket. ", "aldoreisvalleypart1-damys-4", true);
         s.addSound("[1/3] Vaenr: This is utterly inane. A full lockdown, over a petty theft... Are we not to help one another? To thieve is unnecessary.", "aldoreisvalleypart1-vaenr-1", false);
         s.addSound("[2/3] Sylvar: The thieving is not the reason, from what I have heard. It is that the grove was jealously hidden due to the potency of the plants there.", "aldoreisvalleypart1-sylvar-1", false);
@@ -5655,7 +5655,7 @@ public class Sounds {
         s.addSound("[2/4] Criminal: What I have done is needed, and if there were another path I would have taken it over this.", "aldoreisvalleypart1-korben-5", true);
         s.addSound("[3/4] Criminal: I must take my concoction to where it is needed!", "aldoreisvalleypart1-korben-6", true);
         s.addSound("[4/4] Criminal: See me as I truly am- My name is Korben, and I musn’t be delayed further!", "aldoreisvalleypart1-korben-7", true);
-        s.addSound("1/1korben!", "aldoreisvalleypart1-korben-8", true);
+        s.addSound("[1/1] Korben: ⓖ ⓡ ⓞ ⓦ !", "aldoreisvalleypart1-korben-8", true);
         s.addSound("[1/2] Korben: A damnable pace you have... I cannot let you stop me for a moment longer!", "aldoreisvalleypart1-korben-9", true);
         s.addSound("[2/2] Korben: It will be done soon, but I must reach my destination first!", "aldoreisvalleypart1-korben-10", true);
         s.addSound("[1/9] Korben: Finally... I apologize for the delay. I needed to take strong measures to get this to you.", "aldoreisvalleypart1-korben-11", false);
@@ -7949,7 +7949,7 @@ public class Sounds {
         s.addSound("[4/5] ???: 2...", "desperatemetal-security-4", true);
         s.addSound("[5/5] ???: 1...", "desperatemetal-security-5", true);
 
-//Cowfusion
+        //Cowfusion
         s.addSound("[1/2] Ranol: Yep, that's all of 'em. All my cows accounted for, not one missing. Huh? Watchu looking at, city dweller?", "cowfusion-ranol-1", false);
         s.addSound("[2/2] Ranol: If I needed any help I'd ask for some. Not my first day workin' a barn. Now shoo!", "cowfusion-ranol-2", false);
         s.addSound("[1/6] Ranol: A human, eh? All the way out 'ere at the end of the canyon? Yer a tough one.", "cowfusion-ranol-3", false);
@@ -7966,19 +7966,19 @@ public class Sounds {
         s.addSound("[1/3] Ranol: Well well well. So, any excuses for why I haven't heard of yer since I sent yer off to find my cows?", "cowfusion-ranol-14", false);
         s.addSound("[2/3] Ranol: Yer were turned into a cow? That's the best yer can come up with?", "cowfusion-ranol-15", false);
         s.addSound("[3/3] Ranol: I knew yer weren't up to the job, city dweller. If yer didn't want to help yer coulda just said so!", "cowfusion-ranol-16", false);
-        s.addSound("[1/3] Suspicous Cow: Moo.", "cowfusion-suspicouscow-1", false);
-        s.addSound("[3/3] Suspicous Cow: Password?", "cowfusion-suspicouscow-2", false);
-        s.addSound("[1/8] Suspicous Cow: You're right, there is no password. Just seeing if you can understand me.", "cowfusion-suspicouscow-3", false);
-        s.addSound("[2/8] Suspicous Cow: You're one of us then, the oppressed? Want to break free from these farmers? Well aren't you in luck.", "cowfusion-suspicouscow-4", false);
-        s.addSound("[3/8] Suspicous Cow: I can help you with that. WE can help you with that.", "cowfusion-suspicouscow-5", false);
-        s.addSound("[4/8] Suspicous Cow: Our people have a secret hideout not far from here. It's located right under that barn just behind me.", "cowfusion-suspicouscow-6", false);
-        s.addSound("[5/8] Suspicous Cow: It may seem close, but unless you've been practicing your athletics, you won't be able to get over these fences.", "cowfusion-suspicouscow-7", false);
-        s.addSound("[6/8] Suspicous Cow: See what haybale in the middle of our pen? I bet you could push and pull it into such a position that'd allow you to climb over the fence with your cow physique.  *I don't know if \"what\" is supposed to be \"that\", in game it says \"what\"*", "cowfusion-suspicouscow-8", false);
-        s.addSound("[7/8] Suspicous Cow: The second pen might have a similar problem, but I'm sure you can figure that out yourself.", "cowfusion-suspicouscow-9", false);
-        s.addSound("[8/8] Suspicous Cow: Good luck!", "cowfusion-suspicouscow-10", false);
-        s.addSound("[1/8] Suspicous Cow: What? What does that even mean? There isn't actually a password! Or did no one tell me that there was? Ah, nevermind, at least you can understand me.", "cowfusion-suspicouscow-11", false);
-        s.addSound("[2/2] Suspicous Cow: Moo.", "cowfusion-suspicouscow-12", false);
-        s.addSound("[1/1] Suspicous Cow: If you want to escape, you'll have to push and pull the haybale around so that you can climb over the fences.", "cowfusion-suspicouscow-13", false);
+        s.addSound("[1/3] Suspicious Cow: Moo.", "cowfusion-suspicouscow-1", false);
+        s.addSound("[3/3] Suspicious Cow: Password?", "cowfusion-suspicouscow-2", false);
+        s.addSound("[1/8] Suspicious Cow: You're right, there is no password. Just seeing if you can understand me.", "cowfusion-suspicouscow-3", false);
+        s.addSound("[2/8] Suspicious Cow: You're one of us then, the oppressed? Want to break free from these farmers? Well aren't you in luck.", "cowfusion-suspicouscow-4", false);
+        s.addSound("[3/8] Suspicious Cow: I can help you with that. WE can help you with that.", "cowfusion-suspicouscow-5", false);
+        s.addSound("[4/8] Suspicious Cow: Our people have a secret hideout not far from here. It's located right under that barn just behind me.", "cowfusion-suspicouscow-6", false);
+        s.addSound("[5/8] Suspicious Cow: It may seem close, but unless you've been practicing your athletics, you won't be able to get over these fences.", "cowfusion-suspicouscow-7", false);
+        s.addSound("[6/8] Suspicious Cow: See what haybale in the middle of our pen? I bet you could push and pull it into such a position that'd allow you to climb over the fence with your cow physique.", "cowfusion-suspicouscow-8", false);
+        s.addSound("[7/8] Suspicious Cow: The second pen might have a similar problem, but I'm sure you can figure that out yourself.", "cowfusion-suspicouscow-9", false);
+        s.addSound("[8/8] Suspicious Cow: Good luck!", "cowfusion-suspicouscow-10", false);
+        s.addSound("[1/8] Suspicious Cow: What? What does that even mean? There isn't actually a password! Or did no one tell me that there was? Ah, nevermind, at least you can understand me", "cowfusion-suspicouscow-11", false);
+        s.addSound("[2/2] Suspicious Cow: Moo.", "cowfusion-suspicouscow-12", false);
+        s.addSound("[1/1] Suspicious Cow: If you want to escape, you'll have to push and pull the haybale around so that you can climb over the fences.", "cowfusion-suspicouscow-13", false);
         s.addSound("[1/4] Receptionist: Oh, a new recruit? We weren't expecting anyone at this time. How'd you find your way in?", "cowfusion-receptionist-1", false);
         s.addSound("[2/4] Receptionist: Wait, you're different. Something's off about you. Like you've never been in a cow's body before.", "cowfusion-receptionist-2", false);
         s.addSound("[3/4] Receptionist: Oh. Oh, this is not good. Uhm, you should talk to the boss. He'll probably know what to do with you.", "cowfusion-receptionist-3", false);
@@ -10745,7 +10745,7 @@ public class Sounds {
         s.addSound("[6/8] Aledar: The fate of the mission relies on the two of us working together.", "ajourneybeyond-aledar-76", false);
         s.addSound("[7/8] Aledar: Are those... Eyes on the trees?", "ajourneybeyond-aledar-77", false);
         s.addSound("[8/8] Aledar: Look out, soldier!", "ajourneybeyond-aledar-78", false);
-        s.addSound("[1/1] Aledar: Watch out, the small monsters are coming for me! I can't fight in this thing!", "ajourneybeyond-aledar-79", false);
+        s.addSound("[1/1] Aledar: Watch out, the small monsters are coming for me! I can’t fight in this thing!", "ajourneybeyond-aledar-79", false);
         s.addSound("[1/1] Aledar: Another one's coming! Pay attention!", "ajourneybeyond-aledar-80", false);
         s.addSound("[1/1] Aledar: Great job! It looks like they've stopped coming. Let's keep going.", "ajourneybeyond-aledar-81", false);
         s.addSound("[1/1] Aledar: They're here again, soldier!", "ajourneybeyond-aledar-82", false);
