@@ -1472,7 +1472,7 @@ public class Sounds {
         s.addSound("[1/2] Old Man Martyn: My my, a crushing defeat to be sure. You'll have to find a way to stop that.", "dejavu-oldmanmartyn-25", false);
         s.addSound("[2/2] Old Man Martyn: Go back through the rift and make sure Asher doesn't become a pancake this time.", "dejavu-oldmanmartyn-26", false);
         s.addSound("[1/2] Old Man Martyn: Well that was quite the explosive end to our friend there. There must be a way to prevent that.", "dejavu-oldmanmartyn-27", false);
-        s.addSound("[2/2] Old Man Martyn: Head back in there. This time with less explosions", "dejavu-oldmanmartyn-28", false);
+        s.addSound("[2/2] Old Man Martyn: Head back in there. This time with less explosions.", "dejavu-oldmanmartyn-28", false);
         s.addSound("[1/2] Old Man Martyn: Oh, so close on that try. Who could've guessed that was how our friend met his end?", "dejavu-oldmanmartyn-29", false);
         s.addSound("[2/2] Old Man Martyn: I'm sure you'll nail it this time. Not sure how you will stop a cosmic event, though.", "dejavu-oldmanmartyn-30", false);
 
@@ -2004,14 +2004,14 @@ public class Sounds {
         s.addSound("[1/3] Guard Klerodor: I'm sorry. This is a private meeting.", "wynnexcavationsitec-guardklerodor-1", false);
         s.addSound("[2/3] Guard Klerodor: It is only my first day on the job, so I can't let you in without a pass. Sorry.", "wynnexcavationsitec-guardklerodor-2", false);
         s.addSound("[3/3] Guard Klerodor: The door will be locked shortly.", "wynnexcavationsitec-guardklerodor-3", false);
-        s.addSound("[1/4] Chief Excavator Dranfor: Hello and welcome, senior members of Wynn Excavation Site C. May the dark's gaze forever watch over us. I want to update you on our progress thus far. The fire relic crystal has been largely intact in the heart of the volcano for many years.", "wynnexcavationsitec-chiefexcavatordranfor-1", true);
+        s.addSound("[1/4] Chief Excavator Dranfor: Hello and welcome, senior members of Wynn Excavation Site C. May the dark^s gaze forever watch over us. I want to update you on our progress thus far. The fire relic crystal has been largely intact in the heart of the volcano for many years.", "wynnexcavationsitec-chiefexcavatordranfor-1", true);
         s.addSound("[2/4] Chief Excavator Dranfor: Removing it will most likely cause a chain reaction and make things difficult. Fortunately, a mage from the other side of the ocean is here to counter that. We can expect to have it moved and be shipped over to the undisclosed location any day now.", "wynnexcavationsitec-chiefexcavatordranfor-2", true);
         s.addSound("[3/4] Chief Excavator Dranfor: I would also like to inform you that the crystals removed from our possession from sites B and A have not been retrieved. However, the culprit should no longer be interested in our operations. The lost crystals did not harness any raw magic, thus are not essential to the overall scheme.", "wynnexcavationsitec-chiefexcavatordranfor-3", true);
         s.addSound("[4/4] Chief Excavator Dranfor: Now, our short term goals are to move our equipment out of the heart of the volcano and start moving the fire stone for assimilation at the concealed location. All senior officers are responsible for their quadrants. Let's get this done efficiently and discreetly.", "wynnexcavationsitec-chiefexcavatordranfor-4", true);
         s.addSound("[1/1] Chief Excavator Dranfor: The alarm has been set off! There is an unauthorized guest! Guards, seize them!", "wynnexcavationsitec-chiefexcavatordranfor-5", true);
         s.addSound("[1/12] ???: You. You are the one they are worried about.", "wynnexcavationsitec-traitoramadel-1", false);
         s.addSound("[2/12] ???: I am Amadel, leader of the rebellion.", "wynnexcavationsitec-traitoramadel-2", false);
-        s.addSound("[3/12] Traitor Amadel: I know this is all a bit sudden, but I have some information you must hear..", "wynnexcavationsitec-traitoramadel-3", false);
+        s.addSound("[3/12] Traitor Amadel: I know this is all a bit sudden, but I have some information you must hear.", "wynnexcavationsitec-traitoramadel-3", false);
         s.addSound("[4/12] Traitor Amadel: Everything you have been told is a lie. The WynnExcavation \"company\" is not what they appear to be.", "wynnexcavationsitec-traitoramadel-4", false);
         s.addSound("[5/12] Traitor Amadel: They are using that as a front and their reach stretches further than I even know.", "wynnexcavationsitec-traitoramadel-5", false);
         s.addSound("[6/12] Traitor Amadel: There is no higher authority than them, not even the kings. And their intentions are not good.", "wynnexcavationsitec-traitoramadel-6", false);
@@ -2023,7 +2023,7 @@ public class Sounds {
         s.addSound("[2/7] Excavator Placardus: You had to go snooping around, meddle in things that are far beyond your comprehension. No matter. Something did come out of this, it would appear.", "wynnexcavationsitec-excavatorplacardus-10", false);
         s.addSound("[3/7] Excavator Placardus: You were caught, conversing with Amadel, who we now know to be a traitor, thanks to you. There are eyes everywhere, young hero.", "wynnexcavationsitec-excavatorplacardus-11", false);
         s.addSound("[4/7] Excavator Placardus: I'm willing to bet he's already been... taken care of by senior staff.", "wynnexcavationsitec-excavatorplacardus-12", false);
-        s.addSound("[5/7] Excavator Placardus: We also now know you are operating in the dark. You know nothing of the crystals or their power, and you know not that even the crystals you possess are inconsequential 	to our plans.", "wynnexcavationsitec-excavatorplacardus-13", false);
+        s.addSound("[5/7] Excavator Placardus: We also now know you are operating in the dark. You know nothing of the crystals or their power, and you know not that even the crystals you possess are inconsequential to our plans.", "wynnexcavationsitec-excavatorplacardus-13", false);
         s.addSound("[6/7] Excavator Placardus: You're lucky you aren't dead. How you infiltrated us this far has shown nothing but beginner's luck for the province's new hero.", "wynnexcavationsitec-excavatorplacardus-14", false);
         s.addSound("[7/7] Excavator Placardus: I suggest you leave, before the guards get here and you meet the same fate as Amadel. Our power is limitless; armies, resources, even royalty are on our side. Our gaze is everpresent. Now, get out of my sight!", "wynnexcavationsitec-excavatorplacardus-15", false);
 
@@ -2577,7 +2577,7 @@ public class Sounds {
         s.addSound("[10/16] Lari: I did not intend to imply that. Your help was appreciated, fate simply had opposing plans...", "riseofthequartron-lari-4", false);
         s.addSound("[11/16] Lari: ...is this human a part of your operations, miss?", "riseofthequartron-lari-5", false);
         s.addSound("[12/16] Nasea: Well, in a sense. Someone's siphoning quartz, but our suspect wasn't intimidated by the ten tons of armor, so we're at a loss. Any ideas?", "riseofthequartron-nasea-16", false);
-        s.addSound("[13/16] Lari: ...as a matter of fact, I do have a solution. Elven botany describes a flower that grows decently close by, the \"\"Tattytale\"\" flower.", "riseofthequartron-lari-6", false);
+        s.addSound("[13/16] Lari: ...as a matter of fact, I do have a solution. Elven botany describes a flower that grows decently close by, the \"Tattytale\" flower.", "riseofthequartron-lari-6", false);
         s.addSound("[14/16] Lari: It weakens the will of those who catch a whiff of its petals, making them pliable to questions. It's...unpleasant, but if it is needed, I suppose.", "riseofthequartron-lari-7", false);
         s.addSound("[15/16] Lari: There is a cave infested with spiders, and covered with webs in the western mountain. It is the only place it grows outside of Aldorei, unfortunately.", "riseofthequartron-lari-8", false);
         s.addSound("[16/16] Lari: Nasea, since it didn't help, I've returned the quartz. I thank you for your help...and I shall bid you both adieu.", "riseofthequartron-lari-9", false);
@@ -7549,7 +7549,7 @@ public class Sounds {
         s.addSound("[2/7] Maxie: I'll have to use electromagic to make it launch, so you'll have to go alone.", "theenvoypart2-maxie-3", false);
         s.addSound("[3/7] Maxie: Find the Avos chief. Ask for the factory key.", "theenvoypart2-maxie-4", false);
         s.addSound("[4/7] Maxie: Alright, hop on.", "theenvoypart2-maxie-5", false);
-        s.addSound("[5/5] Maxie: Press the button when you're ready", "theenvoypart2-maxie-6", false);
+        s.addSound("[5/5] Maxie: Press the button when you're ready.", "theenvoypart2-maxie-6", false);
         s.addSound("[1/2] Maxie: Off you go!", "theenvoypart2-maxie-7", true);
         s.addSound("[2/2] Maxie: Grook feathers! Not again...", "theenvoypart2-maxie-8", true);
         s.addSound("[1/4] Avos Shaman: Hmm, no gears or goggles... You are no Corkian Human.", "theenvoypart2-avosshaman-1", false);
