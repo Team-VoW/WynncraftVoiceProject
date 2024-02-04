@@ -891,7 +891,7 @@ public class Sounds {
         s.addSound("[6/8] Sayleros: One of my other brothers also survived the attack. He isn't... um... somebody I'd trust greatly, but I'm sure he has some useful informations for you.", "gravedigger-sayleros-6", false);
         s.addSound("[7/8] Sayleros: His name is Drucksh. He usually likes to talk a lot when he is drunk, see if you can do anything with that.", "gravedigger-sayleros-7", false);
         s.addSound("[8/8] Sayleros: I'll be waiting for your return! Follow this path, it leads directly to Nemract. Good Luck!", "gravedigger-sayleros-8", false);
-        s.addSound("[1/2] Drucksh: Mmh. g... uh! oh why hello there.", "gravedigger-drucksh-1", false);
+        s.addSound("[1/2] Drucksh: Mmh. g... uh! oh, why hello there.", "gravedigger-drucksh-1", false);
         s.addSound("[2/2] Drucksh: My brother? Oh yes, I do know where he is \"buried\", but do I want to tell you? No, It's none of your business.", "gravedigger-drucksh-2", false);
         s.addSound("[1/4] Drucksh: Ohh mmhhhgg... g-g-good old Nemract whiskey!", "gravedigger-drucksh-3", false);
         s.addSound("[2/4] Drucksh: F-fine! I guess it wouldn't h-h-hurt to tell...*burp*..you where it-it- he is...", "gravedigger-drucksh-4", false);
