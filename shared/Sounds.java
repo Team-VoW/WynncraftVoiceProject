@@ -11281,9 +11281,9 @@ public class Sounds {
         //Undergrowth ruins
         s.addSound("[1/1] ???: I can sense your life force... it is very powerful. I shall take pleasure in draining it from your body!", "undergrowthruins-slykaar-1", true);
         s.addSound("[1/2] Slykaar: Troms used to beckon to my every need and desire... Even sacrifice it's own children for my magical defense!", "undergrowthruins-slykaar-2", true);
-        s.addSound("[1/2] Slykaar: Now the city will truly get to witness what power they have discarded... They will see they made the wrong call.", "undergrowthruins-slykaar-3", true);
+        s.addSound("[1/2] Slykaar: Now the city will truly get to witness what power they have discarded.. They will see they made the wrong call.", "undergrowthruins-slykaar-3", true);
         s.addSound("[1/1] Slykaar: Nothing and no one will stop me from sieging the city. Not even you!", "undergrowthruins-slykaar-4", true);
-        s.addSound("[1/2] Slykaar: You have made the sacrifices of many be in total vain!", "undergrowthruins-slykaar-5", true);
+        s.addSound("[1/1] Slykaar: You have made the sacrifices of many be in total vain!", "undergrowthruins-slykaar-5", true);
 
         //Corrupted Undergrowth ruins
         s.addSound("[1/1] ???: More life...familiar life... It’s you again. Isn’t it?", "cur-slykaar-1", true);
