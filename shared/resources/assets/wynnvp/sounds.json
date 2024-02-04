@@ -18098,6 +18098,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:arachnidsascent-admiralaegis-6", "stream": true}]
   },
+  "arachnidsascent-admiralaegis-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:arachnidsascent-admiralaegis-7", "stream": true}]
+  },
+  "arachnidsascent-admiralaegis-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:arachnidsascent-admiralaegis-8", "stream": true}]
+  },
   "arachnidsascent-privatecob-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:arachnidsascent-privatecob-1", "stream": true}]

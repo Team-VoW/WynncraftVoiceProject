@@ -708,6 +708,8 @@ public class Sounds {
 
         //Arachnids Ascent
         s.addSound("[1/11] Admiral Aegis: Hm... ah, soldier! There you are. I was just about to send someone to fetch you.", "arachnidsascent-admiralaegis-1", false);
+        s.addSound("[2/11] Admiral Aegis: Follow me- we have a conversation to have in my office. It's on the top floor of the barracks.", "arachnidsascent-admiralaegis-7", false);
+        s.addSound("[3/11] Admiral Aegis: ...ahem. Now that we're here, we can discuss the matter of Nivla Woods.", "arachnidsascent-admiralaegis-8", false);
         s.addSound("[4/11] Admiral Aegis: Our preparations are complete, and it's time for the assault on the spider den! With you here, we'll just need to wait for-...", "arachnidsascent-admiralaegis-2", false);
         s.addSound("[5/11] Aledar: Admiral- we're here! Sorry we're late, we were sparring in the training room and lost track of time...", "arachnidsascent-aledar-1", false);
         s.addSound("[6/11] Tasim: If soldier is here, I take it that means today is the day we strike at the spiders?", "arachnidsascent-tasim-1", false);
