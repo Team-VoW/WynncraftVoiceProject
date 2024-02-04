@@ -15,6 +15,7 @@ public class LineFormatter {
         lineData.setRealLine(message);
 
         message = message.replace("’", "'");
+        message = message.replace("“", "\"");
 
         message = HTTPEncode(message);
 
