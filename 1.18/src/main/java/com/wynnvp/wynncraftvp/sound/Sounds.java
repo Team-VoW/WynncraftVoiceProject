@@ -1472,7 +1472,7 @@ public class Sounds {
         s.addSound("[1/2] Old Man Martyn: My my, a crushing defeat to be sure. You'll have to find a way to stop that.", "dejavu-oldmanmartyn-25", false);
         s.addSound("[2/2] Old Man Martyn: Go back through the rift and make sure Asher doesn't become a pancake this time.", "dejavu-oldmanmartyn-26", false);
         s.addSound("[1/2] Old Man Martyn: Well that was quite the explosive end to our friend there. There must be a way to prevent that.", "dejavu-oldmanmartyn-27", false);
-        s.addSound("[2/2] Old Man Martyn: Head back in there. This time with less explosions", "dejavu-oldmanmartyn-28", false);
+        s.addSound("[2/2] Old Man Martyn: Head back in there. This time with less explosions.", "dejavu-oldmanmartyn-28", false);
         s.addSound("[1/2] Old Man Martyn: Oh, so close on that try. Who could've guessed that was how our friend met his end?", "dejavu-oldmanmartyn-29", false);
         s.addSound("[2/2] Old Man Martyn: I'm sure you'll nail it this time. Not sure how you will stop a cosmic event, though.", "dejavu-oldmanmartyn-30", false);
 
@@ -1695,7 +1695,7 @@ public class Sounds {
         s.addSound("[3/7] Almuj Bank Guard: We're using reports from witnesses to try to gain information.", "asandyscandal-almujbankguard-3", false);
         s.addSound("[4/7] Almuj Bank Guard: If I give you some of the witness reports, will you help get clues from them?", "asandyscandal-almujbankguard-4", false);
         s.addSound("[5/7] Almuj Bank Guard: Great! The store from the first witness report is straight down the stairs, just past this building here, just behind me.", "asandyscandal-almujbankguard-5", false);
-        s.addSound("[6/7] Almuj Bank Guard: The store that you should read the report in is named \"Gibbs' Mining Supply Store,\" and it's the store that was robbed.", "asandyscandal-almujbankguard-6", false);
+        s.addSound("[6/7] Almuj Bank Guard: The store that you should read the report in is named “Gibbs' Mining Supply Store,” and it's the store that was robbed.", "asandyscandal-almujbankguard-6", false);
         s.addSound("[7/7] Almuj Bank Guard: I will write the coordinates to the store so you can read the report just in case you can't find it.", "asandyscandal-almujbankguard-7", false);
         s.addSound("Business was slow that day, until two rugged, oddly-dressed men stormed into my shop, with a lot of nerve.", "asandyscandal-shopkeepergibbs-1", false);
         s.addSound("[1/9] Shopkeeper Gibbs: Hello gentlemen! What can I interest you in today? Some industrial torches? Pickaxes?", "asandyscandal-shopkeepergibbs-2", false);
@@ -1713,14 +1713,14 @@ public class Sounds {
         s.addSound("I had no choice but to give up the combination, which was 7812.", "asandyscandal-shopkeepergibbs-11", false);
         s.addSound("[8/9] Shopkeeper Gibbs: The code is 7-8-1-2... please don't hurt me!", "asandyscandal-shopkeepergibbs-12", false);
         s.addSound("After I gave up the combination, they knocked me out!", "asandyscandal-shopkeepergibbs-13", false);
-        s.addSound("[9/9] Bandit: 7-8-1-2... thanks! We won't be needing you anymore... now go to sleep!", "asandyscandal-bandit-4", false);
+        s.addSound("[9/9] Bandit: 7-8-1-2... thanks! We won’t be needing you anymore... now go to sleep!", "asandyscandal-bandit-4", false);
         s.addSound("I had no idea what the criminals did after that, I never went back into my shop after the incident.", "asandyscandal-shopkeepergibbs-14", false);
         s.addSound("[1/6] Almuj Bank Guard: You're back, having read the report I assume. Did you find anything in particular?", "asandyscandal-almujbankguard-8", false);
         s.addSound("[2/6] Almuj Bank Guard: Missing TNT in the shop's vault? The report was truthful and trustworthy.", "asandyscandal-almujbankguard-9", false);
         s.addSound("[3/6] Almuj Bank Guard: We need to catch these criminals quickly if they have access to this dangerous amount of TNT, capable of putting a hole in the bank's wall.", "asandyscandal-almujbankguard-10", false);
         s.addSound("[4/6] Almuj Bank Guard: Luckily, we recently had another witness report come in.", "asandyscandal-almujbankguard-11", false);
         s.addSound("[5/6] Almuj Bank Guard: This report takes place on the roof of the Scroll Merchant's residence, a garden roof.", "asandyscandal-almujbankguard-12", false);
-        s.addSound("[6/6] Almuj Bank Guard: I've written the coordinates to the shop in your quest book in case you don't know where the Scroll Merchant is.", "asandyscandal-almujbankguard-13", false);
+        s.addSound("[6/6] Almuj Bank Guard: I've written the coordinates to the shop in your content book in case you don't know where the Scroll Merchant is.", "asandyscandal-almujbankguard-13", false);
         s.addSound("I was having a fine time tending to my rooftop garden after a lengthy day of selling scrolls.", "asandyscandal-scrollmerchant-1", false);
         s.addSound("While looking down on the street, I saw two unsavory men, one with TNT in hand, marching down the path.", "asandyscandal-scrollmerchant-2", false);
         s.addSound("I was suspicious, so I tried to get their attention, but they ignored me.", "asandyscandal-scrollmerchant-3", false);
@@ -1738,18 +1738,18 @@ public class Sounds {
         s.addSound("[5/8] Almuj Sentry: Boss, I just received urgent reports of a robbery underway in the left residential area of Almuj!", "asandyscandal-almujsentry-1", false);
         s.addSound("[6/8] Almuj Bank Guard: Oh my... you! Soldier! Urgently! The robbery is taking place across the bridge, next to the first house you visited today!", "asandyscandal-almujbankguard-18", false);
         s.addSound("[7/8] Almuj Bank Guard: There will be somebody waiting for you outside of the house once you get to the residential area!", "asandyscandal-almujbankguard-19", false);
-        s.addSound("[8/8] Almuj Bank Guard: If you still can't find it, I've written the coordinates in your quest book. Now quickly, get to the house!", "asandyscandal-almujbankguard-20", false);
+        s.addSound("[8/8] Almuj Bank Guard: If you still can't find it, I've written the coordinates in your content book. Now quickly, get to the house!", "asandyscandal-almujbankguard-20", false);
         s.addSound("[1/2] Almuj Citizen: Hello? Are you with the guards? Good! Hurry! Some bandits just ransacked my house, and left with lots of emeralds!", "asandyscandal-almujcitizen-1", false);
         s.addSound("[2/2] Almuj Citizen: Follow me to my house, hopefully you can find the bandits! They stole lots of my precious gold!", "asandyscandal-almujcitizen-2", false);
         s.addSound("[1/4] Bandit Leader: Here-- maybe you'll help us pull the heist if I give you some of this gold we just stole.", "asandyscandal-banditleader-1", false);
         s.addSound("[2/4] Bandit Leader: Ahah. I had a feeling we had a guard on our tail.", "asandyscandal-banditleader-2", false);
-        s.addSound("[3/4] Bandit Leader: I wouldn't want to wear out my new-stolen weapons killing you... I'll just trap you in here with all of this TNT!", "asandyscandal-banditleader-3", false);
+        s.addSound("[3/4] Bandit Leader: I wouldn’t want to wear out my new-stolen weapons killing you... I'll just trap you in here with all of this TNT!", "asandyscandal-banditleader-3", false);
         s.addSound("[4/4] Bandit Leader: This'll blow up in a few seconds. Good luck getting out of here!", "asandyscandal-banditleader-4", false);
         s.addSound("[1/1] Bandit Leader: It's too late to stop us now! We’re already about to bust out of here with a grand prize sure to gain us province-wide respect!", "asandyscandal-banditleader-5", false);
         s.addSound("[1/3] Bandit Leader: Look here, the soldier decided they wanted to follow us. Dumb move.", "asandyscandal-banditleader-6", false);
         s.addSound("[2/3] Bandit Leader: I guess we can kill two birds with one stone: escaping the bank, and killing this pest.", "asandyscandal-banditleader-7", false);
         s.addSound("[3/3] Bandit Leader: Block the entrance, bandits!", "asandyscandal-banditleader-8", false);
-        s.addSound("[1/1] Bandit Leader: Oh no... we've run out of TNT! We were in over our heads... We can't defeat them, just run for your life! Forget the emeralds, let's get outta' here!", "asandyscandal-banditleader-9", false);
+        s.addSound("[1/1] Bandit Leader: Oh no... we've run out of TNT! We were in over our heads... We can't defeat them, just run for your life! Forget the emeralds, let’s get outta’ here!", "asandyscandal-banditleader-9", false);
         s.addSound("[1/4] Almuj Bank Guard: What happened down there underneath the bank? I heard the rumble.", "asandyscandal-almujbankguard-21", false);
         s.addSound("[2/4] Almuj Bank Guard: You stopped the crooks? Amazing!", "asandyscandal-almujbankguard-22", false);
         s.addSound("[3/4] Almuj Bank Guard: The Almuj bank is typically reserved for trusted members only; however, you have proven yourself today to be one of them.", "asandyscandal-almujbankguard-23", false);
@@ -2004,14 +2004,14 @@ public class Sounds {
         s.addSound("[1/3] Guard Klerodor: I'm sorry. This is a private meeting.", "wynnexcavationsitec-guardklerodor-1", false);
         s.addSound("[2/3] Guard Klerodor: It is only my first day on the job, so I can't let you in without a pass. Sorry.", "wynnexcavationsitec-guardklerodor-2", false);
         s.addSound("[3/3] Guard Klerodor: The door will be locked shortly.", "wynnexcavationsitec-guardklerodor-3", false);
-        s.addSound("[1/4] Chief Excavator Dranfor: Hello and welcome, senior members of Wynn Excavation Site C. May the dark's gaze forever watch over us. I want to update you on our progress thus far. The fire relic crystal has been largely intact in the heart of the volcano for many years.", "wynnexcavationsitec-chiefexcavatordranfor-1", true);
+        s.addSound("[1/4] Chief Excavator Dranfor: Hello and welcome, senior members of Wynn Excavation Site C. May the dark^s gaze forever watch over us. I want to update you on our progress thus far. The fire relic crystal has been largely intact in the heart of the volcano for many years.", "wynnexcavationsitec-chiefexcavatordranfor-1", true);
         s.addSound("[2/4] Chief Excavator Dranfor: Removing it will most likely cause a chain reaction and make things difficult. Fortunately, a mage from the other side of the ocean is here to counter that. We can expect to have it moved and be shipped over to the undisclosed location any day now.", "wynnexcavationsitec-chiefexcavatordranfor-2", true);
         s.addSound("[3/4] Chief Excavator Dranfor: I would also like to inform you that the crystals removed from our possession from sites B and A have not been retrieved. However, the culprit should no longer be interested in our operations. The lost crystals did not harness any raw magic, thus are not essential to the overall scheme.", "wynnexcavationsitec-chiefexcavatordranfor-3", true);
         s.addSound("[4/4] Chief Excavator Dranfor: Now, our short term goals are to move our equipment out of the heart of the volcano and start moving the fire stone for assimilation at the concealed location. All senior officers are responsible for their quadrants. Let's get this done efficiently and discreetly.", "wynnexcavationsitec-chiefexcavatordranfor-4", true);
         s.addSound("[1/1] Chief Excavator Dranfor: The alarm has been set off! There is an unauthorized guest! Guards, seize them!", "wynnexcavationsitec-chiefexcavatordranfor-5", true);
         s.addSound("[1/12] ???: You. You are the one they are worried about.", "wynnexcavationsitec-traitoramadel-1", false);
         s.addSound("[2/12] ???: I am Amadel, leader of the rebellion.", "wynnexcavationsitec-traitoramadel-2", false);
-        s.addSound("[3/12] Traitor Amadel: I know this is all a bit sudden, but I have some information you must hear..", "wynnexcavationsitec-traitoramadel-3", false);
+        s.addSound("[3/12] Traitor Amadel: I know this is all a bit sudden, but I have some information you must hear.", "wynnexcavationsitec-traitoramadel-3", false);
         s.addSound("[4/12] Traitor Amadel: Everything you have been told is a lie. The WynnExcavation \"company\" is not what they appear to be.", "wynnexcavationsitec-traitoramadel-4", false);
         s.addSound("[5/12] Traitor Amadel: They are using that as a front and their reach stretches further than I even know.", "wynnexcavationsitec-traitoramadel-5", false);
         s.addSound("[6/12] Traitor Amadel: There is no higher authority than them, not even the kings. And their intentions are not good.", "wynnexcavationsitec-traitoramadel-6", false);
@@ -2023,7 +2023,7 @@ public class Sounds {
         s.addSound("[2/7] Excavator Placardus: You had to go snooping around, meddle in things that are far beyond your comprehension. No matter. Something did come out of this, it would appear.", "wynnexcavationsitec-excavatorplacardus-10", false);
         s.addSound("[3/7] Excavator Placardus: You were caught, conversing with Amadel, who we now know to be a traitor, thanks to you. There are eyes everywhere, young hero.", "wynnexcavationsitec-excavatorplacardus-11", false);
         s.addSound("[4/7] Excavator Placardus: I'm willing to bet he's already been... taken care of by senior staff.", "wynnexcavationsitec-excavatorplacardus-12", false);
-        s.addSound("[5/7] Excavator Placardus: We also now know you are operating in the dark. You know nothing of the crystals or their power, and you know not that even the crystals you possess are inconsequential 	to our plans.", "wynnexcavationsitec-excavatorplacardus-13", false);
+        s.addSound("[5/7] Excavator Placardus: We also now know you are operating in the dark. You know nothing of the crystals or their power, and you know not that even the crystals you possess are inconsequential to our plans.", "wynnexcavationsitec-excavatorplacardus-13", false);
         s.addSound("[6/7] Excavator Placardus: You're lucky you aren't dead. How you infiltrated us this far has shown nothing but beginner's luck for the province's new hero.", "wynnexcavationsitec-excavatorplacardus-14", false);
         s.addSound("[7/7] Excavator Placardus: I suggest you leave, before the guards get here and you meet the same fate as Amadel. Our power is limitless; armies, resources, even royalty are on our side. Our gaze is everpresent. Now, get out of my sight!", "wynnexcavationsitec-excavatorplacardus-15", false);
 
@@ -2577,7 +2577,7 @@ public class Sounds {
         s.addSound("[10/16] Lari: I did not intend to imply that. Your help was appreciated, fate simply had opposing plans...", "riseofthequartron-lari-4", false);
         s.addSound("[11/16] Lari: ...is this human a part of your operations, miss?", "riseofthequartron-lari-5", false);
         s.addSound("[12/16] Nasea: Well, in a sense. Someone's siphoning quartz, but our suspect wasn't intimidated by the ten tons of armor, so we're at a loss. Any ideas?", "riseofthequartron-nasea-16", false);
-        s.addSound("[13/16] Lari: ...as a matter of fact, I do have a solution. Elven botany describes a flower that grows decently close by, the \"\"Tattytale\"\" flower.", "riseofthequartron-lari-6", false);
+        s.addSound("[13/16] Lari: ...as a matter of fact, I do have a solution. Elven botany describes a flower that grows decently close by, the \"Tattytale\" flower.", "riseofthequartron-lari-6", false);
         s.addSound("[14/16] Lari: It weakens the will of those who catch a whiff of its petals, making them pliable to questions. It's...unpleasant, but if it is needed, I suppose.", "riseofthequartron-lari-7", false);
         s.addSound("[15/16] Lari: There is a cave infested with spiders, and covered with webs in the western mountain. It is the only place it grows outside of Aldorei, unfortunately.", "riseofthequartron-lari-8", false);
         s.addSound("[16/16] Lari: Nasea, since it didn't help, I've returned the quartz. I thank you for your help...and I shall bid you both adieu.", "riseofthequartron-lari-9", false);
@@ -7549,7 +7549,7 @@ public class Sounds {
         s.addSound("[2/7] Maxie: I'll have to use electromagic to make it launch, so you'll have to go alone.", "theenvoypart2-maxie-3", false);
         s.addSound("[3/7] Maxie: Find the Avos chief. Ask for the factory key.", "theenvoypart2-maxie-4", false);
         s.addSound("[4/7] Maxie: Alright, hop on.", "theenvoypart2-maxie-5", false);
-        s.addSound("[5/5] Maxie: Press the button when you're ready", "theenvoypart2-maxie-6", false);
+        s.addSound("[5/5] Maxie: Press the button when you're ready.", "theenvoypart2-maxie-6", false);
         s.addSound("[1/2] Maxie: Off you go!", "theenvoypart2-maxie-7", true);
         s.addSound("[2/2] Maxie: Grook feathers! Not again...", "theenvoypart2-maxie-8", true);
         s.addSound("[1/4] Avos Shaman: Hmm, no gears or goggles... You are no Corkian Human.", "theenvoypart2-avosshaman-1", false);
@@ -11161,7 +11161,7 @@ public class Sounds {
         s.addSound("[1/4] Talking Mushroom: HEY, OLD MAN!! SO I'VE BEEN WONDERING... WHAT'S THE DEAL WITH THIS, UH, BUSINESS YOU'VE GOT RUNNING HERE?", "seaskipper-seaskippercaptain-76", true);
         s.addSound("[1/4] Talking Mushroom: JEEZ, CAN THIS GUY HURRY UP? THE SALT IN THE WIND IS MAKING ME ROT.", "seaskipper-seaskippercaptain-77", true);
         s.addSound("[1/4] Seaskipper Captain: Woah! Hold onto yer helmet, these waves are rougher than usual!", "seaskipper-seaskippercaptain-78", true);
-        s.addSound("[1/4] Seaskipper Captain: Hey Soldier, le' me tell ya a real good piece of advice", "seaskipper-seaskippercaptain-79", true);
+        s.addSound("[1/4] Seaskipper Captain: Hey soldier, le' me tell ya a real good piece of advice.", "seaskipper-seaskippercaptain-79", true);
         s.addSound("[1/3] Seaskipper Captain: Welcome to the V.S.S. Seaskipper, from Seasail Enterprises! There's nothin' better than Seasail if you're lookin' to travel!", "seaskipper-seaskippercaptain-80", true);
         s.addSound("[2/3] Seaskipper Captain: Just hop on the boat and buy a pass so you can get goin' to almost anywhere on the ocean!", "seaskipper-seaskippercaptain-81", true);
         s.addSound("[3/3] Seaskipper Captain: You can even take your pals along with you for free if you're in a party!", "seaskipper-seaskippercaptain-82", true);
@@ -11281,9 +11281,9 @@ public class Sounds {
         //Undergrowth ruins
         s.addSound("[1/1] ???: I can sense your life force... it is very powerful. I shall take pleasure in draining it from your body!", "undergrowthruins-slykaar-1", true);
         s.addSound("[1/2] Slykaar: Troms used to beckon to my every need and desire... Even sacrifice it's own children for my magical defense!", "undergrowthruins-slykaar-2", true);
-        s.addSound("[1/2] Slykaar: Now the city will truly get to witness what power they have discarded... They will see they made the wrong call.", "undergrowthruins-slykaar-3", true);
+        s.addSound("[1/2] Slykaar: Now the city will truly get to witness what power they have discarded.. They will see they made the wrong call.", "undergrowthruins-slykaar-3", true);
         s.addSound("[1/1] Slykaar: Nothing and no one will stop me from sieging the city. Not even you!", "undergrowthruins-slykaar-4", true);
-        s.addSound("[1/2] Slykaar: You have made the sacrifices of many be in total vain!", "undergrowthruins-slykaar-5", true);
+        s.addSound("[1/1] Slykaar: You have made the sacrifices of many be in total vain!", "undergrowthruins-slykaar-5", true);
 
         //Corrupted Undergrowth ruins
         s.addSound("[1/1] ???: More life...familiar life... It’s you again. Isn’t it?", "cur-slykaar-1", true);

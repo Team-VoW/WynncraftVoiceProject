@@ -3894,9 +3894,9 @@ public class Sounds {
         s.addSound("[3/10] Teacher: Druidic practices tend to deal with healing more, and nurturing. When life's created, it gives off energy...and Druids use that energy for their magic.", "orderofthegrook-natureteacher-3", false);
         s.addSound("[4/10] Teacher: Shamanic skills are a lot more direct, man. They take the life from other things and use that to do their stuff. It's way more varied than Druidic magic.", "orderofthegrook-natureteacher-4", false);
         s.addSound("[5/10] Teacher: Each has its ups and downs, man. Druidism is chill and helpful...but you can really expand your mind with Shamanism, buddies.", "orderofthegrook-natureteacher-5", false);
-        s.addSound("[6/10] Teacher: Either way, it's all about equivalent exchange, y'see? You can't get somethin' from nothin' man. Either make life or take life.", "orderofthegrook-natureteacher-6", false);
+        s.addSound("[6/10] Teacher: Either way, it's all about equivalent exchange, y'see? You can't get somethin' from nothin', man. Either make life or take life.", "orderofthegrook-natureteacher-6", false);
         s.addSound("[7/10] Teacher: But, it's not picky about what life you take, man! A good shaman takes from plants and animals, not people!", "orderofthegrook-natureteacher-7", false);
-        s.addSound("[8/10] Teacher: Don't be a Slykaar, kiddos. He asked for human sacrifices, but he lived in a jungle man! Like, what the hey! He coulda done anything else!", "orderofthegrook-natureteacher-8", false);
+        s.addSound("[8/10] Teacher: Don't be a Slykaar, kiddos. He asked for human sacrifices, but he lived in a jungle, man! Like, what the hey! He coulda done anything else!", "orderofthegrook-natureteacher-8", false);
         s.addSound("[9/10] Teacher: Anyways. Our test today, little buds, is to practice some shamanic skills. We got a sick cow in the back, and you're gonna nurse it back to health.", "orderofthegrook-natureteacher-9", false);
         s.addSound("[10/10] Teacher: You'll need to sacrifice some old Grooks, but it has to be just the right amount, man! The practice is through the door behind me.", "orderofthegrook-natureteacher-10", false);
         s.addSound("[1/1] Teacher: When you think you have the right amount, activate the altar and see your results, man!", "orderofthegrook-natureteacher-11", false);
