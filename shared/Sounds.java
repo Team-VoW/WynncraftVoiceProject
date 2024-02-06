@@ -486,7 +486,7 @@ public class Sounds {
         s.addSound("[2/6] Aledar: Tasim's gone off to the training room, if you were looking for him. He's really jumping straight into it, which... is good! We all need to get stronger so we can defend the province.", "takingthetower-aledar-11", false);
         s.addSound("[1/3] Aledar: Hey, you're back! Have you changed your mind? Want to join a raid on a corrupted tower?", "takingthetower-aledar-12", false);
         s.addSound("[1/6] Aledar: Alright, so. There's something I've been told about the tower we're going to be attacking which we can prepare for!", "takingthetower-aledar-13", false);
-        s.addSound("[2/6] Aledar: Apparently, the big bad at the top of the tower is weak to ❉ Water damage! And so, here we are at the Powder Master", "takingthetower-aledar-14", false);
+        s.addSound("[2/6] Aledar: Apparently, the big bad at the top of the tower is weak to ❉ Water damage! And so, here we are at the Powder Master.", "takingthetower-aledar-14", false);
         s.addSound("[3/6] Aledar: You can apply various elemental powders to your weapons here, which lets them deal types of damage they might not have been able to before.", "takingthetower-aledar-15", false);
         s.addSound("[4/6] Aledar: In this case, you can apply a ❉ Water powder, so that your weapon will be more effective against the corrupted enemies at the tower!", "takingthetower-aledar-16", false);
         s.addSound("[5/6] Aledar: I, uh... don't remember the whole elemental speech off the top of my head. If you want to know more about those, you'll have to talk to Captain Ragon in the barracks. He has a whole course about it!", "takingthetower-aledar-17", false);
@@ -3927,7 +3927,7 @@ public class Sounds {
         s.addSound("[7/9] Javier: I left me old sea farin' map in me old hideout, it'll tell ye where we can find me old gold.", "beneaththedepths-javier-7", false);
         s.addSound("[8/9] Javier: So, lad. Are ya willin' to make ye'self mighty wealthy? Good.", "beneaththedepths-javier-8", false);
         s.addSound("[9/9] Javier: Me old hideout's hidden inside that there skull at the entrance to our mighty fine establishment. Bring me that map, lad!", "beneaththedepths-javier-9", false);
-        s.addSound("[1/3] Deceased Buccaneer: Halt it there, laddy! The wind has told us that yer looking for that treasure map. Ah, ye'll not get it so easily.", "beneaththedepths-deceasedbuccaneer-1", false);
+        s.addSound("[1/3] Deceased Buccaneer: Halt it there, laddy! The wind has told us that yer looking for treasure map. Ah, ye'll not get it so easily.", "beneaththedepths-deceasedbuccaneer-1", false);
         s.addSound("[2/3] Deceased Buccaneer: Ye see, us spirits are as greedy as our physical selves were. 'ere's no foolin' 'round there. We want yer money, and only then will we open the paths to the map.", "beneaththedepths-deceasedbuccaneer-2", false);
         s.addSound("[3/3] Deceased Buccaneer: One full block of smashed together emeralds will satisfy our needs. Go to the front of this tomb, and flush it down the middle of that raised thing.", "beneaththedepths-deceasedbuccaneer-3", false);
         s.addSound("[1/1] Deceased Buccaneer: Good luck on that petty journey of yers. Just find the whole path, and yerself'll be just fine...", "beneaththedepths-deceasedbuccaneer-4", false);
@@ -7978,7 +7978,7 @@ public class Sounds {
         s.addSound("[6/8] Suspicious Cow: See what haybale in the middle of our pen? I bet you could push and pull it into such a position that'd allow you to climb over the fence with your cow physique.", "cowfusion-suspicouscow-8", false);
         s.addSound("[7/8] Suspicious Cow: The second pen might have a similar problem, but I'm sure you can figure that out yourself.", "cowfusion-suspicouscow-9", false);
         s.addSound("[8/8] Suspicious Cow: Good luck!", "cowfusion-suspicouscow-10", false);
-        s.addSound("[1/8] Suspicious Cow: What? What does that even mean? There isn't actually a password! Or did no one tell me that there was? Ah, nevermind, at least you can understand me", "cowfusion-suspicouscow-11", false);
+        s.addSound("[1/8] Suspicious Cow: What? What does that even mean? There isn't actually a password! Or did no one tell me that there was? Ah, nevermind, at least you can understand me.", "cowfusion-suspicouscow-11", false);
         s.addSound("[2/2] Suspicious Cow: Moo.", "cowfusion-suspicouscow-12", false);
         s.addSound("[1/1] Suspicious Cow: If you want to escape, you'll have to push and pull the haybale around so that you can climb over the fences.", "cowfusion-suspicouscow-13", false);
         s.addSound("[1/4] Receptionist: Oh, a new recruit? We weren't expecting anyone at this time. How'd you find your way in?", "cowfusion-receptionist-1", false);
@@ -8633,7 +8633,7 @@ public class Sounds {
         s.addSound("[5/8] Relend: First we're going to need [5 Gritty Sand]. Where to get it? Try the beach at the back of the island.", "fantasticvoyage-relend-52", false);
         s.addSound("[6/8] Relend: Next up is [Sawdust], you'll need three. I think the best place to search would be the largest tree.", "fantasticvoyage-relend-53", false);
         s.addSound("[7/8] Relend: Finally, [1 Black Powder], found in a place that is very unique. You'll have to brave your way to the volcano's peak.", "fantasticvoyage-relend-54", false);
-        s.addSound("[8/8] Relend: You'll need those items to craft the bomb, I just told you where to look. If you forget what you need to find, check your quest book.", "fantasticvoyage-relend-55", false);
+        s.addSound("[8/8] Relend: You'll need those items to craft the bomb, I just told you where to look. If you forget what you need to find, check your content book.", "fantasticvoyage-relend-55", false);
         s.addSound("[1/2] Relend: Incredible, the explosive blew right through the stone!", "fantasticvoyage-relend-56", false);
         s.addSound("[2/2] Relend: Let us progress into this mysterious zone.", "fantasticvoyage-relend-57", false);
         s.addSound("[1/8] Relend: For adventurers like us, an incredible cave, perfect to explore.", "fantasticvoyage-relend-58", false);
@@ -8854,10 +8854,10 @@ public class Sounds {
         s.addSound("[5/11] Avos Chieftain: Do you think you're able change the world?! Well, you can't, Ava! This is beyond you!", "thefeathersflypart1-avoschieftain-36", false);
         s.addSound("[6/11] Avos Chieftain: So, for the last time. Stop all of this. I might reconsider your banishment then.", "thefeathersflypart1-avoschieftain-37", false);
         s.addSound("[7/11] Ava: You... You're really serious about that, huh? You'll NEVER change, will you?!", "thefeathersflypart1-ava-138", false);
-        s.addSound("[8/11] Ava: Do you guys have ANY idea how archaic you all are?! A 'final warning'??", "thefeathersflypart1-ava-139", false);
+        s.addSound("[8/11] Ava: Do you guys have ANY idea how archaic you all are?! A ''final warning''??", "thefeathersflypart1-ava-139", false);
         s.addSound("[9/11] Ava: To hell with this! I'll show everyone! I'll show how great we could be! You'll see, chief!", "thefeathersflypart1-ava-140", false);
         s.addSound("[10/11] Avos Chieftain: I can't believe you worked with her, soldier. Well, now you know to avoid her.", "thefeathersflypart1-avoschieftain-38", false);
-        s.addSound("[11/11] Avos Chieftain: ...It appears she left some device on the floor. You might as well take them. And here, take these. We haven't had the chance to thank you regarding the Factory.", "thefeathersflypart1-avoschieftain-39", false);
+        s.addSound("[11/11] Avos Chieftain: ...It appears she left some device on the floor. You might as well take them, I sure don't want it. And here, take these. We haven't had the chance to thank you regarding the Factory.", "thefeathersflypart1-avoschieftain-39", false);
         s.addSound("[1/1] Ava: Hey, don't run  off just like that!", "thefeathersflypart1-ava-141", false);
         s.addSound("[1/1] Ava: Alright, this should be good. Talk to me and I'll explain!", "thefeathersflypart1-ava-142", false);
         s.addSound("[1/1] Ava: Oh, you're back! Talk to me so we can get started!", "thefeathersflypart1-ava-143", false);
@@ -9572,7 +9572,7 @@ public class Sounds {
         s.addSound("[3/5] Crowd: Are they really taking him to the Molten Core? You've heard the horror stories about there, right?", "dwarvesanddogunspart1-crowd-3", true);
         s.addSound("[4/5] Crowd: Well, the expression 'no hope blows from the north' came from there, since it's on the north side...", "dwarvesanddogunspart1-crowd-4", true);
         s.addSound("[5/5] Marock: Apologies, all. I shall provide us all with a quick way back to Rodoroc on the floor here. We hope you enjoyed the show, despite the interruption! ", "dwarvesanddogunspart1-marock-9", true);
-        s.addSound("[1/4] Axelus: You came at the right time, soldier. It's good to see you're still interested in what's really going on here.", "dwarvesanddogunspart1-axelus-9", false);
+        s.addSound("[1/4] Axelus: You came at the right time, soldier. It's good to see you're still interested in what's really going on here..", "dwarvesanddogunspart1-axelus-9", false);
         s.addSound("[1/4] Axelus: I see I got your attention. Interested in the truth.", "dwarvesanddogunspart1-axelus-10", false);
         s.addSound("[1/3] Axelus: Now do you see? Everything that I told you about when we rescued those flerisi was indeed true...", "dwarvesanddogunspart1-axelus-11", false);
         s.addSound("[1/3] Axelus: Well, now you have read what I read. The truth...or the lie.", "dwarvesanddogunspart1-axelus-12", false);
@@ -9890,21 +9890,21 @@ public class Sounds {
 
         //Recipe for Disaster
         s.addSound("[1/8] Chef Hamsey: Ah, bonjour! Welcome to my restaurant, allow me to lead you to your seat-", "recipefordisaster-chefhamsey-1", false);
-        s.addSound("[2/8] Chef Hamsey: Oh, do my eyes decieve me? Serais-ce possible?!", "recipefordisaster-chefhamsey-2", false);
+        s.addSound("[2/8] Chef Hamsey: Oh, do my eyes decieve me? Serait-ce possible?!", "recipefordisaster-chefhamsey-2", false);
         s.addSound("[3/8] Chef Hamsey: It is you... the novice soldier turned hero of legends! Who would have thought?!", "recipefordisaster-chefhamsey-3", false);
-        s.addSound("[4/8] Chef Hamsey: I have heard tales of your exploits across the lands, mon ami! Je suis honore! Someone like you sitting in my restaurant!", "recipefordisaster-chefhamsey-4", false);
-        s.addSound("[5/8] Chef Hamsey: Je suis, bien sur... Le Chef Hamsey! Famed across the lands for my flavours, as you are for your weapon!", "recipefordisaster-chefhamsey-5", false);
-        s.addSound("[6/8] Chef Hamsey: I boast, I boast. Je peu t'offrir un plat... but perhaps I have a different proposition for us both.", "recipefordisaster-chefhamsey-6", false);
+        s.addSound("[4/8] Chef Hamsey: I have heard tales of your exploits across the lands, mon ami! Je suis honoré! Someone like you sitting in my restaurant!", "recipefordisaster-chefhamsey-4", false);
+        s.addSound("[5/8] Chef Hamsey: Je suis, bien sûr... Le Chef Hamsey! Famed across the lands for my flavours, as you are for your weapon!", "recipefordisaster-chefhamsey-5", false);
+        s.addSound("[6/8] Chef Hamsey: I boast, I boast. Je peux t'offrir un plat... but perhaps I have a different proposition for us both.", "recipefordisaster-chefhamsey-6", false);
         s.addSound("[7/8] Chef Hamsey: You may have mastered the art of battle, my friend, but what of. .. L'Art de la Cuisine?!", "recipefordisaster-chefhamsey-7", false);
         s.addSound("[8/8] Chef Hamsey: Follow me into the kitchen behind me, and I will tell you more.", "recipefordisaster-chefhamsey-8", false);
         s.addSound("[1/1] Chef Hamsey: Follow me into the kitchen, mon ami.", "recipefordisaster-chefhamsey-9", false);
         s.addSound("[1/7] Chef Hamsey: Welcome to my kitchen! C'est beau, non?", "recipefordisaster-chefhamsey-10", false);
-        s.addSound("[2/7] Chef Hamsey: It may be on fire, but... que serais la Cuisine sans une touche de danger, eh?!", "recipefordisaster-chefhamsey-11", false);
+        s.addSound("[2/7] Chef Hamsey: It may be on fire, but... que serait la Cuisine sans une touche de danger, eh?!", "recipefordisaster-chefhamsey-11", false);
         s.addSound("[3/7] Chef Hamsey: So, back to the challenge. What do you say to a bit of friendly competition, hehe?", "recipefordisaster-chefhamsey-12", false);
         s.addSound("[4/7] Chef Hamsey: You can work with one of my three best chefs on a dish and present it to me once you're done!", "recipefordisaster-chefhamsey-13", false);
         s.addSound("[5/7] Chef Hamsey: I, of course, will judge your dish on the twenty-nine Principes de Cuisine - texture, presentation, originality...", "recipefordisaster-chefhamsey-14", false);
         s.addSound("[6/7] Chef Hamsey: ... aroma, magical ability.. oh, and flavour!", "recipefordisaster-chefhamsey-15", false);
-        s.addSound("[7/7] Chef Hamsey: S'il te plait! Go introduce yourself to each of my chefs and return once you have decided who to work with!", "recipefordisaster-chefhamsey-16", false);
+        s.addSound("[7/7] Chef Hamsey: S'il te plaît! Go introduce yourself to each of my chefs and return once you have decided who to work with!", "recipefordisaster-chefhamsey-16", false);
         s.addSound("[1/1] Chef Hamsey: Adventurer! You haven't talked to Brie, Kale, or Frank yet, make sure to talk to them before choosing who to work with.", "recipefordisaster-chefhamsey-17", false);
         s.addSound("[1/3] Frank: Yo, dawg. Name's Frank. Pleasure to meet'cha.", "recipefordisaster-frank-1", false);
         s.addSound("[2/3] Frank: Nothin' too sure on what we're gonna cook yet, figure I'll dream somethin' up before the time comes.", "recipefordisaster-frank-2", false);
@@ -10450,7 +10450,7 @@ public class Sounds {
         s.addSound("[2/6] Siegfried: Today, you'll be going with me on one of my glorious adventures.", "heroofgavel-siegfried-9", true);
         s.addSound("[3/6] Siegfried: And to get there, we'll ride in the great Siegfried Airship!", "heroofgavel-siegfried-10", true);
         s.addSound("[4/6] Siegfried: It's up at the airship docks - I'll teleport us there!", "heroofgavel-siegfried-11", true);
-        s.addSound("5/6siegfriedteleport!", "heroofgavel-siegfried-12", true);
+        s.addSound("[5/6] Siegfried: ⓜⓐⓖⓘⓒⓐⓛ ⓜⓐⓖⓘⓒⓚⓨ ⓜⓐⓖⓘⓒ ⓜⓐⓖⓘⓒⓢⓟⓔⓛⓛ, Teleport!", "heroofgavel-siegfried-12", true);
         s.addSound("[6/6] Siegfried: TELEPORT!", "heroofgavel-siegfried-13", true);
         s.addSound("[1/1] Siegfried: Here, follow me onto the airship!", "heroofgavel-siegfried-14", true);
         s.addSound("[1/1] Siegfried: And away we go!", "heroofgavel-siegfried-15", true);
@@ -10576,8 +10576,8 @@ public class Sounds {
         s.addSound("[1/5] Siegfried: Hello there, human! It is I, Siegfried! You must have just missed how I expertly ended the threat of this monster-ridden cave!", "heroofgavel-siegfried-87", true);
         s.addSound("[2/5] Siegfried: Soldier, I'm glad to see you managed to get out alive. That must have been quite a fall into the chasm.", "heroofgavel-siegfried-88", true);
         s.addSound("[3/5] Siegfried: Of course, I got out easily using my spells and great knowledge of caves! Well, I must be off now. Maybe we may meet again if you win the next scavenger hunt!", "heroofgavel-siegfried-89", true);
-        s.addSound("[4/5] ???: As compensation for your unfortunate accident, Siegfried will return you the emeralds spent on purchasing scavenger hunt items.", "heroofgavel-announcer-8", true);
-        s.addSound("[5/5] ???: That should amount to... 5 Liquid Emeralds. We apologize for the difficulties you encountered during your adventure with Siegfried! ", "heroofgavel-announcer-9", true);
+        s.addSound("[4/5] ???: As compensation for your unfortunate accident, Siegfried will return you the emeralds spent on purchasing scavenger hunt items, and some more as compensation.", "heroofgavel-announcer-8", true);
+        s.addSound("[5/5] ???: That should amount to... 5 Liquid Emeralds. We apologize for the difficulties you encountered during your adventure with Siegfried, The Hero of Gavel! ", "heroofgavel-announcer-9", true);
         s.addSound("[1/1] Scavenger Hunt Collector: Come back next month, maybe you'll win again! Who knows what glorious adventure Siegfried will take the next winner on?", "heroofgavel-scavengerhuntcollector-4", false);
 
         //A journey beyond
