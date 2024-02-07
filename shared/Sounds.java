@@ -1882,7 +1882,7 @@ public class Sounds {
         s.addSound("[2/7] Tarek: So what good are words? Yer gotta give the guard somethin' stolen, aintcha!", "kingdomofsand-tarek-4", false);
         s.addSound("[3/7] Geo: And we just so happen to have the opportunity of a lifetime for you. Rymek has gone soft see, a new Mayor is cleaning things up.", "kingdomofsand-geo-3", false);
         s.addSound("[4/7] Tarek: Well, we can't have government not under our control. Rymek will always be bandit capital.", "kingdomofsand-tarek-5", false);
-        s.addSound("[5/7] Geo: So how about we give him a taste of his own medicine, and get hold of that journal he keeps? I’m sure that’ll dig up some dirt on him", "kingdomofsand-geo-4", false);
+        s.addSound("[5/7] Geo: So how about we give him a taste of his own medicine, and get hold of that journal he keeps? I’m sure that’ll dig up some dirt on him.", "kingdomofsand-geo-4", false);
         s.addSound("[6/7] Tarek: And by \"we\", we mean you. You'll have to sneak through the mansion and avoid guards.", "kingdomofsand-tarek-6", false);
         s.addSound("[7/7] Tarek: He keeps his journal in the highest room. Might need to distract some guards too. It's the biggest mansion in Rymek, can't miss it.", "kingdomofsand-tarek-7", false);
         s.addSound("[1/3] Tarek: Yer know you could get kicked out of the army fer this.", "kingdomofsand-tarek-8", false);
