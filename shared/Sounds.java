@@ -1899,7 +1899,7 @@ public class Sounds {
         s.addSound("[6/7] Bandit Boss: Silence you fool. Didn’t I just say it was imperative no one found the sceptre?", "kingdomofsand-banditboss-4", false);
         s.addSound("[7/7] Bandit Boss: Right, go steal some things or something, I have real work to do.", "kingdomofsand-banditboss-5", false);
         s.addSound("[1/3] Bandit Leader: I knew someone was listening.", "kingdomofsand-banditleader-1", false);
-        s.addSound("[2/3] Bandit Leader: We might be bandits, but we’re not stupid. That sceptre is left better off alone", "kingdomofsand-banditleader-2", false);
+        s.addSound("[2/3] Bandit Leader: We might be bandits, but we’re not stupid. That sceptre is left better off alone.", "kingdomofsand-banditleader-2", false);
         s.addSound("[3/3] Desert Raider: Seize ‘em!", "kingdomofsand-desertraider-1", false);
         s.addSound("[1/5] Lanu: You actually got it! I knew I could count on you. Lets try this!", "kingdomofsand-lanu-11", false);
         s.addSound("[2/5] Lanu: Huh? We got no time for superstition, we need to break that seal.", "kingdomofsand-lanu-12", false);
@@ -2087,18 +2087,18 @@ public class Sounds {
         s.addSound("[4/8] Excavator Admin Uci: This time we won, and you lost.", "wynnexcavationd-excavatoradminuci-4", false);
         s.addSound("[5/8] Excavator Admin Uci: What do your shards mean to us when we have all four crystals?", "wynnexcavationd-excavatoradminuci-5", false);
         s.addSound("[6/8] Excavator Admin Uci: Nothing, that's what.", "wynnexcavationd-excavatoradminuci-6", false);
-        s.addSound("[7/8] Excavator Admin Uci: The boss wants to speak to you. I don't recommend keeping him waiting, he's not a patient man.", "wynnexcavationd-excavatoradminuci-7", false);
+        s.addSound("[7/8] Excavator Admin Uci: The boss wants to speak to you, I don't recommend keeping him waiting, he's not a patient man.", "wynnexcavationd-excavatoradminuci-7", false);
         s.addSound("[8/8] Excavator Admin Uci: He'll be waiting for you, head through that door.", "wynnexcavationd-excavatoradminuci-8", false);
         s.addSound("[1/1] Excavator Sean: My boss Uci is a bit of a mean guy, but hey the perks of minionship aren't bad!", "wynnexcavationd-excavatorsean-1", false);
-        s.addSound("[1/1] WynnExcavation Scientist Azure: This leads deeper into this dungeon, but it seems like it has to be activated from the other side", "wynnexcavationd-wynnexcavationscientistazure-1", false);
+        s.addSound("[1/1] WynnExcavation Scientist Azure: This leads deeper into this dungeon, but it seems like it has to be activated from the other side.", "wynnexcavationd-wynnexcavationscientistazure-1", false);
         s.addSound("[1/8] WynnExcavation Leader Amadel: Well, well. Looks like you've finally made it.", "wynnexcavationd-amadel-9", false);
         s.addSound("[2/8] WynnExcavation Leader Amadel: You might be a little shocked to see me here...", "wynnexcavationd-amadel-10", false);
         s.addSound("[3/8] WynnExcavation Leader Amadel: Everything was planned you see...", "wynnexcavationd-amadel-11", false);
         s.addSound("[4/8] WynnExcavation Leader Amadel: You finding that old fool in the desert, you surviving that fall.", "wynnexcavationd-amadel-12", false);
         s.addSound("[5/8] WynnExcavation Leader Amadel: You finding that notebook, and eventually meeting me.", "wynnexcavationd-amadel-13", false);
         s.addSound("[6/8] WynnExcavation Leader Amadel: Everything that you have done has been planned by the mastermind behind this organisation, me.", "wynnexcavationd-amadel-14", false);
-        s.addSound("[7/8] WynnExcavation Leader Amadel: You don't get it, do you? We needed you. The Ancient Crystals of Wynn are an old magic, and a powerful one at that.", "wynnexcavationd-amadel-15", false);
-        s.addSound("[8/8] WynnExcavation Leader Amadel: We needed you, a human of pure intention to bring empowered shards here, it's just part of how it all works, I wouldn't expect you to understand. Enough talk now.", "wynnexcavationd-amadel-16", false);
+        s.addSound("[7/8] WynnExcavation Leader Amadel: You don't get it, do you? We needed you from the start. These otherworldly crystals are a powerful magic, but a dangerous one at that.", "wynnexcavationd-amadel-15", false);
+        s.addSound("[8/8] WynnExcavation Leader Amadel: We needed you, an unaware human with some form of pure intent to bring empowered shards here. Anyone else would have ran off with the shards, and turned against us. It's just how it all works. I don't expect you to understand.. Now. Enough talking.", "wynnexcavationd-amadel-16", false);
         s.addSound("[1/1] WynnExcavation Leader Amadel: Step into this hole, and accept your fate. It's over, you've lost!", "wynnexcavationd-amadel-17", false);
         s.addSound("[1/2] Amadel's Assistant: I see you have finally shown up.", "wynnexcavationd-amadelsassistant-1", false);
         s.addSound("[2/2] Amadel's Assistant: There is no chance someone as weak as you can beat Amadel!", "wynnexcavationd-amadelsassistant-2", false);
@@ -2106,13 +2106,13 @@ public class Sounds {
         s.addSound("[1/2] Amadel's Assistant: That was a mere fluke..", "wynnexcavationd-amadelsassistant-3", false);
         s.addSound("[2/2] Amadel's Assistant: Amadel is unbeatable!", "wynnexcavationd-amadelsassistant-4", false);
         s.addSound("[1/1] Shadow Amadel: I- I- I feel... unstopable.. this power... will not allow me to lose..!!!", "wynnexcavationd-amadel-19", false);
-        s.addSound("[1/2] Amadel's Assistant: He's simply warming up...", "wynnexcavationd-amadelsassistant-5", false);
+        s.addSound("[1/2] Amadel's Assistant: He's simply warming up..", "wynnexcavationd-amadelsassistant-5", false);
         s.addSound("[2/2] Amadel's Assistant: THIS ISN'T EVEN HIS FINAL FORM!", "wynnexcavationd-amadelsassistant-6", false);
         s.addSound("[1/1] Amadel: DID YOU REALLY THINK YOU COULD WIN?!?! YOU ARE NOTHING COMPARED TO ME! NOTHING!! I WILL EXTERMINATE ALL LIFE, STARTING WITH YOU!! NOW, PERISH!!!", "wynnexcavationd-amadel-20", false);
         s.addSound("[1/2] Amadel's Assistant: I, I can't believe you beat him...", "wynnexcavationd-amadelsassistant-7", false);
         s.addSound("[2/2] Amadel's Assistant: Amadel was a god...He was going to save the province...", "wynnexcavationd-amadelsassistant-8", false);
         s.addSound("[1/18] Ragni's King: You... hmm... Ahh yes! I remember you. You're one of the recruits I accepted long ago..", "wynnexcavationd-ragnisking-1", false);
-        s.addSound("[2/18] Ragni's King: I'm no mage, but what you have there may just be the most destructive force in the entire world.", "wynnexcavationd-ragnisking-2", false);
+        s.addSound("[2/18] Ragni's King: I'm no mage, but what you have there may just be one of the most destructive forces in the entire world.", "wynnexcavationd-ragnisking-2", false);
         s.addSound("[3/18] Ragni's King: I remember being told something by my adoptive father, and he was a king of Ragni himself!", "wynnexcavationd-ragnisking-3", false);
         s.addSound("[4/18] Ragni's King: He told me that the Wynn province will never find solace. I never truly understood why, until now.", "wynnexcavationd-ragnisking-4", false);
         s.addSound("[5/18] Ragni's King: You see, many  forces are at work on our lands that we cannot physically see, but the outcome of the influences cannot be ignored.", "wynnexcavationd-ragnisking-5", false);
@@ -2122,7 +2122,7 @@ public class Sounds {
         s.addSound("[9/18] Ragni's King: I think those crystals represent a force far beyond what we can grasp, and if that power can turn one man into what you fought back there,  I shudder to think what else it could do.", "wynnexcavationd-ragnisking-9", false);
         s.addSound("[10/18] Ragni's King: The Olm in the jungle clearly knew of this, too, as they met their eventual demise. Their desperation most likely led to them attempting to harness that power, as well.", "wynnexcavationd-ragnisking-10", false);
         s.addSound("[11/18] Ragni's King: These are things that the mages of the ocean have studied in secret for centuries. We may never know, and rather, I think we never should know.", "wynnexcavationd-ragnisking-11", false);
-        s.addSound("[12/18] Ragni's King: If Amadel taught us anything, it's that we can never be trusted with power. Here, put that crystal into the lava. Let it burn and never be used.", "wynnexcavationd-ragnisking-12", false);
+        s.addSound("[12/18] Ragni's King: If Amadel taught us anything, it's that we can never be trusted with power. Here, put that crystal into the lava. Let it burn and never be used. The king places the crystals in the lava, and watches them sink.", "wynnexcavationd-ragnisking-12", false);
         s.addSound("[13/18] Ragni's King: Though it contains some of the most concentrated magical power ever, it is still limited to its container. Let it burn.", "wynnexcavationd-ragnisking-13", false);
         s.addSound("[14/18] Ragni's King: I do not know the severity of the Excavation's integration into the powers of Gavel, but I bet we haven't seen the last of them.", "wynnexcavationd-ragnisking-14", false);
         s.addSound("[15/18] Ragni's King: You have done this province an unspeakable service. I believe that even Bob is smiling down on you, today. I'm sure that if he were here with us, he would crown you worthy.", "wynnexcavationd-ragnisking-15", false);
@@ -2603,10 +2603,10 @@ public class Sounds {
         s.addSound("[8/10] Dado: Harnort! I'M Dado! This sicko mugged me for info! They're gonna ruin us both!", "riseofthequartron-dado-14", false);
         s.addSound("[9/10] Harnort: Guards!! GUARDS!! Capture them! Stop them! Tie them up, do something!! Our research can't go to waste, not at this vital point!!", "riseofthequartron-harnort-6", false);
         s.addSound("[10/10] Dado: HA! That's what you get for showing me that amazi- HORRIBLE flower! Outta here!", "riseofthequartron-dado-15", false);
-        s.addSound("[1/1] Guard: Knock 'em down, boys!", "riseofthequartron-guard-2", false);
-        s.addSound("[1/1] Guard: Aah, they're really tough!! Don't let them take down more of my buddies!", "riseofthequartron-guard-3", false);
-        s.addSound("[1/1] Guard: Why are we fighting face-to-face?! They're destroying us!!", "riseofthequartron-guard-4", false);
-        s.addSound("[1/1] Guard: What the hell are humans made of?! Overwhelm them!! We hardly have any guys left!", "riseofthequartron-guard-5", false);
+        s.addSound("[1/4] Guard: Knock 'em down, boys!", "riseofthequartron-guard-2", false);
+        s.addSound("[2/4] Guard: Aah, they're really tough!! Don't let them take down more of my buddies!", "riseofthequartron-guard-3", false);
+        s.addSound("[3/4] Guard: Why are we fighting face-to-face?! They're destroying us!!", "riseofthequartron-guard-4", false);
+        s.addSound("[4/4] Guard: What the hell are humans made of?! Overwhelm them!! We hardly have any guys left!", "riseofthequartron-guard-5", false);
         s.addSound("[1/5] Harnort: ...so it's come to this then. I knew the names of all those guards. I didn't hurt anyone to meet my goal.", "riseofthequartron-harnort-7", false);
         s.addSound("[2/5] Harnort: You...I won't let their sacrifices be in vain! Llevigar needs to see what quartz is truly capable of! I MUST show them.", "riseofthequartron-harnort-8", false);
         s.addSound("[3/5] Harnort: My Quartrons are the future! They need to see it! It will have been worth the scheming, and the thieving, and the burnt bridges!", "riseofthequartron-harnort-9", false);
@@ -10420,12 +10420,12 @@ public class Sounds {
         s.addSound("[7/8] Trials Overseer: I think we'll just have to keep this locked up nice n' tight once we get back. We'll be sure to tie this little cataclysm-in-a-box down much safer th'n those idiot men did.", "royaltrials-trialsoverseer-31", false);
         s.addSound("[8/8] Trials Overseer: Aha! Just gettin' back now. Let's head down and start the ceremony, shall we?", "royaltrials-trialsoverseer-32", false);
         s.addSound("[1/3] Trials Overseer: I am pleased to introduce our 734th Skyraider Queen. Fer the sake of our people, let her reign last more than two weeks.", "royaltrials-trialsoverseer-33", false);
-        s.addSound("[2/3] Trials Overseer: I, on behalf on the rest of the Skyraider people, have the honor of decoratin' you with the highest decoration of the Skyraiders, The Queen’s Headpiece.", "royaltrials-trialsoverseer-34", false);
+        s.addSound("[2/3] Trials Overseer: I, on behalf on the rest of the Skyraider people, have the honor of decoratin' you with the highest decoration of the Skyraiders, [The Queen’s Headpiece].", "royaltrials-trialsoverseer-34", false);
         s.addSound("[3/3] Trials Overseer: Please use your sovereignty to lead us to the riches we deserve.", "royaltrials-trialsoverseer-35", false);
         s.addSound("[1/4] Trials Overseer: Yer Majesty. What an honour to have such a beautiful queen.", "royaltrials-trialsoverseer-36", false);
-        s.addSound("[2/4] Trials Overseer: Now, we must crown ye, and give you yer reward.", "royaltrials-trialsoverseer-37", false);
+        s.addSound("[2/4] Trials Overseer: Now that ye've been crown, we must give ye the reward.", "royaltrials-trialsoverseer-37", false);
         s.addSound("[3/4] Trials Overseer: Benefits of being a queen I 'spose.", "royaltrials-trialsoverseer-38", false);
-        s.addSound("[4/4] Trials Overseer: Please accept this, your majesty.", "royaltrials-trialsoverseer-39", false);
+        s.addSound("[4/4] Trials Overseer: Please accept this, yer majesty.", "royaltrials-trialsoverseer-39", false);
         s.addSound("[1/1] Trials Overseer: Greetings, your majesty!", "royaltrials-trialsoverseer-40", false);
 
 
@@ -10575,7 +10575,7 @@ public class Sounds {
         s.addSound("[5/9] Siegfried: Hah, don't mind that jokester over there. He does have an impressive costume though!", "heroofgavel-siegfried-82", true);
         s.addSound("[6/9] Siegfried: Look over there! Those must be fireworks to celebrate my victory!", "heroofgavel-siegfried-83", true);
         s.addSound("[7/9] Siegfried: Well, anyways! You had a really bad fall in that cave there. I carried you out myself, you must've had some wild hallucinations.", "heroofgavel-siegfried-84", true);
-        s.addSound("[8/9] Siegfried: Even though it was your own mistake, I'll return you the emeralds you spent on the scavenger hunt. What was it, [5 Liquified Emeralds]?", "heroofgavel-siegfried-85", true);
+        s.addSound("[8/9] Siegfried: Even though it was your own mistake, I'll return you the emeralds you spent on the scavenger hunt.. and some more as compensation. That'll be.. [5 Liquified Emeralds]!", "heroofgavel-siegfried-85", true);
         s.addSound("[9/9] Siegfried: I must return to Ahmsord for the celebration now. Perhaps we will meet again at the next scavenger hunt!", "heroofgavel-siegfried-86", true);
         s.addSound("[1/5] Siegfried: Hello there, human! It is I, Siegfried! You must have just missed how I expertly ended the threat of this monster-ridden cave!", "heroofgavel-siegfried-87", true);
         s.addSound("[2/5] Siegfried: Soldier, I'm glad to see you managed to get out alive. That must have been quite a fall into the chasm.", "heroofgavel-siegfried-88", true);
