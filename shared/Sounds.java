@@ -698,8 +698,8 @@ public class Sounds {
         s.addSound("[1/5] Enkser: Looking for able-bodied adventurers, preferably with no friends or-", "stablestory-enkser-10", false);
         s.addSound("[2/5] Enkser: Hey, it's you! Got my barn key?", "stablestory-enkser-11", false);
         s.addSound("[3/5] Enkser: Ah, god bless. And I presume Betty did all the work while you just- lounged around.", "stablestory-enkser-12", false);
-        s.addSound("[4/5] Enkser: I kid! I kid. But as the great bovine above is my witness if I see the smallest bruise I will-", "stablestory-enkser-13", false);
-        s.addSound("[5/5] Enkser: Nevermind all that. A horse I promised, and a horse you shall have. Much thanks to you.", "stablestory-enkser-14", false);
+        s.addSound("[4/5] Enkser: I kid! I kid. But as the great bovine above as my witness if I see the smallest bruise I will-", "stablestory-enkser-13", false);
+        s.addSound("[5/5] Enkser: Eh, nevermind all that. A horse I promised, and a horse you shall have. Much thanks to you.", "stablestory-enkser-14", false);
         s.addSound("[1/1] Enkser: Hey! Look who's here! So, how's the horse doing?", "stablestory-enkser-15", false);
         s.addSound("[1/1] Enkser: Aaah dang! I had some work for you, but I can't ask such a low level. Come back when you are level 13!", "stablestory-enkser-16", false);
         s.addSound("[1/1] Enkser: Hey, where do you think you're going? You can't just buy a horse like that! Talk to me if you want access... dang tourists...", "stablestory-enkser-17", false);
