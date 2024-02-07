@@ -2078,7 +2078,7 @@ public class Sounds {
         s.addSound("[5/8] Traitor Amadel: They control our governments, authorities and seem to be 3 steps ahead of any of us that oppose them.", "wynnexcavationd-amadel-5", false);
         s.addSound("[6/8] Traitor Amadel: That is, unless we're able to beat the excavationists to the last crystal.", "wynnexcavationd-amadel-6", false);
         s.addSound("[7/8] Traitor Amadel: They cannot use a single shard of power without combining them all.", "wynnexcavationd-amadel-7", false);
-        s.addSound("[8/8] Traitor Amadel: Here, I've combined the map fragments behind me. It looks it's deep in the jungle, I wonder where...", "wynnexcavationd-amadel-8", false);
+        s.addSound("[8/8] Traitor Amadel: Here, I've combined the map fragments behind me. It looks like it's deep in the jungle, I wonder where...", "wynnexcavationd-amadel-8", false);
         s.addSound("[1/1] Traitor Buice: WynnExcavation have done really horrible things, and I used to help...", "wynnexcavationd-traitorbuice-1", false);
         s.addSound("[1/1] Traitor Jaynar: WynnExcavation will be destroyed, no matter what!", "wynnexcavationd-traitorjaynar-1", false);
         s.addSound("[1/8] Excavator Admin Uci: Oh my. It's you. I can't say I'm surprised to see you, we thought you might be stupid enough to come here.", "wynnexcavationd-excavatoradminuci-1", false);
@@ -4951,6 +4951,8 @@ public class Sounds {
         s.addSound("[2/6] Burtur: Though, if you could spare some time, the town could use you-", "lazaruspit-burtur-2", true);
         s.addSound("[3/6] Burtur: Wait, already?! It's only been a day since last! How insatiable are they...?", "lazaruspit-burtur-3", true);
         s.addSound("[4/6] Gelibord Guard: THE UNDEAD HAVE OVERWHELMED THE GOLEMS! EVERY CITIZEN FOR THEMSELVES!!", "lazaruspit-gelibordguard-1", true);
+        //[5/6] Burtur: This is what I was talking about! We need your help with this! You Wynn folk are good at killing zombies, right?!
+        //[6/6] Burtur: We need help with this! Defend the town with us!
         s.addSound("[1/1] Gelibord Guard: The horde's retreating, but we have one citizen dead! Regroup at the square and prepare the pyres!", "lazaruspit-gelibordguard-2", true);
         s.addSound("[1/1] Burtur: Hey! Over there, you alright? Come talk to me, I can explain what just happened.", "lazaruspit-burtur-6", true);
         s.addSound("[1/11] Burtur: Phew. That was a smaller horde, thankfully... Still, good thing you were there. That could have been worse.", "lazaruspit-burtur-7", true);
@@ -4966,9 +4968,11 @@ public class Sounds {
         s.addSound("[1/2] Burtur: Oh, you found something? Well, color me shocked that there was any stock to Referick's ranting...", "lazaruspit-burtur-16", false);
         s.addSound("[1/3] Lord Plaatic the Kind: Ugh. And who put YOU in charge of waking me up? Where's Gwendolyn, my maid? Incompetents- she was supposed to be buried with me too!", "lazaruspit-lordplaaticthekind-1", false);
         s.addSound("[1/2] Lord Plaatic the Kind: Ah, my favorite little weird-small-nosed-person! The graveyard is so lovely when it's quiet- you really did do a good job!", "lazaruspit-lordplaaticthekind-2", false);
+        //[2/2] Lord Plaatic the Kind: As important as I am, you must still check with the other graves, though you certainly have my blessing to enter.
         s.addSound("[1/3] Poclo Wabblebuff of Gelibord: Greetings! Thank goodness, that dreary old tomb was simply awful. No furniture, no natural light, not even a lick of paint! So drab, the whole thing.", "lazaruspit-poclowabblebuffofgelibord-1", false);
         s.addSound("[1/3] Poclo Wabblebuff of Gelibord: So, is Mrs. Fluffles doing alright without me? Oh, I bet she was so affectionate, always such a softie!", "lazaruspit-poclowabblebuffofgelibord-2", false);
         s.addSound("[2/3] Poclo Wabblebuff of Gelibord: W-wait, Mrs. Fluffles... She was...d-dead? No... It can't be! I left her a lifetime supply of food! ", "lazaruspit-poclowabblebuffofgelibord-3", false);
+        //[3/3] Poclo Wabblebuff of Gelibord: You! You killed Mrs. Fluffles, it's the only explanation!! HOW COULD YOU DO SUCH A THING?!
         s.addSound("[2/3] Poclo Wabblebuff of Gelibord: Oh, thank you so much! I was so worried that after my death she wouldn't be okay... What a relief!", "lazaruspit-poclowabblebuffofgelibord-4", false);
         s.addSound("[1/1] Uggword Pollywaggon the Murderous: I oughta deck you for waking me up!! Don't you realize it's RUDE to re-animate the long-dead corpse of a murderer when he's trying to get his beauty death?!", "lazaruspit-uggwordpollywaggonthemurderous-1", false);
         s.addSound("[1/4] Sir Pigglesworth the Thirty-Fifth: My goodness! Ah, it feels good to stretch these old bones. It's not easy being cooped up in a coffin, you know.", "lazaruspit-sirpigglesworththethirty-fifth-1", false);
