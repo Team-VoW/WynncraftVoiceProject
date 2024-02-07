@@ -2328,6 +2328,7 @@ public class Sounds {
         s.addSound("[1/5] Telvu: Aha, quick job. I see you've got the wand. Must've needed a sharp tongue to get the bankers to give it up.", "fateofthefallen-telvu-10", false);
         s.addSound("[2/5] Telvu: Now, it is a long walk to Time Valley. Needn't take that walk, though, as I can teleport you there. Hopefully.", "fateofthefallen-telvu-11", false);
         s.addSound("[3/5] Telvu: Once you're there, enter the Temple of Time. You should know what to do once you are there. Careful dealing with time travel, friend... No idea what you might find.", "fateofthefallen-telvu-12", false);
+        //[4/5] Telvu: Just step into the portal.
         s.addSound("[5/5] Telvu: Should anything go wrong, I'll stay here to teleport you back to the temple.", "fateofthefallen-telvu-13", false);
         s.addSound("[1/7] Psern: What the...", "fateofthefallen-psern-1", false);
         s.addSound("[2/7] Psern: Woah, your weaponry and armour is so advanced!", "fateofthefallen-psern-2", false);
@@ -8360,23 +8361,23 @@ public class Sounds {
         s.addSound("[1/1] Challenger Apprentice: I see you have mustered the power to defeat all four challenges. You have my utmost respect.", "enterthedojo-challengerapprentice-5", false);
         s.addSound("[1/1] Challenger Apprentice: I congratulate you my friend on your success in the challenges, but the real reward in this situation is the experience, not the physical reward!", "enterthedojo-challengerapprentice-6", false);
         s.addSound("[1/1] Challenger Apprentice: I congratulate you on your recent success regarding the four challenges. I envy you and your success.", "enterthedojo-challengerapprentice-7", false);
-        s.addSound("[1/1] Sensei Miyagi: Here we are then- The  Room. Here tests your agility! Even these old bones can scale this room in short order- How shall you fare?", "enterthedojo-senseimiyagi-10", true);
-        s.addSound("[1/3] Sensei Miyagi: I recognize your skill, and you have passed the challenge of the  Room! Hoho, but the next challenge has defeated many an apprentice.", "enterthedojo-senseimiyagi-11", false);
-        s.addSound("[2/3] Sensei Miyagi: Now, comes the  Room! Here, your combat prowess shall be put to the test. Martial skill comes easily to me...but what of your own?", "enterthedojo-senseimiyagi-12", false);
+        s.addSound("[1/1] Sensei Miyagi: Here we are then- The ⓛⓤⓕⓐⓡ Room. Here tests your agility! Even these old bones can scale this room in short order- How shall you fare?", "enterthedojo-senseimiyagi-10", true);
+        s.addSound("[1/3] Sensei Miyagi: I recognize your skill, and you have passed the challenge of the ⓛⓤⓕⓐⓡ Room! Hoho, but the next challenge has defeated many an apprentice.", "enterthedojo-senseimiyagi-11", false);
+        s.addSound("[2/3] Sensei Miyagi: Now, comes the ⓕⓘⓐⓣⓐ Room! Here, your combat prowess shall be put to the test. Martial skill comes easily to me...but what of your own?", "enterthedojo-senseimiyagi-12", false);
         s.addSound("[3/3] Sensei Miyagi: I hear many things about human combat skill, so I believe I shall watch this challenge myself. Enter now, challenger!", "enterthedojo-senseimiyagi-13", false);
         s.addSound("[1/1] Sensei Miyagi: Defeat the dummies, and bring their tokens to the door! Simple, yes?", "enterthedojo-senseimiyagi-14", false);
         s.addSound("[1/1] Sensei Miyagi: Show no fear, challenger! There is no shame in failing.", "enterthedojo-senseimiyagi-15", false);
-        s.addSound("[1/1] Sensei Miyagi: And worry not, the  Room is reinforced against all manner of attacks. Run wild, hoho!", "enterthedojo-senseimiyagi-16", false);
+        s.addSound("[1/1] Sensei Miyagi: And worry not, the ⓕⓘⓐⓣⓐ Room is reinforced against all manner of attacks. Run wild, hoho!", "enterthedojo-senseimiyagi-16", false);
         s.addSound("[1/1] Sensei Miyagi: It is fascinating to see how you battle. Very different from my stylings!", "enterthedojo-senseimiyagi-17", false);
-        s.addSound("[1/4] Sensei Miyagi: And I am to recognize your combat skill, and proclaim your passage of the  Room. Well done!", "enterthedojo-senseimiyagi-18", false);
-        s.addSound("[2/4] Sensei Miyagi: Next, however, is not a challenge of physical skill, but of observation and logical reasoning, in this- the Room. Here, a puzzle awaits.", "enterthedojo-senseimiyagi-19", false);
+        s.addSound("[1/4] Sensei Miyagi: And I am to recognize your combat skill, and proclaim your passage of the ⓕⓘⓐⓣⓐ Room. Well done!", "enterthedojo-senseimiyagi-18", false);
+        s.addSound("[2/4] Sensei Miyagi: Next, however, is not a challenge of physical skill, but of observation and logical reasoning, in this- the ⓒⓛⓘⓢⓣⓔ Room. Here, a puzzle awaits.", "enterthedojo-senseimiyagi-19", false);
         s.addSound("[3/4] Sensei Miyagi: You must discern the path in order to bring the red block to the gold block. Simple in theory...complex in practice, as are many things.", "enterthedojo-senseimiyagi-20", false);
         s.addSound("[4/4] Sensei Miyagi: Remember this as you work- Change your perspective, and the reality changes.", "enterthedojo-senseimiyagi-21", false);
-        s.addSound("[1/4] Sensei Miyagi: And there, I recognize your mental acuity! You have passed the Room. You are doing quite well, but many have gotten to this point and had a single point stymie them.", "enterthedojo-senseimiyagi-22", false);
-        s.addSound("[2/4] Sensei Miyagi: Welcome then, to the last challenge I offer you, held within the Room and cavern.", "enterthedojo-senseimiyagi-23", false);
+        s.addSound("[1/4] Sensei Miyagi: And there, I recognize your mental acuity! You have passed the ⓒⓛⓘⓢⓣⓔ Room. You are doing quite well, but many have gotten to this point and had a single point stymie them.", "enterthedojo-senseimiyagi-22", false);
+        s.addSound("[2/4] Sensei Miyagi: Welcome then, to the last challenge I offer you, held within the ⓢⓘⓣⓗⓔⓐⓒⓗ Room and cavern.", "enterthedojo-senseimiyagi-23", false);
         s.addSound("[3/4] Sensei Miyagi: Your task here, is to become tranquil, and at peace with nature. What that entails... I leave up to you.", "enterthedojo-senseimiyagi-24", false);
         s.addSound("[4/4] Sensei Miyagi: There are many paths to tranquility. Whatever you choose, you will know when you have reached the point of success.", "enterthedojo-senseimiyagi-25", false);
-        s.addSound("[1/7] Sensei Miyagi: I see it now. The troubled heart you came here with is troubled no longer. I recognize your mastery of the Room.", "enterthedojo-senseimiyagi-26", false);
+        s.addSound("[1/7] Sensei Miyagi: I see it now. The troubled heart you came here with is troubled no longer. I recognize your mastery of the ⓢⓘⓣⓗⓔⓐⓒⓗ Room.", "enterthedojo-senseimiyagi-26", false);
         s.addSound("[2/7] Sensei Miyagi: Oh hoho... It is just like a human to do what cannot be done. That is each challenge of my humble dojo, completed!", "enterthedojo-senseimiyagi-27", false);
         s.addSound("[3/7] Sensei Miyagi: So! While I did advise you not to feel pressured of it, I am curious, young master. Do you wish to take my place here, so I may sit these old bones down?", "enterthedojo-senseimiyagi-28", false);
         s.addSound("[4/7] Sensei Miyagi: ...Ah, of course not. Despite your mastery, this is merely a single step on your journey. Needn't worry, I understand completely.", "enterthedojo-senseimiyagi-29", false);
@@ -8880,7 +8881,7 @@ public class Sounds {
         s.addSound("[1/5] Gardener: ...Huh? An audience? Are you crazy?", "thefeathersflypart2-gardener-2", false);
         s.addSound("[1/5] Weaponsmith: Oh, are you interested in getting an audience too?!", "thefeathersflypart2-weaponsmith-1", false);
         s.addSound("[1/6] Corkus Citizen: Oh, please don't mention the word \"audience\" to me!", "thefeathersflypart2-corkuscitizen-1", false);
-        s.addSound("[1/4] Corkus Citizen: Hey kid. An audience, huh? Eheheh... I do have an idea...", "thefeathersflypart2-corkuscitizen-2", false);
+        s.addSound("[1/4] Corkus Citizen: Why hello there you two! Whaddya want? An audience, huh? Eheh...", "thefeathersflypart2-corkuscitizen-2", false);
         s.addSound("[1/1] Corkus Citizen: Why thank you! 't was a pleasure doing business with you keheh... Good luck!", "thefeathersflypart2-corkuscitizen-3", true);
         s.addSound("[1/5] Receptionist: ...Wait, who are YOU?", "thefeathersflypart2-receptionist-1", false);
         s.addSound("[1/1] ???: OUT!", "thefeathersflypart2-receptionist-2", false);
@@ -8975,7 +8976,7 @@ public class Sounds {
         s.addSound("[1/3] Dwice: This almost reminds me of, uuuh...", "thefeathersflypart2-dwice-3", false);
         s.addSound("[2/3] Dwice: Hold on, it's on the tip of my tongue...", "thefeathersflypart2-dwice-4", false);
         s.addSound("[3/3] Dwice: Ah right, Avos magic! Right??", "thefeathersflypart2-dwice-5", false);
-        s.addSound("[1/1] Efena: So, soldier knows how to handle machines too? Nifty!", "thefeathersflypart2-efena-29", false);
+        s.addSound("[1/1] Efena: So soldier knows how to handle machines too? Nifty!", "thefeathersflypart2-efena-29", false);
         s.addSound("[4/6] Maxie: Wait, don't overdo it!", "thefeathersflypart2-maxie-6", false);
         s.addSound("[6/6] Maxie: Wait, that magic, that's... No...", "thefeathersflypart2-maxie-7", false);
         s.addSound("[1/10] Efena: Oh my... Oh my grook. This is... Wow...", "thefeathersflypart2-efena-30", false);
@@ -9205,7 +9206,7 @@ public class Sounds {
         s.addSound("[3/3] Ava: I'll go back to the town center. It's up to you if you want to risk all that money, if you even have it! We'll figure something else out.", "thefeathersflypart2-ava-105", false);
         s.addSound("[4/6] Ava: Oh, uh, we, well I actually made a, uh, what's it called, uh...", "thefeathersflypart2-ava-106", false);
         s.addSound("[1/6] Ava: That certainly didn't go well. But keep your head up! We got this!", "thefeathersflypart2-ava-107", false);
-        s.addSound("[2/6] Ava: There was a normal way to get an audience which is via a competition. We... missed it. So that'll have to pass.", "thefeathersflypart2-ava-108", false);
+        s.addSound("[2/6] Ava: There was a normal way to get an audience which is via a monthly competition of some sort, I think? We, uh... missed it. So that'll have to pass.", "thefeathersflypart2-ava-108", false);
         s.addSound("[3/6] Ava: Now, for other... Unconventional ways... There was some panic by the Armour Merchant earlier today.", "thefeathersflypart2-ava-109", false);
         s.addSound("[4/6] Ava: Check it out if you want, I won't cause trouble. I'd rather be the friendly neighbourhood mechanic!", "thefeathersflypart2-ava-110", false);
         s.addSound("[5/6] Ava: There is apparently a dealer in the castle the receptionist's in, first entrance to the left. However, He charges emeralds...", "thefeathersflypart2-ava-111", false);
@@ -9285,7 +9286,7 @@ public class Sounds {
         s.addSound("[1/4] Ava: This is really it, then. No backing down now.", "thefeathersflypart2-ava-185", false);
         s.addSound("[2/4] Ava: I'll just try not to replicate my mistake back then with the Avos.", "thefeathersflypart2-ava-186", false);
         s.addSound("[3/4] Ava: It's time to show them. I don't really have anything extra to tell you.", "thefeathersflypart2-ava-187", false);
-        s.addSound("[4/4] Ava: It's as the president just said. Do your thing.", "thefeathersflypart2-ava-188", false);
+        s.addSound("[4/4] Ava: It's as the president just said, soldier. Do your thing..", "thefeathersflypart2-ava-188", false);
         s.addSound("[1/2] Ava: Here.", "thefeathersflypart2-ava-189", false);
         s.addSound("[2/2] Ava: All of you, watch carefully!", "thefeathersflypart2-ava-190", false);
         s.addSound("[1/1] Ava: No... No no no no..! Just hold on, guys!", "thefeathersflypart2-ava-191", false);
@@ -10277,8 +10278,8 @@ public class Sounds {
         s.addSound("[2/5] Chieftain Paku: Hm... You may be correct... Draani. The magic in... a dragon’s breath... was very potent. And to think... mighty Ozoth had survived... all these years...", "thebreakingpoint-chieftainpaku-8", false);
         s.addSound("[3/5] Ineos: If Ozoth is alive... we must seek her help. If the doguns ask... for her aid, she will... give it.", "thebreakingpoint-ineos-22", false);
         s.addSound("[4/5] King Draani: Well, that’s as good a plan as any. soldier, you’ll travel to seek this dragon’s counsel, along with... Ineos, was it? Good luck.", "thebreakingpoint-kingdraani-66", false);
-        s.addSound("[5/5] Ineos: You should... take the Trading Tunnel... soldier. I will put the coordinates... in your Quest Book.", "thebreakingpoint-ineos-23", false);
-        s.addSound("[1/1] Ineos: You should... take the Trading Tunnel... soldier. I have put the coordinates... in your Quest Book.", "thebreakingpoint-ineos-24", false);
+        s.addSound("[5/5] Ineos: You should... take the Trading Tunnel... soldier. I will put the coordinates... in your Content Book.", "thebreakingpoint-ineos-23", false);
+        s.addSound("[1/1] Ineos: You should... take the Trading Tunnel... soldier. I have put the coordinates... in your Content Book.", "thebreakingpoint-ineos-24", false);
         s.addSound("[1/1] Ineos: Ah... it is... good to... see you. We must... proceed to Ozoth... with all haste.", "thebreakingpoint-ineos-25", false);
         s.addSound("[1/10] Ineos: Ozoth the Dragon... Endless Kindler... we have come... to ask for your aid.", "thebreakingpoint-ineos-26", false);
         s.addSound("[2/10] Ozoth: ...", "thebreakingpoint-ozoth-1", false);
