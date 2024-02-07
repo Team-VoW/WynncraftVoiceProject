@@ -10904,7 +10904,7 @@ public class Sounds {
         s.addSound("[12/13] Theorick: What purpose do you have for doing this? This destruction is needless! Nesaak and all of Wynn have suffered enough!", "ahunterscalling-theorick-8", true);
         s.addSound("[13/13] Theorick: I'll freeze you solid, just like the rest of the corruption, you foul THING!", "ahunterscalling-theorick-9", true);
         s.addSound("[1/1] Theorick: This way, no one else gets hurt. Only one will leave from here alive.", "ahunterscalling-theorick-10", true);
-        s.addSound("[1/2] Bak'al: The Twains fall away. The peon has done his job well.", "ahunterscalling-bakal-6", true);
+        s.addSound("[1/2] Bak'al: The Twains fall away. The peon has done its job well.", "ahunterscalling-bakal-6", true);
         s.addSound("???:: ...you fear. Does the dark become you?", "ahunterscalling-gatekeeper-4", false);
         s.addSound("[1/5] Bak'al: Peon. You have been created for one purpose. You will ensure the fall of Troms.", "ahunterscalling-bakal-7", false);
         s.addSound("[1/1] Bak'al: Defend yourself. He is too far gone to control. You will be attacked.", "ahunterscalling-bakal-8", true);
