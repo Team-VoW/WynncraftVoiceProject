@@ -5758,7 +5758,7 @@ public class Sounds {
         s.addSound("[3/3] Mané: I heard about a hidden chamber under the town. Coincidentally, we aren't allowed to go down there.", "aldoreissecretpart2-man-26", false);
         s.addSound("[1/1] Mané: Please keep your voice down.", "aldoreissecretpart2-man-27", false);
         s.addSound("[1/3] Amber: Amber here! Reporting for duty.", "aldoreissecretpart2-amber-1", false);
-        s.addSound("[2/3] Amber: Are you lost little adventurer?", "aldoreissecretpart2-amber-2", false);
+        s.addSound("[2/3] Amber: Are you lost, little adventurer?", "aldoreissecretpart2-amber-2", false);
         s.addSound("[3/3] Amber: Worry not, the great Amber is here to help you find your way!", "aldoreissecretpart2-amber-3", false);
         s.addSound("[1/1] Amber: What can I do for you?", "aldoreissecretpart2-amber-4", false);
         s.addSound("[1/2] Amber: Goodbye human!", "aldoreissecretpart2-amber-5", false);
@@ -5835,7 +5835,7 @@ public class Sounds {
         s.addSound("[2/] Olon: AAHHH! I SLIPPED.", "aldoreissecretpart2-olon-48", false);
         s.addSound("[1/6] Olon: Erm- thank you.", "aldoreissecretpart2-olon-49", false);
         s.addSound("[2/6] Olon: Hmph- this looks pretty suspicious to me.", "aldoreissecretpart2-olon-50", false);
-        s.addSound("[3/6] Olon: Sounds like its hollow on the otherside, maybe we can get through here.", "aldoreissecretpart2-olon-51", false);
+        s.addSound("[3/6] Olon: Sounds like it's hollow on the otherside, maybe we can get through here.", "aldoreissecretpart2-olon-51", false);
         s.addSound("[4/6] Olon: Barely a scratch.", "aldoreissecretpart2-olon-52", false);
         s.addSound("[5/6] Olon: We should try combining our magic, soldier.", "aldoreissecretpart2-olon-53", false);
         s.addSound("[6/6] Olon: Get close to the boulders and cast a spell, I will follow your lead.", "aldoreissecretpart2-olon-54", false);
@@ -5886,7 +5886,7 @@ public class Sounds {
         s.addSound("[1/1] Elder Oak: Alright- this meeting is over with, glad we got to an agreement.", "aldoreissecretpart2-elderoak-1", false);
         s.addSound("[1/8] Olon: Pardon me!", "aldoreissecretpart2-olon-97", false);
         s.addSound("[2/8] Olon: Ahm- excuse me!", "aldoreissecretpart2-olon-98", false);
-        s.addSound("[3/8] Olon: Ehm- I know this is impolite of me which is exactly why I'm doing it!", "aldoreissecretpart2-olon-99", false);
+        s.addSound("[3/8] Olon: Ehm- I know this is impolite of me, which is exactly why I'm doing it!", "aldoreissecretpart2-olon-99", false);
         s.addSound("[4/8] Olon: We know your dark secrets and we have proof!", "aldoreissecretpart2-olon-100", false);
         s.addSound("[5/8] Elder Oak: What nonsense, who let this ginger rat in here!?", "aldoreissecretpart2-elderoak-2", false);
         s.addSound("[6/8] Olon: Who are you calling a rat!? Pulling the ginger card too!", "aldoreissecretpart2-olon-101", false);
@@ -5906,7 +5906,7 @@ public class Sounds {
         s.addSound("[4/7] Olon: We found the old cemetery under the city and aren't afraid to expose you to the world!", "aldoreissecretpart2-olon-104", false);
         s.addSound("[5/7] Olon: My parents both suffered and I only have you to blame for it.", "aldoreissecretpart2-olon-105", false);
         s.addSound("[6/7] Elder Alder: Really- that's quite... interesting.", "aldoreissecretpart2-elderalder-3", false);
-        s.addSound("[7/7] Elder Oak: Thats enough! To the dungeons with you now!", "aldoreissecretpart2-elderoak-11", false);
+        s.addSound("[7/7] Elder Oak: That's enough! To the dungeons with you now!", "aldoreissecretpart2-elderoak-11", false);
         s.addSound("[1/3] Elder Oak: I'm sure you must realize by now we are the elders for a reason?", "aldoreissecretpart2-elderoak-12", false);
         s.addSound("[2/3] Elder Oak: Us elves are ten times more powerful than any human by nature.", "aldoreissecretpart2-elderoak-13", false);
         s.addSound("[3/3] Elder Oak: Just because we tend to solve things peacefully doesn't mean we can't use brute force.", "aldoreissecretpart2-elderoak-14", false);
@@ -5956,7 +5956,7 @@ public class Sounds {
         s.addSound("[5/8] Harvy: Is this about the theory you had going? Actually- I recently did some work there.", "aldoreissecretpart2-harvy-3", false);
         s.addSound("[6/8] Harvy: There's an elevator up the stairs next to me.", "aldoreissecretpart2-harvy-4", false);
         s.addSound("[7/8] Harvy: Please come back and talk later! I miss our conversations.", "aldoreissecretpart2-harvy-5", false);
-        s.addSound("[8/8] Olon: Perfect! soldier lets take that elevator up stairs right away.", "aldoreissecretpart2-olon-137", false);
+        s.addSound("[8/8] Olon: Perfect! soldier, let's take that elevator upstairs right away.", "aldoreissecretpart2-olon-137", false);
         s.addSound("[1/3] Olon: Wait for me, soldier!", "aldoreissecretpart2-olon-138", false);
         s.addSound("[1/1] Olon: ... Nice weather today!", "aldoreissecretpart2-olon-139", false);
         s.addSound("[1/7] Olon: So you want us to sneak in?", "aldoreissecretpart2-olon-140", false);
