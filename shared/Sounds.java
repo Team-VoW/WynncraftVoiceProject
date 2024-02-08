@@ -6326,7 +6326,7 @@ public class Sounds {
 
         //Ultimate Weapon
         s.addSound("[1/8] Dodegar: I'm glad you came along, I could do with a little help if you're not too busy.", "ultimateweapon-dodegar-1", false);
-        s.addSound("[2/8] Dodegar: I'm Dodegar Bandysnoot, the world famous Hobbit swordsmith! Perhaps you've heard of me?", "ultimateweapon-dodegar-2", false);
+        s.addSound("[2/8] Dodegar: I'm Dodegar Bandysnoot, the world famous Hobbit swordsmith! Perhaps you^ve heard of me?", "ultimateweapon-dodegar-2", false);
         s.addSound("[3/8] Dodegar: No? Oh... Well, I've had an idea about how I could make the best weapon that the world has ever seen!", "ultimateweapon-dodegar-3", false);
         s.addSound("[4/8] Dodegar: But, I need some help getting the special resources to make it.", "ultimateweapon-dodegar-4", false);
         s.addSound("[5/8] Dodegar: You'll help?! Excellent! We shall gather enough resources to make one for each of us!", "ultimateweapon-dodegar-5", false);
