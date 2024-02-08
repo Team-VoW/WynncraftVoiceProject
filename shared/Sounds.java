@@ -1532,11 +1532,11 @@ public class Sounds {
         s.addSound("[2/4] Honip: Well... That's a twist.", "misadventureonthesea-honip-44", true);
         s.addSound("[3/4] Honip: I expected you to do somethin', soldier, not him!", "misadventureonthesea-honip-45", true);
         s.addSound("[4/4] Honip: Anyways, come talk to me", "misadventureonthesea-honip-46", true);
-        s.addSound("[1/7] Honip: I have another task for you. its about the rats.", "misadventureonthesea-honip-47", true);
+        s.addSound("[1/7] Honip: I have another task for you. It's about... the rats.", "misadventureonthesea-honip-47", true);
         s.addSound("[2/7] Honip: See, I really don't think we have your usual type of problem.", "misadventureonthesea-honip-48", true);
         s.addSound("[4/7] Honip: We sometimes hear unusually loud footsteps, along with some really eerie squeaking...", "misadventureonthesea-honip-49", true);
         s.addSound("[5/7] Honip: That's why we're not too fond of goin' in... But our gunpowder there! We need it, as pirates!", "misadventureonthesea-honip-50", true);
-        s.addSound("[6/7] Honip: So, I need you to get in there... and try to kill everything, alright?", "misadventureonthesea-honip-51", true);
+        s.addSound("[6/7] Honip: So, I need you to get in... and kill everything, alright?", "misadventureonthesea-honip-51", true);
         s.addSound("[7/7] Honip: Here goes nothing. Snoo, ya stay there!", "misadventureonthesea-honip-52", true);
         s.addSound("[3/4] Honip: That sounds absolutely terrifying! And ya did that alone! You know what, her', take these.", "misadventureonthesea-honip-53", true);
         s.addSound("[1/5] Honip: Just cast one of your fancy spells!", "misadventureonthesea-honip-54", true);
@@ -4924,7 +4924,7 @@ public class Sounds {
         s.addSound("[4/5] Monte: A man in your city, Troms, insists that he sells healing water that could cure him, but he is selling it for an exorbitant price that we cannot afford!", "grandyouth-monte-4", false);
         s.addSound("[5/5] Monte: I do not know where else to turn. I must ask you for help. If you can purchase it, I am sure that we could find a way to repay you.", "grandyouth-monte-5", false);
         s.addSound("[1/6] Salesman: Oh, why hello there! Come for my patented healing water, have you? Any problem instantly cured! Sniffles beware!", "grandyouth-salesman-1", false);
-        s.addSound("[2/6] Salesman: You're quite lucky, I only have a couple of bottles left, so it won't go cheap, but this is the good stuff! Only 64 Liquified Emeralds!", "grandyouth-salesman-2", false);
+        s.addSound("[2/6] Salesman: You're quite lucky, I only have a couple of bottles left, so it won't go cheap, but this is the good stuff! Only [64 Liquified Emeralds]!", "grandyouth-salesman-2", false);
         s.addSound("[3/6] Salesman: What? Don't give me that look! This is the real stuff, very valuable and rare! What do ya take me for, some guy who'd sell lake water for a fortune?!", "grandyouth-salesman-3", false);
         s.addSound("[4/6] Salesman: Agh, agh! Put away the weapon! Put it away! Jeez, buddy! Alright, I admit it, I'm a fraudster! But, I do know where you get the real stuff, I ain't lying about that much.", "grandyouth-salesman-4", false);
         s.addSound("[5/6] Salesman: There's this group of mages out in Dernel who know how to get the stuff. They're a bunch of tightwads and wouldn't give me any real healing water to sell.", "grandyouth-salesman-5", false);
