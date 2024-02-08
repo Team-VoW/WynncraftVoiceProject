@@ -3560,7 +3560,7 @@ public class Sounds {
         s.addSound("[7/9] Tolem: Okay, this can work, this can work! I have to figure out how to fix this, and some of my cows ran off in a panic.", "shadowofthebeast-tolem-7", false);
         s.addSound("[8/9] Tolem: So, you can take care of them while I re-plan my fencing. Simple enough, right?", "shadowofthebeast-tolem-8", false);
         s.addSound("[9/9] Tolem: Three of my cows ran off. Look around the farm for them. They were eating, so look for fallen wheat on the ground!", "shadowofthebeast-tolem-9", false);
-        s.addSound("[1/11] Tolem: Oh, back already? I haven't even finished my stuff, where are the cows?", "shadowofthebeast-tolem-10", false);
+        s.addSound("[1/11] Tolem: Oh, back aleady? I haven't even finished my stuff, where are the cows?", "shadowofthebeast-tolem-10", false);
         s.addSound("[3/11] Tolem: ...eheh. You. You're. This is a joke, right? We're having a chuckle?!", "shadowofthebeast-tolem-11", false);
         s.addSound("[4/11] Tolem: WE'RE JOKING, RIGHT?! FOR THE LOVE OF ALL THAT'S HOLY TELL ME THIS IS A JOKE!", "shadowofthebeast-tolem-12", false);
         s.addSound("[5/11] Tolem: WHAT IS THIS?! ARE YOU BRAINDEAD?!", "shadowofthebeast-tolem-13", false);
@@ -4696,7 +4696,7 @@ public class Sounds {
         s.addSound("[1/10] Grandon: Ferndor sent you here, correct? That must mean you’re here to help find the hidden 4 digit code in the manor.", "lostsoles-grandon-1", false);
         s.addSound("[2/10] Grandon: The book is actually a diary written by our ancestors decades ago. It is actually very interesting, how they remodeled almost the whole house.", "lostsoles-grandon-2", false);
         s.addSound("[3/10] Grandon: Ferndor probably told you about the boots, right? The diary has some information about them...ah, here, on this page.", "lostsoles-grandon-3", false);
-        s.addSound("[4/10] Grandon: Here...our family bought them from \"a dark and mysterious humanoid creature\" a long time ago", "lostsoles-grandon-4", false);
+        s.addSound("[4/10] Grandon: Here...our family bought them from \"a dark and mysterious humanoid creature\" a long time ago.", "lostsoles-grandon-4", false);
         s.addSound("[5/10] Grandon: The boots were apparently so valuable that the creature as part of the deal, said they put some kind of spell on them, but that was a lie.", "lostsoles-grandon-5", false);
         s.addSound("[6/10] Grandon: It was found that the boots themselves were horrendously powerful, imbued with dark magic that will deteriorate and decay everything around it over time.", "lostsoles-grandon-6", false);
         s.addSound("[7/10] Grandon: They were given a special boot container with similar effects, but when the Galoshes are within the Container, they cancel each others' effects out.", "lostsoles-grandon-7", false);
