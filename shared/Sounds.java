@@ -5111,13 +5111,13 @@ public class Sounds {
         s.addSound("[1/3] Starving Prisoner: Is this... it's... Food!!", "forbiddenprison-starvingprisoner-4", true);
         s.addSound("[2/3] Starving Prisoner: I... I can't thank you enough, human... I should be able to keep going with this...", "forbiddenprison-starvingprisoner-5", true);
         s.addSound("[3/3] Starving Prisoner: Say... if you ever get out of this slaughterhouse... could you go to Lexdale... and try and talk with my family, there? Let them know that I'm still alive...? I'd appreciate that....", "forbiddenprison-starvingprisoner-6", true);
-        s.addSound("[1/11] Mafia Prisoner: Oi, who's this guy right 'ere? We don't know ya. Move it!", "forbiddenprison-mafiaprisoner-1", true);
-        s.addSound("[2/11] Mafia Prisoner: 'Ey, 'ey, let it rest, Don. They're not hurtin' nobody.", "forbiddenprison-mafiaprisoner-2", true);
-        s.addSound("[3/11] Mafia Prisoner: ...Got it, boss... Sorry.", "forbiddenprison-mafiaprisoner-3", true);
+        s.addSound("[1/11] Mafia Prisoner: Oi, who’s this guy right ‘ere? We don’t know ya. Move it!", "forbiddenprison-mafiaprisoner-1", true);
+        s.addSound("[2/11] Mafia Prisoner: ‘Ey, ‘ey, let it rest, Don. They're not hurtin’ nobody.", "forbiddenprison-mafiaprisoner-2", true);
+        s.addSound("[3/11] Mafia Prisoner: ...Got it, boss... Sorry...", "forbiddenprison-mafiaprisoner-3", true);
         s.addSound("[4/11] Mafia Prisoner: Don't worry about it. So... You know who we are, novello?", "forbiddenprison-mafiaprisoner-4", true);
         s.addSound("[5/11] Mafia Prisoner: We're part of the Placido Crime Family. We do business across the entire world; all parts of it, you know what I'm saying?", "forbiddenprison-mafiaprisoner-5", true);
         s.addSound("[6/11] Mafia Prisoner: Almost all of us at this table got caught for running with the family-... Ah, bet you're surprised to hear that there are some guilty people up in this slaughterhouse, yeah?", "forbiddenprison-mafiaprisoner-6", true);
-        s.addSound("[7/11] Mafia Prisoner: It's alright, you don't have to worry about us getting plucked and killed like those other piacevole here. Guards keep on sayin' something about \"\"our souls are too tainted\"\", whatever they mean.", "forbiddenprison-mafiaprisoner-7", true);
+        s.addSound("[7/11] Mafia Prisoner: It’s alright, you don’t have to worry about us getting plucked and killed like those other piacevole here. Guards keep on sayin’ something about “our souls are too tainted”, whatever they mean.", "forbiddenprison-mafiaprisoner-7", true);
         s.addSound("[8/11] Mafia Prisoner: Hah! Maybe you'll get the same treatment too, novello. I saw it the minute I laid eyes on ya. You're a killer too, ain't ya? Hey, gotta be one to know you're dealin' with one..", "forbiddenprison-mafiaprisoner-8", true);
         s.addSound("[9/11] Mafia Prisoner: ..Anyways... You thinkin' about staying in this prison, fratello? Word of advice: Don't. If you can, you gotta escape. You might think it's impossible for someone to escape here, or whatnot...", "forbiddenprison-mafiaprisoner-9", true);
         s.addSound("[10/11] Prison Guard: Alright, meal time's over! Get to your cells, filth!", "forbiddenprison-prisonguard-16", true);
