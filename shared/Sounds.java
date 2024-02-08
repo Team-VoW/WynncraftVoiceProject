@@ -2774,13 +2774,13 @@ public class Sounds {
         s.addSound("[4/4] Sherk: So, Win person. Care to temper her expectations before I arrive? Head up before me.", "themaidentower-sherk-19", false);
         s.addSound("[1/9] Maiden: Ohoho... you're one of those Humans I've read about, aren't you? Did you truly intend to be my suitor, dear?~", "themaidentower-maiden-5", false);
         s.addSound("[2/9] Sherk: Not exactly, milady! I'm the one seeking your affections- Coming up the ladder. I know I may not be a fairytale husband, but-", "themaidentower-sherk-20", false, new Vector3(-1995, 87, -5299));
-        s.addSound("[3/9] Maiden: Oh...my...goodness! A big, strong, strapping ogre!! Not a fairytale, my foot! And so polite too... Oh you'll make a perfect husband, heehee~", "themaidentower-maiden-6", false);
+        s.addSound("[3/9] Maiden: Oh...my...goodness! A big, strong, strapping ogre!! Not a fairytale, my foot! And so polite, too... Oh, you'll make a perfect husband, heehee~", "themaidentower-maiden-6", false);
         s.addSound("[4/9] Sherk: ...ehm. I. Ah.", "themaidentower-sherk-21", false);
         s.addSound("[5/9] Sherk: Aren't your type supposed to be less... Ehm... Clefted? Grizzled? Pale?", "themaidentower-sherk-22", false);
         s.addSound("[6/9] Maiden: Oh, come here, Sherky-pie, give me a big kiss! And no need to worry, there's plenty more in store for my big hubby after that~", "themaidentower-maiden-7", false);
         s.addSound("[7/9] Sherk: Cor, lady! Even for an ogre you're layin' it on a bit thick! Aah, you see, ogres, and people like you, they have layers, right? And your first one is... Eh... ...rotten.", "themaidentower-sherk-23", false);
         s.addSound("[8/9] Sherk: Now I'm sure you'll find a nice lad somewhere who'll take you for who you are, but until you find someone that has no standards, shove your creepy lips where I can't see 'em!!", "themaidentower-sherk-24", false);
-        s.addSound("[9/9] Maiden: ...I...I g-guess he was rotten to the core, despite his...l-luscious exterior ...but you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!", "themaidentower-maiden-8", false);
+        s.addSound("[9/9] Maiden: ...I...I g-guess he was rotten to the core, despite his...l-luscious exterior...but, you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!", "themaidentower-maiden-8", false);
         s.addSound("[1/3] Sherk: ...what? Did you want an apology for my leavin' you there with her?", "themaidentower-sherk-25", false);
         s.addSound("[2/3] Sherk: I already prayed salvation for your mortal soul, what more do you want?!", "themaidentower-sherk-26", false);
         s.addSound("[3/3] Sherk: I'm just goin' ta be here with my new pet 'til I can find a nice ogre to settle down with instead.", "themaidentower-sherk-27", false);
