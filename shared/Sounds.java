@@ -7546,8 +7546,8 @@ public class Sounds {
         s.addSound("[9/9] Maxie: Come to my house when you reach level 89, here's a key so you get in. We must prepare to break into the factory.", "theenvoypart1-maxie-40", false);
 
         //The Envoy Part 2
-        s.addSound("1/3securitybotn4t17noaccesswithoutakey", "theenvoypart2-securitybotn4t17-1", false);
-        s.addSound("3/3securitybotn4t17keyvalidwelcome", "theenvoypart2-securitybotn4t17-2", false);
+        s.addSound("[1/3] Security Bot N4T17: No access without a key.", "theenvoypart2-securitybotn4t17-1", false);
+        s.addSound("[3/3] Security Bot N4T17: Key valid. Welcome.", "theenvoypart2-securitybotn4t17-2", false);
         s.addSound("[1/1] Security Bot N4T17: Welcome inside...", "theenvoypart2-securitybotn4t17-3", false);
         s.addSound("[1/7] Maxie: Mo'in, soldier! I've been researching everything I can about the factory.", "theenvoypart2-maxie-1", false);
         s.addSound("[1/7] Maxie: I knew it! There was something here we could use!", "theenvoypart2-maxie-2", false);
@@ -7572,12 +7572,12 @@ public class Sounds {
         s.addSound("[4/5] Corkus Delegate: Stop. Maxie, was right. I'm sorry. Mech X pierced the vault like it was nothing and took the key.", "theenvoypart2-corkusdelegate-2", true);
         s.addSound("[5/5] Corkus Delegate: The mechs were covered in farm produce for some reason and left a convenient trail. If you are serious about fighting the factory, follow the trail.", "theenvoypart2-corkusdelegate-3", true);
         s.addSound("[1/1] Maxie: Psst! Over here, in the field! ", "theenvoypart2-maxie-10", true);
-        s.addSound("[1/14] Maxie: Mo'in. See that guy up there? He hasn't moved an inch since I got here.", "theenvoypart2-maxie-11", true);
+        s.addSound("[1/14] Maxie: Mo'in. See that guy up there? He hasn't moved an inch since I got here...", "theenvoypart2-maxie-11", true);
         s.addSound("[2/14] Maxie: ...I don't think he's actually a farmer. Follow me.", "theenvoypart2-maxie-12", true);
         s.addSound("[3/14] Farmer: HELLO... I AM A... HUMAN... FARMER.", "theenvoypart2-farmer-1", true);
         s.addSound("[4/14] Farmer: DO YOU... HAVE... ANY BUSINESS... WITH ME?", "theenvoypart2-farmer-2", true);
         s.addSound("[5/14] Maxie: Nice try, mech!", "theenvoypart2-maxie-13", true);
-        s.addSound("[6/14] S-63 Mech: REPORT... COVER HAS BEEN COMPROMISED... TWO UNAUTHORIZED INTRUDERS... OUTSIDE OF BASE", "theenvoypart2-s-63mech-1", true);
+        s.addSound("[6/14] S-63 Mech: REPORT... COVER HAS BEEN COMPROMISED... TWO UNAUTHORIZED INTRUDERS... OUTSIDE OF BASE.", "theenvoypart2-s-63mech-1", true);
         s.addSound("[7/14] S-63 Mech: NEW OBJECTIVE... EXTERMINATE-", "theenvoypart2-s-63mech-2", true);
         s.addSound("[8/14] Maxie: Oh no you DON'T!", "theenvoypart2-maxie-14", true);
         s.addSound("[9/14] Maxie: That model was a S-63... It's warned the others. Let's go.", "theenvoypart2-maxie-15", true);
