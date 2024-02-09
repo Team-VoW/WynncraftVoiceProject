@@ -783,7 +783,7 @@ public class Sounds {
         s.addSound("[2/2] Aledar: Alright! We'll handle the volcano then. Captain, Tasim, don't die out here!", "arachnidsascent-aledar-20", false);
         s.addSound("[2/2] Tasim: Alright. We'll fight through the spiders in the mountain, then. Captain, Aledar, good luck!", "arachnidsascent-tasim-21", false);
         s.addSound("[1/3] Captain Enduyn: At ease, soldier! Not much to see here, I'm afraid.", "arachnidsascent-captainenduyn-18", false);
-        s.addSound("[2/3] Captain Enduyn: I've been stationed here to make preparations for an assault on the spiders' nest, but... Well, they've put up a massive web to block entry! There's no way through, from what I can tell.", "arachnidsascent-captainenduyn-19", false);
+        s.addSound("[2/3] Captain Enduyn: I've been stationed here to keep an eye on the spiders' nest, but... Well, they've put up a massive web to block entry! There's no way through, from what I can tell.", "arachnidsascent-captainenduyn-19", false);
         s.addSound("[3/3] Captain Enduyn: If you'd like to help, I'd suggest speaking to Admiral Aegis in Detlas. He'll be able to give you an assignment.", "arachnidsascent-captainenduyn-20", false);
 
         //Creeper Infiltration
@@ -4104,7 +4104,7 @@ public class Sounds {
         s.addSound("[2/10] Todd: Of course I have, he's the talk of the town! I heard he only brushes his teeth once a day and that he enjoys books about gardening!", "outofmymind-todd-1", false);
         s.addSound("[3/10] Viola: I don't know, you guys, all these rumours seem a little far-fetched. What next? Will he suddenly turn out to be some mad scientist?", "outofmymind-viola-1", false);
         s.addSound("[4/10] Prentiss: Oh shush you, we're not living inside some storybook! Besides, if he *was* a mad scientist, wouldn't he be trying to take over the city like all mad scientists in stories do?", "outofmymind-prentiss-2", false);
-        s.addSound("[5/10] Todd: To me that doesn't sound all that strange compared to these other things I've been hearing, anyway... Something about labs and a \"\"hermit\"\".", "outofmymind-todd-2", false);
+        s.addSound("[5/10] Todd: To me that doesn't sound all that strange compared to these other things I've been hearing, anyway... Something about labs and a \"hermit\".", "outofmymind-todd-2", false);
         s.addSound("[6/10] Prentiss: I think that's a type of crab or something. Adults are right old weirdos sometimes.", "outofmymind-prentiss-3", false);
         s.addSound("[7/10] Viola: Hey, a stranger! How long have you been listening to us? Didn't your mom teach you any manners?", "outofmymind-viola-2", false);
         s.addSound("[8/10] Prentiss: Wait Viola, this is our chance! This stranger sure seems like they could tackle anything, even evil hermit crabs! We could just ask them to see if these rumours are true!", "outofmymind-prentiss-4", false);
@@ -4114,7 +4114,7 @@ public class Sounds {
         s.addSound("[2/4] Ariodo: Oh yes, I am the affable Ariodo, friendly neighbourhood neighbour. What do you need me for?", "outofmymind-ariodo-2", false);
         s.addSound("[3/4] Ariodo: Kidnappings? Poaching? Not brushing my teeth?! Who is this lowly person you're talking about... they don't seem like a nice fellow such as myself.", "outofmymind-ariodo-3", false);
         s.addSound("[4/4] Ariodo: Let's go, I'll take you to the exit so that I don't waste your time any longer!", "outofmymind-ariodo-4", false);
-        s.addSound("[1/3] Ariodo: This is the room you came from. I call it the \"\"Vivarium\"\", creative name I came up with, right? It keeps my pets that aren't quite ready.", "outofmymind-ariodo-5", false);
+        s.addSound("[1/3] Ariodo: This is the room you came from. I call it the \"Vivarium\", creative name I came up with, right? It keeps my pets that aren't quite ready.", "outofmymind-ariodo-5", false);
         s.addSound("[2/3] Ariodo: Ready for what? Well that would ruin the surprise, wouldn't it? Can't have anyone finding out before the big event!", "outofmymind-ariodo-6", false);
         s.addSound("[3/3] Ariodo: Let us go now, time is precious!", "outofmymind-ariodo-7", false);
         s.addSound("[1/5] Ariodo: So you must be thinking, how have you never met a fine fellow such as myself until now? To be quite honest, you must have just been terribly unlucky, I used to travel the world, you know!", "outofmymind-ariodo-8", false);
@@ -4138,8 +4138,8 @@ public class Sounds {
         s.addSound("[6/8] Ariodo: The [Cart] can carry the coconut from one end of the platform to another for a few tiles, while the [Fan] can push the coconut even further.", "outofmymind-ariodo-26", false);
         s.addSound("[7/8] Ariodo: The [Hammer] is able to knock the coconut over a one space gap while the [Cannon] can shoot the coconut one grid up diagonally in the direction it is facing.", "outofmymind-ariodo-27", false);
         s.addSound("[8/8] Ariodo: I think I hit my head too, so I'll need your help deciding where to place each part. You want to get the coconut across to the green tile, remember?", "outofmymind-ariodo-28", false);
-        s.addSound("§7[1/2] §2Ariodo: §rYou're back! To be quite honest, I didn't think that would work, but I'm glad it did!", "outofmymind-ariodo-29", false);
-        s.addSound("§7[2/2] §2Ariodo: §rQuick, head through the large door and stop the cause of all this shaking!", "outofmymind-ariodo-30", false);
+        s.addSound("[1/2] Ariodo: You're back! To be quite honest, I didn't think that would work, but I'm glad it did!", "outofmymind-ariodo-29", false);
+        s.addSound("[2/2] Ariodo: Quick, head through the large door and stop the cause of all that shaking!", "outofmymind-ariodo-30", false);
         s.addSound("§7[1/3] §2Ariodo:§r Oh no no, this is not good! If I had known that my little pet has grown so much I would have rushed you out sooner. Now it is wilted...", "outofmymind-ariodo-31", false);
         s.addSound("§7[2/3] §2Ariodo:§r You did what you had to, though. I am sorry to say this friend, but I think I'll stay inside a little longer. Sorry, my only friend..", "outofmymind-ariodo-32", false);
         s.addSound("§7[3/3] §2Ariodo:§r We'll surely meet again in the future, so don't be sad. I'll still be the one and only friendly neighbourhood neighbour when that moment comes, I promise. Goodbye now!", "outofmymind-ariodo-33", false);
