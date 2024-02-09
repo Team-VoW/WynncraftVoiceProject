@@ -4669,7 +4669,7 @@ public class Sounds {
         s.addSound("[4/7] Mercenary Leader: There's a certain talisman that we aren't able to get to in the temple not far from here. It has special abilities that allow my men to be strengthened, see.", "lostroyalty-mercenaryleader-4", false);
         s.addSound("[5/7] Mercenary Leader: The guardians there pack quite the punch, and there's some nasty mechanism in the way that we just can't crack.", "lostroyalty-mercenaryleader-5", false);
         s.addSound("[6/7] Mercenary Leader: The temple is found just across the waterway, in a crevice in the mountain. It used to be blocked until those WynnExcavation fellows tried digging there.", "lostroyalty-mercenaryleader-6", false);
-        s.addSound("[7/7] Mercenary Leader: You get that talisman in my hands and the King's boy is yours. Now off you pip! I'm a very busy man.", "lostroyalty-mercenaryleader-7", false);
+        s.addSound("[7/7] Mercenary Leader: You get that talisman in my hands, and the king's boy is yours. Now off you pip! I'm a very busy man.", "lostroyalty-mercenaryleader-7", false);
         s.addSound("[1/3] Mercenary Leader: You've gotten the talisman! I can't believe you actually got through that puzzle!", "lostroyalty-mercenaryleader-8", false);
         s.addSound("[2/3] Mercenary Leader: At this point I would usually keep the kid and throw you out of here, but since you've done what I've asked in such a timely fashion, he's all yours.", "lostroyalty-mercenaryleader-9", false);
         s.addSound("[3/3] Mercenary Leader: When you get back to whoever asked you to do this, tell him to leave my men and I alone! We guildsmen lay down our lives every day, we don't need any more hostile onlookers!", "lostroyalty-mercenaryleader-10", false);
