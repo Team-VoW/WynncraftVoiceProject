@@ -345,7 +345,7 @@ public class Sounds {
         s.addSound("[6/12] Tasim: Oh, really? I thought you would be more into basic fighting, what with our journey to Ragni.", "barracks-tasim-3", false);
         s.addSound("[7/12] Aledar: Yeah... well, I guess I found something a little more interesting along the way. I'll let you know how it all goes.", "barracks-aledar-4", false);
         s.addSound("[8/12] Tasim: Keep us updated, Aledar. So, soldier, what are you thinking of doing next?", "barracks-tasim-4", false);
-        s.addSound("[9/1] Aledar: Not a bad idea! I might join you with that later, once I've decide on things more.", "barracks-aledar-5", false);
+        s.addSound("[9/12] Aledar: Not a bad idea! I might join you with that later, once I've decide on things more.", "barracks-aledar-5", false);
         s.addSound("[10/1] Tasim: Helping people is a good goal. There's bound to be lots of people around who need it.", "barracks-tasim-5", false);
         s.addSound("[9/12] Aledar: Exploring, huh? That's a good idea. There's plenty to see around here!", "barracks-aledar-6", false);
         s.addSound("[10/12] Tasim: ...And- well, we all came here for a reason. Might as well see the province while we're here, right?", "barracks-tasim-6", false);
@@ -8684,7 +8684,7 @@ public class Sounds {
         s.addSound("[5/5] Avos Chieftain: You're in luck, I'm in a good mood. Follow me then.", "thefeathersflypart1-avoschieftain-5", false);
         s.addSound("[1/2] Avos Chief: Ah, history first! Great, great!", "thefeathersflypart1-avoschief-1", false);
         s.addSound("[1/2] Avos Chief: Gah! You startled me!", "thefeathersflypart1-avoschief-2", false);
-        s.addSound("[1/3] Avos Chief: Ah, eager to see our wisteria tree!", "thefeathersflypart1-avoschief-3", false);
+        s.addSound("[1/3] Avos Chief: Ah, our wisteria tree! Yes...", "thefeathersflypart1-avoschief-3", false);
         s.addSound("[1/2] Avos Chief: Oh, this is quite the important tome.", "thefeathersflypart1-avoschief-4", false);
         s.addSound("[1/2] Avos Chief: Right, the feathery crate!", "thefeathersflypart1-avoschief-5", false);
         s.addSound("[1/1] Avos Chieftain: What was that?! I'll check.", "thefeathersflypart1-avoschieftain-6", false);
