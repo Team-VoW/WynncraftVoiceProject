@@ -346,7 +346,7 @@ public class Sounds {
         s.addSound("[7/12] Aledar: Yeah... well, I guess I found something a little more interesting along the way. I'll let you know how it all goes.", "barracks-aledar-4", false);
         s.addSound("[8/12] Tasim: Keep us updated, Aledar. So, soldier, what are you thinking of doing next?", "barracks-tasim-4", false);
         s.addSound("[9/12] Aledar: Not a bad idea! I might join you with that later, once I've decide on things more.", "barracks-aledar-5", false);
-        s.addSound("[10/1] Tasim: Helping people is a good goal. There's bound to be lots of people around who need it.", "barracks-tasim-5", false);
+        s.addSound("[10/12] Tasim: Helping people is a good goal. There's bound to be lots of people around who need it.", "barracks-tasim-5", false);
         s.addSound("[9/12] Aledar: Exploring, huh? That's a good idea. There's plenty to see around here!", "barracks-aledar-6", false);
         s.addSound("[10/12] Tasim: ...And- well, we all came here for a reason. Might as well see the province while we're here, right?", "barracks-tasim-6", false);
         s.addSound("[9/12] Tasim: Well, if you're staying in the area, maybe we'll cross paths! I'll likely be defending Detlas in the short-term.", "barracks-tasim-7", false);
