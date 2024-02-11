@@ -207,13 +207,13 @@ public class Sounds {
         s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-14", false);
 
         //Supply and delivery
-        s.addSound("[1/9] Ope: Oh, man... What am I going to do now...", "supplyanddelivery-ope-1", false);
-        s.addSound("[2/9] Ope: O-oh! H-hello soldier! Wow, what a coincidence that we're both here... in Detlas... today...", "supplyanddelivery-ope-2", false);
-        s.addSound("[3/9] Ope: What? Don't look at me like that! We had a perfectly fair interaction which we both benefited from. I got the plant, and you... well. You gained experience?", "supplyanddelivery-ope-3", false);
-        s.addSound("[4/9] Ope: Look, alright, I get it! But I can't pay you back either way. The mayor sent me here to pick up a crate of supplies for the village.", "supplyanddelivery-ope-4", false);
-        s.addSound("[5/9] Ope: The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway...", "supplyanddelivery-ope-5", false);
-        s.addSound("[6/9] Ope: Those two over there who run the market banned me from ever using it after I tried to buy out the world's supplies of magical powders.", "supplyanddelivery-ope-6", false);
-        s.addSound("[7/9] Ope: Look, it's not my fault I'm making big market moves. I'm just, you know- smarter than all these other folks!", "supplyanddelivery-ope-7", false);
+        s.addSound("[1/10] Ope: Oh, man... What am I going to do now...", "supplyanddelivery-ope-1", false);
+        s.addSound("[2/10] Ope: O-oh! H-hello soldier! Wow, what a coincidence that we're both here... in Detlas... today...", "supplyanddelivery-ope-2", false);
+        s.addSound("[3/10] Ope: What? Don't look at me like that! We had a perfectly fair interaction which we both benefited from. I got the plant, and you... well. You gained experience?", "supplyanddelivery-ope-3", false);
+        s.addSound("[4/10] Ope: Look, alright, I get it! But I can't pay you back either way. The mayor sent me here to pick up a crate of supplies for the village.", "supplyanddelivery-ope-4", false);
+        s.addSound("[5/10] Ope: The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway...", "supplyanddelivery-ope-5", false);
+        s.addSound("[6/10] Ope: Those two over there who run the market banned me from ever using it after I tried to buy out the world's supplies of magical powders.", "supplyanddelivery-ope-6", false);
+        s.addSound("[7/10] Ope: Look, it's not my fault I'm making big market moves. I'm just, you know- smarter than all these other folks!", "supplyanddelivery-ope-7", false);
         s.addSound("[8/9] Ope: ... The point is. I could really use your help right now! I- I promise, I'll pay you back for it this time.", "supplyanddelivery-ope-8", false);
         s.addSound("[9/9] Ope: All you need to do is go over to the Trade Market, and buy the supply crate for me. Please?", "supplyanddelivery-ope-9", false);
         s.addSound("[8/10] Ope: ... What? They also banned you from the market?! Well, great. What're we supposed to do now?", "supplyanddelivery-ope-10", false);
@@ -7431,7 +7431,7 @@ public class Sounds {
         s.addSound("[1/11] Coulmis: What's your business here? This place is off limits, the vault is very dangerous right now.", "thethanosdepository-coulmis-8", false);
         s.addSound("[2/11] Coulmis: Now that I look, say, that gear of yours is pretty high quality, yeah? What's your name?", "thethanosdepository-coulmis-9", false);
         s.addSound("[3/11] Coulmis: Soldier I see, I haven't seen you around before.", "thethanosdepository-coulmis-10", false);
-        s.addSound("[3/11] Coulmis: Soldier... where have I heard that name before... Oh, I remember! You're that guy who defeated that Qira women, yeah?", "thethanosdepository-coulmis-11", false);
+        s.addSound("[3/11] Coulmis: soldier... where have I heard that name before... Oh, I remember! You're that guy who defeated that Qira woman, yeah?", "thethanosdepository-coulmis-11", false);
         s.addSound("[4/11] Coulmis: Nevertheless, Thanos is in danger. To put it simply, a dragon is living uninvited in our despository.", "thethanosdepository-coulmis-12", false);
         s.addSound("[5/11] Coulmis: Perhaps you've seen its lair above our city. Normally she leaves us unharmed, but one day she suddenly made her way in to this vault.", "thethanosdepository-coulmis-13", false);
         s.addSound("[6/11] Coulmis: My great friend Atila has been leading a recon squad, he's discerned that she's nesting an egg.", "thethanosdepository-coulmis-14", false);
@@ -10972,7 +10972,7 @@ public class Sounds {
         s.addSound("[1/1] Maxie: No... I... have to tell them.", "ahunterscalling-maxie-17", true);
         s.addSound("???:: ...you harden your heart. There is no end, you think.", "ahunterscalling-gatekeeper-8", false);
         s.addSound("[1/5] Bak'al: Detlas. What a foolish place for a central trading town, so close to the Roots.", "ahunterscalling-bakal-14", false);
-        s.addSound("[1/12] Aegis: Halt! Who goes there? Stop, in the name of the Detlas army!", "ahunterscalling-aegis-1", true);
+        s.addSound("[1/12] Admiral Aegis: Halt! Who goes there? Stop, in the name of the Detlas army!", "ahunterscalling-aegis-1", true);
         s.addSound("[2/12] Aegis: Should you continue, you shall face the strength and courage of Admiral Aegis!", "ahunterscalling-aegis-2", true);
         s.addSound("[3/12] Guard: Admiral?! It's Bak'al!", "ahunterscalling-guard-1", true);
         s.addSound("[4/12] Aegis: We cannot back down against any foe! Chaaaarge!!", "ahunterscalling-aegis-3", true);
