@@ -1990,7 +1990,7 @@ public class Sounds {
         s.addSound("[1/4] WynnExcavation Guard: What are you doing here?!", "wynnexcavationb-wynnexcavationguard-1", false);
         s.addSound("[2/4] WynnExcavation Guard: This door is closed; the mine entrance behind it isn't open at this time.", "wynnexcavationb-wynnexcavationguard-2", false);
         s.addSound("[3/4] WynnExcavation Guard: I'm here to make sure no one uses the passage while the archaeologist works.", "wynnexcavationb-wynnexcavationguard-3", false);
-        s.addSound("[4/4] WynnExcavation Guard: You will have to find another exit if you want get out!", "wynnexcavationb-wynnexcavationguard-4", false);
+        s.addSound("[4/4] WynnExcavation Guard: You will have to find another exit if you want to get out!", "wynnexcavationb-wynnexcavationguard-4", false);
 
         //Wynn Excavation site C
         s.addSound("[1/8] Excavator Placardus: All operations functional... Transportation on schedule... Oh. It's you. We've been looking for you.", "wynnexcavationsitec-excavatorplacardus-1", false);
