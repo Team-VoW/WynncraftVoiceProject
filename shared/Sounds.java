@@ -9936,10 +9936,10 @@ public class Sounds {
         s.addSound("[1/1] Chef Hamsey: It is time to cook, mon ami! Head over to your chef and ask them what to do.", "recipefordisaster-chefhamsey-24", false);
         s.addSound("[1/1] Frank: No sweat, man, I probably wouldn't choose me either. Good luck!", "recipefordisaster-frank-6", false);
         s.addSound("[1/1] Brie: Not feeling a vibe with me? No worries! I'm sure you'll do great whoever you work with.", "recipefordisaster-brie-7", false);
-        s.addSound("[1/4] Kale: Ugh. Stay out of my way, and we'll get along just fine.", "recipefordisaster-kale-6", false);
-        s.addSound("[2/4] Kale: Make yourself useful and get me everything we need. I'm not in the mood for chit-chat.", "recipefordisaster-kale-7", false);
-        s.addSound("[3/4] Kale: I don't want my reputation tarnished by the likes of you...", "recipefordisaster-kale-8", false);
-        s.addSound("[4/4] Kale: Listen up, because I am *not* going to say this again. Take notes.", "recipefordisaster-kale-9", false);
+        s.addSound("[1/10] Kale: Ugh. Stay out of my way, and we'll get along just fine.", "recipefordisaster-kale-6", false);
+        s.addSound("[2/10] Kale: Make yourself useful and get me everything we need. I'm not in the mood for chit-chat.", "recipefordisaster-kale-7", false);
+        s.addSound("[3/10] Kale: I don't want my reputation tarnished by the likes of you...", "recipefordisaster-kale-8", false);
+        s.addSound("[4/10] Kale: Listen up, because I am *not* going to say this again. Take notes.", "recipefordisaster-kale-9", false);
         s.addSound("[5/10] Kale: The key ingredient in my amazing omelette  is obviously the [Blue-Ring Grook Egg], which of course you didn't know.", "recipefordisaster-kale-10", false);
         s.addSound("[6/10] Kale: First, we're gonna need some kinda flour. A lil' [Sunrise Flour] aughtta do.", "recipefordisaster-kale-11", false);
         s.addSound("[7/10] Kale: Secondly, we need some [Snail Slime], which is at Snail Island, obviously. Any seasoned chef could tell you that.", "recipefordisaster-kale-12", false);
