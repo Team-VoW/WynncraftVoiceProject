@@ -7797,7 +7797,7 @@ public class Sounds {
         s.addSound("[1/1] Chief Clight: Doing just fine, lad. Almost there...", "canarycalls-clight-25", false);
         s.addSound("[1/1] Chief Clight: Little old birdie is getting quite excited! Keep it up.", "canarycalls-clight-26", false);
         s.addSound("[1/5] Chief Clight: Right then, lad! It's time to begin the-", "canarycalls-clight-27", false);
-        s.addSound("[2/5] Chief Clight: OW! Bloody hell! Those are some freakishly sharp claws! What are you playing at", "canarycalls-clight-28", false);
+        s.addSound("[2/5] Chief Clight: OW! Bloody hell! Those are some freakishly sharp claws! What are you playing at?!", "canarycalls-clight-28", false);
         s.addSound("[3/5] Chief Clight: Well, I think she likes you, lad. Doesn't like me, apparently.", "canarycalls-clight-29", false);
         s.addSound("[4/5] Chief Clight: I was going to feed her, but I suppose you can do the honors. Or not, seeing as she's been particularly troublesome...", "canarycalls-clight-30", false);
         s.addSound("[5/5] Chief Clight: Anyway, do as you please. I'll be waiting by the elevator in the mineshaft. Hurry up, and don't make me wait!", "canarycalls-clight-31", false);
