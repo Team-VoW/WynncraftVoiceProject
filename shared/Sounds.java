@@ -9173,7 +9173,7 @@ public class Sounds {
         s.addSound("[1/1] Ava: Well, good luck searching!", "thefeathersflypart2-ava-72", false);
         s.addSound("[1/5] Ava: So you found that weird dealer? Surely you're not thinking of...", "thefeathersflypart2-ava-73", false);
         s.addSound("[2/5] Ava: I mean... Actually, that'd be a way to get an audience, for sure. What does he want?", "thefeathersflypart2-ava-74", false);
-        s.addSound("[3/5] Ava: 24 Emerald Blocks? Is that a lot? I'm not human, y'know! Well, anyway!", "thefeathersflypart2-ava-75", false);
+        s.addSound("[3/5] Ava: [24 Emerald Blocks]? Is that a lot? I'm not human, y'know! Well, anyway!", "thefeathersflypart2-ava-75", false);
         s.addSound("[4/5] Ava: Buy that if you want, but I'm certain there are other ways to obtain an audience. You don't really have to buy that.", "thefeathersflypart2-ava-76", false);
         s.addSound("[5/5] Ava: Well, I'll just... Keep looking then.", "thefeathersflypart2-ava-77", false);
         s.addSound("[1/6] Ava: Oh? You found the dealer as well as one other way to get an audience?", "thefeathersflypart2-ava-78", false);
