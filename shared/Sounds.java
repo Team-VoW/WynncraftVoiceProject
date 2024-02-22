@@ -6165,7 +6165,7 @@ public class Sounds {
         s.addSound("[7/7] Olon: Come back tomorrow, please. I have about five more books to get through.", "aldoreissecretpart2-olon-193", false);
         s.addSound("[1/4] Olon: Hi there! Great timing.", "aldoreissecretpart2-olon-194", false);
         s.addSound("[2/4] Olon: I got inspired from my journey through the world of motivational writing yesterday.", "aldoreissecretpart2-olon-195", false);
-        s.addSound("[3/4] Olon: The best thing in the world is to help people around you, is that not right.", "aldoreissecretpart2-olon-196", false);
+        s.addSound("[3/4] Olon: The best thing in the world is to help people around you, is that not right?", "aldoreissecretpart2-olon-196", false);
         s.addSound("[4/4] Olon: This way I'll keep myself busy while still being of assistance.", "aldoreissecretpart2-olon-197", false);
         s.addSound("[1/3] Olon: Well, I'm doing better. Thank you for asking.", "aldoreissecretpart2-olon-198", false);
         s.addSound("[2/3] Olon: My shame is slowly turning to hatred for those old elders, maybe that's progress.", "aldoreissecretpart2-olon-199", false);
