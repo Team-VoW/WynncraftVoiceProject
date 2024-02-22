@@ -9343,7 +9343,7 @@ public class Sounds {
         s.addSound("[4/7] Ava: I want to, but... Have you seen how she was during the audience?", "thefeathersflypart2-ava-242", false);
         s.addSound("[5/7] Ava: I can't trust you, soldier. There's no way.", "thefeathersflypart2-ava-243", false);
         s.addSound("[6/7] Ava: I regret this... I sho uldn't have acted this way, this wasn't supposed to happen, I...", "thefeathersflypart2-ava-244", false);
-        s.addSound("[7/7] Ava: I can't stay, soldier. The president's one thing, but the others...", "thefeathersflypart2-ava-245", false);
+        s.addSound("[7/7] Ava: I can't stay, soldier. The president's one thing, but the others... It's safe to say no one's gonna welcome me with open arms, y'know?", "thefeathersflypart2-ava-245", false);
         s.addSound("[3/9] Ava: You... I assume you're here to take me.", "thefeathersflypart2-ava-246", false);
         s.addSound("[4/9] Ava: Go ahead, then. Do it. I don't have anything to lose anymore. I've already lost everything.", "thefeathersflypart2-ava-247", false);
         s.addSound("[6/9] Ava: I don't want your pity. I have no one. You're making this harder for yourself.", "thefeathersflypart2-ava-248", false);
