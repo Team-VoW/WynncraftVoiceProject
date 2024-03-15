@@ -352,7 +352,7 @@ public class Sounds {
         s.addSound("[9/12] Tasim: Well, if you're staying in the area, maybe we'll cross paths! I'll likely be defending Detlas in the short-term.", "barracks-tasim-7", false);
         s.addSound("[10/12] Aledar: And, well, I'll probably be around as well! There's plenty of experts in the area.", "barracks-aledar-7", false);
         s.addSound("[9/12] Aledar: Well, hey, there's no shame in that. There's lots to do around here. I'm sure you'll figure it out!", "barracks-aledar-8", false);
-        s.addSound("[10/12] Tasim: If you need a goal, the next place you might want to visit is Nemract Swamp, to the north. Maybe pay it a visit when you rech level 20.", "barracks-tasim-8", false);
+        s.addSound("[10/12] Tasim: If you need a goal, the next place you might want to visit is Nemract Swamp, to the north. Maybe pay it a visit when you reach level 20.", "barracks-tasim-8", false);
         s.addSound("[11/12] Aledar: ...Well, I'm glad we were all able to be here together. Here's to a long and fulfilling friendship!", "barracks-aledar-9", false);
         s.addSound("[12/12] Tasim: I'll drink to that! To all our future adventures.", "barracks-tasim-9", false);
         s.addSound("[1/2] Tasim: Oh, hello soldier. I'm probably not going to be here for long- I've been assigned to help defend Elkurn to the south.", "barracks-tasim-10", false);
@@ -6165,7 +6165,7 @@ public class Sounds {
         s.addSound("[7/7] Olon: Come back tomorrow, please. I have about five more books to get through.", "aldoreissecretpart2-olon-193", false);
         s.addSound("[1/4] Olon: Hi there! Great timing.", "aldoreissecretpart2-olon-194", false);
         s.addSound("[2/4] Olon: I got inspired from my journey through the world of motivational writing yesterday.", "aldoreissecretpart2-olon-195", false);
-        s.addSound("[3/4] Olon: The best thing in the world is to help people around you, is that not right.", "aldoreissecretpart2-olon-196", false);
+        s.addSound("[3/4] Olon: The best thing in the world is to help people around you, is that not right?", "aldoreissecretpart2-olon-196", false);
         s.addSound("[4/4] Olon: This way I'll keep myself busy while still being of assistance.", "aldoreissecretpart2-olon-197", false);
         s.addSound("[1/3] Olon: Well, I'm doing better. Thank you for asking.", "aldoreissecretpart2-olon-198", false);
         s.addSound("[2/3] Olon: My shame is slowly turning to hatred for those old elders, maybe that's progress.", "aldoreissecretpart2-olon-199", false);
@@ -9173,7 +9173,7 @@ public class Sounds {
         s.addSound("[1/1] Ava: Well, good luck searching!", "thefeathersflypart2-ava-72", false);
         s.addSound("[1/5] Ava: So you found that weird dealer? Surely you're not thinking of...", "thefeathersflypart2-ava-73", false);
         s.addSound("[2/5] Ava: I mean... Actually, that'd be a way to get an audience, for sure. What does he want?", "thefeathersflypart2-ava-74", false);
-        s.addSound("[3/5] Ava: 24 Emerald Blocks? Is that a lot? I'm not human, y'know! Well, anyway!", "thefeathersflypart2-ava-75", false);
+        s.addSound("[3/5] Ava: [24 Emerald Blocks]? Is that a lot? I'm not human, y'know! Well, anyway!", "thefeathersflypart2-ava-75", false);
         s.addSound("[4/5] Ava: Buy that if you want, but I'm certain there are other ways to obtain an audience. You don't really have to buy that.", "thefeathersflypart2-ava-76", false);
         s.addSound("[5/5] Ava: Well, I'll just... Keep looking then.", "thefeathersflypart2-ava-77", false);
         s.addSound("[1/6] Ava: Oh? You found the dealer as well as one other way to get an audience?", "thefeathersflypart2-ava-78", false);
@@ -9343,7 +9343,7 @@ public class Sounds {
         s.addSound("[4/7] Ava: I want to, but... Have you seen how she was during the audience?", "thefeathersflypart2-ava-242", false);
         s.addSound("[5/7] Ava: I can't trust you, soldier. There's no way.", "thefeathersflypart2-ava-243", false);
         s.addSound("[6/7] Ava: I regret this... I sho uldn't have acted this way, this wasn't supposed to happen, I...", "thefeathersflypart2-ava-244", false);
-        s.addSound("[7/7] Ava: I can't stay, soldier. The president's one thing, but the others...", "thefeathersflypart2-ava-245", false);
+        s.addSound("[7/7] Ava: I can't stay, soldier. The president's one thing, but the others... It's safe to say no one's gonna welcome me with open arms, y'know?", "thefeathersflypart2-ava-245", false);
         s.addSound("[3/9] Ava: You... I assume you're here to take me.", "thefeathersflypart2-ava-246", false);
         s.addSound("[4/9] Ava: Go ahead, then. Do it. I don't have anything to lose anymore. I've already lost everything.", "thefeathersflypart2-ava-247", false);
         s.addSound("[6/9] Ava: I don't want your pity. I have no one. You're making this harder for yourself.", "thefeathersflypart2-ava-248", false);

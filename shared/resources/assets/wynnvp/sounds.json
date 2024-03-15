@@ -2245,6 +2245,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:infestedpit-tasim-14", "stream": true}]
   },
+  "infestidpit-arakadicus-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestidpit-arakadicus-1", "stream": true}]
+  },
+  "infestidpit-arakadicus-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:infestidpit-arakadicus-3", "stream": true}]
+  },
 
 
   "enzansbrother-enzan-1": {
