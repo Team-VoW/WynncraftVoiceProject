@@ -300,6 +300,9 @@ public class Sounds {
         s.addSound("[1/1] Mayor Alvin: A fine day for passing through! I hope you enjoy your stay.", "infestedplants-mayoralvin-14", false);
 
         //Infested Pit
+        s.addSound("[1/2] ???: Oh, it seems I have a guest. You're just in time for dinner... hehe..", "infestidpit-arakadicus-1", true);
+        s.addSound("[1/1] Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!", "infestidpit-arakadicus-3", true);
+
         s.addSound("[1/1] Tasim: Do you need to prepare? We'll wait here for you until you're ready.", "infestedpit-tasim-1", false);
         s.addSound("[1/1] Aledar: Well, are you ready? When you are, let's head in and fight those spiders!", "infestedpit-aledar-1", false);
         s.addSound("[1/2] ???: Oh, it seems I have some guests. You're just in time for dinner... hehe..", "infestedpit-arakadicus-1", true);
@@ -11185,12 +11188,6 @@ public class Sounds {
         s.addSound("[1/1] Corrupted Witherhead: You... you've come HERE before. You shouldn't be alive....", "cds-witherehead-3", true);
 
 
-        //infestid pit
-        s.addSound("[1/2] ???: Oh, it seems I have a guest. You're just in time for dinner... hehe..", "infestidpit-arakadicus-1", true);
-        s.addSound("[1/3] Hanged Man: Ah- Adventurer!... I b- beg you.. do not c- continue on your quest...", "infestidpit-hangedman-1", true);
-        s.addSound("[3/3] Hanged Man: Arakadicus is.. is a coward... it traps you and f- feeds you to its... children...", "infestidpit-hangedman-3", true);
-        s.addSound("[1/1] Arakadicus: Don't mind our other guest back there. He had such a bitter taste. However, my babies think you look delicious... hehehe...", "infestidpit-arakadicus-2", true);
-        s.addSound("[1/1] Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!", "infestidpit-arakadicus-3", true);
 
         //Corrupted infestid pit
         s.addSound("[1/2] ???: This is a familiar face... hehe...", "cip-corruptedarakadicus-1", true);

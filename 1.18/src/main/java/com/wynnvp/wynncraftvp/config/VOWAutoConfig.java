@@ -39,7 +39,7 @@ public class VOWAutoConfig implements ConfigData {
     //--------------------------------------------------------------
     //Logging Settings:
     @ConfigEntry.Gui.Tooltip
-    public boolean logDialogueLines = false;
+    public boolean logDialogueLines = true;
     @ConfigEntry.Gui.Tooltip
     public boolean onlyLogNotPlayingLines = true;
     @ConfigEntry.Gui.Tooltip

@@ -24472,6 +24472,11 @@
 
 
 
+
+  "agravemistake-skeleton-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:agravemistake-skeleton-1", "stream": true}]
+  },
   "agravemistake-alem-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:agravemistake-alem-1", "stream": true}]
@@ -24487,10 +24492,6 @@
   "agravemistake-alem-4": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:agravemistake-alem-4", "stream": true}]
-  },
-  "agravemistake-skeleton-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:agravemistake-skeleton-1", "stream": true}]
   },
   "agravemistake-alem-5": {
     "category": "voice",
@@ -24516,7 +24517,14 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:agravemistake-alem-10", "stream": true}]
   },
-
+  "agravemistake-alem-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:agravemistake-alem-11", "stream": true}]
+  },
+  "agravemistake-alem-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:agravemistake-alem-12", "stream": true}]
+  },
 
 
 

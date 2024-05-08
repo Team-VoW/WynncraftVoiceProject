@@ -30,7 +30,6 @@ public class MixinChatListener {
 
 
         ModCore.chatHandler.onChatReceived(packet.content());
-      //  ReceiveChatEvent.receivedChat(packet.content().getString());
     }
 
     @Inject(

@@ -2739,17 +2739,19 @@ public class Sounds {
         s.addSound("[1/1] ???: Intruder Detected - Emergency meltdown initiated. Please evacuate immediately via the emergency exit.", "anironheartpart2-security-2", true);
 
         //A Grave misstake
-        s.addSound("[1/3] Alem: You might want to leave.", "agravemistake-alem-1", false);
-        s.addSound("[2/3] Alem: There is nothing in this graveyard.", "agravemistake-alem-2", false);
-        s.addSound("[3/3] Alem: This place is private.", "agravemistake-alem-3", false);
-        s.addSound("[1/1] Alem: I have warned you...", "agravemistake-alem-4", false);
         s.addSound("§7[1/1] §2§kXXXXXXX§2: §aOh, my arm.. It's ba...", "agravemistake-skeleton-1", false);
-        s.addSound("[1/2] ???: You were warned not to enter this forsaken place.", "agravemistake-alem-5", false);
-        s.addSound("[2/2] ???: But since you have made it thusfar, I suppose I shall show you the truth...", "agravemistake-alem-6", false);
-        s.addSound("[1/3] Mael: Do you understand now?", "agravemistake-alem-7", true);
-        s.addSound("[2/3] Mael: Then leave, and forget the horrors you have witnessed here today...", "agravemistake-alem-8", true);
-        s.addSound("[3/3] Mael: They are safer here.", "agravemistake-alem-9", true);
-        s.addSound("[1/1] Alem: I have nothing more to say. Take these.", "agravemistake-alem-10", false);
+        s.addSound("[1/1] Alem: Leave.", "agravemistake-alem-1", false);
+        s.addSound("[1/3] Alem: You might want to leave.", "agravemistake-alem-2", false);
+        s.addSound("[2/3] Alem: There is nothing in this graveyard.", "agravemistake-alem-3", false);
+        s.addSound("[3/3] Alem: This place is private.", "agravemistake-alem-4", false);
+        s.addSound("[1/1] Alem: I have warned you...", "agravemistake-alem-5", false);
+        s.addSound("[1/2] ???: You were warned not to enter this forsaken place.", "agravemistake-alem-6", false);
+        s.addSound("[2/2] ???: But since you have made it thusfar, I suppose I shall show you the truth...", "agravemistake-alem-7", false);
+        s.addSound("[1/3] Mael: Do you understand now?", "agravemistake-alem-8", false);
+        s.addSound("[2/3] Mael: Then leave, and forget the horrors you have witnessed here today...", "agravemistake-alem-9", false);
+        s.addSound("[3/3] Mael: They are safer here.", "agravemistake-alem-10", false);
+        s.addSound("[1/1] Alem: I have nothing more to say. Take these.", "agravemistake-alem-11", false);
+        s.addSound("[1/1] Alem: Keep in mind what you have learned.", "agravemistake-alem-12", false);
 
         //The maiden tower
         s.addSound("[1/10] Sherk: Ah! What are you doing in my swamp?! Don't you know that Ogres live alone for a reason?", "themaidentower-sherk-1", false);
