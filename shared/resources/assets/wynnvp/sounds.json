@@ -44572,6 +44572,262 @@
     "sounds": [{ "name": "wynnvp:timelostsanctum-garoth-14", "stream": true}]
   },
 
+  "wynnplains-basementdweller-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-basementdweller-1", "stream": true}]
+  },
+  "wynnplains-basementdweller-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-basementdweller-2", "stream": true}]
+  },
+  "wynnplains-guard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-guard-1", "stream": true}]
+  },
+  "wynnplains-guard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-guard-2", "stream": true}]
+  },
+  "wynnplains-guard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-guard-3", "stream": true}]
+  },
+  "wynnplains-guard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-guard-4", "stream": true}]
+  },
+  "wynnplains-guard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-guard-5", "stream": true}]
+  },
+  "wynnplains-bakal-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-1", "stream": true}]
+  },
+  "wynnplains-townguard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-townguard-1", "stream": true}]
+  },
+  "wynnplains-guardleader-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-guardleader-1", "stream": true}]
+  },
+  "wynnplains-townguard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-townguard-2", "stream": true}]
+  },
+  "wynnplains-guardleader-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-guardleader-2", "stream": true}]
+  },
+  "wynnplains-bakal-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-2", "stream": true}]
+  },
+  "wynnplains-bakal-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-3", "stream": true}]
+  },
+  "wynnplains-bakal-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-4", "stream": true}]
+  },
+  "wynnplains-bakal-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-5", "stream": true}]
+  },
+  "wynnplains-bakal-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-6", "stream": true}]
+  },
+  "wynnplains-bakal-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-7", "stream": true}]
+  },
+  "wynnplains-towncitizen1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-towncitizen1-1", "stream": true}]
+  },
+  "wynnplains-towncitizen2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-towncitizen2-1", "stream": true}]
+  },
+  "wynnplains-towncitizen2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-towncitizen2-2", "stream": true}]
+  },
+  "wynnplains-bakal-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-8", "stream": true}]
+  },
+  "wynnplains-bakal-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-9", "stream": true}]
+  },
+  "wynnplains-bakal-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-10", "stream": true}]
+  },
+  "wynnplains-bakal-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-11", "stream": true}]
+  },
+  "wynnplains-farmer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-farmer-1", "stream": true}]
+  },
+  "wynnplains-bakal-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-12", "stream": true}]
+  },
+  "wynnplains-dyingolm-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-dyingolm-1", "stream": true}]
+  },
+  "wynnplains-dyingolm-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-dyingolm-2", "stream": true}]
+  },
+  "wynnplains-ragamal-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-ragamal-1", "stream": true}]
+  },
+  "wynnplains-ragamal-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-ragamal-2", "stream": true}]
+  },
+  "wynnplains-ragamal-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-ragamal-3", "stream": true}]
+  },
+  "wynnplains-ragamal-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-ragamal-4", "stream": true}]
+  },
+  "wynnplains-harv-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-harv-1", "stream": true}]
+  },
+  "wynnplains-marlow-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-marlow-1", "stream": true}]
+  },
+  "wynnplains-harv-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-harv-2", "stream": true}]
+  },
+  "wynnplains-marlow-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-marlow-2", "stream": true}]
+  },
+  "wynnplains-harv-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-harv-3", "stream": true}]
+  },
+  "wynnplains-harv-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-harv-4", "stream": true}]
+  },
+  "wynnplains-marlow-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-marlow-3", "stream": true}]
+  },
+  "wynnplains-poe-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-poe-1", "stream": true}]
+  },
+  "wynnplains-poe-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-poe-2", "stream": true}]
+  },
+  "wynnplains-poe-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-poe-3", "stream": true}]
+  },
+  "wynnplains-poe-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-poe-4", "stream": true}]
+  },
+  "wynnplains-soldier1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-soldier1-1", "stream": true}]
+  },
+  "wynnplains-soldier2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-soldier2-1", "stream": true}]
+  },
+  "wynnplains-soldier1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-soldier1-2", "stream": true}]
+  },
+  "wynnplains-bakal-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-13", "stream": true}]
+  },
+  "wynnplains-soldier2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-soldier2-2", "stream": true}]
+  },
+  "wynnplains-soldier1-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-soldier1-3", "stream": true}]
+  },
+  "wynnplains-bakal-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-14", "stream": true}]
+  },
+  "wynnplains-bob-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bob-1", "stream": true}]
+  },
+  "wynnplains-bakal-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-15", "stream": true}]
+  },
+  "wynnplains-bob-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bob-2", "stream": true}]
+  },
+  "wynnplains-bakal-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-16", "stream": true}]
+  },
+  "wynnplains-bob-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bob-3", "stream": true}]
+  },
+  "wynnplains-bakal-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-17", "stream": true}]
+  },
+  "wynnplains-bob-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bob-4", "stream": true}]
+  },
+  "wynnplains-bob-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bob-5", "stream": true}]
+  },
+  "wynnplains-bob-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bob-6", "stream": true}]
+  },
+  "wynnplains-bob-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bob-7", "stream": true}]
+  },
+  "wynnplains-bob-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bob-8", "stream": true}]
+  },
+  "wynnplains-bakal-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bakal-18", "stream": true}]
+  },
+  "wynnplains-bob-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:wynnplains-bob-9", "stream": true}]
+  },
 
 
 
