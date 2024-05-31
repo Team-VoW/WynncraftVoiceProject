@@ -207,13 +207,13 @@ public class Sounds {
         s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-14", false);
 
         //Supply and delivery
-        s.addSound("[1/10] Ope: Oh, man... What am I going to do now...", "supplyanddelivery-ope-1", false);
-        s.addSound("[2/10] Ope: O-oh! H-hello soldier! Wow, what a coincidence that we're both here... in Detlas... today...", "supplyanddelivery-ope-2", false);
-        s.addSound("[3/10] Ope: What? Don't look at me like that! We had a perfectly fair interaction which we both benefited from. I got the plant, and you... well. You gained experience?", "supplyanddelivery-ope-3", false);
-        s.addSound("[4/10] Ope: Look, alright, I get it! But I can't pay you back either way. The mayor sent me here to pick up a crate of supplies for the village.", "supplyanddelivery-ope-4", false);
-        s.addSound("[5/10] Ope: The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway...", "supplyanddelivery-ope-5", false);
-        s.addSound("[6/10] Ope: Those two over there who run the market banned me from ever using it after I tried to buy out the world's supplies of magical powders.", "supplyanddelivery-ope-6", false);
-        s.addSound("[7/10] Ope: Look, it's not my fault I'm making big market moves. I'm just, you know- smarter than all these other folks!", "supplyanddelivery-ope-7", false);
+        s.addSound("[1/9] Ope: Oh, man... What am I going to do now...", "supplyanddelivery-ope-1", false);
+        s.addSound("[2/9] Ope: O-oh! H-hello soldier! Wow, what a coincidence that we're both here... in Detlas... today...", "supplyanddelivery-ope-2", false);
+        s.addSound("[3/9] Ope: What? Don't look at me like that! We had a perfectly fair interaction which we both benefited from. I got the plant, and you... well. You gained experience?", "supplyanddelivery-ope-3", false);
+        s.addSound("[4/9] Ope: Look, alright, I get it! But I can't pay you back either way. The mayor sent me here to pick up a crate of supplies for the village.", "supplyanddelivery-ope-4", false);
+        s.addSound("[5/9] Ope: The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway...", "supplyanddelivery-ope-5", false);
+        s.addSound("[6/9] Ope: Those two over there who run the market banned me from ever using it after I tried to buy out the world's supplies of magical powders.", "supplyanddelivery-ope-6", false);
+        s.addSound("[7/9] Ope: Look, it's not my fault I'm making big market moves. I'm just, you know- smarter than all these other folks!", "supplyanddelivery-ope-7", false);
         s.addSound("[8/9] Ope: ... The point is. I could really use your help right now! I- I promise, I'll pay you back for it this time.", "supplyanddelivery-ope-8", false);
         s.addSound("[9/9] Ope: All you need to do is go over to the Trade Market, and buy the supply crate for me. Please?", "supplyanddelivery-ope-9", false);
         s.addSound("[8/10] Ope: ... What? They also banned you from the market?! Well, great. What're we supposed to do now?", "supplyanddelivery-ope-10", false);
@@ -653,7 +653,7 @@ public class Sounds {
         s.addSound("[1/7] Tasim: I'm prepared as well. These corrupted won't stand a chance against us!", "elementalexercise-tasim-20", false);
         s.addSound("[2/7] Captain Ragon: Yes, yes, very good. Now, it shouldn't be long until-", "elementalexercise-captainragon-24", false);
         s.addSound("[3/7] Scout Evelyn: Captain! They're here!", "elementalexercise-scoutevelyn-2", false);
-        s.addSound("[4/7] Captain Ragon: That's right. And generally speaking, they're strong against each other in that order- ✹ Fire beats ❋ Air, ❋ Air beats ✤ Earth, and so on.", "elementalexercise-captainragon-25", false, 50);
+        s.addSound("[4/7] Captain Ragon: Hm... Take note of the leader. I expect if we can defeat it, the rest of the forces will disperse.", "elementalexercise-captainragon-25", false, 50);
         s.addSound("[5/7] Captain Ragon: Stronger foes such as this one will cast spells one after the other, in a specific order. These spell combos can be dangerous, so make sure to take note of them.", "elementalexercise-captainragon-26", false, 50);
         s.addSound("[6/7] Captain Ragon: We'll be fighting all around you, so shout if you're in need of aid. Alright, soldiers, let's defend our city!", "elementalexercise-captainragon-27", false);
         s.addSound("[7/7] Tasim: Alright soldier, let's do this!", "elementalexercise-tasim-21", false);
@@ -11454,19 +11454,19 @@ public class Sounds {
         s.addSound("[2/4] Guard Leader: There was no time to evacuate, so I told them to go inside and block their doors. I just hope they all listened.", "wynnplains-guardleader-1", false, 90);
         s.addSound("[3/4] Town Guard: But is it enough? I don't know if the three of us are going to be enough to protect the town from...", "wynnplains-townguard-2", false, 90);
         s.addSound("[4/4] Guard Leader: Get ready, men! He's coming!", "wynnplains-guardleader-2", false, 90);
-        s.addSound("[1/6] Bak'al: An army is only an army if it is coordinated. This…", "wynnplains-bakal-2", false, 90);
+        s.addSound("[1/6] Bak'al: An army is only an army if it is coordinated. This...", "wynnplains-bakal-2", false, 90);
         s.addSound("[2/6] Bak'al: ...is no army.", "wynnplains-bakal-3", false, 90);
         s.addSound("[3/6] Bak'al: I seem to have overestimated the humans.", "wynnplains-bakal-4", false, 90);
         s.addSound("[4/6] Bak'al: I think my army can take care of this.", "wynnplains-bakal-5", false, 90);
         s.addSound("[5/6] Bak'al: Go.", "wynnplains-bakal-6", false, 90);
         s.addSound("[6/6] Bak'al: Good. Leave no survivors.", "wynnplains-bakal-7", false, 90);
-        s.addSound("[1/1] Town Citizen: It's a dead end! What do we d-?", "wynnplains-towncitizen1-1", false, 90);
+        s.addSound("[1/1] Town Citizen: It's a dead end! What do we d-?", "wynnplains-towncitizen1-1", true, 90);
         s.addSound("[1/2] Town Citizen: Come on, open up! Let me in!", "wynnplains-towncitizen2-1", false, 90);
         s.addSound("[2/2] Town Citizen: Please, let me in! I don't want to die!", "wynnplains-towncitizen2-2", false, 90);
         s.addSound("[1/4] Bak'al: I sense no traces of life.", "wynnplains-bakal-8", false, 90);
         s.addSound("[2/4] Bak'al: Burn it all. Leave nothing.", "wynnplains-bakal-9", false, 90);
-        s.addSound("[3/4] Bak'al: Let the ashes serve as a reminder that…", "wynnplains-bakal-10", false, 90);
-        s.addSound("[4/4] Bak'al: Every city will suffer the same fate.", "wynnplains-bakal-11", false, 90);
+        s.addSound("[3/4] Bak'al: Let the ashes serve as a reminder that...", "wynnplains-bakal-10", false, 90);
+        s.addSound("[4/4] Bak'al: Every city will suffer the same fate.", "wynnplains-bakal-11", true);
         s.addSound("[1/1] Farmer: Gods, NO!", "wynnplains-farmer-1", false, 90);
         s.addSound("[1/1] Bak'al: The darkness must spread.", "wynnplains-bakal-12", false, 90);
         s.addSound("[1/2] ???: Ahhh…", "wynnplains-dyingolm-1", false);
