@@ -38064,6 +38064,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:realmoflight5-lari-86", "stream": true}]
   },
+  "realmoflight5-lari-87": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:realmoflight5-lari-87", "stream": true}]
+  },
 
   "nexusoflight-orphion-1": {
     "category": "voice",

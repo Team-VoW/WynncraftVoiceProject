@@ -3536,6 +3536,7 @@ public class Sounds {
         s.addSound("I've never been one to say goodbyes, but thank you for everything. I know you'll find people just as strong as you are to rescue Orphion in my place.", "realmoflight5-lari-84", true);
         s.addSound("I- I see the end of this... Tunnel. There's- Wait...", "realmoflight5-lari-85", true);
         s.addSound("By the light what is that thing?! S-Stay away f-", "realmoflight5-lari-86", true);
+        s.addSound("[3/3] Lari: Though... I feel something on the other side. It seems incredibly... Foul. I can't tell what it is, let's be careful.", "realmoflight5-lari-87", false);
         s.addSound("1/10orphionmypulseyourbrillianceisblindingyourpowersomuchmorethaniexpected", "nexusoflight-orphion-1", true);
         s.addSound("2/10orphionthedarkaberrationitbroughtshadowstomeandfrommetomylandthentoyours", "nexusoflight-orphion-2", true);
         s.addSound("3/10orphiongavelsdeclinewillendwithmyfreedomslowlyiamstillleftdimbuteverbrightening", "nexusoflight-orphion-3", true);
