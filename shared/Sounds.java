@@ -6222,7 +6222,7 @@ public class Sounds {
         s.addSound("[12/13] Batelu: Bring me [1 Cluckles' Favourite Feather], [1 Baab's Wool] & [1 Mooington's Skin] if you can find them.", "reincarnation-batelu-12", false);
         s.addSound("[13/13] Batelu: I am sure that together, we can open the passage. Good luck.", "reincarnation-batelu-13", false);
         s.addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnation-batelu-14", false);
-        s.addSound("[2/2] Batelu: I am not worthy enough to enter it. I did not complete the task of the animals, merely read it. You shall go alone, be careful.", "reincarnation-batelu-15", false);
+        s.addSound("[2/2] Batelu: I am not worthy enough to enter it. I did not complete the task of the animals, I merely read it. You shall go alone. Be careful.", "reincarnation-batelu-15", false);
         s.addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", true);
         s.addSound("[3/9] Bob: Let me explain why you are here.", "reincarnation-bob-2", true);
         s.addSound("[4/9] Bob: My animals, were my greatest allies in my travels through the world.", "reincarnation-bob-3", true);
