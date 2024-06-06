@@ -207,13 +207,13 @@ public class Sounds {
         s.addSound("[1/1] The Cook: You should practice your cooking, maybe one day you'll become a master chef like myself!", "cookassistant-thecook-14", false);
 
         //Supply and delivery
-        s.addSound("[1/10] Ope: Oh, man... What am I going to do now...", "supplyanddelivery-ope-1", false);
-        s.addSound("[2/10] Ope: O-oh! H-hello soldier! Wow, what a coincidence that we're both here... in Detlas... today...", "supplyanddelivery-ope-2", false);
-        s.addSound("[3/10] Ope: What? Don't look at me like that! We had a perfectly fair interaction which we both benefited from. I got the plant, and you... well. You gained experience?", "supplyanddelivery-ope-3", false);
-        s.addSound("[4/10] Ope: Look, alright, I get it! But I can't pay you back either way. The mayor sent me here to pick up a crate of supplies for the village.", "supplyanddelivery-ope-4", false);
-        s.addSound("[5/10] Ope: The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway...", "supplyanddelivery-ope-5", false);
-        s.addSound("[6/10] Ope: Those two over there who run the market banned me from ever using it after I tried to buy out the world's supplies of magical powders.", "supplyanddelivery-ope-6", false);
-        s.addSound("[7/10] Ope: Look, it's not my fault I'm making big market moves. I'm just, you know- smarter than all these other folks!", "supplyanddelivery-ope-7", false);
+        s.addSound("[1/9] Ope: Oh, man... What am I going to do now...", "supplyanddelivery-ope-1", false);
+        s.addSound("[2/9] Ope: O-oh! H-hello soldier! Wow, what a coincidence that we're both here... in Detlas... today...", "supplyanddelivery-ope-2", false);
+        s.addSound("[3/9] Ope: What? Don't look at me like that! We had a perfectly fair interaction which we both benefited from. I got the plant, and you... well. You gained experience?", "supplyanddelivery-ope-3", false);
+        s.addSound("[4/9] Ope: Look, alright, I get it! But I can't pay you back either way. The mayor sent me here to pick up a crate of supplies for the village.", "supplyanddelivery-ope-4", false);
+        s.addSound("[5/9] Ope: The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway...", "supplyanddelivery-ope-5", false);
+        s.addSound("[6/9] Ope: Those two over there who run the market banned me from ever using it after I tried to buy out the world's supplies of magical powders.", "supplyanddelivery-ope-6", false);
+        s.addSound("[7/9] Ope: Look, it's not my fault I'm making big market moves. I'm just, you know- smarter than all these other folks!", "supplyanddelivery-ope-7", false);
         s.addSound("[8/9] Ope: ... The point is. I could really use your help right now! I- I promise, I'll pay you back for it this time.", "supplyanddelivery-ope-8", false);
         s.addSound("[9/9] Ope: All you need to do is go over to the Trade Market, and buy the supply crate for me. Please?", "supplyanddelivery-ope-9", false);
         s.addSound("[8/10] Ope: ... What? They also banned you from the market?! Well, great. What're we supposed to do now?", "supplyanddelivery-ope-10", false);
@@ -653,7 +653,7 @@ public class Sounds {
         s.addSound("[1/7] Tasim: I'm prepared as well. These corrupted won't stand a chance against us!", "elementalexercise-tasim-20", false);
         s.addSound("[2/7] Captain Ragon: Yes, yes, very good. Now, it shouldn't be long until-", "elementalexercise-captainragon-24", false);
         s.addSound("[3/7] Scout Evelyn: Captain! They're here!", "elementalexercise-scoutevelyn-2", false);
-        s.addSound("[4/7] Captain Ragon: That's right. And generally speaking, they're strong against each other in that order- ✹ Fire beats ❋ Air, ❋ Air beats ✤ Earth, and so on.", "elementalexercise-captainragon-25", false, 50);
+        s.addSound("[4/7] Captain Ragon: Hm... Take note of the leader. I expect if we can defeat it, the rest of the forces will disperse.", "elementalexercise-captainragon-25", false, 50);
         s.addSound("[5/7] Captain Ragon: Stronger foes such as this one will cast spells one after the other, in a specific order. These spell combos can be dangerous, so make sure to take note of them.", "elementalexercise-captainragon-26", false, 50);
         s.addSound("[6/7] Captain Ragon: We'll be fighting all around you, so shout if you're in need of aid. Alright, soldiers, let's defend our city!", "elementalexercise-captainragon-27", false);
         s.addSound("[7/7] Tasim: Alright soldier, let's do this!", "elementalexercise-tasim-21", false);
@@ -3536,6 +3536,7 @@ public class Sounds {
         s.addSound("I've never been one to say goodbyes, but thank you for everything. I know you'll find people just as strong as you are to rescue Orphion in my place.", "realmoflight5-lari-84", true);
         s.addSound("I- I see the end of this... Tunnel. There's- Wait...", "realmoflight5-lari-85", true);
         s.addSound("By the light what is that thing?! S-Stay away f-", "realmoflight5-lari-86", true);
+        s.addSound("[3/3] Lari: Though... I feel something on the other side. It seems incredibly... Foul. I can't tell what it is, let's be careful.", "realmoflight5-lari-87", false);
         s.addSound("1/10orphionmypulseyourbrillianceisblindingyourpowersomuchmorethaniexpected", "nexusoflight-orphion-1", true);
         s.addSound("2/10orphionthedarkaberrationitbroughtshadowstomeandfrommetomylandthentoyours", "nexusoflight-orphion-2", true);
         s.addSound("3/10orphiongavelsdeclinewillendwithmyfreedomslowlyiamstillleftdimbuteverbrightening", "nexusoflight-orphion-3", true);
@@ -6221,7 +6222,7 @@ public class Sounds {
         s.addSound("[12/13] Batelu: Bring me [1 Cluckles' Favourite Feather], [1 Baab's Wool] & [1 Mooington's Skin] if you can find them.", "reincarnation-batelu-12", false);
         s.addSound("[13/13] Batelu: I am sure that together, we can open the passage. Good luck.", "reincarnation-batelu-13", false);
         s.addSound("[1/2] Batelu: Wonderful! We can now open the passage to the true tomb of Bob...", "reincarnation-batelu-14", false);
-        s.addSound("[2/2] Batelu: I am not worthy enough to enter it. I did not complete the task of the animals, merely read it. You shall go alone, be careful.", "reincarnation-batelu-15", false);
+        s.addSound("[2/2] Batelu: I am not worthy enough to enter it. I did not complete the task of the animals, I merely read it. You shall go alone. Be careful.", "reincarnation-batelu-15", false);
         s.addSound("[2/9] Bob: I am Bob, master of the arts of Wynn.", "reincarnation-bob-1", true);
         s.addSound("[3/9] Bob: Let me explain why you are here.", "reincarnation-bob-2", true);
         s.addSound("[4/9] Bob: My animals, were my greatest allies in my travels through the world.", "reincarnation-bob-3", true);
@@ -11495,17 +11496,17 @@ public class Sounds {
         s.addSound("[7/7] Bak'al: And now, Ragni is left defenseless. This land will be purified, just like the rest.", "wynnplains-bakal-14", false, 90);
         s.addSound("[1/7] Bob: I will never let this city fall again.", "wynnplains-bob-1", false, 90);
         s.addSound("[2/7] Bak'al: Another soldier..? It matters not. End him!", "wynnplains-bakal-15", false, 90);
-        s.addSound("[3/7] Bob: Extortus aetherium ferio!", "wynnplains-bob-2", false, 90);
+        s.addSound("[3/7] Bob: ⒭⒤⒮⒤⒩⒢ ⒰⒫⒫⒠⒭⒞⒰⒯１", "wynnplains-bob-2", false, 90);
         s.addSound("[4/7] Bak'al: A foolhardy display of power means nothing to me. Again, peons!", "wynnplains-bakal-16", false, 90);
-        s.addSound("[5/7] Bob: Urinari tremor!", "wynnplains-bob-3", false, 90);
-        s.addSound("[6/7] Bak'al: Your power.. its... I wasnt prepared for this.. Retreat, peons!", "wynnplains-bakal-17", false, 90);
+        s.addSound("[5/7] Bob: ⒟⒤⒱⒤⒩⒢ ⒠⒜⒭⒯⒣⒮⒣⒜⒯⒯⒠⒭１", "wynnplains-bob-3", false, 90);
+        s.addSound("[6/7] Bak'al: Your power.. it’s... I wasn’t prepared for this.. Retreat, peons!", "wynnplains-bakal-17", false, 90);
         s.addSound("[7/7] Bob: Oh no, YOU'RE not getting away!", "wynnplains-bob-4", false, 90);
-        s.addSound("[1/3] Bob: Fo vith!", "wynnplains-bob-5", false, 90);
-        s.addSound("[2/3] Bob: Ronaaz tumultus!", "wynnplains-bob-6", false, 90);
-        s.addSound("[3/3] Bob: Yol displosus!", "wynnplains-bob-7", false, 90);
+        s.addSound("[1/3] Bob: ⒡⒭⒪⒮⒯ ⒮⒠⒭⒫⒠⒩⒯１", "wynnplains-bob-5", false, 90);
+        s.addSound("[2/3] Bob: ⒜⒭⒭⒪⒲ ⒝⒜⒭⒭⒜⒢⒠１", "wynnplains-bob-6", false, 90);
+        s.addSound("[3/3] Bob: ⒡⒤⒭⒠ ⒝⒪⒨⒝１", "wynnplains-bob-7", false, 90);
         s.addSound("[1/3] Bob: I've spent my entire life preparing for this. I will NEVER let this province fall.", "wynnplains-bob-8", false, 90);
         s.addSound("[2/3] Bak'al: The Twains said the same thing to me, once. And just like them, you will fall helplessly at my feet.", "wynnplains-bakal-18", false, 90);
-        s.addSound("[3/3] Bob: Ive learned from the Twains mistakes! I refuse to fall as easily as they did!", "wynnplains-bob-9", false, 90);
+        s.addSound("[3/3] Bob: I’ve learned from the Twains’ mistakes! I refuse to fall as easily as they did!", "wynnplains-bob-9", false, 90);
 
 
         //Non quest npc

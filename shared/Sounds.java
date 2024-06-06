@@ -11470,10 +11470,10 @@ public class Sounds {
         s.addSound("[4/4] Bak'al: Every city will suffer the same fate.", "wynnplains-bakal-11", true);
         s.addSound("[1/1] Farmer: Gods, NO!", "wynnplains-farmer-1", false, 90);
         s.addSound("[1/1] Bak'al: The darkness must spread.", "wynnplains-bakal-12", false, 90);
-        s.addSound("[1/2] ???: Ahhh…", "wynnplains-dyingolm-1", false);
-        s.addSound("[2/2] ???: Faal olm nis vivere het. Tiid sic dissuo fragmenis... un nunon spem los... faal situs obscurus.", "wynnplains-dyingolm-2", false);
-        s.addSound("[1/4] Ragamal: HEY! You stay out of that tent, you filthy rich soldier kid! You already got", "wynnplains-ragamal-1", false);
-        s.addSound("[2/4] Ragamal: I scrounged and saved and bought that old box of fruit fair and square, it's mine!", "wynnplains-ragamal-2", false);
+        s.addSound("[1/2] ???: Ahhh...", "wynnplains-dyingolm-1", false);
+        s.addSound("[2/2] ???: ⒯⒣⒠ ⒪⒧⒨ ⒞⒜⒩⒩⒪⒯ ⒮⒰⒭⒱⒤⒱⒠ ⒣⒠⒭⒠. ⒯⒤⒨⒠ ⒣⒜⒮ ⒝⒠⒠⒩ ⒭⒤⒫⒫⒠⒟ ⒜⒮⒰⒩⒟⒠⒭... ⒪⒰⒭ ⒪⒩⒧⒴ ⒣⒪⒫⒠ ⒤⒮... ⒯⒣⒠ ⒠⒳⒫⒜⒩⒮-０", "wynnplains-dyingolm-2", false, new Vector3(-406, 56, -1111));
+        s.addSound("[1/4] Ragamal: HEY! You stay out of that tent, you filthy rich soldier kid! You already got everything you need!", "wynnplains-ragamal-1", false);
+        s.addSound("[2/4] Ragamal: I scrounged and saved and bought that old box of fruit fair and square, it's mine! You want some, you go BUY it with all those emeralds you got lining your pockets!", "wynnplains-ragamal-2", false);
         s.addSound("[3/4] Ragamal: Yeah, get out of here and go brown-nose those big-nosed flimflam scam artists! Stupid soldiers! Why couldn't you have just bothered to come to my house that night?!", "wynnplains-ragamal-3", false);
         s.addSound("[4/4] Ragamal: WHY COULDN'T YOU ALL HAVE EVEN BOTHERED TO HELP A DAMNED SOUL IN NEED?! GO GRAB SOME ANCHORS AND STEP OFF A BOAT, YOU USELESS, GOOD FOR NOTHING, WEAPON TOTING, VILLAGER LOVING JERK!!", "wynnplains-ragamal-4", false);
         s.addSound("[1/7] Harv: Say, Marlow. Ya think this old pipe here would make a good enough weapon?", "wynnplains-harv-1", false);
@@ -11486,7 +11486,7 @@ public class Sounds {
         s.addSound("[1/4] Poe: Oh! A visitor! We rarely get people down here. For obvious reasons.", "wynnplains-poe-1", false);
         s.addSound("[2/4] Poe: I have nothing to offer you, but please, make yourself comfortable. Warm yourself by the fire.", "wynnplains-poe-2", false);
         s.addSound("[3/4] Poe: We need to keep each other's spirits up. After all, when all's said and done, what else do we have?", "wynnplains-poe-3", false);
-        s.addSound("[4/4] Poe: I consider myself lucky to be alive. So many lives were lost in that attack…", "wynnplains-poe-4", false);
+        s.addSound("[4/4] Poe: I consider myself lucky to be alive. So many lives were lost in that attack...", "wynnplains-poe-4", false);
         s.addSound("[1/7] Soldier 1: I-I can’t run anymore. Get back to Ragni and close the gates! We might be able to hold him the-", "wynnplains-soldier1-1", false, 90);
         s.addSound("[2/7] Soldier 2: Are you insane? You saw how that BEAST slaughtered our entire regiment! We're done fo-", "wynnplains-soldier2-1", false, 90);
         s.addSound("[3/7] Soldier 1: Oh no... He’s here.", "wynnplains-soldier1-2", false, 90);
@@ -11496,17 +11496,17 @@ public class Sounds {
         s.addSound("[7/7] Bak'al: And now, Ragni is left defenseless. This land will be purified, just like the rest.", "wynnplains-bakal-14", false, 90);
         s.addSound("[1/7] Bob: I will never let this city fall again.", "wynnplains-bob-1", false, 90);
         s.addSound("[2/7] Bak'al: Another soldier..? It matters not. End him!", "wynnplains-bakal-15", false, 90);
-        s.addSound("[3/7] Bob: Extortus aetherium ferio!", "wynnplains-bob-2", false, 90);
+        s.addSound("[3/7] Bob: ⒭⒤⒮⒤⒩⒢ ⒰⒫⒫⒠⒭⒞⒰⒯１", "wynnplains-bob-2", false, 90);
         s.addSound("[4/7] Bak'al: A foolhardy display of power means nothing to me. Again, peons!", "wynnplains-bakal-16", false, 90);
-        s.addSound("[5/7] Bob: Urinari tremor!", "wynnplains-bob-3", false, 90);
-        s.addSound("[6/7] Bak'al: Your power.. its... I wasnt prepared for this.. Retreat, peons!", "wynnplains-bakal-17", false, 90);
+        s.addSound("[5/7] Bob: ⒟⒤⒱⒤⒩⒢ ⒠⒜⒭⒯⒣⒮⒣⒜⒯⒯⒠⒭１", "wynnplains-bob-3", false, 90);
+        s.addSound("[6/7] Bak'al: Your power.. it’s... I wasn’t prepared for this.. Retreat, peons!", "wynnplains-bakal-17", false, 90);
         s.addSound("[7/7] Bob: Oh no, YOU'RE not getting away!", "wynnplains-bob-4", false, 90);
-        s.addSound("[1/3] Bob: Fo vith!", "wynnplains-bob-5", false, 90);
-        s.addSound("[2/3] Bob: Ronaaz tumultus!", "wynnplains-bob-6", false, 90);
-        s.addSound("[3/3] Bob: Yol displosus!", "wynnplains-bob-7", false, 90);
+        s.addSound("[1/3] Bob: ⒡⒭⒪⒮⒯ ⒮⒠⒭⒫⒠⒩⒯１", "wynnplains-bob-5", false, 90);
+        s.addSound("[2/3] Bob: ⒜⒭⒭⒪⒲ ⒝⒜⒭⒭⒜⒢⒠１", "wynnplains-bob-6", false, 90);
+        s.addSound("[3/3] Bob: ⒡⒤⒭⒠ ⒝⒪⒨⒝１", "wynnplains-bob-7", false, 90);
         s.addSound("[1/3] Bob: I've spent my entire life preparing for this. I will NEVER let this province fall.", "wynnplains-bob-8", false, 90);
         s.addSound("[2/3] Bak'al: The Twains said the same thing to me, once. And just like them, you will fall helplessly at my feet.", "wynnplains-bakal-18", false, 90);
-        s.addSound("[3/3] Bob: Ive learned from the Twains mistakes! I refuse to fall as easily as they did!", "wynnplains-bob-9", false, 90);
+        s.addSound("[3/3] Bob: I’ve learned from the Twains’ mistakes! I refuse to fall as easily as they did!", "wynnplains-bob-9", false, 90);
 
 
         //Non quest npc
