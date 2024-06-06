@@ -51,7 +51,6 @@ public class ReceiveChatEvent {
             }
         }
 
-        System.out.println("Trying to play sound: " + lineData.getRealLine());
         ModCore.instance.soundPlayer.playSound(lineData);
     }
 

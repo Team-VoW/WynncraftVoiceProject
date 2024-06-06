@@ -32,7 +32,7 @@ public class SoundPlayer {
     //Code that is run to play all the sounds
     public void playSound(LineData lineData) {
         if (config.isLogPlayingInformation()){
-            VowLogger.logLine("[Attempting to play] " + Utils.HTTPEncode(lineData.getRealLine().trim()), "Info");
+            VowLogger.logLine("[Attempting to play] " + lineData.getRealLine().trim() + " HTTP encoded:" + Utils.HTTPEncode(lineData.getRealLine().trim()), "Info");
         }
 
         String line = lineData.getSoundLine();
@@ -45,10 +45,15 @@ public class SoundPlayer {
         if (!canPlaySound(soundsHandler, lineData, player, world))
             return;
 
-        if (!config.isOnlyLogNotPlayingLines() && config.isLogDialogueLines() && lineData.isNPCSentLine())
+        if (!config.isOnlyLogNotPlayingLines() && config.isLogDialogueLines())
             VowLogger.logLine(lineData.getRealLine() + " [PLAYED]");
 
-        soundsHandler.get(line).ifPresent(this::PlaySoundObject);
+
+        soundsHandler.get(line).ifPresentOrElse(this::PlaySoundObject, () -> {
+            if (config.isLogPlayingInformation()){
+                VowLogger.logLine("Could not play sound: " + line, "Info");
+            }
+        });
     }
 
     private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData, Player player, ClientLevel world) {
