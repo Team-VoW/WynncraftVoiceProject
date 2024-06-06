@@ -45194,6 +45194,178 @@
     "sounds": [{ "name": "wynnvp:almujdesert-hashr-6", "stream": true}]
   },
 
+  "nesaakplains-malecitizen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-malecitizen-1", "stream": true}]
+  },
+  "nesaakplains-theorick-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-1", "stream": true}]
+  },
+  "nesaakplains-femalecitizen-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-femalecitizen-1", "stream": true}]
+  },
+  "nesaakplains-theorick-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-2", "stream": true}]
+  },
+  "nesaakplains-malecitizen-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-malecitizen-2", "stream": true}]
+  },
+  "nesaakplains-theorick-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-3", "stream": true}]
+  },
+  "nesaakplains-theorick-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-4", "stream": true}]
+  },
+  "nesaakplains-theorick-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-5", "stream": true}]
+  },
+  "nesaakplains-theorick-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-6", "stream": true}]
+  },
+  "nesaakplains-theorick-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-7", "stream": true}]
+  },
+  "nesaakplains-marius-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-marius-1", "stream": true}]
+  },
+  "nesaakplains-theorick-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-8", "stream": true}]
+  },
+  "nesaakplains-theorick-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-9", "stream": true}]
+  },
+  "nesaakplains-marius-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-marius-2", "stream": true}]
+  },
+  "nesaakplains-theorick-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-10", "stream": true}]
+  },
+  "nesaakplains-theorick-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-11", "stream": true}]
+  },
+  "nesaakplains-theorick-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-12", "stream": true}]
+  },
+  "nesaakplains-rickeo-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-rickeo-1", "stream": true}]
+  },
+  "nesaakplains-theorick-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-13", "stream": true}]
+  },
+  "nesaakplains-rickeo-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-rickeo-2", "stream": true}]
+  },
+  "nesaakplains-dwendle-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-dwendle-1", "stream": true}]
+  },
+  "nesaakplains-theorick-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-14", "stream": true}]
+  },
+  "nesaakplains-mael-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-mael-1", "stream": true}]
+  },
+  "nesaakplains-rickeo-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-rickeo-3", "stream": true}]
+  },
+  "nesaakplains-theorick-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-15", "stream": true}]
+  },
+  "nesaakplains-dwendle-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-dwendle-2", "stream": true}]
+  },
+  "nesaakplains-dwendle-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-dwendle-3", "stream": true}]
+  },
+  "nesaakplains-dwendle-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-dwendle-4", "stream": true}]
+  },
+  "nesaakplains-theorick-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-16", "stream": true}]
+  },
+  "nesaakplains-dwendle-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-dwendle-5", "stream": true}]
+  },
+  "nesaakplains-rickeo-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-rickeo-4", "stream": true}]
+  },
+  "nesaakplains-dwendle-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-dwendle-6", "stream": true}]
+  },
+  "nesaakplains-mael-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-mael-2", "stream": true}]
+  },
+  "nesaakplains-mael-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-mael-3", "stream": true}]
+  },
+  "nesaakplains-dwendle-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-dwendle-7", "stream": true}]
+  },
+  "nesaakplains-mael-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-mael-4", "stream": true}]
+  },
+  "nesaakplains-theorick-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-theorick-17", "stream": true}]
+  },
+  "nesaakplains-rickeo-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-rickeo-5", "stream": true}]
+  },
+  "nesaakplains-mael-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-mael-5", "stream": true}]
+  },
+  "nesaakplains-mael-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-mael-6", "stream": true}]
+  },
+  "nesaakplains-marius-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-marius-3", "stream": true}]
+  },
+  "nesaakplains-mael-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-mael-7", "stream": true}]
+  },
+  "nesaakplains-marius-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:nesaakplains-marius-4", "stream": true}]
+  },
 
 
   "nonquestnpc-vanguardvan-1": {

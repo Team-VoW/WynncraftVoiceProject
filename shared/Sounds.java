@@ -11601,6 +11601,51 @@ public class Sounds {
         s.addSound("[10/11] Almighty Hashr: Now I will be able to rule- Wait, what's happening..?", "almujdesert-hashr-5", false);
         s.addSound("[11/11] Almighty Hashr: Do you hear that? What did my father do to himself?!", "almujdesert-hashr-6", false);
 
+        //Nesaakplains
+        s.addSound("[1/6] Citizen: Sir Theorick, if you, um...if you have a moment? Your tribute is here…", "nesaakplains-malecitizen-1", false);
+        s.addSound("[2/6] Theorick: ...good. Thank you. Good to see some who honestly respect what I’m trying to do for all of you. Was there anyone else?", "nesaakplains-theorick-1", false);
+        s.addSound("[3/6] Citizen: Ah...no. There...there wasn’t. Not this time. They feel like you’re taking too much from them, which I don’t agree with, but-", "nesaakplains-femalecitizen-1", false);
+        s.addSound("[4/6] Theorick: ...ask them, if they would prefer their money, or their lives. Am I not protecting them? Is it really so much to ask that I get something in return?", "nesaakplains-theorick-2", false);
+        s.addSound("[5/6] Citizen: We...we know. We told them that, too...we’re sorry.", "nesaakplains-malecitizen-2", false);
+        s.addSound("[6/6] Theorick: You aren’t the ones who need to apologize! I'm aware it's a voluntary contribution, but do they have any idea how difficult it is to cast magic like this regularly?!", "nesaakplains-theorick-3", false);
+        s.addSound("[1/11] Theorick: This is absolutely ridiculous! You know it is! You can’t say it isn’t!", "nesaakplains-theorick-4", false);
+        s.addSound("[2/11] Theorick: The people can’t defend themselves, you’ve seen them try. All it ends up doing is making our lives harder!", "nesaakplains-theorick-5", false);
+        s.addSound("[3/11] Theorick: Why SHOULDN'T I ask for just a tiny bit of compensation in return? A mere pittance more than gratitude?", "nesaakplains-theorick-6", false);
+        s.addSound("[4/11] Theorick: You can't fill someone’s stomach with kind words, father!", "nesaakplains-theorick-7", false);
+        s.addSound("[5/11] Marius: Theorick, listen-", "nesaakplains-marius-1", false);
+        s.addSound("[6/11] Theorick: Don’t you DARE change the topic! I’ve listened to what you’ve said, and it’s all nonsense!", "nesaakplains-theorick-8", false);
+        s.addSound("[7/11] Theorick: Platitudes and non-answers, never any straight conversations with you. Never, not once!", "nesaakplains-theorick-9", false);
+        s.addSound("[8/11] Marius: I can only warn you, Theorick. Leaving us will be the province's end. I brought you all together for a reason. Think of the consequences of your actions.", "nesaakplains-marius-2", false);
+        s.addSound("[9/11] Theorick: Pah! As though you are! I’m out in the thick of it, saving this province! What have YOU done, except put a roof above our heads?", "nesaakplains-theorick-10", false);
+        s.addSound("[10/11] Theorick: You hardly taught me anything! Dwendle hardly taught me anything! Rickeo hardly taught me anything! And Mael actively makes me stupider every time he opens his mouth!", "nesaakplains-theorick-11", false);
+        s.addSound("[11/11] Theorick: Open your eyes and knock the wax out of your ears! This can’t continue as it is!", "nesaakplains-theorick-12", false);
+        s.addSound("[1/12] Rickeo: Surprise, surprise, Theo. You’re late.", "nesaakplains-rickeo-1", false);
+        s.addSound("[2/12] Theorick: Don't even start, Ricke.", "nesaakplains-theorick-13", false);
+        s.addSound("[3/12] Rickeo: You're really into being cold, huh?", "nesaakplains-rickeo-2", false);
+        s.addSound("[4/12] Dwendle: Look, we’re all here for the same reason-", "nesaakplains-dwendle-1", false);
+        s.addSound("[5/12] Theorick: Don't touch me.", "nesaakplains-theorick-14", false);
+        s.addSound("[6/12] Mael: Are you alright?", "nesaakplains-mael-1", false);
+        s.addSound("[7/12] Rickeo: You shouldn't have done that.", "nesaakplains-rickeo-3", false);
+        s.addSound("[8/12] Theorick: Now you've done it, Rickeo.", "nesaakplains-theorick-15", false);
+        s.addSound("[9/12] Dwendle: Theo, stop.", "nesaakplains-dwendle-2", false);
+        s.addSound("[10/12] Dwendle: Just this once.", "nesaakplains-dwendle-3", false);
+        s.addSound("[11/12] Dwendle: Stop.", "nesaakplains-dwendle-4", false);
+        s.addSound("[12/12] Theorick: Make me.", "nesaakplains-theorick-16", false);
+        s.addSound("[1/3] Dwendle: Thanks, Ricke…", "nesaakplains-dwendle-5", false);
+        s.addSound("[2/3] Rickeo: Don't worry about it... Let's finish this, shall we?", "nesaakplains-rickeo-4", false);
+        s.addSound("[3/3] Dwendle: Yeah. Dad should have done this a long time ago.", "nesaakplains-dwendle-6", false);
+        s.addSound("[1/1] Mael: ENOUGH.", "nesaakplains-mael-2", false);
+        s.addSound("[1/6] Mael: Are you out of your minds?? You were about to kill your brother!", "nesaakplains-mael-3", false);
+        s.addSound("[2/6] Dwendle: I... You're... right. We…", "nesaakplains-dwendle-7", false);
+        s.addSound("[3/6] Mael: You should leave. All of you. This isn’t what being a Twain was about…", "nesaakplains-mael-4", false);
+        s.addSound("[4/6] Theorick: Mph. None of us are Twains. Not me. Not you. We’re an old man's delusion.", "nesaakplains-theorick-17", false);
+        s.addSound("[5/6] Rickeo: Mael... I…", "nesaakplains-rickeo-5", false);
+        s.addSound("[6/6] Mael: I know, Ricke. Just go.", "nesaakplains-mael-5", false);
+        s.addSound("[1/4] Mael: Dad... I'm sorry…", "nesaakplains-mael-6", false);
+        s.addSound("[2/4] ???: Well... At least you can’t say my funeral was boring.", "nesaakplains-marius-3", false);
+        s.addSound("[3/4] Mael: What does all this mean? The Twains are over?", "nesaakplains-mael-7", false);
+        s.addSound("[4/4] ???: The Twains ended the day Theorick left us. You should stay here though, there is one who will one day need your help…", "nesaakplains-marius-4", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
