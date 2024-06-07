@@ -46204,6 +46204,27 @@
   },
 
 
+  "gyliaplains-librarian-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gyliaplains-librarian-1", "stream": true}]
+  },
+  "gyliaplains-librarian-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gyliaplains-librarian-2", "stream": true}]
+  },
+  "gyliaplains-librarian-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gyliaplains-librarian-3", "stream": true}]
+  },
+  "gyliaplains-librarian-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gyliaplains-librarian-4", "stream": true}]
+  },
+  "gyliaplains-librarian-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:gyliaplains-librarian-5", "stream": true}]
+  },
+
 
 
   "nonquestnpc-vanguardvan-1": {

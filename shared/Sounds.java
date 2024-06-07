@@ -11864,6 +11864,13 @@ public class Sounds {
         s.addSound("[2/2] Hobgoblin: Whatever it be, stay away from my treasure room, giant.", "cotl-hobgoblin-2", false);
         s.addSound("[1/1] Dogun Priest: The Colossus is on a rampage... I must stop it…", "cotl-dogunpriest-1", false);
 
+        //Gylia Plains
+        s.addSound("[1/5] Librarian: Ah, a fellow connoisseur of literature like myself! It's good to see another intellectual within these ancient halls.", "gyliaplains-librarian-1", false);
+        s.addSound("[2/5] Librarian: And when I say ancient I mean it. This library is almost as old as the city itself. It's a wonder how much our ancestors knew all those years back.", "gyliaplains-librarian-2", false);
+        s.addSound("[3/5] Librarian: It is a shame though that not many are interested in our history. This place has become so underused that the Guild Hall has started placing its records here.", "gyliaplains-librarian-3", false);
+        s.addSound("[4/5] Librarian: Ha! Can you imagine? They care more about those groups of mercenaries than the old ways of our forefathers. Complete insanity!", "gyliaplains-librarian-4", false);
+        s.addSound("[5/5] Librarian: Ah, look at me talking your ear off. You likely have more important matters to attend. Well, I shan't keep you here any longer. Farewell!", "gyliaplains-librarian-5", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
