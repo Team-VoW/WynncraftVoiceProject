@@ -46084,6 +46084,90 @@
 
 
 
+  "oluxswamp-golem-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-golem-1", "stream": true}]
+  },
+  "oluxswamp-golem-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-golem-2", "stream": true}]
+  },
+  "oluxswamp-golem-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-golem-3", "stream": true}]
+  },
+  "oluxswamp-mayor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-mayor-1", "stream": true}]
+  },
+  "oluxswamp-urelix-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-urelix-1", "stream": true}]
+  },
+  "oluxswamp-mayor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-mayor-2", "stream": true}]
+  },
+  "oluxswamp-urelix-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-urelix-2", "stream": true}]
+  },
+  "oluxswamp-mayor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-mayor-3", "stream": true}]
+  },
+  "oluxswamp-urelix-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-urelix-3", "stream": true}]
+  },
+  "oluxswamp-mayor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-mayor-4", "stream": true}]
+  },
+  "oluxswamp-urelix-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-urelix-4", "stream": true}]
+  },
+  "oluxswamp-mayor-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-mayor-5", "stream": true}]
+  },
+  "oluxswamp-urelix-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-urelix-5", "stream": true}]
+  },
+  "oluxswamp-urelix-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-urelix-6", "stream": true}]
+  },
+  "oluxswamp-mayor-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-mayor-6", "stream": true}]
+  },
+  "oluxswamp-urelix-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-urelix-7", "stream": true}]
+  },
+  "oluxswamp-mayor-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-mayor-7", "stream": true}]
+  },
+  "oluxswamp-urelix-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-urelix-8", "stream": true}]
+  },
+  "oluxswamp-mayor-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-mayor-8", "stream": true}]
+  },
+  "oluxswamp-urelix-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:oluxswamp-urelix-9", "stream": true}]
+  },
+
+
+
+
 
   "nonquestnpc-vanguardvan-1": {
     "category": "voice",

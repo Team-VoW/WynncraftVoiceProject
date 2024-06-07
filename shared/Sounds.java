@@ -11831,6 +11831,28 @@ public class Sounds {
         s.addSound("[11/12] Phoenix Prince: You're an invader, just like the rest of your people. They do not deserve to live on this island... on our island.", "corkus-phoenixprince-11", false);
         s.addSound("[12/12] Phoenix Prince: Prepare for our revenge. Prepare to DIE!", "corkus-phoenixprince-12", false);
 
+        //Olux Swamp
+        s.addSound("Olux Guard Golem: COMMAND RECEIVED - REMOVE OBJECT.", "oluxswamp-golem-1", false);
+        s.addSound("Olux Guard Golem: OBJECTIVE FOUND. REMOVING BOULDER.", "oluxswamp-golem-2", false);
+        s.addSound("Olux Guard Golem: OBJECTIVE COMPLETED. RETURNING TO POST.", "oluxswamp-golem-3", false);
+        s.addSound("[1/17] Mayor: A-are you here?", "oluxswamp-mayor-1", false);
+        s.addSound("[2/17] Mysterious Figure: Good to see you again, Mayor. Glad you found the place.", "oluxswamp-urelix-1", false);
+        s.addSound("[3/17] Mayor: I've lived here my whole life, this used to be a nice building.", "oluxswamp-mayor-2", false);
+        s.addSound("[4/17] Mysterious Figure: Mmm. I assume the golems are working, as I said they would?", "oluxswamp-urelix-2", false);
+        s.addSound("[5/17] Mayor: Yes... They are. But", "oluxswamp-mayor-3", false);
+        s.addSound("[6/17] Mysterious Figure: Excellent, then we can move onto why we're here.", "oluxswamp-urelix-3", false);
+        s.addSound("[7/17] Mayor: W-what's that?", "oluxswamp-mayor-4", false);
+        s.addSound("[8/17] Mysterious Figure: My fee.", "oluxswamp-urelix-4", false);
+        s.addSound("[9/17] Mayor: Right, of course. I can take some emeralds from the city vault, just give me a week.", "oluxswamp-mayor-5", false);
+        s.addSound("[10/17] Mysterious Figure: We both know Olux has not a single emerald to its name.", "oluxswamp-urelix-5", false);
+        s.addSound("[11/17] Mysterious Figure: Besides, you very well know that we agreed on another form of payment.", "oluxswamp-urelix-6", false);
+        s.addSound("[12/17] Mayor: I was hoping that you might reconsider in favour of emeralds?", "oluxswamp-mayor-6", false);
+        s.addSound("[13/17] Mysterious Figure: Are you trying to go back on our deal?", "oluxswamp-urelix-7", false);
+        s.addSound("[14/17] Mayor: No, I just-", "oluxswamp-mayor-7", false);
+        s.addSound("[15/17] Mysterious Figure: Hit him.", "oluxswamp-urelix-8", false);
+        s.addSound("[16/17] Mayor: Stop! STOP! OK, I'll get you what you need.", "oluxswamp-mayor-8", false);
+        s.addSound("[17/17] Mysterious Figure: Good. I need four brought to me by midnight. Alive.", "oluxswamp-urelix-9", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
