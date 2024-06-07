@@ -11853,6 +11853,17 @@ public class Sounds {
         s.addSound("[16/17] Mayor: Stop! STOP! OK, I'll get you what you need.", "oluxswamp-mayor-8", false);
         s.addSound("[17/17] Mysterious Figure: Good. I need four brought to me by midnight. Alive.", "oluxswamp-urelix-9", false);
 
+        //Cotl
+        s.addSound("[1/5] Canyon Miner: What in the gods' names happened out here!?", "cotl-canyonminer-1", false);
+        s.addSound("[2/5] Canyon Miner: No! My crane!!!", "cotl-canyonminer-2", false);
+        s.addSound("[3/5] Canyon Miner: Damn! Another one of these cursed earthquakes!", "cotl-canyonminer-3", false);
+        s.addSound("[4/5] Canyon Miner: That colossus... If this crack it made grows... I'll have no choice but to move.", "cotl-canyonminer-4", false);
+        s.addSound("[5/5] Canyon Miner: The thing truly threatens our livelihoods in the canyon, if only someone could stop it…", "cotl-canyonminer-5", false);
+        s.addSound("[1/1] Canyon Miner: Scram! I don't need my crane breaking again!", "cotl-canyonminer-6", false);
+        s.addSound("[1/2] Hobgoblin: What brings you here? Could it be you seek refuge from the elephelk below?", "cotl-hobgoblin-1", false);
+        s.addSound("[2/2] Hobgoblin: Whatever it be, stay away from my treasure room, giant.", "cotl-hobgoblin-2", false);
+        s.addSound("[1/1] Dogun Priest: The Colossus is on a rampage... I must stop it…", "cotl-dogunpriest-1", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);

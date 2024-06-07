@@ -46166,6 +46166,43 @@
   },
 
 
+  "cotl-canyonminer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cotl-canyonminer-1", "stream": true}]
+  },
+  "cotl-canyonminer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cotl-canyonminer-2", "stream": true}]
+  },
+  "cotl-canyonminer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cotl-canyonminer-3", "stream": true}]
+  },
+  "cotl-canyonminer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cotl-canyonminer-4", "stream": true}]
+  },
+  "cotl-canyonminer-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cotl-canyonminer-5", "stream": true}]
+  },
+  "cotl-canyonminer-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cotl-canyonminer-6", "stream": true}]
+  },
+  "cotl-hobgoblin-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cotl-hobgoblin-1", "stream": true}]
+  },
+  "cotl-hobgoblin-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cotl-hobgoblin-2", "stream": true}]
+  },
+  "cotl-dogunpriest-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:cotl-dogunpriest-1", "stream": true}]
+  },
+
 
 
 
