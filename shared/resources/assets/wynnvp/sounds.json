@@ -46225,6 +46225,243 @@
     "sounds": [{ "name": "wynnvp:gyliaplains-librarian-5", "stream": true}]
   },
 
+  "moltenheights-phoenixpoacher-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-1", "stream": true}]
+  },
+  "moltenheights-phoenixpoacher-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-2", "stream": true}]
+  },
+  "moltenheights-phoenixpoacher-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-3", "stream": true}]
+  },
+  "moltenheights-phoenixpoacher-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-4", "stream": true}]
+  },
+  "moltenheights-phoenixpoacher-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-5", "stream": true}]
+  },
+  "moltenheights-phoenixpoacher-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-6", "stream": true}]
+  },
+  "moltenheights-phoenixpoacher-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-7", "stream": true}]
+  },
+  "moltenheights-phoenixpoacher-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-8", "stream": true}]
+  },
+  "moltenheights-phoenixpoacher-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-9", "stream": true}]
+  },
+  "moltenheights-shopkeeper-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-shopkeeper-1", "stream": true}]
+  },
+  "moltenheights-shopkeeper-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-shopkeeper-2", "stream": true}]
+  },
+  "moltenheights-shopkeeper-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-shopkeeper-3", "stream": true}]
+  },
+  "moltenheights-shopkeeper-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-shopkeeper-4", "stream": true}]
+  },
+  "moltenheights-hitman-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-hitman-1", "stream": true}]
+  },
+  "moltenheights-organmerchant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-organmerchant-1", "stream": true}]
+  },
+  "moltenheights-brewmaster-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-brewmaster-1", "stream": true}]
+  },
+  "moltenheights-dogunmerchant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dogunmerchant-1", "stream": true}]
+  },
+  "moltenheights-dogunmerchant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dogunmerchant-2", "stream": true}]
+  },
+  "moltenheights-dogunmerchant-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dogunmerchant-3", "stream": true}]
+  },
+  "moltenheights-phoenixpoacher-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-phoenixpoacher-10", "stream": true}]
+  },
+  "moltenheights-darkartificer-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-darkartificer-1", "stream": true}]
+  },
+  "moltenheights-darkartificer-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-darkartificer-2", "stream": true}]
+  },
+  "moltenheights-darkartificer-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-darkartificer-3", "stream": true}]
+  },
+  "moltenheights-darkartificer-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-darkartificer-4", "stream": true}]
+  },
+  "moltenheights-hallucinogenmerchant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-hallucinogenmerchant-1", "stream": true}]
+  },
+  "moltenheights-hallucinogenmerchant-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-hallucinogenmerchant-2", "stream": true}]
+  },
+  "moltenheights-hallucinogenmerchant-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-hallucinogenmerchant-3", "stream": true}]
+  },
+  "moltenheights-hallucinogenmerchant-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-hallucinogenmerchant-4", "stream": true}]
+  },
+  "moltenheights-shopkeeper-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-shopkeeper-5", "stream": true}]
+  },
+  "moltenheights-dogun1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dogun1-1", "stream": true}]
+  },
+  "moltenheights-dogun1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dogun1-2", "stream": true}]
+  },
+  "moltenheights-dogun1-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dogun1-3", "stream": true}]
+  },
+  "moltenheights-dogun1-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dogun1-4", "stream": true}]
+  },
+  "moltenheights-dwarvencommander-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvencommander-1", "stream": true}]
+  },
+  "moltenheights-dwarvencommander-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvencommander-2", "stream": true}]
+  },
+  "moltenheights-dwarvencaptain-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvencaptain-1", "stream": true}]
+  },
+  "moltenheights-dwarvencaptain-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvencaptain-2", "stream": true}]
+  },
+  "moltenheights-dwarvencommander-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvencommander-3", "stream": true}]
+  },
+  "moltenheights-generalalgard-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalalgard-1", "stream": true}]
+  },
+  "moltenheights-generalalgard-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalalgard-2", "stream": true}]
+  },
+  "moltenheights-dwarvensoldier-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvensoldier-1", "stream": true}]
+  },
+  "moltenheights-dogun2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dogun2-1", "stream": true}]
+  },
+  "moltenheights-dogun2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dogun2-2", "stream": true}]
+  },
+  "moltenheights-generalalgard-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalalgard-3", "stream": true}]
+  },
+  "moltenheights-generalalgard-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalalgard-4", "stream": true}]
+  },
+  "moltenheights-dwarvencaptain-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvencaptain-3", "stream": true}]
+  },
+  "moltenheights-dwarvenlieutenant-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvenlieutenant-1", "stream": true}]
+  },
+  "moltenheights-dwarvencaptain-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvencaptain-4", "stream": true}]
+  },
+  "moltenheights-dwarvencaptain-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-dwarvencaptain-5", "stream": true}]
+  },
+  "moltenheights-generalalgard-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalalgard-5", "stream": true}]
+  },
+  "moltenheights-generalalgard-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalalgard-6", "stream": true}]
+  },
+  "moltenheights-generalalgard-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalalgard-7", "stream": true}]
+  },
+  "moltenheights-generalosseus-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalosseus-1", "stream": true}]
+  },
+  "moltenheights-generalosseus-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalosseus-2", "stream": true}]
+  },
+  "moltenheights-astal-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-astal-1", "stream": true}]
+  },
+  "moltenheights-astal-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-astal-2", "stream": true}]
+  },
+  "moltenheights-astal-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-astal-3", "stream": true}]
+  },
+  "moltenheights-generalalgard-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalalgard-8", "stream": true}]
+  },
+  "moltenheights-generalalgard-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:moltenheights-generalalgard-9", "stream": true}]
+  },
+
 
 
   "nonquestnpc-vanguardvan-1": {

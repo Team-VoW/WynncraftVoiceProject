@@ -11871,6 +11871,67 @@ public class Sounds {
         s.addSound("[4/5] Librarian: Ha! Can you imagine? They care more about those groups of mercenaries than the old ways of our forefathers. Complete insanity!", "gyliaplains-librarian-4", false);
         s.addSound("[5/5] Librarian: Ah, look at me talking your ear off. You likely have more important matters to attend. Well, I shan't keep you here any longer. Farewell!", "gyliaplains-librarian-5", false);
 
+        //Molten Heights
+        s.addSound("[1/7] Phoenix Poacher: Aha! There it is. A Phoenix Egg. This'll fetch a high price.", "moltenheights-phoenixpoacher-1", false);
+        s.addSound("[2/7] Phoenix Poacher: Got it! Gosh, that's heavy.", "moltenheights-phoenixpoacher-2", false);
+        s.addSound("[3/7] Phoenix Poacher: You there, back away and pretend like this never happened.", "moltenheights-phoenixpoacher-3", false);
+        s.addSound("[4/7] Phoenix Poacher: Hey, why are you following me?! Knock it off!", "moltenheights-phoenixpoacher-4", false);
+        s.addSound("[5/7] Phoenix Poacher: Seriously, creep, you need to go away.", "moltenheights-phoenixpoacher-5", false);
+        s.addSound("[6/7] Phoenix Poacher: GET THE HELL AWAY FROM ME!!", "moltenheights-phoenixpoacher-6", false);
+        s.addSound("[7/7] Phoenix Poacher: *pant* Aha! There! Can't get to me now, can you?", "moltenheights-phoenixpoacher-7", false);
+        s.addSound("[1/1] Phoenix Poacher: Good, they didn't follow... I'll be back for more soon...", "moltenheights-phoenixpoacher-8", false);
+        s.addSound("[1/1] Phoenix Poacher: Ahah! I lost them!", "moltenheights-phoenixpoacher-9", false);
+        s.addSound("[1/1] Shopkeeper: I see you've come to my pottery shop. Feel free to browse, but our pottery classes are full.", "moltenheights-shopkeeper-1", false);
+        s.addSound("[1/3] Shopkeeper: Oh, that looks very valuable…", "moltenheights-shopkeeper-2", false);
+        s.addSound("[2/3] Shopkeeper: Actually, I just remembered, we have a slot open.", "moltenheights-shopkeeper-3", false);
+        s.addSound("[3/3] Shopkeeper: If you'd like to attend one of our *cough* ''Pottery classes'', head through the door behind me.", "moltenheights-shopkeeper-4", false);
+        s.addSound("[1/1] Hitman: The best assassin in Gavel comes at a price. So, how much are you willing to pay?", "moltenheights-hitman-1", false);
+        s.addSound("[1/1] Organ Merchant: Perhaps you need it for some treatment... or a delectable cuisine! Harvested from our ''volunteers''.", "moltenheights-organmerchant-1", false);
+        s.addSound("[1/1] Brewmaster: Nonono... these aren't normal brews. Deadlock Serum? Morta Maxima? You know what they say... pick your poison.", "moltenheights-brewmaster-1", false);
+        s.addSound("[1/3] Dogun Merchant: You see this fine selection of frozen Doguns behind me?", "moltenheights-dogunmerchant-1", false);
+        s.addSound("[2/3] Dogun Merchant: That's what happens when you douse a Dogun in water. They're still alive, though. Just in exquisite agony.", "moltenheights-dogunmerchant-2", false);
+        s.addSound("[3/3] Dogun Merchant: However, when we pour lava on them, they unfreeze. Well, they scream. Well, both, actually.", "moltenheights-dogunmerchant-3", false);
+        s.addSound("[1/1] Phoenix Poacher: Come get your genuine phoenix eggs! Gen-u-ine! Gen- NO, IT'S YOU AGAIN! GET AWAY!", "moltenheights-phoenixpoacher-10", false);
+        s.addSound("[1/4] Dark Artificer: Hello, hello. I zee you ave come to zee my finest collection of priceless and rare dark artifacts.", "moltenheights-darkartificer-1", false);
+        s.addSound("[2/4] Dark Artificer: Come! Come and vonder at awe-inspiring relics!", "moltenheights-darkartificer-2", false);
+        s.addSound("[3/4] Dark Artificer: Oooo... I zee you have a keen eye. I am zure you ave noticed the weapon on the vall and its fine craftsmanship.", "moltenheights-darkartificer-3", false);
+        s.addSound("[4/4] Dark Artificer: Ze Kirschblute! Outlawed in zeventy zhree jurisdictions. Ze owners have a tendency to go... vell, to their not happy place.", "moltenheights-darkartificer-4", false);
+        s.addSound("[1/4] Hallucinogen Merchant: Woah there, would you be interested in buying my totally gnar happy-juice?", "moltenheights-hallucinogenmerchant-1", false);
+        s.addSound("[2/4] Hallucinogen Merchant: You can say no, it's totally chill.", "moltenheights-hallucinogenmerchant-2", false);
+        s.addSound("[3/4] Hallucinogen Merchant: No need to be so harsh.", "moltenheights-hallucinogenmerchant-3", false);
+        s.addSound("[4/4] Hallucinogen Merchant: Chill out, brother. We're all one. Just swing by whenever you wanna have a group vibe session.", "moltenheights-hallucinogenmerchant-4", false);
+        s.addSound("[1/1] Shopkeeper: Stay quiet about this place, alright? If the guards find out, we're toast.", "moltenheights-shopkeeper-5", false);
+        s.addSound("[1/4] Dogun: ...Am I... alive...?", "moltenheights-dogun1-1", false);
+        s.addSound("[2/4] Dogun: I feel... warm again…", "moltenheights-dogun1-2", false);
+        s.addSound("[3/4] Dogun: Adventurer... Was it you who saved me...?", "moltenheights-dogun1-3", false);
+        s.addSound("[4/4] Dogun: Thank you greatly... I shall seek refuge urgently... Goodbye…", "moltenheights-dogun1-4", false);
+        s.addSound("[1/26] Dwarven Commander: Troops! Advance!", "moltenheights-dwarvencommander-1", false);
+        s.addSound("[2/26] Dwarven Commander: Ready the cannons!", "moltenheights-dwarvencommander-2", false);
+        s.addSound("[3/26] Dwarven Captain: Sir, I have just been informed that the final Dogun settlement has been raided.", "moltenheights-dwarvencaptain-1", false);
+        s.addSound("[4/26] Dwarven Captain: All of our forces will now focus on attacking the Dogun Capital!", "moltenheights-dwarvencaptain-2", false);
+        s.addSound("[5/26] Dwarven Commander: Excellent. You must tell Algard at once.", "moltenheights-dwarvencommander-3", false);
+        s.addSound("[6/26] General Algard: Division 3, defend the barrier! Division 4, assist the wounded!", "moltenheights-generalalgard-1", false);
+        s.addSound("[7/26] General Algard: We cannot afford to lose this battle!", "moltenheights-generalalgard-2", false);
+        s.addSound("[8/26] Dwarven Soldier: BRING IT ON!", "moltenheights-dwarvensoldier-1", false);
+        s.addSound("[9/26] Dogun: Charging...at us? Don't be...silly.", "moltenheights-dogun2-1", false);
+        s.addSound("[10/26] Dogun: Urgh... I won't...let you win...so easily.", "moltenheights-dogun2-2", false);
+        s.addSound("[11/26] General Algard: It appears we have gained the upper hand.", "moltenheights-generalalgard-3", false);
+        s.addSound("[12/26] General Algard: If we can maintain our current position, victory is within our grasp.", "moltenheights-generalalgard-4", false);
+        s.addSound("[13/26] Dwarven Captain: It's too early to come to that conclusion, sir. The enemy may have hidden forces.", "moltenheights-dwarvencaptain-3", false);
+        s.addSound("[14/26] Dwarven Lieutenant: Sir! Enemy reinforcements approaching from the upper level!", "moltenheights-dwarvenlieutenant-1", false);
+        s.addSound("[15/26] Dwarven Captain: There's too many of them, Algard!", "moltenheights-dwarvencaptain-4", false);
+        s.addSound("[16/26] Dwarven Captain: We may not be able to hold our current position for much longer!", "moltenheights-dwarvencaptain-5", false);
+        s.addSound("[17/26] General Algard: I see.", "moltenheights-generalalgard-5", false);
+        s.addSound("[18/26] General Algard: Then there is only one thing left to-", "moltenheights-generalalgard-6", false);
+        s.addSound("[19/26] General Algard: It's... General Osseus?! But that means…", "moltenheights-generalalgard-7", false);
+        s.addSound("[20/26] General Osseus: Garaheth has been slain!", "moltenheights-generalosseus-1", false);
+        s.addSound("[21/26] General Osseus: You Doguns have no choice but to surrender!", "moltenheights-generalosseus-2", false);
+        s.addSound("[22/26] Dogun Elder Astal: Impossible... How could... No…", "moltenheights-astal-1", false);
+        s.addSound("[23/26] Dogun Elder Astal: Very well... We will surrender...on one condition.", "moltenheights-astal-2", false);
+        s.addSound("[24/26] Dogun Elder Astal: You must never...bother us...ever again.", "moltenheights-astal-3", false);
+        s.addSound("[25/26] General Algard: Then it is settled.", "moltenheights-generalalgard-8", false);
+        s.addSound("[26/26] General Algard: ...Now, while they're vulnerable!", "moltenheights-generalalgard-9", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
