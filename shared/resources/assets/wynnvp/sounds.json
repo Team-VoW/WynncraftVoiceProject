@@ -45823,6 +45823,200 @@
     "sounds": [{ "name": "wynnvp:lightforest-dernbeast-10", "stream": true}]
   },
 
+  "darkforest-lari-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-1", "stream": true}]
+  },
+  "darkforest-lari-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-2", "stream": true}]
+  },
+  "darkforest-lari-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-3", "stream": true}]
+  },
+  "darkforest-lari-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-4", "stream": true}]
+  },
+  "darkforest-lari-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-5", "stream": true}]
+  },
+  "darkforest-lari-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-6", "stream": true}]
+  },
+  "darkforest-lari-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-7", "stream": true}]
+  },
+  "darkforest-lari-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-8", "stream": true}]
+  },
+  "darkforest-lari-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-9", "stream": true}]
+  },
+  "darkforest-lari-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-10", "stream": true}]
+  },
+  "darkforest-lari-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-11", "stream": true}]
+  },
+  "darkforest-lari-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-lari-12", "stream": true}]
+  },
+  "darkforest-revan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-1", "stream": true}]
+  },
+  "darkforest-revan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-2", "stream": true}]
+  },
+  "darkforest-revan-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-3", "stream": true}]
+  },
+  "darkforest-revan-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-4", "stream": true}]
+  },
+  "darkforest-revan-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-5", "stream": true}]
+  },
+  "darkforest-revan-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-6", "stream": true}]
+  },
+  "darkforest-revan-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-7", "stream": true}]
+  },
+  "darkforest-revan-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-8", "stream": true}]
+  },
+  "darkforest-revan-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-9", "stream": true}]
+  },
+  "darkforest-revan-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-10", "stream": true}]
+  },
+  "darkforest-revan-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-11", "stream": true}]
+  },
+  "darkforest-revan-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-12", "stream": true}]
+  },
+  "darkforest-revan-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-13", "stream": true}]
+  },
+  "darkforest-revan-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-14", "stream": true}]
+  },
+  "darkforest-revan-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-15", "stream": true}]
+  },
+  "darkforest-revan-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-16", "stream": true}]
+  },
+  "darkforest-revan-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-17", "stream": true}]
+  },
+  "darkforest-revan-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-18", "stream": true}]
+  },
+  "darkforest-revan-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-19", "stream": true}]
+  },
+  "darkforest-revan-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-20", "stream": true}]
+  },
+  "darkforest-revan-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-21", "stream": true}]
+  },
+  "darkforest-revan-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-22", "stream": true}]
+  },
+  "darkforest-revan-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-revan-23", "stream": true}]
+  },
+  "darkforest-butler-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-butler-1", "stream": true}]
+  },
+  "darkforest-butler-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-butler-2", "stream": true}]
+  },
+  "darkforest-dullahan-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-dullahan-1", "stream": true}]
+  },
+  "darkforest-noble-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-noble-1", "stream": true}]
+  },
+  "darkforest-noble-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-noble-2", "stream": true}]
+  },
+  "darkforest-dullahan-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-dullahan-2", "stream": true}]
+  },
+  "darkforest-dullahan-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-dullahan-3", "stream": true}]
+  },
+  "darkforest-dullahan-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-dullahan-4", "stream": true}]
+  },
+  "darkforest-noble-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-noble-3", "stream": true}]
+  },
+  "darkforest-dullahan-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-dullahan-5", "stream": true}]
+  },
+  "darkforest-kalrow-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-kalrow-1", "stream": true}]
+  },
+  "darkforest-kalrow-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-kalrow-2", "stream": true}]
+  },
+  "darkforest-kalrow-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:darkforest-kalrow-3", "stream": true}]
+  },
+
+
 
 
   "nonquestnpc-vanguardvan-1": {

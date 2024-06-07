@@ -11763,6 +11763,56 @@ public class Sounds {
         s.addSound("[9/10] ???: As the war of the realms…", "lightforest-dernbeast-9", false);
         s.addSound("[10/10] ???: ...is endless.", "lightforest-dernbeast-10", false);
 
+        //Dark Forest
+        s.addSound("[1/12] Lari: Hmm…", "darkforest-lari-1", false);
+        s.addSound("[2/12] Lari: Huh? Oh... soldier, I'm glad you're here.", "darkforest-lari-2", false);
+        s.addSound("[3/12] Lari: I'm just making my rounds along the Decay line.", "darkforest-lari-3", false);
+        s.addSound("[4/12] Lari: It can't have escaped your notice, but the north is dying, for want of a better word.", "darkforest-lari-4", false);
+        s.addSound("[5/12] Lari: You may have also noticed a very direct line between the forests, that's becau—", "darkforest-lari-5", false);
+        s.addSound("[6/12] Lari: Odd... I keep on hearing this strange noise coming from over there.", "darkforest-lari-6", false);
+        s.addSound("[7/12] Lari: Wait, look. It's one of the parasites. Let me show you the barrier.", "darkforest-lari-7", false);
+        s.addSound("[8/12] Lari: I have single handedly contained the spread of the Decay... But it was not my original plan.", "darkforest-lari-8", false);
+        s.addSound("[9/12] Lari: Good, it looks like the barrier is still strong.", "darkforest-lari-9", false);
+        s.addSound("[10/12] Lari: I need to actively keep the enchantment alive. Any weaknesses and they will break through.", "darkforest-lari-10", false);
+        s.addSound("[11/12] Lari: It is not an ideal solution, and the locals have no idea. They just think the river protects them.", "darkforest-lari-11", false);
+        s.addSound("[12/12] Lari: Alas, holding them back seems to be my only option until I can find a cure.", "darkforest-lari-12", false);
+        s.addSound("[1/2] ???: Hey you, with the short nose! Come 'elp me out, would'ya?", "darkforest-revan-1", false);
+        s.addSound("[2/2] ???: Over by this tree, be careful where you tread!", "darkforest-revan-2", false);
+        s.addSound("[1/1] Revan: Hey. Revan's the name, and I'd be grateful if you could take me back to my body. It's around here somewhere!", "darkforest-revan-3", false);
+        s.addSound("[1/1] Revan: Does it look like there's anything in there?!", "darkforest-revan-4", false);
+        s.addSound("[1/1] Revan: There's nothing in here. My body may be further away, search hard!", "darkforest-revan-5", false);
+        s.addSound("[1/1] Revan: I was no vagabond soldier in my past life! Keep looking!", "darkforest-revan-6", false);
+        s.addSound("[1/1] Revan: I was no poor farmer in my past life! I was, uh, rich! Yeah... really rich…", "darkforest-revan-7", false);
+        s.addSound("[1/1] Revan: Do you know who you're carrying?! I was more important than some peasant!", "darkforest-revan-8", false);
+        s.addSound("[1/1] Revan: This is just insulting! I never killed anyone! Well, I ordered a couple executions... But you can't blame me for that!", "darkforest-revan-9", false);
+        s.addSound("[1/2] Revan: Here! That's the score!", "darkforest-revan-10", false);
+        s.addSound("[2/2] Revan: Watch for the floor! It's a tad unstable!", "darkforest-revan-11", false);
+        s.addSound("[1/1] Revan: That blood trail went the other way, it's probably wise to follow it.", "darkforest-revan-12", false);
+        s.addSound("[1/2] Revan: Just looking at that place gives me the creeps. You ever been in there, short-nose?", "darkforest-revan-13", false);
+        s.addSound("[2/2] Revan: Get me away from this place, I'm getting flashbacks from when I had an encounter with a Gert trying to feast on my hand…", "darkforest-revan-14", false);
+        s.addSound("[1/2] Revan: Oh yeah! That's the ticket!", "darkforest-revan-15", false);
+        s.addSound("[2/2] Revan: Do you have a crowbar or something? WHAT? YOU DON'T?!", "darkforest-revan-16", false);
+        s.addSound("[1/1] Revan: Do I look like I've had parts of my body cut off? ...Wait.", "darkforest-revan-17", false);
+        s.addSound("[1/2] Revan: This place STINKS. Can you please get me out of here?", "darkforest-revan-18", false);
+        s.addSound("[2/2] Revan: Hey... I feel like I've seen that guy somewhere!", "darkforest-revan-19", false);
+        s.addSound("[1/1] Revan: We're a long way from Lexdale, pal. You sure this place is safe?", "darkforest-revan-20", false);
+        s.addSound("[2/2] Revan: I don't think I need to explain why this isn't my body.", "darkforest-revan-21", false);
+        s.addSound("[1/1] Revan: You know the Twains were human, right? I could never pass as one of those celebrities!", "darkforest-revan-22", false);
+        s.addSound("[1/1] Revan: Where am I? We're not in Gavel, are we?", "darkforest-revan-23", false);
+        s.addSound("[1/10] Butler: Hm? Who's the-", "darkforest-butler-1", false);
+        s.addSound("[2/10] Butler: Y-you?! But how!? They... You... You were executed! You are dead!!", "darkforest-butler-2", false);
+        s.addSound("[3/10] Dullahan: Bring your master to me.", "darkforest-dullahan-1", false);
+        s.addSound("[4/10] Noble: What's this commotion about? Can't I get some sleep for once in a while?", "darkforest-noble-1", false);
+        s.addSound("[5/10] Noble: Y-you?! Wha-... How are yo-... G-get off my property, right now! Guards!", "darkforest-noble-2", false);
+        s.addSound("[6/10] Dullahan: You're the one responsible for my beheading, are you not?", "darkforest-dullahan-2", false);
+        s.addSound("[7/10] Dullahan: You took something of mine.", "darkforest-dullahan-3", false);
+        s.addSound("[8/10] Dullahan: I shall now take everything of yours.", "darkforest-dullahan-4", false);
+        s.addSound("[9/10] Noble: N-no... I Everyone thought it was you! I'm sorry, We're sorry!", "darkforest-noble-3", false);
+        s.addSound("[10/10] Dullahan: Some things can not be fixed with words.", "darkforest-dullahan-5", false);
+        s.addSound("[1/3] Kalrow: Yes... Let the energy release!", "darkforest-kalrow-1", false);
+        s.addSound("[2/3] Kalrow: Now to test this power…", "darkforest-kalrow-2", false);
+        s.addSound("[3/3] Kalrow: AAAH! Help... Someone!", "darkforest-kalrow-3", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
