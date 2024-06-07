@@ -46017,6 +46017,72 @@
   },
 
 
+  "corkus-relosmechanic-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-relosmechanic-1", "stream": true}]
+  },
+  "corkus-relosmechanic-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-relosmechanic-2", "stream": true}]
+  },
+  "corkus-relosmechanic-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-relosmechanic-3", "stream": true}]
+  },
+  "corkus-relosmechanic-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-relosmechanic-4", "stream": true}]
+  },
+  "corkus-phoenixprince-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-1", "stream": true}]
+  },
+  "corkus-phoenixprince-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-2", "stream": true}]
+  },
+  "corkus-phoenixprince-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-3", "stream": true}]
+  },
+  "corkus-phoenixprince-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-4", "stream": true}]
+  },
+  "corkus-phoenixprince-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-5", "stream": true}]
+  },
+  "corkus-phoenixprince-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-6", "stream": true}]
+  },
+  "corkus-phoenixprince-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-7", "stream": true}]
+  },
+  "corkus-phoenixprince-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-8", "stream": true}]
+  },
+  "corkus-phoenixprince-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-9", "stream": true}]
+  },
+  "corkus-phoenixprince-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-10", "stream": true}]
+  },
+  "corkus-phoenixprince-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-11", "stream": true}]
+  },
+  "corkus-phoenixprince-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:corkus-phoenixprince-12", "stream": true}]
+  },
+
+
 
 
   "nonquestnpc-vanguardvan-1": {

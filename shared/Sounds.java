@@ -11813,6 +11813,24 @@ public class Sounds {
         s.addSound("[2/3] Kalrow: Now to test this power…", "darkforest-kalrow-2", false);
         s.addSound("[3/3] Kalrow: AAAH! Help... Someone!", "darkforest-kalrow-3", false);
 
+        //Corkus
+        s.addSound("[1/4] Relos Mechanic: Hello, adventurer! Would you mind helping me out here? You see, I recently stumbled upon this old workshop, and it's in pretty bad shape.", "corkus-relosmechanic-1", false);
+        s.addSound("[2/4] Relos Mechanic: I haven't a clue who built it, nor what all of these machines do. Some of these devices look like they were made before I was born...", "corkus-relosmechanic-2", false);
+        s.addSound("[3/4] Relos Mechanic: I believe this main machine in the center may give us some answers, but it seems to be drained of all of its electromagical energy.", "corkus-relosmechanic-3", false);
+        s.addSound("[4/4] Relos Mechanic: If we can find a way to restore power to the system, maybe we'll learn a bit more about this place.", "corkus-relosmechanic-4", false);
+        s.addSound("[1/12] ???: It was 350 years ago when I last saw a human. And I will never forget.", "corkus-phoenixprince-1", false);
+        s.addSound("[2/12] ???: Your kind had already dominated Wynn and Fruma. But you decided to come to this island. Our island.", "corkus-phoenixprince-2", false);
+        s.addSound("[3/12] ???: I will never understand why some Avos decided to let you live here. Those who welcomed you stayed on the surface.", "corkus-phoenixprince-3", false);
+        s.addSound("[4/12] ???: But I, Prince of the Avos, led the rest of my people down here, where no human could disturb us. And so, we lived here... for a while.", "corkus-phoenixprince-4", false);
+        s.addSound("[5/12] ???: But avians like us are not suited to living underground. We became ill and lost our feathers. And eventually, my people died out.", "corkus-phoenixprince-5", false);
+        s.addSound("[6/12] ???: Their souls still wander and cry throughout the ruins of my city.", "corkus-phoenixprince-6", false);
+        s.addSound("[7/12] ???: However, I have remained here, still alive, hearing the plight and torment of the lost souls. For I am cursed to never die, only to be reborn.", "corkus-phoenixprince-7", false);
+        s.addSound("[8/12] Phoenix Prince: Because of this endless cycle of reincarnation, I am only known as the Phoenix Prince.", "corkus-phoenixprince-8", false);
+        s.addSound("[9/12] Phoenix Prince: After the death of all my people, your kind sealed the city, they likely didn t want anyone to know about what happened down here.", "corkus-phoenixprince-9", false);
+        s.addSound("[10/12] Phoenix Prince: But unbeknownst to them, I was still here. Trapped forever, without even the escape of death. And it is all the fault of the humans who drove us here.", "corkus-phoenixprince-10", false);
+        s.addSound("[11/12] Phoenix Prince: You're an invader, just like the rest of your people. They do not deserve to live on this island... on our island.", "corkus-phoenixprince-11", false);
+        s.addSound("[12/12] Phoenix Prince: Prepare for our revenge. Prepare to DIE!", "corkus-phoenixprince-12", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
