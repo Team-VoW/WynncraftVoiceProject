@@ -11732,6 +11732,37 @@ public class Sounds {
         s.addSound("[1/2] Captain: And so we shall leave for the future!!", "llevigarplains-captain-5", false);
         s.addSound("[2/2] Captain: Goodbye Gavel…", "llevigarplains-captain-6", false);
 
+        //Light Forest
+        s.addSound("[1/5] Lari: W-why... Why won't you open..? I know what's back there!", "lightforest-lari-1", false);
+        s.addSound("[2/5] Lari: WHY…", "lightforest-lari-2", false);
+        s.addSound("[3/5] Lari: WON'T…", "lightforest-lari-3", false);
+        s.addSound("[4/5] Lari: YOU…", "lightforest-lari-4", false);
+        s.addSound("[5/5] Lari: OPEN!", "lightforest-lari-5", false);
+        s.addSound("[1/10] Vaeli: Beatus n- i nen -o sum héru. Lótesse -yes váre- egum adversus i móre posteritas ante -o egum. (This translates to \"Blessed be the water of our lord. May it protect us against the dark future ahead of us.\")", "lightforest-vaeli-1", false);
+        s.addSound("[2/10] Vaeli: Beatus n- i lacus, fluvium, ar lacunae trans sí ettele. (This translates to “Blessed be the lakes, rivers, and ponds across these lands.”)", "lightforest-vaeli-2", false);
+        s.addSound("[3/10] Tyana: What are you doing, sister?", "lightforest-tyana-1", false);
+        s.addSound("[4/10] Vaeli: Praying. How is the situation?", "lightforest-vaeli-3", false);
+        s.addSound("[5/10] Tyana: They aren't letting us back in.", "lightforest-tyana-2", false);
+        s.addSound("[6/10] Tyana: We have been sleeping outside the gates for weeks.", "lightforest-tyana-3", false);
+        s.addSound("[7/10] Vaeli: Our ancestors lived in the trees for thousands of years before Aldorei.", "lightforest-vaeli-4", false);
+        s.addSound("[8/10] Tyana: We live in the present. The high elves are not going to let us back in.", "lightforest-tyana-4", false);
+        s.addSound("[9/10] Vaeli: Send the white birds. Go tell the others.", "lightforest-vaeli-5", false);
+        s.addSound("[10/10] Vaeli: We have found our new home.", "lightforest-vaeli-6", false);
+        s.addSound("[1/4] ???: The scales have been tipped.", "lightforest-dernbeast-1", false);
+        s.addSound("[2/4] ???: The influence of shadow casts ever further.", "lightforest-dernbeast-2", false);
+        s.addSound("[3/4] ???: Balance shall become a thing of the past.", "lightforest-dernbeast-3", false);
+        s.addSound("[4/4] ???: Soon enough... The eye shall see all.", "lightforest-dernbeast-4", false);
+        s.addSound("[1/10] ???: It has been a while.", "lightforest-orphion-1", false);
+        s.addSound("[2/10] ???: The world is crumbling from imbalance. Soon I shall bring it to the path of purity.", "lightforest-dernbeast-5", false);
+        s.addSound("[3/10] ???: Do you not fear for your actions? For what they could cause?", "lightforest-orphion-2", false);
+        s.addSound("[4/10] ???: The power that I have gained... It has made me stronger.", "lightforest-dernbeast-6", false);
+        s.addSound("[5/10] ???: It means nothing. Your insufferable desires bring no good to this world.", "lightforest-orphion-3", false);
+        s.addSound("[6/10] ???: This fight... This war... It has torn us apart from what we were.", "lightforest-dernbeast-7", false);
+        s.addSound("[7/10] ???: Our paths were never the same. And they never will be. This war shall face the end soon enough.", "lightforest-orphion-4", false);
+        s.addSound("[8/10] ???: No... You are blind, my friend. Let me show you what this war has become.", "lightforest-dernbeast-8", false);
+        s.addSound("[9/10] ???: As the war of the realms…", "lightforest-dernbeast-9", false);
+        s.addSound("[10/10] ???: ...is endless.", "lightforest-dernbeast-10", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);

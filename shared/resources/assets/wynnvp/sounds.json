@@ -45706,6 +45706,124 @@
   },
 
 
+  "lightforest-lari-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-lari-1", "stream": true}]
+  },
+  "lightforest-lari-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-lari-2", "stream": true}]
+  },
+  "lightforest-lari-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-lari-3", "stream": true}]
+  },
+  "lightforest-lari-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-lari-4", "stream": true}]
+  },
+  "lightforest-lari-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-lari-5", "stream": true}]
+  },
+  "lightforest-vaeli-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-vaeli-1", "stream": true}]
+  },
+  "lightforest-vaeli-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-vaeli-2", "stream": true}]
+  },
+  "lightforest-tyana-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-tyana-1", "stream": true}]
+  },
+  "lightforest-vaeli-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-vaeli-3", "stream": true}]
+  },
+  "lightforest-tyana-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-tyana-2", "stream": true}]
+  },
+  "lightforest-tyana-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-tyana-3", "stream": true}]
+  },
+  "lightforest-vaeli-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-vaeli-4", "stream": true}]
+  },
+  "lightforest-tyana-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-tyana-4", "stream": true}]
+  },
+  "lightforest-vaeli-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-vaeli-5", "stream": true}]
+  },
+  "lightforest-vaeli-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-vaeli-6", "stream": true}]
+  },
+  "lightforest-dernbeast-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-1", "stream": true}]
+  },
+  "lightforest-dernbeast-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-2", "stream": true}]
+  },
+  "lightforest-dernbeast-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-3", "stream": true}]
+  },
+  "lightforest-dernbeast-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-4", "stream": true}]
+  },
+  "lightforest-orphion-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-orphion-1", "stream": true}]
+  },
+  "lightforest-dernbeast-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-5", "stream": true}]
+  },
+  "lightforest-orphion-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-orphion-2", "stream": true}]
+  },
+  "lightforest-dernbeast-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-6", "stream": true}]
+  },
+  "lightforest-orphion-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-orphion-3", "stream": true}]
+  },
+  "lightforest-dernbeast-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-7", "stream": true}]
+  },
+  "lightforest-orphion-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-orphion-4", "stream": true}]
+  },
+  "lightforest-dernbeast-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-8", "stream": true}]
+  },
+  "lightforest-dernbeast-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-9", "stream": true}]
+  },
+  "lightforest-dernbeast-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-dernbeast-10", "stream": true}]
+  },
+
+
 
   "nonquestnpc-vanguardvan-1": {
     "category": "voice",
