@@ -46463,6 +46463,207 @@
   },
 
 
+  "skyislands-derangedswordsman-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-derangedswordsman-1", "stream": true}]
+  },
+  "skyislands-derangedswordsman-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-derangedswordsman-2", "stream": true}]
+  },
+  "skyislands-derangedswordsman-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-derangedswordsman-3", "stream": true}]
+  },
+  "skyislands-derangedswordsman-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-derangedswordsman-4", "stream": true}]
+  },
+  "skyislands-derangedswordsman-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-derangedswordsman-5", "stream": true}]
+  },
+  "skyislands-ghostlyskyraider1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-ghostlyskyraider1-1", "stream": true}]
+  },
+  "skyislands-ghostlyskyraider2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-ghostlyskyraider2-1", "stream": true}]
+  },
+  "skyislands-ghostlyskyraider1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-ghostlyskyraider1-2", "stream": true}]
+  },
+  "skyislands-ghostlyskyraider3-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-ghostlyskyraider3-1", "stream": true}]
+  },
+  "skyislands-ghostlyskyraider2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-ghostlyskyraider2-2", "stream": true}]
+  },
+  "skyislands-ghostlyskyraider3-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-ghostlyskyraider3-2", "stream": true}]
+  },
+  "skyislands-farcor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-1", "stream": true}]
+  },
+  "skyislands-farcor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-2", "stream": true}]
+  },
+  "skyislands-farcor-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-3", "stream": true}]
+  },
+  "skyislands-farcor-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-4", "stream": true}]
+  },
+  "skyislands-farcor-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-5", "stream": true}]
+  },
+  "skyislands-farcor-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-6", "stream": true}]
+  },
+  "skyislands-farcor-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-7", "stream": true}]
+  },
+  "skyislands-farcor-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-8", "stream": true}]
+  },
+  "skyislands-farcor-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-9", "stream": true}]
+  },
+  "skyislands-farcor-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-10", "stream": true}]
+  },
+  "skyislands-farcor-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-11", "stream": true}]
+  },
+  "skyislands-farcor-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-12", "stream": true}]
+  },
+  "skyislands-farcor-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-13", "stream": true}]
+  },
+  "skyislands-farcor-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-14", "stream": true}]
+  },
+  "skyislands-farcor-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-15", "stream": true}]
+  },
+  "skyislands-farcor-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-16", "stream": true}]
+  },
+  "skyislands-farcor-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-17", "stream": true}]
+  },
+  "skyislands-farcor-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-18", "stream": true}]
+  },
+  "skyislands-farcor-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-19", "stream": true}]
+  },
+  "skyislands-farcor-20": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-20", "stream": true}]
+  },
+  "skyislands-farcor-21": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-21", "stream": true}]
+  },
+  "skyislands-farcor-22": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-22", "stream": true}]
+  },
+  "skyislands-farcor-23": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-23", "stream": true}]
+  },
+  "skyislands-farcor-24": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-24", "stream": true}]
+  },
+  "skyislands-farcor-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-25", "stream": true}]
+  },
+  "skyislands-farcor-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-26", "stream": true}]
+  },
+  "skyislands-farcor-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-27", "stream": true}]
+  },
+  "skyislands-farcor-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-28", "stream": true}]
+  },
+  "skyislands-farcor-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-29", "stream": true}]
+  },
+  "skyislands-talkingmushroom-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-talkingmushroom-1", "stream": true}]
+  },
+  "skyislands-farcor-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-30", "stream": true}]
+  },
+  "skyislands-farcor-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-31", "stream": true}]
+  },
+  "skyislands-farcor-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-32", "stream": true}]
+  },
+  "skyislands-farcor-33": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-farcor-33", "stream": true}]
+  },
+  "skyislands-villager-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-villager-1", "stream": true}]
+  },
+  "skyislands-priest-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-priest-1", "stream": true}]
+  },
+  "skyislands-villager-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-villager-2", "stream": true}]
+  },
+  "skyislands-priest-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-priest-2", "stream": true}]
+  },
+  "skyislands-villager-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:skyislands-villager-3", "stream": true}]
+  },
+
 
   "nonquestnpc-vanguardvan-1": {
     "category": "voice",

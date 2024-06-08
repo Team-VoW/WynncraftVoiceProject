@@ -11932,6 +11932,58 @@ public class Sounds {
         s.addSound("[25/26] General Algard: Then it is settled.", "moltenheights-generalalgard-8", false);
         s.addSound("[26/26] General Algard: ...Now, while they're vulnerable!", "moltenheights-generalalgard-9", false);
 
+        //Sky Islands
+        s.addSound("[1/5] Deranged Swordsman: HEY! Who the hell are you, huh?", "skyislands-derangedswordsman-1", false);
+        s.addSound("[2/5] Deranged Swordsman: Oh, I know your type, short-nose.. I bet you wanted to snatch my sword, ain't that right?", "skyislands-derangedswordsman-2", false);
+        s.addSound("[3/5] Deranged Swordsman: Well guess what? YOU CAN'T HAVE IT! I'd never let a piece of worthless scum like you STEAL from ME!", "skyislands-derangedswordsman-3", false);
+        s.addSound("[4/5] Deranged Swordsman: You won't take my sword... I won't let ANYONE take MY sword away from ME!", "skyislands-derangedswordsman-4", false);
+        s.addSound("[5/5] Deranged Swordsman: Oh, what was that, human? YOU WANTED TO FIGHT?!?! I'LL KILL YOU!!", "skyislands-derangedswordsman-5", false);
+        s.addSound("[1/6] Ghostly Skyraider: Oi, have ye heard back from the c'mmander yet?", "skyislands-ghostlyskyraider1-1", false);
+        s.addSound("[2/6] Ghostly Skyraider: Nah. las' I heard, she was losin it' over some villagers comin' near the city.", "skyislands-ghostlyskyraider2-1", false);
+        s.addSound("[3/6] Ghostly Skyraider: Yeah... Speakin' about that... the villagers 're really startin' to push their luck, huh?", "skyislands-ghostlyskyraider1-2", false);
+        s.addSound("[4/6] Ghostly Skyraider: OI! What're ya ladies doin', relaxin in here?! The villagers just landed!", "skyislands-ghostlyskyraider3-1", false);
+        s.addSound("[5/6] Ghostly Skyraider: Huh? Villagers? Here? We goin' to fight them off?", "skyislands-ghostlyskyraider2-2", false);
+        s.addSound("[6/6] Ghostly Skyraider: No, ya idiot! There are too many of them! Let 'em have Ahmsord if they want it so bad! We're headin' to our outpost southeast of 'ere!", "skyislands-ghostlyskyraider3-2", false);
+        s.addSound("[1/8] Farcor: Ah... So another has sought me out. What is it you seek, human? Wealth? Power?", "skyislands-farcor-1", false);
+        s.addSound("[2/8] Farcor: I am afraid you will be sorely disappointed... I will offer you neither.", "skyislands-farcor-2", false);
+        s.addSound("[3/8] Farcor: If you have found your way here, you must know my story. I left Gavel a millennium ago…", "skyislands-farcor-3", false);
+        s.addSound("[4/8] Farcor: Your people were not to blame for what befell this land. None of those who yet remain below can take the whole blame, truly... But still, they all had their part to play.", "skyislands-farcor-4", false);
+        s.addSound("[5/8] Farcor: I have seen the Doguns fall, have watched as that Decay has twisted the land below. I remember, too, what those elves had done, all those years ago…", "skyislands-farcor-5", false);
+        s.addSound("[6/8] Farcor: You are not the first to visit me, nor, I suspect, will you be the last. And when you leave, I will humbly await the next.", "skyislands-farcor-6", false);
+        s.addSound("[7/8] Farcor: I regret that you came all this way for no reward... Perhaps I will gift you this book. It reminds me of days long past, before all this tragedy came to pass…", "skyislands-farcor-7", false);
+        s.addSound("[8/8] Farcor: Now, human, leave me to rest. I have lived a long life, and I am very weary…", "skyislands-farcor-8", false);
+        s.addSound("[1/2] Farcor: Hm... You are still here? Not many have stayed after hearing what I have to say. None, but one…", "skyislands-farcor-9", false);
+        s.addSound("[2/2] Farcor: Have you come to seek my wisdom, then? What is it you have come for?", "skyislands-farcor-10", false);
+        s.addSound("[1/9] Farcor: The Ahms region... It was my home and domain, once. Before those fools refused to listen to my warnings.", "skyislands-farcor-11", false);
+        s.addSound("[2/9] Farcor: And a great land it once was. Similar to the Canyon which still lies to the west, yes, yet... Simpler. Greater. The walls did not shift, for their Protector had not yet encountered a threat it could not handle.", "skyislands-farcor-12", false);
+        s.addSound("[3/9] Farcor: I roamed the land and gave my wisdom to any who would ask. They grew wiser, and they grew more powerful, all with my assistance…", "skyislands-farcor-13", false);
+        s.addSound("[4/9] Farcor: Truly, I should have seen the signs long before the Fracturing. They were growing arrogant, and thought that they knew better than me.", "skyislands-farcor-14", false);
+        s.addSound("[5/9] Farcor: And so, even as I warned them of incoming calamity, they chose to embrace their Protector. Not of their creation, no... But it was theirs nonetheless.", "skyislands-farcor-15", false);
+        s.addSound("[6/9] Farcor: And as their Protector failed them, and fractured their land into pieces... They fell back on me. They sought my wisdom once more. They did not deserve it. So I left.", "skyislands-farcor-16", false);
+        s.addSound("[7/9] Farcor: ...I suppose it is unfair to claim they all deserved that calamity. One section of the region, inhabited by folk unlike the others... They heeded my warnings. They prepared.", "skyislands-farcor-17", false);
+        s.addSound("[8/9] Farcor: I do not know what came of them, after the Fracturing. Perhaps they, too, fell into the deep Void below. And yet... They prepared. They listened.", "skyislands-farcor-18", false);
+        s.addSound("[9/9] Farcor: Hm. My apologies, I have been rambling on for far too long. I thank you for indulging this old man and his stories.", "skyislands-farcor-19", false);
+        s.addSound("[1/3] Farcor: You would wish to restore this land...? Hm... No. No, I do not believe this can be done. It has been lost for far too long…", "skyislands-farcor-20", false);
+        s.addSound("[2/3] Farcor: Ah, but that does not mean things cannot improve. You know this full well, yes? The war of the Heights has come to an end, and the Great Protector has been calmed…", "skyislands-farcor-21", false);
+        s.addSound("[3/3] Farcor: I am glad this world is improving... Though I only wish such change could have come about sooner.", "skyislands-farcor-22", false);
+        s.addSound("[1/3] Farcor: Hm... I have not descended into that dangerous abyss, for I fear the beings from between would not take well to my presence.", "skyislands-farcor-23", false);
+        s.addSound("[2/3] Farcor: From what I can discern, it feels... strange. It is not of our realm, nor is it of the three which clash eternal. It is distinctly other.", "skyislands-farcor-24", false);
+        s.addSound("[3/3] Farcor: I would urge you to stay alert if you choose to explore that place. Danger lurks in the unknown.", "skyislands-farcor-25", false);
+        s.addSound("[1/4] Farcor: Ah... Yes. He came seeking my wisdom, many years ago. Though he did not plan to stay long, his visit soon became an extended stay.", "skyislands-farcor-26", false);
+        s.addSound("[2/4] Farcor: It is... A light in my memory of millennia. We spoke of much, while he stayed here. He had theories and observations, and he sought my wisdom to confirm them.", "skyislands-farcor-27", false);
+        s.addSound("[3/4] Farcor: I am unsure what came of him. His plans, as he spoke of them, would take him directly into danger. As he departed, he promised he would return if he succeeded.", "skyislands-farcor-28", false);
+        s.addSound("[4/4] Farcor: ...As you would imagine, I have not seen him since. I worry for his safety, but I trusted his capabilities. I remain hopeful that, someday, he will come to me with good tidings. Until then, I will wait.", "skyislands-farcor-29", false);
+        s.addSound("[1/4] Talking Mushroom: HEY! I HAVE A QUESTION, ACTUALLY!! SINCE YOU'RE SO WISE, COULD YOU TELL ME WHERE I WENT WRONG IN MY LIFE TO END UP IN THIS IDIOT'S POCKET?!", "skyislands-talkingmushroom-1", false);
+        s.addSound("[2/4] Farcor: Ah... But of course. I have seen your journey, little mushroom. You have traveled quite a long way, have you not? Far from where you once called home…", "skyislands-farcor-30", false);
+        s.addSound("[3/4] Farcor: You remind me of myself, in a way. A home left behind in a fit of anger, with no way to make amends.", "skyislands-farcor-31", false);
+        s.addSound("[4/4] Farcor: Keep moving forward, little one. Someday, you will be at peace with your mistakes.", "skyislands-farcor-32", false);
+        s.addSound("[1/1] Farcor: ...I see. I thank you for your kindness, human. It seems to be a rarity, these days…", "skyislands-farcor-33", false);
+        s.addSound("[1/5] Villager: Oi! Clomi! Get the cotton out of your ears!", "skyislands-villager-1", false);
+        s.addSound("[2/5] Priest: Ah.. Good evening.. What brings you here today, brother?", "skyislands-priest-1", false);
+        s.addSound("[3/5] Villager: It's our Colossus, it's gone insane! It's destroying everything surrounding it for miles!", "skyislands-villager-2", false);
+        s.addSound("[4/5] Priest: Now, now. Don't speak of our Grand Colossus like that! I'm sure there's some sort of explanation for this…", "skyislands-priest-2", false);
+        s.addSound("[5/5] Villager: What? Do you not believe me? Fine! Come with me, and see for yourself!", "skyislands-villager-3", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
