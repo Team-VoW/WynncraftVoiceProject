@@ -46665,6 +46665,85 @@
   },
 
 
+  "silentexpanse-miner-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-miner-1", "stream": true}]
+  },
+  "silentexpanse-minerchief-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-minerchief-1", "stream": true}]
+  },
+  "silentexpanse-geologist-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-geologist-1", "stream": true}]
+  },
+  "silentexpanse-minerchief-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-minerchief-2", "stream": true}]
+  },
+  "silentexpanse-geologist-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-geologist-2", "stream": true}]
+  },
+  "silentexpanse-miner-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-miner-2", "stream": true}]
+  },
+  "silentexpanse-minerchief-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-minerchief-3", "stream": true}]
+  },
+  "silentexpanse-minerchief-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-minerchief-4", "stream": true}]
+  },
+  "silentexpanse-olmmage-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-olmmage-1", "stream": true}]
+  },
+  "silentexpanse-olmastrologist-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-olmastrologist-1", "stream": true}]
+  },
+  "silentexpanse-olmmage-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-olmmage-2", "stream": true}]
+  },
+  "silentexpanse-olmastrologist-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-olmastrologist-2", "stream": true}]
+  },
+  "silentexpanse-bakal-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-bakal-1", "stream": true}]
+  },
+  "silentexpanse-thedernbeast-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-thedernbeast-1", "stream": true}]
+  },
+  "silentexpanse-bakal-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-bakal-2", "stream": true}]
+  },
+  "silentexpanse-thedernbeast-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-thedernbeast-2", "stream": true}]
+  },
+  "silentexpanse-thedernbeast-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-thedernbeast-3", "stream": true}]
+  },
+  "silentexpanse-bakal-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-bakal-3", "stream": true}]
+  },
+  "silentexpanse-thedernbeast-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:silentexpanse-thedernbeast-4", "stream": true}]
+  },
+
+
+
   "nonquestnpc-vanguardvan-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:nonquestnpc-vanguardvan-1", "stream": true}]

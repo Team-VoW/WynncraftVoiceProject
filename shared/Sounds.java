@@ -11984,6 +11984,27 @@ public class Sounds {
         s.addSound("[4/5] Priest: Now, now. Don't speak of our Grand Colossus like that! I'm sure there's some sort of explanation for this…", "skyislands-priest-2", false);
         s.addSound("[5/5] Villager: What? Do you not believe me? Fine! Come with me, and see for yourself!", "skyislands-villager-3", false);
 
+        //Silent Expanse
+        s.addSound("[1/8] Miner: 'Ey, boss, ya sure this is where we need t'blow things up? There's equipment an' all here. This place been empty for a while now too.", "silentexpanse-miner-1", false);
+        s.addSound("[2/8] Miner Chief: The small spec I found might not've been much, but it could mean that there are more emeralds nearby. That's why I brought our friend here to confirm.", "silentexpanse-minerchief-1", false);
+        s.addSound("[3/8] Geologist: Hm. Do you hear that? The sound indicates a large body of crystals just right behind these rocks.", "silentexpanse-geologist-1", false);
+        s.addSound("[4/8] Miner Chief: I knew it! Blow 'er up!", "silentexpanse-minerchief-2", false);
+        s.addSound("[5/8] Geologist: These... These are not emeralds.", "silentexpanse-geologist-2", false);
+        s.addSound("[6/8] Miner: Let's see 'ere... Red, purple, green n' yellow. Say, boss, ain't these them crystal that lad not too long ago asked ya 'bout?", "silentexpanse-miner-2", false);
+        s.addSound("[7/8] Miner Chief: These are not just some 'crystals'. They're... Dangerous. All of you, listen up - never speak a word of what you saw here.", "silentexpanse-minerchief-3", false);
+        s.addSound("[8/8] Miner Chief: Both of you, back to your posts, now! I'll make sure these are never seen again.", "silentexpanse-minerchief-4", false);
+        s.addSound("[1/4] Olm Mage: Crystalites. This is bad. Froner? FRONER? Are you there? We have a BIG problem.", "silentexpanse-olmmage-1", false);
+        s.addSound("[2/4] Olm Astrologist: What? More meteors hitting the mountains again? When has that ever been an issue before?", "silentexpanse-olmastrologist-1", false);
+        s.addSound("[3/4] Olm Mage: There’s a series of fireballs heading towards the city.", "silentexpanse-olmmage-2", false);
+        s.addSound("[4/4] Olm Astrologist: How long have we got left? We need to inform th-", "silentexpanse-olmastrologist-2", false);
+        s.addSound("[1/7] Bak'al: Master. I have arrived. You wished to speak with me?", "silentexpanse-bakal-1", false);
+        s.addSound("[2/7] ???: The forts of the humans still stand. You have failed.", "silentexpanse-thedernbeast-1", false);
+        s.addSound("[3/7] Bak'al: Master, we have spread your will across the province as you ordered.", "silentexpanse-bakal-2", false);
+        s.addSound("[4/7] ???: Peon, you have spread my influence. My will remains foreign. They yet hope. The Olm do not. And so we could claim their lands. But here, we may not.", "silentexpanse-thedernbeast-2", false);
+        s.addSound("[5/7] ???: I must be present. In my gaze, no thing shall hide. Do you understand?", "silentexpanse-thedernbeast-3", false);
+        s.addSound("[6/7] Bak'al: I do not, Master. You cannot possibly intend to leave?", "silentexpanse-bakal-3", false);
+        s.addSound("[7/7] ???: The tower stands. Bring my gaze there. From on high, it shall blossom. And then my will shall exert upon all.", "silentexpanse-thedernbeast-4", false);
+
 
         //Non quest npc
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
