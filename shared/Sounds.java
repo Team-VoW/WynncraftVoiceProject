@@ -11758,6 +11758,7 @@ public class Sounds {
         s.addSound("[8/10] ???: No... You are blind, my friend. Let me show you what this war has become.", "lightforest-dernbeast-8", false, 200);
         s.addSound("[9/10] ???: As the war of the realms...", "lightforest-dernbeast-9", false, 200);
         s.addSound("[10/10] ???: ...is endless.", "lightforest-dernbeast-10", false, 200);
+        s.addSound("[1/1] Strange Frog: Uh... You aren't supposed to be here..! ", "lightforest-strangefrog-1", false, 200);
 
         //Dark Forest
         s.addSound("[1/12] Lari: Hmm...", "darkforest-lari-1", false, 200);

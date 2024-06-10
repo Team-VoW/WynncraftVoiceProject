@@ -45822,6 +45822,10 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:lightforest-dernbeast-10", "stream": true}]
   },
+  "lightforest-strangefrog-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:lightforest-strangefrog-1", "stream": true}]
+  },
 
   "darkforest-lari-1": {
     "category": "voice",
