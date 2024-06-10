@@ -11734,8 +11734,8 @@ public class Sounds {
         s.addSound("[3/5] Lari: WON'T...", "lightforest-lari-3", false, 200);
         s.addSound("[4/5] Lari: YOU...", "lightforest-lari-4", false, 200);
         s.addSound("[5/5] Lari: OPEN!", "lightforest-lari-5", false, 200);
-        s.addSound("[1/10] Vaeli: Beatus n- i nen -o sum héru. Lótesse -yes váre- egum adversus i móre posteritas ante -o egum. (This translates to \"Blessed be the water of our lord. May it protect us against the dark future ahead of us.\")", "lightforest-vaeli-1", false, 200);
-        s.addSound("[2/10] Vaeli: Beatus n- i lacus, fluvium, ar lacunae trans sí ettele. (This translates to “Blessed be the lakes, rivers, and ponds across these lands.”)", "lightforest-vaeli-2", false, 200);
+        s.addSound("[1/10] Vaeli: ⓑⓛⓔⓢⓢⓔⓓ ⓑⓔ ⓣⓗⓔ ⓦⓐⓣⓔⓡ ⓞⓕ ⓞⓤⓡ ⓛⓞⓡⓓ. ⓜⓐⓨ ⓘⓣ ⓟⓡⓞⓣⓔⓒⓣ ⓤⓢ ⓕⓡⓞⓜ ⓣⓗⓔ ⓓⓐⓡⓚ ⓕⓤⓣⓤⓡⓔ ⓐⓗⓔⓐⓓ ⓞⓕ ⓤⓢ.", "lightforest-vaeli-1", false, 200);
+        s.addSound("[2/10] Vaeli: ⓑⓛⓔⓢⓢⓔⓓ ⓑⓔ ⓣⓗⓔ ⓡⓘⓥⓔⓡⓢ, ⓛⓐⓚⓔⓢ, ⓐⓝⓓ ⓟⓞⓝⓓⓢ ⓐⓒⓡⓞⓢⓢ ⓣⓗⓔⓢⓔ ⓛⓐⓝⓓⓢ.", "lightforest-vaeli-2", false, 200);
         s.addSound("[3/10] Tyana: What are you doing, sister?", "lightforest-tyana-1", false, 200);
         s.addSound("[4/10] Vaeli: Praying. How is the situation?", "lightforest-vaeli-3", false, 200);
         s.addSound("[5/10] Tyana: They aren't letting us back in.", "lightforest-tyana-2", false, 200);
