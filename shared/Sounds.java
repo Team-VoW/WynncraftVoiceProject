@@ -7981,8 +7981,8 @@ public class Sounds {
         s.addSound("[3/8] Suspicious Cow: I can help you with that. WE can help you with that.", "cowfusion-suspicouscow-5", false);
         s.addSound("[4/8] Suspicious Cow: Our people have a secret hideout not far from here. It's located right under that barn just behind me.", "cowfusion-suspicouscow-6", false);
         s.addSound("[5/8] Suspicious Cow: It may seem close, but unless you've been practicing your athletics, you won't be able to get over these fences.", "cowfusion-suspicouscow-7", false);
-        s.addSound("[6/8] Suspicious Cow: See what haybale in the middle of our pen? I bet you could push and pull it into such a position that'd allow you to climb over the fence with your cow physique.", "cowfusion-suspicouscow-8", false);
-        s.addSound("[7/8] Suspicious Cow: The second pen might have a similar problem, but I'm sure you can figure that out yourself.", "cowfusion-suspicouscow-9", false);
+        s.addSound("[6/8] Suspicious Cow: See that haybale in the middle of our pen? I bet you could push and pull it into such a position that'd allow you to climb over the fence with your cow physique.", "cowfusion-suspicouscow-8", false);
+        s.addSound("[7/8] Suspicious Cow: The second pen might have a similar problem, but I'm sure you can figure that our yourself.", "cowfusion-suspicouscow-9", false);
         s.addSound("[8/8] Suspicious Cow: Good luck!", "cowfusion-suspicouscow-10", false);
         s.addSound("[1/8] Suspicious Cow: What? What does that even mean? There isn't actually a password! Or did no one tell me that there was? Ah, nevermind, at least you can understand me.", "cowfusion-suspicouscow-11", false);
         s.addSound("[2/2] Suspicious Cow: Moo.", "cowfusion-suspicouscow-12", false);
