@@ -11748,16 +11748,16 @@ public class Sounds {
         s.addSound("[2/4] ???: The influence of shadow casts ever further.", "lightforest-dernbeast-2", false, 200);
         s.addSound("[3/4] ???: Balance shall become a thing of the past.", "lightforest-dernbeast-3", false, 200);
         s.addSound("[4/4] ???: Soon enough... The eye shall see all.", "lightforest-dernbeast-4", false, 200);
-        s.addSound("[1/10] ???: It has been a while.", "lightforest-orphion-1", false, 200);
-        s.addSound("[2/10] ???: The world is crumbling from imbalance. Soon I shall bring it to the path of purity.", "lightforest-dernbeast-5", false, 200);
-        s.addSound("[3/10] ???: Do you not fear for your actions? For what they could cause?", "lightforest-orphion-2", false, 200);
-        s.addSound("[4/10] ???: The power that I have gained... It has made me stronger.", "lightforest-dernbeast-6", false, 200);
-        s.addSound("[5/10] ???: It means nothing. Your insufferable desires bring no good to this world.", "lightforest-orphion-3", false, 200);
-        s.addSound("[6/10] ???: This fight... This war... It has torn us apart from what we were.", "lightforest-dernbeast-7", false, 200);
-        s.addSound("[7/10] ???: Our paths were never the same. And they never will be. This war shall face the end soon enough.", "lightforest-orphion-4", false, 200);
-        s.addSound("[8/10] ???: No... You are blind, my friend. Let me show you what this war has become.", "lightforest-dernbeast-8", false, 200);
-        s.addSound("[9/10] ???: As the war of the realms...", "lightforest-dernbeast-9", false, 200);
-        s.addSound("[10/10] ???: ...is endless.", "lightforest-dernbeast-10", false, 200);
+        s.addSound("[1/10] ???: It has been a while.", "lightforest-orphion-1", true, 200);
+        s.addSound("[2/10] ???: The world is crumbling from imbalance. Soon I shall bring it to the path of purity.", "lightforest-dernbeast-5", true, 200);
+        s.addSound("[3/10] ???: Do you not fear for your actions? For what they could cause?", "lightforest-orphion-2", true, 200);
+        s.addSound("[4/10] ???: The power that I have gained... It has made me stronger.", "lightforest-dernbeast-6", true, 200);
+        s.addSound("[5/10] ???: It means nothing. Your insufferable desires bring no good to this world.", "lightforest-orphion-3", true, 200);
+        s.addSound("[6/10] ???: This fight... This war... It has torn us apart from what we were.", "lightforest-dernbeast-7", true, 200);
+        s.addSound("[7/10] ???: Our paths were never the same. And they never will be. This war shall face the end soon enough.", "lightforest-orphion-4", true, 200);
+        s.addSound("[8/10] ???: No... You are blind, my friend. Let me show you what this war has become.", "lightforest-dernbeast-8", true, 200);
+        s.addSound("[9/10] ???: As the war of the realms...", "lightforest-dernbeast-9", true, 200);
+        s.addSound("[10/10] ???: ...is endless.", "lightforest-dernbeast-10", true, 200);
         s.addSound("[1/1] Strange Frog: Uh... You aren't supposed to be here..! ", "lightforest-strangefrog-1", false, 200);
 
         //Dark Forest
@@ -12008,6 +12008,12 @@ public class Sounds {
         s.addSound("[1/4] Vagrant Van: Oh, a Ragni soldier. It's been awhile since I've seen one of you out here.", "nonquestnpc-vanguardvan-1", false);
         s.addSound("[1/4] Ragni Guard: Welcome to Ragni, new recruit. How's Fruma these days? Ah right, directions.", "nonquestnpc-mainragniguard-1", false);
         s.addSound("[1/2] Ragni Guard: Welcome back, I suppose you're a Wynn citizen now. I've heard quite a few things about your deeds throughout the province.", "nonquestnpc-mainragniguard-2", false);
+
+        //Boss altars
+        s.addSound("There's... nothing here?", "bossaltar-bottomlesspit-1", true);
+        s.addSound("There has to be something down here, you can feel it watching you...", "bossaltar-bottomlesspit-2", true);
+        s.addSound("CAUGHT IT'S CAUGHT YOU IT'S CAUGHT YOU", "bossaltar-bottomlesspit-3", true);
+        s.addSound("IT'S EVERYWHERE IT'S EVERYWHERE YOU LOOK", "bossaltar-bottomlesspit-4", true);
 
 
     }

@@ -46759,7 +46759,28 @@
   "nonquestnpc-mainragniguard-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:nonquestnpc-mainragniguard-2", "stream": true}]
+  },
+
+  "bossaltar-bottomlesspit-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-bottomlesspit-1", "stream": true}]
+  },
+
+  "bossaltar-bottomlesspit-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-bottomlesspit-2", "stream": true}]
+  },
+
+  "bossaltar-bottomlesspit-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-bottomlesspit-3", "stream": true}]
+  },
+
+  "bossaltar-bottomlesspit-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-bottomlesspit-4", "stream": true}]
   }
+
 
 
 }
