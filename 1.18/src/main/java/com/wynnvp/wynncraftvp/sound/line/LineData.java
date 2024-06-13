@@ -24,7 +24,7 @@ public class LineData {
         this.realLine = realLine;
     }
 
-    private static final Pattern NPC_DIALOGUE_PATTERN = Pattern.compile("^\\[\\d+/\\d+].+: .");
+    public static final Pattern NPC_DIALOGUE_PATTERN = Pattern.compile("^\\[\\d+/\\d+].+: .");
 
 
     public String getNPCName() {

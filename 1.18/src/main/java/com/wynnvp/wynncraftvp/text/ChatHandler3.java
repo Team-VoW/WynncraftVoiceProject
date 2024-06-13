@@ -6,6 +6,7 @@
 package com.wynnvp.wynncraftvp.text;
 
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
+import com.wynnvp.wynncraftvp.sound.line.LineData;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket;
@@ -115,6 +116,13 @@ public final class ChatHandler3 {
         if (styledText.contains("\n")
                 || (styledText.isEmpty() && (currentTicks <= chatScreenTicks + CHAT_SCREEN_TICK_DELAY))) {
             // This is a "chat screen"
+
+            if (LineData.NPC_DIALOGUE_PATTERN.matcher(message.getString().replace("\n", "").trim()).find()) {
+                // This is a NPC dialogue, but it is not a foreground one
+                postNpcDialogue(List.of(message), NpcDialogueType.NORMAL);
+                return;
+            }
+
             List<Component> lines = ComponentUtils.splitComponentInLines(message);
             if (currentTicks < chatScreenTicks + CHAT_SCREEN_TICK_DELAY) {
                 // We are collecting lines, so add to the current collection
@@ -307,8 +315,18 @@ public final class ChatHandler3 {
         // Normally § codes are stripped from the log; need this to be able to debug chat formatting
         RecipientType recipientType = getRecipientType(styledText);
 
-        if (recipientType == RecipientType.NPC) {
-            postNpcDialogue(List.of(message), NpcDialogueType.CONFIRMATIONLESS);
+
+        switch (recipientType) {
+            case INFO:
+                if (LineData.NPC_DIALOGUE_PATTERN.matcher(message.getString()).find()
+                || !message.getString().contains("[")) {
+                    // This is a NPC dialogue, but it is not a foreground one
+                    postNpcDialogue(List.of(message), NpcDialogueType.NORMAL);
+                }
+                break;
+            case NPC:
+                postNpcDialogue(List.of(message), NpcDialogueType.NORMAL);
+                break;
         }
     }
 
