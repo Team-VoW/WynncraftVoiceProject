@@ -46775,12 +46775,144 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:bossaltar-bottomlesspit-3", "stream": true}]
   },
-
   "bossaltar-bottomlesspit-4": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:bossaltar-bottomlesspit-4", "stream": true}]
+  },
+  "bossaltar-durumprotector-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-durumprotector-1", "stream": true}]
+  },
+  "bossaltar-haros-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-haros-1", "stream": true}]
+  },
+  "bossaltar-haros-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-haros-2", "stream": true}]
+  },
+  "bossaltar-haros-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-haros-3", "stream": true}]
+  },
+  "bossaltar-haros-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-haros-4", "stream": true}]
+  },
+  "bossaltar-rymekluke-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-rymekluke-1", "stream": true}]
+  },
+  "bossaltar-rymekluke-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-rymekluke-2", "stream": true}]
+  },
+  "bossaltar-thebeast-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-thebeast-1", "stream": true}]
+  },
+  "bossaltar-thebeast-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-thebeast-2", "stream": true}]
+  },
+  "bossaltar-tribezombiechieftain-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-tribezombiechieftain-1", "stream": true}]
+  },
+  "bossaltar-tribezombies-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-tribezombies-1", "stream": true}]
+  },
+  "bossaltar-legendtrainers-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-legendtrainers-1", "stream": true}]
+  },
+  "bossaltar-grandmagus-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-grandmagus-1", "stream": true}]
+  },
+  "bossaltar-skien-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-1", "stream": true}]
+  },
+  "bossaltar-skien-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-2", "stream": true}]
+  },
+  "bossaltar-skien-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-3", "stream": true}]
+  },
+  "bossaltar-skien-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-4", "stream": true}]
+  },
+  "bossaltar-skien-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-5", "stream": true}]
+  },
+  "bossaltar-skien-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-6", "stream": true}]
+  },
+  "bossaltar-skien-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-7", "stream": true}]
+  },
+  "bossaltar-skien-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-8", "stream": true}]
+  },
+  "bossaltar-skien-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-9", "stream": true}]
+  },
+  "bossaltar-skien-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-10", "stream": true}]
+  },
+  "bossaltar-skien-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-skien-11", "stream": true}]
+  },
+  "bossaltar-miningmechtera4m-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-miningmechtera4m-1", "stream": true}]
+  },
+  "bossaltar-adamastor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-adamastor-1", "stream": true}]
+  },
+  "bossaltar-adamastor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-adamastor-2", "stream": true}]
+  },
+  "bossaltar-oluxplaguedoctor-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-oluxplaguedoctor-1", "stream": true}]
+  },
+  "bossaltar-oluxplaguedoctor-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-oluxplaguedoctor-2", "stream": true}]
+  },
+  "bossaltar-bladeofshade-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-bladeofshade-1", "stream": true}]
+  },
+  "bossaltar-orangewybel-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-orangewybel-1", "stream": true}]
+  },
+  "bossaltar-orangewybel-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-orangewybel-2", "stream": true}]
+  },
+  "bossaltar-orangewybel-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-orangewybel-3", "stream": true}]
+  },
+  "bossaltar-orangewybel-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:bossaltar-orangewybel-4", "stream": true}]
   }
-
-
-
 }

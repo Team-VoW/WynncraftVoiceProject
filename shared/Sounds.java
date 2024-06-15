@@ -12014,6 +12014,41 @@ public class Sounds {
         s.addSound("There has to be something down here, you can feel it watching you...", "bossaltar-bottomlesspit-2", true);
         s.addSound("CAUGHT IT'S CAUGHT YOU IT'S CAUGHT YOU", "bossaltar-bottomlesspit-3", true);
         s.addSound("IT'S EVERYWHERE IT'S EVERYWHERE YOU LOOK", "bossaltar-bottomlesspit-4", true);
+        s.addSound("[1/1] Durum Protector: You will not be allowed to defile this sanctum of nature!", "bossaltar-durumprotector-1", true);
+        s.addSound("[1/4] Haros: Come on, we've nearly broken through to Saint's Row! Detonate it already!", "bossaltar-haros-1", true);
+        s.addSound("[2/4] Haros: Their east side is undefended. We will overrun the town! Charon will regret banishing us all!", "bossaltar-haros-2", true);
+        s.addSound("[3/4] Haros: WHAT! A human?! How did they find out about our plans?!", "bossaltar-haros-3", true);
+        s.addSound("[4/4] Haros: Soldiers! Destroy the interloper! We cannot let them keep us from our goal!", "bossaltar-haros-4", true);
+        s.addSound("[1/2] Rymek Luke: I hope you know yer trespassin' on private property. Either you get on out of here right now or draw.", "bossaltar-rymekluke-1", true);
+        s.addSound("[2/2] Rymek Luke: And if you draw... You ain't leaving this here canyon alive!", "bossaltar-rymekluke-2", true);
+        s.addSound("[1/2] The Beast: Escape... so close... need power...", "bossaltar-thebeast-1", true);
+        s.addSound("[2/2] The Beast: More power... you... TAKE YOURS!", "bossaltar-thebeast-2", true);
+        s.addSound("[1/2] Tribe Zombie Chieftain: Outsiders! Kill the outsiders!", "bossaltar-tribezombiechieftain-1", true);
+        s.addSound("[2/2] Tribe Zombies: Kill the outsiders!", "bossaltar-tribezombies-1", true);
+        s.addSound("[1/2] Legend Trainers: Aha, someone is arriving to test their might!", "bossaltar-legendtrainers-1", true);
+        s.addSound("[2/2] Grand Magus: If you wish to take up your place among the legends, prove yourself! Defeat us!", "bossaltar-grandmagus-1", true);
+        s.addSound("[2/12] Skien: ... I... Who... Where am... Who are...you?", "bossaltar-skien-1", false);
+        s.addSound("[3/12] Skien: You are... You are... I can feel magic from you... Their magic...", "bossaltar-skien-2", false);
+        s.addSound("[4/12] Skien: But you are human...", "bossaltar-skien-3", false);
+        s.addSound("[5/12] Skien: Traitor...", "bossaltar-skien-4", false);
+        s.addSound("[6/12] Skien: TRAITOR!!!", "bossaltar-skien-5", false);
+        s.addSound("[7/12] Skien: TRAITOR NO NO NO WE HAVE LOST WE ARE FALLEN I HAVE FAILED", "bossaltar-skien-6", false);
+        s.addSound("[8/12] Skien: TRAITOR WHY YOU VILLAGERS DAMNED MAGIC USERS NO NO NO I MUST KILL THE TRAITOR", "bossaltar-skien-7", false);
+        s.addSound("[9/12] Skien: MUST KILL THE TRAITOR", "bossaltar-skien-8", false);
+        s.addSound("[10/12] Skien: THE TRAITOR MUST DIE", "bossaltar-skien-9", false);
+        s.addSound("[11/12] Skien: DIE DIE DIE DIE", "bossaltar-skien-10", false);
+        s.addSound("[12/12] Skien: DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE", "bossaltar-skien-11", true);
+        s.addSound("[1/2] Mining Mech TERA-4M: INTRUDER DETECTED. OBJECTIVE: REMOVE FOREIGN PRESENCE FROM MINING OPERATION.", "bossaltar-miningmechtera4m-1", true);
+        s.addSound("[1/2] Adamastor: Why must you humans always try to intervene in matters that aren't your own?", "bossaltar-adamastor-1", true);
+        s.addSound("[2/2] Adamastor: Leave, now... Or we will bring your death. And we will ensure that there will be no one to bring you back, either.", "bossaltar-adamastor-2", true);
+        s.addSound("[1/2] Olux Plague Doctor: Hm? Aha, so the noises I heard were an uninvited guest rummaging about my laboratory...", "bossaltar-oluxplaguedoctor-1", true);
+        s.addSound("[2/2] Olux Plague Doctor: Well, I do suppose it would be rude to hide the fruits of my study from you. Perhaps you will even provide just what I need to complete my next experiment!", "bossaltar-oluxplaguedoctor-2", true);
+        s.addSound("[1/1] Blade of Shade: Aha...you'll be a very interesting quarry to catch, human...", "bossaltar-bladeofshade-1", true);
+        s.addSound("[1/4] ????: Oh... Looks like you found me out. I had been expecting you not to find this place. Ah awell!", "bossaltar-orangewybel-1", true);
+        s.addSound("[2/4] ????: You know, I'll give you a chance to leave. Just turn around. We can just forget this ever happened.", "bossaltar-orangewybel-2", true);
+        s.addSound("[3/4] ????: If you come into my room, I won't hesitate to kill you. Are you really gonna throw away your life just to see me?", "bossaltar-orangewybel-3", true);
+        s.addSound("[4/4] ????: This is your last chance, I'm telling you. Turn right back around the way you came, or I can't be held responsible for what happens next.", "bossaltar-orangewybel-4", true);
+
 
 
     }
