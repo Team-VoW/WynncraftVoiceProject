@@ -3948,6 +3948,39 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-24", "stream": true}]
   },
+  "thesewersofragni-jenprest-25": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-25", "stream": true}]
+  },
+  "thesewersofragni-jenprest-26": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-26", "stream": true}]
+  },
+  "thesewersofragni-jenprest-27": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-27", "stream": true}]
+  },
+  "thesewersofragni-jenprest-28": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-28", "stream": true}]
+  },
+  "thesewersofragni-jenprest-29": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-29", "stream": true}]
+  },
+  "thesewersofragni-jenprest-30": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-30", "stream": true}]
+  },
+  "thesewersofragni-jenprest-31": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-31", "stream": true}]
+  },
+  "thesewersofragni-jenprest-32": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:thesewersofragni-jenprest-32", "stream": true}]
+  },
+
 
   "decriptsewers-witherehead-1": {
     "category": "voice",
