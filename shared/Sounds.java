@@ -845,19 +845,27 @@ public class Sounds {
 
         //Maltics Well
         s.addSound("[1/4] Rynend: Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.", "malticwell-rynend-1", false);
-        s.addSound("[1/1] Child: Help me! Someone! The witch is being mean!!", "malticwell-child-1", true);
-        s.addSound("[1/1] Witch: I wondered when they'd send the famous Ragni guards. You'll never get me!", "malticwell-witch-1", true);
-        s.addSound("[1/2] Witch: I don't know why they call me a witch. Magic is everywhere, you know. This one's father made fun of my looks, so I'll turn his son into a Grook!", "malticwell-witch-2", true);
-        s.addSound("[1/2] Witch: Oh...drat. I never could get that spell right. Well, now you'll have to guess the way, um, you fool! Turn back now, for, uh...", "malticwell-witch-3", true);
-        s.addSound("[1/4] Witch: Oh...didn't think that'd fool you. You know, I'm really not all that good at magic. I just like wearing pointy hats, and have warts.", "malticwell-witch-4", true);
-        s.addSound("[2/4] Witch: Maybe if the people of this village weren't so mean to me, I wouldn't have been forced to live here.", "malticwell-witch-5", true);
-        s.addSound("[3/4] Witch: I know it's a crime, but his father and the rest of the villagers here hunt me like I'm a rabid dog!", "malticwell-witch-6", true);
-        s.addSound("[4/4] Witch: I wasn't really going to turn this boy into a Grook. I doubt I could even make him grow one feather. I mean, watch...", "malticwell-witch-7", false);
-        s.addSound("[1/1] Child: Thank you for saving me from the witch... She was nice at first and made me cookies, but I want to go home now. ", "malticwell-child-2", false);
-        s.addSound("[1/3] Rynend: Oh my son! What happened down there? Erh, not a witch, you say?", "malticwell-rynend-2", false);
-        s.addSound("[1/1] Rynend: Come back to me when you're level 16, we need a strong hero to help our town!", "malticwell-rynend-3", false);
-        s.addSound("[1/1] Rynend: Please save my son! Bring me proof of the dead witch too.", "malticwell-rynend-4", false);
-        s.addSound("[1/1] Rynend: I cannot thank you enough for your help!", "malticwell-rynend-5", false);
+        s.addSound("[2/4] Rynend: Last week, an evil witch found refuge in our old well. Normally this wouldn't be a problem...", "malticwell-rynend-2", false);
+        s.addSound("[3/4] Rynend: But she's lured my child into the well! My only child! He was born in Wynn, that makes him a Wynn citizen!", "malticwell-rynend-3", false);
+        s.addSound("[4/4] Rynend: Please do something! I know Maltic isn't of importance to you humans, being a Villager settlement, but...my son!", "malticwell-rynend-4", false);
+        s.addSound("[1/1] Child: Help me! Someone! The witch is being mean!!", "malticwell-child-1", false);
+        s.addSound("[1/1] Witch: I wondered when they'd send the famous Ragni guards. You'll never get me!", "malticwell-witch-1", false);
+        s.addSound("[1/2] Witch: I don't know why they call me a witch. Magic is everywhere, you know. This one's father made fun of my looks, so I'll turn his son into a Grook!", "malticwell-witch-2", false);
+        s.addSound("[2/2] Witch: Treat me like a witch, I'll act like one, darn it! You'll have to pass through my dastardly magical defenses to find me!", "malticwell-witch-3", false);
+        s.addSound("[1/2] Witch: Oh...drat. I never could get that spell right. Well, now you'll have to guess the way, um, you fool! Turn back now, for, uh...", "malticwell-witch-4", false);
+        s.addSound("[2/2] Witch: ...for if you choose the wrong door, you'll be sent to a beast, a beast most foul! The, um...the Beast-What-Eats-Ragni-Guards-For-Brunch!! Totally!", "malticwell-witch-5", false);
+        s.addSound("[1/4] Witch: Oh...didn't think that'd fool you. You know, I'm really not all that good at magic. I just like wearing pointy hats, and have warts.", "malticwell-witch-6", false);
+        s.addSound("[2/4] Witch: Maybe if the people of this village weren't so mean to me, I wouldn't have been forced to live here.", "malticwell-witch-7", false);
+        s.addSound("[3/4] Witch: I know it's a crime, but his father and the rest of the villagers here hunt me like I'm a rabid dog!", "malticwell-witch-8", false);
+        s.addSound("[4/4] Witch: I wasn't really going to turn this boy into a Grook. I doubt I could even make him grow one feather. I mean, watch...", "malticwell-witch-9", false);
+        s.addSound("[1/1] Child: Thank you for saving me from the witch... She was nice at first and made me cookies, but I want to go home now.", "malticwell-child-2", false);
+        s.addSound("[1/3] Rynend: Oh my son! What happened down there? Erh, not a witch, you say?", "malticwell-rynend-5", false);
+        s.addSound("[2/3] Rynend: Preposterous! She wore a hat and had warts! I guess it's too late now... Thank you so much for your help.", "malticwell-rynend-6", false);
+        s.addSound("[3/3] Rynend: Please take this [1 Maltic Recommendation Letter], I am sure it will help you someday!", "malticwell-rynend-7", false);
+        s.addSound("[1/1] Rynend: Come back to me when you're level 16, we need a strong hero to help our town!", "malticwell-rynend-8", false);
+        s.addSound("[1/1] Rynend: Please save my son! Bring me proof of the dead witch too.", "malticwell-rynend-9", false);
+        s.addSound("[1/1] Rynend: I cannot thank you enough for your help!", "malticwell-rynend-10", false);
+
 
         //Lava Springs
         s.addSound("[1/6] Colonel Gailard: Oh, good, good! I bet'cha you're a Ragni soldier, aren't ya? Listen up, soldier! I've got a task here that 'ye can help out with", "lavasprings-colonelgailard-1", false);
@@ -5090,7 +5098,6 @@ public class Sounds {
         s.addSound("[3/4] Cinfras: Thank you for your work! I know it must have been tough getting that out of him.", "havenantiquity-cinfras-9", false);
         s.addSound("[4/4] Cinfras: Now that this mystery is solved I will be returning home. I hope we will meet again!", "havenantiquity-cinfras-10", false);
 
-
         //Forbidden Prison
         s.addSound("[1/4] Merchant: Hey, hey, humie! Yeah, I'm talkin to ya here..", "forbiddenprison-merchant-1", false);
         s.addSound("[1/6] ???: OI! Wake up, you damned miscreant!", "forbiddenprison-prisonguard-1", true);
@@ -5591,7 +5598,6 @@ public class Sounds {
         s.addSound("[2/4] Old Man: I... N-No...", "hollowserenity-oldman-38", false);
         s.addSound("[3/4] Old Man: G-Grook, t-this m-must be a nightmare, it h-has to be... I-I can’t... n-no...", "hollowserenity-oldman-39", false);
         s.addSound("[4/4] Old Man: *hic* T-This... c-can't be happening. I-It can't... I-It just c-can't...", "hollowserenity-oldman-40", false);
-
 
         //Murder Mystery
         s.addSound("[1/2] Detective Lorias: Stand back! This is a crime scene, under my authority. I cannot let you inside, not while you're this inexperienced, at least.", "murdermystery-captainlorias-1", false);
@@ -6252,7 +6258,6 @@ public class Sounds {
         s.addSound("[3/3] Batelu: If you are looking for Bob's corpse, it's under the stairs in the icy chamber. Talk to me when you are level 74, I've got some work for you.", "reincarnation-batelu-24", false);
         s.addSound("[1/1] Batelu: You can't enter there yet!", "reincarnation-batelu-25", false);
 
-
         //Acquiring credentials
         s.addSound("[1/6] Officer: I'm sorry sir, but I can't just give you a new passport... You'd need approval from-...", "acquiringcredentials-officer-1", false);
         s.addSound("[2/6] Doan: But sir, my passport was stolen! I have a flight to Detlas in under 30 minutes. I really need one, quick... ", "acquiringcredentials-doan-1", false);
@@ -6426,7 +6431,6 @@ public class Sounds {
         s.addSound("[5/5] Dodegar: As promised! Here you go! Always happy to practice the art of weapon creation.", "ultimateweapon-dodegar-34", false);
         s.addSound("[1/1] Dodegar: This weapon will definitely be something put in the history books!", "ultimateweapon-dodegar-35", false);
         s.addSound("[2/2] Dodegar: I'm sure of it!", "ultimateweapon-dodegar-36", false);
-
 
         //Flight in distress
         s.addSound("[1/4] Airship Clerk: Good day, soldier! Will you be flying with us today?", "flightindistress-airshipclerk-1", false);

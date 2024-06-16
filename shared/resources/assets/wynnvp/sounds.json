@@ -705,6 +705,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:malticwell-rynend-1", "stream": true}]
   },
+  "malticwell-rynend-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-2", "stream": true}]
+  },
+  "malticwell-rynend-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-3", "stream": true}]
+  },
+  "malticwell-rynend-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-4", "stream": true}]
+  },
   "malticwell-child-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:malticwell-child-1", "stream": true}]
@@ -737,26 +749,43 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:malticwell-witch-7", "stream": true}]
   },
+  "malticwell-witch-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-witch-8", "stream": true}]
+  },
+  "malticwell-witch-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-witch-9", "stream": true}]
+  },
   "malticwell-child-2": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:malticwell-child-2", "stream": true}]
-  },
-  "malticwell-rynend-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwell-rynend-2", "stream": true}]
-  },
-  "malticwell-rynend-3": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwell-rynend-3", "stream": true}]
-  },
-  "malticwell-rynend-4": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:malticwell-rynend-4", "stream": true}]
   },
   "malticwell-rynend-5": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:malticwell-rynend-5", "stream": true}]
   },
+  "malticwell-rynend-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-6", "stream": true}]
+  },
+  "malticwell-rynend-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-7", "stream": true}]
+  },
+  "malticwell-rynend-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-8", "stream": true}]
+  },
+  "malticwell-rynend-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-9", "stream": true}]
+  },
+  "malticwell-rynend-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:malticwell-rynend-10", "stream": true}]
+  },
+
 
 
 
