@@ -3555,16 +3555,18 @@ public class Sounds {
         s.addSound("I- I see the end of this... Tunnel. There's- Wait...", "realmoflight5-lari-85", true);
         s.addSound("By the light what is that thing?! S-Stay away f-", "realmoflight5-lari-86", true);
         s.addSound("[3/3] Lari: Though... I feel something on the other side. It seems incredibly... Foul. I can't tell what it is, let's be careful.", "realmoflight5-lari-87", false);
-        s.addSound("1/10orphionmypulseyourbrillianceisblindingyourpowersomuchmorethaniexpected", "nexusoflight-orphion-1", true);
-        s.addSound("2/10orphionthedarkaberrationitbroughtshadowstomeandfrommetomylandthentoyours", "nexusoflight-orphion-2", true);
-        s.addSound("3/10orphiongavelsdeclinewillendwithmyfreedomslowlyiamstillleftdimbuteverbrightening", "nexusoflight-orphion-3", true);
-        s.addSound("4/10orphionitsbroodaresterileasthedarkburnsawaysotoowilltheyandthelandwillrecover", "nexusoflight-orphion-4", true);
-        s.addSound("5/10orphionyetaproblembeyondmypaleyetpersistsdawnhasbrokenbutintimeanotherduskwillarrive", "nexusoflight-orphion-5", true);
-        s.addSound("6/10orphionlariacharasheseekstoilluminatethedarkyoumustshineyourlightasshebutelsewhere", "nexusoflight-orphion-6", true);
-        s.addSound("7/10orphionthedarkhaspowerunknownitdidnotbeforethroughthispoweritsshadowsreachedtome", "nexusoflight-orphion-7", true);
-        s.addSound("[8/10] Orphion: The delicate stasis was disrupted... And it cannot be blamed solely on the dark itself", "nexusoflight-orphion-8", true);
-        s.addSound("9/10orphionrestnowmypulseandprepareforthereisanotherforcewhoyoumustbringtopeace", "nexusoflight-orphion-9", true);
-        s.addSound("10/10orphion", "nexusoflight-orphion-10", true);
+        s.addSound("[1/10] Orphion: My pulse... Your brilliance is blinding- Your power so much more than I expected.", "nexusoflight-orphion-1", true);
+        s.addSound("[2/10] Orphion: The dark aberration... It brought shadows to me- And from me, to my land, then to yours.", "nexusoflight-orphion-2", true);
+        s.addSound("[3/10] Orphion: Gavel's decline will end, with my freedom... Slowly. I am still left dim, but ever brightening.", "nexusoflight-orphion-3", true);
+        s.addSound("[4/10] Orphion: Its brood are sterile. As the dark burns away, so too will they- And the land will recover.", "nexusoflight-orphion-4", true);
+        s.addSound("[5/10] Orphion: Yet... A problem beyond my pale yet persists. Dawn has broken, but in time another dusk will arrive.", "nexusoflight-orphion-5", true);
+        s.addSound("[6/10] Orphion: Lari... Achara. She seeks to illuminate the dark. You must shine your light as she...but elsewhere.", "nexusoflight-orphion-6", true);
+        s.addSound("[7/10] Orphion: The dark has power unknown- It did not before. Through this power, its shadows reached to me.", "nexusoflight-orphion-7", true);
+        s.addSound("[8/10] Orphion: The delicate stasis was disrupted... And it cannot be blamed solely on the dark itself.", "nexusoflight-orphion-8", true);
+        s.addSound("[9/10] Orphion: Rest now, my pulse, and prepare, for there is another force who you must bring to peace.", "nexusoflight-orphion-9", true);
+        s.addSound("[10/10] Orphion: ⓢⓗⓔ ⓜⓤⓢⓣ ⓑⓔ ⓢⓝⓤⓕⓕⓔⓓ ⓞⓤⓣ. ⓗⓔⓡ ⓘⓝⓕⓛⓤⓔⓝⓒⓔ ⓕⓔⓔⓓⓢ ⓣⓗⓘⓢ ⓢⓔⓝⓢⓔⓛⓔⓢⓢ ⓦⓐⓡ.", "nexusoflight-orphion-10", true);
+        s.addSound("[1/2] Orphion: Enough. My gratefulness does not exceed my patience. Let this act as a warning, my pulse.", "nexusoflight-orphion-11", false);
+
         s.addSound("[1/2] Orphion: Enough. My gratefulness does not exceed my patience. Let this act as a warning, my pulse.", "nexusoflight-orphion-11", false);
 
         //Shadow of the beast
