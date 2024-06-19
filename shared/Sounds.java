@@ -3567,8 +3567,6 @@ public class Sounds {
         s.addSound("[10/10] Orphion: ⓢⓗⓔ ⓜⓤⓢⓣ ⓑⓔ ⓢⓝⓤⓕⓕⓔⓓ ⓞⓤⓣ. ⓗⓔⓡ ⓘⓝⓕⓛⓤⓔⓝⓒⓔ ⓕⓔⓔⓓⓢ ⓣⓗⓘⓢ ⓢⓔⓝⓢⓔⓛⓔⓢⓢ ⓦⓐⓡ.", "nexusoflight-orphion-10", true);
         s.addSound("[1/2] Orphion: Enough. My gratefulness does not exceed my patience. Let this act as a warning, my pulse.", "nexusoflight-orphion-11", false);
 
-        s.addSound("[1/2] Orphion: Enough. My gratefulness does not exceed my patience. Let this act as a warning, my pulse.", "nexusoflight-orphion-11", false);
-
         //Shadow of the beast
         s.addSound("[1/7] Dereg: Oh, you look tough. You must be one of those humans I keep hearing about, right? People talk about your kind all the time.", "shadowofthebeast-dereg-1", false);
         s.addSound("[2/7] Dereg: You know, that you're all scrappers. Tough as nails, and willing to kill all sorts of beasts, you know?", "shadowofthebeast-dereg-2", false);
@@ -5659,39 +5657,65 @@ public class Sounds {
         s.addSound("[1/1] Child: Hi! I'm digging a hole in my garden, just like Mr. Rohem did last night!", "murdermystery-child-1", false);
 
         //Aldoreis Secret part 1
-        s.addSound("[1/3] Elf Guard: Halt, traveler! Entry to Aldorei Town is forbidden at present.", "aldoreisvalleypart1-elfguard-1", false);
-        s.addSound("[1/4] Damys: An outsider in our midst? Exciting to see. I have wished to share our magic with new people for a long while.", "aldoreisvalleypart1-damys-1", true);
-        s.addSound("[2/4] Damys: However, I am...well, rather hungry. And I must tend to my garden here for the time being.", "aldoreisvalleypart1-damys-2", true);
-        s.addSound("[3/4] Damys: Have you heard the saying “You scratch my ears, I scratch yours”? People must help one another..", "aldoreisvalleypart1-damys-3", true);
-        s.addSound("[4/4] Damys: If you would be so kind as to bring me a loaf of fresh bread you may take my enchanted bucket. ", "aldoreisvalleypart1-damys-4", true);
-        s.addSound("[1/3] Vaenr: This is utterly inane. A full lockdown, over a petty theft... Are we not to help one another? To thieve is unnecessary.", "aldoreisvalleypart1-vaenr-1", false);
-        s.addSound("[2/3] Sylvar: The thieving is not the reason, from what I have heard. It is that the grove was jealously hidden due to the potency of the plants there.", "aldoreisvalleypart1-sylvar-1", false);
-        s.addSound("[3/3] Sylvar: Tattytale, Iridesca, Subtraxerim... The Light only knows what else. It is impossible to reach without unusual means- And that is cause for grave concern.", "aldoreisvalleypart1-sylvar-2", false);
-        s.addSound("[1/2] Damys: I saw you toil to bake this yourself. Frankly, that is above and beyond what I expected, so here is your exchange.", "aldoreisvalleypart1-damys-5", true);
-        s.addSound("[2/2] Damys: If you require help in the future with anything, do not be afraid to ask. If you put such effort for me, I shall give you the same.", "aldoreisvalleypart1-damys-6", true);
-        s.addSound("[1/1] Guard: Halt! This area is strictly off limits, especially for an outsider. Turn back now! ", "aldoreisvalleypart1-guard-1", true);
-        s.addSound("[1/7] Damys: Aha, the outsider returns. Is there something troubling you?", "aldoreisvalleypart1-damys-7", true);
-        s.addSound("[2/7] Damys: ...mmm. Unfortunate, that. I cannot help with this.", "aldoreisvalleypart1-damys-8", true);
-        s.addSound("[3/7] Damys: It is not a matter of secrecy or morals- I simply do not know what that leaf is from or what it may be capable of.", "aldoreisvalleypart1-damys-9", true);
-        s.addSound("[4/7] Damys: I am no botanist- Simply a gardener. The mistake is understandable, if regrettable. ", "aldoreisvalleypart1-damys-10", true);
-        s.addSound("[5/7] Damys: However, I was taught under a much more storied botanist who may have the answers you seek.", "aldoreisvalleypart1-damys-11", true);
-        s.addSound("[6/7] Damys: Her name is Fiona- Her home is across the valley from here. Take the bridge across. She often stays inside studying. ", "aldoreisvalleypart1-damys-12", true);
-        s.addSound("[7/7] Damys: She has forgotten more than I will ever hope to know about plants. If she cannot help you, I fear none can.", "aldoreisvalleypart1-damys-13", true);
-        s.addSound("[1/7] Fiona: This is outrageous! To think one of our own would stoop to such thievery and destruction!", "aldoreisvalleypart1-fiona-1", false);
-        s.addSound("[1/6] Fiona: ...disgusting. I will have to hang the pages to dry later, but first, our exchange.", "aldoreisvalleypart1-fiona-2", false);
-        s.addSound("[1/3] Criminal: ..you! You have been seeking me! I have seen you tracing my footsteps...", "aldoreisvalleypart1-korben-1", true);
-        s.addSound("[2/3] Criminal: I apologize for this... But what I do is a necessity!", "aldoreisvalleypart1-korben-2", true);
-        s.addSound("[3/3] Criminal: I beg you, do not pursue me any further!", "aldoreisvalleypart1-korben-3", true);
-        s.addSound("[1/4] Criminal: Outsider, I realize the circumstances appear damning, but you must stop!", "aldoreisvalleypart1-korben-4", true);
-        s.addSound("[2/4] Criminal: What I have done is needed, and if there were another path I would have taken it over this.", "aldoreisvalleypart1-korben-5", true);
-        s.addSound("[3/4] Criminal: I must take my concoction to where it is needed!", "aldoreisvalleypart1-korben-6", true);
-        s.addSound("[4/4] Criminal: See me as I truly am- My name is Korben, and I musn’t be delayed further!", "aldoreisvalleypart1-korben-7", true);
-        s.addSound("[1/1] Korben: ⓖ ⓡ ⓞ ⓦ !", "aldoreisvalleypart1-korben-8", true);
-        s.addSound("[1/2] Korben: A damnable pace you have... I cannot let you stop me for a moment longer!", "aldoreisvalleypart1-korben-9", true);
-        s.addSound("[2/2] Korben: It will be done soon, but I must reach my destination first!", "aldoreisvalleypart1-korben-10", true);
-        s.addSound("[1/9] Korben: Finally... I apologize for the delay. I needed to take strong measures to get this to you.", "aldoreisvalleypart1-korben-11", false);
-        s.addSound("[1/4] Korben: ...you... You are... You would lie to the guards and say I perished in the chase? You will keep my identity secret?", "aldoreisvalleypart1-korben-12", false);
-        s.addSound("[1/3] Elf Guard: Traveler, I must remind you- The doors shall remain shut until the criminal has been found.", "aldoreisvalleypart1-elfguard-2", false);
+        s.addSound("[1/3] Elf Guard: Halt, traveler! Entry to Aldorei Town is forbidden at present.", "aldoreissecretpart1-elfguard-1", false);
+        s.addSound("[2/3] Elf Guard: There is a dangerous criminal on the loose in this valley.", "aldoreissecretpart1-elfguard-2", false);
+        s.addSound("[3/3] Elf Guard: These doors shall remain closed until the criminal is captured.", "aldoreissecretpart1-elfguard-3", false);
+        s.addSound("[1/4] Damys: An outsider in our midst? Exciting to see. I have wished to share our magic with new people for a long while.", "aldoreissecretpart1-damys-1", false);
+        s.addSound("[2/4] Damys: However, I am...well, rather hungry. And I must tend to my garden here for the time being.", "aldoreissecretpart1-damys-2", false);
+        s.addSound("[3/4] Damys: Have you heard the saying \"\"You scratch my ears, I scratch yours\"\"? People must help one another.", "aldoreissecretpart1-damys-3", false);
+        s.addSound("[4/4] Damys: If you would be so kind as to bring me a loaf of fresh bread you may take my enchanted bucket.", "aldoreissecretpart1-damys-4", false);
+        s.addSound("[1/3] Vaenr: This is utterly inane. A full lockdown, over a petty theft... Are we not to help one another? To thieve is unnecessary.", "aldoreissecretpart1-vaenr-1", false);
+        s.addSound("[2/3] Sylvar: The thieving is not the reason, from what I have heard. It is that the grove was jealously hidden due to the potency of the plants there.", "aldoreissecretpart1-sylvar-1", false);
+        s.addSound("[3/3] Sylvar: Tattytale, Iridesca, Subtraxerim... The Light only knows what else. It is impossible to reach without unusual means- And that is cause for grave concern.", "aldoreissecretpart1-sylvar-2", false);
+        s.addSound("[1/2] Damys: I saw you toil to bake this yourself. Frankly, that is above and beyond what I expected, so here is your exchange.", "aldoreissecretpart1-damys-5", false);
+        s.addSound("[2/2] Damys: If you require help in the future with anything, do not be afraid to ask. If you put such effort for me, I shall give you the same.", "aldoreissecretpart1-damys-6", false);
+        s.addSound("[1/1] Guard: Halt! This area is strictly off limits, especially for an outsider. Turn back now!", "aldoreissecretpart1-guard-1", false);
+        s.addSound("[1/7] Damys: Aha, the outsider returns. Is there something troubling you?", "aldoreissecretpart1-damys-7", false);
+        s.addSound("[2/7] Damys: ...mmm. Unfortunate, that. I cannot help with this.", "aldoreissecretpart1-damys-8", false);
+        s.addSound("[3/7] Damys: It is not a matter of secrecy or morals- I simply do not know what that leaf is from or what it may be capable of.", "aldoreissecretpart1-damys-9", false);
+        s.addSound("[4/7] Damys: I am no botanist- Simply a gardener. The mistake is understandable, if regrettable.", "aldoreissecretpart1-damys-10", false);
+        s.addSound("[5/7] Damys: However, I was taught under a much more storied botanist who may have the answers you seek.", "aldoreissecretpart1-damys-11", false);
+        s.addSound("[6/7] Damys: Her name is Fiona- Her home is across the valley from here. Take the bridge across. She often stays inside studying.", "aldoreissecretpart1-damys-12", false);
+        s.addSound("[7/7] Damys: She has forgotten more than I will ever hope to know about plants. If she cannot help you, I fear none can.", "aldoreissecretpart1-damys-13", false);
+        s.addSound("[1/7] Fiona: This is outrageous! To think one of our own would stoop to such thievery and destruction!", "aldoreissecretpart1-fiona-1", false);
+        s.addSound("[2/7] Fiona: Outsider, this is not the time to be asking me anything. My home has been ransacked!", "aldoreissecretpart1-fiona-2", false);
+        s.addSound("[3/7] Fiona: Mm? Damys sent you... You have leaves of Iridesca? Hm... Then perhaps we may be able to help one another.", "aldoreissecretpart1-fiona-3", false);
+        s.addSound("[4/7] Fiona: They tore through my shelves and furniture searching, and scanned the pages as fervently once they found it.", "aldoreissecretpart1-fiona-4", false);
+        s.addSound("[5/7] Fiona: I assume when the desired information was found, they went into my garden, threw the book into the carnivorous plant and stormed off towards the lab.", "aldoreissecretpart1-fiona-5", false);
+        s.addSound("[6/7] Fiona: I have researched the Iridesca bloom, and many other plants, for a long time. All my knowledge is stored in that book!", "aldoreissecretpart1-fiona-6", false);
+        s.addSound("[7/7] Fiona: Retrieve it for me, and I will share my knowledge with you.", "aldoreissecretpart1-fiona-7", false);
+        s.addSound("[1/6] Fiona: ...disgusting. I will have to hang the pages to dry later, but first, our exchange.", "aldoreissecretpart1-fiona-8", false);
+        s.addSound("[2/6] Fiona: Hmm... Herbstzeitlose... Death Whistle, no...where is Iridesca, again...?", "aldoreissecretpart1-fiona-9", false);
+        s.addSound("[3/6] Fiona: Aha, there it is. The pages were sticking together. Iridesca leaves are potent in various ways and are very versatile in their use.", "aldoreissecretpart1-fiona-10", false);
+        s.addSound("[4/6] Fiona: They have an incredibly broad range of usage, from soothing joint pain or curing sickness to emetic effect and lethal poison, depending on what it is brewed with.", "aldoreissecretpart1-fiona-11", false);
+        s.addSound("[5/6] Fiona: Mm? The book thief also possesses Iridesca...? This... This is very troubling. There are few notes aside from mine on how to heal Iridesca poisoning.", "aldoreissecretpart1-fiona-12", false);
+        s.addSound("[6/6] Fiona: They were headed in the direction of the potionmaker's guild. If they intend something wicked...", "aldoreissecretpart1-fiona-13", false);
+        s.addSound("[1/3] Criminal: ..you! You have been seeking me! I have seen you tracing my footsteps...", "aldoreissecretpart1-korben-1", false);
+        s.addSound("[2/3] Criminal: I apologize for this... But what I do is a necessity!", "aldoreissecretpart1-korben-2", false);
+        s.addSound("[3/3] Criminal: I beg you, do not pursue me any further!", "aldoreissecretpart1-korben-3", false);
+        s.addSound("[1/4] Criminal: Outsider, I realize the circumstances appear damning, but you must stop!", "aldoreissecretpart1-korben-4", false);
+        s.addSound("[2/4] Criminal: What I have done is needed, and if there were another path I would have taken it over this.", "aldoreissecretpart1-korben-5", false);
+        s.addSound("[3/4] Criminal: I must take my concoction to where it is needed!", "aldoreissecretpart1-korben-6", false);
+        s.addSound("[4/4] Criminal: See me as I truly am- My name is Korben, and I musn't be delayed further!", "aldoreissecretpart1-korben-7", false);
+        s.addSound("[1/1] Korben: ⓖ ⓡ ⓞ ⓦ !", "aldoreissecretpart1-korben-8", false);
+        s.addSound("[1/2] Korben: A damnable pace you have... I cannot let you stop me for a moment longer!", "aldoreissecretpart1-korben-9", false);
+        s.addSound("[2/2] Korben: It will be done soon, but I must reach my destination first!", "aldoreissecretpart1-korben-10", false);
+        s.addSound("[1/9] Korben: Finally... I apologize for the delay. I needed to take strong measures to get this to you.", "aldoreissecretpart1-korben-11", false);
+        s.addSound("[2/9] Korben: Here, here... Drink, father. It will clear your throat.", "aldoreissecretpart1-korben-12", false);
+        s.addSound("[3/9] Korben: ...there. It is done. Now... Outsider... Hear me, please.", "aldoreissecretpart1-korben-13", false);
+        s.addSound("[4/9] Korben: I am aware of exactly what I have done. Shredded Fiona's research, disturbed the forbidden gardens, unsettled the hearts of many...", "aldoreissecretpart1-korben-14", false);
+        s.addSound("[5/9] Korben: My father fell ill. A trek to Efilim's borders left him stricken with Kerasot poisoning. He was near death...", "aldoreissecretpart1-korben-15", false);
+        s.addSound("[6/9] Korben: Efilim's village is one of outcasts- to visit is, stupidly, forbidden. He would have been exiled, and that would have ensured his death with his affliction.", "aldoreissecretpart1-korben-16", false);
+        s.addSound("[7/9] Korben: Desperation causes one to do strange things. I thought only of his safety- I cared little about anything else.", "aldoreissecretpart1-korben-17", false);
+        s.addSound("[8/9] Korben: Even now I am simply relieved for his safety. If you must turn me in, I understand- I have already done what I set out to do.", "aldoreissecretpart1-korben-18", false);
+        s.addSound("[9/9] Korben: Though I wish to remain free, whether you choose to report my activities or not does not matter to me now.", "aldoreissecretpart1-korben-19", false);
+        s.addSound("[1/4] Korben: ...you... You are... You would lie to the guards and say I perished in the chase? You will keep my identity secret?", "aldoreissecretpart1-korben-20", false);
+        s.addSound("[2/4] Korben: Outsider... You show generosity akin to my father. He passed his Sol Medallion onto me to continue his legacy...", "aldoreissecretpart1-korben-21", false);
+        s.addSound("[3/4] Korben: ...after what I have done, I do not deserve it. You take it, instead. It is in sufficiently worthy hands, I believe.", "aldoreissecretpart1-korben-22", false);
+        s.addSound("[4/4] Korben: I shall beg the Light to shine upon you for the rest of your days. A thousand thanks to you.", "aldoreissecretpart1-korben-23", false);
+        s.addSound("[1/3] Elf Guard: Traveler, I must remind you- The doors shall remain shut until the criminal has been found.", "aldoreissecretpart1-elfguard-4", false);
+        s.addSound("[2/3] Elf Guard: ...ah. You have found him, then. The name is Korben... Understood. We shall interrogate him for his actions.", "aldoreissecretpart1-elfguard-5", false);
+        s.addSound("[3/3] Elf Guard: This being the case... You may come and go as you wish to Aldorei Town. We shall re-open the doors.", "aldoreissecretpart1-elfguard-6", false);
     }
     private static void register2(SoundsHandler s) {
         //Aldoreis secret part 2
