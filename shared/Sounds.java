@@ -7984,12 +7984,42 @@ public class Sounds {
         s.addSound("[2/3] Chief Clight: We just gotta be thankful that no one died. Forget about the coal, this is what matters most. If only...", "canarycalls-clight-60", false);
         s.addSound("[3/3] Chief Clight: ...Never mind. Once the elevator is repaired, you will be able to access the mine.", "canarycalls-clight-61", false);
 
-        //Desperate Metal
-        s.addSound("[1/7] Nettik: What are these? I have nothing to do with them!", "desperatemetal-nettik-1", false);
-        s.addSound("[1/1] Nettik: I'm sorry it ended up like this, you should've just ignored that old man.", "desperatemetal-nettik-2", true);
+        //Desperate metal
         s.addSound("[1/7] Phinas: Oh my...", "desperatemetal-phinas-1", false);
-        s.addSound("[1/6] Phinas: You Wynn folk sure know your fights.", "desperatemetal-phinas-2", false);
-        s.addSound("[1/6] Phinas: Did you find the source of those odd handmade mechs?", "desperatemetal-phinas-3", false);
+        s.addSound("[2/7] Phinas: LOOK AT MY HOUSE!", "desperatemetal-phinas-2", false);
+        s.addSound("[3/7] Phinas: A bunch of stupid mechs came here and just started ransacking!", "desperatemetal-phinas-3", false);
+        s.addSound("[4/7] Phinas: Looks like a bunch of despermechs. That's what we call junk mechs, trying to survive.", "desperatemetal-phinas-4", false);
+        s.addSound("[5/7] Phinas: I count three different mech marks. Looks like they split up once they got their parts.", "desperatemetal-phinas-5", false);
+        s.addSound("[6/7] Phinas: You got to help me here, I'm no warrior. Look they've dropped crates on their escape. Follow them and bring me back evidence that you destroyed them and I shall reward you.", "desperatemetal-phinas-6", false);
+        s.addSound("[7/7] Phinas: Three trails, three thieving despermechs. Be careful, they aren't to be underestimated.", "desperatemetal-phinas-7", false);
+        s.addSound("[1/6] Phinas: You Wynn folk sure know your fights.", "desperatemetal-phinas-8", false);
+        s.addSound("[2/6] Phinas: You found all three? Let's take a look. Hmm....", "desperatemetal-phinas-9", false);
+        s.addSound("[3/6] Phinas: Wait. These aren't Despermechs.. The factory fell over two years ago. These are brand new. Handmade.", "desperatemetal-phinas-10", false);
+        s.addSound("[4/6] Phinas: Let's take a closer look.", "desperatemetal-phinas-11", false);
+        s.addSound("[5/6] Phinas: Would you look at that! Their code!", "desperatemetal-phinas-12", false);
+        s.addSound("[6/6] Phinas: Here, have them back. Take a close look at the names of these parts.", "desperatemetal-phinas-13", false);
+        s.addSound("[1/6] Phinas: Did you find the source of those odd handmade mechs?", "desperatemetal-phinas-14", false);
+        s.addSound("[2/6] Phinas: Nettik? The Light House owner? It's not overly surprising.", "desperatemetal-phinas-15", false);
+        s.addSound("[3/6] Phinas: She always did complain about the mech ban.", "desperatemetal-phinas-16", false);
+        s.addSound("[4/6] Phinas: You see, many of the Corkian people rely on their machines. Have done for years.", "desperatemetal-phinas-17", false);
+        s.addSound("[5/6] Phinas: So when the factory fell and the new laws were introduced, people's lives changed...", "desperatemetal-phinas-18", false);
+        s.addSound("[6/6] Phinas: People don't like change. Anyway, I can't thank you enough. Have this for your troubles.", "desperatemetal-phinas-19", false);
+        s.addSound("[1/7] Nettik: What are these? I have nothing to do with them!", "desperatemetal-nettik-1", false);
+        s.addSound("[2/7] Nettik: Ahh.. Well, now that I think of it, writing my location on these parts was a bit stupid.", "desperatemetal-nettik-2", false);
+        s.addSound("[3/7] Nettik: Those mechs were my creation. Corkus can still live with machines.", "desperatemetal-nettik-3", false);
+        s.addSound("[4/7] Nettik: The factory was a disaster. That's what happens when a machine controls a machine.", "desperatemetal-nettik-4", false);
+        s.addSound("[5/7] Nettik: I am living proof that humans can control them. Make use of them.", "desperatemetal-nettik-5", false);
+        s.addSound("[6/7] Nettik: The metal shortage has made it difficult to make my machines... Not to mention the new laws...", "desperatemetal-nettik-6", false);
+        s.addSound("[7/7] Nettik: If you want to turn me in, fine. You’ll find all the evidence you need under my pillow.", "desperatemetal-nettik-7", false);
+        s.addSound("[1/1] Nettik: I'm sorry it ended up like this, you should've just ignored that old man.", "desperatemetal-nettik-8", false);
+        s.addSound("[1/2] Steam Mech-DM1: Evasive maneuver inefficient.", "desperatemetal-steammechdm1-1", false);
+        s.addSound("[2/2] Steam Mech-DM1: Request additional orders from L.H. Defend.", "desperatemetal-steammechdm1-2", false);
+        s.addSound("[1/2] Fiery Mech-DM2: Tools acquired, deliviered to L.H. Additional orders received.", "desperatemetal-fierymechdm2-1", false);
+        s.addSound("[2/2] Fiery Mech-DM2: Intruder detected. Camouflage ineffective. Defend.", "desperatemetal-fierymechdm2-2", false);
+        s.addSound("[1/2] Intelligence Mech-DM3: Strategic mission accomplished. Mechanical parts: procured.", "desperatemetal-intelligencemechdm3-1", false);
+        s.addSound("[2/2] Intelligence Mech-DM3: L.H. can continue to produce effectively.", "desperatemetal-intelligencemechdm3-2", false);
+        s.addSound("[1/2] Big boss Mech-DM666: I was made to be angry. I can't stop myself...", "desperatemetal-bigbossmechdm666-1", false);
+        s.addSound("[2/2] Big boss Mech-DM666: Prepare for destruc...§kI-LOVE-CATS ahelp.", "desperatemetal-bigbossmechdm666-2", false);
         s.addSound("[1/5] ???: Stranger detected. Security system: activated.", "desperatemetal-security-1", true);
         s.addSound("[2/5] ???: Security drop-chute engaging. 5... 4...", "desperatemetal-security-2", true);
         s.addSound("[3/5] ???: 3...", "desperatemetal-security-3", true);

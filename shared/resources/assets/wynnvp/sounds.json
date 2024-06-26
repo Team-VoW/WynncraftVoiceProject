@@ -27241,14 +27241,6 @@
 
 
 
-  "desperatemetal-nettik-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-1", "stream": true}]
-  },
-  "desperatemetal-nettik-2": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-2", "stream": true}]
-  },
   "desperatemetal-phinas-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:desperatemetal-phinas-1", "stream": true}]
@@ -27260,6 +27252,134 @@
   "desperatemetal-phinas-3": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:desperatemetal-phinas-3", "stream": true}]
+  },
+  "desperatemetal-phinas-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-4", "stream": true}]
+  },
+  "desperatemetal-phinas-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-5", "stream": true}]
+  },
+  "desperatemetal-phinas-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-6", "stream": true}]
+  },
+  "desperatemetal-phinas-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-7", "stream": true}]
+  },
+  "desperatemetal-phinas-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-8", "stream": true}]
+  },
+  "desperatemetal-phinas-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-9", "stream": true}]
+  },
+  "desperatemetal-phinas-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-10", "stream": true}]
+  },
+  "desperatemetal-phinas-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-11", "stream": true}]
+  },
+  "desperatemetal-phinas-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-12", "stream": true}]
+  },
+  "desperatemetal-phinas-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-13", "stream": true}]
+  },
+  "desperatemetal-phinas-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-14", "stream": true}]
+  },
+  "desperatemetal-phinas-15": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-15", "stream": true}]
+  },
+  "desperatemetal-phinas-16": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-16", "stream": true}]
+  },
+  "desperatemetal-phinas-17": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-17", "stream": true}]
+  },
+  "desperatemetal-phinas-18": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-18", "stream": true}]
+  },
+  "desperatemetal-phinas-19": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-phinas-19", "stream": true}]
+  },
+  "desperatemetal-nettik-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-1", "stream": true}]
+  },
+  "desperatemetal-nettik-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-2", "stream": true}]
+  },
+  "desperatemetal-nettik-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-3", "stream": true}]
+  },
+  "desperatemetal-nettik-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-4", "stream": true}]
+  },
+  "desperatemetal-nettik-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-5", "stream": true}]
+  },
+  "desperatemetal-nettik-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-6", "stream": true}]
+  },
+  "desperatemetal-nettik-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-7", "stream": true}]
+  },
+  "desperatemetal-nettik-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-nettik-8", "stream": true}]
+  },
+  "desperatemetal-steammechdm1-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-steammechdm1-1", "stream": true}]
+  },
+  "desperatemetal-steammechdm1-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-steammechdm1-2", "stream": true}]
+  },
+  "desperatemetal-fierymechdm2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-fierymechdm2-1", "stream": true}]
+  },
+  "desperatemetal-fierymechdm2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-fierymechdm2-2", "stream": true}]
+  },
+  "desperatemetal-intelligencemechdm3-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-intelligencemechdm3-1", "stream": true}]
+  },
+  "desperatemetal-intelligencemechdm3-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-intelligencemechdm3-2", "stream": true}]
+  },
+  "desperatemetal-bigbossmechdm666-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-bigbossmechdm666-1", "stream": true}]
+  },
+  "desperatemetal-bigbossmechdm666-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:desperatemetal-bigbossmechdm666-2", "stream": true}]
   },
   "desperatemetal-security-1": {
     "category": "voice",
@@ -27281,6 +27401,7 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:desperatemetal-security-5", "stream": true}]
   },
+
 
 
   "redbeardsbooty-marston-1": {
