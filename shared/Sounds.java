@@ -11644,7 +11644,7 @@ public class Sounds {
         s.addSound("[1/1] ????: Blockage in Factory Sector A2 is now clear. All regularly scheduled workers, please return to your posts immediately.", "fallenfactory-antikytherasupercomputer-6", true);
         s.addSound("[1/2] ????: WELL. DON'T YOU JUST FEEL SO PROUD OF YOURSELF. I DON'T KNOW WHAT YOU EXPECT TO ACCOMPLISH BY CRAWLING THROUGH THE VENTS. EXCEPT A FACE FULL OF HOT FUMES FROM THE FURNACE.", "fallenfactory-antikytherasupercomputer-7", true);
         s.addSound("[1/4] ????: Activating Main Production Line.", "fallenfactory-antikytherasupercomputer-8", true);
-        s.addSound("[2/4] ????: SINCE YOU SEEM TO BE INSISTENT ON STAYING, PERHAPS YOU WOULD BE INTERESTED IN TAKING A LOOK AT SOME OF THE MACHINERY CLOSE UP", "fallenfactory-antikytherasupercomputer-9", true);
+        s.addSound("[2/4] ????: SINCE YOU SEEM TO BE INSISTENT ON STAYING, PERHAPS YOU WOULD BE INTERESTED IN TAKING A LOOK AT SOME OF THE MACHINERY CLOSE UP.", "fallenfactory-antikytherasupercomputer-9", true);
         s.addSound("[1/1] ????: IF I WERE YOU, NOW WOULD BE A GOOD TIME TO RUN.", "fallenfactory-antikytherasupercomputer-10", true);
         s.addSound("[1/1] ????: I'VE HAD ENOUGH OF YOU.", "fallenfactory-antikytherasupercomputer-11", true);
         s.addSound("[1/4] ????: THAT WAS A LIE. I'M ACTUALLY STARTING TO ENJOY THIS.", "fallenfactory-antikytherasupercomputer-12", true);
