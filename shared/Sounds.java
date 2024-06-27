@@ -11511,6 +11511,10 @@ public class Sounds {
         s.addSound("[1/1] Seaskipper: There you go. Come again!", "seaskipper-seaskippercaptain-84", true);
         s.addSound("[1/4] Seaskipper Captain: Ohoh, that reminds me! I’ve got a letter for you - special delivery from a Corkian fellow. White hair, goggles, the lot.", "seaskipper-seaskippercaptain-85", true);
 
+
+    }
+    private static void register3(SoundsHandler s) {
+
         //Decrepit Sewers
         s.addSound("[1/1] ???: You dare enter these sewers, human? These pipes once hid the civilians of Ragni during raids... Now it just holds corpses.", "decriptsewers-witherehead-1", true);
         s.addSound("[1/1] ???: The forces of the Humans could not save me when I hid here, and they can’t save you either.", "decriptsewers-witherehead-2", true);
@@ -11772,8 +11776,8 @@ public class Sounds {
         s.addSound("[3/4] Legendary Attendant: You may either go through this door to claim your reward and turn back and continue the challenge.", "legendaryisland-legendaryattendant3-13", false);
         s.addSound("[4/4] Legendary Attendant: Dr. Legendary will inform you of your rewards for defeating him.", "legendaryisland-legendaryattendant3-14", false);
 
-    }
-    private static void register3(SoundsHandler s) {
+
+
         //Wynn Plains
         s.addSound("[1/2] Basement Dweller: *Hic* Wha, whozit? Oh geez, I should lay off tha old *hic* Nemract", "wynnplains-basementdweller-1", false);
         s.addSound("[2/2] Basement Dweller: Wha, yer *hic* real?  Wha're ya doin' in mah house then?!", "wynnplains-basementdweller-2", false);
