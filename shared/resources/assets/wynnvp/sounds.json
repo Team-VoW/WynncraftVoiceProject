@@ -7857,21 +7857,77 @@
 
 
 
-  "pointofnoreturn-luthocitizen-1": {
+  "pointofnoreturn-luthocitizen1-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-1", "stream": true}]
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-1", "stream": true}]
   },
-  "pointofnoreturn-luthocitizen-2": {
+  "pointofnoreturn-luthocitizen1-2": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-2", "stream": true}]
   },
-  "pointofnoreturn-luthocitizen-3": {
+  "pointofnoreturn-luthocitizen1-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-3", "stream": true}]
   },
-  "pointofnoreturn-luthocitizen-4": {
+  "pointofnoreturn-luthocitizen1-4": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-4", "stream": true}]
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-4", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen1-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-5", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen2-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen2-1", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen2-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen2-2", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen2-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen2-3", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen2-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen2-4", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen2-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen2-5", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen3-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen3-1", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen3-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen3-2", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen3-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen3-3", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen3-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen3-4", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen4-1": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen4-1", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen4-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen4-2", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen4-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen4-3", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen4-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen4-4", "stream": true}]
   },
   "pointofnoreturn-soul-1": {
     "category": "voice",
@@ -7917,10 +7973,6 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-11", "stream": true}]
   },
-  "pointofnoreturn-luthoguard-1": {
-    "category": "voice",
-    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthoguard-1", "stream": true}]
-  },
   "pointofnoreturn-soul-12": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-12", "stream": true}]
@@ -7941,10 +7993,31 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:pointofnoreturn-soul-16", "stream": true}]
   },
-  "pointofnoreturn-luthocitizen-5": {
+  "pointofnoreturn-luthoguard-1": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen-5", "stream": true}]
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthoguard-1", "stream": true}]
   },
+  "pointofnoreturn-luthocitizen1-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-6", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen1-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-7", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen1-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-8", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen1-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-9", "stream": true}]
+  },
+  "pointofnoreturn-luthocitizen1-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:pointofnoreturn-luthocitizen1-10", "stream": true}]
+  },
+
 
 
 
