@@ -40698,9 +40698,33 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-1", "stream": true}]
   },
+  "troubledtribesmen-kalargwit-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-2", "stream": true}]
+  },
   "troubledtribesmen-krattson-1": {
     "category": "voice",
     "sounds": [{ "name": "wynnvp:troubledtribesmen-krattson-1", "stream": true}]
+  },
+  "troubledtribesmen-krattson-2": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-krattson-2", "stream": true}]
+  },
+  "troubledtribesmen-krattson-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-krattson-3", "stream": true}]
+  },
+  "troubledtribesmen-krattson-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-krattson-4", "stream": true}]
+  },
+  "troubledtribesmen-krattson-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-krattson-5", "stream": true}]
+  },
+  "troubledtribesmen-krattson-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-krattson-6", "stream": true}]
   },
   "troubledtribesmen-inrekei-1": {
     "category": "voice",
@@ -40710,9 +40734,57 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-2", "stream": true}]
   },
-  "troubledtribesmen-kalargwit-2": {
+  "troubledtribesmen-inrekei-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-2", "stream": true}]
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-3", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-4", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-5", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-6", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-7", "stream": true}]
+  },
+  "troubledtribesmen-kalargwit-3": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-3", "stream": true}]
+  },
+  "troubledtribesmen-kalargwit-4": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-4", "stream": true}]
+  },
+  "troubledtribesmen-kalargwit-5": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-5", "stream": true}]
+  },
+  "troubledtribesmen-kalargwit-6": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-6", "stream": true}]
+  },
+  "troubledtribesmen-kalargwit-7": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-7", "stream": true}]
+  },
+  "troubledtribesmen-kalargwit-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-8", "stream": true}]
+  },
+  "troubledtribesmen-kalargwit-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-9", "stream": true}]
+  },
+  "troubledtribesmen-kalargwit-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-kalargwit-10", "stream": true}]
   },
   "troubledtribesmen-entamis-1": {
     "category": "voice",
@@ -40722,9 +40794,25 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:troubledtribesmen-entamis-2", "stream": true}]
   },
-  "troubledtribesmen-inrekei-3": {
+  "troubledtribesmen-entamis-3": {
     "category": "voice",
-    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-3", "stream": true}]
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-entamis-3", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-8": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-8", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-9": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-9", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-10": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-10", "stream": true}]
+  },
+  "troubledtribesmen-inrekei-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:troubledtribesmen-inrekei-11", "stream": true}]
   },
 
 

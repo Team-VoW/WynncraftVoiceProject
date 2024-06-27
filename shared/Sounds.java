@@ -5227,13 +5227,35 @@ public class Sounds {
 
         //Troubled Tribesmen
         s.addSound("[1/2] Ka L'argwit: Fa yna tuusat! Dra sykel uv drec cylnat dnaa ryc paah lunnibdat.", "troubledtribesmen-kalargwit-1", false);
+        s.addSound("[2/2] Ka L'argwit: Oui tuh'd ihtancdyht y funt E ys cyoehk. Dryd kio Krattson ybbaync du cbayg ouin myhkiyka.", "troubledtribesmen-kalargwit-2", false);
         s.addSound("[1/6] Krattson: Hey! Aren't these people fascinating? They sure smell bad, though! What? That Tribesman said my name?! Amazing! I've been trying to communicate with them for weeks.", "troubledtribesmen-krattson-1", false);
+        s.addSound("[2/6] Krattson: He sure seems like a distressed little fellow. He keeps pointing to that huge tree right there. A Temple of Legends keeper once told me it's possible to speak with them.", "troubledtribesmen-krattson-2", false);
+        s.addSound("[3/6] Krattson: He told me that within the woods there is a Shaman who will grant certain people permission to speak their language. I did some traveling through the jungle and actually found him!", "troubledtribesmen-krattson-3", false);
+        s.addSound("[4/6] Krattson: But despite my efforts, he just sat in silence with his eyes closed. He must've known I wasn't a threat because he was totally exposed. He had no interest in speaking with me, though.", "troubledtribesmen-krattson-4", false);
+        s.addSound("[5/6] Krattson: Say, who knows, maybe the Shaman will talk to you. It would greatly assist my research if you could help me talk to them. So why don't you give it a shot?", "troubledtribesmen-krattson-5", false);
+        s.addSound("[6/6] Krattson: Follow this path to the north. Keep going past the pond and the path will split to the West and to the East. Take the West path, and you will see the Shaman.", "troubledtribesmen-krattson-6", false);
         s.addSound("[1/7] Inrekei: Oui ryja y bufanvim vaam ypuid oui, cdnyhkan. So baubma yna eh tyhkan. Bmayca, dyga drec yht ramb dras.", "troubledtribesmen-inrekei-1", false);
         s.addSound("[2/7] Inrekei: I have cast a spell on you. If you can understand me, you are pure of heart.", "troubledtribesmen-inrekei-2", false);
-        s.addSound("[1/8] Ka L'argwit: For as long as I am able to recall upon, my people have called this tree our guardian. She shares her magic with those who respect her and keep her healthy. ", "troubledtribesmen-kalargwit-2", false);
+        s.addSound("[3/7] Inrekei: This spell will allow those of true spirit to speak and comprehend our language. I have entrusted you with this because of my connection with our sacred tree, who we call Entamis.", "troubledtribesmen-inrekei-3", false);
+        s.addSound("[4/7] Inrekei: I am the Shaman of my tribe. I sit here every day with my eyes closed and carefully monitor Entamis' wavelengths. She has not been responding to my calls as of late...", "troubledtribesmen-inrekei-4", false);
+        s.addSound("[5/7] Inrekei: Dear human, your presence emits warmth and trust. Please go speak with my apprentice, Ka L'argwit. He is to take my place as Shaman when I pass from this life.", "troubledtribesmen-inrekei-5", false);
+        s.addSound("[6/7] Inrekei: He would know if anything is causing our beautiful tree discomfort. The spell I have cast on you will allow you to speak with him.", "troubledtribesmen-inrekei-6", false);
+        s.addSound("[7/7] Inrekei: Now, please go seek out Ka L'argwit.", "troubledtribesmen-inrekei-7", false);
+        s.addSound("[1/8] Ka L'argwit: For as long as I am able to recall upon, my people have called this tree our guardian. She shares her magic with those who respect her and keep her healthy.", "troubledtribesmen-kalargwit-3", false);
+        s.addSound("[2/8] Ka L'argwit: Or so, she did. A few sunrises ago, an outlandish creature cascaded through the tree's magic barrier as if it was made of cotton!", "troubledtribesmen-kalargwit-4", false);
+        s.addSound("[3/8] Ka L'argwit: It burrowed deep within the roots, and unleashed huge egg pods. They're filled with disgusting insects that are draining her of protective magic.", "troubledtribesmen-kalargwit-5", false);
+        s.addSound("[4/8] Ka L'argwit: And to make matters worse.. they must be replacing the magic with corruption. Just look at her, she's obviously very sick!", "troubledtribesmen-kalargwit-6", false);
+        s.addSound("[5/8] Ka L'argwit: Even some of our own people have lost their minds and have become very dangerous. It just crushes my soul to see this happening before my eyes.", "troubledtribesmen-kalargwit-7", false);
+        s.addSound("[6/8] Ka L'argwit: Our protective magic is extremely weak right now. If I try to stop the creature myself I will surely be vanquished. You on the other hand, look most protected.", "troubledtribesmen-kalargwit-8", false);
+        s.addSound("[7/8] Ka L'argwit: It benefits us both if the creature is stopped. You will have a safer time traversing the jungle and our people will be saved.", "troubledtribesmen-kalargwit-9", false);
+        s.addSound("[8/8] Ka L'argwit: Simply follow the path of destruction. It started at the roots, so you should make your way in from there. Be cautious, and may Entamis guide you.", "troubledtribesmen-kalargwit-10", false);
         s.addSound("[1/3] Entamis: Thank you for coming. We haven't but moments. The monster's name is Aenara. He's a fiendish monster of corruption.", "troubledtribesmen-entamis-1", true);
-        s.addSound("[3/3] Entamis: You musn't let me be reborn a creature of evil...", "troubledtribesmen-entamis-2", true);
-        s.addSound("[1/4] Inrekei: Hello again. I am grateful you have returned safely. You don't need to say anything, though. I no longer can sense Entamis. I know she has died...", "troubledtribesmen-inrekei-3", false);
+        s.addSound("[2/3] Entamis: He unleashed egg pods that host a variety of magic draining insects. They are eating me alive and replacing my magic with evil magic. Soon I will die.", "troubledtribesmen-entamis-2", true);
+        s.addSound("[3/3] Entamis: You musn't let me be reborn a creature of evil...", "troubledtribesmen-entamis-3", true);
+        s.addSound("[1/4] Inrekei: Hello again. I am grateful you have returned safely. You don't need to say anything, though. I no longer can sense Entamis. I know she has died...", "troubledtribesmen-inrekei-8", false);
+        s.addSound("[2/4] Inrekei: You still managed to prevent her corrupted magic to spread any further. And for that, my people are forever in your debt.", "troubledtribesmen-inrekei-9", false);
+        s.addSound("[3/4] Inrekei: This insect appears to be the Queen. I'll need to perform a ritual to kill it permanently. But never mind that, I can do that in my own time...", "troubledtribesmen-inrekei-10", false);
+        s.addSound("[4/4] Inrekei: Please take this. It is but a small gift. Your currency is meaningless to us. In times of peril, few step forward and risk their lives to save those they do not know.", "troubledtribesmen-inrekei-11", false);
 
         //Hollow Serenity
         s.addSound("Eileen, Eileen... That girl never listens to me! Her own mother!", "hollowserenity-katarin-1", false);
