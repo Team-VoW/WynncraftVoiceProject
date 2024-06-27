@@ -11510,6 +11510,9 @@ public class Sounds {
         s.addSound("[1/1] Seaskipper: I'm afraid you cannot afford that boat.", "seaskipper-seaskippercaptain-83", true);
         s.addSound("[1/1] Seaskipper: There you go. Come again!", "seaskipper-seaskippercaptain-84", true);
         s.addSound("[1/4] Seaskipper Captain: Ohoh, that reminds me! I’ve got a letter for you - special delivery from a Corkian fellow. White hair, goggles, the lot.", "seaskipper-seaskippercaptain-85", true);
+        s.addSound("[1/1] Seaskipper Captain: Where are ya headed? Isles Of Fiction, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-86", true);
+        s.addSound("[1/4] Seaskipper Captain: So, this is your first time legitimately ridin' my boat, eh? I 'ought that pirate adventure would've scarred you!", "seaskipper-seaskippercaptain-87", true);
+        s.addSound("[1/4] Seaskipper Captain: Ah, I almost forgot! Take this Ability Shard! I doubt that I'll ever need one.", "seaskipper-seaskippercaptain-88", true);
 
 
     }

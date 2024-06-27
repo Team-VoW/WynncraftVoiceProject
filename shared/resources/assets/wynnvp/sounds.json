@@ -15348,6 +15348,18 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-85", "stream": true}]
   },
+  "seaskipper-seaskippercaptain-86": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-86", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-87": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-87", "stream": true}]
+  },
+  "seaskipper-seaskippercaptain-88": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:seaskipper-seaskippercaptain-88", "stream": true}]
+  },
 
 
 
