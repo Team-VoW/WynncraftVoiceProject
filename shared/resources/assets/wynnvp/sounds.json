@@ -27311,6 +27311,135 @@
     "category": "voice",
     "sounds": [{ "name": "wynnvp:qirahive-qira-37", "stream": true}]
   },
+  "qirahive-gale-11": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-11", "stream": true}]
+  },
+  "qirahive-gale-12": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-12", "stream": true}]
+  },
+  "qirahive-gale-13": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-13", "stream": true}]
+  },
+  "qirahive-gale-14": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-gale-14", "stream": true}]
+  },
+  "qirahive-qira-38": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-38", "stream": true}]
+  },
+  "qirahive-qira-39": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-39", "stream": true}]
+  },
+  "qirahive-qira-40": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-40", "stream": true}]
+  },
+  "qirahive-qira-41": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-41", "stream": true}]
+  },
+  "qirahive-qira-42": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-42", "stream": true}]
+  },
+  "qirahive-qira-43": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-43", "stream": true}]
+  },
+  "qirahive-qira-44": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-44", "stream": true}]
+  },
+  "qirahive-qira-45": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-45", "stream": true}]
+  },
+  "qirahive-qira-46": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-46", "stream": true}]
+  },
+  "qirahive-qira-47": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-47", "stream": true}]
+  },
+  "qirahive-qira-48": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-48", "stream": true}]
+  },
+  "qirahive-qira-49": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-49", "stream": true}]
+  },
+  "qirahive-qira-50": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-50", "stream": true}]
+  },
+  "qirahive-qira-51": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-51", "stream": true}]
+  },
+  "qirahive-qira-52": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-52", "stream": true}]
+  },
+  "qirahive-qira-53": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-53", "stream": true}]
+  },
+  "qirahive-qira-54": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-54", "stream": true}]
+  },
+  "qirahive-qira-55": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-55", "stream": true}]
+  },
+  "qirahive-qira-56": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-56", "stream": true}]
+  },
+  "qirahive-qira-57": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-57", "stream": true}]
+  },
+  "qirahive-qira-58": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-58", "stream": true}]
+  },
+  "qirahive-qira-59": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-59", "stream": true}]
+  },
+  "qirahive-qira-60": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-60", "stream": true}]
+  },
+  "qirahive-qira-61": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-61", "stream": true}]
+  },
+  "qirahive-qira-62": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-62", "stream": true}]
+  },
+  "qirahive-qira-63": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-63", "stream": true}]
+  },
+  "qirahive-qira-64": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-64", "stream": true}]
+  },
+  "qirahive-qira-65": {
+    "category": "voice",
+    "sounds": [{ "name": "wynnvp:qirahive-qira-65", "stream": true}]
+  },
+
 
 
 
