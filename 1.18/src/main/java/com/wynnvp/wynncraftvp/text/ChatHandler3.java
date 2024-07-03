@@ -210,11 +210,12 @@ public final class ChatHandler3 {
             // This is an NPC dialogue screen.
             // First remove the "Press SHIFT/Select an option to continue" trailer.
             newLines.removeFirst();
-            if (newLines.getFirst().getString().isEmpty()) {
+
+            if (!newLines.isEmpty() && newLines.getFirst() != null && newLines.getFirst().getString().isEmpty()) {
                 // After this we assume a blank line
                 newLines.removeFirst();
             } else {
-                System.out.println("Wynnvp: Malformed dialog [#1]: \" + newLines.getFirst()");;
+                System.out.println("Wynnvp: Malformed dialog [#1]: ");
             }
 
             boolean dialogDone = false;
