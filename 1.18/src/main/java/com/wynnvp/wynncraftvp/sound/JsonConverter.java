@@ -3,31 +3,24 @@ package com.wynnvp.wynncraftvp.sound;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
-import org.yaml.snakeyaml.DumperOptions;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-import org.yaml.snakeyaml.constructor.Constructor;
-import org.yaml.snakeyaml.representer.Representer;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
-public class YamlConverter {
+public class JsonConverter {
     private final List<DialogueData> DialogueDataList;
 
 
     public static void main(String[] args) {
-        YamlConverter yamlConverter = new YamlConverter();
-        yamlConverter.saveToYaml("sounds.yml");
+        JsonConverter yamlConverter = new JsonConverter();
         yamlConverter.saveToJson("sounds.json");
     }
-    public YamlConverter() {
+
+    public JsonConverter() {
         DialogueDataList = new ArrayList<>();
         Sounds.register(this);
     }
@@ -49,37 +42,18 @@ public class YamlConverter {
         String npcName = lineData.getNPCName();
         DialogueData DialogueData = new DialogueData();
         DialogueData.setDialogueLine(message);
-        DialogueData.setFileName(id);
-        DialogueData.setShouldPlayOnPlayer(movingSound);
-        DialogueData.setCustomPosition(position);
+        DialogueData.setFile(id);
+        DialogueData.setOnPlayer(movingSound);
+        DialogueData.setPosition(position);
         if (fallOff != 0) {
-            DialogueData.setCustomSoundFallOff(fallOff );
+            DialogueData.setFallOff(fallOff);
         }
-        DialogueData.setNpcName(npcName);
-        DialogueData.setEnvironment(null);
+        DialogueData.setNpc(npcName);
+        DialogueData.setReverb(null);
 
         DialogueDataList.add(DialogueData);
     }
 
-
-    public void saveToYaml(String yamlFilePath) {
-        DialogueList soundConfig = new DialogueList();
-        soundConfig.setSounds(DialogueDataList);
-
-        DumperOptions options = new DumperOptions();
-        options.setIndent(2);
-        options.setPrettyFlow(true);
-        options.setDefaultFlowStyle(DumperOptions.FlowStyle.BLOCK);
-        Representer representer = new Representer(options);
-        representer.getPropertyUtils().setSkipMissingProperties(true);
-        Yaml yaml = new Yaml(new Constructor(DialogueList.class, new LoaderOptions()), representer, options);
-
-        try (FileWriter writer = new FileWriter(yamlFilePath)) {
-            yaml.dump(soundConfig, writer);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     public void saveToJson(String jsonFilePath) {
         Gson gson = new GsonBuilder()

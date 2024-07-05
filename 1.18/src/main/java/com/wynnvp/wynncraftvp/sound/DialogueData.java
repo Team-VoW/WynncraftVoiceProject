@@ -1,68 +1,68 @@
 package com.wynnvp.wynncraftvp.sound;
 
 public class DialogueData {
-    private String dialogueLine;
-    private String fileName;
-    private boolean shouldPlayOnPlayer = false;
-    private int customSoundFallOff = 0;
-    private Vector3 customPosition = null;
-    private String npcName;
-    private Environment environment = Environment.OUTSIDE;
+    private String line;
+    private String file;
+    private boolean onPlayer = false;
+    private int fallOff = 0;
+    private Vector3 position = null;
+    private String npc;
+    private Reverb reverb = Reverb.OUTSIDE;
 
     public void setDialogueLine(String dialogueLine) {
-        this.dialogueLine = dialogueLine;
+        this.line = dialogueLine;
     }
 
-    public void setFileName(String fileName) {
-        this.fileName = fileName;
+    public void setFile(String file) {
+        this.file = file;
     }
 
-    public void setShouldPlayOnPlayer(boolean shouldPlayOnPlayer) {
-        this.shouldPlayOnPlayer = shouldPlayOnPlayer;
+    public void setOnPlayer(boolean onPlayer) {
+        this.onPlayer = onPlayer;
     }
 
-    public void setCustomSoundFallOff(int customSoundFallOff) {
-        this.customSoundFallOff = customSoundFallOff;
+    public void setFallOff(int fallOff) {
+        this.fallOff = fallOff;
     }
 
-    public void setCustomPosition(Vector3 customPosition) {
-        this.customPosition = customPosition;
+    public void setPosition(Vector3 position) {
+        this.position = position;
     }
 
-    public void setNpcName(String npcName) {
-        this.npcName = npcName;
+    public void setNpc(String npc) {
+        this.npc = npc;
     }
 
-    public void setEnvironment(Environment environment) {
-        this.environment = environment;
+    public void setReverb(Reverb reverb) {
+        this.reverb = reverb;
     }
 
     public String getDialogueLine() {
-        return dialogueLine;
+        return line;
     }
 
-    public String getFileName() {
-        return fileName;
+    public String getFile() {
+        return file;
     }
 
-    public boolean isShouldPlayOnPlayer() {
-        return shouldPlayOnPlayer;
+    public boolean isOnPlayer() {
+        return onPlayer;
     }
 
-    public int getCustomSoundFallOff() {
-        return customSoundFallOff;
+    public int getFallOff() {
+        return fallOff;
     }
 
-    public Vector3 getCustomPosition() {
-        return customPosition;
+    public Vector3 getPosition() {
+        return position;
     }
 
-    public String getNpcName() {
-        return npcName;
+    public String getNpc() {
+        return npc;
     }
 
-    public Environment getEnvironment() {
-        return environment;
+    public Reverb getReverb() {
+        return reverb;
     }
 }
 

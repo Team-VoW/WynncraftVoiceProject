@@ -1,16 +1,17 @@
 package com.wynnvp.wynncraftvp.sound;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
-import org.yaml.snakeyaml.LoaderOptions;
-import org.yaml.snakeyaml.Yaml;
-import org.yaml.snakeyaml.constructor.Constructor;
 
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.Optional;
 
@@ -22,31 +23,33 @@ public class SoundsHandler {
     public SoundsHandler() {
         sounds = new HashMap<>();
 
-        loadSoundsFromYaml("sounds.yml");
+        loadSoundsFromJson("sounds.json");
     }
 
-    private void loadSoundsFromYaml(String yamlFilePath) {
-        Yaml yaml = new Yaml(new Constructor(DialogueData.class, new LoaderOptions()));
-        InputStream inputStream = this.getClass()
-                .getClassLoader()
-                .getResourceAsStream(yamlFilePath);
+    private void loadSoundsFromJson(String jsonFilePath) {
+        Gson gson = new Gson();
+        InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream(jsonFilePath);
+        InputStreamReader reader = new InputStreamReader(inputStream);
 
-        DialogueList dialogues = yaml.load(inputStream);
+        Type dialogueListType = new TypeToken<DialogueList>() {
+        }.getType();
+        DialogueList dialogues = gson.fromJson(reader, dialogueListType);
 
         for (DialogueData dialogue : dialogues.getSounds()) {
             String message = dialogue.getDialogueLine();
-            String fileName = dialogue.getFileName();
-            boolean movingSound = dialogue.isShouldPlayOnPlayer();
-            Vector3 position = dialogue.getCustomPosition();
-            int fallOff = dialogue.getCustomSoundFallOff();
-            String npcName = dialogue.getNpcName();
-            Environment environment = dialogue.getEnvironment();
+            String fileName = dialogue.getFile();
+            boolean movingSound = dialogue.isOnPlayer();
+            Vector3 position = dialogue.getPosition();
+            int fallOff = dialogue.getFallOff();
+            String npcName = dialogue.getNpc();
+            Reverb environment = dialogue.getReverb();
 
             LineData lineData = formatToLineData(message);
             message = lineData.getSoundLine();
             sounds.put(message, new SoundObject(npcName, fileName, new CustomSoundClass(registerSound(fileName), movingSound), position, fallOff));
         }
     }
+
 
     public static SoundEvent registerSound(String name) {
         ResourceLocation id = new ResourceLocation(ModCore.MODID, name.toLowerCase());
