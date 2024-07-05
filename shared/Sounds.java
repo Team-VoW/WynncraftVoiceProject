@@ -3,13 +3,13 @@ package com.wynnvp.wynncraftvp.sound;
 
 // this class gets replaced!
 public class Sounds {
-    public static void register(SoundsHandler s) {
+    public static void register(YamlConverter s) {
         register1(s);
         register2(s);
         register3(s);
     }
 
-    private static void register1(SoundsHandler s) {
+    private static void register1(YamlConverter s) {
 
         //Kings Recruit
         s.addSound("[1/2] Caravan Driver: Agh!", "kingsrecruit-caravandriver-1", false, 45);
@@ -5717,7 +5717,7 @@ public class Sounds {
         s.addSound("[2/3] Elf Guard: ...ah. You have found him, then. The name is Korben... Understood. We shall interrogate him for his actions.", "aldoreissecretpart1-elfguard-5", false);
         s.addSound("[3/3] Elf Guard: This being the case... You may come and go as you wish to Aldorei Town. We shall re-open the doors.", "aldoreissecretpart1-elfguard-6", false);
     }
-    private static void register2(SoundsHandler s) {
+    private static void register2(YamlConverter s) {
         //Aldoreis secret part 2
         s.addSound("[1/6] Olon: Hey! You!", "aldoreissecretpart2-olon-1", false);
         s.addSound("[2/6] Olon: I know who you are, soldier. Do you know who I am?", "aldoreissecretpart2-olon-2", false);
@@ -11552,7 +11552,7 @@ public class Sounds {
         s.addSound("[4/4] Legendary Attendant: Dr. Legendary will inform you of your rewards for defeating him.", "legendaryisland-legendaryattendant3-14", false);
 
     }
-    private static void register3(SoundsHandler s) {
+    private static void register3(YamlConverter s) {
         //Wynn Plains
         s.addSound("[1/2] Basement Dweller: *Hic* Wha, whozit? Oh geez, I should lay off tha old *hic* Nemract", "wynnplains-basementdweller-1", false);
         s.addSound("[2/2] Basement Dweller: Wha, yer *hic* real?  Wha're ya doin' in mah house then?!", "wynnplains-basementdweller-2", false);

@@ -7,7 +7,7 @@ public class DialogueData {
     private int customSoundFallOff = 0;
     private Vector3 customPosition = null;
     private String npcName;
-    private Environment environment = Environment.Outside;
+    private Environment environment = Environment.OUTSIDE;
 
     public void setDialogueLine(String dialogueLine) {
         this.dialogueLine = dialogueLine;

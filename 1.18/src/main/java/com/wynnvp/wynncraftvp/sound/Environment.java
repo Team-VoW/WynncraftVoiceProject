@@ -1,5 +1,5 @@
 package com.wynnvp.wynncraftvp.sound;
 
 public enum Environment {
-    Outside, FurnishedRoom, EmptyRoom, SmallCave, Cave, BigCave, Cathedral
+    OUTSIDE, FURNISHED_ROOM, EMPTY_ROOM, SMALL_CAVE, CAVE, BIG_CAVE, CATHEDRAL
 }
