@@ -3,7 +3,11 @@ package com.wynnvp.wynncraftvp.npc;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
+import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.entity.Display;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.AABB;
@@ -126,8 +130,54 @@ public class NPCHandler {
                 entity = entityInWorld;
             }
         }
+
+        if (entity == null) {
+            entity = findClosestTextDisplay(rawName, player);
+        }
+
         return entity;
     }
+
+
+    public static Entity findClosestTextDisplay (String rawName, Player player) {
+        double closestDistance = Double.MAX_VALUE;
+        Entity closestPosition = null;
+        Vec3 playerEyePos = player.getEyePosition();
+
+
+        // Iterate through all entities in the world
+        for (Entity entity : Minecraft.getInstance().level.getEntitiesOfClass(Display.TextDisplay.class,
+                new AABB(player.getEyePosition().x - 200,
+                        player.getEyePosition().y - 200,
+                        player.getEyePosition().z - 200,
+                        player.getEyePosition().x + 200,
+                        player.getEyePosition().y + 200,
+                        player.getEyePosition().z + 200))){
+
+            if (entity instanceof Display.TextDisplay) {
+                Display.TextDisplay textDisplay = (Display.TextDisplay) entity;
+
+
+                Component text = textDisplay.textRenderState().text();
+                // Check if the text matches
+                if (getName(text.getString()).contains(rawName)) {
+
+                    double distance = textDisplay.position().distanceToSqr(playerEyePos);
+
+                    // Update the closest entity if this one is nearer
+                    if (distance < closestDistance) {
+                        closestDistance = distance;
+                        closestPosition = entity;
+                    }
+                }
+            }
+
+
+        }
+
+        return closestPosition;
+    }
+
 
     private static String getName(Entity entity) {
         return getName(entity.getDisplayName().getString());
