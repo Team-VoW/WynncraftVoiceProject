@@ -8,7 +8,6 @@
     "MixinChatListener",
     "MixinPlaySoundListener",
     "MixinServerConnectListener",
-    "MixinShowGuiListener",
     "SneakPacketMixin"
   ],
   "injectors": {
