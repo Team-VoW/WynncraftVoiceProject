@@ -33,7 +33,6 @@ dependencies {
     modApi("com.terraformersmc:modmenu:6.1.0") {
         exclude(group: "net.fabricmc.fabric-api")
     }
-    modImplementation "io.github.cottonmc:LibGui:11.0.0+1.21"
 }
 
 processResources {

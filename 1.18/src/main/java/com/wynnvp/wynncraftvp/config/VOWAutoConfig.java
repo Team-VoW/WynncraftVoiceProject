@@ -112,10 +112,10 @@ public class VOWAutoConfig implements ConfigData {
         return npcFinderThingMaxDistanceChangeBeforeCacheInvalid;
     }
     
-    public boolean isHasChosenLineReport(){ return hasChosenLineReport; }
+    public boolean getHasShownMissingLineNotification(){ return hasChosenLineReport; }
 
     
-    public void setHasChosenLineReport(boolean input) {
+    public void setHasShownMissingLineNotification(boolean input) {
         hasChosenLineReport = input;
     }
 

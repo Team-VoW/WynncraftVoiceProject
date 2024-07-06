@@ -1,6 +1,7 @@
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.utils.Utils;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
 
 import java.text.DecimalFormat;
@@ -28,6 +29,10 @@ public class JoinServerEvent {
         @Override
         public void run() {
             VersionChecker.checkVersion();
+            if (!ModCore.config.getHasShownMissingLineNotification()){
+                Utils.sendMessage("VOW sends non voiced dialogue lines anonymously to our server so the mod can be improved. This can be disabled in the Mod menu settings.");
+                ModCore.config.setHasShownMissingLineNotification(true);
+            }
         }
     }
 }
