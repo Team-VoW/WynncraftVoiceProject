@@ -93,7 +93,7 @@ public final class ChatHandler3 {
 
     public void onStatusEffectRemove(ClientboundRemoveMobEffectPacket packet) {
 
-        if (packet.getEffect() == MobEffects.MOVEMENT_SLOWDOWN) {
+        if (packet.effect() == MobEffects.MOVEMENT_SLOWDOWN) {
             lastSlowdownApplied = 0;
         }
     }

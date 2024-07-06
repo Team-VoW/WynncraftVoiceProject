@@ -90,12 +90,7 @@ public class NPCHandler {
 
 
     public static boolean isArmourStand(Entity entity) {
-        for (ItemStack item : entity.getAllSlots()) {
-            if (item != null && !item.isEmpty()) {
-                return true;
-            }
-        }
-        return false;
+        return entity instanceof net.minecraft.world.entity.decoration.ArmorStand;
     }
 
 

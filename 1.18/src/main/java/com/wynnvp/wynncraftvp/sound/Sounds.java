@@ -11510,6 +11510,9 @@ public class Sounds {
         s.addSound("[1/1] Seaskipper: I'm afraid you cannot afford that boat.", "seaskipper-seaskippercaptain-83", true);
         s.addSound("[1/1] Seaskipper: There you go. Come again!", "seaskipper-seaskippercaptain-84", true);
         s.addSound("[1/4] Seaskipper Captain: Ohoh, that reminds me! I’ve got a letter for you - special delivery from a Corkian fellow. White hair, goggles, the lot.", "seaskipper-seaskippercaptain-85", true);
+        s.addSound("[1/1] Seaskipper Captain: Where are ya headed? Isles Of Fiction, huh? A'ight! I'll get ya there in no time.", "seaskipper-seaskippercaptain-86", true);
+        s.addSound("[1/4] Seaskipper Captain: So, this is your first time legitimately ridin' my boat, eh? I 'ought that pirate adventure would've scarred you!", "seaskipper-seaskippercaptain-87", true);
+        s.addSound("[1/4] Seaskipper Captain: Ah, I almost forgot! Take this Ability Shard! I doubt that I'll ever need one.", "seaskipper-seaskippercaptain-88", true);
 
 
     }
@@ -11641,7 +11644,7 @@ public class Sounds {
         s.addSound("[1/1] ????: Blockage in Factory Sector A2 is now clear. All regularly scheduled workers, please return to your posts immediately.", "fallenfactory-antikytherasupercomputer-6", true);
         s.addSound("[1/2] ????: WELL. DON'T YOU JUST FEEL SO PROUD OF YOURSELF. I DON'T KNOW WHAT YOU EXPECT TO ACCOMPLISH BY CRAWLING THROUGH THE VENTS. EXCEPT A FACE FULL OF HOT FUMES FROM THE FURNACE.", "fallenfactory-antikytherasupercomputer-7", true);
         s.addSound("[1/4] ????: Activating Main Production Line.", "fallenfactory-antikytherasupercomputer-8", true);
-        s.addSound("[2/4] ????: SINCE YOU SEEM TO BE INSISTENT ON STAYING, PERHAPS YOU WOULD BE INTERESTED IN TAKING A LOOK AT SOME OF THE MACHINERY CLOSE UP", "fallenfactory-antikytherasupercomputer-9", true);
+        s.addSound("[2/4] ????: SINCE YOU SEEM TO BE INSISTENT ON STAYING, PERHAPS YOU WOULD BE INTERESTED IN TAKING A LOOK AT SOME OF THE MACHINERY CLOSE UP.", "fallenfactory-antikytherasupercomputer-9", true);
         s.addSound("[1/1] ????: IF I WERE YOU, NOW WOULD BE A GOOD TIME TO RUN.", "fallenfactory-antikytherasupercomputer-10", true);
         s.addSound("[1/1] ????: I'VE HAD ENOUGH OF YOU.", "fallenfactory-antikytherasupercomputer-11", true);
         s.addSound("[1/4] ????: THAT WAS A LIE. I'M ACTUALLY STARTING TO ENJOY THIS.", "fallenfactory-antikytherasupercomputer-12", true);

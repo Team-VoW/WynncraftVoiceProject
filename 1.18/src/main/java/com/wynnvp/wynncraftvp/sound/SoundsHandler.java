@@ -31,7 +31,7 @@ public class SoundsHandler {
 
     public static SoundEvent registerSound(String name) {
 
-        ResourceLocation id = new ResourceLocation(ModCore.MODID, name.toLowerCase());
+        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(ModCore.MODID, name.toLowerCase());
         SoundEvent se = SoundEvent.createVariableRangeEvent(id);
 
         Registry.register(BuiltInRegistries.SOUND_EVENT, id, se);

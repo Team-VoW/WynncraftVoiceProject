@@ -19,7 +19,7 @@ import net.minecraft.world.item.Items;
 
 public class LineReportGUI extends LightweightGuiDescription {
 
-    private final ResourceLocation image = new ResourceLocation(ModCore.MODID, "wynnvplogo.png");
+    private final ResourceLocation image =  ResourceLocation.fromNamespaceAndPath(ModCore.MODID, "wynnvplogo.png");
 
 
     public LineReportGUI() {
