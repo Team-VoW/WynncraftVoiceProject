@@ -32,6 +32,7 @@ public class VOWAutoConfig implements ConfigData {
     //--------------------------------------------------------------
 
     public int blockCutOff = 32;
+    public boolean removeVillagerSounds = false;
     @ConfigEntry.Gui.Tooltip
     public boolean highlightSpeaker = false;
 
@@ -58,6 +59,13 @@ public class VOWAutoConfig implements ConfigData {
         return logPlayingInformation;
     }
 
+
+    public boolean isRemoveVillagerSounds() {
+        return removeVillagerSounds;
+    }
+    public void setRemoveVillagerSounds(boolean input){
+        removeVillagerSounds = input;
+    }
 
 
     public boolean isPlayAllSoundsOnPlayer() {
