@@ -1,12 +1,14 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.utils;
-
-import com.wynnvp.wynncraftvp.sound.line.LineData;
 
 import static com.wynnvp.wynncraftvp.utils.Utils.HTTPEncode;
 
+import com.wynnvp.wynncraftvp.sound.line.LineData;
+
 public class LineFormatter {
-
-
     public static LineData formatToLineData(String message) {
         LineData lineData = new LineData();
 
@@ -25,5 +27,4 @@ public class LineFormatter {
         lineData.setSoundLine(message);
         return lineData;
     }
-
 }

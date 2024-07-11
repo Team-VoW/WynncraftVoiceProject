@@ -1,12 +1,14 @@
 /*
- * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/
- * but was modified to fit this project
+ * Copyright © Team-VoW 2023-2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.text;
 
 import java.util.regex.Pattern;
 
+/*
+ * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
+ */
 public enum RecipientType {
     INFO(null, "Info"),
     // https://regexr.com/7b14s
@@ -16,7 +18,6 @@ public enum RecipientType {
 
     RecipientType(String foregroundPattern, String name) {
         this.foregroundPattern = (foregroundPattern == null ? null : Pattern.compile(foregroundPattern));
-
     }
 
     public boolean matchPattern(StyledText msg) {
@@ -24,5 +25,4 @@ public enum RecipientType {
         if (pattern == null) return false;
         return msg.getMatcher(pattern).find();
     }
-
 }

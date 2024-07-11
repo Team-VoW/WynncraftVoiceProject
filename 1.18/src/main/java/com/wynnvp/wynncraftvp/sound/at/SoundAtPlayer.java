@@ -1,3 +1,7 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.sound.at;
 
 import com.wynnvp.wynncraftvp.sound.SoundInstance;
@@ -8,11 +12,9 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.player.Player;
 
 public class SoundAtPlayer extends SoundInstance {
-
     public SoundAtPlayer(SoundEvent soundEvent) {
         super(soundEvent, SoundSource.VOICE, RandomSource.create());
     }
-
 
     @Override
     public void tick() {

@@ -1,24 +1,25 @@
 /*
- * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/
- * but was modified to fit this project
+ * Copyright © Team-VoW 2023-2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.text;
 
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.regex.Pattern;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket;
 import net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket;
 import net.minecraft.world.effect.MobEffects;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.regex.Pattern;
-
+/*
+ * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
+ */
 public final class ChatHandler3 {
     // Test suite: https://regexr.com/7esj7
     private static final Pattern NPC_CONFIRM_PATTERN =
@@ -38,11 +39,9 @@ public final class ChatHandler3 {
     private long chatScreenTicks = 0;
     private List<Component> collectedLines = new ArrayList<>();
 
-
     private boolean updateWrongOrder = false;
 
-    private void updateWrongOrderPackets(){
-
+    private void updateWrongOrderPackets() {
         updateWrongOrder = false;
 
         if (delayedDialogue != null) {
@@ -51,14 +50,11 @@ public final class ChatHandler3 {
             // If we got here, then we did not get the slowdown effect, otherwise we would
             // have sent the dialogue already
             postNpcDialogue(dialogToSend, delayedType);
-
         }
     }
 
     public void onTick() {
-
-        if (updateWrongOrder)
-            updateWrongOrderPackets();
+        if (updateWrongOrder) updateWrongOrderPackets();
 
         if (collectedLines.isEmpty()) return;
 
@@ -70,13 +66,10 @@ public final class ChatHandler3 {
     }
 
     public void onChatReceived(Component message) {
-
         handleWithSeparation(message);
-
     }
 
     public void onStatusEffectUpdate(ClientboundUpdateMobEffectPacket packet) {
-
         if (packet.getEffect() == MobEffects.MOVEMENT_SLOWDOWN
                 && packet.getEffectAmplifier() == 3
                 && packet.getEffectDurationTicks() == 32767) {
@@ -92,7 +85,6 @@ public final class ChatHandler3 {
     }
 
     public void onStatusEffectRemove(ClientboundRemoveMobEffectPacket packet) {
-
         if (packet.effect() == MobEffects.MOVEMENT_SLOWDOWN) {
             lastSlowdownApplied = 0;
         }
@@ -103,7 +95,6 @@ public final class ChatHandler3 {
 
         // This is a normal one line chat, or we pass a chat screen through
         postChatLine(message, styledText);
-
     }
 
     private void handleWithSeparation(Component message) {
@@ -117,7 +108,9 @@ public final class ChatHandler3 {
                 || (styledText.isEmpty() && (currentTicks <= chatScreenTicks + CHAT_SCREEN_TICK_DELAY))) {
             // This is a "chat screen"
 
-            if (LineData.NPC_DIALOGUE_PATTERN.matcher(message.getString().replace("\n", "").trim()).find()) {
+            if (LineData.NPC_DIALOGUE_PATTERN
+                    .matcher(message.getString().replace("\n", "").trim())
+                    .find()) {
                 // This is a NPC dialogue, but it is not a foreground one
                 postNpcDialogue(List.of(message), NpcDialogueType.NORMAL);
                 return;
@@ -193,9 +186,7 @@ public final class ChatHandler3 {
     }
 
     private void processNewLines(LinkedList<Component> newLines) {
-
-        if (newLines == null || newLines.isEmpty())
-            return;
+        if (newLines == null || newLines.isEmpty()) return;
 
         // We have new lines added to the bottom of the chat screen. They are either a dialogue,
         // or new background chat messages. Separate them in two parts
@@ -211,7 +202,9 @@ public final class ChatHandler3 {
             // First remove the "Press SHIFT/Select an option to continue" trailer.
             newLines.removeFirst();
 
-            if (!newLines.isEmpty() && newLines.getFirst() != null && newLines.getFirst().getString().isEmpty()) {
+            if (!newLines.isEmpty()
+                    && newLines.getFirst() != null
+                    && newLines.getFirst().getString().isEmpty()) {
                 // After this we assume a blank line
                 newLines.removeFirst();
             } else {
@@ -288,8 +281,6 @@ public final class ChatHandler3 {
         updateWrongOrder = true;
     }
 
-
-
     private void handleFakeChatLine(Component message) {
         // This is a normal, single line chat, sent in the background
         StyledText styledText = StyledText.fromComponent(message);
@@ -298,7 +289,6 @@ public final class ChatHandler3 {
         if (getRecipientType(styledText) == RecipientType.NPC) {
             postNpcDialogue(List.of(message), NpcDialogueType.CONFIRMATIONLESS);
         }
-
     }
 
     /**
@@ -316,11 +306,10 @@ public final class ChatHandler3 {
         // Normally § codes are stripped from the log; need this to be able to debug chat formatting
         RecipientType recipientType = getRecipientType(styledText);
 
-
         switch (recipientType) {
             case INFO:
                 if (LineData.NPC_DIALOGUE_PATTERN.matcher(message.getString()).find()
-                || !message.getString().contains("[")) {
+                        || !message.getString().contains("[")) {
                     // This is a NPC dialogue, but it is not a foreground one
                     postNpcDialogue(List.of(message), NpcDialogueType.NORMAL);
                 }
@@ -347,8 +336,6 @@ public final class ChatHandler3 {
         onNpcDialogue(dialogue);
     }
 
-
-
     private RecipientType getRecipientType(StyledText codedMessage) {
         // Check if message match a recipient category
         for (RecipientType recipientType : RecipientType.values()) {
@@ -361,16 +348,13 @@ public final class ChatHandler3 {
         return RecipientType.INFO;
     }
 
-
     private static long getGameTime() {
         return Minecraft.getInstance().level.getLevelData().getGameTime();
     }
 
-    private void onNpcDialogue(List<Component> dialogue){
-        for (var comp : dialogue){
+    private void onNpcDialogue(List<Component> dialogue) {
+        for (var comp : dialogue) {
             ReceiveChatEvent.receivedChat(comp.getString());
         }
     }
-
-
 }

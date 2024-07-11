@@ -1,6 +1,5 @@
 /*
- * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/
- * but was modified to fit this project
+ * Copyright © Team-VoW 2023-2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.text;
