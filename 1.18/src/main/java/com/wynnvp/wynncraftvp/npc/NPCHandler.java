@@ -1,22 +1,20 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.npc;
-
-
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.multiplayer.ClientLevel;
-import net.minecraft.core.BlockPos;
-import net.minecraft.network.chat.Component;
-import net.minecraft.world.entity.Display;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.phys.AABB;
-import net.minecraft.world.phys.Vec3;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
 
-public class NPCHandler {
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.entity.Display;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.world.phys.Vec3;
 
+public class NPCHandler {
     public static Vec3 findPosition(String rawName) {
         CachedEntity cachedEntity = findEntity(rawName);
         return cachedEntity == null ? null : cachedEntity.child.getEyePosition();
@@ -33,15 +31,14 @@ public class NPCHandler {
         return c;
     }
 
-    //Standard find function
+    // Standard find function
     private static CachedEntity findNPC(String rawName) {
         Player player = Minecraft.getInstance().player;
         assert player != null;
         Entity entity = getClosestEntityWithName(rawName, player);
 
-        //If no entity was found
-        if (entity == null)
-            return new CachedEntity();
+        // If no entity was found
+        if (entity == null) return new CachedEntity();
 
         Entity childEntity = getHead(entity);
         if (childEntity == null) {
@@ -49,7 +46,6 @@ public class NPCHandler {
         }
 
         CachedEntity cachedEntity = new CachedEntity(entity, childEntity);
-
 
         return cachedEntity;
     }
@@ -61,8 +57,8 @@ public class NPCHandler {
         Entity childEntity = null;
         Vec3 npcEyePos = entity.getEyePosition().add(0, -0.2, 0);
 
-
-        for (Entity entityInWorld : (Minecraft.getInstance().level.entitiesForRendering())) { // iterate over every single entity
+        for (Entity entityInWorld :
+                (Minecraft.getInstance().level.entitiesForRendering())) { // iterate over every single entity
             // double dist = entityInWorld.getEyePos().squaredDistanceTo(npcEyePos);
             // Vec3 entityEyePos = entityInWorld.getEyePos();
             double xzBlockDistance = squaredXZDistance(entityInWorld.getEyePosition(), npcEyePos);
@@ -92,24 +88,22 @@ public class NPCHandler {
         return d * d + f * f;
     }
 
-
     public static boolean isArmourStand(Entity entity) {
         return entity instanceof net.minecraft.world.entity.decoration.ArmorStand;
     }
 
-
     private static Entity getClosestEntityWithName(String rawName, Player player) {
         Vec3 playerEyePos = player.getEyePosition();
 
-        //Set to really high as a start value to find a closer one
+        // Set to really high as a start value to find a closer one
         double closestDistance = 20000;
         Entity entity = null;
-        for (Entity entityInWorld : Minecraft.getInstance().level.entitiesForRendering()) { // iterate over every single entity
+        for (Entity entityInWorld :
+                Minecraft.getInstance().level.entitiesForRendering()) { // iterate over every single entity
             double distance = entityInWorld.position().distanceToSqr(playerEyePos);
 
-            //This entity is further away then the closest one
-            if (closestDistance < distance)
-                continue;
+            // This entity is further away then the closest one
+            if (closestDistance < distance) continue;
 
             String entityName = getName(entityInWorld);
 
@@ -119,13 +113,14 @@ public class NPCHandler {
                 continue;
             }
 
-            //This code is to handle playing the sound at the location of the closest ??? character if no npc with the real name was found
+            // This code is to handle playing the sound at the location of the closest ??? character if no npc with the
+            // real name was found
             if (entityName.contains("???")) {
-                //Adds a big settable number so that it is only played at this ??? character if there really is no other with the real name
+                // Adds a big settable number so that it is only played at this ??? character if there really is no
+                // other with the real name
                 distance += config.getTripleQuestionMarkInessentiel();
-                //If there is a closer entity with the real name or with ??? name then continue
-                if (closestDistance < distance)
-                    continue;
+                // If there is a closer entity with the real name or with ??? name then continue
+                if (closestDistance < distance) continue;
                 closestDistance = distance;
                 entity = entityInWorld;
             }
@@ -138,30 +133,29 @@ public class NPCHandler {
         return entity;
     }
 
-
-    public static Entity findClosestTextDisplay (String rawName, Player player) {
+    public static Entity findClosestTextDisplay(String rawName, Player player) {
         double closestDistance = Double.MAX_VALUE;
         Entity closestPosition = null;
         Vec3 playerEyePos = player.getEyePosition();
 
-
         // Iterate through all entities in the world
-        for (Entity entity : Minecraft.getInstance().level.getEntitiesOfClass(Display.TextDisplay.class,
-                new AABB(player.getEyePosition().x - 200,
-                        player.getEyePosition().y - 200,
-                        player.getEyePosition().z - 200,
-                        player.getEyePosition().x + 200,
-                        player.getEyePosition().y + 200,
-                        player.getEyePosition().z + 200))){
-
+        for (Entity entity : Minecraft.getInstance()
+                .level
+                .getEntitiesOfClass(
+                        Display.TextDisplay.class,
+                        new AABB(
+                                player.getEyePosition().x - 200,
+                                player.getEyePosition().y - 200,
+                                player.getEyePosition().z - 200,
+                                player.getEyePosition().x + 200,
+                                player.getEyePosition().y + 200,
+                                player.getEyePosition().z + 200))) {
             if (entity instanceof Display.TextDisplay) {
                 Display.TextDisplay textDisplay = (Display.TextDisplay) entity;
-
 
                 Component text = textDisplay.textRenderState().text();
                 // Check if the text matches
                 if (getName(text.getString()).contains(rawName)) {
-
                     double distance = textDisplay.position().distanceToSqr(playerEyePos);
 
                     // Update the closest entity if this one is nearer
@@ -171,13 +165,10 @@ public class NPCHandler {
                     }
                 }
             }
-
-
         }
 
         return closestPosition;
     }
-
 
     private static String getName(Entity entity) {
         return getName(entity.getDisplayName().getString());
@@ -206,8 +197,7 @@ public class NPCHandler {
             return false;
         }
         // distance change?
-        return !(Math.abs(c.name.distanceTo(c.child) - c.distance) > config.getNpcFinderThingMaxDistanceChangeBeforeCacheInvalid());
+        return !(Math.abs(c.name.distanceTo(c.child) - c.distance)
+                > config.getNpcFinderThingMaxDistanceChangeBeforeCacheInvalid());
     }
-
-
 }

@@ -1,3 +1,7 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.events;
 
 import net.minecraft.client.Minecraft;
@@ -7,15 +11,11 @@ import net.minecraft.client.sounds.SoundManager;
 import net.minecraft.client.sounds.WeighedSoundEvents;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundSource;
-import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 public class PlaySoundEvent {
-
     public static void SoundPlayed(SoundInstance sound, CallbackInfo ci) {
-
-        if (!(sound.getSource() == SoundSource.MASTER))
-            return;
+        if (!(sound.getSource() == SoundSource.MASTER)) return;
         SoundManager manager = Minecraft.getInstance().getSoundManager();
 
         ci.cancel();
@@ -24,15 +24,12 @@ public class PlaySoundEvent {
     }
 
     private static SoundInstance changeCategory(SoundInstance sound, SoundSource soundCategory) {
-
-
         return new SoundInstance() {
             @Override
             public ResourceLocation getLocation() {
                 return sound.getLocation();
             }
 
-            @Nullable
             @Override
             public WeighedSoundEvents resolve(SoundManager manager) {
                 return sound.resolve(manager);

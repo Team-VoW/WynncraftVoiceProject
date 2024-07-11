@@ -1,35 +1,35 @@
 {
-  "schemaVersion": 1,
-  "id": "${mod_id}",
-  "version": "${mod_version}",
-  "name": "${mod_name}",
-  "description": "Now fabricated.",
   "authors": [
     "https://voicesofwynn.com/credits"
   ],
   "contact": {
     "homepage": "https://voicesofwynn.com/",
-    "sources": "https://github.com/Team-VoW",
-    "issues": "https://github.com/Team-VoW/WynncraftVoiceProject/issues"
+    "issues": "https://github.com/Team-VoW/WynncraftVoiceProject/issues",
+    "sources": "https://github.com/Team-VoW"
   },
-  "license": "",
-  "icon": "assets/wynnvp/wynnvplogo.png",
-  "environment": "client",
+  "depends": {
+    "cloth-config": ">=${cloth_config_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "minecraft": "${minecraft_version}"
+  },
+  "description": "Now fabricated.",
   "entrypoints": {
-    "modmenu": [
-      "com.wynnvp.wynncraftvp.config.ModMenuIntegration"
-    ],
     "main": [
       "com.wynnvp.wynncraftvp.ModCore"
+    ],
+    "modmenu": [
+      "com.wynnvp.wynncraftvp.config.ModMenuIntegration"
     ]
   },
+  "environment": "client",
+  "icon": "assets/wynnvp/wynnvplogo.png",
+  "id": "${mod_id}",
+  "license": "",
   "mixins": [
     "wynnvp.mixins.json"
   ],
-  "depends": {
-    "cloth-config": ">=${cloth_config_version}",
-    "fabricloader": ">=${fabric_loader_version}",
-    "fabric-api": ">=${fabric_api_version}",
-    "minecraft": "${minecraft_version}"
-  }
+  "name": "${mod_name}",
+  "schemaVersion": 1,
+  "version": "${mod_version}"
 }

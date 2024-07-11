@@ -1,19 +1,20 @@
 /*
- * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/
- * but was modified to fit this project
+ * Copyright © Team-VoW 2023-2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.text;
 
+import java.util.Arrays;
+import java.util.Objects;
+import java.util.Optional;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.HoverEvent;
 import net.minecraft.network.chat.Style;
 
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.Optional;
-
+/*
+ * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
+ */
 public final class PartStyle {
     private static final String STYLE_PREFIX = "§";
 
@@ -184,8 +185,6 @@ public final class PartStyle {
 
         return styleString.toString();
     }
-
-
 
     private String tryConstructDifference(PartStyle oldStyle) {
         StringBuilder add = new StringBuilder();

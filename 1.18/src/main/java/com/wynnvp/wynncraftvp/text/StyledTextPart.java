@@ -1,17 +1,18 @@
 /*
- * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/
- * but was modified to fit this project
+ * Copyright © Team-VoW 2023-2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.text;
 
-import net.minecraft.ChatFormatting;
-import net.minecraft.network.chat.Style;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Style;
 
+/*
+ * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
+ */
 public final class StyledTextPart {
     private final String text;
     private final PartStyle style;
@@ -31,7 +32,6 @@ public final class StyledTextPart {
         this.style = new PartStyle(part.style, this);
         this.parent = parent;
     }
-
 
     // This factory is used to create a StyledTextPart from a component that has formatting codes
     // It is separate from the constructor because this only needs to be applied in cases there the text could have
@@ -113,7 +113,6 @@ public final class StyledTextPart {
     public PartStyle getPartStyle() {
         return style;
     }
-
 
     boolean isEmpty() {
         return text.isEmpty();

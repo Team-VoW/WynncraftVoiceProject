@@ -1,17 +1,28 @@
 /*
- * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/
- * but was modified to fit this project
+ * Copyright © Team-VoW 2023-2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.text;
 
-import net.minecraft.network.chat.*;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Deque;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+import net.minecraft.network.chat.ClickEvent;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.HoverEvent;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.network.chat.Style;
 
+/*
+ * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
+ */
 public final class StyledText implements Iterable<StyledTextPart> {
     private final List<StyledTextPart> parts;
 
@@ -69,7 +80,6 @@ public final class StyledText implements Iterable<StyledTextPart> {
         return new StyledText(parts, clickEvents, hoverEvents);
     }
 
-
     // We don't want to expose the actual string to the outside world
     // If you need to do an operation with this string, implement it as a method
     public String getString(PartStyle.StyleType type) {
@@ -95,23 +105,17 @@ public final class StyledText implements Iterable<StyledTextPart> {
         return getString(PartStyle.StyleType.NONE);
     }
 
-
-
     public boolean isEmpty() {
         return parts.isEmpty();
     }
-
 
     public boolean contains(String codedString) {
         return contains(codedString, PartStyle.StyleType.DEFAULT);
     }
 
-
     public boolean contains(String codedString, PartStyle.StyleType styleType) {
         return getString(styleType).contains(codedString);
     }
-
-
 
     public Matcher getMatcher(Pattern pattern) {
         return getMatcher(pattern, PartStyle.StyleType.DEFAULT);
@@ -121,7 +125,6 @@ public final class StyledText implements Iterable<StyledTextPart> {
         return pattern.matcher(getString(styleType));
     }
 
-
     public boolean find(Pattern pattern) {
         return find(pattern, PartStyle.StyleType.DEFAULT);
     }
@@ -129,7 +132,6 @@ public final class StyledText implements Iterable<StyledTextPart> {
     public boolean find(Pattern pattern, PartStyle.StyleType styleType) {
         return pattern.matcher(getString(styleType)).find();
     }
-
 
     int addClickEvent(ClickEvent clickEvent) {
         // Check if the event is already in the list

@@ -1,14 +1,17 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.sound.at;
+
+import static com.wynnvp.wynncraftvp.ModCore.config;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
 
-import static com.wynnvp.wynncraftvp.ModCore.config;
-
 public class SoundHighlight {
-
     public static void ShowParticles(Vec3 position) {
         if (config.isHighlightSpeaker()) {
             ShowDefaultParticles(position);

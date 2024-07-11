@@ -1,10 +1,12 @@
 /*
- * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/
- * but was modified to fit this project
+ * Copyright © Team-VoW 2023-2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.text;
 
+/*
+ * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
+ */
 public class CustomColor {
     public static final CustomColor NONE = new CustomColor(-1, -1, -1, -1);
 
@@ -12,7 +14,6 @@ public class CustomColor {
     public final int g;
     public final int b;
     public final int a;
-
 
     public CustomColor(int r, int g, int b, int a) {
         this.r = r;
@@ -27,7 +28,6 @@ public class CustomColor {
     public static CustomColor fromInt(int num) {
         return new CustomColor(num >> 16 & 255, num >> 8 & 255, num & 255, num >> 24 & 255);
     }
-
 
     /**
      * 0xAARRGGBB format
@@ -69,5 +69,4 @@ public class CustomColor {
     public String toString() {
         return toHexString();
     }
-
 }

@@ -1,4 +1,10 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.sound;
+
+import static com.wynnvp.wynncraftvp.ModCore.config;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
@@ -16,12 +22,9 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
 
-import static com.wynnvp.wynncraftvp.ModCore.config;
-
 public class SoundPlayer {
-
     private final LineReporter lineReporter;
-    //public static boolean SPEAKING = false;
+    // public static boolean SPEAKING = false;
 
     public SoundPlayer() {
         lineReporter = new LineReporter();
@@ -29,10 +32,13 @@ public class SoundPlayer {
 
     private SoundInstance lastPlayedSound = null;
 
-    //Code that is run to play all the sounds
+    // Code that is run to play all the sounds
     public void playSound(LineData lineData) {
-        if (config.isLogPlayingInformation()){
-            VowLogger.logLine("[Attempting to play] " + lineData.getRealLine().trim() + " HTTP encoded:" + Utils.HTTPEncode(lineData.getRealLine().trim()), "Info");
+        if (config.isLogPlayingInformation()) {
+            VowLogger.logLine(
+                    "[Attempting to play] " + lineData.getRealLine().trim() + " HTTP encoded:"
+                            + Utils.HTTPEncode(lineData.getRealLine().trim()),
+                    "Info");
         }
 
         String line = lineData.getSoundLine();
@@ -42,15 +48,13 @@ public class SoundPlayer {
 
         SoundsHandler soundsHandler = ModCore.instance.soundsHandler;
 
-        if (!canPlaySound(soundsHandler, lineData, player, world))
-            return;
+        if (!canPlaySound(soundsHandler, lineData, player, world)) return;
 
         if (!config.isOnlyLogNotPlayingLines() && config.isLogDialogueLines())
             VowLogger.logLine(lineData.getRealLine() + " [PLAYED]");
 
-
         soundsHandler.get(line).ifPresentOrElse(this::PlaySoundObject, () -> {
-            if (config.isLogPlayingInformation()){
+            if (config.isLogPlayingInformation()) {
                 VowLogger.logLine("Could not play sound: " + line, "Info");
             }
         });
@@ -60,21 +64,18 @@ public class SoundPlayer {
         String line = lineData.getSoundLine();
 
         if (soundsHandler.get(line).isEmpty()) {
-            if (config.isLogDialogueLines() && lineData.isNPCSentLine())
-                VowLogger.logLine(lineData.getRealLine());
+            if (config.isLogDialogueLines() && lineData.isNPCSentLine()) VowLogger.logLine(lineData.getRealLine());
             lineReporter.MissingLine(lineData);
             return false;
         }
 
         if (player == null) {
-            if (config.isLogPlayingInformation())
-                VowLogger.logLine("Player was null. Sound not played", "Error");
+            if (config.isLogPlayingInformation()) VowLogger.logLine("Player was null. Sound not played", "Error");
             return false;
         }
 
         if (world == null) {
-            if (config.isLogPlayingInformation())
-                VowLogger.logLine("World was null. Sound not played", "Error");
+            if (config.isLogPlayingInformation()) VowLogger.logLine("World was null. Sound not played", "Error");
             return false;
         }
 
@@ -86,10 +87,9 @@ public class SoundPlayer {
         assert player != null;
         SoundManager manager = Minecraft.getInstance().getSoundManager();
 
-
-        //Stops all sounds so that not multiple voice lines are played over each other
-        //manager.stop();
-        if (lastPlayedSound != null){
+        // Stops all sounds so that not multiple voice lines are played over each other
+        // manager.stop();
+        if (lastPlayedSound != null) {
             lastPlayedSound.StopSound();
             lastPlayedSound = null;
         }
@@ -97,7 +97,7 @@ public class SoundPlayer {
         final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
         final SoundEvent soundEvent = customSoundClass.soundEvent();
 
-        //If this sound contains info about a location to play it at
+        // If this sound contains info about a location to play it at
         if (sound.getPosition() != null) {
             Vector3 posAsVector3 = sound.getPosition();
             Vec3 soundPos = new Vec3(posAsVector3.x, posAsVector3.y, posAsVector3.z);
@@ -105,9 +105,9 @@ public class SoundPlayer {
             return;
         }
 
-        //If this sound was set to play at the player pos or the setting to play all sounds on player is turned on
+        // If this sound was set to play at the player pos or the setting to play all sounds on player is turned on
         if (customSoundClass.movingSound() || config.isPlayAllSoundsOnPlayer()) {
-            //Play the sound at the player
+            // Play the sound at the player
             var soundAtPlayer = new SoundAtPlayer(soundEvent);
             manager.play(soundAtPlayer);
             lastPlayedSound = soundAtPlayer;
@@ -128,11 +128,9 @@ public class SoundPlayer {
     }
 
     private SoundInstance playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {
-
         SoundEvent soundEvent = soundObject.getCustomSoundClass().soundEvent();
 
         var soundAtCords = new SoundAtCords(soundEvent, soundObject, position);
-
 
         manager.play(soundAtCords);
         return soundAtCords;
@@ -141,9 +139,9 @@ public class SoundPlayer {
     private boolean isOutsideReach(SoundObject soundObject, Player player, Vec3 npcPosition) {
         int soundObjectFallOff = soundObject.getFallOff();
 
-        int squaredFalloff = soundObjectFallOff == 0 ? config.getBlockCutOff() * config.getBlockCutOff() : soundObjectFallOff * soundObjectFallOff;
+        int squaredFalloff = soundObjectFallOff == 0
+                ? config.getBlockCutOff() * config.getBlockCutOff()
+                : soundObjectFallOff * soundObjectFallOff;
         return (player.position().distanceToSqr(npcPosition) >= squaredFalloff);
     }
-
-
 }

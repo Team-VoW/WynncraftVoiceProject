@@ -3,12 +3,12 @@ Any pull requests that improve the mod in any way are welcome!
 
 ---------------------------------------------------------------------
 ## !!!  IMPORTANT  !!!
-This mod adds a ton of voices to all characters of Wynncraft.  
-The voices were chosen by merit of the actors of these individuals.  
-The reason this mod has such a large size is because of the sheer amount of audio clips recorded.  
+This mod adds a ton of voices to all characters of Wynncraft.
+The voices were chosen by merit of the actors of these individuals.
+The reason this mod has such a large size is because of the sheer amount of audio clips recorded.
 
 ---------------------------------------------------------------------
-If you would like to contend for a role in this amazing mod, 
+If you would like to contend for a role in this amazing mod,
 [join our Discord server](https://discord.gg/bQRrD4Nfwg).
 
 If you would like to donate to our project, you can subscribe
