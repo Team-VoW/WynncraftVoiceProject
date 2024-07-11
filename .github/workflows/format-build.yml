@@ -13,10 +13,16 @@ jobs:
       matrix:
         java: [21]
         os: [ubuntu-latest]
+    if: '! github.event.pull_request.draft'
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout the Repository
         uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          token: ${{ secrets.PRIVATE_TOKEN }}
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
 
       - name: Setup JDK ${{ matrix.java }}
         uses: actions/setup-java@v4
