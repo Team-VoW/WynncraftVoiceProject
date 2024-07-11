@@ -25,7 +25,7 @@
   "environment": "client",
   "icon": "assets/wynnvp/wynnvplogo.png",
   "id": "${mod_id}",
-  "license": "",
+  "license": "AGPL-3.0-only, CC-BY-4.0 for sounds",
   "mixins": [
     "wynnvp.mixins.json"
   ],
