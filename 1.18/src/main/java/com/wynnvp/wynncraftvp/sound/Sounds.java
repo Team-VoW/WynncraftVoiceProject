@@ -4,7 +4,8 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
-// this class gets replaced!
+import org.joml.Vector3f;
+
 public class Sounds {
     public static void register(SoundsHandler s) {
         register1(s);
@@ -426,7 +427,7 @@ public class Sounds {
                 "[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.",
                 "kingsrecruit-ragnisking-1",
                 false,
-                new Vector3(-939, 67, -1567),
+                new Vector3f(-939, 67, -1567),
                 70);
         s.addSound(
                 "[1/7] Ragni's King: Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.",
@@ -853,7 +854,7 @@ public class Sounds {
                 "[3/8] ???: H-hey! You two! You're soldiers, right? I can tell from your weird fashion sense. You folk are supposed to help people! So. Help!",
                 "infestedplants-ope-1",
                 false,
-                new Vector3(-420, 67, -1596));
+                new Vector3f(-420, 67, -1596));
         s.addSound(
                 "[4/8] Tasim: Huh? Oh- yes, of course! What's your name? What do you need help with?",
                 "infestedplants-tasim-3",
@@ -4770,12 +4771,12 @@ public class Sounds {
                 "[1/3] Alfonse: This is insane, why are we here?! We're looking for corruption you know that right?",
                 "corruptedvillage-alfonse-1",
                 false,
-                new Vector3(332, 50, -1135));
+                new Vector3f(332, 50, -1135));
         s.addSound(
                 "[2/3] Roy: Calm down. All we have to do is keep digging. Besides, he did say he'd pay us a lot, so stop being mad.",
                 "corruptedvillage-roy-1",
                 false,
-                new Vector3(330, 44, -1120));
+                new Vector3f(330, 44, -1120));
         s.addSound(
                 "[3/3] Alfonse: Forget it, I don't care anymore, just prime the explosive and get clear of the blast!",
                 "corruptedvillage-alfonse-2",
@@ -8257,7 +8258,7 @@ public class Sounds {
                 "[1/1] Poxper: Uthniiazek! Uthniiazek!! WHY NO LISTEN TO POXPER?",
                 "blazingretribution-greggr-3",
                 false,
-                new Vector3(-24101, 44, -13225),
+                new Vector3f(-24101, 44, -13225),
                 46);
         s.addSound(
                 "[1/3] Poxper: Stupid Villager magic thing! Why fire no listen?", "blazingretribution-greggr-4", false);
@@ -9395,7 +9396,7 @@ public class Sounds {
                 "[2/9] Maiden: I hear a voice outside! Oh, who might it be, I wonder~",
                 "themaidentower-maiden-1",
                 false,
-                new Vector3(-1992, 92, -5298));
+                new Vector3f(-1992, 92, -5298));
         s.addSound(
                 "[3/9] Sherk: Here goes... Hello, fair lady of the tower! I am Sherk! I heard your voice on the road- and I must meet you myself! ...that's formal enough, right?",
                 "themaidentower-sherk-12",
@@ -9404,7 +9405,7 @@ public class Sounds {
                 "[4/9] Maiden: Ohoho! An admirer? Such a lovely, rugged accent! However ...if you wish to meet me, I'd like to see your devotion, yes?",
                 "themaidentower-maiden-2",
                 false,
-                new Vector3(-1992, 92, -5298));
+                new Vector3f(-1992, 92, -5298));
         s.addSound(
                 "[5/9] Sherk: Woman, you have no idea what you're sayin' when you ask for devotion.",
                 "themaidentower-sherk-13",
@@ -9413,12 +9414,12 @@ public class Sounds {
                 "[6/9] Maiden: There is a lovely urn my father had before. He took it with him to the grave, and I do miss my dear father so.",
                 "themaidentower-maiden-3",
                 false,
-                new Vector3(-1992, 92, -5298));
+                new Vector3f(-1992, 92, -5298));
         s.addSound(
                 "[7/9] Maiden: Retrieve the urn for me, so I can have a memento of him. Brave the crypts of Olux, behind the bank... And prove your devotion, dear suitor~",
                 "themaidentower-maiden-4",
                 false,
-                new Vector3(-1992, 92, -5298));
+                new Vector3f(-1992, 92, -5298));
         s.addSound(
                 "[8/9] Sherk: ...I'll return! You'll get your urn, no doubt! ... ...and a lovely fine boot up my backside. I don't fancy a massacre for a piece of pottery, Win person.",
                 "themaidentower-sherk-14",
@@ -9451,7 +9452,7 @@ public class Sounds {
                 "[2/9] Sherk: Not exactly, milady! I'm the one seeking your affections- Coming up the ladder. I know I may not be a fairytale husband, but-",
                 "themaidentower-sherk-20",
                 false,
-                new Vector3(-1995, 87, -5299));
+                new Vector3f(-1995, 87, -5299));
         s.addSound(
                 "[3/9] Maiden: Oh...my...goodness! A big, strong, strapping ogre!! Not a fairytale, my foot! And so polite, too... Oh, you'll make a perfect husband, heehee~",
                 "themaidentower-maiden-6",
@@ -13066,62 +13067,62 @@ public class Sounds {
                 "[1/10] Teacher: Okay class, everyone take your seats, and listen up. This class is going to be interesting.",
                 "orderofthegrook-magicalteacher-1",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[2/10] Teacher: As you know, this class is all about magical effects, specifically those tied to various materials, and how they'll affect you!",
                 "orderofthegrook-magicalteacher-2",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[3/10] Teacher: This is going to be a hands-on learning experience, so those of you with weak constitutions may request to skip the demonstration if you're concerned for your health.",
                 "orderofthegrook-magicalteacher-3",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[4/10] Teacher: If you've read my books, you know about Quartz, and how dangerous it can be if overcharged. So, of course, we have an overcharged sample here so you can feel the signs of it.",
                 "orderofthegrook-magicalteacher-4",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[5/10] Teacher: It may be explosive, but it will be in a controlled manner. The worst that'll happen to you is your face will get a bit dusty, or your glasses will fall off.",
                 "orderofthegrook-magicalteacher-5",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[6/10] Teacher: Magical crystals, as we have to my left here, can be charged with all kinds of different effects. This is an incredibly valuable aspect for artificers.",
                 "orderofthegrook-magicalteacher-6",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[7/10] Teacher: Depending on the formation, they can have natural effects as well. These crystals were found in Gavel's floating islands, and...well, let's say it's difficult to keep it in its case.",
                 "orderofthegrook-magicalteacher-7",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[8/10] Teacher: Our last sample is of cosmic material, and if you're sickened easily, then don't examine it. Its effects are mostly unknown, but one thing's certain...",
                 "orderofthegrook-magicalteacher-8",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[9/10] Teacher: ...it's dangerous to be exposed for long periods. Now, each of you will go back behind me, and examine and interact with each of the three samples provided.",
                 "orderofthegrook-magicalteacher-9",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[10/10] Teacher: Once you've done so, then you can leave. Hands-on training is the best way to learn, after all.",
                 "orderofthegrook-magicalteacher-10",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[1/2] Teacher: Well done. How did that feel?",
                 "orderofthegrook-magicalteacher-11",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[2/2] Teacher: Personally, the void sample is the most interesting to me. You may now leave the classroom.",
                 "orderofthegrook-magicalteacher-12",
                 false,
-                new Vector3(10885, 34, 4843));
+                new Vector3f(10885, 34, 4843));
         s.addSound(
                 "[1/8] Teacher: Alright everyone, take a seat but don't get comfy. You'll be getting up soon. Hope you brought your reading glasses.",
                 "orderofthegrook-magicalteacher-13",
@@ -14054,25 +14055,25 @@ public class Sounds {
                 "[1/4] Aryn: P-please, I beg of you spirit, let me go free! The tribesmen must be so worried-",
                 "lostinthejungle-aryn-1",
                 false,
-                new Vector3(-699, 8, -354),
+                new Vector3f(-699, 8, -354),
                 50);
         s.addSound(
                 "[2/4] Aryn?: DO NOT RESIST, BOY! YOUR BODY IS MINE. I WAS TRAPPED IN THAT STONE FOR MILLENIA, AND NOW I AM FREE.",
                 "lostinthejungle-possessedaryn-1",
                 false,
-                new Vector3(-699, 8, -354),
+                new Vector3f(-699, 8, -354),
                 40);
         s.addSound(
                 "[3/4] Aryn: Aha, I hear someone coming! Surely a tribesman here to rescue me!",
                 "lostinthejungle-aryn-2",
                 false,
-                new Vector3(-699, 8, -354),
+                new Vector3f(-699, 8, -354),
                 30);
         s.addSound(
                 "[4/4] Aryn?: Oh! If so, the body of this warrior will be far better suited to my needs! Grant me your power, boy! I need to thrash them first to possess them!",
                 "lostinthejungle-possessedaryn-2",
                 false,
-                new Vector3(-2398, 8, -821));
+                new Vector3f(-2398, 8, -821));
         s.addSound(
                 "[1/6] Aryn: Hahah, take that, evil wraith! You'll never match the power of our tribe-",
                 "lostinthejungle-aryn-3",
@@ -21798,7 +21799,7 @@ public class Sounds {
                 "[1/1] ???: Do not step any closer... Or I will be forced to obliterate you!",
                 "ultimateweapon-beetle-1",
                 false,
-                new Vector3(-874, 27, -4618),
+                new Vector3f(-874, 27, -4618),
                 40);
         s.addSound("[1/5] Dodegar: The final component! It is finally here!", "ultimateweapon-dodegar-30", false);
         s.addSound("[2/5] Dodegar: Oh my Orphion!", "ultimateweapon-dodegar-31", false);
@@ -26132,55 +26133,55 @@ public class Sounds {
                 "[1/5] Fetu: ...AAAAAAAAAAAAAAAAAAAAHHHHHHHH!!!!!!! HEEEEEEEEEEEEELLLLLLLLPPPPPP!!!!! THERE ARE BIIIIIIIIIIIRDS!!!!!",
                 "thelost-fetu-1",
                 false,
-                new Vector3(448, 87, -4498),
+                new Vector3f(448, 87, -4498),
                 50);
         s.addSound(
                 "[2/5] Fetu: HUMAN! YOU, DOWN THERE! HELP ME! I was just trying to find my way back to my friends...",
                 "thelost-fetu-2",
                 false,
-                new Vector3(448, 87, -4498),
+                new Vector3f(448, 87, -4498),
                 50);
         s.addSound(
                 "[3/5] Fetu: When this GIANT BIRD KIDNAPPED ME and threw me in her nest! I think she thinks I'm one of her chicks!",
                 "thelost-fetu-3",
                 false,
-                new Vector3(448, 87, -4498),
+                new Vector3f(448, 87, -4498),
                 50);
         s.addSound(
                 "[4/5] Fetu: The Canyon's movements must've dislodged her eggs from her nest-",
                 "thelost-fetu-4",
                 false,
-                new Vector3(448, 87, -4498),
+                new Vector3f(448, 87, -4498),
                 50);
         s.addSound(
                 "[5/5] Fetu: O-OH GROOK, SHE’S PECKING ME! FIND HER EGGS NEARBY AND THROW THEM UP HERE... QUICKLY!!",
                 "thelost-fetu-5",
                 false,
-                new Vector3(448, 87, -4498),
+                new Vector3f(448, 87, -4498),
                 50);
         s.addSound(
                 "[1/2] Fetu: YOU HAVE THE EGGS?? GOOD! THROW THEM UP HERE, PLEASE!!!",
                 "thelost-fetu-6",
                 false,
-                new Vector3(448, 87, -4498),
+                new Vector3f(448, 87, -4498),
                 50);
         s.addSound(
                 "[2/2] Fetu: W-WOAH, STAY BACK, BIRD! I have a... uhh... I DON’T HAVE A WEAPON, HUMAN! PLEASE HURRY UP!",
                 "thelost-fetu-7",
                 false,
-                new Vector3(448, 87, -4498),
+                new Vector3f(448, 87, -4498),
                 50);
         s.addSound(
                 "[1/2] Fetu: YES YES YES!!! THANK YOU, HUMAN! Oh, thank grook, this bird’s leaving me alone now... It worked!",
                 "thelost-fetu-8",
                 false,
-                new Vector3(448, 87, -4498),
+                new Vector3f(448, 87, -4498),
                 50);
         s.addSound(
                 "[2/2] Fetu: I’ll head back to Dejol, now... And I’m never going to go near another bird again!",
                 "thelost-fetu-9",
                 false,
-                new Vector3(448, 87, -4498),
+                new Vector3f(448, 87, -4498),
                 50);
         s.addSound("[1/3] Yuge: A-ah, hello. I’m g-guessing Dejol sent you?", "thelost-yuge-2", false);
         s.addSound(
@@ -26195,7 +26196,7 @@ public class Sounds {
                 "[1/1] Yuge: N-Now, I’m... embarrassed to admit it, but I’m REALLY afraid of heights, s-so I don’t know what to do... Do you have any ideas?",
                 "thelost-yuge-5",
                 false);
-        s.addSound("[1/1] Yuge: AAAAAAAAHHHHH!!!", "thelost-yuge-6", false, new Vector3(355, 139, -4478));
+        s.addSound("[1/1] Yuge: AAAAAAAAHHHHH!!!", "thelost-yuge-6", false, new Vector3f(355, 139, -4478));
         s.addSound(
                 "[1/3] Yuge: Y-YOU JERK!! I COULD HAVE DIED!!! WHAT THE HELL IS WRONG WITH YOU???",
                 "thelost-yuge-7",
@@ -26253,7 +26254,7 @@ public class Sounds {
                 "[3/3] Gordon: Hey, I made it!! You should come up as well, now.",
                 "thelost-gordon-16",
                 false,
-                new Vector3(-12724, 33, 1928));
+                new Vector3f(-12724, 33, 1928));
         s.addSound("[1/1] Gordon: Hey, come over here!", "thelost-gordon-17", false);
         s.addSound(
                 "[1/3] Gordon: Thanks for the help, friend! I couldn’t have done it without you!",
@@ -26509,230 +26510,235 @@ public class Sounds {
                 "[15/15] Chief Clight: Now then, go into the mineshaft, following the rails behind me. You'll be able to summon a minecart there.",
                 "canarycalls-clight-45",
                 false);
-        s.addSound("[1/6] Canary: Hello.", "canarycalls-canary-1", false, new Vector3(-14117.5f, 16, 6041));
+        s.addSound("[1/6] Canary: Hello.", "canarycalls-canary-1", false, new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[2/6] Canary: Forgive my interference.",
                 "canarycalls-canary-2",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[3/6] Canary: I am but a figment of your imagination. To you, I am not real.",
                 "canarycalls-canary-3",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[4/6] Canary: The mysterious force that brought death upon me... It changed me.",
                 "canarycalls-canary-4",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[5/6] Canary: So too will it change you. I will make that happen. Just for you.",
                 "canarycalls-canary-5",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[6/6] Canary: No need to thank me. It is the least I can do.",
                 "canarycalls-canary-6",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[1/1] Canary: Moments like these are cherished. Savor the moment with me. Would you like to die with me?",
                 "canarycalls-canary-7",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[1/2] Canary: I was hoping we could stay for a little longer. If that is your choice, then so be it.",
                 "canarycalls-canary-8",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[2/2] Canary: See you on the other side.",
                 "canarycalls-canary-9",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[1/28] Canary: I would be more than glad to. Sit back and relax.",
                 "canarycalls-canary-10",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[2/28] Canary: How was your day today?",
                 "canarycalls-canary-11",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[3/28] Canary: Mine could have been better. Cramped up in a cage all day, then suddenly witnessing my death in front of an incompetent human.",
                 "canarycalls-canary-12",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[4/28] Canary: You couldn't even save me. How pathetic.",
                 "canarycalls-canary-13",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[5/28] Canary: So, anyway, do you come here often?",
                 "canarycalls-canary-14",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[6/28] Canary: Oh, wait. This is your first time. As well as your last time. That's very poetic. Do you want to become a poet?",
                 "canarycalls-canary-15",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[7/28] Canary: I know a good poem. Want to hear it?",
                 "canarycalls-canary-16",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
-        s.addSound("[8/28] Canary: You are average,", "canarycalls-canary-17", false, new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
+        s.addSound(
+                "[8/28] Canary: You are average,", "canarycalls-canary-17", false, new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[9/28] Canary: The most average Joe I've seen,",
                 "canarycalls-canary-18",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[10/28] Canary: What more can I say.",
                 "canarycalls-canary-19",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[8/28] Canary: You mess up sometimes,",
                 "canarycalls-canary-20",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[9/28] Canary: Mistakes are a part of life,",
                 "canarycalls-canary-21",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[10/28] Canary: Death is a part too.",
                 "canarycalls-canary-22",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[8/28] Canary: Your soul points are low,",
                 "canarycalls-canary-23",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[9/28] Canary: You will lose a lot of things,",
                 "canarycalls-canary-24",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[10/28] Canary: Better not get killed.",
                 "canarycalls-canary-25",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
-        s.addSound("[8/28] Canary: You're a casual,", "canarycalls-canary-26", false, new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
+        s.addSound(
+                "[8/28] Canary: You're a casual,", "canarycalls-canary-26", false, new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[9/28] Canary: You likely hate professions,",
                 "canarycalls-canary-27",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[10/28] Canary: At least you're with me.",
                 "canarycalls-canary-28",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[8/28] Canary: You are well-rounded,",
                 "canarycalls-canary-29",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[9/28] Canary: You are skilled at everything,",
                 "canarycalls-canary-30",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[10/28] Canary: The jack of all trades.",
                 "canarycalls-canary-31",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[8/28] Canary: Your level is maxed,",
                 "canarycalls-canary-32",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[9/28] Canary: You spend hours getting that,",
                 "canarycalls-canary-33",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[10/28] Canary: Don't know why You're here.",
                 "canarycalls-canary-34",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[8/28] Canary: You don't die often,",
                 "canarycalls-canary-35",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[9/28] Canary: You have maximum soul points,",
                 "canarycalls-canary-36",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[10/28] Canary: That's about to change.",
                 "canarycalls-canary-37",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[11/28] Canary: How was that? It was beautiful, wasn't it?",
                 "canarycalls-canary-38",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[12/28] Canary: Silence is bliss. You must not have very many friends.",
                 "canarycalls-canary-39",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[13/28] Canary: That's okay. I am your friend. Am I your friend? Please say yes. I'm very lonely.",
                 "canarycalls-canary-40",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[14/28] Canary: I had friends too, once. They were all taken by a bunch of selfish coal miners. Then died to their incompetence.",
                 "canarycalls-canary-41",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[15/28] Canary: But you are different. You are not like the others. I like you. I love you. I love you so much.",
                 "canarycalls-canary-42",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
-                "[16/28] Canary: Love is patient.", "canarycalls-canary-43", false, new Vector3(-14117.5f, 16, 6041));
-        s.addSound("[17/28] Canary: Love is kind.", "canarycalls-canary-44", false, new Vector3(-14117.5f, 16, 6041));
+                "[16/28] Canary: Love is patient.", "canarycalls-canary-43", false, new Vector3f(-14117.5f, 16, 6041));
+        s.addSound("[17/28] Canary: Love is kind.", "canarycalls-canary-44", false, new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[18/28] Canary: Love does not envy.",
                 "canarycalls-canary-45",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
-        s.addSound("[1/3] Canary: Hello again.", "canarycalls-canary-46", false, new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
+        s.addSound("[1/3] Canary: Hello again.", "canarycalls-canary-46", false, new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[2/3] Canary: I will give you another chance to redeem yourself.",
                 "canarycalls-canary-47",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[3/3] Canary: So, kindly, I will tell you again.",
                 "canarycalls-canary-48",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
                 "[1/2] Canary: I see. So you want to make this an unforgettable experience. I appreciate the thoughtfulness.",
                 "canarycalls-canary-49",
                 false,
-                new Vector3(-14117.5f, 16, 6041));
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound(
-                "[2/2] Canary: Let's have some fun.", "canarycalls-canary-50", false, new Vector3(-14117.5f, 16, 6041));
+                "[2/2] Canary: Let's have some fun.",
+                "canarycalls-canary-50",
+                false,
+                new Vector3f(-14117.5f, 16, 6041));
         s.addSound("[1/1] Canary: Let's do a little warm-up, shall we?", "canarycalls-canary-51", false);
         s.addSound(
                 "[1/2] Canary: Liked the dance party? Those moves were so utterly terrible, I may as well dub them 'The soldier'.",
@@ -33106,31 +33112,31 @@ public class Sounds {
                 "[1/5] Rex: Look out! soldier, we'll build a bridge to the other island whilst you defend us from the mobs!",
                 "onethousandmetersunder-rex-3",
                 false,
-                new Vector3(11993, 70, -3218),
+                new Vector3f(11993, 70, -3218),
                 150);
         s.addSound(
                 "[2/5] Manny: Don't die back there!",
                 "onethousandmetersunder-manny-5",
                 false,
-                new Vector3(11993, 70, -3218),
+                new Vector3f(11993, 70, -3218),
                 150);
         s.addSound(
                 "[3/5] Jesp: Keep fighting! We're almost halfway to the other side!",
                 "onethousandmetersunder-jesp-9",
                 false,
-                new Vector3(11993, 70, -3218),
+                new Vector3f(11993, 70, -3218),
                 150);
         s.addSound(
                 "[4/5] Arlene: Almost done!",
                 "onethousandmetersunder-arlene-3",
                 false,
-                new Vector3(11993, 70, -3218),
+                new Vector3f(11993, 70, -3218),
                 150);
         s.addSound(
                 "[5/5] Manny: Hey, the bridge is ready!",
                 "onethousandmetersunder-manny-6",
                 false,
-                new Vector3(11993, 70, -3218),
+                new Vector3f(11993, 70, -3218),
                 150);
         s.addSound(
                 "[1/4] Rex: We didn't find the crystal here either. Maybe it just fell in the void?",
@@ -38881,7 +38887,7 @@ public class Sounds {
                 "[2/2] ???: ⒯⒣⒠ ⒪⒧⒨ ⒞⒜⒩⒩⒪⒯ ⒮⒰⒭⒱⒤⒱⒠ ⒣⒠⒭⒠. ⒯⒤⒨⒠ ⒣⒜⒮ ⒝⒠⒠⒩ ⒭⒤⒫⒫⒠⒟ ⒜⒮⒰⒩⒟⒠⒭... ⒪⒰⒭ ⒪⒩⒧⒴ ⒣⒪⒫⒠ ⒤⒮... ⒯⒣⒠ ⒠⒳⒫⒜⒩⒮-０",
                 "wynnplains-dyingolm-2",
                 false,
-                new Vector3(-406, 56, -1111));
+                new Vector3f(-406, 56, -1111));
         s.addSound(
                 "[1/4] Ragamal: HEY! You stay out of that tent, you filthy rich soldier kid! You already got everything you need!",
                 "wynnplains-ragamal-1",

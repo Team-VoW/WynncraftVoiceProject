@@ -21,6 +21,7 @@ import net.minecraft.client.sounds.SoundManager;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
+import org.joml.Vector3f;
 
 public class SoundPlayer {
     private final LineReporter lineReporter;
@@ -99,7 +100,7 @@ public class SoundPlayer {
 
         // If this sound contains info about a location to play it at
         if (sound.getPosition() != null) {
-            Vector3 posAsVector3 = sound.getPosition();
+            Vector3f posAsVector3 = sound.getPosition();
             Vec3 soundPos = new Vec3(posAsVector3.x, posAsVector3.y, posAsVector3.z);
             lastPlayedSound = playSoundAtCords(soundPos, sound, manager);
             return;
