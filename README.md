@@ -21,6 +21,9 @@ You can contact us on [Discord](https://discord.gg/kuEK3XH4Y5) or [Wynncraft For
 
 Alternativelly, our inbox at [team@voicesofwynn.com](mailto:team@voicesofwynn.com) is also opened for your messages.
 
+## Spotless
+The codebase is formatted using Spotless. To format the code, run `gradlew spotlessApply`. Alternatively, you can use a git pre-commit hook to format the code before committing. To do this, run `git config core.hooksPath utils/git-hooks`.
+
 ## Credits
 
 To see everyone in our staff team and all of the contributors, visit our [credits webpage](https://voicesofwynn.com/credits).

@@ -1,5 +1,6 @@
 plugins {
     id 'fabric-loom' version '1.7-SNAPSHOT'
+    id "com.diffplug.spotless" version "${spotless_version}"
 }
 
 base {
@@ -17,6 +18,67 @@ repositories {
     maven {
         name = "CottonMC"
         url = "https://server.bbkr.space/artifactory/libs-release"
+    }
+}
+
+allprojects {
+    apply plugin: "com.diffplug.spotless"
+
+    spotless {
+        java {
+            // define the steps to apply to Java source code
+            importOrder()
+            removeUnusedImports()
+            palantirJavaFormat(spotless_palantir_version)
+            trimTrailingWhitespace()
+            endWithNewline()
+            ratchetFrom('origin/main')
+            // Custom rule from https://github.com/apache/geode
+            custom "Refuse wildcard imports", {
+                if (it =~ /\nimport .*\*;/) {
+                    throw new AssertionError("Do not use wildcard imports. 'spotlessApply' cannot resolve this issue.")
+                }
+            } as Closure<String>
+            custom "Refuse IntelliJ annotations", {
+                if (it =~ /\nimport org\.jetbrains\.annotations\./) {
+                    throw new AssertionError("Do not use IntelliJ annotations. 'spotlessApply' cannot resolve this issue.")
+                }
+            } as Closure<String>
+            custom "No empty line after opening curly brace", {
+                it.replaceAll(/\{\n\n/, '{\n')
+            }
+            licenseHeader("/*\n" +
+                    " * Copyright © Team-VoW \$YEAR.\n" +
+                    " * This file is released under CC0 1.0 Universal. See LICENSE for full license details.\n" +
+                    " */")
+                    .updateYearWithLatest(true)
+        }
+        json {
+            target "src/**/*.json"
+            gson()
+                    .indentWithSpaces(2)
+                    .sortByKeys()
+                    .version(spotless_gson_version)
+            trimTrailingWhitespace()
+            endWithNewline()
+        }
+        groovyGradle {
+            target '**/*.gradle'
+            greclipse("${spotless_greclipse_version}").configFile("${rootDir}/greclipse.properties")
+            trimTrailingWhitespace()
+            endWithNewline()
+        }
+
+        format "misc", {
+            // define the files to apply `misc` to
+            target "*.gradle", "*.md", ".gitignore", "*.properties"
+            targetExclude("CHANGELOG.md")
+
+            // define the steps to apply to those files
+            trimTrailingWhitespace()
+            indentWithSpaces()
+            endWithNewline()
+        }
     }
 }
 
@@ -48,13 +110,13 @@ dependencies {
 
 processResources {
     var replaceProperties = [
-            mod_version                : version,
-            mod_id                     : maven_group,
-            mod_name                   : mod_name,
-            minecraft_version          : minecraft_version,
-            fabric_loader_version      : fabric_loader_version,
-            fabric_api_version         : fabric_api_version,
-            cloth_config_version       : cloth_config_version,
+        mod_version                : version,
+        mod_id                     : maven_group,
+        mod_name                   : mod_name,
+        minecraft_version          : minecraft_version,
+        fabric_loader_version      : fabric_loader_version,
+        fabric_api_version         : fabric_api_version,
+        cloth_config_version       : cloth_config_version,
     ]
     inputs.properties replaceProperties
 
