@@ -15,12 +15,14 @@ jobs:
         os: [ubuntu-latest]
     if: '! github.event.pull_request.draft'
     runs-on: ${{ matrix.os }}
+    permissions:
+      contents: write
     steps:
       - name: Checkout the Repository
         uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
-          token: ${{ secrets.PRIVATE_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
