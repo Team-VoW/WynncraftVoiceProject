@@ -50,9 +50,3 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
         with:
           arguments: buildDependents -x spotlessCheck -x test
-
-      - name: Capture Build Artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: Artifacts
-          path: build/libs/
