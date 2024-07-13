@@ -9327,7 +9327,7 @@ public class Sounds {
                 true);
 
         // A Grave misstake
-        s.addSound("§7[1/1] §2§kXXXXXXX§2: §aOh, my arm.. It's ba...", "agravemistake-skeleton-1", false);
+        s.addSound("[1/1] XXXXXXX: Oh, my arm.. It's ba...", "agravemistake-skeleton-1", false);
         s.addSound("[1/1] Alem: Leave.", "agravemistake-alem-1", false);
         s.addSound("[1/3] Alem: You might want to leave.", "agravemistake-alem-2", false);
         s.addSound("[2/3] Alem: There is nothing in this graveyard.", "agravemistake-alem-3", false);
@@ -14280,15 +14280,15 @@ public class Sounds {
                 "outofmymind-ariodo-30",
                 false);
         s.addSound(
-                "§7[1/3] §2Ariodo:§r Oh no no, this is not good! If I had known that my little pet has grown so much I would have rushed you out sooner. Now it is wilted...",
+                "[1/3] Ariodo: Oh no no, this is not good! If I had known that my little pet has grown so much I would have rushed you out sooner. Now it is wilted...",
                 "outofmymind-ariodo-31",
                 false);
         s.addSound(
-                "§7[2/3] §2Ariodo:§r You did what you had to, though. I am sorry to say this friend, but I think I'll stay inside a little longer. Sorry, my only friend..",
+                "[2/3] Ariodo: You did what you had to, though. I am sorry to say this friend, but I think I'll stay inside a little longer. Sorry, my only friend..",
                 "outofmymind-ariodo-32",
                 false);
         s.addSound(
-                "§7[3/3] §2Ariodo:§r We'll surely meet again in the future, so don't be sad. I'll still be the one and only friendly neighbourhood neighbour when that moment comes, I promise. Goodbye now!",
+                "[3/3] Ariodo: We'll surely meet again in the future, so don't be sad. I'll still be the one and only friendly neighbourhood neighbour when that moment comes, I promise. Goodbye now!",
                 "outofmymind-ariodo-33",
                 false);
         s.addSound(
@@ -17033,7 +17033,7 @@ public class Sounds {
                 "templeoflegends-kelight-57",
                 false);
         s.addSound(
-                "[1/2] Kelight: Only the bravest adventurers who succeed in my quest can enter the temple of the legends.",
+                "[1/2] Kelight: Only the adventurers who succeed in my quest can enter the temple of the legends.",
                 "templeoflegends-kelight-58",
                 false);
         s.addSound(
@@ -17266,11 +17266,11 @@ public class Sounds {
                 false);
         s.addSound(
                 "[1/4] Sir Pigglesworth the Thirty-Fifth: My goodness! Ah, it feels good to stretch these old bones. It's not easy being cooped up in a coffin, you know.",
-                "lazaruspit-sirpigglesworththethirty-fifth-1",
+                "lazaruspit-sirpigglesworththethirtyfifth-1",
                 false);
         s.addSound(
                 "[1/2] Sir Pigglesworth the Thirty-Fifth: Oh, you found it! Wonderful! Just pop it on that fingerbone right there... Ah, it fits even better on the other hand!",
-                "lazaruspit-sirpigglesworththethirty-fifth-2",
+                "lazaruspit-sirpigglesworththethirtyfifth-2",
                 false);
         s.addSound(
                 "[1/3] Burtur: Ah, you're back! We were getting a tad worried about you. Were you able to figure anything out in the chapel there?",
@@ -22101,7 +22101,7 @@ public class Sounds {
                 false);
         s.addSound(
                 "[1/1] Sub-engineer Akot: I heard that a big ship was approaching from north. I saw it from the entrance deck. I wonder what they are doing.",
-                "flightindistress-sub-engineerakot-1",
+                "flightindistress-subengineerakot-1",
                 false);
         s.addSound(
                 "[1/1] Passenger Casula: Apologies, I haven't seen the kid you're looking for.",
@@ -25661,9 +25661,9 @@ public class Sounds {
         s.addSound("[5/14] Maxie: Nice try, mech!", "theenvoypart2-maxie-13", true);
         s.addSound(
                 "[6/14] S-63 Mech: REPORT... COVER HAS BEEN COMPROMISED... TWO UNAUTHORIZED INTRUDERS... OUTSIDE OF BASE.",
-                "theenvoypart2-s-63mech-1",
+                "theenvoypart2-s63mech-1",
                 true);
-        s.addSound("[7/14] S-63 Mech: NEW OBJECTIVE... EXTERMINATE-", "theenvoypart2-s-63mech-2", true);
+        s.addSound("[7/14] S-63 Mech: NEW OBJECTIVE... EXTERMINATE-", "theenvoypart2-s63mech-2", true);
         s.addSound("[8/14] Maxie: Oh no you DON'T!", "theenvoypart2-maxie-14", true);
         s.addSound(
                 "[9/14] Maxie: That model was a S-63... It's warned the others. Let's go.",
@@ -26998,7 +26998,7 @@ public class Sounds {
                 "desperatemetal-bigbossmechdm666-1",
                 false);
         s.addSound(
-                "[2/2] Big boss Mech-DM666: Prepare for destruc...§kI-LOVE-CATS ahelp.",
+                "[2/2] Big boss Mech-DM666: Prepare for destruc...I-LOVE-CATS ahelp.",
                 "desperatemetal-bigbossmechdm666-2",
                 false);
         s.addSound("[1/5] ???: Stranger detected. Security system: activated.", "desperatemetal-security-1", true);
