@@ -4,14 +4,16 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
+import org.joml.Vector3f;
+
 public class SoundObject {
     private final String npcName;
     private final String id;
     private final CustomSoundClass customSoundClass;
-    private final Vector3 position;
+    private final Vector3f position;
     private final int fallOff;
 
-    public SoundObject(String npcName, String id, CustomSoundClass customSoundClass, Vector3 position, int fallOff) {
+    public SoundObject(String npcName, String id, CustomSoundClass customSoundClass, Vector3f position, int fallOff) {
         this.fallOff = fallOff;
         this.position = position;
         this.npcName = npcName;
@@ -31,7 +33,7 @@ public class SoundObject {
         return customSoundClass;
     }
 
-    public Vector3 getPosition() {
+    public Vector3f getPosition() {
         return position;
     }
 

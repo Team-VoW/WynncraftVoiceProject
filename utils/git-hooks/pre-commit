@@ -7,9 +7,6 @@ echo '[git hook] executing gradle spotlessApply before commit'
 # Get list of staged files
 stagedFiles=$(git diff --staged --name-only)
 
-# Go to the root of the project
-cd 1.18/
-
 # Run spotlessApply with the gradle wrapper
 ./gradlew spotlessApply
 

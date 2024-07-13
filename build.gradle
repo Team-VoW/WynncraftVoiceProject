@@ -137,16 +137,8 @@ java {
     targetCompatibility = JavaVersion.VERSION_21
 }
 
-sourceSets {
-    main {
-        resources {
-            srcDirs "../shared/resources/"
-        }
-    }
-}
-
 jar {
     from("LICENSE") {
-        rename { "${it}_${base.archivesName}"}
+        rename { "${it}_${base.archivesName.get()}"}
     }
 }

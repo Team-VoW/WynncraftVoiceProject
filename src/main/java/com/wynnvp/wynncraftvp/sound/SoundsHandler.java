@@ -16,6 +16,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
+import org.joml.Vector3f;
 
 public class SoundsHandler {
     // private final List<SoundObject> sounds;
@@ -50,7 +51,7 @@ public class SoundsHandler {
         addSound(message, id, movingSound, null);
     }
 
-    public void addSound(String message, String id, boolean movingSound, Vector3 position) {
+    public void addSound(String message, String id, boolean movingSound, Vector3f position) {
         addSound(message, id, movingSound, position, 0);
     }
 
@@ -69,7 +70,7 @@ public class SoundsHandler {
     }
 
     // If position is 0 null use default. If falloff is 0 use default
-    public void addSound(String message, String id, boolean movingSound, Vector3 position, int fallOff) {
+    public void addSound(String message, String id, boolean movingSound, Vector3f position, int fallOff) {
         LineData lineData = formatToLineData(message);
         npcNames.add(lineData.getNPCName());
         message = lineData.getSoundLine();
