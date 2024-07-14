@@ -17033,7 +17033,7 @@ public class Sounds {
                 "templeoflegends-kelight-57",
                 false);
         s.addSound(
-                "[1/2] Kelight: Only the adventurers who succeed in my quest can enter the temple of the legends.",
+                "[1/2] Kelight: Only the bravest adventurers who succeed in my quest can enter the temple of the legends.",
                 "templeoflegends-kelight-58",
                 false);
         s.addSound(
