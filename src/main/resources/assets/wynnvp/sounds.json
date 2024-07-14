@@ -38402,11 +38402,11 @@
       }
     ]
   },
-  "flightindistress-sub-engineerakot-1": {
+  "flightindistress-subengineerakot-1": {
     "category": "voice",
     "sounds": [
       {
-        "name": "wynnvp:flightindistress-sub-engineerakot-1",
+        "name": "wynnvp:flightindistress-subengineerakot-1",
         "stream": true
       }
     ]
@@ -51650,24 +51650,6 @@
       }
     ]
   },
-  "infestidpit-arakadicus-1": {
-    "category": "voice",
-    "sounds": [
-      {
-        "name": "wynnvp:infestidpit-arakadicus-1",
-        "stream": true
-      }
-    ]
-  },
-  "infestidpit-arakadicus-3": {
-    "category": "voice",
-    "sounds": [
-      {
-        "name": "wynnvp:infestidpit-arakadicus-3",
-        "stream": true
-      }
-    ]
-  },
   "junglefever-banker1-1": {
     "category": "voice",
     "sounds": [
@@ -54107,20 +54089,20 @@
       }
     ]
   },
-  "lazaruspit-sirpigglesworththethirty-fifth-1": {
+  "lazaruspit-sirpigglesworththethirtyfifth-1": {
     "category": "voice",
     "sounds": [
       {
-        "name": "wynnvp:lazaruspit-sirpigglesworththethirty-fifth-1",
+        "name": "wynnvp:lazaruspit-sirpigglesworththethirtyfifth-1",
         "stream": true
       }
     ]
   },
-  "lazaruspit-sirpigglesworththethirty-fifth-2": {
+  "lazaruspit-sirpigglesworththethirtyfifth-2": {
     "category": "voice",
     "sounds": [
       {
-        "name": "wynnvp:lazaruspit-sirpigglesworththethirty-fifth-2",
+        "name": "wynnvp:lazaruspit-sirpigglesworththethirtyfifth-2",
         "stream": true
       }
     ]
@@ -91502,20 +91484,20 @@
       }
     ]
   },
-  "theenvoypart2-s-63mech-1": {
+  "theenvoypart2-s63mech-1": {
     "category": "voice",
     "sounds": [
       {
-        "name": "wynnvp:theenvoypart2-s-63mech-1",
+        "name": "wynnvp:theenvoypart2-s63mech-1",
         "stream": true
       }
     ]
   },
-  "theenvoypart2-s-63mech-2": {
+  "theenvoypart2-s63mech-2": {
     "category": "voice",
     "sounds": [
       {
-        "name": "wynnvp:theenvoypart2-s-63mech-2",
+        "name": "wynnvp:theenvoypart2-s63mech-2",
         "stream": true
       }
     ]
