@@ -994,11 +994,11 @@ public class Sounds {
         // Infested Pit
         s.addSound(
                 "[1/2] ???: Oh, it seems I have a guest. You're just in time for dinner... hehe..",
-                "infestidpit-arakadicus-1",
+                "infestedpit-arakadicus-1",
                 true);
         s.addSound(
                 "[1/1] Arakadicus: Ah, the main course has arrived. You look so good, I think I'll have a taste of you myself!",
-                "infestidpit-arakadicus-3",
+                "infestedpit-arakadicus-3",
                 true);
 
         s.addSound(

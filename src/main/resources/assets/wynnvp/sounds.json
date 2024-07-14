@@ -51650,24 +51650,6 @@
       }
     ]
   },
-  "infestidpit-arakadicus-1": {
-    "category": "voice",
-    "sounds": [
-      {
-        "name": "wynnvp:infestidpit-arakadicus-1",
-        "stream": true
-      }
-    ]
-  },
-  "infestidpit-arakadicus-3": {
-    "category": "voice",
-    "sounds": [
-      {
-        "name": "wynnvp:infestidpit-arakadicus-3",
-        "stream": true
-      }
-    ]
-  },
   "junglefever-banker1-1": {
     "category": "voice",
     "sounds": [
