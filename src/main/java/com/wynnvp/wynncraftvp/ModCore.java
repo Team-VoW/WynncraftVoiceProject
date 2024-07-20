@@ -5,6 +5,7 @@
 package com.wynnvp.wynncraftvp;
 
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
+import com.wynnvp.wynncraftvp.core.Managers;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
@@ -21,19 +22,23 @@ public class ModCore implements ModInitializer {
     public static final String MODID = "wynnvp";
     public static final String NAME = "Wynncraft Voice Project";
     public static final String VERSION = "1.8.2";
+
     public static boolean inLiveWynnServer = false;
     public static boolean isUsingClothApi = false;
+
     public SoundsHandler soundsHandler;
     public static ModCore instance;
     public SoundPlayer soundPlayer;
-    public static final Logger LOGGER = LoggerFactory.getLogger("wynnvp");
+    public static ChatHandler3 chatHandler;
 
     public static VOWAutoConfig config;
 
-    public static ChatHandler3 chatHandler;
+    public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
 
     @Override
     public void onInitialize() {
+        Managers.initialize();
+
         instance = this;
         chatHandler = new ChatHandler3();
 
@@ -57,5 +62,25 @@ public class ModCore implements ModInitializer {
             // Your ticking method
             chatHandler.onTick();
         });
+    }
+
+    public static void error(String msg) {
+        LOGGER.error(msg);
+    }
+
+    public static void error(String msg, Throwable t) {
+        LOGGER.error(msg, t);
+    }
+
+    public static void warn(String msg) {
+        LOGGER.warn(msg);
+    }
+
+    public static void warn(String msg, Throwable t) {
+        LOGGER.warn(msg, t);
+    }
+
+    public static void info(String msg) {
+        LOGGER.info(msg);
     }
 }
