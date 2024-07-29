@@ -7,8 +7,11 @@ base {
     archivesName = project.mod_name.replaceAll("\\s", "-") + "-fabric"
 }
 
-version = project.mod_version
 group = project.maven_group
+
+// On the release branches, this string will be automatically updated by the bots
+// Do not change this in the main branch!
+version = "1.0.0-SNAPSHOT"
 
 repositories {
     maven { url "https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1" }
@@ -136,6 +139,10 @@ java {
 
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
+}
+
+remapJar {
+    archiveClassifier = "fabric+MC-${minecraft_version}"
 }
 
 jar {

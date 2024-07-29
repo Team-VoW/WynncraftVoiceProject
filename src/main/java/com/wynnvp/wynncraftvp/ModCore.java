@@ -10,18 +10,21 @@ import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
 import com.wynnvp.wynncraftvp.text.ChatHandler3;
+import java.util.Optional;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.loader.api.FabricLoader;
+import net.fabricmc.loader.api.ModContainer;
+import net.minecraft.SharedConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ModCore implements ModInitializer {
     public static final String MODID = "wynnvp";
-    public static final String NAME = "Wynncraft Voice Project";
-    public static final String VERSION = "1.8.2";
+
+    private String version;
 
     public static boolean inLiveWynnServer = false;
     public static boolean isUsingClothApi = false;
@@ -37,6 +40,19 @@ public class ModCore implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        Optional<ModContainer> vowMod = FabricLoader.getInstance().getModContainer(MODID);
+        if (vowMod.isEmpty()) {
+            ModCore.error("Mod not found by fabric.");
+            return;
+        }
+
+        version = "v" + vowMod.get().getMetadata().getVersion().getFriendlyString();
+
+        LOGGER.info(
+                "Loading Voices of Wynn {} (on Minecraft {})",
+                version,
+                SharedConstants.getCurrentVersion().getName());
+
         Managers.initialize();
 
         instance = this;
@@ -46,15 +62,9 @@ public class ModCore implements ModInitializer {
         soundsHandler = new SoundsHandler();
 
         isUsingClothApi = FabricLoader.getInstance().isModLoaded("cloth-config");
-        //    if (isUsingClothApi) {
-        LOGGER.debug("Found cloth api");
 
         AutoConfig.register(VOWAutoConfig.class, Toml4jConfigSerializer::new);
-
         config = AutoConfig.getConfigHolder(VOWAutoConfig.class).getConfig();
-        /*  } else {
-            config = new VOWAutoConfig();
-        }*/
 
         VowLogger.Initialize();
 
@@ -82,5 +92,9 @@ public class ModCore implements ModInitializer {
 
     public static void info(String msg) {
         LOGGER.info(msg);
+    }
+
+    public String getVersion() {
+        return version;
     }
 }

@@ -1,0 +1,22 @@
+name: Autopromote branches
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-release:
+    if: github.ref == 'refs/heads/main'
+    name: Merge main into release after a release request
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: merge
+        uses: mtanzi/action-automerge@v1
+        id: merge
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source: 'main'
+          target: 'release'
