@@ -60335,15 +60335,6 @@
       }
     ]
   },
-  "mixedfeelings-corkuscitycitizen-4": {
-    "category": "voice",
-    "sounds": [
-      {
-        "name": "wynnvp:mixedfeelings-corkuscitycitizen-4",
-        "stream": true
-      }
-    ]
-  },
   "mixedfeelings-corkuscitycitizen-5": {
     "category": "voice",
     "sounds": [
@@ -80981,15 +80972,6 @@
       }
     ]
   },
-  "royaltrials-skyraider-1": {
-    "category": "voice",
-    "sounds": [
-      {
-        "name": "wynnvp:royaltrials-skyraider-1",
-        "stream": true
-      }
-    ]
-  },
   "royaltrials-skyraiderguard-1": {
     "category": "voice",
     "sounds": [
@@ -85454,6 +85436,15 @@
       }
     ]
   },
+  "talkingmushroom-almujsemeraldlabyrinth": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "wynnvp:talkingmushroom-almujsemeraldlabyrinth",
+        "stream": true
+      }
+    ]
+  },
   "talkingmushroom-baabsabondedmines-1": {
     "category": "voice",
     "sounds": [
@@ -85576,24 +85567,6 @@
     "sounds": [
       {
         "name": "wynnvp:talkingmushroomafterrecipefordistaster",
-        "stream": true
-      }
-    ]
-  },
-  "talkingmushroomalmujsemeraldlabyrinth": {
-    "category": "voice",
-    "sounds": [
-      {
-        "name": "wynnvp:talkingmushroomalmujsemeraldlabyrinth",
-        "stream": true
-      }
-    ]
-  },
-  "talkingmushroombaabsabondedmines": {
-    "category": "voice",
-    "sounds": [
-      {
-        "name": "wynnvp:talkingmushroombaabsabondedmines",
         "stream": true
       }
     ]
