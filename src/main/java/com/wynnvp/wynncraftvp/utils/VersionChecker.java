@@ -42,7 +42,8 @@ public class VersionChecker {
             return;
         }
 
-        String version = ModCore.VERSION;
+        // Strip the "v" from the version
+        String version = ModCore.instance.getVersion().substring(1);
 
         float versionInFloat = GetVersionNumberInFloat(version);
         float killSwitchVersionInFloat = GetVersionNumberInFloat(killSwitchVersion);
