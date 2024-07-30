@@ -58,7 +58,7 @@ allprojects {
         }
         json {
             target "src/**/*.json"
-            targetExclude "src/**/sound_info.json"
+            targetExclude "src/**/sound_info.json", "src/**/sounds.json"
             gson()
                     .indentWithSpaces(2)
                     .sortByKeys()
