@@ -9,7 +9,7 @@ import com.wynnvp.wynncraftvp.core.Managers;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
-import com.wynnvp.wynncraftvp.text.ChatHandler3;
+import com.wynnvp.wynncraftvp.text.ChatHandler;
 import java.util.Optional;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
@@ -32,7 +32,7 @@ public class ModCore implements ModInitializer {
     public SoundsHandler soundsHandler;
     public static ModCore instance;
     public SoundPlayer soundPlayer;
-    public static ChatHandler3 chatHandler;
+    public static ChatHandler chatHandler;
 
     public static VOWAutoConfig config;
 
@@ -56,7 +56,7 @@ public class ModCore implements ModInitializer {
         Managers.initialize();
 
         instance = this;
-        chatHandler = new ChatHandler3();
+        chatHandler = new ChatHandler();
 
         soundPlayer = new SoundPlayer();
         soundsHandler = new SoundsHandler();

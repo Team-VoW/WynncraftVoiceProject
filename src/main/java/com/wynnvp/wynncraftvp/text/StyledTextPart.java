@@ -7,12 +7,12 @@ package com.wynnvp.wynncraftvp.text;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.function.Function;
 import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.ClickEvent;
+import net.minecraft.network.chat.HoverEvent;
 import net.minecraft.network.chat.Style;
 
-/*
- * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
- */
 public final class StyledTextPart {
     private final String text;
     private final PartStyle style;
@@ -33,6 +33,12 @@ public final class StyledTextPart {
         this.parent = parent;
     }
 
+    private StyledTextPart(StyledTextPart part, PartStyle style, StyledText parent) {
+        this.text = part.text;
+        this.style = style;
+        this.parent = parent;
+    }
+
     // This factory is used to create a StyledTextPart from a component that has formatting codes
     // It is separate from the constructor because this only needs to be applied in cases there the text could have
     // formatting codes
@@ -46,10 +52,35 @@ public final class StyledTextPart {
         StringBuilder currentString = new StringBuilder();
 
         boolean nextIsFormatting = false;
+        StringBuilder hexColorFormatting = new StringBuilder();
+
+        // []
+        boolean clickEventPrefix = false;
+        // <>
+        boolean hoverEventPrefix = false;
+        String eventIndexString = "";
 
         for (char current : codedString.toCharArray()) {
             if (nextIsFormatting) {
                 nextIsFormatting = false;
+
+                // Only parse events, if we have a parent
+                if (parent != null) {
+                    if (current == '[') {
+                        clickEventPrefix = true;
+                        continue;
+                    }
+                    if (current == '<') {
+                        hoverEventPrefix = true;
+                        continue;
+                    }
+                }
+
+                // It looks like we have a hex color code
+                if (current == '#') {
+                    hexColorFormatting.append(current);
+                    continue;
+                }
 
                 ChatFormatting formatting = ChatFormatting.getByCode(current);
 
@@ -59,12 +90,16 @@ public final class StyledTextPart {
                     continue;
                 }
 
-                // We already had some text with the current style
+                // If we already had some text with the current style
                 // Append it before modifying the style
                 if (!currentString.isEmpty()) {
-                    // We might have lost an event, so we need to add it back
-                    currentStyle =
-                            currentStyle.withClickEvent(style.getClickEvent()).withHoverEvent(style.getHoverEvent());
+                    if (style != Style.EMPTY) {
+                        // We might have lost an event, so we need to add it back
+                        currentStyle = currentStyle
+                                .withClickEvent(style.getClickEvent())
+                                .withHoverEvent(style.getHoverEvent());
+                    }
+                    // But if the style is empty, we might have parsed events from the string itself
 
                     parts.add(new StyledTextPart(currentString.toString(), currentStyle, null, parentStyle));
 
@@ -84,6 +119,112 @@ public final class StyledTextPart {
                 continue;
             }
 
+            // If we are parsing an event, handle it
+            if (clickEventPrefix || hoverEventPrefix) {
+                if (Character.isDigit(current)) {
+                    eventIndexString += current;
+                    continue;
+                }
+
+                // This is set to true if we have overwritten the current style's event
+                Style oldStyle = null;
+
+                if (clickEventPrefix && current == ']') {
+                    ClickEvent clickEvent = parent.getClickEvent(Integer.parseInt(eventIndexString));
+
+                    if (clickEvent != null) {
+                        oldStyle = currentStyle;
+
+                        currentStyle = currentStyle.withClickEvent(clickEvent);
+                        clickEventPrefix = false;
+                        eventIndexString = "";
+                    }
+                }
+
+                if (hoverEventPrefix && current == '>') {
+                    HoverEvent hoverEvent = parent.getHoverEvent(Integer.parseInt(eventIndexString));
+
+                    if (hoverEvent != null) {
+                        oldStyle = currentStyle;
+
+                        currentStyle = currentStyle.withHoverEvent(hoverEvent);
+                        hoverEventPrefix = false;
+                        eventIndexString = "";
+                    }
+                }
+
+                if (oldStyle != null) {
+                    // If we already had some text with the current style
+                    // Append it before modifying the style
+                    if (!currentString.isEmpty()) {
+                        if (style != Style.EMPTY) {
+                            // We might have lost an event, so we need to add it back
+                            // (theoretically this case can't happen at this location)
+                            currentStyle = currentStyle
+                                    .withClickEvent(style.getClickEvent())
+                                    .withHoverEvent(style.getHoverEvent());
+                        }
+                        // But if the style is empty, we might have parsed events from the string itself
+
+                        parts.add(new StyledTextPart(currentString.toString(), oldStyle, null, parentStyle));
+
+                        // reset string
+                        // style is not reset, because we want to keep the formatting
+                        currentString = new StringBuilder();
+                    }
+
+                    // Even if we did not add a new part, we've parsed an event
+                    continue;
+                }
+
+                // The event was not formatted properly, so add it as a string
+                currentString.append(clickEventPrefix ? '[' : '<');
+                currentString.append(eventIndexString);
+                currentString.append(current);
+
+                // Reset the related variables
+                clickEventPrefix = false;
+                hoverEventPrefix = false;
+                eventIndexString = "";
+                continue;
+            }
+
+            if (!hexColorFormatting.isEmpty()) {
+                hexColorFormatting.append(current);
+
+                // StyledText#getString() always uses full hex representation,
+                // if the color is not a ChatFormatting color (#rrggbbaa)
+                if (hexColorFormatting.length() == 9) {
+                    CustomColor customColor = CustomColor.fromHexString(hexColorFormatting.toString());
+
+                    // If the color is invalid, we just append the hex formatting as text
+                    if (customColor == CustomColor.NONE) {
+                        currentString.append(hexColorFormatting);
+                    } else if (!currentString.isEmpty()) {
+                        // If we already had some text with the current style
+                        // Append it before modifying the style
+                        if (style != Style.EMPTY) {
+                            // We might have lost an event, so we need to add it back
+                            currentStyle = currentStyle
+                                    .withClickEvent(style.getClickEvent())
+                                    .withHoverEvent(style.getHoverEvent());
+                        }
+                        // But if the style is empty, we might have parsed events from the string itself
+
+                        parts.add(new StyledTextPart(currentString.toString(), currentStyle, null, parentStyle));
+
+                        // reset string
+                        // style is not reset, because we want to keep the formatting
+                        currentString = new StringBuilder();
+                    }
+
+                    currentStyle = currentStyle.withColor(customColor.asInt());
+                    hexColorFormatting = new StringBuilder();
+                }
+
+                continue;
+            }
+
             if (current == ChatFormatting.PREFIX_CODE) {
                 nextIsFormatting = true;
                 continue;
@@ -94,8 +235,11 @@ public final class StyledTextPart {
 
         // Check if we have some text left
         if (!currentString.isEmpty()) {
-            // We might have lost an event, so we need to add it back
-            currentStyle = currentStyle.withClickEvent(style.getClickEvent()).withHoverEvent(style.getHoverEvent());
+            if (style != Style.EMPTY) {
+                // We might have lost an event, so we need to add it back
+                currentStyle =
+                        currentStyle.withClickEvent(style.getClickEvent()).withHoverEvent(style.getHoverEvent());
+            }
             parts.add(new StyledTextPart(currentString.toString(), currentStyle, null, parentStyle));
         }
 
@@ -114,8 +258,24 @@ public final class StyledTextPart {
         return style;
     }
 
+    public StyledTextPart withStyle(PartStyle style) {
+        return new StyledTextPart(this, style, parent);
+    }
+
+    public StyledTextPart withStyle(Function<PartStyle, PartStyle> function) {
+        return withStyle(function.apply(style));
+    }
+
     boolean isEmpty() {
         return text.isEmpty();
+    }
+
+    boolean isBlank() {
+        return text.isBlank();
+    }
+
+    public int length() {
+        return text.length();
     }
 
     @Override

@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public final class ChatHandler {
+public final class ChatUtils {
     private static final Pattern NPC_CONFIRM_PATTERN = Pattern.compile("Press (SNEAK|SHIFT) to continue");
     private static final Pattern NPC_SELECT_PATTERN = Pattern.compile("(Select|CLICK) an option to continue");
     private static final Pattern NEWLINE_PATTERN = Pattern.compile("\n");

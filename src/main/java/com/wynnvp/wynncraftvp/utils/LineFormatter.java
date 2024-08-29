@@ -12,7 +12,7 @@ public class LineFormatter {
     public static LineData formatToLineData(String message) {
         LineData lineData = new LineData();
 
-        message = ChatHandler.extractMessage(message);
+        message = ChatUtils.extractMessage(message);
         message = message.trim();
         lineData.setRealLine(message);
 

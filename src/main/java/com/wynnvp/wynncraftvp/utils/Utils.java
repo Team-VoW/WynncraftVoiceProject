@@ -8,6 +8,7 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
@@ -49,5 +50,13 @@ public class Utils {
         } catch (Exception ex) {
             throw new RuntimeException(ex);
         }
+    }
+
+    public static Minecraft mc() {
+        return Minecraft.getInstance();
+    }
+
+    public static LocalPlayer player() {
+        return mc().player;
     }
 }
