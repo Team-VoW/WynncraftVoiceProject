@@ -117,7 +117,7 @@ processResources {
         mod_version                : version,
         mod_id                     : maven_group,
         mod_name                   : mod_name,
-        minecraft_version          : minecraft_version,
+        minecraft_version_range    : minecraft_version_range,
         fabric_loader_version      : fabric_loader_version,
         fabric_api_version         : fabric_api_version,
         cloth_config_version       : cloth_config_version,
