@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.0...v1.9.1) (2024-08-30)
+
+
+### Bug Fixes
+
+* Removed debugging ([378a9ed](https://github.com/Team-VoW/WynncraftVoiceProject/commit/378a9edd1b08f8c8c4c99a3b958923145e15859a))
+
 ## [1.9.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.8.2...v1.9.0) (2024-08-29)
 
 
@@ -28,6 +35,7 @@
 ### Miscellaneous Chores
 
 * Change some sound ids to better follow a format, remove color codes from sound lines ([#27](https://github.com/Team-VoW/WynncraftVoiceProject/issues/27)) ([e5b9af8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e5b9af8f71f9fd44fe1868208092a1b1b8c392a8))
+* **release:** v1.9.0 [skip ci] ([b94be27](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b94be27c5cbb394ea38eac788d08e29ec8a5cad3))
 * Update dependency versions (mainly Fabric Loader) ([#32](https://github.com/Team-VoW/WynncraftVoiceProject/issues/32)) ([b60285b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b60285b1fc332af3618b54b8d8fe1ab7461fa13c))
 
 

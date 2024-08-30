@@ -11,7 +11,7 @@ group = project.maven_group
 
 // On the release branches, this string will be automatically updated by the bots
 // Do not change this in the main branch!
-version = "1.9.0"
+version = "1.9.1"
 
 repositories {
     maven { url "https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1" }
