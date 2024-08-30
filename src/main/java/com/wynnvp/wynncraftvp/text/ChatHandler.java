@@ -131,9 +131,7 @@ public final class ChatHandler {
             // TODO: PROBABLY ONE LINE PARSING?
 
             RecipientType type = getRecipientType(styledText, MessageType.FOREGROUND);
-            Utils.sendMessage(
-                    "Probably one line parse, type: " + type + " " + updatedMessage.getStringWithoutFormatting());
-        }
+      }
     }
 
     private void handleWithSeparation(Component componentMessage) {
@@ -233,14 +231,11 @@ public final class ChatHandler {
 
                 if (newLines.getFirst().matches(EMPTY_LINE_PATTERN)) {
                     // Both the first and the last line are empty, we expect a dialogue screen in the next packet batch
-                    System.out.println(
-                            "Voices of  wynn: [NPC] - Confirmationless dialogue preparation screen detected");
-                    // Nothing to do here, as both lines are empty
+             // Nothing to do here, as both lines are empty
                     return;
                 }
 
-                System.out.println("Voices of  wynn: [NPC] - Line expected to be a confirmationless dialogue: "
-                        + newLines.getFirst());
+
                 expectedConfirmationlessDialogue = true;
             } else if (newLines.size() == 4) {
                 // This should happen as a special case.
@@ -259,7 +254,6 @@ public final class ChatHandler {
                         && !newLines.get(2).matches(EMPTY_LINE_PATTERN)
                         && newLines.get(3).matches(EMPTY_LINE_PATTERN)) {
                     // The third line is a temporary confirmationless dialogue
-                    System.out.println("Voices of  wynn: [NPC] - Temporary confirmationless dialogue detected");
                     expectedConfirmationlessDialogue = true;
 
                     // Remove the first two empty lines
@@ -296,15 +290,12 @@ public final class ChatHandler {
             //       In the future, additional handling for converting temporary confirmationless dialogues
             //       to normal dialogues may be needed
             if (newLines.isEmpty()) {
-                System.out.println("Voices of  wynn: [NPC] - Control message appended to the last dialogue");
                 return;
             }
 
             if (newLines.getFirst().getString().isEmpty()) {
                 // After this we assume a blank line
                 newLines.removeFirst();
-            } else {
-                System.out.println("Voices of  wynn: [NPC] - Malformed dialog: " + newLines.getFirst());
             }
 
             boolean dialogDone = false;
@@ -334,9 +325,6 @@ public final class ChatHandler {
                 }
             }
         } else if (expectedConfirmationlessDialogue) {
-            if (newLines.size() != 1) {
-                System.out.println("Voices of  wynn: [NPC] - Unexpected dialogue count: " + newLines);
-            }
 
             // This is a confirmationless dialogue
             handleNpcDialogue(List.of(newLines.getFirst()), NpcDialogueType.CONFIRMATIONLESS, false);
@@ -375,12 +363,6 @@ public final class ChatHandler {
                     StyledText nextLine = newLines.getFirst();
                     if (nextLine.equals(lastConfirmationlessDialogue)) {
                         // The rest of the lines is a re-sent confirmationless dialogue
-                        if (newLines.size() > 1) {
-                            // There should not be any more lines after this
-                            System.out.println(
-                                    "Voices of  wynn: [NPC] - Unexpected lines after a confirmationless dialogue: "
-                                            + newLines);
-                        }
 
                         break;
                     }
@@ -457,9 +439,6 @@ public final class ChatHandler {
             handleNpcDialogue(List.of(styledText), NpcDialogueType.CONFIRMATIONLESS, false);
             return;
         }
-        if (recipientType == RecipientType.GAME_MESSAGE) {
-            Utils.sendMessage("GAME_MESSAGE: " + styledText.getStringWithoutFormatting());
-        }
 
         StyledText updatedMessage = postChatLine(styledText, MessageType.BACKGROUND);
         // If the message is canceled, we do not need to cancel any packets,
@@ -486,7 +465,6 @@ public final class ChatHandler {
         RecipientType recipientType = getRecipientType(styledText, messageType);
 
         if (recipientType == RecipientType.GAME_MESSAGE) {
-            Utils.sendMessage("GAME_MESSAGE 2: " + styledText.getStringWithoutFormatting());
             onNpcDialogue(List.of(styledText), false, NpcDialogueType.NONE);
         }
 
@@ -511,10 +489,7 @@ public final class ChatHandler {
 
         // Confirmationless dialogues bypass the lastScreenNpcDialogue check
         if (type == NpcDialogueType.CONFIRMATIONLESS) {
-            if (dialogue.size() != 1) {
-                System.out.println(
-                        "Voices of  wynn: [NPC] - Confirmationless dialogue should only have one line: " + dialogue);
-            }
+
 
             // Store the last confirmationless dialogue, but it may be repeated,
             // so we need to check that it's not duplicated when a message is sent during the dialogue
@@ -532,7 +507,6 @@ public final class ChatHandler {
     private void onNpcDialogue(List<StyledText> dialogue, boolean isProtected, NpcDialogueType type) {
         for (var text : dialogue) {
             ReceiveChatEvent.receivedChat(text.getStringWithoutFormatting());
-            Utils.sendMessage("Dialogue: " + text.getStringWithoutFormatting());
         }
     }
 
