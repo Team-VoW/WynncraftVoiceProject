@@ -2960,7 +2960,7 @@ public class Sounds {
 
         // Lava Springs
         s.addSound(
-                "[1/6] Colonel Gailard: Oh, good, good! I bet'cha you're a Ragni soldier, aren't ya? Listen up, soldier! I've got a task here that 'ye can help out with",
+                "[1/6] Colonel Gailard: Oh, good, good! I bet'cha you're a Ragni soldier, aren't ya? Listen up, soldier! I've got a task here that 'ye can help out with.",
                 "lavasprings-colonelgailard-1",
                 false);
         s.addSound(
