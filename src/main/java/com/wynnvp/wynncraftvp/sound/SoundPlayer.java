@@ -6,6 +6,7 @@ package com.wynnvp.wynncraftvp.sound;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
 
+import com.terraformersmc.modmenu.util.mod.Mod;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.npc.NPCHandler;
@@ -25,8 +26,6 @@ import org.joml.Vector3f;
 
 public class SoundPlayer {
     private final LineReporter lineReporter;
-    // public static boolean SPEAKING = false;
-
     public SoundPlayer() {
         lineReporter = new LineReporter();
     }
@@ -44,12 +43,9 @@ public class SoundPlayer {
 
         String line = lineData.getSoundLine();
 
-        Player player = Minecraft.getInstance().player;
-        ClientLevel world = Minecraft.getInstance().level;
-
         SoundsHandler soundsHandler = ModCore.instance.soundsHandler;
 
-        if (!canPlaySound(soundsHandler, lineData, player, world)) return;
+        if (!canPlaySound(soundsHandler, lineData)) return;
 
         if (!config.isOnlyLogNotPlayingLines() && config.isLogDialogueLines())
             VowLogger.logLine(lineData.getRealLine() + " [PLAYED]");
@@ -61,7 +57,7 @@ public class SoundPlayer {
         });
     }
 
-    private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData, Player player, ClientLevel world) {
+    private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData) {
         String line = lineData.getSoundLine();
 
         if (soundsHandler.get(line).isEmpty()) {
@@ -69,33 +65,16 @@ public class SoundPlayer {
             lineReporter.MissingLine(lineData);
             return false;
         }
-
-        if (player == null) {
-            if (config.isLogPlayingInformation()) VowLogger.logLine("Player was null. Sound not played", "Error");
-            return false;
-        }
-
-        if (world == null) {
-            if (config.isLogPlayingInformation()) VowLogger.logLine("World was null. Sound not played", "Error");
-            return false;
-        }
-
         return true;
     }
 
     private void PlaySoundObject(SoundObject sound) {
-        Player player = Minecraft.getInstance().player;
-        assert player != null;
-        SoundManager manager = Minecraft.getInstance().getSoundManager();
 
-        // Stops all sounds so that not multiple voice lines are played over each other
-        // manager.stop();
-        if (lastPlayedSound != null) {
-            lastPlayedSound.StopSound();
-            lastPlayedSound = null;
-        }
 
-        final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
+        ModCore.instance.audioPlayer.play(sound);
+        //sound.getCustomSoundClass()
+
+/*        final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
         final SoundEvent soundEvent = customSoundClass.soundEvent();
 
         // If this sound contains info about a location to play it at
@@ -125,17 +104,17 @@ public class SoundPlayer {
 
         var soundAtArmorStand = new SoundAtArmorStand(soundEvent, rawName, sound);
         manager.play(soundAtArmorStand);
-        lastPlayedSound = soundAtArmorStand;
+        lastPlayedSound = soundAtArmorStand;*/
     }
 
-    private SoundInstance playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {
+/*    private SoundInstance playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {
         SoundEvent soundEvent = soundObject.getCustomSoundClass().soundEvent();
 
         var soundAtCords = new SoundAtCords(soundEvent, soundObject, position);
 
         manager.play(soundAtCords);
         return soundAtCords;
-    }
+    }*/
 
     private boolean isOutsideReach(SoundObject soundObject, Player player, Vec3 npcPosition) {
         int soundObjectFallOff = soundObject.getFallOff();

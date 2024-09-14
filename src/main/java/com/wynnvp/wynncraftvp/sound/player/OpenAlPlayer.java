@@ -1,22 +1,17 @@
 package com.wynnvp.wynncraftvp.sound.player;
 
 
-import com.jcraft.jorbis.VorbisFile;
 import net.minecraft.world.phys.Vec3;
 import org.lwjgl.openal.AL10;
 import org.lwjgl.openal.AL11;
 
 import javax.sound.sampled.AudioFormat;
-import java.io.InputStream;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import static it.unimi.dsi.fastutil.io.TextIO.BUFFER_SIZE;
 public class OpenAlPlayer {
     private int sourceID;
     private final ExecutorService executorService;
@@ -25,6 +20,25 @@ public class OpenAlPlayer {
     private static final float maxDistance = 20000;
     private final CurrentSpeaker currentSpeaker;
     private Vec3 customPlayPos;
+
+
+    public void updateSpeaker(String speakerName, Optional<Vec3> pos) {
+        executorService.execute(() -> {
+            pos.ifPresentOrElse(p -> {
+                if (pos.get().x == 0 && pos.get().y == 0 && pos.get().z == 0) {
+                    customPlayPos = null;
+                } else {
+                    customPlayPos = pos.get();
+                }
+            }, () -> {
+                customPlayPos = null;
+            });
+
+            currentSpeaker.setNpc(speakerName);
+            //soundEffects.setEcho();
+        });
+    }
+
 
     public OpenAlPlayer() {
         currentSpeaker = new CurrentSpeaker();

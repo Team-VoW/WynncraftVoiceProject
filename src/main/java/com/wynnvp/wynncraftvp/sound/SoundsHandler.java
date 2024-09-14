@@ -60,7 +60,7 @@ public class SoundsHandler {
                 new SoundObject(
                         lineData.getNPCName(),
                         id,
-                        new CustomSoundClass(registerSound(id), movingSound),
+                        movingSound,
                         position,
                         fallOff));
     }

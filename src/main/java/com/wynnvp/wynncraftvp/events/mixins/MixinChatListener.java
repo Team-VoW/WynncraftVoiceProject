@@ -30,11 +30,6 @@ public class MixinChatListener {
 
 
 
-        if (packet.content().getString().toLowerCase().contains("idol")){
-            Utils.sendMessage("Playing audio...");
-            ModCore.instance.audioPlayer.play("C:\\Users\\1\\IdeaProjects\\WynncraftVoiceProject\\src\\main\\resources\\assets\\wynnvp\\sounds\\acquiringcredentials-barman-1.ogg");
-            return;
-        }
 
         ModCore.chatHandler.onChatReceived(packet.content());
     }
