@@ -4,33 +4,22 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
-import static com.wynnvp.wynncraftvp.ModCore.config;
-
-import com.terraformersmc.modmenu.util.mod.Mod;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
-import com.wynnvp.wynncraftvp.npc.NPCHandler;
-import com.wynnvp.wynncraftvp.sound.at.SoundAtArmorStand;
-import com.wynnvp.wynncraftvp.sound.at.SoundAtCords;
-import com.wynnvp.wynncraftvp.sound.at.SoundAtPlayer;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.sound.line.LineReporter;
 import com.wynnvp.wynncraftvp.utils.Utils;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.multiplayer.ClientLevel;
-import net.minecraft.client.sounds.SoundManager;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
-import org.joml.Vector3f;
+
+import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class SoundPlayer {
     private final LineReporter lineReporter;
+
     public SoundPlayer() {
         lineReporter = new LineReporter();
     }
-
-    private SoundInstance lastPlayedSound = null;
 
     // Code that is run to play all the sounds
     public void playSound(LineData lineData) {

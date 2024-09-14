@@ -23,15 +23,6 @@ public class SoundsHandler {
         Sounds.register(this);
     }
 
-    public static SoundEvent registerSound(String name) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(ModCore.MODID, name.toLowerCase());
-        SoundEvent se = SoundEvent.createVariableRangeEvent(id);
-
-        Registry.register(BuiltInRegistries.SOUND_EVENT, id, se);
-
-        return se;
-    }
-
     /**
      * Method to add the sounds to the system
      *

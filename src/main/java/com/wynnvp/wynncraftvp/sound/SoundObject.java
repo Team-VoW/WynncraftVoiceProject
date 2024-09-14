@@ -7,7 +7,6 @@ package com.wynnvp.wynncraftvp.sound;
 import net.minecraft.world.phys.Vec3;
 import org.joml.Vector3f;
 
-import javax.swing.text.html.Option;
 import java.util.Optional;
 
 public class SoundObject {
@@ -32,6 +31,7 @@ public class SoundObject {
     public String getNpcName() {
         return npcName;
     }
+
     public String getTrimmedNpcName() {
         return getNpcName().toLowerCase().replace(" ", "");
     }
