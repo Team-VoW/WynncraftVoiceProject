@@ -40,7 +40,7 @@ public class AudioPlayer {
         autoProgress = new AutoProgress();
     }
 
-    private void write(short[] data) {
+    private void write(AudioData data) {
         openAlPlayer.playAudio(data);
     }
 

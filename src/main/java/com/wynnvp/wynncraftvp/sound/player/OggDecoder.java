@@ -37,8 +37,9 @@ public class OggDecoder {
 
         return shortArray;
     }
-    public static short[] getCompleteBuffer(String filePath) {
+    public static AudioData getCompleteBuffer(String filePath) {
             try (InputStream inputStream = new FileInputStream(filePath)) {
+                AudioData audioData;
                 SoundBuffer soundBuffer;
                 ByteBuffer byteBuffer;
                 try (JOrbisAudioStream finiteAudioStream = new JOrbisAudioStream(inputStream);){
@@ -47,8 +48,9 @@ public class OggDecoder {
                             + " Sample Rate: " + finiteAudioStream.getFormat().getSampleRate()
                             + " Sample Size: " + finiteAudioStream.getFormat().getSampleSizeInBits());
                     soundBuffer = new SoundBuffer(byteBuffer, finiteAudioStream.getFormat());
+                    audioData = new AudioData(byteBuffer, finiteAudioStream.getFormat());
                 }
-                return byteBufferToShortArray(byteBuffer);
+                return audioData;
             } catch (IOException iOException) {
                 throw new CompletionException(iOException);
             }
