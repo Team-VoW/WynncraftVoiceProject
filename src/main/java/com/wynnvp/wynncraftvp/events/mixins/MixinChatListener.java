@@ -5,6 +5,7 @@
 package com.wynnvp.wynncraftvp.events.mixins;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientPacketListener;
 import net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket;
@@ -26,6 +27,14 @@ public class MixinChatListener {
                                     "Lnet/minecraft/client/multiplayer/chat/ChatListener;handleSystemMessage(Lnet/minecraft/network/chat/Component;Z)V"))
     public void onMessage(ClientboundSystemChatPacket packet, CallbackInfo ci) {
         if (packet.content().getString().contains("[Voices of Wynn]") || packet.overlay()) return;
+
+
+
+        if (packet.content().getString().toLowerCase().contains("idol")){
+            Utils.sendMessage("Playing audio...");
+            ModCore.instance.audioPlayer.play("C:\\Users\\1\\IdeaProjects\\WynncraftVoiceProject\\src\\main\\resources\\assets\\wynnvp\\sounds\\acquiringcredentials-barman-1.ogg");
+            return;
+        }
 
         ModCore.chatHandler.onChatReceived(packet.content());
     }
