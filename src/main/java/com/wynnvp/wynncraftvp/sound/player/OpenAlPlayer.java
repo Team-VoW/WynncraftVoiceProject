@@ -23,18 +23,10 @@ public class OpenAlPlayer {
 
 
     public void updateSpeaker(String speakerName, Optional<Vec3> pos) {
-        executorService.execute(() -> {
-            pos.ifPresentOrElse(p -> {
-                if (pos.get().x == 0 && pos.get().y == 0 && pos.get().z == 0) {
-                    customPlayPos = null;
-                } else {
-                    customPlayPos = pos.get();
-                }
-            }, () -> {
-                customPlayPos = null;
-            });
+        currentSpeaker.setNpc(speakerName, pos);
 
-            currentSpeaker.setNpc(speakerName);
+        executorService.execute(() -> {
+
             //soundEffects.setEcho();
         });
     }
@@ -44,6 +36,9 @@ public class OpenAlPlayer {
         currentSpeaker = new CurrentSpeaker();
         this.buffers = new int[3000];
         executorService = Executors.newSingleThreadExecutor();
+        executorService.execute(() -> {
+        });
+
         createOpenAL();
     }
 
@@ -157,6 +152,17 @@ public class OpenAlPlayer {
         AL10.alDeleteSources(sourceID);
         AL10.alDeleteBuffers(buffers);
         executorService.shutdown();  // Shutdown the executor
+    }
+
+    public void onTick(){
+
+        //IF currenctly not playing an audio do ntothing
+        if (isStopped()) return;
+
+
+
+        setPosition(currentSpeaker.getUpdatedPosition());
+
     }
 
     public void setPosition(Optional<Vec3> soundPos) {

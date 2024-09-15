@@ -42,7 +42,7 @@ public class SoundObject {
 
     public Optional<Vec3> getPosition() {
 
-        if (position == null) return null;
+        if (position == null) return Optional.empty();
 
         return Optional.of(new Vec3(position.x, position.y, position.z));
     }

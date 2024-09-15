@@ -1,20 +1,13 @@
 package com.wynnvp.wynncraftvp.sound.player;
 
 import com.wynnvp.wynncraftvp.sound.SoundObject;
-import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.packs.resources.Resource;
-import net.minecraft.world.phys.Vec3;
-
 
 import java.util.Optional;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class AudioPlayer {
 
-    private final ExecutorService executorService = Executors.newSingleThreadExecutor();
     public final OpenAlPlayer openAlPlayer;
 
     public final AutoProgress autoProgress;
@@ -32,34 +25,30 @@ public class AudioPlayer {
 
     public void playAudioFile(ResourceLocation resouce) {
         openAlPlayer.stopAudio();
-        executorService.execute(() -> {
-            Optional<AudioData> audioData = OggDecoder.getAudioData(resouce);
+        Optional<AudioData> audioData = OggDecoder.getAudioData(resouce);
 
-            if (audioData.isEmpty()) {
-                Utils.sendMessage("Failed to load audio file: " + resouce.getPath());
-                return;
-            }
+        if (audioData.isEmpty()) {
+            Utils.sendMessage("Failed to load audio file: " + resouce.getPath());
+            return;
+        }
 
-            write(audioData.get());
+        write(audioData.get());
 
 
-            //This totalAudioLength is the length in short[] which means we do not have to divide it by the bit depth (16 / 8 = 2),
-            //As the audio is half as long as raw PCM audio.
+        //This totalAudioLength is the length in short[] which means we do not have to divide it by the bit depth (16 / 8 = 2),
+        //As the audio is half as long as raw PCM audio.
 /*            long seconds = (long) (audioPacket.getTotalAudioLength() / (48000f));
             if (VowCloud.CONFIG.autoProgress.get())
                 autoProgress.autoProgress((long) (seconds * 1000 + VowCloud.CONFIG.autoProgressDelay.get() * 1000));*/
-        });
+
     }
 
-    public void play(SoundObject soundObject){
+    public void play(SoundObject soundObject) {
         stopPlayingCurrentSound();
 
         openAlPlayer.updateSpeaker(soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
 
         String audioFileName = soundObject.getId();
-
-        //The audio file is located in the Minecraft Resource folder under asses.wynnvp.sounds.
-
         ResourceLocation resourceLocation = ResourceLocation.fromNamespaceAndPath("wynnvp", "sounds/" + audioFileName + ".ogg");
 
         playAudioFile(resourceLocation);

@@ -9,18 +9,38 @@ import java.util.Optional;
 public class CurrentSpeaker {
 
     private CachedEntity cachedEntity;
+    public String rawName = "";
+    private Optional<Vec3> lastEntityPos;
 
-    private String rawName = "";
+    private Optional<Vec3> setPosition;
 
-    private Vec3 lastEntityPos;
+    public CurrentSpeaker() {
+        lastEntityPos = Optional.empty();
+        setPosition = Optional.empty();
+    }
 
 
-    public void setNpc(String name){
+    public void setNpc(String name, Optional<Vec3> pos) {
+        pos.ifPresentOrElse(p -> {
+            if (pos.get().x == 0 && pos.get().y == 0 && pos.get().z == 0) {
+                setPosition = Optional.empty();
+            } else {
+                setPosition = pos;
+            }
+        }, () -> {
+            setPosition = Optional.empty();
+        });
+
+        setPosition = pos;
         rawName = name.toLowerCase().replace(" ", "");
         cachedEntity = null;
     }
 
-    public Optional<Vec3> getUpdatedPosition(){
+    public Optional<Vec3> getUpdatedPosition() {
+        if (setPosition.isPresent()) {
+            return setPosition;
+        }
+
         if (this.rawName.isEmpty()) {
             return Optional.empty();
         }
@@ -28,15 +48,15 @@ public class CurrentSpeaker {
             cachedEntity = NPCHandler.findEntity(rawName);
 
         //Was not able to find the entity, so just let the sound keep on playing where it is.
-        if (cachedEntity == null){
-            if (lastEntityPos == null){
+        if (cachedEntity == null) {
+            if (lastEntityPos.isEmpty()) {
                 return Optional.empty();
             }
 
         } else {
-            lastEntityPos = cachedEntity.child.getEyePosition();
+            lastEntityPos = Optional.of(cachedEntity.child.getEyePosition());
         }
 
-        return Optional.of(lastEntityPos);
+        return lastEntityPos;
     }
 }
