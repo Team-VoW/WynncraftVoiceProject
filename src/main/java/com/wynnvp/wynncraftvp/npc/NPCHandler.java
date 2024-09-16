@@ -108,6 +108,9 @@ public class NPCHandler {
             if (entity instanceof Display.TextDisplay) {
                 Display.TextDisplay textDisplay = (Display.TextDisplay) entity;
 
+                if (textDisplay.textRenderState() == null) continue;
+
+
                 Component text = textDisplay.textRenderState().text();
                 // Check if the text matches
                 if (getName(text.getString()).contains(rawName)) {
