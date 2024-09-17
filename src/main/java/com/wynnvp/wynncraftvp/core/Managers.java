@@ -5,12 +5,10 @@
 package com.wynnvp.wynncraftvp.core;
 
 import com.wynnvp.wynncraftvp.managers.json.JsonManager;
-import com.wynnvp.wynncraftvp.managers.sound.SoundManager;
 
 public final class Managers {
     // Managers with no dependencies, kept in alphabetical order
     public static final JsonManager Json = new JsonManager();
-    public static final SoundManager Sound = new SoundManager();
 
     // Managers with dependencies, kept in dependency order (then alphabetical)
 

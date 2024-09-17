@@ -4,21 +4,23 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
+import java.util.Optional;
+import net.minecraft.world.phys.Vec3;
 import org.joml.Vector3f;
 
 public class SoundObject {
     private final String npcName;
     private final String id;
-    private final CustomSoundClass customSoundClass;
+    private final boolean movingSound;
     private final Vector3f position;
     private final int fallOff;
 
-    public SoundObject(String npcName, String id, CustomSoundClass customSoundClass, Vector3f position, int fallOff) {
+    public SoundObject(String npcName, String id, boolean movingSound, Vector3f position, int fallOff) {
         this.fallOff = fallOff;
         this.position = position;
         this.npcName = npcName;
         this.id = id;
-        this.customSoundClass = customSoundClass;
+        this.movingSound = movingSound;
     }
 
     public String getId() {
@@ -29,12 +31,18 @@ public class SoundObject {
         return npcName;
     }
 
-    public CustomSoundClass getCustomSoundClass() {
-        return customSoundClass;
+    public String getTrimmedNpcName() {
+        return getNpcName().toLowerCase().replace(" ", "");
     }
 
-    public Vector3f getPosition() {
-        return position;
+    public boolean isSoundAtPlayer() {
+        return movingSound;
+    }
+
+    public Optional<Vec3> getPosition() {
+        if (position == null) return Optional.empty();
+
+        return Optional.of(new Vec3(position.x, position.y, position.z));
     }
 
     public int getFallOff() {

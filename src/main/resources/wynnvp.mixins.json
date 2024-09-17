@@ -3,7 +3,8 @@
     "MixinChatListener",
     "MixinPlaySoundListener",
     "MixinServerConnectListener",
-    "SneakPacketMixin"
+    "SneakPacketMixin",
+    "SoundEngineStartedMixin"
   ],
   "compatibilityLevel": "JAVA_17",
   "injectors": {

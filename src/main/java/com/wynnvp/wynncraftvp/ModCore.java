@@ -9,6 +9,7 @@ import com.wynnvp.wynncraftvp.core.Managers;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
+import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.text.ChatHandler;
 import java.util.Optional;
 import me.shedaniel.autoconfig.AutoConfig;
@@ -31,6 +32,8 @@ public class ModCore implements ModInitializer {
 
     public SoundsHandler soundsHandler;
     public static ModCore instance;
+
+    public AudioPlayer audioPlayer;
     public SoundPlayer soundPlayer;
     public static ChatHandler chatHandler;
 
@@ -71,6 +74,7 @@ public class ModCore implements ModInitializer {
         ClientTickEvents.END_WORLD_TICK.register(cli -> {
             // Your ticking method
             chatHandler.onTick();
+            audioPlayer.openAlPlayer.onTick();
         });
     }
 
