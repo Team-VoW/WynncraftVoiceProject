@@ -33,7 +33,6 @@ public class ModCore implements ModInitializer {
     public SoundsHandler soundsHandler;
     public static ModCore instance;
 
-
     public AudioPlayer audioPlayer;
     public SoundPlayer soundPlayer;
     public static ChatHandler chatHandler;

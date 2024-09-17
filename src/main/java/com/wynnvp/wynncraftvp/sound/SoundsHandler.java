@@ -4,13 +4,12 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
-import com.wynnvp.wynncraftvp.sound.line.LineData;
-import org.joml.Vector3f;
+import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
+import com.wynnvp.wynncraftvp.sound.line.LineData;
 import java.util.HashMap;
 import java.util.Optional;
-
-import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
+import org.joml.Vector3f;
 
 public class SoundsHandler {
     private final HashMap<String, SoundObject> sounds = new HashMap<>();
@@ -42,14 +41,7 @@ public class SoundsHandler {
     // If position is 0 null use default. If falloff is 0 use default
     public void addSound(String message, String id, boolean movingSound, Vector3f position, int fallOff) {
         LineData lineData = formatToLineData(message);
-        sounds.put(
-                lineData.getSoundLine(),
-                new SoundObject(
-                        lineData.getNPCName(),
-                        id,
-                        movingSound,
-                        position,
-                        fallOff));
+        sounds.put(lineData.getSoundLine(), new SoundObject(lineData.getNPCName(), id, movingSound, position, fallOff));
     }
 
     public Optional<SoundObject> get(String message) {

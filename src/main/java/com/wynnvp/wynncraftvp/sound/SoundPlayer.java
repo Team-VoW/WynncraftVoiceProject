@@ -4,6 +4,8 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
+import static com.wynnvp.wynncraftvp.ModCore.config;
+
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
@@ -11,8 +13,6 @@ import com.wynnvp.wynncraftvp.sound.line.LineReporter;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
-
-import static com.wynnvp.wynncraftvp.ModCore.config;
 
 public class SoundPlayer {
     private final LineReporter lineReporter;
@@ -58,12 +58,10 @@ public class SoundPlayer {
     }
 
     private void PlaySoundObject(SoundObject sound) {
-
-
         ModCore.instance.audioPlayer.play(sound);
-        //sound.getCustomSoundClass()
+        // sound.getCustomSoundClass()
 
-/*        final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
+        /*        final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
         final SoundEvent soundEvent = customSoundClass.soundEvent();
 
         // If this sound contains info about a location to play it at
@@ -96,7 +94,7 @@ public class SoundPlayer {
         lastPlayedSound = soundAtArmorStand;*/
     }
 
-/*    private SoundInstance playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {
+    /*    private SoundInstance playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {
         SoundEvent soundEvent = soundObject.getCustomSoundClass().soundEvent();
 
         var soundAtCords = new SoundAtCords(soundEvent, soundObject, position);

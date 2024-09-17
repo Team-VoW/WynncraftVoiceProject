@@ -5,7 +5,6 @@
 package com.wynnvp.wynncraftvp.events.mixins;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientPacketListener;
 import net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket;
@@ -27,9 +26,6 @@ public class MixinChatListener {
                                     "Lnet/minecraft/client/multiplayer/chat/ChatListener;handleSystemMessage(Lnet/minecraft/network/chat/Component;Z)V"))
     public void onMessage(ClientboundSystemChatPacket packet, CallbackInfo ci) {
         if (packet.content().getString().contains("[Voices of Wynn]") || packet.overlay()) return;
-
-
-
 
         ModCore.chatHandler.onChatReceived(packet.content());
     }

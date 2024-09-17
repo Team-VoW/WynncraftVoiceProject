@@ -4,6 +4,8 @@
  */
 package com.wynnvp.wynncraftvp.npc;
 
+import static com.wynnvp.wynncraftvp.ModCore.config;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.Display;
@@ -12,10 +14,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 
-import static com.wynnvp.wynncraftvp.ModCore.config;
-
 public class NPCHandler {
-
     public static CachedEntity findEntity(String rawName) {
         rawName = getName(rawName);
 
@@ -87,7 +86,6 @@ public class NPCHandler {
         return entity instanceof net.minecraft.world.entity.decoration.ArmorStand;
     }
 
-
     public static Entity findClosestTextDisplay(String rawName, Player player) {
         double closestDistance = Double.MAX_VALUE;
         Entity closestPosition = null;
@@ -109,7 +107,6 @@ public class NPCHandler {
                 Display.TextDisplay textDisplay = (Display.TextDisplay) entity;
 
                 if (textDisplay.textRenderState() == null) continue;
-
 
                 Component text = textDisplay.textRenderState().text();
                 // Check if the text matches

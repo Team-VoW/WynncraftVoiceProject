@@ -4,10 +4,9 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
+import java.util.Optional;
 import net.minecraft.world.phys.Vec3;
 import org.joml.Vector3f;
-
-import java.util.Optional;
 
 public class SoundObject {
     private final String npcName;
@@ -41,7 +40,6 @@ public class SoundObject {
     }
 
     public Optional<Vec3> getPosition() {
-
         if (position == null) return Optional.empty();
 
         return Optional.of(new Vec3(position.x, position.y, position.z));

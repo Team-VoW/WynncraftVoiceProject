@@ -1,19 +1,21 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.sound.player;
 
-
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.util.Optional;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import javax.sound.sampled.AudioFormat;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.phys.Vec3;
 import org.lwjgl.openal.AL10;
 import org.lwjgl.openal.AL11;
-
-import javax.sound.sampled.AudioFormat;
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.util.Optional;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class OpenAlPlayer {
     private int sourceID;
@@ -23,25 +25,21 @@ public class OpenAlPlayer {
     private static final float maxDistance = 20000;
     private final CurrentSpeaker currentSpeaker;
 
-    private final Options gameSettings;  // For retrieving the volume setting
-
+    private final Options gameSettings; // For retrieving the volume setting
 
     public void updateSpeaker(String speakerName, Optional<Vec3> pos) {
         currentSpeaker.setNpc(speakerName, pos);
 
-/*        executorService.execute(() -> {
-
+        /*        executorService.execute(() -> {
             //soundEffects.setEcho();
         });*/
     }
-
 
     public OpenAlPlayer() {
         currentSpeaker = new CurrentSpeaker();
         this.buffers = new int[3000];
         executorService = Executors.newSingleThreadExecutor();
-        executorService.execute(() -> {
-        });
+        executorService.execute(() -> {});
 
         createOpenAL();
 
@@ -74,7 +72,8 @@ public class OpenAlPlayer {
         if (queuedBuffers >= buffers.length) {
             int sampleOffset = AL11.alGetSourcei(sourceID, AL11.AL_SAMPLE_OFFSET);
             int buffersToSkip = queuedBuffers - 100;
-            AL11.alSourcei(sourceID, AL11.AL_SAMPLE_OFFSET, sampleOffset + buffersToSkip * audioData.byteBuffer.remaining());
+            AL11.alSourcei(
+                    sourceID, AL11.AL_SAMPLE_OFFSET, sampleOffset + buffersToSkip * audioData.byteBuffer.remaining());
             removeProcessedBuffersSync();
         }
 
@@ -82,7 +81,8 @@ public class OpenAlPlayer {
         ByteBuffer monoData = convertToMono(audioData);
 
         // Always use a mono format (16-bit PCM)
-        AL11.alBufferData(buffers[bufferIndex], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
+        AL11.alBufferData(
+                buffers[bufferIndex], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
 
         AL11.alSourceQueueBuffers(sourceID, buffers[bufferIndex]);
         bufferIndex = (bufferIndex + 1) % buffers.length;
@@ -157,16 +157,14 @@ public class OpenAlPlayer {
     public void cleanup() {
         AL10.alDeleteSources(sourceID);
         AL10.alDeleteBuffers(buffers);
-        executorService.shutdown();  // Shutdown the executor
+        executorService.shutdown(); // Shutdown the executor
     }
 
-    public void onTick(){
-
-        //IF currently not playing an audio do nothing
+    public void onTick() {
+        // IF currently not playing an audio do nothing
         if (isStopped()) return;
 
         setPosition(currentSpeaker.getUpdatedPosition());
-
     }
 
     private void updateVolumeSync() {
@@ -178,7 +176,6 @@ public class OpenAlPlayer {
         AL10.alSourcef(sourceID, AL10.AL_GAIN, volume);
     }
 
-
     public void setPosition(Optional<Vec3> soundPos) {
         executorService.execute(() -> {
             setPositionSync(soundPos);
@@ -186,13 +183,15 @@ public class OpenAlPlayer {
     }
 
     private void setPositionSync(Optional<Vec3> soundPos) {
-        soundPos.ifPresentOrElse(pos -> {
-            AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_FALSE);
-            AL11.alSource3f(sourceID, AL11.AL_POSITION, (float) pos.x, (float) pos.y, (float) pos.z);
-        }, () -> {
-            AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
-            AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
-        });
+        soundPos.ifPresentOrElse(
+                pos -> {
+                    AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_FALSE);
+                    AL11.alSource3f(sourceID, AL11.AL_POSITION, (float) pos.x, (float) pos.y, (float) pos.z);
+                },
+                () -> {
+                    AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
+                    AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
+                });
 
         updateVolumeSync();
     }
