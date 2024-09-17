@@ -1,9 +1,21 @@
+## [1.9.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.1...v1.9.2) (2024-09-17)
+
+
+### Bug Fixes
+
+* Added custom audio playback system and fix crash with new Text displays ([05fb150](https://github.com/Team-VoW/WynncraftVoiceProject/commit/05fb15077ba259c0ca40aca1caebff86f0a5a6ae))
+
 ## [1.9.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.0...v1.9.1) (2024-08-30)
 
 
 ### Bug Fixes
 
 * Removed debugging ([378a9ed](https://github.com/Team-VoW/WynncraftVoiceProject/commit/378a9edd1b08f8c8c4c99a3b958923145e15859a))
+
+
+### Miscellaneous Chores
+
+* **release:** v1.9.1 [skip ci] ([482a2dc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/482a2dcbdc3823f125c2b103821d36308a028c57))
 
 ## [1.9.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.8.2...v1.9.0) (2024-08-29)
 
