@@ -4,7 +4,6 @@
     "MixinPlaySoundListener",
     "MixinServerConnectListener",
     "SneakPacketMixin",
-    "LibraryMixin",
     "SoundEngineStartedMixin"
   ],
   "compatibilityLevel": "JAVA_17",
