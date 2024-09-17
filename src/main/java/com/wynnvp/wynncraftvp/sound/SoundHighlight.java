@@ -2,7 +2,7 @@
  * Copyright © Team-VoW 2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
-package com.wynnvp.wynncraftvp.sound.at;
+package com.wynnvp.wynncraftvp.sound;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
 

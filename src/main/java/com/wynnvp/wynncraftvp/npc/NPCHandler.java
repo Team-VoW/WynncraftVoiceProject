@@ -15,11 +15,6 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 
 public class NPCHandler {
-    public static Vec3 findPosition(String rawName) {
-        CachedEntity cachedEntity = findEntity(rawName);
-        return cachedEntity == null ? null : cachedEntity.child.getEyePosition();
-    }
-
     public static CachedEntity findEntity(String rawName) {
         rawName = getName(rawName);
 
@@ -35,8 +30,7 @@ public class NPCHandler {
     private static CachedEntity findNPC(String rawName) {
         Player player = Minecraft.getInstance().player;
         assert player != null;
-        Entity entity = getClosestEntityWithName(rawName, player);
-
+        Entity entity = findClosestTextDisplay(rawName, player);
         // If no entity was found
         if (entity == null) return new CachedEntity();
 
@@ -92,47 +86,6 @@ public class NPCHandler {
         return entity instanceof net.minecraft.world.entity.decoration.ArmorStand;
     }
 
-    private static Entity getClosestEntityWithName(String rawName, Player player) {
-        Vec3 playerEyePos = player.getEyePosition();
-
-        // Set to really high as a start value to find a closer one
-        double closestDistance = 20000;
-        Entity entity = null;
-        for (Entity entityInWorld :
-                Minecraft.getInstance().level.entitiesForRendering()) { // iterate over every single entity
-            double distance = entityInWorld.position().distanceToSqr(playerEyePos);
-
-            // This entity is further away then the closest one
-            if (closestDistance < distance) continue;
-
-            String entityName = getName(entityInWorld);
-
-            if (entityName.contains(rawName)) {
-                closestDistance = distance;
-                entity = entityInWorld;
-                continue;
-            }
-
-            // This code is to handle playing the sound at the location of the closest ??? character if no npc with the
-            // real name was found
-            if (entityName.contains("???")) {
-                // Adds a big settable number so that it is only played at this ??? character if there really is no
-                // other with the real name
-                distance += config.getTripleQuestionMarkInessentiel();
-                // If there is a closer entity with the real name or with ??? name then continue
-                if (closestDistance < distance) continue;
-                closestDistance = distance;
-                entity = entityInWorld;
-            }
-        }
-
-        if (entity == null) {
-            entity = findClosestTextDisplay(rawName, player);
-        }
-
-        return entity;
-    }
-
     public static Entity findClosestTextDisplay(String rawName, Player player) {
         double closestDistance = Double.MAX_VALUE;
         Entity closestPosition = null;
@@ -144,14 +97,16 @@ public class NPCHandler {
                 .getEntitiesOfClass(
                         Display.TextDisplay.class,
                         new AABB(
-                                player.getEyePosition().x - 200,
-                                player.getEyePosition().y - 200,
-                                player.getEyePosition().z - 200,
-                                player.getEyePosition().x + 200,
-                                player.getEyePosition().y + 200,
-                                player.getEyePosition().z + 200))) {
+                                player.getEyePosition().x - 100,
+                                player.getEyePosition().y - 100,
+                                player.getEyePosition().z - 100,
+                                player.getEyePosition().x + 100,
+                                player.getEyePosition().y + 100,
+                                player.getEyePosition().z + 100))) {
             if (entity instanceof Display.TextDisplay) {
                 Display.TextDisplay textDisplay = (Display.TextDisplay) entity;
+
+                if (textDisplay.textRenderState() == null) continue;
 
                 Component text = textDisplay.textRenderState().text();
                 // Check if the text matches

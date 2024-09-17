@@ -6,14 +6,9 @@ package com.wynnvp.wynncraftvp.sound;
 
 import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
-import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import java.util.HashMap;
 import java.util.Optional;
-import net.minecraft.core.Registry;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.SoundEvent;
 import org.joml.Vector3f;
 
 public class SoundsHandler {
@@ -21,15 +16,6 @@ public class SoundsHandler {
 
     public SoundsHandler() {
         Sounds.register(this);
-    }
-
-    public static SoundEvent registerSound(String name) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(ModCore.MODID, name.toLowerCase());
-        SoundEvent se = SoundEvent.createVariableRangeEvent(id);
-
-        Registry.register(BuiltInRegistries.SOUND_EVENT, id, se);
-
-        return se;
     }
 
     /**
@@ -55,14 +41,7 @@ public class SoundsHandler {
     // If position is 0 null use default. If falloff is 0 use default
     public void addSound(String message, String id, boolean movingSound, Vector3f position, int fallOff) {
         LineData lineData = formatToLineData(message);
-        sounds.put(
-                lineData.getSoundLine(),
-                new SoundObject(
-                        lineData.getNPCName(),
-                        id,
-                        new CustomSoundClass(registerSound(id), movingSound),
-                        position,
-                        fallOff));
+        sounds.put(lineData.getSoundLine(), new SoundObject(lineData.getNPCName(), id, movingSound, position, fallOff));
     }
 
     public Optional<SoundObject> get(String message) {
