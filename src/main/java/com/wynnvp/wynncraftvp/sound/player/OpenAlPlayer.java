@@ -1,6 +1,9 @@
 package com.wynnvp.wynncraftvp.sound.player;
 
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.Options;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.phys.Vec3;
 import org.lwjgl.openal.AL10;
 import org.lwjgl.openal.AL11;
@@ -19,16 +22,17 @@ public class OpenAlPlayer {
     protected final int[] buffers;
     private static final float maxDistance = 20000;
     private final CurrentSpeaker currentSpeaker;
-    private Vec3 customPlayPos;
+
+    private final Options gameSettings;  // For retrieving the volume setting
 
 
     public void updateSpeaker(String speakerName, Optional<Vec3> pos) {
         currentSpeaker.setNpc(speakerName, pos);
 
-        executorService.execute(() -> {
+/*        executorService.execute(() -> {
 
             //soundEffects.setEcho();
-        });
+        });*/
     }
 
 
@@ -40,6 +44,8 @@ public class OpenAlPlayer {
         });
 
         createOpenAL();
+
+        gameSettings = Minecraft.getInstance().options;
     }
 
     private void createOpenAL() {
@@ -156,14 +162,22 @@ public class OpenAlPlayer {
 
     public void onTick(){
 
-        //IF currenctly not playing an audio do ntothing
+        //IF currently not playing an audio do nothing
         if (isStopped()) return;
-
-
 
         setPosition(currentSpeaker.getUpdatedPosition());
 
     }
+
+    private void updateVolumeSync() {
+        // Retrieve the volume of the "Voice/Speech" category
+        float volume = gameSettings.getSoundSourceVolume(SoundSource.VOICE); // For newer versions
+        // For older versions, use SoundCategory.VOICE or SOUND_CATEGORY_VOICE
+
+        // Apply the volume to the OpenAL source
+        AL10.alSourcef(sourceID, AL10.AL_GAIN, volume);
+    }
+
 
     public void setPosition(Optional<Vec3> soundPos) {
         executorService.execute(() -> {
@@ -179,5 +193,7 @@ public class OpenAlPlayer {
             AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
             AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
         });
+
+        updateVolumeSync();
     }
 }
