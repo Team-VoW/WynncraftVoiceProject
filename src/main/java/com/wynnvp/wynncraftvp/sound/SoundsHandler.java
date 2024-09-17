@@ -4,17 +4,13 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
-import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
-
-import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
+import org.joml.Vector3f;
+
 import java.util.HashMap;
 import java.util.Optional;
-import net.minecraft.core.Registry;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.SoundEvent;
-import org.joml.Vector3f;
+
+import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
 public class SoundsHandler {
     private final HashMap<String, SoundObject> sounds = new HashMap<>();
