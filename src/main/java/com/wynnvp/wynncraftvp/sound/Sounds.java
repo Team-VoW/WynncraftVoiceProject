@@ -497,6 +497,27 @@ public class Sounds {
                 "[6/6] Therck: If you can bring me [1 Energy Mushroom], I'll help you out. Enter the cave down the stairs, and bring me that mushroom!",
                 "enzansbrother-therck-6",
                 false);
+        s.addSound("[1/6] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrother-therck-7", false);
+        s.addSound(
+                "[2/6] Therck: Excellent... Now I might finally be able to climb these stairs!",
+                "enzansbrother-therck-8",
+                false);
+        s.addSound(
+                "[3/6] Therck: Who knows, maybe there's a treasure or something up there?",
+                "enzansbrother-therck-9",
+                false);
+        s.addSound(
+                "[4/6] Therck: Take this ring. It's an accessory item! You can identify it at the nearby Item Identifier.",
+                "enzansbrother-therck-10",
+                false);
+        s.addSound(
+                "[5/6] Therck: It's a very good ring for someone starting out like you. There's just one small issue...",
+                "enzansbrother-therck-11",
+                false);
+        s.addSound(
+                "[6/6] Therck: To wear it, you must help my friend back in Ragni. He's been pestering me for days about needing help.",
+                "enzansbrother-therck-12",
+                false);
         s.addSound("[1/7] Therck: Ah, you're back! Do you have the mushroom?", "enzansbrother-therck-7", false);
         s.addSound(
                 "[2/7] Therck: Excellent... Now I might finally be able to climb these stairs!",
