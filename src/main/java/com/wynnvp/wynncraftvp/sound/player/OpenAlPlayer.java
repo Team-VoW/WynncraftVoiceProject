@@ -4,18 +4,17 @@
  */
 package com.wynnvp.wynncraftvp.sound.player;
 
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.util.Optional;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import javax.sound.sampled.AudioFormat;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.phys.Vec3;
 import org.lwjgl.openal.AL10;
 import org.lwjgl.openal.AL11;
+
+import java.nio.ByteBuffer;
+import java.util.Optional;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class OpenAlPlayer {
     private int sourceID;
@@ -39,7 +38,8 @@ public class OpenAlPlayer {
         currentSpeaker = new CurrentSpeaker();
         this.buffers = new int[3000];
         executorService = Executors.newSingleThreadExecutor();
-        executorService.execute(() -> {});
+        executorService.execute(() -> {
+        });
 
         createOpenAL();
 
@@ -78,7 +78,7 @@ public class OpenAlPlayer {
         }
 
         // Convert the audio data to mono
-        ByteBuffer monoData = convertToMono(audioData);
+        ByteBuffer monoData = audioData.byteBuffer;
 
         // Always use a mono format (16-bit PCM)
         AL11.alBufferData(
@@ -88,45 +88,6 @@ public class OpenAlPlayer {
         bufferIndex = (bufferIndex + 1) % buffers.length;
     }
 
-    // Method to convert stereo ByteBuffer to mono
-    private ByteBuffer convertToMono(AudioData audioData) {
-        AudioFormat format = audioData.audioFormat;
-        ByteBuffer originalData = audioData.byteBuffer;
-
-        int channels = format.getChannels();
-        int sampleSizeInBits = format.getSampleSizeInBits();
-        boolean bigEndian = format.isBigEndian();
-
-        if (channels == 1) {
-            // Already mono, no conversion needed
-            return originalData;
-        }
-
-        // We are only handling 16-bit PCM audio here
-        if (sampleSizeInBits != 16) {
-            throw new IllegalArgumentException("Unsupported sample size: " + sampleSizeInBits + " bits.");
-        }
-
-        // Create a new ByteBuffer for mono audio (half the size of stereo buffer)
-        ByteBuffer monoData = ByteBuffer.allocate(originalData.remaining() / 2)
-                .order(bigEndian ? ByteOrder.BIG_ENDIAN : ByteOrder.LITTLE_ENDIAN);
-
-        while (originalData.remaining() >= 4) {
-            // For 16-bit stereo PCM, read left and right samples (2 bytes each)
-            short leftSample = originalData.getShort();
-            short rightSample = originalData.getShort();
-
-            // Average the left and right channels to get mono
-            short monoSample = (short) ((leftSample + rightSample) / 2);
-
-            // Write the mono sample
-            monoData.putShort(monoSample);
-        }
-
-        // Flip the buffer to prepare for reading
-        monoData.flip();
-        return monoData;
-    }
 
     private void startPlayingIfStoppedSync() {
         if (isStopped()) {
