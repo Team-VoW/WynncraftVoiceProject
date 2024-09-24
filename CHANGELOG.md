@@ -1,23 +1,27 @@
-## [1.9.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.1...v1.9.2) (2024-09-17)
-
-
-### Bug Fixes
-
-* Added custom audio playback system and fix crash with new Text displays ([05fb150](https://github.com/Team-VoW/WynncraftVoiceProject/commit/05fb15077ba259c0ca40aca1caebff86f0a5a6ae))
-
-## [1.9.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.0...v1.9.1) (2024-08-30)
-
-
-### Bug Fixes
-
-* Removed debugging ([378a9ed](https://github.com/Team-VoW/WynncraftVoiceProject/commit/378a9edd1b08f8c8c4c99a3b958923145e15859a))
+## [1.9.3](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.2...v1.9.3) (2024-09-24)
 
 
 ### Miscellaneous Chores
 
-* **release:** v1.9.1 [skip ci] ([482a2dc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/482a2dcbdc3823f125c2b103821d36308a028c57))
+* try to release v1.9.3 ([afac581](https://github.com/Team-VoW/WynncraftVoiceProject/commit/afac581693266760407e7f2be683540d3d059f42))
 
-## [1.9.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.8.2...v1.9.0) (2024-08-29)
+## [1.9.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.1...v1.9.2) (2024-09-24)
+
+
+### Bug Fixes
+
+* Added custom audio playback system and fix crash with new Text displays ([#36](https://github.com/Team-VoW/WynncraftVoiceProject/issues/36)) ([45ddc2f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/45ddc2f0583fb50a0503cdeca32dc004003f061f))
+* Fixed a dialogue form Therck not playing in enzans brother ([62efedd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/62efedd498e8c2cd8621421eb89612a0735da55d))
+* Fixed sounds that where stereo and mono which would not play ([fa98520](https://github.com/Team-VoW/WynncraftVoiceProject/commit/fa985204de03455703e7b20de14432e30428389e))
+* Removed mix to mono function which causes crashes ([513c1d4](https://github.com/Team-VoW/WynncraftVoiceProject/commit/513c1d415f0e0af4b7c3f59d5d26f8177dffd175))
+
+
+### Miscellaneous Chores
+
+* fix merge issues between release and main ([#38](https://github.com/Team-VoW/WynncraftVoiceProject/issues/38)) ([ee615ad](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ee615adaefb60f85a85577fe4adcbc97d11582c6))
+* **release:** v1.9.2 [skip ci] ([518b82d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/518b82d4e3dc8260916fdb77aca378a5a925fd5e))
+
+## [1.9.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.8.2...v1.9.1) (2024-08-30)
 
 
 ### ⚠ BREAKING CHANGES
@@ -36,6 +40,7 @@
 
 * Don't upload build artifacts ([#25](https://github.com/Team-VoW/WynncraftVoiceProject/issues/25)) ([0458896](https://github.com/Team-VoW/WynncraftVoiceProject/commit/04588964a4160a88849750c5722200aa422c6240))
 * Make format-build.yml use the correct token ([#24](https://github.com/Team-VoW/WynncraftVoiceProject/issues/24)) ([ce37cc6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ce37cc6b23c13f23df2b60dc0fbe876524998610))
+* Removed debugging ([378a9ed](https://github.com/Team-VoW/WynncraftVoiceProject/commit/378a9edd1b08f8c8c4c99a3b958923145e15859a))
 * Revert LICENSE (which accidentally got changed during the folder refactors) ([#26](https://github.com/Team-VoW/WynncraftVoiceProject/issues/26)) ([61df23a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/61df23a269fa9731ed0cb6dbcf59b1136fb1370c))
 
 
@@ -48,6 +53,7 @@
 
 * Change some sound ids to better follow a format, remove color codes from sound lines ([#27](https://github.com/Team-VoW/WynncraftVoiceProject/issues/27)) ([e5b9af8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e5b9af8f71f9fd44fe1868208092a1b1b8c392a8))
 * **release:** v1.9.0 [skip ci] ([b94be27](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b94be27c5cbb394ea38eac788d08e29ec8a5cad3))
+* **release:** v1.9.1 [skip ci] ([482a2dc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/482a2dcbdc3823f125c2b103821d36308a028c57))
 * Update dependency versions (mainly Fabric Loader) ([#32](https://github.com/Team-VoW/WynncraftVoiceProject/issues/32)) ([b60285b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b60285b1fc332af3618b54b8d8fe1ab7461fa13c))
 
 
