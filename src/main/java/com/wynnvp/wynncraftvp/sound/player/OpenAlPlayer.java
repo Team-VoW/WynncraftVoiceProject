@@ -4,17 +4,16 @@
  */
 package com.wynnvp.wynncraftvp.sound.player;
 
+import java.nio.ByteBuffer;
+import java.util.Optional;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.phys.Vec3;
 import org.lwjgl.openal.AL10;
 import org.lwjgl.openal.AL11;
-
-import java.nio.ByteBuffer;
-import java.util.Optional;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class OpenAlPlayer {
     private int sourceID;
@@ -38,8 +37,7 @@ public class OpenAlPlayer {
         currentSpeaker = new CurrentSpeaker();
         this.buffers = new int[3000];
         executorService = Executors.newSingleThreadExecutor();
-        executorService.execute(() -> {
-        });
+        executorService.execute(() -> {});
 
         createOpenAL();
 
@@ -87,7 +85,6 @@ public class OpenAlPlayer {
         AL11.alSourceQueueBuffers(sourceID, buffers[bufferIndex]);
         bufferIndex = (bufferIndex + 1) % buffers.length;
     }
-
 
     private void startPlayingIfStoppedSync() {
         if (isStopped()) {

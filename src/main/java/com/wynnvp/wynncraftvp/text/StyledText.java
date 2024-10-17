@@ -42,6 +42,10 @@ public final class StyledText implements Iterable<StyledTextPart> {
     private final List<ClickEvent> clickEvents;
     private final List<HoverEvent> hoverEvents;
 
+    public List<HoverEvent> getHoverEvents() {
+        return hoverEvents;
+    }
+
     /**
      * Note: All callers of this constructor should ensure that the event lists are collected from the parts.
      * Additionally, they should ensure that the events are distinct.

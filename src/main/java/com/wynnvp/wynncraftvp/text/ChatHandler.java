@@ -8,7 +8,6 @@ package com.wynnvp.wynncraftvp.text;
  * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
  */
 
-
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.ArrayList;
@@ -16,7 +15,9 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Pattern;
+import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.HoverEvent;
 import net.minecraft.network.protocol.game.ClientboundRemoveMobEffectPacket;
 import net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket;
 import net.minecraft.world.effect.MobEffects;
@@ -131,7 +132,7 @@ public final class ChatHandler {
             // TODO: PROBABLY ONE LINE PARSING?
 
             RecipientType type = getRecipientType(styledText, MessageType.FOREGROUND);
-      }
+        }
     }
 
     private void handleWithSeparation(Component componentMessage) {
@@ -231,10 +232,9 @@ public final class ChatHandler {
 
                 if (newLines.getFirst().matches(EMPTY_LINE_PATTERN)) {
                     // Both the first and the last line are empty, we expect a dialogue screen in the next packet batch
-             // Nothing to do here, as both lines are empty
+                    // Nothing to do here, as both lines are empty
                     return;
                 }
-
 
                 expectedConfirmationlessDialogue = true;
             } else if (newLines.size() == 4) {
@@ -325,7 +325,6 @@ public final class ChatHandler {
                 }
             }
         } else if (expectedConfirmationlessDialogue) {
-
             // This is a confirmationless dialogue
             handleNpcDialogue(List.of(newLines.getFirst()), NpcDialogueType.CONFIRMATIONLESS, false);
 
@@ -489,8 +488,6 @@ public final class ChatHandler {
 
         // Confirmationless dialogues bypass the lastScreenNpcDialogue check
         if (type == NpcDialogueType.CONFIRMATIONLESS) {
-
-
             // Store the last confirmationless dialogue, but it may be repeated,
             // so we need to check that it's not duplicated when a message is sent during the dialogue
             lastConfirmationlessDialogue = dialogue.getFirst();
@@ -506,7 +503,19 @@ public final class ChatHandler {
 
     private void onNpcDialogue(List<StyledText> dialogue, boolean isProtected, NpcDialogueType type) {
         for (var text : dialogue) {
-            ReceiveChatEvent.receivedChat(text.getStringWithoutFormatting());
+            String playerName = Minecraft.getInstance().player.getName().getString();
+
+            List<HoverEvent> hoverEvents = text.getHoverEvents();
+            for (HoverEvent hoverEvent : hoverEvents) {
+                // This text will be something like "SecondArcher's real username is kmaxi" where SecondArcher is the
+                // nickname and kmaxi the real name
+                String value = hoverEvent.getValue(HoverEvent.Action.SHOW_TEXT).getString();
+                if (value.contains("real username")) {
+                    playerName = value.split("'s real username")[0];
+                }
+            }
+
+            ReceiveChatEvent.receivedChat(text.getStringWithoutFormatting().replace(playerName, "soldier"));
         }
     }
 
