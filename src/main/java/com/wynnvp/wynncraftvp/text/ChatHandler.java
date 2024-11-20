@@ -276,6 +276,11 @@ public final class ChatHandler {
         LinkedList<StyledText> newChatLines = new LinkedList<>();
         LinkedList<StyledText> dialogue = new LinkedList<>();
 
+        if(newLines.isEmpty()) {
+            // If there are no new lines, we can't do anything
+            return;
+        }
+
         StyledText firstText = newLines.getFirst();
         boolean isNpcConfirm = firstText.find(NPC_CONFIRM_PATTERN);
         boolean isNpcSelect = firstText.find(NPC_SELECT_PATTERN);
