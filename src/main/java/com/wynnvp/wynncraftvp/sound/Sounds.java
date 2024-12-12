@@ -1232,101 +1232,113 @@ public class Sounds {
 
         // The Sewers Of Ragni
         s.addSound(
-                "[1/4] Jenprest: Soldier! Good timing. We've been requesting help for ages.",
-                "thesewersofragni-jenprest-1",
+                "[1/2] Jenprest: Hello, I am a lieutenant in the Ragni army. I have a job for you, soldier!",
+                "sewersofragni-jenprest-1",
                 false);
         s.addSound(
-                "[2/4] Jenprest: Looks like we have a blocked pipe in the sewers. No wonder no one wanted the job.",
-                "thesewersofragni-jenprest-2",
+                "[2/2] Jenprest: Wait, you aren't [Level 5] yet! Come back to me when you get stronger.",
+                "sewersofragni-jenprest-2",
                 false);
         s.addSound(
-                "[3/4] Jenprest: I'm going to need you to get your hands dirty. I'll need some assistance with the blockage.",
-                "thesewersofragni-jenprest-3",
+                "[1/7] Jenprest: Soldier! Good timing. We've been requesting help for ages.",
+                "sewersofragni-jenprest-3",
                 false);
         s.addSound(
-                "[4/4] Jenprest: Follow me up the hill to the sewer entrance, just right of this big drain here.",
-                "thesewersofragni-jenprest-4",
-                false);
-        s.addSound("[1/1] Jenprest: So... Are you ready to go now?", "thesewersofragni-jenprest-5", false);
-        s.addSound("[1/1] Jenprest: Well?", "thesewersofragni-jenprest-6", false);
-        s.addSound(
-                "[1/1] Jenprest: Alright! Come back to me when you are ready.", "thesewersofragni-jenprest-7", false);
-        s.addSound("[1/1] Jenprest: Alright! Come back to me when you are.", "thesewersofragni-jenprest-8", false);
-        s.addSound("[1/5] Jenprest: Alright, follow me then!", "thesewersofragni-jenprest-9", false);
-        s.addSound("[2/5] Jenprest: It's not far at all, just up the stairs.", "thesewersofragni-jenprest-10", false);
-        s.addSound(
-                "[3/5] Jenprest: Ah here we are. The entrance to the sewers!", "thesewersofragni-jenprest-11", false);
-        s.addSound(
-                "[4/5] Jenprest: Here's the brief. We get in, deploy small explosives to dislodge the blockage, and get out.",
-                "thesewersofragni-jenprest-12",
+                "[2/7] Jenprest: With the corrupted hordes terrorising the Plains, more and more people are moving to Ragni.",
+                "sewersofragni-jenprest-4",
                 false);
         s.addSound(
-                "[5/5] Jenprest: I forgot to mention this won't be without danger. There's all sorts of nasty things in this sewer. Keep your wits about you. Right, let's go!",
-                "thesewersofragni-jenprest-13",
+                "[3/7] Jenprest: Issue is, a major sewer pipe's been blocked up. No wonder nobody wanted the job.",
+                "sewersofragni-jenprest-5",
                 false);
         s.addSound(
-                "[1/2] Jenprest: What are you doing here? We need to be in the sewer!",
-                "thesewersofragni-jenprest-14",
-                false);
-        s.addSound("[2/2] Jenprest: We need to go back now!", "thesewersofragni-jenprest-15", false);
-        s.addSound("[1/5] Jenprest: Alright, Let's go back then!", "thesewersofragni-jenprest-16", false);
-        s.addSound(
-                "[1/1] Jenprest: The dungeon is unsealed, you must go and defeat it!",
-                "thesewersofragni-jenprest-17",
+                "[4/7] Jenprest: I'm going to need you to get your hands dirty. I'll need some assistance with the blockage.",
+                "sewersofragni-jenprest-6",
                 false);
         s.addSound(
-                "[1/3] Jenprest: Do you feel like there's something lurking that doesn't want us here?",
-                "thesewersofragni-jenprest-18",
+                "[5/7] Jenprest: Here's the brief. We get in, deploy small explosives to dislodge the blockage, and get out.",
+                "sewersofragni-jenprest-7",
                 false);
         s.addSound(
-                "[2/3] Jenprest: Anyway, I've found the blockage. It's right up ahead.",
-                "thesewersofragni-jenprest-19",
+                "[6/7] Jenprest: We're using this side pipe. The larger one down the hill, well... you don't want to stray too far into that one.",
+                "sewersofragni-jenprest-8",
                 false);
         s.addSound(
-                "[3/3] Jenprest: Here's a small explosive. I placed one at the blockage already, if that alone doesn't work, use this.",
-                "thesewersofragni-jenprest-20",
+                "[7/7] Jenprest: Keep your wits about you in there. All sorts of things could be lurking. Ready? Let's go!",
+                "sewersofragni-jenprest-9",
                 false);
         s.addSound(
-                "[1/3] Jenprest: Ah, you re alive! Looks like we underestimated the amount of sewage.",
-                "thesewersofragni-jenprest-21",
+                "[1/5] Jenprest: Good, you caught up. Watch your step around this place, soldier.",
+                "sewersofragni-jenprest-10",
                 false);
         s.addSound(
-                "[2/3] Jenprest: Let's get out of here. Do you still have the explosive I gave you?",
-                "thesewersofragni-jenprest-22",
+                "[2/5] Jenprest: Our scouts have confirmed that this area is clear, but a wrong turn could lead you into the old prison complex.",
+                "sewersofragni-jenprest-11",
+                false);
+        s.addSound("[3/5] Jenprest: I... we really don't want to end up there.", "sewersofragni-jenprest-12", false);
+        s.addSound(
+                "[4/5] Jenprest: Anyway, I've found the blockage. It's right up ahead.",
+                "sewersofragni-jenprest-13",
                 false);
         s.addSound(
-                "[3/3] Jenprest: Good, let's use it on this wall, it looks like we can break right through...",
-                "thesewersofragni-jenprest-23",
+                "[5/5] Jenprest: Here's a small explosive. I placed one at the blockage already, if that alone doesn't work, use this.",
+                "sewersofragni-jenprest-14",
                 false);
         s.addSound(
-                "[1/1] Jenprest: Oh no, oh no no no! Did you just open that? Come here immediately.",
-                "thesewersofragni-jenprest-24",
-                false);
-        s.addSound("[1/6] Jenprest: Oh no...", "thesewersofragni-jenprest-25", false);
-        s.addSound(
-                "[2/6] Jenprest: Dungeons are sealed for a reason. This one used to be the old Ragni prison.",
-                "thesewersofragni-jenprest-26",
+                "[1/6] Jenprest: Ah, you’re alive! Looks like we underestimated the amount of sewage.",
+                "sewersofragni-jenprest-15",
                 false);
         s.addSound(
-                "[3/6] Jenprest: It has a horrible history. People used to hide here during raids.",
-                "thesewersofragni-jenprest-27",
+                "[2/6] Jenprest: I lost you for a bit back there. It's lucky we found each other, to be honest.",
+                "sewersofragni-jenprest-16",
                 false);
         s.addSound(
-                "[4/6] Jenprest: Rumour has it that Bob, the hero of Wynn, was born in this very prison.",
-                "thesewersofragni-jenprest-28",
+                "[3/6] Jenprest: ... ah. This sewer has some history, you know. Back during the Ragni Raids, they used to hide civilians here, in the old prison.",
+                "sewersofragni-jenprest-17",
                 false);
         s.addSound(
-                "[5/6] Jenprest: Now only proven parties of soldiers may enter if one has slain a key guardian.",
-                "thesewersofragni-jenprest-29",
-                false);
-        s.addSound("[6/6] Jenprest: You must go in and defeat the dungeon.", "thesewersofragni-jenprest-30", false);
-        s.addSound(
-                "[1/2] Jenprest: Hello, I am a lieutenant in the Ragni army. I have a job for you soldier.",
-                "thesewersofragni-jenprest-31",
+                "[4/6] Jenprest: Sometimes... sometimes it wasn't enough. Some say there are still... things roaming there. Left over from the slaughters.",
+                "sewersofragni-jenprest-18",
                 false);
         s.addSound(
-                "[2/2] Jenprest: Wait, you aren't [level 5] yet! Come back to me when you get stronger.",
-                "thesewersofragni-jenprest-32",
+                "[5/6] Jenprest: Let's get out of here. Do you still have the explosive I gave you?",
+                "sewersofragni-jenprest-19",
+                false);
+        s.addSound(
+                "[6/6] Jenprest: Good, let's use it on this wall, it looks like we can break right through...",
+                "sewersofragni-jenprest-20",
+                false);
+        s.addSound(
+                "[1/7] Jenprest: Phew! Looks like that first explosion cleared the pipe, the Ragni citizens are going to be happy.",
+                "sewersofragni-jenprest-21",
+                false);
+        s.addSound(
+                "[2/7] Jenprest: And count yourself lucky that we didn't run into anything too nasty in there. Some of the stories...",
+                "sewersofragni-jenprest-22",
+                false);
+        s.addSound(
+                "[3/7] Jenprest: ... I don't know exactly what's in there, soldier.",
+                "sewersofragni-jenprest-23",
+                false);
+        s.addSound(
+                "[4/7] Jenprest: I can't stop you from exploring the dungeon, but I recommend you gear up first.",
+                "sewersofragni-jenprest-24",
+                false);
+        s.addSound(
+                "[5/7] Jenprest: Legend has it that Bob, the legendary warrior, was born in them during a raid on Ragni.",
+                "sewersofragni-jenprest-25",
+                false);
+        s.addSound(
+                "[6/7] Jenprest: His mother died in childbirth, but some people say she lay down there for years. Rotting. Waiting.",
+                "sewersofragni-jenprest-26",
+                false);
+        s.addSound(
+                "[7/7] Jenprest: But that's just a story! Thanks for your help, soldier, and good luck.",
+                "sewersofragni-jenprest-27",
+                false);
+        s.addSound(
+                "[1/1] Jenprest: Soldier! Have you been exploring the sewers? I hope you're well prepared.",
+                "sewersofragni-jenprest-28",
                 false);
 
         // Tunnel Trouble
