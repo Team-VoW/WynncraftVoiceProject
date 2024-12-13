@@ -4,6 +4,7 @@
  */
 package com.wynnvp.wynncraftvp.sound.player;
 
+import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.Optional;
@@ -21,6 +22,9 @@ public class AudioPlayer {
 
     private void write(AudioData data) {
         openAlPlayer.playAudio(data);
+        if (ModCore.config.autoProgress) {
+            autoProgress.start(data.getAudioLengthMillis());
+        }
     }
 
     public void playAudioFile(ResourceLocation resouce) {
@@ -33,14 +37,6 @@ public class AudioPlayer {
         }
 
         write(audioData.get());
-
-        // This totalAudioLength is the length in short[] which means we do not have to divide it by the bit depth (16 /
-        // 8 = 2),
-        // As the audio is half as long as raw PCM audio.
-        /*            long seconds = (long) (audioPacket.getTotalAudioLength() / (48000f));
-        if (VowCloud.CONFIG.autoProgress.get())
-            autoProgress.autoProgress((long) (seconds * 1000 + VowCloud.CONFIG.autoProgressDelay.get() * 1000));*/
-
     }
 
     public void play(SoundObject soundObject) {

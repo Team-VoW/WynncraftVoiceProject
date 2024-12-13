@@ -4,6 +4,7 @@
  */
 package com.wynnvp.wynncraftvp.events.mixins;
 
+import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
 import net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket;
 import net.minecraft.world.entity.Entity;
@@ -23,5 +24,6 @@ public class SneakPacketMixin {
             return;
         }
         ReceiveChatEvent.resetCooldowns();
+        ModCore.instance.audioPlayer.autoProgress.cancelShift();
     }
 }

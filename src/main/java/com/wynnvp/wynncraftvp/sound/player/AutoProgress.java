@@ -17,7 +17,7 @@ public class AutoProgress {
 
     private ScheduledFuture<?> scheduledSneak;
 
-    public void autoProgress(long milliSecondDelay) {
+    public void start(long milliSecondDelay) {
         cancelShift();
 
         scheduledSneak = scheduleSneak(milliSecondDelay);

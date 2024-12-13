@@ -15,4 +15,17 @@ public class AudioData {
         this.byteBuffer = byteBuffer;
         this.audioFormat = audioFormat;
     }
+
+    /**
+     * Gets the audio length in seconds
+     * @return audio length
+     */
+    public double getAudioLength() {
+        int totalFrames = byteBuffer.remaining() / audioFormat.getFrameSize();
+        return totalFrames / audioFormat.getFrameRate();
+    }
+
+    public long getAudioLengthMillis() {
+        return (long) (getAudioLength() * 1000);
+    }
 }

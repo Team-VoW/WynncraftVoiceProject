@@ -38,6 +38,9 @@ public class VOWAutoConfig implements ConfigData {
     public boolean removeVillagerSounds = false;
 
     @ConfigEntry.Gui.Tooltip
+    public boolean autoProgress = true;
+
+    @ConfigEntry.Gui.Tooltip
     public boolean highlightSpeaker = false;
 
     // --------------------------------------------------------------

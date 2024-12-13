@@ -1,5 +1,7 @@
 {
   "text.autoconfig.wynnvp.option.anonymous": "Report missing lines anonymously",
+  "text.autoconfig.wynnvp.option.autoProgress": "Auto progress",
+  "text.autoconfig.wynnvp.option.autoProgress.@Tooltip": "After an NPC finishes their line, it will automatically forward to the next line",
   "text.autoconfig.wynnvp.option.blockCutOff": "Block cut off",
   "text.autoconfig.wynnvp.option.doLogging": "Do Logging",
   "text.autoconfig.wynnvp.option.highlightSpeaker": "Highlight speaker",
