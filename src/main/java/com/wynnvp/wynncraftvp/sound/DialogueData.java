@@ -1,11 +1,17 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.sound;
+
+import net.minecraft.world.phys.Vec3;
 
 public class DialogueData {
     private String line;
     private String file;
     private boolean onPlayer = false;
     private int fallOff = 0;
-    private Vector3 position = null;
+    private Vec3 pos = null;
     private String npc;
     private Reverb reverb = Reverb.OUTSIDE;
 
@@ -25,8 +31,8 @@ public class DialogueData {
         this.fallOff = fallOff;
     }
 
-    public void setPosition(Vector3 position) {
-        this.position = position;
+    public void setPos(Vec3 pos) {
+        this.pos = pos;
     }
 
     public void setNpc(String npc) {
@@ -53,8 +59,8 @@ public class DialogueData {
         return fallOff;
     }
 
-    public Vector3 getPosition() {
-        return position;
+    public Vec3 getPos() {
+        return pos;
     }
 
     public String getNpc() {
@@ -65,4 +71,3 @@ public class DialogueData {
         return reverb;
     }
 }
-

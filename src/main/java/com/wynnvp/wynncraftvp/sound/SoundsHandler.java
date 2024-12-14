@@ -9,7 +9,7 @@ import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import java.util.HashMap;
 import java.util.Optional;
-import org.joml.Vector3f;
+import net.minecraft.world.phys.Vec3;
 
 public class SoundsHandler {
     private final HashMap<String, SoundObject> sounds = new HashMap<>();
@@ -30,7 +30,7 @@ public class SoundsHandler {
         addSound(message, id, movingSound, null);
     }
 
-    public void addSound(String message, String id, boolean movingSound, Vector3f position) {
+    public void addSound(String message, String id, boolean movingSound, Vec3 position) {
         addSound(message, id, movingSound, position, 0);
     }
 
@@ -39,7 +39,7 @@ public class SoundsHandler {
     }
 
     // If position is 0 null use default. If falloff is 0 use default
-    public void addSound(String message, String id, boolean movingSound, Vector3f position, int fallOff) {
+    public void addSound(String message, String id, boolean movingSound, Vec3 position, int fallOff) {
         LineData lineData = formatToLineData(message);
         sounds.put(lineData.getSoundLine(), new SoundObject(lineData.getNPCName(), id, movingSound, position, fallOff));
     }
