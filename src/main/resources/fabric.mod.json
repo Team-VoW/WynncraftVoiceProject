@@ -1,0 +1,35 @@
+{
+  "authors": [
+    "https://voicesofwynn.com/credits"
+  ],
+  "contact": {
+    "homepage": "https://voicesofwynn.com/",
+    "issues": "https://github.com/Team-VoW/WynncraftVoiceProject/issues",
+    "sources": "https://github.com/Team-VoW"
+  },
+  "depends": {
+    "cloth-config": ">=${cloth_config_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "minecraft": "${minecraft_version_range}"
+  },
+  "description": "Now fabricated.",
+  "entrypoints": {
+    "main": [
+      "com.wynnvp.wynncraftvp.ModCore"
+    ],
+    "modmenu": [
+      "com.wynnvp.wynncraftvp.config.ModMenuIntegration"
+    ]
+  },
+  "environment": "client",
+  "icon": "assets/wynnvp/wynnvplogo.png",
+  "id": "${mod_id}",
+  "license": "AGPL-3.0-only, CC-BY-4.0 for sounds",
+  "mixins": [
+    "wynnvp.mixins.json"
+  ],
+  "name": "${mod_name}",
+  "schemaVersion": 1,
+  "version": "${mod_version}"
+}

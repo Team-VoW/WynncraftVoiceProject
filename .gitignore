@@ -1,2 +1,38 @@
-.DS_Store
+# gradle
+
+.gradle/
+build/
+out/
+classes/
+
+# eclipse
+
+*.launch
+
+# idea
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+
 *.DS_Store
+
+# fabric
+
+run/
+
+# node/npm
+node_modules/
+package-lock.json
+package.json

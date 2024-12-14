@@ -1,0 +1,52 @@
+name: Spotless and Build
+
+on:
+  workflow_dispatch:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+  merge_group:
+    branches: [main, development]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        java: [21]
+        os: [ubuntu-latest]
+    if: '! github.event.pull_request.draft'
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout the Repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Setup JDK ${{ matrix.java }}
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ matrix.java }}
+          distribution: "temurin"
+
+      - name: Format with spotless
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          arguments: spotlessApply
+
+      - name: Delete empty files
+        run: find $(git ls-files -m) -size 0 -delete
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_user_name: 'VoWBot'
+          commit_user_email: 'admin@voicesofwynn.com'
+          commit_message: 'ci: spotless formatting'
+
+      - name: Build with Gradle
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          arguments: buildDependents -x spotlessCheck -x test

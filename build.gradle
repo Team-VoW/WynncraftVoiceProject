@@ -1,0 +1,148 @@
+plugins {
+    id 'fabric-loom' version '1.7-SNAPSHOT'
+    id "com.diffplug.spotless" version "${spotless_version}"
+}
+
+base {
+    archivesName = project.mod_name.replaceAll("\\s", "-") + "-fabric"
+}
+
+group = project.maven_group
+
+// On the release branches, this string will be automatically updated by the bots
+// Do not change this in the main branch!
+version = "1.0.0-SNAPSHOT"
+
+repositories {
+    maven { url "https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1" }
+    maven { url "https://maven.shedaniel.me/" }
+    maven { url "https://maven.terraformersmc.com/releases/" }
+    maven { url "https://maven.parchmentmc.org/" }
+}
+
+allprojects {
+    apply plugin: "com.diffplug.spotless"
+
+    spotless {
+        java {
+            // define the steps to apply to Java source code
+            importOrder()
+            removeUnusedImports()
+            palantirJavaFormat(spotless_palantir_version)
+            trimTrailingWhitespace()
+            endWithNewline()
+            ratchetFrom('origin/main')
+            // Custom rule from https://github.com/apache/geode
+            custom "Refuse wildcard imports", {
+                if (it =~ /\nimport .*\*;/) {
+                    throw new AssertionError("Do not use wildcard imports. 'spotlessApply' cannot resolve this issue.")
+                }
+            } as Closure<String>
+            custom "Refuse IntelliJ annotations", {
+                if (it =~ /\nimport org\.jetbrains\.annotations\./) {
+                    throw new AssertionError("Do not use IntelliJ annotations. 'spotlessApply' cannot resolve this issue.")
+                }
+            } as Closure<String>
+            custom "No empty line after opening curly brace", {
+                it.replaceAll(/\{\n\n/, '{\n')
+            }
+            licenseHeader("/*\n" +
+                    " * Copyright © Team-VoW \$YEAR.\n" +
+                    " * This file is released under AGPLv3. See LICENSE for full license details.\n" +
+                    " */")
+                    .updateYearWithLatest(true)
+        }
+        json {
+            target "src/**/*.json"
+            targetExclude "src/**/sound_info.json", "src/**/sounds.json"
+            gson()
+                    .indentWithSpaces(2)
+                    .sortByKeys()
+                    .version(spotless_gson_version)
+            trimTrailingWhitespace()
+            endWithNewline()
+        }
+        groovyGradle {
+            target '**/*.gradle'
+            greclipse("${spotless_greclipse_version}").configFile("${rootDir}/greclipse.properties")
+            trimTrailingWhitespace()
+            endWithNewline()
+        }
+
+        format "misc", {
+            // define the files to apply `misc` to
+            target "*.gradle", "*.md", ".gitignore", "*.properties"
+            targetExclude("CHANGELOG.md")
+
+            // define the steps to apply to those files
+            trimTrailingWhitespace()
+            indentWithSpaces()
+            endWithNewline()
+        }
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+
+    mappings loom.layered() {
+        officialMojangMappings()
+        parchment("org.parchmentmc.data:parchment-${project.parchment_version}@zip")
+    }
+
+    modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}+${project.minecraft_version}"
+
+    // Development dependencies
+    modRuntimeOnly "me.djtheredstoner:DevAuth-fabric:${project.devauth_version}"
+
+    // Optional dependencies
+    modApi("me.shedaniel.cloth:cloth-config-fabric:${cloth_config_version}") {
+        exclude(group: "net.fabricmc.fabric-loader")
+        exclude(group: "net.fabricmc.fabric-api")
+    }
+
+    modApi("com.terraformersmc:modmenu:${mod_menu_version}") {
+        exclude(group: "net.fabricmc.fabric-loader")
+        exclude(group: "net.fabricmc.fabric-api")
+    }
+}
+
+processResources {
+    var replaceProperties = [
+        mod_version                : version,
+        mod_id                     : maven_group,
+        mod_name                   : mod_name,
+        minecraft_version_range    : minecraft_version_range,
+        fabric_loader_version      : fabric_loader_version,
+        fabric_api_version         : fabric_api_version,
+        cloth_config_version       : cloth_config_version,
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching("fabric.mod.json") {
+        expand replaceProperties
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+    options.encoding = 'UTF-8'
+}
+
+java {
+    withSourcesJar()
+
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+remapJar {
+    archiveClassifier = "fabric+MC-${minecraft_version}"
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${base.archivesName.get()}"}
+    }
+}
