@@ -15,15 +15,26 @@ import java.lang.reflect.Type;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import net.minecraft.world.phys.Vec3;
 
 public class SoundsHandler {
     private final HashMap<String, SoundObject> sounds;
+    private final ExecutorService executor;
 
     public SoundsHandler() {
         sounds = new HashMap<>();
+        executor = Executors.newSingleThreadExecutor();
 
-        loadSoundsFromJson("sounds.json");
+        // Load sounds in a separate thread and shut down the executor afterward
+        executor.submit(() -> {
+            try {
+                loadSoundsFromJson("sounds.json");
+            } finally {
+                executor.shutdown();
+            }
+        });
     }
 
     private void loadSoundsFromJson(String jsonFilePath) {
@@ -34,7 +45,6 @@ public class SoundsHandler {
         }
         InputStreamReader reader = new InputStreamReader(inputStream);
 
-        // Deserialize directly into a List<DialogueData>
         Type dialogueListType = new TypeToken<List<DialogueData>>() {}.getType();
         List<DialogueData> dialogues = gson.fromJson(reader, dialogueListType);
 
