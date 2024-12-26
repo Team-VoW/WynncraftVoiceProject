@@ -26,6 +26,11 @@ public class SoundsHandler {
         loadSoundsFromJson("sounds.json");
     }
 
+    //Get sounds
+    public HashMap<String, SoundObject> getSounds() {
+        return sounds;
+    }
+
     private void loadSoundsFromJson(String jsonFilePath) {
         Gson gson = new Gson();
         InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream(jsonFilePath);
