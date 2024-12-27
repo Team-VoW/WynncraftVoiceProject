@@ -42,6 +42,9 @@ public class AudioDownloader {
     private HashMap<String, AudioMetadata> remoteMetadata;
     private File audioFolder;
 
+    private int maxRuns = 5;
+    private int currentRun = 0;
+
     public AudioDownloader(String audioFolder) {
         audioDir = audioFolder;
     }
@@ -99,6 +102,15 @@ public class AudioDownloader {
                 System.out.println("Download complete");
                 cleanUpUnusedFiles();
                 saveLocalMetadata();
+
+                currentRun++;
+                if (currentRun >= maxRuns) {
+                    System.out.println("Max runs reached, stopping download process");
+                    return;
+                }
+
+                // We go through the download process again to make sure we have all the files.
+                CompletableFuture.runAsync(this::processAudioManifest);
             });
 
             downloadQueue.initializeQueue(tasks);
