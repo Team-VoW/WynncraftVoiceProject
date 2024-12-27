@@ -1,3 +1,7 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.sound.downloader;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -25,9 +29,6 @@ class DownloadTask implements Comparable<DownloadTask> {
     public void setPriority(int priority) {
         this.priority = priority;
     }
-
-
-
 
     @Override
     public int compareTo(DownloadTask other) {

@@ -1,3 +1,7 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.sound.downloader;
 
 import java.io.File;
@@ -7,7 +11,10 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.PriorityBlockingQueue;
+import java.util.concurrent.TimeUnit;
 
 public class DownloadQueue {
     private PriorityBlockingQueue<DownloadTask> queue;
@@ -57,6 +64,7 @@ public class DownloadQueue {
     public void addTask(DownloadTask task) {
         queue.add(task);
     }
+
     public void initializeQueue(List<DownloadTask> tasks) {
         queue = new PriorityBlockingQueue<>(tasks);
     }
@@ -116,7 +124,7 @@ public class DownloadQueue {
 
             if (connection.getResponseCode() == HttpURLConnection.HTTP_OK) {
                 try (InputStream inputStream = connection.getInputStream();
-                     FileOutputStream outputStream = new FileOutputStream(destination)) {
+                        FileOutputStream outputStream = new FileOutputStream(destination)) {
                     byte[] buffer = new byte[8192];
                     int bytesRead;
                     while ((bytesRead = inputStream.read(buffer)) != -1) {

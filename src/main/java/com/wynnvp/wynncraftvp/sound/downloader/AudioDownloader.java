@@ -1,10 +1,21 @@
+/*
+ * Copyright © Team-VoW 2024.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.sound.downloader;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
-
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.io.Writer;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.security.MessageDigest;
@@ -15,7 +26,6 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
 public class AudioDownloader {
-
     public static void main(String[] args) {
         AudioDownloader audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
         audioDownloader.downloadAudio();
@@ -23,14 +33,16 @@ public class AudioDownloader {
 
     private final String audioDir;
     private static final String METADATA_FILE = "audio_metadata.json";
-    private static final String BASE_URL = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/src/main/resources/assets/wynnvp/sounds/";
-    private static final String AUDIO_MANIFEST = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/audio_manifest.json";
+    private static final String BASE_URL =
+            "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/src/main/resources/assets/wynnvp/sounds/";
+    private static final String AUDIO_MANIFEST =
+            "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/audio_manifest.json";
 
     private HashMap<String, AudioMetadata> metadataMap;
     private HashMap<String, AudioMetadata> remoteMetadata;
     private File audioFolder;
 
-    public AudioDownloader(String audioFolder){
+    public AudioDownloader(String audioFolder) {
         audioDir = audioFolder;
     }
 
@@ -43,7 +55,7 @@ public class AudioDownloader {
 
         // Start the async process
         CompletableFuture.runAsync(this::processAudioManifest);
-        //processAudioManifest();
+        // processAudioManifest();
     }
 
     private void processAudioManifest() {
@@ -57,14 +69,14 @@ public class AudioDownloader {
                 return;
             }
 
-            //The manifest is accurate which means we don't need to download anything
+            // The manifest is accurate which means we don't need to download anything
             if (!hasToDownload()) {
                 System.out.println("No files to download");
                 return;
             }
 
-            //Otherwise double check that we actually need to download something by checking local files
-            //Since the manifest is not guaranteed to be accurate since it only saves after all files are downloaded
+            // Otherwise double check that we actually need to download something by checking local files
+            // Since the manifest is not guaranteed to be accurate since it only saves after all files are downloaded
             populateLocalMetadata();
             List<String> toDownload = getToDownload();
 
@@ -87,13 +99,11 @@ public class AudioDownloader {
                 System.out.println("Download complete");
                 cleanUpUnusedFiles();
                 saveLocalMetadata();
-
             });
 
             downloadQueue.initializeQueue(tasks);
 
             downloadQueue.start();
-
 
         } catch (Exception e) {
             System.err.println("Error in audio manifest processing");
@@ -104,14 +114,16 @@ public class AudioDownloader {
     private boolean hasToDownload() {
         return remoteMetadata.entrySet().stream().anyMatch(entry -> {
             AudioMetadata localMetadata = metadataMap.get(entry.getKey());
-            return localMetadata == null || !localMetadata.hash().equals(entry.getValue().hash());
+            return localMetadata == null
+                    || !localMetadata.hash().equals(entry.getValue().hash());
         });
     }
 
     private List<String> getToDownload() {
         List<String> toDownload = new ArrayList<>();
 
-        //Populate the list of file names to download. If the file is not present or the hash is different, add it to the list
+        // Populate the list of file names to download. If the file is not present or the hash is different, add it to
+        // the list
         remoteMetadata.forEach((id, audioMetadata) -> {
             AudioMetadata localMetadata = metadataMap.get(id);
             if (localMetadata == null || !localMetadata.hash().equals(audioMetadata.hash())) {
@@ -122,13 +134,13 @@ public class AudioDownloader {
     }
 
     private void populateLocalMetadata() {
-
         audioFolder = new File(audioDir);
         if (!audioFolder.exists()) {
             audioFolder.mkdirs();
         }
 
-        // If the local metadata is empty check if the audio folder is empty. If it is not empty, populate the metadata map with the files in the audio folder
+        // If the local metadata is empty check if the audio folder is empty. If it is not empty, populate the metadata
+        // map with the files in the audio folder
         metadataMap.clear();
         File[] localFiles = audioFolder.listFiles((dir, name) -> name.endsWith(".ogg"));
         if (localFiles != null) {
@@ -147,7 +159,6 @@ public class AudioDownloader {
         }
     }
 
-
     private HashMap<String, AudioMetadata> fetchAudioManifest() throws IOException {
         HttpURLConnection connection = null;
         try {
@@ -157,10 +168,8 @@ public class AudioDownloader {
 
             if (connection.getResponseCode() == HttpURLConnection.HTTP_OK) {
                 try (InputStream inputStream = connection.getInputStream();
-                     InputStreamReader reader = new InputStreamReader(inputStream)) {
-                    return new Gson().fromJson(reader,
-                            new TypeToken<HashMap<String, AudioMetadata>>() {
-                            }.getType());
+                        InputStreamReader reader = new InputStreamReader(inputStream)) {
+                    return new Gson().fromJson(reader, new TypeToken<HashMap<String, AudioMetadata>>() {}.getType());
                 }
             }
             throw new IOException("Failed to fetch audio manifest: " + AUDIO_MANIFEST);
@@ -170,7 +179,6 @@ public class AudioDownloader {
             }
         }
     }
-
 
     private String computeFileHash(File file) throws Exception {
         MessageDigest digest = MessageDigest.getInstance("SHA-256");
@@ -196,7 +204,7 @@ public class AudioDownloader {
             for (File localFile : localFiles) {
                 String fileName = localFile.getName().replace(".ogg", "");
 
-                //System.out.println(fileName);
+                // System.out.println(fileName);
                 if (!remoteMetadata.containsKey(fileName)) {
                     System.out.println("Deleting unused file: " + localFile.getName());
                     localFile.delete();
@@ -209,9 +217,7 @@ public class AudioDownloader {
         File metadataFile = new File(audioDir, METADATA_FILE);
         if (metadataFile.exists()) {
             try (Reader reader = new FileReader(metadataFile)) {
-                return new Gson().fromJson(reader,
-                        new TypeToken<Map<String, AudioMetadata>>() {
-                        }.getType());
+                return new Gson().fromJson(reader, new TypeToken<Map<String, AudioMetadata>>() {}.getType());
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -228,6 +234,5 @@ public class AudioDownloader {
         }
     }
 
-    private record AudioMetadata(long size, String hash) {
-    }
+    private record AudioMetadata(long size, String hash) {}
 }

@@ -5,8 +5,6 @@
 package com.wynnvp.wynncraftvp.sound.player;
 
 import com.wynnvp.wynncraftvp.utils.Utils;
-
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,11 +13,7 @@ import java.nio.ByteOrder;
 import java.nio.file.Path;
 import java.util.Optional;
 import java.util.concurrent.CompletionException;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.sounds.JOrbisAudioStream;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.packs.resources.Resource;
-import net.minecraft.server.packs.resources.ResourceManager;
 
 public class OggDecoder {
     private static final int BUFFER_SIZE = 4096;
@@ -44,8 +38,7 @@ public class OggDecoder {
         }
 
         try (InputStream inputStream = new FileInputStream(filePath.toFile());
-             JOrbisAudioStream finiteAudioStream = new JOrbisAudioStream(inputStream)) {
-
+                JOrbisAudioStream finiteAudioStream = new JOrbisAudioStream(inputStream)) {
             // Process the audio data
             ByteBuffer byteBuffer = finiteAudioStream.readAll();
             AudioData audioData = new AudioData(byteBuffer, finiteAudioStream.getFormat());

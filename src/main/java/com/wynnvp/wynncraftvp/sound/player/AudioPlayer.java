@@ -7,7 +7,6 @@ package com.wynnvp.wynncraftvp.sound.player;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import com.wynnvp.wynncraftvp.utils.Utils;
-
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Optional;
@@ -18,7 +17,6 @@ public class AudioPlayer {
     public final AutoProgress autoProgress;
 
     public static final String AUDIO_FOLDER = "VOW_AUDIO";
-
 
     public AudioPlayer() {
         openAlPlayer = new OpenAlPlayer();

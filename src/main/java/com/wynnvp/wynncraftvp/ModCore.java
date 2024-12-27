@@ -82,7 +82,6 @@ public class ModCore implements ModInitializer {
 
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
         audioDownloader.downloadAudio();
-
     }
 
     public static void error(String msg) {

@@ -26,7 +26,7 @@ public class SoundsHandler {
         loadSoundsFromJson("sounds.json");
     }
 
-    //Get sounds
+    // Get sounds
     public HashMap<String, SoundObject> getSounds() {
         return sounds;
     }
