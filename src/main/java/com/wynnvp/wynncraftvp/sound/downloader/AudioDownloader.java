@@ -2,6 +2,7 @@ package com.wynnvp.wynncraftvp.sound.downloader;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -11,14 +12,16 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
 
 public class AudioDownloader {
 
     public static void main(String[] args) {
-        new AudioDownloader();
+        AudioDownloader audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
+        audioDownloader.downloadAudio();
     }
 
-    private static final String AUDIO_FOLDER = "VOW_AUDIO";
+    private final String audioDir;
     private static final String METADATA_FILE = "audio_metadata.json";
     private static final String BASE_URL = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/src/main/resources/assets/wynnvp/sounds/";
     private static final String AUDIO_MANIFEST = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/audio_manifest.json";
@@ -27,17 +30,20 @@ public class AudioDownloader {
     private HashMap<String, AudioMetadata> remoteMetadata;
     private File audioFolder;
 
-    public AudioDownloader() {
+    public AudioDownloader(String audioFolder){
+        audioDir = audioFolder;
+    }
 
+    public void downloadAudio() {
         // Ensure the audio folder exists
-        audioFolder = new File(AUDIO_FOLDER);
+        audioFolder = new File(audioDir);
         if (!audioFolder.exists()) {
             audioFolder.mkdirs();
         }
 
         // Start the async process
-        //CompletableFuture.runAsync(this::processAudioManifest);
-        processAudioManifest();
+        CompletableFuture.runAsync(this::processAudioManifest);
+        //processAudioManifest();
     }
 
     private void processAudioManifest() {
@@ -69,7 +75,7 @@ public class AudioDownloader {
 
             System.out.println("Downloading " + toDownload.size() + " files");
 
-            DownloadQueue downloadQueue = new DownloadQueue(AUDIO_FOLDER, BASE_URL);
+            DownloadQueue downloadQueue = new DownloadQueue(audioDir, BASE_URL);
 
             List<DownloadTask> tasks = new ArrayList<>();
             toDownload.forEach((id) -> {
@@ -117,7 +123,7 @@ public class AudioDownloader {
 
     private void populateLocalMetadata() {
 
-        audioFolder = new File(AUDIO_FOLDER);
+        audioFolder = new File(audioDir);
         if (!audioFolder.exists()) {
             audioFolder.mkdirs();
         }
@@ -184,7 +190,7 @@ public class AudioDownloader {
     }
 
     private void cleanUpUnusedFiles() {
-        File audioFolder = new File(AUDIO_FOLDER);
+        File audioFolder = new File(audioDir);
         File[] localFiles = audioFolder.listFiles((dir, name) -> name.endsWith(".ogg"));
         if (localFiles != null) {
             for (File localFile : localFiles) {
@@ -200,7 +206,7 @@ public class AudioDownloader {
     }
 
     private Map<String, AudioMetadata> loadLocalMetadata() {
-        File metadataFile = new File(AUDIO_FOLDER, METADATA_FILE);
+        File metadataFile = new File(audioDir, METADATA_FILE);
         if (metadataFile.exists()) {
             try (Reader reader = new FileReader(metadataFile)) {
                 return new Gson().fromJson(reader,
@@ -214,7 +220,7 @@ public class AudioDownloader {
     }
 
     private synchronized void saveLocalMetadata() {
-        File metadataFile = new File(AUDIO_FOLDER, METADATA_FILE);
+        File metadataFile = new File(audioDir, METADATA_FILE);
         try (Writer writer = new FileWriter(metadataFile)) {
             new Gson().toJson(metadataMap, writer);
         } catch (IOException e) {

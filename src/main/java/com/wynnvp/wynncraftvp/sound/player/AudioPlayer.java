@@ -7,13 +7,18 @@ package com.wynnvp.wynncraftvp.sound.player;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import com.wynnvp.wynncraftvp.utils.Utils;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Optional;
-import net.minecraft.resources.ResourceLocation;
 
 public class AudioPlayer {
     public final OpenAlPlayer openAlPlayer;
 
     public final AutoProgress autoProgress;
+
+    public static final String AUDIO_FOLDER = "VOW_AUDIO";
+
 
     public AudioPlayer() {
         openAlPlayer = new OpenAlPlayer();
@@ -27,12 +32,12 @@ public class AudioPlayer {
         }
     }
 
-    public void playAudioFile(ResourceLocation resouce) {
+    public void playAudioFile(Path path) {
         openAlPlayer.stopAudio();
-        Optional<AudioData> audioData = OggDecoder.getAudioData(resouce);
+        Optional<AudioData> audioData = OggDecoder.getAudioData(path);
 
         if (audioData.isEmpty()) {
-            Utils.sendMessage("Failed to load audio file: " + resouce.getPath());
+            Utils.sendMessage("Failed to load audio file: " + path.toString());
             return;
         }
 
@@ -40,16 +45,20 @@ public class AudioPlayer {
     }
 
     public void play(SoundObject soundObject) {
+        String audioFileName = soundObject.getId();
+
+        Path audioFilePath = Paths.get(AUDIO_FOLDER, audioFileName + ".ogg");
+        if (!audioFilePath.toFile().exists()) {
+            Utils.sendMessage("Audio file not found: " + audioFilePath);
+            return;
+        }
+
         stopPlayingCurrentSound();
 
         openAlPlayer.updateSpeaker(
                 soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
 
-        String audioFileName = soundObject.getId();
-        ResourceLocation resourceLocation =
-                ResourceLocation.fromNamespaceAndPath("wynnvp", "sounds/" + audioFileName + ".ogg");
-
-        playAudioFile(resourceLocation);
+        playAudioFile(audioFilePath);
     }
 
     public void stopPlayingCurrentSound() {

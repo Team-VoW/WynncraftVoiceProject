@@ -5,11 +5,14 @@
 package com.wynnvp.wynncraftvp.sound.player;
 
 import com.wynnvp.wynncraftvp.utils.Utils;
+
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
+import java.nio.file.Path;
 import java.util.Optional;
 import java.util.concurrent.CompletionException;
 import net.minecraft.client.Minecraft;
@@ -34,35 +37,26 @@ public class OggDecoder {
         return shortArray;
     }
 
-    public static Optional<AudioData> getAudioData(ResourceLocation resourceLocation) {
-        // Retrieve the resource manager instance
-        ResourceManager resourceManager = Minecraft.getInstance().getResourceManager();
+    public static Optional<AudioData> getAudioData(Path filePath) {
+        if (filePath == null || !filePath.toFile().exists()) {
+            System.err.println("File not found: " + filePath);
+            return Optional.empty();
+        }
 
-        try {
-            // Get the input stream for the resource
-            Optional<Resource> resource = resourceManager.getResource(resourceLocation);
-
-            if (resource.isEmpty()) {
-                return Optional.empty();
-            }
-
-            InputStream inputStream = resource.get().open();
+        try (InputStream inputStream = new FileInputStream(filePath.toFile());
+             JOrbisAudioStream finiteAudioStream = new JOrbisAudioStream(inputStream)) {
 
             // Process the audio data
-            AudioData audioData;
-            ByteBuffer byteBuffer;
+            ByteBuffer byteBuffer = finiteAudioStream.readAll();
+            AudioData audioData = new AudioData(byteBuffer, finiteAudioStream.getFormat());
 
-            // Assuming you're working with a JOrbis audio stream for Ogg files
-            try (JOrbisAudioStream finiteAudioStream = new JOrbisAudioStream(inputStream); ) {
-                byteBuffer = finiteAudioStream.readAll();
-                audioData = new AudioData(byteBuffer, finiteAudioStream.getFormat());
-            }
-
-            // Handle your audio data here or return it if necessary
             return Optional.of(audioData);
+
         } catch (IOException e) {
+            System.err.println("Error processing audio file: " + filePath);
             e.printStackTrace();
         }
+
         return Optional.empty();
     }
 
