@@ -2,14 +2,6 @@
  * Copyright © Team-VoW 2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
-/**
- * The DownloadQueue manages the downloading of audio files using a priority-based queue system. The queue processes tasks with a pool of worker threads,
- * each downloading files from a specified base URL to the local audio folder.
- *
- * The worker threads run concurrently, polling tasks from the queue and downloading files while ensuring thread safety.
- * When the queue is empty, a callback (onQueueEmpty) is executed to signal completion.
- * The system ensures proper cleanup by stopping all threads gracefully when downloads are finished or manually halted.
- */
 package com.wynnvp.wynncraftvp.sound.downloader;
 
 import java.io.File;
