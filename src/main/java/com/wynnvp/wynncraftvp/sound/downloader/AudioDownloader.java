@@ -2,6 +2,28 @@
  * Copyright © Team-VoW 2024.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
+
+/**
+ * The AudioDownloader class manages the synchronization of audio files between the repo and local directory. It operates as follows:
+ *
+ * Initialization:
+ * The downloader ensures the local audio directory exists.
+ * It loads metadata about the existing local audio files from a JSON file.
+ *
+ * Fetching and Comparing Metadata:
+ * Downloads a manifest from the remote repository containing metadata (hash and size) for all available audio files.
+ * Compares the remote manifest against the local metadata. If mismatches are found (missing files or hash mismatches), it calculates local file hashes and sizes for further verification.
+ *
+ * Downloading Missing or Updated Files:
+ * Identifies files needing download or updates and queues them for downloading via a DownloadQueue.
+ * Once the download is complete, it saves updated metadata locally.
+ *
+ * Cleanup:
+ * Removes local files that are not listed in the remote manifest after download finishes.
+ *
+ * Repeats the synchronization process up to 5 times to ensure all files are accurately downloaded,
+ * accounting for potential failures during the download.
+ */
 package com.wynnvp.wynncraftvp.sound.downloader;
 
 import com.google.gson.Gson;
