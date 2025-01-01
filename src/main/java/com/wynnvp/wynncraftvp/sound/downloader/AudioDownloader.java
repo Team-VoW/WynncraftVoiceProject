@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.downloader;
@@ -92,10 +92,7 @@ public class AudioDownloader {
             DownloadQueue downloadQueue = new DownloadQueue(audioDir, BASE_URL);
 
             List<DownloadTask> tasks = new ArrayList<>();
-            tasks.addAll(toDownload.stream()
-                    .map(id -> new DownloadTask(id, 1))
-                    .toList());
-
+            tasks.addAll(toDownload.stream().map(id -> new DownloadTask(id, 1)).toList());
 
             downloadQueue.setOnQueueEmpty(() -> {
                 System.out.println("Download complete");
