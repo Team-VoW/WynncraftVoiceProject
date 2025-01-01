@@ -92,10 +92,10 @@ public class AudioDownloader {
             DownloadQueue downloadQueue = new DownloadQueue(audioDir, BASE_URL);
 
             List<DownloadTask> tasks = new ArrayList<>();
-            toDownload.forEach((id) -> {
-                DownloadTask task = new DownloadTask(id, 1);
-                tasks.add(task);
-            });
+            tasks.addAll(toDownload.stream()
+                    .map(id -> new DownloadTask(id, 1))
+                    .toList());
+
 
             downloadQueue.setOnQueueEmpty(() -> {
                 System.out.println("Download complete");
@@ -135,12 +135,16 @@ public class AudioDownloader {
 
         // Populate the list of file names to download. If the file is not present or the hash is different, add it to
         // the list
-        remoteMetadata.forEach((id, audioMetadata) -> {
-            AudioMetadata localMetadata = metadataMap.get(id);
-            if (localMetadata == null || !localMetadata.hash().equals(audioMetadata.hash())) {
-                toDownload.add(id);
-            }
-        });
+        toDownload.addAll(remoteMetadata.entrySet().stream()
+                .filter(entry -> {
+                    String id = entry.getKey();
+                    AudioMetadata audioMetadata = entry.getValue();
+                    AudioMetadata localMetadata = metadataMap.get(id);
+                    return localMetadata == null || !localMetadata.hash().equals(audioMetadata.hash());
+                })
+                .map(Map.Entry::getKey)
+                .toList());
+
         return toDownload;
     }
 
