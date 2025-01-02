@@ -30,14 +30,12 @@ public class AudioDownloader {
         AudioDownloader audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
         audioDownloader.downloadAudio();
     }
-
     private final String audioDir;
-    private static final String METADATA_FILE = "audio_metadata.json";
     private static final String BASE_URL = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
     private static final String AUDIO_MANIFEST =
             "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/audio_manifest.json";
 
-    private HashMap<String, AudioMetadata> metadataMap;
+    private HashMap<String, AudioMetadata> metadataMap = new HashMap<>();
     private HashMap<String, AudioMetadata> remoteMetadata;
     private File audioFolder;
 
@@ -65,7 +63,6 @@ public class AudioDownloader {
 
     private void processAudioManifest() {
         try {
-            this.metadataMap = new HashMap<>(loadLocalMetadata());
 
             // Fetch the manifest
             remoteMetadata = fetchAudioManifest();
@@ -81,15 +78,8 @@ public class AudioDownloader {
                 }
             }
 
-            // The manifest is accurate which means we don't need to download anything
-            if (!hasToDownload()) {
-                System.out.println("No files to download");
-                return;
-            }
-
-            // Otherwise double check that we actually need to download something by checking local files
-            // Since the manifest is not guaranteed to be accurate since it only saves after all files are downloaded
             populateLocalMetadata();
+
             List<String> toDownload = getToDownload();
 
             if (toDownload.isEmpty()) {
@@ -107,7 +97,6 @@ public class AudioDownloader {
             downloadQueue.setOnQueueEmpty(() -> {
                 System.out.println("Download complete");
                 cleanUpUnusedFiles();
-                saveLocalMetadata();
 
                 currentRun++;
                 if (currentRun >= maxRuns) {
@@ -127,14 +116,6 @@ public class AudioDownloader {
             System.err.println("Error in audio manifest processing");
             e.printStackTrace();
         }
-    }
-
-    private boolean hasToDownload() {
-        return remoteMetadata.entrySet().stream().anyMatch(entry -> {
-            AudioMetadata localMetadata = metadataMap.get(entry.getKey());
-            return localMetadata == null
-                    || !localMetadata.hash().equals(entry.getValue().hash());
-        });
     }
 
     private List<String> getToDownload() {
@@ -161,9 +142,10 @@ public class AudioDownloader {
             audioFolder.mkdirs();
         }
 
+        metadataMap.clear();
+
         // If the local metadata is empty check if the audio folder is empty. If it is not empty, populate the metadata
         // map with the files in the audio folder
-        metadataMap.clear();
         File[] localFiles = audioFolder.listFiles((dir, name) -> name.endsWith(".ogg"));
         if (localFiles != null) {
             for (File localFile : localFiles) {
@@ -177,7 +159,6 @@ public class AudioDownloader {
                 }
             }
             System.out.println("Populated metadata map with " + metadataMap.size() + " files");
-            saveLocalMetadata();
         }
     }
 
@@ -220,6 +201,11 @@ public class AudioDownloader {
     }
 
     private void cleanUpUnusedFiles() {
+        if(remoteMetadata == null) {
+            System.err.println("Remote metadata is null, cannot clean up unused files");
+            return;
+        }
+
         File audioFolder = new File(audioDir);
         File[] localFiles = audioFolder.listFiles((dir, name) -> name.endsWith(".ogg"));
         if (localFiles != null) {
@@ -232,27 +218,6 @@ public class AudioDownloader {
                     localFile.delete();
                 }
             }
-        }
-    }
-
-    private Map<String, AudioMetadata> loadLocalMetadata() {
-        File metadataFile = new File(audioDir, METADATA_FILE);
-        if (metadataFile.exists()) {
-            try (Reader reader = new FileReader(metadataFile)) {
-                return gson.fromJson(reader, new TypeToken<Map<String, AudioMetadata>>() {}.getType());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        return new HashMap<>();
-    }
-
-    private synchronized void saveLocalMetadata() {
-        File metadataFile = new File(audioDir, METADATA_FILE);
-        try (Writer writer = new FileWriter(metadataFile)) {
-            gson.toJson(metadataMap, writer);
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 
