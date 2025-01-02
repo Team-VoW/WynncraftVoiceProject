@@ -70,8 +70,15 @@ public class AudioDownloader {
             // Fetch the manifest
             remoteMetadata = fetchAudioManifest();
             if (remoteMetadata == null) {
-                System.err.println("Failed to fetch audio manifest");
-                return;
+                System.err.println("Failed to fetch audio manifest on first attempt. Retrying in 20 seconds...");
+                Thread.sleep(20000); // Wait for 20 sec
+
+                // Retry fetching the manifest
+                remoteMetadata = fetchAudioManifest();
+                if (remoteMetadata == null) {
+                    System.err.println("Failed to fetch audio manifest after retry.");
+                    return;
+                }
             }
 
             // The manifest is accurate which means we don't need to download anything
