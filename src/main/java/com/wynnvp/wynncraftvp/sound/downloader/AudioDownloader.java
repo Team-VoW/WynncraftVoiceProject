@@ -44,8 +44,11 @@ public class AudioDownloader {
     private int maxRuns = 5;
     private int currentRun = 0;
 
+    private Gson gson;
+
     public AudioDownloader(String audioFolder) {
         audioDir = audioFolder;
+        gson = new Gson();
     }
 
     public void downloadAudio() {
@@ -181,7 +184,7 @@ public class AudioDownloader {
             if (connection.getResponseCode() == HttpURLConnection.HTTP_OK) {
                 try (InputStream inputStream = connection.getInputStream();
                         InputStreamReader reader = new InputStreamReader(inputStream)) {
-                    return new Gson().fromJson(reader, new TypeToken<HashMap<String, AudioMetadata>>() {}.getType());
+                    return gson.fromJson(reader, new TypeToken<HashMap<String, AudioMetadata>>() {}.getType());
                 }
             }
             throw new IOException("Failed to fetch audio manifest: " + AUDIO_MANIFEST);
@@ -229,7 +232,7 @@ public class AudioDownloader {
         File metadataFile = new File(audioDir, METADATA_FILE);
         if (metadataFile.exists()) {
             try (Reader reader = new FileReader(metadataFile)) {
-                return new Gson().fromJson(reader, new TypeToken<Map<String, AudioMetadata>>() {}.getType());
+                return gson.fromJson(reader, new TypeToken<Map<String, AudioMetadata>>() {}.getType());
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -240,7 +243,7 @@ public class AudioDownloader {
     private synchronized void saveLocalMetadata() {
         File metadataFile = new File(audioDir, METADATA_FILE);
         try (Writer writer = new FileWriter(metadataFile)) {
-            new Gson().toJson(metadataMap, writer);
+            gson.toJson(metadataMap, writer);
         } catch (IOException e) {
             e.printStackTrace();
         }
