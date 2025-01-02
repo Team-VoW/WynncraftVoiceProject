@@ -64,7 +64,7 @@ public class AudioDownloader {
             remoteMetadata = fetchAudioManifest();
             if (remoteMetadata == null) {
                 System.err.println("Failed to fetch audio manifest on first attempt. Retrying in 20 seconds...");
-                Thread.sleep(20000); // Wait for 20 sec
+                Thread.sleep(10000); // Wait for 10 sec
 
                 // Retry fetching the manifest
                 remoteMetadata = fetchAudioManifest();
@@ -93,6 +93,16 @@ public class AudioDownloader {
             downloadQueue.setOnQueueEmpty(() -> {
                 System.out.println("Download complete");
                 cleanUpUnusedFiles();
+
+                populateLocalMetadata();
+                List<String> failedToDownload = getToDownload();
+
+                if (failedToDownload.isEmpty()) {
+                    System.out.println("All files downloaded successfully");
+                    return;
+                }
+                System.out.println("Failed to download " + failedToDownload.size() + "("
+                        + (failedToDownload.size() * 100 / toDownload.size()) + "%");
 
                 currentRun++;
                 if (currentRun >= maxRuns) {
