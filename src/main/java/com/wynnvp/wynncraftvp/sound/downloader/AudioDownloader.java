@@ -9,13 +9,9 @@ import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.Reader;
-import java.io.Writer;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.security.MessageDigest;
@@ -30,6 +26,7 @@ public class AudioDownloader {
         AudioDownloader audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
         audioDownloader.downloadAudio();
     }
+
     private final String audioDir;
     private static final String BASE_URL = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
     private static final String AUDIO_MANIFEST =
@@ -63,7 +60,6 @@ public class AudioDownloader {
 
     private void processAudioManifest() {
         try {
-
             // Fetch the manifest
             remoteMetadata = fetchAudioManifest();
             if (remoteMetadata == null) {
@@ -201,7 +197,7 @@ public class AudioDownloader {
     }
 
     private void cleanUpUnusedFiles() {
-        if(remoteMetadata == null) {
+        if (remoteMetadata == null) {
             System.err.println("Remote metadata is null, cannot clean up unused files");
             return;
         }
