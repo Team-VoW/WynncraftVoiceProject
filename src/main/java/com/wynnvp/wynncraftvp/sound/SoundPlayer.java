@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -59,39 +59,6 @@ public class SoundPlayer {
 
     private void PlaySoundObject(SoundObject sound) {
         ModCore.instance.audioPlayer.play(sound);
-        // sound.getCustomSoundClass()
-
-        /*        final CustomSoundClass customSoundClass = sound.getCustomSoundClass();
-        final SoundEvent soundEvent = customSoundClass.soundEvent();
-
-        // If this sound contains info about a location to play it at
-        if (sound.getPosition() != null) {
-            Vector3f posAsVector3 = sound.getPosition();
-            Vec3 soundPos = new Vec3(posAsVector3.x, posAsVector3.y, posAsVector3.z);
-            lastPlayedSound = playSoundAtCords(soundPos, sound, manager);
-            return;
-        }
-
-        // If this sound was set to play at the player pos or the setting to play all sounds on player is turned on
-        if (customSoundClass.movingSound() || config.isPlayAllSoundsOnPlayer()) {
-            // Play the sound at the player
-            var soundAtPlayer = new SoundAtPlayer(soundEvent);
-            manager.play(soundAtPlayer);
-            lastPlayedSound = soundAtPlayer;
-            return;
-        }
-
-        String rawName = sound.getNpcName().toLowerCase().replace(" ", "");
-        Vec3 npcPosition = NPCHandler.findPosition(rawName);
-
-        if (npcPosition == null || isOutsideReach(sound, player, npcPosition)) {
-            lastPlayedSound = playSoundAtCords(player.position(), sound, manager);
-            return;
-        }
-
-        var soundAtArmorStand = new SoundAtArmorStand(soundEvent, rawName, sound);
-        manager.play(soundAtArmorStand);
-        lastPlayedSound = soundAtArmorStand;*/
     }
 
     /*    private SoundInstance playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {

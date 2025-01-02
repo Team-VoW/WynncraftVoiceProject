@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -24,6 +24,11 @@ public class SoundsHandler {
         sounds = new HashMap<>();
 
         loadSoundsFromJson("sounds.json");
+    }
+
+    // Get sounds
+    public HashMap<String, SoundObject> getSounds() {
+        return sounds;
     }
 
     private void loadSoundsFromJson(String jsonFilePath) {

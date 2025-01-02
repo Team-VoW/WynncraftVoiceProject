@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp;
@@ -9,6 +9,7 @@ import com.wynnvp.wynncraftvp.core.Managers;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
+import com.wynnvp.wynncraftvp.sound.downloader.AudioDownloader;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.text.ChatHandler;
 import java.util.Optional;
@@ -40,6 +41,8 @@ public class ModCore implements ModInitializer {
     public static VOWAutoConfig config;
 
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
+
+    private AudioDownloader audioDownloader;
 
     @Override
     public void onInitialize() {
@@ -76,6 +79,9 @@ public class ModCore implements ModInitializer {
             chatHandler.onTick();
             audioPlayer.openAlPlayer.onTick();
         });
+
+        audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
+        audioDownloader.downloadAudio();
     }
 
     public static void error(String msg) {
