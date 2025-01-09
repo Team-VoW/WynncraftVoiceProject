@@ -47,7 +47,7 @@ public class ModCore implements ModInitializer {
 
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
 
-    private AudioDownloader audioDownloader;
+    public AudioDownloader audioDownloader;
 
     @Override
     public void onInitialize() {
@@ -89,13 +89,6 @@ public class ModCore implements ModInitializer {
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
 
         new ToastManager(Minecraft.getInstance());
-
-        scheduler.schedule(
-                () -> {
-                    audioDownloader.checkToDownload();
-                },
-                10,
-                TimeUnit.SECONDS);
     }
 
     public static void error(String msg) {

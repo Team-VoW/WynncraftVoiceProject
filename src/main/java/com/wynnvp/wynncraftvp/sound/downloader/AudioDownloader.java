@@ -22,7 +22,7 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 
 /**
- * The `AudioDownloader` class is responsible for downloading audio files from a remote server.
+ * The AudioDownloader class is responsible for downloading audio files from a remote server.
  * It compares the local metadata with the remote metadata to determine which files need to be downloaded.
  * It also handles the download process, retries, and cleanup of unused files.
  */
