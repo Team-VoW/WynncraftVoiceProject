@@ -10,7 +10,7 @@ import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
 import com.wynnvp.wynncraftvp.sound.downloader.AudioDownloader;
-import com.wynnvp.wynncraftvp.sound.downloader.PopupManager;
+import com.wynnvp.wynncraftvp.sound.downloader.ToastManager;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.text.ChatHandler;
 import java.util.Optional;
@@ -24,6 +24,7 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.SharedConstants;
+import net.minecraft.client.Minecraft;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -47,8 +48,6 @@ public class ModCore implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
 
     private AudioDownloader audioDownloader;
-
-    public PopupManager popupManager;
 
     @Override
     public void onInitialize() {
@@ -89,9 +88,11 @@ public class ModCore implements ModInitializer {
         ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
 
+        new ToastManager(Minecraft.getInstance());
+
         scheduler.schedule(
                 () -> {
-                    audioDownloader.downloadAudio();
+                    audioDownloader.checkToDownload();
                 },
                 10,
                 TimeUnit.SECONDS);

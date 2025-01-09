@@ -29,7 +29,7 @@ import java.util.concurrent.CompletableFuture;
 public class AudioDownloader {
     public static void main(String[] args) {
         AudioDownloader audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
-        audioDownloader.downloadAudio();
+        audioDownloader.checkToDownload();
     }
 
     private final String audioDir;
@@ -49,13 +49,12 @@ public class AudioDownloader {
 
     private long downloadSize;
 
-
     public AudioDownloader(String audioFolder) {
         audioDir = audioFolder;
         gson = new Gson();
     }
 
-    public void downloadAudio() {
+    public void checkToDownload() {
         // Ensure the audio folder exists
         audioFolder = new File(audioDir);
         if (!audioFolder.exists()) {
@@ -97,7 +96,15 @@ public class AudioDownloader {
             long downloadSizeInMB = downloadSize / 1024 / 1024;
             System.out.println("Total download size: " + downloadSizeInMB + " MB");
 
-            StartDownloadQueue(toDownload);
+            ToastManager.getInstance()
+                    .displayTimedToast(
+                            () -> {
+                                StartDownloadQueue(toDownload);
+                            },
+                            10,
+                            "Voices of Wynn Download. Size: " + downloadSizeInMB + " MB",
+                            "Press N to cancel.");
+
         } catch (Exception e) {
             System.err.println("Error in audio manifest processing");
             e.printStackTrace();
@@ -109,7 +116,7 @@ public class AudioDownloader {
      *
      * @param toDownload The list of file names to be downloaded.
      */
-    private void StartDownloadQueue(List<String> toDownload){
+    private void StartDownloadQueue(List<String> toDownload) {
         DownloadQueue downloadQueue = new DownloadQueue(audioDir, BASE_URL, toDownload.size());
 
         List<DownloadTask> tasks = new ArrayList<>();
@@ -157,14 +164,16 @@ public class AudioDownloader {
         List<String> toDownload = new ArrayList<>();
         downloadSize = 0;
 
-        // Populate the list of file names to download. If the file is not present or the hash is different, add it to the list
+        // Populate the list of file names to download. If the file is not present or the hash is different, add it to
+        // the list
         toDownload.addAll(remoteMetadata.entrySet().stream()
                 .filter(entry -> {
                     String id = entry.getKey();
                     long size = entry.getValue().size();
                     AudioMetadata audioMetadata = entry.getValue();
                     AudioMetadata localMetadata = metadataMap.get(id);
-                    boolean shouldDownload = localMetadata == null || !localMetadata.hash().equals(audioMetadata.hash());
+                    boolean shouldDownload =
+                            localMetadata == null || !localMetadata.hash().equals(audioMetadata.hash());
                     if (shouldDownload) {
                         downloadSize += size;
                     }
@@ -205,7 +214,6 @@ public class AudioDownloader {
             System.out.println("Populated metadata map with " + metadataMap.size() + " files");
         }
     }
-
 
     /**
      * Fetches the audio manifest from the remote server.
