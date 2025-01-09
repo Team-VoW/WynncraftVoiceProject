@@ -4,11 +4,16 @@
  */
 package com.wynnvp.wynncraftvp.sound.downloader;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.toasts.SystemToast;
 import net.minecraft.client.gui.components.toasts.Toast;
 import net.minecraft.client.gui.components.toasts.ToastComponent;
 import net.minecraft.network.chat.Component;
+
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 public class TimedToast implements Toast {
     private final Runnable action;
@@ -18,6 +23,9 @@ public class TimedToast implements Toast {
     private boolean finished = false;
     private long lastChanged;
     private final SystemToast systemToast;
+
+    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+
 
     public TimedToast(Runnable action, int durationSeconds, String titleText, String subtitleText) {
         this.action = action;
@@ -29,8 +37,15 @@ public class TimedToast implements Toast {
 
     public void executeActionAndHide() {
         if (finished) return;
-        action.run();
         hide();
+
+        //We add a delay to ensure the toast is hidden before executing the action.
+        //If we don't do this the second toast will always be displayed one row bellow
+        //Instead of in the top right
+        scheduler.schedule(() -> {
+            Minecraft.getInstance().execute(action::run);
+        }, 1, TimeUnit.SECONDS);
+
     }
 
     // Hide the toast without executing the action
