@@ -49,7 +49,6 @@ public class AudioDownloader {
 
     private long downloadSize;
 
-
     public AudioDownloader(String audioFolder) {
         audioDir = audioFolder;
         gson = new Gson();
@@ -109,7 +108,7 @@ public class AudioDownloader {
      *
      * @param toDownload The list of file names to be downloaded.
      */
-    private void StartDownloadQueue(List<String> toDownload){
+    private void StartDownloadQueue(List<String> toDownload) {
         DownloadQueue downloadQueue = new DownloadQueue(audioDir, BASE_URL, toDownload.size());
 
         List<DownloadTask> tasks = new ArrayList<>();
@@ -157,14 +156,16 @@ public class AudioDownloader {
         List<String> toDownload = new ArrayList<>();
         downloadSize = 0;
 
-        // Populate the list of file names to download. If the file is not present or the hash is different, add it to the list
+        // Populate the list of file names to download. If the file is not present or the hash is different, add it to
+        // the list
         toDownload.addAll(remoteMetadata.entrySet().stream()
                 .filter(entry -> {
                     String id = entry.getKey();
                     long size = entry.getValue().size();
                     AudioMetadata audioMetadata = entry.getValue();
                     AudioMetadata localMetadata = metadataMap.get(id);
-                    boolean shouldDownload = localMetadata == null || !localMetadata.hash().equals(audioMetadata.hash());
+                    boolean shouldDownload =
+                            localMetadata == null || !localMetadata.hash().equals(audioMetadata.hash());
                     if (shouldDownload) {
                         downloadSize += size;
                     }
@@ -205,7 +206,6 @@ public class AudioDownloader {
             System.out.println("Populated metadata map with " + metadataMap.size() + " files");
         }
     }
-
 
     /**
      * Fetches the audio manifest from the remote server.
