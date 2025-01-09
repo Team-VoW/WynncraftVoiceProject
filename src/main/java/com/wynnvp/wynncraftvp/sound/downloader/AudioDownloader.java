@@ -28,7 +28,8 @@ public class AudioDownloader {
     }
 
     private final String audioDir;
-    private static final String BASE_URL = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
+    private static final String BASE_URL =
+            "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/src/main/resources/assets/wynnvp/sounds/";
     private static final String AUDIO_MANIFEST =
             "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/audio_manifest.json";
 
@@ -85,7 +86,7 @@ public class AudioDownloader {
 
             System.out.println("Downloading " + toDownload.size() + " files");
 
-            DownloadQueue downloadQueue = new DownloadQueue(audioDir, BASE_URL);
+            DownloadQueue downloadQueue = new DownloadQueue(audioDir, BASE_URL, toDownload.size());
 
             List<DownloadTask> tasks = new ArrayList<>();
             tasks.addAll(toDownload.stream().map(id -> new DownloadTask(id, 1)).toList());

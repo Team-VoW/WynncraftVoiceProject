@@ -10,9 +10,13 @@ import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
 import com.wynnvp.wynncraftvp.sound.downloader.AudioDownloader;
+import com.wynnvp.wynncraftvp.sound.downloader.PopupManager;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.text.ChatHandler;
 import java.util.Optional;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
@@ -43,6 +47,8 @@ public class ModCore implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
 
     private AudioDownloader audioDownloader;
+
+    public PopupManager popupManager;
 
     @Override
     public void onInitialize() {
@@ -79,9 +85,16 @@ public class ModCore implements ModInitializer {
             chatHandler.onTick();
             audioPlayer.openAlPlayer.onTick();
         });
-
+        // Create a ScheduledExecutorService
+        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
-        audioDownloader.downloadAudio();
+
+        scheduler.schedule(
+                () -> {
+                    audioDownloader.downloadAudio();
+                },
+                10,
+                TimeUnit.SECONDS);
     }
 
     public static void error(String msg) {

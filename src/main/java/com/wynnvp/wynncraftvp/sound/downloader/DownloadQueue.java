@@ -15,6 +15,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.TimeUnit;
+import net.minecraft.client.Minecraft;
 
 public class DownloadQueue {
     private PriorityBlockingQueue<DownloadTask> queue;
@@ -26,11 +27,15 @@ public class DownloadQueue {
     private Runnable onQueueEmpty; // Callback for when the queue is empty
     private volatile boolean queueEmptyNotified = false; // To prevent duplicate notifications
 
-    public DownloadQueue(String audioFolder, String baseUrl) {
+    private DownloadProgressToast progressToast;
+
+    public DownloadQueue(String audioFolder, String baseUrl, int downloadCount) {
         this.audioFolder = audioFolder;
         this.baseUrl = baseUrl;
         this.queue = new PriorityBlockingQueue<>();
         this.executor = Executors.newFixedThreadPool(threadCount);
+        this.progressToast =
+                new DownloadProgressToast(Minecraft.getInstance(), "Downloading Voices of Wynn audio", downloadCount);
     }
 
     public void start() {
@@ -93,8 +98,12 @@ public class DownloadQueue {
 
                 try {
                     downloadFile(baseUrl + fileName, localFile);
+                    // Update the progress toast for a successful download
+                    progressToast.increaseCount();
                 } catch (IOException e) {
                     System.err.println("Failed to download " + task.getAudioName() + ": " + e.getMessage());
+                    // Update the progress toast for a failed download
+                    progressToast.addFailed();
                 }
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
@@ -109,6 +118,7 @@ public class DownloadQueue {
                 if (queue.isEmpty() && !queueEmptyNotified) {
                     queueEmptyNotified = true;
                     onQueueEmpty.run();
+                    progressToast.requestFinished(true);
                     stop(); // Stop the queue after notifying
                 }
             }

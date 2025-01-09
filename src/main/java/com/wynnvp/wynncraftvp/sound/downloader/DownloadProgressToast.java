@@ -14,6 +14,7 @@ public class DownloadProgressToast {
     private Component title;
     private int count;
     private int totalAmount;
+    private int failedAmount;
 
     private final SystemToast.SystemToastId toastId;
 
@@ -27,15 +28,19 @@ public class DownloadProgressToast {
     /**
      * Updates or adds a progress toast.
      */
-    private void updateToast() {
+    private synchronized void updateToast() {
         // Cast to float to avoid integer division and format to a maximum of two decimal places
         float percent = ((float) count / totalAmount) * 100;
         DecimalFormat decimalFormat = new DecimalFormat("#.##");
         String formattedPercent = decimalFormat.format(percent);
 
+        String toastMessage = "Progress: " + count + " / " + totalAmount;
+        // If there are failed downloads, add that to the toast message
+        toastMessage += failedAmount > 0 ? " (" + failedAmount + " failed)" : "";
+
         // Component displayMessage = Component.literal("Progress: " + count + " / " + totalAmount + " (" +
         // formattedPercent + "%)");
-        Component displayMessage = Component.literal("Progress: " + count + " / " + totalAmount);
+        Component displayMessage = Component.literal(toastMessage);
 
         System.out.println("Updating toast: " + displayMessage.getString());
         System.out.println("Percent is " + formattedPercent + "%");
@@ -43,7 +48,7 @@ public class DownloadProgressToast {
         SystemToast.addOrUpdate(client.getToasts(), this.toastId, this.title, displayMessage);
     }
 
-    public void requestFinished(boolean success) {
+    public synchronized void requestFinished(boolean success) {
         if (!success) {
             //  DownloadedPackSource.LOGGER.info("Pack {} failed to download", this.count);
             // this.failCount++;
@@ -57,7 +62,7 @@ public class DownloadProgressToast {
     /**
      * Set the title of the progress listener.
      */
-    public void setTitle(Component title) {
+    public synchronized void setTitle(Component title) {
         this.title = title;
         updateToast();
     }
@@ -67,13 +72,18 @@ public class DownloadProgressToast {
      *
      * @param count The number of files downloaded
      */
-    public void updateProgress(int count) {
+    public synchronized void updateProgress(int count) {
         this.count = count;
         updateToast();
     }
 
-    public void increaseCount() {
+    public synchronized void increaseCount() {
         this.count++;
+        updateToast();
+    }
+
+    public synchronized void addFailed() {
+        this.failedAmount++;
         updateToast();
     }
 }
