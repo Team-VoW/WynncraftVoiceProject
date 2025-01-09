@@ -1,10 +1,13 @@
+/*
+ * Copyright © Team-VoW 2025.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.sound.downloader;
 
+import java.text.DecimalFormat;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.toasts.SystemToast;
 import net.minecraft.network.chat.Component;
-
-import java.text.DecimalFormat;
 
 public class DownloadProgressToast {
     private final Minecraft client;
@@ -24,14 +27,14 @@ public class DownloadProgressToast {
     /**
      * Updates or adds a progress toast.
      */
-
     private void updateToast() {
         // Cast to float to avoid integer division and format to a maximum of two decimal places
         float percent = ((float) count / totalAmount) * 100;
         DecimalFormat decimalFormat = new DecimalFormat("#.##");
         String formattedPercent = decimalFormat.format(percent);
 
-       // Component displayMessage = Component.literal("Progress: " + count + " / " + totalAmount + " (" + formattedPercent + "%)");
+        // Component displayMessage = Component.literal("Progress: " + count + " / " + totalAmount + " (" +
+        // formattedPercent + "%)");
         Component displayMessage = Component.literal("Progress: " + count + " / " + totalAmount);
 
         System.out.println("Updating toast: " + displayMessage.getString());
@@ -43,13 +46,12 @@ public class DownloadProgressToast {
     public void requestFinished(boolean success) {
         if (!success) {
             //  DownloadedPackSource.LOGGER.info("Pack {} failed to download", this.count);
-            //this.failCount++;
+            // this.failCount++;
         } else {
             //   DownloadedPackSource.LOGGER.debug("Download ended for pack {}", this.count);
         }
 
         SystemToast.forceHide(client.getToasts(), this.toastId);
-
     }
 
     /**
@@ -69,9 +71,9 @@ public class DownloadProgressToast {
         this.count = count;
         updateToast();
     }
+
     public void increaseCount() {
         this.count++;
         updateToast();
     }
 }
-
