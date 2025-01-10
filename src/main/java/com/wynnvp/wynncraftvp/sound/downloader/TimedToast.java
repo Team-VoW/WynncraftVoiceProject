@@ -40,12 +40,7 @@ public class TimedToast implements Toast {
         // We add a delay to ensure the toast is hidden before executing the action.
         // If we don't do this the second toast will always be displayed one row bellow
         // Instead of in the top right
-        scheduler.schedule(
-                () -> {
-                    Minecraft.getInstance().execute(action::run);
-                },
-                1,
-                TimeUnit.SECONDS);
+        scheduler.schedule(() -> Minecraft.getInstance().execute(action), 1, TimeUnit.SECONDS);
     }
 
     // Hide the toast without executing the action

@@ -13,7 +13,7 @@ public class DownloadProgressToast {
     private final Minecraft client;
     private Component title;
     private int count;
-    private int totalAmount;
+    private final int totalAmount;
     private int failedAmount;
 
     private final SystemToast.SystemToastId toastId;
@@ -48,14 +48,7 @@ public class DownloadProgressToast {
         SystemToast.addOrUpdate(client.getToasts(), this.toastId, this.title, displayMessage);
     }
 
-    public synchronized void requestFinished(boolean success) {
-        if (!success) {
-            //  DownloadedPackSource.LOGGER.info("Pack {} failed to download", this.count);
-            // this.failCount++;
-        } else {
-            //   DownloadedPackSource.LOGGER.debug("Download ended for pack {}", this.count);
-        }
-
+    public synchronized void requestFinished() {
         SystemToast.forceHide(client.getToasts(), this.toastId);
     }
 

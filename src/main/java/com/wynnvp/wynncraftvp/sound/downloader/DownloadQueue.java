@@ -27,7 +27,7 @@ public class DownloadQueue {
     private Runnable onQueueEmpty; // Callback for when the queue is empty
     private volatile boolean queueEmptyNotified = false; // To prevent duplicate notifications
 
-    private DownloadProgressToast progressToast;
+    private final DownloadProgressToast progressToast;
 
     public DownloadQueue(String audioFolder, String baseUrl, int downloadCount) {
         this.audioFolder = audioFolder;
@@ -66,21 +66,8 @@ public class DownloadQueue {
         this.onQueueEmpty = onQueueEmpty;
     }
 
-    public void addTask(DownloadTask task) {
-        queue.add(task);
-    }
-
     public void initializeQueue(List<DownloadTask> tasks) {
         queue = new PriorityBlockingQueue<>(tasks);
-    }
-
-    public void changePriority(DownloadTask task, int newPriority) {
-        synchronized (queue) {
-            if (queue.remove(task)) {
-                task.setPriority(newPriority);
-                queue.add(task);
-            }
-        }
     }
 
     private void worker() {
@@ -118,7 +105,7 @@ public class DownloadQueue {
                 if (queue.isEmpty() && !queueEmptyNotified) {
                     queueEmptyNotified = true;
                     onQueueEmpty.run();
-                    progressToast.requestFinished(true);
+                    progressToast.requestFinished();
                     stop(); // Stop the queue after notifying
                 }
             }

@@ -39,11 +39,11 @@ public class AudioDownloader {
     private static final String AUDIO_MANIFEST =
             "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/audio_manifest.json";
 
-    private HashMap<String, AudioMetadata> metadataMap = new HashMap<>();
+    private final HashMap<String, AudioMetadata> metadataMap = new HashMap<>();
     private HashMap<String, AudioMetadata> remoteMetadata;
     private File audioFolder;
 
-    private int maxRuns = 2;
+    private final int maxRuns = 2;
     private int currentRun = 0;
 
     /**
@@ -52,7 +52,7 @@ public class AudioDownloader {
      */
     private final int minSizeForConfirmation = 50;
 
-    private Gson gson;
+    private final Gson gson;
 
     private long downloadSize;
 
@@ -65,7 +65,10 @@ public class AudioDownloader {
         // Ensure the audio folder exists
         audioFolder = new File(audioDir);
         if (!audioFolder.exists()) {
-            audioFolder.mkdirs();
+            if (!audioFolder.mkdirs()) {
+                System.err.println("Failed to create audio folder: " + audioFolder.getAbsolutePath());
+                return;
+            }
         }
 
         // Start the async process
@@ -110,9 +113,7 @@ public class AudioDownloader {
 
             ToastManager.getInstance()
                     .displayTimedToast(
-                            () -> {
-                                StartDownloadQueue(toDownload);
-                            },
+                            () -> StartDownloadQueue(toDownload),
                             10,
                             "Voices of Wynn Download. Size: " + downloadSizeInMB + " MB",
                             "Press N to cancel.");
@@ -131,8 +132,8 @@ public class AudioDownloader {
     private void StartDownloadQueue(List<String> toDownload) {
         DownloadQueue downloadQueue = new DownloadQueue(audioDir, BASE_URL, toDownload.size());
 
-        List<DownloadTask> tasks = new ArrayList<>();
-        tasks.addAll(toDownload.stream().map(id -> new DownloadTask(id, 1)).toList());
+        List<DownloadTask> tasks = new ArrayList<>(
+                toDownload.stream().map(id -> new DownloadTask(id, 1)).toList());
 
         downloadQueue.setOnQueueEmpty(() -> {
             System.out.println("Download complete");
@@ -178,7 +179,7 @@ public class AudioDownloader {
 
     /**
      * Retrieves a list of audio files that need to be downloaded.
-     *
+     * <p>
      * This method compares the local metadata with the remote metadata to determine which files
      * are missing or have different hashes, indicating that they need to be downloaded. It also
      * calculates the total size of the files to be downloaded, setting the downloadSize variable.
@@ -186,12 +187,10 @@ public class AudioDownloader {
      * @return A list of file names that need to be downloaded.
      */
     private List<String> getToDownload() {
-        List<String> toDownload = new ArrayList<>();
         downloadSize = 0;
-
         // Populate the list of file names to download. If the file is not present or the hash is different, add it to
         // the list
-        toDownload.addAll(remoteMetadata.entrySet().stream()
+        return new ArrayList<>(remoteMetadata.entrySet().stream()
                 .filter(entry -> {
                     String id = entry.getKey();
                     long size = entry.getValue().size();
@@ -206,8 +205,6 @@ public class AudioDownloader {
                 })
                 .map(Map.Entry::getKey)
                 .toList());
-
-        return toDownload;
     }
 
     /**
@@ -217,7 +214,10 @@ public class AudioDownloader {
     private void populateLocalMetadata() {
         audioFolder = new File(audioDir);
         if (!audioFolder.exists()) {
-            audioFolder.mkdirs();
+            if (!audioFolder.mkdirs()) {
+                System.err.println("Failed to create audio folder: " + audioFolder.getAbsolutePath());
+                return;
+            }
         }
 
         metadataMap.clear();
@@ -311,7 +311,9 @@ public class AudioDownloader {
                 // System.out.println(fileName);
                 if (!remoteMetadata.containsKey(fileName)) {
                     System.out.println("Deleting unused file: " + localFile.getName());
-                    localFile.delete();
+                    if (!localFile.delete()) {
+                        System.err.println("Failed to delete file: " + localFile.getName());
+                    }
                 }
             }
         }
