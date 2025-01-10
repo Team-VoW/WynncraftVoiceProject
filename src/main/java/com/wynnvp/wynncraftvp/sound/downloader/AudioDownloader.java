@@ -20,6 +20,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
+import net.minecraft.network.chat.Component;
 
 /**
  * The AudioDownloader class is responsible for downloading audio files from a remote server.
@@ -42,8 +43,14 @@ public class AudioDownloader {
     private HashMap<String, AudioMetadata> remoteMetadata;
     private File audioFolder;
 
-    private int maxRuns = 5;
+    private int maxRuns = 2;
     private int currentRun = 0;
+
+    /**
+     * The minimum size of the update the confirmation dialog to appear.
+     * Any update smaller than this will automatically install
+     */
+    private final int minSizeForConfirmation = 50;
 
     private Gson gson;
 
@@ -96,6 +103,11 @@ public class AudioDownloader {
             long downloadSizeInMB = downloadSize / 1024 / 1024;
             System.out.println("Total download size: " + downloadSizeInMB + " MB");
 
+            if (downloadSizeInMB < minSizeForConfirmation) {
+                StartDownloadQueue(toDownload);
+                return;
+            }
+
             ToastManager.getInstance()
                     .displayTimedToast(
                             () -> {
@@ -131,6 +143,10 @@ public class AudioDownloader {
 
             if (failedToDownload.isEmpty()) {
                 System.out.println("All files downloaded successfully");
+                ToastManager.getInstance()
+                        .displayToast(
+                                Component.literal("Voices of Wynn audio downloaded successfully"),
+                                Component.literal("All files downloaded successfully"));
                 return;
             }
             System.out.println("Failed to download " + failedToDownload.size() + "("
@@ -139,8 +155,17 @@ public class AudioDownloader {
             currentRun++;
             if (currentRun >= maxRuns) {
                 System.out.println("Max runs reached, stopping download process");
+                ToastManager.getInstance()
+                        .displayToast(
+                                Component.literal("Failed to download " + failedToDownload.size() + " files"),
+                                Component.literal("Restart the game to try downloading again"));
                 return;
             }
+
+            ToastManager.getInstance()
+                    .displayToast(
+                            Component.literal("Failed to download " + failedToDownload.size() + " files"),
+                            Component.literal("Will try downloading these files again"));
 
             // We go through the download process again to make sure we have all the files.
             CompletableFuture.runAsync(this::processAudioManifest);
