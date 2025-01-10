@@ -21,6 +21,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import net.minecraft.network.chat.Component;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * The AudioDownloader class is responsible for downloading audio files from a remote server.
@@ -56,6 +58,8 @@ public class AudioDownloader {
 
     private long downloadSize;
 
+    private static final Logger LOGGER = LoggerFactory.getLogger("VoW Audio Downloader");
+
     public AudioDownloader(String audioFolder) {
         audioDir = audioFolder;
         gson = new Gson();
@@ -66,7 +70,7 @@ public class AudioDownloader {
         audioFolder = new File(audioDir);
         if (!audioFolder.exists()) {
             if (!audioFolder.mkdirs()) {
-                System.err.println("Failed to create audio folder: " + audioFolder.getAbsolutePath());
+                LOGGER.error("Failed to create audio folder: " + audioFolder.getAbsolutePath());
                 return;
             }
         }
@@ -81,13 +85,13 @@ public class AudioDownloader {
             // Fetch the manifest
             remoteMetadata = fetchAudioManifest();
             if (remoteMetadata == null) {
-                System.err.println("Failed to fetch audio manifest on first attempt. Retrying in 20 seconds...");
+                LOGGER.error("Failed to fetch audio manifest on first attempt. Retrying in 20 seconds...");
                 Thread.sleep(10000); // Wait for 10 sec
 
                 // Retry fetching the manifest
                 remoteMetadata = fetchAudioManifest();
                 if (remoteMetadata == null) {
-                    System.err.println("Failed to fetch audio manifest after retry.");
+                    LOGGER.error("Failed to fetch audio manifest after retry.");
                     return;
                 }
             }
@@ -97,14 +101,14 @@ public class AudioDownloader {
             List<String> toDownload = getToDownload();
 
             if (toDownload.isEmpty()) {
-                System.out.println("No files to download");
+                LOGGER.info("No files to download. Up to date");
                 return;
             }
 
-            System.out.println("Downloading " + toDownload.size() + " files");
+            LOGGER.info("Downloading " + toDownload.size() + " files");
 
             long downloadSizeInMB = downloadSize / 1024 / 1024;
-            System.out.println("Total download size: " + downloadSizeInMB + " MB");
+            LOGGER.info("Total download size: " + downloadSizeInMB + " MB");
 
             if (downloadSizeInMB < minSizeForConfirmation) {
                 StartDownloadQueue(toDownload);
@@ -119,7 +123,7 @@ public class AudioDownloader {
                             "Press N to cancel.");
 
         } catch (Exception e) {
-            System.err.println("Error in audio manifest processing");
+            LOGGER.error("Error in audio manifest processing");
             e.printStackTrace();
         }
     }
@@ -136,26 +140,26 @@ public class AudioDownloader {
                 toDownload.stream().map(id -> new DownloadTask(id, 1)).toList());
 
         downloadQueue.setOnQueueEmpty(() -> {
-            System.out.println("Download complete");
+            LOGGER.info("Download complete");
             cleanUpUnusedFiles();
 
             populateLocalMetadata();
             List<String> failedToDownload = getToDownload();
 
             if (failedToDownload.isEmpty()) {
-                System.out.println("All files downloaded successfully");
+                LOGGER.info("All files downloaded successfully");
                 ToastManager.getInstance()
                         .displayToast(
                                 Component.literal("Voices of Wynn audio downloaded successfully"),
                                 Component.literal("All files downloaded successfully"));
                 return;
             }
-            System.out.println("Failed to download " + failedToDownload.size() + "("
+            LOGGER.info("Failed to download " + failedToDownload.size() + "("
                     + (failedToDownload.size() * 100 / toDownload.size()) + "%");
 
             currentRun++;
             if (currentRun >= maxRuns) {
-                System.out.println("Max runs reached, stopping download process");
+                LOGGER.info("Max runs reached, stopping download process");
                 ToastManager.getInstance()
                         .displayToast(
                                 Component.literal("Failed to download " + failedToDownload.size() + " files"),
@@ -215,7 +219,7 @@ public class AudioDownloader {
         audioFolder = new File(audioDir);
         if (!audioFolder.exists()) {
             if (!audioFolder.mkdirs()) {
-                System.err.println("Failed to create audio folder: " + audioFolder.getAbsolutePath());
+                LOGGER.error("Failed to create audio folder: " + audioFolder.getAbsolutePath());
                 return;
             }
         }
@@ -232,11 +236,11 @@ public class AudioDownloader {
                     String hash = computeFileHash(localFile);
                     metadataMap.put(fileName, new AudioMetadata(localFile.length(), hash));
                 } catch (Exception e) {
-                    System.err.println("Failed to compute hash for file: " + localFile.getName());
+                    LOGGER.error("Failed to compute hash for file: " + localFile.getName());
                     e.printStackTrace();
                 }
             }
-            System.out.println("Populated metadata map with " + metadataMap.size() + " files");
+            LOGGER.info("Populated metadata map with " + metadataMap.size() + " files");
         }
     }
 
@@ -298,7 +302,7 @@ public class AudioDownloader {
      */
     private void cleanUpUnusedFiles() {
         if (remoteMetadata == null) {
-            System.err.println("Remote metadata is null, cannot clean up unused files");
+            LOGGER.error("Remote metadata is null, cannot clean up unused files");
             return;
         }
 
@@ -308,11 +312,10 @@ public class AudioDownloader {
             for (File localFile : localFiles) {
                 String fileName = localFile.getName().replace(".ogg", "");
 
-                // System.out.println(fileName);
                 if (!remoteMetadata.containsKey(fileName)) {
-                    System.out.println("Deleting unused file: " + localFile.getName());
+                    LOGGER.info("Deleting unused file: " + localFile.getName());
                     if (!localFile.delete()) {
-                        System.err.println("Failed to delete file: " + localFile.getName());
+                        LOGGER.error("Failed to delete file: " + localFile.getName());
                     }
                 }
             }

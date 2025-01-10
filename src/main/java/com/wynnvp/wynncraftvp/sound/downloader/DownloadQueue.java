@@ -79,7 +79,6 @@ public class DownloadQueue {
                     continue;
                 }
 
-                System.out.println("Downloading: " + task.getAudioName());
                 String fileName = sanitizeFileName(task.getAudioName()) + ".ogg";
                 File localFile = new File(audioFolder, fileName);
 

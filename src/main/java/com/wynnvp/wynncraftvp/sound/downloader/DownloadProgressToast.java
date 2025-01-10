@@ -42,9 +42,6 @@ public class DownloadProgressToast {
         // formattedPercent + "%)");
         Component displayMessage = Component.literal(toastMessage);
 
-        System.out.println("Updating toast: " + displayMessage.getString());
-        System.out.println("Percent is " + formattedPercent + "%");
-
         SystemToast.addOrUpdate(client.getToasts(), this.toastId, this.title, displayMessage);
     }
 
