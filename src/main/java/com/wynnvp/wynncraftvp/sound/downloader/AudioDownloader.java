@@ -36,8 +36,7 @@ public class AudioDownloader {
     }
 
     private final String audioDir;
-    private static final String BASE_URL =
-            "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
+    private static final String BASE_URL = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
     private static final String AUDIO_MANIFEST =
             "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/audio_manifest.json";
 
