@@ -5,10 +5,10 @@ on:
     branches:
       - main
     paths:
-      - 'src/main/resources/assets/wynnvp/sounds/**'
+      - 'sounds/**'
   pull_request:
     paths:
-      - 'src/main/resources/assets/wynnvp/sounds/**'
+      - 'sounds/**'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -45,7 +45,7 @@ jobs:
               return sha256_hash.hexdigest()
           
           def generate_manifest():
-              sounds_dir = Path('src/main/resources/assets/wynnvp/sounds')
+              sounds_dir = Path('sounds')
               manifest = {}
           
               if not sounds_dir.exists():
