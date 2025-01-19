@@ -1,0 +1,100 @@
+name: Update Audio Manifest
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'sounds/**'
+  pull_request:
+    paths:
+      - 'sounds/**'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Fetch all history for all branches and tags
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Generate audio manifest
+        run: |
+          python - << EOF
+          import os
+          import json
+          import hashlib
+          from pathlib import Path
+          
+          def calculate_hash(file_path):
+              sha256_hash = hashlib.sha256()
+              with open(file_path, "rb") as f:
+                  for byte_block in iter(lambda: f.read(4096), b""):
+                      sha256_hash.update(byte_block)
+              return sha256_hash.hexdigest()
+          
+          def generate_manifest():
+              sounds_dir = Path('sounds')
+              manifest = {}
+          
+              if not sounds_dir.exists():
+                  print(f"Warning: {sounds_dir} does not exist")
+                  return {}
+          
+              for file_path in sounds_dir.rglob('*.ogg'):
+                  file_size = os.path.getsize(file_path)
+                  file_hash = calculate_hash(file_path)
+          
+                  # Use the filename without extension as the key
+                  key = file_path.stem
+          
+                  manifest[key] = {
+                      "size": file_size,
+                      "hash": file_hash
+                  }
+          
+              return manifest
+          
+          # Generate and save manifest
+          manifest = generate_manifest()
+          with open('audio_manifest.json', 'w') as f:
+              json.dump(manifest, f, indent=2, sort_keys=True)
+          
+          print("Generated audio_manifest.json")
+          EOF
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet audio_manifest.json; then
+            echo "No changes to audio_manifest.json"
+            echo "manifest_changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in audio_manifest.json"
+            echo "manifest_changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Checkout branch
+        if: steps.check_changes.outputs.manifest_changed == 'true'
+        run: |
+          git checkout main  # Ensure you're on the correct branch
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.manifest_changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add audio_manifest.json
+          git commit -m "Update audio_manifest.json [skip ci]"
+          git push origin main  # Push changes to the correct branch

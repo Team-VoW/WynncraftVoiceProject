@@ -31,14 +31,14 @@ public class VOWAutoConfig implements ConfigData {
     // Line reporting settings
     public boolean reportMissingLines = true;
     public boolean anonymous = true;
-    public boolean sendFunFact = true;
+    public boolean sendFunFact = false;
     // --------------------------------------------------------------
 
     public int blockCutOff = 32;
     public boolean removeVillagerSounds = false;
 
     @ConfigEntry.Gui.Tooltip
-    public boolean autoProgress = true;
+    public boolean autoProgress = false;
 
     @ConfigEntry.Gui.Tooltip
     public boolean highlightSpeaker = false;

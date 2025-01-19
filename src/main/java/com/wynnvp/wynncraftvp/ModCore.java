@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp;
@@ -9,9 +9,13 @@ import com.wynnvp.wynncraftvp.core.Managers;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import com.wynnvp.wynncraftvp.sound.SoundsHandler;
+import com.wynnvp.wynncraftvp.sound.downloader.AudioDownloader;
+import com.wynnvp.wynncraftvp.sound.downloader.ToastManager;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.text.ChatHandler;
 import java.util.Optional;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
@@ -19,6 +23,7 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.SharedConstants;
+import net.minecraft.client.Minecraft;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -40,6 +45,8 @@ public class ModCore implements ModInitializer {
     public static VOWAutoConfig config;
 
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
+
+    public AudioDownloader audioDownloader;
 
     @Override
     public void onInitialize() {
@@ -76,6 +83,11 @@ public class ModCore implements ModInitializer {
             chatHandler.onTick();
             audioPlayer.openAlPlayer.onTick();
         });
+        // Create a ScheduledExecutorService
+        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+        audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
+
+        new ToastManager(Minecraft.getInstance());
     }
 
     public static void error(String msg) {
