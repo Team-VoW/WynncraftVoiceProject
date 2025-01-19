@@ -1,3 +1,19 @@
+## [1.10.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.4...v1.10.0) (2025-01-19)
+
+
+### Bug Fixes
+
+* Disabled auto progress by default ([806d4cc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/806d4cc6c2d0d2dfd5def71d8344285cd4e474f0))
+
+
+### Miscellaneous Chores
+
+* Added initial audio manifest ([35b4cc9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/35b4cc91a8657ef96606521696b9154cab1ee8d7))
+* Changed the update audio manifest workflow to use the correct audio directory ([323db79](https://github.com/Team-VoW/WynncraftVoiceProject/commit/323db79c5799d511d6caf3e92d26f77d27f5765e))
+* Deleted generate-sounds.yml workflow ([24772d1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/24772d14e38ce1a72aec16f324a8250700cb627a))
+* Deleted old sounds.json file ([4193353](https://github.com/Team-VoW/WynncraftVoiceProject/commit/419335315869aa23783bbef51dcf50485bb9ecd3))
+* Dynamically generate an audio manifest file ([bd9dbdd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/bd9dbdd12f283e89789238d7db9ddbe26b7a9fe7))
+
 ## [1.9.4](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.3...v1.9.4) (2024-12-26)
 
 
@@ -14,6 +30,7 @@
 
 ### Miscellaneous Chores
 
+* **release:** v1.9.4 [skip ci] ([6c38cf4](https://github.com/Team-VoW/WynncraftVoiceProject/commit/6c38cf45d4c663baf8f0e9d2d614ad69023de21e))
 * Removed LibGui from build.gradle ([617eb26](https://github.com/Team-VoW/WynncraftVoiceProject/commit/617eb2668fa8bff1fd2fd9dea21173a51a82effa))
 * Upgraded required fabric_loader_version to 0.16.5 ([cee84e3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cee84e3409298a293c47a39be5ec0f5129dc68d4))
 
