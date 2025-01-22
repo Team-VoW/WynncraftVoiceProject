@@ -64,6 +64,17 @@ public class AudioDownloader {
         gson = new Gson();
     }
 
+    private boolean hasRan = false;
+
+    public void checkIfHasNot() {
+        if (hasRan) {
+            return;
+        }
+
+        hasRan = true;
+        checkToDownload();
+    }
+
     public void checkToDownload() {
         // Ensure the audio folder exists
         audioFolder = new File(audioDir);
@@ -320,6 +331,4 @@ public class AudioDownloader {
             }
         }
     }
-
-    private record AudioMetadata(long size, String hash) {}
 }

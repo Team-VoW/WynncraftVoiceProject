@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.events;
@@ -31,6 +31,7 @@ public class JoinServerEvent {
                         "VOW sends non voiced dialogue lines anonymously to our server so the mod can be improved. This can be disabled in the Mod menu settings.");
                 ModCore.config.setHasShownMissingLineNotification(true);
             }
+            ModCore.instance.audioDownloader.checkIfHasNot();
         }
     }
 }
