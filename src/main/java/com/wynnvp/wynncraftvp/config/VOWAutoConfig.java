@@ -32,6 +32,8 @@ public class VOWAutoConfig implements ConfigData {
     public boolean reportMissingLines = true;
     public boolean anonymous = true;
     public boolean sendFunFact = false;
+
+    public long lastSoundsUpdate = 0L;
     // --------------------------------------------------------------
 
     public int blockCutOff = 32;
