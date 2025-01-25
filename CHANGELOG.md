@@ -1,3 +1,15 @@
+## [1.10.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.0...v1.10.1) (2025-01-25)
+
+
+### New Features
+
+* Update sounds.json file dynamically to automatically support new updates ([84500f8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/84500f8a36efae936ec71ea409ea43975b3f4298))
+
+
+### Bug Fixes
+
+* Run download progress when joining Wynn if the main menu was skipped somehow ([237dd73](https://github.com/Team-VoW/WynncraftVoiceProject/commit/237dd7322a8081be4dd5112eb7f0ceccdbb3abf7))
+
 ## [1.10.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.4...v1.10.0) (2025-01-19)
 
 
@@ -13,6 +25,7 @@
 * Deleted generate-sounds.yml workflow ([24772d1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/24772d14e38ce1a72aec16f324a8250700cb627a))
 * Deleted old sounds.json file ([4193353](https://github.com/Team-VoW/WynncraftVoiceProject/commit/419335315869aa23783bbef51dcf50485bb9ecd3))
 * Dynamically generate an audio manifest file ([bd9dbdd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/bd9dbdd12f283e89789238d7db9ddbe26b7a9fe7))
+* **release:** v1.10.0 [skip ci] ([9de7d76](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9de7d761abe569f057953c690c54d5e591ae3036))
 
 ## [1.9.4](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.3...v1.9.4) (2024-12-26)
 
