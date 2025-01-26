@@ -8,10 +8,11 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.toasts.SystemToast;
 import net.minecraft.client.gui.components.toasts.Toast;
-import net.minecraft.client.gui.components.toasts.ToastComponent;
+import net.minecraft.client.gui.components.toasts.ToastManager;
 import net.minecraft.network.chat.Component;
 
 public class TimedToast implements Toast {
@@ -22,6 +23,7 @@ public class TimedToast implements Toast {
     private boolean finished = false;
     private long lastChanged;
     private final SystemToast systemToast;
+    private Toast.Visibility wantedVisibility = Toast.Visibility.HIDE;
 
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
 
@@ -38,12 +40,9 @@ public class TimedToast implements Toast {
         hide();
 
         // We add a delay to ensure the toast is hidden before executing the action.
-        // If we don't do this the second toast will always be displayed one row bellow
-        // Instead of in the top right
         scheduler.schedule(() -> Minecraft.getInstance().execute(action), 1, TimeUnit.SECONDS);
     }
 
-    // Hide the toast without executing the action
     public void hide() {
         if (finished) return;
         finished = true;
@@ -51,32 +50,39 @@ public class TimedToast implements Toast {
     }
 
     @Override
-    public Toast.Visibility render(GuiGraphics guiGraphics, ToastComponent toastComponent, long timeSinceLastVisible) {
-        if (finished) {
-            return Toast.Visibility.HIDE;
-        }
+    public Toast.Visibility getWantedVisibility() {
+        return this.wantedVisibility;
+    }
 
+    @Override
+    public void update(ToastManager toastManager, long visibilityTime) {
         if (this.lastChanged == 0L) {
-            this.lastChanged = timeSinceLastVisible;
+            this.lastChanged = visibilityTime;
         }
 
         // Calculate remaining time
-        long elapsedTime = (timeSinceLastVisible - this.lastChanged) / 1000L;
+        long elapsedTime = (visibilityTime - this.lastChanged) / 1000L;
         int secondsLeft = durationSeconds - (int) elapsedTime;
 
-        if (secondsLeft <= 0) {
-            // Time's up; execute the action
-            action.run();
-            finished = true;
-            return Toast.Visibility.HIDE;
+        if (secondsLeft <= 0 || finished) {
+            if (!finished && secondsLeft <= 0) {
+                // Time's up; execute the action
+                action.run();
+                finished = true;
+            }
+            this.wantedVisibility = Toast.Visibility.HIDE;
+        } else {
+            this.wantedVisibility = Toast.Visibility.SHOW;
         }
 
         // Update the subtitle with the remaining time
         Component message = Component.literal(this.subtitle.getString() + " Starts in " + secondsLeft + "s");
-
-        // Use SystemToast's render method
         systemToast.reset(this.title, message);
-        return systemToast.render(guiGraphics, toastComponent, timeSinceLastVisible);
+    }
+
+    @Override
+    public void render(GuiGraphics guiGraphics, Font font, long visibilityTime) {
+        systemToast.render(guiGraphics, font, visibilityTime);
     }
 
     @Override

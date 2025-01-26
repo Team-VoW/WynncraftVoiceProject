@@ -30,7 +30,7 @@ public class ToastManager {
 
     public void displayToast(Component title, Component message) {
         Minecraft.getInstance()
-                .getToasts()
+                .getToastManager()
                 .addToast(new SystemToast(new SystemToast.SystemToastId(10000L), title, message));
     }
 
@@ -48,7 +48,7 @@ public class ToastManager {
         }
 
         currentTimedToast = new TimedToast(action, durationSeconds, titleText, subtitleText);
-        client.getToasts().addToast(currentTimedToast);
+        client.getToastManager().addToast(currentTimedToast);
         isListening = true; // Start listening for key presses
     }
 

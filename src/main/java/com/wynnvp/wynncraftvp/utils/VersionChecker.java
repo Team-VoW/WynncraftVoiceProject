@@ -27,6 +27,7 @@ public class VersionChecker {
         String updateVersion = null;
         String directUpdateLink = null;
         String updateInfoPageLink = null;
+        String azureBlobLink = null;
         try {
             fact = jsonObject.get("fact").getAsString();
             killSwitchVersion = jsonObject.get("fabric_killSwitchVersion").getAsString();
@@ -34,12 +35,17 @@ public class VersionChecker {
             updateVersion = jsonObject.get("fabric_updateNotification").getAsString();
             directUpdateLink = jsonObject.get("fabric_directUpdateLink").getAsString();
             updateInfoPageLink = jsonObject.get("fabric_updateInfopageLink").getAsString();
+            azureBlobLink = jsonObject.get("azure_blob_link").getAsString();
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         if (newestVersion == null) {
             return;
+        }
+
+        if (azureBlobLink != null){
+            config.azureBlobLink = azureBlobLink;
         }
 
         // Strip the "v" from the version

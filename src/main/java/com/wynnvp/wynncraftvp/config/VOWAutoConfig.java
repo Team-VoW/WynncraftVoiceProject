@@ -33,6 +33,8 @@ public class VOWAutoConfig implements ConfigData {
     public boolean anonymous = true;
     public boolean sendFunFact = false;
 
+    public String azureBlobLink = "https://voicesofwynn.blob.core.windows.net/audio/sounds/";
+
     public long lastSoundsUpdate = 0L;
     // --------------------------------------------------------------
 

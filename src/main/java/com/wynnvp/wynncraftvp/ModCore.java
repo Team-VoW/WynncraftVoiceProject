@@ -14,8 +14,6 @@ import com.wynnvp.wynncraftvp.sound.downloader.ToastManager;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.text.ChatHandler;
 import java.util.Optional;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
@@ -83,8 +81,6 @@ public class ModCore implements ModInitializer {
             chatHandler.onTick();
             audioPlayer.openAlPlayer.onTick();
         });
-        // Create a ScheduledExecutorService
-        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
 
         new ToastManager(Minecraft.getInstance());
