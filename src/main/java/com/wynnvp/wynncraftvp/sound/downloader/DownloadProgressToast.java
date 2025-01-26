@@ -42,11 +42,11 @@ public class DownloadProgressToast {
         // formattedPercent + "%)");
         Component displayMessage = Component.literal(toastMessage);
 
-        SystemToast.addOrUpdate(client.getToasts(), this.toastId, this.title, displayMessage);
+        SystemToast.addOrUpdate(client.getToastManager(), this.toastId, this.title, displayMessage);
     }
 
     public synchronized void requestFinished() {
-        SystemToast.forceHide(client.getToasts(), this.toastId);
+        SystemToast.forceHide(client.getToastManager(), this.toastId);
     }
 
     /**
