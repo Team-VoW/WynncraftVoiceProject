@@ -5,6 +5,8 @@
 package com.wynnvp.wynncraftvp.sound.player;
 
 import com.wynnvp.wynncraftvp.utils.Utils;
+
+import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -47,6 +49,28 @@ public class OggDecoder {
 
         } catch (IOException e) {
             System.err.println("Error processing audio file: " + filePath);
+            e.printStackTrace();
+        }
+
+        return Optional.empty();
+    }
+
+    public static Optional<AudioData> getAudioData(ByteBuffer audioBuffer) {
+        if (audioBuffer == null || audioBuffer.remaining() == 0) {
+            System.err.println("Invalid or empty audio buffer.");
+            return Optional.empty();
+        }
+
+        try (InputStream inputStream = new ByteArrayInputStream(audioBuffer.array());
+             JOrbisAudioStream audioStream = new JOrbisAudioStream(inputStream)) {
+
+            ByteBuffer decodedBuffer = audioStream.readAll();
+            AudioData audioData = new AudioData(decodedBuffer, audioStream.getFormat());
+
+            return Optional.of(audioData);
+
+        } catch (IOException e) {
+            System.err.println("Error processing audio buffer.");
             e.printStackTrace();
         }
 
