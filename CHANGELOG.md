@@ -1,3 +1,11 @@
+## [1.10.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.1...v1.10.2) (2025-01-26)
+
+
+### New Features
+
+* If any audio is not downloaded yet and it's trying to be played it will be streamed. ([0607ea7](https://github.com/Team-VoW/WynncraftVoiceProject/commit/0607ea7b89883ea18f86a0724097cba1e876b370))
+* Upgraded to Minecraft version 1.21.4 ([0513b93](https://github.com/Team-VoW/WynncraftVoiceProject/commit/0513b93b831187a92606c9df67f423da07721d6b))
+
 ## [1.10.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.0...v1.10.1) (2025-01-25)
 
 
@@ -9,6 +17,11 @@
 ### Bug Fixes
 
 * Run download progress when joining Wynn if the main menu was skipped somehow ([237dd73](https://github.com/Team-VoW/WynncraftVoiceProject/commit/237dd7322a8081be4dd5112eb7f0ceccdbb3abf7))
+
+
+### Miscellaneous Chores
+
+* **release:** v1.10.1 [skip ci] ([a7a4438](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a7a4438353d0354bdcc8c0a4f22f35756425d078))
 
 ## [1.10.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.4...v1.10.0) (2025-01-19)
 
@@ -94,21 +107,4 @@
 
 * Remove the shared resources folder, move the mod sources into the top level folder ([#22](https://github.com/Team-VoW/WynncraftVoiceProject/issues/22)) ([61c3445](https://github.com/Team-VoW/WynncraftVoiceProject/commit/61c344574335cf7217baba1630e5444f2d2947c8))
 * Rewrite the gradle buildscript, update dependencies and populate fabric.mod.json fields automatically ([f747e23](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f747e23784f4a67facbea3c85415b536ea9038a5))
-
-## [1.8.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/ddf7b698b6dd33b458e11a3a50bda34bfa40c765...v1.8.2) (2024-07-07)
-
-
-### New Features
-
-* Port to 1.19.4 ([ddf7b69](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ddf7b698b6dd33b458e11a3a50bda34bfa40c765))
-
-
-### Bug Fixes
-
-* revert accidental change ([ad499fb](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ad499fb2efe80e336d2e466f04088b316ff0fc50))
-
-
-### Reverts
-
-* Revert "Trained a better model and added player" ([3efc4c5](https://github.com/Team-VoW/WynncraftVoiceProject/commit/3efc4c57f38b08d7e9ad8cd05fab9c88b1b3807e))
 
