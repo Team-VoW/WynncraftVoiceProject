@@ -23191,45 +23191,37 @@
     "hash": "f095c17363e329340801a3abdc53f1a7fbc878beffa0ff6d3ebd9a24d44f13f1",
     "size": 58588
   },
-  "kingdomofsand-bandit-1": {
-    "hash": "ce62619c32d3e4df22dd194b4f91bfcb6a9129e8a925b053035c08f6d57df179",
-    "size": 91899
-  },
-  "kingdomofsand-bandit-2": {
-    "hash": "e2c274265e73565114f35f042ca819f190bae8b4b24a63639fc5fa66a9239c91",
-    "size": 59480
-  },
-  "kingdomofsand-banditboss-1": {
-    "hash": "8243a4ad455f0637e0d08a844cc17b26df0296a8c11e2715269514a1c22df1c7",
-    "size": 43513
-  },
-  "kingdomofsand-banditboss-2": {
-    "hash": "1508c8bd1532d2a8d0870b8d397deb59139d7eb5b5e4d2a599a7a6b13abac204",
-    "size": 82136
-  },
-  "kingdomofsand-banditboss-3": {
-    "hash": "9129afa08cc2bb219fba2627810c5c76054f6b78cdbdf6621631cd712a1eeaa9",
-    "size": 83951
-  },
-  "kingdomofsand-banditboss-4": {
-    "hash": "4a7db8749e76eaa9f88b2358217577682f874db6a1337e2d80211f67b6e2afc0",
-    "size": 68502
-  },
-  "kingdomofsand-banditboss-5": {
-    "hash": "0ea1f88d61e1cc638220f8c4ee8d06bda7293d53e968ab2559a45382edfbffac",
-    "size": 66141
-  },
   "kingdomofsand-banditleader-1": {
-    "hash": "f8da49aaf823d4fc5554e8ddc6e2cb6c625b96c7a2572551fa165a1852242f40",
-    "size": 24502
+    "hash": "b43fc4b433e95d8acf232bc36b2b550bc0aa2a1bf04d9b88ecc0d8fa9f1ffb89",
+    "size": 40149
   },
   "kingdomofsand-banditleader-2": {
-    "hash": "a9f8b67e556448489f0002d5431e96363465189b97dc7bf8199900bcb48817e5",
-    "size": 95058
+    "hash": "c9ea45a8478b9d1e2afd8ea5d6a62ee6060db36398189aad6b7e543133030dee",
+    "size": 30789
+  },
+  "kingdomofsand-banditleader-3": {
+    "hash": "6059061703e62e2dbb57e056d738373c5a8aa7e306ff173072445559b62f7561",
+    "size": 37427
+  },
+  "kingdomofsand-banditleader-4": {
+    "hash": "997a95024c21954e192a2993f79db9a2e5f8b2ad5e8a9bc916a0a8f10a0edb65",
+    "size": 112593
+  },
+  "kingdomofsand-banditleader-5": {
+    "hash": "4f37755856e48e527a399aa1079b39c32e251471dd43456ccfc0608a588ed81f",
+    "size": 110781
+  },
+  "kingdomofsand-banditleader-6": {
+    "hash": "d84665fba682b6e7e104efb8a84ae590528600fa6c4d09801bd1b1524ee4ff1d",
+    "size": 27618
+  },
+  "kingdomofsand-banditleader-7": {
+    "hash": "f550efb019563fe29113ac3e3071669c9eb9063e910c5bf289903c563f780d01",
+    "size": 76581
   },
   "kingdomofsand-desertraider-1": {
-    "hash": "816fc8e4fc0c33146b691c4cb891cbef6f8269b334c1a580f6f1bc7a616399f1",
-    "size": 11574
+    "hash": "e60e0b86c23ead64460a1c0d60fbbc723656e63f4fe37cdf6f985d4782c6b9f9",
+    "size": 16451
   },
   "kingdomofsand-geo-1": {
     "hash": "40ff7cf4e7c60d9570c408e05b93b36316d8aceb977ec81e8e3522acd2129364",
@@ -23247,157 +23239,177 @@
     "hash": "bfa4c1dd77670cafbb273d46b576486cdda0c099038cdc6438814ba3c7e20e0a",
     "size": 116734
   },
-  "kingdomofsand-lanu-1": {
-    "hash": "c62d826943c87fbac4b76dd32684906386244e22841476cc234f16dd0d5c64ab",
-    "size": 57752
+  "kingdomofsand-junes-1": {
+    "hash": "36142afc4729911373602e293792903419a2de1774439eb66a12c9964d55161f",
+    "size": 61438
   },
-  "kingdomofsand-lanu-10": {
-    "hash": "52ade92580598c974485266f4ed4487b813c25b9667e31e4194f10a93977266b",
-    "size": 82073
+  "kingdomofsand-junes-10": {
+    "hash": "f599647bdb15e8b824d3682e9277224d2b8db5b0e64944466ba4454101922a80",
+    "size": 85862
   },
-  "kingdomofsand-lanu-11": {
-    "hash": "5d6ddb222d51abfdcc2554652e4f8f633587cc35a9155f7453310fd8a9bb3572",
-    "size": 48550
+  "kingdomofsand-junes-11": {
+    "hash": "c720d01336b593d0c27376b4b664a384a2ba5676f5659d7362979f20610fb3b3",
+    "size": 91005
   },
-  "kingdomofsand-lanu-12": {
-    "hash": "35387d89813d6694807e80f1d4a1e1dd9689f01335a11d853322b68d4206f8d7",
-    "size": 49605
+  "kingdomofsand-junes-12": {
+    "hash": "d5ca92777e89f816ac0631f83dd4b96e1eadb5a579965ab2a911ebc9a1c35126",
+    "size": 89270
   },
-  "kingdomofsand-lanu-13": {
-    "hash": "a2b1b779011d7a51c033f1fb88fac9599c94babbff3a2f47e72e5410ce5e16fb",
-    "size": 19063
+  "kingdomofsand-junes-13": {
+    "hash": "8b9caa788ab88dc6178efd53f25b2c0068ced89fa31c700184baf914b796960e",
+    "size": 156554
   },
-  "kingdomofsand-lanu-14": {
-    "hash": "71a3dfeadba634e38a5e8532cd64000c0d269b6d0ac8f5de9d2372dedf925a53",
-    "size": 32960
+  "kingdomofsand-junes-14": {
+    "hash": "3cc6e8b9aadada893d2ed1e63432f5adc7263d893b0156fb9da1a47e24c1d5a2",
+    "size": 100322
   },
-  "kingdomofsand-lanu-15": {
-    "hash": "654fa8abf863678281c81b6e8e66c82a5d45d9e67da6e97977c7a90501c53209",
-    "size": 12726
+  "kingdomofsand-junes-15": {
+    "hash": "d5013ace32a17bb6e27af36cc214bceac8a6b80721f241880be2f27bb0778616",
+    "size": 85220
   },
-  "kingdomofsand-lanu-16": {
-    "hash": "e6b9b39b29f444cacfa28801d418c0636f08a1137c4b3e02d94bf300a9c9551e",
-    "size": 55346
+  "kingdomofsand-junes-16": {
+    "hash": "7c13e90495d449d01bda853d99c294d8c8f5510e735f7feb174679343de55597",
+    "size": 97967
   },
-  "kingdomofsand-lanu-17": {
-    "hash": "ee93e0bd787257eef9f4aa7d56ef7175e842e4918283340777409607687e8ade",
-    "size": 44938
+  "kingdomofsand-junes-17": {
+    "hash": "fd4c64764f5f615fd251037cedff7a7630ee67a88d7229781559c7cd9cf95535",
+    "size": 123068
   },
-  "kingdomofsand-lanu-18": {
-    "hash": "894eba030a50af51ddbb759df45ba1f96d4917eee5ee12ff773ab8c3af8cf03e",
-    "size": 56213
+  "kingdomofsand-junes-18": {
+    "hash": "b48fc336d7a68866825ef57b79d7a31b40d70269dd2dbb25bfa2dc59ec3e038c",
+    "size": 92978
   },
-  "kingdomofsand-lanu-19": {
-    "hash": "e4518a3bf062ac46e0d80118c98ad71c1a871733e4b844a06ecf36013bbadec5",
-    "size": 65561
+  "kingdomofsand-junes-19": {
+    "hash": "70baf249f8cc1944c5e5b11b1a05430a493a0c51132f6899c5a009a4bb4f070c",
+    "size": 100157
   },
-  "kingdomofsand-lanu-2": {
-    "hash": "cc4cdb42cb058ebedeb1d4b8c8508f13a61f4256023a8129cc9a0dc7da7fce68",
-    "size": 50799
+  "kingdomofsand-junes-2": {
+    "hash": "624a8f55a36f1b4384af528cd7c91a8b5c6fb5535351575ddb1850c8021c0666",
+    "size": 118083
   },
-  "kingdomofsand-lanu-20": {
-    "hash": "087ffe88640f31f1467c42e292d550bbb1fa4c1c36f33224d6b66c330473d83b",
-    "size": 27481
+  "kingdomofsand-junes-20": {
+    "hash": "c584f8823a8ce615a511789765df643dd600a6fedfd28956703a56b867f8b1a0",
+    "size": 116165
   },
-  "kingdomofsand-lanu-21": {
-    "hash": "e7e3881671b36e10109d09bf0892b021d8c41f9d2714ce623b192ba2fe01fd6e",
-    "size": 70238
+  "kingdomofsand-junes-3": {
+    "hash": "fa9a8776eab9c85e68fd77faf23d682f9a3c5e22956df151959f5dd9d04bd1e0",
+    "size": 69235
   },
-  "kingdomofsand-lanu-3": {
-    "hash": "34691900c5610abfd222079e0b795c3586916c6e0e16a6a6f9f722d6d4ed9eed",
-    "size": 39922
+  "kingdomofsand-junes-4": {
+    "hash": "413d37cc0627ec4db9fe1526d1e6befd2c3469b2ad9cacd2145b8b85103a206f",
+    "size": 72773
   },
-  "kingdomofsand-lanu-4": {
-    "hash": "6bc4ebee05e4c8e7664525119da71a46f7b019dcc286477ad204e1dbc1c0a6bf",
-    "size": 52248
+  "kingdomofsand-junes-5": {
+    "hash": "9bde6186351ccad1c658c67e22a49892f310948a742776f2be1dc38a7e870c6c",
+    "size": 100410
   },
-  "kingdomofsand-lanu-5": {
-    "hash": "ff5f1e7c5109aff706b5ef3bf5f65d45b9d35fde90502625c46d011b21d9d157",
-    "size": 70716
+  "kingdomofsand-junes-6": {
+    "hash": "ff05aea7e0b3df8f5d26a7442408d4fab04763ab82da8adf01cc46c566d64b22",
+    "size": 131663
   },
-  "kingdomofsand-lanu-6": {
-    "hash": "dae436f9ab550ded976826836617235b94b67413f0275923e84dc4464db61398",
-    "size": 53796
+  "kingdomofsand-junes-7": {
+    "hash": "292895192cb077b3dd1ac56313524af71c881b915af6639ddfa31765b0992de0",
+    "size": 148386
   },
-  "kingdomofsand-lanu-7": {
-    "hash": "ef2c2783fdc48f4047231edc7a35643aec69ed19efc4905f5792d98491765e24",
-    "size": 63129
+  "kingdomofsand-junes-8": {
+    "hash": "52df357e0a81c1117f9a062e17ac4dd36366d69241d37e66162d4355f0e692e3",
+    "size": 70441
   },
-  "kingdomofsand-lanu-8": {
-    "hash": "16d8b4f4eb05507b9344f0f9029df12d8390cf86ac499564c2986abaffd4802f",
-    "size": 69120
+  "kingdomofsand-junes-9": {
+    "hash": "6d10ea79fc67a760bb18223e7e6d4d6236d956416817278f952ad82161442758",
+    "size": 54429
   },
-  "kingdomofsand-lanu-9": {
-    "hash": "6e950aba0a5612a2f2768ea1d3773cb3928b4443c220158c471067f144ece018",
-    "size": 62742
+  "kingdomofsand-mansionguard-1": {
+    "hash": "f2a2f6f6d12c34e604defdacd5a5e3b32a73f2f888e6f1f8605069cbb049f640",
+    "size": 15631
+  },
+  "kingdomofsand-mansionguard-2": {
+    "hash": "e5a333226fc5e0ac99a28355e26493b3d2189a266e2a2de9d82937a45875291e",
+    "size": 61878
   },
   "kingdomofsand-tarek-1": {
-    "hash": "2b6db9cbc812f7dcc85162135c8fccda59bae96e08051326ede392c60cdf163c",
-    "size": 55650
+    "hash": "ceb14659dfefca727aea869a9e78f3b53361fc3c86fb0d1fe88c940f925bda8f",
+    "size": 57987
   },
   "kingdomofsand-tarek-10": {
-    "hash": "e1165da0ebd7cd9df36ebe0cdbb09e59d70bfdcf781db6e44a8fc522e95562e6",
-    "size": 72502
+    "hash": "2381baddce76f810f350892ae95936749e9a42269a70da8719e73a49cdfa0e52",
+    "size": 62146
   },
   "kingdomofsand-tarek-11": {
-    "hash": "aedf63ece538fac7b7fe9bd13970c295d83737ad1d760d8489ed68220bb9e528",
-    "size": 15670
+    "hash": "445d3d03e6077f35735151530d39be7347e0d3b6adc1df2d3b7c338ea958c506",
+    "size": 55435
+  },
+  "kingdomofsand-tarek-12": {
+    "hash": "ec4e484d1db0b8f38cef829856260043be1dba28b11645261605ef23992e49bc",
+    "size": 28674
+  },
+  "kingdomofsand-tarek-13": {
+    "hash": "608ace50c8796b56c5686fbedf8a12f05573a4d1fbde77865228967442cb5566",
+    "size": 15708
   },
   "kingdomofsand-tarek-2": {
-    "hash": "8758bea134f464e253b2753c526194e15ee508810db519cf75a55373ff5373c6",
-    "size": 43938
+    "hash": "7a4a7b39deec3bf60a8d123920a65395b9aa17a6c3d54585219048767d7796e7",
+    "size": 38569
   },
   "kingdomofsand-tarek-3": {
-    "hash": "14371997b294df82dcab44610552f7e3ba3c4725ef664b527b1ce841064f1b70",
-    "size": 72466
+    "hash": "2ef2a065d6d2a64d859074a6833325e26913a214ea089928cc651447b0bcff80",
+    "size": 77017
   },
   "kingdomofsand-tarek-4": {
-    "hash": "ee4f509836bec41ad210b597633c90fc495cb3e1909e33ab0345c047f9d7893c",
-    "size": 53961
+    "hash": "c59ed919052a9934a4280ba9ac41602e29471c86eb35321656743064deb3eabc",
+    "size": 58289
   },
   "kingdomofsand-tarek-5": {
-    "hash": "8998349dfddbabd1ae0d7a11eab7700d5bd56e349c1dcce4f19bd84e9a581c7f",
-    "size": 90029
+    "hash": "fe763cdff7c5056f6eaf0dd9405bd6d82fc923e018d1435e559e3459c23f91c1",
+    "size": 70375
   },
   "kingdomofsand-tarek-6": {
-    "hash": "8f47beb55d30d0f9151dc1db4bd03afed650c3033f2c25ff77f6668ed56a87d5",
-    "size": 79599
+    "hash": "3fe45410d7314c8e73cefe04b3413cf9009bd8356a6f6b09511ba492fc33822d",
+    "size": 62687
   },
   "kingdomofsand-tarek-7": {
-    "hash": "4f15058e953a0adf94fafba3e0f72a6169328fecc4801dcf5a4311858237994e",
-    "size": 95727
+    "hash": "8a2c9fd7390095e82c4f479080e72ba4b979c1cd6ac36fd99c5279e52cd4eeaf",
+    "size": 99046
   },
   "kingdomofsand-tarek-8": {
-    "hash": "ff6a4d55c8f5b1af07126f8e0f29631ec59b569b0d9f4844977659fed6a2edd1",
-    "size": 40280
+    "hash": "d846019344f4da3567328be798cbb100fc04db5fddf0f20562f65b571c6a4df8",
+    "size": 82726
   },
   "kingdomofsand-tarek-9": {
-    "hash": "8e848942125555706364c1a69455f77bd26b725681278bc0b7850b15910bb7a6",
-    "size": 58445
+    "hash": "bab90d6c089a8c096c39c88f7a193f403e5592ae43a57a5342d4c1be257f44d3",
+    "size": 34334
   },
   "kingdomofsand-vaultguard-1": {
-    "hash": "7dbb8a6da31f8d56ddbad79a3f4fe391bc4409bab7da05d8d0a182c1340dc6bf",
-    "size": 24675
+    "hash": "55351169d85537ab2c1046ede3d1af9570b3f4bde74226d608838c37ac08b8e5",
+    "size": 37270
   },
   "kingdomofsand-vaultguard-2": {
-    "hash": "a59b274c8b312355828594adae45212692bd4f07546543af1b7ff269a866f98b",
-    "size": 36810
+    "hash": "fdbf68188ff00b786425efa132b7f1a9697f9515cf48a03711782604ab727126",
+    "size": 63102
   },
   "kingdomofsand-vaultguard-3": {
-    "hash": "4e012018cdde3a2bc37934ad61afd2213b47261194b87d380d4c12a9f5d45b96",
-    "size": 29060
+    "hash": "87cfd36ac2f2391953a7bf92d0b91ada96565ffdc0d0057062c41eb1aa634b9b",
+    "size": 44518
   },
   "kingdomofsand-vaultguard-4": {
-    "hash": "079f73a684a1235e9216a3ed59b52d842863316336c71a24e9fba97105d55dc7",
-    "size": 52230
+    "hash": "5cf6e7b9b40b512b3516992d8779753e1affbd116dc00f150a1aeb9e3fecd37c",
+    "size": 78543
   },
   "kingdomofsand-vaultguard-5": {
-    "hash": "a49761d19766e52c62987e0ed67a704b54c7d398bc7f23754db2bdc8179b77aa",
-    "size": 11715
+    "hash": "eb46ac36f6ee7b13a501bf181703c7cd52f47b0cb8b2bc309424b14a334a55c8",
+    "size": 16653
   },
   "kingdomofsand-vaultguard-6": {
-    "hash": "cd1c7f01270143a83d6965f619d985e53f999ad22f3ad4c1a363a57c4e88b2c2",
-    "size": 66651
+    "hash": "d82bc30bd02aa50063c31b214b914d841eb051b6f69e7bc9a3ccfab3b62ad6c5",
+    "size": 128161
+  },
+  "kingdomofsand-vaultguard-7": {
+    "hash": "d6f2efe06c48a943add8f2fc3c3df24e1b4c666c05a810084fe5863d4c19b369",
+    "size": 24388
+  },
+  "kingdomofsand-vaultguard-8": {
+    "hash": "fd9e3620c5ca95a7e7798bb7aeff1f3f24d547e117e3569ad21456f05c531ea6",
+    "size": 80311
   },
   "kingsrecruit-aledar-1": {
     "hash": "cdd963aa0abab48ac6fc0d4501c0f6779e3eec3a8c41115dac4471b7828391d2",
