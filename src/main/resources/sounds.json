@@ -32237,38 +32237,6 @@
     "file": "desperatemetal-nettik-8"
   },
   {
-    "line": "[1/2] Steam Mech-DM1: Evasive maneuver inefficient.",
-    "file": "desperatemetal-steammechdm1-1"
-  },
-  {
-    "line": "[2/2] Steam Mech-DM1: Request additional orders from L.H. Defend.",
-    "file": "desperatemetal-steammechdm1-2"
-  },
-  {
-    "line": "[1/2] Fiery Mech-DM2: Tools acquired, deliviered to L.H. Additional orders received.",
-    "file": "desperatemetal-fierymechdm2-1"
-  },
-  {
-    "line": "[2/2] Fiery Mech-DM2: Intruder detected. Camouflage ineffective. Defend.",
-    "file": "desperatemetal-fierymechdm2-2"
-  },
-  {
-    "line": "[1/2] Intelligence Mech-DM3: Strategic mission accomplished. Mechanical parts: procured.",
-    "file": "desperatemetal-intelligencemechdm3-1"
-  },
-  {
-    "line": "[2/2] Intelligence Mech-DM3: L.H. can continue to produce effectively.",
-    "file": "desperatemetal-intelligencemechdm3-2"
-  },
-  {
-    "line": "[1/2] Big boss Mech-DM666: I was made to be angry. I can't stop myself...",
-    "file": "desperatemetal-bigbossmechdm666-1"
-  },
-  {
-    "line": "[2/2] Big boss Mech-DM666: Prepare for destruc...I-LOVE-CATS ahelp.",
-    "file": "desperatemetal-bigbossmechdm666-2"
-  },
-  {
     "line": "[1/5] ???: Stranger detected. Security system: activated.",
     "file": "desperatemetal-security-1",
     "onPlayer": true
@@ -32293,6 +32261,47 @@
     "file": "desperatemetal-security-5",
     "onPlayer": true
   },
+  {
+    "line": "[1/2] Steam Mech-DM1: Evasive maneuver inefficient.",
+    "file": "desperatemetal-steammechdm1-1",
+    "fallOff": 999
+  },
+  {
+    "line": "[2/2] Steam Mech-DM1: Request additional orders from L.H. Defend.",
+    "file": "desperatemetal-steammechdm1-2",
+    "fallOff": 999
+  },
+  {
+    "line": "[1/2] Fiery Mech-DM2: Tools acquired, deliviered to L.H. Additional orders received.",
+    "file": "desperatemetal-fierymechdm2-1",
+    "fallOff": 999
+  },
+  {
+    "line": "[2/2] Fiery Mech-DM2: Intruder detected. Camouflage ineffective. Defend.",
+    "file": "desperatemetal-fierymechdm2-2",
+    "fallOff": 999
+  },
+  {
+    "line": "[1/2] Intelligence Mech-DM3: Strategic mission accomplished. Mechanical parts: procured.",
+    "file": "desperatemetal-intelligencemechdm3-1",
+    "fallOff": 999
+  },
+  {
+    "line": "[2/2] Intelligence Mech-DM3: L.H. can continue to produce effectively.",
+    "file": "desperatemetal-intelligencemechdm3-2",
+    "fallOff": 999
+  },
+  {
+    "line": "[1/2] Big boss Mech-DM666: I was made to be angry. I can't stop myself...",
+    "file": "desperatemetal-bigbossmechdm666-1",
+    "fallOff": 999
+  },
+  {
+    "line": "[2/2] Big boss Mech-DM666: Prepare for destruc...§kI-LOVE-CATS ahelp.",
+    "file": "desperatemetal-bigbossmechdm666-2",
+    "fallOff": 999
+  },
+
   {
     "line": "[1/2] Ranol: Yep, that's all of 'em. All my cows accounted for, not one missing. Huh? Watchu looking at, city dweller?",
     "file": "cowfusion-ranol-1"
