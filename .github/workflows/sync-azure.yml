@@ -3,8 +3,7 @@ on:
   push:
     paths:
       - "sounds/**"
-  workflow_dispatch:  # Add this line to enable manual triggering
-
+  workflow_dispatch:
 jobs:
   sync-to-blob:
     runs-on: ubuntu-latest
@@ -13,4 +12,4 @@ jobs:
       uses: actions/checkout@v3
     - name: Upload sounds folder to Azure Blob Storage
       run: |
-        azcopy copy './sounds/*' '${{ secrets.AZURE_STORAGE_URL }}/audio/sounds' --recursive
+        azcopy copy './sounds/*' '${{ secrets.AZURE_STORAGE_URL }}' --recursive
