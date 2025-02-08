@@ -1,0 +1,14 @@
+name: Sync Sounds Folder to Azure Blob Storage
+on:
+  push:
+    paths:
+      - "sounds/**"
+jobs:
+  sync-to-blob:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Upload sounds folder to Azure Blob Storage
+      run: |
+        azcopy copy './sounds/*' '${{ secrets.AZURE_STORAGE_URL }}/audio/sounds' --recursive
