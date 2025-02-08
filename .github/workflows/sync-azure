@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - "sounds/**"
+  workflow_dispatch:  # Add this line to enable manual triggering
+
 jobs:
   sync-to-blob:
     runs-on: ubuntu-latest
