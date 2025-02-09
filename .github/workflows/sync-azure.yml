@@ -12,4 +12,6 @@ jobs:
       uses: actions/checkout@v3
     - name: Upload sounds folder to Azure Blob Storage
       run: |
-        azcopy copy './sounds/*' 'https://voicesofwynn.blob.core.windows.net/audio/test' --recursive --account-key ${{ secrets.AZURE_STORAGE_TOKEN }}
+        azcopy copy './sounds/*' '${{ secrets.AZURE_STORAGE_URL }}' --recursive
+
+        
