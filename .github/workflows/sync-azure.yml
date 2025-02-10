@@ -10,8 +10,15 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-    - name: Upload sounds folder to Azure Blob Storage
+      
+    - name: Identify changed files
+      id: changed-files
       run: |
-        azcopy copy './sounds' '${{ secrets.AZURE_STORAGE_URL }}' --recursive
+        echo "CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD -- sounds/)" >> $GITHUB_ENV
 
-        
+    - name: Upload changed files to Azure Blob Storage
+      if: env.CHANGED_FILES != ''
+      run: |
+        for file in $CHANGED_FILES; do
+          azcopy copy "$file" "${{ secrets.AZURE_STORAGE_URL }}/$file"
+        done
