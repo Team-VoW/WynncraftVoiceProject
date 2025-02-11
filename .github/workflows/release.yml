@@ -177,7 +177,7 @@ jobs:
           changelog: ${{ needs.changelog.outputs.changelog }}
           loaders: |
             ${{ matrix.modloader }}
-          dependencies: [ ]
+          dependencies: '[{"id":"cloth-config","version":"*","required":true},{"id":"modmenu","version":"*","required":false}]'
           files: |
             **/build/libs/*-${{ matrix.modloader }}*.jar
           game-versions: 1.21.4
