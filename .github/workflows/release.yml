@@ -123,7 +123,7 @@ jobs:
           embed-timestamp: ${{ steps.date.outputs.long }}
 
   release-external:
-    name: Release to CurseForge
+    name: Release to Modrinth and CurseForge
     if: ${{ needs.changelog.outputs.skipped != 'true' }}
     strategy:
       matrix:
@@ -138,6 +138,12 @@ jobs:
 
       - uses: Kir-Antipov/mc-publish@v3.3.0
         with:
+
+          modrinth-id: Hn8Ot3qH
+          modrinth-featured: true
+          modrinth-unfeature-mode: subset
+          modrinth-token: ${{ secrets.MODRINTH_API_TOKEN }}
+
           curseforge-id: 857921
           curseforge-token: ${{ secrets.CF_API_TOKEN }}
 
@@ -151,34 +157,3 @@ jobs:
 
           loaders: ${{ matrix.modloader }}
           java: 21
-
-  release-modrinth:
-    name: Release to Modrinth
-    if: ${{ needs.changelog.outputs.skipped != 'true' }}
-    strategy:
-      matrix:
-        modloader: [ fabric ]
-    runs-on: ubuntu-latest
-    needs: [ build, changelog ]
-    steps:
-      - name: Download build
-        uses: actions/download-artifact@v4
-        with:
-          name: build
-
-      - name: Publish to Modrinth
-        uses: modrinth/modrinth-publish@v2
-        with:
-          token: ${{ secrets.MODRINTH_API_TOKEN }}
-          project-id: Hn8Ot3qH
-          version-number: ${{ needs.changelog.outputs.tag }}
-          version-name: Voices of Wynn (${{ matrix.modloader }}) ${{ needs.changelog.outputs.tag }}
-          version-type: release
-          changelog: ${{ needs.changelog.outputs.changelog }}
-          loaders: |
-            ${{ matrix.modloader }}
-          dependencies: [ ]
-          files: |
-            **/build/libs/*-${{ matrix.modloader }}*.jar
-          game-versions: 1.21.4
-
