@@ -24,6 +24,7 @@ public class SneakPacketMixin {
             return;
         }
         ReceiveChatEvent.resetCooldowns();
-        ModCore.instance.audioPlayer.autoProgress.cancelShift();
+        if (ModCore.instance.audioPlayer != null)
+            ModCore.instance.audioPlayer.autoProgress.cancelShift();
     }
 }
