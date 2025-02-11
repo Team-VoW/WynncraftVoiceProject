@@ -93,7 +93,7 @@ public class AudioDownloader {
     private void processAudioManifest() {
         try {
             // Fetch the manifest
-            remoteMetadata = fetchAudioManifest();
+            remoteMetadata =    fetchAudioManifest();
             if (remoteMetadata == null) {
                 LOGGER.error("Failed to fetch audio manifest on first attempt. Retrying in 20 seconds...");
                 Thread.sleep(10000); // Wait for 10 sec
@@ -166,6 +166,9 @@ public class AudioDownloader {
             }
             LOGGER.info("Failed to download " + failedToDownload.size() + "("
                     + (failedToDownload.size() * 100 / toDownload.size()) + "%");
+            failedToDownload.forEach(fail -> {
+                LOGGER.info("Failed: "  + fail);
+            });
 
             currentRun++;
             if (currentRun >= maxRuns) {

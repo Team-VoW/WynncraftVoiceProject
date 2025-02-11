@@ -7313,44 +7313,40 @@
     "file": "meaningfulholiday-nick-56"
   },
   {
-    "line": "[1/3] ???: Hmm.. No dice. Let me try another.",
-    "file": "kingdomofsand-lanu-1"
+    "line": "[1/8] Junes: A Ragni soldier! I imagine you're here to investigate the tomb up the hill?",
+    "file": "kingdomofsand-junes-1"
   },
   {
-    "line": "[2/3] ???: ?? ????????? ???? ??? ???????? ????, ????? ??? ??????? ???? ????? ???? ?????",
-    "file": "kingdomofsand-lanu-2"
+    "line": "[2/8] Junes: It's believed to house the remains of Prince Hashr, the son of the old Desert Emperor, but it's far too dangerous for me to explore personally.",
+    "file": "kingdomofsand-junes-2"
   },
   {
-    "line": "[3/3] ???: Ugh. I guess the legend is true about the sceptre.",
-    "file": "kingdomofsand-lanu-3"
+    "line": "[3/8] Junes: Instead I've been looking into a related legend - the Emperor's Sceptre.",
+    "file": "kingdomofsand-junes-3"
   },
   {
-    "line": "[1/7] Lanu: Ah, a Ragni Soldier. I didn’t think you had much to do out here in the desert?",
-    "file": "kingdomofsand-lanu-4"
+    "line": "[4/8] Junes: It was the source of his power, and potentially one of the most important artifacts in history.",
+    "file": "kingdomofsand-junes-4"
   },
   {
-    "line": "[2/7] Lanu: I'm out here trying to get into the emperor's tomb. Although I'm realising I can't without his sceptre.",
-    "file": "kingdomofsand-lanu-5"
+    "line": "[5/8] Junes: When the Emperor was slain by his son, Hashr, it is said that the sceptre was lost amongst the raging sandstorm that followed.",
+    "file": "kingdomofsand-junes-5"
   },
   {
-    "line": "[3/7] Lanu: Way before the portal came about, there was a massive empire laid across this land.",
-    "file": "kingdomofsand-lanu-6"
+    "line": "[6/8] Junes: ... Until now. I believe I've managed to trace its possession to a nearby group of bandits. They probably have no idea what they're sitting on.",
+    "file": "kingdomofsand-junes-6"
   },
   {
-    "line": "[4/7] Lanu: A powerful emperor ruled with a mystical weapon. When he died, the empire fell beneath the sand.",
-    "file": "kingdomofsand-lanu-7"
+    "line": "[7/8] Junes: I'm not prepared to confront them myself, but... this artifact belongs in a museum, in the hands of careful and respectful researchers.",
+    "file": "kingdomofsand-junes-7"
   },
   {
-    "line": "[5/7] Lanu: Untold treasures are inside the emperor's tomb. But without his weapon, there is no hope of entering.",
-    "file": "kingdomofsand-lanu-8"
+    "line": "[8/8] Junes: I would be in your debt if you could try to retrieve it, for the sake of history.",
+    "file": "kingdomofsand-junes-8"
   },
   {
-    "line": "[6/7] Lanu:  It's long been rumoured that bandits have the sceptre. They probably have no idea what it is.",
-    "file": "kingdomofsand-lanu-9"
-  },
-  {
-    "line": "[7/7] Lanu: If you could get it, we could enter the dungeon and seek out the emperor for ourselves. The bandit's base is at the start of the mesa, up the hill.",
-    "file": "kingdomofsand-lanu-10"
+    "line": "[1/1] Junes: Have you made any progress with the sceptre? I can't wait to see it.",
+    "file": "kingdomofsand-junes-9"
   },
   {
     "line": "[1/4] Vault Guard: What, wanna enter the hideout?",
@@ -7369,156 +7365,188 @@
     "file": "kingdomofsand-vaultguard-4"
   },
   {
-    "line": "[1/4] Tarek: Now would you look at that... Even soldiers think they can waltz in ere.",
+    "line": "[1/4] Tarek: Now would you look at that... Even soldiers think they can waltz in ere. [PLAYED]",
     "file": "kingdomofsand-tarek-1"
   },
   {
-    "line": "[2/4] Geo: Having fun thinking of a password? Sorry to spoil your lunch, but there isn’t one!",
+    "line": "[2/4] Geo: Having fun thinking of a password? Sorry to spoil your lunch, but there isn’t one! [PLAYED]",
     "file": "kingdomofsand-geo-1"
   },
   {
-    "line": "[3/4] Geo: We could use a few more officials on the roster.",
+    "line": "[3/4] Geo: We could use a few more officials on the roster. [PLAYED]",
     "file": "kingdomofsand-geo-2"
   },
   {
-    "line": "[4/4] Tarek: If yer are on the liberal side of the law, talk to us outside.",
+    "line": "[4/4] Tarek: If yer are on the liberal side of the law, talk to us outside. [PLAYED]",
     "file": "kingdomofsand-tarek-2"
   },
   {
-    "line": "[1/7] Tarek: Looks like yer in. Look, there ain't a password cause we're meant to be the best thieves in the land, right?",
+    "line": "[1/7] Tarek: Looks like yer in. Look, there ain't a password cause we're meant to be the best thieves in the land, right? [PLAYED]",
     "file": "kingdomofsand-tarek-3"
   },
   {
-    "line": "[2/7] Tarek: So what good are words? Yer gotta give the guard somethin' stolen, aintcha!",
+    "line": "[2/7] Tarek: So what good are words? Yer gotta give the guard somethin' stolen, aintcha! [PLAYED]",
     "file": "kingdomofsand-tarek-4"
   },
   {
-    "line": "[3/7] Geo: And we just so happen to have the opportunity of a lifetime for you. Rymek has gone soft see, a new Mayor is cleaning things up.",
+    "line": "[3/7] Geo: And we just so happen to have the opportunity of a lifetime for you. Rymek has gone soft see, a new Mayor is cleaning things up. [PLAYED]",
     "file": "kingdomofsand-geo-3"
   },
   {
-    "line": "[4/7] Tarek: Well, we can't have government not under our control. Rymek will always be bandit capital.",
+    "line": "[4/7] Tarek: Well, we can't have government not under our control. Rymek will always be bandit capital. [PLAYED]",
     "file": "kingdomofsand-tarek-5"
   },
   {
-    "line": "[5/7] Geo: So how about we give him a taste of his own medicine, and get hold of that journal he keeps? I’m sure that’ll dig up some dirt on him.",
+    "line": "[5/7] Geo: So how about we give him a taste of his own medicine, and get hold of that journal he keeps? I’m sure that’ll dig up some dirt on him. [PLAYED]",
     "file": "kingdomofsand-geo-4"
   },
   {
-    "line": "[6/7] Tarek: And by \"we\", we mean you. You'll have to sneak through the mansion and avoid guards.",
+    "line": "[6/7] Tarek: And by \"we\", we mean you. You'll have to sneak through the mansion and avoid guards. [PLAYED]",
     "file": "kingdomofsand-tarek-6"
   },
   {
-    "line": "[7/7] Tarek: He keeps his journal in the highest room. Might need to distract some guards too. It's the biggest mansion in Rymek, can't miss it.",
+    "line": "[7/7] Tarek: He keeps his journal in the highest room. Might need to distract some guards too. It's the biggest mansion in Rymek, can't miss it. [PLAYED]",
     "file": "kingdomofsand-tarek-7"
   },
   {
-    "line": "[1/3] Tarek: Yer know you could get kicked out of the army fer this.",
+    "line": "[1/1] Tarek: Oi! Remember, yer need to nab that journal from the big mansion in Rymek, if yer want to get in with us.",
     "file": "kingdomofsand-tarek-8"
   },
   {
-    "line": "[2/3] Tarek: Heh, guess yer the real thing. Hop in, lets get out of ‘ere.",
+    "line": "[1/1] Mansion Guard: Out with yer!",
+    "file": "kingdomofsand-mansionguard-1"
+  },
+  {
+    "line": "[1/1] Mansion Guard: Arh, there's the thief I saw a-sneakin' round the Mansion! Get them!",
+    "file": "kingdomofsand-mansionguard-2"
+  },
+  {
+    "line": "[1/3] Tarek: Yer know you could get kicked out of the army fer this. [PLAYED]",
     "file": "kingdomofsand-tarek-9"
   },
   {
-    "line": "[3/3] Tarek: That journal is more valuable than any gem, you'll be able to get in fer sure.",
+    "line": "[2/3] Tarek: Heh, guess yer the real thing. Hop in, lets get out of 'ere.",
     "file": "kingdomofsand-tarek-10"
   },
   {
-    "line": "[1/1] Tarek: Off we go!",
+    "line": "[3/3] Tarek: That journal is more valuable than any gem, you'll be able to get in fer sure. [PLAYED]",
     "file": "kingdomofsand-tarek-11"
   },
   {
-    "line": "[1/2] Vault Guard: Password?",
+    "line": "[1/1] Tarek: What yer waiting for, get in here!",
+    "file": "kingdomofsand-tarek-12"
+  },
+  {
+    "line": "[1/1] Tarek: Off we go! [PLAYED]",
+    "file": "kingdomofsand-tarek-13"
+  },
+  {
+    "line": "[1/2] Vault Guard: Password? [PLAYED]",
     "file": "kingdomofsand-vaultguard-5"
   },
   {
-    "line": "[2/2] Vault Guard: Oh, this is quite the password, Ragni man. I think this will do nicely, on you go.",
+    "line": "[2/2] Vault Guard: Oh, this is quite the password, \"soldier\" . I think this will do nicely, on you go.",
     "file": "kingdomofsand-vaultguard-6"
   },
   {
-    "line": "[1/7] Bandit Boss: There was another mage at the ancient tomb today boys.",
-    "file": "kingdomofsand-banditboss-1"
-  },
-  {
-    "line": "[2/7] Bandit: Well she ain’t got the sceptre does she? She can’t do much harm. Wait why dun we use the sceptre boss?",
-    "file": "kingdomofsand-bandit-1"
-  },
-  {
-    "line": "[3/7] Bandit Boss: Because the Creden Tibus is more than just a group of criminals. We are honour bound to protect these sands.",
-    "file": "kingdomofsand-banditboss-2"
-  },
-  {
-    "line": "[4/7] Bandit Boss: The empire that fell beneath these sands could be revived if that sceptre made it back to the emperor.",
-    "file": "kingdomofsand-banditboss-3"
-  },
-  {
-    "line": "[5/7] Bandit: Good job no one will think of searching that broken cart near the river ey boss?",
-    "file": "kingdomofsand-bandit-2"
-  },
-  {
-    "line": "[6/7] Bandit Boss: Silence you fool. Didn’t I just say it was imperative no one found the sceptre?",
-    "file": "kingdomofsand-banditboss-4"
-  },
-  {
-    "line": "[7/7] Bandit Boss: Right, go steal some things or something, I have real work to do.",
-    "file": "kingdomofsand-banditboss-5"
-  },
-  {
-    "line": "[1/3] Bandit Leader: I knew someone was listening.",
+    "line": "[1/9] Bandit Leader: Right, then, you lot. Give me your reports.",
     "file": "kingdomofsand-banditleader-1"
   },
   {
-    "line": "[2/3] Bandit Leader: We might be bandits, but we’re not stupid. That sceptre is left better off alone.",
+    "line": "[2/9] Bandit: Gold relieved from Mesa travellers last week counted just over 173 bars.",
+    "file": "kingdomofsand-bandit1-1"
+  },
+  {
+    "line": "[3/9] Bandit Leader: Good, good. And?",
     "file": "kingdomofsand-banditleader-2"
   },
   {
-    "line": "[3/3] Desert Raider: Seize ‘em!",
+    "line": "[4/9] Bandit: We're working on exposing that blasted Rymek Mayor with a stolen journal. Rymek should be back under Creden Tibus control within the week.",
+    "file": "kingdomofsand-bandit2-1"
+  },
+  {
+    "line": "[5/9] Bandit Leader: Fine work. Anything else?",
+    "file": "kingdomofsand-banditleader-3"
+  },
+  {
+    "line": "[6/9] Bandit: Well... someone's been hanging around the old tomb. An archaeologist, looks like. I reckon she's lookin' for the sceptre.",
+    "file": "kingdomofsand-bandit2-2"
+  },
+  {
+    "line": "[7/9] Bandit Leader: Ah... that sceptre's too valuable for us to lose. Maybe we pay 'er a visit, persaude her to... stop lookin'.",
+    "file": "kingdomofsand-banditleader-4"
+  },
+  {
+    "line": "[8/9] Bandit: Right you are, boss. Good thing no one will think to look for it in that broken cart by the river, ey?!",
+    "file": "kingdomofsand-bandit1-2"
+  },
+  {
+    "line": "[9/9] Bandit Leader: Shut it, you fool! What did I just say? Anyway, I'll decide what to do with this archaeologist. Dismissed!",
+    "file": "kingdomofsand-banditleader-5"
+  },
+  {
+    "line": "[1/3] Bandit Leader: I knew someone was listening. [PLAYED]",
+    "file": "kingdomofsand-banditleader-6"
+  },
+  {
+    "line": "[2/3] Bandit Leader: We might be bandits, but we’re not stupid. That sceptre is left better off alone. [PLAYED]",
+    "file": "kingdomofsand-banditleader-7"
+  },
+  {
+    "line": "[3/3] Desert Raider: Get 'em!",
     "file": "kingdomofsand-desertraider-1"
   },
   {
-    "line": "[1/5] Lanu: You actually got it! I knew I could count on you. Lets try this!",
-    "file": "kingdomofsand-lanu-11"
+    "line": "[1/9] Junes: Ah, soldier. I couldn't help myself - I simply had to see the tomb up close.",
+    "file": "kingdomofsand-junes-10"
   },
   {
-    "line": "[2/5] Lanu: Huh? We got no time for superstition, we need to break that seal.",
-    "file": "kingdomofsand-lanu-12"
+    "line": "[2/9] Junes: You have no idea how tempted I am to go inside, but I doubt I'd make it out alive.",
+    "file": "kingdomofsand-junes-11"
   },
   {
-    "line": "[3/5] Lanu: Seems like something's happening!",
-    "file": "kingdomofsand-lanu-13"
+    "line": "[3/9] Junes: You... you found the sceptre? Oh! This is incredible! I can't believe it!",
+    "file": "kingdomofsand-junes-12"
   },
   {
-    "line": "[4/5] Lanu: We did it! Who would've thought that it was that ea-",
-    "file": "kingdomofsand-lanu-14"
+    "line": "[4/9] Junes: This artifact, it witnessed the rise and fall of the Empire, thousands of years ago. And you've just been... holding it, without gloves...",
+    "file": "kingdomofsand-junes-13"
   },
   {
-    "line": "[5/5] Lanu: What the hell was that...!",
-    "file": "kingdomofsand-lanu-15"
+    "line": "[5/9] Junes: Under the circumstances, I think I can let that slide. But the things I could learn from studying it...",
+    "file": "kingdomofsand-junes-14"
   },
   {
-    "line": "[1/6] Lanu: That shouldn't have happened, I... I don't understand.",
-    "file": "kingdomofsand-lanu-16"
+    "line": "[6/9] Junes: I should get it to Almuj right away. Thank you, soldier. You have my eternal gratitude.",
+    "file": "kingdomofsand-junes-15"
   },
   {
-    "line": "[2/6] Lanu: The legend says that the emperor was immortal. I thought this would work.",
-    "file": "kingdomofsand-lanu-17"
+    "line": "[7/9] Junes: Are you thinking of exploring the tomb? I'm sure you could learn so much about the Empire... but you best be careful.",
+    "file": "kingdomofsand-junes-16"
   },
   {
-    "line": "[3/6] Lanu: Unless.. He cursed himself. There has to be more to this story.",
-    "file": "kingdomofsand-lanu-18"
+    "line": "[8/9] Junes: There are nasty legends of what it holds. Silverfish, skeletons... even Prince Hashr himself. Make sure to gear up!",
+    "file": "kingdomofsand-junes-17"
   },
   {
-    "line": "[4/6] Lanu: Perhaps we will never know the full story.. well not unless we unearth the desert itself.",
-    "file": "kingdomofsand-lanu-19"
+    "line": "[9/9] Junes: I have little to offer you for your help, but please accept these emeralds, and a fossil bone I found around here.",
+    "file": "kingdomofsand-junes-18"
   },
   {
-    "line": "[5/6] Lanu: I'm sure the tale will be discovered in time.",
-    "file": "kingdomofsand-lanu-20"
+    "line": "[1/1] Junes: Have you looked into exploring the tomb at all? Please be careful where you step, I'm sure there are priceless artifacts inside!",
+    "file": "kingdomofsand-junes-19"
   },
   {
-    "line": "[6/6] Lanu: Well, maybe we'll see each other again, but I must go now. Here, take this as a token of my gratitude.",
-    "file": "kingdomofsand-lanu-21"
+    "line": "[1/1] Vault Guard: Nice work, kid.",
+    "file": "kingdomofsand-vaultguard-7"
+  },
+  {
+    "line": "[1/1] Junes: Ah! I am in the middle of some delicate archaeology work... and you probably can't help until you're level 33.",
+    "file": "kingdomofsand-junes-20"
+  },
+  {
+    "line": "[1/1] Vault Guard: What are ya even doing here? Look at you, even a coyote would rip that armor apart!",
+    "file": "kingdomofsand-vaultguard-8"
   },
   {
     "line": "[1/7] Caras: My tribe worries our own business, stranger.",
@@ -32209,38 +32237,6 @@
     "file": "desperatemetal-nettik-8"
   },
   {
-    "line": "[1/2] Steam Mech-DM1: Evasive maneuver inefficient.",
-    "file": "desperatemetal-steammechdm1-1"
-  },
-  {
-    "line": "[2/2] Steam Mech-DM1: Request additional orders from L.H. Defend.",
-    "file": "desperatemetal-steammechdm1-2"
-  },
-  {
-    "line": "[1/2] Fiery Mech-DM2: Tools acquired, deliviered to L.H. Additional orders received.",
-    "file": "desperatemetal-fierymechdm2-1"
-  },
-  {
-    "line": "[2/2] Fiery Mech-DM2: Intruder detected. Camouflage ineffective. Defend.",
-    "file": "desperatemetal-fierymechdm2-2"
-  },
-  {
-    "line": "[1/2] Intelligence Mech-DM3: Strategic mission accomplished. Mechanical parts: procured.",
-    "file": "desperatemetal-intelligencemechdm3-1"
-  },
-  {
-    "line": "[2/2] Intelligence Mech-DM3: L.H. can continue to produce effectively.",
-    "file": "desperatemetal-intelligencemechdm3-2"
-  },
-  {
-    "line": "[1/2] Big boss Mech-DM666: I was made to be angry. I can't stop myself...",
-    "file": "desperatemetal-bigbossmechdm666-1"
-  },
-  {
-    "line": "[2/2] Big boss Mech-DM666: Prepare for destruc...I-LOVE-CATS ahelp.",
-    "file": "desperatemetal-bigbossmechdm666-2"
-  },
-  {
     "line": "[1/5] ???: Stranger detected. Security system: activated.",
     "file": "desperatemetal-security-1",
     "onPlayer": true
@@ -32265,6 +32261,47 @@
     "file": "desperatemetal-security-5",
     "onPlayer": true
   },
+  {
+    "line": "[1/2] Steam Mech-DM1: Evasive maneuver inefficient.",
+    "file": "desperatemetal-steammechdm1-1",
+    "fallOff": 999
+  },
+  {
+    "line": "[2/2] Steam Mech-DM1: Request additional orders from L.H. Defend.",
+    "file": "desperatemetal-steammechdm1-2",
+    "fallOff": 999
+  },
+  {
+    "line": "[1/2] Fiery Mech-DM2: Tools acquired, deliviered to L.H. Additional orders received.",
+    "file": "desperatemetal-fierymechdm2-1",
+    "fallOff": 999
+  },
+  {
+    "line": "[2/2] Fiery Mech-DM2: Intruder detected. Camouflage ineffective. Defend.",
+    "file": "desperatemetal-fierymechdm2-2",
+    "fallOff": 999
+  },
+  {
+    "line": "[1/2] Intelligence Mech-DM3: Strategic mission accomplished. Mechanical parts: procured.",
+    "file": "desperatemetal-intelligencemechdm3-1",
+    "fallOff": 999
+  },
+  {
+    "line": "[2/2] Intelligence Mech-DM3: L.H. can continue to produce effectively.",
+    "file": "desperatemetal-intelligencemechdm3-2",
+    "fallOff": 999
+  },
+  {
+    "line": "[1/2] Big boss Mech-DM666: I was made to be angry. I can't stop myself...",
+    "file": "desperatemetal-bigbossmechdm666-1",
+    "fallOff": 999
+  },
+  {
+    "line": "[2/2] Big boss Mech-DM666: Prepare for destruc...§kI-LOVE-CATS ahelp.",
+    "file": "desperatemetal-bigbossmechdm666-2",
+    "fallOff": 999
+  },
+
   {
     "line": "[1/2] Ranol: Yep, that's all of 'em. All my cows accounted for, not one missing. Huh? Watchu looking at, city dweller?",
     "file": "cowfusion-ranol-1"

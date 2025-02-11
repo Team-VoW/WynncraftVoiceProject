@@ -79,7 +79,8 @@ public class ModCore implements ModInitializer {
         ClientTickEvents.END_WORLD_TICK.register(cli -> {
             // Your ticking method
             chatHandler.onTick();
-            audioPlayer.openAlPlayer.onTick();
+            if (audioPlayer != null)
+                audioPlayer.openAlPlayer.onTick();
         });
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
 
