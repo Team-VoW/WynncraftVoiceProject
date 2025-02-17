@@ -82,6 +82,8 @@ public class VersionChecker {
     }
 
     private static float GetVersionNumberInFloat(String version) {
+
+        version = version.replaceAll("[^\\d.]", "");
         float output = 0;
         float multiplier = 1;
         for (String str : version.split("\\.")) {

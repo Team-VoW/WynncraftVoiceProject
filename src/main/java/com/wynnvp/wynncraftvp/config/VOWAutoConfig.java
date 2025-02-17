@@ -4,9 +4,12 @@
  */
 package com.wynnvp.wynncraftvp.config;
 
+import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
+
+import java.util.List;
 
 @Config(name = "wynnvp")
 public class VOWAutoConfig implements ConfigData {
@@ -34,6 +37,10 @@ public class VOWAutoConfig implements ConfigData {
     public boolean sendFunFact = false;
 
     public String azureBlobLink = "https://voicesofwynn.blob.core.windows.net/audio/sounds/";
+
+    public List<String> urls = List.of("https://voicesofwynn.blob.core.windows.net/audio/sounds/",
+            "https://voicesofwynnus.blob.core.windows.net/audio/sounds/",
+            "https://voicesofwynnasia.blob.core.windows.net/audio/sounds/");
 
     public long lastSoundsUpdate = 0L;
     // --------------------------------------------------------------
@@ -130,5 +137,8 @@ public class VOWAutoConfig implements ConfigData {
 
     public void setHasShownMissingLineNotification(boolean input) {
         hasChosenLineReport = input;
+    }
+    public void save() {
+        AutoConfig.getConfigHolder(VOWAutoConfig.class).save();
     }
 }
