@@ -14,6 +14,9 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+
 import net.minecraft.client.Minecraft;
 
 public class VersionChecker {
@@ -28,6 +31,8 @@ public class VersionChecker {
         String directUpdateLink = null;
         String updateInfoPageLink = null;
         String azureBlobLink = null;
+        //In the jsonObject there is an array called "audio_urls" that contains these audio urls.
+        List<String> audioUrls = new ArrayList<>();
         try {
             fact = jsonObject.get("fact").getAsString();
             killSwitchVersion = jsonObject.get("fabric_killSwitchVersion").getAsString();
@@ -36,9 +41,11 @@ public class VersionChecker {
             directUpdateLink = jsonObject.get("fabric_directUpdateLink").getAsString();
             updateInfoPageLink = jsonObject.get("fabric_updateInfopageLink").getAsString();
             azureBlobLink = jsonObject.get("azure_blob_link").getAsString();
+            jsonObject.getAsJsonArray("audio_urls").forEach(jsonElement -> audioUrls.add(jsonElement.getAsString()));
         } catch (Exception e) {
             e.printStackTrace();
         }
+
 
         if (newestVersion == null) {
             return;
@@ -46,6 +53,12 @@ public class VersionChecker {
 
         if (azureBlobLink != null){
             config.azureBlobLink = azureBlobLink;
+            config.save();
+        }
+
+        if (!audioUrls.isEmpty()){
+            config.urls = audioUrls;
+            config.save();
         }
 
         // Strip the "v" from the version
