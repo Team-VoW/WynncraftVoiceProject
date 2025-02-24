@@ -51,7 +51,7 @@ public class AudioPlayer {
         String audioFileName = soundObject.getId();
         Path audioFilePath = Paths.get(AUDIO_FOLDER, audioFileName + ".ogg");
 
-        if (audioFilePath.toFile().exists()) {
+        if (ModCore.config.downloadSounds && audioFilePath.toFile().exists()) {
             playLocalFile(audioFilePath, soundObject);
             return;
         }
