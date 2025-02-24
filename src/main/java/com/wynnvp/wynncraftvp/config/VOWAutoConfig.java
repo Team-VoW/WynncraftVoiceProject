@@ -25,6 +25,13 @@ public class VOWAutoConfig implements ConfigData {
     public int tripleQuestionMarkInessentiel = 1000;
 
     @ConfigEntry.Gui.Excluded
+    public String azureBlobLink = "https://voicesofwynn.blob.core.windows.net/audio/sounds/";
+    @ConfigEntry.Gui.Excluded
+    public List<String> urls = List.of("https://voicesofwynn.blob.core.windows.net/audio/sounds/",
+            "https://voicesofwynnus.blob.core.windows.net/audio/sounds/",
+            "https://voicesofwynnasia.blob.core.windows.net/audio/sounds/");
+
+    @ConfigEntry.Gui.Excluded
     public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5; // small name?
     // --------------------------------------------------------------
 
@@ -35,12 +42,9 @@ public class VOWAutoConfig implements ConfigData {
     public boolean reportMissingLines = true;
     public boolean anonymous = true;
     public boolean sendFunFact = false;
+    @ConfigEntry.Gui.Tooltip
+    public boolean downloadSounds = false;
 
-    public String azureBlobLink = "https://voicesofwynn.blob.core.windows.net/audio/sounds/";
-
-    public List<String> urls = List.of("https://voicesofwynn.blob.core.windows.net/audio/sounds/",
-            "https://voicesofwynnus.blob.core.windows.net/audio/sounds/",
-            "https://voicesofwynnasia.blob.core.windows.net/audio/sounds/");
 
     public long lastSoundsUpdate = 0L;
     // --------------------------------------------------------------

@@ -75,7 +75,6 @@ public class AudioPlayer {
             allRemoteUrls.remove(fastestServer);
             allRemoteUrls.addFirst(fastestServer);
 
-            int attempts = 0;
             for (String url : allRemoteUrls) {
                 try {
                     remoteAudioData = fetchRemoteAudio(url + audioFileName + ".ogg");
