@@ -8,8 +8,6 @@ import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.BlobLatencyChecker;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
-import jdk.jshell.execution.Util;
-
 import java.text.DecimalFormat;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -34,7 +32,6 @@ public class JoinServerEvent {
                         "VOW sends non voiced dialogue lines anonymously to our server so the mod can be improved. This can be disabled in the Mod menu settings.");
                 ModCore.config.setHasShownMissingLineNotification(true);
                 ModCore.config.save();
-
             }
             ModCore.instance.audioDownloader.checkIfHasNot();
 
