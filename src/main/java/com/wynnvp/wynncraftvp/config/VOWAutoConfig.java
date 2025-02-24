@@ -1,16 +1,14 @@
-/*
- * Copyright © Team-VoW 2024.
- * This file is released under AGPLv3. See LICENSE for full license details.
- */
 package com.wynnvp.wynncraftvp.config;
 
+import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
 
+import java.util.List;
+
 @Config(name = "wynnvp")
 public class VOWAutoConfig implements ConfigData {
-    // --------------------------------------------------------------
     // Excluded stuff:
     @ConfigEntry.Gui.Excluded
     public String word = "gzog6zilzq6zxlt";
@@ -22,54 +20,64 @@ public class VOWAutoConfig implements ConfigData {
     public int tripleQuestionMarkInessentiel = 1000;
 
     @ConfigEntry.Gui.Excluded
-    public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5; // small name?
-    // --------------------------------------------------------------
+    public String azureBlobLink = "https://voicesofwynn.blob.core.windows.net/audio/sounds/";
+    @ConfigEntry.Gui.Excluded
+    public List<String> urls = List.of("https://voicesofwynn.blob.core.windows.net/audio/sounds/",
+            "https://voicesofwynnus.blob.core.windows.net/audio/sounds/",
+            "https://voicesofwynnasia.blob.core.windows.net/audio/sounds/");
 
+    @ConfigEntry.Gui.Excluded
+    public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5;
+
+    @ConfigEntry.Gui.Excluded
+    public long lastSoundsUpdate = 0L;
+
+    @ConfigEntry.Gui.Tooltip
     public boolean playAllSoundsOnPlayer = false;
 
-    // --------------------------------------------------------------
     // Line reporting settings
     public boolean reportMissingLines = true;
     public boolean anonymous = true;
     public boolean sendFunFact = false;
+    @ConfigEntry.Gui.Tooltip
+    public boolean downloadSounds = false;
 
-    public String azureBlobLink = "https://voicesofwynn.blob.core.windows.net/audio/sounds/";
-
-    public long lastSoundsUpdate = 0L;
-    // --------------------------------------------------------------
-
+    @ConfigEntry.Gui.Tooltip
     public int blockCutOff = 32;
+    @ConfigEntry.Gui.Tooltip
     public boolean removeVillagerSounds = false;
 
     @ConfigEntry.Gui.Tooltip
     public boolean autoProgress = false;
 
-    @ConfigEntry.Gui.Tooltip
-    public boolean highlightSpeaker = false;
+    // Debug and Logs section
+    @ConfigEntry.Gui.CollapsibleObject
+    public DebugAndLogs debugAndLogs = new DebugAndLogs();
 
-    // --------------------------------------------------------------
-    // Logging Settings:
-    @ConfigEntry.Gui.Tooltip
-    public boolean logDialogueLines = true;
+    public static class DebugAndLogs {
+        @ConfigEntry.Gui.Tooltip
+        public boolean highlightSpeaker = false;
 
-    @ConfigEntry.Gui.Tooltip
-    public boolean onlyLogNotPlayingLines = true;
+        @ConfigEntry.Gui.Tooltip
+        public boolean logDialogueLines = true;
 
-    @ConfigEntry.Gui.Tooltip
-    public boolean logPlayingInformation = false;
+        @ConfigEntry.Gui.Tooltip
+        public boolean onlyLogNotPlayingLines = true;
 
-    // --------------------------------------------------------------
+        @ConfigEntry.Gui.Tooltip
+        public boolean logPlayingInformation = false;
+    }
 
     public boolean isLogDialogueLines() {
-        return logDialogueLines;
+        return debugAndLogs.logDialogueLines;
     }
 
     public boolean isOnlyLogNotPlayingLines() {
-        return onlyLogNotPlayingLines;
+        return debugAndLogs.onlyLogNotPlayingLines;
     }
 
     public boolean isLogPlayingInformation() {
-        return logPlayingInformation;
+        return debugAndLogs.logPlayingInformation;
     }
 
     public boolean isRemoveVillagerSounds() {
@@ -117,7 +125,7 @@ public class VOWAutoConfig implements ConfigData {
     }
 
     public boolean isHighlightSpeaker() {
-        return highlightSpeaker;
+        return debugAndLogs.highlightSpeaker;
     }
 
     public double getNpcFinderThingMaxDistanceChangeBeforeCacheInvalid() {
@@ -130,5 +138,8 @@ public class VOWAutoConfig implements ConfigData {
 
     public void setHasShownMissingLineNotification(boolean input) {
         hasChosenLineReport = input;
+    }
+    public void save() {
+        AutoConfig.getConfigHolder(VOWAutoConfig.class).save();
     }
 }

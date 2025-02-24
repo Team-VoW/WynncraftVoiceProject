@@ -7,12 +7,12 @@ package com.wynnvp.wynncraftvp.sound.player;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import com.wynnvp.wynncraftvp.utils.Utils;
-
 import java.io.IOException;
 import java.net.URL;
 import java.nio.ByteBuffer;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
@@ -51,35 +51,51 @@ public class AudioPlayer {
         String audioFileName = soundObject.getId();
         Path audioFilePath = Paths.get(AUDIO_FOLDER, audioFileName + ".ogg");
 
-        if (!audioFilePath.toFile().exists()) {
-            // Use CompletableFuture for asynchronous remote audio fetching
-            CompletableFuture.supplyAsync(() -> {
-                String remoteUrl = ModCore.config.azureBlobLink + audioFileName + ".ogg";
-                try {
-                    ByteBuffer remoteAudioData = fetchRemoteAudio(remoteUrl);
-                    if (remoteAudioData != null) {
-                        // Switch to main thread for audio playback
-                            stopPlayingCurrentSound();
-                            openAlPlayer.updateSpeaker(
-                                    soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
-                                    soundObject.getPosition()
-                            );
-                            playAudioBuffer(remoteAudioData);
-                    }
-                } catch (IOException e) {
-                    Utils.sendMessage("Failed to fetch remote audio file: " + remoteUrl);
-                }
-                return null;
-            });
+        if (ModCore.config.downloadSounds && audioFilePath.toFile().exists()) {
+            playLocalFile(audioFilePath, soundObject);
             return;
         }
 
+        playRemoteAudio(audioFileName, soundObject);
+    }
+
+    private void playLocalFile(Path audioFilePath, SoundObject soundObject) {
         stopPlayingCurrentSound();
         openAlPlayer.updateSpeaker(
-                soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
-                soundObject.getPosition()
-        );
+                soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
         playAudioFile(audioFilePath);
+    }
+
+    private void playRemoteAudio(String audioFileName, SoundObject soundObject) {
+        // Use CompletableFuture for asynchronous remote audio fetching
+        CompletableFuture.supplyAsync(() -> {
+            List<String> allRemoteUrls = ModCore.config.urls;
+            String fastestServer = ModCore.config.azureBlobLink;
+            ByteBuffer remoteAudioData = null;
+            allRemoteUrls.remove(fastestServer);
+            allRemoteUrls.addFirst(fastestServer);
+
+            for (String url : allRemoteUrls) {
+                try {
+                    remoteAudioData = fetchRemoteAudio(url + audioFileName + ".ogg");
+
+                    break; // Exit loop if fetch is successful
+                } catch (IOException e) {
+                    Utils.sendMessage("Failed to fetch remote audio file: " + url + audioFileName + ".ogg. If this keeps happening restart your game and report it.");
+                }
+            }
+
+            if (remoteAudioData != null) {
+                stopPlayingCurrentSound();
+                openAlPlayer.updateSpeaker(
+                        soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
+                        soundObject.getPosition());
+                playAudioBuffer(remoteAudioData);
+            } else {
+                Utils.sendMessage("Failed to fetch remote audio file from all URLs. Please report this in our discord.");
+            }
+            return null;
+        });
     }
 
     private ByteBuffer fetchRemoteAudio(String urlString) throws IOException {
