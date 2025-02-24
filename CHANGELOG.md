@@ -1,3 +1,19 @@
+## [1.10.4](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.3...v1.10.4) (2025-02-24)
+
+
+### New Features
+
+* Add configuration option to enable or disable sound downloads. Default setting is now false meaning all files are streamed. ([4328e4b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4328e4b81dfcf51bdb8694681c4d115772ec576b))
+* Add fallback mechanism for fetching audio from multiple servers if the first fails. ([d671450](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d6714506004c1b09960a5e48bc7429b9377419f0))
+* Client now fetches active audio streaming servers. ([240141d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/240141d58dabaa46119476b6377b320a52ac1989))
+* The client now detects the closest server to stream the audio from to minimize latency. ([5de2cea](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5de2cea4b12bbe7095a2dac820b61c8dd228f5c2))
+
+
+### Bug Fixes
+
+* Cleaned up the mods configuration screen and added more tooltips ([1aed2dd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1aed2dd8d2519eec5bc9bb693ee3968e43d5de52))
+* Only try playing local audio file if download sound setting is enabled ([86b1f92](https://github.com/Team-VoW/WynncraftVoiceProject/commit/86b1f9286a20cc5e7d021db2a18ac2402453cde5))
+
 ## [1.10.3](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.2...v1.10.3) (2025-02-11)
 
 
@@ -15,6 +31,7 @@
 ### Miscellaneous Chores
 
 * Added log messages that say which files failed to download ([9f8af19](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9f8af1915f02fbcac4d005ec4ed059a6fd2de33f))
+* **release:** v1.10.3 [skip ci] ([b71174d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b71174dcf027df0cdc20507985b8a34ab3e2a350))
 * Updated game version in release pipeline ([8de90cf](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8de90cfd65ad14799038f81424785fb53f561aa0))
 
 ## [1.10.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.1...v1.10.2) (2025-01-26)
@@ -63,29 +80,4 @@
 * Deleted old sounds.json file ([4193353](https://github.com/Team-VoW/WynncraftVoiceProject/commit/419335315869aa23783bbef51dcf50485bb9ecd3))
 * Dynamically generate an audio manifest file ([bd9dbdd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/bd9dbdd12f283e89789238d7db9ddbe26b7a9fe7))
 * **release:** v1.10.0 [skip ci] ([9de7d76](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9de7d761abe569f057953c690c54d5e591ae3036))
-
-## [1.9.4](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.3...v1.9.4) (2024-12-26)
-
-
-### New Features
-
-* Added auto progress to automatically shift after dialogues. ([f4f1438](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f4f14387e5e8b54d2d87fff1f94a52346d7973f0))
-* Added new sewers of ragni ([a272912](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a2729122485c0cede15739cb6eb1282b982eb24f))
-
-
-### Bug Fixes
-
-* Fixed lines with player name not working if player is nicked ([2e34a7b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2e34a7b7bc93013922c7922b1c88ad02bee79300))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.9.4 [skip ci] ([6c38cf4](https://github.com/Team-VoW/WynncraftVoiceProject/commit/6c38cf45d4c663baf8f0e9d2d614ad69023de21e))
-* Removed LibGui from build.gradle ([617eb26](https://github.com/Team-VoW/WynncraftVoiceProject/commit/617eb2668fa8bff1fd2fd9dea21173a51a82effa))
-* Upgraded required fabric_loader_version to 0.16.5 ([cee84e3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cee84e3409298a293c47a39be5ec0f5129dc68d4))
-
-
-### Code Refactoring
-
-* replace hardcoded dialogues with JSON file ([#39](https://github.com/Team-VoW/WynncraftVoiceProject/issues/39)) ([13bd1c3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/13bd1c3227b62e316ada78e85bcd3f1d3a19caeb))
 
