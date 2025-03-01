@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.player;
@@ -19,6 +19,12 @@ public class CurrentSpeaker {
     public CurrentSpeaker() {
         lastEntityPos = Optional.empty();
         setPosition = Optional.empty();
+    }
+
+    public CurrentSpeaker(String name, Optional<Vec3> pos) {
+        lastEntityPos = Optional.empty();
+        setPosition = Optional.empty();
+        setNpc(name, pos);
     }
 
     public void setNpc(String name, Optional<Vec3> pos) {

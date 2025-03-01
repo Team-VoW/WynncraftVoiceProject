@@ -35,7 +35,7 @@ public class AudioPlayer {
         }
     }
 
-    public void playAudioFile(Path path) {
+    public void playAudioFile(Path path, SoundObject soundObject) {
         openAlPlayer.stopAudio();
         Optional<AudioData> audioData = OggDecoder.getAudioData(path);
 
@@ -43,6 +43,11 @@ public class AudioPlayer {
             Utils.sendMessage("Failed to load audio file: " + path.toString());
             return;
         }
+        audioData
+                .get()
+                .setSpeakerAndPos(
+                        soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
+                        soundObject.getPosition());
 
         write(audioData.get());
     }
@@ -60,10 +65,7 @@ public class AudioPlayer {
     }
 
     private void playLocalFile(Path audioFilePath, SoundObject soundObject) {
-        stopPlayingCurrentSound();
-        openAlPlayer.updateSpeaker(
-                soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
-        playAudioFile(audioFilePath);
+        playAudioFile(audioFilePath, soundObject);
     }
 
     private void playRemoteAudio(String audioFileName, SoundObject soundObject) {
@@ -81,18 +83,16 @@ public class AudioPlayer {
 
                     break; // Exit loop if fetch is successful
                 } catch (IOException e) {
-                    Utils.sendMessage("Failed to fetch remote audio file: " + url + audioFileName + ".ogg. If this keeps happening restart your game and report it.");
+                    Utils.sendMessage("Failed to fetch remote audio file: " + url + audioFileName
+                            + ".ogg. If this keeps happening restart your game and report it.");
                 }
             }
 
             if (remoteAudioData != null) {
-                stopPlayingCurrentSound();
-                openAlPlayer.updateSpeaker(
-                        soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
-                        soundObject.getPosition());
-                playAudioBuffer(remoteAudioData);
+                playAudioBuffer(remoteAudioData, soundObject);
             } else {
-                Utils.sendMessage("Failed to fetch remote audio file from all URLs. Please report this in our discord.");
+                Utils.sendMessage(
+                        "Failed to fetch remote audio file from all URLs. Please report this in our discord.");
             }
             return null;
         });
@@ -104,7 +104,7 @@ public class AudioPlayer {
         return ByteBuffer.wrap(audioBytes); // Convert to ByteBuffer for OpenAL playback
     }
 
-    public void playAudioBuffer(ByteBuffer audioData) {
+    public void playAudioBuffer(ByteBuffer audioData, SoundObject soundObject) {
         openAlPlayer.stopAudio();
 
         Optional<AudioData> audioOptional = OggDecoder.getAudioData(audioData);
@@ -112,11 +112,12 @@ public class AudioPlayer {
             Utils.sendMessage("Failed to decode remote audio data.");
             return;
         }
+        audioOptional
+                .get()
+                .setSpeakerAndPos(
+                        soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
+                        soundObject.getPosition());
 
         write(audioOptional.get());
-    }
-
-    public void stopPlayingCurrentSound() {
-        openAlPlayer.stopAudio();
     }
 }
