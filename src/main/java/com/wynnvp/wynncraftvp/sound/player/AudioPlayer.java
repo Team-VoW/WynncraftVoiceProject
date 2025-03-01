@@ -36,7 +36,7 @@ public class AudioPlayer {
     }
 
     public void playAudioFile(Path path, SoundObject soundObject) {
-        openAlPlayer.stopAudio();
+        if (soundObject.shouldStopSounds()) openAlPlayer.stopAudio();
         Optional<AudioData> audioData = OggDecoder.getAudioData(path);
 
         if (audioData.isEmpty()) {
@@ -105,7 +105,7 @@ public class AudioPlayer {
     }
 
     public void playAudioBuffer(ByteBuffer audioData, SoundObject soundObject) {
-        openAlPlayer.stopAudio();
+        if (soundObject.shouldStopSounds()) openAlPlayer.stopAudio();
 
         Optional<AudioData> audioOptional = OggDecoder.getAudioData(audioData);
         if (audioOptional.isEmpty()) {

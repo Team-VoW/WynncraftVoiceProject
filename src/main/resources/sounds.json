@@ -36456,7 +36456,8 @@
   },
   {
     "line": "[5/15] Dwice: Should we seize her?!",
-    "file": "thefeathersflypart2-dwice-6"
+    "file": "thefeathersflypart2-dwice-6",
+    "stopSounds": false
   },
   {
     "line": "[2/6] Dwice: Flawless?! More like flawful! This was so obvious!",
@@ -36468,35 +36469,43 @@
   },
   {
     "line": "[7/15] Mei: I don't- I don't know!",
-    "file": "thefeathersflypart2-mei-6"
+    "file": "thefeathersflypart2-mei-6",
+    "stopSounds": false
   },
   {
     "line": "[9/15] Sybil: You SHUT UP for now!",
-    "file": "thefeathersflypart2-sybil-6"
+    "file": "thefeathersflypart2-sybil-6",
+    "stopSounds": false
   },
   {
     "line": "[10/15] Maxie: Maybe she-",
-    "file": "thefeathersflypart2-maxie-8"
+    "file": "thefeathersflypart2-maxie-8",
+    "stopSounds": false
   },
   {
     "line": "[11/15] Sybil: 'goes for you too, Maxie!",
-    "file": "thefeathersflypart2-sybil-7"
+    "file": "thefeathersflypart2-sybil-7",
+    "stopSounds": false
   },
   {
     "line": "[12/15] Nodise: Let's calm down and start ag-",
-    "file": "thefeathersflypart2-nodise-5"
+    "file": "thefeathersflypart2-nodise-5",
+    "stopSounds": false
   },
   {
     "line": "[13/15] Clomius: So that explains the magic!",
-    "file": "thefeathersflypart2-clomius-6"
+    "file": "thefeathersflypart2-clomius-6",
+    "stopSounds": false
   },
   {
     "line": "[13/15] Clomius: I just can't believe this!!",
-    "file": "thefeathersflypart2-clomius-7"
+    "file": "thefeathersflypart2-clomius-7",
+    "stopSounds": false
   },
   {
     "line": "[14/15] Grant: Hmpf? Just take her on the spot!",
-    "file": "thefeathersflypart2-grant-5"
+    "file": "thefeathersflypart2-grant-5",
+    "stopSounds": false
   },
   {
     "line": "[15/15] Efena: EVERYONE! STOP! Soldier, I want you to come here and answer something, immediately.",
@@ -37750,7 +37759,8 @@
   },
   {
     "line": "[8/15] Ava: I-",
-    "file": "thefeathersflypart2-ava-219"
+    "file": "thefeathersflypart2-ava-219",
+    "stopSounds": false
   },
   {
     "line": "[1/20] Ava: I swear soldier didn't know! Believe me!",
