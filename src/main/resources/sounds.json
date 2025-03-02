@@ -47508,37 +47508,44 @@
   {
     "line": "[1/7] Soldier 1: I-I can’t run anymore. Get back to Ragni and close the gates! We might be able to hold him the-",
     "file": "wynnplains-soldier1-1",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[2/7] Soldier 2: Are you insane? You saw how that BEAST slaughtered our entire regiment! We're done fo-",
     "file": "wynnplains-soldier2-1",
-    "fallOff": 90
-  },
+    "fallOff": 90,
+    "stopSounds": false
+    },
   {
     "line": "[3/7] Soldier 1: Oh no... He’s here.",
     "file": "wynnplains-soldier1-2",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[4/7] Bak'al: There is nowhere left for you fools to run. Now witness as the will of my master purges this province for good.",
     "file": "wynnplains-bakal-13",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
-    "line": "[5/7] Soldier 2: No... NO! GET AWAY- AAAAGHHH!!!!",
+    "line": "[5/7] Soldier 2: N-No! GET AWAY FROM ME!",
     "file": "wynnplains-soldier2-2",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
-    "line": "[6/7] Soldier 1: PLEASE, STOP! IT HURTS SO MUCH!! AAAAGGHHH!",
+    "line": "[6/7] Soldier 1: Please! It- It hurts... It hurts so much..!",
     "file": "wynnplains-soldier1-3",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[7/7] Bak'al: And now, Ragni is left defenseless. This land will be purified, just like the rest.",
     "file": "wynnplains-bakal-14",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[1/7] Bob: I will never let this city fall again.",
@@ -47548,32 +47555,38 @@
   {
     "line": "[2/7] Bak'al: Another soldier..? It matters not. End him!",
     "file": "wynnplains-bakal-15",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[3/7] Bob: ⒭⒤⒮⒤⒩⒢ ⒰⒫⒫⒠⒭⒞⒰⒯",
     "file": "wynnplains-bob-2",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[4/7] Bak'al: A foolhardy display of power means nothing to me. Again, peons!",
     "file": "wynnplains-bakal-16",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[5/7] Bob: ⒟⒤⒱⒤⒩⒢ ⒠⒜⒭⒯⒣⒮⒣⒜⒯⒯⒠⒭１",
     "file": "wynnplains-bob-3",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[6/7] Bak'al: Your power.. it’s... I wasn’t prepared for this.. Retreat, peons!",
     "file": "wynnplains-bakal-17",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[7/7] Bob: Oh no, YOU'RE not getting away!",
     "file": "wynnplains-bob-4",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[1/3] Bob: ⒡⒭⒪⒮⒯ ⒮⒠⒭⒫⒠⒩⒯１",
@@ -47583,12 +47596,14 @@
   {
     "line": "[2/3] Bob: ⒜⒭⒭⒪⒲ ⒝⒜⒭⒭⒜⒢⒠１",
     "file": "wynnplains-bob-6",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[3/3] Bob: ⒡⒤⒭⒠ ⒝⒪⒨⒝１",
     "file": "wynnplains-bob-7",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[1/3] Bob: I've spent my entire life preparing for this. I will NEVER let this province fall.",
@@ -47598,12 +47613,14 @@
   {
     "line": "[2/3] Bak'al: The Twains said the same thing to me, once. And just like them, you will fall helplessly at my feet.",
     "file": "wynnplains-bakal-18",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[3/3] Bob: I’ve learned from the Twains’ mistakes! I refuse to fall as easily as they did!",
     "file": "wynnplains-bob-9",
-    "fallOff": 90
+    "fallOff": 90,
+    "stopSounds": false
   },
   {
     "line": "[1/4] Junes: Uh oh!",
