@@ -4,13 +4,18 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
+import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
-import net.minecraft.world.phys.Vec3;
-
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -23,8 +28,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
+import net.minecraft.world.phys.Vec3;
 
 public class SoundsHandler {
     private static final String JSON_FILE = "sounds.json";
@@ -47,7 +51,7 @@ public class SoundsHandler {
             if (shouldUpdateJson()) {
                 downloadJson();
             }
-            loadSoundsFromJson(getJsonPath());
+            loadSoundsFromJson(getJsonStream());
         });
     }
 
@@ -55,11 +59,9 @@ public class SoundsHandler {
         return sounds;
     }
 
-    private void loadSoundsFromJson(String jsonFilePath) {
-        try (InputStream inputStream = new FileInputStream(jsonFilePath);
-             InputStreamReader reader = new InputStreamReader(inputStream)) {
-            Type dialogueListType = new TypeToken<List<DialogueData>>() {
-            }.getType();
+    private void loadSoundsFromJson(InputStream inputStream) {
+        try (InputStreamReader reader = new InputStreamReader(inputStream)) {
+            Type dialogueListType = new TypeToken<List<DialogueData>>() {}.getType();
             List<DialogueData> dialogues = gson.fromJson(reader, dialogueListType);
 
             for (DialogueData dialogue : dialogues) {
@@ -70,21 +72,28 @@ public class SoundsHandler {
                 int fallOff = dialogue.getFallOff();
                 String npcName = dialogue.getNpc();
                 Reverb environment = dialogue.getReverb();
+                boolean stopSounds = dialogue.shouldStopSounds();
+                System.out.println("Loaded sound: " + message);
 
                 LineData lineData = formatToLineData(message);
                 message = lineData.getSoundLine();
-                sounds.put(message, new SoundObject(lineData.getNPCName(), fileName, movingSound, position, fallOff));
+                sounds.put(
+                        message,
+                        new SoundObject(lineData.getNPCName(), fileName, movingSound, position, fallOff, stopSounds));
             }
         } catch (IOException e) {
-            throw new RuntimeException("Failed to load JSON file: " + jsonFilePath, e);
+            throw new RuntimeException("Failed to load JSON file", e);
         }
     }
 
+
     private boolean shouldUpdateJson() {
         try {
-
             long lastUpdate = ModCore.config.lastSoundsUpdate;
+            System.out.println("lastUpdate: " + lastUpdate);
             long latestCommitTime = fetchLatestCommitTime();
+            System.out.println("latestCommitTime: " + latestCommitTime);
+            System.out.println("shouldUpdateJson: " + (latestCommitTime > lastUpdate));
 
             return latestCommitTime > lastUpdate;
         } catch (Exception e) {
@@ -98,18 +107,20 @@ public class SoundsHandler {
 
     private long fetchLatestCommitTime() {
         try {
-            URL url = new URL("https://api.github.com/repos/Team-VoW/WynncraftVoiceProject/commits?path=src/main/resources/sounds.json");
+            URL url = new URL(
+                    "https://api.github.com/repos/Team-VoW/WynncraftVoiceProject/commits?path=src/main/resources/sounds.json");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
             connection.setRequestProperty("Accept", "application/vnd.github.v3+json");
 
             if (connection.getResponseCode() == 200) {
                 try (InputStream inputStream = connection.getInputStream();
-                     InputStreamReader reader = new InputStreamReader(inputStream)) {
+                        InputStreamReader reader = new InputStreamReader(inputStream)) {
                     Gson gson = new Gson();
-                    List<Map<String, Object>> commits = gson.fromJson(reader, new TypeToken<List<Map<String, Object>>>() {
-                    }.getType());
-                    Map<String, Object> commitMap = (Map<String, Object>) commits.get(0).get("commit");
+                    List<Map<String, Object>> commits =
+                            gson.fromJson(reader, new TypeToken<List<Map<String, Object>>>() {}.getType());
+                    Map<String, Object> commitMap =
+                            (Map<String, Object>) commits.get(0).get("commit");
                     Map<String, Object> committerMap = (Map<String, Object>) commitMap.get("committer");
                     String date = (String) committerMap.get("date");
                     Instant instant = Instant.parse(date);
@@ -132,7 +143,7 @@ public class SoundsHandler {
 
             if (connection.getResponseCode() == 200) {
                 try (InputStream inputStream = connection.getInputStream();
-                     OutputStream outputStream = new FileOutputStream(JSON_FILE)) {
+                        OutputStream outputStream = new FileOutputStream(JSON_FILE)) {
                     byte[] buffer = new byte[1024];
                     int bytesRead;
                     while ((bytesRead = inputStream.read(buffer)) != -1) {
@@ -142,19 +153,30 @@ public class SoundsHandler {
                     long latestCommitTime = fetchLatestCommitTime();
                     ModCore.config.lastSoundsUpdate = latestCommitTime;
                 }
+            } else {
+                System.out.println("Failed to download JSON file: " + GITHUB_JSON_URL);
+                System.out.println("Response code: " + connection.getResponseCode());
+                System.out.println("Response message: " + connection.getResponseMessage());
             }
         } catch (IOException e) {
+            System.out.println("Failed to download JSON file: " + GITHUB_JSON_URL);
             e.printStackTrace();
         }
     }
 
-    private String getJsonPath() {
+    private InputStream getJsonStream() {
         if (Files.exists(Paths.get(JSON_FILE))) {
-            return JSON_FILE;
+            try {
+                System.out.println("Using remote JSON file");
+                return new FileInputStream(JSON_FILE);
+            } catch (IOException e) {
+                throw new RuntimeException("Failed to open local JSON file: " + JSON_FILE, e);
+            }
         } else {
+            System.out.println("Using bundled JSON file");
             InputStream bundledStream = this.getClass().getClassLoader().getResourceAsStream(BUNDLED_JSON);
             if (bundledStream != null) {
-                return BUNDLED_JSON;
+                return bundledStream;
             }
         }
         throw new IllegalStateException("No valid JSON file found!");

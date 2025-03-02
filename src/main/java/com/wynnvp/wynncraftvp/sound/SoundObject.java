@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -13,13 +13,15 @@ public class SoundObject {
     private final boolean movingSound;
     private final Vec3 position;
     private final int fallOff;
+    private final boolean stopSounds;
 
-    public SoundObject(String npcName, String id, boolean movingSound, Vec3 position, int fallOff) {
+    public SoundObject(String npcName, String id, boolean movingSound, Vec3 position, int fallOff, boolean stopSounds) {
         this.fallOff = fallOff;
         this.position = position;
         this.npcName = npcName;
         this.id = id;
         this.movingSound = movingSound;
+        this.stopSounds = stopSounds;
     }
 
     public String getId() {
@@ -46,5 +48,9 @@ public class SoundObject {
 
     public int getFallOff() {
         return fallOff;
+    }
+
+    public boolean shouldStopSounds() {
+        return stopSounds;
     }
 }

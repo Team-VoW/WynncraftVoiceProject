@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -14,6 +14,7 @@ public class DialogueData {
     private Vec3 pos = null;
     private String npc;
     private Reverb reverb = Reverb.OUTSIDE;
+    private boolean stopSounds = true;
 
     public void setDialogueLine(String dialogueLine) {
         this.line = dialogueLine;
@@ -69,5 +70,13 @@ public class DialogueData {
 
     public Reverb getReverb() {
         return reverb;
+    }
+
+    public boolean shouldStopSounds() {
+        return stopSounds;
+    }
+
+    public void setStopSounds(boolean stopSounds) {
+        this.stopSounds = stopSounds;
     }
 }
