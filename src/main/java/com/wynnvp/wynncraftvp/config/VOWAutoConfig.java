@@ -1,11 +1,14 @@
+/*
+ * Copyright © Team-VoW 2025.
+ * This file is released under AGPLv3. See LICENSE for full license details.
+ */
 package com.wynnvp.wynncraftvp.config;
 
+import java.util.List;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
-
-import java.util.List;
 
 @Config(name = "wynnvp")
 public class VOWAutoConfig implements ConfigData {
@@ -21,8 +24,10 @@ public class VOWAutoConfig implements ConfigData {
 
     @ConfigEntry.Gui.Excluded
     public String azureBlobLink = "https://voicesofwynn.blob.core.windows.net/audio/sounds/";
+
     @ConfigEntry.Gui.Excluded
-    public List<String> urls = List.of("https://voicesofwynn.blob.core.windows.net/audio/sounds/",
+    public List<String> urls = List.of(
+            "https://voicesofwynn.blob.core.windows.net/audio/sounds/",
             "https://voicesofwynnus.blob.core.windows.net/audio/sounds/",
             "https://voicesofwynnasia.blob.core.windows.net/audio/sounds/");
 
@@ -30,7 +35,7 @@ public class VOWAutoConfig implements ConfigData {
     public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5;
 
     @ConfigEntry.Gui.Excluded
-    public long lastSoundsUpdate = 0L;
+    public String lastsSoundsUpdateHeader = "never";
 
     @ConfigEntry.Gui.Tooltip
     public boolean playAllSoundsOnPlayer = false;
@@ -39,11 +44,13 @@ public class VOWAutoConfig implements ConfigData {
     public boolean reportMissingLines = true;
     public boolean anonymous = true;
     public boolean sendFunFact = false;
+
     @ConfigEntry.Gui.Tooltip
     public boolean downloadSounds = false;
 
     @ConfigEntry.Gui.Tooltip
     public int blockCutOff = 32;
+
     @ConfigEntry.Gui.Tooltip
     public boolean removeVillagerSounds = false;
 
@@ -139,7 +146,12 @@ public class VOWAutoConfig implements ConfigData {
     public void setHasShownMissingLineNotification(boolean input) {
         hasChosenLineReport = input;
     }
+
     public void save() {
         AutoConfig.getConfigHolder(VOWAutoConfig.class).save();
+    }
+
+    public String getRemoteJsonLink() {
+        return azureBlobLink + "sounds.json";
     }
 }
