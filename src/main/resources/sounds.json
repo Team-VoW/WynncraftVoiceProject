@@ -45595,7 +45595,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/1] Talking Mushroom: OH GREAT, ANOTHER ONE. JUST FANTASTIC. WHAT'S WITH THE FACE, HUH? NEVER SEEN A TALKING MUSHROOM BEFORE? GO AWAY!",
+    "line": "[1/1] Talking Mushroom: OH GREAT. ANOTHER ONE. JUST FANTASTIC. WHAT'S WITH THE FACE, HUH? NEVER SEEN A TALKING MUSHROOM BEFORE? GO AWAY!",
     "file": "talkingmushroombeforerecipefordisaster"
   },
   {
@@ -45623,7 +45623,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/3] Talking Mushroom: HEY IDIOT, WHERE ARE WE THIS TIME! IT FEELS ALL... BRIGHT, ALMOST EXCESSIVELY SO-",
+    "line": "[1/3] Talking Mushroom: HEY, IDIOT, WHERE ARE WE THIS TIME! IT FEELS ALL... BRIGHT, ALMOST EXCESSIVELY SO-",
     "file": "talkingmushroomnexusoflight",
     "onPlayer": true
   },
@@ -45638,7 +45638,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/1] Talking Mushroom: HEY IDIOT, WHERE ARE WE?? THIS PLACE SMELLS LIKE-",
+    "line": "[1/1] Talking Mushroom: HEY, IDIOT, WHERE ARE WE?? THIS PLACE SMELLS LIKE-",
     "file": "talkingmushroommonumenttosifried",
     "onPlayer": true
   },
@@ -45708,7 +45708,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/6] Talking Mushroom: \"WOW, WHAT EVEN IS THIS PLACE?? FEELS OMINOUS, LOOKS LAME, WHAT ARE WE DOING HERE? DROP ME OFF SOMEPLACE ELSE!\"",
+    "line": "[1/6] Talking Mushroom: WOW, WHAT EVEN IS THIS PLACE?? FEELS OMINOUS, LOOKS LAME, WHAT ARE WE DOING HERE? DROP ME OFF SOMEPLACE ELSE!",
     "file": "talkingmushroomqirahive"
   },
   {
