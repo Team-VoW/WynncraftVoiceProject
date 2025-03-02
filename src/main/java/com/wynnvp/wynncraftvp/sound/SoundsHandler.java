@@ -51,7 +51,7 @@ public class SoundsHandler {
             if (shouldUpdateJson()) {
                 downloadJson();
             }
-            loadSoundsFromJson(getJsonPath());
+            loadSoundsFromJson(getJsonStream());
         });
     }
 
@@ -59,9 +59,8 @@ public class SoundsHandler {
         return sounds;
     }
 
-    private void loadSoundsFromJson(String jsonFilePath) {
-        try (InputStream inputStream = new FileInputStream(jsonFilePath);
-                InputStreamReader reader = new InputStreamReader(inputStream)) {
+    private void loadSoundsFromJson(InputStream inputStream) {
+        try (InputStreamReader reader = new InputStreamReader(inputStream)) {
             Type dialogueListType = new TypeToken<List<DialogueData>>() {}.getType();
             List<DialogueData> dialogues = gson.fromJson(reader, dialogueListType);
 
@@ -74,6 +73,7 @@ public class SoundsHandler {
                 String npcName = dialogue.getNpc();
                 Reverb environment = dialogue.getReverb();
                 boolean stopSounds = dialogue.shouldStopSounds();
+                System.out.println("Loaded sound: " + message);
 
                 LineData lineData = formatToLineData(message);
                 message = lineData.getSoundLine();
@@ -82,14 +82,18 @@ public class SoundsHandler {
                         new SoundObject(lineData.getNPCName(), fileName, movingSound, position, fallOff, stopSounds));
             }
         } catch (IOException e) {
-            throw new RuntimeException("Failed to load JSON file: " + jsonFilePath, e);
+            throw new RuntimeException("Failed to load JSON file", e);
         }
     }
+
 
     private boolean shouldUpdateJson() {
         try {
             long lastUpdate = ModCore.config.lastSoundsUpdate;
+            System.out.println("lastUpdate: " + lastUpdate);
             long latestCommitTime = fetchLatestCommitTime();
+            System.out.println("latestCommitTime: " + latestCommitTime);
+            System.out.println("shouldUpdateJson: " + (latestCommitTime > lastUpdate));
 
             return latestCommitTime > lastUpdate;
         } catch (Exception e) {
@@ -149,19 +153,30 @@ public class SoundsHandler {
                     long latestCommitTime = fetchLatestCommitTime();
                     ModCore.config.lastSoundsUpdate = latestCommitTime;
                 }
+            } else {
+                System.out.println("Failed to download JSON file: " + GITHUB_JSON_URL);
+                System.out.println("Response code: " + connection.getResponseCode());
+                System.out.println("Response message: " + connection.getResponseMessage());
             }
         } catch (IOException e) {
+            System.out.println("Failed to download JSON file: " + GITHUB_JSON_URL);
             e.printStackTrace();
         }
     }
 
-    private String getJsonPath() {
+    private InputStream getJsonStream() {
         if (Files.exists(Paths.get(JSON_FILE))) {
-            return JSON_FILE;
+            try {
+                System.out.println("Using remote JSON file");
+                return new FileInputStream(JSON_FILE);
+            } catch (IOException e) {
+                throw new RuntimeException("Failed to open local JSON file: " + JSON_FILE, e);
+            }
         } else {
+            System.out.println("Using bundled JSON file");
             InputStream bundledStream = this.getClass().getClassLoader().getResourceAsStream(BUNDLED_JSON);
             if (bundledStream != null) {
-                return BUNDLED_JSON;
+                return bundledStream;
             }
         }
         throw new IllegalStateException("No valid JSON file found!");
