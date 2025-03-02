@@ -1,3 +1,18 @@
+## [1.10.5](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.4...v1.10.5) (2025-03-02)
+
+
+### New Features
+
+* Added a stopSounds settings to define if a sound should stop playing audio when encountered ([95b4695](https://github.com/Team-VoW/WynncraftVoiceProject/commit/95b4695ae9e98a973880d23097efd10be267556e))
+* Allow multiple sound lines to be played at the same time ([683662f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/683662f18d75a24a52fc3a9cd4748570959fd840))
+
+
+### Bug Fixes
+
+* Fixed a few hundred lines that where not playing because of special characters ([b354e70](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b354e702526865f7bad905c706b297d395d2c963))
+* Fixed an issue where the bundled sounds.json is not read correctly if download failed leading to no sounds at all playing for some people the first time they use the mod ([f229576](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f2295761ca77e221a11243f2ee77ce8453fde914))
+* Fixed some lines not playing in Ragnis ultimate discovery and made some of the lines be able to overlap ([b6d22b6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b6d22b6734cc9db0266513ea00e040a8ccaf9ebf))
+
 ## [1.10.4](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.3...v1.10.4) (2025-02-24)
 
 
@@ -13,6 +28,11 @@
 
 * Cleaned up the mods configuration screen and added more tooltips ([1aed2dd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1aed2dd8d2519eec5bc9bb693ee3968e43d5de52))
 * Only try playing local audio file if download sound setting is enabled ([86b1f92](https://github.com/Team-VoW/WynncraftVoiceProject/commit/86b1f9286a20cc5e7d021db2a18ac2402453cde5))
+
+
+### Miscellaneous Chores
+
+* **release:** v1.10.4 [skip ci] ([59d9be8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/59d9be899fc50e5c5874bd66bb02c8a28cbcefe3))
 
 ## [1.10.3](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.2...v1.10.3) (2025-02-11)
 
@@ -63,21 +83,4 @@
 ### Miscellaneous Chores
 
 * **release:** v1.10.1 [skip ci] ([a7a4438](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a7a4438353d0354bdcc8c0a4f22f35756425d078))
-
-## [1.10.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.4...v1.10.0) (2025-01-19)
-
-
-### Bug Fixes
-
-* Disabled auto progress by default ([806d4cc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/806d4cc6c2d0d2dfd5def71d8344285cd4e474f0))
-
-
-### Miscellaneous Chores
-
-* Added initial audio manifest ([35b4cc9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/35b4cc91a8657ef96606521696b9154cab1ee8d7))
-* Changed the update audio manifest workflow to use the correct audio directory ([323db79](https://github.com/Team-VoW/WynncraftVoiceProject/commit/323db79c5799d511d6caf3e92d26f77d27f5765e))
-* Deleted generate-sounds.yml workflow ([24772d1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/24772d14e38ce1a72aec16f324a8250700cb627a))
-* Deleted old sounds.json file ([4193353](https://github.com/Team-VoW/WynncraftVoiceProject/commit/419335315869aa23783bbef51dcf50485bb9ecd3))
-* Dynamically generate an audio manifest file ([bd9dbdd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/bd9dbdd12f283e89789238d7db9ddbe26b7a9fe7))
-* **release:** v1.10.0 [skip ci] ([9de7d76](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9de7d761abe569f057953c690c54d5e591ae3036))
 
