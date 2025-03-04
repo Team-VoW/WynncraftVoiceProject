@@ -10,8 +10,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Upload all sound files to Azure Blob Storage
+      - name: Upload sounds folder to Azure Blob Storage
         run: |
-          find sounds -type f | while read file; do
-            azcopy copy "$file" "${{ secrets.AZURE_STORAGE_URL }}/$file"
-          done
+          azcopy copy './sounds' '${{ secrets.AZURE_STORAGE_URL }}' --recursive
