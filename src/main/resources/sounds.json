@@ -2707,11 +2707,11 @@
     "file": "stablestory-enkser-12"
   },
   {
-    "line": "[4/5] Enkser: I kid! I kid. But as the great bovine above as my witness if I see the smallest bruise I will-",
+    "line": "[4/5] Enkser: I kid! I kid. But as the great bovine above is my witness if I see the smallest bruise I will-",
     "file": "stablestory-enkser-13"
   },
   {
-    "line": "[5/5] Enkser: Eh, nevermind all that. A horse I promised, and a horse you shall have. Much thanks to you.",
+    "line": "[5/5] Enkser: Nevermind all that. A horse I promised, and a horse you shall have. Much thanks to you.",
     "file": "stablestory-enkser-14"
   },
   {
@@ -3876,6 +3876,10 @@
   {
     "line": "[3/10] Leucsaa: Finally, the journal. It's out here somewhere, I assume. I'll look around.",
     "file": "dwellingwalls-leucsaa-3"
+  },
+  {
+    "line": "[4/10] Leucsaa: ...",
+    "stopSounds": "false"
   },
   {
     "line": "[5/10] Leucsaa: Hold on, what? The journal! I must have forgotten it inside the mansion!",
