@@ -19336,36 +19336,40 @@
     "size": 43852
   },
   "gravedigger-priest-1": {
-    "hash": "deb04220040478e706517e319527f497259ac5e1931e7b6fd163926a93052a2b",
-    "size": 50474
+    "hash": "452c6b2cb715d1a051129dc4d8317e36041ddba18c295857fb2205925272a903",
+    "size": 54091
   },
   "gravedigger-priest-2": {
-    "hash": "ee9a69c056331380172f11f2be1893617803cf9ee621e6c3bd465d205441d2ea",
-    "size": 62177
+    "hash": "980af739510201107c94dfe5449f466efd3a88c8cfca8a2a3cc802adc1dd7911",
+    "size": 117096
   },
   "gravedigger-priest-3": {
-    "hash": "43b48054e644ee38bf38a85e34440913d1d85a1adcb16a8f33da8c7f0ce4fc48",
-    "size": 47355
+    "hash": "8e8ddb728dac1de1cec63923591a84025ba32f7187f7f2a22adad80b22eac7f3",
+    "size": 120646
   },
   "gravedigger-priest-4": {
-    "hash": "661972c86288384c64eb563cce45bde66e401617048114028830e3ed90278eeb",
-    "size": 70517
+    "hash": "9b0266ade746b1e58b5dc07c02bd3bdad0b3d2ccbae91d1dfaca142d2441e136",
+    "size": 87573
   },
   "gravedigger-priest-5": {
-    "hash": "f88a1033c78083ed3141d5858ed816e919139a87d92a9ca020f1cc292f92ddce",
-    "size": 20864
+    "hash": "4a1c2d4f4cc469560dd46a3b11464af693e5e045b3bfd91e3122e52bafbf3575",
+    "size": 71726
   },
   "gravedigger-priest-6": {
-    "hash": "663eb88129b2cb985e0ca0a0db8fbcdfd5f5ae1c9095ad928ac9826cb7990a94",
-    "size": 48271
+    "hash": "20ef89f40a1c8594f4d899c034c1a547a42f18b52c97d07a63ec0994491af5b5",
+    "size": 72189
   },
   "gravedigger-priest-7": {
-    "hash": "3eb56c5ad17d13ed93258a53bad27573642cfad30c280a143dec4d5086f81b51",
-    "size": 24192
+    "hash": "d69e105394eef1ce0ed9fe642bb14f135a0313e8e04fa8f47259dab57769b5a7",
+    "size": 29199
   },
   "gravedigger-priest-8": {
-    "hash": "c455f18011b153646a0fd7eb857a8f364d4395b001bb10c4677e2b96d50d9785",
-    "size": 57310
+    "hash": "728a93fe1977ae70a2693c06d1d6e1798232417c70799234c123e134b7da517c",
+    "size": 79750
+  },
+  "gravedigger-priest-9": {
+    "hash": "b1a4ce4510f088fc09b0ef347427b897c83edb9b8d214e4696db47d5e73d199e",
+    "size": 89882
   },
   "gravedigger-sayleros-1": {
     "hash": "7e4c422f40641031d5e6e8a5891c3ce83cd47154245d9d4e11638c3c1bcdc10d",
