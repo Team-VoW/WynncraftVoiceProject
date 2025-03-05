@@ -6570,7 +6570,7 @@
     "file": "greengloop-eluzterp-4"
   },
   {
-    "line": "[5/9] Eluzterp: However, the slimes have gotten stronger about a month ago. I'm unable to retrieve it any more, I've come close to getting killed a few times!",
+    "line": "[5/9] Eluzterp: However, the slimes have gotten stronger about a month ago. I'm unable to retrieve it any more, I^ve come close to getting killed a few times!",
     "file": "greengloop-eluzterp-5"
   },
   {
@@ -6586,7 +6586,7 @@
     "file": "greengloop-eluzterp-8"
   },
   {
-    "line": "[9/9] Eluzterp: I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell him, and he'll probably let you into his shop.",
+    "line": "[9/9] Eluzterp: I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell my friend, and he^ll probably let you into his shop.",
     "file": "greengloop-eluzterp-9"
   },
   {
@@ -46591,7 +46591,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/1] ???: Who is the fool that has opened this accursed cage?",
+    "line": "[1/1] ???: Who is the fool who steps into this accursed cage?",
     "file": "sst-hashr-1",
     "onPlayer": true
   },
@@ -46636,14 +46636,26 @@
     "onPlayer": true
   },
   {
+    "line": "[2/2] Ghostly Voice: I have many regrets of my time spent alive in Wynn. I do not wish for my lingering mistakes to harm anyone else. Turn back.",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Ghostly Voice: You must think you can save me? There is no cure for what I have.",
     "file": "icebarrows-ghostlyvoice-2",
     "onPlayer": true
   },
   {
+    "line": "[2/2] Ghostly Voice: Unless.. You want to set me free?",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Ghostly Voice: I froze this land to allow it to heal.. People did not understand.. They came for me here, seeking revenge.",
     "file": "icebarrows-ghostlyvoice-3",
     "onPlayer": true
+  },
+  {
+    "line": "[2/2] Ghostly Voice: Of course, just like you.. They can not leave. Their souls are stuck here. For the spell must not be broken.",
+    "stopSounds": false
   },
   {
     "line": "[1/1] Ghostly Voice: Even if you think you can cure me.. I can not allow you to try for if it were to fail my corrupted body would wreak havoc on the world!",
@@ -46664,6 +46676,10 @@
     "line": "[1/2] Ghostly Voice: It all seems clear to me now.. The struggle for life... It’s futile. There need only be peaceful darkness.",
     "file": "cib-ghostlyvoice-3",
     "onPlayer": true
+  },
+  {
+    "line": "[2/2] Ghostly Voice: Once my transformation is complete I shall begin to cleanse the world of vile mortality.",
+    "stopSounds": false
   },
   {
     "line": "[1/1] Ghostly Voice: I will not let you stop me!",
