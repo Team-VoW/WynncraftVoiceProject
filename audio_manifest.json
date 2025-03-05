@@ -10371,37 +10371,153 @@
     "hash": "7598be48fc066bcd444224b31a1d3bf01e40b1b73b7029f07798c404d8042c27",
     "size": 61752
   },
+  "corruptedbetrayal-lanu-1": {
+    "hash": "884f42c1245d70cdecef1e31dd59bc7041ae3d74c718e3d14cb31d6da21f06e1",
+    "size": 55928
+  },
+  "corruptedbetrayal-lanu-10": {
+    "hash": "519f7e1595cda51e0646e900b65968820bad5220ba8f2e47f692e4d838dd5132",
+    "size": 46713
+  },
+  "corruptedbetrayal-lanu-11": {
+    "hash": "33af24746618a7fd6f4e799267b78a44d3e48ec0b50c7560a08b6ecced75411c",
+    "size": 49127
+  },
+  "corruptedbetrayal-lanu-12": {
+    "hash": "c6178f1b6d4b1ede34ffa0400af5459ff07468ed9c047174b135b7c1d3f70b23",
+    "size": 45003
+  },
+  "corruptedbetrayal-lanu-13": {
+    "hash": "fa30c60912119aeb6507412a91d121e6dd3c82f3870143ef1266dd6fdcd5b242",
+    "size": 56303
+  },
+  "corruptedbetrayal-lanu-14": {
+    "hash": "e421daa499efa7fc095e4ff04959516c69cb57ebbaf828100d8dbba0be88f12d",
+    "size": 119071
+  },
+  "corruptedbetrayal-lanu-15": {
+    "hash": "7d882e920039190d9fee47cc0f229583ef1948147f20ce36ce533a1b03f46943",
+    "size": 91562
+  },
+  "corruptedbetrayal-lanu-16": {
+    "hash": "2b7ad702f3a865d41b57ee2578cadd7531392d3e792ab43292a7d445b3cb802c",
+    "size": 62858
+  },
+  "corruptedbetrayal-lanu-17": {
+    "hash": "f3c34fc044194f4fd1d593f8b64904a03a76b65bb3504e81b8ff7ffc378b899d",
+    "size": 163160
+  },
+  "corruptedbetrayal-lanu-18": {
+    "hash": "2fede199c31ccecfb727eb3b67e0a24ea345c1966adb7e7e77145c4f5cb10142",
+    "size": 111838
+  },
+  "corruptedbetrayal-lanu-19": {
+    "hash": "b5a44660bb4fabe85e5eaa205560ee885ffdda8a4db9aa080dd965a0ab5f0152",
+    "size": 113386
+  },
+  "corruptedbetrayal-lanu-2": {
+    "hash": "fccbca62ef3d258364a6d8c0774363b0950b034f23f01fbba33ed7a610235cf2",
+    "size": 106160
+  },
+  "corruptedbetrayal-lanu-3": {
+    "hash": "3c43168ba98a3008939991b9d1c6af69a0fb98267b84b877dea1a63a046f98b9",
+    "size": 116276
+  },
+  "corruptedbetrayal-lanu-4": {
+    "hash": "b883670ae5e6ee1949f5d104470be9029101e330123cb315076309a323707a5b",
+    "size": 122968
+  },
+  "corruptedbetrayal-lanu-5": {
+    "hash": "9129f0ee27cac3cb3d748f79c3eb652111ad3530c4eedd4f5bb2f7293893f66a",
+    "size": 127822
+  },
+  "corruptedbetrayal-lanu-6": {
+    "hash": "06e555ab4b9c93e89bd99b7d0a0b9ec3867dc34d37509bdf8e4e267fb249ae08",
+    "size": 137251
+  },
+  "corruptedbetrayal-lanu-7": {
+    "hash": "91cd8ec3315d00e931c9e2d9197a8267604ddc672166743c9c029f4f255d6c36",
+    "size": 121266
+  },
+  "corruptedbetrayal-lanu-8": {
+    "hash": "d783bb05df51bbff6c9a980f03333357bd9488e96c1a15e897493165670c407e",
+    "size": 51639
+  },
+  "corruptedbetrayal-lanu-9": {
+    "hash": "566c360c71ccae87e013d9df6d215ea89d13aa99944cb2a376d6414e8ced33bc",
+    "size": 37553
+  },
   "corruptedbetrayal-slykaar-1": {
-    "hash": "7757f4b1393ce2510d8e2368c70fa59190016d887ec31ccca79ab3a79de3fb47",
-    "size": 230035
+    "hash": "c2c19c17650b6b9967379208a0019b84fe5a0da0979ada0c3ab15069c917db1f",
+    "size": 54458
+  },
+  "corruptedbetrayal-slykaar-10": {
+    "hash": "07b01f1fb86c73cee7ac3ac8e43bbe1dfde48a640c4eddb2afb1c3b4b9a622dd",
+    "size": 90866
+  },
+  "corruptedbetrayal-slykaar-11": {
+    "hash": "44840b41276ca6452e9d3097936004b5545550bf63c5ab8305fd08d3532c2ca8",
+    "size": 99742
+  },
+  "corruptedbetrayal-slykaar-12": {
+    "hash": "06974dcac8e658535dcbe52b1615e0114854e24709462ac11664e8bb2b279069",
+    "size": 93499
+  },
+  "corruptedbetrayal-slykaar-13": {
+    "hash": "00c7248fede0e6ce3452528cb86bd07ea91e6888dec2fe6051b7badecc5853b8",
+    "size": 134056
+  },
+  "corruptedbetrayal-slykaar-14": {
+    "hash": "c1b7431087d2180bede9495902635180ad9dd1f265f5acceb1e1651e145783e6",
+    "size": 148552
+  },
+  "corruptedbetrayal-slykaar-15": {
+    "hash": "4497bd3461624960a3c9a6efd6d2b7d5ce52611ac8fb474425c998e42f007e0b",
+    "size": 86845
+  },
+  "corruptedbetrayal-slykaar-16": {
+    "hash": "4850e3a8536e0caabbdad6cc0c77ed8c587ef34a0f1929e6ca1cf07a0745d8b3",
+    "size": 166408
+  },
+  "corruptedbetrayal-slykaar-17": {
+    "hash": "d78c319d08ad98ebcf49b5c9b8f6ab7aed2706d655c856e4a5e74d3e4feb63d2",
+    "size": 117328
+  },
+  "corruptedbetrayal-slykaar-18": {
+    "hash": "9bb8d5665ecf304af852fd47aa04d4d24f5ecf6aa9b7e64b825b69668435f494",
+    "size": 144508
   },
   "corruptedbetrayal-slykaar-2": {
-    "hash": "d58d2e1006d98f8e6d1236c33d60b132d0a2289efd36e09396496a9b7a10f09c",
-    "size": 399187
+    "hash": "2d611fc3ad8c130264a6d4a87d4d17c13b8e8587580c3d9f9272419e2b46e823",
+    "size": 116844
   },
   "corruptedbetrayal-slykaar-3": {
-    "hash": "ca6cfe55459d86238059b5129c2671c4f614b2e0c5866ce0e13cdb8ee651ec96",
-    "size": 120620
+    "hash": "e7bd0505a94848c65e1b66edeed734e73927f6b5dbfdcba950a1f266e8c0ae1b",
+    "size": 138913
   },
   "corruptedbetrayal-slykaar-4": {
-    "hash": "5edb64217e14a214c5835520ac6de807ad2b60db68210c88de6fc21307d1936a",
-    "size": 242611
+    "hash": "2e2d7f4799756c4f1b7887a1d16e7ee960f425d061ca7dd18d2cac7f4c4c4abb",
+    "size": 75388
   },
   "corruptedbetrayal-slykaar-5": {
-    "hash": "c2ef9935bab3f7242536fd16abab7fdc62cdeb7eda83bde8926e9b23f2f9b312",
-    "size": 53781
+    "hash": "b1af30b738cfe908526bebb9997ec0ca299cd611dd239f96cd112bd4b8af8872",
+    "size": 115113
   },
   "corruptedbetrayal-slykaar-6": {
-    "hash": "5c4e69ced8d089acaae496aa1723eca86ef6d908908e2b197ec0f5ffc13983b0",
-    "size": 69728
+    "hash": "2ba3afa44282bb7aa40ed2aa7e64debe3a74cdcd4d4c3ab1d83c3c5841503221",
+    "size": 126068
   },
   "corruptedbetrayal-slykaar-7": {
-    "hash": "372cee155eac36c05bca05bb6db5a92f5da07c9a3463151c04f749a789f6dcf1",
-    "size": 98503
+    "hash": "d5d65e01094e7e06dabb1e9d9190bf9310509051216c94513d1157c4901e594a",
+    "size": 135194
   },
   "corruptedbetrayal-slykaar-8": {
-    "hash": "390af71483878f43d8fcf0cdf0ad74971e9055846f415060f353f95b9fb551d1",
-    "size": 80721
+    "hash": "9d5bb711b5554decf73729d22ae39b670e1c0af8bf673c98cae84cabea11d7ca",
+    "size": 82183
+  },
+  "corruptedbetrayal-slykaar-9": {
+    "hash": "c0d583c29b0a5c4146a6c85da58b96b19ab002e0a2ae3e6cb5dc707e31af0f2a",
+    "size": 136676
   },
   "corruptedbetrayal-tromsguard-1": {
     "hash": "7ec594328006f956e919913fbe5a2efd83cebf1a2c609b0a9b43f8c8f800b6f4",
@@ -10414,78 +10530,6 @@
   "corruptedbetrayal-tromsguard-3": {
     "hash": "c78d3d58192a6b88e3e714d7d1a5601b9a994bfba33fb492b09db56cce402ac1",
     "size": 34784
-  },
-  "corruptedbetrayal-tromsmage-1": {
-    "hash": "eac75848515ccda09cb2ff2f97808ad23c25c1dbc4f14f7029104e12196e6c2e",
-    "size": 38092
-  },
-  "corruptedbetrayal-tromsmage-10": {
-    "hash": "39cf40e95811bff0223214e427dbe4f60d4bfba85bd4c58b127fef99f8dec9ba",
-    "size": 17729
-  },
-  "corruptedbetrayal-tromsmage-11": {
-    "hash": "5c3817865e98e6e906dbb830bcbd75e54b22238bde69c5dff2d0094c2eb10483",
-    "size": 19379
-  },
-  "corruptedbetrayal-tromsmage-12": {
-    "hash": "d4569ea9fc2f7cf68a91377ecdf35bf2da7909e0b4a0f80c66a0eb2e4c886f2a",
-    "size": 57735
-  },
-  "corruptedbetrayal-tromsmage-13": {
-    "hash": "b99094d992ae1bf3113cf0283cf676279c9b450b2e7d8a3f0c05cab1a2a02999",
-    "size": 48051
-  },
-  "corruptedbetrayal-tromsmage-14": {
-    "hash": "7da40abe39217778bfdb30cca1e6cd7b29526989c2c9d44dc106551bdc72417d",
-    "size": 38654
-  },
-  "corruptedbetrayal-tromsmage-15": {
-    "hash": "3e0b22cc5fb85e8d332b4874c76edcbd09a7561c1c324e8c1b86874bc40858fa",
-    "size": 49033
-  },
-  "corruptedbetrayal-tromsmage-16": {
-    "hash": "7a78f68800ca0d837d81caf9ed9b2f871399fa6eed2a18fe81f4c8f871be2595",
-    "size": 58523
-  },
-  "corruptedbetrayal-tromsmage-17": {
-    "hash": "53bc54c7380490221e99ca1574f34251f555a1d3e3d22febe4c024129808917a",
-    "size": 47260
-  },
-  "corruptedbetrayal-tromsmage-18": {
-    "hash": "6c2f9c830f9ad120411cd87888917a5c743c7ff97f94300a837747f11d1cd01a",
-    "size": 48147
-  },
-  "corruptedbetrayal-tromsmage-2": {
-    "hash": "e673ea4e6996821be574131e0eb6a484cadee1ced2bf7c213ecd2e4969c029c2",
-    "size": 35041
-  },
-  "corruptedbetrayal-tromsmage-3": {
-    "hash": "e56cc2a612a55af838139b6b352c2bcc53ac38469bfbbee98445d0afbcec4879",
-    "size": 54799
-  },
-  "corruptedbetrayal-tromsmage-4": {
-    "hash": "bd9183c3adc1863e0d47e51b680da470b795b633e66ec2d76f760b40d0fb006f",
-    "size": 48575
-  },
-  "corruptedbetrayal-tromsmage-5": {
-    "hash": "28aa767710fa77ebd5991a59617f53dfa7491976d2c2b22c44093668202fc485",
-    "size": 39397
-  },
-  "corruptedbetrayal-tromsmage-6": {
-    "hash": "6e3f6f1bc8bbd8197dbdff0cd07ef5bd9751cc03496c7338a439194efe9ca9e6",
-    "size": 97185
-  },
-  "corruptedbetrayal-tromsmage-7": {
-    "hash": "286ab6b64de89ca4af256ffa8a9dad882978a46cbe09c33f2c51ee5a2071346a",
-    "size": 39158
-  },
-  "corruptedbetrayal-tromsmage-8": {
-    "hash": "18f97b8089d69aed131922a1a0d2a9b84e9676c209ca82433b5916f6a524e2a4",
-    "size": 125596
-  },
-  "corruptedbetrayal-tromsmage-9": {
-    "hash": "3b5b062e01bd016c64e58526d7bbcadd744b0ee2bfec1892ad2297a4f2ac5352",
-    "size": 53195
   },
   "corruptedvillage-alfonse-1": {
     "hash": "4e4361462820800dcf0b1326f6a6aec8699f91817ef8d684ee21d721cedcde0e",
