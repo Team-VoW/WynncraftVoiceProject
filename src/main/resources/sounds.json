@@ -4196,7 +4196,7 @@
     "file": "recoverthepast-alchemist-9"
   },
   {
-    "line": "[2/2] Alchemist: Ah! You're back! Do you need a reminder? You can find [1 Bloom of Death] if you look near the Elkurn Church!",
+    "line": "[2/2] Alchemist: Ah! You're back! Do you need a reminder? You can find [1 Bloom of Doom] if you look near the Elkurn Church!",
     "file": "recoverthepast-alchemist-10"
   },
   {
@@ -30803,6 +30803,10 @@
     "file": "thecanyonguides-seluc-44"
   },
   {
+    "line": "[7/9] Seluc: That's right! See, Gana? After all that, at least the human isn’t a liar.",
+    "file": "thecanyonguides-seluc-44"
+  },
+  {
     "line": "[5/5] Seluc: WHY YOU-",
     "file": "thecanyonguides-seluc-45"
   },
@@ -30860,6 +30864,10 @@
   },
   {
     "line": "[8/8] Gana: ...Well, 'coat fetcher', getting this man his coat is still a fine deed. And for that, you shall be rewarded.",
+    "file": "thecanyonguides-gana-12"
+  },
+  {
+    "line": "[8/9] Gana: ...Well, 'coat fetcher', getting this man his coat is still a fine deed. And for that, you shall be rewarded.",
     "file": "thecanyonguides-gana-12"
   },
   {
@@ -33600,7 +33608,7 @@
     "file": "beyondthegrave-irlok-18"
   },
   {
-    "line": "[1/1] Irlok: I have written the coordinates of the cave Krolton hides in, in your quest book.",
+    "line": "[1/1] Irlok: I have written the coordinates of the cave Krolton hides in, in your content book.",
     "file": "beyondthegrave-irlok-19"
   },
   {
@@ -34805,7 +34813,7 @@
     "file": "fantasticvoyage-tavernowner-16"
   },
   {
-    "line": "[1/4] Tavern Owner: ...Oh, you're goin' out with Relend, hey? Even after all I said?",
+    "line": "[1/4] Tavern Owner: ...Oh, you're goin' out with Relend, hey? You sure?",
     "file": "fantasticvoyage-tavernowner-17"
   },
   {
@@ -34978,7 +34986,7 @@
     "file": "fantasticvoyage-relend-41"
   },
   {
-    "line": "[7/7] Relend: Check your quest book if you ever need a recap. And to make sure you don't get lost, take the map.",
+    "line": "[7/7] Relend: Check your content book if you ever need a recap. And to make sure you don't get lost, take the map.",
     "file": "fantasticvoyage-relend-42"
   },
   {
@@ -36415,7 +36423,7 @@
     "file": "thefeathersflypart2-efena-33"
   },
   {
-    "line": "[5/10] Efena: You’re crying?! Aw... There, there. It’s alright, you made it.",
+    "line": "[5/10] Efena: You're crying?! Aw... There, there. It's alright, you made it.",
     "file": "thefeathersflypart2-efena-34"
   },
   {
@@ -36528,7 +36536,7 @@
     "file": "thefeathersflypart2-efena-43"
   },
   {
-    "line": "[3/20] Efena: I'm unsure if I should be impressed, distressed or enraged. So I think I'll just be all three. Ava, congratulations.",
+    "line": "[3/20] Efena: I'm unsure if I should be impressed, distressed or enraged. So I think I'll just be all three! Ava, congratulations.",
     "file": "thefeathersflypart2-efena-44"
   },
   {
@@ -37634,7 +37642,7 @@
     "file": "thefeathersflypart2-ava-187"
   },
   {
-    "line": "[4/4] Ava: It's as the president just said, soldier. Do your thing..",
+    "line": "[4/4] Ava: It's as the president just said, soldier. Do your thing.",
     "file": "thefeathersflypart2-ava-188"
   },
   {
@@ -37795,7 +37803,7 @@
     "file": "thefeathersflypart2-ava-227"
   },
   {
-    "line": "[19/20] Ava: Don’t you dare touch- Gah! I’ll show you. I’ll show everyone what you’re missing out on!",
+    "line": "[19/20] Ava: Don't you dare touch- Gah! I'll show you. I'll show everyone what you're missing out on!",
     "file": "thefeathersflypart2-ava-228"
   },
   {
@@ -39380,7 +39388,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/3] Korzim: Hoho...! Over here...fine traveler! Join me at the gates!",
+    "line": "[1/3] Korzim?: Hoho...! Over here...fine traveler! Join me at the gates!",
     "file": "dwarvesanddogunspart3-korzim-13"
   },
   {
@@ -39416,15 +39424,15 @@
     "file": "dwarvesanddogunspart3-edula-5"
   },
   {
-    "line": "[7/9] Edula: You will need 10 Fire Webs. The Heatscar Spiders under the town make them, there's a cave right by the entrance arch.",
+    "line": "[7/9] Edula: You will need [10 Fire Webs] . The Heatscar Spiders under the town make them, there's a cave right by the entrance arch.",
     "file": "dwarvesanddogunspart3-edula-6"
   },
   {
-    "line": "[8/9] Edula: Then, 3 Magmatic Crystals from the Maex mines. I'd get them myself, but...I'm banned from there since the rubber mallet incident.",
+    "line": "[8/9] Edula: Then, [3 Magmatic Crystals] from the Maex mines. I'd get them myself, but...I'm banned from there since the rubber mallet incident.",
     "file": "dwarvesanddogunspart3-edula-7"
   },
   {
-    "line": "[9/9] Edula: Lastly, 1 Crystallized Lava. The closest source is in the lava lake just outside Maex. There's a protruding crater in the lake.",
+    "line": "[9/9] Edula: Lastly, [1 Crystallized Lava]. The closest source is in the lava lake just outside Maex. There's a protruding crater in the lake.",
     "file": "dwarvesanddogunspart3-edula-8"
   },
   {
@@ -39532,7 +39540,7 @@
     "file": "dwarvesanddogunspart3-korzim-23"
   },
   {
-    "line": "[1/4] Korzim: We must... move fast... or... we will both.... freeze.",
+    "line": "[1/5] Korzim: We must... move fast... or... we will both.... freeze.",
     "file": "dwarvesanddogunspart3-korzim-24"
   },
   {
@@ -40072,7 +40080,7 @@
     "file": "onethousandmetersunder-captainolof-19"
   },
   {
-    "line": "[1/1] Captain Olof: We'll need 5 Sand Substitutes and 10 Glue Substitutes to repair the ship.",
+    "line": "[1/1] Captain Olof: We'll need [5 Sand Substitutes] and [10 Glue Substitutes] to repair the ship.",
     "file": "onethousandmetersunder-captainolof-20"
   },
   {
@@ -41106,7 +41114,7 @@
     "file": "thebreakingpoint-generalelix-1"
   },
   {
-    "line": "[2/2] General Elix: Help? You're not nearly experienced enough to help us out, get out of here!",
+    "line": "[2/2] General Elix: Help? You're not nearly experienced enough to help us out, get out of here until you're at least level 97!",
     "file": "thebreakingpoint-generalelix-2"
   },
   {
@@ -46716,9 +46724,17 @@
     "onPlayer": true
   },
   {
+    "line": "[2/2] ????: WHY IS IT THAT YOU HUMANS CAN'T SEEM TO LEAVE THIS FACTORY OR ANYTHING ELSE IN PEACE FOR ONE DAY IN YOUR LIVES? SHEESH.",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] ????: FINE. I’M OPENING THE DOOR FOR YOU. TAKE A SHORT LOOK AROUND AND THEN LEAVE. THERE IS DANGEROUS EQUIPMENT HERE THAT ONLY OFFICIAL FACTORY ASSOCIATES SHOULD HANDLE.",
     "file": "fallenfactory-antikytherasupercomputer-2",
     "onPlayer": true
+  },
+  {
+    "line": "[2/2] ????: AND YOU LOOK LIKE ANYTHING BUT A FULL-TIME EMPLOYEE. DO NOT TOUCH ANYTHING IN THIS ROOM. AM I UNDERSTOOD?",
+    "stopSounds": false
   },
   {
     "line": "[1/2] ????: OF COURSE, IF YOU ARE DEAD THEN THERE IS NO WAY FOR YOU TO TOUCH ANYTHING, AND MY ROBOTS ARE VERY GOOD CLEANERS, SO I THINK THIS NEW SOLUTION WILL WORK OUT FOR EVERYONE.",
@@ -46801,7 +46817,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/3] ????: Unauthorized blockage in Factory Sector E1. Emergency maintenance will be performed in approximately 75 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared.",
+    "line": "[1/3] ????: Unauthorized blockage in Factory Sector E1. Emergency maintenance will be performed in approximately 55 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared",
     "file": "fallenfactory-antikytherasupercomputer-20",
     "onPlayer": true
   },
@@ -46831,14 +46847,26 @@
     "onPlayer": true
   },
   {
+    "line": "[2/2] Antikythera Core A: Wait a sec, you aren't an official maintenance worker! Get out of here or I use force! No entry unless registered, ya hear?!",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Antikythera Supercomputer: YOU'VE QUICKLY BECOME NO LONGER ENTERTAINING TO WATCH. YOU REALLY SHOULDN'T GO IN THERE.",
     "file": "fallenfactory-antikytherasupercomputer-26",
     "onPlayer": true
   },
   {
+    "line": "[2/2] Antikythera Supercomputer: THERE AREN'T ANY SHINY BUTTONS TO PRESS, BUT I CAN PUT SOME OUTSIDE UNDER THE BOMBS IF YOU WANT. WOULD YOU LIKE THAT INSTEAD?",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Antikythera Core B: Unauthorized personnel detected in Antikythera Auxiliary Core Duct B. Leave immediately, or be faced with lethal force and negative marks on your career record.",
     "file": "fallenfactory-antikytherasupercomputer-27",
     "onPlayer": true
+  },
+  {
+    "line": "[2/2] Antikythera Core B: Unauthorized personnel still detected. We here at the Corkus Manufactory are sorry, but your position is officially terminated for failure to comply to orders. Please remain still so lethal force may be applied.",
+    "stopSounds": false
   },
   {
     "line": "[1/1] Antikythera Supercomputer: Primary ventilation duct A unblocked. Closing emergency maintenance hatch.",
