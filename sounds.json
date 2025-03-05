@@ -1880,7 +1880,7 @@
     "file": "takingthetower-aledar-13"
   },
   {
-    "line": "[2/6] Aledar: Apparently, the big bad at the top of the tower is weak to ? Water damage! And so, here we are at the Powder Master.",
+    "line": "[2/6] Aledar: Apparently, the big bad at the top of the tower is weak to ❉ Water damage! And so, here we are at the Powder Master.",
     "file": "takingthetower-aledar-14"
   },
   {
@@ -2366,11 +2366,11 @@
     "file": "elementalexercise-captainragon-7"
   },
   {
-    "line": "[3/7] Tasim: I am! The elements are... ? Fire, ? Air, ? Earth, ? Thunder, and... ? Water?",
+    "line": "[3/7] Tasim: I am! The elements are... ✹ Fire, ❋ Air, ✤ Earth, ✦ Thunder, and... ❉ Water?",
     "file": "elementalexercise-tasim-3"
   },
   {
-    "line": "[4/7] Captain Ragon: That's right. And generally speaking, they're strong against each other in that order- ? Fire beats ? Air, ? Air beats ? Earth, and so on.",
+    "line": "[4/7] Captain Ragon: That's right. And generally speaking, they're strong against each other in that order- ✹ Fire beats ❋ Air, ❋ Air beats ✤ Earth, and so on.",
     "file": "elementalexercise-captainragon-8"
   },
   {
@@ -2422,7 +2422,7 @@
     "file": "elementalexercise-captainragon-17"
   },
   {
-    "line": "[6/9] Tasim: ...Oh! So my Bash spell will still deal ? Earth damage even if my weapon only uses ? Water, right?",
+    "line": "[6/9] Tasim: ...Oh! So my Bash spell will still deal ✤ Earth damage even if my weapon only uses ❉ Water, right?",
     "file": "elementalexercise-tasim-7"
   },
   {
@@ -2707,11 +2707,11 @@
     "file": "stablestory-enkser-12"
   },
   {
-    "line": "[4/5] Enkser: I kid! I kid. But as the great bovine above as my witness if I see the smallest bruise I will-",
+    "line": "[4/5] Enkser: I kid! I kid. But as the great bovine above is my witness if I see the smallest bruise I will-",
     "file": "stablestory-enkser-13"
   },
   {
-    "line": "[5/5] Enkser: Eh, nevermind all that. A horse I promised, and a horse you shall have. Much thanks to you.",
+    "line": "[5/5] Enkser: Nevermind all that. A horse I promised, and a horse you shall have. Much thanks to you.",
     "file": "stablestory-enkser-14"
   },
   {
@@ -2991,11 +2991,19 @@
     "file": "arachnidsascent-captainenduyn-12"
   },
   {
+    "line": "[1/7] Captain Enduyn: You've returned! I trust you found something that can help us get through these webs?",
+    "file": "arachnidsascent-captainenduyn-12"
+  },
+  {
     "line": "[2/6] Aledar: We did! We fought off a spider at the summit, and claimed a magical flame.",
     "file": "arachnidsascent-aledar-18"
   },
   {
     "line": "[3/6] Captain Enduyn: Excellent! Now, give it here. I take it the three of you intend to storm the nest?",
+    "file": "arachnidsascent-captainenduyn-13"
+  },
+  {
+    "line": "[3/7] Captain Enduyn: Excellent! Now, give it here. Let's see if we can't get these villagers free... watch out, folks! It might get a little warm for a moment...",
     "file": "arachnidsascent-captainenduyn-13"
   },
   {
@@ -3227,7 +3235,7 @@
     "file": "malticwell-rynend-3"
   },
   {
-    "line": "[4/4] Rynend: Please do something! I know Maltic isn't of importance to you humans, being a Villager settlement, but...my son!",
+    "line": "[4/4] Rynend: Please do something! I know Maltic isn't of much importance to you humans, being a villager settlement, but...my son!",
     "file": "malticwell-rynend-4"
   },
   {
@@ -3239,7 +3247,7 @@
     "file": "malticwell-witch-1"
   },
   {
-    "line": "[1/2] Witch: I don't know why they call me a witch. Magic is everywhere, you know. This one's father made fun of my looks, so I'll turn his son into a Grook!",
+    "line": "[1/2] Witch: I don't know why they call me a witch. This one's father made fun of my looks, so I'll turn his son into a Grook!",
     "file": "malticwell-witch-2"
   },
   {
@@ -3255,7 +3263,7 @@
     "file": "malticwell-witch-5"
   },
   {
-    "line": "[1/4] Witch: Oh...didn't think that'd fool you. You know, I'm really not all that good at magic. I just like wearing pointy hats, and have warts.",
+    "line": "[1/4] Witch: Oh...didn't think that'd fool you. You know, I'm really not all that good at magic. I just like wearing this cowl, and have warts.",
     "file": "malticwell-witch-6"
   },
   {
@@ -3463,11 +3471,11 @@
     "file": "gravedigger-sayleros-5"
   },
   {
-    "line": "[6/8] Sayleros: One of my other brothers also survived the attack. He isn't... um... somebody I'd trust greatly, but I'm sure he has some useful informations for you.",
+    "line": "[6/8] Sayleros: One of my other brothers also survived the attack. He isn't... um... somebody I'd trust greatly, but I'm sure he has some useful information for you.",
     "file": "gravedigger-sayleros-6"
   },
   {
-    "line": "[7/8] Sayleros: His name is Drucksh. He usually likes to talk a lot when he is drunk, see if you can do anything with that.",
+    "line": "[7/8] Sayleros: His name is Drucksh. He usually likes to talk a lot when he is drunk. See if you can do anything with that.",
     "file": "gravedigger-sayleros-7"
   },
   {
@@ -3487,7 +3495,7 @@
     "file": "gravedigger-drucksh-3"
   },
   {
-    "line": "[2/4] Drucksh: F-fine! I guess it wouldn't h-h-hurt to tell...*burp*..you where it-it- he is...",
+    "line": "[2/4] Drucksh: F-fine! I guess it wouldn't h-h-hurt to tell...burp..you where it-it- he is...",
     "file": "gravedigger-drucksh-4"
   },
   {
@@ -3495,31 +3503,31 @@
     "file": "gravedigger-drucksh-5"
   },
   {
-    "line": "[4/4] Drucksh: Though, the p-p-priest might not let you go in that easily...",
+    "line": "[4/4] Drucksh: Though, he's not as d-d-dead as you think...",
     "file": "gravedigger-drucksh-6"
   },
   {
-    "line": "[1/4] The Priest: Are you trying to go down into the crypt? Oh, that is a very bad idea.",
+    "line": "[1/5] The Priest: Welcome to the Nemract cathedral traveler. How can I help you?",
     "file": "gravedigger-priest-1"
   },
   {
-    "line": "[2/4] The Priest: This place has been corrupted, and the dead came back to life. We had to break the stairs to protect this cathedral.",
+    "line": "[2/5] The Priest: Sayleros has sent you to find something in the crypt? That is a very bad idea. However, you look well prepared.",
     "file": "gravedigger-priest-2"
   },
   {
-    "line": "[3/4] The Priest: If you really want to enter it, I'd have to purify it so it doesn't corrupt you.",
+    "line": "[3/5] The Priest: Corruption has seeped into the graves, the dead are coming back to life. We are working on barring the entrance up, to protect the cathedral.",
     "file": "gravedigger-priest-3"
   },
   {
-    "line": "[4/4] The Priest: Bring me [12 Rotten Flesh], that should do it. Ancient Nemract is filled with zombies, it's toward the south-west.",
+    "line": "[4/5] The Priest: If you must enter, I will not try to stop you. The keys to access different parts of the crypt are down there.",
     "file": "gravedigger-priest-4"
   },
   {
-    "line": "[1/2] The Priest: You got the flesh. Good.",
+    "line": "[5/5] The Priest: The partially barred entrance across from me will lead you there, please, be careful.",
     "file": "gravedigger-priest-5"
   },
   {
-    "line": "[2/2] The Priest: It should be... \"safe\", now. Be very careful, you are entering at your own risk.",
+    "line": "[1/1] The Priest: The partially barred entrance across from me will lead you to the crypt. Please, be careful.",
     "file": "gravedigger-priest-6"
   },
   {
@@ -3527,7 +3535,7 @@
     "file": "gravedigger-sayleros-9"
   },
   {
-    "line": "[1/1] Sayleros: Thank you so much for your help!",
+    "line": "[1/1] Sayleros: Thank you so much for your help",
     "file": "gravedigger-sayleros-10"
   },
   {
@@ -3555,8 +3563,12 @@
     "file": "gravedigger-sayleros-15"
   },
   {
-    "line": "[1/1] The Priest: Thank the gods you are still alive! Hopefully you are still doing fine in this dangerous world?",
+    "line": "[1/1] The Priest: Thank the great bovine you are still alive! Hopefully you are still doing fine in this dangerous world?",
     "file": "gravedigger-priest-8"
+  },
+  {
+    "line": "[1/1] The Priest: Greetings traveler. Welcome to the Nemract cathedral. It's always nice to see a new face around these parts.",
+    "file": "gravedigger-priest-9"
   },
   {
     "line": "[1/5] Mask Salesman: Hmm... Let's see, wha- Ah! Oh, pardon me, I was distracted. Luckily you're here, because I require some assistance.",
@@ -3786,7 +3798,7 @@
     "file": "pitofthedead-merloni-2"
   },
   {
-    "line": "[2/8] Merloni: It is the pit where the corpses of the poor miners who discovered what is now named the Nether Portal are buried.",
+    "line": "[2/8] Merloni: It is the pit where the corpses of the poor miners who discovered the Portal by the Roots of Corruption are buried.",
     "file": "pitofthedead-merloni-3"
   },
   {
@@ -3868,6 +3880,10 @@
   {
     "line": "[3/10] Leucsaa: Finally, the journal. It's out here somewhere, I assume. I'll look around.",
     "file": "dwellingwalls-leucsaa-3"
+  },
+  {
+    "line": "[4/10] Leucsaa: ...",
+    "stopSounds": "false"
   },
   {
     "line": "[5/10] Leucsaa: Hold on, what? The journal! I must have forgotten it inside the mansion!",
@@ -4180,7 +4196,7 @@
     "file": "recoverthepast-alchemist-5"
   },
   {
-    "line": "[6/8] Alchemist: Good, good. The item I'm looking for is known as a [Bloom of Death]. You can likely find some growing near the Elkurn church.",
+    "line": "[6/8] Alchemist: Good, good. The item I'm looking for is known as a [Bloom of Doom]. You can likely find some growing near the Elkurn church.",
     "file": "recoverthepast-alchemist-6"
   },
   {
@@ -4188,7 +4204,7 @@
     "file": "recoverthepast-alchemist-7"
   },
   {
-    "line": "[8/8] Alchemist: Well, I'll get to brewing. Fetch me [1 Bloom of Death] and I'll be able to finish the potion!",
+    "line": "[8/8] Alchemist: Well, I'll get to brewing. Fetch me [1 Bloom of Doom] and I'll be able to finish the potion!",
     "file": "recoverthepast-alchemist-8"
   },
   {
@@ -4196,7 +4212,7 @@
     "file": "recoverthepast-alchemist-9"
   },
   {
-    "line": "[2/2] Alchemist: Ah! You're back! Do you need a reminder? You can find [1 Bloom of Death] if you look near the Elkurn Church!",
+    "line": "[2/2] Alchemist: Ah! You're back! Do you need a reminder? You can find [1 Bloom of Doom] if you look near the Elkurn Church!",
     "file": "recoverthepast-alchemist-10"
   },
   {
@@ -6558,7 +6574,7 @@
     "file": "greengloop-eluzterp-4"
   },
   {
-    "line": "[5/9] Eluzterp: However, the slimes have gotten stronger about a month ago. I'm unable to retrieve it any more, I've come close to getting killed a few times!",
+    "line": "[5/9] Eluzterp: However, the slimes have gotten stronger about a month ago. I'm unable to retrieve it any more, I^ve come close to getting killed a few times!",
     "file": "greengloop-eluzterp-5"
   },
   {
@@ -6574,7 +6590,7 @@
     "file": "greengloop-eluzterp-8"
   },
   {
-    "line": "[9/9] Eluzterp: I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell him, and he'll probably let you into his shop.",
+    "line": "[9/9] Eluzterp: I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell my friend, and he^ll probably let you into his shop.",
     "file": "greengloop-eluzterp-9"
   },
   {
@@ -6654,7 +6670,7 @@
     "file": "asandyscandal-almujbankguard-4"
   },
   {
-    "line": "[5/7] Almuj Bank Guard: Great! The store from the first witness report is straight down the stairs, just past this building here, just behind me.",
+    "line": "[5/7] Almuj Bank Guard: Great! The store from the first witness report is straight down the stairs, just past this building right behind me.",
     "file": "asandyscandal-almujbankguard-5"
   },
   {
@@ -8406,27 +8422,27 @@
     "file": "wrathofthemummy-ormrod-6"
   },
   {
-    "line": "[1/6] Achper: If I know about mummies? Of course! I've spent my entire life studying them!",
+    "line": "[1/6] Achper: Do I know anything about Mummies? Of course! I've spent my entire life studying them!",
     "file": "wrathofthemummy-achper-1"
   },
   {
-    "line": "[2/6] Achper: They usually are very hard to reach, hidden in their tomb.",
+    "line": "[2/6] Achper: They usually are very hard to reach, hidden in their tomb... and they don't like being disturbed.",
     "file": "wrathofthemummy-achper-2"
   },
   {
-    "line": "[3/6] Achper: I know what happened to Ormrod, and the only way to remove the powerful curse would be to kill the mummy.",
+    "line": "[3/6] Achper: I have heard of the curse that follows Ormrod, and the only way to remove its effects would be to kill the mummy.",
     "file": "wrathofthemummy-achper-3"
   },
   {
-    "line": "[4/6] Achper: The tomb is north from here, but be very careful!",
+    "line": "[4/6] Achper: The tomb lies in the North of the desert, but be very careful!",
     "file": "wrathofthemummy-achper-4"
   },
   {
-    "line": "[5/6] Achper: Mummies aren't known to be weak... especially that one. It's demonic...pure evil, I have never seen such strength in a being.",
+    "line": "[5/6] Achper: Mummies aren't known to be weak, especially that one. It's demonic... pure evil. It's easily one of the most powerful specimens I've encountered.",
     "file": "wrathofthemummy-achper-5"
   },
   {
-    "line": "[6/6] Achper: On top of that, the Creden Tibus bandit clan have been ransacking the tomb. They might not let you inside without some negotiating.",
+    "line": "[6/6] Achper: On top of that, the Creden Tibus bandit clan have been ransacking the tombs around the desert. You might run into trouble with them, so be prepared.",
     "file": "wrathofthemummy-achper-6"
   },
   {
@@ -11197,40 +11213,60 @@
     "file": "junglefever-worid-21"
   },
   {
-    "line": "[1/1] Troms Mage: Stay back! I'm casting a fireball at this barrier!",
-    "file": "corruptedbetrayal-tromsmage-1"
+    "line": "[1/7] Lanu: Hey, soldier! Yeah, you! Got some spare time to lend a hand?",
+    "file": "corruptedbetrayal-lanu-1"
   },
   {
-    "line": "[1/8] Troms Mage: Gah, no use. Again.",
-    "file": "corruptedbetrayal-tromsmage-2"
+    "line": "[2/7] Lanu: We've got a major problem with this old fortress. It keeps spewing out all these damned slimes, and their proximity to Troms is causing issues.",
+    "file": "corruptedbetrayal-lanu-2"
   },
   {
-    "line": "[2/8] Troms Mage: Ah, I didn’t expect to see a Ragni soldier out here. Perhaps you can assist me?",
-    "file": "corruptedbetrayal-tromsmage-3"
+    "line": "[3/7] Lanu: Soldiers are spending half their guard duty slicing the critters into sludge. Ideally we'd raid the cave, cut out the source, but...",
+    "file": "corruptedbetrayal-lanu-3"
   },
   {
-    "line": "[3/8] Troms Mage: This is the second cave in the jungle to start spewing out aggressive slimes.",
-    "file": "corruptedbetrayal-tromsmage-4"
+    "line": "[4/7] Lanu: This place has some history. Nasty stuff. I'd prefer not to head in blind, so I've been checking for any clues to what we might find inside.",
+    "file": "corruptedbetrayal-lanu-4"
   },
   {
-    "line": "[4/8] Troms Mage: Being so close to Troms, it’s become a major problem.",
-    "file": "corruptedbetrayal-tromsmage-5"
+    "line": "[5/7] Lanu: Haven't found much... except this verse, 'scribed into the wall over there. Go on, check it out and let me know what you think.",
+    "file": "corruptedbetrayal-lanu-5"
   },
   {
-    "line": "[5/8] Troms Mage: We tried to attack it, but this barrier is shaman magic, horrendously powerful too. The only way it could be this strong is if many lives were taken to make it...",
-    "file": "corruptedbetrayal-tromsmage-6"
+    "line": "[6/7] Lanu: Nonsense, if you ask me. Most likely kids from Troms messing about. But we haven't found anything else, so... if you've got any time, fancy checking it out for me?",
+    "file": "corruptedbetrayal-lanu-6"
   },
   {
-    "line": "[6/8] Troms Mage: So, we're stuck. The only clue we found is this riddle...",
-    "file": "corruptedbetrayal-tromsmage-7"
+    "line": "[7/7] Lanu: The first line is obviously talking about the Great Bridge, but I've no clue what the rest means. Head over there, take a look around, and tell me if you find anything interesting.",
+    "file": "corruptedbetrayal-lanu-7"
   },
   {
-    "line": "[7/8] Troms Mage: Near a corrupted bridge, a ruin past its prime...lives a cursed sheep, with the color of lime...lead it down the trail, heading to the slime...sacrifice its soul, in the blood and grime.",
-    "file": "corruptedbetrayal-tromsmage-8"
+    "line": "[1/1] Lanu: Found anything interesting around the riddle yet? Do you need to hear it again?",
+    "file": "corruptedbetrayal-lanu-8"
   },
   {
-    "line": "[8/8] Troms Mage: We haven’t been able to work it out. Head out to the Great Bridge entrance and see if you can find anything.",
-    "file": "corruptedbetrayal-tromsmage-9"
+    "line": "[1/1] Lanu: Alrighty. Let me know what when you've got something then.",
+    "file": "corruptedbetrayal-lanu-9"
+  },
+  {
+    "line": "[1/5] Lanu: Near a corrupted bridge, a ruin past its prime..",
+    "file": "corruptedbetrayal-lanu-10"
+  },
+  {
+    "line": "[2/5] Lanu: Lives a cursed sheep, with the color of lime...",
+    "file": "corruptedbetrayal-lanu-11"
+  },
+  {
+    "line": "[3/5] Lanu: Lead it down the trail, headed to the slime...",
+    "file": "corruptedbetrayal-lanu-12"
+  },
+  {
+    "line": "[4/5] Lanu: Sacrifice its soul, in the blood and the grime.",
+    "file": "corruptedbetrayal-lanu-13"
+  },
+  {
+    "line": "[5/5] Lanu: The first line is obviously talking about the Great Bridge, but I've no clue what the rest means. Head over there, take a look around, and tell me if you find anything interesting.",
+    "file": "corruptedbetrayal-lanu-14"
   },
   {
     "line": "[1/3] Troms Guard: By order of the city of Troms, I am here to keep other citizens from entering this house.",
@@ -11250,76 +11286,112 @@
     "onPlayer": true
   },
   {
-    "line": "[1/5] Slykaar: I experimented my shamanism for many years underground to create the perfect mix of monster. ",
+    "line": "[2/4] ???: Welcome to my domain. I am the hero of Troms, Slykaar.",
     "file": "corruptedbetrayal-slykaar-2",
     "onPlayer": true
   },
   {
-    "line": "[1/2] Slykaar: No one in the Wynn province is willing to make the sacrifices I am to gain power.",
+    "line": "[3/4] Slykaar: Well, I used to be. Banished by the very people who asked for my help. Pathetic.",
     "file": "corruptedbetrayal-slykaar-3",
     "onPlayer": true
   },
   {
-    "line": "[1/3] Slykaar: They were willing to give me a few peasants in 831, when the hordes crossed the bridge.",
+    "line": "[4/4] Slykaar: They couldn’t give me a few peasants for their safety? Weak.",
     "file": "corruptedbetrayal-slykaar-4",
     "onPlayer": true
   },
   {
-    "line": "[1/4] Slykaar: Looks like we have a Bob aspirer. Pale imitation. ",
+    "line": "[1/5] Slykaar: I experimented my shamanism for many years underground to create the perfect mix of monster.",
     "file": "corruptedbetrayal-slykaar-5",
     "onPlayer": true
   },
   {
-    "line": "[2/4] Slykaar: Take the scroll. Break the barrier and let your little army men walk into my lair.",
+    "line": "[2/5] Slykaar: Most ended in horrific slimes. Aggressive and powerful, but alas, just slimes.",
     "file": "corruptedbetrayal-slykaar-6",
     "onPlayer": true
   },
   {
-    "line": "[3/4] Slykaar: I am ready; it makes little difference. Soon, Troms will be in ruins. And I shall have my revenge.",
+    "line": "[3/5] Slykaar: Then I found this place. A dark land. A dark god. A source of power.",
     "file": "corruptedbetrayal-slykaar-7",
     "onPlayer": true
   },
   {
-    "line": "[4/4] Slykaar: So, go have fun in Troms while you can. It’s not like you have much of a life to live, anyways.",
+    "line": "[4/5] Slykaar: You mediocre wielders of magic have no idea what this world holds.",
     "file": "corruptedbetrayal-slykaar-8",
     "onPlayer": true
   },
   {
-    "line": "[1/9] Troms Mage: Any luck with the riddle?",
-    "file": "corruptedbetrayal-tromsmage-10"
+    "line": "[5/5] Slykaar: You all strive to be that hero of heroes, “Bob”, but here's the truth. He’s lost. You’re lost.",
+    "file": "corruptedbetrayal-slykaar-9",
+    "onPlayer": true
   },
   {
-    "line": "[2/9] Troms Mage: You found something?",
-    "file": "corruptedbetrayal-tromsmage-11"
+    "line": "[1/2] Slykaar: No one in the Wynn province is willing to make the sacrifices I am to gain power.",
+    "file": "corruptedbetrayal-slykaar-10",
+    "onPlayer": true
+
   },
   {
-    "line": "[3/9] Troms Mage: Hmm...oh my. This is dark stuff. Very dark.",
-    "file": "corruptedbetrayal-tromsmage-12"
+    "line": "[2/2] Slykaar: If you want power, you have to give some. Sacrifice a few to save many.",
+    "file": "corruptedbetrayal-slykaar-11",
+    "onPlayer": true
   },
   {
-    "line": "[4/9] Troms Mage: It doesn't give me pleasure to use this...but it will break the barrier.",
-    "file": "corruptedbetrayal-tromsmage-13"
+    "line": "[1/3] Slykaar: They were willing to give me a few peasants in 831, when the hordes crossed the bridge.",
+    "file": "corruptedbetrayal-slykaar-12",
+    "onPlayer": true
   },
   {
-    "line": "[5/9] Troms Mage: Stand back, I'm not exactly sure what this does.",
-    "file": "corruptedbetrayal-tromsmage-14"
+    "line": "[2/3] Slykaar: The king was happy to throw away lives to save his. But then the hero of Wynn waltzed in a few years later.",
+    "file": "corruptedbetrayal-slykaar-13",
+    "onPlayer": true
   },
   {
-    "line": "[6/9] Troms Mage: The spell...it destroyed the barrier almost instantly...",
-    "file": "corruptedbetrayal-tromsmage-15"
+    "line": "[3/3] Slykaar: They banished me like a rotten fruit. Their hero, their protector. So what if a few hundred nobodies died for it.",
+    "file": "corruptedbetrayal-slykaar-14",
+    "onPlayer": true
   },
   {
-    "line": "[7/9] Troms Mage: Okay men! The barrier is down, so charge against Slykaar before he marches against Troms!",
-    "file": "corruptedbetrayal-tromsmage-16"
+    "line": "[1/4] Slykaar: Looks like we have a Bob aspirer. Pale imitation.",
+    "file": "corruptedbetrayal-slykaar-15",
+    "onPlayer": true
   },
   {
-    "line": "[8/9] Troms Mage: I don't have much to repay you, but it's at least useful for a soldier like you.",
-    "file": "corruptedbetrayal-tromsmage-17"
+    "line": "[2/4] Slykaar: So. Feel free to visit me down below, bring the entire might of the Troms army upon me. It will not be enough.",
+    "file": "corruptedbetrayal-slykaar-16",
+    "onPlayer": true
   },
   {
-    "line": "[9/9] Troms Mage: If you have nothing else to do, you should get yourself prepared and aid the army against Slykaar.",
-    "file": "corruptedbetrayal-tromsmage-18"
+    "line": "[3/4] Slykaar: I am ready. Soon, Troms will be in ruins. And I shall have my revenge.",
+    "file": "corruptedbetrayal-slykaar-17",
+    "onPlayer": true
   },
+  {
+    "line": "[4/4] Slykaar: Go have fun while you can. It’s not like you have much of a life to live, anyways.",
+    "file": "corruptedbetrayal-slykaar-18",
+    "onPlayer": true
+  },
+  {
+    "line": "[1/5] Lanu: Ah, you're back. Find anything interesting? I've just been knocking back the occasional slime that pops up out of the cave.",
+    "file": "corruptedbetrayal-lanu-15"
+  },
+  {
+    "line": "[2/5] Lanu: You... saw Slykaar? In another dimension?!",
+    "file": "corruptedbetrayal-lanu-16"
+  },
+  {
+    "line": "[3/5] Lanu: This is bad. If he can materialise outside of this cave, even psychoactively... he's getting stronger. It explains the slimes, the attacks on Troms...",
+    "file": "corruptedbetrayal-lanu-17"
+  },
+  {
+    "line": "[4/5] Lanu: He's an incredibly powerful shaman, soldier. He has to be stopped, but it would take forever for Troms to mobile a force against him.",
+    "file": "corruptedbetrayal-lanu-18"
+  },
+  {
+    "line": "[5/5] Lanu: If you can, you should head in there and... finish him off. Gear up first, though, and find some friends watch your back.",
+    "file": "corruptedbetrayal-lanu-19"
+  },
+
   {
     "line": "[1/7] Voer: Hello! Hmm, armour, weapon, look of grim despair... You must be from the Wynn province!",
     "file": "deathwhistle-voer-1"
@@ -16030,7 +16102,7 @@
     "file": "redbeardsbooty-marston-11"
   },
   {
-    "line": "[3/7] Marston: Seems they found a way ta open ol' Redbeard's graveyard... Speakin' of, what'n the name o' Davy Jones' Locket happened out there?!",
+    "line": "[3/7] Marston: Speakin' of, what'n the name o' Davy Jones' Locket happened out there?!",
     "file": "redbeardsbooty-marston-12"
   },
   {
@@ -30803,6 +30875,10 @@
     "file": "thecanyonguides-seluc-44"
   },
   {
+    "line": "[7/9] Seluc: That's right! See, Gana? After all that, at least the human isn’t a liar.",
+    "file": "thecanyonguides-seluc-44"
+  },
+  {
     "line": "[5/5] Seluc: WHY YOU-",
     "file": "thecanyonguides-seluc-45"
   },
@@ -30860,6 +30936,10 @@
   },
   {
     "line": "[8/8] Gana: ...Well, 'coat fetcher', getting this man his coat is still a fine deed. And for that, you shall be rewarded.",
+    "file": "thecanyonguides-gana-12"
+  },
+  {
+    "line": "[8/9] Gana: ...Well, 'coat fetcher', getting this man his coat is still a fine deed. And for that, you shall be rewarded.",
     "file": "thecanyonguides-gana-12"
   },
   {
@@ -33600,7 +33680,7 @@
     "file": "beyondthegrave-irlok-18"
   },
   {
-    "line": "[1/1] Irlok: I have written the coordinates of the cave Krolton hides in, in your quest book.",
+    "line": "[1/1] Irlok: I have written the coordinates of the cave Krolton hides in, in your content book.",
     "file": "beyondthegrave-irlok-19"
   },
   {
@@ -34805,7 +34885,7 @@
     "file": "fantasticvoyage-tavernowner-16"
   },
   {
-    "line": "[1/4] Tavern Owner: ...Oh, you're goin' out with Relend, hey? Even after all I said?",
+    "line": "[1/4] Tavern Owner: ...Oh, you're goin' out with Relend, hey? You sure?",
     "file": "fantasticvoyage-tavernowner-17"
   },
   {
@@ -34978,7 +35058,7 @@
     "file": "fantasticvoyage-relend-41"
   },
   {
-    "line": "[7/7] Relend: Check your quest book if you ever need a recap. And to make sure you don't get lost, take the map.",
+    "line": "[7/7] Relend: Check your content book if you ever need a recap. And to make sure you don't get lost, take the map.",
     "file": "fantasticvoyage-relend-42"
   },
   {
@@ -36415,7 +36495,7 @@
     "file": "thefeathersflypart2-efena-33"
   },
   {
-    "line": "[5/10] Efena: You’re crying?! Aw... There, there. It’s alright, you made it.",
+    "line": "[5/10] Efena: You're crying?! Aw... There, there. It's alright, you made it.",
     "file": "thefeathersflypart2-efena-34"
   },
   {
@@ -36528,7 +36608,7 @@
     "file": "thefeathersflypart2-efena-43"
   },
   {
-    "line": "[3/20] Efena: I'm unsure if I should be impressed, distressed or enraged. So I think I'll just be all three. Ava, congratulations.",
+    "line": "[3/20] Efena: I'm unsure if I should be impressed, distressed or enraged. So I think I'll just be all three! Ava, congratulations.",
     "file": "thefeathersflypart2-efena-44"
   },
   {
@@ -37634,7 +37714,7 @@
     "file": "thefeathersflypart2-ava-187"
   },
   {
-    "line": "[4/4] Ava: It's as the president just said, soldier. Do your thing..",
+    "line": "[4/4] Ava: It's as the president just said, soldier. Do your thing.",
     "file": "thefeathersflypart2-ava-188"
   },
   {
@@ -37795,7 +37875,7 @@
     "file": "thefeathersflypart2-ava-227"
   },
   {
-    "line": "[19/20] Ava: Don’t you dare touch- Gah! I’ll show you. I’ll show everyone what you’re missing out on!",
+    "line": "[19/20] Ava: Don't you dare touch- Gah! I'll show you. I'll show everyone what you're missing out on!",
     "file": "thefeathersflypart2-ava-228"
   },
   {
@@ -39380,7 +39460,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/3] Korzim: Hoho...! Over here...fine traveler! Join me at the gates!",
+    "line": "[1/3] Korzim?: Hoho...! Over here...fine traveler! Join me at the gates!",
     "file": "dwarvesanddogunspart3-korzim-13"
   },
   {
@@ -39416,15 +39496,15 @@
     "file": "dwarvesanddogunspart3-edula-5"
   },
   {
-    "line": "[7/9] Edula: You will need 10 Fire Webs. The Heatscar Spiders under the town make them, there's a cave right by the entrance arch.",
+    "line": "[7/9] Edula: You will need [10 Fire Webs] . The Heatscar Spiders under the town make them, there's a cave right by the entrance arch.",
     "file": "dwarvesanddogunspart3-edula-6"
   },
   {
-    "line": "[8/9] Edula: Then, 3 Magmatic Crystals from the Maex mines. I'd get them myself, but...I'm banned from there since the rubber mallet incident.",
+    "line": "[8/9] Edula: Then, [3 Magmatic Crystals] from the Maex mines. I'd get them myself, but...I'm banned from there since the rubber mallet incident.",
     "file": "dwarvesanddogunspart3-edula-7"
   },
   {
-    "line": "[9/9] Edula: Lastly, 1 Crystallized Lava. The closest source is in the lava lake just outside Maex. There's a protruding crater in the lake.",
+    "line": "[9/9] Edula: Lastly, [1 Crystallized Lava]. The closest source is in the lava lake just outside Maex. There's a protruding crater in the lake.",
     "file": "dwarvesanddogunspart3-edula-8"
   },
   {
@@ -39532,7 +39612,7 @@
     "file": "dwarvesanddogunspart3-korzim-23"
   },
   {
-    "line": "[1/4] Korzim: We must... move fast... or... we will both.... freeze.",
+    "line": "[1/5] Korzim: We must... move fast... or... we will both.... freeze.",
     "file": "dwarvesanddogunspart3-korzim-24"
   },
   {
@@ -40072,7 +40152,7 @@
     "file": "onethousandmetersunder-captainolof-19"
   },
   {
-    "line": "[1/1] Captain Olof: We'll need 5 Sand Substitutes and 10 Glue Substitutes to repair the ship.",
+    "line": "[1/1] Captain Olof: We'll need [5 Sand Substitutes] and [10 Glue Substitutes] to repair the ship.",
     "file": "onethousandmetersunder-captainolof-20"
   },
   {
@@ -41106,7 +41186,7 @@
     "file": "thebreakingpoint-generalelix-1"
   },
   {
-    "line": "[2/2] General Elix: Help? You're not nearly experienced enough to help us out, get out of here!",
+    "line": "[2/2] General Elix: Help? You're not nearly experienced enough to help us out, get out of here until you're at least level 97!",
     "file": "thebreakingpoint-generalelix-2"
   },
   {
@@ -47405,7 +47485,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/1] ???: Who is the fool that has opened this accursed cage?",
+    "line": "[1/1] ???: Who is the fool who steps into this accursed cage?",
     "file": "sst-hashr-1",
     "onPlayer": true
   },
@@ -47450,14 +47530,26 @@
     "onPlayer": true
   },
   {
+    "line": "[2/2] Ghostly Voice: I have many regrets of my time spent alive in Wynn. I do not wish for my lingering mistakes to harm anyone else. Turn back.",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Ghostly Voice: You must think you can save me? There is no cure for what I have.",
     "file": "icebarrows-ghostlyvoice-2",
     "onPlayer": true
   },
   {
+    "line": "[2/2] Ghostly Voice: Unless.. You want to set me free?",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Ghostly Voice: I froze this land to allow it to heal.. People did not understand.. They came for me here, seeking revenge.",
     "file": "icebarrows-ghostlyvoice-3",
     "onPlayer": true
+  },
+  {
+    "line": "[2/2] Ghostly Voice: Of course, just like you.. They can not leave. Their souls are stuck here. For the spell must not be broken.",
+    "stopSounds": false
   },
   {
     "line": "[1/1] Ghostly Voice: Even if you think you can cure me.. I can not allow you to try for if it were to fail my corrupted body would wreak havoc on the world!",
@@ -47480,6 +47572,10 @@
     "onPlayer": true
   },
   {
+    "line": "[2/2] Ghostly Voice: Once my transformation is complete I shall begin to cleanse the world of vile mortality.",
+    "stopSounds": false
+  },
+  {
     "line": "[1/1] Ghostly Voice: I will not let you stop me!",
     "file": "cib-ghostlyvoice-4",
     "onPlayer": true
@@ -47495,9 +47591,17 @@
     "onPlayer": true
   },
   {
+    "line": "[2/2] Slykaar: But as soon as that hero of heroes turned up... I was cast away.",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Slykaar: Now the city will truly get to witness what power they have discarded.. They will see they made the wrong call.",
     "file": "undergrowthruins-slykaar-3",
     "onPlayer": true
+  },
+  {
+    "line": "[2/2] Slykaar: Then the corruption will take over the city. Then who will they call? Bob has been missing for years. Fools!",
+    "stopSounds": false
   },
   {
     "line": "[1/1] Slykaar: Nothing and no one will stop me from sieging the city. Not even you!",
@@ -47550,9 +47654,17 @@
     "onPlayer": true
   },
   {
+    "line": "[2/2] ????: WHY IS IT THAT YOU HUMANS CAN'T SEEM TO LEAVE THIS FACTORY OR ANYTHING ELSE IN PEACE FOR ONE DAY IN YOUR LIVES? SHEESH.",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] ????: FINE. I’M OPENING THE DOOR FOR YOU. TAKE A SHORT LOOK AROUND AND THEN LEAVE. THERE IS DANGEROUS EQUIPMENT HERE THAT ONLY OFFICIAL FACTORY ASSOCIATES SHOULD HANDLE.",
     "file": "fallenfactory-antikytherasupercomputer-2",
     "onPlayer": true
+  },
+  {
+    "line": "[2/2] ????: AND YOU LOOK LIKE ANYTHING BUT A FULL-TIME EMPLOYEE. DO NOT TOUCH ANYTHING IN THIS ROOM. AM I UNDERSTOOD?",
+    "stopSounds": false
   },
   {
     "line": "[1/2] ????: OF COURSE, IF YOU ARE DEAD THEN THERE IS NO WAY FOR YOU TO TOUCH ANYTHING, AND MY ROBOTS ARE VERY GOOD CLEANERS, SO I THINK THIS NEW SOLUTION WILL WORK OUT FOR EVERYONE.",
@@ -47635,7 +47747,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/3] ????: Unauthorized blockage in Factory Sector E1. Emergency maintenance will be performed in approximately 75 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared.",
+    "line": "[1/3] ????: Unauthorized blockage in Factory Sector E1. Emergency maintenance will be performed in approximately 55 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared",
     "file": "fallenfactory-antikytherasupercomputer-20",
     "onPlayer": true
   },
@@ -47665,14 +47777,26 @@
     "onPlayer": true
   },
   {
+    "line": "[2/2] Antikythera Core A: Wait a sec, you aren't an official maintenance worker! Get out of here or I use force! No entry unless registered, ya hear?!",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Antikythera Supercomputer: YOU'VE QUICKLY BECOME NO LONGER ENTERTAINING TO WATCH. YOU REALLY SHOULDN'T GO IN THERE.",
     "file": "fallenfactory-antikytherasupercomputer-26",
     "onPlayer": true
   },
   {
+    "line": "[2/2] Antikythera Supercomputer: THERE AREN'T ANY SHINY BUTTONS TO PRESS, BUT I CAN PUT SOME OUTSIDE UNDER THE BOMBS IF YOU WANT. WOULD YOU LIKE THAT INSTEAD?",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Antikythera Core B: Unauthorized personnel detected in Antikythera Auxiliary Core Duct B. Leave immediately, or be faced with lethal force and negative marks on your career record.",
     "file": "fallenfactory-antikytherasupercomputer-27",
     "onPlayer": true
+  },
+  {
+    "line": "[2/2] Antikythera Core B: Unauthorized personnel still detected. We here at the Corkus Manufactory are sorry, but your position is officially terminated for failure to comply to orders. Please remain still so lethal force may be applied.",
+    "stopSounds": false
   },
   {
     "line": "[1/1] Antikythera Supercomputer: Primary ventilation duct A unblocked. Closing emergency maintenance hatch.",
