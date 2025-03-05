@@ -1880,7 +1880,7 @@
     "file": "takingthetower-aledar-13"
   },
   {
-    "line": "[2/6] Aledar: Apparently, the big bad at the top of the tower is weak to ? Water damage! And so, here we are at the Powder Master.",
+    "line": "[2/6] Aledar: Apparently, the big bad at the top of the tower is weak to ❉ Water damage! And so, here we are at the Powder Master.",
     "file": "takingthetower-aledar-14"
   },
   {
@@ -2366,11 +2366,11 @@
     "file": "elementalexercise-captainragon-7"
   },
   {
-    "line": "[3/7] Tasim: I am! The elements are... ? Fire, ? Air, ? Earth, ? Thunder, and... ? Water?",
+    "line": "[3/7] Tasim: I am! The elements are... ✹ Fire, ❋ Air, ✤ Earth, ✦ Thunder, and... ❉ Water?",
     "file": "elementalexercise-tasim-3"
   },
   {
-    "line": "[4/7] Captain Ragon: That's right. And generally speaking, they're strong against each other in that order- ? Fire beats ? Air, ? Air beats ? Earth, and so on.",
+    "line": "[4/7] Captain Ragon: That's right. And generally speaking, they're strong against each other in that order- ✹ Fire beats ❋ Air, ❋ Air beats ✤ Earth, and so on.",
     "file": "elementalexercise-captainragon-8"
   },
   {
@@ -2422,7 +2422,7 @@
     "file": "elementalexercise-captainragon-17"
   },
   {
-    "line": "[6/9] Tasim: ...Oh! So my Bash spell will still deal ? Earth damage even if my weapon only uses ? Water, right?",
+    "line": "[6/9] Tasim: ...Oh! So my Bash spell will still deal ✤ Earth damage even if my weapon only uses ❉ Water, right?",
     "file": "elementalexercise-tasim-7"
   },
   {
@@ -2991,11 +2991,19 @@
     "file": "arachnidsascent-captainenduyn-12"
   },
   {
+    "line": "[1/7] Captain Enduyn: You've returned! I trust you found something that can help us get through these webs?",
+    "file": "arachnidsascent-captainenduyn-12"
+  },
+  {
     "line": "[2/6] Aledar: We did! We fought off a spider at the summit, and claimed a magical flame.",
     "file": "arachnidsascent-aledar-18"
   },
   {
     "line": "[3/6] Captain Enduyn: Excellent! Now, give it here. I take it the three of you intend to storm the nest?",
+    "file": "arachnidsascent-captainenduyn-13"
+  },
+  {
+    "line": "[3/7] Captain Enduyn: Excellent! Now, give it here. Let's see if we can't get these villagers free... watch out, folks! It might get a little warm for a moment...",
     "file": "arachnidsascent-captainenduyn-13"
   },
   {
@@ -3227,7 +3235,7 @@
     "file": "malticwell-rynend-3"
   },
   {
-    "line": "[4/4] Rynend: Please do something! I know Maltic isn't of importance to you humans, being a Villager settlement, but...my son!",
+    "line": "[4/4] Rynend: Please do something! I know Maltic isn't of much importance to you humans, being a villager settlement, but...my son!",
     "file": "malticwell-rynend-4"
   },
   {
@@ -3239,7 +3247,7 @@
     "file": "malticwell-witch-1"
   },
   {
-    "line": "[1/2] Witch: I don't know why they call me a witch. Magic is everywhere, you know. This one's father made fun of my looks, so I'll turn his son into a Grook!",
+    "line": "[1/2] Witch: I don't know why they call me a witch. This one's father made fun of my looks, so I'll turn his son into a Grook!",
     "file": "malticwell-witch-2"
   },
   {
@@ -3255,7 +3263,7 @@
     "file": "malticwell-witch-5"
   },
   {
-    "line": "[1/4] Witch: Oh...didn't think that'd fool you. You know, I'm really not all that good at magic. I just like wearing pointy hats, and have warts.",
+    "line": "[1/4] Witch: Oh...didn't think that'd fool you. You know, I'm really not all that good at magic. I just like wearing this cowl, and have warts.",
     "file": "malticwell-witch-6"
   },
   {
@@ -3463,11 +3471,11 @@
     "file": "gravedigger-sayleros-5"
   },
   {
-    "line": "[6/8] Sayleros: One of my other brothers also survived the attack. He isn't... um... somebody I'd trust greatly, but I'm sure he has some useful informations for you.",
+    "line": "[6/8] Sayleros: One of my other brothers also survived the attack. He isn't... um... somebody I'd trust greatly, but I'm sure he has some useful information for you.",
     "file": "gravedigger-sayleros-6"
   },
   {
-    "line": "[7/8] Sayleros: His name is Drucksh. He usually likes to talk a lot when he is drunk, see if you can do anything with that.",
+    "line": "[7/8] Sayleros: His name is Drucksh. He usually likes to talk a lot when he is drunk. See if you can do anything with that.",
     "file": "gravedigger-sayleros-7"
   },
   {
@@ -3786,7 +3794,7 @@
     "file": "pitofthedead-merloni-2"
   },
   {
-    "line": "[2/8] Merloni: It is the pit where the corpses of the poor miners who discovered what is now named the Nether Portal are buried.",
+    "line": "[2/8] Merloni: It is the pit where the corpses of the poor miners who discovered the Portal by the Roots of Corruption are buried.",
     "file": "pitofthedead-merloni-3"
   },
   {
