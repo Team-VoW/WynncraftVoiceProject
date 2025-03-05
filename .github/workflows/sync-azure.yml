@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      with: 
+      with:
         fetch-depth: 2
       
     - name: Identify changed files
@@ -22,5 +22,5 @@ jobs:
       if: env.CHANGED_FILES != ''
       run: |
         for file in $CHANGED_FILES; do
-          azcopy copy "$file" "${{ secrets.AZURE_STORAGE_URL }}/$file"
+          azcopy copy "$file" "${{ secrets.AZURE_STORAGE_URL }}/sounds/${file#sounds/}"
         done
