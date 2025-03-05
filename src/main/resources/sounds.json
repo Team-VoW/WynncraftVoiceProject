@@ -11213,40 +11213,60 @@
     "file": "junglefever-worid-21"
   },
   {
-    "line": "[1/1] Troms Mage: Stay back! I'm casting a fireball at this barrier!",
-    "file": "corruptedbetrayal-tromsmage-1"
+    "line": "[1/7] Lanu: Hey, soldier! Yeah, you! Got some spare time to lend a hand?",
+    "file": "corruptedbetrayal-lanu-1"
   },
   {
-    "line": "[1/8] Troms Mage: Gah, no use. Again.",
-    "file": "corruptedbetrayal-tromsmage-2"
+    "line": "[2/7] Lanu: We've got a major problem with this old fortress. It keeps spewing out all these damned slimes, and their proximity to Troms is causing issues.",
+    "file": "corruptedbetrayal-lanu-2"
   },
   {
-    "line": "[2/8] Troms Mage: Ah, I didn’t expect to see a Ragni soldier out here. Perhaps you can assist me?",
-    "file": "corruptedbetrayal-tromsmage-3"
+    "line": "[3/7] Lanu: Soldiers are spending half their guard duty slicing the critters into sludge. Ideally we'd raid the cave, cut out the source, but...",
+    "file": "corruptedbetrayal-lanu-3"
   },
   {
-    "line": "[3/8] Troms Mage: This is the second cave in the jungle to start spewing out aggressive slimes.",
-    "file": "corruptedbetrayal-tromsmage-4"
+    "line": "[4/7] Lanu: This place has some history. Nasty stuff. I'd prefer not to head in blind, so I've been checking for any clues to what we might find inside.",
+    "file": "corruptedbetrayal-lanu-4"
   },
   {
-    "line": "[4/8] Troms Mage: Being so close to Troms, it’s become a major problem.",
-    "file": "corruptedbetrayal-tromsmage-5"
+    "line": "[5/7] Lanu: Haven't found much... except this verse, 'scribed into the wall over there. Go on, check it out and let me know what you think.",
+    "file": "corruptedbetrayal-lanu-5"
   },
   {
-    "line": "[5/8] Troms Mage: We tried to attack it, but this barrier is shaman magic, horrendously powerful too. The only way it could be this strong is if many lives were taken to make it...",
-    "file": "corruptedbetrayal-tromsmage-6"
+    "line": "[6/7] Lanu: Nonsense, if you ask me. Most likely kids from Troms messing about. But we haven't found anything else, so... if you've got any time, fancy checking it out for me?",
+    "file": "corruptedbetrayal-lanu-6"
   },
   {
-    "line": "[6/8] Troms Mage: So, we're stuck. The only clue we found is this riddle...",
-    "file": "corruptedbetrayal-tromsmage-7"
+    "line": "[7/7] Lanu: The first line is obviously talking about the Great Bridge, but I've no clue what the rest means. Head over there, take a look around, and tell me if you find anything interesting.",
+    "file": "corruptedbetrayal-lanu-7"
   },
   {
-    "line": "[7/8] Troms Mage: Near a corrupted bridge, a ruin past its prime...lives a cursed sheep, with the color of lime...lead it down the trail, heading to the slime...sacrifice its soul, in the blood and grime.",
-    "file": "corruptedbetrayal-tromsmage-8"
+    "line": "[1/1] Lanu: Found anything interesting around the riddle yet? Do you need to hear it again?",
+    "file": "corruptedbetrayal-lanu-8"
   },
   {
-    "line": "[8/8] Troms Mage: We haven’t been able to work it out. Head out to the Great Bridge entrance and see if you can find anything.",
-    "file": "corruptedbetrayal-tromsmage-9"
+    "line": "[1/1] Lanu: Alrighty. Let me know what when you've got something then.",
+    "file": "corruptedbetrayal-lanu-9"
+  },
+  {
+    "line": "[1/5] Lanu: Near a corrupted bridge, a ruin past its prime..",
+    "file": "corruptedbetrayal-lanu-10"
+  },
+  {
+    "line": "[2/5] Lanu: Lives a cursed sheep, with the color of lime...",
+    "file": "corruptedbetrayal-lanu-11"
+  },
+  {
+    "line": "[3/5] Lanu: Lead it down the trail, headed to the slime...",
+    "file": "corruptedbetrayal-lanu-12"
+  },
+  {
+    "line": "[4/5] Lanu: Sacrifice its soul, in the blood and the grime.",
+    "file": "corruptedbetrayal-lanu-13"
+  },
+  {
+    "line": "[5/5] Lanu: The first line is obviously talking about the Great Bridge, but I've no clue what the rest means. Head over there, take a look around, and tell me if you find anything interesting.",
+    "file": "corruptedbetrayal-lanu-14"
   },
   {
     "line": "[1/3] Troms Guard: By order of the city of Troms, I am here to keep other citizens from entering this house.",
@@ -11266,76 +11286,112 @@
     "onPlayer": true
   },
   {
-    "line": "[1/5] Slykaar: I experimented my shamanism for many years underground to create the perfect mix of monster. ",
+    "line": "[2/4] ???: Welcome to my domain. I am the hero of Troms, Slykaar.",
     "file": "corruptedbetrayal-slykaar-2",
     "onPlayer": true
   },
   {
-    "line": "[1/2] Slykaar: No one in the Wynn province is willing to make the sacrifices I am to gain power.",
+    "line": "[3/4] Slykaar: Well, I used to be. Banished by the very people who asked for my help. Pathetic.",
     "file": "corruptedbetrayal-slykaar-3",
     "onPlayer": true
   },
   {
-    "line": "[1/3] Slykaar: They were willing to give me a few peasants in 831, when the hordes crossed the bridge.",
+    "line": "[4/4] Slykaar: They couldn’t give me a few peasants for their safety? Weak.",
     "file": "corruptedbetrayal-slykaar-4",
     "onPlayer": true
   },
   {
-    "line": "[1/4] Slykaar: Looks like we have a Bob aspirer. Pale imitation. ",
+    "line": "[1/5] Slykaar: I experimented my shamanism for many years underground to create the perfect mix of monster.",
     "file": "corruptedbetrayal-slykaar-5",
     "onPlayer": true
   },
   {
-    "line": "[2/4] Slykaar: Take the scroll. Break the barrier and let your little army men walk into my lair.",
+    "line": "[2/5] Slykaar: Most ended in horrific slimes. Aggressive and powerful, but alas, just slimes.",
     "file": "corruptedbetrayal-slykaar-6",
     "onPlayer": true
   },
   {
-    "line": "[3/4] Slykaar: I am ready; it makes little difference. Soon, Troms will be in ruins. And I shall have my revenge.",
+    "line": "[3/5] Slykaar: Then I found this place. A dark land. A dark god. A source of power.",
     "file": "corruptedbetrayal-slykaar-7",
     "onPlayer": true
   },
   {
-    "line": "[4/4] Slykaar: So, go have fun in Troms while you can. It’s not like you have much of a life to live, anyways.",
+    "line": "[4/5] Slykaar: You mediocre wielders of magic have no idea what this world holds.",
     "file": "corruptedbetrayal-slykaar-8",
     "onPlayer": true
   },
   {
-    "line": "[1/9] Troms Mage: Any luck with the riddle?",
-    "file": "corruptedbetrayal-tromsmage-10"
+    "line": "[5/5] Slykaar: You all strive to be that hero of heroes, “Bob”, but here's the truth. He’s lost. You’re lost.",
+    "file": "corruptedbetrayal-slykaar-9",
+    "onPlayer": true
   },
   {
-    "line": "[2/9] Troms Mage: You found something?",
-    "file": "corruptedbetrayal-tromsmage-11"
+    "line": "[1/2] Slykaar: No one in the Wynn province is willing to make the sacrifices I am to gain power.",
+    "file": "corruptedbetrayal-slykaar-10",
+    "onPlayer": true
+
   },
   {
-    "line": "[3/9] Troms Mage: Hmm...oh my. This is dark stuff. Very dark.",
-    "file": "corruptedbetrayal-tromsmage-12"
+    "line": "[2/2] Slykaar: If you want power, you have to give some. Sacrifice a few to save many.",
+    "file": "corruptedbetrayal-slykaar-11",
+    "onPlayer": true
   },
   {
-    "line": "[4/9] Troms Mage: It doesn't give me pleasure to use this...but it will break the barrier.",
-    "file": "corruptedbetrayal-tromsmage-13"
+    "line": "[1/3] Slykaar: They were willing to give me a few peasants in 831, when the hordes crossed the bridge.",
+    "file": "corruptedbetrayal-slykaar-12",
+    "onPlayer": true
   },
   {
-    "line": "[5/9] Troms Mage: Stand back, I'm not exactly sure what this does.",
-    "file": "corruptedbetrayal-tromsmage-14"
+    "line": "[2/3] Slykaar: The king was happy to throw away lives to save his. But then the hero of Wynn waltzed in a few years later.",
+    "file": "corruptedbetrayal-slykaar-13",
+    "onPlayer": true
   },
   {
-    "line": "[6/9] Troms Mage: The spell...it destroyed the barrier almost instantly...",
-    "file": "corruptedbetrayal-tromsmage-15"
+    "line": "[3/3] Slykaar: They banished me like a rotten fruit. Their hero, their protector. So what if a few hundred nobodies died for it.",
+    "file": "corruptedbetrayal-slykaar-14",
+    "onPlayer": true
   },
   {
-    "line": "[7/9] Troms Mage: Okay men! The barrier is down, so charge against Slykaar before he marches against Troms!",
-    "file": "corruptedbetrayal-tromsmage-16"
+    "line": "[1/4] Slykaar: Looks like we have a Bob aspirer. Pale imitation.",
+    "file": "corruptedbetrayal-slykaar-15",
+    "onPlayer": true
   },
   {
-    "line": "[8/9] Troms Mage: I don't have much to repay you, but it's at least useful for a soldier like you.",
-    "file": "corruptedbetrayal-tromsmage-17"
+    "line": "[2/4] Slykaar: So. Feel free to visit me down below, bring the entire might of the Troms army upon me. It will not be enough.",
+    "file": "corruptedbetrayal-slykaar-16",
+    "onPlayer": true
   },
   {
-    "line": "[9/9] Troms Mage: If you have nothing else to do, you should get yourself prepared and aid the army against Slykaar.",
-    "file": "corruptedbetrayal-tromsmage-18"
+    "line": "[3/4] Slykaar: I am ready. Soon, Troms will be in ruins. And I shall have my revenge.",
+    "file": "corruptedbetrayal-slykaar-17",
+    "onPlayer": true
   },
+  {
+    "line": "[4/4] Slykaar: Go have fun while you can. It’s not like you have much of a life to live, anyways.",
+    "file": "corruptedbetrayal-slykaar-18",
+    "onPlayer": true
+  },
+  {
+    "line": "[1/5] Lanu: Ah, you're back. Find anything interesting? I've just been knocking back the occasional slime that pops up out of the cave.",
+    "file": "corruptedbetrayal-lanu-15"
+  },
+  {
+    "line": "[2/5] Lanu: You... saw Slykaar? In another dimension?!",
+    "file": "corruptedbetrayal-lanu-16"
+  },
+  {
+    "line": "[3/5] Lanu: This is bad. If he can materialise outside of this cave, even psychoactively... he's getting stronger. It explains the slimes, the attacks on Troms...",
+    "file": "corruptedbetrayal-lanu-17"
+  },
+  {
+    "line": "[4/5] Lanu: He's an incredibly powerful shaman, soldier. He has to be stopped, but it would take forever for Troms to mobile a force against him.",
+    "file": "corruptedbetrayal-lanu-18"
+  },
+  {
+    "line": "[5/5] Lanu: If you can, you should head in there and... finish him off. Gear up first, though, and find some friends watch your back.",
+    "file": "corruptedbetrayal-lanu-19"
+  },
+
   {
     "line": "[1/7] Voer: Hello! Hmm, armour, weapon, look of grim despair... You must be from the Wynn province!",
     "file": "deathwhistle-voer-1"
