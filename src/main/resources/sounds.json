@@ -6666,7 +6666,7 @@
     "file": "asandyscandal-almujbankguard-4"
   },
   {
-    "line": "[5/7] Almuj Bank Guard: Great! The store from the first witness report is straight down the stairs, just past this building here, just behind me.",
+    "line": "[5/7] Almuj Bank Guard: Great! The store from the first witness report is straight down the stairs, just past this building right behind me.",
     "file": "asandyscandal-almujbankguard-5"
   },
   {
@@ -8418,27 +8418,27 @@
     "file": "wrathofthemummy-ormrod-6"
   },
   {
-    "line": "[1/6] Achper: If I know about mummies? Of course! I've spent my entire life studying them!",
+    "line": "[1/6] Achper: Do I know anything about Mummies? Of course! I've spent my entire life studying them!",
     "file": "wrathofthemummy-achper-1"
   },
   {
-    "line": "[2/6] Achper: They usually are very hard to reach, hidden in their tomb.",
+    "line": "[2/6] Achper: They usually are very hard to reach, hidden in their tomb... and they don't like being disturbed.",
     "file": "wrathofthemummy-achper-2"
   },
   {
-    "line": "[3/6] Achper: I know what happened to Ormrod, and the only way to remove the powerful curse would be to kill the mummy.",
+    "line": "[3/6] Achper: I have heard of the curse that follows Ormrod, and the only way to remove its effects would be to kill the mummy.",
     "file": "wrathofthemummy-achper-3"
   },
   {
-    "line": "[4/6] Achper: The tomb is north from here, but be very careful!",
+    "line": "[4/6] Achper: The tomb lies in the North of the desert, but be very careful!",
     "file": "wrathofthemummy-achper-4"
   },
   {
-    "line": "[5/6] Achper: Mummies aren't known to be weak... especially that one. It's demonic...pure evil, I have never seen such strength in a being.",
+    "line": "[5/6] Achper: Mummies aren't known to be weak, especially that one. It's demonic... pure evil. It's easily one of the most powerful specimens I've encountered.",
     "file": "wrathofthemummy-achper-5"
   },
   {
-    "line": "[6/6] Achper: On top of that, the Creden Tibus bandit clan have been ransacking the tomb. They might not let you inside without some negotiating.",
+    "line": "[6/6] Achper: On top of that, the Creden Tibus bandit clan have been ransacking the tombs around the desert. You might run into trouble with them, so be prepared.",
     "file": "wrathofthemummy-achper-6"
   },
   {
@@ -46697,9 +46697,17 @@
     "onPlayer": true
   },
   {
+    "line": "[2/2] Slykaar: But as soon as that hero of heroes turned up... I was cast away.",
+    "stopSounds": false
+  },
+  {
     "line": "[1/2] Slykaar: Now the city will truly get to witness what power they have discarded.. They will see they made the wrong call.",
     "file": "undergrowthruins-slykaar-3",
     "onPlayer": true
+  },
+  {
+    "line": "[2/2] Slykaar: Then the corruption will take over the city. Then who will they call? Bob has been missing for years. Fools!",
+    "stopSounds": false
   },
   {
     "line": "[1/1] Slykaar: Nothing and no one will stop me from sieging the city. Not even you!",
