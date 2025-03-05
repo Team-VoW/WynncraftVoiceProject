@@ -1,4 +1,4 @@
-name: Sync Sounds to Azure 
+name: Sync Sounds to Azure
 on:
   push:
     paths:
@@ -8,19 +8,19 @@ jobs:
   sync-to-blob:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 2
-      
-    - name: Identify changed files
-      id: changed-files
-      run: |
-        echo "CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD -- sounds/)" >> $GITHUB_ENV
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
 
-    - name: Upload changed files to Azure Blob Storage
-      if: env.CHANGED_FILES != ''
-      run: |
-        for file in $CHANGED_FILES; do
-          azcopy copy "$file" "${{ secrets.AZURE_STORAGE_URL }}/sounds/${file#sounds/}"
-        done
+      - name: Identify changed files
+        id: changed-files
+        run: |
+          echo "CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD -- sounds/ | tr '\n' ' ')" >> $GITHUB_ENV
+
+      - name: Upload changed files to Azure Blob Storage
+        if: env.CHANGED_FILES != ''
+        run: |
+          for file in $CHANGED_FILES; do
+            azcopy copy "$file" "${{ secrets.AZURE_STORAGE_URL }}/sounds/${file#sounds/}"
+          done
