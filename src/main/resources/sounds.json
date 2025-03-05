@@ -3495,7 +3495,7 @@
     "file": "gravedigger-drucksh-3"
   },
   {
-    "line": "[2/4] Drucksh: F-fine! I guess it wouldn't h-h-hurt to tell...*burp*..you where it-it- he is...",
+    "line": "[2/4] Drucksh: F-fine! I guess it wouldn't h-h-hurt to tell...burp..you where it-it- he is...",
     "file": "gravedigger-drucksh-4"
   },
   {
@@ -3503,31 +3503,31 @@
     "file": "gravedigger-drucksh-5"
   },
   {
-    "line": "[4/4] Drucksh: Though, the p-p-priest might not let you go in that easily...",
+    "line": "[4/4] Drucksh: Though, he's not as d-d-dead as you think...",
     "file": "gravedigger-drucksh-6"
   },
   {
-    "line": "[1/4] The Priest: Are you trying to go down into the crypt? Oh, that is a very bad idea.",
+    "line": "[1/5] The Priest: Welcome to the Nemract cathedral traveler. How can I help you?",
     "file": "gravedigger-priest-1"
   },
   {
-    "line": "[2/4] The Priest: This place has been corrupted, and the dead came back to life. We had to break the stairs to protect this cathedral.",
+    "line": "[2/5] The Priest: Sayleros has sent you to find something in the crypt? That is a very bad idea. However, you look well prepared.",
     "file": "gravedigger-priest-2"
   },
   {
-    "line": "[3/4] The Priest: If you really want to enter it, I'd have to purify it so it doesn't corrupt you.",
+    "line": "[3/5] The Priest: Corruption has seeped into the graves, the dead are coming back to life. We are working on barring the entrance up, to protect the cathedral.",
     "file": "gravedigger-priest-3"
   },
   {
-    "line": "[4/4] The Priest: Bring me [12 Rotten Flesh], that should do it. Ancient Nemract is filled with zombies, it's toward the south-west.",
+    "line": "[4/5] The Priest: If you must enter, I will not try to stop you. The keys to access different parts of the crypt are down there.",
     "file": "gravedigger-priest-4"
   },
   {
-    "line": "[1/2] The Priest: You got the flesh. Good.",
+    "line": "[5/5] The Priest: The partially barred entrance across from me will lead you there, please, be careful.",
     "file": "gravedigger-priest-5"
   },
   {
-    "line": "[2/2] The Priest: It should be... \"safe\", now. Be very careful, you are entering at your own risk.",
+    "line": "[1/1] The Priest: The partially barred entrance across from me will lead you to the crypt. Please, be careful.",
     "file": "gravedigger-priest-6"
   },
   {
@@ -3535,7 +3535,7 @@
     "file": "gravedigger-sayleros-9"
   },
   {
-    "line": "[1/1] Sayleros: Thank you so much for your help!",
+    "line": "[1/1] Sayleros: Thank you so much for your help",
     "file": "gravedigger-sayleros-10"
   },
   {
@@ -3563,8 +3563,12 @@
     "file": "gravedigger-sayleros-15"
   },
   {
-    "line": "[1/1] The Priest: Thank the gods you are still alive! Hopefully you are still doing fine in this dangerous world?",
+    "line": "[1/1] The Priest: Thank the great bovine you are still alive! Hopefully you are still doing fine in this dangerous world?",
     "file": "gravedigger-priest-8"
+  },
+  {
+    "line": "[1/1] The Priest: Greetings traveler. Welcome to the Nemract cathedral. It's always nice to see a new face around these parts.",
+    "file": "gravedigger-priest-9"
   },
   {
     "line": "[1/5] Mask Salesman: Hmm... Let's see, wha- Ah! Oh, pardon me, I was distracted. Luckily you're here, because I require some assistance.",
