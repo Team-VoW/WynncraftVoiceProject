@@ -10371,37 +10371,153 @@
     "hash": "7598be48fc066bcd444224b31a1d3bf01e40b1b73b7029f07798c404d8042c27",
     "size": 61752
   },
+  "corruptedbetrayal-lanu-1": {
+    "hash": "884f42c1245d70cdecef1e31dd59bc7041ae3d74c718e3d14cb31d6da21f06e1",
+    "size": 55928
+  },
+  "corruptedbetrayal-lanu-10": {
+    "hash": "519f7e1595cda51e0646e900b65968820bad5220ba8f2e47f692e4d838dd5132",
+    "size": 46713
+  },
+  "corruptedbetrayal-lanu-11": {
+    "hash": "33af24746618a7fd6f4e799267b78a44d3e48ec0b50c7560a08b6ecced75411c",
+    "size": 49127
+  },
+  "corruptedbetrayal-lanu-12": {
+    "hash": "c6178f1b6d4b1ede34ffa0400af5459ff07468ed9c047174b135b7c1d3f70b23",
+    "size": 45003
+  },
+  "corruptedbetrayal-lanu-13": {
+    "hash": "fa30c60912119aeb6507412a91d121e6dd3c82f3870143ef1266dd6fdcd5b242",
+    "size": 56303
+  },
+  "corruptedbetrayal-lanu-14": {
+    "hash": "e421daa499efa7fc095e4ff04959516c69cb57ebbaf828100d8dbba0be88f12d",
+    "size": 119071
+  },
+  "corruptedbetrayal-lanu-15": {
+    "hash": "7d882e920039190d9fee47cc0f229583ef1948147f20ce36ce533a1b03f46943",
+    "size": 91562
+  },
+  "corruptedbetrayal-lanu-16": {
+    "hash": "2b7ad702f3a865d41b57ee2578cadd7531392d3e792ab43292a7d445b3cb802c",
+    "size": 62858
+  },
+  "corruptedbetrayal-lanu-17": {
+    "hash": "f3c34fc044194f4fd1d593f8b64904a03a76b65bb3504e81b8ff7ffc378b899d",
+    "size": 163160
+  },
+  "corruptedbetrayal-lanu-18": {
+    "hash": "2fede199c31ccecfb727eb3b67e0a24ea345c1966adb7e7e77145c4f5cb10142",
+    "size": 111838
+  },
+  "corruptedbetrayal-lanu-19": {
+    "hash": "b5a44660bb4fabe85e5eaa205560ee885ffdda8a4db9aa080dd965a0ab5f0152",
+    "size": 113386
+  },
+  "corruptedbetrayal-lanu-2": {
+    "hash": "fccbca62ef3d258364a6d8c0774363b0950b034f23f01fbba33ed7a610235cf2",
+    "size": 106160
+  },
+  "corruptedbetrayal-lanu-3": {
+    "hash": "3c43168ba98a3008939991b9d1c6af69a0fb98267b84b877dea1a63a046f98b9",
+    "size": 116276
+  },
+  "corruptedbetrayal-lanu-4": {
+    "hash": "b883670ae5e6ee1949f5d104470be9029101e330123cb315076309a323707a5b",
+    "size": 122968
+  },
+  "corruptedbetrayal-lanu-5": {
+    "hash": "9129f0ee27cac3cb3d748f79c3eb652111ad3530c4eedd4f5bb2f7293893f66a",
+    "size": 127822
+  },
+  "corruptedbetrayal-lanu-6": {
+    "hash": "06e555ab4b9c93e89bd99b7d0a0b9ec3867dc34d37509bdf8e4e267fb249ae08",
+    "size": 137251
+  },
+  "corruptedbetrayal-lanu-7": {
+    "hash": "91cd8ec3315d00e931c9e2d9197a8267604ddc672166743c9c029f4f255d6c36",
+    "size": 121266
+  },
+  "corruptedbetrayal-lanu-8": {
+    "hash": "d783bb05df51bbff6c9a980f03333357bd9488e96c1a15e897493165670c407e",
+    "size": 51639
+  },
+  "corruptedbetrayal-lanu-9": {
+    "hash": "566c360c71ccae87e013d9df6d215ea89d13aa99944cb2a376d6414e8ced33bc",
+    "size": 37553
+  },
   "corruptedbetrayal-slykaar-1": {
-    "hash": "7757f4b1393ce2510d8e2368c70fa59190016d887ec31ccca79ab3a79de3fb47",
-    "size": 230035
+    "hash": "c2c19c17650b6b9967379208a0019b84fe5a0da0979ada0c3ab15069c917db1f",
+    "size": 54458
+  },
+  "corruptedbetrayal-slykaar-10": {
+    "hash": "07b01f1fb86c73cee7ac3ac8e43bbe1dfde48a640c4eddb2afb1c3b4b9a622dd",
+    "size": 90866
+  },
+  "corruptedbetrayal-slykaar-11": {
+    "hash": "44840b41276ca6452e9d3097936004b5545550bf63c5ab8305fd08d3532c2ca8",
+    "size": 99742
+  },
+  "corruptedbetrayal-slykaar-12": {
+    "hash": "06974dcac8e658535dcbe52b1615e0114854e24709462ac11664e8bb2b279069",
+    "size": 93499
+  },
+  "corruptedbetrayal-slykaar-13": {
+    "hash": "00c7248fede0e6ce3452528cb86bd07ea91e6888dec2fe6051b7badecc5853b8",
+    "size": 134056
+  },
+  "corruptedbetrayal-slykaar-14": {
+    "hash": "c1b7431087d2180bede9495902635180ad9dd1f265f5acceb1e1651e145783e6",
+    "size": 148552
+  },
+  "corruptedbetrayal-slykaar-15": {
+    "hash": "4497bd3461624960a3c9a6efd6d2b7d5ce52611ac8fb474425c998e42f007e0b",
+    "size": 86845
+  },
+  "corruptedbetrayal-slykaar-16": {
+    "hash": "4850e3a8536e0caabbdad6cc0c77ed8c587ef34a0f1929e6ca1cf07a0745d8b3",
+    "size": 166408
+  },
+  "corruptedbetrayal-slykaar-17": {
+    "hash": "d78c319d08ad98ebcf49b5c9b8f6ab7aed2706d655c856e4a5e74d3e4feb63d2",
+    "size": 117328
+  },
+  "corruptedbetrayal-slykaar-18": {
+    "hash": "9bb8d5665ecf304af852fd47aa04d4d24f5ecf6aa9b7e64b825b69668435f494",
+    "size": 144508
   },
   "corruptedbetrayal-slykaar-2": {
-    "hash": "d58d2e1006d98f8e6d1236c33d60b132d0a2289efd36e09396496a9b7a10f09c",
-    "size": 399187
+    "hash": "2d611fc3ad8c130264a6d4a87d4d17c13b8e8587580c3d9f9272419e2b46e823",
+    "size": 116844
   },
   "corruptedbetrayal-slykaar-3": {
-    "hash": "ca6cfe55459d86238059b5129c2671c4f614b2e0c5866ce0e13cdb8ee651ec96",
-    "size": 120620
+    "hash": "e7bd0505a94848c65e1b66edeed734e73927f6b5dbfdcba950a1f266e8c0ae1b",
+    "size": 138913
   },
   "corruptedbetrayal-slykaar-4": {
-    "hash": "5edb64217e14a214c5835520ac6de807ad2b60db68210c88de6fc21307d1936a",
-    "size": 242611
+    "hash": "2e2d7f4799756c4f1b7887a1d16e7ee960f425d061ca7dd18d2cac7f4c4c4abb",
+    "size": 75388
   },
   "corruptedbetrayal-slykaar-5": {
-    "hash": "c2ef9935bab3f7242536fd16abab7fdc62cdeb7eda83bde8926e9b23f2f9b312",
-    "size": 53781
+    "hash": "b1af30b738cfe908526bebb9997ec0ca299cd611dd239f96cd112bd4b8af8872",
+    "size": 115113
   },
   "corruptedbetrayal-slykaar-6": {
-    "hash": "5c4e69ced8d089acaae496aa1723eca86ef6d908908e2b197ec0f5ffc13983b0",
-    "size": 69728
+    "hash": "2ba3afa44282bb7aa40ed2aa7e64debe3a74cdcd4d4c3ab1d83c3c5841503221",
+    "size": 126068
   },
   "corruptedbetrayal-slykaar-7": {
-    "hash": "372cee155eac36c05bca05bb6db5a92f5da07c9a3463151c04f749a789f6dcf1",
-    "size": 98503
+    "hash": "d5d65e01094e7e06dabb1e9d9190bf9310509051216c94513d1157c4901e594a",
+    "size": 135194
   },
   "corruptedbetrayal-slykaar-8": {
-    "hash": "390af71483878f43d8fcf0cdf0ad74971e9055846f415060f353f95b9fb551d1",
-    "size": 80721
+    "hash": "9d5bb711b5554decf73729d22ae39b670e1c0af8bf673c98cae84cabea11d7ca",
+    "size": 82183
+  },
+  "corruptedbetrayal-slykaar-9": {
+    "hash": "c0d583c29b0a5c4146a6c85da58b96b19ab002e0a2ae3e6cb5dc707e31af0f2a",
+    "size": 136676
   },
   "corruptedbetrayal-tromsguard-1": {
     "hash": "7ec594328006f956e919913fbe5a2efd83cebf1a2c609b0a9b43f8c8f800b6f4",
@@ -10414,78 +10530,6 @@
   "corruptedbetrayal-tromsguard-3": {
     "hash": "c78d3d58192a6b88e3e714d7d1a5601b9a994bfba33fb492b09db56cce402ac1",
     "size": 34784
-  },
-  "corruptedbetrayal-tromsmage-1": {
-    "hash": "eac75848515ccda09cb2ff2f97808ad23c25c1dbc4f14f7029104e12196e6c2e",
-    "size": 38092
-  },
-  "corruptedbetrayal-tromsmage-10": {
-    "hash": "39cf40e95811bff0223214e427dbe4f60d4bfba85bd4c58b127fef99f8dec9ba",
-    "size": 17729
-  },
-  "corruptedbetrayal-tromsmage-11": {
-    "hash": "5c3817865e98e6e906dbb830bcbd75e54b22238bde69c5dff2d0094c2eb10483",
-    "size": 19379
-  },
-  "corruptedbetrayal-tromsmage-12": {
-    "hash": "d4569ea9fc2f7cf68a91377ecdf35bf2da7909e0b4a0f80c66a0eb2e4c886f2a",
-    "size": 57735
-  },
-  "corruptedbetrayal-tromsmage-13": {
-    "hash": "b99094d992ae1bf3113cf0283cf676279c9b450b2e7d8a3f0c05cab1a2a02999",
-    "size": 48051
-  },
-  "corruptedbetrayal-tromsmage-14": {
-    "hash": "7da40abe39217778bfdb30cca1e6cd7b29526989c2c9d44dc106551bdc72417d",
-    "size": 38654
-  },
-  "corruptedbetrayal-tromsmage-15": {
-    "hash": "3e0b22cc5fb85e8d332b4874c76edcbd09a7561c1c324e8c1b86874bc40858fa",
-    "size": 49033
-  },
-  "corruptedbetrayal-tromsmage-16": {
-    "hash": "7a78f68800ca0d837d81caf9ed9b2f871399fa6eed2a18fe81f4c8f871be2595",
-    "size": 58523
-  },
-  "corruptedbetrayal-tromsmage-17": {
-    "hash": "53bc54c7380490221e99ca1574f34251f555a1d3e3d22febe4c024129808917a",
-    "size": 47260
-  },
-  "corruptedbetrayal-tromsmage-18": {
-    "hash": "6c2f9c830f9ad120411cd87888917a5c743c7ff97f94300a837747f11d1cd01a",
-    "size": 48147
-  },
-  "corruptedbetrayal-tromsmage-2": {
-    "hash": "e673ea4e6996821be574131e0eb6a484cadee1ced2bf7c213ecd2e4969c029c2",
-    "size": 35041
-  },
-  "corruptedbetrayal-tromsmage-3": {
-    "hash": "e56cc2a612a55af838139b6b352c2bcc53ac38469bfbbee98445d0afbcec4879",
-    "size": 54799
-  },
-  "corruptedbetrayal-tromsmage-4": {
-    "hash": "bd9183c3adc1863e0d47e51b680da470b795b633e66ec2d76f760b40d0fb006f",
-    "size": 48575
-  },
-  "corruptedbetrayal-tromsmage-5": {
-    "hash": "28aa767710fa77ebd5991a59617f53dfa7491976d2c2b22c44093668202fc485",
-    "size": 39397
-  },
-  "corruptedbetrayal-tromsmage-6": {
-    "hash": "6e3f6f1bc8bbd8197dbdff0cd07ef5bd9751cc03496c7338a439194efe9ca9e6",
-    "size": 97185
-  },
-  "corruptedbetrayal-tromsmage-7": {
-    "hash": "286ab6b64de89ca4af256ffa8a9dad882978a46cbe09c33f2c51ee5a2071346a",
-    "size": 39158
-  },
-  "corruptedbetrayal-tromsmage-8": {
-    "hash": "18f97b8089d69aed131922a1a0d2a9b84e9676c209ca82433b5916f6a524e2a4",
-    "size": 125596
-  },
-  "corruptedbetrayal-tromsmage-9": {
-    "hash": "3b5b062e01bd016c64e58526d7bbcadd744b0ee2bfec1892ad2297a4f2ac5352",
-    "size": 53195
   },
   "corruptedvillage-alfonse-1": {
     "hash": "4e4361462820800dcf0b1326f6a6aec8699f91817ef8d684ee21d721cedcde0e",
@@ -19336,36 +19380,40 @@
     "size": 43852
   },
   "gravedigger-priest-1": {
-    "hash": "deb04220040478e706517e319527f497259ac5e1931e7b6fd163926a93052a2b",
-    "size": 50474
+    "hash": "452c6b2cb715d1a051129dc4d8317e36041ddba18c295857fb2205925272a903",
+    "size": 54091
   },
   "gravedigger-priest-2": {
-    "hash": "ee9a69c056331380172f11f2be1893617803cf9ee621e6c3bd465d205441d2ea",
-    "size": 62177
+    "hash": "980af739510201107c94dfe5449f466efd3a88c8cfca8a2a3cc802adc1dd7911",
+    "size": 117096
   },
   "gravedigger-priest-3": {
-    "hash": "43b48054e644ee38bf38a85e34440913d1d85a1adcb16a8f33da8c7f0ce4fc48",
-    "size": 47355
+    "hash": "8e8ddb728dac1de1cec63923591a84025ba32f7187f7f2a22adad80b22eac7f3",
+    "size": 120646
   },
   "gravedigger-priest-4": {
-    "hash": "661972c86288384c64eb563cce45bde66e401617048114028830e3ed90278eeb",
-    "size": 70517
+    "hash": "9b0266ade746b1e58b5dc07c02bd3bdad0b3d2ccbae91d1dfaca142d2441e136",
+    "size": 87573
   },
   "gravedigger-priest-5": {
-    "hash": "f88a1033c78083ed3141d5858ed816e919139a87d92a9ca020f1cc292f92ddce",
-    "size": 20864
+    "hash": "4a1c2d4f4cc469560dd46a3b11464af693e5e045b3bfd91e3122e52bafbf3575",
+    "size": 71726
   },
   "gravedigger-priest-6": {
-    "hash": "663eb88129b2cb985e0ca0a0db8fbcdfd5f5ae1c9095ad928ac9826cb7990a94",
-    "size": 48271
+    "hash": "20ef89f40a1c8594f4d899c034c1a547a42f18b52c97d07a63ec0994491af5b5",
+    "size": 72189
   },
   "gravedigger-priest-7": {
-    "hash": "3eb56c5ad17d13ed93258a53bad27573642cfad30c280a143dec4d5086f81b51",
-    "size": 24192
+    "hash": "d69e105394eef1ce0ed9fe642bb14f135a0313e8e04fa8f47259dab57769b5a7",
+    "size": 29199
   },
   "gravedigger-priest-8": {
-    "hash": "c455f18011b153646a0fd7eb857a8f364d4395b001bb10c4677e2b96d50d9785",
-    "size": 57310
+    "hash": "728a93fe1977ae70a2693c06d1d6e1798232417c70799234c123e134b7da517c",
+    "size": 79750
+  },
+  "gravedigger-priest-9": {
+    "hash": "b1a4ce4510f088fc09b0ef347427b897c83edb9b8d214e4696db47d5e73d199e",
+    "size": 89882
   },
   "gravedigger-sayleros-1": {
     "hash": "7e4c422f40641031d5e6e8a5891c3ce83cd47154245d9d4e11638c3c1bcdc10d",
@@ -23190,6 +23238,22 @@
   "junglefever-worid-9": {
     "hash": "f095c17363e329340801a3abdc53f1a7fbc878beffa0ff6d3ebd9a24d44f13f1",
     "size": 58588
+  },
+  "kingdomofsand-bandit1-1": {
+    "hash": "937a996c9df70212268be511f93af6ab49f301c6f15aef110f066199a8112c2a",
+    "size": 67149
+  },
+  "kingdomofsand-bandit1-2": {
+    "hash": "660628074acc9be0b8ef28c47552f558d4701d80fb4ba99449762cb2772d6c1e",
+    "size": 85565
+  },
+  "kingdomofsand-bandit2-1": {
+    "hash": "e150c15a73550ebb4901676a6fd1f19f192b049906e9d9ac33e055076d597fd2",
+    "size": 156985
+  },
+  "kingdomofsand-bandit2-2": {
+    "hash": "63b6341f51de3428b70a9903bea8a0a09eda8fbddb3161c1a124d9dd9a816e7d",
+    "size": 113284
   },
   "kingdomofsand-banditleader-1": {
     "hash": "b43fc4b433e95d8acf232bc36b2b550bc0aa2a1bf04d9b88ecc0d8fa9f1ffb89",
@@ -34680,8 +34744,8 @@
     "size": 64622
   },
   "redbeardsbooty-marston-12": {
-    "hash": "8cd8f56660f01d15f4a00a027fbdd6bef8d5e23f6e7b1442945248d10d7d5f69",
-    "size": 74337
+    "hash": "79123dcbb3b002d335409a1c1124a469c499541f4eb7a1b12d3d5a0e22cdadf2",
+    "size": 50915
   },
   "redbeardsbooty-marston-13": {
     "hash": "92c9721e2bb94e13a88c27129b7407afaf0544aa40ea16b93a8811e4ba1b5c75",
@@ -46364,24 +46428,40 @@
     "size": 21260
   },
   "undergrowthruins-slykaar-1": {
-    "hash": "b59d7b03b4e5547fcc697981ea748395baaa2adf0e42f368b4042874611d3845",
-    "size": 91485
+    "hash": "86915de5669e29e3c0355375250cceadab68d6c8ee4c8f39ba40929f3033a2e3",
+    "size": 122315
   },
   "undergrowthruins-slykaar-2": {
-    "hash": "db65158ba76f9fb296d7e258236b87aefc9d573415a955044af57f0798e25e06",
-    "size": 130139
+    "hash": "10fbc49df6236ccace8d07ffe20c8506cca36f6ee590356f6a8f290657918267",
+    "size": 103999
   },
   "undergrowthruins-slykaar-3": {
-    "hash": "7e3ef095c3850bcc82f2019d249d3c615fc008e19dab9e209a8d45a938d3d762",
-    "size": 175539
+    "hash": "5832ecbe0da00f688e2c0281c22097afa1f1d6902128a05701c1e96bc41116ae",
+    "size": 71078
   },
   "undergrowthruins-slykaar-4": {
-    "hash": "d708ff4e590b29702000dec1ca485a5eeb33e8815d1a5a70c5c5afedfe4cc581",
-    "size": 59359
+    "hash": "fe19627b1caa6582467c6f4522c313bc58d08d9f2468ff4ec7d208de32faf4cf",
+    "size": 108146
   },
   "undergrowthruins-slykaar-5": {
-    "hash": "a83e7639bab5fd3248a30c560286b5e5c7f227ddd7daab8cec500b01ad32b49a",
-    "size": 42790
+    "hash": "fc97f15f6a107a5091590677cffd8fd2ef5ae4d79ea8ac806a0e56d3e11b5d70",
+    "size": 138066
+  },
+  "undergrowthruins-slykaar-6": {
+    "hash": "bd5872b976d160dfd840e6941e6a3e6c21f177bf153af0c5561f3f924fc7ca0e",
+    "size": 75514
+  },
+  "undergrowthruins-slykaar-7": {
+    "hash": "c888b6ef7165319be5ecf5eee509059e8fd00d09156c752881ea9dc5d0460e28",
+    "size": 70617
+  },
+  "undergrowthruins-slykaar-8": {
+    "hash": "3f5715f8c143ad65bbc6253444ed6d6e45688408e88628287c4fb11c0b96a1a1",
+    "size": 58137
+  },
+  "undergrowthruins-slykaar-9": {
+    "hash": "e1131703eea94d0675daa1aea9b3ad0d45619f5bc11867ad735dd32a9fd78175",
+    "size": 42115
   },
   "underice-calamaro-1": {
     "hash": "b58d079a4c379e077e6882f7322665941ab06c0d4072a9fb13d87321ff47a316",

@@ -1,0 +1,15 @@
+name: Upload All Sounds to Azure
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload-sounds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Upload sounds folder to Azure Blob Storage
+        run: |
+          azcopy copy './sounds' '${{ secrets.AZURE_STORAGE_URL }}' --recursive

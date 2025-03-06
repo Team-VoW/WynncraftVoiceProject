@@ -21,32 +21,28 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.time.Instant;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import net.minecraft.world.phys.Vec3;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class SoundsHandler {
     private static final String JSON_FILE = "sounds.json";
-    private static final String GITHUB_JSON_URL =
-            "https://raw.githubusercontent.com/Team-VoW/WynncraftVoiceProject/main/src/main/resources/sounds.json";
-    private static final String BUNDLED_JSON = "sounds.json";
 
     private final HashMap<String, SoundObject> sounds;
-    private final ExecutorService executor;
+    private final Gson gson;
 
-    private Gson gson;
+    private static final Logger LOGGER = LogManager.getLogger(SoundsHandler.class);
 
     public SoundsHandler() {
         sounds = new HashMap<>();
         gson = new Gson();
-        executor = Executors.newSingleThreadExecutor();
+        ExecutorService executor = Executors.newSingleThreadExecutor();
 
-        // Run the update check and JSON loading in a separate thread
         executor.execute(() -> {
             if (shouldUpdateJson()) {
                 downloadJson();
@@ -73,7 +69,6 @@ public class SoundsHandler {
                 String npcName = dialogue.getNpc();
                 Reverb environment = dialogue.getReverb();
                 boolean stopSounds = dialogue.shouldStopSounds();
-                System.out.println("Loaded sound: " + message);
 
                 LineData lineData = formatToLineData(message);
                 message = lineData.getSoundLine();
@@ -86,59 +81,42 @@ public class SoundsHandler {
         }
     }
 
-
     private boolean shouldUpdateJson() {
         try {
-            long lastUpdate = ModCore.config.lastSoundsUpdate;
-            System.out.println("lastUpdate: " + lastUpdate);
-            long latestCommitTime = fetchLatestCommitTime();
-            System.out.println("latestCommitTime: " + latestCommitTime);
-            System.out.println("shouldUpdateJson: " + (latestCommitTime > lastUpdate));
+            String lastModifiedStored = ModCore.config.lastsSoundsUpdateHeader;
+            String lastModifiedNew = fetchLastModifiedHeader();
 
-            return latestCommitTime > lastUpdate;
-        } catch (Exception e) {
-            return true; // If any error occurs, assume the JSON needs updating
-        }
-    }
-
-    public static void main(String[] args) {
-        SoundsHandler soundsHandler = new SoundsHandler();
-    }
-
-    private long fetchLatestCommitTime() {
-        try {
-            URL url = new URL(
-                    "https://api.github.com/repos/Team-VoW/WynncraftVoiceProject/commits?path=src/main/resources/sounds.json");
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            connection.setRequestMethod("GET");
-            connection.setRequestProperty("Accept", "application/vnd.github.v3+json");
-
-            if (connection.getResponseCode() == 200) {
-                try (InputStream inputStream = connection.getInputStream();
-                        InputStreamReader reader = new InputStreamReader(inputStream)) {
-                    Gson gson = new Gson();
-                    List<Map<String, Object>> commits =
-                            gson.fromJson(reader, new TypeToken<List<Map<String, Object>>>() {}.getType());
-                    Map<String, Object> commitMap =
-                            (Map<String, Object>) commits.get(0).get("commit");
-                    Map<String, Object> committerMap = (Map<String, Object>) commitMap.get("committer");
-                    String date = (String) committerMap.get("date");
-                    Instant instant = Instant.parse(date);
-
-                    return instant.getEpochSecond();
-                }
+            if (lastModifiedNew != null && !lastModifiedNew.equals(lastModifiedStored)) {
+                ModCore.config.lastsSoundsUpdateHeader = lastModifiedNew;
+                ModCore.config.save();
+                return true;
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            LOGGER.error("[Voices of Wynn] Failed to download determine if it should update the Json", e);
         }
-        return 0;
+        return false;
+    }
+
+    private String fetchLastModifiedHeader() {
+        try {
+            HttpURLConnection connection =
+                    (HttpURLConnection) new URL(ModCore.config.getRemoteJsonLink()).openConnection();
+            connection.setRequestMethod("HEAD");
+
+            if (connection.getResponseCode() == 200) {
+                return connection.getHeaderField("Last-Modified");
+            }
+        } catch (Exception e) {
+            LOGGER.error("[Voices of Wynn] Failed to fetch lastModifiedHeader", e);
+        }
+        return null;
     }
 
     private void downloadJson() {
         try {
-            System.out.println("downlading sounds");
-            URL url = new URL(GITHUB_JSON_URL);
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            LOGGER.info("Downloading updated sounds.json");
+            HttpURLConnection connection =
+                    (HttpURLConnection) new URL(ModCore.config.getRemoteJsonLink()).openConnection();
             connection.setRequestMethod("GET");
 
             if (connection.getResponseCode() == 200) {
@@ -149,32 +127,28 @@ public class SoundsHandler {
                     while ((bytesRead = inputStream.read(buffer)) != -1) {
                         outputStream.write(buffer, 0, bytesRead);
                     }
-
-                    long latestCommitTime = fetchLatestCommitTime();
-                    ModCore.config.lastSoundsUpdate = latestCommitTime;
                 }
             } else {
-                System.out.println("Failed to download JSON file: " + GITHUB_JSON_URL);
-                System.out.println("Response code: " + connection.getResponseCode());
-                System.out.println("Response message: " + connection.getResponseMessage());
+                LOGGER.info(
+                        "[Voices of Wynn] Failed to download JSON file. Response code: {}",
+                        connection.getResponseCode());
             }
         } catch (IOException e) {
-            System.out.println("Failed to download JSON file: " + GITHUB_JSON_URL);
-            e.printStackTrace();
+            LOGGER.error("[Voices of Wynn] Failed to download sounds.json file", e);
         }
     }
 
     private InputStream getJsonStream() {
         if (Files.exists(Paths.get(JSON_FILE))) {
             try {
-                System.out.println("Using remote JSON file");
+                LOGGER.info("[Voices of Wynn] Using cached sounds.json file");
                 return new FileInputStream(JSON_FILE);
             } catch (IOException e) {
-                throw new RuntimeException("Failed to open local JSON file: " + JSON_FILE, e);
+                throw new RuntimeException("Failed to open local JSON file", e);
             }
         } else {
-            System.out.println("Using bundled JSON file");
-            InputStream bundledStream = this.getClass().getClassLoader().getResourceAsStream(BUNDLED_JSON);
+            LOGGER.info("[Voices of Wynn] Using bundled sounds.json file");
+            InputStream bundledStream = this.getClass().getClassLoader().getResourceAsStream(JSON_FILE);
             if (bundledStream != null) {
                 return bundledStream;
             }

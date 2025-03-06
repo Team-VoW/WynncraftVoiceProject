@@ -58,10 +58,17 @@ public class SoundPlayer {
     }
 
     private void PlaySoundObject(SoundObject sound) {
-        if (ModCore.instance.audioPlayer == null){
+        if (ModCore.instance.audioPlayer == null) {
             Utils.sendMessage("ERROR! SOUND ENGINE WAS NOT INITIALIZED! PLEASE MAKE A REPORT");
             return;
         }
+
+        // This sound is registered so it does not get reported to the line reporter
+        // But it is not supposed to play anything.
+        if (sound.getId() == null) {
+            return;
+        }
+
         ModCore.instance.audioPlayer.play(sound);
     }
 

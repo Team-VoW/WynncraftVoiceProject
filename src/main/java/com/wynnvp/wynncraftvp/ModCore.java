@@ -63,24 +63,23 @@ public class ModCore implements ModInitializer {
 
         Managers.initialize();
 
+        isUsingClothApi = FabricLoader.getInstance().isModLoaded("cloth-config");
+
+        AutoConfig.register(VOWAutoConfig.class, Toml4jConfigSerializer::new);
+        config = AutoConfig.getConfigHolder(VOWAutoConfig.class).getConfig();
+
         instance = this;
         chatHandler = new ChatHandler();
 
         soundPlayer = new SoundPlayer();
         soundsHandler = new SoundsHandler();
 
-        isUsingClothApi = FabricLoader.getInstance().isModLoaded("cloth-config");
-
-        AutoConfig.register(VOWAutoConfig.class, Toml4jConfigSerializer::new);
-        config = AutoConfig.getConfigHolder(VOWAutoConfig.class).getConfig();
-
         VowLogger.Initialize();
 
         ClientTickEvents.END_WORLD_TICK.register(cli -> {
             // Your ticking method
             chatHandler.onTick();
-            if (audioPlayer != null)
-                audioPlayer.openAlPlayer.onTick();
+            if (audioPlayer != null) audioPlayer.openAlPlayer.onTick();
         });
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
 
