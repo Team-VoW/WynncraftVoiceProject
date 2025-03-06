@@ -3882,10 +3882,6 @@
     "file": "dwellingwalls-leucsaa-3"
   },
   {
-    "line": "[4/10] Leucsaa: ...",
-    "stopSounds": "false"
-  },
-  {
     "line": "[5/10] Leucsaa: Hold on, what? The journal! I must have forgotten it inside the mansion!",
     "file": "dwellingwalls-leucsaa-4"
   },
@@ -46696,26 +46692,14 @@
     "onPlayer": true
   },
   {
-    "line": "[2/2] Ghostly Voice: I have many regrets of my time spent alive in Wynn. I do not wish for my lingering mistakes to harm anyone else. Turn back.",
-    "stopSounds": false
-  },
-  {
     "line": "[1/2] Ghostly Voice: You must think you can save me? There is no cure for what I have.",
     "file": "icebarrows-ghostlyvoice-2",
     "onPlayer": true
   },
   {
-    "line": "[2/2] Ghostly Voice: Unless.. You want to set me free?",
-    "stopSounds": false
-  },
-  {
     "line": "[1/2] Ghostly Voice: I froze this land to allow it to heal.. People did not understand.. They came for me here, seeking revenge.",
     "file": "icebarrows-ghostlyvoice-3",
     "onPlayer": true
-  },
-  {
-    "line": "[2/2] Ghostly Voice: Of course, just like you.. They can not leave. Their souls are stuck here. For the spell must not be broken.",
-    "stopSounds": false
   },
   {
     "line": "[1/1] Ghostly Voice: Even if you think you can cure me.. I can not allow you to try for if it were to fail my corrupted body would wreak havoc on the world!",
@@ -46738,10 +46722,6 @@
     "onPlayer": true
   },
   {
-    "line": "[2/2] Ghostly Voice: Once my transformation is complete I shall begin to cleanse the world of vile mortality.",
-    "stopSounds": false
-  },
-  {
     "line": "[1/1] Ghostly Voice: I will not let you stop me!",
     "file": "cib-ghostlyvoice-4",
     "onPlayer": true
@@ -46757,17 +46737,9 @@
     "onPlayer": true
   },
   {
-    "line": "[2/2] Slykaar: But as soon as that hero of heroes turned up... I was cast away.",
-    "stopSounds": false
-  },
-  {
     "line": "[1/2] Slykaar: Now the city will truly get to witness what power they have discarded.. They will see they made the wrong call.",
     "file": "undergrowthruins-slykaar-3",
     "onPlayer": true
-  },
-  {
-    "line": "[2/2] Slykaar: Then the corruption will take over the city. Then who will they call? Bob has been missing for years. Fools!",
-    "stopSounds": false
   },
   {
     "line": "[1/1] Slykaar: Nothing and no one will stop me from sieging the city. Not even you!",
@@ -46820,17 +46792,9 @@
     "onPlayer": true
   },
   {
-    "line": "[2/2] ????: WHY IS IT THAT YOU HUMANS CAN'T SEEM TO LEAVE THIS FACTORY OR ANYTHING ELSE IN PEACE FOR ONE DAY IN YOUR LIVES? SHEESH.",
-    "stopSounds": false
-  },
-  {
     "line": "[1/2] ????: FINE. I’M OPENING THE DOOR FOR YOU. TAKE A SHORT LOOK AROUND AND THEN LEAVE. THERE IS DANGEROUS EQUIPMENT HERE THAT ONLY OFFICIAL FACTORY ASSOCIATES SHOULD HANDLE.",
     "file": "fallenfactory-antikytherasupercomputer-2",
     "onPlayer": true
-  },
-  {
-    "line": "[2/2] ????: AND YOU LOOK LIKE ANYTHING BUT A FULL-TIME EMPLOYEE. DO NOT TOUCH ANYTHING IN THIS ROOM. AM I UNDERSTOOD?",
-    "stopSounds": false
   },
   {
     "line": "[1/2] ????: OF COURSE, IF YOU ARE DEAD THEN THERE IS NO WAY FOR YOU TO TOUCH ANYTHING, AND MY ROBOTS ARE VERY GOOD CLEANERS, SO I THINK THIS NEW SOLUTION WILL WORK OUT FOR EVERYONE.",
@@ -46943,26 +46907,14 @@
     "onPlayer": true
   },
   {
-    "line": "[2/2] Antikythera Core A: Wait a sec, you aren't an official maintenance worker! Get out of here or I use force! No entry unless registered, ya hear?!",
-    "stopSounds": false
-  },
-  {
     "line": "[1/2] Antikythera Supercomputer: YOU'VE QUICKLY BECOME NO LONGER ENTERTAINING TO WATCH. YOU REALLY SHOULDN'T GO IN THERE.",
     "file": "fallenfactory-antikytherasupercomputer-26",
     "onPlayer": true
   },
   {
-    "line": "[2/2] Antikythera Supercomputer: THERE AREN'T ANY SHINY BUTTONS TO PRESS, BUT I CAN PUT SOME OUTSIDE UNDER THE BOMBS IF YOU WANT. WOULD YOU LIKE THAT INSTEAD?",
-    "stopSounds": false
-  },
-  {
     "line": "[1/2] Antikythera Core B: Unauthorized personnel detected in Antikythera Auxiliary Core Duct B. Leave immediately, or be faced with lethal force and negative marks on your career record.",
     "file": "fallenfactory-antikytherasupercomputer-27",
     "onPlayer": true
-  },
-  {
-    "line": "[2/2] Antikythera Core B: Unauthorized personnel still detected. We here at the Corkus Manufactory are sorry, but your position is officially terminated for failure to comply to orders. Please remain still so lethal force may be applied.",
-    "stopSounds": false
   },
   {
     "line": "[1/1] Antikythera Supercomputer: Primary ventilation duct A unblocked. Closing emergency maintenance hatch.",
