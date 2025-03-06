@@ -47592,27 +47592,38 @@
   },
   {
     "line": "[2/2] Slykaar: But as soon as that hero of heroes turned up... I was cast away.",
-    "stopSounds": false
-  },
-  {
-    "line": "[1/2] Slykaar: Now the city will truly get to witness what power they have discarded.. They will see they made the wrong call.",
     "file": "undergrowthruins-slykaar-3",
     "onPlayer": true
   },
   {
-    "line": "[2/2] Slykaar: Then the corruption will take over the city. Then who will they call? Bob has been missing for years. Fools!",
-    "stopSounds": false
-  },
-  {
-    "line": "[1/1] Slykaar: Nothing and no one will stop me from sieging the city. Not even you!",
+    "line": "[1/2] Slykaar: Now the city will truly get to witness what power they have discarded.. They will see they made the wrong call.",
     "file": "undergrowthruins-slykaar-4",
     "onPlayer": true
   },
   {
-    "line": "[1/1] Slykaar: You have made the sacrifices of many be in total vain!",
+    "line": "[2/2] Slykaar: Then the corruption will take over the city. Then who will they call? Bob has been missing for years. Fools!",
     "file": "undergrowthruins-slykaar-5",
     "onPlayer": true
   },
+  {
+    "line": "[1/2] Slykaar: NO! You... ungrateful miscreant.",
+    "file": "undergrowthruins-slykaar-6"
+  },
+  {
+    "line": "[2/2] Slykaar: No. NO. This ISN'T over.",
+    "file": "undergrowthruins-slykaar-7",
+    "onPlayer": true
+  },
+  {
+    "line": "[1/1] Slykaar: Nothing and no one will stop me from sieging the city. Not even you!",
+    "file": "undergrowthruins-slykaar-8",
+    "onPlayer": true
+  },
+  {
+    "line": "[1/1] Slykaar: You have made the sacrifices of many be in total vain!",
+    "file": "undergrowthruins-slykaar-9",
+    "onPlayer": true
+   },
   {
     "line": "[1/1] ???: More life...familiar life... It’s you again. Isn’t it?",
     "file": "cur-slykaar-1",
