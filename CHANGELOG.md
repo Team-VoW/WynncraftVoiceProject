@@ -1,3 +1,36 @@
+## [1.10.6](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.5...v1.10.6) (2025-03-06)
+
+
+### New Features
+
+* Added new Corrupted Betrayal ([8cdaa16](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8cdaa1641b89a237c16865690b9c40ee2e784bd6))
+* Added new Grave Digger quest ([521daeb](https://github.com/Team-VoW/WynncraftVoiceProject/commit/521daeb7c9803c77e1d0ec3f11bb0f72041b6694))
+* Added new undergrowth ruins dialogue ([7e414b6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/7e414b69db3ab6eb89169c25008bd44395807c97))
+* Allow lines to be registered with no sound line. This will not play anything or cause errors but lead to no line report being made. ([6721029](https://github.com/Team-VoW/WynncraftVoiceProject/commit/672102990a4477e428600fa3a3ddbbbbc5cbef16))
+
+
+### Bug Fixes
+
+* Added missing kingdom of sand lines from bandit1 and bandit2 ([24b2fd3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/24b2fd391ebe234e9c426672c2462b0e0e6d95a1))
+* Change sounds.json to being fetched from azure instead of git and fixed an error that can happen on first start if config was not present. ([45cee19](https://github.com/Team-VoW/WynncraftVoiceProject/commit/45cee19809dae17ae9ba4dd2684c5249c363f281))
+* Fixed 16 not working lines in kingdom of sand ([ad3c1dc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ad3c1dcdb178c8709e070d77b0286fc2d53295e2))
+* Fixed a bunch of not playing lines over many quests ([a663490](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a6634907136700e4f7c81253fbc1ebc46688a45f))
+* Fixed a few Talking mushroom lines that where not playing ([1bd8aee](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1bd8aee99b71d525d4b913a53deef490ada0e128))
+* Fixed a line not playing in redbeards booty ([32d8833](https://github.com/Team-VoW/WynncraftVoiceProject/commit/32d88335b02b3247f5cef44d6c7fd47d7c1d899d))
+* Fixed not playing lines in Elemental Exercise, Maltic's well, Grave Digger, Pit of the dead and taking the tower ([c4518e9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/c4518e9144186de1fe8d8a1a111a83098b31b385))
+* Fixed some lines not playing from the Alchemist Recover the Past ([efbd094](https://github.com/Team-VoW/WynncraftVoiceProject/commit/efbd0940724620d29b54372a0296bfc0a0f8ea8f))
+* Fixed some lines not playing in Green Gloop and added info about some combined lines for Ice barrows ([a0c535a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a0c535a39f30d525847eb74977b6f53f00d2f35c))
+* Fixed some lines not playing in stable story ([b12318b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b12318b4c956c59501dfb4245a4bdc3730b1ecdc))
+* Fixed some lines not playing in wrath of the mummy ([5bd4e2e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5bd4e2ed9bca6395cac0840e51f582291a2405d3))
+
+
+### Miscellaneous Chores
+
+* Added different sounds.json which is used for the version on azure. Contains ALL seaskipper lines we are aware of. ([c1823c3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/c1823c3176e5a09f5001c99634327aa3527530b3))
+* Correctly added all new sound info to the sounds.json that goes on azure ([ca7186d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ca7186d0334addcd065f5f4f054beccca5b91dfb))
+* Moved the sounds.json file into the sounds folder ([d2cdbdd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d2cdbdd6bae1b257378fc48cb0b72c82b0513ed4))
+* Removed some accidental added stopSounds lines with no file which where added to the normal sounds.json and not the new one ([ba4bc45](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ba4bc457481cd3c3ddac86b5231969ea646d4ac3))
+
 ## [1.10.5](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.4...v1.10.5) (2025-03-02)
 
 
@@ -12,6 +45,11 @@
 * Fixed a few hundred lines that where not playing because of special characters ([b354e70](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b354e702526865f7bad905c706b297d395d2c963))
 * Fixed an issue where the bundled sounds.json is not read correctly if download failed leading to no sounds at all playing for some people the first time they use the mod ([f229576](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f2295761ca77e221a11243f2ee77ce8453fde914))
 * Fixed some lines not playing in Ragnis ultimate discovery and made some of the lines be able to overlap ([b6d22b6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b6d22b6734cc9db0266513ea00e040a8ccaf9ebf))
+
+
+### Miscellaneous Chores
+
+* **release:** v1.10.5 [skip ci] ([026b45d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/026b45da78f90045268694a38b0d264a199832fc))
 
 ## [1.10.4](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.3...v1.10.4) (2025-02-24)
 
@@ -66,21 +104,4 @@
 ### Miscellaneous Chores
 
 * **release:** v1.10.2 [skip ci] ([457be8a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/457be8a1a15baec879c6e4233dfde7fe2561a500))
-
-## [1.10.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.0...v1.10.1) (2025-01-25)
-
-
-### New Features
-
-* Update sounds.json file dynamically to automatically support new updates ([84500f8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/84500f8a36efae936ec71ea409ea43975b3f4298))
-
-
-### Bug Fixes
-
-* Run download progress when joining Wynn if the main menu was skipped somehow ([237dd73](https://github.com/Team-VoW/WynncraftVoiceProject/commit/237dd7322a8081be4dd5112eb7f0ceccdbb3abf7))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.10.1 [skip ci] ([a7a4438](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a7a4438353d0354bdcc8c0a4f22f35756425d078))
 
