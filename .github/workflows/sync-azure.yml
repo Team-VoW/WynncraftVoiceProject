@@ -4,6 +4,7 @@ on:
     paths:
       - "sounds/**"
   workflow_dispatch:
+
 jobs:
   sync-to-blob:
     runs-on: ubuntu-latest
@@ -20,7 +21,12 @@ jobs:
 
       - name: Upload changed files to Azure Blob Storage
         if: env.CHANGED_FILES != ''
+        env:
+          BLOB_SAS_URL: ${{ secrets.BLOB_SAS_URL }}
         run: |
+          # Split the SAS URL into the container URL and the SAS token
+          containerUrl="${BLOB_SAS_URL%%\?*}"
+          sasToken="${BLOB_SAS_URL#*\?}"
           for file in $CHANGED_FILES; do
-            azcopy copy "$file" "${{ secrets.AZURE_STORAGE_URL }}/sounds/$file"
+            azcopy copy "$file" "${containerUrl}/sounds/${file#sounds/}?${sasToken}"
           done
