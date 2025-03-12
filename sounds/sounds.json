@@ -10,492 +10,244 @@
     "fallOff": 45
   },
   {
-    "line": "[1/5] Caravan Driver: Hm... I swear I hit this same darn boulder every time I make this trip. Sorry folks.",
+    "line": "[1/6] Caravan Driver: Hm... I swear I hit this same darn boulder every time I make this trip. Sorry folks.",
     "file": "kingsrecruit-caravandriver-2"
   },
   {
-    "line": "[2/5] Tasim: Ah. Does this mean we have to walk all the way to Ragni from here?",
+    "line": "[2/6] Tasim: Ah. Does this mean we have to walk all the way to Ragni from here?",
     "file": "kingsrecruit-tasim-2"
   },
   {
-    "line": "[3/5] Caravan Driver: Unfortunately. Luckily, it's not that far from here. Just a straight path forward.",
+    "line": "[3/6] Caravan Driver: Unfortunately so. Luckily, it's not that far from here. Just a straight path forward.",
     "file": "kingsrecruit-caravandriver-3"
   },
   {
-    "line": "[4/5] Aledar: Well, nothing to do but keep moving! Tasim, soldier, I'll race you to the gate!",
-    "file": "kingsrecruit-aledar-1"
-  },
-  {
-    "line": "[5/5] Tasim: Wait, don't!-... He's already gone. We'll have to catch up to him. soldier, lead the way.",
+    "line": "[5/6] Tasim: Wait, don't!",
     "file": "kingsrecruit-tasim-3"
   },
   {
-    "line": "[1/4] Tasim: I don't suppose you know much about Wynn either, do you?",
+    "line": "[6/6] Tasim: ... He's already gone. We'll have to catch up to him. soldier, lead the way.",
     "file": "kingsrecruit-tasim-4"
   },
   {
-    "line": "[2/4] Tasim: Of course, the King of Ragni's been recruiting Fruma soldiers, but...",
+    "line": "[1/4] Tasim: I don't suppose you know much about Wynn either, do you?",
     "file": "kingsrecruit-tasim-5"
   },
   {
-    "line": "[3/4] Tasim: That war of theirs must be getting pretty bad if they need this much support.",
+    "line": "[2/4] Tasim: Of course, the King of Ragni's been recruiting Fruma soldiers, but...",
     "file": "kingsrecruit-tasim-6"
   },
   {
-    "line": "[4/4] Tasim: Oh, there's Aledar! And the gate, by the looks of it.",
+    "line": "[3/4] Tasim: That war of theirs must be getting pretty bad if they need this much support.",
     "file": "kingsrecruit-tasim-7"
   },
   {
-    "line": "[1/4] Aledar: There you two are! You'll have to be faster than that if you want to stand a chance against the undead.",
-    "file": "kingsrecruit-aledar-2"
-  },
-  {
-    "line": "[2/4] Tasim: Yes, yes, we'll be faster next time. So, is this the gate marking the border between Wynn and Fruma?",
+    "line": "[4/4] Tasim: Oh, there's Aledar! And the gate, by the looks of it.",
     "file": "kingsrecruit-tasim-8"
   },
   {
-    "line": "[3/4] Aledar: It looks like it, yep! Are you two ready for the start of our new lives? Here we go!",
-    "file": "kingsrecruit-aledar-3"
-  },
-  {
-    "line": "[4/4] Aledar: Well, what are you waiting for?",
-    "file": "kingsrecruit-aledar-4"
-  },
-  {
-    "line": "[1/3] Tasim: So this is the Wynn we've all been hearing about... It's beautiful.",
+    "line": "[2/4] Tasim: Yes, yes, we'll be faster next time. So, this is the gate marking the border between Wynn and Fruma?",
     "file": "kingsrecruit-tasim-9"
   },
   {
-    "line": "[2/3] Aledar: I guess the war hasn't made it this far. This is what we'll be fighting to protect.",
-    "file": "kingsrecruit-aledar-5"
+    "line": "[1/3] Tasim: So this is the Wynn we've all been hearing about... It's beautiful.",
+    "file": "kingsrecruit-tasim-10"
   },
   {
     "line": "[3/3] Soldier: Hey, recruits! Come over here, I have something to tell you.",
     "file": "kingsrecruit-soldier-1"
   },
   {
-    "line": "[1/4] Tasim: A soldier? What are you doing all the way out here?",
-    "file": "kingsrecruit-tasim-10"
-  },
-  {
-    "line": "[2/4] Soldier: There's a bit of trouble up ahead. They sent me out here to intercept new recruits.",
-    "file": "kingsrecruit-soldier-2"
-  },
-  {
-    "line": "[3/4] Soldier: Do you see this cave over here? Caves such as these often contain useful loot that can help keep you alive. If you enter the cave, you can find armour to protect you.",
-    "file": "kingsrecruit-soldier-3"
-  },
-  {
-    "line": "[4/4] Aledar: Well, you heard the man! Let's go get geared up.",
-    "file": "kingsrecruit-aledar-6"
-  },
-  {
-    "line": "[1/1] Aledar: Don't leave yet! I'd love to keep going, but first we need to get protection.",
-    "file": "kingsrecruit-aledar-7"
-  },
-  {
-    "line": "[1/1] Soldier: Enter this cave and find yourself some armour.",
-    "file": "kingsrecruit-soldier-4"
-  },
-  {
-    "line": "[1/1] Tasim: You heard the soldier. Let's enter the cave and find some armour.",
+    "line": "[1/7] Tasim: A soldier? What are you doing all the way out here?",
     "file": "kingsrecruit-tasim-11"
   },
   {
-    "line": "[1/1] Aledar: Hmph. The soldier didn't tell us the cave path was collapsed! We'll have to jump through.",
-    "file": "kingsrecruit-aledar-8"
+    "line": "[2/7] Soldier: There's a bit of trouble up ahead. They sent me out here to intercept new recruits.",
+    "file": "kingsrecruit-soldier-2"
   },
   {
-    "line": "[1/3] Tasim: Well, this is a problem... I don't think we can make this jump.",
+    "line": "[3/7] Soldier: If you want to survive out here, you're going to need this.",
+    "file": "kingsrecruit-soldier-3"
+  },
+  {
+    "line": "[4/7] Soldier: And for you two.",
+    "file": "kingsrecruit-soldier-4"
+  },
+  {
+    "line": "[6/7] Tasim: Hopefully we won't have to use these just yet.",
     "file": "kingsrecruit-tasim-12"
   },
   {
-    "line": "[2/3] Aledar: Hm. There's got to be some way to... Oh! What if we could break that rock on the ceiling?",
-    "file": "kingsrecruit-aledar-9"
-  },
-  {
-    "line": "[3/3] Tasim: ...And then it would fall and open up a path for us! soldier, left-click the rock to attack and break it!",
-    "file": "kingsrecruit-tasim-13"
-  },
-  {
-    "line": "[1/1] Aledar: It worked! Now we can reach that chest!",
-    "file": "kingsrecruit-aledar-10"
-  },
-  {
-    "line": "[1/1] Tasim: You can right-click a loot chest to open it.",
-    "file": "kingsrecruit-tasim-14"
-  },
-  {
-    "line": "[1/1] Aledar: Anything good in there? Come on, let's get back to that soldier.",
-    "file": "kingsrecruit-aledar-11"
-  },
-  {
-    "line": "[1/1] Aledar: Oh, you fell! Try doing it again.",
-    "file": "kingsrecruit-aledar-12"
-  },
-  {
-    "line": "[1/5] Soldier: Hm... Yes, that looks like it'll do.",
+    "line": "[7/7] Soldier: Good luck out there, recruits! Just follow this path, and there will be a bridge up ahead.",
     "file": "kingsrecruit-soldier-5"
   },
   {
-    "line": "[2/5] Soldier: Normally these outskirts are pretty safe, but we've had some corrupted forces slip through recently.",
-    "file": "kingsrecruit-soldier-6"
+    "line": "[1/6] Tasim: Ah, this must be the bridge the soldier was talking about. But it certainly looks very...",
+    "file": "kingsrecruit-tasim-13"
   },
   {
-    "line": "[3/5] Soldier: We're not entirely sure how they got here... Either way, they've been causing chaos. They've even managed to destroy the bridge!",
-    "file": "kingsrecruit-soldier-7"
+    "line": "[3/6] Tasim: No, wait!",
+    "file": "kingsrecruit-tasim-14"
   },
   {
-    "line": "[4/5] Soldier: ... In any case. You've noticed your loot is currently unidentified, yes? You'll be able to identify it at the Item Identifier further down the path, on your left.",
-    "file": "kingsrecruit-soldier-8"
-  },
-  {
-    "line": "[5/5] Aledar: Alright. Thanks for the warning! We'll be sure to stay safe. soldier, lead the way!",
-    "file": "kingsrecruit-aledar-13"
-  },
-  {
-    "line": "[1/1] Aledar: soldier, you're going the wrong way!",
-    "file": "kingsrecruit-aledar-14"
-  },
-  {
-    "line": "[1/1] Tasim: Hey, don't leave yet! We still need to check out the identifier and head on to the bridge!",
+    "line": "[4/6] Tasim: Aledar!",
     "file": "kingsrecruit-tasim-15"
   },
   {
-    "line": "[1/2] Tasim: Oh, that must be the item identifier the soldier mentioned.",
+    "line": "[6/6] Tasim: That's what I was trying to warn you about! Let's just get off this bridge before the rest of it collapses...",
     "file": "kingsrecruit-tasim-16"
   },
   {
-    "line": "[2/2] Aledar: Right. soldier, you can right-click the identifier to identify your item! Let us know when you're done.",
-    "file": "kingsrecruit-aledar-15"
-  },
-  {
-    "line": "[1/2] Aledar: You've got it identified? Great! Let's keep moving.",
-    "file": "kingsrecruit-aledar-16"
-  },
-  {
-    "line": "[2/2] Tasim: Hm... The soldier said something about the bridge being destroyed. Maybe we should check it out.",
+    "line": "[2/7] Tasim: ... Aledar? What's wrong?",
     "file": "kingsrecruit-tasim-17"
   },
   {
-    "line": "[1/8] Tasim: Well, that soldier wasn't kidding. This is some serious damage...",
+    "line": "[4/7] Tasim: Hm. I can't remember anything from Fruma either... soldier, how about you?",
     "file": "kingsrecruit-tasim-18"
   },
   {
-    "line": "[2/8] Aledar: Well, how are we meant to get to the other side of this ravine now? Ugh. Another thing gone wrong, just like-...",
-    "file": "kingsrecruit-aledar-17"
-  },
-  {
-    "line": "[3/8] Tasim: ... Aledar? What's wrong?",
+    "line": "[6/7] Tasim: No, but... We can worry about that later. For now, we need to find a way past this ravine. Aledar, soldier, you should look around for a way across. I'll keep looking here.",
     "file": "kingsrecruit-tasim-19"
   },
   {
-    "line": "[4/8] Aledar: That's... weird. I was just thinking about something from before Wynn, but... it's gone. I can't remember.",
-    "file": "kingsrecruit-aledar-18"
-  },
-  {
-    "line": "[5/8] Tasim: Hm. I can't remember anything from Fruma either... soldier, how about you?",
+    "line": "[1/3] Tasim: Phew! We made it over safely this time at least.",
     "file": "kingsrecruit-tasim-20"
   },
   {
-    "line": "[6/8] Aledar: Nothing. It can't be a coincidence we've all lost our memories at the same time, right?",
-    "file": "kingsrecruit-aledar-19"
-  },
-  {
-    "line": "[7/8] Tasim: No, but... We can worry about that later. For now, we need to find a way past this ravine. Aledar, soldier, you should look around for a way across. I'll keep looking here.",
+    "line": "[3/3] Tasim: Hmm? What's that guard doing here? We should probably talk to them if we want to pass through.",
     "file": "kingsrecruit-tasim-21"
   },
   {
-    "line": "[8/8] Aledar: Yeah... Alright. Let's go, soldier.",
-    "file": "kingsrecruit-aledar-20"
+    "line": "[1/7] Guard: Halt, recruits!",
+    "file": "kingsrecruit-guard-1"
   },
   {
-    "line": "[1/1] Tasim: Be careful, soldier! Don't want you falling off the edge.",
+    "line": "[2/7] Tasim: What? What's going on?",
     "file": "kingsrecruit-tasim-22"
   },
   {
-    "line": "[1/1] Tasim: Hey, don't leave yet! We still need to figure out a way across the gap.",
+    "line": "[3/7] Guard: A group of corrupted have sieged this underpass. I can't let you enter without any armour.",
+    "file": "kingsrecruit-guard-2"
+  },
+  {
+    "line": "[5/7] Guard: Do you see that cave over there? Caves such as those often contain useful loot that can help keep you alive.",
+    "file": "kingsrecruit-guard-3"
+  },
+  {
+    "line": "[6/7] Guard: If you enter the cave, you should be able to find some armour to protect you. After that return to me.",
+    "file": "kingsrecruit-guard-4"
+  },
+  {
+    "line": "[1/1] Tasim: I think we've already seen everything we had to in there, soldier.",
     "file": "kingsrecruit-tasim-23"
   },
   {
-    "line": "[1/2] Aledar: Woah! That's one way of doing it, I guess! Hey, Tasim, over here!",
-    "file": "kingsrecruit-aledar-21"
+    "line": "[1/7] Guard: So you found some armour, huh?",
+    "file": "kingsrecruit-guard-5"
   },
   {
-    "line": "[2/2] Tasim: Good work! You two, go on ahead, I'll be just behind you.",
+    "line": "[3/7] Guard: Hold on there, recruit. Before you can equip a piece of armour you first have to identify it.",
+    "file": "kingsrecruit-guard-6"
+  },
+  {
+    "line": "[4/7] Tasim: And how do we do that?",
     "file": "kingsrecruit-tasim-24"
   },
   {
-    "line": "[1/1] Aledar: Looks like that's the underpass up ahead... We just need to get through there, and we'll be at the castle!",
-    "file": "kingsrecruit-aledar-22"
+    "line": "[5/7] Guard: You can identify items at Item Identifiers. They exist in every city across the whole world, and we keep one here for convenience.",
+    "file": "kingsrecruit-guard-7"
   },
   {
-    "line": "[1/6] Guard: Ah, the new recruits. Wait there a moment. There's a spot of trouble up ahead.",
-    "file": "kingsrecruit-guard1-1"
+    "line": "[6/7] Guard: Identify your helmet at the Item Identifier and then return to me with it equipped. After you've done that I'll let you pass.",
+    "file": "kingsrecruit-guard-8"
   },
   {
-    "line": "[2/6] Tasim: What? What's going on?",
+    "line": "[7/7] Tasim: Alright! Let's go, soldier.",
     "file": "kingsrecruit-tasim-25"
   },
   {
-    "line": "[3/6] Guard: A group of the corrupted have sieged the underpass. It's not safe to go unarmed, so you'll need weapons.",
-    "file": "kingsrecruit-guard1-2"
+    "line": "[1/2] Guard: What are you waiting for recruits? Go identify the helmet at the Item Identifier and then equip it in your helmet slot!",
+    "file": "kingsrecruit-guard-9"
   },
   {
-    "line": "[4/6] Guard: Let's see... A spear for you, a dagger for you, and... a bow for you. There you are.",
-    "file": "kingsrecruit-guard1-3"
+    "line": "[2/2] Guard: Unless you'd rather stand around here all day, that's fine by me too.",
+    "file": "kingsrecruit-guard-10"
   },
   {
-    "line": "[4/6] Guard: Let's see... A spear for you, a dagger for you, and... a wand for you. There you are.",
-    "file": "kingsrecruit-guard1-4"
+    "line": "[1/2] Guard: I see you have your helmet on. Fantastic, you may now pass. Let me open this door for you.",
+    "file": "kingsrecruit-guard-11"
   },
   {
-    "line": "[4/6] Guard: Let's see... A spear for you, a dagger for you, and... a dagger for you. There you are.",
-    "file": "kingsrecruit-guard1-5"
+    "line": "[2/2] Guard: Good luck in there recruits! Even with your armour it won't be so easy!",
+    "file": "kingsrecruit-guard-12"
   },
   {
-    "line": "[4/6] Guard: Let's see... A spear for you, a dagger for you, and... a relik for you. There you are.",
-    "file": "kingsrecruit-guard1-6"
+    "line": "[1/1] Guard: You can pass now, recruits. Good luck in there.",
+    "file": "kingsrecruit-guard-13"
   },
   {
-    "line": "[4/6] Guard: Let's see... A spear for you, a dagger for you, and... a spear for you. There you are.",
-    "file": "kingsrecruit-guard1-7"
-  },
-  {
-    "line": "[5/6] Aledar: Are we expected to fight already? I would have thought we'd need training first.",
-    "file": "kingsrecruit-aledar-23"
-  },
-  {
-    "line": "[6/6] Guard: In a perfect world, yes. But unfortunately, that trouble up ahead won't wait for you to train. Good luck, recruits.",
-    "file": "kingsrecruit-guard1-8"
-  },
-  {
-    "line": "[1/3] Aledar: What's going on?",
-    "file": "kingsrecruit-aledar-24"
-  },
-  {
-    "line": "[2/3] Tasim: I think that's one of the corrupted... soldier, get ready. You never know when it could...",
+    "line": "[1/2] Tasim: Wow, that guard wasn't joking. This place is crawling with the corrupt.",
     "file": "kingsrecruit-tasim-26"
   },
   {
-    "line": "[3/3] Tasim: Strike! Kill it, quickly!",
+    "line": "[2/2] Tasim: This path opened up, let's continue through the underpass.",
     "file": "kingsrecruit-tasim-27"
   },
   {
-    "line": "[1/1] Aledar: Phew... Good work, soldier. Let's keep going.",
-    "file": "kingsrecruit-aledar-25"
+    "line": "[1/1] Lieutenant: Over here! You're just what I needed!",
+    "file": "kingsrecruit-lieutenant-1"
   },
   {
-    "line": "[1/3] Tasim: Hm... Something's wrong. I think we're about to be...",
+    "line": "[1/3] Lieutenant: Finally some backup! Wait a second... you're straight from Fruma aren't you?",
+    "file": "kingsrecruit-lieutenant-2"
+  },
+  {
+    "line": "[2/3] Lieutenant: Oh well, this area should be clear by now. Ragni is just up ahead after all.",
+    "file": "kingsrecruit-lieutenant-3"
+  },
+  {
+    "line": "[3/3] Tasim: Lieutenant, watch out behind you!",
     "file": "kingsrecruit-tasim-28"
   },
   {
-    "line": "[2/3] Tasim: ...ambushed.",
+    "line": "[1/2] Lieutenant: Quick, you have to use an ability!",
+    "file": "kingsrecruit-lieutenant-4"
+  },
+  {
+    "line": "[2/2] Lieutenant: Now cast your spell with your weapon!",
+    "file": "kingsrecruit-lieutenant-5"
+  },
+  {
+    "line": "[1/2] Tasim: Great job, soldier!",
     "file": "kingsrecruit-tasim-29"
   },
   {
-    "line": "[3/3] Aledar: soldier, take the one in the front! We'll handle the two in the back!",
-    "file": "kingsrecruit-aledar-26"
+    "line": "[1/3] Lieutenant: ... That was close. Thanks for the save, recruits!",
+    "file": "kingsrecruit-lieutenant-6"
   },
   {
-    "line": "[1/2] Aledar: I think I'm starting to get the hang of this! These corrupted don't stand a chance!",
-    "file": "kingsrecruit-aledar-27"
+    "line": "[2/3] Lieutenant: I think you three are going to make good soldiers - not many can handle themselves like you just did.",
+    "file": "kingsrecruit-lieutenant-7"
   },
   {
-    "line": "[2/2] Tasim: Likewise. Alright, let's keep going. It shouldn't be too far now...",
+    "line": "[3/3] Lieutenant: It seems that beast dropped something, you should check it out before heading to Ragni.",
+    "file": "kingsrecruit-lieutenant-8"
+  },
+  {
+    "line": "[1/2] Tasim: That item looks rare! Maybe there's an identifier around here.",
     "file": "kingsrecruit-tasim-30"
   },
   {
-    "line": "[1/9] Guard: Finally, some backup! Help me out here, would you?",
-    "file": "kingsrecruit-guard2-1"
-  },
-  {
-    "line": "[2/9] Tasim: What happened! Are you injured? Were you attacked by the corrupt?",
+    "line": "[2/6] Tasim: ... Still think those corrupted don't stand a chance against you?",
     "file": "kingsrecruit-tasim-31"
   },
   {
-    "line": "[3/9] Guard: Injured, yes, but not by the undead. I'm well equipped for those. The issue is this here cave-in.",
-    "file": "kingsrecruit-guard2-2"
-  },
-  {
-    "line": "[4/9] Aledar: This isn't seriously the only way through, is it? There's got to be something we can do!",
-    "file": "kingsrecruit-aledar-28"
-  },
-  {
-    "line": "[5/9] Guard: If only I wasn't injured, I could just use my weapon to cast a spell on these boulders to get rid of them...",
-    "file": "kingsrecruit-guard2-3"
-  },
-  {
-    "line": "[6/9] Guard: ... You there, the quiet one with the bow. What's your name?",
-    "file": "kingsrecruit-guard2-4"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're an Archer, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-5"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're a Hunter, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-6"
-  },
-  {
-    "line": "[8/9] Guard: You should be able to unlock your first ability... Just use your compass, and click on the ability tree on the left.",
-    "file": "kingsrecruit-guard2-7"
-  },
-  {
-    "line": "[9/9] Guard: Now, cast your Arrow Bomb spell by clicking Left-Right-Right!",
-    "file": "kingsrecruit-guard2-8"
-  },
-  {
-    "line": "[6/9] Guard: ... You there, the quiet one with the spear. What's your name?",
-    "file": "kingsrecruit-guard2-9"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're a Knight, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-10"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're a Warrior, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-11"
-  },
-  {
-    "line": "[9/9] Guard: Now, cast your Bash spell by clicking Right-Left-Right!",
-    "file": "kingsrecruit-guard2-12"
-  },
-  {
-    "line": "[6/9] Guard: ... You there, the quiet one with the wand. What's your name?",
-    "file": "kingsrecruit-guard2-13"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're a Dark Wizard, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-14"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're a Mage, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-15"
-  },
-  {
-    "line": "[9/9] Guard: Now, cast your Meteor spell by clicking Right-Left-Left!",
-    "file": "kingsrecruit-guard2-16"
-  },
-  {
-    "line": "[6/9] Guard: ... You there, the quiet one with the dagger. What's your name?",
-    "file": "kingsrecruit-guard2-17"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're an Assassin, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-18"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're a Ninja, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-19"
-  },
-  {
-    "line": "[9/9] Guard: Now, cast your Spin Attack spell by clicking Right-Left-Right!",
-    "file": "kingsrecruit-guard2-20"
-  },
-  {
-    "line": "[6/9] Guard: ... You there, the quiet one with the relik. What's your name?",
-    "file": "kingsrecruit-guard2-21"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're a Shaman, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-22"
-  },
-  {
-    "line": "[7/9] Guard: soldier. You're a Skyseer, right? Walk up to the boulder for me.",
-    "file": "kingsrecruit-guard2-23"
-  },
-  {
-    "line": "[9/9] Guard: Now, cast your Totem spell by clicking Right-Left-Right!",
-    "file": "kingsrecruit-guard2-24"
-  },
-  {
-    "line": "[1/1] Guard: Stand in front of the boulder and cast your spell by clicking Left-Right-Right!",
-    "file": "kingsrecruit-guard2-25"
-  },
-  {
-    "line": "[1/1] Guard: Stand in front of the boulder and cast your spell by clicking Right-Left-Right!",
-    "file": "kingsrecruit-guard2-26"
-  },
-  {
-    "line": "[1/1] Guard: Cast your spell by clicking Left-Right-Right!",
-    "file": "kingsrecruit-guard2-27"
-  },
-  {
-    "line": "[1/1] Guard: Cast your spell by clicking Right-Left-Right!",
-    "file": "kingsrecruit-guard2-28"
-  },
-  {
-    "line": "[1/1] Guard: Well done, recruit! It's a straight path to the castle from here. You three, head on towards the castle.",
-    "file": "kingsrecruit-guard2-29"
-  },
-  {
-    "line": "[1/2] Guard: ... Wait. What is THAT?!",
-    "file": "kingsrecruit-guard2-30"
-  },
-  {
-    "line": "[2/3] Guard: Aghh! Let me go!",
-    "file": "kingsrecruit-guard2-31"
-  },
-  {
-    "line": "[3/3] Tasim: Quickly, after that thing! We need to save the guard!",
+    "line": "[4/6] Tasim: And a blacksmith too, you can sell your old helmet there for some emeralds.",
     "file": "kingsrecruit-tasim-32"
   },
   {
-    "line": "[1/1] Aledar: Hey, soldier! Castle's the other way!",
-    "file": "kingsrecruit-aledar-29"
-  },
-  {
-    "line": "[1/3] Guard: ... That was close. Thanks for the save!",
-    "file": "kingsrecruit-guard2-32"
-  },
-  {
-    "line": "[2/3] Guard: I think you three are going to make good recruits - not many can handle themselves like you just did.",
-    "file": "kingsrecruit-guard2-33"
-  },
-  {
-    "line": "[3/3] Guard: You should head on to the castle, now. I'll take care of any leftover corrupted.",
-    "file": "kingsrecruit-guard2-34"
-  },
-  {
-    "line": "[1/3] Aledar: We... we made it! We really made it! Gods, that was a close one at the end.",
-    "file": "kingsrecruit-aledar-30"
-  },
-  {
-    "line": "[2/3] Tasim: ... Still think those corrupted don't stand a chance against you?",
+    "line": "[5/6] Tasim: Here it is, the end of our journey.",
     "file": "kingsrecruit-tasim-33"
-  },
-  {
-    "line": "[3/3] Aledar: Ha ha. Very funny. Let's just head inside and talk to the king.",
-    "file": "kingsrecruit-aledar-31"
-  },
-  {
-    "line": "[1/5] Tasim: ...oh, soldier! Over here. Aledar's gone on ahead, but I figured I'd stay back and wait for you to be done.",
-    "file": "kingsrecruit-tasim-34"
-  },
-  {
-    "line": "[2/5] Tasim: So! Wynn, huh? It's pretty exciting to finally be here. I'm going to head off in the direction of Detlas soon, but I wanted to tell you about something first.",
-    "file": "kingsrecruit-tasim-35"
-  },
-  {
-    "line": "[3/5] Tasim: There's this handy item we were all given on our way here- the Content Book. It displays most things you can do in this world- quests, caves, and more.",
-    "file": "kingsrecruit-tasim-36"
-  },
-  {
-    "line": "[4/5] Tasim: It also lets you track any content you want, which will create a beacon you can follow. Here, why don't you try it out? Use your content book, and click on the highlighted quest.",
-    "file": "kingsrecruit-tasim-37"
-  },
-  {
-    "line": "[5/5] Tasim: Well, there you go! I'm going to head to the end of the Emerald Trail, to the entrance of Nivla Woods. You should meet me there once you've gotten a little stronger.",
-    "file": "kingsrecruit-tasim-38"
-  },
-  {
-    "line": "[1/1] Aledar: Where are you going? Don't leave us!",
-    "file": "kingsrecruit-aledar-32"
-  },
-  {
-    "line": "[1/1] Tasim: Come over here, we have a problem...",
-    "file": "kingsrecruit-tasim-39"
   },
   {
     "line": "[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.",
@@ -535,6 +287,179 @@
     "line": "[7/7] Ragni's King: Take this [1 Ragni Teleportation Scroll] too! It will bring you back here if you use it.",
     "file": "kingsrecruit-ragnisking-8"
   },
+  {
+    "line": "[1/1] Tasim: You heard the soldier. Let's enter the cave and find some armour.",
+    "file": "kingsrecruit-tasim-34"
+  },
+  {
+    "line": "[1/1] Tasim: You can right-click a loot chest to open it.",
+    "file": "kingsrecruit-tasim-35"
+  },
+  {
+    "line": "[1/1] Tasim: Hey, don't leave yet! We still need to check out the identifier and head on to the bridge!",
+    "file": "kingsrecruit-tasim-36"
+  },
+  {
+    "line": "[1/1] Tasim: Be careful, soldier! Don't want you falling off the edge.",
+    "file": "kingsrecruit-tasim-37"
+  },
+  {
+    "line": "[1/1] Tasim: Hey, don't leave yet! We still need to figure out a way across the gap.",
+    "file": "kingsrecruit-tasim-38"
+  },
+  {
+    "line": "[1/1] Tasim: Come over here, we have a problem..",
+    "file": "kingsrecruit-tasim-39"
+  },
+  {
+    "line": "[1/5] Tasim: ...oh, soldier! Over here. Aledar's gone on ahead, but I figured I'd stay back and wait for you to be done.",
+    "file": "kingsrecruit-tasim-40"
+  },
+  {
+    "line": "[2/5] Tasim: So! Wynn, huh? It's pretty exciting to finally be here. I'm going to head off in the direction of Detlas soon, but I wanted to tell you about something first.",
+    "file": "kingsrecruit-tasim-41"
+  },
+  {
+    "line": "[3/5] Tasim: There's this handy item we were all given on our way here- the Content Book. It displays most things you can do in this world- quests, caves, and more.",
+    "file": "kingsrecruit-tasim-42"
+  },
+  {
+    "line": "[4/5] Tasim: It also lets you track any content you want, which will create a beacon you can follow. Here, why don't you try it out? Use your content book, and click on the highlighted quest.",
+    "file": "kingsrecruit-tasim-43"
+  },
+  {
+    "line": "[5/5] Tasim: Well, there you go! I'm going to head to the end of the Emerald Trail, to the entrance of Nivla Woods. You should meet me there once you've gotten a little stronger.",
+    "file": "kingsrecruit-tasim-44"
+  },
+  {
+    "line": "[4/5] Aledar: Well, nothing to do but keep moving! Tasim, soldier, I'll race you to the gate!",
+    "file": "kingsrecruit-aledar-1"
+  },
+  {
+    "line": "[1/4] Aledar: There you two are! You'll have to be faster than that if you want to stand a chance against the undead.",
+    "file": "kingsrecruit-aledar-2"
+  },
+  {
+    "line": "[3/4] Aledar: It looks like it, yep! Are you two ready for the start of our new lives? Here we go!",
+    "file": "kingsrecruit-aledar-3"
+  },
+  {
+    "line": "[4/4] Aledar: Well, what are you waiting for?",
+    "file": "kingsrecruit-aledar-4"
+  },
+  {
+    "line": "[2/3] Aledar: I guess the war hasn't made it this far. This is what we'll be fighting to protect.",
+    "file": "kingsrecruit-aledar-5"
+  },
+  {
+    "line": "[4/4] Aledar: Well, you heard the man! Let's go get geared up.",
+    "file": "kingsrecruit-aledar-6"
+  },
+  {
+    "line": "[1/1] Aledar: Don't leave yet! I'd love to keep going, but first we need to get protection.",
+    "file": "kingsrecruit-aledar-7"
+  },
+  {
+    "line": "[1/1] Aledar: Hmph. The soldier didn't tell us the cave path was collapsed! We'll have to jump through.",
+    "file": "kingsrecruit-aledar-8"
+  },
+  {
+    "line": "[2/3] Aledar: Hm. There's got to be some way to... Oh! What if we could break that rock on the ceiling?",
+    "file": "kingsrecruit-aledar-9"
+  },
+  {
+    "line": "[1/1] Aledar: It worked! Now we can reach that chest!",
+    "file": "kingsrecruit-aledar-10"
+  },
+  {
+    "line": "[1/1] Aledar: Anything good in there? Come on, let's get back to that soldier.",
+    "file": "kingsrecruit-aledar-11"
+  },
+  {
+    "line": "[1/1] Aledar: Oh, you fell! Try doing it again.",
+    "file": "kingsrecruit-aledar-12"
+  },
+  {
+    "line": "[5/5] Aledar: Alright. Thanks for the warning! We'll be sure to stay safe. soldier, lead the way!",
+    "file": "kingsrecruit-aledar-13"
+  },
+  {
+    "line": "[1/1] Aledar: soldier, you're going the wrong way!",
+    "file": "kingsrecruit-aledar-14"
+  },
+  {
+    "line": "[2/2] Aledar: Right. soldier, you can right-click the identifier to identify your item! Let us know when you're done.",
+    "file": "kingsrecruit-aledar-15"
+  },
+  {
+    "line": "[1/2] Aledar: You've got it identified? Great! Let's keep moving.",
+    "file": "kingsrecruit-aledar-16"
+  },
+  {
+    "line": "[2/8] Aledar: Well, how are we meant to get to the other side of this ravine now? Ugh. Another thing gone wrong, just like-...",
+    "file": "kingsrecruit-aledar-17"
+  },
+  {
+    "line": "[4/8] Aledar: That's... weird. I was just thinking about something from before Wynn, but... it's gone. I can't remember.",
+    "file": "kingsrecruit-aledar-18"
+  },
+  {
+    "line": "[6/8] Aledar: Nothing. It can't be a coincidence we've all lost our memories at the same time, right?",
+    "file": "kingsrecruit-aledar-19"
+  },
+  {
+    "line": "[8/8] Aledar: Yeah... Alright. Let's go, soldier.",
+    "file": "kingsrecruit-aledar-20"
+  },
+  {
+    "line": "[1/2] Aledar: Woah! That's one way of doing it, I guess! Hey, Tasim, over here!",
+    "file": "kingsrecruit-aledar-21"
+  },
+  {
+    "line": "[1/1] Aledar: Looks like that's the underpass up ahead... We just need to get through there, and we'll be at the castle!",
+    "file": "kingsrecruit-aledar-22"
+  },
+  {
+    "line": "[5/6] Aledar: Are we expected to fight already? I would have thought we'd need training first.",
+    "file": "kingsrecruit-aledar-23"
+  },
+  {
+    "line": "[1/3] Aledar: What's going on?",
+    "file": "kingsrecruit-aledar-24"
+  },
+  {
+    "line": "[1/1] Aledar: Phew... Good work, soldier. Let's keep going.",
+    "file": "kingsrecruit-aledar-25"
+  },
+  {
+    "line": "[3/3] Aledar: soldier, take the one in the front! We'll handle the two in the back!",
+    "file": "kingsrecruit-aledar-26"
+  },
+  {
+    "line": "[1/2] Aledar: I think I'm starting to get the hang of this! These corrupted don't stand a chance!",
+    "file": "kingsrecruit-aledar-27"
+  },
+  {
+    "line": "[4/9] Aledar: This isn't seriously the only way through, is it? There's got to be something we can do!",
+    "file": "kingsrecruit-aledar-28"
+  },
+  {
+    "line": "[1/1] Aledar: Hey, soldier! Castle's the other way!",
+    "file": "kingsrecruit-aledar-29"
+  },
+  {
+    "line": "[1/3] Aledar: We... we made it! We really made it! Gods, that was a close one at the end.",
+    "file": "kingsrecruit-aledar-30"
+  },
+  {
+    "line": "[3/3] Aledar: Ha ha. Very funny. Let's just head inside and talk to the king.",
+    "file": "kingsrecruit-aledar-31"
+  },
+  {
+    "line": "[1/1] Aledar: Where are you going? Don't leave us!",
+    "file": "kingsrecruit-aledar-32"
+  },
+
   {
     "line": "[1/5] Enzan: I see you want to venture into the wilderness!",
     "file": "enzansbrother-enzan-1"
