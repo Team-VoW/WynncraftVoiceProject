@@ -1454,64 +1454,76 @@
     "file": "tunneltrouble-captainfenor-5"
   },
   {
-    "line": "[1/3] Miner Linton: Ah, recruit! You must be the one Cap'n Fenor sent!",
+    "line": "[1/3] Miner Linton: ...Oh! Shoot, is it time to get to work already?",
     "file": "tunneltrouble-minerlinton-1"
   },
   {
-    "line": "[2/3] Miner Linton: Well, let’s get started then!",
+    "line": "[2/3] Miner Linton: Guess you're the soldier, then?",
     "file": "tunneltrouble-minerlinton-2"
   },
   {
-    "line": "[3/3] Miner Linton: Help me clear this debris. Just walk up to it and give it a good shove for me!",
+    "line": "[3/3] Miner Linton: Uh... well, to start, we'll need to clear that debris. Just... give it a shove, or something. That'll probably do it.",
     "file": "tunneltrouble-minerlinton-3"
   },
   {
-    "line": "[1/1] Miner Linton: Nice job! Let's move cautiously, We don't really know what's down here...",
+    "line": "[1/2] Miner Linton: Pretty easy, huh? Hey, maybe you can just go on ahead, and do the rest yourself?",
     "file": "tunneltrouble-minerlinton-4"
   },
   {
-    "line": "[1/1] Miner Linton: Wait... Do you hear that? Ah, monsters! Do your job soldier!",
+    "line": "[2/2] Miner Linton: ...Yeah, no, I should probably do my job. Let me grab my pickaxe, and we can keep going forward.",
     "file": "tunneltrouble-minerlinton-5"
   },
   {
-    "line": "[1/2] Miner Linton: Wha?!",
+    "line": "[1/1] Miner Linton: Oh, come on... Hey, soldier, do your job! Get rid of those monsters, would you?",
     "file": "tunneltrouble-minerlinton-6"
   },
   {
-    "line": "[2/2] Miner Linton: Ah, that cave-in just blocked the path! Defend me while I try and make a hole!",
+    "line": "[1/2] Miner Linton: Huh?!",
     "file": "tunneltrouble-minerlinton-7"
   },
   {
-    "line": "[1/1] Miner Linton: Keep it up! I think I'm half way there!",
+    "line": "[2/2] Miner Linton: A cave-in? Really? More work for me... I'll make us a way through, just keep fighting those corrupteds!",
     "file": "tunneltrouble-minerlinton-8"
   },
   {
-    "line": "[1/1] Miner Linton: Aha! I can see the other side! Just a little more...",
+    "line": "[1/1] Miner Linton: Halfway there... Ugh, I knew I should have brought explosives...",
     "file": "tunneltrouble-minerlinton-9"
   },
   {
-    "line": "[1/1] Miner Linton: Got it, I made a hole! Quickly, let's go before we're overrun!",
+    "line": "[1/1] Miner Linton: I can see the other side! Just a little bit more...",
     "file": "tunneltrouble-minerlinton-10"
   },
   {
-    "line": "[1/5] Miner Linton: This cave barely seems worth the trouble to me...",
+    "line": "[1/1] Miner Linton: There we go, I've made us a hole! Get over here, quickly!",
     "file": "tunneltrouble-minerlinton-11"
   },
   {
-    "line": "[2/5] Miner Linton: This wall of debris is much too big for us to be able to move. What do we do now?",
+    "line": "[1/7] Miner Linton: ...Oh, come on. You've got to be kidding me. Another cave-in? Really?",
     "file": "tunneltrouble-minerlinton-12"
   },
   {
-    "line": "[3/5] Miner Linton: hmm... Maybe if we- wait, what's happening to the wall to the right?",
+    "line": "[2/7] Miner Linton: And of course it's bigger than the last one. What's my pickaxe going to do against this thing?!",
     "file": "tunneltrouble-minerlinton-13"
   },
   {
-    "line": "[4/5] ???: Oh, uh... Hi... Well, this is a little awkward... I'll just... Go.",
+    "line": "[3/7] Miner Linton: Really should have thought to bring explosives. Well, soldier, we tried our best! Nobody'll blame us if we give up now.",
+    "file": "tunneltrouble-minerlinton-14"
+  },
+  {
+    "line": "[4/7] Miner Linton: ...What? Don't look at me like that. Fine, we can- huh? Do you hear that? Over there, to the right.",
+    "file": "tunneltrouble-minerlinton-15"
+  },
+  {
+    "line": "[5/7] ???: Oh, uh... Hi... Well, this is a little awkward... I'll just... Go.",
     "file": "tunneltrouble-drale-1"
   },
   {
-    "line": "[5/5] Miner Linton: ...Who in the world was that? You can go check that hole out if you want, but I'll stay here and try to think of a solution to this debris.",
-    "file": "tunneltrouble-minerlinton-14"
+    "line": "[6/7] Miner Linton: ...You know what? I'm not going to ask. As far as I'm concerned, that didn't happen.",
+    "file": "tunneltrouble-minerlinton-16"
+  },
+  {
+    "line": "[7/7] Miner Linton: Right, of course you want to check it out. Fine! Go ahead. I'll just... sit here and twiddle my thumbs 'till you're back.",
+    "file": "tunneltrouble-minerlinton-17"
   },
   {
     "line": "[1/4] Drale: Oh... Didn't expect you to follow me... Well, um... Hi! This will sound mad but...",
@@ -1577,49 +1589,54 @@
     "file": "tunneltrouble-drale-13"
   },
   {
-    "line": "[1/11] Miner Linton: Recruit, what took you so long? I've been waiting for an hour! What were you doing?",
-    "file": "tunneltrouble-minerlinton-15"
-  },
-  {
-    "line": "[2/11] Miner Linton: ...You helped some crazy cow-obsessed lunatic steal cows from the local farm? Recruit, that's against the law you know...",
-    "file": "tunneltrouble-minerlinton-16"
-  },
-  {
-    "line": "[3/11] Miner Linton: Oh, what do I care? Silly Bovemists.",
-    "file": "tunneltrouble-minerlinton-17"
-  },
-  {
-    "line": "[4/11] Miner Linton: Either way, we still don't have any means to get rid of this giant pile of rubble...",
+    "line": "[1/12] Miner Linton: Oh, good, you're back. It's been, like, an hour! What were you even doing for that long!",
     "file": "tunneltrouble-minerlinton-18"
   },
   {
-    "line": "[5/11] Drale: Hello again, friend! I'm here with the help! Cows, to me!",
-    "file": "tunneltrouble-drale-14"
-  },
-  {
-    "line": "[6/11] Miner Linton: What in the world?",
+    "line": "[2/12] Miner Linton: ...You helped some crazy cow-obsessed lunatic steal some cows? I don't think you're allowed to do that. There's a law against that, or something.",
     "file": "tunneltrouble-minerlinton-19"
   },
   {
-    "line": "[7/11] Drale: Since you helped me with my problem, I thought I should repay that favor by helping you!",
-    "file": "tunneltrouble-drale-15"
-  },
-  {
-    "line": "[8/11] Drale: Welp, see ya! Oh, and nice to meet you, miner! Now, let's get going my cows!",
-    "file": "tunneltrouble-drale-16"
-  },
-  {
-    "line": "[9/11] Miner Linton: ...What just happened? Am I seeing things? You know what, I don't want to know.",
+    "line": "[3/12] Miner Linton: Eh. Not that I really care, either way. I've certainly done worse.",
     "file": "tunneltrouble-minerlinton-20"
   },
   {
-    "line": "[10/11] Miner Linton: Anyway, why don't you go on ahead? I'll be here guarding this passage so nothing else bad happens to it.",
+    "line": "[4/12] Miner Linton: Well then! Ready to call it quits? We're definitely not going to make any progress, so we might as we-",
     "file": "tunneltrouble-minerlinton-21"
   },
   {
-    "line": "[11/11] Miner Linton: It was an honor to adventure with you, recruit!",
+    "line": "[5/12] Drale: Hello again, friend! I'm here with the help! Cows, to me!",
+    "file": "tunneltrouble-drale-14"
+  },
+  {
+    "line": "[6/12] Miner Linton: Wh- huh?!",
     "file": "tunneltrouble-minerlinton-22"
   },
+  {
+    "line": "[7/12] Drale: Since you helped me with my problem, I thought I should repay that favor by helping you!",
+    "file": "tunneltrouble-drale-15"
+  },
+  {
+    "line": "[8/12] Drale: Welp, see ya! Oh, and nice to meet you, miner! Now, let's get going my cows!",
+    "file": "tunneltrouble-drale-16"
+  },
+  {
+    "line": "[9/12] Miner Linton: ...I- huh. You saw that too, right? I didn't just imagine that?",
+    "file": "tunneltrouble-minerlinton-23"
+  },
+  {
+    "line": "[10/12] Miner Linton: You know what? I think I quit. I think this has finally pushed me to my limit! I didn't know that I had one, but apparently I do!",
+    "file": "tunneltrouble-minerlinton-24"
+  },
+  {
+    "line": "[11/12] Miner Linton: You can... go on ahead. Tell whoever's on the other end that we succeeded. And while you do that, I'll be searching for a better career.",
+    "file": "tunneltrouble-minerlinton-25"
+  },
+  {
+    "line": "[12/12] Miner Linton: See you around, I guess!",
+    "file": "tunneltrouble-minerlinton-26"
+  },
+
   {
     "line": "[1/2] Sergeant Klafson: Recruit, Captain Fenor told me to meet you here, said if you came out on this side of that tunnel then you completed your mission!",
     "file": "tunneltrouble-sergeantklafson-1"
@@ -2080,6 +2097,9 @@
   {
     "line": "[8/10] Tasim: Yahya! No!",
     "file": "mushroomman-tasim-14"
+  },
+  {
+    "line": "[9/10] Tasim: ..."
   },
   {
     "line": "[10/10] Tasim: I-... this is bad. This is really bad. We need to tell the Mayor, now.",
@@ -9693,6 +9713,14 @@
     "file": "bobslostsoul-wedyf-18"
   },
   {
+    "line": "[4/6] Wedyf: ... . .. .",
+    "stopSounds": "false"
+  },
+  {
+    "line": "[5/6] Wedyf: ..... .. .....  .  . . . ...",
+    "stopSounds": "false"
+  },
+  {
     "line": "[6/6] Wedyf: It is done. You should be able to enter the tomb now. Be careful.",
     "file": "bobslostsoul-wedyf-19"
   },
@@ -13480,6 +13508,9 @@
     "file": "realmoflight4findingthelight-guardianoftheforest-13"
   },
   {
+    "line": "[24/52] Lari: ..."
+  },
+  {
     "line": "[25/52] Lari: ...then... Shouldn't I feel... I don't know. Shouldn't I feel less restrained? Less afraid? More... More free?",
     "file": "realmoflight4findingthelight-lari-58"
   },
@@ -13598,6 +13629,9 @@
   {
     "line": "[2/2] ???: Enter the roots, and witness the path to my realm. And then, prepare yourself. Muster your most blinding light...",
     "file": "realmoflight4findingthelight-orphion-4"
+  },
+  {
+    "line": "[1/8] Lari: ..."
   },
   {
     "line": "[2/8] Lari: soldier... Achara... I do not believe I can ever atone for what I have done to you. An apology simply isn't enough.",
