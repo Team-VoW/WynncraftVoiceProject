@@ -29043,6 +29043,582 @@
     "fallOff": 100
   },
   {
+    "line": "[1/7] Hive Servant: Welcome, traveller, to The Qira Hive. I am a humble servant of Mistress Qira. My job is to inform challengers of the Hive challenge of how your prizes work.",
+    "file": "qirahive-hiveservant1-1"
+  },
+  {
+    "line": "[2/7] Hive Servant: If you should prove yourself strong enough to fight through a division of Mistress' Hive, you will receive a voucher, which you may redeem here for a single prize.",
+    "file": "qirahive-hiveservant1-2"
+  },
+  {
+    "line": "[3/7] Hive Servant: Depending on the division you have cleared, you may redeem your voucher for different prizes, and you may exchange a prize for another voucher within this Hive Exchange.",
+    "file": "qirahive-hiveservant1-3"
+  },
+  {
+    "line": "[4/7] Hive Servant: However, of note about the prizes. Their elemental energies are strong enough that you cannot use more than one of the same division's prizes at once.",
+    "file": "qirahive-hiveservant1-4"
+  },
+  {
+    "line": "[5/7] Hive Servant: Using two of the same elemented prize has a strange magical backlash... Your abilities will be completely nullified and you will be rendered helpless.",
+    "file": "qirahive-hiveservant1-5"
+  },
+  {
+    "line": "[6/7] Hive Servant: For instance, you could not wear two Thunder Division prizes at once, however you could wear a Thunder Division and Air Division prize together safely.",
+    "file": "qirahive-hiveservant1-6"
+  },
+  {
+    "line": "[7/7] Hive Servant: I will be here if you should ever need this explanation again. I wish you luck, should you choose to challenge her glorious Hive.",
+    "file": "qirahive-hiveservant1-7"
+  },
+  {
+    "line": "[1/7] Hive Servant: Welcome, champion, back to The Qira Hive. I must congratulate you on your momentous victory.",
+    "file": "qirahive-hiveservant1-8"
+  },
+  {
+    "line": "[2/7] Hive Servant: It is not often that one should defeat our Mistress... But it is not my job to commend you. It is my job to inform you of your rewards.",
+    "file": "qirahive-hiveservant1-9"
+  },
+  {
+    "line": "[3/7] Hive Servant: You may redeem the vouchers you have won for different prizes, and you may exchange a prize for another voucher within this Hive Exchange.",
+    "file": "qirahive-hiveservant1-10"
+  },
+  {
+    "line": "[4/7] Hive Servant: However, the elemental energies of these items are strong enough that you cannot use more than one of the same division's prizes at once.",
+    "file": "qirahive-hiveservant1-11"
+  },
+  {
+    "line": "[7/7] Hive Servant: I will be here if you should ever need this explanation again. I wish you luck in your future endeavours, champion of the Hive.",
+    "file": "qirahive-hiveservant1-12"
+  },
+  {
+    "line": "[1/6] Hive Servant: Oh? I didn't know that Qi- er, Mistress... That Mistress allowed travellers or challengers into the servant's quarters now.",
+    "file": "qirahive-hiveservant2-1"
+  },
+  {
+    "line": "[2/6] Hive Servant: I suppose you could make yourself at home. It's a little dingy, but I guess you get used to it after a while. I'm new here...",
+    "file": "qirahive-hiveservant2-2"
+  },
+  {
+    "line": "[3/6] Hive Servant: Though, don't take that to mean I'm complaining. It isn't like I had anywhere else to go, after all. I used to be just a beggar.",
+    "file": "qirahive-hiveservant2-3"
+  },
+  {
+    "line": "[4/6] Hive Servant: Hardly had an emerald to my name. It's so weird to think that money doesn't matter to me anymore, now that I'm here!",
+    "file": "qirahive-hiveservant2-4"
+  },
+  {
+    "line": "[5/6] Hive Servant: So long as we stay loyal to Mistress and do what we're told, we have a roof over our heads, a cozy room, food and drink, and an opportunity.",
+    "file": "qirahive-hiveservant2-5"
+  },
+  {
+    "line": "[6/6] Hive Servant: We're able to be a part of something so much greater. People say she's evil and the rumors always fly like mad, but... I have to wonder sometimes.",
+    "file": "qirahive-hiveservant2-6"
+  },
+  {
+    "line": "[1/6] Hive Servant: I really can't believe it. How did you beat her?! You must be ridiculously strong to have defeated Mistress!",
+    "file": "qirahive-hiveservant2-7"
+  },
+  {
+    "line": "[2/6] Hive Servant: I hope you didn't hurt her too bad, and that she didn't rough you up too harsh either. For someone with your skill, getting hurt is a waste, I think.",
+    "file": "qirahive-hiveservant2-8"
+  },
+  {
+    "line": "[3/6] Hive Servant: I mean, even just beating the Thunder Division is certainly more than I could ever hope to achieve, eheheh...",
+    "file": "qirahive-hiveservant2-9"
+  },
+  {
+    "line": "[4/6] Hive Servant: I'm fine just being a cog in the clockworks, so to speak, but some of the other servants dislike their positions here. I just can't understand them.",
+    "file": "qirahive-hiveservant2-10"
+  },
+  {
+    "line": "[5/6] Hive Servant: Mistress is a fine ruler. She keeps us safe, her rules aren't overbearing, she's infinitely wise... What have they got to hold against her?",
+    "file": "qirahive-hiveservant2-11"
+  },
+  {
+    "line": "[6/6] Hive Servant: Sometimes, I wonder if they realize the opportunity she's given us. I wonder if they're thankful, even at all.",
+    "file": "qirahive-hiveservant2-12"
+  },
+  {
+    "line": "[1/5] Hive Servant: Ah... Well, hello there. You look like a challenger, or at least someone who could be gearing up to take on the Hive Challenge.",
+    "file": "qirahive-hiveservant3-1"
+  },
+  {
+    "line": "[2/5] Hive Servant: There've been a lot of challengers coming in recently. Mistress Qira has really tried to accommodate for the increased numbers, too.",
+    "file": "qirahive-hiveservant3-2"
+  },
+  {
+    "line": "[3/5] Hive Servant: I got plucked up off the street to come be a smithy here. I help to make some of the prizes you can get for progressing in the challenge.",
+    "file": "qirahive-hiveservant3-3"
+  },
+  {
+    "line": "[4/5] Hive Servant: I... Sometimes, I think about my family. At the very least, Mistress Qira allowed me to keep the portrait I'd gotten painted of us.",
+    "file": "qirahive-hiveservant3-4"
+  },
+  {
+    "line": "[5/5] Hive Servant: I wonder how little Jula is growing up. It's been at least ten years, so she's probably like a whole new person now. But a father... A father never forgets his child.",
+    "file": "qirahive-hiveservant3-5"
+  },
+  {
+    "line": "[1/5] Hive Servant: Well, hello and congratulations. Somehow, you came out on top in the challenge. Word travels fast when Yansur won't stop complaining about it.",
+    "file": "qirahive-hiveservant3-6"
+  },
+  {
+    "line": "[2/5] Hive Servant: Most of the challengers...er... You know, don't come back out. It's nice to see some survivors sometimes. Gives us some hope.",
+    "file": "qirahive-hiveservant3-7"
+  },
+  {
+    "line": "[3/5] Hive Servant: You've got at least a little bit of sway over the proceedings now, with your audience.",
+    "file": "qirahive-hiveservant3-8"
+  },
+  {
+    "line": "[4/5] Hive Servant: I... I know...that this is selfish of me to ask... B-But... If you could maybe...",
+    "file": "qirahive-hiveservant3-9"
+  },
+  {
+    "line": "[5/5] Hive Servant: Maybe put in a word so the servants can meet their families again? Just for a visit? Just one... I just...want to see my poor wife and kid one last time...",
+    "file": "qirahive-hiveservant3-10"
+  },
+  {
+    "line": "[1/4] Hive Servant: Ah, the scuttlers are busy today. Welcome, deary. Here to try your luck at our Hive?",
+    "file": "qirahive-hiveservant4-1"
+  },
+  {
+    "line": "[2/4] Hive Servant: Yes, I know your type. Bright-eyed, bushy-tailed, packing seven tons of armour. Was born here, after all.",
+    "file": "qirahive-hiveservant4-2"
+  },
+  {
+    "line": "[3/4] Hive Servant: In my old age, I'm not useful for anything. Can't complete tasks more taxing than reading and writing, yet Mistress lets me stay.",
+    "file": "qirahive-hiveservant4-3"
+  },
+  {
+    "line": "[4/4] Hive Servant: I enjoy watching the drones and buggies from this balcony, and sometimes challengers will fight them. I hear it really sharpens the combat instincts!",
+    "file": "qirahive-hiveservant4-4"
+  },
+  {
+    "line": "[1/4] Hive Servant: Even busier than the day before, the little bugs are. You'll have to sit down and tell me how your battle was with our Mistress sometime!",
+    "file": "qirahive-hiveservant4-5"
+  },
+  {
+    "line": "[2/4] Hive Servant: I'd normally suggest battling our darling little insects for the practice, but if you can sit toe to toe with Mistress I doubt that'll be much help!",
+    "file": "qirahive-hiveservant4-6"
+  },
+  {
+    "line": "[3/4] Hive Servant: I think this is only the third or fourth success on the challenge I've seen in my lifetime, and the first to feature a successful bout with Mistress.",
+    "file": "qirahive-hiveservant4-7"
+  },
+  {
+    "line": "[4/4] Hive Servant: Rumors abound, though. This place has secrets that even these old ears haven't heard of, deary! Your adventuring days certainly aren't over yet, hoho!",
+    "file": "qirahive-hiveservant4-8"
+  },
+  {
+    "line": "[1/5] Hive Servant: What? Hey, why aren't you in uniform, are you that new girl? No, can't be, your nose is too tiny. A challenger, maybe?",
+    "file": "qirahive-hiveservant5-1"
+  },
+  {
+    "line": "[2/5] Hive Servant: Or has \"Her Mistress-ship, high and mighty\" started dragging in humans of all things to be her pack mules? Don't know why else you'd be here.",
+    "file": "qirahive-hiveservant5-2"
+  },
+  {
+    "line": "[3/5] Hive Servant: Better get used to this, small-nose. This is your life now. Find someone who'll loan you a uniform 'til you get your own.",
+    "file": "qirahive-hiveservant5-3"
+  },
+  {
+    "line": "[4/5] Hive Servant: If you get caught outside of your pre-ordained clothes, you're gonna get punished. As though a dress code is needed in a place like this!!",
+    "file": "qirahive-hiveservant5-4"
+  },
+  {
+    "line": "[5/5] Hive Servant: \"It protects you from magic\" my backside! The great hag above just wants us quiet and subdued so she can feel powerful, I'll bet.",
+    "file": "qirahive-hiveservant5-5"
+  },
+  {
+    "line": "[1/6] Hive Servant: Don't go getting a swelled head, small-nose. You beating Her Witchiness means nothing in the long run.",
+    "file": "qirahive-hiveservant5-6"
+  },
+  {
+    "line": "[2/6] Hive Servant: She holds back when she \"tests\" challengers. That wand and extra padding actually limits her magic. You didn't accomplish anything of note.",
+    "file": "qirahive-hiveservant5-7"
+  },
+  {
+    "line": "[3/6] Hive Servant: Heh, I'll bet she's got her eyes on you now! I bet she's creeping on you like you're some kind of delicious little cupcake for her to eat up!",
+    "file": "qirahive-hiveservant5-8"
+  },
+  {
+    "line": "[4/6] Hive Servant: You watch your back, human. One day, she's going to snatch you up and you're never gonna see the light of day again.",
+    "file": "qirahive-hiveservant5-9"
+  },
+  {
+    "line": "[5/6] Hive Servant: Dingy halls, dead eyes, and long days of slaving away for jack-all is what you're going to have to look forward to soon, I'll bet.",
+    "file": "qirahive-hiveservant5-10"
+  },
+  {
+    "line": "[6/6] Hive Servant: May as well gussy yourself up right now, save her the trouble! Pack in all that armour and prepare to be a trophy for the rest of your life, hah!",
+    "file": "qirahive-hiveservant5-11"
+  },
+  {
+    "line": "[1/5] Llevigar Citizen: No, no, no, that can't be right... She couldn't have possibly gotten them into the city yet...",
+    "file": "qirahive-llevigarcitizen-1"
+  },
+  {
+    "line": "[2/5] Llevigar Citizen: Hm- Whuh! H-Human! My land, but you can be quiet with all that armour on! Er...how much did...you hear, of that?",
+    "file": "qirahive-llevigarcitizen-2"
+  },
+  {
+    "line": "[3/5] Llevigar Citizen: Y-Yes, well... You're probably new to Gavel, so I'll inform you. I was worrying over a creation of 'Mistress' Qira.",
+    "file": "qirahive-llevigarcitizen-3"
+  },
+  {
+    "line": "[4/5] Llevigar Citizen: Some kind of plant monster, sent to spy on us! There have been a rash of sightings recently, and the gardeners are lodging complaints.",
+    "file": "qirahive-llevigarcitizen-4"
+  },
+  {
+    "line": "[5/5] Llevigar Citizen: If you have any sense, you'll follow my advice: Do not go anywhere near that blasted Hive of hers! You'll end up dead, or enslaved, or...or...or worse!!",
+    "file": "qirahive-llevigarcitizen-5"
+  },
+  {
+    "line": "[1/5] Llevigar Citizen: I have no idea if you're a lucky idiot, a hero to surpass Siegfried, in league with her, or some combination of all three.",
+    "file": "qirahive-llevigarcitizen-6"
+  },
+  {
+    "line": "[2/5] Llevigar Citizen: Word is out that somehow, some way, you defeated Qira, in her own Hive... But since then, things have only gotten worse!",
+    "file": "qirahive-llevigarcitizen-7"
+  },
+  {
+    "line": "[3/5] Llevigar Citizen: I saw myself, three of those Shamba-things run out from the gardens! THREE!! Why, I couldn't believe my eyes!",
+    "file": "qirahive-llevigarcitizen-8"
+  },
+  {
+    "line": "[4/5] Llevigar Citizen: On one hand, you've proven she's defeatable. On the other, she seems desperate to spy further on us...or... Or wait, m-maybe on y...",
+    "file": "qirahive-llevigarcitizen-9"
+  },
+  {
+    "line": "[5/5] Llevigar Citizen: I, uh... K-kindly, er, leave me t-to my research, Human! I w-won't bother you any longer!",
+    "file": "qirahive-llevigarcitizen-10"
+  },
+  {
+    "line": "[1/5] Olux Citizen: Wha...? What are you doing in my house, small-nose?! Get out before I call the...th-the...",
+    "file": "qirahive-oluxcitizen1-1"
+  },
+  {
+    "line": "[2/5] Olux Citizen: Oh, I'm sorry, human, I just... My husband has been so distant lately. Ever since he received that awful visitor...",
+    "file": "qirahive-oluxcitizen1-2"
+  },
+  {
+    "line": "[3/5] Olux Citizen: An embassy from that witch Qira's Hive! Some phony bishop. Oh, I tried to tell him not to listen, but...!",
+    "file": "qirahive-oluxcitizen1-3"
+  },
+  {
+    "line": "[4/5] Olux Citizen: Ever since that horrible man came, my dear Pietr has been so wistful... I'm afraid he'll leave me!",
+    "file": "qirahive-oluxcitizen1-4"
+  },
+  {
+    "line": "[5/5] Olux Citizen: Please, go tear that awful witch a new hole in her dress! She doesn't deserve her sovereignty OR my dear hubby!",
+    "file": "qirahive-oluxcitizen1-5"
+  },
+  {
+    "line": "[1/4] Olux Citizen: ...oh...it's you again...",
+    "file": "qirahive-oluxcitizen1-6"
+  },
+  {
+    "line": "[2/4] Olux Citizen: Too little too late... The bishop came by again... Poor Pietr insists he needs to go...",
+    "file": "qirahive-oluxcitizen1-7"
+  },
+  {
+    "line": "[3/4] Olux Citizen: You battled her, though... You beat Qira... W-Why couldn't you have just killed her when you had the chance...?",
+    "file": "qirahive-oluxcitizen1-8"
+  },
+  {
+    "line": "[4/4] Olux Citizen: You humans...worthless, small-nosed things... Probably scheming with her... Just t-take him already. I can't stand this anymore...",
+    "file": "qirahive-oluxcitizen1-9"
+  },
+  {
+    "line": "[1/4] Olux Citizen: Human. Look at this tumbledown place. Just take a good, long look at it.",
+    "file": "qirahive-oluxcitizen2-1"
+  },
+  {
+    "line": "[2/4] Olux Citizen: Is there anything here for us, anymore? I don't think so. It's only a matter of time before the Decay gets worse and kills us all.",
+    "file": "qirahive-oluxcitizen2-2"
+  },
+  {
+    "line": "[3/4] Olux Citizen: But, that sorceress, Qira. Her associates told me all about what she can do, create life itself. Surely she could stand a chance to fix it?",
+    "file": "qirahive-oluxcitizen2-3"
+  },
+  {
+    "line": "[4/4] Olux Citizen: I'm not sure what to do anymore. I don't want to abandon my Euphemia, but...we could be a part of something so much greater. All of us.",
+    "file": "qirahive-oluxcitizen2-4"
+  },
+  {
+    "line": "[1/4] Olux Citizen: I just can't stay anymore.",
+    "file": "qirahive-oluxcitizen2-5"
+  },
+  {
+    "line": "[2/4] Olux Citizen: You've seen her power, haven't you? She can fix this!",
+    "file": "qirahive-oluxcitizen2-6"
+  },
+  {
+    "line": "[3/4] Olux Citizen: As much as I love my wife, she wouldn't want to watch everything die around her... Would she? Would you?",
+    "file": "qirahive-oluxcitizen2-7"
+  },
+  {
+    "line": "[4/4] Olux Citizen: Please, tell her I'm sorry. I don't know when I'll be leaving, but... Soon. Soon we'll put things right.",
+    "file": "qirahive-oluxcitizen2-8"
+  },
+  {
+    "line": "[1/5] Cinfras Citizen: Oh, a human, eh? You must be fairly strong to have gotten here. Let me help you out with a bit of advice, then.",
+    "file": "qirahive-cinfrascitizen-1"
+  },
+  {
+    "line": "[2/5] Cinfras Citizen: In The Canyon of the Lost to the east, there's...a dreadful place. The Qira Hive, people call it. No one likes talking about it.",
+    "file": "qirahive-cinfrascitizen-2"
+  },
+  {
+    "line": "[3/5] Cinfras Citizen: An immensely powerful sorceress, Qira, owns it. She's somehow managed to get it recognized as a sovereign state. We can't touch her.",
+    "file": "qirahive-cinfrascitizen-3"
+  },
+  {
+    "line": "[4/5] Cinfras Citizen: She offers a challenge to fight your way through her Hive... Apparently if you do it, you get to talk with her and broker for some kind of request.",
+    "file": "qirahive-cinfrascitizen-4"
+  },
+  {
+    "line": "[5/5] Cinfras Citizen: Only a couple of groups have ever done it. Only one ever came back. If you value your life, steer clear. We don't need soldiers like you dying on us.",
+    "file": "qirahive-cinfrascitizen-5"
+  },
+  {
+    "line": "[1/5] Cinfras Citizen: Can't believe it, human. I'd ask you to tell me how you defeated Qira, but I bet she swore you to secrecy, huh?",
+    "file": "qirahive-cinfrascitizen-6"
+  },
+  {
+    "line": "[2/5] Cinfras Citizen: I bet she also made you swear off telling people about your request. I hear she does that, among other things.",
+    "file": "qirahive-cinfrascitizen-7"
+  },
+  {
+    "line": "[3/5] Cinfras Citizen: I hope you didn't try to ask that she quit her evil ways and retire, though. That's what that first group tried to do, and they got laughed off.",
+    "file": "qirahive-cinfrascitizen-8"
+  },
+  {
+    "line": "[4/5] Cinfras Citizen: And then, a few days after word got out that they'd told people their request, they disappeared. She enslaved the poor blokes.",
+    "file": "qirahive-cinfrascitizen-9"
+  },
+  {
+    "line": "[5/5] Cinfras Citizen: I hear they got tortured before she let them go to work, cause they wouldn't talk to anyone except Qira and her higher-ups.",
+    "file": "qirahive-cinfrascitizen-10"
+  },
+  {
+    "line": "[1/6] Thanos Dwarf: Say, Helski, didja hear about what's goin' on over at that Hive place?",
+    "file": "qirahive-gavril-1"
+  },
+  {
+    "line": "[2/6] Thanos Dwarf: Yeah, I have, Gavril. Weirdo sorceress is goin' around kidnapping villagers and makin' 'em slaves, or so say the rumor mills!",
+    "file": "qirahive-helski-1"
+  },
+  {
+    "line": "[3/6] Thanos Dwarf: I hear she does things to their minds. Squishes a scuttler into their ears and it replaces their brains or some odd!",
+    "file": "qirahive-helski-2"
+  },
+  {
+    "line": "[4/6] Thanos Dwarf: Eh, I don't think that's possible. Ya seen the size of those things, Helski? They're bigger than your head, how could they get in your ears?",
+    "file": "qirahive-gavril-2"
+  },
+  {
+    "line": "[5/6] Thanos Dwarf: I dunno, Gavril, I wouldn't put it past her! Either that or she does some hypno-dealy. Either way, those folks ain't the same as when they got hauled in!",
+    "file": "qirahive-helski-3"
+  },
+  {
+    "line": "[6/6] Thanos Dwarf: Yeah, well she tries to pull anything funny with us Dwarves, I'll personally give 'er a knuckle sandwich, Helski! She's just some skinny lady, after all, ain't she?",
+    "file": "qirahive-gavril-3"
+  },
+  {
+    "line": "[1/6] Thanos Dwarf: Oi, Gavril, are you hearin' about what happened over at that Hive place?",
+    "file": "qirahive-helski-4"
+  },
+  {
+    "line": "[2/6] Thanos Dwarf: Yep, and this ain't just the rumor mills, Helski. Some HUMAN of all people beat the challenge! They must have a skull harder than rocks!",
+    "file": "qirahive-gavril-4"
+  },
+  {
+    "line": "[3/6] Thanos Dwarf: Oh, really? I heard that the human got bribed out to be a servant, Gavril! That she bought their allegiance with some fancy armour!",
+    "file": "qirahive-helski-5"
+  },
+  {
+    "line": "[4/6] Thanos Dwarf: I believe it, too! You've been seein' some more activity there since that challenge ended, ain'tcha? On your watch shift, or some all?",
+    "file": "qirahive-helski-6"
+  },
+  {
+    "line": "[5/6] Thanos Dwarf: Yep, I have, Helski. Though, you know you get ta ask for somethin' if you beat the challenge. Maybe the human just asked for a fancy new helmet!",
+    "file": "qirahive-gavril-5"
+  },
+  {
+    "line": "[6/6] Thanos Dwarf: I don't think that Hive witch would take a defeat lyin' down, Gavril! Think about it, have ya seen the human since then? No, ya haven't! Prolly locked up someplace!",
+    "file": "qirahive-helski-7"
+  },
+  {
+    "line": "[1/5] Thesead Citizen: Oh hey, lookie at the small-nose that got all the way out here. If you're going to barge into my house, make yourself useful, huh?",
+    "file": "qirahive-theseadcitizen-1"
+  },
+  {
+    "line": "[2/5] Thesead Citizen: You humans think you're so strong? Why not go fight that Qira lady, then! Get her out of our hair and all!",
+    "file": "qirahive-theseadcitizen-2"
+  },
+  {
+    "line": "[3/5] Thesead Citizen: All these weird elemental creatures and caves are popping up recently that weren't there a few years ago, and I'll bet my life savings it's her fault!",
+    "file": "qirahive-theseadcitizen-3"
+  },
+  {
+    "line": "[4/5] Thesead Citizen: They're waylaying caravans and trade routes, but she's got diplo-whatsit immunity or something like that, so it's not like we can do anything.",
+    "file": "qirahive-theseadcitizen-4"
+  },
+  {
+    "line": "[5/5] Thesead Citizen: Her \"glorious hive\" is out to the northeast. Go burn it down or something for us, and get outta my house while you're at it!",
+    "file": "qirahive-theseadcitizen-5"
+  },
+  {
+    "line": "[1/5] Thesead Citizen: Oi! You!",
+    "file": "qirahive-theseadcitizen-6"
+  },
+  {
+    "line": "[2/5] Thesead Citizen: News travels fast. You beat hive-hag down in her own house and didn't even bother to kill her?!",
+    "file": "qirahive-theseadcitizen-7"
+  },
+  {
+    "line": "[3/5] Thesead Citizen: What on god's green earth are you doing with yourself, you fumbleknuckle?! You blew our best chance!!",
+    "file": "qirahive-theseadcitizen-8"
+  },
+  {
+    "line": "[4/5] Thesead Citizen: She's only gonna make herself stronger, y'know, and then where are we gonna be?! We're gonna be DEAD, that's where!",
+    "file": "qirahive-theseadcitizen-9"
+  },
+  {
+    "line": "[5/5] Thesead Citizen: I bet she just bribed you to step off, didn't she? Get your sorry armoured-up butt off my property, servant-boy!",
+    "file": "qirahive-theseadcitizen-10"
+  },
+  {
+    "line": "[1/1] Gale: Alriiiight, now you're feelin' it, right? All warmed up? Good! Try and keep up now!",
+    "file": "qirahive-gale-15"
+  },
+  {
+    "line": "[1/1] Gale: WOOOOHOOOO!!! BING, BAM, POW!! YEEEEAH!!",
+    "file": "qirahive-gale-16"
+  },
+  {
+    "line": "[1/1] Gale: Keep it up! You're almost there but I can't make it easy for you!",
+    "file": "qirahive-gale-17"
+  },
+  {
+    "line": "[1/1] Gale: Let's get WILD with it now!!",
+    "file": "qirahive-gale-18"
+  },
+  {
+    "line": "[1/1] Qira: There have been scarce few to push me to this point... I will not stop, however. You have not won yet, Wynn warrior!",
+    "file": "qirahive-qira-66"
+  },
+  {
+    "line": "[1/1] Qira: I must admit my pleasure seeing you last this long- It is a refreshing change of pace.",
+    "file": "qirahive-qira-67"
+  },
+  {
+    "line": "[1/1] Qira: Do not presume I am limited to merely one trick. My knowledge surpasses the barriers of reality itself.",
+    "file": "qirahive-qira-68"
+  },
+  {
+    "line": "[1/1] Qira: To balance life itself with the power I require of my army is a delicate art. Every single creation must be perfect.",
+    "file": "qirahive-qira-69"
+  },
+  {
+    "line": "[1/1] Qira: Some must be reined in, some must be adjusted as time goes on... But there is beauty in iteration.",
+    "file": "qirahive-qira-70"
+  },
+  {
+    "line": "[1/1] Qira: I could compare the methods and rituals I use to the choreography of a dance... But that would be reaching, wouldn't it?",
+    "file": "qirahive-qira-71"
+  },
+  {
+    "line": "[1/1] Qira: No, calling it art is far more apt. Art through adversity, perhaps.",
+    "file": "qirahive-qira-72"
+  },
+  {
+    "line": "[1/1] Qira: But all things can be improved. Everything can be iterated upon and made stronger... And that includes you.",
+    "file": "qirahive-qira-73"
+  },
+  {
+    "line": "[1/1] Qira: Practice, rigorous training, magical equipment... And have you not gained all of these from my glorious Hive?",
+    "file": "qirahive-qira-74"
+  },
+  {
+    "line": "[1/1] Qira: Our work is exhaustive, and we must be tireless in our preparations. And so...I extend my invitation to all adventurers.",
+    "file": "qirahive-qira-75"
+  },
+  {
+    "line": "[1/1] Qira: Come and break yourselves upon my creations! Find the limits of your power- so we may also find ours.",
+    "file": "qirahive-qira-76"
+  },
+  {
+    "line": "[1/1] Qira: So that I may eliminate all weaknesses from my army- for the enemy shall prey upon all it can find.",
+    "file": "qirahive-qira-77"
+  },
+  {
+    "line": "[1/1] Qira: All is fair in love and war, as it is said. But we of the Hive shall emerge victorious.",
+    "file": "qirahive-qira-78"
+  },
+  {
+    "line": "[1/1] Qira: This leaves you. And you must ask of yourself what your breaking point is. Is it here, in my clutches?",
+    "file": "qirahive-qira-79"
+  },
+  {
+    "line": "[1/1] Qira: Will it be elsewhere, to some unknown horror? Will you succumb to your own despair?",
+    "file": "qirahive-qira-80"
+  },
+  {
+    "line": "[1/1] Qira: Are you bound by your limitations? Or will you continue to fight, Wynn warrior? Answer me!!",
+    "file": "qirahive-qira-81"
+  },
+  {
+    "line": "[1/1] Qira: But combat- Now this is truly a dance. And like this, I shall take the lead!",
+    "file": "qirahive-qira-82"
+  },
+  {
+    "line": "[1/1] Qira: Do not make me cast you aside. Your armor would catch a pretty penny for scrap... But it would be a waste.",
+    "file": "qirahive-qira-83"
+  },
+  {
+    "line": "[1/1] Qira: To have seen you fought against the best my Hive had to offer was entertaining... To see you in person is another prospect entirely.",
+    "file": "qirahive-qira-84"
+  },
+  {
+    "line": "[1/1] Qira: Are you overwhelmed? Do you fear me?",
+    "file": "qirahive-qira-85"
+  },
+  {
+    "line": "[1/1] Qira: Leaving so soon? Haha...not until I am through with you. I must see what you are capable of...",
+    "file": "qirahive-qira-86"
+  },
+  {
+    "line": "[6/6] Qira: Yansur... I should not have to repeat you our rules. You do not threaten our contestants. Am I understood, or do you need re-education?",
+    "file": "qirahive-qira-87"
+  },
+  {
+    "line": "[1/1] Qira: Will you fear the end, or seek to rewrite fate?",
+    "file": "qirahive-qira-88"
+  },
+  {
+    "line": "[1/1] Qira: Will you give your heart in vain to those you cannot save?",
+    "file": "qirahive-qira-89"
+  },
+  {
+    "line": "[1/1] Qira: Will you find a cause nobler than yourself, and dedicate your life to it?",
+    "file": "qirahive-qira-90"
+  },
+  {
+    "line": "[1/1] Qira: Power begets the attention of madness. Can you endure its pull?",
+    "file": "qirahive-qira-91"
+  },
+  {
+    "line": "[1/1] Qira: Is your power given, or wielded? Will you abuse it, or make use of it?",
+    "file": "qirahive-qira-92"
+  },
+  {
+    "line": "[1/1] Qira: Aha! So you can crack my defenses...then let me see what you are made of up close, Wynn warrior.",
+    "file": "qirahive-qira-93"
+  },
+  {
     "line": "[1/8] Private Tylas: ...snrrrk... ... ... ...mimimimimi... ... ... ...snrrrk... ... ... ...mimimimimi...",
     "file": "generalsorders-privatetylas-1"
   },
