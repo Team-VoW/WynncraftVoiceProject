@@ -45,6 +45,7 @@ public class SoundsHandler {
 
         executor.execute(() -> {
             if (shouldUpdateJson()) {
+                LOGGER.info("[Voices of Wynn] Should update JSON audio file.");
                 downloadJson();
             }
             loadSoundsFromJson(getJsonStream());
@@ -82,6 +83,9 @@ public class SoundsHandler {
     }
 
     private boolean shouldUpdateJson() {
+        if (!Files.exists(Paths.get(JSON_FILE))) {
+            return true;
+        }
         try {
             String lastModifiedStored = ModCore.config.lastsSoundsUpdateHeader;
             String lastModifiedNew = fetchLastModifiedHeader();
@@ -151,6 +155,8 @@ public class SoundsHandler {
             InputStream bundledStream = this.getClass().getClassLoader().getResourceAsStream(JSON_FILE);
             if (bundledStream != null) {
                 return bundledStream;
+            } else {
+                LOGGER.error("[Voices of Wynn] COULD NOT FIND BUNDLED SOUNDS.JSON FILE");
             }
         }
         throw new IllegalStateException("No valid JSON file found!");
