@@ -8,24 +8,30 @@ import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.io.IOException;
-import java.net.URL;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 import java.nio.ByteBuffer;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
 
 public class AudioPlayer {
     public final OpenAlPlayer openAlPlayer;
-
     public final AutoProgress autoProgress;
-
     public static final String AUDIO_FOLDER = "VOW_AUDIO";
+    private final HttpClient httpClient;
 
     public AudioPlayer() {
         openAlPlayer = new OpenAlPlayer();
         autoProgress = new AutoProgress();
+        httpClient =
+                HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(10)).build();
     }
 
     private void write(AudioData data) {
@@ -43,6 +49,7 @@ public class AudioPlayer {
             Utils.sendMessage("Failed to load audio file: " + path.toString());
             return;
         }
+
         audioData
                 .get()
                 .setSpeakerAndPos(
@@ -69,22 +76,19 @@ public class AudioPlayer {
     }
 
     private void playRemoteAudio(String audioFileName, SoundObject soundObject) {
-        // Use CompletableFuture for asynchronous remote audio fetching
-        CompletableFuture.supplyAsync(() -> {
-            List<String> allRemoteUrls = ModCore.config.urls;
-            String fastestServer = ModCore.config.azureBlobLink;
+        CompletableFuture.runAsync(() -> {
+            List<String> allRemoteUrls = getRemoteUrls();
+
             ByteBuffer remoteAudioData = null;
-            allRemoteUrls.remove(fastestServer);
-            allRemoteUrls.addFirst(fastestServer);
 
             for (String url : allRemoteUrls) {
                 try {
                     remoteAudioData = fetchRemoteAudio(url + audioFileName + ".ogg");
-
-                    break; // Exit loop if fetch is successful
-                } catch (IOException e) {
-                    Utils.sendMessage("Failed to fetch remote audio file: " + url + audioFileName
-                            + ".ogg. If this keeps happening restart your game and report it.");
+                    break;
+                } catch (IOException | InterruptedException e) {
+                    Utils.sendMessage(
+                            "Failed to fetch remote audio file: " + url + audioFileName
+                                    + ". If this keeps happening go into your settings, enable the download sounds option and restart your game.");
                 }
             }
 
@@ -94,14 +98,35 @@ public class AudioPlayer {
                 Utils.sendMessage(
                         "Failed to fetch remote audio file from all URLs. Please report this in our discord.");
             }
-            return null;
         });
     }
 
-    private ByteBuffer fetchRemoteAudio(String urlString) throws IOException {
-        URL url = new URL(urlString);
-        byte[] audioBytes = url.openStream().readAllBytes(); // Read the audio file into a byte array
-        return ByteBuffer.wrap(audioBytes); // Convert to ByteBuffer for OpenAL playback
+    private ByteBuffer fetchRemoteAudio(String urlString) throws IOException, InterruptedException {
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(urlString))
+                .timeout(Duration.ofSeconds(3))
+                .GET()
+                .build();
+
+        HttpResponse<byte[]> response = httpClient.send(request, HttpResponse.BodyHandlers.ofByteArray());
+
+        if (response.statusCode() == 200) {
+            return ByteBuffer.wrap(response.body());
+        }
+
+        throw new IOException("Failed to fetch audio: " + response.statusCode());
+    }
+
+    private List<String> urls = null;
+
+    private List<String> getRemoteUrls() {
+        if (urls != null) return urls;
+
+        urls = new ArrayList<>(ModCore.config.urls);
+        String fastestServer = ModCore.config.azureBlobLink;
+        urls.remove(fastestServer);
+        urls.addFirst(fastestServer);
+        return urls;
     }
 
     public void playAudioBuffer(ByteBuffer audioData, SoundObject soundObject) {
@@ -112,6 +137,7 @@ public class AudioPlayer {
             Utils.sendMessage("Failed to decode remote audio data.");
             return;
         }
+
         audioOptional
                 .get()
                 .setSpeakerAndPos(
