@@ -8391,28 +8391,32 @@
     "file": "wynnexcavationd-ragnisking-18"
   },
   {
-    "line": "[1/6] Ormrod: Uh, you shouldn't have come here!",
+    "line": "[1/7] Ormrod: Stay away, friend!",
     "file": "wrathofthemummy-ormrod-1"
   },
   {
-    "line": "[2/6] Ormrod: I am cursed. Everywhere I go, trouble starts. I decided to stay away from civilization, where I can't cause any more trouble.",
+    "line": "[2/7] Ormrod: I live in this camp by choice. A curse follows me... and now trouble starts wherever I go. I left civilization and made camp in the desert, where I could do no more harm.",
     "file": "wrathofthemummy-ormrod-2"
   },
   {
-    "line": "[3/6] Ormrod: It all started when I discovered an old tomb... upon entering it, the ground started shaking and I heard some inhuman screams coming from the tomb.",
+    "line": "[3/7] Ormrod: I do miss the comforts of Almuj some days, though... you look like a learned adventurer. If I asked you to investigate this curse, perhaps you could help me rid myself of it?",
     "file": "wrathofthemummy-ormrod-3"
   },
   {
-    "line": "[4/6] Ormrod: I ran as far as I could. I learnt after that this was the tomb of a mummy... that I accidentally have awoken.",
+    "line": "[4/7] Ormrod: It all started when I discovered an old tomb in the North of the desert. Upon entering it, the ground started shaking and I heard inhuman screams coming from deeper within.",
     "file": "wrathofthemummy-ormrod-4"
   },
   {
-    "line": "[5/6] Ormrod: If you could get rid of this mummy, maybe the curse would go away.",
+    "line": "[5/7] Ormrod: I ran as fast as I could, learning later the tomb housed the remains of an ancient Mummy... which I accidentally awoke. If the Mummy could be put back to rest, perhaps the curse would go away.",
     "file": "wrathofthemummy-ormrod-5"
   },
   {
-    "line": "[6/6] Ormrod: Achper knows a lot about mummies, you should go talk to him. He lives somewhere in Almuj.",
+    "line": "[6/7] Ormrod: I have heard of a scholar in Almuj, Achper, who may know more about the tomb. I am reluctant to return to the city, in case my presence hurts anyone else.",
     "file": "wrathofthemummy-ormrod-6"
+  },
+  {
+    "line": "[7/7] Ormrod: If you would truly like to help, you should start by talking to him.",
+    "file": "wrathofthemummy-ormrod-7"
   },
   {
     "line": "[1/6] Achper: Do I know anything about Mummies? Of course! I've spent my entire life studying them!",
@@ -8439,7 +8443,63 @@
     "file": "wrathofthemummy-achper-6"
   },
   {
-    "line": "[1/1] Achper: Glad to hear you came back alive! Those mummies aren't always easy, eh?",
+    "line": "[1/5] Bandit: Stop! If you're thinking about looting the tomb, you're too late. The Creden Tibus have laid claim here, and you're not getting past.",
+    "file": "wrathofthemummy-bandit-1"
+  },
+  {
+    "line": "[2/5] Bandit: Mummy? Curse? I don't know anything about that, but I can't let you in - how do I know you won't just grab the gold?",
+    "file": "wrathofthemummy-bandit-2"
+  },
+  {
+    "line": "[3/5] Bandit: Unless... look. I've been waiting to get my hands on some pink wool, and the only shop that sells it has just restocked.",
+    "file": "wrathofthemummy-bandit-3"
+  },
+  {
+    "line": "[4/5] Bandit: Trouble is, the shop's over in Rymek and I'm stuck guarding this tomb. If you go and grab me some before it sells out, I can look the other way.",
+    "file": "wrathofthemummy-bandit-4"
+  },
+  {
+    "line": "[5/5] Bandit: You can take my wagon over there, but you'll have to make your own way back. Give me [1 Pink Wool] and I'll let you through.",
+    "file": "wrathofthemummy-bandit-5"
+  },
+  {
+    "line": "[1/1] Bandit: Have you got me [1 Pink Wool] yet!? You can get it from the shop in Rymek.",
+    "file": "wrathofthemummy-bandit-6"
+  },
+  {
+    "line": "[1/1] Bandit: I'm not letting you in, unless you can pay me.",
+    "file": "wrathofthemummy-bandit-7"
+  },
+  {
+    "line": "[1/1] Bandit: I don't know you, and you don't know me. Okay?",
+    "file": "wrathofthemummy-bandit-8"
+  },
+  {
+    "line": "[1/1] Bandit: Hey! Back off! I can't let anyone into the tomb!",
+    "file": "wrathofthemummy-bandit-9"
+  },
+  {
+    "line": "[1/4] Ormrod: Hello, again... have you had any luck?",
+    "file": "wrathofthemummy-ormrod-8"
+  },
+  {
+    "line": "[2/4] Ormrod: Those are the Mummy's bandages?! You did it? My curse is finally lifted!",
+    "file": "wrathofthemummy-ormrod-9"
+  },
+  {
+    "line": "[3/4] Ormrod: I can't thank you enough! As a reward, take this rag I got from the Mummy when I entered the tomb.",
+    "file": "wrathofthemummy-ormrod-10"
+  },
+  {
+    "line": "[4/4] Ormrod: I am not strong enough to wear it, but I'm sure you are! Take these emeralds too, that's the least I can do!",
+    "file": "wrathofthemummy-ormrod-11"
+  },
+  {
+    "line": "[1/1] Ormrod: Thank you so much for removing the curse!",
+    "file": "wrathofthemummy-ormrod-12"
+  },
+  {
+    "line": "[1/1] Achper: Glad to hear you came back alive! Those Mummies aren't always easy, eh?",
     "file": "wrathofthemummy-achper-7"
   },
   {
@@ -8447,56 +8507,8 @@
     "file": "wrathofthemummy-achper-8"
   },
   {
-    "line": "[1/3] Bandit: Hey, what are you doing? If you're trying to loot the tomb, me and the other Creden Tibus already beat you to it.",
-    "file": "wrathofthemummy-bandit-1"
-  },
-  {
-    "line": "[2/3] Bandit: But if you can bring me [1 Block of Pink Wool], I'll look the other way and let you into the tomb. I know it sounds ridiculous, but it's valuable.",
-    "file": "wrathofthemummy-bandit-2"
-  },
-  {
-    "line": "[3/3] Bandit: You can get it from Rymek in the southern canyon. Only other way if from a rare sheep or something, so Rymek's the better option.",
-    "file": "wrathofthemummy-bandit-3"
-  },
-  {
-    "line": "[1/4] Bandit: Well, whaddya know?  You got some Pink Wool! Okay, hand it here and I'll look the other way and let you into the tomb.",
-    "file": "wrathofthemummy-bandit-4"
-  },
-  {
-    "line": "[2/4] Bandit: But I feel like it's only fair that I warn you that it's dangerous in there.",
-    "file": "wrathofthemummy-bandit-5"
-  },
-  {
-    "line": "[3/4] Bandit: It took our entire clan just to make it out alive.",
-    "file": "wrathofthemummy-bandit-6"
-  },
-  {
-    "line": "[4/4] Bandit: I'll still let you inside if you want. Just remember, if anyone asks, this conversation never happened.",
-    "file": "wrathofthemummy-bandit-7"
-  },
-  {
-    "line": "[1/4] Ormrod: Uh, hello again... What are those bandages?",
-    "file": "wrathofthemummy-ormrod-7"
-  },
-  {
-    "line": "[2/4] Ormrod: Those are the mummy's bandages?! You did it! My curse is finally lifted!",
-    "file": "wrathofthemummy-ormrod-8"
-  },
-  {
-    "line": "[3/4] Ormrod: I can't thank you enough! As a reward, take this rag I got from the mummy when I entered the tomb.",
-    "file": "wrathofthemummy-ormrod-9"
-  },
-  {
-    "line": "[4/4] Ormrod: I am not strong enough to wear it, but I'm sure you are! Take these emeralds too, that's the least I can do!",
-    "file": "wrathofthemummy-ormrod-10"
-  },
-  {
-    "line": "[1/1] Ormrod: Thank you so much for removing the curse!",
-    "file": "wrathofthemummy-ormrod-11"
-  },
-  {
     "line": "[1/1] Ormrod: Don't stand close to me, I am cursed! Come back when you're level 36, you might be able to help me.",
-    "file": "wrathofthemummy-ormrod-12"
+    "file": "wrathofthemummy-ormrod-13"
   },
   {
     "line": "[1/9] Svin: I am one of the Keepers in the great Temple of Legends. There we hoard secrets about the world.",
