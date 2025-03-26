@@ -47272,28 +47272,28 @@
     "size": 91909
   },
   "wrathofthemummy-achper-1": {
-    "hash": "2909709f0edc45cf0c55212bd76a7ab58b1a03dfcb6eb3cdcabb1ddb183c4c35",
-    "size": 60847
+    "hash": "24df90e4f5d616e0d7043d929a917b052b491996420dacb2234a6399917f3158",
+    "size": 60508
   },
   "wrathofthemummy-achper-2": {
-    "hash": "e583c4fbd673ffcb29f9863ef84d0d2451ac3a2794929c2f8e360e574d296104",
-    "size": 45897
+    "hash": "db4a7dc44a91ff99f1414e0342e3c5ce987d4896405ee494b74cc35b3f91f93b",
+    "size": 66089
   },
   "wrathofthemummy-achper-3": {
-    "hash": "e03cf7227dd6498f17a9f931f0a25c437a830ce3412070316c167661d75e3e05",
-    "size": 67609
+    "hash": "37f3a0520e1eacc596ce8de4cbde0ef4f4a025dc0ac1964530d691a17a47c454",
+    "size": 66097
   },
   "wrathofthemummy-achper-4": {
-    "hash": "d60b0efba30642f283cffdf8703a0e7d7d84ceeb037c0f0731b14eaf0e282248",
-    "size": 35733
+    "hash": "b5bc01fdfd62158faba4f3bca0e9a79247bb75d92c64366c4e6b262dfc292b55",
+    "size": 42202
   },
   "wrathofthemummy-achper-5": {
-    "hash": "875532f6034fb0a940c74dc50097fb617b29fd51e4af6ef7118d94754f6733ae",
-    "size": 107117
+    "hash": "05c3019fd07b5e1f5605c8bc34d53597dcc4456d7d7e358b031229335e42ea1e",
+    "size": 121516
   },
   "wrathofthemummy-achper-6": {
-    "hash": "30416a0f9835a08c8fb30705449f8447c23ed020737cb36eaea26215feb2dd15",
-    "size": 100462
+    "hash": "051d8f74a1e874c1ad5fa1606efd27d80c90be9775556ffc6cc30134d9a1acf6",
+    "size": 92378
   },
   "wrathofthemummy-achper-7": {
     "hash": "09fb6b5e4e001bbac2dbcf2020be8d98e6c188e6a1d9ce6de26b16cc69aaccb9",
@@ -47304,80 +47304,92 @@
     "size": 52461
   },
   "wrathofthemummy-bandit-1": {
-    "hash": "615501a3c7c482f0b8ccc8fc271615ae8135401bbc9db2815e4f28841cf3ba40",
-    "size": 65093
+    "hash": "989388481b25877b033a4675a312c75ad68dd5348387c8d2a898261e345af537",
+    "size": 71708
   },
   "wrathofthemummy-bandit-2": {
-    "hash": "db0c463ba0866457fad11674a4c948d3ecaed41549cffbc82b236b520719684d",
-    "size": 81563
+    "hash": "1367eee075ee43b7b3c1b7315827382e95e0c9135f4d5a66a582a4a60dccbe02",
+    "size": 72811
   },
   "wrathofthemummy-bandit-3": {
-    "hash": "c7d0ba49cf51f620adecd153de5ba6c273fa425449f1b0f5094362fb6a45dde8",
-    "size": 75122
+    "hash": "e44731f6ad12c3783a508d69f5ad143cd0bcaab37367279cd26ac464817fb513",
+    "size": 93697
   },
   "wrathofthemummy-bandit-4": {
-    "hash": "f1dde025dccd0441d7e2d87e438935d238e84fce24605730189505f3de8a97e1",
-    "size": 60206
+    "hash": "f1855fe053181dc24f91ff8137dcdf4011ef2b5325c1daa51db3b88da83618c8",
+    "size": 113168
   },
   "wrathofthemummy-bandit-5": {
-    "hash": "031994775dfeb4804f4c71ead3dc1a1e54a41b5bf61f044ab3b779a93988a23b",
-    "size": 35914
+    "hash": "d48f4c98b1e8520a725b2ac185379e141ba535ed7a787bab2f25573b668e4c68",
+    "size": 72318
   },
   "wrathofthemummy-bandit-6": {
-    "hash": "01faa91e98644c0628ab58c98f4dfcce0d3756187cb0887dd5caf6f39ab71e76",
-    "size": 29704
+    "hash": "a6726c47874f8a7cb19859bbd5fe2c2ff851115f9356fdf824e314ac0f2a56bf",
+    "size": 43666
   },
   "wrathofthemummy-bandit-7": {
-    "hash": "e3d3d91cea3675673f0c0a0b1cde42504b825cc12671758a483426be4b98b15b",
-    "size": 57111
+    "hash": "dd24469df2473f90ff97ec4cbe8b47b30af778a3730a429f1cb480f1b60aede3",
+    "size": 26364
+  },
+  "wrathofthemummy-bandit-8": {
+    "hash": "4a68396e43e915dd1066bb3a2746d9e1e098ff8fb747ce28fef5fd1095b1a17a",
+    "size": 33705
+  },
+  "wrathofthemummy-bandit-9": {
+    "hash": "8063fa0d0e55d94c6b1f2d10da2ad42db77dc339a23fb46f9da0df964152f8ec",
+    "size": 39940
   },
   "wrathofthemummy-ormrod-1": {
-    "hash": "534d0ded48d4ef4e1a2bf9485a7133dfdc307c18429d9d6b5abcbb6b8422e711",
-    "size": 41419
+    "hash": "d7148974ab14b049213470718032da3c54213796aeb0911834207b47898a4008",
+    "size": 19281
   },
   "wrathofthemummy-ormrod-10": {
+    "hash": "2983d513b8853802e700f43115629d541460ca159a8760a31332f1a6fe99d6e3",
+    "size": 77126
+  },
+  "wrathofthemummy-ormrod-11": {
     "hash": "c1823146bd2ee75f7871b8cde79d0bb0b605a06aa60a5a7ac874a87b731fdd08",
     "size": 95721
   },
-  "wrathofthemummy-ormrod-11": {
+  "wrathofthemummy-ormrod-12": {
     "hash": "8119bebdb31aa2d704bc4b49d3d626db9239c881d3c7e1bd423dbe8dee0b0d65",
     "size": 37716
   },
-  "wrathofthemummy-ormrod-12": {
+  "wrathofthemummy-ormrod-13": {
     "hash": "bd309fce8f7a4f8c5ef229c6f6795aa23baef297496001a29cecc03467d68d2f",
     "size": 98526
   },
   "wrathofthemummy-ormrod-2": {
-    "hash": "421e7159f32e8a4c5be31b2b7d9ec1d1ae0ecb4badf4774aa5b95e249b8a2256",
-    "size": 120955
+    "hash": "2d61ac29d51b2796d0c17b66988eb9c2567da8fd188a88f98e00e29b51f1bb3a",
+    "size": 138117
   },
   "wrathofthemummy-ormrod-3": {
-    "hash": "7816146940dbdf956d36c144d863bbcf4478d3de8328ce7f7d1d8de91fb1e1e3",
-    "size": 126649
+    "hash": "89eb26fd1b005d774051294db94a4e857d5784102125383f3ba24220d9726643",
+    "size": 120184
   },
   "wrathofthemummy-ormrod-4": {
-    "hash": "186af507af18ac0db5332039a63c9c08e6b5f2d1c89a13154234058ee67bc60f",
-    "size": 102816
+    "hash": "def0f92fbbb7b4fd0727ffb0a7fed97f456ff3006aa5fe118e6015894486593a",
+    "size": 122724
   },
   "wrathofthemummy-ormrod-5": {
-    "hash": "b7a11c945a3eb1675df19a37ac9d9954fd518a82c4437325013a57e4d9b21dee",
-    "size": 55860
+    "hash": "6212c5de4728b5e0411c3431c7bd0c360949508bbc0e806d1c9cef098bd5cf27",
+    "size": 133320
   },
   "wrathofthemummy-ormrod-6": {
-    "hash": "e1c7f3b33f8bd3774111bb97d5afac41e6481e4caef59fa39c75ffcd326cdbe6",
-    "size": 77321
+    "hash": "b7c375205902f0f9e8a3b8c6ca94c213a732edab4a81f8f69e717ded3ba81658",
+    "size": 128981
   },
   "wrathofthemummy-ormrod-7": {
-    "hash": "b4f31b24267930bdcaaec74c4b5b5621f6d4d77feeaadbd503c9987add30e69e",
-    "size": 50569
+    "hash": "20e1a9e9fae2e89186dd3aba324eb102b6ff2d42e065814330b1bafaf333d8fd",
+    "size": 51859
   },
   "wrathofthemummy-ormrod-8": {
-    "hash": "48a12ec93ebc2ffdc4860a67df5dd24f5907bd793222d94cf6b93c30004fd78b",
-    "size": 72320
+    "hash": "cb57cc554f3b66bb46348f0109f57864346f720001e1914ba4754dbb73b699be",
+    "size": 38079
   },
   "wrathofthemummy-ormrod-9": {
-    "hash": "2983d513b8853802e700f43115629d541460ca159a8760a31332f1a6fe99d6e3",
-    "size": 77126
+    "hash": "29e5f00f35dcf2225bb43b6b492723c9c3d25c36b10a6702a44670d72cf8c76a",
+    "size": 58547
   },
   "wynnexcavationa-tesha-1": {
     "hash": "50e46f247e9aa3d220d3bd8dfbc2081b9a5e2c65224aa7f9d71253886fce803d",
