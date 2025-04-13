@@ -14,19 +14,32 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Identify changed files
-        id: changed-files
+      - name: Identify changed and deleted files
+        id: diff
         run: |
-          echo "CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD -- sounds/ | tr '\n' ' ')" >> $GITHUB_ENV
+          CHANGED_FILES=$(git diff --diff-filter=ACM --name-only HEAD~1 HEAD -- sounds/)
+          DELETED_FILES=$(git diff --diff-filter=D --name-only HEAD~1 HEAD -- sounds/)
+          echo "CHANGED_FILES=$CHANGED_FILES" >> $GITHUB_ENV
+          echo "DELETED_FILES=$DELETED_FILES" >> $GITHUB_ENV
 
       - name: Upload changed files to Azure Blob Storage
         if: env.CHANGED_FILES != ''
         env:
           BLOB_SAS_URL: ${{ secrets.BLOB_SAS_URL }}
         run: |
-          # Split the SAS URL into the container URL and the SAS token
           containerUrl="${BLOB_SAS_URL%%\?*}"
           sasToken="${BLOB_SAS_URL#*\?}"
           for file in $CHANGED_FILES; do
-            azcopy copy "$file" "${containerUrl}/sounds/${file#sounds/}?${sasToken}"
+            azcopy copy "$file" "${containerUrl}/sounds/${file#sounds/}?${sasToken}" --overwrite=true
+          done
+
+      - name: Delete removed files from Azure Blob Storage
+        if: env.DELETED_FILES != ''
+        env:
+          BLOB_SAS_URL: ${{ secrets.BLOB_SAS_URL }}
+        run: |
+          containerUrl="${BLOB_SAS_URL%%\?*}"
+          sasToken="${BLOB_SAS_URL#*\?}"
+          for file in $DELETED_FILES; do
+            azcopy remove "${containerUrl}/sounds/${file#sounds/}?${sasToken}" --recursive
           done
