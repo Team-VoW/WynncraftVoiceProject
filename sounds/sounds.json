@@ -6402,146 +6402,520 @@
     "file": "craftmaschaos-santa-18"
   },
   {
-    "line": "[1/1] Mylo: These are dark times, weary traveler! Too dark for you. Come back when you are at least level 30.",
-    "file": "themercenary-mylo-1"
+    "line": "[1/7] Military Scout: Ho, soldier! Soldier! Ahem...",
+    "file": "themercenary-militaryscout-1"
   },
   {
-    "line": "[1/1] Mylo: Your deeds bring me great relief! Thank you, my friend.",
-    "file": "themercenary-mylo-2"
+    "line": "[2/7] Military Scout: Admiral Amerigo of the Almuji Army requests the aid of able-bodied and unmoored soldiers from around the Province of Wynn.",
+    "file": "themercenary-militaryscout-2"
   },
   {
-    "line": "[1/8] Mylo: These are dark times, weary traveler! Nemract is at its weakest!",
-    "file": "themercenary-mylo-3"
+    "line": "[3/7] Military Scout: To put it bluntly... they've run into a predicament over there. Almuj's standing army has been taken captive, and the desert barracks overtaken.",
+    "file": "themercenary-militaryscout-3"
   },
   {
-    "line": "[2/8] Mylo: Our warriors have been massacred! We are completely defenceless!",
-    "file": "themercenary-mylo-4"
+    "line": "[4/7] Military Scout: The Admiral has sent scouts round to gather any free-moving soldiers to help him... remedy the situation.",
+    "file": "themercenary-militaryscout-4"
   },
   {
-    "line": "[3/8] Mylo: We once had a brave commander who lead us to victory, but I fear he has turned!",
-    "file": "themercenary-mylo-5"
+    "line": "[5/7] Military Scout: ... If you ask me, I reckon he'd like this taken care of quietly and discreetly. I don't blame the man, really, given the circumstances.",
+    "file": "themercenary-militaryscout-5"
   },
   {
-    "line": "[4/8] Mylo: He is the reason our warriors are dead! He led them into a trap, I'm sure of it!",
-    "file": "themercenary-mylo-6"
+    "line": "[6/7] Military Scout: Anyhow, if you can, travel on over that way. Almuj is the desert city to the east of Detlas, if you've never seen it.",
+    "file": "themercenary-militaryscout-6"
   },
   {
-    "line": "[5/8] Mylo: His name is Takan. He's been acting strange ever since his brother was sentenced to death by Admiral Amerigo.",
-    "file": "themercenary-mylo-7"
+    "line": "[7/7] Military Scout: With that, I'm off! There are many more soldiers to find. Good luck, if you choose to heed the summons!",
+    "file": "themercenary-militaryscout-7"
   },
   {
-    "line": "[6/8] Mylo: Sadly, I can't prove of his treachery. I desperately need your help! You must investigate further!",
-    "file": "themercenary-mylo-8"
+    "line": "[1/1] Military Scout: Soldier! Have you talked with Admiral Amerigo in Almuj yet? He's looking for any soldiers who can help him retake the desert barracks!",
+    "file": "themercenary-militaryscout-8"
   },
   {
-    "line": "[7/8] Mylo: Go talk to Admiral Amerigo in Almuj. Ask him about Takan, then ask him for reinforcements immediately!",
-    "file": "themercenary-mylo-9"
+    "line": "[1/3] Admiral Amerigo: Ugh, for crying out loud- I'm busy, can't you see that? I don't have time to...",
+    "file": "themercenary-admiralamerigo-1"
   },
   {
-    "line": "[8/8] Mylo: What!? You don't know how to reach Almuj? Just venture past Saint's Row and through the savannah!",
-    "file": "themercenary-mylo-10"
+    "line": "[2/3] Admiral Amerigo: Ah. You're a soldier. Good, that's one more to add to the list. You met the scout, I'm sure.",
+    "file": "themercenary-admiralamerigo-2"
   },
   {
-    "line": "[1/10] Amerigo: I have no time for you, stranger! Almuj's army is in panic!",
-    "file": "themercenary-amerigo-1"
+    "line": "[3/3] Admiral Amerigo: Not as many of you lot as I would have hoped for, but it'll have to do. Come down here, the others are in the briefing room already.",
+    "file": "themercenary-admiralamerigo-3"
   },
   {
-    "line": "[2/10] Amerigo: You are here for Takan? In Bob's name, of course he's a traitor!",
-    "file": "themercenary-amerigo-2"
+    "line": "[1/4] Linton: ...Oh. It’s you! Didn’t expect to run into you here, even though I probably should have. You really get around, don’t you?",
+    "file": "themercenary-linton-1"
   },
   {
-    "line": "[3/10] Amerigo: You came too late, he has already caused us much trouble!",
-    "file": "themercenary-amerigo-3"
+    "line": "[2/4] Linton: Yep. And now I’m not! Funny how that works.",
+    "file": "themercenary-linton-2"
   },
   {
-    "line": "[4/10] Amerigo: After leaving Nemract, he came to Almuj's barracks and led a surprise attack of bandits! The carnage!",
-    "file": "themercenary-amerigo-4"
+    "line": "[3/4] Linton: I figured I’d find some work where I’m appreciated for my talents... the military.",
+    "file": "themercenary-linton-3"
   },
   {
-    "line": "[5/10] Amerigo: I was just about to lead the rest of my army to retaliate, but perhaps there is a better way.",
-    "file": "themercenary-amerigo-5"
+    "line": "[4/4] Linton: And I have more access to demolitions here than I did as a miner! It’s a win-win, really.",
+    "file": "themercenary-linton-4"
   },
   {
-    "line": "[6/10] Amerigo: Since it would seem that Nemract needs my army, I need you to take care of Takan. Who knows what he could be up to!",
-    "file": "themercenary-amerigo-6"
+    "line": "[1/5] Lanu: ...Hm? Oh, we have a fifth. That’s good! Maybe now the Admiral will tell us what he wants us to do.",
+    "file": "themercenary-lanu-1"
   },
   {
-    "line": "[7/10] Amerigo: However, the bandits that have taken over the barracks will be too strong for you! You must use stealth instead of force.",
-    "file": "themercenary-amerigo-7"
+    "line": "[2/5] Lanu: Not like it’s hard to guess... All of Almuj has heard him demanding the commander’s head, at this point.",
+    "file": "themercenary-lanu-2"
   },
   {
-    "line": "[8/10] Amerigo: Go to the barracks in the corner of the desert and assassinate Commander Takan. Bring me his badge!",
-    "file": "themercenary-amerigo-8"
+    "line": "[3/5] Lanu: I wonder... why Almuj? He had all of Nemract available to him, but he chose to come here...",
+    "file": "themercenary-lanu-3"
   },
   {
-    "line": "[9/10] Amerigo: There should be a way to sneak in from a hole blasted on the far west side of the barracks that I escaped from.",
-    "file": "themercenary-amerigo-9"
+    "line": "[4/5] Lanu: ...I said that all out loud, didn’t I? Sorry, sorry. It’s not like any of that matters, anyway! I doubt we’ll have time to ask.",
+    "file": "themercenary-lanu-4"
   },
   {
-    "line": "[10/10] Amerigo: In fact, the trail of blood I left behind might lead you to him! You should be able to find him in the command room.",
-    "file": "themercenary-amerigo-10"
+    "line": "[5/5] Lanu: We’ll do our job to the best of our ability, and that’ll probably be the end of it...",
+    "file": "themercenary-lanu-5"
   },
   {
-    "line": "[1/3] Takan: The commanding officers are aristocrats, all of them! They deserve to suffer for their selfishness!",
-    "file": "themercenary-takan-1",
-    "onPlayer": true
+    "line": "[1/5] Mel: Well, hey there! Don’t think I’ve seen your face around yet.",
+    "file": "themercenary-mel-1"
   },
   {
-    "line": "[2/3] Takan: Now that we have taken over their barracks, we can take over all of Wynn and make them suffer!",
-    "file": "themercenary-takan-2",
-    "onPlayer": true
+    "line": "[2/5] Mel: Might’ve heard of you, though. You were part of that whole… spider thing, right?",
+    "file": "themercenary-mel-2"
   },
   {
-    "line": "[3/3] Takan: Today is the dawn of a new era... GAAHHH!",
+    "line": "[3/5] Mel: Still, nice to meet you! The name’s Mel. I don’t suppose you know what we’re doin’ here, do you?",
+    "file": "themercenary-mel-3"
+  },
+  {
+    "line": "[4/5] Mel: I just happened to walk into town for other business, when I ran into the Admiral… He told me to come over here immediately, so I did.",
+    "file": "themercenary-mel-4"
+  },
+  {
+    "line": "[5/5] Mel: Bit more exciting than anything else I’ve done so far, though, if I’m bein’ honest!",
+    "file": "themercenary-mel-5"
+  },
+  {
+    "line": "[1/5] Aledar: Oh, soldier! It’s been a little while, hasn’t it?",
+    "file": "themercenary-aledar-1"
+  },
+  {
+    "line": "[2/5] Aledar: These aren’t really ideal circumstances to be meeting up again, but hey, when are they ever?",
+    "file": "themercenary-aledar-2"
+  },
+  {
+    "line": "[3/5] Aledar: A rogue commander, huh… It’s a little worrying how efficiently he was able to take over the barracks.",
+    "file": "themercenary-aledar-3"
+  },
+  {
+    "line": "[4/5] Aledar: The Admiral hasn’t told us much about what he’d like us to do about it, yet. He’s just been ordering us around the whole time.",
+    "file": "themercenary-aledar-4"
+  },
+  {
+    "line": "[5/5] Aledar: Guess we’ll have to figure it out as we go, huh?",
+    "file": "themercenary-aledar-5"
+  },
+  {
+    "line": "[1/1] Admiral Amerigo: Take your place at the table, soldier. There's little time to waste.",
+    "file": "themercenary-admiralamerigo-4"
+  },
+  {
+    "line": "[1/14] Admiral Amerigo: Hmph. I suppose this is as many soldiers as we’ll be able to get. Very well!",
+    "file": "themercenary-admiralamerigo-5"
+  },
+  {
+    "line": "[2/14] Admiral Amerigo: To begin with - the situation. Commander Takan of Nemract has abandoned his post, and has taken the lead of a group of local bandits.",
+    "file": "themercenary-admiralamerigo-6"
+  },
+  {
+    "line": "[3/14] Admiral Amerigo: Under his command, they were able to strike our forces in the dead of night, and have taken over the barracks to the northeast.",
+    "file": "themercenary-admiralamerigo-7"
+  },
+  {
+    "line": "[4/14] Admiral Amerigo: Our entire military force, captured or killed! What a disgrace. We’ve sent messengers to Detlas, and they have promised their support…",
+    "file": "themercenary-admiralamerigo-8"
+  },
+  {
+    "line": "[5/14] Admiral Amerigo: But I would like this dealt with quickly and quietly. That’s where you five come in.",
+    "file": "themercenary-admiralamerigo-9"
+  },
+  {
+    "line": "[6/14] Admiral Amerigo: You will attack and infiltrate the barracks, and assassinate our treasonous commander. I will leave the strategizing to you, as there is much I still must handle here.",
+    "file": "themercenary-admiralamerigo-10"
+  },
+  {
+    "line": "[7/14] Lanu: A question, if I may. Do we know the commander’s reasoning for this attack? It seems out of character.",
+    "file": "themercenary-lanu-6"
+  },
+  {
+    "line": "[8/14] Admiral Amerigo: …No. There is nothing that I can recall that would motivate such an attack. Will that be all?",
+    "file": "themercenary-admiralamerigo-11"
+  },
+  {
+    "line": "[9/14] Lanu: ...I suppose.",
+    "file": "themercenary-lanu-7"
+  },
+  {
+    "line": "[10/14] Admiral Amerigo: Then I must be off! Good luck, soldiers. I hope for a swift end to this disaster.",
+    "file": "themercenary-admiralamerigo-12"
+  },
+  {
+    "line": "[11/14] Mel: …Well, darn. Bandits sound like trouble. Do we know what sort?",
+    "file": "themercenary-mel-6"
+  },
+  {
+    "line": "[12/14] Linton: Does it matter? We’ll probably be fighting them no matter what kind they are.",
+    "file": "themercenary-linton-5"
+  },
+  {
+    "line": "[13/14] Lanu: It might, actually… Some bandit groups are stronger than others. If we know which group we’re dealing with ahead of time, it might-",
+    "file": "themercenary-lanu-8"
+  },
+  {
+    "line": "[14/14] Aledar: We’ve been standing around here for too long. Come on, let’s make our way closer to the barracks. We can come up with a plan there.",
+    "file": "themercenary-aledar-6"
+  },
+  {
+    "line": "[1/17] Mel: Well, darn. The place is swarming with bandits...",
+    "file": "themercenary-mel-7"
+  },
+  {
+    "line": "[2/17] Linton: I don't see how that's a problem! We can just launch explosives into the crowd, and boom, problem solved.",
+    "file": "themercenary-linton-6"
+  },
+  {
+    "line": "[3/17] Aledar: ...What?",
+    "file": "themercenary-aledar-7"
+  },
+  {
+    "line": "[4/17] Lanu: We can't do that. You'd almost certainly damage the structure in the process!",
+    "file": "themercenary-lanu-9"
+  },
+  {
+    "line": "[5/17] Linton: Ah, true. Can't forget about the historical value. Good catch.",
+    "file": "themercenary-linton-7"
+  },
+  {
+    "line": "[6/17] Aledar: ...Right. Well, anyway, I don't think we can get through those bandits with brute force. We'll have to try to find a way around them...",
+    "file": "themercenary-aledar-8"
+  },
+  {
+    "line": "[7/17] Mel: Well, if I may interject- I reckon I won't be of much use in proper combat! Injured leg, 'n all. Makes moving a little hard!",
+    "file": "themercenary-mel-8"
+  },
+  {
+    "line": "[8/17] Mel: So, if we think goin' right in won't work, I could try to create a distraction? I've got the magic for it, and I'd be of much more use out here.",
+    "file": "themercenary-mel-9"
+  },
+  {
+    "line": "[9/17] Lanu: It could work... if I join you, we'd be able to draw attention towards us while the others sneak in from a different angle.",
+    "file": "themercenary-lanu-10"
+  },
+  {
+    "line": "[10/17] Aledar: Good idea. But, how do we get in? I don't think there is another entrance, other than that one in front.",
+    "file": "themercenary-aledar-9"
+  },
+  {
+    "line": "[11/17] Linton: Ahem. If you'll allow me-",
+    "file": "themercenary-linton-8"
+  },
+  {
+    "line": "[12/17] Aledar: This had better not be going where I think it is, Linton.",
+    "file": "themercenary-aledar-10"
+  },
+  {
+    "line": "[13/17] Linton: Okay, maybe it is. But, listen! We don't have any entrances, right? What if we made our own... by blowing a hole through a wall?",
+    "file": "themercenary-linton-9"
+  },
+  {
+    "line": "[14/17] Aledar: ...Alright, fine. That sounds like it could work.",
+    "file": "themercenary-aledar-11"
+  },
+  {
+    "line": "[15/17] Linton: Exactly! You need to have more faith in the experts, Aledar.",
+    "file": "themercenary-linton-10"
+  },
+  {
+    "line": "[16/17] Aledar: Hm. No, I don't think I do. Either way, that sounds like a plan. soldier, Linton, and I will break into the barracks then.",
+    "file": "themercenary-aledar-12"
+  },
+  {
+    "line": "[17/17] Mel: And Lanu and I can distract 'em while you do so. Sounds like a plan! Let's get goin'.",
+    "file": "themercenary-mel-10"
+  },
+  {
+    "line": "[1/7] Linton: Well, well. This looks like a good place to break our way in, wouldn't you say, Aledar?",
+    "file": "themercenary-linton-11"
+  },
+  {
+    "line": "[2/7] Aledar: Yes, Linton, it looks fine. soldier, we'll be looking for Takan. I think the two of us could take him out.",
+    "file": "themercenary-aledar-13"
+  },
+  {
+    "line": "[3/7] Linton: And I'll be looking for the captured soldiers! I stole a map of the barracks from Amerigo's desk, so I'll be able to find them easily enough!",
+    "file": "themercenary-linton-12"
+  },
+  {
+    "line": "[4/7] Aledar: You-... nevermind, I don't care. Just do your job, please?",
+    "file": "themercenary-aledar-14"
+  },
+  {
+    "line": "[5/7] Linton: On it, boss!",
+    "file": "themercenary-linton-13"
+  },
+  {
+    "line": "[6/7] Linton: See you two on the other side!",
+    "file": "themercenary-linton-14"
+  },
+  {
+    "line": "[7/7] Aledar: Alright, let's get to work!",
+    "file": "themercenary-aledar-15"
+  },
+  {
+    "line": "[1/1] Takan: Damn it... damn it, damn it, DAMN IT ALL! Couldn't give me a MOMENT of peace, could he, that rat Amerigo...",
+    "file": "themercenary-takan-1"
+  },
+  {
+    "line": "[1/11] Takan: ...do I really need to do everything myself?! It's almost as though-",
+    "file": "themercenary-takan-2"
+  },
+  {
+    "line": "[2/11] Takan: Oh, I see. I see what's going on. More of Amerigo's dogs, here to take care of his business, huh?! Get out here where I can see you.",
     "file": "themercenary-takan-3"
   },
   {
-    "line": "[1/9] Amerigo: Stranger, report!",
-    "file": "themercenary-amerigo-11"
+    "line": "[3/11] Takan: You look new... haven't been around long enough to really see the face of War up close and personal yet, have you?",
+    "file": "themercenary-takan-4"
   },
   {
-    "line": "[2/9] Amerigo: You... You did it?! That was rather fast, I must say!",
-    "file": "themercenary-amerigo-12"
+    "line": "[4/11] Takan: You think this is right? You think it's right that those DAMNED admirals get all the wealth and fame, when WE'RE the ones out fighting in the trenches?!",
+    "file": "themercenary-takan-5"
   },
   {
-    "line": "[3/9] Amerigo: You have done this city proud, stranger. Almuj stands for another day then.",
-    "file": "themercenary-amerigo-13"
+    "line": "[5/11] Takan: I've seen soldiers fall and fall and fall, then rise back up again. I've lived through the chaos and death of battle more times than I can count.",
+    "file": "themercenary-takan-6"
   },
   {
-    "line": "[4/9] Amerigo: Please take this small reward as a token of the city's appreciation... Hm...",
-    "file": "themercenary-amerigo-14"
+    "line": "[6/11] Takan: And these IDIOTS think they deserve their power? Their authority?!",
+    "file": "themercenary-takan-7"
   },
   {
-    "line": "[5/9] Amerigo: No, not a small reward. I will give you something that one such as yourself more than deserves.",
-    "file": "themercenary-amerigo-15"
+    "line": "[6/11] Aledar: ...You've killed dozens, and you're keeping dozens more captured.",
+    "file": "themercenary-aledar-16"
   },
   {
-    "line": "[6/9] Amerigo: This is not any mere piece of gear. This is spoken of in fantasies, in fables.",
-    "file": "themercenary-amerigo-16"
+    "line": "[8/11] Takan: And I'd do all that and more, just to prove my point! They think they hold power?! I'll show them power...",
+    "file": "themercenary-takan-8"
   },
   {
-    "line": "[7/9] Amerigo: Such items have special abilities that are far beyond any of the normal magic powers you find on most things.",
-    "file": "themercenary-amerigo-17"
+    "line": "[9/11] Takan: I suppose I'll start with you. What are two more when compared to dozens?",
+    "file": "themercenary-takan-9"
   },
   {
-    "line": "[8/9] Amerigo: This one, in particular is only awarded in very certain cases, and can be considered a medal of honour. Be proud!",
-    "file": "themercenary-amerigo-18"
+    "line": "[10/11] Takan: Step aside, Shadow Spears. I'd like to deal with these dogs myself.",
+    "file": "themercenary-takan-10"
   },
   {
-    "line": "[9/9] Amerigo: Now run along, I have to collect my own honorary badge for taking out Ex-Commander Takan.",
-    "file": "themercenary-amerigo-19"
+    "line": "[11/11] Aledar: ...We won't make it easy for you.",
+    "file": "themercenary-aledar-17"
   },
   {
-    "line": "[1/1] Amerigo: I have no time for you, stranger! Run along.",
-    "file": "themercenary-amerigo-20"
+    "line": "[1/4] Takan: Hrrk-...",
+    "file": "themercenary-takan-11"
   },
   {
-    "line": "[1/1] Amerigo: I need you to assassinate Commander Takan! Hurry stranger!",
-    "file": "themercenary-amerigo-21"
+    "line": "[2/4] Takan: Y-you won't-... Stay back!",
+    "file": "themercenary-takan-12"
   },
   {
-    "line": "[1/1] Amerigo: Keep that bracelet around! I am certain you will find it useful.",
-    "file": "themercenary-amerigo-22"
+    "line": "[3/4] Aledar: Damn it, he's getting away!",
+    "file": "themercenary-aledar-18"
+  },
+  {
+    "line": "[4/4] Aledar: This tower can only go up... Come on, we need to chase after him! We can't let him get away!",
+    "file": "themercenary-aledar-19"
+  },
+  {
+    "line": "[2/6] Shadow Spears Leader: No need to be hasty.",
+    "file": "themercenary-shadowspearsleader-1"
+  },
+  {
+    "line": "[3/6] Shadow Spears Leader: Look, it's obvious we've lost here. Even if that idiot escapes, you military folk will find him.",
+    "file": "themercenary-shadowspearsleader-2"
+  },
+  {
+    "line": "[4/6] Shadow Spears Leader: So, I surrender! Don't see the point in fightin' a pointless battle. Not like we're goin' to be paid after this mess, anyhow.",
+    "file": "themercenary-shadowspearsleader-3"
+  },
+  {
+    "line": "[5/6] Shadow Spears Leader: Here, take the key to the tower. A sign of good faith. Do what you will with him, I really don't care.",
+    "file": "themercenary-shadowspearsleader-4"
+  },
+  {
+    "line": "[6/6] Shadow Spears Leader: I always preferred his brother anyway. Much quieter.",
+    "file": "themercenary-shadowspearsleader-5"
+  },
+  {
+    "line": "[1/2] Aledar: Ugh, more bandits... I'll hold them off here.",
+    "file": "themercenary-aledar-20"
+  },
+  {
+    "line": "[2/2] Aledar: Keep going after Takan! I'll be fine!",
+    "file": "themercenary-aledar-21"
+  },
+  {
+    "line": "[1/2] Takan: Urgh... Why did I even come up here?! There's nowhere for me to-",
+    "file": "themercenary-takan-13"
+  },
+  {
+    "line": "[2/2] Takan: ...Oh. L-listen. We can talk this out-",
+    "file": "themercenary-takan-14"
+  },
+  {
+    "line": "[1/1] Takan: N-no... not- l-like... this...",
+    "file": "themercenary-takan-15"
+  },
+  {
+    "line": "[1/11] Linton: ...and so then, I had to free them somehow! So I shouted at them to brace for it, and-",
+    "file": "themercenary-linton-15"
+  },
+  {
+    "line": "[2/11] Aledar: soldier! There you are! I'm glad you made it out safely. It looks like the bandits are dispersing.",
+    "file": "themercenary-aledar-22"
+  },
+  {
+    "line": "[3/11] Linton: And so is my train of thought for my story. So! Did you get him?",
+    "file": "themercenary-linton-16"
+  },
+  {
+    "line": "[4/11] Lanu: That's good to hear. At least something good came of this whole situation...",
+    "file": "themercenary-lanu-11"
+  },
+  {
+    "line": "[5/11] Aledar: I'm glad we managed to take him out after all. The things he was saying... he seemed like a very dangerous man.",
+    "file": "themercenary-aledar-23"
+  },
+  {
+    "line": "[6/11] Mel: I caught a few of the things he was shoutin' from outside. It didn't sound very pleasant.",
+    "file": "themercenary-mel-11"
+  },
+  {
+    "line": "[7/11] Linton: Well, I didn't hear a thing. Probably on account of the ringing in my ears. It seems to me we're done here, though, right?",
+    "file": "themercenary-linton-17"
+  },
+  {
+    "line": "[8/11] Lanu: It looks like it, yes. I think I'll stay behind to help the soldiers clear out the remaining bandits.",
+    "file": "themercenary-lanu-12"
+  },
+  {
+    "line": "[9/11] Mel: I figure I'll stick around too. Don't got anythin' better to do right now, anyway!",
+    "file": "themercenary-mel-12"
+  },
+  {
+    "line": "[10/11] Linton: Well, I'm out of here. I've got places to be! Things to do! Explosives to return! Goodbye!",
+    "file": "themercenary-linton-18"
+  },
+  {
+    "line": "[11/11] Aledar: soldier, I guess that leaves the two of us to return to Almuj with the news! Let's get going.",
+    "file": "themercenary-aledar-24"
+  },
+  {
+    "line": "[1/8] Admiral Amerigo: Soldiers! Report! Don't tell me you're the only two survivors, damn it all...",
+    "file": "themercenary-admiralamerigo-13"
+  },
+  {
+    "line": "[2/8] Aledar: No, sir, the mission was a success. Takan is dead.",
+    "file": "themercenary-aledar-25"
+  },
+  {
+    "line": "[3/8] Admiral Amerigo: You're certain of this? You have his badge, surely...?",
+    "file": "themercenary-admiralamerigo-14"
+  },
+  {
+    "line": "[4/8] Admiral Amerigo: I see... satisfactory work, soldiers. You two, and the others, have Almuj's gratitude.",
+    "file": "themercenary-admiralamerigo-15"
+  },
+  {
+    "line": "[5/8] Aledar: Admiral, sir. Some of what Takan was saying, it was-",
+    "file": "themercenary-aledar-26"
+  },
+  {
+    "line": "[6/8] Admiral Amerigo: I wouldn't put too much stock in that traitor's words. People like him... all they do is spit vitriol with no merit, riling up the masses against the order we hold.",
+    "file": "themercenary-admiralamerigo-16"
+  },
+  {
+    "line": "[7/8] Admiral Amerigo: He was an angry man holding a grudge for an imagined wrongdoing. There is nothing more to it than that. I would suggest putting it out of your mind.",
+    "file": "themercenary-admiralamerigo-17"
+  },
+  {
+    "line": "[8/8] Admiral Amerigo: You will all be well-compensated for your work today. Now, run along. I have to collect my honorary badge for taking out Ex-Commander Takan.",
+    "file": "themercenary-admiralamerigo-18"
+  },
+  {
+    "line": "[1/11] Aledar: ...",
+    "file": "themercenary-aledar-27"
+  },
+  {
+    "line": "[2/11] Aledar: I'm starting to see why Takan hated him so much.",
+    "file": "themercenary-aledar-28"
+  },
+  {
+    "line": "[3/11] Aledar: I'll... probably try to speak to Admiral Aegis about that the next time I'm in Detlas.",
+    "file": "themercenary-aledar-29"
+  },
+  {
+    "line": "[4/11] Aledar: Anyway! What an adventure, right? I can't wait to tell Tasim about it.",
+    "file": "themercenary-aledar-30"
+  },
+  {
+    "line": "[5/11] Aledar: ...Speaking of. Have you heard from him recently? I can't seem to get ahold of him at all.",
+    "file": "themercenary-aledar-31"
+  },
+  {
+    "line": "[6/11] Aledar: It's weird. Last I heard, he was at Elkurn, but he's not there anymore.",
+    "file": "themercenary-aledar-32"
+  },
+  {
+    "line": "[7/11] Aledar: He- what? Really? And he didn't even tell me...",
+    "file": "themercenary-aledar-33"
+  },
+  {
+    "line": "[8/11] Aledar: ...I guess it must have slipped his mind. That's alright. We're all busy around here, right?",
+    "file": "themercenary-aledar-34"
+  },
+  {
+    "line": "[9/11] Aledar: A general location is useful, though. I'll see if I can get any letters through to him. Thanks for telling me.",
+    "file": "themercenary-aledar-35"
+  },
+  {
+    "line": "[7/11] Aledar: Yeah, that makes two of us...",
+    "file": "themercenary-aledar-36"
+  },
+  {
+    "line": "[8/11] Aledar: Well, it's probably fine. I'm sure he'll pop up eventually! We just need to wait.",
+    "file": "themercenary-aledar-37"
+  },
+  {
+    "line": "[9/11] Aledar: I wonder where he's gone off to? Some kind of assignment in Troms, maybe? Or could he have gone off to Gavel...?",
+    "file": "themercenary-aledar-38"
+  },
+  {
+    "line": "[10/11] Aledar: Well, whatever. It was good to see you again! Even if... well. Even if it was strange.",
+    "file": "themercenary-aledar-39"
+  },
+  {
+    "line": "[11/11] Aledar: I'll see you around, soldier.",
+    "file": "themercenary-aledar-40"
+  },
+  {
+    "line": "[1/1] Admiral Amerigo: At ease, soldier. Is there anything I can do for you?",
+    "file": "themercenary-admiralamerigo-19"
   },
   {
     "line": "[1/9] Eluzterp: Oh, hey! You, adventurer over there! Would you mind helping me?",
