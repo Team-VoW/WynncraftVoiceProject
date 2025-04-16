@@ -89,9 +89,9 @@ public class VersionChecker {
 
         Utils.sendMessage("§9A new version of §5Voices of Wynn§9 is available! You are using version: §4" + version
                 + " §9and the newest version is: §2" + newestVersion + ".");
-        Utils.appendMessageWithLinkAndSend("§9To download our updater, click ", directUpdateLink, "§b§nhere");
+        Utils.appendMessageWithLinkAndSend("§9To download it directly, click ", directUpdateLink, "§b§nhere");
         Utils.appendMessageWithLinkAndSend(
-                "§9To see the changelog and display other download options, click ", updateInfoPageLink, "§b§nhere");
+                "§9To see the changelog, click ", updateInfoPageLink, "§b§nhere");
     }
 
     private static float GetVersionNumberInFloat(String version) {
