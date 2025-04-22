@@ -7014,19 +7014,19 @@
     "file": "greengloop-eluzterp-15"
   },
   {
-    "line": "[1/7] Almuj Bank Guard: You look like a hardy one, Ragni army is it? Would you be willing to help Almuj a bit?",
+    "line": "[1/7] Almuj Bank Guard: You look like a hardy one! Ragni army, is it? Would you be willing to help Almuj a bit?",
     "file": "asandyscandal-almujbankguard-1"
   },
   {
-    "line": "[2/7] Almuj Bank Guard: Us guards have been trying to root out desert bandits trying to rob the bank.",
+    "line": "[2/7] Almuj Bank Guard: Almuj bank tends to be a prime target for bandits, and there's been a string of incidents that have made us suspicious.",
     "file": "asandyscandal-almujbankguard-2"
   },
   {
-    "line": "[3/7] Almuj Bank Guard: We're using reports from witnesses to try to gain information.",
+    "line": "[3/7] Almuj Bank Guard: We're looking into some witness reports to try to gain information on the bandits' plan.",
     "file": "asandyscandal-almujbankguard-3"
   },
   {
-    "line": "[4/7] Almuj Bank Guard: If I give you some of the witness reports, will you help get clues from them?",
+    "line": "[4/7] Almuj Bank Guard: If I give you some of the reports, will you help check them out for clues?",
     "file": "asandyscandal-almujbankguard-4"
   },
   {
@@ -7034,12 +7034,16 @@
     "file": "asandyscandal-almujbankguard-5"
   },
   {
-    "line": "[6/7] Almuj Bank Guard: The store that you should read the report in is named “Gibbs' Mining Supply Store,” and it's the store that was robbed.",
+    "line": "[6/7] Almuj Bank Guard: It's called �Gibbs' Mining Supply Store�, and the owner reported a robbery a few days ago.",
     "file": "asandyscandal-almujbankguard-6"
   },
   {
-    "line": "[7/7] Almuj Bank Guard: I will write the coordinates to the store so you can read the report just in case you can't find it.",
+    "line": "[7/7] Almuj Bank Guard: Good luck! Report back to me if you find any information.",
     "file": "asandyscandal-almujbankguard-7"
+  },
+  {
+    "line": "[1/1] Almuj Bank Guard: Have you been reading the witness reports?",
+    "file": "asandyscandal-almujbankguard-8"
   },
   {
     "line": "Business was slow that day, until two rugged, oddly-dressed men stormed into my shop, with a lot of nerve.",
@@ -7106,36 +7110,36 @@
     "file": "asandyscandal-shopkeepergibbs-13"
   },
   {
-    "line": "[9/9] Bandit: 7-8-1-2... thanks! We won’t be needing you anymore... now go to sleep!",
+    "line": "[9/9] Bandit: 7-8-1-2... thanks! We won�t be needing you anymore... now go to sleep!",
     "file": "asandyscandal-bandit-4"
   },
   {
-    "line": "I had no idea what the criminals did after that, I never went back into my shop after the incident.",
+    "line": "I had no idea what the criminals did after that, I haven't been back to my shop since the incident.",
     "file": "asandyscandal-shopkeepergibbs-14"
   },
   {
-    "line": "[1/6] Almuj Bank Guard: You're back, having read the report I assume. Did you find anything in particular?",
-    "file": "asandyscandal-almujbankguard-8"
-  },
-  {
-    "line": "[2/6] Almuj Bank Guard: Missing TNT in the shop's vault? The report was truthful and trustworthy.",
+    "line": "[1/6] Almuj Bank Guard: Ah, you're back! Did you find anything interesting in the report?",
     "file": "asandyscandal-almujbankguard-9"
   },
   {
-    "line": "[3/6] Almuj Bank Guard: We need to catch these criminals quickly if they have access to this dangerous amount of TNT, capable of putting a hole in the bank's wall.",
+    "line": "[2/6] Almuj Bank Guard: Missing TNT in the shop's vault? Looks like the shopkeeper was telling the truth.",
     "file": "asandyscandal-almujbankguard-10"
   },
   {
-    "line": "[4/6] Almuj Bank Guard: Luckily, we recently had another witness report come in.",
+    "line": "[3/6] Almuj Bank Guard: We need to catch these criminals quickly if they have access to that amount of TNT - they could blow a hole right into the bank's vault!",
     "file": "asandyscandal-almujbankguard-11"
   },
   {
-    "line": "[5/6] Almuj Bank Guard: This report takes place on the roof of the Scroll Merchant's residence, a garden roof.",
+    "line": "[4/6] Almuj Bank Guard: You should check out another witness report, from after the attack on the shopkeeper.",
     "file": "asandyscandal-almujbankguard-12"
   },
   {
-    "line": "[6/6] Almuj Bank Guard: I've written the coordinates to the shop in your content book in case you don't know where the Scroll Merchant is.",
+    "line": "[5/6] Almuj Bank Guard: It was taken from the rooftop garden of the Scroll Merchant's residence, you should take a look.",
     "file": "asandyscandal-almujbankguard-13"
+  },
+  {
+    "line": "[6/6] Almuj Bank Guard: Be quick! We don't have much time if we want to stop these bandits.",
+    "file": "asandyscandal-almujbankguard-14"
   },
   {
     "line": "I was having a fine time tending to my rooftop garden after a lengthy day of selling scrolls.",
@@ -7154,7 +7158,7 @@
     "file": "asandyscandal-scrollmerchant-4"
   },
   {
-    "line": "I then realized that had no innocent itinerary, they were heading straight for my wealthy neighbor's house!",
+    "line": "I then realized they had no innocent itinerary, they were heading straight for my wealthy neighbor's house! I tried to yell for the attention of a guard or official, but nobody could hear me.",
     "file": "asandyscandal-scrollmerchant-5"
   },
   {
@@ -7174,51 +7178,59 @@
     "file": "asandyscandal-scrollmerchant-9"
   },
   {
-    "line": "The bandits came sprinting out of my wealthy neighbor's house with two of his most prized possessions: two of his weapons.",
+    "line": "The bandits came sprinting out of my wealthy neighbor's house with some of his most prized possessions: two weapons from his collection.",
     "file": "asandyscandal-scrollmerchant-10"
   },
   {
-    "line": "[1/8] Almuj Bank Guard: Were you able to uncover any new information regarding the status of the criminals?",
-    "file": "asandyscandal-almujbankguard-14"
+    "line": "I wasn't sure what to do at this point... I didn't try to confront them, that'd have been way too risky!",
+    "file": "asandyscandal-scrollmerchant-11"
   },
   {
-    "line": "[2/8] Almuj Bank Guard: Oh dear, this isn't good. The criminals plundered two very powerful weapons.",
+    "line": "I have no idea where they went off to afterwards.",
+    "file": "asandyscandal-scrollmerchant-12"
+  },
+  {
+    "line": "[1/8] Almuj Bank Guard: Were you able to uncover any new information regarding the status of the criminals?",
     "file": "asandyscandal-almujbankguard-15"
   },
   {
-    "line": "[3/8] Almuj Bank Guard: It won't be easy facing those criminals if they decide to raid the bank with those weapons.",
+    "line": "[2/8] Almuj Bank Guard: Ah... that's troubling. The criminals plundered two very powerful weapons.",
     "file": "asandyscandal-almujbankguard-16"
   },
   {
-    "line": "[4/8] Almuj Bank Guard: I'm not certain how to proceed from here, we didn't receive any more witness reports, and-",
+    "line": "[3/8] Almuj Bank Guard: It won't be easy facing those criminals if they decide to raid the bank with those weapons.",
     "file": "asandyscandal-almujbankguard-17"
+  },
+  {
+    "line": "[4/8] Almuj Bank Guard: I'm not certain how to proceed from here, we didn't receive any more witness reports, and-",
+    "file": "asandyscandal-almujbankguard-18"
   },
   {
     "line": "[5/8] Almuj Sentry: Boss, I just received urgent reports of a robbery underway in the left residential area of Almuj!",
     "file": "asandyscandal-almujsentry-1"
   },
   {
-    "line": "[6/8] Almuj Bank Guard: Oh my... you! Soldier! Urgently! The robbery is taking place across the bridge, next to the first house you visited today!",
-    "file": "asandyscandal-almujbankguard-18"
-  },
-  {
-    "line": "[7/8] Almuj Bank Guard: There will be somebody waiting for you outside of the house once you get to the residential area!",
+    "line": "[6/8] Almuj Bank Guard: Oh my... you! Soldier! Quick! The robbery is taking place across the bridge, next to the first house you visited today! It may be the bandit's we're looking for.",
     "file": "asandyscandal-almujbankguard-19"
   },
   {
-    "line": "[8/8] Almuj Bank Guard: If you still can't find it, I've written the coordinates in your content book. Now quickly, get to the house!",
+    "line": "[7/8] Almuj Bank Guard: There will be somebody waiting for you outside of the house once you get to the residential area!",
     "file": "asandyscandal-almujbankguard-20"
+  },
+  {
+    "line": "[8/8] Almuj Bank Guard: If you still can't find it, I've written the coordinates in your content book. Now quickly, get to the house!",
+    "file": "asandyscandal-almujbankguard-21"
   },
   {
     "line": "[1/2] Almuj Citizen: Hello? Are you with the guards? Good! Hurry! Some bandits just ransacked my house, and left with lots of emeralds!",
     "file": "asandyscandal-almujcitizen-1"
   },
   {
-    "line": "[2/2] Almuj Citizen: Follow me to my house, hopefully you can find the bandits! They stole lots of my precious gold!",
+    "line": "[2/2] Almuj Citizen: Follow me to my house, hopefully you can find the bandits! They stole lots of my precious gems!",
     "file": "asandyscandal-almujcitizen-2"
   },
   {
-    "line": "[1/4] Bandit Leader: Here-- maybe you'll help us pull the heist if I give you some of this gold we just stole.",
+    "line": "[1/4] Bandit Leader: Ready, boys? We've got the TNT, weapons, and the fastest horses those emeralds could buy. Now we just-",
     "file": "asandyscandal-banditleader-1"
   },
   {
@@ -7226,15 +7238,15 @@
     "file": "asandyscandal-banditleader-2"
   },
   {
-    "line": "[3/4] Bandit Leader: I wouldn’t want to wear out my new-stolen weapons killing you... I'll just trap you in here with all of this TNT!",
+    "line": "[3/4] Bandit Leader: No point wasting these brand-new weapons on you... since we're blowing up this hideout anyway!",
     "file": "asandyscandal-banditleader-3"
   },
   {
-    "line": "[4/4] Bandit Leader: This'll blow up in a few seconds. Good luck getting out of here!",
+    "line": "[4/4] Bandit Leader: The whole thing'll go up in a few seconds, and any evidence will be buried in the sand. Good luck getting out of here!",
     "file": "asandyscandal-banditleader-4"
   },
   {
-    "line": "[1/1] Bandit Leader: It's too late to stop us now! We’re already about to bust out of here with a grand prize sure to gain us province-wide respect!",
+    "line": "[1/1] Bandit Leader: It's too late to stop us now! We�re about to bust out of here with the grand prize - the contents of the emerald vault!",
     "file": "asandyscandal-banditleader-5"
   },
   {
@@ -7250,24 +7262,28 @@
     "file": "asandyscandal-banditleader-8"
   },
   {
-    "line": "[1/1] Bandit Leader: Oh no... we've run out of TNT! We were in over our heads... We can't defeat them, just run for your life! Forget the emeralds, let’s get outta’ here!",
-    "file": "asandyscandal-banditleader-9"
-  },
-  {
-    "line": "[1/4] Almuj Bank Guard: What happened down there underneath the bank? I heard the rumble.",
-    "file": "asandyscandal-almujbankguard-21"
-  },
-  {
-    "line": "[2/4] Almuj Bank Guard: You stopped the crooks? Amazing!",
+    "line": "[1/4] Almuj Bank Guard: Soldier! Where did you disappear to? Did you hear those explosions, below the bank?",
     "file": "asandyscandal-almujbankguard-22"
   },
   {
-    "line": "[3/4] Almuj Bank Guard: The Almuj bank is typically reserved for trusted members only; however, you have proven yourself today to be one of them.",
+    "line": "[2/4] Almuj Bank Guard: We think the bandits might have made the first move in their heist, we're mobilising a troop to-",
     "file": "asandyscandal-almujbankguard-23"
   },
   {
-    "line": "[4/4] Almuj Bank Guard: Thank you for your service!",
+    "line": "[3/4] Almuj Bank Guard: You've already stopped them? And reclaimed the stolen weapons and explosives..?",
     "file": "asandyscandal-almujbankguard-24"
+  },
+  {
+    "line": "[4/4] Almuj Bank Guard: Wow. Excellent work, soldier. Almuj is in your debt. Please accept these from our vault, as a token of our thanks.",
+    "file": "asandyscandal-almujbankguard-25"
+  },
+  {
+    "line": "[1/1] Almuj Bank Guard: Thank you for your services. Enjoy the Almuj Bank!",
+    "file": "asandyscandal-almujbankguard-26"
+  },
+  {
+    "line": "[1/1] Almuj Bank Guard: I could use some assistance with this case; however, I need an investigator at least level 32 to help.",
+    "file": "asandyscandal-almujbankguard-27"
   },
   {
     "line": "[1/4] Haily: Hello, dear. My name is Haily. Nice to meet you.",
