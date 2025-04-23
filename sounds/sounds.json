@@ -48193,6 +48193,110 @@
     "stopSounds": false
   },
   {
+    "line": "[1/1] Juggler: Woah there, hold your horses bucko! We have yet to figure out a way to make this one work. Lookin' at you though, I can tell you wouldn't be of much help.",
+    "file": "world-juggler-1"
+  },
+  {
+    "line": "[1/1] Juggler: Can't you read? You can't use that. Do you want a cookie instead or something? You're outta luck buddy, we don't sell those here.",
+    "file": "world-juggler-2"
+  },
+  {
+    "line": "[1/5] Juggler: ...Huh? Who're you? Wanna know what this is?",
+    "file": "world-juggler-3"
+  },
+  {
+    "line": "[2/5] Juggler: Well, here's the Juggler's Tavern. And I'm the Juggler. Fascinating stuff, right?",
+    "file": "world-juggler-4"
+  },
+  {
+    "line": "[3/5] Juggler: We're currently developping a little somethin'. We're barely starting though.",
+    "file": "world-juggler-5"
+  },
+  {
+    "line": "[4/5] Juggler: Once we get this right though... I'll finally get to hit peo- Nevermind.",
+    "file": "world-juggler-6"
+  },
+  {
+    "line": "[5/5] Juggler: Look, if you help some towns, I might be able to create more tunnels and other ways to quickly travels. Deal? Deal!",
+    "file": "world-juggler-7"
+  },
+  {
+    "line": "[1/1] Juggler: Ready? Well, that doesn't matter, here I go.",
+    "file": "world-juggler-8"
+  },
+  {
+    "line": "[1/1] Juggler: Buckle up, it's juggle time. Woo!",
+    "file": "world-juggler-9"
+  },
+  {
+    "line": "[1/1] Juggler: A'ight, let's go.",
+    "file": "world-juggler-10"
+  },
+  {
+    "line": "[2/5] Juggler: Well, here's the Juggler's Tavern. And I'm the Juggler. Fascinating stuff.",
+    "file": "world-juggler-11"
+  },
+  {
+    "line": "[3/5] Juggler: Look, there's nothing to show yet. We're still developing a little somethin'.",
+    "file": "world-juggler-12"
+  },
+  {
+    "line": "[5/5] Juggler: Look, help some of the towns like Aldorei and I might manage to develop very fast methods of travelling between here and there. Deal? Deal!",
+    "file": "world-juggler-13"
+  },
+  {
+    "line": "[1/1] Juggler: Urgh, these elves... Maybe we should try to bug Thesead first...",
+    "file": "world-juggler-14"
+  },
+  {
+    "line": "[1/1] Juggler: ...I sure love legally throwing people! But I can't... If only someone helped us...",
+    "file": "world-juggler-15"
+  },
+  {
+    "line": "[1/1] Juggler: ...Oh, right. Good luck!",
+    "file": "world-juggler-16"
+  },
+  {
+    "line": "[1/1] Juggler: Well SORRY to bother you, but the guys over there are NOT a charity. Unfortunately.",
+    "file": "world-juggler-17"
+  },
+  {
+    "line": "[1/5] Juggler: Why hello there! Welcome, welcome!",
+    "file": "world-juggler-18"
+  },
+  {
+    "line": "[1/1] Juggler: The best part about my job is when I get to throw people away!",
+    "file": "world-juggler-19"
+  },
+  {
+    "line": "[1/1] Juggler: Dear Siegfried do I hate elves! They always think they're the best... And yet, perhaps I'll be able to strike a deal with them.",
+    "file": "world-juggler-20"
+  },
+  {
+    "line": "[3/5] Juggler: We're currently developping somethin' great. We're halfway done!",
+    "file": "world-juggler-21"
+  },
+  {
+    "line": "[4/5] Juggler: It's only one-way, though. Maybe one day it'll be better, but for now, it's way easier on us that way.",
+    "file": "world-juggler-22"
+  },
+  {
+    "line": "[2/5] Juggler: I present to you the Juggler's Tavern. And I'm the Juggler!",
+    "file": "world-juggler-23"
+  },
+  {
+    "line": "[3/5] Juggler: We're almost done with outshining the airbase and having our own methods of travel!",
+    "file": "world-juggler-24"
+  },
+  {
+    "line": "[5/5] Juggler: One last town... Come on, I swear we're not a joke! Why is diplomacy so hard?",
+    "file": "world-juggler-25"
+  },
+  {
+    "line": "[1/1] Juggler: Hm? Did ya want anythin'? Whatever it is, I don't have it! If you want more information, there's a sign over there.",
+    "file": "world-juggler-26"
+  },
+  {
     "line": "[1/1] ???: You dare enter these sewers, human? These pipes once hid the civilians of Ragni during raids... Now it just holds corpses.",
     "file": "decriptsewers-witherehead-1",
     "onPlayer": true
