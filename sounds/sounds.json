@@ -52548,5 +52548,33 @@
   {
     "line": "[2/2] Lusuco Citizen: But it'll be here again before you know it. Come back next December!",
     "file": "lusuco-lusucocitizen4-2"
+  },
+  {
+    "line": "[1/1] Maltic Citizen: That awful witch is causing so much trouble for the town. I hope someone finally kills her. This is the first Villager settlement in Wynn, look at it now.",
+    "file": "maltic-malticcitizen1-1"
+  },
+  {
+    "line": "[1/1] Maltic Citizen: By killing the witch, you've saved the town! Maybe the things we hear about Fruma aren't as bad as I thought.",
+    "file": "maltic-malticcitizen1-2"
+  },
+  {
+    "line": "[1/2] Maltic Citizen: At the northern side of Nivla Woods, there is a very dangerous cave.",
+    "file": "maltic-malticcitizen2-1"
+  },
+  {
+    "line": "[2/2] Maltic Citizen: It's filled with an unnaturally large nest of spiders. I wouldn't dare go in there.",
+    "file": "maltic-malticcitizen2-2"
+  },
+  {
+    "line": "[1/3] Maltic Citizen: Now that you have defeated the witch, where will your adventure take you next?",
+    "file": "maltic-malticcitizen2-3"
+  },
+  {
+    "line": "[2/3] Maltic Citizen: I think you might be just the person to tackle the nest of spiders in Nivla Woods.",
+    "file": "maltic-malticcitizen2-4"
+  },
+  {
+    "line": "[3/3] Maltic Citizen: Spiders have been hunting passersby and they seem to be bigger than normal.",
+    "file": "maltic-malticcitizen2-5"
   }
 ]
