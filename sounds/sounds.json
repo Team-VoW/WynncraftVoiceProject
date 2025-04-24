@@ -52728,5 +52728,17 @@
   {
     "line": "[3/3] Sauna Enjoyer: Feel free to come back whenever you'd like! It's good to relax those tense muscles every once in a while.",
     "file": "nesaak-saunaenjoyer-3"
+  },
+  {
+    "line": "[1/3] Ravine Villager: I wonder if me and my wife should've come here. I thought this secluded little hamlet would be peaceful, but the pigmen have been getting quite rowdy lately!",
+    "file": "ravinevillage-ravinevillager-1"
+  },
+  {
+    "line": "[2/3] Ravine Villager: I keep seeing the guards out by the gate fighting the blasted hamhocks. If we could just figure out where they're all coming from, we could put an end to it...",
+    "file": "ravinevillage-ravinevillager-2"
+  },
+  {
+    "line": "[3/3] Ravine Villager: But their brutish stature belies a vicious cunning! None of us can find where the raiders are all coming from, they must be hiding their base astoundingly!",
+    "file": "ravinevillage-ravinevillager-3"
   }
 ]
