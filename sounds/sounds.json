@@ -48221,7 +48221,7 @@
     "file": "world-juggler-7"
   },
   {
-    "line": "[1/1] Juggler: Ready? Well, that doesn't matter, here I go.",
+    "line": "[1/1] Juggler: Ready? Well, that doesn't matter, here I go!",
     "file": "world-juggler-8"
   },
   {
@@ -52239,5 +52239,55 @@
     "line": "[4/4] ????: This is your last chance, I'm telling you. Turn right back around the way you came, or I can't be held responsible for what happens next.",
     "file": "bossaltar-orangewybel-4",
     "onPlayer": true
-  }
+  },
+
+  {
+    "line": "[1/3] Alekin Citizen: Oh, you're one of those Ragni soldiers. If I can give some advice?",
+    "file": "alekinvillage-alekincitizen1-1"
+  },
+  {
+    "line": "[2/3] Alekin Citizen: You should pick up some items from the Accessory Merchant in town! They might really help you out.",
+    "file": "alekinvillage-alekincitizen1-2"
+  },
+  {
+    "line": "[3/3] Alekin Citizen: Normally you can only find accessories in rare cave loot, so a merchant like ours is actually a rarity.",
+    "file": "alekinvillage-alekincitizen1-3"
+  },
+  {
+    "line": "[1/3] Alekin Citizen: Did you know this forest was once the site of a gigantic corrupted siege?",
+    "file": "alekinvillage-alekincitizen2-1"
+  },
+  {
+    "line": "[2/3] Alekin Citizen: I don't remember all the details, but those watchtowers around the forest were used in those battles.",
+    "file": "alekinvillage-alekincitizen2-2"
+  },
+  {
+    "line": "[3/3] Alekin Citizen: Sure, they're empty now, but you should explore them and bone up on your history!",
+    "file": "alekinvillage-alekincitizen2-3"
+  },
+  {
+    "line": "[1/2] Alekin Citizen: That crazy Yahya... I don't know what he thinks he's up to, but I want no part of it!",
+    "file": "alekinvillage-alekincitizen3-1"
+  },
+  {
+    "line": "[2/2] Alekin Citizen: No sane man has an obsession like he does, and whatever is wrong with him I want it a hundred miles away from me!",
+    "file": "alekinvillage-alekincitizen3-2"
+  },
+  {
+    "line": "[1/4] Alekin Guard: Ah, hello there. Just taking a break and enjoying the view.",
+    "file": "alekinvillage-alekinguard-1"
+  },
+  {
+    "line": "[2/4] Alekin Guard: This view wouldn't exist if it weren't for Bob's efforts. There's a memorial to him in the forest, and you can just see the tip of it from where I'm standing.",
+    "file": "alekinvillage-alekinguard-2"
+  },
+  {
+    "line": "[3/4] Alekin Guard: I look out from here every day, over the forest, and remind myself what exactly I'm fighting to protect- why exactly I keep going.",
+    "file": "alekinvillage-alekinguard-3"
+  },
+  {
+    "line": "[4/4] Alekin Guard: You should remind yourself always of why you must fight on, and never lose hope.",
+    "file": "alekinvillage-alekinguard-4"
+  },
+
 ]
