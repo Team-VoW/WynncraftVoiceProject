@@ -52477,5 +52477,46 @@
   {
     "line": "[1/1] Detlas Soldier: Alright! Let me know if you change your mind!",
     "file": "detlas-detlassoldier2-15"
+  },
+  //Iboju Village
+  {
+    "line": "[1/2] Jungle Native: Our tribe's former shaman was sadly banished. He was practicing dark magic and curses. We believed he was a danger to us all.",
+    "file": "ibojuvillage-junglenative1-1"
+  },
+  {
+    "line": "[2/2] Jungle Native: We sealed him inside of a dungeon, but we believe he is preparing some sort of dark ritual. I fear that the seal will not hold.",
+    "file": "ibojuvillage-junglenative1-2"
+  },
+  {
+    "line": "[1/3] Jungle Native: This path leads into the Dernel Jungle. I am a gatherer of the village, but my job has recently become much harder.",
+    "file": "ibojuvillage-junglenative2-1"
+  },
+  {
+    "line": "[2/3] Jungle Native: A horde of fetishes has overtaken the cavern that a potent medicinal herb, the Aseado Leaf, grows in. We cannot enter anymore.",
+    "file": "ibojuvillage-junglenative2-2"
+  },
+  {
+    "line": "[3/3] Jungle Native: The cave is to the left, near a large tree and an old shaman of the other jungle tribe. I do hope they have not disturbed him...",
+    "file": "ibojuvillage-junglenative2-3"
+  },
+  {
+    "line": "[1/1] Iboju Shaman: Welcome, stranger, to our humble village.",
+    "file": "ibojuvillage-ibojushaman-1"
+  },
+  {
+    "line": "[1/4] Iboju Shaman: I heard news of what you have done for Gracen, and I must express my dearest thanks.",
+    "file": "ibojuvillage-ibojushaman-2"
+  },
+  {
+    "line": "[2/4] Iboju Shaman: You are truly one of us now, in spirit if not by blood, so I will allow you access to the charmcrafter's forge.",
+    "file": "ibojuvillage-ibojushaman-3"
+  },
+  {
+    "line": "[3/4] Iboju Shaman: Rare jewels in the Dernel Jungle have magical properties, which we can make powerful accessories from if you bring enough.",
+    "file": "ibojuvillage-ibojushaman-4"
+  },
+  {
+    "line": "[4/4] Iboju Shaman: While this is but a small reward, you've our eternal gratitude for aiding us such as you have.",
+    "file": "ibojuvillage-ibojushaman-5"
   }
 ]
