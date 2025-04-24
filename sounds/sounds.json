@@ -52289,5 +52289,44 @@
     "line": "[4/4] Alekin Guard: You should remind yourself always of why you must fight on, and never lose hope.",
     "file": "alekinvillage-alekinguard-4"
   },
-
+  {
+    "line": "[1/2] Almuj Citizen: Have you ever visited the mesa to the south of here? I don't blame you if you haven't.",
+    "file": "almuj-almujcitizen1-1"
+  },
+  {
+    "line": "[2/2] Almuj Citizen: That place is crawling with bandits. I even heard they have their own town...",
+    "file": "almuj-almujcitizen1-2"
+  },
+  {
+    "line": "[1/2] Almuj Citizen: All the scarabs in the desert seem to be coming from the large tomb at the eastern end of the desert.",
+    "file": "almuj-almujcitizen2-1"
+  },
+  {
+    "line": "[2/2] Almuj Citizen: Everyone thought it was sealed forever. I wonder what could possibly be inside...",
+    "file": "almuj-almujcitizen2-2"
+  },
+  {
+    "line": "[1/2] Almuj Citizen: Have you heard of the rare Shinesting Scorpion, adventurer? You might be interested in searching one out.",
+    "file": "almuj-almujcitizen3-1"
+  },
+  {
+    "line": "[2/2] Almuj Citizen: They're quite elusive, hiding in piles of sand, but rumour has it that great riches come to those that hunt them!",
+    "file": "almuj-almujcitizen3-2"
+  },
+  {
+    "line": "[1/2] Brank: How am I supposed to feed my family?",
+    "file": "almuj-brank-1"
+  },
+  {
+    "line": "[2/2] Brank: I really need a Craftmas miracle...",
+    "file": "almuj-brank-2"
+  },
+  {
+    "line": "[1/2] Brank: It's you again! Remember the Craftmas miracle I asked for?",
+    "file": "almuj-brank-3"
+  },
+  {
+    "line": "[2/2] Brank: It really happened, we got food!",
+    "file": "almuj-brank-4"
+  }
 ]
