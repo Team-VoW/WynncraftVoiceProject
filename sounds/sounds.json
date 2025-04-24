@@ -52360,5 +52360,122 @@
   {
     "line": "[2/2] Townsperson: I guess the winds changed because my eyebrows aren't moving back!",
     "file": "corruptedvillage-angrytownsperson2-4"
+  },
+  //Detlas
+  {
+    "line": "[1/1] Detlas Soldier: Hey there, recruit! You want a refresher on Enemy Spells?",
+    "file": "detlas-detlassoldier1-1"
+  },
+  {
+    "line": "[1/1] Detlas Soldier: What do you wanna hear about?",
+    "file": "detlas-detlassoldier1-2"
+  },
+  {
+    "line": "[1/3] Detlas Soldier: Well, just like you, some enemies can also use spells!",
+    "file": "detlas-detlassoldier1-3"
+  },
+  {
+    "line": "[2/3] Detlas Soldier: Knowing an enemies spells is a crucial step in taking it down. Getting surprised is not good on the battlefield!",
+    "file": "detlas-detlassoldier1-4"
+  },
+  {
+    "line": "[3/3] Detlas Soldier: There are many different types of enemy spells, so when you see a new one, take note of it, and hopefully you'll know what to do next time something tries it on you.",
+    "file": "detlas-detlassoldier1-5"
+  },
+  {
+    "line": "[1/4] Detlas Soldier: Sometimes, certain enemies will chain spells together. These are called Spell Combos.",
+    "file": "detlas-detlassoldier1-6"
+  },
+  {
+    "line": "[2/4] Detlas Soldier: In my experience, most spell combos are pretty simple. They'll jump around a few times, pull you in, breathe some fire, whatever.",
+    "file": "detlas-detlassoldier1-7"
+  },
+  {
+    "line": "[3/4] Detlas Soldier: However, sometimes an enemy will go all out, and chain together a whole bunch of spells. I refer to that as an Ultimate Spell Combo.",
+    "file": "detlas-detlassoldier1-8"
+  },
+  {
+    "line": "[4/4] Detlas Soldier: Usually, only really powerful enemies have those, so take special care to look out for them.",
+    "file": "detlas-detlassoldier1-9"
+  },
+  {
+    "line": "[1/4] Detlas Soldier: Telling when a spell is coming is real easy. Just look for the white particle rings around the enemy, and keep an ear out for a loud spell sound.",
+    "file": "detlas-detlassoldier1-10"
+  },
+  {
+    "line": "[2/4] Detlas Soldier: When that happens, it means a spell is coming in just a couple seconds, so get ready!",
+    "file": "detlas-detlassoldier1-11"
+  },
+  {
+    "line": "[3/4] Detlas Soldier: You can usually tell when an enemy is preparing a Spell Combo, because there will be much more particles and noises than a single spell.",
+    "file": "detlas-detlassoldier1-12"
+  },
+  {
+    "line": "[4/4] Detlas Soldier: Keep a sharp eye, and get ready to dodge out of the way when you see one coming.",
+    "file": "detlas-detlassoldier1-13"
+  },
+  {
+    "line": "[1/1] Detlas Soldier: Alright! Let me know if you change your mind!",
+    "file": "detlas-detlassoldier1-14"
+  },
+  {
+    "line": "[1/1] Detlas Soldier: Hey there, recruit! You want a refresher on Elements?",
+    "file": "detlas-detlassoldier2-1"
+  },
+  {
+    "line": "[1/1] Detlas Soldier: What do you wanna hear about?",
+    "file": "detlas-detlassoldier2-2"
+  },
+  {
+    "line": "[1/4] Detlas Soldier: Elements are different types of damage and defenses, and are a major factor in combat.",
+    "file": "detlas-detlassoldier2-3"
+  },
+  {
+    "line": "[2/4] Detlas Soldier: Many weapons and armor come with elemental attributes, and they can make a great deal of difference when facing an elemental enemy!",
+    "file": "detlas-detlassoldier2-4"
+  },
+  {
+    "line": "[3/4] Detlas Soldier: The elements are ✹ Fire, ❋ Air, ❉ Water, ✤ Earth, and ✦ Thunder.",
+    "file": "detlas-detlassoldier2-5"
+  },
+  {
+    "line": "[4/4] Detlas Soldier: Many enemies are effected differently by elements, so be mindful and take note!",
+    "file": "detlas-detlassoldier2-6"
+  },
+  {
+    "line": "[1/4] Detlas Soldier: When you have elemental damage on your weapon, that means you will deal that amount of damage of that element.",
+    "file": "detlas-detlassoldier2-7"
+  },
+  {
+    "line": "[2/4] Detlas Soldier: Other gear can increase that damage, and if your enemy is weak to it, it will be increased further!",
+    "file": "detlas-detlassoldier2-8"
+  },
+  {
+    "line": "[3/4] Detlas Soldier: In turn, you can imagine how elemental defenses work. The more you have, the less you'll take from enemies that deal elemental damage.",
+    "file": "detlas-detlassoldier2-9"
+  },
+  {
+    "line": "[4/4] Detlas Soldier: You can also become weak to certain elements, just like enemies! Keep your weaknesses in mind when fighting, or you may get surprised!",
+    "file": "detlas-detlassoldier2-10"
+  },
+  {
+    "line": "[1/4] Detlas Soldier: Many enemies you face will have elemental attributes, both offensively and defensively.",
+    "file": "detlas-detlassoldier2-11"
+  },
+  {
+    "line": "[2/4] Detlas Soldier: Take note of the symbols above their head, that will inform you of their elements.",
+    "file": "detlas-detlassoldier2-12"
+  },
+  {
+    "line": "[3/4] Detlas Soldier: For example, if an enemy has ✦Weak ❉Def, that means they will take extra ✦ Thunder damage and less ❉ Water damage.",
+    "file": "detlas-detlassoldier2-13"
+  },
+  {
+    "line": "[4/4] Detlas Soldier: And if they had ✤Dam, that means they would partly deal ✤ Earth damage.",
+    "file": "detlas-detlassoldier2-14"
+  },
+  {
+    "line": "[1/1] Detlas Soldier: Alright! Let me know if you change your mind!",
+    "file": "detlas-detlassoldier2-15"
   }
 ]
