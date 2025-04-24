@@ -52577,7 +52577,6 @@
     "line": "[3/3] Maltic Citizen: Spiders have been hunting passersby and they seem to be bigger than normal.",
     "file": "maltic-malticcitizen2-5"
   },
-  //Mesa
   {
     "line": "[1/3] Rymek Citizen: Heheheh. Heya buddy. I wouldn't come in here 'less you've got a weapon handy...and plenty of gold in your pockets.",
     "file": "mesa-rymekcitizen1-1"
@@ -52653,5 +52652,45 @@
   {
     "line": "[2/2] Lift Mechanic: There you go. Come back any time!",
     "file": "mesa-liftmechanic-6"
+  },
+  {
+    "line": "[1/2] Nemract Citizen: Ah, a new visitor to Nemract, what a rare sight. Did you hear what happened to Sayleros' brother?",
+    "file": "nemract-nemractcitizen1-1"
+  },
+  {
+    "line": "[2/2] Nemract Citizen: He died a few weeks ago. I wonder if Sayleros is doing okay, last I heard he was still in Detlas... I wonder if he knows.",
+    "file": "nemract-nemractcitizen1-2"
+  },
+  {
+    "line": "[1/2] Nemract Citizen: There's a rumor going around town that last night, someone robbed the crypt beneath the church.",
+    "file": "nemract-nemractcitizen1-3"
+  },
+  {
+    "line": "[2/2] Nemract Citizen: Apparently they robbed the grave of Sayleros' brother, how low do you have to be...",
+    "file": "nemract-nemractcitizen1-4"
+  },
+  {
+    "line": "[1/3] Nemract Citizen: A thousand years ago, just south of here, Ancient Nemract was once a shining Human city. Now, it is only ruins.",
+    "file": "nemract-nemractcitizen2-1"
+  },
+  {
+    "line": "[2/3] Nemract Citizen: When the corruption first broke out, undead swarmed the city. It was the first town to be destroyed by the undead.",
+    "file": "nemract-nemractcitizen2-2"
+  },
+  {
+    "line": "[3/3] Nemract Citizen: I've heard that zombies tend to gather near a large tree in the fallen city. Why are they so attracted to it, I wonder? Maybe we should ask Ragnar to investigate.",
+    "file": "nemract-nemractcitizen2-3"
+  },
+  {
+    "line": "[1/3] Nemract Citizen: You looking to sail across the ocean? Well, you came to the perfect place, Nemract is the best place to buy a boat.",
+    "file": "nemract-nemractcitizen3-1"
+  },
+  {
+    "line": "[2/3] Nemract Citizen: Here's some advice for when you go on your first voyage: look closely at the sand beneath the water.",
+    "file": "nemract-nemractcitizen3-2"
+  },
+  {
+    "line": "[3/3] Nemract Citizen: It forms a trail, known to most sailors as the Underwater Route. It leads to the island of Selchar, sister city to Detlas.",
+    "file": "nemract-nemractcitizen3-3"
   }
 ]
