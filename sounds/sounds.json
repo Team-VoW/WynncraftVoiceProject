@@ -52740,5 +52740,53 @@
   {
     "line": "[3/3] Ravine Villager: But their brutish stature belies a vicious cunning! None of us can find where the raiders are all coming from, they must be hiding their base astoundingly!",
     "file": "ravinevillage-ravinevillager-3"
+  },
+  {
+    "line": "[1/3] Troms Citizen: Have you visited the prestigious Temple of Legends yet, adventurer?",
+    "file": "troms-tromscitizen1-1"
+  },
+  {
+    "line": "[2/3] Troms Citizen: I've heard all of the greatest heroes from across the province all go to the temple to train to become as good as Bob.",
+    "file": "troms-tromscitizen1-2"
+  },
+  {
+    "line": "[3/3] Troms Citizen: It's hard to gain access, though. There are many trials that you must go through in order to enter.",
+    "file": "troms-tromscitizen1-3"
+  },
+  {
+    "line": "[1/1] Troms Citizen: You've gained access to the Temple of Legends? You must truly be a powerful hero!",
+    "file": "troms-tromscitizen1-4"
+  },
+  {
+    "line": "[1/2] Troms Citizen: Have you heard of the Dernel Jungle? It lies to the south. The ruins of ancient civilizations scatter the lands.",
+    "file": "troms-tromscitizen2-1"
+  },
+  {
+    "line": "[2/2] Troms Citizen: No one lives there anymore, aside from some old tribes and someone who thought they should live in a mansion there.",
+    "file": "troms-tromscitizen2-2"
+  },
+  {
+    "line": "[1/3] Troms Citizen: There's a village with a native tribe elsewhere in the jungle.",
+    "file": "troms-tromscitizen3-1"
+  },
+  {
+    "line": "[2/3] Troms Citizen: I've heard rumors that their village was once home to a great library or temple of some kind.",
+    "file": "troms-tromscitizen3-2"
+  },
+  {
+    "line": "[3/3] Troms Citizen: Supposedly, inside this temple, there was some sort of powerful construct to test the skill of warriors.",
+    "file": "troms-tromscitizen3-3"
+  },
+  {
+    "line": "[1/3] Troms Citizen: Have you heard tales about the great General Skien? Many years ago, he led the Tromsian Army into battle.",
+    "file": "troms-tromscitizen4-1"
+  },
+  {
+    "line": "[2/3] Troms Citizen: But what is most famous about him is not stories of victory, but rather something much more mysterious.",
+    "file": "troms-tromscitizen4-2"
+  },
+  {
+    "line": "[3/3] Troms Citizen: One day, Skien started acting very strange, and he vanished along with the entire Tromsian Army.",
+    "file": "troms-tromscitizen4-3"
   }
 ]
