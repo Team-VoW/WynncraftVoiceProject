@@ -52361,7 +52361,6 @@
     "line": "[2/2] Townsperson: I guess the winds changed because my eyebrows aren't moving back!",
     "file": "corruptedvillage-angrytownsperson2-4"
   },
-  //Detlas
   {
     "line": "[1/1] Detlas Soldier: Hey there, recruit! You want a refresher on Enemy Spells?",
     "file": "detlas-detlassoldier1-1"
@@ -52478,7 +52477,6 @@
     "line": "[1/1] Detlas Soldier: Alright! Let me know if you change your mind!",
     "file": "detlas-detlassoldier2-15"
   },
-  //Iboju Village
   {
     "line": "[1/2] Jungle Native: Our tribe's former shaman was sadly banished. He was practicing dark magic and curses. We believed he was a danger to us all.",
     "file": "ibojuvillage-junglenative1-1"
@@ -52518,5 +52516,37 @@
   {
     "line": "[4/4] Iboju Shaman: While this is but a small reward, you've our eternal gratitude for aiding us such as you have.",
     "file": "ibojuvillage-ibojushaman-5"
+  },
+  {
+    "line": "[1/2] Lusuco Citizen: The small ice wall in the center of the town has always struck me as odd.",
+    "file": "lusuco-lusucocitizen1-1"
+  },
+  {
+    "line": "[2/2] Lusuco Citizen: One day, as I was walking past it, I could have sworn I saw something behind it...",
+    "file": "lusuco-lusucocitizen1-2"
+  },
+  {
+    "line": "[1/2] Lusuco Citizen: Sometimes at night, I hear strange noises. They sound almost...mechanical. I wonder what could be the source of these sounds...",
+    "file": "lusuco-lusucocitizen2-1"
+  },
+  {
+    "line": "[2/2] Lusuco Citizen: They've been getting louder recently, as a matter of fact. It's a little worrying.",
+    "file": "lusuco-lusucocitizen2-2"
+  },
+  {
+    "line": "[1/2] Lusuco Citizen: Hey! I've heard about you!",
+    "file": "lusuco-lusucocitizen3-1"
+  },
+  {
+    "line": "[2/2] Lusuco Citizen: Have you heard of Pigpuck? It's our national sport!",
+    "file": "lusuco-lusucocitizen3-2"
+  },
+  {
+    "line": "[1/2] Lusuco Citizen: Hello! Are you looking for the Wynnter Fair? Well, sadly, it's already left town.",
+    "file": "lusuco-lusucocitizen4-1"
+  },
+  {
+    "line": "[2/2] Lusuco Citizen: But it'll be here again before you know it. Come back next December!",
+    "file": "lusuco-lusucocitizen4-2"
   }
 ]
