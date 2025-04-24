@@ -52692,5 +52692,41 @@
   {
     "line": "[3/3] Nemract Citizen: It forms a trail, known to most sailors as the Underwater Route. It leads to the island of Selchar, sister city to Detlas.",
     "file": "nemract-nemractcitizen3-3"
+  },
+  {
+    "line": "[1/2] Nesaak Citizen: The famous House of Twain lies to the south, in the area where the snow has melted.",
+    "file": "nesaak-nesaakcitizen1-1"
+  },
+  {
+    "line": "[2/2] Nesaak Citizen: The mansion has a deep history with this land. The Twains used to fight the corruption before the likes of Bob were around, although people seem to forget about them.",
+    "file": "nesaak-nesaakcitizen1-2"
+  },
+  {
+    "line": "[1/2] Nesaak Citizen: You'll never believe the fairy tales Twendle has been telling! He just came through town, telling everyone about a journal he found.",
+    "file": "nesaak-nesaakcitizen1-3"
+  },
+  {
+    "line": "[2/2] Nesaak Citizen: He's pretending that he knows everything about the House of Twain, but the mansion has so many secrets!",
+    "file": "nesaak-nesaakcitizen1-4"
+  },
+  {
+    "line": "[1/2] Nesaak Citizen: Have you been to the frozen cave to the northeast? There's some sort of mysterious hideout that everyone's afraid to enter.",
+    "file": "nesaak-nesaakcitizen2-1"
+  },
+  {
+    "line": "[2/2] Nesaak Citizen: Nesaak was not always frozen, as we'll probably never forget. But apparently the guy who did it is preserved in that hideout.",
+    "file": "nesaak-nesaakcitizen2-2"
+  },
+  {
+    "line": "[1/3] Sauna Enjoyer: Moikka, soldier! You look a bit stressed, what's wrong?",
+    "file": "nesaak-saunaenjoyer-1"
+  },
+  {
+    "line": "[2/3] Sauna Enjoyer: ...Whatever it is, don't let it get the best of you. How about you join me for a while and you'll see that something as simple as a regular ol' sauna can work wonders!",
+    "file": "nesaak-saunaenjoyer-2"
+  },
+  {
+    "line": "[3/3] Sauna Enjoyer: Feel free to come back whenever you'd like! It's good to relax those tense muscles every once in a while.",
+    "file": "nesaak-saunaenjoyer-3"
   }
 ]
