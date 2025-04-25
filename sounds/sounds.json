@@ -9458,7 +9458,7 @@
     "file": "starthief-agent-9"
   },
   {
-    "line": "[1/9] Telvu: Ah, a member of the Ragni army. We're trying to gain entry to this frozen barrow. We could use your aid.",
+    "line": "[1/9] Telvu: Ah, a member of the Ragni army. We're trying to learn more of this frozen barrow. We could use your aid.",
     "file": "fateofthefallen-telvu-1"
   },
   {
@@ -9478,11 +9478,11 @@
     "file": "fateofthefallen-telvu-5"
   },
   {
-    "line": "[6/9] Telvu: We need to find out why so we can reverse this spell. Presumably, the source of that spell's magic would be within here.",
+    "line": "[6/9] Telvu: We need to find out why so we can reverse this spell. Presumably, the source of that spell's magic would lie within the barrow... but we don't wnat to go in empty-handed.",
     "file": "fateofthefallen-telvu-6"
   },
   {
-    "line": "[7/9] Telvu: As such...have you heard of a place called Time Valley? We could use it to go back in time, to try to learn more about this barrier.",
+    "line": "[7/9] Telvu: As such...have you heard of a place called Time Valley? We could use it to go back in time, to try to learn more about Theorick's actions.",
     "file": "fateofthefallen-telvu-7"
   },
   {
@@ -9494,20 +9494,32 @@
     "file": "fateofthefallen-telvu-9"
   },
   {
-    "line": "[1/5] Telvu: Aha, quick job. I see you've got the wand. Must've needed a sharp tongue to get the bankers to give it up.",
+    "line": "[1/2] Telvu: Did you listen?",
     "file": "fateofthefallen-telvu-10"
   },
   {
-    "line": "[2/5] Telvu: Now, it is a long walk to Time Valley. Needn't take that walk, though, as I can teleport you there. Hopefully.",
+    "line": "[2/2] Telvu: If you don't remember what I said, I remember you writing something in your book. Try looking there.",
     "file": "fateofthefallen-telvu-11"
   },
   {
-    "line": "[3/5] Telvu: Once you're there, enter the Temple of Time. You should know what to do once you are there. Careful dealing with time travel, friend... No idea what you might find.",
+    "line": "[1/5] Telvu: Aha, quick job. I see you've got the wand. Must've needed a sharp tongue to get the bankers to give it up.",
     "file": "fateofthefallen-telvu-12"
   },
   {
-    "line": "[5/5] Telvu: Should anything go wrong, I'll stay here to teleport you back to the temple.",
+    "line": "[2/5] Telvu: Now, it is a long walk to Time Valley. Needn't take that walk, though, as I can teleport you there. Hopefully.",
     "file": "fateofthefallen-telvu-13"
+  },
+  {
+    "line": "[3/5] Telvu: Once you're there, enter the Temple of Time. You should know what to do once you are there. Careful dealing with time travel, friend... No idea what you might find.",
+    "file": "fateofthefallen-telvu-14"
+  },
+  {
+    "line": "[4/5] Telvu: Just step into the portal.",
+    "file": "fateofthefallen-telvu-15"
+  },
+  {
+    "line": "[5/5] Telvu: Should anything go wrong, I'll stay here to teleport you back to the temple.",
+    "file": "fateofthefallen-telvu-16"
   },
   {
     "line": "[1/7] Psern: What the...",
@@ -9671,39 +9683,43 @@
   },
   {
     "line": "[1/9] Telvu: You must have succeeded, or you would be yet in the memory of the past. I can feel some potent magic on you.",
-    "file": "fateofthefallen-telvu-14"
-  },
-  {
-    "line": "[2/9] Telvu: So, you met Theorick? He was always said to have fallen from heroism after the great freezing.",
-    "file": "fateofthefallen-telvu-15"
-  },
-  {
-    "line": "[3/9] Telvu: Hm...wait, this flame...did you receive it from the Temple of Time? How did...what is...this is impossible, given what we know!",
-    "file": "fateofthefallen-telvu-16"
-  },
-  {
-    "line": "[4/9] Telvu: It unfreezes the entrance, you say...and...Th-Theorick...gave...he...what...? This raises so many more questions! Unless there was some other force at play...",
     "file": "fateofthefallen-telvu-17"
   },
   {
-    "line": "[5/9] Telvu: Well, ruminating on that will not help. Were you able to figure out why it was Theorick froze this place, at least?",
+    "line": "[2/9] Telvu: So, you met Theorick? He was always said to have fallen from heroism after the great freezing.",
     "file": "fateofthefallen-telvu-18"
   },
   {
-    "line": "[6/9] Telvu: Wha...so many revelations...ice magic staves off corruption...? It is true that this place has seen less corrupted threats than other places in the province...",
+    "line": "[3/9] Telvu: Were you able to figure out why it was he froze this place, at least?",
     "file": "fateofthefallen-telvu-19"
   },
   {
-    "line": "[7/9] Telvu: Dear gods... We've had it all wrong this whole time... This was to protect everyone...but surely he would have told someone his intentions if he was of that sound a mind!",
+    "line": "[4/9] Telvu: Wha... so many revelations... ice magic staves off corruption...? It is true that this place has seen less corrupted threats than other places in the province...",
     "file": "fateofthefallen-telvu-20"
   },
   {
-    "line": "[8/9] Telvu: All this time, spent buried alive, wrestling with the corruption. The thought horrifies you, as well, judging by your face. Killing him would be a mercy.",
+    "line": "[5/9] Telvu: Dear gods... We've had it all wrong this whole time... It was to protect everyone... but surely he would have told someone his intentions if he was of that sound a mind!",
     "file": "fateofthefallen-telvu-21"
   },
   {
-    "line": "[9/9] Telvu: Here. Use this. It may help protect you within the Ice Barrows... Please, soldier. Be Theorick's guardian angel. Free him from this torment.",
+    "line": "[6/9] Telvu: All this time, spent buried alive, wrestling with the corruption. The thought horrifies you, as well, judging by your face. Killing him would be a mercy.",
     "file": "fateofthefallen-telvu-22"
+  },
+  {
+    "line": "[7/9] Telvu: Here. Use this. It may help protect you within the Ice Barrows... Please, soldier. Be Theorick's guardian angel. Free him from this torment.",
+    "file": "fateofthefallen-telvu-23"
+  },
+  {
+    "line": "[1/1] Telvu: It will be dangerous...perhaps your toughest fight yet...but it must be done. If you need time to prepare, do so. But you must end Theorick's pain.",
+    "file": "fateofthefallen-telvu-24"
+  },
+  {
+    "line": "[1/2] Telvu: I'm trying to find a way to undo the curse blocking this entrance.",
+    "file": "fateofthefallen-telvu-25"
+  },
+  {
+    "line": "[2/2] Telvu: You can come help me when you're level 43.",
+    "file": "fateofthefallen-telvu-26"
   },
   {
     "line": "[1/3] Fredris: I’m having trouble with the fish in our lake recently and I am sure the problem lies within the lake itself.",
