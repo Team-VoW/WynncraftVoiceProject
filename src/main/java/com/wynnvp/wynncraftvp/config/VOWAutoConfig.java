@@ -23,13 +23,13 @@ public class VOWAutoConfig implements ConfigData {
     public int tripleQuestionMarkInessentiel = 1000;
 
     @ConfigEntry.Gui.Excluded
-    public String azureBlobLink = "https://voicesofwynn.blob.core.windows.net/audio/sounds/";
+    public String azureBlobLink = "http://voicesofwynn.blob.core.windows.net/audio/sounds/";
 
     @ConfigEntry.Gui.Excluded
     public List<String> urls = List.of(
-            "https://voicesofwynn.blob.core.windows.net/audio/sounds/",
-            "https://voicesofwynnus.blob.core.windows.net/audio/sounds/",
-            "https://voicesofwynnasia.blob.core.windows.net/audio/sounds/");
+            "http://voicesofwynn.blob.core.windows.net/audio/sounds/",
+            "http://voicesofwynnus.blob.core.windows.net/audio/sounds/",
+            "http://voicesofwynnasia.blob.core.windows.net/audio/sounds/");
 
     @ConfigEntry.Gui.Excluded
     public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5;
@@ -73,7 +73,14 @@ public class VOWAutoConfig implements ConfigData {
 
         @ConfigEntry.Gui.Tooltip
         public boolean logPlayingInformation = false;
+
+        @ConfigEntry.Gui.Tooltip
+        public boolean useCustomAudioPath = false;
+
+        @ConfigEntry.Gui.Tooltip
+        public String customAudioPath = "";
     }
+
 
     public boolean isLogDialogueLines() {
         return debugAndLogs.logDialogueLines;
@@ -85,6 +92,14 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isLogPlayingInformation() {
         return debugAndLogs.logPlayingInformation;
+    }
+
+    public boolean isUseCustomAudioPath() {
+        return debugAndLogs.useCustomAudioPath;
+    }
+
+    public String getCustomAudioPath() {
+        return debugAndLogs.customAudioPath;
     }
 
     public boolean isRemoveVillagerSounds() {
