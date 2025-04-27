@@ -342,7 +342,15 @@
     "file": "kingsrecruit-aledar-26"
   },
   {
+    "line": "[1/5] Aledar: We... we made it! We really made it! Sure was a close call at the end.",
+    "file": "kingsrecruit-aledar-26"
+  },
+  {
     "line": "[2/6] Tasim: ... Still think those corrupted don't stand a chance against you?",
+    "file": "kingsrecruit-tasim-31"
+  },
+  {
+    "line": "[2/5] Tasim: ... Still think those corrupted don't stand a chance against you?",
     "file": "kingsrecruit-tasim-31"
   },
   {
@@ -354,12 +362,24 @@
     "file": "kingsrecruit-tasim-32"
   },
   {
+    "line": "[5/5] Tasim: And a blacksmith too, you can sell your old helmet there for some emeralds.",
+    "file": "kingsrecruit-tasim-32"
+  },
+  {
     "line": "[5/6] Tasim: Here it is, the end of our journey.",
     "file": "kingsrecruit-tasim-33"
   },
   {
     "line": "[6/6] Aledar: The end of one adventure, but the beginning of another! Let's go inside and talk to the King!",
     "file": "kingsrecruit-aledar-28"
+  },
+  {
+    "line": "[3/5] Aledar: Ha ha. Very funny.",
+    "file": "kingsrecruit-aledar-29"
+  },
+  {
+    "line": "[4/5] Aledar: Ah, soldier, there seems to be an identifier here for you to identify that rare helmet.",
+    "file": "kingsrecruit-aledar-30"
   },
   {
     "line": "[1/1] Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.",
