@@ -1,3 +1,56 @@
+## [1.10.7](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.6...v1.10.7) (2025-04-27)
+
+
+### New Features
+
+* Added 144 lines related to the Qira Hive, including many from the Qira and Gale battles, as well as numerous lines form NPCs across the world that mention the Qira Hive. ([bd68923](https://github.com/Team-VoW/WynncraftVoiceProject/commit/bd68923cc5e6da94c04015e72dfc027cc9341120))
+* Added a debug setting to change the Path of where the audio is fetched from ([f3160a5](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f3160a5cec26df550872eee0ac50f956c7daf3d4))
+* Added Aledar lines for Kings Recruit ([4fbfc52](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4fbfc52542b5376ffccdc8c09ad13fd89508aad1))
+* Added Alekin Village citizens ([3fb6226](https://github.com/Team-VoW/WynncraftVoiceProject/commit/3fb622614836c7e66cc5bb24558eb8ac2bf2c98a))
+* Added Almuj citizens ([93a5fba](https://github.com/Team-VoW/WynncraftVoiceProject/commit/93a5fba5f8a71d74e3732430c21d1291ddaea800))
+* Added Corrupted Village citizens ([9308459](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9308459f7aca8d4d9d5480bb0e28d8c7543a64cb))
+* Added Detlas citizens ([7458db1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/7458db19aaa77e32758a76095f4d451c7cc2c7c4))
+* Added Iboju Village citizens ([adc4c55](https://github.com/Team-VoW/WynncraftVoiceProject/commit/adc4c554baa0ba911a8e52f2b05d183df6ce84b4))
+* Added lines for the juggler ([4bf8d51](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4bf8d5101111477bb86ee0566bc55fed253c617a))
+* Added Lusuco citizens ([a0c5fd3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a0c5fd3033b110c0141b6cfdf3d0a39d7e5d01b6))
+* Added Maltic citizens ([8595e03](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8595e034a4b98243c164e15e3ff11b593a23bf1d))
+* Added Mesa citizens and Lift mechanic ([0297880](https://github.com/Team-VoW/WynncraftVoiceProject/commit/0297880e1e92e29fdac4db034f495d3d03db81d1))
+* Added missing lines from the tutorial ([a8c6536](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a8c6536bf01f6f1bb57fbd529a8efd5f84eeaa47))
+* Added Nemract citizens ([757f962](https://github.com/Team-VoW/WynncraftVoiceProject/commit/757f96265a7fecea6dfe014eb9cb33f5a9062d07))
+* Added Nesaak citizens and Sauna Enjoyer ([d021fb2](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d021fb22f46228fdc68bad3b0f92664dfeefb8e0))
+* Added new "A Sandy Scandal" quest ([0cd5fc3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/0cd5fc39ffe8b997507f5b6f6ffb48e1c31f591b))
+* Added new Cook Assistant quest ([d71e85a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d71e85acb7d9a09fceddb57e6a74f5c7081715a0))
+* Added new Fate of the fallen Telvu ([2029ba5](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2029ba504f867562f319c32a6e926e081eadc6ac))
+* Added new Kings Recruit (Still missing new Aledar voice acting) ([4c65f7b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4c65f7b3eda0ef388b9f3ed6253ec27d15730041))
+* Added new lines from Private Cob in arachnids ascent ([87a7135](https://github.com/Team-VoW/WynncraftVoiceProject/commit/87a7135d8e7f1ec3c8f1241744561c7cab4ae90f))
+* Added new wrath of the mummy ([a276ff2](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a276ff261003cb564ba5a88c55b6c00d78068a5e))
+* Added Ravine Village villager ([da1b502](https://github.com/Team-VoW/WynncraftVoiceProject/commit/da1b5027422efa67a59edebf8bd16a4791228e92))
+* Added the new "The Mercenary" quest ([fdf6084](https://github.com/Team-VoW/WynncraftVoiceProject/commit/fdf608454971cf7ffe0829718a798e14c8c8d5b8))
+* Added Troms citizens ([ae8872b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ae8872b3dec0308cb4ce01c3cb60a82ecc943899))
+* Implemented new tunnel trouble lines from miner linton ([770c488](https://github.com/Team-VoW/WynncraftVoiceProject/commit/770c488df47bee083dd65181c2a51b5a5a037e39))
+
+
+### Bug Fixes
+
+* Changed to using http for audio streaming to possible decrease delay ([cd1c66a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cd1c66a16f9031cdb502b6b860f1d617cb9102fa))
+* Changed update notification message to not include any info about the installer ([4debd86](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4debd864176394c131930e0fdbe584569203a118))
+* Fixed 4 not playing lines in "The Mercenary" and fixed Lintons lines being offset by one ([e267d55](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e267d55d5ae506540746dac23733063bd5598b04))
+* Fixed a few lines not playing in a Sandy Scandal ([2616a66](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2616a66277d45fb8e69f3a246a5bbc4f911b60dd))
+* Fixed two lines playing wrong audio and 3 lines not playing in Kings Recruit ([c230008](https://github.com/Team-VoW/WynncraftVoiceProject/commit/c230008e84d4742f25067a1b3b1482f5a586190d))
+* Re-fetch the sounds.json file in case it was deleted. ([8d2ab49](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8d2ab499bd7369e327382fda2afdf337b1de959d))
+* Removed old unused Ragon voice acting from old Elemental Exercise ([943d372](https://github.com/Team-VoW/WynncraftVoiceProject/commit/943d37262ed2a2f98f55a41b6c7cba332f33a577))
+
+
+### Miscellaneous Chores
+
+* Added a file checker script to make sure all files are correctly present and registered ([6337944](https://github.com/Team-VoW/WynncraftVoiceProject/commit/633794426115185a900222e13d9b4abc1904b99b))
+* Synced bundled JSON ([22eb07e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/22eb07eff5fddd32b6bd72582ffaf01edc7b5e9d))
+
+
+### Code Refactoring
+
+* Refactored AudioPlayer to use HttpRequest and send the players a message about enable download sounds if their playback keeps on failing ([1fe7ad7](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1fe7ad7bedc83bdc0f3b02ace7558a8820acd2d7))
+
 ## [1.10.6](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.5...v1.10.6) (2025-03-06)
 
 
@@ -29,6 +82,7 @@
 * Added different sounds.json which is used for the version on azure. Contains ALL seaskipper lines we are aware of. ([c1823c3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/c1823c3176e5a09f5001c99634327aa3527530b3))
 * Correctly added all new sound info to the sounds.json that goes on azure ([ca7186d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ca7186d0334addcd065f5f4f054beccca5b91dfb))
 * Moved the sounds.json file into the sounds folder ([d2cdbdd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d2cdbdd6bae1b257378fc48cb0b72c82b0513ed4))
+* **release:** v1.10.6 [skip ci] ([e941ea1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e941ea18013087d4b47fd4edf513dd4b6b62a5b7))
 * Removed some accidental added stopSounds lines with no file which where added to the normal sounds.json and not the new one ([ba4bc45](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ba4bc457481cd3c3ddac86b5231969ea646d4ac3))
 
 ## [1.10.5](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.4...v1.10.5) (2025-03-02)
@@ -91,17 +145,4 @@
 * Added log messages that say which files failed to download ([9f8af19](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9f8af1915f02fbcac4d005ec4ed059a6fd2de33f))
 * **release:** v1.10.3 [skip ci] ([b71174d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b71174dcf027df0cdc20507985b8a34ab3e2a350))
 * Updated game version in release pipeline ([8de90cf](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8de90cfd65ad14799038f81424785fb53f561aa0))
-
-## [1.10.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.1...v1.10.2) (2025-01-26)
-
-
-### New Features
-
-* If any audio is not downloaded yet and it's trying to be played it will be streamed. ([0607ea7](https://github.com/Team-VoW/WynncraftVoiceProject/commit/0607ea7b89883ea18f86a0724097cba1e876b370))
-* Upgraded to Minecraft version 1.21.4 ([0513b93](https://github.com/Team-VoW/WynncraftVoiceProject/commit/0513b93b831187a92606c9df67f423da07721d6b))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.10.2 [skip ci] ([457be8a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/457be8a1a15baec879c6e4233dfde7fe2561a500))
 
