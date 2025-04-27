@@ -73,7 +73,14 @@ public class VOWAutoConfig implements ConfigData {
 
         @ConfigEntry.Gui.Tooltip
         public boolean logPlayingInformation = false;
+
+        @ConfigEntry.Gui.Tooltip
+        public boolean useCustomAudioPath = false;
+
+        @ConfigEntry.Gui.Tooltip
+        public String customAudioPath = "";
     }
+
 
     public boolean isLogDialogueLines() {
         return debugAndLogs.logDialogueLines;
@@ -85,6 +92,14 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isLogPlayingInformation() {
         return debugAndLogs.logPlayingInformation;
+    }
+
+    public boolean isUseCustomAudioPath() {
+        return debugAndLogs.useCustomAudioPath;
+    }
+
+    public String getCustomAudioPath() {
+        return debugAndLogs.customAudioPath;
     }
 
     public boolean isRemoveVillagerSounds() {

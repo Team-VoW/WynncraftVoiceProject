@@ -63,6 +63,11 @@ public class AudioPlayer {
         String audioFileName = soundObject.getId();
         Path audioFilePath = Paths.get(AUDIO_FOLDER, audioFileName + ".ogg");
 
+        if (ModCore.config.isUseCustomAudioPath()){
+            playFromCustomPath(audioFileName, soundObject);
+            return;
+        }
+
         if (ModCore.config.downloadSounds && audioFilePath.toFile().exists()) {
             playLocalFile(audioFilePath, soundObject);
             return;
@@ -73,6 +78,38 @@ public class AudioPlayer {
 
     private void playLocalFile(Path audioFilePath, SoundObject soundObject) {
         playAudioFile(audioFilePath, soundObject);
+    }
+
+    private void playFromCustomPath(String audioFileName, SoundObject soundObject) {
+        String customPath = ModCore.config.getCustomAudioPath();
+        boolean isURL = customPath.startsWith("http");
+
+        if (isURL) {
+            CompletableFuture.runAsync(() -> {
+
+                ByteBuffer remoteAudioData = null;
+                try {
+                    remoteAudioData = fetchRemoteAudio(customPath + audioFileName + ".ogg");
+                } catch (IOException | InterruptedException e) {
+                    Utils.sendMessage(
+                            "Failed to fetch remote audio file: " + customPath + audioFileName
+                                    + ". You are using a custom audio path. Please check your settings if this is an accident.");
+                }
+                if (remoteAudioData != null) {
+                    playAudioBuffer(remoteAudioData, soundObject);
+                }
+            });
+            return;
+        }
+
+        Path customAudioPath = Paths.get(customPath, audioFileName + ".ogg");
+        if (customAudioPath.toFile().exists()) {
+            playLocalFile(customAudioPath, soundObject);
+        } else {
+            Utils.sendMessage(
+                    "Failed to load custom audio file: " + customAudioPath.toString()
+                            + ". Please check your settings. You are using a custom audio path.");
+        }
     }
 
     private void playRemoteAudio(String audioFileName, SoundObject soundObject) {
