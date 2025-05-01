@@ -6434,6 +6434,10 @@
     "file": "themercenary-militaryscout-3"
   },
   {
+    "line": "[3/7] Military Scout: To put it bluntly... we've run into a predicament. Almuj's standing army has been taken captive, and the desert barracks overtaken.",
+    "file": "themercenary-militaryscout-3"
+  },
+  {
     "line": "[4/7] Military Scout: The Admiral has sent scouts round to gather any free-moving soldiers to help him... remedy the situation.",
     "file": "themercenary-militaryscout-4"
   },
@@ -6443,6 +6447,10 @@
   },
   {
     "line": "[6/7] Military Scout: Anyhow, if you can, travel on over that way. Almuj is the desert city to the east of Detlas, if you've never seen it.",
+    "file": "themercenary-militaryscout-6"
+  },
+  {
+    "line": "[6/7] Military Scout: Anyhow, if you can, head on over to the Admiral's office. It's just by the bank, you can't miss it.",
     "file": "themercenary-militaryscout-6"
   },
   {
