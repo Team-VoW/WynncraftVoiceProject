@@ -50508,7 +50508,17 @@
     "fallOff": 200
   },
   {
+    "line": "[1/11] ???: I could stare at this map for hours, you know. It's like staring into the past.",
+    "file": "llevigarplains-lari-1",
+    "fallOff": 200
+  },
+  {
     "line": "[2/11] Lari: It's a few centuries out of date. You see how green this place once was?",
+    "file": "llevigarplains-lari-2",
+    "fallOff": 200
+  },
+  {
+    "line": "[2/11] ???: It's a few centuries out of date. You see how green this place once was?",
     "file": "llevigarplains-lari-2",
     "fallOff": 200
   },
@@ -50518,7 +50528,17 @@
     "fallOff": 200
   },
   {
+    "line": "[3/11] ???: Look at it now. It's become so barren and... Lifeless.",
+    "file": "llevigarplains-lari-3",
+    "fallOff": 200
+  },
+  {
     "line": "[4/11] Lari: I've watched much of this land fall in a similar way...",
+    "file": "llevigarplains-lari-4",
+    "fallOff": 200
+  },
+  {
+    "line": "[4/11] ???: I've watched much of this land fall in a similar way...",
     "file": "llevigarplains-lari-4",
     "fallOff": 200
   },
@@ -50528,7 +50548,17 @@
     "fallOff": 200
   },
   {
+    "line": "[5/11] ???: It's been spreading faster as the years have gone by. I-I don't believe there's much time left.",
+    "file": "llevigarplains-lari-5",
+    "fallOff": 200
+  },
+  {
     "line": "[6/11] Lari: People have been calling it the ''Decay''... Truth is, there is so much more to it.",
+    "file": "llevigarplains-lari-6",
+    "fallOff": 200
+  },
+  {
+    "line": "[6/11] ???: People have been calling it the ''Decay''... Truth is, there is so much more to it.",
     "file": "llevigarplains-lari-6",
     "fallOff": 200
   },
@@ -50538,7 +50568,17 @@
     "fallOff": 200
   },
   {
+    "line": "[7/11] ???: I've managed to hold it back and keep it to the north, but there is only one of me.",
+    "file": "llevigarplains-lari-7",
+    "fallOff": 200
+  },
+  {
     "line": "[8/11] Lari: Just look at all of this rot. And I was always told that nature could manage on its own.",
+    "file": "llevigarplains-lari-8",
+    "fallOff": 200
+  },
+  {
+    "line": "[8/11] ???: Just look at all of this rot. And I was always told that nature could manage on its own.",
     "file": "llevigarplains-lari-8",
     "fallOff": 200
   },
@@ -50548,12 +50588,27 @@
     "fallOff": 200
   },
   {
+    "line": "[9/11] ???: But, alas, not even the loveliest pieces of light are safe from its looming shadow.",
+    "file": "llevigarplains-lari-9",
+    "fallOff": 200
+  },
+  {
     "line": "[10/11] Lari: I hope you can enjoy what Olux can offer. There is still beauty there, if you look closely.",
     "file": "llevigarplains-lari-10",
     "fallOff": 200
   },
   {
+    "line": "[10/11] ???: I hope you can enjoy what Olux can offer. There is still beauty there, if you look closely.",
+    "file": "llevigarplains-lari-10",
+    "fallOff": 200
+  },
+  {
     "line": "[11/11] Lari: You may think there's still something to be done here, but... I'm not sure if there is anymore.",
+    "file": "llevigarplains-lari-11",
+    "fallOff": 200
+  },
+  {
+    "line": "[11/11] ???: Anyway, I better get back to my work. It was nice to meet you.",
     "file": "llevigarplains-lari-11",
     "fallOff": 200
   },
