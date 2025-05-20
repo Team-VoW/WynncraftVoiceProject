@@ -11633,7 +11633,15 @@
     "file": "junglefever-worid-16"
   },
   {
+  "line": "[3/6] Worid: That is a lot of money, thank you very much, I will finally be able to... *cough* to cure myself!",
+  "file": "junglefever-worid-16"
+  },
+  {
     "line": "[3/6] Worid: Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I've instead paid you with a key.",
+    "file": "junglefever-worid-17"
+  },
+  {
+    "line": "[4/6] Worid: Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I^ve instead paid you with a key.",
     "file": "junglefever-worid-17"
   },
   {
@@ -11641,7 +11649,15 @@
     "file": "junglefever-worid-18"
   },
   {
+    "line": "[5/6] Worid: I stole- *cough* I mean, borrowed it, from our tribe^s leader. Apparently it was used to lock up a great evil.",
+    "file": "junglefever-worid-18"
+  },
+  {
     "line": "[5/6] Worid: Good ridda- *cough* Er... luck. Yes, good luck, adventurer!",
+    "file": "junglefever-worid-19"
+  },
+  {
+    "line": "[6/6] Worid: Good ridda- *cough* Er... luck. Yes, good luck, adventurer!",
     "file": "junglefever-worid-19"
   },
   {
