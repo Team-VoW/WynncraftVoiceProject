@@ -1855,7 +1855,7 @@
     "file": "takingthetower-aledar-15"
   },
   {
-    "line": "[4/6] Aledar: In this case, you can apply a ? Water powder, so that your weapon will be more effective against the corrupted enemies at the tower!",
+    "line": "[4/6] Aledar: In this case, you can apply a ❉ Water powder, so that your weapon will be more effective against the corrupted enemies at the tower!",
     "file": "takingthetower-aledar-16"
   },
   {
@@ -4703,6 +4703,10 @@
   {
     "line": "[10/11] Dr. Picard: Excellent, I'm glad to hear that! Now. Activating in three... two... one... go!",
     "file": "recoverthepast-drpicard-35"
+  },
+  {
+    "line": "[11/11] Tasim: ...!",
+    "stopSounds": "false"
   },
   {
     "line": "[1/12] Royal Captain: All hands on deck! Arrest that insurgent!",
