@@ -8890,6 +8890,30 @@
     "file": "wrathofthemummy-bandit-9"
   },
   {
+    "line": "[5/6] Bandit: Or better yet, if you happen to have some of that pink wool on you. If you give it to me, well... the tomb is all yours.",
+    "file": "wrathofthemummy-bandit-10"
+  },
+  {
+    "line": "[6/6] Bandit: Either way, you can take my wagon over there to Rymek, but you'll have to make your own way back. Give me [1 Pink Wool] and I'll let you through.",
+    "file": "wrathofthemummy-bandit-11"
+  },
+  {
+    "line": "[1/4] Bandit: Well, whaddya know? You got some pink wool! Okay, hand it here and I'll look the other way and let you into the tomb.",
+    "file": "wrathofthemummy-bandit-12"
+  },
+  {
+    "line": "[2/4] Bandit: Just don't touch any of the gold, hmm? And if I were you, I wouldn't go in too deep.",
+    "file": "wrathofthemummy-bandit-13"
+  },
+  {
+    "line": "[3/4] Bandit: The clan was going to explore further inside, but the sounds...",
+    "file": "wrathofthemummy-bandit-14"
+  },
+  {
+    "line": "[4/4] Bandit: Anyway, I'll still let you inside if you want. Just remember, if anyone asks, this conversation never happened.",
+    "file": "wrathofthemummy-bandit-15"
+  },
+  {
     "line": "[1/4] Ormrod: Hello, again... have you had any luck?",
     "file": "wrathofthemummy-ormrod-8"
   },
