@@ -4038,60 +4038,116 @@
     "file": "darkdescent-soldier-3"
   },
   {
-    "line": "[1/11] General Graken: Ah, hello there chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.",
+    "line": "[1/8] General Graken: Hello there, chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.",
     "file": "darkdescent-generalgraken-1"
   },
   {
-    "line": "[1/5] General Graken: Oh, sod it, I knew I was forgetting something! Steady there, chum! I'm on my way!",
+    "line": "[2/8] General Graken: I am General Graken, leader of the Nemract militia. Charmed to meet you!",
     "file": "darkdescent-generalgraken-2"
   },
   {
-    "line": "[2/5] General Graken: Drat! Too late, it seems. Yes, I forgot to mention the floor was in poor condition. Up here! You took quite the tumble, are you alright?",
+    "line": "[3/8] General Graken: You've seen all the bloody zombies faffing about everywhere, yes? They're all seeming to come from this massive skull.",
     "file": "darkdescent-generalgraken-3"
   },
   {
-    "line": "[3/5] General Graken: Well, there's some good news, I suppose. Still though, seems I sent you a ticket to a bit of a sticky wicket! Do you see a way out anywhere down there?",
+    "line": "[4/8] General Graken: I'm putting together a crack team for an expedition inside, but we haven't got any bleedin' idea what's down there!",
     "file": "darkdescent-generalgraken-4"
   },
   {
-    "line": "[4/5] General Graken: There's a tunnel? Aha, spiffing! I suggest you take it immediately. I'll have to return to my post now, post-haste!",
+    "line": "[5/8] General Graken: If you're up for it, chap, we could absolutely do with some recon 'round the old town, look for clues and the like.",
     "file": "darkdescent-generalgraken-5"
   },
   {
-    "line": "[5/5] General Graken: Good luck, chum! Now, back, you cads! Back I say!",
+    "line": "[6/8] General Graken: I took a gander earlier, and one of the ol' houses caught my eye - it had a bloomin' great skull right over the door!",
     "file": "darkdescent-generalgraken-6"
   },
   {
-    "line": "[3/3] General Graken: Hey! Come on, come over here! Quit milling about with the zombies, chap!",
+    "line": "[7/8] General Graken: I didn't have time to look in proper, but I'd start the investigation there, chap.",
     "file": "darkdescent-generalgraken-7"
   },
   {
-    "line": "[1/10] General Graken: Oi! Hallo?! Chum? Why're you wandering round all bog-eyed? Come back to me now!",
+    "line": "[8/8] General Graken: It's just south of here. The house still had solid wood boarding in it, despite the age, so look lively, chum!",
     "file": "darkdescent-generalgraken-8"
   },
   {
-    "line": "[1/6] General Graken: Aha, chap! Wonderful, the Ragni regiment's gotten its representative down 'ere. All rested up, I suppose, so let me give you an earful",
+    "line": "[1/2] General Graken: Ah, hello chap! Might I inquire as to whether you've glanced in that house yet?",
     "file": "darkdescent-generalgraken-9"
   },
   {
-    "line": "[1/4] General Graken: Simply marvellous work, chap! You've made it this far, so no time to fill your boots. Be prepared, we are about to fight Charon's undead army",
+    "line": "[2/2] General Graken: It's just up the road here, impossible to miss with a bleedin' skull right over the doorway!",
     "file": "darkdescent-generalgraken-10"
   },
   {
-    "line": "[1/2] General Graken: Ah, hello chap! Might I inquire as to whether you've found that blasted little ruby yet? ",
+    "line": "[1/5] General Graken: Oh, sod it, I knew I was forgetting something! Steady there, chum! I'm on my way! [PLAYED]",
     "file": "darkdescent-generalgraken-11"
   },
   {
-    "line": "[1/1] General Graken: I'll do a spot of scouting ahead, and then meet you in there! I must admit this place does give me the habdabs though, wot wot?",
+    "line": "[2/5] General Graken: Drat! Too late, it seems. Yes, I forgot to mention the floor was in poor condition. Up here! You took quite the tumble, are you alright? [PLAYED]",
     "file": "darkdescent-generalgraken-12"
   },
   {
-    "line": "[1/1] General Graken: Well, I would ask for a spot of help, but that'd be a bit barmy of me, considering you aren't even Level 24 yet! You've bog all chance of being able to help 'til then, though I mean no offense. ",
+    "line": "[3/5] General Graken: Well, there's some good news, I suppose. Still though, seems I sent you a ticket to a bit of a sticky wicket! Do you see a way out anywhere down there? [PLAYED]",
     "file": "darkdescent-generalgraken-13"
   },
   {
-    "line": "[1/5] General Graken: Old chap, I can only hope you find this scribble in my absence. Of course I hope that you did not have to return at all.",
+    "line": "[4/5] General Graken: There's a tunnel? Aha, spiffing! I suggest you take it immediately. I'll have to return to my post now, post-haste! [PLAYED]",
     "file": "darkdescent-generalgraken-14"
+  },
+  {
+    "line": "[5/5] General Graken: Good luck, chum! Now, back, you cads! Back I say! [PLAYED]",
+    "file": "darkdescent-generalgraken-15"
+  },
+  {
+    "line": "[2/2] General Graken: Hey! Come on, come over here! Quit milling about with the zombies, chap!",
+    "file": "darkdescent-generalgraken-16"
+  },
+  {
+    "line": "[1/9] General Graken: Oi! Hallo?! Chum? Why're you wandering round all bog-eyed? Come back to me now!",
+    "file": "darkdescent-generalgraken-17"
+  },
+  {
+    "line": "[2/9] General Graken: Come on, pip pip! Let's see a bit more colour in your eyes- There we are! Back now, chap?",
+    "file": "darkdescent-generalgraken-18"
+  },
+  {
+    "line": "[3/9] General Graken: Capital! You had me quite worried for a spot, there. Do bubble about just what went on down there, mm?",
+    "file": "darkdescent-generalgraken-19"
+  },
+  {
+    "line": "[4/9] General Graken: You were stumbling about like a senile biddy, eyes blank as cream, and you kept muttering something about a Charon.",
+    "file": "darkdescent-generalgraken-20"
+  },
+  {
+    "line": "[5/9] General Graken: I'm supposing he was the one who took you for a spin there? Well, you certainly haven't carked it, so I might call this operation a success!",
+    "file": "darkdescent-generalgraken-21"
+  },
+  {
+    "line": "[6/9] General Graken: Your discoveries fit in jolly-well with what we already know - and I'm convinced. To stop all these bleedin' zombos, we're going to have to go down under.",
+    "file": "darkdescent-generalgraken-22"
+  },
+  {
+    "line": "[7/9] General Graken: Preliminary expeditions have brought back some real nasty bits, brains and such - but also some fancy-as-you-like jewellery!",
+    "file": "darkdescent-generalgraken-23"
+  },
+  {
+    "line": "[8/9] General Graken: Take some with you, remind you what we're up against. But keep your eyes on the prize!",
+    "file": "darkdescent-generalgraken-24"
+  },
+  {
+    "line": "[9/9] General Graken: When you're ready, I'd be chuffed to have you along in the expedition down into the depths, old bean!",
+    "file": "darkdescent-generalgraken-25"
+  },
+  {
+    "line": "[1/1] General Graken: I'll do a spot of scouting ahead, and then meet you in there! I must admit this place does give me the habdabs though, wot wot? [PLAYED]",
+    "file": "darkdescent-generalgraken-26"
+  },
+  {
+    "line": "[1/1] General Graken: Well, I would ask for a spot of help, but that'd be a bit barmy of me, considering you aren't even Level 21 yet! You've bog all chance of being able to help 'til then, though I mean no offense.",
+    "file": "darkdescent-generalgraken-27"
+  },
+  {
+    "line": "[1/5] General Graken: Old chap, I can only hope you find this scribble in my absence. Of course I hope that you did not have to return at all.",
+    "file": "darkdescent-generalgraken-28"
   },
   {
     "line": "[1/2] Scout Reynauld: Ah, hello. Don't mind me, I'm just preparing for an oncoming corrupted attack.",
