@@ -270,7 +270,7 @@
     "file": "kingsrecruit-tasim-26"
   },
   {
-    "line": "[2/2] Aledar: Well, we've got no choice but to make it through! Finally time for us to use these weapons we got. Let's go, soldier.",
+    "line": "[2/2] Aledar: Well, we've got no choice but to make it through! Finally time for us to use these weapons we got!",
     "file": "kingsrecruit-aledar-21"
   },
   {
@@ -3965,7 +3965,7 @@
     "onPlayer": true
   },
   {
-    "line": "[1/6] ???: Heheh...do you see now?",
+    "line": "[1/6] ???: Heheh... do you see now?",
     "file": "darkdescent-charon-6",
     "onPlayer": true
   },
