@@ -471,8 +471,6 @@
     "line": "[5/5] Tasim: Well, there you go! I'm going to head to the end of the Emerald Trail, to the entrance of Nivla Woods. You should meet me there once you've gotten a little stronger.",
     "file": "kingsrecruit-tasim-44"
   },
-
-
   {
     "line": "[1/5] Enzan: I see you want to venture into the wilderness!",
     "file": "enzansbrother-enzan-1"
@@ -1061,6 +1059,26 @@
   {
     "line": "[1/1] Tasim: I'm going to go rest up a little. I'll be ready for more adventure soon though, don't worry!",
     "file": "infestedplants-tasim-11"
+  },
+  {
+    "line": "[1/2] Tasim: Oh, soldier! There you are. It's good to see you. I'd say we should keep heading towards Detlas, but...\n",
+    "file": "infestedplants-tasim-12"
+  },
+  {
+    "line": "[2/2] Tasim: You could probably do with getting a little stronger first. Tell me when you reach Level 4, alright?",
+    "file": "infestedplants-tasim-13"
+  },
+  {
+    "line": "[3/4] Tasim: Alright! soldier, you can go into the cave, and I can defend Ope here while you do that.",
+    "file": "infestedplants-tasim-14"
+  },
+  {
+    "line": "[1/1] Tasim: I can handle it down here, soldier. You just need to go into that cave and find the herb.",
+    "file": "infestedplants-tasim-15"
+  },
+  {
+    "line": "[1/1] Tasim: I'm going to go on ahead. I'll meet you in Alekin Village, it's just up ahead.",
+    "file": "infestedplants-tasim-16"
   },
   {
     "line": "[1/1] Mayor Alvin: Ah, hello! What can I do for you today?",
