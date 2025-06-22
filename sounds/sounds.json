@@ -23470,8 +23470,36 @@
     "file": "murdermystery-captainlorias-16"
   },
   {
-    "line": "[1/8] Valimare: How did ya find us down 'ere? I don't remember you... you're with the police, aren't ya? Here after Eminar, I suppose? ",
+    "line": "[1/8] Valimare: How did ya find us down 'ere? I don't remember you... you're with the police, aren't ya? Here after Eminar, I suppose?",
     "file": "murdermystery-valimare-1"
+  },
+  {
+    "line": "[2/8] Valimare: Yeah, we've 'eard about what happened to him. Murders don't happen every day up there, ya know. And as it happened, I saw Eminar down here, not too long ago...",
+    "file": "murdermystery-valimare-2"
+  },
+  {
+    "line": "[3/8] Valimare: Well... as long as I get a guarantee I won't be shut down, I'll help ya. This is a very profitable place, as I'm sure ya might've guessed.",
+    "file": "murdermystery-valimare-3"
+  },
+  {
+    "line": "[4/8] Valimare: He was brought down here by his friend one day. Rohem, it was. A fine customer, you understand. Never failed to pay his dues...",
+    "file": "murdermystery-valimare-4"
+  },
+  {
+    "line": "[5/8] Valimare: But the day he brought Eminar 'round, though, it got ugly fast. Kept borrowing Rohem's emeralds and losing, till neither of em had anythin' left.",
+    "file": "murdermystery-valimare-5"
+  },
+  {
+    "line": "[6/8] Valimare: It was a good day for me, for obvious reasons, don'cha see! But Rohem was furious. Dead drunk, too, but what else is new!",
+    "file": "murdermystery-valimare-6"
+  },
+  {
+    "line": "[7/8] Valimare: Neither of 'em has been back since, though in Eminar's case, I can see why! And I hope that's enough for ya, 'cause that's all I got.",
+    "file": "murdermystery-valimare-7"
+  },
+  {
+    "line": "[8/8] Valimare: Now get out of 'ere; there's a back exit in the wall over there. Though, if ya ever fancy a game of 'jack, come back 'n we'll be happy to serve ya!",
+    "file": "murdermystery-valimare-8"
   },
   {
     "line": "[1/1] Rohem: What brings you here today, human?",
