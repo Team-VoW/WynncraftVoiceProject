@@ -19773,15 +19773,6 @@
     "file": "lostsoles-ferndor-29"
   },
   {
-    "line": "[1/10] Atisun: Oh, a human? If I could beg your pardon a moment... could I talk to you about the mansion here?",
-    "file": "memoryparanoia-atisun-1"
-  },
-  {
-    "line": "[1/1] Atisun: All you have to do, is go in there and find answers. I'm sure the past won't haunt us both. Something happened here all those years ago... I want to know what.",
-    "file": "memoryparanoia-atisun-2",
-    "onPlayer": true
-  },
-  {
     "line": "[1/3] Servant: Mr. Caritat is always writing so intensely in that book... I do wonder what he could be saying.",
     "file": "memoryparanoia-servant-1",
     "onPlayer": true
@@ -20112,13 +20103,84 @@
     "onPlayer": true
   },
   {
-    "line": "[1/1] Atisun: Hey! Human! Are you alright?! Please, calm down, quit flailing around, you're safe!",
-    "file": "memoryparanoia-atisun-3",
-    "onPlayer": true
+    "line": "[1/10] Atisun: Oh, a human? If I could beg your pardon a moment... could I talk to you about the mansion here?",
+    "file": "memoryparanoia-atisun-1"
+  },
+  {
+    "line": "[2/10] Atisun: It was not always so dilapidated. It once stood tall, a monument to the family of Caritat, who constructed it from the ground up.",
+    "file": "memoryparanoia-atisun-2"
+  },
+  {
+    "line": "[3/10] Atisun: The Caritats were unlike any other. Uncharacteristically selfless and helpful. Their wealth was everyone's wealth as far as they were concerned.",
+    "file": "memoryparanoia-atisun-3"
+  },
+  {
+    "line": "[4/10] Atisun: But... Eventually... Erm, we're not entirely sure what happened, only rumours have surfaced over the years, but... things took a turn, shall we say.",
+    "file": "memoryparanoia-atisun-4"
+  },
+  {
+    "line": "[5/10] Atisun: Because, aah... How shall I put this... One day they were all... discovered dead. Murdered. By each other.",
+    "file": "memoryparanoia-atisun-5"
+  },
+  {
+    "line": "[6/10] Atisun: I am the last remaining descendant, Atisun Caritat. I was the only survivor of the... incident. I was only an infant when I was found by a passerby.",
+    "file": "memoryparanoia-atisun-6"
+  },
+  {
+    "line": "[7/10] Atisun: Since, erm... Since there was no one alive to report the incident, it wasn't discovered until days later when a traveller passing by took notice of the mansion.",
+    "file": "memoryparanoia-atisun-7"
+  },
+  {
+    "line": "[8/10] Atisun: I do not believe that my family simply went mad, but I do not know what happened. I want to know the truth. I think this mansion still holds the answers I'm looking for.",
+    "file": "memoryparanoia-atisun-8"
+  },
+  {
+    "line": "[9/10] Atisun: Yet, I am... scared of this place. It is the ruins of the life I should have had. The spirits of the dead are still there... Cursed. I need someone else to uncover my heritage.",
+    "file": "memoryparanoia-atisun-9"
+  },
+  {
+    "line": "[10/10] Atisun: Don't you worry, like my ancestors, I'm a generous man. If you help me, I will reward you handsomely. All you have to do, is go in there and find answers. I'm sure the past won't haunt us both.",
+    "file": "memoryparanoia-atisun-10"
   },
   {
     "line": "[1/8] Atisun: Oh thank goodness, you're back to us. I was so worried... er, you might not recall. Let me explain...",
-    "file": "memoryparanoia-atisun-4"
+    "file": "memoryparanoia-atisun-11"
+  },
+  {
+    "line": "[2/8] Atisun: It... it seemed like you were possessed. You stood in the hall for... I don't know how long. I couldn't snap you out of it, no matter what I tried.",
+    "file": "memoryparanoia-atisun-12"
+  },
+  {
+    "line": "[3/8] Atisun: Voices that weren't yours, you spoke out their moments and thoughts. The maids, my father... everyone. I... you said what I needed to hear.",
+    "file": "memoryparanoia-atisun-13"
+  },
+  {
+    "line": "[4/8] Atisun: My great grandfather, wanting to prove to everyone that the forest was still good, built his mansion atop the very spot that was acclaimed to be the cause of the Decay.",
+    "file": "memoryparanoia-atisun-14"
+  },
+  {
+    "line": "[5/8] Atisun: My father tried to continue the traditions... but all of it was burned to ashes. I must consider myself lucky that I did not fall with them.",
+    "file": "memoryparanoia-atisun-15"
+  },
+  {
+    "line": "[6/8] Atisun: And what emerged from that spot? Who knows... but, whatever it was... the darkness must have lingered, and drove them all to madness.",
+    "file": "memoryparanoia-atisun-16"
+  },
+  {
+    "line": "[7/8] Atisun: I'm sorry you went through that ordeal... I would suggest seeing a healer as soon as possible.",
+    "file": "memoryparanoia-atisun-17"
+  },
+  {
+    "line": "[8/8] Atisun: I will make sure no one enters this house again. It is cursed. Thank you for helping me.",
+    "file": "memoryparanoia-atisun-18"
+  },
+  {
+    "line": "[1/1] Atisun: All you have to do, is go in there and find answers. I'm sure the past won't haunt us both. Something happened here all those years ago... I want to know what.",
+    "file": "memoryparanoia-atisun-19"
+  },
+  {
+    "line": "[1/1] Atisun: Hey! Human! Are you alright?! Please, calm down, quit flailing around, you're safe!",
+    "file": "memoryparanoia-atisun-20"
   },
   {
     "line": "[1/2] Arnod: Mmph! Humnym! Mah houfhs fhs om fifhre! Gft hfrelp, tiff brafze womd strfp!",
