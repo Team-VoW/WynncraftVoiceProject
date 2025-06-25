@@ -851,11 +851,23 @@
     "file": "supplyanddelivery-tasim-3"
   },
   {
+    "line": "[1/5] Tasim: I... guess so? Is there a reason you can't do it yourself?",
+    "file": "supplyanddelivery-tasim-3"
+  },
+  {
     "line": "[2/3] Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!",
     "file": "supplyanddelivery-tasim-4"
   },
   {
-    "line": "[3/3] Tasim: You- what!? Nevermind, I don't actually want to know. Come on, lead the way. I'll buy... whatever it is you need.",
+    "line": "[3/6] Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!",
+    "file": "supplyanddelivery-tasim-4"
+  },
+  {
+    "line": "[2/5] Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!",
+    "file": "supplyanddelivery-tasim-4"
+  },
+  {
+    "line": "[3/3] Tasim: You- what!? Nevermind, I don't actually want to know. Come on, lead the way. I'll buy whatever it is Ope needs.",
     "file": "supplyanddelivery-tasim-5"
   },
   {
@@ -2198,6 +2210,10 @@
     "file": "mushroomman-tasim-13"
   },
   {
+    "line": "[4/9] Tasim: ...Come on.",
+    "file": "mushroomman-tasim-13"
+  },
+  {
     "line": "[6/10] Yahya: Oho okay, ok-... okay! It was a joke, don't get all ex-... ex-... excited. Here, just take-",
     "file": "mushroomman-yahya-15"
   },
@@ -2210,10 +2226,18 @@
     "file": "mushroomman-tasim-14"
   },
   {
+    "line": "[7/9] Tasim: Yahya! No!",
+    "file": "mushroomman-tasim-14"
+  },
+  {
     "line": "[9/10] Tasim: ..."
   },
   {
     "line": "[10/10] Tasim: I-... this is bad. This is really bad. We need to tell the Mayor, now.",
+    "file": "mushroomman-tasim-15"
+  },
+  {
+    "line": "[9/9] Tasim: I-... this is bad. This is really bad. We need to tell the Mayor, now.",
     "file": "mushroomman-tasim-15"
   },
   {
@@ -2530,7 +2554,7 @@
     "file": "elementalexercise-captainragon-13"
   },
   {
-    "line": "[1/2] Tasim: Hm... So if I attack this one, I'll deal more ? Air and less ? Earth...",
+    "line": "[1/2] Tasim: Hm... So if I attack this one, I'll deal more ❋ Air and less ✤ Earth...",
     "file": "elementalexercise-tasim-4"
   },
   {
@@ -2915,6 +2939,10 @@
     "file": "arachnidsascent-tasim-1"
   },
   {
+    "line": "[4/9] Tasim: If soldier is here, I take it that means today is the day we strike at the spiders?\n",
+    "file": "arachnidsascent-tasim-1"
+  },
+  {
     "line": "[7/11] Admiral Aegis: Indeed it is. Now, you three are to be the force which will fight through their den and clear out as many of those spiders as you can. For that, you'll need support.",
     "file": "arachnidsascent-admiralaegis-3"
   },
@@ -2928,6 +2956,10 @@
   },
   {
     "line": "[10/11] Tasim: Yes, sir. We'll do our best.",
+    "file": "arachnidsascent-tasim-2"
+  },
+  {
+    "line": "[8/9] Tasim: Yes, sir. We'll do our best.",
     "file": "arachnidsascent-tasim-2"
   },
   {
@@ -47037,6 +47069,10 @@
     "file": "ahunterscalling-tasim-2"
   },
   {
+    "line": "[1/7] Tasim: ...no sense screaming for the dead. But do you think I’m going to just give up like that?",
+    "file": "ahunterscalling-tasim-2"
+  },
+  {
     "line": "[2/7] Bak'al: It would be easier on yourself to.",
     "file": "ahunterscalling-bakal-34"
   },
@@ -47045,11 +47081,23 @@
     "file": "ahunterscalling-tasim-3"
   },
   {
+    "line": "[3/7] Tasim: Hah. Didn’t know corrupteds had a sense of humor, twisted as it might be.",
+    "file": "ahunterscalling-tasim-3"
+  },
+  {
     "line": "[4/7] Tasim: I won't dare die while everything here is at stake.",
     "file": "ahunterscalling-tasim-4"
   },
   {
+    "line": "[4/7] Tasim: I won’t dare die while everything here is at stake.",
+    "file": "ahunterscalling-tasim-4"
+  },
+  {
     "line": "[5/7] Tasim: How's this, then, hm? Think your PEON can handle me at my strongest?",
+    "file": "ahunterscalling-tasim-5"
+  },
+  {
+    "line": "[5/7] Tasim: How’s this, then, hm? Think your PEON can handle me at my strongest?",
     "file": "ahunterscalling-tasim-5"
   },
   {
