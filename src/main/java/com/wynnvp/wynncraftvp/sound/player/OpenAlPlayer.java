@@ -4,6 +4,7 @@
  */
 package com.wynnvp.wynncraftvp.sound.player;
 
+import com.wynnvp.wynncraftvp.utils.Utils;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -26,6 +27,7 @@ public class OpenAlPlayer {
     private final Map<Integer, CurrentSpeaker> currentSpeakers = new ConcurrentHashMap<>();
     private static final float maxDistance = 20000;
     private final Options gameSettings;
+    private boolean hasShownVolumeMessage = false;
 
     public OpenAlPlayer() {
         executorService = Executors.newCachedThreadPool();
@@ -35,6 +37,10 @@ public class OpenAlPlayer {
     public void playAudio(AudioData audioData) {
         executorService.execute(() -> {
             if (gameSettings.getSoundSourceVolume(SoundSource.VOICE) <= 0F) {
+                if (!hasShownVolumeMessage) {
+                    Utils.sendMessage("Voice/Speech volume is off. Turn it on in your settings to hear the voices.");
+                    hasShownVolumeMessage = true;
+                }
                 return;
             }
             int sourceID = AL10.alGenSources();
