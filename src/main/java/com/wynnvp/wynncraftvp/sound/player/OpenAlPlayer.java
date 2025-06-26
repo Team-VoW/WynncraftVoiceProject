@@ -34,6 +34,9 @@ public class OpenAlPlayer {
 
     public void playAudio(AudioData audioData) {
         executorService.execute(() -> {
+            if (gameSettings.getSoundSourceVolume(SoundSource.VOICE) <= 0F) {
+                return;
+            }
             int sourceID = AL10.alGenSources();
             sourceIDs.add(sourceID);
             CurrentSpeaker speaker = new CurrentSpeaker(audioData.speakerName, audioData.pos);
@@ -97,6 +100,9 @@ public class OpenAlPlayer {
 
     private void updateVolume(int sourceID) {
         float volume = gameSettings.getSoundSourceVolume(SoundSource.VOICE);
+        if (volume <= 0F) {
+            AL11.alSourceStop(sourceID);
+        }
         AL10.alSourcef(sourceID, AL10.AL_GAIN, volume);
     }
 }
