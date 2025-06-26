@@ -40,6 +40,9 @@ public class VOWAutoConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip
     public boolean playAllSoundsOnPlayer = false;
 
+    @ConfigEntry.Gui.Tooltip
+    public float playbackSpeed = 1.0f;
+
     // Line reporting settings
     public boolean reportMissingLines = true;
     public boolean anonymous = true;
@@ -81,7 +84,6 @@ public class VOWAutoConfig implements ConfigData {
         public String customAudioPath = "";
     }
 
-
     public boolean isLogDialogueLines() {
         return debugAndLogs.logDialogueLines;
     }
@@ -112,6 +114,10 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isPlayAllSoundsOnPlayer() {
         return playAllSoundsOnPlayer;
+    }
+
+    public float getPlaybackSpeed() {
+        return playbackSpeed;
     }
 
     public String getWord() {

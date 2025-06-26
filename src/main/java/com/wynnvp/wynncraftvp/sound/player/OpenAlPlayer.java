@@ -4,7 +4,18 @@
  */
 package com.wynnvp.wynncraftvp.sound.player;
 
+import be.tarsos.dsp.AudioDispatcher;
+import be.tarsos.dsp.AudioEvent;
+import be.tarsos.dsp.AudioProcessor;
+import be.tarsos.dsp.WaveformSimilarityBasedOverlapAdd;
+import be.tarsos.dsp.io.TarsosDSPAudioFormat;
+import be.tarsos.dsp.io.jvm.AudioDispatcherFactory;
+import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.utils.Utils;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,6 +25,11 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import javax.sound.sampled.AudioFileFormat;
+import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
 import net.minecraft.sounds.SoundSource;
@@ -32,6 +48,73 @@ public class OpenAlPlayer {
     public OpenAlPlayer() {
         executorService = Executors.newCachedThreadPool();
         gameSettings = Minecraft.getInstance().options;
+    }
+
+    private ByteBuffer timeStretch(AudioData audioData, float speed) {
+        try {
+            ByteBuffer originalBuffer = audioData.byteBuffer;
+            byte[] audioBytes = new byte[originalBuffer.remaining()];
+            originalBuffer.get(audioBytes);
+            originalBuffer.rewind();
+
+            float sampleRate = audioData.audioFormat.getSampleRate();
+            int bufferSize = 8192;
+            int overlap = 0;
+
+            TarsosDSPAudioFormat tarsosFormat = new TarsosDSPAudioFormat(sampleRate, 16, 1, true, false);
+            AudioFormat javaSoundFormat = new AudioFormat(
+                    tarsosFormat.getSampleRate(),
+                    tarsosFormat.getSampleSizeInBits(),
+                    tarsosFormat.getChannels(),
+                    true, // signed
+                    false // little-endian
+                    );
+
+            ByteArrayOutputStream out = new ByteArrayOutputStream();
+
+            AudioDispatcher dispatcher =
+                    AudioDispatcherFactory.fromByteArray(audioBytes, javaSoundFormat, bufferSize, overlap);
+            dispatcher.addAudioProcessor(new WaveformSimilarityBasedOverlapAdd(
+                    WaveformSimilarityBasedOverlapAdd.Parameters.musicDefaults(speed, sampleRate)));
+            dispatcher.addAudioProcessor(new AudioProcessor() {
+                @Override
+                public boolean process(AudioEvent audioEvent) {
+                    try {
+                        out.write(audioEvent.getByteBuffer());
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    return true;
+                }
+
+                @Override
+                public void processingFinished() {
+                    // No-op
+                }
+            });
+            dispatcher.run();
+
+            byte[] processedAudioBytes = out.toByteArray();
+            ByteBuffer processedBuffer = ByteBuffer.wrap(processedAudioBytes);
+
+            // Save the processed audio data into a WAV file
+            try {
+                File wavFile = new File("processed_audio.wav");
+                AudioInputStream audioInputStream = new AudioInputStream(
+                        new ByteArrayInputStream(processedAudioBytes),
+                        javaSoundFormat,
+                        processedAudioBytes.length / javaSoundFormat.getFrameSize()
+                );
+                AudioSystem.write(audioInputStream, AudioFileFormat.Type.WAVE, wavFile);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+            return processedBuffer;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return audioData.byteBuffer;
+        }
     }
 
     public void playAudio(AudioData audioData) {
@@ -55,6 +138,25 @@ public class OpenAlPlayer {
             AL11.alSourcef(sourceID, AL11.AL_REFERENCE_DISTANCE, 0F);
 
             ByteBuffer monoData = audioData.byteBuffer;
+            float speed = ModCore.config.getPlaybackSpeed();
+            if (speed != 1.0f) {
+                monoData = timeStretch(audioData, speed);
+
+                AL11.alBufferData(
+                        buffers[0],
+                        monoData.remaining() % 2 == 0 ? AL11.AL_FORMAT_MONO16 : AL11.AL_FORMAT_MONO8,
+                        monoData,
+                        (int) audioData.audioFormat.getSampleRate()
+                );
+                AL11.alSourceQueueBuffers(sourceID, buffers[0]);
+                AL11.alSourcePlay(sourceID);
+                return;
+            }
+
+            if (monoData == null || monoData.remaining() == 0) {
+                throw new IllegalArgumentException("Invalid audio data.");
+            }
+
             AL11.alBufferData(buffers[0], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
             AL11.alSourceQueueBuffers(sourceID, buffers[0]);
             AL11.alSourcePlay(sourceID);
