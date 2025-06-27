@@ -4166,17 +4166,17 @@
     "onPlayer": true
   },
   {
-    "line": "[2/6] ???: Ah, but if you had only said so sooner! They have already left this mortal coil...oh, what a shame.",
+    "line": "[2/6] ???: Ah, but if you had only said so sooner! I'm afraid they have already joined me, down below.",
     "file": "darkdescent-charon-3",
     "onPlayer": true
   },
   {
-    "line": "[4/6] ???: Hush now. I will ensure that you and your family are reunited. You will even be able to partake in...keheh...family outings, under my watchful eye...",
+    "line": "[4/6] ???: Hush, now. You and your family will make fine additions to my legion.",
     "file": "darkdescent-charon-4",
     "onPlayer": true
   },
   {
-    "line": "[6/6] ???: Aha, naive girl. How cute, you believe you have a choice in the matter. What you want, is not what I need.",
+    "line": "[6/6] ???: How naive. Fear not. You will rise again, and then you will serve my purpose.",
     "file": "darkdescent-charon-5",
     "onPlayer": true
   },
@@ -4186,38 +4186,33 @@
     "onPlayer": true
   },
   {
-    "line": "[2/6] ???: Do you see how easily this place fell? How quickly I became its master? And how I could simply dispose of you without a second thought?",
+    "line": "[2/6] ???: How easily this place fell? How quickly I became its master?",
     "file": "darkdescent-charon-7",
     "onPlayer": true
   },
   {
-    "line": "[3/6] ???: Such fragile beings, humans. So very easily influenced. Heartbroken, made hopeless. Your ties only serve to weaken you.",
+    "line": "[3/6] ???: Hundreds slaughtered in mere moments... only to rise again as my soldiers in infinite amounts.",
     "file": "darkdescent-charon-8",
     "onPlayer": true
   },
   {
-    "line": "[4/6] ???: So I invite you to continue. I encourage it, even. For if you should foray into my domain...",
+    "line": "[4/6] ???: You can barely keep them at bay on the surface, and yet you think to enter my own domain, to challenge me in the Underworld?",
     "file": "darkdescent-charon-9",
     "onPlayer": true
   },
   {
-    "line": "[5/6] ???: There would be simply no chance for you to survive. And then, I will be free to string you up like a lifeless little puppet.",
+    "line": "[5/6] ???: You will fail, and I will be free to string your body up like a puppet and make you dance for me.",
     "file": "darkdescent-charon-10",
     "onPlayer": true
   },
   {
-    "line": "[6/6] ???: So take the gem, my little soldier. I eagerly await our next meeting, keheheh...",
+    "line": "[6/6] ???: So enter the mouth of my skull, soldier, make your way below the ground. I look forward to our next meeting, keheheh...",
     "file": "darkdescent-charon-11",
     "onPlayer": true
   },
   {
-    "line": "[1/3] ???: I will allow you to return now... and I will ensure you remember what you have seen here.",
+    "line": "[1/2] ???: Return to your world, now. And if you still want to challenge me... I'll be waiting.",
     "file": "darkdescent-charon-12",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/3] ???: Good luck on your little quest...keheheh...",
-    "file": "darkdescent-charon-13",
     "onPlayer": true
   },
   {
