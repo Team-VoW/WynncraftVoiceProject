@@ -23,10 +23,7 @@ public class VOWAutoConfig implements ConfigData {
     public String azureBlobLink = "http://voicesofwynn.blob.core.windows.net/audio/sounds/";
 
     @ConfigEntry.Gui.Excluded
-    public List<String> urls = List.of(
-            "http://voicesofwynn.blob.core.windows.net/audio/sounds/",
-            "http://voicesofwynnus.blob.core.windows.net/audio/sounds/",
-            "http://voicesofwynnasia.blob.core.windows.net/audio/sounds/");
+    public List<String> urls = List.of("https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/");
 
     @ConfigEntry.Gui.Excluded
     public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5;
