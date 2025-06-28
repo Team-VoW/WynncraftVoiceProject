@@ -20,9 +20,6 @@ public class VOWAutoConfig implements ConfigData {
     public boolean hasChosenLineReport = false;
 
     @ConfigEntry.Gui.Excluded
-    public int tripleQuestionMarkInessentiel = 1000;
-
-    @ConfigEntry.Gui.Excluded
     public String azureBlobLink = "http://voicesofwynn.blob.core.windows.net/audio/sounds/";
 
     @ConfigEntry.Gui.Excluded
@@ -143,10 +140,6 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isSendFunFact() {
         return sendFunFact;
-    }
-
-    public int getTripleQuestionMarkInessentiel() {
-        return tripleQuestionMarkInessentiel;
     }
 
     public int getBlockCutOff() {

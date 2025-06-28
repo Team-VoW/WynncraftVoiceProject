@@ -107,7 +107,7 @@ public class AudioPlayer {
         if (customAudioPath.toFile().exists()) {
             playLocalFile(customAudioPath, soundObject);
         } else {
-            Utils.sendMessage("Failed to load custom audio file: " + customAudioPath.toString()
+            Utils.sendMessage("Failed to load custom audio file: " + customAudioPath
                     + ". Please check your settings. You are using a custom audio path.");
         }
     }
