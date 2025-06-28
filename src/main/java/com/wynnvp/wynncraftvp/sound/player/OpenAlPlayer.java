@@ -68,14 +68,16 @@ public class OpenAlPlayer {
                     tarsosFormat.getChannels(),
                     true, // signed
                     false // little-endian
-                    );
+            );
 
             ByteArrayOutputStream out = new ByteArrayOutputStream();
+
+            float timeStretchFactor = 1.0f / speed;
 
             AudioDispatcher dispatcher =
                     AudioDispatcherFactory.fromByteArray(audioBytes, javaSoundFormat, bufferSize, overlap);
             dispatcher.addAudioProcessor(new WaveformSimilarityBasedOverlapAdd(
-                    WaveformSimilarityBasedOverlapAdd.Parameters.musicDefaults(speed, sampleRate)));
+                    WaveformSimilarityBasedOverlapAdd.Parameters.musicDefaults(timeStretchFactor, sampleRate)));
             dispatcher.addAudioProcessor(new AudioProcessor() {
                 @Override
                 public boolean process(AudioEvent audioEvent) {
@@ -95,20 +97,10 @@ public class OpenAlPlayer {
             dispatcher.run();
 
             byte[] processedAudioBytes = out.toByteArray();
-            ByteBuffer processedBuffer = ByteBuffer.wrap(processedAudioBytes);
-
-            // Save the processed audio data into a WAV file
-            try {
-                File wavFile = new File("processed_audio.wav");
-                AudioInputStream audioInputStream = new AudioInputStream(
-                        new ByteArrayInputStream(processedAudioBytes),
-                        javaSoundFormat,
-                        processedAudioBytes.length / javaSoundFormat.getFrameSize()
-                );
-                AudioSystem.write(audioInputStream, AudioFileFormat.Type.WAVE, wavFile);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+            // Create a direct ByteBuffer which is preferred for native OpenAL operations
+            ByteBuffer processedBuffer = ByteBuffer.allocateDirect(processedAudioBytes.length);
+            processedBuffer.put(processedAudioBytes);
+            processedBuffer.flip(); // Important! Prepare the buffer for reading
 
             return processedBuffer;
         } catch (Exception e) {
@@ -142,9 +134,10 @@ public class OpenAlPlayer {
             if (speed != 1.0f) {
                 monoData = timeStretch(audioData, speed);
 
+                // Always use MONO16 format since that's what we're creating
                 AL11.alBufferData(
                         buffers[0],
-                        monoData.remaining() % 2 == 0 ? AL11.AL_FORMAT_MONO16 : AL11.AL_FORMAT_MONO8,
+                        AL11.AL_FORMAT_MONO16,
                         monoData,
                         (int) audioData.audioFormat.getSampleRate()
                 );
