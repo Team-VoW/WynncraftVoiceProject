@@ -8,34 +8,23 @@ import be.tarsos.dsp.AudioDispatcher;
 import be.tarsos.dsp.AudioEvent;
 import be.tarsos.dsp.AudioProcessor;
 import be.tarsos.dsp.WaveformSimilarityBasedOverlapAdd;
-import be.tarsos.dsp.io.TarsosDSPAudioFormat;
 import be.tarsos.dsp.io.jvm.AudioDispatcherFactory;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.utils.Utils;
-
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.nio.ByteBuffer;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import javax.sound.sampled.AudioFileFormat;
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioInputStream;
-import javax.sound.sampled.AudioSystem;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.phys.Vec3;
 import org.lwjgl.openal.AL10;
 import org.lwjgl.openal.AL11;
+
+import javax.sound.sampled.AudioFormat;
+import java.io.ByteArrayOutputStream;
+import java.nio.ByteBuffer;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class OpenAlPlayer {
     private final ExecutorService executorService;
@@ -58,26 +47,27 @@ public class OpenAlPlayer {
             originalBuffer.rewind();
 
             float sampleRate = audioData.audioFormat.getSampleRate();
-            int bufferSize = 8192;
-            int overlap = 0;
 
-            TarsosDSPAudioFormat tarsosFormat = new TarsosDSPAudioFormat(sampleRate, 16, 1, true, false);
-            AudioFormat javaSoundFormat = new AudioFormat(
-                    tarsosFormat.getSampleRate(),
-                    tarsosFormat.getSampleSizeInBits(),
-                    tarsosFormat.getChannels(),
-                    true, // signed
+            AudioFormat javaSoundFormat = new AudioFormat(sampleRate, 16, 1, true, // signed
                     false // little-endian
             );
 
             ByteArrayOutputStream out = new ByteArrayOutputStream();
 
-            float timeStretchFactor = 1.0f / speed;
+            // Create WSOLA processor first to get proper buffer sizes
+            WaveformSimilarityBasedOverlapAdd wsola = new WaveformSimilarityBasedOverlapAdd(WaveformSimilarityBasedOverlapAdd.Parameters.speechDefaults(speed, sampleRate));
 
-            AudioDispatcher dispatcher =
-                    AudioDispatcherFactory.fromByteArray(audioBytes, javaSoundFormat, bufferSize, overlap);
-            dispatcher.addAudioProcessor(new WaveformSimilarityBasedOverlapAdd(
-                    WaveformSimilarityBasedOverlapAdd.Parameters.musicDefaults(timeStretchFactor, sampleRate)));
+            // Use WSOLA's recommended buffer sizes
+            int bufferSize = wsola.getInputBufferSize();
+            int overlap = wsola.getOverlap();
+
+            AudioDispatcher dispatcher = AudioDispatcherFactory.fromByteArray(audioBytes, javaSoundFormat, bufferSize, overlap);
+
+            // Set dispatcher on WSOLA
+            wsola.setDispatcher(dispatcher);
+
+            // Add processors in correct order
+            dispatcher.addAudioProcessor(wsola);
             dispatcher.addAudioProcessor(new AudioProcessor() {
                 @Override
                 public boolean process(AudioEvent audioEvent) {
@@ -94,6 +84,7 @@ public class OpenAlPlayer {
                     // No-op
                 }
             });
+
             dispatcher.run();
 
             byte[] processedAudioBytes = out.toByteArray();
@@ -104,6 +95,7 @@ public class OpenAlPlayer {
 
             return processedBuffer;
         } catch (Exception e) {
+            Utils.sendMessage("Failed to apply speed up, using original audio.");
             e.printStackTrace();
             return audioData.byteBuffer;
         }
@@ -131,16 +123,12 @@ public class OpenAlPlayer {
 
             ByteBuffer monoData = audioData.byteBuffer;
             float speed = ModCore.config.getPlaybackSpeed();
+
             if (speed != 1.0f) {
                 monoData = timeStretch(audioData, speed);
 
                 // Always use MONO16 format since that's what we're creating
-                AL11.alBufferData(
-                        buffers[0],
-                        AL11.AL_FORMAT_MONO16,
-                        monoData,
-                        (int) audioData.audioFormat.getSampleRate()
-                );
+                AL11.alBufferData(buffers[0], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
                 AL11.alSourceQueueBuffers(sourceID, buffers[0]);
                 AL11.alSourcePlay(sourceID);
                 return;
@@ -187,15 +175,13 @@ public class OpenAlPlayer {
     }
 
     private void setPosition(int sourceID, Optional<Vec3> soundPos) {
-        soundPos.ifPresentOrElse(
-                pos -> {
-                    AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_FALSE);
-                    AL11.alSource3f(sourceID, AL11.AL_POSITION, (float) pos.x, (float) pos.y, (float) pos.z);
-                },
-                () -> {
-                    AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
-                    AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
-                });
+        soundPos.ifPresentOrElse(pos -> {
+            AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_FALSE);
+            AL11.alSource3f(sourceID, AL11.AL_POSITION, (float) pos.x, (float) pos.y, (float) pos.z);
+        }, () -> {
+            AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
+            AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
+        });
         updateVolume(sourceID);
     }
 
