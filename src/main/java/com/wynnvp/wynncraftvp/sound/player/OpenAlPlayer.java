@@ -11,20 +11,23 @@ import be.tarsos.dsp.WaveformSimilarityBasedOverlapAdd;
 import be.tarsos.dsp.io.jvm.AudioDispatcherFactory;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.utils.Utils;
+import java.io.ByteArrayOutputStream;
+import java.nio.ByteBuffer;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import javax.sound.sampled.AudioFormat;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.phys.Vec3;
 import org.lwjgl.openal.AL10;
 import org.lwjgl.openal.AL11;
-
-import javax.sound.sampled.AudioFormat;
-import java.io.ByteArrayOutputStream;
-import java.nio.ByteBuffer;
-import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 public class OpenAlPlayer {
     private final ExecutorService executorService;
@@ -48,20 +51,26 @@ public class OpenAlPlayer {
 
             float sampleRate = audioData.audioFormat.getSampleRate();
 
-            AudioFormat javaSoundFormat = new AudioFormat(sampleRate, 16, 1, true, // signed
+            AudioFormat javaSoundFormat = new AudioFormat(
+                    sampleRate,
+                    16,
+                    1,
+                    true, // signed
                     false // little-endian
-            );
+                    );
 
             ByteArrayOutputStream out = new ByteArrayOutputStream();
 
             // Create WSOLA processor first to get proper buffer sizes
-            WaveformSimilarityBasedOverlapAdd wsola = new WaveformSimilarityBasedOverlapAdd(WaveformSimilarityBasedOverlapAdd.Parameters.speechDefaults(speed, sampleRate));
+            WaveformSimilarityBasedOverlapAdd wsola = new WaveformSimilarityBasedOverlapAdd(
+                    WaveformSimilarityBasedOverlapAdd.Parameters.speechDefaults(speed, sampleRate));
 
             // Use WSOLA's recommended buffer sizes
             int bufferSize = wsola.getInputBufferSize();
             int overlap = wsola.getOverlap();
 
-            AudioDispatcher dispatcher = AudioDispatcherFactory.fromByteArray(audioBytes, javaSoundFormat, bufferSize, overlap);
+            AudioDispatcher dispatcher =
+                    AudioDispatcherFactory.fromByteArray(audioBytes, javaSoundFormat, bufferSize, overlap);
 
             // Set dispatcher on WSOLA
             wsola.setDispatcher(dispatcher);
@@ -128,7 +137,8 @@ public class OpenAlPlayer {
                 monoData = timeStretch(audioData, speed);
 
                 // Always use MONO16 format since that's what we're creating
-                AL11.alBufferData(buffers[0], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
+                AL11.alBufferData(
+                        buffers[0], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
                 AL11.alSourceQueueBuffers(sourceID, buffers[0]);
                 AL11.alSourcePlay(sourceID);
                 return;
@@ -175,13 +185,15 @@ public class OpenAlPlayer {
     }
 
     private void setPosition(int sourceID, Optional<Vec3> soundPos) {
-        soundPos.ifPresentOrElse(pos -> {
-            AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_FALSE);
-            AL11.alSource3f(sourceID, AL11.AL_POSITION, (float) pos.x, (float) pos.y, (float) pos.z);
-        }, () -> {
-            AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
-            AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
-        });
+        soundPos.ifPresentOrElse(
+                pos -> {
+                    AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_FALSE);
+                    AL11.alSource3f(sourceID, AL11.AL_POSITION, (float) pos.x, (float) pos.y, (float) pos.z);
+                },
+                () -> {
+                    AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
+                    AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
+                });
         updateVolume(sourceID);
     }
 

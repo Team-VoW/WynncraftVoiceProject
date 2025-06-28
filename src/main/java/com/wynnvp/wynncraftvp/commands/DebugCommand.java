@@ -8,7 +8,6 @@ import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.sound.SoundObject;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import net.minecraft.commands.CommandBuildContext;
@@ -17,8 +16,10 @@ import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
 
 public class DebugCommand {
-
-    public static void register(CommandDispatcher<CommandSourceStack> commandSourceStackCommandDispatcher, CommandBuildContext commandBuildContext, Commands.CommandSelection commandSelection) {
+    public static void register(
+            CommandDispatcher<CommandSourceStack> commandSourceStackCommandDispatcher,
+            CommandBuildContext commandBuildContext,
+            Commands.CommandSelection commandSelection) {
         LiteralArgumentBuilder<CommandSourceStack> builder = Commands.literal("vow-debug")
                 .executes(context -> {
                     context.getSource().sendSuccess(() -> Component.literal("VoW Debug command"), false);
@@ -26,8 +27,11 @@ public class DebugCommand {
                 })
                 .then(Commands.literal("play-first-sound")
                         .executes(context -> {
-                            if (ModCore.instance == null || ModCore.instance.soundsHandler == null || ModCore.instance.soundPlayer == null) {
-                                context.getSource().sendFailure(Component.literal("ModCore not initialized correctly!"));
+                            if (ModCore.instance == null
+                                    || ModCore.instance.soundsHandler == null
+                                    || ModCore.instance.soundPlayer == null) {
+                                context.getSource()
+                                        .sendFailure(Component.literal("ModCore not initialized correctly!"));
                                 return 0;
                             }
 
@@ -37,16 +41,23 @@ public class DebugCommand {
                                 return 0;
                             }
 
-                            LineData lineData = LineFormatter.formatToLineData("[1/15] Theorick: I could've sworn she had gone this way... Oh, what now, more imbeciles? This forest isn't safe to travel!");
+                            LineData lineData = LineFormatter.formatToLineData(
+                                    "[1/15] Theorick: I could've sworn she had gone this way... Oh, what now, more imbeciles? This forest isn't safe to travel!");
                             ModCore.instance.soundPlayer.playSound(lineData);
 
-                            context.getSource().sendSuccess(() -> Component.literal("Playing first sound: " + lineData.getRealLine()), false);
+                            context.getSource()
+                                    .sendSuccess(
+                                            () -> Component.literal("Playing first sound: " + lineData.getRealLine()),
+                                            false);
                             return 1;
                         })
                         .then(Commands.argument("text", StringArgumentType.greedyString())
                                 .executes(context -> {
-                                    if (ModCore.instance == null || ModCore.instance.soundsHandler == null || ModCore.instance.soundPlayer == null) {
-                                        context.getSource().sendFailure(Component.literal("ModCore not initialized correctly!"));
+                                    if (ModCore.instance == null
+                                            || ModCore.instance.soundsHandler == null
+                                            || ModCore.instance.soundPlayer == null) {
+                                        context.getSource()
+                                                .sendFailure(Component.literal("ModCore not initialized correctly!"));
                                         return 0;
                                     }
 
@@ -60,7 +71,11 @@ public class DebugCommand {
                                     LineData lineData = LineFormatter.formatToLineData(customText);
                                     ModCore.instance.soundPlayer.playSound(lineData);
 
-                                    context.getSource().sendSuccess(() -> Component.literal("Playing sound with custom text: " + lineData.getRealLine()), false);
+                                    context.getSource()
+                                            .sendSuccess(
+                                                    () -> Component.literal("Playing sound with custom text: "
+                                                            + lineData.getRealLine()),
+                                                    false);
                                     return 1;
                                 })));
 

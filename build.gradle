@@ -93,8 +93,12 @@ dependencies {
 
     modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}+${project.minecraft_version}"
-    implementation include('be.tarsos.dsp:core:2.5')
-    implementation include('be.tarsos.dsp:jvm:2.5')
+
+    // TarsosDSP dependencies - properly bundle them
+    implementation 'be.tarsos.dsp:core:2.5'
+    include 'be.tarsos.dsp:core:2.5'
+    implementation 'be.tarsos.dsp:jvm:2.5'
+    include 'be.tarsos.dsp:jvm:2.5'
 
     // Development dependencies
     modRuntimeOnly "me.djtheredstoner:DevAuth-fabric:${project.devauth_version}"
@@ -113,13 +117,13 @@ dependencies {
 
 processResources {
     var replaceProperties = [
-            mod_version            : version,
-            mod_id                 : maven_group,
-            mod_name               : mod_name,
-            minecraft_version_range: minecraft_version_range,
-            fabric_loader_version  : fabric_loader_version,
-            fabric_api_version     : fabric_api_version,
-            cloth_config_version   : cloth_config_version,
+        mod_version            : version,
+        mod_id                 : maven_group,
+        mod_name               : mod_name,
+        minecraft_version_range: minecraft_version_range,
+        fabric_loader_version  : fabric_loader_version,
+        fabric_api_version     : fabric_api_version,
+        cloth_config_version   : cloth_config_version,
     ]
     inputs.properties replaceProperties
 
