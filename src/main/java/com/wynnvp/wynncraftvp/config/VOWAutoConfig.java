@@ -41,7 +41,8 @@ public class VOWAutoConfig implements ConfigData {
     public boolean playAllSoundsOnPlayer = false;
 
     @ConfigEntry.Gui.Tooltip
-    public float playbackSpeed = 1.0f;
+    @ConfigEntry.BoundedDiscrete(min = 70, max = 200)
+    public int playbackSpeed = 100;
 
     // Line reporting settings
     public boolean reportMissingLines = true;
@@ -117,7 +118,7 @@ public class VOWAutoConfig implements ConfigData {
     }
 
     public float getPlaybackSpeed() {
-        return playbackSpeed;
+        return playbackSpeed / 100.0f;
     }
 
     public String getWord() {
