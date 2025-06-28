@@ -20,16 +20,10 @@ public class VOWAutoConfig implements ConfigData {
     public boolean hasChosenLineReport = false;
 
     @ConfigEntry.Gui.Excluded
-    public int tripleQuestionMarkInessentiel = 1000;
-
-    @ConfigEntry.Gui.Excluded
     public String azureBlobLink = "http://voicesofwynn.blob.core.windows.net/audio/sounds/";
 
     @ConfigEntry.Gui.Excluded
-    public List<String> urls = List.of(
-            "http://voicesofwynn.blob.core.windows.net/audio/sounds/",
-            "http://voicesofwynnus.blob.core.windows.net/audio/sounds/",
-            "http://voicesofwynnasia.blob.core.windows.net/audio/sounds/");
+    public List<String> urls = List.of("https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/");
 
     @ConfigEntry.Gui.Excluded
     public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5;
@@ -39,6 +33,10 @@ public class VOWAutoConfig implements ConfigData {
 
     @ConfigEntry.Gui.Tooltip
     public boolean playAllSoundsOnPlayer = false;
+
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.BoundedDiscrete(min = 70, max = 200)
+    public int playbackSpeed = 100;
 
     // Line reporting settings
     public boolean reportMissingLines = true;
@@ -81,7 +79,6 @@ public class VOWAutoConfig implements ConfigData {
         public String customAudioPath = "";
     }
 
-
     public boolean isLogDialogueLines() {
         return debugAndLogs.logDialogueLines;
     }
@@ -114,6 +111,10 @@ public class VOWAutoConfig implements ConfigData {
         return playAllSoundsOnPlayer;
     }
 
+    public float getPlaybackSpeed() {
+        return playbackSpeed / 100.0f;
+    }
+
     public String getWord() {
         return word;
     }
@@ -136,10 +137,6 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isSendFunFact() {
         return sendFunFact;
-    }
-
-    public int getTripleQuestionMarkInessentiel() {
-        return tripleQuestionMarkInessentiel;
     }
 
     public int getBlockCutOff() {

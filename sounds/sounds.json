@@ -270,7 +270,7 @@
     "file": "kingsrecruit-tasim-26"
   },
   {
-    "line": "[2/2] Aledar: Well, we've got no choice but to make it through! Finally time for us to use these weapons we got. Let's go, soldier.",
+    "line": "[2/2] Aledar: Well, we've got no choice but to make it through! Finally time for us to use these weapons we got!",
     "file": "kingsrecruit-aledar-21"
   },
   {
@@ -370,7 +370,15 @@
     "file": "kingsrecruit-tasim-33"
   },
   {
+    "line": "[1/2] Tasim: Here it is, the end of our journey.",
+    "file": "kingsrecruit-tasim-33"
+  },
+  {
     "line": "[6/6] Aledar: The end of one adventure, but the beginning of another! Let's go inside and talk to the King!",
+    "file": "kingsrecruit-aledar-28"
+  },
+  {
+    "line": "[2/2] Aledar: The end of one adventure, but the beginning of another! Let's go inside and talk to the King!",
     "file": "kingsrecruit-aledar-28"
   },
   {
@@ -463,8 +471,6 @@
     "line": "[5/5] Tasim: Well, there you go! I'm going to head to the end of the Emerald Trail, to the entrance of Nivla Woods. You should meet me there once you've gotten a little stronger.",
     "file": "kingsrecruit-tasim-44"
   },
-
-
   {
     "line": "[1/5] Enzan: I see you want to venture into the wilderness!",
     "file": "enzansbrother-enzan-1"
@@ -845,11 +851,23 @@
     "file": "supplyanddelivery-tasim-3"
   },
   {
+    "line": "[1/5] Tasim: I... guess so? Is there a reason you can't do it yourself?",
+    "file": "supplyanddelivery-tasim-3"
+  },
+  {
     "line": "[2/3] Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!",
     "file": "supplyanddelivery-tasim-4"
   },
   {
-    "line": "[3/3] Tasim: You- what!? Nevermind, I don't actually want to know. Come on, lead the way. I'll buy... whatever it is you need.",
+    "line": "[3/6] Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!",
+    "file": "supplyanddelivery-tasim-4"
+  },
+  {
+    "line": "[2/5] Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!",
+    "file": "supplyanddelivery-tasim-4"
+  },
+  {
+    "line": "[3/3] Tasim: You- what!? Nevermind, I don't actually want to know. Come on, lead the way. I'll buy whatever it is Ope needs.",
     "file": "supplyanddelivery-tasim-5"
   },
   {
@@ -1023,6 +1041,78 @@
     "file": "infestedplants-ope-13"
   },
   {
+    "line": "[1/4] Ope: Well, here we are! The cave's right over there - just climb up the rocks and jump into it.",
+    "file": "infestedplants-ope-14"
+  },
+  {
+    "line": "[4/4] Ope: Good, good. Well, good luck in there! Try not to get bitten too much by the spiders!",
+    "file": "infestedplants-ope-15"
+  },
+  {
+    "line": "[7/10] Ope: It has been a time, soldiers, but I truly must be going! We're near Alekin Village, you should stop on by! Just keep going east down the main road! Go and speak to the mayor! He can cover my expenses!",
+    "file": "infestedplants-ope-16"
+  },
+  {
+    "line": "[1/1] Ope: Yes, yes, soon I can- oh, you're still here! Right... You have to go into that cave, remember?",
+    "file": "infestedplants-ope-17"
+  },
+  {
+    "line": "[2/3] Ope: O-oh! H-hello soldier! I, uh... can't talk right now. I'm on... very official business! You know how it is, I'm sure.",
+    "file": "infestedplants-ope-18"
+  },
+  {
+    "line": "[1/3] Ope: Oh, man... What am I going to do now...",
+    "file": "infestedplants-ope-19"
+  },
+  {
+    "line": "[3/3] Ope: So. Uh... Talk to you later! Maybe when you're Level 16, I'll... have time! Probably!",
+    "file": "infestedplants-ope-20"
+  },
+  {
+    "line": "[1/1] Ope: You bought the crate! Good, good. You still need to pick it up from the Trade Market, though!",
+    "file": "infestedplants-ope-21"
+  },
+  {
+    "line": "[1/2] Ope: Well? Did you convince the other guy yet?",
+    "file": "infestedplants-ope-22"
+  },
+  {
+    "line": "[2/2] Ope: Just... go talk to the other soldier and convince him to buy the supply crate for us! How hard could that be?",
+    "file": "infestedplants-ope-23"
+  },
+  {
+    "line": "[1/10] Ope: Oh, man... What am I going to do now...",
+    "file": "infestedplants-ope-24"
+  },
+  {
+    "line": "[2/10] Ope: O-oh! H-hello soldier! Wow, what a coincidence that we're both here... in Detlas... today...",
+    "file": "infestedplants-ope-25"
+  },
+  {
+    "line": "[3/10] Ope: What? Don't look at me like that! We had a perfectly fair interaction which we both benefited from. I got the plant, and you... well. You gained experience?",
+    "file": "infestedplants-ope-26"
+  },
+  {
+    "line": "[4/10] Ope: Look, alright, I get it! But I can't pay you back either way. The mayor sent me here to pick up a crate of supplies for the village.",
+    "file": "infestedplants-ope-27"
+  },
+  {
+    "line": "[5/10] Ope: The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway...",
+    "file": "infestedplants-ope-28"
+  },
+  {
+    "line": "[6/10] Ope: Those two over there who run the market banned me from ever using it after I tried to buy out the world's supplies of magical powders.",
+    "file": "infestedplants-ope-29"
+  },
+  {
+    "line": "[7/10] Ope: Look, it's not my fault I'm making big market moves. I'm just, you know- smarter than all these other folks!",
+    "file": "infestedplants-ope-30"
+  },
+  {
+    "line": "[1/1] Ope: Hey! I- uh, I think you left the crate behind. When you ran off. You should, you know, maybe bring it this time...?",
+    "file": "infestedplants-ope-31"
+  },
+  {
     "line": "[10/10] Tasim: That's... frustrating. He seemed shady from the start, I should have-... Well. What's done is done. Let's go speak to that mayor.",
     "file": "infestedplants-tasim-8"
   },
@@ -1053,6 +1143,26 @@
   {
     "line": "[1/1] Tasim: I'm going to go rest up a little. I'll be ready for more adventure soon though, don't worry!",
     "file": "infestedplants-tasim-11"
+  },
+  {
+    "line": "[1/2] Tasim: Oh, soldier! There you are. It's good to see you. I'd say we should keep heading towards Detlas, but...\n",
+    "file": "infestedplants-tasim-12"
+  },
+  {
+    "line": "[2/2] Tasim: You could probably do with getting a little stronger first. Tell me when you reach Level 4, alright?",
+    "file": "infestedplants-tasim-13"
+  },
+  {
+    "line": "[3/4] Tasim: Alright! soldier, you can go into the cave, and I can defend Ope here while you do that.",
+    "file": "infestedplants-tasim-14"
+  },
+  {
+    "line": "[1/1] Tasim: I can handle it down here, soldier. You just need to go into that cave and find the herb.",
+    "file": "infestedplants-tasim-15"
+  },
+  {
+    "line": "[1/1] Tasim: I'm going to go on ahead. I'll meet you in Alekin Village, it's just up ahead.",
+    "file": "infestedplants-tasim-16"
   },
   {
     "line": "[1/1] Mayor Alvin: Ah, hello! What can I do for you today?",
@@ -1855,7 +1965,7 @@
     "file": "takingthetower-aledar-15"
   },
   {
-    "line": "[4/6] Aledar: In this case, you can apply a ? Water powder, so that your weapon will be more effective against the corrupted enemies at the tower!",
+    "line": "[4/6] Aledar: In this case, you can apply a ❉ Water powder, so that your weapon will be more effective against the corrupted enemies at the tower!",
     "file": "takingthetower-aledar-16"
   },
   {
@@ -2100,6 +2210,10 @@
     "file": "mushroomman-tasim-13"
   },
   {
+    "line": "[4/9] Tasim: ...Come on.",
+    "file": "mushroomman-tasim-13"
+  },
+  {
     "line": "[6/10] Yahya: Oho okay, ok-... okay! It was a joke, don't get all ex-... ex-... excited. Here, just take-",
     "file": "mushroomman-yahya-15"
   },
@@ -2112,10 +2226,18 @@
     "file": "mushroomman-tasim-14"
   },
   {
+    "line": "[7/9] Tasim: Yahya! No!",
+    "file": "mushroomman-tasim-14"
+  },
+  {
     "line": "[9/10] Tasim: ..."
   },
   {
     "line": "[10/10] Tasim: I-... this is bad. This is really bad. We need to tell the Mayor, now.",
+    "file": "mushroomman-tasim-15"
+  },
+  {
+    "line": "[9/9] Tasim: I-... this is bad. This is really bad. We need to tell the Mayor, now.",
     "file": "mushroomman-tasim-15"
   },
   {
@@ -2193,6 +2315,74 @@
   {
     "line": "[9/12] Tasim: Thank you, sir. But is there anything we could do to actually help?",
     "file": "mushroomman-tasim-25"
+  },
+  {
+    "line": "[1/4] Tasim: ...Oh, soldier, you're awake! I was really worried there for a bit...",
+    "file": "mushroomman-tasim-26"
+  },
+  {
+    "line": "[2/4] Tasim: After you went down, I managed to hold my own long enough for some nearby soldiers to arrive and help. I can't thank Lieutenant Van enough.",
+    "file": "mushroomman-tasim-27"
+  },
+  {
+    "line": "[3/4] Tasim: We, uh... brought you back here for you to rest up. Aledar's around here somewhere, I think.",
+    "file": "mushroomman-tasim-28"
+  },
+  {
+    "line": "[4/4] Tasim: Oh. I spoke to Admiral Aegis about the spider problem already. He said he wants to speak to you about it too. He should be downstairs.",
+    "file": "mushroomman-tasim-29"
+  },
+  {
+    "line": "[1/3] Tasim: Phew. I think that went about as well as it could have!",
+    "file": "mushroomman-tasim-30"
+  },
+  {
+    "line": "[2/3] Tasim: We're both in one piece, the corrupted is dead... Good. That's good!",
+    "file": "mushroomman-tasim-31"
+  },
+  {
+    "line": "[3/3] Tasim: Let's keep moving towards Detlas. I don't think it's too much further, if we keep heading east from here.",
+    "file": "mushroomman-tasim-32"
+  },
+  {
+    "line": "[6/9] Tasim: And if we wanted to help out, sir? I'm getting a little stir-crazy in here.",
+    "file": "mushroomman-tasim-33"
+  },
+  {
+    "line": "[1/2] Tasim: soldier, hello! This place really is nice, isn't it? I'd like to stay a while longer before moving on towards Detlas, but I'll be ready soon.",
+    "file": "mushroomman-tasim-34"
+  },
+  {
+    "line": "[2/2] Tasim: In the meantime, I've been thinking about what we could do to help this place... But I haven't gotten anything yet. Let me know when you reach level 6, alright?",
+    "file": "mushroomman-tasim-35"
+  },
+  {
+    "line": "[1/4] Tasim: soldier! Wait up!",
+    "file": "mushroomman-tasim-36"
+  },
+  {
+    "line": "[2/4] Tasim: Why'd you just leave me there? If we couldn't fight that thing off together, what made you think I could do it alone?",
+    "file": "mushroomman-tasim-37"
+  },
+  {
+    "line": "[3/4] Tasim: I managed to get away, but... still. What if I couldn't? Would you have just left me for dead?",
+    "file": "mushroomman-tasim-38"
+  },
+  {
+    "line": "[4/4] Tasim: ...Whatever. I'm alive, you're alive... that's probably good enough. Let's go find Admiral Aegis.",
+    "file": "mushroomman-tasim-39"
+  },
+  {
+    "line": "[1/3] Tasim: Wait. Did you hear that?",
+    "file": "mushroomman-tasim-40"
+  },
+  {
+    "line": "[2/3] Tasim: Gah! soldier, look out!",
+    "file": "mushroomman-tasim-41"
+  },
+  {
+    "line": "[3/3] Tasim: Another one of these? We've fought one of them before, we can do it again!",
+    "file": "mushroomman-tasim-42"
   },
   {
     "line": "[10/12] Admiral Aegis: Enthusiastic, aren't you! Let me think... I believe Captain Fenor out by the west gate was looking for aid. If you're willing, I'd suggest you speak with him.",
@@ -2364,7 +2554,7 @@
     "file": "elementalexercise-captainragon-13"
   },
   {
-    "line": "[1/2] Tasim: Hm... So if I attack this one, I'll deal more ? Air and less ? Earth...",
+    "line": "[1/2] Tasim: Hm... So if I attack this one, I'll deal more ❋ Air and less ✤ Earth...",
     "file": "elementalexercise-tasim-4"
   },
   {
@@ -2545,7 +2735,7 @@
     "file": "elementalexercise-captainragon-33"
   },
   {
-    "line": "[4/7] Tasim: Thank you, sir! That captain was a tough foe, but it was nothing we couldn't handle... right, soldier?",
+    "line": "[4/7] Tasim: Thank you, sir! That summoner was a tough foe, but it was nothing we couldn't handle... right, soldier?",
     "file": "elementalexercise-tasim-25"
   },
   {
@@ -2625,6 +2815,26 @@
     "file": "elementalexercise-tasim-33"
   },
   {
+    "line": "[1/8] Tasim: Woo! You fought well, soldier, but it looks like I'm still better! Wait until Aledar hears about this...",
+    "file": "elementalexercise-tasim-34"
+  },
+  {
+    "line": "[1/5] Tasim: Oh, hey soldier! Are you here for some training? Aledar and I thought we'd get some practice in before- you know.",
+    "file": "elementalexercise-tasim-35"
+  },
+  {
+    "line": "[2/5] Tasim: It's going... about as well as you would expect.",
+    "file": "elementalexercise-tasim-36"
+  },
+  {
+    "line": "[4/5] Tasim: ...Sure. Well, soldier, there's plenty of dummies around if you want to train up as well. Including the one fighting a dummy that's the same element as his weapon...",
+    "file": "elementalexercise-tasim-37"
+  },
+  {
+    "line": "[3/4] Tasim: That's what I do best. Also, I can tell you when your form's off. Which it is... fairly often!",
+    "file": "elementalexercise-tasim-38"
+  },
+  {
     "line": "[1/9] Enkser: Looking for able-bodied adventurers! Preferably with no friends or family, but I'm not picky!",
     "file": "stablestory-enkser-1"
   },
@@ -2677,10 +2887,16 @@
     "file": "stablestory-enkser-12"
   },
   {
+    "line": "[4/5] Enkser: I kid! I kid. But as the great bovine above as my witness if I see the smallest bruise I will-",
+    "file": "stablestory-enkser-13"
+  },  {
     "line": "[4/5] Enkser: I kid! I kid. But as the great bovine above is my witness if I see the smallest bruise I will-",
     "file": "stablestory-enkser-13"
   },
   {
+    "line": "[5/5] Enkser: Eh, nevermind all that. A horse I promised, and a horse you shall have. Much thanks to you.",
+    "file": "stablestory-enkser-14"
+  },  {
     "line": "[5/5] Enkser: Nevermind all that. A horse I promised, and a horse you shall have. Much thanks to you.",
     "file": "stablestory-enkser-14"
   },
@@ -2729,6 +2945,10 @@
     "file": "arachnidsascent-tasim-1"
   },
   {
+    "line": "[4/9] Tasim: If soldier is here, I take it that means today is the day we strike at the spiders?\n",
+    "file": "arachnidsascent-tasim-1"
+  },
+  {
     "line": "[7/11] Admiral Aegis: Indeed it is. Now, you three are to be the force which will fight through their den and clear out as many of those spiders as you can. For that, you'll need support.",
     "file": "arachnidsascent-admiralaegis-3"
   },
@@ -2742,6 +2962,10 @@
   },
   {
     "line": "[10/11] Tasim: Yes, sir. We'll do our best.",
+    "file": "arachnidsascent-tasim-2"
+  },
+  {
+    "line": "[8/9] Tasim: Yes, sir. We'll do our best.",
     "file": "arachnidsascent-tasim-2"
   },
   {
@@ -3026,6 +3250,10 @@
   },
   {
     "line": "[2/6] Tasim: We did, yes. There was a powerful spider at the peak, which was making use of this magical flame.",
+    "file": "arachnidsascent-tasim-20"
+  },
+  {
+    "line": "[2/7] Tasim: We did, yes. There was a powerful spider at the peak, which was making use of this magical flame.",
     "file": "arachnidsascent-tasim-20"
   },
   {
@@ -3541,7 +3769,7 @@
     "file": "gravedigger-sayleros-9"
   },
   {
-    "line": "[1/1] Sayleros: Thank you so much for your help",
+    "line": "[1/1] Sayleros: Thank you so much for your help!",
     "file": "gravedigger-sayleros-10"
   },
   {
@@ -3938,58 +4166,53 @@
     "onPlayer": true
   },
   {
-    "line": "[2/6] ???: Ah, but if you had only said so sooner! They have already left this mortal coil...oh, what a shame.",
+    "line": "[2/6] ???: Ah, but if you had only said so sooner! I'm afraid they have already joined me, down below.",
     "file": "darkdescent-charon-3",
     "onPlayer": true
   },
   {
-    "line": "[4/6] ???: Hush now. I will ensure that you and your family are reunited. You will even be able to partake in...keheh...family outings, under my watchful eye...",
+    "line": "[4/6] ???: Hush, now. You and your family will make fine additions to my legion.",
     "file": "darkdescent-charon-4",
     "onPlayer": true
   },
   {
-    "line": "[6/6] ???: Aha, naive girl. How cute, you believe you have a choice in the matter. What you want, is not what I need.",
+    "line": "[6/6] ???: How naive. Fear not. You will rise again, and then you will serve my purpose.",
     "file": "darkdescent-charon-5",
     "onPlayer": true
   },
   {
-    "line": "[1/6] ???: Heheh...do you see now?",
+    "line": "[1/6] ???: Heheh... do you see now?",
     "file": "darkdescent-charon-6",
     "onPlayer": true
   },
   {
-    "line": "[2/6] ???: Do you see how easily this place fell? How quickly I became its master? And how I could simply dispose of you without a second thought?",
+    "line": "[2/6] ???: How easily this place fell? How quickly I became its master?",
     "file": "darkdescent-charon-7",
     "onPlayer": true
   },
   {
-    "line": "[3/6] ???: Such fragile beings, humans. So very easily influenced. Heartbroken, made hopeless. Your ties only serve to weaken you.",
+    "line": "[3/6] ???: Hundreds slaughtered in mere moments... only to rise again as my soldiers in infinite amounts.",
     "file": "darkdescent-charon-8",
     "onPlayer": true
   },
   {
-    "line": "[4/6] ???: So I invite you to continue. I encourage it, even. For if you should foray into my domain...",
+    "line": "[4/6] ???: You can barely keep them at bay on the surface, and yet you think to enter my own domain, to challenge me in the Underworld?",
     "file": "darkdescent-charon-9",
     "onPlayer": true
   },
   {
-    "line": "[5/6] ???: There would be simply no chance for you to survive. And then, I will be free to string you up like a lifeless little puppet.",
+    "line": "[5/6] ???: You will fail, and I will be free to string your body up like a puppet and make you dance for me.",
     "file": "darkdescent-charon-10",
     "onPlayer": true
   },
   {
-    "line": "[6/6] ???: So take the gem, my little soldier. I eagerly await our next meeting, keheheh...",
+    "line": "[6/6] ???: So enter the mouth of my skull, soldier, make your way below the ground. I look forward to our next meeting, keheheh...",
     "file": "darkdescent-charon-11",
     "onPlayer": true
   },
   {
-    "line": "[1/3] ???: I will allow you to return now... and I will ensure you remember what you have seen here.",
+    "line": "[1/2] ???: Return to your world, now. And if you still want to challenge me... I'll be waiting.",
     "file": "darkdescent-charon-12",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/3] ???: Good luck on your little quest...keheheh...",
-    "file": "darkdescent-charon-13",
     "onPlayer": true
   },
   {
@@ -4026,60 +4249,116 @@
     "file": "darkdescent-soldier-3"
   },
   {
-    "line": "[1/11] General Graken: Ah, hello there chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.",
+    "line": "[1/8] General Graken: Hello there, chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.",
     "file": "darkdescent-generalgraken-1"
   },
   {
-    "line": "[1/5] General Graken: Oh, sod it, I knew I was forgetting something! Steady there, chum! I'm on my way!",
+    "line": "[2/8] General Graken: I am General Graken, leader of the Nemract militia. Charmed to meet you!",
     "file": "darkdescent-generalgraken-2"
   },
   {
-    "line": "[2/5] General Graken: Drat! Too late, it seems. Yes, I forgot to mention the floor was in poor condition. Up here! You took quite the tumble, are you alright?",
+    "line": "[3/8] General Graken: You've seen all the bloody zombies faffing about everywhere, yes? They're all seeming to come from this massive skull.",
     "file": "darkdescent-generalgraken-3"
   },
   {
-    "line": "[3/5] General Graken: Well, there's some good news, I suppose. Still though, seems I sent you a ticket to a bit of a sticky wicket! Do you see a way out anywhere down there?",
+    "line": "[4/8] General Graken: I'm putting together a crack team for an expedition inside, but we haven't got any bleedin' idea what's down there!",
     "file": "darkdescent-generalgraken-4"
   },
   {
-    "line": "[4/5] General Graken: There's a tunnel? Aha, spiffing! I suggest you take it immediately. I'll have to return to my post now, post-haste!",
+    "line": "[5/8] General Graken: If you're up for it, chap, we could absolutely do with some recon 'round the old town, look for clues and the like.",
     "file": "darkdescent-generalgraken-5"
   },
   {
-    "line": "[5/5] General Graken: Good luck, chum! Now, back, you cads! Back I say!",
+    "line": "[6/8] General Graken: I took a gander earlier, and one of the ol' houses caught my eye - it had a bloomin' great skull right over the door!",
     "file": "darkdescent-generalgraken-6"
   },
   {
-    "line": "[3/3] General Graken: Hey! Come on, come over here! Quit milling about with the zombies, chap!",
+    "line": "[7/8] General Graken: I didn't have time to look in proper, but I'd start the investigation there, chap.",
     "file": "darkdescent-generalgraken-7"
   },
   {
-    "line": "[1/10] General Graken: Oi! Hallo?! Chum? Why're you wandering round all bog-eyed? Come back to me now!",
+    "line": "[8/8] General Graken: It's just south of here. The house still had solid wood boarding in it, despite the age, so look lively, chum!",
     "file": "darkdescent-generalgraken-8"
   },
   {
-    "line": "[1/6] General Graken: Aha, chap! Wonderful, the Ragni regiment's gotten its representative down 'ere. All rested up, I suppose, so let me give you an earful",
+    "line": "[1/2] General Graken: Ah, hello chap! Might I inquire as to whether you've glanced in that house yet?",
     "file": "darkdescent-generalgraken-9"
   },
   {
-    "line": "[1/4] General Graken: Simply marvellous work, chap! You've made it this far, so no time to fill your boots. Be prepared, we are about to fight Charon's undead army",
+    "line": "[2/2] General Graken: It's just up the road here, impossible to miss with a bleedin' skull right over the doorway!",
     "file": "darkdescent-generalgraken-10"
   },
   {
-    "line": "[1/2] General Graken: Ah, hello chap! Might I inquire as to whether you've found that blasted little ruby yet? ",
+    "line": "[1/5] General Graken: Oh, sod it, I knew I was forgetting something! Steady there, chum! I'm on my way!",
     "file": "darkdescent-generalgraken-11"
   },
   {
-    "line": "[1/1] General Graken: I'll do a spot of scouting ahead, and then meet you in there! I must admit this place does give me the habdabs though, wot wot?",
+    "line": "[2/5] General Graken: Drat! Too late, it seems. Yes, I forgot to mention the floor was in poor condition. Up here! You took quite the tumble, are you alright?",
     "file": "darkdescent-generalgraken-12"
   },
   {
-    "line": "[1/1] General Graken: Well, I would ask for a spot of help, but that'd be a bit barmy of me, considering you aren't even Level 24 yet! You've bog all chance of being able to help 'til then, though I mean no offense. ",
+    "line": "[3/5] General Graken: Well, there's some good news, I suppose. Still though, seems I sent you a ticket to a bit of a sticky wicket! Do you see a way out anywhere down there?",
     "file": "darkdescent-generalgraken-13"
   },
   {
-    "line": "[1/5] General Graken: Old chap, I can only hope you find this scribble in my absence. Of course I hope that you did not have to return at all.",
+    "line": "[4/5] General Graken: There's a tunnel? Aha, spiffing! I suggest you take it immediately. I'll have to return to my post now, post-haste!",
     "file": "darkdescent-generalgraken-14"
+  },
+  {
+    "line": "[5/5] General Graken: Good luck, chum! Now, back, you cads! Back I say!",
+    "file": "darkdescent-generalgraken-15"
+  },
+  {
+    "line": "[2/2] General Graken: Hey! Come on, come over here! Quit milling about with the zombies, chap!",
+    "file": "darkdescent-generalgraken-16"
+  },
+  {
+    "line": "[1/9] General Graken: Oi! Hallo?! Chum? Why're you wandering round all bog-eyed? Come back to me now!",
+    "file": "darkdescent-generalgraken-17"
+  },
+  {
+    "line": "[2/9] General Graken: Come on, pip pip! Let's see a bit more colour in your eyes- There we are! Back now, chap?",
+    "file": "darkdescent-generalgraken-18"
+  },
+  {
+    "line": "[3/9] General Graken: Capital! You had me quite worried for a spot, there. Do bubble about just what went on down there, mm?",
+    "file": "darkdescent-generalgraken-19"
+  },
+  {
+    "line": "[4/9] General Graken: You were stumbling about like a senile biddy, eyes blank as cream, and you kept muttering something about a Charon.",
+    "file": "darkdescent-generalgraken-20"
+  },
+  {
+    "line": "[5/9] General Graken: I'm supposing he was the one who took you for a spin there? Well, you certainly haven't carked it, so I might call this operation a success!",
+    "file": "darkdescent-generalgraken-21"
+  },
+  {
+    "line": "[6/9] General Graken: Your discoveries fit in jolly-well with what we already know - and I'm convinced. To stop all these bleedin' zombos, we're going to have to go down under.",
+    "file": "darkdescent-generalgraken-22"
+  },
+  {
+    "line": "[7/9] General Graken: Preliminary expeditions have brought back some real nasty bits, brains and such - but also some fancy-as-you-like jewellery!",
+    "file": "darkdescent-generalgraken-23"
+  },
+  {
+    "line": "[8/9] General Graken: Take some with you, remind you what we're up against. But keep your eyes on the prize!",
+    "file": "darkdescent-generalgraken-24"
+  },
+  {
+    "line": "[9/9] General Graken: When you're ready, I'd be chuffed to have you along in the expedition down into the depths, old bean!",
+    "file": "darkdescent-generalgraken-25"
+  },
+  {
+    "line": "[1/1] General Graken: I'll do a spot of scouting ahead, and then meet you in there! I must admit this place does give me the habdabs though, wot wot?",
+    "file": "darkdescent-generalgraken-26"
+  },
+  {
+    "line": "[1/1] General Graken: Well, I would ask for a spot of help, but that'd be a bit barmy of me, considering you aren't even Level 21 yet! You've bog all chance of being able to help 'til then, though I mean no offense.",
+    "file": "darkdescent-generalgraken-27"
+  },
+  {
+    "line": "[1/5] General Graken: Old chap, I can only hope you find this scribble in my absence. Of course I hope that you did not have to return at all.",
+    "file": "darkdescent-generalgraken-28"
   },
   {
     "line": "[1/2] Scout Reynauld: Ah, hello. Don't mind me, I'm just preparing for an oncoming corrupted attack.",
@@ -4705,6 +4984,10 @@
     "file": "recoverthepast-drpicard-35"
   },
   {
+    "line": "[11/11] Tasim: ...!",
+    "stopSounds": "false"
+  },
+  {
     "line": "[1/12] Royal Captain: All hands on deck! Arrest that insurgent!",
     "file": "recoverthepast-royalcaptain-14"
   },
@@ -4950,6 +5233,10 @@
   {
     "line": "[4/10] Tasim: ...Did the two of us really meet through sheer random luck? He was running from something, and... fell straight into my life.",
     "file": "recoverthepast-tasim-37"
+  },
+  {
+    "line": "[5/10] Tasim: ...",
+    "stopSounds": "false"
   },
   {
     "line": "[6/10] Tasim: I- I need some space to think. To... reflect. Can you-... please don't tell Aledar about any of this.",
@@ -5803,132 +6090,24 @@
     "file": "misadventureonthesea-barman-1"
   },
   {
-    "line": "[2/8] Honip: I'll take 2 Nemract Whiskeys. One for me, one for this chap.",
-    "file": "misadventureonthesea-honip-1"
-  },
-  {
     "line": "[3/8] Barman: You got it.",
     "file": "misadventureonthesea-barman-2"
-  },
-  {
-    "line": "[4/8] Honip: So, I've seen ya around town. Ya even went to the ocean to help that chicken guy!",
-    "file": "misadventureonthesea-honip-68"
-  },
-  {
-    "line": "[4/8] Honip: So... I've seen ya around town. I saw how happy that guy was when you brought him some journal.",
-    "file": "misadventureonthesea-honip-2"
   },
   {
     "line": "[5/8] Barman: 2 Nemract Whiskeys, coming up!",
     "file": "misadventureonthesea-barman-3"
   },
   {
-    "line": "[6/8] Honip: So... Soldier. Are ya up for sailin' the ocean with me? I got a fancier boat than that seaskipper! ",
-    "file": "misadventureonthesea-honip-3"
-  },
-  {
-    "line": "[7/8] Honip: I figured you'd be interested in explorin' the waters!",
-    "file": "misadventureonthesea-honip-4"
-  },
-  {
-    "line": "[8/8] Honip: I'll wait for ya on the docks. Don't worry, ya can't miss the boat! ",
-    "file": "misadventureonthesea-honip-5"
-  },
-  {
-    "line": "[1/3] Honip: There you are! Ready? Follow me, the boat's over here!",
-    "file": "misadventureonthesea-honip-6"
-  },
-  {
-    "line": "[2/3] Honip: Look at this.. Magnificent! Much better than whatever the Seaskipper is using!",
-    "file": "misadventureonthesea-honip-7"
-  },
-  {
-    "line": "[3/3] Honip: Well, what are you waiting for? Hop aboard!",
-    "file": "misadventureonthesea-honip-8"
-  },
-  {
-    "line": "[1/2] Honip: Then it's settled, we're goin' on an adventure!",
-    "file": "misadventureonthesea-honip-9"
-  },
-  {
-    "line": "[2/2] Honip: Buckle up, we got waves to catch.",
-    "file": "misadventureonthesea-honip-10"
-  },
-  {
-    "line": "[1/7] Honip: So... I should warn ya', this is actually my first time sailing...",
-    "file": "misadventureonthesea-honip-11"
-  },
-  {
-    "line": "[2/7] Honip: It doesn't seem too difficult though, a little to the left...",
-    "file": "misadventureonthesea-honip-12"
-  },
-  {
-    "line": "[3/7] Honip: Hmm, looks like we're not the only ones out on the water today.",
-    "file": "misadventureonthesea-honip-13"
-  },
-  {
-    "line": "[4/7] Honip: They're a bit too head on, don't you think?",
-    "file": "misadventureonthesea-honip-14"
-  },
-  {
-    "line": "[5/7] Honip: I'm tryin' to steer the ship but it's not budging...",
-    "file": "misadventureonthesea-honip-15"
-  },
-  {
-    "line": "[6/7] Honip: That's unfortunate...",
-    "file": "misadventureonthesea-honip-16"
-  },
-  {
-    "line": "[7/7] Honip: Unfortunate... For YOU!",
-    "file": "misadventureonthesea-honip-17"
-  },
-  {
-    "line": "[1/6] Honip: Hey, you're finally awake.",
-    "file": "misadventureonthesea-honip-18"
-  },
-  {
-    "line": "[1/3] Honip: So, there's quite a few bodies in there, and we never bothered throwin' em out!",
-    "file": "misadventureonthesea-honip-19"
-  },
-  {
-    "line": "[1/4] Honip: Hey! The boat's lookin' real nice now!",
-    "file": "misadventureonthesea-honip-20"
-  },
-  {
-    "line": "[2/4] Honip: I'll probably let you rest so- hold on.",
-    "file": "misadventureonthesea-honip-21"
-  },
-  {
     "line": "[3/4] Pirate: Ho-Honip! One of the guys said he saw something really weird coming right for us!",
     "file": "misadventureonthesea-pirate-1"
-  },
-  {
-    "line": "[4/4] Honip: Wait... What? Soldier, come!",
-    "file": "misadventureonthesea-honip-22"
-  },
-  {
-    "line": "[1/7] Honip: What's happening?!",
-    "file": "misadventureonthesea-honip-23"
   },
   {
     "line": "[2/7] Pirate: We-we don't know! We can't exactly see it, but it seems huge!",
     "file": "misadventureonthesea-pirate-2"
   },
   {
-    "line": "[3/7] Honip: I- Let me see.",
-    "file": "misadventureonthesea-honip-24"
-  },
-  {
-    "line": "[4/7] Honip: Uh... Where am I supposed to be looking at, exactly?",
-    "file": "misadventureonthesea-honip-25"
-  },
-  {
     "line": "[5/7] Pirate: I swear, it felt like the whole ocean was getting crazy a second ago!",
     "file": "misadventureonthesea-pirate-3"
-  },
-  {
-    "line": "[6/7] Honip: If this is another one of your jokes...",
-    "file": "misadventureonthesea-honip-26"
   },
   {
     "line": "[7/7] Seth: LOOK OUT!",
@@ -5937,206 +6116,6 @@
   {
     "line": "[1/2] Seth: What the hell is that??",
     "file": "misadventureonthesea-seth-2"
-  },
-  {
-    "line": "[2/2] Honip: I don't know, this wasn't planned!",
-    "file": "misadventureonthesea-honip-27"
-  },
-  {
-    "line": "[1/4] Honip: It's starting to panic!",
-    "file": "misadventureonthesea-honip-28"
-  },
-  {
-    "line": "[2/4] Honip: That's right, get back!",
-    "file": "misadventureonthesea-honip-29"
-  },
-  {
-    "line": "[3/4] Honip: I knew you had it in ya, haha!",
-    "file": "misadventureonthesea-honip-30"
-  },
-  {
-    "line": "[4/4] Honip: What a show! Come, I've got some things to tell ya!",
-    "file": "misadventureonthesea-honip-31"
-  },
-  {
-    "line": "[1/7] Honip: I don't know where that creature came from, but thanks to you it's gone.",
-    "file": "misadventureonthesea-honip-32",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/7] Honip: I've got somethin' else for you to tackle. It's about... the rats.",
-    "file": "misadventureonthesea-honip-33",
-    "onPlayer": true
-  },
-  {
-    "line": "[3/7] Honip: Come to the hold, I'll explain on the way.",
-    "file": "misadventureonthesea-honip-34",
-    "onPlayer": true
-  },
-  {
-    "line": "[4/7] Honip: I think we have quite a hellish problem on our hands.",
-    "file": "misadventureonthesea-honip-35",
-    "onPlayer": true
-  },
-  {
-    "line": "[5/7] Honip: I'm not sure what ya'll find there, but these are NOT normal rats.",
-    "file": "misadventureonthesea-honip-36",
-    "onPlayer": true
-  },
-  {
-    "line": "[6/7] Honip: So please, get in there... and kill everything, alright?",
-    "file": "misadventureonthesea-honip-37",
-    "onPlayer": true
-  },
-  {
-    "line": "[7/7] Honip: I've got faith in ya. Here goes nothin'!",
-    "file": "misadventureonthesea-honip-38",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/4] Honip: Hey there! Ya bringin' me good news?",
-    "file": "misadventureonthesea-honip-39",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/4] Honip: You took care of these damn thieving rodents? A... colossal rat you say?",
-    "file": "misadventureonthesea-honip-40",
-    "onPlayer": true
-  },
-  {
-    "line": "[3/4] Honip: Nicely done, I knew I could count on ya! C'mere, take these!",
-    "file": "misadventureonthesea-honip-41",
-    "onPlayer": true
-  },
-  {
-    "line": "[4/4] Honip: Anyway, for now, you can go rest and do whatever you want!",
-    "file": "misadventureonthesea-honip-42",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/4] Honip: What. ",
-    "file": "misadventureonthesea-honip-43",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/4] Honip: Well... That's a twist.",
-    "file": "misadventureonthesea-honip-44",
-    "onPlayer": true
-  },
-  {
-    "line": "[3/4] Honip: I expected you to do somethin', soldier, not him!",
-    "file": "misadventureonthesea-honip-45",
-    "onPlayer": true
-  },
-  {
-    "line": "[4/4] Honip: Anyways, come talk to me",
-    "file": "misadventureonthesea-honip-46",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/7] Honip: I have another task for you. It's about... the rats.",
-    "file": "misadventureonthesea-honip-47",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/7] Honip: See, I really don't think we have your usual type of problem.",
-    "file": "misadventureonthesea-honip-48",
-    "onPlayer": true
-  },
-  {
-    "line": "[4/7] Honip: We sometimes hear unusually loud footsteps, along with some really eerie squeaking...",
-    "file": "misadventureonthesea-honip-49",
-    "onPlayer": true
-  },
-  {
-    "line": "[5/7] Honip: That's why we're not too fond of goin' in... But our gunpowder there! We need it, as pirates!",
-    "file": "misadventureonthesea-honip-50",
-    "onPlayer": true
-  },
-  {
-    "line": "[6/7] Honip: So, I need you to get in... and kill everything, alright?",
-    "file": "misadventureonthesea-honip-51",
-    "onPlayer": true
-  },
-  {
-    "line": "[7/7] Honip: Here goes nothing. Snoo, ya stay there!",
-    "file": "misadventureonthesea-honip-52",
-    "onPlayer": true
-  },
-  {
-    "line": "[3/4] Honip: That sounds absolutely terrifying! And ya did that alone! You know what, her', take these.",
-    "file": "misadventureonthesea-honip-53",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/5] Honip: Just cast one of your fancy spells!",
-    "file": "misadventureonthesea-honip-54",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/5] Honip: That was... Phew... That was something.",
-    "file": "misadventureonthesea-honip-55",
-    "onPlayer": true
-  },
-  {
-    "line": "[3/5] Honip: Now, for an even bigger surprise...",
-    "file": "misadventureonthesea-honip-56",
-    "onPlayer": true
-  },
-  {
-    "line": "[4/5] Honip: What the hell soldier?? What don't you get in the \"\"soldier\"\" part of your job?",
-    "file": "misadventureonthesea-honip-57",
-    "onPlayer": true
-  },
-  {
-    "line": "[5/5] Honip: Come, let's figure some things out.",
-    "file": "misadventureonthesea-honip-58",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/7] Honip: You've been a massive disappointment, y'know?",
-    "file": "misadventureonthesea-honip-59",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/7] Honip: But you can still redeem yourself.",
-    "file": "misadventureonthesea-honip-60",
-    "onPlayer": true
-  },
-  {
-    "line": "[3/7] Honip: Follow me, I'll explain on the way.",
-    "file": "misadventureonthesea-honip-61",
-    "onPlayer": true
-  },
-  {
-    "line": "[4/7] Honip: I mentioned a rat problem earlier... It's, uh, not a small one.",
-    "file": "misadventureonthesea-honip-62",
-    "onPlayer": true
-  },
-  {
-    "line": "[5/7] Honip: We've got gunpowder to retrieve, so you're the one who's gonna clear the hold.",
-    "file": "misadventureonthesea-honip-63",
-    "onPlayer": true
-  },
-  {
-    "line": "[6/7] Honip: So get in there... and try to kill everything, alright?",
-    "file": "misadventureonthesea-honip-64",
-    "onPlayer": true
-  },
-  {
-    "line": "[7/7] Honip: Don't be as bad as earlier. You're a soldier.",
-    "file": "misadventureonthesea-honip-65",
-    "onPlayer": true
-  },
-  {
-    "line": "[3/4] Honip: Well, shiver me timbers! You did redeem yourself soldier!",
-    "file": "misadventureonthesea-honip-66",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/5] Honip: ...Seth? Have ya seen the soldier?",
-    "file": "misadventureonthesea-honip-67",
-    "onPlayer": true
   },
   {
     "line": "[2/5] Seth: No, but they did a great job in the hold! Some gunpowder went missing though.",
@@ -6158,24 +6137,444 @@
     "onPlayer": true
   },
   {
+    "line": "[4/8] Honip: So, I've seen ya around town. You've got the soul of an adventurer, don't ya?",
+    "file": "misadventureonthesea-honip-1"
+  },
+  {
+    "line": "[2/6] Honip: I honestly, truly can't believe you fell for that. Let me sum it up for you...",
+    "file": "misadventureonthesea-honip-2"
+  },
+  {
+    "line": "[3/6] Honip: Some extremely suspicious pirate comes up, offers you a drink, and leads you to his suspicious boat.",
+    "file": "misadventureonthesea-honip-3"
+  },
+  {
+    "line": "[4/6] Honip: Any normal person would've turned back by then. But what do you do? You hop on! Well, now you're stuck with us.",
+    "file": "misadventureonthesea-honip-4"
+  },
+  {
+    "line": "[5/6] Honip: Let me make this quick. This boat needs renovation, and we want you to do it.",
+    "file": "misadventureonthesea-honip-5"
+  },
+  {
+    "line": "[6/6] Honip: Why? You're a soldier! All you do is take orders! Anyway, we'll need you to clean our stuff. Here, get out.",
+    "file": "misadventureonthesea-honip-6"
+  },
+  {
+    "line": "[2/3] Honip: Go ahead, here's a sponge for the dried blood as well. Just wack the bodies with it!",
+    "file": "misadventureonthesea-honip-7"
+  },
+  {
+    "line": "[3/3] Honip: If you need me, I'll be on the deck. And, uh, don't go in the hold. We've got a BIG rat problem.",
+    "file": "misadventureonthesea-honip-8"
+  },
+  {
+    "line": "[1/2] Honip: How's work?",
+    "file": "misadventureonthesea-honip-9"
+  },
+  {
+    "line": "[2/2] Honip: Don't think we'll be done with ya once you clean all of this!",
+    "file": "misadventureonthesea-honip-10"
+  },
+  {
+    "line": "[4/5] Honip: ...",
+    "file": "misadventureonthesea-honip-11"
+  },
+  {
+    "line": "[1/1] Honip: Just cast one of your fancy spells!",
+    "file": "misadventureonthesea-honip-12"
+  },
+  {
+    "line": "[1/4] Honip: That was... Phew... That was something.",
+    "file": "misadventureonthesea-honip-13"
+  },
+  {
+    "line": "[2/4] Honip: Now, for an even bigger surprise...",
+    "file": "misadventureonthesea-honip-14"
+  },
+  {
+    "line": "[3/4] Honip: What the hell, soldier?? What don't you get in the \"soldier\" part of your job?",
+    "file": "misadventureonthesea-honip-15"
+  },
+  {
+    "line": "[4/4] Honip: Come, let's figure some things out.",
+    "file": "misadventureonthesea-honip-16"
+  },
+  {
+    "line": "[1/2] Honip: Wait, you're already leaving? I'm sure you're interested! I want to take you in an adventure!",
+    "file": "misadventureonthesea-honip-17"
+  },
+  {
+    "line": "[2/2] Honip: Meet me at the docks, I'll be waiting there!",
+    "file": "misadventureonthesea-honip-18"
+  },
+  {
+    "line": "[1/1] Honip: That's it, just cast spells!",
+    "file": "misadventureonthesea-honip-19"
+  },
+  {
+    "line": "[4/8] Honip: So, I've seen ya around town. Helping some guy with a book, explorin' the surroundings...",
+    "file": "misadventureonthesea-honip-20"
+  },
+  {
+    "line": "[1/1] Honip: 'ey soldier. Enjoying the ride?",
+    "file": "misadventureonthesea-honip-21"
+  },
+  {
+    "line": "[1/1] Honip: Here, get out. I've got a few things to tell you.",
+    "file": "misadventureonthesea-honip-22"
+  },
+  {
+    "line": "[1/3] Honip: Huh? You lost your sponge?",
+    "file": "misadventureonthesea-honip-23"
+  },
+  {
+    "line": "[2/3] Honip: Well, here's another one for ya'!",
+    "file": "misadventureonthesea-honip-24"
+  },
+  {
+    "line": "[3/3] Honip: Now, get to work!",
+    "file": "misadventureonthesea-honip-25"
+  },
+  {
+    "line": "[3/3] Honip: Eager, are ya? Well, that's great!",
+    "file": "misadventureonthesea-honip-26"
+  },
+  {
+    "line": "[1/4] Honip: So, there's quite a few bodies in there, and we never bothered throwin' em out!",
+    "file": "misadventureonthesea-honip-27"
+  },
+  {
+    "line": "[2/4] Honip: Go ahead, here's a sponge for the dried blood as well. Just wack the bodies with it!",
+    "file": "misadventureonthesea-honip-28"
+  },
+  {
+    "line": "[3/4] Honip: If you need me, I'll be on the deck. And, uh, don't go in the hold. We've got a BIG rat problem.",
+    "file": "misadventureonthesea-honip-29"
+  },
+  {
+    "line": "[4/4] Honip: Also, for the sake of my crew, could you be more cooperative? I don't have an unlimited amount of these potions.",
+    "file": "misadventureonthesea-honip-30"
+  },
+  {
+    "line": "[1/3] Honip: Oh, Snoo likes you!",
+    "file": "misadventureonthesea-honip-31"
+  },
+  {
+    "line": "[2/3] Honip: He's a strong chicken alright, trust me on that one.",
+    "file": "misadventureonthesea-honip-32"
+  },
+  {
+    "line": "[3/3] Honip: Anyway, get back to work!",
+    "file": "misadventureonthesea-honip-33"
+  },
+  {
+    "line": "[3/4] Honip: Well, shiver me timbers! You did redeem yourself, soldier!",
+    "file": "misadventureonthesea-honip-34"
+  },
+  {
+    "line": "[1/3] Honip: Hey there fella'. So, the rat situation..?",
+    "file": "misadventureonthesea-honip-35"
+  },
+  {
+    "line": "[2/3] Honip: Oh, you're not done yet?",
+    "file": "misadventureonthesea-honip-36"
+  },
+  {
+    "line": "[3/3] Honip: Take it slowly if ya want, that place gives me the creeps...",
+    "file": "misadventureonthesea-honip-37"
+  },
+  {
+    "line": "[2/8] Honip: I'll take 2 Nemract Whiskeys. One for me, one for this chap.",
+    "file": "misadventureonthesea-honip-38"
+  },
+  {
+    "line": "[4/8] Honip: So... I've seen ya around town. I saw how happy that guy was when you brought him some journal.",
+    "file": "misadventureonthesea-honip-39"
+  },
+  {
+    "line": "[6/8] Honip: So... Soldier. Are ya up for sailin' the ocean with me? I got a fancier boat than that seaskipper!",
+    "file": "misadventureonthesea-honip-40"
+  },
+  {
+    "line": "[7/8] Honip: I figured you'd be interested in explorin' the waters!",
+    "file": "misadventureonthesea-honip-41"
+  },
+  {
+    "line": "[8/8] Honip: I'll wait for ya on the docks. Don't worry, ya can't miss the boat!",
+    "file": "misadventureonthesea-honip-42"
+  },
+  {
+    "line": "[1/3] Honip: There you are! Ready? Follow me, the boat's over here!",
+    "file": "misadventureonthesea-honip-43"
+  },
+  {
+    "line": "[2/3] Honip: Look at this.. Magnificent! Much better than whatever the Seaskipper is using!",
+    "file": "misadventureonthesea-honip-44"
+  },
+  {
+    "line": "[3/3] Honip: Well, what are you waiting for? Hop aboard!",
+    "file": "misadventureonthesea-honip-45"
+  },
+  {
+    "line": "[1/2] Honip: Then it's settled, we're goin' on an adventure!",
+    "file": "misadventureonthesea-honip-46"
+  },
+  {
+    "line": "[2/2] Honip: Buckle up, we got waves to catch.",
+    "file": "misadventureonthesea-honip-47"
+  },
+  {
+    "line": "[1/7] Honip: So... I should warn ya', this is actually my first time sailing...",
+    "file": "misadventureonthesea-honip-48"
+  },
+  {
+    "line": "[2/7] Honip: It doesn't seem too difficult though, a little to the left...",
+    "file": "misadventureonthesea-honip-49"
+  },
+  {
+    "line": "[3/7] Honip: Hmm, looks like we're not the only ones out on the water today.",
+    "file": "misadventureonthesea-honip-50"
+  },
+  {
+    "line": "[4/7] Honip: They're a bit too head on, don't you think?",
+    "file": "misadventureonthesea-honip-51"
+  },
+  {
+    "line": "[5/7] Honip: I'm tryin' to steer the ship but it's not budging...",
+    "file": "misadventureonthesea-honip-52"
+  },
+  {
+    "line": "[6/7] Honip: That's unfortunate...",
+    "file": "misadventureonthesea-honip-53"
+  },
+  {
+    "line": "[7/7] Honip: Unfortunate... For YOU!",
+    "file": "misadventureonthesea-honip-54"
+  },
+  {
+    "line": "[1/6] Honip: Hey, you're finally awake.",
+    "file": "misadventureonthesea-honip-55"
+  },
+  {
+    "line": "[1/3] Honip: So, there's quite a few bodies in there, and we never bothered throwin' em out!",
+    "file": "misadventureonthesea-honip-56"
+  },
+  {
+    "line": "[1/4] Honip: Hey! The boat's lookin' real nice now!",
+    "file": "misadventureonthesea-honip-57"
+  },
+  {
+    "line": "[2/4] Honip: I'll probably let you rest so- hold on.",
+    "file": "misadventureonthesea-honip-58"
+  },
+  {
+    "line": "[4/4] Honip: Wait... What? Soldier, come!",
+    "file": "misadventureonthesea-honip-59"
+  },
+  {
+    "line": "[1/7] Honip: What's happening?!",
+    "file": "misadventureonthesea-honip-60"
+  },
+  {
+    "line": "[3/7] Honip: I- Let me see.",
+    "file": "misadventureonthesea-honip-61"
+  },
+  {
+    "line": "[4/7] Honip: Uh... Where am I supposed to be looking at, exactly?",
+    "file": "misadventureonthesea-honip-62"
+  },
+  {
+    "line": "[6/7] Honip: If this is another one of your jokes...",
+    "file": "misadventureonthesea-honip-63"
+  },
+  {
+    "line": "[2/2] Honip: I don't know, this wasn't planned!",
+    "file": "misadventureonthesea-honip-64"
+  },
+  {
     "line": "[1/1] Honip: Soldier, now's your time to shine! Scare it off with one of your spells or somethin'!",
-    "file": "misadventureonthesea-honip-69",
-    "onPlayer": true
+    "file": "misadventureonthesea-honip-65"
   },
   {
     "line": "[1/1] Honip: It's working! Do that again!",
-    "file": "misadventureonthesea-honip-70",
-    "onPlayer": true
+    "file": "misadventureonthesea-honip-66"
   },
   {
     "line": "[1/1] Honip: One more...",
-    "file": "misadventureonthesea-honip-71",
-    "onPlayer": true
+    "file": "misadventureonthesea-honip-67"
+  },
+  {
+    "line": "[1/4] Honip: It's starting to panic!",
+    "file": "misadventureonthesea-honip-68"
+  },
+  {
+    "line": "[2/4] Honip: That's right, get back!",
+    "file": "misadventureonthesea-honip-69"
+  },
+  {
+    "line": "[3/4] Honip: I knew you had it in ya, haha!",
+    "file": "misadventureonthesea-honip-70"
+  },
+  {
+    "line": "[4/4] Honip: What a show! Come, I've got some things to tell ya!",
+    "file": "misadventureonthesea-honip-71"
+  },
+  {
+    "line": "[1/7] Honip: I don't know where that creature came from, but thanks to you it's gone.",
+    "file": "misadventureonthesea-honip-72"
+  },
+  {
+    "line": "[2/7] Honip: I've got somethin' else for you to tackle. It's about... the rats.",
+    "file": "misadventureonthesea-honip-73"
+  },
+  {
+    "line": "[3/7] Honip: Come to the hold, I'll explain on the way.",
+    "file": "misadventureonthesea-honip-74"
+  },
+  {
+    "line": "[4/7] Honip: I think we have quite a hellish problem on our hands.",
+    "file": "misadventureonthesea-honip-75"
+  },
+  {
+    "line": "[5/7] Honip: I'm not sure what ya'll find there, but these are NOT normal rats.",
+    "file": "misadventureonthesea-honip-76"
+  },
+  {
+    "line": "[6/7] Honip: So please, get in there... and kill everything, alright?",
+    "file": "misadventureonthesea-honip-77"
+  },
+  {
+    "line": "[7/7] Honip: I've got faith in ya. Here goes nothin'!",
+    "file": "misadventureonthesea-honip-78"
+  },
+  {
+    "line": "[1/4] Honip: Hey there! Ya bringin' me good news?",
+    "file": "misadventureonthesea-honip-79"
+  },
+  {
+    "line": "[2/4] Honip: You took care of these damn thieving rodents? A... colossal rat you say?",
+    "file": "misadventureonthesea-honip-80"
+  },
+  {
+    "line": "[3/4] Honip: Nicely done, I knew I could count on ya! C'mere, take these!",
+    "file": "misadventureonthesea-honip-81"
+  },
+  {
+    "line": "[4/4] Honip: Anyway, for now, you can go rest and do whatever you want!",
+    "file": "misadventureonthesea-honip-82"
+  },
+  {
+    "line": "[1/5] Honip: ...Seth? Have ya seen the soldier?",
+    "file": "misadventureonthesea-honip-83"
+  },
+  {
+    "line": "[3/3] Honip: Well, I just hope you won't fail again.",
+    "file": "misadventureonthesea-honip-84"
+  },
+  {
+    "line": "[1/7] Honip: You've been a massive disappointment, y'know?",
+    "file": "misadventureonthesea-honip-85"
+  },
+  {
+    "line": "[2/7] Honip: But you can still redeem yourself.",
+    "file": "misadventureonthesea-honip-86"
+  },
+  {
+    "line": "[3/7] Honip: Follow me, I'll explain on the way.",
+    "file": "misadventureonthesea-honip-87"
+  },
+  {
+    "line": "[4/7] Honip: I mentioned a rat problem earlier... It's, uh, not a small one.",
+    "file": "misadventureonthesea-honip-88"
+  },
+  {
+    "line": "[5/7] Honip: We've got gunpowder to retrieve, so you're the one who's gonna clear the hold.",
+    "file": "misadventureonthesea-honip-89"
+  },
+  {
+    "line": "[6/7] Honip: So get in there... and try to kill everything, alright?",
+    "file": "misadventureonthesea-honip-90"
+  },
+  {
+    "line": "[7/7] Honip: Don't be as bad as earlier. You're a soldier.",
+    "file": "misadventureonthesea-honip-91"
+  },
+  {
+    "line": "[4/8] Honip: So, I've seen ya around town. Ya even went to the ocean to help that chicken guy!",
+    "file": "misadventureonthesea-honip-92"
+  },
+  {
+    "line": "[1/4] Honip: What.",
+    "file": "misadventureonthesea-honip-93"
+  },
+  {
+    "line": "[2/4] Honip: Well... That's a twist.",
+    "file": "misadventureonthesea-honip-94"
+  },
+  {
+    "line": "[3/4] Honip: I expected you to do somethin', soldier, not him!",
+    "file": "misadventureonthesea-honip-95"
+  },
+  {
+    "line": "[4/4] Honip: Anyways, come talk to me",
+    "file": "misadventureonthesea-honip-96"
+  },
+  {
+    "line": "[1/7] Honip: I have another task for you. It's about... the rats.",
+    "file": "misadventureonthesea-honip-97"
+  },
+  {
+    "line": "[2/7] Honip: See, I really don't think we have your usual type of problem.",
+    "file": "misadventureonthesea-honip-98"
+  },
+  {
+    "line": "[4/7] Honip: We sometimes hear unusually loud footsteps, along with some really eerie squeaking...",
+    "file": "misadventureonthesea-honip-99"
+  },
+  {
+    "line": "[5/7] Honip: That's why we're not too fond of goin' in... But our gunpowder there! We need it, as pirates!",
+    "file": "misadventureonthesea-honip-100"
+  },
+  {
+    "line": "[6/7] Honip: So, I need you to get in... and kill everything, alright?",
+    "file": "misadventureonthesea-honip-101"
+  },
+  {
+    "line": "[7/7] Honip: Here goes nothing. Snoo, ya stay there!",
+    "file": "misadventureonthesea-honip-102"
+  },
+  {
+    "line": "[3/4] Honip: That sounds absolutely terrifying! And ya did that alone! You know what, her', take these.",
+    "file": "misadventureonthesea-honip-103"
+  },
+  {
+    "line": "[1/5] Honip: Just cast one of your fancy spells!",
+    "file": "misadventureonthesea-honip-104"
+  },
+  {
+    "line": "[2/5] Honip: That was... Phew... That was something.",
+    "file": "misadventureonthesea-honip-105"
+  },
+  {
+    "line": "[3/5] Honip: Now, for an even bigger surprise...",
+    "file": "misadventureonthesea-honip-106"
+  },
+  {
+    "line": "[4/5] Honip: What the hell soldier?? What don't you get in the \"\"soldier\"\" part of your job?",
+    "file": "misadventureonthesea-honip-107"
+  },
+  {
+    "line": "[5/5] Honip: Come, let's figure some things out.",
+    "file": "misadventureonthesea-honip-108"
+  },
+  {
+    "line": "[3/4] Honip: Well, shiver me timbers! You did redeem yourself soldier!",
+    "file": "misadventureonthesea-honip-109"
   },
   {
     "line": "[4/4] Honip: Anyway, come talk to me.",
-    "file": "misadventureonthesea-honip-72",
-    "onPlayer": true
+    "file": "misadventureonthesea-honip-110"
   },
   {
     "line": "[1/9] Tom: Finally, you have arrived! I have been waiting for you.",
@@ -6434,6 +6833,10 @@
     "file": "themercenary-militaryscout-3"
   },
   {
+    "line": "[3/7] Military Scout: To put it bluntly... we've run into a predicament. Almuj's standing army has been taken captive, and the desert barracks overtaken.",
+    "file": "themercenary-militaryscout-3"
+  },
+  {
     "line": "[4/7] Military Scout: The Admiral has sent scouts round to gather any free-moving soldiers to help him... remedy the situation.",
     "file": "themercenary-militaryscout-4"
   },
@@ -6443,6 +6846,10 @@
   },
   {
     "line": "[6/7] Military Scout: Anyhow, if you can, travel on over that way. Almuj is the desert city to the east of Detlas, if you've never seen it.",
+    "file": "themercenary-militaryscout-6"
+  },
+  {
+    "line": "[6/7] Military Scout: Anyhow, if you can, head on over to the Admiral's office. It's just by the bank, you can't miss it.",
     "file": "themercenary-militaryscout-6"
   },
   {
@@ -8846,19 +9253,19 @@
     "file": "wrathofthemummy-achper-6"
   },
   {
-    "line": "[1/5] Bandit: Stop! If you're thinking about looting the tomb, you're too late. The Creden Tibus have laid claim here, and you're not getting past.",
+    "line": "[1/6] Bandit: Stop! If you're thinking about looting the tomb, you're too late. The Creden Tibus have laid claim here, and you're not getting past.",
     "file": "wrathofthemummy-bandit-1"
   },
   {
-    "line": "[2/5] Bandit: Mummy? Curse? I don't know anything about that, but I can't let you in - how do I know you won't just grab the gold?",
+    "line": "[2/6] Bandit: Mummy? Curse? I don't know anything about that, but I can't let you in - how do I know you won't just grab the gold?",
     "file": "wrathofthemummy-bandit-2"
   },
   {
-    "line": "[3/5] Bandit: Unless... look. I've been waiting to get my hands on some pink wool, and the only shop that sells it has just restocked.",
+    "line": "[3/6] Bandit: Unless... look. I've been waiting to get my hands on some pink wool, and the only shop that sells it has just restocked.",
     "file": "wrathofthemummy-bandit-3"
   },
   {
-    "line": "[4/5] Bandit: Trouble is, the shop's over in Rymek and I'm stuck guarding this tomb. If you go and grab me some before it sells out, I can look the other way.",
+    "line": "[4/6] Bandit: Trouble is, the shop's over in Rymek and I'm stuck guarding this tomb. If you go and grab me some before it sells out, I can look the other way.",
     "file": "wrathofthemummy-bandit-4"
   },
   {
@@ -8880,6 +9287,30 @@
   {
     "line": "[1/1] Bandit: Hey! Back off! I can't let anyone into the tomb!",
     "file": "wrathofthemummy-bandit-9"
+  },
+  {
+    "line": "[5/6] Bandit: Or better yet, if you happen to have some of that pink wool on you. If you give it to me, well... the tomb is all yours.",
+    "file": "wrathofthemummy-bandit-10"
+  },
+  {
+    "line": "[6/6] Bandit: Either way, you can take my wagon over there to Rymek, but you'll have to make your own way back. Give me [1 Pink Wool] and I'll let you through.",
+    "file": "wrathofthemummy-bandit-11"
+  },
+  {
+    "line": "[1/4] Bandit: Well, whaddya know? You got some pink wool! Okay, hand it here and I'll look the other way and let you into the tomb.",
+    "file": "wrathofthemummy-bandit-12"
+  },
+  {
+    "line": "[2/4] Bandit: Just don't touch any of the gold, hmm? And if I were you, I wouldn't go in too deep.",
+    "file": "wrathofthemummy-bandit-13"
+  },
+  {
+    "line": "[3/4] Bandit: The clan was going to explore further inside, but the sounds...",
+    "file": "wrathofthemummy-bandit-14"
+  },
+  {
+    "line": "[4/4] Bandit: Anyway, I'll still let you inside if you want. Just remember, if anyone asks, this conversation never happened.",
+    "file": "wrathofthemummy-bandit-15"
   },
   {
     "line": "[1/4] Ormrod: Hello, again... have you had any luck?",
@@ -9498,7 +9929,7 @@
     "file": "fateofthefallen-telvu-5"
   },
   {
-    "line": "[6/9] Telvu: We need to find out why so we can reverse this spell. Presumably, the source of that spell's magic would lie within the barrow... but we don't wnat to go in empty-handed.",
+    "line": "[6/9] Telvu: We need to find out why so we can reverse this spell. Presumably, the source of that spell's magic would lie within the barrow... but we don't want to go in empty-handed.",
     "file": "fateofthefallen-telvu-6"
   },
   {
@@ -9702,31 +10133,31 @@
     "file": "fateofthefallen-theorick-31"
   },
   {
-    "line": "[1/9] Telvu: You must have succeeded, or you would be yet in the memory of the past. I can feel some potent magic on you.",
+    "line": "[1/7] Telvu: You must have succeeded, or you would be yet in the memory of the past. I can feel some potent magic on you.",
     "file": "fateofthefallen-telvu-17"
   },
   {
-    "line": "[2/9] Telvu: So, you met Theorick? He was always said to have fallen from heroism after the great freezing.",
+    "line": "[2/7] Telvu: So, you met Theorick? He was always said to have fallen from heroism after the great freezing.",
     "file": "fateofthefallen-telvu-18"
   },
   {
-    "line": "[3/9] Telvu: Were you able to figure out why it was he froze this place, at least?",
+    "line": "[3/7] Telvu: Were you able to figure out why it was he froze this place, at least?",
     "file": "fateofthefallen-telvu-19"
   },
   {
-    "line": "[4/9] Telvu: Wha... so many revelations... ice magic staves off corruption...? It is true that this place has seen less corrupted threats than other places in the province...",
+    "line": "[4/7] Telvu: Wha... so many revelations... ice magic staves off corruption...? It is true that this place has seen less corrupted threats than other places in the province...",
     "file": "fateofthefallen-telvu-20"
   },
   {
-    "line": "[5/9] Telvu: Dear gods... We've had it all wrong this whole time... It was to protect everyone... but surely he would have told someone his intentions if he was of that sound a mind!",
+    "line": "[5/7] Telvu: Dear gods... We've had it all wrong this whole time... It was to protect everyone... but surely he would have told someone his intentions if he was of that sound a mind!",
     "file": "fateofthefallen-telvu-21"
   },
   {
-    "line": "[6/9] Telvu: All this time, spent buried alive, wrestling with the corruption. The thought horrifies you, as well, judging by your face. Killing him would be a mercy.",
+    "line": "[6/7] Telvu: All this time, spent buried alive, wrestling with the corruption. The thought horrifies you, as well, judging by your face. Killing him would be a mercy.",
     "file": "fateofthefallen-telvu-22"
   },
   {
-    "line": "[7/9] Telvu: Here. Use this. It may help protect you within the Ice Barrows... Please, soldier. Be Theorick's guardian angel. Free him from this torment.",
+    "line": "[7/7] Telvu: Here. Use this. It may help protect you within the Ice Barrows... Please, soldier. Be Theorick's guardian angel. Free him from this torment.",
     "file": "fateofthefallen-telvu-23"
   },
   {
@@ -10218,7 +10649,7 @@
     "file": "frostbite-eppo-3"
   },
   {
-    "line": "[2/9] Eppo: Hey, Guard! Do you know anything about Electromagic? Come up here to the drill, maybe you can take a look? ",
+    "line": "[2/9] Eppo: Hey, Guard! Do you know anything about Electromagic? Come up and take a look at the drill, would you?",
     "file": "frostbite-eppo-4",
     "onPlayer": true
   },
@@ -10527,7 +10958,7 @@
     "file": "riseofthequartron-lari-5"
   },
   {
-    "line": "[12/16] Nasea: Well, in a sense. Someone's siphoning quartz, but our suspect wasn't intimidated by the ten tons of armor, so we're at a loss. Any ideas?",
+    "line": "[12/16] Nasea: Well, in a sense. Someone's siphoning quartz, but our suspect wasn't intimidated by the ten tons of armour, so we're at a loss. Any ideas?",
     "file": "riseofthequartron-nasea-16"
   },
   {
@@ -10958,7 +11389,15 @@
     "file": "anironheartpart2-daxe-1"
   },
   {
+    "line": "[1/3] Daxe: Oh, so a human wishes to wander into the home of the great Daxe?",
+    "file": "anironheartpart2-daxe-1"
+  },
+  {
     "line": "[2/17] Daxe: Unfortunately for you, I'm not fond of visitors. I've left my criminal past behind...mh?",
+    "file": "anironheartpart2-daxe-2"
+  },
+  {
+    "line": "[2/3] Daxe: Unfortunately for you, I'm not fond of visitors. I've left my criminal past behind.",
     "file": "anironheartpart2-daxe-2"
   },
   {
@@ -11625,7 +12064,15 @@
     "file": "junglefever-worid-16"
   },
   {
+  "line": "[3/6] Worid: That is a lot of money, thank you very much, I will finally be able to... *cough* to cure myself!",
+  "file": "junglefever-worid-16"
+  },
+  {
     "line": "[3/6] Worid: Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I've instead paid you with a key.",
+    "file": "junglefever-worid-17"
+  },
+  {
+    "line": "[4/6] Worid: Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I^ve instead paid you with a key.",
     "file": "junglefever-worid-17"
   },
   {
@@ -11633,7 +12080,15 @@
     "file": "junglefever-worid-18"
   },
   {
+    "line": "[5/6] Worid: I stole- *cough* I mean, borrowed it, from our tribe^s leader. Apparently it was used to lock up a great evil.",
+    "file": "junglefever-worid-18"
+  },
+  {
     "line": "[5/6] Worid: Good ridda- *cough* Er... luck. Yes, good luck, adventurer!",
+    "file": "junglefever-worid-19"
+  },
+  {
+    "line": "[6/6] Worid: Good ridda- *cough* Er... luck. Yes, good luck, adventurer!",
     "file": "junglefever-worid-19"
   },
   {
@@ -11643,6 +12098,26 @@
   {
     "line": "[1/1] Worid: I feel so much better now, thank you for the cure!",
     "file": "junglefever-worid-21"
+  },
+  {
+    "line": "[1/2] Worid: *cough* I am horribly sick! Though, I do not want to send someone this weak to find the cure, you could die!",
+    "file": "junglefever-worid-23"
+  },
+  {
+    "line": "[2/2] Worid: *cough* Come back to me when you are level 52.",
+    "file": "junglefever-worid-24"
+  },
+  {
+    "line": "[1/1] Worid: *cough* come speak with me... *cough* We don't have much time... *cough*",
+    "file": "junglefever-worid-25"
+  },
+  {
+    "line": "[2/6] Worid: ..I mean *cough*.. I was too sick so i came back here.. *cough*",
+    "file": "junglefever-worid-26"
+  },
+  {
+    "line": "[1/1] Worid: Hey! Are you done with what I asked?",
+    "file": "junglefever-worid-27"
   },
   {
     "line": "[1/7] Lanu: Hey, soldier! Yeah, you! Got some spare time to lend a hand?",
@@ -15025,7 +15500,7 @@
     "file": "thepassage-ildan-7"
   },
   {
-    "line": "[8/10] Ildan: You can access the tomb from a sacrificial shrine I've heard, but I'm not sure how. There are probably hints nearby the shrine.",
+    "line": "[8/10] Ildan: You can access the tomb from a sacrificial shrine, I've heard, but I'm not sure how. There are probably hints nearby the shrine.",
     "file": "thepassage-ildan-8"
   },
   {
@@ -16046,7 +16521,7 @@
     "file": "orderofthegrook-headmaster-26"
   },
   {
-    "line": "[7/10] Headmaster: There is a reason I've called you up first, you know. Recall what I said about old hats earlier? Don't think we didn't notice the armor, or the weapon, or the grim countenance.",
+    "line": "[7/10] Headmaster: There is a reason I've called you up first, you know. Recall what I said about old hats earlier? Don't think we didn't notice the armour, or the weapon, or the grim countenance.",
     "file": "orderofthegrook-headmaster-27"
   },
   {
@@ -17107,7 +17582,7 @@
     "file": "allroadstopeace-zuett-1"
   },
   {
-    "line": "[2/14] ???: RRRGHH! Armor heavy! How human carry much weight, but so weak without?!",
+    "line": "[2/14] ???: RRRGHH! Armour heavy! How human carry much weight, but so weak without?!",
     "file": "allroadstopeace-zuett-2"
   },
   {
@@ -17415,7 +17890,7 @@
     "file": "allroadstopeace-ressinter-2"
   },
   {
-    "line": "[4/28] Onluk: Lomoster wear armor. Armor took hurt, Lomoster okay!",
+    "line": "[4/28] Onluk: Lomoster wear armour. Armour took hurt, Lomoster okay!",
     "file": "allroadstopeace-onluk-10"
   },
   {
@@ -17575,7 +18050,7 @@
     "file": "allroadstopeace-yunelsu-14"
   },
   {
-    "line": "[4/4] Yunelsu: See? Many broken rock. Hear can be good for armor though. You take.",
+    "line": "[4/4] Yunelsu: See? Many broken rock. Hear can be good for armour though. You take.",
     "file": "allroadstopeace-yunelsu-15"
   },
   {
@@ -17671,19 +18146,19 @@
     "file": "allroadstopeace-teiren-11"
   },
   {
-    "line": "[5/5] Teiren: Still. Here, for good human!",
+    "line": "[1/3] Teiren: Will say, got thing from Earthpit. Was brought by Holehold gofer during party.",
     "file": "allroadstopeace-teiren-12"
   },
   {
-    "line": "[1/3] Teiren: Will say, got thing from Earthpit. Was brought by Holehold gofer during party.",
+    "line": "[2/3] Teiren: Special thing! Kept for long time. Important, so was bad to forget.",
     "file": "allroadstopeace-teiren-13"
   },
   {
-    "line": "[2/3] Teiren: Special thing! Kept for long time. Important, so was bad to forget.",
+    "line": "[3/3] Teiren: Will maybe invite human to next party!",
     "file": "allroadstopeace-teiren-14"
   },
   {
-    "line": "[3/3] Teiren: Will maybe invite human to next party!",
+    "line": "[5/5] Teiren: Still. Here, for good human!",
     "file": "allroadstopeace-teiren-15"
   },
   {
@@ -17891,7 +18366,7 @@
     "file": "allroadstopeace-ressinter-6"
   },
   {
-    "line": "[3/3] Ressinter: Armor still look gaudy though. Should wear orc leathers if want match style.",
+    "line": "[3/3] Ressinter: Armour still look gaudy though. Should wear orc leathers if want match style.",
     "file": "allroadstopeace-ressinter-7"
   },
   {
@@ -18551,7 +19026,7 @@
     "file": "allroadstopeace-peaches-4"
   },
   {
-    "line": "[3/4] Peaches: I mean, look at your armor! You, you look like you could splat me against the wall in a snap!",
+    "line": "[3/4] Peaches: I mean, look at your armour! You, you look like you could splat me against the wall in a snap!",
     "file": "allroadstopeace-peaches-5"
   },
   {
@@ -18839,7 +19314,7 @@
     "file": "allroadstopeace-arraiveretel-35"
   },
   {
-    "line": "[5/15] Arrai-Veretel: Give opportunity for human to learn and and villager to show respect. They not attack, then will be open to more negotiation.",
+    "line": "[5/15] Arrai-Veretel: Give opportunity for human to learn and villager to show respect. They not attack, then will be open to more negotiation.",
     "file": "allroadstopeace-arraiveretel-36"
   },
   {
@@ -18927,7 +19402,7 @@
     "file": "allroadstopeace-serepe-12"
   },
   {
-    "line": "[1/5] Ismikku: Tough human, to survive four-way attack. Or maybe just tough armor. Gaudy, bulky armor...",
+    "line": "[1/5] Ismikku: Tough human, to survive four-way attack. Or maybe just tough armour. Gaudy, bulky armour...",
     "file": "allroadstopeace-ismikku-1"
   },
   {
@@ -19275,13 +19750,60 @@
     "file": "lostsoles-grandon-31"
   },
   {
-    "line": "[1/10] Atisun: Oh, a human? If I could beg your pardon a moment... could I talk to you about the mansion here?",
-    "file": "memoryparanoia-atisun-1"
+    "line": "[1/2] Ferndor: I wonder where those boots have gone... It's been such a long time. Do you know about the [Abysso Galoshes]?",
+    "file": "lostsoles-ferndor-16"
   },
   {
-    "line": "[1/1] Atisun: All you have to do, is go in there and find answers. I'm sure the past won't haunt us both. Something happened here all those years ago... I want to know what.",
-    "file": "memoryparanoia-atisun-2",
-    "onPlayer": true
+    "line": "[2/2] Ferndor: A pirate stole them from us years ago! I could reward you if you could bring me the [Abysso Galoshes] and help us!",
+    "file": "lostsoles-ferndor-17"
+  },
+  {
+    "line": "[1/9] Ferndor: I see you have the infamous galoshes with you. But do you know even half of the story of them?",
+    "file": "lostsoles-ferndor-18"
+  },
+  {
+    "line": "[2/9] Ferndor: The boots were once owned by my ancestors, who decided to lock it away in this manor years ago.",
+    "file": "lostsoles-ferndor-19"
+  },
+  {
+    "line": "[3/9] Ferndor: Nobody knows why they decided to hide the boots just after they got into my family's hands. I was told they were acquired from a strange man with pale grey skin.",
+    "file": "lostsoles-ferndor-20"
+  },
+  {
+    "line": "[4/9] Ferndor: We think they hid the boots in some kind of basement in the manor. You can get to it by following the river to the waterfall, but you will need some kind of code to open it...",
+    "file": "lostsoles-ferndor-21"
+  },
+  {
+    "line": "[5/9] Ferndor: I remember Grandon saying that he found a book which is apparently a diary from one of my ancestors. Ever since that filthy pirate raided our home and stole our treasures, weird things have been happening.",
+    "file": "lostsoles-ferndor-22"
+  },
+  {
+    "line": "[6/9] Ferndor: Grandon should already have finished reading it. If I allow you to enter my home, would you talk to him?",
+    "file": "lostsoles-ferndor-23"
+  },
+  {
+    "line": "[7/9] Ferndor: There are strange things going on in this mansion and I hope that book reveals everything we need to know...",
+    "file": "lostsoles-ferndor-24"
+  },
+  {
+    "line": "[8/9] Ferndor: You can keep them for now but i will need them back if your mission is successful!",
+    "file": "lostsoles-ferndor-25"
+  },
+  {
+    "line": "[9/9] Ferndor: Remember, it is imperative you find the 4 digit code to the basement.",
+    "file": "lostsoles-ferndor-26"
+  },
+  {
+    "line": "[1/1] Ferndor: I see you found the container, now remove the boots so i can put them inside!",
+    "file": "lostsoles-ferndor-27"
+  },
+  {
+    "line": "[1/1] Ferndor: It would be nice if you hurried and brought me the [Abysso Galoshes] and the [Boot Container] as fast as possible",
+    "file": "lostsoles-ferndor-28"
+  },
+  {
+    "line": "[1/1] Ferndor: We need help, but we can't have any unexperienced warriors in our mansion, come back when you are level 66!",
+    "file": "lostsoles-ferndor-29"
   },
   {
     "line": "[1/3] Servant: Mr. Caritat is always writing so intensely in that book... I do wonder what he could be saying.",
@@ -19614,13 +20136,84 @@
     "onPlayer": true
   },
   {
-    "line": "[1/1] Atisun: Hey! Human! Are you alright?! Please, calm down, quit flailing around, you're safe!",
-    "file": "memoryparanoia-atisun-3",
-    "onPlayer": true
+    "line": "[1/10] Atisun: Oh, a human? If I could beg your pardon a moment... could I talk to you about the mansion here?",
+    "file": "memoryparanoia-atisun-1"
+  },
+  {
+    "line": "[2/10] Atisun: It was not always so dilapidated. It once stood tall, a monument to the family of Caritat, who constructed it from the ground up.",
+    "file": "memoryparanoia-atisun-2"
+  },
+  {
+    "line": "[3/10] Atisun: The Caritats were unlike any other. Uncharacteristically selfless and helpful. Their wealth was everyone's wealth as far as they were concerned.",
+    "file": "memoryparanoia-atisun-3"
+  },
+  {
+    "line": "[4/10] Atisun: But... Eventually... Erm, we're not entirely sure what happened, only rumours have surfaced over the years, but... things took a turn, shall we say.",
+    "file": "memoryparanoia-atisun-4"
+  },
+  {
+    "line": "[5/10] Atisun: Because, aah... How shall I put this... One day they were all... discovered dead. Murdered. By each other.",
+    "file": "memoryparanoia-atisun-5"
+  },
+  {
+    "line": "[6/10] Atisun: I am the last remaining descendant, Atisun Caritat. I was the only survivor of the... incident. I was only an infant when I was found by a passerby.",
+    "file": "memoryparanoia-atisun-6"
+  },
+  {
+    "line": "[7/10] Atisun: Since, erm... Since there was no one alive to report the incident, it wasn't discovered until days later when a traveller passing by took notice of the mansion.",
+    "file": "memoryparanoia-atisun-7"
+  },
+  {
+    "line": "[8/10] Atisun: I do not believe that my family simply went mad, but I do not know what happened. I want to know the truth. I think this mansion still holds the answers I'm looking for.",
+    "file": "memoryparanoia-atisun-8"
+  },
+  {
+    "line": "[9/10] Atisun: Yet, I am... scared of this place. It is the ruins of the life I should have had. The spirits of the dead are still there... Cursed. I need someone else to uncover my heritage.",
+    "file": "memoryparanoia-atisun-9"
+  },
+  {
+    "line": "[10/10] Atisun: Don't you worry, like my ancestors, I'm a generous man. If you help me, I will reward you handsomely. All you have to do, is go in there and find answers. I'm sure the past won't haunt us both.",
+    "file": "memoryparanoia-atisun-10"
   },
   {
     "line": "[1/8] Atisun: Oh thank goodness, you're back to us. I was so worried... er, you might not recall. Let me explain...",
-    "file": "memoryparanoia-atisun-4"
+    "file": "memoryparanoia-atisun-11"
+  },
+  {
+    "line": "[2/8] Atisun: It... it seemed like you were possessed. You stood in the hall for... I don't know how long. I couldn't snap you out of it, no matter what I tried.",
+    "file": "memoryparanoia-atisun-12"
+  },
+  {
+    "line": "[3/8] Atisun: Voices that weren't yours, you spoke out their moments and thoughts. The maids, my father... everyone. I... you said what I needed to hear.",
+    "file": "memoryparanoia-atisun-13"
+  },
+  {
+    "line": "[4/8] Atisun: My great grandfather, wanting to prove to everyone that the forest was still good, built his mansion atop the very spot that was acclaimed to be the cause of the Decay.",
+    "file": "memoryparanoia-atisun-14"
+  },
+  {
+    "line": "[5/8] Atisun: My father tried to continue the traditions... but all of it was burned to ashes. I must consider myself lucky that I did not fall with them.",
+    "file": "memoryparanoia-atisun-15"
+  },
+  {
+    "line": "[6/8] Atisun: And what emerged from that spot? Who knows... but, whatever it was... the darkness must have lingered, and drove them all to madness.",
+    "file": "memoryparanoia-atisun-16"
+  },
+  {
+    "line": "[7/8] Atisun: I'm sorry you went through that ordeal... I would suggest seeing a healer as soon as possible.",
+    "file": "memoryparanoia-atisun-17"
+  },
+  {
+    "line": "[8/8] Atisun: I will make sure no one enters this house again. It is cursed. Thank you for helping me.",
+    "file": "memoryparanoia-atisun-18"
+  },
+  {
+    "line": "[1/1] Atisun: All you have to do, is go in there and find answers. I'm sure the past won't haunt us both. Something happened here all those years ago... I want to know what.",
+    "file": "memoryparanoia-atisun-19"
+  },
+  {
+    "line": "[1/1] Atisun: Hey! Human! Are you alright?! Please, calm down, quit flailing around, you're safe!",
+    "file": "memoryparanoia-atisun-20"
   },
   {
     "line": "[1/2] Arnod: Mmph! Humnym! Mah houfhs fhs om fifhre! Gft hfrelp, tiff brafze womd strfp!",
@@ -19975,7 +20568,7 @@
     "file": "templeoflegends-kelight-32"
   },
   {
-    "line": "[12/16] Kelight: Rumor has it this creature was one of the miners which first ventured into the Nether Portal... Of course, as a Legend, I would usually disregard such things.",
+    "line": "[12/16] Kelight: Rumor has it this creature was one of the miners which first ventured into the Portal... Of course, as a Legend, I would usually disregard such things. Such a premise is hard to believe.",
     "file": "templeoflegends-kelight-33"
   },
   {
@@ -19987,11 +20580,11 @@
     "file": "templeoflegends-kelight-35"
   },
   {
-    "line": "[15/16] Kelight: As such, your very first step on your journey to become a Legend will be... to visit a friend of mine who studies the Nether.",
+    "line": "[15/16] Kelight: As such, your very first step on your journey to become a Legend will be... to visit a friend of mine who studies the Portal and that which lies... beyond.",
     "file": "templeoflegends-kelight-36"
   },
   {
-    "line": "[16/16] Kelight: His name is Jorkin, and he knows more about that realm than anyone else I know. Find him in the Roots of Corruption, and request his aid. Tell him I sent you.",
+    "line": "[16/16] Kelight: His name is Jorkin, and he knows more about that realm than anyone else I know. Find him near the Roots of Corruption, in Elkurn, and request his aid. Tell him I sent you.",
     "file": "templeoflegends-kelight-37"
   },
   {
@@ -22228,7 +22821,7 @@
     "file": "hollowserenity-garvan-47"
   },
   {
-    "line": "[13/17] Katarin: We... I will not risk her life for our love. She has a future in Cinfras, Garvan! She isn't a part of this and I don't think she",
+    "line": "[13/17] Katarin: We... I will not risk her life for our love. She has a future in Cinfras, Garvan! She isn't a part of this and I don't think she–",
     "file": "hollowserenity-katarin-24"
   },
   {
@@ -22248,11 +22841,11 @@
     "file": "hollowserenity-katarin-25"
   },
   {
-    "line": "[1/6] Garvan: Ah... N-now you're finally here. I... need you, my darling. We no... I can cure this Decay with you.",
+    "line": "[1/6] Garvan: Ah... N-now you're finally here. I... need you, my darling. We– no... I can cure this Decay with you.",
     "file": "hollowserenity-garvan-51"
   },
   {
-    "line": "[2/6] Eileen: W-What do you mean...? I-I don't like this... I-I w-wanna go home. It's getting late and mother",
+    "line": "[2/6] Eileen: W-What do you mean...? I-I don't like this... I-I w-wanna go home. It's getting late and mother–",
     "file": "hollowserenity-eileen-1"
   },
   {
@@ -22688,7 +23281,7 @@
     "file": "hollowserenity-garvan-116"
   },
   {
-    "line": "[1/1] Garvan: DON'T YOU DARE.",
+    "line": "[1/1] Garvan: DON'T YOU DARE!",
     "file": "hollowserenity-garvan-117"
   },
   {
@@ -22972,8 +23565,36 @@
     "file": "murdermystery-captainlorias-16"
   },
   {
-    "line": "[1/8] Valimare: How did ya find us down 'ere? I don't remember you... you're with the police, aren't ya? Here after Eminar, I suppose? ",
+    "line": "[1/8] Valimare: How did ya find us down 'ere? I don't remember you... you're with the police, aren't ya? Here after Eminar, I suppose?",
     "file": "murdermystery-valimare-1"
+  },
+  {
+    "line": "[2/8] Valimare: Yeah, we've 'eard about what happened to him. Murders don't happen every day up there, ya know. And as it happened, I saw Eminar down here, not too long ago...",
+    "file": "murdermystery-valimare-2"
+  },
+  {
+    "line": "[3/8] Valimare: Well... as long as I get a guarantee I won't be shut down, I'll help ya. This is a very profitable place, as I'm sure ya might've guessed.",
+    "file": "murdermystery-valimare-3"
+  },
+  {
+    "line": "[4/8] Valimare: He was brought down here by his friend one day. Rohem, it was. A fine customer, you understand. Never failed to pay his dues...",
+    "file": "murdermystery-valimare-4"
+  },
+  {
+    "line": "[5/8] Valimare: But the day he brought Eminar 'round, though, it got ugly fast. Kept borrowing Rohem's emeralds and losing, till neither of em had anythin' left.",
+    "file": "murdermystery-valimare-5"
+  },
+  {
+    "line": "[6/8] Valimare: It was a good day for me, for obvious reasons, don'cha see! But Rohem was furious. Dead drunk, too, but what else is new!",
+    "file": "murdermystery-valimare-6"
+  },
+  {
+    "line": "[7/8] Valimare: Neither of 'em has been back since, though in Eminar's case, I can see why! And I hope that's enough for ya, 'cause that's all I got.",
+    "file": "murdermystery-valimare-7"
+  },
+  {
+    "line": "[8/8] Valimare: Now get out of 'ere; there's a back exit in the wall over there. Though, if ya ever fancy a game of 'jack, come back 'n we'll be happy to serve ya!",
+    "file": "murdermystery-valimare-8"
   },
   {
     "line": "[1/1] Rohem: What brings you here today, human?",
@@ -23224,11 +23845,11 @@
     "file": "aldoreissecretpart1-korben-6"
   },
   {
-    "line": "[4/4] Criminal: See me as I truly am- My name is Korben, and I musn't be delayed further!",
+    "line": "[4/4] Criminal: See me as I truly am- My name is Korben, and I mustn't be delayed further!",
     "file": "aldoreissecretpart1-korben-7"
   },
   {
-    "line": "[1/1] Korben: ? ? ? ? !",
+    "line": "[1/1] Korben: ⓖ ⓡ ⓞ ⓦ !",
     "file": "aldoreissecretpart1-korben-8"
   },
   {
@@ -25975,7 +26596,7 @@
     "file": "ultimateweapon-gogedar-7"
   },
   {
-    "line": "[1/2] Gogedar: Togedar is much more knowledgable than me...",
+    "line": "[1/2] Gogedar: Togedar is much more knowledgeable than me...",
     "file": "ultimateweapon-gogedar-8"
   },
   {
@@ -32144,7 +32765,7 @@
     "file": "thelost-gordon-2"
   },
   {
-    "line": "[2/3] Gordon: It’s so sad... So many people are constantly displaced by the canyon’s movements destroying their homes every year. I remember hearing a story once, it was about",
+    "line": "[2/3] Gordon: It’s so sad... So many people are constantly displaced by the canyon’s movements destroying their homes every year. I remember hearing a story once, it was about–",
     "file": "thelost-gordon-3"
   },
   {
@@ -32221,7 +32842,7 @@
     "file": "thelost-gordon-20"
   },
   {
-    "line": "[1/1] Gordon: Oh, hey there! It’s good to see you again. Thanks again for helping me get away from that house though, I feel kind of bad for the owner...",
+    "line": "[1/1] Gordon: Oh, hey there! It’s good to see you again. Thanks again for helping me get away from that house– though, I feel kind of bad for the owner...",
     "file": "thelost-gordon-21"
   },
   {
@@ -46449,6 +47070,10 @@
     "file": "ahunterscalling-tasim-2"
   },
   {
+    "line": "[1/7] Tasim: ...no sense screaming for the dead. But do you think I’m going to just give up like that?",
+    "file": "ahunterscalling-tasim-2"
+  },
+  {
     "line": "[2/7] Bak'al: It would be easier on yourself to.",
     "file": "ahunterscalling-bakal-34"
   },
@@ -46457,11 +47082,23 @@
     "file": "ahunterscalling-tasim-3"
   },
   {
+    "line": "[3/7] Tasim: Hah. Didn’t know corrupteds had a sense of humor, twisted as it might be.",
+    "file": "ahunterscalling-tasim-3"
+  },
+  {
     "line": "[4/7] Tasim: I won't dare die while everything here is at stake.",
     "file": "ahunterscalling-tasim-4"
   },
   {
+    "line": "[4/7] Tasim: I won’t dare die while everything here is at stake.",
+    "file": "ahunterscalling-tasim-4"
+  },
+  {
     "line": "[5/7] Tasim: How's this, then, hm? Think your PEON can handle me at my strongest?",
+    "file": "ahunterscalling-tasim-5"
+  },
+  {
+    "line": "[5/7] Tasim: How’s this, then, hm? Think your PEON can handle me at my strongest?",
     "file": "ahunterscalling-tasim-5"
   },
   {
@@ -46831,7 +47468,7 @@
   },
   {
     "line": "[1/1] Talking Mushroom: LOOK AT THIS! WHAT DO YOU MEAN WHAT?! OPEN YOUR EYES! WE'RE RICH! MODESTY CAN GO IN THE TRASH, HUMAN.",
-    "file": "talkingmushroomAlmujsEmeraldLabyrinth",
+    "file": "talkingmushroomalmujsemeraldlabyrinth",
     "onPlayer": true
   },
   {
@@ -48333,7 +48970,7 @@
     "file": "world-juggler-26"
   },
   {
-    "line": "[1/1] ???: You dare enter these sewers, human? These pipes once hid the civilians of Ragni during raids... Now it just holds corpses.",
+    "line": "[1/1] ???: You dare enter these sewers, human? These pipes once hid the civilians of Ragni during raids... Now they just hold corpses.",
     "file": "decriptsewers-witherehead-1",
     "onPlayer": true
   },
@@ -48563,7 +49200,7 @@
     "file": "underworldcrypt-generalgraken-10"
   },
   {
-    "line": "[1/3] General Graken: Aey- soldier careful now, the cretin must be lurking around here somewhere.",
+    "line": "[1/3] General Graken: Aey- careful now, soldier, the cretin must be lurking around here somewhere.",
     "file": "underworldcrypt-generalgraken-11"
   },
   {
@@ -50500,7 +51137,17 @@
     "fallOff": 200
   },
   {
+    "line": "[1/11] ???: I could stare at this map for hours, you know. It's like staring into the past.",
+    "file": "llevigarplains-lari-1",
+    "fallOff": 200
+  },
+  {
     "line": "[2/11] Lari: It's a few centuries out of date. You see how green this place once was?",
+    "file": "llevigarplains-lari-2",
+    "fallOff": 200
+  },
+  {
+    "line": "[2/11] ???: It's a few centuries out of date. You see how green this place once was?",
     "file": "llevigarplains-lari-2",
     "fallOff": 200
   },
@@ -50510,7 +51157,17 @@
     "fallOff": 200
   },
   {
+    "line": "[3/11] ???: Look at it now. It's become so barren and... Lifeless.",
+    "file": "llevigarplains-lari-3",
+    "fallOff": 200
+  },
+  {
     "line": "[4/11] Lari: I've watched much of this land fall in a similar way...",
+    "file": "llevigarplains-lari-4",
+    "fallOff": 200
+  },
+  {
+    "line": "[4/11] ???: I've watched much of this land fall in a similar way...",
     "file": "llevigarplains-lari-4",
     "fallOff": 200
   },
@@ -50520,7 +51177,17 @@
     "fallOff": 200
   },
   {
+    "line": "[5/11] ???: It's been spreading faster as the years have gone by. I-I don't believe there's much time left.",
+    "file": "llevigarplains-lari-5",
+    "fallOff": 200
+  },
+  {
     "line": "[6/11] Lari: People have been calling it the ''Decay''... Truth is, there is so much more to it.",
+    "file": "llevigarplains-lari-6",
+    "fallOff": 200
+  },
+  {
+    "line": "[6/11] ???: People have been calling it the ''Decay''... Truth is, there is so much more to it.",
     "file": "llevigarplains-lari-6",
     "fallOff": 200
   },
@@ -50530,7 +51197,17 @@
     "fallOff": 200
   },
   {
+    "line": "[7/11] ???: I've managed to hold it back and keep it to the north, but there is only one of me.",
+    "file": "llevigarplains-lari-7",
+    "fallOff": 200
+  },
+  {
     "line": "[8/11] Lari: Just look at all of this rot. And I was always told that nature could manage on its own.",
+    "file": "llevigarplains-lari-8",
+    "fallOff": 200
+  },
+  {
+    "line": "[8/11] ???: Just look at all of this rot. And I was always told that nature could manage on its own.",
     "file": "llevigarplains-lari-8",
     "fallOff": 200
   },
@@ -50540,12 +51217,27 @@
     "fallOff": 200
   },
   {
+    "line": "[9/11] ???: But, alas, not even the loveliest pieces of light are safe from its looming shadow.",
+    "file": "llevigarplains-lari-9",
+    "fallOff": 200
+  },
+  {
     "line": "[10/11] Lari: I hope you can enjoy what Olux can offer. There is still beauty there, if you look closely.",
     "file": "llevigarplains-lari-10",
     "fallOff": 200
   },
   {
+    "line": "[10/11] ???: I hope you can enjoy what Olux can offer. There is still beauty there, if you look closely.",
+    "file": "llevigarplains-lari-10",
+    "fallOff": 200
+  },
+  {
     "line": "[11/11] Lari: You may think there's still something to be done here, but... I'm not sure if there is anymore.",
+    "file": "llevigarplains-lari-11",
+    "fallOff": 200
+  },
+  {
+    "line": "[11/11] ???: Anyway, I better get back to my work. It was nice to meet you.",
     "file": "llevigarplains-lari-11",
     "fallOff": 200
   },

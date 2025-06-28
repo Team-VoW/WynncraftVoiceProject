@@ -22,6 +22,8 @@
   "text.autoconfig.wynnvp.option.downloadSounds.@Tooltip": "If all sounds should be downloaded. Enable this if you experience high latency in audio playback",
   "text.autoconfig.wynnvp.option.playAllSoundsOnPlayer": "Play all sounds on player",
   "text.autoconfig.wynnvp.option.playAllSoundsOnPlayer.@Tooltip": "This will disable the stereo effect of voices.",
+  "text.autoconfig.wynnvp.option.playbackSpeed": "Playback speed %",
+  "text.autoconfig.wynnvp.option.playbackSpeed.@Tooltip": "Controls the speed of voice playback. 100% is normal speed, lower values slow down speech, higher values speed it up. Might introduce audio artifacts.",
   "text.autoconfig.wynnvp.option.removeVillagerSounds": "Remove villager sounds",
   "text.autoconfig.wynnvp.option.removeVillagerSounds.@Tooltip": "Will remove the villager sounds. Enable this if they annoy you together with the voices",
   "text.autoconfig.wynnvp.option.reportMissingLines": "Report missing lines",

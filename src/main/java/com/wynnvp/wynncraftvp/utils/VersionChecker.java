@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2025.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.utils;
@@ -16,7 +16,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-
 import net.minecraft.client.Minecraft;
 
 public class VersionChecker {
@@ -31,8 +30,9 @@ public class VersionChecker {
         String directUpdateLink = null;
         String updateInfoPageLink = null;
         String azureBlobLink = null;
-        //In the jsonObject there is an array called "audio_urls" that contains these audio urls.
+        // In the jsonObject there is an array called "audio_urls" that contains these audio urls.
         List<String> audioUrls = new ArrayList<>();
+        List<String> broadcast = new ArrayList<>();
         try {
             fact = jsonObject.get("fact").getAsString();
             killSwitchVersion = jsonObject.get("fabric_killSwitchVersion").getAsString();
@@ -42,21 +42,22 @@ public class VersionChecker {
             updateInfoPageLink = jsonObject.get("fabric_updateInfopageLink").getAsString();
             azureBlobLink = jsonObject.get("azure_blob_link").getAsString();
             jsonObject.getAsJsonArray("audio_urls").forEach(jsonElement -> audioUrls.add(jsonElement.getAsString()));
+            jsonObject.getAsJsonArray("broadcast").forEach(jsonElement -> broadcast.add(jsonElement.getAsString()));
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-
+        // Something went wrong with the request
         if (newestVersion == null) {
             return;
         }
 
-        if (azureBlobLink != null){
+        if (azureBlobLink != null) {
             config.azureBlobLink = azureBlobLink;
             config.save();
         }
 
-        if (!audioUrls.isEmpty()){
+        if (!audioUrls.isEmpty()) {
             config.urls = audioUrls;
             config.save();
         }
@@ -84,18 +85,26 @@ public class VersionChecker {
             if (fact != null && config.isSendFunFact()) {
                 Utils.sendMessage("§9Fun fact: " + fact);
             }
+            showBroadcastMessages(broadcast);
             return;
         }
 
         Utils.sendMessage("§9A new version of §5Voices of Wynn§9 is available! You are using version: §4" + version
                 + " §9and the newest version is: §2" + newestVersion + ".");
         Utils.appendMessageWithLinkAndSend("§9To download it directly, click ", directUpdateLink, "§b§nhere");
-        Utils.appendMessageWithLinkAndSend(
-                "§9To see the changelog, click ", updateInfoPageLink, "§b§nhere");
+        Utils.appendMessageWithLinkAndSend("§9To see the changelog, click ", updateInfoPageLink, "§b§nhere");
+        showBroadcastMessages(broadcast);
+    }
+
+    private static void showBroadcastMessages(List<String> broadcast) {
+        if (broadcast != null && !broadcast.isEmpty()) {
+            for (String message : broadcast) {
+                Utils.sendMessage("§d" + message);
+            }
+        }
     }
 
     private static float GetVersionNumberInFloat(String version) {
-
         version = version.replaceAll("[^\\d.]", "");
         float output = 0;
         float multiplier = 1;

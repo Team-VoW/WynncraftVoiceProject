@@ -1,6 +1,8 @@
 name: Sync Sounds to Azure
 on:
   push:
+    branches:
+      - main
     paths:
       - "sounds/**"
   workflow_dispatch:
