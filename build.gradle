@@ -18,6 +18,7 @@ repositories {
     maven { url "https://maven.shedaniel.me/" }
     maven { url "https://maven.terraformersmc.com/releases/" }
     maven { url "https://maven.parchmentmc.org/" }
+    maven { url "https://mvn.0110.be/releases" }
 }
 
 allprojects {
@@ -39,7 +40,7 @@ allprojects {
                 }
             } as Closure<String>
             custom "Refuse IntelliJ annotations", {
-                if (it =~ /\nimport org\.jetbrains\.annotations\./) {
+                if (it =~ /\nimport org\\.jetbrains\\.annotations\\./) {
                     throw new AssertionError("Do not use IntelliJ annotations. 'spotlessApply' cannot resolve this issue.")
                 }
             } as Closure<String>
@@ -93,6 +94,12 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}+${project.minecraft_version}"
 
+    // TarsosDSP dependencies - properly bundle them
+    implementation 'be.tarsos.dsp:core:2.5'
+    include 'be.tarsos.dsp:core:2.5'
+    implementation 'be.tarsos.dsp:jvm:2.5'
+    include 'be.tarsos.dsp:jvm:2.5'
+
     // Development dependencies
     modRuntimeOnly "me.djtheredstoner:DevAuth-fabric:${project.devauth_version}"
 
@@ -110,13 +117,13 @@ dependencies {
 
 processResources {
     var replaceProperties = [
-        mod_version                : version,
-        mod_id                     : maven_group,
-        mod_name                   : mod_name,
-        minecraft_version_range    : minecraft_version_range,
-        fabric_loader_version      : fabric_loader_version,
-        fabric_api_version         : fabric_api_version,
-        cloth_config_version       : cloth_config_version,
+        mod_version            : version,
+        mod_id                 : maven_group,
+        mod_name               : mod_name,
+        minecraft_version_range: minecraft_version_range,
+        fabric_loader_version  : fabric_loader_version,
+        fabric_api_version     : fabric_api_version,
+        cloth_config_version   : cloth_config_version,
     ]
     inputs.properties replaceProperties
 
@@ -143,6 +150,6 @@ remapJar {
 
 jar {
     from("LICENSE") {
-        rename { "${it}_${base.archivesName.get()}"}
+        rename { "${it}_${base.archivesName.get()}" }
     }
 }
