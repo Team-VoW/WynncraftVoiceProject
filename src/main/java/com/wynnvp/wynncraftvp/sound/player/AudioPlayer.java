@@ -37,7 +37,9 @@ public class AudioPlayer {
     private void write(AudioData data) {
         openAlPlayer.playAudio(data);
         if (ModCore.config.autoProgress) {
-            autoProgress.start(data.getAudioLengthMillis());
+            float speedMultiplier = ModCore.config.getPlaybackSpeed();
+            long adjustedDuration = Math.round(data.getAudioLengthMillis() / speedMultiplier);
+            autoProgress.start(adjustedDuration);
         }
     }
 
@@ -63,7 +65,7 @@ public class AudioPlayer {
         String audioFileName = soundObject.getId();
         Path audioFilePath = Paths.get(AUDIO_FOLDER, audioFileName + ".ogg");
 
-        if (ModCore.config.isUseCustomAudioPath()){
+        if (ModCore.config.isUseCustomAudioPath()) {
             playFromCustomPath(audioFileName, soundObject);
             return;
         }
@@ -86,7 +88,6 @@ public class AudioPlayer {
 
         if (isURL) {
             CompletableFuture.runAsync(() -> {
-
                 ByteBuffer remoteAudioData = null;
                 try {
                     remoteAudioData = fetchRemoteAudio(customPath + audioFileName + ".ogg");
@@ -106,9 +107,8 @@ public class AudioPlayer {
         if (customAudioPath.toFile().exists()) {
             playLocalFile(customAudioPath, soundObject);
         } else {
-            Utils.sendMessage(
-                    "Failed to load custom audio file: " + customAudioPath.toString()
-                            + ". Please check your settings. You are using a custom audio path.");
+            Utils.sendMessage("Failed to load custom audio file: " + customAudioPath.toString()
+                    + ". Please check your settings. You are using a custom audio path.");
         }
     }
 
