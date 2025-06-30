@@ -1145,7 +1145,7 @@
     "file": "infestedplants-tasim-11"
   },
   {
-    "line": "[1/2] Tasim: Oh, soldier! There you are. It's good to see you. I'd say we should keep heading towards Detlas, but...\n",
+    "line": "[1/2] Tasim: Oh, soldier! There you are. It's good to see you. I'd say we should keep heading towards Detlas, but...",
     "file": "infestedplants-tasim-12"
   },
   {
@@ -4701,6 +4701,10 @@
     "file": "recoverthepast-tasim-5"
   },
   {
+    "line": "[1/3] Tasim: So, have you had any interesting adventures since we split up?",
+    "file": "recoverthepast-tasim-5"
+  },
+  {
     "line": "[2/4] Tasim: ...Oh, right! You and General Graken dealt with the undead in Ancient Nemract, didn't you? Captain Ragon was glad to hear that, I'll tell you.",
     "file": "recoverthepast-tasim-6"
   },
@@ -4710,6 +4714,10 @@
   },
   {
     "line": "[4/4] Tasim: I have the skill and the magic to fight off corrupteds, so I might as well help wherever I'm needed.",
+    "file": "recoverthepast-tasim-8"
+  },
+  {
+    "line": "[3/3] Tasim: I have the skill and the magic to fight off corrupteds, so I might as well help wherever I'm needed.",
     "file": "recoverthepast-tasim-8"
   },
   {
