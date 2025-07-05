@@ -10737,6 +10737,22 @@
     "file": "frostbite-eppo-17"
   },
   {
+    "line": "[2/6] Eppo: Truth is.. We're not retrieving these bodies for no reason.",
+    "file": "frostbite-eppo-51"
+  },
+  {
+    "line": "[3/6] Eppo: We believe one of these people worked for Theorick, and has a key to his mansion.",
+    "file": "frostbite-eppo-52"
+  },
+  {
+    "line": "[4/6] Eppo: We in Nesaak think Theorick has a lot to answer for. We want to redistribute his wealth among those he hurt.",
+    "file": "frostbite-eppo-53"
+  },
+  {
+    "line": "[5/6] Eppo: Right, I've dipped this stick in the magical lava. Just hold the rod and walk into the ice to melt it.",
+    "file": "frostbite-eppo-54"
+  },
+  {
     "line": "[6/6] Eppo: Look for the corpse with a key, it might be above you. Good luck!",
     "file": "frostbite-eppo-18",
     "onPlayer": true
@@ -10864,6 +10880,22 @@
   {
     "line": "[1/5] Eppo: You did it! We have access to the vault.",
     "file": "frostbite-eppo-46"
+  },
+  {
+    "line": "[2/5] Eppo: Wow, even by todays standards, this is a huge amount of money. Just think how much this was hundreds of years ago.",
+    "file": "frostbite-eppo-47"
+  },
+  {
+    "line": "[3/5] Eppo: Grab a little for yourself, too, we wouldn't have been able to get here without you.",
+    "file": "frostbite-eppo-48"
+  },
+  {
+    "line": "[4/5] Eppo: Wait, look at this. It seems to be a piece of Theoricks armour.",
+    "file": "frostbite-eppo-49"
+  },
+  {
+    "line": "[5/5] Eppo: Surprised it even managed to fit over his fat head.",
+    "file": "frostbite-eppo-50"
   },
   {
     "line": "[1/9] Nasea: Shipment 3A and 4B, fully accounted for... shipments 5C and 6A...missing 50% of quartz content?!",
