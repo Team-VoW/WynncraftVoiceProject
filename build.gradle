@@ -1,6 +1,7 @@
 plugins {
     id 'fabric-loom' version '1.7-SNAPSHOT'
     id "com.diffplug.spotless" version "${spotless_version}"
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
 base {
@@ -83,6 +84,22 @@ allprojects {
     }
 }
 
+shadowJar {
+    configurations = [project.configurations.shadow]
+    archiveClassifier.set('')
+
+    exclude 'natives/*-x86/*'
+}
+
+// Make sure shadowJar runs before remapJar
+remapJar {
+    dependsOn shadowJar
+    input = shadowJar.archiveFile
+    archiveClassifier = "fabric+MC-${minecraft_version}"
+}
+
+tasks.build.dependsOn(shadowJar)
+
 dependencies {
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
 
@@ -94,11 +111,8 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}+${project.minecraft_version}"
 
-    // TarsosDSP dependencies - properly bundle them
-    implementation 'be.tarsos.dsp:core:2.5'
-    include 'be.tarsos.dsp:core:2.5'
-    implementation 'be.tarsos.dsp:jvm:2.5'
-    include 'be.tarsos.dsp:jvm:2.5'
+    shadow 'be.tarsos.dsp:core:2.5'
+    shadow 'be.tarsos.dsp:jvm:2.5'
 
     // Development dependencies
     modRuntimeOnly "me.djtheredstoner:DevAuth-fabric:${project.devauth_version}"
@@ -142,14 +156,4 @@ java {
 
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
-}
-
-remapJar {
-    archiveClassifier = "fabric+MC-${minecraft_version}"
-}
-
-jar {
-    from("LICENSE") {
-        rename { "${it}_${base.archivesName.get()}" }
-    }
 }
