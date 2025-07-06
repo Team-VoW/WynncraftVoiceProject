@@ -130,6 +130,11 @@ dependencies {
 }
 
 processResources {
+    from('sounds') {
+        include 'sounds.json'
+        into '.'
+    }
+
     var replaceProperties = [
         mod_version            : version,
         mod_id                 : maven_group,
