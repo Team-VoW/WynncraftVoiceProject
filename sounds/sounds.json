@@ -4216,16 +4216,15 @@
     "onPlayer": true
   },
   {
-    "line": "[1/6] Lost Soul: Please, stop this! Whoever you are, leave me and my family in peace! What did we ever do to deserve this?!",
-    "file": "darkdescent-lostsoul-1",
-    "onPlayer": true
+    "line": "[1/6] Lost Soul: Please, stop this! Whoever you are, leave me and my family in peace!",
+    "file": "darkdescent-lostsoul-1"
   },
   {
-    "line": "[3/6] Lost Soul: Y-you...I thought they...oh, god, no...",
+    "line": "[3/6] Lost Soul: Y-you... I thought they... oh, gods, no...",
     "file": "darkdescent-lostsoul-2"
   },
   {
-    "line": "[5/6] Lost Soul: Wha...you mean... N-no, please! I don't want to hurt anyone! I don't want to die!!",
+    "line": "[5/6] Lost Soul: Wha... you mean... N-no, please! I don't want to hurt anyone!",
     "file": "darkdescent-lostsoul-3"
   },
   {
