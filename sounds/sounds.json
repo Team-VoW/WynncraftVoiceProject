@@ -2198,11 +2198,23 @@
     "file": "mushroomman-tasim-12"
   },
   {
+    "line": "[1/9] Tasim: Well, it looks cleared to me. These are... uh... some fine mushrooms!",
+    "file": "mushroomman-tasim-12"
+  },
+  {
     "line": "[3/10] Yahya: Th-thank you soldiers! Th-that was-... I mean. I-it was f-fine, I g-... guess.",
     "file": "mushroomman-yahya-13"
   },
   {
+    "line": "[2/9] Yahya: Th-thank you soldiers! That was-... I mean. It was f-fine, I g-... guess.",
+    "file": "mushroomman-yahya-13"
+  },
+  {
     "line": "[4/10] Yahya: ...O-oh. Do I n-need to pay you... now? Heh. Is- is [2 Emeralds] fine with y-you..?",
+    "file": "mushroomman-yahya-14"
+  },
+  {
+    "line": "[3/9] Yahya: ...O-oh. Do I n-need to pay you... now? Heh. Is- is [2 Emeralds] fine with y-you..?",
     "file": "mushroomman-yahya-14"
   },
   {
@@ -2218,7 +2230,15 @@
     "file": "mushroomman-yahya-15"
   },
   {
+    "line": "[5/9] Yahya: Oho okay, ok-... okay! It was a joke, don't get all ex-... ex-... excited. Here, just take-",
+    "file": "mushroomman-yahya-15"
+  },
+  {
     "line": "[7/10] Yahya: G-gah! C-creepy! C-c-crawly! S-s-s-spiders!!!",
+    "file": "mushroomman-yahya-16"
+  },
+  {
+    "line": "[6/9] Yahya: G-gah! C-creepy! C-c-crawly! S-s-s-spiders!!!",
     "file": "mushroomman-yahya-16"
   },
   {
