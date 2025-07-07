@@ -1145,7 +1145,7 @@
     "file": "infestedplants-tasim-11"
   },
   {
-    "line": "[1/2] Tasim: Oh, soldier! There you are. It's good to see you. I'd say we should keep heading towards Detlas, but...\n",
+    "line": "[1/2] Tasim: Oh, soldier! There you are. It's good to see you. I'd say we should keep heading towards Detlas, but...",
     "file": "infestedplants-tasim-12"
   },
   {
@@ -2198,11 +2198,23 @@
     "file": "mushroomman-tasim-12"
   },
   {
+    "line": "[1/9] Tasim: Well, it looks cleared to me. These are... uh... some fine mushrooms!",
+    "file": "mushroomman-tasim-12"
+  },
+  {
     "line": "[3/10] Yahya: Th-thank you soldiers! Th-that was-... I mean. I-it was f-fine, I g-... guess.",
     "file": "mushroomman-yahya-13"
   },
   {
+    "line": "[2/9] Yahya: Th-thank you soldiers! That was-... I mean. It was f-fine, I g-... guess.",
+    "file": "mushroomman-yahya-13"
+  },
+  {
     "line": "[4/10] Yahya: ...O-oh. Do I n-need to pay you... now? Heh. Is- is [2 Emeralds] fine with y-you..?",
+    "file": "mushroomman-yahya-14"
+  },
+  {
+    "line": "[3/9] Yahya: ...O-oh. Do I n-need to pay you... now? Heh. Is- is [2 Emeralds] fine with y-you..?",
     "file": "mushroomman-yahya-14"
   },
   {
@@ -2218,7 +2230,15 @@
     "file": "mushroomman-yahya-15"
   },
   {
+    "line": "[5/9] Yahya: Oho okay, ok-... okay! It was a joke, don't get all ex-... ex-... excited. Here, just take-",
+    "file": "mushroomman-yahya-15"
+  },
+  {
     "line": "[7/10] Yahya: G-gah! C-creepy! C-c-crawly! S-s-s-spiders!!!",
+    "file": "mushroomman-yahya-16"
+  },
+  {
+    "line": "[6/9] Yahya: G-gah! C-creepy! C-c-crawly! S-s-s-spiders!!!",
     "file": "mushroomman-yahya-16"
   },
   {
@@ -4216,16 +4236,15 @@
     "onPlayer": true
   },
   {
-    "line": "[1/6] Lost Soul: Please, stop this! Whoever you are, leave me and my family in peace! What did we ever do to deserve this?!",
-    "file": "darkdescent-lostsoul-1",
-    "onPlayer": true
+    "line": "[1/6] Lost Soul: Please, stop this! Whoever you are, leave me and my family in peace!",
+    "file": "darkdescent-lostsoul-1"
   },
   {
-    "line": "[3/6] Lost Soul: Y-you...I thought they...oh, god, no...",
+    "line": "[3/6] Lost Soul: Y-you... I thought they... oh, gods, no...",
     "file": "darkdescent-lostsoul-2"
   },
   {
-    "line": "[5/6] Lost Soul: Wha...you mean... N-no, please! I don't want to hurt anyone! I don't want to die!!",
+    "line": "[5/6] Lost Soul: Wha... you mean... N-no, please! I don't want to hurt anyone!",
     "file": "darkdescent-lostsoul-3"
   },
   {
@@ -4701,6 +4720,10 @@
     "file": "recoverthepast-tasim-5"
   },
   {
+    "line": "[1/3] Tasim: So, have you had any interesting adventures since we split up?",
+    "file": "recoverthepast-tasim-5"
+  },
+  {
     "line": "[2/4] Tasim: ...Oh, right! You and General Graken dealt with the undead in Ancient Nemract, didn't you? Captain Ragon was glad to hear that, I'll tell you.",
     "file": "recoverthepast-tasim-6"
   },
@@ -4710,6 +4733,10 @@
   },
   {
     "line": "[4/4] Tasim: I have the skill and the magic to fight off corrupteds, so I might as well help wherever I'm needed.",
+    "file": "recoverthepast-tasim-8"
+  },
+  {
+    "line": "[3/3] Tasim: I have the skill and the magic to fight off corrupteds, so I might as well help wherever I'm needed.",
     "file": "recoverthepast-tasim-8"
   },
   {
@@ -10729,6 +10756,22 @@
     "file": "frostbite-eppo-17"
   },
   {
+    "line": "[2/6] Eppo: Truth is.. We're not retrieving these bodies for no reason.",
+    "file": "frostbite-eppo-51"
+  },
+  {
+    "line": "[3/6] Eppo: We believe one of these people worked for Theorick, and has a key to his mansion.",
+    "file": "frostbite-eppo-52"
+  },
+  {
+    "line": "[4/6] Eppo: We in Nesaak think Theorick has a lot to answer for. We want to redistribute his wealth among those he hurt.",
+    "file": "frostbite-eppo-53"
+  },
+  {
+    "line": "[5/6] Eppo: Right, I've dipped this stick in the magical lava. Just hold the rod and walk into the ice to melt it.",
+    "file": "frostbite-eppo-54"
+  },
+  {
     "line": "[6/6] Eppo: Look for the corpse with a key, it might be above you. Good luck!",
     "file": "frostbite-eppo-18",
     "onPlayer": true
@@ -10856,6 +10899,22 @@
   {
     "line": "[1/5] Eppo: You did it! We have access to the vault.",
     "file": "frostbite-eppo-46"
+  },
+  {
+    "line": "[2/5] Eppo: Wow, even by todays standards, this is a huge amount of money. Just think how much this was hundreds of years ago.",
+    "file": "frostbite-eppo-47"
+  },
+  {
+    "line": "[3/5] Eppo: Grab a little for yourself, too, we wouldn't have been able to get here without you.",
+    "file": "frostbite-eppo-48"
+  },
+  {
+    "line": "[4/5] Eppo: Wait, look at this. It seems to be a piece of Theoricks armour.",
+    "file": "frostbite-eppo-49"
+  },
+  {
+    "line": "[5/5] Eppo: Surprised it even managed to fit over his fat head.",
+    "file": "frostbite-eppo-50"
   },
   {
     "line": "[1/9] Nasea: Shipment 3A and 4B, fully accounted for... shipments 5C and 6A...missing 50% of quartz content?!",
@@ -32141,197 +32200,240 @@
     "file": "theenvoypart2-maxie-24"
   },
   {
-    "line": "[1/12] Norsten: You there! You think you can get past me without paying, darling? I didn't think so.",
+    "line": "[1/17] Norsten: ...ugh. Disgusting. Utterly disgusting. I've had just about enough of your kind here. Humans...",
     "file": "amaraudersdues-norsten-1"
   },
   {
-    "line": "[2/12] Norsten: You want to get to Thesead? That'll cost you everything you own. All of your emeralds, and your silly little armor and trinkets. All of it.",
+    "line": "[2/17] Norsten: Dreadfully drab, always getting in the way, wriggling through our province like worms! You're no heroes, you're pretenders!!",
     "file": "amaraudersdues-norsten-2"
   },
   {
-    "line": "[3/12] Peli: Norsten? Finally! I've been looking all over for you. What are you doing here?",
-    "file": "amaraudersdues-peli-1"
-  },
-  {
-    "line": "[4/12] Norsten: No idea who you are, but you better pay up. You used my gate without my permission! And ugh, your outfit, so drab!",
+    "line": "[3/17] Norsten: Oh, you want through here? Well, I'm the gatekeeper. Let's call my toll...the abandonment of your ridiculous little heroics...and all your money besides. Sound fair?",
     "file": "amaraudersdues-norsten-3"
   },
   {
-    "line": "[5/12] Peli: Why are you talking like that? And what do you mean \"your gate\"? What's wrong with you?",
-    "file": "amaraudersdues-peli-2"
+    "line": "[4/17] Peli: Aha, Norsten my boy! We've been worried sick, it's been a week. What is it you're doing so far out into the canyon?",
+    "file": "amaraudersdues-peli-1"
   },
   {
-    "line": "[6/12] Norsten: This is MY gate, darling. Now, pay up, quickly! And don't even think about running.",
+    "line": "[5/17] Norsten: Wha- Who are you, and who gave you permission to use my toll road?! And can't you see I'm busy?",
     "file": "amaraudersdues-norsten-4"
   },
   {
-    "line": "[7/12] Peli: You there, small-nose. Don't you Wynn folks love helping out? Something's clearly wrong with my friend here.",
-    "file": "amaraudersdues-peli-3"
+    "line": "[6/17] Peli: Norsten?? Don't you recognize your own grandfather? What's that strange look in your eyes, what's this about a toll road?",
+    "file": "amaraudersdues-peli-2"
   },
   {
-    "line": "[8/12] Peli: He's normally nothing like this. He doesn't try to rob people, and he CERTAINLY doesn't talk like that crazy ol- Oh! I think I know what's happening.",
-    "file": "amaraudersdues-peli-4"
-  },
-  {
-    "line": "[9/12] Peli: See that tower up there? A crazy old wizard lives up there. I think he's mind controlling Norsten here.",
-    "file": "amaraudersdues-peli-5"
-  },
-  {
-    "line": "[10/12] Norsten: Mind control? Silly man. I would neve- Uh, I mean, he would never do that! He's just an innocent stylish old man!",
+    "line": "[7/17] Norsten: You're nothing to me at your age. I only care about what the young can do for me...and about the fee you're neglecting, you shriveled old fruit!",
     "file": "amaraudersdues-norsten-5"
   },
   {
-    "line": "[11/12] Peli: See what I mean? There's a shortcut through the mountain over there. It'll take you straight to the path up to the wizard's tower.",
-    "file": "amaraudersdues-peli-6"
+    "line": "[8/17] Peli: What's gotten into you? Such a polite man, acting this way to your elders... Human, have you any idea what's-",
+    "file": "amaraudersdues-peli-3"
   },
   {
-    "line": "[12/12] Peli: I don't care what you do with him, just make sure he lets Norsten go.",
-    "file": "amaraudersdues-peli-7"
+    "line": "[9/17] Peli: ...oh no. Oh, say it isn't so, is that what's happening? Is it HIS fault?",
+    "file": "amaraudersdues-peli-4"
   },
   {
-    "line": "[1/1] ???: Ha, you're so weak I can blow you away with a fabulous little air spell!",
-    "file": "amaraudersdues-volmor-1",
-    "onPlayer": true
+    "line": "[10/17] Peli: Up there, on the cliff- that tower! The scourge of the canyon...has he truly returned? Has he...taken my grandson?!",
+    "file": "amaraudersdues-peli-5"
   },
   {
-    "line": "[1/1] ???: Yoohoo! You there! Yes, you, with the silly soldier outfit. I see you!",
-    "file": "amaraudersdues-volmor-2",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/1] ???: I can see you! You can't hide from little old me. Come no further or I shall be forced to act!",
-    "file": "amaraudersdues-volmor-3",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/1] ???: Wait, where did you go?",
-    "file": "amaraudersdues-volmor-4",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/1] ???: Aha, there you are! I know why you're here, and I promise it won't end well for you, darling!",
-    "file": "amaraudersdues-volmor-5",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/2] ???: You think I didn't know about those caves? You silly old goose, I'll make you suffer!",
-    "file": "amaraudersdues-volmor-6",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/2] ???: And now your little mind is mine, trapped in an illusion for all time! You'll go mad trying to figure out what is real and what is not, and your mind will shatter!",
-    "file": "amaraudersdues-volmor-7",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/2] ???: OH, dearie me! Where did you come from? I thought I'd trapped you for good!",
-    "file": "amaraudersdues-volmor-8",
-    "onPlayer": true
-  },
-  {
-    "line": "[2/2] ???: I'll need a more permanent solution then, won't I? Oooh, how about this?",
-    "file": "amaraudersdues-volmor-9",
-    "onPlayer": true
-  },
-  {
-    "line": "[1/10] Volmor: GAH!",
-    "file": "amaraudersdues-volmor-10"
-  },
-  {
-    "line": "[2/10] Volmor: Oh gosh, you're here! Where did I put my pink wand, I simply can't cast in black!",
-    "file": "amaraudersdues-volmor-11"
-  },
-  {
-    "line": "[3/10] Volmor: Well foof! I guess you've got me! Teehee!",
-    "file": "amaraudersdues-volmor-12"
-  },
-  {
-    "line": "[4/10] Volmor: Ohh, I do hate it when people make me give up my toys. I'll let the silly little man go.",
-    "file": "amaraudersdues-volmor-13"
-  },
-  {
-    "line": "[5/10] Volmor: Tell you the truth, his style offended me anyway. Asking people to give him money wearing that?! Ugh, hideous.",
-    "file": "amaraudersdues-volmor-14"
-  },
-  {
-    "line": "[6/10] Volmor: Well, there's no need to raise your fists, darling. I'm not going to fight you like some common ogre! Hah!",
-    "file": "amaraudersdues-volmor-15"
-  },
-  {
-    "line": "[7/10] Volmor: Here, let me get the gem. With it you can bring his free will right back to his old unfashionable self!",
-    "file": "amaraudersdues-volmor-16"
-  },
-  {
-    "line": "[8/10] Volmor: Here...",
-    "file": "amaraudersdues-volmor-17"
-  },
-  {
-    "line": "[9/10] Volmor: Whoopsies! Silly old Volmor! Too much magical moisturiser again. It just slipped right out of my fingers!",
-    "file": "amaraudersdues-volmor-18"
-  },
-  {
-    "line": "[10/10] Volmor: Heehee! I guess you won't be saving him after all! It's not like you could jump in there, that's my trash! You'd get dirt all over your outfit!",
-    "file": "amaraudersdues-volmor-19"
-  },
-  {
-    "line": "[1/12] Norsten: Huh? You again?! How did you escape from my- wait, uh, I mean... You there! Give me everything you own!",
+    "line": "[11/17] Norsten: ...heh. Haaaaahahahaha!!",
     "file": "amaraudersdues-norsten-6"
   },
   {
-    "line": "[2/12] Peli: Stop trying, you creepy old man! We all know it's not Norsten that's speaking. Anyway, human, that was quite an entrance! Did you find anything?",
-    "file": "amaraudersdues-peli-8"
-  },
-  {
-    "line": "[3/12] Norsten: Wait, what's that? What are you doing with that gemstone? I- Agh!",
+    "line": "[12/17] Norsten: My reputation, even after all this time, still precedes me!! Indeed, old man, I have taken your grandson as my puppet!",
     "file": "amaraudersdues-norsten-7"
   },
   {
-    "line": "[4/12] Norsten: Ugh... Where am I...? Peli? What happened? I can't remember how I got here.",
+    "line": "[13/17] Norsten: What should I care about the facade? For a hundred and fifty years I've stolen the vitality of others to maintain my beauty, and your grandson will be no different.",
     "file": "amaraudersdues-norsten-8"
   },
   {
-    "line": "[5/12] Peli: Ah, Norsten, you're back! Finally. You won't believe it, but... You remember that crazy old wizard? He took over your body or something!",
-    "file": "amaraudersdues-peli-9"
+    "line": "[14/17] Peli: Miserable dastard!! Cold-water eel!! Human, you must help, you MUST! I beg you, please, seek the sorcerer and save my poor Norsten!!",
+    "file": "amaraudersdues-peli-6"
   },
   {
-    "line": "[6/12] Norsten: ...What? What do you mean?",
+    "line": "[15/17] Peli: The southwest mountains have a shortcut past the bandits, time is of the essence!",
+    "file": "amaraudersdues-peli-7"
+  },
+  {
+    "line": "[16/17] Norsten: A veritable army fell before my magic! The bandits pay their tribute to my grace and obey my orders! You're as mad as I am called if you think one human can get through.",
     "file": "amaraudersdues-norsten-9"
   },
   {
-    "line": "[7/12] Peli: He took control of your body and used it to try to rob people! But, he still talked like his normal crazy self so it was immediately obvious.",
-    "file": "amaraudersdues-peli-10"
-  },
-  {
-    "line": "[8/12] Peli: And this human here saved you! They went right up to the wizard's tower, and then a bit later came flying back out with a gemstone!",
-    "file": "amaraudersdues-peli-11"
-  },
-  {
-    "line": "[9/12] Norsten: I'm confused... But thank you, human. It sounds like you really saved me!",
+    "line": "[17/17] Norsten: I'll leave you a corpse, a husk! A withered pile of dust- or perhaps I'll take YOU as a slave too, human! So what will it be? Run...or face me?",
     "file": "amaraudersdues-norsten-10"
   },
   {
-    "line": "[10/12] Norsten: Here, let me repay you. So that wizard tried to use me to rob people for money, right? But I guess he didn't think to check my pockets.",
+    "line": "[1/3] Norsten: I see that reckless look, worm. You will be no different from the other soldiers who thought they had a chance.",
     "file": "amaraudersdues-norsten-11"
   },
   {
-    "line": "[11/12] Peli: Well, that's generous. Looks like a happy ending for everyone! Come on Norsten, let's get you home.",
-    "file": "amaraudersdues-peli-12"
+    "line": "[2/3] Peli: Please, human... If I were to lose my grandson, I- I don't know what I would do!",
+    "file": "amaraudersdues-peli-8"
   },
   {
-    "line": "[12/12] Norsten: Just a second, my mind's still a bit fuzzy.",
+    "line": "[3/3] Peli: The southwest mountains have a shortcut past the bandits, I know this much...please, stop that fiend!",
+    "file": "amaraudersdues-peli-9"
+  },
+  {
+    "line": "[1/1] ???: The very sight of you offends me! Let this gust of wind relieve me of your presence. Take it as a warning- you are not welcome here!",
+    "file": "amaraudersdues-dramele-1"
+  },
+  {
+    "line": "[1/1] ???: Hoho... The worm comes wriggling in, it seems. What a horrid thing you are. Mismatched armor, courage of a fool all over your face... Inelegant and UGLY!!",
+    "file": "amaraudersdues-dramele-2"
+  },
+  {
+    "line": "[1/1] ???: At least the last ones to face me had some coordination, and the sense to hide themselves. Come further and you'll share their fate!!",
+    "file": "amaraudersdues-dramele-3"
+  },
+  {
+    "line": "[1/1] ???: ...rrgh! The tunnels! Once again, humans try so hard to spoil my fun... But do you really think you've evaded me?",
+    "file": "amaraudersdues-dramele-4"
+  },
+  {
+    "line": "[1/1] ???: You can never understand. The beauty of one like myself cannot be transient, it must be everlasting! I will never succumb to my mortality!",
+    "file": "amaraudersdues-dramele-5"
+  },
+  {
+    "line": "[1/2] ???: As a matter of fact...you humans ARE good for one thing. Drab as you are, you're lively. So consider this an honor!",
+    "file": "amaraudersdues-dramele-6"
+  },
+  {
+    "line": "[2/2] ???: HAAAAAhahahaha!! Instead of destruction, I'll leave you trapped in this illusion, and chip away at your ugly mind until nothing remains. You'll join the rest who've prolonged my life!",
+    "file": "amaraudersdues-dramele-7"
+  },
+  {
+    "line": "[1/1] ???: I'll take pleasure in peeling away your most formative memories first- W-wait, what's this giant blank spot? It's interfering with my spell...!!",
+    "file": "amaraudersdues-dramele-8"
+  },
+  {
+    "line": "[1/1] ???: Ugh, barely any memories to remove, hardly any personality... How much of a dull gray slate are you...and how is that making this more difficult?!",
+    "file": "amaraudersdues-dramele-9"
+  },
+  {
+    "line": "[1/2] ???: You escaped?! ...hmph. I suppose that trick works better for binding a platoon than a person. When you only need to focus on what YOU see...rrgh.",
+    "file": "amaraudersdues-dramele-10"
+  },
+  {
+    "line": "[2/2] ???: Fine...you've forced my hand. I must sweep you aside, you so-called hero! Never darken my door again! Cease to exist!!",
+    "file": "amaraudersdues-dramele-11"
+  },
+  {
+    "line": "[1/12] Dramele: GAH!",
+    "file": "amaraudersdues-dramele-12"
+  },
+  {
+    "line": "[2/12] Dramele: Ugh, what was it that raisin of a man said- Miserable runt?! Cold-water eel?! More fitting names for you than me!!",
+    "file": "amaraudersdues-dramele-13"
+  },
+  {
+    "line": "[3/12] Dramele: ...fine. The defenses of my tower were absolute enough that I never needed to defend myself inside. I should have taken you seriously from the start.",
+    "file": "amaraudersdues-dramele-14"
+  },
+  {
+    "line": "[4/12] Dramele: It's been so long since I've faced a threat, and now that you're here- RRGH! How could a HUMAN get the best of me?",
+    "file": "amaraudersdues-dramele-15"
+  },
+  {
+    "line": "[5/12] Dramele: Me, who holds control over every bandit in the canyon...! How dare you embarrass me so!",
+    "file": "amaraudersdues-dramele-16"
+  },
+  {
+    "line": "[6/12] Dramele: Well, fine. You've got me dead to rights. I'll give up the blasted binding gem. Who knows if most of the bandits will return to normal, after so long...",
+    "file": "amaraudersdues-dramele-17"
+  },
+  {
+    "line": "[7/12] Dramele: ...but Norsten? He'll barely be affected. Bring it to him and he'll be freed, loath as I am to let him go.",
+    "file": "amaraudersdues-dramele-18"
+  },
+  {
+    "line": "[8/12] Dramele: Here...",
+    "file": "amaraudersdues-dramele-19"
+  },
+  {
+    "line": "[9/12] Dramele: HA! I still get the last laugh! Even at my most vulnerable, I've gracefully outwitted you! As if I would really surrender to a human.",
+    "file": "amaraudersdues-dramele-20"
+  },
+  {
+    "line": "[10/12] Dramele: Those souls are mine to control, you hear me? Mine to bind!! Mine to drain dry of vitality!! Mine to OWN!! HehehaHAAAAA!!",
+    "file": "amaraudersdues-dramele-21"
+  },
+  {
+    "line": "[11/12] Dramele: And if you jump in after it? You'll be truly trapped- a dimension of my own making, filled with volatile magical waste! You'll never be seen again!",
+    "file": "amaraudersdues-dramele-22"
+  },
+  {
+    "line": "[12/12] Dramele: In other words... You. Lose.",
+    "file": "amaraudersdues-dramele-23"
+  },
+  {
+    "line": "[1/1] Dramele: I'll just drain Norsten's vitality to refill my own if you attack! There's nothing you can do- can't jump after the gem, can't defeat me! It's hopeless for you!",
+    "file": "amaraudersdues-dramele-24"
+  },
+  {
+    "line": "[1/12] Norsten: H-how did you survive? How did you get OUT?! That pocket dimension has a one-way entrance!! I- You- I'LL DRAIN AWAY NORSTEN BEFORE YOUR VERY EYES!!",
     "file": "amaraudersdues-norsten-12"
   },
   {
-    "line": "[1/3] Norsten: You again! You think I didn't recognize you? Your friend here used my gate, but refuses to pay. I'll forgive his debt, but only if you pay up now! as well?",
+    "line": "[2/12] Peli: The scourge is angry!! Human, quickly, for him to be this upset you must have found something! Save my grandson, please!!",
+    "file": "amaraudersdues-peli-10"
+  },
+  {
+    "line": "[3/12] Norsten: I'LL FLING YOU TO THE ENDS OF THE CANYON!! FILTHY HUMAN, LOWLY WORM NOT FIT TO BE DUST-",
     "file": "amaraudersdues-norsten-13"
   },
   {
-    "line": "[2/3] Peli: Again, as I already told you a hundred times, you can't just pick any random old gate and pretend it's yours!",
+    "line": "[4/12] Norsten: Aguh...w-where am I? My...my throat hurts...was I screaming?",
+    "file": "amaraudersdues-norsten-14"
+  },
+  {
+    "line": "[5/12] Peli: Oh, my poor grandson...my little Norsten is back to us! Oh, joyous day!!",
+    "file": "amaraudersdues-peli-11"
+  },
+  {
+    "line": "[6/12] Norsten: Back to...did something happen? I remember coming this way after a thief...and then...",
+    "file": "amaraudersdues-norsten-15"
+  },
+  {
+    "line": "[7/12] Peli: That terrible wizard must have captured you in his spell when you did. It was terrible, it was- Such a hard look you had in your eyes...",
+    "file": "amaraudersdues-peli-12"
+  },
+  {
+    "line": "[8/12] Peli: But this human, this hero... They have bested the scourge of the canyon! They managed to save you from such evil!",
     "file": "amaraudersdues-peli-13"
   },
   {
-    "line": "[3/3] Peli: Anyway, human, do you finally have some news? If not, I suggest you get back out there. Check your quest book if you've forgotten what to do",
+    "line": "[9/12] Norsten: ...I barely remember anything. Just...feelings of anger, and...disgust, I suppose, but... You wouldn't lie to me, Grand-Peli.",
+    "file": "amaraudersdues-norsten-16"
+  },
+  {
+    "line": "[10/12] Norsten: Thank you, human- Hm, what's all this money doing in my pockets? I didn't bring my pouch out with me to chase the thief, but...! So much money!",
+    "file": "amaraudersdues-norsten-17"
+  },
+  {
+    "line": "[11/12] Peli: Ill-gotten gains from the scourge's sham of a toll-road scheme, no doubt. I think the human could put that money to fine use, what say you, my boy?",
     "file": "amaraudersdues-peli-14"
+  },
+  {
+    "line": "[12/12] Norsten: Of course! Here. And don't worry about the gate. It's supposed to be open for anyone, so use it as you like.",
+    "file": "amaraudersdues-norsten-18"
+  },
+  {
+    "line": "[1/3] Dramele: ...what? Are you here to rub your victory in my face? The bandits no longer answer to me, and in fact barricade me here. What more do you want?",
+    "file": "amaraudersdues-dramele-25"
+  },
+  {
+    "line": "[2/3] Dramele: At least I can take some solace in knowing that you couldn't save everyone, despite being such a \"vaunted hero-\" Pfeh, the title tastes like ink to the tongue!",
+    "file": "amaraudersdues-dramele-26"
+  },
+  {
+    "line": "[3/3] Dramele: They died long ago anyway. Leave me with my toys, why don't you. Leave me to get unsightly wrinkles across my brow!",
+    "file": "amaraudersdues-dramele-27"
   },
   {
     "line": "[1/5] Seluc: Who's that? Am I finally being rescued!?",
