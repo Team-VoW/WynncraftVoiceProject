@@ -1,3 +1,25 @@
+## [1.11.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.11.0...v1.11.1) (2025-07-07)
+
+
+### New Features
+
+* **A Marauders Dues:** Added all lines (all had been changed) ([fde7949](https://github.com/Team-VoW/WynncraftVoiceProject/commit/fde7949e6e4ec40811f35985f2446bfefa7fa760))
+* **Dark Descent:** Added new lines from Lost Soul ([104d97e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/104d97e3f508d3eb07b98283cafd5d9a05a2742a))
+
+
+### Bug Fixes
+
+* **Frost Bite:** Cut up two of Eppo's dialogues which where not cut ([eea5f67](https://github.com/Team-VoW/WynncraftVoiceProject/commit/eea5f6741b1fd2679ce1c37738ab36967c40d7bf))
+* Made the "Play all sounds on player" setting work correctly to disable 3d audio playback. ([9893286](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9893286fdabcecce642d35a650e299e280322d06))
+* **Mushroom Man:** fixed 5 not playing lines ([e7aa66f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e7aa66f156aad064f3b4b38f5b3b82af228c4e0b))
+* **Recover the past:** Fixed 3 Tasim lines not playing ([5563c47](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5563c47874f0971a9d97b383298d0501a9a18058))
+
+
+### Build System
+
+* Configure shadow plugin to relocate TarsosDSP dependencies ([8c54b19](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8c54b1954e86724d3ec703c772b56ddfe1fac878))
+* Copy over the latest sounds.json to be bundled with the mod ([dc1c8fa](https://github.com/Team-VoW/WynncraftVoiceProject/commit/dc1c8fa197fa95852f8508f52fb191e30dfdd972))
+
 ## [1.11.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.7...v1.11.0) (2025-06-28)
 
 
@@ -64,6 +86,7 @@
 
 ### Miscellaneous Chores
 
+* **release:** v1.11.0 [skip ci] ([89cac3d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/89cac3de81141fd85193da1d31a201c6ca4407ef))
 * Removed a no longer used audio file ([f2139bd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f2139bded55e3bacd33726e0b61c4949289c9d2b))
 * Removed no longer used audio files ([f54b16c](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f54b16ca2e2d7794d481c47f3a606bcbd8fd099a))
 
@@ -174,25 +197,4 @@
 ### Miscellaneous Chores
 
 * **release:** v1.10.5 [skip ci] ([026b45d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/026b45da78f90045268694a38b0d264a199832fc))
-
-## [1.10.4](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.3...v1.10.4) (2025-02-24)
-
-
-### New Features
-
-* Add configuration option to enable or disable sound downloads. Default setting is now false meaning all files are streamed. ([4328e4b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4328e4b81dfcf51bdb8694681c4d115772ec576b))
-* Add fallback mechanism for fetching audio from multiple servers if the first fails. ([d671450](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d6714506004c1b09960a5e48bc7429b9377419f0))
-* Client now fetches active audio streaming servers. ([240141d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/240141d58dabaa46119476b6377b320a52ac1989))
-* The client now detects the closest server to stream the audio from to minimize latency. ([5de2cea](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5de2cea4b12bbe7095a2dac820b61c8dd228f5c2))
-
-
-### Bug Fixes
-
-* Cleaned up the mods configuration screen and added more tooltips ([1aed2dd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1aed2dd8d2519eec5bc9bb693ee3968e43d5de52))
-* Only try playing local audio file if download sound setting is enabled ([86b1f92](https://github.com/Team-VoW/WynncraftVoiceProject/commit/86b1f9286a20cc5e7d021db2a18ac2402453cde5))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.10.4 [skip ci] ([59d9be8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/59d9be899fc50e5c5874bd66bb02c8a28cbcefe3))
 
