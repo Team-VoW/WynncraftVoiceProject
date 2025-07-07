@@ -126,9 +126,17 @@ public class OpenAlPlayer {
 
             int[] buffers = new int[3000];
             AL10.alGenBuffers(buffers);
-            AL11.alDistanceModel(AL11.AL_LINEAR_DISTANCE);
-            AL11.alSourcef(sourceID, AL11.AL_MAX_DISTANCE, maxDistance);
-            AL11.alSourcef(sourceID, AL11.AL_REFERENCE_DISTANCE, 0F);
+
+            // Only set up 3D audio if not playing all sounds on player
+            if (!ModCore.config.isPlayAllSoundsOnPlayer()) {
+                AL11.alDistanceModel(AL11.AL_LINEAR_DISTANCE);
+                AL11.alSourcef(sourceID, AL11.AL_MAX_DISTANCE, maxDistance);
+                AL11.alSourcef(sourceID, AL11.AL_REFERENCE_DISTANCE, 0F);
+            } else {
+                // For non-3D audio, make the source relative to listener
+                AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
+                AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
+            }
 
             ByteBuffer monoData = audioData.byteBuffer;
             float speed = ModCore.config.getPlaybackSpeed();
@@ -185,15 +193,21 @@ public class OpenAlPlayer {
     }
 
     private void setPosition(int sourceID, Optional<Vec3> soundPos) {
-        soundPos.ifPresentOrElse(
-                pos -> {
-                    AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_FALSE);
-                    AL11.alSource3f(sourceID, AL11.AL_POSITION, (float) pos.x, (float) pos.y, (float) pos.z);
-                },
-                () -> {
-                    AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
-                    AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
-                });
+        // If playing all sounds on player, always use non-3D positioning
+        if (ModCore.config.isPlayAllSoundsOnPlayer()) {
+            AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
+            AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
+        } else {
+            soundPos.ifPresentOrElse(
+                    pos -> {
+                        AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_FALSE);
+                        AL11.alSource3f(sourceID, AL11.AL_POSITION, (float) pos.x, (float) pos.y, (float) pos.z);
+                    },
+                    () -> {
+                        AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
+                        AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
+                    });
+        }
         updateVolume(sourceID);
     }
 
