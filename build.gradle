@@ -89,6 +89,9 @@ shadowJar {
     archiveClassifier.set('')
 
     exclude 'natives/*-x86/*'
+    // The PipeDecoder is a strange decoder that runs a separate .exe file which we do not use
+    // and CurseForge does not allow this functionality. So we exclude it.
+    exclude 'be/tarsos/dsp/io/PipeDecoder*.class'
 }
 
 // Make sure shadowJar runs before remapJar

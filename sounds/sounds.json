@@ -7392,6 +7392,10 @@
     "file": "greengloop-eluzterp-5"
   },
   {
+    "line": "[5/9] Eluzterp: However, the slimes have gotten stronger about a month ago. I'm unable to retrieve it any more, I've come close to getting killed a few times!",
+    "file": "greengloop-eluzterp-5"
+  },
+  {
     "line": "[6/9] Eluzterp: You, however, seem much better equipped than I. Hopefully you can do it.",
     "file": "greengloop-eluzterp-6"
   },
@@ -7405,6 +7409,10 @@
   },
   {
     "line": "[9/9] Eluzterp: I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell my friend, and he^ll probably let you into his shop.",
+    "file": "greengloop-eluzterp-9"
+  },
+  {
+    "line": "[9/9] Eluzterp: I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell my friend, and he'll probably let you into his shop.",
     "file": "greengloop-eluzterp-9"
   },
   {
@@ -8732,6 +8740,11 @@
   },
   {
     "line": "[1/4] Chief Excavator Dranfor: Hello and welcome, senior members of Wynn Excavation Site C. May the dark^s gaze forever watch over us. I want to update you on our progress thus far. The fire relic crystal has been largely intact in the heart of the volcano for many years.",
+    "file": "wynnexcavationsitec-chiefexcavatordranfor-1",
+    "onPlayer": true
+  },
+  {
+    "line": "[1/4] Chief Excavator Dranfor: Hello and welcome, senior members of Wynn Excavation Site C. May the dark's gaze forever watch over us. I want to update you on our progress thus far. The fire relic crystal has been largely intact in the heart of the volcano for many years.",
     "file": "wynnexcavationsitec-chiefexcavatordranfor-1",
     "onPlayer": true
   },
@@ -11358,6 +11371,11 @@
     "onPlayer": true
   },
   {
+    "line": "[1/3] ???: ...I am... What's my...name...? I had one...",
+    "file": "anironheartparti-guardgolem-1",
+    "onPlayer": true
+  },
+  {
     "line": "[2/3] ???: Re...remember!! WHAT IS MY NAME? My life?",
     "file": "anironheartparti-guardgolem-2",
     "onPlayer": true
@@ -12135,11 +12153,19 @@
     "file": "junglefever-worid-17"
   },
   {
+    "line": "[4/6] Worid: Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I've instead paid you with a key.",
+    "file": "junglefever-worid-17"
+  },
+  {
     "line": "[4/6] Worid: I stole- *cough* I mean, borrowed it, from our tribe's leader. Apparently it was used to lock up a great evil.",
     "file": "junglefever-worid-18"
   },
   {
     "line": "[5/6] Worid: I stole- *cough* I mean, borrowed it, from our tribe^s leader. Apparently it was used to lock up a great evil.",
+    "file": "junglefever-worid-18"
+  },
+  {
+    "line": "[5/6] Worid: I stole- *cough* I mean, borrowed it, from our tribe's leader. Apparently it was used to lock up a great evil.",
     "file": "junglefever-worid-18"
   },
   {
@@ -26584,6 +26610,10 @@
   },
   {
     "line": "[2/8] Dodegar: I'm Dodegar Bandysnoot, the world famous Hobbit swordsmith! Perhaps you^ve heard of me?",
+    "file": "ultimateweapon-dodegar-2"
+  },
+  {
+    "line": "[2/8] Dodegar: I'm Dodegar Bandysnoot, the world famous Hobbit swordsmith! Perhaps you've heard of me?",
     "file": "ultimateweapon-dodegar-2"
   },
   {
