@@ -1,3 +1,15 @@
+## [1.11.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.11.1...v1.11.2) (2025-07-08)
+
+
+### Bug Fixes
+
+* fixed 6 lines not playing (spanning multiple quests) ([ffb9779](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ffb97790f94ee7792293a13c5ea6426b79b70bf7))
+
+
+### Build System
+
+* exclude PipeDecoder class due to CurseForge restrictions ([d462bcf](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d462bcf262e920e533d274d10764f94b5585f479))
+
 ## [1.11.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.11.0...v1.11.1) (2025-07-07)
 
 
@@ -13,6 +25,11 @@
 * Made the "Play all sounds on player" setting work correctly to disable 3d audio playback. ([9893286](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9893286fdabcecce642d35a650e299e280322d06))
 * **Mushroom Man:** fixed 5 not playing lines ([e7aa66f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e7aa66f156aad064f3b4b38f5b3b82af228c4e0b))
 * **Recover the past:** Fixed 3 Tasim lines not playing ([5563c47](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5563c47874f0971a9d97b383298d0501a9a18058))
+
+
+### Miscellaneous Chores
+
+* **release:** v1.11.1 [skip ci] ([813179a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/813179a50c1b2ec6288dcb9ff19fb2b3601e5885))
 
 
 ### Build System
@@ -177,24 +194,4 @@
 * Moved the sounds.json file into the sounds folder ([d2cdbdd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d2cdbdd6bae1b257378fc48cb0b72c82b0513ed4))
 * **release:** v1.10.6 [skip ci] ([e941ea1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e941ea18013087d4b47fd4edf513dd4b6b62a5b7))
 * Removed some accidental added stopSounds lines with no file which where added to the normal sounds.json and not the new one ([ba4bc45](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ba4bc457481cd3c3ddac86b5231969ea646d4ac3))
-
-## [1.10.5](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.4...v1.10.5) (2025-03-02)
-
-
-### New Features
-
-* Added a stopSounds settings to define if a sound should stop playing audio when encountered ([95b4695](https://github.com/Team-VoW/WynncraftVoiceProject/commit/95b4695ae9e98a973880d23097efd10be267556e))
-* Allow multiple sound lines to be played at the same time ([683662f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/683662f18d75a24a52fc3a9cd4748570959fd840))
-
-
-### Bug Fixes
-
-* Fixed a few hundred lines that where not playing because of special characters ([b354e70](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b354e702526865f7bad905c706b297d395d2c963))
-* Fixed an issue where the bundled sounds.json is not read correctly if download failed leading to no sounds at all playing for some people the first time they use the mod ([f229576](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f2295761ca77e221a11243f2ee77ce8453fde914))
-* Fixed some lines not playing in Ragnis ultimate discovery and made some of the lines be able to overlap ([b6d22b6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b6d22b6734cc9db0266513ea00e040a8ccaf9ebf))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.10.5 [skip ci] ([026b45d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/026b45da78f90045268694a38b0d264a199832fc))
 
