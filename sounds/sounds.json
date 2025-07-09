@@ -3513,7 +3513,7 @@
     "file": "malticwell-witch-4"
   },
   {
-    "line": "[2/2] Witch: ...for if you choose the wrong door, you'll be sent to a beast, a beast most foul! The, um...the Beast-What-Eats-Ragni-Guards-For-Brunch!! Totally!",
+    "line": "[2/2] Witch: ...for if you choose the wrong door, you'll be sent to a beast, a beast most foul! The... the Beast-That-Eats-Ragni-Guards-For-Brunch!!",
     "file": "malticwell-witch-5"
   },
   {
@@ -3533,8 +3533,20 @@
     "file": "malticwell-witch-9"
   },
   {
-    "line": "[1/1] Child: Thank you for saving me from the witch... She was nice at first and made me cookies, but I want to go home now.",
+    "line": "[1/1] Child: Aiyeeee! What's happening to meeee?!",
     "file": "malticwell-child-2"
+  },
+  {
+    "line": "[1/2] Witch: ...oh my gosh it worked???? It worked, I did a spell for once in my miserable life!!",
+    "file": "malticwell-witch-10"
+  },
+  {
+    "line": "[2/2] Witch: W-Wait, that's not good at all, you're gonna... No! You won't take me out of here alive!",
+    "file": "malticwell-witch-11"
+  },
+  {
+    "line": "[1/1] Child: Thank you for saving me from the witch... She was nice at first and made me cookies, but I want to go home now.",
+    "file": "malticwell-child-3"
   },
   {
     "line": "[1/3] Rynend: Oh my son! What happened down there? Erh, not a witch, you say?",
