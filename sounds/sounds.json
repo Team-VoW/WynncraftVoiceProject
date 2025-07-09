@@ -3249,6 +3249,10 @@
     "file": "arachnidsascent-aledar-18"
   },
   {
+    "line": "[2/7] Aledar: We did! We fought off a spider at the summit, and claimed a magical flame.",
+    "file": "arachnidsascent-aledar-18"
+  },
+  {
     "line": "[3/6] Captain Enduyn: Excellent! Now, give it here. I take it the three of you intend to storm the nest?",
     "file": "arachnidsascent-captainenduyn-13"
   },
@@ -5048,6 +5052,10 @@
     "file": "recoverthepast-tasim-25"
   },
   {
+    "line": "[6/12] Tasim: ...",
+    "file": "recoverthepast-tasim-25"
+  },
+  {
     "line": "[7/12] Tasim: It's fine, you'll be fine... I know what to do, even if I really shouldn't...",
     "file": "recoverthepast-tasim-26"
   },
@@ -5150,6 +5158,9 @@
     "file": "recoverthepast-royalinquisitor-9"
   },
   {
+    "line": "[20/25] Tasim: ..."
+  },
+  {
     "line": "[21/25] Royal Inquisitor: I will ask once more. Is your directive understood?",
     "file": "recoverthepast-royalinquisitor-10"
   },
@@ -5160,6 +5171,9 @@
   {
     "line": "[23/25] Royal Inquisitor: Wonderful. Take this one to the caravan. It looks like we'll be able to fit two more for today's batch.",
     "file": "recoverthepast-royalinquisitor-11"
+  },
+  {
+    "line": "[24/25] Imperial Inquisitor: ..."
   },
   {
     "line": "[25/25] Royal Inquisitor: Now what might you be...?",
@@ -5238,6 +5252,9 @@
     "file": "recoverthepast-drpicard-53"
   },
   {
+    "line": "[3/7] Dr. Picard: ..."
+  },
+  {
     "line": "[4/7] Dr. Picard: Oh! Oh, right! My apologies, I completely forgot to check in with you! Are you alright?",
     "file": "recoverthepast-drpicard-54"
   },
@@ -5260,6 +5277,9 @@
   {
     "line": "[2/2] Dr. Picard: Might there even be... a war within the Fruman walls? No, no, that's ridiculous. Those memories didn't seem to show the signs of one...",
     "file": "recoverthepast-drpicard-59"
+  },
+  {
+    "line": "[1/10] Tasim: ..."
   },
   {
     "line": "[2/10] Tasim: Cursed. He called me cursed. What does that mean for me..?",
@@ -6160,6 +6180,9 @@
     "line": "[2/5] Seth: No, but they did a great job in the hold! Some gunpowder went missing though.",
     "file": "misadventureonthesea-seth-3",
     "onPlayer": true
+  },
+  {
+    "line": "[3/5] Seth: ..."
   },
   {
     "line": "[5/5] Seth: Wait a minute.",
@@ -7206,6 +7229,9 @@
   {
     "line": "[4/4] Aledar: This tower can only go up... Come on, we need to chase after him! We can't let him get away!",
     "file": "themercenary-aledar-19"
+  },
+  {
+    "line": "[1/6] Shadow Spears Leader: ..."
   },
   {
     "line": "[2/6] Shadow Spears Leader: No need to be hasty.",
@@ -8521,6 +8547,9 @@
   {
     "line": "[3/8] Tesha: Oh yes, the tablet I was waiting for!",
     "file": "wynnexcavationa-tesha-3"
+  },
+  {
+    "line": "[4/8] Tesha: ..."
   },
   {
     "line": "[5/8] Tesha: Oh my! This is quite interesting..",
