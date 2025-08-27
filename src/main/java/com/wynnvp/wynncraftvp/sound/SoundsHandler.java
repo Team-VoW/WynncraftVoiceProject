@@ -4,18 +4,15 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
-import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
-
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
+import net.minecraft.world.phys.Vec3;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.io.*;
 import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -26,9 +23,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import net.minecraft.world.phys.Vec3;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+
+import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
 public class SoundsHandler {
     private static final String JSON_FILE = "sounds.json";
@@ -44,12 +40,46 @@ public class SoundsHandler {
         ExecutorService executor = Executors.newSingleThreadExecutor();
 
         executor.execute(() -> {
-            if (shouldUpdateJson()) {
-                LOGGER.info("[Voices of Wynn] Should update JSON audio file.");
-                downloadJson();
+            try {
+                if (shouldUpdateJson()) {
+                    LOGGER.info("[Voices of Wynn] Updating JSON audio file.");
+                    downloadJson();
+                }
+                loadSoundsFromJson(getJsonStream());
+            } catch (RuntimeException e) {
+                if (e.getCause() instanceof com.google.gson.stream.MalformedJsonException) {
+                    LOGGER.error("[Voices of Wynn] Detected corrupted JSON file, attempting to fix", e);
+                    handleCorruptedJsonFile();
+                } else {
+                    LOGGER.error("[Voices of Wynn] Failed to initialize sounds", e);
+                }
             }
-            loadSoundsFromJson(getJsonStream());
         });
+    }
+
+    private void handleCorruptedJsonFile() {
+        try {
+            // Delete the corrupted file
+            Files.deleteIfExists(Paths.get(JSON_FILE));
+            LOGGER.info("[Voices of Wynn] Deleted corrupted sounds.json file");
+
+            // Re-download and try again
+            downloadJson();
+            loadSoundsFromJson(getJsonStream());
+            LOGGER.info("[Voices of Wynn] Successfully recovered from corrupted JSON file");
+        } catch (Exception e) {
+            LOGGER.error("[Voices of Wynn] Failed to recover from corrupted JSON file", e);
+            // Try to load from bundled resource as last resort
+            try {
+                InputStream bundledStream = this.getClass().getClassLoader().getResourceAsStream(JSON_FILE);
+                if (bundledStream != null) {
+                    loadSoundsFromJson(bundledStream);
+                    LOGGER.info("[Voices of Wynn] Successfully loaded bundled sounds.json as fallback");
+                }
+            } catch (Exception ex) {
+                LOGGER.error("[Voices of Wynn] All recovery attempts failed", ex);
+            }
+        }
     }
 
     public HashMap<String, SoundObject> getSounds() {
@@ -58,7 +88,8 @@ public class SoundsHandler {
 
     private void loadSoundsFromJson(InputStream inputStream) {
         try (InputStreamReader reader = new InputStreamReader(inputStream)) {
-            Type dialogueListType = new TypeToken<List<DialogueData>>() {}.getType();
+            Type dialogueListType = new TypeToken<List<DialogueData>>() {
+            }.getType();
             List<DialogueData> dialogues = gson.fromJson(reader, dialogueListType);
 
             for (DialogueData dialogue : dialogues) {
@@ -125,7 +156,7 @@ public class SoundsHandler {
 
             if (connection.getResponseCode() == 200) {
                 try (InputStream inputStream = connection.getInputStream();
-                        OutputStream outputStream = new FileOutputStream(JSON_FILE)) {
+                     OutputStream outputStream = new FileOutputStream(JSON_FILE)) {
                     byte[] buffer = new byte[1024];
                     int bytesRead;
                     while ((bytesRead = inputStream.read(buffer)) != -1) {

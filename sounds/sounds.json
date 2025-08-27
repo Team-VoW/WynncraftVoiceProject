@@ -1165,6 +1165,74 @@
     "file": "infestedplants-tasim-16"
   },
   {
+    "line": "[2/2] Tasim: Let's take a look.",
+    "file": "infestedplants-tasim-17"
+  },
+  {
+    "line": "[1/9] Tasim: Well, it looks cleared to me. These are... uh... some fine mushrooms!",
+    "file": "infestedplants-tasim-18"
+  },
+  {
+    "line": "[1/1] Tasim: Hey! Don't walk off just yet, I have something to tell you.",
+    "file": "infestedplants-tasim-19"
+  },
+  {
+    "line": "[1/1] Tasim: soldier, wait! Let's hear from Ope before we go into that cave.",
+    "file": "infestedplants-tasim-20"
+  },
+  {
+    "line": "[1/1] Tasim: I'm going to go on ahead. Just follow the coordinates in your content book to find Ope and I!",
+    "file": "infestedplants-tasim-21"
+  },
+  {
+    "line": "[1/1] Tasim: I'll go on ahead to the barracks, you should come as soon as you can.",
+    "file": "infestedplants-tasim-22"
+  },
+  {
+    "line": "[1/1] Tasim: Hey, soldier! I think we should talk to the guard first before going in there.",
+    "file": "infestedplants-tasim-23"
+  },
+  {
+    "line": "[2/6] Tasim: He's- someone we ran into in Nivla. That explains why you're here... though- is there a reason you can't get it yourself?",
+    "file": "infestedplants-tasim-24"
+  },
+  {
+    "line": "[2/3] Tasim: We have, and we've brought supplies. Uh... soldier, where did you put the crate?",
+    "file": "infestedplants-tasim-25"
+  },
+  {
+    "line": "[2/3] Tasim: Not a lot going on? Yeah, same here. Aledar's gone off to research the corruption on his own, so I've been- I don't know. Helping wherever I can.",
+    "file": "infestedplants-tasim-26"
+  },
+  {
+    "line": "[2/4] Tasim: ...I heard from Private Cob that you and Colonel Gailard took care of that lava spring in the Savannah. I bet that must have been tough.",
+    "file": "infestedplants-tasim-27"
+  },
+  {
+    "line": "[1/1] Tasim: Oh, hello soldier. Are you here for training as well? Or- that look on your face tells me you're here for something else.",
+    "file": "infestedplants-tasim-28"
+  },
+  {
+    "line": "[4/5] Tasim: ...Why would you even- nevermind, I don't actually want to know. Come on, lead the way. I'll buy... whatever it is you need.",
+    "file": "infestedplants-tasim-29"
+  },
+  {
+    "line": "[5/6] Tasim: ...Why would you even- nevermind, I don't actually want to know. Come on, lead the way. I'll buy... whatever it is you need.",
+    "file": "infestedplants-tasim-29"
+  },
+  {
+    "line": "[7/7] Tasim: We'll do our best, Captain. Aledar, soldier, let's head down to the den entrace.",
+    "file": "infestedplants-tasim-30"
+  },
+  {
+    "line": "[1/3] Tasim: I guess that's that taken care of. We'll be able to burn through that web and save the villagers!",
+    "file": "infestedplants-tasim-31"
+  },
+  {
+    "line": "[8/9] Tasim: ...",
+    "file": "infestedplants-tasim-32"
+  },
+  {
     "line": "[1/1] Mayor Alvin: Ah, hello! What can I do for you today?",
     "file": "infestedplants-mayoralvin-5"
   },
@@ -3249,6 +3317,10 @@
     "file": "arachnidsascent-aledar-18"
   },
   {
+    "line": "[2/7] Aledar: We did! We fought off a spider at the summit, and claimed a magical flame.",
+    "file": "arachnidsascent-aledar-18"
+  },
+  {
     "line": "[3/6] Captain Enduyn: Excellent! Now, give it here. I take it the three of you intend to storm the nest?",
     "file": "arachnidsascent-captainenduyn-13"
   },
@@ -3513,7 +3585,7 @@
     "file": "malticwell-witch-4"
   },
   {
-    "line": "[2/2] Witch: ...for if you choose the wrong door, you'll be sent to a beast, a beast most foul! The, um...the Beast-What-Eats-Ragni-Guards-For-Brunch!! Totally!",
+    "line": "[2/2] Witch: ...for if you choose the wrong door, you'll be sent to a beast, a beast most foul! The... the Beast-That-Eats-Ragni-Guards-For-Brunch!!",
     "file": "malticwell-witch-5"
   },
   {
@@ -3533,8 +3605,20 @@
     "file": "malticwell-witch-9"
   },
   {
-    "line": "[1/1] Child: Thank you for saving me from the witch... She was nice at first and made me cookies, but I want to go home now.",
+    "line": "[1/1] Child: Aiyeeee! What's happening to meeee?!",
     "file": "malticwell-child-2"
+  },
+  {
+    "line": "[1/2] Witch: ...oh my gosh it worked???? It worked, I did a spell for once in my miserable life!!",
+    "file": "malticwell-witch-10"
+  },
+  {
+    "line": "[2/2] Witch: W-Wait, that's not good at all, you're gonna... No! You won't take me out of here alive!",
+    "file": "malticwell-witch-11"
+  },
+  {
+    "line": "[1/1] Child: Thank you for saving me from the witch... She was nice at first and made me cookies, but I want to go home now.",
+    "file": "malticwell-child-3"
   },
   {
     "line": "[1/3] Rynend: Oh my son! What happened down there? Erh, not a witch, you say?",
@@ -3545,7 +3629,7 @@
     "file": "malticwell-rynend-6"
   },
   {
-    "line": "[3/3] Rynend: Please take this [1 Maltic Recommendation Letter], I am sure it will help you someday!",
+    "line": "[3/3] Rynend: I have very little to offer you as reward... I hope my appreciation will be more than enough!",
     "file": "malticwell-rynend-7"
   },
   {
@@ -4252,7 +4336,7 @@
     "file": "darkdescent-scout-1"
   },
   {
-    "line": "[4/5] Scout: No point...we're...doomed...",
+    "line": "[4/5] Scout: There's... no point... we're... doomed...",
     "file": "darkdescent-scout-2"
   },
   {
@@ -5036,6 +5120,10 @@
     "file": "recoverthepast-tasim-25"
   },
   {
+    "line": "[6/12] Tasim: ...",
+    "file": "recoverthepast-tasim-25"
+  },
+  {
     "line": "[7/12] Tasim: It's fine, you'll be fine... I know what to do, even if I really shouldn't...",
     "file": "recoverthepast-tasim-26"
   },
@@ -5138,6 +5226,9 @@
     "file": "recoverthepast-royalinquisitor-9"
   },
   {
+    "line": "[20/25] Tasim: ..."
+  },
+  {
     "line": "[21/25] Royal Inquisitor: I will ask once more. Is your directive understood?",
     "file": "recoverthepast-royalinquisitor-10"
   },
@@ -5148,6 +5239,9 @@
   {
     "line": "[23/25] Royal Inquisitor: Wonderful. Take this one to the caravan. It looks like we'll be able to fit two more for today's batch.",
     "file": "recoverthepast-royalinquisitor-11"
+  },
+  {
+    "line": "[24/25] Imperial Inquisitor: ..."
   },
   {
     "line": "[25/25] Royal Inquisitor: Now what might you be...?",
@@ -5226,6 +5320,9 @@
     "file": "recoverthepast-drpicard-53"
   },
   {
+    "line": "[3/7] Dr. Picard: ..."
+  },
+  {
     "line": "[4/7] Dr. Picard: Oh! Oh, right! My apologies, I completely forgot to check in with you! Are you alright?",
     "file": "recoverthepast-drpicard-54"
   },
@@ -5248,6 +5345,9 @@
   {
     "line": "[2/2] Dr. Picard: Might there even be... a war within the Fruman walls? No, no, that's ridiculous. Those memories didn't seem to show the signs of one...",
     "file": "recoverthepast-drpicard-59"
+  },
+  {
+    "line": "[1/10] Tasim: ..."
   },
   {
     "line": "[2/10] Tasim: Cursed. He called me cursed. What does that mean for me..?",
@@ -6148,6 +6248,9 @@
     "line": "[2/5] Seth: No, but they did a great job in the hold! Some gunpowder went missing though.",
     "file": "misadventureonthesea-seth-3",
     "onPlayer": true
+  },
+  {
+    "line": "[3/5] Seth: ..."
   },
   {
     "line": "[5/5] Seth: Wait a minute.",
@@ -7194,6 +7297,9 @@
   {
     "line": "[4/4] Aledar: This tower can only go up... Come on, we need to chase after him! We can't let him get away!",
     "file": "themercenary-aledar-19"
+  },
+  {
+    "line": "[1/6] Shadow Spears Leader: ..."
   },
   {
     "line": "[2/6] Shadow Spears Leader: No need to be hasty.",
@@ -8511,6 +8617,9 @@
     "file": "wynnexcavationa-tesha-3"
   },
   {
+    "line": "[4/8] Tesha: ..."
+  },
+  {
     "line": "[5/8] Tesha: Oh my! This is quite interesting..",
     "file": "wynnexcavationa-tesha-4"
   },
@@ -9441,7 +9550,7 @@
     "file": "canyoncondor-jankan-5"
   },
   {
-    "line": "[6/6] Jankan: Go fetch me my [5 Gold Chunks] from the end of the shaft and I'll tell ye where ye need to go next.",
+    "line": "[6/6] Jankan: Go fetch me [5 Gold Chunks] from the end of the shaft and I'll tell ye where ye need to go next.",
     "file": "canyoncondor-jankan-6"
   },
   {
