@@ -53757,5 +53757,402 @@
   {
     "line": "[3/3] Troms Citizen: One day, Skien started acting very strange, and he vanished along with the entire Tromsian Army.",
     "file": "troms-tromscitizen4-3"
+  },
+
+  {
+    "line": "[1/3] Avos citizen: What in the world? Catapulting humans..",
+    "file": "avosvillage-avoscitizen1-1"
+  },
+  {
+    "line": "[2/3] Avos citizen: You know a trebuchet is the best way to launch 90kg projectiles over 300 meters.",
+    "file": "avosvillage-avoscitizen1-2"
+  },
+  {
+    "line": "[3/3] Avos citizen: I better go tell the chief the Corkians have a catapult, though.",
+    "file": "avosvillage-avoscitizen1-3"
+  },
+  {
+    "line": "[1/1] Avos citizen: I'm so jealous of the chief, he gets to live in the fanciest house on the hill!",
+    "file": "avosvillage-avoscitizen2-1"
+  },
+  {
+    "line": "[1/4] Avos Shaman: Oh, you're the not-Corkian human",
+    "file": "avosvillage-avosshaman-1"
+  },
+  {
+    "line": "[2/4] Avos Shaman: Have you heard? Electromagic isn't limited to Corkians.",
+    "file": "avosvillage-avosshaman-2"
+  },
+  {
+    "line": "[3/4] Avos Shaman: We've learnt that the... Unpleasant way.",
+    "file": "avosvillage-avosshaman-3"
+  },
+  {
+    "line": "[4/4] Avos Shaman: One of our own started using that magic! Can you believe that?!",
+    "file": "avosvillage-avosshaman-4"
+  },
+  {
+    "line": "[1/3] Corkus Citizen: Stories of the Avos have told us that they've always lived high up on the northern mountains.",
+    "file": "corkuscity-corkuscitizen1-1"
+  },
+  {
+    "line": "[2/3] Corkus Citizen: But recently, I saw an old Avos house down on low ground, the same level as most human housing.",
+    "file": "corkuscity-corkuscitizen1-2"
+  },
+  {
+    "line": "[3/3] Corkus Citizen: Granted, it's not too far from the Avos mountains, but it is still rather unusual for an Avos to live so low...",
+    "file": "corkuscity-corkuscitizen1-3"
+  },
+  {
+    "line": "[1/3] Corkus Citizen: The Factory was once our national monument. But it's been abandoned for years now.",
+    "file": "corkuscity-corkuscitizen2-1"
+  },
+  {
+    "line": "[2/3] Corkus Citizen: I don't know why they don't just tear that place down. It makes me uneasy whenever I see it on my way to Relos.",
+    "file": "corkuscity-corkuscitizen2-2"
+  },
+  {
+    "line": "[3/3] Corkus Citizen: Can't help but feel scared of it, what with all of the rumors about the Factory being reactivated.",
+    "file": "corkuscity-corkuscitizen2-3"
+  },
+  {
+    "line": "[1/4] Corkus Citizen: Mo'in. Would you please stop breathing? I can't concentrate with all this noise, It's making me crazy.",
+    "file": "corkuscity-corkuscitizen3-1"
+  },
+  {
+    "line": "[2/4] Corkus Citizen: No? Fine, I can tell you what I am doing here and then you can peacefully and quietly head back to wherever.",
+    "file": "corkuscity-corkuscitizen3-2"
+  },
+  {
+    "line": "[3/4] Corkus Citizen: Do you see those chimneys behind that pond? I noticed they started to emit smoke a while ago, which really got me interested.",
+    "file": "corkuscity-corkuscitizen3-3"
+  },
+  {
+    "line": "[4/4] Corkus Citizen: You see, those are not your average exhaust pipes from the city. Something is happening underneath this pond, but what could it be?",
+    "file": "corkuscity-corkuscitizen3-4"
+  },
+  {
+    "line": "[1/3] Corkus Citizen: Apparently some old mining mechs were spotted outside of town recently.",
+    "file": "corkuscity-corkuscitizen4-1"
+  },
+  {
+    "line": "[2/3] Corkus Citizen: They escaped before they could be dealt with, however.",
+    "file": "corkuscity-corkuscitizen4-2"
+  },
+  {
+    "line": "[3/3] Corkus Citizen: I saw them myself. They were headed north, towards all of those geysers.",
+    "file": "corkuscity-corkuscitizen4-3"
+  },
+  {
+    "line": "[1/4] Corkus Jeweler: Oh, hi there. Whatcha lookin' for? ...An audience? What?",
+    "file": "corkuscity-corkusjeweler-1"
+  },
+  {
+    "line": "[2/4] Corkus Jeweler: Urgh... Let me guess what your machine is. Is it a weapon? What does it shoot? Sand?",
+    "file": "corkuscity-corkusjeweler-2"
+  },
+  {
+    "line": "[3/4] Corkus Jeweler: Sorry, it's just a li'l annoying. If you really want an audience, there is a receptionist for that.",
+    "file": "corkuscity-corkusjeweler-3"
+  },
+  {
+    "line": "[4/4] Corkus Jeweler: Ask others. I ain't the one for that kind of stuff.",
+    "file": "corkuscity-corkusjeweler-4"
+  },
+  {
+    "line": "[1/2] Corkus Jeweler: I've heard rumors of an Avo practicing Electromagic. How lucky...",
+    "file": "corkuscity-corkusjeweler-5"
+  },
+  {
+    "line": "[2/2] Corkus Jeweler: These guys can fly... They must be really strong!",
+    "file": "corkuscity-corkusjeweler-6"
+  },
+  {
+    "line": "[1/2] Legendary Messenger: I'm supposed to tell strong adventurers about Legendary Island, but you're not even level 90 yet.",
+    "file": "corkuscity-legendarymessenger-1"
+  },
+  {
+    "line": "[2/2] Legendary Messenger: I don't get paid enough to make small talk, so please go bother somebody else.",
+    "file": "corkuscity-legendarymessenger-2"
+  },
+  {
+    "line": "[1/4] Legendary Messenger: *sigh* Hello adventurer! Looking to test your skills? Then come to Legendary Island!",
+    "file": "corkuscity-legendarymessenger-3"
+  },
+  {
+    "line": "[2/4] Legendary Messenger: Face off against mechanical foes in the Legendary Challenge, and maybe you'll become a legend yourself!",
+    "file": "corkuscity-legendarymessenger-4"
+  },
+  {
+    "line": "[4/4] Legendary Messenger: Just take this flyer and go.",
+    "file": "corkuscity-legendarymessenger-5"
+  },
+  {
+    "line": "[1/2] Legendary Messenger: Do I look like I'm made of flyers? I already gave you one, so-",
+    "file": "corkuscity-legendarymessenger-6"
+  },
+  {
+    "line": "[2/2] Legendary Messenger: I mean, please enjoy participating in the Legendary Challenge!",
+    "file": "corkuscity-legendarymessenger-7"
+  },
+  {
+    "line": "[1/1] Robot Sentry: If you have any questions, know that I am definitely not the right machine to ask.",
+    "file": "corkuscity-robotsentry-1"
+  },
+  {
+    "line": "[1/1] Hot Air Balloon Captain: I escort friends of the president of Corkus to Corkus City from here.",
+    "file": "corkuscity-hotairballooncaptain-1"
+  },
+  {
+    "line": "[1/1] Hot Air Balloon Captain: What do you think you're doing? This balloon is only for friends of the president of Corkus.",
+    "file": "corkuscity-hotairballooncaptain-2"
+  },
+  {
+    "line": "[1/2] Hot Air Balloon Captain: Hello, just climb aboard and I'll take you to Corkus City in Corkus!",
+    "file": "corkuscity-hotairballooncaptain-3"
+  },
+  {
+    "line": "[2/2] Hot Air Balloon Captain: It's the least I can do, you saved my home afterall.",
+    "file": "corkuscity-hotairballooncaptain-4"
+  },
+  {
+    "line": "[1/1] Hot Air Balloon Captain: Alrighty, we are almost in Corkus, hold tight.",
+    "file": "corkuscity-hotairballooncaptain-5"
+  },
+  {
+    "line": "[1/2] Hot Air Balloon Captain: Hello, just climb aboard and I'll take you to Kandon-Beda in Gavel!",
+    "file": "corkuscity-hotairballooncaptain-6"
+  },
+  {
+    "line": "[2/2] Hot Air Balloon Captain: We want to open up international travel!",
+    "file": "corkuscity-hotairballooncaptain-7"
+  },
+  {
+    "line": "[1/1] Hot Air Balloon Captain: Alrighty, we are almost in Gavel, hold tight.",
+    "file": "corkuscity-hotairballooncaptain-8"
+  },
+  {
+    "line": "[1/3] Corkus Guard: Mo'in! You are a traveler, aren't you? If only I could just leave this island and explore...",
+    "file": "corkuscity-corkusguard-1"
+  },
+  {
+    "line": "[2/3] Corkus Guard: I could be just like Siegfried, a travelling hero who left his home, Corkus, to help those in danger.",
+    "file": "corkuscity-corkusguard-2"
+  },
+  {
+    "line": "[3/3] Corkus Guard: I wonder if he misses Corkus, I definitely would. Maybe I'm not made for adventure.",
+    "file": "corkuscity-corkusguard-3"
+  },
+  {
+    "line": "[1/3] Corkus Guard: Mo'in! I know you! You're the one who helped dealing with the Factory, right?",
+    "file": "corkuscity-corkusguard-4"
+  },
+  {
+    "line": "[2/3] Corkus Guard: Well, if you want anything in there, suit yourself!",
+    "file": "corkuscity-corkusguard-5"
+  },
+  {
+    "line": "[3/3] Corkus Guard: Now, now... Right, I was reading stories about Siegfried! What a hero...",
+    "file": "corkuscity-corkusguard-6"
+  },
+  {
+    "line": "[1/2] Island Worker: Oh, hello! If you're looking for something, I can't help you right now. It's my day off!",
+    "file": "islesoffiction-islandworker1-1"
+  },
+  {
+    "line": "[2/2] Island Worker: I'm just taking some time to relax before I need to get back to work.",
+    "file": "islesoffiction-islandworker1-2"
+  },
+  {
+    "line": "[1/2] Island Innkeeper: Oh- hello! Welcome to the Isles of Fiction!",
+    "file": "islesoffiction-islandinnkeeper-1"
+  },
+  {
+    "line": "[2/2] Island Innkeeper: If you'd like to stay here for the night, we have several rooms available for purchase! And if not- well, we hope you enjoy your time here regardless!",
+    "file": "islesoffiction-islandinnkeeper-2"
+  },
+  {
+    "line": "[1/3] Island Worker: Hm hm hm... Oh, hello there! Don't mind me, I'm just over here keeping the bonfire going!",
+    "file": "islesoffiction-islandworker2-1"
+  },
+  {
+    "line": "[2/3] Island Worker: We're not allowed to let it go out, so it needs more wood pretty regularly! Even though I'm pretty sure it's magical fire...",
+    "file": "islesoffiction-islandworker2-2"
+  },
+  {
+    "line": "[3/3] Island Worker: Oh, but that doesn't matter much. I enjoy the work here! It's nice and peaceful.",
+    "file": "islesoffiction-islandworker2-3"
+  },
+  {
+    "line": "[1/4] Island Worker: I, ah-... Hello! Welcome to the- the Isles of Fiction!",
+    "file": "islesoffiction-islandworker3-1"
+  },
+  {
+    "line": "[2/4] Island Worker: ...This place gives me the creeps. N-nobody likes working here! Any- and I mean ANY of the other islands would have been better...",
+    "file": "islesoffiction-islandworker3-2"
+  },
+  {
+    "line": "[3/4] Island Worker: B-but no, SOMEONE has to k-keep an eye on the ghosts. And guess who g-got unlucky this time!",
+    "file": "islesoffiction-islandworker3-3"
+  },
+  {
+    "line": "[4/4] Island Worker: ...D-don't tell anybody I was complaining... please...",
+    "file": "islesoffiction-islandworker3-4"
+  },
+  {
+    "line": "[1/2] Island Worker: Brr... Goodness, it's cold out here. I m-must say, this island is... n-not my favorite position.",
+    "file": "islesoffiction-islandworker4-1"
+  },
+  {
+    "line": "[2/2] Island Worker: B-but someone has to keep an eye on t-things! And today that s-someone is me. Unfortunately.",
+    "file": "islesoffiction-islandworker4-2"
+  },
+  {
+    "line": "[1/3] Island Worker: Mmn. All seems in order over here. Oh, you there! I haven't seen you around before.",
+    "file": "islesoffiction-islandworker5-1"
+  },
+  {
+    "line": "[2/3] Island Worker: A newcomer to the Isles? Well, pleasure to meet you. I can't talk much though, I have a good deal more equipment to check up on.",
+    "file": "islesoffiction-islandworker5-2"
+  },
+  {
+    "line": "[3/3] Island Worker: Just try not to mess with anything while you're over here! That would make my job harder.",
+    "file": "islesoffiction-islandworker5-3"
+  },
+  {
+    "line": "[1/3] Pirate: Just north of 'ere is a mysterious island. It's a big ol' cave, filled with the remains of old pirates.",
+    "file": "piratecove-pirate-1"
+  },
+  {
+    "line": "[2/3] Pirate: But then, their bones began attacking me! I was forced to retreat.",
+    "file": "piratecove-pirate-2"
+  },
+  {
+    "line": "[3/3] Pirate: I think there be somethin' sinister about that place...",
+    "file": "piratecove-pirate-3"
+  },
+  {
+    "line": "[1/3] Relos Citizen: A beautiful sight, isn't it? Even during nighttime the docks are well-lit.",
+    "file": "relos-reloscitizen1-1"
+  },
+  {
+    "line": "[2/3] Relos Citizen: The energy required to keep our lighting system running is only a fraction of what we produce every day.",
+    "file": "relos-reloscitizen1-2"
+  },
+  {
+    "line": "[3/3] Relos Citizen: I bet you don't have something as advanced where you come from, eh?",
+    "file": "relos-reloscitizen1-3"
+  },
+  {
+    "line": "[1/3] Relos Citizen: Hey! You're a Wynn soldier, aren't you? C'mon, there aren't a lot of people running around with that gear.",
+    "file": "relos-reloscitizen2-1"
+  },
+  {
+    "line": "[2/3] Relos Citizen: Listen, someone with your experience should visit Legendary Island! Haven't heard of it?",
+    "file": "relos-reloscitizen2-2"
+  },
+  {
+    "line": "[3/3] Relos Citizen: It's host to the hardest challenge of all, and only the bravest adventurers stand a chance. If you want to participate, just go east until you reach the island close to the shore!",
+    "file": "relos-reloscitizen2-3"
+  },
+  {
+    "line": "[1/3] Neny: Have you heard of \"the bird island\"?",
+    "file": "selchar-neny-1"
+  },
+  {
+    "line": "[2/3] Neny: Some people wearing goggles have been going around calling it the fourth province.",
+    "file": "selchar-neny-2"
+  },
+  {
+    "line": "[3/3] Neny: Maybe if people see it they will become more internationally recognised.",
+    "file": "selchar-neny-3"
+  },
+  {
+    "line": "[1/3] Selchar Citizen: Have you heard about Mage Island? It's an island where many of the most powerful mages gather.",
+    "file": "selchar-selcharcitizen1-1"
+  },
+  {
+    "line": "[2/3] Selchar Citizen: We don't know what they do there, but occasionally we see some weird stuff on the horizon.",
+    "file": "selchar-selcharcitizen1-2"
+  },
+  {
+    "line": "[3/3] Selchar Citizen: The island is to the southeast, the floating island is impossible to miss.",
+    "file": "selchar-selcharcitizen1-3"
+  },
+  {
+    "line": "[1/2] Selchar Citizen: That island to the northeast, Skien's Island... don't ever go there. It's the only case of corruption hitting an island.",
+    "file": "selchar-selcharcitizen2-1"
+  },
+  {
+    "line": "[2/2] Selchar Citizen: The place is full of extremely strong, relentless zombies... I'm worried Selchar is in danger..",
+    "file": "selchar-selcharcitizen2-2"
+  },
+  {
+    "line": "[1/3] Selchar Citizen: That island to the northeast, Skien's Island... don't ever go there. It's doomed desolation.",
+    "file": "selchar-selcharcitizen2-3"
+  },
+  {
+    "line": "[2/3] Selchar Citizen: General Skien moved to that island because one of his men got corrupted during a siege and attacked his forces. But I don't know the full story.",
+    "file": "selchar-selcharcitizen2-4"
+  },
+  {
+    "line": "[3/3] Selchar Citizen: You look strong enough to survive there now, but I still wouldn't risk it if I were you.",
+    "file": "selchar-selcharcitizen2-5"
+  },
+  {
+    "line": "[1/3] Selchar Citizen: There is an old mining colony up north in Maro Peaks, but it's been abandoned now and all that is left are the sheep and rams.",
+    "file": "selchar-selcharcitizen3-1"
+  },
+  {
+    "line": "[2/3] Selchar Citizen: It's a little unstable there now. If you want to go you will need a climbing helmet.",
+    "file": "selchar-selcharcitizen3-2"
+  },
+  {
+    "line": "[3/3] Selchar Citizen: You could ask the Ice Nation to the east, but they're in the middle of a civil war...",
+    "file": "selchar-selcharcitizen3-3"
+  },
+  {
+    "line": "[1/2] Selchar Citizen: There is an old mining colony up north in Maro Peaks, but it's been abandoned now and all that is left are the sheep and rams.",
+    "file": "selchar-selcharcitizen3-4"
+  },
+  {
+    "line": "[2/2] Selchar Citizen: If you want to go you will need a climbing helmet.",
+    "file": "selchar-selcharcitizen3-5"
+  },
+  {
+    "line": "[1/2] Selchar Citizen: There's a story that goes around about a secret hideout for all of the most feared pirates across the seas.",
+    "file": "selchar-selcharcitizen4-1"
+  },
+  {
+    "line": "[2/2] Selchar Citizen: They say their hideout is on an island to the west, but no one dares go near it.",
+    "file": "selchar-selcharcitizen4-2"
+  },
+  {
+    "line": "[1/7] Zhight Tour Guide: Hello and welcome! Are you here to try the Zhight Treasure Tour? I'll teach you the rules!",
+    "file": "zhightisland-zhighttourguide-1"
+  },
+  {
+    "line": "[2/7] Zhight Tour Guide: Simply pay for a token down in the cave and deposit it at the collector, and you'll be ushered into a sprawling cave system!",
+    "file": "zhightisland-zhighttourguide-2"
+  },
+  {
+    "line": "[3/7] Zhight Tour Guide: It's full of dangerous enemies and perilous plights, but they carry lots of rewards and riches!",
+    "file": "zhightisland-zhighttourguide-3"
+  },
+  {
+    "line": "[4/7] Zhight Tour Guide: If you stay in the cave for five minutes, or if you want to leave early or get knocked out, you'll be brought out of the cave.",
+    "file": "zhightisland-zhighttourguide-4"
+  },
+  {
+    "line": "[5/7] Zhight Tour Guide: Anything you find in there, and we do mean ANYTHING, is yours to keep.",
+    "file": "zhightisland-zhighttourguide-5"
+  },
+  {
+    "line": "[6/7] Zhight Tour Guide: You can also exchange some of our special tokens for things that adventuring types like yourself will find indispensable, up in the gazebo!",
+    "file": "zhightisland-zhighttourguide-6"
+  },
+  {
+    "line": "[7/7] Zhight Tour Guide: We hope you enjoy your stay at Zhight Island Resort, thank you!",
+    "file": "zhightisland-zhighttourguide-7"
   }
 ]
