@@ -4,15 +4,18 @@
  */
 package com.wynnvp.wynncraftvp.sound;
 
+import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
-import net.minecraft.world.phys.Vec3;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
 import java.lang.reflect.Type;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -23,8 +26,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
+import net.minecraft.world.phys.Vec3;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class SoundsHandler {
     private static final String JSON_FILE = "sounds.json";
@@ -88,8 +92,7 @@ public class SoundsHandler {
 
     private void loadSoundsFromJson(InputStream inputStream) {
         try (InputStreamReader reader = new InputStreamReader(inputStream)) {
-            Type dialogueListType = new TypeToken<List<DialogueData>>() {
-            }.getType();
+            Type dialogueListType = new TypeToken<List<DialogueData>>() {}.getType();
             List<DialogueData> dialogues = gson.fromJson(reader, dialogueListType);
 
             for (DialogueData dialogue : dialogues) {
@@ -121,7 +124,7 @@ public class SoundsHandler {
             String lastModifiedStored = ModCore.config.lastsSoundsUpdateHeader;
             String lastModifiedNew = fetchLastModifiedHeader();
 
-            if (lastModifiedNew != null && !lastModifiedNew.equals(lastModifiedStored)) {
+            if (lastModifiedNew == null || !lastModifiedNew.equals(lastModifiedStored)) {
                 ModCore.config.lastsSoundsUpdateHeader = lastModifiedNew;
                 ModCore.config.save();
                 return true;
@@ -156,7 +159,7 @@ public class SoundsHandler {
 
             if (connection.getResponseCode() == 200) {
                 try (InputStream inputStream = connection.getInputStream();
-                     OutputStream outputStream = new FileOutputStream(JSON_FILE)) {
+                        OutputStream outputStream = new FileOutputStream(JSON_FILE)) {
                     byte[] buffer = new byte[1024];
                     int bytesRead;
                     while ((bytesRead = inputStream.read(buffer)) != -1) {
