@@ -20,8 +20,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class AudioPlayer {
+    private static final Logger log = LoggerFactory.getLogger(AudioPlayer.class);
     public final OpenAlPlayer openAlPlayer;
     public final AutoProgress autoProgress;
     public static final String AUDIO_FOLDER = "VOW_AUDIO";
@@ -123,9 +126,7 @@ public class AudioPlayer {
                     remoteAudioData = fetchRemoteAudio(url + audioFileName + ".ogg");
                     break;
                 } catch (IOException | InterruptedException e) {
-                    Utils.sendMessage(
-                            "Failed to fetch remote audio file: " + url + audioFileName
-                                    + ". If this keeps happening go into your settings, enable the download sounds option and restart your game.");
+                    log.info("[Voices of Wynn] Failed to fetch remote audio file: {}{}.", url, audioFileName);
                 }
             }
 
@@ -133,7 +134,8 @@ public class AudioPlayer {
                 playAudioBuffer(remoteAudioData, soundObject);
             } else {
                 Utils.sendMessage(
-                        "Failed to fetch remote audio file from all URLs. Please report this in our discord.");
+                        "Failed to fetch remote audio file for " + audioFileName
+                                + ". If this keeps happening go into your settings, enable the download sounds option and restart your game.");
             }
         });
     }
