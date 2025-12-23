@@ -6267,6 +6267,36 @@
     "onPlayer": true
   },
   {
+    "line": "[2/7] Seaskipper Captain: I was casually takin' a scenic detour when I saw you and your shiny equipment on that island.",
+    "file": "misadventureonthesea-seaskippercaptain-3",
+    "onPlayer": true
+  },
+  {
+    "line": "[3/7] Seaskipper Captain: So, ya gotta tell me what happened!",
+    "file": "misadventureonthesea-seaskippercaptain-4",
+    "onPlayer": true
+  },
+  {
+    "line": "[4/7] Seaskipper Captain: Oh, kidnapped by pirates I see! How unfortunate...",
+    "file": "misadventureonthesea-seaskippercaptain-5",
+    "onPlayer": true
+  },
+  {
+    "line": "[5/7] Seaskipper Captain: I guess that'll show ya, tryin' to avoid using good ol' seaskipper! I'm the only trustworthy one 'round here.",
+    "file": "misadventureonthesea-seaskippercaptain-6",
+    "onPlayer": true
+  },
+  {
+    "line": "[6/7] Seaskipper Captain: Ah... Trust. Say, why don't I make it so you can travel to Selchar for free? That way, if ya ever think o' doin' somethin' foolish like that again, ya can jus' take a trip on my ol' ship!",
+    "file": "misadventureonthesea-seaskippercaptain-7",
+    "onPlayer": true
+  },
+  {
+    "line": "[7/7] Seaskipper Captain: Anyway, I can see the shore off in the distance! Hang tight, we're almost there!",
+    "file": "misadventureonthesea-seaskippercaptain-8",
+    "onPlayer": true
+  },
+  {
     "line": "[4/8] Honip: So, I've seen ya around town. You've got the soul of an adventurer, don't ya?",
     "file": "misadventureonthesea-honip-1"
   },
