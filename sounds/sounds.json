@@ -20636,34 +20636,6 @@
     "file": "fromthemountains-axelus-37"
   },
   {
-    "line": "[1/10] Garull: GWUH! Oh god, don't scare me like that! Who... Who even are you?!",
-    "file": "templeoflegends-garull-1"
-  },
-  {
-    "line": "[1/4] Garull: Thank you for listening to me about not being so quiet coming over here. I'm guessing you've got everything?",
-    "file": "templeoflegends-garull-2"
-  },
-  {
-    "line": "[1/3] Garull: Oh, a visitor? Interesting. I thought I only knew about this cave, considering I was called crazy by my master.",
-    "file": "templeoflegends-garull-3"
-  },
-  {
-    "line": "[1/6] Garull: Ah, need help about the items? I'm fine with giving you a refresher, yeah.",
-    "file": "templeoflegends-garull-4"
-  },
-  {
-    "line": "[1/2] Garull: If you see Kelight again, tell him \"I told you so\" about the Creepers!",
-    "file": "templeoflegends-garull-5"
-  },
-  {
-    "line": "[1/6] Jorkin: You may want to get out of here, traveller. The Nether is very dangerous!",
-    "file": "templeoflegends-jorkin-1"
-  },
-  {
-    "line": "[1/7] Jorkin: You have the Light Dust, then? Hand it here, I want to see something.",
-    "file": "templeoflegends-jorkin-2"
-  },
-  {
     "line": "[1/5] Kelight: I see you want to enter this mighty temple! Do not deny it, I see it in your eyes.",
     "file": "templeoflegends-kelight-1"
   },
@@ -20904,8 +20876,208 @@
     "file": "templeoflegends-rayshyroth-1"
   },
   {
-    "line": "[1/9] Rayshyroth: Aha, you're back with the Sky Vapor! Sorry about the climb, even I find it rather inconvenient at times.",
+    "line": "[2/6] Rayshyroth: ...I see. Yes, the corruption of the blasted Portal is rather potent. I'm not surprised this would need purification.",
     "file": "templeoflegends-rayshyroth-2"
+  },
+  {
+    "line": "[3/6] Rayshyroth: Well, I can certainly do it, but I'll need the materials to do so. Shouldn't be anything you can't handle by now, right?",
+    "file": "templeoflegends-rayshyroth-3"
+  },
+  {
+    "line": "[4/6] Rayshyroth: You see, below my house here, there is a wellspring from which a powerful magic flux generates.",
+    "file": "templeoflegends-rayshyroth-4"
+  },
+  {
+    "line": "[5/6] Rayshyroth: It creates a unique magic vapor if disrupted, which I can use to purify the dust for you.",
+    "file": "templeoflegends-rayshyroth-5"
+  },
+  {
+    "line": "[6/6] Rayshyroth: I would say, given how badly corrupted this is, I will need at least [12 Sky Vapor] for the task.",
+    "file": "templeoflegends-rayshyroth-6"
+  },
+  {
+    "line": "[1/9] Rayshyroth: Aha, you're back with the Sky Vapor! Sorry about the climb, even I find it rather inconvenient at times.",
+    "file": "templeoflegends-rayshyroth-7"
+  },
+  {
+    "line": "[2/9] Rayshyroth: While I perform the ritual to purify this, I'd like to ask you something. Do you know, exactly, what it is you'll be fighting?",
+    "file": "templeoflegends-rayshyroth-8"
+  },
+  {
+    "line": "[3/9] Rayshyroth: Don't look so surprised, I know exactly what you need Light Dust for. The corruption warding helmet...to allow you to fight the Corrupter of Worlds.",
+    "file": "templeoflegends-rayshyroth-9"
+  },
+  {
+    "line": "[4/9] Rayshyroth: Yes, yes. I imagine that Kelight didn't bother telling you that was its title. I also surmise that you were given few details of how it came to be...",
+    "file": "templeoflegends-rayshyroth-10"
+  },
+  {
+    "line": "[5/9] Rayshyroth: The beast now known as the Corrupter of Worlds is said to have been a simple mining captain, during the expeditions that uncovered the Nether Portal. It is told he was the first to enter that wicked realm.",
+    "file": "templeoflegends-rayshyroth-11"
+  },
+  {
+    "line": "[6/9] Rayshyroth: The man was never heard from again...well, that is until the corrupted hordes began to pour from the Realm of War, with him leading the pack. A bit ironic, isn't it? Led the miners in life, the corrupteds in death.",
+    "file": "templeoflegends-rayshyroth-12"
+  },
+  {
+    "line": "[7/9] Rayshyroth: The mining crew there lasted hardly minutes. He personally slaughtered every single one of his original crew, and thousands more. The energies of the Nether have made him monstrously powerful.",
+    "file": "templeoflegends-rayshyroth-13"
+  },
+  {
+    "line": "[9/9] Rayshyroth: Just remember that no one, aside from that snooty Kelight, will think less of you should you choose not to fight him.",
+    "file": "templeoflegends-rayshyroth-14"
+  },
+  {
+    "line": "[1/6] Jorkin: Ah, hello soldier. What brings you to my humble abode today?",
+    "file": "templeoflegends-jorkin-1"
+  },
+  {
+    "line": "[2/6] Jorkin: Oh my. You...you want to attack HIM? Th-that horrid beast! Are you mad?!",
+    "file": "templeoflegends-jorkin-2"
+  },
+  {
+    "line": "[3/6] Jorkin: Urgh, Kelight keeps sending adventurers like you to their deaths with his asinine tasks!",
+    "file": "templeoflegends-jorkin-3"
+  },
+  {
+    "line": "[4/6] Jorkin: Fine. If you're really so determined to walk to your death, I can tell you where to go.",
+    "file": "templeoflegends-jorkin-4"
+  },
+  {
+    "line": "[5/6] Jorkin: Down in the Roots, there is a cave full of the Light Dust you'll need.",
+    "file": "templeoflegends-jorkin-5"
+  },
+  {
+    "line": "[6/6] Jorkin: Powerful corrupteds live in that cave, so be very careful retrieving it, and bring it back to me once you find it.",
+    "file": "templeoflegends-jorkin-6"
+  },
+  {
+    "line": "[1/7] Jorkin: You have the Light Dust, then? Hand it here, I want to see something.",
+    "file": "templeoflegends-jorkin-7"
+  },
+  {
+    "line": "[2/7] Jorkin: Ah, just as I thought. Even this light has been tainted by Corruption. Sorry, looks like you can't fight him, go home.",
+    "file": "templeoflegends-jorkin-8"
+  },
+  {
+    "line": "[3/7] Jorkin: ...",
+    "file": "templeoflegends-jorkin-9"
+  },
+  {
+    "line": "[4/7] Jorkin: ...urgh, there's no fooling you, is there? You really are committed to trying to fight him.",
+    "file": "templeoflegends-jorkin-10"
+  },
+  {
+    "line": "[5/7] Jorkin: Well, I wasn't lying when I said the Light Dust was corrupted, but there is a way to purify it.",
+    "file": "templeoflegends-jorkin-11"
+  },
+  {
+    "line": "[6/7] Jorkin: An old acquaintance of mine, Rayshyroth, has a method. He lives on Mage Island.",
+    "file": "templeoflegends-jorkin-12"
+  },
+  {
+    "line": "[7/7] Jorkin: He knows even more about that...thing, than I do in my years of studying the Nether. Maybe he'll be able to talk you out of this.",
+    "file": "templeoflegends-jorkin-13"
+  },
+  {
+    "line": "[1/10] Garull: GWUH! Oh god, don't scare me like that! Who... Who even are you?!",
+    "file": "templeoflegends-garull-1"
+  },
+  {
+    "line": "[2/10] Garull: Ah, you were sent from Kelight for a protection helmet? I can do that, sure, but there's a few complications.",
+    "file": "templeoflegends-garull-2"
+  },
+  {
+    "line": "[3/10] Garull: See, I usually use something called Touroto Hide to make my armor. It's extremely resilient, magic resistant and tough to break.",
+    "file": "templeoflegends-garull-3"
+  },
+  {
+    "line": "[4/10] Garull: But, this also makes the Touroto themselves almost impossible to kill. Getting Touroto Hide is extremely difficult. I do know of a black market for it in Rymek, but...",
+    "file": "templeoflegends-garull-4"
+  },
+  {
+    "line": "[5/10] Garull: They only sell useless Old Touroto Hide, gotten from ones that died of old age. It's almost no better than just plain leather.",
+    "file": "templeoflegends-garull-5"
+  },
+  {
+    "line": "[6/10] Garull: So, for me to craft you this helmet, I'll need you to bring me not just the [Old Touroto Hide], but also the means to restore it to its previous power. Do listen up, there's a lot to tell you!",
+    "file": "templeoflegends-garull-6"
+  },
+  {
+    "line": "[7/10] Garull: There's the [Aseado Leaf], grown someplace in the Dernel Jungle...it has powerful medicinal qualities, supposedly able to reverse aging.",
+    "file": "templeoflegends-garull-7"
+  },
+  {
+    "line": "[8/10] Garull: Then, a [Maro's Eye Jewel], which is an amazing magical focus from...well, where else, the Maro Peaks. Using its dust, I'll be able to return its magical resilience manually.",
+    "file": "templeoflegends-garull-8"
+  },
+  {
+    "line": "[9/10] Garull: Finally, I'll need a [Coral of Nelfors], which can be found in the Seavale Reef. This is what I need to use to enchant the hide to be magically resistant.",
+    "file": "templeoflegends-garull-9"
+  },
+  {
+    "line": "[10/10] Garull: I wrote all that down in your content book. If you can get it all, come back to see me, but don't be so sneaky about coming up to me please!",
+    "file": "templeoflegends-garull-10"
+  },
+  {
+    "line": "[1/4] Garull: Thank you for listening to me about not being so quiet coming over here. I'm guessing you've got everything?",
+    "file": "templeoflegends-garull-11"
+  },
+  {
+    "line": "[2/4] Garull: Alright, this should go quickly. For however pompous Kelight is, he's right in sending you to me to craft this.",
+    "file": "templeoflegends-garull-12"
+  },
+  {
+    "line": "[3/4] Garull: Now, I want to warn you about something. I've heard stories about the enemy you need this helmet to face, none of them good.",
+    "file": "templeoflegends-garull-13"
+  },
+  {
+    "line": "[4/4] Garull: While I have seen people return from killing the \"beast\" he talks about, it isn't often. Be very careful, should you choose to fight it.",
+    "file": "templeoflegends-garull-14"
+  },
+  {
+    "line": "[1/3] Garull: Oh, a visitor? Interesting. I thought I only knew about this cave, considering I was called crazy by my master.",
+    "file": "templeoflegends-garull-15"
+  },
+  {
+    "line": "[2/3] Garull: I've lived down here for a while now, studying the creepers. They are mythical in this region, and I want to prove everyone wrong.",
+    "file": "templeoflegends-garull-16"
+  },
+  {
+    "line": "[3/3] Garull: Don't worry about being trapped in here, though. There's a magic doorway right outside my house that can teleport you out if you wish to leave.",
+    "file": "templeoflegends-garull-17"
+  },
+  {
+    "line": "[1/6] Garull: Ah, need help about the items? I'm fine with giving you a refresher, yeah.",
+    "file": "templeoflegends-garull-18"
+  },
+  {
+    "line": "[2/6] Garull: The [Old Touroto Hide] can be bought in Rymek's black market somewhere, for a premium. Be prepared to pay out the nose for it.",
+    "file": "templeoflegends-garull-19"
+  },
+  {
+    "line": "[3/6] Garull: The [Aseado Leaf] grows in the Dernel Jungle. The natives around the Iboju Village might have a better idea of where in the jungle they grow.",
+    "file": "templeoflegends-garull-20"
+  },
+  {
+    "line": "[4/6] Garull: The [Maro's Eye Jewel] is found, of course, in the Maro Peaks. Search around the abandoned mines, and bring a Climbing Helmet.",
+    "file": "templeoflegends-garull-21"
+  },
+  {
+    "line": "[5/6] Garull: The [Coral of Nelfors] grows in the Seavale Reef. You'll have to get a Breathing Helmet to trawl for it along the seafloor.",
+    "file": "templeoflegends-garull-22"
+  },
+  {
+    "line": "[6/6] Garull: Once you have all four items, bring them back to me and I can craft you the helmet.",
+    "file": "templeoflegends-garull-23"
+  },
+  {
+    "line": "[1/2] Garull: If you see Kelight again, tell him \"I told you so\" about the Creepers!",
+    "file": "templeoflegends-garull-24"
+  },
+  {
+    "line": "[2/2] Garull: Oh, and don't forget that the exit is right outside my house if you need to leave.",
+    "file": "templeoflegends-garull-25"
   },
   {
     "line": "[1/5] Monte: Oh, what am I to do...? How am I to be our next elder if I cannot even help him... Oh? Ehm, hello, stranger.",
