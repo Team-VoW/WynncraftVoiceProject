@@ -32068,12 +32068,52 @@
     "file": "theenvoypart1-olivin-1"
   },
   {
+    "line": "[2/5] Olivin: Does my appearance intrigue you?",
+    "file": "theenvoypart1-olivin-2"
+  },
+  {
+    "line": "[3/5] Olivin: I'm not from around here. In fact I am from Corkus.",
+    "file": "theenvoypart1-olivin-3"
+  },
+  {
+    "line": "[4/5] Olivin: It's an independant island to the west. In fact... If you want to go...",
+    "file": "theenvoypart1-olivin-4"
+  },
+  {
+    "line": "[5/5] Olivin: We're looking for Wynn representatives. Head to the C.S.S Wavebreaker down at the dock if you want to experience Corkus. Enjoy Corkus if you go!",
+    "file": "theenvoypart1-olivin-5"
+  },
+  {
     "line": "[1/3] C.S.S Wavebreaker Captain: Welcome welcome to C.S.S Wavebreaker!",
     "file": "theenvoypart1-csswavebreakercaptain-1"
   },
   {
-    "line": "[1/5] C.S.S Wavebreaker Captain: Welcam aboard me ship, I'll bring ye directly to Corkus.",
+    "line": "[2/3] C.S.S Wavebreaker Captain: The only boat that will take ye directly to Corkus City.",
     "file": "theenvoypart1-csswavebreakercaptain-2"
+  },
+  {
+    "line": "[3/3] C.S.S Wavebreaker Captain: Just hop aboard and make yerself comfy.",
+    "file": "theenvoypart1-csswavebreakercaptain-3"
+  },
+  {
+    "line": "[1/5] C.S.S Wavebreaker Captain: Welcam aboard me ship, I'll bring ye directly to Corkus.",
+    "file": "theenvoypart1-csswavebreakercaptain-4"
+  },
+  {
+    "line": "[2/5] C.S.S Wavebreaker Captain: Trust me, it is fa' more amazin than Gavel and Wynn. We even 'ave machines!",
+    "file": "theenvoypart1-csswavebreakercaptain-5"
+  },
+  {
+    "line": "[3/5] C.S.S Wavebreaker Captain: And don't get me sterted on our architectur'!",
+    "file": "theenvoypart1-csswavebreakercaptain-6"
+  },
+  {
+    "line": "[4/5] C.S.S Wavebreaker Captain: Trust me, you will enjoy yer stay.",
+    "file": "theenvoypart1-csswavebreakercaptain-7"
+  },
+  {
+    "line": "[5/5] C.S.S Wavebreaker Captain: Seems like we're 'ere!",
+    "file": "theenvoypart1-csswavebreakercaptain-8"
   },
   {
     "line": "[1/20] Corkus Delegate: It's such an honour to have a Wynn soldier visit our island.",
