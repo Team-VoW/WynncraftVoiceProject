@@ -4,6 +4,7 @@
  */
 package com.wynnvp.wynncraftvp.sound.player;
 
+import com.wynnvp.wynncraftvp.sound.Reverb;
 import java.nio.ByteBuffer;
 import java.util.Optional;
 import javax.sound.sampled.AudioFormat;
@@ -14,6 +15,7 @@ public class AudioData {
     public AudioFormat audioFormat;
     public String speakerName;
     public Optional<Vec3> pos;
+    public Reverb reverb;
 
     public AudioData(ByteBuffer byteBuffer, AudioFormat audioFormat) {
         this.byteBuffer = byteBuffer;

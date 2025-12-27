@@ -60,6 +60,7 @@ public class AudioPlayer {
                 .setSpeakerAndPos(
                         soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
                         soundObject.getPosition());
+        audioData.get().reverb = soundObject.getReverb();
 
         write(audioData.get());
     }
@@ -182,6 +183,7 @@ public class AudioPlayer {
                 .setSpeakerAndPos(
                         soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
                         soundObject.getPosition());
+        audioOptional.get().reverb = soundObject.getReverb();
 
         write(audioOptional.get());
     }
