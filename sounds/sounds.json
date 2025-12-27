@@ -21276,40 +21276,84 @@
     "file": "lazaruspit-burtur-16"
   },
   {
+    "line": "[1/1] Uggword Pollywaggon the Murderous: I oughta deck you for waking me up!! Don't you realize it's RUDE to re-animate the long-dead corpse of a murderer when he's trying to get his beauty death?!",
+    "file": "lazaruspit-uggwordpollywaggonthemurderous-1"
+  },
+  {
     "line": "[1/3] Lord Plaatic the Kind: Ugh. And who put YOU in charge of waking me up? Where's Gwendolyn, my maid? Incompetents- she was supposed to be buried with me too!",
     "file": "lazaruspit-lordplaaticthekind-1"
   },
   {
-    "line": "[1/2] Lord Plaatic the Kind: Ah, my favorite little weird-small-nosed-person! The graveyard is so lovely when it's quiet- you really did do a good job!",
+    "line": "[2/3] Lord Plaatic the Kind: What, you want to enter the crypt? Well, prove you're better than the funeral directors and do something right! The Ghastly Ghouls around here won't stop SCREAMING!",
     "file": "lazaruspit-lordplaaticthekind-2"
+  },
+  {
+    "line": "[3/3] Lord Plaatic the Kind: I want them gone! Get rid of, say, 10 Ghastly Ghouls. Then perhaps I'll give you the time of day, you strange, small-nosed lookyloo!",
+    "file": "lazaruspit-lordplaaticthekind-3"
+  },
+  {
+    "line": "[1/2] Lord Plaatic the Kind: Ah, my favorite little weird-small-nosed-person! The graveyard is so lovely when it's quiet- you really did do a good job!",
+    "file": "lazaruspit-lordplaaticthekind-4"
+  },
+  {
+    "line": "[2/2] Lord Plaatic the Kind: As important as I am, you must still check with the other graves, though you certainly have my blessing to enter.",
+    "file": "lazaruspit-lordplaaticthekind-5"
   },
   {
     "line": "[1/3] Poclo Wabblebuff of Gelibord: Greetings! Thank goodness, that dreary old tomb was simply awful. No furniture, no natural light, not even a lick of paint! So drab, the whole thing.",
     "file": "lazaruspit-poclowabblebuffofgelibord-1"
   },
   {
-    "line": "[1/3] Poclo Wabblebuff of Gelibord: So, is Mrs. Fluffles doing alright without me? Oh, I bet she was so affectionate, always such a softie!",
+    "line": "[2/3] Poclo Wabblebuff of Gelibord: What's that? You want to get into the crypt? Well, of course I can help, if you just do one teensy little thing for me?",
     "file": "lazaruspit-poclowabblebuffofgelibord-2"
   },
   {
-    "line": "[2/3] Poclo Wabblebuff of Gelibord: W-wait, Mrs. Fluffles... She was...d-dead? No... It can't be! I left her a lifetime supply of food! ",
+    "line": "[3/3] Poclo Wabblebuff of Gelibord: Could you feed my cat for me? I know Mrs. Fluffles must be so lonely after all these years. My old house is just south of here, over at [-1105, 42, -5381], just pop some food down for her? Thank you!",
     "file": "lazaruspit-poclowabblebuffofgelibord-3"
   },
   {
-    "line": "[2/3] Poclo Wabblebuff of Gelibord: Oh, thank you so much! I was so worried that after my death she wouldn't be okay... What a relief!",
+    "line": "[1/3] Poclo Wabblebuff of Gelibord: So, is Mrs. Fluffles doing alright without me? Oh, I bet she was so affectionate, always such a softie!",
     "file": "lazaruspit-poclowabblebuffofgelibord-4"
   },
   {
-    "line": "[1/1] Uggword Pollywaggon the Murderous: I oughta deck you for waking me up!! Don't you realize it's RUDE to re-animate the long-dead corpse of a murderer when he's trying to get his beauty death?!",
-    "file": "lazaruspit-uggwordpollywaggonthemurderous-1"
+    "line": "[2/3] Poclo Wabblebuff of Gelibord: W-wait, Mrs. Fluffles... She was...d-dead? No... It can't be! I left her a lifetime supply of food!",
+    "file": "lazaruspit-poclowabblebuffofgelibord-5"
+  },
+  {
+    "line": "[3/3] Poclo Wabblebuff of Gelibord: You! You killed Mrs. Fluffles, it's the only explanation!! HOW COULD YOU DO SUCH A THING?!",
+    "file": "lazaruspit-poclowabblebuffofgelibord-6"
+  },
+  {
+    "line": "[2/3] Poclo Wabblebuff of Gelibord: Oh, thank you so much! I was so worried that after my death she wouldn't be okay... What a relief!",
+    "file": "lazaruspit-poclowabblebuffofgelibord-7"
+  },
+  {
+    "line": "[3/3] Poclo Wabblebuff of Gelibord: You have my blessing to enter the crypt! Make sure to check with the other graves as well though.",
+    "file": "lazaruspit-poclowabblebuffofgelibord-8"
   },
   {
     "line": "[1/4] Sir Pigglesworth the Thirty-Fifth: My goodness! Ah, it feels good to stretch these old bones. It's not easy being cooped up in a coffin, you know.",
     "file": "lazaruspit-sirpigglesworththethirtyfifth-1"
   },
   {
-    "line": "[1/2] Sir Pigglesworth the Thirty-Fifth: Oh, you found it! Wonderful! Just pop it on that fingerbone right there... Ah, it fits even better on the other hand!",
+    "line": "[2/4] Sir Pigglesworth the Thirty-Fifth: You want to get into the crypt? I suppose I could give you a hand... figuratively, I mean. Still, need to see if you can be trusted and all...",
     "file": "lazaruspit-sirpigglesworththethirtyfifth-2"
+  },
+  {
+    "line": "[3/4] Sir Pigglesworth the Thirty-Fifth: Oh, right! My dear husband gave me the most beautiful wedding band, but it became lost when I carked it. Some rude shadowy thing- See if anyone ever marries THEM!",
+    "file": "lazaruspit-sirpigglesworththethirtyfifth-3"
+  },
+  {
+    "line": "[4/4] Sir Pigglesworth the Thirty-Fifth: Bring it back, could you? I died around that old lich's tower to the east. Do that, and I'll be happy to give you my blessing!",
+    "file": "lazaruspit-sirpigglesworththethirtyfifth-4"
+  },
+  {
+    "line": "[1/2] Sir Pigglesworth the Thirty-Fifth: Oh, you found it! Wonderful! Just pop it on that fingerbone right there... Ah, it fits even better on the other hand!",
+    "file": "lazaruspit-sirpigglesworththethirtyfifth-5"
+  },
+  {
+    "line": "[2/2] Sir Pigglesworth the Thirty-Fifth: The crypt, you say? I can offer my blessing to enter, but you'll need to check with the other tombs around as well. Farewell!",
+    "file": "lazaruspit-sirpigglesworththethirtyfifth-6"
   },
   {
     "line": "[1/3] Burtur: Ah, you're back! We were getting a tad worried about you. Were you able to figure anything out in the chapel there?",
