@@ -26649,6 +26649,22 @@
     "file": "acquiringcredentials-doan-3"
   },
   {
+    "line": "[2/5] Doan: Well...so, I've heard rumours of a secret Black Market that hides in the airbase.",
+    "file": "acquiringcredentials-doan-38"
+  },
+  {
+    "line": "[3/5] Doan: Apparently they trade illegal products... There has to be a way of buying passports, I'm sure of it!",
+    "file": "acquiringcredentials-doan-39"
+  },
+  {
+    "line": "[4/5] Doan: If we work together, we might be able to find a way in. What do you think?",
+    "file": "acquiringcredentials-doan-40"
+  },
+  {
+    "line": "[5/5] Doan: Let's explore the airbase, then! We need to look for clues, lead the way.",
+    "file": "acquiringcredentials-doan-41"
+  },
+  {
     "line": "[1/2] Kid: Where are we going, dad?",
     "file": "acquiringcredentials-kid-1"
   },
@@ -26912,6 +26928,30 @@
     "file": "acquiringcredentials-marketmember-1"
   },
   {
+    "line": "[2/7] Market Member: What do you want?",
+    "file": "acquiringcredentials-marketmember-2"
+  },
+  {
+    "line": "[3/7] Market Member: Two passports? I'd say that's around 2000 emeralds. You can get that selling this egg on the market.",
+    "file": "acquiringcredentials-marketmember-3"
+  },
+  {
+    "line": "[4/7] Market Member: Let me fill you in how the market works. You'll get a low starting price for your egg, and then you'll have to go around the merchants asking for a higher bid.",
+    "file": "acquiringcredentials-marketmember-4"
+  },
+  {
+    "line": "[5/7] Market Member: Be careful, though, as you can only ask for 5 price increases.",
+    "file": "acquiringcredentials-marketmember-5"
+  },
+  {
+    "line": "[6/7] Market Member: You can try talking to different merchants, and see how much each increases the price of the egg.",
+    "file": "acquiringcredentials-marketmember-6"
+  },
+  {
+    "line": "[7/7] Market Member: Good luck, and do try not to get killed...",
+    "file": "acquiringcredentials-marketmember-7"
+  },
+  {
     "line": "[1/3] Doan: That's what we need, soldier. Sold! The egg is yours.",
     "file": "acquiringcredentials-doan-28"
   },
@@ -26921,11 +26961,11 @@
   },
   {
     "line": "[1/5] Market Member: So do you have the emeralds?",
-    "file": "acquiringcredentials-marketmember-2"
+    "file": "acquiringcredentials-marketmember-8"
   },
   {
     "line": "[2/5] Market Member: Hmm... This will do it. Here, your passports.",
-    "file": "acquiringcredentials-marketmember-3"
+    "file": "acquiringcredentials-marketmember-9"
   },
   {
     "line": "[3/5] Doan: Uhh.. Soldier, I think you dropped your passport. Let me get it for yo-...",
