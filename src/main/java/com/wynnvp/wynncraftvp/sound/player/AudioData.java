@@ -27,6 +27,10 @@ public class AudioData {
         this.pos = pos;
     }
 
+    public void setReverb(Reverb reverb) {
+        this.reverb = reverb;
+    }
+
     /**
      * Gets the audio length in seconds
      * @return audio length

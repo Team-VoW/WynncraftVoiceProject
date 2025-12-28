@@ -12,7 +12,7 @@ import java.lang.reflect.Type;
 
 /**
  * Custom Gson deserializer for Reverb enum that supports both integer and string values.
- * Integer values are mapped to enum ordinals (0-9).
+ * Integer values are mapped to explicit enum IDs (0-9) for stable serialization.
  */
 public class ReverbDeserializer implements JsonDeserializer<Reverb> {
     @Override
@@ -22,16 +22,15 @@ public class ReverbDeserializer implements JsonDeserializer<Reverb> {
             return Reverb.OUTSIDE; // Default fallback
         }
 
-        // Handle integer values (ordinal)
+        // Handle integer values (stable ID)
         if (json.isJsonPrimitive() && json.getAsJsonPrimitive().isNumber()) {
-            int ordinal = json.getAsInt();
-            Reverb[] values = Reverb.values();
+            int id = json.getAsInt();
+            Reverb reverb = Reverb.fromId(id);
 
-            if (ordinal >= 0 && ordinal < values.length) {
-                return values[ordinal];
+            if (reverb != null) {
+                return reverb;
             } else {
-                throw new JsonParseException(
-                        "Invalid reverb ordinal: " + ordinal + ". Must be between 0 and " + (values.length - 1));
+                throw new JsonParseException("Invalid reverb ID: " + id + ". Must be between 0 and 9.");
             }
         }
 
