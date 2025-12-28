@@ -4,7 +4,9 @@
  */
 package com.wynnvp.wynncraftvp.sound.player;
 
+import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.Reverb;
+import org.lwjgl.openal.AL10;
 import org.lwjgl.openal.EXTEfx;
 
 /**
@@ -12,6 +14,10 @@ import org.lwjgl.openal.EXTEfx;
  * Each preset is tuned to simulate realistic acoustic properties.
  */
 public class ReverbPresets {
+    private ReverbPresets() {
+        throw new UnsupportedOperationException("Utility class");
+    }
+
     public static class ReverbParams {
         public final float density;
         public final float diffusion;
@@ -58,21 +64,47 @@ public class ReverbPresets {
 
         /**
          * Applies these reverb parameters to an OpenAL effect object.
+         * Checks for OpenAL errors after each parameter is set and logs any failures.
          */
         public void applyToEffect(int effect) {
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_DENSITY, density);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_DIFFUSION, diffusion);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_GAIN, gain);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_GAINHF, gainHF);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_DECAY_TIME, decayTime);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_DECAY_HFRATIO, decayHFRatio);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_REFLECTIONS_GAIN, reflectionsGain);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_REFLECTIONS_DELAY, reflectionsDelay);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_LATE_REVERB_GAIN, lateReverbGain);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_LATE_REVERB_DELAY, lateReverbDelay);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_AIR_ABSORPTION_GAINHF, airAbsorptionGainHF);
-            EXTEfx.alEffectf(effect, EXTEfx.AL_REVERB_ROOM_ROLLOFF_FACTOR, roomRolloffFactor);
-            EXTEfx.alEffecti(effect, EXTEfx.AL_REVERB_DECAY_HFLIMIT, decayHFLimit);
+            applyEffectParam(effect, EXTEfx.AL_REVERB_DENSITY, density, "density");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_DIFFUSION, diffusion, "diffusion");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_GAIN, gain, "gain");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_GAINHF, gainHF, "gainHF");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_DECAY_TIME, decayTime, "decayTime");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_DECAY_HFRATIO, decayHFRatio, "decayHFRatio");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_REFLECTIONS_GAIN, reflectionsGain, "reflectionsGain");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_REFLECTIONS_DELAY, reflectionsDelay, "reflectionsDelay");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_LATE_REVERB_GAIN, lateReverbGain, "lateReverbGain");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_LATE_REVERB_DELAY, lateReverbDelay, "lateReverbDelay");
+            applyEffectParam(
+                    effect, EXTEfx.AL_REVERB_AIR_ABSORPTION_GAINHF, airAbsorptionGainHF, "airAbsorptionGainHF");
+            applyEffectParam(effect, EXTEfx.AL_REVERB_ROOM_ROLLOFF_FACTOR, roomRolloffFactor, "roomRolloffFactor");
+            applyEffectParamInt(effect, EXTEfx.AL_REVERB_DECAY_HFLIMIT, decayHFLimit, "decayHFLimit");
+        }
+
+        /**
+         * Helper method to apply a float effect parameter with error checking.
+         */
+        private void applyEffectParam(int effect, int param, float value, String paramName) {
+            EXTEfx.alEffectf(effect, param, value);
+            int error = AL10.alGetError();
+            if (error != AL10.AL_NO_ERROR) {
+                ModCore.error(String.format(
+                        "Failed to set reverb parameter %s to %.3f (OpenAL error: 0x%X)", paramName, value, error));
+            }
+        }
+
+        /**
+         * Helper method to apply an integer effect parameter with error checking.
+         */
+        private void applyEffectParamInt(int effect, int param, int value, String paramName) {
+            EXTEfx.alEffecti(effect, param, value);
+            int error = AL10.alGetError();
+            if (error != AL10.AL_NO_ERROR) {
+                ModCore.error(String.format(
+                        "Failed to set reverb parameter %s to %d (OpenAL error: 0x%X)", paramName, value, error));
+            }
         }
     }
 
