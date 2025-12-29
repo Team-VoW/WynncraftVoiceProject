@@ -10,11 +10,13 @@ import be.tarsos.dsp.AudioProcessor;
 import be.tarsos.dsp.WaveformSimilarityBasedOverlapAdd;
 import be.tarsos.dsp.io.jvm.AudioDispatcherFactory;
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.sound.Reverb;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -28,6 +30,8 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.phys.Vec3;
 import org.lwjgl.openal.AL10;
 import org.lwjgl.openal.AL11;
+import org.lwjgl.openal.ALC10;
+import org.lwjgl.openal.EXTEfx;
 
 public class OpenAlPlayer {
     private final ExecutorService executorService;
@@ -37,9 +41,90 @@ public class OpenAlPlayer {
     private final Options gameSettings;
     private boolean hasShownVolumeMessage = false;
 
+    // EFX (Environmental Audio Extension) support
+    private boolean efxSupported = false;
+    private final Map<Reverb, Integer> reverbEffects = new EnumMap<>(Reverb.class);
+    private final Map<Reverb, Integer> reverbSlots = new EnumMap<>(Reverb.class);
+
     public OpenAlPlayer() {
         executorService = Executors.newCachedThreadPool();
         gameSettings = Minecraft.getInstance().options;
+        initializeEFX();
+    }
+
+    /**
+     * Initializes OpenAL EFX (Effects Extension) for reverb support.
+     * Creates effect objects and auxiliary effect slots for each reverb preset.
+     */
+    private void initializeEFX() {
+        try {
+            // Check if EFX is supported
+            long device = ALC10.alcGetCurrentContext();
+            if (device == 0) {
+                ModCore.warn("OpenAL context not available, reverb disabled");
+                return;
+            }
+
+            // Try to create a test effect to verify EFX support
+            int testEffect = EXTEfx.alGenEffects();
+            if (AL10.alGetError() != AL10.AL_NO_ERROR) {
+                ModCore.warn("OpenAL EFX not supported on this system, reverb disabled");
+                return;
+            }
+
+            // EFX is supported, delete the test effect
+            EXTEfx.alDeleteEffects(testEffect);
+            efxSupported = true;
+            ModCore.info("OpenAL EFX initialized successfully");
+
+            // Create effect objects and auxiliary effect slots for each reverb type
+            for (Reverb reverb : Reverb.values()) {
+                // Create effect
+                int effect = EXTEfx.alGenEffects();
+                if (AL10.alGetError() != AL10.AL_NO_ERROR) {
+                    ModCore.error("Failed to create effect for " + reverb.name());
+                    continue;
+                }
+
+                // Set effect type to reverb
+                EXTEfx.alEffecti(effect, EXTEfx.AL_EFFECT_TYPE, EXTEfx.AL_EFFECT_REVERB);
+                if (AL10.alGetError() != AL10.AL_NO_ERROR) {
+                    ModCore.error("Failed to set effect type for " + reverb.name());
+                    EXTEfx.alDeleteEffects(effect);
+                    continue;
+                }
+
+                // Apply reverb parameters
+                ReverbPresets.ReverbParams params = ReverbPresets.getParams(reverb);
+                params.applyToEffect(effect);
+
+                // Create auxiliary effect slot
+                int slot = EXTEfx.alGenAuxiliaryEffectSlots();
+                if (AL10.alGetError() != AL10.AL_NO_ERROR) {
+                    ModCore.error("Failed to create effect slot for " + reverb.name());
+                    EXTEfx.alDeleteEffects(effect);
+                    continue;
+                }
+
+                // Attach effect to slot
+                EXTEfx.alAuxiliaryEffectSloti(slot, EXTEfx.AL_EFFECTSLOT_EFFECT, effect);
+                if (AL10.alGetError() != AL10.AL_NO_ERROR) {
+                    ModCore.error("Failed to attach effect to slot for " + reverb.name());
+                    EXTEfx.alDeleteEffects(effect);
+                    EXTEfx.alDeleteAuxiliaryEffectSlots(slot);
+                    continue;
+                }
+
+                // Store effect and slot
+                reverbEffects.put(reverb, effect);
+                reverbSlots.put(reverb, slot);
+            }
+
+            ModCore.info("Created " + reverbEffects.size() + " reverb presets");
+        } catch (Exception e) {
+            ModCore.error("Failed to initialize EFX", e);
+            efxSupported = false;
+        }
     }
 
     private ByteBuffer timeStretch(AudioData audioData, float speed) {
@@ -148,6 +233,10 @@ public class OpenAlPlayer {
                 AL11.alBufferData(
                         buffers[0], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
                 AL11.alSourceQueueBuffers(sourceID, buffers[0]);
+
+                // Apply reverb effect if supported and enabled
+                applyReverb(sourceID, audioData.reverb);
+
                 AL11.alSourcePlay(sourceID);
                 return;
             }
@@ -158,8 +247,43 @@ public class OpenAlPlayer {
 
             AL11.alBufferData(buffers[0], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
             AL11.alSourceQueueBuffers(sourceID, buffers[0]);
+
+            // Apply reverb effect if supported and enabled
+            applyReverb(sourceID, audioData.reverb);
+
             AL11.alSourcePlay(sourceID);
         });
+    }
+
+    /**
+     * Applies reverb effect to an audio source.
+     * @param sourceID The OpenAL source ID
+     * @param reverb The reverb type to apply (can be null)
+     */
+    private void applyReverb(int sourceID, Reverb reverb) {
+        // Skip if EFX not supported or reverb not specified
+        if (!efxSupported || reverb == null) {
+            return;
+        }
+
+        // Skip if reverb disabled in config
+        if (ModCore.config != null && !ModCore.config.enableReverb) {
+            return;
+        }
+
+        // Get the effect slot for this reverb type
+        Integer slot = reverbSlots.get(reverb);
+        if (slot == null) {
+            return;
+        }
+
+        // Attach the effect slot to the source
+        // Send 0 = main output, Send 1-4 = auxiliary sends
+        AL11.alSource3i(sourceID, EXTEfx.AL_AUXILIARY_SEND_FILTER, slot, 0, EXTEfx.AL_FILTER_NULL);
+
+        if (AL10.alGetError() != AL10.AL_NO_ERROR) {
+            ModCore.warn("Failed to apply reverb effect to audio source");
+        }
     }
 
     public void stopAudio() {

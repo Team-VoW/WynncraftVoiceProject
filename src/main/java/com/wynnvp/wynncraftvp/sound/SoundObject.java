@@ -14,14 +14,23 @@ public class SoundObject {
     private final Vec3 position;
     private final int fallOff;
     private final boolean stopSounds;
+    private final Reverb reverb;
 
-    public SoundObject(String npcName, String id, boolean movingSound, Vec3 position, int fallOff, boolean stopSounds) {
+    public SoundObject(
+            String npcName,
+            String id,
+            boolean movingSound,
+            Vec3 position,
+            int fallOff,
+            boolean stopSounds,
+            Reverb reverb) {
         this.fallOff = fallOff;
         this.position = position;
         this.npcName = npcName;
         this.id = id;
         this.movingSound = movingSound;
         this.stopSounds = stopSounds;
+        this.reverb = reverb;
     }
 
     public String getId() {
@@ -52,5 +61,9 @@ public class SoundObject {
 
     public boolean shouldStopSounds() {
         return stopSounds;
+    }
+
+    public Reverb getReverb() {
+        return reverb;
     }
 }

@@ -48,20 +48,19 @@ public class AudioPlayer {
 
     public void playAudioFile(Path path, SoundObject soundObject) {
         if (soundObject.shouldStopSounds()) openAlPlayer.stopAudio();
-        Optional<AudioData> audioData = OggDecoder.getAudioData(path);
+        Optional<AudioData> audioDataOptional = OggDecoder.getAudioData(path);
 
-        if (audioData.isEmpty()) {
+        if (audioDataOptional.isEmpty()) {
             Utils.sendMessage("Failed to load audio file: " + path.toString());
             return;
         }
 
-        audioData
-                .get()
-                .setSpeakerAndPos(
-                        soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
-                        soundObject.getPosition());
+        AudioData audioData = audioDataOptional.get();
+        audioData.setSpeakerAndPos(
+                soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
+        audioData.setReverb(soundObject.getReverb());
 
-        write(audioData.get());
+        write(audioData);
     }
 
     public void play(SoundObject soundObject) {
@@ -171,18 +170,17 @@ public class AudioPlayer {
     public void playAudioBuffer(ByteBuffer audioData, SoundObject soundObject) {
         if (soundObject.shouldStopSounds()) openAlPlayer.stopAudio();
 
-        Optional<AudioData> audioOptional = OggDecoder.getAudioData(audioData);
-        if (audioOptional.isEmpty()) {
+        Optional<AudioData> audioDataOptional = OggDecoder.getAudioData(audioData);
+        if (audioDataOptional.isEmpty()) {
             Utils.sendMessage("Failed to decode remote audio data.");
             return;
         }
 
-        audioOptional
-                .get()
-                .setSpeakerAndPos(
-                        soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
-                        soundObject.getPosition());
+        AudioData audio = audioDataOptional.get();
+        audio.setSpeakerAndPos(
+                soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
+        audio.setReverb(soundObject.getReverb());
 
-        write(audioOptional.get());
+        write(audio);
     }
 }

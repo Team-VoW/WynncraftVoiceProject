@@ -7,6 +7,7 @@ package com.wynnvp.wynncraftvp.sound;
 import static com.wynnvp.wynncraftvp.utils.LineFormatter.formatToLineData;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
@@ -40,7 +41,9 @@ public class SoundsHandler {
 
     public SoundsHandler() {
         sounds = new HashMap<>();
-        gson = new Gson();
+        gson = new GsonBuilder()
+                .registerTypeAdapter(Reverb.class, new ReverbDeserializer())
+                .create();
         ExecutorService executor = Executors.newSingleThreadExecutor();
 
         executor.execute(() -> {
@@ -109,7 +112,14 @@ public class SoundsHandler {
                 message = lineData.getSoundLine();
                 sounds.put(
                         message,
-                        new SoundObject(lineData.getNPCName(), fileName, movingSound, position, fallOff, stopSounds));
+                        new SoundObject(
+                                lineData.getNPCName(),
+                                fileName,
+                                movingSound,
+                                position,
+                                fallOff,
+                                stopSounds,
+                                environment));
             }
         } catch (IOException e) {
             throw new RuntimeException("Failed to load JSON file", e);
@@ -117,6 +127,11 @@ public class SoundsHandler {
     }
 
     private boolean shouldUpdateJson() {
+        // Don't update if using custom sounds.json
+        if (ModCore.config.isUseCustomSoundsJson()) {
+            return false;
+        }
+
         if (!Files.exists(Paths.get(JSON_FILE))) {
             return true;
         }
@@ -177,6 +192,26 @@ public class SoundsHandler {
     }
 
     private InputStream getJsonStream() {
+        // Check for custom sounds.json path first
+        if (ModCore.config.isUseCustomSoundsJson()) {
+            String customPath = ModCore.config.getCustomSoundsJsonPath();
+            if (customPath != null && !customPath.isEmpty() && Files.exists(Paths.get(customPath))) {
+                try {
+                    LOGGER.info("[Voices of Wynn] Using custom sounds.json file from: {}", customPath);
+                    return new FileInputStream(customPath);
+                } catch (IOException e) {
+                    LOGGER.error("[Voices of Wynn] Failed to load custom sounds.json from: {}", customPath, e);
+                    LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
+                }
+            } else {
+                LOGGER.warn(
+                        "[Voices of Wynn] Custom sounds.json enabled but path is invalid or file doesn't exist: {}",
+                        customPath);
+                LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
+            }
+        }
+
+        // Default behavior
         if (Files.exists(Paths.get(JSON_FILE))) {
             try {
                 LOGGER.info("[Voices of Wynn] Using cached sounds.json file");
