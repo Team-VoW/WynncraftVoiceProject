@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2025.
+ * Copyright © Team-VoW 2025-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.downloader;
@@ -76,7 +76,7 @@ public class ToastManager {
 
     // Helper method to check if a key is pressed
     private boolean isKeyPressed(int keyCode) {
-        long windowHandle = client.getWindow().getWindow();
+        long windowHandle = client.getWindow().handle();
         return GLFW.glfwGetKey(windowHandle, keyCode) == GLFW.GLFW_PRESS;
     }
 }
