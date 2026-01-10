@@ -1,9 +1,10 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.utils;
 
+import java.net.URI;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -41,7 +42,7 @@ public class Utils {
                     String url = matcher.group();
                     message.append(Component.literal(url)
                             .setStyle(message.getStyle()
-                                    .withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, url))
+                                    .withClickEvent(new ClickEvent.OpenUrl(URI.create(url)))
                                     .withColor(ChatFormatting.AQUA)
                                     .withUnderlined(true)));
 
@@ -67,7 +68,7 @@ public class Utils {
                 && Minecraft.getInstance().gui.getChat() != null) {
             MutableComponent mutableText = Component.literal("§r " + text).copy();
             mutableText.append(Component.literal(clickText)
-                    .setStyle(mutableText.getStyle().withClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, url))));
+                    .setStyle(mutableText.getStyle().withClickEvent(new ClickEvent.OpenUrl(URI.create(url)))));
 
             Minecraft.getInstance().gui.getChat().addMessage(mutableText);
         }

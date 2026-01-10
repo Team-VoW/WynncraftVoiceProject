@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.events;
@@ -9,8 +9,9 @@ import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.client.resources.sounds.SoundInstance;
 import net.minecraft.client.sounds.SoundManager;
 import net.minecraft.client.sounds.WeighedSoundEvents;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.sounds.SoundSource;
+import org.jspecify.annotations.NonNull;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 public class PlaySoundEvent {
@@ -26,12 +27,12 @@ public class PlaySoundEvent {
     private static SoundInstance changeCategory(SoundInstance sound, SoundSource soundCategory) {
         return new SoundInstance() {
             @Override
-            public ResourceLocation getLocation() {
-                return sound.getLocation();
+            public @NonNull Identifier getIdentifier() {
+                return sound.getIdentifier();
             }
 
             @Override
-            public WeighedSoundEvents resolve(SoundManager manager) {
+            public WeighedSoundEvents resolve(@NonNull SoundManager manager) {
                 return sound.resolve(manager);
             }
 
@@ -41,7 +42,7 @@ public class PlaySoundEvent {
             }
 
             @Override
-            public SoundSource getSource() {
+            public @NonNull SoundSource getSource() {
                 return soundCategory;
             }
 
@@ -86,7 +87,7 @@ public class PlaySoundEvent {
             }
 
             @Override
-            public Attenuation getAttenuation() {
+            public @NonNull Attenuation getAttenuation() {
                 return sound.getAttenuation();
             }
         };

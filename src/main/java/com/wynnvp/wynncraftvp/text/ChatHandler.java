@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.text;
@@ -100,7 +100,7 @@ public final class ChatHandler {
     public void onStatusEffectUpdate(ClientboundUpdateMobEffectPacket event) {
         if (Utils.mc().level.getEntity(event.getEntityId()) != Utils.player()) return;
 
-        if (event.getEffect().equals(MobEffects.MOVEMENT_SLOWDOWN.value())
+        if (event.getEffect().equals(MobEffects.SLOWNESS.value())
                 && event.getEffectAmplifier() == 3
                 && event.getEffectDurationTicks() == 32767) {
             if (delayedDialogue != null) {
@@ -117,7 +117,7 @@ public final class ChatHandler {
     public void onStatusEffectRemove(ClientboundRemoveMobEffectPacket event) {
         if (event.getEntity(Utils.mc().level) != Utils.player()) return;
 
-        if (event.effect() == MobEffects.MOVEMENT_SLOWDOWN) {
+        if (event.effect() == MobEffects.SLOWNESS) {
             lastSlowdownApplied = 0;
         }
     }
@@ -276,7 +276,7 @@ public final class ChatHandler {
         LinkedList<StyledText> newChatLines = new LinkedList<>();
         LinkedList<StyledText> dialogue = new LinkedList<>();
 
-        if(newLines.isEmpty()) {
+        if (newLines.isEmpty()) {
             // If there are no new lines, we can't do anything
             return;
         }
@@ -514,9 +514,11 @@ public final class ChatHandler {
             for (HoverEvent hoverEvent : hoverEvents) {
                 // This text will be something like "SecondArcher's real username is kmaxi" where SecondArcher is the
                 // nickname and kmaxi the real name
-                String value = hoverEvent.getValue(HoverEvent.Action.SHOW_TEXT).getString();
-                if (value.contains("real username")) {
-                    playerName = value.split("'s real username")[0];
+                if (hoverEvent instanceof HoverEvent.ShowText(Component showText)) {
+                    String value = showText.getString();
+                    if (value.contains("real username")) {
+                        playerName = value.split("'s real username")[0];
+                    }
                 }
             }
 
