@@ -21,48 +21,69 @@ public class Utils {
     private static final Pattern URL_PATTERN =
             Pattern.compile("https?://[\\w\\-._~:/?#\\[\\]@!$&'()*+,;=%]+", Pattern.CASE_INSENSITIVE);
 
-    public static void sendMessage(String text) {
-        if (Minecraft.getInstance().player != null) {
-            MutableComponent message = Component.literal("§5[Voices of Wynn]§r ");
+    public static void runOnClientThread(Runnable runnable) {
+        Minecraft mc = mc();
+        if (mc == null) return;
 
-            // Check if the text contains URLs
-            Matcher matcher = URL_PATTERN.matcher(text);
-            if (matcher.find()) {
-                // Reset matcher to start from beginning
-                matcher.reset();
-                int lastEnd = 0;
-
-                while (matcher.find()) {
-                    // Add text before the URL
-                    if (matcher.start() > lastEnd) {
-                        message.append(Component.literal(text.substring(lastEnd, matcher.start())));
-                    }
-
-                    // Add clickable URL
-                    String url = matcher.group();
-                    message.append(Component.literal(url)
-                            .setStyle(message.getStyle()
-                                    .withClickEvent(new ClickEvent.OpenUrl(URI.create(url)))
-                                    .withColor(ChatFormatting.AQUA)
-                                    .withUnderlined(true)));
-
-                    lastEnd = matcher.end();
-                }
-
-                // Add remaining text after the last URL
-                if (lastEnd < text.length()) {
-                    message.append(Component.literal(text.substring(lastEnd)));
-                }
-            } else {
-                // No URLs found, just add the text as is
-                message.append(Component.literal(text));
-            }
-
-            Minecraft.getInstance().gui.getChat().addMessage(message);
+        if (mc.isSameThread()) {
+            runnable.run();
+        } else {
+            mc.execute(runnable);
         }
     }
 
+    public static void sendMessage(String text) {
+        if (!Minecraft.getInstance().isSameThread()) {
+            runOnClientThread(() -> sendMessage(text));
+            return;
+        }
+
+        if (Minecraft.getInstance().player == null) return;
+
+        MutableComponent message = Component.literal("§5[Voices of Wynn]§r ");
+
+        // Check if the text contains URLs
+        Matcher matcher = URL_PATTERN.matcher(text);
+        if (matcher.find()) {
+            // Reset matcher to start from beginning
+            matcher.reset();
+            int lastEnd = 0;
+
+            while (matcher.find()) {
+                // Add text before the URL
+                if (matcher.start() > lastEnd) {
+                    message.append(Component.literal(text.substring(lastEnd, matcher.start())));
+                }
+
+                // Add clickable URL
+                String url = matcher.group();
+                message.append(Component.literal(url)
+                        .setStyle(message.getStyle()
+                                .withClickEvent(new ClickEvent.OpenUrl(URI.create(url)))
+                                .withColor(ChatFormatting.AQUA)
+                                .withUnderlined(true)));
+
+                lastEnd = matcher.end();
+            }
+
+            // Add remaining text after the last URL
+            if (lastEnd < text.length()) {
+                message.append(Component.literal(text.substring(lastEnd)));
+            }
+        } else {
+            // No URLs found, just add the text as is
+            message.append(Component.literal(text));
+        }
+
+        Minecraft.getInstance().gui.getChat().addMessage(message);
+    }
+
     public static void appendMessageWithLinkAndSend(String text, String url, String clickText) {
+        if (!Minecraft.getInstance().isSameThread()) {
+            runOnClientThread(() -> sendMessage(text));
+            return;
+        }
+
         if (Minecraft.getInstance() != null
                 && Minecraft.getInstance().gui != null
                 && Minecraft.getInstance().gui.getChat() != null) {
