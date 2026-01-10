@@ -80,7 +80,7 @@ public class Utils {
 
     public static void appendMessageWithLinkAndSend(String text, String url, String clickText) {
         if (!Minecraft.getInstance().isSameThread()) {
-            runOnClientThread(() -> sendMessage(text));
+            runOnClientThread(() -> appendMessageWithLinkAndSend(text, url, clickText));
             return;
         }
 
