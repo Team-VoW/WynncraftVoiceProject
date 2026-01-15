@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2023-2024.
+ * Copyright © Team-VoW 2023-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.text;
@@ -10,9 +10,9 @@ import java.util.Arrays;
 import java.util.Objects;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.ClickEvent;
+import net.minecraft.network.chat.FontDescription;
 import net.minecraft.network.chat.HoverEvent;
 import net.minecraft.network.chat.Style;
-import net.minecraft.resources.ResourceLocation;
 
 public final class PartStyle {
     private static final String STYLE_PREFIX = "§";
@@ -34,7 +34,7 @@ public final class PartStyle {
     private final boolean italic;
     private final ClickEvent clickEvent;
     private final HoverEvent hoverEvent;
-    private final ResourceLocation font;
+    private final FontDescription font;
 
     private PartStyle(
             StyledTextPart owner,
@@ -46,7 +46,7 @@ public final class PartStyle {
             boolean italic,
             ClickEvent clickEvent,
             HoverEvent hoverEvent,
-            ResourceLocation font) {
+            FontDescription font) {
         this.owner = owner;
         this.color = color;
         this.obfuscated = obfuscated;
@@ -242,7 +242,7 @@ public final class PartStyle {
         return color;
     }
 
-    public ResourceLocation getFont() {
+    public FontDescription getFont() {
         return font;
     }
 
@@ -281,7 +281,7 @@ public final class PartStyle {
                 owner, color, obfuscated, bold, strikethrough, underlined, italic, clickEvent, hoverEvent, font);
     }
 
-    public PartStyle withFont(ResourceLocation font) {
+    public PartStyle withFont(FontDescription font) {
         return new PartStyle(
                 owner, color, obfuscated, bold, strikethrough, underlined, italic, clickEvent, hoverEvent, font);
     }

@@ -55,6 +55,9 @@ public class VOWAutoConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip
     public boolean autoProgress = false;
 
+    @ConfigEntry.Gui.Tooltip
+    public boolean enableReverb = true;
+
     // Debug and Logs section
     @ConfigEntry.Gui.CollapsibleObject
     public DebugAndLogs debugAndLogs = new DebugAndLogs();
@@ -77,6 +80,12 @@ public class VOWAutoConfig implements ConfigData {
 
         @ConfigEntry.Gui.Tooltip
         public String customAudioPath = "";
+
+        @ConfigEntry.Gui.Tooltip
+        public boolean useCustomSoundsJson = false;
+
+        @ConfigEntry.Gui.Tooltip
+        public String customSoundsJsonPath = "";
     }
 
     public boolean isLogDialogueLines() {
@@ -97,6 +106,14 @@ public class VOWAutoConfig implements ConfigData {
 
     public String getCustomAudioPath() {
         return debugAndLogs.customAudioPath;
+    }
+
+    public boolean isUseCustomSoundsJson() {
+        return debugAndLogs.useCustomSoundsJson;
+    }
+
+    public String getCustomSoundsJsonPath() {
+        return debugAndLogs.customSoundsJsonPath;
     }
 
     public boolean isRemoveVillagerSounds() {

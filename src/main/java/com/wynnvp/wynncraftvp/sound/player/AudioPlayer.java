@@ -20,8 +20,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class AudioPlayer {
+    private static final Logger log = LoggerFactory.getLogger(AudioPlayer.class);
     public final OpenAlPlayer openAlPlayer;
     public final AutoProgress autoProgress;
     public static final String AUDIO_FOLDER = "VOW_AUDIO";
@@ -45,20 +48,19 @@ public class AudioPlayer {
 
     public void playAudioFile(Path path, SoundObject soundObject) {
         if (soundObject.shouldStopSounds()) openAlPlayer.stopAudio();
-        Optional<AudioData> audioData = OggDecoder.getAudioData(path);
+        Optional<AudioData> audioDataOptional = OggDecoder.getAudioData(path);
 
-        if (audioData.isEmpty()) {
+        if (audioDataOptional.isEmpty()) {
             Utils.sendMessage("Failed to load audio file: " + path.toString());
             return;
         }
 
-        audioData
-                .get()
-                .setSpeakerAndPos(
-                        soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
-                        soundObject.getPosition());
+        AudioData audioData = audioDataOptional.get();
+        audioData.setSpeakerAndPos(
+                soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
+        audioData.setReverb(soundObject.getReverb());
 
-        write(audioData.get());
+        write(audioData);
     }
 
     public void play(SoundObject soundObject) {
@@ -123,9 +125,7 @@ public class AudioPlayer {
                     remoteAudioData = fetchRemoteAudio(url + audioFileName + ".ogg");
                     break;
                 } catch (IOException | InterruptedException e) {
-                    Utils.sendMessage(
-                            "Failed to fetch remote audio file: " + url + audioFileName
-                                    + ". If this keeps happening go into your settings, enable the download sounds option and restart your game.");
+                    log.info("[Voices of Wynn] Failed to fetch remote audio file: {}{}.", url, audioFileName);
                 }
             }
 
@@ -133,7 +133,8 @@ public class AudioPlayer {
                 playAudioBuffer(remoteAudioData, soundObject);
             } else {
                 Utils.sendMessage(
-                        "Failed to fetch remote audio file from all URLs. Please report this in our discord.");
+                        "Failed to fetch remote audio file for " + audioFileName
+                                + ". If this keeps happening go into your settings, enable the download sounds option and restart your game.");
             }
         });
     }
@@ -169,18 +170,17 @@ public class AudioPlayer {
     public void playAudioBuffer(ByteBuffer audioData, SoundObject soundObject) {
         if (soundObject.shouldStopSounds()) openAlPlayer.stopAudio();
 
-        Optional<AudioData> audioOptional = OggDecoder.getAudioData(audioData);
-        if (audioOptional.isEmpty()) {
+        Optional<AudioData> audioDataOptional = OggDecoder.getAudioData(audioData);
+        if (audioDataOptional.isEmpty()) {
             Utils.sendMessage("Failed to decode remote audio data.");
             return;
         }
 
-        audioOptional
-                .get()
-                .setSpeakerAndPos(
-                        soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(),
-                        soundObject.getPosition());
+        AudioData audio = audioDataOptional.get();
+        audio.setSpeakerAndPos(
+                soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
+        audio.setReverb(soundObject.getReverb());
 
-        write(audioOptional.get());
+        write(audio);
     }
 }

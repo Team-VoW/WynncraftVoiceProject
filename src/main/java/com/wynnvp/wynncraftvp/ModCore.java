@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp;
@@ -61,7 +61,7 @@ public class ModCore implements ModInitializer {
         LOGGER.info(
                 "Loading Voices of Wynn {} (on Minecraft {})",
                 version,
-                SharedConstants.getCurrentVersion().getName());
+                SharedConstants.getCurrentVersion().name());
 
         Managers.initialize();
 

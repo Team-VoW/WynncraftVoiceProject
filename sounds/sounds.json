@@ -6267,6 +6267,36 @@
     "onPlayer": true
   },
   {
+    "line": "[2/7] Seaskipper Captain: I was casually takin' a scenic detour when I saw you and your shiny equipment on that island.",
+    "file": "misadventureonthesea-seaskippercaptain-3",
+    "onPlayer": true
+  },
+  {
+    "line": "[3/7] Seaskipper Captain: So, ya gotta tell me what happened!",
+    "file": "misadventureonthesea-seaskippercaptain-4",
+    "onPlayer": true
+  },
+  {
+    "line": "[4/7] Seaskipper Captain: Oh, kidnapped by pirates I see! How unfortunate...",
+    "file": "misadventureonthesea-seaskippercaptain-5",
+    "onPlayer": true
+  },
+  {
+    "line": "[5/7] Seaskipper Captain: I guess that'll show ya, tryin' to avoid using good ol' seaskipper! I'm the only trustworthy one 'round here.",
+    "file": "misadventureonthesea-seaskippercaptain-6",
+    "onPlayer": true
+  },
+  {
+    "line": "[6/7] Seaskipper Captain: Ah... Trust. Say, why don't I make it so you can travel to Selchar for free? That way, if ya ever think o' doin' somethin' foolish like that again, ya can jus' take a trip on my ol' ship!",
+    "file": "misadventureonthesea-seaskippercaptain-7",
+    "onPlayer": true
+  },
+  {
+    "line": "[7/7] Seaskipper Captain: Anyway, I can see the shore off in the distance! Hang tight, we're almost there!",
+    "file": "misadventureonthesea-seaskippercaptain-8",
+    "onPlayer": true
+  },
+  {
     "line": "[4/8] Honip: So, I've seen ya around town. You've got the soul of an adventurer, don't ya?",
     "file": "misadventureonthesea-honip-1"
   },
@@ -20606,34 +20636,6 @@
     "file": "fromthemountains-axelus-37"
   },
   {
-    "line": "[1/10] Garull: GWUH! Oh god, don't scare me like that! Who... Who even are you?!",
-    "file": "templeoflegends-garull-1"
-  },
-  {
-    "line": "[1/4] Garull: Thank you for listening to me about not being so quiet coming over here. I'm guessing you've got everything?",
-    "file": "templeoflegends-garull-2"
-  },
-  {
-    "line": "[1/3] Garull: Oh, a visitor? Interesting. I thought I only knew about this cave, considering I was called crazy by my master.",
-    "file": "templeoflegends-garull-3"
-  },
-  {
-    "line": "[1/6] Garull: Ah, need help about the items? I'm fine with giving you a refresher, yeah.",
-    "file": "templeoflegends-garull-4"
-  },
-  {
-    "line": "[1/2] Garull: If you see Kelight again, tell him \"I told you so\" about the Creepers!",
-    "file": "templeoflegends-garull-5"
-  },
-  {
-    "line": "[1/6] Jorkin: You may want to get out of here, traveller. The Nether is very dangerous!",
-    "file": "templeoflegends-jorkin-1"
-  },
-  {
-    "line": "[1/7] Jorkin: You have the Light Dust, then? Hand it here, I want to see something.",
-    "file": "templeoflegends-jorkin-2"
-  },
-  {
     "line": "[1/5] Kelight: I see you want to enter this mighty temple! Do not deny it, I see it in your eyes.",
     "file": "templeoflegends-kelight-1"
   },
@@ -20874,8 +20876,208 @@
     "file": "templeoflegends-rayshyroth-1"
   },
   {
-    "line": "[1/9] Rayshyroth: Aha, you're back with the Sky Vapor! Sorry about the climb, even I find it rather inconvenient at times.",
+    "line": "[2/6] Rayshyroth: ...I see. Yes, the corruption of the blasted Portal is rather potent. I'm not surprised this would need purification.",
     "file": "templeoflegends-rayshyroth-2"
+  },
+  {
+    "line": "[3/6] Rayshyroth: Well, I can certainly do it, but I'll need the materials to do so. Shouldn't be anything you can't handle by now, right?",
+    "file": "templeoflegends-rayshyroth-3"
+  },
+  {
+    "line": "[4/6] Rayshyroth: You see, below my house here, there is a wellspring from which a powerful magic flux generates.",
+    "file": "templeoflegends-rayshyroth-4"
+  },
+  {
+    "line": "[5/6] Rayshyroth: It creates a unique magic vapor if disrupted, which I can use to purify the dust for you.",
+    "file": "templeoflegends-rayshyroth-5"
+  },
+  {
+    "line": "[6/6] Rayshyroth: I would say, given how badly corrupted this is, I will need at least [12 Sky Vapor] for the task.",
+    "file": "templeoflegends-rayshyroth-6"
+  },
+  {
+    "line": "[1/9] Rayshyroth: Aha, you're back with the Sky Vapor! Sorry about the climb, even I find it rather inconvenient at times.",
+    "file": "templeoflegends-rayshyroth-7"
+  },
+  {
+    "line": "[2/9] Rayshyroth: While I perform the ritual to purify this, I'd like to ask you something. Do you know, exactly, what it is you'll be fighting?",
+    "file": "templeoflegends-rayshyroth-8"
+  },
+  {
+    "line": "[3/9] Rayshyroth: Don't look so surprised, I know exactly what you need Light Dust for. The corruption warding helmet...to allow you to fight the Corrupter of Worlds.",
+    "file": "templeoflegends-rayshyroth-9"
+  },
+  {
+    "line": "[4/9] Rayshyroth: Yes, yes. I imagine that Kelight didn't bother telling you that was its title. I also surmise that you were given few details of how it came to be...",
+    "file": "templeoflegends-rayshyroth-10"
+  },
+  {
+    "line": "[5/9] Rayshyroth: The beast now known as the Corrupter of Worlds is said to have been a simple mining captain, during the expeditions that uncovered the Nether Portal. It is told he was the first to enter that wicked realm.",
+    "file": "templeoflegends-rayshyroth-11"
+  },
+  {
+    "line": "[6/9] Rayshyroth: The man was never heard from again...well, that is until the corrupted hordes began to pour from the Realm of War, with him leading the pack. A bit ironic, isn't it? Led the miners in life, the corrupteds in death.",
+    "file": "templeoflegends-rayshyroth-12"
+  },
+  {
+    "line": "[7/9] Rayshyroth: The mining crew there lasted hardly minutes. He personally slaughtered every single one of his original crew, and thousands more. The energies of the Nether have made him monstrously powerful.",
+    "file": "templeoflegends-rayshyroth-13"
+  },
+  {
+    "line": "[9/9] Rayshyroth: Just remember that no one, aside from that snooty Kelight, will think less of you should you choose not to fight him.",
+    "file": "templeoflegends-rayshyroth-14"
+  },
+  {
+    "line": "[1/6] Jorkin: Ah, hello soldier. What brings you to my humble abode today?",
+    "file": "templeoflegends-jorkin-1"
+  },
+  {
+    "line": "[2/6] Jorkin: Oh my. You...you want to attack HIM? Th-that horrid beast! Are you mad?!",
+    "file": "templeoflegends-jorkin-2"
+  },
+  {
+    "line": "[3/6] Jorkin: Urgh, Kelight keeps sending adventurers like you to their deaths with his asinine tasks!",
+    "file": "templeoflegends-jorkin-3"
+  },
+  {
+    "line": "[4/6] Jorkin: Fine. If you're really so determined to walk to your death, I can tell you where to go.",
+    "file": "templeoflegends-jorkin-4"
+  },
+  {
+    "line": "[5/6] Jorkin: Down in the Roots, there is a cave full of the Light Dust you'll need.",
+    "file": "templeoflegends-jorkin-5"
+  },
+  {
+    "line": "[6/6] Jorkin: Powerful corrupteds live in that cave, so be very careful retrieving it, and bring it back to me once you find it.",
+    "file": "templeoflegends-jorkin-6"
+  },
+  {
+    "line": "[1/7] Jorkin: You have the Light Dust, then? Hand it here, I want to see something.",
+    "file": "templeoflegends-jorkin-7"
+  },
+  {
+    "line": "[2/7] Jorkin: Ah, just as I thought. Even this light has been tainted by Corruption. Sorry, looks like you can't fight him, go home.",
+    "file": "templeoflegends-jorkin-8"
+  },
+  {
+    "line": "[3/7] Jorkin: ...",
+    "file": "templeoflegends-jorkin-9"
+  },
+  {
+    "line": "[4/7] Jorkin: ...urgh, there's no fooling you, is there? You really are committed to trying to fight him.",
+    "file": "templeoflegends-jorkin-10"
+  },
+  {
+    "line": "[5/7] Jorkin: Well, I wasn't lying when I said the Light Dust was corrupted, but there is a way to purify it.",
+    "file": "templeoflegends-jorkin-11"
+  },
+  {
+    "line": "[6/7] Jorkin: An old acquaintance of mine, Rayshyroth, has a method. He lives on Mage Island.",
+    "file": "templeoflegends-jorkin-12"
+  },
+  {
+    "line": "[7/7] Jorkin: He knows even more about that...thing, than I do in my years of studying the Nether. Maybe he'll be able to talk you out of this.",
+    "file": "templeoflegends-jorkin-13"
+  },
+  {
+    "line": "[1/10] Garull: GWUH! Oh god, don't scare me like that! Who... Who even are you?!",
+    "file": "templeoflegends-garull-1"
+  },
+  {
+    "line": "[2/10] Garull: Ah, you were sent from Kelight for a protection helmet? I can do that, sure, but there's a few complications.",
+    "file": "templeoflegends-garull-2"
+  },
+  {
+    "line": "[3/10] Garull: See, I usually use something called Touroto Hide to make my armor. It's extremely resilient, magic resistant and tough to break.",
+    "file": "templeoflegends-garull-3"
+  },
+  {
+    "line": "[4/10] Garull: But, this also makes the Touroto themselves almost impossible to kill. Getting Touroto Hide is extremely difficult. I do know of a black market for it in Rymek, but...",
+    "file": "templeoflegends-garull-4"
+  },
+  {
+    "line": "[5/10] Garull: They only sell useless Old Touroto Hide, gotten from ones that died of old age. It's almost no better than just plain leather.",
+    "file": "templeoflegends-garull-5"
+  },
+  {
+    "line": "[6/10] Garull: So, for me to craft you this helmet, I'll need you to bring me not just the [Old Touroto Hide], but also the means to restore it to its previous power. Do listen up, there's a lot to tell you!",
+    "file": "templeoflegends-garull-6"
+  },
+  {
+    "line": "[7/10] Garull: There's the [Aseado Leaf], grown someplace in the Dernel Jungle...it has powerful medicinal qualities, supposedly able to reverse aging.",
+    "file": "templeoflegends-garull-7"
+  },
+  {
+    "line": "[8/10] Garull: Then, a [Maro's Eye Jewel], which is an amazing magical focus from...well, where else, the Maro Peaks. Using its dust, I'll be able to return its magical resilience manually.",
+    "file": "templeoflegends-garull-8"
+  },
+  {
+    "line": "[9/10] Garull: Finally, I'll need a [Coral of Nelfors], which can be found in the Seavale Reef. This is what I need to use to enchant the hide to be magically resistant.",
+    "file": "templeoflegends-garull-9"
+  },
+  {
+    "line": "[10/10] Garull: I wrote all that down in your content book. If you can get it all, come back to see me, but don't be so sneaky about coming up to me please!",
+    "file": "templeoflegends-garull-10"
+  },
+  {
+    "line": "[1/4] Garull: Thank you for listening to me about not being so quiet coming over here. I'm guessing you've got everything?",
+    "file": "templeoflegends-garull-11"
+  },
+  {
+    "line": "[2/4] Garull: Alright, this should go quickly. For however pompous Kelight is, he's right in sending you to me to craft this.",
+    "file": "templeoflegends-garull-12"
+  },
+  {
+    "line": "[3/4] Garull: Now, I want to warn you about something. I've heard stories about the enemy you need this helmet to face, none of them good.",
+    "file": "templeoflegends-garull-13"
+  },
+  {
+    "line": "[4/4] Garull: While I have seen people return from killing the \"beast\" he talks about, it isn't often. Be very careful, should you choose to fight it.",
+    "file": "templeoflegends-garull-14"
+  },
+  {
+    "line": "[1/3] Garull: Oh, a visitor? Interesting. I thought I only knew about this cave, considering I was called crazy by my master.",
+    "file": "templeoflegends-garull-15"
+  },
+  {
+    "line": "[2/3] Garull: I've lived down here for a while now, studying the creepers. They are mythical in this region, and I want to prove everyone wrong.",
+    "file": "templeoflegends-garull-16"
+  },
+  {
+    "line": "[3/3] Garull: Don't worry about being trapped in here, though. There's a magic doorway right outside my house that can teleport you out if you wish to leave.",
+    "file": "templeoflegends-garull-17"
+  },
+  {
+    "line": "[1/6] Garull: Ah, need help about the items? I'm fine with giving you a refresher, yeah.",
+    "file": "templeoflegends-garull-18"
+  },
+  {
+    "line": "[2/6] Garull: The [Old Touroto Hide] can be bought in Rymek's black market somewhere, for a premium. Be prepared to pay out the nose for it.",
+    "file": "templeoflegends-garull-19"
+  },
+  {
+    "line": "[3/6] Garull: The [Aseado Leaf] grows in the Dernel Jungle. The natives around the Iboju Village might have a better idea of where in the jungle they grow.",
+    "file": "templeoflegends-garull-20"
+  },
+  {
+    "line": "[4/6] Garull: The [Maro's Eye Jewel] is found, of course, in the Maro Peaks. Search around the abandoned mines, and bring a Climbing Helmet.",
+    "file": "templeoflegends-garull-21"
+  },
+  {
+    "line": "[5/6] Garull: The [Coral of Nelfors] grows in the Seavale Reef. You'll have to get a Breathing Helmet to trawl for it along the seafloor.",
+    "file": "templeoflegends-garull-22"
+  },
+  {
+    "line": "[6/6] Garull: Once you have all four items, bring them back to me and I can craft you the helmet.",
+    "file": "templeoflegends-garull-23"
+  },
+  {
+    "line": "[1/2] Garull: If you see Kelight again, tell him \"I told you so\" about the Creepers!",
+    "file": "templeoflegends-garull-24"
+  },
+  {
+    "line": "[2/2] Garull: Oh, and don't forget that the exit is right outside my house if you need to leave.",
+    "file": "templeoflegends-garull-25"
   },
   {
     "line": "[1/5] Monte: Oh, what am I to do...? How am I to be our next elder if I cannot even help him... Oh? Ehm, hello, stranger.",
@@ -21074,40 +21276,84 @@
     "file": "lazaruspit-burtur-16"
   },
   {
+    "line": "[1/1] Uggword Pollywaggon the Murderous: I oughta deck you for waking me up!! Don't you realize it's RUDE to re-animate the long-dead corpse of a murderer when he's trying to get his beauty death?!",
+    "file": "lazaruspit-uggwordpollywaggonthemurderous-1"
+  },
+  {
     "line": "[1/3] Lord Plaatic the Kind: Ugh. And who put YOU in charge of waking me up? Where's Gwendolyn, my maid? Incompetents- she was supposed to be buried with me too!",
     "file": "lazaruspit-lordplaaticthekind-1"
   },
   {
-    "line": "[1/2] Lord Plaatic the Kind: Ah, my favorite little weird-small-nosed-person! The graveyard is so lovely when it's quiet- you really did do a good job!",
+    "line": "[2/3] Lord Plaatic the Kind: What, you want to enter the crypt? Well, prove you're better than the funeral directors and do something right! The Ghastly Ghouls around here won't stop SCREAMING!",
     "file": "lazaruspit-lordplaaticthekind-2"
+  },
+  {
+    "line": "[3/3] Lord Plaatic the Kind: I want them gone! Get rid of, say, 10 Ghastly Ghouls. Then perhaps I'll give you the time of day, you strange, small-nosed lookyloo!",
+    "file": "lazaruspit-lordplaaticthekind-3"
+  },
+  {
+    "line": "[1/2] Lord Plaatic the Kind: Ah, my favorite little weird-small-nosed-person! The graveyard is so lovely when it's quiet- you really did do a good job!",
+    "file": "lazaruspit-lordplaaticthekind-4"
+  },
+  {
+    "line": "[2/2] Lord Plaatic the Kind: As important as I am, you must still check with the other graves, though you certainly have my blessing to enter.",
+    "file": "lazaruspit-lordplaaticthekind-5"
   },
   {
     "line": "[1/3] Poclo Wabblebuff of Gelibord: Greetings! Thank goodness, that dreary old tomb was simply awful. No furniture, no natural light, not even a lick of paint! So drab, the whole thing.",
     "file": "lazaruspit-poclowabblebuffofgelibord-1"
   },
   {
-    "line": "[1/3] Poclo Wabblebuff of Gelibord: So, is Mrs. Fluffles doing alright without me? Oh, I bet she was so affectionate, always such a softie!",
+    "line": "[2/3] Poclo Wabblebuff of Gelibord: What's that? You want to get into the crypt? Well, of course I can help, if you just do one teensy little thing for me?",
     "file": "lazaruspit-poclowabblebuffofgelibord-2"
   },
   {
-    "line": "[2/3] Poclo Wabblebuff of Gelibord: W-wait, Mrs. Fluffles... She was...d-dead? No... It can't be! I left her a lifetime supply of food! ",
+    "line": "[3/3] Poclo Wabblebuff of Gelibord: Could you feed my cat for me? I know Mrs. Fluffles must be so lonely after all these years. My old house is just south of here, over at [-1105, 42, -5381], just pop some food down for her? Thank you!",
     "file": "lazaruspit-poclowabblebuffofgelibord-3"
   },
   {
-    "line": "[2/3] Poclo Wabblebuff of Gelibord: Oh, thank you so much! I was so worried that after my death she wouldn't be okay... What a relief!",
+    "line": "[1/3] Poclo Wabblebuff of Gelibord: So, is Mrs. Fluffles doing alright without me? Oh, I bet she was so affectionate, always such a softie!",
     "file": "lazaruspit-poclowabblebuffofgelibord-4"
   },
   {
-    "line": "[1/1] Uggword Pollywaggon the Murderous: I oughta deck you for waking me up!! Don't you realize it's RUDE to re-animate the long-dead corpse of a murderer when he's trying to get his beauty death?!",
-    "file": "lazaruspit-uggwordpollywaggonthemurderous-1"
+    "line": "[2/3] Poclo Wabblebuff of Gelibord: W-wait, Mrs. Fluffles... She was...d-dead? No... It can't be! I left her a lifetime supply of food!",
+    "file": "lazaruspit-poclowabblebuffofgelibord-5"
+  },
+  {
+    "line": "[3/3] Poclo Wabblebuff of Gelibord: You! You killed Mrs. Fluffles, it's the only explanation!! HOW COULD YOU DO SUCH A THING?!",
+    "file": "lazaruspit-poclowabblebuffofgelibord-6"
+  },
+  {
+    "line": "[2/3] Poclo Wabblebuff of Gelibord: Oh, thank you so much! I was so worried that after my death she wouldn't be okay... What a relief!",
+    "file": "lazaruspit-poclowabblebuffofgelibord-7"
+  },
+  {
+    "line": "[3/3] Poclo Wabblebuff of Gelibord: You have my blessing to enter the crypt! Make sure to check with the other graves as well though.",
+    "file": "lazaruspit-poclowabblebuffofgelibord-8"
   },
   {
     "line": "[1/4] Sir Pigglesworth the Thirty-Fifth: My goodness! Ah, it feels good to stretch these old bones. It's not easy being cooped up in a coffin, you know.",
     "file": "lazaruspit-sirpigglesworththethirtyfifth-1"
   },
   {
-    "line": "[1/2] Sir Pigglesworth the Thirty-Fifth: Oh, you found it! Wonderful! Just pop it on that fingerbone right there... Ah, it fits even better on the other hand!",
+    "line": "[2/4] Sir Pigglesworth the Thirty-Fifth: You want to get into the crypt? I suppose I could give you a hand... figuratively, I mean. Still, need to see if you can be trusted and all...",
     "file": "lazaruspit-sirpigglesworththethirtyfifth-2"
+  },
+  {
+    "line": "[3/4] Sir Pigglesworth the Thirty-Fifth: Oh, right! My dear husband gave me the most beautiful wedding band, but it became lost when I carked it. Some rude shadowy thing- See if anyone ever marries THEM!",
+    "file": "lazaruspit-sirpigglesworththethirtyfifth-3"
+  },
+  {
+    "line": "[4/4] Sir Pigglesworth the Thirty-Fifth: Bring it back, could you? I died around that old lich's tower to the east. Do that, and I'll be happy to give you my blessing!",
+    "file": "lazaruspit-sirpigglesworththethirtyfifth-4"
+  },
+  {
+    "line": "[1/2] Sir Pigglesworth the Thirty-Fifth: Oh, you found it! Wonderful! Just pop it on that fingerbone right there... Ah, it fits even better on the other hand!",
+    "file": "lazaruspit-sirpigglesworththethirtyfifth-5"
+  },
+  {
+    "line": "[2/2] Sir Pigglesworth the Thirty-Fifth: The crypt, you say? I can offer my blessing to enter, but you'll need to check with the other tombs around as well. Farewell!",
+    "file": "lazaruspit-sirpigglesworththethirtyfifth-6"
   },
   {
     "line": "[1/3] Burtur: Ah, you're back! We were getting a tad worried about you. Were you able to figure anything out in the chapel there?",
@@ -26403,6 +26649,22 @@
     "file": "acquiringcredentials-doan-3"
   },
   {
+    "line": "[2/5] Doan: Well...so, I've heard rumours of a secret Black Market that hides in the airbase.",
+    "file": "acquiringcredentials-doan-38"
+  },
+  {
+    "line": "[3/5] Doan: Apparently they trade illegal products... There has to be a way of buying passports, I'm sure of it!",
+    "file": "acquiringcredentials-doan-39"
+  },
+  {
+    "line": "[4/5] Doan: If we work together, we might be able to find a way in. What do you think?",
+    "file": "acquiringcredentials-doan-40"
+  },
+  {
+    "line": "[5/5] Doan: Let's explore the airbase, then! We need to look for clues, lead the way.",
+    "file": "acquiringcredentials-doan-41"
+  },
+  {
     "line": "[1/2] Kid: Where are we going, dad?",
     "file": "acquiringcredentials-kid-1"
   },
@@ -26666,6 +26928,30 @@
     "file": "acquiringcredentials-marketmember-1"
   },
   {
+    "line": "[2/7] Market Member: What do you want?",
+    "file": "acquiringcredentials-marketmember-2"
+  },
+  {
+    "line": "[3/7] Market Member: Two passports? I'd say that's around 2000 emeralds. You can get that selling this egg on the market.",
+    "file": "acquiringcredentials-marketmember-3"
+  },
+  {
+    "line": "[4/7] Market Member: Let me fill you in how the market works. You'll get a low starting price for your egg, and then you'll have to go around the merchants asking for a higher bid.",
+    "file": "acquiringcredentials-marketmember-4"
+  },
+  {
+    "line": "[5/7] Market Member: Be careful, though, as you can only ask for 5 price increases.",
+    "file": "acquiringcredentials-marketmember-5"
+  },
+  {
+    "line": "[6/7] Market Member: You can try talking to different merchants, and see how much each increases the price of the egg.",
+    "file": "acquiringcredentials-marketmember-6"
+  },
+  {
+    "line": "[7/7] Market Member: Good luck, and do try not to get killed...",
+    "file": "acquiringcredentials-marketmember-7"
+  },
+  {
     "line": "[1/3] Doan: That's what we need, soldier. Sold! The egg is yours.",
     "file": "acquiringcredentials-doan-28"
   },
@@ -26675,11 +26961,11 @@
   },
   {
     "line": "[1/5] Market Member: So do you have the emeralds?",
-    "file": "acquiringcredentials-marketmember-2"
+    "file": "acquiringcredentials-marketmember-8"
   },
   {
     "line": "[2/5] Market Member: Hmm... This will do it. Here, your passports.",
-    "file": "acquiringcredentials-marketmember-3"
+    "file": "acquiringcredentials-marketmember-9"
   },
   {
     "line": "[3/5] Doan: Uhh.. Soldier, I think you dropped your passport. Let me get it for yo-...",
@@ -31822,12 +32108,52 @@
     "file": "theenvoypart1-olivin-1"
   },
   {
+    "line": "[2/5] Olivin: Does my appearance intrigue you?",
+    "file": "theenvoypart1-olivin-2"
+  },
+  {
+    "line": "[3/5] Olivin: I'm not from around here. In fact I am from Corkus.",
+    "file": "theenvoypart1-olivin-3"
+  },
+  {
+    "line": "[4/5] Olivin: It's an independant island to the west. In fact... If you want to go...",
+    "file": "theenvoypart1-olivin-4"
+  },
+  {
+    "line": "[5/5] Olivin: We're looking for Wynn representatives. Head to the C.S.S Wavebreaker down at the dock if you want to experience Corkus. Enjoy Corkus if you go!",
+    "file": "theenvoypart1-olivin-5"
+  },
+  {
     "line": "[1/3] C.S.S Wavebreaker Captain: Welcome welcome to C.S.S Wavebreaker!",
     "file": "theenvoypart1-csswavebreakercaptain-1"
   },
   {
-    "line": "[1/5] C.S.S Wavebreaker Captain: Welcam aboard me ship, I'll bring ye directly to Corkus.",
+    "line": "[2/3] C.S.S Wavebreaker Captain: The only boat that will take ye directly to Corkus City.",
     "file": "theenvoypart1-csswavebreakercaptain-2"
+  },
+  {
+    "line": "[3/3] C.S.S Wavebreaker Captain: Just hop aboard and make yerself comfy.",
+    "file": "theenvoypart1-csswavebreakercaptain-3"
+  },
+  {
+    "line": "[1/5] C.S.S Wavebreaker Captain: Welcam aboard me ship, I'll bring ye directly to Corkus.",
+    "file": "theenvoypart1-csswavebreakercaptain-4"
+  },
+  {
+    "line": "[2/5] C.S.S Wavebreaker Captain: Trust me, it is fa' more amazin than Gavel and Wynn. We even 'ave machines!",
+    "file": "theenvoypart1-csswavebreakercaptain-5"
+  },
+  {
+    "line": "[3/5] C.S.S Wavebreaker Captain: And don't get me sterted on our architectur'!",
+    "file": "theenvoypart1-csswavebreakercaptain-6"
+  },
+  {
+    "line": "[4/5] C.S.S Wavebreaker Captain: Trust me, you will enjoy yer stay.",
+    "file": "theenvoypart1-csswavebreakercaptain-7"
+  },
+  {
+    "line": "[5/5] C.S.S Wavebreaker Captain: Seems like we're 'ere!",
+    "file": "theenvoypart1-csswavebreakercaptain-8"
   },
   {
     "line": "[1/20] Corkus Delegate: It's such an honour to have a Wynn soldier visit our island.",
