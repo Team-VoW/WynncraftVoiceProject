@@ -1,3 +1,27 @@
+## [1.13.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.12.0...v1.13.0) (2026-01-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to Minecraft version 1.21.11 (#58)
+
+### New Features
+
+* Add reverb functionality ([6c94803](https://github.com/Team-VoW/WynncraftVoiceProject/commit/6c94803d6cb38f68fea94b2969d3a0020bf91e97))
+* upgrade to Minecraft version 1.21.11 ([#58](https://github.com/Team-VoW/WynncraftVoiceProject/issues/58)) ([8043f3f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8043f3f7c71c806b7f5eab5b57990f25fbed6b24))
+
+
+### Bug Fixes
+
+* **Acquiring Credentials:** Cut the black market members lines and one uncut dialogue from Doan ([f3ff4ac](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f3ff4acdff44bd882dc1a53351e3f81f1228dc79))
+* **From the Bottom:** fix volume being low and audio being in wrong order ([c44bd46](https://github.com/Team-VoW/WynncraftVoiceProject/commit/c44bd46c9ff4e7c854e44488cf43549f940596e4))
+* Improve error message for when an audio fails to fetch ([a7c1b42](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a7c1b4211d13a63224af5bba70349a5ba6fbcba4))
+* **Lazarus Pit:** Cut the lines from the undead ([443e3ba](https://github.com/Team-VoW/WynncraftVoiceProject/commit/443e3ba8b6f5cbf35853e5dfbe0bfaba1e41f3d1))
+* **Misadventure on the Sea:** Cut the Seaskipper captains lines ([e36903d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e36903d19673d22d24a077867536f193683c3272))
+* sendMessage thread safety ([#60](https://github.com/Team-VoW/WynncraftVoiceProject/issues/60)) ([2ad80e6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2ad80e61189822b0d5102c8df8bc4d0853c872ac))
+* **Temple of Legends:** Cut Garull, Jorkin & Rayshyroths lines ([b8606c0](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b8606c0042338dcdb919a5c6a2c0fddc00aa560c))
+* **The Envoy part 1:** Cut the lines from Olivin and the C.S.S Wavebreaker Captain ([a85d5ec](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a85d5ecb661bbfb4a70aa4f5088b5caac814e7c9))
+
 ## [1.12.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.11.3...v1.12.0) (2025-11-14)
 
 
@@ -13,6 +37,11 @@
 ### Bug Fixes
 
 * fixed the Sounds updater to properly update ([4892bef](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4892bef317b148e79a805fc7e9cee5038177ae63))
+
+
+### Miscellaneous Chores
+
+* **release:** v1.12.0 [skip ci] ([e2f55db](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e2f55db0c24f492779ed0fe5747dc6c7299bedcd))
 
 ## [1.11.3](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.11.2...v1.11.3) (2025-08-27)
 
@@ -79,74 +108,4 @@
 
 * Configure shadow plugin to relocate TarsosDSP dependencies ([8c54b19](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8c54b1954e86724d3ec703c772b56ddfe1fac878))
 * Copy over the latest sounds.json to be bundled with the mod ([dc1c8fa](https://github.com/Team-VoW/WynncraftVoiceProject/commit/dc1c8fa197fa95852f8508f52fb191e30dfdd972))
-
-## [1.11.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.10.7...v1.11.0) (2025-06-28)
-
-
-### ⚠ BREAKING CHANGES
-
-* Added broadcast message for when auditions are open
-
-### New Features
-
-* Added broadcast message for when auditions are open ([eb6d237](https://github.com/Team-VoW/WynncraftVoiceProject/commit/eb6d237e8580247fb46dd39aa2efb94e9938f85b))
-* added setting for playback speed ([#51](https://github.com/Team-VoW/WynncraftVoiceProject/issues/51)) ([81ed7d0](https://github.com/Team-VoW/WynncraftVoiceProject/commit/81ed7d0be3ccfb514a2f8a2b6e85cec144359083)), closes [#19](https://github.com/Team-VoW/WynncraftVoiceProject/issues/19)
-* **AudioPlayer:** notify user when Voice/Speech volume is off ([3d0f3a6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/3d0f3a6affc5ff279a4bd678e2fa2be696edcc11))
-* **Dark Descent:** added new Charon lines ([99bb0ed](https://github.com/Team-VoW/WynncraftVoiceProject/commit/99bb0edc95106077335b45be1c3eae6bf6b2b8cc))
-* **Dark Descent:** Added new General Graken lines ([9455e88](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9455e888984860c64ff2614e8dc91fd2d9a56c6b))
-* **Elemental Exercise:** added 5 new Tasim lines ([dd31ff3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/dd31ff3c6a8891fe70305f796cd0aacdfe366b71))
-* **Infested Plants:** added missing Ope lines ([cfd4251](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cfd4251193f447966ec792555e71b819205d867e))
-* **Infested Plants:** added new Tasim lines ([1f5b299](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1f5b299f79026984eca1a88115e114cfd5cb3f21))
-* **Jungle Fever:** added new lines from Worid ([1484644](https://github.com/Team-VoW/WynncraftVoiceProject/commit/148464428b6e704b645c8b5d93b497a9594f2ee2))
-* **Lost Soles:** added 16 new Ferndor lines ([b9a31e2](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b9a31e2d5b9f24b18af96a4d6bffe7eec5803edb))
-* **Misadventure on the Sea:** added many missing Honip lines ([861479b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/861479b10d2a2fb419a35394096b065f10278ccf))
-* **Mushroom Man:** added 17 new Tasim lines ([856dabd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/856dabde9f3db8a2ec02161f1b731deedc0706a4))
-* **Wrath of the mummy:** Added 6 missing lines from the bandit ([cfadbd1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cfadbd1a85bc50e5d78318ca9918edf7a903281b))
-
-
-### Bug Fixes
-
-* **Aldorei's Secret Part 1:** Fixed two lines from Korben not playing ([f8fdbc5](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f8fdbc57c09343ea724e954e355cfb07de1b4dad))
-* **All Roads to Peace:** Fixed many not playing lines and mixed up lines ([b318af9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b318af90a11fc2556ab825b2bf3f32704304f278))
-* **An Iron Heart part 2:** Fixed two lines not playing from Daxe ([aac4f6d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/aac4f6d5c36302f3555a5fca9e12c537ab3a8e8c))
-* **Arachnids Ascent:** Fixed a line from Tasim not playing ([31cc460](https://github.com/Team-VoW/WynncraftVoiceProject/commit/31cc46078e65ac897b82f4c132908b72fc248735))
-* **At the Edge of Decay:** Fixed Laris lines not playing ([40b792b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/40b792b7b0be17a08f18782040358757ced79d23))
-* **AudioPlayer:** stop sounds from playing for a millisecond if Voice/Speech is at 0% ([3913e56](https://github.com/Team-VoW/WynncraftVoiceProject/commit/3913e56c1404ddf6fd9d57a33203033833ad7645))
-* **Bobs lost soul:** Fixed the blacksmiths lines playing all lines in first line ([bf7e407](https://github.com/Team-VoW/WynncraftVoiceProject/commit/bf7e4078f8c7599526152e27be565bb4058ac853))
-* changed default url for the cdn to use jsdeliver ([89c3723](https://github.com/Team-VoW/WynncraftVoiceProject/commit/89c37238bf301457c343506bd08466677cc05092))
-* **Dark Descent:** fixed a few General Graken lines not playing ([312ff4f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/312ff4fbd394132fac46eb78104fb46fc90721aa))
-* **Elemental Exercise:** Fixed a line from elemental exercise not playing ([44de975](https://github.com/Team-VoW/WynncraftVoiceProject/commit/44de9753147d1720a76fb086e1694802829f0cc9))
-* **Fate of the Fallen:** fixed one line from Telvu not playing ([67807e0](https://github.com/Team-VoW/WynncraftVoiceProject/commit/67807e0b0d7ddcf5f33a1695d063ee9806dcee09))
-* **Fate of the Fallen:** Fixed Telvus last dialogue not playing ([826879a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/826879aa340a2ddf7c8ef4a8f46ecbc480c1086d))
-* Fixed a talking mushroom line not playing ([aa03193](https://github.com/Team-VoW/WynncraftVoiceProject/commit/aa0319346f5d18228a885c2079357eb3f69250c5))
-* fixed many Tasim lines not playing ([2a2c3bb](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2a2c3bbc2f59c3ee998114a476b263342395bfd1))
-* Fixed two lines not playing in the mercenary ([03a04c5](https://github.com/Team-VoW/WynncraftVoiceProject/commit/03a04c57878415cf32033e2c3ccb443780594e8e))
-* Fixed withereheads first line in sewers not playing ([6f7357f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/6f7357f71b4351693d7c0861934c58c0994c579f))
-* **Frost Bite:** Fixed a line from Eppo not playing ([1d5e880](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1d5e880f097b0ff42554388d3178d4fe63c69f43))
-* **Grave Digger:** Fixed Sayleros'es post quest line not playing ([d414308](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d4143083228c2c4c556c431e921b59c64d148970))
-* **Hollow Serenity:** Fixed two lines not playing ([1c87f2b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1c87f2b9ff48f053d06adc67ec5142aa9e503e45))
-* **Jofash Docks:** Fixed the Bread Man's dialogue being offset by one line from around line 60 ([eb07ecd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/eb07ecd8185a1d32727326174f6446d7134f1a5a))
-* **Jungle Fever:** Fixed a few of Worids lines not playing ([2b7ad6a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2b7ad6a5967e0fbb77d645bfbf28343f8495b705))
-* **Kings Recruit:** fix one of Aledars lines not playing ([7ddc20a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/7ddc20a53980cfb9b242e45c48bd4dcbfb64ddbf))
-* **Kings Recruit:** Fixed two lines from Aledar & Tasim not playing ([f9c52f4](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f9c52f4ca3f3131398dba77a18d7cd66548e57a0))
-* **Memory Paranoia:** cut Atisun's lines ([867c507](https://github.com/Team-VoW/WynncraftVoiceProject/commit/867c507204ffeb2b253982279bdc88c99f237993))
-* **Memory Paranoia:** Fixed two not playing lines ([795ac0c](https://github.com/Team-VoW/WynncraftVoiceProject/commit/795ac0cde5c7c98c8f5675770f3a4a4c5ab4522b))
-* **Murder Mystery:** cut Valimares lines ([5b7c9bb](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5b7c9bb7b4d97b042cdb4be1508b99c88638aafc))
-* **Order of the Grook:** Fixed one of Headmasters lines not playing ([e3a1467](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e3a1467e88bd3a49aec45e82e326163ed81a3687))
-* **Rise of the Quartron:** Fixed one of Naseas lines not playing ([54bd42b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/54bd42b3ece9607280fc8b3936f3cf597116c8c2))
-* specify branch for sound sync workflow ([a203c4e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a203c4ed767bd5acb2ea10cfdefde70518319022))
-* **Stable Story:** Fixed Enksers two last lines not playing ([282a08d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/282a08dac070a79f7c7b77d65edf8cafd341dd2a))
-* **Stable Story:** fixed two lines from Enkser not playing ([8455c26](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8455c26c8c97c718e1443817b6182f2f5c37105c))
-* **Taking the tower:** Fixed a line from Aledar not playing ([98c5150](https://github.com/Team-VoW/WynncraftVoiceProject/commit/98c51501c4e4aa2f600bcc6300e26679e9183ede))
-* **Temple of Legends:** Fixed 3 lines from Kelight not playing ([31158c2](https://github.com/Team-VoW/WynncraftVoiceProject/commit/31158c2446e321abc6262d4b680dc856f06f872d))
-* **The Passage:** Fixed one of Ildans lines not playing ([d0e247f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d0e247f8f66558a2994fbbb81e13a90c2a104c2e))
-* **The Ultimate Weapon:** Fixed a line from Gogedar not playing ([4ebc9f2](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4ebc9f28ed07ec6e3a62e3445d0404c386915892))
-* **Wrath of the Mummy:** Fixed bandits first 4 lines not playing. ([5df73cb](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5df73cb0518422be019e207239f6dbbf027e1666))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.11.0 [skip ci] ([89cac3d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/89cac3de81141fd85193da1d31a201c6ca4407ef))
-* Removed a no longer used audio file ([f2139bd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f2139bded55e3bacd33726e0b61c4949289c9d2b))
-* Removed no longer used audio files ([f54b16c](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f54b16ca2e2d7794d481c47f3a606bcbd8fd099a))
 
