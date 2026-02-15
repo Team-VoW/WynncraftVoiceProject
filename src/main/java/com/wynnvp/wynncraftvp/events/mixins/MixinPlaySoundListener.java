@@ -22,16 +22,19 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class MixinPlaySoundListener {
     @Unique
     private static final Set<Identifier> VILLAGER_SOUNDS = Set.of(
-            SoundEvents.WANDERING_TRADER_NO.location(),
             SoundEvents.VILLAGER_TRADE.location(),
             SoundEvents.VILLAGER_YES.location(),
-            SoundEvents.VILLAGER_NO.location());
+            SoundEvents.VILLAGER_NO.location(),
+            SoundEvents.VILLAGER_AMBIENT.location(),
+            SoundEvents.WANDERING_TRADER_NO.location(),
+            SoundEvents.ZOMBIE_AMBIENT.location(),
+            SoundEvents.PARROT_IMITATE_EVOKER.location());
 
     @Inject(method = "play", at = @At("HEAD"), cancellable = true)
     private void onPlay(SoundInstance sound, CallbackInfoReturnable<SoundEngine.PlayResult> cir) {
-        Identifier soundIdentifier = sound.getIdentifier();
+        Identifier id = sound.getIdentifier();
 
-        if (ModCore.config.isRemoveVillagerSounds() && VILLAGER_SOUNDS.contains(soundIdentifier)) {
+        if (ModCore.config.isRemoveVillagerSounds() && VILLAGER_SOUNDS.contains(id)) {
             cir.cancel();
             return;
         }
