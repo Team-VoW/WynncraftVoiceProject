@@ -8,6 +8,14 @@ base {
     archivesName = project.mod_name.replaceAll("\\s", "-") + "-fabric"
 }
 
+loom {
+    runs {
+        configureEach {
+            property("devauth.enabled", "true")
+        }
+    }
+}
+
 group = project.maven_group
 
 // On the release branches, this string will be automatically updated by the bots
@@ -116,6 +124,8 @@ dependencies {
 
     shadow 'be.tarsos.dsp:core:2.5'
     shadow 'be.tarsos.dsp:jvm:2.5'
+    implementation 'be.tarsos.dsp:core:2.5'
+    implementation 'be.tarsos.dsp:jvm:2.5'
 
     // Development dependencies
     modRuntimeOnly "me.djtheredstoner:DevAuth-fabric:${project.devauth_version}"
