@@ -27,6 +27,8 @@ public class LineData {
     }
 
     public static final Pattern NPC_DIALOGUE_PATTERN = Pattern.compile("^\\[\\d+/\\d+].+: .");
+    // Overlay dialogue arrives as "NpcName: text" without a [N/M] prefix
+    private static final Pattern OVERLAY_NPC_PATTERN = Pattern.compile("^[A-Z][a-zA-Z ]+: .");
 
     public String getNPCName() {
         String[] split = realLine.split(": ");
@@ -37,6 +39,7 @@ public class LineData {
     }
 
     public boolean isNPCSentLine() {
-        return NPC_DIALOGUE_PATTERN.matcher(realLine).find();
+        return NPC_DIALOGUE_PATTERN.matcher(realLine).find()
+                || OVERLAY_NPC_PATTERN.matcher(realLine).find();
     }
 }

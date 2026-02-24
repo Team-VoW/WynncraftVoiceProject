@@ -17,6 +17,13 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(value = ClientPacketListener.class, priority = 900)
 public class MixinChatListener {
+    @Inject(method = "handleSystemChat", at = @At("HEAD"))
+    public void onOverlayMessage(ClientboundSystemChatPacket packet, CallbackInfo ci) {
+        if (!packet.overlay()) return;
+        if (!Minecraft.getInstance().isSameThread()) return;
+        ModCore.chatHandler.onOverlayReceived(packet.content());
+    }
+
     @Inject(
             method = "handleSystemChat",
             at =

@@ -8,6 +8,7 @@ package com.wynnvp.wynncraftvp.text;
  * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
  */
 
+import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.ArrayList;
@@ -35,6 +36,11 @@ public final class ChatHandler {
     private static final long SLOWDOWN_PACKET_TICK_DELAY = 20;
     private static final int CHAT_SCREEN_TICK_DELAY = 1;
 
+    private static final String OVERLAY_BODY_FONT = "dialogue/text/wynncraft/body";
+    private static final String OVERLAY_NAMEPLATE_FONT = "dialogue/text/nameplate";
+    // Fallback: fire pending overlay if packets stop arriving entirely
+    private static final int OVERLAY_DEBOUNCE_TICKS = 10;
+
     private String lastRealChat = null;
 
     // This is used to detect when the lastRealChat message
@@ -53,6 +59,12 @@ public final class ChatHandler {
     private List<StyledText> collectedLines = new ArrayList<>();
 
     private boolean updateWrongOrder = false;
+
+    private String pendingOverlayBody = null;
+    private String pendingOverlayNpc = null;
+    private long lastOverlayUpdateTick = -1;
+    private String lastFiredOverlayText = null;
+    private String lastOverlayRawContent = null;
 
     private void updateWrongOrderPackets() {
         updateWrongOrder = false;
@@ -77,24 +89,114 @@ public final class ChatHandler {
         lastConfirmationlessDialogue = null;
         delayedDialogue = null;
         delayedType = NpcDialogueType.NONE;
+        pendingOverlayBody = null;
+        pendingOverlayNpc = null;
+        lastOverlayUpdateTick = -1;
+        lastFiredOverlayText = null;
+        lastOverlayRawContent = null;
     }
 
     public void onTick() {
         if (updateWrongOrder) updateWrongOrderPackets();
 
-        if (collectedLines.isEmpty()) return;
+        if (!collectedLines.isEmpty()) {
+            // Tick event runs after the chat packets, with the same tick number
+            // as the chat packets. This means we can allow equality here.
+            long ticks = Utils.mc().level.getGameTime();
+            if (ticks >= chatScreenTicks + CHAT_SCREEN_TICK_DELAY) {
+                // Send the collected screen lines
+                processCollectedChatScreen();
+            }
+        }
 
-        // Tick event runs after the chat packets, with the same tick number
-        // as the chat packets. This means we can allow equality here.
-        long ticks = Utils.mc().level.getGameTime();
-        if (ticks >= chatScreenTicks + CHAT_SCREEN_TICK_DELAY) {
-            // Send the collected screen lines
-            processCollectedChatScreen();
+        if (pendingOverlayBody != null) {
+            long currentTick = Utils.mc().level.getGameTime();
+            if (currentTick >= lastOverlayUpdateTick + OVERLAY_DEBOUNCE_TICKS) {
+                firePendingOverlay();
+            }
         }
     }
 
     public void onChatReceived(Component messageComponent) {
         handleWithSeparation(messageComponent);
+    }
+
+    public void onOverlayReceived(Component content) {
+        String body = extractFontText(content, OVERLAY_BODY_FONT);
+        String npc = extractFontText(content, OVERLAY_NAMEPLATE_FONT);
+
+        if (body == null || body.isBlank() || npc == null || npc.isBlank()) return;
+
+        // Wynncraft packs multiple visible lines into one body component, separated by a
+        // non-standard Unicode character from their custom font. Replace those separators
+        // with spaces so we capture all lines (e.g. body_0 + body_1).
+        StringBuilder cleaned = new StringBuilder();
+        for (int i = 0; i < body.length(); ) {
+            int cp = body.codePointAt(i);
+            if (cp > 0x00FF) {
+                if (cleaned.length() > 0 && cleaned.charAt(cleaned.length() - 1) != ' ') {
+                    cleaned.append(' ');
+                }
+            } else {
+                cleaned.appendCodePoint(cp);
+            }
+            i += Character.charCount(cp);
+        }
+        body = cleaned.toString().trim();
+
+        if (body.isBlank()) return;
+
+        // Use the full raw packet content for duplicate detection.
+        // During the typewriter animation every packet differs (body text grows).
+        // Once the animation finishes the packet becomes identical — fire on first repeat.
+        String rawContent = content.getString();
+        boolean packetRepeated = rawContent.equals(lastOverlayRawContent);
+        lastOverlayRawContent = rawContent;
+
+        // Always reset the fallback timer so it only fires when packets stop entirely
+        lastOverlayUpdateTick = Utils.mc().level.getGameTime();
+
+        if (packetRepeated) {
+            // Animation is done — fire if we have a pending line that hasn't been fired yet
+            if (pendingOverlayBody != null) {
+                firePendingOverlay();
+            }
+            return;
+        }
+
+        // Packet changed — animation still in progress or a new line started.
+        // Update the pending text to the latest extracted body.
+        pendingOverlayBody = body;
+        pendingOverlayNpc = npc;
+    }
+
+    private void firePendingOverlay() {
+        String body = pendingOverlayBody;
+        String npc = pendingOverlayNpc;
+        pendingOverlayBody = null;
+        pendingOverlayNpc = null;
+        lastOverlayUpdateTick = -1;
+
+        String combined = npc + ": " + body;
+        if (combined.equals(lastFiredOverlayText)) return;
+
+        lastFiredOverlayText = combined;
+        Utils.sendMessage("§e[VOW Overlay] §f" + combined);
+        ReceiveChatEvent.receivedChat(combined);
+    }
+
+    private String extractFontText(Component component, String fontSubstring) {
+        if (component.getStyle().getFont().toString().contains(fontSubstring)) {
+            List<Component> siblings = component.getSiblings();
+            if (!siblings.isEmpty()) {
+                return siblings.get(0).getString();
+            }
+        }
+        for (Component sibling : component.getSiblings()) {
+            String result = extractFontText(sibling, fontSubstring);
+            if (result != null) return result;
+        }
+        return null;
     }
 
     public void onStatusEffectUpdate(ClientboundUpdateMobEffectPacket event) {
