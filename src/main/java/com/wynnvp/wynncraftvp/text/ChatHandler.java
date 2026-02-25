@@ -8,7 +8,6 @@ package com.wynnvp.wynncraftvp.text;
  * This file originates from © Wynntils 2023 https://github.com/Wynntils/Artemis/ but was modified to fit this project
  */
 
-import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.ArrayList;
@@ -38,8 +37,10 @@ public final class ChatHandler {
 
     private static final String OVERLAY_BODY_FONT = "dialogue/text/wynncraft/body";
     private static final String OVERLAY_NAMEPLATE_FONT = "dialogue/text/nameplate";
-    // Fallback: fire pending overlay if packets stop arriving entirely
-    private static final int OVERLAY_DEBOUNCE_TICKS = 10;
+    // Number of ticks the overlay body text must remain unchanged before we consider
+    // the typewriter animation complete and fire the line. Also used as a timeout for
+    // detecting when the dialogue box closes (no more overlay packets).
+    private static final int OVERLAY_STABILITY_TICKS = 5;
 
     private String lastRealChat = null;
 
@@ -62,9 +63,9 @@ public final class ChatHandler {
 
     private String pendingOverlayBody = null;
     private String pendingOverlayNpc = null;
-    private long lastOverlayUpdateTick = -1;
+    private long lastBodyChangeTick = -1;
+    private long lastOverlayPacketTick = -1;
     private String lastFiredOverlayText = null;
-    private String lastOverlayRawContent = null;
 
     private void updateWrongOrderPackets() {
         updateWrongOrder = false;
@@ -91,9 +92,9 @@ public final class ChatHandler {
         delayedType = NpcDialogueType.NONE;
         pendingOverlayBody = null;
         pendingOverlayNpc = null;
-        lastOverlayUpdateTick = -1;
+        lastBodyChangeTick = -1;
+        lastOverlayPacketTick = -1;
         lastFiredOverlayText = null;
-        lastOverlayRawContent = null;
     }
 
     public void onTick() {
@@ -111,7 +112,15 @@ public final class ChatHandler {
 
         if (pendingOverlayBody != null) {
             long currentTick = Utils.mc().level.getGameTime();
-            if (currentTick >= lastOverlayUpdateTick + OVERLAY_DEBOUNCE_TICKS) {
+
+            // Fire when text has been stable (unchanged) for N ticks
+            if (lastBodyChangeTick > 0 && currentTick >= lastBodyChangeTick + OVERLAY_STABILITY_TICKS) {
+                firePendingOverlay();
+                return;
+            }
+
+            // Fire when no overlay packets for a while (dialogue box closed)
+            if (lastOverlayPacketTick > 0 && currentTick >= lastOverlayPacketTick + OVERLAY_STABILITY_TICKS) {
                 firePendingOverlay();
             }
         }
@@ -122,52 +131,85 @@ public final class ChatHandler {
     }
 
     public void onOverlayReceived(Component content) {
-        String body = extractFontText(content, OVERLAY_BODY_FONT);
+        long currentTick = Utils.mc().level.getGameTime();
+
+        String body = extractAllBodyText(content);
         String npc = extractFontText(content, OVERLAY_NAMEPLATE_FONT);
 
-        if (body == null || body.isBlank() || npc == null || npc.isBlank()) return;
-
-        // Wynncraft packs multiple visible lines into one body component, separated by a
-        // non-standard Unicode character from their custom font. Replace those separators
-        // with spaces so we capture all lines (e.g. body_0 + body_1).
-        StringBuilder cleaned = new StringBuilder();
-        for (int i = 0; i < body.length(); ) {
-            int cp = body.codePointAt(i);
-            if (cp > 0x00FF) {
-                if (cleaned.length() > 0 && cleaned.charAt(cleaned.length() - 1) != ' ') {
-                    cleaned.append(' ');
-                }
-            } else {
-                cleaned.appendCodePoint(cp);
-            }
-            i += Character.charCount(cp);
-        }
-        body = cleaned.toString().trim();
-
-        if (body.isBlank()) return;
-
-        // Use the full raw packet content for duplicate detection.
-        // During the typewriter animation every packet differs (body text grows).
-        // Once the animation finishes the packet becomes identical — fire on first repeat.
-        String rawContent = content.getString();
-        boolean packetRepeated = rawContent.equals(lastOverlayRawContent);
-        lastOverlayRawContent = rawContent;
-
-        // Always reset the fallback timer so it only fires when packets stop entirely
-        lastOverlayUpdateTick = Utils.mc().level.getGameTime();
-
-        if (packetRepeated) {
-            // Animation is done — fire if we have a pending line that hasn't been fired yet
-            if (pendingOverlayBody != null) {
-                firePendingOverlay();
-            }
+        if (body == null || body.isBlank()) {
             return;
         }
 
-        // Packet changed — animation still in progress or a new line started.
-        // Update the pending text to the latest extracted body.
-        pendingOverlayBody = body;
+        if (npc == null || npc.isBlank()) {
+            npc = pendingOverlayNpc;
+        }
+
+        if (npc == null || npc.isBlank()) {
+            return;
+        }
+
+        // If the NPC changed, fire the old pending line first
+        if (pendingOverlayNpc != null && !npc.equals(pendingOverlayNpc)) {
+            firePendingOverlay();
+        }
+
+        // Detect body text changes
+        if (!body.equals(pendingOverlayBody)) {
+            // If body shrunk significantly, a new dialogue line started — fire the old one
+            if (pendingOverlayBody != null && body.length() < pendingOverlayBody.length() / 2) {
+                firePendingOverlay();
+            }
+
+            pendingOverlayBody = body;
+            lastBodyChangeTick = currentTick;
+        }
+
         pendingOverlayNpc = npc;
+        lastOverlayPacketTick = currentTick;
+    }
+
+    /**
+     * Extracts and joins all body-font text from the component tree.
+     * Wynncraft may split wrapped dialogue across multiple body font components.
+     * High Unicode codepoints (custom font separators) are replaced with spaces.
+     */
+    private String extractAllBodyText(Component content) {
+        List<String> parts = new ArrayList<>();
+        collectFontText(content, OVERLAY_BODY_FONT, parts);
+        if (parts.isEmpty()) return null;
+
+        StringBuilder cleaned = new StringBuilder();
+        for (String part : parts) {
+            for (int i = 0; i < part.length(); ) {
+                int cp = part.codePointAt(i);
+                if (cp > 0x00FF) {
+                    if (cleaned.length() > 0 && cleaned.charAt(cleaned.length() - 1) != ' ') {
+                        cleaned.append(' ');
+                    }
+                } else {
+                    cleaned.appendCodePoint(cp);
+                }
+                i += Character.charCount(cp);
+            }
+            // Separate multiple body components with a space
+            if (cleaned.length() > 0 && cleaned.charAt(cleaned.length() - 1) != ' ') {
+                cleaned.append(' ');
+            }
+        }
+        String result = cleaned.toString().trim();
+        return result.isBlank() ? null : result;
+    }
+
+    private void collectFontText(Component component, String fontSubstring, List<String> results) {
+        if (component.getStyle().getFont().toString().contains(fontSubstring)) {
+            List<Component> siblings = component.getSiblings();
+            if (!siblings.isEmpty()) {
+                results.add(siblings.get(0).getString());
+            }
+        }
+        for (Component sibling : component.getSiblings()) {
+            collectFontText(sibling, fontSubstring, results);
+        }
     }
 
     private void firePendingOverlay() {
@@ -175,7 +217,10 @@ public final class ChatHandler {
         String npc = pendingOverlayNpc;
         pendingOverlayBody = null;
         pendingOverlayNpc = null;
-        lastOverlayUpdateTick = -1;
+        lastBodyChangeTick = -1;
+        lastOverlayPacketTick = -1;
+
+        if (body == null || npc == null) return;
 
         String combined = npc + ": " + body;
         if (combined.equals(lastFiredOverlayText)) return;
