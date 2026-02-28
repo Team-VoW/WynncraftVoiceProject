@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2025.
+ * Copyright © Team-VoW 2025-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.player;
@@ -205,6 +205,14 @@ public class OpenAlPlayer {
                 return;
             }
             int sourceID = AL10.alGenSources();
+
+            // Allow boosting above 1.0 gain (many implementations clamp otherwise)
+            AL10.alSourcef(sourceID, AL10.AL_MAX_GAIN, 10.0f);
+            AL10.alSourcef(sourceID, AL10.AL_MIN_GAIN, 0.0f);
+
+            // Ensure correct gain is set before playback starts (prevents first "full volume" frame)
+            updateVolume(sourceID);
+
             sourceIDs.add(sourceID);
             CurrentSpeaker speaker = new CurrentSpeaker(audioData.speakerName, audioData.pos);
             currentSpeakers.put(sourceID, speaker);
@@ -237,6 +245,7 @@ public class OpenAlPlayer {
                 // Apply reverb effect if supported and enabled
                 applyReverb(sourceID, audioData.reverb);
 
+                updateVolume(sourceID);
                 AL11.alSourcePlay(sourceID);
                 return;
             }
@@ -251,6 +260,7 @@ public class OpenAlPlayer {
             // Apply reverb effect if supported and enabled
             applyReverb(sourceID, audioData.reverb);
 
+            updateVolume(sourceID);
             AL11.alSourcePlay(sourceID);
         });
     }
@@ -336,10 +346,16 @@ public class OpenAlPlayer {
     }
 
     private void updateVolume(int sourceID) {
-        float volume = gameSettings.getSoundSourceVolume(SoundSource.VOICE);
-        if (volume <= 0F) {
+        float base = gameSettings.getSoundSourceVolume(SoundSource.VOICE);
+
+        int percent = (ModCore.config != null) ? ModCore.config.getVoiceVolume() : 100;
+        float gain = base * (percent / 100.0f);
+
+        if (gain <= 0.0001f) {
             AL11.alSourceStop(sourceID);
+            return;
         }
-        AL10.alSourcef(sourceID, AL10.AL_GAIN, volume);
+
+        AL10.alSourcef(sourceID, AL10.AL_GAIN, gain);
     }
 }
