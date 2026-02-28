@@ -34,5 +34,7 @@
   "text.autoconfig.wynnvp.option.removeVillagerSounds.@Tooltip": "Will remove the villager sounds. Enable this if they annoy you together with the voices",
   "text.autoconfig.wynnvp.option.reportMissingLines": "Report missing lines",
   "text.autoconfig.wynnvp.option.sendFunFact": "Fun facts",
+  "text.autoconfig.wynnvp.option.voiceVolume": "Voice volume (%)",
+  "text.autoconfig.wynnvp.option.voiceVolume.@Tooltip": "Adjusts the volume of voices played by this mod. 100% matches Minecraft's Voice/Speech volume.",
   "text.autoconfig.wynnvp.title": "Voices of wynning config"
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2025.
+ * Copyright © Team-VoW 2025-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.config;
@@ -33,6 +33,10 @@ public class VOWAutoConfig implements ConfigData {
 
     @ConfigEntry.Gui.Tooltip
     public boolean playAllSoundsOnPlayer = false;
+
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.BoundedDiscrete(min = 1, max = 1000)
+    public int voiceVolume = 100;
 
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.BoundedDiscrete(min = 70, max = 200)
@@ -126,6 +130,10 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isPlayAllSoundsOnPlayer() {
         return playAllSoundsOnPlayer;
+    }
+
+    public int getVoiceVolume() {
+        return voiceVolume;
     }
 
     public float getPlaybackSpeed() {
