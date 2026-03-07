@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.commands;
@@ -10,34 +10,31 @@ import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
+import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
+import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.minecraft.commands.CommandBuildContext;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
 
 public class DebugCommand {
     public static void register(
-            CommandDispatcher<CommandSourceStack> commandSourceStackCommandDispatcher,
-            CommandBuildContext commandBuildContext,
-            Commands.CommandSelection commandSelection) {
-        LiteralArgumentBuilder<CommandSourceStack> builder = Commands.literal("vow-debug")
+            CommandDispatcher<FabricClientCommandSource> dispatcher, CommandBuildContext buildContext) {
+        LiteralArgumentBuilder<FabricClientCommandSource> builder = ClientCommandManager.literal("vow-debug")
                 .executes(context -> {
-                    context.getSource().sendSuccess(() -> Component.literal("VoW Debug command"), false);
+                    context.getSource().sendFeedback(Component.literal("VoW Debug command"));
                     return 1;
                 })
-                .then(Commands.literal("play-first-sound")
+                .then(ClientCommandManager.literal("play-first-sound")
                         .executes(context -> {
                             if (ModCore.instance == null
                                     || ModCore.instance.soundsHandler == null
                                     || ModCore.instance.soundPlayer == null) {
-                                context.getSource()
-                                        .sendFailure(Component.literal("ModCore not initialized correctly!"));
+                                context.getSource().sendError(Component.literal("ModCore not initialized correctly!"));
                                 return 0;
                             }
 
                             var sounds = ModCore.instance.soundsHandler.getSounds();
                             if (sounds.isEmpty()) {
-                                context.getSource().sendFailure(Component.literal("No sounds loaded!"));
+                                context.getSource().sendError(Component.literal("No sounds loaded!"));
                                 return 0;
                             }
 
@@ -46,24 +43,22 @@ public class DebugCommand {
                             ModCore.instance.soundPlayer.playSound(lineData);
 
                             context.getSource()
-                                    .sendSuccess(
-                                            () -> Component.literal("Playing first sound: " + lineData.getRealLine()),
-                                            false);
+                                    .sendFeedback(Component.literal("Playing first sound: " + lineData.getRealLine()));
                             return 1;
                         })
-                        .then(Commands.argument("text", StringArgumentType.greedyString())
+                        .then(ClientCommandManager.argument("text", StringArgumentType.greedyString())
                                 .executes(context -> {
                                     if (ModCore.instance == null
                                             || ModCore.instance.soundsHandler == null
                                             || ModCore.instance.soundPlayer == null) {
                                         context.getSource()
-                                                .sendFailure(Component.literal("ModCore not initialized correctly!"));
+                                                .sendError(Component.literal("ModCore not initialized correctly!"));
                                         return 0;
                                     }
 
                                     var sounds = ModCore.instance.soundsHandler.getSounds();
                                     if (sounds.isEmpty()) {
-                                        context.getSource().sendFailure(Component.literal("No sounds loaded!"));
+                                        context.getSource().sendError(Component.literal("No sounds loaded!"));
                                         return 0;
                                     }
 
@@ -72,13 +67,11 @@ public class DebugCommand {
                                     ModCore.instance.soundPlayer.playSound(lineData);
 
                                     context.getSource()
-                                            .sendSuccess(
-                                                    () -> Component.literal("Playing sound with custom text: "
-                                                            + lineData.getRealLine()),
-                                                    false);
+                                            .sendFeedback(Component.literal(
+                                                    "Playing sound with custom text: " + lineData.getRealLine()));
                                     return 1;
                                 })));
 
-        commandSourceStackCommandDispatcher.register(builder);
+        dispatcher.register(builder);
     }
 }

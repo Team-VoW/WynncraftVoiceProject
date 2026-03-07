@@ -13,6 +13,8 @@
   "text.autoconfig.wynnvp.option.debugAndLogs.highlightSpeaker.@Tooltip": "Should there be an aura of particles highlighting the source of the sound? This is mostly useful for debugging",
   "text.autoconfig.wynnvp.option.debugAndLogs.logDialogueLines": "Log dialogue lines",
   "text.autoconfig.wynnvp.option.debugAndLogs.logDialogueLines.@Tooltip": "If each time a dialogue that is encountered should be put into the vowlog.txt file",
+  "text.autoconfig.wynnvp.option.debugAndLogs.logOverlayDialogueToChat": "Log overlay dialogue to chat",
+  "text.autoconfig.wynnvp.option.debugAndLogs.logOverlayDialogueToChat.@Tooltip": "Print overlay-based dialogue lines (e.g. from Fruma) into the chat as they are detected. Useful for debugging the overlay dialogue system.",
   "text.autoconfig.wynnvp.option.debugAndLogs.logPlayingInformation": "Log playing information",
   "text.autoconfig.wynnvp.option.debugAndLogs.logPlayingInformation.@Tooltip": "Log a bunch of miscellaneous things about playing sounds",
   "text.autoconfig.wynnvp.option.debugAndLogs.onlyLogNotPlayingLines": "Only log Not Playing Lines",
