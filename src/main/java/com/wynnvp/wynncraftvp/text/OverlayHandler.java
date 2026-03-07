@@ -18,7 +18,6 @@ import net.minecraft.network.chat.Component;
  * We wait for it to stabilise before logging the completed line.
  */
 public final class OverlayHandler {
-
     private static final String OVERLAY_BODY_FONT = "dialogue/text/wynncraft/body";
     private static final String OVERLAY_NAMEPLATE_FONT = "dialogue/text/nameplate";
 

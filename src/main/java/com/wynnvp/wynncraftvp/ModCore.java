@@ -5,6 +5,7 @@
 package com.wynnvp.wynncraftvp;
 
 import com.wynnvp.wynncraftvp.commands.DebugCommand;
+import com.wynnvp.wynncraftvp.commands.VowLogCommand;
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import com.wynnvp.wynncraftvp.core.Managers;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
@@ -19,8 +20,8 @@ import java.util.Optional;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
-import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.SharedConstants;
@@ -91,7 +92,8 @@ public class ModCore implements ModInitializer {
 
         new ToastManager(Minecraft.getInstance());
 
-        CommandRegistrationCallback.EVENT.register(DebugCommand::register);
+        ClientCommandRegistrationCallback.EVENT.register(DebugCommand::register);
+        ClientCommandRegistrationCallback.EVENT.register(VowLogCommand::register);
     }
 
     public static void error(String msg) {
