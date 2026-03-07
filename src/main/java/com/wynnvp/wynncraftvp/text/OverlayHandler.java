@@ -66,8 +66,6 @@ public final class OverlayHandler {
             npc = pendingNpc;
         }
 
-        if (npc == null || npc.isBlank()) return;
-
         if (pendingNpc != null && !npc.equals(pendingNpc)) {
             firePending();
         }
@@ -92,14 +90,14 @@ public final class OverlayHandler {
         lastBodyChangeTick = -1;
         lastOverlayPacketTick = -1;
 
-        if (body == null || npc == null) return;
+        if (body == null) return;
 
-        String combined = npc + ": " + body;
+        String combined = npc != null ? npc + ": " + body : "//" + body;
         if (combined.equals(lastFiredText)) return;
 
         lastFiredText = combined;
         Utils.sendMessage("§e[VOW Overlay] §f" + combined);
-        VowLogger.logLine(combined, "OVERLAY");
+        VowLogger.logLine(combined);
     }
 
     /**
