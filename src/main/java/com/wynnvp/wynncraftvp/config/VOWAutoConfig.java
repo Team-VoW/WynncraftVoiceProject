@@ -86,6 +86,9 @@ public class VOWAutoConfig implements ConfigData {
 
         @ConfigEntry.Gui.Tooltip
         public String customSoundsJsonPath = "";
+
+        @ConfigEntry.Gui.Tooltip
+        public boolean logOverlayDialogueToChat = false;
     }
 
     public boolean isLogDialogueLines() {
@@ -114,6 +117,10 @@ public class VOWAutoConfig implements ConfigData {
 
     public String getCustomSoundsJsonPath() {
         return debugAndLogs.customSoundsJsonPath;
+    }
+
+    public boolean isLogOverlayDialogueToChat() {
+        return debugAndLogs.logOverlayDialogueToChat;
     }
 
     public boolean isRemoveVillagerSounds() {

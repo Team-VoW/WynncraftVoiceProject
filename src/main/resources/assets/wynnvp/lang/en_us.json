@@ -21,6 +21,8 @@
   "text.autoconfig.wynnvp.option.debugAndLogs.useCustomAudioPath.@Tooltip": "If the custom audio path should be used that is defined in the next option",
   "text.autoconfig.wynnvp.option.debugAndLogs.useCustomSoundsJson": "Use custom sounds.json",
   "text.autoconfig.wynnvp.option.debugAndLogs.useCustomSoundsJson.@Tooltip": "Enable loading dialogue mappings from a custom sounds.json file instead of the default one",
+  "text.autoconfig.wynnvp.option.debugAndLogs.logOverlayDialogueToChat": "Log overlay dialogue to chat",
+  "text.autoconfig.wynnvp.option.debugAndLogs.logOverlayDialogueToChat.@Tooltip": "Print overlay-based dialogue lines (e.g. from Fruma) into the chat as they are detected. Useful for debugging the overlay dialogue system.",
   "text.autoconfig.wynnvp.option.doLogging": "Do Logging",
   "text.autoconfig.wynnvp.option.downloadSounds": "Download Sounds",
   "text.autoconfig.wynnvp.option.downloadSounds.@Tooltip": "If all sounds should be downloaded. Enable this if you experience high latency in audio playback",

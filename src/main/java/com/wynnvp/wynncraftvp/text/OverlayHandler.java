@@ -97,7 +97,9 @@ public final class OverlayHandler {
         if (combined.equals(lastFiredText)) return;
 
         lastFiredText = combined;
-        Utils.sendMessage("§e[VOW Overlay] §f" + combined);
+        if (ModCore.config.isLogOverlayDialogueToChat()) {
+            Utils.sendMessage("§f" + combined);
+        }
         VowLogger.logLine(combined);
         ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(combined));
     }
