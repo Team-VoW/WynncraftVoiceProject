@@ -21,7 +21,7 @@ public class MixinChatListener {
     public void onOverlayMessage(ClientboundSystemChatPacket packet, CallbackInfo ci) {
         if (!packet.overlay()) return;
         if (!Minecraft.getInstance().isSameThread()) return;
-        ModCore.chatHandler.onOverlayReceived(packet.content());
+        ModCore.overlayHandler.onOverlayReceived(packet.content());
     }
 
     @Inject(

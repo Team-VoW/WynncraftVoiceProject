@@ -35,13 +35,6 @@ public final class ChatHandler {
     private static final long SLOWDOWN_PACKET_TICK_DELAY = 20;
     private static final int CHAT_SCREEN_TICK_DELAY = 1;
 
-    private static final String OVERLAY_BODY_FONT = "dialogue/text/wynncraft/body";
-    private static final String OVERLAY_NAMEPLATE_FONT = "dialogue/text/nameplate";
-    // Number of ticks the overlay body text must remain unchanged before we consider
-    // the typewriter animation complete and fire the line. Also used as a timeout for
-    // detecting when the dialogue box closes (no more overlay packets).
-    private static final int OVERLAY_STABILITY_TICKS = 5;
-
     private String lastRealChat = null;
 
     // This is used to detect when the lastRealChat message
@@ -60,12 +53,6 @@ public final class ChatHandler {
     private List<StyledText> collectedLines = new ArrayList<>();
 
     private boolean updateWrongOrder = false;
-
-    private String pendingOverlayBody = null;
-    private String pendingOverlayNpc = null;
-    private long lastBodyChangeTick = -1;
-    private long lastOverlayPacketTick = -1;
-    private String lastFiredOverlayText = null;
 
     private void updateWrongOrderPackets() {
         updateWrongOrder = false;
@@ -90,158 +77,24 @@ public final class ChatHandler {
         lastConfirmationlessDialogue = null;
         delayedDialogue = null;
         delayedType = NpcDialogueType.NONE;
-        pendingOverlayBody = null;
-        pendingOverlayNpc = null;
-        lastBodyChangeTick = -1;
-        lastOverlayPacketTick = -1;
-        lastFiredOverlayText = null;
     }
 
     public void onTick() {
         if (updateWrongOrder) updateWrongOrderPackets();
 
-        if (!collectedLines.isEmpty()) {
-            // Tick event runs after the chat packets, with the same tick number
-            // as the chat packets. This means we can allow equality here.
-            long ticks = Utils.mc().level.getGameTime();
-            if (ticks >= chatScreenTicks + CHAT_SCREEN_TICK_DELAY) {
-                // Send the collected screen lines
-                processCollectedChatScreen();
-            }
-        }
+        if (collectedLines.isEmpty()) return;
 
-        if (pendingOverlayBody != null) {
-            long currentTick = Utils.mc().level.getGameTime();
-
-            // Fire when text has been stable (unchanged) for N ticks
-            if (lastBodyChangeTick > 0 && currentTick >= lastBodyChangeTick + OVERLAY_STABILITY_TICKS) {
-                firePendingOverlay();
-                return;
-            }
-
-            // Fire when no overlay packets for a while (dialogue box closed)
-            if (lastOverlayPacketTick > 0 && currentTick >= lastOverlayPacketTick + OVERLAY_STABILITY_TICKS) {
-                firePendingOverlay();
-            }
+        // Tick event runs after the chat packets, with the same tick number
+        // as the chat packets. This means we can allow equality here.
+        long ticks = Utils.mc().level.getGameTime();
+        if (ticks >= chatScreenTicks + CHAT_SCREEN_TICK_DELAY) {
+            // Send the collected screen lines
+            processCollectedChatScreen();
         }
     }
 
     public void onChatReceived(Component messageComponent) {
         handleWithSeparation(messageComponent);
-    }
-
-    public void onOverlayReceived(Component content) {
-        long currentTick = Utils.mc().level.getGameTime();
-
-        String body = extractAllBodyText(content);
-        String npc = extractFontText(content, OVERLAY_NAMEPLATE_FONT);
-
-        if (body == null || body.isBlank()) {
-            return;
-        }
-
-        if (npc == null || npc.isBlank()) {
-            npc = pendingOverlayNpc;
-        }
-
-        if (npc == null || npc.isBlank()) {
-            return;
-        }
-
-        // If the NPC changed, fire the old pending line first
-        if (pendingOverlayNpc != null && !npc.equals(pendingOverlayNpc)) {
-            firePendingOverlay();
-        }
-
-        // Detect body text changes
-        if (!body.equals(pendingOverlayBody)) {
-            // If body shrunk significantly, a new dialogue line started — fire the old one
-            if (pendingOverlayBody != null && body.length() < pendingOverlayBody.length() / 2) {
-                firePendingOverlay();
-            }
-
-            pendingOverlayBody = body;
-            lastBodyChangeTick = currentTick;
-        }
-
-        pendingOverlayNpc = npc;
-        lastOverlayPacketTick = currentTick;
-    }
-
-    /**
-     * Extracts and joins all body-font text from the component tree.
-     * Wynncraft may split wrapped dialogue across multiple body font components.
-     * High Unicode codepoints (custom font separators) are replaced with spaces.
-     */
-    private String extractAllBodyText(Component content) {
-        List<String> parts = new ArrayList<>();
-        collectFontText(content, OVERLAY_BODY_FONT, parts);
-        if (parts.isEmpty()) return null;
-
-        StringBuilder cleaned = new StringBuilder();
-        for (String part : parts) {
-            for (int i = 0; i < part.length(); ) {
-                int cp = part.codePointAt(i);
-                if (cp > 0x00FF) {
-                    if (cleaned.length() > 0 && cleaned.charAt(cleaned.length() - 1) != ' ') {
-                        cleaned.append(' ');
-                    }
-                } else {
-                    cleaned.appendCodePoint(cp);
-                }
-                i += Character.charCount(cp);
-            }
-            // Separate multiple body components with a space
-            if (cleaned.length() > 0 && cleaned.charAt(cleaned.length() - 1) != ' ') {
-                cleaned.append(' ');
-            }
-        }
-        String result = cleaned.toString().trim();
-        return result.isBlank() ? null : result;
-    }
-
-    private void collectFontText(Component component, String fontSubstring, List<String> results) {
-        if (component.getStyle().getFont().toString().contains(fontSubstring)) {
-            List<Component> siblings = component.getSiblings();
-            if (!siblings.isEmpty()) {
-                results.add(siblings.get(0).getString());
-            }
-        }
-        for (Component sibling : component.getSiblings()) {
-            collectFontText(sibling, fontSubstring, results);
-        }
-    }
-
-    private void firePendingOverlay() {
-        String body = pendingOverlayBody;
-        String npc = pendingOverlayNpc;
-        pendingOverlayBody = null;
-        pendingOverlayNpc = null;
-        lastBodyChangeTick = -1;
-        lastOverlayPacketTick = -1;
-
-        if (body == null || npc == null) return;
-
-        String combined = npc + ": " + body;
-        if (combined.equals(lastFiredOverlayText)) return;
-
-        lastFiredOverlayText = combined;
-        Utils.sendMessage("§e[VOW Overlay] §f" + combined);
-        ReceiveChatEvent.receivedChat(combined);
-    }
-
-    private String extractFontText(Component component, String fontSubstring) {
-        if (component.getStyle().getFont().toString().contains(fontSubstring)) {
-            List<Component> siblings = component.getSiblings();
-            if (!siblings.isEmpty()) {
-                return siblings.get(0).getString();
-            }
-        }
-        for (Component sibling : component.getSiblings()) {
-            String result = extractFontText(sibling, fontSubstring);
-            if (result != null) return result;
-        }
-        return null;
     }
 
     public void onStatusEffectUpdate(ClientboundUpdateMobEffectPacket event) {

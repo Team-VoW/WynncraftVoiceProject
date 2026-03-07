@@ -14,6 +14,7 @@ import com.wynnvp.wynncraftvp.sound.downloader.AudioDownloader;
 import com.wynnvp.wynncraftvp.sound.downloader.ToastManager;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.text.ChatHandler;
+import com.wynnvp.wynncraftvp.text.OverlayHandler;
 import java.util.Optional;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
@@ -41,6 +42,7 @@ public class ModCore implements ModInitializer {
     public AudioPlayer audioPlayer;
     public SoundPlayer soundPlayer;
     public static ChatHandler chatHandler;
+    public static OverlayHandler overlayHandler;
 
     public static VOWAutoConfig config;
 
@@ -72,6 +74,7 @@ public class ModCore implements ModInitializer {
 
         instance = this;
         chatHandler = new ChatHandler();
+        overlayHandler = new OverlayHandler();
 
         soundPlayer = new SoundPlayer();
         soundsHandler = new SoundsHandler();
@@ -81,6 +84,7 @@ public class ModCore implements ModInitializer {
         ClientTickEvents.END_WORLD_TICK.register(cli -> {
             // Your ticking method
             chatHandler.onTick();
+            overlayHandler.onTick();
             if (audioPlayer != null) audioPlayer.openAlPlayer.onTick();
         });
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
