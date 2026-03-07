@@ -4,7 +4,9 @@
  */
 package com.wynnvp.wynncraftvp.text;
 
+import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
+import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.ArrayList;
 import java.util.List;
@@ -97,6 +99,7 @@ public final class OverlayHandler {
         lastFiredText = combined;
         Utils.sendMessage("§e[VOW Overlay] §f" + combined);
         VowLogger.logLine(combined);
+        ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(combined));
     }
 
     /**
