@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2025.
+ * Copyright © Team-VoW 2025-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.config;
