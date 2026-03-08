@@ -29,9 +29,8 @@ public class ToastManager {
     }
 
     public void displayToast(Component title, Component message) {
-        Minecraft.getInstance()
-                .getToastManager()
-                .addToast(new SystemToast(new SystemToast.SystemToastId(10000L), title, message));
+        client.execute(() -> client.getToastManager()
+                .addToast(new SystemToast(new SystemToast.SystemToastId(10000L), title, message)));
     }
 
     /**
@@ -43,13 +42,15 @@ public class ToastManager {
      * @param subtitleText    The subtitle text of the toast (without the countdown).
      */
     public void displayTimedToast(Runnable action, int durationSeconds, String titleText, String subtitleText) {
-        if (currentTimedToast != null) {
-            currentTimedToast.hide();
-        }
+        client.execute(() -> {
+            if (currentTimedToast != null) {
+                currentTimedToast.hide();
+            }
 
-        currentTimedToast = new TimedToast(action, durationSeconds, titleText, subtitleText);
-        client.getToastManager().addToast(currentTimedToast);
-        isListening = true; // Start listening for key presses
+            currentTimedToast = new TimedToast(action, durationSeconds, titleText, subtitleText);
+            client.getToastManager().addToast(currentTimedToast);
+            isListening = true; // Start listening for key presses
+        });
     }
 
     // Method to handle client ticks and check for key presses
