@@ -38,8 +38,10 @@ public class AudioDownloader {
 
     private final String audioDir;
     private static final String BASE_URL = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
-    private static final String AUDIO_MANIFEST =
-            "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/audio_manifest.json";
+
+    private String getManifestUrl() {
+        return ModCore.config.azureBlobRootLink + "audio_manifest.json";
+    }
 
     private final HashMap<String, AudioMetadata> metadataMap = new HashMap<>();
     private HashMap<String, AudioMetadata> remoteMetadata;
@@ -91,10 +93,34 @@ public class AudioDownloader {
         // processAudioManifest();
     }
 
+    private boolean hasManifestChanged() {
+        try {
+            HttpURLConnection connection = (HttpURLConnection) new URL(getManifestUrl()).openConnection();
+            connection.setRequestMethod("HEAD");
+            if (connection.getResponseCode() == 200) {
+                String lastModifiedNew = connection.getHeaderField("Last-Modified");
+                String lastModifiedStored = ModCore.config.lastManifestUpdateHeader;
+                if (lastModifiedNew != null && lastModifiedNew.equals(lastModifiedStored)) {
+                    return false;
+                }
+                ModCore.config.lastManifestUpdateHeader = lastModifiedNew;
+                ModCore.config.save();
+            }
+        } catch (Exception e) {
+            LOGGER.error("Failed to check manifest Last-Modified header", e);
+        }
+        return true; // Default: fetch anyway
+    }
+
     private void processAudioManifest() {
+        if (!hasManifestChanged()) {
+            LOGGER.info("Audio manifest unchanged. Skipping download check.");
+            return;
+        }
+
         try {
             // Fetch the manifest
-            remoteMetadata =    fetchAudioManifest();
+            remoteMetadata = fetchAudioManifest();
             if (remoteMetadata == null) {
                 LOGGER.error("Failed to fetch audio manifest on first attempt. Retrying in 20 seconds...");
                 Thread.sleep(10000); // Wait for 10 sec
@@ -267,7 +293,7 @@ public class AudioDownloader {
     private HashMap<String, AudioMetadata> fetchAudioManifest() throws IOException {
         HttpURLConnection connection = null;
         try {
-            connection = (HttpURLConnection) new URL(AUDIO_MANIFEST).openConnection();
+            connection = (HttpURLConnection) new URL(getManifestUrl()).openConnection();
             connection.setRequestMethod("GET");
             connection.connect();
 
@@ -277,7 +303,7 @@ public class AudioDownloader {
                     return gson.fromJson(reader, new TypeToken<HashMap<String, AudioMetadata>>() {}.getType());
                 }
             }
-            throw new IOException("Failed to fetch audio manifest: " + AUDIO_MANIFEST);
+            throw new IOException("Failed to fetch audio manifest: " + getManifestUrl());
         } finally {
             if (connection != null) {
                 connection.disconnect();

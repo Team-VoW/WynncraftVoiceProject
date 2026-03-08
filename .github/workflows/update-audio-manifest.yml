@@ -6,9 +6,6 @@ on:
       - main
     paths:
       - 'sounds/**'
-  pull_request:
-    paths:
-      - 'sounds/**'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -67,27 +64,10 @@ jobs:
           print("Generated minified audio_manifest.json")
           EOF
 
-      - name: Check for changes
-        id: check_changes
+      - name: Upload manifest to Azure Blob Storage
+        env:
+          BLOB_SAS_URL: ${{ secrets.BLOB_SAS_URL }}
         run: |
-          if git diff --quiet audio_manifest.json; then
-            echo "No changes to audio_manifest.json"
-            echo "manifest_changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "Changes detected in audio_manifest.json"
-            echo "manifest_changed=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Checkout branch
-        if: steps.check_changes.outputs.manifest_changed == 'true'
-        run: |
-          git checkout main  # Ensure you're on the correct branch
-
-      - name: Commit and push if changed
-        if: steps.check_changes.outputs.manifest_changed == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add audio_manifest.json
-          git commit -m "Update audio_manifest.json [skip ci]"
-          git push origin main  # Push changes to the correct branch
+          containerUrl="${BLOB_SAS_URL%%\?*}"
+          sasToken="${BLOB_SAS_URL#*\?}"
+          azcopy copy "audio_manifest.json" "${containerUrl}/audio_manifest.json?${sasToken}" --overwrite=true
