@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.downloader;
@@ -194,7 +194,7 @@ public class AudioDownloader {
             LOGGER.info("Failed to download " + failedToDownload.size() + "("
                     + (failedToDownload.size() * 100 / toDownload.size()) + "%");
             failedToDownload.forEach(fail -> {
-                LOGGER.info("Failed: "  + fail);
+                LOGGER.info("Failed: " + fail);
             });
 
             currentRun++;
