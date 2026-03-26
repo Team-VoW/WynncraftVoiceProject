@@ -1,3 +1,20 @@
+## [1.13.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.13.0...v1.13.1) (2026-03-26)
+
+
+### New Features
+
+* Add support for new Fruma dialogue system.  ([#64](https://github.com/Team-VoW/WynncraftVoiceProject/issues/64)) ([0c17634](https://github.com/Team-VoW/WynncraftVoiceProject/commit/0c17634e6df5585d98a5a21d2291502b031f37f1))
+* Replace recordings from Natedog with newer recordings for kid & officer in Acquiring credentials & missing child in Flight in Distress ([7e43f2f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/7e43f2fa87604ba37a8c92c2974f2ca273d1c823))
+* **volume control:** Added voice volume control ([#63](https://github.com/Team-VoW/WynncraftVoiceProject/issues/63)) ([43de72c](https://github.com/Team-VoW/WynncraftVoiceProject/commit/43de72c1a505f3cfbdfab1b9da514e4518fdd8cf))
+
+
+### Bug Fixes
+
+* **A journey further:** made most of Aledars lines in the last scene play correctly ([03375d4](https://github.com/Team-VoW/WynncraftVoiceProject/commit/03375d425ebae7fbb1b858c02ec8a3f15ae5db12))
+* **Audio Downloader:** fix audio downloader being broken & get the audio manifest from a blob instead ([95fac15](https://github.com/Team-VoW/WynncraftVoiceProject/commit/95fac15dcde2bfa2d87e481a5bdb530afff1467c))
+* **Developer:** enable DevAuth in loom runs and add Tarsos DSP dependencies for developer runs ([bc46fad](https://github.com/Team-VoW/WynncraftVoiceProject/commit/bc46fad8bd8ab55597bea6d4878505dd285ecd79))
+* fix villager sounds not being blocked ([#62](https://github.com/Team-VoW/WynncraftVoiceProject/issues/62)) ([b335c67](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b335c678a6aee8dd483a540f413aa470ed3298e8))
+
 ## [1.13.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.12.0...v1.13.0) (2026-01-15)
 
 
@@ -21,6 +38,11 @@
 * sendMessage thread safety ([#60](https://github.com/Team-VoW/WynncraftVoiceProject/issues/60)) ([2ad80e6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2ad80e61189822b0d5102c8df8bc4d0853c872ac))
 * **Temple of Legends:** Cut Garull, Jorkin & Rayshyroths lines ([b8606c0](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b8606c0042338dcdb919a5c6a2c0fddc00aa560c))
 * **The Envoy part 1:** Cut the lines from Olivin and the C.S.S Wavebreaker Captain ([a85d5ec](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a85d5ecb661bbfb4a70aa4f5088b5caac814e7c9))
+
+
+### Miscellaneous Chores
+
+* **release:** v1.13.0 [skip ci] ([edcb05c](https://github.com/Team-VoW/WynncraftVoiceProject/commit/edcb05cb93e1e39562a1ae7d59a1494ae46f3112))
 
 ## [1.12.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.11.3...v1.12.0) (2025-11-14)
 
@@ -81,31 +103,4 @@
 ### Build System
 
 * exclude PipeDecoder class due to CurseForge restrictions ([d462bcf](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d462bcf262e920e533d274d10764f94b5585f479))
-
-## [1.11.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.11.0...v1.11.1) (2025-07-07)
-
-
-### New Features
-
-* **A Marauders Dues:** Added all lines (all had been changed) ([fde7949](https://github.com/Team-VoW/WynncraftVoiceProject/commit/fde7949e6e4ec40811f35985f2446bfefa7fa760))
-* **Dark Descent:** Added new lines from Lost Soul ([104d97e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/104d97e3f508d3eb07b98283cafd5d9a05a2742a))
-
-
-### Bug Fixes
-
-* **Frost Bite:** Cut up two of Eppo's dialogues which where not cut ([eea5f67](https://github.com/Team-VoW/WynncraftVoiceProject/commit/eea5f6741b1fd2679ce1c37738ab36967c40d7bf))
-* Made the "Play all sounds on player" setting work correctly to disable 3d audio playback. ([9893286](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9893286fdabcecce642d35a650e299e280322d06))
-* **Mushroom Man:** fixed 5 not playing lines ([e7aa66f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e7aa66f156aad064f3b4b38f5b3b82af228c4e0b))
-* **Recover the past:** Fixed 3 Tasim lines not playing ([5563c47](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5563c47874f0971a9d97b383298d0501a9a18058))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.11.1 [skip ci] ([813179a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/813179a50c1b2ec6288dcb9ff19fb2b3601e5885))
-
-
-### Build System
-
-* Configure shadow plugin to relocate TarsosDSP dependencies ([8c54b19](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8c54b1954e86724d3ec703c772b56ddfe1fac878))
-* Copy over the latest sounds.json to be bundled with the mod ([dc1c8fa](https://github.com/Team-VoW/WynncraftVoiceProject/commit/dc1c8fa197fa95852f8508f52fb191e30dfdd972))
 
