@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.logging;
@@ -66,6 +66,10 @@ public class VowLogger {
         writeIfDoesNotContain(message);
 
         if (isLastLineInDialogue(message)) write("\n");
+    }
+
+    public static void logComment(String message) {
+        write("// " + message + "\n");
     }
 
     private static void writeIfDoesNotContain(String message) {

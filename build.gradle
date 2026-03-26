@@ -1,11 +1,19 @@
 plugins {
-    id 'fabric-loom' version '1.13-SNAPSHOT'
+    id 'fabric-loom' version '1.15-SNAPSHOT'
     id "com.diffplug.spotless" version "${spotless_version}"
     id 'com.gradleup.shadow' version '9.3.1'
 }
 
 base {
     archivesName = project.mod_name.replaceAll("\\s", "-") + "-fabric"
+}
+
+loom {
+    runs {
+        configureEach {
+            property("devauth.enabled", "true")
+        }
+    }
 }
 
 group = project.maven_group
@@ -116,6 +124,8 @@ dependencies {
 
     shadow 'be.tarsos.dsp:core:2.5'
     shadow 'be.tarsos.dsp:jvm:2.5'
+    implementation 'be.tarsos.dsp:core:2.5'
+    implementation 'be.tarsos.dsp:jvm:2.5'
 
     // Development dependencies
     modRuntimeOnly "me.djtheredstoner:DevAuth-fabric:${project.devauth_version}"

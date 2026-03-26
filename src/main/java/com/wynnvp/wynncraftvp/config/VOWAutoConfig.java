@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2025.
+ * Copyright © Team-VoW 2025-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.config;
@@ -23,6 +23,12 @@ public class VOWAutoConfig implements ConfigData {
     public String azureBlobLink = "http://voicesofwynn.blob.core.windows.net/audio/sounds/";
 
     @ConfigEntry.Gui.Excluded
+    public String azureBlobRootLink = "https://vow.blob.core.windows.net/mod/";
+
+    @ConfigEntry.Gui.Excluded
+    public String lastManifestUpdateHeader = "never";
+
+    @ConfigEntry.Gui.Excluded
     public List<String> urls = List.of("https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/");
 
     @ConfigEntry.Gui.Excluded
@@ -33,6 +39,10 @@ public class VOWAutoConfig implements ConfigData {
 
     @ConfigEntry.Gui.Tooltip
     public boolean playAllSoundsOnPlayer = false;
+
+    @ConfigEntry.Gui.Tooltip
+    @ConfigEntry.BoundedDiscrete(min = 1, max = 1000)
+    public int voiceVolume = 100;
 
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.BoundedDiscrete(min = 70, max = 200)
@@ -86,6 +96,9 @@ public class VOWAutoConfig implements ConfigData {
 
         @ConfigEntry.Gui.Tooltip
         public String customSoundsJsonPath = "";
+
+        @ConfigEntry.Gui.Tooltip
+        public boolean logOverlayDialogueToChat = false;
     }
 
     public boolean isLogDialogueLines() {
@@ -116,6 +129,10 @@ public class VOWAutoConfig implements ConfigData {
         return debugAndLogs.customSoundsJsonPath;
     }
 
+    public boolean isLogOverlayDialogueToChat() {
+        return debugAndLogs.logOverlayDialogueToChat;
+    }
+
     public boolean isRemoveVillagerSounds() {
         return removeVillagerSounds;
     }
@@ -126,6 +143,10 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isPlayAllSoundsOnPlayer() {
         return playAllSoundsOnPlayer;
+    }
+
+    public int getVoiceVolume() {
+        return voiceVolume;
     }
 
     public float getPlaybackSpeed() {
