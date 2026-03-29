@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.utils;
@@ -9,7 +9,7 @@ import static com.wynnvp.wynncraftvp.ModCore.config;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
+import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -73,7 +73,7 @@ public class VersionChecker {
         // If it is on a kill switch version. This is to disable the mod in case some game breaking bug is found
         // such as people being able to trigger sound files through chat messages
         if (killSwitchVersionInFloat >= versionInFloat) {
-            ReceiveChatEvent.stopMod = true;
+            SoundPlayer.stopMod = true;
             String message1 =
                     "§8A game breaking bug was found on your version of §5Voices of Wynn§8 so the mod was disabled. Please update it";
             Utils.sendMessage(message1);
