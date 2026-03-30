@@ -26,11 +26,17 @@ public final class OverlayHandler {
     // Ticks the body text must remain unchanged before we consider the typewriter done.
     private static final int OVERLAY_STABILITY_TICKS = 5;
 
+    // Minimum formatted-key length before attempting prefix lookup.
+    // Avoids useless queries when only the NPC name has arrived.
+    private static final int MIN_EARLY_PLAY_PREFIX_LENGTH = 10;
+
     private String pendingBody = null;
     private String pendingNpc = null;
     private long lastBodyChangeTick = -1;
     private long lastOverlayPacketTick = -1;
     private String lastFiredText = null;
+    private boolean earlyPlayed = false;
+    private String lastEarlyPlayedKey = null;
 
     public void onConnectionChange() {
         pendingBody = null;
@@ -38,6 +44,8 @@ public final class OverlayHandler {
         lastBodyChangeTick = -1;
         lastOverlayPacketTick = -1;
         lastFiredText = null;
+        earlyPlayed = false;
+        lastEarlyPlayedKey = null;
     }
 
     public void onTick() {
@@ -81,6 +89,28 @@ public final class OverlayHandler {
 
         pendingNpc = npc;
         lastOverlayPacketTick = currentTick;
+
+        tryEarlyPlay();
+    }
+
+    private void tryEarlyPlay() {
+        if (pendingNpc == null || pendingBody == null) return;
+
+        String combined = pendingNpc + ": " + pendingBody;
+        String prefix = LineFormatter.formatToLineData(combined).getSoundLine();
+        if (prefix.length() < MIN_EARLY_PLAY_PREFIX_LENGTH) return;
+
+        if (earlyPlayed) return;
+
+        var match = ModCore.instance.soundsHandler.findEarlyMatch(prefix);
+        if (match.isEmpty()) return;
+
+        String key = match.get().getKey();
+        if (key.equals(lastEarlyPlayedKey)) return;
+
+        earlyPlayed = true;
+        lastEarlyPlayedKey = key;
+        ModCore.instance.soundPlayer.playFromObject(match.get().getValue());
     }
 
     private void firePending() {
@@ -91,17 +121,24 @@ public final class OverlayHandler {
         lastBodyChangeTick = -1;
         lastOverlayPacketTick = -1;
 
+        boolean alreadyPlayed = earlyPlayed;
+        earlyPlayed = false;
+
         if (body == null) return;
 
         String combined = npc != null ? npc + ": " + body : "//" + body;
         if (combined.equals(lastFiredText)) return;
 
         lastFiredText = combined;
+
         if (ModCore.config.isLogOverlayDialogueToChat()) {
             Utils.sendMessage("§f" + combined);
         }
         VowLogger.logLine(combined);
-        ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(combined));
+
+        if (!alreadyPlayed) {
+            ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(combined));
+        }
     }
 
     /**
