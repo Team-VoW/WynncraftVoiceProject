@@ -5,7 +5,6 @@
 package com.wynnvp.wynncraftvp.events.mixins;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.events.ReceiveChatEvent;
 import net.minecraft.network.protocol.game.ServerboundPlayerInputPacket;
 import net.minecraft.world.entity.player.Input;
 import org.spongepowered.asm.mixin.Mixin;
@@ -24,7 +23,6 @@ public class SneakPacketMixin {
         boolean shiftDown = input.shift();
 
         if (shiftDown && !wasShiftDown) {
-            ReceiveChatEvent.resetCooldowns();
             if (ModCore.instance.audioPlayer != null) {
                 ModCore.instance.audioPlayer.autoProgress.cancelShift();
             }

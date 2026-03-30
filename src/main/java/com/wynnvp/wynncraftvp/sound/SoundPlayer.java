@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -15,6 +15,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
 
 public class SoundPlayer {
+    public static volatile boolean stopMod = false;
+
     private final LineReporter lineReporter;
 
     public SoundPlayer() {
@@ -23,6 +25,7 @@ public class SoundPlayer {
 
     // Code that is run to play all the sounds
     public void playSound(LineData lineData) {
+        if (stopMod) return;
         if (config.isLogPlayingInformation()) {
             VowLogger.logLine(
                     "[Attempting to play] " + lineData.getRealLine().trim() + " HTTP encoded:"
