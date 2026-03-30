@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -24,7 +24,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
+import java.util.TreeMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import net.minecraft.world.phys.Vec3;
@@ -34,13 +36,12 @@ import org.apache.logging.log4j.Logger;
 public class SoundsHandler {
     private static final String JSON_FILE = "sounds.json";
 
-    private final HashMap<String, SoundObject> sounds;
+    private volatile TreeMap<String, SoundObject> soundsTree = null;
     private final Gson gson;
 
     private static final Logger LOGGER = LogManager.getLogger(SoundsHandler.class);
 
     public SoundsHandler() {
-        sounds = new HashMap<>();
         gson = new GsonBuilder()
                 .registerTypeAdapter(Reverb.class, new ReverbDeserializer())
                 .create();
@@ -89,8 +90,9 @@ public class SoundsHandler {
         }
     }
 
-    public HashMap<String, SoundObject> getSounds() {
-        return sounds;
+    public Map<String, SoundObject> getSounds() {
+        TreeMap<String, SoundObject> tree = soundsTree;
+        return tree != null ? tree : Map.of();
     }
 
     private void loadSoundsFromJson(InputStream inputStream) {
@@ -98,6 +100,7 @@ public class SoundsHandler {
             Type dialogueListType = new TypeToken<List<DialogueData>>() {}.getType();
             List<DialogueData> dialogues = gson.fromJson(reader, dialogueListType);
 
+            HashMap<String, SoundObject> loaded = new HashMap<>();
             for (DialogueData dialogue : dialogues) {
                 String message = dialogue.getDialogueLine();
                 String fileName = dialogue.getFile();
@@ -110,7 +113,7 @@ public class SoundsHandler {
 
                 LineData lineData = formatToLineData(message);
                 message = lineData.getSoundLine();
-                sounds.put(
+                loaded.put(
                         message,
                         new SoundObject(
                                 lineData.getNPCName(),
@@ -121,6 +124,7 @@ public class SoundsHandler {
                                 stopSounds,
                                 environment));
             }
+            soundsTree = new TreeMap<>(loaded);
         } catch (IOException e) {
             throw new RuntimeException("Failed to load JSON file", e);
         }
@@ -231,7 +235,27 @@ public class SoundsHandler {
         throw new IllegalStateException("No valid JSON file found!");
     }
 
+    /**
+     * Returns the single manifest entry whose key starts with {@code prefix}, or empty if
+     * there are zero or more than one such entries (ambiguous).
+     */
+    public Optional<Map.Entry<String, SoundObject>> findEarlyMatch(String prefix) {
+        TreeMap<String, SoundObject> tree = soundsTree;
+        if (tree == null) return Optional.empty();
+
+        Map.Entry<String, SoundObject> ceiling = tree.ceilingEntry(prefix);
+        if (ceiling == null || !ceiling.getKey().startsWith(prefix)) return Optional.empty();
+
+        // Ambiguous if a second key also starts with the prefix
+        String nextKey = tree.higherKey(ceiling.getKey());
+        if (nextKey != null && nextKey.startsWith(prefix)) return Optional.empty();
+
+        return Optional.of(ceiling);
+    }
+
     public Optional<SoundObject> get(String message) {
-        return Optional.ofNullable(sounds.get(message));
+        TreeMap<String, SoundObject> tree = soundsTree;
+        if (tree == null) return Optional.empty();
+        return Optional.ofNullable(tree.get(message));
     }
 }
