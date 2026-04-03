@@ -138,7 +138,8 @@ public final class OverlayHandler {
         VowLogger.logLine(combined);
 
         if (!alreadyPlayed) {
-            ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(replacePlayerName(combined)));
+            String playbackLine = npc != null ? combined : body;
+            ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(replacePlayerName(playbackLine)));
         }
     }
 
