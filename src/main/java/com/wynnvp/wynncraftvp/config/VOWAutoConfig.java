@@ -73,7 +73,7 @@ public class VOWAutoConfig implements ConfigData {
 
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.BoundedDiscrete(min = 1, max = 100)
-    public int earlyPlayOverlayMinChars = 10;
+    public int earlyPlayOverlayMinChars = 15;
 
     // Debug and Logs section
     @ConfigEntry.Gui.CollapsibleObject
