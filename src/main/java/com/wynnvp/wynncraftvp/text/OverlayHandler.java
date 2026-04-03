@@ -27,10 +27,6 @@ public final class OverlayHandler {
     // Ticks the body text must remain unchanged before we consider the typewriter done.
     private static final int OVERLAY_STABILITY_TICKS = 5;
 
-    // Minimum formatted-key length before attempting prefix lookup.
-    // Avoids useless queries when only the NPC name has arrived.
-    private static final int MIN_EARLY_PLAY_PREFIX_LENGTH = 10;
-
     private String pendingBody = null;
     private String pendingNpc = null;
     private long lastBodyChangeTick = -1;
@@ -102,7 +98,7 @@ public final class OverlayHandler {
         String combined = pendingNpc + ": " + pendingBody;
         String prefix =
                 LineFormatter.formatToLineData(replacePlayerName(combined)).getSoundLine();
-        if (prefix.length() < MIN_EARLY_PLAY_PREFIX_LENGTH) return;
+        if (prefix.length() < ModCore.config.getEarlyPlayOverlayMinChars()) return;
 
         if (earlyPlayed) return;
 
