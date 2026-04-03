@@ -202,7 +202,8 @@ public class SoundsHandler {
                         ModCore.LOGGER.info("[Voices of Wynn] Using custom sounds.json URL: {}", customPath);
                         return new URL(customPath).openStream();
                     } catch (IOException e) {
-                        ModCore.LOGGER.error("[Voices of Wynn] Failed to load custom sounds.json from URL: {}", customPath, e);
+                        ModCore.LOGGER.error(
+                                "[Voices of Wynn] Failed to load custom sounds.json from URL: {}", customPath, e);
                         ModCore.LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
                     }
                 } else if (Files.exists(Paths.get(customPath))) {
@@ -210,7 +211,8 @@ public class SoundsHandler {
                         ModCore.LOGGER.info("[Voices of Wynn] Using custom sounds.json file from: {}", customPath);
                         return new FileInputStream(customPath);
                     } catch (IOException e) {
-                        ModCore.LOGGER.error("[Voices of Wynn] Failed to load custom sounds.json from: {}", customPath, e);
+                        ModCore.LOGGER.error(
+                                "[Voices of Wynn] Failed to load custom sounds.json from: {}", customPath, e);
                         ModCore.LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
                     }
                 } else {
