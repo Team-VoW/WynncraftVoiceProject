@@ -91,7 +91,9 @@ public final class OverlayHandler {
         pendingNpc = npc;
         lastOverlayPacketTick = currentTick;
 
-        tryEarlyPlay();
+        if (ModCore.config.isEarlyPlayOverlay()) {
+            tryEarlyPlay();
+        }
     }
 
     private void tryEarlyPlay() {
@@ -123,7 +125,7 @@ public final class OverlayHandler {
         lastBodyChangeTick = -1;
         lastOverlayPacketTick = -1;
 
-        boolean alreadyPlayed = earlyPlayed;
+        boolean alreadyPlayed = earlyPlayed && ModCore.config.isEarlyPlayOverlay();
         earlyPlayed = false;
 
         if (body == null) return;
