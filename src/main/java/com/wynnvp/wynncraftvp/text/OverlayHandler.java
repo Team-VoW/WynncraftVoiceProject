@@ -121,7 +121,8 @@ public final class OverlayHandler {
         lastBodyChangeTick = -1;
         lastOverlayPacketTick = -1;
 
-        boolean alreadyPlayed = earlyPlayed && ModCore.config.isEarlyPlayOverlay();
+        String firedEarlyKey = lastEarlyPlayedKey;
+        boolean wasEarlyPlayed = earlyPlayed && ModCore.config.isEarlyPlayOverlay();
         earlyPlayed = false;
 
         if (body == null) return;
@@ -136,9 +137,18 @@ public final class OverlayHandler {
         }
         VowLogger.logLine(combined);
 
+        String playbackLine = npc != null ? combined : body;
+        String formattedPlaybackLine = replacePlayerName(playbackLine);
+        String finalKey = LineFormatter.formatToLineData(formattedPlaybackLine).getSoundLine();
+        boolean alreadyPlayed = wasEarlyPlayed && finalKey.equals(firedEarlyKey);
+        boolean wrongKeyPlayed = wasEarlyPlayed && !finalKey.equals(firedEarlyKey);
+
+        if (wrongKeyPlayed) {
+            ModCore.instance.soundPlayer.stopCurrentAudio();
+        }
+
         if (!alreadyPlayed) {
-            String playbackLine = npc != null ? combined : body;
-            ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(replacePlayerName(playbackLine)));
+            ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(formattedPlaybackLine));
         }
     }
 
