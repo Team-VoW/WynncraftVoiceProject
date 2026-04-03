@@ -98,7 +98,8 @@ public final class OverlayHandler {
         if (pendingNpc == null || pendingBody == null) return;
 
         String combined = pendingNpc + ": " + pendingBody;
-        String prefix = LineFormatter.formatToLineData(replacePlayerName(combined)).getSoundLine();
+        String prefix =
+                LineFormatter.formatToLineData(replacePlayerName(combined)).getSoundLine();
         if (prefix.length() < MIN_EARLY_PLAY_PREFIX_LENGTH) return;
 
         if (earlyPlayed) return;
