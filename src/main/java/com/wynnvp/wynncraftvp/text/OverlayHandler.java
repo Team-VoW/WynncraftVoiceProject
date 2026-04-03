@@ -10,6 +10,7 @@ import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.ArrayList;
 import java.util.List;
+import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.chat.Component;
 
 /**
@@ -97,7 +98,7 @@ public final class OverlayHandler {
         if (pendingNpc == null || pendingBody == null) return;
 
         String combined = pendingNpc + ": " + pendingBody;
-        String prefix = LineFormatter.formatToLineData(combined).getSoundLine();
+        String prefix = LineFormatter.formatToLineData(replacePlayerName(combined)).getSoundLine();
         if (prefix.length() < MIN_EARLY_PLAY_PREFIX_LENGTH) return;
 
         if (earlyPlayed) return;
@@ -137,8 +138,16 @@ public final class OverlayHandler {
         VowLogger.logLine(combined);
 
         if (!alreadyPlayed) {
-            ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(combined));
+            ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(replacePlayerName(combined)));
         }
+    }
+
+    private static String replacePlayerName(String text) {
+        LocalPlayer player = Utils.player();
+        if (player == null) return text;
+        String name = player.getName().getString();
+        if (name.isEmpty()) return text;
+        return text.replace(name, "soldier");
     }
 
     /**
