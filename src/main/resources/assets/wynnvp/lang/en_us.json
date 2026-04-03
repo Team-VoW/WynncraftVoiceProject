@@ -26,6 +26,8 @@
   "text.autoconfig.wynnvp.option.doLogging": "Do Logging",
   "text.autoconfig.wynnvp.option.downloadSounds": "Download Sounds",
   "text.autoconfig.wynnvp.option.downloadSounds.@Tooltip": "If all sounds should be downloaded. Enable this if you experience high latency in audio playback",
+  "text.autoconfig.wynnvp.option.earlyPlayOverlay": "Early play dialogue",
+  "text.autoconfig.wynnvp.option.earlyPlayOverlay.@Tooltip": "Start playing dialogue as soon as a partial line matches, before the typewriter animation finishes. Disable to only play after the full line is received. Note: when voice acting is missing for a line, an early partial match may cause the wrong audio to play.",
   "text.autoconfig.wynnvp.option.enableReverb": "Enable reverb",
   "text.autoconfig.wynnvp.option.enableReverb.@Tooltip": "Adds environmental reverb effects to NPC voices based on their location (caves, buildings, etc.)",
   "text.autoconfig.wynnvp.option.playAllSoundsOnPlayer": "Play all sounds on player",

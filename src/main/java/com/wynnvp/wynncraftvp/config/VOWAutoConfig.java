@@ -68,6 +68,9 @@ public class VOWAutoConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip
     public boolean enableReverb = true;
 
+    @ConfigEntry.Gui.Tooltip
+    public boolean earlyPlayOverlay = true;
+
     // Debug and Logs section
     @ConfigEntry.Gui.CollapsibleObject
     public DebugAndLogs debugAndLogs = new DebugAndLogs();
@@ -131,6 +134,10 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isLogOverlayDialogueToChat() {
         return debugAndLogs.logOverlayDialogueToChat;
+    }
+
+    public boolean isEarlyPlayOverlay() {
+        return earlyPlayOverlay;
     }
 
     public boolean isRemoveVillagerSounds() {
