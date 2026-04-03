@@ -70,6 +70,11 @@ public class SoundPlayer {
         ModCore.instance.audioPlayer.play(sound);
     }
 
+    public void stopCurrentAudio() {
+        if (ModCore.instance.audioPlayer == null) return;
+        ModCore.instance.audioPlayer.openAlPlayer.stopAudio();
+    }
+
     private void PlaySoundObject(SoundObject sound) {
         if (ModCore.instance.audioPlayer == null) {
             Utils.sendMessage("ERROR! SOUND ENGINE WAS NOT INITIALIZED! PLEASE MAKE A REPORT");

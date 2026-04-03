@@ -22,6 +22,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -30,16 +31,12 @@ import java.util.TreeMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import net.minecraft.world.phys.Vec3;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class SoundsHandler {
     private static final String JSON_FILE = "sounds.json";
 
     private volatile TreeMap<String, SoundObject> soundsTree = null;
     private final Gson gson;
-
-    private static final Logger LOGGER = LogManager.getLogger(SoundsHandler.class);
 
     public SoundsHandler() {
         gson = new GsonBuilder()
@@ -50,16 +47,16 @@ public class SoundsHandler {
         executor.execute(() -> {
             try {
                 if (shouldUpdateJson()) {
-                    LOGGER.info("[Voices of Wynn] Updating JSON audio file.");
+                    ModCore.LOGGER.info("[Voices of Wynn] Updating JSON audio file.");
                     downloadJson();
                 }
                 loadSoundsFromJson(getJsonStream());
             } catch (RuntimeException e) {
                 if (e.getCause() instanceof com.google.gson.stream.MalformedJsonException) {
-                    LOGGER.error("[Voices of Wynn] Detected corrupted JSON file, attempting to fix", e);
+                    ModCore.LOGGER.error("[Voices of Wynn] Detected corrupted JSON file, attempting to fix", e);
                     handleCorruptedJsonFile();
                 } else {
-                    LOGGER.error("[Voices of Wynn] Failed to initialize sounds", e);
+                    ModCore.LOGGER.error("[Voices of Wynn] Failed to initialize sounds", e);
                 }
             }
         });
@@ -69,30 +66,30 @@ public class SoundsHandler {
         try {
             // Delete the corrupted file
             Files.deleteIfExists(Paths.get(JSON_FILE));
-            LOGGER.info("[Voices of Wynn] Deleted corrupted sounds.json file");
+            ModCore.LOGGER.info("[Voices of Wynn] Deleted corrupted sounds.json file");
 
             // Re-download and try again
             downloadJson();
             loadSoundsFromJson(getJsonStream());
-            LOGGER.info("[Voices of Wynn] Successfully recovered from corrupted JSON file");
+            ModCore.LOGGER.info("[Voices of Wynn] Successfully recovered from corrupted JSON file");
         } catch (Exception e) {
-            LOGGER.error("[Voices of Wynn] Failed to recover from corrupted JSON file", e);
+            ModCore.LOGGER.error("[Voices of Wynn] Failed to recover from corrupted JSON file", e);
             // Try to load from bundled resource as last resort
             try {
                 InputStream bundledStream = this.getClass().getClassLoader().getResourceAsStream(JSON_FILE);
                 if (bundledStream != null) {
                     loadSoundsFromJson(bundledStream);
-                    LOGGER.info("[Voices of Wynn] Successfully loaded bundled sounds.json as fallback");
+                    ModCore.LOGGER.info("[Voices of Wynn] Successfully loaded bundled sounds.json as fallback");
                 }
             } catch (Exception ex) {
-                LOGGER.error("[Voices of Wynn] All recovery attempts failed", ex);
+                ModCore.LOGGER.error("[Voices of Wynn] All recovery attempts failed", ex);
             }
         }
     }
 
     public Map<String, SoundObject> getSounds() {
         TreeMap<String, SoundObject> tree = soundsTree;
-        return tree != null ? tree : Map.of();
+        return tree != null ? Collections.unmodifiableMap(tree) : Map.of();
     }
 
     private void loadSoundsFromJson(InputStream inputStream) {
@@ -149,7 +146,7 @@ public class SoundsHandler {
                 return true;
             }
         } catch (Exception e) {
-            LOGGER.error("[Voices of Wynn] Failed to download determine if it should update the Json", e);
+            ModCore.LOGGER.error("[Voices of Wynn] Failed to download determine if it should update the Json", e);
         }
         return false;
     }
@@ -164,14 +161,14 @@ public class SoundsHandler {
                 return connection.getHeaderField("Last-Modified");
             }
         } catch (Exception e) {
-            LOGGER.error("[Voices of Wynn] Failed to fetch lastModifiedHeader", e);
+            ModCore.LOGGER.error("[Voices of Wynn] Failed to fetch lastModifiedHeader", e);
         }
         return null;
     }
 
     private void downloadJson() {
         try {
-            LOGGER.info("Downloading updated sounds.json");
+            ModCore.LOGGER.info("Downloading updated sounds.json");
             HttpURLConnection connection =
                     (HttpURLConnection) new URL(ModCore.config.getRemoteJsonLink()).openConnection();
             connection.setRequestMethod("GET");
@@ -186,12 +183,12 @@ public class SoundsHandler {
                     }
                 }
             } else {
-                LOGGER.info(
+                ModCore.LOGGER.info(
                         "[Voices of Wynn] Failed to download JSON file. Response code: {}",
                         connection.getResponseCode());
             }
         } catch (IOException e) {
-            LOGGER.error("[Voices of Wynn] Failed to download sounds.json file", e);
+            ModCore.LOGGER.error("[Voices of Wynn] Failed to download sounds.json file", e);
         }
     }
 
@@ -202,25 +199,25 @@ public class SoundsHandler {
             if (customPath != null && !customPath.isEmpty()) {
                 if (customPath.startsWith("http://") || customPath.startsWith("https://")) {
                     try {
-                        LOGGER.info("[Voices of Wynn] Using custom sounds.json URL: {}", customPath);
+                        ModCore.LOGGER.info("[Voices of Wynn] Using custom sounds.json URL: {}", customPath);
                         return new URL(customPath).openStream();
                     } catch (IOException e) {
-                        LOGGER.error("[Voices of Wynn] Failed to load custom sounds.json from URL: {}", customPath, e);
-                        LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
+                        ModCore.LOGGER.error("[Voices of Wynn] Failed to load custom sounds.json from URL: {}", customPath, e);
+                        ModCore.LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
                     }
                 } else if (Files.exists(Paths.get(customPath))) {
                     try {
-                        LOGGER.info("[Voices of Wynn] Using custom sounds.json file from: {}", customPath);
+                        ModCore.LOGGER.info("[Voices of Wynn] Using custom sounds.json file from: {}", customPath);
                         return new FileInputStream(customPath);
                     } catch (IOException e) {
-                        LOGGER.error("[Voices of Wynn] Failed to load custom sounds.json from: {}", customPath, e);
-                        LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
+                        ModCore.LOGGER.error("[Voices of Wynn] Failed to load custom sounds.json from: {}", customPath, e);
+                        ModCore.LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
                     }
                 } else {
-                    LOGGER.warn(
+                    ModCore.LOGGER.warn(
                             "[Voices of Wynn] Custom sounds.json enabled but path is invalid or file doesn't exist: {}",
                             customPath);
-                    LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
+                    ModCore.LOGGER.info("[Voices of Wynn] Falling back to default sounds.json");
                 }
             }
         }
@@ -228,18 +225,18 @@ public class SoundsHandler {
         // Default behavior
         if (Files.exists(Paths.get(JSON_FILE))) {
             try {
-                LOGGER.info("[Voices of Wynn] Using cached sounds.json file");
+                ModCore.LOGGER.info("[Voices of Wynn] Using cached sounds.json file");
                 return new FileInputStream(JSON_FILE);
             } catch (IOException e) {
                 throw new RuntimeException("Failed to open local JSON file", e);
             }
         } else {
-            LOGGER.info("[Voices of Wynn] Using bundled sounds.json file");
+            ModCore.LOGGER.info("[Voices of Wynn] Using bundled sounds.json file");
             InputStream bundledStream = this.getClass().getClassLoader().getResourceAsStream(JSON_FILE);
             if (bundledStream != null) {
                 return bundledStream;
             } else {
-                LOGGER.error("[Voices of Wynn] COULD NOT FIND BUNDLED SOUNDS.JSON FILE");
+                ModCore.LOGGER.error("[Voices of Wynn] COULD NOT FIND BUNDLED SOUNDS.JSON FILE");
             }
         }
         throw new IllegalStateException("No valid JSON file found!");
