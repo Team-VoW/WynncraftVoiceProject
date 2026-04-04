@@ -56885,5 +56885,381 @@
   {
     "line": "Dr. Picard: My research questions will finally get some answers. Finally, their secrets will be revealed!",
     "file": "queensrecruit-drpicard-56"
+  },
+  {
+    "line": "Ragni's King: Greetings, soldier. It is always an honour to have you in our halls.",
+    "file": "ajourneyhome-ragnisking-1"
+  },
+  {
+    "line": "Ragni's King: Is there anything I can do for you today?",
+    "file": "ajourneyhome-ragnisking-2"
+  },
+  {
+    "line": "Ragni's King: ...Ah. I see. So I suppose...things must not have gone well. Have all the others returned?",
+    "file": "ajourneyhome-ragnisking-3"
+  },
+  {
+    "line": "Ragni's King: So, Tasim has stayed behind then. I'm to suppose you're worried for his safety, in amongst any other worries you might have.",
+    "file": "ajourneyhome-ragnisking-4"
+  },
+  {
+    "line": "Ragni's King: Alas, I am afraid my hands are quite tied here. There is little I can do- you recall what I said in the meeting.",
+    "file": "ajourneyhome-ragnisking-5"
+  },
+  {
+    "line": "Ragni's King: Ragni's relations with Fruma exclusively consist of the generous batches of recruits sent to fight the corruption here in Wynn.",
+    "file": "ajourneyhome-ragnisking-6"
+  },
+  {
+    "line": "Ragni's King: Although you are not the first to wish to return to Fruma, I have not had any recruits who went to investigate come back satisfied. Or, in a scant few cases, at all.",
+    "file": "ajourneyhome-ragnisking-7"
+  },
+  {
+    "line": "Ragni's King: I may only grant you access to the pass you took to first come here. Simply take the door and do what you must. I know not what you will find...",
+    "file": "ajourneyhome-ragnisking-8"
+  },
+  {
+    "line": "Ragni's King: I'd advise you be cautious. The Queen's correspondence has been...not unkind, but forceful- And considering the circumstances...",
+    "file": "ajourneyhome-ragnisking-9"
+  },
+  {
+    "line": "Ragni's King: ...I will make only one demand of you. Whatever happens...come back alive.",
+    "file": "ajourneyhome-ragnisking-10"
+  },
+  {
+    "line": "Ragni's King: The door to the pass between here and Fruma is down the hall, across from the fireplace. Come back alive- that is an order as King.",
+    "file": "ajourneyhome-ragnisking-11"
+  },
+  {
+    "line": "Paxon: This job is impossible!! Why am I even here?!",
+    "file": "ajourneyhome-paxon-1"
+  },
+  {
+    "line": "Lieutenant Tolv: Ah! You're a soldier, right? Look, I- It's, it's just a really difficult time right now.",
+    "file": "ajourneyhome-lieutenanttolv-1"
+  },
+  {
+    "line": "Lieutenant Tolv: This, this whole situation is definitely above my paygrade! I don't know how I'm going to deal with this...",
+    "file": "ajourneyhome-lieutenanttolv-2"
+  },
+  {
+    "line": "Lieutenant Tolv: Enough of that, I, ah, I suppose. What is it you need?",
+    "file": "ajourneyhome-lieutenanttolv-3"
+  },
+  {
+    "line": "Lieutenant Tolv: Oh. Oh no. Ah, I, you see, that'll be a problem, I think. What do you even need to do at the border anyway?",
+    "file": "ajourneyhome-lieutenanttolv-4"
+  },
+  {
+    "line": "Lieutenant Tolv: I can't really imagine what you could need there, but, whatever it is, it'll need to wait! This Corkian drill won't work, and Paxon's stuck, and-",
+    "file": "ajourneyhome-lieutenanttolv-5"
+  },
+  {
+    "line": "Lieutenant Tolv: Look, I'm...I'm sorry for snapping at you. I'm trained for military operation, not for cave-in clearance, but no one else was available!",
+    "file": "ajourneyhome-lieutenanttolv-6"
+  },
+  {
+    "line": "Lieutenant Tolv: Even the demolitions expert I hired is stuck, so it's all just, it's all going wrong and I don't know what to do.",
+    "file": "ajourneyhome-lieutenanttolv-7"
+  },
+  {
+    "line": "Lieutenant Tolv: You see that new entrance over there? The expert, Paxon, has been in there for almost as long as I was trying this dud machine.",
+    "file": "ajourneyhome-lieutenanttolv-8"
+  },
+  {
+    "line": "Lieutenant Tolv: If you think you can do a job better than an expert, go ahead and talk with them, but I'm pretty sure you'll have to cancel whatever plans you had.",
+    "file": "ajourneyhome-lieutenanttolv-9"
+  },
+  {
+    "line": "Lieutenant Tolv: If you really need to get to the border, your best bet is to talk to Paxon in the new cave entrance.",
+    "file": "ajourneyhome-lieutenanttolv-10"
+  },
+  {
+    "line": "Lieutenant Tolv: But, they're an expert, so I think your business will have to wait. Really, really sorry about all this!",
+    "file": "ajourneyhome-lieutenanttolv-11"
+  },
+  {
+    "line": "Paxon: Oh no, not another one- I don't care what rank you are, what you're asking is impossible! Even for me, it-",
+    "file": "ajourneyhome-paxon-2"
+  },
+  {
+    "line": "Paxon: Wait, you aren't part of the... You're just a regular soldier. You're just trying to get through here, aren't you?",
+    "file": "ajourneyhome-paxon-3"
+  },
+  {
+    "line": "Paxon: May as well give up now! Not happening. No way. You're wasting your time, and let me tell you exactly why.",
+    "file": "ajourneyhome-paxon-4"
+  },
+  {
+    "line": "Paxon: You see that blue rock over there? It's a break point. If I could set off these explosives at it, it'd open a path.",
+    "file": "ajourneyhome-paxon-5"
+  },
+  {
+    "line": "Paxon: But apparently all these structures set up are so important that any of it being damaged, or MOVED, is unacceptable!",
+    "file": "ajourneyhome-paxon-6"
+  },
+  {
+    "line": "Paxon: And to make sure I'm 'supervised' while the Lieutenant is working on the drill, the detonator HAS to be here.",
+    "file": "ajourneyhome-paxon-7"
+  },
+  {
+    "line": "Paxon: So I have to daisy-chain a limited amount of explosives all the way over to the stone, without blasting any structures!",
+    "file": "ajourneyhome-paxon-8"
+  },
+  {
+    "line": "Paxon: I've been trying for hours and gotten absolutely nowhere! I'm one of the best in my field, even! It's ridiculous!!",
+    "file": "ajourneyhome-paxon-9"
+  },
+  {
+    "line": "Paxon: If you feel like wasting your time, here's my stock of explosives. Feel free to try your hand at it, but you should really just go.",
+    "file": "ajourneyhome-paxon-10"
+  },
+  {
+    "line": "Paxon: Still at it? What, do you need a reminder? I've got nothing better to do.",
+    "file": "ajourneyhome-paxon-11"
+  },
+  {
+    "line": "Paxon: Like I said, you really should just mosey on back to the castle. If I can't get anywhere, I don't think you'll fare better.",
+    "file": "ajourneyhome-paxon-12"
+  },
+  {
+    "line": "Paxon: So the blue rock is soft enough to crack through with the explosives. But the detonator's stuck here.",
+    "file": "ajourneyhome-paxon-13"
+  },
+  {
+    "line": "Paxon: So we need to use the TNT Placer to daisy-chain blasts from the detonator, without blasting any tents, crates, or walls.",
+    "file": "ajourneyhome-paxon-14"
+  },
+  {
+    "line": "Paxon: You can look at placed TNT to see its blast radius, as well.",
+    "file": "ajourneyhome-paxon-15"
+  },
+  {
+    "line": "Paxon: But given how tight the squeeze between some of those structures is, there's just no way it's happening.",
+    "file": "ajourneyhome-paxon-16"
+  },
+  {
+    "line": "Guard: Where did you come from?!",
+    "file": "ajourneyhome-guard-1"
+  },
+  {
+    "line": "Guard: Halt! Where did you come from? There was a cave-in past here, wasn't there?",
+    "file": "ajourneyhome-guard-2"
+  },
+  {
+    "line": "Guard: A new path, huh? I didn't think you'd have things to be doing back here, though I won't say I'm ungrateful.",
+    "file": "ajourneyhome-guard-3"
+  },
+  {
+    "line": "Guard: It even crushed the grook's nest there. I've been working off field rations for a few days. So where are you headed?",
+    "file": "ajourneyhome-guard-4"
+  },
+  {
+    "line": "Guard: The border? I suppose if you're headed there, it must be important, official business. Although, it might have to wait.",
+    "file": "ajourneyhome-guard-5"
+  },
+  {
+    "line": "Guard: The bridge repair was something of a hackjob. It may not bear up your weight. Now that the cave-in's clear, we might be able to get it fixed proper...",
+    "file": "ajourneyhome-guard-6"
+  },
+  {
+    "line": "Guard: But that'll take time. I'd just as soon turn back- whatever business you have isn't worth your life, after all.",
+    "file": "ajourneyhome-guard-7"
+  },
+  {
+    "line": "Guard: Say, I think I recognize you, actually. That's a rarity for this line of work.",
+    "file": "ajourneyhome-guard-8"
+  },
+  {
+    "line": "Guard: Are you sure that what you have to do is worth it? That bridge is awful rickety. Wouldn't want to lose you.",
+    "file": "ajourneyhome-guard-9"
+  },
+  {
+    "line": "Soldier: Hey, you there! Come talk to me before you pass through.",
+    "file": "ajourneyhome-soldier-1"
+  },
+  {
+    "line": "Soldier: Coming or going, I'm under strict orders to intercept soldiers and make sure they're equipped before heading on.",
+    "file": "ajourneyhome-soldier-2"
+  },
+  {
+    "line": "Soldier: No exceptions, not for any reason. Especially not since the cave-in across the river!",
+    "file": "ajourneyhome-soldier-3"
+  },
+  {
+    "line": "Soldier: Nothing's more important than your life, and moving on without being suited up could cost you it!",
+    "file": "ajourneyhome-soldier-4"
+  },
+  {
+    "line": "Soldier: Well, let me take a look at it and see if this stuff is up to regulation.",
+    "file": "ajourneyhome-soldier-5"
+  },
+  {
+    "line": "Soldier: Hmm... Ah, yep, signs of wear all over... Armor not polished... Weapon looks liable to fall apart any second...",
+    "file": "ajourneyhome-soldier-6"
+  },
+  {
+    "line": "Soldier: I'm surprised you made it ten feet out here with those rusty trinkets! This is no way to protect yourself!",
+    "file": "ajourneyhome-soldier-7"
+  },
+  {
+    "line": "Soldier: Look, there's a loot chest in the cave just there, so you need to head in and get yourself some proper equipment.",
+    "file": "ajourneyhome-soldier-8"
+  },
+  {
+    "line": "Soldier: ...that so, huh? Well, I think you should take a second look up ahead.",
+    "file": "ajourneyhome-soldier-9"
+  },
+  {
+    "line": "Soldier: Like I said- coming or going. No matter what, you should gear up by looting the cave here before heading onwards.",
+    "file": "ajourneyhome-soldier-10"
+  },
+  {
+    "line": "Soldier: That looks like the stuff. You can take that armor to an Item Identifier right there, and then you can wear it once identified.",
+    "file": "ajourneyhome-soldier-11"
+  },
+  {
+    "line": "Soldier: Good stuff. There's a loot chest in that cave there, so you should find everything you need. Get to it!",
+    "file": "ajourneyhome-soldier-12"
+  },
+  {
+    "line": "Soldier: Enter the cave and open the loot chest.",
+    "file": "ajourneyhome-soldier-13"
+  },
+  {
+    "line": "Soldier: See? Now no more guff about levels- you either gear up properly, or you don't pass! I won't have you risking your life.",
+    "file": "ajourneyhome-soldier-14"
+  },
+  {
+    "line": "Soldier: You can find good stuff in caves, like the one just next to me, so hop to it.",
+    "file": "ajourneyhome-soldier-15"
+  },
+  {
+    "line": "Soldier: That looks like the stuff. See? That wasn't so hard. Alright, now!",
+    "file": "ajourneyhome-soldier-16"
+  },
+  {
+    "line": "Soldier: You can take that armor to an Item Identifier right there, and then you can wear it once identified.",
+    "file": "ajourneyhome-soldier-17"
+  },
+  {
+    "line": "Soldier: Though, since you seem to be headed back to the border... I have to ask why. It's pretty unusual. Probably best you head back to Ragni.",
+    "file": "ajourneyhome-soldier-18"
+  },
+  {
+    "line": "Soldier: If other recruits see you coming the other way, they might get confused, or discouraged. Wouldn't want to risk that, right?",
+    "file": "ajourneyhome-soldier-19"
+  },
+  {
+    "line": "Fruman Recruit: ...been recruiting Fruman soldiers for the war effort. Apparently things are really bad over there. Makes me nervous...",
+    "file": "ajourneyhome-frumanrecruit1-1"
+  },
+  {
+    "line": "Fruman Recruit: Walking corpses aren't anything I'm going to underestimate, but it can't be all doom and gloom, right?",
+    "file": "ajourneyhome-frumanrecruit2-1"
+  },
+  {
+    "line": "Fruman Recruit: I suppose we'll see once we pass through this gate. It marks the border... Deep breaths, deep breaths...",
+    "file": "ajourneyhome-frumanrecruit1-2"
+  },
+  {
+    "line": "Fruman Recruit: ...know anything about Wynn? I didn't get any debriefing.",
+    "file": "ajourneyhome-frumanrecruit3-1"
+  },
+  {
+    "line": "Fruman Recruit: I remember rumors... Something about a great hero. Name started with...an R?",
+    "file": "ajourneyhome-frumanrecruit4-1"
+  },
+  {
+    "line": "Fruman Recruit: We'll make it a point to ask as soon as we can. Information's key to fighting wars.",
+    "file": "ajourneyhome-frumanrecruit3-2"
+  },
+  {
+    "line": "Fruman Recruit: ...rotten driver. I feel for the man, but he said he always hits that boulder. Sounds like his own fault to me.",
+    "file": "ajourneyhome-frumanrecruit5-1"
+  },
+  {
+    "line": "Fruman Recruit: I'm thinking about meals more than wheels. I feel like I haven't eaten in days. Hope the walk's short...",
+    "file": "ajourneyhome-frumanrecruit6-1"
+  },
+  {
+    "line": "Fruman Recruit: Well, if he was a more competent driver you wouldn't have to walk so far on an empty stomach! Let's hurry so we can get you a feast, huh?",
+    "file": "ajourneyhome-frumanrecruit5-2"
+  },
+  {
+    "line": "Caravan Driver: ...and that's the last of them for today.",
+    "file": "ajourneyhome-caravandriver-1"
+  },
+  {
+    "line": "Caravan Driver: Lot of pairs today. Eight more in the wings... But that's for tomorrow.",
+    "file": "ajourneyhome-caravandriver-2"
+  },
+  {
+    "line": "Caravan Driver: Same darn boulder... Same darn line, too. Wonder if they'll let me shake it up one day. This is always a pain...",
+    "file": "ajourneyhome-caravandriver-3"
+  },
+  {
+    "line": "Caravan Driver: And that's that about that. And now, to be off...to the home I choose. And there's no troubles to follow me there.",
+    "file": "ajourneyhome-caravandriver-4"
+  },
+  {
+    "line": "Caravan Driver: Just couldn't take the hint, huh?",
+    "file": "ajourneyhome-caravandriver-5"
+  },
+  {
+    "line": "Caravan Driver: Bet you think you're slick. Didn't even notice me hang back to watch, huh? I wasn't born yesterday.",
+    "file": "ajourneyhome-caravandriver-6"
+  },
+  {
+    "line": "Caravan Driver: Listen, this isn't the first time something like this has happened- Y'know. Someone gets curious, retraces their steps.",
+    "file": "ajourneyhome-caravandriver-7"
+  },
+  {
+    "line": "Caravan Driver: If you couldn't tell, this whole thing's meant to be a one way trip. The bridge, the cave-in, everyone trying to discourage you.",
+    "file": "ajourneyhome-caravandriver-8"
+  },
+  {
+    "line": "Caravan Driver: It's not wise to be here- After all, you weren't the one out of your group of three that got permission to stay. Yeah, I heard about the tournament results.",
+    "file": "ajourneyhome-caravandriver-9"
+  },
+  {
+    "line": "Caravan Driver: So...you got two choices, buddy. We can let this slide between us. We can. You can go marching right back to Ragni and my lips will be sealed.",
+    "file": "ajourneyhome-caravandriver-10"
+  },
+  {
+    "line": "Caravan Driver: Or, you can live life dangerously and follow me on the train to Fort Torann. Better make your choice quick, though- it's leaving soon.",
+    "file": "ajourneyhome-caravandriver-11"
+  },
+  {
+    "line": "Caravan Driver: If I see you in the passenger cabin, well...that'll be that, and you'll just have to wait and see what comes of it.",
+    "file": "ajourneyhome-caravandriver-12"
+  },
+  {
+    "line": "Caravan Driver: Last chance to back out. This your choice?",
+    "file": "ajourneyhome-caravandriver-13"
+  },
+  {
+    "line": "Caravan Driver: Well, you better get headed on the long walk back to Ragni then.",
+    "file": "ajourneyhome-caravandriver-14"
+  },
+  {
+    "line": "Caravan Driver: Well. We've arrived.",
+    "file": "ajourneyhome-caravandriver-15"
+  },
+  {
+    "line": "Caravan Driver: You know what they say about curiosity, and how it killed the cat. You the type to believe satisfaction'll bring it back?",
+    "file": "ajourneyhome-caravandriver-16"
+  },
+  {
+    "line": "Fruman Guard: Well, 'kittycat,' you didn't find the cream- just the hound dogs.",
+    "file": "ajourneyhome-frumanguard-1"
+  },
+  {
+    "line": "Fruman Guard: Intruder to Fruma, you are under arrest! Now march!",
+    "file": "ajourneyhome-frumanguard-2"
+  },
+  {
+    "line": "Commander Lilles: You really thought the Driver was on your side, intruder? What a fool you are. We gave you every chance to quit this endeavor, but here you are. Let's go.",
+    "file": "ajourneyhome-commanderlilles-1"
   }
 ]
