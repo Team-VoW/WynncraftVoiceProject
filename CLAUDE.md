@@ -8,6 +8,7 @@ gradlew build                  # Build JAR to build/libs/
 gradlew build -x spotlessApply # Build without formatting
 gradlew spotlessApply          # Format code (Palantir Java Format)
 gradlew runClient              # Launch Minecraft with mod
+gradlew build -PbetaSoundsJsonUrl=<url> -PbetaSoundsUrl=<url>  # Beta build with custom CDN URLs
 ```
 Pre-commit hook: `git config core.hooksPath utils/git-hooks`
 
@@ -42,7 +43,5 @@ Conventional Commits: `feat:`, `fix:`, `chore:` etc.
 ## DON'Ts
 - No wildcard imports — Spotless rejects them
 - No `org.jetbrains.annotations` — use standard Java annotations
-- Don't modify dialogue detection logic carelessly — packet ordering is complex and can break multi-line / confirmationless dialogues
 - Don't skip `spotlessApply` — license headers are auto-managed and required
 - Don't log with anything other than `ModCore.LOGGER`
-- Don't add unit tests scaffolding — this project tests manually in-game

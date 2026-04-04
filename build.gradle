@@ -36,6 +36,7 @@ allprojects {
     spotless {
         java {
             // define the steps to apply to Java source code
+            targetExclude("build/generated/**")
             importOrder()
             removeUnusedImports()
             palantirJavaFormat(spotless_palantir_version)
@@ -139,6 +140,44 @@ dependencies {
     modApi("com.terraformersmc:modmenu:${mod_menu_version}") {
         exclude(group: "net.fabricmc.fabric-loader")
         exclude(group: "net.fabricmc.fabric-api")
+    }
+}
+
+def betaSoundsJsonUrl = project.findProperty('betaSoundsJsonUrl') ?: ''
+def betaSoundsUrl = project.findProperty('betaSoundsUrl') ?: ''
+def generatedSrcDir = layout.buildDirectory.dir("generated/sources/betaConfig/java")
+
+tasks.register('generateBetaConfig') {
+    def outputDir = generatedSrcDir
+    inputs.property('betaSoundsJsonUrl', betaSoundsJsonUrl)
+    inputs.property('betaSoundsUrl', betaSoundsUrl)
+    outputs.dir(outputDir)
+    doLast {
+        def packageDir = outputDir.get().asFile.toPath()
+                .resolve("com/wynnvp/wynncraftvp/config")
+        packageDir.toFile().mkdirs()
+        packageDir.resolve("BetaConfig.java").toFile().text = """\
+package com.wynnvp.wynncraftvp.config;
+
+public final class BetaConfig {
+    public static final String BETA_SOUNDS_JSON_URL = "${betaSoundsJsonUrl}";
+    public static final String BETA_SOUNDS_URL = "${betaSoundsUrl}";
+
+    public static boolean isBetaBuild() {
+        return !BETA_SOUNDS_JSON_URL.isEmpty() || !BETA_SOUNDS_URL.isEmpty();
+    }
+
+    private BetaConfig() {}
+}
+"""
+    }
+}
+
+sourceSets.main.java.srcDir(generatedSrcDir)
+tasks.named('compileJava').configure { dependsOn 'generateBetaConfig' }
+tasks.configureEach { task ->
+    if (task.name == 'sourcesJar') {
+        task.dependsOn 'generateBetaConfig'
     }
 }
 
