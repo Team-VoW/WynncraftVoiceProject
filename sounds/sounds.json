@@ -54474,5 +54474,2400 @@
   {
     "line": "Zhight Tour Guide: We hope you enjoy your stay at Zhight Island Resort, thank you!",
     "file": "zhightisland-zhighttourguide-7"
+  },
+  {
+    "line": "Tasim: soldier! Hey! It's lucky I managed to catch you here.",
+    "file": "queensrecruit-tasim-1"
+  },
+  {
+    "line": "Tasim: It's been a while, hasn't it? We should catch up! You've probably had lots of adventures, right?",
+    "file": "queensrecruit-tasim-2"
+  },
+  {
+    "line": "Tasim: But before that... I've got to just find...",
+    "file": "queensrecruit-tasim-3"
+  },
+  {
+    "line": "Tasim: Huh? What am I- oh, yeah. I'm trying to find Aledar.",
+    "file": "queensrecruit-tasim-4"
+  },
+  {
+    "line": "Tasim: He sent me a letter asking me to join him on some... scouting mission. But I haven't been able to find him.",
+    "file": "queensrecruit-tasim-5"
+  },
+  {
+    "line": "Tasim: It did take me a while to get here... so maybe he's gone somewhere else by now. Aegis did tell me the mission ended up being called off, so...",
+    "file": "queensrecruit-tasim-6"
+  },
+  {
+    "line": "Tasim: But if he's not here, then I should probably stop trying to catch him on the streets, huh? I'll just leave a message for him at the barracks.",
+    "file": "queensrecruit-tasim-7"
+  },
+  {
+    "line": "Tasim: We can head to the tavern and catch up! Gods, I've missed the Rusty Recruit's drinks... that barkeeper, he *says* it's the same as anywhere else, but it really isn't! Nowhere else pours it like he does.",
+    "file": "queensrecruit-tasim-8"
+  },
+  {
+    "line": "Ragni Courier: Pardon me, excuse me- coming through! Coming through! Ah, you two! Just the folks I was looking for.",
+    "file": "queensrecruit-ragnicourier-1"
+  },
+  {
+    "line": "Tasim: Huh? Us two specifically?",
+    "file": "queensrecruit-tasim-9"
+  },
+  {
+    "line": "Ragni Courier: Well, perhaps not *specifically*. I've got a list of folks to try and track down, and the two of you are on it! Tasim and soldier, right?",
+    "file": "queensrecruit-ragnicourier-2"
+  },
+  {
+    "line": "Ragni Courier: I've got an important missive from Ragni. Direct from the King himself, yep yep!",
+    "file": "queensrecruit-ragnicourier-3"
+  },
+  {
+    "line": "Tasim: Really? I don't think I've even seen him since... what could he possibly want us for?",
+    "file": "queensrecruit-tasim-10"
+  },
+  {
+    "line": "Ragni Courier: I'm not privy to the details, I'm afraid! He's summoning a number of you seasoned adventurers to the castle, for some sort of meeting.",
+    "file": "queensrecruit-ragnicourier-4"
+  },
+  {
+    "line": "Ragni Courier: Anyway, I've got more to try and track down, so I'll give you the written letters and be on my way! Best of luck with whatever it is!",
+    "file": "queensrecruit-ragnicourier-5"
+  },
+  {
+    "line": "Tasim: Thanks...",
+    "file": "queensrecruit-tasim-11"
+  },
+  {
+    "line": "Tasim: Hm. That is strange, isn't it? I guess we'll have to call off drinks till later... probably for the best. Maybe I'll be able to catch him before...",
+    "file": "queensrecruit-tasim-12"
+  },
+  {
+    "line": "Tasim: Oh, uh- you go on ahead. I have to stop by the barracks first. I'll meet you in Ragni, then?",
+    "file": "queensrecruit-tasim-13"
+  },
+  {
+    "line": "Royal Guard: Another soldier? Allow me to see your summons.",
+    "file": "queensrecruit-royalguard-1"
+  },
+  {
+    "line": "Royal Guard: ...good. Come on in, soldier. The King will be arriving shortly.",
+    "file": "queensrecruit-royalguard-2"
+  },
+  {
+    "line": "Royal Guard: Right this way.",
+    "file": "queensrecruit-royalguard-3"
+  },
+  {
+    "line": "Royal Guard: If you insist. Don't take too long.",
+    "file": "queensrecruit-royalguard-4"
+  },
+  {
+    "line": "Tasim: ...oh, there you are. Didn't you head out before me?",
+    "file": "queensrecruit-tasim-14"
+  },
+  {
+    "line": "Tasim: I don't know most of the people here, so I'll stick with you until the King gets here.",
+    "file": "queensrecruit-tasim-15"
+  },
+  {
+    "line": "Captain Kymer: Well well! If my eyes don't deceive me! soldier and *Tasim*!",
+    "file": "queensrecruit-captainkymer-1"
+  },
+  {
+    "line": "Captain Kymer: I'll say, I didn't quite expect them to track you down! What with your... extended stint off in Gavel.",
+    "file": "queensrecruit-captainkymer-2"
+  },
+  {
+    "line": "Tasim: I should say the same about you, *captain*. Did Llevigar no longer have a *use* for you once the war ended?",
+    "file": "queensrecruit-tasim-16"
+  },
+  {
+    "line": "Captain Kymer: Ah... nothing of the sort. You know, I was sent out there initially to serve as more of an envoy from Ragni! If the King needs a diplomatic situation sorted, I'm the one he turns to first.",
+    "file": "queensrecruit-captainkymer-3"
+  },
+  {
+    "line": "Captain Kymer: Which... is indeed why I am here now. I was recalled rather *abruptly* several weeks ago. It seems we've encountered a tricky situation with our... *neighboring* province.",
+    "file": "queensrecruit-captainkymer-4"
+  },
+  {
+    "line": "Captain Kymer: But! I shan't say more before the King arrives. He'll tell you all of the problem that *hopefully* we will be able to resolve.",
+    "file": "queensrecruit-captainkymer-5"
+  },
+  {
+    "line": "Tasim: ...I see. We'll leave you to it, then.",
+    "file": "queensrecruit-tasim-17"
+  },
+  {
+    "line": "Jenprest: Well, look at you! It's been quite a time since we last spoke. Far above the task of cleaning out sewers now, eh?",
+    "file": "queensrecruit-jenprest-1"
+  },
+  {
+    "line": "Jenprest: I've heard some tell of your accomplishments. Fine work, fine work.",
+    "file": "queensrecruit-jenprest-2"
+  },
+  {
+    "line": "Jenprest: And... hm. Aren't you the one who ran off to Gavel without sayin' a word? Didn't expect you to be one o' the ones picked out for this.",
+    "file": "queensrecruit-jenprest-3"
+  },
+  {
+    "line": "Tasim: I... didn't expect it either. I didn't even realize the King still remembered me, truth be told.",
+    "file": "queensrecruit-tasim-18"
+  },
+  {
+    "line": "Jenprest: Mmn. Well, whatever the reason, you're here now. Don't suppose it matters much the path you took to get here. We need all the folks we can get- or so Kymer's been sayin'.",
+    "file": "queensrecruit-jenprest-4"
+  },
+  {
+    "line": "Dr. Picard: If we align the manaflow with Water, then nudge it to the side, maybe... ah- Reynauld, pass me my notes on... damn, what was it- oh, yes, the recovery period! Pass me those ones.",
+    "file": "queensrecruit-drpicard-1"
+  },
+  {
+    "line": "Reynauld: ...You already have them on your left, doctor.",
+    "file": "queensrecruit-reynauld-1"
+  },
+  {
+    "line": "Dr. Picard: Do I now! It seems I do... oh, but this is only the first half- where did I leave the rest...",
+    "file": "queensrecruit-drpicard-2"
+  },
+  {
+    "line": "Reynauld: Sigh... If you'd just allow me to organize for you, maybe you wouldn't-",
+    "file": "queensrecruit-reynauld-2"
+  },
+  {
+    "line": "Dr. Picard: And ruin my predefined sorting system?! No, Reynauld, I do think it works perfectly well as it is, thank you very much! Now, where could it have-",
+    "file": "queensrecruit-drpicard-3"
+  },
+  {
+    "line": "Dr. Picard: Ah! You two! Good, good, you're here- I was worried Reynauld would be the only other one with recovered memories around here!",
+    "file": "queensrecruit-drpicard-4"
+  },
+  {
+    "line": "Tasim: What, you didn't test it on anyone else after we left?",
+    "file": "queensrecruit-tasim-19"
+  },
+  {
+    "line": "Dr. Picard: Test it on- no, of course not! After what I saw? No, no, that would certainly not have been worth the risk. No new test subjects until I am *certain* it's flawless!",
+    "file": "queensrecruit-drpicard-5"
+  },
+  {
+    "line": "Dr. Picard: I've been using it on myself instead! And, let me tell you- the *breakthroughs* I have made... there is *much* to be learned.",
+    "file": "queensrecruit-drpicard-6"
+  },
+  {
+    "line": "Tasim: And is that... safe?",
+    "file": "queensrecruit-tasim-20"
+  },
+  {
+    "line": "Dr. Picard: Pah! \"Safety\" - a meaningless term made only to stifle progress. Have there been side effects - certainly! But it has *all* been worth it.",
+    "file": "queensrecruit-drpicard-7"
+  },
+  {
+    "line": "Dr. Picard: Now, I must return to the pages... I've some equations I need to perfect before the King arrives...",
+    "file": "queensrecruit-drpicard-8"
+  },
+  {
+    "line": "Reynauld: Hm. I can't say I would have expected you to be here, Tasim.",
+    "file": "queensrecruit-reynauld-3"
+  },
+  {
+    "line": "Tasim: Well... fate has other plans, I guess. How about you? Did you stay in Elkurn?",
+    "file": "queensrecruit-tasim-21"
+  },
+  {
+    "line": "Reynauld: Mostly. Moved around for a few assignments here and there, but I kept coming back.",
+    "file": "queensrecruit-reynauld-4"
+  },
+  {
+    "line": "Reynauld: ...we haven't spoken in a while. Are you... doing well? How have you been managing the memories?",
+    "file": "queensrecruit-reynauld-5"
+  },
+  {
+    "line": "Tasim: As well as I could be expected to, I guess. It was rough for the first few months. Eventually, I got used to it.",
+    "file": "queensrecruit-tasim-22"
+  },
+  {
+    "line": "Tasim: How about you? I also wouldn't have expected you to show for a mission like this.",
+    "file": "queensrecruit-tasim-23"
+  },
+  {
+    "line": "Reynauld: Same as you. Helped that Caid and I managed to talk it through. We meet every so often, talk about it. He talks about his sister, how he wants to find her one day.",
+    "file": "queensrecruit-reynauld-6"
+  },
+  {
+    "line": "Tasim: That's... good. Happy for you.",
+    "file": "queensrecruit-tasim-24"
+  },
+  {
+    "line": "Reynauld: Hm. Nothing stopping you from stopping by, yourself. It might even help you.",
+    "file": "queensrecruit-reynauld-7"
+  },
+  {
+    "line": "Tasim: I'll... consider it. Good to see you again, Reynauld.",
+    "file": "queensrecruit-tasim-25"
+  },
+  {
+    "line": "Linton: ...and it's all crashing down, right? So I knock the zombie back, grab the kid, and jump for-",
+    "file": "queensrecruit-linton-1"
+  },
+  {
+    "line": "Mel: Wait, wait wait wait - you're tellin' me there was a *kid* involved? And you *still* set off the bombs?!",
+    "file": "queensrecruit-mel-1"
+  },
+  {
+    "line": "Linton: Yeah! I said that already, right? That was the whole reason I-",
+    "file": "queensrecruit-linton-2"
+  },
+  {
+    "line": "Lanu: Ahem. Pause the story for a bit, Linton. We have company.",
+    "file": "queensrecruit-lanu-1"
+  },
+  {
+    "line": "Mel: Well, if it ain't soldier! It's good to see someone else familiar 'round here.",
+    "file": "queensrecruit-mel-2"
+  },
+  {
+    "line": "Linton: What, and I'm *not* familiar?",
+    "file": "queensrecruit-linton-3"
+  },
+  {
+    "line": "Mel: I do try to keep my distance.",
+    "file": "queensrecruit-mel-3"
+  },
+  {
+    "line": "Lanu: So, you received the summons too? The King has a lot of people here. It's interesting.",
+    "file": "queensrecruit-lanu-2"
+  },
+  {
+    "line": "Tasim: We did, yes. And it sounded like they had even more people on that list that they were searching for.",
+    "file": "queensrecruit-tasim-26"
+  },
+  {
+    "line": "Lanu: Oh, apologies, I hadn't noticed you there. You're a friend of soldier's, I take it?",
+    "file": "queensrecruit-lanu-3"
+  },
+  {
+    "line": "Tasim: I am! We arrived in Wynn on the same caravan. I'm Tasim.",
+    "file": "queensrecruit-tasim-27"
+  },
+  {
+    "line": "Mel: *Tasim*?! You're *Tasim*?",
+    "file": "queensrecruit-mel-4"
+  },
+  {
+    "line": "Linton: So you're the one Aledar was always talking about! I thought you were off in Gavel?",
+    "file": "queensrecruit-linton-4"
+  },
+  {
+    "line": "Tasim: I... was. How do you all know him?",
+    "file": "queensrecruit-tasim-28"
+  },
+  {
+    "line": "Lanu: I believe we first met on a mission to reclaim Almuj's barracks from a treasonous commander. We've run into each other a few times since.",
+    "file": "queensrecruit-lanu-4"
+  },
+  {
+    "line": "Mel: Still, it's good to finally get t' meet you! We've heard lots of stories! Including somethin' about not respondin' to letters...?",
+    "file": "queensrecruit-mel-5"
+  },
+  {
+    "line": "Tasim: Oh... right. We, uh... sorted that out.",
+    "file": "queensrecruit-tasim-29"
+  },
+  {
+    "line": "Tasim: But speaking of- have any of you seen him recently?",
+    "file": "queensrecruit-tasim-30"
+  },
+  {
+    "line": "Mel: 'fraid not. I don't think our paths've crossed since... was it the siege at Troms? Must've been.",
+    "file": "queensrecruit-mel-6"
+  },
+  {
+    "line": "Linton: I saw him a month ago in Detlas! I asked him what he was working on and if I could help and he just brushed me off. Weird, right?",
+    "file": "queensrecruit-linton-5"
+  },
+  {
+    "line": "Lanu: Mmn. No, that sounds like him. I think he had enough of your antics last time.",
+    "file": "queensrecruit-lanu-5"
+  },
+  {
+    "line": "Linton: What?! I'm capable. C'mon, Mel, tell her I'm capable.",
+    "file": "queensrecruit-linton-6"
+  },
+  {
+    "line": "Mel: Linton, y'were *just* tellin' us about how you caved in a whole temple by-",
+    "file": "queensrecruit-mel-7"
+  },
+  {
+    "line": "Linton: Okay! Okay, okay okay, let's talk about *literally* anything else! Tasim, right? What's... uh.....",
+    "file": "queensrecruit-linton-7"
+  },
+  {
+    "line": "Linton: ...so, your... no, no, give me a moment- you were... and... um..... oh, right...",
+    "file": "queensrecruit-linton-8"
+  },
+  {
+    "line": "Linton: *...d'you like guys?*",
+    "file": "queensrecruit-linton-9"
+  },
+  {
+    "line": "Mel: *Linton!!* Y'can't just *ask* someone that!!",
+    "file": "queensrecruit-mel-8"
+  },
+  {
+    "line": "Linton: ...uh-",
+    "file": "queensrecruit-linton-10"
+  },
+  {
+    "line": "Lanu: It was nice meeting you, Tasim. I look forward to working with you during this mission.",
+    "file": "queensrecruit-lanu-6"
+  },
+  {
+    "line": "Tasim: ...likewise. It's always nice meeting friends of Aledar.",
+    "file": "queensrecruit-tasim-31"
+  },
+  {
+    "line": "King of Ragni: Ah... here we are. I thank you all for coming on such short notice. It has been some time since I have seen many of you.",
+    "file": "queensrecruit-ragniking-1"
+  },
+  {
+    "line": "Ragni's King: Ah... here we are. I thank you all for coming on such short notice. It has been some time since I have seen many of you.",
+    "file": "queensrecruit-ragniking-1"
+  },
+  {
+    "line": "King of Ragni: ...I'll get right to the point. We find ourselves in a very delicate position when it comes to our relations with our neighboring province, Fruma.",
+    "file": "queensrecruit-ragniking-2"
+  },
+  {
+    "line": "Ragni's King: ...I'll get right to the point. We find ourselves in a very delicate position when it comes to our relations with our neighboring province, Fruma.",
+    "file": "queensrecruit-ragniking-2"
+  },
+  {
+    "line": "King of Ragni: We rely heavily on the flow of new recruits sent to us, but we have no means of contacting their province. Only they may reach out to us, and only once before have they chosen to do so.",
+    "file": "queensrecruit-ragniking-3"
+  },
+  {
+    "line": "Ragni's King: We rely heavily on the flow of new recruits sent to us, but we have no means of contacting their province. Only they may reach out to us, and only once before have they chosen to do so.",
+    "file": "queensrecruit-ragniking-3"
+  },
+  {
+    "line": "King of Ragni: ...several weeks ago, we received a cloaked visitor through the outskirts. She claimed to be of Fruma, one of their Sovereigns.",
+    "file": "queensrecruit-ragniking-4"
+  },
+  {
+    "line": "Ragni's King: ...several weeks ago, we received a cloaked visitor through the outskirts. She claimed to be of Fruma, one of their Sovereigns.",
+    "file": "queensrecruit-ragniking-4"
+  },
+  {
+    "line": "King of Ragni: We were extended an invitation, of sorts. Of all the recruits we have ever received, we were to select the greatest, and send them into Fruma for some sort of celebration.",
+    "file": "queensrecruit-ragniking-5"
+  },
+  {
+    "line": "Ragni's King: We were extended an invitation, of sorts. Of all the recruits we have ever received, we were to select the greatest, and send them into Fruma for some sort of celebration.",
+    "file": "queensrecruit-ragniking-5"
+  },
+  {
+    "line": "Tasim: Is that who we are? The greatest?",
+    "file": "queensrecruit-tasim-32"
+  },
+  {
+    "line": "Captain Kymer: The ones that could be reached, at the very least! Perhaps some were greater yet, but we all know the roaming habits of your sort, and tracking them down really can prove-",
+    "file": "queensrecruit-captainkymer-6"
+  },
+  {
+    "line": "Linton: Ugh, we're not just going along with this, are we?",
+    "file": "queensrecruit-linton-11"
+  },
+  {
+    "line": "Mel: *Linton! You can't just-*",
+    "file": "queensrecruit-mel-9"
+  },
+  {
+    "line": "Linton: What? They're demanding something weird and obviously suspicious, so why should we just accept it?",
+    "file": "queensrecruit-linton-12"
+  },
+  {
+    "line": "King of Ragni: I'm afraid we don't have a choice in the matter. As I mentioned, the recruits we receive make all the difference in our province's continued survival. If we were to reject this invitation...",
+    "file": "queensrecruit-ragniking-6"
+  },
+  {
+    "line": "Ragni's King: I'm afraid we don't have a choice in the matter. As I mentioned, the recruits we receive make all the difference in our province's continued survival. If we were to reject this invitation...",
+    "file": "queensrecruit-ragniking-6"
+  },
+  {
+    "line": "Jenprest: ...who's to say they wouldn't just stop sendin' 'em, eh? Tough.",
+    "file": "queensrecruit-jenprest-5"
+  },
+  {
+    "line": "Dr. Picard: Besides all that, think of the *opportunity* this presents! A true, *freely-given* view of what lies beyond those walls! We'd be fools *not* to accept it, no matter the implied threat!",
+    "file": "queensrecruit-drpicard-9"
+  },
+  {
+    "line": "King of Ragni: Indeed. I regret that I must request this of you... but there is no other choice. You must accept this invitation.",
+    "file": "queensrecruit-ragniking-7"
+  },
+  {
+    "line": "Ragni's King: Indeed. I regret that I must request this of you... but there is no other choice. You must accept this invitation.",
+    "file": "queensrecruit-ragniking-7"
+  },
+  {
+    "line": "Reynauld: ...even those of us with bad experiences with the province?",
+    "file": "queensrecruit-reynauld-8"
+  },
+  {
+    "line": "King of Ragni: I apologize... but you must. My hands are tied.",
+    "file": "queensrecruit-ragniking-8"
+  },
+  {
+    "line": "Ragni's King: I apologize... but you must. My hands are tied.",
+    "file": "queensrecruit-ragniking-8"
+  },
+  {
+    "line": "Lanu: I take it we are expected to gather a s much intelligence on Fruma as we can while we're in there?",
+    "file": "queensrecruit-lanu-7"
+  },
+  {
+    "line": "Dr. Picard: That is the plan, indeed! I'll explain more once we're there, but I believe we're on a time limit, correct?",
+    "file": "queensrecruit-drpicard-10"
+  },
+  {
+    "line": "King of Ragni: You are correct, doctor. I have been told that a representative will greet you all at the royal gates of Fruma, situated on the western coast.",
+    "file": "queensrecruit-ragniking-9"
+  },  {
+  "line": "Ragni's King: You are correct, doctor. I have been told that a representative will greet you all at the royal gates of Fruma, situated on the western coast.",
+  "file": "queensrecruit-ragniking-9"
+},
+  {
+    "line": "King of Ragni: I've sent a courier ahead to Nemract to inform the local captains of the destination they are to take you to.",
+    "file": "queensrecruit-ragniking-10"
+  },
+  {
+    "line": "Ragni's King: I've sent a courier ahead to Nemract to inform the local captains of the destination they are to take you to.",
+    "file": "queensrecruit-ragniking-10"
+  },
+  {
+    "line": "Tasim: Nemract... I know a captain there. soldier, want to join me?",
+    "file": "queensrecruit-tasim-33"
+  },
+  {
+    "line": "Captain Kymer: Fruma, huh?",
+    "file": "queensrecruit-captainkymer-7"
+  },
+  {
+    "line": "Captain Kymer: I did not expect an expedition into Fruma, of all places.",
+    "file": "queensrecruit-captainkymer-8"
+  },
+  {
+    "line": "Tasim: ...Oh! You're here! Lost in thought, sorry.",
+    "file": "queensrecruit-tasim-34"
+  },
+  {
+    "line": "Tasim: It's all a little surreal, isn't it? I only just got back to Wynn, and now... Fruma!",
+    "file": "queensrecruit-tasim-35"
+  },
+  {
+    "line": "Tasim: Kind of makes me wish we had Aledar here too. The three of us on an adventure again! Going back... home...",
+    "file": "queensrecruit-tasim-36"
+  },
+  {
+    "line": "Tasim: I guess we'll just have to tell him all about it when we get back. He'll be sad he missed it, I bet.",
+    "file": "queensrecruit-tasim-37"
+  },
+  {
+    "line": "Seaskipper Captain: Oi, there! Are those my two favorite customers I see?",
+    "file": "queensrecruit-seaskippercaptain-1"
+  },
+  {
+    "line": "Tasim: You call everyone your favorite customer, captain! Don't think I didn't notice!",
+    "file": "queensrecruit-tasim-38"
+  },
+  {
+    "line": "Seaskipper Captain: Eheheheh, well, it's true, ain't it? I got lots o' favorites! Ah, anyhow, you're here for a trip, ain't'cha?",
+    "file": "queensrecruit-seaskippercaptain-2"
+  },
+  {
+    "line": "Tasim: We are! You've... probably heard the details already? There should have been something about a new destination.",
+    "file": "queensrecruit-tasim-39"
+  },
+  {
+    "line": "Seaskipper Captain: Aye. That I have. Some scrawny Ragni courier wooshed past earlier! I barely got a word in before he was off again! Real interesting fellow.",
+    "file": "queensrecruit-seaskippercaptain-3"
+  },
+  {
+    "line": "Seaskipper Captain: ... Not a part o' the sea I like to visit, but I reckon I can make an exception this time.",
+    "file": "queensrecruit-seaskippercaptain-4"
+  },
+  {
+    "line": "Tasim: Hm... I can pay you extra for the trip, if you'd like.",
+    "file": "queensrecruit-tasim-40"
+  },
+  {
+    "line": "Seaskipper Captain: Ha! No, no, there's no need for that. It's free of charge for my two favorite customers, eheh!",
+    "file": "queensrecruit-seaskippercaptain-5"
+  },
+  {
+    "line": "Seaskipper Captain: ...and, 'course, s'all paid for from Ragni's royal coffers anyhow. Now, hop aboard 'fore I change my mind and leave without ya!",
+    "file": "queensrecruit-seaskippercaptain-6"
+  },
+  {
+    "line": "Tasim: Yes, sir!",
+    "file": "queensrecruit-tasim-41"
+  },
+  {
+    "line": "Seaskipper Captain: ...so, Fruma, eh? I'd ask what business ya've got there, but... figure it's top secret.",
+    "file": "queensrecruit-seaskippercaptain-7"
+  },
+  {
+    "line": "Tasim: We've been... invited into the province. Supposedly, it's for some sort of celebration, but...",
+    "file": "queensrecruit-tasim-42"
+  },
+  {
+    "line": "Seaskipper Captain: Mmn. Aye, knowin' the rumors... not the kind o' place to just invite folks in, is it?",
+    "file": "queensrecruit-seaskippercaptain-8"
+  },
+  {
+    "line": "Tasim: ...no. It isn't.",
+    "file": "queensrecruit-tasim-43"
+  },
+  {
+    "line": "Seaskipper Captain: Tell me, what's on yer mind then? The both o' you. Speakin' thoughts out tends to make 'em easier to manage, in my experience.",
+    "file": "queensrecruit-seaskippercaptain-9"
+  },
+  {
+    "line": "Tasim: Fruma went through all that trouble to erase our memories, to get rid of us... just to ask for us back out of nowhere.",
+    "file": "queensrecruit-tasim-44"
+  },
+  {
+    "line": "Tasim: I don't know why they're doing it, but I'm worried there's more going on.",
+    "file": "queensrecruit-tasim-45"
+  },
+  {
+    "line": "Seaskipper Captain: I've not got more of a clue than either o' you, but I reckon that suspicion is warranted.",
+    "file": "queensrecruit-seaskippercaptain-10"
+  },
+  {
+    "line": "Seaskipper Captain: But don't let it consume you, aye? Some suspicion is healthy, but if it colors everything ya do, it'll hurt ya just as bad as naivety would. Keep an open mind.",
+    "file": "queensrecruit-seaskippercaptain-11"
+  },
+  {
+    "line": "Tasim: ...it's possible. I hope you're right, and it is all fine, and we *are* all overthinking it...",
+    "file": "queensrecruit-tasim-46"
+  },
+  {
+    "line": "Tasim: But I can't let my guard down. Everything about this situation is screaming that something isn't right, and... I don't know what.",
+    "file": "queensrecruit-tasim-47"
+  },
+  {
+    "line": "Seaskipper Captain: Nothin' wrong with hopin' for the best. Stayin' positive is all ya can really do, sometimes.",
+    "file": "queensrecruit-seaskippercaptain-12"
+  },
+  {
+    "line": "Seaskipper Captain: Out here on the sea, we have a saying... go searchin' for the storm, and it'll find ya itself. Don't expect the worst, or it'll find a way to come to pass.",
+    "file": "queensrecruit-seaskippercaptain-13"
+  },
+  {
+    "line": "Tasim: ...home? *Home*. I guess. It'll be nice to have more memories of it than just... you know. Curses, and all that.",
+    "file": "queensrecruit-tasim-48"
+  },
+  {
+    "line": "Seaskipper Captain: Hm. I don't got much of a home to get back to, either. Had it taken from me by those I trusted, eheh!",
+    "file": "queensrecruit-seaskippercaptain-14"
+  },
+  {
+    "line": "Seaskipper Captain: ... But, I made my own home, out here on the sea. Think even if I could go back now, I wouldn't!",
+    "file": "queensrecruit-seaskippercaptain-15"
+  },
+  {
+    "line": "Seaskipper Captain: So, if y'don't like what ya find... don't feel forced to take it, y'hear?",
+    "file": "queensrecruit-seaskippercaptain-16"
+  },
+  {
+    "line": "Tasim: ...I'll keep that in mind. Thank you, captain.",
+    "file": "queensrecruit-tasim-49"
+  },
+  {
+    "line": "Seaskipper Captain: Ah, it's what I'm here for, ain't it? Givin' sage advice and sailin' folks around the sea!",
+    "file": "queensrecruit-seaskippercaptain-17"
+  },
+  {
+    "line": "Seaskipper Captain: And look at that, on the horizon! Shinin' opulent docks... seems we've arrived.",
+    "file": "queensrecruit-seaskippercaptain-18"
+  },
+  {
+    "line": "Seaskipper Captain: Dunno what you'll be facin' in there... but good luck anyway, aye?",
+    "file": "queensrecruit-seaskippercaptain-19"
+  },
+  {
+    "line": "Tasim: We'll need it. Thanks for bringing us here, captain.",
+    "file": "queensrecruit-tasim-50"
+  },
+  {
+    "line": "Captain Kymer: Finally! The stragglers arrive. You certainly took your time, didn't you?",
+    "file": "queensrecruit-captainkymer-9"
+  },
+  {
+    "line": "Jenprest: Not the time, Kymer. Leave the poor man be for an hour, eh? Got bigger fish to fry, n' all that.",
+    "file": "queensrecruit-jenprest-6"
+  },
+  {
+    "line": "Captain Kymer: Yes, yes, *fine*. We've not been able to get a word out of any of these soldiers! Do we even have the right time and place?",
+    "file": "queensrecruit-captainkymer-10"
+  },
+  {
+    "line": "Linton: Nah, you just haven't been trying hard enough. Hey, tin can! This is Fruma, right?",
+    "file": "queensrecruit-linton-13"
+  },
+  {
+    "line": "Linton: ...",
+    "file": "queensrecruit-linton-14"
+  },
+  {
+    "line": "Linton: Wow. Nevermind, you were right.",
+    "file": "queensrecruit-linton-15"
+  },
+  {
+    "line": "Captain Kymer: As I often am!",
+    "file": "queensrecruit-captainkymer-11"
+  },
+  {
+    "line": "Lanu: It really is an impressive construction, isn't it? All this for a closed-off province.",
+    "file": "queensrecruit-lanu-8"
+  },
+  {
+    "line": "Dr. Picard: Impressive or n ot, we have work to do! On your guard, everyone. We don't know what to expect, so watch your backs.",
+    "file": "queensrecruit-drpicard-11"
+  },
+  {
+    "line": "Mel: Oh! The gate!!",
+    "file": "queensrecruit-mel-10"
+  },
+  {
+    "line": "Sovereign's Herald: Attention!! Attention, Wynn representatives!!",
+    "file": "queensrecruit-xao-1"
+  },
+  {
+    "line": "Sovereign's Herald: I hereby introduce to you The Evermoving Zephyr, the ruler of the Auburn Forest, the latest in the line of one of Fruma's great noble houses! His lordship, Sovereign Zhiraok Nasin!",
+    "file": "queensrecruit-xao-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: Thank you, Xao. Now!",
+    "file": "queensrecruit-sovereignzhiraok-1"
+  },
+  {
+    "line": "Sovereign Zhiraok: Soldiers of Wynn! Her Majesty welcomes you to the province, as guests of the crown!",
+    "file": "queensrecruit-sovereignzhiraok-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: Follow me, and you will be escorted to the royal palace. Let's not keep her waiting- you all are of great importance to her.",
+    "file": "queensrecruit-sovereignzhiraok-3"
+  },
+  {
+    "line": "Her Majesty: Greetings, soldiers of Wynn.",
+    "file": "queensrecruit-hermajesty-1"
+  },
+  {
+    "line": "Her Majesty: It is my honor as Queen to facilitate your return to our wonderful province. Though long you have spent away, you will always remain children of Fruma!",
+    "file": "queensrecruit-hermajesty-2"
+  },
+  {
+    "line": "Her Majesty: Your work to battle against the blight beyond our walls has been of great interest. You have certainly made our province proud.",
+    "file": "queensrecruit-hermajesty-3"
+  },
+  {
+    "line": "Her Majesty: You must have questions on the nature of your summons. All will be revealed- but first, allow me to introduce two of my wonderful Sovereigns.",
+    "file": "queensrecruit-hermajesty-4"
+  },
+  {
+    "line": "Sovereign Zhiraok: You heard my name, but let me introduce myself. I am-",
+    "file": "queensrecruit-sovereignzhiraok-4"
+  },
+  {
+    "line": "Sovereign Majin: Majin of House Thalas, the Morning Star, Sovereign of our fair Highlands. It's a pleasure, dear soldiers, to join our Queen for this ceremony!",
+    "file": "queensrecruit-sovereignmajin-1"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...Zhiraok Nasin, Sovereign of the Auburn Forest. The value of that title should speak for itself.",
+    "file": "queensrecruit-sovereignzhiraok-5"
+  },
+  {
+    "line": "Her Majesty: Thank you, Sovereigns. These two, and the rest, are my council for ruling over our province. Each Sovereign is given governance over their own district, and works to serve the people there.",
+    "file": "queensrecruit-hermajesty-5"
+  },
+  {
+    "line": "Her Majesty: There are others. Though, none could attend this event - they find themselves occupied with various assignments.",
+    "file": "queensrecruit-hermajesty-6"
+  },
+  {
+    "line": "Her Majesty: Enough of the boring talk! It is time for the welcoming feast.",
+    "file": "queensrecruit-hermajesty-7"
+  },
+  {
+    "line": "Her Majesty: We would like to share a taste of what our province has to deliver. Please find your way to the grand dining hall, situated just behind me.",
+    "file": "queensrecruit-hermajesty-8"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...you can't even follow the order of operations while Her Majesty is watching?! What kind of expected value must the recruits ha-",
+    "file": "queensrecruit-sovereignzhiraok-6"
+  },
+  {
+    "line": "Sovereign Majin: Now, now, Nasin, settle down. We wouldn't want to leave a poor impression on our guest, would we?",
+    "file": "queensrecruit-sovereignmajin-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: *Quit interrupting my sequence, hypocr-*",
+    "file": "queensrecruit-sovereignzhiraok-7"
+  },
+  {
+    "line": "Sovereign Zhiraok: Oh, you. You should report to the dining hall with the remainder of your group.",
+    "file": "queensrecruit-sovereignzhiraok-8"
+  },
+  {
+    "line": "Sovereign Majin: Yes, yes, move along. You certainly don't want to keep Her Majesty waiting!",
+    "file": "queensrecruit-sovereignmajin-3"
+  },
+  {
+    "line": "Her Majesty: Well, I have put it off long enough. Before the first course is served, I will reveal the purpose of your presence here today.",
+    "file": "queensrecruit-hermajesty-9"
+  },
+  {
+    "line": "Her Majesty: In celebration of your work in the Wynn Province, we shall be hosting a tournament! You will all partake in a set of duels in order to crown the greatest soldier among you.",
+    "file": "queensrecruit-hermajesty-10"
+  },
+  {
+    "line": "Her Majesty: You have all grown in your time spent beyond our walls, and what better way to show it?",
+    "file": "queensrecruit-hermajesty-11"
+  },
+  {
+    "line": "Her Majesty: We will, of course, provide compensation for all participants. A generous monetary reward shall be granted to each of you, no matter your placing in the tournament.",
+    "file": "queensrecruit-hermajesty-12"
+  },
+  {
+    "line": "Her Majesty: However, for whichever of you finds themselves crowned winner... a greater reward awaits. The specifics shall be revealed once the tournament has concluded.",
+    "file": "queensrecruit-hermajesty-13"
+  },
+  {
+    "line": "Dr. Picard: Ah, your majesty- if I may... I am not much of a fighter - my specialty is in research and study of magic.",
+    "file": "queensrecruit-drpicard-12"
+  },
+  {
+    "line": "Her Majesty: ...very well. Accommodations shall be made. A different request may be made of you later, in exchange.",
+    "file": "queensrecruit-hermajesty-14"
+  },
+  {
+    "line": "Dr. Picard: I thank you for your grace and understanding, your majesty.",
+    "file": "queensrecruit-drpicard-13"
+  },
+  {
+    "line": "Her Majesty: Yes... now. Once the meal comes to a close, you shall all be assigned a room to stay in for the remainder of your stay in my palace.",
+    "file": "queensrecruit-hermajesty-15"
+  },
+  {
+    "line": "Her Majesty: Ah! It seems the first course has been prepared! Please, enjoy our province's finest cuisine.",
+    "file": "queensrecruit-hermajesty-16"
+  },
+  {
+    "line": "Tasim: ...I can't say I was expecting that, of all things.",
+    "file": "queensrecruit-tasim-51"
+  },
+  {
+    "line": "Tasim: You'll be joining the tournament, right?",
+    "file": "queensrecruit-tasim-52"
+  },
+  {
+    "line": "Tasim: Good. I guess that makes two of us.",
+    "file": "queensrecruit-tasim-53"
+  },
+  {
+    "line": "Tasim: So, who do you think will win? Me, or you... or someone else...",
+    "file": "queensrecruit-tasim-54"
+  },
+  {
+    "line": "Tasim: Either way, it'll be nice to *finally* have a rematch. I haven't forgotten when you beat me in that sparring match, all the way back then!",
+    "file": "queensrecruit-tasim-55"
+  },
+  {
+    "line": "Tasim: Ha, you *want* a rematch, don't you? Last time we fought... it must've been that sparring match, all the way back then! Want to see if you can beat me this time?",
+    "file": "queensrecruit-tasim-56"
+  },
+  {
+    "line": "Tasim: Hm... that's a good question. Maybe not?",
+    "file": "queensrecruit-tasim-57"
+  },
+  {
+    "line": "Tasim: But you'll do *fine*. You're good at fighting! I've seen you out there.",
+    "file": "queensrecruit-tasim-58"
+  },
+  {
+    "line": "Tasim: Besides, it'll be nice to *finally* have a rematch. I haven't forgotten when you beat me in that sparring match, all the way back then!",
+    "file": "queensrecruit-tasim-59"
+  },
+  {
+    "line": "Tasim: Besides, don't you *want* a rematch? Last time we fought... it must've been that sparring match, all the way back then! Want to see if you can beat me this time?",
+    "file": "queensrecruit-tasim-60"
+  },
+  {
+    "line": "Tasim: We'd better get going and find our rooms- everyone else headed south.",
+    "file": "queensrecruit-tasim-61"
+  },
+  {
+    "line": "Representative: Guests. Hm...",
+    "file": "queensrecruit-representative-1"
+  },
+  {
+    "line": "Representative: Allow me a moment.",
+    "file": "queensrecruit-representative-2"
+  },
+  {
+    "line": "Representative: Names?",
+    "file": "queensrecruit-representative-3"
+  },
+  {
+    "line": "Tasim: ...that's soldier and I'm Tasim.",
+    "file": "queensrecruit-tasim-62"
+  },
+  {
+    "line": "Representative: Hm. Noted.",
+    "file": "queensrecruit-representative-4"
+  },
+  {
+    "line": "Linton: Talk about a fancy feast, huh?",
+    "file": "queensrecruit-linton-16"
+  },
+  {
+    "line": "Mel: They're really pullin' out all the stops, huh? Don't think I've had anythin' *that* good in a long while.",
+    "file": "queensrecruit-mel-11"
+  },
+  {
+    "line": "Tasim: It *was* good! Really tired me out, though.",
+    "file": "queensrecruit-tasim-63"
+  },
+  {
+    "line": "Representative: Ah, there we are. Tasim and soldier, you'll be in room W3... in the western wing.",
+    "file": "queensrecruit-representative-5"
+  },
+  {
+    "line": "Mel: How 'bout us? I'm Mel, and this is Linton.",
+    "file": "queensrecruit-mel-12"
+  },
+  {
+    "line": "Representative: Let's see...",
+    "file": "queensrecruit-representative-6"
+  },
+  {
+    "line": "Representative: ....hm.",
+    "file": "queensrecruit-representative-7"
+  },
+  {
+    "line": "Representative: Mel and Lanu, you'll be in E1.",
+    "file": "queensrecruit-representative-8"
+  },
+  {
+    "line": "Linton: Uh- hey, I think you forgot someone! Where am I staying?",
+    "file": "queensrecruit-linton-17"
+  },
+  {
+    "line": "Representative: Linton... let me see..",
+    "file": "queensrecruit-representative-9"
+  },
+  {
+    "line": "Representative: Linton and Kymer are in W2.",
+    "file": "queensrecruit-representative-10"
+  },
+  {
+    "line": "Representative: Ehm..... Hm........ Oh....",
+    "file": "queensrecruit-representative-11"
+  },
+  {
+    "line": "Representative: Room W3... Now get going. I have a lot of rooms to assign...",
+    "file": "queensrecruit-representative-12"
+  },
+  {
+    "line": "Linton: Oh... uh, Kymer, huh? That's... hm. Okay.",
+    "file": "queensrecruit-linton-18"
+  },
+  {
+    "line": "Tasim: Ha. Good luck with that.",
+    "file": "queensrecruit-tasim-64"
+  },
+  {
+    "line": "Jenprest: Sorry, I think you got the wrong room, soldier.",
+    "file": "queensrecruit-jenprest-7"
+  },
+  {
+    "line": "Jenprest: I managed to get this whole room for myself. But I won't complain..",
+    "file": "queensrecruit-jenprest-8"
+  },
+  {
+    "line": "Mel: I'm just going to wait here for Lanu.",
+    "file": "queensrecruit-mel-13"
+  },
+  {
+    "line": "Tasim: So, this is our room?",
+    "file": "queensrecruit-tasim-65"
+  },
+  {
+    "line": "Tasim: It seems cozy enough, I guess... hard to relax, though, given... you know. all of it.",
+    "file": "queensrecruit-tasim-66"
+  },
+  {
+    "line": "Tasim: ...it's easier than I thought it would be, being in Fruma. There's enough distance from... the, uh, memories.",
+    "file": "queensrecruit-tasim-67"
+  },
+  {
+    "line": "Tasim: But, okay, we're in private now. So... what do you *actually* think of the tournament? It's weird, right? Why would we be invited just for this?",
+    "file": "queensrecruit-tasim-68"
+  },
+  {
+    "line": "Tasim: Me neither. I don't know what I was expecting when we were entering Fruma, but it wasn't... *this*.",
+    "file": "queensrecruit-tasim-69"
+  },
+  {
+    "line": "Tasim: I think we'll *have* to participate, but keep an eye out. Maybe the secret reward will have some answers...",
+    "file": "queensrecruit-tasim-70"
+  },
+  {
+    "line": "Tasim: Hm... you're probably right, I just don't know what it could possibly *be*.",
+    "file": "queensrecruit-tasim-71"
+  },
+  {
+    "line": "Tasim: Maybe there's something going on with that secret reward for the winner... we'll have to wait and see, I guess.",
+    "file": "queensrecruit-tasim-72"
+  },
+  {
+    "line": "Tasim: Ha! Yeah, alright. I'm a little excited, too. I haven't had any friendly duels for a long time, so maybe it'll be nice to test my strength.",
+    "file": "queensrecruit-tasim-73"
+  },
+  {
+    "line": "Tasim: But don't forget why we're here. Keep your guard up. Something about that reward she mentioned... it makes me uneasy.",
+    "file": "queensrecruit-tasim-74"
+  },
+  {
+    "line": "Tasim: It strikes me as the kind of thing Aledar would enjoy. What better way to prove himself than to win this big tournament?",
+    "file": "queensrecruit-tasim-75"
+  },
+  {
+    "line": "Tasim: He'd get to use all his potions and tricks, too! He's always telling me about the horrific creations he's mixed together.",
+    "file": "queensrecruit-tasim-76"
+  },
+  {
+    "line": "Tasim: ...I think I miss him.",
+    "file": "queensrecruit-tasim-77"
+  },
+  {
+    "line": "Tasim: Uh... come in?",
+    "file": "queensrecruit-tasim-78"
+  },
+  {
+    "line": "Linton: Hey! You two!",
+    "file": "queensrecruit-linton-19"
+  },
+  {
+    "line": "Tasim: Linton? What's going on?",
+    "file": "queensrecruit-tasim-79"
+  },
+  {
+    "line": "Linton: Oh, uh, nothing much. Just a secret meeting. In Jenprest's room- that's W1, at the start of the corridor.",
+    "file": "queensrecruit-linton-20"
+  },
+  {
+    "line": "Linton: Picard says we should talk about what we've got so far. He also said to space out people coming to the room- so wait a few minutes before stopping by!",
+    "file": "queensrecruit-linton-21"
+  },
+  {
+    "line": "Tasim: I... guess that makes sense. But why are you here, and not-",
+    "file": "queensrecruit-tasim-80"
+  },
+  {
+    "line": "Linton: 'Cause I'm fast and stealthy. Gotta run now, I don't want to draw the guards' attention. Remember, room W1!",
+    "file": "queensrecruit-linton-22"
+  },
+  {
+    "line": "Tasim: ...he's energetic, huh. Okay, let's head over to the meeting. I wonder what the others have noticed.",
+    "file": "queensrecruit-tasim-81"
+  },
+  {
+    "line": "Dr. Picard: Ah, good, they're here. Come in, come in. Quickly now.",
+    "file": "queensrecruit-drpicard-14"
+  },
+  {
+    "line": "Tasim: Are we the last ones in?",
+    "file": "queensrecruit-tasim-82"
+  },
+  {
+    "line": "Jenprest: That y'are. Now, Picard, mind tellin' me what was on your damned mind when you *commandeered* my room without sayin' a *word*?!",
+    "file": "queensrecruit-jenprest-9"
+  },
+  {
+    "line": "Dr. Picard: Ah, eheh, well- I suppose it, er, may have slipped the mind... not important! We're under a time constraint!",
+    "file": "queensrecruit-drpicard-15"
+  },
+  {
+    "line": "Dr. Picard: We've made it this far, but we'll need to plan our next steps. Firstly, however- let us start with what information we have gleaned thus far.",
+    "file": "queensrecruit-drpicard-16"
+  },
+  {
+    "line": "Captain Kymer: Well, the crown *certainly* has money to spare! What we've seen thus far seems to rival even the richest of the nobility I had the *pleasure* of working with in Llevigar.",
+    "file": "queensrecruit-captainkymer-12"
+  },
+  {
+    "line": "Lanu: And the architectural style... it's unique. I haven't seen anything like it before. I suppose it would make sense, if the province has been closed off so long...",
+    "file": "queensrecruit-lanu-9"
+  },
+  {
+    "line": "Jenprest: Eh, enough of the unimportant details - any of the rest o' you feelin' strange about the tournament? Seems an odd thing to invite us folks back for.",
+    "file": "queensrecruit-jenprest-10"
+  },
+  {
+    "line": "Tasim: I was thinking the same thing. And they're willing to pay all of us for participating, no matter how we do... I don't get why.",
+    "file": "queensrecruit-tasim-83"
+  },
+  {
+    "line": "Dr. Picard: Hm, well, in truth I am not *overly* concerned about it-",
+    "file": "queensrecruit-drpicard-17"
+  },
+  {
+    "line": "Captain Kymer: Yes, actually, Picard, what *was* that back there in the dining hall? You're going to draw attention to yourself by *opting out* of it?",
+    "file": "queensrecruit-captainkymer-13"
+  },
+  {
+    "line": "Dr. Picard: Oh, what use is there in placing me in such a combat scenario?! I'll be far more useful outside of that structure, free to look around the palace.",
+    "file": "queensrecruit-drpicard-18"
+  },
+  {
+    "line": "Dr. Picard: And besides, they have me giving them a summary of my research notes, so it's not as though I'm free of it entirely, *not to mention-*",
+    "file": "queensrecruit-drpicard-19"
+  },
+  {
+    "line": "Mel: Alright, settle down y'all! Limited time, remember? We've gone off track. They're rich, fancy, and want us fightin' for some reason. What else?",
+    "file": "queensrecruit-mel-14"
+  },
+  {
+    "line": "Dr. Picard: ...as I was saying before I was *rudely* interrupted- I don't believe there is much to be gleaned from the tournament just yet. It's a puzzle piece we'll have to connect later.",
+    "file": "queensrecruit-drpicard-20"
+  },
+  {
+    "line": "Lanu: Do we have anything on the Queen and her Sovereigns? It's an interesting governmental structure, but I suppose having a more direct line to the Queen has value for the districts.",
+    "file": "queensrecruit-lanu-10"
+  },
+  {
+    "line": "Linton: Well, they're *obviously* putting on an act. They're definitely hiding something from us, and I don't think any of them are as happy to see us as they say they are.",
+    "file": "queensrecruit-linton-23"
+  },
+  {
+    "line": "Reynauld: Yes, indeed... we were sent into Wynn as *exiles*, not as honored soldiers. So why are they pretending otherwise? *They* called us back here.",
+    "file": "queensrecruit-reynauld-9"
+  },
+  {
+    "line": "Dr. Picard: Ah! Perhaps they're unaware that we've cracked that memory spell? For all they know, we still believe their lies.",
+    "file": "queensrecruit-drpicard-21"
+  },
+  {
+    "line": "Mel: It'd explain some things, for certain...",
+    "file": "queensrecruit-mel-15"
+  },
+  {
+    "line": "Linton: So, am I the only one confused by the amount of guards around?",
+    "file": "queensrecruit-linton-24"
+  },
+  {
+    "line": "Linton: You'd think that nine strangers entering the *royal palace* would be under more watchful eyes.",
+    "file": "queensrecruit-linton-25"
+  },
+  {
+    "line": "Tasim: Now that you mention it... the only guards I saw on the way to our rooms were by the courtyard exit. There aren't any outside our rooms.",
+    "file": "queensrecruit-tasim-84"
+  },
+  {
+    "line": "Linton: ...so we didn't need to do a whole stealthy thing?",
+    "file": "queensrecruit-linton-26"
+  },
+  {
+    "line": "Mel: I thought it was fun!",
+    "file": "queensrecruit-mel-16"
+  },
+  {
+    "line": "Jenprest: Seems likely to me they want us t' feel safe and trusted. They've got to know we'll be talkin' about everything we see, so why not leave a good impression, eh?",
+    "file": "queensrecruit-jenprest-11"
+  },
+  {
+    "line": "Jenprest: Besides, they've got those two Sovereigns lookin' over us. Pretty strong, aren't they? Figure that's enough incentive not to cause trouble.",
+    "file": "queensrecruit-jenprest-12"
+  },
+  {
+    "line": "Mel: Speakin' of the Sovereigns... and the guards, by extension - anyone else adept at readin' mana? It hardly feels like there's any of it in use at all!",
+    "file": "queensrecruit-mel-17"
+  },
+  {
+    "line": "Lanu: I was going to bring that up. I haven't seen any mages at all. The closest I've seen is the higher ranked soldiers wielding magical weapons.",
+    "file": "queensrecruit-lanu-11"
+  },
+  {
+    "line": "Tasim: I'm not as good with reading mana, but... there's something with the Sovereigns. They've got an incredibly powerful aura surrounding them. It feels... unnatural.",
+    "file": "queensrecruit-tasim-85"
+  },
+  {
+    "line": "Lanu: Yes, you're right. They, and the Queen, are the only ones I've seen here who possess innate magical abilities. If anything, all three of them seem closely linked in terms of energy...",
+    "file": "queensrecruit-lanu-12"
+  },
+  {
+    "line": "Reynauld: As interesting as that is, it doesn't leave much for the rest of us to go off of. Doctor, you're the one who organized us here. What are our plans?",
+    "file": "queensrecruit-reynauld-10"
+  },
+  {
+    "line": "Dr. Picard: Yes, that I am... well, it seems our most promising lead is the Sovereigns. We'll want to focus on them- though, do not neglect general information. We still want to know as much about Fruma as possible.",
+    "file": "queensrecruit-drpicard-22"
+  },
+  {
+    "line": "Dr. Picard: We've been running long enough, let's call it a day. Everyone, get some rest, we must be at our best performance tomorrow.",
+    "file": "queensrecruit-drpicard-23"
+  },
+  {
+    "line": "Dr. Picard: Let us gather here again tomorrow evening for another meeting. Goodnight, everyone.",
+    "file": "queensrecruit-drpicard-24"
+  },
+  {
+    "line": "Jenprest: Ah, great, now all o' you are lingerin'. Get out of my room! Not gonna get a lick o' sleep till you're gone...",
+    "file": "queensrecruit-jenprest-13"
+  },
+  {
+    "line": "Jenprest: ...damned Doctor- should'a just used his own room!!",
+    "file": "queensrecruit-jenprest-14"
+  },
+  {
+    "line": "Captain Kymer: Those Sovereigns... they do concern me. If Fruma's leadership holds *this* much power, then...",
+    "file": "queensrecruit-captainkymer-14"
+  },
+  {
+    "line": "Captain Kymer: Hm. Perhaps our King is right not to get on their bad side.",
+    "file": "queensrecruit-captainkymer-15"
+  },
+  {
+    "line": "Lanu: That magic... why does it feel familiar? I can't pinpoint what it is, but...",
+    "file": "queensrecruit-lanu-13"
+  },
+  {
+    "line": "Linton: yaaaawn",
+    "file": "queensrecruit-linton-27"
+  },
+  {
+    "line": "Linton: What? It's been a long day.",
+    "file": "queensrecruit-linton-28"
+  },
+  {
+    "line": "Mel: Gosh, I hope my match tomorrow goes well. I'm a bit nervous... never really dueled anyone before!",
+    "file": "queensrecruit-mel-18"
+  },
+  {
+    "line": "Dr. Picard: Hm... a shame I could not fight in the tournament. A monetary reward would be appreciated, given my dwindling research funds...",
+    "file": "queensrecruit-drpicard-25"
+  },
+  {
+    "line": "Dr. Picard: But, alas, I am no fighter. Perhaps the King would be willing to fund my future research...",
+    "file": "queensrecruit-drpicard-26"
+  },
+  {
+    "line": "Reynauld: ...sigh. What am I doing here? I should have stayed back in Elkurn.",
+    "file": "queensrecruit-reynauld-11"
+  },
+  {
+    "line": "Reynauld: I just hope nobody here knew me before. I'm not sure I could handle that.",
+    "file": "queensrecruit-reynauld-12"
+  },
+  {
+    "line": "Tasim: Let's just go get some sleep.",
+    "file": "queensrecruit-tasim-86"
+  },
+  {
+    "line": "Tasim: Goodnight, soldier. I hope you'll sleep better than I will.",
+    "file": "queensrecruit-tasim-87"
+  },
+  {
+    "line": "Tasim: See you in the morning.",
+    "file": "queensrecruit-tasim-88"
+  },
+  {
+    "line": "Tasim: Ah, you're up! Good morning.",
+    "file": "queensrecruit-tasim-89"
+  },
+  {
+    "line": "Tasim: Sleep well?",
+    "file": "queensrecruit-tasim-90"
+  },
+  {
+    "line": "Tasim: Well, that's one of us, at least! I... keep having dreams. It's worse here, than... *sigh*. I thought I'd gotten over it...",
+    "file": "queensrecruit-tasim-91"
+  },
+  {
+    "line": "Tasim: Well, I feel your pain. I don't think I got more than an hour or two. I kept... I should have expected it'd be worse here. I just hoped... well, it is what it is.",
+    "file": "queensrecruit-tasim-92"
+  },
+  {
+    "line": "Tasim: But anyway, it's good you're up. A soldier just came by to tell us to head over to the tournament arena.",
+    "file": "queensrecruit-tasim-93"
+  },
+  {
+    "line": "Tasim: You... no, they just... knocked and slid the notice under the door.",
+    "file": "queensrecruit-tasim-94"
+  },
+  {
+    "line": "Tasim: Was someone in our room during the night...?",
+    "file": "queensrecruit-tasim-95"
+  },
+  {
+    "line": "Tasim: I don't... like... that. Not at all.",
+    "file": "queensrecruit-tasim-96"
+  },
+  {
+    "line": "Tasim: Still. We need to head over to the arena. Apparently, it's in the northern part of the palace.",
+    "file": "queensrecruit-tasim-97"
+  },
+  {
+    "line": "Linton: Uh. Sovereign... Majin? Sovereign Majin. We're all here.",
+    "file": "queensrecruit-linton-29"
+  },
+  {
+    "line": "Sovereign Majin: My, it's about time! As guests of the crown, it would do you well to arrive *on time* for such things, hm? Tardiness is *not* a good look.",
+    "file": "queensrecruit-sovereignmajin-4"
+  },
+  {
+    "line": "Captain Kymer: Our apologies, Sovereign. It would seem we were not given the time to be here in advance - a humble mistake, I'm certain.",
+    "file": "queensrecruit-captainkymer-16"
+  },
+  {
+    "line": "Sovereign Majin: Ah, the incompetence of our lessers... it never ceases to amaze! Nevertheless, the duty of arriving on schedule remains on *your* shoulders. Do better next time, would you?",
+    "file": "queensrecruit-sovereignmajin-5"
+  },
+  {
+    "line": "Sovereign Majin: Now, I am a very busy man, so I will keep this brief. As Her Majesty has already explained, this tournament will consist of multiple duels! You are not required to watch each match.",
+    "file": "queensrecruit-sovereignmajin-6"
+  },
+  {
+    "line": "Sovereign Majin: The standard rules apply. No killing, no maiming, no attacking anyone outside the arena - though, *do* try, I'd find much pleasure in watching you fail!",
+    "file": "queensrecruit-sovereignmajin-7"
+  },
+  {
+    "line": "Sovereign Majin: With that settled, are there any questions? I would certainly hope not, I have much to return to once this is-",
+    "file": "queensrecruit-sovereignmajin-8"
+  },
+  {
+    "line": "Dr. Picard: Ah, I do - I am not participating in the tournament. I had been told to expect some alternative today.",
+    "file": "queensrecruit-drpicard-27"
+  },
+  {
+    "line": "Sovereign Majin: Oh, yes... *you*. What did you say you were again, a... researcher?",
+    "file": "queensrecruit-sovereignmajin-9"
+  },
+  {
+    "line": "Sovereign Majin: Ahahaha! Oh, and they selected *you* as one of your province's greatest? Don't make me laugh! Ahahahahaha!",
+    "file": "queensrecruit-sovereignmajin-10"
+  },
+  {
+    "line": "Dr. Picard: I-",
+    "file": "queensrecruit-drpicard-28"
+  },
+  {
+    "line": "Sovereign Majin: Ah, but it's just as well, I suppose. Nine certainly doesn't fit cleanly for such a tournament. Better a researcher than a ninth fighter!",
+    "file": "queensrecruit-sovereignmajin-11"
+  },
+  {
+    "line": "Sovereign Majin: Yes, someone will be with you shortly. Just sit on the sidelines and twiddle your thumbs, or whatever you do- you certainly aren't my problem anymore.",
+    "file": "queensrecruit-sovereignmajin-12"
+  },
+  {
+    "line": "Sovereign Majin: Now! Any more questions?",
+    "file": "queensrecruit-sovereignmajin-13"
+  },
+  {
+    "line": "Lanu: Yes, actua-",
+    "file": "queensrecruit-lanu-14"
+  },
+  {
+    "line": "Sovereign Majin: Excellent! The first match up appears to be... soldier and Mel. Step forward, the two of you.",
+    "file": "queensrecruit-sovereignmajin-14"
+  },
+  {
+    "line": "Mel: That'd be me!",
+    "file": "queensrecruit-mel-19"
+  },
+  {
+    "line": "Sovereign Majin: How wonderful. Mel and soldier.",
+    "file": "queensrecruit-sovereignmajin-15"
+  },
+  {
+    "line": "Sovereign Majin: Eugh. Weren't you listening before? I have no time for these games- oh, no matter, I don't care which is which.",
+    "file": "queensrecruit-sovereignmajin-16"
+  },
+  {
+    "line": "Sovereign Majin: Well, hurry up now, get prepared! Choose a corridor each, north or south, and get to fighting already!",
+    "file": "queensrecruit-sovereignmajin-17"
+  },
+  {
+    "line": "Sovereign Majin: As for the rest of you... oh, I can't be bothered. Read your matchups on the board yourselves.",
+    "file": "queensrecruit-sovereignmajin-18"
+  },
+  {
+    "line": "Mel: Uh... alrighty then. I guess I'll choose this one.",
+    "file": "queensrecruit-mel-20"
+  },
+  {
+    "line": "Mel: Hey, good luck out there!",
+    "file": "queensrecruit-mel-21"
+  },
+  {
+    "line": "Mel: Just 'cause we've got a mission here, doesn't mean I'll go easy on ya!",
+    "file": "queensrecruit-mel-22"
+  },
+  {
+    "line": "Gendarme Soldier: I'm afraid I can't let you in just yet. Not until-",
+    "file": "queensrecruit-gendarmesoldier1-1"
+  },
+  {
+    "line": "Dr. Picard: Yes, yes, my research notes, I am *aware*. It has been sorted already. May I visit the library now?",
+    "file": "queensrecruit-drpicard-29"
+  },
+  {
+    "line": "Gendarme Soldier: Don't interrupt me. You can't enter until this round of tournament matches concludes. Her Majesty's orders.",
+    "file": "queensrecruit-gendarmesoldier1-2"
+  },
+  {
+    "line": "Dr. Picard: Pah. Fine! Fine, yes, I'll *wait*. Good grief.",
+    "file": "queensrecruit-drpicard-30"
+  },
+  {
+    "line": "Dr. Picard: You'd *think* I would have some level of freedom, but no! What does it matter if I don't need to watch the matches if there's *nothing else* to do?!",
+    "file": "queensrecruit-drpicard-31"
+  },
+  {
+    "line": "Dr. Picard: Oh, just go and get your match over with. Quit stalling.",
+    "file": "queensrecruit-drpicard-32"
+  },
+  {
+    "line": "Jenprest: Well, well. Looks like we'll finally get to test which o' us is stronger, eh, captain?",
+    "file": "queensrecruit-jenprest-15"
+  },
+  {
+    "line": "Captain Kymer: Oh, finally? I wasn't aware there was even a question! Lieutenant, do you *truly* think you stand a chance against me?",
+    "file": "queensrecruit-captainkymer-17"
+  },
+  {
+    "line": "Jenprest: Ah, enough o' your posturin', Kymer! You might be all up n' fancy these days, but *I* still remember when you were but a rookie, all afraid of a lil' old zombie!",
+    "file": "queensrecruit-jenprest-16"
+  },
+  {
+    "line": "Captain Kymer: Ha! Ah, good times. Good times. You'll get your recognition too one of these days, you know. Maybe you'll even surpass my rank someday!",
+    "file": "queensrecruit-captainkymer-18"
+  },
+  {
+    "line": "Jenprest: Eh, you say that every time. Besides, the lower ranks suit me well. Don't think I'd do well with all that \"responsibility\" the big wigs put on your shoulders.",
+    "file": "queensrecruit-jenprest-17"
+  },
+  {
+    "line": "Jenprest: ...all that bein' said, you're still goin' down when it's our go! I got some new tricks since the last time we fought, so don't get too cocky!",
+    "file": "queensrecruit-jenprest-18"
+  },
+  {
+    "line": "Captain Kymer: Ha! Then I look forward to seeing them.",
+    "file": "queensrecruit-captainkymer-19"
+  },
+  {
+    "line": "Mel: Ready to go?! Let's show them what we're made of!",
+    "file": "queensrecruit-mel-23"
+  },
+  {
+    "line": "Mel: Phew! What a fight! Got my blood rushin'!",
+    "file": "queensrecruit-mel-24"
+  },
+  {
+    "line": "Mel: What'd you think of my trick? Pretty good, right? Makes me less of a sittin' duck in combat!",
+    "file": "queensrecruit-mel-25"
+  },
+  {
+    "line": "Mel: Ah, I didn't think I was gonna be winnin' anything, really. But it was fun givin' it a shot.",
+    "file": "queensrecruit-mel-26"
+  },
+  {
+    "line": "Aelumia Guard: soldier has bested Mel in the first round, and will progress to the next!",
+    "file": "queensrecruit-gendarmesoldier2-1"
+  },
+  {
+    "line": "Mel: Hm, so what now?",
+    "file": "queensrecruit-mel-27"
+  },
+  {
+    "line": "Aelumia Guard: You will be permitted to remain in the palace for the duration of the tournament. You will be paid for your participation at the end of your stay.",
+    "file": "queensrecruit-gendarmesoldier2-2"
+  },
+  {
+    "line": "Mel: I figure that makes sense. I wonder when Lanu's match is...",
+    "file": "queensrecruit-mel-28"
+  },
+  {
+    "line": "Aelumia Guard: soldier, congratulations on your victory. You will be notified when your next match is. In the meantime, feel free to rest.",
+    "file": "queensrecruit-gendarmesoldier2-3"
+  },
+  {
+    "line": "Mel: It was a good fight! But you'd better win in my honor now, y'hear?",
+    "file": "queensrecruit-mel-29"
+  },
+  {
+    "line": "Dr. Picard: Ah, soldier, I saw the match! Very good technique, better than many soldiers I've seen pass through Elkurn in my time.",
+    "file": "queensrecruit-drpicard-33"
+  },
+  {
+    "line": "Dr. Picard: I suppose I'm not surprised! When the tournament was announced, you came to mind as a potential winner. You, and one other person, that is.",
+    "file": "queensrecruit-drpicard-34"
+  },
+  {
+    "line": "Dr. Picard: Hm... maybe I could start taking bets on who will win... ah, no, no, I'm far too busy. Stay focused, Picard.",
+    "file": "queensrecruit-drpicard-35"
+  },
+  {
+    "line": "Dr. Picard: Hm? Oh dear, I'd forgotten you were here! Yes, I was going to do something...",
+    "file": "queensrecruit-drpicard-36"
+  },
+  {
+    "line": "Dr. Picard: Oh! The library! Can you believe it, that damnable guard *finally* stepped away! It's ridiculous, really- who even cares to guard a *library* of all things?!",
+    "file": "queensrecruit-drpicard-37"
+  },
+  {
+    "line": "Dr. Picard: But. But but *but*. The way is open, and although the tournament round is *still* ongoing, I'd like to take this opportunity while I can!",
+    "file": "queensrecruit-drpicard-38"
+  },
+  {
+    "line": "Dr. Picard: Care to join me? I'm sure there's something you'll find interesting in there. What sorts of knowledge have the Frumans kept hidden in these walls...",
+    "file": "queensrecruit-drpicard-39"
+  },
+  {
+    "line": "Dr. Picard: Well, are you coming? Come now, quickly, before the guard returns!",
+    "file": "queensrecruit-drpicard-40"
+  },
+  {
+    "line": "Dr. Picard: Goodness, where to even begin? There's so much here...",
+    "file": "queensrecruit-drpicard-41"
+  },
+  {
+    "line": "???: ...and that we're rifling through the Cursed instead of our own citizens is an incalculable risk!!",
+    "file": "queensrecruit-sovereignzhiraok-9"
+  },
+  {
+    "line": "Dr. Picard: What was that?! Quickly, quickly now, follow me!",
+    "file": "queensrecruit-drpicard-42"
+  },
+  {
+    "line": "Dr. Picard: Do you have eyes on the speaker? Who is it?",
+    "file": "queensrecruit-drpicard-43"
+  },
+  {
+    "line": "Sovereign Zhiraok: I can't find her angle for this hunt.",
+    "file": "queensrecruit-sovereignzhiraok-10"
+  },
+  {
+    "line": "Sovereign Majin: Ah, it's like I'm talking with her again! It's so nostalgic to speak with a clueless Nasin trying their hardest, in spite of their incompe-",
+    "file": "queensrecruit-sovereignmajin-19"
+  },
+  {
+    "line": "Sovereign Zhiraok: I'M SORRY, YOU IGNORANT INTEGRAND? You really think now is the time for- Rrgh... Why. Do I even bother.",
+    "file": "queensrecruit-sovereignzhiraok-11"
+  },
+  {
+    "line": "Sovereign Majin: Why, indeed! It truly is a bad habit. Something to work on while your seniors do the important work, hm?",
+    "file": "queensrecruit-sovereignmajin-20"
+  },
+  {
+    "line": "Sovereign Majin: Speaking of, I must put forth that I do find this all a bit strange. We most certainly aren’t lacking in strength here, so why bother with the exiles?",
+    "file": "queensrecruit-sovereignmajin-21"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...sigh... The risk factor is much greater than I'd bet on. She has to know more than we do, so maybe we'll get a summation later.",
+    "file": "queensrecruit-sovereignzhiraok-12"
+  },
+  {
+    "line": "???: Are you two done?",
+    "file": "queensrecruit-sovereigntwo-1"
+  },
+  {
+    "line": "Sovereign Majin: Ah, there she is. Fashionably late as always!",
+    "file": "queensrecruit-sovereignmajin-22"
+  },
+  {
+    "line": "???: Hm. If anything, I was early.",
+    "file": "queensrecruit-sovereigntwo-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: I'd say your timing was golden- if you're here for that summation I mentioned, and this isn't anything else.",
+    "file": "queensrecruit-sovereignzhiraok-13"
+  },
+  {
+    "line": "???: It's the former. But first, have you been watching the battles? Do any of the contestants stick out to you?",
+    "file": "queensrecruit-sovereigntwo-3"
+  },
+  {
+    "line": "Sovereign Majin: Stick out? Hardly. Thus far, I have been thoroughly unimpressed.",
+    "file": "queensrecruit-sovereignmajin-23"
+  },
+  {
+    "line": "Sovereign Zhiraok: Naturally you would be. I've seen some generally promising things, but I need to know the expected solution to narrow the pool-",
+    "file": "queensrecruit-sovereignzhiraok-14"
+  },
+  {
+    "line": "Sovereign Majin: Ah, ah! Settle down, Nasin, your betters are speaking. Calculate yourself out of dead last, first.",
+    "file": "queensrecruit-sovereignmajin-24"
+  },
+  {
+    "line": "???: Later, then. We have problems. The contestants have been sneaking around. And the doctor has been taking meticulous notes.",
+    "file": "queensrecruit-sovereigntwo-4"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...looks like you letting him sit out the problem was a miscalculation, huh?",
+    "file": "queensrecruit-sovereignzhiraok-15"
+  },
+  {
+    "line": "Sovereign Majin: For once, we appear to be in agreement. What a pity, what a hassle… it hardly seems worth the effort to me.",
+    "file": "queensrecruit-sovereignmajin-25"
+  },
+  {
+    "line": "???: It will be. But I’ve spent too much time here already. You’ll have to wait for answers.",
+    "file": "queensrecruit-sovereigntwo-5"
+  },
+  {
+    "line": "Sovereign Zhiraok: Of course. How much more irrational can we get, I wonder.",
+    "file": "queensrecruit-sovereignzhiraok-16"
+  },
+  {
+    "line": "???: If you’d like something to look out for, one of the more promising candidates is set to have a match soon. Go watch it.",
+    "file": "queensrecruit-sovereigntwo-6"
+  },
+  {
+    "line": "Sovereign Majin: A joy as always. Well, you heard her Nasin! Chop chop, off to the stands we go!",
+    "file": "queensrecruit-sovereignmajin-26"
+  },
+  {
+    "line": "Dr. Picard: ...so not even the Sovereigns know what's happening. Fascinating. *Very* fascinating.",
+    "file": "queensrecruit-drpicard-44"
+  },
+  {
+    "line": "Dr. Picard: And there was a third! Who were they? Another Sovereign...? Damn it, damn it all, how did I not *notice*?",
+    "file": "queensrecruit-drpicard-45"
+  },
+  {
+    "line": "Dr. Picard: Well, they appear to be on to us. No matter. We'll need to be more careful.",
+    "file": "queensrecruit-drpicard-46"
+  },
+  {
+    "line": "Dr. Picard: You'd best get back to the arena. In the meantime, I'll keep searching here... there must be *something* useful!",
+    "file": "queensrecruit-drpicard-47"
+  },
+  {
+    "line": "Dr. Picard: ...hm? Oh, yes, fine, I'll tell the rest about what we heard. After I'm done here, of course.",
+    "file": "queensrecruit-drpicard-48"
+  },
+  {
+    "line": "Gendarme Soldier: The first round of the tournament has concluded!",
+    "file": "queensrecruit-gendarmesoldier2-4"
+  },
+  {
+    "line": "Gendarme Soldier: The names that will proceed to the next round... soldier! Tasim! Reynauld! Kymer!",
+    "file": "queensrecruit-gendarmesoldier2-5"
+  },
+  {
+    "line": "Gendarme Soldier: soldier, your match will begin shortly. Your opponent is already in the waiting room.",
+    "file": "queensrecruit-gendarmesoldier2-6"
+  },
+  {
+    "line": "Gendarme Soldier: Make your way to the arena.",
+    "file": "queensrecruit-gendarmesoldier2-7"
+  },
+  {
+    "line": "Gendarme Soldier: Make your way to the arena by following the stairs down.",
+    "file": "queensrecruit-gendarmesoldier2-8"
+  },
+  {
+    "line": "Reynauld: Ah, it's you.",
+    "file": "queensrecruit-reynauld-13"
+  },
+  {
+    "line": "Reynauld: Well, you'll likely prove more of a challenge than Linton, that's for sure.",
+    "file": "queensrecruit-reynauld-14"
+  },
+  {
+    "line": "Reynauld: You've come a long way since Elkurn, haven't you? Well, so have I! Let's battle.",
+    "file": "queensrecruit-reynauld-15"
+  },
+  {
+    "line": "Aelumia Guard: The battle is decided! soldier has come out victorious.",
+    "file": "queensrecruit-gendarmesoldier2-9"
+  },
+  {
+    "line": "Reynauld: Ah... good fighting, soldier. I even used some of my most powerful arrows...",
+    "file": "queensrecruit-reynauld-16"
+  },
+  {
+    "line": "Aelumia Guard: Reynauld, you have been eliminated.",
+    "file": "queensrecruit-gendarmesoldier2-10"
+  },
+  {
+    "line": "Reynauld: I know, I know. You were a worthy opponent, soldier. Now, you'll be winning this whole thing, yes?",
+    "file": "queensrecruit-reynauld-17"
+  },
+  {
+    "line": "Aelumia Guard: soldier, congratulations on reaching the finals. All other opponents have been defeated, except for you and your fellow finalist.",
+    "file": "queensrecruit-gendarmesoldier2-11"
+  },
+  {
+    "line": "Aelumia Guard: Hmph. That will be announced shortly. Please make your way to the courtyard and await further instructions.",
+    "file": "queensrecruit-gendarmesoldier2-12"
+  },
+  {
+    "line": "Gendarme Soldier: Please make your way to the courtyard and await further instructions.",
+    "file": "queensrecruit-gendarmesoldier2-13"
+  },
+  {
+    "line": "Gendarme Soldier: We will announce your next match later. Please feel free to rest or enjoy the palace in the meantime.",
+    "file": "queensrecruit-gendarmesoldier2-14"
+  },
+  {
+    "line": "Gendarme Soldier: Please go to your waiting room and prepare for the battle.",
+    "file": "queensrecruit-gendarmesoldier2-15"
+  },
+  {
+    "line": "Gendarme Soldier: Please make your way to the arena by following the stairs down.",
+    "file": "queensrecruit-gendarmesoldier2-16"
+  },
+  {
+    "line": "Reynauld: I did well enough, I suppose. I'll be glad for this to all be over, anyway.",
+    "file": "queensrecruit-reynauld-18"
+  },
+  {
+    "line": "Dr. Picard: soldier, you return! Well, how did your match go?",
+    "file": "queensrecruit-drpicard-49"
+  },
+  {
+    "line": "Captain Kymer: You? I suppose that would make sense. No offense intended, Reynauld, but I would have bet on soldier if I had the chance.",
+    "file": "queensrecruit-captainkymer-20"
+  },
+  {
+    "line": "Reynauld: Ha. For me, certainly! It felt like I could barely make a dent in your stamina.",
+    "file": "queensrecruit-reynauld-19"
+  },
+  {
+    "line": "Dr. Picard: Yes, yes, congratulations are in order, and all that- we have *problems*.",
+    "file": "queensrecruit-drpicard-50"
+  },
+  {
+    "line": "Captain Kymer: It was problem enough that he was called here in the first place... to think, he could-",
+    "file": "queensrecruit-captainkymer-21"
+  },
+  {
+    "line": "Lanu: That is *enough* about the tournament. I don't want to hear about it anymore. The doctor is right.",
+    "file": "queensrecruit-lanu-15"
+  },
+  {
+    "line": "Captain Kymer: Yes, well, it's not *your* honour on the line... but fine, I admit, this third Sovereign is... troubling.",
+    "file": "queensrecruit-captainkymer-22"
+  },
+  {
+    "line": "Reynauld: Hm. Have we been able to find what information we needed?",
+    "file": "queensrecruit-reynauld-20"
+  },
+  {
+    "line": "Dr. Picard: No! And *that* is precisely our problem - we are *missing* something, and we are running out of *time*! One final match, and then it's done.",
+    "file": "queensrecruit-drpicard-51"
+  },
+  {
+    "line": "Tasim: ...truthfully, I'm surprised you were on *my* side for that match.",
+    "file": "queensrecruit-tasim-98"
+  },
+  {
+    "line": "Jenprest: Ah, well, someone had t' take him down a peg! Guess that someone was you.",
+    "file": "queensrecruit-jenprest-19"
+  },
+  {
+    "line": "Captain Kymer: Oh, give me a break, lieutenant. *Him?* Of all people to-",
+    "file": "queensrecruit-captainkymer-23"
+  },
+  {
+    "line": "Tasim: Hey, everyone's here! Is... this where they wanted everyone to gather up?",
+    "file": "queensrecruit-tasim-99"
+  },
+  {
+    "line": "Lanu: Seems that way. You won your match?",
+    "file": "queensrecruit-lanu-16"
+  },
+  {
+    "line": "Captain Kymer: Must you really ask?!",
+    "file": "queensrecruit-captainkymer-24"
+  },
+  {
+    "line": "Tasim: I did. It seems I'm a finalist now. So, who's the other one?",
+    "file": "queensrecruit-tasim-100"
+  },
+  {
+    "line": "Tasim: Oh! Well, congratulations! Though, I guess we'll be facing each other soon.",
+    "file": "queensrecruit-tasim-101"
+  },
+  {
+    "line": "Dr. Picard: Good grief... yes, the tournament has happened, congratulations to the finalists, whatever- *where* are Mel and Linton? We need to discuss what to do next, before-",
+    "file": "queensrecruit-drpicard-52"
+  },
+  {
+    "line": "Linton: ...and so, what, I'm not allowed to take a nap now? I wasn't even fighting!! Mel, back me up, come on!",
+    "file": "queensrecruit-linton-30"
+  },
+  {
+    "line": "Mel: He's right, this hardly seems fair! We were told we could stay in our rooms until the tournament had concluded, so why the change?!",
+    "file": "queensrecruit-mel-30"
+  },
+  {
+    "line": "Tasim: ...what's going on?",
+    "file": "queensrecruit-tasim-102"
+  },
+  {
+    "line": "Gendarme Soldier: Any competitors who have lost in the tournament are to be escorted out of Fruma, effective immediately.",
+    "file": "queensrecruit-gendarmesoldier3-1"
+  },
+  {
+    "line": "Lanu: What?!-",
+    "file": "queensrecruit-lanu-17"
+  },
+  {
+    "line": "Linton: You can't just-",
+    "file": "queensrecruit-linton-31"
+  },
+  {
+    "line": "Captain Kymer: - of all things-",
+    "file": "queensrecruit-captainkymer-25"
+  },
+  {
+    "line": "Jenprest: - for what reason?!-",
+    "file": "queensrecruit-jenprest-20"
+  },
+  {
+    "line": "Dr. Picard: - what is the meaning of this?!",
+    "file": "queensrecruit-drpicard-53"
+  },
+  {
+    "line": "Gendarme Soldier: SILENCE! These are new orders from Her Majesty.",
+    "file": "queensrecruit-gendarmesoldier3-2"
+  },
+  {
+    "line": "Gendarme Soldier: Only soldier and Tasim are permitted to remain in the palace. Any defiance will be seen as an official threat against Fruma from the Wynn province.",
+    "file": "queensrecruit-gendarmesoldier3-3"
+  },
+  {
+    "line": "Gendarme Soldier: Comply, and no one will be hurt. You will still receive your promised reward for participation.",
+    "file": "queensrecruit-gendarmesoldier3-4"
+  },
+  {
+    "line": "Captain Kymer: ...this is an outrage. The *disrespect*-",
+    "file": "queensrecruit-captainkymer-26"
+  },
+  {
+    "line": "Dr. Picard: Enough, Kymer. What's done is done. We have no choice.",
+    "file": "queensrecruit-drpicard-54"
+  },
+  {
+    "line": "Captain Kymer: ...",
+    "file": "queensrecruit-captainkymer-27"
+  },
+  {
+    "line": "Captain Kymer: You two. Stay safe, and be on guard. I'll report back to the King with this news. If you're not released safely...",
+    "file": "queensrecruit-captainkymer-28"
+  },
+  {
+    "line": "Dr. Picard: ...soldier. Tasim. I've gotten what I came here for originally, but... I don't know what they're planning. You'll have to handle it on your own.",
+    "file": "queensrecruit-drpicard-55"
+  },
+  {
+    "line": "Dr. Picard: Good luck.",
+    "file": "queensrecruit-drpicard-56"
+  },
+  {
+    "line": "Gendarme Soldier: Remaining finalists, you are expected in the dining hall shortly. Attend your last meal before the finals.",
+    "file": "queensrecruit-gendarmesoldier3-5"
+  },
+  {
+    "line": "Tasim: What was that? What just happened?",
+    "file": "queensrecruit-tasim-103"
+  },
+  {
+    "line": "Tasim: They've changed the rules on us, and now... ugh, we have no *choice*... We need to see it through.",
+    "file": "queensrecruit-tasim-104"
+  },
+  {
+    "line": "Tasim: Well... come on. Let's attend our final dinner here.",
+    "file": "queensrecruit-tasim-105"
+  },
+  {
+    "line": "Tasim: What are we supposed to do...?",
+    "file": "queensrecruit-tasim-106"
+  },
+  {
+    "line": "Tasim: They'll let us out. They have to. It'd be a diplomatic disaster if they didn't.",
+    "file": "queensrecruit-tasim-107"
+  },
+  {
+    "line": "Her Majesty: Finalists. Welcome.",
+    "file": "queensrecruit-hermajesty-17"
+  },
+  {
+    "line": "Her Majesty: If you were not already aware, your fellow soldiers have been returned to Wynn. Safely.",
+    "file": "queensrecruit-hermajesty-18"
+  },
+  {
+    "line": "Tasim: ...if you don't mind me asking, *Your Majesty*, I thought we had an agreement? We would all remain here until the tournament concluded with the finals.",
+    "file": "queensrecruit-tasim-108"
+  },
+  {
+    "line": "Sovereign Majin: Oh? And would *you* like to join the rest of them? That could certainly be arranged- we could simply select a victor here and now, and be done with this whole-",
+    "file": "queensrecruit-sovereignmajin-27"
+  },
+  {
+    "line": "Sovereign Zhiraok: _What is your problem, Thalas?!_ They're guests of Her Majesty! How irrational are you, trying to subtract them without her appr-",
+    "file": "queensrecruit-sovereignzhiraok-17"
+  },
+  {
+    "line": "Her Majesty: Enough. Both of you.",
+    "file": "queensrecruit-hermajesty-19"
+  },
+  {
+    "line": "Her Majesty: To answer your question, the circumstances have changed. There is no need for the rest of your group to remain here.",
+    "file": "queensrecruit-hermajesty-20"
+  },
+  {
+    "line": "Her Majesty: The remainder of the tournament will proceed as expected.",
+    "file": "queensrecruit-hermajesty-21"
+  },
+  {
+    "line": "Tasim: I... see.",
+    "file": "queensrecruit-tasim-109"
+  },
+  {
+    "line": "Her Majesty: Good. Now, let us enjoy the meal!",
+    "file": "queensrecruit-hermajesty-22"
+  },
+  {
+    "line": "Her Majesty: Another taste of Fruman cuisine... the meat was imported from the Auburn Forest, and the vegetables came from our royal garden.",
+    "file": "queensrecruit-hermajesty-23"
+  },
+  {
+    "line": "Her Majesty: Now, to business. The final will take place tomorrow morning. But first, I would like to speak to each of you individually.",
+    "file": "queensrecruit-hermajesty-24"
+  },
+  {
+    "line": "Her Majesty: Let us begin with... soldier. Please come to the north-eastern wing when you are ready.",
+    "file": "queensrecruit-hermajesty-25"
+  },
+  {
+    "line": "Tasim: Sigh... good luck out there.",
+    "file": "queensrecruit-tasim-110"
+  },
+  {
+    "line": "Her Majesty: Well. I suppose congratulations are in order, finalist.",
+    "file": "queensrecruit-hermajesty-26"
+  },
+  {
+    "line": "Her Majesty: You're curious, surely? For what purpose would I call you soldiers back to our province?",
+    "file": "queensrecruit-hermajesty-27"
+  },
+  {
+    "line": "Her Majesty: Certainly not just for a vanity tournament. A meaningless celebration.",
+    "file": "queensrecruit-hermajesty-28"
+  },
+  {
+    "line": "Her Majesty: Oh, let us drop the facade. I know what you have been doing in secret. I am not blind.",
+    "file": "queensrecruit-hermajesty-29"
+  },
+  {
+    "line": "Her Majesty: You chose to take this opportunity to seek out information on our province. What little you have learned, we have deemed an acceptable cost.",
+    "file": "queensrecruit-hermajesty-30"
+  },
+  {
+    "line": "Her Majesty: Given the circumstances, I would have sacrificed much, much more if necessary.",
+    "file": "queensrecruit-hermajesty-31"
+  },
+  {
+    "line": "Her Majesty: The greatest that Wynn has... a broad category. We had to thin the numbers - a contest of strength did the job nicely.",
+    "file": "queensrecruit-hermajesty-32"
+  },
+  {
+    "line": "Her Majesty: And now... two candidates remain. You have done well to make it this far. I have been watching the duels intently, and you are certainly not unimpressive.",
+    "file": "queensrecruit-hermajesty-33"
+  },
+  {
+    "line": "Her Majesty: Yet of the two of you... you certainly leave a lesser impression than him. You are one amongst hundreds, thousands... indistinguishable.",
+    "file": "queensrecruit-hermajesty-34"
+  },
+  {
+    "line": "Her Majesty: And still, here you stand. It intrigues me. What is so special about you? What strength has led you here?",
+    "file": "queensrecruit-hermajesty-35"
+  },
+  {
+    "line": "Her Majesty: But no matter. Answers will come with time... should you be selected. I can tell you have a question. Speak it.",
+    "file": "queensrecruit-hermajesty-36"
+  },
+  {
+    "line": "Her Majesty: Hm. A blank slate... to be able to see the outside world, for all its splendor and all its faults, to witness firsthand the deep rooted seeds of its inevitable destruction... there is value to that.",
+    "file": "queensrecruit-hermajesty-37"
+  },
+  {
+    "line": "Her Majesty: You have seen it, haven't you? Forces beyond any of us vie for control of our world, caring not for what destruction they instill.",
+    "file": "queensrecruit-hermajesty-38"
+  },
+  {
+    "line": "Her Majesty: And it truly is a beautiful world, isn't it? To think, it could all be destroyed, taken for their ceaseless war which holds no meaning, no purpose...",
+    "file": "queensrecruit-hermajesty-39"
+  },
+  {
+    "line": "Her Majesty: Then you have seen firsthand the benefits. The province is unburdened by those who may cause problems, and Wynn's front in its war is bolstered.",
+    "file": "queensrecruit-hermajesty-40"
+  },
+  {
+    "line": "Her Majesty: Of course, many will refuse the call. Many more will grow stagnant in their newfound roles. Yet, in a select few... there is potential for much, much more.",
+    "file": "queensrecruit-hermajesty-41"
+  },
+  {
+    "line": "Her Majesty: I wonder... which are you?",
+    "file": "queensrecruit-hermajesty-42"
+  },
+  {
+    "line": "Her Majesty: That will be all. Return to your chambers for the night. I will be sending for the other finalist shortly.",
+    "file": "queensrecruit-hermajesty-43"
+  },
+  {
+    "line": "Her Majesty: Please, make your exit.",
+    "file": "queensrecruit-hermajesty-44"
+  },
+  {
+    "line": "Tasim: You're back! Still in one piece?",
+    "file": "queensrecruit-tasim-111"
+  },
+  {
+    "line": "Tasim: ...I was getting a little worried. You were up there a while.",
+    "file": "queensrecruit-tasim-112"
+  },
+  {
+    "line": "Tasim: What did she want?",
+    "file": "queensrecruit-tasim-113"
+  },
+  {
+    "line": "Tasim: ...right. A weird conversation, then?",
+    "file": "queensrecruit-tasim-114"
+  },
+  {
+    "line": "Tasim: Ha. Well, now I'm a little nervous.",
+    "file": "queensrecruit-tasim-115"
+  },
+  {
+    "line": "Tasim: ...really. A... blank slate...",
+    "file": "queensrecruit-tasim-116"
+  },
+  {
+    "line": "Tasim: I'll... need to ask some follow-up questions.",
+    "file": "queensrecruit-tasim-117"
+  },
+  {
+    "line": "Tasim: Oh, this is a *disaster*. We've been separated, and now we're *stuck* in here.",
+    "file": "queensrecruit-tasim-118"
+  },
+  {
+    "line": "Tasim: We need to come up with a plan... is there a way we could-",
+    "file": "queensrecruit-tasim-119"
+  },
+  {
+    "line": "Tasim: Oh. There it is.",
+    "file": "queensrecruit-tasim-120"
+  },
+  {
+    "line": "Tasim: Okay, wish me luck. I'll be back.",
+    "file": "queensrecruit-tasim-121"
+  },
+  {
+    "line": "Tasim: Don't... stay up waiting for me. You can go rest. I'll be... fine, probably.",
+    "file": "queensrecruit-tasim-122"
+  },
+  {
+    "line": "Tasim: ...oh, you're up.",
+    "file": "queensrecruit-tasim-123"
+  },
+  {
+    "line": "Tasim: Sorry for waking you.",
+    "file": "queensrecruit-tasim-124"
+  },
+  {
+    "line": "Tasim: It went... fine, I guess. She probably said... most of the same things to you.",
+    "file": "queensrecruit-tasim-125"
+  },
+  {
+    "line": "Tasim: Hey, soldier...",
+    "file": "queensrecruit-tasim-126"
+  },
+  {
+    "line": "Tasim: Could I ask you a favor?",
+    "file": "queensrecruit-tasim-127"
+  },
+  {
+    "line": "Tasim: Could we spar? A test match, before... before tomorrow. Just like old times.",
+    "file": "queensrecruit-tasim-128"
+  },
+  {
+    "line": "Tasim: Just, get ready and meet me at the arena. Okay?",
+    "file": "queensrecruit-tasim-129"
+  },
+  {
+    "line": "Tasim: Get ready and meet me at the arena. Okay?",
+    "file": "queensrecruit-tasim-130"
+  },
+  {
+    "line": "Tasim: I- yes. I'm okay. Just... could we spar? A test match, before... tomorrow. For old times' sake.",
+    "file": "queensrecruit-tasim-131"
+  },
+  {
+    "line": "Tasim: Just... get ready and meet me at the arena. Okay?",
+    "file": "queensrecruit-tasim-132"
+  },
+  {
+    "line": "Tasim: Okay...? About what?",
+    "file": "queensrecruit-tasim-133"
+  },
+  {
+    "line": "Tasim: I was going to ask if I could ask you a favor.",
+    "file": "queensrecruit-tasim-134"
+  },
+  {
+    "line": "Tasim: H... huh?",
+    "file": "queensrecruit-tasim-135"
+  },
+  {
+    "line": "Tasim: He's... n-no, that-",
+    "file": "queensrecruit-tasim-136"
+  },
+  {
+    "line": "Tasim: What...?",
+    "file": "queensrecruit-tasim-137"
+  },
+  {
+    "line": "Tasim: I... I... I don't understand.",
+    "file": "queensrecruit-tasim-138"
+  },
+  {
+    "line": "Tasim: He's... what- what happened? How do you know? How- how could you know?",
+    "file": "queensrecruit-tasim-139"
+  },
+  {
+    "line": "Tasim: ...oh. That mission.",
+    "file": "queensrecruit-tasim-140"
+  },
+  {
+    "line": "Tasim: I-... Gods. And, you- you've been tr-trying to-",
+    "file": "queensrecruit-tasim-141"
+  },
+  {
+    "line": "Tasim: I- I need to go. I need some space. I'll- I'm going to the arena. I need to... to...",
+    "file": "queensrecruit-tasim-142"
+  },
+  {
+    "line": "Tasim: No. No, d-don't. Don't do that. Not now, not- not *now*. If... if you need me... you'll- you'll know where I am.",
+    "file": "queensrecruit-tasim-143"
+  },
+  {
+    "line": "Tasim: It's... quiet. No guards in sight.",
+    "file": "queensrecruit-tasim-144"
+  },
+  {
+    "line": "Tasim: *Sigh*. There's no point in trying to get out of here. We have to just see it through to the end.",
+    "file": "queensrecruit-tasim-145"
+  },
+  {
+    "line": "Tasim: What did you think? About what she said? About... forces destroying the world.",
+    "file": "queensrecruit-tasim-146"
+  },
+  {
+    "line": "Tasim: She's right. I've seen it- I know *you've* seen it. It's... getting worse.",
+    "file": "queensrecruit-tasim-147"
+  },
+  {
+    "line": "Tasim: But... the recruits. *The recruits*. I can't get over that. It's so...",
+    "file": "queensrecruit-tasim-148"
+  },
+  {
+    "line": "Tasim: Let's just get down there and fight. Usual spots, right?",
+    "file": "queensrecruit-tasim-149"
+  },
+  {
+    "line": "Tasim: Still can't beat you, huh...",
+    "file": "queensrecruit-tasim-150"
+  },
+  {
+    "line": "Tasim: Ha. You've gotten stronger...",
+    "file": "queensrecruit-tasim-151"
+  },
+  {
+    "line": "Tasim: I guess we know how tomorrow will turn out, then.",
+    "file": "queensrecruit-tasim-152"
+  },
+  {
+    "line": "Tasim: No- don't deny it. We both know I'm right.",
+    "file": "queensrecruit-tasim-153"
+  },
+  {
+    "line": "Tasim: She gave me a choice, you know.",
+    "file": "queensrecruit-tasim-154"
+  },
+  {
+    "line": "Tasim: A choice. I don't know what to do with it. And... I'm afraid of taking either option.",
+    "file": "queensrecruit-tasim-155"
+  },
+  {
+    "line": "Tasim: I... I need to think it over some more. And we both need to rest.",
+    "file": "queensrecruit-tasim-156"
+  },
+  {
+    "line": "Tasim: Huh? I... yes. I think I am. I just have a lot on my mind.",
+    "file": "queensrecruit-tasim-157"
+  },
+  {
+    "line": "Tasim: I'll... tell you in the morning. I just have a lot on my mind.",
+    "file": "queensrecruit-tasim-158"
+  },
+  {
+    "line": "Tasim: ...so you're here.",
+    "file": "queensrecruit-tasim-159"
+  },
+  {
+    "line": "Tasim: No words. Let's fight. Just- just a training battle. To... test our skills.",
+    "file": "queensrecruit-tasim-160"
+  },
+  {
+    "line": "Tasim: Ha. You're- you're good. Oof. I'll be feeling that for... for a while.",
+    "file": "queensrecruit-tasim-161"
+  },
+  {
+    "line": "Tasim: Why did it have to come to this? Why couldn't- why couldn't we all have just been happy?",
+    "file": "queensrecruit-tasim-162"
+  },
+  {
+    "line": "Tasim: He- he sent me a letter for that mission, you know. Did I tell you that? It's why I went back to Wynn.",
+    "file": "queensrecruit-tasim-163"
+  },
+  {
+    "line": "Tasim: And, it turns out he was already... already gone. And you were there, and I wasn't.",
+    "file": "queensrecruit-tasim-164"
+  },
+  {
+    "line": "Tasim: I want to blame you for it. I want to be able to be mad, to hate you. But... I can't. I just can't.",
+    "file": "queensrecruit-tasim-165"
+  },
+  {
+    "line": "Tasim: I wish I could've been there. I wish I could have done it better. Maybe I could have- or maybe it would've just gone the same way.",
+    "file": "queensrecruit-tasim-166"
+  },
+  {
+    "line": "Tasim: ...maybe it'd have gone worse.",
+    "file": "queensrecruit-tasim-167"
+  },
+  {
+    "line": "Tasim: And now we're both here- in the place we were all exiled from! But he's- he isn't. He's gone, and- and we're still here.",
+    "file": "queensrecruit-tasim-168"
+  },
+  {
+    "line": "Tasim: ...what am I supposed to do? What are we supposed to do? About all of this?",
+    "file": "queensrecruit-tasim-169"
+  },
+  {
+    "line": "Tasim: She gave me a choice.",
+    "file": "queensrecruit-tasim-170"
+  },
+  {
+    "line": "Tasim: I asked a lot of questions. I didn't like all the answers, but... she left me with a choice.",
+    "file": "queensrecruit-tasim-171"
+  },
+  {
+    "line": "Tasim: I don't know what to do. I need to... to... I need to think.",
+    "file": "queensrecruit-tasim-172"
+  },
+  {
+    "line": "Tasim: Give me some space, please. I'll see you in the morning.",
+    "file": "queensrecruit-tasim-173"
+  },
+  {
+    "line": "soldier.",
+    "file": "queensrecruit-tasim-174"
+  },
+  {
+    "line": "If you're reading this, I'm not back yet. I... couldn't sleep. So I'm heading out for a walk to clear my mind.",
+    "file": "queensrecruit-tasim-175"
+  },
+  {
+    "line": "If it's morning, I'll see you at the dining hall. If it's still night, maybe I'll catch you before then.",
+    "file": "queensrecruit-tasim-176"
+  },
+  {
+    "line": "-Tasim",
+    "file": "queensrecruit-tasim-177"
+  },
+  {
+    "line": "I hope you'll forgive me.",
+    "file": "queensrecruit-tasim-178"
+  },
+  {
+    "line": "I'm taking her deal.",
+    "file": "queensrecruit-tasim-179"
+  },
+  {
+    "line": "Don't come looking for me.",
+    "file": "queensrecruit-tasim-180"
+  },
+  {
+    "line": "???: Choices, choices, choices, choices...",
+    "file": "queensrecruit-sovereigntwo-7"
+  },
+  {
+    "line": "???: You've already failed, you know. You did not meet her criteria for selection.",
+    "file": "queensrecruit-sovereigntwo-8"
+  },
+  {
+    "line": "???: But is dismissing you outright an error? Certainly, you're powerful. Perhaps even more so than you should be, given the circumstances.",
+    "file": "queensrecruit-sovereigntwo-9"
+  },
+  {
+    "line": "???: Still. You lack the drive, the perspective. The dedication. The understanding.",
+    "file": "queensrecruit-sovereigntwo-10"
+  },
+  {
+    "line": "???: And, most critically - you're unpredictable. And that makes you *dangerous*.",
+    "file": "queensrecruit-sovereigntwo-11"
+  },
+  {
+    "line": "???: Ah! It seems Her Majesty and I have come to the same conclusion. Wonderful.",
+    "file": "queensrecruit-sovereigntwo-12"
+  },
+  {
+    "line": "???: So, where does that leave you? Cast out, discarded?",
+    "file": "queensrecruit-sovereigntwo-13"
+  },
+  {
+    "line": "???: All the unanswered questions. Will you choose to let go? Dismiss the possibilities?",
+    "file": "queensrecruit-sovereigntwo-14"
+  },
+  {
+    "line": "???: And if not? What would you do for a glimpse of the truth? For a chance of receiving answers?",
+    "file": "queensrecruit-sovereigntwo-15"
+  },
+  {
+    "line": "???: Hm. Whatever the case, the choice is yours. Perhaps you'll surprise me, after all! Wouldn't that be exciting?",
+    "file": "queensrecruit-sovereigntwo-16"
+  },
+  {
+    "line": "Gendarme Soldier: soldier, under order of Her Majesty, you are to be escorted out of Fruma, effective immediately.",
+    "file": "queensrecruit-gendarmesoldier4-1"
+  },
+  {
+    "line": "Gendarme Soldier: Any defiance will be seen as an official threat against Fruma from the Wynn province. Comply, and no one will be hurt.",
+    "file": "queensrecruit-gendarmesoldier4-2"
+  },
+  {
+    "line": "Gendarme Soldier: You hold no power here. This choice is not yours. You will follow orders, or face the consequences.",
+    "file": "queensrecruit-gendarmesoldier4-3"
+  },
+  {
+    "line": "Gendarme Soldier: Tasim! Her Majesty will speak with you now.",
+    "file": "queensrecruit-gendarmesoldier4-4"
+  },
+  {
+    "line": "Mel: What have I gotten myself into...",
+    "file": "queensrecruit-mel-31"
+  },
+  {
+    "line": "Lanu: I must say, Fruma has not been on my mind. We have so many of our own problems over here that there's no time to worry about some unknown kingdom.",
+    "file": "queensrecruit-lanu-18"
+  },
+  {
+    "line": "Lanu: It will be quite interesting to find out where we come from though...",
+    "file": "queensrecruit-lanu-19"
+  },
+  {
+    "line": "Lanu: Uhm... It was Zhiraok.",
+    "file": "queensrecruit-lanu-20"
+  },
+  {
+    "line": "Tasim: I have a lot of questions about that place...",
+    "file": "queensrecruit-tasim-181"
+  },
+  {
+    "line": "Tasim: A part of me is scared of what we will find but, I have to know.",
+    "file": "queensrecruit-tasim-182"
+  },
+  {
+    "line": "Tasim: Anyway, I'll be heading to the Nemract Seaskipper if you want to tag along.",
+    "file": "queensrecruit-tasim-183"
+  },
+  {
+    "line": "Tasim: W...wow...",
+    "file": "queensrecruit-tasim-184"
+  },
+  {
+    "line": "Tasim: This is... insane.",
+    "file": "queensrecruit-tasim-185"
+  },
+  {
+    "line": "Tasim: Fruma must have a lot of money to spend, huh?",
+    "file": "queensrecruit-tasim-186"
+  },
+  {
+    "line": "Tasim: Fruma is not what I imagined from the little I saw in those memories.",
+    "file": "queensrecruit-tasim-187"
+  },
+  {
+    "line": "Tasim: What did you think?",
+    "file": "queensrecruit-tasim-188"
+  },
+  {
+    "line": "Tasim: I wonder why they keep this province under such lock and key. They could make a fortune of tourism alone.",
+    "file": "queensrecruit-tasim-189"
+  },
+  {
+    "line": "Tasim: I suppose there are some nice sights over in Gavel too...",
+    "file": "queensrecruit-tasim-190"
+  },
+  {
+    "line": "Tasim: It does make me wonder though. The tour felt very controlled. We were never let out of the carriage. And that Sovereign person always kept a watchful eye on us.",
+    "file": "queensrecruit-tasim-191"
+  },
+  {
+    "line": "Tasim: There is definitely something wrong in this province... We should regroup with everyone under less... watchful eyes.",
+    "file": "queensrecruit-tasim-192"
+  },
+  {
+    "line": "Tasim: Good luck.",
+    "file": "queensrecruit-tasim-193"
+  },
+  {
+    "line": "Jenprest: Long time, no see, recrui—",
+    "file": "queensrecruit-jenprest-21"
+  },
+  {
+    "line": "Jenprest: I'm sure you're no longer a recruit after all this time, I apologize!",
+    "file": "queensrecruit-jenprest-22"
+  },
+  {
+    "line": "Jenprest: Oh. I suppose that should really be cleared up, huh?",
+    "file": "queensrecruit-jenprest-23"
+  },
+  {
+    "line": "Jenprest: I myself recently became a lieutenant for the Ragni army. I hope my promotion has made me ready for what's to come.",
+    "file": "queensrecruit-jenprest-24"
+  },
+  {
+    "line": "Linton: Aww man. We just got back from a mission.",
+    "file": "queensrecruit-linton-32"
+  },
+  {
+    "line": "Linton: I wanted to take a nice and long vacation to some paradise island... But here we are...",
+    "file": "queensrecruit-linton-33"
+  },
+  {
+    "line": "Linton: Look! That Zhirk fellow is back.",
+    "file": "queensrecruit-linton-34"
   }
 ]
