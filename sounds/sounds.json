@@ -55135,7 +55135,7 @@
     "file": "queensrecruit-lanu-8"
   },
   {
-    "line": "Dr. Picard: Impressive or n ot, we have work to do! On your guard, everyone. We don't know what to expect, so watch your backs.",
+    "line": "Dr. Picard: Impressive or not, we have work to do! On your guard, everyone. We don't know what to expect, so watch your backs.",
     "file": "queensrecruit-drpicard-11"
   },
   {
@@ -56877,5 +56877,13 @@
   {
     "line": "King of Ragni: I'm very grateful to all of you!",
     "file": "queensrecruit-ragniking-11"
+  },
+  {
+    "line": "Dr. Picard: This... this will be a breakthrough for sure!",
+    "file": "queensrecruit-drpicard-56"
+  },
+  {
+    "line": "Dr. Picard: My research questions will finally get some answers. Finally, their secrets will be revealed!",
+    "file": "queensrecruit-drpicard-56"
   }
 ]
