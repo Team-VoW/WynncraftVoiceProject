@@ -34,6 +34,7 @@ public final class OverlayHandler {
     private String lastFiredText = null;
     private boolean earlyPlayed = false;
     private String lastEarlyPlayedKey = null;
+    private boolean voiceDialogActive = false;
 
     public void onConnectionChange() {
         pendingBody = null;
@@ -43,6 +44,7 @@ public final class OverlayHandler {
         lastFiredText = null;
         earlyPlayed = false;
         lastEarlyPlayedKey = null;
+        voiceDialogActive = false;
     }
 
     public void onTick() {
@@ -66,7 +68,12 @@ public final class OverlayHandler {
         String body = extractAllBodyText(content);
         String npc = extractFontText(content, OVERLAY_NAMEPLATE_FONT);
 
-        if (body == null || body.isBlank()) return;
+        if (body == null || body.isBlank()) {
+            voiceDialogActive = false;
+            return;
+        }
+
+        voiceDialogActive = true;
 
         if (npc == null || npc.isBlank()) {
             npc = pendingNpc;
@@ -90,6 +97,10 @@ public final class OverlayHandler {
         if (ModCore.config.isEarlyPlayOverlay()) {
             tryEarlyPlay();
         }
+    }
+
+    public boolean isVoiceDialogActive() {
+        return voiceDialogActive;
     }
 
     private void tryEarlyPlay() {

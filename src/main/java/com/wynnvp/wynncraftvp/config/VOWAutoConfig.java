@@ -60,9 +60,6 @@ public class VOWAutoConfig implements ConfigData {
     public int blockCutOff = 32;
 
     @ConfigEntry.Gui.Tooltip
-    public boolean removeVillagerSounds = false;
-
-    @ConfigEntry.Gui.Tooltip
     public boolean autoProgress = false;
 
     @ConfigEntry.Gui.Tooltip
@@ -146,14 +143,6 @@ public class VOWAutoConfig implements ConfigData {
 
     public int getEarlyPlayOverlayMinChars() {
         return earlyPlayOverlayMinChars;
-    }
-
-    public boolean isRemoveVillagerSounds() {
-        return removeVillagerSounds;
-    }
-
-    public void setRemoveVillagerSounds(boolean input) {
-        removeVillagerSounds = input;
     }
 
     public boolean isPlayAllSoundsOnPlayer() {
