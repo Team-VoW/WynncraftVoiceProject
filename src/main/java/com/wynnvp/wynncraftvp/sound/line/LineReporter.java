@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.line;
@@ -27,10 +27,7 @@ public class LineReporter {
     }
 
     public void MissingLine(LineData lineData) {
-        if (!config.isReportMissingLines()
-                || !ModCore.inLiveWynnServer
-                || !lineData.isNPCSentLine()
-                || !VersionChecker.isOnUpToDateVersion) return;
+        if (!config.isReportMissingLines() || !ModCore.inLiveWynnServer || !VersionChecker.isOnUpToDateVersion) return;
 
         CompletableFuture.runAsync(() -> {
             if (reportedLines.contains(lineData.getRealLine())) {
