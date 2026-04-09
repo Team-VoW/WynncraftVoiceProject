@@ -66,6 +66,9 @@ public class VOWAutoConfig implements ConfigData {
     public boolean enableReverb = true;
 
     @ConfigEntry.Gui.Tooltip
+    public boolean blockVillagerSoundsDuringVoiceDialog = true;
+
+    @ConfigEntry.Gui.Tooltip
     public boolean earlyPlayOverlay = true;
 
     @ConfigEntry.Gui.Tooltip
@@ -135,6 +138,10 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isLogOverlayDialogueToChat() {
         return debugAndLogs.logOverlayDialogueToChat;
+    }
+
+    public boolean isBlockVillagerSoundsDuringVoiceDialog() {
+        return blockVillagerSoundsDuringVoiceDialog;
     }
 
     public boolean isEarlyPlayOverlay() {

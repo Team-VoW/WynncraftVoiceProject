@@ -32,6 +32,7 @@ public class MixinPlaySoundListener {
     @Inject(method = "play", at = @At("HEAD"), cancellable = true)
     private void onPlay(SoundInstance sound, CallbackInfoReturnable<SoundEngine.PlayResult> cir) {
         if (ModCore.overlayHandler != null
+                && ModCore.config.isBlockVillagerSoundsDuringVoiceDialog()
                 && ModCore.overlayHandler.isVoiceDialogActive()
                 && VILLAGER_SOUNDS.contains(sound.getIdentifier())) {
             cir.cancel();
