@@ -143,10 +143,8 @@ public final class OverlayHandler {
         boolean wrongKeyPlayed = wasEarlyPlayed && !finalKey.equals(firedEarlyKey);
 
         if (wrongKeyPlayed) {
-            // Audio started playing but was stopped because the early-play key was wrong
-            if (ModCore.config.isLogDialogueLines()) {
-                VowLogger.logLine(formattedPlaybackLine);
-            }
+            // Audio started playing but was stopped because the early-play key was wrong;
+            // playSound() below will handle logging for the retry.
             ModCore.instance.soundPlayer.stopCurrentAudio();
         }
 
