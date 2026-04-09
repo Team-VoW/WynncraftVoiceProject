@@ -10,6 +10,7 @@ import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.chat.Component;
 
@@ -23,32 +24,46 @@ import net.minecraft.network.chat.Component;
 public final class OverlayHandler {
     private static final String OVERLAY_BODY_FONT = "dialogue/text/wynncraft/body";
     private static final String OVERLAY_NAMEPLATE_FONT = "dialogue/text/nameplate";
+    private static final String PLAYER_REPLACEMENT = "soldier";
 
     // Ticks the body text must remain unchanged before we consider the typewriter done.
     private static final int OVERLAY_STABILITY_TICKS = 5;
+
+    // Ticks without an overlay packet before voiceDialogActive is force-cleared (10 seconds).
+    private static final int VOICE_DIALOG_TIMEOUT_TICKS = 200;
 
     private String pendingBody = null;
     private String pendingNpc = null;
     private long lastBodyChangeTick = -1;
     private long lastOverlayPacketTick = -1;
+    private long lastReceivedOverlayTick = -1;
     private String lastFiredText = null;
     private boolean earlyPlayed = false;
     private String lastEarlyPlayedKey = null;
+    private boolean voiceDialogActive = false;
 
     public void onConnectionChange() {
         pendingBody = null;
         pendingNpc = null;
         lastBodyChangeTick = -1;
         lastOverlayPacketTick = -1;
+        lastReceivedOverlayTick = -1;
         lastFiredText = null;
         earlyPlayed = false;
         lastEarlyPlayedKey = null;
+        voiceDialogActive = false;
     }
 
     public void onTick() {
-        if (pendingBody == null) return;
+        long currentTick = Objects.requireNonNull(Utils.mc().level).getGameTime();
 
-        long currentTick = Utils.mc().level.getGameTime();
+        if (voiceDialogActive
+                && lastReceivedOverlayTick > 0
+                && currentTick >= lastReceivedOverlayTick + VOICE_DIALOG_TIMEOUT_TICKS) {
+            voiceDialogActive = false;
+        }
+
+        if (pendingBody == null) return;
 
         if (lastBodyChangeTick > 0 && currentTick >= lastBodyChangeTick + OVERLAY_STABILITY_TICKS) {
             firePending();
@@ -62,11 +77,17 @@ public final class OverlayHandler {
 
     public void onOverlayReceived(Component content) {
         long currentTick = Utils.mc().level.getGameTime();
+        lastReceivedOverlayTick = currentTick;
 
         String body = extractAllBodyText(content);
         String npc = extractFontText(content, OVERLAY_NAMEPLATE_FONT);
 
-        if (body == null || body.isBlank()) return;
+        if (body == null || body.isBlank()) {
+            voiceDialogActive = false;
+            return;
+        }
+
+        voiceDialogActive = true;
 
         if (npc == null || npc.isBlank()) {
             npc = pendingNpc;
@@ -90,6 +111,10 @@ public final class OverlayHandler {
         if (ModCore.config.isEarlyPlayOverlay()) {
             tryEarlyPlay();
         }
+    }
+
+    public boolean isVoiceDialogActive() {
+        return voiceDialogActive;
     }
 
     private void tryEarlyPlay() {
@@ -135,7 +160,6 @@ public final class OverlayHandler {
         if (ModCore.config.isLogOverlayDialogueToChat()) {
             Utils.sendMessage("§f" + combined);
         }
-        VowLogger.logLine(combined);
 
         String playbackLine = npc != null ? combined : body;
         String formattedPlaybackLine = replacePlayerName(playbackLine);
@@ -144,10 +168,18 @@ public final class OverlayHandler {
         boolean wrongKeyPlayed = wasEarlyPlayed && !finalKey.equals(firedEarlyKey);
 
         if (wrongKeyPlayed) {
+            // Audio started playing but was stopped because the early-play key was wrong;
+            // playSound() below will handle logging for the retry.
             ModCore.instance.soundPlayer.stopCurrentAudio();
         }
 
-        if (!alreadyPlayed) {
+        if (alreadyPlayed) {
+            // Audio already played correctly via early-play
+            if (!ModCore.config.isOnlyLogNotPlayingLines() && ModCore.config.isLogDialogueLines()) {
+                VowLogger.logLine(formattedPlaybackLine + " [PLAYED]");
+            }
+        } else {
+            // SoundPlayer.playSound() handles logging for this case
             ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(formattedPlaybackLine));
         }
     }
@@ -157,7 +189,12 @@ public final class OverlayHandler {
         if (player == null) return text;
         String name = player.getName().getString();
         if (name.isEmpty()) return text;
-        return text.replace(name, "soldier");
+        text = text.replace(name, PLAYER_REPLACEMENT);
+        String nickname = ModCore.config.getNicknameOverride();
+        if (!nickname.isEmpty()) {
+            text = text.replace(nickname, PLAYER_REPLACEMENT);
+        }
+        return text;
     }
 
     /**

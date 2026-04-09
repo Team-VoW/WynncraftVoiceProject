@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.line;
@@ -13,9 +13,9 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.LinkedList;
 import java.util.Queue;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.entity.player.Player;
 
@@ -23,32 +23,29 @@ public class LineReporter {
     private final Queue<String> reportedLines;
 
     public LineReporter() {
-        reportedLines = new LinkedList<>();
+        reportedLines = new ConcurrentLinkedQueue<>();
     }
 
     public void MissingLine(LineData lineData) {
-        if (!config.isReportMissingLines()
-                || !ModCore.inLiveWynnServer
-                || !lineData.isNPCSentLine()
-                || !VersionChecker.isOnUpToDateVersion) return;
+        if (!config.isReportMissingLines() || !ModCore.inLiveWynnServer || !VersionChecker.isOnUpToDateVersion) return;
 
         CompletableFuture.runAsync(() -> {
-            if (reportedLines.contains(lineData.getRealLine())) {
-                return;
-            }
-            reportedLines.add(lineData.getRealLine());
+            synchronized (reportedLines) {
+                if (reportedLines.contains(lineData.getRealLine())) {
+                    return;
+                }
+                reportedLines.add(lineData.getRealLine());
 
-            if (reportedLines.size() > 20) {
-                reportedLines.remove();
+                if (reportedLines.size() > 20) {
+                    reportedLines.remove();
+                }
             }
             try {
                 reportUnvoicedLine(lineData);
-                System.out.println(
+                ModCore.LOGGER.info(
                         "Unvoiced line report has been sent to our servers. This contained: " + lineData.getRealLine());
             } catch (IOException e) {
-                e.printStackTrace();
-                System.out.println(
-                        "A report of unvoiced line couldn't be sent. Error code should be right above this message.");
+                ModCore.LOGGER.error("A report of unvoiced line couldn't be sent.", e);
             }
         });
     }
@@ -64,7 +61,7 @@ public class LineReporter {
         int CoordY = (int) p.position().y;
         int CoordZ = (int) p.position().z;
 
-        URL urlObj = new URL("http://voicesofwynn.com/api/unvoiced-line-report/new");
+        URL urlObj = new URL("https://voicesofwynn.com/api/unvoiced-line-report/new");
         HttpURLConnection connection = (HttpURLConnection) urlObj.openConnection();
         connection.setRequestMethod("POST");
         connection.setRequestProperty("User-Agent", "VoicesOfWynnModClient");
@@ -79,6 +76,6 @@ public class LineReporter {
         outputStream.flush();
         outputStream.close();
         Integer responseCode = connection.getResponseCode();
-        System.out.println("HTTP response Code : " + responseCode);
+        ModCore.LOGGER.debug("HTTP response Code : " + responseCode);
     }
 }

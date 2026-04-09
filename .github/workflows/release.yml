@@ -15,12 +15,12 @@ jobs:
       clean_changelog: ${{ steps.changelog.outputs.clean_changelog }}
       changelog: ${{ steps.changelog.outputs.changelog }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 16
       - run: |
@@ -46,7 +46,7 @@ jobs:
           release-count: 5
 
       - name: Upload version information
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: build
           path: build.gradle
@@ -56,21 +56,21 @@ jobs:
     needs: [changelog] # Build needs the new version number
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/download-artifact@v4 # Download version information from changelog
+      - uses: actions/download-artifact@v8 # Download version information from changelog
         with:
           name: build
 
       - name: Set up JDK 21
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: "temurin"
           java-version: 21
           cache: "gradle"
 
       - name: Build with Gradle
-        uses: gradle/actions/setup-gradle@v3
+        uses: gradle/actions/setup-gradle@v6
         with:
           arguments: buildDependents -x spotlessCheck -x test
 
@@ -90,7 +90,7 @@ jobs:
     needs: [ build, changelog ]
     steps:
       - name: Download build
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: build
 
@@ -113,7 +113,7 @@ jobs:
           echo "::set-output name=long::$(date +'%Y-%m-%d %H:%M')"
 
       - name: Post release on Discord
-        uses: tsickert/discord-webhook@v6.0.0
+        uses: tsickert/discord-webhook@v7.0.0
         with:
           webhook-url: ${{ secrets.DISCORD_RELEASE_WEBHOOK_URL }}
           embed-color: "4915330"
@@ -132,7 +132,7 @@ jobs:
     needs: [build, changelog]
     steps:
       - name: Download build
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: build
 
@@ -152,7 +152,7 @@ jobs:
           name: Voices of Wynn (${{ matrix.modloader }}) ${{ needs.changelog.outputs.tag }}
           version: ${{ needs.changelog.outputs.tag }}
           version-type: release
-          game-versions: 1.21.4
+          game-versions: 1.21.11
           changelog: ${{ needs.changelog.outputs.changelog }}
 
           loaders: ${{ matrix.modloader }}

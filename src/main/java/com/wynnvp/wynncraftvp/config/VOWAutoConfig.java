@@ -60,13 +60,13 @@ public class VOWAutoConfig implements ConfigData {
     public int blockCutOff = 32;
 
     @ConfigEntry.Gui.Tooltip
-    public boolean removeVillagerSounds = false;
-
-    @ConfigEntry.Gui.Tooltip
     public boolean autoProgress = false;
 
     @ConfigEntry.Gui.Tooltip
     public boolean enableReverb = true;
+
+    @ConfigEntry.Gui.Tooltip
+    public boolean blockVillagerSoundsDuringVoiceDialog = true;
 
     @ConfigEntry.Gui.Tooltip
     public boolean earlyPlayOverlay = true;
@@ -74,6 +74,9 @@ public class VOWAutoConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip
     @ConfigEntry.BoundedDiscrete(min = 1, max = 100)
     public int earlyPlayOverlayMinChars = 15;
+
+    @ConfigEntry.Gui.Tooltip
+    public String nicknameOverride = "";
 
     // Debug and Logs section
     @ConfigEntry.Gui.CollapsibleObject
@@ -140,6 +143,10 @@ public class VOWAutoConfig implements ConfigData {
         return debugAndLogs.logOverlayDialogueToChat;
     }
 
+    public boolean isBlockVillagerSoundsDuringVoiceDialog() {
+        return blockVillagerSoundsDuringVoiceDialog;
+    }
+
     public boolean isEarlyPlayOverlay() {
         return earlyPlayOverlay;
     }
@@ -148,12 +155,8 @@ public class VOWAutoConfig implements ConfigData {
         return earlyPlayOverlayMinChars;
     }
 
-    public boolean isRemoveVillagerSounds() {
-        return removeVillagerSounds;
-    }
-
-    public void setRemoveVillagerSounds(boolean input) {
-        removeVillagerSounds = input;
+    public String getNicknameOverride() {
+        return nicknameOverride;
     }
 
     public boolean isPlayAllSoundsOnPlayer() {
