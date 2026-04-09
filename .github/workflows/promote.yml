@@ -20,4 +20,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source: 'main'
           target: 'release'
-          webhook_url: ''
+          webhook_url: '' # Slack notifications disabled
