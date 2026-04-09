@@ -10,6 +10,7 @@ import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.chat.Component;
 
@@ -27,10 +28,14 @@ public final class OverlayHandler {
     // Ticks the body text must remain unchanged before we consider the typewriter done.
     private static final int OVERLAY_STABILITY_TICKS = 5;
 
+    // Ticks without an overlay packet before voiceDialogActive is force-cleared (10 seconds).
+    private static final int VOICE_DIALOG_TIMEOUT_TICKS = 200;
+
     private String pendingBody = null;
     private String pendingNpc = null;
     private long lastBodyChangeTick = -1;
     private long lastOverlayPacketTick = -1;
+    private long lastReceivedOverlayTick = -1;
     private String lastFiredText = null;
     private boolean earlyPlayed = false;
     private String lastEarlyPlayedKey = null;
@@ -41,6 +46,7 @@ public final class OverlayHandler {
         pendingNpc = null;
         lastBodyChangeTick = -1;
         lastOverlayPacketTick = -1;
+        lastReceivedOverlayTick = -1;
         lastFiredText = null;
         earlyPlayed = false;
         lastEarlyPlayedKey = null;
@@ -48,9 +54,15 @@ public final class OverlayHandler {
     }
 
     public void onTick() {
-        if (pendingBody == null) return;
+        long currentTick = Objects.requireNonNull(Utils.mc().level).getGameTime();
 
-        long currentTick = Utils.mc().level.getGameTime();
+        if (voiceDialogActive
+                && lastReceivedOverlayTick > 0
+                && currentTick >= lastReceivedOverlayTick + VOICE_DIALOG_TIMEOUT_TICKS) {
+            voiceDialogActive = false;
+        }
+
+        if (pendingBody == null) return;
 
         if (lastBodyChangeTick > 0 && currentTick >= lastBodyChangeTick + OVERLAY_STABILITY_TICKS) {
             firePending();
@@ -64,6 +76,7 @@ public final class OverlayHandler {
 
     public void onOverlayReceived(Component content) {
         long currentTick = Utils.mc().level.getGameTime();
+        lastReceivedOverlayTick = currentTick;
 
         String body = extractAllBodyText(content);
         String npc = extractFontText(content, OVERLAY_NAMEPLATE_FONT);
