@@ -159,7 +159,6 @@ public final class OverlayHandler {
         if (ModCore.config.isLogOverlayDialogueToChat()) {
             Utils.sendMessage("§f" + combined);
         }
-        VowLogger.logLine(combined);
 
         String playbackLine = npc != null ? combined : body;
         String formattedPlaybackLine = replacePlayerName(playbackLine);
@@ -168,10 +167,18 @@ public final class OverlayHandler {
         boolean wrongKeyPlayed = wasEarlyPlayed && !finalKey.equals(firedEarlyKey);
 
         if (wrongKeyPlayed) {
+            // Audio started playing but was stopped because the early-play key was wrong;
+            // playSound() below will handle logging for the retry.
             ModCore.instance.soundPlayer.stopCurrentAudio();
         }
 
-        if (!alreadyPlayed) {
+        if (alreadyPlayed) {
+            // Audio already played correctly via early-play
+            if (!ModCore.config.isOnlyLogNotPlayingLines() && ModCore.config.isLogDialogueLines()) {
+                VowLogger.logLine(formattedPlaybackLine + " [PLAYED]");
+            }
+        } else {
+            // SoundPlayer.playSound() handles logging for this case
             ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(formattedPlaybackLine));
         }
     }
