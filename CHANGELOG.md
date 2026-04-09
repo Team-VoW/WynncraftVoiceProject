@@ -1,3 +1,29 @@
+## [1.15.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.14.0...v1.15.0) (2026-04-09)
+
+
+### New Features
+
+* **A Journey Home:** Added voice acting ([388df4d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/388df4d6a93332c79521581bff8aa053c7d0d95d))
+* Add setting to enter Nickname to allow dialogues to play while having a nick ([5cd128d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5cd128da2428277ae5451ce56706464740ce8f55))
+* **Queens Recruit:** Add voice acting for the Queens Recruit quest ([7238057](https://github.com/Team-VoW/WynncraftVoiceProject/commit/723805795ddf87a25b0a293f40eb537b426ddd5f))
+* **Queens Recruit:** added two missing lines (One from Reynauld and one from the King of Ragni) ([cb6aadc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cb6aadcb9983e5b17f66b709b8ea91dc45ff32f8))
+* **Queens Recruit:** Added two missing lines & fixed one not playing line from Dr. Picard ([59eaa78](https://github.com/Team-VoW/WynncraftVoiceProject/commit/59eaa78fd802cfc991020570a21576b2fe43ea86))
+* remove dialogue lines from dialogues to work with the Fruma update ([7677c47](https://github.com/Team-VoW/WynncraftVoiceProject/commit/7677c47252712efa0340a26f1d0b71c4888af34b))
+
+
+### Bug Fixes
+
+* Fix Cryptic languages not playing (Wynnic, etc.) ([f3c335b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f3c335b6dfb592a3bdfed81f523c7ad5455d03ce))
+* Make the LineReporter work again with the new dialogue system to allow us to get information on what lines need Voice acting ([#81](https://github.com/Team-VoW/WynncraftVoiceProject/issues/81)) ([1e1c9c4](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1e1c9c4c35a9812db019aa4963666d1abcaad715))
+* **Queens Recruit:** Fixed a few not playing lines/lines that got cut off mid-way through ([79e65a1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/79e65a19972dc1095a139fe56d21744c2e3f4cf1))
+* release being tagged with the wrong minecraft version ([#72](https://github.com/Team-VoW/WynncraftVoiceProject/issues/72)) ([162479f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/162479f0b7dc4b4196aed50ff27ca5dccc55874b))
+* Stop villager sounds playing through the voice lines ([#73](https://github.com/Team-VoW/WynncraftVoiceProject/issues/73)) ([d58228e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d58228ebf0271f3b52a7bcbf12e16ebe752c9c6e))
+
+
+### Miscellaneous Chores
+
+* workflow plugin updates ([#74](https://github.com/Team-VoW/WynncraftVoiceProject/issues/74)) ([e432255](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e4322550589e1d9f963e47b1cdfe642b21eb8267))
+
 ## [1.14.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.13.1...v1.14.0) (2026-04-04)
 
 
@@ -19,6 +45,7 @@
 
 ### Miscellaneous Chores
 
+* **release:** v1.14.0 [skip ci] ([b3e32ea](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b3e32eaa84cae2f25eac8f94fc34e76e90902823))
 * Update developer cloth config and mod menu version ([5a9f76b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5a9f76b51bb2f10c80a7c270628c1cfb22800875))
 
 
@@ -97,26 +124,4 @@
 ### Miscellaneous Chores
 
 * **release:** v1.12.0 [skip ci] ([e2f55db](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e2f55db0c24f492779ed0fe5747dc6c7299bedcd))
-
-## [1.11.3](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.11.2...v1.11.3) (2025-08-27)
-
-
-### New Features
-
-* Added missing Tasim lines for multiple quests ([68c7c77](https://github.com/Team-VoW/WynncraftVoiceProject/commit/68c7c77c0a162829d6b01f87f94668e2cb3c9ed4))
-
-
-### Bug Fixes
-
-* **Arachnids Ascent:** fixed one line from Aledar not playing ([45fee9b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/45fee9b5ed519b69107291032f51c747d9c4038e))
-* **Canyon Conder:** fixed one linefrom Jankan not playing ([1c4b4d2](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1c4b4d2977ff65568dec90cc6657777dd1eb9ee7))
-* **Dark Descent:** fixed one of the Scouts lines not playing ([f7c2fd2](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f7c2fd2c95af9c175cd12e036fe1c304679ac60e))
-* **Maltic's Well:** Fix Rynend's last line not playing ([f4b4a58](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f4b4a586fb168220287c1e6de294bbd3bcadc070))
-* **Maltic's Well:** fixed one not playing line from the Witch and cut up audio in the cutscene ([552c7de](https://github.com/Team-VoW/WynncraftVoiceProject/commit/552c7ded321d127fef2c10272085d7abe5b019e4))
-* redownload audio file if it gets corrupted. ([b6a2586](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b6a25861e8a24daa1ef53fc6ec9a844d30194cb2))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.11.3 [skip ci] ([5418f5f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5418f5fdb12695502e2c731938123d286faa1421))
 
