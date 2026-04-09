@@ -36,7 +36,7 @@ jobs:
           distribution: "temurin"
 
       - name: Format with spotless
-        uses: gradle/actions/setup-gradle@v7
+        uses: gradle/actions/setup-gradle@v6
         with:
           arguments: spotlessApply
 
