@@ -24,6 +24,7 @@ import net.minecraft.network.chat.Component;
 public final class OverlayHandler {
     private static final String OVERLAY_BODY_FONT = "dialogue/text/wynncraft/body";
     private static final String OVERLAY_NAMEPLATE_FONT = "dialogue/text/nameplate";
+    private static final String PLAYER_REPLACEMENT = "soldier";
 
     // Ticks the body text must remain unchanged before we consider the typewriter done.
     private static final int OVERLAY_STABILITY_TICKS = 5;
@@ -188,7 +189,12 @@ public final class OverlayHandler {
         if (player == null) return text;
         String name = player.getName().getString();
         if (name.isEmpty()) return text;
-        return text.replace(name, "soldier");
+        text = text.replace(name, PLAYER_REPLACEMENT);
+        String nickname = ModCore.config.getNicknameOverride();
+        if (!nickname.isEmpty()) {
+            text = text.replace(nickname, PLAYER_REPLACEMENT);
+        }
+        return text;
     }
 
     /**

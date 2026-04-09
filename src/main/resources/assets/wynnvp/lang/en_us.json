@@ -32,6 +32,8 @@
   "text.autoconfig.wynnvp.option.earlyPlayOverlay.@Tooltip": "Start playing dialogue as soon as a partial line matches, before the typewriter animation finishes. Disable to only play after the full line is received. Note: when voice acting is missing for a line, an early partial match may cause the wrong audio to play.",
   "text.autoconfig.wynnvp.option.earlyPlayOverlayMinChars": "Early play min. characters",
   "text.autoconfig.wynnvp.option.earlyPlayOverlayMinChars.@Tooltip": "Minimum number of characters a partial line must match before early audio playback is triggered. Lines shorter than this threshold will play once the full line is received instead.",
+  "text.autoconfig.wynnvp.option.nicknameOverride": "Nickname",
+  "text.autoconfig.wynnvp.option.nicknameOverride.@Tooltip": "If you use a Wynncraft Nickname, enter it here. It will be replaced alongside your real username when matching dialogue lines to audio.",
   "text.autoconfig.wynnvp.option.enableReverb": "Enable reverb",
   "text.autoconfig.wynnvp.option.enableReverb.@Tooltip": "Adds environmental reverb effects to NPC voices based on their location (caves, buildings, etc.)",
   "text.autoconfig.wynnvp.option.playAllSoundsOnPlayer": "Play all sounds on player",

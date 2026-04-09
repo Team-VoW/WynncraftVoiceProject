@@ -75,6 +75,9 @@ public class VOWAutoConfig implements ConfigData {
     @ConfigEntry.BoundedDiscrete(min = 1, max = 100)
     public int earlyPlayOverlayMinChars = 15;
 
+    @ConfigEntry.Gui.Tooltip
+    public String nicknameOverride = "";
+
     // Debug and Logs section
     @ConfigEntry.Gui.CollapsibleObject
     public DebugAndLogs debugAndLogs = new DebugAndLogs();
@@ -150,6 +153,10 @@ public class VOWAutoConfig implements ConfigData {
 
     public int getEarlyPlayOverlayMinChars() {
         return earlyPlayOverlayMinChars;
+    }
+
+    public String getNicknameOverride() {
+        return nicknameOverride;
     }
 
     public boolean isPlayAllSoundsOnPlayer() {
