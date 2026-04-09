@@ -53,7 +53,7 @@ public class SoundPlayer {
         String line = lineData.getSoundLine();
 
         if (soundsHandler.get(line).isEmpty()) {
-            if (config.isLogDialogueLines() && lineData.isNPCSentLine()) VowLogger.logLine(lineData.getRealLine());
+            if (config.isLogDialogueLines()) VowLogger.logLine(lineData.getRealLine());
             lineReporter.MissingLine(lineData);
             return false;
         }

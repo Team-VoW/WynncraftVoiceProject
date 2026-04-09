@@ -10,6 +10,61 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Upload sounds folder to Azure Blob Storage
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Generate audio manifest (minified JSON)
         run: |
-          azcopy copy './sounds' '${{ secrets.AZURE_STORAGE_URL }}' --recursive
+          python - << EOF
+          import os
+          import json
+          import hashlib
+          from pathlib import Path
+
+          def calculate_hash(file_path):
+              sha256_hash = hashlib.sha256()
+              with open(file_path, "rb") as f:
+                  for byte_block in iter(lambda: f.read(4096), b""):
+                      sha256_hash.update(byte_block)
+              return sha256_hash.hexdigest()
+
+          def generate_manifest():
+              sounds_dir = Path('sounds')
+              manifest = {}
+
+              if not sounds_dir.exists():
+                  print(f"Warning: {sounds_dir} does not exist")
+                  return {}
+
+              for file_path in sounds_dir.rglob('*.ogg'):
+                  file_size = os.path.getsize(file_path)
+                  file_hash = calculate_hash(file_path)
+                  key = file_path.stem
+                  manifest[key] = {"size": file_size, "hash": file_hash}
+
+              return manifest
+
+          manifest = generate_manifest()
+          with open('audio_manifest.json', 'w') as f:
+              json.dump(manifest, f, separators=(',', ':'), sort_keys=True)
+
+          print("Generated minified audio_manifest.json")
+          EOF
+
+      - name: Upload sounds folder to Azure Blob Storage
+        env:
+          BLOB_SAS_URL: ${{ secrets.BLOB_SAS_URL }}
+        run: |
+          containerUrl="${BLOB_SAS_URL%%\?*}"
+          sasToken="${BLOB_SAS_URL#*\?}"
+          azcopy copy './sounds' "${containerUrl}?${sasToken}" --recursive
+
+      - name: Upload manifest to Azure Blob Storage
+        env:
+          BLOB_SAS_URL: ${{ secrets.BLOB_SAS_URL }}
+        run: |
+          containerUrl="${BLOB_SAS_URL%%\?*}"
+          sasToken="${BLOB_SAS_URL#*\?}"
+          azcopy copy "audio_manifest.json" "${containerUrl}/audio_manifest.json?${sasToken}" --overwrite=true
