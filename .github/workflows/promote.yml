@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
       - name: checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: merge
         uses: mtanzi/action-automerge@v1
         id: merge
@@ -20,3 +20,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           source: 'main'
           target: 'release'
+          webhook_url: '' # Slack notifications disabled
