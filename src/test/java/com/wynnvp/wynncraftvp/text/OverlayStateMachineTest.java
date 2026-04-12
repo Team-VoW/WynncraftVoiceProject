@@ -474,8 +474,8 @@ class OverlayStateMachineTest {
                 "It's been a while, hasn't it? We should catch up! You've probably had lots of adventures, right?",
                 "Tasim");
 
-        // Stability reached at tick 48 + OVERLAY_STABILITY_TICKS = 55; trigger the onTick fire.
-        advanceTo(55L);
+        // Stability reached at tick 48 + OVERLAY_STABILITY_TICKS = 53; trigger the onTick fire.
+        advanceTo(53L);
 
         assertFalse(stopCalled, "Early play key was correct — must NOT stop audio");
         assertTrue(fired.isEmpty(), "Sound already playing correctly — must NOT re-fire");
@@ -496,8 +496,8 @@ class OverlayStateMachineTest {
         feed(12, "Soldier, I hope you", "Commander");
         feed(13, "Soldier, I hope you know", "Commander");
         saturate("Soldier, I hope you know", "Commander");
-        // Stable — fire at 13 + 7 = 20
-        advanceTo(20);
+        // Stable — fire at 13 + 5 = 18
+        advanceTo(18);
 
         assertFalse(stopCalled, "Correct early play key — must NOT stop audio");
         assertTrue(fired.isEmpty(), "Sound already playing correctly — must NOT re-fire");
@@ -516,7 +516,7 @@ class OverlayStateMachineTest {
         feed(11, "Soldier, I hope", "Commander");
         feed(12, "Soldier, I hope you know", "Commander");
         saturate("Soldier, I hope you know", "Commander");
-        advanceTo(19); // 12 + 7
+        advanceTo(17); // 12 + 5
 
         assertTrue(stopCalled, "Wrong early play key — must stop audio");
         assertEquals(1, fired.size(), "Must re-fire with correct sound after stopping");
@@ -533,7 +533,7 @@ class OverlayStateMachineTest {
         feed(10, "Soldier,", "Commander");
         feed(11, "Soldier, I hope you know", "Commander");
         saturate("Soldier, I hope you know", "Commander");
-        advanceTo(18); // 11 + 7
+        advanceTo(16); // 11 + 5
 
         assertFalse(stopCalled);
         assertEquals(1, fired.size());
@@ -573,10 +573,10 @@ class OverlayStateMachineTest {
         feed(3, "Hello world", "Bob"); // resets counter to tick 3
         saturate("Hello world", "Bob");
 
-        advanceTo(9); // 3 + 6 — not yet stable
+        advanceTo(7); // 3 + 4 — not yet stable
         assertEquals(0, fired.size() + alreadyPlayed.size());
 
-        advanceTo(10); // 3 + 7 — stable
+        advanceTo(8); // 3 + 5 — stable
         assertEquals(1, fired.size() + alreadyPlayed.size());
         assertEquals("Bob: Hello world", fired.get(0).combined());
     }
@@ -588,6 +588,7 @@ class OverlayStateMachineTest {
             tick[0] = t;
             machine.onTextReceived("Hello", "Bob"); // body unchanged, refreshes packet tick
         }
+        saturate("Hello", "Bob"); // ensure repeat threshold is met
         assertTrue(fired.isEmpty() && alreadyPlayed.isEmpty());
 
         advanceTo(OverlayStateMachine.OVERLAY_STABILITY_TICKS * 2L);
