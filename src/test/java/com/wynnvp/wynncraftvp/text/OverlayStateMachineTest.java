@@ -776,7 +776,6 @@ class OverlayStateMachineTest {
         assertEquals("//A narrator speaks", fired.get(0).combined());
         // formattedLine is body only (no "//" prefix) — important for correct manifest lookup
         assertEquals("A narrator speaks", fired.get(0).formattedLine());
-        assertEquals(key("A narrator speaks"), fired.get(0).finalKey());
-        assertNull(null); // just documenting: no NPC prefix in manifest key
+        assertEquals(key("A narrator speaks"), fired.get(0).finalKey()); // no NPC prefix in manifest key
     }
 }

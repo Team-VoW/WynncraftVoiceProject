@@ -77,6 +77,10 @@ public final class OverlayStateMachine {
 
         if (pendingBody == null) return;
 
+        // First path: body text itself has been stable (unchanged) for OVERLAY_STABILITY_TICKS.
+        // Second path: packets have simply stopped arriving for OVERLAY_STABILITY_TICKS (body may
+        // have changed recently, but the server went quiet — treat that as end-of-typewriter too).
+        // Both require OVERLAY_STABILITY_REPEATS to guard against false fires on network gaps.
         if (lastBodyChangeTick != -1
                 && currentTick >= lastBodyChangeTick + OVERLAY_STABILITY_TICKS
                 && pendingBodyRepeatCount >= OVERLAY_STABILITY_REPEATS) {

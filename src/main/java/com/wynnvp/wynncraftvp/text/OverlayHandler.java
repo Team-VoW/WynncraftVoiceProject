@@ -52,7 +52,7 @@ public final class OverlayHandler implements OverlayDialogueListener {
     public void onOverlayReceived(Component content) {
         String body = extractAllBodyText(content);
         String npc = extractFontText(content, OVERLAY_NAMEPLATE_FONT);
-        if (ModCore.config.isLogOverlayPackets()) {
+        if (ModCore.config.isLogOverlayPackets() && Utils.mc().level != null) {
             long tick = Utils.mc().level.getGameTime();
             VowLogger.logComment("feed(" + tick + ", \"" + body + "\", \"" + npc + "\")");
         }
