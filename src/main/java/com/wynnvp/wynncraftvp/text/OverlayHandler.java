@@ -18,196 +18,115 @@ import net.minecraft.network.chat.Component;
  * Handles Wynncraft overlay-based dialogue (used in areas like Fruma).
  * Kept entirely separate from the existing chat-based dialogue system.
  *
- * <p>Overlay packets arrive as a typewriter animation — the body text grows character by character.
- * We wait for it to stabilise before logging the completed line.
+ * <p>This class is a thin Minecraft adapter: it extracts text from {@link Component}
+ * objects and wires Minecraft-dependent side effects (sound playback, config reads,
+ * logging) into the pure {@link OverlayStateMachine} via {@link OverlayDialogueListener}.
+ *
+ * <p>All tick-based stability logic, player-name substitution, and early play key
+ * comparison live in {@link OverlayStateMachine}, which has no {@code net.minecraft.*}
+ * dependencies and is directly unit-testable.
  */
-public final class OverlayHandler {
+public final class OverlayHandler implements OverlayDialogueListener {
     private static final String OVERLAY_BODY_FONT = "dialogue/text/wynncraft/body";
     private static final String OVERLAY_NAMEPLATE_FONT = "dialogue/text/nameplate";
     private static final String PLAYER_REPLACEMENT = "soldier";
 
-    // Ticks the body text must remain unchanged before we consider the typewriter done.
-    private static final int OVERLAY_STABILITY_TICKS = 5;
+    private final OverlayStateMachine stateMachine;
 
-    // Ticks without an overlay packet before voiceDialogActive is force-cleared (10 seconds).
-    private static final int VOICE_DIALOG_TIMEOUT_TICKS = 200;
-
-    private String pendingBody = null;
-    private String pendingNpc = null;
-    private long lastBodyChangeTick = -1;
-    private long lastOverlayPacketTick = -1;
-    private long lastReceivedOverlayTick = -1;
-    private String lastFiredText = null;
-    private boolean earlyPlayed = false;
-    private String lastEarlyPlayedKey = null;
-    private boolean voiceDialogActive = false;
+    public OverlayHandler() {
+        stateMachine = new OverlayStateMachine(
+                () -> Objects.requireNonNull(Utils.mc().level).getGameTime(),
+                this,
+                () -> ModCore.config.isEarlyPlayOverlay(),
+                OverlayHandler::replacePlayerName);
+    }
 
     public void onConnectionChange() {
-        pendingBody = null;
-        pendingNpc = null;
-        lastBodyChangeTick = -1;
-        lastOverlayPacketTick = -1;
-        lastReceivedOverlayTick = -1;
-        lastFiredText = null;
-        earlyPlayed = false;
-        lastEarlyPlayedKey = null;
-        voiceDialogActive = false;
+        stateMachine.reset();
     }
 
     public void onTick() {
-        long currentTick = Objects.requireNonNull(Utils.mc().level).getGameTime();
-
-        if (voiceDialogActive
-                && lastReceivedOverlayTick > 0
-                && currentTick >= lastReceivedOverlayTick + VOICE_DIALOG_TIMEOUT_TICKS) {
-            voiceDialogActive = false;
-        }
-
-        if (pendingBody == null) return;
-
-        if (lastBodyChangeTick > 0 && currentTick >= lastBodyChangeTick + OVERLAY_STABILITY_TICKS) {
-            firePending();
-            return;
-        }
-
-        if (lastOverlayPacketTick > 0 && currentTick >= lastOverlayPacketTick + OVERLAY_STABILITY_TICKS) {
-            firePending();
-        }
+        stateMachine.onTick();
     }
 
     public void onOverlayReceived(Component content) {
-        long currentTick = Utils.mc().level.getGameTime();
-        lastReceivedOverlayTick = currentTick;
-
         String body = extractAllBodyText(content);
         String npc = extractFontText(content, OVERLAY_NAMEPLATE_FONT);
-
-        if (body == null || body.isBlank()) {
-            voiceDialogActive = false;
-            return;
+        if (ModCore.config.isLogOverlayPackets()) {
+            long tick = Utils.mc().level.getGameTime();
+            VowLogger.logComment("feed(" + tick + ", \"" + body + "\", \"" + npc + "\")");
         }
-
-        voiceDialogActive = true;
-
-        if (npc == null || npc.isBlank()) {
-            npc = pendingNpc;
-        }
-
-        if (pendingNpc != null && !npc.equals(pendingNpc)) {
-            firePending();
-        }
-
-        if (!body.equals(pendingBody)) {
-            if (pendingBody != null && body.length() < pendingBody.length() / 2) {
-                firePending();
-            }
-            pendingBody = body;
-            lastBodyChangeTick = currentTick;
-        }
-
-        pendingNpc = npc;
-        lastOverlayPacketTick = currentTick;
-
-        if (ModCore.config.isEarlyPlayOverlay()) {
-            tryEarlyPlay();
-        }
+        stateMachine.onTextReceived(body, npc);
     }
 
     public boolean isVoiceDialogActive() {
-        return voiceDialogActive;
+        return stateMachine.isVoiceDialogActive();
     }
 
-    private void tryEarlyPlay() {
-        if (pendingNpc == null || pendingBody == null) return;
+    // OverlayDialogueListener implementation ----------------------------------------
 
-        String combined = pendingNpc + ": " + pendingBody;
-        String prefix =
-                LineFormatter.formatToLineData(replacePlayerName(combined)).getSoundLine();
-        if (prefix.length() < ModCore.config.getEarlyPlayOverlayMinChars()) return;
-
-        if (earlyPlayed) return;
-
-        var match = ModCore.instance.soundsHandler.findEarlyMatch(prefix);
-        if (match.isEmpty()) return;
-
-        String key = match.get().getKey();
-        if (key.equals(lastEarlyPlayedKey)) return;
-
-        earlyPlayed = true;
-        lastEarlyPlayedKey = key;
-        ModCore.instance.soundPlayer.playFromObject(match.get().getValue());
-    }
-
-    private void firePending() {
-        String body = pendingBody;
-        String npc = pendingNpc;
-        pendingBody = null;
-        pendingNpc = null;
-        lastBodyChangeTick = -1;
-        lastOverlayPacketTick = -1;
-
-        String firedEarlyKey = lastEarlyPlayedKey;
-        boolean wasEarlyPlayed = earlyPlayed && ModCore.config.isEarlyPlayOverlay();
-        earlyPlayed = false;
-
-        if (body == null) return;
-
-        String combined = npc != null ? npc + ": " + body : "//" + body;
-        if (combined.equals(lastFiredText)) return;
-
-        lastFiredText = combined;
-
+    @Override
+    public void onDialogueFired(String combined, String formattedLine, String finalKey) {
         if (ModCore.config.isLogOverlayDialogueToChat()) {
             Utils.sendMessage("§f" + combined);
         }
+        ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(formattedLine));
+    }
 
-        String playbackLine = npc != null ? combined : body;
-        String formattedPlaybackLine = replacePlayerName(playbackLine);
-        String finalKey = LineFormatter.formatToLineData(formattedPlaybackLine).getSoundLine();
-        boolean alreadyPlayed = wasEarlyPlayed && finalKey.equals(firedEarlyKey);
-        boolean wrongKeyPlayed = wasEarlyPlayed && !finalKey.equals(firedEarlyKey);
-
-        if (wrongKeyPlayed) {
-            // Audio started playing but was stopped because the early-play key was wrong;
-            // playSound() below will handle logging for the retry.
-            ModCore.instance.soundPlayer.stopCurrentAudio();
+    @Override
+    public void onDialogueAlreadyPlayed(String combined, String formattedLine) {
+        if (ModCore.config.isLogOverlayDialogueToChat()) {
+            Utils.sendMessage("§f" + combined);
         }
-
-        if (alreadyPlayed) {
-            // Audio already played correctly via early-play
-            if (!ModCore.config.isOnlyLogNotPlayingLines() && ModCore.config.isLogDialogueLines()) {
-                VowLogger.logLine(formattedPlaybackLine + " [PLAYED]");
-            }
-        } else {
-            // SoundPlayer.playSound() handles logging for this case
-            ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(formattedPlaybackLine));
+        if (!ModCore.config.isOnlyLogNotPlayingLines() && ModCore.config.isLogDialogueLines()) {
+            VowLogger.logLine(formattedLine + " [PLAYED]");
         }
     }
 
-    private static String replacePlayerName(String text) {
-        LocalPlayer player = Utils.player();
-        if (player == null) return text;
-        String name = player.getName().getString();
-        if (name.isEmpty()) return text;
-        text = text.replace(name, PLAYER_REPLACEMENT);
-        String nickname = ModCore.config.getNicknameOverride();
-        if (!nickname.isEmpty()) {
-            text = text.replace(nickname, PLAYER_REPLACEMENT);
-        }
-        return text;
+    @Override
+    public void onWrongEarlyPlay() {
+        ModCore.instance.soundPlayer.stopCurrentAudio();
     }
+
+    @Override
+    public String tryEarlyPlay(String rawCombined, String excludeKey) {
+        String prefix =
+                LineFormatter.formatToLineData(replacePlayerName(rawCombined)).getSoundLine();
+        if (prefix.length() < ModCore.config.getEarlyPlayOverlayMinChars()) return null;
+
+        var match = ModCore.instance.soundsHandler.findEarlyMatch(prefix);
+        if (match.isEmpty()) return null;
+
+        String key = match.get().getKey();
+        if (key.equals(excludeKey)) return null;
+
+        ModCore.instance.soundPlayer.playFromObject(match.get().getValue());
+        return key;
+    }
+
+    // Text extraction (Minecraft Component API) ------------------------------------
 
     /**
-     * Extracts and joins all body-font text from the component tree.
-     * High Unicode codepoints (custom font separators) are replaced with spaces.
+     * Extracts and joins all body-font text segments from the component tree.
+     * Delegates the codepoint-cleaning step to {@link #cleanBodyRawText(List)}.
      */
     private String extractAllBodyText(Component content) {
         List<String> parts = new ArrayList<>();
         collectFontText(content, OVERLAY_BODY_FONT, parts);
-        if (parts.isEmpty()) return null;
+        return cleanBodyRawText(parts);
+    }
+
+    /**
+     * Cleans a list of raw body-font strings by replacing high Unicode codepoints
+     * (custom font separators used by Wynncraft) with spaces.
+     *
+     * <p>Package-private to allow direct testing without a Minecraft environment.
+     */
+    static String cleanBodyRawText(List<String> rawParts) {
+        if (rawParts.isEmpty()) return null;
 
         StringBuilder cleaned = new StringBuilder();
-        for (String part : parts) {
+        for (String part : rawParts) {
             for (int i = 0; i < part.length(); ) {
                 int cp = part.codePointAt(i);
                 if (cp > 0x00FF) {
@@ -254,5 +173,18 @@ public final class OverlayHandler {
             if (result != null) return result;
         }
         return null;
+    }
+
+    private static String replacePlayerName(String text) {
+        LocalPlayer player = Utils.player();
+        if (player == null) return text;
+        String name = player.getName().getString();
+        if (name.isEmpty()) return text;
+        text = text.replace(name, PLAYER_REPLACEMENT);
+        String nickname = ModCore.config.getNicknameOverride();
+        if (!nickname.isEmpty()) {
+            text = text.replace(nickname, PLAYER_REPLACEMENT);
+        }
+        return text;
     }
 }
