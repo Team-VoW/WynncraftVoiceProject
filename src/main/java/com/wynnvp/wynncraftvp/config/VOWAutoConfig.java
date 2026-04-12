@@ -109,6 +109,9 @@ public class VOWAutoConfig implements ConfigData {
 
         @ConfigEntry.Gui.Tooltip
         public boolean logOverlayDialogueToChat = false;
+
+        @ConfigEntry.Gui.Tooltip
+        public boolean logOverlayPackets = false;
     }
 
     public boolean isLogDialogueLines() {
@@ -141,6 +144,10 @@ public class VOWAutoConfig implements ConfigData {
 
     public boolean isLogOverlayDialogueToChat() {
         return debugAndLogs.logOverlayDialogueToChat;
+    }
+
+    public boolean isLogOverlayPackets() {
+        return debugAndLogs.logOverlayPackets;
     }
 
     public boolean isBlockVillagerSoundsDuringVoiceDialog() {
