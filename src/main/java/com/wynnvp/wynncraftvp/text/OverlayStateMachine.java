@@ -32,6 +32,10 @@ public final class OverlayStateMachine {
     // Ticks the body text must remain unchanged before we consider the typewriter done.
     static final int OVERLAY_STABILITY_TICKS = 5;
 
+    // How many times the same body text must be received before we consider the typewriter done.
+    // Real data shows partial texts repeat at most 3x during animation; completed lines repeat 100+x.
+    static final int OVERLAY_STABILITY_REPEATS = 7;
+
     // Ticks without an overlay packet before voiceDialogActive is force-cleared (10 seconds).
     static final int VOICE_DIALOG_TIMEOUT_TICKS = 200;
 
@@ -42,6 +46,7 @@ public final class OverlayStateMachine {
 
     private String pendingBody = null;
     private String pendingNpc = null;
+    private int pendingBodyRepeatCount = 0;
     private long lastBodyChangeTick = -1;
     private long lastOverlayPacketTick = -1;
     private long lastReceivedOverlayTick = -1;
@@ -65,19 +70,23 @@ public final class OverlayStateMachine {
         long currentTick = tickClock.getAsLong();
 
         if (voiceDialogActive
-                && lastReceivedOverlayTick > 0
+                && lastReceivedOverlayTick != -1
                 && currentTick >= lastReceivedOverlayTick + VOICE_DIALOG_TIMEOUT_TICKS) {
             voiceDialogActive = false;
         }
 
         if (pendingBody == null) return;
 
-        if (lastBodyChangeTick > 0 && currentTick >= lastBodyChangeTick + OVERLAY_STABILITY_TICKS) {
+        if (lastBodyChangeTick != -1
+                && currentTick >= lastBodyChangeTick + OVERLAY_STABILITY_TICKS
+                && pendingBodyRepeatCount >= OVERLAY_STABILITY_REPEATS) {
             firePending();
             return;
         }
 
-        if (lastOverlayPacketTick > 0 && currentTick >= lastOverlayPacketTick + OVERLAY_STABILITY_TICKS) {
+        if (lastOverlayPacketTick != -1
+                && currentTick >= lastOverlayPacketTick + OVERLAY_STABILITY_TICKS
+                && pendingBodyRepeatCount >= OVERLAY_STABILITY_REPEATS) {
             firePending();
         }
     }
@@ -94,6 +103,13 @@ public final class OverlayStateMachine {
 
         if (body == null || body.isBlank()) {
             voiceDialogActive = false;
+            pendingBody = null;
+            pendingNpc = null;
+            pendingBodyRepeatCount = 0;
+            lastBodyChangeTick = -1;
+            lastOverlayPacketTick = -1;
+            earlyPlayed = false;
+            lastEarlyPlayedKey = null;
             return;
         }
 
@@ -112,7 +128,10 @@ public final class OverlayStateMachine {
                 firePending();
             }
             pendingBody = body;
+            pendingBodyRepeatCount = 1;
             lastBodyChangeTick = currentTick;
+        } else {
+            pendingBodyRepeatCount++;
         }
 
         pendingNpc = npc;
@@ -131,6 +150,7 @@ public final class OverlayStateMachine {
     public void reset() {
         pendingBody = null;
         pendingNpc = null;
+        pendingBodyRepeatCount = 0;
         lastBodyChangeTick = -1;
         lastOverlayPacketTick = -1;
         lastReceivedOverlayTick = -1;
@@ -157,6 +177,7 @@ public final class OverlayStateMachine {
         String npc = pendingNpc;
         pendingBody = null;
         pendingNpc = null;
+        pendingBodyRepeatCount = 0;
         lastBodyChangeTick = -1;
         lastOverlayPacketTick = -1;
 

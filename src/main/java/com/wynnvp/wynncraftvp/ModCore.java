@@ -21,6 +21,7 @@ import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.SharedConstants;
@@ -83,6 +84,7 @@ public class ModCore implements ModInitializer {
             overlayHandler.onTick();
             if (audioPlayer != null) audioPlayer.openAlPlayer.onTick();
         });
+        ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> overlayHandler.onConnectionChange());
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
 
         new ToastManager(Minecraft.getInstance());

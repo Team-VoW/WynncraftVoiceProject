@@ -48,9 +48,7 @@ class OverlayStateMachineTest {
         stopCalled = false;
         earlyPlayAttempts.clear();
         earlyPlayReturn = null;
-        // Start at 1: the state machine uses "> 0" as the "timestamp has been set" guard,
-        // so tick 0 is treated as "unset". Real Minecraft worlds also start at tick 0 but
-        // this edge case is a known limitation inherited from the original code.
+        // Start at 1 to mirror realistic Minecraft game time (worlds effectively start > 0).
         tick[0] = 1;
 
         machine = buildMachine(Function.identity()); // no player-name substitution in tests
@@ -91,6 +89,17 @@ class OverlayStateMachineTest {
     private void advanceTo(long t) {
         tick[0] = t;
         machine.onTick();
+    }
+
+    /**
+     * Feeds the same body/npc OVERLAY_STABILITY_REPEATS more times at the current tick.
+     * Simulates the completed overlay staying visible (duplicate packets) so the repeat
+     * threshold is satisfied before calling advanceTo to trigger the stability fire.
+     */
+    private void saturate(String body, String npc) {
+        for (int i = 0; i < OverlayStateMachine.OVERLAY_STABILITY_REPEATS; i++) {
+            machine.onTextReceived(body, npc);
+        }
     }
 
     /** Returns what LineFormatter produces for a given line — useful when setting earlyPlayReturn. */
@@ -465,8 +474,8 @@ class OverlayStateMachineTest {
                 "It's been a while, hasn't it? We should catch up! You've probably had lots of adventures, right?",
                 "Tasim");
 
-        // Stability reached at tick 48 + OVERLAY_STABILITY_TICKS = 53; trigger the onTick fire.
-        advanceTo(53L);
+        // Stability reached at tick 48 + OVERLAY_STABILITY_TICKS = 55; trigger the onTick fire.
+        advanceTo(55L);
 
         assertFalse(stopCalled, "Early play key was correct — must NOT stop audio");
         assertTrue(fired.isEmpty(), "Sound already playing correctly — must NOT re-fire");
@@ -486,8 +495,9 @@ class OverlayStateMachineTest {
         feed(11, "Soldier, I hope", "Commander");
         feed(12, "Soldier, I hope you", "Commander");
         feed(13, "Soldier, I hope you know", "Commander");
-        // Stable — fire at 13 + 5 = 18
-        advanceTo(18);
+        saturate("Soldier, I hope you know", "Commander");
+        // Stable — fire at 13 + 7 = 20
+        advanceTo(20);
 
         assertFalse(stopCalled, "Correct early play key — must NOT stop audio");
         assertTrue(fired.isEmpty(), "Sound already playing correctly — must NOT re-fire");
@@ -505,7 +515,8 @@ class OverlayStateMachineTest {
         feed(10, "Soldier,", "Commander");
         feed(11, "Soldier, I hope", "Commander");
         feed(12, "Soldier, I hope you know", "Commander");
-        advanceTo(17); // 12 + 5
+        saturate("Soldier, I hope you know", "Commander");
+        advanceTo(19); // 12 + 7
 
         assertTrue(stopCalled, "Wrong early play key — must stop audio");
         assertEquals(1, fired.size(), "Must re-fire with correct sound after stopping");
@@ -521,7 +532,8 @@ class OverlayStateMachineTest {
 
         feed(10, "Soldier,", "Commander");
         feed(11, "Soldier, I hope you know", "Commander");
-        advanceTo(16); // 11 + 5
+        saturate("Soldier, I hope you know", "Commander");
+        advanceTo(18); // 11 + 7
 
         assertFalse(stopCalled);
         assertEquals(1, fired.size());
@@ -546,7 +558,8 @@ class OverlayStateMachineTest {
     @Test
     void firesExactlyAtStabilityThreshold() {
         machine.onTextReceived("Hello world", "Bob"); // tick = 1, lastBodyChangeTick = 1
-        advanceTo(1 + OverlayStateMachine.OVERLAY_STABILITY_TICKS); // tick 6
+        saturate("Hello world", "Bob");
+        advanceTo(1 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
 
         assertEquals(1, fired.size() + alreadyPlayed.size(), "Should fire exactly once");
         String combined =
@@ -558,11 +571,12 @@ class OverlayStateMachineTest {
     void textChangeResetsStabilityCounter() {
         machine.onTextReceived("Hello", "Bob"); // lastBodyChangeTick = 1
         feed(3, "Hello world", "Bob"); // resets counter to tick 3
+        saturate("Hello world", "Bob");
 
-        advanceTo(7); // 3 + 4 — not yet stable
+        advanceTo(9); // 3 + 6 — not yet stable
         assertEquals(0, fired.size() + alreadyPlayed.size());
 
-        advanceTo(8); // 3 + 5 — stable
+        advanceTo(10); // 3 + 7 — stable
         assertEquals(1, fired.size() + alreadyPlayed.size());
         assertEquals("Bob: Hello world", fired.get(0).combined());
     }
@@ -613,11 +627,13 @@ class OverlayStateMachineTest {
     @Test
     void duplicateCombinedTextIsIgnored() {
         machine.onTextReceived("Hello", "Bob"); // tick = 1
+        saturate("Hello", "Bob");
         advanceTo(1 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
         assertEquals(1, fired.size() + alreadyPlayed.size());
 
         // Same text arrives again later
         feed(100, "Hello", "Bob");
+        saturate("Hello", "Bob");
         advanceTo(100 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
         assertEquals(1, fired.size() + alreadyPlayed.size(), "Duplicate must be ignored");
     }
@@ -707,6 +723,7 @@ class OverlayStateMachineTest {
 
         // After reset, same text should fire again (lastFiredText cleared)
         feed(50, "Hello", "Bob");
+        saturate("Hello", "Bob");
         advanceTo(50 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
         assertEquals(1, fired.size() + alreadyPlayed.size());
     }
@@ -726,9 +743,10 @@ class OverlayStateMachineTest {
     void nullNpcFallsBackToPreviousNpc() {
         machine.onTextReceived("Hello", "Bob"); // tick = 1, pendingNpc = "Bob"
         feed(2, "World", null); // null npc → reuse "Bob", body changed
+        saturate("World", null);
 
         assertTrue(fired.isEmpty() && alreadyPlayed.isEmpty()); // no immediate fire
-        advanceTo(2 + OverlayStateMachine.OVERLAY_STABILITY_TICKS); // tick 7
+        advanceTo(2 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
         assertEquals(1, fired.size() + alreadyPlayed.size());
         assertEquals("Bob: World", fired.get(0).combined());
     }
@@ -737,6 +755,7 @@ class OverlayStateMachineTest {
     void playerNameReplacerAppliedBeforeKeyLookup() {
         machine = buildMachine(text -> text.replace("Alice", "soldier"));
         feed(1, "Alice told me", "Bob");
+        saturate("Alice told me", "Bob");
         advanceTo(1 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
 
         assertEquals(1, fired.size());
@@ -749,6 +768,7 @@ class OverlayStateMachineTest {
     void narrationLineUsesBodyOnlyForKeyNotCombined() {
         // When npc is null, combined = "//body" but playback key is derived from body alone
         machine.onTextReceived("A narrator speaks", null);
+        saturate("A narrator speaks", null);
         advanceTo(1 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
 
         assertEquals(1, fired.size());
