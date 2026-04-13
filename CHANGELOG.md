@@ -1,3 +1,16 @@
+## [1.14.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.14.1...v1.14.2) (2026-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* **Audio Downloader:** Fix the Audio Downloader not working
+
+### Bug Fixes
+
+* **Audio Downloader:** Fix the Audio Downloader not working ([9176c8d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9176c8d1fc89cff69ccd09402332192fbc703c18))
+* **Line Detection:** Widely decreased the chance of lines starting to play, stopping and then playing again when Wynncraft Server Lags ([#83](https://github.com/Team-VoW/WynncraftVoiceProject/issues/83)) ([71cf060](https://github.com/Team-VoW/WynncraftVoiceProject/commit/71cf060392ae478fd2ad392a26792a94dac14b52))
+* **Version Checker:** Fix the Version checker not working properly sometimes because of a race condition ([cb7ddcc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cb7ddcc962118632ede4357dca7bd098bd3fd531))
+
 ## [1.14.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.14.0...v1.14.1) (2026-04-09)
 
 
@@ -23,6 +36,7 @@
 
 ### Miscellaneous Chores
 
+* **release:** v1.14.1 [skip ci] ([20c7bec](https://github.com/Team-VoW/WynncraftVoiceProject/commit/20c7bec8c4a19c6c4a063002c89b226a14cea95b))
 * workflow plugin updates ([#74](https://github.com/Team-VoW/WynncraftVoiceProject/issues/74)) ([e432255](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e4322550589e1d9f963e47b1cdfe642b21eb8267))
 
 ## [1.14.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.9.3...v1.14.0) (2026-04-03)
