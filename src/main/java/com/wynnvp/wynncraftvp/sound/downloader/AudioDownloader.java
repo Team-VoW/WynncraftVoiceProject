@@ -93,31 +93,7 @@ public class AudioDownloader {
         // processAudioManifest();
     }
 
-    private boolean hasManifestChanged() {
-        try {
-            HttpURLConnection connection = (HttpURLConnection) new URL(getManifestUrl()).openConnection();
-            connection.setRequestMethod("HEAD");
-            if (connection.getResponseCode() == 200) {
-                String lastModifiedNew = connection.getHeaderField("Last-Modified");
-                String lastModifiedStored = ModCore.config.lastManifestUpdateHeader;
-                if (lastModifiedNew != null && lastModifiedNew.equals(lastModifiedStored)) {
-                    return false;
-                }
-                ModCore.config.lastManifestUpdateHeader = lastModifiedNew;
-                ModCore.config.save();
-            }
-        } catch (Exception e) {
-            LOGGER.error("Failed to check manifest Last-Modified header", e);
-        }
-        return true; // Default: fetch anyway
-    }
-
     private void processAudioManifest() {
-        if (!hasManifestChanged()) {
-            LOGGER.info("Audio manifest unchanged. Skipping download check.");
-            return;
-        }
-
         try {
             // Fetch the manifest
             remoteMetadata = fetchAudioManifest();

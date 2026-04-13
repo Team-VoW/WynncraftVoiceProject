@@ -26,9 +26,6 @@ public class VOWAutoConfig implements ConfigData {
     public String azureBlobRootLink = "https://vow.blob.core.windows.net/mod/";
 
     @ConfigEntry.Gui.Excluded
-    public String lastManifestUpdateHeader = "never";
-
-    @ConfigEntry.Gui.Excluded
     public List<String> urls = List.of("https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/");
 
     @ConfigEntry.Gui.Excluded
