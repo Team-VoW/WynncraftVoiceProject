@@ -5,7 +5,6 @@
 package com.wynnvp.wynncraftvp.events.mixins;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.events.PlaySoundEvent;
 import java.util.Set;
 import net.minecraft.client.resources.sounds.SoundInstance;
 import net.minecraft.client.sounds.SoundEngine;
@@ -19,7 +18,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(SoundManager.class)
-public abstract class MixinPlaySoundListener {
+public class MixinPlaySoundListener {
     @Unique
     private static final Set<Identifier> VILLAGER_SOUNDS = Set.of(
             SoundEvents.VILLAGER_TRADE.location(),
@@ -32,13 +31,11 @@ public abstract class MixinPlaySoundListener {
 
     @Inject(method = "play", at = @At("HEAD"), cancellable = true)
     private void onPlay(SoundInstance sound, CallbackInfoReturnable<SoundEngine.PlayResult> cir) {
-        Identifier id = sound.getIdentifier();
-
-        if (ModCore.config.isRemoveVillagerSounds() && VILLAGER_SOUNDS.contains(id)) {
+        if (ModCore.overlayHandler != null
+                && ModCore.config.isBlockVillagerSoundsDuringVoiceDialog()
+                && ModCore.overlayHandler.isVoiceDialogActive()
+                && VILLAGER_SOUNDS.contains(sound.getIdentifier())) {
             cir.cancel();
-            return;
         }
-
-        PlaySoundEvent.SoundPlayed(sound, cir);
     }
 }

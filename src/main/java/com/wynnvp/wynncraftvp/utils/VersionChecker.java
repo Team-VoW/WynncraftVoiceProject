@@ -121,7 +121,7 @@ public class VersionChecker {
     private static JsonObject getVersionCheckFromWebsite() {
         // Hashes the UUID for it to be anonymous
         String hashedUUID =
-                Utils.sha256(Minecraft.getInstance().player.getUUID().toString());
+                Utils.sha256(Minecraft.getInstance().getUser().getProfileId().toString());
         String url = "http://voicesofwynn.com/api/version/check?id=" + hashedUUID;
 
         JsonObject jsonObject = null;

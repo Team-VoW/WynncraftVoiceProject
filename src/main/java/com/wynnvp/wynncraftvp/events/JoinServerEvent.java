@@ -21,7 +21,7 @@ public class JoinServerEvent {
 
         Timer timer = new Timer();
         // In 8 seconds
-        timer.schedule(new SchedulerTask(), 8000L);
+        timer.schedule(new SchedulerTask(), 4000L);
     }
 
     public static class SchedulerTask extends TimerTask {
