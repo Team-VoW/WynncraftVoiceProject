@@ -147,6 +147,15 @@ def betaSoundsJsonUrl = project.findProperty('betaSoundsJsonUrl') ?: ''
 def betaSoundsUrl = project.findProperty('betaSoundsUrl') ?: ''
 def generatedSrcDir = layout.buildDirectory.dir("generated/sources/betaConfig/java")
 
+static String escapeJavaStringLiteral(Object value) {
+    return value.toString()
+            .replace("\\", "\\\\")
+            .replace("\"", "\\\"")
+            .replace('$', '\\u0024')
+            .replace("\r", "\\r")
+            .replace("\n", "\\n")
+}
+
 tasks.register('generateBetaConfig') {
     def outputDir = generatedSrcDir
     inputs.property('betaSoundsJsonUrl', betaSoundsJsonUrl)
@@ -156,13 +165,16 @@ tasks.register('generateBetaConfig') {
         def packageDir = outputDir.get().asFile.toPath()
                 .resolve("com/wynnvp/wynncraftvp/config")
         packageDir.toFile().mkdirs()
+        def escapedBetaSoundsJsonUrl = escapeJavaStringLiteral(betaSoundsJsonUrl)
+        def escapedBetaSoundsUrl = escapeJavaStringLiteral(betaSoundsUrl)
         packageDir.resolve("BetaConfig.java").toFile().text = """\
 package com.wynnvp.wynncraftvp.config;
 
 public final class BetaConfig {
-    public static final String BETA_SOUNDS_JSON_URL = "${betaSoundsJsonUrl}";
-    public static final String BETA_SOUNDS_URL = "${betaSoundsUrl}";
+    public static final String BETA_SOUNDS_JSON_URL = "${escapedBetaSoundsJsonUrl}";
+    public static final String BETA_SOUNDS_URL = "${escapedBetaSoundsUrl}";
 
+    @SuppressWarnings("ConstantValue")
     public static boolean isBetaBuild() {
         return !BETA_SOUNDS_JSON_URL.isEmpty() || !BETA_SOUNDS_URL.isEmpty();
     }

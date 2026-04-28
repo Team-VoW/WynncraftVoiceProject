@@ -26,6 +26,7 @@ public class JoinServerEvent {
 
     public static class SchedulerTask extends TimerTask {
         @Override
+        @SuppressWarnings("ConstantValue")
         public void run() {
             VersionChecker.checkVersion();
             if (BetaConfig.isBetaBuild()) {

@@ -41,11 +41,19 @@ public class AudioDownloader {
     private static final String DEFAULT_BASE_URL =
             "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
 
+    @SuppressWarnings("ConstantValue")
     private static String getEffectiveBaseUrl() {
-        if (BetaConfig.isBetaBuild() && !BetaConfig.BETA_SOUNDS_URL.isEmpty()) {
-            return BetaConfig.BETA_SOUNDS_URL;
+        if (!BetaConfig.BETA_SOUNDS_URL.isEmpty()) {
+            String betaBaseUrl = ensureTrailingSlash(BetaConfig.BETA_SOUNDS_URL);
+            LOGGER.info("Using beta sounds base URL");
+            return betaBaseUrl;
         }
+        LOGGER.info("Using default sounds base URL: {}", DEFAULT_BASE_URL);
         return DEFAULT_BASE_URL;
+    }
+
+    private static String ensureTrailingSlash(String baseUrl) {
+        return baseUrl.endsWith("/") ? baseUrl : baseUrl + "/";
     }
 
     private String getManifestUrl() {
