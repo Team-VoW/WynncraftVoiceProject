@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.downloader;
@@ -15,7 +15,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.TimeUnit;
-import net.minecraft.client.Minecraft;
 
 public class DownloadQueue {
     private PriorityBlockingQueue<DownloadTask> queue;
@@ -34,8 +33,7 @@ public class DownloadQueue {
         this.baseUrl = baseUrl;
         this.queue = new PriorityBlockingQueue<>();
         this.executor = Executors.newFixedThreadPool(threadCount);
-        this.progressToast =
-                new DownloadProgressToast(Minecraft.getInstance(), "Downloading Voices of Wynn audio", downloadCount);
+        this.progressToast = new DownloadProgressToast(downloadCount);
     }
 
     public void start() {
