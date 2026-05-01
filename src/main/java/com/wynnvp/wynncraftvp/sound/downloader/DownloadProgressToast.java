@@ -99,6 +99,7 @@ public class DownloadProgressToast implements Toast {
     }
 
     private float getProgress() {
+        if (maxAmount <= 0) return 1;
         return (float) getCombinedAmount() / maxAmount;
     }
 
