@@ -83,17 +83,17 @@ public class DownloadProgressToast implements Toast {
     }
 
     private Component progressComponent() {
-        MutableComponent test = Component.translatable(
+        MutableComponent component = Component.translatable(
                 "text.toast.downloadProgress.progress",
                 getCombinedAmount(),
                 maxAmount,
                 Math.round(getProgress() * 1000) / 10f);
         if (failedAmount.get() != 0) {
-            test.append(" ")
+            component.append(" ")
                     .append(Component.translatable("text.toast.downloadProgress.failed", failedAmount)
                             .withStyle(ChatFormatting.RED));
         }
-        return test;
+        return component;
     }
 
     private int getCombinedAmount() {
