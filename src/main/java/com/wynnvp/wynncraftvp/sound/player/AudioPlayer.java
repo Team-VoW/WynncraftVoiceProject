@@ -1,10 +1,11 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.player;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.BetaConfig;
 import com.wynnvp.wynncraftvp.sound.SoundObject;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.io.IOException;
@@ -63,6 +64,7 @@ public class AudioPlayer {
         write(audioData);
     }
 
+    @SuppressWarnings("ConstantValue")
     public void play(SoundObject soundObject) {
         String audioFileName = soundObject.getId();
         Path audioFilePath = Paths.get(AUDIO_FOLDER, audioFileName + ".ogg");
@@ -72,7 +74,9 @@ public class AudioPlayer {
             return;
         }
 
-        if (ModCore.config.downloadSounds && audioFilePath.toFile().exists()) {
+        if (ModCore.config.downloadSounds
+                && !BetaConfig.isBetaBuild()
+                && audioFilePath.toFile().exists()) {
             playLocalFile(audioFilePath, soundObject);
             return;
         }
@@ -157,8 +161,14 @@ public class AudioPlayer {
 
     private List<String> urls = null;
 
+    @SuppressWarnings("ConstantValue")
     private List<String> getRemoteUrls() {
         if (urls != null) return urls;
+
+        if (!BetaConfig.BETA_SOUNDS_URL.isEmpty()) {
+            urls = List.of(BetaConfig.BETA_SOUNDS_URL);
+            return urls;
+        }
 
         urls = new ArrayList<>(ModCore.config.urls);
         String fastestServer = ModCore.config.azureBlobLink;
