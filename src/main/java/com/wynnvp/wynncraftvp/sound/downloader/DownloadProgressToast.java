@@ -17,6 +17,8 @@ import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.Identifier;
 import org.jspecify.annotations.NonNull;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class DownloadProgressToast implements Toast {
     private static final Identifier BACKGROUND_SPRITE =
             Identifier.fromNamespaceAndPath(ModCore.MODID, "toast/download");
@@ -28,10 +30,10 @@ public class DownloadProgressToast implements Toast {
     private static final Component TITLE_COMPONENT =
             Component.translatable("text.toast.downloadProgress.title").withStyle(ChatFormatting.YELLOW);
 
-    private Toast.Visibility visibility = Visibility.HIDE;
+    private volatile Toast.Visibility visibility = Visibility.HIDE;
 
-    private int currentAmount = 0;
-    private int failedAmount = 0;
+    private final AtomicInteger currentAmount = new AtomicInteger(0);
+    private final AtomicInteger failedAmount = new AtomicInteger(0);
     private final int maxAmount;
 
     public DownloadProgressToast(int maxAmount) {
@@ -86,7 +88,7 @@ public class DownloadProgressToast implements Toast {
                 getCombinedAmount(),
                 maxAmount,
                 Math.round(getProgress() * 1000) / 10f);
-        if (failedAmount != 0) {
+        if (failedAmount.get() != 0) {
             test.append(" ")
                     .append(Component.translatable("text.toast.downloadProgress.failed", failedAmount)
                             .withStyle(ChatFormatting.RED));
@@ -95,7 +97,7 @@ public class DownloadProgressToast implements Toast {
     }
 
     private int getCombinedAmount() {
-        return currentAmount + failedAmount;
+        return currentAmount.get() + failedAmount.get();
     }
 
     private float getProgress() {
@@ -104,11 +106,11 @@ public class DownloadProgressToast implements Toast {
     }
 
     public void increaseCount() {
-        this.currentAmount++;
+        this.currentAmount.incrementAndGet();
     }
 
     public void addFailed() {
-        this.failedAmount++;
+        this.failedAmount.incrementAndGet();
     }
 
     public void requestFinished() {
