@@ -47,7 +47,7 @@
   "text.autoconfig.wynnvp.option.voiceVolume": "Voice volume (%)",
   "text.autoconfig.wynnvp.option.voiceVolume.@Tooltip": "Adjusts the volume of voices played by this mod. 100% matches Minecraft's Voice/Speech volume.",
   "text.autoconfig.wynnvp.title": "Voices of wynning config",
-  "text.toast.downloadProgress.failed": "Failed: %d",
-  "text.toast.downloadProgress.progress": "Progress: %d/%d (%f%%)",
+  "text.toast.downloadProgress.failed": "Failed: %s",
+  "text.toast.downloadProgress.progress": "Progress: %s/%s (%s%%)",
   "text.toast.downloadProgress.title": "Downloading Voices of Wynn Audio"
 }
