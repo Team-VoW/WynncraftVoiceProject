@@ -24,9 +24,9 @@ public class DownloadProgressToast implements Toast {
             Identifier.fromNamespaceAndPath(ModCore.MODID, "toast/download");
     private static final Identifier LOGO_SPRITE = Identifier.fromNamespaceAndPath(ModCore.MODID, "logo");
     private static final Identifier EXPERIENCE_BAR_BACKGROUND_SPRITE =
-            Identifier.withDefaultNamespace("hud/experience_bar_background");
+            Identifier.fromNamespaceAndPath(ModCore.MODID,"toast/experience_bar_background");
     private static final Identifier EXPERIENCE_BAR_PROGRESS_SPRITE =
-            Identifier.withDefaultNamespace("hud/experience_bar_progress");
+            Identifier.fromNamespaceAndPath(ModCore.MODID,"toast/experience_bar_progress");
     private static final Component TITLE_COMPONENT =
             Component.translatable("text.toast.downloadProgress.title").withStyle(ChatFormatting.YELLOW);
 
