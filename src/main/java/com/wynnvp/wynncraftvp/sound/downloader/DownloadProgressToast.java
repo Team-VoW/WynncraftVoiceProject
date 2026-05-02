@@ -63,7 +63,7 @@ public class DownloadProgressToast implements Toast {
     @Override
     public void render(GuiGraphics guiGraphics, @NonNull Font font, long visibilityTime) {
         guiGraphics.blitSprite(RenderPipelines.GUI_TEXTURED, BACKGROUND_SPRITE, 0, 0, width(), height());
-        guiGraphics.blitSprite(RenderPipelines.GUI_TEXTURED, LOGO_SPRITE, 6, 5, 22, 22, 0.4f);
+        guiGraphics.blitSprite(RenderPipelines.GUI_TEXTURED, LOGO_SPRITE, width()-26, 5, 22, 22, 0.4f);
         guiGraphics.drawString(font, TITLE_COMPONENT, 8, 5, -1);
         guiGraphics.drawString(font, progressComponent(), 8, 14, -1);
         guiGraphics.blitSprite(RenderPipelines.GUI_TEXTURED, EXPERIENCE_BAR_BACKGROUND_SPRITE, 6, 23, width() - 12, 5);
