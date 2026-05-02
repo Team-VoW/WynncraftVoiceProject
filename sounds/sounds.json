@@ -55947,7 +55947,7 @@
     "file": "queensrecruit-drpicard-41"
   },
   {
-    "line": "???: ...and that we're rifling through the Cursed instead of our own citizens is an incalculable risk!!",
+    "line": "???: ...and that we're rifling through the Cursed instead of our own citizens is an incalculable risk!",
     "file": "queensrecruit-sovereignzhiraok-9"
   },
   {
@@ -56023,7 +56023,7 @@
     "file": "queensrecruit-sovereignzhiraok-15"
   },
   {
-    "line": "Sovereign Majin: For once, we appear to be in agreement. What a pity, what a hassle… it hardly seems worth the effort to me.",
+    "line": "Sovereign Majin: For once, we appear to be in agreement. What a pity, what a hassle... it hardly seems worth the effort to me.",
     "file": "queensrecruit-sovereignmajin-25"
   },
   {
@@ -56223,7 +56223,7 @@
     "file": "queensrecruit-tasim-102"
   },
   {
-    "line": "Gendarme Soldier: Any competitors who have lost in the tournament are to be escorted out of Fruma, effective immediately.",
+    "line": "Gendarme Commander: Any competitors who have lost in the tournament are to be escorted out of Fruma, effective immediately.",
     "file": "queensrecruit-gendarmesoldier3-1"
   },
   {
@@ -56247,15 +56247,15 @@
     "file": "queensrecruit-drpicard-53"
   },
   {
-    "line": "Gendarme Soldier: SILENCE! These are new orders from Her Majesty.",
+    "line": "Gendarme Commander: SILENCE! These are new orders from Her Majesty.",
     "file": "queensrecruit-gendarmesoldier3-2"
   },
   {
-    "line": "Gendarme Soldier: Only soldier and Tasim are permitted to remain in the palace. Any defiance will be seen as an official threat against Fruma from the Wynn province.",
+    "line": "Gendarme Commander: Only soldier and Tasim are permitted to remain in the palace. Any defiance will be seen as an official threat against Fruma from the Wynn province.",
     "file": "queensrecruit-gendarmesoldier3-3"
   },
   {
-    "line": "Gendarme Soldier: Comply, and no one will be hurt. You will still receive your promised reward for participation.",
+    "line": "Gendarme Commander: Comply, and no one will be hurt. You will still receive your promised reward for participation.",
     "file": "queensrecruit-gendarmesoldier3-4"
   },
   {
@@ -56283,7 +56283,7 @@
     "file": "queensrecruit-drpicard-56"
   },
   {
-    "line": "Gendarme Soldier: Remaining finalists, you are expected in the dining hall shortly. Attend your last meal before the finals.",
+    "line": "Gendarme Commander: Remaining finalists, you are expected in the dining hall shortly. Attend your last meal before the finals.",
     "file": "queensrecruit-gendarmesoldier3-5"
   },
   {
@@ -56600,6 +56600,10 @@
   },
   {
     "line": "Tasim: Ha. You've gotten stronger...",
+    "file": "queensrecruit-tasim-151"
+  },
+  {
+    "line": "Tasim: Ha. You've gotten strong, huh?",
     "file": "queensrecruit-tasim-151"
   },
   {
