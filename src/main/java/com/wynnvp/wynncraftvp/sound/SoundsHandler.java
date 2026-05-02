@@ -10,6 +10,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.BetaConfig;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -127,7 +128,27 @@ public class SoundsHandler {
         }
     }
 
+    @SuppressWarnings("ConstantValue")
+    private String getEffectiveJsonUrl() {
+        if (!BetaConfig.BETA_SOUNDS_JSON_URL.isEmpty()) {
+            ModCore.LOGGER.info("[Voices of Wynn] Using beta sounds.json URL");
+            return BetaConfig.BETA_SOUNDS_JSON_URL;
+        }
+        String remoteJsonLink = ModCore.config.getRemoteJsonLink();
+        ModCore.LOGGER.info("[Voices of Wynn] Using configured sounds.json URL: {}", remoteJsonLink);
+        return remoteJsonLink;
+    }
+
+    @SuppressWarnings("ConstantValue")
     private boolean shouldUpdateJson() {
+        // Beta builds always re-download. Invalidate the cached header so switching
+        // back to a normal build will also force a re-download of the production sounds.json.
+        if (!BetaConfig.BETA_SOUNDS_JSON_URL.isEmpty()) {
+            ModCore.config.lastsSoundsUpdateHeader = "beta";
+            ModCore.config.save();
+            return true;
+        }
+
         // Don't update if using custom sounds.json
         if (ModCore.config.isUseCustomSoundsJson()) {
             return false;
@@ -153,8 +174,7 @@ public class SoundsHandler {
 
     private String fetchLastModifiedHeader() {
         try {
-            HttpURLConnection connection =
-                    (HttpURLConnection) new URL(ModCore.config.getRemoteJsonLink()).openConnection();
+            HttpURLConnection connection = (HttpURLConnection) new URL(getEffectiveJsonUrl()).openConnection();
             connection.setRequestMethod("HEAD");
 
             if (connection.getResponseCode() == 200) {
@@ -169,8 +189,7 @@ public class SoundsHandler {
     private void downloadJson() {
         try {
             ModCore.LOGGER.info("Downloading updated sounds.json");
-            HttpURLConnection connection =
-                    (HttpURLConnection) new URL(ModCore.config.getRemoteJsonLink()).openConnection();
+            HttpURLConnection connection = (HttpURLConnection) new URL(getEffectiveJsonUrl()).openConnection();
             connection.setRequestMethod("GET");
 
             if (connection.getResponseCode() == 200) {

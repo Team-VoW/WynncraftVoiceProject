@@ -9,6 +9,7 @@ import static com.wynnvp.wynncraftvp.ModCore.config;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.BetaConfig;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -52,14 +53,16 @@ public class VersionChecker {
             return;
         }
 
-        if (azureBlobLink != null) {
-            config.azureBlobLink = azureBlobLink;
-            config.save();
-        }
+        if (!BetaConfig.isBetaBuild()) {
+            if (azureBlobLink != null) {
+                config.azureBlobLink = azureBlobLink;
+                config.save();
+            }
 
-        if (!audioUrls.isEmpty()) {
-            config.urls = audioUrls;
-            config.save();
+            if (!audioUrls.isEmpty()) {
+                config.urls = audioUrls;
+                config.save();
+            }
         }
 
         // Strip the "v" from the version
