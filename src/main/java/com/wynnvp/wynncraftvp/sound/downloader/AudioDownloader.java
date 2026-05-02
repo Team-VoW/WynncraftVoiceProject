@@ -7,6 +7,7 @@ package com.wynnvp.wynncraftvp.sound.downloader;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.BetaConfig;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import java.io.File;
 import java.io.FileInputStream;
@@ -37,7 +38,23 @@ public class AudioDownloader {
     }
 
     private final String audioDir;
-    private static final String BASE_URL = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
+    private static final String DEFAULT_BASE_URL =
+            "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
+
+    @SuppressWarnings("ConstantValue")
+    private static String getEffectiveBaseUrl() {
+        if (!BetaConfig.BETA_SOUNDS_URL.isEmpty()) {
+            String betaBaseUrl = ensureTrailingSlash(BetaConfig.BETA_SOUNDS_URL);
+            LOGGER.info("Using beta sounds base URL");
+            return betaBaseUrl;
+        }
+        LOGGER.info("Using default sounds base URL: {}", DEFAULT_BASE_URL);
+        return DEFAULT_BASE_URL;
+    }
+
+    private static String ensureTrailingSlash(String baseUrl) {
+        return baseUrl.endsWith("/") ? baseUrl : baseUrl + "/";
+    }
 
     private String getManifestUrl() {
         return ModCore.config.azureBlobRootLink + "audio_manifest.json";
@@ -147,7 +164,7 @@ public class AudioDownloader {
      * @param toDownload The list of file names to be downloaded.
      */
     private void StartDownloadQueue(List<String> toDownload) {
-        DownloadQueue downloadQueue = new DownloadQueue(audioDir, BASE_URL, toDownload.size());
+        DownloadQueue downloadQueue = new DownloadQueue(audioDir, getEffectiveBaseUrl(), toDownload.size());
 
         List<DownloadTask> tasks = new ArrayList<>(
                 toDownload.stream().map(id -> new DownloadTask(id, 1)).toList());
