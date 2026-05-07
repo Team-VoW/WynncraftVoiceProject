@@ -6,6 +6,7 @@ package com.wynnvp.wynncraftvp;
 
 import com.wynnvp.wynncraftvp.commands.DebugCommand;
 import com.wynnvp.wynncraftvp.commands.VowLogCommand;
+import com.wynnvp.wynncraftvp.config.ConfigFileRecovery;
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import com.wynnvp.wynncraftvp.core.Managers;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
@@ -15,6 +16,8 @@ import com.wynnvp.wynncraftvp.sound.downloader.AudioDownloader;
 import com.wynnvp.wynncraftvp.sound.downloader.ToastManager;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.text.OverlayHandler;
+import java.io.IOException;
+import java.nio.file.Path;
 import java.util.Optional;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
@@ -69,6 +72,7 @@ public class ModCore implements ModInitializer {
 
         isUsingClothApi = FabricLoader.getInstance().isModLoaded("cloth-config");
 
+        recoverCorruptedConfig();
         AutoConfig.register(VOWAutoConfig.class, Toml4jConfigSerializer::new);
         config = AutoConfig.getConfigHolder(VOWAutoConfig.class).getConfig();
 
@@ -115,5 +119,18 @@ public class ModCore implements ModInitializer {
 
     public String getVersion() {
         return version;
+    }
+
+    private static void recoverCorruptedConfig() {
+        Path configPath = FabricLoader.getInstance().getConfigDir().resolve(MODID + ".toml");
+        try {
+            if (ConfigFileRecovery.quarantineIfNullByteCorrupted(configPath)) {
+                LOGGER.warn(
+                        "Found a corrupted Voices of Wynn config at {} and moved it aside. A new default config will be created.",
+                        configPath);
+            }
+        } catch (IOException e) {
+            LOGGER.warn("Failed to check Voices of Wynn config for corruption before loading it.", e);
+        }
     }
 }
