@@ -1,79 +1,119 @@
 /*
- * Copyright © Team-VoW 2025.
+ * Copyright © Team-VoW 2025-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.downloader;
 
-import java.text.DecimalFormat;
+import com.wynnvp.wynncraftvp.ModCore;
+import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.components.toasts.SystemToast;
+import net.minecraft.client.gui.Font;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.gui.components.toasts.Toast;
+import net.minecraft.client.gui.components.toasts.ToastManager;
+import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.resources.Identifier;
+import org.jspecify.annotations.NonNull;
 
-public class DownloadProgressToast {
-    private final Minecraft client;
-    private Component title;
-    private int count;
-    private final int totalAmount;
-    private int failedAmount;
+import java.util.concurrent.atomic.AtomicInteger;
 
-    private final SystemToast.SystemToastId toastId;
+public class DownloadProgressToast implements Toast {
+    private static final Identifier BACKGROUND_SPRITE =
+            Identifier.fromNamespaceAndPath(ModCore.MODID, "toast/download");
+    private static final Identifier LOGO_SPRITE = Identifier.fromNamespaceAndPath(ModCore.MODID, "logo");
+    private static final Identifier EXPERIENCE_BAR_BACKGROUND_SPRITE =
+            Identifier.fromNamespaceAndPath(ModCore.MODID,"toast/experience_bar_background");
+    private static final Identifier EXPERIENCE_BAR_PROGRESS_SPRITE =
+            Identifier.fromNamespaceAndPath(ModCore.MODID,"toast/experience_bar_progress");
+    private static final Component TITLE_COMPONENT =
+            Component.translatable("text.toast.downloadProgress.title").withStyle(ChatFormatting.YELLOW);
 
-    public DownloadProgressToast(Minecraft client, String title, int totalAmount) {
-        this.client = client; // Use the provided Minecraft instance
-        this.toastId = new SystemToast.SystemToastId();
-        this.title = Component.literal(title);
-        this.totalAmount = totalAmount;
+    private volatile Toast.Visibility visibility = Visibility.HIDE;
+
+    private final AtomicInteger currentAmount = new AtomicInteger(0);
+    private final AtomicInteger failedAmount = new AtomicInteger(0);
+    private final int maxAmount;
+
+    public DownloadProgressToast(int maxAmount) {
+        this.maxAmount = maxAmount;
+        Minecraft.getInstance().getToastManager().addToast(this);
+        visibility = Visibility.SHOW;
     }
 
-    /**
-     * Updates or adds a progress toast.
-     */
-    private synchronized void updateToast() {
-        // Cast to float to avoid integer division and format to a maximum of two decimal places
-        float percent = ((float) count / totalAmount) * 100;
-        DecimalFormat decimalFormat = new DecimalFormat("#.##");
-        String formattedPercent = decimalFormat.format(percent);
-
-        String toastMessage = "Progress: " + count + " / " + totalAmount;
-        // If there are failed downloads, add that to the toast message
-        toastMessage += failedAmount > 0 ? " (" + failedAmount + " failed)" : "";
-
-        // Component displayMessage = Component.literal("Progress: " + count + " / " + totalAmount + " (" +
-        // formattedPercent + "%)");
-        Component displayMessage = Component.literal(toastMessage);
-
-        SystemToast.addOrUpdate(client.getToastManager(), this.toastId, this.title, displayMessage);
+    @Override
+    public @NonNull Visibility getWantedVisibility() {
+        return visibility;
     }
 
-    public synchronized void requestFinished() {
-        SystemToast.forceHide(client.getToastManager(), this.toastId);
+    @Override
+    public int width() {
+        int titleWidth = Minecraft.getInstance().font.width(TITLE_COMPONENT);
+        int progressWidth = Minecraft.getInstance().font.width(progressComponent());
+        if (titleWidth >= progressWidth) {
+            return 30 + titleWidth;
+        }
+        return 30 + progressWidth;
     }
 
-    /**
-     * Set the title of the progress listener.
-     */
-    public synchronized void setTitle(Component title) {
-        this.title = title;
-        updateToast();
+    @Override
+    public void update(@NonNull ToastManager toastManager, long visibilityTime) {}
+
+    @Override
+    public void render(GuiGraphics guiGraphics, @NonNull Font font, long visibilityTime) {
+        guiGraphics.blitSprite(RenderPipelines.GUI_TEXTURED, BACKGROUND_SPRITE, 0, 0, width(), height());
+        guiGraphics.blitSprite(RenderPipelines.GUI_TEXTURED, LOGO_SPRITE, width()-26, 5, 22, 22, 0.4f);
+        guiGraphics.drawString(font, TITLE_COMPONENT, 8, 5, -1);
+        guiGraphics.drawString(font, progressComponent(), 8, 14, -1);
+        guiGraphics.blitSprite(RenderPipelines.GUI_TEXTURED, EXPERIENCE_BAR_BACKGROUND_SPRITE, 6, 23, width() - 12, 5);
+        if (getCombinedAmount() != 0) {
+            guiGraphics.blitSprite(
+                    RenderPipelines.GUI_TEXTURED,
+                    EXPERIENCE_BAR_PROGRESS_SPRITE,
+                    width() - 12,
+                    5,
+                    0,
+                    0,
+                    6,
+                    23,
+                    (int) ((width() - 12) * getProgress()),
+                    5);
+        }
     }
 
-    /**
-     * Update progress.
-     *
-     * @param count The number of files downloaded
-     */
-    public synchronized void updateProgress(int count) {
-        this.count = count;
-        updateToast();
+    private Component progressComponent() {
+        MutableComponent component = Component.translatable(
+                "text.toast.downloadProgress.progress",
+                getCombinedAmount(),
+                maxAmount,
+                Math.round(getProgress() * 1000) / 10f);
+        if (failedAmount.get() != 0) {
+            component.append(" ")
+                    .append(Component.translatable("text.toast.downloadProgress.failed", failedAmount)
+                            .withStyle(ChatFormatting.RED));
+        }
+        return component;
     }
 
-    public synchronized void increaseCount() {
-        this.count++;
-        updateToast();
+    private int getCombinedAmount() {
+        return currentAmount.get() + failedAmount.get();
     }
 
-    public synchronized void addFailed() {
-        this.failedAmount++;
-        updateToast();
+    private float getProgress() {
+        if (maxAmount <= 0) return 1;
+        return (float) getCombinedAmount() / maxAmount;
+    }
+
+    public void increaseCount() {
+        this.currentAmount.incrementAndGet();
+    }
+
+    public void addFailed() {
+        this.failedAmount.incrementAndGet();
+    }
+
+    public void requestFinished() {
+        this.visibility = Visibility.HIDE;
     }
 }
