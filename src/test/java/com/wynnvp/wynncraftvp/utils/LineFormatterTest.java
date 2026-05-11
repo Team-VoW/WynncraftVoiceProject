@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 class LineFormatterTest {
     // Processing order inside formatToLineData:
     //   1. trim()
-    //   2. replace smart quotes with ASCII equivalents
+    //   2. remove quote characters
     //   3. HTTPEncode (URLEncoder.encode) — percent-encodes non-ASCII and special chars
     //   4. toLowerCase
     //   5. strip §[0-9a-r] sequences (but § is already encoded by step 3, so this is a no-op)
@@ -48,19 +48,33 @@ class LineFormatterTest {
     }
 
     @Test
-    void smartSingleQuoteNormalizedThenEncoded() {
-        // '\u2019' → '\'' via explicit replace, then '\'' → '%27' via HTTPEncode,
-        // then '%' stripped → '27' remains (digits are in allowed set)
-        LineData result = LineFormatter.formatToLineData("It\u2019s fine");
-        assertEquals("it27sfine", result.getSoundLine());
+    void quotesAreIgnoredBeforeEncoding() {
+        LineData result = LineFormatter.formatToLineData("\"Hello\" 'world' \u201CHi\u201D \u2018there\u2019");
+        assertEquals("helloworldhithere", result.getSoundLine());
     }
 
     @Test
-    void smartDoubleQuoteNormalizedThenEncoded() {
-        // '\u201C' (open smart quote) → '"' via explicit replace → '%22' → '22'
-        // '\u201D' (close smart quote) not replaced → its UTF-8 bytes (E2 80 9D) encoded → 'e2809d'
+    void quoteStylesProduceSameKey() {
+        String asciiDouble = LineFormatter.formatToLineData("Lecade: Mister \"Gren\" needs help").getSoundLine();
+        String smartDouble = LineFormatter.formatToLineData("Lecade: Mister \u201CGren\u201D needs help").getSoundLine();
+        String closingSmartDouble = LineFormatter.formatToLineData("Lecade: Mister \u201DGren\u201D needs help").getSoundLine();
+        String doubledSingle = LineFormatter.formatToLineData("Lecade: Mister ''Gren'' needs help").getSoundLine();
+
+        assertEquals(asciiDouble, smartDouble);
+        assertEquals(asciiDouble, closingSmartDouble);
+        assertEquals(asciiDouble, doubledSingle);
+    }
+
+    @Test
+    void smartSingleQuoteIgnored() {
+        LineData result = LineFormatter.formatToLineData("It\u2019s fine");
+        assertEquals("itsfine", result.getSoundLine());
+    }
+
+    @Test
+    void smartDoubleQuoteIgnored() {
         LineData result = LineFormatter.formatToLineData("\u201CHello\u201D");
-        assertEquals("22helloe2809d", result.getSoundLine());
+        assertEquals("hello", result.getSoundLine());
     }
 
     @Test

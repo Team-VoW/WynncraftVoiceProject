@@ -15,8 +15,10 @@ public class LineFormatter {
         message = message.trim();
         lineData.setRealLine(message);
 
-        message = message.replace("’", "'");
-        message = message.replace("“", "\"");
+        // Wynncraft is inconsistent about quote glyphs in overlay text vs sounds.json.
+        // Ignore quote characters before URL encoding so ASCII, smart quotes, and doubled
+        // single-quote placeholders all resolve to the same sound key.
+        message = message.replaceAll("[\"'‘’“”]", "");
 
         message = HTTPEncode(message);
 
