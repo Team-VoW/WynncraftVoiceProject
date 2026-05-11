@@ -56942,7 +56942,8 @@
   },
   {
     "line": "Paxon: This job is impossible!! Why am I even here?!",
-    "file": "ajourneyhome-paxon-1"
+    "file": "ajourneyhome-paxon-1",
+    "reverb": "CAVE"
   },
   {
     "line": "Lieutenant Tolv: Ah! You're a soldier, right? Look, I- It's, it's just a really difficult time right now.",
@@ -56990,63 +56991,78 @@
   },
   {
     "line": "Paxon: Oh no, not another one- I don't care what rank you are, what you're asking is impossible! Even for me, it-",
-    "file": "ajourneyhome-paxon-2"
+    "file": "ajourneyhome-paxon-2",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: Wait, you aren't part of the... You're just a regular soldier. You're just trying to get through here, aren't you?",
-    "file": "ajourneyhome-paxon-3"
+    "file": "ajourneyhome-paxon-3",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: May as well give up now! Not happening. No way. You're wasting your time, and let me tell you exactly why.",
-    "file": "ajourneyhome-paxon-4"
+    "file": "ajourneyhome-paxon-4",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: You see that blue rock over there? It's a break point. If I could set off these explosives at it, it'd open a path.",
-    "file": "ajourneyhome-paxon-5"
+    "file": "ajourneyhome-paxon-5",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: But apparently all these structures set up are so important that any of it being damaged, or MOVED, is unacceptable!",
-    "file": "ajourneyhome-paxon-6"
+    "file": "ajourneyhome-paxon-6",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: And to make sure I'm 'supervised' while the Lieutenant is working on the drill, the detonator HAS to be here.",
-    "file": "ajourneyhome-paxon-7"
+    "file": "ajourneyhome-paxon-7",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: So I have to daisy-chain a limited amount of explosives all the way over to the stone, without blasting any structures!",
-    "file": "ajourneyhome-paxon-8"
+    "file": "ajourneyhome-paxon-8",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: I've been trying for hours and gotten absolutely nowhere! I'm one of the best in my field, even! It's ridiculous!!",
-    "file": "ajourneyhome-paxon-9"
+    "file": "ajourneyhome-paxon-9",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: If you feel like wasting your time, here's my stock of explosives. Feel free to try your hand at it, but you should really just go.",
-    "file": "ajourneyhome-paxon-10"
+    "file": "ajourneyhome-paxon-10",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: Still at it? What, do you need a reminder? I've got nothing better to do.",
-    "file": "ajourneyhome-paxon-11"
+    "file": "ajourneyhome-paxon-11",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: Like I said, you really should just mosey on back to the castle. If I can't get anywhere, I don't think you'll fare better.",
-    "file": "ajourneyhome-paxon-12"
+    "file": "ajourneyhome-paxon-12",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: So the blue rock is soft enough to crack through with the explosives. But the detonator's stuck here.",
-    "file": "ajourneyhome-paxon-13"
+    "file": "ajourneyhome-paxon-13",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: So we need to use the TNT Placer to daisy-chain blasts from the detonator, without blasting any tents, crates, or walls.",
-    "file": "ajourneyhome-paxon-14"
+    "file": "ajourneyhome-paxon-14",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: You can look at placed TNT to see its blast radius, as well.",
-    "file": "ajourneyhome-paxon-15"
+    "file": "ajourneyhome-paxon-15",
+    "reverb": "CAVE"
   },
   {
     "line": "Paxon: But given how tight the squeeze between some of those structures is, there's just no way it's happening.",
-    "file": "ajourneyhome-paxon-16"
+    "file": "ajourneyhome-paxon-16",
+    "reverb": "CAVE"
   },
   {
     "line": "Guard: Where did you come from?!",
@@ -57271,5 +57287,1090 @@
   {
     "line": "Commander Lilles: You really thought the Driver was on your side, intruder? What a fool you are. We gave you every chance to quit this endeavor, but here you are. Let's go.",
     "file": "ajourneyhome-commanderlilles-1"
+  },
+  {
+    "line": "Kaio: Mmn... So, you're cursed, then?",
+    "file": "anewbeginning-kaio-1"
+  },
+  {
+    "line": "Kaio: Hm... I guess not, thinking on it now. A few years ago, had you asked, I'd've probably said yes. But I don't got the strength in me for it anymore.",
+    "file": "anewbeginning-kaio-2"
+  },
+  {
+    "line": "Kaio: It's good your arrival has given Syndra and the younger ones some hope, for once. We've been a bit, eh... lacking in it lately.",
+    "file": "anewbeginning-kaio-3"
+  },
+  {
+    "line": "Kaio: I've got no such delusions, unfortunately. I reckon this path only ends in tragedy. But it's not my place to say so, so I don't.",
+    "file": "anewbeginning-kaio-4"
+  },
+  {
+    "line": "Kaio: Would be good to be proven wrong... but I don't think I will be. I've seen this sorta thing before.",
+    "file": "anewbeginning-kaio-5"
+  },
+  {
+    "line": "Kaio: ...what? I got nothin' else to say.",
+    "file": "anewbeginning-kaio-6"
+  },
+  {
+    "line": "Kaio: Interesting that you're drawn to that grave in particular. S'our latest loss, that'n there.",
+    "file": "anewbeginning-kaio-7"
+  },
+  {
+    "line": "Kaio: It's a damn shame. A tragedy each 'n every time, yet still happens often enough to feel routine. But that's life, I reckon.",
+    "file": "anewbeginning-kaio-8"
+  },
+  {
+    "line": "Kaio: ...did you now? Funny thing to say about a dead man, considering I ain't ever seen you 'round these parts before.",
+    "file": "anewbeginning-kaio-9"
+  },
+  {
+    "line": "Kaio: Now, spill. 'Fore I go and tell Synny you ain't no good after all.",
+    "file": "anewbeginning-kaio-10"
+  },
+  {
+    "line": "Kaio: Ah... caught Rex muttering something 'bout that once or twice before. Poor girl... it'd do her well to set it aside, for a time.",
+    "file": "anewbeginning-kaio-11"
+  },
+  {
+    "line": "Kaio: Didn't think much of it, but I suppose you're livin' proof, aren'tcha? Strange as can be...",
+    "file": "anewbeginning-kaio-12"
+  },
+  {
+    "line": "Kaio: Say, is the memory wipin' a real thing? Got no damn clue where *that* theory started, but... well, if one thing's true, why not the rest?",
+    "file": "anewbeginning-kaio-13"
+  },
+  {
+    "line": "Kaio: Damn. Damn. That's rough. That's real rough, ain't it. And you're tellin' me that's where he ended up?",
+    "file": "anewbeginning-kaio-14"
+  },
+  {
+    "line": "Kaio: Hrm... y'know, it's funny. Big guy like him, you wouldn't take him for a thief. Hard to keep hidden, eh? And yet...",
+    "file": "anewbeginning-kaio-15"
+  },
+  {
+    "line": "Kaio: He'd managed to turn blending into a crowd into an art. No matter where he was, who he spoke to, how he was actin', he'd always seem like he fit right in.",
+    "file": "anewbeginning-kaio-16"
+  },
+  {
+    "line": "Kaio: ...t'was a right stupid risk that did him in, in the end. I told him, I did- it ain't worth breaking into the Sovereign's place, especially not during festival times...",
+    "file": "anewbeginning-kaio-17"
+  },
+  {
+    "line": "Kaio: But he was the kinda sort to dig in his heels. Said he'd be fine, said it'd be worth it, nabbin' all those documents. Something to help the cause... I hardly even remember now.",
+    "file": "anewbeginning-kaio-18"
+  },
+  {
+    "line": "Kaio: Can't save 'em all. Especially not from themselves. I've learned that many times over, over my years.",
+    "file": "anewbeginning-kaio-19"
+  },
+  {
+    "line": "Kaio: So he got caught. Heard a cursed one got involved... was a whole damn mess. Sovereign really wasn't happy with Synny when he heard, let me tell you. Ain't seen her that shellshocked in years.",
+    "file": "anewbeginning-kaio-20"
+  },
+  {
+    "line": "Kaio: ...but you're sayin' he lived? How's that all work out?",
+    "file": "anewbeginning-kaio-21"
+  },
+  {
+    "line": "Kaio: Ah. I see. I... see.",
+    "file": "anewbeginning-kaio-22"
+  },
+  {
+    "line": "Kaio: Well... tell me this, then. Was he happy, you think? Out there in the wider world? Did he live a good life?",
+    "file": "anewbeginning-kaio-23"
+  },
+  {
+    "line": "Kaio: ...alright. Alrighty. Good. That- that's good, y'hear. I... I'm glad for that much.",
+    "file": "anewbeginning-kaio-24"
+  },
+  {
+    "line": "Kaio: ...",
+    "file": "anewbeginning-kaio-25"
+  },
+  {
+    "line": "Kaio: Thank you for... for tellin' me all that. S'not a tale that ends in happiness, but I reckon so long as he made the most of it... that's all you can really hope for.",
+    "file": "anewbeginning-kaio-26"
+  },
+  {
+    "line": "Kaio: Y'may as well leave me be a while, now. Got some thinkin' to get through.",
+    "file": "anewbeginning-kaio-27"
+  },
+  {
+    "line": "Kaio: Mmn. Hey there, stranger.",
+    "file": "anewbeginning-kaio-28"
+  },
+  {
+    "line": "Kaio: Anythin' I can help you with?",
+    "file": "anewbeginning-kaio-29"
+  },
+  {
+    "line": "Kaio: Hm. Suppose there's no harm. But watch yourself, alright?",
+    "file": "anewbeginning-kaio-30"
+  },
+  {
+    "line": "Kaio: This here's our home. I wouldn't take too kindly to you messin' anything up, understand?",
+    "file": "anewbeginning-kaio-31"
+  },
+  {
+    "line": "Kaio: ...doin' alright, all things considered. Weather's nice, I suppose. Festival comin' up.",
+    "file": "anewbeginning-kaio-32"
+  },
+  {
+    "line": "Kaio: But that ain't none of your business, really. If you didn't need anythin' else, I'll kindly ask you to take your leave.",
+    "file": "anewbeginning-kaio-33"
+  },
+  {
+    "line": "Kaio: Hm. Good. Have a nice day, now.",
+    "file": "anewbeginning-kaio-34"
+  },
+  {
+    "line": "Mora: Hmm? And who  may you be?",
+    "file": "anewbeginning-mora-1"
+  },
+  {
+    "line": "Mora: Hoh, oh well. Might I help you with something?",
+    "file": "anewbeginning-mora-2"
+  },
+  {
+    "line": "Mora: Ah, completing some assorted metalworking projects. There always seems to be something to replace or maintain around here...",
+    "file": "anewbeginning-mora-3"
+  },
+  {
+    "line": "Mora: Though, I am certainly no expert! But I can handle the tools well enough, and that is all that is needed for the task.",
+    "file": "anewbeginning-mora-4"
+  },
+  {
+    "line": "Mora: Farewell, stranger! I hope that you will return home safely.",
+    "file": "anewbeginning-mora-5"
+  },
+  {
+    "line": "Espren Border Guard: Halt! I'll need to see some form of identification.",
+    "file": "anewbeginning-esprenborderguard-1"
+  },
+  {
+    "line": "Espren City Guard: New policy, sorry for the inconvenience. We're heightening security around here.",
+    "file": "anewbeginning-esprencityguard-1"
+  },
+  {
+    "line": "Espren City Guard: It shouldn't take too much of your time, don't worry! Just show us your citizen identification papers, and we'll let you on through.",
+    "file": "anewbeginning-esprencityguard-2"
+  },
+  {
+    "line": "Espren City Guard: Yep! All good.",
+    "file": "anewbeginning-esprencityguard-3"
+  },
+  {
+    "line": "Espren Border Guard: ...",
+    "file": "anewbeginning-esprenborderguard-2"
+  },
+  {
+    "line": "Espren Border Guard: What's taking so long? It can't be that hard to find those. You should have them on your person at all times.",
+    "file": "anewbeginning-esprenborderguard-3"
+  },
+  {
+    "line": "Espren City Guard: It's a very new restriction. There was some incident nearby. I'm not sure on the details, but-",
+    "file": "anewbeginning-esprencityguard-4"
+  },
+  {
+    "line": "Espren Border Guard: Enough stalling. Where are your papers?",
+    "file": "anewbeginning-esprenborderguard-4"
+  },
+  {
+    "line": "Espren Border Guard: If you don't present identification, I'm going to need to take you in for questioning.",
+    "file": "anewbeginning-esprenborderguard-5"
+  },
+  {
+    "line": "???: O-oh, hey, th-there you are! Gosh, I was w-wondering where you'd gotten off to!",
+    "file": "anewbeginning-zeph-1"
+  },
+  {
+    "line": "???: Ha... d-don't tell me you forgot your papers again! I k-keep telling you to keep th-them with you...",
+    "file": "anewbeginning-zeph-2"
+  },
+  {
+    "line": "???: One of th-these days, you'll remember! F-for sure...",
+    "file": "anewbeginning-zeph-3"
+  },
+  {
+    "line": "???: You d-didn't forget our conversation too, d-did you? S-s-sorry for my friend, sir!",
+    "file": "anewbeginning-zeph-4"
+  },
+  {
+    "line": "Espren Border Guard: Ahem. I'll still need to see identification if you want to enter the city.",
+    "file": "anewbeginning-esprenborderguard-6"
+  },
+  {
+    "line": "???: Oh! O-o-of course! L-let me just...",
+    "file": "anewbeginning-zeph-5"
+  },
+  {
+    "line": "???: ...They're a-around here s-s-somewhere, I'm s-sure... I think they m-might be-",
+    "file": "anewbeginning-zeph-6"
+  },
+  {
+    "line": "???: Aha! Here! Identification p-papers, just for y-you!",
+    "file": "anewbeginning-zeph-7"
+  },
+  {
+    "line": "Espren Border Guard: ...What even is this? I can barely read the handwriting... Is that Sovereign Selium's signature? The previous sovereign?",
+    "file": "anewbeginning-esprenborderguard-7"
+  },
+  {
+    "line": "Espren Border Guard: I've had enough of these games. The two of you are under-",
+    "file": "anewbeginning-esprenborderguard-8"
+  },
+  {
+    "line": "Espren Guard Captain: You two! Make room!",
+    "file": "anewbeginning-esprenguardcaptain-1"
+  },
+  {
+    "line": "Espren City Guard: Y-yessir! What's going on?",
+    "file": "anewbeginning-esprencityguard-5"
+  },
+  {
+    "line": "Espren Guard Captain: We've received more information about the incident at Fort Torann. There's a new cursed one to look out for. Dozens of soldiers were killed in an attempt to capture them.",
+    "file": "anewbeginning-esprenguardcaptain-2"
+  },
+  {
+    "line": "Espren Guard Captain: We're taking reinforcements to the fort, but I need you to remain at your posts. Keep a watchful eye on any suspicious individuals.",
+    "file": "anewbeginning-esprenguardcaptain-3"
+  },
+  {
+    "line": "Zeph: ...Th-this might be a good time to run. While they're distracted! Quick, f-follow me!",
+    "file": "anewbeginning-zeph-8"
+  },
+  {
+    "line": "Espren Border Guard: Understood. Now, back to- where did they go?!",
+    "file": "anewbeginning-esprenborderguard-9"
+  },
+  {
+    "line": "???: Phew... G-glad we got out of there...",
+    "file": "anewbeginning-zeph-9"
+  },
+  {
+    "line": "???: A-anyway. What were you th-thinking? Trying to enter the city without p-papers...",
+    "file": "anewbeginning-zeph-10"
+  },
+  {
+    "line": "???: You're n-new around here, right? Transferred in f-from elsewhere. Y-you're interesting, though.",
+    "file": "anewbeginning-zeph-11"
+  },
+  {
+    "line": "???: Um. The thing at T-Torann... you w-wouldn't happen to-... n-n-nevermind. I don't need to know!",
+    "file": "anewbeginning-zeph-12"
+  },
+  {
+    "line": "???: But, if y-you're interested... The military k-keeps records of these sorts of things! Th-they want a paper trail... or s-something.",
+    "file": "anewbeginning-zeph-13"
+  },
+  {
+    "line": "???: You d-didn't hear this from me... but the l-leaves have whispered something about th-the location of a record storage. Here, hand me that b-book of yours...",
+    "file": "anewbeginning-zeph-14"
+  },
+  {
+    "line": "Zeph: Well, good luck s-stranger! If anyone asks, we never m-met. But, um... y-you can call me Zeph.",
+    "file": "anewbeginning-zeph-15"
+  },
+  {
+    "line": "Zeph: W-we never met, remember?",
+    "file": "anewbeginning-zeph-16"
+  },
+  {
+    "line": "Nixeph Watchman: ...I'm just saying, it's weird. Nothing like this has ever-",
+    "file": "anewbeginning-nixephwatchman1-1"
+  },
+  {
+    "line": "Nixeph Watchman: Wait. You- who are you? Access is strictly forbidden, under orders of the Sovereign!",
+    "file": "anewbeginning-nixephwatchman2-1"
+  },
+  {
+    "line": "Nixeph Watchman: HALT! Intruder! For trespassing on restricted property, you are under-",
+    "file": "anewbeginning-nixephwatchman1-2"
+  },
+  {
+    "line": "Nixeph Watchman: Wait, a suspicious person in the region- is this the cursed one?! Get them!!",
+    "file": "anewbeginning-nixephwatchman2-2"
+  },
+  {
+    "line": "Nixeph Watchman: They're after... Sovereign Zhiraok... D-don't...y...you...",
+    "file": "anewbeginning-nixephwatchman1-3"
+  },
+  {
+    "line": "Sovereign Zhiraok: Well? You've crunched the numbers. Give me the report.",
+    "file": "anewbeginning-sovereignzhiraok-1"
+  },
+  {
+    "line": "Espren Guard Captain: Sovereign, sir. It seems Fort Torann was not prepared to directly face a cursed one. Dozens of soldiers are dead.",
+    "file": "anewbeginning-esprenguardcaptain-4"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...of all the possibilities. How could that have factored out...? Hm. Who was the commanding officer? Their take on the problem would help fill the gaps.",
+    "file": "anewbeginning-sovereignzhiraok-2"
+  },
+  {
+    "line": "Espren Guard Captain: Well... it seems it was Commander Lilles, sir. But he was one of the casualties of the incident, and a replacement has yet to be promoted.",
+    "file": "anewbeginning-esprenguardcaptain-5"
+  },
+  {
+    "line": "Sovereign Zhiraok: Naturally... I'll need to get hold of his family later and break the news. What else do you have on the Cursed One?",
+    "file": "anewbeginning-sovereignzhiraok-3"
+  },
+  {
+    "line": "Espren Guard Captain: I've heard reports that they're... from outside. Possibly one of the ones who were invited into our province recently, though nobody seems certain on that.",
+    "file": "anewbeginning-esprenguardcaptain-6"
+  },
+  {
+    "line": "Espren Guard Captain: We've already raised security in Espren, and we have forces moving to Torann.",
+    "file": "anewbeginning-esprenguardcaptain-7"
+  },
+  {
+    "line": "Sovereign Zhiraok: One positive in a sea of negatives, I suppose. Good work. File the report in the records room, and then we'll go view the damages for ourselves.",
+    "file": "anewbeginning-sovereignzhiraok-4"
+  },
+  {
+    "line": "Espren Guard Captain: One more thing. Since Torann is compromised, we've taken the liberty of storing the cursed one's report here, so-",
+    "file": "anewbeginning-esprenguardcaptain-8"
+  },
+  {
+    "line": "Sovereign Zhiraok: Do we not have a higher priority right now?!",
+    "file": "anewbeginning-sovereignzhiraok-5"
+  },
+  {
+    "line": "Espren Guard Captain: ...N-n-no, sir. My- my apologies. I simply thought-",
+    "file": "anewbeginning-esprenguardcaptain-9"
+  },
+  {
+    "line": "Sovereign Zhiraok: I have a dozen and a half other problems to solve that need to be pushed back- oh, would you put away the key already?",
+    "file": "anewbeginning-sovereignzhiraok-6"
+  },
+  {
+    "line": "Sovereign Zhiraok: We haven't got time to sit around like this when there's a tragedy of that value to look into! We need to get to Fort Torann, yesterday!",
+    "file": "anewbeginning-sovereignzhiraok-7"
+  },
+  {
+    "line": "???: Guards! Return to your stations!",
+    "file": "anewbeginning-esprenguardcaptain-10"
+  },
+  {
+    "line": "???: Someone's been here... search the outpost, quickly!",
+    "file": "anewbeginning-esprenguardcaptain-11"
+  },
+  {
+    "line": "???: H-hold tight!",
+    "file": "anewbeginning-zeph-17"
+  },
+  {
+    "line": "Zeph: H-hey again, at the w-window! Tough s-situation, huh?",
+    "file": "anewbeginning-zeph-18"
+  },
+  {
+    "line": "Zeph: I f-figured you could use a hand... Stand back a m-moment.",
+    "file": "anewbeginning-zeph-19"
+  },
+  {
+    "line": "Zeph: Rex! The r-rope!",
+    "file": "anewbeginning-zeph-20"
+  },
+  {
+    "line": "Zeph: I-I'll be down in a bit. Just h-hold on tight to the rope, and you'll be f-fine!",
+    "file": "anewbeginning-zeph-21"
+  },
+  {
+    "line": "Zeph: Phew! W-we got you out. G-good work back there, though!",
+    "file": "anewbeginning-zeph-22"
+  },
+  {
+    "line": "Rex: Good enough, I guess.",
+    "file": "anewbeginning-rex-1"
+  },
+  {
+    "line": "Zeph: D-don't mind her, she's just like that. Rex, this is-",
+    "file": "anewbeginning-zeph-23"
+  },
+  {
+    "line": "Rex: The stranger you found trying to get into Espren without identification, I know. Do you really need me here still?",
+    "file": "anewbeginning-rex-2"
+  },
+  {
+    "line": "Zeph: ...I-I-I'd like it if you s-stayed, yes.",
+    "file": "anewbeginning-zeph-24"
+  },
+  {
+    "line": "Rex: Hmph.",
+    "file": "anewbeginning-rex-3"
+  },
+  {
+    "line": "Zeph: Um... I- I don't think I c-c-caught your name.",
+    "file": "anewbeginning-zeph-25"
+  },
+  {
+    "line": "Zeph: soldier... so, wh-where are you from? Y-you must've transferred in from an-another region, right?",
+    "file": "anewbeginning-zeph-26"
+  },
+  {
+    "line": "Zeph: Another... um... wh-what do you-... you d-don't know?",
+    "file": "anewbeginning-zeph-27"
+  },
+  {
+    "line": "Rex: Obviously they're not from here, Zeph! Remember that thing I told you about? The big spectacle event they had with people from beyond the gates?",
+    "file": "anewbeginning-rex-4"
+  },
+  {
+    "line": "Zeph: You w-w-what?! But, there's- th-that's not possible...",
+    "file": "anewbeginning-zeph-28"
+  },
+  {
+    "line": "Rex: Possible or not, they're obviously from outside the province! They're probably involved with that big spectacle event with people from beyond the gates that I was telling you about.",
+    "file": "anewbeginning-rex-5"
+  },
+  {
+    "line": "Zeph: ...I th-thought you were m-making things up again.",
+    "file": "anewbeginning-zeph-29"
+  },
+  {
+    "line": "Rex: Excuse you? I don't make things up! You can ask Mora, he saw it too.",
+    "file": "anewbeginning-rex-6"
+  },
+  {
+    "line": "Zeph: If you s-say so... I just- I-I-I thought there were no p-people left out there. The c-crown keeps a whole g-garrison stationed to f-fight off... um... m-m-monsters.",
+    "file": "anewbeginning-zeph-30"
+  },
+  {
+    "line": "Rex: And you believed that? Really?",
+    "file": "anewbeginning-rex-7"
+  },
+  {
+    "line": "Zeph: Wh- I d-don't know! It s-s-sounded believable to me!",
+    "file": "anewbeginning-zeph-31"
+  },
+  {
+    "line": "Rex: Ugh, whatever! I don't have time for this, Zeph, I have work to do. Just... stay on your guard. I don't trust whatever's going on with this stranger.",
+    "file": "anewbeginning-rex-8"
+  },
+  {
+    "line": "Zeph: ..."
+  },
+  {
+    "line": "Zeph: She's- um... she's n-not normally like this. S-sorry about that.",
+    "file": "anewbeginning-zeph-33"
+  },
+  {
+    "line": "Zeph: O-Oh! I f-followed you, of course.",
+    "file": "anewbeginning-zeph-34"
+  },
+  {
+    "line": "Zeph: A s-stranger comes to our region without p-papers and is supposedly a c-cursed one? I wasn't letting you go th-that easily!",
+    "file": "anewbeginning-zeph-35"
+  },
+  {
+    "line": "Zeph: B-besides! I had s-something I needed to get from... f-from the outpost, anyway.",
+    "file": "anewbeginning-zeph-36"
+  },
+  {
+    "line": "Zeph: O-Oh! N-no problem! It was... it w-was nothing. Y-you did most of the work.",
+    "file": "anewbeginning-zeph-37"
+  },
+  {
+    "line": "Zeph: N-Nixeph is... n-not an easy place to break into! I g-guess all the guards were gone...",
+    "file": "anewbeginning-zeph-38"
+  },
+  {
+    "line": "Zeph: But, um... y-you got what you needed, and I got what I- what I needed, s-so...",
+    "file": "anewbeginning-zeph-39"
+  },
+  {
+    "line": "Zeph: Um... th-there is someone you should meet. I was told to pass on a m-message...",
+    "file": "anewbeginning-zeph-40"
+  },
+  {
+    "line": "Zeph: And- and you'll be on y-your own this time. N-no help from me!",
+    "file": "anewbeginning-zeph-41"
+  },
+  {
+    "line": "Zeph: The m-message is: w-westward, the giant lays its roots. As the wind blows, they s-sing along.",
+    "file": "anewbeginning-zeph-42"
+  },
+  {
+    "line": "???: Well, well. If it isn't a fresh breeze dancing in the leaves...",
+    "file": "anewbeginning-syndra-1",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "???: You must be the Cursed One who caused such a stir at Torann, yes? News has spread quickly of your actions.",
+    "file": "anewbeginning-syndra-2",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "???: I'm impressed you found your way to me.",
+    "file": "anewbeginning-syndra-3",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "???: So let's get to the business at hand. I'll start with this - you're from the Wynn Province, aren't you?",
+    "file": "anewbeginning-syndra-4",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "???: I thought so... You're certainly not from around here. Though, I would recommend you keep that information close to your chest.",
+    "file": "anewbeginning-syndra-5",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "???: Very few people have knowledge of the outside world, and those that do... they're the ones who will be looking for you. Best to avoid drawing their attention.",
+    "file": "anewbeginning-syndra-6",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: But I should introduce myself. My name is Syndra, leader of the Leaves in the Wind resistance group.",
+    "file": "anewbeginning-syndra-7",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Call it something of a gamble. Given your... shall we say, explosive entrance into the province, I find it unlikely you're with the crown.",
+    "file": "anewbeginning-syndra-8",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Even if you chose to reveal my secrets - and if anyone even believed you - you'd have no guarantee of your own safety.",
+    "file": "anewbeginning-syndra-9",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: But that's enough about me. On to you. Why are you here, cursed one? For what purpose have you come to Fruma?",
+    "file": "anewbeginning-syndra-10",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Yes. You haven't been here long, but you've felt it, haven't you? The crown has its roots buried deep in this province, and it certainly isn't kind to all.",
+    "file": "anewbeginning-syndra-11",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Those it sees as disposable... they don't often make it far. That is why I have taken my role. I'd like to see a day where none are left behind.",
+    "file": "anewbeginning-syndra-12",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Interesting. A sense that something isn't right...",
+    "file": "anewbeginning-syndra-13",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: To tell you the truth, it's one I've had myself for quite some time. Though, likely for a different reason to you.",
+    "file": "anewbeginning-syndra-14",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: A noble cause... It is one I can wholeheartedly support.",
+    "file": "anewbeginning-syndra-15",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: In a world like this, the most we can do sometimes is hold on to those we care for. Take care not to lose that drive.",
+    "file": "anewbeginning-syndra-16",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Then, I would ask of you one more thing. A test, in a way...",
+    "file": "anewbeginning-syndra-17",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: The power you carry - the curse you bear. I have seen such things before, yet always at a distance. Never up close.",
+    "file": "anewbeginning-syndra-18",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: I would ask for a duel. Nothing dangerous, or lethal... I have safeguards in place for myself, so do not test my limits. When I call it, we stop.",
+    "file": "anewbeginning-syndra-19",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: I would simply like to see the strength of a cursed one in battle firsthand. So, then. Let us begin!",
+    "file": "anewbeginning-syndra-20",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Enough! Come speak to me.",
+    "file": "anewbeginning-syndra-21",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Impressive. Very impressive. I have never seen a cursed one with such control and technique...",
+    "file": "anewbeginning-syndra-22",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: If I did not know better, I would believe you to have been blessed by the crown itself.",
+    "file": "anewbeginning-syndra-23",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Your power, your spells. The  ability to bend the world to your whim, to wield the elements for your own gain.",
+    "file": "anewbeginning-syndra-24",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Eons ago, so the stories say, the world was pure and balanced. Our people lived with the land, content with what we had.",
+    "file": "anewbeginning-syndra-25",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: And yet, an evil force lurked within us, a malice which despised our peace and happiness. One day, it burst forth, granting unimaginable power to those it deemed worthy...",
+    "file": "anewbeginning-syndra-26",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Its power could not be controlled. Those cursed by its touch went on to tear apart the land, destroying cities and towns... fear overtook the land, none were safe.",
+    "file": "anewbeginning-syndra-27",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Until she arrived, a force of good to counter the evil. She granted her own blessings to the people of Fruma, power which could be controlled and wielded to banish the cursed.",
+    "file": "anewbeginning-syndra-28",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: She saved our province, and became our immortal Queen. Always looking out for the people, always alert for the presence of evil... for it could not be killed, only staved off.",
+    "file": "anewbeginning-syndra-29",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: The cursed ones never left. They only grew smarter, more capable of hiding from the crown's watchful eye.",
+    "file": "anewbeginning-syndra-30",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: And so, it tells the people, always be aware. Always be looking for the cursed ones. It is only a matter of time before they hurt you.",
+    "file": "anewbeginning-syndra-31",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: ...I have a different perspective on this story, you might imagine. The crown has wronged me, and many others. Yet, the stories hold truths to them, to some extent.",
+    "file": "anewbeginning-syndra-32",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: That is why your control over your power has interested me. It bears more traits of the crown's blessings than of the evil's curses, and yet...",
+    "file": "anewbeginning-syndra-33",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Magic... yes, that term has been used in higher studies at the University.",
+    "file": "anewbeginning-syndra-34",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: But a land filled with cursed ones... and it isn't destroyed? I suppose I have had no reason to believe the crown's reports about it, but...",
+    "file": "anewbeginning-syndra-35",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: I need time to process this information. But I would like to discuss it with you further, at a later date, if you would be willing.",
+    "file": "anewbeginning-syndra-36",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Then that leads me to my final request. Would you join our cause, and offer your help to our resistance group? Your knowledge and strength will be greatly appreciated.",
+    "file": "anewbeginning-syndra-37",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: Thank you. I will take you to meet with the others, then. Our home is directly to the south-west, it should be hard to miss. I'll meet you there.",
+    "file": "anewbeginning-syndra-38",
+    "reverb": "BIG_CAVE"
+  },
+  {
+    "line": "Syndra: There you are, soldier. I see you found your way here alright.",
+    "file": "anewbeginning-syndra-39"
+  },
+  {
+    "line": "Syndra: If you're going to be joining us, I should introduce you to the others.",
+    "file": "anewbeginning-syndra-40"
+  },
+  {
+    "line": "Syndra: Ahem... Children, come on out! We have a new member I'd like you to meet.",
+    "file": "anewbeginning-syndra-41"
+  },
+  {
+    "line": "Zeph: We m-meet again! I knew you'd be a g-good fit!",
+    "file": "anewbeginning-zeph-43"
+  },
+  {
+    "line": "Rex: Yeah, Zeph, we know. You've been saying so for hours...",
+    "file": "anewbeginning-rex-9"
+  },
+  {
+    "line": "Mora: Ah, lighten up Rex. Welcome to the Leaves, friend! No matter your origin, if Syndra believes you to be trustworthy, it must be so.",
+    "file": "anewbeginning-mora-6"
+  },
+  {
+    "line": "Syndra: On that subject, soldier here is from outside of our province. They'll be joining our resistance against the crown...",
+    "file": "anewbeginning-syndra-42"
+  },
+  {
+    "line": "Syndra: ...and, hopefully, they'll be able to help me resolve some theories I have on the nature of curses and blessings.",
+    "file": "anewbeginning-syndra-43"
+  },
+  {
+    "line": "Sui: Oh... they're cursed...?",
+    "file": "anewbeginning-sui-1"
+  },
+  {
+    "line": "Syndra: Yes. But they're no threat to us. We share the same enemies. And, having that power on our side could make a huge difference for our efforts.",
+    "file": "anewbeginning-syndra-44"
+  },
+  {
+    "line": "Mora: Hm... are you certain, miss? I do trust your judgment, but perhaps it would be best to err on the side of caution when dealing with the cursed.",
+    "file": "anewbeginning-mora-7"
+  },
+  {
+    "line": "Rex: The curse is the least of our problems! Are we really blindly trusting someone who says they're from Wynn? People don't just... just... come back from there!",
+    "file": "anewbeginning-rex-10"
+  },
+  {
+    "line": "Syndra: That's enough, Rex. I understand your misgivings, but I have reasons for my trust. I would ask you to have faith in me.",
+    "file": "anewbeginning-syndra-45"
+  },
+  {
+    "line": "Rex: ...fine. Whatever.",
+    "file": "anewbeginning-rex-11"
+  },
+  {
+    "line": "Syndra: Now. I still need to acquire the proper papers for soldier to be able to access Espren. In the meantime, why don't you all get to know each other properly?\n",
+    "file": "anewbeginning-syndra-46"
+  },
+  {
+    "line": "Syndra: I'll be back shortly.",
+    "file": "anewbeginning-syndra-47"
+  },
+  {
+    "line": "Rex: ...What do you want? Do you need something?",
+    "file": "anewbeginning-rex-12"
+  },
+  {
+    "line": "Rex: I... shoot things? With my bow?",
+    "file": "anewbeginning-rex-13"
+  },
+  {
+    "line": "Rex: I'm a tactician, otherwise. Not the tactician- that'd be Syndra- but... y'know.",
+    "file": "anewbeginning-rex-14"
+  },
+  {
+    "line": "Rex: ...You don't know. Because- look, it doesn't matter what I do! Not to you, at least.",
+    "file": "anewbeginning-rex-15"
+  },
+  {
+    "line": "Rex: What, are you looking for gossip?",
+    "file": "anewbeginning-rex-16"
+  },
+  {
+    "line": "Rex: Well, you're not going to get any out of me.",
+    "file": "anewbeginning-rex-17"
+  },
+  {
+    "line": "Rex: No, you didn't- ugh! It's not you personally, it's just...",
+    "file": "anewbeginning-rex-18"
+  },
+  {
+    "line": "Rex: Nevermind. Doesn't matter.",
+    "file": "anewbeginning-rex-19"
+  },
+  {
+    "line": "Rex: You're cursed, and you say you're from Wynn. Both of those are problems.",
+    "file": "anewbeginning-rex-20"
+  },
+  {
+    "line": "Rex: I don't know what Syndra sees in you... but whatever it is, it'd better make up for both of those things.",
+    "file": "anewbeginning-rex-21"
+  },
+  {
+    "line": "Rex: ...okay? Whatever.",
+    "file": "anewbeginning-rex-22"
+  },
+  {
+    "line": "Mora: Well, welcome to the Leaves in the Wind! Pardon the hesitation earlier, the cursed are a... sensitive subject. If Syndra believes you to be safe, I will choose to believe her.",
+    "file": "anewbeginning-mora-8"
+  },
+  {
+    "line": "Mora: It's always nice to have some fresh blood under our canopy! No matter how abnormal. We may wait for Syndra's return before getting you properly settled in.",
+    "file": "anewbeginning-mora-9"
+  },
+  {
+    "line": "Mora: If you have any issues whatsoever, don't hesitate to inform me!",
+    "file": "anewbeginning-mora-10"
+  },
+  {
+    "line": "Mora: Now, what could I do for you?",
+    "file": "anewbeginning-mora-11"
+  },
+  {
+    "line": "Mora: I am Syndra's right hand! I deal with many of the tasks involving our family here, to lighten the workload she places upon herself.",
+    "file": "anewbeginning-mora-12"
+  },
+  {
+    "line": "Mora: Such tasks could include onboarding new recruits, assigning members to various missions... handling disputes- that sort of thing.",
+    "file": "anewbeginning-mora-13"
+  },
+  {
+    "line": "Mora: Of course, my \"official\" occupation by the crown's terms is that of a lumberjack. Fighting for a better future isn't exactly a well paying job, hoho!",
+    "file": "anewbeginning-mora-14"
+  },
+  {
+    "line": "Mora: Ah! Yes, well, these are not our full numbers. The others live elsewhere, either in town or in various villages. They stop by every so often, so perhaps you'll have the chance to meet them later!",
+    "file": "anewbeginning-mora-15"
+  },
+  {
+    "line": "Mora: We all are the ones who live here full-time. Nowhere else in particular we can go, if you catch my meaning.",
+    "file": "anewbeginning-mora-16"
+  },
+  {
+    "line": "Mora: If you're from beyond our province's walls, I expect we'll be wanting to set you up with a room of your own sometime... but we can discuss that later.",
+    "file": "anewbeginning-mora-17"
+  },
+  {
+    "line": "Mora: Indeed. I hope we can do some good work together, young leaf!",
+    "file": "anewbeginning-mora-18"
+  },
+  {
+    "line": "Sui: Um... nice to meet you, I guess?",
+    "file": "anewbeginning-sui-2"
+  },
+  {
+    "line": "Sui: Oh... I take care of the injured. I also cook... sometimes.",
+    "file": "anewbeginning-sui-3"
+  },
+  {
+    "line": "Sui: I'm not really much of a fighter... not much of, um, anything, really.",
+    "file": "anewbeginning-sui-4"
+  },
+  {
+    "line": "Sui: I'm mostly just here because of Mora... he's, um, my brother.",
+    "file": "anewbeginning-sui-5"
+  },
+  {
+    "line": "Sui: Yeah.",
+    "file": "anewbeginning-sui-6"
+  },
+  {
+    "line": "Sui: Um... wait, can I ask- actually... nevermind.",
+    "file": "anewbeginning-sui-7"
+  },
+  {
+    "line": "Zeph: I'm g-glad you were able to c-convince Syndra to let you j-join! It'll be n-nice having someone new a-around.",
+    "file": "anewbeginning-zeph-44"
+  },
+  {
+    "line": "Zeph: S-so... what do you need?",
+    "file": "anewbeginning-zeph-45"
+  },
+  {
+    "line": "Zeph: I m-mainly gather intel for the resistance! Th-that usually involves needing to st-stay hidden.",
+    "file": "anewbeginning-zeph-46"
+  },
+  {
+    "line": "Zeph: I've picked up a t-t-trick or two over the y-years.",
+    "file": "anewbeginning-zeph-47"
+  },
+  {
+    "line": "Zeph: S-sometimes I sell stuff I f-find in the forest in town! B-but that's not really f-for the resistance. That's for m-me.",
+    "file": "anewbeginning-zeph-48"
+  },
+  {
+    "line": "Zeph: Huh? Oh, r-right! I was l-looking for guard rotations, for th-the upcoming festival.",
+    "file": "anewbeginning-zeph-49"
+  },
+  {
+    "line": "Zeph: S-security is usually pretty high, so... it's g-good to know where and when is s-s-safe.",
+    "file": "anewbeginning-zeph-50"
+  },
+  {
+    "line": "Zeph: I-I've been wondering the s-same thing...",
+    "file": "anewbeginning-zeph-51"
+  },
+  {
+    "line": "Zeph: She usually isn't l-like this! I wonder if s-something's wrong...",
+    "file": "anewbeginning-zeph-52"
+  },
+  {
+    "line": "Zeph: ...I can t-talk to her about it later.",
+    "file": "anewbeginning-zeph-53"
+  },
+  {
+    "line": "Zeph: It's g-good to have you!",
+    "file": "anewbeginning-zeph-54"
+  },
+  {
+    "line": "Zeph: I... d-don't know, actually. It looks like she's h-heading towards the F-Frog Tavern... but why...?",
+    "file": "anewbeginning-zeph-55"
+  },
+  {
+    "line": "Zeph: Hey... soldier. How'd you l-like to have your first of-official resistance mission with me?",
+    "file": "anewbeginning-zeph-56"
+  },
+  {
+    "line": "Zeph: I-I want to f-follow her and see what she g-gets up to at a r-random bar, of all places...",
+    "file": "anewbeginning-zeph-57"
+  },
+  {
+    "line": "Zeph: You know, I-I-I've always suspected that the t-tavern isn't what it a-appears to be!",
+    "file": "anewbeginning-zeph-58"
+  },
+  {
+    "line": "Zeph: ...Everyone else thinks I'm p-paranoid.",
+    "file": "anewbeginning-zeph-59"
+  },
+  {
+    "line": "Zeph: Y-yeah! Th-that's the spirit!",
+    "file": "anewbeginning-zeph-60"
+  },
+  {
+    "line": "Zeph: Wh- I- n-no! I j-just want to m-m-make sure she's okay. Th-that's all.",
+    "file": "anewbeginning-zeph-61"
+  },
+  {
+    "line": "Zeph: Let's m-meet up at the tavern. It's j-just to the north of here.",
+    "file": "anewbeginning-zeph-62"
+  },
+  {
+    "line": "Zeph: W-wait. We can't j-just go through the f-front, she'll s-see us.",
+    "file": "anewbeginning-zeph-63"
+  },
+  {
+    "line": "Zeph: C-come on, follow me!",
+    "file": "anewbeginning-zeph-64"
+  },
+  {
+    "line": "Zeph: R-right behind you. D-don't get spotted!",
+    "file": "anewbeginning-zeph-65"
+  },
+  {
+    "line": "Zeph: Th-there she is! I w-wonder what she's-",
+    "file": "anewbeginning-zeph-66"
+  },
+  {
+    "line": "Zeph: ... W-wait. Is that...",
+    "file": "anewbeginning-zeph-67"
+  },
+  {
+    "line": "Syndra: Sovereign.",
+    "file": "anewbeginning-syndra-48"
+  },
+  {
+    "line": "Sovereign Zhiraok: You interrupt my sequence like this and won't even say my name? Come on, now.",
+    "file": "anewbeginning-sovereignzhiraok-8"
+  },
+  {
+    "line": "Sovereign Zhiraok: Bartender, my usual mix. I need a boost.",
+    "file": "anewbeginning-sovereignzhiraok-9"
+  },
+  {
+    "line": "Syndra: You seem... stressed.",
+    "file": "anewbeginning-syndra-49"
+  },
+  {
+    "line": "Sovereign Zhiraok: Oh, thank you for noticing! It's because of the stress. Look, I know you're aware of the attack on Torann by now. You've always kept up with the details.",
+    "file": "anewbeginning-sovereignzhiraok-10"
+  },
+  {
+    "line": "Sovereign Zhiraok: But how about we accelerate this. You know how little time I have and you didn't bring me here just for drinks.",
+    "file": "anewbeginning-sovereignzhiraok-11"
+  },
+  {
+    "line": "Syndra: Skipping the small talk, I see. Are my intentions really that transparent?",
+    "file": "anewbeginning-syndra-50"
+  },
+  {
+    "line": "Sovereign Zhiraok: Predictable, more like, after all this time. You've always got an angle you're working towards when you call me here.",
+    "file": "anewbeginning-sovereignzhiraok-12"
+  },
+  {
+    "line": "Syndra: Maybe I just like the ambience.",
+    "file": "anewbeginning-syndra-51"
+  },
+  {
+    "line": "Syndra: ...I need another passport. Same as the rest.",
+    "file": "anewbeginning-syndra-52"
+  },
+  {
+    "line": "Sovereign Zhiraok: Naturally. You and your trend for collecting strays... Really you should just start a family by this point.",
+    "file": "anewbeginning-sovereignzhiraok-13"
+  },
+  {
+    "line": "Syndra: You of all people should know that I can't just stand by and leave them to fend for themselves.",
+    "file": "anewbeginning-syndra-53"
+  },
+  {
+    "line": "Sovereign Zhiraok: Yes... A toddler could calculate that by watching you. I'll solve that problem for you. Keep them out of trouble, and we won't have any issues- as usual.",
+    "file": "anewbeginning-sovereignzhiraok-14"
+  },
+  {
+    "line": "Syndra: Of course. As I always do.",
+    "file": "anewbeginning-syndra-54"
+  },
+  {
+    "line": "Sovereign Zhiraok: Ha! \"Always.\" If I were a gambling man I'd never bet on your odds.",
+    "file": "anewbeginning-sovereignzhiraok-15"
+  },
+  {
+    "line": "Sovereign Zhiraok: I need to get moving. There's always something that needs me to crunch the numbers... and today's events have only added to the pile.",
+    "file": "anewbeginning-sovereignzhiraok-16"
+  },
+  {
+    "line": "Syndra: I certainly wouldn't want to delay you, Sovereign. I hope you manage to sort out all these problems.",
+    "file": "anewbeginning-syndra-55"
+  },
+  {
+    "line": "Sovereign Zhiraok: Oh, we will. It's only a matter of time. Take care, Syndra. Keep it constant.",
+    "file": "anewbeginning-sovereignzhiraok-17"
+  },
+  {
+    "line": "Syndra: Sigh. You may as well come down now. Zeph, soldier.",
+    "file": "anewbeginning-syndra-56"
+  },
+  {
+    "line": "Zeph: D-damn it... Sh-she spotted us.",
+    "file": "anewbeginning-zeph-68"
+  },
+  {
+    "line": "Syndra: That was... risky. You're lucky he didn't look up.",
+    "file": "anewbeginning-syndra-57"
+  },
+  {
+    "line": "Zeph: S-sure, but- b-but what were you d-doing meeting up w-with him?!",
+    "file": "anewbeginning-zeph-69"
+  },
+  {
+    "line": "Syndra: It's... complicated - we have something of an agreement. What matters is that everything is taken care of. Since you're here, soldier, take this. Your passport.",
+    "file": "anewbeginning-syndra-58"
+  },
+  {
+    "line": "Zeph: He's... h-he's with the c-crown, though. H-how can you t-trust him?",
+    "file": "anewbeginning-zeph-70"
+  },
+  {
+    "line": "Syndra: Simple - I don't. You don't need to worry about him. As I said, we have an agreement. He doesn't know about anything we do.",
+    "file": "anewbeginning-syndra-59"
+  },
+  {
+    "line": "Syndra: I had hoped to keep this a secret for a reason... but what's done is done. Just... don't do anything rash, would you?",
+    "file": "anewbeginning-syndra-60"
+  },
+  {
+    "line": "Syndra: Soldier, your passport will let you enter the city. I'd suggest you take some time to visit and look around, to familiarize yourself with the place.",
+    "file": "anewbeginning-syndra-61"
+  },
+  {
+    "line": "Syndra: And when you have time... I'd like to follow up on our discussion we had earlier. I think it's time we start taking steps forward.",
+    "file": "anewbeginning-syndra-62"
+  },
+  {
+    "line": "Syndra: I'll be returning to our home. Zeph, you can come with me if you'd like.",
+    "file": "anewbeginning-syndra-63"
+  },
+  {
+    "line": "Zeph: I-I guess... S-see you later, soldier.",
+    "file": "anewbeginning-zeph-71"
   }
 ]
