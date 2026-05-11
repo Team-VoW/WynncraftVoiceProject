@@ -21,15 +21,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.atomic.AtomicLong;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class AudioPlayer {
     private static final Logger log = LoggerFactory.getLogger(AudioPlayer.class);
+    private static final int REMOTE_FETCH_ATTEMPTS = 3;
+    private static final Duration REMOTE_FETCH_TIMEOUT = Duration.ofSeconds(3);
+    private static final Duration REMOTE_FETCH_RETRY_DELAY = Duration.ofMillis(150);
     public final OpenAlPlayer openAlPlayer;
     public final AutoProgress autoProgress;
     public static final String AUDIO_FOLDER = "VOW_AUDIO";
     private final HttpClient httpClient;
+    private final AtomicLong playGeneration = new AtomicLong();
 
     public AudioPlayer() {
         openAlPlayer = new OpenAlPlayer();
@@ -66,11 +71,12 @@ public class AudioPlayer {
 
     @SuppressWarnings("ConstantValue")
     public void play(SoundObject soundObject) {
+        long generation = playGeneration.incrementAndGet();
         String audioFileName = soundObject.getId();
         Path audioFilePath = Paths.get(AUDIO_FOLDER, audioFileName + ".ogg");
 
         if (ModCore.config.isUseCustomAudioPath()) {
-            playFromCustomPath(audioFileName, soundObject);
+            playFromCustomPath(audioFileName, soundObject, generation);
             return;
         }
 
@@ -81,14 +87,14 @@ public class AudioPlayer {
             return;
         }
 
-        playRemoteAudio(audioFileName, soundObject);
+        playRemoteAudio(audioFileName, soundObject, generation);
     }
 
     private void playLocalFile(Path audioFilePath, SoundObject soundObject) {
         playAudioFile(audioFilePath, soundObject);
     }
 
-    private void playFromCustomPath(String audioFileName, SoundObject soundObject) {
+    private void playFromCustomPath(String audioFileName, SoundObject soundObject, long generation) {
         String customPath = ModCore.config.getCustomAudioPath();
         boolean isURL = customPath.startsWith("http");
 
@@ -96,13 +102,17 @@ public class AudioPlayer {
             CompletableFuture.runAsync(() -> {
                 ByteBuffer remoteAudioData = null;
                 try {
-                    remoteAudioData = fetchRemoteAudio(customPath + audioFileName + ".ogg");
+                    remoteAudioData = fetchRemoteAudioWithRetry(customPath + audioFileName + ".ogg", generation);
                 } catch (IOException | InterruptedException e) {
+                    if (e instanceof InterruptedException) {
+                        Thread.currentThread().interrupt();
+                    }
+                    if (!isCurrentGeneration(generation)) return;
                     Utils.sendMessage(
                             "Failed to fetch remote audio file: " + customPath + audioFileName
                                     + ". You are using a custom audio path. Please check your settings if this is an accident.");
                 }
-                if (remoteAudioData != null) {
+                if (remoteAudioData != null && isCurrentGeneration(generation)) {
                     playAudioBuffer(remoteAudioData, soundObject);
                 }
             });
@@ -118,22 +128,29 @@ public class AudioPlayer {
         }
     }
 
-    private void playRemoteAudio(String audioFileName, SoundObject soundObject) {
+    private void playRemoteAudio(String audioFileName, SoundObject soundObject, long generation) {
         CompletableFuture.runAsync(() -> {
             List<String> allRemoteUrls = getRemoteUrls();
 
             ByteBuffer remoteAudioData = null;
 
             for (String url : allRemoteUrls) {
+                if (!isCurrentGeneration(generation)) return;
                 try {
-                    remoteAudioData = fetchRemoteAudio(url + audioFileName + ".ogg");
+                    remoteAudioData = fetchRemoteAudioWithRetry(url + audioFileName + ".ogg", generation);
+                    if (remoteAudioData == null) return;
                     break;
                 } catch (IOException | InterruptedException e) {
+                    if (e instanceof InterruptedException) {
+                        Thread.currentThread().interrupt();
+                        return;
+                    }
+                    if (!isCurrentGeneration(generation)) return;
                     log.info("[Voices of Wynn] Failed to fetch remote audio file: {}{}.", url, audioFileName);
                 }
             }
 
-            if (remoteAudioData != null) {
+            if (remoteAudioData != null && isCurrentGeneration(generation)) {
                 playAudioBuffer(remoteAudioData, soundObject);
             } else {
                 Utils.sendMessage(
@@ -143,10 +160,36 @@ public class AudioPlayer {
         });
     }
 
+    private ByteBuffer fetchRemoteAudioWithRetry(String urlString, long generation)
+            throws IOException, InterruptedException {
+        for (int attempt = 1; attempt < REMOTE_FETCH_ATTEMPTS; attempt++) {
+            if (!isCurrentGeneration(generation)) {
+                return null;
+            }
+
+            try {
+                return fetchRemoteAudio(urlString);
+            } catch (IOException e) {
+                if (!shouldRetryFetch(e)) {
+                    throw e;
+                }
+
+                log.debug(
+                        "[Voices of Wynn] Retrying remote audio fetch after transient failure: {} (attempt {}/{})",
+                        urlString,
+                        attempt,
+                        REMOTE_FETCH_ATTEMPTS);
+                Thread.sleep(REMOTE_FETCH_RETRY_DELAY.toMillis() * attempt);
+            }
+        }
+
+        return isCurrentGeneration(generation) ? fetchRemoteAudio(urlString) : null;
+    }
+
     private ByteBuffer fetchRemoteAudio(String urlString) throws IOException, InterruptedException {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(urlString))
-                .timeout(Duration.ofSeconds(3))
+                .timeout(REMOTE_FETCH_TIMEOUT)
                 .GET()
                 .build();
 
@@ -156,7 +199,20 @@ public class AudioPlayer {
             return ByteBuffer.wrap(response.body());
         }
 
-        throw new IOException("Failed to fetch audio: " + response.statusCode());
+        throw new RemoteAudioFetchException(response.statusCode());
+    }
+
+    private boolean shouldRetryFetch(IOException exception) {
+        if (exception instanceof RemoteAudioFetchException remoteException) {
+            int statusCode = remoteException.statusCode();
+            return statusCode == 408 || statusCode == 429 || statusCode >= 500;
+        }
+
+        return true;
+    }
+
+    private boolean isCurrentGeneration(long generation) {
+        return generation == playGeneration.get();
     }
 
     private List<String> urls = null;
@@ -192,5 +248,23 @@ public class AudioPlayer {
         audio.setReverb(soundObject.getReverb());
 
         write(audio);
+    }
+
+    public void stopAudio() {
+        playGeneration.incrementAndGet();
+        openAlPlayer.stopAudio();
+    }
+
+    private static class RemoteAudioFetchException extends IOException {
+        private final int statusCode;
+
+        private RemoteAudioFetchException(int statusCode) {
+            super("Failed to fetch audio: " + statusCode);
+            this.statusCode = statusCode;
+        }
+
+        private int statusCode() {
+            return statusCode;
+        }
     }
 }

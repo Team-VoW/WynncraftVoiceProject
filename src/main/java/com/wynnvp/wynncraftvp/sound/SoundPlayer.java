@@ -72,7 +72,7 @@ public class SoundPlayer {
 
     public void stopCurrentAudio() {
         if (ModCore.instance.audioPlayer == null) return;
-        ModCore.instance.audioPlayer.openAlPlayer.stopAudio();
+        ModCore.instance.audioPlayer.stopAudio();
     }
 
     private void PlaySoundObject(SoundObject sound) {
