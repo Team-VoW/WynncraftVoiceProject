@@ -2024,7 +2024,7 @@
     "file": "takingthetower-aledar-13"
   },
   {
-    "line": "Aledar: Apparently, the big bad at the top of the tower is weak to ❉ Water damage! And so, here we are at the Powder Master.",
+    "line": "Aledar: Apparently, the big bad at the top of the tower is weak to Water damage! And so, here we are at the Powder Master.",
     "file": "takingthetower-aledar-14"
   },
   {
@@ -2032,7 +2032,7 @@
     "file": "takingthetower-aledar-15"
   },
   {
-    "line": "Aledar: In this case, you can apply a ❉ Water powder, so that your weapon will be more effective against the corrupted enemies at the tower!",
+    "line": "Aledar: In this case, you can apply a Water powder, so that your weapon will be more effective against the corrupted enemies at the tower!",
     "file": "takingthetower-aledar-16"
   },
   {
@@ -2613,11 +2613,11 @@
     "file": "elementalexercise-captainragon-7"
   },
   {
-    "line": "Tasim: I am! The elements are... ✹ Fire, ❋ Air, ✤ Earth, ✦ Thunder, and... ❉ Water?",
+    "line": "Tasim: I am! The elements are... Fire, Air, Earth, Thunder, and... Water?",
     "file": "elementalexercise-tasim-3"
   },
   {
-    "line": "Captain Ragon: That's right. And generally speaking, they're strong against each other in that order- ✹ Fire beats ❋ Air, ❋ Air beats ✤ Earth, and so on.",
+    "line": "Captain Ragon: That's right. And generally speaking, they're strong against each other in that order- Fire beats Air, Air beats Earth, and so on.",
     "file": "elementalexercise-captainragon-8"
   },
   {
@@ -2641,7 +2641,7 @@
     "file": "elementalexercise-captainragon-13"
   },
   {
-    "line": "Tasim: Hm... So if I attack this one, I'll deal more ❋ Air and less ✤ Earth...",
+    "line": "Tasim: Hm... So if I attack this one, I'll deal more Air and less Earth...",
     "file": "elementalexercise-tasim-4"
   },
   {
@@ -2669,7 +2669,7 @@
     "file": "elementalexercise-captainragon-17"
   },
   {
-    "line": "Tasim: ...Oh! So my Bash spell will still deal ✤ Earth damage even if my weapon only uses ❉ Water, right?",
+    "line": "Tasim: ...Oh! So my Bash spell will still deal Earth damage even if my weapon only uses Water, right?",
     "file": "elementalexercise-tasim-7"
   },
   {
@@ -53730,7 +53730,7 @@
     "file": "detlas-detlassoldier2-4"
   },
   {
-    "line": "Detlas Soldier: The elements are ✹ Fire, ❋ Air, ❉ Water, ✤ Earth, and ✦ Thunder.",
+    "line": "Detlas Soldier: The elements are Fire, Air, Water, Earth, and Thunder.",
     "file": "detlas-detlassoldier2-5"
   },
   {
@@ -53762,11 +53762,11 @@
     "file": "detlas-detlassoldier2-12"
   },
   {
-    "line": "Detlas Soldier: For example, if an enemy has ✦Weak ❉Def, that means they will take extra ✦ Thunder damage and less ❉ Water damage.",
+    "line": "Detlas Soldier: For example, if an enemy has Weak Def, that means they will take extra Thunder damage and less Water damage.",
     "file": "detlas-detlassoldier2-13"
   },
   {
-    "line": "Detlas Soldier: And if they had ✤Dam, that means they would partly deal ✤ Earth damage.",
+    "line": "Detlas Soldier: And if they had Dam, that means they would partly deal Earth damage.",
     "file": "detlas-detlassoldier2-14"
   },
   {
