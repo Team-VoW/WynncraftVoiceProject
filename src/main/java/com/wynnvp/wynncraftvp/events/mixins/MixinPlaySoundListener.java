@@ -28,6 +28,7 @@ public class MixinPlaySoundListener {
             SoundEvents.WANDERING_TRADER_NO.location(),
             SoundEvents.ZOMBIE_AMBIENT.location(),
             SoundEvents.RAVAGER_AMBIENT.location(),
+            SoundEvents.SILVERFISH_DEATH.location(),
             SoundEvents.PARROT_IMITATE_EVOKER.location());
 
     @Inject(method = "play", at = @At("HEAD"), cancellable = true)
