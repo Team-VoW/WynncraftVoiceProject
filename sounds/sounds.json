@@ -37390,7 +37390,7 @@
     "file": "fantasticvoyage-relend-74"
   },
   {
-    "line": "???: ⒤⒜⒭⒭⒜⒞⒣⒯ ⒠⒤⒧⒠ ⒨'⒰⒜⒤⒭⒠⒜⒟ó⒤⒭ ⒜ ⒤⒨⒢⒣⒜⒝⒣á⒤⒧.",
+    "line": "???: iarracht eile m'uaireadóir a imghabháil.",
     "file": "fantasticvoyage-theeye-1"
   },
   {
@@ -37402,7 +37402,7 @@
     "file": "fantasticvoyage-relend-76"
   },
   {
-    "line": "???: ⒤⒨⒤⒯⒣⒠ ⒜⒮ ⒨⒪ ⒭⒜⒟⒣⒜⒭⒞, ⒤⒟⒤⒭⒢⒣⒜⒝⒣á⒧⒜í.",
+    "line": "???: imithe as mo radharc, idirghabhálaí.",
     "file": "fantasticvoyage-theeye-2"
   },
   {
@@ -46561,7 +46561,7 @@
     "onPlayer": true
   },
   {
-    "line": "???: ⒜⒩⒟ ⒯⒣⒠ ⒣⒠⒭⒪ ⒮⒣⒜⒧⒧ ⒝⒧⒤⒩⒟ ⒯⒣⒠ ⒜⒩⒞⒤⒠⒩⒯ ⒮⒠⒠⒭０ ⒢⒪⒪⒟ ⒧⒰⒞⒦０",
+    "line": "???: and the hero shall blind the ancient seer. good luck.",
     "file": "ajourneyfurther-eye-2",
     "onPlayer": true
   },
@@ -49578,22 +49578,22 @@
     "onPlayer": true
   },
   {
-    "line": "???: ⒣⒜⒮ ⒮⒪⒨⒠⒪⒩⒠ ⒠⒩⒯⒠⒭⒠⒟ ⒯⒣⒠ ⒮⒜⒩⒞⒯⒰⒨２ ⒤ ⒟⒤⒟ ⒩⒪⒯ ⒯⒣⒤⒩⒦ ⒯⒣⒠ ⒝⒤⒩⒟⒤⒩⒢⒮ ⒲⒪⒰⒧⒟ ⒜⒧⒧⒪⒲ ⒠⒩⒯⒭⒴ ⒯⒪ ⒜⒩⒴⒪⒩⒠ ⒡⒭⒪⒨ ⒯⒣⒠ ⒪⒰⒯⒮⒤⒟⒠０ ⒭⒠⒱⒠⒜⒧ ⒴⒪⒰⒭⒮⒠⒧⒡ ⒤⒩⒯⒭⒰⒟⒠⒭１",
+    "line": "???: has someone entered the sanctum? i did not think the bindings would allow entry to anyone from the outside. reveal yourself intruder!",
     "file": "timelostsanctum-garoth-1",
     "onPlayer": true
   },
   {
-    "line": "???:  ⒜⒩ ⒜⒩⒞⒣⒪⒭ ⒣⒜⒮ ⒡⒜⒧⒧⒠⒩０００ ⒲⒣⒜⒯ ⒜⒭⒠ ⒴⒪⒰ ⒟⒪⒤⒩⒢２ ⒯⒣⒠ ⒮⒜⒩⒞⒯⒰⒨ ⒞⒜⒩⒩⒪⒯ ⒲⒤⒯⒣⒮⒯⒜⒩⒟ ⒮⒰⒞⒣ ⒞⒪⒧⒧⒜⒫⒮⒠０ ⒯⒣⒤⒮ ⒞⒜⒩ ⒮⒯⒤⒧⒧ ⒝⒠ ⒭⒠⒫⒜⒤⒭⒠⒟０００",
+    "line": "???: an anchor has fallen... what are you doing? the sanctum cannot withstand such collapse. this can still be repaired...",
     "file": "timelostsanctum-garoth-2",
     "onPlayer": true
   },
   {
-    "line": "???: ⒟⒪ ⒩⒪⒯ ⒲⒜⒩⒟⒠⒭ ⒡⒰⒭⒯⒣⒠⒭ ⒤⒩⒯⒭⒰⒟⒠⒭０ ⒤ ⒲⒤⒧⒧ ⒟⒠⒜⒧ ⒲⒤⒯⒣ ⒴⒪⒰ ⒮⒣⒪⒭⒯⒧⒴１ ⒯⒣⒤⒮ ⒨⒰⒮⒯ ⒯⒜⒦⒠ ⒫⒭⒤⒪⒭⒤⒯⒴０",
+    "line": "???: do not wander further intruder. i will deal with you shortly! this must take priority.",
     "file": "timelostsanctum-garoth-3",
     "onPlayer": true
   },
   {
-    "line": "???: ⒪⒣ ⒡⒪⒭ ⒣⒠⒜⒱⒠⒩⒮ ⒮⒜⒦⒠- You haven't understood a word I've said, have you? What an unrefined way of speech. Now, if you have intruded here, surely you must know who you are angering.",
+    "line": "???: oh for heavens sake- You haven't understood a word I've said, have you? What an unrefined way of speech. Now, if you have intruded here, surely you must know who you are angering.",
     "file": "timelostsanctum-garoth-4",
     "onPlayer": true
   },
@@ -49633,7 +49633,7 @@
     "fallOff": 500
   },
   {
-    "line": "Garoth: You haven't seen anything yet. ⒤ ⒞⒜⒧⒧ ⒰⒫⒪⒩ ⒯⒣⒠ ⒫⒪⒲⒠⒭ ⒪⒡ ⒯⒣⒠ ⒣⒠⒜⒱⒠⒩⒮ ⒜⒩⒟ ⒯⒣⒠ ⒜⒝⒴⒮⒮０００ ⒞⒜⒮⒯ ⒯⒣⒤⒮ ⒮⒫⒠⒞⒦ ⒪⒰⒯ ⒪⒡ ⒨⒴ ⒮⒤⒢⒣⒯１",
+    "line": "Garoth: You haven't seen anything yet. i call upon the power of the heavens and the abyss... cast this speck out of my sight!",
     "file": "timelostsanctum-garoth-12",
     "fallOff": 500
   },
@@ -50724,7 +50724,7 @@
     "file": "wynnplains-dyingolm-1"
   },
   {
-    "line": "???: ⒯⒣⒠ ⒪⒧⒨ ⒞⒜⒩⒩⒪⒯ ⒮⒰⒭⒱⒤⒱⒠ ⒣⒠⒭⒠. ⒯⒤⒨⒠ ⒣⒜⒮ ⒝⒠⒠⒩ ⒭⒤⒫⒫⒠⒟ ⒜⒮⒰⒩⒟⒠⒭... ⒪⒰⒭ ⒪⒩⒧⒴ ⒣⒪⒫⒠ ⒤⒮... ⒯⒣⒠ ⒠⒳⒫⒜⒩⒮-０",
+    "line": "???: the olm cannot survive here. time has been ripped asunder... our only hope is... the expans-.",
     "file": "wynnplains-dyingolm-2",
     "pos": {
       "x": -406.0,
@@ -50846,7 +50846,13 @@
     "stopSounds": false
   },
   {
-    "line": "Bob: ⒭⒤⒮⒤⒩⒢ ⒰⒫⒫⒠⒭⒞⒰⒯",
+    "line": "Bak'al: Bak'al: Another soldier..? It matters not. End him!",
+    "file": "wynnplains-bakal-15",
+    "fallOff": 90,
+    "stopSounds": false
+  },
+  {
+    "line": "Bob: rising uppercut!",
     "file": "wynnplains-bob-2",
     "fallOff": 90,
     "stopSounds": false
@@ -50858,7 +50864,7 @@
     "stopSounds": false
   },
   {
-    "line": "Bob: ⒟⒤⒱⒤⒩⒢ ⒠⒜⒭⒯⒣⒮⒣⒜⒯⒯⒠⒭１",
+    "line": "Bob: diving earthshatter!",
     "file": "wynnplains-bob-3",
     "fallOff": 90,
     "stopSounds": false
@@ -50876,18 +50882,18 @@
     "stopSounds": false
   },
   {
-    "line": "Bob: ⒡⒭⒪⒮⒯ ⒮⒠⒭⒫⒠⒩⒯１",
+    "line": "Bob: frost serpent!",
     "file": "wynnplains-bob-5",
     "fallOff": 90
   },
   {
-    "line": "Bob: ⒜⒭⒭⒪⒲ ⒝⒜⒭⒭⒜⒢⒠１",
+    "line": "Bob: arrow barrage!",
     "file": "wynnplains-bob-6",
     "fallOff": 90,
     "stopSounds": false
   },
   {
-    "line": "Bob: ⒡⒤⒭⒠ ⒝⒪⒨⒝１",
+    "line": "Bob: fire bomb!",
     "file": "wynnplains-bob-7",
     "fallOff": 90,
     "stopSounds": false
