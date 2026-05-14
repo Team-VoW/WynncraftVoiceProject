@@ -32535,6 +32535,10 @@
     "file": "theenvoypart2-corkusguard-1"
   },
   {
+    "line": "Corkus Guard: Don't go in there, it's under control.",
+    "file": "theenvoypart2-corkusguard-2"
+  },
+  {
     "line": "Corkus Delegate: Mo'in...",
     "file": "theenvoypart2-corkusdelegate-1",
     "onPlayer": true
