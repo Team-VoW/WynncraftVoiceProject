@@ -58376,5 +58376,1925 @@
   {
     "line": "Zeph: I-I guess... S-see you later, soldier.",
     "file": "anewbeginning-zeph-71"
+  },
+  {
+    "line": "Rex: ...",
+    "file": "thecursedone-rex-1"
+  },
+  {
+    "line": "Rex: Ugh. What do you want? I'm clearly busy.",
+    "file": "thecursedone-rex-2"
+  },
+  {
+    "line": "Rex: ...what?",
+    "file": "thecursedone-rex-3"
+  },
+  {
+    "line": "Rex: No, just... leave me alone, okay? I don't want to talk to you.",
+    "file": "thecursedone-rex-4"
+  },
+  {
+    "line": "Mora: Hmm... Delivering mail from river settlement to Espren... Kaio... Check... Hmmm.",
+    "file": "thecursedone-mora-1"
+  },
+  {
+    "line": "Mora: Ah! Soldier, do you require my assistance?",
+    "file": "thecursedone-mora-2"
+  },
+  {
+    "line": "Mora: Ah... You overheard me talking to myself, then. Hoh!",
+    "file": "thecursedone-mora-3"
+  },
+  {
+    "line": "Mora: I am just writing and filing some reports I had forgotten about. We are trying to keep better track of our activities throughout the forest, you see.",
+    "file": "thecursedone-mora-4"
+  },
+  {
+    "line": "Zeph: Ah! You ca-caught- caught me off guard. How's your time in Auburn bee-been?",
+    "file": "thecursedone-zeph-1"
+  },
+  {
+    "line": "Zeph: Yup! I've s-s-stayed here the longest so I've ma-managed to gather quite the assortment of useful stuff. Rex w-w-would call it junk but...",
+    "file": "thecursedone-zeph-2"
+  },
+  {
+    "line": "Zeph: An old friend a-actually helped me make this training dum-dummy.",
+    "file": "thecursedone-zeph-3"
+  },
+  {
+    "line": "Zeph: Gotta stay on t-top of my training! Especially with you here.",
+    "file": "thecursedone-zeph-4"
+  },
+  {
+    "line": "Zeph: Besides, I wa-wa-want I want to be able to help when it matters.",
+    "file": "thecursedone-zeph-5"
+  },
+  {
+    "line": "Zeph: We should t-train together some day.",
+    "file": "thecursedone-zeph-6"
+  },
+  {
+    "line": "Syndra: Soldier, it's good to see you. Have you been well?",
+    "file": "thecursedone-syndra-1"
+  },
+  {
+    "line": "Syndra: ...no one has recognized you in Espren, have they?",
+    "file": "thecursedone-syndra-2"
+  },
+  {
+    "line": "Syndra: Good, good. Be sure to tell me if it does happen, and we'll figure out what to do from there.",
+    "file": "thecursedone-syndra-3"
+  },
+  {
+    "line": "Syndra: Anyway, since you're here, I'd like to follow up on our earlier discussion. About... magic.",
+    "file": "thecursedone-syndra-4"
+  },
+  {
+    "line": "Syndra: I would like for you to describe what you know of it, how you use it, and how most people in your province can wield it.",
+    "file": "thecursedone-syndra-5"
+  },
+  {
+    "line": "Syndra: I've informed the Leaves about our plans, and those interested will join us. Though, I will not force anyone to attend if they do not wish to. Are you ready?",
+    "file": "thecursedone-syndra-6"
+  },
+  {
+    "line": "Syndra: Alright, everyone! It's meeting time!",
+    "file": "thecursedone-syndra-7"
+  },
+  {
+    "line": "Syndra: Hello, everyone. Hm... has anyone seen Sui?",
+    "file": "thecursedone-syndra-8"
+  },
+  {
+    "line": "Mora: She told me she did not feel particularly comfortable listening in on this discussion, so I did not push her further.",
+    "file": "thecursedone-mora-5"
+  },
+  {
+    "line": "Syndra: I see. I think it would be good for her to hear this, though. Could someone fetch her for me?",
+    "file": "thecursedone-syndra-9"
+  },
+  {
+    "line": "Rex: I can go find her, ma'am.",
+    "file": "thecursedone-rex-5"
+  },
+  {
+    "line": "Syndra: Thank you, Rex.",
+    "file": "thecursedone-syndra-10"
+  },
+  {
+    "line": "Syndra: It... isn't something you need to worry about. Not yet, at least.",
+    "file": "thecursedone-syndra-11"
+  },
+  {
+    "line": "Syndra: Magic... or, rather, curses have a tendency to be associated with bad memories.",
+    "file": "thecursedone-syndra-12"
+  },
+  {
+    "line": "Syndra: It's not my place to tell you why. Sui can share more if she wants to, later.",
+    "file": "thecursedone-syndra-13"
+  },
+  {
+    "line": "Syndra: Sui is... the exception.",
+    "file": "thecursedone-syndra-14"
+  },
+  {
+    "line": "Syndra: I have my reasons for it. I believe it would be better for her to hear this now, rather than later.",
+    "file": "thecursedone-syndra-15"
+  },
+  {
+    "line": "Rex: Here we are! So, could we get started already? Some of us actually have responsibilities.",
+    "file": "thecursedone-rex-6"
+  },
+  {
+    "line": "Syndra: Seeing as everyone is here, yes, Rex, we may. Soldier, let us start with the basics.",
+    "file": "thecursedone-syndra-16"
+  },
+  {
+    "line": "Mora: Ah, yes, such as the cursed... the stories do tell of the original evil lurking within us. It would follow that it exists in all things.",
+    "file": "thecursedone-mora-6"
+  },
+  {
+    "line": "Syndra: Indeed. So soldier, how do you wield your magic?",
+    "file": "thecursedone-syndra-17"
+  },
+  {
+    "line": "Mora: Similar to the blessed implements of the crown's commanders, yes? I remember hearing of this from the military recruiters.",
+    "file": "thecursedone-mora-7"
+  },
+  {
+    "line": "Rex: Don't those usually only have one specific blessing attached to them? I don't remember them being as... uh, flexible, I guess.",
+    "file": "thecursedone-rex-7"
+  },
+  {
+    "line": "Syndra: You'd be correct, Rex, though the same principle applies. A blessed weapon is referred to as a \"focus\" by the crown. They allow the wielder to more easily access the blessing placed within.",
+    "file": "thecursedone-syndra-18"
+  },
+  {
+    "line": "Syndra: Ah, I do have experience with this. We call it mana. Once one receives a blessing, it takes time to learn how to draw from your own source of mana.",
+    "file": "thecursedone-syndra-19"
+  },
+  {
+    "line": "Syndra: This is where foci come into play - they are crafted or forged from mana-dense materials, and so provide a more easily accessible source to power one's blessing.",
+    "file": "thecursedone-syndra-20"
+  },
+  {
+    "line": "Rex: And, so... what? You think any of us could just... do it? That's hard to believe.",
+    "file": "thecursedone-rex-8"
+  },
+  {
+    "line": "Mora: Ha! If it were truly the case, would there not be many, many more cursed ones running around? I concur with Rex, it seems outlandish.",
+    "file": "thecursedone-mora-8"
+  },
+  {
+    "line": "Zeph: I d- d- don't know... The soldier doesn't seem like they're l- ly- like they're lying. What- wh- what if it is true?",
+    "file": "thecursedone-zeph-7"
+  },
+  {
+    "line": "Syndra: It would explain certain aspects of the crown's response to cursed ones...",
+    "file": "thecursedone-syndra-21"
+  },
+  {
+    "line": "Sui: But... if you didn't receive a blessing, doesn't it still make you cursed?",
+    "file": "thecursedone-sui-1"
+  },
+  {
+    "line": "Mora: Yes, precisely! My sister is correct. Any... \"magic\" not sourced from the crown is innately tainted, from my understanding.",
+    "file": "thecursedone-mora-9"
+  },
+  {
+    "line": "Rex: Yeah, curses, blessings - whatever. So, what, you think all of us could just... use \"magic\"? What would that even look like?",
+    "file": "thecursedone-rex-9"
+  },
+  {
+    "line": "Rex: Ha. Right, sure. \"Belief.\" So if I think hard enough, I can just start calling down lightning strikes?",
+    "file": "thecursedone-rex-10"
+  },
+  {
+    "line": "Rex: Ugh. This was a waste of time.",
+    "file": "thecursedone-rex-11"
+  },
+  {
+    "line": "Mora: Now, now, Rex. Don't be so hasty in writing it off entirely. You have seen with your own eyes what the soldier can do!",
+    "file": "thecursedone-mora-10"
+  },
+  {
+    "line": "Zeph: Belief... I- I- I can do that.",
+    "file": "thecursedone-zeph-8"
+  },
+  {
+    "line": "Rex: Oh, come on Zeph, really? You can't seriously-",
+    "file": "thecursedone-rex-12"
+  },
+  {
+    "line": "Syndra: We're getting off track. Soldier, what else is there?",
+    "file": "thecursedone-syndra-22"
+  },
+  {
+    "line": "Zeph: So... s- so you don't even know what your m- ma- magic will look like?",
+    "file": "thecursedone-zeph-9"
+  },
+  {
+    "line": "Syndra: Correct. There are aptitude tests which the crown uses before giving out blessings, but those only provide an idea of the general typing.",
+    "file": "thecursedone-syndra-23"
+  },
+  {
+    "line": "Syndra: As an example- I learned that I have an affinity for the fire element, but I didn't know what form that would take until I actually received my blessing.",
+    "file": "thecursedone-syndra-24"
+  },
+  {
+    "line": "Zeph: Oh! S- s- so, what type of magic do you think I w- would- I would have?",
+    "file": "thecursedone-zeph-10"
+  },
+  {
+    "line": "Rex: Something with wind, probably. You have that sort of... feel to you. Hey- we'll be the Leaves, and you can be the Wind!",
+    "file": "thecursedone-rex-13"
+  },
+  {
+    "line": "Zeph: He- hey! That... oh, that would be c- c- cool, actually...",
+    "file": "thecursedone-zeph-11"
+  },
+  {
+    "line": "Mora: If I may interrupt- thus far, you have spoken at length on casting through the use of a focus.",
+    "file": "thecursedone-mora-11"
+  },
+  {
+    "line": "Mora: However, the traditional \"cursed one\" mythos has the afflicted wielding such power without the use of any blessed artifacts.",
+    "file": "thecursedone-mora-12"
+  },
+  {
+    "line": "Mora: Aha. Of course, then those must be the dangerous ones.",
+    "file": "thecursedone-mora-13"
+  },
+  {
+    "line": "Syndra: Uncommon, but still common enough to maintain the reputation the cursed have... It would make sense.",
+    "file": "thecursedone-syndra-25"
+  },
+  {
+    "line": "Syndra: Well, thank you for your time, soldier. I think we'll call it there. You're all dismissed.",
+    "file": "thecursedone-syndra-26"
+  },
+  {
+    "line": "Zeph: ...So what, is- is that it? We talk about th- th- theory for a while, and th- a- and then do nothing?",
+    "file": "thecursedone-zeph-12"
+  },
+  {
+    "line": "Syndra: Zeph, even if the soldier's information is true, it doesn't mean it's immediately applicable.",
+    "file": "thecursedone-syndra-27"
+  },
+  {
+    "line": "Syndra: If I could be certain that experimenting with cur-... magic... would be safe, maybe there could be an opportunity here. As it stands... it's too risky.",
+    "file": "thecursedone-syndra-28"
+  },
+  {
+    "line": "Zeph: R- ris- risky... maybe the reason we've been stuck is because we d- d- we don't take risks!",
+    "file": "thecursedone-zeph-13"
+  },
+  {
+    "line": "Zeph: The per- perfect opportunity to be a- a- able to hold our own against the c- cr- crown, a- and- and we're gonna do n- no- nothing? Are you h- hear- hearing yourself?",
+    "file": "thecursedone-zeph-14"
+  },
+  {
+    "line": "Syndra: Zeph...",
+    "file": "thecursedone-syndra-29"
+  },
+  {
+    "line": "Zeph: No, I- I'm gonna ta- take the chance. Even- e- even if no- nobody else will. Come- c- come on, soldier, let's go.",
+    "file": "thecursedone-zeph-15"
+  },
+  {
+    "line": "Syndra: Sigh. I suppose I should have expected something like this. Of all the children, he's the one with the most to prove...",
+    "file": "thecursedone-syndra-30"
+  },
+  {
+    "line": "Syndra: You may as well go with him, soldier. Maybe you'll be able to prove my worries wrong.",
+    "file": "thecursedone-syndra-31"
+  },
+  {
+    "line": "Mora: Hum... I suppose the pieces fit together, yet...",
+    "file": "thecursedone-mora-14"
+  },
+  {
+    "line": "Mora: Magic... Hoh!",
+    "file": "thecursedone-mora-15"
+  },
+  {
+    "line": "Mora: Never in my life did I expect to have my whole world view challenged, hoh!",
+    "file": "thecursedone-mora-16"
+  },
+  {
+    "line": "Mora: Admittedly, this information will take some time to process...",
+    "file": "thecursedone-mora-17"
+  },
+  {
+    "line": "Mora: I'll most likely seek you out later with some follow up questions.",
+    "file": "thecursedone-mora-18"
+  },
+  {
+    "line": "Kaio: ...well, Synny, don't suppose any of this changes your usual approach?",
+    "file": "thecursedone-kaio-1"
+  },
+  {
+    "line": "Syndra: Sigh... You know it does, Kaio. If there's a possibility more of our members could wield... magic, then...",
+    "file": "thecursedone-syndra-32"
+  },
+  {
+    "line": "Kaio: Then?",
+    "file": "thecursedone-kaio-2"
+  },
+  {
+    "line": "Syndra: ... I don't know. I don't even know if it'll work, yet.",
+    "file": "thecursedone-syndra-33"
+  },
+  {
+    "line": "Kaio: Mmn. I don't like it.",
+    "file": "thecursedone-kaio-3"
+  },
+  {
+    "line": "Syndra: You don't like anything, Kaio.",
+    "file": "thecursedone-syndra-34"
+  },
+  {
+    "line": "Kaio: Yes, well, I especially don't like this. Don't like the ideas you're gettin' all up there in your head. It's a risk.",
+    "file": "thecursedone-kaio-4"
+  },
+  {
+    "line": "Syndra: Everything is a risk. But it doesn't matter yet. It'll depend on what Quill has to tell me during the festival.",
+    "file": "thecursedone-syndra-35"
+  },
+  {
+    "line": "Zeph: I... I may have gotten a bit h- he- heated there...",
+    "file": "thecursedone-zeph-16"
+  },
+  {
+    "line": "Zeph: It's just... all so- s- so frustrating! So often, people are h- hur- hurt by the crown, and- and th- there's nothing we can do about it! If we had m- m- if we had m- magic, we'd be able to- to sta- stand up to them!",
+    "file": "thecursedone-zeph-17"
+  },
+  {
+    "line": "Zeph: But, they don't... eugh. What- wh- whatever. We can just-",
+    "file": "thecursedone-zeph-18"
+  },
+  {
+    "line": "Rex: Hey, wait up!",
+    "file": "thecursedone-rex-14"
+  },
+  {
+    "line": "Zeph: R- Rex? What are you-",
+    "file": "thecursedone-zeph-19"
+  },
+  {
+    "line": "Rex: Well, I can't just let you go off and do this on your own. Even if I think it's stupid and reckless.",
+    "file": "thecursedone-rex-15"
+  },
+  {
+    "line": "Rex: So, what's the plan? You didn't just run off without one, right?",
+    "file": "thecursedone-rex-16"
+  },
+  {
+    "line": "Zeph: Um...",
+    "file": "thecursedone-zeph-20"
+  },
+  {
+    "line": "Rex: Zeph. Come on.",
+    "file": "thecursedone-rex-17"
+  },
+  {
+    "line": "Zeph: Hey! I know that I- I need a f- fo- focus, right? We just need to find some... s- some magical materials to ma- make it out of. Even if I- I- I don't know where to... look.",
+    "file": "thecursedone-zeph-21"
+  },
+  {
+    "line": "Rex: Sigh. Okay. Well, luckily for you, I know a spot. Remember that cave to the west of the festival grounds? Soldiers were swarming the place a week or two ago. Blocked it off 'cause of... cursed activity, or something.",
+    "file": "thecursedone-rex-18"
+  },
+  {
+    "line": "Zeph: And... y- you- you think there might be s- some- something there?",
+    "file": "thecursedone-zeph-22"
+  },
+  {
+    "line": "Rex: Yep! Why else would they prevent people from going there for so long? There's gotta be something.",
+    "file": "thecursedone-rex-19"
+  },
+  {
+    "line": "Zeph: Okay. It's w- worth a shot... Thanks for the help, Rex.",
+    "file": "thecursedone-zeph-23"
+  },
+  {
+    "line": "Rex: Don't mention it. We'll just have to follow those blue flowers, they'll lead us right to the cave. I'll stand guard outside while you two search it.",
+    "file": "thecursedone-rex-20"
+  },
+  {
+    "line": "Zeph: Sounds g- good. Let's go!",
+    "file": "thecursedone-zeph-24"
+  },
+  {
+    "line": "Rex: ...Hm? What? I'm not here for you, just to be clear.",
+    "file": "thecursedone-rex-21"
+  },
+  {
+    "line": "Rex: You should stop wasting time talking to me, and hurry up after Zeph already.",
+    "file": "thecursedone-rex-22"
+  },
+  {
+    "line": "Rex: He's probably trying to compete with you to see who can get to the end fastest, and every second you spend here is not doing you any favors in beating him.",
+    "file": "thecursedone-rex-23"
+  },
+  {
+    "line": "Rex: Heh. Not that you'd win anyway!",
+    "file": "thecursedone-rex-24"
+  },
+  {
+    "line": "Zeph: Hah! Too s- sl- slow! I guess I probably sh- should- should've warned you about the r- roly-bugs...",
+    "file": "thecursedone-zeph-25"
+  },
+  {
+    "line": "Zeph: If you're quiet en- enough, they usually don't bother you. I th- th- I think you even woke up the lea- leader of the colony!",
+    "file": "thecursedone-zeph-26"
+  },
+  {
+    "line": "Zeph: Anyway... I think Rex was right. Lo- look at these crystals! If- if a- any- anything's magical, it's got to be them!",
+    "file": "thecursedone-zeph-27"
+  },
+  {
+    "line": "Zeph: Let's grab some and g- get- get out of here. We don't want to get c- cau- caught in a res- restricted area.",
+    "file": "thecursedone-zeph-28"
+  },
+  {
+    "line": "Zeph: I'll take one... M- may- maybe we should take some more? In ca- c- in case anyone else wants to- y- you know. Co- coming back here again later would be da- dangerous.",
+    "file": "thecursedone-zeph-29"
+  },
+  {
+    "line": "Rex: Took you long enough! So, who won the race?",
+    "file": "thecursedone-rex-25"
+  },
+  {
+    "line": "Zeph: You say that like you don't a- al- already know, Rex!",
+    "file": "thecursedone-zeph-30"
+  },
+  {
+    "line": "Rex: Excuses, excuses. You should always have your guard up around Zeph. You never know when he'll strike with a surprise race.",
+    "file": "thecursedone-rex-26"
+  },
+  {
+    "line": "Zeph: Am I tha- that predictable?",
+    "file": "thecursedone-zeph-31"
+  },
+  {
+    "line": "Rex: Uh... yeah? Obviously?",
+    "file": "thecursedone-rex-27"
+  },
+  {
+    "line": "Zeph: Well... it- it's fun!",
+    "file": "thecursedone-zeph-32"
+  },
+  {
+    "line": "Rex: Sure, Zeph. Well, what'd you find? I haven't seen anybody out here, so I think we're in the clear to go if we're done here.",
+    "file": "thecursedone-rex-28"
+  },
+  {
+    "line": "Zeph: We fou- found some crystals growing at the end of the cave. They f- fe- feel magical to me, so... they should w- wor- work. Let's get going back.",
+    "file": "thecursedone-zeph-33"
+  },
+  {
+    "line": "Zeph: Let's get going back. I r- really hope these crystals w- wor- work.",
+    "file": "thecursedone-zeph-34"
+  },
+  {
+    "line": "Rex: Come on. Just because we're in the clear now doesn't mean we can dilly-dally. Let's go.",
+    "file": "thecursedone-rex-29"
+  },
+  {
+    "line": "Mora: ...Ah! You return! I'd best inform miss Syndra of your arrival.",
+    "file": "thecursedone-mora-19"
+  },
+  {
+    "line": "Zeph: You were wai- waiting for us? Why?",
+    "file": "thecursedone-zeph-35"
+  },
+  {
+    "line": "Mora: Hrm... I suppose your words resonated with me, in the end. Having taken some time to mull it over while you were gone... I must admit, you make a solid point.",
+    "file": "thecursedone-mora-20"
+  },
+  {
+    "line": "Mora: As of late, I have felt a distinct lack of impact in our actions. Certainly- we've done good for the downtrodden and overlooked! But we have failed to make any real change.",
+    "file": "thecursedone-mora-21"
+  },
+  {
+    "line": "Rex: Well, you're not the only one feeling that way, if it makes you feel any better. I think Syndra's the same.",
+    "file": "thecursedone-rex-30"
+  },
+  {
+    "line": "Mora: Even more reason to try something new, then! This... magic, as you call it- if indeed it is what you have described, though I still have my doubts-",
+    "file": "thecursedone-mora-22"
+  },
+  {
+    "line": "Rex: I do too.",
+    "file": "thecursedone-rex-31"
+  },
+  {
+    "line": "Mora: Yes, Rex, I appreciate the encouragement- as I was saying, it could be just what we need to truly make a difference.",
+    "file": "thecursedone-mora-23"
+  },
+  {
+    "line": "Zeph: ...I h- ho- hope so. Um... you said you were g- go- going to tell Syndra we were back?",
+    "file": "thecursedone-zeph-36"
+  },
+  {
+    "line": "Mora: So I was! Allow me one moment, please.",
+    "file": "thecursedone-mora-24"
+  },
+  {
+    "line": "Rex: ...You're really sure you want to go through with this, Zeph?",
+    "file": "thecursedone-rex-32"
+  },
+  {
+    "line": "Zeph: I- I am. I w- wa- I want to try it! Maybe then, I could...",
+    "file": "thecursedone-zeph-37"
+  },
+  {
+    "line": "Rex: Okay! Okay. It's your choice. I just worry sometimes!",
+    "file": "thecursedone-rex-33"
+  },
+  {
+    "line": "Zeph: I... I ne- need to get into the r- r- right mood for it, I thi- I- I think. I'm... kind of ner- nervous, actually.",
+    "file": "thecursedone-zeph-38"
+  },
+  {
+    "line": "Zeph: ...Hey, soldier, could you... do- d- do some magic. As a- a d- dem- demonstration!",
+    "file": "thecursedone-zeph-39"
+  },
+  {
+    "line": "Rex: Is that safe?",
+    "file": "thecursedone-rex-34"
+  },
+  {
+    "line": "Zeph: N- no, she- she's just paranoid. It'll be f- f- fine! You were casting sp- spells in the cave a- and- and nothing bad happened!",
+    "file": "thecursedone-zeph-40"
+  },
+  {
+    "line": "Rex: Sigh. If you insist, Zeph. Whatever you do had better be cool though, soldier.",
+    "file": "thecursedone-rex-35"
+  },
+  {
+    "line": "Rex: Hm, I don't quite like the sound of \"probably.\"",
+    "file": "thecursedone-rex-36"
+  },
+  {
+    "line": "Zeph: Good- g- good enough for me! Come on, soldier, sh- show- show me a spell!",
+    "file": "thecursedone-zeph-41"
+  },
+  {
+    "line": "Zeph: Woah! That w- was cool! Can you d- do- do it again?",
+    "file": "thecursedone-zeph-42"
+  },
+  {
+    "line": "Rex: ...Hm. I guess it was alright.",
+    "file": "thecursedone-rex-37"
+  },
+  {
+    "line": "Syndra: What's going on out here? I heard-",
+    "file": "thecursedone-syndra-36"
+  },
+  {
+    "line": "Zeph: The soldier is show- sh- showing me some magic!",
+    "file": "thecursedone-zeph-43"
+  },
+  {
+    "line": "Syndra: ... I take it you found what you were looking for then?",
+    "file": "thecursedone-syndra-37"
+  },
+  {
+    "line": "Rex: Yup. Cursed crystals from the roly-nest.",
+    "file": "thecursedone-rex-38"
+  },
+  {
+    "line": "Syndra: The... of all places, you went to the roly-nest?! Did you even consider the risk?!",
+    "file": "thecursedone-syndra-38"
+  },
+  {
+    "line": "Syndra: What if you were caught? We are only able to operate here because we avoid drawing attention to ourselves. If you had been seen-",
+    "file": "thecursedone-syndra-39"
+  },
+  {
+    "line": "Rex: But we weren't. I know the shift schedule of the guards, nobody was going to stop by while we were there.",
+    "file": "thecursedone-rex-39"
+  },
+  {
+    "line": "Syndra: ...sigh. You children, you'll be the death of me. Fine. You found the crystals, and you weren't spotted - good.",
+    "file": "thecursedone-syndra-40"
+  },
+  {
+    "line": "Sui: Um... not to interrupt, or, anything, but... I missed the c- magic. Could you... show us some more?",
+    "file": "thecursedone-sui-2"
+  },
+  {
+    "line": "Mora: Hmph. Impressive!",
+    "file": "thecursedone-mora-25"
+  },
+  {
+    "line": "Syndra: Indeed. Thank you for the demonstration, soldier. Now, we should-",
+    "file": "thecursedone-syndra-41"
+  },
+  {
+    "line": "Zeph: Oh! Syndra, do- d- do you think you could show us something t- t- too? You're b- bl- blessed, so maybe it'd be-",
+    "file": "thecursedone-zeph-44"
+  },
+  {
+    "line": "Syndra: No.",
+    "file": "thecursedone-syndra-42"
+  },
+  {
+    "line": "Zeph: ... O- o- okay! If- if you s- say- say so...",
+    "file": "thecursedone-zeph-45"
+  },
+  {
+    "line": "Syndra: If we're done with the demonstrations, we should discuss-",
+    "file": "thecursedone-syndra-43"
+  },
+  {
+    "line": "Zeph: But- b- but I want to tr- try now! I have a- a fo- focus, so I sh- should- I should be able to do... something.",
+    "file": "thecursedone-zeph-46"
+  },
+  {
+    "line": "Syndra: Sigh. Yes, alright, Zeph. But let me guide you through it, would you?",
+    "file": "thecursedone-syndra-44"
+  },
+  {
+    "line": "Syndra: Take your position, Zeph. Everyone else, let's move out of the way.",
+    "file": "thecursedone-syndra-45"
+  },
+  {
+    "line": "Mora: Yes, indeed, it would not do well for us to be injured, unintentionally or otherwise. Come on, Sui!",
+    "file": "thecursedone-mora-26"
+  },
+  {
+    "line": "Rex: And we're sure this is safe?",
+    "file": "thecursedone-rex-40"
+  },
+  {
+    "line": "Mora: We have all seen the soldier in action, and they appear to be unharmed, no?",
+    "file": "thecursedone-mora-27"
+  },
+  {
+    "line": "Rex: Okay, sure, but what if someone sees? It's not like we're especially hidden here.",
+    "file": "thecursedone-rex-41"
+  },
+  {
+    "line": "Mora: You know as well as I that the only ones showing up in these parts are outcasts and drunks!",
+    "file": "thecursedone-mora-28"
+  },
+  {
+    "line": "Syndra: In any case, we can make it quick. Zeph, are you ready?",
+    "file": "thecursedone-syndra-46"
+  },
+  {
+    "line": "Zeph: Yes! I- I- I'm ready.",
+    "file": "thecursedone-zeph-47"
+  },
+  {
+    "line": "Syndra: Close your eyes, and hold the crystal close to your chest. Concentrate on the points of contact. Your hands, your chest. Do you feel anything?",
+    "file": "thecursedone-syndra-47"
+  },
+  {
+    "line": "Zeph: ...oh! I- I do! It's l- l- like... st- static electricity, li- little sparks bouncing around...",
+    "file": "thecursedone-zeph-48"
+  },
+  {
+    "line": "Syndra: Good. Now, you'll try to draw your focus inwards. Imagine the sparks being pulled towards the center of your body. Feel them gathering together.",
+    "file": "thecursedone-syndra-48"
+  },
+  {
+    "line": "Zeph: I... okay.",
+    "file": "thecursedone-zeph-49"
+  },
+  {
+    "line": "Syndra: Now, finally, try releasing that energy. Concentrate on the crystal again, the points of contact. Imagine pushing the sparks back into it, and then further, sending them out through the crystal.",
+    "file": "thecursedone-syndra-49"
+  },
+  {
+    "line": "Zeph: A-ah! That- th- that was...",
+    "file": "thecursedone-zeph-50"
+  },
+  {
+    "line": "Rex: Hey! Are you okay? Not hurt? I don't see anything visible, but-",
+    "file": "thecursedone-rex-42"
+  },
+  {
+    "line": "Zeph: W- would you s- st- stop, already? I'm fine!",
+    "file": "thecursedone-zeph-51"
+  },
+  {
+    "line": "Zeph: Ow! What- wh- what was that for?!",
+    "file": "thecursedone-zeph-52"
+  },
+  {
+    "line": "Rex: For being annoying, idiot.",
+    "file": "thecursedone-rex-43"
+  },
+  {
+    "line": "Syndra: Well done, Zeph. You've done just as well as any of the soldiers I've seen receive blessings. Just... as well...",
+    "file": "thecursedone-syndra-50"
+  },
+  {
+    "line": "Syndra: ...was it really that easy all this time?",
+    "file": "thecursedone-syndra-51"
+  },
+  {
+    "line": "Sui: ...um, Syndra. Are you...",
+    "file": "thecursedone-sui-3"
+  },
+  {
+    "line": "Syndra: Yes... yes, I'm alright. soldier, I apologize for doubting you. It would seem... you were right all along.",
+    "file": "thecursedone-syndra-52"
+  },
+  {
+    "line": "Rex: Or maybe Zeph's just cursed...",
+    "file": "thecursedone-rex-44"
+  },
+  {
+    "line": "Syndra: Rex.",
+    "file": "thecursedone-syndra-53"
+  },
+  {
+    "line": "Rex: Sorry! Sorry. No, you're right. It was... cool, I guess. It's just... weird.",
+    "file": "thecursedone-rex-45"
+  },
+  {
+    "line": "Zeph: A- a little, I guess. But it f- f- felt right. Like- l- like I always co- could have done it. Even if it was just sp- spark- sparkles.",
+    "file": "thecursedone-zeph-53"
+  },
+  {
+    "line": "Syndra: That's part of the process. You'll need a proper focus to do more... specially-forged weapons have always done the trick, in my experience.",
+    "file": "thecursedone-syndra-54"
+  },
+  {
+    "line": "Mora: Specially-forged weapons, you say? Miss, is there anything in particular one would need to create one? With the right materials, I'm certain I could forge Zeph what he needs.",
+    "file": "thecursedone-mora-29"
+  },
+  {
+    "line": "Zeph: A- a new weapon? That I ca- can cast ma- magic with?",
+    "file": "thecursedone-zeph-54"
+  },
+  {
+    "line": "Syndra: I could see it coming in use. We'll want more sturdy materials than usual- preferably something that is magical in and of itself... Zeph, do you think you could-",
+    "file": "thecursedone-syndra-55"
+  },
+  {
+    "line": "Zeph: Yes!!! I- I mean, uh, y- yes, I can do that.",
+    "file": "thecursedone-zeph-55"
+  },
+  {
+    "line": "Zeph: ...Okay! Soldier, I kn- I- I know where to start! Me- meet me by the big tree to the n- nor- northeast! The one for the riddle!",
+    "file": "thecursedone-zeph-56"
+  },
+  {
+    "line": "Rex: Enthusiastic as always, isn't he?",
+    "file": "thecursedone-rex-46"
+  },
+  {
+    "line": "Rex: ...don't talk to me.",
+    "file": "thecursedone-rex-47"
+  },
+  {
+    "line": "Syndra: He's taken to it remarkably well, hasn't he? Better than I could have hoped.",
+    "file": "thecursedone-syndra-56"
+  },
+  {
+    "line": "Syndra: Soldier... you have opened a path for me that I never could have imagined. Thank you.",
+    "file": "thecursedone-syndra-57"
+  },
+  {
+    "line": "Mora: I suppose I should get around to firing up the forge... Sui, will you need me for anything?",
+    "file": "thecursedone-mora-30"
+  },
+  {
+    "line": "Sui: Um... n-no, I don't think so.",
+    "file": "thecursedone-sui-4"
+  },
+  {
+    "line": "Zeph: So...",
+    "file": "thecursedone-zeph-57"
+  },
+  {
+    "line": "Zeph: When I m- ma- when I make my weapon... do you think I'll be a- a- able to cast real spells? And not just... poofs of sp- s- sparkles?",
+    "file": "thecursedone-zeph-58"
+  },
+  {
+    "line": "Zeph: Oh...",
+    "file": "thecursedone-zeph-59"
+  },
+  {
+    "line": "Zeph: Oh. O- okay! That means it- it m- might help me, too. Thank you.",
+    "file": "thecursedone-zeph-60"
+  },
+  {
+    "line": "Zeph: Sigh... I was h- h- hoping that- th- that I could do... I- I don't know! Something! A- any- anything to help. But... you're right.",
+    "file": "thecursedone-zeph-61"
+  },
+  {
+    "line": "Zeph: Oh! R- ri- right! Well, Syndra said we sh- should find something magical, right? Well, I- I don't know for- f- for sure if it's magical or not, but...",
+    "file": "thecursedone-zeph-62"
+  },
+  {
+    "line": "Zeph: A long, long time ago, th- this- this tree was more than just a stump! It had long arms st- str- stretching out over the whole forest, watching over th- the people and w- wi- wildlife.",
+    "file": "thecursedone-zeph-63"
+  },
+  {
+    "line": "Zeph: When anyone was hurt, o- or- or unwell, the tree would reach out with its br- branches and grow fruit- fruit that was said to he- h- heal all injuries and illnesses.",
+    "file": "thecursedone-zeph-64"
+  },
+  {
+    "line": "Zeph: It took care of the people, and the p- people took care of the tree. But then- then the c- cur- curse took hold of the people.",
+    "file": "thecursedone-zeph-65"
+  },
+  {
+    "line": "Zeph: In the chaos and d- des- destruction caused by the cursed ones, the tree was hurt. It stopped gr- grow- growing its gifts, and went to sleep... f- forever.",
+    "file": "thecursedone-zeph-66"
+  },
+  {
+    "line": "Zeph: Even after the Queen arrived a- and blessed the people, the tree di- didn't- didn't wake up. Its trust had been broken...",
+    "file": "thecursedone-zeph-67"
+  },
+  {
+    "line": "Zeph: Ev- even though it's just a story... I hope s- some- someday the tree can trust us again. We could- c- could- we could really use its help, these days...",
+    "file": "thecursedone-zeph-68"
+  },
+  {
+    "line": "Zeph: ... A- a- anyway! The cavern you met Syndra in is also said to be s- sa- sacred. And the feel of the crystals reminds me of h- how I feel there.",
+    "file": "thecursedone-zeph-69"
+  },
+  {
+    "line": "Zeph: So- s- so if we can find our way into the tree... we co- could find some m- ma- s- some magical wood. Follow me!",
+    "file": "thecursedone-zeph-70"
+  },
+  {
+    "line": "Zeph: Hey! F- faster than last time! Keep up the im- im- improvement, and maybe soon I'll have to put in mo- more than 10%!",
+    "file": "thecursedone-zeph-71"
+  },
+  {
+    "line": "Zeph: Ha... yeah... Um, earlier you m- me- mentioned that magic can be found in- in everything.",
+    "file": "thecursedone-zeph-72"
+  },
+  {
+    "line": "Zeph: So... so ma- maybe we didn't need to come to- to- to this old tree... But- b- but it feels right to me.",
+    "file": "thecursedone-zeph-73"
+  },
+  {
+    "line": "Zeph: ... Thank you for c- c- coming along.",
+    "file": "thecursedone-zeph-74"
+  },
+  {
+    "line": "Zeph: It's a breath of fresh air, having someone n- n- new around! I don't know, having you around just f- fe- feels... good! Like- like anything is possible!",
+    "file": "thecursedone-zeph-75"
+  },
+  {
+    "line": "Zeph: ... Oh, I- I- I'm getting too sappy. Sorry, sorry!",
+    "file": "thecursedone-zeph-76"
+  },
+  {
+    "line": "Zeph: So, we've gotta find a way into the tr- the tree...",
+    "file": "thecursedone-zeph-77"
+  },
+  {
+    "line": "Zeph: Ha, I- I'm not exactly a wood- woodcutting expert... maybe it'd have been smart to ask Mora t- to- to join us?",
+    "file": "thecursedone-zeph-78"
+  },
+  {
+    "line": "Zeph: ... Do- do you have any ideas? May- maybe you could break through with a sp- spe- spell?",
+    "file": "thecursedone-zeph-79"
+  },
+  {
+    "line": "Zeph: Well... my h- h- my heart is telling me that this wood is what I w- w- what I want!",
+    "file": "thecursedone-zeph-80"
+  },
+  {
+    "line": "Zeph: That old tale... it's one of the o- o- only things I still remember from my childhood.",
+    "file": "thecursedone-zeph-81"
+  },
+  {
+    "line": "Zeph: So, s- so this is definitely what I want my w- we- weapon to be made out of.",
+    "file": "thecursedone-zeph-82"
+  },
+  {
+    "line": "Zeph: Oh... y- y- yeah. Maybe you're right...",
+    "file": "thecursedone-zeph-83"
+  },
+  {
+    "line": "Zeph: I just thought... choosing s- some- something special to me would- would be b- best.",
+    "file": "thecursedone-zeph-84"
+  },
+  {
+    "line": "Zeph: B- but we're here now any- a- anyway, aren't we? So we can just use the- th- the wood here...",
+    "file": "thecursedone-zeph-85"
+  },
+  {
+    "line": "Zeph: Maybe you could break through with a sp- spe- spell?",
+    "file": "thecursedone-zeph-86"
+  },
+  {
+    "line": "Zeph: Woah! What just happened?!",
+    "file": "thecursedone-zeph-87"
+  },
+  {
+    "line": "Zeph: ... Do- do you think the t- tr- the tree heard me earlier? Is it...",
+    "file": "thecursedone-zeph-88"
+  },
+  {
+    "line": "Zeph: This- th- this has to be a sign! Come on, let's go in!",
+    "file": "thecursedone-zeph-89"
+  },
+  {
+    "line": "Zeph: Th- th- there! That should- sh- should be a big enough chunk for Mora... right?",
+    "file": "thecursedone-zeph-90"
+  },
+  {
+    "line": "Zeph: A- and- you're still not fast enough to beat me to th- th- to the end!",
+    "file": "thecursedone-zeph-91"
+  },
+  {
+    "line": "Zeph: Okay, next... We- weapons are usually made of m- me- metal, right? That's why Mora has a f- fo- a forge.",
+    "file": "thecursedone-zeph-92"
+  },
+  {
+    "line": "Zeph: ...I have a- an- an idea! Let's meet up near Espren, wh- where we first met.",
+    "file": "thecursedone-zeph-93"
+  },
+  {
+    "line": "Zeph: O- okay, so. The crown usually uses t- ti- titanium for their equipment. Th- that's what Mora says, at least.",
+    "file": "thecursedone-zeph-94"
+  },
+  {
+    "line": "Zeph: But- b- but, it can be hard to come by, b- be- because the crown keeps most of it for themselves.",
+    "file": "thecursedone-zeph-95"
+  },
+  {
+    "line": "Zeph: Luckily, it's F- F- Festival time, so a bunch of m- merchants are in town! And they're fr- from all over the p- pr- province, not just here!",
+    "file": "thecursedone-zeph-96"
+  },
+  {
+    "line": "Zeph: So someone m- must have titanium, somewhere... we'll j- just- just have to look around.",
+    "file": "thecursedone-zeph-97"
+  },
+  {
+    "line": "Zeph: Ah! Th- that- that's the Sovereign!",
+    "file": "thecursedone-zeph-98"
+  },
+  {
+    "line": "Xao: ...and alongside that, does she really think it's safe to hold the festival right now, sir? That opens up a really big risk!",
+    "file": "thecursedone-xao-1"
+  },
+  {
+    "line": "Zeph: What do you th- th- think they're t- talking about? Come on, let- l- let's shadow them.",
+    "file": "thecursedone-zeph-99"
+  },
+  {
+    "line": "Sovereign Zhiraok: If the cursed thinks they can get past both myself and Her Majesty, they're out of their vector. You don't need to worry about the people.",
+    "file": "thecursedone-sovereignzhiraok-1"
+  },
+  {
+    "line": "Xao: I was more worried about... ...um... W-well, never mind that! If you think we'll all be safe, sir, I'll take you at your word!",
+    "file": "thecursedone-xao-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: Let me rephrase- you don't need to worry about anyone. ...heh. Any- wait. What's that noise?",
+    "file": "thecursedone-sovereignzhiraok-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: Just someone out on a random walk? Back to the point- is everything for the festival shaping up according to schedule?",
+    "file": "thecursedone-sovereignzhiraok-3"
+  },
+  {
+    "line": "Xao: Oh- yes! Yes it is, sir! The vendors have all been assigned, the game stands have all been constructed, we've commissioned a local band... The one you liked last year!",
+    "file": "thecursedone-xao-3"
+  },
+  {
+    "line": "Sovereign Zhiraok: Golden. That rendition of \"CHASE\" is what really sold me on them.",
+    "file": "thecursedone-sovereignzhiraok-4"
+  },
+  {
+    "line": "Xao: That just leaves your speech, sir! Have you- Oh, who am I kidding, you already have it memorized.",
+    "file": "thecursedone-xao-4"
+  },
+  {
+    "line": "Sovereign Zhiraok: Naturally, Xao. We have the whole festival set down to the last point, it looks like. Any more business to factor out?",
+    "file": "thecursedone-sovereignzhiraok-5"
+  },
+  {
+    "line": "Xao: Yes, sir! I've received word that Inquisitor Renn will be arriving tonight, as you sent me to request for!",
+    "file": "thecursedone-xao-5"
+  },
+  {
+    "line": "Sovereign Zhiraok: Fantastic job. I have to remember that the Inquisitors aren't like me. When they're busy they can't just go triple-time... Still, good to have that problem solved.",
+    "file": "thecursedone-sovereignzhiraok-6"
+  },
+  {
+    "line": "Sovereign Zhiraok: You know, they should check your work. This is proof positive they can keep pace with me like you can.",
+    "file": "thecursedone-sovereignzhiraok-7"
+  },
+  {
+    "line": "Xao: Well! Sir! You know I've had to insist you stop and rest sometimes, and Inquisitors do serve the whole of the province, so...",
+    "file": "thecursedone-xao-6"
+  },
+  {
+    "line": "Zeph: Hmm... ev- even with us r- r- raiding Nixeph, he isn't concerned...",
+    "file": "thecursedone-zeph-100"
+  },
+  {
+    "line": "Zeph: A- and- an Inquisitor! Th- that- that's not good. We need to tell the others to be c- ca- careful...",
+    "file": "thecursedone-zeph-101"
+  },
+  {
+    "line": "Zeph: Oh! R- r- right! You're not from here. They're, uh, b- b- bad news. They're sent to d- d- deal with... um, c- cursed ones, and other s- si- similar stuff.",
+    "file": "thecursedone-zeph-102"
+  },
+  {
+    "line": "Zeph: If one's a- around... we have to b- be careful. But, since w- we- since we're here, we should still find the t- ti- titanium.",
+    "file": "thecursedone-zeph-103"
+  },
+  {
+    "line": "Zeph: There's a b- b- bazaar in the tunnel... if anyone wi- will have it, they'll be there.",
+    "file": "thecursedone-zeph-104"
+  },
+  {
+    "line": "Metal Merchant: Fine quality metals, fine quality metals for- Ah, hello, hello! Might you be interested in my stock, friends?",
+    "file": "thecursedone-metalmerchant-1"
+  },
+  {
+    "line": "Metal Merchant: I've got all sorts for sale. Ingots, pre-made bangles and bracelets and trinkets- I've got hold of this lovely iron leaf, in fact. Quite fine decor, I might think!",
+    "file": "thecursedone-metalmerchant-2"
+  },
+  {
+    "line": "Zeph: Hello! We're a- ac- actually looking for titanium! Would you h- ha- happen to have any in stock?",
+    "file": "thecursedone-zeph-105"
+  },
+  {
+    "line": "Metal Merchant: Aha, you're in luck then! I've managed to obtain some from a passing Hyloch merchant! Straight from the Highlands- and so I'm told, quite good quality!",
+    "file": "thecursedone-metalmerchant-3"
+  },
+  {
+    "line": "Metal Merchant: I think the man was struck dumb by the offer of leaves I handed in return, he left with such a bewildered face- but I digress! Would you like ingots, or anything pre-hewn?",
+    "file": "thecursedone-metalmerchant-4"
+  },
+  {
+    "line": "Zeph: Uh... just- j- just some ingots would be fine.",
+    "file": "thecursedone-zeph-106"
+  },
+  {
+    "line": "Metal Merchant: Indeed, then! It is always fine to see those interested in the crafting trades. For this, I might say ten Liff Leaves would be an agreeable price, yes?",
+    "file": "thecursedone-metalmerchant-5"
+  },
+  {
+    "line": "Zeph: Ten!? Oh, f- fine... you said h- high- high quality? It's pr- probably worth the price. Here.",
+    "file": "thecursedone-zeph-107"
+  },
+  {
+    "line": "Metal Merchant: Indeed, friend, so I have been assured! May you have fine fortune in your endeavors!",
+    "file": "thecursedone-metalmerchant-6"
+  },
+  {
+    "line": "Zeph: Soldier, let's go.",
+    "file": "thecursedone-zeph-108"
+  },
+  {
+    "line": "Zeph: Hm... I d- don't- I don't think titanium is meant to have th- these purple streaks...",
+    "file": "thecursedone-zeph-109"
+  },
+  {
+    "line": "Zeph: But I- I- I'm not the blacksmith, so... a- a- and it's not like anyone else is s- se- selling titanium, so.",
+    "file": "thecursedone-zeph-110"
+  },
+  {
+    "line": "Zeph: Huh? Oh, r- r- right, I keep forgetting you don't know e- ev- everything around here.",
+    "file": "thecursedone-zeph-111"
+  },
+  {
+    "line": "Zeph: The Auburn F- Fo- Forest may be a poorer area, so we d- do- don't have many emeralds...",
+    "file": "thecursedone-zeph-112"
+  },
+  {
+    "line": "Zeph: But we make up for it by u- u- using all the varied m- materials from the forest! People here v- val- value things from the wild more than e- em- emeralds.",
+    "file": "thecursedone-zeph-113"
+  },
+  {
+    "line": "Zeph: Liff Leaves especially are in high d- d- demand due to their versatility.",
+    "file": "thecursedone-zeph-114"
+  },
+  {
+    "line": "Zeph: You don't need a- an- anything else? Then I'm r- ready to go.",
+    "file": "thecursedone-zeph-115"
+  },
+  {
+    "line": "Zeph: Want to tr- travel back with me?",
+    "file": "thecursedone-zeph-116"
+  },
+  {
+    "line": "Zeph: Okay! I'll m- m- meet you later, then.",
+    "file": "thecursedone-zeph-117"
+  },
+  {
+    "line": "Zeph: Alrighty! Let's go.",
+    "file": "thecursedone-zeph-118"
+  },
+  {
+    "line": "Zeph: We're back!",
+    "file": "thecursedone-zeph-119"
+  },
+  {
+    "line": "Syndra: Ah! Good, you're just in time.",
+    "file": "thecursedone-syndra-58"
+  },
+  {
+    "line": "Zeph: Uh... in time for wh- what? A- and- and where is everybody?",
+    "file": "thecursedone-zeph-120"
+  },
+  {
+    "line": "Syndra: Have you forgotten? The Festival of the Queen is about to start!",
+    "file": "thecursedone-syndra-59"
+  },
+  {
+    "line": "Zeph: Wh- th- that was today?! Oh, man, I g- g- got so excited about the m- m- the ma- magic... I forgot!",
+    "file": "thecursedone-zeph-121"
+  },
+  {
+    "line": "Zeph: Wait... w- wait, before I go- Syndra, we o- ov- overheard something in town. The S- S- Sovereign said an In- Inquisitor would be arriving t- t- tonight!",
+    "file": "thecursedone-zeph-122"
+  },
+  {
+    "line": "Syndra: ...ah. Well, that pushes ahead our timeline significantly...",
+    "file": "thecursedone-syndra-60"
+  },
+  {
+    "line": "Syndra: Hopefully, they're just here to clear out that cave you found the crystals in, but... better to be safe than sorry.",
+    "file": "thecursedone-syndra-61"
+  },
+  {
+    "line": "Syndra: That can wait until after the festival, though. You should go on ahead and enjoy yourself.",
+    "file": "thecursedone-syndra-62"
+  },
+  {
+    "line": "Zeph: ...if you s- s- say so, Syndra. Soldier, you should c- come to the festival too! See you there!",
+    "file": "thecursedone-zeph-123"
+  },
+  {
+    "line": "Syndra: Ah... there he goes. Well, what do you say? Will you join us for the festival?",
+    "file": "thecursedone-syndra-63"
+  },
+  {
+    "line": "Syndra: It is a celebration of the crown... but you have a limited time here, and it is still a part of our culture. You wouldn't want to miss it.",
+    "file": "thecursedone-syndra-64"
+  },
+  {
+    "line": "Syndra: It's a day for everyone to relax and enjoy themselves. The children certainly do... it's good for them, I think, to have some normalcy.",
+    "file": "thecursedone-syndra-65"
+  },
+  {
+    "line": "Syndra: I'll finish packing some things here, then I'll head on over. You should meet me there. If you head south, the river will lead you right to it.",
+    "file": "thecursedone-syndra-66"
+  },
+  {
+    "line": "Syndra: You're here! Allow me to welcome you to the annual Festival of the Crown.",
+    "file": "thecursedone-syndra-67"
+  },
+  {
+    "line": "Syndra: I have some business to attend to, so Zeph, would you be able to show the soldier around?",
+    "file": "thecursedone-syndra-68"
+  },
+  {
+    "line": "Zeph: Sure! L- le- let's go!",
+    "file": "thecursedone-zeph-124"
+  },
+  {
+    "line": "Zeph: So there's some g- games over there... and right here is the f- foo- food and beverages s- s- stand!",
+    "file": "thecursedone-zeph-125"
+  },
+  {
+    "line": "Zeph: They sell re- r- regional food and drinks. And, a- ac- according to Rex... they've even im- im- imported some fancy alcohol from the h- high- highlands!",
+    "file": "thecursedone-zeph-126"
+  },
+  {
+    "line": "Zeph: Here are some at- attractions, and an animal exhibit! I, uh, d- d- don't- I don't like the Mudkins game very much...",
+    "file": "thecursedone-zeph-127"
+  },
+  {
+    "line": "Zeph: I th- think I saw Sui back there, so... I'm gonna go h- ha- hang out with her. You sh- should check out some of the stalls!",
+    "file": "thecursedone-zeph-128"
+  },
+  {
+    "line": "Zeph: Soldier, hey!",
+    "file": "thecursedone-zeph-129"
+  },
+  {
+    "line": "Zeph: Have you seen an- any- anyone else yet?",
+    "file": "thecursedone-zeph-130"
+  },
+  {
+    "line": "Sui: I was, um, looking for Mora... earlier. I, ah, didn't find him.",
+    "file": "thecursedone-sui-5"
+  },
+  {
+    "line": "Zeph: An- anyway, how are you liking the f- fes- festival?",
+    "file": "thecursedone-zeph-131"
+  },
+  {
+    "line": "Zeph: Hey, th- that's good to hear!",
+    "file": "thecursedone-zeph-132"
+  },
+  {
+    "line": "Sui: Have you, um, had the chance to, to taste any of the food? From the... food stall?",
+    "file": "thecursedone-sui-6"
+  },
+  {
+    "line": "Zeph: Hahaha, as if th- th- there's any left after y- you- you ate so much!",
+    "file": "thecursedone-zeph-133"
+  },
+  {
+    "line": "Sui: Okay... well, I, I was hungry! That's... not my fault.",
+    "file": "thecursedone-sui-7"
+  },
+  {
+    "line": "Sui: Oh... finally, someone else who, um, who gets it.",
+    "file": "thecursedone-sui-8"
+  },
+  {
+    "line": "Zeph: Wh- wh- what?! Sui, you don't like the f- fes- festival?",
+    "file": "thecursedone-zeph-134"
+  },
+  {
+    "line": "Sui: I- I didn't, say that. It's just... a little boring. There's, um, not much to do.",
+    "file": "thecursedone-sui-9"
+  },
+  {
+    "line": "Zeph: There's good f- food, fun rides a- and- and games... okay, m- maybe except the Mudkin g- game...",
+    "file": "thecursedone-zeph-135"
+  },
+  {
+    "line": "Sui: Why don't you, um, like the Mudkins? I... I think they're fun.",
+    "file": "thecursedone-sui-10"
+  },
+  {
+    "line": "Zeph: They're s- s- so- there's no strategy! You j- just pick a random one, and- a- and sometimes you win!",
+    "file": "thecursedone-zeph-136"
+  },
+  {
+    "line": "Sui: Um... okay? And?",
+    "file": "thecursedone-sui-11"
+  },
+  {
+    "line": "Zeph: Unbelievable. Soldier, a- a- are you hearing this?",
+    "file": "thecursedone-zeph-137"
+  },
+  {
+    "line": "Zeph: Okay, wh- whatever... Sui, let's go t- try out the zipline. I wonder if th- th- they changed it this year.",
+    "file": "thecursedone-zeph-138"
+  },
+  {
+    "line": "Sui: ...could we, um, get food first? I'm hungry.",
+    "file": "thecursedone-sui-12"
+  },
+  {
+    "line": "Zeph: A- ag- again?! No, we should do the z- z- zipline first. I don't want you th- thr- throwing up all over me.",
+    "file": "thecursedone-zeph-139"
+  },
+  {
+    "line": "Sui: Oh, shut it. Dummy.",
+    "file": "thecursedone-sui-13"
+  },
+  {
+    "line": "Zeph: You kn- know I'm right! Oh, uh, soldier, you can j- j- join us if you want! It's fun, I pr- promise.",
+    "file": "thecursedone-zeph-140"
+  },
+  {
+    "line": "Kabo: Howdy and welcome to a mudkin farm!",
+    "file": "thecursedone-kabo-1"
+  },
+  {
+    "line": "Kabo: Mudkins are popular vegetables in food around here. They grow underground and you have to yoikn em' out!",
+    "file": "thecursedone-kabo-2"
+  },
+  {
+    "line": "Kabo: Are ya interested in a game of Mudkin Picking?",
+    "file": "thecursedone-kabo-3"
+  },
+  {
+    "line": "Kabo: Basically, ye goal is to get as many points as possible before the time runs out.",
+    "file": "thecursedone-kabo-4"
+  },
+  {
+    "line": "Kabo: There are three sizes of Mudkins, each size gives a set of points. However! There are two ginger roots that give negative points.",
+    "file": "thecursedone-kabo-5"
+  },
+  {
+    "line": "Kabo: Simply click on the dirt particles appearing in the field. There are five spots for ya to pick.",
+    "file": "thecursedone-kabo-6"
+  },
+  {
+    "line": "Kabo: So! Are ya ready?",
+    "file": "thecursedone-kabo-7"
+  },
+  {
+    "line": "Kabo: Enjoy the festival!",
+    "file": "thecursedone-kabo-8"
+  },
+  {
+    "line": "Zoo Keeper: Hey! You look like a tourist to me!",
+    "file": "thecursedone-zookeeper-1"
+  },
+  {
+    "line": "Zoo Keeper: I'm glad you decided to check out my little exhibition here.",
+    "file": "thecursedone-zookeeper-2"
+  },
+  {
+    "line": "Zoo Keeper: Is it your first time in this part of the region? Would you perhaps want to hear some fun facts about our animals?",
+    "file": "thecursedone-zookeeper-3"
+  },
+  {
+    "line": "Zoo Keeper: Marvelous!",
+    "file": "thecursedone-zookeeper-4"
+  },
+  {
+    "line": "Zoo Keeper: First we have our Roly-bugs here! These little buggers are a pest to the people here.",
+    "file": "thecursedone-zookeeper-5"
+  },
+  {
+    "line": "Zoo Keeper: They love gnawing on our houses. Luckily, we built most of our structures on stilts aaaand those bugs can't climb.",
+    "file": "thecursedone-zookeeper-6"
+  },
+  {
+    "line": "Zoo Keeper: Now! Frogs! The north-western bog is the best place for frog-watching. Just be careful of the bog monster.",
+    "file": "thecursedone-zookeeper-7"
+  },
+  {
+    "line": "Zoo Keeper: Frogs might be a good source of food but we like to see them more as... pets!",
+    "file": "thecursedone-zookeeper-8"
+  },
+  {
+    "line": "Zoo Keeper: Lastly, we have foxes! These little cuties are very shy in nature. But beware, there are bigger versions of them, known as Foxhounds.",
+    "file": "thecursedone-zookeeper-9"
+  },
+  {
+    "line": "Zoo Keeper: Those are not as shy... or peaceful, as their smaller cousins. They are just as cute though!",
+    "file": "thecursedone-zookeeper-10"
+  },
+  {
+    "line": "Zoo Keeper: Please have a looksie around! You can also pet them.",
+    "file": "thecursedone-zookeeper-11"
+  },
+  {
+    "line": "Zoo Keeper: Have a loooovely day!",
+    "file": "thecursedone-zookeeper-12"
+  },
+  {
+    "line": "Rex: Will that be enough boar meat, ma'am?",
+    "file": "thecursedone-rex-48"
+  },
+  {
+    "line": "Food Merchant: Yes, dear. Thank you for always being so kind-hearted, helping us out each and every year.",
+    "file": "thecursedone-foodmerchant-1"
+  },
+  {
+    "line": "Rex: No worries, Oya! Hope you sell-... oh. It's you.",
+    "file": "thecursedone-rex-49"
+  },
+  {
+    "line": "Rex: ...what do you want?",
+    "file": "thecursedone-rex-50"
+  },
+  {
+    "line": "Rex: Huh? I'm just here with a delivery. Nothing much.",
+    "file": "thecursedone-rex-51"
+  },
+  {
+    "line": "Rex: You- what? Why?",
+    "file": "thecursedone-rex-52"
+  },
+  {
+    "line": "Rex: ...ugh, why am I humoring you?!",
+    "file": "thecursedone-rex-53"
+  },
+  {
+    "line": "Rex: Just cause you've got everyone else wrapped around your finger, doesn't mean I have to be fine with you!",
+    "file": "thecursedone-rex-54"
+  },
+  {
+    "line": "Rex: Everything was fine until you showed up. I- I- I'd gotten over it! I made a home here, and now- and now, you-",
+    "file": "thecursedone-rex-55"
+  },
+  {
+    "line": "Rex: And- and sure, I'm happy for Zeph, but your- your- your everything, it's got Syndra plotting, and- and we were safe, and you've ruined that.",
+    "file": "thecursedone-rex-56"
+  },
+  {
+    "line": "Rex: So... so, no, I don't have to be okay with you. I don't trust you, I don't trust where you're from, and I definitely don't trust your... your c-",
+    "file": "thecursedone-rex-57"
+  },
+  {
+    "line": "Rex: ...don't talk to me. Okay?",
+    "file": "thecursedone-rex-58"
+  },
+  {
+    "line": "Food Merchant: Hi dear. Feeling peckish?",
+    "file": "thecursedone-foodmerchant-2"
+  },
+  {
+    "line": "Food Merchant: We have freshly cooked and baked regional goods.",
+    "file": "thecursedone-foodmerchant-3"
+  },
+  {
+    "line": "Food Merchant: Would you like to hear about our menu, dear?",
+    "file": "thecursedone-foodmerchant-4"
+  },
+  {
+    "line": "Food Merchant: Have a lovely day.",
+    "file": "thecursedone-foodmerchant-5"
+  },
+  {
+    "line": "Food Merchant: Just perfect! Auburn is famous for their bold, earthy and cosy flavours!",
+    "file": "thecursedone-foodmerchant-6"
+  },
+  {
+    "line": "Food Merchant: We also love to cook using our wild animals and resources, but I'm sure you already know all of this, haha.",
+    "file": "thecursedone-foodmerchant-7"
+  },
+  {
+    "line": "Food Merchant: Let me go over some of our special dishes for today, dear.",
+    "file": "thecursedone-foodmerchant-8"
+  },
+  {
+    "line": "Food Merchant: The most important dish in Auburn, is of course the ''Gift of the Forest''. A wonderful meat and fruit mixture inside a steamed leaf wrap.",
+    "file": "thecursedone-foodmerchant-9"
+  },
+  {
+    "line": "Food Merchant: We have hand wrapped all of our gifts this morning and they are steamed to go!",
+    "file": "thecursedone-foodmerchant-10"
+  },
+  {
+    "line": "Food Merchant: If that doesn't interest you, we also have the classic ''Forest Feast''. A grilled piece of boar meat with a mud-kin salad.",
+    "file": "thecursedone-foodmerchant-11"
+  },
+  {
+    "line": "Food Merchant: I'm afraid we have run out of ingredients at the moment. Please come back later!",
+    "file": "thecursedone-foodmerchant-12"
+  },
+  {
+    "line": "Alcohol Merchant: *Hic* Aheyo!",
+    "file": "thecursedone-alcoholmerchant-1"
+  },
+  {
+    "line": "Alcohol Merchant: It's festival time! *hic* that means... drinking time!!!",
+    "file": "thecursedone-alcoholmerchant-2"
+  },
+  {
+    "line": "Alcohol Merchant: Inteeeerested in any of our mouth-watering beverages?",
+    "file": "thecursedone-alcoholmerchant-3"
+  },
+  {
+    "line": "Alcohol Merchant: What do you say?",
+    "file": "thecursedone-alcoholmerchant-4"
+  },
+  {
+    "line": "Alcohol Merchant: *hic* Your loss!",
+    "file": "thecursedone-alcoholmerchant-5"
+  },
+  {
+    "line": "Alcohol Merchant: *Hic* Todaaaay, we have a couple of imported drinks as well as our classic Autumn Amaretto.",
+    "file": "thecursedone-alcoholmerchant-6"
+  },
+  {
+    "line": "Alcohol Merchant: Speaking ooooof... Have you noticed these blue fruits growing of the trees around here? Weeeelll! Those are called Autumn Fruit.",
+    "file": "thecursedone-alcoholmerchant-7"
+  },
+  {
+    "line": "Alcohol Merchant: Our Amaretto is made from the Autumn Fruit kernels! We have aaaalso mixed in some Liff Leaves which *hic* gives it it's warm colour and slightly bitter and metallic taste.",
+    "file": "thecursedone-alcoholmerchant-8"
+  },
+  {
+    "line": "Alcohol Merchant: Isn't alcohol making interesssting *hic*!",
+    "file": "thecursedone-alcoholmerchant-9"
+  },
+  {
+    "line": "Alcohol Merchant: We also have an imported the faaaamed Heather Beer from the rich highlands.",
+    "file": "thecursedone-alcoholmerchant-10"
+  },
+  {
+    "line": "Alcohol Merchant: A beer infused with the most beautiful heather grown across the highlands. *hic* You can almost taste the richness of the aristocrats.",
+    "file": "thecursedone-alcoholmerchant-11"
+  },
+  {
+    "line": "Alcohol Merchant: *hic* If I were you, I would deeefinitely try this drink. Stuff like this doesn't come to Auburn often.",
+    "file": "thecursedone-alcoholmerchant-12"
+  },
+  {
+    "line": "Alcohol Merchant: If you feel like blessing your taste buds, talk to my brother over there. *hic*",
+    "file": "thecursedone-alcoholmerchant-13"
+  },
+  {
+    "line": "Alcohol Merchant: Maybe it's time to find Syndra near the stage. But I have the time to check out the festival more too...",
+    "file": "thecursedone-alcoholmerchant-14"
+  },
+  {
+    "line": "Tea Stand Merchant: Welcome. Can I interest you in buying anything?",
+    "file": "thecursedone-teastandmerchant-1"
+  },
+  {
+    "line": "Tea Stand Merchant: Perhaps would you like to hear what we have to offer?",
+    "file": "thecursedone-teastandmerchant-2"
+  },
+  {
+    "line": "Tea Stand Merchant: What do you say?",
+    "file": "thecursedone-teastandmerchant-3"
+  },
+  {
+    "line": "Tea Stand Merchant: Alright! Enjoy the festival.",
+    "file": "thecursedone-teastandmerchant-4"
+  },
+  {
+    "line": "Tea Stand Merchant: We are selling both the raw ingredients and some freshly brewed tea.",
+    "file": "thecursedone-teastandmerchant-5"
+  },
+  {
+    "line": "Tea Stand Merchant: Let me bring you on a history lesson to learn about the finest ingredients the forest has to offer.",
+    "file": "thecursedone-teastandmerchant-6"
+  },
+  {
+    "line": "Tea Stand Merchant: Tea is very popular in Auburn and the people have managed to make tea out of almost any plant you can find! Some are... more tasty than others.",
+    "file": "thecursedone-teastandmerchant-7"
+  },
+  {
+    "line": "Tea Stand Merchant: The Reishi Mushroom for example! Brewing tea of the mushroom alone often turns... bitter. With the help of herbs and spices it goes from bitter to a rich spicy flavour!",
+    "file": "thecursedone-teastandmerchant-8"
+  },
+  {
+    "line": "Tea Stand Merchant: The mushroom itself is said to help keep you healthy. It is also said to boost your resistances!",
+    "file": "thecursedone-teastandmerchant-9"
+  },
+  {
+    "line": "Tea Stand Merchant: The Tea Tree Mushroom on the other hand is perfect for a good tea blend. The mushroom alone gives it a sweet and earthy flavour.",
+    "file": "thecursedone-teastandmerchant-10"
+  },
+  {
+    "line": "Tea Stand Merchant: This mushroom is also said to regenerate you back to health and alleviate the feeling of tiredness! How amazing.",
+    "file": "thecursedone-teastandmerchant-11"
+  },
+  {
+    "line": "Tea Stand Merchant: If you feel like buying something, please talk to my assistant.",
+    "file": "thecursedone-teastandmerchant-12"
+  },
+  {
+    "line": "Syndra: ...thank you, Jiro. It's always good to hear from-",
+    "file": "thecursedone-syndra-69"
+  },
+  {
+    "line": "Jiro: Ahem! Hello, stranger.",
+    "file": "thecursedone-jiro-1"
+  },
+  {
+    "line": "Syndra: Hm? Oh, that's just the soldier - they're who I was hoping to write to Quill about. Soldier, this is Jiro, my contact from the Roughworks.",
+    "file": "thecursedone-syndra-70"
+  },
+  {
+    "line": "Jiro: Ah. Well, it's good to meet you then.",
+    "file": "thecursedone-jiro-2"
+  },
+  {
+    "line": "Syndra: Quill is... an old friend. It can be hard for us to stay in contact... discretely... so we often send messages in this way.",
+    "file": "thecursedone-syndra-71"
+  },
+  {
+    "line": "Jiro: Wasn't going to use my yearly rail pass for anything anyway, so might as well.",
+    "file": "thecursedone-jiro-3"
+  },
+  {
+    "line": "Syndra: Well, it's more than I'm able to do, so I appreciate it. In any case, Quill runs his own... organization, shall we say.",
+    "file": "thecursedone-syndra-72"
+  },
+  {
+    "line": "Jiro: ...ahem. Should we get back to it then?",
+    "file": "thecursedone-jiro-4"
+  },
+  {
+    "line": "Syndra: We should. Soldier, take a look around the stalls and come back later.",
+    "file": "thecursedone-syndra-73"
+  },
+  {
+    "line": "Jiro: ...huh? You don't know the-",
+    "file": "thecursedone-jiro-5"
+  },
+  {
+    "line": "Syndra: The Roughworks is the region directly to the south of here, just past that wall. Officially, it's known as the Industrial District.",
+    "file": "thecursedone-syndra-74"
+  },
+  {
+    "line": "Syndra: I can fill you in on it later. This isn't the place for it.",
+    "file": "thecursedone-syndra-75"
+  },
+  {
+    "line": "Syndra: Soldier, take a look around the stalls and come back later.",
+    "file": "thecursedone-syndra-76"
+  },
+  {
+    "line": "Mora: Aha! Hello there, soldier! Enjoying our festival, are you?",
+    "file": "thecursedone-mora-31"
+  },
+  {
+    "line": "Mora: I trust you and Zeph have acquired all the necessary materials in the time since we last spoke?",
+    "file": "thecursedone-mora-32"
+  },
+  {
+    "line": "Mora: As soon as the festival concludes, I shall get right to smithing. I have a good feeling about this one!",
+    "file": "thecursedone-mora-33"
+  },
+  {
+    "line": "Mora: I, ah... I am still learning. But I have greatly improved since I started, worry not!",
+    "file": "thecursedone-mora-34"
+  },
+  {
+    "line": "Mora: ...ehm. I suppose I should return to my report...",
+    "file": "thecursedone-mora-35"
+  },
+  {
+    "line": "Mora: Hm? Ah, yes, I forget this is your first year. First week, even.",
+    "file": "thecursedone-mora-36"
+  },
+  {
+    "line": "Mora: I am... gathering data. Recording the changes since last year's festival- guard positioning and numbers, types of stands, amount of attendees- and so on.",
+    "file": "thecursedone-mora-37"
+  },
+  {
+    "line": "Mora: It is... perhaps unnecessarily thorough. Much of this data has not proven to be useful thus far... but it is something for me to do, and I do it well.",
+    "file": "thecursedone-mora-38"
+  },
+  {
+    "line": "Mora: These festivals... I suppose our discomfort is something Syndra and I share. It can be hard for us to enjoy ourselves, knowing what we do.",
+    "file": "thecursedone-mora-39"
+  },
+  {
+    "line": "Mora: I am grateful that the younger Leaves can still find joy here. Perhaps you might as well, given your... relative lack of history.",
+    "file": "thecursedone-mora-40"
+  },
+  {
+    "line": "Mora: Ah, but I am rambling. If you will excuse me, I need to get back to... counting all the new food items... hm.",
+    "file": "thecursedone-mora-41"
+  },
+  {
+    "line": "Syndra: Ah. There you are. Have you been enjoying yourself?",
+    "file": "thecursedone-syndra-77"
+  },
+  {
+    "line": "Syndra: That's good to hear.",
+    "file": "thecursedone-syndra-78"
+  },
+  {
+    "line": "Syndra: For all that the festival revolves around the crown, I've always appreciated its representation of our culture.",
+    "file": "thecursedone-syndra-79"
+  },
+  {
+    "line": "Syndra: I hope your experience with the crown has not ruined your perception of our province... there are still many things to celebrate.",
+    "file": "thecursedone-syndra-80"
+  },
+  {
+    "line": "Syndra: Sometimes, it can be nice to set aside your woes, and... take things as they are. *Deep breath in through the nose* Breathe, a little.",
+    "file": "thecursedone-syndra-81"
+  },
+  {
+    "line": "Syndra: Better than nothing, I suppose.",
+    "file": "thecursedone-syndra-82"
+  },
+  {
+    "line": "Syndra: It's hard to enjoy yourself with your experiences with the crown weighing you down, isn't it? I know the feeling.",
+    "file": "thecursedone-syndra-83"
+  },
+  {
+    "line": "Syndra: Mmn. I'd suggest to take what you can get. Happy moments like this can be fleeting, in my experience.",
+    "file": "thecursedone-syndra-84"
+  },
+  {
+    "line": "Syndra: If there's even the smallest spark of joy... take hold of it before it's gone. Cherish it while you still can. Try not to grow old and jaded like I have, would you?",
+    "file": "thecursedone-syndra-85"
+  },
+  {
+    "line": "Syndra: Ha! It's alright. Neither have I.",
+    "file": "thecursedone-syndra-86"
+  },
+  {
+    "line": "Syndra: Every year... every single year, the crown hosts these festivals. Starting here, and moving around in a ring around the province.",
+    "file": "thecursedone-syndra-87"
+  },
+  {
+    "line": "Syndra: The festival's a holiday, a day of rest, of celebration. What a gift it is, not needing to work for a time! How generous.",
+    "file": "thecursedone-syndra-88"
+  },
+  {
+    "line": "Syndra: I can't stand it here... Every year, I convince myself I can bear it. The reminder it brings, of memories long passed. Every year, I'm proven wrong.",
+    "file": "thecursedone-syndra-89"
+  },
+  {
+    "line": "Syndra: ...Ah. It's time. The main event is about to begin.",
+    "file": "thecursedone-syndra-90"
+  },
+  {
+    "line": "Syndra: Why, Her Majesty's annual speech, of course! It wouldn't be a Festival of the Crown if she didn't make an appearance, would it?",
+    "file": "thecursedone-syndra-91"
+  },
+  {
+    "line": "Syndra: Now... observe. Behold our enemy, take note of how she presents herself, what she says, what she doesn't say.",
+    "file": "thecursedone-syndra-92"
+  },
+  {
+    "line": "Syndra: Ha! No, no. Of course not. It wouldn't be a Festival of the Crown without a speech from Her Majesty herself, would it?",
+    "file": "thecursedone-syndra-93"
+  },
+  {
+    "line": "Her Majesty: Ah... beloved people of the Auburn Forest! What a joy, what an honor it is to stand amongst you once again. *Hands slightly outstretched in a welcoming fashion in front of her*",
+    "file": "thecursedone-hermajesty-1"
+  },
+  {
+    "line": "Her Majesty: Some will claim the stunning Highlands to be our most beautiful region, with its vibrant blossoming trees and grand historic castles...",
+    "file": "thecursedone-hermajesty-2"
+  },
+  {
+    "line": "Her Majesty: But I've always held a special regard for this place. The leaves and their warm shades, blowing in the soft breeze... all the woes of the world would be worth this sight.",
+    "file": "thecursedone-hermajesty-3"
+  },
+  {
+    "line": "Her Majesty: If I were able, perhaps I could stay here year-round! Ah, but alas... work in the Citadel keeps us all occupied!",
+    "file": "thecursedone-hermajesty-4"
+  },
+  {
+    "line": "Her Majesty: We have many plans for the coming year. Increased imports from the other regions, easier access to travel for all, and additional openings in military positions!",
+    "file": "thecursedone-hermajesty-5"
+  },
+  {
+    "line": "Her Majesty: More will be revealed soon. Now, some words from your beloved Sovereign.",
+    "file": "thecursedone-hermajesty-6"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...ah. The one thing I miscalculated. The mic height. Oh well- Testing, testing, one two three...",
+    "file": "thecursedone-sovereignzhiraok-8"
+  },
+  {
+    "line": "Sovereign Zhiraok: Welcome one and all! I'm your Sovereign, Zhiraok. It's an honor to be here before you all again today.",
+    "file": "thecursedone-sovereignzhiraok-9"
+  },
+  {
+    "line": "Sovereign Zhiraok: Two decades of work in the Auburn Forest. Twenty years. It feels like I've been here for so much longer- this place, these people, really have become my home.",
+    "file": "thecursedone-sovereignzhiraok-10"
+  },
+  {
+    "line": "Sovereign Zhiraok: My duty is not just to serve the Crown, but also to serve you. To make your lives better, to raise this region we live in to new heights.",
+    "file": "thecursedone-sovereignzhiraok-11"
+  },
+  {
+    "line": "Sovereign Zhiraok: Whether that's by increasing production of Liff Leaves to share our resources and knowledge the province over, which we owe to your hard work...",
+    "file": "thecursedone-sovereignzhiraok-12"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...or through sharpening our infrastructure to exponentiate your quality of life, in thanks for what you do!",
+    "file": "thecursedone-sovereignzhiraok-13"
+  },
+  {
+    "line": "Sovereign Zhiraok: I'd be here all day listing all the improvements over the last year, but I'll summarize- Multiple major road improvements, countless new job opportunities, multiplying guard patrols to keep you safe...",
+    "file": "thecursedone-sovereignzhiraok-14"
+  },
+  {
+    "line": "Sovereign Zhiraok: The place we came from twenty years ago is unrecognizable now. My vow is that twenty years ahead, I can say the same thing for how much more we, together, improve our home.",
+    "file": "thecursedone-sovereignzhiraok-15"
+  },
+  {
+    "line": "Sovereign Zhiraok: 'til the day we sum up to the grandeur of Aelumia Citadel- Thank you all! Enjoy the festivities!",
+    "file": "thecursedone-sovereignzhiraok-16"
+  },
+  {
+    "line": "Her Majesty: What fine work Sovereign Zhiraok has done for our province! Truly, there could have been no better choice to fill that role!",
+    "file": "thecursedone-hermajesty-7"
+  },
+  {
+    "line": "Her Majesty: The Auburn Forest flourishes under his governance, and I could not be more pleased by the progress he has made.",
+    "file": "thecursedone-hermajesty-8"
+  },
+  {
+    "line": "Her Majesty: One final message before we conclude. These past years, we have seen fewer and fewer reports of the cursed - a sign of our strength as a people.",
+    "file": "thecursedone-hermajesty-9"
+  },
+  {
+    "line": "Her Majesty: And it is all thanks to you! Your diligent reporting of suspicious activity makes all the difference in keeping our province safe.",
+    "file": "thecursedone-hermajesty-10"
+  },
+  {
+    "line": "Her Majesty: We must stand strong, together! We will not allow this evil its victory, we will not let our province fall like so many others have beyond our walls!",
+    "file": "thecursedone-hermajesty-11"
+  },
+  {
+    "line": "Her Majesty: With that, let the celebrations begin!",
+    "file": "thecursedone-hermajesty-12"
+  },
+  {
+    "line": "Syndra: Hm... The standard, then.",
+    "file": "thecursedone-syndra-94"
+  },
+  {
+    "line": "Syndra: Did anything stand out to you?",
+    "file": "thecursedone-syndra-95"
+  },
+  {
+    "line": "Syndra: Indeed, it is. It's quite puzzling, isn't it? It's a sort of reverence she never displays elsewhere.",
+    "file": "thecursedone-syndra-96"
+  },
+  {
+    "line": "Syndra: And if there is one thing I'm certain she's being truthful about, it's this. Which only makes it all the stranger.",
+    "file": "thecursedone-syndra-97"
+  },
+  {
+    "line": "Syndra: Yes, yes... improvements. Life has improved since he ascended to that position, I'll give him that. He's invested in Auburn.",
+    "file": "thecursedone-syndra-98"
+  },
+  {
+    "line": "Syndra: But he is still working under the crown. Don't forget that. For every improvement he has made, there's another he has left ignored.",
+    "file": "thecursedone-syndra-99"
+  },
+  {
+    "line": "Syndra: No, I suppose they wouldn't. Better to leave the public unaware of such failures.",
+    "file": "thecursedone-syndra-100"
+  },
+  {
+    "line": "Syndra: But rest assured that internally, they have not forgotten. They will keep searching for you.",
+    "file": "thecursedone-syndra-101"
+  },
+  {
+    "line": "Syndra: Yes... the cursed. The crown needs to keep the people afraid. If there's another enemy out there that the crown supposedly protects them from...",
+    "file": "thecursedone-syndra-102"
+  },
+  {
+    "line": "Syndra: There's a reason they want people to believe the outside world is destroyed. Any contact could break the illusion.",
+    "file": "thecursedone-syndra-103"
+  },
+  {
+    "line": "Syndra: They'll be closing out the festival soon... so, our work here is done. We should be leaving before the crowd thins enough for us to be spotted.",
+    "file": "thecursedone-syndra-104"
+  },
+  {
+    "line": "Syndra: I've scheduled a meeting for tomorrow- I'd like for you to attend. It'll be about our next steps, now that the crown has moved on. I'll see you there.",
+    "file": "thecursedone-syndra-105"
+  },
+  {
+    "line": "???: Sovereign, a word?",
+    "file": "thecursedone-sovereigntwo-1"
+  },
+  {
+    "line": "Sovereign Zhiraok: I think I've had just about enough of people sneaking into my office. Care to knock next time?",
+    "file": "thecursedone-sovereignzhiraok-17"
+  },
+  {
+    "line": "???: Mmn. It's more interesting this way. I have news from the capital - your request for additional troops has been granted. Reassignments should come through by the end of the week.",
+    "file": "thecursedone-sovereigntwo-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: Well, that'll solve some problems. But that's not the whole message, is it? What obtuse remark has he got for me this time?",
+    "file": "thecursedone-sovereignzhiraok-18"
+  },
+  {
+    "line": "???: Merely a reminder to... ''get your act together,'' as it were.",
+    "file": "thecursedone-sovereigntwo-3"
+  },
+  {
+    "line": "Sovereign Zhiraok: Get my act toge- That floundering fractal's developed less in his quadrant in a hundred-fifty years than I've done in two, in the last ten!",
+    "file": "thecursedone-sovereignzhiraok-19"
+  },
+  {
+    "line": "Sovereign Zhiraok: I- Ugh, focus, Z... He's not even here, don't let him get under your skin...",
+    "file": "thecursedone-sovereignzhiraok-20"
+  },
+  {
+    "line": "Sovereign Zhiraok: I'll get off that tangent. If that was all you had to say, it'd be a waste of your time. What do you need to say that a courier can't send in a letter?",
+    "file": "thecursedone-sovereignzhiraok-21"
+  },
+  {
+    "line": "???: The intruder. Does your administration believe it can get the situation under control?",
+    "file": "thecursedone-sovereigntwo-4"
+  },
+  {
+    "line": "Sovereign Zhiraok: There it is. Listen, I've got their number, alright? There's no way in or out of the district where they won't be detected. We'll track them down.",
+    "file": "thecursedone-sovereignzhiraok-22"
+  },
+  {
+    "line": "Sovereign Zhiraok: Though unlike some people, my ego isn't so massive I can't recognize when an ally can be of use. Your types have an expertise here, so if you could spare a set or two of eyes it'd be much appreciated.",
+    "file": "thecursedone-sovereignzhiraok-23"
+  },
+  {
+    "line": "???: I'll see what I can do. There happens to be an ongoing operation in the area already, we can discuss redirecting the agent once it's concluded.",
+    "file": "thecursedone-sovereigntwo-5"
+  },
+  {
+    "line": "???: One last thing- the identity of the intruder has been made clear to you already, yes?",
+    "file": "thecursedone-sovereigntwo-6"
+  },
+  {
+    "line": "Sovereign Zhiraok: Mhm. Like I said, I've got their number.",
+    "file": "thecursedone-sovereignzhiraok-24"
+  },
+  {
+    "line": "???: Then you will understand Her Majesty's order not to speak of this ordeal to our newest. Ascension is a difficult process, and it would be... unwise to add additional distractions to it.",
+    "file": "thecursedone-sovereigntwo-7"
+  },
+  {
+    "line": "Sovereign Zhiraok: Wouldn't want to distract a hard worker like him, right. But if that's everything, Spymaster? My to-do list is getting more added by the minute.",
+    "file": "thecursedone-sovereignzhiraok-25"
   }
 ]
