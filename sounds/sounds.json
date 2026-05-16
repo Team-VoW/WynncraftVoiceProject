@@ -54944,10 +54944,11 @@
   {
     "line": "King of Ragni: You are correct, doctor. I have been told that a representative will greet you all at the royal gates of Fruma, situated on the western coast.",
     "file": "queensrecruit-ragniking-9"
-  },  {
-  "line": "Ragni's King: You are correct, doctor. I have been told that a representative will greet you all at the royal gates of Fruma, situated on the western coast.",
-  "file": "queensrecruit-ragniking-9"
-},
+  },
+  {
+    "line": "Ragni's King: You are correct, doctor. I have been told that a representative will greet you all at the royal gates of Fruma, situated on the western coast.",
+    "file": "queensrecruit-ragniking-9"
+  },
   {
     "line": "King of Ragni: I've sent a courier ahead to Nemract to inform the local captains of the destination they are to take you to.",
     "file": "queensrecruit-ragniking-10"
@@ -58546,7 +58547,7 @@
     "file": "thecursedone-mora-8"
   },
   {
-    "line": "Zeph: I d- d- don't know... The soldier doesn't seem like they're l- ly- like they're lying. What- wh- what if it is true?",
+    "line": "Zeph: I d- d- don't know... soldier doesn't seem like they're l- ly- like they're lying. What- wh- what if it is true?",
     "file": "thecursedone-zeph-7"
   },
   {
@@ -58574,7 +58575,7 @@
     "file": "thecursedone-rex-11"
   },
   {
-    "line": "Mora: Now, now, Rex. Don't be so hasty in writing it off entirely. You have seen with your own eyes what the soldier can do!",
+    "line": "Mora: Now, now, Rex. Don't be so hasty in writing it off entirely. You have seen with your own eyes what soldier can do!",
     "file": "thecursedone-mora-10"
   },
   {
@@ -58638,7 +58639,7 @@
     "file": "thecursedone-zeph-12"
   },
   {
-    "line": "Syndra: Zeph, even if the soldier's information is true, it doesn't mean it's immediately applicable.",
+    "line": "Syndra: Zeph, even if soldier's information is true, it doesn't mean it's immediately applicable.",
     "file": "thecursedone-syndra-27"
   },
   {
@@ -58954,7 +58955,7 @@
     "file": "thecursedone-syndra-36"
   },
   {
-    "line": "Zeph: The soldier is show- sh- showing me some magic!",
+    "line": "Zeph: soldier is show- sh- showing me some magic!",
     "file": "thecursedone-zeph-43"
   },
   {
@@ -59030,7 +59031,7 @@
     "file": "thecursedone-rex-40"
   },
   {
-    "line": "Mora: We have all seen the soldier in action, and they appear to be unharmed, no?",
+    "line": "Mora: We have all seen soldier in action, and they appear to be unharmed, no?",
     "file": "thecursedone-mora-27"
   },
   {
@@ -59554,7 +59555,7 @@
     "file": "thecursedone-syndra-67"
   },
   {
-    "line": "Syndra: I have some business to attend to, so Zeph, would you be able to show the soldier around?",
+    "line": "Syndra: I have some business to attend to, so Zeph, would you be able to show soldier around?",
     "file": "thecursedone-syndra-68"
   },
   {
@@ -59862,7 +59863,7 @@
     "file": "thecursedone-alcoholmerchant-7"
   },
   {
-    "line": "Alcohol Merchant: Our Amaretto is made from the Autumn Fruit kernels! We have aaaalso mixed in some Liff Leaves which *hic* gives it it's warm colour and slightly bitter and metallic taste.",
+    "line": "Alcohol Merchant: The Amaretto is made from Autumn Fruit kernels! We have aaaalso mixed in some Liff Leaves which *hic* gives it it's warm colour and slightly bitter and metallic taste.",
     "file": "thecursedone-alcoholmerchant-8"
   },
   {
@@ -59946,7 +59947,7 @@
     "file": "thecursedone-jiro-1"
   },
   {
-    "line": "Syndra: Hm? Oh, that's just the soldier - they're who I was hoping to write to Quill about. Soldier, this is Jiro, my contact from the Roughworks.",
+    "line": "Syndra: Hm? Oh, that's just soldier- they're who I was hoping to write to Quill about. soldier, this is Jiro, my contact from the Roughworks.",
     "file": "thecursedone-syndra-70"
   },
   {
@@ -60050,7 +60051,7 @@
     "file": "thecursedone-syndra-80"
   },
   {
-    "line": "Syndra: Sometimes, it can be nice to set aside your woes, and... take things as they are. *Deep breath in through the nose* Breathe, a little.",
+    "line": "Syndra: Sometimes, it can be nice to set aside your woes, and... take things as they are. Breathe, a little.",
     "file": "thecursedone-syndra-81"
   },
   {
@@ -60102,7 +60103,7 @@
     "file": "thecursedone-syndra-93"
   },
   {
-    "line": "Her Majesty: Ah... beloved people of the Auburn Forest! What a joy, what an honor it is to stand amongst you once again. *Hands slightly outstretched in a welcoming fashion in front of her*",
+    "line": "Her Majesty: Ah... beloved people of the Auburn Forest! What a joy, what an honor it is to stand amongst you once again.",
     "file": "thecursedone-hermajesty-1"
   },
   {
@@ -60306,15 +60307,15 @@
     "file": "revelationsinfall-syndra-2"
   },
   {
-    "line": "Syndra: We have been doing good for the people of Auburn! But our resources are limited, and our opportunities to take action are even more so. {Attempting to assuage the Leaves; being realistic)",
+    "line": "Syndra: We have been doing good for the people of Auburn! But our resources are limited, and our opportunities to take action are even more so.",
     "file": "revelationsinfall-syndra-3"
   },
   {
-    "line": "Syndra: Additionally, our risks of operation grow by the day. I do not regret taking in the soldier as a member, but it's no secret that we risk more scrutiny by having them here.",
+    "line": "Syndra: Additionally, our risks of operation grow by the day. I do not regret taking in soldier as a member, but it's no secret that we risk more scrutiny by having them here.",
     "file": "revelationsinfall-syndra-4"
   },
   {
-    "line": "Syndra: Zeph and the soldier learned yesterday that an Inquisitor is arriving in the area. We don't know what for exactly, but their presence further endangers our cause.",
+    "line": "Syndra: Zeph and soldier learned yesterday that an Inquisitor is arriving in the area. We don't know what for exactly, but their presence further endangers our cause.",
     "file": "revelationsinfall-syndra-5"
   },
   {
@@ -60362,7 +60363,7 @@
     "file": "revelationsinfall-syndra-11"
   },
   {
-    "line": "Sui: You'll... need my medicine. So I'll go…",
+    "line": "Sui: You'll... need my medicine. So I'll go...",
     "file": "revelationsinfall-sui-1"
   },
   {
@@ -60378,7 +60379,7 @@
     "file": "revelationsinfall-syndra-13"
   },
   {
-    "line": "Syndra: As for you, soldier…",
+    "line": "Syndra: As for you, soldier...",
     "file": "revelationsinfall-syndra-14"
   },
   {
@@ -60410,15 +60411,15 @@
     "file": "revelationsinfall-mora-2"
   },
   {
-    "line": "Zeph: I- I just…",
+    "line": "Zeph: I- I just...",
     "file": "revelationsinfall-zeph-3"
   },
   {
-    "line": "Mora: Ah, no matter! Come now, other children... and the soldier, of course! Let us all take some time to say our goodbyes. We don't know when we'll be back, after all!",
+    "line": "Mora: Ah, no matter! Come now, other children... and soldier, of course! Let us all take some time to say our goodbyes. We don't know when we'll be back, after all!",
     "file": "revelationsinfall-mora-3"
   },
   {
-    "line": "Sui: If we'll be back at all…",
+    "line": "Sui: If we'll be back at all...",
     "file": "revelationsinfall-sui-3"
   },
   {
@@ -60454,7 +60455,7 @@
     "file": "revelationsinfall-zeph-7"
   },
   {
-    "line": "Zeph: And besides, it's not like I have a- any- anything better to do…",
+    "line": "Zeph: And besides, it's not like I have a- any- anything better to do...",
     "file": "revelationsinfall-zeph-8"
   },
   {
@@ -60498,11 +60499,11 @@
     "file": "revelationsinfall-zeph-15"
   },
   {
-    "line": "Sui: I bring the others here quite often. They uh- serve the best food in the region.",
+    "line": "Sui: I... bring the others here quite often. They, um, serve the best food in Espren...",
     "file": "revelationsinfall-sui-9"
   },
   {
-    "line": "Zeph: I- I'll miss our late night snack runs. Heh.",
+    "line": "Zeph: Yeah... I'll m- mi- miss our late-night snack runs. Heh.",
     "file": "revelationsinfall-zeph-16"
   },
   {
@@ -60594,7 +60595,7 @@
     "file": "revelationsinfall-zeph-29"
   },
   {
-    "line": "Zeph: Hah. I g-guess you got here before me.",
+    "line": "Zeph: Ha, I- I guess you got here b- be- before me this time!",
     "file": "revelationsinfall-zeph-30"
   },
   {
@@ -60602,7 +60603,7 @@
     "file": "revelationsinfall-zeph-31"
   },
   {
-    "line": "Zeph: Alright. Let's j-jump across.",
+    "line": "Zeph: Alright... l- let's jump across.",
     "file": "revelationsinfall-zeph-32"
   },
   {
@@ -60702,11 +60703,11 @@
     "file": "revelationsinfall-sui-17"
   },
   {
-    "line": "Sui: S-sorry, I should just... go for it. It- it might be easier if I just, show you, hah…",
+    "line": "Sui: S-sorry, I should just... go for it. It- it might be easier if I just, show you, hah...",
     "file": "revelationsinfall-sui-18"
   },
   {
-    "line": "Sui: You're the first, um, cursed one I've ever... seen. And- and everyone being so kind, about, all of it…",
+    "line": "Sui: You're the first, um, cursed one I've ever... seen. And- and everyone being so kind, about, all of it...",
     "file": "revelationsinfall-sui-19"
   },
   {
@@ -60730,11 +60731,11 @@
     "file": "revelationsinfall-sui-24"
   },
   {
-    "line": "Sui: Oh... that's, ha, a big thing to do for someone. B-breaking into a province? I can't imagine, um, doing something like that…",
+    "line": "Sui: Oh... that's, ha, a big thing to do for someone. B-breaking into a province? I can't imagine, um, doing something like that...",
     "file": "revelationsinfall-sui-25"
   },
   {
-    "line": "Sui: I'm just... scared. I'm scared that- that if I try to use it, then, I'll, h-hurt someone…",
+    "line": "Sui: I'm just... scared. I'm scared that- that if I try to use it, then, I'll, h-hurt someone...",
     "file": "revelationsinfall-sui-26"
   },
   {
@@ -60746,7 +60747,7 @@
     "file": "revelationsinfall-sui-28"
   },
   {
-    "line": "Sui: ... I'm only here because I followed Mora. He's the brave one! N-not- not me. I just, ha, had nowhere else to go. {Explaining, total lack of self-confidence)",
+    "line": "Sui: ... I'm only here because I followed Mora. He's the brave one! N-not- not me. I just, ha, had nowhere else to go.",
     "file": "revelationsinfall-sui-29"
   },
   {
@@ -60870,7 +60871,7 @@
     "file": "revelationsinfall-rex-6"
   },
   {
-    "line": "Mora: ... Ah. Oh dear. She appears to be in a mood today! I suppose that would make sense, given…",
+    "line": "Mora: ... Ah. Oh dear. She appears to be in a mood today! I suppose that would make sense, given...",
     "file": "revelationsinfall-mora-24"
   },
   {
@@ -60882,7 +60883,7 @@
     "file": "revelationsinfall-mora-26"
   },
   {
-    "line": "Mora: Keep an eye on Rex, would you? I haven't seen her this worked up in a while…",
+    "line": "Mora: Keep an eye on Rex, would you? I haven't seen her this worked up in a while...",
     "file": "revelationsinfall-mora-27"
   },
   {
@@ -60914,11 +60915,11 @@
     "file": "revelationsinfall-rex-13"
   },
   {
-    "line": "Rex: … *probably a sigh*",
+    "line": "Rex: ...",
     "file": "revelationsinfall-rex-14"
   },
   {
-    "line": "Rex: ... Fine. {Grudging)",
+    "line": "Rex: ... Fine.",
     "file": "revelationsinfall-rex-15"
   },
   {
@@ -60974,7 +60975,7 @@
     "file": "revelationsinfall-rex-28"
   },
   {
-    "line": "Rex: Ha! He would, wouldn't he…",
+    "line": "Rex: Ha! He would, wouldn't he...",
     "file": "revelationsinfall-rex-29"
   },
   {
@@ -60986,19 +60987,19 @@
     "file": "revelationsinfall-rex-31"
   },
   {
-    "line": "Rex: I just hope he's still out there, somewhere…",
+    "line": "Rex: I just hope he's still out there, somewhere...",
     "file": "revelationsinfall-rex-32"
   },
   {
-    "line": "Zeph: There y-you are. We got worried something bad h-had happened.",
+    "line": "Zeph: Th- there you are! We, uh, got worried s- some- something bad might've happened.",
     "file": "revelationsinfall-zeph-50"
   },
   {
-    "line": "Zeph: I mean... they g-got worried.",
+    "line": "Zeph: I... I mean... th- they got worried.",
     "file": "revelationsinfall-zeph-51"
   },
   {
-    "line": "Sui: Right..",
+    "line": "Sui: Right...",
     "file": "revelationsinfall-sui-38"
   },
   {
@@ -61042,7 +61043,7 @@
     "file": "revelationsinfall-syndra-22"
   },
   {
-    "line": "Mora: Syndra…",
+    "line": "Mora: Syndra...",
     "file": "revelationsinfall-mora-30"
   },
   {
@@ -61070,7 +61071,7 @@
     "file": "revelationsinfall-syndra-26"
   },
   {
-    "line": "Mora: So, the passports?",
+    "line": "Mora: So... the passports?",
     "file": "revelationsinfall-mora-31"
   },
   {
@@ -61094,7 +61095,7 @@
     "file": "revelationsinfall-syndra-30"
   },
   {
-    "line": "Mora: … *Hmm-s*",
+    "line": "Mora: ...",
     "file": "revelationsinfall-mora-32"
   },
   {
@@ -61102,7 +61103,7 @@
     "file": "revelationsinfall-syndra-31"
   },
   {
-    "line": "Sui: I guess this is really happening…",
+    "line": "Sui: I guess this is really happening...",
     "file": "revelationsinfall-sui-41"
   },
   {
@@ -61346,7 +61347,7 @@
     "file": "revelationsinfall-xao-3"
   },
   {
-    "line": "Sovereign Zhiraok: No, you're right, I'm being irrational. You're always right. Clear everything but that, it's fine. I'll get back to it later. Unexpected variables, extenuating circumstances…",
+    "line": "Sovereign Zhiraok: No, you're right, I'm being irrational. You're always right. Clear everything but that, it's fine. I'll get back to it later. Unexpected variables, extenuating circumstances...",
     "file": "revelationsinfall-sovereignzhiraok-22"
   },
   {
