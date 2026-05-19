@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.0...v2.0.1) (2026-05-19)
+
+
+### Bug Fixes
+
+* Fix version checker showing non-correct upgrade message ([12dd892](https://github.com/Team-VoW/WynncraftVoiceProject/commit/12dd8929accfe0eb279ab34dfe64a7d63699d241))
+
 ## [2.0.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.14.2...v2.0.0) (2026-05-16)
 
 
@@ -37,6 +44,7 @@
 
 ### Miscellaneous Chores
 
+* **release:** v2.0.0 [skip ci] ([2a1def9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2a1def93c035934cb6f29d63112c57a1cf5c8524))
 * upgrade to new minor version ([f9dfb63](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f9dfb63aca3588c626f1e1e99f3fd957c16fec45))
 
 ## [1.14.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.14.1...v1.14.2) (2026-04-13)
@@ -294,47 +302,4 @@
 * Configure shadow plugin to relocate TarsosDSP dependencies ([8c54b19](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8c54b1954e86724d3ec703c772b56ddfe1fac878))
 * Copy over the latest sounds.json to be bundled with the mod ([dc1c8fa](https://github.com/Team-VoW/WynncraftVoiceProject/commit/dc1c8fa197fa95852f8508f52fb191e30dfdd972))
 * exclude PipeDecoder class due to CurseForge restrictions ([d462bcf](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d462bcf262e920e533d274d10764f94b5585f479))
-
-## [1.9.3](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.8.2...v1.9.3) (2024-09-24)
-
-
-### ⚠ BREAKING CHANGES
-
-* Allow VoW to be used with 1.21.1 (along with 1.21) (#33)
-
-### New Features
-
-* Add automated releases to Github Releases and CurseForge with Github Actions ([#30](https://github.com/Team-VoW/WynncraftVoiceProject/issues/30)) ([8fee8ff](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8fee8ffd35df299e708bf042f722b537ef6c485a))
-* Add Spotless to make the code base have a standard format, fix up licenses in repository ([#21](https://github.com/Team-VoW/WynncraftVoiceProject/issues/21)) ([dd0a7ac](https://github.com/Team-VoW/WynncraftVoiceProject/commit/dd0a7ac9874dbb806c120bfcf7d7d728da9192df))
-* Allow VoW to be used with 1.21.1 (along with 1.21) ([#33](https://github.com/Team-VoW/WynncraftVoiceProject/issues/33)) ([9fbee2b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9fbee2b0545575b380772b3ab69c7b6fb31e6259))
-* Introduce sound_info.json and add everything needed to load it ([#28](https://github.com/Team-VoW/WynncraftVoiceProject/issues/28)) ([b1d2653](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b1d26530b13c12534900643de03e5be6d4af495d))
-
-
-### Bug Fixes
-
-* Added custom audio playback system and fix crash with new Text displays ([#36](https://github.com/Team-VoW/WynncraftVoiceProject/issues/36)) ([c1373de](https://github.com/Team-VoW/WynncraftVoiceProject/commit/c1373decc39d6fbadce6675b5058a8ed6991b347))
-* Don't upload build artifacts ([#25](https://github.com/Team-VoW/WynncraftVoiceProject/issues/25)) ([0458896](https://github.com/Team-VoW/WynncraftVoiceProject/commit/04588964a4160a88849750c5722200aa422c6240))
-* Fixed a dialogue form Therck not playing in enzans brother ([39be62f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/39be62f98d0580fc01a6d1050b370a0bb7077011))
-* Fixed sounds that where stereo and mono which would not play ([53f9f2f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/53f9f2f6653b8335bf3239fb910da620783177e0))
-* Make format-build.yml use the correct token ([#24](https://github.com/Team-VoW/WynncraftVoiceProject/issues/24)) ([ce37cc6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ce37cc6b23c13f23df2b60dc0fbe876524998610))
-* Removed debugging ([378a9ed](https://github.com/Team-VoW/WynncraftVoiceProject/commit/378a9edd1b08f8c8c4c99a3b958923145e15859a))
-* Removed mix to mono function which causes crashes ([a9c748d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a9c748d765fd2b35111b0738fd7e4654ca435bd4))
-* Revert LICENSE (which accidentally got changed during the folder refactors) ([#26](https://github.com/Team-VoW/WynncraftVoiceProject/issues/26)) ([61df23a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/61df23a269fa9731ed0cb6dbcf59b1136fb1370c))
-
-
-### Documentation
-
-* Improve the project README file ([#29](https://github.com/Team-VoW/WynncraftVoiceProject/issues/29)) ([762c7d8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/762c7d8ae1f30212781df76821d47cb2d220c325))
-
-
-### Miscellaneous Chores
-
-* Change some sound ids to better follow a format, remove color codes from sound lines ([#27](https://github.com/Team-VoW/WynncraftVoiceProject/issues/27)) ([e5b9af8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e5b9af8f71f9fd44fe1868208092a1b1b8c392a8))
-* Update dependency versions (mainly Fabric Loader) ([#32](https://github.com/Team-VoW/WynncraftVoiceProject/issues/32)) ([b60285b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b60285b1fc332af3618b54b8d8fe1ab7461fa13c))
-
-
-### Code Refactoring
-
-* Remove the shared resources folder, move the mod sources into the top level folder ([#22](https://github.com/Team-VoW/WynncraftVoiceProject/issues/22)) ([61c3445](https://github.com/Team-VoW/WynncraftVoiceProject/commit/61c344574335cf7217baba1630e5444f2d2947c8))
-* Rewrite the gradle buildscript, update dependencies and populate fabric.mod.json fields automatically ([f747e23](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f747e23784f4a67facbea3c85415b536ea9038a5))
 
