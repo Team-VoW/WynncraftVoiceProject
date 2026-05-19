@@ -16,6 +16,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import net.minecraft.client.Minecraft;
 
@@ -68,14 +69,11 @@ public class VersionChecker {
         // Strip the "v" from the version
         String version = ModCore.instance.getVersion().substring(1);
 
-        float versionInFloat = GetVersionNumberInFloat(version);
-        float killSwitchVersionInFloat = GetVersionNumberInFloat(killSwitchVersion);
         assert updateVersion != null;
-        float updateVersionInFloat = GetVersionNumberInFloat(updateVersion);
 
         // If it is on a kill switch version. This is to disable the mod in case some game breaking bug is found
         // such as people being able to trigger sound files through chat messages
-        if (killSwitchVersionInFloat >= versionInFloat) {
+        if (compareVersions(version, killSwitchVersion) <= 0) {
             SoundPlayer.stopMod = true;
             String message1 =
                     "§8A game breaking bug was found on your version of §5Voices of Wynn§8 so the mod was disabled. Please update it";
@@ -84,7 +82,7 @@ public class VersionChecker {
         isOnUpToDateVersion = version.equals(newestVersion);
 
         // Is using the newest version
-        if (versionInFloat > updateVersionInFloat) {
+        if (compareVersions(version, updateVersion) > 0) {
             if (fact != null && config.isSendFunFact()) {
                 Utils.sendMessage("§9Fun fact: " + fact);
             }
@@ -107,15 +105,20 @@ public class VersionChecker {
         }
     }
 
-    private static float GetVersionNumberInFloat(String version) {
-        version = version.replaceAll("[^\\d.]", "");
-        float output = 0;
-        float multiplier = 1;
-        for (String str : version.split("\\.")) {
-            output += Float.parseFloat(str) / multiplier;
-            multiplier *= 10;
+    static int compareVersions(String a, String b) {
+        int[] va = parseVersion(a);
+        int[] vb = parseVersion(b);
+        for (int i = 0; i < Math.max(va.length, vb.length); i++) {
+            int x = i < va.length ? va[i] : 0;
+            int y = i < vb.length ? vb[i] : 0;
+            if (x != y) return Integer.compare(x, y);
         }
-        return output;
+        return 0;
+    }
+
+    private static int[] parseVersion(String version) {
+        String[] parts = version.replaceAll("[^\\d.]", "").split("\\.");
+        return Arrays.stream(parts).mapToInt(Integer::parseInt).toArray();
     }
 
     private static JsonObject getVersionCheckFromWebsite() {
