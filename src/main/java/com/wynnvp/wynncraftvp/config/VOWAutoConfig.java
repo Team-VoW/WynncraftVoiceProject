@@ -20,7 +20,7 @@ public class VOWAutoConfig implements ConfigData {
     public boolean hasChosenLineReport = false;
 
     @ConfigEntry.Gui.Excluded
-    public String azureBlobLink = "http://voicesofwynn.blob.core.windows.net/audio/sounds/";
+    public String azureBlobLink = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
 
     @ConfigEntry.Gui.Excluded
     public String azureBlobRootLink = "https://vow.blob.core.windows.net/mod/";
