@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.2...v2.0.3) (2026-05-30)
+
+
+### Bug Fixes
+
+* Fix latest quest addition not being present in the mod ([a74cb54](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a74cb54489a69b3c45e3e8f342260bdec624e94a))
+
 ## [2.0.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.1...v2.0.2) (2026-05-25)
 
 
@@ -10,6 +17,11 @@
 ### Bug Fixes
 
 * **The Cursed One & Revelations in Fall:** Fixed a bunch of not playing lines ([2862425](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2862425611626153db3ad61d2bc24919605e5f77))
+
+
+### Miscellaneous Chores
+
+* **release:** v2.0.2 [skip ci] ([09ab4d6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/09ab4d662a82c564d8c593782d42dfc89d8a937a))
 
 ## [2.0.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.0...v2.0.1) (2026-05-19)
 
@@ -82,32 +94,4 @@
 ### Miscellaneous Chores
 
 * **release:** v1.14.2 [skip ci] ([69c4a0f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/69c4a0f6e423770bb3b4d3318000a67e1e843139))
-
-## [1.14.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.14.0...v1.14.1) (2026-04-09)
-
-
-### New Features
-
-* **A Journey Home:** Added voice acting ([388df4d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/388df4d6a93332c79521581bff8aa053c7d0d95d))
-* Add setting to enter Nickname to allow dialogues to play while having a nick ([5cd128d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5cd128da2428277ae5451ce56706464740ce8f55))
-* If a wrong audio starts playing, stop it when we detect it was wrong. ([2d883e5](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2d883e58dc8975e6f5797cdeb8065a3f8d7139fc))
-* **Queens Recruit:** Add voice acting for the Queens Recruit quest ([7238057](https://github.com/Team-VoW/WynncraftVoiceProject/commit/723805795ddf87a25b0a293f40eb537b426ddd5f))
-* **Queens Recruit:** added two missing lines (One from Reynauld and one from the King of Ragni) ([cb6aadc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cb6aadcb9983e5b17f66b709b8ea91dc45ff32f8))
-* **Queens Recruit:** Added two missing lines & fixed one not playing line from Dr. Picard ([59eaa78](https://github.com/Team-VoW/WynncraftVoiceProject/commit/59eaa78fd802cfc991020570a21576b2fe43ea86))
-* remove dialogue lines from dialogues to work with the Fruma update ([7677c47](https://github.com/Team-VoW/WynncraftVoiceProject/commit/7677c47252712efa0340a26f1d0b71c4888af34b))
-
-
-### Bug Fixes
-
-* Fix Cryptic languages not playing (Wynnic, etc.) ([f3c335b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f3c335b6dfb592a3bdfed81f523c7ad5455d03ce))
-* Make the LineReporter work again with the new dialogue system to allow us to get information on what lines need Voice acting ([#81](https://github.com/Team-VoW/WynncraftVoiceProject/issues/81)) ([1e1c9c4](https://github.com/Team-VoW/WynncraftVoiceProject/commit/1e1c9c4c35a9812db019aa4963666d1abcaad715))
-* **Queens Recruit:** Fixed a few not playing lines/lines that got cut off mid-way through ([79e65a1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/79e65a19972dc1095a139fe56d21744c2e3f4cf1))
-* release being tagged with the wrong minecraft version ([#72](https://github.com/Team-VoW/WynncraftVoiceProject/issues/72)) ([162479f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/162479f0b7dc4b4196aed50ff27ca5dccc55874b))
-* Stop villager sounds playing through the voice lines ([#73](https://github.com/Team-VoW/WynncraftVoiceProject/issues/73)) ([d58228e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d58228ebf0271f3b52a7bcbf12e16ebe752c9c6e))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.14.1 [skip ci] ([20c7bec](https://github.com/Team-VoW/WynncraftVoiceProject/commit/20c7bec8c4a19c6c4a063002c89b226a14cea95b))
-* workflow plugin updates ([#74](https://github.com/Team-VoW/WynncraftVoiceProject/issues/74)) ([e432255](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e4322550589e1d9f963e47b1cdfe642b21eb8267))
 
