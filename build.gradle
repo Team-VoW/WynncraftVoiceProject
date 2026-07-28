@@ -123,7 +123,6 @@ dependencies {
     }
 
     modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}+${project.minecraft_version}"
 
     shadow 'be.tarsos.dsp:core:2.5'
     shadow 'be.tarsos.dsp:jvm:2.5'
@@ -142,6 +141,12 @@ dependencies {
 
     // Development dependencies
     modRuntimeOnly "me.djtheredstoner:DevAuth-fabric:${project.devauth_version}"
+
+    // The mod itself does not use Fabric API, but Mod Menu hard-depends on several of its modules
+    // (resource-loader, screen-api, key-binding-api, lifecycle-events), so the dev runtime needs it.
+    // Deliberately not on the compile classpath: any accidental net.fabricmc.fabric.api import then
+    // fails the build instead of silently bringing the dependency back for users.
+    modRuntimeOnly "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}+${project.minecraft_version}"
 
     testImplementation 'org.junit.jupiter:junit-jupiter:5.11.0'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
@@ -223,7 +228,6 @@ processResources {
         mod_name               : mod_name,
         minecraft_version_range: minecraft_version_range,
         fabric_loader_version  : fabric_loader_version,
-        fabric_api_version     : fabric_api_version,
     ]
     inputs.properties replaceProperties
 

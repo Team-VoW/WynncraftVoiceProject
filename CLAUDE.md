@@ -35,7 +35,7 @@ src/main/java/com/wynnvp/wynncraftvp/
 
 Audio cache: `VOW_AUDIO/` | Manifest: `audio_manifest.json` (key: `questname-npcname-linetext`)
 Logging: `ModCore.info/warn/error(...)` | Debug: `/vowdebug` (dev only)
-Config file: `.minecraft/config/wynnvp.toml`
+Config file: `.minecraft/config/wynnvp.toml` | Settings GUI: Mod Menu or `/vow-config`
 
 ## Commit Style
 Conventional Commits: `feat:`, `fix:`, `chore:` etc.
@@ -45,3 +45,6 @@ Conventional Commits: `feat:`, `fix:`, `chore:` etc.
 - No `org.jetbrains.annotations` — use standard Java annotations
 - Don't skip `spotlessApply` — license headers are auto-managed and required
 - Don't log with anything other than `ModCore.LOGGER`
+- No Fabric API (`net.fabricmc.fabric.api.*`) — the mod only depends on Fabric Loader. It is not on the
+  compile classpath, so such an import fails the build. To hook vanilla, add a mixin in `events/mixins/`
+  that calls a static event class in `events/` (see `MixinClientTickListener` → `ClientTickEvent`)

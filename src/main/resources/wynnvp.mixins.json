@@ -1,8 +1,12 @@
 {
   "client": [
     "MixinChatListener",
+    "MixinClientCommandSender",
+    "MixinClientTickListener",
+    "MixinDisconnectListener",
     "MixinPlaySoundListener",
     "MixinServerConnectListener",
+    "MixinWorldTickListener",
     "SneakPacketMixin",
     "SoundEngineStartedMixin",
     "MixinShowGuiListener"

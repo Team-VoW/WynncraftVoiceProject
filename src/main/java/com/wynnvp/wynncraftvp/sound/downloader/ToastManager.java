@@ -4,7 +4,6 @@
  */
 package com.wynnvp.wynncraftvp.sound.downloader;
 
-import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.components.toasts.SystemToast;
 import net.minecraft.network.chat.Component;
@@ -20,8 +19,6 @@ public class ToastManager {
     public ToastManager(Minecraft client) {
         this.client = client;
         instance = this;
-        // Register the tick listener once, but use the flag to control when it's active
-        ClientTickEvents.END_CLIENT_TICK.register(this::onClientTick);
     }
 
     public static ToastManager getInstance() {
@@ -53,8 +50,8 @@ public class ToastManager {
         });
     }
 
-    // Method to handle client ticks and check for key presses
-    private void onClientTick(Minecraft client) {
+    // Method to handle client ticks and check for key presses, called from ClientTickEvent
+    public void onClientTick(Minecraft client) {
         if (!isListening || currentTimedToast == null) {
             return;
         }

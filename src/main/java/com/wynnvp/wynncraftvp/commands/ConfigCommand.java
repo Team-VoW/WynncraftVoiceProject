@@ -7,16 +7,12 @@ package com.wynnvp.wynncraftvp.commands;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.wynnvp.wynncraftvp.config.gui.VowConfigScreen;
-import net.fabricmc.fabric.api.client.command.v2.ClientCommandManager;
-import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
 import net.minecraft.client.Minecraft;
-import net.minecraft.commands.CommandBuildContext;
 
 /** Opens the settings screen, so the mod is configurable without Mod Menu installed. */
 public class ConfigCommand {
-    public static void register(
-            CommandDispatcher<FabricClientCommandSource> dispatcher, CommandBuildContext buildContext) {
-        LiteralArgumentBuilder<FabricClientCommandSource> builder = ClientCommandManager.literal("vow-config")
+    public static void register(CommandDispatcher<VowCommandSource> dispatcher) {
+        LiteralArgumentBuilder<VowCommandSource> builder = VowCommands.literal("vow-config")
                 .executes(context -> {
                     Minecraft client = context.getSource().getClient();
                     // Deferred, because the chat screen closes right after the command runs and

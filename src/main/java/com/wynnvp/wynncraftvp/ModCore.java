@@ -4,9 +4,7 @@
  */
 package com.wynnvp.wynncraftvp;
 
-import com.wynnvp.wynncraftvp.commands.ConfigCommand;
-import com.wynnvp.wynncraftvp.commands.DebugCommand;
-import com.wynnvp.wynncraftvp.commands.VowLogCommand;
+import com.wynnvp.wynncraftvp.commands.VowCommands;
 import com.wynnvp.wynncraftvp.config.ConfigFileRecovery;
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import com.wynnvp.wynncraftvp.config.VowConfigHolder;
@@ -22,9 +20,6 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Optional;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
-import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
-import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.ModContainer;
 import net.minecraft.SharedConstants;
@@ -83,18 +78,11 @@ public class ModCore implements ModInitializer {
 
         VowLogger.Initialize();
 
-        ClientTickEvents.END_WORLD_TICK.register(cli -> {
-            overlayHandler.onTick();
-            if (audioPlayer != null) audioPlayer.openAlPlayer.onTick();
-        });
-        ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> overlayHandler.onConnectionChange());
         audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
 
         new ToastManager(Minecraft.getInstance());
 
-        ClientCommandRegistrationCallback.EVENT.register(DebugCommand::register);
-        ClientCommandRegistrationCallback.EVENT.register(VowLogCommand::register);
-        ClientCommandRegistrationCallback.EVENT.register(ConfigCommand::register);
+        VowCommands.register();
     }
 
     public static void error(String msg) {
