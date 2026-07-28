@@ -21,8 +21,6 @@ import java.util.List;
 import net.minecraft.client.Minecraft;
 
 public class VersionChecker {
-    public static boolean isOnUpToDateVersion = false;
-
     public static void checkVersion() {
         JsonObject jsonObject = getVersionCheckFromWebsite();
         String fact = null;
@@ -79,8 +77,6 @@ public class VersionChecker {
                     "§8A game breaking bug was found on your version of §5Voices of Wynn§8 so the mod was disabled. Please update it";
             Utils.sendMessage(message1);
         }
-        isOnUpToDateVersion = version.equals(newestVersion);
-
         // Is using the newest version
         if (compareVersions(version, updateVersion) > 0) {
             if (fact != null && config.isSendFunFact()) {

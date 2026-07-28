@@ -8,7 +8,6 @@ import static com.wynnvp.wynncraftvp.ModCore.config;
 import static com.wynnvp.wynncraftvp.utils.Utils.HTTPEncode;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import com.wynnvp.wynncraftvp.utils.VersionChecker;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -27,7 +26,7 @@ public class LineReporter {
     }
 
     public void MissingLine(LineData lineData) {
-        if (!config.isReportMissingLines() || !ModCore.inLiveWynnServer || !VersionChecker.isOnUpToDateVersion) return;
+        if (!config.isReportMissingLines() || !ModCore.inLiveWynnServer) return;
 
         CompletableFuture.runAsync(() -> {
             synchronized (reportedLines) {
