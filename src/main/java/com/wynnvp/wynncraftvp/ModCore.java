@@ -4,6 +4,7 @@
  */
 package com.wynnvp.wynncraftvp;
 
+import com.wynnvp.wynncraftvp.commands.ConfigCommand;
 import com.wynnvp.wynncraftvp.commands.DebugCommand;
 import com.wynnvp.wynncraftvp.commands.VowLogCommand;
 import com.wynnvp.wynncraftvp.config.ConfigFileRecovery;
@@ -93,6 +94,7 @@ public class ModCore implements ModInitializer {
 
         ClientCommandRegistrationCallback.EVENT.register(DebugCommand::register);
         ClientCommandRegistrationCallback.EVENT.register(VowLogCommand::register);
+        ClientCommandRegistrationCallback.EVENT.register(ConfigCommand::register);
     }
 
     public static void error(String msg) {
