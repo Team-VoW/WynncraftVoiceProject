@@ -128,7 +128,7 @@ public class VOWAutoConfig implements ConfigData {
     }
 
     public String getCustomAudioPath() {
-        return debugAndLogs.customAudioPath;
+        return ConfigPathNormalizer.normalize(debugAndLogs.customAudioPath);
     }
 
     public boolean isUseCustomSoundsJson() {
@@ -136,7 +136,7 @@ public class VOWAutoConfig implements ConfigData {
     }
 
     public String getCustomSoundsJsonPath() {
-        return debugAndLogs.customSoundsJsonPath;
+        return ConfigPathNormalizer.normalize(debugAndLogs.customSoundsJsonPath);
     }
 
     public boolean isLogOverlayDialogueToChat() {
