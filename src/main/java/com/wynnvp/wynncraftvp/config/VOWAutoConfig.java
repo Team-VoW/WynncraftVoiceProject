@@ -4,45 +4,36 @@
  */
 package com.wynnvp.wynncraftvp.config;
 
+import com.wynnvp.wynncraftvp.ModCore;
 import java.util.List;
-import me.shedaniel.autoconfig.AutoConfig;
-import me.shedaniel.autoconfig.ConfigData;
-import me.shedaniel.autoconfig.annotation.Config;
-import me.shedaniel.autoconfig.annotation.ConfigEntry;
 
-@Config(name = "wynnvp")
-public class VOWAutoConfig implements ConfigData {
-    // Excluded stuff:
-    @ConfigEntry.Gui.Excluded
+/**
+ * The mod's settings, persisted by {@link VowConfigHolder}.
+ * <p>
+ * Field names are the TOML keys, so renaming or reordering a field changes the on-disk format.
+ * Fields not exposed in {@link com.wynnvp.wynncraftvp.config.gui.VowConfigScreen} are internal
+ * state the mod manages on its own.
+ */
+public class VOWAutoConfig {
+    // Internal state, not shown in the settings screen:
     public String word = "gzog6zilzq6zxlt";
 
-    @ConfigEntry.Gui.Excluded
     public boolean hasChosenLineReport = false;
 
-    @ConfigEntry.Gui.Excluded
     public String azureBlobLink = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
 
-    @ConfigEntry.Gui.Excluded
     public String azureBlobRootLink = "https://vow.blob.core.windows.net/mod/";
 
-    @ConfigEntry.Gui.Excluded
     public List<String> urls = List.of("https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/");
 
-    @ConfigEntry.Gui.Excluded
     public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5;
 
-    @ConfigEntry.Gui.Excluded
     public String lastsSoundsUpdateHeader = "never";
 
-    @ConfigEntry.Gui.Tooltip
     public boolean playAllSoundsOnPlayer = false;
 
-    @ConfigEntry.Gui.Tooltip
-    @ConfigEntry.BoundedDiscrete(min = 1, max = 1000)
     public int voiceVolume = 100;
 
-    @ConfigEntry.Gui.Tooltip
-    @ConfigEntry.BoundedDiscrete(min = 70, max = 200)
     public int playbackSpeed = 100;
 
     // Line reporting settings
@@ -50,64 +41,44 @@ public class VOWAutoConfig implements ConfigData {
     public boolean anonymous = true;
     public boolean sendFunFact = false;
 
-    @ConfigEntry.Gui.Tooltip
     public boolean downloadSounds = false;
 
-    @ConfigEntry.Gui.Tooltip
     public int blockCutOff = 32;
 
-    @ConfigEntry.Gui.Tooltip
     public boolean autoProgress = false;
 
-    @ConfigEntry.Gui.Tooltip
     public boolean enableReverb = true;
 
-    @ConfigEntry.Gui.Tooltip
     public boolean blockVillagerSoundsDuringVoiceDialog = true;
 
-    @ConfigEntry.Gui.Tooltip
     public boolean earlyPlayOverlay = true;
 
-    @ConfigEntry.Gui.Tooltip
-    @ConfigEntry.BoundedDiscrete(min = 1, max = 100)
     public int earlyPlayOverlayMinChars = 15;
 
-    @ConfigEntry.Gui.Tooltip
     public String nicknameOverride = "";
 
     // Debug and Logs section
-    @ConfigEntry.Gui.CollapsibleObject
     public DebugAndLogs debugAndLogs = new DebugAndLogs();
 
     public static class DebugAndLogs {
-        @ConfigEntry.Gui.Tooltip
         public boolean highlightSpeaker = false;
 
-        @ConfigEntry.Gui.Tooltip
         public boolean logDialogueLines = true;
 
-        @ConfigEntry.Gui.Tooltip
         public boolean onlyLogNotPlayingLines = true;
 
-        @ConfigEntry.Gui.Tooltip
         public boolean logPlayingInformation = false;
 
-        @ConfigEntry.Gui.Tooltip
         public boolean useCustomAudioPath = false;
 
-        @ConfigEntry.Gui.Tooltip
         public String customAudioPath = "";
 
-        @ConfigEntry.Gui.Tooltip
         public boolean useCustomSoundsJson = false;
 
-        @ConfigEntry.Gui.Tooltip
         public String customSoundsJsonPath = "";
 
-        @ConfigEntry.Gui.Tooltip
         public boolean logOverlayDialogueToChat = false;
 
-        @ConfigEntry.Gui.Tooltip
         public boolean logOverlayPackets = false;
     }
 
@@ -220,7 +191,9 @@ public class VOWAutoConfig implements ConfigData {
     }
 
     public void save() {
-        AutoConfig.getConfigHolder(VOWAutoConfig.class).save();
+        if (ModCore.configHolder != null) {
+            ModCore.configHolder.save();
+        }
     }
 
     public String getRemoteJsonLink() {

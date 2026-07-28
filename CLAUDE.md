@@ -22,7 +22,7 @@ No unit tests — all testing is manual in-game.
 src/main/java/com/wynnvp/wynncraftvp/
 ├── ModCore.java        # Entry point
 ├── core/               # Manager pattern (Manager.java, Managers.java)
-├── config/             # VOWAutoConfig.java (TOML, Cloth Config GUI)
+├── config/             # VOWAutoConfig.java (TOML via VowConfigHolder), gui/VowConfigScreen.java
 ├── events/             # ChatHandler, ReceiveChatEvent, Mixins
 ├── npc/                # NPC entity tracking / CurrentSpeaker
 ├── sound/

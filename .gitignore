@@ -32,6 +32,10 @@ bin/
 
 run/
 
+# log4j output from tests that exercise ModCore.LOGGER
+
+logs/
+
 # node/npm
 node_modules/
 package-lock.json

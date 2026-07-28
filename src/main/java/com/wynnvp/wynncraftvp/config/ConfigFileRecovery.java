@@ -24,8 +24,13 @@ public final class ConfigFileRecovery {
             return false;
         }
 
-        Files.move(configPath, corruptedConfigPath(configPath), StandardCopyOption.REPLACE_EXISTING);
+        quarantine(configPath);
         return true;
+    }
+
+    /** Moves the config aside as {@code <name>.corrupt-<timestamp>} so a fresh default can be written. */
+    public static void quarantine(Path configPath) throws IOException {
+        Files.move(configPath, corruptedConfigPath(configPath), StandardCopyOption.REPLACE_EXISTING);
     }
 
     private static boolean containsNullByte(byte[] bytes) {

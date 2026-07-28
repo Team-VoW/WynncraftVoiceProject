@@ -8,6 +8,7 @@ import com.wynnvp.wynncraftvp.commands.DebugCommand;
 import com.wynnvp.wynncraftvp.commands.VowLogCommand;
 import com.wynnvp.wynncraftvp.config.ConfigFileRecovery;
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
+import com.wynnvp.wynncraftvp.config.VowConfigHolder;
 import com.wynnvp.wynncraftvp.core.Managers;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
@@ -19,8 +20,6 @@ import com.wynnvp.wynncraftvp.text.OverlayHandler;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.Optional;
-import me.shedaniel.autoconfig.AutoConfig;
-import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
@@ -38,7 +37,6 @@ public class ModCore implements ModInitializer {
     private String version;
 
     public static boolean inLiveWynnServer = false;
-    public static boolean isUsingClothApi = false;
 
     public SoundsHandler soundsHandler;
     public static ModCore instance;
@@ -48,6 +46,7 @@ public class ModCore implements ModInitializer {
     public static OverlayHandler overlayHandler;
 
     public static VOWAutoConfig config;
+    public static VowConfigHolder configHolder;
 
     public static final Logger LOGGER = LoggerFactory.getLogger(MODID);
 
@@ -70,11 +69,10 @@ public class ModCore implements ModInitializer {
 
         Managers.initialize();
 
-        isUsingClothApi = FabricLoader.getInstance().isModLoaded("cloth-config");
-
-        recoverCorruptedConfig();
-        AutoConfig.register(VOWAutoConfig.class, Toml4jConfigSerializer::new);
-        config = AutoConfig.getConfigHolder(VOWAutoConfig.class).getConfig();
+        Path configPath = FabricLoader.getInstance().getConfigDir().resolve(MODID + ".toml");
+        recoverCorruptedConfig(configPath);
+        configHolder = new VowConfigHolder(configPath);
+        config = configHolder.load();
 
         instance = this;
         overlayHandler = new OverlayHandler();
@@ -121,8 +119,7 @@ public class ModCore implements ModInitializer {
         return version;
     }
 
-    private static void recoverCorruptedConfig() {
-        Path configPath = FabricLoader.getInstance().getConfigDir().resolve(MODID + ".toml");
+    private static void recoverCorruptedConfig(Path configPath) {
         try {
             if (ConfigFileRecovery.quarantineIfNullByteCorrupted(configPath)) {
                 LOGGER.warn(
