@@ -53,6 +53,12 @@ class VowConfigHolderTest {
             logOverlayPackets = false
             """;
 
+    /**
+     * The same config after a save: options added since the Cloth Config days are appended to
+     * their section with their default value, everything else is left byte-for-byte alone.
+     */
+    private static final String CLOTH_WRITTEN_CONFIG_RESAVED = CLOTH_WRITTEN_CONFIG + "logBlockedSounds = false\n";
+
     @TempDir
     Path tempDir;
 
@@ -83,7 +89,7 @@ class VowConfigHolderTest {
         holder.load();
         holder.save();
 
-        assertEquals(CLOTH_WRITTEN_CONFIG, Files.readString(configPath, StandardCharsets.UTF_8));
+        assertEquals(CLOTH_WRITTEN_CONFIG_RESAVED, Files.readString(configPath, StandardCharsets.UTF_8));
     }
 
     @Test

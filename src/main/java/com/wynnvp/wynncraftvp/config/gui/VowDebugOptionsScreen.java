@@ -43,6 +43,7 @@ public class VowDebugOptionsScreen extends VowOptionsScreen {
                         debug.logOverlayDialogueToChat,
                         v -> debug.logOverlayDialogueToChat = v),
                 bool(PREFIX + "logOverlayPackets", debug.logOverlayPackets, v -> debug.logOverlayPackets = v),
+                bool(PREFIX + "logBlockedSounds", debug.logBlockedSounds, v -> debug.logBlockedSounds = v),
                 bool(PREFIX + "useCustomAudioPath", debug.useCustomAudioPath, v -> debug.useCustomAudioPath = v),
                 bool(PREFIX + "useCustomSoundsJson", debug.useCustomSoundsJson, v -> debug.useCustomSoundsJson = v)));
 

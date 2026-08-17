@@ -5,39 +5,61 @@
 package com.wynnvp.wynncraftvp.events.mixins;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import java.util.Set;
+import com.wynnvp.wynncraftvp.sound.NpcSoundBlocker;
 import net.minecraft.client.resources.sounds.SoundInstance;
 import net.minecraft.client.sounds.SoundEngine;
-import net.minecraft.client.sounds.SoundManager;
 import net.minecraft.resources.Identifier;
-import net.minecraft.sounds.SoundEvents;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-@Mixin(SoundManager.class)
+/**
+ * Mutes the vanilla mob "blips" Wynncraft plays for every dialogue line while one of our
+ * voice lines is playing.
+ *
+ * <p>Injects into {@link SoundEngine} rather than {@code SoundManager} because delayed sounds
+ * are re-submitted straight to the engine from {@code tickInGameSound}, bypassing the manager.
+ */
+@Mixin(SoundEngine.class)
 public class MixinPlaySoundListener {
-    @Unique
-    private static final Set<Identifier> VILLAGER_SOUNDS = Set.of(
-            SoundEvents.VILLAGER_TRADE.location(),
-            SoundEvents.VILLAGER_YES.location(),
-            SoundEvents.VILLAGER_NO.location(),
-            SoundEvents.VILLAGER_AMBIENT.location(),
-            SoundEvents.WANDERING_TRADER_NO.location(),
-            SoundEvents.ZOMBIE_AMBIENT.location(),
-            SoundEvents.RAVAGER_AMBIENT.location(),
-            SoundEvents.SILVERFISH_DEATH.location(),
-            SoundEvents.PARROT_IMITATE_EVOKER.location());
-
     @Inject(method = "play", at = @At("HEAD"), cancellable = true)
     private void onPlay(SoundInstance sound, CallbackInfoReturnable<SoundEngine.PlayResult> cir) {
-        if (ModCore.overlayHandler != null
-                && ModCore.config.isBlockVillagerSoundsDuringVoiceDialog()
-                && ModCore.overlayHandler.isVoiceDialogActive()
-                && VILLAGER_SOUNDS.contains(sound.getIdentifier())) {
-            cir.cancel();
+        if (ModCore.config == null || !ModCore.config.isBlockVillagerSoundsDuringVoiceDialog()) return;
+        if (!vow$isVoicePlaybackActive()) return;
+
+        Identifier id = sound.getIdentifier();
+        if (id == null) return;
+
+        if (!NpcSoundBlocker.isNpcVoiceSound(id.getNamespace(), id.getPath())) {
+            if (ModCore.config.isLogBlockedSounds()) {
+                ModCore.info("[VOW] Allowed sound during dialogue: " + id);
+            }
+            return;
         }
+
+        if (ModCore.config.isLogBlockedSounds()) {
+            ModCore.info("[VOW] Blocked sound during dialogue: " + id);
+        }
+
+        // Returning NOT_STARTED instead of cancelling with a null return value — callers read
+        // this result and a null would blow up.
+        cir.setReturnValue(SoundEngine.PlayResult.NOT_STARTED);
+    }
+
+    /**
+     * Overlay dialogue is muted for its whole duration (that system knows when a dialogue box is
+     * open). Chat dialogue has no such flag, so it is gated on us actually playing a line: the
+     * grace window covers the fetch/decode delay, the source check covers the rest of the line.
+     */
+    @Unique
+    private static boolean vow$isVoicePlaybackActive() {
+        if (ModCore.overlayHandler != null && ModCore.overlayHandler.isVoiceDialogActive()) return true;
+        if (NpcSoundBlocker.hasRecentVoiceLine()) return true;
+
+        return ModCore.instance != null
+                && ModCore.instance.audioPlayer != null
+                && ModCore.instance.audioPlayer.openAlPlayer.isPlayingAnything();
     }
 }

@@ -296,6 +296,11 @@ public class OpenAlPlayer {
         }
     }
 
+    /** True while at least one Voices of Wynn source is still alive (see {@link #onTick()}). */
+    public boolean isPlayingAnything() {
+        return !sourceIDs.isEmpty();
+    }
+
     public void stopAudio() {
         executorService.execute(() -> {
             synchronized (sourceIDs) {

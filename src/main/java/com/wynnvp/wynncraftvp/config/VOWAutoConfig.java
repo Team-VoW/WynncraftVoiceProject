@@ -80,6 +80,12 @@ public class VOWAutoConfig {
         public boolean logOverlayDialogueToChat = false;
 
         public boolean logOverlayPackets = false;
+
+        public boolean logBlockedSounds = false;
+    }
+
+    public boolean isLogBlockedSounds() {
+        return debugAndLogs.logBlockedSounds;
     }
 
     public boolean isLogDialogueLines() {

@@ -67,6 +67,7 @@ public class SoundPlayer {
             return;
         }
         if (sound.getId() == null) return;
+        NpcSoundBlocker.markVoiceLineStarted();
         ModCore.instance.audioPlayer.play(sound);
     }
 
@@ -87,6 +88,7 @@ public class SoundPlayer {
             return;
         }
 
+        NpcSoundBlocker.markVoiceLineStarted();
         ModCore.instance.audioPlayer.play(sound);
     }
 

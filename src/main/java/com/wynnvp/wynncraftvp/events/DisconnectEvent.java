@@ -5,6 +5,7 @@
 package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.sound.NpcSoundBlocker;
 
 /** Replaces Fabric API's ClientPlayConnectionEvents.DISCONNECT. */
 public class DisconnectEvent {
@@ -12,5 +13,6 @@ public class DisconnectEvent {
         if (ModCore.overlayHandler != null) {
             ModCore.overlayHandler.onConnectionChange();
         }
+        NpcSoundBlocker.reset();
     }
 }
