@@ -66549,6 +66549,3262 @@
   {
     "line": "Sui: It must have been worth stealing it... somehow.",
     "file": "shroudedinmist-sui-120"
+  },
+   {
+    "line": "Quill: Hello, everyone. Let us begin.",
+    "file": "echoesofchange-quill-1"
+  },
+  {
+    "line": "Quill: I trust everyone has taken the time to process last night's announcement? I will let Syndra take over shortly, but first, I would like to thank each and every one of you.",
+    "file": "echoesofchange-quill-2"
+  },
+  {
+    "line": "Quill: I won't mince words. This is dangerous work. What we are planning puts us at great risk. But this is what it takes to change Fruma, to put an end to the crown's oppression!",
+    "file": "echoesofchange-quill-3"
+  },
+  {
+    "line": "Quill: We will kill a God! And we will all be free. Now, Syndra?",
+    "file": "echoesofchange-quill-4"
+  },
+  {
+    "line": "Syndra: Thank you, Quill. To begin, allow me to give each group their assignment.",
+    "file": "echoesofchange-syndra-1"
+  },
+  {
+    "line": "Syndra: Mora and Yuman, you will be infiltrating the guards' outpost in Timasca to retrieve their schedules. Get in, note down the formations, and get out.",
+    "file": "echoesofchange-syndra-2"
+  },
+  {
+    "line": "Syndra: Mora, you're familiar with military structure, and Yuman knows his way around Timasca. I expect you two should be able to make it work.",
+    "file": "echoesofchange-syndra-3"
+  },
+  {
+    "line": "Yuman: Yes, ma'am!",
+    "file": "echoesofchange-yuman-1"
+  },
+  {
+    "line": "Mora: Understood. However, I have a few concerns with the overall plans... I'll speak with you later.",
+    "file": "echoesofchange-mora-1"
+  },
+  {
+    "line": "Syndra: Yusanu and Sui, you'll be constructing explosives that we can use as distractions during the festival to draw guards away from the main stage.",
+    "file": "echoesofchange-syndra-4"
+  },
+  {
+    "line": "Syndra: I trust Yusanu knows what he's doing, so Sui, you'll be acting as an assistant.",
+    "file": "echoesofchange-syndra-5"
+  },
+  {
+    "line": "Sui: Um... sure.",
+    "file": "echoesofchange-sui-1"
+  },
+  {
+    "line": "Yusanu: Works for me. I might already have some blueprints lying around somewhere...",
+    "file": "echoesofchange-yusanu-1"
+  },
+  {
+    "line": "Syndra: Zeph and Rex, I want you to scout the city rooftops for potential spots where Rex and Yulie can provide aerial support... in case it's necessary.",
+    "file": "echoesofchange-syndra-6"
+  },
+  {
+    "line": "Zeph: Yeah, I c- c- can do that.",
+    "file": "echoesofchange-zeph-1"
+  },
+  {
+    "line": "Rex: Copy that.",
+    "file": "echoesofchange-rex-1"
+  },
+  {
+    "line": "Syndra: Quill and Yulie, you two know your way around the city. I'll need you to scout out potential escape routes from the city... again, in case things go badly.",
+    "file": "echoesofchange-syndra-7"
+  },
+  {
+    "line": "Quill: Ah, that should be a breeze.",
+    "file": "echoesofchange-quill-5"
+  },
+  {
+    "line": "Yulie: ...yes. I think I have a few places in mind already.",
+    "file": "echoesofchange-yulie-1"
+  },
+  {
+    "line": "Syndra: Finally. soldier, I want you to be adaptable. Help out wherever it's needed - I'm sure your skills will come in handy.",
+    "file": "echoesofchange-syndra-8"
+  },
+  {
+    "line": "Yuman: Hey, if you're helping out wherever, you should come with me and Mora! Guard positions would be handy to know before finding escape routes.",
+    "file": "echoesofchange-yuman-2"
+  },
+  {
+    "line": "Syndra: I was about to suggest the same thing. Then let us adjourn this meeting. Good luck, everyone.",
+    "file": "echoesofchange-syndra-9"
+  },
+  {
+    "line": "Mora: Hum. Soldier and Yuman, let us go discuss our plans then.",
+    "file": "echoesofchange-mora-2"
+  },
+  {
+    "line": "Yuman: Alright, guys! So, any plans? What're we cooking with here?",
+    "file": "echoesofchange-yuman-3"
+  },
+  {
+    "line": "Mora: Hm... I am... unsure.",
+    "file": "echoesofchange-mora-3"
+  },
+  {
+    "line": "Yuman: Hey, man, everything good? I'm uh, not that horrible to work with, am I? Haha.",
+    "file": "echoesofchange-yuman-4"
+  },
+  {
+    "line": "Mora: Ah! My apologies. No, it is not you... I simply do not like Syndra's plan.",
+    "file": "echoesofchange-mora-4"
+  },
+  {
+    "line": "Mora: You must understand, I would trust her with my life... but that is precisely the issue. She will do anything to avoid putting us in danger.",
+    "file": "echoesofchange-mora-5"
+  },
+  {
+    "line": "Mora: She treats us as her own children, but she is only a decade older than I am! She would put herself through all the suffering in the world, if only to avoid letting us help where it is most needed!",
+    "file": "echoesofchange-mora-6"
+  },
+  {
+    "line": "Mora: She is willing to take the fall if the plan goes awry. But, this time... this time, I will not back off. I am not allowing her to put herself through that danger alone.",
+    "file": "echoesofchange-mora-7"
+  },
+  {
+    "line": "Yuman: Yeesh. Didn't think you guys were that messy! I think I get it though.",
+    "file": "echoesofchange-yuman-5"
+  },
+  {
+    "line": "Yuman: My bros... they mean well, yeah, but they never ask for help. They're always trying to do everything themselves, and... and it drives me nuts!",
+    "file": "echoesofchange-yuman-6"
+  },
+  {
+    "line": "Yuman: Like, man, just let me do something!! Anything!! It's so frustrating.",
+    "file": "echoesofchange-yuman-7"
+  },
+  {
+    "line": "Mora: Ha! I did not think we had this in common. Well then... perhaps we can both prove ourselves to our families, eh?",
+    "file": "echoesofchange-mora-8"
+  },
+  {
+    "line": "Yuman: Yeah!! I like the sound of that!!",
+    "file": "echoesofchange-yuman-8"
+  },
+  {
+    "line": "Yuman: Okay, well, I know where the guards' outpost is in Timasca. Let's just go to it and take it from there!",
+    "file": "echoesofchange-yuman-9"
+  },
+  {
+    "line": "Mora: Ha, settle down a little. I think we need to be a bit more prepared than that. But, yes, time is of the essence, so let us head there first. I will attempt to think of a plan on the way.",
+    "file": "echoesofchange-mora-9"
+  },
+  {
+    "line": "Yuman: Whatever, man! Too much planning often spoils the results... but, sure! Let's meet outside the tallest building in Timasca. First tunnel to the right leads there!",
+    "file": "echoesofchange-yuman-10"
+  },
+  {
+    "line": "Yuman: Meet y'all there, then!",
+    "file": "echoesofchange-yuman-11"
+  },
+  {
+    "line": "Mora: Good grief, this town's a mess. How does anyone live here?",
+    "file": "echoesofchange-mora-10"
+  },
+  {
+    "line": "Yuman: Eh, ya get used to it. Here, follow me.",
+    "file": "echoesofchange-yuman-12"
+  },
+  {
+    "line": "Yuman: See, Timasca utilizes all the space it has... stacking things atop each other. For example, this so-called ''skyscraper'' is mainly an apartment building!",
+    "file": "echoesofchange-yuman-13"
+  },
+  {
+    "line": "Mora: Then... what exactly are we doing here?",
+    "file": "echoesofchange-mora-11"
+  },
+  {
+    "line": "Yuman: I said mainly, man. The top floors serve as the offices for the local commander and constables. That's also why we've got to climb this staircase!",
+    "file": "echoesofchange-yuman-14"
+  },
+  {
+    "line": "Yuman: Hope you guys are in shape!",
+    "file": "echoesofchange-yuman-15"
+  },
+  {
+    "line": "Mora: Stop! Where are you going?!",
+    "file": "echoesofchange-mora-12"
+  },
+  {
+    "line": "Yuman: Uh... we're on a mission, right? Trying to prove ourselves? Schedules are up there, so...",
+    "file": "echoesofchange-yuman-16"
+  },
+  {
+    "line": "Mora: We cannot just... walk in there and grab the schedules! You do realize that, right? soldier and I are wanted by the crown! Even showing ourselves here at all is a risk.",
+    "file": "echoesofchange-mora-13"
+  },
+  {
+    "line": "Yuman: Hey man, these soldiers see hundreds of people every day! If you don't give 'em a reason to pay attention, your faces won't stick out at all",
+    "file": "echoesofchange-yuman-17"
+  },
+  {
+    "line": "Mora: Yuman, we were going to make a plan before rushing in. Did you forget about that?",
+    "file": "echoesofchange-mora-14"
+  },
+  {
+    "line": "Yuman: Riiight. Right. Sorry, I got excited. I am right, though - it wouldn't be hard for me to just talk us through this!",
+    "file": "echoesofchange-yuman-18"
+  },
+  {
+    "line": "Mora: Sigh... here, I have a better plan. Let us take some guard uniforms and put them on, and reach the schedules that way. We'll stand out even less, then.",
+    "file": "echoesofchange-mora-15"
+  },
+  {
+    "line": "Yuman: Ohh. A sneak mission! That's good. They should definitely have some spare uniforms in the tower... *and*, it should be pretty empty this time of day. Everyone's out patrolling.",
+    "file": "echoesofchange-yuman-19"
+  },
+  {
+    "line": "Yuman: So, good plan, man! I like it! Let's get to it!",
+    "file": "echoesofchange-yuman-20"
+  },
+  {
+    "line": "Yuman: See? I told you, nobody's here!",
+    "file": "echoesofchange-yuman-21"
+  },
+  {
+    "line": "Mora: Ha. I suppose I should have faith in your knowledge. My apologies.",
+    "file": "echoesofchange-mora-16"
+  },
+  {
+    "line": "Mora: ...ah, is that really all? I thought they would be harder to find.",
+    "file": "echoesofchange-mora-17"
+  },
+  {
+    "line": "Yuman: With how many guards have to come through here every day for uniform exchanges, this is just the easiest way. More efficient having it out here.",
+    "file": "echoesofchange-yuman-22"
+  },
+  {
+    "line": "Yuman: Well, time to get changed!",
+    "file": "echoesofchange-yuman-23"
+  },
+  {
+    "line": "Yuman: Let's see...",
+    "file": "echoesofchange-yuman-24"
+  },
+  {
+    "line": "Mora: Oh, you are just going for it... I see. Soldier, let's wait outside until he's done.",
+    "file": "echoesofchange-mora-18"
+  },
+  {
+    "line": "Yuman: Well? Thoughts? How do I look?",
+    "file": "echoesofchange-yuman-25"
+  },
+  {
+    "line": "Mora: Like an average Roughworks soldier, I suppose.",
+    "file": "echoesofchange-mora-19"
+  },
+  {
+    "line": "Yuman: Wonder what Zeph would think...",
+    "file": "echoesofchange-yuman-26"
+  },
+  {
+    "line": "Mora: Hm? What was that?",
+    "file": "echoesofchange-mora-20"
+  },
+  {
+    "line": "Yuman: Ah- haha, uh, n- nothin! Your turn!",
+    "file": "echoesofchange-yuman-27"
+  },
+  {
+    "line": "Mora: This uniform is so... uncomfortable. And to think, I nearly signed up for this...",
+    "file": "echoesofchange-mora-21"
+  },
+  {
+    "line": "Yuman: Yeah, you'd think they'd complain about it more! But nah, they're all... stoic.",
+    "file": "echoesofchange-yuman-28"
+  },
+  {
+    "line": "Mora: Yes... well, Soldier, it's your turn. Hurry, please. Someone could come up here at any time.",
+    "file": "echoesofchange-mora-22"
+  },
+  {
+    "line": "Mora: Very well. Let us get this over with.",
+    "file": "echoesofchange-mora-23"
+  },
+  {
+    "line": "Yuman: From what I heard from Yulie, the commander usually keeps the schedules in the top office . Let's get looking!",
+    "file": "echoesofchange-yuman-29"
+  },
+  {
+    "line": "Yuman: So, you? A soldier? What's the story there?",
+    "file": "echoesofchange-yuman-30"
+  },
+  {
+    "line": "Mora: Sigh... the story is it was a choice between joining the military, and following in my parents' footsteps. And I did not especially want to do the latter.",
+    "file": "echoesofchange-mora-24"
+  },
+  {
+    "line": "Yuman: What'd your parents do?",
+    "file": "echoesofchange-yuman-31"
+  },
+  {
+    "line": "Mora: They worked as woodcutters. A relatively common job in the Auburn Forest, but... I simply wanted to distance myself from them.",
+    "file": "echoesofchange-mora-25"
+  },
+  {
+    "line": "Mora: The military seemed my best option... until I met Syndra, that is. Still... I regret I could not do more for Sui. She did not take my departure well.",
+    "file": "echoesofchange-mora-26"
+  },
+  {
+    "line": "Yuman: Hey, you were doing what was best for you, right? And it looks like you and Sui are all good now, so it turned out alright in the end.",
+    "file": "echoesofchange-yuman-32"
+  },
+  {
+    "line": "Mora: Hmm. Perhaps.",
+    "file": "echoesofchange-mora-27"
+  },
+  {
+    "line": "Timasca Soldier: Woah there! Eheh, sorry folks, didn't see-",
+    "file": "echoesofchange-timascasoldier-1"
+  },
+  {
+    "line": "Timasca Soldier: Wait. You three - if you have your equipment, you should be out on the streets. State your business here.",
+    "file": "echoesofchange-timascasoldier-2"
+  },
+  {
+    "line": "Timasca Soldier: ... Well? I'm not hearing an answer. State. Your. Business.",
+    "file": "echoesofchange-timascasoldier-3"
+  },
+  {
+    "line": "Mora: I- ah. We... we were looking for...",
+    "file": "echoesofchange-mora-28"
+  },
+  {
+    "line": "Timasca Soldier: Speak up, soldier!",
+    "file": "echoesofchange-timascasoldier-4"
+  },
+  {
+    "line": "Yuman: Excuse my partner, fellas!",
+    "file": "echoesofchange-yuman-33"
+  },
+  {
+    "line": "Yuman: Ya know how the stress gets. Festival's coming up, lots to worry about! Not getting much sleep - all that.",
+    "file": "echoesofchange-yuman-34"
+  },
+  {
+    "line": "Yuman: Heck, I don't even remember what I last ate, hahaha!",
+    "file": "echoesofchange-yuman-35"
+  },
+  {
+    "line": "Timasca Soldier: Ha! Yeah, I've been feeling that. Commander's got us working overtime, it's a whole mess.",
+    "file": "echoesofchange-timascasoldier-5"
+  },
+  {
+    "line": "Timasca Soldier: Oh, hey, why don't y'all join us for some drinks after the shift?",
+    "file": "echoesofchange-timascasoldier-6"
+  },
+  {
+    "line": "Yuman: Sounds great, man! Guess we'll meet you boys then! You got the night shift too, right?",
+    "file": "echoesofchange-yuman-36"
+  },
+  {
+    "line": "Timasca Soldier: Yeah. Drew the short straw, unfortunately. The commander has us doing them the next few days...",
+    "file": "echoesofchange-timascasoldier-7"
+  },
+  {
+    "line": "Timasca Soldier: At this rate, we'll be too damn tired to enjoy the festival! Like... give us a break, right?",
+    "file": "echoesofchange-timascasoldier-8"
+  },
+  {
+    "line": "Yuman: Yeah, yeah. Same sorta thing here! I got paired up with these newbies, and the commander's got us on festival shift.",
+    "file": "echoesofchange-yuman-37"
+  },
+  {
+    "line": "Timasca Soldier: Ouch. That's rough. Good luck out there.",
+    "file": "echoesofchange-timascasoldier-9"
+  },
+  {
+    "line": "Yuman: Ey, thanks! But yeah, I'm still showin' them the ropes, and all that. We only got the news, like, an hour ago, so we're going to check the schedules.",
+    "file": "echoesofchange-yuman-38"
+  },
+  {
+    "line": "Timasca Soldier: Ah, management... putting newbies on festival shift? I wonder what the commander's thinking? Well, good luck with that.",
+    "file": "echoesofchange-timascasoldier-10"
+  },
+  {
+    "line": "Yuman: Thanks! See ya around, fellas.",
+    "file": "echoesofchange-yuman-39"
+  },
+  {
+    "line": "Yuman: ...told ya I could talk us through it.",
+    "file": "echoesofchange-yuman-40"
+  },
+  {
+    "line": "Mora: That was... impressive. I did not think it could be done.",
+    "file": "echoesofchange-mora-29"
+  },
+  {
+    "line": "Yuman: Ah, y'know... they're still people at the end of the day.",
+    "file": "echoesofchange-yuman-41"
+  },
+  {
+    "line": "Mora: I... suppose. I apologize, I do not know why I... froze up there. I should know what I'm doing...",
+    "file": "echoesofchange-mora-30"
+  },
+  {
+    "line": "Yuman: Hey, it happens. For the record, I'm sorry for bein' a bit rough with ya. Had to convince them somehow.",
+    "file": "echoesofchange-yuman-42"
+  },
+  {
+    "line": "Mora: No worries, Yuman, I understand. Now, ah... let us find the schedules before someone else notices we are not supposed to be here.",
+    "file": "echoesofchange-mora-31"
+  },
+  {
+    "line": "Yuman: Let's find the schedules!",
+    "file": "echoesofchange-yuman-43"
+  },
+  {
+    "line": "Mora: The schedules were further up, yes?",
+    "file": "echoesofchange-mora-32"
+  },
+  {
+    "line": "Mora: Ah, soldier, did you find them?",
+    "file": "echoesofchange-mora-33"
+  },
+  {
+    "line": "Mora: Start writing them down, would you?",
+    "file": "echoesofchange-mora-34"
+  },
+  {
+    "line": "Mora: It's more guards than we typically see in Auburn festivals, that's for certain... I hope Syndra anticipated this.",
+    "file": "echoesofchange-mora-35"
+  },
+  {
+    "line": "Yuman: She seems like the kind of lady to have back-up plans for her back-up plans... I wouldn't worry too much.",
+    "file": "echoesofchange-yuman-44"
+  },
+  {
+    "line": "Mora: I suppose you're right. Now, we should make our way out of here before anyone else arrives.",
+    "file": "echoesofchange-mora-36"
+  },
+  {
+    "line": "Yuman: I could really use a nap after that.",
+    "file": "echoesofchange-yuman-45"
+  },
+  {
+    "line": "Mora: Seems like our mission is done. Let's head back.",
+    "file": "echoesofchange-mora-37"
+  },
+  {
+    "line": "Syndra: ...and we'll need to keep things calm back here while we're gone.",
+    "file": "echoesofchange-syndra-10"
+  },
+  {
+    "line": "Jiro: Of course, of course. Wouldn't want anyone to panic.",
+    "file": "echoesofchange-jiro-1"
+  },
+  {
+    "line": "Syndra: I'm less concerned about panic, and more about stress. I know Quill will stay behind during the festival itself, but it'll be good to have additional help.",
+    "file": "echoesofchange-syndra-11"
+  },
+  {
+    "line": "Jiro: Yes, ma'am. I can handle it.",
+    "file": "echoesofchange-jiro-2"
+  },
+  {
+    "line": "Syndra: Good. Oh, soldier, hello!",
+    "file": "echoesofchange-syndra-12"
+  },
+  {
+    "line": "Jiro: Ah, I should get going. I'll see if I can track down Quill.",
+    "file": "echoesofchange-jiro-3"
+  },
+  {
+    "line": "Syndra: Alright, good luck.",
+    "file": "echoesofchange-syndra-13"
+  },
+  {
+    "line": "Syndra: Sigh...",
+    "file": "echoesofchange-syndra-14"
+  },
+  {
+    "line": "Syndra: Oh, Jiro was asking if there was anything he could do to help. I told him he could help Quill keep the peace down here while we're... performing the plan.",
+    "file": "echoesofchange-syndra-15"
+  },
+  {
+    "line": "Syndra: He's... been acting a little out of character, truth be told... though it might just be the stress of the upcoming festival causing it.",
+    "file": "echoesofchange-syndra-16"
+  },
+  {
+    "line": "Syndra: But either way - how are things going?",
+    "file": "echoesofchange-syndra-17"
+  },
+  {
+    "line": "Syndra: That's good to hear. I know I placed a lot of responsibility on your shoulders...",
+    "file": "echoesofchange-syndra-18"
+  },
+  {
+    "line": "Syndra: In truth, you have the most experience out of all the youngsters. And to ensure this plan succeeds... it's good to have you keep an eye on things.",
+    "file": "echoesofchange-syndra-19"
+  },
+  {
+    "line": "Syndra: Mmn. I apologize for placing so much on your shoulders.",
+    "file": "echoesofchange-syndra-20"
+  },
+  {
+    "line": "Syndra: But you have the most experience out of all the youngsters, and we need to ensure this plan works... we have no choice.",
+    "file": "echoesofchange-syndra-21"
+  },
+  {
+    "line": "Syndra: But, regardless - Mora gave me the guard positions you retrieved. I was working with Rex and Zeph on our next steps, based off of that information.",
+    "file": "echoesofchange-syndra-22"
+  },
+  {
+    "line": "Syndra: They've gone off... somewhere, I don't know where. Until they return, you should go see if Sui and Yusanu need anything.",
+    "file": "echoesofchange-syndra-23"
+  },
+  {
+    "line": "Syndra: Until Rex and Zeph return, you should go see if Sui and Yusanu need anything.",
+    "file": "echoesofchange-syndra-24"
+  },
+  {
+    "line": "Sui: Oh! Soldier, you're back! How did it, um, go?",
+    "file": "echoesofchange-sui-2"
+  },
+  {
+    "line": "Sui: Oh! Good! It, um, went smoothly, I hope? Mora and Yuman got along?",
+    "file": "echoesofchange-sui-3"
+  },
+  {
+    "line": "Yusanu: If they got the schedules, it was probably fine. So, soldier, are you here to help us out too?",
+    "file": "echoesofchange-yusanu-2"
+  },
+  {
+    "line": "Sui: Hehe, I guess that's what happens when you show off all those skills of yours!",
+    "file": "echoesofchange-sui-4"
+  },
+  {
+    "line": "Yusanu: Yep! Oh, speaking of... soldier, are you here to help us out too?",
+    "file": "echoesofchange-yusanu-3"
+  },
+  {
+    "line": "Yusanu: We've been putting together those explosives Syndra requested. I think we've decided on an easily produced model.",
+    "file": "echoesofchange-yusanu-4"
+  },
+  {
+    "line": "Sui: By, um, ''we,'' he mostly means him. I can, ha, barely understand what he's going on about.",
+    "file": "echoesofchange-sui-5"
+  },
+  {
+    "line": "Yusanu: Hey, don't sell yourself short! You've been helpful! I would've never thought to utilize water in the design if it weren't for your suggestion.",
+    "file": "echoesofchange-yusanu-5"
+  },
+  {
+    "line": "Sui: Oh... thank you. Soldier, we were playing around with the idea of hiding magical water inside the, um, explosive... but I, ah, don't know how to hold its power when I can't... see it.",
+    "file": "echoesofchange-sui-6"
+  },
+  {
+    "line": "Yusanu: Magic or not, using water in the design will make the explosion look more dangerous and powerful than it actually is! It's genius!",
+    "file": "echoesofchange-yusanu-6"
+  },
+  {
+    "line": "Yusanu: Now, we just need to put it together...",
+    "file": "echoesofchange-yusanu-7"
+  },
+  {
+    "line": "Yusanu: Eheh. Maybe? I need to run some tests while it's being assembled, and Sui needs to stand guard in case it's about to actually explode.",
+    "file": "echoesofchange-yusanu-8"
+  },
+  {
+    "line": "Sui: If things go awry, I'll, um, surround it in a ball of water.",
+    "file": "echoesofchange-sui-7"
+  },
+  {
+    "line": "Yusanu: Yep! Okay, no more questions, we've got to get to it! Click the explosive parts whenever you're ready.",
+    "file": "echoesofchange-yusanu-9"
+  },
+  {
+    "line": "Yusanu: Phew! All clear! Good work, soldier.",
+    "file": "echoesofchange-yusanu-10"
+  },
+  {
+    "line": "Yusanu: I think Sui and I will perform a few more tests... maybe a test run or two... but the construction went okay, so I should be able to produce some more.",
+    "file": "echoesofchange-yusanu-11"
+  },
+  {
+    "line": "Yusanu: And, eheh, hopefully not blow up my workshop...",
+    "file": "echoesofchange-yusanu-12"
+  },
+  {
+    "line": "Sui: Oh, no... soldier, are you sure you, um, can't stick around, a bit longer? Just, in case?",
+    "file": "echoesofchange-sui-8"
+  },
+  {
+    "line": "Yusanu: Nope, there's still stuff to do! On that subject - soldier, Rex was looking for you earlier.",
+    "file": "echoesofchange-yusanu-13"
+  },
+  {
+    "line": "Rex: Soldier, finally! There you are! I was getting restless.",
+    "file": "echoesofchange-rex-2"
+  },
+  {
+    "line": "Zeph: I w- was quite comfortable... actually.",
+    "file": "echoesofchange-zeph-2"
+  },
+  {
+    "line": "Rex: Oh, are the nerves getting to you Zeph?",
+    "file": "echoesofchange-rex-3"
+  },
+  {
+    "line": "Zeph: I- I know... But it f- fe- feels like everyone else is doing okay, while I- I'm not even doing an- any- anything, and I'm a- al- already panicking.",
+    "file": "echoesofchange-zeph-3"
+  },
+  {
+    "line": "Rex: Hey, everyone else is also feeling nervous, Zeph. Some of us are just... better at hiding it than others.",
+    "file": "echoesofchange-rex-4"
+  },
+  {
+    "line": "Zeph: Re- really? For some reason, that m- ma- makes me feel a lot better... uh, n- no offense!",
+    "file": "echoesofchange-zeph-4"
+  },
+  {
+    "line": "Rex: We're all nervous, Zeph. It's a risky plan. But we know what we're doing. We have to trust we'll succeed.",
+    "file": "echoesofchange-rex-5"
+  },
+  {
+    "line": "Zeph: Ha ha, v- ver- very funny, soldier. I- I- I'm trying. I am! It's just... hard not to be an- anxious.",
+    "file": "echoesofchange-zeph-5"
+  },
+  {
+    "line": "Rex: You're fine, Zeph. I'd be surprised if you weren't anxious, honestly. Given what we're planning on doing...",
+    "file": "echoesofchange-rex-6"
+  },
+  {
+    "line": "Zeph: I g- guess... It's all just st- st- starting to sink in.",
+    "file": "echoesofchange-zeph-6"
+  },
+  {
+    "line": "Rex: Look, the more you think about it, the worse it'll get. Accept the feeling for what it is, then put it aside for now.",
+    "file": "echoesofchange-rex-7"
+  },
+  {
+    "line": "Rex: We've got work to do, and... we really can't afford to screw it up.",
+    "file": "echoesofchange-rex-8"
+  },
+  {
+    "line": "Zeph: I- I'll do my best.",
+    "file": "echoesofchange-zeph-7"
+  },
+  {
+    "line": "Rex: That's all I ask. Anyway, soldier, Zeph and I looked over the schedules with Syndra earlier. We've marked a couple of spots we want to check out.",
+    "file": "echoesofchange-rex-9"
+  },
+  {
+    "line": "Zeph: So- s- so let's go see them in person! Uh, Rex, I c- ca- can carry the arrows and electric ch- charges for you.",
+    "file": "echoesofchange-zeph-8"
+  },
+  {
+    "line": "Rex: Oh, what a gentleman.",
+    "file": "echoesofchange-rex-10"
+  },
+  {
+    "line": "Quill: Ah! Perfect timing.",
+    "file": "echoesofchange-quill-6"
+  },
+  {
+    "line": "Rex: Oh, Quill, Yulie?",
+    "file": "echoesofchange-rex-11"
+  },
+  {
+    "line": "Yulie: Glad to see you all here.",
+    "file": "echoesofchange-yulie-2"
+  },
+  {
+    "line": "Rex: Are you guys heading out for your task as well?",
+    "file": "echoesofchange-rex-12"
+  },
+  {
+    "line": "Zeph: We were j-just about to walk to Timasca for our task. P-perhaps we travel together?",
+    "file": "echoesofchange-zeph-9"
+  },
+  {
+    "line": "Quill: Ah, yeah. We were also planning to start heading out shortly. Soldier, would care to join us after you're done helping out your friends?",
+    "file": "echoesofchange-quill-7"
+  },
+  {
+    "line": "Zeph: Perhaps you s-should have the soldier run b-back and fourth a bit more! Hah!",
+    "file": "echoesofchange-zeph-10"
+  },
+  {
+    "line": "Yulie: Let's... let's just go!",
+    "file": "echoesofchange-yulie-3"
+  },
+  {
+    "line": "Quill: I heard from Syndra about your previous assignments and their success. Good work!",
+    "file": "echoesofchange-quill-8"
+  },
+  {
+    "line": "Yulie: You better not pick out the highest roof tops. I'm not sure I can get up that far.",
+    "file": "echoesofchange-yulie-4"
+  },
+  {
+    "line": "Zeph: I'm g-glad we talked. I f-feel a bit better about- about everything n-now.",
+    "file": "echoesofchange-zeph-11"
+  },
+  {
+    "line": "Rex: Let me just make sure I have everything...",
+    "file": "echoesofchange-rex-13"
+  },
+  {
+    "line": "Zeph: T-took you some time!",
+    "file": "echoesofchange-zeph-12"
+  },
+  {
+    "line": "Rex: Great! You're here, slowpoke.",
+    "file": "echoesofchange-rex-14"
+  },
+  {
+    "line": "Rex: They decided to start doing some preparations for your next assignment.",
+    "file": "echoesofchange-rex-15"
+  },
+  {
+    "line": "Zeph: Hah! N-Nope.",
+    "file": "echoesofchange-zeph-13"
+  },
+  {
+    "line": "Rex: Since Quill and Yulie are checking with locals how they feel about the festival, it's time for us to get started.",
+    "file": "echoesofchange-rex-16"
+  },
+  {
+    "line": "Rex: I have the map and we marked two locations.",
+    "file": "echoesofchange-rex-17"
+  },
+  {
+    "line": "Zeph: We're c-checking both out since we w-want to split Rex and Yulie on different v-vantage points.",
+    "file": "echoesofchange-zeph-14"
+  },
+  {
+    "line": "Zeph: I'll p-point them out for you. Ready?",
+    "file": "echoesofchange-zeph-15"
+  },
+  {
+    "line": "Zeph: Just return to u-us when you're r-ready.",
+    "file": "echoesofchange-zeph-16"
+  },
+  {
+    "line": "Zeph: A-alright!",
+    "file": "echoesofchange-zeph-17"
+  },
+  {
+    "line": "Zeph: That's t-the first one.",
+    "file": "echoesofchange-zeph-18"
+  },
+  {
+    "line": "Zeph: Those locations are our g-goal!",
+    "file": "echoesofchange-zeph-19"
+  },
+  {
+    "line": "Zeph: Okay. L-let's get to work!",
+    "file": "echoesofchange-zeph-20"
+  },
+  {
+    "line": "Rex: I'll give Zeph some of our equipment and we will split up. Zeph, you take the tallest tower. I will take the other one.",
+    "file": "echoesofchange-rex-18"
+  },
+  {
+    "line": "Zeph: Wait, why d-do we need the soldier for this?",
+    "file": "echoesofchange-zeph-21"
+  },
+  {
+    "line": "Rex: Were you not paying attention to Syndra earlier at all? The soldier will help us assess the vantage points. They have more experience than us and might help point out potential issues.",
+    "file": "echoesofchange-rex-19"
+  },
+  {
+    "line": "Zeph: R-right.",
+    "file": "echoesofchange-zeph-22"
+  },
+  {
+    "line": "Rex: Make your way up in whatever way you can, soldier.",
+    "file": "echoesofchange-rex-20"
+  },
+  {
+    "line": "Rex: I'll be there in a bit!",
+    "file": "echoesofchange-rex-21"
+  },
+  {
+    "line": "Rex: Well.... Seems like you got here before me.",
+    "file": "echoesofchange-rex-22"
+  },
+  {
+    "line": "Rex: So...",
+    "file": "echoesofchange-rex-23"
+  },
+  {
+    "line": "Rex: Thanks. But you've seen me do better!",
+    "file": "echoesofchange-rex-24"
+  },
+  {
+    "line": "Rex: Pfft. Whatever!",
+    "file": "echoesofchange-rex-25"
+  },
+  {
+    "line": "Rex: Let's get started.",
+    "file": "echoesofchange-rex-26"
+  },
+  {
+    "line": "Rex: Would you agree that this overlooks the whole square?",
+    "file": "echoesofchange-rex-27"
+  },
+  {
+    "line": "Rex: The festival always takes place right here and this should let us get a pretty good coverage of the area.",
+    "file": "echoesofchange-rex-28"
+  },
+  {
+    "line": "Rex: What do you think?",
+    "file": "echoesofchange-rex-29"
+  },
+  {
+    "line": "Rex: Just... okay? Speak up if you have any concerns.",
+    "file": "echoesofchange-rex-30"
+  },
+  {
+    "line": "Rex: No? You've gone mute? Well, then.",
+    "file": "echoesofchange-rex-31"
+  },
+  {
+    "line": "Rex: Alright!",
+    "file": "echoesofchange-rex-32"
+  },
+  {
+    "line": "Rex: Work done then.",
+    "file": "echoesofchange-rex-33"
+  },
+  {
+    "line": "Rex: Let's place the equipment here.",
+    "file": "echoesofchange-rex-34"
+  },
+  {
+    "line": "Rex: Alright. Time for you to assess Zeph's location.",
+    "file": "echoesofchange-rex-35"
+  },
+  {
+    "line": "Rex: I'll head down for now and wait for him.",
+    "file": "echoesofchange-rex-36"
+  },
+  {
+    "line": "Rex: Good luck with Quill and Yulie. I hope it goes smoothly. That should be the final piece of the plan.",
+    "file": "echoesofchange-rex-37"
+  },
+  {
+    "line": "Rex: Hey... soldier, I truly hope... everything works out.",
+    "file": "echoesofchange-rex-38"
+  },
+  {
+    "line": "Rex: I saw you help out Zeph earlier.",
+    "file": "echoesofchange-rex-39"
+  },
+  {
+    "line": "Rex: Seems like our part of the preparations are done. I'll bring Zeph back with me and start training.",
+    "file": "echoesofchange-rex-40"
+  },
+  {
+    "line": "Rex: Our plan should involve minimal fighting but... in case things go wrong, I need to hit my shots when it counts.",
+    "file": "echoesofchange-rex-41"
+  },
+  {
+    "line": "Rex: I saw Quill and Yulie outside Sovereign Soosu's mansion. You shouldn't keep them waiting.",
+    "file": "echoesofchange-rex-42"
+  },
+  {
+    "line": "Zeph: H-hey!",
+    "file": "echoesofchange-zeph-23"
+  },
+  {
+    "line": "Zeph: Well of c-course I did. Don't be s-silly.",
+    "file": "echoesofchange-zeph-24"
+  },
+  {
+    "line": "Zeph: Next time! What is it n-now? Zeph 5... soldier 1?",
+    "file": "echoesofchange-zeph-25"
+  },
+  {
+    "line": "Zeph: So... This is the p-place.",
+    "file": "echoesofchange-zeph-26"
+  },
+  {
+    "line": "Zeph: This s-should cover the other side from Rex's tower.",
+    "file": "echoesofchange-zeph-27"
+  },
+  {
+    "line": "Zeph: Does it l-look okay?",
+    "file": "echoesofchange-zeph-28"
+  },
+  {
+    "line": "Zeph: Perfect! S-so are we good then?",
+    "file": "echoesofchange-zeph-29"
+  },
+  {
+    "line": "Zeph: What's up with y-you? Getting cold f-feet?",
+    "file": "echoesofchange-zeph-30"
+  },
+  {
+    "line": "Zeph: L-let me place the equipment and we're done here then.",
+    "file": "echoesofchange-zeph-31"
+  },
+  {
+    "line": "Zeph: I saw you beat Rex e-earlier.",
+    "file": "echoesofchange-zeph-32"
+  },
+  {
+    "line": "Zeph: Since w-we're done here... Time for you to a-assist Quill and Yulie, Superhero.",
+    "file": "echoesofchange-zeph-33"
+  },
+  {
+    "line": "Zeph: I'm g-going to get some more practice d-done...",
+    "file": "echoesofchange-zeph-34"
+  },
+  {
+    "line": "Zeph: Quill and Yulie are o-outside Sovereign Soosu's mansion.",
+    "file": "echoesofchange-zeph-35"
+  },
+  {
+    "line": "Zeph: If you hurry y-you can make it before Rex.",
+    "file": "echoesofchange-zeph-36"
+  },
+  {
+    "line": "Zeph: She's n-never been the most agile...",
+    "file": "echoesofchange-zeph-37"
+  },
+  {
+    "line": "Zeph: Don't tell her I said t-that...",
+    "file": "echoesofchange-zeph-38"
+  },
+  {
+    "line": "Zeph: G-good luck!",
+    "file": "echoesofchange-zeph-39"
+  },
+  {
+    "line": "Quill: Ah. You found us. Perfect.",
+    "file": "echoesofchange-quill-9"
+  },
+  {
+    "line": "Yulie: We've been conducting some research on the general feel of the coming festival.",
+    "file": "echoesofchange-yulie-5"
+  },
+  {
+    "line": "Yulie: As every year, people see it as a day off work. That's all it is for them.",
+    "file": "echoesofchange-yulie-6"
+  },
+  {
+    "line": "Quill: Syndra let us know before that people in the Auburn Forest see the festival as a way to celebrate their culture.",
+    "file": "echoesofchange-quill-10"
+  },
+  {
+    "line": "Yulie: Hah. Very different from here. People have a day off, they go out drinking and partying. That's all this festival is.",
+    "file": "echoesofchange-yulie-7"
+  },
+  {
+    "line": "Quill: So, our assignment. According to the map, we have three possible escape routes. These should be the optimal routes judging by the schedules.",
+    "file": "echoesofchange-quill-11"
+  },
+  {
+    "line": "Yulie: Let's head to the first location.",
+    "file": "echoesofchange-yulie-8"
+  },
+  {
+    "line": "Quill: So... First location is our tunnel.",
+    "file": "echoesofchange-quill-12"
+  },
+  {
+    "line": "Yulie: The reason this has been such a safe location for us all this time is because this place is always empty.",
+    "file": "echoesofchange-yulie-9"
+  },
+  {
+    "line": "Yulie: People rarely go here, since it's still a developing area in the city.",
+    "file": "echoesofchange-yulie-10"
+  },
+  {
+    "line": "Quill: According to the guard schedule, it should also be empty during the festival.",
+    "file": "echoesofchange-quill-13"
+  },
+  {
+    "line": "Quill: Why don't you have a look around?",
+    "file": "echoesofchange-quill-14"
+  },
+  {
+    "line": "Quill: Have a look around, perhaps you can find something that compromises this location.",
+    "file": "echoesofchange-quill-15"
+  },
+  {
+    "line": "Construction Worker: Arghhhhhhhhhhh!!!!!!!!!!",
+    "file": "echoesofchange-constructionworker-1"
+  },
+  {
+    "line": "Construction Worker: Leaaave me alone!!",
+    "file": "echoesofchange-constructionworker-2"
+  },
+  {
+    "line": "Construction Worker: What do you WANT?!",
+    "file": "echoesofchange-constructionworker-3"
+  },
+  {
+    "line": "Construction Worker: Ahhee! Excuse me???",
+    "file": "echoesofchange-constructionworker-4"
+  },
+  {
+    "line": "Construction Worker: Why are you even here? Don't you have work to do? Tomorrow is a VERY special day.",
+    "file": "echoesofchange-constructionworker-5"
+  },
+  {
+    "line": "Construction Worker: What eeelse?",
+    "file": "echoesofchange-constructionworker-6"
+  },
+  {
+    "line": "Construction Worker: Thoughts? You interrupted my work to ask about my THOUGHTS?",
+    "file": "echoesofchange-constructionworker-7"
+  },
+  {
+    "line": "Construction Worker: I mean... if you really want to know. It's great! A day of NO work. You know what that means!",
+    "file": "echoesofchange-constructionworker-8"
+  },
+  {
+    "line": "Construction Worker: I get to dust off my Roughworks Vodka and not worry for 24 hours! Great days ahead, I tell ya!",
+    "file": "echoesofchange-constructionworker-9"
+  },
+  {
+    "line": "Yulie: Alright. Let's get to the next spot. It's on the other side of the city.",
+    "file": "echoesofchange-yulie-11"
+  },
+  {
+    "line": "Quill: Map says it's around here... Yulie?",
+    "file": "echoesofchange-quill-16"
+  },
+  {
+    "line": "Yulie: Right. The plan was to escape using the underground river.",
+    "file": "echoesofchange-yulie-12"
+  },
+  {
+    "line": "Yulie: Following this path here should lead down to the river...",
+    "file": "echoesofchange-yulie-13"
+  },
+  {
+    "line": "Yulie: However...",
+    "file": "echoesofchange-yulie-14"
+  },
+  {
+    "line": "Yulie: It requires us to... dive through a small underwater section.",
+    "file": "echoesofchange-yulie-15"
+  },
+  {
+    "line": "Quill: Dive?",
+    "file": "echoesofchange-quill-17"
+  },
+  {
+    "line": "Yulie: Aha! Look, I've tried it before, it works!",
+    "file": "echoesofchange-yulie-16"
+  },
+  {
+    "line": "Quill: Do I want to know why?",
+    "file": "echoesofchange-quill-18"
+  },
+  {
+    "line": "Yulie: Work stuff... An investigation required me to do it.",
+    "file": "echoesofchange-yulie-17"
+  },
+  {
+    "line": "Quill: Right... Let's place this escape point as the... last option.",
+    "file": "echoesofchange-quill-19"
+  },
+  {
+    "line": "Yulie: Take a look around soldier, maybe you'll find some useful information.",
+    "file": "echoesofchange-yulie-18"
+  },
+  {
+    "line": "Citizen: Ugh...",
+    "file": "echoesofchange-citizen1-1"
+  },
+  {
+    "line": "Citizen: I don't feel so... *hick* well.",
+    "file": "echoesofchange-citizen1-2"
+  },
+  {
+    "line": "Citizen: Hah... Since when did you tu - turn - turn into two people!",
+    "file": "echoesofchange-citizen1-3"
+  },
+  {
+    "line": "Citizen: Well yeees... Of course it is! *hic*",
+    "file": "echoesofchange-citizen1-4"
+  },
+  {
+    "line": "Citizen: Do - d- do you like it? Smells quite freshhhh.",
+    "file": "echoesofchange-citizen1-5"
+  },
+  {
+    "line": "Citizen: Oh I feel like I ne- need to... hurl.. *burp*",
+    "file": "echoesofchange-citizen1-6"
+  },
+  {
+    "line": "Citizen: What f-fe-festival? Hmm.. *hic*",
+    "file": "echoesofchange-citizen1-7"
+  },
+  {
+    "line": "Citizen: Oh! That one... Ya know, I don't even know what year it is anymore.",
+    "file": "echoesofchange-citizen1-8"
+  },
+  {
+    "line": "Citizen: None of of it matters anymore. This is my life n-now!",
+    "file": "echoesofchange-citizen1-9"
+  },
+  {
+    "line": "Citizen: Bless you, child. I hope her Majesty brings you health.",
+    "file": "echoesofchange-citizen2-1"
+  },
+  {
+    "line": "Citizen: Her Majesty sure is powerful. And tomorrow... it's her big day.",
+    "file": "echoesofchange-citizen2-2"
+  },
+  {
+    "line": "Citizen: And I get to see her! Bless us all.",
+    "file": "echoesofchange-citizen2-3"
+  },
+  {
+    "line": "Citizen: What brings you here, child.",
+    "file": "echoesofchange-citizen2-4"
+  },
+  {
+    "line": "Citizen: Well, yes of course.",
+    "file": "echoesofchange-citizen2-5"
+  },
+  {
+    "line": "Citizen: Do you like how I have decorated my palace. And my most priced possession... my own personal symbol of her Majesty of Fruma!",
+    "file": "echoesofchange-citizen2-6"
+  },
+  {
+    "line": "Citizen: She is great, don't you agree? And all that she has done for us, her children.",
+    "file": "echoesofchange-citizen2-7"
+  },
+  {
+    "line": "Citizen: Unfortunately I am a bad subject, a very very bad subject! I couldn't work due to my illness... And... I lost my original home - the much worse version.",
+    "file": "echoesofchange-citizen2-8"
+  },
+  {
+    "line": "Citizen: This home is much more homely.",
+    "file": "echoesofchange-citizen2-9"
+  },
+  {
+    "line": "Citizen: What! No!",
+    "file": "echoesofchange-citizen2-10"
+  },
+  {
+    "line": "Citizen: That was my own fault for being lazy and worthless. But now! Now I've devoted myself to her Majesty.",
+    "file": "echoesofchange-citizen2-11"
+  },
+  {
+    "line": "Citizen: She is the reason I'm alive and well! She even cured my mental illness. I feel much better now.",
+    "file": "echoesofchange-citizen2-12"
+  },
+  {
+    "line": "Citizen: It's absolutely splendid! A whole day of getting to celebrate her majesty... Nothing could beat that.",
+    "file": "echoesofchange-citizen2-13"
+  },
+  {
+    "line": "Citizen: Every festival brings me closer to her. I even feel like I will soon join her in the capital!",
+    "file": "echoesofchange-citizen2-14"
+  },
+  {
+    "line": "Citizen: Join her as her right hand by the throne!",
+    "file": "echoesofchange-citizen2-15"
+  },
+  {
+    "line": "Yulie: Alright. Let's get to the final spot. The Mistwoods gate...",
+    "file": "echoesofchange-yulie-19"
+  },
+  {
+    "line": "Quill: Alright, our last stop.",
+    "file": "echoesofchange-quill-20"
+  },
+  {
+    "line": "Quill: Huh. Anything on your mind?",
+    "file": "echoesofchange-quill-21"
+  },
+  {
+    "line": "Quill: I know, soldier. I know what you think.",
+    "file": "echoesofchange-quill-22"
+  },
+  {
+    "line": "Quill: But we can't, we don't have enough room to house all of these people.",
+    "file": "echoesofchange-quill-23"
+  },
+  {
+    "line": "Yulie: Some of these people also refuse to accept our help. They are too deeply rooted into the belief system of the Queen.",
+    "file": "echoesofchange-yulie-20"
+  },
+  {
+    "line": "Yulie: When our parents died, me and my brothers used to live around there. It was more open back then.",
+    "file": "echoesofchange-yulie-21"
+  },
+  {
+    "line": "Yulie: When Quill offered to take us off the street, I almost declined the offer. The thought of going up against a God was... too much.",
+    "file": "echoesofchange-yulie-22"
+  },
+  {
+    "line": "Yulie: But then I rememebered our parents, how our mother worked three jobs just to keep our house. Even those jobs weren't enough and eventually... she got ill from all her rough work.",
+    "file": "echoesofchange-yulie-23"
+  },
+  {
+    "line": "Yulie: Soldier, tomorrow. I am ready to do whatever to save our people. No more people should have to rely on substances to... survive.",
+    "file": "echoesofchange-yulie-24"
+  },
+  {
+    "line": "Quill: Hey kids. Someone... is coming.",
+    "file": "echoesofchange-quill-24"
+  },
+  {
+    "line": "Quill: Someone is passing through the gate.",
+    "file": "echoesofchange-quill-25"
+  },
+  {
+    "line": "Yulie: So what?",
+    "file": "echoesofchange-yulie-25"
+  },
+  {
+    "line": "Quill: I think... I think we need to avoid these people. Call it a hunch.",
+    "file": "echoesofchange-quill-26"
+  },
+  {
+    "line": "Yulie: Hurry!",
+    "file": "echoesofchange-yulie-26"
+  },
+  {
+    "line": "Sovereign Zhiraok: You're the newest addition to our set, then. Good punctuality- You've made a good first impression.",
+    "file": "echoesofchange-sovereignzhiraok-1"
+  },
+  {
+    "line": "Sovereign Tasim: Sovereign Zhiraok. I was... told I would be meeting Sovereign Soosu here?",
+    "file": "echoesofchange-sovereigntasim-1"
+  },
+  {
+    "line": "Sovereign Zhiraok: Attention to formalities is good too, but no need to stand on ceremony right now, alright? Soosu, we'll meet in a short while.",
+    "file": "echoesofchange-sovereignzhiraok-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: But as for you- Tasim, correct? This'll be your first time visiting Timasca? It's the province's central hub for technological development. Needs work, but what do you think?",
+    "file": "echoesofchange-sovereignzhiraok-3"
+  },
+  {
+    "line": "Sovereign Tasim: It is, yes...ah, to both your questions. I don't think I've ever seen anything this... densely packed! It definitely leaves an impression.",
+    "file": "echoesofchange-sovereigntasim-2"
+  },
+  {
+    "line": "Sovereign Tasim: I, ah... appreciate the help getting adjusted to all this. I'm still getting used to... holding this authority, I guess. I'm not sure I'm comfortable having the soldiers defer to me yet.",
+    "file": "echoesofchange-sovereigntasim-3"
+  },
+  {
+    "line": "Sovereign Zhiraok: I was in the same position as you once too. 21 years seems long, especially to me, but compared to the rest? I'm barely on the board. You'll get used to it, so don't worry.",
+    "file": "echoesofchange-sovereignzhiraok-4"
+  },
+  {
+    "line": "Sovereign Zhiraok: On that tangent... How's your recovery been? I remember how taxing ascension was for me... But you look like you're taking to it naturally.",
+    "file": "echoesofchange-sovereignzhiraok-5"
+  },
+  {
+    "line": "Sovereign Tasim: I'm... getting there. The blessing's a little strange, but it's not unlike what I was already able to do. I just need to practice using it.",
+    "file": "echoesofchange-sovereigntasim-4"
+  },
+  {
+    "line": "Sovereign Zhiraok: Golden! I know how tough being the newest can be, so don't be afraid to ask me if you need help solving for your own problems.",
+    "file": "echoesofchange-sovereignzhiraok-6"
+  },
+  {
+    "line": "Sovereign Zhiraok: Speaking of... How's that project you were scouted for? Her Majesty and the Spymaster haven't shown their work to the rest of the class yet.",
+    "file": "echoesofchange-sovereignzhiraok-7"
+  },
+  {
+    "line": "Sovereign Tasim: I've been filled in on the details already, but Her Majesty wants me to fully recover before we start.",
+    "file": "echoesofchange-sovereigntasim-5"
+  },
+  {
+    "line": "Sovereign Tasim: I can tell you more later. You said you'd be able to bring me to Sovereign Soosu?",
+    "file": "echoesofchange-sovereigntasim-6"
+  },
+  {
+    "line": "Sovereign Zhiraok: I'll put a pin in that, then. I think she'll be reaching the end of her sequence on whatever she was working on by now... Follow me, her mansion's this way.",
+    "file": "echoesofchange-sovereignzhiraok-8"
+  },
+  {
+    "line": "Yulie: That's not good.",
+    "file": "echoesofchange-yulie-27"
+  },
+  {
+    "line": "Quill: Indeed... We already had to worry about two Sovereigns but now we have another in the game.",
+    "file": "echoesofchange-quill-27"
+  },
+  {
+    "line": "Yulie: Speaking of, I haven't seen that Sovereign before. Must be new... And what is that plan they were talking about.",
+    "file": "echoesofchange-yulie-28"
+  },
+  {
+    "line": "Quill: We don't know anything about him.",
+    "file": "echoesofchange-quill-28"
+  },
+  {
+    "line": "Yulie: You know him? From where? Auburn?",
+    "file": "echoesofchange-yulie-29"
+  },
+  {
+    "line": "Quill: They wouldn't place two Sovereigns in Auburn...",
+    "file": "echoesofchange-quill-29"
+  },
+  {
+    "line": "Yulie: You have Sovereign friends?",
+    "file": "echoesofchange-yulie-30"
+  },
+  {
+    "line": "Quill: I don't know if you can call yourself friends if you are fighting on opposite sides in this war.",
+    "file": "echoesofchange-quill-30"
+  },
+  {
+    "line": "Quill: Well... If you know him, do you have any information on what this means for our plan?",
+    "file": "echoesofchange-quill-31"
+  },
+  {
+    "line": "Yulie: No offense. But he is fighting on the side of a monarchy who doesn't care if we live or die.",
+    "file": "echoesofchange-yulie-31"
+  },
+  {
+    "line": "Quill: That might cause some issues...",
+    "file": "echoesofchange-quill-32"
+  },
+  {
+    "line": "Quill: So you knew him before his ascension, huh?",
+    "file": "echoesofchange-quill-33"
+  },
+  {
+    "line": "Quill: That might be a good thing. If he is still new to the power of the Queen he might be inexperienced.",
+    "file": "echoesofchange-quill-34"
+  },
+  {
+    "line": "Quill: I wonder what his role is here... All the governing positions are filled out for the districts...",
+    "file": "echoesofchange-quill-35"
+  },
+  {
+    "line": "Yulie: We need to report this development to Syndra. This might change our plans.",
+    "file": "echoesofchange-yulie-32"
+  },
+  {
+    "line": "Yulie: Let's head back to The Steel Feather.",
+    "file": "echoesofchange-yulie-33"
+  },
+  {
+    "line": "Quill: One final question, soldier.",
+    "file": "echoesofchange-quill-36"
+  },
+  {
+    "line": "Quill: If it comes down to it... are you ready to kill your former friend?",
+    "file": "echoesofchange-quill-37"
+  },
+  {
+    "line": "Quill: Everyone! Gather around, we return with... news. Both good and bad.",
+    "file": "echoesofchange-quill-38"
+  },
+  {
+    "line": "Syndra: Welcome back. I hesitate to ask, but what are the news?",
+    "file": "echoesofchange-syndra-25"
+  },
+  {
+    "line": "Quill: We can begin with the good news. We have properly assessed each of our escape routes, and ordered them from most to least preferable..",
+    "file": "echoesofchange-quill-39"
+  },
+  {
+    "line": "Syndra: That's good. With that, we should have completed all the necessary preparations for the festival... then what are the bad news?",
+    "file": "echoesofchange-syndra-26"
+  },
+  {
+    "line": "Quill: We've learned of a third Sovereign who will be present at the festival. A new one, by the name of Tasim.",
+    "file": "echoesofchange-quill-40"
+  },
+  {
+    "line": "Rex: Oh, great. As if having both Sovereigns Zhiraok and Soosu to deal with wasn't bad enough... and now there's another one?",
+    "file": "echoesofchange-rex-43"
+  },
+  {
+    "line": "Syndra: This doesn't change anything. We'll proceed as planned.",
+    "file": "echoesofchange-syndra-27"
+  },
+  {
+    "line": "Yusanu: Er... with all due respect, we'd stand no chance facing three Sovereigns wielding the Queen's blessing. I doubt we could even defeat one!",
+    "file": "echoesofchange-yusanu-14"
+  },
+  {
+    "line": "Syndra: We have all the necessary steps prepared. We know what we need to do. The plan doesn't involve facing the Sovereigns at all - the only target is Her Majesty.",
+    "file": "echoesofchange-syndra-28"
+  },
+  {
+    "line": "Quill: Syndra... I agree with the young ones. It's incredibly risky, and the risk factor has only increased. Perhaps we... wait for next year?",
+    "file": "echoesofchange-quill-41"
+  },
+  {
+    "line": "Syndra: ...",
+    "file": "echoesofchange-syndra-29"
+  },
+  {
+    "line": "Syndra: Yes, the outlook of this fight is not great. Yes, the odds are against us. As I have said previously, I will be the face of the operation.",
+    "file": "echoesofchange-syndra-30"
+  },
+  {
+    "line": "Syndra: I will deal the final blow, and I alone will draw the wrath of the crown and the people. The rest of you will work from the shadows. No one will even know you're involved.",
+    "file": "echoesofchange-syndra-31"
+  },
+  {
+    "line": "Quill: Syndra, old friend... are you certain your judgment isn't... clouded? I understand your troubled history, I do... but is it worth burning yourself to ash? What would Eli-",
+    "file": "echoesofchange-quill-42"
+  },
+  {
+    "line": "Syndra: Enough, Quill. My judgment is clear. I do not believe an additional Sovereign changes anything. Now, are you all still ready to proceed?",
+    "file": "echoesofchange-syndra-32"
+  },
+  {
+    "line": "Yusanu: ... Well, the explosives are already made and ready... so I guess we might as well use 'em.",
+    "file": "echoesofchange-yusanu-15"
+  },
+  {
+    "line": "Sui: ...",
+    "file": "echoesofchange-sui-9"
+  },
+  {
+    "line": "Yulie: After seeing the state of our citizens today... we've waited long enough. I'm ready to take action.",
+    "file": "echoesofchange-yulie-34"
+  },
+  {
+    "line": "Yuman: So long as Zeph joins, I'm in.",
+    "file": "echoesofchange-yuman-46"
+  },
+  {
+    "line": "Zeph: Wh- what? Why w- wo- would my choice matter to you...? Uh, an- anyway, I already pr- pro- promised to help Syndra, no m- matter what.",
+    "file": "echoesofchange-zeph-40"
+  },
+  {
+    "line": "Rex: Sigh. Fine, I'm outvoted. But I don't like this.",
+    "file": "echoesofchange-rex-44"
+  },
+  {
+    "line": "Mora: ...",
+    "file": "echoesofchange-mora-38"
+  },
+  {
+    "line": "Syndra: Mora...?",
+    "file": "echoesofchange-syndra-33"
+  },
+  {
+    "line": "Mora: I am fighting. But I will not allow you to take the fall for it entirely by yourself.",
+    "file": "echoesofchange-mora-39"
+  },
+  {
+    "line": "Syndra: You don't need to protect me, Mora. This is my decision, and-",
+    "file": "echoesofchange-syndra-34"
+  },
+  {
+    "line": "Mora: And my decision, Syndra, is to follow you into battle.",
+    "file": "echoesofchange-mora-40"
+  },
+  {
+    "line": "Syndra: Fine.",
+    "file": "echoesofchange-syndra-35"
+  },
+  {
+    "line": "Syndra: That will be all I ask from most of you. Try to rest and relax before tomorrow's festival. I'll do a final briefing before we head out in the morning.",
+    "file": "echoesofchange-syndra-36"
+  },
+  {
+    "line": "Syndra: Soldier, I have one final request to make of you. I'd like to duel you again... this time, I'll give it my all, and I expect the same of you.",
+    "file": "echoesofchange-syndra-37"
+  },
+  {
+    "line": "Syndra: Meet me by the north-eastern tracks.",
+    "file": "echoesofchange-syndra-38"
+  },
+  {
+    "line": "Zeph: I- I can't rest now. I n-need to practice.",
+    "file": "echoesofchange-zeph-41"
+  },
+  {
+    "line": "Yusanu: All things considered, I am excited to find out how my explosives will perform.",
+    "file": "echoesofchange-yusanu-16"
+  },
+  {
+    "line": "Yulie: I hope Yus' tech doesn't let me down...",
+    "file": "echoesofchange-yulie-35"
+  },
+  {
+    "line": "Rex: I have a really bad feeling about tomorrow. Syndra better know what she's doing.",
+    "file": "echoesofchange-rex-45"
+  },
+  {
+    "line": "Mora: Resistance will always come with a cost. I just hope the cost isn't too great.",
+    "file": "echoesofchange-mora-41"
+  },
+  {
+    "line": "Sui: My water magic has gotten a lot better. I will help, no matter what!",
+    "file": "echoesofchange-sui-10"
+  },
+  {
+    "line": "Yuman: Hey, Zeph! Wanna go train?",
+    "file": "echoesofchange-yuman-47"
+  },
+  {
+    "line": "Zeph: U-uh, yeah. I was just a-about to go there myself.",
+    "file": "echoesofchange-zeph-42"
+  },
+  {
+    "line": "Syndra: We don't know what tomorrow will hold. We might succeed without any issues - and I really, truly hope that'll be the case.",
+    "file": "echoesofchange-syndra-39"
+  },
+  {
+    "line": "Syndra: However... We need to be ready for anything. That's why I want to challenge you.",
+    "file": "echoesofchange-syndra-40"
+  },
+  {
+    "line": "Syndra: Of everyone here, you and I are the closest to the power level of a Sovereign. If we can each hold our own in this duel... we might stand a chance.",
+    "file": "echoesofchange-syndra-41"
+  },
+  {
+    "line": "Syndra: As I said, I won't be holding back. I expect you to do the same.",
+    "file": "echoesofchange-syndra-42"
+  },
+  {
+    "line": "Syndra: ... I haven't told you the most important part of my plan yet, have I?",
+    "file": "echoesofchange-syndra-43"
+  },
+  {
+    "line": "Syndra: I've said that I'll deal the final blow on Her Majesty. In order to do that... I will use my blessing from above, and kill her in one strike.",
+    "file": "echoesofchange-syndra-44"
+  },
+  {
+    "line": "Syndra: I'll let everyone else know tomorrow morning... But do you understand why I need this duel? I... I need to be certain I can do it.",
+    "file": "echoesofchange-syndra-45"
+  },
+  {
+    "line": "Syndra: Alright. When you're ready, speak to me again, and we shall proceed.",
+    "file": "echoesofchange-syndra-46"
+  },
+  {
+    "line": "Syndra: Alright... Bring it on!",
+    "file": "echoesofchange-syndra-47"
+  },
+  {
+    "line": "Syndra: Alright. Let the best soldier win!",
+    "file": "echoesofchange-syndra-48"
+  },
+  {
+    "line": "Syndra: Ha. I see... I lost.",
+    "file": "echoesofchange-syndra-49"
+  },
+  {
+    "line": "Syndra: Truthfully, I didn't expect to be able to best you. You've been able to hone your skills and train your magic far more than I ever could have.",
+    "file": "echoesofchange-syndra-50"
+  },
+  {
+    "line": "Syndra: So many years... and the solution was right in front of me. But I didn't know to look!",
+    "file": "echoesofchange-syndra-51"
+  },
+  {
+    "line": "Syndra: ...it doesn't matter now. We've come this far already. We'll have to work with what we have.",
+    "file": "echoesofchange-syndra-52"
+  },
+  {
+    "line": "Syndra: Listen... there is one other reason I asked for this. I have... something of a hard truth I need to share, and I need you to keep it to yourself.",
+    "file": "echoesofchange-syndra-53"
+  },
+  {
+    "line": "Syndra: There is a significant chance I will fail to land the initial strike. If that happens... I will not make it out of that confrontation alive.",
+    "file": "echoesofchange-syndra-54"
+  },
+  {
+    "line": "Syndra: A battle with Her Majesty is no fight at all. How could it be? Could any one person make a dent in such overwhelming strength?",
+    "file": "echoesofchange-syndra-55"
+  },
+  {
+    "line": "Syndra: ... So I must do this alone. If anyone must take the fall, it *will* be me.",
+    "file": "echoesofchange-syndra-56"
+  },
+  {
+    "line": "Syndra: Because there is no other choice! Because if I am forced to bear yet another year without her by my side, then... then... then I think my spark would finally go out.",
+    "file": "echoesofchange-syndra-57"
+  },
+  {
+    "line": "Syndra: I suppose I may as well tell you. An anger without context must seem strange to an outside observer.",
+    "file": "echoesofchange-syndra-58"
+  },
+  {
+    "line": "Syndra: I was once in the military, as you know. But I was no mere soldier, no... I'd risen so far as to approach Her Majesty's inner circle. One of her Wings.",
+    "file": "echoesofchange-syndra-59"
+  },
+  {
+    "line": "Syndra: You know, that was the year after Sovereign Selium died. The position for Sovereign of the Auburn Forest had opened up. If things had gone differently, could I have...?",
+    "file": "echoesofchange-syndra-60"
+  },
+  {
+    "line": "Syndra: Maybe that's why she did it. She was always sending me on difficult assignments, but...",
+    "file": "echoesofchange-syndra-61"
+  },
+  {
+    "line": "Syndra: This time, I was ordered to deal with several cursed ones in the Roughworks. Capture if possible, but... well, they wouldn't always come quietly.",
+    "file": "echoesofchange-syndra-62"
+  },
+  {
+    "line": "Syndra: I'd done this before, of course. So I wouldn't have thought much of it, except... except, one of the names I received... I recognized it. Of course I recognized it.",
+    "file": "echoesofchange-syndra-63"
+  },
+  {
+    "line": "Syndra: It was my lover.",
+    "file": "echoesofchange-syndra-64"
+  },
+  {
+    "line": "Syndra: I refused! Of course I did - I was asked to kill the love of my life!!",
+    "file": "echoesofchange-syndra-65"
+  },
+  {
+    "line": "Syndra: She wasn't even cursed. And here and now, we understand the truth of that label... but back then, it was a shock! A normal, working citizen...",
+    "file": "echoesofchange-syndra-66"
+  },
+  {
+    "line": "Syndra: I was brought back to the citadel. As I stood before Her Majesty, she told me it was a test. A TEST!! A test of my loyalty to the crown.",
+    "file": "echoesofchange-syndra-67"
+  },
+  {
+    "line": "Syndra: Disgraced, I had my rank and status removed. I was disposed of, sent to the Auburn Forest, forbidden from ever leaving.",
+    "file": "echoesofchange-syndra-68"
+  },
+  {
+    "line": "Syndra: Of course he knew! Offered condolences and helped get me back up once he became Sovereign.",
+    "file": "echoesofchange-syndra-69"
+  },
+  {
+    "line": "Syndra: He gave me an assignment. To infiltrate the local resistance groups, and keep an eye on them. If I did that... I could restore my honour.",
+    "file": "echoesofchange-syndra-70"
+  },
+  {
+    "line": "Syndra: Ironically, it's thanks to him that we're here right now. But I can't ever forgive him for standing by and letting the crown keep me trapped there.",
+    "file": "echoesofchange-syndra-71"
+  },
+  {
+    "line": "Syndra: ... But he isn't important. Not really. It's who he serves.",
+    "file": "echoesofchange-syndra-72"
+  },
+  {
+    "line": "Syndra: Her Majesty... I need her to die. I need to do it myself. Only then, can I finally be at peace...",
+    "file": "echoesofchange-syndra-73"
+  },
+  {
+    "line": "Syndra: Soldier. If I don't survive... I need you to do something for me.",
+    "file": "echoesofchange-syndra-74"
+  },
+  {
+    "line": "Syndra: Keep my children safe. They're all I have left.",
+    "file": "echoesofchange-syndra-75"
+  },
+  {
+    "line": "Syndra: ... Try and get some rest. We have a massive challenge ahead of us tomorrow.",
+    "file": "echoesofchange-syndra-76"
+  },
+  {
+    "line": "Syndra: Anything else?",
+    "file": "echoesofchange-syndra-77"
+  },
+  {
+    "line": "Syndra: I did... When we first got here I asked Quill for help.",
+    "file": "echoesofchange-syndra-78"
+  },
+  {
+    "line": "Syndra: But... It's like Elise never existed here.",
+    "file": "echoesofchange-syndra-79"
+  },
+  {
+    "line": "Syndra: Sometimes I think... I think I made it up but... That's not... possible.",
+    "file": "echoesofchange-syndra-80"
+  },
+  {
+    "line": "Syndra: If she sent that lady after her it's possible her memory has been wiped but... I don't have time to look for her.",
+    "file": "echoesofchange-syndra-81"
+  },
+  {
+    "line": "Syndra: We have more important things to worry about... and besides, it's been 22 years. Maybe she moved on and forgot about me.",
+    "file": "echoesofchange-syndra-82"
+  },
+  {
+    "line": "Syndra: The only reason I finally realised how messed up our provice is was because of her...",
+    "file": "echoesofchange-syndra-83"
+  },
+  {
+    "line": "Syndra: I don't even want to think what I would done if I had chosen her loyalty over Elise.",
+    "file": "echoesofchange-syndra-84"
+  },
+  {
+    "line": "Syndra: Now it's clear to me that the decision I made was correct. But for a long time I... despised Elise.",
+    "file": "echoesofchange-syndra-85"
+  },
+  {
+    "line": "Syndra: I blamed her for my life being ruined but I realised that... she did nothing wrong. It's always come down to Her Majesty.",
+    "file": "echoesofchange-syndra-86"
+  },
+  {
+    "line": "Syndra: At first I thought she had become paranoid of betrayal.",
+    "file": "echoesofchange-syndra-87"
+  },
+  {
+    "line": "Syndra: But I was quite close to Zhiraok, and when he was ascended to watch over Auburn, he let me in on a secret.",
+    "file": "echoesofchange-syndra-88"
+  },
+  {
+    "line": "Syndra: I was part of the group that was considered for the free Sovereign position.",
+    "file": "echoesofchange-syndra-89"
+  },
+  {
+    "line": "Syndra: And according to Zhiraok, Her Majesty was very distraught over my betrayal...",
+    "file": "echoesofchange-syndra-90"
+  },
+  {
+    "line": "Syndra: Goodnight, Cursed One.",
+    "file": "echoesofchange-syndra-91"
+  },
+  {
+    "line": "Rex: Soldier! Up! Get up!",
+    "file": "echoesofchange-rex-46"
+  },
+  {
+    "line": "Rex: Syndra's about to give her final speech before the festival. Come on, let's get going.",
+    "file": "echoesofchange-rex-47"
+  },
+  {
+    "line": "Syndra: Everyone. Good morning.",
+    "file": "echoesofchange-syndra-92"
+  },
+  {
+    "line": "Syndra: Today is the day we set our plan into motion. In a few hours, the festival will begin... and that's when we'll strike!",
+    "file": "echoesofchange-syndra-93"
+  },
+  {
+    "line": "Syndra: I'll now be handing out assignments. They're different from yesterday's pairings, as they're focused on what we need *during* the festival.",
+    "file": "echoesofchange-syndra-94"
+  },
+  {
+    "line": "Syndra: Zeph and Yuman, you're in charge of placing and detonating the explosives. Yusanu will show you where they are.",
+    "file": "echoesofchange-syndra-95"
+  },
+  {
+    "line": "Syndra: Rex and Yulie, you're aerial support. Take your positions on the buildings we scouted out yesterday. Provide support for everyone else as needed.",
+    "file": "echoesofchange-syndra-96"
+  },
+  {
+    "line": "Syndra: Sui, Yusanu, and the soldier. I want you three to stay put on a roof nearby. Once the Queen is dead, chaos is going to break out.",
+    "file": "echoesofchange-syndra-97"
+  },
+  {
+    "line": "Syndra: I need you three to help calm down the people, and to help fight off any soldiers that oppose us.",
+    "file": "echoesofchange-syndra-98"
+  },
+  {
+    "line": "Syndra: Quill will remain here with the rest of the Steel Feather, and will prepare for the aftermath.",
+    "file": "echoesofchange-syndra-99"
+  },
+  {
+    "line": "Quill: I'm no good in a fight, I fear. I'd only slow you down on the battlefield.",
+    "file": "echoesofchange-quill-43"
+  },
+  {
+    "line": "Syndra: Mora will be lurking in the crowd, and will help me if necessary.",
+    "file": "echoesofchange-syndra-100"
+  },
+  {
+    "line": "Syndra: Finally... I'll be stationed on a building above Her Majesty. When the time is right, I will strike her down!",
+    "file": "echoesofchange-syndra-101"
+  },
+  {
+    "line": "Syndra: I hope you're all ready to make history. This won't be easy... but I believe we can pull through.",
+    "file": "echoesofchange-syndra-102"
+  },
+  {
+    "line": "Syndra: I cannot ensure everyone's safety. It is likely civilians will be injured, and some of us may be hurt as well... or... worse.",
+    "file": "echoesofchange-syndra-103"
+  },
+  {
+    "line": "Syndra: Resistance and revolution comes at a cost. We need to accept that. I... pray it will not come to that, though.",
+    "file": "echoesofchange-syndra-104"
+  },
+  {
+    "line": "Syndra: Some of you are scared, nervous. You're right to be. This is dangerous, and risky... but know that I am so, so proud of each and every one of you here today.",
+    "file": "echoesofchange-syndra-105"
+  },
+  {
+    "line": "Syndra: We will change Fruma for the better! We will tear down the crown's tyrannical rule, and we will free the people!!",
+    "file": "echoesofchange-syndra-106"
+  },
+  {
+    "line": "Syndra: Alright! Let us get to work! Find your teams, and meet up at your designated positions at the festival.",
+    "file": "echoesofchange-syndra-107"
+  },
+  {
+    "line": "Syndra: Good luck, all of you!",
+    "file": "echoesofchange-syndra-108"
+  },
+  {
+    "line": "Yuman: ...those location seem fine, yeah.",
+    "file": "echoesofchange-yuman-48"
+  },
+  {
+    "line": "Zeph: Syndra m-marked out some good spots for us, huh.",
+    "file": "echoesofchange-zeph-43"
+  },
+  {
+    "line": "Yuman: She did. I'll make sure we stay out of danger. I know my way around those alleyways.",
+    "file": "echoesofchange-yuman-49"
+  },
+  {
+    "line": "Zeph: Thank y-you. But I d-don't need a babysitter. I'll b-be fine.",
+    "file": "echoesofchange-zeph-44"
+  },
+  {
+    "line": "Yuman: I know you can handle yourself. But seriously, Zeph. I'm not playing around.",
+    "file": "echoesofchange-yuman-50"
+  },
+  {
+    "line": "Yuman: I need you to be safe. We can't afford to get caught here.",
+    "file": "echoesofchange-yuman-51"
+  },
+  {
+    "line": "Zeph: I've never s-seen you this s-serious before...",
+    "file": "echoesofchange-zeph-45"
+  },
+  {
+    "line": "Yuman: I'm just nervous. I've never done anything like this before.",
+    "file": "echoesofchange-yuman-52"
+  },
+  {
+    "line": "Zeph: Good thing I h-have then, p-princess.",
+    "file": "echoesofchange-zeph-46"
+  },
+  {
+    "line": "Rex: You've got your blaster?",
+    "file": "echoesofchange-rex-48"
+  },
+  {
+    "line": "Yulie: Yeah. Got an extra battery as well.",
+    "file": "echoesofchange-yulie-36"
+  },
+  {
+    "line": "Rex: Perfect. I left charges for you at each spot so when we get to Timasca we can pick our positions.",
+    "file": "echoesofchange-rex-49"
+  },
+  {
+    "line": "Yulie: Sounds good to me.",
+    "file": "echoesofchange-yulie-37"
+  },
+  {
+    "line": "Rex: I hope you won't miss...",
+    "file": "echoesofchange-rex-50"
+  },
+  {
+    "line": "Rex: I'm worried I will.",
+    "file": "echoesofchange-rex-51"
+  },
+  {
+    "line": "Yulie: Rex, I've never seen a better shot. You won't miss.",
+    "file": "echoesofchange-yulie-38"
+  },
+  {
+    "line": "Rex: Thank you, Yulie. I wish you the best of luck out there.",
+    "file": "echoesofchange-rex-52"
+  },
+  {
+    "line": "Yulie: You too.",
+    "file": "echoesofchange-yulie-39"
+  },
+  {
+    "line": "Sui: Hi... are you two, um, ready?",
+    "file": "echoesofchange-sui-11"
+  },
+  {
+    "line": "Yusanu: I... ha, I'm not sure! It's... a lot, isn't it?",
+    "file": "echoesofchange-yusanu-17"
+  },
+  {
+    "line": "Yusanu: I've been worrying about this new Sovereign... Tasim. Soldier, I know you... know him.",
+    "file": "echoesofchange-yusanu-18"
+  },
+  {
+    "line": "Yusanu: It's... it's like Rex said the other day. The Sovereigns aren't our friends. If he joined the crown, then... I'm not sure we can trust him to do the right thing.",
+    "file": "echoesofchange-yusanu-19"
+  },
+  {
+    "line": "Sui: We can't just... sit around worrying about what could happen. We need to, um, stay focused.",
+    "file": "echoesofchange-sui-12"
+  },
+  {
+    "line": "Sui: Syndra trusts us! We need to have faith in her plan.",
+    "file": "echoesofchange-sui-13"
+  },
+  {
+    "line": "Yusanu: Yeah... you're right. Let's take our positions then.",
+    "file": "echoesofchange-yusanu-20"
+  },
+  {
+    "line": "Sui: So... this is our spot, then?",
+    "file": "echoesofchange-sui-14"
+  },
+  {
+    "line": "Yusanu: I think so, if I read the map correctly...",
+    "file": "echoesofchange-yusanu-21"
+  },
+  {
+    "line": "Sui: ... It feels weird. Just, um, standing by. Like... like we're not really, um, doing anything to, to help.",
+    "file": "echoesofchange-sui-15"
+  },
+  {
+    "line": "Yusanu: A bit... yeah. But like Syndra said, we'll be needed to help in the aftermath. Even if we're not really doing anything until then...",
+    "file": "echoesofchange-yusanu-22"
+  },
+  {
+    "line": "Sui: I guess... hm.",
+    "file": "echoesofchange-sui-16"
+  },
+  {
+    "line": "Yusanu: What's wrong? Something caught your eye?",
+    "file": "echoesofchange-yusanu-23"
+  },
+  {
+    "line": "Sui: Oh, uh... just- it is the festival day, right? The city looks exactly the same as it did when we, um, arrived. No festivities? No stalls, no attractions?",
+    "file": "echoesofchange-sui-17"
+  },
+  {
+    "line": "Yusanu: Oh! Hahaha, you people have attractions in Auburn?",
+    "file": "echoesofchange-yusanu-24"
+  },
+  {
+    "line": "Sui: Um... yeah! Isn't that... the point of the festival?",
+    "file": "echoesofchange-sui-18"
+  },
+  {
+    "line": "Yusanu: Maybe for you. Here... well, nobody has the time for any of that. The point, for most residents, is having a day off from work.",
+    "file": "echoesofchange-yusanu-25"
+  },
+  {
+    "line": "Sui: Oh! That's... nice, I guess. A little sad, though, that that's why, ha, people get excited about it...?",
+    "file": "echoesofchange-sui-19"
+  },
+  {
+    "line": "Yusanu: Yeah, a bit. That's the Roughworks for you, though.",
+    "file": "echoesofchange-yusanu-26"
+  },
+  {
+    "line": "???: Ahem.",
+    "file": "echoesofchange-sovereigntasim-7"
+  },
+  {
+    "line": "Sovereign Tasim: Soldier... what are you doing here?",
+    "file": "echoesofchange-sovereigntasim-8"
+  },
+  {
+    "line": "Sovereign Tasim: It's... complicated. Look, I-",
+    "file": "echoesofchange-sovereigntasim-9"
+  },
+  {
+    "line": "Yusanu: Working for the crown is complicated? Helping them oppress to people of Fruma is complicated?!",
+    "file": "echoesofchange-yusanu-27"
+  },
+  {
+    "line": "Sovereign Tasim: Sigh. You didn't need to do that. I'm not... being forced into anything, I'm just-",
+    "file": "echoesofchange-sovereigntasim-10"
+  },
+  {
+    "line": "Yusanu: So you chose to work for the crown? Why?!",
+    "file": "echoesofchange-yusanu-28"
+  },
+  {
+    "line": "Sovereign Tasim: I... have my reasons, trust me. Look, there's no time to explain right now- soldier, you need to listen to me-",
+    "file": "echoesofchange-sovereigntasim-11"
+  },
+  {
+    "line": "Yusanu: Sui, what are you doing?! You're just going to draw more attention towards us.",
+    "file": "echoesofchange-yusanu-29"
+  },
+  {
+    "line": "Yusanu: ...we don't want a fight, man.",
+    "file": "echoesofchange-yusanu-30"
+  },
+  {
+    "line": "Sovereign Tasim: If you would just let me finish... I'm here to warn you. Your group is compromised- I don't know how, exactly, but we know what you're planning to do today.",
+    "file": "echoesofchange-sovereigntasim-12"
+  },
+  {
+    "line": "Sui: What?! No, that's- that's not-",
+    "file": "echoesofchange-sui-20"
+  },
+  {
+    "line": "Sovereign Tasim: It is. You need to call it off, or else-",
+    "file": "echoesofchange-sovereigntasim-13"
+  },
+  {
+    "line": "Sovereign Tasim: ... Because we're still friends, at the end of the day. I don't want you to get hurt.",
+    "file": "echoesofchange-sovereigntasim-14"
+  },
+  {
+    "line": "Sovereign Tasim: If only you hadn't been hiding... well, it doesn't matter now. We're out of time. If you're still safe after this, then... I'll find a way to reach out to you.",
+    "file": "echoesofchange-sovereigntasim-15"
+  },
+  {
+    "line": "Sovereign Tasim: Just... please, don't proceed with your plan. Find a way to stop it. I just don't want to see anyone get hurt.",
+    "file": "echoesofchange-sovereigntasim-16"
+  },
+  {
+    "line": "Sovereign Tasim: I need to go, even finding an excuse to step away for this long was difficult. Stay safe.",
+    "file": "echoesofchange-sovereigntasim-17"
+  },
+  {
+    "line": "Yusanu: Our group is... compromised...",
+    "file": "echoesofchange-yusanu-31"
+  },
+  {
+    "line": "Sui: What- what do we do? We need to, to get a message out! Where's Syndra, we have to-",
+    "file": "echoesofchange-sui-21"
+  },
+  {
+    "line": "Yusanu: Oh, no... I- I don't think we can. The... the festival's starting.",
+    "file": "echoesofchange-yusanu-32"
+  },
+  {
+    "line": "Her Majesty: Citizens of the Industrial District, I extend my heartfelt gratitude for your remarkable attendance this year.",
+    "file": "echoesofchange-hermajesty-1"
+  },
+  {
+    "line": "Her Majesty: Together, we shall celebrate yet another year of success and prosperity!",
+    "file": "echoesofchange-hermajesty-2"
+  },
+  {
+    "line": "Her Majesty: Your unwavering dedication and industrious spirit are deeply valued, and I hold a profound appreciation for your contributions to the strength and glory of our province.",
+    "file": "echoesofchange-hermajesty-3"
+  },
+  {
+    "line": "Her Majesty: Production quotas for this year have been successfully achieved, and I am most pleased by this accomplishment.",
+    "file": "echoesofchange-hermajesty-4"
+  },
+  {
+    "line": "Her Majesty: However, as Fruma continues to evolve and flourish, it is imperative that we strive for greater heights.",
+    "file": "echoesofchange-hermajesty-5"
+  },
+  {
+    "line": "Her Majesty: As such, we shall be raising production quotas for the coming year.",
+    "file": "echoesofchange-hermajesty-6"
+  },
+  {
+    "line": "Her Majesty: I have every confidence that you will continue to dedicate yourselves to the growth of Fruma.",
+    "file": "echoesofchange-hermajesty-7"
+  },
+  {
+    "line": "Her Majesty: Let us now turn our attention to the year ahead, and to the improvements to the district's infrastructure that your Sovereign has prepared for your benefit.",
+    "file": "echoesofchange-hermajesty-8"
+  },
+  {
+    "line": "Her Majesty: Sovereign Soosu has been hard at work these past months, and has developed an innovative technology designed to deliver cleaner and fresher water to our people.",
+    "file": "echoesofchange-hermajesty-9"
+  },
+  {
+    "line": "Syndra: Any second now...",
+    "file": "echoesofchange-syndra-109"
+  },
+  {
+    "line": "Zeph: ... I th- th- think it's time. Let's do this.",
+    "file": "echoesofchange-zeph-47"
+  },
+  {
+    "line": "Yuman: Let's go!",
+    "file": "echoesofchange-yuman-53"
+  },
+  {
+    "line": "Timasca Captain: What was that?! Soldiers, investigate the commotion!",
+    "file": "echoesofchange-timascacaptain-1"
+  },
+  {
+    "line": "Her Majesty: Hm? Worry not for the commotion, it is already being taken care of. Now, as I was saying...",
+    "file": "echoesofchange-hermajesty-10"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...",
+    "file": "echoesofchange-sovereignzhiraok-9"
+  },
+  {
+    "line": "Rex: That's Syndra's cue...",
+    "file": "echoesofchange-rex-53"
+  },
+  {
+    "line": "Syndra: It's now or never... For Fruma!!!",
+    "file": "echoesofchange-syndra-110"
+  },
+  {
+    "line": "Rex: Did she do it?!",
+    "file": "echoesofchange-rex-54"
+  },
+  {
+    "line": "Rex: It's... it's done...",
+    "file": "echoesofchange-rex-55"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...hmph.",
+    "file": "echoesofchange-sovereignzhiraok-10"
+  },
+  {
+    "line": "Syndra: No...",
+    "file": "echoesofchange-syndra-111"
+  },
+  {
+    "line": "Syndra: No, it can't be...",
+    "file": "echoesofchange-syndra-112"
+  },
+  {
+    "line": "Her Majesty: Oh, but it is. Witness, citizens, the depravity and foolhardiness of those who turn against the crown!",
+    "file": "echoesofchange-hermajesty-11"
+  },
+  {
+    "line": "Her Majesty: Terrorists seeking to threaten the safety of our people, of our province! Aiding and abetting the Cursed, daring to make an attempt on my life, as your Queen!",
+    "file": "echoesofchange-hermajesty-12"
+  },
+  {
+    "line": "Her Majesty: We are fortunate that news of their plot reached the crown, and that our Sovereign Soosu could devise a construct to deceive them, to draw them out into the open.",
+    "file": "echoesofchange-hermajesty-13"
+  },
+  {
+    "line": "Her Majesty: Sovereigns, soldiers, to arms! Hunt down any terrorists or supporters you can find!",
+    "file": "echoesofchange-hermajesty-14"
+  },
+  {
+    "line": "Syndra: I should have expected you'd have some tricks left.",
+    "file": "echoesofchange-syndra-113"
+  },
+  {
+    "line": "Her Majesty: Oh, Syndra... you couldn't just stay put and leave things to rest, could you? To discard your safety, security... all for this?",
+    "file": "echoesofchange-hermajesty-15"
+  },
+  {
+    "line": "Her Majesty: I once saw great potential in you. Your strategic mind, your dedication... a pity you had to throw it all away.",
+    "file": "echoesofchange-hermajesty-16"
+  },
+  {
+    "line": "Her Majesty: Did you really believe it would be that easy to kill me? A single empowered strike? Have you forgotten who gave you that blessing in the first place?!",
+    "file": "echoesofchange-hermajesty-17"
+  },
+  {
+    "line": "Her Majesty: What a shame, that your rage and desperation blinded you to the truth. You never stood a chance.",
+    "file": "echoesofchange-hermajesty-18"
+  },
+  {
+    "line": "Sui: No... no, no, no... what do we do?!",
+    "file": "echoesofchange-sui-22"
+  },
+  {
+    "line": "Yusanu: Damn it... we need to stick to the plan. Take the escape routes and regroup.",
+    "file": "echoesofchange-yusanu-33"
+  },
+  {
+    "line": "Sui: What?! We can't just leave her behind! We, we have to help her! She's... I can't lose her.",
+    "file": "echoesofchange-sui-23"
+  },
+  {
+    "line": "Yusanu: I know, I know! But... she knew this might happen. She told us to save ourselves first if anything goes wrong.",
+    "file": "echoesofchange-yusanu-34"
+  },
+  {
+    "line": "Yusanu: Besides, we... what could we even do? If Syndra can't kill her, what could we possibly do? Can't you feel it? This... this pressure?",
+    "file": "echoesofchange-yusanu-35"
+  },
+  {
+    "line": "Sui: Is... is that coming from her? I, I felt something similar, during the Auburn festival...",
+    "file": "echoesofchange-sui-24"
+  },
+  {
+    "line": "Yusanu: She's furious... we need to get out of here. Quickly, let's head for the underground river escape route!",
+    "file": "echoesofchange-yusanu-36"
+  },
+  {
+    "line": "Sui: How is this possible? Why are there, ha, guards stationed here?!",
+    "file": "echoesofchange-sui-25"
+  },
+  {
+    "line": "Yusanu: I- I don't know! They must have done some last minute schedule changes, or... or...",
+    "file": "echoesofchange-yusanu-37"
+  },
+  {
+    "line": "Yusanu: Oh. Or they knew our whole plan. Ha... hahaha, we never stood a chance!",
+    "file": "echoesofchange-yusanu-38"
+  },
+  {
+    "line": "Sui: What are we going to do now? Yusanu, where's the next closest escape route?",
+    "file": "echoesofchange-sui-26"
+  },
+  {
+    "line": "Timasca Soldier: WE HAVE VOICES OVER BY THE CAMP SITE!! Requesting backup!",
+    "file": "echoesofchange-timascasoldier-11"
+  },
+  {
+    "line": "Yusanu: Ugh, there's more voices to the west! That mean the only route left is... is... oh, no.",
+    "file": "echoesofchange-yusanu-39"
+  },
+  {
+    "line": "Sui: What is it?!",
+    "file": "echoesofchange-sui-27"
+  },
+  {
+    "line": "Yusanu: The gate to the Mistwoods.",
+    "file": "echoesofchange-yusanu-40"
+  },
+  {
+    "line": "Sui: What?! That'll just take us even further into danger!",
+    "file": "echoesofchange-sui-28"
+  },
+  {
+    "line": "Yusanu: Yeah, I know! But it's our only option left! We'll... we'll figure it out. Come on!",
+    "file": "echoesofchange-yusanu-41"
+  },
+  {
+    "line": "Yusanu: ...hold it. Something's wrong. They would never leave the gate unguarded...",
+    "file": "echoesofchange-yusanu-42"
+  },
+  {
+    "line": "Sui: Should... should we turn back?",
+    "file": "echoesofchange-sui-29"
+  },
+  {
+    "line": "???: You're right. We wouldn't be that obtuse. But you were.",
+    "file": "echoesofchange-sovereignzhiraok-11"
+  },
+  {
+    "line": "Sui: Who... who's there?!",
+    "file": "echoesofchange-sui-30"
+  },
+  {
+    "line": "Sovereign Zhiraok: You already know.",
+    "file": "echoesofchange-sovereignzhiraok-12"
+  },
+  {
+    "line": "Sovereign Zhiraok: I'll hand it to you, those were some unexpected variables you introduced for this plan of yours, but you should know how good I am at crunching the numbers.",
+    "file": "echoesofchange-sovereignzhiraok-13"
+  },
+  {
+    "line": "Sovereign Zhiraok: More to the point... YOU. Cursed. You just keep summing to your list of crimes! There's the Torann massacre, we can add every other soldier to the tally... And...the death of a Sovereign.",
+    "file": "echoesofchange-sovereignzhiraok-14"
+  },
+  {
+    "line": "Sovereign Zhiraok: Let me ask. Do you know how it feels to die? Disposed of like yesterday's garbage? Do you know how exponentially more excruciating it is to feel IN REVERSE?!",
+    "file": "echoesofchange-sovereignzhiraok-15"
+  },
+  {
+    "line": "Sovereign Zhiraok: If dealing with you quickly wasn't magnitudes of order more important, I'd give you a lesson on the topic. Consider yourself lucky, cursed!",
+    "file": "echoesofchange-sovereignzhiraok-16"
+  },
+  {
+    "line": "Sui: What... what's going to happen with Syndra?",
+    "file": "echoesofchange-sui-31"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...an attempt on Her Majesty's life carries high consequences. Almost positive she'll be divided out...but that isn't my problem to solve.",
+    "file": "echoesofchange-sovereignzhiraok-17"
+  },
+  {
+    "line": "Sui: Weren't you... weren't you friends?! And you're just, going to let-",
+    "file": "echoesofchange-sui-32"
+  },
+  {
+    "line": "Sovereign Zhiraok: NOT ONE MORE FACTORING WORD! How much do you think I enjoy this?! Do you think I want to hunt her down like a forgotten variable?!",
+    "file": "echoesofchange-sovereignzhiraok-18"
+  },
+  {
+    "line": "Sovereign Zhiraok: She chose to terminate our sequence! She threw that all away, used me for some irrational solution! She has as much value as any of you zeroes now!",
+    "file": "echoesofchange-sovereignzhiraok-19"
+  },
+  {
+    "line": "Sovereign Zhiraok: So why don't we accelerate this? Without that traitor misusing her blessing... Your number's up!!",
+    "file": "echoesofchange-sovereignzhiraok-20"
+  },
+  {
+    "line": "Yusanu: I... I think I'm gonna be sick...",
+    "file": "echoesofchange-yusanu-43"
+  },
+  {
+    "line": "Sui: He's... he's dead. Again. We beat him... again.",
+    "file": "echoesofchange-sui-33"
+  },
+  {
+    "line": "Yusanu: Again?! So he was being literal about you killing him before?",
+    "file": "echoesofchange-yusanu-44"
+  },
+  {
+    "line": "Yusanu: ... Okay. Okay, so... probably not down for good. Great! That's just... great.",
+    "file": "echoesofchange-yusanu-45"
+  },
+  {
+    "line": "Yusanu: What do we do now?",
+    "file": "echoesofchange-yusanu-46"
+  },
+  {
+    "line": "Sui: I... I don't, um, have enough mana left to fight, anymore... s-so we should leave, before-",
+    "file": "echoesofchange-sui-34"
+  },
+  {
+    "line": "Yusanu: Uh... y- yeah, we should... get moving.",
+    "file": "echoesofchange-yusanu-47"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...grrrRRRRHH!! Our...sequence...isn't terminated...until you are!!",
+    "file": "echoesofchange-sovereignzhiraok-21"
+  },
+  {
+    "line": "Sui: H- how...? It, it took him way longer, last time...",
+    "file": "echoesofchange-sui-35"
+  },
+  {
+    "line": "Sovereign Zhiraok: Nngh... You...miscalculated! I told you! You know how good I am at crunching the numbers! I prepared...hhhff...for this possibility!",
+    "file": "echoesofchange-sovereignzhiraok-22"
+  },
+  {
+    "line": "Sovereign Zhiraok: It was a calculated risk. Overloading the old Nasin charm... That could've broken it. But instead...my expected solution is here!",
+    "file": "echoesofchange-sovereignzhiraok-23"
+  },
+  {
+    "line": "Sovereign Zhiraok: A near-instant revival! And I heard your collaborator- All out of power now. I nearly had you in round one, even. Fight all you want- it'll sum to nothing, murderer!",
+    "file": "echoesofchange-sovereignzhiraok-24"
+  },
+  {
+    "line": "Sovereign Soosu: ...",
+    "file": "echoesofchange-sovereignsoosu-1"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...Soosu. Thank you for taking me seriously. I didn't want you involved for the danger, but with both of us... We'll solve this problem in no time. Follow my le-",
+    "file": "echoesofchange-sovereignzhiraok-25"
+  },
+  {
+    "line": "Sovereign Zhiraok: GAAAH!! S-SOOSU?! You... What was...?! Nnh...",
+    "file": "echoesofchange-sovereignzhiraok-26"
+  },
+  {
+    "line": "Sovereign Zhiraok: Soosu!! Th-These are the insurgents! The murderers!! You can't be- What did they- WHAT ARE YOU HOLDING OVER HER?! Soosu, I swear, you can get out of-",
+    "file": "echoesofchange-sovereignzhiraok-27"
+  },
+  {
+    "line": "Sovereign Soosu: Yeah, yeah... I know. But I think I'm sick and tired of trying.",
+    "file": "echoesofchange-sovereignsoosu-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...Soosu...you can't- I know you can be better, you can- I'll-",
+    "file": "echoesofchange-sovereignzhiraok-28"
+  },
+  {
+    "line": "Sovereign Soosu: It'll all be over soon, Z. Please... don't make me kill you again.",
+    "file": "echoesofchange-sovereignsoosu-3"
+  },
+  {
+    "line": "Yusanu: Soosu...?",
+    "file": "echoesofchange-yusanu-48"
+  },
+  {
+    "line": "Yusanu: Why- why are you helping us?",
+    "file": "echoesofchange-yusanu-49"
+  },
+  {
+    "line": "Sovereign Soosu: Just... go, Yus. You're wasting time.",
+    "file": "echoesofchange-sovereignsoosu-4"
+  },
+  {
+    "line": "Yusanu: But... I was the one who stole your project. Why would you...",
+    "file": "echoesofchange-yusanu-50"
+  },
+  {
+    "line": "Sovereign Soosu: Yes, Yus, I know! What does it matter why I'm helping you? Just... just take it and go. Before they realize you're here.",
+    "file": "echoesofchange-sovereignsoosu-5"
+  },
+  {
+    "line": "Yusanu: ...",
+    "file": "echoesofchange-yusanu-51"
+  },
+  {
+    "line": "Sovereign Soosu: Ugh, why are you so-! Fine! You - when I look at you, it's like I'm looking at myself, before... before I became this.",
+    "file": "echoesofchange-sovereignsoosu-6"
+  },
+  {
+    "line": "Sovereign Soosu: Now, go! Run! Flee! Just, leave!",
+    "file": "echoesofchange-sovereignsoosu-7"
+  },
+  {
+    "line": "Yusanu: If... If I leave you here. You, you-",
+    "file": "echoesofchange-yusanu-52"
+  },
+  {
+    "line": "Sovereign Soosu: I'll be okay, Yusanu. I'm tired of fighting. I'm tired of my duty. I'm sick of this life.",
+    "file": "echoesofchange-sovereignsoosu-8"
+  },
+  {
+    "line": "Sovereign Soosu: More soldiers will show soon.",
+    "file": "echoesofchange-sovereignsoosu-9"
+  },
+  {
+    "line": "Sui: I'm- I'm sorry Yusanu but we have to go.",
+    "file": "echoesofchange-sui-36"
+  },
+  {
+    "line": "Her Majesty: Well then, Syndra the Lioness. Nothing to say in response? Has a cat got your tongue?",
+    "file": "echoesofchange-hermajesty-19"
+  },
+  {
+    "line": "Syndra: I have no words for you.",
+    "file": "echoesofchange-syndra-114"
+  },
+  {
+    "line": "Her Majesty: No, I suppose you were always more fond of the language of violence...",
+    "file": "echoesofchange-hermajesty-20"
+  },
+  {
+    "line": "Her Majesty: You'll notice the area has been cleared. You understand what this means for you, yes?",
+    "file": "echoesofchange-hermajesty-21"
+  },
+  {
+    "line": "Syndra: The same as always. I kill you, or I die trying.",
+    "file": "echoesofchange-syndra-115"
+  },
+  {
+    "line": "Zeph: Yuman... We n- n- need to find an escape route that w- wor- works!",
+    "file": "echoesofchange-zeph-48"
+  },
+  {
+    "line": "Yuman: Ugh, there are way more guards than we expected! We'll have to find a way to dodge them all...",
+    "file": "echoesofchange-yuman-54"
+  },
+  {
+    "line": "Yuman: ... Hey, what's the matter?",
+    "file": "echoesofchange-yuman-55"
+  },
+  {
+    "line": "Zeph: I ca- ca- can't stand this... not h- hel- helping Syndra!",
+    "file": "echoesofchange-zeph-49"
+  },
+  {
+    "line": "Yuman: Hey, man, have faith. She'll find a way out of there! But for now, we've gotta worry 'bout ourselves, 'kay?",
+    "file": "echoesofchange-yuman-56"
+  },
+  {
+    "line": "Zeph: Yeah... th- thanks, Yuman. Let's k- ke- keep moving.",
+    "file": "echoesofchange-zeph-50"
+  },
+  {
+    "line": "Her Majesty: Behold, citizens... the face of the insurgent group.",
+    "file": "echoesofchange-hermajesty-22"
+  },
+  {
+    "line": "Her Majesty: The two cursed ones who attacked us have been captured. However, there are still people out there who wish us harm. Please, stay on high alert!",
+    "file": "echoesofchange-hermajesty-23"
+  },
+  {
+    "line": "Her Majesty: If you notice any suspicious behaviour, contact your local military. Together, we will prevail as a nation.",
+    "file": "echoesofchange-hermajesty-24"
+  },
+  {
+    "line": "Her Majesty: But do not worry. Even such an aggressive assault from the enemy stood no chance against our might. I will ensure everyone's safety!",
+    "file": "echoesofchange-hermajesty-25"
+  },
+  {
+    "line": "Her Majesty: Now. As punishment for attempting to assassinate me... I will execute Syndra, leader of the cursed terrorists, right here!",
+    "file": "echoesofchange-hermajesty-26"
+  },
+  {
+    "line": "Her Majesty: Her accomplice will be imprisoned and questioned for information on the remaining insurgents.",
+    "file": "echoesofchange-hermajesty-27"
+  },
+  {
+    "line": "Her Majesty: Stand, Syndra the Lioness.",
+    "file": "echoesofchange-hermajesty-28"
+  },
+  {
+    "line": "Her Majesty: Any last words?",
+    "file": "echoesofchange-hermajesty-29"
+  },
+  {
+    "line": "Syndra: I don't regret anything I've done. I know Fruma will change for the better. Maybe not today, or tomorrow! But change will come.",
+    "file": "echoesofchange-syndra-116"
+  },
+  {
+    "line": "Her Majesty: I regret that it had to come to this, Syndra... I draw no joy from your death. I wonder, whatever happened to that woman who held boundless potential within?",
+    "file": "echoesofchange-hermajesty-30"
+  },
+  {
+    "line": "Her Majesty: I will find your children, Syndra. This tantrum of yours ends here with you.",
+    "file": "echoesofchange-hermajesty-31"
+  },
+  {
+    "line": "Her Majesty: Now, as for those Sovereigns of mine...",
+    "file": "echoesofchange-hermajesty-32"
+  },
+  {
+    "line": "Sovereign Zhiraok: I know you, Soosu. Please, tell me what's wrong! This isn't an unsolvable problem! Don't make it so I lose two of my-",
+    "file": "echoesofchange-sovereignzhiraok-29"
+  },
+  {
+    "line": "Her Majesty: Sovereign Zhiraok. I cannot help but notice the obvious lack of captured terrorists, amidst the scene of a battle.",
+    "file": "echoesofchange-hermajesty-33"
+  },
+  {
+    "line": "Sovereign Zhiraok: Your Majesty!! The insurgents, they must have blackmailed Sovereign Soosu, she-",
+    "file": "echoesofchange-sovereignzhiraok-30"
+  },
+  {
+    "line": "Her Majesty: Silence. You have failed me twice, now. They have bested you in combat twice, Sovereign.",
+    "file": "echoesofchange-hermajesty-34"
+  },
+  {
+    "line": "Sovereign Zhiraok: I- The cursed have greater cunning than I cal-",
+    "file": "echoesofchange-sovereignzhiraok-31"
+  },
+  {
+    "line": "Her Majesty: I am disappointed in your performance. You are now expressly forbidden from continuing to chase and track down these... rotten children.",
+    "file": "echoesofchange-hermajesty-35"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...I. ... ...I alone take full responsibility for this failure, Your Majesty. Bu-",
+    "file": "echoesofchange-sovereignzhiraok-32"
+  },
+  {
+    "line": "Her Majesty: Focus yourself on maintaining Industrial District operations in the absence of its Sovereign, would you? You have much experience already, I'm sure.",
+    "file": "echoesofchange-hermajesty-36"
+  },
+  {
+    "line": "Sovereign Zhiraok: The...the absence- No- You're subtractin-",
+    "file": "echoesofchange-sovereignzhiraok-33"
+  },
+  {
+    "line": "Her Majesty: Now, stop standing there, and do something! Rally the soldiers, track down the remnants of that terrorist group still hiding!",
+    "file": "echoesofchange-hermajesty-37"
+  },
+  {
+    "line": "Sovereign Zhiraok: I- Your-",
+    "file": "echoesofchange-sovereignzhiraok-34"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...yes, Your Majesty.",
+    "file": "echoesofchange-sovereignzhiraok-35"
+  },
+  {
+    "line": "Her Majesty: As for you... do you think your little games will spare you from my wrath? Attacking a fellow Sovereign, allowing these targets to escape...",
+    "file": "echoesofchange-hermajesty-38"
+  },
+  {
+    "line": "Sovereign Soosu: Bla, bla, whatever. Just get it over with. Kill me already, if I'm so worthless to you.",
+    "file": "echoesofchange-sovereignsoosu-10"
+  },
+  {
+    "line": "Her Majesty: And allow you a peaceful death? After I gave you everything, and you turned around and betrayed me?!",
+    "file": "echoesofchange-hermajesty-39"
+  },
+  {
+    "line": "Her Majesty: No, Soosu. You deserve no such mercy from me.",
+    "file": "echoesofchange-hermajesty-40"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...every last factoring person down here is charged with conspiracy. Her Majesty demands their capture, by any and all means.",
+    "file": "echoesofchange-sovereignzhiraok-36"
+  },
+  {
+    "line": "Sovereign Zhiraok: Get it done. Now. One of them must know what they did to Soo- ... I'll be questioning each of them. Personally.",
+    "file": "echoesofchange-sovereignzhiraok-37"
+  },
+  {
+    "line": "Sovereign Tasim: Soldier... why are you here?",
+    "file": "echoesofchange-sovereigntasim-18"
+  },
+  {
+    "line": "Sovereign Tasim: There's... something bigger than Fruma at stake.",
+    "file": "echoesofchange-sovereigntasim-19"
+  },
+  {
+    "line": "Sovereign Tasim: It doesn't matter. Not now, at least-",
+    "file": "echoesofchange-sovereigntasim-20"
+  },
+  {
+    "line": "Yusanu: Of course it matters!! There's real people getting hurt by the crown, and you think it doesn't matter?!",
+    "file": "echoesofchange-yusanu-53"
+  },
+  {
+    "line": "Sovereign Tasim: That's not what I said. I... we don't have time for this. Soldier, you have to-",
+    "file": "echoesofchange-sovereigntasim-21"
+  },
+  {
+    "line": "Sovereign Tasim: I asked you not to. I don't need saving.",
+    "file": "echoesofchange-sovereigntasim-22"
+  },
+  {
+    "line": "Sovereign Tasim: You being here, it's... making things harder than they need to be.",
+    "file": "echoesofchange-sovereigntasim-23"
+  },
+  {
+    "line": "Yusanu: Harder for you?! You're the one siding with the crown, man!",
+    "file": "echoesofchange-yusanu-54"
+  },
+  {
+    "line": "Sovereign Tasim: I... I don't have time for this right now. Soldier, you have to-",
+    "file": "echoesofchange-sovereigntasim-24"
+  },
+  {
+    "line": "Sovereign Tasim: I'm here to warn you. Your group is compromised- how, exactly, I don't know, but... the crown knows what you're planning to do today.",
+    "file": "echoesofchange-sovereigntasim-25"
+  },
+  {
+    "line": "Sovereign Tasim: It is. Choose to believe me, or not, but-",
+    "file": "echoesofchange-sovereigntasim-26"
+  },
+  {
+    "line": "Sovereign Tasim: We're still friends, aren't we? I don't want you to get hurt.",
+    "file": "echoesofchange-sovereigntasim-27"
+  },
+  {
+    "line": "Sovereign Tasim: If only you hadn't come after me, then... well, it doesn't matter now. You're here anyway. If you're still safe after this, then... I'll find a way to reach out to you.",
+    "file": "echoesofchange-sovereigntasim-28"
+  },
+  {
+    "line": "Quill: It does mean expeditions out of the station will be at higher risk for a time. We will have updated guidelines available in the morning for those of you who volunteer.",
+    "file": "echoesofchange-quill-44"
+  },
+  {
+    "line": "Yusanu: Ah! Worked better than I anticipated, no rogue explosions.",
+    "file": "echoesofchange-yusanu-55"
+  },
+  {
+    "line": "Sui: Um. You- you expected it to go off?!",
+    "file": "echoesofchange-sui-37"
+  },
+  {
+    "line": "Yulie: ...and those are the faces I usually see around, so-",
+    "file": "echoesofchange-yulie-40"
+  },
+  {
+    "line": "Quill: Ah- Rex, Zeph, and soldier! Rather auspicious timing.",
+    "file": "echoesofchange-quill-45"
+  },
+  {
+    "line": "Rex: Oh, hey! Have you seen the guard schedules yet?",
+    "file": "echoesofchange-rex-56"
+  },
+  {
+    "line": "Yulie: We have, yep. Quill and I were just talking about some of the escape routes I had in mind.",
+    "file": "echoesofchange-yulie-41"
+  },
+  {
+    "line": "Rex: Are you heading out for your assignment then?",
+    "file": "echoesofchange-rex-57"
+  },
+  {
+    "line": "Zeph: We were j- just about to head to Timasca for ours, too. P- per- perhaps we could go there together?",
+    "file": "echoesofchange-zeph-51"
+  },
+  {
+    "line": "Quill: Hmm... yes, I suppose we could- though, I'll want soldier's opinion on our ideas as well. Once you finish with Rex and Zeph, would you care to join us?",
+    "file": "echoesofchange-quill-46"
+  },
+  {
+    "line": "Yulie: Then let's get going. No time to waste.",
+    "file": "echoesofchange-yulie-42"
+  },
+  {
+    "line": "Yulie: Rex, please don't pick the highest rooftops.",
+    "file": "echoesofchange-yulie-43"
+  },
+  {
+    "line": "Rex: You better not pick out the highest roof tops. I'm not sure I can get up that far.",
+    "file": "echoesofchange-rex-58"
+  },
+  {
+    "line": "Yulie: I'm just not sure I'd be able to climb up to them.",
+    "file": "echoesofchange-yulie-44"
+  },
+  {
+    "line": "Rex: Well, Yuman seems to do it just fine! But okay, I'll pick out something more accessible for you.",
+    "file": "echoesofchange-rex-59"
+  },
+  {
+    "line": "Yulie: That's all I ask!",
+    "file": "echoesofchange-yulie-45"
+  },
+  {
+    "line": "Zeph: Just one more day... a- a- and then it'll be done. I can m- make it that far.",
+    "file": "echoesofchange-zeph-52"
+  },
+  {
+    "line": "Quill: Hm... soldier, I don't suppose you would happen to have seen Jiro?",
+    "file": "echoesofchange-quill-47"
+  },
+  {
+    "line": "Quill: Syndra told me he had gone looking for me, but I haven't seen him all day!",
+    "file": "echoesofchange-quill-48"
+  },
+  {
+    "line": "Quill: Well, I suppose I can always find him after we're done here. No need to delay this any longer.",
+    "file": "echoesofchange-quill-49"
+  },
+  {
+    "line": "Zeph: T- took you a bit, huh?",
+    "file": "echoesofchange-zeph-53"
+  },
+  {
+    "line": "Rex: Great, you're here! Slowpoke. I thought Zeph's races in the Auburn Forest would've prepared you for this!",
+    "file": "echoesofchange-rex-60"
+  },
+  {
+    "line": "Rex: Quill and Yulie? They've started on their assignment already. Quill said to tell you to just join up with them once you're done here.",
+    "file": "echoesofchange-rex-61"
+  },
+  {
+    "line": "Rex: We should get started, before we draw any attention towards ourselves... I've got the map here. Zeph and I have marked out two locations.",
+    "file": "echoesofchange-rex-62"
+  },
+  {
+    "line": "Zeph: We're ch- checking both, since we wanted to sp- split Rex and Yulie on two different v- vantage points.",
+    "file": "echoesofchange-zeph-54"
+  },
+  {
+    "line": "Zeph: Ha! Or m- ma- maybe you're too slow!",
+    "file": "echoesofchange-zeph-55"
+  },
+  {
+    "line": "Zeph: I'll p- point them out for you! Ready?",
+    "file": "echoesofchange-zeph-56"
+  },
+  {
+    "line": "Zeph: Alright!",
+    "file": "echoesofchange-zeph-57"
+  },
+  {
+    "line": "Rex: Always a second with you... fine, just let us know when you are ready.",
+    "file": "echoesofchange-rex-63"
+  },
+  {
+    "line": "Zeph: First one's up th- there...",
+    "file": "echoesofchange-zeph-58"
+  },
+  {
+    "line": "Zeph: And there's the s- sec- second one!",
+    "file": "echoesofchange-zeph-59"
+  },
+  {
+    "line": "Zeph: Okay. Let's g- get to work!",
+    "file": "echoesofchange-zeph-60"
+  },
+  {
+    "line": "Rex: Here, Zeph, hand me those arrows. Keep the charges though, I think your point would be better for Yulie.",
+    "file": "echoesofchange-rex-64"
+  },
+  {
+    "line": "Zeph: Sure... w- wait, why do we need the soldier for this?",
+    "file": "echoesofchange-zeph-61"
+  },
+  {
+    "line": "Rex: To check our work, I guess? They can help assess the vantage points. Maybe they'll spot some potential issues we missed.",
+    "file": "echoesofchange-rex-65"
+  },
+  {
+    "line": "Zeph: R- right... that makes sense.",
+    "file": "echoesofchange-zeph-62"
+  },
+  {
+    "line": "Rex: Just make your way up however you can!",
+    "file": "echoesofchange-rex-66"
+  },
+  {
+    "line": "Zeph: Hey!",
+    "file": "echoesofchange-zeph-63"
+  },
+  {
+    "line": "Zeph: Ha! Well, o- of course I am! I can't let y- you start beating me... I ha- have an image to maintain!",
+    "file": "echoesofchange-zeph-64"
+  },
+  {
+    "line": "Zeph: B- but you didn't! Maybe next time... wh- what are we at now? Zeph 5... soldier 1?",
+    "file": "echoesofchange-zeph-65"
+  },
+  {
+    "line": "Zeph: Ha... so, th- this is the spot.",
+    "file": "echoesofchange-zeph-66"
+  },
+  {
+    "line": "Zeph: This should c- co- cover Rex's blind spots well enough...",
+    "file": "echoesofchange-zeph-67"
+  },
+  {
+    "line": "Zeph: What do you th- think? Does it look okay?",
+    "file": "echoesofchange-zeph-68"
+  },
+  {
+    "line": "Zeph: Perfect! So are we g- good then?",
+    "file": "echoesofchange-zeph-69"
+  },
+  {
+    "line": "Zeph: Well... I- I guess it is a little high up for Y- Yulie... but I think it's fine.",
+    "file": "echoesofchange-zeph-70"
+  },
+  {
+    "line": "Zeph: Let me p- put down the equipment here...",
+    "file": "echoesofchange-zeph-71"
+  },
+  {
+    "line": "Zeph: Hey... if you h- hurry, you can make it to the other spot be- before Rex does!",
+    "file": "echoesofchange-zeph-72"
+  },
+  {
+    "line": "Zeph: Uh, d- don't tell her I said that!!!",
+    "file": "echoesofchange-zeph-73"
+  },
+  {
+    "line": "Zeph: ...w- well, good luck!",
+    "file": "echoesofchange-zeph-74"
+  },
+  {
+    "line": "Zeph: I saw you beat R- Rex earlier! Not like that's hard, th- though!",
+    "file": "echoesofchange-zeph-75"
+  },
+  {
+    "line": "Zeph: But since we're done here... it's t- time for you to assist Quill and Yulie, Superhero.",
+    "file": "echoesofchange-zeph-76"
+  },
+  {
+    "line": "Zeph: ...heh. I- I should go get some more pr- practice in, though... before tomorrow.",
+    "file": "echoesofchange-zeph-77"
+  },
+  {
+    "line": "Zeph: Quill and Yulie are out- outside Sovereign Soosu's mansion, by the way.",
+    "file": "echoesofchange-zeph-78"
+  },
+  {
+    "line": "Rex: I'll be there in a second!",
+    "file": "echoesofchange-rex-67"
+  },
+  {
+    "line": "Rex: Phew... well, seems like you got here before me.",
+    "file": "echoesofchange-rex-68"
+  },
+  {
+    "line": "Rex: Oh. Thanks. But you've seen me do better!",
+    "file": "echoesofchange-rex-69"
+  },
+  {
+    "line": "Rex: Pfft. Yeah, whatever. So what?",
+    "file": "echoesofchange-rex-70"
+  },
+  {
+    "line": "Rex: Hm... would you agree this spot overlooks the whole square?",
+    "file": "echoesofchange-rex-71"
+  },
+  {
+    "line": "Rex: From what I've heard, the festival always takes place right here. And this looks like it gives us a pretty good coverage of the area...",
+    "file": "echoesofchange-rex-72"
+  },
+  {
+    "line": "Rex: Just... okay? You're sure? If you have any concerns, speak up.",
+    "file": "echoesofchange-rex-73"
+  },
+  {
+    "line": "Rex: ...no? You're just gonna go mute? Okay. Sure.",
+    "file": "echoesofchange-rex-74"
+  },
+  {
+    "line": "Rex: Really? Well, if you say so.",
+    "file": "echoesofchange-rex-75"
+  },
+  {
+    "line": "Rex: I guess that means our work here is done!",
+    "file": "echoesofchange-rex-76"
+  },
+  {
+    "line": "Rex: Just gotta leave the equipment here...",
+    "file": "echoesofchange-rex-77"
+  },
+  {
+    "line": "Rex: Alright! That's my part done, but you've still got to assess Zeph's location.",
+    "file": "echoesofchange-rex-78"
+  },
+  {
+    "line": "Rex: I'll head down and wait for him to be done. I'll see you back at the Steel Feather, I guess.",
+    "file": "echoesofchange-rex-79"
+  },
+  {
+    "line": "Rex: Good luck with Quill and Yulie. That's the last bit of preparation we have to do, right?",
+    "file": "echoesofchange-rex-80"
+  },
+  {
+    "line": "Rex: ...I hope this works.",
+    "file": "echoesofchange-rex-81"
+  },
+  {
+    "line": "Rex: Alright! That's my part done... and I saw you over with Zeph earlier, too.",
+    "file": "echoesofchange-rex-82"
+  },
+  {
+    "line": "Rex: So I think that means we're done. I'll go get Zeph and head back to the Steel Feather.",
+    "file": "echoesofchange-rex-83"
+  },
+  {
+    "line": "Rex: I need to get some practice in before tomorrow... I know the plan shouldn't involve any fighting, but... in case things go wrong, I need to be sure I can hit my shots when it counts.",
+    "file": "echoesofchange-rex-84"
+  },
+  {
+    "line": "Rex: I think I saw Quill and Yulie out by Sovereign Soosu's mansion. So, go find them! Don't keep them waiting!",
+    "file": "echoesofchange-rex-85"
+  },
+  {
+    "line": "Quill: Ah, soldier! I take it you have finished up with Rex and Zeph?",
+    "file": "echoesofchange-quill-50"
+  },
+  {
+    "line": "Yulie: We've been trying to get an idea of the general feel of the coming festival.",
+    "file": "echoesofchange-yulie-46"
+  },
+  {
+    "line": "Yulie: As with every year, people usually just see it as a day off of work. That's all it really is for them.",
+    "file": "echoesofchange-yulie-47"
+  },
+  {
+    "line": "Quill: Rather different from what you had experienced in the Auburn Forest, yes? The people there see their festival as a way to celebrate their culture.",
+    "file": "echoesofchange-quill-51"
+  },
+  {
+    "line": "Yulie: Hm... that's hard to imagine. Though, in a way, I guess the Roughworks festival also celebrates our culture... just, only the part of it about working hard.",
+    "file": "echoesofchange-yulie-48"
+  },
+  {
+    "line": "Quill: Indeed... indeed. Well, as we are all here, let us begin the task. According to the map, we have three possible escape routes to scout out.",
+    "file": "echoesofchange-quill-52"
+  },
+  {
+    "line": "Yulie: And they're the ones most likely to be optimal, with the information from the guard schedules... alright. Let's head to the first location then.",
+    "file": "echoesofchange-yulie-49"
+  },
+  {
+    "line": "Quill: First on the list... our tunnel.",
+    "file": "echoesofchange-quill-53"
+  },
+  {
+    "line": "Yulie: The reason it's been so safe for us all this time is 'cause the place is always empty.",
+    "file": "echoesofchange-yulie-50"
+  },
+  {
+    "line": "Yulie: It's still a developing area in the city, so people rarely come here.",
+    "file": "echoesofchange-yulie-51"
+  },
+  {
+    "line": "Quill: And according to our guard schedules... it should remain unguarded during the festival, as well.",
+    "file": "echoesofchange-quill-54"
+  },
+  {
+    "line": "Quill: soldier, why don't you have a look around?",
+    "file": "echoesofchange-quill-55"
+  },
+  {
+    "line": "Quill: Have a look around, soldier. Perhaps you'll find something which compromises this option.",
+    "file": "echoesofchange-quill-56"
+  },
+  {
+    "line": "Construction Worker: Huh. Really?",
+    "file": "echoesofchange-constructionworker-10"
+  },
+  {
+    "line": "Construction Worker: Well LUCKY you!!!!!! But SOME of us have work to do!!!!! What do you want?!",
+    "file": "echoesofchange-constructionworker-11"
+  },
+  {
+    "line": "Construction Worker: Leave. Me. Alone.",
+    "file": "echoesofchange-constructionworker-12"
+  },
+  {
+    "line": "Yulie: Hm... seems fine, all things considered. Let's get to the next option. It's on the other side of the city.",
+    "file": "echoesofchange-yulie-52"
+  },
+  {
+    "line": "Quill: Hm... the map tells me it should be around here somewhere, but... Yulie?",
+    "file": "echoesofchange-quill-57"
+  },
+  {
+    "line": "Yulie: Right, this one. The plan was to escape using the underground river.",
+    "file": "echoesofchange-yulie-53"
+  },
+  {
+    "line": "Yulie: This path should lead us to it, I think.",
+    "file": "echoesofchange-yulie-54"
+  },
+  {
+    "line": "Yulie: It... might require us to, ah, dive through a small underwater section.",
+    "file": "echoesofchange-yulie-55"
+  },
+  {
+    "line": "Quill: Dive?!",
+    "file": "echoesofchange-quill-58"
+  },
+  {
+    "line": "Yulie: Look, it's perfectly safe! Mostly. I've tried it before, it works!",
+    "file": "echoesofchange-yulie-56"
+  },
+  {
+    "line": "Quill: Oh, dear. Do I want to know why?",
+    "file": "echoesofchange-quill-59"
+  },
+  {
+    "line": "Yulie: Work stuff... an investigation led me to it. A thief had used it to escape the city- it's not important.",
+    "file": "echoesofchange-yulie-57"
+  },
+  {
+    "line": "Quill: I see. Let's mark this one as our lowest priority. Only to be used in case of emergencies.",
+    "file": "echoesofchange-quill-60"
+  },
+  {
+    "line": "Quill: But it would be worth taking a look around, either way. soldier, maybe you'll find something.",
+    "file": "echoesofchange-quill-61"
+  },
+  {
+    "line": "Yulie: Alright... to the final spot, then. The gate to the Mistwoods.",
+    "file": "echoesofchange-yulie-58"
+  },
+  {
+    "line": "Quill: Sigh... our last stop. That wall, always looming over me...",
+    "file": "echoesofchange-quill-62"
+  },
+  {
+    "line": "Yulie: Quill?",
+    "file": "echoesofchange-yulie-59"
+  },
+  {
+    "line": "Quill: Yes, yes. I'm alright. soldier... is something on your mind?",
+    "file": "echoesofchange-quill-63"
+  },
+  {
+    "line": "Quill: Ah... yes. I understand your meaning.",
+    "file": "echoesofchange-quill-64"
+  },
+  {
+    "line": "Quill: But... we do not have the space to house all of these people. No matter how much I wish we could.",
+    "file": "echoesofchange-quill-65"
+  },
+  {
+    "line": "Yulie: Some of these people also refuse to accept our help. They're too deeply rooted in the Roughworks' work culture.",
+    "file": "echoesofchange-yulie-60"
+  },
+  {
+    "line": "Yulie: I was one of them, once. My brothers and I, we used to live around there. After... well, we didn't have anywhere else to go.",
+    "file": "echoesofchange-yulie-61"
+  },
+  {
+    "line": "Yulie: When Quill offered to take us off the street, I... almost declined the offer. I didn't need his pity, I thought. I was supporting our family just fine.",
+    "file": "echoesofchange-yulie-62"
+  },
+  {
+    "line": "Yulie: ...but I remembered our parents. How our mother worked three jobs just to keep our house. How even those jobs weren't enough, and eventually... she fell ill.",
+    "file": "echoesofchange-yulie-63"
+  },
+  {
+    "line": "Yulie: I realized... that was where I was heading. Working myself to death, and- and for what? Then they'd be left on their own anyway.",
+    "file": "echoesofchange-yulie-64"
+  },
+  {
+    "line": "Quill: For what it is worth, I am deeply glad you chose to come with me, Yulie.",
+    "file": "echoesofchange-quill-66"
+  },
+  {
+    "line": "Yulie: ...yeah. It's hard accepting help when you're in that position, is all. It's easier to turn to substances to keep working, to survive...",
+    "file": "echoesofchange-yulie-65"
+  },
+  {
+    "line": "Yulie: But that's what we're doing all this for, isn't it? To build a better Fruma.",
+    "file": "echoesofchange-yulie-66"
+  },
+  {
+    "line": "Quill: ...hm. I believe someone is about to pass through the gate.",
+    "file": "echoesofchange-quill-67"
+  },
+  {
+    "line": "Yulie: What? More guards for the festival? Or-",
+    "file": "echoesofchange-yulie-67"
+  },
+  {
+    "line": "Quill: I'm not certain, Yulie. But we should avoid being spotted.",
+    "file": "echoesofchange-quill-68"
+  },
+  {
+    "line": "Yulie: soldier, hurry!",
+    "file": "echoesofchange-yulie-68"
+  },
+  {
+    "line": "Yulie: ...well, that's not good.",
+    "file": "echoesofchange-yulie-69"
+  },
+  {
+    "line": "Quill: Indeed... we already had two Sovereigns to concern ourselves with. And now, a third.",
+    "file": "echoesofchange-quill-69"
+  },
+  {
+    "line": "Yulie: He's not one of the Sovereigns I know about... is he new?",
+    "file": "echoesofchange-yulie-70"
+  },
+  {
+    "line": "Quill: Perhaps... but this could be a problem. We know nothing about this new Sovereign...",
+    "file": "echoesofchange-quill-70"
+  },
+  {
+    "line": "Yulie: You- what?! From where? Auburn?",
+    "file": "echoesofchange-yulie-71"
+  },
+  {
+    "line": "Quill: Hm... no, Syndra would have mentioned him if he were from the Auburn Forest.",
+    "file": "echoesofchange-quill-71"
+  },
+  {
+    "line": "Yulie: You have Sovereign friends...? Why? How?",
+    "file": "echoesofchange-yulie-72"
+  },
+  {
+    "line": "Quill: There could be any number of explanations... but it does not matter.",
+    "file": "echoesofchange-quill-72"
+  },
+  {
+    "line": "Quill: If you know him, we need information. What can you tell us?",
+    "file": "echoesofchange-quill-73"
+  },
+  {
+    "line": "Yulie: Really. Because from my perspective, working directly under the Crown doesn't sound like something a good person would do!",
+    "file": "echoesofchange-yulie-73"
+  },
+  {
+    "line": "Quill: That could certainly be a concern... though, we were not expecting to fight any Sovereigns, regardless.",
+    "file": "echoesofchange-quill-74"
+  },
+  {
+    "line": "Quill: Ah... so you knew him before his ascension, then.",
+    "file": "echoesofchange-quill-75"
+  },
+  {
+    "line": "Quill: This could be a good thing for us. If he only recently ascended, he's likely to lack experience with the Queen's blessing.",
+    "file": "echoesofchange-quill-76"
+  },
+  {
+    "line": "Yulie: We need to report back to Syndra about this... this changes things.",
+    "file": "echoesofchange-yulie-74"
+  },
+  {
+    "line": "Yulie: Come on, let's head back to the Steel Feather.",
+    "file": "echoesofchange-yulie-75"
+  },
+  {
+    "line": "Quill: Hm... soldier, one final question.",
+    "file": "echoesofchange-quill-77"
+  },
+  {
+    "line": "Quill: If it comes down to it... and you are forced to face him. Would you be ready to kill your former friend, if necessary?",
+    "file": "echoesofchange-quill-78"
+  },
+  {
+    "line": "Quill: ...think on it, for now. If we are lucky, you won't need the answer.",
+    "file": "echoesofchange-quill-79"
+  },
+  {
+    "line": "Quill: Tomorrow it happens...",
+    "file": "echoesofchange-quill-80"
+  },
+  {
+    "line": "Syndra: ...do you have any questions?",
+    "file": "echoesofchange-syndra-117"
+  },
+  {
+    "line": "Syndra: I did. When I first got into contact with Quill, I asked him to find her.",
+    "file": "echoesofchange-syndra-118"
+  },
+  {
+    "line": "Syndra: And... he did. But... she didn't recognize him. She didn't... remember me.",
+    "file": "echoesofchange-syndra-119"
+  },
+  {
+    "line": "Syndra: Ha... knowing she was still alive past that wall, but that I could never see here again, and that she didn't even... remember me...?",
+    "file": "echoesofchange-syndra-120"
+  },
+  {
+    "line": "Syndra: I tried sending her letters, with Quill's help. I don't know if any of them ever reached her.",
+    "file": "echoesofchange-syndra-121"
+  },
+  {
+    "line": "Syndra: It doesn't matter now. It's been... 22 years. Nearly half of my whole life. So long as she's safe... that's all that matters.",
+    "file": "echoesofchange-syndra-122"
+  },
+  {
+    "line": "Syndra: And if we succeed tomorrow... then...",
+    "file": "echoesofchange-syndra-123"
+  },
+  {
+    "line": "Syndra: Then... maybe we can finally be at peace. Together.",
+    "file": "echoesofchange-syndra-124"
+  },
+  {
+    "line": "Syndra: It was... during a larger assignment. I'd risen through the ranks of the military at a rapid pace, becoming a Wing only three years after joining.",
+    "file": "echoesofchange-syndra-125"
+  },
+  {
+    "line": "Syndra: In 93 IA, Her Majesty was looking into more long-term solutions for managing the Industrial District. She requested a team of Wings most suited to the task, and I was selected for it.",
+    "file": "echoesofchange-syndra-126"
+  },
+  {
+    "line": "Syndra: We worked to establish a more centralized management structure... I ended up taking charge, and was later promoted to Captain.",
+    "file": "echoesofchange-syndra-127"
+  },
+  {
+    "line": "Syndra: But one of my first ideas was to go undercover and work at the factories, for a time. I believed I would be able to get a better insight into the situation that way.",
+    "file": "echoesofchange-syndra-128"
+  },
+  {
+    "line": "Syndra: And, there... I met her.",
+    "file": "echoesofchange-syndra-129"
+  },
+  {
+    "line": "Syndra: I wasn't supposed to get attached. It was just a job, and I'd be visiting many factories...",
+    "file": "echoesofchange-syndra-130"
+  },
+  {
+    "line": "Syndra: But I did. And it was the best mistake of my life.",
+    "file": "echoesofchange-syndra-131"
+  },
+  {
+    "line": "Syndra: Even after I moved on, and throughout the whole three years of that assignment, I continued meeting up with her.",
+    "file": "echoesofchange-syndra-132"
+  },
+  {
+    "line": "Syndra: ...even after the assignment ended, and I was recalled to the Citadel... even after I was inducted into the Gendarme... I continued meeting up with her.",
+    "file": "echoesofchange-syndra-133"
+  },
+  {
+    "line": "Syndra: I... never told her what I really was. I thought it would be safer, for both of us... ha. And how did that turn out...?",
+    "file": "echoesofchange-syndra-134"
+  },
+  {
+    "line": "Yusanu: The map says we're supposed to be stationed on top of a building...",
+    "file": "echoesofchange-yusanu-56"
+  },
+  {
+    "line": "Yusanu: Careful! Don't get spotted!",
+    "file": "echoesofchange-yusanu-57"
+  },
+  {
+    "line": "Yusanu: Hey! We need to get out, now!",
+    "file": "echoesofchange-yusanu-58"
+  },
+  {
+    "line": "Sovereign Tasim: Yes! I'd explain it to you, but we don't have time for it now- soldier, you need to listen to me-",
+    "file": "echoesofchange-sovereigntasim-29"
+  },
+  {
+    "line": "Sui: There's... barely any guards around. Zeph and Yuman must've really succeeded...",
+    "file": "echoesofchange-sui-38"
+  },
+  {
+    "line": "Sui: We... we need to go, Yusanu.",
+    "file": "echoesofchange-sui-39"
+  },
+  {
+    "line": "Sui: Was that the last one? Let's head back to Rurie and... and tell him it's done.",
+    "file": "echoesofchange-sui-40"
   }
 
 
