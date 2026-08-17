@@ -50,6 +50,13 @@ For automatic formatting before commits, set up a git pre-commit hook:
 git config core.hooksPath utils/git-hooks
 ```
 
+### jsDelivr Cache
+
+To invalidate the cached `sounds/sounds.json` file after publishing changes, use:
+```
+https://purge.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/sounds.json
+```
+
 ---
 
 ## Credits
