@@ -49421,6 +49421,41 @@
     "onPlayer": true
   },
   {
+    "line": "Seaskipper Captain: We're goin' to Fruma, huh? Didn' think I'd ever see the day I could actually sail there...",
+    "file": "seaskipper-seaskippercaptain-89",
+    "onPlayer": true
+  },
+  {
+    "line": "Seaskipper Captain: Despite how invitin' that big gatehouse looks, the guards'd threaten me to leave if I got anywhere close! But, I guess somethin's changed, huh?",
+    "file": "seaskipper-seaskippercaptain-90",
+    "onPlayer": true
+  },
+  {
+    "line": "Seaskipper: Ah, I'm sorry. I can't take ya there... They don't allow visitors, y'see. Lotta recruits like yerself ask me to bring 'em; always hurts to say no...",
+    "file": "seaskipper-seaskippercaptain-91",
+    "onPlayer": true
+  },
+  {
+    "line": "Seaskipper Captain: What do ya think about my new hat?",
+    "file": "seaskipper-seaskippercaptain-92",
+    "onPlayer": true
+  },
+  {
+    "line": "Seaskipper Captain: A kind fisherman's kid gave me it while I was docked by Selchar. He said I'd 'slay' and be 'dripped out.'",
+    "file": "seaskipper-seaskippercaptain-93",
+    "onPlayer": true
+  },
+  {
+    "line": "Seaskipper Captain: Now, I don't know how this ol' thing would help me slay any monsters, and I hope I'm not at the age yet where I'm dripping anything...",
+    "file": "seaskipper-seaskippercaptain-94",
+    "onPlayer": true
+  },
+  {
+    "line": "Seaskipper Captain: ...but I suppose I'm grateful for any articles of protection I can get, sailing around these dangerous waters... Plus it looks quite nice, doesn't it?",
+    "file": "seaskipper-seaskippercaptain-95",
+    "onPlayer": true
+  },
+  {
     "line": "Seaskipper Captain: Some ol' man forgot it on my boat. He also forgot his bag. And 'is money. And clothes?",
     "stopSounds": false
   },
