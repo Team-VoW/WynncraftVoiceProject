@@ -1,44 +1,18 @@
 "use strict";
 const config = require("conventional-changelog-conventionalcommits");
 
-function whatBump(commits) {
-    let releaseType = 2;
+function whatBump() {
+    const requestedReleaseType = process.env.RELEASE_TYPE;
+    const validReleaseTypes = ["major", "minor", "patch"];
 
-    // chore(bump-mc) or chore! -> major (0)
-    // feat! or fix! -> minor (1)
-    // otherwise -> patch (2)
-
-    for (let commit of commits) {
-        if (commit == null || !commit.header) continue;
-
-        // We want to select the highest release type
-        if (commit.header.startsWith("chore(bump-mc)") || commit.header.startsWith("chore!")) {
-            releaseType = 0;
-            break;
-        }
-
-        if ((commit.header.startsWith("feat!") || commit.header.startsWith("fix!")) && releaseType > 1) {
-            releaseType = 1;
-        }
-    }
-
-    let releaseTypes = ["major", "minor", "patch"];
-
-    let reason = "No special commits found. Defaulting to a patch.";
-
-    switch (releaseTypes[releaseType]) {
-        case "major":
-            reason = "Found a commit with a chore(bump-mc) header..";
-            break;
-        case "minor":
-            reason = "Found a commit with a feat! or fix! header.";
-            break;
+    if (!validReleaseTypes.includes(requestedReleaseType)) {
+        throw new Error(`RELEASE_TYPE must be one of: ${validReleaseTypes.join(", ")}.`);
     }
 
     return {
-        releaseType: releaseTypes[releaseType],
-        reason: reason
-    }
+        releaseType: requestedReleaseType,
+        reason: `Release type selected when manually starting the workflow: ${requestedReleaseType}.`
+    };
 }
 
 async function getOptions() {

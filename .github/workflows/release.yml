@@ -2,6 +2,16 @@ name: Publish Release
 
 on:
   workflow_dispatch:
+    inputs:
+      version_bump:
+        description: Version component to bump
+        required: true
+        default: patch
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
 
 jobs:
   changelog:
@@ -31,6 +41,8 @@ jobs:
       - name: Create changelog
         id: changelog
         uses: TriPSs/conventional-changelog-action@v5.2.1
+        env:
+          RELEASE_TYPE: ${{ inputs.version_bump }}
         with:
           github-token: ${{ secrets.PRIVATE_TOKEN }}
           git-user-name: 'VoWBot'
