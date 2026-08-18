@@ -1,9 +1,46 @@
+## [2.1.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.3...v2.1.0) (2026-08-18)
+
+
+### New Features
+
+* allow opening Voices of Wynn settings by typing /vow-config command to be able to change settings without having mod menu ([41dc94b](https://github.com/Team-VoW/WynncraftVoiceProject/commit/41dc94bf37a3c2f5e818d73c427ab8f5b7aae456))
+* always report non playing lines, even if not on the newest version ([ae5e9f0](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ae5e9f08961f501828967b41784c71b4eb8944ed))
+* **Echoes of Change:** Added quest. ([644893d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/644893dc83aba66e70e5fe1228c639c6342b5326))
+* Improved villager sounds blocker ([b1a0f75](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b1a0f75b2f77463c41692a8c7bf662bac39a2d5a))
+* remove fabric api as a dependency. The mod now has no more dependencies needed. ModMenu remains an optional dependency. ([19969cd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/19969cd9513b6daa909c64ee270f800d7c192a2c))
+* **Shrouded in Mist:** Added quest. ([be09560](https://github.com/Team-VoW/WynncraftVoiceProject/commit/be0956062333627f80e5fad1b2c85d4cddb49171))
+* **Solidarity of Steel:** Added quest ([cfdef84](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cfdef8413aa57c62e4aa156f7275cf2951d6c38b))
+* **The Price of Ingenuity:** Added quest ([2b47dbc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2b47dbc0cae00d7a895e45468e395581b1224a04))
+
+
+### Bug Fixes
+
+* allow spaces in custom audio path ([6ce108e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/6ce108ebac8f1a5aee6858e19fd2962e0317c944))
+* fix 2 random not playing lines ([02e2e60](https://github.com/Team-VoW/WynncraftVoiceProject/commit/02e2e603905c53035f5f57d6a3c44ac22403a89a))
+* fix a few not playing lines in The price of ingenuity and solidarity of steel ([cad7fa8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cad7fa895d8ce826374a44bc24c936ffde2ee917))
+* **The Price of Ingenuity:** fix Sovereign Soosu and Suis lines being played wrongly ([652fedd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/652fedd8aca15c1f5ee920f2bdb395c2064dc4fe))
+
+
+### Miscellaneous Chores
+
+* cleaned up no longer needed workflows ([c15d782](https://github.com/Team-VoW/WynncraftVoiceProject/commit/c15d782212433df7e48f392870435b82a201cc52))
+
+
+### Code Refactoring
+
+* remove cloth config as a dependency. ([264f0e3](https://github.com/Team-VoW/WynncraftVoiceProject/commit/264f0e3a8a556c92bafb024ee795af1f8c20b80c))
+
 ## [2.0.3](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.2...v2.0.3) (2026-05-30)
 
 
 ### Bug Fixes
 
 * Fix latest quest addition not being present in the mod ([a74cb54](https://github.com/Team-VoW/WynncraftVoiceProject/commit/a74cb54489a69b3c45e3e8f342260bdec624e94a))
+
+
+### Miscellaneous Chores
+
+* **release:** v2.0.3 [skip ci] ([685358d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/685358d5f643fbdd4dc0137518e10077052f2a1f))
 
 ## [2.0.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.1...v2.0.2) (2026-05-25)
 
@@ -76,22 +113,4 @@
 
 * **release:** v2.0.0 [skip ci] ([2a1def9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2a1def93c035934cb6f29d63112c57a1cf5c8524))
 * upgrade to new minor version ([f9dfb63](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f9dfb63aca3588c626f1e1e99f3fd957c16fec45))
-
-## [1.14.2](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.14.1...v1.14.2) (2026-04-13)
-
-
-### ⚠ BREAKING CHANGES
-
-* **Audio Downloader:** Fix the Audio Downloader not working
-
-### Bug Fixes
-
-* **Audio Downloader:** Fix the Audio Downloader not working ([9176c8d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/9176c8d1fc89cff69ccd09402332192fbc703c18))
-* **Line Detection:** Widely decreased the chance of lines starting to play, stopping and then playing again when Wynncraft Server Lags ([#83](https://github.com/Team-VoW/WynncraftVoiceProject/issues/83)) ([71cf060](https://github.com/Team-VoW/WynncraftVoiceProject/commit/71cf060392ae478fd2ad392a26792a94dac14b52))
-* **Version Checker:** Fix the Version checker not working properly sometimes because of a race condition ([cb7ddcc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cb7ddcc962118632ede4357dca7bd098bd3fd531))
-
-
-### Miscellaneous Chores
-
-* **release:** v1.14.2 [skip ci] ([69c4a0f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/69c4a0f6e423770bb3b4d3318000a67e1e843139))
 
