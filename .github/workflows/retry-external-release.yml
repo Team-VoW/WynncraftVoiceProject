@@ -1,0 +1,102 @@
+name: Retry External Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing GitHub release tag to publish
+        required: true
+        type: string
+      target:
+        description: Platform to publish to
+        required: true
+        default: both
+        type: choice
+        options:
+          - both
+          - modrinth
+          - curseforge
+
+permissions:
+  contents: read
+
+concurrency:
+  group: retry-external-release-${{ inputs.tag }}
+  cancel-in-progress: false
+
+jobs:
+  release-modrinth:
+    name: Release existing tag to Modrinth
+    if: ${{ inputs.target == 'both' || inputs.target == 'modrinth' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: |
+          mkdir release
+          gh release download "$RELEASE_TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --pattern '*-fabric+MC-*.jar' \
+            --dir release
+          gh release view "$RELEASE_TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --json body \
+            --jq '.body' > release/CHANGELOG.md
+
+      - name: Publish to Modrinth
+        uses: Kira-NT/mc-publish@v3.3.1
+        with:
+          modrinth-id: Hn8Ot3qH
+          modrinth-featured: true
+          modrinth-unfeature-mode: subset
+          modrinth-token: ${{ secrets.MODRINTH_API_TOKEN }}
+
+          files: "release/*-fabric+MC-*.jar"
+          name: Voices of Wynn (fabric) ${{ inputs.tag }}
+          version: ${{ inputs.tag }}
+          version-type: release
+          game-versions: 1.21.11
+          changelog-file: release/CHANGELOG.md
+
+          loaders: fabric
+          environment: client
+          java: 21
+
+  release-curseforge:
+    name: Release existing tag to CurseForge
+    if: ${{ inputs.target == 'both' || inputs.target == 'curseforge' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: |
+          mkdir release
+          gh release download "$RELEASE_TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --pattern '*-fabric+MC-*.jar' \
+            --dir release
+          gh release view "$RELEASE_TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --json body \
+            --jq '.body' > release/CHANGELOG.md
+
+      - name: Publish to CurseForge
+        uses: Kira-NT/mc-publish@v3.3.1
+        with:
+          curseforge-id: 857921
+          curseforge-token: ${{ secrets.CF_API_TOKEN }}
+
+          files: "release/*-fabric+MC-*.jar"
+          name: Voices of Wynn (fabric) ${{ inputs.tag }}
+          version: ${{ inputs.tag }}
+          version-type: release
+          game-versions: 1.21.11
+          changelog-file: release/CHANGELOG.md
+
+          loaders: fabric
+          environment: client
+          java: 21
