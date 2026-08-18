@@ -23,10 +23,22 @@ jobs:
       clean_changelog: ${{ steps.changelog.outputs.clean_changelog }}
       changelog: ${{ steps.changelog.outputs.changelog }}
     steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.PRIVATE_TOKEN }}
+      - name: Checkout release metadata
+        env:
+          PRIVATE_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
+        run: |
+          auth_header=$(printf 'x-access-token:%s' "$PRIVATE_TOKEN" | base64 -w 0)
+          echo "::add-mask::$auth_header"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth_header" clone \
+            --filter=blob:none \
+            --no-checkout \
+            --single-branch \
+            --branch "$GITHUB_REF_NAME" \
+            "https://github.com/$GITHUB_REPOSITORY.git" .
+          git config --local http.https://github.com/.extraheader "AUTHORIZATION: basic $auth_header"
+          git sparse-checkout init --no-cone
+          git sparse-checkout set '/.github/' '/CHANGELOG.md' '/build.gradle'
+          git checkout "$GITHUB_REF_NAME"
 
       - uses: actions/setup-node@v6
         with:
@@ -147,7 +159,7 @@ jobs:
         with:
           name: build
 
-      - uses: Kir-Antipov/mc-publish@v3.3.0
+      - uses: Kir-Antipov/mc-publish@v3.3.1
         with:
 
           modrinth-id: Hn8Ot3qH
@@ -167,4 +179,5 @@ jobs:
           changelog: ${{ needs.changelog.outputs.changelog }}
 
           loaders: ${{ matrix.modloader }}
+          environment: client
           java: 21
