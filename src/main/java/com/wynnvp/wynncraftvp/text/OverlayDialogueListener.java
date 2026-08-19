@@ -25,8 +25,10 @@ public interface OverlayDialogueListener {
      *                      narration-only lines
      * @param formattedLine player-name-substituted playback line (use this for sound lookup)
      * @param finalKey      the manifest lookup key derived from {@code formattedLine}
+     * @param npc           the nameplate speaker, or {@code null} for narration. Passed through so
+     *                      the speaker never has to be guessed back out of {@code formattedLine}.
      */
-    void onDialogueFired(String combined, String formattedLine, String finalKey);
+    void onDialogueFired(String combined, String formattedLine, String finalKey, String npc);
 
     /**
      * Called when early play already played the correct sound — no audio action needed.
@@ -51,7 +53,8 @@ public interface OverlayDialogueListener {
      * playing it. If the resolved key equals {@code excludeKey}, no audio is played
      * and {@code null} is returned (dedup guard).
      *
-     * @param rawCombined the raw {@code "npc: body"} string (no player-name substitution applied)
+     * @param rawCombined the raw {@code "npc: body"} string, or just {@code body} for narration
+     *                    lines that have no nameplate (no player-name substitution applied)
      * @param excludeKey  a previously matched key to skip, or {@code null}
      * @return the manifest key of the sound that was played, or {@code null} if nothing was played
      */

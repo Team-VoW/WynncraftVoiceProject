@@ -23,6 +23,11 @@ public class SoundPlayer {
         lineReporter = new LineReporter();
     }
 
+    /** Drives the buffered unvoiced-line reports; called once per world tick. */
+    public void onTick() {
+        lineReporter.onTick();
+    }
+
     // Code that is run to play all the sounds
     public void playSound(LineData lineData) {
         if (stopMod) return;

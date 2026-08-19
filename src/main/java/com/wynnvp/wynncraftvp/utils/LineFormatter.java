@@ -10,7 +10,17 @@ import com.wynnvp.wynncraftvp.sound.line.LineData;
 
 public class LineFormatter {
     public static LineData formatToLineData(String message) {
+        return formatToLineData(message, null);
+    }
+
+    /**
+     * @param npcName the known speaker, or an empty string for narration. Pass {@code null} when the
+     *                speaker is unknown and should be recovered from the line's {@code "Speaker: "}
+     *                prefix instead.
+     */
+    public static LineData formatToLineData(String message, String npcName) {
         LineData lineData = new LineData();
+        lineData.setNpcName(npcName);
 
         message = message.trim();
         lineData.setRealLine(message);

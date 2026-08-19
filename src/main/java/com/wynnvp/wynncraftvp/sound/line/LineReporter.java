@@ -19,7 +19,17 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.world.entity.player.Player;
 
 public class LineReporter {
+    /**
+     * Ticks a report is held before it is sent. The overlay state machine can fire a line while the
+     * typewriter animation is still running (a stalled packet stream looks like a finished line), so
+     * a report is buffered long enough for the rest of the line to arrive and supersede it.
+     */
+    private static final int REPORT_DELAY_TICKS = 60;
+
     private final Queue<String> reportedLines;
+
+    private LineData pendingReport;
+    private int pendingReportTicks;
 
     public LineReporter() {
         reportedLines = new ConcurrentLinkedQueue<>();
@@ -28,6 +38,50 @@ public class LineReporter {
     public void MissingLine(LineData lineData) {
         if (!config.isReportMissingLines() || !ModCore.inLiveWynnServer) return;
 
+        LineData supersededFinalLine = null;
+        synchronized (this) {
+            if (pendingReport != null) {
+                String pending = stripWhitespace(pendingReport.getRealLine());
+                String incoming = stripWhitespace(lineData.getRealLine());
+
+                if (incoming.startsWith(pending)) {
+                    // The typewriter kept going — what we held was only a partial of this line.
+                    pendingReport = lineData;
+                    pendingReportTicks = 0;
+                    return;
+                }
+                if (pending.startsWith(incoming)) {
+                    // A shorter version of the line we already hold; keep the longer one.
+                    return;
+                }
+                // An unrelated line started, so the buffered one is final. Send it now.
+                supersededFinalLine = pendingReport;
+            }
+            pendingReport = lineData;
+            pendingReportTicks = 0;
+        }
+
+        if (supersededFinalLine != null) send(supersededFinalLine);
+    }
+
+    /** Flushes the buffered report once it has been held for {@link #REPORT_DELAY_TICKS}. */
+    public void onTick() {
+        LineData toSend;
+        synchronized (this) {
+            if (pendingReport == null) return;
+            if (++pendingReportTicks < REPORT_DELAY_TICKS) return;
+            toSend = pendingReport;
+            pendingReport = null;
+            pendingReportTicks = 0;
+        }
+        send(toSend);
+    }
+
+    private static String stripWhitespace(String text) {
+        return text == null ? "" : text.replaceAll("\\s+", "");
+    }
+
+    private void send(LineData lineData) {
         CompletableFuture.runAsync(() -> {
             synchronized (reportedLines) {
                 if (reportedLines.contains(lineData.getRealLine())) {

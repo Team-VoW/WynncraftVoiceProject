@@ -66,11 +66,13 @@ public final class OverlayHandler implements OverlayDialogueListener {
     // OverlayDialogueListener implementation ----------------------------------------
 
     @Override
-    public void onDialogueFired(String combined, String formattedLine, String finalKey) {
+    public void onDialogueFired(String combined, String formattedLine, String finalKey, String npc) {
         if (ModCore.config.isLogOverlayDialogueToChat()) {
             Utils.sendMessage("§f" + combined);
         }
-        ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(formattedLine));
+        // Narration has no speaker; pass "" so the reporter does not fall back to guessing one out
+        // of the sentence itself.
+        ModCore.instance.soundPlayer.playSound(LineFormatter.formatToLineData(formattedLine, npc == null ? "" : npc));
     }
 
     @Override

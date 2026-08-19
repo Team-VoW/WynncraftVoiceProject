@@ -23,6 +23,9 @@ public class ClientTickEvent {
         if (ModCore.overlayHandler != null) {
             ModCore.overlayHandler.onTick();
         }
+        if (ModCore.instance != null && ModCore.instance.soundPlayer != null) {
+            ModCore.instance.soundPlayer.onTick();
+        }
         // The audio player is created lazily once OpenAL is up, see SoundEngineStartedMixin.
         if (ModCore.instance != null && ModCore.instance.audioPlayer != null) {
             ModCore.instance.audioPlayer.openAlPlayer.onTick();

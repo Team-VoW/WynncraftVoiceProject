@@ -5,6 +5,7 @@
 package com.wynnvp.wynncraftvp.text;
 
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
+import java.util.Objects;
 import java.util.function.BooleanSupplier;
 import java.util.function.Function;
 import java.util.function.LongSupplier;
@@ -119,11 +120,20 @@ public final class OverlayStateMachine {
 
         voiceDialogActive = true;
 
-        if (npc == null || npc.isBlank()) {
+        if (npc != null && npc.isBlank()) {
+            npc = null;
+        }
+
+        // A missing nameplate only means "same speaker as before" while the typewriter is still
+        // extending the SAME line. A brand new body with no nameplate is genuine narration (the
+        // grey dialogue Wynncraft shows without a speaker) and must NOT inherit the previous
+        // speaker: that builds a manifest key like "???: Looks like ..." for a line nobody said,
+        // which then prefix-matches an unrelated voice line from another quest.
+        if (npc == null && isSameLine(pendingBody, body)) {
             npc = pendingNpc;
         }
 
-        if (pendingNpc != null && !npc.equals(pendingNpc)) {
+        if (pendingBody != null && !Objects.equals(npc, pendingNpc)) {
             firePending();
         }
 
@@ -164,11 +174,33 @@ public final class OverlayStateMachine {
         voiceDialogActive = false;
     }
 
+    /**
+     * True when {@code body} is still the same overlay line as {@code previous} — i.e. one is a
+     * prefix of the other, so the typewriter is only extending (or briefly re-rendering) it.
+     *
+     * <p>Whitespace is ignored because {@link OverlayHandler#cleanBodyRawText} turns Wynncraft's
+     * custom font separators into spaces, so the spacing of a line can shift between packets as it
+     * re-wraps.
+     */
+    private static boolean isSameLine(String previous, String body) {
+        if (previous == null || body == null) return false;
+        String a = stripWhitespace(previous);
+        String b = stripWhitespace(body);
+        if (a.isEmpty() || b.isEmpty()) return false;
+        return a.startsWith(b) || b.startsWith(a);
+    }
+
+    private static String stripWhitespace(String text) {
+        return text.replaceAll("\\s+", "");
+    }
+
     private void tryEarlyPlay() {
-        if (pendingNpc == null || pendingBody == null) return;
+        if (pendingBody == null) return;
         if (earlyPlayed) return;
 
-        String rawCombined = pendingNpc + ": " + pendingBody;
+        // Narration (no nameplate) is keyed on the body alone, exactly as firePending() does, so the
+        // key matched here is directly comparable to the final key.
+        String rawCombined = pendingNpc != null ? pendingNpc + ": " + pendingBody : pendingBody;
         String matchedKey = listener.tryEarlyPlay(rawCombined, lastEarlyPlayedKey);
         if (matchedKey == null) return;
 
@@ -210,7 +242,7 @@ public final class OverlayStateMachine {
         if (alreadyPlayed) {
             listener.onDialogueAlreadyPlayed(combined, formattedLine);
         } else {
-            listener.onDialogueFired(combined, formattedLine, finalKey);
+            listener.onDialogueFired(combined, formattedLine, finalKey, npc);
         }
     }
 }

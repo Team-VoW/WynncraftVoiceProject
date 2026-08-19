@@ -6,6 +6,7 @@ package com.wynnvp.wynncraftvp.text;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
@@ -35,7 +36,7 @@ class OverlayStateMachineTest {
     private OverlayStateMachine machine;
 
     /** Fired when the machine decides to play a new sound. */
-    private record FiredEvent(String combined, String formattedLine, String finalKey) {}
+    private record FiredEvent(String combined, String formattedLine, String finalKey, String npc) {}
 
     /** Fired when early play was correct and no re-play is needed. */
     private record AlreadyPlayedEvent(String combined, String formattedLine) {}
@@ -56,8 +57,8 @@ class OverlayStateMachineTest {
     private OverlayStateMachine buildMachine(Function<String, String> nameReplacer) {
         OverlayDialogueListener listener = new OverlayDialogueListener() {
             @Override
-            public void onDialogueFired(String combined, String formattedLine, String finalKey) {
-                fired.add(new FiredEvent(combined, formattedLine, finalKey));
+            public void onDialogueFired(String combined, String formattedLine, String finalKey, String npc) {
+                fired.add(new FiredEvent(combined, formattedLine, finalKey, npc));
             }
 
             @Override
@@ -668,8 +669,8 @@ class OverlayStateMachineTest {
                 () -> tick[0],
                 new OverlayDialogueListener() {
                     @Override
-                    public void onDialogueFired(String combined, String formattedLine, String finalKey) {
-                        fired.add(new FiredEvent(combined, formattedLine, finalKey));
+                    public void onDialogueFired(String combined, String formattedLine, String finalKey, String npc) {
+                        fired.add(new FiredEvent(combined, formattedLine, finalKey, npc));
                     }
 
                     @Override
@@ -696,6 +697,48 @@ class OverlayStateMachineTest {
         machine.onTextReceived("Hello world", "Bob");
         assertEquals(1, earlyPlayAttempts.size());
         assertEquals("Bob: Hello world", earlyPlayAttempts.get(0));
+    }
+
+    @Test
+    void earlyPlayCalledForNarrationWithBodyOnly() {
+        // No nameplate → the early-play lookup uses the bare body, matching how firePending()
+        // derives the final key for narration lines.
+        machine.onTextReceived("A narrator spea", null);
+        assertEquals(1, earlyPlayAttempts.size());
+        assertEquals("A narrator spea", earlyPlayAttempts.get(0));
+    }
+
+    @Test
+    void narrationEarlyPlayWithCorrectKeyDoesNotReplay() {
+        String fullLine = "The door creaks open, revealing nothing but darkness.";
+        earlyPlayReturn = key(fullLine);
+
+        feed(1, "The door creaks open, rev", null);
+        feed(2, fullLine, null);
+        saturate(fullLine, null);
+        advanceTo(2 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
+
+        assertFalse(stopCalled, "Correct narration early play — must NOT stop audio");
+        assertTrue(fired.isEmpty(), "Sound already playing correctly — must NOT re-fire");
+        assertEquals(1, alreadyPlayed.size());
+        assertEquals("//" + fullLine, alreadyPlayed.get(0).combined());
+        assertEquals(fullLine, alreadyPlayed.get(0).formattedLine());
+    }
+
+    @Test
+    void narrationEarlyPlayWithWrongKeyStopsAndReplays() {
+        earlyPlayReturn = "somewrongnarrationkey";
+
+        feed(1, "The door creaks", null);
+        feed(2, "The door creaks open, revealing nothing but darkness.", null);
+        saturate("The door creaks open, revealing nothing but darkness.", null);
+        advanceTo(2 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
+
+        assertTrue(stopCalled, "Wrong narration early play key — must stop audio");
+        assertEquals(1, fired.size());
+        assertEquals(
+                key("The door creaks open, revealing nothing but darkness."),
+                fired.get(0).finalKey());
     }
 
     @Test
@@ -740,15 +783,60 @@ class OverlayStateMachineTest {
     }
 
     @Test
-    void nullNpcFallsBackToPreviousNpc() {
+    void nullNpcFallsBackToPreviousNpcWhileSameLineIsStillTyping() {
+        // The nameplate is missing on some packets mid-typewriter. As long as the body is still
+        // growing from the same line, the speaker must carry over.
         machine.onTextReceived("Hello", "Bob"); // tick = 1, pendingNpc = "Bob"
-        feed(2, "World", null); // null npc → reuse "Bob", body changed
-        saturate("World", null);
+        feed(2, "Hello wor", null); // null npc, but same line still typing → reuse "Bob"
+        feed(3, "Hello world", null);
+        saturate("Hello world", null);
 
         assertTrue(fired.isEmpty() && alreadyPlayed.isEmpty()); // no immediate fire
-        advanceTo(2 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
+        advanceTo(3 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
         assertEquals(1, fired.size() + alreadyPlayed.size());
-        assertEquals("Bob: World", fired.get(0).combined());
+        assertEquals("Bob: Hello world", fired.get(0).combined());
+    }
+
+    @Test
+    void newLineWithNoNameplateIsNarrationNotThePreviousSpeaker() {
+        // Grey (narration) dialogue follows an NPC line without the overlay clearing in between.
+        // It must NOT inherit the previous speaker.
+        machine.onTextReceived("Line one", "Bob"); // tick = 1
+        feed(2, "A completely different line", null);
+        saturate("A completely different line", null);
+
+        // The speaker change flushed Bob's line immediately.
+        assertEquals(1, fired.size());
+        assertEquals("Bob: Line one", fired.get(0).combined());
+
+        advanceTo(2 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
+        assertEquals(2, fired.size());
+        assertEquals("//A completely different line", fired.get(1).combined());
+        assertEquals("A completely different line", fired.get(1).formattedLine());
+        assertEquals(key("A completely different line"), fired.get(1).finalKey());
+        assertNull(fired.get(1).npc(), "Narration has no speaker");
+        assertEquals("Bob", fired.get(0).npc());
+    }
+
+    /**
+     * Regression for The Dark Descent: after "???: So enter the mouth of my skull…", the grey line
+     * "Looks like the only way to go is into the skull…" has no nameplate. Inheriting "???" made the
+     * early-play prefix lookup uniquely match "???: Looks like someone rolled about the air fuzz…"
+     * from Shattered Minds, so that unrelated voice line played.
+     */
+    @Test
+    void narrationAfterUnknownSpeakerDoesNotEarlyPlayUnderThatSpeaker() {
+        earlyPlayReturn = "3f3f3f3alookslikesomeonerolled"; // a manifest hit under the "???" prefix
+
+        feed(1, "So enter the mouth of my skull, soldier.", "???");
+        earlyPlayAttempts.clear();
+
+        feed(2, "Looks like the", null);
+        feed(3, "Looks like the only way to go is into the skull...", null);
+
+        for (String attempt : earlyPlayAttempts) {
+            assertFalse(attempt.startsWith("???"), "Narration must not be attributed to ???: " + attempt);
+        }
     }
 
     @Test
