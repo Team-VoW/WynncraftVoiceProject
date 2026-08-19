@@ -70186,5 +70186,213 @@
   {
     "line": "Receptionist: Now, where was I... Hm. What's that noise coming from the records room...?",
     "file": "llevigar-receptionist-3"
+  },
+  {
+    "line": "Silverbull Secretary: Hi there! What can I help you with today?",
+    "file": "silverbullhq-silverbullsecretary-1"
+  },
+  {
+    "line": "Silverbull Secretary: The Silverbull Trading Company is an ever-growing aggregate. These are our headquarters, right outside Cinfras!",
+    "file": "silverbullhq-silverbullsecretary-2"
+  },
+  {
+    "line": "Silverbull Secretary: You can sign up for the different divisions and benefit from advantages negotiated by the company on your behalf.",
+    "file": "silverbullhq-silverbullsecretary-3"
+  },
+  {
+    "line": "Silverbull Secretary: Just head into the room behind me on the left and talk to our Lootrun Chief. He will get you set up in no time!",
+    "file": "silverbullhq-silverbullsecretary-4"
+  },
+  {
+    "line": "Silverbull Secretary: Just head into the room behind me on the right and talk to our Raid Chief. She will get you set up in no time!",
+    "file": "silverbullhq-silverbullsecretary-5"
+  },
+  {
+    "line": "Silverbull Secretary: No worries, have a nice day!",
+    "file": "silverbullhq-silverbullsecretary-6"
+  },
+  {
+    "line": "Raid Chief: Unfortunately Silverbull's Raid Division is only open to people who are level 65 or over.",
+    "file": "silverbullhq-raidchief-1"
+  },
+  {
+    "line": "Raid Chief: Are you interested in joining our Raid Division?",
+    "file": "silverbullhq-raidchief-2"
+  },
+  {
+    "line": "Raid Chief: Very well. I wish you luck in your future raiding endeavours!",
+    "file": "silverbullhq-raidchief-3"
+  },
+  {
+    "line": "Raid Chief: Seems like you are already part of my division! There is nothing left that I can do for you at the moment.",
+    "file": "silverbullhq-raidchief-4"
+  },
+  {
+    "line": "Raid Chief: That's okay, membership will always be open. Just talk to me again whenever you're ready.",
+    "file": "silverbullhq-raidchief-5"
+  },
+  {
+    "line": "Raid Chief: Would you like to return to your previous location?",
+    "file": "silverbullhq-raidchief-6"
+  },
+  {
+    "line": "Silverbull Rank Expert: Hi! Welcome to the Silverbull Headquarters! How can I help?",
+    "file": "silverbullhq-silverbullrankexpert-1"
+  },
+  {
+    "line": "Silverbull Rank Expert: How can I help?",
+    "file": "silverbullhq-silverbullrankexpert-2"
+  },
+  {
+    "line": "Silverbull Rank Expert: Ranking up is super simple! All you have to do is complete Lootruns!",
+    "file": "silverbullhq-silverbullrankexpert-3"
+  },
+  {
+    "line": "Silverbull Rank Expert: The more challenges you complete, the more experience you gain at the end!",
+    "file": "silverbullhq-silverbullrankexpert-4"
+  },
+  {
+    "line": "Silverbull Rank Expert: The more you're promoted, the more benefits you get in your loot runs.",
+    "file": "silverbullhq-silverbullrankexpert-5"
+  },
+  {
+    "line": "Silverbull Rank Expert: Benefits can be new Beacons, increased chance for Vibrant Beacons, and more!",
+    "file": "silverbullhq-silverbullrankexpert-6"
+  },
+  {
+    "line": "Silverbull Rank Expert: You can view your current Lootrun Rank in the Profession Info section of your Character Info.",
+    "file": "silverbullhq-silverbullrankexpert-7"
+  },
+  {
+    "line": "Silverbull Rank Expert: And that's all there is to it! Let me know if you want to know more.",
+    "file": "silverbullhq-silverbullrankexpert-8"
+  },
+  {
+    "line": "Silverbull Rank Expert: Let's see here...",
+    "file": "silverbullhq-silverbullrankexpert-9"
+  },
+  {
+    "line": "Silverbull Rank Expert: Ah.. unfortunately you cannot currently reach any of our Lootrun Camps.",
+    "file": "silverbullhq-silverbullrankexpert-10"
+  },
+  {
+    "line": "Silverbull Rank Expert: Continue your adventure, and come back here later! We will certainly have work for you soon!",
+    "file": "silverbullhq-silverbullrankexpert-11"
+  },
+  {
+    "line": "Silverbull Rank Expert: I see! You wish to explore the upcoming 'province' of Corkus!",
+    "file": "silverbullhq-silverbullrankexpert-12"
+  },
+  {
+    "line": "Silverbull Rank Expert: There are many sights to see, I don't blame you. You can find our Lootrun Camp just south of Corkus City.",
+    "file": "silverbullhq-silverbullrankexpert-13"
+  },
+  {
+    "line": "Silverbull Rank Expert: It won't be easy, but what is, am I right? Best of luck!",
+    "file": "silverbullhq-silverbullrankexpert-14"
+  },
+  {
+    "line": "Silverbull Rank Expert: Ah, the Molten Heights. Home of the Dwarves. And, apparently, in a more recent development, \"Doguns\" as well.",
+    "file": "silverbullhq-silverbullrankexpert-15"
+  },
+  {
+    "line": "Silverbull Rank Expert: We recently set up a Lootrun Camp a short length outside of Rodoroc, a bit to the south.",
+    "file": "silverbullhq-silverbullrankexpert-16"
+  },
+  {
+    "line": "Silverbull Rank Expert: As you might expect, there's a lot of fire there, so be careful not to get burned!",
+    "file": "silverbullhq-silverbullrankexpert-17"
+  },
+  {
+    "line": "Silverbull Rank Expert: The Sky Islands, eh? That's a fun one.",
+    "file": "silverbullhq-silverbullrankexpert-18"
+  },
+  {
+    "line": "Silverbull Rank Expert: There's so much going on there, I wish I, too, could go. Our Lootrun Camp is south of Ahmsord, hard to miss.",
+    "file": "silverbullhq-silverbullrankexpert-19"
+  },
+  {
+    "line": "Silverbull Rank Expert: Be careful though! If you fall into the Void, your lootrun will end! Oh, and you'll probably die, too. No pressure!",
+    "file": "silverbullhq-silverbullrankexpert-20"
+  },
+  {
+    "line": "Silverbull Rank Expert: Silent Expanse Expedition...? Hold on, this is a new entry. I've never heard of that place!",
+    "file": "silverbullhq-silverbullrankexpert-21"
+  },
+  {
+    "line": "Silverbull Rank Expert: Okay, it says here that the camp is directly north of Lutho, but...wait a minute, did you write this?",
+    "file": "silverbullhq-silverbullrankexpert-22"
+  },
+  {
+    "line": "Silverbull Rank Expert: How enterprising of you! I hope you remembered to put our logo up somewhere there!",
+    "file": "silverbullhq-silverbullrankexpert-23"
+  },
+  {
+    "line": "Silverbull Rank Expert: No worries! Just let me know if you wanna learn more about Lootrunning!",
+    "file": "silverbullhq-silverbullrankexpert-24"
+  },
+  {
+    "line": "Silverbull Worker: Ever since joining the Lootrun Division I've come to be incredibly wealthy!",
+    "file": "silverbullhq-silverbullworker2-1"
+  },
+  {
+    "line": "Silverbull Worker: I highly recommend getting involved- greatest decision I've ever made.",
+    "file": "silverbullhq-silverbullworker2-2"
+  },
+  {
+    "line": "Silverbull Worker: I'm so glad I joined Silverbull! I haven't gone on a lootrun yet, but I will soon!",
+    "file": "silverbullhq-silverbullworker5-1"
+  },
+  {
+    "line": "Silverbull Worker: I'm learning all about them first, the Experts on the first floor have been super helpful!",
+    "file": "silverbullhq-silverbullworker5-2"
+  },
+  {
+    "line": "Silverbull Worker: Now I just have to conquer my natural aversion to danger, then I'll be all set!",
+    "file": "silverbullhq-silverbullworker5-3"
+  },
+  {
+    "line": "Silverbull Worker: For something called Lootrunning, I've done nothing but sit around! Am I doing something wrong?",
+    "file": "silverbullhq-silverbullworker8910-1"
+  },
+  {
+    "line": "Silverbull Worker: My boss says that counting the minutes to your next break is a bad practice. I'm just being attentive!",
+    "file": "silverbullhq-silverbullworker8910-2"
+  },
+  {
+    "line": "Silverbull Worker: There's a lot that goes into the backend of Lootrunning, you know! Lots of writing!",
+    "file": "silverbullhq-silverbullworker8910-3"
+  },
+  {
+    "line": "Silverbull Worker: Ever since I joined Silverbull, I've had so much to do!",
+    "file": "silverbullhq-silverbullworker8910-4"
+  },
+  {
+    "line": "Silverbull Worker: This job sucks but at least I get free dental.",
+    "file": "silverbullhq-silverbullworker8910-5"
+  },
+  {
+    "line": "Silverbull Worker: ...Oh shoot, am I late for that meeting? Oh, no, that's a different one.",
+    "file": "silverbullhq-silverbullworker8910-6"
+  },
+  {
+    "line": "Silverbull Worker: I can't wait for my lunch break! I haven't eaten since my last lunch break!",
+    "file": "silverbullhq-silverbullworker8910-7"
+  },
+  {
+    "line": "Silverbull Worker: ...So the meeting's at 11, then I gotta meet that guy at 12, then the meeting at 2... Or was that at 10?",
+    "file": "silverbullhq-silverbullworker8910-8"
+  },
+  {
+    "line": "Silverbull Worker: Do you need something? I'm quite busy.",
+    "file": "silverbullhq-silverbullworker8910-9"
+  },
+  {
+    "line": "Silverbull Worker: Office life ain't so bad, I get my own desk!",
+    "file": "silverbullhq-silverbullworker8910-10"
+  },
+  {
+    "line": "Silverbull Worker: All this paperwork is going to pop a blood vessel in my brain.",
+    "file": "silverbullhq-silverbullworker8910-11"
   }
 ]
