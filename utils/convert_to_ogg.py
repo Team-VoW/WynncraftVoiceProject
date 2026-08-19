@@ -7,8 +7,8 @@ Usage:
     py utils/convert_to_ogg.py <input_dir_or_files...> [--out sounds] [--ffmpeg path/to/ffmpeg.exe]
 
 Examples:
-    py utils/convert_to_ogg.py "E:\\esst9\\OneDrive\\voice project\\lines\\z_Secret Discoveries\\Light_Forest\\Dern Beast" --out sounds
-    py utils/convert_to_ogg.py file1.wav file2.wav --ffmpeg "C:\\ffmpeg\\bin\\ffmpeg.exe"
+    py utils/convert_to_ogg.py path/to/wav_folder --out sounds
+    py utils/convert_to_ogg.py file1.wav file2.wav --ffmpeg path/to/ffmpeg.exe
 """
 
 from __future__ import annotations

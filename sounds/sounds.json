@@ -69984,7 +69984,7 @@
     "file": "cinfras-scavengerhuntparticipant-1"
   },
   {
-    "line": "Scavenger Hunt Participant: How could I have lost? How?! AND they didn't give the mask back, too! ...Maybe next time, I guess...",
+    "line": "Scavenger Hunt Participant: How could I have lost? How?! AND they didn't give the mask back, too! ... Maybe next time, I guess...",
     "file": "cinfras-scavengerhuntparticipant-2"
   },
   {
@@ -70136,27 +70136,27 @@
     "file": "llevigar-electromagicexpert-2"
   },
   {
-    "line": "Llevigar Citizen: Hmm.. I wonder if there's any tier 3 items here.",
+    "line": "Scavenger Hunt Participant: Hmm.. I wonder if there's any tier 3 items here.",
     "file": "llevigar-scavengerhuntparticipant-1"
   },
   {
-    "line": "Llevigar Citizen: AHA! HIS MUG!",
+    "line": "Scavenger Hunt Participant: AHA! HIS MUG!",
     "file": "llevigar-scavengerhuntparticipant-2"
   },
   {
-    "line": "Llevigar Citizen: ...It's expensive though. Oh well, it's worth it for a chance to adventure with Siegfried!",
+    "line": "Scavenger Hunt Participant: ...It's expensive though. Oh well, it's worth it for a chance to adventure with Siegfried!",
     "file": "llevigar-scavengerhuntparticipant-3"
   },
   {
-    "line": "Llevigar Citizen: Oh, come on! Please, just give me a refund!",
+    "line": "Scavenger Hunt Participant: Oh, come on! Please, just give me a refund!",
     "file": "llevigar-scavengerhuntparticipant-4"
   },
   {
-    "line": "Llevigar Citizen: How was I supposed to know when I bought it that I'd lose the competition, huh?",
+    "line": "Scavenger Hunt Participant: How was I supposed to know when I bought it that I'd lose the competition, huh?",
     "file": "llevigar-scavengerhuntparticipant-5"
   },
   {
-    "line": "Llevigar Citizen: Who cares that I don't have the mug?! I want my money back!",
+    "line": "Scavenger Hunt Participant: Who cares that I don't have the mug?! I want my money back!",
     "file": "llevigar-scavengerhuntparticipant-6"
   },
   {
@@ -70252,7 +70252,7 @@
     "file": "silverbullhq-silverbullrankexpert-4"
   },
   {
-    "line": "Silverbull Rank Expert: The more you're promoted, the more benefits you get in your loot runs.",
+    "line": "Silverbull Rank Expert: The more you're promoted, the more benefits you get in your lootruns.",
     "file": "silverbullhq-silverbullrankexpert-5"
   },
   {
@@ -70472,7 +70472,7 @@
     "file": "lighthouse-lighthousekeeper-19"
   },
   {
-    "line": "Lighthouse Keeper: Lookin' at ye, though, you seem to have a lotta magical gear. Have ye been there by chance?",
+    "line": "Lighthouse Keeper: Lookin' at ye though, you seem to have a lotta magical gear. Have ye been there by chance?",
     "file": "lighthouse-lighthousekeeper-20"
   },
   {
@@ -70570,5 +70570,69 @@
   {
     "line": "Lighthouse Keeper: H-Huh? Goodbye? Wait, no, ye're responsible aren't ye? Hey, ye stay here! Ye're in trouble, soldier!!",
     "file": "lighthouse-lighthousekeeper-44"
+  },
+  {
+    "line": "Lootrun Chief: Unfortunately Silverbull's Lootrun Division is only open to people who are level 75 or over.",
+    "file": "silverbullhq-lootrunchief-1"
+  },
+  {
+    "line": "Lootrun Chief: Are you interested in joining our Lootrun Division?",
+    "file": "silverbullhq-lootrunchief-2"
+  },
+  {
+    "line": "Lootrun Chief: Seems like you are already part of my division! There is nothing left that I can do for you at the moment.",
+    "file": "silverbullhq-lootrunchief-3"
+  },
+  {
+    "line": "Lootrun Chief: That's okay, membership will always be open. Just talk to me again whenever you're ready.",
+    "file": "silverbullhq-lootrunchief-4"
+  },
+  {
+    "line": "Silverbull Worker: Hey there, isn't up here nice? It's so serene, I could walk around here forever.",
+    "file": "silverbullhq-silverbullworker6-1"
+  },
+  {
+    "line": "Silverbull Worker: I retired from Lootrunning a while ago, now I just work in the offices.",
+    "file": "silverbullhq-silverbullworker6-2"
+  },
+  {
+    "line": "Silverbull Worker: I eat my lunches up here, but I wish I could stay longer.",
+    "file": "silverbullhq-silverbullworker6-3"
+  },
+  {
+    "line": "Silverbull Worker: What's up?",
+    "file": "silverbullhq-silverbullworker6-4"
+  },
+  {
+    "line": "Silverbull Worker: It's not too bad, sometimes I miss the old days, but office life has its perks.",
+    "file": "silverbullhq-silverbullworker6-5"
+  },
+  {
+    "line": "Silverbull Worker: Benefits are good, pay is alright, people are nice..",
+    "file": "silverbullhq-silverbullworker6-6"
+  },
+  {
+    "line": "Silverbull Worker: ...Well, there is one guy with a pretty sour attitude, but he works in a different office than me, so we don't speak often.",
+    "file": "silverbullhq-silverbullworker6-7"
+  },
+  {
+    "line": "Silverbull Worker: You might run into him downstairs, just heed no mind, frankly.",
+    "file": "silverbullhq-silverbullworker6-8"
+  },
+  {
+    "line": "Silverbull Worker: Hi!",
+    "file": "silverbullhq-silverbullworker6-9"
+  },
+  {
+    "line": "Silverbull Worker: I've been in meetings all day! And I had to sit next to that smarty-pants over there the whole time!",
+    "file": "silverbullhq-silverbullworker7-1"
+  },
+  {
+    "line": "Silverbull Worker: If I wanted to know a random fact about Lootrunning, I'd ask!",
+    "file": "silverbullhq-silverbullworker7-2"
+  },
+  {
+    "line": "Silverbull Worker: Or better yet, I'd talk to the actual experts downstairs! Not you! Sheesh.",
+    "file": "silverbullhq-silverbullworker7-3"
   }
 ]
