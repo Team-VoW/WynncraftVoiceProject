@@ -52250,6 +52250,36 @@
     "fallOff": 200
   },
   {
+    "line": "???: Waste? Perhaps. But I now have much power to spare. Recent events have... invigorated me.",
+    "file": "lightforest-dernbeast-11",
+    "onPlayer": true,
+    "fallOff": 200
+  },
+  {
+    "line": "???: I come with a query. Why do you still fight? Victory is all but assured for Darkness. You have no hope to overcome my power. Not anymore.",
+    "file": "lightforest-dernbeast-12",
+    "onPlayer": true,
+    "fallOff": 200
+  },
+  {
+    "line": "???: Agents of Decay scrub your influence from the land. Your vile claim of it falters. Soon, all you have left will be lost.",
+    "file": "lightforest-dernbeast-13",
+    "onPlayer": true,
+    "fallOff": 200
+  },
+  {
+    "line": "???: Laughable. You cannot begin to imagine how wrong you are. You did not let me finish. You think yourself safe? Locked away? But a sealed chamber prevents both entry and escape.",
+    "file": "lightforest-dernbeast-14",
+    "onPlayer": true,
+    "fallOff": 200
+  },
+  {
+    "line": "???: You cannot run from fate forever.",
+    "file": "lightforest-dernbeast-15",
+    "onPlayer": true,
+    "fallOff": 200
+  },
+  {
     "line": "Strange Frog: Uh... You aren't supposed to be here..! ",
     "file": "lightforest-strangefrog-1",
     "fallOff": 200
