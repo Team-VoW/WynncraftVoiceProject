@@ -1,3 +1,29 @@
+## [2.2.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.1.0...v2.2.0) (2026-08-19)
+
+
+### New Features
+
+* **Bucie:** Added 6 Bucie Citizen lines ([e95760e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e95760e8a01d11bb7aae1bee22b6a235ef82d936))
+* **Cinfras, Llevigar:** Added the missing Cinfras Citizen 4, Mother and Llevigar Soldier lines ([58f833f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/58f833f7a20a4362b789f044e8c1c002959055a2))
+* **Cinfras:** Added 17 citizen lines across 5 NPCs ([3af9249](https://github.com/Team-VoW/WynncraftVoiceProject/commit/3af924940c12d50c2665c90a1d4956f90880601a))
+* **Clearing the camps:** Recast Captain Kymer (which was needed for Fruma quest lines) ([ef36cd9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ef36cd9a1780a812932df8d362c93097284a2bfb))
+* Early play dialogue for non npc lines, play wrong lines less often and report only full lines. This should also improve line detection for when in some rare cases lines where not playing. This also fixes position matching for some lines when the npc name was assumed as the line ([59ec91e](https://github.com/Team-VoW/WynncraftVoiceProject/commit/59ec91e46a901ee82d9e5cb0095ae33064de5134))
+* **Echoes of change:** Replace a line from Syndra and one from Timasca Soldier ([716705f](https://github.com/Team-VoW/WynncraftVoiceProject/commit/716705f579ad10d0c5e220e0bd0d3a86dc2f138d))
+* **Gelibord:** Added 8 citizen lines across 3 NPCs ([eb04ca2](https://github.com/Team-VoW/WynncraftVoiceProject/commit/eb04ca28c0395f523e630211bc341ad62cac6352))
+* **Karoc Quarry:** Added 8 Karoc Miner lines ([5b27492](https://github.com/Team-VoW/WynncraftVoiceProject/commit/5b27492e50ce69ba3f1ae7a628972d34cb872b17))
+* **Light Forest Secret Discovery:** Added 5 Dern Beast lines ([49bc7b6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/49bc7b6ceeee59cc18e368c43efad3c0314a0ae7))
+* **Lighthouse:** Added 44 Lighthouse Keeper lines ([4488dde](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4488ddede523c1c409e85b5f11910c23cdf100e2))
+* **Llevigar:** Added 26 citizen lines across 8 NPCs ([13df993](https://github.com/Team-VoW/WynncraftVoiceProject/commit/13df9935e292d99ad1089e6933e2497e0d041c14))
+* **Olux:** Added 14 citizen lines across 5 NPCs ([4a26794](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4a26794ebf4eabc9f1402522d460252b8f60fc76))
+* **Seaskipper:** Added traveling to fruma lines and a dialogue about his new hat ([d033527](https://github.com/Team-VoW/WynncraftVoiceProject/commit/d033527d47e06522f7b3b92a7d0c79a8884538d8))
+* **Silverbull HQ:** Added 52 worker lines across 6 NPCs ([3ff9178](https://github.com/Team-VoW/WynncraftVoiceProject/commit/3ff9178abceb2338e26f2836c7536ea7c5eb867d))
+* **Silverbull HQ:** Added Lootrun Chief, Worker 6 and Worker 7 ([b6806c1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/b6806c1302e79cf3341ba5244d73a505c6e31a79))
+
+
+### Bug Fixes
+
+* **Echoes of change:** Fix 8 lines not playing ([ee43038](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ee43038e95da6704d4b73713d1ecb344959af7ba))
+
 ## [2.1.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.3...v2.1.0) (2026-08-18)
 
 
@@ -24,6 +50,7 @@
 ### Miscellaneous Chores
 
 * cleaned up no longer needed workflows ([c15d782](https://github.com/Team-VoW/WynncraftVoiceProject/commit/c15d782212433df7e48f392870435b82a201cc52))
+* **release:** v2.1.0 [skip ci] ([31240fe](https://github.com/Team-VoW/WynncraftVoiceProject/commit/31240fed89a923b562b3a8b9ea9b8206a8457dce))
 
 
 ### Code Refactoring
@@ -71,46 +98,4 @@
 ### Miscellaneous Chores
 
 * **release:** v2.0.1 [skip ci] ([64c3d28](https://github.com/Team-VoW/WynncraftVoiceProject/commit/64c3d28a1d820e6be7630189374356f6bfcf3218))
-
-## [2.0.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v1.14.2...v2.0.0) (2026-05-16)
-
-
-### ⚠ BREAKING CHANGES
-
-* upgrade to new minor version
-
-### New Features
-
-* **A new Beginning:** Add Voice Acting ([178f1e1](https://github.com/Team-VoW/WynncraftVoiceProject/commit/178f1e1d3ae7908d1cc3c61bc8f6d294f8bdf68c))
-* Add custom design for download toast ([#86](https://github.com/Team-VoW/WynncraftVoiceProject/issues/86)) ([85689ec](https://github.com/Team-VoW/WynncraftVoiceProject/commit/85689ec45e57324f0a5e10a4554d9406ad8511b1))
-* Add retry when fetching audio to avoid transient errors ([c78990c](https://github.com/Team-VoW/WynncraftVoiceProject/commit/c78990c259c87282e806a338147ddf6a1bca10d2))
-* Add support for creating beta builds for Patreon supports and Voice Actors ([#71](https://github.com/Team-VoW/WynncraftVoiceProject/issues/71)) ([e2530d4](https://github.com/Team-VoW/WynncraftVoiceProject/commit/e2530d4b91efd5d76a6e14a858f6bc5e1602a5c4))
-* Replaced Robots whose voice came from TTS to Voice actors ([3c6829a](https://github.com/Team-VoW/WynncraftVoiceProject/commit/3c6829a06ef9be6185293fba87ebc5fa746e330a))
-* **The Envoy Part 2:** replace Reiva & Corkus Guard VAs and add one missing Corkus Guard line ([cf453a4](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cf453a40bf99336a41617d813f6a3913134f7a6e))
-
-
-### Bug Fixes
-
-* Add step to startup to clean up corrupt config file which if corrupt caused crashes ([#88](https://github.com/Team-VoW/WynncraftVoiceProject/issues/88)) ([7396481](https://github.com/Team-VoW/WynncraftVoiceProject/commit/7396481839a35eed46c2b31f22e7f555ede2fd65))
-* **Beta:** Correctly use beta sounds URL in beta builds ([2928169](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2928169cacdf602959065a6d81d6cc098d64a6b2))
-* **cloth-config:** replace deprecated AutoConfig.getConfigScreen with AutoConfigClient ([49574d8](https://github.com/Team-VoW/WynncraftVoiceProject/commit/49574d8dc5efb6e885d0745092619d0bb86e84cc))
-* Fix all lines with elements not working ([41655a9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/41655a9608286d85b30fe7e1d4339c738738b7e8))
-* Fix lines with quotes not playing ([8130627](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8130627c389e80e65b22afe80b5513a56c704e1e))
-* Fix typo in config ([8bb796d](https://github.com/Team-VoW/WynncraftVoiceProject/commit/8bb796d1ca8224fe5ff00c8a32404986a77ec172))
-* Fix various lines that use mythical languages (such as Wynnic or similar) not playing ([055c0dc](https://github.com/Team-VoW/WynncraftVoiceProject/commit/055c0dcb4c154c7a6ab2636c945d311e882e337c))
-* **Order of the Grook:** Fixed one line from the fire teacher not playing ([7b3a10c](https://github.com/Team-VoW/WynncraftVoiceProject/commit/7b3a10ccb9eb0d4ebc7251d2b49b76c965ce9db1))
-* **Queens Recruit:** Fixed Gendarme Commander lines and two Sovereign Majin lines not playing ([74152dd](https://github.com/Team-VoW/WynncraftVoiceProject/commit/74152dd05e877330f9b37df1dc51f405a2c154af))
-* Silent Ravenger sounds during dialogue. This sound plays loudly with for example Bak'als lines ([27886a2](https://github.com/Team-VoW/WynncraftVoiceProject/commit/27886a2375d07c22757e865b8cf29c9ea6394ade))
-* Silent Silverfish death sounds during dialogue. This sound plays loudly during Ankou's lines ([47d5b1c](https://github.com/Team-VoW/WynncraftVoiceProject/commit/47d5b1c8fc99e377c8160c4623f3e78c4d2bf2ff))
-
-
-### Documentation
-
-* Add documentation on reverb ([3c71436](https://github.com/Team-VoW/WynncraftVoiceProject/commit/3c714369a49e3640761bf3389d556d6ae247ec6a))
-
-
-### Miscellaneous Chores
-
-* **release:** v2.0.0 [skip ci] ([2a1def9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/2a1def93c035934cb6f29d63112c57a1cf5c8524))
-* upgrade to new minor version ([f9dfb63](https://github.com/Team-VoW/WynncraftVoiceProject/commit/f9dfb63aca3588c626f1e1e99f3fd957c16fec45))
 
