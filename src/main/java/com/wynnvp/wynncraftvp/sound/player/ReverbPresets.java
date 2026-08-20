@@ -1,309 +1,68 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.player;
 
-import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.Reverb;
-import org.lwjgl.openal.AL10;
-import org.lwjgl.openal.EXTEfx;
+import com.wynnvp.wynncraftvp.sound.physics.ComputedReverb;
 
 /**
- * Provides OpenAL EFX reverb parameter presets for different environment types.
- * Each preset is tuned to simulate realistic acoustic properties.
+ * Hand-authored reverb settings for the ten named environments.
+ *
+ * <p>These are the override path. A line carrying an explicit {@code "reverb"} in {@code sounds.json}
+ * uses the preset named there verbatim; everything else is measured from the world by
+ * {@link com.wynnvp.wynncraftvp.sound.physics.ReverbParameterMapper}. They are also the reference the
+ * traced model was checked against - a small wooden room measures at roughly
+ * {@link #FURNISHED_ROOM}, a ten block hall at roughly {@link #EMPTY_ROOM}.
  */
-public class ReverbPresets {
+public final class ReverbPresets {
     private ReverbPresets() {
         throw new UnsupportedOperationException("Utility class");
     }
 
-    public static class ReverbParams {
-        public final float density;
-        public final float diffusion;
-        public final float gain;
-        public final float gainHF;
-        public final float decayTime;
-        public final float decayHFRatio;
-        public final float reflectionsGain;
-        public final float reflectionsDelay;
-        public final float lateReverbGain;
-        public final float lateReverbDelay;
-        public final float airAbsorptionGainHF;
-        public final float roomRolloffFactor;
-        public final int decayHFLimit;
+    /** OUTSIDE - minimal reverb, open space with high absorption. */
+    private static final ComputedReverb OUTSIDE =
+            new ComputedReverb(1.0f, 1.0f, 0.316f, 0.447f, 1.5f, 0.5f, 0.05f, 0.007f, 0.251f, 0.011f, 0.994f, 0.0f, 1);
 
-        public ReverbParams(
-                float density,
-                float diffusion,
-                float gain,
-                float gainHF,
-                float decayTime,
-                float decayHFRatio,
-                float reflectionsGain,
-                float reflectionsDelay,
-                float lateReverbGain,
-                float lateReverbDelay,
-                float airAbsorptionGainHF,
-                float roomRolloffFactor,
-                int decayHFLimit) {
-            this.density = density;
-            this.diffusion = diffusion;
-            this.gain = gain;
-            this.gainHF = gainHF;
-            this.decayTime = decayTime;
-            this.decayHFRatio = decayHFRatio;
-            this.reflectionsGain = reflectionsGain;
-            this.reflectionsDelay = reflectionsDelay;
-            this.lateReverbGain = lateReverbGain;
-            this.lateReverbDelay = lateReverbDelay;
-            this.airAbsorptionGainHF = airAbsorptionGainHF;
-            this.roomRolloffFactor = roomRolloffFactor;
-            this.decayHFLimit = decayHFLimit;
-        }
+    /** FOREST - outdoors, with trees scattering and foliage absorbing. */
+    private static final ComputedReverb FOREST =
+            new ComputedReverb(1.0f, 0.85f, 0.316f, 0.562f, 1.2f, 0.6f, 0.1f, 0.01f, 0.2f, 0.015f, 0.97f, 0.0f, 1);
 
-        /**
-         * Applies these reverb parameters to an OpenAL effect object.
-         * Checks for OpenAL errors after each parameter is set and logs any failures.
-         */
-        public void applyToEffect(int effect) {
-            applyEffectParam(effect, EXTEfx.AL_REVERB_DENSITY, density, "density");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_DIFFUSION, diffusion, "diffusion");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_GAIN, gain, "gain");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_GAINHF, gainHF, "gainHF");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_DECAY_TIME, decayTime, "decayTime");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_DECAY_HFRATIO, decayHFRatio, "decayHFRatio");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_REFLECTIONS_GAIN, reflectionsGain, "reflectionsGain");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_REFLECTIONS_DELAY, reflectionsDelay, "reflectionsDelay");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_LATE_REVERB_GAIN, lateReverbGain, "lateReverbGain");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_LATE_REVERB_DELAY, lateReverbDelay, "lateReverbDelay");
-            applyEffectParam(
-                    effect, EXTEfx.AL_REVERB_AIR_ABSORPTION_GAINHF, airAbsorptionGainHF, "airAbsorptionGainHF");
-            applyEffectParam(effect, EXTEfx.AL_REVERB_ROOM_ROLLOFF_FACTOR, roomRolloffFactor, "roomRolloffFactor");
-            applyEffectParamInt(effect, EXTEfx.AL_REVERB_DECAY_HFLIMIT, decayHFLimit, "decayHFLimit");
-        }
+    /** FURNISHED_ROOM - small indoor space, furniture soaking up the tail. */
+    private static final ComputedReverb FURNISHED_ROOM =
+            new ComputedReverb(1.0f, 1.0f, 0.316f, 0.562f, 0.4f, 0.83f, 0.15f, 0.002f, 0.1f, 0.003f, 0.994f, 0.0f, 1);
 
-        /**
-         * Helper method to apply a float effect parameter with error checking.
-         */
-        private void applyEffectParam(int effect, int param, float value, String paramName) {
-            EXTEfx.alEffectf(effect, param, value);
-            int error = AL10.alGetError();
-            if (error != AL10.AL_NO_ERROR) {
-                ModCore.error(String.format(
-                        "Failed to set reverb parameter %s to %.3f (OpenAL error: 0x%X)", paramName, value, error));
-            }
-        }
+    /** EMPTY_ROOM - small indoor space with hard, reflective surfaces. */
+    private static final ComputedReverb EMPTY_ROOM =
+            new ComputedReverb(1.0f, 1.0f, 0.316f, 0.794f, 1.1f, 0.89f, 0.4f, 0.002f, 0.5f, 0.003f, 0.994f, 0.0f, 1);
 
-        /**
-         * Helper method to apply an integer effect parameter with error checking.
-         */
-        private void applyEffectParamInt(int effect, int param, int value, String paramName) {
-            EXTEfx.alEffecti(effect, param, value);
-            int error = AL10.alGetError();
-            if (error != AL10.AL_NO_ERROR) {
-                ModCore.error(String.format(
-                        "Failed to set reverb parameter %s to %d (OpenAL error: 0x%X)", paramName, value, error));
-            }
-        }
-    }
+    /** HALLWAY - long narrow corridor with directional echo. */
+    private static final ComputedReverb HALLWAY =
+            new ComputedReverb(1.0f, 0.9f, 0.316f, 0.707f, 0.8f, 0.75f, 0.3f, 0.005f, 0.35f, 0.008f, 0.994f, 0.0f, 1);
 
-    // Preset definitions based on realistic acoustic environments
+    /** LARGE_HALL - throne room, banquet hall, or large meeting chamber. */
+    private static final ComputedReverb LARGE_HALL =
+            new ComputedReverb(1.0f, 1.0f, 0.316f, 0.871f, 3.5f, 0.92f, 0.45f, 0.025f, 0.85f, 0.035f, 0.994f, 0.0f, 1);
 
-    /**
-     * OUTSIDE - Minimal reverb, open space with high absorption
-     */
-    private static final ReverbParams OUTSIDE = new ReverbParams(
-            1.0f, // density
-            1.0f, // diffusion
-            0.316f, // gain
-            0.447f, // gainHF (significant high frequency rolloff for outdoor)
-            1.5f, // decayTime (very short)
-            0.5f, // decayHFRatio
-            0.05f, // reflectionsGain (minimal reflections)
-            0.007f, // reflectionsDelay
-            0.251f, // lateReverbGain
-            0.011f, // lateReverbDelay
-            0.994f, // airAbsorptionGainHF
-            0.0f, // roomRolloffFactor
-            1 // decayHFLimit
-            );
+    /** SMALL_CAVE - confined underground space with reflective stone walls. */
+    private static final ComputedReverb SMALL_CAVE =
+            new ComputedReverb(1.0f, 1.0f, 0.316f, 0.891f, 2.13f, 0.79f, 0.5f, 0.015f, 0.7f, 0.022f, 0.994f, 0.0f, 0);
 
-    /**
-     * FOREST - Outdoor with trees dampening sound
-     */
-    private static final ReverbParams FOREST = new ReverbParams(
-            1.0f, // density
-            0.85f, // diffusion (trees scatter sound irregularly)
-            0.316f, // gain
-            0.562f, // gainHF (moderate high frequency absorption from foliage)
-            1.2f, // decayTime (slightly dampened outdoor)
-            0.6f, // decayHFRatio
-            0.1f, // reflectionsGain (some tree reflections)
-            0.01f, // reflectionsDelay
-            0.2f, // lateReverbGain
-            0.015f, // lateReverbDelay
-            0.97f, // airAbsorptionGainHF (foliage absorbs)
-            0.0f, // roomRolloffFactor
-            1 // decayHFLimit
-            );
+    /** CAVE - medium underground cavern with highly reflective surfaces. */
+    private static final ComputedReverb CAVE =
+            new ComputedReverb(1.0f, 1.0f, 0.316f, 1.0f, 2.91f, 1.3f, 0.5f, 0.015f, 0.706f, 0.022f, 0.994f, 0.0f, 0);
 
-    /**
-     * FURNISHED_ROOM - Small indoor space with furniture absorption
-     */
-    private static final ReverbParams FURNISHED_ROOM = new ReverbParams(
-            1.0f, // density
-            1.0f, // diffusion
-            0.316f, // gain
-            0.562f, // gainHF
-            0.4f, // decayTime (short, furniture absorbs sound)
-            0.83f, // decayHFRatio
-            0.15f, // reflectionsGain
-            0.002f, // reflectionsDelay
-            0.1f, // lateReverbGain
-            0.003f, // lateReverbDelay
-            0.994f, // airAbsorptionGainHF
-            0.0f, // roomRolloffFactor
-            1 // decayHFLimit
-            );
+    /** BIG_CAVE - large underground cavern with extensive reverb. */
+    private static final ComputedReverb BIG_CAVE =
+            new ComputedReverb(1.0f, 1.0f, 0.316f, 1.0f, 4.32f, 1.5f, 0.5f, 0.03f, 0.8f, 0.039f, 0.994f, 0.0f, 0);
 
-    /**
-     * EMPTY_ROOM - Small indoor space with hard, reflective surfaces
-     */
-    private static final ReverbParams EMPTY_ROOM = new ReverbParams(
-            1.0f, // density
-            1.0f, // diffusion
-            0.316f, // gain
-            0.794f, // gainHF (less high frequency absorption)
-            1.1f, // decayTime (moderate)
-            0.89f, // decayHFRatio
-            0.4f, // reflectionsGain (strong reflections)
-            0.002f, // reflectionsDelay
-            0.5f, // lateReverbGain
-            0.003f, // lateReverbDelay
-            0.994f, // airAbsorptionGainHF
-            0.0f, // roomRolloffFactor
-            1 // decayHFLimit
-            );
+    /** CATHEDRAL - massive enclosed space with an extremely long tail. */
+    private static final ComputedReverb CATHEDRAL =
+            new ComputedReverb(1.0f, 1.0f, 0.316f, 0.891f, 7.24f, 0.87f, 0.5f, 0.056f, 1.26f, 0.024f, 0.994f, 0.0f, 1);
 
-    /**
-     * HALLWAY - Long narrow corridor with directional echo
-     */
-    private static final ReverbParams HALLWAY = new ReverbParams(
-            1.0f, // density
-            0.9f, // diffusion (one-dimensional reflections)
-            0.316f, // gain
-            0.707f, // gainHF
-            0.8f, // decayTime (quick but present echo)
-            0.75f, // decayHFRatio
-            0.3f, // reflectionsGain (strong early reflections)
-            0.005f, // reflectionsDelay
-            0.35f, // lateReverbGain
-            0.008f, // lateReverbDelay
-            0.994f, // airAbsorptionGainHF
-            0.0f, // roomRolloffFactor
-            1 // decayHFLimit
-            );
-
-    /**
-     * LARGE_HALL - Throne room, banquet hall, or large meeting chamber
-     */
-    private static final ReverbParams LARGE_HALL = new ReverbParams(
-            1.0f, // density
-            1.0f, // diffusion
-            0.316f, // gain
-            0.871f, // gainHF
-            3.5f, // decayTime (substantial space)
-            0.92f, // decayHFRatio
-            0.45f, // reflectionsGain
-            0.025f, // reflectionsDelay (large room)
-            0.85f, // lateReverbGain
-            0.035f, // lateReverbDelay
-            0.994f, // airAbsorptionGainHF
-            0.0f, // roomRolloffFactor
-            1 // decayHFLimit
-            );
-
-    /**
-     * SMALL_CAVE - Confined underground space with reflective stone walls
-     */
-    private static final ReverbParams SMALL_CAVE = new ReverbParams(
-            1.0f, // density
-            1.0f, // diffusion
-            0.316f, // gain
-            0.891f, // gainHF
-            2.13f, // decayTime (longer than room)
-            0.79f, // decayHFRatio
-            0.5f, // reflectionsGain
-            0.015f, // reflectionsDelay
-            0.7f, // lateReverbGain
-            0.022f, // lateReverbDelay
-            0.994f, // airAbsorptionGainHF
-            0.0f, // roomRolloffFactor
-            0 // decayHFLimit
-            );
-
-    /**
-     * CAVE - Medium underground cavern with highly reflective surfaces
-     */
-    private static final ReverbParams CAVE = new ReverbParams(
-            1.0f, // density
-            1.0f, // diffusion
-            0.316f, // gain
-            1.0f, // gainHF (full high frequency preservation)
-            2.91f, // decayTime (long)
-            1.3f, // decayHFRatio
-            0.5f, // reflectionsGain
-            0.015f, // reflectionsDelay
-            0.706f, // lateReverbGain
-            0.022f, // lateReverbDelay
-            0.994f, // airAbsorptionGainHF
-            0.0f, // roomRolloffFactor
-            0 // decayHFLimit
-            );
-
-    /**
-     * BIG_CAVE - Large underground cavern with extensive reverb
-     */
-    private static final ReverbParams BIG_CAVE = new ReverbParams(
-            1.0f, // density
-            1.0f, // diffusion
-            0.316f, // gain
-            1.0f, // gainHF
-            4.32f, // decayTime (very long)
-            1.5f, // decayHFRatio
-            0.5f, // reflectionsGain
-            0.03f, // reflectionsDelay (longer for larger space)
-            0.8f, // lateReverbGain
-            0.039f, // lateReverbDelay
-            0.994f, // airAbsorptionGainHF
-            0.0f, // roomRolloffFactor
-            0 // decayHFLimit
-            );
-
-    /**
-     * CATHEDRAL - Massive enclosed space with extremely long reverb tail
-     */
-    private static final ReverbParams CATHEDRAL = new ReverbParams(
-            1.0f, // density
-            1.0f, // diffusion
-            0.316f, // gain
-            0.891f, // gainHF
-            7.24f, // decayTime (extremely long)
-            0.87f, // decayHFRatio
-            0.5f, // reflectionsGain
-            0.056f, // reflectionsDelay (large space delay)
-            1.26f, // lateReverbGain (prominent reverb tail)
-            0.024f, // lateReverbDelay
-            0.994f, // airAbsorptionGainHF
-            0.0f, // roomRolloffFactor
-            1 // decayHFLimit
-            );
-
-    /**
-     * Gets the reverb parameters for a given environment type.
-     */
-    public static ReverbParams getParams(Reverb reverb) {
+    /** The reverb parameters for a named environment. */
+    public static ComputedReverb getParams(Reverb reverb) {
         return switch (reverb) {
             case OUTSIDE -> OUTSIDE;
             case FOREST -> FOREST;

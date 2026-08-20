@@ -5,7 +5,14 @@ description: Apply reverb settings to NPC dialogue entries in sounds.json. Use w
 
 # Reverb Skill
 
-Adds `"reverb"` fields to entries in `sounds/sounds.json`. Reverb is applied via OpenAL EFX when a line plays in-game. Omitting the field defaults to `OUTSIDE`.
+Adds `"reverb"` fields to entries in `sounds/sounds.json`. Reverb is applied via OpenAL EFX when a line plays in-game.
+
+**Omitting the field now means "work it out from the world".** The mod ray-traces the blocks around the speaker and
+derives the reverb from what it finds, so most lines need no tag at all. Setting one is an override: it forces that
+preset wherever the line plays, ignoring the geometry. Reach for it only where the tracer gets it wrong — a scripted
+scene whose acoustics should not match the room, or a speaker with no resolvable position.
+
+Muffling through walls is separate and always applies, tagged or not.
 
 ## Reverb Types
 

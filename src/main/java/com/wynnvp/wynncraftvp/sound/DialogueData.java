@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -13,7 +13,14 @@ public class DialogueData {
     private int fallOff = 0;
     private Vec3 pos = null;
     private String npc;
-    private Reverb reverb = Reverb.OUTSIDE;
+    /**
+     * The reverb named in sounds.json, or {@code null} when the field is absent.
+     *
+     * <p>{@code null} means "work it out from the world". It has to stay distinguishable from an
+     * explicit OUTSIDE, which is a deliberate authoring decision that overrides the ray tracer.
+     */
+    private Reverb reverb = null;
+
     private boolean stopSounds = true;
 
     public void setDialogueLine(String dialogueLine) {

@@ -11,6 +11,8 @@ import be.tarsos.dsp.WaveformSimilarityBasedOverlapAdd;
 import be.tarsos.dsp.io.jvm.AudioDispatcherFactory;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.sound.Reverb;
+import com.wynnvp.wynncraftvp.sound.physics.AppliedAcoustics;
+import com.wynnvp.wynncraftvp.sound.physics.ComputedReverb;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;
@@ -23,6 +25,8 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.RejectedExecutionException;
+import java.util.concurrent.TimeUnit;
 import javax.sound.sampled.AudioFormat;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Options;
@@ -46,6 +50,18 @@ public class OpenAlPlayer {
     private final Map<Reverb, Integer> reverbEffects = new EnumMap<>(Reverb.class);
     private final Map<Reverb, Integer> reverbSlots = new EnumMap<>(Reverb.class);
 
+    /** Private reverb rigs for ray-traced lines, one per source that can get one. */
+    private SourceEffectPool effectPool;
+
+    /** Set once the sound engine has restarted under us; every OpenAL name we hold is dead. */
+    private volatile boolean disposed;
+
+    /** How long the render thread will wait for audio work to stop during a sound engine reload. */
+    private static final long DISPOSE_TIMEOUT_MS = 250;
+
+    /** Measures the space around each speaker. Client thread only. */
+    private final SoundPhysicsManager soundPhysics = new SoundPhysicsManager();
+
     public OpenAlPlayer() {
         executorService = Executors.newCachedThreadPool();
         gameSettings = Minecraft.getInstance().options;
@@ -62,13 +78,20 @@ public class OpenAlPlayer {
             long device = ALC10.alcGetCurrentContext();
             if (device == 0) {
                 ModCore.warn("OpenAL context not available, reverb disabled");
+                effectPool = new SourceEffectPool(false);
                 return;
             }
+
+            // Clear any error left behind by earlier work before probing. alGetError is global and
+            // consuming, so a stale error from anywhere else would otherwise read as "no EFX here"
+            // and silently disable reverb for the rest of the session.
+            AL10.alGetError();
 
             // Try to create a test effect to verify EFX support
             int testEffect = EXTEfx.alGenEffects();
             if (AL10.alGetError() != AL10.AL_NO_ERROR) {
                 ModCore.warn("OpenAL EFX not supported on this system, reverb disabled");
+                effectPool = new SourceEffectPool(false);
                 return;
             }
 
@@ -94,10 +117,6 @@ public class OpenAlPlayer {
                     continue;
                 }
 
-                // Apply reverb parameters
-                ReverbPresets.ReverbParams params = ReverbPresets.getParams(reverb);
-                params.applyToEffect(effect);
-
                 // Create auxiliary effect slot
                 int slot = EXTEfx.alGenAuxiliaryEffectSlots();
                 if (AL10.alGetError() != AL10.AL_NO_ERROR) {
@@ -106,9 +125,8 @@ public class OpenAlPlayer {
                     continue;
                 }
 
-                // Attach effect to slot
-                EXTEfx.alAuxiliaryEffectSloti(slot, EXTEfx.AL_EFFECTSLOT_EFFECT, effect);
-                if (AL10.alGetError() != AL10.AL_NO_ERROR) {
+                // Apply the preset and attach the effect to its slot
+                if (!ReverbApplier.apply(effect, slot, ReverbPresets.getParams(reverb))) {
                     ModCore.error("Failed to attach effect to slot for " + reverb.name());
                     EXTEfx.alDeleteEffects(effect);
                     EXTEfx.alDeleteAuxiliaryEffectSlots(slot);
@@ -121,9 +139,11 @@ public class OpenAlPlayer {
             }
 
             ModCore.info("Created " + reverbEffects.size() + " reverb presets");
+            effectPool = new SourceEffectPool(true);
         } catch (Exception e) {
             ModCore.error("Failed to initialize EFX", e);
             efxSupported = false;
+            effectPool = new SourceEffectPool(false);
         }
     }
 
@@ -196,7 +216,7 @@ public class OpenAlPlayer {
     }
 
     public void playAudio(AudioData audioData) {
-        executorService.execute(() -> {
+        submit(() -> {
             if (gameSettings.getSoundSourceVolume(SoundSource.VOICE) <= 0F) {
                 if (!hasShownVolumeMessage) {
                     Utils.sendMessage("Voice/Speech volume is off. Turn it on in your settings to hear the voices.");
@@ -213,12 +233,13 @@ public class OpenAlPlayer {
             // Ensure correct gain is set before playback starts (prevents first "full volume" frame)
             updateVolume(sourceID);
 
-            sourceIDs.add(sourceID);
-            CurrentSpeaker speaker = new CurrentSpeaker(audioData.speakerName, audioData.pos);
-            currentSpeakers.put(sourceID, speaker);
+            CurrentSpeaker speaker = new CurrentSpeaker(audioData.speakerName, audioData.pos, audioData.reverb);
+            // The space was measured as playback was being set up, so the line is already in the
+            // right room on its very first sample rather than a tick later.
+            speaker.publishAcoustics(soundPhysics.takePrimed(audioData.pos));
 
-            int[] buffers = new int[3000];
-            AL10.alGenBuffers(buffers);
+            int buffer = AL10.alGenBuffers();
+            speaker.setBuffer(buffer);
 
             // Only set up 3D audio if not playing all sounds on player
             if (!ModCore.config.isPlayAllSoundsOnPlayer()) {
@@ -236,53 +257,74 @@ public class OpenAlPlayer {
 
             if (speed != 1.0f) {
                 monoData = timeStretch(audioData, speed);
-
-                // Always use MONO16 format since that's what we're creating
-                AL11.alBufferData(
-                        buffers[0], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
-                AL11.alSourceQueueBuffers(sourceID, buffers[0]);
-
-                // Apply reverb effect if supported and enabled
-                applyReverb(sourceID, audioData.reverb);
-
-                updateVolume(sourceID);
-                AL11.alSourcePlay(sourceID);
-                return;
             }
 
             if (monoData == null || monoData.remaining() == 0) {
-                throw new IllegalArgumentException("Invalid audio data.");
+                // Give the source and buffer straight back. Leaving them behind would strand a source
+                // that never reaches AL_STOPPED, so it would never be cleaned up and would keep
+                // isPlayingAnything() true for the rest of the session.
+                AL10.alDeleteSources(sourceID);
+                AL10.alDeleteBuffers(buffer);
+                ModCore.warn("Refusing to play a line with no audio data: " + audioData.speakerName);
+                return;
             }
 
-            AL11.alBufferData(buffers[0], AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
-            AL11.alSourceQueueBuffers(sourceID, buffers[0]);
+            // Always use MONO16 format since that's what we're creating
+            AL11.alBufferData(buffer, AL11.AL_FORMAT_MONO16, monoData, (int) audioData.audioFormat.getSampleRate());
+            AL11.alSourceQueueBuffers(sourceID, buffer);
 
-            // Apply reverb effect if supported and enabled
-            applyReverb(sourceID, audioData.reverb);
+            attachEffects(sourceID, speaker);
 
             updateVolume(sourceID);
+
+            // Published only now that it is fully set up: the tick loop runs on this same pool and
+            // must never find a half-configured source.
+            currentSpeakers.put(sourceID, speaker);
+            sourceIDs.add(sourceID);
             AL11.alSourcePlay(sourceID);
         });
     }
 
     /**
-     * Applies reverb effect to an audio source.
-     * @param sourceID The OpenAL source ID
-     * @param reverb The reverb type to apply (can be null)
+     * Gives a source its reverb and occlusion rig.
+     *
+     * <p>A line with ray tracing on borrows a private rig so its parameters can be rewritten as the
+     * player moves. When that is unavailable -- physics off, no EFX, or every rig busy -- it falls
+     * back to the shared preset slot, which is what the mod has always done.
      */
-    private void applyReverb(int sourceID, Reverb reverb) {
-        // Skip if EFX not supported or reverb not specified
-        if (!efxSupported || reverb == null) {
+    private void attachEffects(int sourceID, CurrentSpeaker speaker) {
+        if (!efxSupported) {
             return;
         }
 
-        // Skip if reverb disabled in config
-        if (ModCore.config != null && !ModCore.config.enableReverb) {
+        if (SoundPhysicsManager.isEnabled()) {
+            Optional<SourceEffectPool.Handles> handles = effectPool.acquire();
+            if (handles.isPresent()) {
+                speaker.setHandles(handles.get());
+                // Take manual control of the filters; OpenAL's own cone and air-absorption automation
+                // would otherwise fight the numbers the tracer produced.
+                AL11.alSourcei(sourceID, EXTEfx.AL_DIRECT_FILTER_GAINHF_AUTO, AL10.AL_FALSE);
+                AL11.alSourcei(sourceID, EXTEfx.AL_AUXILIARY_SEND_FILTER_GAIN_AUTO, AL10.AL_FALSE);
+                AL11.alSourcei(sourceID, EXTEfx.AL_AUXILIARY_SEND_FILTER_GAINHF_AUTO, AL10.AL_FALSE);
+                applyAcoustics(sourceID, speaker);
+                return;
+            }
+        }
+
+        applyPreset(sourceID, speaker.forcedReverb());
+    }
+
+    /**
+     * Applies one of the ten shared preset slots.
+     *
+     * @param reverb the preset named in sounds.json, or {@code null} for the historical default
+     */
+    private void applyPreset(int sourceID, Reverb reverb) {
+        if (!SoundPhysicsManager.reverbEnabled()) {
             return;
         }
 
-        // Get the effect slot for this reverb type
-        Integer slot = reverbSlots.get(reverb);
+        Integer slot = reverbSlots.get(reverb == null ? Reverb.OUTSIDE : reverb);
         if (slot == null) {
             return;
         }
@@ -296,17 +338,62 @@ public class OpenAlPlayer {
         }
     }
 
+    /** Pushes whatever the client thread last measured for this line at its private rig. */
+    private void applyAcoustics(int sourceID, CurrentSpeaker speaker) {
+        SourceEffectPool.Handles handles = speaker.handles();
+        if (handles == null) {
+            return;
+        }
+        AppliedAcoustics applied = speaker.acoustics();
+
+        if (applied.hasOcclusion()) {
+            EXTEfx.alFilterf(handles.filter(), EXTEfx.AL_LOWPASS_GAIN, applied.directGain());
+            EXTEfx.alFilterf(handles.filter(), EXTEfx.AL_LOWPASS_GAINHF, applied.directGainHf());
+            // Re-attaching is what makes the edit take effect; without it the filter keeps whatever
+            // it held the first time it was attached.
+            AL11.alSourcei(sourceID, EXTEfx.AL_DIRECT_FILTER, handles.filter());
+            speaker.setOcclusionAttached(true);
+        } else if (speaker.isOcclusionAttached()) {
+            AL11.alSourcei(sourceID, EXTEfx.AL_DIRECT_FILTER, EXTEfx.AL_FILTER_NULL);
+            speaker.setOcclusionAttached(false);
+        }
+
+        ComputedReverb reverb = applied.reverb();
+        if (reverb == null) {
+            if (speaker.isSendAttached()) {
+                AL11.alSource3i(
+                        sourceID, EXTEfx.AL_AUXILIARY_SEND_FILTER, EXTEfx.AL_EFFECTSLOT_NULL, 0, EXTEfx.AL_FILTER_NULL);
+                speaker.setSendAttached(false);
+            }
+            return;
+        }
+
+        if (!speaker.isSendAttached()) {
+            // One send, never two. Minecraft creates its OpenAL context without asking for extra
+            // auxiliary sends, so only the default pair is guaranteed to exist.
+            AL11.alSource3i(sourceID, EXTEfx.AL_AUXILIARY_SEND_FILTER, handles.slot(), 0, EXTEfx.AL_FILTER_NULL);
+            speaker.setSendAttached(true);
+        }
+
+        // Reprogramming the effect makes OpenAL rebuild its reverb state, so skip it once the glide
+        // has settled and the numbers stop moving.
+        if (!reverb.equals(speaker.lastAppliedReverb())) {
+            ReverbApplier.applyThrottled(handles.effect(), handles.slot(), reverb);
+            speaker.setLastAppliedReverb(reverb);
+        }
+    }
+
     /** True while at least one Voices of Wynn source is still alive (see {@link #onTick()}). */
     public boolean isPlayingAnything() {
         return !sourceIDs.isEmpty();
     }
 
     public void stopAudio() {
-        executorService.execute(() -> {
+        submit(() -> {
             synchronized (sourceIDs) {
                 for (int sourceID : sourceIDs) {
                     AL11.alSourceStop(sourceID);
-                    AL10.alDeleteSources(sourceID);
+                    releaseSource(sourceID, currentSpeakers.get(sourceID));
                 }
                 sourceIDs.clear();
                 currentSpeakers.clear();
@@ -314,21 +401,104 @@ public class OpenAlPlayer {
         });
     }
 
+    /**
+     * Called once per world tick, on the client thread.
+     *
+     * <p>The measuring happens here, inline. It reads a few thousand block states, which is only safe
+     * on this thread; the audio work is then handed to the worker pool as it always was.
+     */
     public void onTick() {
-        executorService.execute(() -> {
-            synchronized (sourceIDs) {
-                sourceIDs.removeIf(sourceID -> {
-                    int state = AL11.alGetSourcei(sourceID, AL11.AL_SOURCE_STATE);
-                    if (state == AL11.AL_STOPPED) {
-                        AL10.alDeleteSources(sourceID);
-                        currentSpeakers.remove(sourceID);
-                        return true;
-                    }
-                    setPosition(sourceID, currentSpeakers.get(sourceID).getUpdatedPosition());
-                    return false;
-                });
+        if (disposed) {
+            return;
+        }
+        soundPhysics.onClientTick(currentSpeakers.values());
+        submit(this::pumpSources);
+    }
+
+    private void pumpSources() {
+        synchronized (sourceIDs) {
+            sourceIDs.removeIf(sourceID -> {
+                CurrentSpeaker speaker = currentSpeakers.get(sourceID);
+                int state = AL11.alGetSourcei(sourceID, AL11.AL_SOURCE_STATE);
+                if (state == AL11.AL_STOPPED) {
+                    releaseSource(sourceID, speaker);
+                    currentSpeakers.remove(sourceID);
+                    return true;
+                }
+                if (speaker != null) {
+                    setPosition(sourceID, speaker.publishedPosition());
+                    applyAcoustics(sourceID, speaker);
+                }
+                return false;
+            });
+        }
+    }
+
+    /** Detaches everything this source borrowed, then deletes the source and its buffer. */
+    private void releaseSource(int sourceID, CurrentSpeaker speaker) {
+        if (speaker != null && speaker.handles() != null) {
+            AL11.alSourcei(sourceID, EXTEfx.AL_DIRECT_FILTER, EXTEfx.AL_FILTER_NULL);
+            AL11.alSource3i(
+                    sourceID, EXTEfx.AL_AUXILIARY_SEND_FILTER, EXTEfx.AL_EFFECTSLOT_NULL, 0, EXTEfx.AL_FILTER_NULL);
+            effectPool.release(speaker.handles());
+            speaker.setHandles(null);
+        }
+        AL10.alDeleteSources(sourceID);
+        if (speaker != null && speaker.buffer() != 0) {
+            // Only once the source is gone, since it holds a reference to the buffer until then.
+            AL10.alDeleteBuffers(speaker.buffer());
+            speaker.setBuffer(0);
+        }
+    }
+
+    /**
+     * Retires this player because the sound engine is restarting.
+     *
+     * <p>Deliberately makes no OpenAL calls. A sound engine reload destroys the whole context and
+     * builds a new one, so every source, buffer, effect and filter this player owned died with it.
+     * Deleting them would not free anything -- the names belong to a context that no longer exists --
+     * and every such call raises AL_INVALID_NAME into the new context's shared error state, where the
+     * incoming player's EFX probe reads it and concludes the hardware has no EFX at all.
+     */
+    public void dispose() {
+        disposed = true;
+        executorService.shutdownNow();
+        // Wait for anything already running to finish. A task caught mid-flight would otherwise keep
+        // issuing OpenAL calls while the render thread is building the replacement context, and every
+        // one of them lands in the shared error state the incoming player's EFX probe reads.
+        try {
+            if (!executorService.awaitTermination(DISPOSE_TIMEOUT_MS, TimeUnit.MILLISECONDS)) {
+                ModCore.warn("Audio worker did not stop in time while the sound engine was reloading");
             }
-        });
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+        synchronized (sourceIDs) {
+            sourceIDs.clear();
+        }
+        currentSpeakers.clear();
+    }
+
+    /**
+     * Queues audio work, unless this player has been retired.
+     *
+     * <p>The disposed check and the submission cannot be atomic, so a reload landing between them
+     * would throw. There is nothing to do about it but drop the work, which is exactly right: the
+     * context that work was for no longer exists.
+     */
+    private void submit(Runnable task) {
+        if (disposed) {
+            return;
+        }
+        try {
+            executorService.execute(task);
+        } catch (RejectedExecutionException ignored) {
+            // Retired between the check and the submission.
+        }
+    }
+
+    public SoundPhysicsManager soundPhysics() {
+        return soundPhysics;
     }
 
     private void setPosition(int sourceID, Optional<Vec3> soundPos) {
