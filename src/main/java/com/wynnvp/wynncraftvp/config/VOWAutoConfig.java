@@ -51,6 +51,8 @@ public class VOWAutoConfig {
 
     public boolean blockVillagerSoundsDuringVoiceDialog = true;
 
+    public boolean routeMasterSoundsToBlocks = true;
+
     public boolean earlyPlayOverlay = true;
 
     public int earlyPlayOverlayMinChars = 15;
@@ -126,6 +128,10 @@ public class VOWAutoConfig {
 
     public boolean isBlockVillagerSoundsDuringVoiceDialog() {
         return blockVillagerSoundsDuringVoiceDialog;
+    }
+
+    public boolean isRouteMasterSoundsToBlocks() {
+        return routeMasterSoundsToBlocks;
     }
 
     public boolean isEarlyPlayOverlay() {

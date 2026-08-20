@@ -32,6 +32,10 @@ public class VowConfigScreen extends VowOptionsScreen {
                         "blockVillagerSoundsDuringVoiceDialog",
                         config.blockVillagerSoundsDuringVoiceDialog,
                         v -> config.blockVillagerSoundsDuringVoiceDialog = v),
+                bool(
+                        "routeMasterSoundsToBlocks",
+                        config.routeMasterSoundsToBlocks,
+                        v -> config.routeMasterSoundsToBlocks = v),
                 bool("autoProgress", config.autoProgress, v -> config.autoProgress = v),
                 bool("downloadSounds", config.downloadSounds, v -> config.downloadSounds = v),
                 bool("earlyPlayOverlay", config.earlyPlayOverlay, v -> config.earlyPlayOverlay = v),

@@ -48,6 +48,8 @@
   "wynnvp.config.option.playbackSpeed": "Playback speed",
   "wynnvp.config.option.playbackSpeed.tooltip": "Controls the speed of voice playback. 100% is normal speed, lower values slow down speech, higher values speed it up. Might introduce audio artifacts.",
   "wynnvp.config.option.reportMissingLines": "Report missing lines",
+  "wynnvp.config.option.routeMasterSoundsToBlocks": "Master sounds on Blocks slider",
+  "wynnvp.config.option.routeMasterSoundsToBlocks.tooltip": "Wynncraft plays many of its sound effects on Minecraft's Master category, so they become very loud. This moves them onto the Blocks slider so you can set their volume separately.",
   "wynnvp.config.option.sendFunFact": "Fun facts",
   "wynnvp.config.option.voiceVolume": "Voice volume",
   "wynnvp.config.option.voiceVolume.tooltip": "Adjusts the volume of voices played by this mod. 100% matches Minecraft's Voice/Speech volume.",

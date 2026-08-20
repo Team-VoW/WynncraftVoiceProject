@@ -54,10 +54,14 @@ class VowConfigHolderTest {
             """;
 
     /**
-     * The same config after a save: options added since the Cloth Config days are appended to
-     * their section with their default value, everything else is left byte-for-byte alone.
+     * The same config after a save: options added since the Cloth Config days appear in their
+     * section at their field position with their default value, everything else is left
+     * byte-for-byte alone.
      */
-    private static final String CLOTH_WRITTEN_CONFIG_RESAVED = CLOTH_WRITTEN_CONFIG + "logBlockedSounds = false\n";
+    private static final String CLOTH_WRITTEN_CONFIG_RESAVED = CLOTH_WRITTEN_CONFIG.replace(
+                    "blockVillagerSoundsDuringVoiceDialog = true\n",
+                    "blockVillagerSoundsDuringVoiceDialog = true\nrouteMasterSoundsToBlocks = true\n")
+            + "logBlockedSounds = false\n";
 
     @TempDir
     Path tempDir;

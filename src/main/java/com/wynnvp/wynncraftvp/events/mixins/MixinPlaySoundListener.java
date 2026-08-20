@@ -5,6 +5,7 @@
 package com.wynnvp.wynncraftvp.events.mixins;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.sound.MasterSoundReroute;
 import com.wynnvp.wynncraftvp.sound.NpcSoundBlocker;
 import net.minecraft.client.resources.sounds.SoundInstance;
 import net.minecraft.client.sounds.SoundEngine;
@@ -13,17 +14,31 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.ModifyVariable;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
  * Mutes the vanilla mob "blips" Wynncraft plays for every dialogue line while one of our
  * voice lines is playing.
  *
+ * <p>Also re-tags Wynncraft's MASTER-category sounds as BLOCKS so they get a volume slider of
+ * their own — see {@link MasterSoundReroute}.
+ *
  * <p>Injects into {@link SoundEngine} rather than {@code SoundManager} because delayed sounds
  * are re-submitted straight to the engine from {@code tickInGameSound}, bypassing the manager.
  */
 @Mixin(SoundEngine.class)
 public class MixinPlaySoundListener {
+    /**
+     * Swaps the instance before the engine reads its category. Delayed sounds come back through
+     * {@code play} a second time, but by then they already carry the new category and pass straight
+     * through.
+     */
+    @ModifyVariable(method = "play", at = @At("HEAD"), argsOnly = true)
+    private SoundInstance vow$rerouteMasterSounds(SoundInstance sound) {
+        return MasterSoundReroute.apply(sound);
+    }
+
     @Inject(method = "play", at = @At("HEAD"), cancellable = true)
     private void onPlay(SoundInstance sound, CallbackInfoReturnable<SoundEngine.PlayResult> cir) {
         if (ModCore.config == null || !ModCore.config.isBlockVillagerSoundsDuringVoiceDialog()) return;
