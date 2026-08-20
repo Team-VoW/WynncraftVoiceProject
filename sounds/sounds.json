@@ -70662,5 +70662,1921 @@
   {
     "line": "Llevigar Soldier: Can't afford to have all our resources on war when we have the Decay to deal with up north.",
     "file": "llevigar-llevigarsoldier-3"
+  },
+  {
+    "line": "Sui: soldier! Did you hear? They- they finished, um, sorting through the reports!",
+    "file": "truecolours-sui-1"
+  },
+  {
+    "line": "Yusanu: Azael says he has news about everyone from the Roughworks!",
+    "file": "truecolours-yusanu-1"
+  },
+  {
+    "line": "Azael: Indeed... indeed. Ehm... where to begin...",
+    "file": "truecolours-azael-1"
+  },
+  {
+    "line": "Fuhue: Outsiders, I would... temper your expectations.",
+    "file": "truecolours-fuhue-1"
+  },
+  {
+    "line": "Sui: Temper... our...?",
+    "file": "truecolours-sui-2"
+  },
+  {
+    "line": "Azael: I am afraid we are sorely lacking in good news. The Owls have returned with reports of a rather sudden influx of prisoners taken to Deraj Prison following the festival.",
+    "file": "truecolours-azael-2"
+  },
+  {
+    "line": "Yusanu: D... Deraj? You're... you're sure?",
+    "file": "truecolours-yusanu-2"
+  },
+  {
+    "line": "Sui: No... no, no, it- it can't be, there- there has to be another explanation...",
+    "file": "truecolours-sui-3"
+  },
+  {
+    "line": "Rurie: Ah, Gravity's Monolith... it truly is a sight to behold, dark carved stone and burning crimson lights shining deep in the southern wastes...",
+    "file": "truecolours-rurie-1"
+  },
+  {
+    "line": "Rurie: A shame it's inescapable, or I'd love to pay a visit. It's true, what they say- there is no escaping its pull once it gets a hold of you!",
+    "file": "truecolours-rurie-2"
+  },
+  {
+    "line": "Sui: I... I've, I've heard the rumors... are- are they really true?",
+    "file": "truecolours-sui-4"
+  },
+  {
+    "line": "Fuhue: As far as we can tell. We don't have a single record of a successful escape attempt. Supposedly, the Warden's blessing keeps the prisoners in line.",
+    "file": "truecolours-fuhue-2"
+  },
+  {
+    "line": "Cileon: Hm. Good as dead.",
+    "file": "truecolours-cileon-1"
+  },
+  {
+    "line": "Rurie: Cileon, goodness! There's no need for the dramatics! What they mean to say, dear friends, is that none who enter are ever heard from again!",
+    "file": "truecolours-rurie-3"
+  },
+  {
+    "line": "Rurie: Gravity's Monolith, they call it... an inescapable pull, drawing you deeper and deeper into its clutches the more you try to break free!",
+    "file": "truecolours-rurie-4"
+  },
+  {
+    "line": "Fuhue: Oh, you're one to talk about dramatics. But he's right. I wouldn't get your hopes up.",
+    "file": "truecolours-fuhue-3"
+  },
+  {
+    "line": "Azael: Unfortunately, it would seem we also lack the details on who specifically has been sent there.",
+    "file": "truecolours-azael-3"
+  },
+  {
+    "line": "Fuhue: Sigh. Azael, sir, it's cruel to leave them in the dark. You need to tell them.",
+    "file": "truecolours-fuhue-4"
+  },
+  {
+    "line": "Sui: T... tell us... what?",
+    "file": "truecolours-sui-5"
+  },
+  {
+    "line": "Azael: I suppose you are right, captain. It is regarding the older woman among your party... Syndra, was it?",
+    "file": "truecolours-azael-4"
+  },
+  {
+    "line": "Azael: It would seem that Her Majesty has made her into a statement.",
+    "file": "truecolours-azael-5"
+  },
+  {
+    "line": "Sui: A... a st... statement...?",
+    "file": "truecolours-sui-6"
+  },
+  {
+    "line": "Fuhue: She was publicly executed during the festival, as a way to send a message.",
+    "file": "truecolours-fuhue-5"
+  },
+  {
+    "line": "Rurie: Subtle as a brick, aren't you?",
+    "file": "truecolours-rurie-5"
+  },
+  {
+    "line": "Azael: I apologize. This must be a shock. It is my understanding she was something of a leader to you all.",
+    "file": "truecolours-azael-6"
+  },
+  {
+    "line": "Azael: But rest assured that her death will not be for nought. She fought like a true warrior, to the bitter end.",
+    "file": "truecolours-azael-7"
+  },
+  {
+    "line": "Sui: I....... n- no, I.... it... she c- can't.... I.... I-",
+    "file": "truecolours-sui-7"
+  },
+  {
+    "line": "Cileon: Give space.",
+    "file": "truecolours-cileon-2"
+  },
+  {
+    "line": "Rurie: Yes, a fine idea, Cileon. Space - that we certainly can provide!",
+    "file": "truecolours-rurie-6"
+  },
+  {
+    "line": "Fuhue: Ugh. Fine. Captains, let's talk plans. Come on.",
+    "file": "truecolours-fuhue-6"
+  },
+  {
+    "line": "Azael: So it would seem. My, it has been an age since Her Majesty last performed such an act... how interesting, that she would deem it necessary.",
+    "file": "truecolours-azael-8"
+  },
+  {
+    "line": "Sui: She... she's...",
+    "file": "truecolours-sui-8"
+  },
+  {
+    "line": "Yusanu: I... I didn't think she could... how...?",
+    "file": "truecolours-yusanu-3"
+  },
+  {
+    "line": "Sui: She... she d-died, and we... w-we all got separated. She died and... she's d-dead. D-dead dead... dead. She's... dead.",
+    "file": "truecolours-sui-9"
+  },
+  {
+    "line": "Yusanu: And the others... to Deraj? What... what are we going to do now?",
+    "file": "truecolours-yusanu-4"
+  },
+  {
+    "line": "Sui: N-no, we... we can't. You... you heard Rurie. There's no escaping once they take you there...",
+    "file": "truecolours-sui-10"
+  },
+  {
+    "line": "Sui: I... I've lost too many people to th-that place. So many friends, c-captured and... and taken...",
+    "file": "truecolours-sui-11"
+  },
+  {
+    "line": "Yusanu: ...",
+    "file": "truecolours-yusanu-5"
+  },
+  {
+    "line": "Yusanu: soldier, are you really considering this?! You can't just- just- throw yourself into a suicide mission!",
+    "file": "truecolours-yusanu-6"
+  },
+  {
+    "line": "Sui: ...fine. Fine! Just... make sure you c-come back. The three of us, we... we're all that's, ha, left.",
+    "file": "truecolours-sui-12"
+  },
+  {
+    "line": "Yusanu: I need to get back to work. Keep trying to align the resonances... maybe if I get it to work, it'll actually help us...",
+    "file": "truecolours-yusanu-7"
+  },
+  {
+    "line": "Sui: ...soldier, um. You should... tell Master Azael what you're doing. Before you... go.",
+    "file": "truecolours-sui-13"
+  },
+  {
+    "line": "Yusanu: Stupid... resonance core. Pink, green, blue, white, gold... what am I supposed to even do with this?!",
+    "file": "truecolours-yusanu-8"
+  },
+  {
+    "line": "Azael: Hm? soldier, hello.",
+    "file": "truecolours-azael-9"
+  },
+  {
+    "line": "Azael: I must apologize once more for being so blunt with the news. I am often told I am lacking in that kind of sensitivity.",
+    "file": "truecolours-azael-10"
+  },
+  {
+    "line": "Rurie: Worry not, that is what you have us captains for! In addition to all the, ah, other stuff we do!",
+    "file": "truecolours-rurie-7"
+  },
+  {
+    "line": "Rurie: ... Say, are the other two... taking it well? I notice they haven't joined you.",
+    "file": "truecolours-rurie-8"
+  },
+  {
+    "line": "Rurie: Pardon me? Did I hear that correctly? You did hear all I said about Gravity's Monolith, right? Inescapable pull... so on and so forth?",
+    "file": "truecolours-rurie-9"
+  },
+  {
+    "line": "Azael: Are you truly certain about this decision? Have you thought this through?",
+    "file": "truecolours-azael-11"
+  },
+  {
+    "line": "Azael: ... Well, if you truly wish to risk your life for a one in a million chance of a miracle, then who am I to interfere?",
+    "file": "truecolours-azael-12"
+  },
+  {
+    "line": "Rurie: Ah, but might I? See, I have actually been plotting assorted plans for breaking in myself over the years! Though, of course, master Azael has always forbidden me from trying...",
+    "file": "truecolours-rurie-10"
+  },
+  {
+    "line": "Azael: And for good reason.",
+    "file": "truecolours-azael-13"
+  },
+  {
+    "line": "Rurie: Hmph! Good reason or not, the plots exist! Whether or not they are viable is anyone's guess... but nonetheless- would you allow me to join-",
+    "file": "truecolours-rurie-11"
+  },
+  {
+    "line": "Azael: Absolutely not. If they truly wish, the outsiders are permitted to throw their lives away. You, on the other hand, I cannot afford to lose.",
+    "file": "truecolours-azael-14"
+  },
+  {
+    "line": "Rurie: Oh, you're no fun. Fine, fine, I will stay if I must. Well in that case, once you return, I will demand a full report on what it's like in there!",
+    "file": "truecolours-rurie-12"
+  },
+  {
+    "line": "Rurie: What's the food like in there? How about entertainment? Perhaps even a dossier on that Warden, Oru? I can go on!",
+    "file": "truecolours-rurie-13"
+  },
+  {
+    "line": "Azael: Enough, Captain Rurie. soldier, there is a bridge in the south-eastern corner of the Mistwoods that crosses directly to the prison's entrance.",
+    "file": "truecolours-azael-15"
+  },
+  {
+    "line": "Azael: If you truly intend on seeing this through, stay on guard. The bridge is typically guarded by dozens of soldiers.",
+    "file": "truecolours-azael-16"
+  },
+  {
+    "line": "Rurie: Good luck on your adventure, new friend! Just remember, no point in dying over this, eh? No shame in turning back if the going gets tough!",
+    "file": "truecolours-rurie-14"
+  },
+  {
+    "line": "Rurie: Ah, a prison break... what a shame I cannot join. Is there anything more fun than such a daring mission?",
+    "file": "truecolours-rurie-15"
+  },
+  {
+    "line": "Azael: Captain Rurie, I still need you to fill out many information reports. You have five of them to catch up on already.",
+    "file": "truecolours-azael-17"
+  },
+  {
+    "line": "Rurie: Oh, paperwork... My greatest nemesis. Well, if I must!",
+    "file": "truecolours-rurie-16"
+  },
+  {
+    "line": "Sovereign Tasim: soldier. It's been... a while since we've really had the chance to talk, hasn't it?",
+    "file": "truecolours-sovereigntasim-1"
+  },
+  {
+    "line": "Sovereign Tasim: They expected you might try the prison. I just... cleared out the guards temporarily. So we could have some privacy.",
+    "file": "truecolours-sovereigntasim-2"
+  },
+  {
+    "line": "Sovereign Tasim: You've probably heard as much already, but the prison isn't an option. Especially not from this side- there are guards everywhere.",
+    "file": "truecolours-sovereigntasim-3"
+  },
+  {
+    "line": "Sovereign Tasim: And even if you could get in... the Warden's not someone you want to mess with. Take it as a warning from a friend.",
+    "file": "truecolours-sovereigntasim-4"
+  },
+  {
+    "line": "Sovereign Tasim: I'd hope so! But being on different sides of this conflict makes that hard, doesn't it?",
+    "file": "truecolours-sovereigntasim-5"
+  },
+  {
+    "line": "Sovereign Tasim: And it's not like I'm the one who's been going on a killing spree through Fruma! I've heard what you did at Fort Torann. Was that really necessary?",
+    "file": "truecolours-sovereigntasim-6"
+  },
+  {
+    "line": "Sovereign Tasim: Knock them out, then!! Use nonlethal force, if it's really necessary - I know you're capable of it!!",
+    "file": "truecolours-sovereigntasim-7"
+  },
+  {
+    "line": "Sovereign Tasim: And what do you mean by that?",
+    "file": "truecolours-sovereigntasim-8"
+  },
+  {
+    "line": "Sovereign Tasim: ...",
+    "file": "truecolours-sovereigntasim-9"
+  },
+  {
+    "line": "Sovereign Tasim: Yes! I have!! You're right, things are bad here in Fruma. I'm not blind to any of it. You of all people should know how deeply familiar I am with all the Crown has done!",
+    "file": "truecolours-sovereigntasim-10"
+  },
+  {
+    "line": "Sovereign Tasim: \"Cursed...\" Have you learned what it means by now? Horrible, uncontrollable power, so they say. None of them really believe it.",
+    "file": "truecolours-sovereigntasim-11"
+  },
+  {
+    "line": "Sovereign Tasim: Just a means to control the people, to keep all magic contained and monitored. I hate it! But I still agreed to this voluntarily, and you want to know why?",
+    "file": "truecolours-sovereigntasim-12"
+  },
+  {
+    "line": "Sovereign Tasim: Because in this position, I can actually DO something about it! They've given me authority, and yes there are obligations attached, but I can CHANGE things!",
+    "file": "truecolours-sovereigntasim-13"
+  },
+  {
+    "line": "Sovereign Tasim: ...of course, it's not like I've had the chance! From the moment I recovered from... from ascension, all I've been hearing about is what you've been up to!!",
+    "file": "truecolours-sovereigntasim-14"
+  },
+  {
+    "line": "Sovereign Tasim: Fighting your way back into the province, and for what? For me?! I didn't ASK you to do that!",
+    "file": "truecolours-sovereigntasim-15"
+  },
+  {
+    "line": "Sovereign Tasim: And aiding a resistance group? I- ugh, okay, look, I get it. I actually do. They... they seem like nice people. They do.",
+    "file": "truecolours-sovereigntasim-16"
+  },
+  {
+    "line": "Sovereign Tasim: ...I just wish it hadn't gone the way it did.",
+    "file": "truecolours-sovereigntasim-17"
+  },
+  {
+    "line": "Sovereign Tasim: I know! I know! But it was your side that instigated it!!",
+    "file": "truecolours-sovereigntasim-18"
+  },
+  {
+    "line": "Sovereign Tasim: And I did try to warn you! I didn't want that to happen, obviously! But... sigh. I didn't get to you quick enough.",
+    "file": "truecolours-sovereigntasim-19"
+  },
+  {
+    "line": "Sovereign Tasim: Look, I'm... I'm sorry. I wish nobody had to die. I wish a lot of things could have been handled differently.",
+    "file": "truecolours-sovereigntasim-20"
+  },
+  {
+    "line": "Sovereign Tasim: ...I've gotten off track. This isn't what I wanted to talk to you about at all.",
+    "file": "truecolours-sovereigntasim-21"
+  },
+  {
+    "line": "Sovereign Tasim: The crown has soldiers out looking for your group... you, specifically. Her Majesty wants to speak with you, to... explain things.",
+    "file": "truecolours-sovereigntasim-22"
+  },
+  {
+    "line": "Sovereign Tasim: I... I guess so. I guess you've finally made an impression on her.",
+    "file": "truecolours-sovereigntasim-23"
+  },
+  {
+    "line": "Sovereign Tasim: I now understand why that tournament was handled the way it was... but that doesn't mean I have to like it.",
+    "file": "truecolours-sovereigntasim-24"
+  },
+  {
+    "line": "Sovereign Tasim: Look... you should hear her out.",
+    "file": "truecolours-sovereigntasim-25"
+  },
+  {
+    "line": "Sovereign Tasim: She's like us, you know? She was... forced into a role she hated, trapped somewhere she couldn't escape. She was made into something entirely outside of her control.",
+    "file": "truecolours-sovereigntasim-26"
+  },
+  {
+    "line": "Sovereign Tasim: And eventually, she... she found a way out. Or, rather, she made her own way out. Clawed and pushed and fought for any possibility of freedom...",
+    "file": "truecolours-sovereigntasim-27"
+  },
+  {
+    "line": "Sovereign Tasim: She made Fruma, for herself, and- and yes! Yes, she's responsible for what happened to us! I know!! Trust me, I have not forgotten!!",
+    "file": "truecolours-sovereigntasim-28"
+  },
+  {
+    "line": "Sovereign Tasim: But... but it's so rare to find someone who understands. Who knows what it's like. Who- who forged her own path forward! If she could do it, then...",
+    "file": "truecolours-sovereigntasim-29"
+  },
+  {
+    "line": "Sovereign Tasim: I know you won't leave your friends. It's why I didn't bring the soldiers I was assigned... I was instructed to bring you in by force if you didn't come willingly, after all.",
+    "file": "truecolours-sovereigntasim-30"
+  },
+  {
+    "line": "Sovereign Tasim: I just... I need you to understand. Just as you have your reasons for what you've done, so do I.",
+    "file": "truecolours-sovereigntasim-31"
+  },
+  {
+    "line": "Sovereign Tasim: Sigh... You remember what she said, don't you? A ceaseless, meaningless war, fought by forces beyond our power?",
+    "file": "truecolours-sovereigntasim-32"
+  },
+  {
+    "line": "Sovereign Tasim: Haven't you seen the symptoms, the consequences? Light and Dark and the War they leave in their wake?",
+    "file": "truecolours-sovereigntasim-33"
+  },
+  {
+    "line": "Sovereign Tasim: If one side wins, everything ends. Fruma, Wynn, Gavel- nothing will matter if they get what they want.",
+    "file": "truecolours-sovereigntasim-34"
+  },
+  {
+    "line": "Sovereign Tasim: That's... what the tournament was for. She wanted someone powerful, who was from Fruma, but who had also seen... all of it.",
+    "file": "truecolours-sovereigntasim-35"
+  },
+  {
+    "line": "Sovereign Tasim: ...I guess that someone was me.",
+    "file": "truecolours-sovereigntasim-36"
+  },
+  {
+    "line": "Sovereign Tasim: I'll let you get back to your friends. I'll even take my soldiers and leave. This one last time, I'll... I'll let you go.",
+    "file": "truecolours-sovereigntasim-37"
+  },
+  {
+    "line": "Sovereign Tasim: I have another warning for you, too. The Sovereign of the Mistwoods- Gikyo... they know where the Canopy is hiding out. They're preparing an attack.",
+    "file": "truecolours-sovereigntasim-38"
+  },
+  {
+    "line": "Sovereign Tasim: You should have more than enough time to warn everybody this time around. I- I know what happened with Syndra was... was awful, but...",
+    "file": "truecolours-sovereigntasim-39"
+  },
+  {
+    "line": "Sovereign Tasim: ...if Gikyo captures you, your friends will wish what happens to them was as quick as what Her Majesty did. Trust me.",
+    "file": "truecolours-sovereigntasim-40"
+  },
+  {
+    "line": "Sovereign Tasim: Now... go. Save the friends you have left. While you still can.",
+    "file": "truecolours-sovereigntasim-41"
+  },
+  {
+    "line": "Sovereign Tasim: soldier. You've been busy, haven't you?",
+    "file": "truecolours-sovereigntasim-42"
+  },
+  {
+    "line": "Sovereign Tasim: Not as much as you'd think. I've only just recovered enough to start doing things around here.",
+    "file": "truecolours-sovereigntasim-43"
+  },
+  {
+    "line": "Sovereign Tasim: Imagine my surprise when I found out you were the one responsible for all the commotion. That you were even in Fruma in the first place!",
+    "file": "truecolours-sovereigntasim-44"
+  },
+  {
+    "line": "Sovereign Tasim: Sigh... look. They thought you might try the prison, even though it isn't really an option. Especially not from this side- there are guards everywhere.",
+    "file": "truecolours-sovereigntasim-45"
+  },
+  {
+    "line": "Sovereign Tasim: Well. Usually, at least. I've cleared them out temporarily, so that we could have some privacy.",
+    "file": "truecolours-sovereigntasim-46"
+  },
+  {
+    "line": "Sovereign Tasim: ... They thought you might try the prison, even though it isn't really an option. Especially not from this side- there are guards everywhere.",
+    "file": "truecolours-sovereigntasim-47"
+  },
+  {
+    "line": "Sovereign Tasim: Usually, at least. I've cleared them out temporarily, so that we could have some privacy.",
+    "file": "truecolours-sovereigntasim-48"
+  },
+  {
+    "line": "Sovereign Tasim: We didn't really get to talk back at the Festival, after all. You... probably have questions.",
+    "file": "truecolours-sovereigntasim-49"
+  },
+  {
+    "line": "Sovereign Tasim: She gave me a choice.",
+    "file": "truecolours-sovereigntasim-50"
+  },
+  {
+    "line": "Sovereign Tasim: She mentioned it to you too, didn't she? That ceaseless war over our world, fought by forces beyond our power?",
+    "file": "truecolours-sovereigntasim-51"
+  },
+  {
+    "line": "Sovereign Tasim: I caught glimpses of it in Gavel... I'm sure you did, too- and more. Once you know what to look for, it's everywhere. Light and Dark... and the War they leave in their wake.",
+    "file": "truecolours-sovereigntasim-52"
+  },
+  {
+    "line": "Sovereign Tasim: She says it's only because of their stalemate that they haven't done worse, and... I believe it.",
+    "file": "truecolours-sovereigntasim-53"
+  },
+  {
+    "line": "Sovereign Tasim: ...and there was the choice. Join her, and help ensure neither side in that war gets too much of an advantage... or... don't.",
+    "file": "truecolours-sovereigntasim-54"
+  },
+  {
+    "line": "Sovereign Tasim: To just leave it up to other people, and forget about it and live my life, and- and how could I have possibly done that, knowing that- that he's-",
+    "file": "truecolours-sovereigntasim-55"
+  },
+  {
+    "line": "Sovereign Tasim: At least, here... I could make a difference. Both in that war, and in Fruma.",
+    "file": "truecolours-sovereigntasim-56"
+  },
+  {
+    "line": "Sovereign Tasim: If I was in this position anyway... at least I could push for change.",
+    "file": "truecolours-sovereigntasim-57"
+  },
+  {
+    "line": "Sovereign Tasim: Not that that's made actually being in Fruma any easier, ha. Everything here is a reminder of... well. You know.",
+    "file": "truecolours-sovereigntasim-58"
+  },
+  {
+    "line": "Sovereign Tasim: Ha. Well... sort of, but not really. You've learned what it really means by now, then? Horrible, uncontrollable power... so they say.",
+    "file": "truecolours-sovereigntasim-59"
+  },
+  {
+    "line": "Sovereign Tasim: It's all paper-thin, in the end. It's just a means to control the people, to keep all magic contained and monitored.",
+    "file": "truecolours-sovereigntasim-60"
+  },
+  {
+    "line": "Sovereign Tasim: ...and knowing that it was all manufactured, that there was never anything actually... wrong...",
+    "file": "truecolours-sovereigntasim-61"
+  },
+  {
+    "line": "Sovereign Tasim: To some extent, it's a relief - but more than that, it makes me angry. This was weighing on me for so long, and for it to mean... nothing, in the end?",
+    "file": "truecolours-sovereigntasim-62"
+  },
+  {
+    "line": "Sovereign Tasim: ...just another thing I want to change in Fruma. If I get the chance, that is.",
+    "file": "truecolours-sovereigntasim-63"
+  },
+  {
+    "line": "Sovereign Tasim: ...you being here is only making it harder for me to do anything about it, of course.",
+    "file": "truecolours-sovereigntasim-64"
+  },
+  {
+    "line": "Sovereign Tasim: Why? Because you've been causing the crown problems ever since you broke in.",
+    "file": "truecolours-sovereigntasim-65"
+  },
+  {
+    "line": "Sovereign Tasim: Nobody will listen about anything not related to you... and for good reason! You massacred a fort of soldiers, you've killed Sovereign Zhiraok twice now...",
+    "file": "truecolours-sovereigntasim-66"
+  },
+  {
+    "line": "Sovereign Tasim: ...not to mention the plot to kill the Queen.",
+    "file": "truecolours-sovereigntasim-67"
+  },
+  {
+    "line": "Sovereign Tasim: ...what?",
+    "file": "truecolours-sovereigntasim-68"
+  },
+  {
+    "line": "Sovereign Tasim: Fine. You've killed Sovereign Zhiraok once, and... helped a second time...?",
+    "file": "truecolours-sovereigntasim-69"
+  },
+  {
+    "line": "Sovereign Tasim: ...okay. And that isn't to mention the plot to kill the Queen.",
+    "file": "truecolours-sovereigntasim-70"
+  },
+  {
+    "line": "Sovereign Tasim: I... ugh. I wish it hadn't gone the way it did.",
+    "file": "truecolours-sovereigntasim-71"
+  },
+  {
+    "line": "Sovereign Tasim: I know. I know. I tried to warn you, to get you to call it off, but... sigh. It doesn't matter now. It's already done.",
+    "file": "truecolours-sovereigntasim-72"
+  },
+  {
+    "line": "Sovereign Tasim: ...I'm sorry about the rest of your friends. The Leaves in the Wind. They... they seem like nice people.",
+    "file": "truecolours-sovereigntasim-73"
+  },
+  {
+    "line": "Sovereign Tasim: I've gotten off track. I had something I needed to tell you.",
+    "file": "truecolours-sovereigntasim-74"
+  },
+  {
+    "line": "Sovereign Tasim: The crown has soldiers out looking for you. Her Majesty wants to speak with you, to... explain things.",
+    "file": "truecolours-sovereigntasim-75"
+  },
+  {
+    "line": "Sovereign Tasim: ...you don't have to take her up on that if you don't want to. I just... thought I should warn you.",
+    "file": "truecolours-sovereigntasim-76"
+  },
+  {
+    "line": "Sovereign Tasim: They didn't want us here. We were... disposable soldiers, just a resource to keep Wynn standing. But now, all of a sudden...",
+    "file": "truecolours-sovereigntasim-77"
+  },
+  {
+    "line": "Sovereign Tasim: Now, they've changed their mind. But I can't just... forget. I had my memories discarded, and was shipped off to Wynn, for something beyond my control.",
+    "file": "truecolours-sovereigntasim-78"
+  },
+  {
+    "line": "Sovereign Tasim: For something I've learned to appreciate over time. For something that was never really a curse!!",
+    "file": "truecolours-sovereigntasim-79"
+  },
+  {
+    "line": "Sovereign Tasim: I did some digging when I got here, you know? I went looking for anyone I might have known here, before...",
+    "file": "truecolours-sovereigntasim-80"
+  },
+  {
+    "line": "Sovereign Tasim: No one. Not a single person who knew me. Not a single person left to miss me, or even notice my absence!",
+    "file": "truecolours-sovereigntasim-81"
+  },
+  {
+    "line": "Sovereign Tasim: I had my self stripped away from me, and it doesn't even matter! Because there was nothing here for me anyway!!",
+    "file": "truecolours-sovereigntasim-82"
+  },
+  {
+    "line": "Sovereign Tasim: I can't imagine the same for Aledar. He must have had... someone.",
+    "file": "truecolours-sovereigntasim-83"
+  },
+  {
+    "line": "Sovereign Tasim: ...where?",
+    "file": "truecolours-sovereigntasim-84"
+  },
+  {
+    "line": "Sovereign Tasim: ...oh.",
+    "file": "truecolours-sovereigntasim-85"
+  },
+  {
+    "line": "Sovereign Tasim: ...of course. Of course. That makes sense, I should have- I should have put that together, shouldn't I?",
+    "file": "truecolours-sovereigntasim-86"
+  },
+  {
+    "line": "Sovereign Tasim: He always was trying to help others... to his own detriment.",
+    "file": "truecolours-sovereigntasim-87"
+  },
+  {
+    "line": "Sovereign Tasim: ...it should have been him here. Not me. He had something to come back to. People to reunite with.",
+    "file": "truecolours-sovereigntasim-88"
+  },
+  {
+    "line": "Sovereign Tasim: Instead, he's...",
+    "file": "truecolours-sovereigntasim-89"
+  },
+  {
+    "line": "Sovereign Tasim: ...I don't want to talk about this right now. I...",
+    "file": "truecolours-sovereigntasim-90"
+  },
+  {
+    "line": "Sovereign Tasim: ...sorry.",
+    "file": "truecolours-sovereigntasim-91"
+  },
+  {
+    "line": "Sovereign Tasim: I... I'm sorry for what happened to the Leaves. To... Syndra. I really was trying to stop anyone from getting hurt, but... too little, too late.",
+    "file": "truecolours-sovereigntasim-92"
+  },
+  {
+    "line": "Sovereign Tasim: And, the rest... they probably aren't dead yet. There's still hope for them.",
+    "file": "truecolours-sovereigntasim-93"
+  },
+  {
+    "line": "Sovereign Tasim: ...the other Leaves. Your friends. They... probably aren't dead yet. There's still hope for them, if you can find them.",
+    "file": "truecolours-sovereigntasim-94"
+  },
+  {
+    "line": "Sovereign Tasim: ...what a mess. All of this- it's just... a mess.",
+    "file": "truecolours-sovereigntasim-95"
+  },
+  {
+    "line": "Sovereign Tasim: ...I guess it doesn't matter. He's gone anyway, isn't he?",
+    "file": "truecolours-sovereigntasim-96"
+  },
+  {
+    "line": "Sovereign Tasim: Ha... it's complicated.",
+    "file": "truecolours-sovereigntasim-97"
+  },
+  {
+    "line": "Sovereign Tasim: ...sigh. I thought... I thought I had it all figured out, but... you being here is making things harder than I'd like.",
+    "file": "truecolours-sovereigntasim-98"
+  },
+  {
+    "line": "Sovereign Tasim: ...okay. I can do that. Who first?",
+    "file": "truecolours-sovereigntasim-99"
+  },
+  {
+    "line": "Sovereign Tasim: He's... dangerous. I've only met him once, when I was ascending, but once was enough.",
+    "file": "truecolours-sovereigntasim-100"
+  },
+  {
+    "line": "Sovereign Tasim: In terms of sheer brute power, he has the most of any of the Sovereigns. You can feel it radiating off of him. He could crush you with barely a second thought, if he wanted.",
+    "file": "truecolours-sovereigntasim-101"
+  },
+  {
+    "line": "Sovereign Tasim: ...luckily, he stays at Gravity's Monolith for the most part. He won't be a problem if you just... stay away.",
+    "file": "truecolours-sovereigntasim-102"
+  },
+  {
+    "line": "Sovereign Tasim: I would recommend you stay away. Take it as a warning from a friend.",
+    "file": "truecolours-sovereigntasim-103"
+  },
+  {
+    "line": "Sovereign Tasim: ...who else?",
+    "file": "truecolours-sovereigntasim-104"
+  },
+  {
+    "line": "Sovereign Tasim: ...alright.",
+    "file": "truecolours-sovereigntasim-105"
+  },
+  {
+    "line": "Sovereign Tasim: He's... probably the best of them all. He does genuinely care about his district's well-being - I've seen the stuff he's done over 20 years.",
+    "file": "truecolours-sovereigntasim-106"
+  },
+  {
+    "line": "Sovereign Tasim: When I was ascending... he was the only one who bothered telling me what to expect ahead of time.",
+    "file": "truecolours-sovereigntasim-107"
+  },
+  {
+    "line": "Sovereign Tasim: ...he's not perfect. Nobody in these positions of power is. But he's the best Fruma has to offer.",
+    "file": "truecolours-sovereigntasim-108"
+  },
+  {
+    "line": "Sovereign Tasim: I still feel like I don't entirely understand... I don't know. Whatever it was she was working on - which you stole, by the way - it was important.",
+    "file": "truecolours-sovereigntasim-109"
+  },
+  {
+    "line": "Sovereign Tasim: ...Zhiraok says she neglected her district, and left it on him to pick up the slack. Was that because of the project, or... did she just not care?",
+    "file": "truecolours-sovereigntasim-110"
+  },
+  {
+    "line": "Sovereign Tasim: I don't know. And, now... she's gone, either way.",
+    "file": "truecolours-sovereigntasim-111"
+  },
+  {
+    "line": "Sovereign Tasim: Eugh. He's... frustrating. I mean, we both saw him during that tournament, right? He really thinks he's better than everyone else around him.",
+    "file": "truecolours-sovereigntasim-112"
+  },
+  {
+    "line": "Sovereign Tasim: What's annoying is that he actually has the skill to back those claims up! There's a reason he leads the military, after all. Apparently, he even taught himself magic!",
+    "file": "truecolours-sovereigntasim-113"
+  },
+  {
+    "line": "Sovereign Tasim: ...truth be told, I'm not unfamiliar with dealing with this kind of person. You've seen Kymer. I just... wish it didn't get to me as much as it does.",
+    "file": "truecolours-sovereigntasim-114"
+  },
+  {
+    "line": "Sovereign Tasim: ...I am. I'm not sure how to feel about it still, honestly. There's... two parts to it.",
+    "file": "truecolours-sovereigntasim-115"
+  },
+  {
+    "line": "Sovereign Tasim: ...me? I... I guess I'm one now, too. I'm still not sure how to feel about it, honestly. There's... two parts to it.",
+    "file": "truecolours-sovereigntasim-116"
+  },
+  {
+    "line": "Sovereign Tasim: Having authority and commanding soldiers, feels... strange. I don't know if I'll ever be used to it.",
+    "file": "truecolours-sovereigntasim-117"
+  },
+  {
+    "line": "Sovereign Tasim: I've never had that sort of power before. To be able to tell people what to do, and... have them just, do it.",
+    "file": "truecolours-sovereigntasim-118"
+  },
+  {
+    "line": "Sovereign Tasim: I have a voice that can actually push for change, and improve things, and... it feels unearned, in a way.",
+    "file": "truecolours-sovereigntasim-119"
+  },
+  {
+    "line": "Sovereign Tasim: I'm still the same as I was before! But now, with this title given to me, suddenly people will actually listen to me.",
+    "file": "truecolours-sovereigntasim-120"
+  },
+  {
+    "line": "Sovereign Tasim: ... I don't like that that's all it took.",
+    "file": "truecolours-sovereigntasim-121"
+  },
+  {
+    "line": "Sovereign Tasim: ...the blessing.",
+    "file": "truecolours-sovereigntasim-122"
+  },
+  {
+    "line": "Sovereign Tasim: It's a strange feeling. Not... unpleasant, exactly, but not comfortable, either. A constant weight on my shoulder, reminding me of what I've signed up for.",
+    "file": "truecolours-sovereigntasim-123"
+  },
+  {
+    "line": "Sovereign Tasim: It's always there, a... a small push to react to things I haven't noticed yet, that I wouldn't notice without it.",
+    "file": "truecolours-sovereigntasim-124"
+  },
+  {
+    "line": "Sovereign Tasim: And the more focus I put on it, the stronger it gets. More overwhelming to keep track of, but... stronger.",
+    "file": "truecolours-sovereigntasim-125"
+  },
+  {
+    "line": "Sovereign Tasim: ...I try not to use it unless I have to.",
+    "file": "truecolours-sovereigntasim-126"
+  },
+  {
+    "line": "Sovereign Tasim: I don't know much about them. I've only met them a few times, but they're... off-putting. I get the sense this is all just a game for them.",
+    "file": "truecolours-sovereigntasim-127"
+  },
+  {
+    "line": "Sovereign Tasim: ...to tell you the truth... they scare me. I don't think there's a boundary they're unwilling to cross, in order to achieve results.",
+    "file": "truecolours-sovereigntasim-128"
+  },
+  {
+    "line": "Sovereign Tasim: You might end up running into them while you're here. If you do... be careful, alright?",
+    "file": "truecolours-sovereigntasim-129"
+  },
+  {
+    "line": "Sovereign Tasim: There's... nothing much to say. Not because I don't want to, but because I just don't know that much about her.",
+    "file": "truecolours-sovereigntasim-130"
+  },
+  {
+    "line": "Sovereign Tasim: She keeps her secrets to herself. I've only even spoken to her a few times, and all of it was about...",
+    "file": "truecolours-sovereigntasim-131"
+  },
+  {
+    "line": "Sovereign Tasim: ...the project.",
+    "file": "truecolours-sovereigntasim-132"
+  },
+  {
+    "line": "Sovereign Tasim: It's what I received the blessing for.",
+    "file": "truecolours-sovereigntasim-133"
+  },
+  {
+    "line": "Sovereign Tasim: I... don't want to talk about it, right now. It won't matter until all of this resolves, either way.",
+    "file": "truecolours-sovereigntasim-134"
+  },
+  {
+    "line": "Sovereign Tasim: She's done awful, horrible things. All of Fruma's problems trace themselves back to her, in some way.",
+    "file": "truecolours-sovereigntasim-135"
+  },
+  {
+    "line": "Sovereign Tasim: But... there's more to her than that.",
+    "file": "truecolours-sovereigntasim-136"
+  },
+  {
+    "line": "Sovereign Tasim: She made Fruma, for herself.",
+    "file": "truecolours-sovereigntasim-137"
+  },
+  {
+    "line": "Sovereign Tasim: ...it's rare to find someone who understands, you know? Of course, I've had you, and... and Aledar, but... it's isolating. Even others from Fruma, they just... don't get it.",
+    "file": "truecolours-sovereigntasim-138"
+  },
+  {
+    "line": "Sovereign Tasim: So to have found someone who knows what it's like, who managed to forge her own path forward... that connection feels worth holding onto.",
+    "file": "truecolours-sovereigntasim-139"
+  },
+  {
+    "line": "Sovereign Tasim: I should be going. And... you should get back to your friends.",
+    "file": "truecolours-sovereigntasim-140"
+  },
+  {
+    "line": "Sovereign Tasim: Before I do... I have a warning for you, too. The Sovereign of the Mistwoods- Gikyo... they know where the Canopy is hiding out. They're preparing an attack of some kind.",
+    "file": "truecolours-sovereigntasim-141"
+  },
+  {
+    "line": "Sovereign Tasim: ...you should be able to warn everybody in time this time around. Make sure nobody gets captured. If they do... it- it won't be pretty.",
+    "file": "truecolours-sovereigntasim-142"
+  },
+  {
+    "line": "Sovereign Tasim: Now... go. Save the friends you still have left with you.",
+    "file": "truecolours-sovereigntasim-143"
+  },
+  {
+    "line": "Yusanu: soldier, you're... you're back. Does... does that mean you...?",
+    "file": "truecolours-yusanu-9"
+  },
+  {
+    "line": "Sui: You're... you're alone. Where, um... where are they?",
+    "file": "truecolours-sui-14"
+  },
+  {
+    "line": "Yusanu: ...you didn't find them, did you?",
+    "file": "truecolours-yusanu-10"
+  },
+  {
+    "line": "Sui: Oh...",
+    "file": "truecolours-sui-15"
+  },
+  {
+    "line": "Yusanu: ...guess I should have expected that.",
+    "file": "truecolours-yusanu-11"
+  },
+  {
+    "line": "Yusanu: What?! A- again?!",
+    "file": "truecolours-yusanu-12"
+  },
+  {
+    "line": "Sui: How do you know? H-how is it compromised?",
+    "file": "truecolours-sui-16"
+  },
+  {
+    "line": "Yusanu: That... did he really do the same thing twice?! Ugh, why is he even helping us?",
+    "file": "truecolours-yusanu-13"
+  },
+  {
+    "line": "Rurie: Hey hey, Sui and Yusanu! The creature has begun to speak! Isn't it a miracle?",
+    "file": "truecolours-rurie-17"
+  },
+  {
+    "line": "Rurie: Oh, you return! That was... a rather quick excursion. Well, how was it then? Simple in-and-out break-in?",
+    "file": "truecolours-rurie-18"
+  },
+  {
+    "line": "Rurie: Though I hadn't spotted any new arrivals, so... perhaps not.",
+    "file": "truecolours-rurie-19"
+  },
+  {
+    "line": "Rurie: I see, I see. Ran into too many guards, I suppose? It may be for the best, in any case - we've ourselves a talking changeling!",
+    "file": "truecolours-rurie-20"
+  },
+  {
+    "line": "Rurie: Now, as I was saying - you all should come and take a listen, it really is very-",
+    "file": "truecolours-rurie-21"
+  },
+  {
+    "line": "Rurie: Oh dear! Why didn't you lead with that?! Goodness, that's a problem and a half... I'll have to inform Fuhue.",
+    "file": "truecolours-rurie-22"
+  },
+  {
+    "line": "Rurie: She just so happens to be questioning the prisoner as we speak, in fact! The little lizard has happened to spill some... rather interesting secrets.",
+    "file": "truecolours-rurie-23"
+  },
+  {
+    "line": "Rurie: Come along, kiddos! Let's give it a look, shall we?",
+    "file": "truecolours-rurie-24"
+  },
+  {
+    "line": "Fuhue: Excellent. You're just in time.",
+    "file": "truecolours-fuhue-7"
+  },
+  {
+    "line": "Fuhue: It's shut up now, but it was speaking just a moment ago. Don't worry, I'll be able to get it talking again.",
+    "file": "truecolours-fuhue-8"
+  },
+  {
+    "line": "Fuhue: You'll want to hear what it says. It's relevant to your current concerns.",
+    "file": "truecolours-fuhue-9"
+  },
+  {
+    "line": "Rurie: Well alright, Fuhue, take it away!",
+    "file": "truecolours-rurie-25"
+  },
+  {
+    "line": "Fuhue: Hm! Seems to have done the trick.",
+    "file": "truecolours-fuhue-10"
+  },
+  {
+    "line": "Fuhue: Come here.",
+    "file": "truecolours-fuhue-11"
+  },
+  {
+    "line": "Fuhue: What? Magic? I don't know what that word means.",
+    "file": "truecolours-fuhue-12"
+  },
+  {
+    "line": "Rurie: They refer to curses or blessings, captain.",
+    "file": "truecolours-rurie-26"
+  },
+  {
+    "line": "Fuhue: Oh! No, no, certainly not. It's a simple talisman. They're a traditional art, passed down to us through generations of the Canopy.",
+    "file": "truecolours-fuhue-13"
+  },
+  {
+    "line": "Fuhue: I believe Master Azael explained it to Yusanu the other day? By inscribing specific glyphs in certain patterns, they can be ignited for varying powerful effects.",
+    "file": "truecolours-fuhue-14"
+  },
+  {
+    "line": "Fuhue: Through experimentation, we've determined which glyphs yield which results, though there's more we still don't know! As a matter of fact-",
+    "file": "truecolours-fuhue-15"
+  },
+  {
+    "line": "Rurie: Fuhue, I appreciate the enthusiasm, I do, but shouldn't we return to the matter at hand?",
+    "file": "truecolours-rurie-27"
+  },
+  {
+    "line": "Fuhue: Yes. Of course. That's enough on talismans for now. Everyone, hurry up and take a look.",
+    "file": "truecolours-fuhue-16"
+  },
+  {
+    "line": "Changeling: I am an ordinary citizen! This is a crime!",
+    "file": "truecolours-changeling-1"
+  },
+  {
+    "line": "Changeling: Crime this is!",
+    "file": "truecolours-changeling-2"
+  },
+  {
+    "line": "Fuhue: Ah, I see now. This one hadn't made it very far in its training. That would explain why it was so easy to capture.",
+    "file": "truecolours-fuhue-17"
+  },
+  {
+    "line": "Changeling: My name! My name is...",
+    "file": "truecolours-changeling-3"
+  },
+  {
+    "line": "Changeling: Mora! Zeph! Rex!",
+    "file": "truecolours-changeling-4"
+  },
+  {
+    "line": "Changeling: My name is Nisen.",
+    "file": "truecolours-changeling-5"
+  },
+  {
+    "line": "Sui: What did it just say?!",
+    "file": "truecolours-sui-17"
+  },
+  {
+    "line": "Sui: It- it knows! It knows their names, so- so does it know where-",
+    "file": "truecolours-sui-18"
+  },
+  {
+    "line": "Yusanu: No mention of my brothers... or anyone else from the Steel Feather...",
+    "file": "truecolours-yusanu-14"
+  },
+  {
+    "line": "Sui: Oh... I- I didn't even... realize. I didn't even think... I- I'm sorry.",
+    "file": "truecolours-sui-19"
+  },
+  {
+    "line": "Yusanu: It's... fine. I just... wish I could know for sure they're still alive out there.",
+    "file": "truecolours-yusanu-15"
+  },
+  {
+    "line": "Rurie: Hey, little man, lighten up! The way I see it, it's incredibly likely they've split the two groups.",
+    "file": "truecolours-rurie-28"
+  },
+  {
+    "line": "Fuhue: Yes. It's a very common psychological torture technique! Splitting up groups of people does a number on one's-",
+    "file": "truecolours-fuhue-18"
+  },
+  {
+    "line": "Rurie: Fuhue, really, do you think this is the time? Given our audience?",
+    "file": "truecolours-rurie-29"
+  },
+  {
+    "line": "Fuhue: Sigh. Nobody appreciates my insight.",
+    "file": "truecolours-fuhue-19"
+  },
+  {
+    "line": "Rurie: Now, importantly, all changelings receive training here in the Mistwoods! The crown has a special fort up on the eastern mountainside for it.",
+    "file": "truecolours-rurie-30"
+  },
+  {
+    "line": "Rurie: Oh! Oh, we can organize a raid on the fort, gather information and find-",
+    "file": "truecolours-rurie-32"
+  },
+  {
+    "line": "Rurie: News? What news? I haven't heard anything from the owls yet this morning, and...",
+    "file": "truecolours-rurie-33"
+  },
+  {
+    "line": "Rurie: Did I forget? Forget what? Goodness, what am I missing...",
+    "file": "truecolours-rurie-34"
+  },
+  {
+    "line": "Rurie: Oh! Oh, dear, right! Right right right! I remember now!",
+    "file": "truecolours-rurie-35"
+  },
+  {
+    "line": "Rurie: The crown knows our location, huh?",
+    "file": "truecolours-rurie-36"
+  },
+  {
+    "line": "Fuhue: Again?! Gah!!! Barely get a month's rest before we have to move again...",
+    "file": "truecolours-fuhue-20"
+  },
+  {
+    "line": "Fuhue: Ugh! I guess I'll go gather all our paperwork and emergency rations...",
+    "file": "truecolours-fuhue-21"
+  },
+  {
+    "line": "Rurie: I'll summon the owls and deploy them to begin evacuations. I'll have to track down Cileon as well...",
+    "file": "truecolours-rurie-37"
+  },
+  {
+    "line": "Fuhue: You know they're just going to stay behind to take out as many soldiers as possible, right?",
+    "file": "truecolours-fuhue-22"
+  },
+  {
+    "line": "Rurie: Cocky bastard... of course they will.",
+    "file": "truecolours-rurie-38"
+  },
+  {
+    "line": "Rurie: Anyway! Kiddos, I'll meet you up at the top of this tree! That's where the Owls' headquarters are!",
+    "file": "truecolours-rurie-39"
+  },
+  {
+    "line": "Fuhue: Rurie, I can't deal with all this paperwork on my own! Hand me two of your workers.",
+    "file": "truecolours-fuhue-23"
+  },
+  {
+    "line": "Sui: Um... workers?",
+    "file": "truecolours-sui-20"
+  },
+  {
+    "line": "Rurie: Take Sui and Yusanu!",
+    "file": "truecolours-rurie-40"
+  },
+  {
+    "line": "Fuhue: Ah! Of course. That'll do. Well, chop chop outsiders. Pack up here!",
+    "file": "truecolours-fuhue-24"
+  },
+  {
+    "line": "Yusanu: Uh... sure.",
+    "file": "truecolours-yusanu-16"
+  },
+  {
+    "line": "Sui: They keep talking like we aren't here...",
+    "file": "truecolours-sui-21"
+  },
+  {
+    "line": "Sui: It's... it's okay. I know they're alive. There's hope! There's hope, there's hope, there's hope.",
+    "file": "truecolours-sui-22"
+  },
+  {
+    "line": "Rurie: Well, it's a good thing we have the emergency shelter! A shame it's in a cave. Sigh...",
+    "file": "truecolours-rurie-41"
+  },
+  {
+    "line": "Fuhue: Mission reports, inventory, location plans...",
+    "file": "truecolours-fuhue-25"
+  },
+  {
+    "line": "Fuhue: Ugh! I need to get to my lists. I can't think straight!",
+    "file": "truecolours-fuhue-26"
+  },
+  {
+    "line": "Yusanu: These talismans... the colors, pink green blue white gold... the shapes... there's something. There's something.",
+    "file": "truecolours-yusanu-17"
+  },
+  {
+    "line": "Yusanu: I'm getting close, I can feel it. I just need... a little more time.",
+    "file": "truecolours-yusanu-18"
+  },
+  {
+    "line": "Rurie: Well well well well! And there they all are!",
+    "file": "truecolours-rurie-42"
+  },
+  {
+    "line": "Rurie: Greetings are in order to the little doves! Ready to get moving then?",
+    "file": "truecolours-rurie-43"
+  },
+  {
+    "line": "Sui: Aren't you... um, owls?",
+    "file": "truecolours-sui-23"
+  },
+  {
+    "line": "Rurie: Owls? Why, yes, of course - but you, dear friends, are doves. The small and defenseless, in dire need of aid...",
+    "file": "truecolours-rurie-44"
+  },
+  {
+    "line": "Canopy Owl: Captain, if we're all in order, shouldn't we get moving? We're to lead them to the next hideout.",
+    "file": "truecolours-canopyowl-1"
+  },
+  {
+    "line": "Rurie: Right you are! Right you are, indeed. Then to the north we shall fly, little doves and silent owls!",
+    "file": "truecolours-rurie-45"
+  },
+  {
+    "line": "Rurie: And so we fly forth, birds of the flock! Onwards we go!",
+    "file": "truecolours-rurie-46"
+  },
+  {
+    "line": "Sui: Ahhhhhhhhh!!!!!!!",
+    "file": "truecolours-sui-24"
+  },
+  {
+    "line": "Yusanu: HEEEEEELPPPPP!!!",
+    "file": "truecolours-yusanu-19"
+  },
+  {
+    "line": "Rurie: Oof! My goodness, they don't make these things quite like they used to! Since when have the ziplines been so... exhilerating?",
+    "file": "truecolours-rurie-47"
+  },
+  {
+    "line": "Canopy Owl: Not the most graceful landing, captain.",
+    "file": "truecolours-canopyowl-2"
+  },
+  {
+    "line": "Rurie: Oh, what do you know?! Why don't you try to land gracefully in a- in- in a-... see how you do!!",
+    "file": "truecolours-rurie-48"
+  },
+  {
+    "line": "Rurie: Ahem. Shall we get moving then? Over the hills and down the road, to the meet up spot we go!",
+    "file": "truecolours-rurie-49"
+  },
+  {
+    "line": "Sui: ...soldier, Yusanu. When we get to safety, we... we should talk about what to do next.",
+    "file": "truecolours-sui-25"
+  },
+  {
+    "line": "Sui: Rex, Zeph... Mora... if- if they're here, then... then...",
+    "file": "truecolours-sui-26"
+  },
+  {
+    "line": "Yusanu: Don't worry, Sui, I... I get it. We'll do whatever we can to get your brother out of there. Promise.",
+    "file": "truecolours-yusanu-20"
+  },
+  {
+    "line": "Rurie: Speaking of the prodigal son and his companions, are we! My my, what a tragic tale... but perhaps I have an inkling of their present whereabouts.",
+    "file": "truecolours-rurie-50"
+  },
+  {
+    "line": "Sui: You- you do? Why... why didn't you tell us sooner?!",
+    "file": "truecolours-sui-27"
+  },
+  {
+    "line": "Rurie: Ah ah! Sensitive information is for sensitive ears alone. I believed it best to wait for better circumstances... too many unknown faces back at the Canopy.",
+    "file": "truecolours-rurie-51"
+  },
+  {
+    "line": "Rurie: Well, silent owls? Fly forth, update the others at the hideout on our whereabouts! I'll keep an eye on our little doves as we discuss matters further.",
+    "file": "truecolours-rurie-52"
+  },
+  {
+    "line": "Canopy Owl: ...you're the boss, Captain. If you say so.",
+    "file": "truecolours-canopyowl2-1"
+  },
+  {
+    "line": "Rurie: And I do say so! Well, chop chop, get it moving, wouldn't you?",
+    "file": "truecolours-rurie-53"
+  },
+  {
+    "line": "Rurie: Ah... authority is its own sort of treat, isn't it?",
+    "file": "truecolours-rurie-54"
+  },
+  {
+    "line": "Yusanu: Rurie, you said you had a lead. What is it?",
+    "file": "truecolours-yusanu-21"
+  },
+  {
+    "line": "Rurie: So impatient! So so impatient. Yes, fine, there is a military outpost just to the east, a flap of the wings as the bird flies! I will take you there.",
+    "file": "truecolours-rurie-55"
+  },
+  {
+    "line": "Yusanu: Uh... isn't that dangerous? You said that's where all the ch-",
+    "file": "truecolours-yusanu-22"
+  },
+  {
+    "line": "Rurie: Yes well not everything can be so easy, can it?! Be brave! Take risks! Et cetera, et cetera.",
+    "file": "truecolours-rurie-56"
+  },
+  {
+    "line": "Rurie: And with all the guards and soldiers and riffraff mobilized to the Canopy, it certainly will be simpler to sneak in! You do want to save your brother do you not?",
+    "file": "truecolours-rurie-57"
+  },
+  {
+    "line": "Sui: ...still. We- we aren't much of fighters! If... if we get caught...",
+    "file": "truecolours-sui-28"
+  },
+  {
+    "line": "Sui: I- we can't, keep putting all the work on soldier's shoulders. We need a better plan!",
+    "file": "truecolours-sui-29"
+  },
+  {
+    "line": "Rurie: Alas, it is now or it is never. Tick tock tick tock, time's running out, little doves! Onwards we shall fly, to save friend and family alike!",
+    "file": "truecolours-rurie-58"
+  },
+  {
+    "line": "Yusanu: ...Rurie. Why did you stop?",
+    "file": "truecolours-yusanu-23"
+  },
+  {
+    "line": "Sui: Is... is there a problem...?",
+    "file": "truecolours-sui-30"
+  },
+  {
+    "line": "Rurie: A problem? No... no, no no, there is no problem here! All is just as it should be.",
+    "file": "truecolours-rurie-59"
+  },
+  {
+    "line": "Sui: Are... are you- are you sure? You're... you're starting to scare me, Rurie.",
+    "file": "truecolours-sui-31"
+  },
+  {
+    "line": "Yusanu: H- huh?! Wh- what's going on?!",
+    "file": "truecolours-yusanu-24"
+  },
+  {
+    "line": "Sui: ...oh. YUSANU! WATCH OUT!!",
+    "file": "truecolours-sui-32"
+  },
+  {
+    "line": "Yusanu: I- I- I-",
+    "file": "truecolours-yusanu-25"
+  },
+  {
+    "line": "Yusanu: Th- thank you, Sui, that... I don't... you- you're really, uh, getting the hang of that ice stuff, aren't you?",
+    "file": "truecolours-yusanu-26"
+  },
+  {
+    "line": "Sui: I... I didn't even... do that intentionally. It was... reflexive...",
+    "file": "truecolours-sui-33"
+  },
+  {
+    "line": "Sui: B-but, more... more importantly- what happened? Where's- where's Rurie?",
+    "file": "truecolours-sui-34"
+  },
+  {
+    "line": "Sui: C-canopy members?!",
+    "file": "truecolours-sui-35"
+  },
+  {
+    "line": "Yusanu: Are you two okay?!",
+    "file": "truecolours-yusanu-27"
+  },
+  {
+    "line": "Yusanu: Those... those must have been changelings!",
+    "file": "truecolours-yusanu-28"
+  },
+  {
+    "line": "Fuhue: Oho! Impressive stuff. Simple pieces of paper, in appearance... but they pack a punch. Rather useful!",
+    "file": "truecolours-fuhue-27"
+  },
+  {
+    "line": "Cileon: Easier than expected. Should use more- eugh, no no no, don't like this one at all.",
+    "file": "truecolours-cileon-3"
+  },
+  {
+    "line": "Rurie: Ah, much improved! Now this - what an enjoyable form it has been, yes yes yes! The drama, the intrigue! Perhaps it would do to use it more, hm hm hm!",
+    "file": "truecolours-rurie-60"
+  },
+  {
+    "line": "Rurie: Who am I? Why, I am Captain Rurie, leader of the owls! Master of the mists, eyes and ears of the trees - runaway FOOL from higher lands!!!!",
+    "file": "truecolours-rurie-61"
+  },
+  {
+    "line": "Rurie: Oh but no no no, I should think you have it figured out by now! Is it not obvious?",
+    "file": "truecolours-rurie-62"
+  },
+  {
+    "line": "Sovereign Gikyo: What a delight! This before you is the form of the Ranger Mistwoods, Sovereign to these secretive little ants! The name it was given is Gikyo.",
+    "file": "truecolours-sovereigngikyo-1"
+  },
+  {
+    "line": "Sovereign Gikyo: To think there has been a struggle to take you in so far yet the task proved simple and easy! How delightful! The Sovereign Forest will be furious!",
+    "file": "truecolours-sovereigngikyo-2"
+  },
+  {
+    "line": "Sovereign Gikyo: But that is enough talk and secrets spilling. It is time, crown's wanted! Time for you to go...",
+    "file": "truecolours-sovereigngikyo-3"
+  },
+  {
+    "line": "Sui: ...oh. You're up.",
+    "file": "truecolours-sui-36"
+  },
+  {
+    "line": "Yusanu: Is this really it, then? Ordeal after ordeal and this is where it leads?",
+    "file": "truecolours-yusanu-29"
+  },
+  {
+    "line": "Yusanu: Will it ever end? What's the point? The crown's after us now, and- and they're not going to stop!! Why- why even try?!",
+    "file": "truecolours-yusanu-30"
+  },
+  {
+    "line": "Sui: Yusanu! Y-you need to... to get yourself together! Please, d-don't lose your head now... n-not here, of all places.",
+    "file": "truecolours-sui-37"
+  },
+  {
+    "line": "Sui: I... ha, I- I know it feels hard. Im-impossible, even! A-and maybe I'm, I'm just putting on a brave face... I- I want to lie down and j-just wait for the, the inevitable, as much as you do!!",
+    "file": "truecolours-sui-38"
+  },
+  {
+    "line": "Sui: But... b-but not now. We're- we're here, a-and they're so close. Mora, Rex, Zeph... we- we have some hope! S-so... don't give up. Not now!",
+    "file": "truecolours-sui-39"
+  },
+  {
+    "line": "Yusanu: ...okay. Then... where do we start? They... they took all of our belongings... and you can't cast spells without your weapon, can you?",
+    "file": "truecolours-yusanu-31"
+  },
+  {
+    "line": "Sui: I... I still have my magic. I can... I can try.",
+    "file": "truecolours-sui-40"
+  },
+  {
+    "line": "Sui: ...hmph.",
+    "file": "truecolours-sui-41"
+  },
+  {
+    "line": "Sui: N-not... that. I... ugh, why is this so hard all of a sudden...?",
+    "file": "truecolours-sui-42"
+  },
+  {
+    "line": "Sui: Oh, sh- shut up! I- I'm trying, okay!",
+    "file": "truecolours-sui-43"
+  },
+  {
+    "line": "Yusanu: Hmmm....",
+    "file": "truecolours-yusanu-32"
+  },
+  {
+    "line": "Yusanu: ...oh. Oh, oh- I think I know a way out!",
+    "file": "truecolours-yusanu-33"
+  },
+  {
+    "line": "Yusanu: Look, this- this appears to be tempered glass!",
+    "file": "truecolours-yusanu-34"
+  },
+  {
+    "line": "Sui: Um... I... I have no idea know what that means.",
+    "file": "truecolours-sui-44"
+  },
+  {
+    "line": "Yusanu: No, look- it's one of the inventions I assisted Soosu with. I didn't know what its purpose was at the time, but... I guess this fits.",
+    "file": "truecolours-yusanu-35"
+  },
+  {
+    "line": "Yusanu: Tempered glass is incredibly strong and durable. It resists most attempts to break it, except - except for striking the edge of the glass with a sharp object.",
+    "file": "truecolours-yusanu-36"
+  },
+  {
+    "line": "Yusanu: And, Sui! If you could make an icicle with your magic... and strike the edge...",
+    "file": "truecolours-yusanu-37"
+  },
+  {
+    "line": "Sui: ...then we could get out? I... m-maybe. But, y-you just saw me- um, nearly flood our cell with... sewage...",
+    "file": "truecolours-sui-45"
+  },
+  {
+    "line": "Yusanu: Sui. You were the one just giving me a pep talk. Come on, you can do it!",
+    "file": "truecolours-yusanu-38"
+  },
+  {
+    "line": "Sui: ...okay. Okay, you- you're right! I can... I can do this. I can.",
+    "file": "truecolours-sui-46"
+  },
+  {
+    "line": "Sui: Here goes nothing...",
+    "file": "truecolours-sui-47"
+  },
+  {
+    "line": "Sui: I- ha, I, I did it!!",
+    "file": "truecolours-sui-48"
+  },
+  {
+    "line": "Yusanu: That's the first step! We've got the sharp object, now... aim for the corner!",
+    "file": "truecolours-yusanu-39"
+  },
+  {
+    "line": "Sui: It- it worked! Ha... hahaha... oh, it worked...",
+    "file": "truecolours-sui-49"
+  },
+  {
+    "line": "Sui: L-let's go, then! Let's find the others, and- and get out of here!",
+    "file": "truecolours-sui-50"
+  },
+  {
+    "line": "Rurie: Well! Hoo hoo, my little friends!",
+    "file": "truecolours-rurie-63"
+  },
+  {
+    "line": "Yusanu: Rurie?! You're... you're here?",
+    "file": "truecolours-yusanu-40"
+  },
+  {
+    "line": "Rurie: Uh... duh? That devilish snake got the drop on me when I went up to the owls' nest! Those changelings certainly do not play fair, let me tell you...",
+    "file": "truecolours-rurie-64"
+  },
+  {
+    "line": "Sui: How... how can we know for sure it's, um, really him?",
+    "file": "truecolours-sui-51"
+  },
+  {
+    "line": "Rurie: What?! Is it not obvious that I am who I say I- oh, whatever, something something it's protocol. Fine.",
+    "file": "truecolours-rurie-65"
+  },
+  {
+    "line": "Yusanu: Hm... I don't think changelings have access to memories, do they? Rurie, where did we first meet?",
+    "file": "truecolours-yusanu-41"
+  },
+  {
+    "line": "Rurie: Yes, finally, some sense! It was in that cave! My owls and I captured you as leverage, and if I do recall correctly, you nearly cried like a little baby! Ah, memories...",
+    "file": "truecolours-rurie-66"
+  },
+  {
+    "line": "Yusanu: Ugh. Okay, it's definitely him.",
+    "file": "truecolours-yusanu-42"
+  },
+  {
+    "line": "Rurie: Finally! Now then, time for us to get moving!",
+    "file": "truecolours-rurie-67"
+  },
+  {
+    "line": "Yusanu: THEY LEFT YOUR KNIVES ON YOU?!",
+    "file": "truecolours-yusanu-43"
+  },
+  {
+    "line": "Rurie: Oh, no, no no no. They certainly did take them, alright! Seems they missed a few in my boots, though! Lucky me!",
+    "file": "truecolours-rurie-68"
+  },
+  {
+    "line": "Rurie: Now, I simply couldn't help but overhear you little loudmouths, so I came up with a plan while you were debating whether I was real or not!",
+    "file": "truecolours-rurie-69"
+  },
+  {
+    "line": "Rurie: Yusanu. That device of yours is quite important, isn't it? I'll help you fetch it - hopefully add a few more to my kill list along the way, eh?",
+    "file": "truecolours-rurie-70"
+  },
+  {
+    "line": "Rurie: And Sui... go find your family. Important to hold onto those you love, isn't it? You and soldier can handle this, I'm sure, but... be careful.",
+    "file": "truecolours-rurie-71"
+  },
+  {
+    "line": "Sui: Rurie... thank you.",
+    "file": "truecolours-sui-52"
+  },
+  {
+    "line": "Rurie: Well then! Let's skedaddle, kiddos! Good luck out there!",
+    "file": "truecolours-rurie-72"
+  },
+  {
+    "line": "Sui: Let's... try and find our stuff. We, ha, can't really handle a whole fort of changelings without your weapon, can we?",
+    "file": "truecolours-sui-53"
+  },
+  {
+    "line": "Sui: ...oh! Is that all your gear?",
+    "file": "truecolours-sui-54"
+  },
+  {
+    "line": "Sui: Should... should we continue, then?",
+    "file": "truecolours-sui-55"
+  },
+  {
+    "line": "Sui: I... I hope so, but... I'm not sure. The ocean still feels... off. Like, like a step to the left.",
+    "file": "truecolours-sui-56"
+  },
+  {
+    "line": "Sui: I... don't really, I don't have anything worth grabbing, here...",
+    "file": "truecolours-sui-57"
+  },
+  {
+    "line": "Sui: Uh, I found this map... come here.",
+    "file": "truecolours-sui-58"
+  },
+  {
+    "line": "Sui: Hmm...",
+    "file": "truecolours-sui-59"
+  },
+  {
+    "line": "Sui: \"Fort Hegea, Changeling Facility.\" So... this whole place is, um, probably crawling with them.",
+    "file": "truecolours-sui-60"
+  },
+  {
+    "line": "Sui: This... this m-might be, um, harder than I thought it might be. B-but! I can't give up. They're so close... where are they...?",
+    "file": "truecolours-sui-61"
+  },
+  {
+    "line": "Sui: I think we're... here.",
+    "file": "truecolours-sui-62"
+  },
+  {
+    "line": "Sui: And the Sovereign's office looks like it's at the very back of the building...",
+    "file": "truecolours-sui-63"
+  },
+  {
+    "line": "Sui: There's a, another block of cells right outside. If we're careful enough... maybe we can avoid a confrontation with the Sovereign.",
+    "file": "truecolours-sui-64"
+  },
+  {
+    "line": "Sui: ...th-thanks for being here, soldier. I... I would've given up a long time ago if you weren't.",
+    "file": "truecolours-sui-65"
+  },
+  {
+    "line": "???: Here for a duel?! I love duels?! I love fighting?! I love life?!",
+    "file": "truecolours-changeling2-1"
+  },
+  {
+    "line": "Sui: C-careful! That's... Sovereign Gikyo's office up ahead. Let's, um, try and avoid them.",
+    "file": "truecolours-sui-66"
+  },
+  {
+    "line": "Sui: What are these... holes...?",
+    "file": "truecolours-sui-67"
+  },
+  {
+    "line": "Sui: No... n-no, no no no, no- no...",
+    "file": "truecolours-sui-68"
+  },
+  {
+    "line": "Sui: It's... it's a ticket. From the... Steel Feather... the ones... Quill gave us...",
+    "file": "truecolours-sui-69"
+  },
+  {
+    "line": "Sui: All... all this blood...",
+    "file": "truecolours-sui-70"
+  },
+  {
+    "line": "Sui: There- ha, there, th-there's no way s-some-someone could, ha, survive... this...",
+    "file": "truecolours-sui-71"
+  },
+  {
+    "line": "Sui: How... h-how dare they... how DARE they?! Th-they have to pay for this, soldier, they- they have to!!",
+    "file": "truecolours-sui-72"
+  },
+  {
+    "line": "Sui: Come on... come on, come on, we- we need to confront Gikyo, we- come on!!",
+    "file": "truecolours-sui-73"
+  },
+  {
+    "line": "Sui: M- M- Mora...?",
+    "file": "truecolours-sui-74"
+  },
+  {
+    "line": "Sovereign Gikyo: Well well, look who has stumbled on in! If it is not the crown's number one wanted and the silly weak sister! Were you not locked up?",
+    "file": "truecolours-sovereigngikyo-4"
+  },
+  {
+    "line": "Sui: No... you... wh- what did you... what did you DO?!",
+    "file": "truecolours-sui-75"
+  },
+  {
+    "line": "Sovereign Gikyo: Hehehehahaha! Oh, this? Why it's the prodigal son of course! Go on, say hello to your little sister, big brother!!",
+    "file": "truecolours-sovereigngikyo-5"
+  },
+  {
+    "line": "Sovereign Gikyo: You should know I did offer the opportunity to speak, yes yes indeed! If only he would have spat up all those deep deep secrets on your group... could his pain have been avoided?",
+    "file": "truecolours-sovereigngikyo-6"
+  },
+  {
+    "line": "Sovereign Gikyo: But but but but but sad as it is, he refused to say a word! What a shame indeed, indeed. A long deep dark painful agonizing death it was!",
+    "file": "truecolours-sovereigngikyo-7"
+  },
+  {
+    "line": "Sovereign Gikyo: Well since you are here and the rest are taken it would seem it was for naught! I have every little dove just where I want them, yes yes I do.",
+    "file": "truecolours-sovereigngikyo-8"
+  },
+  {
+    "line": "Sovereign Gikyo: Yes! Shooty girl and wind boy! Rex and Zeph I believe it was?",
+    "file": "truecolours-sovereigngikyo-9"
+  },
+  {
+    "line": "Sovereign Gikyo: Wind boy was always crying and screaming... how pathetic. But shooty girl... yes shooty girl was a delight.",
+    "file": "truecolours-sovereigngikyo-10"
+  },
+  {
+    "line": "Sovereign Gikyo: Never let out a word no matter the pain! The ones like her are always the most most most fun to crack, yes they are.",
+    "file": "truecolours-sovereigngikyo-11"
+  },
+  {
+    "line": "Sovereign Gikyo: Alas... all good things must come to an end it would seem! The killjoy Sovereign Highlands, swooping in and ruining ALL my fun...",
+    "file": "truecolours-sovereigngikyo-12"
+  },
+  {
+    "line": "Sovereign Gikyo: Noooo Gikyo you cannot keep your prisoners no matter how much you wish, no no no, the people Highlands demand their girl returned and well who am I to stand against them?",
+    "file": "truecolours-sovereigngikyo-13"
+  },
+  {
+    "line": "Sovereign Gikyo: And so ended the fun that was being had! But I had the last laugh, ehehehaha. The Athassa girl could take one and not both of the companions! A choice? A choice!",
+    "file": "truecolours-sovereigngikyo-14"
+  },
+  {
+    "line": "Sovereign Gikyo: Oh the noble hero that he was, he chose to stay! What a bore. But what a joy! What a joy joy joy joy joy!",
+    "file": "truecolours-sovereigngikyo-15"
+  },
+  {
+    "line": "Sovereign Gikyo: And now where is he? Bleeding out, dying, fading, vanishing with each and every passing moment! And it would seem perhaps he is the lucky one!",
+    "file": "truecolours-sovereigngikyo-16"
+  },
+  {
+    "line": "Sovereign Gikyo: Well then! Would you care to join him in this dance? To the end of days - yours end HERE and NOW!",
+    "file": "truecolours-sovereigngikyo-17"
+  },
+  {
+    "line": "Sovereign Gikyo: Hahahahahah! Do you really think that is all it will take? Idiot idiot idiot IDIOT!! I cannot DIE dumbass, no no no no no!",
+    "file": "truecolours-sovereigngikyo-18"
+  },
+  {
+    "line": "Sovereign Gikyo: Even if this one is too scared afraid terrified to even try the gifts from land world giver of life, she has a strong body and sharp aim indeed!",
+    "file": "truecolours-sovereigngikyo-19"
+  },
+  {
+    "line": "Sovereign Gikyo: To think you must rely on such a dowdy focus such as yours, shame shame shame! I have no need to crutch my skills on such baubles!",
+    "file": "truecolours-sovereigngikyo-20"
+  },
+  {
+    "line": "Sovereign Gikyo: Alright, enough games. Now, dance for me! Hehehahehah!",
+    "file": "truecolours-sovereigngikyo-21"
+  },
+  {
+    "line": "Sovereign Gikyo: Oh well oh well oh well! It would seem without the gifts she really was useless worthless NOTHING!!!",
+    "file": "truecolours-sovereigngikyo-22"
+  },
+  {
+    "line": "Sovereign Gikyo: Is it not a joy a miracle that you will never ever ever have to see her again?!",
+    "file": "truecolours-sovereigngikyo-23"
+  },
+  {
+    "line": "Sovereign Gikyo: Hm hm hm why are you not DEAD yet?! Do not like that not one bit!! But perhaps one with the gifts will suffice well and nicely, yes...",
+    "file": "truecolours-sovereigngikyo-24"
+  },
+  {
+    "line": "Sovereign Gikyo: After all, even a m- mu- mush-mouthed i- id- idiot like him has been running circles and circles and circles around you, ahahahaha!!",
+    "file": "truecolours-sovereigngikyo-25"
+  },
+  {
+    "line": "Sovereign Gikyo: ENOUGH! Why don't you slow down and just let me slice you up good, you wriggly little worm?",
+    "file": "truecolours-sovereigngikyo-26"
+  },
+  {
+    "line": "Sovereign Gikyo: Oh so it WAS a fluke then! Should have known should have guessed, should have figured someone who cannot even speak words right would lack all worth!",
+    "file": "truecolours-sovereigngikyo-27"
+  },
+  {
+    "line": "Sovereign Gikyo: Goodness you really DO fit right snugly in with this crew! I wonder if they miss you - care to join them in their endless rest?!",
+    "file": "truecolours-sovereigngikyo-28"
+  },
+  {
+    "line": "Sovereign Gikyo: Hohoho, this one's injured just like me! But even still I can fight at his tippy toppy peak!!",
+    "file": "truecolours-sovereigngikyo-29"
+  },
+  {
+    "line": "Sovereign Gikyo: In the meanwhile, he bleeds out more and more and more with each and every moment! You must not care much for him if I am your priority here and now! Hehehahahahahahah!!!!!!!",
+    "file": "truecolours-sovereigngikyo-30"
+  },
+  {
+    "line": "Sovereign Gikyo: JUST DIE!! You damn annoying pest! I'll squish you to paste, just like I did to Mora!",
+    "file": "truecolours-sovereigngikyo-31"
+  },
+  {
+    "line": "Sui: He's... he's my brother... give... give him... back...",
+    "file": "truecolours-sui-76"
+  },
+  {
+    "line": "Sui: What?!",
+    "file": "truecolours-sui-77"
+  },
+  {
+    "line": "Sui: He's dead. He's... dead he's dead he's dead, but so is that BASTARD!!!",
+    "file": "truecolours-sui-78"
+  },
+  {
+    "line": "Sui: And it... it... it doesn't even matter. I killed them, and... and... and what now? M- Mora, he's- he's still...",
+    "file": "truecolours-sui-79"
+  },
+  {
+    "line": "Sui: I... I failed.",
+    "file": "truecolours-sui-80"
+  },
+  {
+    "line": "Sui: No?? Then what do you CALL this?! Rex and Zeph are gone and Mora is- h-he's... he... he's...",
+    "file": "truecolours-sui-81"
+  },
+  {
+    "line": "Sui: We... we weren't fast enough... we took too long to get here, a-and now... and now...",
+    "file": "truecolours-sui-82"
+  },
+  {
+    "line": "Sui: I already GOT revenge, soldier!! I didn't... I didn't know I... it- it happened so fast, and... and... I killed them. I got revenge and... and I still feel hollow.",
+    "file": "truecolours-sui-83"
+  },
+  {
+    "line": "Sui: He's... gone. He's gone, and- a-and I can't... I can't get him back...",
+    "file": "truecolours-sui-84"
+  },
+  {
+    "line": "Sui: We- we need to g-get out of here, I- I- I can't... I can't be here. I can't... I c-can't look at him.",
+    "file": "truecolours-sui-85"
+  },
+  {
+    "line": "Sui: ...this is all my fault, isn't it?",
+    "file": "truecolours-sui-86"
+  },
+  {
+    "line": "Sui: I- I- all I've been DOING this whole time has been crying, worrying, and- and- and being USELESS!",
+    "file": "truecolours-sui-87"
+  },
+  {
+    "line": "Sui: I was so afraid of my cur-... why, why, WHY can't I break that habit?! Magic. Magic magic magic magic MAGIC!!",
+    "file": "truecolours-sui-88"
+  },
+  {
+    "line": "Sui: I was so afraid that I never even tried!! If I had, if I- I- if I'd have learned more, been stronger...",
+    "file": "truecolours-sui-89"
+  },
+  {
+    "line": "Sui: I... I could have... I could have saved him. I could have protected him, I could have healed him, I could have-",
+    "file": "truecolours-sui-90"
+  },
+  {
+    "line": "Sui: But no, of COURSE NOT!! Because I'm worthless and useless and can't help ANYONE!!",
+    "file": "truecolours-sui-91"
+  },
+  {
+    "line": "Sui: Rex and Zeph are- they're still out there. soldier, soldier, we can still save them. We- we know where they are!!",
+    "file": "truecolours-sui-92"
+  },
+  {
+    "line": "Sui: We just... we just need to find the Highlands Sovereign. He has them, he- he has to. He... he has to.",
+    "file": "truecolours-sui-93"
+  },
+  {
+    "line": "Sui: ...let's go. We can't- we can't let this happen again.",
+    "file": "truecolours-sui-94"
+  },
+  {
+    "line": "Rurie: Hello, dear friends! I see you have returned to us safe and sound!",
+    "file": "truecolours-rurie-73"
+  },
+  {
+    "line": "Yusanu: We found everything we were looking for, and- and more!! Plans, Sui, plans!! Of Deraj prison!!",
+    "file": "truecolours-yusanu-44"
+  },
+  {
+    "line": "Rurie: It would seem our dear Changeling Sovereign worked closely with the prison's warden... for what purpose remains unclear, though I imagine something changeling-adjacent?",
+    "file": "truecolours-rurie-74"
+  },
+  {
+    "line": "Yusanu: Sui, with- with these plans, we could... we could stand a chance of breaking everyone out! We could- we could get them all back!",
+    "file": "truecolours-yusanu-45"
+  },
+  {
+    "line": "Yusanu: Sui... where... where are they...?",
+    "file": "truecolours-yusanu-46"
+  },
+  {
+    "line": "Yusanu: Sui...?",
+    "file": "truecolours-yusanu-47"
+  },
+  {
+    "line": "Sui: They're gone, Yusanu! Mora's- Mora's dead.",
+    "file": "truecolours-sui-95"
+  },
+  {
+    "line": "Sui: The Sovereign, they... they killed him.",
+    "file": "truecolours-sui-96"
+  },
+  {
+    "line": "Yusanu: ...what? What- what about the others...?",
+    "file": "truecolours-yusanu-48"
+  },
+  {
+    "line": "Sui: Just... gone. Taken to the Highlands. But, Mora is- he's-",
+    "file": "truecolours-sui-97"
+  },
+  {
+    "line": "Sui: So. So, I- I'm glad you have hope! For... for getting your people back! Good for you!!",
+    "file": "truecolours-sui-98"
+  },
+  {
+    "line": "Rurie: Emotions are... certainly running high right now, aren't they! Why don't we, ah, regroup with the rest of the Canopy, and... take some time?",
+    "file": "truecolours-rurie-75"
+  },
+  {
+    "line": "Sui: Take. Some. Time? No. No, I'm done taking time. I'm done crying, I'm done worrying! I'm so... so... angry! At the Crown, at myself, at- at Mora!!!!",
+    "file": "truecolours-sui-99"
+  },
+  {
+    "line": "Sui: At all of you for treating me like I can't handle anything myself!!!",
+    "file": "truecolours-sui-100"
+  },
+  {
+    "line": "Yusanu: S-Sui, please, I- I understand, but-",
+    "file": "truecolours-yusanu-49"
+  },
+  {
+    "line": "Sui: DO YOU?! Do you understand?! Because it SOUNDS like everything's all just fine for you! Your brothers are still alive! You even have a plan to get them back!!",
+    "file": "truecolours-sui-101"
+  },
+  {
+    "line": "Sui: Rex and Zeph, they... they need me. Need us! And... and I'm not letting anyone else get hurt, or- or- or d-die, not if I can stop it!!",
+    "file": "truecolours-sui-102"
+  },
+  {
+    "line": "Sui: The Crown... the Sovereigns... the Queen... they'll pay. They'll pay for everything they've done to me, and my- m-my... my family...",
+    "file": "truecolours-sui-103"
+  },
+  {
+    "line": "Rurie: And how exactly do you expect to be able to take vengeance in your current state, Sui? I beg of you, please rest before doing something so extreme!",
+    "file": "truecolours-rurie-76"
+  },
+  {
+    "line": "Sui: Every minute I waste is another chance for something to go wrong!!! \"Fading with each and every passing moment...\"",
+    "file": "truecolours-sui-104"
+  },
+  {
+    "line": "Sui: If- if only we were there sooner, then- th-then... so- so, no. No, I can't rest! I will be getting my family back!",
+    "file": "truecolours-sui-105"
+  },
+  {
+    "line": "Yusanu: Sui, we... we can't just storm off into a new district without a plan! The Canopy, they- they can help us! And Soosu's device, I'm so close to a breakthrough, I just need-",
+    "file": "truecolours-yusanu-50"
+  },
+  {
+    "line": "Sui: Then stay behind, Yusanu. I... I don't need you, anyway.",
+    "file": "truecolours-sui-106"
+  },
+  {
+    "line": "Yusanu: ...what?",
+    "file": "truecolours-yusanu-51"
+  },
+  {
+    "line": "Sui: I said, I don't NEED you, Yusanu! What have you even done this whole time we've been in the Mistwoods?! Taken as hostage, tinkering with- with- with that STUPID device!",
+    "file": "truecolours-sui-107"
+  },
+  {
+    "line": "Sui: YOU haven't had to do any of the work! YOU didn't have to- to run random tasks without explanation! YOU didn't have to- to f-fight and k- k- kill a Sovereign! You... you...",
+    "file": "truecolours-sui-108"
+  },
+  {
+    "line": "Sui: ...sorry.",
+    "file": "truecolours-sui-109"
+  },
+  {
+    "line": "Yusanu: Is... is there nothing I can say to convince you not to go?",
+    "file": "truecolours-yusanu-52"
+  },
+  {
+    "line": "Yusanu: Fine. I... I can't follow you, Sui, I can't. I'm going to stay with the Canopy... I'm going to save everyone from Deraj... and I'm going to keep working.",
+    "file": "truecolours-yusanu-53"
+  },
+  {
+    "line": "Rurie: ...well, this doesn't have to be goodbye for good, does it? We shall go our separate paths, for a time, then link back together further down the line!",
+    "file": "truecolours-rurie-77"
+  },
+  {
+    "line": "Sui: Yeah... sure. Why not.",
+    "file": "truecolours-sui-110"
+  },
+  {
+    "line": "Rurie: Hm. If you're set on this path, you'll surely be dealing with the Highlands Sovereign. Ah, Majin of House Thalas... what a delightfully horrible man he is.",
+    "file": "truecolours-rurie-78"
+  },
+  {
+    "line": "Rurie: Experience? Ha! Hahahaha! Yes, I suppose you could say that! Goodness. Experience.",
+    "file": "truecolours-rurie-79"
+  },
+  {
+    "line": "Rurie: A word of warning... he's an easy man to underestimate. All confidence, bluster, so insufferable you could hardly believe there's anything beneath it all!",
+    "file": "truecolours-rurie-80"
+  },
+  {
+    "line": "Rurie: But his self-proclaimed \"number one\" position amongst the Sovereigns isn't just for show! His confidence, his demeanour... all of it is earned. As much as one may wish otherwise!",
+    "file": "truecolours-rurie-81"
+  },
+  {
+    "line": "Rurie: And there's nothing he loves more than to exert his influence over those beneath him. Which would be, ah... everybody?",
+    "file": "truecolours-rurie-82"
+  },
+  {
+    "line": "Sui: ... If he has my family, then... it doesn't matter. I won't let him get in my way.",
+    "file": "truecolours-sui-111"
+  },
+  {
+    "line": "Rurie: Ooh, frightening. Well, I've said my piece. The rest shall be up to you!",
+    "file": "truecolours-rurie-83"
+  },
+  {
+    "line": "Rurie: If you ever have need of us again, we'll have set up camp in the cave we first met. You remember the one, yes? Where I-",
+    "file": "truecolours-rurie-84"
+  },
+  {
+    "line": "Yusanu: Sui, I... I'm sorry for Mora. I hope you can... I hope you can save the others. I really do. Please... don't get yourself killed.",
+    "file": "truecolours-yusanu-54"
+  },
+  {
+    "line": "Sui: ...I- I'm not planning on it. Bye, Yusanu.",
+    "file": "truecolours-sui-112"
   }
 ]
