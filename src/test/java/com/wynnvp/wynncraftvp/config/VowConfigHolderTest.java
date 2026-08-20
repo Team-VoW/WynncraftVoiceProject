@@ -58,10 +58,17 @@ class VowConfigHolderTest {
      * section at their field position with their default value, everything else is left
      * byte-for-byte alone.
      */
-    private static final String CLOTH_WRITTEN_CONFIG_RESAVED = CLOTH_WRITTEN_CONFIG.replace(
-                    "blockVillagerSoundsDuringVoiceDialog = true\n",
-                    "blockVillagerSoundsDuringVoiceDialog = true\nrouteMasterSoundsToBlocks = true\n")
-            + "logBlockedSounds = false\n";
+    private static final String CLOTH_WRITTEN_CONFIG_RESAVED = CLOTH_WRITTEN_CONFIG
+                    .replace(
+                            "enableReverb = true\n",
+                            "enableReverb = true\n" + "soundPhysics = true\n"
+                                    + "soundPhysicsReverbStrength = 100\n"
+                                    + "soundPhysicsOcclusionStrength = 100\n"
+                                    + "soundPhysicsRays = 48\n")
+                    .replace(
+                            "blockVillagerSoundsDuringVoiceDialog = true\n",
+                            "blockVillagerSoundsDuringVoiceDialog = true\nrouteMasterSoundsToBlocks = true\n")
+            + "logBlockedSounds = false\ndebugSoundPhysics = false\n";
 
     @TempDir
     Path tempDir;

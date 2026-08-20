@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-**Voices of Wynn** — Fabric mod for Minecraft 1.21.4. Intercepts chat packets to detect NPC dialogue, matches lines to audio files via `audio_manifest.json`, and plays 3D spatial audio via OpenAL at NPC locations on the Wynncraft MMORPG server.
+**Voices of Wynn** — Fabric mod for Minecraft 1.21.11. Intercepts chat packets to detect NPC dialogue, matches lines to audio files via `audio_manifest.json`, and plays 3D spatial audio via OpenAL at NPC locations on the Wynncraft MMORPG server.
 
 ## Commands
 ```bash
@@ -12,7 +12,10 @@ gradlew build -PbetaSoundsJsonUrl=<url> -PbetaSoundsUrl=<url>  # Beta build with
 ```
 Pre-commit hook: `git config core.hooksPath utils/git-hooks`
 
-No unit tests — all testing is manual in-game.
+JUnit 5 + Mockito are on the test classpath (`gradlew test`), though the house style is hand-rolled
+fakes rather than Mockito. Anything touching `Minecraft.getInstance()` is untestable headless, so
+logic that needs covering goes in a class with no `net.minecraft.*` imports (see
+`text/OverlayStateMachine` and `sound/physics/`) with a thin adapter around it.
 
 ## Pipeline
 `Chat Packet → MixinChatListener → ChatHandler → ReceiveChatEvent → LineFormatter → SoundPlayer → SoundsHandler → AudioPlayer → OpenAlPlayer`
@@ -27,11 +30,30 @@ src/main/java/com/wynnvp/wynncraftvp/
 ├── npc/                # NPC entity tracking / CurrentSpeaker
 ├── sound/
 │   ├── downloader/     # AudioDownloader (CDN fetch + hash verify)
-│   ├── player/         # OpenAlPlayer, AudioPlayer, OggDecoder
+│   ├── player/         # OpenAlPlayer, AudioPlayer, OggDecoder, SoundPhysicsManager
+│   ├── physics/        # Ray-traced acoustics (pure model + world adapters)
 │   └── dialogue/       # DialogueData, SoundObject
 ├── text/               # LineFormatter, StyledText
 └── utils/              # Misc utilities
 ```
+
+## Sound physics
+Reverb and through-wall muffling are traced from the blocks around the speaker rather than authored.
+`sound/physics/` holds the model; everything in it except `AcousticMaterialTable` and
+`LevelMaterialProbe` has no `net.minecraft.*` imports and is unit tested. `SoundPhysicsManager` drives
+it from `ClientTickEvent.onEndWorldTick`, which is the only place raycasting is safe — the audio
+executor is a worker pool and must never read the world.
+
+Two rules to keep in mind when touching it:
+- **Barriers are acoustically invisible.** Wynncraft builds invisible walls out of them, so they must
+  never reflect or muffle. The transparent set is checked before any shape test in
+  `AcousticMaterialTable`, because a barrier is a fully solid, fully opaque block.
+- **An unloaded chunk means open air, never solid.** Otherwise speakers near the render-distance edge
+  get sealed into an imaginary box.
+
+An explicit `"reverb"` in `sounds.json` still overrides the traced result; an absent field means
+"work it out". Material values live in `assets/wynnvp/sound_physics/materials.json` and can be
+overridden without a rebuild by dropping `wynnvp-materials.json` in the config directory.
 
 Audio cache: `VOW_AUDIO/` | Manifest: `audio_manifest.json` (key: `questname-npcname-linetext`)
 Logging: `ModCore.info/warn/error(...)` | Debug: `/vowdebug` (dev only)

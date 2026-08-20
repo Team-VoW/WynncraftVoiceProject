@@ -1,0 +1,173 @@
+{
+  "blocks": {
+    "minecraft:blue_ice": {
+      "surface": "glass"
+    },
+    "minecraft:bookshelf": {
+      "hfDamping": 0.4,
+      "occlusion": 1.0,
+      "reflectivity": 0.35,
+      "scatter": 0.8
+    },
+    "minecraft:cobweb": {
+      "mode": "pass_through",
+      "occlusion": 0.3
+    },
+    "minecraft:dried_kelp_block": {
+      "hfDamping": 0.35,
+      "occlusion": 0.95,
+      "reflectivity": 0.3,
+      "scatter": 0.75
+    },
+    "minecraft:fire": {
+      "mode": "transparent"
+    },
+    "minecraft:flowing_lava": {
+      "hfDamping": 0.7,
+      "mode": "pass_through",
+      "occlusion": 0.35
+    },
+    "minecraft:flowing_water": {
+      "hfDamping": 0.9,
+      "mode": "pass_through",
+      "occlusion": 0.2
+    },
+    "minecraft:hay_block": {
+      "hfDamping": 0.35,
+      "occlusion": 0.95,
+      "reflectivity": 0.3,
+      "scatter": 0.75
+    },
+    "minecraft:ice": {
+      "surface": "glass"
+    },
+    "minecraft:lava": {
+      "hfDamping": 0.7,
+      "mode": "pass_through",
+      "occlusion": 0.35
+    },
+    "minecraft:packed_ice": {
+      "surface": "glass"
+    },
+    "minecraft:soul_fire": {
+      "mode": "transparent"
+    },
+    "minecraft:water": {
+      "hfDamping": 0.9,
+      "mode": "pass_through",
+      "occlusion": 0.2
+    }
+  },
+  "defaults": {
+    "hfDamping": 0.85,
+    "occlusion": 0.9,
+    "reflectivity": 0.78,
+    "scatter": 0.4
+  },
+  "surfaces": {
+    "cloth": {
+      "hfDamping": 0.35,
+      "occlusion": 0.9,
+      "reflectivity": 0.28,
+      "scatter": 0.65
+    },
+    "earth": {
+      "hfDamping": 0.5,
+      "occlusion": 0.6,
+      "reflectivity": 0.42,
+      "scatter": 0.75
+    },
+    "foliage": {
+      "hfDamping": 0.35,
+      "occlusion": 0.15,
+      "reflectivity": 0.3,
+      "scatter": 0.85
+    },
+    "glass": {
+      "hfDamping": 1.0,
+      "occlusion": 0.55,
+      "reflectivity": 0.9,
+      "scatter": 0.05
+    },
+    "light_wood": {
+      "hfDamping": 0.72,
+      "occlusion": 0.35,
+      "reflectivity": 0.62,
+      "scatter": 0.45
+    },
+    "loose": {
+      "hfDamping": 0.55,
+      "occlusion": 0.85,
+      "reflectivity": 0.45,
+      "scatter": 0.7
+    },
+    "metal": {
+      "hfDamping": 1.0,
+      "occlusion": 1.1,
+      "reflectivity": 0.95,
+      "scatter": 0.1
+    },
+    "organic": {
+      "hfDamping": 0.6,
+      "occlusion": 0.85,
+      "reflectivity": 0.55,
+      "scatter": 0.55
+    },
+    "polished_stone": {
+      "hfDamping": 0.98,
+      "occlusion": 1.0,
+      "reflectivity": 0.94,
+      "scatter": 0.12
+    },
+    "rough_stone": {
+      "hfDamping": 0.93,
+      "occlusion": 1.0,
+      "reflectivity": 0.9,
+      "scatter": 0.35
+    },
+    "snow": {
+      "hfDamping": 0.3,
+      "occlusion": 0.6,
+      "reflectivity": 0.22,
+      "scatter": 0.7
+    },
+    "soft": {
+      "hfDamping": 0.3,
+      "occlusion": 1.2,
+      "reflectivity": 0.25,
+      "scatter": 0.55
+    },
+    "stone": {
+      "hfDamping": 0.95,
+      "occlusion": 1.0,
+      "reflectivity": 0.92,
+      "scatter": 0.25
+    },
+    "trinket": {
+      "hfDamping": 0.95,
+      "occlusion": 0.1,
+      "reflectivity": 0.85,
+      "scatter": 0.2
+    },
+    "wood": {
+      "hfDamping": 0.8,
+      "occlusion": 0.75,
+      "reflectivity": 0.72,
+      "scatter": 0.3
+    }
+  },
+  "transparent": [
+    "minecraft:air",
+    "minecraft:barrier",
+    "minecraft:cave_air",
+    "minecraft:chain_command_block",
+    "minecraft:command_block",
+    "minecraft:jigsaw",
+    "minecraft:light",
+    "minecraft:moving_piston",
+    "minecraft:repeating_command_block",
+    "minecraft:structure_block",
+    "minecraft:structure_void",
+    "minecraft:void_air"
+  ]
+}

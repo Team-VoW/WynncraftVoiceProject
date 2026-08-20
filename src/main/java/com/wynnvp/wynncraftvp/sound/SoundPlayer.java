@@ -10,6 +10,7 @@ import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.sound.line.LineReporter;
+import com.wynnvp.wynncraftvp.sound.player.SoundPhysicsManager;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
@@ -73,6 +74,7 @@ public class SoundPlayer {
         }
         if (sound.getId() == null) return;
         NpcSoundBlocker.markVoiceLineStarted();
+        primeAcoustics(sound);
         ModCore.instance.audioPlayer.play(sound);
     }
 
@@ -94,7 +96,30 @@ public class SoundPlayer {
         }
 
         NpcSoundBlocker.markVoiceLineStarted();
+        primeAcoustics(sound);
         ModCore.instance.audioPlayer.play(sound);
+    }
+
+    /**
+     * Measures the room before playback starts.
+     *
+     * <p>Decoding and uploading the audio happens on a worker thread, which must not touch the world,
+     * so the measurement is taken here instead. Chat and overlay handling are already on the client
+     * thread, so this normally runs inline and the line is in the right room from its first sample.
+     */
+    private void primeAcoustics(SoundObject sound) {
+        if (!SoundPhysicsManager.isEnabled()) return;
+        Utils.runOnClientThread(() -> {
+            if (ModCore.instance.audioPlayer == null) return;
+            ModCore.instance
+                    .audioPlayer
+                    .openAlPlayer
+                    .soundPhysics()
+                    .prime(
+                            sound.isSoundAtPlayer() ? "" : sound.getTrimmedNpcName(),
+                            sound.getPosition(),
+                            sound.getReverb());
+        });
     }
 
     /*    private SoundInstance playSoundAtCords(Vec3 position, SoundObject soundObject, SoundManager manager) {

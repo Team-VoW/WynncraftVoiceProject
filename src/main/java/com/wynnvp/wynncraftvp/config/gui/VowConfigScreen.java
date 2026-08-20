@@ -28,6 +28,20 @@ public class VowConfigScreen extends VowOptionsScreen {
                 slider("playbackSpeed", 70, 200, config.playbackSpeed, v -> config.playbackSpeed = v),
                 slider("blockCutOff", 1, 128, config.blockCutOff, v -> config.blockCutOff = v),
                 bool("enableReverb", config.enableReverb, v -> config.enableReverb = v),
+                bool("soundPhysics", config.soundPhysics, v -> config.soundPhysics = v),
+                slider(
+                        "soundPhysicsReverbStrength",
+                        0,
+                        200,
+                        config.soundPhysicsReverbStrength,
+                        v -> config.soundPhysicsReverbStrength = v),
+                slider(
+                        "soundPhysicsOcclusionStrength",
+                        0,
+                        100,
+                        config.soundPhysicsOcclusionStrength,
+                        v -> config.soundPhysicsOcclusionStrength = v),
+                slider("soundPhysicsRays", 8, 96, config.soundPhysicsRays, v -> config.soundPhysicsRays = v),
                 bool(
                         "blockVillagerSoundsDuringVoiceDialog",
                         config.blockVillagerSoundsDuringVoiceDialog,

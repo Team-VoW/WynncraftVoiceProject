@@ -49,6 +49,14 @@ public class VOWAutoConfig {
 
     public boolean enableReverb = true;
 
+    public boolean soundPhysics = true;
+
+    public int soundPhysicsReverbStrength = 100;
+
+    public int soundPhysicsOcclusionStrength = 100;
+
+    public int soundPhysicsRays = 48;
+
     public boolean blockVillagerSoundsDuringVoiceDialog = true;
 
     public boolean routeMasterSoundsToBlocks = true;
@@ -84,6 +92,30 @@ public class VOWAutoConfig {
         public boolean logOverlayPackets = false;
 
         public boolean logBlockedSounds = false;
+
+        public boolean debugSoundPhysics = false;
+    }
+
+    public boolean isSoundPhysics() {
+        return soundPhysics;
+    }
+
+    /** Wetness scale for computed reverb. 1.0 is the physically modelled amount. */
+    public float getSoundPhysicsReverbStrength() {
+        return soundPhysicsReverbStrength / 100.0f;
+    }
+
+    /** Muffling scale. 0 turns occlusion off without disabling reverb. */
+    public float getSoundPhysicsOcclusionStrength() {
+        return soundPhysicsOcclusionStrength / 100.0f;
+    }
+
+    public int getSoundPhysicsRays() {
+        return soundPhysicsRays;
+    }
+
+    public boolean isDebugSoundPhysics() {
+        return debugAndLogs.debugSoundPhysics;
     }
 
     public boolean isLogBlockedSounds() {
