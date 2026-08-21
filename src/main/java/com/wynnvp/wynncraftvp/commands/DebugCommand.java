@@ -8,6 +8,7 @@ import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.npc.NPCHandler;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import net.minecraft.client.Minecraft;
@@ -49,6 +50,21 @@ public class DebugCommand {
                     context.getSource().sendFeedback(Component.literal(summary));
                     return 1;
                 }))
+                .then(VowCommands.literal("tags").executes(context -> {
+                    String summary = NPCHandler.describeNametags();
+                    ModCore.info(summary);
+                    context.getSource().sendFeedback(Component.literal(summary));
+                    return 1;
+                }))
+                .then(VowCommands.literal("npc")
+                        .then(VowCommands.argument("name", StringArgumentType.greedyString())
+                                .executes(context -> {
+                                    String name = StringArgumentType.getString(context, "name");
+                                    String summary = NPCHandler.describeSearch(name);
+                                    ModCore.info(summary);
+                                    context.getSource().sendFeedback(Component.literal(summary));
+                                    return 1;
+                                })))
                 .then(VowCommands.literal("play-first-sound")
                         .executes(context -> {
                             if (ModCore.instance == null

@@ -23,7 +23,18 @@ import net.minecraft.world.phys.Vec3;
  * either volatile or an atomic reference to an immutable value, so no locking is needed.
  */
 public class CurrentSpeaker {
+    /**
+     * Ticks to wait before looking for a speaker that was not found last time.
+     *
+     * <p>A search that fails is the expensive one: it walks every nametag in a two hundred block box
+     * and matches all of them. Without this, a line whose speaker has no entity at all pays that cost
+     * on every tick it plays. A speaker that was found is not delayed, so an NPC that walks away from
+     * its nametag is still picked up again on the next tick.
+     */
+    private static final int FAILED_SEARCH_BACKOFF_TICKS = 10;
+
     private CachedEntity cachedEntity;
+    private int searchBackoff;
     public String rawName = "";
     private Optional<Vec3> lastEntityPos;
 
@@ -82,6 +93,7 @@ public class CurrentSpeaker {
         setPosition = pos.filter(p -> p.x != 0 || p.y != 0 || p.z != 0);
         rawName = name.toLowerCase().replace(" ", "");
         cachedEntity = null;
+        searchBackoff = 0;
     }
 
     /**
@@ -97,7 +109,14 @@ public class CurrentSpeaker {
         if (this.rawName.isEmpty()) {
             return Optional.empty();
         }
-        if (!NPCHandler.isCachedValid(cachedEntity)) cachedEntity = NPCHandler.findEntity(rawName);
+        if (!NPCHandler.isCachedValid(cachedEntity)) {
+            if (searchBackoff > 0) {
+                searchBackoff--;
+            } else {
+                cachedEntity = NPCHandler.findEntity(rawName);
+                searchBackoff = cachedEntity == null ? FAILED_SEARCH_BACKOFF_TICKS : 0;
+            }
+        }
 
         // Was not able to find the entity, so just let the sound keep on playing where it is.
         if (cachedEntity == null) {
