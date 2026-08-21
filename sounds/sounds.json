@@ -77771,5 +77771,329 @@
   {
     "line": "Sir Hurlay: Hm. Hm, hm, hm... I should keep better track of the ledgers. If I had noticed earlier, petitioned earlier... But of course, a Nasin wouldn't have thought ahead... Hm...",
     "file": "undersupply-sirhurlay-6"
+  },
+  {
+    "line": "Abramod: Halt, stranger! If you value your life, do not take another step forward.",
+    "file": "burningbonds-abramod-1"
+  },
+  {
+    "line": "Abramod: I have nothing left to give you! Leave, you and your kindred!",
+    "file": "burningbonds-abramod-2"
+  },
+  {
+    "line": "Abramod: You're completely unscathed? You must be powerful indeed, no changeling could defeat you.",
+    "file": "burningbonds-abramod-3"
+  },
+  {
+    "line": "Abramod: Still though, I have nothing for you. I even lack a medallion to prove my own identity...",
+    "file": "burningbonds-abramod-4"
+  },
+  {
+    "line": "Abramod: Ah, you have lost yours too? Kindred spirits we are, dead to our worlds!",
+    "file": "burningbonds-abramod-5"
+  },
+  {
+    "line": "Abramod: Lost to my clan, dead to my family, assumed to be a brute beast of the worst sort... I am sure you can understand, being in the same state as myself?",
+    "file": "burningbonds-abramod-6"
+  },
+  {
+    "line": "Abramod: It is some small comfort to find one in the same situation as myself. I will not pry into you, I know the value of secrets as well as anyone. But please, will you allow me a measure of catharsis and lend an empathetic ear so I may tell my tale?",
+    "file": "burningbonds-abramod-7"
+  },
+  {
+    "line": "Abramod: Ah, I understand. I need not burden you with the miseries of an old man",
+    "file": "burningbonds-abramod-8"
+  },
+  {
+    "line": "Abramod: You have returned! Now, are you willing to take a moment to listen to my tale?",
+    "file": "burningbonds-abramod-9"
+  },
+  {
+    "line": "Abramod: Then, let me tell you a story about losing your identity in the Mistwoods. About burning your medallion.",
+    "file": "burningbonds-abramod-10"
+  },
+  {
+    "line": "Abramod: The forest here is safe, I ought to return home.",
+    "file": "burningbonds-abramod-11"
+  },
+  {
+    "line": "Abramod: ...Brother?",
+    "file": "burningbonds-abramod-12"
+  },
+  {
+    "line": "Lishvil: Abramod... I want to come home now.",
+    "file": "burningbonds-lishvil-1"
+  },
+  {
+    "line": "Lishvil: If you give me your medallion, I can be with you again.",
+    "file": "burningbonds-lishvil-2"
+  },
+  {
+    "line": "Abramod: If you can't show me your medallion, how could I know you are really you?",
+    "file": "burningbonds-abramod-13"
+  },
+  {
+    "line": "Abramod: There are creatures that take the shape of any man, and they want to kill us! It would be ignorant to not take it with you!",
+    "file": "burningbonds-abramod-14"
+  },
+  {
+    "line": "Lishvil: Give me your medallion. I can become one of you.",
+    "file": "burningbonds-lishvil-3"
+  },
+  {
+    "line": "Abramod: You are not Lishvil. And judging by that, he disposed of his before you could get to it.",
+    "file": "burningbonds-abramod-15"
+  },
+  {
+    "line": "Abramod: If it means you won't deceive my clan, I'll burn my medallion, like Lishvil did! You can kill me, but you will never be me!",
+    "file": "burningbonds-abramod-16"
+  },
+  {
+    "line": "Abramod: Watch this, vile deceiver!",
+    "file": "burningbonds-abramod-17"
+  },
+  {
+    "line": "Abramod: Hyup! There, if you want it so bad, go get it!",
+    "file": "burningbonds-abramod-18"
+  },
+  {
+    "line": "Lishvil: NO!",
+    "file": "burningbonds-lishvil-4"
+  },
+  {
+    "line": "Abramod: That is my story. It is unfortunate it cannot have a happier ending, unless...",
+    "file": "burningbonds-abramod-19"
+  },
+  {
+    "line": "Abramod: I do know how to make a new medallion, but it is a difficult task. Collecting the materials required for it would be more dangerous for my frail body than fending for myself out here...",
+    "file": "burningbonds-abramod-20"
+  },
+  {
+    "line": "Abramod: With you however, we might be able to gather them. If you prove yourself trustworthy, I could even help you make one as well. How does that sound?",
+    "file": "burningbonds-abramod-21"
+  },
+  {
+    "line": "Abramod: Thank you, truly!",
+    "file": "burningbonds-abramod-22"
+  },
+  {
+    "line": "Abramod: First, we will need a wooden base for the medallion.",
+    "file": "burningbonds-abramod-23"
+  },
+  {
+    "line": "Abramod: There's an old, lightning struck tree to the south that we traditionally go to.",
+    "file": "burningbonds-abramod-24"
+  },
+  {
+    "line": "Abramod: I will write the directions to it for you and meet you by it.",
+    "file": "burningbonds-abramod-25"
+  },
+  {
+    "line": "Abramod: This tree was struck by lightning many generations ago. And yet it has remained standing, even after death.",
+    "file": "burningbonds-abramod-26"
+  },
+  {
+    "line": "Abramod: The bark from it has proven sturdy enough that it works well as a medallion's base.",
+    "file": "burningbonds-abramod-27"
+  },
+  {
+    "line": "Abramod: However it might be a bit, ah, difficult to reach. It is in part why I need your help.",
+    "file": "burningbonds-abramod-28"
+  },
+  {
+    "line": "Abramod: I will... assist you in climbing the tree. On your way down, you will need to hit 5 of healthier branches so we have enough bark.",
+    "file": "burningbonds-abramod-29"
+  },
+  {
+    "line": "Abramod: I'll need to stay down here so I can collect the bark as it hits the ground.",
+    "file": "burningbonds-abramod-30"
+  },
+  {
+    "line": "Abramod: Are you ready?",
+    "file": "burningbonds-abramod-31"
+  },
+  {
+    "line": "Abramod: If you need time to get your bearings, I understand. Come back when you're ready!",
+    "file": "burningbonds-abramod-32"
+  },
+  {
+    "line": "Abramod: Alright, here you go!",
+    "file": "burningbonds-abramod-33"
+  },
+  {
+    "line": "Abramod: Looks like you didn't quite hit enough branches...",
+    "file": "burningbonds-abramod-34"
+  },
+  {
+    "line": "Abramod: Try again?",
+    "file": "burningbonds-abramod-35"
+  },
+  {
+    "line": "Abramod: I understand. Talk to me again when you've caught your breath.",
+    "file": "burningbonds-abramod-36"
+  },
+  {
+    "line": "Abramod: Good! This should be enough for the bases.",
+    "file": "burningbonds-abramod-37"
+  },
+  {
+    "line": "Abramod: Next we'll need to collect some resin to lacquer the medallion with.",
+    "file": "burningbonds-abramod-38"
+  },
+  {
+    "line": "Abramod: High in a mountain meadow to the east, a fern grows that excretes a resin that works well for the task.",
+    "file": "burningbonds-abramod-39"
+  },
+  {
+    "line": "Abramod: I'll write you some instructions on how to get there and see you once you arrive.",
+    "file": "burningbonds-abramod-40"
+  },
+  {
+    "line": "Abramod: This meadow is home to a rare fern that we collect resin from to make our medallions.",
+    "file": "burningbonds-abramod-41"
+  },
+  {
+    "line": "Abramod: Do not go searching for it just yet though! It is also home to a poisonous fern that appears very similar to the one we need.",
+    "file": "burningbonds-abramod-42"
+  },
+  {
+    "line": "Abramod: My eyes aren't so good anymore, so I'm going to need your help to tell them apart!",
+    "file": "burningbonds-abramod-43"
+  },
+  {
+    "line": "Abramod: I'm going to toss the plants for you. You can pick them up by right-clicking them - even while they're still in the air!",
+    "file": "burningbonds-abramod-44"
+  },
+  {
+    "line": "Abramod: Place the greener, healthier looking plants to the side where I am now. And you'll need to burn the poisonous, more sickly looking plants on the other side.",
+    "file": "burningbonds-abramod-45"
+  },
+  {
+    "line": "Abramod: We'll need 8 of the good ferns to extract enough resin. But make sure the poisonous ferns don't build up too much or it could be dangerous for you!",
+    "file": "burningbonds-abramod-46"
+  },
+  {
+    "line": "Abramod: You'll only be able to pick up one at a time, so good luck!",
+    "file": "burningbonds-abramod-47"
+  },
+  {
+    "line": "Abramod: Ready?",
+    "file": "burningbonds-abramod-48"
+  },
+  {
+    "line": "Abramod: I understand. I'll be here whenever you are.",
+    "file": "burningbonds-abramod-49"
+  },
+  {
+    "line": "Abramod: Here you go!",
+    "file": "burningbonds-abramod-50"
+  },
+  {
+    "line": "Abramod: Looks like you didn't get enough!",
+    "file": "burningbonds-abramod-51"
+  },
+  {
+    "line": "Abramod: Want to try again?",
+    "file": "burningbonds-abramod-52"
+  },
+  {
+    "line": "Abramod: Alright, I understand.",
+    "file": "burningbonds-abramod-53"
+  },
+  {
+    "line": "Abramod: Talk to me whenever you're ready to try again.",
+    "file": "burningbonds-abramod-54"
+  },
+  {
+    "line": "Abramod: That should be enough resin!",
+    "file": "burningbonds-abramod-55"
+  },
+  {
+    "line": "Abramod: There's only one final thing we need: knives to cut the bark with.",
+    "file": "burningbonds-abramod-56"
+  },
+  {
+    "line": "Abramod: Put that away, we don't need just any knife!",
+    "file": "burningbonds-abramod-57"
+  },
+  {
+    "line": "Abramod: Tradition dictates we have to descend to a cave beneath this mountain where much of the fog of the Mistwoods settles. Deep inside are stones we've used for generations in carving our medallions.",
+    "file": "burningbonds-abramod-58"
+  },
+  {
+    "line": "Abramod: I'll write down the directions for you again and meet you there.",
+    "file": "burningbonds-abramod-59"
+  },
+  {
+    "line": "Abramod: This cave here is where much of the mist pools. You can't tell from here, but it's very windy in there!",
+    "file": "burningbonds-abramod-60"
+  },
+  {
+    "line": "Abramod: At its end is an outcrop of rock with some of the sharpest stalagmites you've ever seen formed from those harsh winds.",
+    "file": "burningbonds-abramod-61"
+  },
+  {
+    "line": "Abramod: You'll need to head in and reach that outcrop. I'll try and call out to you if I see any bursts of wind heading your way, but you'll have to dodge them on your own!",
+    "file": "burningbonds-abramod-62"
+  },
+  {
+    "line": "Abramod: If you get hit you'll be blown back, but try not to be blown back too far.",
+    "file": "burningbonds-abramod-63"
+  },
+  {
+    "line": "Abramod: You can walk in once you're ready to start.",
+    "file": "burningbonds-abramod-64"
+  },
+  {
+    "line": "Abramod: Excellent work!",
+    "file": "burningbonds-abramod-65"
+  },
+  {
+    "line": "Abramod: I'll meet you back at my campsite.",
+    "file": "burningbonds-abramod-66"
+  },
+  {
+    "line": "Abramod: Thank you so much again for all the help you've granted me!",
+    "file": "burningbonds-abramod-67"
+  },
+  {
+    "line": "Abramod: Hello!",
+    "file": "burningbonds-abramod-68"
+  },
+  {
+    "line": "Abramod: We are going to make the medallion now, are we not?",
+    "file": "burningbonds-abramod-69"
+  },
+  {
+    "line": "Abramod: It looks like I marked out for you the spots on the medallion that have to be cut out.",
+    "file": "burningbonds-abramod-70"
+  },
+  {
+    "line": "Abramod: All you have to do is cut them. Easy.",
+    "file": "burningbonds-abramod-71"
+  },
+  {
+    "line": "Abramod: You're not ready!? Then get ready, quickly! We do not have time to waste.",
+    "file": "burningbonds-abramod-72"
+  },
+  {
+    "line": "Abramod: Good! I will drag the knife down. And you will push it in to cut!",
+    "file": "burningbonds-abramod-73"
+  },
+  {
+    "line": "Abramod: Good! Good! Look at how beautiful it is!",
+    "file": "burningbonds-abramod-74"
+  },
+  {
+    "line": "Abramod: The intricacy! The style! With this, I will be able to get into any clan I want!",
+    "file": "burningbonds-abramod-75"
+  },
+  {
+    "line": "Abramod: But... there is a loose end isn't there. Even if I can go anywhere I want... you will always know, won't you?",
+    "file": "burningbonds-abramod-76"
+  },
+  {
+    "line": "Abramod: You are a danger that cannot be allowed to persist!",
+    "file": "burningbonds-abramod-77"
   }
 ]
