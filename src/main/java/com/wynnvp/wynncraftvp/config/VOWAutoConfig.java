@@ -93,6 +93,8 @@ public class VOWAutoConfig {
 
         public boolean logBlockedSounds = false;
 
+        public boolean logAutoProgress = true;
+
         public boolean debugSoundPhysics = false;
     }
 
@@ -120,6 +122,10 @@ public class VOWAutoConfig {
 
     public boolean isLogBlockedSounds() {
         return debugAndLogs.logBlockedSounds;
+    }
+
+    public boolean isLogAutoProgress() {
+        return debugAndLogs.logAutoProgress;
     }
 
     public boolean isLogDialogueLines() {
