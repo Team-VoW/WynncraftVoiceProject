@@ -46,6 +46,28 @@ public final class OcclusionModel {
     }
 
     /**
+     * The same wall, as it applies to the reverb send.
+     *
+     * <p>Muffling only the direct path is what makes an occluded speaker stop having a direction. The
+     * wet signal an auxiliary slot returns is a decorrelated, near-omnidirectional bed, so holding the
+     * send at full level while the direct path is pulled down raises the wet-to-dry ratio exactly when
+     * localisation is already hardest, and the voice ends up coming from everywhere at once.
+     *
+     * <p>The broadband gain therefore tracks the direct path one for one, which keeps that ratio steady
+     * however much rock is in the way. The high band is taken down only half as far in decibels: the
+     * tail is already dark, and dulling it twice reads as a blanket thrown over the room rather than a
+     * wall between two of them.
+     *
+     * @param direct what {@link #compute} produced for the direct path
+     */
+    public static Occlusion sendPath(Occlusion direct) {
+        if (direct == null || !direct.isAudible()) {
+            return Occlusion.NONE;
+        }
+        return new Occlusion(direct.gain(), (float) Math.sqrt(direct.gainHf()));
+    }
+
+    /**
      * @param units occlusion accumulated along the direct path
      * @param strength user scale in [0, 1]; 0 disables muffling entirely
      */

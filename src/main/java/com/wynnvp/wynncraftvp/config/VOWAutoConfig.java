@@ -5,6 +5,7 @@
 package com.wynnvp.wynncraftvp.config;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import java.time.Duration;
 import java.util.List;
 
 /**
@@ -15,10 +16,17 @@ import java.util.List;
  * state the mod manages on its own.
  */
 public class VOWAutoConfig {
+    /** How long the Directional Audio nudge stays quiet after being shown. */
+    public static final long DIRECTIONAL_AUDIO_HINT_INTERVAL_MS =
+            Duration.ofDays(3).toMillis();
+
     // Internal state, not shown in the settings screen:
     public String word = "gzog6zilzq6zxlt";
 
     public boolean hasChosenLineReport = false;
+
+    /** When the nudge about Minecraft's Directional Audio setting was last shown, in epoch millis. */
+    public long directionalAudioHintLastShown = 0;
 
     public String azureBlobLink = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
 
@@ -96,6 +104,29 @@ public class VOWAutoConfig {
         public boolean logAutoProgress = true;
 
         public boolean debugSoundPhysics = false;
+    }
+
+    /**
+     * Whether the Directional Audio nudge is allowed to appear again.
+     *
+     * <p>A fresh install has never seen it, so it is due at once. After that it stays quiet for
+     * {@link #DIRECTIONAL_AUDIO_HINT_INTERVAL_MS}: the setting it points at is worth mentioning more
+     * than once, since a player who ignores it the first time has no other way of finding out, but not
+     * worth mentioning every session.
+     *
+     * @param now wall-clock time in epoch millis
+     */
+    public boolean isDirectionalAudioHintDue(long now) {
+        // A clock that has jumped backwards -- a timezone move, an NTP correction, a machine whose
+        // battery died -- would otherwise silence the hint until real time caught up with the stamp.
+        if (now < directionalAudioHintLastShown) {
+            return true;
+        }
+        return now - directionalAudioHintLastShown >= DIRECTIONAL_AUDIO_HINT_INTERVAL_MS;
+    }
+
+    public void markDirectionalAudioHintShown(long now) {
+        directionalAudioHintLastShown = now;
     }
 
     public boolean isSoundPhysics() {

@@ -15,7 +15,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.network.chat.ClickEvent;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.HoverEvent;
 import net.minecraft.network.chat.MutableComponent;
+import net.minecraft.network.chat.Style;
 
 public class Utils {
     private static final Pattern URL_PATTERN =
@@ -74,6 +76,35 @@ public class Utils {
             // No URLs found, just add the text as is
             message.append(Component.literal(text));
         }
+
+        Minecraft.getInstance().gui.getChat().addMessage(message);
+    }
+
+    /**
+     * Sends a mod message with a button on the end that runs one of the mod's own commands.
+     *
+     * <p>The command never reaches the server: {@code MixinClientCommandSender} intercepts it, exactly
+     * as it does for one the player typed.
+     *
+     * @param command the command to run, with its leading slash
+     * @param clickText the label for the button, appended after the text
+     * @param hoverText what to show when the button is hovered
+     */
+    public static void sendMessageWithCommand(String text, String command, String clickText, String hoverText) {
+        if (!Minecraft.getInstance().isSameThread()) {
+            runOnClientThread(() -> sendMessageWithCommand(text, command, clickText, hoverText));
+            return;
+        }
+
+        if (Minecraft.getInstance().player == null) return;
+
+        MutableComponent message = Component.literal("§5[Voices of Wynn]§r ").append(Component.literal(text));
+        message.append(Component.literal(clickText)
+                .setStyle(Style.EMPTY
+                        .withClickEvent(new ClickEvent.RunCommand(command))
+                        .withHoverEvent(new HoverEvent.ShowText(Component.literal(hoverText)))
+                        .withColor(ChatFormatting.GREEN)
+                        .withUnderlined(true)));
 
         Minecraft.getInstance().gui.getChat().addMessage(message);
     }

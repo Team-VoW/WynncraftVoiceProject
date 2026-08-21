@@ -17,6 +17,7 @@ import com.wynnvp.wynncraftvp.sound.physics.OcclusionModel;
 import com.wynnvp.wynncraftvp.sound.physics.ReverbParameterMapper;
 import com.wynnvp.wynncraftvp.sound.physics.TraceSink;
 import java.util.Collection;
+import java.util.Objects;
 import java.util.Optional;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
@@ -54,8 +55,16 @@ public final class SoundPhysicsManager {
     /** The client thread's idea of the time, so the audio thread never has to ask the world. */
     private volatile long clientTick;
 
-    /** A measurement taken at play time, before the source exists, so a line never starts dry. */
-    private record Primed(Vec3 position, long tick, AppliedAcoustics acoustics) {}
+    /**
+     * What was worked out at play time, before the source existed.
+     *
+     * @param speakerName the raw name the line was primed for, so a second line cannot pick this up
+     * @param position where the speaker resolved to, or empty for a head-locked line
+     * @param measuredAt where the trace actually ran, which for a head-locked line is the listener
+     * @param acoustics the measurement, so a line never starts dry
+     */
+    private record Primed(
+            String speakerName, Optional<Vec3> position, Vec3 measuredAt, long tick, AppliedAcoustics acoustics) {}
 
     public SoundPhysicsManager() {
         this.table = AcousticMaterialTable.load();
@@ -68,17 +77,19 @@ public final class SoundPhysicsManager {
     }
 
     /**
-     * Measures the space at a position straight away, so the very first moment of a line is already
-     * in the right room.
+     * Works out where a line is about to be spoken from, and measures the space there, before its
+     * source exists.
      *
      * <p>Called as playback is being set up. Chat and overlay handling are already on the client
-     * thread, so this normally runs inline; if it does not, the line simply starts dry and the next
-     * tick snaps it into place.
+     * thread, so this normally runs inline; if it does not, the line starts head-locked and dry and the
+     * next tick snaps it into place.
+     *
+     * <p>The position half runs whether or not sound physics is switched on. Resolving a speaker means
+     * searching the entity list, so the audio thread cannot do it for itself, and a source created
+     * before its position is known starts playing from the world origin. Only the measuring, which is
+     * the expensive half, is skipped when physics is off.
      */
     public void prime(String speakerName, Optional<Vec3> fixedPosition, Reverb forcedReverb) {
-        if (!isEnabled()) {
-            return;
-        }
         Minecraft minecraft = Minecraft.getInstance();
         if (!minecraft.isSameThread()) {
             return;
@@ -89,16 +100,15 @@ public final class SoundPhysicsManager {
             return;
         }
 
-        // Resolving the speaker means searching the entity list, which is exactly why this only runs
-        // on the client thread.
         Optional<Vec3> resolved = new CurrentSpeaker(speakerName, fixedPosition).getUpdatedPosition();
 
         Vec3 listener = player.getEyePosition();
         boolean headLocked = resolved.isEmpty() || playsOnPlayer();
         Vec3 source = resolved.orElse(listener);
-        AppliedAcoustics acoustics = evaluate(level, source, listener, headLocked, forcedReverb, null);
+        AppliedAcoustics acoustics =
+                isEnabled() ? evaluate(level, source, listener, headLocked, forcedReverb, null) : AppliedAcoustics.DRY;
         clientTick = level.getGameTime();
-        primed = new Primed(source, clientTick, acoustics);
+        primed = new Primed(speakerName, headLocked ? Optional.empty() : resolved, source, clientTick, acoustics);
     }
 
     /**
@@ -107,19 +117,44 @@ public final class SoundPhysicsManager {
      * <p>Read from the audio thread while a source is being created.
      */
     public AppliedAcoustics takePrimed(Optional<Vec3> speakerPos) {
-        Primed snapshot = primed;
+        Primed snapshot = fresh();
         if (snapshot == null) {
             return AppliedAcoustics.DRY;
         }
-        // Deliberately compares against a tick the client thread published rather than reading the
-        // world. This runs on the audio executor, which must never touch the level.
-        if (clientTick - snapshot.tick() > PRIMED_LIFETIME_TICKS) {
-            return AppliedAcoustics.DRY;
-        }
-        if (speakerPos.isPresent() && speakerPos.get().distanceToSqr(snapshot.position()) > 4.0) {
+        if (speakerPos.isPresent() && speakerPos.get().distanceToSqr(snapshot.measuredAt()) > 4.0) {
             return AppliedAcoustics.DRY;
         }
         return snapshot.acoustics();
+    }
+
+    /**
+     * Where the line about to start was resolved to, if it was primed for this same speaker.
+     *
+     * <p>Read from the audio thread while a source is being created, so that the source can be given
+     * its position before it is ever played rather than a tick later.
+     *
+     * @return the speaker position, or empty if nothing usable was primed or the line is head-locked
+     */
+    public Optional<Vec3> takePrimedPosition(String speakerName) {
+        Primed snapshot = fresh();
+        if (snapshot == null || !Objects.equals(snapshot.speakerName(), speakerName)) {
+            return Optional.empty();
+        }
+        return snapshot.position();
+    }
+
+    /**
+     * The primed snapshot, if it is still worth using.
+     *
+     * <p>Deliberately compares against a tick the client thread published rather than reading the
+     * world. This runs on the audio executor, which must never touch the level.
+     */
+    private Primed fresh() {
+        Primed snapshot = primed;
+        if (snapshot == null || clientTick - snapshot.tick() > PRIMED_LIFETIME_TICKS) {
+            return null;
+        }
+        return snapshot;
     }
 
     /** Client thread, once per world tick, before the audio thread reads any of this. */

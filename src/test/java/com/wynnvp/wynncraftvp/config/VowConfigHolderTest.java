@@ -60,6 +60,9 @@ class VowConfigHolderTest {
      */
     private static final String CLOTH_WRITTEN_CONFIG_RESAVED = CLOTH_WRITTEN_CONFIG
                     .replace(
+                            "hasChosenLineReport = true\n",
+                            "hasChosenLineReport = true\ndirectionalAudioHintLastShown = 0\n")
+                    .replace(
                             "enableReverb = true\n",
                             "enableReverb = true\n" + "soundPhysics = true\n"
                                     + "soundPhysicsReverbStrength = 100\n"

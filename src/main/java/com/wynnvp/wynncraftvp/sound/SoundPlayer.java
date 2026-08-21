@@ -10,7 +10,6 @@ import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.sound.line.LineReporter;
-import com.wynnvp.wynncraftvp.sound.player.SoundPhysicsManager;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
@@ -74,7 +73,7 @@ public class SoundPlayer {
         }
         if (sound.getId() == null) return;
         NpcSoundBlocker.markVoiceLineStarted();
-        primeAcoustics(sound);
+        primeSpeaker(sound);
         ModCore.instance.audioPlayer.play(sound);
     }
 
@@ -96,19 +95,22 @@ public class SoundPlayer {
         }
 
         NpcSoundBlocker.markVoiceLineStarted();
-        primeAcoustics(sound);
+        primeSpeaker(sound);
         ModCore.instance.audioPlayer.play(sound);
     }
 
     /**
-     * Measures the room before playback starts.
+     * Finds the speaker, and measures the room around them, before playback starts.
      *
      * <p>Decoding and uploading the audio happens on a worker thread, which must not touch the world,
-     * so the measurement is taken here instead. Chat and overlay handling are already on the client
-     * thread, so this normally runs inline and the line is in the right room from its first sample.
+     * so both are done here instead. Chat and overlay handling are already on the client thread, so
+     * this normally runs inline and the line is in the right place, in the right room, from its first
+     * sample.
+     *
+     * <p>Not gated on the sound physics toggle: the position is needed either way, or the source spends
+     * its first tick at the world origin. The measuring inside is what the toggle skips.
      */
-    private void primeAcoustics(SoundObject sound) {
-        if (!SoundPhysicsManager.isEnabled()) return;
+    private void primeSpeaker(SoundObject sound) {
         Utils.runOnClientThread(() -> {
             if (ModCore.instance.audioPlayer == null) return;
             ModCore.instance

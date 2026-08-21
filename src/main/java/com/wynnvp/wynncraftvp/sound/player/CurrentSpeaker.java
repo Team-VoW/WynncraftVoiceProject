@@ -67,6 +67,7 @@ public class CurrentSpeaker {
     private SourceEffectPool.Handles handles;
     private boolean occlusionAttached;
     private boolean sendAttached;
+    private boolean sendFilterAttached;
     private ComputedReverb lastAppliedReverb;
     private int buffer;
 
@@ -94,6 +95,27 @@ public class CurrentSpeaker {
         rawName = name.toLowerCase().replace(" ", "");
         cachedEntity = null;
         searchBackoff = 0;
+        // A fixed position needs no entity list to resolve, so it can be published straight away rather
+        // than waiting for the first tick. See seedPosition for why that matters.
+        publishedPosition = setPosition;
+    }
+
+    /**
+     * Offers a position resolved before this line's source existed.
+     *
+     * <p>Called on the audio thread as playback is set up. Without it a source is created with OpenAL's
+     * default position, which is the world origin in absolute coordinates, and plays its first tick
+     * from there: on Wynncraft that is thousands of blocks away, so the attack of every line -- the
+     * part the ear actually takes its bearing from -- is hard-panned at whatever the origin happens to
+     * lie, and then snaps.
+     *
+     * <p>A fixed position from the manifest always wins, since it needed no resolving in the first
+     * place.
+     */
+    public void seedPosition(Optional<Vec3> resolved) {
+        if (publishedPosition.isEmpty()) {
+            publishedPosition = resolved;
+        }
     }
 
     /**
@@ -197,6 +219,15 @@ public class CurrentSpeaker {
 
     public void setSendAttached(boolean attached) {
         this.sendAttached = attached;
+    }
+
+    /** Whether the send is currently routed through the rig's filter rather than straight through. */
+    public boolean isSendFilterAttached() {
+        return sendFilterAttached;
+    }
+
+    public void setSendFilterAttached(boolean attached) {
+        this.sendFilterAttached = attached;
     }
 
     /** What was last written to this line's effect, so an unchanged update can be skipped. */
