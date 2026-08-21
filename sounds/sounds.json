@@ -78095,5 +78095,969 @@
   {
     "line": "Abramod: You are a danger that cannot be allowed to persist!",
     "file": "burningbonds-abramod-77"
+  },
+  {
+    "line": "Fichu: I'm rushing to finish a gift I made for Sovereign Soosu! The festival's gonna be this week, and I can't miss my opportunity to give it to her!",
+    "file": "throughthepipes-fichu-1"
+  },
+  {
+    "line": "Fichu: Just as I was about to add the finishing details, a raccoon snuck up on me and snatched it from my bag! Can you believe it?",
+    "file": "throughthepipes-fichu-2"
+  },
+  {
+    "line": "Fichu: Especially considering how rarely Soosu shows up in public, this festival might be my only opportunity this year...",
+    "file": "throughthepipes-fichu-3"
+  },
+  {
+    "line": "Fichu: Say, this might be a big ask, but- do you think you could help me?",
+    "file": "throughthepipes-fichu-4"
+  },
+  {
+    "line": "Fichu: Y-You will? I knew there was some good left in this world!",
+    "file": "throughthepipes-fichu-5"
+  },
+  {
+    "line": "Fichu: What's your name... soldier? Great, I will resume searching for that fool as well. Best of luck to you!",
+    "file": "throughthepipes-fichu-6"
+  },
+  {
+    "line": "Fichu: Unfortunate! I spent all my free time making a gift for Soosu, and that devil snatched it from me!",
+    "file": "throughthepipes-fichu-7"
+  },
+  {
+    "line": "Fichu: It would be a shame if I never got the chance to give it to her...",
+    "file": "throughthepipes-fichu-8"
+  },
+  {
+    "line": "Fichu: Sorry, could you come back later when you're level 110? I'd rather not be bothered right now.",
+    "file": "throughthepipes-fichu-9"
+  },
+  {
+    "line": "Fichu: H-Hey, you! Have you seen a raccoon anywhere?",
+    "file": "throughthepipes-fichu-10"
+  },
+  {
+    "line": "Fichu: I spent all my free time making a gift for Soosu, and that devil snatched it from me! It would be a shame if I never got the chance to give it to her...",
+    "file": "throughthepipes-fichu-11"
+  },
+  {
+    "line": "Fichu: This might be a big ask, but- do you think you could help me?",
+    "file": "throughthepipes-fichu-12"
+  },
+  {
+    "line": "Fichu: ...I get it. If you change your mind, come and talk with me again.",
+    "file": "throughthepipes-fichu-13"
+  },
+  {
+    "line": "Fichu: Oh- you're back! Are you able to help me now?",
+    "file": "throughthepipes-fichu-14"
+  },
+  {
+    "line": "Fichu: Yes! A raccoon! You've seen them before- surely? They're rampant around here!",
+    "file": "throughthepipes-fichu-15"
+  },
+  {
+    "line": "Fichu: You know, those furry gray creatures with the weird striped tails?",
+    "file": "throughthepipes-fichu-16"
+  },
+  {
+    "line": "Fichu: ...I hope you know what a raccoon is.",
+    "file": "throughthepipes-fichu-17"
+  },
+  {
+    "line": "Fichu: Will you help me?",
+    "file": "throughthepipes-fichu-18"
+  },
+  {
+    "line": "Fichu: Y-You will? I knew there was still some good left in this world!",
+    "file": "throughthepipes-fichu-19"
+  },
+  {
+    "line": "Fichu: Right! Last time I saw that raccoon, it was running into an alleyway south of the town center. It can't have gone too far!",
+    "file": "throughthepipes-fichu-20"
+  },
+  {
+    "line": "Fichu: I will resume searching for that fool as well. Best of luck to you!",
+    "file": "throughthepipes-fichu-21"
+  },
+  {
+    "line": "Fichu: Do you know where to look? I last saw the raccoon around -1725, -536, so I would check around there.",
+    "file": "throughthepipes-fichu-22"
+  },
+  {
+    "line": "Fichu: You have? Oh, by the Queen, that might just be the same raccoon I'm looking for!",
+    "file": "throughthepipes-fichu-23"
+  },
+  {
+    "line": "Fichu: That evil creature stole a gift I was making for Soosu! I cannot believe it!",
+    "file": "throughthepipes-fichu-24"
+  },
+  {
+    "line": "Fichu: I last saw it south of the town center, so that's where I would look first. Any help would be greatly appreciated!",
+    "file": "throughthepipes-fichu-25"
+  },
+  {
+    "line": "Fichu: If you forgot, you should try searching south of the town center. But you do you, I suppose...",
+    "file": "throughthepipes-fichu-26"
+  },
+  {
+    "line": "Fichu: Huh?",
+    "file": "throughthepipes-fichu-27"
+  },
+  {
+    "line": "Fichu: Who are you? What are you doing here?",
+    "file": "throughthepipes-fichu-28"
+  },
+  {
+    "line": "Fichu: Wait, you're also chasing that raccoon?! So am I! That creature stole a gift I made for Soosu!",
+    "file": "throughthepipes-fichu-29"
+  },
+  {
+    "line": "Fichu: I'm glad that you share a similar resentment for these horrible animals. The amount of times those fiends have stolen from me...",
+    "file": "throughthepipes-fichu-30"
+  },
+  {
+    "line": "Fichu: Anyways, since we both share a common goal, why don't we help each other? I actually have just the tool for you!",
+    "file": "throughthepipes-fichu-31"
+  },
+  {
+    "line": "???: Huh, is there someone down there?",
+    "file": "throughthepipes-fichu-32"
+  },
+  {
+    "line": "???: Wait- what's that? HEY!",
+    "file": "throughthepipes-fichu-33"
+  },
+  {
+    "line": "???: You aren't getting away from me now!",
+    "file": "throughthepipes-fichu-34"
+  },
+  {
+    "line": "???: Ah ha! I've got you now, thief!",
+    "file": "throughthepipes-fichu-35"
+  },
+  {
+    "line": "???: Wait- No! Get ba-",
+    "file": "throughthepipes-fichu-36"
+  },
+  {
+    "line": "Fichu: OW! My leg!",
+    "file": "throughthepipes-fichu-37"
+  },
+  {
+    "line": "Fichu: soldier! You're here! I was wondering where you went!",
+    "file": "throughthepipes-fichu-38"
+  },
+  {
+    "line": "Fichu: I've been chasing that raccoon the whole time! What in the world have you been up to?",
+    "file": "throughthepipes-fichu-39"
+  },
+  {
+    "line": "Fichu: Whatever. I'm struggling to keep up the chase at this rate. But fortunately, I have just the thing that'll help you!",
+    "file": "throughthepipes-fichu-40"
+  },
+  {
+    "line": "Fichu: MY GRAPPLING HOOK!",
+    "file": "throughthepipes-fichu-41"
+  },
+  {
+    "line": "Fichu: It's broken! How will I ever catch up with that crook at this rate?",
+    "file": "throughthepipes-fichu-42"
+  },
+  {
+    "line": "Fichu: ...Maybe this is all a lost cause. You can try fixing it, I guess, but it's not worth it.",
+    "file": "throughthepipes-fichu-43"
+  },
+  {
+    "line": "Fichu: I'm going that direction to see if I can catch that pest. You go the other way, we'll meet again soon.",
+    "file": "throughthepipes-fichu-44"
+  },
+  {
+    "line": "Fichu: I really think it would be better if we split up to search, don't you agree?",
+    "file": "throughthepipes-fichu-45"
+  },
+  {
+    "line": "Fichu: Oh, what am I doing? You see- it's quite the funny story.",
+    "file": "throughthepipes-fichu-46"
+  },
+  {
+    "line": "Fichu: Basically, I was minding my own business creating a beautiful gift for Soosu. Then, that raccoon you just saw jumped out and snatched it!",
+    "file": "throughthepipes-fichu-47"
+  },
+  {
+    "line": "Fichu: It would really be a shame if I couldn't deliver it to Soosu on time, especially after all that effort...",
+    "file": "throughthepipes-fichu-48"
+  },
+  {
+    "line": "Fichu: Say, I understand we haven't known each other for terribly long, but I could really use some hlep.",
+    "file": "throughthepipes-fichu-49"
+  },
+  {
+    "line": "Fichu: In fact, I have just the thing you'll want to check out!",
+    "file": "throughthepipes-fichu-50"
+  },
+  {
+    "line": "Fichu: Ah, exploring the sewers? That's fun! I've basically been to every corner of Timasca's sewers.",
+    "file": "throughthepipes-fichu-51"
+  },
+  {
+    "line": "Fichu: Say, is there any chance you stumbled upon that raccoon earlier? That pest snatched something of value from me!",
+    "file": "throughthepipes-fichu-52"
+  },
+  {
+    "line": "Fichu: I was making a gift for Soosu, but then that fiend just ran off with it! Horrible, isn't it?",
+    "file": "throughthepipes-fichu-53"
+  },
+  {
+    "line": "Fichu: I could really use your help, and hey- I have just the tool you'll want!",
+    "file": "throughthepipes-fichu-54"
+  },
+  {
+    "line": "Fichu: Oh, you're wondering what the gift is? Well, that's a surprise!",
+    "file": "throughthepipes-fichu-55"
+  },
+  {
+    "line": "Fichu: It might be the best thing I've made all year. I really think Soosu would love it, especially for all of the work she's done for our district!",
+    "file": "throughthepipes-fichu-56"
+  },
+  {
+    "line": "Fichu: If you want to see it, you'll have to help me find it. How does that sound?",
+    "file": "throughthepipes-fichu-57"
+  },
+  {
+    "line": "Fichu: Wait, you're also chasing that raccoon?! So am I! That creature stole a gift I made for Sovereign Soosu!",
+    "file": "throughthepipes-fichu-58"
+  },
+  {
+    "line": "Fichu: I'm hoping I can get it back before the festival starts. Otherwise, who even knows when we'll get to see Soosu next!",
+    "file": "throughthepipes-fichu-59"
+  },
+  {
+    "line": "Fichu: Anyways, I'm glad that you share a similar resentment for these horrible animals. The amount of times those fiends have stolen from me...",
+    "file": "throughthepipes-fichu-60"
+  },
+  {
+    "line": "Fichu: Since we both seem to be focused on the same beast, why don't we help each other out?",
+    "file": "throughthepipes-fichu-61"
+  },
+  {
+    "line": "Fichu: I actually have just the tool for you, it'll help you navigate the sewers much more easily!",
+    "file": "throughthepipes-fichu-62"
+  },
+  {
+    "line": "Fichu: I was planning on giving Sovereign Soosu a gift during the festival, but just before it was about to begin, a raccoon snatched it from me!",
+    "file": "throughthepipes-fichu-63"
+  },
+  {
+    "line": "Fichu: Thanks to that devil, I spent the entire time chasing it. I didn't get to see any of the festival, not even Soosu's appearance!",
+    "file": "throughthepipes-fichu-64"
+  },
+  {
+    "line": "Fichu: Though, after hearing what everyone's been talking about, that may have been for the best...",
+    "file": "throughthepipes-fichu-65"
+  },
+  {
+    "line": "Fichu: Anyways- I'm hoping to at least get the gift back from that raccoon. Maybe I'll have a chance next year!",
+    "file": "throughthepipes-fichu-66"
+  },
+  {
+    "line": "Fichu: Whew! I didn't mean to let go-",
+    "file": "throughthepipes-fichu-67"
+  },
+  {
+    "line": "Fichu: soldier! OH NO! I didn't mean to drop that on you-",
+    "file": "throughthepipes-fichu-68"
+  },
+  {
+    "line": "Fichu: W-why where you standing there? Out of all places?",
+    "file": "throughthepipes-fichu-69"
+  },
+  {
+    "line": "Fichu: ...Okay. You seem to be alright. Sorry, I didn't realize you were standing right there!",
+    "file": "throughthepipes-fichu-70"
+  },
+  {
+    "line": "Fichu: Alright, at least we're regrouped now. Try not to stand under any more heavy objects, alright?",
+    "file": "throughthepipes-fichu-71"
+  },
+  {
+    "line": "Fichu: Moving forward, the problem is, I have no idea how to traverse this next area. It's heavily flooded if I can recall.",
+    "file": "throughthepipes-fichu-72"
+  },
+  {
+    "line": "Fichu: Oh! soldier, you're here!",
+    "file": "throughthepipes-fichu-73"
+  },
+  {
+    "line": "Fichu: Perfect, I know where we are, and there isn't much further that foolish raccoon can run. We could corner it!",
+    "file": "throughthepipes-fichu-74"
+  },
+  {
+    "line": "Fichu: Now, the problem is, I have no idea how to traverse this next area. It's heavily flooded if I can recall.",
+    "file": "throughthepipes-fichu-75"
+  },
+  {
+    "line": "Fichu: You'll need to find some way for us to cross. Too many people have gotten the worst of diseases by wading through that water- eugh.",
+    "file": "throughthepipes-fichu-76"
+  },
+  {
+    "line": "Fichu: Right! Let me know when you figure something out. I'll scout around, never had an excuse to explore this area before!",
+    "file": "throughthepipes-fichu-77"
+  },
+  {
+    "line": "Fichu: Huh? What's all this stuff? Did someone forget their construction equipment?",
+    "file": "throughthepipes-fichu-78"
+  },
+  {
+    "line": "Fichu: I guess the maintenance crews never bother to pack up their equipment. Maybe you can use this stuff for something.",
+    "file": "throughthepipes-fichu-79"
+  },
+  {
+    "line": "Fichu: Check back in with me when you're done!",
+    "file": "throughthepipes-fichu-80"
+  },
+  {
+    "line": "Fichu: Heya! Figured something out?",
+    "file": "throughthepipes-fichu-81"
+  },
+  {
+    "line": "Fichu: Oh, don't mind me. I'm just seeing if there's anything interesting here.",
+    "file": "throughthepipes-fichu-82"
+  },
+  {
+    "line": "Fichu: Usually there's cool things to, well- steal, but this place seems to be a bust.",
+    "file": "throughthepipes-fichu-83"
+  },
+  {
+    "line": "Fichu: There sure is a lot hidden underground, you wouldn't believe some of the things I've seen!",
+    "file": "throughthepipes-fichu-84"
+  },
+  {
+    "line": "Fichu: That's great to hear! I haven't found anything useful unfortunately.",
+    "file": "throughthepipes-fichu-85"
+  },
+  {
+    "line": "Fichu: I'm quite interested to see what you come up with, return to me when you're done!",
+    "file": "throughthepipes-fichu-86"
+  },
+  {
+    "line": "Fichu: You are? Excellent! Let's see what you've created.",
+    "file": "throughthepipes-fichu-87"
+  },
+  {
+    "line": "Fichu: Huh, this isn't- really what I expected.",
+    "file": "throughthepipes-fichu-88"
+  },
+  {
+    "line": "Fichu: You know what, not a bad idea! Let's give it a try!",
+    "file": "throughthepipes-fichu-89"
+  },
+  {
+    "line": "Fichu: No worries!",
+    "file": "throughthepipes-fichu-90"
+  },
+  {
+    "line": "Fichu: I'd appreciate it if you added a seat for me.",
+    "file": "throughthepipes-fichu-91"
+  },
+  {
+    "line": "Fichu: You know what, not a bad idea! However, I'm not quite- sure where I'm supposed to sit.",
+    "file": "throughthepipes-fichu-92"
+  },
+  {
+    "line": "Fichu: Do you think you could find an additional seat for me? There's no way I'm getting on that thing otherwise!",
+    "file": "throughthepipes-fichu-93"
+  },
+  {
+    "line": "Fichu: Here we go!",
+    "file": "throughthepipes-fichu-94"
+  },
+  {
+    "line": "Fichu: Woo! It floats!",
+    "file": "throughthepipes-fichu-95"
+  },
+  {
+    "line": "Fichu: Watch out!",
+    "file": "throughthepipes-fichu-96"
+  },
+  {
+    "line": "Fichu: You know what you're doing, right?",
+    "file": "throughthepipes-fichu-97"
+  },
+  {
+    "line": "Fichu: Hey! Watch it.",
+    "file": "throughthepipes-fichu-98"
+  },
+  {
+    "line": "Fichu: Why did you think this was a good idea?!",
+    "file": "throughthepipes-fichu-99"
+  },
+  {
+    "line": "Fichu: Ready when you are!",
+    "file": "throughthepipes-fichu-100"
+  },
+  {
+    "line": "Fichu: Here we go again!",
+    "file": "throughthepipes-fichu-101"
+  },
+  {
+    "line": "Fichu: Huh? What are you doing with that?!",
+    "file": "throughthepipes-fichu-102"
+  },
+  {
+    "line": "Fichu: WE'RE SINKING! WE'RE SINKING!",
+    "file": "throughthepipes-fichu-103"
+  },
+  {
+    "line": "Fichu: You sure this'll stay afloat, right?",
+    "file": "throughthepipes-fichu-104"
+  },
+  {
+    "line": "Fichu: This raft looks fragile, be careful!",
+    "file": "throughthepipes-fichu-105"
+  },
+  {
+    "line": "Fichu: This isn't good!",
+    "file": "throughthepipes-fichu-106"
+  },
+  {
+    "line": "Fichu: Hoping we'll last longer this time...",
+    "file": "throughthepipes-fichu-107"
+  },
+  {
+    "line": "Fichu: Ah!",
+    "file": "throughthepipes-fichu-108"
+  },
+  {
+    "line": "Fichu: Watch where you're going!",
+    "file": "throughthepipes-fichu-109"
+  },
+  {
+    "line": "Fichu: OH NO! GET ME OFF OF HERE!",
+    "file": "throughthepipes-fichu-110"
+  },
+  {
+    "line": "Fichu: Ack!",
+    "file": "throughthepipes-fichu-111"
+  },
+  {
+    "line": "Fichu: Please don't do anything dumb...",
+    "file": "throughthepipes-fichu-112"
+  },
+  {
+    "line": "Fichu: This was a terrible idea!",
+    "file": "throughthepipes-fichu-113"
+  },
+  {
+    "line": "Fichu: It's a miracle this thing is floating.",
+    "file": "throughthepipes-fichu-114"
+  },
+  {
+    "line": "Fichu: I think you hit something.",
+    "file": "throughthepipes-fichu-115"
+  },
+  {
+    "line": "Fichu: Be careful!",
+    "file": "throughthepipes-fichu-116"
+  },
+  {
+    "line": "Fichu: Oh no! Help!",
+    "file": "throughthepipes-fichu-117"
+  },
+  {
+    "line": "Fichu: Try not to do that!",
+    "file": "throughthepipes-fichu-118"
+  },
+  {
+    "line": "Fichu: I gotta get off of this thing!",
+    "file": "throughthepipes-fichu-119"
+  },
+  {
+    "line": "Fichu: Oops!",
+    "file": "throughthepipes-fichu-120"
+  },
+  {
+    "line": "Fichu: Ah! I almost fell out of my seat.",
+    "file": "throughthepipes-fichu-121"
+  },
+  {
+    "line": "Fichu: I wonder where this goes...",
+    "file": "throughthepipes-fichu-122"
+  },
+  {
+    "line": "Fichu: Hmm, is the raft broken? We haven't moved for a while.",
+    "file": "throughthepipes-fichu-123"
+  },
+  {
+    "line": "Fichu: Are you... going to have us move?",
+    "file": "throughthepipes-fichu-124"
+  },
+  {
+    "line": "Fichu: I'm starting to yawn...",
+    "file": "throughthepipes-fichu-125"
+  },
+  {
+    "line": "Fichu: Can we please get going?",
+    "file": "throughthepipes-fichu-126"
+  },
+  {
+    "line": "Fichu: I'm not quite sure why you think this place is interesting enough to stop at.",
+    "file": "throughthepipes-fichu-127"
+  },
+  {
+    "line": "Fichu: When are we getting there?",
+    "file": "throughthepipes-fichu-128"
+  },
+  {
+    "line": "Fichu: You're awake, right?",
+    "file": "throughthepipes-fichu-129"
+  },
+  {
+    "line": "Fichu: Great, we're moving again.",
+    "file": "throughthepipes-fichu-130"
+  },
+  {
+    "line": "Fichu: Bet no one's been here for a while.",
+    "file": "throughthepipes-fichu-131"
+  },
+  {
+    "line": "Fichu: Huh? AH! THERE'S A TRAIN! GET OUT OF HERE!",
+    "file": "throughthepipes-fichu-132"
+  },
+  {
+    "line": "Fichu: AHHHHH! THIS WAS A HORRIBLE IDEA!",
+    "file": "throughthepipes-fichu-133"
+  },
+  {
+    "line": "Fichu: Make sure to be careful, okay?",
+    "file": "throughthepipes-fichu-134"
+  },
+  {
+    "line": "Fichu: AH! LOOK! WE'RE DOOMED!",
+    "file": "throughthepipes-fichu-135"
+  },
+  {
+    "line": "Fichu: Are you even capable of not hitting something?",
+    "file": "throughthepipes-fichu-136"
+  },
+  {
+    "line": "Fichu: One more hit and I'm taking over!",
+    "file": "throughthepipes-fichu-137"
+  },
+  {
+    "line": "Fichu: The raccoon is probably long gone at this point, thanks to your delay.",
+    "file": "throughthepipes-fichu-138"
+  },
+  {
+    "line": "Fichu: I don't trust you sailing this thing!",
+    "file": "throughthepipes-fichu-139"
+  },
+  {
+    "line": "Fichu: Wonder where that raccoon is now...",
+    "file": "throughthepipes-fichu-140"
+  },
+  {
+    "line": "Fichu: Soosu needs to see the state of this place...",
+    "file": "throughthepipes-fichu-141"
+  },
+  {
+    "line": "Fichu: Finally...",
+    "file": "throughthepipes-fichu-142"
+  },
+  {
+    "line": "Fichu: I think we're making progress.",
+    "file": "throughthepipes-fichu-143"
+  },
+  {
+    "line": "Fichu: No wonder everyone avoids this place...",
+    "file": "throughthepipes-fichu-144"
+  },
+  {
+    "line": "Fichu: WATCH OUT! TRAIN!",
+    "file": "throughthepipes-fichu-145"
+  },
+  {
+    "line": "Fichu: HELP US! WE'RE GOING TO DROWN!",
+    "file": "throughthepipes-fichu-146"
+  },
+  {
+    "line": "Fichu: Keep it steady!",
+    "file": "throughthepipes-fichu-147"
+  },
+  {
+    "line": "Fichu: OUT OF ALL ROUTES YOU TOOK, ONE OF THEM INCLUDED A TRAIN! YOU IDIOT!",
+    "file": "throughthepipes-fichu-148"
+  },
+  {
+    "line": "Fichu: YOU REALLY THINK THIS FLISMY RAFT IS GOING TO SURVIVE A TRAIN?!",
+    "file": "throughthepipes-fichu-149"
+  },
+  {
+    "line": "Fichu: Trains are cool... not when they're speeding right next to you.",
+    "file": "throughthepipes-fichu-150"
+  },
+  {
+    "line": "Fichu: What else do you think we'll find?",
+    "file": "throughthepipes-fichu-151"
+  },
+  {
+    "line": "Fichu: Too close for comfort...",
+    "file": "throughthepipes-fichu-152"
+  },
+  {
+    "line": "Fichu: I regret getting on this raft.",
+    "file": "throughthepipes-fichu-153"
+  },
+  {
+    "line": "Fichu: I've heard a few stories about this place. Mostly bad ones...",
+    "file": "throughthepipes-fichu-154"
+  },
+  {
+    "line": "Fichu: You know where you're going, right?",
+    "file": "throughthepipes-fichu-155"
+  },
+  {
+    "line": "Fichu: Hey- maybe we should've been a bit further away from that train?",
+    "file": "throughthepipes-fichu-156"
+  },
+  {
+    "line": "Fichu: I hope that raccoon hasn't gone too far...",
+    "file": "throughthepipes-fichu-157"
+  },
+  {
+    "line": "Fichu: Huh, how interesting.",
+    "file": "throughthepipes-fichu-158"
+  },
+  {
+    "line": "Fichu: When I get that raccoon, oh man...",
+    "file": "throughthepipes-fichu-159"
+  },
+  {
+    "line": "Fichu: How long have I even spent chasing that fool...",
+    "file": "throughthepipes-fichu-160"
+  },
+  {
+    "line": "Fichu: IS THAT AN EXPLOSIVE?! ARE YOU MAD!",
+    "file": "throughthepipes-fichu-161"
+  },
+  {
+    "line": "Fichu: You're going to sink us with that!",
+    "file": "throughthepipes-fichu-162"
+  },
+  {
+    "line": "Fichu: PUT THAT OUT NOW!",
+    "file": "throughthepipes-fichu-163"
+  },
+  {
+    "line": "Fichu: This water is disgusting...",
+    "file": "throughthepipes-fichu-164"
+  },
+  {
+    "line": "Fichu: Ah! What will we do now?!",
+    "file": "throughthepipes-fichu-165"
+  },
+  {
+    "line": "Fichu: Make sure we're staying on track.",
+    "file": "throughthepipes-fichu-166"
+  },
+  {
+    "line": "Fichu: Woah there! Way too close!",
+    "file": "throughthepipes-fichu-167"
+  },
+  {
+    "line": "Fichu: How long were we waiting for?",
+    "file": "throughthepipes-fichu-168"
+  },
+  {
+    "line": "Fichu: At long last...",
+    "file": "throughthepipes-fichu-169"
+  },
+  {
+    "line": "Fichu: This looks like the halfway point!",
+    "file": "throughthepipes-fichu-170"
+  },
+  {
+    "line": "Fichu: Oh, thank the Queen! It's the halfway point.",
+    "file": "throughthepipes-fichu-171"
+  },
+  {
+    "line": "Fichu: Stop it!",
+    "file": "throughthepipes-fichu-172"
+  },
+  {
+    "line": "Fichu: It can't possibly be that hard!",
+    "file": "throughthepipes-fichu-173"
+  },
+  {
+    "line": "Fichu: I've had it!",
+    "file": "throughthepipes-fichu-174"
+  },
+  {
+    "line": "Fichu: Agh! Sorry, just got scared by that.",
+    "file": "throughthepipes-fichu-175"
+  },
+  {
+    "line": "Fichu: Do you want us to sink?!",
+    "file": "throughthepipes-fichu-176"
+  },
+  {
+    "line": "Fichu: This thing is getting shaky.",
+    "file": "throughthepipes-fichu-177"
+  },
+  {
+    "line": "Fichu: Keep an eye out for any dangers!",
+    "file": "throughthepipes-fichu-178"
+  },
+  {
+    "line": "Fichu: NEVER DO THAT AGAIN!",
+    "file": "throughthepipes-fichu-179"
+  },
+  {
+    "line": "Fichu: YOU FOOL! We barely missed being hit!",
+    "file": "throughthepipes-fichu-180"
+  },
+  {
+    "line": "Fichu: You'll need to find a way to open that gate, since I don't see any other way past.",
+    "file": "throughthepipes-fichu-181"
+  },
+  {
+    "line": "Fichu: Find a way to open that gate. I don't want to be on this raft for any longer!",
+    "file": "throughthepipes-fichu-182"
+  },
+  {
+    "line": "Fichu: If I'm remembering correctly, just past this gate should be our destination!",
+    "file": "throughthepipes-fichu-183"
+  },
+  {
+    "line": "Fichu: That's the exit! Go past this gate, then I never want to board anything sailed by you again!",
+    "file": "throughthepipes-fichu-184"
+  },
+  {
+    "line": "Fichu: I am terribly sorry, but that was HORRIBLE!",
+    "file": "throughthepipes-fichu-185"
+  },
+  {
+    "line": "Fichu: I will NEVER be getting on another boat with you after this.",
+    "file": "throughthepipes-fichu-186"
+  },
+  {
+    "line": "Fichu: ...Sorry about that. I shouldn't have lashed out at you. Let's just forget this ever happened, alright?",
+    "file": "throughthepipes-fichu-187"
+  },
+  {
+    "line": "Fichu: Phew, we survived. That was a bit rough, but at least we made it.",
+    "file": "throughthepipes-fichu-188"
+  },
+  {
+    "line": "Fichu: Oh my- we survived! YOU ARE AN IDIOT! DON'T DO THAT AGAIN!",
+    "file": "throughthepipes-fichu-189"
+  },
+  {
+    "line": "Fichu: We made it! You did a pretty good job navigating, I knew I could trust you!",
+    "file": "throughthepipes-fichu-190"
+  },
+  {
+    "line": "Fichu: Well, let's just- not talk about your raft navigation. You need to work on that, alright?",
+    "file": "throughthepipes-fichu-191"
+  },
+  {
+    "line": "Fichu: However, I think I'll definitely be avoiding boats for now...",
+    "file": "throughthepipes-fichu-192"
+  },
+  {
+    "line": "Fichu: Alright, let's chase down that raccoon once and for all!",
+    "file": "throughthepipes-fichu-193"
+  },
+  {
+    "line": "Fichu: I hope my prediction is right, and there really is no further it can run from here.",
+    "file": "throughthepipes-fichu-194"
+  },
+  {
+    "line": "Fichu: We'll just have to see...",
+    "file": "throughthepipes-fichu-195"
+  },
+  {
+    "line": "Fichu: Huh?! LOOK! It's the raccoon, that's it!",
+    "file": "throughthepipes-fichu-196"
+  },
+  {
+    "line": "Fichu: Quick! Run after it!",
+    "file": "throughthepipes-fichu-197"
+  },
+  {
+    "line": "Fichu: Don't go so close! You might scare it off again!",
+    "file": "throughthepipes-fichu-198"
+  },
+  {
+    "line": "Fichu: Ah ha! Now you're cornered, you little imp!",
+    "file": "throughthepipes-fichu-199"
+  },
+  {
+    "line": "Fichu: Before you do anything, we need a way to take the gift back!",
+    "file": "throughthepipes-fichu-200"
+  },
+  {
+    "line": "Fichu: Do you have any ideas?",
+    "file": "throughthepipes-fichu-201"
+  },
+  {
+    "line": "Fichu: A cage? Don't you think raccoons are too smart to fall for something like that?",
+    "file": "throughthepipes-fichu-202"
+  },
+  {
+    "line": "Fichu: I guess you can give it a try...",
+    "file": "throughthepipes-fichu-203"
+  },
+  {
+    "line": "Fichu: I take back what I said. Raccoons are complete idiots.",
+    "file": "throughthepipes-fichu-204"
+  },
+  {
+    "line": "Fichu: Anyways, that aside. Look, we've gotten the gift back! I knew we could do it!",
+    "file": "throughthepipes-fichu-205"
+  },
+  {
+    "line": "Fichu: Take that idiot!",
+    "file": "throughthepipes-fichu-206"
+  },
+  {
+    "line": "Fichu: Woah, that looks like an expensive ring! You really think the raccoon will take it?",
+    "file": "throughthepipes-fichu-207"
+  },
+  {
+    "line": "Fichu: Hold on, where did you even get that- nevermind, I won't ask any questions. Give it a try!",
+    "file": "throughthepipes-fichu-208"
+  },
+  {
+    "line": "Fichu: Oh! That was surprisingly easy.",
+    "file": "throughthepipes-fichu-209"
+  },
+  {
+    "line": "Fichu: I hope no one cared about that ring, because they sure aren't getting it back...",
+    "file": "throughthepipes-fichu-210"
+  },
+  {
+    "line": "Fichu: Great work! After all of that, we've finally gotten the gift back! I knew we could do it.",
+    "file": "throughthepipes-fichu-211"
+  },
+  {
+    "line": "Fichu: ...A firecracker? What, are you celebrating something?",
+    "file": "throughthepipes-fichu-212"
+  },
+  {
+    "line": "Fichu: I'll hope you know what you're doing. Just- don't mess this up, alright?",
+    "file": "throughthepipes-fichu-213"
+  },
+  {
+    "line": "Fichu: Huh. I have to admit, that was surprisingly effective.",
+    "file": "throughthepipes-fichu-214"
+  },
+  {
+    "line": "Fichu: And look! We finally got the gift back! I knew we could do it.",
+    "file": "throughthepipes-fichu-215"
+  },
+  {
+    "line": "Fichu: W-woah now! You want to fight the raccoon? Like- I hate raccoons, but maybe not to that extreme.",
+    "file": "throughthepipes-fichu-216"
+  },
+  {
+    "line": "Fichu: You know what, I've seen worse. That raccoon was asking for it anyways, do what you must!",
+    "file": "throughthepipes-fichu-217"
+  },
+  {
+    "line": "Fichu: ...You don't think that was a little too brutal, do you?",
+    "file": "throughthepipes-fichu-218"
+  },
+  {
+    "line": "Fichu: Right, I'm just going to forget I witnessed that. We've gotten the gift back! I knew we could do it!",
+    "file": "throughthepipes-fichu-219"
+  },
+  {
+    "line": "Fichu: Thank you again for the help! I couldn't have done it without you.",
+    "file": "throughthepipes-fichu-220"
+  },
+  {
+    "line": "Fichu: Hopefully this is still intact after all of that...",
+    "file": "throughthepipes-fichu-221"
+  },
+  {
+    "line": "Fichu: It survived! Thank the queen! I don't know what I would do otherwise...",
+    "file": "throughthepipes-fichu-222"
+  },
+  {
+    "line": "Fichu: soldier, from the very start, you were a massive help. I cannot thank you enough for your efforts!",
+    "file": "throughthepipes-fichu-223"
+  },
+  {
+    "line": "Fichu: soldier, although we met in the most random of places, you have truly been a massive help.",
+    "file": "throughthepipes-fichu-224"
+  },
+  {
+    "line": "Fichu: Not only did you masterfully navigate that creation of yours, but you came more prepared than I could have expected!",
+    "file": "throughthepipes-fichu-225"
+  },
+  {
+    "line": "Fichu: A cage... a ring to use as a distraction... and even a firecracker. Where did you even find all this stuff?",
+    "file": "throughthepipes-fichu-226"
+  },
+  {
+    "line": "Fichu: Without your help, I don't even know if I could have caught that raccoon on my own!",
+    "file": "throughthepipes-fichu-227"
+  },
+  {
+    "line": "Fichu: As a reward, I have an extra gift just for you! Thank you again for your incredible help!",
+    "file": "throughthepipes-fichu-228"
+  },
+  {
+    "line": "Fichu: As a token of my appreciation, I would like to give you the gift that was meant to be for Soosu herself.",
+    "file": "throughthepipes-fichu-229"
+  },
+  {
+    "line": "Fichu: Don't worry, I can always make a second one. You deserve it the most!",
+    "file": "throughthepipes-fichu-230"
+  },
+  {
+    "line": "Fichu: Maybe rats are better than raccoons after all.",
+    "file": "throughthepipes-fichu-231"
+  },
+  {
+    "line": "Fichu: Huh? A bag?",
+    "file": "throughthepipes-fichu-232"
+  },
+  {
+    "line": "Fichu: WAIT! MY ART BAG IS MISSING! Did I accidentally drop it somewhere?",
+    "file": "throughthepipes-fichu-233"
+  },
+  {
+    "line": "Fichu: HEY! That's my art supplies bag! W-where did you find that?",
+    "file": "throughthepipes-fichu-234"
+  },
+  {
+    "line": "Fichu: I'm so glad you found it! I don't know what I would do if I lost Soosu's gift and my bag!",
+    "file": "throughthepipes-fichu-235"
+  },
+  {
+    "line": "Fichu: You're a lifesaver, soldier. I cannot thank you enough!",
+    "file": "throughthepipes-fichu-236"
+  },
+  {
+    "line": "Fichu: You're a lifesaver, soldier! Though, let's not give it to the raccoon, alright? I don't need to lose another thing to that pest!",
+    "file": "throughthepipes-fichu-237"
+  },
+  {
+    "line": "Fichu: Not only did you safely get us through a flooded tunnel with- that creation of yours, you also came more prepared than I could have expected!",
+    "file": "throughthepipes-fichu-238"
+  },
+  {
+    "line": "Fichu: And on top of all of that, you found my art supplies bag! That bag itself is more important to me than the gift we were chasing after!",
+    "file": "throughthepipes-fichu-239"
+  },
+  {
+    "line": "Fichu: Speaking of that, I would like to give you Soosu's gift as a token of appreciation. I believe you're more deserving of it.",
+    "file": "throughthepipes-fichu-240"
+  },
+  {
+    "line": "Fichu: Don't worry, I've already brainstormed a better design. I think Soosu will like this next one even more!",
+    "file": "throughthepipes-fichu-241"
   }
 ]
