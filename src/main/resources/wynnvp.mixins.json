@@ -7,7 +7,6 @@
     "MixinPlaySoundListener",
     "MixinServerConnectListener",
     "MixinWorldTickListener",
-    "SneakPacketMixin",
     "SoundEngineStartedMixin",
     "MixinShowGuiListener"
   ],

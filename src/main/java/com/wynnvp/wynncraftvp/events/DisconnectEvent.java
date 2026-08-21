@@ -13,6 +13,10 @@ public class DisconnectEvent {
         if (ModCore.overlayHandler != null) {
             ModCore.overlayHandler.onConnectionChange();
         }
+        if (ModCore.instance != null && ModCore.instance.audioPlayer != null) {
+            // Leaving mid-line would otherwise strand the sneak key down on the next world.
+            ModCore.instance.audioPlayer.autoProgress.reset();
+        }
         NpcSoundBlocker.reset();
     }
 }

@@ -43,12 +43,12 @@ public class AudioPlayer {
                 HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(10)).build();
     }
 
-    private void write(AudioData data) {
+    private void write(AudioData data, SoundObject soundObject) {
         openAlPlayer.playAudio(data);
         if (ModCore.config.autoProgress) {
             float speedMultiplier = ModCore.config.getPlaybackSpeed();
             long adjustedDuration = Math.round(data.getAudioLengthMillis() / speedMultiplier);
-            autoProgress.start(adjustedDuration);
+            autoProgress.onLinePlaybackStarted(adjustedDuration, soundObject.getId());
         }
     }
 
@@ -66,7 +66,7 @@ public class AudioPlayer {
                 soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
         audioData.setReverb(soundObject.getReverb());
 
-        write(audioData);
+        write(audioData, soundObject);
     }
 
     @SuppressWarnings("ConstantValue")
@@ -247,11 +247,15 @@ public class AudioPlayer {
                 soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
         audio.setReverb(soundObject.getReverb());
 
-        write(audio);
+        write(audio, soundObject);
     }
 
     public void stopAudio() {
         playGeneration.incrementAndGet();
+        // Queued rather than applied here so it stays ordered against the arm request the caller is
+        // about to make: stopping audio is how an early play that guessed the wrong line is undone,
+        // and auto progress must not read the silence in between as "the line finished".
+        autoProgress.cancel("the line it was waiting on was stopped");
         openAlPlayer.stopAudio();
     }
 

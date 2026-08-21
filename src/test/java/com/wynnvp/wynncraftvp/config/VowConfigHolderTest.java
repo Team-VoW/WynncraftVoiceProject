@@ -68,7 +68,7 @@ class VowConfigHolderTest {
                     .replace(
                             "blockVillagerSoundsDuringVoiceDialog = true\n",
                             "blockVillagerSoundsDuringVoiceDialog = true\nrouteMasterSoundsToBlocks = true\n")
-            + "logBlockedSounds = false\ndebugSoundPhysics = false\n";
+            + "logBlockedSounds = false\nlogAutoProgress = true\ndebugSoundPhysics = false\n";
 
     @TempDir
     Path tempDir;

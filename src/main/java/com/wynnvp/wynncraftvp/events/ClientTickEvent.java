@@ -29,6 +29,9 @@ public class ClientTickEvent {
         // The audio player is created lazily once OpenAL is up, see SoundEngineStartedMixin.
         if (ModCore.instance != null && ModCore.instance.audioPlayer != null) {
             ModCore.instance.audioPlayer.openAlPlayer.onTick();
+            // Must run on this thread: it drives the real sneak key mapping, which vanilla reads
+            // during the player tick to build the input packet it sends.
+            ModCore.instance.audioPlayer.autoProgress.onTick();
         }
     }
 }

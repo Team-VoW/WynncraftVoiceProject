@@ -640,6 +640,56 @@ class OverlayStateMachineTest {
     }
 
     // -------------------------------------------------------------------------
+    // Typewriter progress (auto progress reads this to know when sneak actually advances)
+    // -------------------------------------------------------------------------
+
+    @Test
+    void typewriterRunsUntilTheLineHasFired() {
+        assertFalse(machine.isTypewriterRunning(), "Nothing on screen yet");
+
+        feed(1, "Soldier, I", "Commander");
+        assertTrue(machine.isTypewriterRunning());
+
+        feed(2, "Soldier, I hope you know", "Commander");
+        saturate("Soldier, I hope you know", "Commander");
+        assertTrue(machine.isTypewriterRunning(), "Still animating until stability fires it");
+
+        advanceTo(2 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
+        assertFalse(machine.isTypewriterRunning());
+    }
+
+    @Test
+    void aCompletedLineRepeatingDoesNotLookLikeTyping() {
+        feed(1, "Soldier, I hope you know", "Commander");
+        saturate("Soldier, I hope you know", "Commander");
+        advanceTo(1 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
+
+        // Wynncraft keeps resending the finished overlay; it must not read as a new animation.
+        feed(20, "Soldier, I hope you know", "Commander");
+        assertFalse(machine.isTypewriterRunning());
+    }
+
+    @Test
+    void theNextLineStartingCountsAsTyping() {
+        feed(1, "Line one", "Bob");
+        saturate("Line one", "Bob");
+        advanceTo(1 + OverlayStateMachine.OVERLAY_STABILITY_TICKS);
+        assertFalse(machine.isTypewriterRunning());
+
+        feed(20, "Line t", "Bob");
+        assertTrue(machine.isTypewriterRunning());
+    }
+
+    @Test
+    void aClearedOverlayIsNotTyping() {
+        feed(1, "Line one", "Bob");
+        assertTrue(machine.isTypewriterRunning());
+
+        feed(2, "", "Bob");
+        assertFalse(machine.isTypewriterRunning());
+    }
+
+    // -------------------------------------------------------------------------
     // Timeout
     // -------------------------------------------------------------------------
 

@@ -52,6 +52,7 @@ public final class OverlayStateMachine {
     private long lastOverlayPacketTick = -1;
     private long lastReceivedOverlayTick = -1;
     private String lastFiredText = null;
+    private String lastFiredBody = null;
     private boolean earlyPlayed = false;
     private String lastEarlyPlayedKey = null;
     private boolean voiceDialogActive = false;
@@ -160,6 +161,22 @@ public final class OverlayStateMachine {
         return voiceDialogActive;
     }
 
+    /**
+     * True while the typewriter is still laying out a line that has not completed yet.
+     *
+     * <p>Auto progress needs this: Wynncraft treats sneak during the animation as "show the rest of
+     * the text now", not as "next line", so pressing then would fast-forward the text and leave the
+     * dialogue sitting there. Early play makes that a real possibility, because audio can start —
+     * and on a short line finish — while characters are still arriving.
+     *
+     * <p>{@link #firePending()} nulls {@code pendingBody}, but the very next repeat of the completed
+     * overlay pends it again, so "is something pending" is not the question. The question is whether
+     * what is pending is text that has already been fired.
+     */
+    public boolean isTypewriterRunning() {
+        return pendingBody != null && !pendingBody.equals(lastFiredBody);
+    }
+
     /** Resets all state — call on server disconnect / reconnect. */
     public void reset() {
         pendingBody = null;
@@ -169,6 +186,7 @@ public final class OverlayStateMachine {
         lastOverlayPacketTick = -1;
         lastReceivedOverlayTick = -1;
         lastFiredText = null;
+        lastFiredBody = null;
         earlyPlayed = false;
         lastEarlyPlayedKey = null;
         voiceDialogActive = false;
@@ -225,6 +243,7 @@ public final class OverlayStateMachine {
         String combined = npc != null ? npc + ": " + body : "//" + body;
         if (combined.equals(lastFiredText)) return;
         lastFiredText = combined;
+        lastFiredBody = body;
 
         // Compute the final manifest key so we can compare against what was early-played.
         String playbackLine = npc != null ? combined : body;
