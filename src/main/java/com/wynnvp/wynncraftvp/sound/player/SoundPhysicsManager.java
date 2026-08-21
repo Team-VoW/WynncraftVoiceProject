@@ -251,7 +251,7 @@ public final class SoundPhysicsManager {
                 ? OcclusionModel.Occlusion.NONE
                 : OcclusionModel.compute(sample.occlusionUnits(), occlusionStrength());
 
-        debug.endTrace(level, speaker, sample, reverb, occlusion);
+        debug.endTrace(level, speaker, source, listener, sample, reverb, occlusion);
         return new AppliedAcoustics(reverb, occlusion.gain(), occlusion.gainHf());
     }
 
@@ -286,8 +286,8 @@ public final class SoundPhysicsManager {
 
         ComputedReverb reverb = ReverbParameterMapper.map(sample, reverbStrength());
         OcclusionModel.Occlusion occlusion = OcclusionModel.compute(sample.occlusionUnits(), occlusionStrength());
-        debug.endTrace(level, null, sample, reverb, occlusion);
-        return SoundPhysicsDebug.describe(null, sample, reverb, occlusion);
+        debug.endTrace(level, null, from, listener, sample, reverb, occlusion);
+        return SoundPhysicsDebug.describe(null, from, listener, sample, reverb, occlusion);
     }
 
     private static boolean playsOnPlayer() {

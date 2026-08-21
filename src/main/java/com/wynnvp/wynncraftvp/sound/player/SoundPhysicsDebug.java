@@ -14,6 +14,7 @@ import java.util.List;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.world.phys.Vec3;
 
 /**
  * Shows what the tracer saw.
@@ -84,6 +85,8 @@ public final class SoundPhysicsDebug {
     public void endTrace(
             ClientLevel level,
             CurrentSpeaker speaker,
+            Vec3 source,
+            Vec3 listener,
             AcousticSample sample,
             ComputedReverb reverb,
             OcclusionModel.Occlusion occlusion) {
@@ -98,16 +101,29 @@ public final class SoundPhysicsDebug {
         spawn(level, ParticleTypes.SMOKE, occluders);
         spawn(level, ParticleTypes.CRIT, escapes);
 
-        ModCore.info(describe(speaker, sample, reverb, occlusion));
+        ModCore.info(describe(speaker, source, listener, sample, reverb, occlusion));
     }
 
     /** The one-line summary, also used by {@code /vow-debug sound-physics}. */
     public static String describe(
-            CurrentSpeaker speaker, AcousticSample sample, ComputedReverb reverb, OcclusionModel.Occlusion occlusion) {
+            CurrentSpeaker speaker,
+            Vec3 source,
+            Vec3 listener,
+            AcousticSample sample,
+            ComputedReverb reverb,
+            OcclusionModel.Occlusion occlusion) {
         String who = speaker == null || speaker.rawName.isEmpty() ? "<narration>" : speaker.rawName;
+        // Where the voice was placed is the first thing to check when a line sounds wrong, so it goes
+        // in front of everything the tracer measured about that spot.
+        String where = source == null
+                ? ""
+                : String.format(
+                        " @(%.1f, %.1f, %.1f) d=%.1f",
+                        source.x, source.y, source.z, listener == null ? 0 : source.distanceTo(listener));
         String room = String.format(
-                "[SoundPhysics] %s rays=%d | open=%.2f mfp=%.1f var=%.2f refl=%.3f hf=%.2f surf=%.2f scat=%.2f",
+                "[SoundPhysics] %s%s rays=%d | open=%.2f mfp=%.1f var=%.2f refl=%.3f hf=%.2f surf=%.2f scat=%.2f",
                 who,
+                where,
                 sample.raysTraced(),
                 sample.openness(),
                 sample.meanFreePath(),
