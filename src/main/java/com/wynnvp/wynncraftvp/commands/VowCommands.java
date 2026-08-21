@@ -31,6 +31,7 @@ public final class VowCommands {
         DebugCommand.register(DISPATCHER);
         VowLogCommand.register(DISPATCHER);
         ConfigCommand.register(DISPATCHER);
+        DirectionalAudioCommand.register(DISPATCHER);
     }
 
     public static LiteralArgumentBuilder<VowCommandSource> literal(String name) {

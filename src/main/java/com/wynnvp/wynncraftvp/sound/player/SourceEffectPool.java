@@ -29,8 +29,16 @@ import org.lwjgl.openal.EXTEfx;
 public final class SourceEffectPool {
     private static final int CAPACITY = 4;
 
-    /** One rig: the effect holding the parameters, the slot it is heard through, and the direct-path filter. */
-    public record Handles(int effect, int slot, int filter) {}
+    /**
+     * One rig: the effect holding the parameters, the slot it is heard through, and a low-pass filter
+     * for each of the two paths out of the source.
+     *
+     * <p>The send needs a filter of its own rather than sharing the direct one. A filter object carries
+     * the parameters, so a shared filter could only ever muffle both paths by the same amount, and
+     * {@link com.wynnvp.wynncraftvp.sound.physics.OcclusionModel#sendPath} exists precisely because
+     * they should not be muffled by the same amount.
+     */
+    public record Handles(int effect, int slot, int filter, int sendFilter) {}
 
     private final List<Handles> created = new ArrayList<>();
     private final List<Handles> free = new ArrayList<>();
@@ -67,17 +75,20 @@ public final class SourceEffectPool {
         EXTEfx.alAuxiliaryEffectSloti(slot, EXTEfx.AL_EFFECTSLOT_EFFECT, effect);
         int filter = EXTEfx.alGenFilters();
         EXTEfx.alFilteri(filter, EXTEfx.AL_FILTER_TYPE, EXTEfx.AL_FILTER_LOWPASS);
+        int sendFilter = EXTEfx.alGenFilters();
+        EXTEfx.alFilteri(sendFilter, EXTEfx.AL_FILTER_TYPE, EXTEfx.AL_FILTER_LOWPASS);
 
         int error = AL10.alGetError();
         if (error != AL10.AL_NO_ERROR) {
             ModCore.warn(String.format("Could not create a sound physics effect rig (error 0x%X)", error));
+            EXTEfx.alDeleteFilters(sendFilter);
             EXTEfx.alDeleteFilters(filter);
             EXTEfx.alDeleteAuxiliaryEffectSlots(slot);
             EXTEfx.alDeleteEffects(effect);
             return Optional.empty();
         }
 
-        Handles handles = new Handles(effect, slot, filter);
+        Handles handles = new Handles(effect, slot, filter, sendFilter);
         created.add(handles);
         return Optional.of(handles);
     }

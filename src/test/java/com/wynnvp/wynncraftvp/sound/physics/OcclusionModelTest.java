@@ -68,4 +68,39 @@ class OcclusionModelTest {
         assertTrue(OcclusionModel.compute(1f, 1f).isAudible());
         assertTrue(!Occlusion.NONE.isAudible());
     }
+
+    @Test
+    void anUnoccludedLineLeavesItsReverbSendAlone() {
+        assertSame(Occlusion.NONE, OcclusionModel.sendPath(Occlusion.NONE));
+        assertSame(Occlusion.NONE, OcclusionModel.sendPath(null));
+    }
+
+    /**
+     * The reverb comes back as a near-omnidirectional bed, so holding the send up while the direct path
+     * is pulled down is what makes an occluded speaker lose its direction entirely.
+     */
+    @Test
+    void theSendLosesAsMuchBroadbandLevelAsTheDirectPath() {
+        Occlusion direct = OcclusionModel.compute(2f, 1f);
+
+        assertEquals(direct.gain(), OcclusionModel.sendPath(direct).gain(), 1e-5);
+    }
+
+    @Test
+    void theSendIsDulledOnlyHalfAsFar() {
+        Occlusion direct = OcclusionModel.compute(2f, 1f);
+        Occlusion send = OcclusionModel.sendPath(direct);
+
+        // Half as far in decibels is the square root in linear gain.
+        assertEquals(0.45f, send.gainHf(), 1e-5);
+        assertEquals(send.gainHf() * send.gainHf(), direct.gainHf(), 1e-5);
+    }
+
+    @Test
+    void theThickestWallStillLeavesTheTailAudible() {
+        Occlusion send = OcclusionModel.sendPath(OcclusionModel.compute(50f, 1f));
+
+        assertEquals(OcclusionModel.MIN_GAIN, send.gain(), 1e-5);
+        assertTrue(send.gainHf() > OcclusionModel.MIN_GAINHF);
+    }
 }

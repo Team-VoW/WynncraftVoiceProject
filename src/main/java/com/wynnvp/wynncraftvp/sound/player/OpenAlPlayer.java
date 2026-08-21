@@ -10,9 +10,11 @@ import be.tarsos.dsp.AudioProcessor;
 import be.tarsos.dsp.WaveformSimilarityBasedOverlapAdd;
 import be.tarsos.dsp.io.jvm.AudioDispatcherFactory;
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.commands.DirectionalAudioCommand;
 import com.wynnvp.wynncraftvp.sound.Reverb;
 import com.wynnvp.wynncraftvp.sound.physics.AppliedAcoustics;
 import com.wynnvp.wynncraftvp.sound.physics.ComputedReverb;
+import com.wynnvp.wynncraftvp.sound.physics.OcclusionModel;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.io.ByteArrayOutputStream;
 import java.nio.ByteBuffer;
@@ -224,6 +226,8 @@ public class OpenAlPlayer {
                 }
                 return;
             }
+            maybeHintDirectionalAudio();
+
             int sourceID = AL10.alGenSources();
 
             // Allow boosting above 1.0 gain (many implementations clamp otherwise)
@@ -234,8 +238,10 @@ public class OpenAlPlayer {
             updateVolume(sourceID);
 
             CurrentSpeaker speaker = new CurrentSpeaker(audioData.speakerName, audioData.pos, audioData.reverb);
-            // The space was measured as playback was being set up, so the line is already in the
-            // right room on its very first sample rather than a tick later.
+            // The speaker was found and the space measured as playback was being set up, so the line
+            // starts in the right place and the right room on its very first sample rather than a tick
+            // later.
+            speaker.seedPosition(soundPhysics.takePrimedPosition(audioData.speakerName));
             speaker.publishAcoustics(soundPhysics.takePrimed(audioData.pos));
 
             int buffer = AL10.alGenBuffers();
@@ -246,11 +252,12 @@ public class OpenAlPlayer {
                 AL11.alDistanceModel(AL11.AL_LINEAR_DISTANCE);
                 AL11.alSourcef(sourceID, AL11.AL_MAX_DISTANCE, maxDistance);
                 AL11.alSourcef(sourceID, AL11.AL_REFERENCE_DISTANCE, 0F);
-            } else {
-                // For non-3D audio, make the source relative to listener
-                AL11.alSourcei(sourceID, AL11.AL_SOURCE_RELATIVE, AL11.AL_TRUE);
-                AL11.alSource3f(sourceID, AL11.AL_POSITION, 0F, 0F, 0F);
             }
+
+            // Before anything is queued, never after. A source that reaches alSourcePlay without this
+            // still holds OpenAL's default position, which is the world origin in absolute
+            // coordinates, and the first tick of the line is panned at wherever that lies.
+            setPosition(sourceID, speaker.publishedPosition());
 
             ByteBuffer monoData = audioData.byteBuffer;
             float speed = ModCore.config.getPlaybackSpeed();
@@ -282,6 +289,52 @@ public class OpenAlPlayer {
             currentSpeakers.put(sourceID, speaker);
             sourceIDs.add(sourceID);
             AL11.alSourcePlay(sourceID);
+        });
+    }
+
+    /**
+     * Points out, every few days at most, that Minecraft's own Directional Audio switch is off.
+     *
+     * <p>Minecraft builds its OpenAL context with {@code ALC_HRTF_SOFT} set to {@code ALC_FALSE} when
+     * that option is off, which is not the same as leaving the driver to decide: it turns HRTF off
+     * outright. What is left is plain amplitude panning across two channels, so a mono source off to
+     * one side is a little quieter in one ear and nothing more -- no front-back cue, no elevation, and
+     * a much weaker sense of the sound being out in the world rather than inside the player's head.
+     * Every voice line here is a mono point source, so this mod is where that is noticed first.
+     *
+     * <p>Nothing here forces it on. HRTF is fixed when the context is created, and it is the wrong
+     * choice on speakers, so the decision stays the player's: the button on the message sets the
+     * vanilla option through {@link DirectionalAudioCommand} and lets Minecraft rebuild its own sound
+     * engine, rather than resetting the device behind its back and leaving the options screen lying.
+     *
+     * <p>The timestamp is persisted rather than kept in memory, and the interval lives in the config:
+     * once per session is nagging and once ever is too easy to miss. Hopping to the client thread keeps
+     * both the option read and the config write off the audio executor.
+     */
+    private void maybeHintDirectionalAudio() {
+        if (ModCore.config == null
+                || ModCore.config.isPlayAllSoundsOnPlayer()
+                || !ModCore.config.isDirectionalAudioHintDue(System.currentTimeMillis())) {
+            return;
+        }
+
+        Utils.runOnClientThread(() -> {
+            // Re-checked here rather than trusted from above: two lines can reach this within the same
+            // moment, and the client thread is the only place the answer cannot change underneath us.
+            long now = System.currentTimeMillis();
+            if (ModCore.config == null
+                    || !ModCore.config.isDirectionalAudioHintDue(now)
+                    || gameSettings.directionalAudio().get()) {
+                return;
+            }
+            ModCore.config.markDirectionalAudioHintShown(now);
+            ModCore.config.save();
+            Utils.sendMessageWithCommand(
+                    "Tip: Minecraft's §eDirectional Audio§r setting is off, so voices can only be panned left and "
+                            + "right. Turning it on lets NPCs sound like they are really standing where they are. ",
+                    "/" + DirectionalAudioCommand.NAME,
+                    "[Click here to turn it on]",
+                    "Turns on Options -> Music & Sounds -> Directional Audio.\nBest with headphones.");
         });
     }
 
@@ -364,15 +417,29 @@ public class OpenAlPlayer {
                 AL11.alSource3i(
                         sourceID, EXTEfx.AL_AUXILIARY_SEND_FILTER, EXTEfx.AL_EFFECTSLOT_NULL, 0, EXTEfx.AL_FILTER_NULL);
                 speaker.setSendAttached(false);
+                speaker.setSendFilterAttached(false);
             }
             return;
         }
 
-        if (!speaker.isSendAttached()) {
-            // One send, never two. Minecraft creates its OpenAL context without asking for extra
-            // auxiliary sends, so only the default pair is guaranteed to exist.
+        // The wet path carries the same wall as the dry one. Muffling only the direct path would leave
+        // the reverb at full level behind a closed door, and reverb comes back from the slot as a
+        // near-omnidirectional bed, so the voice would lose its direction exactly when it is hardest to
+        // place. One send, never two: Minecraft creates its OpenAL context without asking for extra
+        // auxiliary sends, so only the default pair is guaranteed to exist.
+        OcclusionModel.Occlusion send =
+                OcclusionModel.sendPath(new OcclusionModel.Occlusion(applied.directGain(), applied.directGainHf()));
+        if (send.isAudible()) {
+            EXTEfx.alFilterf(handles.sendFilter(), EXTEfx.AL_LOWPASS_GAIN, send.gain());
+            EXTEfx.alFilterf(handles.sendFilter(), EXTEfx.AL_LOWPASS_GAINHF, send.gainHf());
+            // Re-attaching is what commits the edit, exactly as on the direct filter above.
+            AL11.alSource3i(sourceID, EXTEfx.AL_AUXILIARY_SEND_FILTER, handles.slot(), 0, handles.sendFilter());
+            speaker.setSendAttached(true);
+            speaker.setSendFilterAttached(true);
+        } else if (!speaker.isSendAttached() || speaker.isSendFilterAttached()) {
             AL11.alSource3i(sourceID, EXTEfx.AL_AUXILIARY_SEND_FILTER, handles.slot(), 0, EXTEfx.AL_FILTER_NULL);
             speaker.setSendAttached(true);
+            speaker.setSendFilterAttached(false);
         }
 
         // Reprogramming the effect makes OpenAL rebuild its reverb state, so skip it once the glide
