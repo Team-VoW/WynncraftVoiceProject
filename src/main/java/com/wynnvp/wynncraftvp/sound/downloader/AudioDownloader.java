@@ -16,11 +16,17 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.file.FileVisitResult;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.SimpleFileVisitor;
+import java.nio.file.attribute.BasicFileAttributes;
 import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 import net.minecraft.network.chat.Component;
 import org.slf4j.Logger;
@@ -36,6 +42,9 @@ public class AudioDownloader {
         AudioDownloader audioDownloader = new AudioDownloader(AudioPlayer.AUDIO_FOLDER);
         audioDownloader.checkToDownload();
     }
+
+    /** Sits inside the audio folder; skipped by the .ogg filters that scan and clean that folder. */
+    private static final String HASH_CACHE_FILE = ".vow_hash_cache.json";
 
     private final String audioDir;
     private static final String DEFAULT_BASE_URL =
@@ -259,22 +268,51 @@ public class AudioDownloader {
 
         metadataMap.clear();
 
-        // If the local metadata is empty check if the audio folder is empty. If it is not empty, populate the metadata
-        // map with the files in the audio folder
-        File[] localFiles = audioFolder.listFiles((dir, name) -> name.endsWith(".ogg"));
-        if (localFiles != null) {
-            for (File localFile : localFiles) {
-                String fileName = localFile.getName().replace(".ogg", "");
-                try {
-                    String hash = computeFileHash(localFile);
-                    metadataMap.put(fileName, new AudioMetadata(localFile.length(), hash));
-                } catch (Exception e) {
-                    LOGGER.error("Failed to compute hash for file: " + localFile.getName());
-                    e.printStackTrace();
+        // Hashing the whole folder means reading every byte of it back off disk, which is well over a
+        // gigabyte by now. Files that have not changed since they were last hashed reuse that result.
+        LocalHashCache hashCache = LocalHashCache.load(audioFolder.toPath().resolve(HASH_CACHE_FILE));
+        int[] hashed = {0};
+
+        try {
+            // Walking the folder hands us the size and timestamp the directory listing already carries.
+            // Asking each File for them instead costs two extra syscalls apiece, which across ~19k
+            // files is seconds rather than milliseconds.
+            Files.walkFileTree(audioFolder.toPath(), Set.of(), 1, new SimpleFileVisitor<Path>() {
+                @Override
+                public FileVisitResult visitFile(Path path, BasicFileAttributes attributes) {
+                    String name = path.getFileName().toString();
+                    if (!name.endsWith(".ogg")) {
+                        return FileVisitResult.CONTINUE;
+                    }
+
+                    String fileName = name.replace(".ogg", "");
+                    long size = attributes.size();
+                    long modified = attributes.lastModifiedTime().toMillis();
+                    try {
+                        String hash = hashCache.lookup(fileName, size, modified);
+                        if (hash == null) {
+                            hash = computeFileHash(path.toFile());
+                            hashed[0]++;
+                        }
+                        hashCache.record(fileName, size, modified, hash);
+                        metadataMap.put(fileName, new AudioMetadata(size, hash));
+                    } catch (Exception e) {
+                        // Left out of the metadata map, so it is treated as missing and downloaded again.
+                        LOGGER.error("Failed to compute hash for file: " + name);
+                        e.printStackTrace();
+                    }
+                    return FileVisitResult.CONTINUE;
                 }
-            }
-            LOGGER.info("Populated metadata map with " + metadataMap.size() + " files");
+            });
+        } catch (IOException e) {
+            LOGGER.error("Failed to scan the audio folder: " + audioDir);
+            e.printStackTrace();
+            return;
         }
+
+        hashCache.save();
+        LOGGER.info("Populated metadata map with " + metadataMap.size() + " files (" + hashed[0] + " hashed, "
+                + (metadataMap.size() - hashed[0]) + " reused from cache)");
     }
 
     /**
