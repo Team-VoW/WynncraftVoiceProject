@@ -29,7 +29,7 @@ public class VersionChecker {
         String updateVersion = null;
         String directUpdateLink = null;
         String updateInfoPageLink = null;
-        String azureBlobLink = null;
+        String soundsBaseUrl = null;
         // In the jsonObject there is an array called "audio_urls" that contains these audio urls.
         List<String> audioUrls = new ArrayList<>();
         List<String> broadcast = new ArrayList<>();
@@ -40,7 +40,7 @@ public class VersionChecker {
             updateVersion = jsonObject.get("fabric_updateNotification").getAsString();
             directUpdateLink = jsonObject.get("fabric_directUpdateLink").getAsString();
             updateInfoPageLink = jsonObject.get("fabric_updateInfopageLink").getAsString();
-            azureBlobLink = jsonObject.get("azure_blob_link").getAsString();
+            soundsBaseUrl = jsonObject.get("azure_blob_link").getAsString();
             jsonObject.getAsJsonArray("audio_urls").forEach(jsonElement -> audioUrls.add(jsonElement.getAsString()));
             jsonObject.getAsJsonArray("broadcast").forEach(jsonElement -> broadcast.add(jsonElement.getAsString()));
         } catch (Exception e) {
@@ -53,8 +53,8 @@ public class VersionChecker {
         }
 
         if (!BetaConfig.isBetaBuild()) {
-            if (azureBlobLink != null) {
-                config.azureBlobLink = azureBlobLink;
+            if (soundsBaseUrl != null) {
+                config.soundsBaseUrl = soundsBaseUrl;
                 config.save();
             }
 
