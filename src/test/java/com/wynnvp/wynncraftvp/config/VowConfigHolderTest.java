@@ -76,7 +76,7 @@ class VowConfigHolderTest {
                     .replace("azureBlobLink = ", "soundsBaseUrl = ")
                     .replace(
                             "lastsSoundsUpdateHeader = \"Sat, 04 Apr 2026 19:24:51 GMT\"\n",
-                            "soundsJsonETag = \"never\"\n")
+                            "soundsJsonETag = \"never\"\naudioManifestETag = \"\"\n")
             + "logBlockedSounds = false\nlogAutoProgress = true\ndebugSoundPhysics = false\n";
 
     @TempDir

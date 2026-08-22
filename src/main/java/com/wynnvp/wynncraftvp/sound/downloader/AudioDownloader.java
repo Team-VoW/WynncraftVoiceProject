@@ -16,10 +16,13 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
+import java.nio.file.StandardCopyOption;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.security.MessageDigest;
 import java.util.ArrayList;
@@ -28,6 +31,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
+import java.util.zip.GZIPInputStream;
 import net.minecraft.network.chat.Component;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,6 +49,18 @@ public class AudioDownloader {
 
     /** Sits inside the audio folder; skipped by the .ogg filters that scan and clean that folder. */
     private static final String HASH_CACHE_FILE = ".vow_hash_cache.json";
+
+    /** Pre-compressed manifest. Blob storage will not compress on the fly, so this is its own object. */
+    private static final String MANIFEST_FILE = "audio_manifest.json.gz";
+
+    /**
+     * The uncompressed manifest every released version before this one reads. Still uploaded, and
+     * still the fallback here, so a client and a manifest from different releases keep working.
+     */
+    private static final String LEGACY_MANIFEST_FILE = "audio_manifest.json";
+
+    /** Local copy of the compressed manifest, kept so an unchanged one need not be downloaded again. */
+    private static final String MANIFEST_CACHE_FILE = ".vow_manifest_cache.json.gz";
 
     private final String audioDir;
     private static final String DEFAULT_BASE_URL =
@@ -66,7 +82,11 @@ public class AudioDownloader {
     }
 
     private String getManifestUrl() {
-        return ModCore.config.azureBlobRootLink + "audio_manifest.json";
+        return ModCore.config.azureBlobRootLink + MANIFEST_FILE;
+    }
+
+    private String getLegacyManifestUrl() {
+        return ModCore.config.azureBlobRootLink + LEGACY_MANIFEST_FILE;
     }
 
     private final HashMap<String, AudioMetadata> metadataMap = new HashMap<>();
@@ -317,14 +337,120 @@ public class AudioDownloader {
 
     /**
      * Fetches the audio manifest from the remote server.
+     * <p>
+     * Prefers the compressed manifest, which is revalidated against a local copy so an unchanged one
+     * costs no download at all. Anything unexpected there falls through to the uncompressed manifest
+     * the mod has always read, so a client newer than the upload pipeline still works.
      *
      * @return A map of audio metadata from the remote server.
      * @throws IOException If an I/O error occurs while fetching the manifest.
      */
     private HashMap<String, AudioMetadata> fetchAudioManifest() throws IOException {
+        HashMap<String, AudioMetadata> manifest = fetchCompressedManifest();
+        if (manifest != null) {
+            return manifest;
+        }
+        LOGGER.warn("Falling back to the uncompressed audio manifest");
+        return fetchLegacyManifest();
+    }
+
+    /**
+     * Downloads the compressed manifest, or reads the local copy back when blob storage reports it
+     * has not changed.
+     *
+     * @return the manifest, or null if it could not be fetched and the caller should fall back
+     */
+    private HashMap<String, AudioMetadata> fetchCompressedManifest() {
+        Path cacheFile = Paths.get(audioDir, MANIFEST_CACHE_FILE);
         HttpURLConnection connection = null;
         try {
             connection = (HttpURLConnection) new URL(getManifestUrl()).openConnection();
+            connection.setRequestMethod("GET");
+
+            // Only worth revalidating if there is actually something on disk to revalidate against.
+            String cachedETag = ModCore.config.audioManifestETag;
+            if (Files.isRegularFile(cacheFile) && cachedETag != null && !cachedETag.isEmpty()) {
+                connection.setRequestProperty("If-None-Match", cachedETag);
+            }
+
+            int responseCode = connection.getResponseCode();
+            if (responseCode == HttpURLConnection.HTTP_NOT_MODIFIED) {
+                LOGGER.info("Audio manifest is unchanged; reading the cached copy");
+                return readManifest(cacheFile);
+            }
+            if (responseCode != HttpURLConnection.HTTP_OK) {
+                LOGGER.warn("Failed to fetch the compressed audio manifest. Response code: " + responseCode);
+                return null;
+            }
+
+            writeManifestCache(connection, cacheFile);
+            HashMap<String, AudioMetadata> manifest = readManifest(cacheFile);
+            if (manifest == null) {
+                return null;
+            }
+
+            // Recorded only once the file is readable, so a broken download is not remembered as current.
+            String etag = connection.getHeaderField("ETag");
+            ModCore.config.audioManifestETag = etag != null ? etag : "";
+            ModCore.config.save();
+            LOGGER.info("Fetched audio manifest with " + manifest.size() + " entries");
+            return manifest;
+        } catch (IOException | RuntimeException e) {
+            LOGGER.error("Failed to fetch the compressed audio manifest");
+            e.printStackTrace();
+            return null;
+        } finally {
+            if (connection != null) {
+                connection.disconnect();
+            }
+        }
+    }
+
+    /** Streams the response to disk via a temporary file, so a failed download keeps the old copy. */
+    private void writeManifestCache(HttpURLConnection connection, Path cacheFile) throws IOException {
+        Path parent = cacheFile.getParent();
+        if (parent != null) {
+            Files.createDirectories(parent);
+        }
+        Path temp = cacheFile.resolveSibling(MANIFEST_CACHE_FILE + ".tmp");
+        try {
+            try (InputStream inputStream = connection.getInputStream()) {
+                Files.copy(inputStream, temp, StandardCopyOption.REPLACE_EXISTING);
+            }
+            Files.move(temp, cacheFile, StandardCopyOption.REPLACE_EXISTING);
+        } catch (IOException e) {
+            Files.deleteIfExists(temp);
+            throw e;
+        }
+    }
+
+    /**
+     * Reads a cached manifest off disk, discarding it if it turns out to be unreadable so the next
+     * run fetches a fresh one rather than trusting the same broken file forever.
+     */
+    private HashMap<String, AudioMetadata> readManifest(Path cacheFile) {
+        try (InputStream gzipped = new GZIPInputStream(Files.newInputStream(cacheFile));
+                InputStreamReader reader = new InputStreamReader(gzipped, StandardCharsets.UTF_8)) {
+            return gson.fromJson(reader, new TypeToken<HashMap<String, AudioMetadata>>() {}.getType());
+        } catch (IOException | RuntimeException e) {
+            LOGGER.error("Cached audio manifest could not be read; discarding it");
+            e.printStackTrace();
+            try {
+                Files.deleteIfExists(cacheFile);
+            } catch (IOException ignored) {
+                // Nothing useful to do; the stale ETag is cleared below either way.
+            }
+            ModCore.config.audioManifestETag = "";
+            ModCore.config.save();
+            return null;
+        }
+    }
+
+    /** The uncompressed manifest fetch, unchanged, kept as the fallback. */
+    private HashMap<String, AudioMetadata> fetchLegacyManifest() throws IOException {
+        HttpURLConnection connection = null;
+        try {
+            connection = (HttpURLConnection) new URL(getLegacyManifestUrl()).openConnection();
             connection.setRequestMethod("GET");
             connection.connect();
 
@@ -334,7 +460,7 @@ public class AudioDownloader {
                     return gson.fromJson(reader, new TypeToken<HashMap<String, AudioMetadata>>() {}.getType());
                 }
             }
-            throw new IOException("Failed to fetch audio manifest: " + getManifestUrl());
+            throw new IOException("Failed to fetch audio manifest: " + getLegacyManifestUrl());
         } finally {
             if (connection != null) {
                 connection.disconnect();
