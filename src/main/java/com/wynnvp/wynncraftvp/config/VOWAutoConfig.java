@@ -40,6 +40,9 @@ public class VOWAutoConfig {
     /** ETag of the cached sounds.json, used to revalidate it against the CDN. */
     public String soundsJsonETag = "never";
 
+    /** ETag of the cached audio manifest, used to revalidate it against blob storage. */
+    public String audioManifestETag = "";
+
     public boolean playAllSoundsOnPlayer = false;
 
     public int voiceVolume = 100;

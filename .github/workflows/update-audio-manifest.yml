@@ -64,10 +64,24 @@ jobs:
           print("Generated minified audio_manifest.json")
           EOF
 
+      - name: Compress the manifest
+        run: |
+          gzip -9 -k -f audio_manifest.json
+          echo "plain:      $(stat -c%s audio_manifest.json) bytes"
+          echo "compressed: $(stat -c%s audio_manifest.json.gz) bytes"
+
       - name: Upload manifest to Azure Blob Storage
         env:
           BLOB_SAS_URL: ${{ secrets.BLOB_SAS_URL }}
         run: |
           containerUrl="${BLOB_SAS_URL%%\?*}"
           sasToken="${BLOB_SAS_URL#*\?}"
+
+          # Azure Blob does not compress on the fly, so the compressed copy is uploaded as its own
+          # object. Served as an opaque application/gzip rather than with Content-Encoding set, so
+          # nothing between here and the client decides to decode it on our behalf.
+          azcopy copy "audio_manifest.json.gz" "${containerUrl}/audio_manifest.json.gz?${sasToken}" \
+            --overwrite=true --content-type "application/gzip"
+
+          # Kept for mod versions released before audio_manifest.json.gz existed; they still read this.
           azcopy copy "audio_manifest.json" "${containerUrl}/audio_manifest.json?${sasToken}" --overwrite=true
