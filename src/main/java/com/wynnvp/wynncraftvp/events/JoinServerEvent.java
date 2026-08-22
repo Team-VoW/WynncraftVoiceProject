@@ -45,7 +45,7 @@ public class JoinServerEvent {
 
                 checker.findFastestEndpointAsync()
                         .thenAccept(fastestUrl -> {
-                            ModCore.config.azureBlobLink = fastestUrl;
+                            ModCore.config.soundsBaseUrl = fastestUrl;
                             ModCore.config.save();
                         })
                         .exceptionally(throwable -> {

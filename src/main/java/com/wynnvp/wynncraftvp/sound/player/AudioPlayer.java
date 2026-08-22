@@ -227,7 +227,7 @@ public class AudioPlayer {
         }
 
         urls = new ArrayList<>(ModCore.config.urls);
-        String fastestServer = ModCore.config.azureBlobLink;
+        String fastestServer = ModCore.config.soundsBaseUrl;
         urls.remove(fastestServer);
         urls.addFirst(fastestServer);
         return urls;

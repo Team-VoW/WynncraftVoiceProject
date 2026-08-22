@@ -28,7 +28,8 @@ public class VOWAutoConfig {
     /** When the nudge about Minecraft's Directional Audio setting was last shown, in epoch millis. */
     public long directionalAudioHintLastShown = 0;
 
-    public String azureBlobLink = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
+    /** Base URL the sounds and sounds.json are served from; picked from {@link #urls} by latency. */
+    public String soundsBaseUrl = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
 
     public String azureBlobRootLink = "https://vow.blob.core.windows.net/mod/";
 
@@ -36,7 +37,8 @@ public class VOWAutoConfig {
 
     public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5;
 
-    public String lastsSoundsUpdateHeader = "never";
+    /** ETag of the cached sounds.json, used to revalidate it against the CDN. */
+    public String soundsJsonETag = "never";
 
     public boolean playAllSoundsOnPlayer = false;
 
@@ -278,6 +280,6 @@ public class VOWAutoConfig {
     }
 
     public String getRemoteJsonLink() {
-        return azureBlobLink + "sounds.json";
+        return soundsBaseUrl + "sounds.json";
     }
 }

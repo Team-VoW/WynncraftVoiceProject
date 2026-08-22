@@ -71,6 +71,12 @@ class VowConfigHolderTest {
                     .replace(
                             "blockVillagerSoundsDuringVoiceDialog = true\n",
                             "blockVillagerSoundsDuringVoiceDialog = true\nrouteMasterSoundsToBlocks = true\n")
+                    // Renamed keys are written under their new name; the retired ones drop out and
+                    // their replacements fall back to the field default.
+                    .replace("azureBlobLink = ", "soundsBaseUrl = ")
+                    .replace(
+                            "lastsSoundsUpdateHeader = \"Sat, 04 Apr 2026 19:24:51 GMT\"\n",
+                            "soundsJsonETag = \"never\"\n")
             + "logBlockedSounds = false\nlogAutoProgress = true\ndebugSoundPhysics = false\n";
 
     @TempDir
@@ -84,7 +90,9 @@ class VowConfigHolderTest {
 
         assertEquals("gzog6zilzq6zxlt", config.word);
         assertTrue(config.hasChosenLineReport);
-        assertEquals("Sat, 04 Apr 2026 19:24:51 GMT", config.lastsSoundsUpdateHeader);
+        // lastsSoundsUpdateHeader held a Last-Modified date; it was retired for an ETag under a new
+        // key, so an old file leaves soundsJsonETag at its default and the cache revalidates once.
+        assertEquals("never", config.soundsJsonETag);
         assertEquals(List.of("https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/"), config.urls);
         assertEquals(0.5, config.npcFinderThingMaxDistanceChangeBeforeCacheInvalid);
         assertEquals(32, config.blockCutOff);
@@ -134,7 +142,7 @@ class VowConfigHolderTest {
         // Everything the file did not mention falls back to the field initializers.
         assertEquals(100, config.playbackSpeed);
         assertEquals(32, config.blockCutOff);
-        assertEquals("never", config.lastsSoundsUpdateHeader);
+        assertEquals("never", config.soundsJsonETag);
         assertTrue(config.debugAndLogs.logDialogueLines);
     }
 
