@@ -79059,5 +79059,2605 @@
   {
     "line": "Fichu: Don't worry, I've already brainstormed a better design. I think Soosu will like this next one even more!",
     "file": "throughthepipes-fichu-241"
+  },
+  {
+    "line": "Rex: Ha. Your bow control is sloppy, ''captain.''",
+    "file": "apotheosis-rex-1"
+  },
+  {
+    "line": "Hyloch Captain: Don't you dare speak, scum.",
+    "file": "apotheosis-hylochcaptain-1"
+  },
+  {
+    "line": "Rex: Great, backup's finally here!",
+    "file": "apotheosis-rex-2"
+  },
+  {
+    "line": "Rex: soldier, let's take him out together!",
+    "file": "apotheosis-rex-3"
+  },
+  {
+    "line": "Rex: Thanks for the support, soldier! Not sure how much longer I could've held out on my own.",
+    "file": "apotheosis-rex-4"
+  },
+  {
+    "line": "Rex: We were about to regroup with the Canopy, but Cileon spotted soldiers approaching through the hotel windows.",
+    "file": "apotheosis-rex-5"
+  },
+  {
+    "line": "Rex: They've stormed the plaza, and probably the rest of the city by now... I think they've rounded up all the citizens at the festival grounds.",
+    "file": "apotheosis-rex-6"
+  },
+  {
+    "line": "Rex: We all got split up in the commotion - the others are probably fighting their own battles! Come on, we need to get moving!!",
+    "file": "apotheosis-rex-7"
+  },
+  {
+    "line": "Rex: This way!!",
+    "file": "apotheosis-rex-8"
+  },
+  {
+    "line": "Zeph: soldier! Rex!! Per- perfect timing!",
+    "file": "apotheosis-zeph-1"
+  },
+  {
+    "line": "Zeph: Phew... th...that was close. soldier, it's g- good to see you.",
+    "file": "apotheosis-zeph-2"
+  },
+  {
+    "line": "Rex: Where are the others? Have you seen them?",
+    "file": "apotheosis-rex-9"
+  },
+  {
+    "line": "Zeph: I saw Cileon u- up ahead! But I l- lo- lost sight of Sui a while ago...",
+    "file": "apotheosis-zeph-3"
+  },
+  {
+    "line": "Rex: Then what are we waiting for?! Let's get moving!",
+    "file": "apotheosis-rex-10"
+  },
+  {
+    "line": "Zeph: O- o- okay!!",
+    "file": "apotheosis-zeph-4"
+  },
+  {
+    "line": "Zeph: ...soldier, if y...you're here, then... the Queen...?",
+    "file": "apotheosis-zeph-5"
+  },
+  {
+    "line": "Rex: Worry about our friends first, Queen second! Come one, move move move!",
+    "file": "apotheosis-rex-11"
+  },
+  {
+    "line": "Cileon: Hmm. Alive. Good.",
+    "file": "apotheosis-cileon-1"
+  },
+  {
+    "line": "Cileon: Constable. Help kill.",
+    "file": "apotheosis-cileon-2"
+  },
+  {
+    "line": "Cileon: Dead. Good.",
+    "file": "apotheosis-cileon-3"
+  },
+  {
+    "line": "Zeph: Th...that was awesome, Cileon!! Could you t- te- teach me some of your techni-",
+    "file": "apotheosis-zeph-6"
+  },
+  {
+    "line": "Rex: ZEPH! There's no TIME!! Cileon, have you seen Sui?!",
+    "file": "apotheosis-rex-12"
+  },
+  {
+    "line": "Cileon: Mmn. Sui...",
+    "file": "apotheosis-cileon-4"
+  },
+  {
+    "line": "Cileon: This way. Festival.",
+    "file": "apotheosis-cileon-5"
+  },
+  {
+    "line": "Cileon: Let's go!",
+    "file": "apotheosis-cileon-6"
+  },
+  {
+    "line": "Rex: Sui!!!",
+    "file": "apotheosis-rex-13"
+  },
+  {
+    "line": "Sui: Oh! You're all safe!",
+    "file": "apotheosis-sui-1"
+  },
+  {
+    "line": "Sui: And soldier, you're here too...",
+    "file": "apotheosis-sui-2"
+  },
+  {
+    "line": "Zeph: Sui, that was i- in- incredible!! But, using that much m...magic... be careful not to use up all of your st- strength...",
+    "file": "apotheosis-zeph-7"
+  },
+  {
+    "line": "Sui: ...it's fine, Zeph. It doesn't drain me to use, anymore. I can just... pull on the strands.",
+    "file": "apotheosis-sui-3"
+  },
+  {
+    "line": "Cileon: Hmph. Ahead.",
+    "file": "apotheosis-cileon-7"
+  },
+  {
+    "line": "Zeph: R- ri- right... the festival speech. Should we try to l...listen in on it?",
+    "file": "apotheosis-zeph-8"
+  },
+  {
+    "line": "Rex: What?! No! We're all safe, so let's get out of here and regroup with the rest of the Canopy! Doing anything else is way too risky-",
+    "file": "apotheosis-rex-14"
+  },
+  {
+    "line": "Sui: No. I'm... I'm done running away. We're going in.",
+    "file": "apotheosis-sui-4"
+  },
+  {
+    "line": "Rex: ...are you insane?!",
+    "file": "apotheosis-rex-15"
+  },
+  {
+    "line": "Sui: She's responsible for everything that has happened to us. I'm not going to just... let her get away when she's RIGHT THERE!!!",
+    "file": "apotheosis-sui-5"
+  },
+  {
+    "line": "Sui: She's going to pay for all of it.",
+    "file": "apotheosis-sui-6"
+  },
+  {
+    "line": "Zeph: S- Sui... you don't h- have to do it alone.",
+    "file": "apotheosis-zeph-9"
+  },
+  {
+    "line": "Rex: ...fine. Fine! Let's do it, then! Let's go... face the Queen.",
+    "file": "apotheosis-rex-16"
+  },
+  {
+    "line": "Wings Knight: HALT!",
+    "file": "apotheosis-wingsknight-1"
+  },
+  {
+    "line": "Sui: Get out of our way!!!!!",
+    "file": "apotheosis-sui-7"
+  },
+  {
+    "line": "Rex: Sui... careful.",
+    "file": "apotheosis-rex-17"
+  },
+  {
+    "line": "Zeph: ...th- this was a bad idea. We n...need to get out of-",
+    "file": "apotheosis-zeph-10"
+  },
+  {
+    "line": "Her Majesty: People of the Highlands! I deeply apologize for the disruption to your routines. You must be confused, afraid.",
+    "file": "apotheosis-hermajesty-1"
+  },
+  {
+    "line": "Her Majesty: This festival is a time for joy, for celebration! But there are those within your midst who reject this notion. They aim to bring destruction, chaos!",
+    "file": "apotheosis-hermajesty-2"
+  },
+  {
+    "line": "Her Majesty: Indeed... a plot to twist our province's ideals, to destroy our very way of life! The perpetrators lurking in your city, feigning innocence... what a disgrace.",
+    "file": "apotheosis-hermajesty-3"
+  },
+  {
+    "line": "Her Majesty: It was your very own Sovereign, Majin Thalas, whose quick thinking brought down the terrorists' plot! The Wings, the Constables, the Local Guard, all have mobilized to capture the perpetrators.",
+    "file": "apotheosis-hermajesty-4"
+  },
+  {
+    "line": "Her Majesty: Soon, we shall have them chained before you. Soon, you shall see the faces of this blight, this infection in the veins of our province.",
+    "file": "apotheosis-hermajesty-5"
+  },
+  {
+    "line": "Her Majesty: And soon, we shall cut. It. Out.",
+    "file": "apotheosis-hermajesty-6"
+  },
+  {
+    "line": "Her Majesty: YOU.",
+    "file": "apotheosis-hermajesty-7"
+  },
+  {
+    "line": "Her Majesty: And so it would seem my Sovereigns have once again failed to perform what should be a very simple task.",
+    "file": "apotheosis-hermajesty-8"
+  },
+  {
+    "line": "Her Majesty: Sovereign Thalas, what, precisely, is it you have been teaching these soldiers of yours?! Because there should be no reason for them to have FAILED to capture these CHILDREN!",
+    "file": "apotheosis-hermajesty-9"
+  },
+  {
+    "line": "Sovereign Zhiraok: I told you we should've taken the direct solution! More dead soldiers, more of our people subtracted out, for nothing!",
+    "file": "apotheosis-sovereignzhiraok-1"
+  },
+  {
+    "line": "Sovereign Majin: Hm! Now, let us be clear, the soldiers are-",
+    "file": "apotheosis-sovereignmajin-1"
+  },
+  {
+    "line": "Her Majesty: Oh, I do not care. Save your excuses.",
+    "file": "apotheosis-hermajesty-10"
+  },
+  {
+    "line": "Her Majesty: You... you have proven very hard to pin down, it would seem. No matter the circumstances, you have a knack for slipping through the cracks...",
+    "file": "apotheosis-hermajesty-11"
+  },
+  {
+    "line": "Her Majesty: It would be oh so simple to blame you for all you have enacted... but the truth is, you were merely the catalyst. The seeds of this rebellion were planted long, long before you.",
+    "file": "apotheosis-hermajesty-12"
+  },
+  {
+    "line": "Her Majesty: Oh, the Auburn Forest... over these centuries, its beauty has never faded. The vibrant colors, the warm breeze of the changing seasons...",
+    "file": "apotheosis-hermajesty-13"
+  },
+  {
+    "line": "Her Majesty: What a shame, then, that beneath the cover of the leaves, there lurk countless cowering pests. And no matter how hard I try, I cannot seem to wash them out.",
+    "file": "apotheosis-hermajesty-14"
+  },
+  {
+    "line": "Her Majesty: Fell the perceived source of their strength, cut the branches and burn the leaves, the fruit that emboldens their acts - and still, they persist!",
+    "file": "apotheosis-hermajesty-15"
+  },
+  {
+    "line": "Her Majesty: Bury their monuments, erase their gods - and still, and STILL, they cling to ideals of love, of family! And still, and still, and still, they persist.",
+    "file": "apotheosis-hermajesty-16"
+  },
+  {
+    "line": "Her Majesty: Washing it all away had shown results... for a time. But even growing forth from a blank slate, even with no ties to what came before - still, still, STILL THEY PERSIST!!!",
+    "file": "apotheosis-hermajesty-17"
+  },
+  {
+    "line": "Her Majesty: There is a rot in the heart of that forest. I see that now. Perhaps, I had allowed my fondness for the region to blind me... but no more.",
+    "file": "apotheosis-hermajesty-18"
+  },
+  {
+    "line": "Her Majesty: And so, as once we saw out the New Age, so again shall we wash away these pests. That accursed forest will drown, and the rot buried deep will be excised once more.",
+    "file": "apotheosis-hermajesty-19"
+  },
+  {
+    "line": "Sovereign Zhiraok: YOUR MAJESTY!!",
+    "file": "apotheosis-sovereignzhiraok-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: W-With respect, that is not a viable angle! The Resistance is such a small percentage of the overall population, they're practically a rounding error!",
+    "file": "apotheosis-sovereignzhiraok-3"
+  },
+  {
+    "line": "Sovereign Zhiraok: You can't divide out a quarter of our province's people, a-and just as much infrastructure, just to solve for a subset of rogue integers!!",
+    "file": "apotheosis-sovereignzhiraok-4"
+  },
+  {
+    "line": "Sovereign Majin: Learn when to keep your mouth shut, would you, Nasin?! We are standing before the public! This is not the time to raise such grievances-",
+    "file": "apotheosis-sovereignmajin-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: That didn't stop you interrupting my sequence and openly denigrating the recruits at the tournament to fulfill your petty factoring grudge!! You have no excuses!",
+    "file": "apotheosis-sovereignzhiraok-5"
+  },
+  {
+    "line": "Sovereign Zhiraok: We- We have been wasting our numbers at every point. When did our vector shift to something so shortsighted? When did we lose sight of our nontrivial solution?!",
+    "file": "apotheosis-sovereignzhiraok-6"
+  },
+  {
+    "line": "Sovereign Zhiraok: You're both plugged into a destructive sequence! I can't enable these irrationalities!! I refuse to be a variable in this cyclical, downwards spiral!!",
+    "file": "apotheosis-sovereignzhiraok-7"
+  },
+  {
+    "line": "Her Majesty: Take care with what you do next, Zhiraok Nasin. If you turn away now, you will forsake your position and forfeit your life.",
+    "file": "apotheosis-hermajesty-20"
+  },
+  {
+    "line": "Sovereign Zhiraok: I- You-",
+    "file": "apotheosis-sovereignzhiraok-8"
+  },
+  {
+    "line": "Sovereign Zhiraok: If this is what honor is supposed to feel like, I don't want it anymore.",
+    "file": "apotheosis-sovereignzhiraok-9"
+  },
+  {
+    "line": "Sovereign Zhiraok: My loyalty is to the people. If yours isn't, then our vectors no longer converge. I'm subtracting my pact to you myself.",
+    "file": "apotheosis-sovereignzhiraok-10"
+  },
+  {
+    "line": "Sovereign Zhiraok: Gotta evacuate, contact Xao, the commanders, get everyone to higher ground, find where the helix S-",
+    "file": "apotheosis-sovereignzhiraok-11"
+  },
+  {
+    "line": "Sovereign Majin: Hmph! Your Majesty, if you would allow it, I would gladly put his head on a stick for you.",
+    "file": "apotheosis-sovereignmajin-3"
+  },
+  {
+    "line": "Her Majesty: Firstly, Sovereign Thalas, I would have you clean up your mess. Execute the terrorists.",
+    "file": "apotheosis-hermajesty-21"
+  },
+  {
+    "line": "Her Majesty: ...and once you are done, you have my approval to hunt down ex-Sovereign Zhiraok Nasin.",
+    "file": "apotheosis-hermajesty-22"
+  },
+  {
+    "line": "Her Majesty: While you are at it, eliminate that entire House. They have disappointed me far too many times, and I have granted them far too many chances.",
+    "file": "apotheosis-hermajesty-23"
+  },
+  {
+    "line": "Sovereign Majin: Aha! Gladly. As you wish, Your Majesty. It will be done.",
+    "file": "apotheosis-sovereignmajin-4"
+  },
+  {
+    "line": "Her Majesty: Sovereign Tasim. You will be coming with me to the dam.",
+    "file": "apotheosis-hermajesty-24"
+  },
+  {
+    "line": "Sovereign Majin: Ahhh... Finally! I'd long been awaiting the day I'd get the chance to wipe you rats off the face of the planet.",
+    "file": "apotheosis-sovereignmajin-5"
+  },
+  {
+    "line": "Sovereign Majin: But before we begin, I'm an honourable man, so I'll grant you this opportunity! Any last words for the crowd?",
+    "file": "apotheosis-sovereignmajin-6"
+  },
+  {
+    "line": "Sovereign Majin: Ahahahaha! Did you, now? That the great Sovereign Majin would fall to a simple group of insurgents... What a laughably fanciful tale!",
+    "file": "apotheosis-sovereignmajin-7"
+  },
+  {
+    "line": "Sovereign Majin: My goodness, what a statement! You truly believe so? That you of all people stand a chance against my might?",
+    "file": "apotheosis-sovereignmajin-8"
+  },
+  {
+    "line": "Sovereign Majin: Oh, how dreadfully dull. If you are going to be so dramatic, use a better line, would you?",
+    "file": "apotheosis-sovereignmajin-9"
+  },
+  {
+    "line": "Sovereign Majin: Ha! As if. Half those tabloids are filled with naught but meaningless gossip! Though, I do have an appreciation for the Majin Monthly. It's quite the interesting read, you know!",
+    "file": "apotheosis-sovereignmajin-10"
+  },
+  {
+    "line": "Sovereign Majin: Hm... But I'm afraid only one of you is worthy of facing me in combat. As for the rest of you pitiful worms...",
+    "file": "apotheosis-sovereignmajin-11"
+  },
+  {
+    "line": "Sovereign Majin: Wings, to arms! Initiate SHINING STARLIGHT PINNACLE formation!",
+    "file": "apotheosis-sovereignmajin-12"
+  },
+  {
+    "line": "Sovereign Majin: Ah ah ah! Keep your eyes on what's important, mmn?",
+    "file": "apotheosis-sovereignmajin-13"
+  },
+  {
+    "line": "Sovereign Majin: You should feel honoured! Very few are given the privilege of dying to my blade. I'd tell you to write about it in your memoirs, but...",
+    "file": "apotheosis-sovereignmajin-14"
+  },
+  {
+    "line": "Sovereign Majin: Well, I don't imagine you'll have the chance. NOW - SHINING STAR'S SPOTLIGHT!!!",
+    "file": "apotheosis-sovereignmajin-15"
+  },
+  {
+    "line": "Sovereign Majin: Welcome to my domain of the starry night, dear guest! Quite the stunning view, is it not?",
+    "file": "apotheosis-sovereignmajin-16"
+  },
+  {
+    "line": "Sovereign Majin: By all means - take your time, take it all in, every little detail! Allow that feeling to sink in - your sheer insignificance in the face of the vastness of the cosmos!",
+    "file": "apotheosis-sovereignmajin-17"
+  },
+  {
+    "line": "Sovereign Majin: Ah... Her Majesty and the Spymaster, they held interest in you once. Looking upon you now, I simply cannot fathom why.",
+    "file": "apotheosis-sovereignmajin-18"
+  },
+  {
+    "line": "Sovereign Majin: But I suppose it matters not! You have certainly cut that strand of interest with all your assorted antics, haven't you?",
+    "file": "apotheosis-sovereignmajin-19"
+  },
+  {
+    "line": "Sovereign Majin: Well! If you must die, be glad it was to my blade! LET THE SHOW BEGIN!!",
+    "file": "apotheosis-sovereignmajin-20"
+  },
+  {
+    "line": "Sovereign Majin: My my, now we're getting somewhere! Let's kick it up a notch - stay in the lime light, or DIE!",
+    "file": "apotheosis-sovereignmajin-21"
+  },
+  {
+    "line": "Sovereign Majin: Ha... haha... hahahaHAHAHA!!!! What a show, what a SHOW - you're FAR more dangerous than you let on!! But it'll take more than that to kill ME!!!",
+    "file": "apotheosis-sovereignmajin-22"
+  },
+  {
+    "line": "Sovereign Majin: There is always more power to take, if one only knows where to look! BEHOLD!! THE LIMITLESS WEIGHT OF THE COSMOS!!!!!",
+    "file": "apotheosis-sovereignmajin-23"
+  },
+  {
+    "line": "Sovereign Majin: Ha...",
+    "file": "apotheosis-sovereignmajin-24"
+  },
+  {
+    "line": "Sovereign Majin: Hahahaha... HAHAHAHAHAHAAAA!!!! You?! YOU truly believe you can kill ME?!?! No... no no no no NO, YOU WILL NOT!!!!!",
+    "file": "apotheosis-sovereignmajin-25"
+  },
+  {
+    "line": "Sovereign Majin: I will draw more... and more, and more and more AND MORE POWER!!! I WILL TAKE ALL IT CAN OFFER ME, AND MORE!!!!!",
+    "file": "apotheosis-sovereignmajin-26"
+  },
+  {
+    "line": "Sovereign Majin: The COSMOS bends to my will!! The STARS, the INDESCRIBABLY COUNTLESS STARS!!! THE STARS AND THE INKY VOID BETWEEN, THEY WILL STRIKE YOU DOWN!!!!",
+    "file": "apotheosis-sovereignmajin-27"
+  },
+  {
+    "line": "Sovereign Majin: Ha... hahahahahahaha... AHAHAHAHAHAHAHAHAHAHA HAHAHAHAHA!!!!!!!!!!!!",
+    "file": "apotheosis-sovereignmajin-28"
+  },
+  {
+    "line": "Sovereign Majin: This... this feeling... is this how it feels, to float amongst the shining stars? A rush - of feeling, of emotion, of power - it is all... so... so...",
+    "file": "apotheosis-sovereignmajin-29"
+  },
+  {
+    "line": "Sovereign Majin: Have I done it? Have I reached the pinnacle? All I have ever strived for, to be above, to be greater still... it is here. I have seen it.",
+    "file": "apotheosis-sovereignmajin-30"
+  },
+  {
+    "line": "Sovereign Majin: Hahahahaha!!! AHAHAHAHAHAHAH!!!!! OH, THE JOY! THE INCOMPARABLE JOY!!! NONE COULD EVER DARE TO STAND AGAINST ME NOW!!! I HAVE BECOME-",
+    "file": "apotheosis-sovereignmajin-31"
+  },
+  {
+    "line": "Bleeding Rose: Flooding the whole forest... There's- That can't be, th-there's no way...",
+    "file": "apotheosis-bleedingrose-1"
+  },
+  {
+    "line": "Dusk Garden: I certainly hope you've learned your lesson, Rose! This is what happens! Loose nails get hammered down!",
+    "file": "apotheosis-duskgarden-1"
+  },
+  {
+    "line": "Bleeding Rose: What...?",
+    "file": "apotheosis-bleedingrose-2"
+  },
+  {
+    "line": "Dusk Garden: This is all happening because a certain SOMEONE incited violence against the crown! In the papers no less, where we do our work!",
+    "file": "apotheosis-duskgarden-2"
+  },
+  {
+    "line": "Dusk Garden: Risky, dangerous, all of it- and now look where we are! Public executions! We might not even be allowed to publish after this!",
+    "file": "apotheosis-duskgarden-3"
+  },
+  {
+    "line": "Bleeding Rose: ...there are...HOW many people in danger right now, a-and all you can think to do is-",
+    "file": "apotheosis-bleedingrose-3"
+  },
+  {
+    "line": "Dusk Garden: It's. What. You. GET.",
+    "file": "apotheosis-duskgarden-4"
+  },
+  {
+    "line": "Bleeding Rose: How can you be so monumentally stupid?! At least they TRIED! At least they SHOWED UP! They followed through!!",
+    "file": "apotheosis-bleedingrose-4"
+  },
+  {
+    "line": "Bleeding Rose: The first hope I've seen in years, and you throw petty insults at them?!",
+    "file": "apotheosis-bleedingrose-5"
+  },
+  {
+    "line": "Dusk Garden: Ergh...where did you learn to hit?! Can you really only rely on that to make your point?",
+    "file": "apotheosis-duskgarden-5"
+  },
+  {
+    "line": "Bleeding Rose: Oh, grow UP already!! Think of something useful to do, instead of looking at the people who are doing anything more than sitting on their asses and going ''how uncivilized!''",
+    "file": "apotheosis-bleedingrose-6"
+  },
+  {
+    "line": "Dusk Garden: Hey, language! And besides, it's not as if that insurgent has any chance against-",
+    "file": "apotheosis-duskgarden-6"
+  },
+  {
+    "line": "Dusk Garden: ...the...Sovereign...",
+    "file": "apotheosis-duskgarden-7"
+  },
+  {
+    "line": "Dusk Garden: ...is...d-d-dead?!",
+    "file": "apotheosis-duskgarden-8"
+  },
+  {
+    "line": "Bleeding Rose: ...The Sovereign...is dead!! The Resistance is triumphant!! Can't you see?! They were right!!",
+    "file": "apotheosis-bleedingrose-7"
+  },
+  {
+    "line": "Bleeding Rose: We need to help them! This might be our only chance, we can't let it slip away from us!!",
+    "file": "apotheosis-bleedingrose-8"
+  },
+  {
+    "line": "Hyloch Citizen: ...you know what?",
+    "file": "apotheosis-hylochcitizen-1"
+  },
+  {
+    "line": "Hyloch Citizen: LET'S HELP THEM!",
+    "file": "apotheosis-hylochcitizen-2"
+  },
+  {
+    "line": "Hyloch Citizen: LIFE'S CHANGING!!",
+    "file": "apotheosis-hylochcitizen-3"
+  },
+  {
+    "line": "Hyloch Citizen: THE EMPIRE'S FALLING!!!",
+    "file": "apotheosis-hylochcitizen-4"
+  },
+  {
+    "line": "Hyloch Citizen: MAJIN'S DEAD, WHAT CAN THEY DO NOW?!",
+    "file": "apotheosis-hylochcitizen-5"
+  },
+  {
+    "line": "Bleeding Rose: You! You really did it!! People are...they're doing something!! It worked, I can't believe it worked!!",
+    "file": "apotheosis-bleedingrose-9"
+  },
+  {
+    "line": "Bleeding Rose: I'm going with them! We have to keep up the momentum, m-maybe I can direct them! You do whatever you have to- I trust you! We'll make it!",
+    "file": "apotheosis-bleedingrose-10"
+  },
+  {
+    "line": "Zeph: soldier!! Y...you're alive!! Then that means...?",
+    "file": "apotheosis-zeph-11"
+  },
+  {
+    "line": "Cileon: Mmn. Impressive.",
+    "file": "apotheosis-cileon-8"
+  },
+  {
+    "line": "Rex: Good. That's one less Sovereign to worry about...",
+    "file": "apotheosis-rex-18"
+  },
+  {
+    "line": "Sui: She... she really threatened to flood the Auburn Forest... didn't she...?",
+    "file": "apotheosis-sui-8"
+  },
+  {
+    "line": "Zeph: I- I- I can't believe it... all be- because we won't b...back down?",
+    "file": "apotheosis-zeph-12"
+  },
+  {
+    "line": "Rex: Well, I can. Just like the New Age... ugh, was THAT her too?! We're unprepared, outmatched... how are we meant to-",
+    "file": "apotheosis-rex-19"
+  },
+  {
+    "line": "Sui: It doesn't matter! We- we have to stop her! We can't just... let her kill all those people!",
+    "file": "apotheosis-sui-9"
+  },
+  {
+    "line": "Rex: ...I hate it, but you're right. Come on, let's-",
+    "file": "apotheosis-rex-20"
+  },
+  {
+    "line": "Rurie: Phew- you're all still standing strong!! Good, good... I- phew- I was getting worried!",
+    "file": "apotheosis-rurie-1"
+  },
+  {
+    "line": "Zeph: R...Rurie? What are you doing h- here?",
+    "file": "apotheosis-zeph-13"
+  },
+  {
+    "line": "Rurie: Ah! One moment, just, ha, allow me to catch my breath- let me tell you, those speed talismans are handy but they really leave you winded-",
+    "file": "apotheosis-rurie-2"
+  },
+  {
+    "line": "Rurie: ...ohohohoho, do my eyes deceive me?! I'd heard the townsfolk talking but I could hardly believe it- is it really true? Has the Sovereign Thalas truly been felled?!",
+    "file": "apotheosis-rurie-3"
+  },
+  {
+    "line": "Sui: ...yeah. soldier beat him.",
+    "file": "apotheosis-sui-10"
+  },
+  {
+    "line": "Rurie: Ha. Ha! Hahahahahaha! Ahahahahahahahahaha!",
+    "file": "apotheosis-rurie-4"
+  },
+  {
+    "line": "Rurie: Good! Great, even! Got what he deserved, in the end!",
+    "file": "apotheosis-rurie-5"
+  },
+  {
+    "line": "Rurie: Hm? No, it's perfectly normal. If you had the vendetta I had, then, well! You would react likewise, I'm certain.",
+    "file": "apotheosis-rurie-6"
+  },
+  {
+    "line": "Rurie: Dead! Dead! He's dead, and I'm not, and I win! Hahahahaha!",
+    "file": "apotheosis-rurie-7"
+  },
+  {
+    "line": "Cileon: Rurie. Problems.",
+    "file": "apotheosis-cileon-9"
+  },
+  {
+    "line": "Rurie: Problems! Right! Right right right right right!! That's why I'm here, after all- haha, apologies, got distracted a moment...",
+    "file": "apotheosis-rurie-8"
+  },
+  {
+    "line": "Rurie: It seems the crown's finally recovered from the shock, and attacks on the safe zone have increased in strength and frequency!",
+    "file": "apotheosis-rurie-9"
+  },
+  {
+    "line": "Rurie: She sent me to... well, to check and see if you're alive, firstly - but also to bring whoever I can back to support the defense effort!",
+    "file": "apotheosis-rurie-10"
+  },
+  {
+    "line": "Rex: We have issues here too, Rurie. The Queen has just publicly announced she's going to FLOOD the Auburn Forest!!",
+    "file": "apotheosis-rex-21"
+  },
+  {
+    "line": "Rurie: Oh! Oh, dear! That isn't good at all! We've truly driven her far enough to warrant such an act?",
+    "file": "apotheosis-rurie-11"
+  },
+  {
+    "line": "Zeph: Rurie, I'll g- go with you. I... I need to m...make sure Yuman's safe.",
+    "file": "apotheosis-zeph-14"
+  },
+  {
+    "line": "Cileon: Will go too.",
+    "file": "apotheosis-cileon-10"
+  },
+  {
+    "line": "Zeph: Rex, Sui, soldier... I- I want to h...help you, but-",
+    "file": "apotheosis-zeph-15"
+  },
+  {
+    "line": "Rex: Hey, Zeph, it's alright. Make sure there's a resistance still standing for us to rejoin when it's all over, alright?",
+    "file": "apotheosis-rex-22"
+  },
+  {
+    "line": "Sui: ...stay safe, Zeph.",
+    "file": "apotheosis-sui-11"
+  },
+  {
+    "line": "Zeph: Y- you guys too! Let's reunite wh...when this is all over, alright?",
+    "file": "apotheosis-zeph-16"
+  },
+  {
+    "line": "Rurie: Then it's settled! Good luck, you three! Go show the Queen what you've got!",
+    "file": "apotheosis-rurie-12"
+  },
+  {
+    "line": "Her Majesty: Necessary? Very little ever is. But it will prove a point.",
+    "file": "apotheosis-hermajesty-25"
+  },
+  {
+    "line": "Her Majesty: You understand the stakes of the greater task, yes? If that end is not averted, they die regardless. Them, and everyone else.",
+    "file": "apotheosis-hermajesty-26"
+  },
+  {
+    "line": "Her Majesty: And without order here, we will lack the focus to see it through. So, see it as a necessary evil. Nothing more, nothing less.",
+    "file": "apotheosis-hermajesty-27"
+  },
+  {
+    "line": "Her Majesty: She will come around. She always does, in the end.",
+    "file": "apotheosis-hermajesty-28"
+  },
+  {
+    "line": "Her Majesty: You do not have to like it, Sovereign. But if you wish to make change for the world, you will have to see it through.",
+    "file": "apotheosis-hermajesty-29"
+  },
+  {
+    "line": "Her Majesty: Now. Let us begin.",
+    "file": "apotheosis-hermajesty-30"
+  },
+  {
+    "line": "Rex: STOP!!!",
+    "file": "apotheosis-rex-23"
+  },
+  {
+    "line": "Rex: We won't let you go through with this!",
+    "file": "apotheosis-rex-24"
+  },
+  {
+    "line": "Her Majesty: Good grief, are my Sovereigns truly good for NOTHING?! Zhiraok, Soosu, Gikyo, Majin - each and every one a FAILURE!",
+    "file": "apotheosis-hermajesty-31"
+  },
+  {
+    "line": "Her Majesty: Oh, what does it matter?! All of this - everything you have done, everything you have caused, all will be swept away and FORGOTTEN once I am finished with you!",
+    "file": "apotheosis-hermajesty-32"
+  },
+  {
+    "line": "Her Majesty: Sovereign Tasim. Kill them.",
+    "file": "apotheosis-hermajesty-33"
+  },
+  {
+    "line": "Rex: Why are you doing this?! Why are you LETTING her kill all those people?!",
+    "file": "apotheosis-rex-25"
+  },
+  {
+    "line": "Rex: What?! You ALWAYS have a choice, du-",
+    "file": "apotheosis-rex-26"
+  },
+  {
+    "line": "Sui: Stop trying to talk to him. We have to-...!",
+    "file": "apotheosis-sui-12"
+  },
+  {
+    "line": "Rex: The Queen...!",
+    "file": "apotheosis-rex-27"
+  },
+  {
+    "line": "Rex: We have to stop her before she tears this whole thing down!!",
+    "file": "apotheosis-rex-28"
+  },
+  {
+    "line": "Rex: Oh, yeah?! Then I guess we'll just have to get through you and her!",
+    "file": "apotheosis-rex-29"
+  },
+  {
+    "line": "Rex: And let you kill thousands?! Yeah, right.",
+    "file": "apotheosis-rex-30"
+  },
+  {
+    "line": "Rex: Ugh... we're getting nowhere! We NEED to find a way to stop the Queen!",
+    "file": "apotheosis-rex-31"
+  },
+  {
+    "line": "Rex: Ha! Didn't expect that one, did you?!",
+    "file": "apotheosis-rex-32"
+  },
+  {
+    "line": "Rex: Come on! Think, Rex... think!!!",
+    "file": "apotheosis-rex-33"
+  },
+  {
+    "line": "Rex: COME ON!!!!",
+    "file": "apotheosis-rex-34"
+  },
+  {
+    "line": "Rex: soldier! Her spell's down, but- she'll get it back up if we don't keep her busy!",
+    "file": "apotheosis-rex-35"
+  },
+  {
+    "line": "Rex: I'll handle Tasim! Go!! You're the only one of us who stands a chance against her!!",
+    "file": "apotheosis-rex-36"
+  },
+  {
+    "line": "Rex: Good! NOW GO!!!",
+    "file": "apotheosis-rex-37"
+  },
+  {
+    "line": "Her Majesty: Oh, how infuriating!",
+    "file": "apotheosis-hermajesty-34"
+  },
+  {
+    "line": "Her Majesty: So it would seem I cannot rely on my Sovereigns for anything!",
+    "file": "apotheosis-hermajesty-35"
+  },
+  {
+    "line": "Her Majesty: Perhaps I have not paid you quite enough attention. With each and every additional slight, you cement yourself as more and more of a threat.",
+    "file": "apotheosis-hermajesty-36"
+  },
+  {
+    "line": "Her Majesty: Very well. Then I will do what I should have from the start, and deal with you MYSELF.",
+    "file": "apotheosis-hermajesty-37"
+  },
+  {
+    "line": "Her Majesty: DIE.",
+    "file": "apotheosis-hermajesty-38"
+  },
+  {
+    "line": "Her Majesty: Urgh... I see... ahahahaha, I see now...! I had underestimated you, after all!",
+    "file": "apotheosis-hermajesty-39"
+  },
+  {
+    "line": "Her Majesty: But I am not done just yet.",
+    "file": "apotheosis-hermajesty-40"
+  },
+  {
+    "line": "Her Majesty: You... you... you have ruined everything. This shell is on the verge of collapsing under the strain... and this- this!- is not so easily repaired. And now... and now. Only one path remains.",
+    "file": "apotheosis-hermajesty-41"
+  },
+  {
+    "line": "Her Majesty: That damned girl... if she had only done as she had been tasked... repair might - might - have been an option. As once before, the strands wrapped tightly against this burning, broken spark!!",
+    "file": "apotheosis-hermajesty-42"
+  },
+  {
+    "line": "Her Majesty: But, no. No. Once again, the Weave is beyond my reach... And that was your doing as well, wasn't it?!",
+    "file": "apotheosis-hermajesty-43"
+  },
+  {
+    "line": "Her Majesty: Ha... haha... ahahahahaha! Centuries of carefully constructing this visage, this freedom, of building a perfect kingdom, a perfect world, all gone to waste!!! Because. Of. YOU.",
+    "file": "apotheosis-hermajesty-44"
+  },
+  {
+    "line": "Her Majesty: Are you pleased? Oh, you must be. You believe this petty act of rebellion will solve every single one of your perceived problems?",
+    "file": "apotheosis-hermajesty-45"
+  },
+  {
+    "line": "Her Majesty: No. No, it will do no such thing. It has only made it worse.",
+    "file": "apotheosis-hermajesty-46"
+  },
+  {
+    "line": "Her Majesty: But you will not live to see it, will you? No... no, you will not. The shell will crack and strain and break, and you alongside it!",
+    "file": "apotheosis-hermajesty-47"
+  },
+  {
+    "line": "Her Majesty: One final satisfaction! Before all comes crashing down. I will enjoy it, the sounds of bones cracking, of flesh burning, of...-!",
+    "file": "apotheosis-hermajesty-48"
+  },
+  {
+    "line": "Rex: soldier!!!",
+    "file": "apotheosis-rex-38"
+  },
+  {
+    "line": "Rex: Come on Rex! FOCUS!!!",
+    "file": "apotheosis-rex-39"
+  },
+  {
+    "line": "Rex: This grapple arrow had better work...",
+    "file": "apotheosis-rex-40"
+  },
+  {
+    "line": "Rex: ...?",
+    "file": "apotheosis-rex-41"
+  },
+  {
+    "line": "Her Majesty: HOW. DARE. YOU!? Insolent CHILD, you are nothing, NOTHING compared to- urgh...",
+    "file": "apotheosis-hermajesty-49"
+  },
+  {
+    "line": "Her Majesty: Oh, what does it matter?! Death will claim you all the same, once worlds SHATTER and hellfire rains down from above...",
+    "file": "apotheosis-hermajesty-50"
+  },
+  {
+    "line": "Her Majesty: This... this will be difficult to bury. But not impossible. Never impossible. Given... enough... time...",
+    "file": "apotheosis-hermajesty-51"
+  },
+  {
+    "line": "Her Majesty: ...ha. Let it all fall, then.",
+    "file": "apotheosis-hermajesty-52"
+  },
+  {
+    "line": "Sui: No... no, no, no, no, NO!!! Stop... FLOWING!!!!!",
+    "file": "apotheosis-sui-13"
+  },
+  {
+    "line": "Sui: Urgh... I... I can't... I can't hold it... back... there's too much...!",
+    "file": "apotheosis-sui-14"
+  },
+  {
+    "line": "Sui: Wh... what...? My... my strength, it's...",
+    "file": "apotheosis-sui-15"
+  },
+  {
+    "line": "Sui: The... the ocean!!! I can feel it, ALL of it!! Storming, raging, crashing - strands upon strands upon strands, I see them- I- I can just... grab... HOLD!!!",
+    "file": "apotheosis-sui-16"
+  },
+  {
+    "line": "Sui: AAAAAAAHHHHHHHHHH!!!!!!!!!!!!",
+    "file": "apotheosis-sui-17"
+  },
+  {
+    "line": "Sui: That... that was...",
+    "file": "apotheosis-sui-18"
+  },
+  {
+    "line": "Sui: What?! N-no, that- that wasn't enough?! It's still-",
+    "file": "apotheosis-sui-19"
+  },
+  {
+    "line": "Sui: Hhgh... I need to... keep... holding it...!",
+    "file": "apotheosis-sui-20"
+  },
+  {
+    "line": "Zhiraok: Huff...huff... Remember, Soosu. If the dam breaks... huff... You have to-",
+    "file": "apotheosis-sovereignzhiraok-12"
+  },
+  {
+    "line": "Soosu: Z, USE YOUR EYES! It's already broken open!",
+    "file": "apotheosis-sovereignsoosu-1"
+  },
+  {
+    "line": "Zhiraok: What the- How could that- Did I miscalculate? Was I not fast enough?! Huff, huff... Wait, that's...where's the water?",
+    "file": "apotheosis-sovereignzhiraok-13"
+  },
+  {
+    "line": "Zhiraok: That's- one of the Cursed! She froze the dam to keep it from- Huff... Why?",
+    "file": "apotheosis-sovereignzhiraok-14"
+  },
+  {
+    "line": "Soosu: What, can't handle a couple unexpected variables? This is good, isn't it?",
+    "file": "apotheosis-sovereignsoosu-2"
+  },
+  {
+    "line": "Soosu: HEEEYYYY!!! RESISTANCE GIRL!!! Hold it for just a little longer, I'll get a patch-job going!",
+    "file": "apotheosis-sovereignsoosu-3"
+  },
+  {
+    "line": "Sui: ...rrrghgh... what do you... THINK... I'm... doing?!",
+    "file": "apotheosis-sui-21"
+  },
+  {
+    "line": "Soosu: Ohh that ice is cracking. Oookay, okay okay, not gonna hold much longer, let's see what I can do...",
+    "file": "apotheosis-sovereignsoosu-4"
+  },
+  {
+    "line": "Zhiraok: ...a Cursed... Huff... Completely flipping the equation... Purificatus non consumptus? Did she factor it out?",
+    "file": "apotheosis-sovereignzhiraok-15"
+  },
+  {
+    "line": "Soosu: Erm. Might want to step back a 'lil, Z.",
+    "file": "apotheosis-sovereignsoosu-5"
+  },
+  {
+    "line": "Sui: It's... done, it's done, it's done... I... I did it! I- I- I can't believe it, I DID IT!!! soldier, Rex, we-",
+    "file": "apotheosis-sui-22"
+  },
+  {
+    "line": "Sui: No. No, no no no no NO NO NO!!!!!!",
+    "file": "apotheosis-sui-23"
+  },
+  {
+    "line": "Sui: Not again, not again, come on come on COME ON!!! Rex, Rex please, Rex I can't lose you too, I- I-",
+    "file": "apotheosis-sui-24"
+  },
+  {
+    "line": "Sui: You have to get better, Rex, you- you HAVE TO!! You will get better, you will, you will you will YOU WILL!!!!!!",
+    "file": "apotheosis-sui-25"
+  },
+  {
+    "line": "Sui: Please... please, don't... don't......",
+    "file": "apotheosis-sui-26"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...fine.",
+    "file": "apotheosis-sovereignzhiraok-16"
+  },
+  {
+    "line": "Zhiraok: I'm not going to forget what you did, but there's... Huff... A greater problem to solve. So I'll put that aside. For now.",
+    "file": "apotheosis-sovereignzhiraok-17"
+  },
+  {
+    "line": "Zhiraok: Right. We'll need... huff... All hands working to...solve the problem. And that means...dealing with this.",
+    "file": "apotheosis-sovereignzhiraok-18"
+  },
+  {
+    "line": "Zhiraok: Rex- That's her, then. Who your other Cursed is trying to...Nngh...",
+    "file": "apotheosis-sovereignzhiraok-19"
+  },
+  {
+    "line": "Zhiraok: I've... huff...huff... Been busy evacuating people. There's more important to be doing than worrying about me. What about her?",
+    "file": "apotheosis-sovereignzhiraok-20"
+  },
+  {
+    "line": "Zhiraok: ...at this point... There's too much blood loss. Not enough time to... Huff... Get her medical attention-",
+    "file": "apotheosis-sovereignzhiraok-21"
+  },
+  {
+    "line": "Zhiraok: I wasn't finished. There's only one solution.",
+    "file": "apotheosis-sovereignzhiraok-22"
+  },
+  {
+    "line": "Zhiraok: The murderer's seen me use this. It'll revive her. I... Nngh... I can't be sure it'll fix her arm, but she'll live.",
+    "file": "apotheosis-sovereignzhiraok-23"
+  },
+  {
+    "line": "Zhiraok: ...not one second too soon. Any later, and she really would've been... Huff... Divided out...",
+    "file": "apotheosis-sovereignzhiraok-24"
+  },
+  {
+    "line": "Zhiraok: ...d-don't...worry. I'm...approaching my limit, but...I haven't... wheeze ...hit it...yet...",
+    "file": "apotheosis-sovereignzhiraok-25"
+  },
+  {
+    "line": "Zhiraok: Besides. Th-The province has a...g-greater value...than...I...do...",
+    "file": "apotheosis-sovereignzhiraok-26"
+  },
+  {
+    "line": "Zhiraok: Just...have to... Keep... ...moving-",
+    "file": "apotheosis-sovereignzhiraok-27"
+  },
+  {
+    "line": "Sovereign Zhiraok: NNGKH-",
+    "file": "apotheosis-sovereignzhiraok-28"
+  },
+  {
+    "line": "Soosu: Z?! HEY-",
+    "file": "apotheosis-sovereignsoosu-6"
+  },
+  {
+    "line": "Soosu: UGH! The idiot's burned himself out, running here and there and- EVERYWHERE! I TOLD him to take a break, but nooo, he just had to do everything himself-",
+    "file": "apotheosis-sovereignsoosu-7"
+  },
+  {
+    "line": "Soosu: ...overexertion. I think it finally got too much for him.",
+    "file": "apotheosis-sovereignsoosu-8"
+  },
+  {
+    "line": "Soosu: ...m'not sure we can.",
+    "file": "apotheosis-sovereignsoosu-9"
+  },
+  {
+    "line": "Soosu: It won't work, Tasim. The charm's used up its charge already.",
+    "file": "apotheosis-sovereignsoosu-10"
+  },
+  {
+    "line": "Soosu: Let me.",
+    "file": "apotheosis-sovereignsoosu-11"
+  },
+  {
+    "line": "Soosu: I SAID, I'll do it!!! If you think it'll work, then- then I'll help!!",
+    "file": "apotheosis-sovereignsoosu-12"
+  },
+  {
+    "line": "Soosu: Stupid, stupid Z... only person who ever cared ...",
+    "file": "apotheosis-sovereignsoosu-13"
+  },
+  {
+    "line": "Soosu: ...that's all I've got. Blame the dam, haven't had to do anything that big... ever.",
+    "file": "apotheosis-sovereignsoosu-14"
+  },
+  {
+    "line": "Sovereign Soosu: ...",
+    "file": "apotheosis-sovereignsoosu-15"
+  },
+  {
+    "line": "Sui: He... saved Rex. Even though he didn't have to. Even if it'd... kill him...",
+    "file": "apotheosis-sui-27"
+  },
+  {
+    "line": "Sui: So. S-so I can help... um, however I'm able to. Just- just this once.",
+    "file": "apotheosis-sui-28"
+  },
+  {
+    "line": "Sui: ...urgh. The... the ocean here, it's... drained. I... used too much of it. It needs to... um, flow back and... fill back in...",
+    "file": "apotheosis-sui-29"
+  },
+  {
+    "line": "Soosu: Ah. Overloaded... used too many times, and charged with too unstable magic... and- kaboom.",
+    "file": "apotheosis-sovereignsoosu-16"
+  },
+  {
+    "line": "Soosu: Yeah, I think so. His breathing looks more... normal.",
+    "file": "apotheosis-sovereignsoosu-17"
+  },
+  {
+    "line": "Soosu: Hm hm hm. Yeah, that's something. Any plans for dealing with that?",
+    "file": "apotheosis-sovereignsoosu-18"
+  },
+  {
+    "line": "Sui: The Queen's still there, isn't she? We'll go in and kill her.",
+    "file": "apotheosis-sui-30"
+  },
+  {
+    "line": "Soosu: Hmph! Might work to stop new ones from opening up, sure. But wow, you wanna kill her? Good luck with that.",
+    "file": "apotheosis-sovereignsoosu-19"
+  },
+  {
+    "line": "Soosu: ...s'your funeral! I've got a dam to fix... how long since I made the improvements...? Fifty years? Sixty? Eh, whatever, I'll just wing it.",
+    "file": "apotheosis-sovereignsoosu-20"
+  },
+  {
+    "line": "Soosu: Hm. Hm hm. If you're going up into that whole thing... you probably won't make it out. But if you do! We'll talk then.",
+    "file": "apotheosis-sovereignsoosu-21"
+  },
+  {
+    "line": "Sui: Yeah...",
+    "file": "apotheosis-sui-31"
+  },
+  {
+    "line": "Sui: ...I, um, should... stay with Rex. Un-until the S-Sovereign is... up. soldier, go ahead to the safe zone. Make sure everyone's... everyone's okay, over there.",
+    "file": "apotheosis-sui-32"
+  },
+  {
+    "line": "Sui: I'll... meet you later.",
+    "file": "apotheosis-sui-33"
+  },
+  {
+    "line": "Rurie: ...and now all chaos has broken loose in the citadel, so some numbers truly would go a long way towards-",
+    "file": "apotheosis-rurie-13"
+  },
+  {
+    "line": "Fuhue: Yes, Rurie, I know. Hold for just one minute, would you?!",
+    "file": "apotheosis-fuhue-1"
+  },
+  {
+    "line": "Rurie: Fine, fine. Yes, please, take your time! It's not as though the world is ending or anything!!!",
+    "file": "apotheosis-rurie-14"
+  },
+  {
+    "line": "Cileon: Ahem. soldier.",
+    "file": "apotheosis-cileon-11"
+  },
+  {
+    "line": "Rurie: Hm? soldier!! You're alive, that's a relief - if you wouldn't mind answering, what the - and excuse the language - HELL is going on?!",
+    "file": "apotheosis-rurie-15"
+  },
+  {
+    "line": "Rurie: The SKY ITSELF has cracked open, there's RED LIGHTNING up there - and I have seen storms before, that is not normal - everything is a MESS! Explain.",
+    "file": "apotheosis-rurie-16"
+  },
+  {
+    "line": "Rurie: ...",
+    "file": "apotheosis-rurie-17"
+  },
+  {
+    "line": "Rurie: And just when I thought we had reached the limit on fanciful tales... goodness. And you singlehandedly defeated her in combat?!",
+    "file": "apotheosis-rurie-18"
+  },
+  {
+    "line": "Cileon: Mmn. Majin.",
+    "file": "apotheosis-cileon-12"
+  },
+  {
+    "line": "Rurie: Yes, Cileon, I suppose I shouldn't be surprised after that display... and yet.",
+    "file": "apotheosis-rurie-19"
+  },
+  {
+    "line": "Rurie: But back to the topic at hand - she is responsible for all of this?! This is... beyond my means to process.",
+    "file": "apotheosis-rurie-20"
+  },
+  {
+    "line": "Rurie: A corrupt and oppressive governmental structure - that, I can plan around. For that, I at least have some inkling as to how to fight against it.",
+    "file": "apotheosis-rurie-21"
+  },
+  {
+    "line": "Rurie: But this? For this, I have nothing. What is one even supposed to do about-",
+    "file": "apotheosis-rurie-22"
+  },
+  {
+    "line": "Fuhue: Ah! There we are! Twelve injured allies, five casualties, one bout of madness... talisman stockpiles mostly burned through - only two remaining, we'll have to produce more...",
+    "file": "apotheosis-fuhue-2"
+  },
+  {
+    "line": "Fuhue: Food rations will hold for another three and a half days, so we'll need to send a supply run tomorrow... at least armor and weapon supplies are still in surp-",
+    "file": "apotheosis-fuhue-3"
+  },
+  {
+    "line": "Fuhue: Oh. soldier, you're here. Good to see you're still standing. What are we talking about?",
+    "file": "apotheosis-fuhue-4"
+  },
+  {
+    "line": "Cileon: Queen. Rift.",
+    "file": "apotheosis-cileon-13"
+  },
+  {
+    "line": "Fuhue: Ah! So you defeated her, and she fled into the rifts. Very good work, deerling.",
+    "file": "apotheosis-fuhue-5"
+  },
+  {
+    "line": "Rurie: ...by most metrics, we've achieved our goal. Her Majesty has been dethroned, her Sovereigns either killed or turned - we have something to work with.",
+    "file": "apotheosis-rurie-23"
+  },
+  {
+    "line": "Rurie: But this rift... there's very little we can do while it's there. The people are panicked, the soldiers scattered, defensive, lost - and that isn't to mention whatever adverse effects it may or may not have!!",
+    "file": "apotheosis-rurie-24"
+  },
+  {
+    "line": "Fuhue: Perhaps if it can be cut off at its source...",
+    "file": "apotheosis-fuhue-6"
+  },
+  {
+    "line": "Rurie: What, you mean passing through it into whatever it is on the other side? All in the hopes of chasing down the Queen? Who would be insane enough to even consider-",
+    "file": "apotheosis-rurie-25"
+  },
+  {
+    "line": "Rurie: Right! Of course, how could I forget! We have you. Well, I suppose that's all sorted then - not a problem I need concern myself with. What a relief.",
+    "file": "apotheosis-rurie-26"
+  },
+  {
+    "line": "Fuhue: Hm. Leaves us more time to finalize the stabilizing plan for the province, to deal with the chaos that comes after this chaos concludes. Joy.",
+    "file": "apotheosis-fuhue-7"
+  },
+  {
+    "line": "Rurie: Yes, yes... we can get to that. soldier, before you set off on yet another dangerous mission, you'd best go speak to everyone here. Alleviate some concerns, yes?",
+    "file": "apotheosis-rurie-27"
+  },
+  {
+    "line": "Rurie: Need anything from me?",
+    "file": "apotheosis-rurie-28"
+  },
+  {
+    "line": "Rurie: Went without a scratch, of course.",
+    "file": "apotheosis-rurie-29"
+  },
+  {
+    "line": "Rurie: Well, we did have a lot of issues... I wasn't worried but I'm glad Zeph and Cileon returned with us.",
+    "file": "apotheosis-rurie-30"
+  },
+  {
+    "line": "Rurie: Fuhue's talismans were doing a lot of the heavy lifting in their absence.",
+    "file": "apotheosis-rurie-31"
+  },
+  {
+    "line": "Rurie: The Canopy will be helping with the aftermath. I don't care for becoming a public figure after this is over, though.",
+    "file": "apotheosis-rurie-32"
+  },
+  {
+    "line": "Rurie: The trees are calling my name and the Highlands is definitely not the place for me.",
+    "file": "apotheosis-rurie-33"
+  },
+  {
+    "line": "Rurie: Besides, could you ever see such a hunk like me become a politician... Pshh, at least I can't.",
+    "file": "apotheosis-rurie-34"
+  },
+  {
+    "line": "Rurie: Good luck out there.",
+    "file": "apotheosis-rurie-35"
+  },
+  {
+    "line": "Cileon: ...hm?",
+    "file": "apotheosis-cileon-14"
+  },
+  {
+    "line": "Cileon: Foxes and I cleared them out.",
+    "file": "apotheosis-cileon-15"
+  },
+  {
+    "line": "Cileon: I want to return to the forest.",
+    "file": "apotheosis-cileon-16"
+  },
+  {
+    "line": "Cileon: Need to hunt, run and stay away from... cities.",
+    "file": "apotheosis-cileon-17"
+  },
+  {
+    "line": "Cileon: Best of luck.",
+    "file": "apotheosis-cileon-18"
+  },
+  {
+    "line": "Azael: soldier, I'm glad to see you're back.",
+    "file": "apotheosis-azael-1"
+  },
+  {
+    "line": "Quill: I heard from Zeph that you and the girls decided to challenge Her Majesty.",
+    "file": "apotheosis-quill-1"
+  },
+  {
+    "line": "Quill: How... how did it go? I can't help notice the lack of companions by your side.",
+    "file": "apotheosis-quill-2"
+  },
+  {
+    "line": "Azael: Sui has grown into quite the powerful cursed one, huh?",
+    "file": "apotheosis-azael-2"
+  },
+  {
+    "line": "Quill: Did I hear that right... Soosu?",
+    "file": "apotheosis-quill-3"
+  },
+  {
+    "line": "Azael: That... is an unexpected turn of events. However, you may accept their change of heart but for the rest of us...",
+    "file": "apotheosis-azael-3"
+  },
+  {
+    "line": "Azael: They are an extension of her Majesty. All the pain and suffering they have caused is because of them.",
+    "file": "apotheosis-azael-4"
+  },
+  {
+    "line": "Quill: Actually...",
+    "file": "apotheosis-quill-4"
+  },
+  {
+    "line": "Quill: We have been thinking about how to handle the aftermath; in case we were successful. The larger populous knows of us as only terrorists. They would never accept us to rebuild Fruma.",
+    "file": "apotheosis-quill-5"
+  },
+  {
+    "line": "Quill: But. With the Sovereigns on our side, the people might, they just might, hear them out.",
+    "file": "apotheosis-quill-6"
+  },
+  {
+    "line": "Azael: Ugh. You're right. This is the best option we got.",
+    "file": "apotheosis-azael-5"
+  },
+  {
+    "line": "Quill: We will need to arrange a meeting with them to discuss moving forwards. I expect it to be tense, even hostile. But, but we can do this.",
+    "file": "apotheosis-quill-7"
+  },
+  {
+    "line": "Azael: I'll get Fuhue to draft up our plan, then.",
+    "file": "apotheosis-azael-6"
+  },
+  {
+    "line": "Quill: Anything on your mind?",
+    "file": "apotheosis-quill-8"
+  },
+  {
+    "line": "Quill: I intend to make up for my past mistakes. I don't think I told you this before but, the wall that separates the Mistwoods from the Roughworks was designed by me during my university stay.",
+    "file": "apotheosis-quill-9"
+  },
+  {
+    "line": "Quill: I thought- I thought I was protecting the people of the Roughworks from the dangers of the Mistwoods. But in reality, all I did was separate the people.",
+    "file": "apotheosis-quill-10"
+  },
+  {
+    "line": "Quill: Fruma needs all the help it can get once this is all over. Everyone will need to cooperate to save the province from destroying itself without a ruler.",
+    "file": "apotheosis-quill-11"
+  },
+  {
+    "line": "Quill: I'll see you around, soldier.",
+    "file": "apotheosis-quill-12"
+  },
+  {
+    "line": "Azael: Anything on your mind?",
+    "file": "apotheosis-azael-7"
+  },
+  {
+    "line": "Azael: I might hand the responsibilities for liberating Fruma to the young ones.",
+    "file": "apotheosis-azael-8"
+  },
+  {
+    "line": "Azael: I've lived long enough and honestly, retirement sounds rather nice.",
+    "file": "apotheosis-azael-9"
+  },
+  {
+    "line": "Azael: Good bye, soldier.",
+    "file": "apotheosis-azael-10"
+  },
+  {
+    "line": "Fuhue: ...yes? What do you need?",
+    "file": "apotheosis-fuhue-8"
+  },
+  {
+    "line": "Fuhue: My talismans did the trick. Managed to keep up a temporary barrier for some time.",
+    "file": "apotheosis-fuhue-9"
+  },
+  {
+    "line": "Fuhue: Unfortunately, they only last for some time and my schedule has not allowed me to create more. It was a miscalculation on my side.",
+    "file": "apotheosis-fuhue-10"
+  },
+  {
+    "line": "Fuhue: I have completely, utterly failed as the Deer's captain. I totally underestimated how many barrier talismans we needed!",
+    "file": "apotheosis-fuhue-11"
+  },
+  {
+    "line": "Fuhue: The Canopy will remain. Master has asked me to document everything that has transpired in the past couple of weeks. It will take me at least one week and three days to compile it all.",
+    "file": "apotheosis-fuhue-12"
+  },
+  {
+    "line": "Fuhue: Besides, without the Queen a new government will have to be established. I am planning to be of assistance, there as well.",
+    "file": "apotheosis-fuhue-13"
+  },
+  {
+    "line": "Fuhue: Okay.",
+    "file": "apotheosis-fuhue-14"
+  },
+  {
+    "line": "Yulie: ...and you're alright? No injuries- nothing?",
+    "file": "apotheosis-yulie-1"
+  },
+  {
+    "line": "Yuman: Ughhhhh... yeah, bro, I'm fine! Quit hovering!",
+    "file": "apotheosis-yuman-1"
+  },
+  {
+    "line": "Yulie: Well, sorry for being worried under these circumstances! The SKY is broken, Yuman, so let me hover at least a little, okay?!",
+    "file": "apotheosis-yulie-2"
+  },
+  {
+    "line": "Zeph: Well, a...at least the soldiers have b- ba- backed off a little... so, that's s- something.",
+    "file": "apotheosis-zeph-17"
+  },
+  {
+    "line": "Yulie: Sigh... yeah, that is something. I'm almost out of electrical charges...",
+    "file": "apotheosis-yulie-3"
+  },
+  {
+    "line": "Zeph: ...soldier! Y- you're back!!",
+    "file": "apotheosis-zeph-18"
+  },
+  {
+    "line": "Yuman: Ey, you made it!!!",
+    "file": "apotheosis-yuman-2"
+  },
+  {
+    "line": "Zeph: S...so does that mean you... y- you stopped her?",
+    "file": "apotheosis-zeph-19"
+  },
+  {
+    "line": "Yuman: Is she dead?!",
+    "file": "apotheosis-yuman-3"
+  },
+  {
+    "line": "Yuman: Hell yeah!!",
+    "file": "apotheosis-yuman-4"
+  },
+  {
+    "line": "Yulie: ...I hear a \"but\" added on to the end. Where are Rex and Sui?",
+    "file": "apotheosis-yulie-4"
+  },
+  {
+    "line": "Yuman: ...",
+    "file": "apotheosis-yuman-5"
+  },
+  {
+    "line": "Zeph: B...but she's... sh- she's okay, now...?",
+    "file": "apotheosis-zeph-20"
+  },
+  {
+    "line": "Yuman: ...man. Man. That... that really sucks, huh?",
+    "file": "apotheosis-yuman-6"
+  },
+  {
+    "line": "Zeph: Her... h- her bow... she's n- ne- never gonna be able to... use it ag- again...",
+    "file": "apotheosis-zeph-21"
+  },
+  {
+    "line": "Yuman: I didn't even consider that... man. So, then... Sui's with her still?",
+    "file": "apotheosis-yuman-7"
+  },
+  {
+    "line": "Yulie: She's... in good hands, at least. Multiple Sovereigns, turning to our side... it's a little hard to believe.",
+    "file": "apotheosis-yulie-5"
+  },
+  {
+    "line": "Yulie: But this is good. If they've turned against the Queen... it'll make things easier for us once this is all over.",
+    "file": "apotheosis-yulie-6"
+  },
+  {
+    "line": "Yuman: Guess so... WAIT! So Zhiraok broke Soosu out of prison?! Was that-",
+    "file": "apotheosis-yuman-8"
+  },
+  {
+    "line": "Zeph: -wh- what we saw? It was a- a flash of s- so- something, going into and out of the p...palace! Just before the sk...sky broke.",
+    "file": "apotheosis-zeph-22"
+  },
+  {
+    "line": "Yuman: It must've been! That explains some things! Hey, no wonder the soldiers were so confused!!",
+    "file": "apotheosis-yuman-9"
+  },
+  {
+    "line": "Zeph: Ha... y- yeah...",
+    "file": "apotheosis-zeph-23"
+  },
+  {
+    "line": "Zeph: ...soldier. The Queen isn't d...dead, is she?",
+    "file": "apotheosis-zeph-24"
+  },
+  {
+    "line": "Zeph: Then... y...you're going after her. Right?",
+    "file": "apotheosis-zeph-25"
+  },
+  {
+    "line": "Yuman: Zeph... you're not thinking of going in there too, are you?",
+    "file": "apotheosis-yuman-10"
+  },
+  {
+    "line": "Yuman: You are.",
+    "file": "apotheosis-yuman-11"
+  },
+  {
+    "line": "Zeph: I- I have to... Rex won't be in any sh- shape to fight, a- and- and it's my turn to do my p...part anyway!",
+    "file": "apotheosis-zeph-26"
+  },
+  {
+    "line": "Yuman: ... Fine. But you have to come back, princess! We've got plans, remember? I still have to show you where I grew up, and-",
+    "file": "apotheosis-yuman-12"
+  },
+  {
+    "line": "Zeph: -and sh...show me your favourite food stand from when you were gr...growing up, I- I know. I'll be b- back.",
+    "file": "apotheosis-zeph-27"
+  },
+  {
+    "line": "Yulie: Okay, lovebirds, that's my signal to get out of here. There's schedules I have to organize...",
+    "file": "apotheosis-yulie-7"
+  },
+  {
+    "line": "Yulie: ...but yeah. Zeph, soldier, I expect to see you two again. Understood?",
+    "file": "apotheosis-yulie-8"
+  },
+  {
+    "line": "Yulie: Good. Just making sure.",
+    "file": "apotheosis-yulie-9"
+  },
+  {
+    "line": "Zeph: W-what's up?",
+    "file": "apotheosis-zeph-28"
+  },
+  {
+    "line": "Zeph: When we got- got back we had almost been c-completely overtaken.",
+    "file": "apotheosis-zeph-29"
+  },
+  {
+    "line": "Zeph: I'd like t-to -to believe I helped but... to be honest Rurie did most of the w-work.",
+    "file": "apotheosis-zeph-30"
+  },
+  {
+    "line": "Zeph: I felt guilty that I- I left you guys.",
+    "file": "apotheosis-zeph-31"
+  },
+  {
+    "line": "Zeph: But I will n-not back down for this final showdown!",
+    "file": "apotheosis-zeph-32"
+  },
+  {
+    "line": "Zeph: For o-once I'm... hopeful?",
+    "file": "apotheosis-zeph-33"
+  },
+  {
+    "line": "Zeph: It's, it's weird. After everything we've g-gone through, after everyone we- we- we lost. I have hope for the future.",
+    "file": "apotheosis-zeph-34"
+  },
+  {
+    "line": "Zeph: I promised myself when... when I was captured that if I- I made it out, I would not let my life fly by. I will l-live for Syndra and Mora. I will k-keep Syndra's legacy going.",
+    "file": "apotheosis-zeph-35"
+  },
+  {
+    "line": "Zeph: And I made a p-promise to Yuman. I w-want to explore the world with- with him.",
+    "file": "apotheosis-zeph-36"
+  },
+  {
+    "line": "Zeph: I don't think I- I will n-never be ready but, I want to do all that I c-can.",
+    "file": "apotheosis-zeph-37"
+  },
+  {
+    "line": "Zeph: I won't be a hinderance to you. I k-know you and Sui are strong but... I'm not h-helpless.",
+    "file": "apotheosis-zeph-38"
+  },
+  {
+    "line": "Zeph: I'll follow you whenever you're r-ready, friend.",
+    "file": "apotheosis-zeph-39"
+  },
+  {
+    "line": "Yulie: What's on your mind?",
+    "file": "apotheosis-yulie-10"
+  },
+  {
+    "line": "Yulie: I'm just glad we managed to sort the situation.",
+    "file": "apotheosis-yulie-11"
+  },
+  {
+    "line": "Yulie: My electric charges almost ran out and I would have been useless without them.",
+    "file": "apotheosis-yulie-12"
+  },
+  {
+    "line": "Yulie: Honestly, I'm ready to deal with the fall out of this revolution.",
+    "file": "apotheosis-yulie-13"
+  },
+  {
+    "line": "Yulie: I want to make a difference. I want to make sure the new Fruma is a good place. It will for sure take some time. But, I'm ready to spend the rest of my life bettering the province.",
+    "file": "apotheosis-yulie-14"
+  },
+  {
+    "line": "Yulie: I better be seeing you later.",
+    "file": "apotheosis-yulie-15"
+  },
+  {
+    "line": "Yuman: What's up?",
+    "file": "apotheosis-yuman-13"
+  },
+  {
+    "line": "Yuman: Things were looking veeery hairy for a bit. Luckily, Rurie brought back up just in time.",
+    "file": "apotheosis-yuman-14"
+  },
+  {
+    "line": "Yuman: Those Canopy people can be quite scary, I must say.",
+    "file": "apotheosis-yuman-15"
+  },
+  {
+    "line": "Yuman: I know that chaos is sure to ensue with Her Majesty gone but, I don't think I'm the best at... cleaning up a province.",
+    "file": "apotheosis-yuman-16"
+  },
+  {
+    "line": "Yuman: I would honestly love to see the world. Traveling the world with someone you like sounds... nice.",
+    "file": "apotheosis-yuman-17"
+  },
+  {
+    "line": "Yuman: I also miss the Steel Feather. I don't know what will happen to that place, or what has happened for that matter, but that place will always be my home.",
+    "file": "apotheosis-yuman-18"
+  },
+  {
+    "line": "Yuman: You guys better be careful!",
+    "file": "apotheosis-yuman-19"
+  },
+  {
+    "line": "Sui: ...soldier. Hey.",
+    "file": "apotheosis-sui-34"
+  },
+  {
+    "line": "Sui: I'm... ready to go.",
+    "file": "apotheosis-sui-35"
+  },
+  {
+    "line": "Sui: She, um... she is. S-Sovereign Zhiraok, he, um, took her to a medic. And... went to try to get control of the army.",
+    "file": "apotheosis-sui-36"
+  },
+  {
+    "line": "Sui: ...I don't want to think about him. Or- or Soosu. I don't... like that everything's just- j-just okay now. Because of a common enemy.",
+    "file": "apotheosis-sui-37"
+  },
+  {
+    "line": "Sui: So... later. I'll think about it later. After we're d-",
+    "file": "apotheosis-sui-38"
+  },
+  {
+    "line": "Zeph: Sui!!! I- I- I heard about what you g...guys did!! You st- st- stopped the Queen!!!",
+    "file": "apotheosis-zeph-40"
+  },
+  {
+    "line": "Sui: ...yeah. Rex and soldier did. I... didn't.",
+    "file": "apotheosis-sui-39"
+  },
+  {
+    "line": "Zeph: What? Sui, you he- held back the lake's water from fl- fl- flooding the Auburn Forest!! If it wasnt for y...you, then-",
+    "file": "apotheosis-zeph-41"
+  },
+  {
+    "line": "Sui: It doesn't MATTER! While I was stuck h-holding back the flood, I- I couldn't help fight!! Again - AGAIN!!! - someone got hurt because I COULDN'T BE THERE!!!",
+    "file": "apotheosis-sui-40"
+  },
+  {
+    "line": "Sui: Rex. She... she died, Zeph, I felt it. For a minute, I was holding her- her cold, LIFELESS BODY in my hands, and- a-and it was like I was there again. With... M-Mora.",
+    "file": "apotheosis-sui-41"
+  },
+  {
+    "line": "Sui: ...I failed again. I told myself, if I was STRONGER, if I was BETTER, it WOULDN'T HAPPEN AGAIN!! And it DID!!! Even if she got better, even if she's not dead, it's still MY FAULT!!!",
+    "file": "apotheosis-sui-42"
+  },
+  {
+    "line": "Zeph: A- and if you were able to s...save Rex, but the dam broke... and all th- those people died instead... would that have been b- be- better?",
+    "file": "apotheosis-zeph-42"
+  },
+  {
+    "line": "Zeph: I've b...been thinking about it, ever since soldier t- told me... if- if I had been th- there, a- and not here, could I have st...stopped it...? A- an extra pair of eyes...",
+    "file": "apotheosis-zeph-43"
+  },
+  {
+    "line": "Zeph: B- but I was here, instead, a- a- and because of that, I was able to m...make sure Yuman survived! If it were th- the other way around... I'd feel the same!!",
+    "file": "apotheosis-zeph-44"
+  },
+  {
+    "line": "Sui: She's still out there. Through that rift. We're going to kill her, Zeph.",
+    "file": "apotheosis-sui-43"
+  },
+  {
+    "line": "Zeph: ...right now? Sui, are you s...sure? Controlling that much water, it mu- must have drained your mana... can you st...still fight?",
+    "file": "apotheosis-zeph-45"
+  },
+  {
+    "line": "Sui: ...yes. I... it doesn't feel like I've used any magic at all. I, um, don't feel tired at all.",
+    "file": "apotheosis-sui-44"
+  },
+  {
+    "line": "Sui: Ever since the Mistwoods, the ocean's... grown. Or... no, that's wrong - it was always this big, I just... couldn't see it before.",
+    "file": "apotheosis-sui-45"
+  },
+  {
+    "line": "Sui: It's... mana, but it's not mine. It's... all the strands, the threads, tied up in everything. And I can, um, use as much as I want.",
+    "file": "apotheosis-sui-46"
+  },
+  {
+    "line": "Zeph: ...okay. So y- you- you're going now...?",
+    "file": "apotheosis-zeph-46"
+  },
+  {
+    "line": "Sui: Yes.",
+    "file": "apotheosis-sui-47"
+  },
+  {
+    "line": "Zeph: Th- then let me join you! Things are c...calmer here, now, so- so they should be fine w- with- without me!",
+    "file": "apotheosis-zeph-47"
+  },
+  {
+    "line": "Sui: ...okay, Zeph. We could use the help.",
+    "file": "apotheosis-sui-48"
+  },
+  {
+    "line": "Yusanu: Sui, soldier, Zeph!",
+    "file": "apotheosis-yusanu-1"
+  },
+  {
+    "line": "Yusanu: I- I did it! I finally, finally, FINALLY did it!!!",
+    "file": "apotheosis-yusanu-2"
+  },
+  {
+    "line": "Sui: Um... did what?",
+    "file": "apotheosis-sui-49"
+  },
+  {
+    "line": "Yusanu: The Resonance Weaver - I had theories before, workable theories, but I wasn't sure. But I am now!!",
+    "file": "apotheosis-yusanu-3"
+  },
+  {
+    "line": "Yusanu: It was in the glyphs! They don't just call upon the five elements, they ARE the five elements! Like Soosu's writings about matter - building blocks of reality!",
+    "file": "apotheosis-yusanu-4"
+  },
+  {
+    "line": "Yusanu: The Weaver pulls on these strands - the physical makeup of our reality - and uses them to... well... do mostly anything.",
+    "file": "apotheosis-yusanu-5"
+  },
+  {
+    "line": "Yusanu: I used it before to make that... corruption visible. But with enough experimenting, you could do more than just visualizing it.",
+    "file": "apotheosis-yusanu-6"
+  },
+  {
+    "line": "Yusanu: Thread it into something else, or change the course of its flow, or... or even bind it to something physical!",
+    "file": "apotheosis-yusanu-7"
+  },
+  {
+    "line": "Sui: ...I didn't see her transform. What did it look like?",
+    "file": "apotheosis-sui-50"
+  },
+  {
+    "line": "Zeph: S...so, what, that's how she b- became... human?",
+    "file": "apotheosis-zeph-48"
+  },
+  {
+    "line": "Sui: ...I don't really care. Yusanu, can it help with our... um, our rift problem?",
+    "file": "apotheosis-sui-51"
+  },
+  {
+    "line": "Yusanu: Uh... maybe. To- to be clear, the Weaver is still... hard to use. If we had people more familiar with the glyphs... it could be very powerful. But we don't.",
+    "file": "apotheosis-yusanu-8"
+  },
+  {
+    "line": "Yusanu: In theory... it should be able to close the rifts. Would just- ha, need to weave reality shut again. But... I don't know how.",
+    "file": "apotheosis-yusanu-9"
+  },
+  {
+    "line": "Sui: Um... S-Sovereign Soosu might know. She and- a-and Zhiraok are... no longer against us. F-for now, at least.",
+    "file": "apotheosis-sui-52"
+  },
+  {
+    "line": "Yusanu: ...got it. I'll see what I can do..",
+    "file": "apotheosis-yusanu-10"
+  },
+  {
+    "line": "Yusanu: You're... heading in to deal with the source, aren't you?",
+    "file": "apotheosis-yusanu-11"
+  },
+  {
+    "line": "Zeph: We are.",
+    "file": "apotheosis-zeph-49"
+  },
+  {
+    "line": "Yusanu: Then... good luck. Don't die. Be careful. We'll hold the fort while you're gone, until everything stabilizes, at least.",
+    "file": "apotheosis-yusanu-12"
+  },
+  {
+    "line": "Sui: ...yeah. We should get going. See you when it's all over.",
+    "file": "apotheosis-sui-53"
+  },
+  {
+    "line": "Yusanu: Yes, any questions?",
+    "file": "apotheosis-yusanu-13"
+  },
+  {
+    "line": "Yusanu: To be honest. If it weren't for your information about worlds beyond ours, I would never have figured it out. Besides, Sui taught me a lot about magic which helped...",
+    "file": "apotheosis-yusanu-14"
+  },
+  {
+    "line": "Yusanu: At the end of the day, Soosu has taught me to... think outside of the box and I have gotten quite used to how she builds her inventions.",
+    "file": "apotheosis-yusanu-15"
+  },
+  {
+    "line": "Yusanu: I haven't been able to test my theory on the use but I'm 98.6% certain it will work.",
+    "file": "apotheosis-yusanu-16"
+  },
+  {
+    "line": "Yusanu: I have a lot I want to do. I feel like a world of opportunity has opened for me. I want to travel the world, explore the other provinces and share research.",
+    "file": "apotheosis-yusanu-17"
+  },
+  {
+    "line": "Yusanu: But more importantly, I heard from Quill that Soosu is alive. I think- I think she should join me on my travels. Once the aftermath has calmed down a bit.",
+    "file": "apotheosis-yusanu-18"
+  },
+  {
+    "line": "Yusanu: Stay safe out there.",
+    "file": "apotheosis-yusanu-19"
+  },
+  {
+    "line": "Sui: Hm?",
+    "file": "apotheosis-sui-54"
+  },
+  {
+    "line": "Sui: It's fine. My mana has never been stronger. You don't have to worry about me.",
+    "file": "apotheosis-sui-55"
+  },
+  {
+    "line": "Sui: Awful, empty, sad, enraged... Does that paint you a clear picture? But I can't afford that. Not, now.",
+    "file": "apotheosis-sui-56"
+  },
+  {
+    "line": "Sui: I... I still haven't given it much thought.",
+    "file": "apotheosis-sui-57"
+  },
+  {
+    "line": "Sui: I'll think about it if- when we kill her for good.",
+    "file": "apotheosis-sui-58"
+  },
+  {
+    "line": "Sui: I'll be right behind you.",
+    "file": "apotheosis-sui-59"
+  },
+  {
+    "line": "Sui: YOU!!! soldier, what is HE doing here?! After he- he- he KILLED Rex, so why is he HERE?!",
+    "file": "apotheosis-sui-60"
+  },
+  {
+    "line": "Sui: I should... I should kill you. You- you'd DESERVE it, for everything!!!",
+    "file": "apotheosis-sui-61"
+  },
+  {
+    "line": "Sui: Help. You want to... fine. Fine!! Of course you get to just... turn around and be good now. Of course...",
+    "file": "apotheosis-sui-62"
+  },
+  {
+    "line": "Sui: It's fine. It's fine! Until this is done... I'll... ignore it.",
+    "file": "apotheosis-sui-63"
+  },
+  {
+    "line": "Sui: I can't wait for this nightmare to be over...",
+    "file": "apotheosis-sui-64"
+  },
+  {
+    "line": "Sui: Well... you CAN'T!! Her arm is gone, FOREVER, and it's YOUR fault. She would have been DEAD, if it weren't for- f-for Zhiraok!",
+    "file": "apotheosis-sui-65"
+  },
+  {
+    "line": "Sui: So... so I don't care. If you're going to help with the Queen... fine. But I don't want to see you ever again after we're done.",
+    "file": "apotheosis-sui-66"
+  },
+  {
+    "line": "Sui: soldier, Zeph, come on. Let's go.",
+    "file": "apotheosis-sui-67"
+  },
+  {
+    "line": "Sui: ...right. Of course you want to help, what else would you do? Sigh. Everyone who hurts me, always... out of reach.",
+    "file": "apotheosis-sui-68"
+  },
+  {
+    "line": "Sui: Fine. Fine. Until this is done... I'll... ignore it.",
+    "file": "apotheosis-sui-69"
+  },
+  {
+    "line": "Sui: I don't want to hear it. I don't care what you have to say for yourself.",
+    "file": "apotheosis-sui-70"
+  },
+  {
+    "line": "Sui: Come on. Let's go.",
+    "file": "apotheosis-sui-71"
+  },
+  {
+    "line": "Sui: W-well? What do you have to say for yourself?!",
+    "file": "apotheosis-sui-72"
+  },
+  {
+    "line": "Sui: Then- th-then... I'll...",
+    "file": "apotheosis-sui-73"
+  },
+  {
+    "line": "Sui: ...I can't. I... I can't do it.",
+    "file": "apotheosis-sui-74"
+  },
+  {
+    "line": "Sui: After everything... after EVERYTHING, I get a CHANCE to- to- to get back at s-someone who's hurt me, and- and- a-and I CAN'T DO IT?!",
+    "file": "apotheosis-sui-75"
+  },
+  {
+    "line": "Sui: ...whatever. WHATEVER!! Let's just go deal with the STUPID Queen!!",
+    "file": "apotheosis-sui-76"
+  },
+  {
+    "line": "Sui: I don't care.",
+    "file": "apotheosis-sui-77"
+  },
+  {
+    "line": "Sui: soldier, Zeph, let's just... go.",
+    "file": "apotheosis-sui-78"
+  },
+  {
+    "line": "Zeph: How is- is this going to go?",
+    "file": "apotheosis-zeph-50"
+  },
+  {
+    "line": "Sovereign Two: And so, the cards fall. The shards collapse as decisions are made and paths are chosen. What a destructive end it has turned out to be.",
+    "file": "apotheosis-sovereigntwo-1"
+  },
+  {
+    "line": "Sovereign Two: In retrospect, it seems an inevitability... each decision branching out from the last. What was the weight that sent it over the edge? The tournament? The selection?",
+    "file": "apotheosis-sovereigntwo-2"
+  },
+  {
+    "line": "Sovereign Two: Would you have been the better choice? No. Having seen now what I have, I am only more certain. But perhaps it could have saved us all this mess.",
+    "file": "apotheosis-sovereigntwo-3"
+  },
+  {
+    "line": "Sovereign Two: Oh, Anathema... what a mess you've left in your wake...",
+    "file": "apotheosis-sovereigntwo-4"
+  },
+  {
+    "line": "Sovereign Two: You will face no resistance from me. I do not have a death wish.",
+    "file": "apotheosis-sovereigntwo-5"
+  },
+  {
+    "line": "Sovereign Two: So go on, fellow Scion. Put an end to this.",
+    "file": "apotheosis-sovereigntwo-6"
+  },
+  {
+    "line": "Sovereign Two: Sovereign, then? Deny it all you like, but you chose to take on that role.",
+    "file": "apotheosis-sovereigntwo-7"
+  },
+  {
+    "line": "Sovereign Two: As with each of us, that mark remains. It cannot be so easily discarded. It cannot be forgotten.",
+    "file": "apotheosis-sovereigntwo-8"
+  },
+  {
+    "line": "Sovereign Two: Her power gifted, drawn through the mark... and she has given much away in pursuit of this freedom, hasn't she...",
+    "file": "apotheosis-sovereigntwo-9"
+  },
+  {
+    "line": "Sovereign Two: How much of it remains now, I wonder? Enough to guarantee her victory? Or, perhaps... little enough to grant you a chance of success...?",
+    "file": "apotheosis-sovereigntwo-10"
+  },
+  {
+    "line": "Sovereign Two: Hm! I cannot say for certain. Of all things, this variable yet eludes me. The shards are inconclusive - equally favourable and not.",
+    "file": "apotheosis-sovereigntwo-11"
+  },
+  {
+    "line": "Sovereign Two: But you... an unexpected variable, though not unwelcome. A naturally-born manaweaver! I thought I'd never see the day.",
+    "file": "apotheosis-sovereigntwo-12"
+  },
+  {
+    "line": "Sui: Wh... what?",
+    "file": "apotheosis-sui-79"
+  },
+  {
+    "line": "Sovereign Two: ...naturally, you do not know the gift you possess. That knowledge was lost with the old world, after all. Will you grow into that power? Or will you allow it to consume you?",
+    "file": "apotheosis-sovereigntwo-13"
+  },
+  {
+    "line": "Sovereign Two: Only time will tell.",
+    "file": "apotheosis-sovereigntwo-14"
+  },
+  {
+    "line": "Sovereign Two: And you. Do you remember what I asked you? If not Her, then who?",
+    "file": "apotheosis-sovereigntwo-15"
+  },
+  {
+    "line": "Sovereign Two: From here, there are no easy paths - your decisions have buried all of those. For Fruma, for the world... each step towards a better future will be a bitter, hard-fought victory.",
+    "file": "apotheosis-sovereigntwo-16"
+  },
+  {
+    "line": "Sovereign Two: But perhaps it will prove worthwhile, after all! You've surprised me once already - who's to say you won't do it again? An uncertain future... what an exciting prospect.",
+    "file": "apotheosis-sovereigntwo-17"
+  },
+  {
+    "line": "Sovereign Two: I hope to see you all once more, somewhere down this winding road of ours.",
+    "file": "apotheosis-sovereigntwo-18"
+  },
+  {
+    "line": "Soosu: ...that's all I've got. Stupid anti-magic cells... why'd I even make those in the first place?! Stupid, stupid...",
+    "file": "apotheosis-sovereignsoosu-22"
+  },
+  {
+    "line": "Sovereign Tasim: ...of course.",
+    "file": "apotheosis-sovereigntasim-1"
+  },
+  {
+    "line": "Sovereign Tasim: ...is this really necessary?",
+    "file": "apotheosis-sovereigntasim-2"
+  },
+  {
+    "line": "Sovereign Tasim: Really. Thousands of lives... to prove a point.",
+    "file": "apotheosis-sovereigntasim-3"
+  },
+  {
+    "line": "Sovereign Tasim: ...and what about Two?",
+    "file": "apotheosis-sovereigntasim-4"
+  },
+  {
+    "line": "Sovereign Tasim: I don't like this. There are better opt-",
+    "file": "apotheosis-sovereigntasim-5"
+  },
+  {
+    "line": "Sovereign Tasim: I",
+    "file": "apotheosis-sovereigntasim-6"
+  },
+  {
+    "line": "Sovereign Tasim: I don't have a choice.",
+    "file": "apotheosis-sovereigntasim-7"
+  },
+  {
+    "line": "Sovereign Tasim: I can't let you do that.",
+    "file": "apotheosis-sovereigntasim-8"
+  },
+  {
+    "line": "Sovereign Tasim: ...it's too late to turn back now. After everything...",
+    "file": "apotheosis-sovereigntasim-9"
+  },
+  {
+    "line": "Sovereign Tasim: She holds the means to save the world. So, no matter what she does...",
+    "file": "apotheosis-sovereigntasim-10"
+  },
+  {
+    "line": "Sovereign Tasim: ...she's the only option. And if you stand against her, then you stand against the world.",
+    "file": "apotheosis-sovereigntasim-11"
+  },
+  {
+    "line": "Sovereign Tasim: ...sigh. Far, far too much. I have no ground to stand on.",
+    "file": "apotheosis-sovereigntasim-12"
+  },
+  {
+    "line": "Sovereign Tasim: But I've come this far. She holds the answers, the means...",
+    "file": "apotheosis-sovereigntasim-13"
+  },
+  {
+    "line": "Sovereign Tasim: So it doesn't matter. If you stand against Her Majesty, then you stand against me.",
+    "file": "apotheosis-sovereigntasim-14"
+  },
+  {
+    "line": "Sovereign Tasim: ...don't throw your life away for this. I don't want to have to kill you.",
+    "file": "apotheosis-sovereigntasim-15"
+  },
+  {
+    "line": "Sovereign Tasim: Sigh. Don't say I didn't warn you. You've made your stand - now let me make mine!",
+    "file": "apotheosis-sovereigntasim-16"
+  },
+  {
+    "line": "Sovereign Tasim: ...really? The same trick again?",
+    "file": "apotheosis-sovereigntasim-17"
+  },
+  {
+    "line": "Sovereign Tasim: And all of it just... breaks, in the end, anyway... doesn't it.",
+    "file": "apotheosis-sovereigntasim-18"
+  },
+  {
+    "line": "Sovereign Tasim: Sigh... what was the point of it all?",
+    "file": "apotheosis-sovereigntasim-19"
+  },
+  {
+    "line": "Sovereign Tasim: I didn't... I didn't want for this to happen. I just...",
+    "file": "apotheosis-sovereigntasim-20"
+  },
+  {
+    "line": "Sovereign Tasim: It's over, then. You've won.",
+    "file": "apotheosis-sovereigntasim-21"
+  },
+  {
+    "line": "Sovereign Tasim: Let's... get it over with.",
+    "file": "apotheosis-sovereigntasim-22"
+  },
+  {
+    "line": "Sovereign Tasim: We've reached the end, and I chose the wrong side. Stuck by a cause I was too stubborn to drop...",
+    "file": "apotheosis-sovereigntasim-23"
+  },
+  {
+    "line": "Sovereign Tasim: And you've proven very efficient at killing those in the wrong, haven't you?",
+    "file": "apotheosis-sovereigntasim-24"
+  },
+  {
+    "line": "Sovereign Tasim: I've gone too far. I know. I know I have. Call it whatever you want, I just- I...",
+    "file": "apotheosis-sovereigntasim-25"
+  },
+  {
+    "line": "Sovereign Tasim: It doesn't matter. We're here now. You have to do it.",
+    "file": "apotheosis-sovereigntasim-26"
+  },
+  {
+    "line": "Sovereign Tasim: I made my choices. I knew where they were leading me, and... and I didn't turn away. Now, we've reached the end. You have to kill me.",
+    "file": "apotheosis-sovereigntasim-27"
+  },
+  {
+    "line": "Sovereign Tasim: What even is there left for me? Where would I go? Is there anyone, any place left? I don't have anything.",
+    "file": "apotheosis-sovereigntasim-28"
+  },
+  {
+    "line": "Sovereign Tasim: Just... let me be with him. Give me that one thing. That's all.",
+    "file": "apotheosis-sovereigntasim-29"
+  },
+  {
+    "line": "Sovereign Tasim: ...don't look at me like that.",
+    "file": "apotheosis-sovereigntasim-30"
+  },
+  {
+    "line": "Sovereign Tasim: ...what?",
+    "file": "apotheosis-sovereigntasim-31"
+  },
+  {
+    "line": "Sovereign Tasim: ...like Aledar. When you said it was a sacrifice, you... he... he really...?",
+    "file": "apotheosis-sovereigntasim-32"
+  },
+  {
+    "line": "Sovereign Tasim: ...oh. Oh. And I... just...",
+    "file": "apotheosis-sovereigntasim-33"
+  },
+  {
+    "line": "Sovereign Tasim: Ha... even after all this? You still...",
+    "file": "apotheosis-sovereigntasim-34"
+  },
+  {
+    "line": "Sovereign Tasim: ... Okay. Okay. If- if you're sure. What am I- what was I thinking...?",
+    "file": "apotheosis-sovereigntasim-35"
+  },
+  {
+    "line": "Sovereign Tasim: ...ha. Can I? Can I really? After- after everything?",
+    "file": "apotheosis-sovereigntasim-36"
+  },
+  {
+    "line": "Sovereign Tasim: Look around you! Look at- at all of this! It's... it's my fault. For... for not stopping it.",
+    "file": "apotheosis-sovereigntasim-37"
+  },
+  {
+    "line": "Sovereign Tasim: Ha... haha... of course. Of... course.",
+    "file": "apotheosis-sovereigntasim-38"
+  },
+  {
+    "line": "Sovereign Tasim: You're right. Of course you are. Dying would be the easy way out of the mess I've made, wouldn't it?",
+    "file": "apotheosis-sovereigntasim-39"
+  },
+  {
+    "line": "Sovereign Tasim: It's not... like that. It's not.",
+    "file": "apotheosis-sovereigntasim-40"
+  },
+  {
+    "line": "Sovereign Tasim: What could I even do...? Nothing. It'd be... better if I were gone.",
+    "file": "apotheosis-sovereigntasim-41"
+  },
+  {
+    "line": "Sovereign Tasim: ........",
+    "file": "apotheosis-sovereigntasim-42"
+  },
+  {
+    "line": "Sovereign Tasim: ..................",
+    "file": "apotheosis-sovereigntasim-43"
+  },
+  {
+    "line": "Sovereign Tasim: ...the dam won't fall today.",
+    "file": "apotheosis-sovereigntasim-44"
+  },
+  {
+    "line": "Sovereign Tasim: YOU CAN!! HERE!! Take this!!",
+    "file": "apotheosis-sovereigntasim-45"
+  },
+  {
+    "line": "Sovereign Tasim: Yes, you can! Just hold a little longer!!",
+    "file": "apotheosis-sovereigntasim-46"
+  },
+  {
+    "line": "Sovereign Tasim: ...it's my fault. I take full responsibility.",
+    "file": "apotheosis-sovereigntasim-47"
+  },
+  {
+    "line": "Sovereign Tasim: Is there...anything to be done?",
+    "file": "apotheosis-sovereigntasim-48"
+  },
+  {
+    "line": "Sovereign Tasim: No, I- there has to be something. There has to... Please.",
+    "file": "apotheosis-sovereigntasim-49"
+  },
+  {
+    "line": "Sovereign Tasim: Okay... okay. Th-that's... good. Thank you... I- don't-",
+    "file": "apotheosis-sovereigntasim-50"
+  },
+  {
+    "line": "Sovereign Tasim: ...huh? Zhiraok, what's-",
+    "file": "apotheosis-sovereigntasim-51"
+  },
+  {
+    "line": "Sovereign Tasim: What's going on?!",
+    "file": "apotheosis-sovereigntasim-52"
+  },
+  {
+    "line": "Sovereign Tasim: Soosu.",
+    "file": "apotheosis-sovereigntasim-53"
+  },
+  {
+    "line": "Sovereign Tasim: He's...",
+    "file": "apotheosis-sovereigntasim-54"
+  },
+  {
+    "line": "Sovereign Tasim: How do we fix this?",
+    "file": "apotheosis-sovereigntasim-55"
+  },
+  {
+    "line": "Sovereign Tasim: No. No, I refuse to accept that.",
+    "file": "apotheosis-sovereigntasim-56"
+  },
+  {
+    "line": "Sovereign Tasim: He's not the one who stood by and- and let this happen. He's not the one who was too- too cowardly to turn away when she- when she-",
+    "file": "apotheosis-sovereigntasim-57"
+  },
+  {
+    "line": "Sovereign Tasim: ...so why is he the one who has to die, and not...",
+    "file": "apotheosis-sovereigntasim-58"
+  },
+  {
+    "line": "Sovereign Tasim: \"I couldn't just stand by when there was something I could do to help.\" How could I have forgotten...? Again, again, it's like he's lying there, on the cold wooden floor, and...",
+    "file": "apotheosis-sovereigntasim-59"
+  },
+  {
+    "line": "Sovereign Tasim: ...it's fine. He'll be fine. I... know what to do...",
+    "file": "apotheosis-sovereigntasim-60"
+  },
+  {
+    "line": "Sovereign Tasim: ...then I'll just have to recharge it myself. I have the power, I just need to...",
+    "file": "apotheosis-sovereigntasim-61"
+  },
+  {
+    "line": "Sovereign Tasim: Use it. Everything I have- my own magic - my curse, what I still have of her blessing, all of it... I just... need to...",
+    "file": "apotheosis-sovereigntasim-62"
+  },
+  {
+    "line": "Sovereign Tasim: ...urgh. No, no, that can't be all I have- have I really used so much...?",
+    "file": "apotheosis-sovereigntasim-63"
+  },
+  {
+    "line": "Sovereign Tasim: Huh?",
+    "file": "apotheosis-sovereigntasim-64"
+  },
+  {
+    "line": "Sovereign Tasim: soldier.",
+    "file": "apotheosis-sovereigntasim-65"
+  },
+  {
+    "line": "Sovereign Tasim: I... have no right to ask this of you. Not- not now, not after everything I've...",
+    "file": "apotheosis-sovereigntasim-66"
+  },
+  {
+    "line": "Sovereign Tasim: But... please. Just a little more. I can't... I can't let anyone else die for my mistakes.",
+    "file": "apotheosis-sovereigntasim-67"
+  },
+  {
+    "line": "Sovereign Tasim: ...thank you.",
+    "file": "apotheosis-sovereigntasim-68"
+  },
+  {
+    "line": "Sovereign Tasim: ...did it wor-",
+    "file": "apotheosis-sovereigntasim-69"
+  },
+  {
+    "line": "Sovereign Tasim: But did it-",
+    "file": "apotheosis-sovereigntasim-70"
+  },
+  {
+    "line": "Sovereign Tasim: ...good. Then... then it's done. It's all...",
+    "file": "apotheosis-sovereigntasim-71"
+  },
+  {
+    "line": "Sovereign Tasim: ...oh.",
+    "file": "apotheosis-sovereigntasim-72"
+  },
+  {
+    "line": "Sovereign Tasim: ...what. What do you want? Everything's broken. And it's my fault, right?",
+    "file": "apotheosis-sovereigntasim-73"
+  },
+  {
+    "line": "Sovereign Tasim: Sigh. And it all... just... breaks... of course.",
+    "file": "apotheosis-sovereigntasim-74"
+  },
+  {
+    "line": "Sovereign Tasim: Sigh. And it all... just... breaks...",
+    "file": "apotheosis-sovereigntasim-75"
+  },
+  {
+    "line": "Sovereign Tasim: ...okay. I... I will. I'll see what I can do, if... if I can get any of the soldiers to stand down...",
+    "file": "apotheosis-sovereigntasim-76"
+  },
+  {
+    "line": "Sovereign Tasim: I'll meet you by the palace. We'll fix this together.",
+    "file": "apotheosis-sovereigntasim-77"
+  },
+  {
+    "line": "Sovereign Tasim: Right. Sure. If that's what you want from me.",
+    "file": "apotheosis-sovereigntasim-78"
+  },
+  {
+    "line": "Sovereign Tasim: I'll be there when you go in after her.",
+    "file": "apotheosis-sovereigntasim-79"
+  },
+  {
+    "line": "Sovereign Tasim: What will I... what can I do? It's all so... overwhelming.",
+    "file": "apotheosis-sovereigntasim-80"
+  },
+  {
+    "line": "Sovereign Tasim: But... I have to try, don't I? I can't just... escape from the consequences.",
+    "file": "apotheosis-sovereigntasim-81"
+  },
+  {
+    "line": "Sovereign Tasim: I'll... meet you by the palace. I need to think first. Before we... go in.",
+    "file": "apotheosis-sovereigntasim-82"
+  },
+  {
+    "line": "Sovereign Tasim: Is that it... then? I guess we're... done.",
+    "file": "apotheosis-sovereigntasim-83"
+  },
+  {
+    "line": "Sovereign Tasim: The rift in the sky... it's all broken, havoc left in her wake, and... and it's my fault.",
+    "file": "apotheosis-sovereigntasim-84"
+  },
+  {
+    "line": "Sovereign Tasim: But you won't kill me. So I guess I have to keep going... don't I?",
+    "file": "apotheosis-sovereigntasim-85"
+  },
+  {
+    "line": "Sovereign Tasim: Good luck, soldier. You'll need it.",
+    "file": "apotheosis-sovereigntasim-86"
+  },
+  {
+    "line": "Sovereign Tasim: soldier. I'm here, aren't I? Sigh... Look at it all. What a mess. The sky itself is cracked and broken!!",
+    "file": "apotheosis-sovereigntasim-87"
+  },
+  {
+    "line": "Sovereign Tasim: Everything she said... it was true. She had a plan to stop the end of the world. She had the method and the means...",
+    "file": "apotheosis-sovereigntasim-88"
+  },
+  {
+    "line": "Sovereign Tasim: But she was always focused on this, wasn't she? Fruma was her priority. Keeping it perfect and under her control...",
+    "file": "apotheosis-sovereigntasim-89"
+  },
+  {
+    "line": "Sovereign Tasim: Maybe I should have seen it. Maybe I did. But it doesn't matter, does it? We've found ourselves here and now either way.",
+    "file": "apotheosis-sovereigntasim-90"
+  },
+  {
+    "line": "Sovereign Tasim: ...I would, wouldn't I? But there are bigger things to worry about right now.",
+    "file": "apotheosis-sovereigntasim-91"
+  },
+  {
+    "line": "Sovereign Tasim: You're going after the Queen, right? I want to help.",
+    "file": "apotheosis-sovereigntasim-92"
+  },
+  {
+    "line": "Sovereign Tasim: ...I just want to make things right.",
+    "file": "apotheosis-sovereigntasim-93"
+  },
+  {
+    "line": "Sovereign Tasim: soldier.",
+    "file": "apotheosis-sovereigntasim-94"
+  },
+  {
+    "line": "Sovereign Tasim: I've... done what I can. Reached as many people as I could, with the time I had. The rest...",
+    "file": "apotheosis-sovereigntasim-95"
+  },
+  {
+    "line": "Sovereign Tasim: The gendarme won't listen to me... their commander's disappeared somewhere, and they won't tell me anything about it.",
+    "file": "apotheosis-sovereigntasim-96"
+  },
+  {
+    "line": "Sovereign Tasim: ...I thought she understood me. I still think she did, but... it doesn't make up for this. Any of this.",
+    "file": "apotheosis-sovereigntasim-97"
+  },
+  {
+    "line": "Sovereign Tasim: The cracks are finally showing... I always knew they were there, I just. Told myself they weren't the end of the world. Ha.",
+    "file": "apotheosis-sovereigntasim-98"
+  },
+  {
+    "line": "Sovereign Tasim: ...maybe. Maybe I do. But I can't just leave my mistakes for other people to deal with.",
+    "file": "apotheosis-sovereigntasim-99"
+  },
+  {
+    "line": "Sovereign Tasim: I'm here to help with the Queen. I have to see it through, or... or I've made these mistakes for nothing.",
+    "file": "apotheosis-sovereigntasim-100"
+  },
+  {
+    "line": "Sovereign Tasim: ...for what it's worth, I-",
+    "file": "apotheosis-sovereigntasim-101"
+  },
+  {
+    "line": "Sovereign Tasim: I've been thinking. About all of it. After everything that's happened, everything she's done - everything I've done - it wouldn't be right to turn away.",
+    "file": "apotheosis-sovereigntasim-102"
+  },
+  {
+    "line": "Sovereign Tasim: It's all broken, breaking... and maybe it always was. And this is just the truth finally being visible.",
+    "file": "apotheosis-sovereigntasim-103"
+  },
+  {
+    "line": "Sovereign Tasim: ...I just wanted to do something about it all. About the realms... but also about Fruma. But... I was never going to make any real change, was I?",
+    "file": "apotheosis-sovereigntasim-104"
+  },
+  {
+    "line": "Sovereign Tasim: I'll help you take her down. It's only right. After that... I don't know.",
+    "file": "apotheosis-sovereigntasim-105"
+  },
+  {
+    "line": "Sovereign Tasim: ...you're right.",
+    "file": "apotheosis-sovereigntasim-106"
+  },
+  {
+    "line": "Sovereign Tasim: ...I'm sorry.",
+    "file": "apotheosis-sovereigntasim-107"
+  },
+  {
+    "line": "Sovereign Tasim: ...no more excuses.",
+    "file": "apotheosis-sovereigntasim-108"
+  },
+  {
+    "line": "Sovereign Tasim: Don't call me-",
+    "file": "apotheosis-sovereigntasim-109"
+  },
+  {
+    "line": "Sovereign Tasim: ...oh. Hello.",
+    "file": "apotheosis-sovereigntasim-110"
+  },
+  {
+    "line": "Sovereign Tasim: I'm... I don't know. Saying goodbye, I guess.",
+    "file": "apotheosis-sovereigntasim-111"
+  },
+  {
+    "line": "Sovereign Tasim: I should... get going. I'll, uh... see you around.",
+    "file": "apotheosis-sovereigntasim-112"
+  },
+  {
+    "line": "I'm sorry I couldn't make it there in time. I'm sorry I never got to say goodbye.",
+    "file": "apotheosis-sovereigntasim-113"
+  },
+  {
+    "line": "These past few days, I've been spinning scenarios in my head, desperately trying to think of a way I could have saved you... but I haven't been able to.",
+    "file": "apotheosis-sovereigntasim-114"
+  },
+  {
+    "line": "Maybe there was nothing I could have done. Maybe it was always going to be this way.",
+    "file": "apotheosis-sovereigntasim-115"
+  },
+  {
+    "line": "In another life, another world, could we have gotten a happy ending?",
+    "file": "apotheosis-sovereigntasim-116"
+  },
+  {
+    "line": "I'd like to think so.",
+    "file": "apotheosis-sovereigntasim-117"
+  },
+  {
+    "line": "But we only get one chance, and this is the one I'm left with.",
+    "file": "apotheosis-sovereigntasim-118"
+  },
+  {
+    "line": "I'll try to keep on living. For you.",
+    "file": "apotheosis-sovereigntasim-119"
+  },
+  {
+    "line": "I'll never forget you, or the time we had together.",
+    "file": "apotheosis-sovereigntasim-120"
+  },
+  {
+    "line": "I hope it meant as much to you as it did to me.",
+    "file": "apotheosis-sovereigntasim-121"
+  },
+  {
+    "line": "Rest well, friend. You've earned it.",
+    "file": "apotheosis-sovereigntasim-122"
+  },
+  {
+    "line": "Sovereign Tasim: ...sigh. No. I've come too far.",
+    "file": "apotheosis-sovereigntasim-123"
+  },
+  {
+    "line": "Sovereign Tasim: If I turn back now... it'll all have been for nothing. She holds the answers, the means...",
+    "file": "apotheosis-sovereigntasim-124"
+  },
+  {
+    "line": "Sovereign Tasim: ...she was supposed to move. Why didn't she...",
+    "file": "apotheosis-sovereigntasim-125"
+  },
+  {
+    "line": "Sovereign Tasim: Let's just get it over with.",
+    "file": "apotheosis-sovereigntasim-126"
+  },
+  {
+    "line": "Sovereign Tasim: ...we both knew where this was heading. I chose the wrong side. Even as it all fell apart, I... couldn't step away.",
+    "file": "apotheosis-sovereigntasim-127"
+  },
+  {
+    "line": "Sovereign Tasim: And in the end... what do I have to show for it? A shattered sky, and... and...",
+    "file": "apotheosis-sovereigntasim-128"
+  },
+  {
+    "line": "Sovereign Tasim: You've killed multiple Sovereigns already. And, now... I'm the last one left. You have to see it through.",
+    "file": "apotheosis-sovereigntasim-129"
+  },
+  {
+    "line": "Sovereign Tasim: I made my choices. I could see where the path could lead, and... and I didn't turn away. I told you we'd be enemies, and... here we are. You have to kill me.",
+    "file": "apotheosis-sovereigntasim-130"
+  },
+  {
+    "line": "Sovereign Tasim: There's... nothing left for me here. Not in Wynn, not in Gavel, not in Fruma. I don't have anything.",
+    "file": "apotheosis-sovereigntasim-131"
+  },
+  {
+    "line": "Sovereign Tasim: Even... after all of this? You'd still...",
+    "file": "apotheosis-sovereigntasim-132"
+  },
+  {
+    "line": "Sovereign Tasim: ... Okay. Okay. If... if you're sure. Why would I... what was I thinking...?",
+    "file": "apotheosis-sovereigntasim-133"
+  },
+  {
+    "line": "Sovereign Tasim: ...ha. Like... Aledar. Of course. Of course.",
+    "file": "apotheosis-sovereigntasim-134"
+  },
+  {
+    "line": "Sovereign Tasim: ...and I would ask the same of you... again. Ha...",
+    "file": "apotheosis-sovereigntasim-135"
+  },
+  {
+    "line": "Sovereign Tasim: ...ha. Can I? Can I really? After everything I've...",
+    "file": "apotheosis-sovereigntasim-136"
+  },
+  {
+    "line": "Sovereign Tasim: Look around you, soldier... it's my fault we're here. It's my fault, for not... stopping it.",
+    "file": "apotheosis-sovereigntasim-137"
+  },
+  {
+    "line": "Sovereign Tasim: Ha... haha... of course. Of course.",
+    "file": "apotheosis-sovereigntasim-138"
+  },
+  {
+    "line": "Sovereign Tasim: You're right. Of course you are. I can't just... leave this all now, can I...?",
+    "file": "apotheosis-sovereigntasim-139"
+  },
+  {
+    "line": "Sovereign Tasim: That's not-",
+    "file": "apotheosis-sovereigntasim-140"
+  },
+  {
+    "line": "Sovereign Tasim: ...no, I... I'm not trying to...",
+    "file": "apotheosis-sovereigntasim-141"
+  },
+  {
+    "line": "Sovereign Tasim: Okay... okay. That's... good, that's... thank you, Zhiraok. I...",
+    "file": "apotheosis-sovereigntasim-142"
+  },
+  {
+    "line": "Sovereign Tasim: He's not the one who... stood by and let this happen. He's not the one who was too cowardly to turn away when she- when she-",
+    "file": "apotheosis-sovereigntasim-143"
+  },
+  {
+    "line": "Sovereign Tasim: \"I couldn't just stand by when there was something I could do to help.\" Of course. Of course. Again, again, it's like he's lying there, on the cold wooden floor, and...",
+    "file": "apotheosis-sovereigntasim-144"
+  },
+  {
+    "line": "Sovereign Tasim: ...it's fine. He'll be fine. I know what to do.",
+    "file": "apotheosis-sovereigntasim-145"
+  },
+  {
+    "line": "Sovereign Tasim: I... have no right to ask this of you. Not now... not after everything I've...",
+    "file": "apotheosis-sovereigntasim-146"
+  },
+  {
+    "line": "Sovereign Tasim: Sigh. And it's all just... broken.",
+    "file": "apotheosis-sovereigntasim-147"
+  },
+  {
+    "line": "Sovereign Tasim: ...I will. I'll see what I can do, if... if I can get any of the soldiers to stand down...",
+    "file": "apotheosis-sovereigntasim-148"
+  },
+  {
+    "line": "Sovereign Tasim: Sigh. And it's all just... broken... of course.",
+    "file": "apotheosis-sovereigntasim-149"
+  },
+  {
+    "line": "Sovereign Tasim: What will I... what can I do? There's so much I hadn't... thought through... and now...",
+    "file": "apotheosis-sovereigntasim-150"
+  },
+  {
+    "line": "Sovereign Tasim: But... I have to try, don't I? I can't just... escape from the consequences.",
+    "file": "apotheosis-sovereigntasim-151"
+  },
+  {
+    "line": "Sovereign Tasim: I'll... meet you by the palace. I need to think first.",
+    "file": "apotheosis-sovereigntasim-152"
+  },
+  {
+    "line": "Sovereign Tasim: Is that it... then? I guess we're... done.",
+    "file": "apotheosis-sovereigntasim-153"
+  },
+  {
+    "line": "Sovereign Tasim: The rift in the sky... it's all broken, havoc left in her wake, and... and it's my fault.",
+    "file": "apotheosis-sovereigntasim-154"
+  },
+  {
+    "line": "Sovereign Tasim: But I'm... still here, aren't I? So... I guess I have to keep going, after all...",
+    "file": "apotheosis-sovereigntasim-155"
+  },
+  {
+    "line": "Sovereign Tasim: Then... we need to clean up this mess, don't we...?",
+    "file": "apotheosis-sovereigntasim-156"
+  },
+  {
+    "line": "Sovereign Tasim: ...I'll meet you by the palace. I just... need some time to think.",
+    "file": "apotheosis-sovereigntasim-157"
+  },
+  {
+    "line": "Sovereign Tasim: ...it's strange. For all that I thought she understood me... maybe she never really did. How much of what she said was real? How much of it wasn't?",
+    "file": "apotheosis-sovereigntasim-158"
+  },
+  {
+    "line": "Sovereign Tasim: The cracks had been showing for a while, I just... chose to push them aside. I didn't think I would make it out of this, so... why push back on it?",
+    "file": "apotheosis-sovereigntasim-159"
+  },
+  {
+    "line": "Sovereign Tasim: ...I still think her plan would have worked to stop the end of the world. She had the method and the means...",
+    "file": "apotheosis-sovereigntasim-160"
+  },
+  {
+    "line": "Sovereign Tasim: But it was never her priority. She was always focused on... this. Keeping Fruma perfect, and under her control.",
+    "file": "apotheosis-sovereigntasim-161"
+  },
+  {
+    "line": "Sovereign Tasim: ...does any of this matter? I guess not. We've found ourselves here, either way. Nothing to do but... keep moving forward.",
+    "file": "apotheosis-sovereigntasim-162"
   }
 ]
