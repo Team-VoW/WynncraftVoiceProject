@@ -224,6 +224,10 @@ public class VOWAutoConfig {
         return playAllSoundsOnPlayer;
     }
 
+    public void setPlayAllSoundsOnPlayer(boolean input) {
+        playAllSoundsOnPlayer = input;
+    }
+
     public int getVoiceVolume() {
         return voiceVolume;
     }
