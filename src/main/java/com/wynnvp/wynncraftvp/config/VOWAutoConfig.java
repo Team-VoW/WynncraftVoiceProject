@@ -45,7 +45,7 @@ public class VOWAutoConfig {
 
     public boolean playAllSoundsOnPlayer = false;
 
-    public int voiceVolume = 100;
+    public int voiceVolume = 200;
 
     public int playbackSpeed = 100;
 

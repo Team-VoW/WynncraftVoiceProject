@@ -64,6 +64,6 @@
   "wynnvp.config.option.soundPhysicsReverbStrength": "Reverb strength",
   "wynnvp.config.option.soundPhysicsReverbStrength.tooltip": "How wet the worked-out reverb sounds. 100% is the physically modelled amount; 0% leaves the voice dry without turning off muffling.",
   "wynnvp.config.option.voiceVolume": "Voice volume",
-  "wynnvp.config.option.voiceVolume.tooltip": "Adjusts the volume of voices played by this mod. 100% matches Minecraft's Voice/Speech volume.",
+  "wynnvp.config.option.voiceVolume.tooltip": "Adjusts the volume of voices played.",
   "wynnvp.config.title": "Voices of Wynn Config"
 }
