@@ -45,7 +45,6 @@ public class OpenAlPlayer {
     private final Map<Integer, CurrentSpeaker> currentSpeakers = new ConcurrentHashMap<>();
     private static final float maxDistance = 20000;
     private final Options gameSettings;
-    private boolean hasShownVolumeMessage = false;
 
     // EFX (Environmental Audio Extension) support
     private boolean efxSupported = false;
@@ -219,13 +218,6 @@ public class OpenAlPlayer {
 
     public void playAudio(AudioData audioData) {
         submit(() -> {
-            if (gameSettings.getSoundSourceVolume(SoundSource.VOICE) <= 0F) {
-                if (!hasShownVolumeMessage) {
-                    Utils.sendMessage("Voice/Speech volume is off. Turn it on in your settings to hear the voices.");
-                    hasShownVolumeMessage = true;
-                }
-                return;
-            }
             maybeHintDirectionalAudio();
 
             int sourceID = AL10.alGenSources();
@@ -588,7 +580,9 @@ public class OpenAlPlayer {
     }
 
     private void updateVolume(int sourceID) {
-        float base = gameSettings.getSoundSourceVolume(SoundSource.VOICE);
+        // Deliberately MASTER and not VOICE: dialogue from this mod is not one of Minecraft's own
+        // sound categories, so it answers to the master slider and this mod's own volume setting only.
+        float base = gameSettings.getSoundSourceVolume(SoundSource.MASTER);
 
         int percent = (ModCore.config != null) ? ModCore.config.getVoiceVolume() : 100;
         float gain = base * (percent / 100.0f);
