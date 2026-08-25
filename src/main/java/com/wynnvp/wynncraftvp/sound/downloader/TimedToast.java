@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2025.
+ * Copyright © Team-VoW 2025-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.downloader;
@@ -41,6 +41,11 @@ public class TimedToast implements Toast {
 
         // We add a delay to ensure the toast is hidden before executing the action.
         scheduler.schedule(() -> Minecraft.getInstance().execute(action), 1, TimeUnit.SECONDS);
+    }
+
+    /** Whether the action has already been run or called off, so it can no longer fire. */
+    public boolean isFinished() {
+        return finished;
     }
 
     public void hide() {

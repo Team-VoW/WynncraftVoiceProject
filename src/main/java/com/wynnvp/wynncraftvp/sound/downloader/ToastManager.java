@@ -13,6 +13,7 @@ public class ToastManager {
     private static ToastManager instance;
     private final Minecraft client;
     private TimedToast currentTimedToast;
+    private Runnable currentOnCancel;
     private boolean isListening = false;
 
     // Constructor
@@ -39,12 +40,23 @@ public class ToastManager {
      * @param subtitleText    The subtitle text of the toast (without the countdown).
      */
     public void displayTimedToast(Runnable action, int durationSeconds, String titleText, String subtitleText) {
+        displayTimedToast(action, () -> {}, durationSeconds, titleText, subtitleText);
+    }
+
+    /**
+     * As {@link #displayTimedToast(Runnable, int, String, String)}, but also tells the caller when the
+     * countdown was called off, so it can let go of whatever it was holding for the confirmed action.
+     *
+     * @param onCancel run if the user declines, or if another timed toast replaces this one before it
+     *                 has had a chance to run.
+     */
+    public void displayTimedToast(
+            Runnable action, Runnable onCancel, int durationSeconds, String titleText, String subtitleText) {
         client.execute(() -> {
-            if (currentTimedToast != null) {
-                currentTimedToast.hide();
-            }
+            cancelCurrentToast();
 
             currentTimedToast = new TimedToast(action, durationSeconds, titleText, subtitleText);
+            currentOnCancel = onCancel;
             client.getToastManager().addToast(currentTimedToast);
             isListening = true; // Start listening for key presses
         });
@@ -61,15 +73,32 @@ public class ToastManager {
             stopListening();
         } else if (isKeyPressed(GLFW.GLFW_KEY_N)) {
             // User declined; do not execute action
-            currentTimedToast.hide();
+            cancelCurrentToast();
             displayToast(Component.literal("Action cancelled"), Component.literal("Did not download VoW audio"));
             stopListening();
         }
     }
 
+    /**
+     * Hides the pending toast and reports the cancellation, unless its action has already run -- the
+     * countdown can finish while the toast is still the current one, and that is not a cancellation.
+     */
+    private void cancelCurrentToast() {
+        if (currentTimedToast == null) {
+            return;
+        }
+        boolean actionStillPending = !currentTimedToast.isFinished();
+        currentTimedToast.hide();
+        if (actionStillPending && currentOnCancel != null) {
+            currentOnCancel.run();
+        }
+        currentOnCancel = null;
+    }
+
     private void stopListening() {
         isListening = false;
         currentTimedToast = null;
+        currentOnCancel = null;
     }
 
     // Helper method to check if a key is pressed

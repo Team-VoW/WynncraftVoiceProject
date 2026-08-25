@@ -46,25 +46,45 @@ public class SoundsHandler {
     private volatile TreeMap<String, SoundObject> soundsTree = null;
     private final Gson gson;
 
+    /**
+     * Loads run here rather than on the calling thread. Kept for the whole session so a reload
+     * triggered from the settings screen queues up behind the initial load instead of racing it.
+     */
+    private final ExecutorService executor = Executors.newSingleThreadExecutor(runnable -> {
+        Thread thread = new Thread(runnable, "VoW Sounds Loader");
+        thread.setDaemon(true);
+        return thread;
+    });
+
     public SoundsHandler() {
         gson = new GsonBuilder()
                 .registerTypeAdapter(Reverb.class, new ReverbDeserializer())
                 .create();
-        ExecutorService executor = Executors.newSingleThreadExecutor();
+        reload();
+    }
 
-        executor.execute(() -> {
-            try {
-                updateJsonIfNeeded();
-                loadSoundsFromJson(getJsonStream());
-            } catch (RuntimeException e) {
-                if (e.getCause() instanceof com.google.gson.stream.MalformedJsonException) {
-                    ModCore.LOGGER.error("[Voices of Wynn] Detected corrupted JSON file, attempting to fix", e);
-                    handleCorruptedJsonFile();
-                } else {
-                    ModCore.LOGGER.error("[Voices of Wynn] Failed to initialize sounds", e);
-                }
+    /**
+     * Re-reads sounds.json from whichever source the config currently points at.
+     * <p>
+     * Called when the custom sounds.json setting changes, so pointing the mod at a local file (or
+     * back at the CDN copy) takes effect without a restart.
+     */
+    public void reload() {
+        executor.execute(this::loadSounds);
+    }
+
+    private void loadSounds() {
+        try {
+            updateJsonIfNeeded();
+            loadSoundsFromJson(getJsonStream());
+        } catch (RuntimeException e) {
+            if (e.getCause() instanceof com.google.gson.stream.MalformedJsonException) {
+                ModCore.LOGGER.error("[Voices of Wynn] Detected corrupted JSON file, attempting to fix", e);
+                handleCorruptedJsonFile();
+            } else {
+                ModCore.LOGGER.error("[Voices of Wynn] Failed to initialize sounds", e);
             }
-        });
+        }
     }
 
     private void handleCorruptedJsonFile() {
