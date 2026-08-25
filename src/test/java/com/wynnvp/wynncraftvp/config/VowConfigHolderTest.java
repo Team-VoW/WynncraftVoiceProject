@@ -152,7 +152,7 @@ class VowConfigHolderTest {
 
         VOWAutoConfig config = new VowConfigHolder(configPath).load();
 
-        assertEquals(100, config.voiceVolume);
+        assertEquals(new VOWAutoConfig().voiceVolume, config.voiceVolume);
         assertTrue(Files.exists(configPath));
         assertEquals(config.voiceVolume, new VowConfigHolder(configPath).load().voiceVolume);
     }
@@ -163,7 +163,7 @@ class VowConfigHolderTest {
 
         VOWAutoConfig config = new VowConfigHolder(configPath).load();
 
-        assertEquals(100, config.voiceVolume);
+        assertEquals(new VOWAutoConfig().voiceVolume, config.voiceVolume);
         assertEquals(1, countCorruptConfigs());
     }
 

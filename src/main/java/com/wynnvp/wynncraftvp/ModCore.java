@@ -5,6 +5,7 @@
 package com.wynnvp.wynncraftvp;
 
 import com.wynnvp.wynncraftvp.commands.VowCommands;
+import com.wynnvp.wynncraftvp.config.ConfigChangeApplier;
 import com.wynnvp.wynncraftvp.config.ConfigFileRecovery;
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import com.wynnvp.wynncraftvp.config.VowConfigHolder;
@@ -69,6 +70,7 @@ public class ModCore implements ModInitializer {
         recoverCorruptedConfig(configPath);
         configHolder = new VowConfigHolder(configPath);
         config = configHolder.load();
+        ConfigChangeApplier.initialize(config);
 
         instance = this;
         overlayHandler = new OverlayHandler();

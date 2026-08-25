@@ -153,9 +153,8 @@ public class AudioPlayer {
             if (remoteAudioData != null && isCurrentGeneration(generation)) {
                 playAudioBuffer(remoteAudioData, soundObject);
             } else {
-                Utils.sendMessage(
-                        "Failed to fetch remote audio file for " + audioFileName
-                                + ". If this keeps happening go into your settings, enable the download sounds option and restart your game.");
+                Utils.sendMessage("Failed to fetch remote audio file for " + audioFileName
+                        + ". If this keeps happening go into your settings and enable the download sounds option.");
             }
         });
     }

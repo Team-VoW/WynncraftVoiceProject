@@ -5,6 +5,7 @@
 package com.wynnvp.wynncraftvp.config.gui;
 
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.config.ConfigChangeApplier;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
@@ -70,6 +71,10 @@ public abstract class VowOptionsScreen extends Screen {
     public void removed() {
         super.removed();
         ModCore.config.save();
+        // Settings that are otherwise only read at startup are put into effect here rather than in the
+        // widget callbacks: a text field fires its responder on every keystroke, and half a path is not
+        // a source worth reloading from.
+        ConfigChangeApplier.applyChanges();
     }
 
     @Override

@@ -31,6 +31,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.zip.GZIPInputStream;
 import net.minecraft.network.chat.Component;
 import org.slf4j.Logger;
@@ -115,6 +116,9 @@ public class AudioDownloader {
 
     private boolean hasRan = false;
 
+    /** Guards against a second check starting while one is still working through the manifest. */
+    private final AtomicBoolean running = new AtomicBoolean();
+
     public void checkIfHasNot() {
         if (hasRan || !ModCore.config.downloadSounds) {
             return;
@@ -124,12 +128,34 @@ public class AudioDownloader {
         checkToDownload();
     }
 
+    /**
+     * Runs a check straight away, even if this session has already run one.
+     * <p>
+     * This is what the settings screen calls when the download option is switched on, so the download
+     * starts (and its confirmation toast appears) there and then rather than on the next launch.
+     */
+    public void checkNow() {
+        if (!ModCore.config.downloadSounds) {
+            return;
+        }
+
+        hasRan = true;
+        currentRun = 0;
+        checkToDownload();
+    }
+
     public void checkToDownload() {
+        if (!running.compareAndSet(false, true)) {
+            LOGGER.info("An audio download check is already in progress, ignoring this one");
+            return;
+        }
+
         // Ensure the audio folder exists
         audioFolder = new File(audioDir);
         if (!audioFolder.exists()) {
             if (!audioFolder.mkdirs()) {
                 LOGGER.error("Failed to create audio folder: " + audioFolder.getAbsolutePath());
+                finishRun();
                 return;
             }
         }
@@ -137,6 +163,11 @@ public class AudioDownloader {
         // Start the async process
         CompletableFuture.runAsync(this::processAudioManifest);
         // processAudioManifest();
+    }
+
+    /** Marks the run as over, so a later {@link #checkNow()} is allowed to start a fresh one. */
+    private void finishRun() {
+        running.set(false);
     }
 
     private void processAudioManifest() {
@@ -151,6 +182,7 @@ public class AudioDownloader {
                 remoteMetadata = fetchAudioManifest();
                 if (remoteMetadata == null) {
                     LOGGER.error("Failed to fetch audio manifest after retry.");
+                    finishRun();
                     return;
                 }
             }
@@ -161,6 +193,7 @@ public class AudioDownloader {
 
             if (toDownload.isEmpty()) {
                 LOGGER.info("No files to download. Up to date");
+                finishRun();
                 return;
             }
 
@@ -177,6 +210,8 @@ public class AudioDownloader {
             ToastManager.getInstance()
                     .displayTimedToast(
                             () -> StartDownloadQueue(toDownload),
+                            // Declining ends the run, so switching the setting off and on again asks anew.
+                            this::finishRun,
                             10,
                             "Voices of Wynn Download. Size: " + downloadSizeInMB + " MB",
                             "Press N to cancel.");
@@ -184,6 +219,7 @@ public class AudioDownloader {
         } catch (Exception e) {
             LOGGER.error("Error in audio manifest processing");
             e.printStackTrace();
+            finishRun();
         }
     }
 
@@ -211,6 +247,7 @@ public class AudioDownloader {
                         .displayToast(
                                 Component.literal("Voices of Wynn audio downloaded successfully"),
                                 Component.literal("All files downloaded successfully"));
+                finishRun();
                 return;
             }
             LOGGER.info("Failed to download " + failedToDownload.size() + "("
@@ -226,6 +263,7 @@ public class AudioDownloader {
                         .displayToast(
                                 Component.literal("Failed to download " + failedToDownload.size() + " files"),
                                 Component.literal("Restart the game to try downloading again"));
+                finishRun();
                 return;
             }
 
