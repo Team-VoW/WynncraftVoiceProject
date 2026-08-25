@@ -23,6 +23,14 @@ public class DialogueData {
 
     private boolean stopSounds = true;
 
+    /**
+     * When true the line waits for whatever is already speaking to finish instead of cutting it off.
+     *
+     * <p>Overrides {@link #stopSounds} while something is playing: a queued line neither stops nor
+     * talks over the line before it.
+     */
+    private boolean queue = false;
+
     public void setDialogueLine(String dialogueLine) {
         this.line = dialogueLine;
     }
@@ -85,5 +93,13 @@ public class DialogueData {
 
     public void setStopSounds(boolean stopSounds) {
         this.stopSounds = stopSounds;
+    }
+
+    public boolean shouldQueue() {
+        return queue;
+    }
+
+    public void setQueue(boolean queue) {
+        this.queue = queue;
     }
 }
