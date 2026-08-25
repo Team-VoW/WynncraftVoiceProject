@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -14,6 +14,7 @@ public class SoundObject {
     private final Vec3 position;
     private final int fallOff;
     private final boolean stopSounds;
+    private final boolean queued;
     private final Reverb reverb;
 
     public SoundObject(
@@ -23,6 +24,7 @@ public class SoundObject {
             Vec3 position,
             int fallOff,
             boolean stopSounds,
+            boolean queued,
             Reverb reverb) {
         this.fallOff = fallOff;
         this.position = position;
@@ -30,6 +32,7 @@ public class SoundObject {
         this.id = id;
         this.movingSound = movingSound;
         this.stopSounds = stopSounds;
+        this.queued = queued;
         this.reverb = reverb;
     }
 
@@ -61,6 +64,16 @@ public class SoundObject {
 
     public boolean shouldStopSounds() {
         return stopSounds;
+    }
+
+    /**
+     * Whether this line waits for the one before it rather than cutting it off.
+     *
+     * <p>Takes precedence over {@link #shouldStopSounds()} for as long as something is still
+     * speaking; once the line does start, it starts like any other.
+     */
+    public boolean shouldQueue() {
+        return queued;
     }
 
     public Reverb getReverb() {

@@ -132,6 +132,7 @@ public class SoundsHandler {
                 String npcName = dialogue.getNpc();
                 Reverb environment = dialogue.getReverb();
                 boolean stopSounds = dialogue.shouldStopSounds();
+                boolean queued = dialogue.shouldQueue();
 
                 LineData lineData = formatToLineData(message);
                 message = lineData.getSoundLine();
@@ -144,6 +145,7 @@ public class SoundsHandler {
                                 position,
                                 fallOff,
                                 stopSounds,
+                                queued,
                                 environment));
             }
             soundsTree = new TreeMap<>(loaded);

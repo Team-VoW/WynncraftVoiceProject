@@ -10,22 +10,42 @@ import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
 import com.wynnvp.wynncraftvp.sound.line.LineData;
 import com.wynnvp.wynncraftvp.sound.line.LineReporter;
+import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.utils.Utils;
+import java.util.ArrayDeque;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
 
 public class SoundPlayer {
     public static volatile boolean stopMod = false;
 
+    /**
+     * How long a line that has just been handed to the sound engine counts as playing before the
+     * queue gives up waiting for it.
+     *
+     * <p>A line is not audible the moment it is started: a remote fetch and the Ogg decode both
+     * happen off-thread first. Without this window the queue would empty itself into that gap and
+     * every waiting line would start at once. It also caps the damage when a line never arrives at
+     * all, e.g. because the download failed.
+     */
+    private static final int START_GRACE_TICKS = 60;
+
     private final LineReporter lineReporter;
+
+    /** Lines waiting for the one before them to finish, in the order they were spoken. */
+    private final ArrayDeque<SoundObject> queuedSounds = new ArrayDeque<>();
+
+    /** Ticks left of {@link #START_GRACE_TICKS} for the line that was started last. */
+    private int startGrace = 0;
 
     public SoundPlayer() {
         lineReporter = new LineReporter();
     }
 
-    /** Drives the buffered unvoiced-line reports; called once per world tick. */
+    /** Drives the buffered unvoiced-line reports and the queued lines; called once per world tick. */
     public void onTick() {
         lineReporter.onTick();
+        pumpQueuedSounds();
     }
 
     // Code that is run to play all the sounds
@@ -67,17 +87,14 @@ public class SoundPlayer {
 
     public void playFromObject(SoundObject sound) {
         if (stopMod) return;
-        if (ModCore.instance.audioPlayer == null) {
-            Utils.sendMessage("ERROR! SOUND ENGINE WAS NOT INITIALIZED! PLEASE MAKE A REPORT");
-            return;
-        }
-        if (sound.getId() == null) return;
-        NpcSoundBlocker.markVoiceLineStarted();
-        primeSpeaker(sound);
-        ModCore.instance.audioPlayer.play(sound);
+        PlaySoundObject(sound);
     }
 
     public void stopCurrentAudio() {
+        // Whatever was lined up behind the stopped audio goes with it: the usual caller is the
+        // early-play correction path, where the line the queue was waiting on turned out to be the
+        // wrong guess entirely.
+        clearQueue();
         if (ModCore.instance.audioPlayer == null) return;
         ModCore.instance.audioPlayer.stopAudio();
     }
@@ -94,9 +111,76 @@ public class SoundPlayer {
             return;
         }
 
+        submit(sound);
+    }
+
+    /**
+     * Starts the line, or parks it behind whatever is already speaking.
+     *
+     * <p>{@code "queue": true} in sounds.json is for lines that read as a follow-on rather than an
+     * interruption: the speaker keeps talking and this one comes in when they are done. Everything
+     * else behaves as it always has and cuts the current line off.
+     */
+    private synchronized void submit(SoundObject sound) {
+        if (sound.shouldQueue() && isBusy()) {
+            queuedSounds.add(sound);
+            return;
+        }
+
+        // A line that cuts the current one off supersedes what was waiting behind it too, otherwise
+        // the interrupted line's follow-ups would surface after the new one and read as non sequiturs.
+        if (sound.shouldStopSounds()) {
+            queuedSounds.clear();
+        }
+        startPlaying(sound);
+    }
+
+    /**
+     * Releases the next waiting line once the one before it has fallen silent.
+     *
+     * <p>Client thread only, which is also where {@link #primeSpeaker} wants to run.
+     */
+    private synchronized void pumpQueuedSounds() {
+        AudioPlayer audioPlayer = ModCore.instance.audioPlayer;
+        if (stopMod || audioPlayer == null) {
+            clearQueue();
+            return;
+        }
+
+        if (audioPlayer.openAlPlayer.isPlayingAnything()) {
+            // The line that was started has reached the sound engine, so the grace window is spent.
+            startGrace = 0;
+            return;
+        }
+
+        if (startGrace > 0) {
+            startGrace--;
+            return;
+        }
+
+        SoundObject next = queuedSounds.poll();
+        if (next != null) {
+            startPlaying(next);
+        }
+    }
+
+    private void startPlaying(SoundObject sound) {
+        startGrace = START_GRACE_TICKS;
         NpcSoundBlocker.markVoiceLineStarted();
         primeSpeaker(sound);
         ModCore.instance.audioPlayer.play(sound);
+    }
+
+    /** True while a line is audible, on its way to being audible, or still waiting its turn. */
+    private boolean isBusy() {
+        AudioPlayer audioPlayer = ModCore.instance.audioPlayer;
+        return audioPlayer != null
+                && (audioPlayer.openAlPlayer.isPlayingAnything() || startGrace > 0 || !queuedSounds.isEmpty());
+    }
+
+    private synchronized void clearQueue() {
+        queuedSounds.clear();
+        startGrace = 0;
     }
 
     /**
