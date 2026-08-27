@@ -12816,7 +12816,7 @@
     "file": "realmoflight1-malo-15"
   },
   {
-    "line": "Lari: ...Haven’t we met? I have witnessed your presence in Gavel more than once.",
+    "line": "Lari: ...Haven't we met? I have witnessed your presence in Gavel more than once.",
     "file": "realmoflight1-lari-1"
   },
   {
@@ -13044,7 +13044,7 @@
     "file": "realmoflight1-lari-53"
   },
   {
-    "line": "Lari: There...it didn’t feel like there was...anything left to it... But, if I’d just been quicker, then... Would it...would it even have made a difference?",
+    "line": "Lari: There...it didn't feel like there was...anything left to it... But, if I'd just been quicker, then... Would it...would it even have made a difference?",
     "file": "realmoflight1-lari-54"
   },
   {
@@ -13288,7 +13288,7 @@
     "file": "realmoflight2-lari-30"
   },
   {
-    "line": "Lari: What did you do?! The gate is opening? YOU did this?! I know your heart is in the right place, but you’re a stranger to this land!",
+    "line": "Lari: What did you do?! The gate is opening? YOU did this?! I know your heart is in the right place, but you're a stranger to this land!",
     "file": "realmoflight2-lari-31"
   },
   {
@@ -14537,7 +14537,7 @@
     "file": "realmoflight4findingthelight-lari-36"
   },
   {
-    "line": "Lari: There's not another inscription...it's just the same words! What does it mean by ‘’dire actions?!‘’ I've done everything I can think of!",
+    "line": "Lari: There's not another inscription...it's just the same words! What does it mean by \"dire actions?!\" I've done everything I can think of!",
     "file": "realmoflight4findingthelight-lari-37"
   },
   {
@@ -14569,7 +14569,7 @@
     "file": "realmoflight4findingthelight-lari-44"
   },
   {
-    "line": "Lari: What, are you thinking ‘’oh, let's follow the funny elf girl and see her FAIL, OVER and OVER AGAIN!?‘’ IS THAT IT?!",
+    "line": "Lari: What, are you thinking \"oh, let's follow the funny elf girl and see her FAIL, OVER and OVER AGAIN!?\" IS THAT IT?!",
     "file": "realmoflight4findingthelight-lari-45"
   },
   {
@@ -14601,7 +14601,7 @@
     "file": "realmoflight4findingthelight-lari-50"
   },
   {
-    "line": "Lari: ...GRAAAAAUGH!! TELL ME HOW THIS IS ‘’ENOUGH!‘’ TELL ME, NOW!",
+    "line": "Lari: ...GRAAAAAUGH!! TELL ME HOW THIS IS \"ENOUGH!\" TELL ME, NOW!",
     "file": "realmoflight4findingthelight-lari-51"
   },
   {
@@ -15143,32 +15143,32 @@
     "file": "realmoflight5-lari-80"
   },
   {
-    "line": "There's a faint buzzing in your ears...",
+    "line": "Lari: There's a faint buzzing in your ears...",
     "file": "realmoflight5-lari-81",
     "onPlayer": true
   },
   {
-    "line": "soldier... I apologize for leaving you like that. I felt like this was my only chance at defeating this plague - by attacking its core.",
+    "line": "Lari: soldier... I apologize for leaving you like that. I felt like this was my only chance at defeating this plague - by attacking its core.",
     "file": "realmoflight5-lari-82",
     "onPlayer": true
   },
   {
-    "line": "I have a slight idea of where I'm headed, but... If I'm able to handle him, then maybe I'm powerful enough for this.",
+    "line": "Lari: I have a slight idea of where I'm headed, but... If I'm able to handle him, then maybe I'm powerful enough for this.",
     "file": "realmoflight5-lari-83",
     "onPlayer": true
   },
   {
-    "line": "I've never been one to say goodbyes, but thank you for everything. I know you'll find people just as strong as you are to rescue Orphion in my place.",
+    "line": "Lari: I've never been one to say goodbyes, but thank you for everything. I know you'll find people just as strong as you are to rescue Orphion in my place.",
     "file": "realmoflight5-lari-84",
     "onPlayer": true
   },
   {
-    "line": "I- I see the end of this... Tunnel. There's- Wait...",
+    "line": "Lari: I- I see the end of this... Tunnel. There's- Wait...",
     "file": "realmoflight5-lari-85",
     "onPlayer": true
   },
   {
-    "line": "By the light what is that thing?! S-Stay away f-",
+    "line": "Lari: By the light what is that thing?! S-Stay away f-",
     "file": "realmoflight5-lari-86",
     "onPlayer": true
   },
@@ -51790,12 +51790,12 @@
     "fallOff": 200
   },
   {
-    "line": "Lari: People have been calling it the ''Decay''... Truth is, there is so much more to it.",
+    "line": "Lari: People have been calling it the \"Decay\"... Truth is, there is so much more to it.",
     "file": "llevigarplains-lari-6",
     "fallOff": 200
   },
   {
-    "line": "???: People have been calling it the ''Decay''... Truth is, there is so much more to it.",
+    "line": "???: People have been calling it the \"Decay\"... Truth is, there is so much more to it.",
     "file": "llevigarplains-lari-6",
     "fallOff": 200
   },
