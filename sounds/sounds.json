@@ -168,10 +168,6 @@
     "report": true
   },
   {
-    "line": "???: Hey, soldier! Are you alright in there? It looks like we've hit something.",
-    "report": true
-  },
-  {
     "line": "???: Hey, you! What're you doing, snoopin' 'round here? Get out of our forest!",
     "report": true
   },
@@ -772,10 +768,6 @@
     "report": true
   },
   {
-    "line": "Aledar: Finally, time for us to use these weapons we got!",
-    "report": true
-  },
-  {
     "line": "Aledar: Ha ha. Very",
     "report": true
   },
@@ -849,10 +841,6 @@
   },
   {
     "line": "Aledar: soldier, good news. I'm basically as recovered as I think I'll get.",
-    "report": true
-  },
-  {
-    "line": "Aledar: soldier, why don't you do the honours? Go ahead and open that gate.",
     "report": true
   },
   {
@@ -11952,10 +11940,6 @@
     "report": true
   },
   {
-    "line": "Tasim: Here, why don't you try it out? Use your Content Book, and click on the highlighted quest.",
-    "report": true
-  },
-  {
     "line": "Tasim: Here we go.",
     "report": true
   },
@@ -11968,7 +11952,7 @@
     "report": true
   },
   {
-    "line": "Tasim: Hm? What's that guard doing here? We should probably talk to them if we want to pass through.",
+    "line": "Tasim: Hm",
     "report": true
   },
   {
@@ -12164,15 +12148,7 @@
     "report": true
   },
   {
-    "line": "Tasim: So! Wynn, huh? It's pretty exciting to finally be here.",
-    "report": true
-  },
-  {
     "line": "Tasim: So, doctor. You're certain this is safe? Reynauld warned me that-",
-    "report": true
-  },
-  {
-    "line": "Tasim: So, this is the gate marking the border between Wynn and Fruma?",
     "report": true
   },
   {
@@ -12193,10 +12169,6 @@
   },
   {
     "line": "Tasim: So you can imagine my shock, when I opened the door and saw... him. Soaking wet from the rain!",
-    "report": true
-  },
-  {
-    "line": "Tasim: Still think those corrupted don't stand a chance against you?",
     "report": true
   },
   {
@@ -12260,10 +12232,6 @@
     "report": true
   },
   {
-    "line": "Tasim: Use your Content Book, and click on the highlighted quest.",
-    "report": true
-  },
-  {
     "line": "Tasim: Wait, what? Hey, are you seriously not going to-",
     "report": true
   },
@@ -12309,10 +12277,6 @@
   },
   {
     "line": "Tasim: Yeah, that was probably the best meal I've had in a long time... Really tired me out. Can't wait for a long and good rest.",
-    "report": true
-  },
-  {
-    "line": "Tasim: Yes, yes, we'll be faster next time.",
     "report": true
   },
   {
@@ -13339,6 +13303,11 @@
     "fallOff": 45
   },
   {
+    "line": "???: Hey, soldier! Are you alright in there? It looks like we've hit something.",
+    "file": "kingsrecruit-tasim-1",
+    "fallOff": 45
+  },
+  {
     "line": "Caravan Driver: Hm... I swear I hit this same darn boulder every time I make this trip. Sorry folks.",
     "file": "kingsrecruit-caravandriver-2"
   },
@@ -13387,11 +13356,23 @@
     "file": "kingsrecruit-tasim-9"
   },
   {
+    "line": "Tasim: Yes, yes, we'll be faster next time.",
+    "file": "kingsrecruit-tasim-45"
+  },
+  {
+    "line": "Tasim: So, this is the gate marking the border between Wynn and Fruma?",
+    "file": "kingsrecruit-tasim-46"
+  },
+  {
     "line": "Aledar: Looks like it, yep! Are you two ready for the start of our new lives?",
     "file": "kingsrecruit-aledar-3"
   },
   {
     "line": "Aledar: soldier, why don't you do the honors? Go ahead and open that gate.",
+    "file": "kingsrecruit-aledar-4"
+  },
+  {
+    "line": "Aledar: soldier, why don't you do the honours? Go ahead and open that gate.",
     "file": "kingsrecruit-aledar-4"
   },
   {
@@ -13507,6 +13488,10 @@
     "file": "kingsrecruit-tasim-21"
   },
   {
+    "line": "Tasim: Hm? What's that guard doing here? We should probably talk to them if we want to pass through.",
+    "file": "kingsrecruit-tasim-21"
+  },
+  {
     "line": "Guard: Halt, recruits!",
     "file": "kingsrecruit-guard-1"
   },
@@ -13603,6 +13588,10 @@
     "file": "kingsrecruit-aledar-21"
   },
   {
+    "line": "Aledar: Finally, time for us to use these weapons we got!",
+    "file": "kingsrecruit-aledar-31"
+  },
+  {
     "line": "Aledar: soldier, you take the skeleton in the front. We'll handle the two zombies in the back!",
     "file": "kingsrecruit-aledar-22"
   },
@@ -13680,6 +13669,10 @@
   },
   {
     "line": "Tasim: ... Still think those corrupted don't stand a chance against you?",
+    "file": "kingsrecruit-tasim-31"
+  },
+  {
+    "line": "Tasim: Still think those corrupted don't stand a chance against you?",
     "file": "kingsrecruit-tasim-31"
   },
   {
@@ -13789,12 +13782,24 @@
     "file": "kingsrecruit-tasim-41"
   },
   {
+    "line": "Tasim: So! Wynn, huh? It's pretty exciting to finally be here.",
+    "file": "kingsrecruit-tasim-47"
+  },
+  {
     "line": "Tasim: There's this handy item we were all given on our way here- the Content Book. It displays most things you can do in this world- quests, caves, and more.",
     "file": "kingsrecruit-tasim-42"
   },
   {
     "line": "Tasim: It also lets you track any content you want, which will create a beacon you can follow. Here, why don't you try it out? Use your content book, and click on the highlighted quest.",
     "file": "kingsrecruit-tasim-43"
+  },
+  {
+    "line": "Tasim: Here, why don't you try it out? Use your Content Book, and click on the highlighted quest.",
+    "file": "kingsrecruit-tasim-48"
+  },
+  {
+    "line": "Tasim: Use your Content Book, and click on the highlighted quest.",
+    "file": "kingsrecruit-tasim-49"
   },
   {
     "line": "Tasim: Well, there you go! I'm going to head to the end of the Emerald Trail, to the entrance of Nivla Woods. You should meet me there once you've gotten a little stronger.",
