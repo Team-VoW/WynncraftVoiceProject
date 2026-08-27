@@ -57,10 +57,15 @@ public class SoundsHandler {
     });
 
     public SoundsHandler() {
+        this(true);
+    }
+
+    /** Test-only constructor that builds an empty handler without starting a background reload. */
+    SoundsHandler(boolean reloadOnConstruction) {
         gson = new GsonBuilder()
                 .registerTypeAdapter(Reverb.class, new ReverbDeserializer())
                 .create();
-        reload();
+        if (reloadOnConstruction) reload();
     }
 
     /**
@@ -117,12 +122,14 @@ public class SoundsHandler {
         return tree != null ? Collections.unmodifiableMap(tree) : Map.of();
     }
 
-    private void loadSoundsFromJson(InputStream inputStream) {
+    void loadSoundsFromJson(InputStream inputStream) {
         try (InputStreamReader reader = new InputStreamReader(inputStream)) {
             Type dialogueListType = new TypeToken<List<DialogueData>>() {}.getType();
             List<DialogueData> dialogues = gson.fromJson(reader, dialogueListType);
 
             HashMap<String, SoundObject> loaded = new HashMap<>();
+            int duplicateKeys = 0;
+            int voicedEntriesProtected = 0;
             for (DialogueData dialogue : dialogues) {
                 String message = dialogue.getDialogueLine();
                 String fileName = dialogue.getFile();
@@ -133,20 +140,41 @@ public class SoundsHandler {
                 Reverb environment = dialogue.getReverb();
                 boolean stopSounds = dialogue.shouldStopSounds();
                 boolean queued = dialogue.shouldQueue();
+                boolean report = dialogue.shouldReport();
 
                 LineData lineData = formatToLineData(message);
                 message = lineData.getSoundLine();
-                loaded.put(
-                        message,
-                        new SoundObject(
-                                lineData.getNPCName(),
-                                fileName,
-                                movingSound,
-                                position,
-                                fallOff,
-                                stopSounds,
-                                queued,
-                                environment));
+                SoundObject sound = new SoundObject(
+                        lineData.getNPCName(),
+                        fileName,
+                        movingSound,
+                        position,
+                        fallOff,
+                        stopSounds,
+                        queued,
+                        report,
+                        environment);
+
+                SoundObject existing = loaded.get(message);
+                if (existing != null) {
+                    duplicateKeys++;
+                    if (existing.getId() != null && sound.getId() == null) {
+                        // A silent blocker must never erase real audio merely because it appears
+                        // later in the JSON file.
+                        voicedEntriesProtected++;
+                        continue;
+                    }
+                    if (existing.getId() == null && sound.getId() != null) {
+                        voicedEntriesProtected++;
+                    }
+                }
+                loaded.put(message, sound);
+            }
+            if (duplicateKeys > 0) {
+                ModCore.LOGGER.warn(
+                        "[Voices of Wynn] sounds.json contains {} duplicate normalized keys; protected {} voiced entries",
+                        duplicateKeys,
+                        voicedEntriesProtected);
             }
             soundsTree = new TreeMap<>(loaded);
         } catch (IOException e) {

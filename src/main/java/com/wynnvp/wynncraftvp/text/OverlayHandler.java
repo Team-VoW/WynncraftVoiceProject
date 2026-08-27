@@ -6,6 +6,7 @@ package com.wynnvp.wynncraftvp.text;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.logging.VowLogger;
+import com.wynnvp.wynncraftvp.sound.SoundObject;
 import com.wynnvp.wynncraftvp.utils.LineFormatter;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.ArrayList;
@@ -285,7 +286,10 @@ public final class OverlayHandler implements OverlayDialogueListener {
         String key = match.get().getKey();
         if (key.equals(excludeKey)) return null;
 
-        ModCore.instance.soundPlayer.playFromObject(match.get().getValue());
+        SoundObject sound = match.get().getValue();
+        if (!sound.canEarlyPlay()) return null;
+
+        ModCore.instance.soundPlayer.playFromObject(sound);
         return key;
     }
 
