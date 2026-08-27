@@ -31,6 +31,9 @@ public class DialogueData {
      */
     private boolean queue = false;
 
+    /** Silent early-match blocker that should still be sent to the missing-line reporter. */
+    private boolean report = false;
+
     public void setDialogueLine(String dialogueLine) {
         this.line = dialogueLine;
     }
@@ -101,5 +104,13 @@ public class DialogueData {
 
     public void setQueue(boolean queue) {
         this.queue = queue;
+    }
+
+    public boolean shouldReport() {
+        return report;
+    }
+
+    public void setReport(boolean report) {
+        this.report = report;
     }
 }

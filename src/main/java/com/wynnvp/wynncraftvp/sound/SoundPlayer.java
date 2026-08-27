@@ -13,6 +13,7 @@ import com.wynnvp.wynncraftvp.sound.line.LineReporter;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import java.util.ArrayDeque;
+import java.util.Optional;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.Vec3;
 
@@ -76,11 +77,19 @@ public class SoundPlayer {
 
     private boolean canPlaySound(SoundsHandler soundsHandler, LineData lineData) {
         String line = lineData.getSoundLine();
+        Optional<SoundObject> matched = soundsHandler.get(line);
 
-        if (soundsHandler.get(line).isEmpty()) {
+        if (matched.isEmpty()) {
             if (config.isLogDialogueLines()) VowLogger.logLine(lineData.getRealLine());
             lineReporter.MissingLine(lineData);
             return false;
+        }
+        if (matched.get().shouldReport()) {
+            if (config.isLogDialogueLines()) VowLogger.logLine(lineData.getRealLine());
+            lineReporter.MissingLine(lineData);
+            // The generated blockers are intentionally silent. Keeping this conditional makes the
+            // flag safe on a voiced entry too: it can be audited while its audio still plays.
+            return matched.get().getId() != null;
         }
         return true;
     }

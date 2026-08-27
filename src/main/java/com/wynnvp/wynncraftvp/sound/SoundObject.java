@@ -15,6 +15,7 @@ public class SoundObject {
     private final int fallOff;
     private final boolean stopSounds;
     private final boolean queued;
+    private final boolean report;
     private final Reverb reverb;
 
     public SoundObject(
@@ -26,6 +27,19 @@ public class SoundObject {
             boolean stopSounds,
             boolean queued,
             Reverb reverb) {
+        this(npcName, id, movingSound, position, fallOff, stopSounds, queued, false, reverb);
+    }
+
+    public SoundObject(
+            String npcName,
+            String id,
+            boolean movingSound,
+            Vec3 position,
+            int fallOff,
+            boolean stopSounds,
+            boolean queued,
+            boolean report,
+            Reverb reverb) {
         this.fallOff = fallOff;
         this.position = position;
         this.npcName = npcName;
@@ -33,6 +47,7 @@ public class SoundObject {
         this.movingSound = movingSound;
         this.stopSounds = stopSounds;
         this.queued = queued;
+        this.report = report;
         this.reverb = reverb;
     }
 
@@ -74,6 +89,16 @@ public class SoundObject {
      */
     public boolean shouldQueue() {
         return queued;
+    }
+
+    /** Whether this registered line remains eligible for missing-line reports. */
+    public boolean shouldReport() {
+        return report;
+    }
+
+    /** Reporting blockers affect prefix ambiguity but must not count as early playback. */
+    public boolean canEarlyPlay() {
+        return !report;
     }
 
     public Reverb getReverb() {
