@@ -101414,5 +101414,1853 @@
   {
     "line": "Effal: But hey, we're on the same side, so let's both keep fighting out there! For the King!",
     "file": "thestrongsurvive-effal-80"
+  },
+  {
+    "line": "Aldwell Guard: Welcome to the Festival of the Wicker!",
+    "file": "celebrationsinsmoke-aldwellguard-1"
+  },
+  {
+    "line": "Aldwell Guard: May I see your medallion?",
+    "file": "celebrationsinsmoke-aldwellguard-2"
+  },
+  {
+    "line": "Aldwell Guard: Thank you, enjoy the festival! You can grab a mask inside.",
+    "file": "celebrationsinsmoke-aldwellguard-3"
+  },
+  {
+    "line": "Aldwell Guard: Than you cannot be trusted. Leave.",
+    "file": "celebrationsinsmoke-aldwellguard-4"
+  },
+  {
+    "line": "Aldwell Guard: We can't let you in without seeing your medallion!",
+    "file": "celebrationsinsmoke-aldwellguard-5"
+  },
+  {
+    "line": "Aldwell Guard: Once you get inside, make sure to put your mask on.",
+    "file": "celebrationsinsmoke-aldwellguard-6"
+  },
+  {
+    "line": "Aldwell Guard: I hope you're enjoying the festival!",
+    "file": "celebrationsinsmoke-aldwellguard-7"
+  },
+  {
+    "line": "Aldwell Guard: Really? Where?",
+    "file": "celebrationsinsmoke-aldwellguard-8"
+  },
+  {
+    "line": "Aldwell Guard: Oh! Thank you so much.",
+    "file": "celebrationsinsmoke-aldwellguard-9"
+  },
+  {
+    "line": "Aldwell Guard: I don't know how, but this alley must have slipped through our planning.",
+    "file": "celebrationsinsmoke-aldwellguard-10"
+  },
+  {
+    "line": "Aldwell Guard: I'll stand here for now to make sure no one can get in.",
+    "file": "celebrationsinsmoke-aldwellguard-11"
+  },
+  {
+    "line": "Aldwell Guard: I'm so grateful you warned us before anyone bad might have noticed it.",
+    "file": "celebrationsinsmoke-aldwellguard-12"
+  },
+  {
+    "line": "Aldwell Guard: Thank you so much for exposing that gap in our security!",
+    "file": "celebrationsinsmoke-aldwellguard-13"
+  },
+  {
+    "line": "Aldwell Guard: Hmm... neither of us have seen anyone carrying something that smells like that in.",
+    "file": "celebrationsinsmoke-aldwellguard-14"
+  },
+  {
+    "line": "Aldwell Guard: It would have had to have already been in Aldwell or they would have had to have arrived even before us.",
+    "file": "celebrationsinsmoke-aldwellguard-15"
+  },
+  {
+    "line": "Stall Attendant: Welcome to Festival of the Wicker's premier food stall!",
+    "file": "celebrationsinsmoke-foodstallmerchant-1"
+  },
+  {
+    "line": "Stall Attendant: What can I get you?",
+    "file": "celebrationsinsmoke-foodstallmerchant-2"
+  },
+  {
+    "line": "Stall Attendant: Enjoy your rabbit roast!",
+    "file": "celebrationsinsmoke-foodstallmerchant-3"
+  },
+  {
+    "line": "Stall Attendant: Anything else?",
+    "file": "celebrationsinsmoke-foodstallmerchant-4"
+  },
+  {
+    "line": "Stall Attendant: Enjoy your green tea!",
+    "file": "celebrationsinsmoke-foodstallmerchant-5"
+  },
+  {
+    "line": "Stall Attendant: Enjoy your fortune cookie!",
+    "file": "celebrationsinsmoke-foodstallmerchant-6"
+  },
+  {
+    "line": "Stall Attendant: Have a nice day.",
+    "file": "celebrationsinsmoke-foodstallmerchant-7"
+  },
+  {
+    "line": "Stall Attendant: Let me look at that more closely.",
+    "file": "celebrationsinsmoke-foodstallmerchant-8"
+  },
+  {
+    "line": "Stall Attendant: No, I don't. The residue smells far more pungent than any drink I recognize.",
+    "file": "celebrationsinsmoke-foodstallmerchant-9"
+  },
+  {
+    "line": "Stall Attendant: If you found it here, you could try asking around the festival to see if anyone else recognizes it.",
+    "file": "celebrationsinsmoke-foodstallmerchant-10"
+  },
+  {
+    "line": "Festival Attendee: The festival is a great time to hang out with friends, away from anyone who might want to intrude on us.",
+    "file": "celebrationsinsmoke-securitymember-1"
+  },
+  {
+    "line": "Festival Attendee: No. And we're in the middle of a conversation, please don't interrupt us.",
+    "file": "celebrationsinsmoke-securitymember-2"
+  },
+  {
+    "line": "Festival Attendee: Be careful what accusations you throw around.",
+    "file": "celebrationsinsmoke-securitymember-3"
+  },
+  {
+    "line": "Festival Attendee: Not everyone has their guard down around this festival for those who stick their noses where they don't belong.",
+    "file": "celebrationsinsmoke-securitymember-4"
+  },
+  {
+    "line": "Stall Attendant: Come to redeem your tokens?",
+    "file": "celebrationsinsmoke-rewardsstallmerchant-1"
+  },
+  {
+    "line": "Stall Attendant: Make sure you do before the festival ends!",
+    "file": "celebrationsinsmoke-rewardsstallmerchant-2"
+  },
+  {
+    "line": "Stall Attendant: What would you like to buy?",
+    "file": "celebrationsinsmoke-rewardsstallmerchant-3"
+  },
+  {
+    "line": "Stall Attendant: I'm afraid you can't afford that.",
+    "file": "celebrationsinsmoke-rewardsstallmerchant-4"
+  },
+  {
+    "line": "Stall Attendant: How many would you like to buy?",
+    "file": "celebrationsinsmoke-rewardsstallmerchant-5"
+  },
+  {
+    "line": "Stall Attendant: You can come get some at any time during the festival.",
+    "file": "celebrationsinsmoke-rewardsstallmerchant-6"
+  },
+  {
+    "line": "Stall Attendant: There is your token, enjoy the festival!",
+    "file": "celebrationsinsmoke-rewardsstallmerchant-7"
+  },
+  {
+    "line": "Stall Attendant: There are your tokens, enjoy the festival!",
+    "file": "celebrationsinsmoke-rewardsstallmerchant-8"
+  },
+  {
+    "line": "Stall Attendant: A broken bottle? It looks kind of like the ones we use for our Bottles of Mist, but the smell is totally different.",
+    "file": "celebrationsinsmoke-rewardsstallmerchant-9"
+  },
+  {
+    "line": "Festival Attendee: It's the festival again! And you know what that means...",
+    "file": "celebrationsinsmoke-greenteaenthusiast-1"
+  },
+  {
+    "line": "Festival Attendee: Green tea!!! I never know how to get this stuff outside the festival.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-2"
+  },
+  {
+    "line": "Festival Attendee: I'm going to spend all night standing right here, drinking as much of it as I can!",
+    "file": "celebrationsinsmoke-greenteaenthusiast-3"
+  },
+  {
+    "line": "Festival Attendee: No, do you know one?!",
+    "file": "celebrationsinsmoke-greenteaenthusiast-4"
+  },
+  {
+    "line": "Festival Attendee: Please, tell me, I would love to know. I've been searching for one for years.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-5"
+  },
+  {
+    "line": "Festival Attendee: The closest I got was some odd tent in the woods east of Aldwell with a box of the stuff, but that just a scavenger's tent.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-6"
+  },
+  {
+    "line": "Festival Attendee: I wish the Kalkalrah clan wouldn't keep the secret so well hidden.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-7"
+  },
+  {
+    "line": "Festival Attendee: No, of course not. They keep it a secret, hoarding it up all year, so they can charge us extra during the festival.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-8"
+  },
+  {
+    "line": "Festival Attendee: They do all this under the guise of it being \"mystical\" and \"only suited for ceremonial occasions like this,\" but everyone sees through their sales techniques.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-9"
+  },
+  {
+    "line": "Festival Attendee: ... not that it stops me from buying every bottle I can get my hands on. It feels amazing.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-10"
+  },
+  {
+    "line": "Festival Attendee: Okay, you have to be holding out on me.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-11"
+  },
+  {
+    "line": "Festival Attendee: Come on, give me the name. What do you want, emeralds? Information? I'll give it to you, just tell me where I can find a year round green tea merchant.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-12"
+  },
+  {
+    "line": "Festival Attendee: What are you wasting my time for then?",
+    "file": "celebrationsinsmoke-greenteaenthusiast-13"
+  },
+  {
+    "line": "Festival Attendee: If you get any leads on that tea trader, make sure to let me know right away.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-14"
+  },
+  {
+    "line": "Festival Attendee: Well, I can tell you it's not definitely not green tea. Not sure beyond that.",
+    "file": "celebrationsinsmoke-greenteaenthusiast-15"
+  },
+  {
+    "line": "Stall Attendant: The rules are simple: you pick the fox you think will win a race around the wickerman and back.",
+    "file": "celebrationsinsmoke-foxracingattendant-1"
+  },
+  {
+    "line": "Stall Attendant: Costs 5 tokens to enter, you get your tokens back if your pick is 2nd, double it if it gets first.",
+    "file": "celebrationsinsmoke-foxracingattendant-2"
+  },
+  {
+    "line": "Stall Attendant: I'll give you a banner you can use to cheer your fox on. It should be helpful, although sometimes they can get a bit overwhelmed.",
+    "file": "celebrationsinsmoke-foxracingattendant-3"
+  },
+  {
+    "line": "Stall Attendant: Best of luck if you do choose to play!",
+    "file": "celebrationsinsmoke-foxracingattendant-4"
+  },
+  {
+    "line": "Stall Attendant: Do you want to watch the next round of fox races?",
+    "file": "celebrationsinsmoke-foxracingattendant-5"
+  },
+  {
+    "line": "Stall Attendant: We'll be holding more races all night if you change your mind!",
+    "file": "celebrationsinsmoke-foxracingattendant-6"
+  },
+  {
+    "line": "Stall Attendant: I'm afraid you don't have enough tokens to watch a fox race.",
+    "file": "celebrationsinsmoke-foxracingattendant-7"
+  },
+  {
+    "line": "Stall Attendant: If you need more, you can buy some at the Reward Merchant to the east.",
+    "file": "celebrationsinsmoke-foxracingattendant-8"
+  },
+  {
+    "line": "Stall Attendant: Get ready then, because they're ready to go!",
+    "file": "celebrationsinsmoke-foxracingattendant-9"
+  },
+  {
+    "line": "Stall Attendant: May the best fox win!",
+    "file": "celebrationsinsmoke-foxracingattendant-10"
+  },
+  {
+    "line": "Stall Attendant: Wow! Your support for your fox was really impressive.",
+    "file": "celebrationsinsmoke-foxracingattendant-11"
+  },
+  {
+    "line": "Stall Attendant: You've easily earned these tokens. Enjoy!",
+    "file": "celebrationsinsmoke-foxracingattendant-12"
+  },
+  {
+    "line": "Stall Attendant: Aww, it looks like your fox didn't manage to pull off a win.",
+    "file": "celebrationsinsmoke-foxracingattendant-13"
+  },
+  {
+    "line": "Stall Attendant: Maybe one of you needs to put in a bit more effort next time?",
+    "file": "celebrationsinsmoke-foxracingattendant-14"
+  },
+  {
+    "line": "Stall Attendant: I don't recognize it. Would you mind putting it away though? The smell appears to be bothering a couple of the foxes.",
+    "file": "celebrationsinsmoke-foxracingattendant-15"
+  },
+  {
+    "line": "Racing Expert: Hmm, in the last race, blue looked like it was going to...",
+    "file": "celebrationsinsmoke-racingexpert-1"
+  },
+  {
+    "line": "Racing Expert: Oh, hi. Don't worry about me, I'm just analyzing the performances of the last few races.",
+    "file": "celebrationsinsmoke-racingexpert-2"
+  },
+  {
+    "line": "Racing Expert: It's nothing you'd be able to understand anyway, so don't worry about it.",
+    "file": "celebrationsinsmoke-racingexpert-3"
+  },
+  {
+    "line": "Racing Expert: Hmm... maybe.",
+    "file": "celebrationsinsmoke-racingexpert-4"
+  },
+  {
+    "line": "Racing Expert: But they paid me pretty good not to say!",
+    "file": "celebrationsinsmoke-racingexpert-5"
+  },
+  {
+    "line": "Racing Expert: The only way I would is if I were to really be impressed by someone.",
+    "file": "celebrationsinsmoke-racingexpert-6"
+  },
+  {
+    "line": "Racing Expert: You're on.",
+    "file": "celebrationsinsmoke-racingexpert-7"
+  },
+  {
+    "line": "Racing Expert: Ha! I knew you couldn't do it.",
+    "file": "celebrationsinsmoke-racingexpert-8"
+  },
+  {
+    "line": "Racing Expert: No hard feelings, nobody can expect to beat me at fox racing though.",
+    "file": "celebrationsinsmoke-racingexpert-9"
+  },
+  {
+    "line": "Racing Expert: Of course, if you want to try again, you're free to. Just don't be surprised when you get the same result.",
+    "file": "celebrationsinsmoke-racingexpert-10"
+  },
+  {
+    "line": "Racing Expert: Alright, let's go again then!",
+    "file": "celebrationsinsmoke-racingexpert-11"
+  },
+  {
+    "line": "Racing Expert: You won!? I-I-I've never been beaten!",
+    "file": "celebrationsinsmoke-racingexpert-12"
+  },
+  {
+    "line": "Racing Expert: I don't even know how that's possible, you looked like you were just picking randomly!",
+    "file": "celebrationsinsmoke-racingexpert-13"
+  },
+  {
+    "line": "Racing Expert: Well, fair is fair. You gave me a good show, I'll tell you what I know.",
+    "file": "celebrationsinsmoke-racingexpert-14"
+  },
+  {
+    "line": "Racing Expert: It's really not that big of a deal, I'm not sure why they paid me to stay quiet about it.",
+    "file": "celebrationsinsmoke-racingexpert-15"
+  },
+  {
+    "line": "Racing Expert: While studying the foxes before the races started, I caught some members of the Kalkalrah clan bringing in bottles like those.",
+    "file": "celebrationsinsmoke-racingexpert-16"
+  },
+  {
+    "line": "Racing Expert: I thought they were just green tea, but clearly they're not!",
+    "file": "celebrationsinsmoke-racingexpert-17"
+  },
+  {
+    "line": "Racing Expert: I'm not positive where they are now, but I think I saw them head up the zipline to the second floor of Aldwell?",
+    "file": "celebrationsinsmoke-racingexpert-18"
+  },
+  {
+    "line": "Racing Expert: And if you'd teach me your racing technique at some point, I'd really appreciate it!",
+    "file": "celebrationsinsmoke-racingexpert-19"
+  },
+  {
+    "line": "Festival Attendee: Isn't it nice to see kids having fun?",
+    "file": "celebrationsinsmoke-concernedmother-1"
+  },
+  {
+    "line": "Festival Attendee: I try to lighten his life when I can, but it's so hard to some days.",
+    "file": "celebrationsinsmoke-concernedmother-2"
+  },
+  {
+    "line": "Festival Attendee: That's why I love the festival. Makes my job easier!",
+    "file": "celebrationsinsmoke-concernedmother-3"
+  },
+  {
+    "line": "Festival Attendee: He can entertain himself, I can watch for danger.",
+    "file": "celebrationsinsmoke-concernedmother-4"
+  },
+  {
+    "line": "Festival Attendee: Nothing obviously dangerous, but I always keep in mind.",
+    "file": "celebrationsinsmoke-concernedmother-5"
+  },
+  {
+    "line": "Festival Attendee: I did see something very odd a few hours ago though. By the entrance to Aldwell, it looked like someone hopped over the fence.",
+    "file": "celebrationsinsmoke-concernedmother-6"
+  },
+  {
+    "line": "Festival Attendee: It might have been a trick of the light, but I think I saw them change clothes and shove something under the bridge.",
+    "file": "celebrationsinsmoke-concernedmother-7"
+  },
+  {
+    "line": "Festival Attendee: Those might just be the ramblings of a worried old parent though!",
+    "file": "celebrationsinsmoke-concernedmother-8"
+  },
+  {
+    "line": "Festival Attendee: That smell... I don't recognize it, I'm afraid. It certainly doesn't smell safe!",
+    "file": "celebrationsinsmoke-concernedmother-9"
+  },
+  {
+    "line": "Excited Child: I love when the festival finally comes around again!",
+    "file": "celebrationsinsmoke-excitedchild-1"
+  },
+  {
+    "line": "Festival Attendee: I love being a part of the Kalkalrah clan, but at times like this it's nice to have the chance to be alone.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-1"
+  },
+  {
+    "line": "Festival Attendee: Staring across the pond, enjoying the festival, surrounded by people I love.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-2"
+  },
+  {
+    "line": "Festival Attendee: It's a sort of quiet, safe calm. One unlike the rest of the year.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-3"
+  },
+  {
+    "line": "Festival Attendee: The festival is a great time to hang out with friends, away from anyone who might want to intrude on us.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-4"
+  },
+  {
+    "line": "Festival Attendee: Hmm? Ah. Yes, unfortunately I do.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-5"
+  },
+  {
+    "line": "Festival Attendee: They were a member of our clan until a week ago, when they were expelled and exiled.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-6"
+  },
+  {
+    "line": "Festival Attendee: Their old medallion was handed to me to burn. In fact, just on my way into the festival I threw its ashes up the tallest tree in Aldwell.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-7"
+  },
+  {
+    "line": "Festival Attendee: Interrogated them? Oh, I hope they haven't done anything bad.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-8"
+  },
+  {
+    "line": "Festival Attendee: You know, they were always a bit troubled. But I don't think they're bad. They just weren't suited for clan life.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-9"
+  },
+  {
+    "line": "Festival Attendee: Not... communal enough.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-10"
+  },
+  {
+    "line": "Festival Attendee: The fate they were given will be a hard one though. Most exiles don't survive a year.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-11"
+  },
+  {
+    "line": "Festival Attendee: Not as much as I wish you could. Please treat them with kindness though, they only lie out of fear.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-12"
+  },
+  {
+    "line": "Festival Attendee: I do not mean to be rude, but you cut an imposing figure. There's a lot to be afraid of.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-13"
+  },
+  {
+    "line": "Festival Attendee: I hope they stay well, even if they are troubled.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-14"
+  },
+  {
+    "line": "Festival Attendee: Hmm. I don't recall.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-15"
+  },
+  {
+    "line": "Festival Attendee: It's vaguely familiar to me, but I'm sorry to say I can't place where from.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-16"
+  },
+  {
+    "line": "Festival Attendee: Whatever it is though, I certainly didn't bring it here.",
+    "file": "celebrationsinsmoke-kalkalrahclanmember-17"
+  },
+  {
+    "line": "Elderly Woman: Oh, it's so kind of you to come and see me.",
+    "file": "celebrationsinsmoke-elderlywoman-1"
+  },
+  {
+    "line": "Elderly Woman: I'm much too weak to ride the ziplines around town much anymore so I appreciate any company I can get.",
+    "file": "celebrationsinsmoke-elderlywoman-2"
+  },
+  {
+    "line": "Elderly Woman: Even so, I love getting to sit on my porch and look down at all the happy people around this time of year.",
+    "file": "celebrationsinsmoke-elderlywoman-3"
+  },
+  {
+    "line": "Elderly Woman: That bottle? Absolutely not, that smell is much more than what this old body could take.",
+    "file": "celebrationsinsmoke-elderlywoman-4"
+  },
+  {
+    "line": "Elderly Woman: Give me that, let me look at what you were showing them more closely.",
+    "file": "celebrationsinsmoke-elderlywoman-5"
+  },
+  {
+    "line": "Elderly Woman: Ahhh, yes, you know something about that group, don't you?",
+    "file": "celebrationsinsmoke-elderlywoman-6"
+  },
+  {
+    "line": "Elderly Woman: You don't need to tell me, I know as much as you do and more.",
+    "file": "celebrationsinsmoke-elderlywoman-7"
+  },
+  {
+    "line": "Elderly Woman: It's been many years since I was able to freely move about the city, my old age imprisoning me in my home.",
+    "file": "celebrationsinsmoke-elderlywoman-8"
+  },
+  {
+    "line": "Elderly Woman: But I can still sit and watch the scurrying people below. I can see what they all do when they think nobody is watching.",
+    "file": "celebrationsinsmoke-elderlywoman-9"
+  },
+  {
+    "line": "Elderly Woman: It's a sort of power. A way to keep myself grounded, hanging here in the canopy.",
+    "file": "celebrationsinsmoke-elderlywoman-10"
+  },
+  {
+    "line": "Elderly Woman: I watched you scramble to extinguish the fire and I watched what that group did after the flame was lit.",
+    "file": "celebrationsinsmoke-elderlywoman-11"
+  },
+  {
+    "line": "Elderly Woman: I watched as those three outsiders were corralled into custody.",
+    "file": "celebrationsinsmoke-elderlywoman-12"
+  },
+  {
+    "line": "Elderly Woman: However, I cannot hear the details. I do not know the specifics.",
+    "file": "celebrationsinsmoke-elderlywoman-13"
+  },
+  {
+    "line": "Elderly Woman: Tell me what your suspects have done and what you have found. Then, I will give you what you seek.",
+    "file": "celebrationsinsmoke-elderlywoman-14"
+  },
+  {
+    "line": "Elderly Woman: A bunch of lying outsiders then. To be expected, it's a pity you can't say they all did it.",
+    "file": "celebrationsinsmoke-elderlywoman-15"
+  },
+  {
+    "line": "Elderly Woman: As for that clique, I suspect they're secretly security for the festival.",
+    "file": "celebrationsinsmoke-elderlywoman-16"
+  },
+  {
+    "line": "Elderly Woman: I didn't see who lit the flame, but moments after it was lit, one of them threw a bottle just like the one you're holding at it.",
+    "file": "celebrationsinsmoke-elderlywoman-17"
+  },
+  {
+    "line": "Elderly Woman: It must have been filled with fuel, because after it hit the flame grew much larger.",
+    "file": "celebrationsinsmoke-elderlywoman-18"
+  },
+  {
+    "line": "Elderly Woman: Probably for the best, you never know what vermin you can roast if you're not afraid to burn the bush.",
+    "file": "celebrationsinsmoke-elderlywoman-19"
+  },
+  {
+    "line": "Elderly Woman: If you will entertain an old woman, then I have no use for you. Quit blocking my view.",
+    "file": "celebrationsinsmoke-elderlywoman-20"
+  },
+  {
+    "line": "Elderly Woman: My investigator has returned. Now, tell me what you know.",
+    "file": "celebrationsinsmoke-elderlywoman-21"
+  },
+  {
+    "line": "Festival Attendee: H-hi. I, um, hope you're having as good a time as I am.",
+    "file": "celebrationsinsmoke-arris-1"
+  },
+  {
+    "line": "Festival Attendee: Hello.",
+    "file": "celebrationsinsmoke-burick-1"
+  },
+  {
+    "line": "Festival Organizer: Welcome to the festival!",
+    "file": "celebrationsinsmoke-festivalorganizer-1"
+  },
+  {
+    "line": "Festival Organizer: It's a lot of work to put on, but it's always worth it to see everyone together.",
+    "file": "celebrationsinsmoke-festivalorganizer-2"
+  },
+  {
+    "line": "Festival Organizer: This is the only time of year a lot of us get to relax, we have to take what we can get.",
+    "file": "celebrationsinsmoke-festivalorganizer-3"
+  },
+  {
+    "line": "Festival Organizer: Hm... do you hear that? That crackling... and that smell... is that...?",
+    "file": "celebrationsinsmoke-festivalorganizer-4"
+  },
+  {
+    "line": "Festival Organizer: Smoke? Flames?!",
+    "file": "celebrationsinsmoke-festivalorganizer-5"
+  },
+  {
+    "line": "Festival Organizer: Quick! Somebody run to the pond to get some water and put out the fire!",
+    "file": "celebrationsinsmoke-festivalorganizer-6"
+  },
+  {
+    "line": "Festival Organizer: Thank you so much for your quick action. I hope you don't mind, but I'll need some more help.",
+    "file": "celebrationsinsmoke-festivalorganizer-7"
+  },
+  {
+    "line": "Festival Organizer: You three!",
+    "file": "celebrationsinsmoke-festivalorganizer-8"
+  },
+  {
+    "line": "Festival Organizer: Can any of you show me a medallion?",
+    "file": "celebrationsinsmoke-festivalorganizer-9"
+  },
+  {
+    "line": "Festival Organizer: Just as I thought. All of you will be held until we can figure out the truth.",
+    "file": "celebrationsinsmoke-festivalorganizer-10"
+  },
+  {
+    "line": "Festival Organizer: Into that house, all three of you.",
+    "file": "celebrationsinsmoke-festivalorganizer-11"
+  },
+  {
+    "line": "Festival Organizer: There will have to be an investigation into this incident and you're one person I'm positive didn't start the fire.",
+    "file": "celebrationsinsmoke-festivalorganizer-12"
+  },
+  {
+    "line": "Festival Organizer: Please, follow me.",
+    "file": "celebrationsinsmoke-festivalorganizer-13"
+  },
+  {
+    "line": "Festival Organizer: Thank you so much for your help again, without your assistance the festival would have been ruined.",
+    "file": "celebrationsinsmoke-festivalorganizer-14"
+  },
+  {
+    "line": "Festival Organizer: I cannot express my gratitude more effusely, but I'm afraid I must ask more of you.",
+    "file": "celebrationsinsmoke-festivalorganizer-15"
+  },
+  {
+    "line": "Festival Organizer: You see, I do not believe that fire was set by an accident. There's a vandal in our midst and I fear the worst.",
+    "file": "celebrationsinsmoke-festivalorganizer-16"
+  },
+  {
+    "line": "Festival Organizer: Just as generations ago, when our ancestors first exposed and immolated the changeling threat that we are supposed to be celebrating today, we must remain vigilant!",
+    "file": "celebrationsinsmoke-festivalorganizer-17"
+  },
+  {
+    "line": "Festival Organizer: Unfortunately... the festival has always been a time when that vigilance has lapsed a bit. We have an unwelcome attendee.",
+    "file": "celebrationsinsmoke-festivalorganizer-18"
+  },
+  {
+    "line": "Festival Organizer: I suspect that flame was set by a changeling, hoping to use the fire as a distraction to infiltrate the festival. To catch someone off guard and take their form.",
+    "file": "celebrationsinsmoke-festivalorganizer-19"
+  },
+  {
+    "line": "Festival Organizer: Due to your efforts, they were unable to do so. But they could not have gone far.",
+    "file": "celebrationsinsmoke-festivalorganizer-20"
+  },
+  {
+    "line": "Festival Organizer: I rounded up the three people nearest to where the fire ignited and found all of them had snuck in without a medallion!",
+    "file": "celebrationsinsmoke-festivalorganizer-21"
+  },
+  {
+    "line": "Festival Organizer: While I keep them held here... I'd ask of you to interrogate them and, if needed, search around the festival to find information on who they really are.",
+    "file": "celebrationsinsmoke-festivalorganizer-22"
+  },
+  {
+    "line": "Festival Organizer: Once you have unmasked each of them for who they really are, return to me and tell me which one is a changeling in disguise. I can handle matters from there.",
+    "file": "celebrationsinsmoke-festivalorganizer-23"
+  },
+  {
+    "line": "Festival Organizer: Take this book. You can write any notes you take while investigating down to check later.",
+    "file": "celebrationsinsmoke-festivalorganizer-24"
+  },
+  {
+    "line": "Festival Organizer: Once you've investigated all of them, you can return to me.",
+    "file": "celebrationsinsmoke-festivalorganizer-25"
+  },
+  {
+    "line": "Festival Organizer: Please talk to me before interrogating the suspects!",
+    "file": "celebrationsinsmoke-festivalorganizer-26"
+  },
+  {
+    "line": "???: I'm, um, Arris. I don't know what's happening, I got shoved into here by the festival organizer with these other two.",
+    "file": "celebrationsinsmoke-arris-2"
+  },
+  {
+    "line": "Arris: I'm simply an ordinary member of the Kalkalrah clan, I don't know what's happening.",
+    "file": "celebrationsinsmoke-arris-3"
+  },
+  {
+    "line": "Arris: Please don't accuse me of doing whatever you think I did, please.",
+    "file": "celebrationsinsmoke-arris-4"
+  },
+  {
+    "line": "Arris: O-of course.",
+    "file": "celebrationsinsmoke-arris-5"
+  },
+  {
+    "line": "Arris: Alright...",
+    "file": "celebrationsinsmoke-arris-6"
+  },
+  {
+    "line": "Arris: Nothing, I don't think. Or, well, that's not what I meant.",
+    "file": "celebrationsinsmoke-arris-7"
+  },
+  {
+    "line": "Arris: I only, um, do general upkeep. Fixing stuff and cleaning stuff, I mean.",
+    "file": "celebrationsinsmoke-arris-8"
+  },
+  {
+    "line": "Arris: There's not much more to say than that, you know?",
+    "file": "celebrationsinsmoke-arris-9"
+  },
+  {
+    "line": "Arris: I'm nothing more than a helpful member of my clan who assists in the, uh- in the \"making everyone live together with ease\" part of clan life!",
+    "file": "celebrationsinsmoke-arris-10"
+  },
+  {
+    "line": "Arris: That's what I mean by nothing, you see, that's what I meant when I said that.",
+    "file": "celebrationsinsmoke-arris-11"
+  },
+  {
+    "line": "Arris: I don't literally do nothing, obviously, that would be dumb. I have an important role and am, uh, valued by my clan.",
+    "file": "celebrationsinsmoke-arris-12"
+  },
+  {
+    "line": "Arris: But it isn't super important or cool or anything, that's what I meant by nothing.",
+    "file": "celebrationsinsmoke-arris-13"
+  },
+  {
+    "line": "Arris: Oh, that's what you meant. You, um, wanted a specific answer.",
+    "file": "celebrationsinsmoke-arris-14"
+  },
+  {
+    "line": "Arris: Okay. I can give you that.",
+    "file": "celebrationsinsmoke-arris-15"
+  },
+  {
+    "line": "Arris: Like sometimes I will guard things. I will, um, um, stand watch for changelings or thieves or animals!",
+    "file": "celebrationsinsmoke-arris-16"
+  },
+  {
+    "line": "Arris: Or anything trying to steal. We try to stop people from stealing from us.",
+    "file": "celebrationsinsmoke-arris-17"
+  },
+  {
+    "line": "Arris: Oh, sorry, I'm not trying to be.",
+    "file": "celebrationsinsmoke-arris-18"
+  },
+  {
+    "line": "Arris: I'm not, um, sure what's happening. And that makes me a little nervous, can you understand?",
+    "file": "celebrationsinsmoke-arris-19"
+  },
+  {
+    "line": "Arris: All this investigation stuff makes me feel like I did something wrong. And I didn't do anything wrong!",
+    "file": "celebrationsinsmoke-arris-20"
+  },
+  {
+    "line": "Arris: But it's hard to prove that and so I get nervous and stumble over the things I'm saying and misstate what I really mean which only makes it harder!",
+    "file": "celebrationsinsmoke-arris-21"
+  },
+  {
+    "line": "Arris: Sorry. I don't think I'm helping my case.",
+    "file": "celebrationsinsmoke-arris-22"
+  },
+  {
+    "line": "Arris: Um, I'm not sure. Sorry.",
+    "file": "celebrationsinsmoke-arris-23"
+  },
+  {
+    "line": "Arris: I think a little bit? But obviously not as much as this! Like when I'm under interrogation for something I didn't do even though you really seem to think I did.",
+    "file": "celebrationsinsmoke-arris-24"
+  },
+  {
+    "line": "Arris: Well, um, of course you do. You're going to think I committed arson or something and then report me and everything will be horrible.",
+    "file": "celebrationsinsmoke-arris-25"
+  },
+  {
+    "line": "Arris: There's no way you don't think I didn't. Look at how much time you're spending interrogating me compared to everyone else.",
+    "file": "celebrationsinsmoke-arris-26"
+  },
+  {
+    "line": "Arris: Please. Please don't. I didn't do it I promise I didn't do it, please don't think that I did it.",
+    "file": "celebrationsinsmoke-arris-27"
+  },
+  {
+    "line": "Arris: I'm innocent I promise please, I didn't do anything I didn't I swear.",
+    "file": "celebrationsinsmoke-arris-28"
+  },
+  {
+    "line": "Arris: Um, here, let me try.",
+    "file": "celebrationsinsmoke-arris-29"
+  },
+  {
+    "line": "Arris: Hi.",
+    "file": "celebrationsinsmoke-arris-30"
+  },
+  {
+    "line": "Arris: I am.",
+    "file": "celebrationsinsmoke-arris-31"
+  },
+  {
+    "line": "Arris: Not.",
+    "file": "celebrationsinsmoke-arris-32"
+  },
+  {
+    "line": "Arris: Very good.",
+    "file": "celebrationsinsmoke-arris-33"
+  },
+  {
+    "line": "Arris: At this.",
+    "file": "celebrationsinsmoke-arris-34"
+  },
+  {
+    "line": "Arris: Sorry I don't think I'm, uh, cut out for that, sorry.",
+    "file": "celebrationsinsmoke-arris-35"
+  },
+  {
+    "line": "Arris: No,  I don't think- I didn't see.",
+    "file": "celebrationsinsmoke-arris-36"
+  },
+  {
+    "line": "Arris: Maybe I saw some movement out of the corner of my eye? But that could have been nothing.",
+    "file": "celebrationsinsmoke-arris-37"
+  },
+  {
+    "line": "Arris: It's hard to know, I wasn't really paying attention at the time and now you're asking me these questions like I have some sort of, um, picture perfect memory!",
+    "file": "celebrationsinsmoke-arris-38"
+  },
+  {
+    "line": "Arris: Even though I definitely don't! And wasn't even trying to remember what was happening in the first place!",
+    "file": "celebrationsinsmoke-arris-39"
+  },
+  {
+    "line": "Arris: Sorry, I was shouting, wasn't I. I didn't mean to. I'm only stressed. Sorry.",
+    "file": "celebrationsinsmoke-arris-40"
+  },
+  {
+    "line": "Arris: I didn't! I promise I didn't.",
+    "file": "celebrationsinsmoke-arris-41"
+  },
+  {
+    "line": "Arris: Please don't think I tried to, I promise I have no idea what you're talking about.",
+    "file": "celebrationsinsmoke-arris-42"
+  },
+  {
+    "line": "Arris: All that I was doing was sitting there quietly and then all of a sudden behind me there were really big flames and then before I could even act you threw water on them and saved the wickerman and then I was being brought in here even though I",
+    "file": "celebrationsinsmoke-arris-43"
+  },
+  {
+    "line": "Arris: didn't do anything and am just an ordinary clan member and have nothing to hide.",
+    "file": "celebrationsinsmoke-arris-44"
+  },
+  {
+    "line": "Arris: I promise I didn't try to burn down the wickerman.",
+    "file": "celebrationsinsmoke-arris-45"
+  },
+  {
+    "line": "???: Burick. I'm simply a humble green tea trader.",
+    "file": "celebrationsinsmoke-burick-2"
+  },
+  {
+    "line": "Burick: I don't know what happened, I wasn't involved, and that's all I have to say.",
+    "file": "celebrationsinsmoke-burick-3"
+  },
+  {
+    "line": "Burick: That should be enough to go off if you can find someone who buys a lot of green tea. If you want to get more information though, you can continue the interrogation.",
+    "file": "celebrationsinsmoke-burick-4"
+  },
+  {
+    "line": "Burick: Self explanatory, I assumed.",
+    "file": "celebrationsinsmoke-burick-5"
+  },
+  {
+    "line": "Burick: One clan wants to get rid of stuff, while another clan wants to get their hands on it.",
+    "file": "celebrationsinsmoke-burick-6"
+  },
+  {
+    "line": "Burick: The Mistwoods is a big and dangerous place. They need a trader to make it happen.",
+    "file": "celebrationsinsmoke-burick-7"
+  },
+  {
+    "line": "Burick: Yes. Someone has to do it though.",
+    "file": "celebrationsinsmoke-burick-8"
+  },
+  {
+    "line": "Burick: Nope. And neither has anyone else I've spoken to.",
+    "file": "celebrationsinsmoke-burick-9"
+  },
+  {
+    "line": "Burick: I'm not even certain they're real.",
+    "file": "celebrationsinsmoke-burick-10"
+  },
+  {
+    "line": "Burick: Don't mention to anyone else that I said that.",
+    "file": "celebrationsinsmoke-burick-11"
+  },
+  {
+    "line": "Burick: Some people get really upset when you imply that.",
+    "file": "celebrationsinsmoke-burick-12"
+  },
+  {
+    "line": "Burick: The Kalkalrah clan sells it to me. So wherever they get it, I suppose.",
+    "file": "celebrationsinsmoke-burick-13"
+  },
+  {
+    "line": "Burick: Yes. That's what a merchant is.",
+    "file": "celebrationsinsmoke-burick-14"
+  },
+  {
+    "line": "Burick: I'm not a member of any clan. I travel around selling my products.",
+    "file": "celebrationsinsmoke-burick-15"
+  },
+  {
+    "line": "Burick: Clan life would be too stifling. I like getting to see more than the trunk of a single tree.",
+    "file": "celebrationsinsmoke-burick-16"
+  },
+  {
+    "line": "Burick: Sure.",
+    "file": "celebrationsinsmoke-burick-17"
+  },
+  {
+    "line": "Burick: I'm a merchant, not a member of a clan.",
+    "file": "celebrationsinsmoke-burick-18"
+  },
+  {
+    "line": "Burick: I don't have a way to get one and it hasn't been a problem.",
+    "file": "celebrationsinsmoke-burick-19"
+  },
+  {
+    "line": "Burick: I walked closely behind a group that did.",
+    "file": "celebrationsinsmoke-burick-20"
+  },
+  {
+    "line": "Burick: I was bored and lonely.",
+    "file": "celebrationsinsmoke-burick-21"
+  },
+  {
+    "line": "Burick: Gives me a good chance to investigate the green tea market too.",
+    "file": "celebrationsinsmoke-burick-22"
+  },
+  {
+    "line": "Burick: They didn't really trust me.",
+    "file": "celebrationsinsmoke-burick-23"
+  },
+  {
+    "line": "Burick: Trades were handled quickly, while the other parties were heavily armed, and in small enough quantities that if I was a changeling no major loss would be incurred.",
+    "file": "celebrationsinsmoke-burick-24"
+  },
+  {
+    "line": "Burick: I am answering your questions to the best of my knowledge and ability.",
+    "file": "celebrationsinsmoke-burick-25"
+  },
+  {
+    "line": "Burick: Thank you.",
+    "file": "celebrationsinsmoke-burick-26"
+  },
+  {
+    "line": "Burick: Isn't it your job to figure that stuff out?",
+    "file": "celebrationsinsmoke-burick-27"
+  },
+  {
+    "line": "Burick: I see no reason to do your own work and give you more rope to hang me with.",
+    "file": "celebrationsinsmoke-burick-28"
+  },
+  {
+    "line": "Burick: It's only an expression.",
+    "file": "celebrationsinsmoke-burick-29"
+  },
+  {
+    "line": "Burick: I'm cooperating. But I don't see why I should trust someone I don't know or trust with more details than they need.",
+    "file": "celebrationsinsmoke-burick-30"
+  },
+  {
+    "line": "Burick: It would be helpful for my business if you just let me go.",
+    "file": "celebrationsinsmoke-burick-31"
+  },
+  {
+    "line": "Burick: But I'm not demanding that. You can give me the same etiquette.",
+    "file": "celebrationsinsmoke-burick-32"
+  },
+  {
+    "line": "Burick: Sure, but I have no use for your emeralds.",
+    "file": "celebrationsinsmoke-burick-33"
+  },
+  {
+    "line": "Burick: It's been a while since I've had some rabbit roast. Get some of that for me and I'll see what I can do",
+    "file": "celebrationsinsmoke-burick-34"
+  },
+  {
+    "line": "Burick: I have enough of them as is.",
+    "file": "celebrationsinsmoke-burick-35"
+  },
+  {
+    "line": "Burick: Most of the time I trade in kind anyway.",
+    "file": "celebrationsinsmoke-burick-36"
+  },
+  {
+    "line": "Burick: Huh. I didn't think you actually would, thanks.",
+    "file": "celebrationsinsmoke-burick-37"
+  },
+  {
+    "line": "Burick: Anyway, I'm terse because I'm used to being. It doesn't really have anything to do with you.",
+    "file": "celebrationsinsmoke-burick-38"
+  },
+  {
+    "line": "Burick: I spend so much time alone by myself in the woods that I'm not used to making conversation, even when it's needed.",
+    "file": "celebrationsinsmoke-burick-39"
+  },
+  {
+    "line": "Burick: Sorry, you seem nice, I wish I could be of more use to your investigation.",
+    "file": "celebrationsinsmoke-burick-40"
+  },
+  {
+    "line": "Burick: I did not and I would not hazard a guess as to who did.",
+    "file": "celebrationsinsmoke-burick-41"
+  },
+  {
+    "line": "Burick: Alright",
+    "file": "celebrationsinsmoke-burick-42"
+  },
+  {
+    "line": "Burick: Okay.",
+    "file": "celebrationsinsmoke-burick-43"
+  },
+  {
+    "line": "Burick: I don't know and you're not getting a guess out of me.",
+    "file": "celebrationsinsmoke-burick-44"
+  },
+  {
+    "line": "Burick: I could have missed something, but I didn't see any of us do it.",
+    "file": "celebrationsinsmoke-burick-45"
+  },
+  {
+    "line": "Burick: I didn't.",
+    "file": "celebrationsinsmoke-burick-46"
+  },
+  {
+    "line": "Burick: Yes.",
+    "file": "celebrationsinsmoke-burick-47"
+  },
+  {
+    "line": "???: It's nice to meet you too. I'm Cerisa, a petty thief.",
+    "file": "celebrationsinsmoke-cerisa-1"
+  },
+  {
+    "line": "Cerisa: I snuck into the festival to snag shiny trinkets and whatever else I could get my hands on.",
+    "file": "celebrationsinsmoke-cerisa-2"
+  },
+  {
+    "line": "Cerisa: I was also completely uninvolved in who or what tried to burn down the wickerman, so you can let me go whenever you're ready to.",
+    "file": "celebrationsinsmoke-cerisa-3"
+  },
+  {
+    "line": "Cerisa: Did you have anything else you wanted to know?",
+    "file": "celebrationsinsmoke-cerisa-4"
+  },
+  {
+    "line": "Cerisa: Because you'd figure it out one way or another, I don't have a more respectable occupation to cover it up with that you wouldn't quickly disprove.",
+    "file": "celebrationsinsmoke-cerisa-5"
+  },
+  {
+    "line": "Cerisa: It'd be irrational to hide my criminal nature when that is precisely what you're searching for.",
+    "file": "celebrationsinsmoke-cerisa-6"
+  },
+  {
+    "line": "Cerisa: If I deceived you and you found out, you would surely take it as evidence that I had even more to hide.",
+    "file": "celebrationsinsmoke-cerisa-7"
+  },
+  {
+    "line": "Cerisa: My solitary purpose right now is to convince you that I did not try to burn the effigy. I can deal with the consequences of being exposed as a thief later.",
+    "file": "celebrationsinsmoke-cerisa-8"
+  },
+  {
+    "line": "Cerisa: Of course not, that would be contrary to my overall purpose.",
+    "file": "celebrationsinsmoke-cerisa-9"
+  },
+  {
+    "line": "Cerisa: Mind you, I don't expect you to believe me when I say that. You should definitely act as though I am lying to you.",
+    "file": "celebrationsinsmoke-cerisa-10"
+  },
+  {
+    "line": "Cerisa: But I won't. You trusting me is my best ticket out of this mess.",
+    "file": "celebrationsinsmoke-cerisa-11"
+  },
+  {
+    "line": "Cerisa: I do. I have no idea what they'd do to me and I don't want to find out.",
+    "file": "celebrationsinsmoke-cerisa-12"
+  },
+  {
+    "line": "Cerisa: From what I was able to overhear between you and the organizer, it sounds like you're looking for a changeling.",
+    "file": "celebrationsinsmoke-cerisa-13"
+  },
+  {
+    "line": "Cerisa: And based on what they do to just an effigy of a changeling, I have absolutely no desire to find out what would happen to me if they actually thought I was one.",
+    "file": "celebrationsinsmoke-cerisa-14"
+  },
+  {
+    "line": "Cerisa: I'll take whatever punishment my thievery gets me and move on.",
+    "file": "celebrationsinsmoke-cerisa-15"
+  },
+  {
+    "line": "Cerisa: Yes. Being outside of a clan, there's no one particularly trustworthy in the Mistwoods.",
+    "file": "celebrationsinsmoke-cerisa-16"
+  },
+  {
+    "line": "Cerisa: With the changelings, even if I were to find a partner, I don't know how to make medallions and so could never be sure they weren't killed and replaced.",
+    "file": "celebrationsinsmoke-cerisa-17"
+  },
+  {
+    "line": "Cerisa: It's much easier this way, I assure you.",
+    "file": "celebrationsinsmoke-cerisa-18"
+  },
+  {
+    "line": "Cerisa: Whoever I can. For the most part it's the clans, they can be shockingly lazy if you know where you're looking.",
+    "file": "celebrationsinsmoke-cerisa-19"
+  },
+  {
+    "line": "Cerisa: I have stolen a bit from the military when their watch lapses, although that's obviously much harder to pull off.",
+    "file": "celebrationsinsmoke-cerisa-20"
+  },
+  {
+    "line": "Cerisa: Not personally, no. I've heard some rumors though.",
+    "file": "celebrationsinsmoke-cerisa-21"
+  },
+  {
+    "line": "Cerisa: Hard to tell fact from fiction, but they certainly seem to be a nasty bunch.",
+    "file": "celebrationsinsmoke-cerisa-22"
+  },
+  {
+    "line": "Cerisa: I wouldn't be surprised to hear one tried to break into the festival.",
+    "file": "celebrationsinsmoke-cerisa-23"
+  },
+  {
+    "line": "Cerisa: Not directly, no. But of the three of us, I was the farthest from where the flame was kindled.",
+    "file": "celebrationsinsmoke-cerisa-24"
+  },
+  {
+    "line": "Cerisa: I may have seen one of the other two suspects move, but I can't be positive about that.",
+    "file": "celebrationsinsmoke-cerisa-25"
+  },
+  {
+    "line": "Cerisa: If I had more information I would of course provide it.",
+    "file": "celebrationsinsmoke-cerisa-26"
+  },
+  {
+    "line": "Cerisa: Of course, I'll talk about whatever you want.",
+    "file": "celebrationsinsmoke-cerisa-27"
+  },
+  {
+    "line": "Cerisa: Ah, have you decided to try and play confrontational?",
+    "file": "celebrationsinsmoke-cerisa-28"
+  },
+  {
+    "line": "Cerisa: That's fine, I will reiterate that I didn't do it. Whether you believe me or not, that is the truth.",
+    "file": "celebrationsinsmoke-cerisa-29"
+  },
+  {
+    "line": "Cerisa: My fate lies entirely in your hands, so to speak. You don't have to engage in theatrics to intimidate me, you are exactly as scary as you were before.",
+    "file": "celebrationsinsmoke-cerisa-30"
+  },
+  {
+    "line": "Festival Organizer: No, I don't, I don't think it's anything to worry about though.",
+    "file": "celebrationsinsmoke-festivalorganizer-27"
+  },
+  {
+    "line": "Festival Organizer: Lots of attendees bring their own food and drink. Most likely, one of them discarded it somewhere they thought no one would see.",
+    "file": "celebrationsinsmoke-festivalorganizer-28"
+  },
+  {
+    "line": "Festival Organizer: The only crime here is littering.",
+    "file": "celebrationsinsmoke-festivalorganizer-29"
+  },
+  {
+    "line": "Festival Organizer: Come back to me once you've found what they're all hiding.",
+    "file": "celebrationsinsmoke-festivalorganizer-30"
+  },
+  {
+    "line": "Arris: aUm, no, I don't think so.",
+    "file": "celebrationsinsmoke-arris-46"
+  },
+  {
+    "line": "Arris: Sorry if you were hoping I had.",
+    "file": "celebrationsinsmoke-arris-47"
+  },
+  {
+    "line": "Arris: I- I- I-",
+    "file": "celebrationsinsmoke-arris-48"
+  },
+  {
+    "line": "Arris: Yes I was exiled from my clan and yes I did lie to you but I promise I didn't do anything else bad.",
+    "file": "celebrationsinsmoke-arris-49"
+  },
+  {
+    "line": "Arris: I don't know who burned down the wickerman but it wasn't me, you have to believe me.",
+    "file": "celebrationsinsmoke-arris-50"
+  },
+  {
+    "line": "Arris: I only lied because I panicked and I'm sorry for panicking but please please please you cannot tell them that I'm a changeling or whatever.",
+    "file": "celebrationsinsmoke-arris-51"
+  },
+  {
+    "line": "Arris: Please.",
+    "file": "celebrationsinsmoke-arris-52"
+  },
+  {
+    "line": "Arris: Because they all thought I stole something! Even though I promise, I promise I didn't.",
+    "file": "celebrationsinsmoke-arris-53"
+  },
+  {
+    "line": "Arris: I was supposed to be keeping watch over our clan's stores. And I don't know how, but a box of our special green tea went missing.",
+    "file": "celebrationsinsmoke-arris-54"
+  },
+  {
+    "line": "Arris: I promise I didn't steal it, I really do. But none of them believed me, it somehow disappeared.",
+    "file": "celebrationsinsmoke-arris-55"
+  },
+  {
+    "line": "Arris: They said I had lost years of trust with them, over something I swear I didn't do, and kicked me out.",
+    "file": "celebrationsinsmoke-arris-56"
+  },
+  {
+    "line": "Arris: Since then, I've been having to find my own way to survive. I've, uh, not been very good at that.",
+    "file": "celebrationsinsmoke-arris-57"
+  },
+  {
+    "line": "Arris: Maybe a week? I- I- I'm not exactly sure. It has been difficult keeping track of time.",
+    "file": "celebrationsinsmoke-arris-58"
+  },
+  {
+    "line": "Arris: Yes! I've never lost anything like that before and I definitely haven't stolen anything ever at all.",
+    "file": "celebrationsinsmoke-arris-59"
+  },
+  {
+    "line": "Arris: ... Although, I was caught sleeping while on watch a few times. And my clan got really upset with me for that, even though I promise nothing bad happened.",
+    "file": "celebrationsinsmoke-arris-60"
+  },
+  {
+    "line": "Arris: I wasn't trying to sleep, but it's so hard to stay up all night while nothing is happening.",
+    "file": "celebrationsinsmoke-arris-61"
+  },
+  {
+    "line": "Arris: Oh, uh, well you know. I was, um.",
+    "file": "celebrationsinsmoke-arris-62"
+  },
+  {
+    "line": "Arris: Running out of food.",
+    "file": "celebrationsinsmoke-arris-63"
+  },
+  {
+    "line": "Arris: And this was the only place I could think of that would have any and I really missed not having to run across the Mistwoods trying to forage and I really really hate being exiled and I need somewhere to go.",
+    "file": "celebrationsinsmoke-arris-64"
+  },
+  {
+    "line": "Arris: Sorry, I didn't mean to dump all my troubles on you.",
+    "file": "celebrationsinsmoke-arris-65"
+  },
+  {
+    "line": "Arris: ...",
+    "file": "celebrationsinsmoke-arris-66"
+  },
+  {
+    "line": "Arris: Um. If it wouldn't be too much to ask.",
+    "file": "celebrationsinsmoke-arris-67"
+  },
+  {
+    "line": "Arris: Would you mind getting me a Fortune Cookie?",
+    "file": "celebrationsinsmoke-arris-68"
+  },
+  {
+    "line": "Arris: I don't want to burden you or anything and I know I just lied to you and you're trying to investigate me for a horrible crime, but I'm really hungry and didn't get a chance to eat before you all shoved me in here.",
+    "file": "celebrationsinsmoke-arris-69"
+  },
+  {
+    "line": "Arris: Thank you so so so so much.",
+    "file": "celebrationsinsmoke-arris-70"
+  },
+  {
+    "line": "Arris: Thank you! I don't think I've had one of these since I was a kid.",
+    "file": "celebrationsinsmoke-arris-71"
+  },
+  {
+    "line": "Arris: Here, let me read my fortune to you.",
+    "file": "celebrationsinsmoke-arris-72"
+  },
+  {
+    "line": "Arris: \"Beware some of those closest to you! They may not be what they seem.\"",
+    "file": "celebrationsinsmoke-arris-73"
+  },
+  {
+    "line": "Arris: That, uh, would have been more useful a couple weeks ago.",
+    "file": "celebrationsinsmoke-arris-74"
+  },
+  {
+    "line": "Arris: O- okay.",
+    "file": "celebrationsinsmoke-arris-75"
+  },
+  {
+    "line": "Arris: Sorry for asking.",
+    "file": "celebrationsinsmoke-arris-76"
+  },
+  {
+    "line": "Arris: Sorry. Please don't think I did whatever I can tell you think I did.",
+    "file": "celebrationsinsmoke-arris-77"
+  },
+  {
+    "line": "Arris: Oh, hi, I never got the chance to thank you.",
+    "file": "celebrationsinsmoke-arris-78"
+  },
+  {
+    "line": "Arris: I'm not sure what happened after you left.",
+    "file": "celebrationsinsmoke-arris-79"
+  },
+  {
+    "line": "Arris: The festival organizer came back and took Burick away with him.",
+    "file": "celebrationsinsmoke-arris-80"
+  },
+  {
+    "line": "Arris: The festival organizer came back and took Cerisa away with him.",
+    "file": "celebrationsinsmoke-arris-81"
+  },
+  {
+    "line": "Arris: I'm not sure what happened but, um, I don't think it was good.",
+    "file": "celebrationsinsmoke-arris-82"
+  },
+  {
+    "line": "Arris: So, thank you again. I wasn't really in the right mind enough to show it then.",
+    "file": "celebrationsinsmoke-arris-83"
+  },
+  {
+    "line": "Arris: I... don't know.",
+    "file": "celebrationsinsmoke-arris-84"
+  },
+  {
+    "line": "Arris: I'll see how long I can hang around here, but the locals are beginning to glare at me a bit.",
+    "file": "celebrationsinsmoke-arris-85"
+  },
+  {
+    "line": "Arris: I might try to head deeper into the woods, see if there's anything I can find.",
+    "file": "celebrationsinsmoke-arris-86"
+  },
+  {
+    "line": "Arris: Or join the military? I don't think I'd be very good at it and I don't even think they'd accept me, but it might be worth a shot.",
+    "file": "celebrationsinsmoke-arris-87"
+  },
+  {
+    "line": "Arris: Otherwise, all I can do is try to live off of what I can find. I, uh, don't like my chances with that.",
+    "file": "celebrationsinsmoke-arris-88"
+  },
+  {
+    "line": "Arris: I am! I'm always a, uh, little nervous. But a lot less than I was.",
+    "file": "celebrationsinsmoke-arris-89"
+  },
+  {
+    "line": "Arris: It felt like the axe that had been pressed against my neck was lifted, thanks to you.",
+    "file": "celebrationsinsmoke-arris-90"
+  },
+  {
+    "line": "Arris: There's still a lot of uncertainty, but I no longer feel like I'm scrambling like a rabbit in a cage.",
+    "file": "celebrationsinsmoke-arris-91"
+  },
+  {
+    "line": "Arris: I was still in a bit of a daze, so not really, sorry.",
+    "file": "celebrationsinsmoke-arris-92"
+  },
+  {
+    "line": "Arris: She left pretty quick though, she must have been in a hurry to get somewhere.",
+    "file": "celebrationsinsmoke-arris-93"
+  },
+  {
+    "line": "soldier: I assume he went back to his campsite?",
+    "file": "celebrationsinsmoke-arris-94"
+  },
+  {
+    "line": "soldier: As long as that isn't ruined.",
+    "file": "celebrationsinsmoke-arris-95"
+  },
+  {
+    "line": "Arris: Goodbye!",
+    "file": "celebrationsinsmoke-arris-96"
+  },
+  {
+    "line": "Arris: No no no, that isn't true at all.",
+    "file": "celebrationsinsmoke-arris-97"
+  },
+  {
+    "line": "Arris: I have no idea who or what you were talking to but I can assure you I, uh, was not exiled from my clan very recently.",
+    "file": "celebrationsinsmoke-arris-98"
+  },
+  {
+    "line": "Arris: You don't have any proof of it, right? Right? So it's my word against theirs, there is no reason to believe anything that they have to say over me.",
+    "file": "celebrationsinsmoke-arris-99"
+  },
+  {
+    "line": "Arris: I'm an, um, ordinary clan member who got caught up in something that I do not understand.",
+    "file": "celebrationsinsmoke-arris-100"
+  },
+  {
+    "line": "Burick: No.",
+    "file": "celebrationsinsmoke-burick-48"
+  },
+  {
+    "line": "Burick: What else would I need? I'm sure while you were violating my privacy you snooped through my stuff. I have nothing to hide.",
+    "file": "celebrationsinsmoke-burick-49"
+  },
+  {
+    "line": "Burick: There simply isn't much excess gear that I need as a merchant.",
+    "file": "celebrationsinsmoke-burick-50"
+  },
+  {
+    "line": "Burick: You're not believing that, are you.",
+    "file": "celebrationsinsmoke-burick-51"
+  },
+  {
+    "line": "Burick: Fine. I'm not really a merchant.",
+    "file": "celebrationsinsmoke-burick-52"
+  },
+  {
+    "line": "Burick: I'm a scavenger. I was born without a clan and have lived my entire life without one.",
+    "file": "celebrationsinsmoke-burick-53"
+  },
+  {
+    "line": "Burick: When pressed, I pose as a merchant. I've spent enough time wandering the Mistwoods that I have enough knowledge to be one.",
+    "file": "celebrationsinsmoke-burick-54"
+  },
+  {
+    "line": "Burick: Still though, that's all. I won't pretend I didn't lie to you, but beside that I'm telling the truth.",
+    "file": "celebrationsinsmoke-burick-55"
+  },
+  {
+    "line": "Burick: I don't know who tried to burn down the wickerman or why. It certainly wasn't me.",
+    "file": "celebrationsinsmoke-burick-56"
+  },
+  {
+    "line": "Burick: There's not much to do out in the wilderness. Only so many times I can forage the same bush for food or admire the same river.",
+    "file": "celebrationsinsmoke-burick-57"
+  },
+  {
+    "line": "Burick: I get lonely. I still am lonely.",
+    "file": "celebrationsinsmoke-burick-58"
+  },
+  {
+    "line": "Burick: The festival is the only time of year I really get to be with others, I've been attending for years now.",
+    "file": "celebrationsinsmoke-burick-59"
+  },
+  {
+    "line": "Burick: Not that I can speak to anyone much. They might realize I'm not supposed to be here.",
+    "file": "celebrationsinsmoke-burick-60"
+  },
+  {
+    "line": "Burick: I've managed to find a spot in the Aldwell wall where you can leap over and the guards can't see. I'm amazed they haven't fixed it yet.",
+    "file": "celebrationsinsmoke-burick-61"
+  },
+  {
+    "line": "Burick: Come to think of it, if someone else was coming here uninvited, that's probably how they got in too.",
+    "file": "celebrationsinsmoke-burick-62"
+  },
+  {
+    "line": "Burick: I found it lying on the ground a few weeks ago, cracked open and half empty.",
+    "file": "celebrationsinsmoke-burick-63"
+  },
+  {
+    "line": "Burick: Someone must have lost it or something, maybe a patrol of soldiers? That would be odd though, they're usually quite tidy.",
+    "file": "celebrationsinsmoke-burick-64"
+  },
+  {
+    "line": "Burick: It could have been one of the clans too. At least one of them knows how to produce the stuff.",
+    "file": "celebrationsinsmoke-burick-65"
+  },
+  {
+    "line": "Burick: I don't know, but I'm glad I found it! It's been too long since I've managed to drink any.",
+    "file": "celebrationsinsmoke-burick-66"
+  },
+  {
+    "line": "Burick: I hope you didn't confiscate it while you were snooping through my home.",
+    "file": "celebrationsinsmoke-burick-67"
+  },
+  {
+    "line": "Burick: My parents were exiled, I think?",
+    "file": "celebrationsinsmoke-burick-68"
+  },
+  {
+    "line": "Burick: I've never really gotten the entirety of that story, so I'm unsure.",
+    "file": "celebrationsinsmoke-burick-69"
+  },
+  {
+    "line": "Burick: I don't really feel like going deeper into it than that.",
+    "file": "celebrationsinsmoke-burick-70"
+  },
+  {
+    "line": "Burick: Hello. Please try not to come too close.",
+    "file": "celebrationsinsmoke-burick-71"
+  },
+  {
+    "line": "Burick: We can talk from a distance.",
+    "file": "celebrationsinsmoke-burick-72"
+  },
+  {
+    "line": "Burick: Apologies for the coolness, your help was appreciated.",
+    "file": "celebrationsinsmoke-burick-73"
+  },
+  {
+    "line": "Burick: But I cannot be sure you are who you say you are.",
+    "file": "celebrationsinsmoke-burick-74"
+  },
+  {
+    "line": "Burick: Acceptable.",
+    "file": "celebrationsinsmoke-burick-75"
+  },
+  {
+    "line": "Burick: Since our run in at the festival, I have been laying lower than usual.",
+    "file": "celebrationsinsmoke-burick-76"
+  },
+  {
+    "line": "Burick: My life has not been much different than it usually is.",
+    "file": "celebrationsinsmoke-burick-77"
+  },
+  {
+    "line": "Burick: It was a horrific mistake to even attend the festival.",
+    "file": "celebrationsinsmoke-burick-78"
+  },
+  {
+    "line": "Burick: I allowed myself to be controlled by my own humanity; that is a mistake the Mistwoods rarely lets off easily.",
+    "file": "celebrationsinsmoke-burick-79"
+  },
+  {
+    "line": "Burick: I will not make the same mistake again. Loneliness will hurt, but trust will kill.",
+    "file": "celebrationsinsmoke-burick-80"
+  },
+  {
+    "line": "Burick: Last I saw, they were still in Aldwell.",
+    "file": "celebrationsinsmoke-burick-81"
+  },
+  {
+    "line": "Burick: They don't seem cut out for the life of a scavenger, if they can't find any other way to live outside a clan they'll be dead within the week.",
+    "file": "celebrationsinsmoke-burick-82"
+  },
+  {
+    "line": "Burick: It's unfortunate, but that's reality.",
+    "file": "celebrationsinsmoke-burick-83"
+  },
+  {
+    "line": "Burick: Yes, while everyone else was watching the wickerman burn she rustled through as many abandoned stalls, bags, and houses as she could.",
+    "file": "celebrationsinsmoke-burick-84"
+  },
+  {
+    "line": "Burick: I left before she was finished, but this morning I saw a figure walking south out of Aldwell, carrying several large bags.",
+    "file": "celebrationsinsmoke-burick-85"
+  },
+  {
+    "line": "Burick: Wherever she's headed, she's prepared for a long trek.",
+    "file": "celebrationsinsmoke-burick-86"
+  },
+  {
+    "line": "Burick: Goodbye.",
+    "file": "celebrationsinsmoke-burick-87"
+  },
+  {
+    "line": "Burick: You must not have spoken to the people I sold to then.",
+    "file": "celebrationsinsmoke-burick-88"
+  },
+  {
+    "line": "Burick: Not sure how much of an enthusiast they could be if they don't know me.",
+    "file": "celebrationsinsmoke-burick-89"
+  },
+  {
+    "line": "Burick: Even so, that's only the words of one person. I won't pretend to know everyone in the Mistwoods. Even the ones I do meet I don't make a major impression on.",
+    "file": "celebrationsinsmoke-burick-90"
+  },
+  {
+    "line": "Burick: No. And I would appreciate it if you would avoid prying in my personal affairs.",
+    "file": "celebrationsinsmoke-burick-91"
+  },
+  {
+    "line": "Burick: I disagree. You'll have to find a way to live with that disagreement.",
+    "file": "celebrationsinsmoke-burick-92"
+  },
+  {
+    "line": "Burick: Thank you. I appreciate the respect with which you are approaching this investigation.",
+    "file": "celebrationsinsmoke-burick-93"
+  },
+  {
+    "line": "Burick: You're welcome.",
+    "file": "celebrationsinsmoke-burick-94"
+  },
+  {
+    "line": "Burick: Alright.",
+    "file": "celebrationsinsmoke-burick-95"
+  },
+  {
+    "line": "Cerisa: I can't say I have.",
+    "file": "celebrationsinsmoke-cerisa-31"
+  },
+  {
+    "line": "Cerisa: There's not much distinctive about it though, except for that odor.",
+    "file": "celebrationsinsmoke-cerisa-32"
+  },
+  {
+    "line": "Cerisa: That would be because it's mine.",
+    "file": "celebrationsinsmoke-cerisa-33"
+  },
+  {
+    "line": "Cerisa: Your investigation is quite impressive, I'll admit. I was not expecting anyone to find those, I must not have disposed of them properly.",
+    "file": "celebrationsinsmoke-cerisa-34"
+  },
+  {
+    "line": "Cerisa: I am a deserter from the military, as of a couple days ago. My stop here is a temporary respite to steal whatever I can before disappearing into the Mistwoods as far as I can.",
+    "file": "celebrationsinsmoke-cerisa-35"
+  },
+  {
+    "line": "Cerisa: No I didn't. I am a thief who came to the festival in part to steal petty trinkets. Nothing I told you was a lie.",
+    "file": "celebrationsinsmoke-cerisa-36"
+  },
+  {
+    "line": "Cerisa: I'll grant that I did not tell you things you might have been interested in knowing, but that is only because you never asked about them.",
+    "file": "celebrationsinsmoke-cerisa-37"
+  },
+  {
+    "line": "Cerisa: Had you asked me if I was a former soldier, I would have provided you with all the information you are being given right now.",
+    "file": "celebrationsinsmoke-cerisa-38"
+  },
+  {
+    "line": "Cerisa: Yes, it is to a degree. But you have to understand, you trusting me isn't my only strategy to get out of this.",
+    "file": "celebrationsinsmoke-cerisa-39"
+  },
+  {
+    "line": "Cerisa: It was a gamble to avoid mentioning my desertion. I had to weigh the odds of you finding evidence of my desertion with the danger I might be in by admitting to it.",
+    "file": "celebrationsinsmoke-cerisa-40"
+  },
+  {
+    "line": "Cerisa: With hindsight, I bet wrongly, but I don't think my bet was irrational.",
+    "file": "celebrationsinsmoke-cerisa-41"
+  },
+  {
+    "line": "Cerisa: Had you been a worse investigator or gotten a bit less lucky, it would have paid off immensely.",
+    "file": "celebrationsinsmoke-cerisa-42"
+  },
+  {
+    "line": "Cerisa: And I trust that even now, you are a fair enough judicator you will look at the facts and only the facts.",
+    "file": "celebrationsinsmoke-cerisa-43"
+  },
+  {
+    "line": "Cerisa: The facts that show I had nothing to do with what you're investigating.",
+    "file": "celebrationsinsmoke-cerisa-44"
+  },
+  {
+    "line": "Cerisa: You could. And if you did you would be personally and entirely responsible for my death.",
+    "file": "celebrationsinsmoke-cerisa-45"
+  },
+  {
+    "line": "Cerisa: Should you choose to, I hope my face haunts your nightmares for the rest of your life.",
+    "file": "celebrationsinsmoke-cerisa-46"
+  },
+  {
+    "line": "Cerisa: But I don't think you will.",
+    "file": "celebrationsinsmoke-cerisa-47"
+  },
+  {
+    "line": "Cerisa: I'll admit I struggle to express this in words, but you don't seem the type.",
+    "file": "celebrationsinsmoke-cerisa-48"
+  },
+  {
+    "line": "Cerisa: You couldn't really go through with something like that.",
+    "file": "celebrationsinsmoke-cerisa-49"
+  },
+  {
+    "line": "Cerisa: Military life was too stifling for me. So many direct orders that I can do nothing but obey.",
+    "file": "celebrationsinsmoke-cerisa-50"
+  },
+  {
+    "line": "Cerisa: And it was so boring. Most of my time was spent standing still, watching for threats that never came.",
+    "file": "celebrationsinsmoke-cerisa-51"
+  },
+  {
+    "line": "Cerisa: So I left. I wish them all the best and apologize to Her Majesty for my inability to serve her as I wanted to, but my time soured me on the whole affair.",
+    "file": "celebrationsinsmoke-cerisa-52"
+  },
+  {
+    "line": "Cerisa: Oh, I see you're getting better at this.",
+    "file": "celebrationsinsmoke-cerisa-53"
+  },
+  {
+    "line": "Cerisa: Yes, the other reason I left was the brutality of it. I do not handle blood well and was unprepared for the amount of blood I would see.",
+    "file": "celebrationsinsmoke-cerisa-54"
+  },
+  {
+    "line": "Cerisa: Most of the time, being a soldier is dull. Mind numbingly so. But the few times it was not made me wish more than anything in the world that I could be bored.",
+    "file": "celebrationsinsmoke-cerisa-55"
+  },
+  {
+    "line": "Cerisa: I'm not even sure the violence was wrong, I just cannot participate in it.",
+    "file": "celebrationsinsmoke-cerisa-56"
+  },
+  {
+    "line": "Cerisa: Unpleasant life at home. There was nothing for me to stay behind for. The military seemed like my best way out.",
+    "file": "celebrationsinsmoke-cerisa-57"
+  },
+  {
+    "line": "Cerisa: I think I would make the same choice again, even knowing how it would end. There's no way I could stay there for much longer.",
+    "file": "celebrationsinsmoke-cerisa-58"
+  },
+  {
+    "line": "Cerisa: Oh really? That's a shame, I thought I was stealthier than that.",
+    "file": "celebrationsinsmoke-cerisa-59"
+  },
+  {
+    "line": "Cerisa: I'm not sure that's a real revelation though, I've been open to you that that's what I did.",
+    "file": "celebrationsinsmoke-cerisa-60"
+  },
+  {
+    "line": "Cerisa: Is there anything else you wanted to call me to account for?",
+    "file": "celebrationsinsmoke-cerisa-61"
+  },
+  {
+    "line": "Cerisa: Yes, I had a change in clothes. The clothes I wear on a daily basis are no fit for a cheerful atmosphere like the festival.",
+    "file": "celebrationsinsmoke-cerisa-62"
+  },
+  {
+    "line": "Cerisa: In that case, I appreciate you keeping me up to date on the progress of your investigation. Your commitment to transparency in the judicial process is admirable.",
+    "file": "celebrationsinsmoke-cerisa-63"
+  },
+  {
+    "line": "Festival Organizer: You think you know who the changeling is?",
+    "file": "celebrationsinsmoke-festivalorganizer-31"
+  },
+  {
+    "line": "Festival Organizer: Keep looking then. Return here once you've made a decision.",
+    "file": "celebrationsinsmoke-festivalorganizer-32"
+  },
+  {
+    "line": "Festival Organizer: You look like you have something on your mind, what is it?",
+    "file": "celebrationsinsmoke-festivalorganizer-33"
+  },
+  {
+    "line": "Festival Organizer: Ah, I see your investigations have borne fruit.",
+    "file": "celebrationsinsmoke-festivalorganizer-34"
+  },
+  {
+    "line": "Festival Organizer: Yes. As you have seen, people tend to let their guard down at the festival in a way they normally wouldn't.",
+    "file": "celebrationsinsmoke-festivalorganizer-35"
+  },
+  {
+    "line": "Festival Organizer: They are a necessity to ensure any unexpected guests are swiftly taken care of.",
+    "file": "celebrationsinsmoke-festivalorganizer-36"
+  },
+  {
+    "line": "Festival Organizer: I suspect you're probably right. And yet, that is irrelevant.",
+    "file": "celebrationsinsmoke-festivalorganizer-37"
+  },
+  {
+    "line": "Festival Organizer: You will tell me they are reckless and a danger to others. I don't disagree, but I encourage you to look at the wider picture.",
+    "file": "celebrationsinsmoke-festivalorganizer-38"
+  },
+  {
+    "line": "Festival Organizer: If we let up our vigilance for even a moment, we have already lost our war. Our clans and families will be infiltrated within the day.",
+    "file": "celebrationsinsmoke-festivalorganizer-39"
+  },
+  {
+    "line": "Festival Organizer: Their recklessness prevents this. In a case where the smallest failure would be catastrophe, recklessness becomes necessity.",
+    "file": "celebrationsinsmoke-festivalorganizer-40"
+  },
+  {
+    "line": "Festival Organizer: Imagine they had not acted rashly in throwing a bottle of fuel onto the already lit flame.",
+    "file": "celebrationsinsmoke-festivalorganizer-41"
+  },
+  {
+    "line": "Festival Organizer: They did not create the flame, someone else must have been hoping to gain from it.",
+    "file": "celebrationsinsmoke-festivalorganizer-42"
+  },
+  {
+    "line": "Festival Organizer: Their actions, while dangerous, prevented any fiends from exploiting the opportunity. We took it out of their control.",
+    "file": "celebrationsinsmoke-festivalorganizer-43"
+  },
+  {
+    "line": "Festival Organizer: Whatever risk their actions created was worth the price.",
+    "file": "celebrationsinsmoke-festivalorganizer-44"
+  },
+  {
+    "line": "Festival Organizer: Apologies for rambling, I assure you though that safety is our top concern. Whatever the price.",
+    "file": "celebrationsinsmoke-festivalorganizer-45"
+  },
+  {
+    "line": "Festival Organizer: You've dug into them all and have found something? Excellent.",
+    "file": "celebrationsinsmoke-festivalorganizer-46"
+  },
+  {
+    "line": "Festival Organizer: So, who do you think tried to burn down the wickerman?",
+    "file": "celebrationsinsmoke-festivalorganizer-47"
+  },
+  {
+    "line": "Festival Organizer: I understand your reticence to pick one. We don't have anything close to the information required to make a proper judgment.",
+    "file": "celebrationsinsmoke-festivalorganizer-48"
+  },
+  {
+    "line": "Festival Organizer: But you cannot allow that to stop you. We do not have the luxury to close our eyes and pretend it didn't happen.",
+    "file": "celebrationsinsmoke-festivalorganizer-49"
+  },
+  {
+    "line": "Festival Organizer: Please, from the inevitably incomplete investigation you conducted, tell me who you think lit that flame.",
+    "file": "celebrationsinsmoke-festivalorganizer-50"
+  },
+  {
+    "line": "Festival Organizer: Very well then. I am disappointed, but understand.",
+    "file": "celebrationsinsmoke-festivalorganizer-51"
+  },
+  {
+    "line": "Festival Organizer: I will take care of things from this point forward.",
+    "file": "celebrationsinsmoke-festivalorganizer-52"
+  },
+  {
+    "line": "Festival Organizer: In thanks for saving the wickerman, there will be a seat saved for you when you are ready to watch it burn.",
+    "file": "celebrationsinsmoke-festivalorganizer-53"
+  },
+  {
+    "line": "Festival Organizer: Enjoy the rest of the festival.",
+    "file": "celebrationsinsmoke-festivalorganizer-54"
+  },
+  {
+    "line": "Festival Organizer: Suspect 1? Very well. I will take care of things from here.",
+    "file": "celebrationsinsmoke-festivalorganizer-55"
+  },
+  {
+    "line": "Festival Organizer: Suspect 2? Very well. I will take care of things from here.",
+    "file": "celebrationsinsmoke-festivalorganizer-56"
+  },
+  {
+    "line": "Festival Organizer: Suspect 3? Very well. I will take care of things from here.",
+    "file": "celebrationsinsmoke-festivalorganizer-57"
+  },
+  {
+    "line": "Festival Organizer: Again, thank you so much for your help. I cannot emphasize enough how much you assisting in this matter for us allowed the festival to be a success.",
+    "file": "celebrationsinsmoke-festivalorganizer-58"
+  },
+  {
+    "line": "Festival Organizer: Enjoy the rest of the festival, and make sure to watch the wickerman burn! I'll save a special seat for you near the front as a sign of our appreciation.",
+    "file": "celebrationsinsmoke-festivalorganizer-59"
+  },
+  {
+    "line": "Festival Organizer: You children of the Mistwoods gather round",
+    "file": "celebrationsinsmoke-festivalorganizer-60"
+  },
+  {
+    "line": "Festival Organizer: To gaze upon this relic from years past,",
+    "file": "celebrationsinsmoke-festivalorganizer-61"
+  },
+  {
+    "line": "Festival Organizer: This effigy, of ancient foes we fought",
+    "file": "celebrationsinsmoke-festivalorganizer-62"
+  },
+  {
+    "line": "Festival Organizer: In memory, we will again ignite!",
+    "file": "celebrationsinsmoke-festivalorganizer-63"
+  },
+  {
+    "line": "Festival Organizer: An ancient beast, rebuilt with plank and straw,",
+    "file": "celebrationsinsmoke-festivalorganizer-64"
+  },
+  {
+    "line": "Festival Organizer: What once was flesh, reconstitute as wood;",
+    "file": "celebrationsinsmoke-festivalorganizer-65"
+  },
+  {
+    "line": "Festival Organizer: All monsters, old and new, must meet their end",
+    "file": "celebrationsinsmoke-festivalorganizer-66"
+  },
+  {
+    "line": "Festival Organizer: All fiends must burn! Must broil and char and melt!",
+    "file": "celebrationsinsmoke-festivalorganizer-67"
+  },
+  {
+    "line": "Festival Organizer: Substance beside, all that remains persists...",
+    "file": "celebrationsinsmoke-festivalorganizer-68"
+  },
+  {
+    "line": "Festival Organizer: ...as blackened corpse, no threat there can exist!",
+    "file": "celebrationsinsmoke-festivalorganizer-69"
   }
 ]
