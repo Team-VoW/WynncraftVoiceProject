@@ -5848,10 +5848,6 @@
     "report": true
   },
   {
-    "line": "Harvin: I mean, maybe they want to ask us some questions, Maury.",
-    "report": true
-  },
-  {
     "line": "Harvin: Seems you've inspected everything now. Time to speak to the guards.",
     "report": true
   },
@@ -98198,6 +98194,10 @@
   {
     "line": "Harvin: ...Shoot. Guess that's my cue to leave.",
     "file": "offtherails-harvin-56"
+  },
+  {
+    "line": "Harvin: I mean, maybe they want to ask us some questions, Maury.",
+    "file": "offtherails-harvin-57"
   },
   {
     "line": "???: Go on, go interrogate people.",
