@@ -120,12 +120,28 @@ public class AudioDownloader {
     private final AtomicBoolean running = new AtomicBoolean();
 
     public void checkIfHasNot() {
-        if (hasRan || !ModCore.config.downloadSounds) {
+        if (hasRan || !downloadsAllowed()) {
             return;
         }
 
         hasRan = true;
         checkToDownload();
+    }
+
+    /**
+     * Beta builds stream their audio and never download it. The beta CDN holds whatever is being tested
+     * at the moment, so a cache filled from it would outlive the beta and be served to a normal build as
+     * if it were production audio.
+     */
+    private boolean downloadsAllowed() {
+        if (!ModCore.config.downloadSounds) {
+            return false;
+        }
+        if (BetaConfig.isBetaBuild()) {
+            LOGGER.info("Beta build: sounds are streamed, skipping the audio download");
+            return false;
+        }
+        return true;
     }
 
     /**
@@ -135,7 +151,7 @@ public class AudioDownloader {
      * starts (and its confirmation toast appears) there and then rather than on the next launch.
      */
     public void checkNow() {
-        if (!ModCore.config.downloadSounds) {
+        if (!downloadsAllowed()) {
             return;
         }
 
@@ -145,6 +161,10 @@ public class AudioDownloader {
     }
 
     public void checkToDownload() {
+        if (!downloadsAllowed()) {
+            return;
+        }
+
         if (!running.compareAndSet(false, true)) {
             LOGGER.info("An audio download check is already in progress, ignoring this one");
             return;
