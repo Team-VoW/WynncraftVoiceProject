@@ -1376,10 +1376,6 @@
     "report": true
   },
   {
-    "line": "Avos Shaman: Oh, you're the not-Corkian Human.",
-    "report": true
-  },
-  {
     "line": "Avos Shaman: The chief said your people are welcome here.",
     "report": true
   },
@@ -66605,7 +66601,7 @@
     "file": "avosvillage-avoscitizen2-1"
   },
   {
-    "line": "Avos Shaman: Oh, you're the not-Corkian human",
+    "line": "Avos Shaman: Oh, you're the not-Corkian Human.",
     "file": "avosvillage-avosshaman-1"
   },
   {
