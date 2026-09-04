@@ -528,14 +528,6 @@
     "report": true
   },
   {
-    "line": "????: Unauthorized blockage in Factory Sector A2. Emergency maintenance will be performed in approximately 55 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared.",
-    "report": true
-  },
-  {
-    "line": "????: Unauthorized blockage in Factory Sector E1. Emergency maintenance will be performed in approximately 55 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared.",
-    "report": true
-  },
-  {
     "line": "????: Warning: Clockwork Mechanism is in severe disrepair. Sending emergency maintenance request through Antikythera Supercomputer system. Please shut off the Antikythera Clockwork Mechanism.",
     "report": true
   },
@@ -62442,7 +62434,7 @@
     "onPlayer": true
   },
   {
-    "line": "????: Unauthorized blockage in Factory Sector A2. Emergency maintenance will be performed in approximately 75 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared.",
+    "line": "????: Unauthorized blockage in Factory Sector A2. Emergency maintenance will be performed in approximately 55 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared.",
     "file": "fallenfactory-antikytherasupercomputer-4",
     "onPlayer": true
   },
@@ -62517,7 +62509,7 @@
     "onPlayer": true
   },
   {
-    "line": "????: Unauthorized blockage in Factory Sector E1. Emergency maintenance will be performed in approximately 55 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared",
+    "line": "????: Unauthorized blockage in Factory Sector E1. Emergency maintenance will be performed in approximately 55 seconds. All regularly scheduled workers, please leave your posts until the blockage is cleared.",
     "file": "fallenfactory-antikytherasupercomputer-20",
     "onPlayer": true
   },
