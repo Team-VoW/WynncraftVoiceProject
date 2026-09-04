@@ -6140,10 +6140,6 @@
     "report": true
   },
   {
-    "line": "Korun: That's why I set up a small laboratory and started living here to study the place. It's pretty rudimentary but it does the job done.",
-    "report": true
-  },
-  {
     "line": "Korzim: Come. Sit by the fire. There is...surely much to speak of.",
     "report": true
   },
@@ -7333,10 +7329,6 @@
   },
   {
     "line": "Nikoler: Nikoler hands you a crate of fish...",
-    "report": true
-  },
-  {
-    "line": "Nikoler: This human right here actually saved me, right after endangering me. You don't mean to tell me you sent them for me?",
     "report": true
   },
   {
@@ -40908,7 +40900,7 @@
     "file": "purpleandblue-korun-4"
   },
   {
-    "line": "Korun: That's why why I set up a small laboratory and started living here to study the place. It's pretty rudimentary but it does the job done.",
+    "line": "Korun: That's why I set up a small laboratory and started living here to study the place. It's pretty rudimentary but it does the job done.",
     "file": "purpleandblue-korun-5"
   },
   {
@@ -41100,7 +41092,7 @@
     "file": "purpleandblue-nikoler-29"
   },
   {
-    "line": "Nikoler: This human right here actually saved me, right after endangering me. You don't mean to tell me you sent him for me?",
+    "line": "Nikoler: This human right here actually saved me, right after endangering me. You don't mean to tell me you sent them for me?",
     "file": "purpleandblue-nikoler-30"
   },
   {
