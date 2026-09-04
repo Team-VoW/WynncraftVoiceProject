@@ -7852,10 +7852,6 @@
     "report": true
   },
   {
-    "line": "Passenger John: He swiftly made his way down the stairs to the bottom deck, nobody seems to have seen him since.",
-    "report": true
-  },
-  {
     "line": "Passenger Nancy: Thank you so much for finding my boy! He won't be leaving my side for the rest of the trip.",
     "report": true
   },
@@ -40059,7 +40055,7 @@
     "file": "flightindistress-passengerjohn-2"
   },
   {
-    "line": "Passenger John: He swiftly made his way down the stairs to the bottom deck. Nobody seems to have seen him inside the ship after that.",
+    "line": "Passenger John: He swiftly made his way down the stairs to the bottom deck, nobody seems to have seen him since.",
     "file": "flightindistress-passengerjohn-3"
   },
   {
