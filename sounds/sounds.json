@@ -8316,10 +8316,6 @@
     "report": true
   },
   {
-    "line": "Representative: Mel and Lanu, you'll be in E2.",
-    "report": true
-  },
-  {
     "line": "Representative Ernold: [+1 Spell Scroll]",
     "report": true
   },
@@ -11164,10 +11160,6 @@
     "report": true
   },
   {
-    "line": "Tasim: I'll be heading to the Nemract Seaskipper, if you want to tag along.",
-    "report": true
-  },
-  {
     "line": "Tasim: I'll meet you in Ragni. I have to deal with some things at the barracks first.",
     "report": true
   },
@@ -11441,10 +11433,6 @@
   },
   {
     "line": "Tasim: We reconnected. We went on some adventures. And, when eventually, he had to return to Wynn...",
-    "report": true
-  },
-  {
-    "line": "Tasim: What'd you think?",
     "report": true
   },
   {
@@ -67753,7 +67741,7 @@
     "file": "queensrecruit-representative-7"
   },
   {
-    "line": "Representative: Mel and Lanu, you'll be in E1.",
+    "line": "Representative: Mel and Lanu, you'll be in E2.",
     "file": "queensrecruit-representative-8"
   },
   {
@@ -69197,7 +69185,7 @@
     "file": "queensrecruit-tasim-182"
   },
   {
-    "line": "Tasim: Anyway, I'll be heading to the Nemract Seaskipper if you want to tag along.",
+    "line": "Tasim: I'll be heading to the Nemract Seaskipper, if you want to tag along.",
     "file": "queensrecruit-tasim-183"
   },
   {
@@ -69217,7 +69205,7 @@
     "file": "queensrecruit-tasim-187"
   },
   {
-    "line": "Tasim: What did you think?",
+    "line": "Tasim: What'd you think?",
     "file": "queensrecruit-tasim-188"
   },
   {
