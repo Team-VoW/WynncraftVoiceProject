@@ -808,10 +808,6 @@
     "report": true
   },
   {
-    "line": "Aledar: So what do we do now? You mentioned another option- what was that about? What about it made it difficult?",
-    "report": true
-  },
-  {
     "line": "Aledar: Stop. Do you hear that? Over there, in the room next to us- I hear voices.",
     "report": true
   },
@@ -833,10 +829,6 @@
   },
   {
     "line": "Aledar: The door is locked...",
-    "report": true
-  },
-  {
-    "line": "Aledar: Then what's the catch? You would have tried this first if it were that simple.",
     "report": true
   },
   {
@@ -11236,10 +11228,6 @@
     "report": true
   },
   {
-    "line": "Tasim: If soldier is here, I take it that means today's the day we strike at the spiders?",
-    "report": true
-  },
-  {
     "line": "Tasim: I guess I thought... maybe... there'd- there'd be something after all this.",
     "report": true
   },
@@ -15536,7 +15524,7 @@
     "file": "arachnidsascent-tasim-1"
   },
   {
-    "line": "Tasim: If soldier is here, I take it that means today is the day we strike at the spiders?\n",
+    "line": "Tasim: If soldier is here, I take it that means today's the day we strike at the spiders?",
     "file": "arachnidsascent-tasim-1"
   },
   {
@@ -15648,7 +15636,7 @@
     "file": "arachnidsascent-captainenduyn-4"
   },
   {
-    "line": "Aledar: So, what do we do now? You mentioned another option- what was that about? What about it made it difficult?",
+    "line": "Aledar: So what do we do now? You mentioned another option- what was that about? What about it made it difficult?",
     "file": "arachnidsascent-aledar-4"
   },
   {
@@ -15664,7 +15652,7 @@
     "file": "arachnidsascent-captainenduyn-7"
   },
   {
-    "line": "Aledar: So what's the catch? You would have tried this first if it were that simple.",
+    "line": "Aledar: Then what's the catch? You would have tried this first if it were that simple.",
     "file": "arachnidsascent-aledar-5"
   },
   {
