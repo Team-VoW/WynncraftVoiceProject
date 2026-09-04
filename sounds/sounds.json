@@ -2532,10 +2532,6 @@
     "report": true
   },
   {
-    "line": "Coulmis: soldier..? I see, I haven't seen you around before.",
-    "report": true
-  },
-  {
     "line": "Coulmis: Stop right there! I couldn't just let a vagabond wander in to the vault, you'll be killed!",
     "report": true
   },
@@ -44125,7 +44121,7 @@
     "file": "thethanosdepository-coulmis-9"
   },
   {
-    "line": "Coulmis: Soldier I see, I haven't seen you around before.",
+    "line": "Coulmis: soldier..? I see, I haven't seen you around before.",
     "file": "thethanosdepository-coulmis-10"
   },
   {
