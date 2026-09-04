@@ -6920,18 +6920,6 @@
     "report": true
   },
   {
-    "line": "Mayor Alvin: I truly hope he will cease with these ridiculous ploys soon... but I can't bring myself to do more than give him a stern talking to.",
-    "report": true
-  },
-  {
-    "line": "Mayor Alvin: Oh, Ope... I take it your meeting with him went poorly? I must apologize for him, he is... a tough man to deal with sometimes.",
-    "report": true
-  },
-  {
-    "line": "Mayor Alvin: Then feel free to make yourselves at home! We welcome all travelers here, no matter how long their stay.",
-    "report": true
-  },
-  {
     "line": "Mehme: Alone.",
     "report": true
   },
@@ -13595,7 +13583,7 @@
     "file": "infestedplants-tasim-9"
   },
   {
-    "line": "Mayor Alvin: Oh, Ope... I take it your meeting with him went poorly? I must apologize for him, he is... a tough man to deal with.",
+    "line": "Mayor Alvin: Oh, Ope... I take it your meeting with him went poorly? I must apologize for him, he is... a tough man to deal with sometimes.",
     "file": "infestedplants-mayoralvin-2"
   },
   {
@@ -13607,7 +13595,7 @@
     "file": "infestedplants-tasim-10"
   },
   {
-    "line": "Mayor Alvin: Then feel free to make yourselves at home! We welcome all travelers here, no matter how long their stay is.",
+    "line": "Mayor Alvin: Then feel free to make yourselves at home! We welcome all travelers here, no matter how long their stay.",
     "file": "infestedplants-mayoralvin-4"
   },
   {
@@ -13711,7 +13699,7 @@
     "file": "infestedplants-mayoralvin-7"
   },
   {
-    "line": "Mayor Alvin: I truly hope he will cease with these ridiculous ploys sometime soon... but I can't bring myself to do more than give him a stern talking to.",
+    "line": "Mayor Alvin: I truly hope he will cease with these ridiculous ploys soon... but I can't bring myself to do more than give him a stern talking to.",
     "file": "infestedplants-mayoralvin-8"
   },
   {
