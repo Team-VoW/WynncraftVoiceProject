@@ -5792,23 +5792,7 @@
     "report": true
   },
   {
-    "line": "Jenprest: ... ah. This sewer has some history, y'know. Back durin' the Ragni Raids, they used to hide civilians here, in the old prison.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: An' count yourself lucky that we didn't run into anything too nasty in there. Some o' the stories...",
-    "report": true
-  },
-  {
-    "line": "Jenprest: But that's just a story! Thanks for your help, soldier, an' good luck.",
-    "report": true
-  },
-  {
     "line": "Jenprest: But we'll handle it. Everyone here's plenty capable, after all.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: Good, ya caught up. Watch your step around this place, soldier.",
     "report": true
   },
   {
@@ -5816,59 +5800,11 @@
     "report": true
   },
   {
-    "line": "Jenprest: I... we really don't want t' end up there.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: I can't stop you from explorin' the dungeon, but I recommend you gear up first.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: I lost you for a bit back there. 's lucky we found each other, t' be honest.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: I'm going to need ya to get your hands dirty. I'll need some assistance with the blockage.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: Keep your wits about you in there. All sorts of things could be lurkin'. Ready? Let's go!",
-    "report": true
-  },
-  {
-    "line": "Jenprest: Legend has it that Bob, the legendary warrior, was born in 'em durin' a raid on Ragni.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: Let's get out of here. D'you still have the explosive I gave you?",
-    "report": true
-  },
-  {
     "line": "Jenprest: Odd that I've got a room all to myself... but eh, I won't complain.",
     "report": true
   },
   {
-    "line": "Jenprest: Our scouts've confirmed that this area is clear, but a wrong turn could lead you into the old prison complex.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: Soldier! Good timing. We've been requestin' help for ages.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: Soldier! Have you been explorin' the sewers? I hope you're well prepared.",
-    "report": true
-  },
-  {
     "line": "Jenprest: Tough situation, isn't it? Lots o' secrecy on part of the Frumans...",
-    "report": true
-  },
-  {
-    "line": "Jenprest: We're usin' this side pipe. The larger one down the hill, well... ya don't want to stray too far into that one.",
-    "report": true
-  },
-  {
-    "line": "Jenprest: With the corrupted hordes terrorisin' the Plains, more and more people are moving to Ragni.",
     "report": true
   },
   {
@@ -13891,11 +13827,11 @@
     "file": "sewersofragni-jenprest-2"
   },
   {
-    "line": "Jenprest: Soldier! Good timing. We've been requesting help for ages.",
+    "line": "Jenprest: Soldier! Good timing. We've been requestin' help for ages.",
     "file": "sewersofragni-jenprest-3"
   },
   {
-    "line": "Jenprest: With the corrupted hordes terrorising the Plains, more and more people are moving to Ragni.",
+    "line": "Jenprest: With the corrupted hordes terrorisin' the Plains, more and more people are moving to Ragni.",
     "file": "sewersofragni-jenprest-4"
   },
   {
@@ -13903,7 +13839,7 @@
     "file": "sewersofragni-jenprest-5"
   },
   {
-    "line": "Jenprest: I'm going to need you to get your hands dirty. I'll need some assistance with the blockage.",
+    "line": "Jenprest: I'm going to need ya to get your hands dirty. I'll need some assistance with the blockage.",
     "file": "sewersofragni-jenprest-6"
   },
   {
@@ -13911,23 +13847,23 @@
     "file": "sewersofragni-jenprest-7"
   },
   {
-    "line": "Jenprest: We're using this side pipe. The larger one down the hill, well... you don't want to stray too far into that one.",
+    "line": "Jenprest: We're usin' this side pipe. The larger one down the hill, well... ya don't want to stray too far into that one.",
     "file": "sewersofragni-jenprest-8"
   },
   {
-    "line": "Jenprest: Keep your wits about you in there. All sorts of things could be lurking. Ready? Let's go!",
+    "line": "Jenprest: Keep your wits about you in there. All sorts of things could be lurkin'. Ready? Let's go!",
     "file": "sewersofragni-jenprest-9"
   },
   {
-    "line": "Jenprest: Good, you caught up. Watch your step around this place, soldier.",
+    "line": "Jenprest: Good, ya caught up. Watch your step around this place, soldier.",
     "file": "sewersofragni-jenprest-10"
   },
   {
-    "line": "Jenprest: Our scouts have confirmed that this area is clear, but a wrong turn could lead you into the old prison complex.",
+    "line": "Jenprest: Our scouts've confirmed that this area is clear, but a wrong turn could lead you into the old prison complex.",
     "file": "sewersofragni-jenprest-11"
   },
   {
-    "line": "Jenprest: I... we really don't want to end up there.",
+    "line": "Jenprest: I... we really don't want t' end up there.",
     "file": "sewersofragni-jenprest-12"
   },
   {
@@ -13943,11 +13879,11 @@
     "file": "sewersofragni-jenprest-15"
   },
   {
-    "line": "Jenprest: I lost you for a bit back there. It's lucky we found each other, to be honest.",
+    "line": "Jenprest: I lost you for a bit back there. 's lucky we found each other, t' be honest.",
     "file": "sewersofragni-jenprest-16"
   },
   {
-    "line": "Jenprest: ... ah. This sewer has some history, you know. Back during the Ragni Raids, they used to hide civilians here, in the old prison.",
+    "line": "Jenprest: ... ah. This sewer has some history, y'know. Back durin' the Ragni Raids, they used to hide civilians here, in the old prison.",
     "file": "sewersofragni-jenprest-17"
   },
   {
@@ -13955,7 +13891,7 @@
     "file": "sewersofragni-jenprest-18"
   },
   {
-    "line": "Jenprest: Let's get out of here. Do you still have the explosive I gave you?",
+    "line": "Jenprest: Let's get out of here. D'you still have the explosive I gave you?",
     "file": "sewersofragni-jenprest-19"
   },
   {
@@ -13967,7 +13903,7 @@
     "file": "sewersofragni-jenprest-21"
   },
   {
-    "line": "Jenprest: And count yourself lucky that we didn't run into anything too nasty in there. Some of the stories...",
+    "line": "Jenprest: An' count yourself lucky that we didn't run into anything too nasty in there. Some o' the stories...",
     "file": "sewersofragni-jenprest-22"
   },
   {
@@ -13975,11 +13911,11 @@
     "file": "sewersofragni-jenprest-23"
   },
   {
-    "line": "Jenprest: I can't stop you from exploring the dungeon, but I recommend you gear up first.",
+    "line": "Jenprest: I can't stop you from explorin' the dungeon, but I recommend you gear up first.",
     "file": "sewersofragni-jenprest-24"
   },
   {
-    "line": "Jenprest: Legend has it that Bob, the legendary warrior, was born in them during a raid on Ragni.",
+    "line": "Jenprest: Legend has it that Bob, the legendary warrior, was born in 'em durin' a raid on Ragni.",
     "file": "sewersofragni-jenprest-25"
   },
   {
@@ -13987,11 +13923,11 @@
     "file": "sewersofragni-jenprest-26"
   },
   {
-    "line": "Jenprest: But that's just a story! Thanks for your help, soldier, and good luck.",
+    "line": "Jenprest: But that's just a story! Thanks for your help, soldier, an' good luck.",
     "file": "sewersofragni-jenprest-27"
   },
   {
-    "line": "Jenprest: Soldier! Have you been exploring the sewers? I hope you're well prepared.",
+    "line": "Jenprest: Soldier! Have you been explorin' the sewers? I hope you're well prepared.",
     "file": "sewersofragni-jenprest-28"
   },
   {
