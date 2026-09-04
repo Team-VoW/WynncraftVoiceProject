@@ -1668,10 +1668,6 @@
     "report": true
   },
   {
-    "line": "Batelu: Bring me [1 Cluckles' Favourite Feather], [1 Baab's Wool] [1 Mooington's Skin] if you can find them.",
-    "report": true
-  },
-  {
     "line": "Batelu: How is your quest going along?",
     "report": true
   },
@@ -38834,7 +38830,7 @@
     "file": "reincarnation-batelu-11"
   },
   {
-    "line": "Batelu: Bring me [1 Cluckles' Favourite Feather], [1 Baab's Wool] & [1 Mooington's Skin] if you can find them.",
+    "line": "Batelu: Bring me [1 Cluckles' Favourite Feather], [1 Baab's Wool] [1 Mooington's Skin] if you can find them.",
     "file": "reincarnation-batelu-12"
   },
   {
