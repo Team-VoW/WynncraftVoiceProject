@@ -1588,10 +1588,6 @@
     "report": true
   },
   {
-    "line": "Bandit Leader: Ah... that sceptre's too valuable for us to lose. Maybe we pay 'er a visit, persuade her to... stop lookin'.",
-    "report": true
-  },
-  {
     "line": "Bandit Leader: It appears that the bandits took some of your money while you were unconscious",
     "report": true
   },
@@ -20866,7 +20862,7 @@
     "file": "kingdomofsand-bandit2-2"
   },
   {
-    "line": "Bandit Leader: Ah... that sceptre's too valuable for us to lose. Maybe we pay 'er a visit, persaude her to... stop lookin'.",
+    "line": "Bandit Leader: Ah... that sceptre's too valuable for us to lose. Maybe we pay 'er a visit, persuade her to... stop lookin'.",
     "file": "kingdomofsand-banditleader-4"
   },
   {
