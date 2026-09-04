@@ -7652,10 +7652,6 @@
     "report": true
   },
   {
-    "line": "Orc Guard: Someone outside door. Check!",
-    "report": true
-  },
-  {
     "line": "Orikal: ...pass?",
     "report": true
   },
@@ -29376,7 +29372,7 @@
     "file": "reclaimingthehouse-elphaba-36"
   },
   {
-    "line": "Orc Guard: Someone outside door? Check!",
+    "line": "Orc Guard: Someone outside door. Check!",
     "file": "reclaimingthehouse-orcguard-1"
   },
   {
