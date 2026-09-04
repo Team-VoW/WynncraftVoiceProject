@@ -8324,10 +8324,6 @@
     "report": true
   },
   {
-    "line": "Relend: Take a look at your content book if you forgot your project, this island has supplies we ought to collect!",
-    "report": true
-  },
-  {
     "line": "Relend: That is my ship, the Little Wing. But I'm afraid it's not ready for boarding.",
     "report": true
   },
@@ -49660,7 +49656,7 @@
     "file": "fantasticvoyage-relend-42"
   },
   {
-    "line": "Relend: Take a look at your quest book if you forgot your project, this island has supplies we ought to collect!",
+    "line": "Relend: Take a look at your content book if you forgot your project, this island has supplies we ought to collect!",
     "file": "fantasticvoyage-relend-43"
   },
   {
@@ -49788,7 +49784,7 @@
     "file": "fantasticvoyage-relend-74"
   },
   {
-    "line": "???: iarracht eile m'uaireadóir a imghabháil.",
+    "line": "???: iarracht eile m'uaireadoir a imghabhail.",
     "file": "fantasticvoyage-theeye-1"
   },
   {
@@ -49800,7 +49796,7 @@
     "file": "fantasticvoyage-relend-76"
   },
   {
-    "line": "???: imithe as mo radharc, idirghabhálaí.",
+    "line": "???: imithe as mo radharc, idirghabhalai.",
     "file": "fantasticvoyage-theeye-2"
   },
   {
