@@ -5192,14 +5192,6 @@
     "report": true
   },
   {
-    "line": "Gordon: I'm gonna go find my friend Dejol now  wait, you know who he is??",
-    "report": true
-  },
-  {
-    "line": "Gordon: It's so sad... So many people are constantly displaced by the canyon's movements destroying their homes every year. I remember hearing a story once, it was about",
-    "report": true
-  },
-  {
     "line": "Gordon: Looks like you've found all three of Dejol's crew members! You should head back to Dejol.",
     "report": true
   },
@@ -45521,7 +45513,7 @@
     "file": "thelost-gordon-2"
   },
   {
-    "line": "Gordon: It’s so sad... So many people are constantly displaced by the canyon’s movements destroying their homes every year. I remember hearing a story once, it was about–",
+    "line": "Gordon: It's so sad... So many people are constantly displaced by the canyon's movements destroying their homes every year. I remember hearing a story once, it was about",
     "file": "thelost-gordon-3"
   },
   {
@@ -45590,7 +45582,7 @@
     "file": "thelost-gordon-18"
   },
   {
-    "line": "Gordon: I’m gonna go find my friend Dejol now— wait, you know who he is??",
+    "line": "Gordon: I'm gonna go find my friend Dejol now  wait, you know who he is??",
     "file": "thelost-gordon-19"
   },
   {
