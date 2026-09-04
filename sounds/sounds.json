@@ -1912,14 +1912,6 @@
     "report": true
   },
   {
-    "line": "Calamaro: You can trade it in at the shop right over there, it's hard to miss. I will give you a last advise, you don't want to eat that slimy fish.",
-    "report": true
-  },
-  {
-    "line": "Calamaro: You found the pufferfish! Who would have thought such a small thing could solve our problem. I will start bringing back the fish immediately, but first we will have a nice hot soup. Please take this as payback for your services.",
-    "report": true
-  },
-  {
     "line": "Calo: All you have to do is board my ship. Oh, this was also from Ackbar.",
     "report": true
   },
@@ -22615,11 +22607,11 @@
     "file": "underice-gernald-8"
   },
   {
-    "line": "Calamaro: You found a pufferfish! Who would have thought such a small thing could solve our problem. I will start bringing back the fish immediately, but first we will have a nice hot soup. Please take this as payback for your services.",
+    "line": "Calamaro: You found the pufferfish! Who would have thought such a small thing could solve our problem. I will start bringing back the fish immediately, but first we will have a nice hot soup. Please take this as payback for your services.",
     "file": "underice-calamaro-6"
   },
   {
-    "line": "Calamaro: You can trade it at the shop right over there, it's hard to miss. I will give you a last advise, you don't want to eat that slimy fish.",
+    "line": "Calamaro: You can trade it in at the shop right over there, it's hard to miss. I will give you a last advise, you don't want to eat that slimy fish.",
     "file": "underice-calamaro-7"
   },
   {
