@@ -5988,10 +5988,6 @@
     "report": true
   },
   {
-    "line": "Junes: It's clear that the empire was seriously advanced, possibly more advanced than us in some ways.",
-    "report": true
-  },
-  {
     "line": "Ka L'argwit: Enter the base of the trunk, and Entamis will guide you to the creature.",
     "report": true
   },
@@ -63550,7 +63546,7 @@
     "fallOff": 200
   },
   {
-    "line": "Junes: It's clear that the empire were seriously advanced, possibly more advanced than us in some ways.",
+    "line": "Junes: It's clear that the empire was seriously advanced, possibly more advanced than us in some ways.",
     "file": "almujdesert-junes-30",
     "fallOff": 200
   },
