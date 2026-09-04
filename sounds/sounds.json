@@ -1552,10 +1552,6 @@
     "report": true
   },
   {
-    "line": "Bandit: I don't know you, and you don't know me. Got it?",
-    "report": true
-  },
-  {
     "line": "Bandit: I had no idea what the criminals did after that, I haven't been back to my shop since the incident.",
     "report": true
   },
@@ -21651,7 +21647,7 @@
     "file": "wrathofthemummy-bandit-7"
   },
   {
-    "line": "Bandit: I don't know you, and you don't know me. Okay?",
+    "line": "Bandit: I don't know you, and you don't know me. Got it?",
     "file": "wrathofthemummy-bandit-8"
   },
   {
