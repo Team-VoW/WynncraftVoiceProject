@@ -3396,10 +3396,6 @@
     "report": true
   },
   {
-    "line": "Dren: But.. There is a hidden element,  Darkness .",
-    "report": true
-  },
-  {
     "line": "Dr Essren: Aaaaaaaarrrgargg!",
     "report": true
   },
@@ -58257,7 +58253,7 @@
     "file": "ajourneybeyond-dren-6"
   },
   {
-    "line": "Dren: But.. There is a hidden element, ? Darkness .",
+    "line": "Dren: But.. There is a hidden element,  Darkness .",
     "file": "ajourneybeyond-dren-7"
   },
   {
