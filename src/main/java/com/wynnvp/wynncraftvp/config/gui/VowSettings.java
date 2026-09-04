@@ -4,6 +4,7 @@
  */
 package com.wynnvp.wynncraftvp.config.gui;
 
+import com.wynnvp.wynncraftvp.config.BetaConfig;
 import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import java.util.List;
 
@@ -60,9 +61,10 @@ public final class VowSettings {
                         section(
                                 "downloading",
                                 VowSetting.bool(
-                                        "downloadSounds",
-                                        () -> config.downloadSounds,
-                                        value -> config.downloadSounds = value))),
+                                                "downloadSounds",
+                                                () -> config.downloadSounds,
+                                                value -> config.downloadSounds = value)
+                                        .enabledWhen(() -> !BetaConfig.isBetaBuild()))),
                 category(
                         "acoustics",
                         section(
