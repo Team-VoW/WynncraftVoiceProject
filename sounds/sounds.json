@@ -2520,14 +2520,6 @@
     "report": true
   },
   {
-    "line": "Corkus Delegate: We first arrived on Corkus 150 years ago.",
-    "report": true
-  },
-  {
-    "line": "Corkus Delegate: West, you can buy armour, and there is another entrance to the potion shop.",
-    "report": true
-  },
-  {
     "line": "Coulmis: If you're looking for Ozoth, she's probably up on her spire. You can follow the signs outside of Thanos to find her.",
     "report": true
   },
@@ -6761,10 +6753,6 @@
   },
   {
     "line": "Maxie: We need those keys to get in and shut down the factory once more.",
-    "report": true
-  },
-  {
-    "line": "Maxie: We saw a mech  A new mech! It looked different like it was made in-",
     "report": true
   },
   {
@@ -44379,7 +44367,7 @@
     "onPlayer": true
   },
   {
-    "line": "Corkus Delegate: We first arrived on Corkus 350 years ago.",
+    "line": "Corkus Delegate: We first arrived on Corkus 150 years ago.",
     "file": "theenvoypart1-corkusdelegate-4",
     "onPlayer": true
   },
@@ -44429,7 +44417,7 @@
     "onPlayer": true
   },
   {
-    "line": "Corkus Delegate: West, you can buy armor, and there is another entrance to the potion shop.",
+    "line": "Corkus Delegate: West, you can buy armour, and there is another entrance to the potion shop.",
     "file": "theenvoypart1-corkusdelegate-14",
     "onPlayer": true
   },
@@ -44631,7 +44619,7 @@
     "file": "theenvoypart1-maxie-36"
   },
   {
-    "line": "Maxie: We saw a mech… A new mech! It looked different like it was made in-",
+    "line": "Maxie: We saw a mech  A new mech! It looked different like it was made in-",
     "file": "theenvoypart1-maxie-37"
   },
   {
