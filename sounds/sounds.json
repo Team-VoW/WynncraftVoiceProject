@@ -11732,22 +11732,6 @@
     "report": true
   },
   {
-    "line": "The Cook: I can't believe what is happening to me...",
-    "report": true
-  },
-  {
-    "line": "The Cook: Now, how can you help...",
-    "report": true
-  },
-  {
-    "line": "The Cook: Wait! That's the Grook! Go chase it down and get my cake back!",
-    "report": true
-  },
-  {
-    "line": "The Cook: Well, now I guess you are going to have to help me find the ingredients and bake another...",
-    "report": true
-  },
-  {
     "line": "The Cook: W-what? It got away?!",
     "report": true
   },
@@ -13189,7 +13173,7 @@
     "file": "cookassistant-thecook-1"
   },
   {
-    "line": "The Cook: I can't believe what is happening to me.",
+    "line": "The Cook: I can't believe what is happening to me...",
     "file": "cookassistant-thecook-2"
   },
   {
@@ -13201,11 +13185,11 @@
     "file": "cookassistant-thecook-4"
   },
   {
-    "line": "The Cook: Now can you help...",
+    "line": "The Cook: Now, how can you help...",
     "file": "cookassistant-thecook-5"
   },
   {
-    "line": "The Cook: That's the Grook! Go chase it down and get my cake back!",
+    "line": "The Cook: Wait! That's the Grook! Go chase it down and get my cake back!",
     "file": "cookassistant-thecook-6"
   },
   {
@@ -13221,7 +13205,7 @@
     "file": "cookassistant-thecook-9"
   },
   {
-    "line": "The Cook: Well, I guess you are going to have to help me find the ingredients and bake another...",
+    "line": "The Cook: Well, now I guess you are going to have to help me find the ingredients and bake another...",
     "file": "cookassistant-thecook-10"
   },
   {
