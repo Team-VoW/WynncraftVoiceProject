@@ -672,10 +672,6 @@
     "report": true
   },
   {
-    "line": "Aledar: ...Anyway, Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs- you probably saw it on your way in.",
-    "report": true
-  },
-  {
     "line": "Aledar: ...I think she would have insisted it be her. Even though both of us had something we would be le-...",
     "report": true
   },
@@ -780,10 +776,6 @@
     "report": true
   },
   {
-    "line": "Aledar: Oh, wait. There's a stop we've got to make first. Follow me to the Item Upgrader!",
-    "report": true
-  },
-  {
     "line": "Aledar: Please don't leave me!",
     "report": true
   },
@@ -865,10 +857,6 @@
   },
   {
     "line": "Aledar: You can also remove powders from your weapon here if you need to. Don't worry! You will get your powders back if you do so.",
-    "report": true
-  },
-  {
-    "line": "Aledar: You can apply various elemental powders to your weapons, which lets them deal types of damage they might not have been able to before.",
     "report": true
   },
   {
@@ -14322,7 +14310,7 @@
     "file": "takingthetower-aledar-14"
   },
   {
-    "line": "Aledar: You can apply various elemental powders to your weapons here, which lets them deal types of damage they might not have been able to before.",
+    "line": "Aledar: You can apply various elemental powders to your weapons, which lets them deal types of damage they might not have been able to before.",
     "file": "takingthetower-aledar-15"
   },
   {
@@ -14342,7 +14330,7 @@
     "file": "takingthetower-aledar-19"
   },
   {
-    "line": "Aledar: Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs- you probably saw it on your way in.",
+    "line": "Aledar: ...Anyway, Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs- you probably saw it on your way in.",
     "file": "takingthetower-aledar-20"
   },
   {
@@ -14451,7 +14439,7 @@
     "file": "takingthetower-aledar-34"
   },
   {
-    "line": "Aledar: Oh, wait. There's a stop we've got to make first. Follow me to the Powder Master!",
+    "line": "Aledar: Oh, wait. There's a stop we've got to make first. Follow me to the Item Upgrader!",
     "file": "takingthetower-aledar-35"
   },
   {
