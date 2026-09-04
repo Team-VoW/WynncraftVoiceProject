@@ -6272,10 +6272,6 @@
     "report": true
   },
   {
-    "line": "Linton: Dang, you're right. Can't forget about the historical value. Good catch.",
-    "report": true
-  },
-  {
     "line": "Linton: Hey! Someone's coming!",
     "report": true
   },
@@ -19392,7 +19388,7 @@
     "file": "themercenary-lanu-9"
   },
   {
-    "line": "Linton: Ah, true. Can't forget about the historical value. Good catch.",
+    "line": "Linton: Dang, you're right. Can't forget about the historical value. Good catch.",
     "file": "themercenary-linton-7"
   },
   {
