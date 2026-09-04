@@ -3356,10 +3356,6 @@
     "report": true
   },
   {
-    "line": "Dr Essren: Aaaaaaaarrrgargg!",
-    "report": true
-  },
-  {
     "line": "Drucksh: ... B-brother! What are y-you doing here?",
     "report": true
   },
@@ -11616,19 +11612,11 @@
     "report": true
   },
   {
-    "line": "The Assistant: That is my master's house, you...must go back out the east gate and enter the hut.",
-    "report": true
-  },
-  {
     "line": "The Assistant: The...the...cows. Steal...from them.",
     "report": true
   },
   {
     "line": "The Assistant: This was...for the better...",
-    "report": true
-  },
-  {
-    "line": "The Assistant: You must...ensure that it worked. You...are much stronger than I, stranger...",
     "report": true
   },
   {
@@ -14902,7 +14890,7 @@
     "file": "potionmaking-theassistant-6"
   },
   {
-    "line": "The Assistant: You must...ensure that it has worked. You...are much stronger than I, stranger...",
+    "line": "The Assistant: You must...ensure that it worked. You...are much stronger than I, stranger...",
     "file": "potionmaking-theassistant-7"
   },
   {
@@ -14910,7 +14898,7 @@
     "file": "potionmaking-theassistant-8"
   },
   {
-    "line": "The Assistant: That is my master's house, you must go back out the east gate and enter the hut.",
+    "line": "The Assistant: That is my master's house, you...must go back out the east gate and enter the hut.",
     "file": "potionmaking-theassistant-9"
   },
   {
@@ -14942,7 +14930,7 @@
     "file": "potionmaking-theassistant-16"
   },
   {
-    "line": "The Assistant: Quickly, get me...[8 Red Mushroom]do as I asked... go through the Black Road outside the east gate from here.",
+    "line": "The Assistant: Quickly, get me... [8 Red Mushroom] as I asked... go through the Black Road outside the east gate from here.",
     "file": "potionmaking-theassistant-17"
   },
   {
@@ -14961,7 +14949,7 @@
     "onPlayer": true
   },
   {
-    "line": "Dr Essren: Aaaaaarrrggg!",
+    "line": "Dr Essren: Aaaaaaaarrrgargg!",
     "file": "potionmaking-dressren-4",
     "onPlayer": true
   },
