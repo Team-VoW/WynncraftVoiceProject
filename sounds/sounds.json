@@ -3856,10 +3856,6 @@
     "report": true
   },
   {
-    "line": "Enkser: Ah, bless. And I presume Betty did all the work while you just- lounged around.",
-    "report": true
-  },
-  {
     "line": "Enkser: Anyway! I wish you luck on your horse training career!",
     "report": true
   },
@@ -3881,10 +3877,6 @@
   },
   {
     "line": "Enkser: Hey, have you found my [1 Stable Key] yet? It should be somewhere in the tunnel in Ternaves.",
-    "report": true
-  },
-  {
-    "line": "Enkser: Hey, it's you! Got my barn key yet?",
     "report": true
   },
   {
@@ -15244,11 +15236,11 @@
     "file": "stablestory-enkser-10"
   },
   {
-    "line": "Enkser: Hey, it's you! Got my barn key?",
+    "line": "Enkser: Hey, it's you! Got my barn key yet?",
     "file": "stablestory-enkser-11"
   },
   {
-    "line": "Enkser: Ah, god bless. And I presume Betty did all the work while you just- lounged around.",
+    "line": "Enkser: Ah, bless. And I presume Betty did all the work while you just- lounged around.",
     "file": "stablestory-enkser-12"
   },
   {
