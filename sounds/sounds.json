@@ -11800,18 +11800,6 @@
     "report": true
   },
   {
-    "line": "Therck: Ah, you're back. Do you have the mushroom?",
-    "report": true
-  },
-  {
-    "line": "Therck: Excellent... Now I might finally be able to climb these stairs...",
-    "report": true
-  },
-  {
-    "line": "Therck: Take this ring. It's an accessory item. You can identify it at the nearby Item Identifier.",
-    "report": true
-  },
-  {
     "line": "Thesead Child: Do they hate kids, or something? I wanna drink too!",
     "report": true
   },
@@ -13126,11 +13114,11 @@
     "file": "enzansbrother-therck-6"
   },
   {
-    "line": "Therck: Ah, you're back! Do you have the mushroom?",
+    "line": "Therck: Ah, you're back. Do you have the mushroom?",
     "file": "enzansbrother-therck-7"
   },
   {
-    "line": "Therck: Excellent... Now I might finally be able to climb these stairs!",
+    "line": "Therck: Excellent... Now I might finally be able to climb these stairs...",
     "file": "enzansbrother-therck-8"
   },
   {
@@ -13138,7 +13126,7 @@
     "file": "enzansbrother-therck-9"
   },
   {
-    "line": "Therck: Take this ring. It's an accessory item! You can identify it at the nearby Item Identifier.",
+    "line": "Therck: Take this ring. It's an accessory item. You can identify it at the nearby Item Identifier.",
     "file": "enzansbrother-therck-10"
   },
   {
