@@ -11120,10 +11120,6 @@
     "report": true
   },
   {
-    "line": "Tasim: Captain- we're capable fighters too. Let us come along and help fight off these undead.",
-    "report": true
-  },
-  {
     "line": "Tasim: Come to think of it... I don't think you ever mentioned what you needed it for.",
     "report": true
   },
@@ -15179,7 +15175,7 @@
     "file": "elementalexercise-captainragon-20"
   },
   {
-    "line": "Tasim: Captain- we're capable fighters too. Let us come along and help fight off these undead!",
+    "line": "Tasim: Captain- we're capable fighters too. Let us come along and help fight off these undead.",
     "file": "elementalexercise-tasim-15"
   },
   {
