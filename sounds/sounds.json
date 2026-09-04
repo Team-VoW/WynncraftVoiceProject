@@ -108,10 +108,6 @@
     "report": true
   },
   {
-    "line": "???: Burick. I'm simply a humble green tea trader.",
-    "report": true
-  },
-  {
     "line": "???: But... It's a livin'! I'm doin' what I'm supposed to, and it's the only purpose I've ever known. Besides alcohol, 'course.",
     "report": true
   },
@@ -124,10 +120,6 @@
     "report": true
   },
   {
-    "line": "???: Come back when you do.",
-    "report": true
-  },
-  {
     "line": "???: Dark precedes light. It is the nature of things. I feel the shade may regret throwing away its power on this diversion, come the inevitable sunrise.",
     "report": true
   },
@@ -136,19 +128,11 @@
     "report": true
   },
   {
-    "line": "???: Do you have them all?",
-    "report": true
-  },
-  {
     "line": "???: Explore... These lands.",
     "report": true
   },
   {
     "line": "???: For as long as there is injustice; there will be those who seek to right it.",
-    "report": true
-  },
-  {
-    "line": "???: Go back to bed recruit, you'll need rest for your training tomorrow.",
     "report": true
   },
   {
@@ -200,10 +184,6 @@
     "report": true
   },
   {
-    "line": "???: I'm, um, Arris. I don't know what's happening, I got shoved into here by the festival organizer with these other two.",
-    "report": true
-  },
-  {
     "line": "???: I must think of if it has practiced, with such dramaticism. A simple nightfall is no worry of mine, and no worry of my claim.",
     "report": true
   },
@@ -221,10 +201,6 @@
   },
   {
     "line": "???: It seems the TNT has stopped for now. You should get back to the ship before it starts again.",
-    "report": true
-  },
-  {
-    "line": "???: It's nice to meet you too. I'm Cerisa, a petty thief.",
     "report": true
   },
   {
@@ -449,10 +425,6 @@
   },
   {
     "line": "???: We've haven't had a warm meal in many years..l.. you've come at the right time... hehe...",
-    "report": true
-  },
-  {
-    "line": "???: Who is there? State your name!",
     "report": true
   },
   {
@@ -2388,335 +2360,11 @@
     "report": true
   },
   {
-    "line": "Commander Ferreo: Alright, I have seen enough.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Alright, that's enough, the duel is over.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: As soldiers, you represent Fruma, and Fruma is the embodiment of strength, pride, and righteousness. These traits should all be reflected in you.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Blocking precisely as your opponent strikes may catch them off guard, allowing you an opportunity to retaliate.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Both of you wait there. I want to discuss something with you two, face to face.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Does Arnol know you're a spy? Imagine what his family would think, if they found out he's conspiring with the resistance.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Does upsetting a single cursed one really frighten you that much, Strumon? Besides, I expect Sovereign Majin will have arrived by then, your concerns are unfounded.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Do not go against what you are told to do again.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Do not take my advice for granted.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Each of you will be separated into groups depending on your division. For each challenge, your group will be paired with another group.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Excellent, tomorrow Adder will duel against Arnol. His family name can no longer make up for his weakness!",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: For both of your sakes, I insist you sever your bond with him.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Goodbye, traitor!",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: However, if for whatever reason you get lost, go to the secretary at the main lobby desk and she will tell you where to go.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I am sure many of you believe that you deserve to become soldiers of Fruma. You've come farther than most, this is the last step to reaching your goal.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I don't want you to start the duel yet, your opponent has yet to arrive. Let's wait together for him.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: If Majin wants better results, this is how we do that... Just make sure to keep Adder in line, we don't want him going too far.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: If you are unable to realize this potential fully, or become more trouble than you're worth, I won't hesitate to have you kicked out.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: If you are unsure if you are able to meet our expectations, well... I strongly suggest you take this training program seriously...",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I'll let them deal with him. But you... the responsibility of prosecuting you has been lended to me.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I'll make you beg for mercy!",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: In his stead, I will be the one to deliver the opening speech.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I regret to inform you all that Sovereign Majin is unable to attend our opening ceremony.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I've been looking forward to speaking with you, one on one.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I've never lost a duel, don't fool yourself into thinking I'd let you change that!",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I want Effal to be exiled to Wynn immediately for treason. He let the spy in, and must be punished for that. Find a guard to replace his position as Recruiter, anyone would be more competent than him.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I want you to remember that the only reason you're here is because I allowed you to be here, and because I see some potential in you.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I will be unable to oversee your challenges today as there is something I must attend to. I have asked another instructor to do so, they are waiting in the dueling rooms.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I will not give up so easily, nor will I do nothing while we wait for Sovereign Majin to arrive...",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I won't die here! Not to the likes of you!",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I would have thought that by now you'd both know insubordination isn't tolerated here. Neither is treason...",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: I would like a word with you first.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Make sure to get yourself an estoc before entering the challenge room, I will oversee the challenges shortly, so do not start until I get there.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Nevertheless, if what you say about Perin is true, perhaps it is for the best that he does not become a recruit.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: No. This is an opportunity, Strumon, one that I do not want to let slip. Verdi will be sent home, and that recruit of your's will not be punished, but praised.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Now, both of you, exit the room and take a look at your final rankings of the day.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Now, go convene with your recruiters in the main room to your left, then they will take you to your first training session.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Now go start the duels, good luck recruits.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Now we will be bringing you to your first training session of the day, I hope you all are ready.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Once you're done here, head up to the recruit barracks and rest for the night.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: So, for your sake, I hope you do well on these challenges.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: So how did it go, is Verdi alright?",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: soldier is the victor.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: soldier is the winner, clearly.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: So you deliberately acted against the directions given to you?",
-    "report": true
-  },
-  {
     "line": "Commander Ferreo: Speak with me first, soldier.",
     "report": true
   },
   {
-    "line": "Commander Ferreo: Step up, and the duel may begin. If either of you hold back, I will make you start the duel again, as many times as is needed.",
-    "report": true
-  },
-  {
     "line": "Commander Ferreo: Stop right there recruit!",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: That was the last training exercise for the day.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: The barracks are up those stairs in the room directly across from the staircase.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: The instructors, your recruiters, and I expect that all of you deserve to be soldiers. If you meet or exceed our expectations, we will do our best to aid in your growth.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: The leaders of each region grouping will be the recruiter who originally sent you the invitation letter.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: The most important skill to have in a duel is patience, to know when you have an opening to attack. But of course, agility and strength are also deciding factors.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: There is no hope for you or your kind in Fruma!",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: There you are, Arnol. I was told that you had an outburst during lunch. You will come to know that such things are unacceptable here.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: The rules are the same as the day prior. Grab a training sword if you have not from the table and enter the large door when you are ready.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: They will be the ones leading you to where you're supposed to be for the first couple of days here, following an assigned schedule.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: This is the end for you and your pathetic resistance!",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: This is who you'll be dueling against Arnol. You two are friends, yes? Well this duel will surely teach both of you a valuable lesson.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: This test serves as a way to further gauge your skills, as well as an opportunity to show off the strategies you have developed in melee.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: This training program only serves as a method of preparing you for your eventual role in military service.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: This will be the last of your training for today. Singular melee combat against another recruit.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: To think that this damage was done with a training sword... It's... Incredible.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Use your agility to avoid attacks, but if you find yourself unable to dodge, you must stand on guard and block incoming attacks.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: We are very thankful to Sovereign Majin for taking time out of his responsibilities to deliver the opening speech.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: We have a spy amongst our recruits and know who they are, yet that messenger expects us to not do anything about it until Sovereign Majin gets here!?",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Welcome to Fort Tericen, recruit. Enter the room to the right so that we may begin the opening speech.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: We've found ourselves in a terribly difficult situation, Strumon...",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: When up against the enemy, you may find yourself in a similar situation. You must be prepared for when this happens.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Where are you off to? I don't remember dismissing either of you.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Who have you brought me Effal, this is not Perin.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: With that being said, there is a difference between being a soldier, and deserving to be a soldier.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Yes, you're probably right. Nevertheless, once Sovereign Majin arrives and sees that I let a spy into the recruit program... I fear that all that I have worked for will be lost...",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: You are expected to be at your designated area, on time and ready.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: You did better than expected Arnol. Yet the result was still what I imagined it would be.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Your arrogance truly has no bounds. How many punishments will I have to give you until you start to take things here seriously?",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: You're becoming a lost cause, Arnol. Now go, there is something I would like to discuss with soldier in private.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Your final challenge today will be singular combat against another recruit.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Your kindness towards him is doing him no favour. Arnol must know what pain is like before he can become stronger, and your friendship is preventing that.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Your performance will be judged by me, if I see one side clearly winning over the other I will declare a victor.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Your ranking can be found on the board over there. Be sure to take a look, I hope it can serve as motivation.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: Your weapon is a wooden training estoc. The edges are dulled, so you will not need to hold back your strength.",
-    "report": true
-  },
-  {
-    "line": "Commander Ferreo: You should know better than to question the orders of your superior, Arnol. Now both of you, into the dueling room.",
     "report": true
   },
   {
@@ -4849,10 +4497,6 @@
   },
   {
     "line": "Excavator Placardus: What do you want?",
-    "report": true
-  },
-  {
-    "line": "Excited Child: I love when the festival finally comes around again!",
     "report": true
   },
   {
@@ -7564,23 +7208,11 @@
     "report": true
   },
   {
-    "line": "Military Doctor: I'm afraid not Commander, his injuries are severe. I recommend sending him home to recover.",
-    "report": true
-  },
-  {
-    "line": "Military Doctor: Maybe after he regains his former strength, he will be able to rejoin the program, but it's difficult to say...",
-    "report": true
-  },
-  {
     "line": "Military Doctor: Quickly run back to your bed before Commander Ferreo Catches you!",
     "report": true
   },
   {
     "line": "Military Doctor: Who is that? Is someone watching us?...",
-    "report": true
-  },
-  {
-    "line": "Military Guard: Commander, Recruiter, there is an urgent matter that requires attending to. Please, follow me!",
     "report": true
   },
   {
@@ -7592,27 +7224,11 @@
     "report": true
   },
   {
-    "line": "Military Guard: No.",
-    "report": true
-  },
-  {
     "line": "Military Guard: Only those who are or are accompanied by Fruman military officials may enter Fort Tericen.",
     "report": true
   },
   {
     "line": "Military Guard: Speak with the secretary if you're lost.",
-    "report": true
-  },
-  {
-    "line": "Military Guard: Thank the Queen, I won't have to follow this idiot around anymore, now that the recruiting process is done.",
-    "report": true
-  },
-  {
-    "line": "Military Guard: This childish tantrum of yours will be noted. Now come with me before you start a scene. You are here to serve us, not the other way around.",
-    "report": true
-  },
-  {
-    "line": "Military Guard: You are Arnol, yes? You must come with me.",
     "report": true
   },
   {
@@ -7624,219 +7240,7 @@
     "report": true
   },
   {
-    "line": "Military Instructor: Alright, soldier, stand on that plate in front of you to start the test.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: As a soldier, you will be defined by your endurance, it is your will to carry on through the fight!",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: A shield can be an incredibly useful tool for a soldier, but holding them up constantly can often interfere with your mobility.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: As part of this training exercise, you will be jumping from platforms until you reach the end of an endurance course.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Defense is one of the most important aspects of combat. You should not expect yourself to be able to dodge every incoming attack.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: For those recruits, until this lesson is fully learned, continued failure will be far more valuable than success.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Good job recruit, exit through the door across from you.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Good luck recruits, I will be judging you from an overlook point. If you haven't already, take a shield from the shield rack next to Recruiter Effal.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: I believe that failure can be an excellent teacher. Some of you may still need to learn that failure should elicit a change from yourself.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: If you fall, you will have to go back to the start and continue from there.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: I have set up a turret here that you can use to practice getting used to handling the weighted shield.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: I left the jump pad in here in case you want to get used to the feeling again. Enter the large door behind me to start the course when you're ready.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: I'll keep the summary short since I'm sure most of you remember the gist of the test from yesterday.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: I noticed that some of you struggled with lifting the shield on the first day...",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: It's your turn soldier, stand on that plate to start the test.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: I've also adjusted the turret timings a little. Two turrets are now able to fire at you in quick succession, you must be ready to block the arrows from both of them.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: I've installed a jump pad in this room to the right of me if any of you want to practice before starting the course.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Knowing when to hold up your shield to defend yourself against incoming arrows or attackers, is thus, a vital skill to learn.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Like before, you'll be judged based on how quickly you can complete the course and reach the exit.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Make sure to watch where you're going, this course will have false platforms to trick you up if you're not paying attention.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Most of you did well on the first course, so we're going to be upping the difficulty this time. I trust that you're all ready.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Most of you will only be able to hold your shield up for a second or two at a time, so you must do so wisely.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Now that everyone's here, we may finally begin.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: On top of that, the three central turrets have been elevated. You'll have to aim your shield higher to block arrows coming from them.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Perhaps those people would like some sort of crutch to help them perform better, but I must say that no such thing will be granted.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Simply stand where I am now, then click the button behind me. Face the turret and hold up your shield when, or just before, it fires an arrow.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Soon you'll all hopefully be able to complete a course similar to this one but without the crutch.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Then, once you're ready, enter the large door behind me to start the test. Oh, and the training turret is still here if you need it.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: The terrain you battle on will never be optimal, so you must be able to adapt to it to ensure your success.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: The turrets will give an indication of when they are about to fire, however, the shields provided to you have weights embedded into them.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: This time, instead of three turrets shooting at you, the number has been upped to five.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: To use the jump pads, simply stand on them and jump. The mechanism will detect the sudden weight loss and boost you.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: We have installed jump pads on the platforms to help ease you into making riskier leaps.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Welcome recruits to day two of your training in the shield challenge.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Welcome recruits to the shield challenge.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Well, it looks like we can start now that everyone's here.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Well done, now exit through the door across from you.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: When you're ready to start the challenge, enter the large door behind me.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: With that being said, I wish all of you luck on the challenge! Pick up a shield on the rack next to Recruiter Ezero if you haven't.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: You may enter the large door behind me to begin. Oh, and your performance will be judged on how quickly you reach the exit.",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: You're up soldier, do your best!",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: You're up soldier, good luck!",
-    "report": true
-  },
-  {
-    "line": "Military Instructor: Your training today will revolve around holding up a shield against arrows that are being fired from turrets.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: Ah, I hope you're ready, we should be arriving soon.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: Although, he will surely be shamed by his community for not becoming a soldier, but frankly, he deserves it.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: But let me warn you, the process is not all sunshine and rainbows.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: Fort Tericen is run by the esteemed Commander Ferreo. When you meet him, it's very important that you show him his due respect.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: Get into the carriage, we'll take you to Fort Tericen.",
-    "report": true
-  },
-  {
     "line": "Military Recruiter: Head into the carriage and then we'll go to Fort Tericen.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: Hmmm...",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: I am disappointed in you Perin.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: Oh, and don't keep us waiting. Or it might end up on your record.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: Oh really, has a mentor been preparing you? Surely your family could afford one.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: So how about I take you to join the Fruman military instead of Perin?",
     "report": true
   },
   {
@@ -7844,67 +7248,7 @@
     "report": true
   },
   {
-    "line": "Military Recruiter: So you're Perin's mentor huh? There's no other way to say this, but you must be terrible at your job...",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: That sounds great! Meet us near the south Hyloch entrance, then we will take you to Fort Tericen.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: The Commander's been serving since as long as I can remember. He's probably the most accomplished man in the Highlands, aside from Sovereign Majin of course!",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: The last challenge of the day will be dueling, the other Highlands recruits are already heading there, follow me.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: There you are! Didn't I tell you not to keep us waiting?",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: The training is grueling and competitive, every single facet of your physical ability will be tested!",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: Think you're up for it? Well, I think you could manage. You'd certainly do better than Perin!",
-    "report": true
-  },
-  {
     "line": "Military Recruiter: This area is only for soldiers and injured recruits, and well... You don't look injured.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: We're here, just head on in and I'll meet you up ahead inside!",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: When I meet new recruits, I expect them to look at least somewhat in shape!",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: Yet here we are... Have you even done any training since we sent you the letter?",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: You certainly look fit to be a soldier though. Perhaps training isn't your strong suit.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: You don't want to miss the opening speech from the famed Sovereign Majin!",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: You must be very excited to become a recruit, I can see it on your face!",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: You're not sitting with anyone? You're a strange one, soldier.",
-    "report": true
-  },
-  {
-    "line": "Military Recruiter: You shouldn't worry about Perin anymore. Trust me, I am doing him a favour by taking you instead.",
     "report": true
   },
   {
@@ -9944,31 +9288,11 @@
     "report": true
   },
   {
-    "line": "Secretary: Commander Ferreo is waiting for you in the next room.",
-    "report": true
-  },
-  {
-    "line": "Secretary: I see you've been given your uniform. It looks good on you!",
-    "report": true
-  },
-  {
-    "line": "Secretary: Need help with anything?",
-    "report": true
-  },
-  {
-    "line": "Secretary: Once you are done speaking with him, you'll be hearing a speech from Sovereign Majin in the stage room!",
-    "report": true
-  },
-  {
     "line": "Secretary: Please see the tailor across from me to get your uniform, then see Commander Ferreo in the next room.",
     "report": true
   },
   {
     "line": "Secretary: This is where you will be staying until you become a soldier.",
-    "report": true
-  },
-  {
-    "line": "Secretary: Welcome to Fort Tericen recruit!",
     "report": true
   },
   {
@@ -11369,42 +10693,6 @@
   },
   {
     "line": "soldier?: You will live. You have lived, already. In my absence, you have built yourself anew.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Majin: Do not prove to me that they were wrong.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Majin: Let my words serve as motivation for you during your training.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Majin: So, like I have, each of you must prove yourself worthy of being called a soldier of Fruma.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Majin: They have closely reviewed your performances in physical tests of strength and agility since you were children, and have decided that you belong here.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Majin: Use the opportunities given to you to show us that you deserve to be amongst your superiors.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Majin: Welcome recruits, to the start of your training in becoming a Fruman soldier.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Majin: You have all been carefully chosen by a group of experienced recruiters.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Majin: Your instructors will expect the best from you, so you must show them the best. Those who refuse or are unable to do this have no place here.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Majin: Your role will be the most important in Fruma. Ensuring the safety of the population is no small task, trust me.",
     "report": true
   },
   {
@@ -13656,14 +12944,6 @@
     "file": "kingsrecruit-aledar-26"
   },
   {
-    "line": "Aledar: We... we made it! We really made it! Sure was a close call at the end.",
-    "file": "kingsrecruit-aledar-26"
-  },
-  {
-    "line": "Tasim: ... Still think those corrupted don't stand a chance against you?",
-    "file": "kingsrecruit-tasim-31"
-  },
-  {
     "line": "Tasim: ... Still think those corrupted don't stand a chance against you?",
     "file": "kingsrecruit-tasim-31"
   },
@@ -13680,20 +12960,8 @@
     "file": "kingsrecruit-tasim-32"
   },
   {
-    "line": "Tasim: And a blacksmith too, you can sell your old helmet there for some emeralds.",
-    "file": "kingsrecruit-tasim-32"
-  },
-  {
     "line": "Tasim: Here it is, the end of our journey.",
     "file": "kingsrecruit-tasim-33"
-  },
-  {
-    "line": "Tasim: Here it is, the end of our journey.",
-    "file": "kingsrecruit-tasim-33"
-  },
-  {
-    "line": "Aledar: The end of one adventure, but the beginning of another! Let's go inside and talk to the King!",
-    "file": "kingsrecruit-aledar-28"
   },
   {
     "line": "Aledar: The end of one adventure, but the beginning of another! Let's go inside and talk to the King!",
@@ -13856,30 +13124,6 @@
   {
     "line": "Therck: If you can bring me [1 Energy Mushroom], I'll help you out. Enter the cave down the stairs, and bring me that mushroom!",
     "file": "enzansbrother-therck-6"
-  },
-  {
-    "line": "Therck: Ah, you're back! Do you have the mushroom?",
-    "file": "enzansbrother-therck-7"
-  },
-  {
-    "line": "Therck: Excellent... Now I might finally be able to climb these stairs!",
-    "file": "enzansbrother-therck-8"
-  },
-  {
-    "line": "Therck: Who knows, maybe there's a treasure or something up there?",
-    "file": "enzansbrother-therck-9"
-  },
-  {
-    "line": "Therck: Take this ring. It's an accessory item! You can identify it at the nearby Item Identifier.",
-    "file": "enzansbrother-therck-10"
-  },
-  {
-    "line": "Therck: It's a very good ring for someone starting out like you. There's just one small issue...",
-    "file": "enzansbrother-therck-11"
-  },
-  {
-    "line": "Therck: To wear it, you must help my friend back in Ragni. He's been pestering me for days about needing help.",
-    "file": "enzansbrother-therck-12"
   },
   {
     "line": "Therck: Ah, you're back! Do you have the mushroom?",
@@ -14179,18 +13423,6 @@
   {
     "line": "Tasim: I... guess so? Is there a reason you can't do it yourself?",
     "file": "supplyanddelivery-tasim-3"
-  },
-  {
-    "line": "Tasim: I... guess so? Is there a reason you can't do it yourself?",
-    "file": "supplyanddelivery-tasim-3"
-  },
-  {
-    "line": "Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!",
-    "file": "supplyanddelivery-tasim-4"
-  },
-  {
-    "line": "Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!",
-    "file": "supplyanddelivery-tasim-4"
   },
   {
     "line": "Tasim: ...You're banned from the market? How did you even manage that? We haven't even been in Detlas for that long!",
@@ -14541,10 +13773,6 @@
   {
     "line": "Tasim: Oh, hello soldier. Are you here for training as well? Or- that look on your face tells me you're here for something else.",
     "file": "infestedplants-tasim-28"
-  },
-  {
-    "line": "Tasim: ...Why would you even- nevermind, I don't actually want to know. Come on, lead the way. I'll buy... whatever it is you need.",
-    "file": "infestedplants-tasim-29"
   },
   {
     "line": "Tasim: ...Why would you even- nevermind, I don't actually want to know. Come on, lead the way. I'll buy... whatever it is you need.",
@@ -15611,14 +14839,6 @@
     "file": "mushroomman-yahya-14"
   },
   {
-    "line": "Yahya: ...O-oh. Do I n-need to pay you... now? Heh. Is- is [2 Emeralds] fine with y-you..?",
-    "file": "mushroomman-yahya-14"
-  },
-  {
-    "line": "Tasim: ...Come on.",
-    "file": "mushroomman-tasim-13"
-  },
-  {
     "line": "Tasim: ...Come on.",
     "file": "mushroomman-tasim-13"
   },
@@ -15627,20 +14847,8 @@
     "file": "mushroomman-yahya-15"
   },
   {
-    "line": "Yahya: Oho okay, ok-... okay! It was a joke, don't get all ex-... ex-... excited. Here, just take-",
-    "file": "mushroomman-yahya-15"
-  },
-  {
     "line": "Yahya: G-gah! C-creepy! C-c-crawly! S-s-s-spiders!!!",
     "file": "mushroomman-yahya-16"
-  },
-  {
-    "line": "Yahya: G-gah! C-creepy! C-c-crawly! S-s-s-spiders!!!",
-    "file": "mushroomman-yahya-16"
-  },
-  {
-    "line": "Tasim: Yahya! No!",
-    "file": "mushroomman-tasim-14"
   },
   {
     "line": "Tasim: Yahya! No!",
@@ -15648,10 +14856,6 @@
   },
   {
     "line": "Tasim: ..."
-  },
-  {
-    "line": "Tasim: I-... this is bad. This is really bad. We need to tell the Mayor, now.",
-    "file": "mushroomman-tasim-15"
   },
   {
     "line": "Tasim: I-... this is bad. This is really bad. We need to tell the Mayor, now.",
@@ -16384,10 +15588,6 @@
     "file": "arachnidsascent-tasim-2"
   },
   {
-    "line": "Tasim: Yes, sir. We'll do our best.",
-    "file": "arachnidsascent-tasim-2"
-  },
-  {
     "line": "Aledar: These spiders won't stand a chance! Let's get going.",
     "file": "arachnidsascent-aledar-2"
   },
@@ -16436,10 +15636,6 @@
     "file": "arachnidsascent-privatecob-8"
   },
   {
-    "line": "Aledar: That's us! The Admiral told us you had supplies to give us?",
-    "file": "arachnidsascent-aledar-3"
-  },
-  {
     "line": "Private Cob: That I do! Now, 'fore I send ya off, there's been sum news from the Cap'n!",
     "file": "arachnidsascent-privatecob-9"
   },
@@ -16458,10 +15654,6 @@
   {
     "line": "Private Cob: Point is. Along with all your supplies 'n whatnot, ya've gotta bring along some lava for the cap'n. Magically contained, o' course!",
     "file": "arachnidsascent-privatecob-13"
-  },
-  {
-    "line": "Tasim: Sure, that sounds easy enough. A bit of extra work, but we were heading in that direction anyway.",
-    "file": "arachnidsascent-tasim-3"
   },
   {
     "line": "Private Cob: That's the spirit! If ya want the best route to the den, follow that road with the burn marks. It'll send ya straight to the cap'n!",
@@ -16648,10 +15840,6 @@
     "file": "arachnidsascent-aledar-18"
   },
   {
-    "line": "Aledar: We did! We fought off a spider at the summit, and claimed a magical flame.",
-    "file": "arachnidsascent-aledar-18"
-  },
-  {
     "line": "Captain Enduyn: Excellent! Now, give it here. I take it the three of you intend to storm the nest?",
     "file": "arachnidsascent-captainenduyn-13"
   },
@@ -16670,10 +15858,6 @@
   {
     "line": "Captain Enduyn: ...Anyway, stand clear for a moment! I'm about to burn the webs. Good luck in there!",
     "file": "arachnidsascent-captainenduyn-15"
-  },
-  {
-    "line": "Tasim: We did, yes. There was a powerful spider at the peak, which was making use of this magical flame.",
-    "file": "arachnidsascent-tasim-20"
   },
   {
     "line": "Tasim: We did, yes. There was a powerful spider at the peak, which was making use of this magical flame.",
@@ -18135,20 +17319,12 @@
     "file": "recoverthepast-tasim-5"
   },
   {
-    "line": "Tasim: So, have you had any interesting adventures since we split up?",
-    "file": "recoverthepast-tasim-5"
-  },
-  {
     "line": "Tasim: ...Oh, right! You and General Graken dealt with the undead in Ancient Nemract, didn't you? Captain Ragon was glad to hear that, I'll tell you.",
     "file": "recoverthepast-tasim-6"
   },
   {
     "line": "Tasim: Me? Eh, nothing really to talk about. Aledar's gone off to research the corruption on his own, so I've been- I don't know. Helping wherever I can.",
     "file": "recoverthepast-tasim-7"
-  },
-  {
-    "line": "Tasim: I have the skill and the magic to fight off corrupteds, so I might as well help wherever I'm needed.",
-    "file": "recoverthepast-tasim-8"
   },
   {
     "line": "Tasim: I have the skill and the magic to fight off corrupteds, so I might as well help wherever I'm needed.",
@@ -24936,10 +24112,6 @@
     "file": "anironheartpart2-daxe-1"
   },
   {
-    "line": "Daxe: Oh, so a human wishes to wander into the home of the great Daxe?",
-    "file": "anironheartpart2-daxe-1"
-  },
-  {
     "line": "Daxe: Unfortunately for you, I'm not fond of visitors. I've left my criminal past behind...mh?",
     "file": "anironheartpart2-daxe-2"
   },
@@ -25611,19 +24783,11 @@
     "file": "junglefever-worid-16"
   },
   {
-    "line": "Worid: That is a lot of money, thank you very much, I will finally be able to... *cough* to cure myself!",
-    "file": "junglefever-worid-16"
-  },
-  {
     "line": "Worid: Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I've instead paid you with a key.",
     "file": "junglefever-worid-17"
   },
   {
     "line": "Worid: Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I^ve instead paid you with a key.",
-    "file": "junglefever-worid-17"
-  },
-  {
-    "line": "Worid: Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I've instead paid you with a key.",
     "file": "junglefever-worid-17"
   },
   {
@@ -25633,14 +24797,6 @@
   {
     "line": "Worid: I stole- *cough* I mean, borrowed it, from our tribe^s leader. Apparently it was used to lock up a great evil.",
     "file": "junglefever-worid-18"
-  },
-  {
-    "line": "Worid: I stole- *cough* I mean, borrowed it, from our tribe's leader. Apparently it was used to lock up a great evil.",
-    "file": "junglefever-worid-18"
-  },
-  {
-    "line": "Worid: Good ridda- *cough* Er... luck. Yes, good luck, adventurer!",
-    "file": "junglefever-worid-19"
   },
   {
     "line": "Worid: Good ridda- *cough* Er... luck. Yes, good luck, adventurer!",
@@ -46410,10 +45566,6 @@
     "file": "thecanyonguides-seluc-44"
   },
   {
-    "line": "Seluc: That's right! See, Gana? After all that, at least the human isn’t a liar.",
-    "file": "thecanyonguides-seluc-44"
-  },
-  {
     "line": "Seluc: WHY YOU-",
     "file": "thecanyonguides-seluc-45"
   },
@@ -46468,10 +45620,6 @@
   {
     "line": "Gana: Let this be a lesson to you, Seluc. You cannot lie to those who see with the wind. Now show your gratitude to this kind human.",
     "file": "thecanyonguides-gana-11"
-  },
-  {
-    "line": "Gana: ...Well, 'coat fetcher', getting this man his coat is still a fine deed. And for that, you shall be rewarded.",
-    "file": "thecanyonguides-gana-12"
   },
   {
     "line": "Gana: ...Well, 'coat fetcher', getting this man his coat is still a fine deed. And for that, you shall be rewarded.",
