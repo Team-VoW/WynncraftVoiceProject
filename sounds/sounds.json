@@ -6344,10 +6344,6 @@
     "report": true
   },
   {
-    "line": "Leucsaa: Let's see here... mother's old vase  check!",
-    "report": true
-  },
-  {
     "line": "Leucsaa: Thank you for retrieving my journal from the mansion, I hope nobody else is tricked into buying this evil piece of property!",
     "report": true
   },
@@ -16655,7 +16651,7 @@
     "file": "cluckcluck-nohno-8"
   },
   {
-    "line": "Leucsaa: Let's see here... mother's old vase… check!",
+    "line": "Leucsaa: Let's see here... mother's old vase  check!",
     "file": "dwellingwalls-leucsaa-1"
   },
   {
