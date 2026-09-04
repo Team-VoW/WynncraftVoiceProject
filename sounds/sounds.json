@@ -2068,10 +2068,6 @@
     "report": true
   },
   {
-    "line": "Captain Olof: Bring me [5 Sand Substitutes] and [10 Glue Substitutes], that should be enough.",
-    "report": true
-  },
-  {
     "line": "Captain Olof: The intercom crackles into life...",
     "report": true
   },
@@ -54694,7 +54690,7 @@
     "file": "onethousandmetersunder-captainolof-18"
   },
   {
-    "line": "Captain Olof: Bring me 5 Sand Substitutes and 10 Glue Substitutes, that should be enough.",
+    "line": "Captain Olof: Bring me [5 Sand Substitutes] and [10 Glue Substitutes], that should be enough.",
     "file": "onethousandmetersunder-captainolof-19"
   },
   {
