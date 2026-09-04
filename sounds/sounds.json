@@ -44,10 +44,6 @@
     "report": true
   },
   {
-    "line": "???: >and the hero shall blind the ancient seer. good luck.",
-    "report": true
-  },
-  {
     "line": "???: [+1 Cursed One Report]",
     "report": true
   },
@@ -709,10 +705,6 @@
   },
   {
     "line": "Aledar: [+Drunkness for 60 seconds]",
-    "report": true
-  },
-  {
-    "line": "Aledar: Agh... Don't worry...a-about me",
     "report": true
   },
   {
@@ -58998,7 +58990,7 @@
     "file": "ajourneyfurther-aledar-66"
   },
   {
-    "line": "Aledar: Agh... Don't worry...a-about me...",
+    "line": "Aledar: Agh... Don't worry...a-about me",
     "file": "ajourneyfurther-aledar-67"
   },
   {
@@ -59023,7 +59015,7 @@
     "onPlayer": true
   },
   {
-    "line": "???: and the hero shall blind the ancient seer. good luck.",
+    "line": "???: >and the hero shall blind the ancient seer. good luck.",
     "file": "ajourneyfurther-eye-2",
     "onPlayer": true
   },
