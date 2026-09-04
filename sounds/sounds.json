@@ -7172,10 +7172,6 @@
     "report": true
   },
   {
-    "line": "Narder: Now, the villagers have very strict rules about humans founding cities in their lands, and it's VERY illegal.",
-    "report": true
-  },
-  {
     "line": "Nasea: I",
     "report": true
   },
@@ -48110,7 +48106,7 @@
     "file": "thehiddencity-narder-8"
   },
   {
-    "line": "Narder: Now, the villagers have very strict rules about humans living in their lands, and it's VERY illegal.",
+    "line": "Narder: Now, the villagers have very strict rules about humans founding cities in their lands, and it's VERY illegal.",
     "file": "thehiddencity-narder-9"
   },
   {
