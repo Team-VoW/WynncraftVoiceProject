@@ -5560,14 +5560,6 @@
     "report": true
   },
   {
-    "line": "Honip: I'll take two Nemract Whiskeys. One for me, one for this chap.",
-    "report": true
-  },
-  {
-    "line": "Honip: I'll wait for ya at the docks. Don't worry, ya can't miss the boat!",
-    "report": true
-  },
-  {
     "line": "Honip: It reads: 'Behind you, idiot.'",
     "report": true
   },
@@ -18840,7 +18832,7 @@
     "file": "misadventureonthesea-honip-37"
   },
   {
-    "line": "Honip: I'll take 2 Nemract Whiskeys. One for me, one for this chap.",
+    "line": "Honip: I'll take two Nemract Whiskeys. One for me, one for this chap.",
     "file": "misadventureonthesea-honip-38"
   },
   {
@@ -18856,7 +18848,7 @@
     "file": "misadventureonthesea-honip-41"
   },
   {
-    "line": "Honip: I'll wait for ya on the docks. Don't worry, ya can't miss the boat!",
+    "line": "Honip: I'll wait for ya at the docks. Don't worry, ya can't miss the boat!",
     "file": "misadventureonthesea-honip-42"
   },
   {
