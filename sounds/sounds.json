@@ -3116,10 +3116,6 @@
     "report": true
   },
   {
-    "line": "Doan: So that's our initial bid. Now we need to ask for a higher bid, remember? We can't always talk to the same merchant or they'll lose interest...",
-    "report": true
-  },
-  {
     "line": "Dodegar: [-1 Diplacus Aurantiacus]",
     "report": true
   },
@@ -39465,7 +39461,7 @@
     "file": "acquiringcredentials-doan-35"
   },
   {
-    "line": "Doan: So that's our intial bid. Now we need to ask for a higher bid, remember? We can't always talk to the same merchant or they'll lose interest...",
+    "line": "Doan: So that's our initial bid. Now we need to ask for a higher bid, remember? We can't always talk to the same merchant or they'll lose interest...",
     "file": "acquiringcredentials-doan-36"
   },
   {
