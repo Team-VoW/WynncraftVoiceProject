@@ -85,6 +85,28 @@ class SoundsHandlerTest {
         assertFalse(sound.canEarlyPlay());
     }
 
+    @Test
+    void npcFieldOverridesTheSpeakerTakenFromTheLinePrefix() {
+        SoundsHandler handler = load("""
+                [{"line":"Royal Guard: Allow me to see your summons.","file":"rg-1","npc":"Ragni Guard"}]
+                """);
+
+        SoundObject sound =
+                handler.get(key("Royal Guard: Allow me to see your summons.")).orElseThrow();
+        assertEquals("ragniguard", sound.getNpcName());
+    }
+
+    @Test
+    void speakerStillComesFromThePrefixWhenNpcFieldIsAbsent() {
+        SoundsHandler handler = load("""
+                [{"line":"Royal Guard: Allow me to see your summons.","file":"rg-1"}]
+                """);
+
+        SoundObject sound =
+                handler.get(key("Royal Guard: Allow me to see your summons.")).orElseThrow();
+        assertEquals("royalguard", sound.getNpcName());
+    }
+
     private static SoundsHandler load(String json) {
         SoundsHandler handler = new SoundsHandler(false);
         handler.loadSoundsFromJson(new ByteArrayInputStream(json.getBytes(StandardCharsets.UTF_8)));

@@ -73,6 +73,7 @@ public class ModCore implements ModInitializer {
         ConfigChangeApplier.initialize(config);
 
         instance = this;
+        com.wynnvp.wynncraftvp.feedback.QuestFeedback.initialize();
         overlayHandler = new OverlayHandler();
 
         soundPlayer = new SoundPlayer();

@@ -134,6 +134,12 @@ public final class VowSettings {
                 category(
                         "reporting",
                         section(
+                                "questFeedback",
+                                VowSetting.bool("questFeedbackPrompts", () -> config.questFeedbackPrompts, value -> {
+                                    config.questFeedbackPrompts = value;
+                                    if (!value) com.wynnvp.wynncraftvp.feedback.QuestFeedback.disablePrompts();
+                                })),
+                        section(
                                 "missingLines",
                                 VowSetting.bool(
                                         "reportMissingLines",

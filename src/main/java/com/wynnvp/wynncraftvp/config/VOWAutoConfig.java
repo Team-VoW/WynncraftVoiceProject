@@ -52,6 +52,10 @@ public class VOWAutoConfig {
     // Line reporting settings
     public boolean reportMissingLines = true;
     public boolean anonymous = true;
+    public boolean questFeedbackPrompts = true;
+    /** Random installation identifier; never derived from a Minecraft account. */
+    public String feedbackInstallationId = "";
+
     public boolean sendFunFact = false;
 
     public boolean downloadSounds = false;
