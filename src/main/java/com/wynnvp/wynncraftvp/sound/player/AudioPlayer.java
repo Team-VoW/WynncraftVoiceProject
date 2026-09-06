@@ -95,6 +95,7 @@ public class AudioPlayer {
     }
 
     private void playFromCustomPath(String audioFileName, SoundObject soundObject, long generation) {
+        long feedbackGeneration = com.wynnvp.wynncraftvp.feedback.QuestFeedback.generation();
         String customPath = ModCore.config.getCustomAudioPath();
         boolean isURL = customPath.startsWith("http");
 
@@ -113,7 +114,7 @@ public class AudioPlayer {
                                     + ". You are using a custom audio path. Please check your settings if this is an accident.");
                 }
                 if (remoteAudioData != null && isCurrentGeneration(generation)) {
-                    playAudioBuffer(remoteAudioData, soundObject);
+                    playAudioBuffer(remoteAudioData, soundObject, feedbackGeneration);
                 }
             });
             return;
@@ -129,6 +130,7 @@ public class AudioPlayer {
     }
 
     private void playRemoteAudio(String audioFileName, SoundObject soundObject, long generation) {
+        long feedbackGeneration = com.wynnvp.wynncraftvp.feedback.QuestFeedback.generation();
         CompletableFuture.runAsync(() -> {
             List<String> allRemoteUrls = getRemoteUrls();
 
@@ -151,7 +153,7 @@ public class AudioPlayer {
             }
 
             if (remoteAudioData != null && isCurrentGeneration(generation)) {
-                playAudioBuffer(remoteAudioData, soundObject);
+                playAudioBuffer(remoteAudioData, soundObject, feedbackGeneration);
             } else {
                 Utils.sendMessage("Failed to fetch remote audio file for " + audioFileName
                         + ". If this keeps happening go into your settings and enable the download sounds option.");
@@ -233,6 +235,11 @@ public class AudioPlayer {
     }
 
     public void playAudioBuffer(ByteBuffer audioData, SoundObject soundObject) {
+        playAudioBuffer(audioData, soundObject, com.wynnvp.wynncraftvp.feedback.QuestFeedback.generation());
+    }
+
+    private void playAudioBuffer(ByteBuffer audioData, SoundObject soundObject, long feedbackGeneration) {
+        if (feedbackGeneration != com.wynnvp.wynncraftvp.feedback.QuestFeedback.generation()) return;
         if (soundObject.shouldStopSounds()) openAlPlayer.stopAudio();
 
         Optional<AudioData> audioDataOptional = OggDecoder.getAudioData(audioData);
@@ -242,6 +249,7 @@ public class AudioPlayer {
         }
 
         AudioData audio = audioDataOptional.get();
+        audio.feedbackGeneration = feedbackGeneration;
         audio.setSpeakerAndPos(
                 soundObject.isSoundAtPlayer() ? "" : soundObject.getTrimmedNpcName(), soundObject.getPosition());
         audio.setReverb(soundObject.getReverb());

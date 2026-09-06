@@ -60,6 +60,9 @@ class VowConfigHolderTest {
      */
     private static final String CLOTH_WRITTEN_CONFIG_RESAVED = CLOTH_WRITTEN_CONFIG
                     .replace(
+                            "anonymous = true\n",
+                            "anonymous = true\nquestFeedbackPrompts = true\nfeedbackInstallationId = \"\"\n")
+                    .replace(
                             "hasChosenLineReport = true\n",
                             "hasChosenLineReport = true\ndirectionalAudioHintLastShown = 0\n")
                     .replace(

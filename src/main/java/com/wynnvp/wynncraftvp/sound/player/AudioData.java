@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound.player;
@@ -11,6 +11,7 @@ import javax.sound.sampled.AudioFormat;
 import net.minecraft.world.phys.Vec3;
 
 public class AudioData {
+    public long feedbackGeneration = com.wynnvp.wynncraftvp.feedback.QuestFeedback.generation();
     public ByteBuffer byteBuffer;
     public AudioFormat audioFormat;
     public String speakerName;

@@ -12,6 +12,7 @@ import net.minecraft.client.Minecraft;
 public class ClientTickEvent {
     /** Runs every client tick, so also while no world is loaded. */
     public static void onEndClientTick(Minecraft client) {
+        com.wynnvp.wynncraftvp.feedback.QuestFeedback.tick();
         ToastManager toastManager = ToastManager.getInstance();
         if (toastManager != null) {
             toastManager.onClientTick(client);

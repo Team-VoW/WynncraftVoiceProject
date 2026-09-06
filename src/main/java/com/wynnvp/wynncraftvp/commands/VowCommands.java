@@ -48,6 +48,7 @@ public final class VowCommands {
      * @return true when the command was one of ours and must not be forwarded to the server
      */
     public static boolean execute(String command) {
+        if (com.wynnvp.wynncraftvp.feedback.QuestFeedback.command(command)) return true;
         VowCommandSource source = new VowCommandSource(Minecraft.getInstance());
 
         try {

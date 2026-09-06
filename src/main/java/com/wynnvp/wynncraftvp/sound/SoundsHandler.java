@@ -142,7 +142,10 @@ public class SoundsHandler {
                 boolean queued = dialogue.shouldQueue();
                 boolean report = dialogue.shouldReport();
 
-                LineData lineData = formatToLineData(message);
+                // A null "npc" means "take the speaker from the line's prefix"; a value overrides it,
+                // for lines whose chat name differs from the nametag they should play out of
+                // (Queen's Recruit's "Royal Guard" lines come from a "Ragni Guard" NPC).
+                LineData lineData = formatToLineData(message, npcName);
                 message = lineData.getSoundLine();
                 SoundObject sound = new SoundObject(
                         lineData.getNPCName(),

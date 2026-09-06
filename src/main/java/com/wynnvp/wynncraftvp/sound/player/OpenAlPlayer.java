@@ -217,7 +217,9 @@ public class OpenAlPlayer {
     }
 
     public void playAudio(AudioData audioData) {
+        long feedbackGeneration = audioData.feedbackGeneration;
         submit(() -> {
+            if (feedbackGeneration != com.wynnvp.wynncraftvp.feedback.QuestFeedback.generation()) return;
             maybeHintDirectionalAudio();
 
             int sourceID = AL10.alGenSources();
@@ -281,6 +283,12 @@ public class OpenAlPlayer {
             currentSpeakers.put(sourceID, speaker);
             sourceIDs.add(sourceID);
             AL11.alSourcePlay(sourceID);
+            if (com.wynnvp.wynncraftvp.feedback.VoicePlaybackEligibility.qualifies(
+                    AL10.alGetSourcei(sourceID, AL10.AL_SOURCE_STATE) == AL10.AL_PLAYING,
+                    AL10.alGetSourcef(sourceID, AL10.AL_GAIN),
+                    monoData)) {
+                com.wynnvp.wynncraftvp.feedback.QuestFeedback.playbackStarted(feedbackGeneration);
+            }
         });
     }
 
@@ -588,6 +596,7 @@ public class OpenAlPlayer {
         float gain = base * (percent / 100.0f);
 
         if (gain <= 0.0001f) {
+            AL10.alSourcef(sourceID, AL10.AL_GAIN, 0.0f);
             AL11.alSourceStop(sourceID);
             return;
         }
