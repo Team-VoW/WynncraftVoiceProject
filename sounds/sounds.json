@@ -4656,23 +4656,7 @@
     "report": true
   },
   {
-    "line": "Flinn: ...Good for you, I guess. Me? I didn't think this trip could go worse, but somehow it did!",
-    "report": true
-  },
-  {
-    "line": "Flinn: ...Oh, it's you again. Guards let you go, did they?",
-    "report": true
-  },
-  {
     "line": "Flinn: [New Notes Added]",
-    "report": true
-  },
-  {
-    "line": "Flinn: Now, there's a rogue murderer on the train! What if that general was only just the start??? It's like someone cursed me, I swear!",
-    "report": true
-  },
-  {
-    "line": "Flinn: What do you need to know?",
     "report": true
   },
   {
@@ -96646,6 +96630,22 @@
   {
     "line": "Flinn: ...having seen what other parts of Fruma are like, maybe prison would be... an improvement...",
     "file": "offtherails-flinn-69"
+  },
+  {
+    "line": "Flinn: ...Oh, it's you again. Guards let you go, did they?",
+    "file": "offtherails-flinn-70"
+  },
+  {
+    "line": "Flinn: ...Good for you, I guess. Me? I didn't think this trip could go worse, but somehow it did!",
+    "file": "offtherails-flinn-71"
+  },
+  {
+    "line": "Flinn: Now, there's a rogue murderer on the train! What if that general was only just the start??? It's like someone cursed me, I swear!",
+    "file": "offtherails-flinn-72"
+  },
+  {
+    "line": "Flinn: What do you need to know?",
+    "file": "offtherails-flinn-73"
   },
   {
     "line": "Maury: Works for us, I guess. Just uh, go along with what we tell 'em, alright?",
