@@ -66574,19 +66574,23 @@
   },
   {
     "line": "Royal Guard: Another soldier? Allow me to see your summons.",
-    "file": "queensrecruit-royalguard-1"
+    "file": "queensrecruit-royalguard-1",
+    "npc": "Ragni Guard"
   },
   {
     "line": "Royal Guard: ...good. Come on in, soldier. The King will be arriving shortly.",
-    "file": "queensrecruit-royalguard-2"
+    "file": "queensrecruit-royalguard-2",
+    "npc": "Ragni Guard"
   },
   {
     "line": "Royal Guard: Right this way.",
-    "file": "queensrecruit-royalguard-3"
+    "file": "queensrecruit-royalguard-3",
+    "npc": "Ragni Guard"
   },
   {
     "line": "Royal Guard: If you insist. Don't take too long.",
-    "file": "queensrecruit-royalguard-4"
+    "file": "queensrecruit-royalguard-4",
+    "npc": "Ragni Guard"
   },
   {
     "line": "Tasim: ...oh, there you are. Didn't you head out before me?",
