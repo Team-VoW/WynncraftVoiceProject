@@ -6072,18 +6072,6 @@
     "report": true
   },
   {
-    "line": "Lari: Don't go jumping off like that, use my magical helix to get down.",
-    "report": true
-  },
-  {
-    "line": "Lari: It looked like it escaped! Did you see where it went?",
-    "report": true
-  },
-  {
-    "line": "Lari: Not that way, soldier.",
-    "report": true
-  },
-  {
     "line": "Lari: Perhaps you should try interacting with this thing?",
     "report": true
   },
@@ -6097,14 +6085,6 @@
   },
   {
     "line": "Lari: The voice of the Light told you to pursue her. You shouldn't stop now, should you?",
-    "report": true
-  },
-  {
-    "line": "Lari: Under you!",
-    "report": true
-  },
-  {
-    "line": "Lari: Wait a second...",
     "report": true
   },
   {
@@ -25020,6 +25000,26 @@
   {
     "line": "Lari: You deserve the best... But that's more than I can give...so here. Take these. I'll move along.",
     "file": "realmoflight1-lari-62"
+  },
+  {
+    "line": "Lari: It looked like it escaped! Did you see where it went?",
+    "file": "realmoflight1-lari-63"
+  },
+  {
+    "line": "Lari: Wait a second...",
+    "file": "realmoflight1-lari-64"
+  },
+  {
+    "line": "Lari: Don't go jumping off like that, use my magical helix to get down.",
+    "file": "realmoflight1-lari-65"
+  },
+  {
+    "line": "Lari: Not that way, soldier.",
+    "file": "realmoflight1-lari-66"
+  },
+  {
+    "line": "Lari: Under you!",
+    "file": "realmoflight1-lari-67"
   },
   {
     "line": "Lari: ...oh. Soldier, you're back. Ehm...I have to say, I'm...rather busy at the moment.",
