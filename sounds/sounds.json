@@ -11152,14 +11152,6 @@
     "report": true
   },
   {
-    "line": "Telati: Here it is.",
-    "report": true
-  },
-  {
-    "line": "Telati: Oh! I'm so sorry! I must've forgotten to give you that.",
-    "report": true
-  },
-  {
     "line": "Telati: The key is pretty small. You put it in your pocket.",
     "report": true
   },
@@ -103930,5 +103922,21 @@
   {
     "line": "Elise: Say, 'letter-carrier', won't you be a dearie and water my plants while I read the rest of these letters? Maybe there is something else I can glean from reading them.",
     "file": "themissingpiece-elise-36"
+  },
+  {
+    "line": "Telati: Oh! I'm so sorry! I must've forgotten to give you that.",
+    "file": "offtherails-telati-87"
+  },
+  {
+    "line": "Telati: I- I was in such a hurry to accomodate everyone, it must have slipped my mind... I sincerely apologize.",
+    "file": "offtherails-telati-88"
+  },
+  {
+    "line": "Telati: I- I was in such a hurry to accomodate everyone earlier, it must have slipped my mind... I sincerely apologize.",
+    "file": "offtherails-telati-89"
+  },
+  {
+    "line": "Telati: Here it is.",
+    "file": "offtherails-telati-90"
   }
 ]
