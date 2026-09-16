@@ -6092,10 +6092,6 @@
     "report": true
   },
   {
-    "line": "Lari: You may have also noticed a very direct line between the forests, that's becau",
-    "report": true
-  },
-  {
     "line": "Lecade 1: Who's telling the truth?",
     "report": true
   },
@@ -64231,7 +64227,7 @@
     "fallOff": 200
   },
   {
-    "line": "Lari: You may have also noticed a very direct line between the forests, that's becau—",
+    "line": "Lari: You may have also noticed a very direct line between the forests, that's becau",
     "file": "darkforest-lari-5",
     "fallOff": 200
   },
