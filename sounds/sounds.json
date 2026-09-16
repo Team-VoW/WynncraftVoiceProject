@@ -103970,5 +103970,17 @@
   {
     "line": "Elise: Ha... Well, what's another crime added to the tally? It seems we've become real hardened bandits, haven't we?",
     "file": "themissingpiece-elise-261"
+  },
+  {
+    "line": "Inspector: You're under arrest!",
+    "file": "themissingpiece-inspector-59"
+  },
+  {
+    "line": "Inspector: Some higher authority has overruled our command... we're being recalled.",
+    "file": "themissingpiece-inspector-60"
+  },
+  {
+    "line": "Inspector: The lower floor then. Thank you for your cooperation.",
+    "file": "themissingpiece-inspector-61"
   }
 ]
