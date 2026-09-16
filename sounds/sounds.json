@@ -21064,23 +21064,23 @@
   },
   {
     "line": "Traitor Thomas: Is that...  The map fragments? You found them!",
-    "file": "wynnexcavationd-traitorthomas-7"
-  },
-  {
-    "line": "Traitor Thomas: Oh my, you better come in.",
     "file": "wynnexcavationd-traitorthomas-8"
   },
   {
-    "line": "Traitor Thomas: There's not enough time! We need to combine those fragments with ours!",
+    "line": "Traitor Thomas: Oh my, you better come in.",
     "file": "wynnexcavationd-traitorthomas-9"
   },
   {
-    "line": "Traitor Thomas: Hurry, get in the hideout!",
+    "line": "Traitor Thomas: There's not enough time! We need to combine those fragments with ours!",
     "file": "wynnexcavationd-traitorthomas-10"
   },
   {
-    "line": "Traitor Thomas: Thanks for helping with that long task...",
+    "line": "Traitor Thomas: Hurry, get in the hideout!",
     "file": "wynnexcavationd-traitorthomas-11"
+  },
+  {
+    "line": "Traitor Thomas: Thanks for helping with that long task...",
+    "file": "wynnexcavationd-traitorthomas-7"
   },
   {
     "line": "Traitor Amadel: Welcome, friend. I knew you would figure it all out.",
