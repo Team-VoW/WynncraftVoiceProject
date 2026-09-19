@@ -19,6 +19,7 @@ import com.wynnvp.wynncraftvp.sound.physics.TraceSink;
 import java.util.Collection;
 import java.util.Objects;
 import java.util.Optional;
+import net.minecraft.client.Camera;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.player.LocalPlayer;
@@ -71,6 +72,18 @@ public final class SoundPhysicsManager {
         this.probe = new LevelMaterialProbe(table);
     }
 
+    /**
+     * Where the voice is actually heard from, which is the camera and not the player's head.
+     *
+     * <p>The OpenAL listener follows the camera, and the two part ways in a Wynncraft cutscene: the
+     * camera flies around the scene while the player's body is parked somewhere out of shot, often
+     * under the floor. Tracing to the body there buries every speaker behind the ground they stand on.
+     */
+    private static Vec3 listenerPosition(Minecraft minecraft, LocalPlayer player) {
+        Camera camera = minecraft.gameRenderer.getMainCamera();
+        return camera.isInitialized() ? camera.position() : player.getEyePosition();
+    }
+
     /** Whether ray tracing should run at all right now. */
     public static boolean isEnabled() {
         return ModCore.config != null && ModCore.config.isSoundPhysics();
@@ -102,7 +115,7 @@ public final class SoundPhysicsManager {
 
         Optional<Vec3> resolved = new CurrentSpeaker(speakerName, fixedPosition).getUpdatedPosition();
 
-        Vec3 listener = player.getEyePosition();
+        Vec3 listener = listenerPosition(minecraft, player);
         boolean headLocked = resolved.isEmpty() || playsOnPlayer();
         Vec3 source = resolved.orElse(listener);
         AppliedAcoustics acoustics =
@@ -182,7 +195,7 @@ public final class SoundPhysicsManager {
         }
 
         long tick = clientTick;
-        Vec3 listener = player.getEyePosition();
+        Vec3 listener = listenerPosition(minecraft, player);
         boolean physics = isEnabled();
         boolean measuredOne = false;
 
@@ -306,7 +319,7 @@ public final class SoundPhysicsManager {
         }
 
         debug.showFor(showTicks);
-        Vec3 listener = player.getEyePosition();
+        Vec3 listener = listenerPosition(minecraft, player);
         Vec3 from = source == null ? listener : source;
 
         TraceSink sink = debug.beginTrace(level);
