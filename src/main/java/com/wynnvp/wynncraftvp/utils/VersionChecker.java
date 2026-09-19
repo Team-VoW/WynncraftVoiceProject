@@ -6,146 +6,97 @@ package com.wynnvp.wynncraftvp.utils;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
 
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import com.wynnvp.wynncraftvp.ModCore;
+import com.wynnvp.wynncraftvp.api.ApiHttpException;
+import com.wynnvp.wynncraftvp.api.VoWApiClient;
 import com.wynnvp.wynncraftvp.config.BetaConfig;
 import com.wynnvp.wynncraftvp.sound.SoundPlayer;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.io.IOException;
 import java.util.List;
 import net.minecraft.client.Minecraft;
 
-public class VersionChecker {
+public final class VersionChecker {
+    private static final VoWApiClient API = new VoWApiClient();
+
+    private VersionChecker() {}
+
     public static void checkVersion() {
-        JsonObject jsonObject = getVersionCheckFromWebsite();
-        String fact = null;
-        String killSwitchVersion = null;
-        String newestVersion = null;
-        String updateVersion = null;
-        String directUpdateLink = null;
-        String updateInfoPageLink = null;
-        String soundsBaseUrl = null;
-        // In the jsonObject there is an array called "audio_urls" that contains these audio urls.
-        List<String> audioUrls = new ArrayList<>();
-        List<String> broadcast = new ArrayList<>();
-        try {
-            fact = jsonObject.get("fact").getAsString();
-            killSwitchVersion = jsonObject.get("fabric_killSwitchVersion").getAsString();
-            newestVersion = jsonObject.get("fabric_newestVersion").getAsString();
-            updateVersion = jsonObject.get("fabric_updateNotification").getAsString();
-            directUpdateLink = jsonObject.get("fabric_directUpdateLink").getAsString();
-            updateInfoPageLink = jsonObject.get("fabric_updateInfopageLink").getAsString();
-            soundsBaseUrl = jsonObject.get("azure_blob_link").getAsString();
-            jsonObject.getAsJsonArray("audio_urls").forEach(jsonElement -> audioUrls.add(jsonElement.getAsString()));
-            jsonObject.getAsJsonArray("broadcast").forEach(jsonElement -> broadcast.add(jsonElement.getAsString()));
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        // Something went wrong with the request
-        if (newestVersion == null) {
-            return;
-        }
-
-        if (!BetaConfig.isBetaBuild()) {
-            if (soundsBaseUrl != null) {
-                config.soundsBaseUrl = soundsBaseUrl;
-                config.save();
-            }
-
-            if (!audioUrls.isEmpty()) {
-                config.urls = audioUrls;
-                config.save();
-            }
-        }
-
-        // Strip the "v" from the version
-        String version = ModCore.instance.getVersion().substring(1);
-
-        assert updateVersion != null;
-
-        // If it is on a kill switch version. This is to disable the mod in case some game breaking bug is found
-        // such as people being able to trigger sound files through chat messages
-        if (compareVersions(version, killSwitchVersion) <= 0) {
-            SoundPlayer.stopMod = true;
-            String message1 =
-                    "§8A game breaking bug was found on your version of §5Voices of Wynn§8 so the mod was disabled. Please update it";
-            Utils.sendMessage(message1);
-        }
-        // Is using the newest version
-        if (compareVersions(version, updateVersion) > 0) {
-            if (fact != null && config.isSendFunFact()) {
-                Utils.sendMessage("§9Fun fact: " + fact);
-            }
-            showBroadcastMessages(broadcast);
-            return;
-        }
-
-        Utils.sendMessage("§9A new version of §5Voices of Wynn§9 is available! You are using version: §4" + version
-                + " §9and the newest version is: §2" + newestVersion + ".");
-        Utils.appendMessageWithLinkAndSend("§9To download it directly, click ", directUpdateLink, "§b§nhere");
-        Utils.appendMessageWithLinkAndSend("§9To see the changelog, click ", updateInfoPageLink, "§b§nhere");
-        showBroadcastMessages(broadcast);
-    }
-
-    private static void showBroadcastMessages(List<String> broadcast) {
-        if (broadcast != null && !broadcast.isEmpty()) {
-            for (String message : broadcast) {
-                Utils.sendMessage("§d" + message);
-            }
-        }
-    }
-
-    static int compareVersions(String a, String b) {
-        int[] va = parseVersion(a);
-        int[] vb = parseVersion(b);
-        for (int i = 0; i < Math.max(va.length, vb.length); i++) {
-            int x = i < va.length ? va[i] : 0;
-            int y = i < vb.length ? vb[i] : 0;
-            if (x != y) return Integer.compare(x, y);
-        }
-        return 0;
-    }
-
-    private static int[] parseVersion(String version) {
-        String[] parts = version.replaceAll("[^\\d.]", "").split("\\.");
-        return Arrays.stream(parts).mapToInt(Integer::parseInt).toArray();
-    }
-
-    private static JsonObject getVersionCheckFromWebsite() {
-        // Hashes the UUID for it to be anonymous
-        String hashedUUID =
+        String clientId =
                 Utils.sha256(Minecraft.getInstance().getUser().getProfileId().toString());
-        String url = "http://voicesofwynn.com/api/version/check?id=" + hashedUUID;
-
-        JsonObject jsonObject = null;
+        String modVersion = withoutLeadingV(ModCore.instance.getVersion());
         try {
-            jsonObject = getJsonData(url);
-        } catch (Exception e) {
-            e.printStackTrace();
+            apply(API.bootup(clientId, modVersion), BetaConfig.isBetaBuild(), config.isSendFunFact(), modVersion);
+        } catch (ApiHttpException exception) {
+            ModCore.LOGGER.error("Bootup request failed with HTTP {}.", exception.statusCode());
+        } catch (IOException exception) {
+            ModCore.LOGGER.error("Bootup request failed.", exception);
+        } catch (InterruptedException exception) {
+            Thread.currentThread().interrupt();
+            ModCore.LOGGER.warn("Bootup request was interrupted.", exception);
         }
-
-        return jsonObject;
     }
 
-    private static JsonObject getJsonData(String urlToRead) throws Exception {
-        StringBuilder result = new StringBuilder();
-        URL url = new URL(urlToRead);
-
-        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-        conn.setRequestMethod("GET");
-
-        try (BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
-            for (String line; (line = reader.readLine()) != null; ) {
-                result.append(line);
-            }
+    static void apply(VoWApiClient.BootupResponse response, boolean betaBuild, boolean showFunFact, String version) {
+        BootupPlan plan = plan(response, betaBuild, showFunFact);
+        if (plan.audioBaseUrl() != null) {
+            config.soundsBaseUrl = plan.audioBaseUrl();
+            if (!plan.audioMirrorUrls().isEmpty()) config.urls = plan.audioMirrorUrls();
+            config.save();
         }
-        JsonParser jsonParser = new JsonParser();
-        return jsonParser.parse(result.toString()).getAsJsonObject();
+
+        if (plan.disablesMod()) {
+            SoundPlayer.stopMod = true;
+            Utils.sendMessage(
+                    "§8A game breaking bug was found on your version of §5Voices of Wynn§8 so the mod was disabled. Please update it");
+        }
+        if (plan.showsUpdate()) showUpdate(response, version);
+        if (plan.funFact() != null) Utils.sendMessage("§9Fun fact: " + plan.funFact());
+
+        for (String message : plan.broadcasts()) {
+            if (message != null && !message.isBlank()) Utils.sendMessage("§d" + message);
+        }
     }
+
+    static BootupPlan plan(VoWApiClient.BootupResponse response, boolean betaBuild, boolean showFunFact) {
+        boolean disablesMod = "disable".equals(response.update().action());
+        boolean showsUpdate = disablesMod || "notify".equals(response.update().action());
+        List<String> mirrors = betaBuild
+                ? List.of()
+                : response.audio().mirrorUrls().stream()
+                        .filter(url -> url != null && !url.isBlank())
+                        .toList();
+        String fact = "none".equals(response.update().action()) && showFunFact ? response.funFact() : null;
+        return new BootupPlan(
+                response.update().action(),
+                disablesMod,
+                showsUpdate,
+                fact,
+                betaBuild ? null : response.audio().baseUrl(),
+                mirrors,
+                response.broadcasts().stream()
+                        .filter(message -> message != null && !message.isBlank())
+                        .toList());
+    }
+
+    private static void showUpdate(VoWApiClient.BootupResponse response, String version) {
+        Utils.sendMessage("§9A new version of §5Voices of Wynn§9 is available! You are using version: §4" + version
+                + " §9and the newest version is: §2" + response.update().latestVersion() + ".");
+        Utils.appendMessageWithLinkAndSend(
+                "§9To download it directly, click ", response.update().downloadUrl(), "§b§nhere");
+        Utils.appendMessageWithLinkAndSend(
+                "§9To see the changelog, click ", response.update().changelogUrl(), "§b§nhere");
+    }
+
+    static String withoutLeadingV(String version) {
+        return version != null && version.startsWith("v") ? version.substring(1) : version;
+    }
+
+    record BootupPlan(
+            String action,
+            boolean disablesMod,
+            boolean showsUpdate,
+            String funFact,
+            String audioBaseUrl,
+            List<String> audioMirrorUrls,
+            List<String> broadcasts) {}
 }

@@ -5,13 +5,11 @@
 package com.wynnvp.wynncraftvp.sound.line;
 
 import static com.wynnvp.wynncraftvp.ModCore.config;
-import static com.wynnvp.wynncraftvp.utils.Utils.HTTPEncode;
 
 import com.wynnvp.wynncraftvp.ModCore;
-import java.io.DataOutputStream;
+import com.wynnvp.wynncraftvp.api.ApiHttpException;
+import com.wynnvp.wynncraftvp.api.VoWApiClient;
 import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.Queue;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -27,11 +25,17 @@ public class LineReporter {
     private static final int REPORT_DELAY_TICKS = 60;
 
     private final Queue<String> reportedLines;
+    private final VoWApiClient api;
 
     private LineData pendingReport;
     private int pendingReportTicks;
 
     public LineReporter() {
+        this(new VoWApiClient());
+    }
+
+    LineReporter(VoWApiClient api) {
+        this.api = api;
         reportedLines = new ConcurrentLinkedQueue<>();
     }
 
@@ -82,6 +86,18 @@ public class LineReporter {
     }
 
     private void send(LineData lineData) {
+        Player player = Minecraft.getInstance().player;
+        if (player == null) return;
+
+        String playerName =
+                config.isAnonymous() ? null : player.getGameProfile().name();
+        VoWApiClient.LineReportRequest report = new VoWApiClient.LineReportRequest(
+                lineData.getRealLine(),
+                lineData.getNPCName(),
+                playerName,
+                new VoWApiClient.Position(
+                        (int) player.position().x, (int) player.position().y, (int) player.position().z));
+
         CompletableFuture.runAsync(() -> {
             synchronized (reportedLines) {
                 if (reportedLines.contains(lineData.getRealLine())) {
@@ -94,41 +110,18 @@ public class LineReporter {
                 }
             }
             try {
-                reportUnvoicedLine(lineData);
+                api.submitReport(report);
                 ModCore.LOGGER.info(
                         "Unvoiced line report has been sent to our servers. This contained: " + lineData.getRealLine());
+            } catch (ApiHttpException e) {
+                ModCore.LOGGER.error(
+                        "A report of unvoiced line couldn't be sent: server returned HTTP {}.", e.statusCode());
             } catch (IOException e) {
                 ModCore.LOGGER.error("A report of unvoiced line couldn't be sent.", e);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                ModCore.LOGGER.warn("A report of unvoiced line was interrupted.", e);
             }
         });
-    }
-
-    private void reportUnvoicedLine(LineData lineData) throws IOException {
-        String npcName = lineData.getNPCName();
-        String name = config.isAnonymous()
-                ? "anonymous"
-                : Minecraft.getInstance().player.getName().toString();
-        String fullLine = lineData.getRealLine();
-        Player p = Minecraft.getInstance().player;
-        int CoordX = (int) p.position().x;
-        int CoordY = (int) p.position().y;
-        int CoordZ = (int) p.position().z;
-
-        URL urlObj = new URL("https://voicesofwynn.com/api/unvoiced-line-report/new");
-        HttpURLConnection connection = (HttpURLConnection) urlObj.openConnection();
-        connection.setRequestMethod("POST");
-        connection.setRequestProperty("User-Agent", "VoicesOfWynnModClient");
-        connection.setDoOutput(true);
-        DataOutputStream outputStream = new DataOutputStream(connection.getOutputStream());
-        fullLine = HTTPEncode(fullLine);
-        npcName = HTTPEncode(npcName);
-        name = HTTPEncode(name);
-        String urlPostParameters = "npc=" + npcName + "&player=" + name + "&full=" + fullLine + "&x=" + CoordX + "&y="
-                + CoordY + "&z=" + CoordZ + "&apiKey=" + config.getWord();
-        outputStream.writeBytes(urlPostParameters);
-        outputStream.flush();
-        outputStream.close();
-        Integer responseCode = connection.getResponseCode();
-        ModCore.LOGGER.debug("HTTP response Code : " + responseCode);
     }
 }
