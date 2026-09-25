@@ -6380,10 +6380,6 @@
     "report": true
   },
   {
-    "line": "Maddison: It's just a shame I didn't schedule this trip properly... I could have seen the Queen's Festival both here AND there, and now I'll miss both... Oh well...",
-    "report": true
-  },
-  {
     "line": "Mafia Prisoner: D",
     "report": true
   },
@@ -99792,7 +99788,7 @@
     "file": "offtherails-telati-17"
   },
   {
-    "line": "Telati: For today's trip to have so many people - and such a diverse set too - is an anomaly. It's unfortunate timing, too, since Zathie's on break.",
+    "line": "Telati: For today's trip to have so many people - and such a diverse set too - is an anomaly. It's... unfortunate timing, too, since Zathie's on break.",
     "file": "offtherails-telati-18"
   },
   {
@@ -100200,7 +100196,7 @@
     "file": "offtherails-maddison-47"
   },
   {
-    "line": "Maddison: The train's really cool to ride around on. The spectacle of it hasn't worn off on me, and this is my third experiencing it!",
+    "line": "Maddison: The train's really cool to ride around on. The spectacle of it hasn't worn off on me, and this is my third time experiencing it!",
     "file": "offtherails-maddison-48"
   },
   {
@@ -100896,7 +100892,7 @@
     "file": "offtherails-flinn-66"
   },
   {
-    "line": "Flinn: ...Gosh, sorry. I know I said I'd help with the case, but, thinking on it, I've not actually seen much that could help you. huh.",
+    "line": "Flinn: ...Gosh, sorry. I know I said I'd help with the case, but, thinking on it, I've not actually seen much that could help you, huh.",
     "file": "offtherails-flinn-67"
   },
   {
@@ -101080,7 +101076,7 @@
     "file": "offtherails-demma-95"
   },
   {
-    "line": "Demma: Think, toxins strong enough to bring down even Wooly Rhinos, in the Auburn Forest, with all its bugs? It'd be so strong!",
+    "line": "Demma: Think, toxins strong enough to bring down even Woolly Rhinos, in the Auburn Forest, with all its bugs? It'd be so strong!",
     "file": "offtherails-demma-96"
   },
   {
@@ -101200,7 +101196,7 @@
     "file": "offtherails-malic-84"
   },
   {
-    "line": "Malic: On the way out of the carriage, I noticed the purple guard taking a nap in one of the seats. Didn't pay attention to anything else going on in there.",
+    "line": "Malic: On the way out of the carriage, I noticed the purple guard was also taking a nap in one of the seats. Didn't pay attention to anything else going on in there.",
     "file": "offtherails-malic-85"
   },
   {
@@ -101460,7 +101456,7 @@
     "file": "offtherails-maddison-103"
   },
   {
-    "line": "Maddison: Anything else to talk about?",
+    "line": "Maddison: ...Anything else to talk about?",
     "file": "offtherails-maddison-104"
   },
   {
@@ -101504,7 +101500,7 @@
     "file": "offtherails-malic-111"
   },
   {
-    "line": "Malic: As a subscriber to this paper, I'm honestly getting a little tired of the riddles that just talk about how great the province is... Some variation of this question's in like, every single issue.",
+    "line": "Malic: As a subscriber to this paper, I'm getting tired of the riddles that just talk about how great the province is... Some variation of this question's in like, every issue.",
     "file": "offtherails-malic-112"
   },
   {
@@ -102096,7 +102092,7 @@
     "file": "offtherails-harvin-57"
   },
   {
-    "line": "???: Go on, go interrogate people.",
+    "line": "Maury: Go on, go interrogate people.",
     "file": "offtherails-maury-122"
   },
   {
@@ -109258,5 +109254,81 @@
   {
     "line": "Postmaster: Don't skip in line!",
     "file": "themissingpiece-postmaster-73"
+  },
+  {
+    "line": "Flinn: W-what? A key belonging to the caterer? Behind me?",
+    "file": "offtherails-flinn-74"
+  },
+  {
+    "line": "Flinn: ...I SWEAR I did not put that there... Please, you've gotta believe me...",
+    "file": "offtherails-flinn-75"
+  },
+  {
+    "line": "Flinn: Maybe he just, left it here and forgot..? No... He didn't stick around...",
+    "file": "offtherails-flinn-76"
+  },
+  {
+    "line": "Flinn: ...What? You have more questions?",
+    "file": "offtherails-flinn-77"
+  },
+  {
+    "line": "Maddison: Roughworks? Oh, right, that's what the people there call it. To me, it's the Industrial District.",
+    "file": "offtherails-maddison-120"
+  },
+  {
+    "line": "Maddison: I always imagined it being a bit... cleaner. Maybe the people there are just used to it being messy, though?",
+    "file": "offtherails-maddison-121"
+  },
+  {
+    "line": "Maddison: Overall, it was... probably been the low point of my trip. I think it's just not for me, really. But there were some parts I liked!",
+    "file": "offtherails-maddison-122"
+  },
+  {
+    "line": "Maddison: I already mentioned the pretty murals, but there was a bunch of other cool stuff, too. Did you know the people there fight to resolve disputes?",
+    "file": "offtherails-maddison-123"
+  },
+  {
+    "line": "Maddison: Murder aside, this trip's been mostly great! It's been really refreshing to see how different each region of Fruma is!",
+    "file": "offtherails-maddison-124"
+  },
+  {
+    "line": "Maddison: It's just a shame I didn't schedule this trip properly... I could have seen the Queen's Festival both here AND there, and now I'll miss both... Oh well...",
+    "file": "offtherails-maddison-125"
+  },
+  {
+    "line": "Maddison: Oh, alright. I wish you luck with the case!",
+    "file": "offtherails-maddison-126"
+  },
+  {
+    "line": "Maddison: Oh! The train's here! ...Uh, Guess I should catch you later?",
+    "file": "offtherails-maddison-127"
+  },
+  {
+    "line": "Malic: You... had a ticket, so don't you know the price? Ah, whatever- it's like, 5 Liquid Emeralds. That's a LOT.",
+    "file": "offtherails-malic-125"
+  },
+  {
+    "line": "Malic: ...Anyway. My factory's let us all take a week off. Usually we only get a day off at this time of year, since the Festival's in town, but...",
+    "file": "offtherails-malic-126"
+  },
+  {
+    "line": "Malic: Oh. Fair enough, I guess.",
+    "file": "offtherails-malic-127"
+  },
+  {
+    "line": "Maury: Ya lost the notebook? Damn, how'd ya manage that? Drop it off the train? Damnit...",
+    "file": "offtherails-maury-124"
+  },
+  {
+    "line": "Maury: You... had another one..?",
+    "file": "offtherails-maury-125"
+  },
+  {
+    "line": "Telati: So our chat's over then? Great, now I have no reason to procrastinate. Ha.",
+    "file": "offtherails-telati-91"
+  },
+  {
+    "line": "Telati: Oh, alright then. Good luck catching that murderer.",
+    "file": "offtherails-telati-92"
   }
 ]
