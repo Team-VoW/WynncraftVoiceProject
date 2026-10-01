@@ -2084,10 +2084,6 @@
     "report": true
   },
   {
-    "line": "Caravan Driver: Sorry folks, you'll have to make the rest of the journey by yourselves...",
-    "report": true
-  },
-  {
     "line": "Carl: ...",
     "report": true
   },
@@ -5228,10 +5224,6 @@
     "report": true
   },
   {
-    "line": "Guard: You can identify items at  Item Identifiers. They're found in towns across the whole world, but we have one here for recruits such as yourselves.",
-    "report": true
-  },
-  {
     "line": "Guard Golem: CANNOT EXIT OPERATION AREA. RETURNING TO POST.",
     "report": true
   },
@@ -6172,10 +6164,6 @@
     "report": true
   },
   {
-    "line": "Lieutenant: You three are going to make fine soldiers. Now, go on to Ragni, the King is awaiting your arrival.",
-    "report": true
-  },
-  {
     "line": "Lieutenant Gren: Back up there, human. I'm no engineer but the way this thing is ticking can't be any good.",
     "report": true
   },
@@ -6260,8 +6248,7 @@
     "report": true
   },
   {
-    "line": "Lutho Citizen: ...more than anything beyond, at least. The Obelisk protects us, after all.",
-    "report": true
+    "line": "Lutho Citizen: ...more than anything beyond, at least. The Obelisk protects us, after all."
   },
   {
     "line": "Lutho Citizen: A beacon of safety amidst the terror outside... what a miracle, to have found it awaiting us in our time of need.",
@@ -6272,47 +6259,7 @@
     "report": true
   },
   {
-    "line": "Lutho Citizen: All it does is take. More, and more, and more, until nothing is left... ha, ha, ha...",
-    "report": true
-  },
-  {
     "line": "Lutho Citizen: Do not worry, you are safe here. The Obelisk protects us all.",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: Don't be fooled - everything you see around you is very real.",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: Do you feel its pull? It calls to us all, when we arrive.",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: Fight against your fate, if you so choose... it makes no difference in the end. Ha... ha... ha...",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: Ha... ha... you should not have come here.",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: Ha... I saw it there. That flicker in your eyes...",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: Have you seen the others? Barely clinging on to life... hollowed, empty.",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: How long has it been, since we found ourselves trapped here...? Longer than anyone has any right to live... ha, ha...",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: How long has it been since a new face has joined us? I can't quite seem to recall...",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: I cannot blame them. Such a loss must seem a blessing, compared to life out here...",
     "report": true
   },
   {
@@ -6320,23 +6267,7 @@
     "report": true
   },
   {
-    "line": "Lutho Citizen: It takes... and takes... until...",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: Only I persist. And, now... you, too, have been ensnared.",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: Perhaps I am already gone. More dead than alive. Hollowed out...",
-    "report": true
-  },
-  {
     "line": "Lutho Citizen: Rest well, friend. You have made it home. Feel free to familiarize yourself with it.",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: The others... all have given in to its pull. Our band of survivors... left behind, abandoned...",
     "report": true
   },
   {
@@ -6349,14 +6280,6 @@
   },
   {
     "line": "Lutho Citizen: Why would anyone choose to resist? The world is twisted, wrong... we do not belong there.",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: You... could it be...? Are you... real?",
-    "report": true
-  },
-  {
-    "line": "Lutho Citizen: You have been... shattered. Just like me, ha, ha, ha...",
     "report": true
   },
   {
@@ -10648,10 +10571,6 @@
     "report": true
   },
   {
-    "line": "Tasim: And he's gone again... Well, I'm sure we'll be seeing him soon enough. For now, let's just see what Wynn really is like.",
-    "report": true
-  },
-  {
     "line": "Tasim: Back before I... ran.",
     "report": true
   },
@@ -10677,10 +10596,6 @@
   },
   {
     "line": "Tasim: Caid! You made it! You're a hero!",
-    "report": true
-  },
-  {
-    "line": "Tasim: Come to think of it... I don't think you ever mentioned what you needed it for.",
     "report": true
   },
   {
@@ -10724,14 +10639,6 @@
     "report": true
   },
   {
-    "line": "Tasim: Ha, well, I think I'm going to head in the direction of Detlas soon, although there appears to be something called Nivla Woods on the way...",
-    "report": true
-  },
-  {
-    "line": "Tasim: Ha, well, I think I'm going to head in the direction of Detlas soon, although there seems to something called Nivla Woods on the way...",
-    "report": true
-  },
-  {
     "line": "Tasim: He... doesn't know about Aledar, does he?",
     "report": true
   },
@@ -10764,10 +10671,6 @@
     "report": true
   },
   {
-    "line": "Tasim: I can handle things up here, soldier. You just need to go into that cave and find that herb!",
-    "report": true
-  },
-  {
     "line": "Tasim: I don't know most of the people here, so I'll stick with you for now.",
     "report": true
   },
@@ -10792,10 +10695,6 @@
     "report": true
   },
   {
-    "line": "Tasim: I'm going to go on ahead. I'll meet you in Alekin Village, it's just down the main road to the east.",
-    "report": true
-  },
-  {
     "line": "Tasim: I'm going to go on ahead. Just follow the coordinates in your content book to find that cave!",
     "report": true
   },
@@ -10812,19 +10711,11 @@
     "report": true
   },
   {
-    "line": "Tasim: It also lets you track any content you want, which will create beacons for you to follow.",
-    "report": true
-  },
-  {
     "line": "Tasim: I think you've already seen everything you had to in there, soldier.",
     "report": true
   },
   {
     "line": "Tasim: It-It's coming down! Now's our chance!",
-    "report": true
-  },
-  {
-    "line": "Tasim: It looks like we'll need to pass through the Nivla Woods first. I've heard the forest is crawling with spiders... and the undead are a danger, as always... but between you and me, we should be-",
     "report": true
   },
   {
@@ -10837,10 +10728,6 @@
   },
   {
     "line": "Tasim: It's... strange, being here like this. Standing before a bonfire, during Remembrance, and...",
-    "report": true
-  },
-  {
-    "line": "Tasim: It's beautiful.... Oh! I almost forgot to tell you, soldier.",
     "report": true
   },
   {
@@ -10868,10 +10755,6 @@
     "report": true
   },
   {
-    "line": "Tasim: Just passing through, our destination is Detlas. Though... we ran into a man named Ope, who directed us to speak with you.",
-    "report": true
-  },
-  {
     "line": "Tasim: Maybe that was selfish of me.",
     "report": true
   },
@@ -10889,10 +10772,6 @@
   },
   {
     "line": "Tasim: Not that that managed to stop him from finding me, ha. He kept sending me letters, and when I- I didn't respond, he...",
-    "report": true
-  },
-  {
-    "line": "Tasim: Oh... thank you. That's very kind of you. We'll probably stay a while, before we continue towards Detlas.",
     "report": true
   },
   {
@@ -10921,10 +10800,6 @@
   },
   {
     "line": "Tasim: Reynauld, it's not working! They just keep coming- we... have to do something... else, or we won't last!",
-    "report": true
-  },
-  {
-    "line": "Tasim: Right... okay. That makes sense. What did you need help with?",
     "report": true
   },
   {
@@ -10984,14 +10859,6 @@
     "report": true
   },
   {
-    "line": "Tasim: That's... frustrating. I really did just want to know... well. What's done is done. Let's just go talk to that mayor he mentioned.",
-    "report": true
-  },
-  {
-    "line": "Tasim: That works for me. soldier, you go into the cave, and I'll defend Ope up here while you do that.",
-    "report": true
-  },
-  {
     "line": "Tasim: The Admiral sent me to bolster Elkurn's defenses. I was expecting to meet you at the bridge, but all I found was Caid.",
     "report": true
   },
@@ -11008,31 +10875,11 @@
     "report": true
   },
   {
-    "line": "Tasim: There's this handy item we were all given on our way here, the Content Book. It displays most things you can do in this world; Quests, Caves, and much, much more.",
-    "report": true
-  },
-  {
-    "line": "Tasim: There you go! I'm going to head towards Nivla Woods, at the end of the Emerald Trail.",
-    "report": true
-  },
-  {
     "line": "Tasim: The spikes must be its weak point!",
     "report": true
   },
   {
-    "line": "Tasim: Uh- yes, we are, but-",
-    "report": true
-  },
-  {
-    "line": "Tasim: Wait, what? Hey, are you seriously not going to-",
-    "report": true
-  },
-  {
     "line": "Tasim: We did it... We really did it!",
-    "report": true
-  },
-  {
-    "line": "Tasim: Well... we came to Wynn to help out, after all. So... we can get you that herb!",
     "report": true
   },
   {
@@ -11045,14 +10892,6 @@
   },
   {
     "line": "Tasim: Well, it looks cleared to me. These are... uh...",
-    "report": true
-  },
-  {
-    "line": "Tasim: Well, sure- but who are you? Why are you out on your own, isn't it dangerous? Aren't the undead...",
-    "report": true
-  },
-  {
-    "line": "Tasim: Well, what are we waiting for?",
     "report": true
   },
   {
@@ -11073,10 +10912,6 @@
   },
   {
     "line": "Tasim: You haven't done any-?!",
-    "report": true
-  },
-  {
-    "line": "Tasim: You should meet me there once you've gotten a little stronger. Well, see you around, soldier.",
     "report": true
   },
   {
@@ -17275,12 +17110,12 @@
   },
   {
     "line": "Tasim: Hey, soldier! Are you alright in there? It looks like we've hit something.",
-    "file": "kingsrecruit-tasim-1",
+    "file": "kingsrecruit-caravandriver-4",
     "fallOff": 45
   },
   {
     "line": "???: Hey, soldier! Are you alright in there? It looks like we've hit something.",
-    "file": "kingsrecruit-tasim-1",
+    "file": "kingsrecruit-caravandriver-4",
     "fallOff": 45
   },
   {
@@ -17739,7 +17574,7 @@
   },
   {
     "line": "Tasim: So! Wynn, huh? It's pretty exciting to finally be here.",
-    "file": "kingsrecruit-tasim-47"
+    "file": "kingsrecruit-tasim-51"
   },
   {
     "line": "Tasim: There's this handy item we were all given on our way here- the Content Book. It displays most things you can do in this world- quests, caves, and more.",
@@ -17751,7 +17586,7 @@
   },
   {
     "line": "Tasim: Here, why don't you try it out? Use your Content Book, and click on the highlighted quest.",
-    "file": "kingsrecruit-tasim-48"
+    "file": "kingsrecruit-tasim-57"
   },
   {
     "line": "Tasim: Use your Content Book, and click on the highlighted quest.",
@@ -18268,7 +18103,7 @@
   },
   {
     "line": "Tasim: It... really hasn't been that long. Maybe ten minutes at most.",
-    "file": "infestedplants-tasim-6"
+    "file": "infestedplants-tasim-41"
   },
   {
     "line": "Ope: Well-... Anyway! Do you have the herb? It's very- uh, important! To cure me. Yep.",
@@ -18400,7 +18235,7 @@
   },
   {
     "line": "Tasim: Oh, soldier! There you are. It's good to see you. I'd say we should keep heading towards Detlas, but...",
-    "file": "infestedplants-tasim-12"
+    "file": "infestedplants-tasim-33"
   },
   {
     "line": "Tasim: You could probably do with getting a little stronger first. Tell me when you reach Level 4, alright?",
@@ -111356,5 +111191,285 @@
     "line": "Anathema: Nothing. All is coming... to a close.",
     "file": "nonquest-anathema-402",
     "reverb": "VOID_CATHEDRAL"
+  },
+  {
+    "line": "Tasim: It looks like we'll need to pass through the Nivla Woods first. I've heard the forest is crawling with spiders... and the undead are a danger, as always... but between you and me, we should be-",
+    "file": "infestedplants-tasim-34"
+  },
+  {
+    "line": "Tasim: Uh- yes, we are, but-",
+    "file": "infestedplants-tasim-35"
+  },
+  {
+    "line": "Tasim: Well, sure- but who are you? Why are you out on your own, isn't it dangerous? Aren't the undead...",
+    "file": "infestedplants-tasim-36"
+  },
+  {
+    "line": "Tasim: Right... okay. That makes sense. What did you need help with?",
+    "file": "infestedplants-tasim-37"
+  },
+  {
+    "line": "Tasim: Well... we came to Wynn to help out, after all. So... we can get you that herb!",
+    "file": "infestedplants-tasim-38"
+  },
+  {
+    "line": "Tasim: That works for me. soldier, you go into the cave, and I'll defend Ope up here while you do that.",
+    "file": "infestedplants-tasim-39"
+  },
+  {
+    "line": "Tasim: I can handle things up here, soldier. You just need to go into that cave and find that herb!",
+    "file": "infestedplants-tasim-40"
+  },
+  {
+    "line": "Tasim: Come to think of it... I don't think you ever mentioned what you needed it for.",
+    "file": "infestedplants-tasim-42"
+  },
+  {
+    "line": "Tasim: Wait, what? Hey, are you seriously not going to-",
+    "file": "infestedplants-tasim-43"
+  },
+  {
+    "line": "Tasim: That's... frustrating. I really did just want to know... well. What's done is done. Let's just go talk to that mayor he mentioned.",
+    "file": "infestedplants-tasim-44"
+  },
+  {
+    "line": "Tasim: I'm going to go on ahead. I'll meet you in Alekin Village, it's just down the main road to the east.",
+    "file": "infestedplants-tasim-45"
+  },
+  {
+    "line": "Tasim: Just passing through, our destination is Detlas. Though... we ran into a man named Ope, who directed us to speak with you.",
+    "file": "infestedplants-tasim-46"
+  },
+  {
+    "line": "Tasim: Oh... thank you. That's very kind of you. We'll probably stay a while, before we continue towards Detlas.",
+    "file": "infestedplants-tasim-47"
+  },
+  {
+    "line": "Tasim: Well, what are we waiting for?",
+    "file": "kingsrecruit-tasim-50"
+  },
+  {
+    "line": "Tasim: Ha, well, I think I'm going to head in the direction of Detlas soon, although there seems to something called Nivla Woods on the way...",
+    "file": "kingsrecruit-tasim-52"
+  },
+  {
+    "line": "Tasim: Ha, well, I think I'm going to head in the direction of Detlas soon, although there appears to be something called Nivla Woods on the way...",
+    "file": "kingsrecruit-tasim-52"
+  },
+  {
+    "line": "Tasim: And he's gone again... Well, I'm sure we'll be seeing him soon enough. For now, let's just see what Wynn really is like.",
+    "file": "kingsrecruit-tasim-53"
+  },
+  {
+    "line": "Tasim: It's beautiful.... Oh! I almost forgot to tell you, soldier.",
+    "file": "kingsrecruit-tasim-54"
+  },
+  {
+    "line": "Tasim: There's this handy item we were all given on our way here, the Content Book. It displays most things you can do in this world; Quests, Caves, and much, much more.",
+    "file": "kingsrecruit-tasim-55"
+  },
+  {
+    "line": "Tasim: It also lets you track any content you want, which will create beacons for you to follow.",
+    "file": "kingsrecruit-tasim-56"
+  },
+  {
+    "line": "Tasim: There you go! I'm going to head towards Nivla Woods, at the end of the Emerald Trail.",
+    "file": "kingsrecruit-tasim-58"
+  },
+  {
+    "line": "Tasim: You should meet me there once you've gotten a little stronger. Well, see you around, soldier.",
+    "file": "kingsrecruit-tasim-59"
+  },
+  {
+    "line": "Caravan Driver: Sorry folks, you'll have to make the rest of the journey by yourselves...",
+    "file": "kingsrecruit-caravandriver-5"
+  },
+  {
+    "line": "Guard: You can identify items at  Item Identifiers. They're found in towns across the whole world, but we have one here for recruits such as yourselves.",
+    "file": "kingsrecruit-guard-14"
+  },
+  {
+    "line": "Lieutenant: You three are going to make fine soldiers. Now, go on to Ragni, the King is awaiting your arrival.",
+    "file": "kingsrecruit-lieutenant-9"
+  },
+  {
+    "line": "Rusty Bartender: Well, hello there, traveler. Don't think I've seen you in here before.",
+    "file": "nonquestdialogue-rustybartender-1"
+  },
+  {
+    "line": "Rusty Bartender: Well, hello there, traveler! It's nice to see you around here again.",
+    "file": "nonquestdialogue-rustybartender-2"
+  },
+  {
+    "line": "Rusty Bartender: I see you've met the lady occupying half of my tavern. Don't mind her, she's just nervous about her upcoming mission.",
+    "file": "nonquestdialogue-rustybartender-3"
+  },
+  {
+    "line": "Rusty Bartender: You've joined that mission of theirs then, have you? Good luck. From what parts I overheard, it'll be quite treacherous.",
+    "file": "nonquestdialogue-rustybartender-4"
+  },
+  {
+    "line": "Rusty Bartender: Business is a touch slow today, but feel free to have a seat. Would you like a Nemract Whiskey? On the house.",
+    "file": "nonquestdialogue-rustybartender-5"
+  },
+  {
+    "line": "Rusty Bartender: Here you are, then!",
+    "file": "nonquestdialogue-rustybartender-6"
+  },
+  {
+    "line": "Rusty Bartender: Well, suit yourself. I think I'll have one, myself.",
+    "file": "nonquestdialogue-rustybartender-7"
+  },
+  {
+    "line": "Rusty Bartender: Hm. Didn't I just give you one? Let's slow down there, a bit, alright?",
+    "file": "nonquestdialogue-rustybartender-8"
+  },
+  {
+    "line": "Rusty Bartender: So, how have your travels been? You are a new recruit, yes? I can feel potential in you, traveler.",
+    "file": "nonquestdialogue-rustybartender-9"
+  },
+  {
+    "line": "Rusty Bartender: So, how have your travels been? You seem to be getting the hang of adventuring! Keep it up, and you'll be a proper hero in no time!",
+    "file": "nonquestdialogue-rustybartender-10"
+  },
+  {
+    "line": "Rusty Bartender: So, how have your travels been? You seem to know what you're doing. You've been on quite a few adventures, yes?",
+    "file": "nonquestdialogue-rustybartender-11"
+  },
+  {
+    "line": "Rusty Bartender: So, how have your travels been? You look like you've traveled the whole world. I can feel your power even from here!",
+    "file": "nonquestdialogue-rustybartender-12"
+  },
+  {
+    "line": "Rusty Bartender: So, how have your travels been? You look like you've been around, some! Have you been helping folks around here?",
+    "file": "nonquestdialogue-rustybartender-13"
+  },
+  {
+    "line": "Rusty Bartender: You defeated an ancient mummy to save someone from a curse? Rather heroic of you, wouldn't you think?",
+    "file": "nonquestdialogue-rustybartender-14"
+  },
+  {
+    "line": "Rusty Bartender: Ah... You defeated the reincarnation of Bob himself? Well, that's quite exciting, is it not? You're quite a hero, traveler.",
+    "file": "nonquestdialogue-rustybartender-15"
+  },
+  {
+    "line": "Rusty Bartender: ... So that mission of yours ended in this way? That's... troubling. You're quite powerful, yes, but you seem rather lucky to have lived. A shame the others did not...",
+    "file": "nonquestdialogue-rustybartender-16"
+  },
+  {
+    "line": "Rusty Bartender: You... what? You managed to take on the infamous Hive Challenge? And defeat the Mistress herself? You are something else, traveler.",
+    "file": "nonquestdialogue-rustybartender-17"
+  },
+  {
+    "line": "Rusty Bartender: Ah, you traveled to our city as a new recruit? Well, there's plenty to do around here. Plenty of people who could use help.",
+    "file": "nonquestdialogue-rustybartender-18"
+  },
+  {
+    "line": "Rusty Bartender: You went on an adventure with the Siegfried? Amazing. I envy you, traveler. I would give anything to have had that opportunity.",
+    "file": "nonquestdialogue-rustybartender-19"
+  },
+  {
+    "line": "Rusty Bartender: Oh, you met Yahya? Don't mind him, he's just... something. He's harmless.",
+    "file": "nonquestdialogue-rustybartender-20"
+  },
+  {
+    "line": "Rusty Bartender: Hm. You've managed to break through a corrupted seal? An interesting story, though I have to wonder why those mages wouldn't have though of corruption as an answer sooner...",
+    "file": "nonquestdialogue-rustybartender-21"
+  },
+  {
+    "line": "Rusty Bartender: Hm. You've managed to break through a corrupted seal? An interesting story, though I have to wonder why those mages wouldn't have thought of corruption as an answer sooner...",
+    "file": "nonquestdialogue-rustybartender-21"
+  },
+  {
+    "line": "Rusty Bartender: Ah... Time travel? Time Valley is a place of considerable power... I am glad you managed to save that lad from his fate, though.",
+    "file": "nonquestdialogue-rustybartender-22"
+  },
+  {
+    "line": "Rusty Bartender: You managed to enter Bob's tomb? I don't think anyone has ever managed to accomplish that before. Did you find what you were looking for?",
+    "file": "nonquestdialogue-rustybartender-23"
+  },
+  {
+    "line": "Rusty Bartender: You met Caissop? He's quite famous, you know. I hear his art sells quite well in Gavel's center, Cinfras.",
+    "file": "nonquestdialogue-rustybartender-24"
+  },
+  {
+    "line": "Rusty Bartender: A school of magic? What a whimsical story. You had to go to learn magic? Could have fooled me, what with how strong you appear now.",
+    "file": "nonquestdialogue-rustybartender-25"
+  },
+  {
+    "line": "Rusty Bartender: You took on one of the most powerful corrupted, and managed to slay it? You're quite a legend yourself, traveler.",
+    "file": "nonquestdialogue-rustybartender-26"
+  },
+  {
+    "line": "Rusty Bartender: You traveled to a realm of Light... And were tasked with... saving the embodiment of Light? I can't say I fully understand, but that sounds like an incredible adventure.",
+    "file": "nonquestdialogue-rustybartender-27"
+  },
+  {
+    "line": "Rusty Bartender: Well, I'd best get back to my business. It was nice talking to you, traveler. Come around anytime.",
+    "file": "nonquestdialogue-rustybartender-28"
+  },
+  {
+    "line": "Lutho Citizen: You... could it be...? Are you... real?",
+    "file": "pointofnoreturn-luthocitizen1-11"
+  },
+  {
+    "line": "Lutho Citizen: Ha... ha... you should not have come here.",
+    "file": "pointofnoreturn-luthocitizen1-12"
+  },
+  {
+    "line": "Lutho Citizen: Have you seen the others? Barely clinging on to life... hollowed, empty.",
+    "file": "pointofnoreturn-luthocitizen1-13"
+  },
+  {
+    "line": "Lutho Citizen: Only I persist. And, now... you, too, have been ensnared.",
+    "file": "pointofnoreturn-luthocitizen1-14"
+  },
+  {
+    "line": "Lutho Citizen: Fight against your fate, if you so choose... it makes no difference in the end. Ha... ha... ha...",
+    "file": "pointofnoreturn-luthocitizen1-15"
+  },
+  {
+    "line": "Lutho Citizen: Ha... I saw it there. That flicker in your eyes...",
+    "file": "pointofnoreturn-luthocitizen1-16"
+  },
+  {
+    "line": "Lutho Citizen: You have been... shattered. Just like me, ha, ha, ha...",
+    "file": "pointofnoreturn-luthocitizen1-17"
+  },
+  {
+    "line": "Lutho Citizen: The others... all have given in to its pull. Our band of survivors... left behind, abandoned...",
+    "file": "pointofnoreturn-luthocitizen1-18"
+  },
+  {
+    "line": "Lutho Citizen: I cannot blame them. Such a loss must seem a blessing, compared to life out here...",
+    "file": "pointofnoreturn-luthocitizen1-19"
+  },
+  {
+    "line": "Lutho Citizen: How long has it been, since we found ourselves trapped here...? Longer than anyone has any right to live... ha, ha...",
+    "file": "pointofnoreturn-luthocitizen1-20"
+  },
+  {
+    "line": "Lutho Citizen: Perhaps I am already gone. More dead than alive. Hollowed out...",
+    "file": "pointofnoreturn-luthocitizen1-21"
+  },
+  {
+    "line": "Lutho Citizen: All it does is take. More, and more, and more, until nothing is left... ha, ha, ha...",
+    "file": "pointofnoreturn-luthocitizen1-22"
+  },
+  {
+    "line": "Lutho Citizen: It takes... and takes... until...",
+    "file": "pointofnoreturn-luthocitizen1-23"
+  },
+  {
+    "line": "Lutho Citizen: How long has it been since a new face has joined us? I can't quite seem to recall...",
+    "file": "pointofnoreturn-luthocitizen3-5"
+  },
+  {
+    "line": "Lutho Citizen: Don't be fooled - everything you see around you is very real.",
+    "file": "pointofnoreturn-luthocitizen3-6"
+  },
+  {
+    "line": "Lutho Citizen: Do you feel its pull? It calls to us all, when we arrive.",
+    "file": "pointofnoreturn-luthocitizen3-7"
   }
 ]
