@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -19,7 +19,8 @@ public enum Reverb {
     SMALL_CAVE(6), // Confined underground (2.1s decay)
     CAVE(7), // Medium cavern (2.9s decay)
     BIG_CAVE(8), // Large cavern (4.3s decay)
-    CATHEDRAL(9); // Massive space (7.2s decay)
+    CATHEDRAL(9), // Massive space (7.2s decay)
+    VOID_CATHEDRAL(10); // Short, dark, supernatural space (1.6s decay)
 
     private final int id;
 
@@ -37,7 +38,7 @@ public enum Reverb {
 
     /**
      * Looks up a Reverb enum by its integer ID.
-     * @param id The reverb ID (0-9)
+     * @param id The reverb ID (0-10)
      * @return The corresponding Reverb enum, or null if not found
      */
     public static Reverb fromId(int id) {

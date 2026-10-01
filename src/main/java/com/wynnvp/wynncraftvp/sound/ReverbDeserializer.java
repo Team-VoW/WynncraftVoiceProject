@@ -1,5 +1,5 @@
 /*
- * Copyright © Team-VoW 2024-2025.
+ * Copyright © Team-VoW 2024-2026.
  * This file is released under AGPLv3. See LICENSE for full license details.
  */
 package com.wynnvp.wynncraftvp.sound;
@@ -12,7 +12,7 @@ import java.lang.reflect.Type;
 
 /**
  * Custom Gson deserializer for Reverb enum that supports both integer and string values.
- * Integer values are mapped to explicit enum IDs (0-9) for stable serialization.
+ * Integer values are mapped to explicit enum IDs (0-10) for stable serialization.
  */
 public class ReverbDeserializer implements JsonDeserializer<Reverb> {
     @Override
@@ -30,7 +30,7 @@ public class ReverbDeserializer implements JsonDeserializer<Reverb> {
             if (reverb != null) {
                 return reverb;
             } else {
-                throw new JsonParseException("Invalid reverb ID: " + id + ". Must be between 0 and 9.");
+                throw new JsonParseException("Invalid reverb ID: " + id + ". Must be between 0 and 10.");
             }
         }
 
@@ -44,6 +44,6 @@ public class ReverbDeserializer implements JsonDeserializer<Reverb> {
             }
         }
 
-        throw new JsonParseException("Reverb must be an integer (0-9) or string enum name");
+        throw new JsonParseException("Reverb must be an integer (0-10) or string enum name");
     }
 }
