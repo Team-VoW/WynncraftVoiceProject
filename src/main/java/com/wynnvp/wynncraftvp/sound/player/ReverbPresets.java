@@ -61,6 +61,16 @@ public final class ReverbPresets {
     private static final ComputedReverb CATHEDRAL =
             new ComputedReverb(1.0f, 1.0f, 0.316f, 0.891f, 7.24f, 0.87f, 0.5f, 0.056f, 1.26f, 0.024f, 0.994f, 0.0f, 1);
 
+    /**
+     * VOID_CATHEDRAL - an intense supernatural aura with a short, smooth, dark tail.
+     *
+     * <p>Unlike {@link #CATHEDRAL}, this is not meant to imply a physical room. High diffusion and a
+     * strong late return create scale around a voice, while the shorter decay and subdued high band
+     * avoid the metallic, boxy quality of closely spaced reflections.
+     */
+    private static final ComputedReverb VOID_CATHEDRAL =
+            new ComputedReverb(1.0f, 1.0f, 0.40f, 0.48f, 1.6f, 0.62f, 0.22f, 0.018f, 1.55f, 0.034f, 0.96f, 0.0f, 1);
+
     /** The reverb parameters for a named environment. */
     public static ComputedReverb getParams(Reverb reverb) {
         return switch (reverb) {
@@ -74,6 +84,7 @@ public final class ReverbPresets {
             case CAVE -> CAVE;
             case BIG_CAVE -> BIG_CAVE;
             case CATHEDRAL -> CATHEDRAL;
+            case VOID_CATHEDRAL -> VOID_CATHEDRAL;
         };
     }
 }
