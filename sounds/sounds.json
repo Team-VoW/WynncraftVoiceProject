@@ -11547,10 +11547,6 @@
     "report": true
   },
   {
-    "line": "Yahya: I am everywhere. M-mushroom soup, stew, soup m-makes me fast!",
-    "report": true
-  },
-  {
     "line": "Yahya: Th-thank you",
     "report": true
   },
@@ -111467,5 +111463,52 @@
   {
     "line": "Mehme: My home.",
     "file": "questionmark-mehme-6"
+  },
+  {
+    "line": "Yahya: I am everywhere. M-mushroom soup, stew, soup m-makes me fast!",
+    "file": "nonquestdialogue-yahya-1"
+  },
+  {
+    "line": "Yahya: ...You're s-still here. W-why are you st-... still here? C-can't a man enjoy his m-m-mushrooms in peace?",
+    "file": "nonquestdialogue-yahya-2"
+  },
+  {
+    "line": "Yahya: ...Okay. Goodbye.",
+    "file": "nonquestdialogue-yahya-3"
+  },
+  {
+    "line": "Yahya: Huh?! W-what do you...",
+    "file": "nonquestdialogue-yahya-4"
+  },
+  {
+    "line": "Yahya: G-give me that. I n-... need it."
+  },
+  {
+    "line": "Yahya: ...What? Go away. I need t-to be alone. With my m-mushroom soup.",
+    "file": "nonquestdialogue-yahya-5"
+  },
+  {
+    "line": "Yahya: H-huh?! No! It's m-mine now. You gave it. Fair and s-square.",
+    "file": "nonquestdialogue-yahya-6"
+  },
+  {
+    "line": "Yahya: ...mushrooms.",
+    "file": "nonquestdialogue-yahya-7"
+  },
+  {
+    "line": "YahyaBot V4.04: H-hey! I-Intruder detected! Here f-for my-... my m-m-mushrooms! I won't l-let you have-... have them!",
+    "file": "legendaryisland-yahyabot-1"
+  },
+  {
+    "line": "YahyaBot V4.04: WARNING: Defense systems critical! Power reserves low! Mushroom fuel reserves empty!",
+    "file": "legendaryisland-yahyabot-2"
+  },
+  {
+    "line": "YahyaBot V4.04: Initiating emergency shutdown...",
+    "file": "legendaryisland-yahyabot-3"
+  },
+  {
+    "line": "YahyaBot V4.04: W-wait! D-don't-... don't l-leave me here! I'll- I'll share my m-m-mushroom soup! J-just don't-",
+    "file": "legendaryisland-yahyabot-4"
   }
 ]
