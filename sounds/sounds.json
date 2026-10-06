@@ -16,23 +16,11 @@
     "report": true
   },
   {
-    "line": "???: ...Anythin' else?",
-    "report": true
-  },
-  {
-    "line": "???: ...Hm?",
-    "report": true
-  },
-  {
     "line": "???: ...Oh, Harvin, GODDAMNIT HARVIN... We're NOT gettin' let off the hook for this one! We're SCREWED.",
     "report": true
   },
   {
     "line": "???: ...Temple...",
-    "report": true
-  },
-  {
-    "line": "???: ...Well?",
     "report": true
   },
   {
@@ -76,35 +64,7 @@
     "report": true
   },
   {
-    "line": "???: Anyone there?",
-    "report": true
-  },
-  {
-    "line": "???: Anything ya wanna ask?",
-    "report": true
-  },
-  {
-    "line": "???: Anythin' ya wanna ask?",
-    "report": true
-  },
-  {
-    "line": "???: Are our people free?",
-    "report": true
-  },
-  {
     "line": "???: A shard of the crystal seems to have remained behind. Maybe you can use this to escape!",
-    "report": true
-  },
-  {
-    "line": "???: Because for as long as there are tyrants; there will be resistance.",
-    "report": true
-  },
-  {
-    "line": "???: BLECH! What is this stuff? Lemme read the label...",
-    "report": true
-  },
-  {
-    "line": "???: But... It's a livin'! I'm doin' what I'm supposed to, and it's the only purpose I've ever known. Besides alcohol, 'course.",
     "report": true
   },
   {
@@ -112,23 +72,11 @@
     "report": true
   },
   {
-    "line": "???: But still I have hope.",
-    "report": true
-  },
-  {
     "line": "???: Dark precedes light. It is the nature of things. I feel the shade may regret throwing away its power on this diversion, come the inevitable sunrise.",
     "report": true
   },
   {
-    "line": "???: Dey tend to come from the east side a' the Bog. I think. Maybe if ya looked there, ya'd find the stuff I want.",
-    "report": true
-  },
-  {
     "line": "???: Explore... These lands.",
-    "report": true
-  },
-  {
-    "line": "???: For as long as there is injustice; there will be those who seek to right it.",
     "report": true
   },
   {
@@ -156,10 +104,6 @@
     "report": true
   },
   {
-    "line": "???: Hmm... Different bottle than I'm used to... Are ya sure this is da right stuff?",
-    "report": true
-  },
-  {
     "line": "???: Hmmm, I must be imagining things...",
     "report": true
   },
@@ -172,27 +116,11 @@
     "report": true
   },
   {
-    "line": "???: If ya can complete our little deal, I'll tell ya whatever ya wanna know.",
-    "report": true
-  },
-  {
     "line": "???: I hope you know yer trespassin' on private property. Either you get on out of here right now or draw.",
     "report": true
   },
   {
     "line": "???: I must think of if it has practiced, with such dramaticism. A simple nightfall is no worry of mine, and no worry of my claim.",
-    "report": true
-  },
-  {
-    "line": "???: In exchange? Err... Tell ya what. I'll let'cha into my place. And we can have a nice conversation about... Er... Whatever you want, I guess.",
-    "report": true
-  },
-  {
-    "line": "???: Is anyone there?",
-    "report": true
-  },
-  {
-    "line": "???: Is she gone?",
     "report": true
   },
   {
@@ -213,10 +141,6 @@
   },
   {
     "line": "???: Let me show you a real challenge!",
-    "report": true
-  },
-  {
-    "line": "???: \"Liquefied Emeralds\"... Do you folks DRINK this?",
     "report": true
   },
   {
@@ -244,10 +168,6 @@
     "report": true
   },
   {
-    "line": "???: Now you have seen what happens to those who resist, but still I must ask you.",
-    "report": true
-  },
-  {
     "line": "???: Oh. You're- you're cursed.",
     "report": true
   },
@@ -256,35 +176,11 @@
     "report": true
   },
   {
-    "line": "???: Oh, it's you again.",
-    "report": true
-  },
-  {
-    "line": "???: Oh? Yep, looks like the stuff, only one way to find out!",
-    "report": true
-  },
-  {
-    "line": "???: Practically everyone 'ere knows me... Some've even seen me... I'm locally feared...",
-    "report": true
-  },
-  {
     "line": "???: REMEMBER!! No...no orders! No dREMEMBER!! No...no o irectREMEMBER!! No...no oives!",
     "report": true
   },
   {
-    "line": "???: Remember, dey bring da good stuff in wagons from the east. Ya might be able to track it down by goin' that way.",
-    "report": true
-  },
-  {
-    "line": "???: Say. Maybe YOU could 'elp. Dey pay me with bottles o' delicious green liquid. Forget da name. I bet you can get it elsewhere, though.",
-    "report": true
-  },
-  {
     "line": "???: Seek truth... In the Wynn Plains.",
-    "report": true
-  },
-  {
-    "line": "???: See ya 'round, pal.",
     "report": true
   },
   {
@@ -300,27 +196,11 @@
     "report": true
   },
   {
-    "line": "???: Sound like a deal? I hope so. Come back when you make some progress.",
-    "report": true
-  },
-  {
     "line": "???: Stop right there, impostor! You're not soldier!",
     "report": true
   },
   {
-    "line": "???: Thank you...",
-    "report": true
-  },
-  {
     "line": "???: That was... unsettling. Nevertheless, you should head east of the manor for any sign of where this Garvan person might live. You recall there being a village around there...",
-    "report": true
-  },
-  {
-    "line": "???: The cause is doomed. Our light has been snuffed out. Washed away by the forces of oppression.",
-    "report": true
-  },
-  {
-    "line": "???: The fox will run free.",
     "report": true
   },
   {
@@ -329,10 +209,6 @@
   },
   {
     "line": "???: The glorious sands",
-    "report": true
-  },
-  {
-    "line": "???: The hell are you? Some random traveler?",
     "report": true
   },
   {
@@ -368,10 +244,6 @@
     "report": true
   },
   {
-    "line": "???: Think ya mus' be confused by what I meant. Look east a' here. That's where dey get the stuff, I think.",
-    "report": true
-  },
-  {
     "line": "???: This town shouldn't even be here. Humans aren't allowed to own land in Gavel like this.",
     "report": true
   },
@@ -380,39 +252,11 @@
     "report": true
   },
   {
-    "line": "???: Usually when someone comes to da door, it's DEM. But not today. Not for da past month.",
-    "report": true
-  },
-  {
     "line": "???: Wait... No, no, what have I-",
     "report": true
   },
   {
-    "line": "???: Was our sacrifice worth it?",
-    "report": true
-  },
-  {
-    "line": "???: Well... My job is to shoo folks like you... But I don' get to talk to people often. So let's talk.",
-    "report": true
-  },
-  {
-    "line": "???: Well... Yeah. It's jus' - Eugh. Dey haven't CRRRROAK IN' paid me my fair share in ages!",
-    "report": true
-  },
-  {
-    "line": "???: Well, only one way to find out, I s'pose!",
-    "report": true
-  },
-  {
-    "line": "???: Well - Actually no. I'm not tellin' you that. Dey told me not to tell people. But...",
-    "report": true
-  },
-  {
     "line": "???: We've haven't had a warm meal in many years..l.. you've come at the right time... hehe...",
-    "report": true
-  },
-  {
-    "line": "???: Will you carry that flame?",
     "report": true
   },
   {
@@ -421,10 +265,6 @@
   },
   {
     "line": "???: Yep, I could tell from your weird fashion sense! You folk are supposed to help people, right? So. Help!",
-    "report": true
-  },
-  {
-    "line": "???: Yes... Come on in, pal. Let's talk.",
     "report": true
   },
   {
@@ -437,10 +277,6 @@
   },
   {
     "line": "???: You... Are not worthy to enter.",
-    "report": true
-  },
-  {
-    "line": "???: You... Don' know about me?",
     "report": true
   },
   {
@@ -1420,83 +1256,11 @@
     "report": true
   },
   {
-    "line": "Azael: ... betray...? Betray Her Majesty, you say...?",
-    "report": true
-  },
-  {
-    "line": "Azael: ...discarded at will, unable to even say WHO we are, lest our existence be scattered upon-",
-    "report": true
-  },
-  {
-    "line": "Azael: ...nothing. Nary a trace. Only ashes remain... We were too late.",
-    "report": true
-  },
-  {
-    "line": "Azael: ... you got it too. There's only one reason that a meeting by the Pyre would be called - someone is being made a statement.",
-    "report": true
-  },
-  {
-    "line": "Azael: Ah. Hello, Kawri. Is something the matter for you to seek me out?",
-    "report": true
-  },
-  {
-    "line": "Azael: Ah. Wait, but then... that'd make anyone as paranoid as a clan member... Oh. Oh no.",
-    "report": true
-  },
-  {
-    "line": "Azael: And again, this meeting was inevitable the moment they saw Ophir. As long as those like us are forced into these roles, this will be our punishment for failing to perform them.",
-    "report": true
-  },
-  {
-    "line": "Azael: Can we not discuss as we walk? Or is this something meant to be kept secret?",
-    "report": true
-  },
-  {
-    "line": "Azael: Gikyo. It's good to see you too. Are you also headed to-",
-    "report": true
-  },
-  {
-    "line": "Azael: Gikyo, are you aware that there's a meeting at the Pyre tonight?",
-    "report": true
-  },
-  {
-    "line": "Azael: If it's a meeting by the Pyre, then who am I to say no? I'll be seeing you all there tonight.",
-    "report": true
-  },
-  {
-    "line": "Azael: Oh? In what way did they slip up? I believed them to be the most diligent of our newest assignees...",
-    "report": true
-  },
-  {
-    "line": "Azael: So you don't even know why. Hm. And are we convening at the same time as usual?",
-    "report": true
-  },
-  {
-    "line": "Azael: The Pyre... how come? If the meeting is to take place there, surely the other clans will also be attending?",
-    "report": true
-  },
-  {
-    "line": "Azael: There's still- oh no. It's starting any time. Let's go, NOW! If we run, maybe we can still somehow smuggle them out!",
-    "report": true
-  },
-  {
     "line": "Azael: They seem busy right now. Best to talk to the others first.",
     "report": true
   },
   {
     "line": "Azael: We need to get a plan established, and fast. Time is running out.",
-    "report": true
-  },
-  {
-    "line": "Azael: When did I justify it? Yet again, the root of the problem is what WE are forced to do. Our appearance and existence defined by orders from the top...",
-    "report": true
-  },
-  {
-    "line": "Azael: You know, Gikyo... for someone so good at playing the fool, you really do have the brightest ideas sometimes...",
-    "report": true
-  },
-  {
-    "line": "Azael: You should have known this would happen the moment you heard Ophir's name. To a clan, few actions are worse than espionage.",
     "report": true
   },
   {
@@ -1941,22 +1705,6 @@
   },
   {
     "line": "Captain Ackbar: I am busy at the moment. Look in your content book if you are lost.",
-    "report": true
-  },
-  {
-    "line": "Captain Duilio: ...? But why would She- no, we wouldn't dare defy Her orders, of course not, but... May we know the rationale?",
-    "report": true
-  },
-  {
-    "line": "Captain Duilio: Ah. Very well. Yes, we shall submit the incident report once this is taken care of.",
-    "report": true
-  },
-  {
-    "line": "Captain Duilio: MEN! RETREAT! BY HER MAJESTY'S ORDERS, YOU ARE TO HALT YOUR MARCH AND RETREAT! HEED MY WORDS AND RUN, IF YOU DO NOT WISH TO FACE HER MAJESTY'S WRATH!",
-    "report": true
-  },
-  {
-    "line": "Captain Duilio: Wh-? Men, halt your advance! Her Majesty delivers a message for us!",
     "report": true
   },
   {
@@ -4080,23 +3828,7 @@
     "report": true
   },
   {
-    "line": "Espren Citizen: Ah, you're wondering about the statues?",
-    "report": true
-  },
-  {
     "line": "Espren Citizen: But you know what? I've asked around, not a single person in Espren knows someone who works there.",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: Can I help you with anything?",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: Despite this, it is a small public place people can relax in.",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: Enjoy this brief moment of peace. I know I will.",
     "report": true
   },
   {
@@ -4104,43 +3836,11 @@
     "report": true
   },
   {
-    "line": "Espren Citizen: I mean... The two guards here never move. At all.",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: I'm not too certain myself, but I do find them neat-looking.",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: I suppose they're just doing their job? Nevertheless, I like this spot, and I'd like it if it was a bit more... Empty.",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: I think... They represent growth, harmony, and things of this nature.",
-    "report": true
-  },
-  {
     "line": "Espren Citizen: I think they're importing labour from the Industrial District. Not sure how, it's not like the wall gets much traffic.",
     "report": true
   },
   {
-    "line": "Espren Citizen: I will say though, it can get somewhat displeasing when you feel watched all the time...",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: I wouldn't be surprised if they were bored of staying here all day... I know I couldn't just stand still for so long.",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: Maybe there's something to do while they're away..?",
-    "report": true
-  },
-  {
     "line": "Espren Citizen: Mister Sheer-Oak... Such a confusing-looking name, too! And that he's a Nasin... Trouble's coming, I know it!",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: Now that doesn't happen often!",
     "report": true
   },
   {
@@ -4164,18 +3864,6 @@
     "report": true
   },
   {
-    "line": "Espren Citizen: This is the entrance to the manor of Sovereign Zhiraok.",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: Um, hello.",
-    "report": true
-  },
-  {
-    "line": "Espren Citizen: Well, they rarely move. It happens when a crime is reported to them.",
-    "report": true
-  },
-  {
     "line": "Espren Citizen: Whatever it was, it doesn't matter now... It's such a lovely sound, isn't it?",
     "report": true
   },
@@ -4188,131 +3876,11 @@
     "report": true
   },
   {
-    "line": "Espren Guard: ...",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Access to the mansion is strictly forbidden. What is it?",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: A cursed one? Are you certain?",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Ask someone else if you're some sort of tourist.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Can't help. Go rest somewhere or something.",
-    "report": true
-  },
-  {
     "line": "Espren Guard: Don't waste my time.",
     "report": true
   },
   {
-    "line": "Espren Guard: Good day to you.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Good day to you too.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Here? This is a good place to clear one's mind. The fountain and the sights make it good for meditation.",
-    "report": true
-  },
-  {
     "line": "Espren Guard: Hey! Get down from there!",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Hm?",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: If the matter is urgent, you may report to a guard.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: If you need something, say it here and now.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: If you need to go to Zhiraok's mansion, it's over here.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: I'm sorry to hear that, but I can't help you.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: I recommend sitting on the stump over yonder and taking a break, see if that helps.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Is there a problem?",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Maybe that gardener has something for headaches?",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: My apologies, but you cannot see him unless summoned by him.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: No.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Now, if you'll excuse me.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Oh?",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Other than that, people enjoy this small park. It's well-maintained.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Preposterous! Who would even dare to..?",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Reports of a Cursed One in Espren's walls! Too many to be coincidence. We need your guidance on how to proceed, sir!",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Something to report? Go on.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Sovereign Zhiraok! Emergency!",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Such defiance is what we're here for. We'll go put some sense back in this individual.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: Well? Out with it.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: We'll go look for them for a bit. Thank you.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: We'll go take a look.",
-    "report": true
-  },
-  {
-    "line": "Espren Guard: What?! Are you sure?",
     "report": true
   },
   {
@@ -4716,79 +4284,7 @@
     "report": true
   },
   {
-    "line": "Gale: ...what? What's that look for? I don't just sit in the arena all day waiting for challengers, sheesh! That'd be boring as all get-out!",
-    "report": true
-  },
-  {
     "line": "Gale: ...You should probably just talk about something else.",
-    "report": true
-  },
-  {
-    "line": "Gale: A good benchmark is the prizes you get- if you think you can handle wearing a division's gear, you're probably ready to take on the division you get that gear from. Does that make sense?",
-    "report": true
-  },
-  {
-    "line": "Gale: Anything else you wanna talk about?",
-    "report": true
-  },
-  {
-    "line": "Gale: Each one is a lot tougher than the last! It isn't really...uh, feasible, to try and do it all in one go.",
-    "report": true
-  },
-  {
-    "line": "Gale: Heehee...soooo, wanna talk? Seems like you've got a minute, right? And you found my not-so-secret hiding spot.",
-    "report": true
-  },
-  {
-    "line": "Gale: I could keep up the pace at the end, no prob! But it's more fun if I don't. Less messy, too.",
-    "report": true
-  },
-  {
-    "line": "Gale: I mean, we let people walk away when they can't fight anymore, but sometimes they just, uh...insist?",
-    "report": true
-  },
-  {
-    "line": "Gale: Like...there's only so many times I can tell 'em the fight's over before I have to take another shot. Really hate when that happens.",
-    "report": true
-  },
-  {
-    "line": "Gale: Like, they think if they're just, just man enough and keep getting back up, they'll pull a turnabout? Uh, news flash? Doesn't work.",
-    "report": true
-  },
-  {
-    "line": "Gale: Oh.",
-    "report": true
-  },
-  {
-    "line": "Gale: Phew...heya! Just winding down a little after our fight.",
-    "report": true
-  },
-  {
-    "line": "Gale: So a lot of times, people hear about the challenge, and try to blitz through it all in one go.",
-    "report": true
-  },
-  {
-    "line": "Gale: So they get through the Thunder Division, maaaybe through the Air Division and past me, then hit a brick wall and stop dead in the Earth Division.",
-    "report": true
-  },
-  {
-    "line": "Gale: The best advice I've got is this: Take your time.",
-    "report": true
-  },
-  {
-    "line": "Gale: There's no time limit for the challenge! So take your time! Go off and train up, then come back when you're a bit stronger!",
-    "report": true
-  },
-  {
-    "line": "Gale: Uh...well, anyways, yeah- I wasn't giving it everything I had, but it isn't like I was babying you either. I'm not diminishing your accomplishments!",
-    "report": true
-  },
-  {
-    "line": "Gale: Uh, my condolences.",
-    "report": true
-  },
-  {
-    "line": "Gale: Yep! I really was. I mean, you noticed that I wasn't goin' at it as fierce at the beginning of the fight, right?",
     "report": true
   },
   {
@@ -4800,63 +4296,11 @@
     "report": true
   },
   {
-    "line": "Gardener: ..and I told you I'm not the one to go to.",
-    "report": true
-  },
-  {
-    "line": "Gardener: Ah, to be blessed with such a job... Working for him... I might be the luckiest person in Auburn!",
-    "report": true
-  },
-  {
-    "line": "Gardener: At least now there's no one to give me weird looks when I try to climb up the bench!",
-    "report": true
-  },
-  {
-    "line": "Gardener: Can I help you with anything?",
-    "report": true
-  },
-  {
-    "line": "Gardener: Can't you see all the guards around? Why come to ME to report something?",
-    "report": true
-  },
-  {
-    "line": "Gardener: Did you... Did you say something to them?",
-    "report": true
-  },
-  {
-    "line": "Gardener: Hello to you too!",
-    "report": true
-  },
-  {
-    "line": "Gardener: He sometimes shows up on his balcony right here. I'd love knowing what's in there...",
-    "report": true
-  },
-  {
-    "line": "Gardener: I'd be doing a lot better if I could see the view from the balcony above...",
-    "report": true
-  },
-  {
-    "line": "Gardener: I'd enjoy some more peace and quiet. Being the one taking care of everything here, I think I deserve it.",
-    "report": true
-  },
-  {
-    "line": "Gardener: If you have something to report, please talk to someone else.",
-    "report": true
-  },
-  {
     "line": "Gardener: If you really want to, the receptionist is in the castle. Just go east and don't stop.",
     "report": true
   },
   {
-    "line": "Gardener: If you're that eager to have a chat, why don't you go and report a crime or something?",
-    "report": true
-  },
-  {
     "line": "Gardener: I mean, yeah, anyone can try getting one...",
-    "report": true
-  },
-  {
-    "line": "Gardener: In fact... If you could get them off this little place for a bit, that'd be nice.",
     "report": true
   },
   {
@@ -4873,34 +4317,6 @@
   },
   {
     "line": "Gardener: The chances you get one are really slim. You'd have more luck stealing the invitation from someone, heh!",
-    "report": true
-  },
-  {
-    "line": "Gardener: The guards are always more than happy to take care of problems.",
-    "report": true
-  },
-  {
-    "line": "Gardener: They'll probably be back soon anyway...",
-    "report": true
-  },
-  {
-    "line": "Gardener: This mansion over here? It sure is!",
-    "report": true
-  },
-  {
-    "line": "Gardener: Uh... I'm doing alright?",
-    "report": true
-  },
-  {
-    "line": "Gardener: Well, no matter. I don't get to experience this often.",
-    "report": true
-  },
-  {
-    "line": "Gardener: What? Don't you find him incredible? And pretty, too!",
-    "report": true
-  },
-  {
-    "line": "Gardener: Why do you ask? Who are you? I've never seen you before. And I see a lot of people.",
     "report": true
   },
   {
@@ -5209,10 +4625,6 @@
   },
   {
     "line": "Guard: The door is locked shut, and there's no keyhole anyplace.",
-    "report": true
-  },
-  {
-    "line": "Guard: Uh, boss, I don't think they're a...",
     "report": true
   },
   {
@@ -10159,27 +9571,7 @@
     "report": true
   },
   {
-    "line": "Sovereign Zhiraok: ...did I leave this out earlier?",
-    "report": true
-  },
-  {
-    "line": "Sovereign Zhiraok: ...that's a greater value than my concerns, for sure. Alright, follow my lead.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Zhiraok: ...Xao wouldn't have- No. There isn't...?",
-    "report": true
-  },
-  {
     "line": "Sovereign Zhiraok: Everything is still in order. It's unlikely, but...",
-    "report": true
-  },
-  {
-    "line": "Sovereign Zhiraok: Hello? Xao? I thought I heard someone up here.",
-    "report": true
-  },
-  {
-    "line": "Sovereign Zhiraok: He would never have left my office out of order like this.",
     "report": true
   },
   {
@@ -10187,15 +9579,7 @@
     "report": true
   },
   {
-    "line": "Sovereign Zhiraok: Reach your endpoint! I've got some problems myself.",
-    "report": true
-  },
-  {
     "line": "Sovereign Zhiraok: Rrrngh...huff...you...aren't getting away from me...huff...again. Our sequence...isn't terminated yet!",
-    "report": true
-  },
-  {
-    "line": "Sovereign Zhiraok: Who the helix is in here?!",
     "report": true
   },
   {
@@ -111510,5 +110894,2037 @@
   {
     "line": "YahyaBot V4.04: W-wait! D-don't-... don't l-leave me here! I'll- I'll share my m-m-mushroom soup! J-just don't-",
     "file": "legendaryisland-yahyabot-4"
+  },
+  {
+    "line": "Fia: Welcome, customer, to the sole brewery of Auburn Absinthe!",
+    "file": "frumasecretdiscoveries-fia-1"
+  },
+  {
+    "line": "Fia: How may I help you on this fine day?",
+    "file": "frumasecretdiscoveries-fia-2"
+  },
+  {
+    "line": "Fia: Uhh... I... Did just say Auburn Absinthe, didn't I? Were you not paying attention?",
+    "file": "frumasecretdiscoveries-fia-3"
+  },
+  {
+    "line": "Fia: This is the only place where Auburn Absinthe is sold. It's a drink my family invented, and uh... People don't tend to like it...",
+    "file": "frumasecretdiscoveries-fia-4"
+  },
+  {
+    "line": "Fia: There's like, one person who consistently comes around. Though they haven't shown up in a while, weirdly.",
+    "file": "frumasecretdiscoveries-fia-5"
+  },
+  {
+    "line": "Fia: When they do come by, though, they buy a LOT. They seem to have a lot of valuable resources, so I've gotten quite rich off it!",
+    "file": "frumasecretdiscoveries-fia-6"
+  },
+  {
+    "line": "Fia: Consequently, that means my pricing standards are also really high. If you want even a bottle of this stuff, you'll need to give me something like... five hundred Liff Leaves?",
+    "file": "frumasecretdiscoveries-fia-7"
+  },
+  {
+    "line": "Fia: A lot of people tell me that... Maybe I should lower the price...",
+    "file": "frumasecretdiscoveries-fia-8"
+  },
+  {
+    "line": "Fia: Well, not now. Can't change these things on impulse.",
+    "file": "frumasecretdiscoveries-fia-9"
+  },
+  {
+    "line": "Fia: Aha! I've thought of a deal we can make over this. Ask me about it if you're interested.",
+    "file": "frumasecretdiscoveries-fia-10"
+  },
+  {
+    "line": "Fia: Well?",
+    "file": "frumasecretdiscoveries-fia-11"
+  },
+  {
+    "line": "Fia: What??? You want to pay in emeralds??? But- but they're worthless?!",
+    "file": "frumasecretdiscoveries-fia-12"
+  },
+  {
+    "line": "Fia: It would take you millions of them to equate to the value of five hundred Liff Leaves!",
+    "file": "frumasecretdiscoveries-fia-13"
+  },
+  {
+    "line": "Fia: ...Huh? They're valuable where you come from? Well, I don't know where you're from, but here, they're worth dirt.",
+    "file": "frumasecretdiscoveries-fia-14"
+  },
+  {
+    "line": "Fia: Got anything else you'd like to talk about?",
+    "file": "frumasecretdiscoveries-fia-15"
+  },
+  {
+    "line": "Fia: Ah. To be honest, I don't have many... Besides... The one...",
+    "file": "frumasecretdiscoveries-fia-16"
+  },
+  {
+    "line": "Fia: Uhm. You know the rumors about the Bog Frog?",
+    "file": "frumasecretdiscoveries-fia-17"
+  },
+  {
+    "line": "Fia: They say he's a powerful Cursed that takes the form of a Frog. There is much debate as to if he's real or not.",
+    "file": "frumasecretdiscoveries-fia-18"
+  },
+  {
+    "line": "Fia: But... HE IS!!! ...See, usually I have to venture into the Bog to find the ingredients for Auburn Absinthe.",
+    "file": "frumasecretdiscoveries-fia-19"
+  },
+  {
+    "line": "Fia: Historically, my family has warned to stay out of the deeper parts of it, because of the rumors... But I, a young and naive child, ignored them...",
+    "file": "frumasecretdiscoveries-fia-20"
+  },
+  {
+    "line": "Fia: It is only by the grace of the foxes that I was spared... Do not venture into the deep swamp, alright?",
+    "file": "frumasecretdiscoveries-fia-21"
+  },
+  {
+    "line": "Fia: ...Got anything else you'd like to talk about?",
+    "file": "frumasecretdiscoveries-fia-22"
+  },
+  {
+    "line": "Fia: Hope to see you again!",
+    "file": "frumasecretdiscoveries-fia-23"
+  },
+  {
+    "line": "Fia: Welcome back!",
+    "file": "frumasecretdiscoveries-fia-24"
+  },
+  {
+    "line": "Fia: Well, since you can't pay with valuable resources, there is something around here that I could ask of you instead.",
+    "file": "frumasecretdiscoveries-fia-25"
+  },
+  {
+    "line": "Fia: See, I was out gathering the materials I use for brewing the other day, when I realized my most prized possession had gone missing.",
+    "file": "frumasecretdiscoveries-fia-26"
+  },
+  {
+    "line": "Fia: It was an heirloom passed down in my family. I hold onto it for good luck. I searched for it for hours, to no avail.",
+    "file": "frumasecretdiscoveries-fia-27"
+  },
+  {
+    "line": "Fia: This bog is so big. And muddy. I don't know if I could ever find it. So that's where you come in!",
+    "file": "frumasecretdiscoveries-fia-28"
+  },
+  {
+    "line": "Fia: I think you get the point already. Find my heirloom, and I will give you an Auburn Absinthe.",
+    "file": "frumasecretdiscoveries-fia-29"
+  },
+  {
+    "line": "Fia: Oh, you'll be needing this, probably.",
+    "file": "frumasecretdiscoveries-fia-30"
+  },
+  {
+    "line": "Fia: Hold the shovel outside this house, and look around for sparkly spots. Dig in those spots with the shovel, and see if you can find my precious possession.",
+    "file": "frumasecretdiscoveries-fia-31"
+  },
+  {
+    "line": "Fia: Make sure you're stood directly on top of them! Digging just anywhere won't work, you know!",
+    "file": "frumasecretdiscoveries-fia-32"
+  },
+  {
+    "line": "Fia: Wow, you forgot already? Well... Alright, I guess.",
+    "file": "frumasecretdiscoveries-fia-33"
+  },
+  {
+    "line": "Fia: I think you remember the point. Find my heirloom, and I will give you an Auburn Absinthe.",
+    "file": "frumasecretdiscoveries-fia-34"
+  },
+  {
+    "line": "Fia: Ah, alright. Basically, if you go outside my house while holding that shovel, you'll see a bunch of sparkly spots around the place.",
+    "file": "frumasecretdiscoveries-fia-35"
+  },
+  {
+    "line": "Fia: Right-click while standing directly on top of them to dig, and see what you get! Hopefully, it'll be my heirloom.",
+    "file": "frumasecretdiscoveries-fia-36"
+  },
+  {
+    "line": "Fia: Welcome back! Got anything to ask?",
+    "file": "frumasecretdiscoveries-fia-37"
+  },
+  {
+    "line": "Fia: ...Sigh... Alright, I'll go look for it. Give me a bit.",
+    "file": "frumasecretdiscoveries-fia-38"
+  },
+  {
+    "line": "Fia: Here you go. Don't lose it again, please.",
+    "file": "frumasecretdiscoveries-fia-39"
+  },
+  {
+    "line": "Fia: Oh! Yes, that's it! The cap of the first ever bottle of Auburn Absinthe...",
+    "file": "frumasecretdiscoveries-fia-40"
+  },
+  {
+    "line": "Fia: My family's been in this business for 750 years... and yet most customers always just left disgusted.",
+    "file": "frumasecretdiscoveries-fia-41"
+  },
+  {
+    "line": "Fia: Maybe I should try to change the recipe..? Oh, right! The deal.",
+    "file": "frumasecretdiscoveries-fia-42"
+  },
+  {
+    "line": "Fia: Here's a fresh bottle of Auburn Absinthe! I hope you enjoy it!",
+    "file": "frumasecretdiscoveries-fia-43"
+  },
+  {
+    "line": "???: ...Hm?",
+    "file": "frumasecretdiscoveries-croaquin-1"
+  },
+  {
+    "line": "???: Anyone there?",
+    "file": "frumasecretdiscoveries-croaquin-2"
+  },
+  {
+    "line": "???: ...Well?",
+    "file": "frumasecretdiscoveries-croaquin-3"
+  },
+  {
+    "line": "???: The hell are you? Some random traveler?",
+    "file": "frumasecretdiscoveries-croaquin-4"
+  },
+  {
+    "line": "???: Well... My job is to shoo folks like you... But I don' get to talk to people often. So let's talk.",
+    "file": "frumasecretdiscoveries-croaquin-5"
+  },
+  {
+    "line": "???: Anythin' ya wanna ask?",
+    "file": "frumasecretdiscoveries-croaquin-6"
+  },
+  {
+    "line": "???: See ya 'round, pal.",
+    "file": "frumasecretdiscoveries-croaquin-7"
+  },
+  {
+    "line": "???: Oh, it's you again.",
+    "file": "frumasecretdiscoveries-croaquin-8"
+  },
+  {
+    "line": "???: Ah, it's you. Come on in!",
+    "file": "frumasecretdiscoveries-croaquin-9"
+  },
+  {
+    "line": "???: Anything ya wanna ask?",
+    "file": "frumasecretdiscoveries-croaquin-10"
+  },
+  {
+    "line": "???: You... Don' know about me?",
+    "file": "frumasecretdiscoveries-croaquin-11"
+  },
+  {
+    "line": "???: Practically everyone 'ere knows me... Some've even seen me... I'm locally feared...",
+    "file": "frumasecretdiscoveries-croaquin-12"
+  },
+  {
+    "line": "???: But... It's a livin'! I'm doin' what I'm supposed to, and it's the only purpose I've ever known. Besides alcohol, 'course.",
+    "file": "frumasecretdiscoveries-croaquin-13"
+  },
+  {
+    "line": "???: ...Anythin' else?",
+    "file": "frumasecretdiscoveries-croaquin-14"
+  },
+  {
+    "line": "???: Well... Yeah. It's jus' - Eugh. Dey haven't CRRRROAK IN' paid me my fair share in ages!",
+    "file": "frumasecretdiscoveries-croaquin-15"
+  },
+  {
+    "line": "???: Usually when someone comes to da door, it's DEM. But not today. Not for da past month.",
+    "file": "frumasecretdiscoveries-croaquin-16"
+  },
+  {
+    "line": "???: Say. Maybe YOU could 'elp. Dey pay me with bottles o' delicious green liquid. Forget da name. I bet you can get it elsewhere, though.",
+    "file": "frumasecretdiscoveries-croaquin-17"
+  },
+  {
+    "line": "???: Dey tend to come from the east side a' the Bog. I think. Maybe if ya looked there, ya'd find the stuff I want.",
+    "file": "frumasecretdiscoveries-croaquin-18"
+  },
+  {
+    "line": "???: In exchange? Err... Tell ya what. I'll let'cha into my place. And we can have a nice conversation about... Er... Whatever you want, I guess.",
+    "file": "frumasecretdiscoveries-croaquin-19"
+  },
+  {
+    "line": "???: Sound like a deal? I hope so. Come back when you make some progress.",
+    "file": "frumasecretdiscoveries-croaquin-20"
+  },
+  {
+    "line": "???: Well - Actually no. I'm not tellin' you that. Dey told me not to tell people. But...",
+    "file": "frumasecretdiscoveries-croaquin-21"
+  },
+  {
+    "line": "???: If ya can complete our little deal, I'll tell ya whatever ya wanna know.",
+    "file": "frumasecretdiscoveries-croaquin-22"
+  },
+  {
+    "line": "???: Remember, dey bring da good stuff in wagons from the east. Ya might be able to track it down by goin' that way.",
+    "file": "frumasecretdiscoveries-croaquin-23"
+  },
+  {
+    "line": "???: Hmm... Different bottle than I'm used to... Are ya sure this is da right stuff?",
+    "file": "frumasecretdiscoveries-croaquin-24"
+  },
+  {
+    "line": "???: Well, only one way to find out, I s'pose!",
+    "file": "frumasecretdiscoveries-croaquin-25"
+  },
+  {
+    "line": "???: BLECH! What is this stuff? Lemme read the label...",
+    "file": "frumasecretdiscoveries-croaquin-26"
+  },
+  {
+    "line": "???: \"Liquefied Emeralds\"... Do you folks DRINK this?",
+    "file": "frumasecretdiscoveries-croaquin-27"
+  },
+  {
+    "line": "???: Think ya mus' be confused by what I meant. Look east a' here. That's where dey get the stuff, I think.",
+    "file": "frumasecretdiscoveries-croaquin-28"
+  },
+  {
+    "line": "???: Oh? Yep, looks like the stuff, only one way to find out!",
+    "file": "frumasecretdiscoveries-croaquin-29"
+  },
+  {
+    "line": "???: Yes... Come on in, pal. Let's talk.",
+    "file": "frumasecretdiscoveries-croaquin-30"
+  },
+  {
+    "line": "Croaquin: Welcome to Fort Frog, pal.",
+    "file": "frumasecretdiscoveries-croaquin-31"
+  },
+  {
+    "line": "Croaquin: Ya know... I'm not s'posed to let folks like you in here... Don' tell anyone you met me, capiche?",
+    "file": "frumasecretdiscoveries-croaquin-32"
+  },
+  {
+    "line": "Croaquin: S'pose I haven't introduced myself yet. The name's Croaquin, and I run this joint.",
+    "file": "frumasecretdiscoveries-croaquin-33"
+  },
+  {
+    "line": "Croaquin: And you? soldier, eh? I'd say that's a strange name, but I guess I can't crrrroakin' talk.",
+    "file": "frumasecretdiscoveries-croaquin-34"
+  },
+  {
+    "line": "Croaquin: Well, get yer questions outta the way, I guess.",
+    "file": "frumasecretdiscoveries-croaquin-35"
+  },
+  {
+    "line": "Croaquin: Well that's a rude crrrroakin' question to ask the guy who just let you into 'is home, eh?",
+    "file": "frumasecretdiscoveries-croaquin-36"
+  },
+  {
+    "line": "Croaquin: But I s'pose I must be some sorta freak, given the way most folks seem to react when they see me.",
+    "file": "frumasecretdiscoveries-croaquin-37"
+  },
+  {
+    "line": "Croaquin: I'm a frog, I guess? Except I'm much bigger and talk human.",
+    "file": "frumasecretdiscoveries-croaquin-38"
+  },
+  {
+    "line": "Croaquin: And to be honest with ya? I have no idea why I'm different to the others. I mean, I dunno if you've noticed, but dey ain't exactly fluent in human. Nor do dey wear clothes.",
+    "file": "frumasecretdiscoveries-croaquin-39"
+  },
+  {
+    "line": "Croaquin: Or smoke cigars. Or drink.. er.. what's this stuff called? Auburn Absinthe? Yeah.",
+    "file": "frumasecretdiscoveries-croaquin-40"
+  },
+  {
+    "line": "Croaquin: Fun question! I have no crrrroakin' clue.",
+    "file": "frumasecretdiscoveries-croaquin-41"
+  },
+  {
+    "line": "Croaquin: I don' remember much from my early life... Hardly even my childhood. Real long time ago, see.",
+    "file": "frumasecretdiscoveries-croaquin-42"
+  },
+  {
+    "line": "Croaquin: I was raised by this... er... weird person. Father? Mother? Couldn' really tell. Dey seemed real proud to be my parent, though.",
+    "file": "frumasecretdiscoveries-croaquin-43"
+  },
+  {
+    "line": "Croaquin: Some other folks around 'em did not seem so pleased, I remember. Maybe dey put me here 'cuz 'ey didn' want me...",
+    "file": "frumasecretdiscoveries-croaquin-44"
+  },
+  {
+    "line": "Croaquin: Not that I crrrroakin' care... Drinks and cigars are enough to keep me happy. Plus the thrill of scarin' off idiot citizens, heh.",
+    "file": "frumasecretdiscoveries-croaquin-45"
+  },
+  {
+    "line": "Croaquin: Uh, yeah, we all have one, don' we? Y'know? The first person ya see when ya emerge from the tar pits?",
+    "file": "frumasecretdiscoveries-croaquin-46"
+  },
+  {
+    "line": "Croaquin: ...Wuzzat weird look yer givin' me...?",
+    "file": "frumasecretdiscoveries-croaquin-47"
+  },
+  {
+    "line": "Croaquin: Let's jus'... move on from 'at. Got anythin' else to say?",
+    "file": "frumasecretdiscoveries-croaquin-48"
+  },
+  {
+    "line": "Croaquin: Not much, really. I s'pose I just sit around like a lazy crrrroakin' loser and wait for the frogs to tell me a human is in the bog.",
+    "file": "frumasecretdiscoveries-croaquin-49"
+  },
+  {
+    "line": "Croaquin: When that happens, I gotta go outside and scare 'em off. Or well, that's usually how it goes, anyway.",
+    "file": "frumasecretdiscoveries-croaquin-50"
+  },
+  {
+    "line": "Croaquin: As I said earlier, dey ain't been payin' me lately, so dey can shove it.",
+    "file": "frumasecretdiscoveries-croaquin-51"
+  },
+  {
+    "line": "Croaquin: Ah, well, dey're the ones who make me do this, I guess.",
+    "file": "frumasecretdiscoveries-croaquin-52"
+  },
+  {
+    "line": "Croaquin: Every couple weeks, see, some weird person with a funny mask shows up with my payment.",
+    "file": "frumasecretdiscoveries-croaquin-53"
+  },
+  {
+    "line": "Croaquin: Dey ask me details about the people I scared off. But er, don' worry, I won't tell 'em 'bout you.",
+    "file": "frumasecretdiscoveries-croaquin-54"
+  },
+  {
+    "line": "Croaquin: T'be honest, I don't know why dey have me doin' all that. But I don' really care, s'long as I get my fair share.",
+    "file": "frumasecretdiscoveries-croaquin-55"
+  },
+  {
+    "line": "Croaquin: Er. Got anythin' else to say?",
+    "file": "frumasecretdiscoveries-croaquin-56"
+  },
+  {
+    "line": "Croaquin: What? Pal, I literally SAID it. How could there be any confusion???",
+    "file": "frumasecretdiscoveries-croaquin-57"
+  },
+  {
+    "line": "Croaquin: It's like \"Joaquin\" but CROAK. Croaquin. Understand?",
+    "file": "frumasecretdiscoveries-croaquin-58"
+  },
+  {
+    "line": "Croaquin: ...Stop lookin' at me like that. I wasn't the one who came up with it, alright?",
+    "file": "frumasecretdiscoveries-croaquin-59"
+  },
+  {
+    "line": "Croaquin: What? Professor Eih? No.",
+    "file": "frumasecretdiscoveries-croaquin-60"
+  },
+  {
+    "line": "Croaquin: What's 'e do, teach the crrrroakin' alphabet?",
+    "file": "frumasecretdiscoveries-croaquin-61"
+  },
+  {
+    "line": "Croaquin: Tell me more about this fella. Why'd you think I'd have any connection to 'im?",
+    "file": "frumasecretdiscoveries-croaquin-62"
+  },
+  {
+    "line": "Croaquin: ...Toad with a top hat... in a rainbow forest... speakin' cryptic nonsense?",
+    "file": "frumasecretdiscoveries-croaquin-63"
+  },
+  {
+    "line": "Croaquin: Pal, were you crrrroakin' high or somethin'?",
+    "file": "frumasecretdiscoveries-croaquin-64"
+  },
+  {
+    "line": "Croaquin: Er. Awkward. Got anythin' else to say?",
+    "file": "frumasecretdiscoveries-croaquin-65"
+  },
+  {
+    "line": "Croaquin: What, an' that ain't normal somehow? An' look who's crrrroakin' talkin', too. Since when can shrooms speak?",
+    "file": "frumasecretdiscoveries-croaquin-66"
+  },
+  {
+    "line": "Croaquin: That's what I thought. Now, pal. Got anythin' else to say?",
+    "file": "frumasecretdiscoveries-croaquin-67"
+  },
+  {
+    "line": "Croaquin: Seeya another time, bud.",
+    "file": "frumasecretdiscoveries-croaquin-68"
+  },
+  {
+    "line": "Croaquin: Good to see ya again, pal. Got anythin' to say?",
+    "file": "frumasecretdiscoveries-croaquin-69"
+  },
+  {
+    "line": "???: \"Ahmsord Absinthe\"... This ain' the stuff I'm lookin' for. Similar name, though.",
+    "file": "frumasecretdiscoveries-croaquin-70"
+  },
+  {
+    "line": "???: Might suffice. Time ta try it!",
+    "file": "frumasecretdiscoveries-croaquin-71"
+  },
+  {
+    "line": "???: BLECH! Nope... It's like if tha stuff I like was made without love and joy. Awful.",
+    "file": "frumasecretdiscoveries-croaquin-72"
+  },
+  {
+    "line": "???: Go look east of here. Think that's where dey get da proper stuff. Tha good stuff.",
+    "file": "frumasecretdiscoveries-croaquin-73"
+  },
+  {
+    "line": "???: Is anyone there?",
+    "file": "frumasecretdiscoveries-thefox-1"
+  },
+  {
+    "line": "???: Are our people free?",
+    "file": "frumasecretdiscoveries-thefox-2"
+  },
+  {
+    "line": "???: Is she gone?",
+    "file": "frumasecretdiscoveries-thefox-3"
+  },
+  {
+    "line": "???: Was our sacrifice worth it?",
+    "file": "frumasecretdiscoveries-thefox-4"
+  },
+  {
+    "line": "???: The cause is doomed. Our light has been snuffed out. Washed away by the forces of oppression.",
+    "file": "frumasecretdiscoveries-thefox-5"
+  },
+  {
+    "line": "???: But still I have hope.",
+    "file": "frumasecretdiscoveries-thefox-6"
+  },
+  {
+    "line": "???: Because for as long as there are tyrants; there will be resistance.",
+    "file": "frumasecretdiscoveries-thefox-7"
+  },
+  {
+    "line": "???: For as long as there is injustice; there will be those who seek to right it.",
+    "file": "frumasecretdiscoveries-thefox-8"
+  },
+  {
+    "line": "???: Now you have seen what happens to those who resist, but still I must ask you.",
+    "file": "frumasecretdiscoveries-thefox-9"
+  },
+  {
+    "line": "???: Will you carry that flame?",
+    "file": "frumasecretdiscoveries-thefox-10"
+  },
+  {
+    "line": "???: The fox will run free.",
+    "file": "frumasecretdiscoveries-thefox-11"
+  },
+  {
+    "line": "???: Thank you...",
+    "file": "frumasecretdiscoveries-thefox-12"
+  },
+  {
+    "line": "Espren Citizen: Can I help you with anything?",
+    "file": "frumasecretdiscoveries-esprencitizen-1"
+  },
+  {
+    "line": "Espren Citizen: Um, hello.",
+    "file": "frumasecretdiscoveries-esprencitizen-2"
+  },
+  {
+    "line": "Espren Citizen: This is the entrance to the manor of Sovereign Zhiraok.",
+    "file": "frumasecretdiscoveries-esprencitizen-3"
+  },
+  {
+    "line": "Espren Citizen: Despite this, it is a small public place people can relax in.",
+    "file": "frumasecretdiscoveries-esprencitizen-4"
+  },
+  {
+    "line": "Espren Citizen: I will say though, it can get somewhat displeasing when you feel watched all the time...",
+    "file": "frumasecretdiscoveries-esprencitizen-5"
+  },
+  {
+    "line": "Espren Citizen: Ah, you're wondering about the statues?",
+    "file": "frumasecretdiscoveries-esprencitizen-6"
+  },
+  {
+    "line": "Espren Citizen: I think... They represent growth, harmony, and things of this nature.",
+    "file": "frumasecretdiscoveries-esprencitizen-7"
+  },
+  {
+    "line": "Espren Citizen: I'm not too certain myself, but I do find them neat-looking.",
+    "file": "frumasecretdiscoveries-esprencitizen-8"
+  },
+  {
+    "line": "Espren Citizen: I mean... The two guards here never move. At all.",
+    "file": "frumasecretdiscoveries-esprencitizen-9"
+  },
+  {
+    "line": "Espren Citizen: Well, they rarely move. It happens when a crime is reported to them.",
+    "file": "frumasecretdiscoveries-esprencitizen-10"
+  },
+  {
+    "line": "Espren Citizen: I wouldn't be surprised if they were bored of staying here all day... I know I couldn't just stand still for so long.",
+    "file": "frumasecretdiscoveries-esprencitizen-11"
+  },
+  {
+    "line": "Espren Citizen: I suppose they're just doing their job? Nevertheless, I like this spot, and I'd like it if it was a bit more... Empty.",
+    "file": "frumasecretdiscoveries-esprencitizen-12"
+  },
+  {
+    "line": "Espren Citizen: Now that doesn't happen often!",
+    "file": "frumasecretdiscoveries-esprencitizen-13"
+  },
+  {
+    "line": "Espren Citizen: Enjoy this brief moment of peace. I know I will.",
+    "file": "frumasecretdiscoveries-esprencitizen-14"
+  },
+  {
+    "line": "Espren Citizen: Maybe there's something to do while they're away..?",
+    "file": "frumasecretdiscoveries-esprencitizen-15"
+  },
+  {
+    "line": "Gardener: Can I help you with anything?",
+    "file": "frumasecretdiscoveries-gardener-1"
+  },
+  {
+    "line": "Gardener: Hello to you too!",
+    "file": "frumasecretdiscoveries-gardener-2"
+  },
+  {
+    "line": "Gardener: Uh... I'm doing alright?",
+    "file": "frumasecretdiscoveries-gardener-3"
+  },
+  {
+    "line": "Gardener: Why do you ask? Who are you? I've never seen you before. And I see a lot of people.",
+    "file": "frumasecretdiscoveries-gardener-4"
+  },
+  {
+    "line": "Gardener: I'd be doing a lot better if I could see the view from the balcony above...",
+    "file": "frumasecretdiscoveries-gardener-5"
+  },
+  {
+    "line": "Gardener: This mansion over here? It sure is!",
+    "file": "frumasecretdiscoveries-gardener-6"
+  },
+  {
+    "line": "Gardener: Ah, to be blessed with such a job... Working for him... I might be the luckiest person in Auburn!",
+    "file": "frumasecretdiscoveries-gardener-7"
+  },
+  {
+    "line": "Gardener: What? Don't you find him incredible? And pretty, too!",
+    "file": "frumasecretdiscoveries-gardener-8"
+  },
+  {
+    "line": "Gardener: He sometimes shows up on his balcony right here. I'd love knowing what's in there...",
+    "file": "frumasecretdiscoveries-gardener-9"
+  },
+  {
+    "line": "Gardener: Can't you see all the guards around? Why come to ME to report something?",
+    "file": "frumasecretdiscoveries-gardener-10"
+  },
+  {
+    "line": "Gardener: In fact... If you could get them off this little place for a bit, that'd be nice.",
+    "file": "frumasecretdiscoveries-gardener-11"
+  },
+  {
+    "line": "Gardener: I'd enjoy some more peace and quiet. Being the one taking care of everything here, I think I deserve it.",
+    "file": "frumasecretdiscoveries-gardener-12"
+  },
+  {
+    "line": "Gardener: If you're that eager to have a chat, why don't you go and report a crime or something?",
+    "file": "frumasecretdiscoveries-gardener-13"
+  },
+  {
+    "line": "Gardener: ..and I told you I'm not the one to go to.",
+    "file": "frumasecretdiscoveries-gardener-14"
+  },
+  {
+    "line": "Gardener: If you have something to report, please talk to someone else.",
+    "file": "frumasecretdiscoveries-gardener-15"
+  },
+  {
+    "line": "Gardener: The guards are always more than happy to take care of problems.",
+    "file": "frumasecretdiscoveries-gardener-16"
+  },
+  {
+    "line": "Gardener: Did you... Did you say something to them?",
+    "file": "frumasecretdiscoveries-gardener-17"
+  },
+  {
+    "line": "Gardener: Well, no matter. I don't get to experience this often.",
+    "file": "frumasecretdiscoveries-gardener-18"
+  },
+  {
+    "line": "Gardener: They'll probably be back soon anyway...",
+    "file": "frumasecretdiscoveries-gardener-19"
+  },
+  {
+    "line": "Gardener: At least now there's no one to give me weird looks when I try to climb up the bench!",
+    "file": "frumasecretdiscoveries-gardener-20"
+  },
+  {
+    "line": "Espren Guard: Access to the mansion is strictly forbidden. What is it?",
+    "file": "frumasecretdiscoveries-esprenguard1-1"
+  },
+  {
+    "line": "Espren Guard: Good day to you.",
+    "file": "frumasecretdiscoveries-esprenguard1-2"
+  },
+  {
+    "line": "Espren Guard: Here? This is a good place to clear one's mind. The fountain and the sights make it good for meditation.",
+    "file": "frumasecretdiscoveries-esprenguard1-3"
+  },
+  {
+    "line": "Espren Guard: Now, if you'll excuse me.",
+    "file": "frumasecretdiscoveries-esprenguard1-4"
+  },
+  {
+    "line": "Espren Guard: Something to report? Go on.",
+    "file": "frumasecretdiscoveries-esprenguard1-5"
+  },
+  {
+    "line": "Espren Guard: I'm sorry to hear that, but I can't help you.",
+    "file": "frumasecretdiscoveries-esprenguard1-6"
+  },
+  {
+    "line": "Espren Guard: I recommend sitting on the stump over yonder and taking a break, see if that helps.",
+    "file": "frumasecretdiscoveries-esprenguard1-7"
+  },
+  {
+    "line": "Espren Guard: ..?",
+    "file": "frumasecretdiscoveries-esprenguard1-8"
+  },
+  {
+    "line": "Espren Guard: Oh?",
+    "file": "frumasecretdiscoveries-esprenguard1-9"
+  },
+  {
+    "line": "Espren Guard: My apologies, but you cannot see him unless summoned by him.",
+    "file": "frumasecretdiscoveries-esprenguard1-10"
+  },
+  {
+    "line": "Espren Guard: If the matter is urgent, you may report to a guard.",
+    "file": "frumasecretdiscoveries-esprenguard1-11"
+  },
+  {
+    "line": "Espren Guard: A cursed one? Are you certain?",
+    "file": "frumasecretdiscoveries-esprenguard1-12"
+  },
+  {
+    "line": "Espren Guard: We'll go look for them for a bit. Thank you.",
+    "file": "frumasecretdiscoveries-esprenguard1-13"
+  },
+  {
+    "line": "Espren Guard: Hm?",
+    "file": "frumasecretdiscoveries-esprenguard1-14"
+  },
+  {
+    "line": "Espren Guard: Someone's trying to sneak inside the mansion..?",
+    "file": "frumasecretdiscoveries-esprenguard1-15"
+  },
+  {
+    "line": "Espren Guard: But that's impossible. There are guards all around. This is the only entrance.",
+    "file": "frumasecretdiscoveries-esprenguard1-16"
+  },
+  {
+    "line": "Espren Guard: Maybe you saw something else. Apologies, but we'll stay here.",
+    "file": "frumasecretdiscoveries-esprenguard1-17"
+  },
+  {
+    "line": "Espren Guard: Is there a problem?",
+    "file": "frumasecretdiscoveries-esprenguard2-1"
+  },
+  {
+    "line": "Espren Guard: Good day to you too.",
+    "file": "frumasecretdiscoveries-esprenguard2-2"
+  },
+  {
+    "line": "Espren Guard: If you need to go to Zhiraok's mansion, it's over here.",
+    "file": "frumasecretdiscoveries-esprenguard2-3"
+  },
+  {
+    "line": "Espren Guard: Other than that, people enjoy this small park. It's well-maintained.",
+    "file": "frumasecretdiscoveries-esprenguard2-4"
+  },
+  {
+    "line": "Espren Guard: Ask someone else if you're some sort of tourist.",
+    "file": "frumasecretdiscoveries-esprenguard2-5"
+  },
+  {
+    "line": "Espren Guard: ...",
+    "file": "frumasecretdiscoveries-esprenguard2-6"
+  },
+  {
+    "line": "Espren Guard: Well? Out with it.",
+    "file": "frumasecretdiscoveries-esprenguard2-7"
+  },
+  {
+    "line": "Espren Guard: Can't help. Go rest somewhere or something.",
+    "file": "frumasecretdiscoveries-esprenguard2-8"
+  },
+  {
+    "line": "Espren Guard: Maybe that gardener has something for headaches?",
+    "file": "frumasecretdiscoveries-esprenguard2-9"
+  },
+  {
+    "line": "Espren Guard: No.",
+    "file": "frumasecretdiscoveries-esprenguard2-10"
+  },
+  {
+    "line": "Espren Guard: If you need something, say it here and now.",
+    "file": "frumasecretdiscoveries-esprenguard2-11"
+  },
+  {
+    "line": "Espren Guard: What?! Are you sure?",
+    "file": "frumasecretdiscoveries-esprenguard2-12"
+  },
+  {
+    "line": "Espren Guard: We'll go take a look.",
+    "file": "frumasecretdiscoveries-esprenguard2-13"
+  },
+  {
+    "line": "Espren Guard: Preposterous! Who would even dare to..?",
+    "file": "frumasecretdiscoveries-esprenguard2-14"
+  },
+  {
+    "line": "Espren Guard: Such defiance is what we're here for. We'll go put some sense back in this individual.",
+    "file": "frumasecretdiscoveries-esprenguard2-15"
+  },
+  {
+    "line": "Sovereign Zhiraok: Hello? Xao? I thought I heard someone up here.",
+    "file": "frumasecretdiscoveries-sovereignzhiraok-1"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...did I leave this out earlier?",
+    "file": "frumasecretdiscoveries-sovereignzhiraok-2"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...Xao wouldn't have- No. There isn't...?",
+    "file": "frumasecretdiscoveries-sovereignzhiraok-3"
+  },
+  {
+    "line": "Sovereign Zhiraok: He would never have left my office out of order like this.",
+    "file": "frumasecretdiscoveries-sovereignzhiraok-4"
+  },
+  {
+    "line": "Sovereign Zhiraok: Who the helix is in here?!",
+    "file": "frumasecretdiscoveries-sovereignzhiraok-5"
+  },
+  {
+    "line": "Espren Guard: Sovereign Zhiraok! Emergency!",
+    "file": "frumasecretdiscoveries-esprenguard1-18"
+  },
+  {
+    "line": "Sovereign Zhiraok: Reach your endpoint! I've got some problems myself.",
+    "file": "frumasecretdiscoveries-sovereignzhiraok-6"
+  },
+  {
+    "line": "Espren Guard: Reports of a Cursed One in Espren's walls! Too many to be coincidence. We need your guidance on how to proceed, sir!",
+    "file": "frumasecretdiscoveries-esprenguard2-16"
+  },
+  {
+    "line": "Sovereign Zhiraok: ...that's a greater value than my concerns, for sure. Alright, follow my lead.",
+    "file": "frumasecretdiscoveries-sovereignzhiraok-7"
+  },
+  {
+    "line": "Zander: That's the last of them!... huff... Any other soldiers left?",
+    "file": "frumasecretdiscoveries-zander-1"
+  },
+  {
+    "line": "Hawke: There's another battalion approaching! Keep your eyes peeled and prepare to strike once more!",
+    "file": "frumasecretdiscoveries-hawke-1"
+  },
+  {
+    "line": "Xanthos: Don't lose hope now! We've fought through worse - we shall succeed today too!",
+    "file": "frumasecretdiscoveries-xanthos-1"
+  },
+  {
+    "line": "Captain Duilio: Wh-? Men, halt your advance! Her Majesty delivers a message for us!",
+    "file": "frumasecretdiscoveries-captainduilio-1"
+  },
+  {
+    "line": "Captain Duilio: ...? But why would She- no, we wouldn't dare defy Her orders, of course not, but... May we know the rationale?",
+    "file": "frumasecretdiscoveries-captainduilio-2"
+  },
+  {
+    "line": "Captain Duilio: Ah. Very well. Yes, we shall submit the incident report once this is taken care of.",
+    "file": "frumasecretdiscoveries-captainduilio-3"
+  },
+  {
+    "line": "Captain Duilio: MEN! RETREAT! BY HER MAJESTY'S ORDERS, YOU ARE TO HALT YOUR MARCH AND RETREAT! HEED MY WORDS AND RUN, IF YOU DO NOT WISH TO FACE HER MAJESTY'S WRATH!",
+    "file": "frumasecretdiscoveries-captainduilio-4"
+  },
+  {
+    "line": "Hawke: Is it finally over? Is she finally acquiescing?",
+    "file": "frumasecretdiscoveries-hawke-2"
+  },
+  {
+    "line": "Xanthos: It... seems so. Our efforts are finally bearing fruit... Behold!",
+    "file": "frumasecretdiscoveries-xanthos-2"
+  },
+  {
+    "line": "Xanthos: This is merely our first victory of many! Even Her Majesty's forces can not hope to match our might and unity!",
+    "file": "frumasecretdiscoveries-xanthos-3"
+  },
+  {
+    "line": "Xanthos: Regroup and celebrate, as our revolution finall-",
+    "file": "frumasecretdiscoveries-xanthos-4"
+  },
+  {
+    "line": "Xanthos: ...ha. So it was all... all for nothing? No... if this is where I die... It must not have been in vain...",
+    "file": "frumasecretdiscoveries-xanthos-5"
+  },
+  {
+    "line": "Xanthos: Curse you, Monarch, Usurper! Our flame shan't die out here! No matter how you wish, your reign won't last forever!",
+    "file": "frumasecretdiscoveries-xanthos-6"
+  },
+  {
+    "line": "Xanthos: If you wish to say we are cursed, I'll gladly curse that blasted monarchy of yours! One day, you'll see, the children of this forest will finally-",
+    "file": "frumasecretdiscoveries-xanthos-7"
+  },
+  {
+    "line": "Xanthos: Kahhhh...",
+    "file": "frumasecretdiscoveries-xanthos-8"
+  },
+  {
+    "line": "Xanthos: Finally prove... nothing...... forever......",
+    "file": "frumasecretdiscoveries-xanthos-9"
+  },
+  {
+    "line": "Markus: Attention, everyone!",
+    "file": "frumasecretdiscoveries-markus-1"
+  },
+  {
+    "line": "Markus: The guards have found our position. We must make our escape sooner than originally planned.",
+    "file": "frumasecretdiscoveries-markus-2"
+  },
+  {
+    "line": "Markus: There is little time left, gather everything you need and board the escape craft. Now!",
+    "file": "frumasecretdiscoveries-markus-3"
+  },
+  {
+    "line": "Markus: Good. Everyone is ready.",
+    "file": "frumasecretdiscoveries-markus-4"
+  },
+  {
+    "line": "Markus: We've been waiting for this moment our entire lives. A chance to escape oppression. A chance to start out fresh.",
+    "file": "frumasecretdiscoveries-markus-5"
+  },
+  {
+    "line": "Markus: However, if we fail...",
+    "file": "frumasecretdiscoveries-markus-6"
+  },
+  {
+    "line": "Markus: We will be subject to the worst of the Queen's punishments.",
+    "file": "frumasecretdiscoveries-markus-7"
+  },
+  {
+    "line": "Markus: Should we succeed...",
+    "file": "frumasecretdiscoveries-markus-8"
+  },
+  {
+    "line": "Markus: We will never be allowed back here.",
+    "file": "frumasecretdiscoveries-markus-9"
+  },
+  {
+    "line": "Markus: I can hear the guards approaching. It's time to leave.",
+    "file": "frumasecretdiscoveries-markus-10"
+  },
+  {
+    "line": "Markus: Ignite the charge!",
+    "file": "frumasecretdiscoveries-markus-11"
+  },
+  {
+    "line": "Aldwin: Stop!",
+    "file": "frumasecretdiscoveries-aldwin-1"
+  },
+  {
+    "line": "Aldwin: Show me your medallion.",
+    "file": "frumasecretdiscoveries-aldwin-2"
+  },
+  {
+    "line": "Aldwin: No medallion! What are you then, a changeling?",
+    "file": "frumasecretdiscoveries-aldwin-3"
+  },
+  {
+    "line": "Aldwin: Can't say I've ever heard of a 'soldier' before.",
+    "file": "frumasecretdiscoveries-aldwin-4"
+  },
+  {
+    "line": "Aldwin: The forest's a clever place, but I never thought it so foolish as to try trick us with fake strangers.",
+    "file": "frumasecretdiscoveries-aldwin-5"
+  },
+  {
+    "line": "Aldwin: Come back when you've got some proof of who you are, 'soldier'.",
+    "file": "frumasecretdiscoveries-aldwin-6"
+  },
+  {
+    "line": "Aldwin: You again...",
+    "file": "frumasecretdiscoveries-aldwin-7"
+  },
+  {
+    "line": "Aldwin: I thought I told you, you can't fool me!",
+    "file": "frumasecretdiscoveries-aldwin-8"
+  },
+  {
+    "line": "Aldwin: Oh, you just want to know what's behind this door?",
+    "file": "frumasecretdiscoveries-aldwin-9"
+  },
+  {
+    "line": "Aldwin: Fine. No harm in that, I suppose.",
+    "file": "frumasecretdiscoveries-aldwin-10"
+  },
+  {
+    "line": "Aldwin: I'm in charge of guarding the new Aldwell Library!",
+    "file": "frumasecretdiscoveries-aldwin-11"
+  },
+  {
+    "line": "Aldwin: It's a collection of every ancient text found around Mistwood that's been put to paper.",
+    "file": "frumasecretdiscoveries-aldwin-12"
+  },
+  {
+    "line": "Aldwin: And I do mean ancient.",
+    "file": "frumasecretdiscoveries-aldwin-13"
+  },
+  {
+    "line": "Aldwin: You won't get past me, soldier. I know what you really are!",
+    "file": "frumasecretdiscoveries-aldwin-14"
+  },
+  {
+    "line": "Aldwin: If you really want me to believe your story, I suppose there's something you could do for me...",
+    "file": "frumasecretdiscoveries-aldwin-15"
+  },
+  {
+    "line": "Aldwin: Would you like to hear it?",
+    "file": "frumasecretdiscoveries-aldwin-16"
+  },
+  {
+    "line": "Aldwin: Ah, well...",
+    "file": "frumasecretdiscoveries-aldwin-17"
+  },
+  {
+    "line": "Aldwin: You'll come back eventually.",
+    "file": "frumasecretdiscoveries-aldwin-18"
+  },
+  {
+    "line": "Aldwin: Oh...",
+    "file": "frumasecretdiscoveries-aldwin-19"
+  },
+  {
+    "line": "Aldwin: Alright then.",
+    "file": "frumasecretdiscoveries-aldwin-20"
+  },
+  {
+    "line": "Aldwin: Around Aldwell, there are four trees that have served as essential parts of our area's history.",
+    "file": "frumasecretdiscoveries-aldwin-21"
+  },
+  {
+    "line": "Aldwin: Flowers grow at their bases too, and they're used in everything from decorating our homes to making helpful remedies.",
+    "file": "frumasecretdiscoveries-aldwin-22"
+  },
+  {
+    "line": "Aldwin: My personal supply is running low right now, so I'm in need of a new bouquet...",
+    "file": "frumasecretdiscoveries-aldwin-23"
+  },
+  {
+    "line": "Aldwin: My task for you is to go and bring me one of each flower!",
+    "file": "frumasecretdiscoveries-aldwin-24"
+  },
+  {
+    "line": "Aldwin: The first flower can be found under the white tree of altruism, straight east of here.",
+    "file": "frumasecretdiscoveries-aldwin-25"
+  },
+  {
+    "line": "Aldwin: The second flower blooms inside the tree of community, which is growing all around us!",
+    "file": "frumasecretdiscoveries-aldwin-26"
+  },
+  {
+    "line": "Aldwin: The third flower grows by the carcass of the tree of renewal, which lies to the south of this library.",
+    "file": "frumasecretdiscoveries-aldwin-27"
+  },
+  {
+    "line": "Aldwin: The final flower can be found at the base of the tree of resistance, which the Canopy call their home.",
+    "file": "frumasecretdiscoveries-aldwin-28"
+  },
+  {
+    "line": "Aldwin: Come back to me with all four of them, and perhaps we could work something out from there.",
+    "file": "frumasecretdiscoveries-aldwin-29"
+  },
+  {
+    "line": "Aldwin: Have you got me what I asked for yet?",
+    "file": "frumasecretdiscoveries-aldwin-30"
+  },
+  {
+    "line": "Aldwin: No? Well, come back when you do.",
+    "file": "frumasecretdiscoveries-aldwin-31"
+  },
+  {
+    "line": "Aldwin: If you need a reminder, the first flower can be found under the white tree of altruism, straight east of here.",
+    "file": "frumasecretdiscoveries-aldwin-32"
+  },
+  {
+    "line": "Aldwin: The second flower blooms inside the tree of community, which grows all around us!",
+    "file": "frumasecretdiscoveries-aldwin-33"
+  },
+  {
+    "line": "Aldwin: The third flower grows in the carcass of the tree of renewal, which lies to the south of this library.",
+    "file": "frumasecretdiscoveries-aldwin-34"
+  },
+  {
+    "line": "Aldwin: Does that sound good?",
+    "file": "frumasecretdiscoveries-aldwin-35"
+  },
+  {
+    "line": "Aldwin: I hope that you find them all for the next time we speak.",
+    "file": "frumasecretdiscoveries-aldwin-36"
+  },
+  {
+    "line": "Aldwin: Brilliant.",
+    "file": "frumasecretdiscoveries-aldwin-37"
+  },
+  {
+    "line": "Aldwin: I'm sure I'll find a use for them soon.",
+    "file": "frumasecretdiscoveries-aldwin-38"
+  },
+  {
+    "line": "Aldwin: In the meantime, enjoy access to the Aldwell Library!",
+    "file": "frumasecretdiscoveries-aldwin-39"
+  },
+  {
+    "line": "Aldwin: Thanks again...",
+    "file": "frumasecretdiscoveries-aldwin-40"
+  },
+  {
+    "line": "Aldwin: You again?",
+    "file": "frumasecretdiscoveries-aldwin-41"
+  },
+  {
+    "line": "Aldwin: I don't care what you are any more, just go through to the library...",
+    "file": "frumasecretdiscoveries-aldwin-42"
+  },
+  {
+    "line": "Aldwin: Have you got a medallion?",
+    "file": "frumasecretdiscoveries-aldwin-43"
+  },
+  {
+    "line": "Aldwin: That one will do, although it looks far newer than some of the others I've seen as of late.",
+    "file": "frumasecretdiscoveries-aldwin-44"
+  },
+  {
+    "line": "Aldwin: Still, it will do.",
+    "file": "frumasecretdiscoveries-aldwin-45"
+  },
+  {
+    "line": "Aldwin: Oh, hello!",
+    "file": "frumasecretdiscoveries-aldwin-46"
+  },
+  {
+    "line": "Aldwin: I can see that medallion you've got there, although I'm not sure it's one I've seen before.",
+    "file": "frumasecretdiscoveries-aldwin-47"
+  },
+  {
+    "line": "Aldwin: Regardless, behind me is the door to the new Aldwell library!",
+    "file": "frumasecretdiscoveries-aldwin-48"
+  },
+  {
+    "line": "Aldwin: I'm in charge of guarding a collection of some of our most important and ancient texts.",
+    "file": "frumasecretdiscoveries-aldwin-49"
+  },
+  {
+    "line": "Aldwin: And I do mean ancient!",
+    "file": "frumasecretdiscoveries-aldwin-50"
+  },
+  {
+    "line": "Aldwin: I'd love to let you in straight away, but it would be great if you could do a little something for me first.",
+    "file": "frumasecretdiscoveries-aldwin-51"
+  },
+  {
+    "line": "Aldwin: Would you be interested in helping a fellow citizen out?",
+    "file": "frumasecretdiscoveries-aldwin-52"
+  },
+  {
+    "line": "Aldwin: You'll reconsider things soon, I'm sure.",
+    "file": "frumasecretdiscoveries-aldwin-53"
+  },
+  {
+    "line": "Aldwin: Just let me know when you do!",
+    "file": "frumasecretdiscoveries-aldwin-54"
+  },
+  {
+    "line": "Aldwin: Amazing! It's quite simple, really.",
+    "file": "frumasecretdiscoveries-aldwin-55"
+  },
+  {
+    "line": "Aldwin: Come back to me with all four of them, and I'll be more than happy to let you through!",
+    "file": "frumasecretdiscoveries-aldwin-56"
+  },
+  {
+    "line": "Aldwin: No? Well, I'll still be here when you do.",
+    "file": "frumasecretdiscoveries-aldwin-57"
+  },
+  {
+    "line": "Aldwin: Even if I'm old and gray...",
+    "file": "frumasecretdiscoveries-aldwin-58"
+  },
+  {
+    "line": "Aldwin: If I could show you myself I would, but you never know who might try and sneak behind my post if I leave, even for a moment.",
+    "file": "frumasecretdiscoveries-aldwin-59"
+  },
+  {
+    "line": "Aldwin: It's just what I asked for!",
+    "file": "frumasecretdiscoveries-aldwin-60"
+  },
+  {
+    "line": "Aldwin: And, as per our agreement, enjoy your access to the Aldwell library!",
+    "file": "frumasecretdiscoveries-aldwin-61"
+  },
+  {
+    "line": "Aldwin: Thanks again.",
+    "file": "frumasecretdiscoveries-aldwin-62"
+  },
+  {
+    "line": "Aldwin: Oh, it's you again!",
+    "file": "frumasecretdiscoveries-aldwin-63"
+  },
+  {
+    "line": "Aldwin: The library is open whenever you want it.",
+    "file": "frumasecretdiscoveries-aldwin-64"
+  },
+  {
+    "line": "Fort Hegea Archer: You. You you look strange. Not like the the ones to patrol here. But an archer archer, like me.",
+    "file": "frumasecretdiscoveries-forthegeaarcher-1"
+  },
+  {
+    "line": "Fort Hegea Archer: You. You you look strange. Not like the the ones to patrol here. And with with a strange weapon.",
+    "file": "frumasecretdiscoveries-forthegeaarcher-2"
+  },
+  {
+    "line": "Fort Hegea Archer: Maybe you can help help me. I am forced to stay here here and practice. Practice until I can speak speak and shoot correctly.",
+    "file": "frumasecretdiscoveries-forthegeaarcher-3"
+  },
+  {
+    "line": "Fort Hegea Archer: But the rock rock in the way is annoying. It blocks blocks my path to shoot! ! So.",
+    "file": "frumasecretdiscoveries-forthegeaarcher-4"
+  },
+  {
+    "line": "Fort Hegea Archer: Maybe you can can help, if you are staying here too? You could go blow it it up, or something. I know know there are explosives somewhere in the camp.",
+    "file": "frumasecretdiscoveries-forthegeaarcher-5"
+  },
+  {
+    "line": "Fort Hegea Archer: You already have have some TNT, right? You could go blow the rock rock up, with it.",
+    "file": "frumasecretdiscoveries-forthegeaarcher-6"
+  },
+  {
+    "line": "Fort Hegea Archer: I can finally practice practice my archery properly now. I think think I will get started.",
+    "file": "frumasecretdiscoveries-forthegeaarcher-7"
+  },
+  {
+    "line": "Fort Hegea Archer: At least least, as soon as I am done practicing my speaking. For today today, there is still...",
+    "file": "frumasecretdiscoveries-forthegeaarcher-8"
+  },
+  {
+    "line": "Fort Hegea Archer: Why would would you make a wicker man?! And burn burn it?! Right in our our fort?!",
+    "file": "frumasecretdiscoveries-forthegeaarcher-9"
+  },
+  {
+    "line": "Fort Hegea Archer: Just know know. This is not something something any of us can forgive. Once I am finally finally ready to shoot...",
+    "file": "frumasecretdiscoveries-forthegeaarcher-10"
+  },
+  {
+    "line": "Fort Hegea Archer: I will track you down, and I will make you regret ever daring to light it. No matter what.",
+    "file": "frumasecretdiscoveries-forthegeaarcher-11"
+  },
+  {
+    "line": "Fort Hegea Archer: I have nothing more to say. Begone.",
+    "file": "frumasecretdiscoveries-forthegeaarcher-12"
+  },
+  {
+    "line": "Clan Member: Gikyo! Great to see ya! Are you up to hear some gossip? This one's got some bark to it, too...",
+    "file": "frumasecretdiscoveries-clanmember-1"
+  },
+  {
+    "line": "Gikyo: Am I? You know my answer, so why ask? Go on, go on, it's been so boring today! Spill the beans!",
+    "file": "frumasecretdiscoveries-gikyo-1"
+  },
+  {
+    "line": "Clan Member: Alright, alright. This one's from a clan member who knows another over in the Staghorn clan. So, get this...",
+    "file": "frumasecretdiscoveries-clanmember-2"
+  },
+  {
+    "line": "Clan Member: Word on the wind there's that they saw one of their members, Ophir, doing something super odd.",
+    "file": "frumasecretdiscoveries-clanmember-3"
+  },
+  {
+    "line": "Gikyo: Wait, THAT Ophir? They're such a snooze, though! What, were they finally up for a card game for once?",
+    "file": "frumasecretdiscoveries-gikyo-2"
+  },
+  {
+    "line": "Clan Member: No, no, don't misunderstand. This was odd even by our standards! So, the clan member saw some weird smoke, and over in it...",
+    "file": "frumasecretdiscoveries-clanmember-4"
+  },
+  {
+    "line": "Clan Member: Bam! Ophir, spinning and growing from the ground! And, though I can't be so sure, apparently they had some goop on their hand that they shook off, too!",
+    "file": "frumasecretdiscoveries-clanmember-5"
+  },
+  {
+    "line": "Gikyo: Whuh? Hey now, you sure you heard that right? Maybe they just slipped at a mud pit while out patrolling?",
+    "file": "frumasecretdiscoveries-gikyo-3"
+  },
+  {
+    "line": "Clan Member: Yeah, you'd think something like that, right? But apparently some OTHER Stag won't budge on it being true!",
+    "file": "frumasecretdiscoveries-clanmember-6"
+  },
+  {
+    "line": "Gikyo: ...hah. That really is one hell of a rumor! If you keep finding ones this spicy, I won't be able to one-up you!",
+    "file": "frumasecretdiscoveries-gikyo-4"
+  },
+  {
+    "line": "Clan Member: You got that right! Well, I'll have to be off. See you later! You'd better have something to share then!",
+    "file": "frumasecretdiscoveries-clanmember-7"
+  },
+  {
+    "line": "Gikyo: ...Ophir. That Ophir. Of the ones here, to think it'd be them?",
+    "file": "frumasecretdiscoveries-gikyo-5"
+  },
+  {
+    "line": "Clan Member: ...finally found you. You have a way of making yourself scarce, you know that?",
+    "file": "frumasecretdiscoveries-kawri-1"
+  },
+  {
+    "line": "Azael: Ah. Hello, Kawri. Is something the matter for you to seek me out?",
+    "file": "frumasecretdiscoveries-azael-1"
+  },
+  {
+    "line": "Kawri: Orders from the clan. We're to meet at the Pyre tonight. There's apparently an important matter to discuss.",
+    "file": "frumasecretdiscoveries-kawri-2"
+  },
+  {
+    "line": "Azael: The Pyre... how come? If the meeting is to take place there, surely the other clans will also be attending?",
+    "file": "frumasecretdiscoveries-azael-2"
+  },
+  {
+    "line": "Kawri: I wasn't filled in on the details. Just told to try and chase after some of the more fickle members of our clan for form's sake.",
+    "file": "frumasecretdiscoveries-kawri-3"
+  },
+  {
+    "line": "Azael: So you don't even know why. Hm. And are we convening at the same time as usual?",
+    "file": "frumasecretdiscoveries-azael-3"
+  },
+  {
+    "line": "Kawri: Apparently, we'll be starting about a quarter of an hour later. Another clan has requested extra time for preparations.",
+    "file": "frumasecretdiscoveries-kawri-4"
+  },
+  {
+    "line": "Kawri: I still have a few others to track down, so I can't stay long. I take it I can confirm your attendance?",
+    "file": "frumasecretdiscoveries-kawri-5"
+  },
+  {
+    "line": "Azael: If it's a meeting by the Pyre, then who am I to say no? I'll be seeing you all there tonight.",
+    "file": "frumasecretdiscoveries-azael-4"
+  },
+  {
+    "line": "Gikyo: Is that Azael I see? What, why's this sly old fox showing up out in the open tonight?",
+    "file": "frumasecretdiscoveries-gikyo-6"
+  },
+  {
+    "line": "Azael: Gikyo. It's good to see you too. Are you also headed to-",
+    "file": "frumasecretdiscoveries-azael-5"
+  },
+  {
+    "line": "Gikyo: Listen, listen, I got told some reeeal interesting gossip today, and that's why you'll get to hear it too!",
+    "file": "frumasecretdiscoveries-gikyo-7"
+  },
+  {
+    "line": "Azael: Can we not discuss as we walk? Or is this something meant to be kept secret?",
+    "file": "frumasecretdiscoveries-azael-6"
+  },
+  {
+    "line": "Gikyo: Ha! What better way to talk than idly? So, so, get this. It's about Ophir. And from what I've heard... they slipped up.",
+    "file": "frumasecretdiscoveries-gikyo-8"
+  },
+  {
+    "line": "Azael: Oh? In what way did they slip up? I believed them to be the most diligent of our newest assignees...",
+    "file": "frumasecretdiscoveries-azael-7"
+  },
+  {
+    "line": "Gikyo: ...okay. You may want to say this can't be true. But. At least one clan member saw them in the middle of changing. Thought you ought to know.",
+    "file": "frumasecretdiscoveries-gikyo-9"
+  },
+  {
+    "line": "Azael: Ah. Wait, but then... that'd make anyone as paranoid as a clan member... Oh. Oh no.",
+    "file": "frumasecretdiscoveries-azael-8"
+  },
+  {
+    "line": "Azael: Gikyo, are you aware that there's a meeting at the Pyre tonight?",
+    "file": "frumasecretdiscoveries-azael-9"
+  },
+  {
+    "line": "Gikyo: What? Must have slipped my ears! Or my mind! But this week's been so uneventful, so why now? Unless-",
+    "file": "frumasecretdiscoveries-gikyo-10"
+  },
+  {
+    "line": "Azael: ... you got it too. There's only one reason that a meeting by the Pyre would be called - someone is being made a statement.",
+    "file": "frumasecretdiscoveries-azael-10"
+  },
+  {
+    "line": "Gikyo: What time is it? When's the meeting? Can we even make it before then to try and save Ophir?",
+    "file": "frumasecretdiscoveries-gikyo-11"
+  },
+  {
+    "line": "Azael: There's still- oh no. It's starting any time. Let's go, NOW! If we run, maybe we can still somehow smuggle them out!",
+    "file": "frumasecretdiscoveries-azael-11"
+  },
+  {
+    "line": "Clan Member: Well, given the severity of the crime, letting you indulge seems most fitting. You're quite the ardent orator, after all. After you!",
+    "file": "frumasecretdiscoveries-clanmember-8"
+  },
+  {
+    "line": "Orator Caetal: TONIGHT, WE MEET BEYOND THE MIST",
+    "file": "frumasecretdiscoveries-oratorcaetal-1"
+  },
+  {
+    "line": "Clan Members: TO PURGE A TRAITOR FROM OUR MIDST;",
+    "file": "frumasecretdiscoveries-oratorcaetal-2"
+  },
+  {
+    "line": "Clan Members: NO LONGER WILL THIS BEAST CONSPIRE",
+    "file": "frumasecretdiscoveries-oratorcaetal-3"
+  },
+  {
+    "line": "Clan Members: ENGULFED WITHIN OUR WICKER PYRE;",
+    "file": "frumasecretdiscoveries-oratorcaetal-4"
+  },
+  {
+    "line": "Clan Members: SO FAN THE FLAMES, AND WATCH IT SQUIRM -",
+    "file": "frumasecretdiscoveries-oratorcaetal-5"
+  },
+  {
+    "line": "Clan Members: 'TIL NOTHING MORE IS LEFT TO BURN!",
+    "file": "frumasecretdiscoveries-oratorcaetal-6"
+  },
+  {
+    "line": "Clan Members: BURN!",
+    "file": "frumasecretdiscoveries-oratorcaetal-7"
+  },
+  {
+    "line": "Clan Members: BURN!!!",
+    "file": "frumasecretdiscoveries-oratorcaetal-8"
+  },
+  {
+    "line": "Clan Members: BURN!!!!!!",
+    "file": "frumasecretdiscoveries-oratorcaetal-9"
+  },
+  {
+    "line": "Azael: ...nothing. Nary a trace. Only ashes remain... We were too late.",
+    "file": "frumasecretdiscoveries-azael-12"
+  },
+  {
+    "line": "Gikyo: Damn it all! Damn the clans, damn these woods, and this blasted pyre! Jumping straight to putting them in a wicker man?!",
+    "file": "frumasecretdiscoveries-gikyo-12"
+  },
+  {
+    "line": "Azael: You should have known this would happen the moment you heard Ophir's name. To a clan, few actions are worse than espionage.",
+    "file": "frumasecretdiscoveries-azael-13"
+  },
+  {
+    "line": "Gikyo: So what? It's not... as if... they could have KNOWN! It's not normal! Again, what kind of person would even SUGGEST a ritual burning for ANY situation?",
+    "file": "frumasecretdiscoveries-gikyo-13"
+  },
+  {
+    "line": "Gikyo: \"Look at me, I'm Ophir! There's a tiny bit of smoke around me!\", and what, the clans just love the visual? They love it so much Ophir gets reduced to nothing BUT smoke?",
+    "file": "frumasecretdiscoveries-gikyo-14"
+  },
+  {
+    "line": "Azael: And again, this meeting was inevitable the moment they saw Ophir. As long as those like us are forced into these roles, this will be our punishment for failing to perform them.",
+    "file": "frumasecretdiscoveries-azael-14"
+  },
+  {
+    "line": "Gikyo: You. You... ha! Hahahaha! You really think so? What, are the clans imprinting on you THAT much? You'd call this justified?",
+    "file": "frumasecretdiscoveries-gikyo-15"
+  },
+  {
+    "line": "Gikyo: What a hoot! I daresay they only justify revenge against THEM! We'll see how the clan heads like it, grilled to a smoky finish...",
+    "file": "frumasecretdiscoveries-gikyo-16"
+  },
+  {
+    "line": "Azael: When did I justify it? Yet again, the root of the problem is what WE are forced to do. Our appearance and existence defined by orders from the top...",
+    "file": "frumasecretdiscoveries-azael-15"
+  },
+  {
+    "line": "Azael: ...discarded at will, unable to even say WHO we are, lest our existence be scattered upon-",
+    "file": "frumasecretdiscoveries-azael-16"
+  },
+  {
+    "line": "Gikyo: Didn't take you as one to wax poetic. So what do you propose? Betray Her Majesty? What choice do WE have?",
+    "file": "frumasecretdiscoveries-gikyo-17"
+  },
+  {
+    "line": "Gikyo: You can't possibly be that misguided! This isn't just Ophir's tragedy - all of us will be punished! Her Majesty won't stop at just a simple reprimand!",
+    "file": "frumasecretdiscoveries-gikyo-18"
+  },
+  {
+    "line": "Gikyo: ... I'll be going. Haha! Feel free to drop by, if you ever fix that way of thinking!",
+    "file": "frumasecretdiscoveries-gikyo-19"
+  },
+  {
+    "line": "Azael: ... betray...? Betray Her Majesty, you say...?",
+    "file": "frumasecretdiscoveries-azael-17"
+  },
+  {
+    "line": "Azael: You know, Gikyo... for someone so good at playing the fool, you really do have the brightest ideas sometimes...",
+    "file": "frumasecretdiscoveries-azael-18"
+  },
+  {
+    "line": "House Nasin Butler: Good day. Welcome to House Nasin.",
+    "file": "frumasecretdiscoveries-housenasinbutler-1"
+  },
+  {
+    "line": "House Nasin Butler: Say, you seem the industrious sort. Could I ask a favour of you?",
+    "file": "frumasecretdiscoveries-housenasinbutler-2"
+  },
+  {
+    "line": "House Nasin Butler: You see, our library is terribly disorganized. The lad whose job it was to reorder the thing walked out halfway through.",
+    "file": "frumasecretdiscoveries-housenasinbutler-3"
+  },
+  {
+    "line": "House Nasin Butler: If you would be so kind as to finish that up for me, I'd be greatly appreciative. And perhaps you'd learn something along the way, too.",
+    "file": "frumasecretdiscoveries-housenasinbutler-4"
+  },
+  {
+    "line": "House Nasin Butler: The books are meant to be sorted in chronological order; I'm sure you'll be able to figure it out. Thank you in advance.",
+    "file": "frumasecretdiscoveries-housenasinbutler-5"
+  },
+  {
+    "line": "House Nasin Butler: Here's the key to the library.",
+    "file": "frumasecretdiscoveries-housenasinbutler-6"
+  },
+  {
+    "line": "House Nasin Butler: If you could reorganize the books in the library chronologically, I'd be quite grateful.",
+    "file": "frumasecretdiscoveries-housenasinbutler-7"
+  },
+  {
+    "line": "House Nasin Butler: You organized the library? Splendid! Feel free to roam the premises.",
+    "file": "frumasecretdiscoveries-housenasinbutler-8"
+  },
+  {
+    "line": "House Nasin Butler: Hm. I'm not sure where that key goes.",
+    "file": "frumasecretdiscoveries-housenasinbutler-9"
+  },
+  {
+    "line": "House Nasin Butler: Is that the key to the study? I've been looking for that everywhere! Perhaps you should be a butler!",
+    "file": "frumasecretdiscoveries-housenasinbutler-10"
+  },
+  {
+    "line": "Gale: Phew...heya! Just winding down a little after our fight.",
+    "file": "frumasecretdiscoveries-gale-1"
+  },
+  {
+    "line": "Gale: ...what? What's that look for? I don't just sit in the arena all day waiting for challengers, sheesh! That'd be boring as all get-out!",
+    "file": "frumasecretdiscoveries-gale-2"
+  },
+  {
+    "line": "Gale: Heehee...soooo, wanna talk? Seems like you've got a minute, right? And you found my not-so-secret hiding spot.",
+    "file": "frumasecretdiscoveries-gale-3"
+  },
+  {
+    "line": "Gale: Yep! I really was. I mean, you noticed that I wasn't goin' at it as fierce at the beginning of the fight, right?",
+    "file": "frumasecretdiscoveries-gale-4"
+  },
+  {
+    "line": "Gale: I could keep up the pace at the end, no prob! But it's more fun if I don't. Less messy, too.",
+    "file": "frumasecretdiscoveries-gale-5"
+  },
+  {
+    "line": "Gale: I mean, we let people walk away when they can't fight anymore, but sometimes they just, uh...insist?",
+    "file": "frumasecretdiscoveries-gale-6"
+  },
+  {
+    "line": "Gale: Like, they think if they're just, just man enough and keep getting back up, they'll pull a turnabout? Uh, news flash? Doesn't work.",
+    "file": "frumasecretdiscoveries-gale-7"
+  },
+  {
+    "line": "Gale: Like...there's only so many times I can tell 'em the fight's over before I have to take another shot. Really hate when that happens.",
+    "file": "frumasecretdiscoveries-gale-8"
+  },
+  {
+    "line": "Gale: Uh...well, anyways, yeah- I wasn't giving it everything I had, but it isn't like I was babying you either. I'm not diminishing your accomplishments!",
+    "file": "frumasecretdiscoveries-gale-9"
+  },
+  {
+    "line": "Gale: Anything else you wanna talk about?",
+    "file": "frumasecretdiscoveries-gale-10"
+  },
+  {
+    "line": "Gale: BOO! BOO, I SAY! BOOOO!",
+    "file": "frumasecretdiscoveries-gale-11"
+  },
+  {
+    "line": "Gale: Well, if I was really a ghost, you should be spooked out of your skin, so that disproves that.",
+    "file": "frumasecretdiscoveries-gale-12"
+  },
+  {
+    "line": "Gale: The best advice I've got is this: Take your time.",
+    "file": "frumasecretdiscoveries-gale-13"
+  },
+  {
+    "line": "Gale: So a lot of times, people hear about the challenge, and try to blitz through it all in one go.",
+    "file": "frumasecretdiscoveries-gale-14"
+  },
+  {
+    "line": "Gale: So they get through the Thunder Division, maaaybe through the Air Division and past me, then hit a brick wall and stop dead in the Earth Division.",
+    "file": "frumasecretdiscoveries-gale-15"
+  },
+  {
+    "line": "Gale: Each one is a lot tougher than the last! It isn't really...uh, feasible, to try and do it all in one go.",
+    "file": "frumasecretdiscoveries-gale-16"
+  },
+  {
+    "line": "Gale: There's no time limit for the challenge! So take your time! Go off and train up, then come back when you're a bit stronger!",
+    "file": "frumasecretdiscoveries-gale-17"
+  },
+  {
+    "line": "Gale: A good benchmark is the prizes you get- if you think you can handle wearing a division's gear, you're probably ready to take on the division you get that gear from. Does that make sense?",
+    "file": "frumasecretdiscoveries-gale-18"
+  },
+  {
+    "line": "Gale: Oh.",
+    "file": "frumasecretdiscoveries-gale-19"
+  },
+  {
+    "line": "Gale: Uh, my condolences.",
+    "file": "frumasecretdiscoveries-gale-20"
+  },
+  {
+    "line": "Gale: Hey again! Whatcha wanna talk about?",
+    "file": "frumasecretdiscoveries-gale-21"
+  },
+  {
+    "line": "Gale: !!!",
+    "file": "frumasecretdiscoveries-gale-22"
+  },
+  {
+    "line": "Gale: You- I- You really w-went-",
+    "file": "frumasecretdiscoveries-gale-23"
+  },
+  {
+    "line": "Gale: They- There's no way they're open to- It-",
+    "file": "frumasecretdiscoveries-gale-24"
+  },
+  {
+    "line": "Gale: You- uh- I-I-I-I-",
+    "file": "frumasecretdiscoveries-gale-25"
+  },
+  {
+    "line": "Gale: INEEDSOMEAIRSORRY-",
+    "file": "frumasecretdiscoveries-gale-26"
+  },
+  {
+    "line": "Girazh: Hello, newcomer.",
+    "file": "frumasecretdiscoveries-girazh-1"
+  },
+  {
+    "line": "Girazh: I cannot say that I have seen you around here before...",
+    "file": "frumasecretdiscoveries-girazh-2"
+  },
+  {
+    "line": "Girazh: Are you a new arrival?",
+    "file": "frumasecretdiscoveries-girazh-3"
+  },
+  {
+    "line": "Girazh: But besides that, your colors! Where are they?",
+    "file": "frumasecretdiscoveries-girazh-4"
+  },
+  {
+    "line": "Girazh: Such a monotonous form is too strange a sight in this colorful country!",
+    "file": "frumasecretdiscoveries-girazh-5"
+  },
+  {
+    "line": "Girazh: Do not worry. I can sell you something beautiful!",
+    "file": "frumasecretdiscoveries-girazh-6"
+  },
+  {
+    "line": "Girazh: For 48 EB, this dye can be yours! If you want it, of course.",
+    "file": "frumasecretdiscoveries-girazh-7"
+  },
+  {
+    "line": "Girazh: You... do not want my dye?",
+    "file": "frumasecretdiscoveries-girazh-8"
+  },
+  {
+    "line": "Girazh: I'm giving it to you for a very good price. 48 EB is practically throwing it away on someone like you, who clearly does not appreciate the beauty of color.",
+    "file": "frumasecretdiscoveries-girazh-9"
+  },
+  {
+    "line": "Girazh: Fine, no worry. I shall hold it for you, until you decide to return.",
+    "file": "frumasecretdiscoveries-girazh-10"
+  },
+  {
+    "line": "Girazh: Ah, stranger, you are back!",
+    "file": "frumasecretdiscoveries-girazh-11"
+  },
+  {
+    "line": "Girazh: And still so dull...",
+    "file": "frumasecretdiscoveries-girazh-12"
+  },
+  {
+    "line": "Girazh: All that can be fixed, for the low price of 48 EB!",
+    "file": "frumasecretdiscoveries-girazh-13"
+  },
+  {
+    "line": "Girazh: If you want it, of course.",
+    "file": "frumasecretdiscoveries-girazh-14"
+  },
+  {
+    "line": "Girazh: You... cannot afford it?",
+    "file": "frumasecretdiscoveries-girazh-15"
+  },
+  {
+    "line": "Girazh: I... do not understand this.",
+    "file": "frumasecretdiscoveries-girazh-16"
+  },
+  {
+    "line": "Girazh: Ah, you again!",
+    "file": "frumasecretdiscoveries-girazh-17"
+  },
+  {
+    "line": "Girazh: I hope that you can look past our... misunderstanding from earlier.",
+    "file": "frumasecretdiscoveries-girazh-18"
+  },
+  {
+    "line": "Girazh: colors may come at a cost, yes, but they are worth every emerald!",
+    "file": "frumasecretdiscoveries-girazh-19"
+  },
+  {
+    "line": "Girazh: That dye is still for sale, you know.",
+    "file": "frumasecretdiscoveries-girazh-20"
+  },
+  {
+    "line": "Girazh: Perfect. Just what you needed!",
+    "file": "frumasecretdiscoveries-girazh-21"
+  },
+  {
+    "line": "Girazh: Hello again, colorless one.",
+    "file": "frumasecretdiscoveries-girazh-22"
+  },
+  {
+    "line": "Girazh: Why have you not used your gift?",
+    "file": "frumasecretdiscoveries-girazh-23"
+  },
+  {
+    "line": "Girazh: Dye is a high value item around here, someone is sure to want it!",
+    "file": "frumasecretdiscoveries-girazh-24"
+  },
+  {
+    "line": "Girazh: Why not try and look on our upper floors?",
+    "file": "frumasecretdiscoveries-girazh-25"
+  },
+  {
+    "line": "Girazh: You are sure to find a buyer eventually.",
+    "file": "frumasecretdiscoveries-girazh-26"
+  },
+  {
+    "line": "Girazh: I sadly cannot give you anything more.",
+    "file": "frumasecretdiscoveries-girazh-27"
+  },
+  {
+    "line": "Girazh: That residue was a valuable item, you know?",
+    "file": "frumasecretdiscoveries-girazh-28"
+  },
+  {
+    "line": "Girazh: You got it from me for a steal!",
+    "file": "frumasecretdiscoveries-girazh-29"
+  },
+  {
+    "line": "Girazh: I found this on the ground, not far from here.",
+    "file": "frumasecretdiscoveries-girazh-30"
+  },
+  {
+    "line": "Girazh: I am not angry.",
+    "file": "frumasecretdiscoveries-girazh-31"
+  },
+  {
+    "line": "Girazh: I am just disappointed in your disregard for what is such a generous gift on my behalf.",
+    "file": "frumasecretdiscoveries-girazh-32"
+  },
+  {
+    "line": "Girazh: Please do not lose it again.",
+    "file": "frumasecretdiscoveries-girazh-33"
+  },
+  {
+    "line": "Bassow: Shock! No colors?",
+    "file": "frumasecretdiscoveries-bassow-1"
+  },
+  {
+    "line": "Bassow: I only serve customers with something to show me.",
+    "file": "frumasecretdiscoveries-bassow-2"
+  },
+  {
+    "line": "Bassow: Come back to me when you've found a color of your own.",
+    "file": "frumasecretdiscoveries-bassow-3"
+  },
+  {
+    "line": "Bassow: Oh, a new face!",
+    "file": "frumasecretdiscoveries-bassow-4"
+  },
+  {
+    "line": "Bassow: What have you got?",
+    "file": "frumasecretdiscoveries-bassow-5"
+  },
+  {
+    "line": "Bassow: Purple dye residue? I'm not too sure what you think you can do with that.",
+    "file": "frumasecretdiscoveries-bassow-6"
+  },
+  {
+    "line": "Bassow: I'm sure that whomever you bought it from is glad to have it out of their hands, though...",
+    "file": "frumasecretdiscoveries-bassow-7"
+  },
+  {
+    "line": "Bassow: How about I give you this to solve your dye problem.",
+    "file": "frumasecretdiscoveries-bassow-8"
+  },
+  {
+    "line": "Bassow: Enjoy, stranger. Someone around these grounds will trade for these readily.",
+    "file": "frumasecretdiscoveries-bassow-9"
+  },
+  {
+    "line": "Bassow: How about you find them?",
+    "file": "frumasecretdiscoveries-bassow-10"
+  },
+  {
+    "line": "Bassow: I've already given you my present, dull one!",
+    "file": "frumasecretdiscoveries-bassow-11"
+  },
+  {
+    "line": "Bassow: If you want more presents, speak to someone else.",
+    "file": "frumasecretdiscoveries-bassow-12"
+  },
+  {
+    "line": "Bassow: Although, judging by the look on your face, you've probably already lost it.",
+    "file": "frumasecretdiscoveries-bassow-13"
+  },
+  {
+    "line": "Bassow: Thankfully, dye base is not as rare a resource as the residue itself. Have some more!",
+    "file": "frumasecretdiscoveries-bassow-14"
+  },
+  {
+    "line": "Bassow: Try not to lose it again though!",
+    "file": "frumasecretdiscoveries-bassow-15"
+  },
+  {
+    "line": "Nawild: You! May I take a look at something that I hear you've received?",
+    "file": "frumasecretdiscoveries-nawild-1"
+  },
+  {
+    "line": "Nawild: Or perhaps I am mistaken.",
+    "file": "frumasecretdiscoveries-nawild-2"
+  },
+  {
+    "line": "Nawild: I am in need of some dye ingredients, you see.",
+    "file": "frumasecretdiscoveries-nawild-3"
+  },
+  {
+    "line": "Nawild: I will gladly speak to you again once you have them!",
+    "file": "frumasecretdiscoveries-nawild-4"
+  },
+  {
+    "line": "Nawild: Brilliant!",
+    "file": "frumasecretdiscoveries-nawild-5"
+  },
+  {
+    "line": "Nawild: But, I don't believe I've seen you here before...",
+    "file": "frumasecretdiscoveries-nawild-6"
+  },
+  {
+    "line": "Nawild: And therefore, you have no use for these dye ingredients that you've been given, correct?",
+    "file": "frumasecretdiscoveries-nawild-7"
+  },
+  {
+    "line": "Nawild: No matter! I have something to give you that will equal their value tenfold!",
+    "file": "frumasecretdiscoveries-nawild-8"
+  },
+  {
+    "line": "Nawild: Here, take this feather.",
+    "file": "frumasecretdiscoveries-nawild-9"
+  },
+  {
+    "line": "Nawild: An excellent trade!",
+    "file": "frumasecretdiscoveries-nawild-10"
+  },
+  {
+    "line": "Nawild: If, however, you find yourself not in need of a peacock feather, there will certainly be someone around here who may heavily reward you for this deal in their own right!",
+    "file": "frumasecretdiscoveries-nawild-11"
+  },
+  {
+    "line": "Nawild: Anyhow, that will be all!",
+    "file": "frumasecretdiscoveries-nawild-12"
+  },
+  {
+    "line": "Nawild: Goodbye, valued trader!",
+    "file": "frumasecretdiscoveries-nawild-13"
+  },
+  {
+    "line": "Nawild: I'm sorry stranger, but I have nothing more to give you.",
+    "file": "frumasecretdiscoveries-nawild-14"
+  },
+  {
+    "line": "Nawild: I'll let you know if that ever changes!",
+    "file": "frumasecretdiscoveries-nawild-15"
+  },
+  {
+    "line": "Robboss: I have not seen your face before.",
+    "file": "frumasecretdiscoveries-robboss-1"
+  },
+  {
+    "line": "Robboss: Nor your colors, come to think... I've never seen clothes in such a lurid shade of 'used'!",
+    "file": "frumasecretdiscoveries-robboss-2"
+  },
+  {
+    "line": "Robboss: No matter, it can be sorted ou-",
+    "file": "frumasecretdiscoveries-robboss-3"
+  },
+  {
+    "line": "Robboss: Not one for beauty then, are you?",
+    "file": "frumasecretdiscoveries-robboss-4"
+  },
+  {
+    "line": "Robboss: Come back to me once you've changed your appetite...",
+    "file": "frumasecretdiscoveries-robboss-5"
+  },
+  {
+    "line": "Robboss: No, I take that all back!",
+    "file": "frumasecretdiscoveries-robboss-6"
+  },
+  {
+    "line": "Robboss: What a beautiful peacock feather!",
+    "file": "frumasecretdiscoveries-robboss-7"
+  },
+  {
+    "line": "Robboss: I must have it!",
+    "file": "frumasecretdiscoveries-robboss-8"
+  },
+  {
+    "line": "Robboss: And something for your troubles...",
+    "file": "frumasecretdiscoveries-robboss-9"
+  },
+  {
+    "line": "Robboss: Oh! One more thing, while you're here.",
+    "file": "frumasecretdiscoveries-robboss-10"
+  },
+  {
+    "line": "Robboss: Let me give you this old key. I'm not too sure where it comes from or how to use it, but surely a traveller like yourself will know what to do!",
+    "file": "frumasecretdiscoveries-robboss-11"
+  },
+  {
+    "line": "Robboss: It might even be useful in this very market!",
+    "file": "frumasecretdiscoveries-robboss-12"
+  },
+  {
+    "line": "Robboss: That is all I have for you! Thank you for your business.",
+    "file": "frumasecretdiscoveries-robboss-13"
+  },
+  {
+    "line": "Robboss: I doubt that you have anything more of interest to me, soldier.",
+    "file": "frumasecretdiscoveries-robboss-14"
+  },
+  {
+    "line": "Robboss: Not unless you have another feather, that is.",
+    "file": "frumasecretdiscoveries-robboss-15"
+  },
+  {
+    "line": "Robboss: Do you?",
+    "file": "frumasecretdiscoveries-robboss-16"
+  },
+  {
+    "line": "Robboss: No? I thought not.",
+    "file": "frumasecretdiscoveries-robboss-17"
+  },
+  {
+    "line": "University Student: The groundskeeper just stormed off in a huff... He seemed stressed about something.",
+    "file": "frumasecretdiscoveries-universitystudent-1"
+  },
+  {
+    "line": "University Student: I guess I would be too if I had to make a flower display for the Queen's visit, but he has a design to go off of, so it couldn't be too hard, right?",
+    "file": "frumasecretdiscoveries-universitystudent-2"
+  },
+  {
+    "line": "University Student: Oh... right... The chancellor had that one puzzle-obsessed girl make the garden plan... Now it all makes sense...",
+    "file": "frumasecretdiscoveries-universitystudent-3"
+  },
+  {
+    "line": "University Student: Wow! The garden looks beautiful... Great work!",
+    "file": "frumasecretdiscoveries-universitystudent-4"
+  },
+  {
+    "line": "University Student: ...Wait... You're not the groundskeeper... Or a student...",
+    "file": "frumasecretdiscoveries-universitystudent-5"
+  },
+  {
+    "line": "University Student: ...Who did the chancellor just give a library pass to...?",
+    "file": "frumasecretdiscoveries-universitystudent-6"
+  },
+  {
+    "line": "University Guard: Let's see yer pass...",
+    "file": "frumasecretdiscoveries-universityguard-1"
+  },
+  {
+    "line": "University Guard: No pass, no entry. Buzz off.",
+    "file": "frumasecretdiscoveries-universityguard-2"
+  },
+  {
+    "line": "University Guard: ...Wha? Surely ya couldn't be around 'ere without knowin' about this place...",
+    "file": "frumasecretdiscoveries-universityguard-3"
+  },
+  {
+    "line": "University Guard: This is The Royal University of Aelumia, the finest educational institution in the province. I'd be baffled if ya hadn't heard of it.",
+    "file": "frumasecretdiscoveries-universityguard-4"
+  },
+  {
+    "line": "University Guard: Anyway. It's my duty to make sure the students 'ere are safe. And that job involves turnin' away people like you. Be gone.",
+    "file": "frumasecretdiscoveries-universityguard-5"
+  },
+  {
+    "line": "University Guard: Well?",
+    "file": "frumasecretdiscoveries-universityguard-6"
+  },
+  {
+    "line": "University Guard: A signed permission slip from the Chancellor? Huh. Alright.",
+    "file": "frumasecretdiscoveries-universityguard-7"
+  },
+  {
+    "line": "University Guard: Come with me. I have to escort you.",
+    "file": "frumasecretdiscoveries-universityguard-8"
+  },
+  {
+    "line": "Chancellor: Time to see how he's getting on...",
+    "file": "frumasecretdiscoveries-chancellor-1"
+  },
+  {
+    "line": "Chancellor: ...Wow..!",
+    "file": "frumasecretdiscoveries-chancellor-2"
+  },
+  {
+    "line": "Chancellor: You there, come over here!",
+    "file": "frumasecretdiscoveries-chancellor-3"
+  },
+  {
+    "line": "Chancellor: It's perfect!! Thank you so much!! Wait...",
+    "file": "frumasecretdiscoveries-chancellor-4"
+  },
+  {
+    "line": "Chancellor: You're not the groundskeeper... What's going on here?",
+    "file": "frumasecretdiscoveries-chancellor-5"
+  },
+  {
+    "line": "Chancellor: ...You planted the flowerbed yourself? Normally, I'd punish students for interfering in official business, but you did such a good job, you're off the hook!",
+    "file": "frumasecretdiscoveries-chancellor-6"
+  },
+  {
+    "line": "Chancellor: You'd ought to go and take a rest after all that hard work! What about... the library?",
+    "file": "frumasecretdiscoveries-chancellor-7"
+  },
+  {
+    "line": "Chancellor: ...You don't have a pass? Oh, silly you, you must've forgotten it. Here, let me write you a permission slip so you don't have to go searching for it right now.",
+    "file": "frumasecretdiscoveries-chancellor-8"
+  },
+  {
+    "line": "Guard: Uh, boss, I don't think they're a...",
+    "file": "frumasecretdiscoveries-guard-1"
+  },
+  {
+    "line": "Chancellor: Shhh... Guards are to be seen and not heard.",
+    "file": "frumasecretdiscoveries-chancellor-9"
+  },
+  {
+    "line": "Chancellor: There. Here you go. Oh, and one more thing:",
+    "file": "frumasecretdiscoveries-chancellor-10"
+  },
+  {
+    "line": "Chancellor: Please wear a school uniform when Her Majesty comes around, alright?",
+    "file": "frumasecretdiscoveries-chancellor-11"
   }
 ]
