@@ -100,10 +100,6 @@
     "report": true
   },
   {
-    "line": "???: H-hey! You two! You're soldiers, right?",
-    "report": true
-  },
-  {
     "line": "???: Hmmm, I must be imagining things...",
     "report": true
   },
@@ -261,10 +257,6 @@
   },
   {
     "line": "???: Years of training... Blinded now, I learn...",
-    "report": true
-  },
-  {
-    "line": "???: Yep, I could tell from your weird fashion sense! You folk are supposed to help people, right? So. Help!",
     "report": true
   },
   {
@@ -6643,19 +6635,7 @@
     "report": true
   },
   {
-    "line": "Ope: ...ah- there you are!! What took you so long, it feels like we've been waiting for hours!",
-    "report": true
-  },
-  {
-    "line": "Ope: ...eek. There's a lot of spiders even up here... hey, since there's two of you- one of you can go get the herb, and the other can, uh... protect me from the crawly spiders?",
-    "report": true
-  },
-  {
     "line": "Ope: ...I'm stalling. It's- my mother.",
-    "report": true
-  },
-  {
-    "line": "Ope: ...mm, cutting it a little close, but... oh! You're, uh, still here...! Right. Right- you have to go into that cave, remember?",
     "report": true
   },
   {
@@ -6671,19 +6651,7 @@
     "report": true
   },
   {
-    "line": "Ope: ...well. Goodbye!",
-    "report": true
-  },
-  {
-    "line": "Ope: And, y'know, I- I'm no soldier! Can't just go in there and get it myself! So, I was hoping you could help me out.",
-    "report": true
-  },
-  {
     "line": "Ope: And, you know, this world is a dangerous place to live in! I'd know. Don't I know it.",
-    "report": true
-  },
-  {
-    "line": "Ope: Great. Great! I'll bring you to the cave, and you can do the rest from there. Follow me!",
     "report": true
   },
   {
@@ -6691,27 +6659,7 @@
     "report": true
   },
   {
-    "line": "Ope: I... uh... so, there's this rare medicinal herb that grows in these woods, right? And it's important. But the only place I know to find it is an infested cave, filled with creepy crawly spiders.",
-    "report": true
-  },
-  {
     "line": "Ope: I- eheh. Sorry, I can't really keep up the whole... schtick. Right now.",
-    "report": true
-  },
-  {
-    "line": "Ope: I- I thank you kindly for your work, soldiers! Now, about your payment... let's see, what do I have...",
-    "report": true
-  },
-  {
-    "line": "Ope: I'm Ope! And the undead... eh, there's not as many of them around here. The spiders aren't picky 'bout who they go for.",
-    "report": true
-  },
-  {
-    "line": "Ope: It-... mm. A-anyway! Do you have the herb? It's very important, yep.",
-    "report": true
-  },
-  {
-    "line": "Ope: It has been a time soldiers, but I- I truly must be going! Important things to get to! We're near Alekin Village, you should stop on by! Just keep going east down the main road!",
     "report": true
   },
   {
@@ -6723,15 +6671,7 @@
     "report": true
   },
   {
-    "line": "Ope: Oh. I seem to be out of emeralds. Well- then, I- I can offer some advice! There's lots to find in this forest. Plenty of other caves with valuables to explore! Might be worth your time!",
-    "report": true
-  },
-  {
     "line": "Ope: Oh. Right, you- you wouldn't know. New-ish Wynn soldier, and all. You lot are from Fruma, aren't you?",
-    "report": true
-  },
-  {
-    "line": "Ope: Oh, I- eheh, it... I... uh, it's n-none of your business, actually.",
     "report": true
   },
   {
@@ -6743,23 +6683,11 @@
     "report": true
   },
   {
-    "line": "Ope: Well, here we are! That's the cave right over there- just climb up the rocks and jump into it. It's safe! Uh, probably.",
-    "report": true
-  },
-  {
     "line": "Ope: What, do you have someone to mourn as well? Plenty of bonfires 'round here. I'm sure you could find somewhere else to do it.",
     "report": true
   },
   {
     "line": "Ope: Yeah, coming here was a mistake. I'll probably head off again soon, find a place to stay... who knows where.",
-    "report": true
-  },
-  {
-    "line": "Ope: Yep... good! Good, good! Good, uh, luck up there! Try not to get bitten too much by the spiders!",
-    "report": true
-  },
-  {
-    "line": "Ope: You can, uh, go speak to the mayor! He can cover my expenses!",
     "report": true
   },
   {
@@ -112926,5 +112854,77 @@
   {
     "line": "Chancellor: Please wear a school uniform when Her Majesty comes around, alright?",
     "file": "frumasecretdiscoveries-chancellor-11"
+  },
+  {
+    "line": "???: H-hey! You two! You're soldiers, right?",
+    "file": "infestedplants-ope-32"
+  },
+  {
+    "line": "???: Yep, I could tell from your weird fashion sense! You folk are supposed to help people, right? So. Help!",
+    "file": "infestedplants-ope-33"
+  },
+  {
+    "line": "Ope: I'm Ope! And the undead... eh, there's not as many of them around here. The spiders aren't picky 'bout who they go for.",
+    "file": "infestedplants-ope-34"
+  },
+  {
+    "line": "Ope: I... uh... so, there's this rare medicinal herb that grows in these woods, right? And it's important. But the only place I know to find it is an infested cave, filled with creepy crawly spiders.",
+    "file": "infestedplants-ope-35"
+  },
+  {
+    "line": "Ope: And, y'know, I- I'm no soldier! Can't just go in there and get it myself! So, I was hoping you could help me out.",
+    "file": "infestedplants-ope-36"
+  },
+  {
+    "line": "Ope: Great. Great! I'll bring you to the cave, and you can do the rest from there. Follow me!",
+    "file": "infestedplants-ope-37"
+  },
+  {
+    "line": "Ope: Well, here we are! That's the cave right over there- just climb up the rocks and jump into it. It's safe! Uh, probably.",
+    "file": "infestedplants-ope-38"
+  },
+  {
+    "line": "Ope: ...eek. There's a lot of spiders even up here... hey, since there's two of you- one of you can go get the herb, and the other can, uh... protect me from the crawly spiders?",
+    "file": "infestedplants-ope-39"
+  },
+  {
+    "line": "Ope: Yep... good! Good, good! Good, uh, luck up there! Try not to get bitten too much by the spiders!",
+    "file": "infestedplants-ope-40"
+  },
+  {
+    "line": "Ope: ...mm, cutting it a little close, but... oh! You're, uh, still here...! Right. Right- you have to go into that cave, remember?",
+    "file": "infestedplants-ope-41"
+  },
+  {
+    "line": "Ope: ...ah- there you are!! What took you so long, it feels like we've been waiting for hours!",
+    "file": "infestedplants-ope-42"
+  },
+  {
+    "line": "Ope: It-... mm. A-anyway! Do you have the herb? It's very important, yep.",
+    "file": "infestedplants-ope-43"
+  },
+  {
+    "line": "Ope: Oh, I- eheh, it... I... uh, it's n-none of your business, actually.",
+    "file": "infestedplants-ope-44"
+  },
+  {
+    "line": "Ope: I- I thank you kindly for your work, soldiers! Now, about your payment... let's see, what do I have...",
+    "file": "infestedplants-ope-45"
+  },
+  {
+    "line": "Ope: Oh. I seem to be out of emeralds. Well- then, I- I can offer some advice! There's lots to find in this forest. Plenty of other caves with valuables to explore! Might be worth your time!",
+    "file": "infestedplants-ope-46"
+  },
+  {
+    "line": "Ope: It has been a time soldiers, but I- I truly must be going! Important things to get to! We're near Alekin Village, you should stop on by! Just keep going east down the main road!",
+    "file": "infestedplants-ope-47"
+  },
+  {
+    "line": "Ope: You can, uh, go speak to the mayor! He can cover my expenses!",
+    "file": "infestedplants-ope-48"
+  },
+  {
+    "line": "Ope: ...well. Goodbye!",
+    "file": "infestedplants-ope-49"
   }
 ]
