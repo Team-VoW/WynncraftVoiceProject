@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.2.0...v2.2.1) (2026-08-20)
+
+
+### New Features
+
+* Added back functionality to reroute master volume sounds to block sounds ([cadc2b9](https://github.com/Team-VoW/WynncraftVoiceProject/commit/cadc2b9d6d8be67c9d2bd9b48542b4b3fe523536))
+
 ## [2.2.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.1.0...v2.2.0) (2026-08-19)
 
 
@@ -23,6 +30,11 @@
 ### Bug Fixes
 
 * **Echoes of change:** Fix 8 lines not playing ([ee43038](https://github.com/Team-VoW/WynncraftVoiceProject/commit/ee43038e95da6704d4b73713d1ecb344959af7ba))
+
+
+### Miscellaneous Chores
+
+* **release:** v2.2.0 [skip ci] ([4c31e44](https://github.com/Team-VoW/WynncraftVoiceProject/commit/4c31e442169e9c9bec5e8ab56289ebee1b8e7d7f))
 
 ## [2.1.0](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.3...v2.1.0) (2026-08-18)
 
@@ -86,16 +98,4 @@
 ### Miscellaneous Chores
 
 * **release:** v2.0.2 [skip ci] ([09ab4d6](https://github.com/Team-VoW/WynncraftVoiceProject/commit/09ab4d662a82c564d8c593782d42dfc89d8a937a))
-
-## [2.0.1](https://github.com/Team-VoW/WynncraftVoiceProject/compare/v2.0.0...v2.0.1) (2026-05-19)
-
-
-### Bug Fixes
-
-* Fix version checker showing non-correct upgrade message ([12dd892](https://github.com/Team-VoW/WynncraftVoiceProject/commit/12dd8929accfe0eb279ab34dfe64a7d63699d241))
-
-
-### Miscellaneous Chores
-
-* **release:** v2.0.1 [skip ci] ([64c3d28](https://github.com/Team-VoW/WynncraftVoiceProject/commit/64c3d28a1d820e6be7630189374356f6bfcf3218))
 
