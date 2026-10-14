@@ -528,15 +528,7 @@
     "report": true
   },
   {
-    "line": "Aledar: Enough talking already! Let's get out there and help some people!",
-    "report": true
-  },
-  {
     "line": "Aledar: Ha ha. Very",
-    "report": true
-  },
-  {
-    "line": "Aledar: Ha ha, very funny... Ah, soldier, there seems to be an  Item Identifier here for you to identify that rare helmet.",
     "report": true
   },
   {
@@ -561,10 +553,6 @@
   },
   {
     "line": "Aledar: Hold on! That might separate us, don't go in.",
-    "report": true
-  },
-  {
-    "line": "Aledar: I can't wait to discover what it looks like for myself!",
     "report": true
   },
   {
@@ -613,10 +601,6 @@
   },
   {
     "line": "Aledar: Thank you for the opportunity, sir. I won't let you down-... Wait, is that- Tasim and Player?",
-    "report": true
-  },
-  {
-    "line": "Aledar: That sure was close... Thanks for the save, soldier!",
     "report": true
   },
   {
@@ -16395,7 +16379,7 @@
     "file": "kingsrecruit-tasim-15"
   },
   {
-    "line": "Aledar: That sure was close!",
+    "line": "Aledar: That sure was close... Thanks for the save, soldier!",
     "file": "kingsrecruit-aledar-8"
   },
   {
@@ -16483,12 +16467,8 @@
     "file": "kingsrecruit-aledar-17"
   },
   {
-    "line": "Aledar: We should get some armour before leaving this cave. Kill the Grooks to unlock the chest!",
-    "file": "kingsrecruit-aledar-18"
-  },
-  {
     "line": "Aledar: We should return to the guard to see if he'll let us through now!",
-    "file": "kingsrecruit-aledar-19"
+    "file": "kingsrecruit-aledar-18"
   },
   {
     "line": "Tasim: I think we've already seen everything we had to in there, soldier.",
@@ -16500,7 +16480,7 @@
   },
   {
     "line": "Aledar: Yes, a helmet! Will you let us pass now?",
-    "file": "kingsrecruit-aledar-20"
+    "file": "kingsrecruit-aledar-19"
   },
   {
     "line": "Guard: Hold on there, recruit. Before you can equip a piece of armour you first have to identify it.",
@@ -16547,20 +16527,16 @@
     "file": "kingsrecruit-tasim-26"
   },
   {
-    "line": "Aledar: Well, we've got no choice but to make it through! Finally time for us to use these weapons we got!",
-    "file": "kingsrecruit-aledar-21"
-  },
-  {
     "line": "Aledar: Finally, time for us to use these weapons we got!",
-    "file": "kingsrecruit-aledar-31"
+    "file": "kingsrecruit-aledar-20"
   },
   {
     "line": "Aledar: soldier, you take the skeleton in the front. We'll handle the two zombies in the back!",
-    "file": "kingsrecruit-aledar-22"
+    "file": "kingsrecruit-aledar-21"
   },
   {
     "line": "Aledar: We did it!",
-    "file": "kingsrecruit-aledar-23"
+    "file": "kingsrecruit-aledar-22"
   },
   {
     "line": "Tasim: This path opened up, let's continue through the underpass.",
@@ -16596,7 +16572,7 @@
   },
   {
     "line": "Aledar: Wait, it's running away! We have to save the Lieutenant!",
-    "file": "kingsrecruit-aledar-24"
+    "file": "kingsrecruit-aledar-23"
   },
   {
     "line": "Lieutenant: ... That was close. Thanks for the save, recruits!",
@@ -16615,12 +16591,8 @@
     "file": "kingsrecruit-tasim-30"
   },
   {
-    "line": "Aledar: Onward to Ragni! We're almost there.",
-    "file": "kingsrecruit-aledar-25"
-  },
-  {
     "line": "Aledar: We... we made it! We really made it! Sure was a close call at the end.",
-    "file": "kingsrecruit-aledar-26"
+    "file": "kingsrecruit-aledar-24"
   },
   {
     "line": "Tasim: ... Still think those corrupted don't stand a chance against you?",
@@ -16631,8 +16603,8 @@
     "file": "kingsrecruit-tasim-31"
   },
   {
-    "line": "Aledar: Ha ha. Very funny. Ah, soldier, there seems to be an identifier here for you to identify that rare helmet.",
-    "file": "kingsrecruit-aledar-27"
+    "line": "Aledar: Ha ha, very funny... Ah, soldier, there seems to be an  Item Identifier here for you to identify that rare helmet.",
+    "file": "kingsrecruit-aledar-25"
   },
   {
     "line": "Tasim: And a blacksmith too, you can sell your old helmet there for some emeralds.",
@@ -16644,15 +16616,15 @@
   },
   {
     "line": "Aledar: The end of one adventure, but the beginning of another! Let's go inside and talk to the King!",
+    "file": "kingsrecruit-aledar-26"
+  },
+  {
+    "line": "Aledar: I can't wait to discover what it looks like for myself!",
+    "file": "kingsrecruit-aledar-27"
+  },
+  {
+    "line": "Aledar: Enough talking already! Let's get out there and help some people!",
     "file": "kingsrecruit-aledar-28"
-  },
-  {
-    "line": "Aledar: Ha ha. Very funny.",
-    "file": "kingsrecruit-aledar-29"
-  },
-  {
-    "line": "Aledar: Ah, soldier, there seems to be an identifier here for you to identify that rare helmet.",
-    "file": "kingsrecruit-aledar-30"
   },
   {
     "line": "Ragni's King: Ah, you must be the last recruit. Please come over here and speak to me.",
