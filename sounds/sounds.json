@@ -17531,7 +17531,7 @@
   },
   {
     "line": "Tasim: ...",
-    "file": "infestedplants-tasim-32"
+    "file": "silence-2s"
   },
   {
     "line": "Mayor Alvin: Ah, hello! What can I do for you today?",
@@ -18596,9 +18596,6 @@
   {
     "line": "Tasim: Yahya! No!",
     "file": "mushroomman-tasim-14"
-  },
-  {
-    "line": "Tasim: ..."
   },
   {
     "line": "Tasim: I-... this is bad. This is really bad. We need to tell the Mayor, now.",
@@ -21370,10 +21367,6 @@
     "file": "recoverthepast-tasim-25"
   },
   {
-    "line": "Tasim: ...",
-    "file": "recoverthepast-tasim-25"
-  },
-  {
     "line": "Tasim: It's fine, you'll be fine... I know what to do, even if I really shouldn't...",
     "file": "recoverthepast-tasim-26"
   },
@@ -21474,9 +21467,6 @@
   {
     "line": "Royal Inquisitor: Must I repeat myself? Do you understand?",
     "file": "recoverthepast-royalinquisitor-9"
-  },
-  {
-    "line": "Tasim: ..."
   },
   {
     "line": "Royal Inquisitor: I will ask once more. Is your directive understood?",
@@ -21597,9 +21587,6 @@
     "file": "recoverthepast-drpicard-59"
   },
   {
-    "line": "Tasim: ..."
-  },
-  {
     "line": "Tasim: Cursed. He called me cursed. What does that mean for me..?",
     "file": "recoverthepast-tasim-35"
   },
@@ -21610,10 +21597,6 @@
   {
     "line": "Tasim: ...Did the two of us really meet through sheer random luck? He was running from something, and... fell straight into my life.",
     "file": "recoverthepast-tasim-37"
-  },
-  {
-    "line": "Tasim: ...",
-    "stopSounds": "false"
   },
   {
     "line": "Tasim: I- I need some space to think. To... reflect. Can you-... please don't tell Aledar about any of this.",
