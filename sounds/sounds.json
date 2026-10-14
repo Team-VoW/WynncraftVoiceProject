@@ -3292,10 +3292,6 @@
     "report": true
   },
   {
-    "line": "Eileen: W-What do you mean...? I-I don't like this... I-I w-wanna go home. It's getting late and mother",
-    "report": true
-  },
-  {
     "line": "Elder: ...",
     "report": true
   },
@@ -4324,30 +4320,6 @@
     "report": true
   },
   {
-    "line": "Garvan: Ah... N-now you're finally here. I... need you, my darling. We  no... I can cure this Decay with you.",
-    "report": true
-  },
-  {
-    "line": "Garvan: And so it ends here. At the same time, it begins my desperate attempts to flee from my past.",
-    "report": true
-  },
-  {
-    "line": "Garvan: I became... nothing. A nobody. I had no purpose. I wandered the forest, pretending that nothing had ever gone wrong... Indeed, I had become a Wanderer.",
-    "report": true
-  },
-  {
-    "line": "Garvan: I-I placed it in the catacombs, right next to where",
-    "report": true
-  },
-  {
-    "line": "Garvan: I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to",
-    "report": true
-  },
-  {
-    "line": "Garvan: I tried to forget. I tried to forget everything, even my own name. I ignored Katarin's spirit calling out to me, demanding I return to her.",
-    "report": true
-  },
-  {
     "line": "Garvan: It seems like Garvan went in the direction of the master bedroom...",
     "report": true
   },
@@ -5240,10 +5212,6 @@
     "report": true
   },
   {
-    "line": "Katarin: Do you hear that? It's the ocean waves... The heavens... They're calling for me",
-    "report": true
-  },
-  {
     "line": "Katarin: During his research, Garvan had come too close into contact with the forest villagers... and was thoroughly broken into subservience.",
     "report": true
   },
@@ -5269,14 +5237,6 @@
   },
   {
     "line": "Katarin: Unbeknownst to the Faltach family, Yorman's hunch was correct all along. Their hired scientist had indeed moved away from his original goal.",
-    "report": true
-  },
-  {
-    "line": "Katarin: We... I will not risk her life for our love. She has a future in Cinfras, Garvan! She isn't a part of this and I don't think she",
-    "report": true
-  },
-  {
-    "line": "Katarin: You knew where it was  Hmm... what did Garvan call you things...?",
     "report": true
   },
   {
@@ -7135,10 +7095,6 @@
     "report": true
   },
   {
-    "line": "Qunit: Oh, Ann... Your voice is so delicate, so soothing that  Ah, soldier! Are you here for something... or someone?",
-    "report": true
-  },
-  {
     "line": "Ragni's King: [+1 Ragni Teleportation Scroll]",
     "report": true
   },
@@ -8020,10 +7976,6 @@
   },
   {
     "line": "Sensei Miyagi: Well, what are you waiting for?",
-    "report": true
-  },
-  {
-    "line": "Servant: L-LADY KATARIN! T-THERE ARE INTRUDERS AAAAAAHHHHHH!!!",
     "report": true
   },
   {
@@ -12224,10 +12176,6 @@
   },
   {
     "line": "Hmmm- you'd probably have to do something very courageous to get one of those.",
-    "report": true
-  },
-  {
-    "line": "Hmmm... Odd. There's a lot to take in here relating to Gavel's deceased monarchy. It's quite interesting, though there is nothing about the Gerten War.",
     "report": true
   },
   {
@@ -38932,11 +38880,11 @@
     "file": "hollowserenity-ann-1"
   },
   {
-    "line": "Qunit: Oh, Ann... Your voice is so delicate, so soothing that— Ah, soldier! Are you here for something... or someone?",
+    "line": "Qunit: Oh, Ann... Your voice is so delicate, so soothing that  Ah, soldier! Are you here for something... or someone?",
     "file": "hollowserenity-qunit-1"
   },
   {
-    "line": "Ann & Qunit: What do you need?",
+    "line": "Ann Qunit: What do you need?",
     "file": "hollowserenity-annqunit-1"
   },
   {
@@ -39352,7 +39300,7 @@
     "file": "hollowserenity-yorman-4"
   },
   {
-    "line": "Hmmm... Odd. There's a lot to take in here related to Gavel's deceased monarchy. It's quite interesting, though there is nothing about the Gerten War.",
+    "line": "Hmmm... Odd. There's a lot to take in here relating to Gavel's deceased monarchy. It's quite interesting, though there is nothing about the Gerten War.",
     "file": "hollowserenity-garvan-28"
   },
   {
@@ -39492,7 +39440,7 @@
     "file": "hollowserenity-garvan-47"
   },
   {
-    "line": "Katarin: We... I will not risk her life for our love. She has a future in Cinfras, Garvan! She isn't a part of this and I don't think she–",
+    "line": "Katarin: We... I will not risk her life for our love. She has a future in Cinfras, Garvan! She isn't a part of this and I don't think she",
     "file": "hollowserenity-katarin-24"
   },
   {
@@ -39512,11 +39460,11 @@
     "file": "hollowserenity-katarin-25"
   },
   {
-    "line": "Garvan: Ah... N-now you're finally here. I... need you, my darling. We– no... I can cure this Decay with you.",
+    "line": "Garvan: Ah... N-now you're finally here. I... need you, my darling. We  no... I can cure this Decay with you.",
     "file": "hollowserenity-garvan-51"
   },
   {
-    "line": "Eileen: W-What do you mean...? I-I don't like this... I-I w-wanna go home. It's getting late and mother–",
+    "line": "Eileen: W-What do you mean...? I-I don't like this... I-I w-wanna go home. It's getting late and mother",
     "file": "hollowserenity-eileen-1"
   },
   {
@@ -39672,7 +39620,7 @@
     "file": "hollowserenity-katarin-32"
   },
   {
-    "line": "Servant: L-LADY KATARIN! T-THERE ARE INTRUDERS— AAAAAAHHHHHH!!!",
+    "line": "Servant: L-LADY KATARIN! T-THERE ARE INTRUDERS AAAAAAHHHHHH!!!",
     "file": "hollowserenity-servant-1"
   },
   {
@@ -39752,15 +39700,15 @@
     "file": "hollowserenity-garvan-81"
   },
   {
-    "line": "And so it ends here. At the same time, it begins my desperate attempts to flee from my past.",
+    "line": "Garvan: And so it ends here. At the same time, it begins my desperate attempts to flee from my past.",
     "file": "hollowserenity-garvan-82"
   },
   {
-    "line": "I tried to forget. I tried to forget everything, even my own name. I ignored Katarin’s spirit calling out to me, demanding I return to her.",
+    "line": "Garvan: I tried to forget. I tried to forget everything, even my own name. I ignored Katarin’s spirit calling out to me, demanding I return to her.",
     "file": "hollowserenity-garvan-83"
   },
   {
-    "line": "I became... nothing. A nobody. I had no purpose. I wandered the forest, pretending that nothing had ever gone wrong... Indeed, I had become a Wanderer.",
+    "line": "Garvan: I became... nothing. A nobody. I had no purpose. I wandered the forest, pretending that nothing had ever gone wrong... Indeed, I had become a Wanderer.",
     "file": "hollowserenity-garvan-84"
   },
   {
@@ -39780,7 +39728,7 @@
     "file": "hollowserenity-garvan-88"
   },
   {
-    "line": "Garvan: I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to—",
+    "line": "Garvan: I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to",
     "file": "hollowserenity-garvan-89"
   },
   {
@@ -39852,7 +39800,7 @@
     "file": "hollowserenity-garvan-101"
   },
   {
-    "line": "Garvan: I-I placed it in the catacombs, right next to where—",
+    "line": "Garvan: I-I placed it in the catacombs, right next to where",
     "file": "hollowserenity-garvan-102"
   },
   {
@@ -39884,7 +39832,7 @@
     "file": "hollowserenity-katarin-46"
   },
   {
-    "line": "Katarin: You knew where it was— Hmm... what did Garvan call you things...?",
+    "line": "Katarin: You knew where it was  Hmm... what did Garvan call you things...?",
     "file": "hollowserenity-katarin-47"
   },
   {
@@ -39896,7 +39844,7 @@
     "file": "hollowserenity-katarin-49"
   },
   {
-    "line": "Katarin: Do you hear that? It's the ocean waves... The heavens... They're calling for me—",
+    "line": "Katarin: Do you hear that? It's the ocean waves... The heavens... They're calling for me",
     "file": "hollowserenity-katarin-50"
   },
   {
