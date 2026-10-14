@@ -6515,15 +6515,7 @@
     "report": true
   },
   {
-    "line": "Olon: AAHHH! I SLIPPED.",
-    "report": true
-  },
-  {
     "line": "Olon: Ge",
-    "report": true
-  },
-  {
-    "line": "Olon: Have you ever heard the saying \"Elves never die\"- well it's true, or so I thought.",
     "report": true
   },
   {
@@ -6532,10 +6524,6 @@
   },
   {
     "line": "Olon: Hey soldier! Come back to me when you are level 78, we have a lot to do!",
-    "report": true
-  },
-  {
-    "line": "Olon: Let's start this way!",
     "report": true
   },
   {
@@ -40560,7 +40548,7 @@
     "file": "aldoreissecretpart2-olon-4"
   },
   {
-    "line": "Olon: Have you ever heard the saying ´´Elves never die´´- well it's true, or so I thought.",
+    "line": "Olon: Have you ever heard the saying \"Elves never die\"- well it's true, or so I thought.",
     "file": "aldoreissecretpart2-olon-5"
   },
   {
@@ -40632,7 +40620,7 @@
     "file": "aldoreissecretpart2-sol-7"
   },
   {
-    "line": "Sol: Thats me! Sol the Smart, Sol the Cleaver, Sol the Best- I go by many names.",
+    "line": "Sol: Thats me! Sol the Smart, Sol the Clever, Sol the Best- I go by many names.",
     "file": "aldoreissecretpart2-sol-8"
   },
   {
@@ -41188,11 +41176,11 @@
     "file": "aldoreissecretpart2-olon-46"
   },
   {
-    "line": "[1/] Olon: Let's start this way!",
+    "line": "Olon: Let's start this way!",
     "file": "aldoreissecretpart2-olon-47"
   },
   {
-    "line": "[2/] Olon: AAHHH! I SLIPPED.",
+    "line": "Olon: AAHHH! I SLIPPED.",
     "file": "aldoreissecretpart2-olon-48"
   },
   {
