@@ -5320,42 +5320,6 @@
     "report": true
   },
   {
-    "line": "King of Ragni: Although, you might want to gain some experience beforehand. Many lives are tragically lost every day...",
-    "report": true
-  },
-  {
-    "line": "King of Ragni: And yet again, I must send you all into danger... a different sort, this time around, but danger nonetheless.",
-    "report": true
-  },
-  {
-    "line": "King of Ragni: As soldiers of Wynn, it is your duty to stem the tide of corrupted monsters ravaging this land.",
-    "report": true
-  },
-  {
-    "line": "King of Ragni: But this time... I have faith we will meet once more. Go on, young hero. Your mission lies ahead of you.",
-    "report": true
-  },
-  {
-    "line": "King of Ragni: I remember each face which passes through my castle. I rarely see any of them again.",
-    "report": true
-  },
-  {
-    "line": "King of Ragni: Take this [Ragni Teleportation Scroll] to aid you in your journey. Upon use, it will instantly bring you back to this city, wherever you may be.",
-    "report": true
-  },
-  {
-    "line": "King of Ragni: This, recruits, is the noble fort of Ragni, one of the great cities of our vast province!",
-    "report": true
-  },
-  {
-    "line": "King of Ragni: Welcome to the Province of Wynn! By your ragged appearance, I gather your journey here must have been quite the adventure.",
-    "report": true
-  },
-  {
-    "line": "King of Ragni: With that, I must bid you farewell, more recruits may arrive at any time. Good luck out there, soldiers of Wynn!",
-    "report": true
-  },
-  {
     "line": "King of Rodoroc: And Axelus, leave the city. You are no longer my son.",
     "report": true
   },
@@ -7179,43 +7143,7 @@
     "report": true
   },
   {
-    "line": "Ragni's King: Ah. Please head to the meeting room. I will join shortly.",
-    "report": true
-  },
-  {
-    "line": "Ragni's King: Ah, welcome my young recr-... my young master.",
-    "report": true
-  },
-  {
-    "line": "Ragni's King: Although, you might want to gain some experience beforehand. Many lives are tragically lost every day...",
-    "report": true
-  },
-  {
-    "line": "Ragni's King: As soldiers of Wynn, it is your duty to stem the tide of corrupted monsters ravaging this land.",
-    "report": true
-  },
-  {
-    "line": "Ragni's King: Off you go, I've said everything I have to say.",
-    "report": true
-  },
-  {
-    "line": "Ragni's King: Take this [Ragni Teleportation Scroll] to aid you in your journey. Upon use, it will instantly bring you back to this city, wherever you may be.",
-    "report": true
-  },
-  {
     "line": "Ragni's King: Take this [Ragni Teleportation Scroll] too! It will bring you back here if you use it.",
-    "report": true
-  },
-  {
-    "line": "Ragni's King: This, recruits, is the noble fort of Ragni, one of the great cities of our vast province!",
-    "report": true
-  },
-  {
-    "line": "Ragni's King: Welcome to the Province of Wynn! By your ragged appearance, I gather your journey here must have been quite the adventure.",
-    "report": true
-  },
-  {
-    "line": "Ragni's King: With that, I must bid you farewell, more recruits may arrive at any time. Good luck out there, soldiers of Wynn!",
     "report": true
   },
   {
@@ -112942,5 +112870,89 @@
   {
     "line": "Gale: Weeeell, I just figured 'til death do us part is for quitters.",
     "file": "frumasecretdiscoveries-gale-30"
+  },
+  {
+    "line": "Ragni's King: Off you go, I've said everything I have to say.",
+    "file": "kingsrecruit-ragnisking-9"
+  },
+  {
+    "line": "Ragni's King: With that, I must bid you farewell, more recruits may arrive at any time. Good luck out there, soldiers of Wynn!",
+    "file": "kingsrecruit-ragnisking-10"
+  },
+  {
+    "line": "King of Ragni: With that, I must bid you farewell, more recruits may arrive at any time. Good luck out there, soldiers of Wynn!",
+    "file": "kingsrecruit-ragnisking-10"
+  },
+  {
+    "line": "Ragni's King: Take this [Ragni Teleportation Scroll] to aid you in your journey. Upon use, it will instantly bring you back to this city, wherever you may be.",
+    "file": "kingsrecruit-ragnisking-11"
+  },
+  {
+    "line": "King of Ragni: Take this [Ragni Teleportation Scroll] to aid you in your journey. Upon use, it will instantly bring you back to this city, wherever you may be.",
+    "file": "kingsrecruit-ragnisking-11"
+  },
+  {
+    "line": "Ragni's King: Although, you might want to gain some experience beforehand. Many lives are tragically lost every day...",
+    "file": "kingsrecruit-ragnisking-12"
+  },
+  {
+    "line": "King of Ragni: Although, you might want to gain some experience beforehand. Many lives are tragically lost every day...",
+    "file": "kingsrecruit-ragnisking-12"
+  },
+  {
+    "line": "Ragni's King: As soldiers of Wynn, it is your duty to stem the tide of corrupted monsters ravaging this land.",
+    "file": "kingsrecruit-ragnisking-13"
+  },
+  {
+    "line": "King of Ragni: As soldiers of Wynn, it is your duty to stem the tide of corrupted monsters ravaging this land.",
+    "file": "kingsrecruit-ragnisking-13"
+  },
+  {
+    "line": "Ragni's King: This, recruits, is the noble fort of Ragni, one of the great cities of our vast province!",
+    "file": "kingsrecruit-ragnisking-14"
+  },
+  {
+    "line": "King of Ragni: This, recruits, is the noble fort of Ragni, one of the great cities of our vast province!",
+    "file": "kingsrecruit-ragnisking-14"
+  },
+  {
+    "line": "Ragni's King: Welcome to the Province of Wynn! By your ragged appearance, I gather your journey here must have been quite the adventure.",
+    "file": "kingsrecruit-ragnisking-15"
+  },
+  {
+    "line": "King of Ragni: Welcome to the Province of Wynn! By your ragged appearance, I gather your journey here must have been quite the adventure.",
+    "file": "kingsrecruit-ragnisking-15"
+  },
+  {
+    "line": "Ragni's King: Ah. Please head to the meeting room. I will join shortly.",
+    "file": "kingsrecruit-ragnisking-16"
+  },
+  {
+    "line": "Ragni's King: Ah, welcome my young recr-... my young master.",
+    "file": "kingsrecruit-ragnisking-17"
+  },
+  {
+    "line": "Ragni's King: I remember each face which passes through my castle. I rarely see any of them again.",
+    "file": "kingsrecruit-ragnisking-18"
+  },
+  {
+    "line": "King of Ragni: I remember each face which passes through my castle. I rarely see any of them again.",
+    "file": "kingsrecruit-ragnisking-18"
+  },
+  {
+    "line": "Ragni's King: And yet again, I must send you all into danger... a different sort, this time around, but danger nonetheless.",
+    "file": "kingsrecruit-ragnisking-19"
+  },
+  {
+    "line": "King of Ragni: And yet again, I must send you all into danger... a different sort, this time around, but danger nonetheless.",
+    "file": "kingsrecruit-ragnisking-19"
+  },
+  {
+    "line": "Ragni's King: But this time... I have faith we will meet once more. Go on, young hero. Your mission lies ahead of you.",
+    "file": "kingsrecruit-ragnisking-20"
+  },
+  {
+    "line": "King of Ragni: But this time... I have faith we will meet once more. Go on, young hero. Your mission lies ahead of you.",
+    "file": "kingsrecruit-ragnisking-20"
   }
 ]
