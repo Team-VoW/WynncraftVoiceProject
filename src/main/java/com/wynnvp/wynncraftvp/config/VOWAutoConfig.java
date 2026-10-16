@@ -28,12 +28,18 @@ public class VOWAutoConfig {
     /** When the nudge about Minecraft's Directional Audio setting was last shown, in epoch millis. */
     public long directionalAudioHintLastShown = 0;
 
-    /** Base URL the sounds and sounds.json are served from; picked from {@link #urls} by latency. */
-    public String soundsBaseUrl = "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
+    /** Cloudflare R2 bucket behind our own domain; also hosts the audio manifest. */
+    public static final String R2_SOUNDS_URL = "https://audio.voicesofwynn.com/sounds/";
 
-    public String azureBlobRootLink = "https://vow.blob.core.windows.net/mod/";
+    /** jsDelivr mirror of the repo's sounds folder, kept as a fallback. */
+    public static final String JSDELIVR_SOUNDS_URL =
+            "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
 
-    public List<String> urls = List.of("https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/");
+    /** Base URL the sounds and sounds.json are served from. Overwritten by the bootup API. */
+    public String audioBaseUrl = R2_SOUNDS_URL;
+
+    /** Every server sounds can be streamed from, tried in order after {@link #audioBaseUrl}. */
+    public List<String> audioMirrorUrls = List.of(R2_SOUNDS_URL, JSDELIVR_SOUNDS_URL);
 
     public double npcFinderThingMaxDistanceChangeBeforeCacheInvalid = 0.5;
 
@@ -291,6 +297,6 @@ public class VOWAutoConfig {
     }
 
     public String getRemoteJsonLink() {
-        return soundsBaseUrl + "sounds.json";
+        return audioBaseUrl + "sounds.json";
     }
 }

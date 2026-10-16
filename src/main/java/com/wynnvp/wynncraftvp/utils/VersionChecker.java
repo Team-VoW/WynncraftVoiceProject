@@ -39,8 +39,8 @@ public final class VersionChecker {
     static void apply(VoWApiClient.BootupResponse response, boolean betaBuild, boolean showFunFact, String version) {
         BootupPlan plan = plan(response, betaBuild, showFunFact);
         if (plan.audioBaseUrl() != null) {
-            config.soundsBaseUrl = plan.audioBaseUrl();
-            if (!plan.audioMirrorUrls().isEmpty()) config.urls = plan.audioMirrorUrls();
+            config.audioBaseUrl = plan.audioBaseUrl();
+            if (!plan.audioMirrorUrls().isEmpty()) config.audioMirrorUrls = plan.audioMirrorUrls();
             config.save();
         }
 

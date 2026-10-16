@@ -76,7 +76,14 @@ class VowConfigHolderTest {
                             "blockVillagerSoundsDuringVoiceDialog = true\nrouteMasterSoundsToBlocks = true\n")
                     // Renamed keys are written under their new name; the retired ones drop out and
                     // their replacements fall back to the field default.
-                    .replace("azureBlobLink = ", "soundsBaseUrl = ")
+                    .replace(
+                            "azureBlobLink = \"https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/\"",
+                            "audioBaseUrl = \"https://audio.voicesofwynn.com/sounds/\"")
+                    .replace("azureBlobRootLink = \"https://vow.blob.core.windows.net/mod/\"\n", "")
+                    .replace(
+                            "urls = [\"https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/\"]",
+                            "audioMirrorUrls = [\"https://audio.voicesofwynn.com/sounds/\", "
+                                    + "\"https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/\"]")
                     .replace(
                             "lastsSoundsUpdateHeader = \"Sat, 04 Apr 2026 19:24:51 GMT\"\n",
                             "soundsJsonETag = \"never\"\naudioManifestETag = \"\"\n")
@@ -96,7 +103,9 @@ class VowConfigHolderTest {
         // lastsSoundsUpdateHeader held a Last-Modified date; it was retired for an ETag under a new
         // key, so an old file leaves soundsJsonETag at its default and the cache revalidates once.
         assertEquals("never", config.soundsJsonETag);
-        assertEquals(List.of("https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/"), config.urls);
+        // The audio server keys were renamed so a stale jsDelivr-only list is not carried over.
+        assertEquals(VOWAutoConfig.R2_SOUNDS_URL, config.audioBaseUrl);
+        assertEquals(List.of(VOWAutoConfig.R2_SOUNDS_URL, VOWAutoConfig.JSDELIVR_SOUNDS_URL), config.audioMirrorUrls);
         assertEquals(0.5, config.npcFinderThingMaxDistanceChangeBeforeCacheInvalid);
         assertEquals(32, config.blockCutOff);
         assertEquals(15, config.earlyPlayOverlayMinChars);

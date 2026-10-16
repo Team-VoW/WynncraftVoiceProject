@@ -28,7 +28,9 @@ import org.slf4j.LoggerFactory;
 public class AudioPlayer {
     private static final Logger log = LoggerFactory.getLogger(AudioPlayer.class);
     private static final int REMOTE_FETCH_ATTEMPTS = 3;
-    private static final Duration REMOTE_FETCH_TIMEOUT = Duration.ofSeconds(3);
+    // Generous on purpose: a line nobody has played in a while is fetched from origin rather than the
+    // edge cache, and a late line beats a missing one. A stale result is dropped by the generation check.
+    private static final Duration REMOTE_FETCH_TIMEOUT = Duration.ofSeconds(5);
     private static final Duration REMOTE_FETCH_RETRY_DELAY = Duration.ofMillis(150);
     public final OpenAlPlayer openAlPlayer;
     public final AutoProgress autoProgress;
@@ -227,8 +229,8 @@ public class AudioPlayer {
             return urls;
         }
 
-        urls = new ArrayList<>(ModCore.config.urls);
-        String fastestServer = ModCore.config.soundsBaseUrl;
+        urls = new ArrayList<>(ModCore.config.audioMirrorUrls);
+        String fastestServer = ModCore.config.audioBaseUrl;
         urls.remove(fastestServer);
         urls.addFirst(fastestServer);
         return urls;

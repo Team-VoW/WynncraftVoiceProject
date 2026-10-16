@@ -85,3 +85,91 @@ jobs:
 
           # Kept for mod versions released before audio_manifest.json.gz existed; they still read this.
           azcopy copy "audio_manifest.json" "${containerUrl}/audio_manifest.json?${sasToken}" --overwrite=true
+
+      # Cloudflare R2 (audio.voicesofwynn.com) serves the audio and the manifest from here on.
+      # Order matters: audio first, then purge it from the edge, and only then publish the manifest.
+      # A manifest that lands before its audio would make the downloader see hash mismatches.
+      - name: Install rclone
+        run: sudo apt-get update -q && sudo apt-get install -y -q rclone
+
+      - name: Sync audio to R2
+        env:
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          RCLONE_CONFIG_R2_NO_CHECK_BUCKET: 'true'
+        run: |
+          # Content types are set explicitly; the runner's MIME table does not reliably know .ogg.
+          rclone sync sounds/ r2:vow-audio/sounds/ --include "*.ogg" --checksum \
+            --transfers 32 --checkers 32 --header-upload "Content-Type: audio/ogg" --stats-one-line -v
+          rclone copyto sounds/sounds.json r2:vow-audio/sounds/sounds.json \
+            --header-upload "Content-Type: application/json"
+
+      - name: Purge changed audio from the Cloudflare cache
+        env:
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_PURGE_TOKEN: ${{ secrets.CF_PURGE_TOKEN }}
+          BEFORE_SHA: ${{ github.event.before }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - << 'EOF'
+          import json, os, subprocess, urllib.request
+
+          BASE = "https://audio.voicesofwynn.com/sounds/"
+          # Above this many files, one purge-everything is cheaper than many batched calls.
+          PURGE_EVERYTHING_ABOVE = 300
+          BATCH = 30
+
+          def purge(body):
+              req = urllib.request.Request(
+                  f"https://api.cloudflare.com/client/v4/zones/{os.environ['CF_ZONE_ID']}/purge_cache",
+                  data=json.dumps(body).encode(),
+                  headers={"Authorization": f"Bearer {os.environ['CF_PURGE_TOKEN']}",
+                           "Content-Type": "application/json"},
+                  method="POST")
+              with urllib.request.urlopen(req) as resp:
+                  result = json.load(resp)
+              if not result.get("success"):
+                  raise SystemExit(f"Purge failed: {result}")
+
+          before = os.environ.get("BEFORE_SHA", "")
+          changed = None
+          # A manual run or a brand-new branch has no usable "before" commit to diff against.
+          if os.environ["EVENT_NAME"] == "push" and before and set(before) != {"0"}:
+              out = subprocess.run(
+                  ["git", "diff", "--name-only", before, os.environ["GITHUB_SHA"], "--", "sounds/"],
+                  capture_output=True, text=True, check=True).stdout
+              changed = [p for p in out.splitlines() if p.endswith(".ogg")]
+
+          if changed is None or len(changed) > PURGE_EVERYTHING_ABOVE:
+              print("Purging everything")
+              purge({"purge_everything": True})
+          else:
+              urls = [BASE + os.path.basename(p) for p in changed] + [BASE + "sounds.json"]
+              for i in range(0, len(urls), BATCH):
+                  purge({"files": urls[i:i + BATCH]})
+              print(f"Purged {len(urls)} URLs")
+          EOF
+
+      - name: Publish manifest to R2
+        env:
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          RCLONE_CONFIG_R2_ENDPOINT: https://${{ secrets.R2_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          RCLONE_CONFIG_R2_NO_CHECK_BUCKET: 'true'
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+          CF_PURGE_TOKEN: ${{ secrets.CF_PURGE_TOKEN }}
+        run: |
+          rclone copyto audio_manifest.json.gz r2:vow-audio/sounds/audio_manifest.json.gz \
+            --header-upload "Content-Type: application/gzip"
+          rclone copyto audio_manifest.json r2:vow-audio/sounds/audio_manifest.json \
+            --header-upload "Content-Type: application/json"
+
+          # Cloudflare caches .gz by default, so the old manifest would linger at the edge otherwise.
+          curl -sf -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE_ID}/purge_cache" \
+            -H "Authorization: Bearer ${CF_PURGE_TOKEN}" -H "Content-Type: application/json" \
+            --data '{"files":["https://audio.voicesofwynn.com/sounds/audio_manifest.json.gz","https://audio.voicesofwynn.com/sounds/audio_manifest.json"]}'

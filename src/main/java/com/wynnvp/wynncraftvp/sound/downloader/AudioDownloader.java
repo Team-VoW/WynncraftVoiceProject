@@ -8,6 +8,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.BetaConfig;
+import com.wynnvp.wynncraftvp.config.VOWAutoConfig;
 import com.wynnvp.wynncraftvp.sound.player.AudioPlayer;
 import java.io.File;
 import java.io.FileInputStream;
@@ -64,8 +65,6 @@ public class AudioDownloader {
     private static final String MANIFEST_CACHE_FILE = ".vow_manifest_cache.json.gz";
 
     private final String audioDir;
-    private static final String DEFAULT_BASE_URL =
-            "https://cdn.jsdelivr.net/gh/Team-VoW/WynncraftVoiceProject@main/sounds/";
 
     @SuppressWarnings("ConstantValue")
     private static String getEffectiveBaseUrl() {
@@ -74,20 +73,23 @@ public class AudioDownloader {
             LOGGER.info("Using beta sounds base URL");
             return betaBaseUrl;
         }
-        LOGGER.info("Using default sounds base URL: {}", DEFAULT_BASE_URL);
-        return DEFAULT_BASE_URL;
+        String baseUrl = ensureTrailingSlash(ModCore.config.audioBaseUrl);
+        LOGGER.info("Using sounds base URL: {}", baseUrl);
+        return baseUrl;
     }
 
     private static String ensureTrailingSlash(String baseUrl) {
         return baseUrl.endsWith("/") ? baseUrl : baseUrl + "/";
     }
 
+    // The manifest always comes from R2 rather than following audioBaseUrl: the jsDelivr mirror
+    // does not carry it.
     private String getManifestUrl() {
-        return ModCore.config.azureBlobRootLink + MANIFEST_FILE;
+        return VOWAutoConfig.R2_SOUNDS_URL + MANIFEST_FILE;
     }
 
     private String getLegacyManifestUrl() {
-        return ModCore.config.azureBlobRootLink + LEGACY_MANIFEST_FILE;
+        return VOWAutoConfig.R2_SOUNDS_URL + LEGACY_MANIFEST_FILE;
     }
 
     private final HashMap<String, AudioMetadata> metadataMap = new HashMap<>();

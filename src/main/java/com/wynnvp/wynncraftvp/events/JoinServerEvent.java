@@ -6,7 +6,6 @@ package com.wynnvp.wynncraftvp.events;
 
 import com.wynnvp.wynncraftvp.ModCore;
 import com.wynnvp.wynncraftvp.config.BetaConfig;
-import com.wynnvp.wynncraftvp.sound.BlobLatencyChecker;
 import com.wynnvp.wynncraftvp.utils.Utils;
 import com.wynnvp.wynncraftvp.utils.VersionChecker;
 import java.text.DecimalFormat;
@@ -38,22 +37,9 @@ public class JoinServerEvent {
                 ModCore.config.setHasShownMissingLineNotification(true);
                 ModCore.config.save();
             }
+            // The sounds server is not raced by latency any more: the bootup call above sets it, and
+            // the other entries in config.audioMirrorUrls are tried in order only when it fails.
             ModCore.instance.audioDownloader.checkIfHasNot();
-
-            if (!BetaConfig.isBetaBuild()) {
-                BlobLatencyChecker checker = new BlobLatencyChecker(ModCore.config.urls);
-
-                checker.findFastestEndpointAsync()
-                        .thenAccept(fastestUrl -> {
-                            ModCore.config.soundsBaseUrl = fastestUrl;
-                            ModCore.config.save();
-                        })
-                        .exceptionally(throwable -> {
-                            Utils.sendMessage("Failed finding fastest server.");
-                            return null;
-                        })
-                        .thenRun(checker::shutdown);
-            }
         }
     }
 }
